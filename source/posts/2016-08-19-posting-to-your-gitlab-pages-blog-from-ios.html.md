@@ -60,8 +60,6 @@ repository to your iOS device by following the instructions in the app's [user g
 
 ### Creating a new branch
 
-![Creating a new branch in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-branch-annotated.png)
-
 Next, navigate to your site's repository and create a new branch. In Editorial,
 this is done by tapping the **Repository** cell, then the **Branch** cell, and then
 the top-rightmost button (create new branch) in the navigation bar. Give your branch
@@ -69,9 +67,9 @@ a name (for example, something like `post_title-of-article_yyyy-mm-dd` might be
 useful), and then tap on **Done**. Tap the **<** (back) button on the top-left of
 the navigation bar twice to go back to your repository.
 
-### Creating a new file for the post
+![Creating a new branch in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-branch-annotated.png){: .shadow}
 
-![Creating a new file in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-file-annotated.png)
+### Creating a new file for the post
 
 Now that you're on a new branch, navigate within your repository to the folder where
 posts go. In Hugo's default [setup][hugoquickstart], this is `/content/post`&mdash;
@@ -81,9 +79,9 @@ the sheet that pops up, tap **Create text file**. Give the file a name (e.g.,
 `title-of-article.md`). If you like, tap on the newly-created file to view details,
 then go back.
 
-### Opening the file for editing
+![Creating a new file in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-file-annotated.png){: .shadow}
 
-![Opening the file for editing in Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-open-file-for-editing-annotated.png)
+### Opening the file for editing
 
 Of course, since the file is empty, you need to edit it to draft your post. Tap on
 the file in the table view to display the file contents (currently empty), then
@@ -92,6 +90,8 @@ share sheet that pops up, tap **Edit** to begin editing the file in Working Copy
 file in Editorial for writing. The first time you do so, Working Copy will let you
 know what's going to happen, and invite you to install the "Working Copy" workflow
 in Editorial. This will let you send the file back to Working Copy, ready for committing.
+
+![Opening the file for editing in Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-open-file-for-editing-annotated.png){: .shadow}
 
 ### Adding required front matter
 
@@ -112,7 +112,7 @@ in mind that your SSG may not be using the same Markdown rendering engine as
 Editorial does, so if you're using non-standard Markdown elements, the final post
 may not look exactly the same.
 
-![Sending the file back to Working Copy from Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-editorial-workflow-annotated.png)
+![Sending the file back to Working Copy from Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-editorial-workflow-annotated.png){: .shadow}
 
 When you're at a point where you want to save and commit your progress, tap the 🔧
 icon in the top-right of the navigation bar in Editorial, then tap the **Working
@@ -137,7 +137,7 @@ a short summary, as well as an (optional) detailed explanation of the changes. B
 the text fields, you'll see a list of files to commit (i.e., the text file you added
 for your post, and any images you uploaded in Working Copy).
 
-![Commit and push from Working Copy to GitLab](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-commit-and-push-annotated.png)
+![Commit and push from Working Copy to GitLab](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-commit-and-push-annotated.png){: .shadow}
 
 Once you've entered a commit message, the **Commit** button will be enabled in the
 top-right of the navigation bar. Next to it is a **&#43;Push** toggle; if it's
