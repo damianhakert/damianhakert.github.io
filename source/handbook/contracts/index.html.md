@@ -8,6 +8,7 @@ title: "Contracts"
 * [Disclaimer](#disclaimer)
 * [How to use this page to prepare a contract](#how-to-use)
 * [Employment and Contractor Agreements](#employee-contractor-agreements)
+* [Core Team Member Non-Disclosure Agreement](#core-team-nda)
 * [Usability Testing Consent](#usability-consent)
 * [Template Invitation Letter for visa purposes](#invitation-letter)
 
@@ -45,6 +46,10 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab Inc., contractor agreement with PIAA](https://docs.google.com/document/d/1TJXiS8LLwyFZSUH2eKj3Y24TYoqDEnLV7b9WFXfnPs8/edit)
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
+
+## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
+
+Core team members are an important part of the GitLab community. In order for these individuals to be able to participate in confidential GitLab communications we ask core team members to sign a [Non-Disclosure Agreement](https://docs.google.com/a/gitlab.com/document/d/18nYA_UoTqLY_L-rW5qGJxLJfxDGwK5v_NXZVg1hoQzM/edit?usp=sharing). This document is reviewed and signed by the CFO. 
 
 ## Usability Testing Consent<a name="usability-consent"></a>
 
