@@ -177,9 +177,9 @@ see the GitLab Issue Board in action, take a look at GitLab Developer Advocates
   <iframe src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-## Join our webcast on August 25
+## Join our webcast
 
-On August 25th, we’ll be hosting a webinar to discuss and demo the Issue Board and all of the other
+On September 1st, we’ll be hosting a webinar to discuss and demo the Issue Board and all of the other
 great features in GitLab 8.11. [Register here][webcast].
 
 <!-- identifiers -->
@@ -198,7 +198,7 @@ great features in GitLab 8.11. [Register here][webcast].
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
 [mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
-[webcast]: https://page.gitlab.com/AugustWebcast_LandingPage.html
+[webcast]: https://Page.gitlab.com/IssueBoardWebcast_LandingPage.html
 [Amanda]: https://twitter.com/AmbassadorAwsum
 [Ivan]: https://twitter.com/inemation
 
