@@ -6,11 +6,19 @@ author_twitter: Jobvo
 image_title: /images/8_11/pic2.jpg
 ---
 
-Every month at GitLab, I shout in excitement to our team:
-"This is the best release ever!" - and I mean it, every time. But _this release_,
-GitLab 8.11, is so good that it outshines all previous releases.
+There are so many good things in GitLab 8.11, that I struggle to introduce all this
+without turning to superlatives. So, without further ado:
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Clement Ho for his various merge requests and responsiveness on issues.
+With GitLab 8.11 you get a completely new way to manage your issues,
+you can resolve merge conflicts in the interface,
+you can restrict pushes to people and groups (in EE),
+you get an online IDE,
+can use slash commands to modify issues and
+use as many issue templates as
+you want ..and that's not all.
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Clement Ho for his merge requests and responsiveness on issues.
 Thanks Clement Ho!
 
 <!--more-->
@@ -24,7 +32,7 @@ You can now create workflows, quickly get an idea of the status of your
 issues and all that in a simple, beautiful Board, not unlike a Kanban or Scrum
 board.
 
-![]()
+![Issue Boards in GitLab 8.11](/images/8_11/issue_boards.gif)
 
 You have a board for every project, which starts with a Backlog with all open
 issues and a Done list, where issues are automatically closed.
@@ -39,6 +47,8 @@ in one (or more!) of the lists.
 
 To see an example, have a look at the
 [GitLab CE Issue Board for the next release (8.12)](https://gitlab.com/gitlab-org/gitlab-ce/board?author_id=&assignee_id=&milestone_title=8.12).
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen></iframe>
 
 > [Documentation link](link)
 
@@ -74,7 +84,7 @@ we've added the ability to do just that: Each comment and discussion on merge
 request diffs can be resolved. Longer threads can be resolved all at once
 or just comment-by-comment.
 
-![]()
+![Resolve Discussions in GitLab 8.11](/images/8_11/resolve_discussion.png)
 
 ## Pipelines Graph
 
@@ -82,7 +92,7 @@ Pipelines in GitLab can be complex structures with many sequential and parallel
 builds. To make it a little easier to see what is going on, you can now view
 a graph of a single pipeline and its status:
 
-![]()
+![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph.png)
 
 TODO Find it HERE AND HERE
 
@@ -117,7 +127,13 @@ Use them in comments or even when creating a new issue or merge request:
 You can have multiple commands in a single comment and do things like changing
 the title of an issue, adding or removing labels and changing assignees.
 
-Try using some slash commands in a template! Or through the API!
+Here are some ideas on using the new slash commands:
+
+- In your email while replying to an issue TODO doc link
+- When creating a new issue through email (see below!)
+- Try having some in a template
+- Through the notes API
+
 We can't wait to see how you'll use them.
 
 ## Koding Integration
@@ -136,6 +152,16 @@ a fully fledged IDE with the press of a button.
 You will now see your [Pipelines](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/#pipelines) in merge requests!
 
 ![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png)
+
+## Email a new Issue
+
+To create a new issue, you can now send an email!
+Find the email address on the bottom of the issues list and then use
+the subject for the title and the body of the email for the description of
+the issue.
+
+If you want to use set the milestone, add labels or anything else, make
+use of the slash commands!
 
 ## MR links when pushing
 
