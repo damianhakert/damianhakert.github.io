@@ -31,6 +31,8 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 
 We gladly organize and pay for local legal assistance, especially if you are at high risk of having a long process.
 
+If you need a visa to travel to the United States, please fill out this [form](https://docs.google.com/a/gitlab.com/forms/d/1hqwakBUfV5uybwtYHnRvkT_ZTm1CEUKqdNmU6e-BPdQ/edit). Here is an [example](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPd0VpNTZWOWxEVzg/view?usp=sharing) of the how the form will looked when completed. People Ops will verify accuracy and send you an email with the signed letter. 
+
 
 ### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
 

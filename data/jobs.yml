@@ -110,8 +110,8 @@
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
-  apply: https://gitlab.workable.com/jobs/227708/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "UX Lead"
   description: /jobs/ux-lead/

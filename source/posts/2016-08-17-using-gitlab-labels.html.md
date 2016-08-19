@@ -37,7 +37,7 @@ direct **focus** and **workflow**.
 How does [GitLab define their label feature][doc]?
 
 > _Labels provide an easy way to categorize the issues or merge requests based
-on descriptive titles like bug, documentation or any other text you feel like it.
+on descriptive titles like bug, documentation or any other text you feel like.
 They can have different colors, a description, and are visible throughout the
 issue tracker or inside each issue individually._
 
@@ -88,7 +88,7 @@ Now I can direct my attention to only those items that need it.
 
 ----
 
-This post was [originally published][post] by Brian O'Connor himself.
+This post was [originally published][post] by Brian O'Connell himself.
 {: .note}
 
 <!-- 

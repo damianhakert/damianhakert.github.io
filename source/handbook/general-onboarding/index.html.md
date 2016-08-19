@@ -7,6 +7,7 @@ title: "GitLab Onboarding"
 
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
+* [UX Designer onboarding](/handbook/uxdesigner-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 
@@ -80,7 +81,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
     > before the call and make sure that your camera and microphone are working
-    > properly. We'd like you to introduce yourself to the team so please
+    > properly. We'd like you to introduce yourself to the team (±1 minute), so please
     > prepare some talking points for yourself. Some tips to help you out here:
     > tell us about where you were before GitLab, why you wanted to join our
     > team, just a little something about your background and of course
@@ -137,6 +138,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
+1. [ ] Hiring Manager: Invite new team member to the recurring weekly team-meeting.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
@@ -199,6 +201,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 1. [ ] Hiring Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
+1. [ ] Hiring Manager: (for UX Designers) Add new team member to the GitLab Dribbble Organization.
 
 ### FOR MARKETING ONLY
 
@@ -250,7 +253,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * Become familiar with the README.md’s for these projects:
   1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
   1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-  1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
+  1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
+* Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
+* Review our [Team Call Section](/handbook/#team-call)) for the daily call
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
   1. [Documentation](https://about.gitlab.com/documentation/)
   1. [EE Pricing](https://about.gitlab.com/pricing/)
