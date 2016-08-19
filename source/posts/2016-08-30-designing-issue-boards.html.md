@@ -5,7 +5,7 @@ author_twitter: tauried
 categories: GitLab
 image_title: '/images/blogimages/designing-issue-boards/header-image.png'
 description: 'Feature Highlight: Learn how the UX team worked togther on the creation of issue boards.'
-twitter_image: '/images/tweets/####.png'
+twitter_image: '/images/tweets/designing-issue-boards.png'
 ---
 
 Accurate planning and coordination of what goes in each release at GitLab is critical to shipping useful features on time each month. In order to improve our planning process for not only ourselves but also for everyone who uses GitLab, we took a look at our existing features that help teams organize issues and determined that our current milestone board was not powerful enough for larger teams or more complex projects. The team then began to brainstorm ideas for designing and implementing a new type of board that allows users to visually plan issues by utilizing our exisiting label feature to create lists.
