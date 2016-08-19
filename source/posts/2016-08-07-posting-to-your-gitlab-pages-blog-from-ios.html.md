@@ -156,25 +156,25 @@ required scripts, and publish the changes to your site!
 
 ## Final thoughts
 
-If:
+The workflow described in this article might be for you if:
 
 - you're the type to be struck by inspiration, and want to be able to draft something
 quickly, or
 - you're often away from your computer, or
 - you want to blog about your trip while you're travelling, or
-- you just plain prefer to use iOS devices in place of computers,
+- you simply prefer to use iOS devices in place of computers,
 
-this is a very convenient way to use a SSG for its benefits without giving up your
-ability to work from anywhere.
+If any of these situations apply to you, this is a very convenient way to use a
+ SSG for its benefits, without giving up your ability to work from anywhere.
 
-However, there are some caveats to consider. For one, you can't render site locally
-on your iPhone to preview what your post (or other changes, for that matter) will
-look like when it goes live. If you're still in the process of tweaking things, or
- you haven't fully explored your SSG's Markdown rendering engine, that can be a bit
-troublesome&mdash;for example, you may only find out after the post goes live that
-it will correctly render an HTML entity by code (e.g., `&#43;`) but not by description
-(e.g., `&plus;`). Oops. Of course, you can always sync your working branch back
-to your computer and preview it there, if you really need to.
+However, there are some caveats to consider. For one, you can't render your site
+locally on your iPhone to preview what your post (or other changes, for that matter)
+will look like when it goes live. If you're still in the process of tweaking things,
+or  you haven't fully explored your SSG's Markdown rendering engine, that can be
+a bit troublesome&mdash;for example, you may only find out after the post goes
+live that it will correctly render an HTML entity by code (e.g., `&#43;`) but not
+by description (e.g., `&plus;`). Oops. Of course, you can always sync your working
+branch back to your computer and preview it there, if you really need to.
 
 Additionally, if you're using your iPhone, the screen and virtual keyboard size
 may be uncomfortable for typing longer posts. You can of course use an external
@@ -185,7 +185,8 @@ Finally, while Working Copy and Editorial are both excellent, professional-level
 apps, they may not be in your budget. Fortunately, you can always do everything
 outline here via the GitLab website so long as you have an internet connection;
 if you want to continue writing while offline, you can always copy and paste into
-iOS's Notes app (which, it should be noted, lacks Markdown preview rendering).
+one of [many text editors for iOS][itexteditors], many of which also feature
+Markdown previewing.
 
 Whatever method you choose, it's comforting to know that GitLab has you covered
 should you want to post to your SSG-powered blog from your iOS device!
@@ -217,3 +218,4 @@ best path towards building great things _and_ great teams.
 [hugoquickstart]: http://gohugo.io/overview/quickstart/
 [hugofrontmatter]: https://gohugo.io/content/front-matter/
 [hugotemplate]: https://gitlab.com/pages/hugo
+[itexteditors]: http://brettterpstra.com/ios-text-editors/
