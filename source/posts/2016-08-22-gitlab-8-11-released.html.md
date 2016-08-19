@@ -163,12 +163,23 @@ the issue.
 If you want to use set the milestone, add labels or anything else, make
 use of the slash commands!
 
+## Code Highlighting and Collapsing
+
+The editor in GitLab now properly highlights code and allows you to
+collapse blocks of code.
+
+![Code highlighting in GitLab 8.11](/images/8_11/highlighting.gif)
+
 ## MR links when pushing
 
 You'll now see a link to quickly create a new merge request and
 any related merge requests when you push to GitLab.
 
 ![Merge request links when pushing in GitLab 8.11](/images/8_11/mr_link.png)
+
+## Expiration date on Memberships
+
+TODO
 
 ## Move projects between shards
 
@@ -178,6 +189,8 @@ With GitLab 8.11 you can move projects between shards with a rake command.
 This is not something for everyday use, but convenient if you want to test
 a new shard or want to move that super-heavily used project over to faster
 storage.
+
+[mount-points]: https://about.gitlab.com/2016/07/22/gitlab-8-10-released/#multiple-repository-mount-points
 
 ### Improvements
 
@@ -272,6 +285,18 @@ This release has more improvements, including security fixes. Please check out [
 
 
 ## Upgrade barometer
+
+To upgrade to GitLab 8.11, downtime is required due to migrations.
+
+The downtime should not take more than 15 minutes.
+
+### 2FA enforced through API and Git over HTTP
+
+Users with 2FA enabled trying to retrieve an API token via the /sessions endpoint
+or the Resource Owner Password Credentials flow provided by OAuth2,
+will not be able to login. They will be required to use a Personal Access Token from now on.
+
+The same goes for users using Git over HTTP.
 
 ### (EE Only) Elasticsearch reindexing
 
