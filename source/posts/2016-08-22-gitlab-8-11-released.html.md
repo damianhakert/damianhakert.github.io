@@ -1,10 +1,14 @@
 ---
-title: "GitLab 8.11 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.11 released with Issue Boards and Merge Conflict Resolution"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_11/pic2.jpg
 ---
+
+Every month at GitLab, I shout in excitement to our team:
+"This is the best release ever!" - and I mean it, every time. But _this release_,
+GitLab 8.11, is so good that it outshines all previous releases.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Clement Ho for his various merge requests and responsiveness on issues.
 Thanks Clement Ho!
@@ -33,6 +37,9 @@ As effect, this means all your current issues will automatically appear in new
 lists you create and that you can quickly see whether a certain issue is
 in one (or more!) of the lists.
 
+To see an example, have a look at the
+[GitLab CE Issue Board for the next release (8.12)](https://gitlab.com/gitlab-org/gitlab-ce/board?author_id=&assignee_id=&milestone_title=8.12).
+
 > [Documentation link](link)
 
 ## Merge Conflict Resolution
@@ -42,14 +49,15 @@ in a busy project. We believe you shouldn't need any external tools to
 fix your conflicts, which is why you can now solve simple conflicts straight
 from GitLab.
 
-![]()
+![Merge Conflict Resolution in GitLab 8.11](/images/8_11/resolve_mc.gif)
 
-When you encounter a conflict, you simply click X to be able to select
+When you encounter a conflict, you simply click "Resolve these conflicts" to be able to select
 how you want the conflicts to be resolved. You confirm at the end to make a
 commit with your fix.
 
 We realize that this won't work for all conflicts, but hope that this will make
-those simpler conflicts less of a headache.
+the majority of your conflicts minor bumps in the road to getting your work
+to production.
 
 > [Documentation link](link)
 
@@ -104,7 +112,7 @@ or by having a command when writing your merge request or issue.
 
 Use them in comments or even when creating a new issue or merge request:
 
-![Slash commands in GitLab 8.11](/images/8_11/slash-commands1.gif)
+![Slash commands in GitLab 8.11](/images/8_11/slash-commands2.gif)
 
 You can have multiple commands in a single comment and do things like changing
 the title of an issue, adding or removing labels and changing assignees.
@@ -113,6 +121,15 @@ Try using some slash commands in a template! Or through the API!
 We can't wait to see how you'll use them.
 
 ## Koding Integration
+
+[Koding][koding-web] allows you to run your entire development environment
+in the cloud, share it with your team and even use your local editor. This
+means that you don't have to spend hours to set up your stack on every new
+machine and every change.
+
+With GitLab 8.11, we're introducing the Koding integration with GitLab.
+This means that you can check out a project or just a merge request in
+a fully fledged IDE with the press of a button.
 
 ## Pipelines in MRs
 
