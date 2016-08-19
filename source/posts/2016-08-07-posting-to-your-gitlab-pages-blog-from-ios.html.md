@@ -4,6 +4,7 @@ author: Angelo Stavrow
 author_twitter: AngeloStavrow
 categories: tutorial
 image_title: '/images/unsplash/ios-writing-anywhere.png'
+twitter_image: '/images/tweets/posting-to-your-gitlab-pages-blog-from-ios.png'
 description: "Tutorial: Learn how to post to your GitLab Pages blog from anywhere, using your iOS device."
 ---
 
