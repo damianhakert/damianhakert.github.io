@@ -178,16 +178,16 @@ by description (e.g., `&plus;`). Oops. Of course, you can always sync your worki
 branch back to your computer and preview it there, if you really need to.
 
 Additionally, if you're using your iPhone, the screen and virtual keyboard size
-may be uncomfortable for typing longer posts. You can of course use an external
+may be uncomfortable for typing longer posts. You can certainly use an external
 Bluetooth keyboard, but this may not be practical, and it doesn't change the size
 of your phone's screen!
 
 Finally, while Working Copy and Editorial are both excellent, professional-level
 apps, they may not be in your budget. Fortunately, you can always do everything
-outlined here via the GitLab website so long as you have an internet connection;
-if you want to continue writing while offline, you can always copy and paste into
-one of [many text editors for iOS][itexteditors], many of which also feature
-Markdown previewing.
+outlined here via the GitLab website (creating new branches and files) as long as
+you have an internet connection; if you want to continue writing while offline,
+you can always copy and paste into one of [many text editors for iOS][itexteditors],
+several of which also feature Markdown previewing.
 
 Whatever method you choose, it's comforting to know that GitLab has you covered
 should you want to post to your SSG-powered blog from your iOS device. What are
