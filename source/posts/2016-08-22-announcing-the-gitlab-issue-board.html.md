@@ -135,7 +135,7 @@ can drag and drop the lists to organize your Board according to your own workflo
 ### Labels
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> When
-you move issues between lists, the label on the issue is automatically updated.
+you move issues between lists, the label on the issue is automatically updated, though it doesn't show on the issue card.
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> This
 new label is displayed in the Issue Tracker as well as on the issue itself. So, even if someone on
