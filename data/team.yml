@@ -1418,16 +1418,16 @@
   story:  |
           Prior to joining GitLab, Kris was a civil engineering designer. When he is not at work he is enjoying the outdoors, surfing, kayaking, camping, and attending NASCAR races.
 
-- name: E.L.
-  locality:
-  country:
+- name: Erica Lindberg
+  locality: Boulder, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
   reports_to: Senior Product Marketing Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: erica.jpg
+  twitter: EricaLindberg_
+  gitlab: lindberg
   story:  |
-          Joining August 18th
+          As a self-described journalist, Erica is a dedicated researcher with a proclivity for narrative. Before joining GitLab, Erica worked for Kapost where she unofficially attended B2B marketing bootcamp. She is passionate about media, technology, and audience development. When she's not working, she enjoys hiking, cooking, and reading.
 
 - name: B.J.
   locality:
