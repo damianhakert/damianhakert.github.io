@@ -14,7 +14,7 @@ Accurate planning and coordination of what goes in each release at GitLab is cri
 
 ## The proposal
 
-At GitLab, we believe that [the speed of innovation for our organization and product is constrained by the total complexity we've added so far](https://about.gitlab.com/handbook/#values). Creating boring solutions and simpliying our product to its absolute minimum allows us to ship faster and make iterations based on real user feedback. With this in mind, our team began determining basic principals that would help guide us during the creation process of the new issue board feature.
+At GitLab, we believe that [the speed of innovation for our organization and product is constrained by the total complexity we've added so far](/handbook/#boring-solutions). Creating boring solutions and simpliying our product to its absolute minimum allows us to ship faster and make iterations based on real user feedback. With this in mind, our team began determining basic principals that would help guide us during the creation process of the new issue board feature.
 
 We knew we wanted the product to be able to:
 
@@ -49,7 +49,7 @@ Design, development, and product all worked closely throughout creation process 
 
 ## What's next
 
-Issue boards were created as a flexible tool that can be used for various workflows and tasks. We lean towards light-weight, flexible implementations so we can ship quickly, see real use cases, and make informed interations. We are super excited to continue working on issue boards in the upcoming releases; from multiple and cross-project boards to frontend data caching. If you have further ideas for improvements, let us know by [making an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/new?issue)!
+Issue boards were created as a flexible tool that can be used for various workflows and tasks. We lean towards light-weight, flexible implementations so we can ship quickly, see real use cases, and make informed interations. We are super excited to continue working on issue boards in the upcoming releases; from multiple and cross-project boards to frontend data caching. If you have further ideas for future improvements, let us know by [making an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/new?issue)!
 
 
 
