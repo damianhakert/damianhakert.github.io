@@ -144,6 +144,9 @@
     - address: 上海，中国
       phone: + 86 (21) 6121 0910
     - website: http://www.shcsinfo.com/
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/SHCSINFO
 - name: Pivotal Cloud Foundry
   image: /images/resellers/pivotal-logo.svg
   content: |
@@ -152,8 +155,6 @@
   contact:
     - website: https://network.pivotal.io/products/p-gitlab
   social:
-    - type: gitlab
-      url: https://gitlab.com/u/SHCSINFO
     - type: twitter
       url: https://twitter.com/pivotal
     - type: twitter
