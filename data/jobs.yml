@@ -58,6 +58,11 @@
   apply:
   open: false
 
+- title: "Recruiter"
+  description: /jobs/recruiter/
+  apply: https://gitlab.workable.com/jobs/269339/candidates/new
+  open: true
+
 - title: "People Operations Coordinator"
   description: /jobs/people-ops-coordinator/
   apply:
