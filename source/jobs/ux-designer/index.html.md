@@ -14,7 +14,7 @@ title: "UX Designer"
 ## Tools
 
 * UI/UX: Adobe CC, Sketch, Antetype, Web typography, assets
-* Prototyping: Framer, Origami by Facebook, Principal for Mac, HTML/CSS/JS prototyping only.
+* Prototyping: Framer, Origami by Facebook, Principal for Mac, HTML/CSS/JS
 
 ## Workflow
 
