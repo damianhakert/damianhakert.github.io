@@ -116,10 +116,9 @@ We can't wait to see how you'll use them.
 
 ## Pipelines in MRs
 
-You will now see your Pipelines in merge requests:
+You will now see your [Pipelines](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/#pipelines) in merge requests!
 
-![]()
-
+![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png)
 
 ## MR links when pushing
 
@@ -184,26 +183,26 @@ storage.
   projects used in these queries:
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5791)
 * SVG images larger than 2MB are no longer displayed, reducing loading times and
-  memory usage: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5794
-* A memory leak in the Markdown sanitzation filter has been solved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5808
+  memory usage: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5794)
+* A memory leak in the Markdown sanitization filter has been solved:
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5808)
 * The dropdown used for displaying a list of projects an issue can be moved to
   uses pagination instead of loading all data at once:
-  <https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828>,
-  <https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686>
+  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828)>,
+  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)>
 * Methods cals for finding Git blobs that were not needed have been removed:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848)
 * The branches dropdown in the cherry pick and revert dialogues is now loaded
-  asynchronously: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5607
+  asynchronously: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5607)
 * The queries used to mark todos as done have been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5832
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5832)
 * gitlab_git has been updated to 10.4.7 to take advantage of various
   improvements made to this library:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5851
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5851)
 * Git access checks in Enterprise Edition have been improved:
-  https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/647
+  [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/647)
 * An unnecessary index on the geo_nodes table has been removed:
-  https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/639
+  [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/639)
 
 ### Features
 
