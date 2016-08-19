@@ -1,5 +1,6 @@
 ---
 title: "Posting to your GitLab Pages blog from iOS"
+date: 2016-08-19 14:00
 author: Angelo Stavrow
 author_twitter: AngeloStavrow
 categories: tutorial
