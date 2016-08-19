@@ -244,6 +244,7 @@ What is Marketing Operations (to be included).
 
 [Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
 [Handbook][Marketing Operations]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> JJ][jennifer]{:.btn .btn-orange}
 
 ### Online Marketing
 {: .no_toc}
