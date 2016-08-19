@@ -184,13 +184,14 @@ of your phone's screen!
 
 Finally, while Working Copy and Editorial are both excellent, professional-level
 apps, they may not be in your budget. Fortunately, you can always do everything
-outline here via the GitLab website so long as you have an internet connection;
+outlined here via the GitLab website so long as you have an internet connection;
 if you want to continue writing while offline, you can always copy and paste into
 one of [many text editors for iOS][itexteditors], many of which also feature
 Markdown previewing.
 
 Whatever method you choose, it's comforting to know that GitLab has you covered
-should you want to post to your SSG-powered blog from your iOS device!
+should you want to post to your SSG-powered blog from your iOS device. What are
+your preferred mobile git clients and text editors? Tell us in the comments!
 
 ## About the author
 
