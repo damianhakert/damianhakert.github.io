@@ -93,6 +93,25 @@ a new issue or merge request:
 
 ![]()
 
+## Slash Commands
+
+Inspired by chat tools, such as IRC, Hipchat, Mattermost and Slack, we've add
+our own version of slash commands to GitLab. This means you can quickly
+change labels, milestones, assignees and more by just writing a commment
+or by having a command when writing your merge request or issue.
+
+![Slash commands in GitLab 8.11](/images/8_11/slash-commands.gif)
+
+Use them in comments or even when creating a new issue or merge request:
+
+![Slash commands in GitLab 8.11](/images/8_11/slash-commands1.gif)
+
+You can have multiple commands in a single comment and do things like changing
+the title of an issue, adding or removing labels and changing assignees.
+
+Try using some slash commands in a template! Or through the API!
+We can't wait to see how you'll use them.
+
 ## Koding Integration
 
 ## Pipelines in MRs
@@ -121,49 +140,49 @@ storage.
 ### Improvements
 
 * Checking if a user can read multiple issues has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5370
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5370)
 * Looking up a user's maximum access level has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5412
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5412)
 * Displaying CI charts now uses fewer SQL queries:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5502
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5502)
 * Various improvements have been made to GitLab's Git handling to use fewer Git
   operations and use faster sorting of version numbers:
-  <https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536>, <https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375>
+  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536)>, <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375)>
 * Commit authors are cached per Sidekiq transaction to avoid extra lookups:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5537
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5537)
 * The number of queries used for displaying merge request diffs has been
-  reduced: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5551
+  reduced: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5551)
 * Iterating over diff collections has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5564
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5564)
 * The performance of various methods that only depend on diff statistics has
-  been improved: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5568
+  been improved: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5568)
 * Diff rendering performance has been improved by removing redundant checks for
-  text blobs: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5575
+  text blobs: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5575)
 * Certain method calls that are not needed when rendering diffs have been
-  removed: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5591
+  removed: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5591)
 * Checking if a diff note is active has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5597
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5597)
 * Improve rendering of issue tracker links:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5608
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5608)
 * Performance of parsing URLs in Markdown documents has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5629
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5629)
 * Performance of syntax highlighting code blocks in Markdown documents has been
-  improved: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5643
+  improved: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5643)
 * Generating of cache keys for Markdown documents has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5715
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5715)
 * Sorting of Git tags has been improved:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5723
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5723)
 * Trigram indexes (PostgreSQL only) for the `ci_runners` table have been removed:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5755
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5755)
 * Commit lookups in DiffHelper have been removed:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5756
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5756)
 * 45 redundant database indexes have been removed:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5759
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5759)
 * Caching of todo counters has been re-enabled:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5789
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5789)
 * Queries to get a list of todos have been improved by limiting the number of
   projects used in these queries:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5791
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5791)
 * SVG images larger than 2MB are no longer displayed, reducing loading times and
   memory usage: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5794
 * A memory leak in the Markdown sanitzation filter has been solved:
