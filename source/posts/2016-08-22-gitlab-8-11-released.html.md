@@ -1,9 +1,11 @@
 ---
 title: "GitLab 8.11 released with Issue Boards and Merge Conflict Resolution"
-categories:
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_11/pic2.jpg
+categories: release
+twitter_image: /images/tweets/gitlab-8-11-released.png
+date: 2016-08-22 17:01
 ---
 
 There are so many good things in GitLab 8.11, that I struggle to introduce all this
@@ -13,9 +15,9 @@ With GitLab 8.11 you get a completely new way to manage your issues,
 you can resolve merge conflicts in the interface,
 you can restrict pushes to people and groups (in EE),
 you get an online IDE,
-can use slash commands to modify issues and
-use as many issue templates as
-you want ..and that's not all.
+you can use slash commands to modify issues and
+you use as many issue templates as
+you want ..and many other new features.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Clement Ho for his merge requests and responsiveness on issues.
@@ -25,7 +27,7 @@ Thanks Clement Ho!
 
 ## Issue Boards
 
-GitLab Issues are very flexible. You can crosslink them, prioritize them and
+GitLab Issues are very flexible. You can crosslink them, prioritize them, and
 rank them by popularity. With GitLab Issue Boards we've added something new:
 
 You can now create workflows, quickly get an idea of the status of your
@@ -41,7 +43,7 @@ By adding new lists you can create workflows. Lists are based on labels, this
 means that adding an issue to a list will add that label to the issue and
 removing it from a list, will remove the label.
 
-As effect, this means all your current issues will automatically appear in new
+This means all your current issues will automatically appear in new
 lists you create and that you can quickly see whether a certain issue is
 in one (or more!) of the lists.
 
@@ -79,7 +81,7 @@ to production.
 Discussions on diffs in merge requests can be hard to keep track off, yet
 it's important that you actually give each comment attention.
 
-To make it easier to find, fix and resolve those comments and discussions,
+To make it easier to find, fix, and resolve those comments and discussions,
 we've added the ability to do just that: Each comment and discussion on merge
 request diffs can be resolved. Longer threads can be resolved all at once
 or just comment-by-comment.
@@ -92,9 +94,7 @@ Pipelines in GitLab can be complex structures with many sequential and parallel
 builds. To make it a little easier to see what is going on, you can now view
 a graph of a single pipeline and its status:
 
-![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph.png)
-
-TODO Find it HERE AND HERE
+![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph2.png)
 
 ## Issue and MR Templates
 
@@ -147,21 +147,47 @@ With GitLab 8.11, we're introducing the Koding integration with GitLab.
 This means that you can check out a project or just a merge request in
 a fully fledged IDE with the press of a button.
 
+Enable Koding in your Project services:
+
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding1.png)
+
+Set it up for your project:
+
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding2.png)
+
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding4.png)
+
+And now you're able to quickly check out any merge request, branch,
+and commit in a full-fledged IDE, that even allows you to use your
+local editor.
+
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding3.png)
+
 ## Pipelines in MRs
 
 You will now see your [Pipelines](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/#pipelines) in merge requests!
 
 ![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png)
 
-## Email a new Issue
+## Deployment status in Merge Requests
 
-To create a new issue, you can now send an email!
-Find the email address on the bottom of the issues list and then use
-the subject for the title and the body of the email for the description of
-the issue.
+You can now easily set the URL of your environments:
 
-If you want to use set the milestone, add labels or anything else, make
-use of the slash commands!
+![Set the URL of any environment in GitLab 8.11](/images/8_11/url_environment.png)
+
+Which helps if you deploy automatically after a merge request is merged,
+as now GitLab will show the state of the deploy in your merge requests:
+
+![See deploy status in merge request in GitLab 8.11](/images/8_11/mr_deployed.png)
+
+With the URL configured, GitLab will link to the environment, so you can see
+the result of a merge request with a single click.
+
+## Pipelines Web Hooks
+
+To make it easier to integrate the power of GitLab's pipelines, we've
+added a webhook for pipelines. It'll fire whenever a pipeline is created,
+is running or is finished.
 
 ## Code Highlighting and Collapsing
 
@@ -177,11 +203,27 @@ any related merge requests when you push to GitLab.
 
 ![Merge request links when pushing in GitLab 8.11](/images/8_11/mr_link.png)
 
-## Expiration date on Memberships
+## Coverage badge
 
-TODO
+GitLab can now generate a nice looking coverage badge, so you can easily
+show off the test coverage of your projects anywhere:
 
-## Move projects between shards
+![Coverage Badge in GitLab 8.11](/images/8_11/coverage_badge.png)
+
+If you didn't know GitLab could report coverage yet, set it up in your
+pipelines settings: `pipelines/settings`.
+
+> [Read the docs on test coverage badges](http://docs.gitlab.com/ce/ci/pipelines.html#sts=Test coverage report badge)
+
+## Expiration date on Memberships and shared Projects
+
+When giving a user access to a project or when sharing a project with a group,
+you can now limit that access to a certain date, setting an expiration date.
+
+This should make it easier to manage sharing projects with temporary team
+members.
+
+## Move projects between shards (EE)
 
 With GitLab 8.10 we [introduced][mount-points] multiple mount points in GitLab.
 
@@ -191,6 +233,8 @@ a new shard or want to move that super-heavily used project over to faster
 storage.
 
 [mount-points]: https://about.gitlab.com/2016/07/22/gitlab-8-10-released/#multiple-repository-mount-points
+
+## Performance Updates
 
 ### Improvements
 
@@ -246,7 +290,7 @@ storage.
   uses pagination instead of loading all data at once:
   <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828)>,
   <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)>
-* Methods cals for finding Git blobs that were not needed have been removed:
+* Methods calls for finding Git blobs that were not needed have been removed:
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848)
 * The branches dropdown in the cherry pick and revert dialogues is now loaded
   asynchronously: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5607)
@@ -259,6 +303,7 @@ storage.
   [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/647)
 * An unnecessary index on the geo_nodes table has been removed:
   [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/639)
+* Ace Editor is no longer loaded unless it's used on a given page, decreasing   our default JavaScript payload by just under 100KB. [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4914)
 
 ### Features
 
@@ -279,6 +324,18 @@ storage.
 * `Project.visible_to_user` has been instrumented again:
   https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793
 
+## GitLab Mattermost 3.3
+
+GitLab 8.11 includes [Mattermost 3.3](https://www.mattermost.org/mattermost-3-3-chinese-korean-dutch-message-flags-here-golang-bot-sample-and-much-more/), an [open source Slack-alternative](https://www.mattermost.org/) whose newest release includes Chinese, Korean and Dutch translation, a [Golang bot](https://github.com/mattermost/mattermost-bot-sample-golang), flagged posts, @here mentions, plus many more new benefits.  
+
+This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
+
+## Redis Sentinal Support
+
+GitLab now has experimental support for Redis Sentinal.
+
+> [See the docs for details](http://docs.gitlab.com/ce/administration/high_availability/redis.html#experimental-redis-sentinel-support)
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -288,7 +345,9 @@ This release has more improvements, including security fixes. Please check out [
 
 To upgrade to GitLab 8.11, downtime is required due to migrations.
 
-The downtime should not take more than 15 minutes.
+The downtime for GitLab.com (the largest GitLab instance) was about
+15 to 30 minutes. It may take less time depending on the amount of data on
+your instance.
 
 ### 2FA enforced through API and Git over HTTP
 
@@ -296,7 +355,7 @@ Users with 2FA enabled trying to retrieve an API token via the /sessions endpoin
 or the Resource Owner Password Credentials flow provided by OAuth2,
 will not be able to login. They will be required to use a Personal Access Token from now on.
 
-The same goes for users using Git over HTTP.
+> [Read our documentation on personal access tokens](http://docs.gitlab.com/ce/api/README.html#personal-access-tokens)
 
 ### (EE Only) Elasticsearch reindexing
 
