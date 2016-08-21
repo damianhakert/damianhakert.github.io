@@ -44,6 +44,7 @@
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/">Cookbook Omnibus GitLab</a></li>
+              <li>LFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           Marin loves to develop in Rails but has also grown an interest in operations, specifically Amazon Web Services and Opscode Chef.
           He is part of the GitLab core-team.
@@ -65,7 +66,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/cookbook-marketo-tools/">cookbook-marketo-tools</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-certificate-toolkit">gitlab-certificate-toolkit</a></li>
-              <li><a href="/jobs/expert/">Expert</a> on: LDAP, packaging, init script, backup script, security, gitlab-shell, Redis, Unicorn, Kerberos</li>
+              <li><a href="/jobs/expert/">Expert</a> on: LDAP, packaging, init script, backup script, security, gitlab-shell, Redis, Unicorn, Kerberos, LFS</li>
   story:  |
           Jacob became a professional software developer in 2012 after a brief academic career as a logician.
           He joined GitLab in 2013 as a Senior Service Engineer, helping customers install and maintain GitLab and working on GitLab.com infrastructure.
@@ -111,6 +112,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ee/">GitLab EE</a></li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="http://doc.gitlab.com/ee/integration/elasticsearch.html">Elasticsearch</a> <a href="/jobs/expert/">expert</a></li>
+              <li>git hooks <a href="/jobs/expert/">expert</a></li>
   story:  |
           I started the GitLab project together with Dmitriy in 2011. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
           I have a very strong desire to improve the world by making all things easier.
@@ -172,6 +174,7 @@
   gitlab: ayufan
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
+              <li>LFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge.
           He's focusing lately on security principles of mobile platforms and the "container revolution". In his spare time he likes to run, cycle and play good games, although not all at the same time.
@@ -224,6 +227,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
+              <li>Backstage specialist</li>
   story:  |
           Before joining GitLab the company in 2015, Robert was
           already an active member of the GitLab community beginning in 2012,
@@ -426,6 +430,7 @@
   maintains:  |
                 <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
                 <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+                <li>Backstage specialist</li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
           He enjoys creating software that people actually love using, so GitLab was an obvious choice for his next company to work at.
