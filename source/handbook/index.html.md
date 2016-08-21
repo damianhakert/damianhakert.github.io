@@ -33,7 +33,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Security](/handbook/security)
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
-
+  * [Making Gifs](/handbook/making-gifs)
 ----
 
 ## This page
