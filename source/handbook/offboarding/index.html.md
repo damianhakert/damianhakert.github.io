@@ -9,8 +9,8 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, @joan.
-1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @ernst, @brittany.
+1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @ernst.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
    1. [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
@@ -116,8 +116,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Patricio/Robert/Jacob V: Remove former team member's GitLab.com admin account.
-1. [ ] Patricio/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
+1. [ ] Jose/Robert/Jacob V: Remove former team member's GitLab.com admin account.
+1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
 1. [ ] ZenDesk [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
