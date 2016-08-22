@@ -78,7 +78,16 @@ to production.
 It's now possible to restrict pushing and merging to specific branches to
 specific users, using Branch Permissions in GitLab Enterprise Edition.
 
-TODO IMAGES DOCS
+This works hand-in-hand with the existing functionality and can easily be
+combined with our restrictions. This means that you can restrict direct
+pushes to only `Jane` and `John`, but allow all `masters` or even `developers`
+to merge through a merge request to the branch.
+
+![Branch permissions for users in GitLab 8.11](/images/8_11/branch_permissions.png)
+
+For each action (push and merge) you can allow any amount of users and
+permissions, making this a very powerful addition to GitLab EE for organisations
+with complex workflows.
 
 ## Resolve Discussions in MRs
 
@@ -168,6 +177,10 @@ and commit in a full-fledged IDE, that even allows you to use your
 local editor.
 
 ![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding3.png)
+
+We've put together a quick screencast showing this off:
+
+<iframe width="480" height="360" src="https://www.youtube.com/embed/3wei5yv_Ye8" frameborder="0" allowfullscreen></iframe>
 
 ## Pipelines in MRs
 
