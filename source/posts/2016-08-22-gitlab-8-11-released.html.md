@@ -145,9 +145,9 @@ feature requests, bug reports, and merge requests.
 
 ## Slash Commands
 
-Inspired by chat tools, such as IRC, Hipchat, Mattermost, and Slack, we've added
+Inspired by chat tools, such as IRC, HipChat, Mattermost, and Slack, we've added
 our own version of slash commands to GitLab. This means you can quickly
-change labels, milestones, assignees and more by just writing a commment
+change labels, milestones, assignees and more by just writing a comment
 or by having a command when writing your merge request or issue.
 
 ![Slash commands in GitLab 8.11](/images/8_11/slash-commands.gif){: .shadow}
@@ -313,105 +313,114 @@ See below for detailed improvements and the merge requests of the implementation
 ### Improvements
 
 * Checking if a user can read multiple issues has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5370)
+  [!5370](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5370)
 * Looking up a user's maximum access level has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5412)
+  [!5412](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5412)
 * Displaying CI charts now uses fewer SQL queries:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5502)
+  [!5502](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5502)
 * Various improvements have been made to GitLab's Git handling to use fewer Git
   operations and use faster sorting of version numbers:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536), [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375)
+  [!5536](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536), [!5375](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375)
 * Commit authors are cached per Sidekiq transaction to avoid extra lookups:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5537)
+  [!5537](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5537)
 * The number of queries used for displaying merge request diffs has been
-  reduced: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5551)
+  reduced: [!5551](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5551)
 * Iterating over diff collections has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5564)
+  [!5564](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5564)
 * The performance of various methods that only depend on diff statistics has
-  been improved: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5568)
+  been improved: [!5568](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5568)
 * Diff rendering performance has been improved by removing redundant checks for
-  text blobs: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5575)
+  text blobs: [!5575](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5575)
 * Certain method calls that are not needed when rendering diffs have been
-  removed: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5591)
+  removed: [!5591](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5591)
 * Checking if a diff note is active has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5597)
+  [!5597](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5597)
 * Improve rendering of issue tracker links:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5608)
+  [!5608](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5608)
 * Performance of parsing URLs in Markdown documents has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5629)
+  [!5629](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5629)
 * Performance of syntax highlighting code blocks in Markdown documents has been
-  improved: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5643)
+  improved: [!5643](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5643)
 * Generating of cache keys for Markdown documents has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5715)
+  [!5715](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5715)
 * Sorting of Git tags has been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5723)
+  [!5723](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5723)
 * Trigram indexes (PostgreSQL only) for the `ci_runners` table have been removed:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5755)
-* Commit lookups in DiffHelper have been removed:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5756)
+  [!5755](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5755)
+* Commit lookups in `DiffHelper` have been removed:
+  [!5756](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5756)
 * 45 redundant database indexes have been removed:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5759)
+  [!5759](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5759)
 * Caching of todo counters has been re-enabled:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5789)
+  [!5789](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5789)
 * Queries to get a list of todos have been improved by limiting the number of
   projects used in these queries:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5791)
+  [!5791](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5791)
 * SVG images larger than 2MB are no longer displayed, reducing loading times and
-  memory usage: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5794)
+  memory usage: [!5794](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5794)
 * A memory leak in the Markdown sanitization filter has been solved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5808)
+  [!5808](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5808)
 * The dropdown used for displaying a list of projects an issue can be moved to
   uses pagination instead of loading all data at once:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828),
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)
+  [!5828](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828),
+  [!5686](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)
 * Methods calls for finding Git blobs that were not needed have been removed:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848)
+  [!5848](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848)
 * The branches dropdown in the cherry pick and revert dialogues is now loaded
-  asynchronously: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5607)
+  asynchronously: [!5607](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5607)
 * The queries used to mark todos as done have been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5832)
+  [!5832](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5832)
 * gitlab_git has been updated to 10.4.7 to take advantage of various
   improvements made to this library:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5851)
+  [!5851](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5851)
 * Git access checks in Enterprise Edition have been improved:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/647)
-* An unnecessary index on the geo_nodes table has been removed:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/639)
-* Ace Editor is no longer loaded unless it's used on a given page, decreasing   our default JavaScript payload by just under 100KB. [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4914)
+  [!647](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/647)
+* An unnecessary index on the `geo_nodes` table has been removed:
+  [!639](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/639)
+* Ace Editor is no longer loaded unless it's used on a given page, decreasing
+  our default JavaScript payload by just under 100KB.
+  [!4914](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4914)
 
 ### Features
 
-* SideKiq now caches certain objects per transaction. This is enabled by default but can be disabled using an environment variable: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5054)
-* GitLab can now process a request using ruby-prof, storing the profiling data on disk so it can be viewed later on. This requires a token to be specified in a header to work: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5281)
-* GitLab Performance Monitoring can now track custom events such as the number of Git pushes, projects being forked, etc  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5830)
+* Sidekiq now caches certain objects per transaction. This is enabled by default
+  but can be disabled using an environment variable:
+  [!5054](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5054)
+* GitLab can now process a request using ruby-prof, storing the profiling data
+  on disk so it can be viewed later on. This requires a token to be specified in
+  a header to work:
+  [!5281](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5281)
+* GitLab Performance Monitoring can now track custom events such as the number
+  of Git pushes, projects being forked, etc
+  [!5830](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5830)
 
 ### Instrumentation
 
 * Nokogiri has been instrumented:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5470)
+  [!5470](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5470)
 * The overhead of method call instrumentation has been reduced:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5550)
+  [!5550](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5550)
 * The `Repository` class has been instrumented:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5621)
+  [!5621](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5621)
 * `Gitlab::Highlight` has been instrumented:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5644)
+  [!5644](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5644)
 * `Project.visible_to_user` has been instrumented again:
-  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793)
+  [!5793](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793)
 
 ## GitLab Runner
 
 We are also releasing GitLab Runner 1.5 today. A few highlights:
 
-- Mount /builds folder to all services when used with Docker Executor: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/272)
-- Use .xz for prebuilt docker images to reduce binary size and provisioning speed of Docker Engines: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/249)
-- Suppress all but the first warning of a given type when extracting a ZIP file: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/261)
-- Retry executor preparation to reduce system failures: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/244)
-- Release armel instead arm for Debian packages: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/264)
-- Improve concurrency of docker+machine executor: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/254)
-- Update gitlab-runner-service to return 1 when no Host or PORT is defined: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/253)
-- Fix missing entrypoint script in alpine Dockerfile: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/248)
-- Cache docker client instances to avoid a file descriptor leak: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/260)
-- Support bind mount of /builds folder: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/193)
+- Mount /builds folder to all services when used with Docker Executor: [!272](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/272)
+- Use .xz for pre-built docker images to reduce binary size and provisioning speed of Docker Engines: [!249](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/249)
+- Suppress all but the first warning of a given type when extracting a ZIP file: [!261](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/261)
+- Retry executor preparation to reduce system failures: [!244](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/244)
+- Release armel instead arm for Debian packages: [!264](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/264)
+- Improve concurrency of docker+machine executor: [!254](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/254)
+- Update gitlab-runner-service to return 1 when no Host or PORT is defined: [!253](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/253)
+- Fix missing entrypoint script in alpine Dockerfile: [!248](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/248)
+- Cache docker client instances to avoid a file descriptor leak: [!260](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/260)
+- Support bind mount of /builds folder: [!193](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/193)
 
 ## GitLab Mattermost 3.3
 
