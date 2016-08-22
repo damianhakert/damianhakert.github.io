@@ -8,7 +8,8 @@ twitter_image: /images/tweets/gitlab-8-11-released.png
 date: 2016-08-22 17:01
 ---
 
-There are so many good things in GitLab 8.11, that I struggle to introduce all this
+There are so many good things in GitLab 8.11,
+that I struggle to introduce all this
 without turning to superlatives. So, without further ado:
 
 With GitLab 8.11 you get a completely new way to manage your issues,
@@ -122,10 +123,12 @@ directory and either the `.gitlab/issue_templates` or
 `.gitlab/merge_request_templates` subdirectory. They will appear in a dropdown when creating
 a new issue or merge request:
 
-TODO IMAGE
+![Issue and Merge Request templates in GitLab 8.11](/images/8_11/templates.png)
 
 This should make it easier for everyone to submit good-looking
 feature requests, bug reports and merge requests.
+
+> [See the documentation on templates](http://docs.gitlab.com/ce/user/project/description_templates.html#description-templates)
 
 ## Slash Commands
 
@@ -345,7 +348,10 @@ storage.
 
 ## GitLab Mattermost 3.3
 
-GitLab 8.11 includes [Mattermost 3.3](https://www.mattermost.org/mattermost-3-3-chinese-korean-dutch-message-flags-here-golang-bot-sample-and-much-more/), an [open source Slack-alternative](https://www.mattermost.org/) whose newest release includes Chinese, Korean and Dutch translation, a [Golang bot](https://github.com/mattermost/mattermost-bot-sample-golang), flagged posts, @here mentions, plus many more new benefits.  
+GitLab 8.11 includes [Mattermost 3.3](https://www.mattermost.org/mattermost-3-3-chinese-korean-dutch-message-flags-here-golang-bot-sample-and-much-more/),
+an [open source Slack-alternative](https://www.mattermost.org/) whose newest release includes
+Chinese, Korean and Dutch translation, a [Golang bot](https://github.com/mattermost/mattermost-bot-sample-golang),
+flagged posts, @here mentions, plus many more new benefits.
 
 This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
 
