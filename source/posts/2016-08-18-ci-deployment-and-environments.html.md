@@ -385,36 +385,7 @@ using `dpl`.
 ## Future branch #2: Review apps
 
 If the number of collaborators keeps growing, then the next logical step would be
-to raise a temporary instance of the application for review. Our application let
-us to do that pretty straightforward:
-
-
-![Review apps](/images/blogimages/ci-deployment-and-environments/19.jpg)
-
-```yaml
-variables:
-  PRODUCTION_S3_BUCKET_NAME: "yourbucket"
-  REVIEW_S3_BUCKET_NAME: "reviewbucket"
-
-image: python:latest
-
-before_script:
-- pip install awscli
-
-deploy to production:
-  environment: production
-  script:
-  - aws s3 cp ./ s3://$PRODUCTION_S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
-  only:
-  - master
-
-review apps:
-  environment: review
-  script:
-  - mkdir -p ./$CI_BUILD_REF_NAME
-  - cp ./*.html ./$CI_BUILD_REF_NAME/
-  - aws s3 cp ./ s3://$REVIEW_S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
-```
+to raise a temporary instance of the application for review.
 
 We set up another bucket on S3 for reviewing purposes. The only difference that
 we copy the contents of our website to a "folder" named by a name of
@@ -422,8 +393,27 @@ the development branch, so that the URL looks like this:
 
 `http://<REVIEW_S3_BUCKET_NAME>.s3-website-us-east-1.amazonaws.com/<branchname>/`
 
+Here's the replacement for "pages" job we used before:
+
+```yaml
+review apps:
+  variables:
+    S3_BUCKET_NAME: "reviewbucket"
+  image: python:latest
+  environment: review
+  script:
+  - pip install awscli
+  - mkdir -p ./$CI_BUILD_REF_NAME
+  - cp ./*.html ./$CI_BUILD_REF_NAME/
+  - aws s3 cp ./ s3://$S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+```
+
 The interesting thing is where we got this `$CI_BUILD_REF_NAME` variable from.
 GitLab predefines [a lot of environment variables](http://docs.gitlab.com/ce/ci/variables/README.html#predefined-variables-environment-variables), so that you could use them in your jobs.
+
+Here's visual representation of this configuration:
+![Review apps](/images/blogimages/ci-deployment-and-environments/19.jpg)
+
 
 The details of Review Apps implementation are depend widely on your real technology
 stack and deployment process, and they are far out of this blog post scope.
