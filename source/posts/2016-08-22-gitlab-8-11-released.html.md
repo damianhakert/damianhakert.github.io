@@ -447,6 +447,15 @@ the migration is running (and until 8.11 is deployed to the user's cluster).
 Finally another migration adds two foreign keys,
 which requires downtime as this is not done in a concurrent manner.
 
+### Note for early updaters
+
+If you were very fast in updating GitLab to 8.11 and
+during reconfigure received `undefined method merge! for nil:NilClass` error,
+make sure that you fetch the newer package marked with .1:  `8.11.0-ce.1`.
+
+Simply run `apt-get update` and `apt-get install gitlab-ce` /
+`apt-get install gitlab-ee` again to solve this issue.
+
 ### 2FA enforced through API and Git over HTTP
 
 Users with 2FA enabled trying to retrieve an API token via the /sessions endpoint
