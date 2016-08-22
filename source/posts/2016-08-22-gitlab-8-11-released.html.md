@@ -390,6 +390,21 @@ See below for detailed improvements and the merge requests of the implementation
 * `Project.visible_to_user` has been instrumented again:
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793)
 
+## GitLab Runner
+
+We are also releasing GitLab Runner 1.5 today. A few highlights:
+
+- Mount /builds folder to all services when used with Docker Executor: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/272)
+- Use .xz for prebuilt docker images to reduce binary size and provisioning speed of Docker Engines: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/249)
+- Suppress all but the first warning of a given type when extracting a ZIP file: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/261)
+- Retry executor preparation to reduce system failures: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/244)
+- Release armel instead arm for Debian packages: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/264)
+- Improve concurrency of docker+machine executor: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/254)
+- Update gitlab-runner-service to return 1 when no Host or PORT is defined: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/253)
+- Fix missing entrypoint script in alpine Dockerfile: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/248)
+- Cache docker client instances to avoid a file descriptor leak: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/260)
+- Support bind mount of /builds folder: [mr](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/193)
+
 ## GitLab Mattermost 3.3
 
 GitLab 8.11 includes [Mattermost 3.3](https://www.mattermost.org/mattermost-3-3-chinese-korean-dutch-message-flags-here-golang-bot-sample-and-much-more/),
