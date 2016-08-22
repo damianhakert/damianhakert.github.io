@@ -121,13 +121,23 @@ There are 2 kind of production events that we track:
 
 ## On Call
 
-- We do 12hs shifts in a follow the sun style based on your location.
+- We do 7 days of 12hs shifts in a follow-the-sun style, based on your location.
 - After each shift the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
+- If nothing happened, consider sending an email to just let the next on-call be aware that nothing has happened.
 - We only have 1 person at any time doing on call, we avoid having fall backs because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
 - We track metrics on uptime first, then on time to fix (TTF). We do so to understand where the pain is, and how much time are we investing in fixing a problem and use those metrics to drive automation priorities.
 - Escalation will page everyone on the on call rotation in 15 minutes, and if that fails it will page up in the management chain.
 - When being on call prioritize work that will make the on call better (that includes building projects, systems, adding metrics, removing noisy alerts). We strive to have nothing to do when on call and to have meaningful alerts and pages. The only way that this will happen is by investing time in automating ourselves out a job.
+- The main expectation when being on call is to triage the urgency of a page: if GitLab.com is down look for the right [runbook](https://dev.gitlab.org/cookbooks/runbooks) and do your best to bring it back up, but If you don't know what to do use your phone to call someone to help out.
 - After being on call take time off. Being available for issues and outages will wear you off even if you had no pages, and resting is critical for proper functioning. Just let your team know.
+
+
+## How to page current production on-call
+
+From slack you can page by using the slash pd command, like so: `/pd message for the on call`
+
+This will trigger a low urgency page.
+
 
 # Make GitLab.com settings the default
 
