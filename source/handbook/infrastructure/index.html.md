@@ -121,7 +121,7 @@ There are 2 kind of production events that we track:
 
 ## On Call
 
-- We do 7 days of 12hs shifts in a follow-the-sun style, based on your location.
+- We do 7 days of 12 hours shifts in a follow-the-sun style, based on your location.
 - After each shift the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 - If nothing happened, consider sending an email to just let the next on-call be aware that nothing has happened.
 - We only have 1 person at any time doing on call, we avoid having fall backs because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
@@ -134,10 +134,9 @@ There are 2 kind of production events that we track:
 
 ## How to page current production on-call
 
-From slack you can page by using the slash pd command, like so: `/pd message for the on call`
+From Slack you can page by using the slash pd command, like so: `/pd message for the on call`
 
-This will trigger a low urgency page.
-
+This will trigger high urgency notification rules and escalates as needed.
 
 # Make GitLab.com settings the default
 
