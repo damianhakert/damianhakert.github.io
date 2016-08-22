@@ -168,4 +168,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] Manager: Remove team member from TriNet and HR Savvy as an admin.
 * [x] _not relevant, already handled_ People Ops: Invite team member to People Ops Confidential channel in Slack.
 
+### FOR CORE TEAM MEMBERS ONLY 
+
+1.  [ ] Robert/Jacob V/Ernst: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+2.  [x] _not relevant, People Ops: Have member sign NDA.
+3.  [ ] Robert/Jacob V/Ernst: Remove member to #core in Slack.  
+4.  [ ] Robert/Jacob V/Ernst: Remove member developer access to gitlab-org.
+
 ```
