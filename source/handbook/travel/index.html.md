@@ -53,9 +53,12 @@ special visa in previous situations, just to give yourself enough time and room 
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again, and/or People Ops, to see if anything can be done to expedite the process.
 
 
-## Self Stay Reimbursement Policy <a name="self-stay"></a>
+## Self Stay Incentive Policy <a name="self-stay"></a>
 
-If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accommodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice.
+If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been
+the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on
+accommodation expenses. Contractors should take a screenshot of a hotel search from the same location in Egencia and submit this along with your expense
+report or invoice.  Employees will be paid through payroll by submitting the screenshot by email to People Operations for processing. 
 
 ## Booking travel and lodging with Egencia<a name="egencia"></a>
 
