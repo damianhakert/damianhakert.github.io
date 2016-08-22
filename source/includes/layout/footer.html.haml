@@ -53,9 +53,8 @@
           %li= link_to('Team',            '/team/')
           %li
             = link_to '/jobs/' do
-              - open_jobs_count = data.jobs.select(&:open).count
-              - if open_jobs_count > 0
-                = pluralize(open_jobs_count, 'Open Job')
+              - if open_jobs.count > 0
+                = pluralize(open_jobs.count, 'Open Job')
               - else
                 Jobs
           %li= link_to('Terms',           '/terms/')
