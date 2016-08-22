@@ -106,6 +106,10 @@
   picture: koningmuffel.jpg
   human: dimitrie
   story: Muffèl is a guinea pig with ambitions. While he already has had some piglets, he aspires to be "el Rey". He resides at a friends place, but make no mistake, he has a hand in almost every decision.
+- name: Milo
+  picture: milo.jpg
+  human: mikegreiling
+  story: Rescue dog. Tug of war enthusiast. Serial spot thief. Always lords over his domain from the tallest vantage point he can reach. Enjoys long walks on the beach.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
