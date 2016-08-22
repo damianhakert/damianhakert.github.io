@@ -10,7 +10,7 @@ image_title: '/images/blogimages/ci-deployment-and-environments/intro.jpg'
 ## GitLab CI: Deployment & environments
 
 This post is a success story of one imaginary news portal, and you're the happy
-owner, the editor and the only developer. Luckily you already host your project
+owner, the editor, and the only developer. Luckily you already host your project
 code on GitLab.com. You already know that you can
 [run tests with GitLab CI](https://about.gitlab.com/2016/07/29/the-basics-of-gitlab-ci/#run-our-first-test-inside-ci).
 Now you’re curious whether it can be used for deployment, and how far can you go with it.
@@ -31,11 +31,11 @@ Let’s start from the beginning: no CI in our story yet.
 
 ## A starting point
 
-Deployment. In your case it means that a bunch of HTML files should appear on your
+Deployment. In your case, it means that a bunch of HTML files should appear on your
 S3 bucket (which is already configured to for
 [static website hosting](http://docs.aws.amazon.com/AmazonS3/latest/dev/HowDoIWebsiteConfiguration.html?shortFooter=true))
 
-There's a million ways to do it. We’ll use library
+There're a million ways to do it. We’ll use library
 [awscli](http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html#examples),
 provided by Amazon.
 
@@ -59,10 +59,10 @@ Let’s try to automate it using GitLab CI.
 
 For GitLab there's no difference what commands to run.
 Put your script to `.gitlab-ci.yml` and push your code - that’s it: CI triggers
-a job, and your commands are executed.
+a job and your commands are executed.
 
 Let's add some context to our story: your website is small, you have 20-30 daily
-visitors, and your repository has only one branch: `master`.
+visitors and your repository have only one branch: `master`.
 
 The minimal `.gitlab-ci.yml` should look like this:
 
@@ -89,7 +89,7 @@ deploy:
 ![Automated deployment](/images/blogimages/ci-deployment-and-environments/14.jpg){: .illustration}
 
 The installation of `awscli` extends the job execution time, but it is not a big
-deal for now. If you'll need speed, you can always [look for
+deal for now. If you need speed, you can always [look for
 a Docker image](https://hub.docker.com/explore/) with preinstalled `awscli`,
 or create an image by yourself.
 {: .alert .alert-warning}
@@ -151,8 +151,8 @@ Team growth should definitely affect the workflow.
 ## Dealing with teamwork
 
 Now there’s two of you working in the same repository. It is no longer convenient
-to use the `master` branch for development. You decide to use seprate branches
-for both new features and new articles, and merge them into `master` when they are ready.
+to use the `master` branch for development. You decide to use separate branches
+for both new features and new articles and merge them into `master` when they are ready.
 
 The problem is that your current CI config doesn’t care about branches at all.
 Whenever you push anything to GitLab, it will be deployed to S3.
@@ -162,7 +162,7 @@ Preventing it is straightforward. Just add `only: master` to your “deploy” j
 ![Automated deployment of master branch](/images/blogimages/ci-deployment-and-environments/15.jpg){: .illustration}
 
 
-But it would be also nice to preview your changes from feature-branches somehow.
+But it would also be nice to preview your changes from feature-branches somehow.
 
 
 ### Setting up a separate place for testing
@@ -213,7 +213,7 @@ We specified two jobs. One job deploys the website for your customers to S3.
 
 Another - for developers to GitLab Pages.
 
-Actually some people would name it Production environment and Staging environment.
+Some people would name it Production environment and Staging environment.
 
 
 ## Introducing Environments
@@ -264,7 +264,7 @@ It is just happened again.
 You've pushed your feature-branch to preview it on Staging; a minute later Patrick pushed
 his branch, so the Staging was re-written with his work. Aargh!! It was a third time a day!
 
-Idea! Let's use Slack to notify us of deployments, so that people will not to push their stuff if another one has been just deployed!
+Idea! Let's use Slack to notify us of deployments, so that people will not push their stuff if another one has been just deployed!
 
 ### Slack notifications
 
@@ -281,7 +281,7 @@ settings above. That’s it. Now you’re notified of every deployment:
 
 ![Deployment notifications in Slack](/images/blogimages/ci-deployment-and-environments/slack.png){: .shadow}
 
-But the time goes, your website became really popular, your team grow from 2 to 8 people.
+But the time goes, your website became popular; your team grows from 2 to 8 people.
 People develop in parallel, so the situation when people wait for each other to
 preview something on Staging become pretty common. “Deploy every branch to staging” stopped to work.
 
@@ -311,13 +311,13 @@ only:
 
 ![Staging branch](/images/blogimages/ci-deployment-and-environments/18.jpg){: .illustration}
 
-Of course, it requires additional time & efforts for merging, but everybody ageed that it is better than waiting.
+Of course, it requires additional time & efforts for merging, but everybody agreed that it is better than waiting.
 
 ### Handling emergencies
 
 Shit happens! And it's happened to your website. Someone merged branches incorrectly and
 pushed the result straight to production exactly when your site was on top of HackerNews.
-Thousands of people saw your completely broken layout instead of shiny main page.
+Thousands of people saw your completely broken layout instead of the shiny main page.
 
 Luckily, someone found the Rollback button, so the
 website was fixed a minute after the problem had been discovered.
@@ -334,35 +334,35 @@ To deploy manually go to **Pipelines→Builds**, and click the button:
 ![Skipped job is available for manual launch](/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
 
 This is where our main story ends. The future is blurry yet. Let's summarize
-everything we've learned, and then try to predict the future.
+everything we have learned, and then try to predict the future.
 
 
 ## Summary
 
-1. Deployment is just a command (or a set of commands) needed to be executed regularly, therefore it run inside GitLab CI
+1. Deployment is just a command (or a set of commands) needed to be regularly executed. Therefore it can run inside GitLab CI
 2. Commonly you need to provide some secret key(s) to the command, you execute. Store these secret keys in Settings→Variables
-3. With GitLab CI you can flexibly specify which branchs where to deploy
+3. With GitLab CI you can flexibly specify which branches where to deploy
 4. If you deploy in multiple environments, GitLab can save the history of deployments,
 which gives you the ability to rollback to any previous version
-5. For critical parts of your infrastructure you can enable manual deployment from GitLab interface, instead of automated
+5. For critical parts of your infrastructure, you can enable manual deployment from GitLab interface, instead of automated
 
 
 ## Future branch #1: Deploying to different services
 
-In the real life, we're not limited with S3 and GitLab Pages. We host, and therefore,
-deploy our apps and packages to different services.
+In the real life, we are not limited with S3 and GitLab Pages. We host, and therefore,
+deploy our apps and packages to various services.
 
 `awscli` was just an example of a command used to deliver code to an example
 service (Amazon S3).
-But no matter what tool and what destination system you use, the principle is the same:
+However, no matter what tool and what destination system you use, the principle is the same:
 you run a command with some parameters and somehow pass a secret key or
 a set of keys for authentication purposes.
 
 
-The `dpl` deployment tool was utilizes this principle, and provides more or less
+The `dpl` deployment tool utilizes this principle and provides more or less
 unified interface for [this list of providers](https://github.com/travis-ci/dpl#supported-providers).
 
-Here's how production deployment job would look like, if we use `dpl`:
+Here's how production deployment job would look like if we use `dpl`:
 
 ```yaml
 variables:
@@ -378,7 +378,7 @@ deploy to production:
   - master
 ```
 
-If you deploy to different systems, or change destination platform frequently, consider
+If you deploy to different systems or change destination platform frequently, consider
 using `dpl`.
 
 
@@ -409,18 +409,17 @@ review apps:
 ```
 
 The interesting thing is where we got this `$CI_BUILD_REF_NAME` variable from.
-GitLab predefines [a lot of environment variables](http://docs.gitlab.com/ce/ci/variables/README.html#predefined-variables-environment-variables), so that you could use them in your jobs.
+GitLab predefines [many environment variables](http://docs.gitlab.com/ce/ci/variables/README.html#predefined-variables-environment-variables) so that you could use them in your jobs.
 
 Here's visual representation of this configuration:
 ![Review apps](/images/blogimages/ci-deployment-and-environments/19.jpg)
 
 
-The details of Review Apps implementation are depend widely on your real technology
-stack and deployment process, and they are far out of this blog post scope.
+The details of Review Apps implementation depend widely on your real technology
+stack and deployment process and they are far out of this blog post scope.
 
 Most probably it will not be that straightforward, as it is with our static HTML website.
-But it is definitely doable, especially if you use Docker, or at least Chef or Ansible.
+However, it is doable, especially if you use Docker, or at least Chef or Ansible.
 
 
 ## Keywords description & links
-
