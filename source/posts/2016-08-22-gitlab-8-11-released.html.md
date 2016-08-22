@@ -278,6 +278,30 @@ storage.
 
 ## Performance Updates
 
+In this release we've added another batch of significant performance improvements.
+
+Merge requests and their diffs should feel faster, in particular. Below
+some graphs that show the difference for when we deployed GitLab 8.11 RC2
+to GitLab.com (the drop is the deploy).
+
+Loading times of merge request diffs:
+
+![Performance improvements in GitLab 8.11](/images/8_11/perf1.jpg)
+
+The number of SQL queries executed when displaying merge request diffs:
+
+![Performance improvements in GitLab 8.11](/images/8_11/perf2.jpg)
+
+The time spent in SQL queries when displaying merge request diffs:
+
+![Performance improvements in GitLab 8.11](/images/8_11/perf3.jpg)
+
+Pipelines performance also improved significantly:
+
+![Performance improvements in GitLab 8.11](/images/8_11/perf4.jpg)
+
+See below for detailed improvements and the merge requests of the implementations.
+
 ### Improvements
 
 * Checking if a user can read multiple issues has been improved:
