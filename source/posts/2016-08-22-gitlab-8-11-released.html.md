@@ -35,7 +35,7 @@ You can now create workflows, quickly get an idea of the status of your
 issues and all that in a simple, beautiful Board, not unlike a Kanban or Scrum
 board.
 
-![Issue Boards in GitLab 8.11](/images/8_11/issue_boards.gif)
+![Issue Boards in GitLab 8.11](/images/8_11/issue_boards.gif){: .shadow}
 
 You have a board for every project, which starts with a Backlog with all open
 issues and a Done list, where issues are automatically closed.
@@ -64,7 +64,7 @@ in a busy project. We believe you shouldn't need any external tools to
 fix your conflicts, which is why you can now solve simple conflicts straight
 from GitLab.
 
-![Merge Conflict Resolution in GitLab 8.11](/images/8_11/resolve_mc.gif)
+![Merge Conflict Resolution in GitLab 8.11](/images/8_11/resolve_mc.gif){: .shadow}
 
 When you encounter a conflict, you simply click "Resolve these conflicts" to be able to select
 how you want the conflicts to be resolved. You confirm at the end to make a
@@ -86,7 +86,7 @@ combined with our restrictions. This means that you can restrict direct
 pushes to only `Jane` and `John`, but allow all `masters` or even `developers`
 to merge through a merge request to the branch.
 
-![Branch permissions for users in GitLab 8.11](/images/8_11/branch_permissions.png)
+![Branch permissions for users in GitLab 8.11](/images/8_11/branch_permissions.png){: .shadow}
 
 For each action (push and merge) you can allow any amount of users and
 permissions, making this a very powerful addition to GitLab EE for organizations.
@@ -103,12 +103,12 @@ we've added the ability to do just that: Each comment and discussion on merge
 request diffs can be resolved. Longer threads can be resolved all at once
 or just comment-by-comment.
 
-![Resolve Discussions in GitLab 8.11](/images/8_11/resolve_discussion.png)
+![Resolve Discussions in GitLab 8.11](/images/8_11/resolve_discussion.png){: .shadow}
 
 We keep track of how many discussions you still need to resolve and added
 a convenient button to jump to the next unresolved discussion.
 
-![Jump to the next unresolved discussion in GitLab 8.11](/images/8_11/jump.png)
+![Jump to the next unresolved discussion in GitLab 8.11](/images/8_11/jump.png){: .shadow}
 
 > [Merge request discussion resolution Documentation](http://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
 
@@ -118,7 +118,7 @@ Pipelines in GitLab can be complex structures with many sequential and parallel
 builds. To make it a little easier to see what is going on, you can now view
 a graph of a single pipeline and its status:
 
-![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph2.png)
+![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph2.png){: .shadow}
 
 Simply click on a pipeline in your merge request or pipelines view to view
 the graph for the current pipeline.
@@ -136,7 +136,7 @@ directory and either the `.gitlab/issue_templates` or
 `.gitlab/merge_request_templates` subdirectory. They will appear in a dropdown when creating
 a new issue or merge request:
 
-![Issue and Merge Request templates in GitLab 8.11](/images/8_11/templates.png)
+![Issue and Merge Request templates in GitLab 8.11](/images/8_11/templates.png){: .shadow}
 
 This should make it easier for everyone to submit good-looking
 feature requests, bug reports, and merge requests.
@@ -150,11 +150,11 @@ our own version of slash commands to GitLab. This means you can quickly
 change labels, milestones, assignees and more by just writing a commment
 or by having a command when writing your merge request or issue.
 
-![Slash commands in GitLab 8.11](/images/8_11/slash-commands.gif)
+![Slash commands in GitLab 8.11](/images/8_11/slash-commands.gif){: .shadow}
 
 Use them in comments or even when creating a new issue or merge request:
 
-![Slash commands in GitLab 8.11](/images/8_11/slash-commands2.gif)
+![Slash commands in GitLab 8.11](/images/8_11/slash-commands2.gif){: .shadow}
 
 You can have multiple commands in a single comment and do things like changing
 the title of an issue, adding or removing labels and changing assignees.
@@ -182,25 +182,27 @@ a full-fledged IDE with the press of a button.
 
 Enable Koding in your Project services:
 
-![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding1.png)
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding1.png){: .shadow}
 
 Set it up for your project:
 
-![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding2.png)
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding2.png){: .shadow}
 
-![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding4.png)
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding4.png){: .shadow}
 
 And now you're able to quickly check out any merge request, branch,
 and commit in a complete IDE, that even allows you to use your
 local editor.
 
-![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding3.png)
+![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding3.png){: .shadow}
 
 We've put together a quick screencast showing this off:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3wei5yv_Ye8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+
+<br>
 
 > [Integrate GitLab with Koding - Administrator documentation](http://docs.gitlab.com/ce/administration/integration/koding.md)
 >
@@ -212,7 +214,7 @@ We've put together a quick screencast showing this off:
 
 You will now see your [Pipelines](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/#pipelines) in merge requests!
 
-![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png)
+![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png){: .shadow}
 
 Click on a pipeline to see its graph and related builds.
 
@@ -220,12 +222,12 @@ Click on a pipeline to see its graph and related builds.
 
 You can now easily set the URL of your environments:
 
-![Set the URL of any environment in GitLab 8.11](/images/8_11/url_environment.png)
+![Set the URL of any environment in GitLab 8.11](/images/8_11/url_environment.png){: .shadow}
 
 Which helps if you deploy automatically after a merge request is merged,
 as now GitLab will show the state of the deploy in your merge requests:
 
-![See deploy status in merge request in GitLab 8.11](/images/8_11/mr_deployed.png)
+![See deploy status in merge request in GitLab 8.11](/images/8_11/mr_deployed.png){: .shadow}
 
 With the URL configured, GitLab will link to the environment, so you can see
 the result of a merge request with a single click.
@@ -244,7 +246,7 @@ selecting `Webhooks`.
 The editor in GitLab now properly highlights code and allows you to
 collapse blocks of code.
 
-![Code highlighting in GitLab 8.11](/images/8_11/highlighting.gif)
+![Code highlighting in GitLab 8.11](/images/8_11/highlighting.gif){: .shadow}
 
 ## MR links when pushing
 
@@ -258,7 +260,7 @@ any related merge requests when you push to GitLab.
 GitLab can now generate a nice looking coverage badge, so you can easily
 show off the test coverage of your projects anywhere:
 
-![Coverage Badge in GitLab 8.11](/images/8_11/coverage_badge.png)
+![Coverage Badge in GitLab 8.11](/images/8_11/coverage_badge.png){: .shadow}
 
 If you didn't know GitLab could report coverage yet, set it up in your
 pipelines settings: `pipelines/settings`.
@@ -296,19 +298,19 @@ to GitLab.com (the drop is the deploy).
 
 Loading times of merge request diffs:
 
-![Performance improvements in GitLab 8.11](/images/8_11/perf1.jpg)
+![Performance improvements in GitLab 8.11](/images/8_11/perf1.jpg){: .shadow}
 
 The number of SQL queries executed when displaying merge request diffs:
 
-![Performance improvements in GitLab 8.11](/images/8_11/perf2.jpg)
+![Performance improvements in GitLab 8.11](/images/8_11/perf2.jpg){: .shadow}
 
 The time spent in SQL queries when displaying merge request diffs:
 
-![Performance improvements in GitLab 8.11](/images/8_11/perf3.jpg)
+![Performance improvements in GitLab 8.11](/images/8_11/perf3.jpg){: .shadow}
 
 Pipelines performance also improved significantly:
 
-![Performance improvements in GitLab 8.11](/images/8_11/perf4.jpg)
+![Performance improvements in GitLab 8.11](/images/8_11/perf4.jpg){: .shadow}
 
 See below for detailed improvements and the merge requests of the implementations.
 
