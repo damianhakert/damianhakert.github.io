@@ -236,6 +236,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] Manager: Add team member to TriNet and HR Savvy as an admin.
 * [ ] People Ops: Invite team member to People Ops Confidential channel in Slack.
 
+### FOR CORE TEAM MEMBERS ONLY 
+
+1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+2.  [ ] People Ops: Have member sign NDA.
+3.  [ ] Robert/Jacob V/Ernst: Add member to #core in Slack.  
+4.  [ ] Robert/Jacob V/Ernst: Give member developer access to gitlab-org.
+
 ```
 
 
