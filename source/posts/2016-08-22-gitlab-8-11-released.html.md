@@ -51,9 +51,9 @@ in one (or more!) of the lists.
 To see an example, have a look at the
 [GitLab CE Issue Board for the next release (8.12)](https://gitlab.com/gitlab-org/gitlab-ce/board?author_id=&assignee_id=&milestone_title=8.12).
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen></iframe>
-
 > [Issue Board Documentation](http://docs.gitlab.com/ce/user/project/issue_board.html)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen></iframe>
 
 ## Merge Conflict Resolution
 
@@ -197,6 +197,12 @@ local editor.
 We've put together a quick screencast showing this off:
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/3wei5yv_Ye8" frameborder="0" allowfullscreen></iframe>
+
+> [Integrate GitLab with Koding - Administrator documentation](http://docs.gitlab.com/ce/administration/integration/koding.md)
+>
+> [Integrate GitLab with Koding - User documentation](http://docs.gitlab.com/ce/user/project/koding.md)
+
+[koding-web]: https://github.com/koding/koding
 
 ## Pipelines in MRs
 
