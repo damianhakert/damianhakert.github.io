@@ -204,10 +204,6 @@ We've put together a quick screencast showing this off:
 
 <br>
 
-> [Integrate GitLab with Koding - Administrator documentation](http://docs.gitlab.com/ce/administration/integration/koding.md)
->
-> [Integrate GitLab with Koding - User documentation](http://docs.gitlab.com/ce/user/project/koding.md)
-
 [koding-web]: https://github.com/koding/koding
 
 ## Pipelines in MRs
