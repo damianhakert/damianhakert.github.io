@@ -52,7 +52,7 @@ To see an example, have a look at the
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen></iframe>
 
-> [Documentation link](link)
+> [Issue Board Documentation](http://docs.gitlab.com/ce/user/project/issue_board.html)
 
 ## Merge Conflict Resolution
 
@@ -71,7 +71,7 @@ We realize that this won't work for all conflicts, but hope that this will make
 the majority of your conflicts minor bumps in the road to getting your work
 to production.
 
-> [Documentation link](link)
+> [Resolve conflicts Documentation](http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html)
 
 ## (EE) Branch Permissions for Users
 
@@ -86,8 +86,9 @@ to merge through a merge request to the branch.
 ![Branch permissions for users in GitLab 8.11](/images/8_11/branch_permissions.png)
 
 For each action (push and merge) you can allow any amount of users and
-permissions, making this a very powerful addition to GitLab EE for organisations
-with complex workflows.
+permissions, making this a very powerful addition to GitLab EE for organizations.
+
+> [Branch permissions for users Documentation](http://docs.gitlab.com/ee/user/project/protected_branches.html#restricting-push-and-merge-access-to-certain-users)
 
 ## Resolve Discussions in MRs
 
@@ -100,6 +101,8 @@ request diffs can be resolved. Longer threads can be resolved all at once
 or just comment-by-comment.
 
 ![Resolve Discussions in GitLab 8.11](/images/8_11/resolve_discussion.png)
+
+> [Merge request discussion resolution Documentation](http://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
 
 ## Pipelines Graph
 
@@ -127,6 +130,8 @@ TODO IMAGE
 This should make it easier for everyone to submit good-looking
 feature requests, bug reports and merge requests.
 
+> [Description templates Documentation](http://docs.gitlab.com/ce/user/project/description_templates.html)
+
 ## Slash Commands
 
 Inspired by chat tools, such as IRC, Hipchat, Mattermost and Slack, we've add
@@ -150,6 +155,8 @@ Here are some ideas on using the new slash commands:
 - Through the notes API
 
 We can't wait to see how you'll use them.
+
+> [Slash commands Documentation](http://docs.gitlab.com/ce/user/project/slash_commands.html)
 
 ## Koding Integration
 
