@@ -180,7 +180,7 @@ With GitLab 8.11, we're introducing the Koding integration with GitLab.
 This means that you can check out a project or just a merge request in
 a full-fledged IDE with the press of a button.
 
-Enable Koding in your Project services:
+Enable Koding in the Admin Application Settings:
 
 ![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding1.png){: .shadow}
 
