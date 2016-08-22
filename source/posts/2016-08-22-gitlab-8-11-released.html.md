@@ -74,7 +74,7 @@ to production.
 
 > [Resolve conflicts Documentation](http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html)
 
-## (EE) Branch Permissions for Users
+## Branch Permissions for Users (EE only)
 
 It's now possible to restrict pushing and merging to specific branches to
 specific users, using Branch Permissions in GitLab Enterprise Edition.
@@ -103,6 +103,11 @@ or just comment-by-comment.
 
 ![Resolve Discussions in GitLab 8.11](/images/8_11/resolve_discussion.png)
 
+We keep track of how many discussions you still need to resolve and added
+a convenient button to jump to the next unresolved discussion.
+
+![Jump to the next unresolved discussion in GitLab 8.11](/images/8_11/jump.png)
+
 > [Merge request discussion resolution Documentation](http://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
 
 ## Pipelines Graph
@@ -112,6 +117,9 @@ builds. To make it a little easier to see what is going on, you can now view
 a graph of a single pipeline and its status:
 
 ![Pipeline Graphs in GitLab 8.11](/images/8_11/pipeline_graph2.png)
+
+Simply click on a pipeline in your merge request or pipelines view to view
+the graph for the current pipeline.
 
 ## Issue and MR Templates
 
@@ -196,6 +204,8 @@ You will now see your [Pipelines](https://about.gitlab.com/2016/05/22/gitlab-8-8
 
 ![Pipelines in merge requests in GitLab 8.11](/images/8_11/pipelines_mr.png)
 
+Click on a pipeline to see its graph and related builds.
+
 ## Deployment status in Merge Requests
 
 You can now easily set the URL of your environments:
@@ -215,6 +225,9 @@ the result of a merge request with a single click.
 To make it easier to integrate the power of GitLab's pipelines, we've
 added a webhook for pipelines. It'll fire whenever a pipeline is created,
 is running or is finished.
+
+Enable any webhooks by going to the settings dropdown in your project and
+selecting `Webhooks`.
 
 ## Code Highlighting and Collapsing
 
@@ -242,15 +255,17 @@ pipelines settings: `pipelines/settings`.
 
 > [Read the docs on test coverage badges](http://docs.gitlab.com/ce/ci/pipelines.html#sts=Test coverage report badge)
 
-## Expiration date on Memberships and shared Projects
+## Expiration date on Memberships
 
 When giving a user access to a project or when sharing a project with a group,
 you can now limit that access to a certain date, setting an expiration date.
+After the date, the user or group will no longer have access to the
+project.
 
 This should make it easier to manage sharing projects with temporary team
 members.
 
-## Move projects between shards (EE)
+## Move projects between shards (EE only)
 
 With GitLab 8.10 we [introduced][mount-points] multiple mount points in GitLab.
 
@@ -273,7 +288,7 @@ storage.
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5502)
 * Various improvements have been made to GitLab's Git handling to use fewer Git
   operations and use faster sorting of version numbers:
-  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536)>, <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375)>
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5536), [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5375)
 * Commit authors are cached per Sidekiq transaction to avoid extra lookups:
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5537)
 * The number of queries used for displaying merge request diffs has been
@@ -315,8 +330,8 @@ storage.
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5808)
 * The dropdown used for displaying a list of projects an issue can be moved to
   uses pagination instead of loading all data at once:
-  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828)>,
-  <[mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)>
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5828),
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5686)
 * Methods calls for finding Git blobs that were not needed have been removed:
   [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5848)
 * The branches dropdown in the cherry pick and revert dialogues is now loaded
@@ -334,22 +349,22 @@ storage.
 
 ### Features
 
-* SideKiq now caches certain objects per transaction. This is enabled by default but can be disabled using an environment variable: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5054
-* GitLab can now process a request using ruby-prof, storing the profiling data on disk so it can be viewed later on. This requires a token to be specified in a header to work: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5281
-* GitLab Performance Monitoring can now track custom events such as the number of Git pushes, projects being forked, etc  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5830
+* SideKiq now caches certain objects per transaction. This is enabled by default but can be disabled using an environment variable: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5054)
+* GitLab can now process a request using ruby-prof, storing the profiling data on disk so it can be viewed later on. This requires a token to be specified in a header to work: [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5281)
+* GitLab Performance Monitoring can now track custom events such as the number of Git pushes, projects being forked, etc  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5830)
 
 ### Instrumentation
 
 * Nokogiri has been instrumented:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5470
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5470)
 * The overhead of method call instrumentation has been reduced:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5550
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5550)
 * The `Repository` class has been instrumented:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5621
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5621)
 * `Gitlab::Highlight` has been instrumented:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5644
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5644)
 * `Project.visible_to_user` has been instrumented again:
-  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793
+  [mr](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5793)
 
 ## GitLab Mattermost 3.3
 
@@ -378,6 +393,14 @@ To upgrade to GitLab 8.11, downtime is required due to migrations.
 The downtime for GitLab.com (the largest GitLab instance) was about
 15 to 30 minutes. It may take less time depending on the amount of data on
 your instance.
+
+Some columns are removed by one migration which may affect users running a
+version of GitLab that was still using said column.
+Two other migrations populate newly created tables based on existing data,
+as such they require downtime to ensure this data isn't modified while
+the migration is running (and until 8.11 is deployed to the user's cluster).
+Finally another migration adds two foreign keys,
+which requires downtime as this is not done in a concurrent manner.
 
 ### 2FA enforced through API and Git over HTTP
 
