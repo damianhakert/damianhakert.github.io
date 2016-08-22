@@ -453,6 +453,14 @@ the migration is running (and until 8.11 is deployed to the user's cluster).
 Finally another migration adds two foreign keys,
 which requires downtime as this is not done in a concurrent manner.
 
+### Ruby 2.1 deprecation
+
+With this release of GitLab, we're upgrading to Ruby 2.3.
+For manual installations, we strongly suggest you update Ruby to 2.3
+with this release. Omnibus installations will be automatically on Ruby 2.3.
+
+Support for Ruby versions below 2.3 (2.1, 2.2) will stop with GitLab 8.13.
+
 ### Note for early updaters
 
 If you were very fast in updating GitLab to 8.11 and
