@@ -169,8 +169,7 @@ filtering and sorting abilities you see across the rest of the product.
 
 ### Live demo
 
-<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> To
-see the GitLab Issue Board in action, take a look at GitLab Developer Advocates
+To see the GitLab Issue Board in action, take a look at GitLab Developer Advocates
 ([Amanda] and [Ivan])’s screencast below.
 
 <figure class="video_container">
@@ -204,7 +203,7 @@ great features in GitLab 8.11. [Register here][webcast].
 
 <style>
   .blue {
-    color: rgb(49,112,143);
+    color: rgb(49,112,143) !important;
   }
   .center {
     display: block;
