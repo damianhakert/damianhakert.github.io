@@ -50,7 +50,7 @@ The *main* tools featured in this article are all free to use.
 
 ### Screen recording
 
-#### Quicktime (OSX)
+#### Quicktime (macOS)
 
 On every Mac, Quicktime has already been installed. It features a nice screen record option and even has basic trim and splitting functions in the *edit* menu! Perfect for creating those [video files](#step-1).
 
@@ -61,7 +61,7 @@ Worthy of mentioning:
 - [Screenflow](http://www.telestream.net/screenflow/) (not free)
 - [Gif Brewery](http://gifbrewery.com/) (not free)
 - [licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
-- [ffscreencast](https://github.com/cytopia/ffscreencast) (cli tool, only capture the whole screen)
+- [ffscreencast](https://github.com/cytopia/ffscreencast) (CLI tool, only capture the whole screen)
 
 #### Camstudio (Windows)
 
@@ -85,7 +85,7 @@ Example command: `gifify input.mov -o output.gif --resize 960:-1 --compress 0 --
 - [Giphy Gifmaker](https://giphy.com/create/gifmaker) (You can keep your GIFs private if you have an account. Otherwise: "all of your GIF are belong to GIPHY")
 
 Worthy of mentioning:
-- [Gif Brewery](http://gifbrewery.com/) (osx, not free)
+- [Gif Brewery](http://gifbrewery.com/) (macOS, not free)
 
 ## Relevant links
 
