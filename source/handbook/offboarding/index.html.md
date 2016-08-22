@@ -3,12 +3,14 @@ layout: markdown_page
 title: "GitLab Offboarding"
 ---
 
-Create issue for former team member on the dev server in the [organization issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
+Before starting an offboarding issue, make sure that the team member's resignation or termination has been discussed and cleared with _at least_ the member of the executive team to whom the team member (in)directly reports. For [involuntary terminations](/handbook/people-operations/#involuntary-terminations), make yourself familiar with the guidelines in the People Operations handbook.
+
+When it is time for offboarding, create issue for former team member on the dev server in the [organization issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany.
-1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @ernst, @brittany.
+1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @ernst.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
    1. [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
@@ -91,14 +93,17 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Remove team member from the info sheets of the next Summit if applicable.
 1. [x] _not relevant_ New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: Remove team members profile from [Egencia](https://about.gitlab.com/handbook/people-operations/#add-egencia).
-1. [x] _not relevant_ New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
+1. [x] _not relevant_ New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1. [x] _not relevant_ Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
-1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
+1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [x] _not relevant_ New team member: Make an improvement to the handbook (something that you wished was there).
+1. [x] _not relevant_ Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
+1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
@@ -111,8 +116,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Patricio/Robert/Jacob V: Remove former team member's GitLab.com admin account.
-1. [ ] Patricio/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
+1. [ ] Jose/Robert/Jacob V: Remove former team member's GitLab.com admin account.
+1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
 1. [ ] ZenDesk [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
@@ -121,6 +126,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: remove from support team call
+1. [ ] Pablo/Infrastructure Team: Remove user from the following services: 
+   1. [ ] Chef sysadmin account - [More info](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
+   1. [ ] Azure account
+   1. [ ] Remove Digital Ocean droplet/Account access
+   1. [ ] Remove from AWS
 1. [x] _not relevant, already addressed_ Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [x] _not relevant_ New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance.
@@ -159,12 +169,3 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [x] _not relevant, already handled_ People Ops: Invite team member to People Ops Confidential channel in Slack.
 
 ```
-
-## Tackling Offboarding Checklist
-
-### Remove a team member from Sundial
-
-1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
-1. Go to timezone view in the top right corner
-1. Hover over the team member's name that you want to remove
-1. Make sure you are in list view at this point, and then click the "x" to remove the team member
