@@ -183,7 +183,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: Invite to support team call
 1. [ ] Jose: Use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
-1. [ ] Jose: Add team member to `@supportteam` Slack handle. 
+1. [ ] Jose: Add team member to `@supportteam` Slack handle.
 1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
 
@@ -200,6 +200,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
 1. [ ] New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+1. [ ] New team member: Join the `#interaction` channel.
 1. [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 1. [ ] Hiring Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
