@@ -190,7 +190,7 @@ great features in GitLab 8.11. [Register here][webcast].
 [ci]: https://about.gitlab.com/gitlab-ci/
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
 [container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
-[cycle]: https://gitlab.com/gitlab-org/gitlab-ee/issues/847
+[cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975
 [direction]: https://about.gitlab.com/direction/
 [doc]: http://docs.gitlab.com/ce/user/project/issue_board.html
 [GitLab Issue Board]: /solutions/issueboard/
