@@ -17,7 +17,7 @@ you can resolve merge conflicts in the interface,
 you can restrict pushes to people and groups (in EE),
 you get an online IDE,
 you can use slash commands to modify issues and
-you use as many issue templates as
+you can create as many issue templates as
 you want ..and many other new features.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
@@ -26,10 +26,10 @@ Thanks Clement Ho!
 
 <!--more-->
 
-## Issue Boards
+## Issue Board
 
 GitLab Issues are very flexible. You can crosslink them, prioritize them, and
-rank them by popularity. With GitLab Issue Boards we've added something new:
+rank them by popularity. With the Issue Board we've added something new:
 
 You can now create workflows, quickly get an idea of the status of your
 issues and all that in a simple, beautiful Board, not unlike a Kanban or Scrum
@@ -127,7 +127,7 @@ To standardize on a certain format for issues and merge requests,
 you could already create templates in GitLab Enterprise Edition.
 
 With GitLab 8.11, we're bringing the ability to create multiple templates
-(for instance, one for feature proposals, another for bugs) to GitLab CE and EE.
+(for instance, one for feature proposals, another for bugs) to GitLab.com, GitLab CE, and EE.
 
 Templates are Markdown files (`.md`) that live in the repository in a `.gitlab`
 directory and either the `.gitlab/issue_templates` or
@@ -137,13 +137,13 @@ a new issue or merge request:
 ![Issue and Merge Request templates in GitLab 8.11](/images/8_11/templates.png)
 
 This should make it easier for everyone to submit good-looking
-feature requests, bug reports and merge requests.
+feature requests, bug reports, and merge requests.
 
 > [See the documentation on templates](http://docs.gitlab.com/ce/user/project/description_templates.html)
 
 ## Slash Commands
 
-Inspired by chat tools, such as IRC, Hipchat, Mattermost and Slack, we've add
+Inspired by chat tools, such as IRC, Hipchat, Mattermost, and Slack, we've added
 our own version of slash commands to GitLab. This means you can quickly
 change labels, milestones, assignees and more by just writing a commment
 or by having a command when writing your merge request or issue.
@@ -170,13 +170,13 @@ We can't wait to see how you'll use them.
 ## Koding Integration
 
 [Koding][koding-web] allows you to run your entire development environment
-in the cloud, share it with your team and even use your local editor. This
-means that you don't have to spend hours to set up your stack on every new
+in the cloud, share it with your team, and even use your local editor. This
+means that you don't have to spend hours setting up your stack on every new
 machine and every change.
 
 With GitLab 8.11, we're introducing the Koding integration with GitLab.
 This means that you can check out a project or just a merge request in
-a fully fledged IDE with the press of a button.
+a full-fledged IDE with the press of a button.
 
 Enable Koding in your Project services:
 
@@ -189,7 +189,7 @@ Set it up for your project:
 ![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding4.png)
 
 And now you're able to quickly check out any merge request, branch,
-and commit in a full-fledged IDE, that even allows you to use your
+and commit in a complete IDE, that even allows you to use your
 local editor.
 
 ![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding3.png)
@@ -270,7 +270,7 @@ members.
 With GitLab 8.10 we [introduced][mount-points] multiple mount points in GitLab.
 
 With GitLab 8.11 you can move projects between shards with a rake command.
-This is not something for everyday use, but convenient if you want to test
+This is not something for everyday use, but it is convenient if you want to test
 a new shard or want to move that super-heavily used project over to faster
 storage.
 
