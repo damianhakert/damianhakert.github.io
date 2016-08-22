@@ -45,16 +45,12 @@ The full command looks like this:
 aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
 ```
 
+![Manual deployment](/images/blogimages/ci-deployment-and-environments/13.jpg){: .illustration}
+
 Important detail: the command 
 [expects you](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence) 
 to provide ``AWS_ACCESS_KEY_ID` and  `AWS_SECRET_ACCESS_KEY`` environment 
 variables. Also you might need to specify `AWS_DEFAULT_REGION`.
-{: .alert .alert-info}
-
-This is an example of a command used to deliver code to a destination system. 
-No matter what tool and what destination system you use, the principle is more 
-or less the same: you had to run a command with some parameters and somehow pass 
-a secret key or a set of keys for authentication.
 {: .alert .alert-info}
 
 Let’s try to automate it using GitLab CI.
@@ -89,6 +85,8 @@ deploy:
   - pip install awscli
   - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
 ```
+
+![Automated deployment](/images/blogimages/ci-deployment-and-environments/14.jpg){: .illustration}
 
 The installation of `awscli` extends the job execution time, but it is not a big 
 deal for now. If you'll need speed, you can always [look for
@@ -161,6 +159,9 @@ Whenever you push anything to GitLab, it will be deployed to S3.
 
 Preventing it is straightforward. Just add `only: master` to your “deploy” job.
 
+![Automated deployment of master branch](/images/blogimages/ci-deployment-and-environments/15.jpg){: .illustration}
+
+
 But it would be also nice to preview your changes from feature-branches somehow.
 
 
@@ -175,6 +176,9 @@ To [host something on GitLab Pages](https://about.gitlab.com/2016/04/07/gitlab-p
 - the job should be named “pages”
 - there should be an `artifacts` section with folder “public” in it
 - everything you want to host should be in this “public” folder
+
+The contents of public folder will be hosted at http://<username>.gitlab.io/<projectname>/
+{: .alert .alert-info}
 
 After applying the [example config for plain-html websites](https://gitlab.com/pages/plain-html/blob/master/.gitlab-ci.yml),
  full CI configuration looks like this:
@@ -203,14 +207,16 @@ pages:
   - master
 ```
 
+We specified two jobs. One job deploys the website for your customers to S3.
 
-We specified two jobs. One job deploys the website for your customers to S3. 
+![Deployment to two places](/images/blogimages/ci-deployment-and-environments/16.jpg){: .illustration}
+
 Another - for developers to GitLab Pages.
 
 Actually some people would name it Production environment and Staging environment.
 
 
-## Figuring out what is Environments
+## Introducing Environments
 
 It looks like GitLab has 
  [support for environments](http://docs.gitlab.com/ee/ci/environments.html#environments),
@@ -242,13 +248,12 @@ pages:
   - master
 ```
 
-Now GitLab keeps track of what is deployed where:
+![Environments](/images/blogimages/ci-deployment-and-environments/17.jpg){: .illustration}
 
-![List of environments](/images/blogimages/ci-deployment-and-environments/environments.png){: .shadow}
 
-Also you can see whole history of your deployments per environment:
+![List of environments](/images/blogimages/ci-deployment-and-environments/environments.png){: .shadow}*GitLab keeps track of what is deployed where*
 
-![List of deployments to staging environment](/images/blogimages/ci-deployment-and-environments/staging.png){: .shadow}
+![List of deployments to staging environment](/images/blogimages/ci-deployment-and-environments/staging.png){: .shadow}*The whole history of your deployments per environment*
 
 Now when everything is automated and set up, we’re ready for new challenges just around the corner.
 
@@ -268,25 +273,27 @@ Seting up Slack notifications is a [straightforward process](http://docs.gitlab.
 The whole idea is to take Incoming WebHook URL from Slack... 
 ![Grabbing Incoming WebHook URL in Slack](/images/blogimages/ci-deployment-and-environments/incoming-webhook.png){: .shadow}
 
-...and put it into **Settings → Services → Slack** together with your Slack nickname:
+...and put it into **Settings → Services → Slack** together with your Slack username:
 ![Configuring Slack Service in GitLab](/images/blogimages/ci-deployment-and-environments/services-slack.png){: .shadow}
 
-We only care about deploy, so uncheck all the checkboxes, except “Build” in the 
+Since you only care about deploy, you can uncheck all the checkboxes, except the “Build” in the 
 settings above. That’s it. Now you’re notified of every deployment:
 
 ![Deployment notifications in Slack](/images/blogimages/ci-deployment-and-environments/slack.png){: .shadow}
 
+But the time goes, your website became really popular, your team grow from 2 to 8 people. 
+People develop in parallel, so the situation when people wait for each other to 
+preview something on Staging become pretty common. “Deploy every branch to staging” stopped to work.
 
 
+![TODO](Image of queue)
 
+It is time to modify the process one more time.
 
-Your website became popular, and you had to hire more developers.
+## Teamwork at scale
 
-The problems is that “Deploy every branch to staging” strategy is not working anymore.
-
-You solved the problem by changing your process. You agreed that if someone 
-wants to see his changes on the staging server, he should first merge the 
-changes to “staging” branch.
+You and your team agreed that if someone wants to see his changes on the staging 
+server, he should first merge the changes to the “staging” branch.
 
 Regarding CI configuration, the change is minimal:
 
@@ -299,26 +306,128 @@ is now changed to
 
 ```yaml
 only:
-- develop
+- staging
 ```
 
+![Staging branch](/images/blogimages/ci-deployment-and-environments/18.jpg){: .illustration}
+
+Of course, it requires additional time & efforts for merging, but everybody ageed that it is better than waiting.
 
 ### Handling emergencies
 
-Shit happens! And it happened to your website. One junior overlooked bug and 
-pushed it straight to production. Exactly when your site was on top of HackerNews,
-so thousands of people saw completely broken layout instead of your shiny main page.
+Shit happens! And it's happened to your website. Someone merged branches incorrectly and 
+pushed the result straight to production exactly when your site was on top of HackerNews.
+Thousands of people saw your completely broken layout instead of shiny main page.
 
-Luckily, someone found Rollback button, and deployed the previous version, so the 
-website was fixed a minute after the problem have been discovered.
+Luckily, someone found the Rollback button, so the 
+website was fixed a minute after the problem had been discovered.
 
-![List of environments](/images/blogimages/ci-deployment-and-environments/rollback-arrow.png){: .shadow}
+![List of environments](/images/blogimages/ci-deployment-and-environments/rollback-arrow.png){: .shadow}*Rollback relaunches the previous job with the previous commit*
 
-Rollback just relaunches the same job with the same commit.
+Anyway, you felt that you needed to react to the problem: you decided to turn off 
+auto deploy to production and switch to manual deployment. 
+To do that, you needed to add `when: manual` to your job.
 
-Anyhow, you need to react to the problem. So you decide to turn off auto deploy 
-to production. To switch to manual deployment you need to add `when: manual` to your job.
-
-Whenever you feel safe to deploy, go to **Pipelines→Builds**, and click the button:
+As you can expect, there will be no automatic deployment to Production after that. 
+To deploy manually go to **Pipelines→Builds**, and click the button:
 
 ![Skipped job is available for manual launch](/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
+
+This is where our main story ends. The future is blurry yet. Let's summarize 
+everything we've learned, and then try to predict the future.
+
+
+## Summary
+
+1. Deployment is just a command (or a set of commands) needed to be executed regularly, therefore it run inside GitLab CI
+2. Commonly you need to provide some secret key(s) to the command, you execute. Store these secret keys in Settings→Variables 
+3. With GitLab CI you can flexibly specify which branchs where to deploy
+4. If you deploy in multiple environments, GitLab can save the history of deployments, 
+which gives you the ability to rollback to any previous version
+5. For critical parts of your infrastructure you can enable manual deployment from GitLab interface, instead of automated
+
+
+## Future branch #1: Deploying to different services
+
+In the real life, we're not limited with S3 and GitLab Pages. We host, and therefore, 
+deploy our apps and packages to different services. 
+
+`awscli` was just an example of a command used to deliver code to an example 
+service (Amazon S3). 
+But no matter what tool and what destination system you use, the principle is the same: 
+you run a command with some parameters and somehow pass a secret key or 
+a set of keys for authentication purposes.
+
+
+The `dpl` deployment tool was utilizes this principle, and provides more or less 
+unified interface for [this list of providers](https://github.com/travis-ci/dpl#supported-providers).
+
+Here's how production deployment job would look like, if we use `dpl`:
+
+```yaml
+variables:
+  S3_BUCKET_NAME: "yourbucket"
+
+deploy to production:
+  environment: production
+  image: ruby:latest
+  script:
+  - gem install dpl
+  - dpl --provider=s3 --bucket=S3_BUCKET_NAME
+  only: 
+  - master
+```
+
+If you deploy to different systems, of change destination platform frequently, consider
+using `dpl`.
+
+
+## Future branch #2: Review apps
+
+If the number of collaborators keeps growing, then the next logical step would be 
+to raise a temporary instance of the application for review. Our application let
+us to do that pretty straightforward:
+
+```yaml
+variables:
+  PRODUCTION_S3_BUCKET_NAME: "yourbucket"
+  REVIEW_S3_BUCKET_NAME: "reviewbucket"
+
+image: python:latest
+
+before_script:
+- pip install awscli
+
+deploy to production:
+  environment: production
+  script:
+  - aws s3 cp ./ s3://$PRODUCTION_S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+  only: 
+  - master
+
+review apps:
+  environment: review  
+  script:
+  - mkdir -p ./$CI_BUILD_REF_NAME
+  - cp ./*.html ./$CI_BUILD_REF_NAME/
+  - aws s3 cp ./ s3://$REVIEW_S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+```
+
+We set up another bucket on S3 for reviewing purposes. The only difference that 
+we copy the contents of our website to a "folder" named by a name of 
+the development branch, so that the URL looks like this:
+
+`http://<REVIEW_S3_BUCKET_NAME>.s3-website-us-east-1.amazonaws.com/<branchname>/`
+
+The interesting thing is where we got this $CI_BUILD_REF_NAME variable from. 
+GitLab predefines [a lot of environment variables](http://docs.gitlab.com/ce/ci/variables/README.html#predefined-variables-environment-variables), so that you could use them in your jobs.
+
+The details of Review Apps implementation are depend widely on your real technology 
+stack and deployment process, and they are far out of this blog post scope.
+
+Most probably it will not be that straightforward, as it is with our static HTML website. 
+But it is definitely doable, especially if you use Docker, or at least Chef or Ansible.
+
+
+## Keywords description & links
+
