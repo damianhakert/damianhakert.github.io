@@ -10,7 +10,7 @@ extra_css:
     .color-bg
       %div
         %h1 GitLab Continuous Integration
-        %h3#ci-subt GitLab has integrated CI to test, build and deploy your code
+        %h3#ci-subt GitLab has integrated CI and CD to test, build and deploy your code
   .sub-wrapper
     .container
       .row.advantages
@@ -36,6 +36,12 @@ extra_css:
             %li
               %b Faster results:
               Each build can be split in multiple jobs that run in parallel on multiple machines
+            %li
+              %b Continuous Delivery (CD):
+              multiple stages, manual deploys, 
+              %a{href: "http://docs.gitlab.com/ce/ci/environments.html"} environments,
+              and
+              %a{href: "http://doc.gitlab.com/ce/ci/variables/README.html"} variables
             %li
               %b Open source:
               CI is included with both the open source GitLab Community Edition and the proprietary GitLab Enterprise Edition
@@ -97,11 +103,6 @@ extra_css:
               as part of the test and
               = succeed "." do
                 %a{href: "http://doc.gitlab.com/ce/ci/docker/using_docker_build.html"} build docker images
-            %li
-              %b Continuous Delivery (CD):
-              Continuous delivery and deployment are easy with multiple types of jobs, and secure
-              = succeed "." do
-                %a{href: "http://doc.gitlab.com/ce/ci/variables/README.html"} environmental variables
         .col-xs-1.col-md-1
       %hr.divider/
       .row.integration

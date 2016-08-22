@@ -144,7 +144,7 @@ Each issue that is scheduled should meet most of these criteria:
 1. It benefits our users
 1. It is [technically viable](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#contribution-acceptance-criteria)
 1. The technical complexity is acceptable (we want to preserve our ability to make changes quickly in the future so we try to avoid: complex code, complex data structures, and optional settings)
-1. It is ortagonal to other features (prevent overlap with current and future features)
+1. It is orthogonal to other features (prevent overlap with current and future features)
 1. Its requirements are clear
 1. It can be achieved within the scheduled milestone.
 Larger issues should be split up, so that individual steps can be achieved

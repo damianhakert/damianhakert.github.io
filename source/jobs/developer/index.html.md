@@ -27,6 +27,10 @@ Developers can specialize immediately after joining, or after some time, when th
 * You are passionate about open source
 * You have worked on a production-level Rails application
 * You know how to write your own Ruby gem using TDD techniques
+* Strong written communication skills
+* Experience with Docker, nginx, and Linux system administration a plus
+* Experience with online community development a plus
+* Self-motivated and have strong organizational skills
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 

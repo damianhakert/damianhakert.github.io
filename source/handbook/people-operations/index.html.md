@@ -65,7 +65,7 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
-1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and Senior Director of People Operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee. When the CEO is away (e.g. vacation), the two other members of the committee can take a decision and inform the committee. Whatever the decision is, the compensation committee should be cc-ed (or bcc-ed) on the final email, so that the committee members can know that the loop was closed.
 
 ### Sick time - taking and reporting
 <a name="sick-time"></a>
@@ -246,11 +246,13 @@ The information is then entered into BambooHR (to track who has which piece of e
 1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
 1. This process is repeated for each asset purchased
 
-### Managing the PeopleOps onboarding tasks
+### Managing the PeopleOps onboarding and offboarding tasks
 <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
+
+#### Onboarding
 
 - **Add team member to availability calendar**
 Make a new "all-day" event on the day the new team member starts "[Name] joining
@@ -300,6 +302,14 @@ Add the team member's name to the Travel and Lodging Google sheets to make sure 
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+
+#### Offboarding
+
+- **Remove a team member from Sundial**<a name="sundial-removal"></a>
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
+1. Go to timezone view in the top right corner
+1. Hover over the team member's name that you want to remove
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Birthday Swag
 <a name="birthday-swag"></a>
