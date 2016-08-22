@@ -313,7 +313,7 @@
   locality: Kearney, NE
   country: USA
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: Support Lead
+  reports_to: VP of Scaling
   picture: drew.jpg
   twitter: drewblessing
   gitlab: dblessing
@@ -403,8 +403,8 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
+  reports_to: VP of Scaling
   picture: josetorres.jpg
   twitter: random_primate
   gitlab: balameb
@@ -727,7 +727,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  reports_to: VP of Scaling
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -898,7 +898,7 @@
   locality: Perth
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  reports_to: VP of Scaling
   picture: chris.jpg
   twitter: IsChrisW
   gitlab: MrChrisW
@@ -1309,7 +1309,7 @@
   locality: Bauchi, Bauchi State
   country: Nigeria
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
-  reports_to: Support Lead
+  reports_to: VP of Scaling
   picture: abubakarango.jpg
   twitter: sarki247
   gitlab: abuango
@@ -1368,7 +1368,7 @@
   locality: Mumbai
   country: India
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  reports_to: VP of Scaling
   picture: arihant.png
   twitter: arihantar
   gitlab: arihantar
