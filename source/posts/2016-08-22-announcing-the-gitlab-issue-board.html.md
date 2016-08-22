@@ -6,7 +6,7 @@ categories: GitLab
 image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover.png'
 description: "Strengthen your Release Management Process: announcing the GitLab Issue Board!"
 twitter_image: '/images/tweets/announcing-the-gitlab-issue-board.png'
-date: 2016-08-22 15:00
+date: 2016-08-22 17:02
 ---
 
 Software is eating the world. Reducing the time between having an idea and having the code in production 
