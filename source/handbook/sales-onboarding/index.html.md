@@ -115,10 +115,10 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 * [ ] [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
-* [ ] Scalability and High Availability
-    - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
-    - [High Availability Documentation](https://about.gitlab.com/high-availability/)
-    - [High Availability AWS Tutorial](https://www.youtube.com/watch?v=57qIiunuhaQ)
+* [ ] High Availability
+    - [ ] [GLU Session on High Availability](https://www.youtube.com/watch?v=36KS808u6bE)
+    - [ ] [High Availability Documentation](https://about.gitlab.com/high-availability/)
+    - [ ] [High Availability AWS Tutorial](https://www.youtube.com/watch?v=57qIiunuhaQ)
 
 * [ ] Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
@@ -126,21 +126,15 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Managing Permissions within EE
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=DjUoIrkiNuM)
 
-* [ ] GitLab 8.2
-    - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
-    - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
-
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
 * [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and EE Options.  Each feature that is hyperlinked will take you to the issue to learn more.  
 
-* [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-
 * [ ] [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 
-* [ ] [Idea to Production Video}(https://www.youtube.com/watch?v=pY4IbEXxxGY&feature=em-subs_digest)
+* [ ] [Idea to Production Video](https://www.youtube.com/watch?v=pY4IbEXxxGY&feature=em-subs_digest)
 
 * [ ] Step-by-step demo script(https://about.gitlab.com/handbook/sales/demo/)
 
@@ -148,7 +142,6 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 **Stage 3 tests**
 
-* [ ] [GitLab 8.2 Test](http://goo.gl/forms/9PnmhiNzEa)
 * [ ] [Big Files in Git Test](http://goo.gl/forms/RFsNK9fKuj)
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
