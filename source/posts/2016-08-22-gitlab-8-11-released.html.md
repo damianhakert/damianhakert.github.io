@@ -280,7 +280,7 @@ storage.
 
 In this release we've added another batch of significant performance improvements.
 
-Merge requests and their diffs should feel faster, in particular. Below
+Merge requests and their diffs are faster! Below
 some graphs that show the difference for when we deployed GitLab 8.11 RC2
 to GitLab.com (the drop is the deploy).
 
