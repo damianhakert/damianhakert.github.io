@@ -5,7 +5,7 @@ author_twitter: Jobvo
 image_title: /images/8_11/pic2.jpg
 categories: release
 twitter_image: /images/tweets/gitlab-8-11-released.png
-date: 2016-08-22 17:01
+date: 2016-08-22 10:01
 ---
 
 There are so many good things in GitLab 8.11,

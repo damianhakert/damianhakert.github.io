@@ -6,12 +6,12 @@ categories: GitLab
 image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover.png'
 description: "Strengthen your Release Management Process: announcing the GitLab Issue Board!"
 twitter_image: '/images/tweets/announcing-the-gitlab-issue-board.png'
-date: 2016-08-22 17:02
+date: 2016-08-22 10:02
 ---
 
-Software is eating the world. Reducing the time between having an idea and having the code in production 
-is a great competitive advantage. Planning what to do next is an essential part of that process. Today we 
-introduce our Issue Board that will make it faster to plan issues. It is an integrated part of GitLab, ensuring 
+Software is eating the world. Reducing the time between having an idea and having the code in production
+is a great competitive advantage. Planning what to do next is an essential part of that process. Today we
+introduce our Issue Board that will make it faster to plan issues. It is an integrated part of GitLab, ensuring
 you don't have to switch tools to get things done.
 
 <!-- more -->
