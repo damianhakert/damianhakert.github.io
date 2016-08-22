@@ -73,12 +73,16 @@ to production.
 
 > [Documentation link](link)
 
-## (EE) Branch Permissions for Groups and People
+## (EE) Branch Permissions for Users
 
+It's now possible to restrict pushing and merging to specific branches to
+specific users, using Branch Permissions in GitLab Enterprise Edition.
+
+TODO IMAGES DOCS
 
 ## Resolve Discussions in MRs
 
-Discussions on diffs in merge requests can be hard to keep track off, yet
+Discussions on diffs in merge requests can be hard to keep track of, yet
 it's important that you actually give each comment attention.
 
 To make it easier to find, fix, and resolve those comments and discussions,
@@ -106,10 +110,13 @@ With GitLab 8.11, we're bringing the ability to create multiple templates
 
 Templates are Markdown files (`.md`) that live in the repository in a `.gitlab`
 directory and either the `.gitlab/issue_templates` or
-`.gitlab/merge_request_templates`. They will appear in a dropdown when creating
+`.gitlab/merge_request_templates` subdirectory. They will appear in a dropdown when creating
 a new issue or merge request:
 
-![]()
+TODO IMAGE
+
+This should make it easier for everyone to submit good-looking
+feature requests, bug reports and merge requests.
 
 ## Slash Commands
 
@@ -130,7 +137,6 @@ the title of an issue, adding or removing labels and changing assignees.
 Here are some ideas on using the new slash commands:
 
 - In your email while replying to an issue TODO doc link
-- When creating a new issue through email (see below!)
 - Try having some in a template
 - Through the notes API
 
@@ -330,9 +336,9 @@ GitLab 8.11 includes [Mattermost 3.3](https://www.mattermost.org/mattermost-3-3-
 
 This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
 
-## Redis Sentinal Support
+## Redis Sentinel Support
 
-GitLab now has experimental support for Redis Sentinal.
+GitLab now has experimental support for Redis Sentinel.
 
 > [See the docs for details](http://docs.gitlab.com/ce/administration/high_availability/redis.html#experimental-redis-sentinel-support)
 
