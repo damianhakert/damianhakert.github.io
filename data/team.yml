@@ -1434,16 +1434,16 @@
   story:  |
           Joining August 18th
 
-- name: B.J.
-  locality:
-  country:
+- name: Bryce Johnson
+  locality: Madrid
+  country: Spain
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: bryce-johnson.jpg
+  twitter: devbryce
+  gitlab: https://gitlab.com/u/brycepj
   story:  |
-          Joining August 22nd
+    Bryce's primary addictions are programming in JavaScript and adding to his .vimrc file. Before discovering code in 2011, he wrote content for websites and advertisements you most assuredly never read, and now puts his writing skills to good use obsessing about variable names. Outside of code, Bryce enjoys hanging out with his wife and their two cats, playing ping pong, hiking in the Blue Ridge mountains, and trying out new pizza restaurants.
 
 - name: M.G.
   locality:
