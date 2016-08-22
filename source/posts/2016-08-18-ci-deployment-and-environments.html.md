@@ -4,7 +4,7 @@ description: "GitLab CI: Learn how to set up deployment pipeline to multiple env
 categories: GitLab CI
 author: Ivan Nemytchenko
 author_twitter: inemation
-image_title: '/images/blogimages/ci-deployment-and-environments/intro.png'
+image_title: '/images/blogimages/ci-deployment-and-environments/intro.jpg'
 ---
 
 ## GitLab CI: Deployment & environments  
