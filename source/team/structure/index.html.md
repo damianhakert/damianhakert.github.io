@@ -62,7 +62,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) that are a performance specialist
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) that are packaging specialists
-    - [Support](/handbook/support/) - [Support lead](/jobs/support-lead) - Ernst van Nierop
+    - [Support](/handbook/support/) - [Support lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)
     - CI - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) that are CI specialists
