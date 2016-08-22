@@ -10,7 +10,6 @@ title: "Contracts"
 * [Employment and Contractor Agreements](#employee-contractor-agreements)
 * [Core Team Member Non-Disclosure Agreement](#core-team-nda)
 * [Usability Testing Consent](#usability-consent)
-* [Template Invitation Letter for visa purposes](#invitation-letter)
 
 ## Disclaimer <a name="disclaimer"></a>
 
@@ -77,9 +76,3 @@ Please sign your name:
 Thank you!
 
 We appreciate your participation.
-
-## Template Invitation Letter for visa purposes <a name="invitation-letter"></a>
-
-When traveling to the USA for GitLab related business, the following invitation letter may need to be presented to your local US embassy. Contact the People Ops team to get the details right, and have it signed by someone in the executive team.
-
-- [Visa invitation letter](https://docs.google.com/document/d/1bKJYdhae5xSFp6wafF4FrfBgXmVgFpiinCJabV5BH-Y/edit)
