@@ -1445,16 +1445,20 @@
   story:  |
           Joining August 22nd
 
-- name: M.G.
-  locality:
-  country:
+- name: Mike Greiling
+  locality: Minneapolis, MN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: mikegreiling.png
+  twitter: mikegreiling
+  gitlab: mikegreiling
   story:  |
-          Joining August 22nd
+          Mike hails from the land of 10,000 lakes where the winters are cold and the sports teams never win.
+          Prior to joining GitLab, Mike spent much of his post-graduate years as a freelancer and occasional
+          entrepreneur.  He has a passion for crafting elegant solutions to complex problems through software
+          and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
+          biking, craft beer, travel, and spending time with his wife and daughter.
 
 - name: A.M.
   locality:
