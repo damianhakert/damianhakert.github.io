@@ -28,7 +28,7 @@ Show only what you need to. Not everything needs to be in there, its a glimpse.
 
 ### Step 2
 
-> All my GIFs start as videos – [Invision | Andy Orsow](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
+> All my GIFs start as videos – [Andy Orsow](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
 
 Most of the time you will want to create your gifs from a video file. This can give you expert control over the output if you need it (e.g. motion blur can add additional proffesionalism). Video files will in most cases be created from a screen recording software, details can be found in the [Tools Section](#tools)
 
@@ -77,7 +77,9 @@ Worthy of mentioning:
 
 [Gifify](https://github.com/vvo/gifify) is a command line tool and gives you the most complete set of options in order to convert your video files to gifs. It is probably the best free tool available, with the most control.
 
-Example command: `gifify input.mov -o output.gif --resize 960:-1 --compress 0 --colors 50 --speed 1.05 --fps 15`
+Example command:
+
+`gifify input.mov -o output.gif --resize 960:-1 --compress 0 --colors 50 --speed 1.05 --fps 15`
 
 #### Convert video to gif online
 
