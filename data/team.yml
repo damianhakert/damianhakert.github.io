@@ -403,8 +403,8 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
+  reports_to: Support Lead
   picture: josetorres.jpg
   twitter: random_primate
   gitlab: balameb
