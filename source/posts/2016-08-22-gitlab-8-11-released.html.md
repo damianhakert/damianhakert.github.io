@@ -53,7 +53,9 @@ To see an example, have a look at the
 
 > [Issue Board Documentation](http://docs.gitlab.com/ce/user/project/issue_board.html)
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Merge Conflict Resolution
 
@@ -196,7 +198,9 @@ local editor.
 
 We've put together a quick screencast showing this off:
 
-<iframe width="480" height="360" src="https://www.youtube.com/embed/3wei5yv_Ye8" frameborder="0" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/3wei5yv_Ye8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 > [Integrate GitLab with Koding - Administrator documentation](http://docs.gitlab.com/ce/administration/integration/koding.md)
 >
