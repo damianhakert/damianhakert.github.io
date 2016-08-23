@@ -27,7 +27,7 @@ Feature proposals should be submitted to the issue tracker of the relevant produ
 * [GitLab CE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 * [GitLab EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 
-Please read the [contributing guidelines for feature proposals](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#feature-proposals) before posting on the Issue tracker
+Please read the [contributing guidelines for feature proposals](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#feature-proposals) before posting on the Issue tracker and make use of the "Feature Proposal" issue template.
 
 ### Reproducible Bugs
 
@@ -36,7 +36,7 @@ Bug reports should be submitted to the issue tracker of the relevant product:
 * [GitLab CE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 * [GitLab EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 
-Please read the [contributing guidelines for reporting bugs](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker-guidelines) before posting on the Issue tracker.
+Please read the [contributing guidelines for reporting bugs](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker-guidelines) before posting on the Issue tracker and make use of the "Bug" issue template.
 
 Other resources for discussion:
 
