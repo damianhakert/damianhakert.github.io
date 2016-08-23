@@ -14,7 +14,7 @@ title: "Sales Process"
 * [Opportunity Stages](#stages)
 * [Submitting Quotes in Salesforce.com](#quotes)
 * [Closing A Won Deal](#closing)
-* [Process after you sell a Plus Subscription](#plus-subscription)
+* [Process after you sell a Premium Support Subscription](#premium-support)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
@@ -130,7 +130,7 @@ Once the above has happened, please make sure the following actions are done:
 1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
 1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
-### Process after you close a Subscription with Premium Support <a name="plus-subscription"></a>
+### Process after you sell a Premium Support Subscription <a name=#premium-support></a>
 
 Once you close a deal that includes Premium Support, you need to:
 
