@@ -176,11 +176,12 @@ in the cloud, share it with your team, and even use your local editor. This
 means that you don't have to spend hours setting up your stack on every new
 machine and every change.
 
-With GitLab 8.11, we're introducing the Koding integration with GitLab.
-This means that you can check out a project or just a merge request in
-a full-fledged IDE with the press of a button.
+With GitLab 8.11, we're introducing the Koding integration with GitLab.  This
+means that you can check out a project or just a merge request in a full-fledged
+IDE with the press of a button. The Koding integration is not on GitLab.com at
+present.
 
-Enable Koding in your Project services:
+Enable Koding in Admin > Application settings:
 
 ![Koding, an integrated IDE in GitLab 8.11](/images/8_11/koding1.png){: .shadow}
 
