@@ -397,6 +397,7 @@
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
              <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
+             <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
   story:  |
           Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
 
@@ -524,6 +525,7 @@
               <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a></li>
               <li>DevOps interest</li>
+              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
   story:  |
           Tomasz is a software developer, a devop beginner and a big linux enthusiast.
           After a few years of working in different corporations he said 'Enough!' and
