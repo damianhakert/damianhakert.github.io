@@ -635,29 +635,23 @@ The meeting should run as follows:
 
 - First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
-- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Kris, JJ, Chet, Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Ashley, Emily)
+- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
 
-### Quarterly marketing review
+### Quarterly marketing summit
 {: .no_toc}
 
-**Meeting goal: How did the last quarter go? What should we do for the upcoming quarter?**
+**Meeting goal: Planning for the upcoming quarter**
 
-**Run time: 120 minutes**
+**Run time: Full Day**  
 
-The Quarterly Marketing Review takes the place of the Monthly Marketing Meeting every last month of the new Quarter.
+CMO builds agenda and assigns ownership for each session.  
 
-CMO works with the functional group leads to review planning for each group.
-
-The meeting should run as follows:
+The meeting should run as follows:  
 
 - CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?  
-- Head of Product Marketing reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Developer Relations reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Demand Generation reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Design reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
 - Team agrees on what key takeaways are from the last quarter.  
 - Team agrees on what our Team OKRs should be for the upcoming quarter.  
 
@@ -759,8 +753,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
-[emily]: https://gitlab.com/u/emilykyle
-[hank]: https://gitlab.com/u/hanktaylor
+[emily]: https://gitlab.com/u/emilykyle  
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
 [luke]: https://gitlab.com/u/lukebabb
