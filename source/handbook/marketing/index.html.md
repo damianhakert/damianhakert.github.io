@@ -368,6 +368,7 @@ What is Content Marketing (to be included)
 
 [Job Description](/jobs/content-marketing-manager){:.btn .btn-purple-inv}
 [Handbook][Content Marketing]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Erica][erica]{:.btn .btn-orange}
 
 ### Partner Marketing
 {: .no_toc}
@@ -611,7 +612,7 @@ The Monthly Marketing Townhall is open to the entire company for questions, idea
 
 To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Monthly Marketing Townhall Agenda"
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
 - 24 hours prior to the meeting all marketing members should have their sections of the agenda completed.  
 - The CMO will email all attendees reminding them to take a look at the agenda and add any questions to the top of the meeting.  
@@ -644,24 +645,24 @@ To find the Dinosaur Sticker leaderboard, search the company Google Drive for "D
 
 **Meeting goal: Planning for the upcoming quarter**
 
-**Run time: Full Day**  
+**Run time: Full Day**
 
-CMO builds agenda and assigns ownership for each session.  
+CMO builds agenda and assigns ownership for each session.
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
-- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?  
-- Team agrees on what key takeaways are from the last quarter.  
-- Team agrees on what our Team OKRs should be for the upcoming quarter.  
+- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?
+- Team agrees on what key takeaways are from the last quarter.
+- Team agrees on what our Team OKRs should be for the upcoming quarter.
 
 ## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
-When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
+When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.
 
 - Respond to your emails by end of next business day.
-- Respond when you are cc'd with an action item on issues by end of next business day.  
-- Be on time to meetings. We start at on time.  
+- Respond when you are cc'd with an action item on issues by end of next business day.
+- Be on time to meetings. We start at on time.
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
 - Do not ping someone in a public channel on Slack on the weekends. This is rude.
@@ -671,7 +672,7 @@ When working remotely in such a quick moving organization, it is important for a
 
 Anything that is a process in marketing should be documented in the Marketing Handbook.
 
-- Format of all pages should be as follows:  
+- Format of all pages should be as follows:
     - Welcome to the Handbook.
     - Functional group overview if handbook for entire functional group or organization.
     - "On this page" index of all top level headers on the current page ([create a ToC]).
@@ -752,7 +753,8 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
-[emily]: https://gitlab.com/u/emilykyle  
+[emily]: https://gitlab.com/u/emilykyle
+[erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
