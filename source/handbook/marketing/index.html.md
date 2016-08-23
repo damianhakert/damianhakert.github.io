@@ -635,7 +635,7 @@ The meeting should run as follows:
 
 - First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
-- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Kris, JJ, Chet, Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Ashley, Emily)
+- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Erica, Kris, JJ, Chet, Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Ashley, Emily)
 - Discuss roadblocks and any collaboration needs
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
@@ -763,6 +763,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [hank]: https://gitlab.com/u/hanktaylor
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
+[jennifer]: https://gitlab.com/u/jjcordz
 [luke]: https://gitlab.com/u/lukebabb
 [marcia]: https://gitlab.com/u/virtuacreative
 [mitchell]: https://gitlab.com/u/mitchellwright
