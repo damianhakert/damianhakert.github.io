@@ -24,7 +24,7 @@ individual accounts, or it may link to the onboarding checklist. You should be a
 1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
    will be invited to applicable vaults after joining the company.
-1. If you want to see you vaults or ask to be added to a new one please leave
+1. If you want to see your vaults or ask to be added to a new one please leave
    a comment in the "1password Shared Folders" Google Doc.
 1. If you're missing an appropriate vault [make a suggestion to mark the relevant cell](https://support.google.com/docs/answer/6033474?hl=en) in the
    "1password Shared Folders" Google SHeet.

@@ -8,6 +8,7 @@ title: "GitLab Onboarding"
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [UX Designer onboarding](/handbook/uxdesigner-onboarding)
+* [Designer (Marketing) onboarding](handbook/designer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 
@@ -175,13 +176,14 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Patricio/Robert/Jacob V: Create GitLab.com admin account.
-1. [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
+1. [ ] Jose/Robert/Jacob V: Create GitLab.com admin account.
+1. [ ] Jose/Ernst: Add to Tweetdeck for [at]gitlabstatus.
 1. [ ] Jose/Drew: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
-1. [ ] Jose: invite to support team call
-1. [ ] Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+1. [ ] Jose: Invite to support team call
+1. [ ] Jose: Use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+1. [ ] Jose: Add team member to `@supportteam` Slack handle. 
 1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
 
@@ -233,6 +235,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] People Ops: Add team member to BambooHR and Workable as an admin.
 * [ ] Manager: Add team member to TriNet and HR Savvy as an admin.
 * [ ] People Ops: Invite team member to People Ops Confidential channel in Slack.
+
+### FOR CORE TEAM MEMBERS ONLY 
+
+1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+2.  [ ] People Ops: Have member sign NDA.
+3.  [ ] Robert/Jacob V/Ernst: Add member to #core in Slack.  
+4.  [ ] Robert/Jacob V/Ernst: Give member developer access to gitlab-org.
 
 ```
 
