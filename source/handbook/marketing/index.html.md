@@ -214,7 +214,6 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Joe][joe]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Hank][hank]{:.btn .btn-orange}
 
 ### Business Development
 {: .no_toc}
