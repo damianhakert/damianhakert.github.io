@@ -35,7 +35,7 @@ Something to note about them - they would rather work than go to the country mus
 of fame with me. They would also rather make me eat all the fried bologna sandwiches
 and moon pies than participate.
 
-Nashville is such a welcoming lively city. We honkey tonked, Douwe had his first tater tot,
+Nashville is such a welcoming, lively city. We honkey tonked, Douwe had his first tater tot,
 and worked from a bowling alley that also had a swimming pool and served some damn good coffee.
 [John] made sure we celebrated National Mac and Cheese Day right with some Hot Hattie B’s Mac
 topped with their famous hot chicken. When they couldn’t take any more of me leaving Dolly Parton
@@ -46,7 +46,7 @@ on repeat, they put on Kimmy Schmit and pretend to go to sleep.
 ## Denver
 
 Our local hosts [Phil], [Josh], [Drew] and [Marin] were determined to show us the best Denver had to offer.
-They tried to take us to Rockies game, which unfortunately got rained. We made the best of it
+They tried to take us to Rockies game, which unfortunately was rained out. We made the best of it
 by going got a local developer meetup. Phil and Josh welcomed us to their local WeWork and once
 we needed a change of scenery we moved to the bar downstairs, where we were shockingly productive,
 considering we were working from a brewery.
@@ -63,7 +63,7 @@ Their highlight was getting to meet and go to dinner with a local GitLab contrib
 I can confidently say the highlight for everyone in Vegas was the Queer Con Pool Party Kirsten invited us to.
 We were so overcome with excitement at being there we jumped in the pool fully clothed and swam
 listening to the DJ for hours. John, in an effort to make us all look like slobs, rented a tux
-for the event. It took a bit of coaxing, but he eventually caved an did the most epic cannonball
+for the event. It took a bit of coaxing, but he eventually caved and did the most epic cannonball
 into the pool in a full out monkey suit. John claims his #tuxedoswim trending on Twitter
 was worth the extra dry cleaning bill.
 
