@@ -1134,7 +1134,7 @@
   locality: Tacoma, WA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
-  reports_to: VP of Scaling
+  reports_to: Senior Direction of People Operations
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
   gitlab: brittanyr
@@ -1461,6 +1461,17 @@
           entrepreneur.  He has a passion for crafting elegant solutions to complex problems through software
           and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
           biking, craft beer, travel, and spending time with his wife and daughter.
+
+- name: D.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 29th
 
 - name: A.M.
   locality:
