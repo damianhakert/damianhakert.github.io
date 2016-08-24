@@ -205,6 +205,7 @@ We've put together a quick screencast showing this off:
 
 <br>
 
+You can read more about setting up Koding in GitLab in our [documentation](http://docs.gitlab.com/ce/user/project/koding.html).
 [koding-web]: https://github.com/koding/koding
 
 ## Pipelines in MRs
