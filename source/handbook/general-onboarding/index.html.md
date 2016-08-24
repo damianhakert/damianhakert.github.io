@@ -47,6 +47,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] Slack
    1. [ ] Robert/Jacob V/Ernst: Add to [Slack](https://gitlab.slack.com/admin).
    1. [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
+   1. [ ] Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
 1. [ ] People Ops Information
    1. [ ] New team member: provide scan of photo ID to People Ops (used for verification and business travel purposes)
    1. [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Make sure that all compensation information is visible to the hiring manager only in Workable. Find the profile on BambooHR and enable "self-service".
@@ -183,7 +184,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: Invite to support team call
 1. [ ] Jose: Use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
-1. [ ] Jose: Add team member to `@supportteam` Slack handle. 
+1. [ ] Jose: Add team member to `@supportteam` Slack handle.
 1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
 
@@ -236,7 +237,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] Manager: Add team member to TriNet and HR Savvy as an admin.
 * [ ] People Ops: Invite team member to People Ops Confidential channel in Slack.
 
-### FOR CORE TEAM MEMBERS ONLY 
+### FOR CORE TEAM MEMBERS ONLY
 
 1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
 2.  [ ] People Ops: Have member sign NDA.
