@@ -129,9 +129,9 @@ to any tickets from channels in category 3 and 4, but we do track response times
 
 #### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. When 
-a ticket is breaching or has breached it's SLA this ticket must be picked up by 
-a Service Engineer independently of who is assigned to it. This also applies to 
+Service Engineers can work on any ticket they feel they can contribute to. When
+a ticket is breaching or has breached its SLA this ticket must be picked up by
+a Service Engineer independently of who is assigned to it. This also applies to
 tickets for Premium Customers.
 
 ## Support Channels <a name="support-channels"></a>
@@ -388,6 +388,43 @@ the case.
 
 See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
 
+### Spam
+
+#### Flagging Issues as Spam
+
+Many spammers use GitLab.com to create spam. Starting with 8.11, GitLab has
+better integration with Akismet to check for spam whenever a user creates an
+issue. This filter needs to be trained properly, however. With some effort our
+spam detection should improve. If an issue is created on GitLab.com by a
+spammer, before deleting the account, flag the user's issues as spam:
+
+1. Login to GitLab.com with an admin account
+2. View each issue and click on "Submit as spam"
+
+#### Deleting Spammers
+
+Once the issues are flagged and the user is verified to be a spammer, go to
+the spammer's user profile and click on the "Report Abuse" button:
+
+1. Login to GitLab.com with an admin account
+2. Go to: https://gitlab.com/admin/abuse_reports
+3. Be careful: Click on "Delete user" only if you are sure this user is a spammer.
+
+### False positives: Ham
+
+The Akismet filter may also flag false positives and prevent a user from
+creating issues. The contents of the flagged issue get stored in the spam logs,
+which is only accessible to admin users. Fom time to time, we may need to
+submit the flagged issue as "ham" (e.g. when a user lodges a complaint on the
+Support Tracker about not being able to create issues). Currently, there are
+no notifications whenever an entry is flagged, so this needs to be monitored
+periodically. To flag an issue as ham:
+
+1. Login to GitLab.com with an admin account
+2. Go to: https://gitlab.com/admin/spam_logs
+3. Scan the contents of each log. If it appears that a user is trying to post valid
+   information, click on "Submit as ham".
+
 ### Mailing list<a name="mailing-list"></a>
 
 Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
@@ -423,7 +460,7 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 
 ### Removal of 2FA <a name="2faremoval"></a>
 
-[Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA) 
+[Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA)
 can only be removed from a GitLab.com account if one of the following combinations are met:
 
 #### Combination 1:
@@ -451,8 +488,8 @@ This can be implemented if the following criteria are met:
 1. There hasn't been any activity on the account (i.e. code, issues, MRs)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
-1. Support has had two failed attempt to contact the user within a
- two week period.   
+1. Support has had two failed attempts to contact the user within a
+ two week period.
 1. The user cannot be an owner of any active project.
 
 Usernames will be appended with `_idle` to keep the account active but
