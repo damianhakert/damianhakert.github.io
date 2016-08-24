@@ -41,7 +41,8 @@
   - description: Ability to fork a repository
     in_ce: true
   - description: Share a project with other groups
-    link: http://doc.gitlab.com/ee/workflow/share_projects_with_other_groups.html
+    link: http://doc.gitlab.com/ce/workflow/share_projects_with_other_groups.html
+    in_ce: true
   - description: Manage large binaries with git LFS
     link: http://doc.gitlab.com/ee/workflow/lfs/manage_large_binaries_with_git_lfs.html
     in_ce: true
