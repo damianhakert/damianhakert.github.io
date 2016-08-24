@@ -108,7 +108,7 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Dependency upgrades (Rails, gems, etc.)
 1. Performance improvements
 
-When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 users**?
+When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
 If the answer is yes the feature is likely to be exclusive to EE.
 We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 developers.
 
@@ -121,8 +121,8 @@ When someone does contribute a feature to CE that is already in EE we weigh a co
 1. What is the quality of the submitted code?
 1. Is it a complete replacement of the EE functionality?
 1. Does it meet the criteria of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
-1. Is it more relevant for organizations that have more than 100 users?
-1. Is the person or organizating submitting this using GitLab with more or less than 100 users?
+1. Is it more relevant for organizations that have more than 100 potential users?
+1. Is the person or organizating submitting this using GitLab with more or less than 100 potential users?
 1. Did the person or organization submitting this contribute to GitLab before?
 1. Is it something that many of our existing customers choose GitLab Enterprise Edition for?
 1. Is it relevant for running a large open source forge?
