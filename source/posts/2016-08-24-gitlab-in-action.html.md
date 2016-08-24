@@ -44,7 +44,7 @@ on repeat, they put on Kimmy Schmidt and pretended to go to sleep.
 
 ## Denver
 
-Our local hosts [Phil] and [Josh] were determined to show us the best Denver had to offer. [Drew] joined our party too.
+[Drew] braved a turbulent flight from Nebraska to join us in Denver, where locals [Josh] and [Phil] were determined to show us the best the city had to offer.
 They tried to take us to a Rockies game, which unfortunately was rained out. We made the best of it
 by going to a local developer meetup. Phil and Josh welcomed us to their local WeWork and once
 we needed a change of scenery we moved to the bar downstairs, where we were shockingly productive,
