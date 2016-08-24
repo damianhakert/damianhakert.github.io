@@ -13,7 +13,7 @@ We have no hub; Google Hangouts are at our core and we are thriving on this mode
 Working remotely affords so many opportunities that being tied to an office never could.
 For one, you get back the time you used to spend commuting. Some use this extra time to
 sleep, be with their families, work out, practice their craft, or just relax.
-We still have routines and daily schedules, they just happen with pijama pants on! 😃
+We still have a daily team call, but it can just happen with pijama pants on! 😃
 
 <!-- more -->
 
