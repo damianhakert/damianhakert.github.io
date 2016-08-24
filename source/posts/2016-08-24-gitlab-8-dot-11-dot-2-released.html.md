@@ -10,7 +10,9 @@ Today we are releasing version 8.11.2 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
 This version resolves a number of regressions and bugs in the [recent 8.11
-release](/2016/08/22/gitlab-8-11-released)
+release](/2016/08/22/gitlab-8-11-released).
+
+If you're wondering what happened to 8.11.1, good eye! That version was pulled due to a packaging error.
 
 Please read on for more details.
 
