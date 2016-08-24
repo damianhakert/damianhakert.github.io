@@ -413,7 +413,7 @@ the spammer's user profile and click on the "Report Abuse" button:
 ### False positives: Ham
 
 The Akismet filter may also flag false positives and prevent a user from
-creating issue. The contents of the flagged issue get stored in the spam logs,
+creating issues. The contents of the flagged issue get stored in the spam logs,
 which is only accessible to admin users. Fom time to time, we may need to
 submit the flagged issue as "ham" (e.g. when a user lodges a complaint on the
 Support Tracker about not being able to create issues). Currently, there are
