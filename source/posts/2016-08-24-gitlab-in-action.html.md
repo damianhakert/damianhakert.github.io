@@ -55,7 +55,14 @@ considering we were working from a brewery.
 ## Salt Lake City
 
 I had to go home to get clean clothes, but they reported Utah was filled with natural beauty.
-Their highlight was getting to meet and go to dinner with a local GitLab user.
+Their highlight was getting to meet and go to dinner with a local GitLab user [Gabe Gunderson].
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Honored to host these <a href="https://twitter.com/gitlab">@gitlab</a> ers. Cool guys making a difference in the corporate and open-source worlds. <a href="https://twitter.com/hashtag/gitlab?src=hash">#gitlab</a> <a href="https://t.co/nBJ5plVJMa">pic.twitter.com/nBJ5plVJMa</a></p>&mdash; Gabriel Gunderson (@gabegundy) <a href="https://twitter.com/gabegundy/status/759214257594662912">July 30, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
 
 ## Las Vegas
 
@@ -92,3 +99,15 @@ If you are as amazed as we are, why don't you consider [joining our team][jobs]?
 [Phil]: https://twitter.com/pmanjr311
 [Robert]: https://twitter.com/rspeicher
 [queercon]: https://www.queercon.org/
+[Gabe Gunderson]: https://twitter.com/gabegundy
+
+<style>
+  .center twitterwidget {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+</style>
