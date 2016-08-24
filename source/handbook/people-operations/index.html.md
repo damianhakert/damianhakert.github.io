@@ -91,7 +91,7 @@ GitLab is committed to a policy of employment and advancement based on **qualifi
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
 b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
 
-This policy applies to all current employees and candidates for employment.
+This policy applies to all current employees and candidates for employment. 
 
 ### Returning property to GitLab
 <a name="returning-property"></a>
