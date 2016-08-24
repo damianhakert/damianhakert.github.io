@@ -1,6 +1,5 @@
 ---
 title: "GitLab in Action"
-comments: true
 author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/gitlab-in-action/map.jpg'
