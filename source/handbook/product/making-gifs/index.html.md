@@ -26,7 +26,7 @@ The "quick and easy" process is for your everyday usage, where performance is no
 
 ### Step 1
 
-Show only what you need to. Not everything needs to be in there, its a glimpse. Keep it small and dedicated.
+Show only what you need to. Not everything needs to be in there, its a glimpse at a single bug/feature. Keep the recorded area small and dedicated.
 
 ### Step 2
 
@@ -38,7 +38,7 @@ The "expert" process is for those cases where performance is important. It takes
 
 ### Step 1
 
-Show only what you need to. Not everything needs to be in there, its a glimpse. Keep it small and dedicated.
+Show only what you need to. Not everything needs to be in there, its a glimpse at a single bug/feature. Keep the recorded area small and dedicated.
 
 ### Step 2
 
@@ -67,7 +67,7 @@ A few things are important in this section:
 - Screen region support (ability to create a gif off a small portion of the screen)
 - Cursor support (ability to include your cursor in the gif)
 - FPS support (ability to control the amount of frames per second of the outputted gif, important if you want to show some interaction detail)
-- Local saving of gif (uploading to a server should be an option)
+- Local saving of gif (uploading to a server should only be an option)
 
 #### Gifox (macOS)
 
