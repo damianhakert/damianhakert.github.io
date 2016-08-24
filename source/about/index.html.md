@@ -82,11 +82,15 @@ Please see the [values section in our handbook](https://about.gitlab.com/handboo
 
 ## Our stewardship of GitLab CE<a name="stewardship"></a><a name="our-stewardship-of-gitlab-ce"></a>
 
+### Business model
+
 GitLab Inc. is a for profit company that balances the need to improve
 GitLab Community Edition (CE) with the need to add features to GitLab
 Enterprise Edition (EE) exclusively in order to generate income.
 We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate almost all our revenue with [subscriptions to use Enterprise Edition](https://about.gitlab.com/pricing/).
 We recognize that we need to balance the need to generate income and with the needs of the open source project.
+
+### Promises
 
 We promise that:
 
@@ -95,9 +99,27 @@ We promise that:
 1. We will always release all tests that we have for a feature that is in CE
 1. CE will have all the features that are essential to running a large 'forge' with public and private repositories
 1. CE will not contain any artificial limits (repositories, users, size, performance, etc.)
-1. All major features in [our scope]() will be available in GitLab CE too
+1. All major features in [our scope](https://about.gitlab.com/direction/#scope) will be available in GitLab CE too
 1. The majority of new features made by GitLab Inc. will be available in both CE and EE
 1. CE will be available for download without leaving an email address
+
+### What features are EE only
+
+When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
+If the answer is yes the feature is likely to be exclusive to EE.
+We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 users.
+
+### Why release simultaneously in both
+
+Sometimes people suggest having features in EE for a limited time.
+An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl) that keeps features propietary for 3 years.
+At GitLab we want to give everyone access to most of the features (and all the essential ones) at the date they are announced.
+We want people the option to both run and contribute to an open source edition that is maintained and that includes the most recent security fixes.
+From time to time we do open source a feature that used to be EE only.
+We do this in case when in hindsight we realize we made a mistake applying our criteria
+An example is when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347).
+
+### How the GitLab Inc. benefits CE
 
 Apart from making new features GitLab Inc. does a lot of work that benefits both CE and EE:
 
@@ -108,9 +130,7 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Dependency upgrades (Rails, gems, etc.)
 1. Performance improvements
 
-When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
-If the answer is yes the feature is likely to be exclusive to EE.
-We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 developers.
+### Contributing an EE only feature to CE
 
 When someone contributes a feature to CE that is already in EE we have a hard decision to make.
 We hope that people focus on contributing features that are neither in CE nor EE.
