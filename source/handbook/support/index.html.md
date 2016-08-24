@@ -130,7 +130,7 @@ to any tickets from channels in category 3 and 4, but we do track response times
 #### SLA Workflow
 
 Service Engineers can work on any ticket they feel they can contribute to. When
-a ticket is breaching or has breached it's SLA this ticket must be picked up by
+a ticket is breaching or has breached its SLA this ticket must be picked up by
 a Service Engineer independently of who is assigned to it. This also applies to
 tickets for Premium Customers.
 
@@ -488,7 +488,7 @@ This can be implemented if the following criteria are met:
 1. There hasn't been any activity on the account (i.e. code, issues, MRs)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
-1. Support has had two failed attempt to contact the user within a
+1. Support has had two failed attempts to contact the user within a
  two week period.
 1. The user cannot be an owner of any active project.
 
