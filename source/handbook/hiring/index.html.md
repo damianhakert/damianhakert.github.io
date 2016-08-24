@@ -76,7 +76,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 1. [PowerToFly](https://www.powertofly.com)
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
-1. [RemoteBase](https://remotebase.io/) ($50 per position, job descriptions are synced directly to our site once added)
+1. [RemoteBase](https://remotebase.io/) ($50 per position per month, job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 
@@ -301,7 +301,7 @@ To close a vacancy:
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
 1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
-If you posted the position on RemoteBase, email hello@remotebase.io to remove the job posting.
+If the position was posted on RemoteBase, People Ops should email hello@remotebase.io to remove the job posting.
 
 ## Underperformance
 <a name="underperformance"></a>
