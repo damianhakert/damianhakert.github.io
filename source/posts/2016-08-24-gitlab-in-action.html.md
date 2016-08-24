@@ -23,7 +23,7 @@ are [Robert] and [Douwe]. They won’t promote their awesomeness so I have to.
 They have set out to meet other Gitlabbers in 12 different countries for the next
 6 months. They are calling it, “Around the World in 6 Releases”.
 
-![Working in Nashville](/images/blogimages/gitlab-in-action/nashville_work.jpg)
+![Nashville Bowling](/images/blogimages/gitlab-in-action/nashville_work.jpg)
 
 Every week or two they head to a new city, spend the week days working, the evenings with
 the local team members, and the weekends sightseeing. I had the pleasure of meeting up
@@ -31,13 +31,9 @@ with them on a leg of their North America tour.
 
 ## Nashville
 
-![Nashville](/images/blogimages/gitlab-in-action/nashville.jpg)
-
 Something to note about them - they would rather work than go to the country music hall
 of fame with me. They would also rather make me eat all the fried bologna sandwiches
 and moon pies than participate.
-
-![Nashvill Night](/images/blogimages/gitlab-in-action/nashville_night.jpg)
 
 Nashville is such a welcoming lively city. We honkey tonked, Douwe had his first tater tot,
 and worked from a bowling alley that also had a swimming pool and served some damn good coffee.
@@ -45,7 +41,7 @@ and worked from a bowling alley that also had a swimming pool and served some da
 topped with their famous hot chicken. When they couldn’t take any more of me leaving Dolly Parton
 on repeat, they put on Kimmy Schmit and pretend to go to sleep.
 
-![Nashville Bowling](/images/blogimages/gitlab-in-action/nashville_bowling.jpg)
+![Nashville Bowling](/images/blogimages/gitlab-in-action/nashville.jpg)
 
 ## Denver
 
@@ -55,13 +51,7 @@ by going got a local developer meetup. Phil and Josh welcomed us to their local 
 we needed a change of scenery we moved to the bar downstairs, where we were shockingly productive,
 considering we were working from a brewery.
 
-![Work can get done at a brewery](/images/blogimages/gitlab-in-action/denver_beer_work.jpg)
-
-![Denver Team Lunch](/images/blogimages/gitlab-in-action/denver_lunch.jpg)
-
-![Working in Denver](/images/blogimages/gitlab-in-action/denver_work.jpg)
-
-![Denver Meetup](/images/blogimages/gitlab-in-action/denver_meetup.jpg)
+![Denver Meetup](/images/blogimages/gitlab-in-action/denver.jpg)
 
 ## Salt Lake City
 
@@ -77,9 +67,7 @@ for the event. It took a bit of coaxing, but he eventually caved an did the most
 into the pool in a full out monkey suit. John claims his #tuxedoswim trending on Twitter
 was worth the extra dry cleaning bill.
 
-![Hard at work in Vegas](/images/blogimages/gitlab-in-action/vegas_work.jpg)
-
-![Pool Time](/images/blogimages/gitlab-in-action/vegas_pool.jpg)
+![Hard at work in Vegas](/images/blogimages/gitlab-in-action/vegas.jpg)
 
 ## Upcoming
 
@@ -87,11 +75,9 @@ From Vegas they headed to South America where their remote work adventure contin
 Look out for their future blog series on the coffee shops with the best wifi
 in the world and other insights from these road warriors.
 
-![World Map](/images/blogimages/gitlab-in-action/map.jpg)
-
 ## Join us!
 
-If you are so amazed as we are, why don't you consider [joining our team][jobs]? I bet you'd love it! <i class="fa fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>
+If you are as amazed as we are, why don't you consider [joining our team][jobs]? I bet you'd love it! <i class="fa fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>
 
 
 <!-- identifiers -->
