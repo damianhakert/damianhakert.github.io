@@ -116,7 +116,7 @@ An example of a limited time release strategy is the [Business Source License](h
 At GitLab we want to give everyone access to most of the features (and all the essential ones) at the date they are announced.
 We want people the option to both run and contribute to an open source edition that is maintained and that includes the most recent security fixes.
 From time to time we do open source a feature that used to be EE only.
-We do this in case when in hindsight we realize we made a mistake applying our criteria
+We do this in case when in hindsight we realize we made a mistake applying our criteria.
 An example is when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347).
 
 ### How the GitLab Inc. benefits CE
