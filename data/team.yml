@@ -375,17 +375,6 @@
           He also loves to grind his own coffee and help build online
           communities in his spare time.
 
-- name: Henry 'Hank' Taylor
-  locality: San Mateo, CA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/demand-generation-manager/">Senior Demand Generation Manager</a>
-  reports_to: Director of Demand Generation
-  picture: hank.jpg
-  twitter: HenryJTaylor
-  gitlab: hanktaylor
-  story:  |
-          Hank has been at four OS software companies now. His goal is always to connect users to the most helpful resources via marketing and sales systems. When not on a CRM, marketing platform, or spreadsheet, Hank enjoys spending time with his wife and son or playing games, firmly believing that if you're not willing lose all your friends over a board game, you're doing it wrong.
-
 - name: Rubén Dávila
   locality: Lima
   country: Peru
@@ -505,15 +494,6 @@
   gitlab: wilsonlau
   story:  |
           Wilson has worked in many accounting roles at various early to mid-stage startups over the past 20 years.  When not debiting or crediting,  you can find Wilson at a San Francisco Giants game, spending time with his dogs or at the poker table.  Ante up!
-
-- name: Ian Wilson
-  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: CEO
-  picture: uid0.jpg
-  twitter: uid0
-  gitlab: uid0
-  story: |
-         Ian's just your normal nerd who lives on a farm.  He blows and tinkers with glass in order to build telescopes and make neon art, is a board member and former president of his local hackerspace, and volunteers at a school for hearing impaired children in his spare time.  .
 
 - name: Tomasz Maczukin
   locality: Olsztyn
