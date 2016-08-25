@@ -21,8 +21,7 @@ set of HTML files. No server-side code, no fancy JS assets compilation.
 Destination platform is also simplistic - we will use [Amazon S3](https://aws.amazon.com/s3/).
 
 The goal of the article is not to give you a bunch of copypasteable snippets.
-The goal is to show principles and features of GitLab CI so that you could 
-easily apply them to your technology stack.
+The goal is to show principles and features of GitLab CI so that you could easily apply them to your technology stack.
 {: .alert .alert-warning}
 
 Let’s start from the beginning: no CI in our story yet.
@@ -58,8 +57,7 @@ Let’s try to automate it using GitLab CI.
 ## First automated deployment
 
 For GitLab there's no difference what commands to run. 
-You can setup GitLab CI according to your needs, as if it was you local 
-terminal in your computer. As long as you execute commands there, you can tell
+You can setup GitLab CI according to your needs as if it was your local terminal on your computer. As long as you execute commands there, you can tell
 CI to do the same for you in GitLab.
 Put your script to `.gitlab-ci.yml` and push your code - that’s it: CI triggers
 a job and your commands are executed.
@@ -223,7 +221,7 @@ We could name them **Production** environment and **Staging** environment, respe
 
 GitLab offers
  [support for environments](http://docs.gitlab.com/ee/ci/environments.html#environments),
- and all you need to do it to specify corresponding environment for each deployment *job*:
+ and all you need to do it to specify the corresponding environment for each deployment *job*:
 
 ```yaml
 variables:
@@ -289,7 +287,7 @@ settings above. That’s it. Now you’re notified of every deployment:
 
 ## Teamwork at scale
 
-As the time passed, your website became really popular, and your team has grown from 2 to 8 people.
+As the time passed, your website becamreally e popular, and your team has grown from 2 to 8 people.
 People develop in parallel, so the situation when people wait for each other to
 preview something on Staging become pretty common. “Deploy every branch to staging” stopped working.
 
@@ -338,8 +336,8 @@ To deploy manually go to **Pipelines>Builds**, and click the button:
 ![Skipped job is available for manual launch](/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
 
 
-Finally, your company have turned into a corporation. You have hundreds of people working on the website, 
-so all the revious compomises are not working anymore.
+Finally, your company has turned into a corporation. You have hundreds of people working on the website, 
+so all the previous compromises are not working anymore.
 
 ### Review Apps
 
@@ -385,17 +383,17 @@ with all required software and services automatically on the fly is not a trivia
 However, it is doable, especially if you use Docker, or at least Chef or Ansible.
 
 We'll cover deployment with Docker in another blog post. To be fair, I feel 
-a bit quilty for simplifying the deployment process to a simple HTML files copying, and not
+a bit guilty for simplifying the deployment process to a simple HTML files copying, and not
 adding some hardcore scenarios. If you need some right now, I recommend you to read article ["Building an Elixir Release into a Docker image using GitLab CI"](https://about.gitlab.com/2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/) 
 
 For now, let's talk about one final thing. 
 
 ### Deploying to different platforms
 
-In real life we are not limited to S3 and GitLab Pages. We host, and therefore,
+In real life, we are not limited to S3 and GitLab Pages. We host, and therefore,
 deploy our apps and packages to various services. 
 
-Moreover, at some point you can decide to move to a new platform, so you had to rewrite all your deployment scripts.
+Moreover, at some point, you can decide to move to a new platform, so you had to rewrite all your deployment scripts.
 You can use a gem called `dpl` to minimize the damage.
 
 In the examples above we used `awscli` as a tool to deliver code to an example
