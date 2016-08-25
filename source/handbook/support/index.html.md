@@ -111,7 +111,8 @@ We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
 That is why some channels are combined.
 
-## Service Level Agreements <a name="sla"></a>
+## Service Level Agreements
+{: #sla}
 
 ### SLA categories
 
