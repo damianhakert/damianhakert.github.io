@@ -105,12 +105,6 @@ You can publish your document by opening the <i class="icon-upload"></i> **Publi
 
 > **Note:** The default template is a simple webpage wrapping your document in HTML format. You can customize it in the **Advanced** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
-#### <i class="icon-upload"></i> Update a publication
-
-After publishing, StackEdit will keep your document linked to that publication which makes it easy for you to update it. Once you have modified your document and you want to update your publication, click on the <i class="icon-upload"></i> button in the navigation bar.
-
-> **Note:** The <i class="icon-upload"></i> button is disabled when your document has not been published yet.
-
 #### <i class="icon-upload"></i> Manage document publication
 
 Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-upload"></i> **Manage publication** in the <i class="icon-provider-stackedit"></i> menu panel. This will let you remove publication locations that are associated to your document.
