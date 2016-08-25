@@ -1464,6 +1464,17 @@
           and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
           biking, craft beer, travel, and spending time with his wife and daughter.
 
+- name: D.W.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 25th
+
 - name: A.M.
   locality:
   country:
