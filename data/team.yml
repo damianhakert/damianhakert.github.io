@@ -174,6 +174,8 @@
   gitlab: ayufan
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
+              <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
+              <li>Docker <a href="/jobs/expert/">expert</a></li>
               <li>LFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge.
@@ -1356,7 +1358,7 @@
           with his daughter, he enjoys training for triathlon.
 
 - name: Joan Parrow
-  locality: Pennsylvania 
+  locality: Pennsylvania
   country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-director-of-people-operations/">Senior Director of People Operations</a>
   reports_to: CEO
@@ -1364,7 +1366,7 @@
   twitter: joan_gitlab
   gitlab: jparrow
   story:  |
-          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.   
+          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.
 
 - name: Arihant Godha
   locality: Mumbai
@@ -1386,7 +1388,7 @@
   twitter: JJCordz
   gitlab: jjcordz
   story:  |
-          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports. 
+          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports.
 
 - name: Dimitrie Hoekstra
   locality: Breda
@@ -1409,7 +1411,7 @@
   gitlab: superfrank316
   story:  |
           Francis has years of experience building out sales processes for SaaS companies of all shapes and sizes.
-          Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the 
+          Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the
           occasional music concert, destroying his opponents in table tennis, and playing "Dust in the Wind" on his acoustic guitar
           ("You're my boy Blue!!). His pet peeves include inefficiency, slow walkers, and people who
           continuously press the call button believing the elevator will come sooner.
