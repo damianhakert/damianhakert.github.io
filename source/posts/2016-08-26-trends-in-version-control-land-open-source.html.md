@@ -7,34 +7,28 @@ image_title: '/images/unsplash/sunset.jpg'
 twitter_image: '/images/tweets/trends-in-version-control-land-open-source.png'
 ---
 
-Earlier in this series we talked about how [innersourcing][post-1] could
-be the solution to common enterprise challenges, the benefits of
+Earlier in this series, we explained how [innersourcing][post-1] can solve
+common enterprise challenges, the benefits of
 [releasing early and often][post-2], and the efficiency of
 [microservice architecture][post-3]. In this final post, I’d like to
-share my thoughts on the exciting trend we see with open source practices
-expanding across a variety of industries.
-
-If you think you’ve been seeing increasingly more companies engage with
-open source in the past year, you’re not wrong.
+share my thoughts on an exciting new trend: open source practices expanding into a variety of industries.
+Over the past year, we've seen more and more companies are engaging with open source.
 
 <!-- more -->
 
-It turns out that as more companies get comfortable with the implications
-around open source — letting go of control to the extent that collaboration
-is more productive — open source is turning out to be an incredibly good
-solution in a number of industries. In fact, according to this
-[Open Source Survey][survay], in 2016, **78%** of companies were using some
-form of open source software, and **65%** were contributing to open source projects.
+It turns out that as more companies become comfortable with the implications
+of open source - loosening control in exchange for more productive collaboration — open source is turning out to be an incredibly useful
+solution in a number of industries. In fact, according to the 2016
+[Future of Open Source Survey][survay], **78%** of companies use some
+form of open source software, and **65%** contribute to open source projects.
 
-There has been a shift toward open source across the board.
-I think there are a few important reasons why it’s happening.
-If the software fits these criteria, it’ll probably go open source:
+There's been a shift toward open source across the board, and there are a few key reasons why this is happening.
 
-**1. If a lot of people use it, open source just makes sense.**
+**1. When a lot of people use it, open source just makes sense.**
 {: .alert .alert-info}
 
-Once you have a lot of people using a program, that becomes an opportunity
-to crowdsource feedback and solutions from users, so going open source is
+When a lot of people use a program, there's greater opportunity
+to crowdsource feedback and solutions from users. Therefore, going open source offers
 a shortcut to improvement.
 
 Software that’s used by the majority of a large company, for example, is
@@ -59,9 +53,9 @@ in open source. We saw this happen with, e.g., Linux.
 Software that’s close to people who actually have the skill set to
 improve on it is very likely to go open source. If a developer has
 an issue with the software, they can scratch that itch and fix it,
-bing-bang-boom: thus is the beauty of open source. Not surprisingly
-this happens most often in verticals like development tooling. It
-helps too that in verticals that are close to developers, decision
+bing-bang-boom. This is the beauty of open source. Not surprisingly,
+this happens most often in verticals like development tooling. It also
+helps that in verticals that are close to developers, decision
 makers are likely to include those who understand the value of open
 source, making it a faster leap.
 
