@@ -1117,7 +1117,7 @@
   locality: Tacoma, WA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
-  reports_to: VP of Scaling
+  reports_to: Senior Director of People Operations
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
   gitlab: brittanyr
@@ -1455,6 +1455,17 @@
   gitlab:
   story:  |
           Joining August 25th
+
+- name: D.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 29th
 
 - name: A.M.
   locality:
