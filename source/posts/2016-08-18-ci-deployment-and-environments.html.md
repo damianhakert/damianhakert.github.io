@@ -56,7 +56,7 @@ Let’s try to automate it using GitLab CI.
 
 ## First automated deployment
 
-For GitLab there's no difference what commands to run. 
+For GitLab there's no difference what commands to run.
 You can setup GitLab CI according to your needs as if it was your local terminal on your computer. As long as you execute commands there, you can tell
 CI to do the same for you in GitLab.
 Put your script to `.gitlab-ci.yml` and push your code - that’s it: CI triggers
@@ -210,7 +210,7 @@ pages:
   - master
 ```
 
-We specified two jobs. One job deploys the website for your customers to S3 (`deploy`). The other one (`pages`) - deploys the website to GitLab Pages. 
+We specified two jobs. One job deploys the website for your customers to S3 (`deploy`). The other one (`pages`) - deploys the website to GitLab Pages.
 
 ![Deployment to two places](/images/blogimages/ci-deployment-and-environments/16.jpg){: .illustration}*All branches except master, will be deployed to GitLab Pages*
 
@@ -293,7 +293,7 @@ preview something on Staging become pretty common. “Deploy every branch to sta
 
 ![Queue of branches for review on Staging](/images/blogimages/ci-deployment-and-environments/queue.jpg)
 
-It's time to modify the process one more time. You and your team agreed that if 
+It's time to modify the process one more time. You and your team agreed that if
 someone wants to see his/her changes on the staging
 server, he/she should first merge the changes to the “staging” branch.
 
@@ -336,7 +336,7 @@ To deploy manually go to **Pipelines>Builds**, and click the button:
 ![Skipped job is available for manual launch](/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
 
 
-Finally, your company has turned into a corporation. You have hundreds of people working on the website, 
+Finally, your company has turned into a corporation. You have hundreds of people working on the website,
 so all the previous compromises are not working anymore.
 
 ### Review Apps
@@ -371,27 +371,26 @@ Note that we defined `S3_BUCKET_NAME` variable inside the *job*. You can do it t
 {: .alert .alert-info}
 
 Visual representation of this configuration:
-![Review apps](/images/blogimages/ci-deployment-and-environments/19.jpg){: .illustration}**
-
+![Review apps](/images/blogimages/ci-deployment-and-environments/19.jpg){: .illustration}
 
 The details of Review Apps implementation depend widely on your real technology
 stack and on your deployment process and it is far out of this blog post scope.
 
-It will not be that straightforward, as it is with our static HTML website. 
+It will not be that straightforward, as it is with our static HTML website.
 For example, you had to make these instances temporary. And booting up these instances
 with all required software and services automatically on the fly is not a trivial task.
 However, it is doable, especially if you use Docker, or at least Chef or Ansible.
 
-We'll cover deployment with Docker in another blog post. To be fair, I feel 
+We'll cover deployment with Docker in another blog post. To be fair, I feel
 a bit guilty for simplifying the deployment process to a simple HTML files copying, and not
-adding some hardcore scenarios. If you need some right now, I recommend you to read article ["Building an Elixir Release into a Docker image using GitLab CI"](https://about.gitlab.com/2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/) 
+adding some hardcore scenarios. If you need some right now, I recommend you to read article ["Building an Elixir Release into a Docker image using GitLab CI"](https://about.gitlab.com/2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/)
 
-For now, let's talk about one final thing. 
+For now, let's talk about one final thing.
 
 ### Deploying to different platforms
 
 In real life, we are not limited to S3 and GitLab Pages. We host, and therefore,
-deploy our apps and packages to various services. 
+deploy our apps and packages to various services.
 
 Moreover, at some point, you can decide to move to a new platform, so you had to rewrite all your deployment scripts.
 You can use a gem called `dpl` to minimize the damage.
