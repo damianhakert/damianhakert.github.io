@@ -296,22 +296,6 @@ celebrate those "wins" with the rest of the team through the #support or #thanks
 chat channel. Read the positive feedback carefully, often it contains a question
 or suggestion for improvement which should be followed up on.
 
-## Dedicated Service Engineers<a name="dse"></a>
-
-Certain subscribers have access to a Dedicated Service Engineer. This means that
-tickets that arrive in ZenDesk from people within the subscriber's organization
-are routed to a dedicated SE by way of a trigger in ZenDesk. To make sure that
-these subscribers are served well, even when their dedicated SE is not directly
-available, there is a 'view' in ZenDesk to display all "dedicated" tickets so
-that other Service Engineers can see them and jump in to avoid an SLA breach.
-
-If you are the Dedicated Service Engineer for an account and you will be away for a
-foreseeable reason (such as vacation), change the trigger in ZenDesk for the duration
-of your absence. Any tickets answered by others should mention "I will be helping
-you in this matter since your dedicated Service Engineer, [name], is unfortunately
-currently unavailable to respond to your ticket." When you return, you should review
-all tickets submitted by the subscriber during your absence, and make sure to follow-through
-or follow-up as required.
 
 ## Customer Training<a name="customer-training"></a>
 

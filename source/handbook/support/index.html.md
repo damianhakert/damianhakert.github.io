@@ -28,7 +28,7 @@ title: Support
 
 ----
 
-## Support Direction <a name="support-direction"></a>
+## Support Direction
 
 The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
 in order to meet our strategic objective, the following topics are being addressed by the team:
@@ -74,7 +74,7 @@ The issue tracker is open to the community and part of the GitLab.com
 group. It should not contain any sensitive information. Links to ZenDesk
 or other references are encouraged.
 
-## Support Turbo<a name="support-turbo"></a>
+## Support Turbo
 
 Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
@@ -83,7 +83,25 @@ The support team calls for help when necessary via Slack, but in case of doubt o
 conflicting priorities, the Backend Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
 
-## Dashboard <a name="dashboard"></a>
+## Dedicated Service Engineers
+
+Certain subscribers have purchased [Premium Support](/support), which gives them access to a Dedicated Service Engineer. This means that tickets that arrive in ZenDesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in ZenDesk.
+
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
+   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in ZenDesk can then create the trigger, and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around ZenDesk or SalesForce.
+   - Related section of the [Sales handbook](/handbook/sales-process/images_sales_process).
+- To make sure that these subscribers are served well, even when their dedicated SE is not directly
+available, there is a 'view' in ZenDesk to display all "dedicated" tickets so
+that other Service Engineers can see them and jump in to avoid an SLA breach.
+- If you are the Dedicated Service Engineer for an account and you will be away for a
+foreseeable reason (such as vacation), change the trigger in ZenDesk for the duration
+of your absence. Any tickets answered by others should mention "I will be helping
+you in this matter since your dedicated Service Engineer, [name], is unfortunately
+currently unavailable to respond to your ticket." When you return, you should review
+all tickets submitted by the subscriber during your absence, and make sure to follow-through
+or follow-up as required.
+
+## Dashboard
 
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
@@ -134,7 +152,7 @@ a ticket is breaching or has breached its SLA this ticket must be picked up by
 a Service Engineer independently of who is assigned to it. This also applies to
 tickets for Premium Customers.
 
-## Support Channels <a name="support-channels"></a>
+## Support Channels
 
 Our [service engineers](/jobs/service-engineer) handle the channels listed below.
 They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
