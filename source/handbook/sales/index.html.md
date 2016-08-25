@@ -128,15 +128,15 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
  * NL
  * US
 1. Sales rep will choose the Entity from the Dropdown
- 
+
 #### Step 2 - Contacts
 1. Create Contacts, by clicking on the new contact button
 1. Make sure to add in the address for any contacts associated with the quote (Bill To and Sold To)
- 
+
 #### Step 3 -  Opportunity
 1. Create Opportunity by navigating to the Opportunity Related list and click on New button
 1. Enter all the required fields based on your business process and click on Save Button
- 
+
 #### Step 4 - Zquotes – New QUOTE
 1. Click on New Quote button within the opportunity
 1. Enter all details and click on Next and select products to complete the Quote creation process
@@ -145,7 +145,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Quote Template – click on the button to select the Quote template
 1. Bill To contact  - Click on the vlookup button to enter the Bill To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Bill To person would be the contact to whom the bill will be sent
 1. Sold To Contact - Click on the vlookup button to enter the Sold To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Sold To person would be the contact to whom the product was sold
-1, Invoice Owner - 
+1, Invoice Owner -
 * This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see [Creating a Quote for Partner Section](#resellerQuote)
 1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
 1. Payment Methods currently defined are as follows –
@@ -162,14 +162,14 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
  * By default set as Termed
 1. Initial Term and Renewal Term -  Specify initial term and the renewal term in months
 1. Auto Renew -  it is checked by Default; Subscription automatically renew when the initial term for a subscription is over.
-1. Special Terms and Notes - Enter any additional notes that is not specified by the above settings. 
+1. Special Terms and Notes - Enter any additional notes that is not specified by the above settings.
 1. Click on Next to make the product selection
 1. Product Selector Page
 1. Click on Product Vlookup Button to make the product selection
 1. Click on Rate plan Vlookup Button to make the rate plan selection
  * GitLab Enterprise Edition is the rate plan when selling per license seats @ $39
 1. Once the quote has been created, you can modify it, delete it, or send it from Salesforce to Z-Billing to create a subscription.
- 
+
 #### Step 5 – Generate PDF
 1. Upon creation of a Quote, click Generate PDF.  The PDF will be saved as an attachment under the opportunity object.
 
@@ -193,7 +193,7 @@ The following quote metrics are available:
  * Discount - The sum of all discount charges for the specified billing periods.
  * Tax - The tax calculated for the specified billing periods.
  * Total - The quote total for the specified billing periods, including discount charges and taxes.
-       
+
 ##### Edit Quote Button
  * You can only edit a quote before it is sent to Z-Billing. After a quote is sent to Z-Billing and its subscription is created, you can no longer edit the quote in Salesforce.
 
@@ -210,10 +210,10 @@ The following quote metrics are available:
 ##### Delete Button
  * On the Quote Detail page, click Delete Quote Details to delete a quote that was created.
  * A message would appear to confirm on delete on click of ok quote gets deleted
- 
+
 ##### Generate PDF Button
  * This will allow the sales rep to Generate a quote pdf
- * On click of Generate PDF – Quote PDF gets generated 
+ * On click of Generate PDF – Quote PDF gets generated
 
 #####  Send to Z-Billing Button
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
@@ -228,7 +228,7 @@ The following quote metrics are available:
  * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
-1. Create an Opportunity for an Add-on or Renewal 
+1. Create an Opportunity for an Add-on or Renewal
 1. Once an opportunity is created click on New Quote button within the opportunity
 1. Since this is a returning customer, sales rep would see the following screen
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
@@ -237,7 +237,7 @@ The following quote metrics are available:
  * Amend existing subscription for this billing account
  * Renew existing subscription for this billing account
  * Cancel existing subscription for this billing account
- 
+
 ##### New Subscription for the account
 1. This will allow the Sales rep to create a new subscription for the existing billing account.
 1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
@@ -265,7 +265,7 @@ This will include 3 steps –
 1. Remove the basic product
 1. Add the Standard product
  * Hit on Save
- 
+
 ##### Let's take another Example - Let's say a customer once to add more seats to their license.  
 This will include 2 steps -
 1. Set the start date
@@ -275,7 +275,7 @@ This will include 2 steps -
 Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 Send it to the customer - only if there is no record of a signed quote. If customer purchased online, they agreed to our terms and condition, so no need to have them sign a quote.  It is ideal though.
 Upon Sign-off, or existing signed quote, click on the Send to Z-billing button to send the Quote over to Zuora
- 
+
 ##### Renew existing subscription for the billing account
 1. This process is used to perform Renewal on an existing subscription; this is only created if the AUTO RENEW Flag is set to “NO” for a subscription initially.
 1. Choosing “Renew existing subscription for billing account”, will allow sales rep to perform Renewal to an existing subscription;
@@ -306,7 +306,7 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Send it to the customer, via Sertifi button within Zquote screen
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 1. Close Won the opportunity
- 
+
 ##### Cancel existing subscription for the billing account
 1. This process is used to perform Cancellation of an existing subscription;
 1. Choosing “Cancel existing subscription for billing account”, will allow sales rep to perform cancellation to an existing subscription;
@@ -317,13 +317,13 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 1. Send it to the customer
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
- 
+
 ### Creating a Quote for a Partner <a name="resellerQuote"></a>
 A reseller quote has a few different things than a regular quote:
-* Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM” 
+* Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM”
 * Quote Template:  Needs to be a reseller template.  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.  There is currently an issue with the reseller templates  Please see [Workaround for the lack of a reseller quote template](#ResellerTemplateWorkaround) below
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
-* Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.	
+* Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.
 * Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
 * Discount: Authorised resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fullfillment houses like SHI, Insights or other resellers that are not authorised resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
 When in doubt please consult the reseller team.
@@ -389,10 +389,10 @@ Cases display in an Emails related list. The Emails related list includes all em
 
 ### Process after you close a Premium Support Subscription <a name="premium-support"></a>
 
-Once you close a Premium Support Subscription deal, you need to do a few things.
+Once you close a deal that includes Premium Support, you need to:
 
-1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by VP Engineering if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
-Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
+1. [Request a Dedicated Service Engineer](/handbook/support/#dedicated-service-engineers) as described in the Support Handbook.
+1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
