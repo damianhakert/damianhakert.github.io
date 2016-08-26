@@ -21,6 +21,12 @@ For the workflow that applies to everyone please see [PROCESS.md](https://gitlab
 to ship with the milestone that is has. If you are not able to do this,
 you have to communicate this early.
 In teams, the team is responsible for this (see below).
+1. You (and your team, if applicable) are responsible for the testing of a new
+feature or fix, especially right after it has been merged and packaged. Once a
+release candidate has been deploy in the staging environment, please verify
+that your changes work as intended. We have seen issues where bugs did not
+appear in development but showed in production (e.g. due to CE-EE merge
+issues).
 
 [priority-issues]: https://gitlab.com/groups/gitlab-org/issues?scope=all&sort=priority&state=opened&milestone_title=%23upcoming&assignee_id=0
 
