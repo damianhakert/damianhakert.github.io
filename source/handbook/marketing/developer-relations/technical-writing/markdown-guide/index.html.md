@@ -1,7 +1,10 @@
 ---
 layout: markdown_page
 title: "Markdown Guide"
+description: "Read through our Markdown Kramdown Style Guide!"
 ---
+
+<br>
 
 #### Welcome to the Markdown Kramdown Style Guide for [about.GitLab.com]
 {:.no_toc}
@@ -1134,6 +1137,40 @@ This is a [link][google-es]{:hreflang="es"} in Spanish.
 </div>
 </div>
 
+### Special classes
+
+#### Shadow
+{: .no_toc}
+
+The CSS class called `shadow` should be used when your image edges are not clearly defined.
+This happens when it has a white background or when it's a screenshot with text (for example,
+a screenshot of our user interface). For example, this image can be mistaken as part
+of the text:
+
+![text screenshot](/images/handbook/marketing/markdown-guide-image-plain-text.png)
+
+Now, if you apply the class `shadow` to the image, it's discretely highlighted from the text:
+
+![text screenshot with box shadow](/images/handbook/marketing/markdown-guide-image-plain-text.png){: .shadow}
+
+To do that, apply the class directly to the image by adding the markup `{: .shadow}` right after the image
+markup:
+
+```md
+![image alternative text](/path/to/image.png){: .shadow}
+```
+
+#### Note
+{: .no_toc}
+
+As [previously](#notes) explained, you can add the class `note` to paragraphs that
+you don't want to call attention to:
+
+```md
+A paragraph.
+{: .note}
+```
+
 ----
 
 ## Mix HTML + Markdown Markup
@@ -1640,24 +1677,24 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
 [handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
-[kramdown]: http://kramdown.gettalong.org/
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
+[kramdown]: http://kramdown.gettalong.org/
 [Lightweight markup languages]: https://en.wikipedia.org/wiki/Lightweight_markup_language
-[mdn-video]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
+[mdn-video]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 [middleman]: https://middlemanapp.com/
-[mou]: http://25.io/mou/
 [mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
+[mou]: http://25.io/mou/
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [Redcarpet]: http://git.io/ld_NVQ
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
-[ssg]: https://www.staticgen.com/
-[ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
-[ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
+[ssg]: https://www.staticgen.com/
+[ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
+[ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [stackedit]: https://stackedit.io/
 [sublime]: https://www.sublimetext.com/3
 [table generator]: http://www.tablesgenerator.com/html_tables

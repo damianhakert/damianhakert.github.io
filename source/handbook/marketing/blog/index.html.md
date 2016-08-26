@@ -454,10 +454,22 @@ for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screen
 #### Preparing images
 {: .no_toc}
 
-For the blog, images should be cropped in a 700 x 490 pixel *proportion*
+For the blog, images should be cropped in a 1.7 width/height pixel *proportion* (ideally 1275px x 750px)
 so the image doesn't get clipped when displayed as a lead image in the blog list.
 This includes the cover image.
 Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
+To preserve the harmony along the post, try to keep all the images with the same width
+(e.g., the ones used in [this post][width-post]).
+
+#### Image shadow
+
+It is important to highlight the image so that it can easily be recognized as image, and not as part of the text.
+The way we use is adding a [CSS custom class][css-shadow] called `shadow`. You do that by adding the markup `{: .shadow}`
+right besides the image markup:
+
+```md
+![Image Alternative Text](/path/to/image.png){: .shadow}
+```
 
 #### Where to place images
 {: .no_toc}
@@ -486,6 +498,15 @@ of an image, use one of these:
 
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
+
+#### Creating GIFs
+{: .no_toc}
+
+Animated GIFs are very useful to illustrate short dynamic processes, which might be easier to understand with this kind of resource.
+There are a few ways to create animated GIFs, one of them is via [Giphy Capture], a light-weight app for Mac.
+
+Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases,
+you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image (e.g., the ones used in [this post][gifs-post]).
 
 ### GitLab Specific Terms
 
@@ -552,19 +573,22 @@ specific matters are still being discussed and polished.
 
 <!-- BLOG STYLE GUIDELINES -->
 
+[(key)words]: http://www.wordstream.com/seo-keyword
 [about.GitLab.com]: https://about.gitlab.com/
 [android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
 [android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
-[blog]: https://about.gitlab.com/blog
+[blog]: /blog/
 [bundler]: http://bundler.io/
+[css-shadow]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#special-classes
 [description-tag]: http://www.wordstream.com/meta-tags
 [documentation]: http://docs.gitlab.com/
 [facebook debugger]: https://developers.facebook.com/tools/debug/
 [first post]: /2016/07/19/markdown-kramdown-tips-and-tricks/
+[gifs-post]: /2016/08/19/posting-to-your-gitlab-pages-blog-from-ios/
+[Giphy Capture]: https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12
 [git]: https://git-scm.com/
 [issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
-[(key)words]: http://www.wordstream.com/seo-keyword
 [Mac screenshot]: https://support.apple.com/en-us/HT201361
 [Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [marketing-blog]: #blog
@@ -585,6 +609,7 @@ specific matters are still being discussed and polished.
 [twitter-card-comp]: /images/handbook/marketing/twitter-card-complete.jpg
 [twitter-card-incomp]: /images/handbook/marketing/twitter-card-incomplete.jpg
 [unsplash]: https://unsplash.com/
+[width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
 
