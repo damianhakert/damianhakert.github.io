@@ -12,8 +12,8 @@ extra_css:
 
 - [What is Gogs?](#what-is-gogs?)
 - [GitLab's Support of Gogs](#gitlab's-support-of-gogs)
-- [Features Shared with Gogs & GitLab](#shared-features)
-- [Gogs advantages](#gogs-advantages)
+- [Shared Features](#shared-features)
+- [Gogs Advantages](#gogs-advantages)
 - [GitLab Feature Overview](#gitlab-advantages)
 
 ## What is Gogs?
@@ -48,7 +48,7 @@ The advantages are that it:
 
 ## GitLab Advantages
 
-GitLab is optimized for feature richness. Most of it is written in Ruby on Rails and it has has over [1000 non-unique dependencies](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile). The disadvantage is the it has higher [system requirements](http://docs.gitlab.com/ce/install/requirements.html). The advantages are that it offers many more features:
+GitLab is optimized for feature richness. Most of it is written in Ruby on Rails and it has has over [1000 non-unique dependencies](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile). The disadvantage is that it has higher [system requirements](http://docs.gitlab.com/ce/install/requirements.html). The advantages are that it offers many more features:
 
 ### LDAP
 

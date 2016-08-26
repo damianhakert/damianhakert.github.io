@@ -110,8 +110,8 @@
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
-  apply: https://gitlab.workable.com/jobs/227708/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "UX Lead"
   description: /jobs/ux-lead/
@@ -147,3 +147,9 @@
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
   open: true
+  
+- title: "Issue Triage Specialist"
+  description: /jobs/specialist/issue-triage/
+  apply: https://gitlab.workable.com/jobs/307215/candidates/new
+  open: true
+

@@ -42,6 +42,20 @@
   }
 }
 
+.btn-white {
+  color: $color-secondary;
+  background-color: $color-white;
+  border-color: $color-white;
+  transition: all .2s;
+  font-weight: 600;
+
+  &:hover {
+    color: $color-secondary;
+    background-color: darken($color-white, 10%);
+    border-color: darken($color-white, 10%);
+  }
+}
+
 .featured-item-button {
   display: inline-block;
   padding-left: 30px;
@@ -66,4 +80,48 @@
     text-decoration: none;
     outline: 0;
   }
+
+  &.white-on-primary {
+    color: $color-white;
+    border: 1px solid $color-white;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      color: $color-primary;
+      background-color: $color-white;
+    }
+  }
+}
+
+.btn-margin-top {
+  margin-top: 15px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0 30px;
+  margin: 10px;
+  font-size: 16px;
+  line-height: 40px;
+  min-width: 140px;
+
+  &.red {
+    background-color: $color-secondary;
+    color: $color-white;
+
+    &:hover {
+      background-color: darken($color-secondary, 5%);
+    }
+  }
+
+  &.white {
+    background-color: $color-white;
+    color: $color-secondary;
+
+    &:hover {
+      background-color: darken($color-white, 5%);
+    }
+  }
+
 }

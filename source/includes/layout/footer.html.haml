@@ -51,7 +51,12 @@
           %li= link_to('Primer',          '/primer/')
           %li= link_to('About Us',        '/about/')
           %li= link_to('Team',            '/team/')
-          %li= link_to('Jobs',            '/jobs/')
+          %li
+            = link_to '/jobs/' do
+              - if open_jobs.count > 0
+                = pluralize(open_jobs.count, 'Open Job')
+              - else
+                Jobs
           %li= link_to('Terms',           '/terms/')
           %li= link_to('Contact Us',      '/contact/')
 

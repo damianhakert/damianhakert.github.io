@@ -33,6 +33,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Security](/handbook/security)
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
+  * [Making Gifs](/handbook/product/making-gifs)
 
 ----
 
@@ -74,13 +75,11 @@ and makes our work more fulfilling. We think of how we can make the company bett
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
-1. **Collaboration**: Helping others is a priority. You are expected to ask others for
-help and advise. Anyone can chime in on any subject. You don't have to comply with
-all feedback but you should always take it seriously. An example is the inclusion
-of people from outside GitLab Inc. in the [core team](https://about.gitlab.com/core-team/).
-1. **Directness**: We try to channel our inner Ben Horowitz by being [both straightforward
+1. **Collaboration**: Helping others is a priority, also when it is not related to the goals that you are trying to achieve. You are expected to ask others for
+help and advise. Anyone can chime in on any subject, including people that don't work at GitLab. The person that has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
+1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
-1. **Kindness**: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
+1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
 Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
 We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way. Give negative

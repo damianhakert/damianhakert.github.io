@@ -198,6 +198,12 @@ iframe {
   @media (min-width: 1200px) {
     padding-bottom: 120px;
   }
+
+  &.landing-container {
+    @media (min-width: 1200px) {
+      padding-bottom: 70px;
+    }
+  }
 }
 
 .featured-item {
@@ -353,18 +359,16 @@ iframe {
 
 .logos-section {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   background-color: $color-white;
-  border-bottom: 1px solid $landing-organization-color;
 
   @media (min-width: 990px) {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   @media (min-width: 1200px) {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
   }
 
   .logos-section-title {

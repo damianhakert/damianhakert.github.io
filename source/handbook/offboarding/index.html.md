@@ -9,8 +9,8 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, @joan.
-1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @ernst, @brittany.
+1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @ernst.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
    1. [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
@@ -24,6 +24,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] Slack
    1. [ ] Robert/Jacob V/Ernst disable team member in [Slack](https://gitlab.slack.com/admin).
    1. [x] _not relevant_ New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
+   1. [x] _not relevant_ Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
 1. [ ] People Ops Information
    1. [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
    1. [ ] People Ops: Mark former team member as terminated in BambooHR. Use the date mentioned in this issue as final date of employment / contract.
@@ -116,8 +117,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Patricio/Robert/Jacob V: Remove former team member's GitLab.com admin account.
-1. [ ] Patricio/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
+1. [ ] Jose/Robert/Jacob V: Remove former team member's GitLab.com admin account.
+1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
 1. [ ] ZenDesk [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
@@ -126,6 +127,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: remove from support team call
+1. [ ] Pablo/Infrastructure Team: Remove user from the following services:
+   1. [ ] Chef sysadmin account - [More info](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
+   1. [ ] Azure account
+   1. [ ] Remove Digital Ocean droplet/Account access
+   1. [ ] Remove from AWS
 1. [x] _not relevant, already addressed_ Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [x] _not relevant_ New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance.
@@ -162,5 +168,12 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] People Ops: Remove team member from BambooHR and Workable as an admin.
 * [ ] Manager: Remove team member from TriNet and HR Savvy as an admin.
 * [x] _not relevant, already handled_ People Ops: Invite team member to People Ops Confidential channel in Slack.
+
+### FOR CORE TEAM MEMBERS ONLY
+
+1.  [ ] Robert/Jacob V/Ernst: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+2.  [x] _not relevant, People Ops: Have member sign NDA.
+3.  [ ] Robert/Jacob V/Ernst: Remove member to #core in Slack.  
+4.  [ ] Robert/Jacob V/Ernst: Remove member developer access to gitlab-org.
 
 ```
