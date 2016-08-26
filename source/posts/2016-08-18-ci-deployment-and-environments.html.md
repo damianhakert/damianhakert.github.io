@@ -430,7 +430,7 @@ using `dpl` to make your deployment scripts look uniform.
 3. With GitLab CI, you can flexibly specify which branches to deploy to
 4. If you deploy to multiple environments, GitLab will conserve the history of deployments,
 which gives you the ability to rollback to any previous version
-5. For critical parts of your infrastructure, you can enable manual deployment from GitLab interface, instead of automated deployement 
+5. For critical parts of your infrastructure, you can enable manual deployment from GitLab interface, instead of automated deployment 
 
 
 <style>
