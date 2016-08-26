@@ -245,6 +245,8 @@
   picture: ernst.jpg
   twitter: ernstvannierop
   gitlab: ernstvn
+  maintains:  |
+              <li>Interim <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a></li>
   story:  |
           Ernst comes from a physics and engineering background, and was most recently the VP of Engineering at C12 Energy helping to clean up part of our energy infrastructure.
           He enjoys tackling a wide variety of challenges, including the technical, people, and organizational aspects of cool growing companies.
