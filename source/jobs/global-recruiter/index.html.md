@@ -18,7 +18,7 @@ Top 10 reasons to work for GitLab:
 1. Work with helpful, kind, motivated, and talented people.
 1. Work remote so you have no commute and are free to travel and move.
 1. Have flexible work hours so you are there for other people and free to plan the day how you like.
-1. Everyone works remote, but you don't feel remote. We don't have a head office, so you're not in a satellite office.1. 
+1. Everyone works remote, but you don't feel remote. We don't have a head office, so you're not in a satellite office.1.
 1. Work on open source software so you can interact with a large community and can show your work.
 1. Work on a product you use every day: we drink our own wine.
 1. Work on a product used by lots of people that care about what you do.
@@ -46,7 +46,7 @@ Top 10 reasons to work for GitLab:
 ## Requirements
 
 * 3+ years experience recruiting for technical roles, preferably in a technical company
-* Experience with global job markets highly preferred 
+* Experience with global job markets highly preferred
 * Comfortable competing for top talent in a competitive global market
 * Focused on delivering an excellent candidate experience
 * Ambitious, efficient and stable under tight deadlines and competing priorities
