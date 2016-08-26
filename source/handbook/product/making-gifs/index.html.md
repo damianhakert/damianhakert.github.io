@@ -117,6 +117,7 @@ Example command:
 
 Worthy of mentioning:
 
+- [Drop to Gif](http://mortenjust.github.io/droptogif/) (Great free open source option to just convert on macOS with a GUI!)
 - [Screengif](https://github.com/dergachev/screengif) (CLI similar to gifify)
 - [Gif Brewery](http://gifbrewery.com/) (macOS, not free)
 
