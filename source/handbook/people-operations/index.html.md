@@ -101,7 +101,7 @@ As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any Gi
 #### FedEx info for the team member
 <a name="fedex-info"></a>
 
-Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
+Pull up the departing team member's home address. Find a Fedex location close to them. Then follow the template below.
 
 "Hi [Name of team member]
 
@@ -117,7 +117,11 @@ Once there you can use Fedex boxes that you need and do the following actions:
 
 Please let People Ops know if you have any questions."
 
+### Relocation
 
+If you change your address, you should let GitLab know the new address within a month. The best way to do this, is by logging in to BambooHR, and changing your address on record. This triggers a message to the BambooHR admin to review the change and "accept" it.
+- PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ## Methods and Tools for People Ops
 <a name="peopleops-methods"></a>
