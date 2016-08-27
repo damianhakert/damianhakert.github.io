@@ -77,8 +77,7 @@ GitLab requires lead registration. This process is to let us know which deals yo
 GitLab will not accept an order, give a quote, issue an eval license, nor pay commissions if a deal has not been registered.  
 
 
-The deal registration form is located at: **MAKE IT LINK TO RESELLER PROJECT**
-Please do not share this URL with anyone outside your company.  
+The link to the deal registration form is located in the [reseller project](https://gitlab.com/gitlab-com/resellers/README.md). Please do not share the URL of the deal registration form with anyone outside your company.  
 
 When you complete the form, we get notified and will do the following:  
 
@@ -186,7 +185,7 @@ At GitLab, we regularly review our leads for activity. In order to  make that **
 
 ### To use
 
-- When replying to leads,  BCC this address: **MAKE THIS LINK TO RESELLER PROJECT**
+- When replying to leads, BCC the SalesForce address that is listed in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/README.md).
 - This will create an activity record on the contact, lead, account, and opportunity records that match the people on the to: and cc: lines.   
 - This will show up on the Lead Activity report, and make everyone happy that the leads we are referring to you are showing activity.
 - When SFDC communities are eventually turned on, you will be able to see all of this activity too.  
@@ -197,4 +196,4 @@ If there are any additional email addresses you want me to enable SFDC to receiv
 
 ## Authorized Reseller Logos
 
-You should feel free to use our Authorized Reseller Logo on your materials where appropriate. These logos are available on (requires logging in with your GitLab.com account) **MAKE LINK TO RESELLER PROJECT**
+You should feel free to use our Authorized Reseller Logo on your materials where appropriate. These logos are available on the [resellers project](https://gitlab.com/gitlab-com/resellers/README.md).
