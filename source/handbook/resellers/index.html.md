@@ -60,7 +60,17 @@ If the lead goes a further week without being updated or responded to; then the 
 
 
 
-## Deal Registration
+
+## Closing a deal
+
+The steps to closing a deal are:
+
+1. [Deal Registration](#deal-registration)
+2. Receive a GitLab [reseller quote](#gitlab-quote)
+3. [Remitting payment to GitLab](#paying-gitlab)
+4. [Execute the GitLab EULA](#gitlab-eula)
+
+### Deal Registration
 
 GitLab requires lead registration. This process is to let us know which deals you are working on so that we can plan accordingly, and also helps prevent channel conflict.
 
@@ -83,30 +93,6 @@ When you complete the form, we get notified and will do the following:
    - Contact details of the GitLab sales rep that has been working with that company in the past (if any)
    - Our SFDC opportunity name (in case you need to reference it to us)
 
-
-## Email to SFDC
-{: #email-to-sfdc}
-
-At GitLab, we regularly review our leads for activity. In order to  make that **way** less painful than asking you to fill out a spreadsheet, or sit through a long phone call; we will enable mailto SFDC for your email accounts that will be interacting with GitLab leads.
-
-### To use
-
-- When replying to leads,  BCC this address: **MAKE THIS LINK TO RESELLER PROJECT**
-- This will create an activity record on the contact, lead, account, and opportunity records that match the people on the to: and cc: lines.   
-- This will show up on the Lead Activity report, and make everyone happy that the leads we are referring to you are showing activity.
-- When SFDC communities are eventually turned on, you will be able to see all of this activity too.  
-
-If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
-
-
-## Closing a deal
-
-The steps to closing a deal are:
-
-1. [Register the deal](#deal-registration), see above.
-2. Receive a GitLab [reseller quote](#gitlab-quote)
-3. [Remitting payment to GitLab](#paying-gitlab)
-4. [Execute the GitLab EULA](#gitlab-eula)
 
 ### Receive a GitLab reseller quote
 {: #gitlab-quote}
@@ -192,6 +178,21 @@ All orders will require an executed [EULA](https://about.gitlab.com/terms/print/
    Some customers may require a fully countersigned document.  When you obtain the signed document from the customer, please scan it and email it to Sales@GitLab.com, with a cc: to the customer and a bcc: to the [Email to Salesforce](#email-to-sfdc) address.
 
 An order is not complete without a signed agreement.
+
+## Email to SFDC
+{: #email-to-sfdc}
+
+At GitLab, we regularly review our leads for activity. In order to  make that **way** less painful than asking you to fill out a spreadsheet, or sit through a long phone call; we will enable mailto SFDC for your email accounts that will be interacting with GitLab leads.
+
+### To use
+
+- When replying to leads,  BCC this address: **MAKE THIS LINK TO RESELLER PROJECT**
+- This will create an activity record on the contact, lead, account, and opportunity records that match the people on the to: and cc: lines.   
+- This will show up on the Lead Activity report, and make everyone happy that the leads we are referring to you are showing activity.
+- When SFDC communities are eventually turned on, you will be able to see all of this activity too.  
+
+If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
+
 
 
 ## Authorized Reseller Logos
