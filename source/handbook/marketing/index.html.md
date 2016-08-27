@@ -759,7 +759,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
 [luke]: https://gitlab.com/u/lukebabb
-[marcia]: https://gitlab.com/u/virtuacreative
+[marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
 
