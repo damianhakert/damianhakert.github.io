@@ -97,6 +97,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
+1. [ ] Hiring Manager: Discuss [referral bonus program](https://about.gitlab.com/handbook/#referral-bonuses) and ask for any strong referrals who might be a good fit for GitLab.
 
 ### ON YOUR FIRST DAY
 
