@@ -48,7 +48,7 @@ aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
 
 **Important detail**: the command
 [expects you](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence)
-to provide ``AWS_ACCESS_KEY_ID` and  `AWS_SECRET_ACCESS_KEY`` environment
+to provide `AWS_ACCESS_KEY_ID` and  `AWS_SECRET_ACCESS_KEY` environment
 variables. Also you might need to specify `AWS_DEFAULT_REGION`.
 {: .alert .alert-info}
 
