@@ -1430,16 +1430,20 @@
           and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
           biking, craft beer, travel, and spending time with his wife and daughter.
 
-- name: D.W.B.
-  locality:
-  country:
+- name: De Wet Blomerus
+  locality: Cape Town
+  country: South Africa
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: dewet.jpg
+  twitter: dewetblomerus
+  gitlab: dewetblomerus
   story:  |
-          Joining August 25th
+          De Wet is a software developer and mentor. He is passionate about problem-solving with code
+          and helping someone without making them feel stupid. Prior to joining the Gitlab team, he founded
+          a coding bootcamp for underprivileged young people. He has worked in tech roles since 2010. When
+          not working, he's an avid cyclist, audio book devourer, and burger connoisseur. He's a best friend
+          to his wife and hands-on father to his three young children.
 
 - name: D.P.
   locality:
