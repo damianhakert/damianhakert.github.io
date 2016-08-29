@@ -8,10 +8,10 @@ BDR Handbook
 * [Customer FAQ's](#FAQ)  
 * [Variable Compensation Guidelines](#compensation)
 * [Vacation Incentives](#vacation)
-* [Daily Prospecting Toolkit](#Toolkit)
+* [Prospecting Toolkit](#Toolkit)
 * [Buyer Types](#Buyer Types)
 * [Research Process 3X3](#Research Process)
-* [Basic Principles of Prospecting](#Basic)
+* [Prospecting](#Basic)
 * [Initial Cadence Sample](#Sample)
 * [Cold Call Framework](#Cold)
 * [Email Prospecting](#Email)
@@ -76,7 +76,7 @@ Rules and qualifications for BDR Vacation Incentives:
 
 With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab's PTO policy</a>), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
 
-## Daily Prospecting Toolkit<a name="FAQ"></a>
+## Prospecting Toolkit<a name="FAQ"></a>
 
 #### Learn
 - Read industry trends and articles about your job
@@ -84,7 +84,7 @@ With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">
 - Read the BDR handbook
 
 #### Research
-- Add at least 10 new contacts to salesforce everyday
+- Add at least 5 new contacts to salesforce everyday
 - Learn something new about all of your targeted accounts
 - Look for a deposit you can make in your prospecting emails/calls from an article or study online
 
@@ -158,11 +158,11 @@ Three things in three minutes about the:
     - Press Releases/Newsroom
     - (ctrl F) search for keywords
 
-## Basic Principles of Prospecting<a name="Basic"></a>
+## Basics Prospecting<a name="Basic"></a>
 - Call about them, not you
 - Be confident and passionate
 - Aim high and wide
-- Multithreading
+- Prospect into multiple departments
 - Don’t sell into an interruption
 - Focus on the objective
 - Make it easy to say yes
@@ -170,7 +170,8 @@ Three things in three minutes about the:
 - Get something actionable
 - Reschedules are part of it
 
-#### Initial Prospecting Process/Call Cadence:<a name="Sample"></a>
+#### Example of an Initial Prospecting Process/Call Cadence:<a name="Sample"></a>
+- 
 - 8-10 Calls (4-5 voicemails - Every other call/1-2 per week)
 - 5-6 Emails (Include 2 InMails/1-2 per week)
 
@@ -210,7 +211,7 @@ Hi. This is (Name) from GitLab
 #### Ask for Time
 “Do you have just a moment?”
 
-#### Magic Question
+#### Key Question
 “Have you heard of GitLab before?”
 
 #### Initial Message with IBS
@@ -226,7 +227,7 @@ Hi. This is (Name) from GitLab
 #### Initial Benefit Statement example
 - GitLab is an end-to-end developer lifecycle solution that allows developers to collaborate on code, project management, and to create a seamless workflow between teams across the entire org.
 
-#### Anatomy of a Prospecting Call
+#### Structure of a Prospecting Call
 - Introduction………………………...Approach/Into
 - Initial Benefit Statement………….Brief/IBS “Why me?”
 - Qualification………………………..Ask questions
