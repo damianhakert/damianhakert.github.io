@@ -62,10 +62,32 @@ Series A Funding was signed.
 Anniversary of our first ever summit in Amsterdam with 25 team members.
 
 ## Summits
-
 Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video conferencing), and to
-get to know each other better by working and 'playing' together. Here are some
- [impressions from our first Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
+get to know each other better by working and 'playing' together.
+<br>
+<br>
+### Summit in Amsterdam, the Netherlands
+ Here are some impressions from our [first Summit](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/) in October 2015.
+<br>
+<br>
+### Summit in Austin,TX, the USA
+In May 2016, with a team existing of 85 people, met up in Austin,TX to see if they are (still) as awesome as seen on Google Hangout.
+Here is some footage that our team put together to show how much fun we had.
+<br>
+
+<div class="row">
+  <div class="col-sm-8 col-xm-12"><img src="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/images/team/resize1200-team-austin.jpeg " alt="The GitLab team in May 2016"></div>
+  <div class="col-md-4 col-xm-12">
+    <p class="justify">"Back in May 2016, the whole team was a total of 85 GitLabbers".</p>
+  </div>
+</div>
+
+<br>
+
+A short video of all the cool stuff we did while in Austin
+<br>
+<iframe src="https://player.vimeo.com/video/175270564" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<br>
 
 
 ## Team Stories
