@@ -618,7 +618,7 @@ fit anywhere else.
 1. All meetings will have the same Google Hangout URL on your calendar based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landing page](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call. Please note that the appointment will show up in other peoples calendar with a different link, to it is essential that you set a text with the link for your time slot as specified below.
 1. Set up the 45 minute time slot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
 1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
-1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
+1. Update your availability on [Calendy Event Types](https://calendly.com/event_types/)
 1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
 
 ### Shush
