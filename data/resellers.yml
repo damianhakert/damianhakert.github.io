@@ -62,18 +62,18 @@
       url: https://twitter.com/lyrainfosystems
     - type: linkedin
       url: https://www.linkedin.com/company/657607?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_657607%2Cidx%3A0
-- name: MOUSoft
-  image: /images/resellers/mousoft-logo.svg
-  content: |
-    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
-
-    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
-  email: sales@mousoft.co.kr
-  contact:
-    - address: 서울, 한국
-      phone: +82 (2) 508-2733
-      website: http://mousoft.co.kr/
-    - website: http://blog.naver.com/mousoft
+#- name: MOUSoft
+#  image: /images/resellers/mousoft-logo.svg
+#  content: |
+#    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
+#
+#    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
+#  email: sales@mousoft.co.kr
+#  contact:
+#    - address: 서울, 한국
+#      phone: +82 (2) 508-2733
+#      website: http://mousoft.co.kr/
+#    - website: http://blog.naver.com/mousoft
 - name: InTENSO
   image: /images/resellers/intenso-logo.svg
   content: |
