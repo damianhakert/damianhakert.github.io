@@ -410,7 +410,7 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 
 We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
 respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
-and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
+and how to swap duty in the [On-Call](https://about.gitlab.com/handbook/on-call/) page.
 
 ## <i class="fa fa-copyright fa-fw icon-color font-awesome" aria-hidden="true"></i> Intellectual Property
 {: #intellectual-property}
@@ -486,7 +486,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
 1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+1. Please see the [On-Call](https://about.gitlab.com/handbook/on-call/)
 page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
