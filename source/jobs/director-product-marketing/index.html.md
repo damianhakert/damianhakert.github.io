@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Director of Product Marketing"
+title: "Product Marketing Manager"
 ---
 The Product Marketing Manager role includes 4 key areas of focus:
 
