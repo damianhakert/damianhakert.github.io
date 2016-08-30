@@ -4,7 +4,8 @@ author: Amara Nwaigwe
 author_twitter: its_amaracle 
 categories: integration
 image_title: '/images/blogimages/fido-u2f-yubikey.jpg'
-description: GitLab and Yubico discuss security best practices for Git users.
+description: "GitLab and Yubico discuss security best practices for Git users."
+twitter_image: '/images/tweets/gitlab-and-yubico-security-webcast.png'
 ---
 
 {::options parse_block_html="true" /}
@@ -105,7 +106,6 @@ Of course there are many more than just nine. These were the ones that stuck out
 </div>
 
 As always, if you have any questions feel free to comment on this post or [tweet at us].
-
 
 <!-- identifiers -->
 
