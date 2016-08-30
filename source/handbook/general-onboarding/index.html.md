@@ -141,6 +141,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
 1. [ ] Hiring Manager: Invite new team member to the recurring weekly team-meeting.
+1. [ ] Hiring Manager: Add aliases to the proper group by adding the information and a request in the [doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#heading=h.kbi932uju015)
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
@@ -176,7 +177,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: provide access to PagerDuty.
 
 #### FOR SERVICE ENGINEERING ONLY
-1. [ ] New team member: Go through SE onboarding https://about.gitlab.com/handbook/support/onboarding/ 
+1. [ ] New team member: Go through SE onboarding https://about.gitlab.com/handbook/support/onboarding/
 1. [ ] Patricio/Robert/Jacob V: Create GitLab.com admin account.
 1. [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
 1. [ ] Jose/Drew: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
