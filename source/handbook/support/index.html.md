@@ -13,7 +13,7 @@ title: Support
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
-- [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+- [On-Call](https://about.gitlab.com/handbook/on-call)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
 - [Mentions Channel](/handbook/support/mentions-of-gitlab)
@@ -148,10 +148,7 @@ to any tickets from channels in category 3 and 4, but we do track response times
 
 #### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. When
-a ticket is breaching or has breached its SLA this ticket must be picked up by
-a Service Engineer independently of who is assigned to it. This also applies to
-tickets for Premium Customers.
+Service Engineers can work on any ticket they feel they can contribute to. When a ticket is breaching or has breached its SLA this ticket must be picked up by a Service Engineer independently of who is assigned to it. This also applies to tickets for Premium Customers.
 
 ## Support Channels
 
@@ -433,7 +430,7 @@ the spammer's user profile and click on the "Report Abuse" button:
 
 The Akismet filter may also flag false positives and prevent a user from
 creating issues. The contents of the flagged issue get stored in the spam logs,
-which is only accessible to admin users. Fom time to time, we may need to
+which is only accessible to admin users. From time to time, we may need to
 submit the flagged issue as "ham" (e.g. when a user lodges a complaint on the
 Support Tracker about not being able to create issues). Currently, there are
 no notifications whenever an entry is flagged, so this needs to be monitored
