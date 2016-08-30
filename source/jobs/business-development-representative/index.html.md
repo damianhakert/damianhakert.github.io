@@ -7,13 +7,13 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Responsibilities
 
-* Work with our demand generation manager to develop the proper qualifying questions for all type of customers. Be able to identify where a customer is in the sale and marketing funnel and take the appropriate action.
-* Work with our demand generation manager to follow the process from which leads pass onto sales, support, etc.
-* Work with our demand generation manager to document all processes in the handbook and update as needed.
+* Strategize with our demand generation manager to develop the proper qualifying questions for all type of customers. Be able to identify where a customer is in the sale and marketing funnel and take the appropriate action.
+* Develop and work with our demand generation manager to follow the process from which leads pass onto sales, support, etc.
+* Participate in documenting all processes in the handbook and update as needed with our demand generation manager.
 * Work closely with support to build a process where we can identify customers that would be interesting for EE and pass those onto sales.
 * Manage and help inbound requests to community@gitlab.com and sales@gitlab.com.
-* Work with our CMO and demand generation manager for all outbound messaging for demand campaigns.
-* Work with our demand generation manager and developer marketing manager to create a signup email campaign for all users of GitLab.com. The goal of this campaign is to introduce more users to our on-premises offerings.
+* Collaborate with our CMO and demand generation manager for all outbound messaging for demand campaigns.
+* Engage with our demand generation manager and developer marketing manager to create a signup email campaign for all users of GitLab.com. The goal of this campaign is to introduce more users to our on-premises offerings.
 * Own the competitive analysis and comparison page for GitLab. Work closely with sales to identify new competitive technologies and systems and understanding the drawback and benefits.
 * Work closely with our developer marketing manager to identify customer stories from all of the conversations you have with our customers.
 

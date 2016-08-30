@@ -85,11 +85,11 @@ Is it hard to market to developers? No, however, there's a big focus on truth in
 
 The team has to balance how you market a developer product with the expectations of the developer using that product. For example, most users of an developer tool will not expect an email from a demand generation team or BDR team and they certainly will not expect a phone call.
 
-So what do they expect? Developers will expect education, help getting started, tutorials, partner integrations that make their lives easier, and truth in marketing. Developers want truth in marketing, they want proper education, they want integrations that help them ,and they want the marketing team to kind of stay out of the way while quietly sprinkling helpful information around the areas that they are interested in.
+So what do they expect? Developers will expect education, help getting started, tutorials, partner integrations that make their lives easier, and truth in marketing. Developers want truth in marketing, they want proper education, they want integrations that help them, and they want the marketing team to kind of stay out of the way while quietly sprinkling helpful information around the areas that they are interested in.
 
 Some forums that developers use to get information are [StackOverflow](https://www.stackoverflow.com), [Hacker News](https://news.ycombinator.com/), [Reddit](https://www.reddit.com/r/gitlab/), Twitter, GitLab Documentation, GitHub, a basic Google search, and all of these things channels should be taken into account when thinking about how to market a developer product. Where possible, try to offer community support via these forums. Be responsive.  
 
-For an event strategy, you need to not only think "how do I bring people together in a room that are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people that love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and because the developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will. Developer roundtables are awesome. You need a room, some developers using your product, and someone to take notes.   
+For an event strategy, you need to not only think "how do I bring people together in a room that are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people that love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and because the developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will. Developer roundtables are awesome. You need a room, some developers using your product and someone to take notes.   
 
 For a content strategy, much of the same applies. Education, tutorials, and making it really easy to get started through blog posts, video, screencasts, office hours, webinars, etc.  
 
@@ -214,7 +214,6 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Joe][joe]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Hank][hank]{:.btn .btn-orange}
 
 ### Business Development
 {: .no_toc}
@@ -244,6 +243,7 @@ What is Marketing Operations (to be included).
 
 [Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
 [Handbook][Marketing Operations]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> JJ][jennifer]{:.btn .btn-orange}
 
 ### Online Marketing
 {: .no_toc}
@@ -368,6 +368,7 @@ What is Content Marketing (to be included)
 
 [Job Description](/jobs/content-marketing-manager){:.btn .btn-purple-inv}
 [Handbook][Content Marketing]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Erica][erica]{:.btn .btn-orange}
 
 ### Partner Marketing
 {: .no_toc}
@@ -611,7 +612,7 @@ The Monthly Marketing Townhall is open to the entire company for questions, idea
 
 To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Monthly Marketing Townhall Agenda"
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
 - 24 hours prior to the meeting all marketing members should have their sections of the agenda completed.  
 - The CMO will email all attendees reminding them to take a look at the agenda and add any questions to the top of the meeting.  
@@ -634,40 +635,34 @@ The meeting should run as follows:
 
 - First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
-- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Chet, Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)
+- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
 
-### Quarterly marketing review
+### Quarterly marketing summit
 {: .no_toc}
 
-**Meeting goal: How did the last quarter go? What should we do for the upcoming quarter?**
+**Meeting goal: Planning for the upcoming quarter**
 
-**Run time: 120 minutes**
+**Run time: Full Day**
 
-The Quarterly Marketing Review takes the place of the Monthly Marketing Meeting every last month of the new Quarter.
-
-CMO works with the functional group leads to review planning for each group.
+CMO builds agenda and assigns ownership for each session.
 
 The meeting should run as follows:
 
-- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?  
-- Head of Product Marketing reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Developer Relations reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Demand Generation reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Design reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Team agrees on what key takeaways are from the last quarter.  
-- Team agrees on what our Team OKRs should be for the upcoming quarter.  
+- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?
+- Team agrees on what key takeaways are from the last quarter.
+- Team agrees on what our Team OKRs should be for the upcoming quarter.
 
 ## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
-When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
+When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.
 
 - Respond to your emails by end of next business day.
-- Respond when you are cc'd with an action item on issues by end of next business day.  
-- Be on time to meetings. We start at on time.  
+- Respond when you are cc'd with an action item on issues by end of next business day.
+- Be on time to meetings. We start at on time.
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
 - Do not ping someone in a public channel on Slack on the weekends. This is rude.
@@ -677,7 +672,7 @@ When working remotely in such a quick moving organization, it is important for a
 
 Anything that is a process in marketing should be documented in the Marketing Handbook.
 
-- Format of all pages should be as follows:  
+- Format of all pages should be as follows:
     - Welcome to the Handbook.
     - Functional group overview if handbook for entire functional group or organization.
     - "On this page" index of all top level headers on the current page ([create a ToC]).
@@ -759,11 +754,12 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
 [emily]: https://gitlab.com/u/emilykyle
-[hank]: https://gitlab.com/u/hanktaylor
+[erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
+[jennifer]: https://gitlab.com/u/jjcordz
 [luke]: https://gitlab.com/u/lukebabb
-[marcia]: https://gitlab.com/u/virtuacreative
+[marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
 

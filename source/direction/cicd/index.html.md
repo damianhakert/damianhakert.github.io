@@ -69,7 +69,7 @@ Builds as first-class citizen (aka build artifacts):
 
 1. [Integration with third-party services like CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 2. [Report more than just pass/fail, report improving, degrading, above/below threshold of change](https://gitlab.com/gitlab-org/gitlab-ce/issues/14178)
-3. [Detect unnecessary builds/tests and skip them (e.g. merge of an MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
+3. [Detect unnecessary builds/tests and skip them (e.g. merge of a MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)
 6. [Provides examples and/or wizard to get started](https://gitlab.com/gitlab-org/gitlab-ce/issues/14266)

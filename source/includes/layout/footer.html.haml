@@ -36,6 +36,7 @@
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Community
         %ul.animated.footer-links
+          %li= link_to('Source Code',          'https://gitlab.com/groups/gitlab-org')
           %li= link_to('Core Team',     '/core-team/')
           %li= link_to('Contributors',  'http://contributors.gitlab.com/')
           %li= link_to('Documentation', '/documentation/')
@@ -51,7 +52,12 @@
           %li= link_to('Primer',          '/primer/')
           %li= link_to('About Us',        '/about/')
           %li= link_to('Team',            '/team/')
-          %li= link_to('Jobs',            '/jobs/')
+          %li
+            = link_to '/jobs/' do
+              - if open_jobs.count > 0
+                = pluralize(open_jobs.count, 'Open Job')
+              - else
+                Jobs
           %li= link_to('Terms',           '/terms/')
           %li= link_to('Contact Us',      '/contact/')
 
