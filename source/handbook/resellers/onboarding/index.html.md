@@ -38,21 +38,21 @@ Within 1 week of signing:
 - [ ] GitLab@reseller email address set up  `partner`
 - [ ] GitLab@reseller email address added to [news@gitlab.com mailing list](https://about.gitlab.com/contact/) @malessio
 - [ ] GitLabSupport@reseller email address set up `partner`
-- [ ] Partner banking details for payment emailed to M. Alessio  `partner` . Details should include:
+- [ ] Partner banking details for payment emailed to partners@ gitlab.com  `partner` . Details should include:
    - [ ] Beneficiary name
    - [ ] Bank Name
    - [ ] Bank Address
    - [ ] Account Number or IBAN Number
    - [ ] Routing number or Swift BIC code
    - [ ] VAT Number or US Tax ID
-- [ ] Banking details recorded ?? @malessio
-- [ ] Uniform Sales and Use Tax Exemption Certificate attached to this issue `partner`  OR EMAIL??
-- [ ] Partner GitLab team members & contact details emailed to M. Alessio `partner` .
+- [ ] Banking details added to SFDC @malessio
+- [ ] Uniform Sales and Use Tax Exemption Certificate emailed to partners@ gitlab.com `partner`
+- [ ] Partner GitLab team members & contact details emailed to partners@ gitlab.com `partner` .
 These are the members of your team that are most likely to interact with us. We need you to identify whom are the principal **accounting, sales, technical, and marketing** contacts. But all members of your team who will be interacting with us and GitLab customers should be identified. Details should include (per person):
    - Name
    - Email
    - Mobile
-   - Role
+   - Role (accounting, sales, technical, marketing, etc)
    - GitLab.com username (if any)
 - [ ] Partner team members added to SFDC @malessio
 - [ ] Partner Demo License set up in Zuora @malessio
@@ -78,7 +78,7 @@ Within 2 weeks of signing:
 
 ### Partner Landing Page
 - [ ] partner.com/GitLab landing page set up `partner`
-- [ ] Partner.com/GitLab landing page reviewed  @virtuacreative or `local language speaker`  
+- [ ] Partner.com/GitLab landing page reviewed  @virtuacreative and `local language speaker`  
 - [ ] Bi-weekly call with partner set up @malessio
 
 ### Lead Management
