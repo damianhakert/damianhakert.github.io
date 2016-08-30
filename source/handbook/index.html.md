@@ -539,7 +539,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus.
+People Ops will [process](/handbook/people-operations/sop/#referral-bonus) the bonus.
 
 ### Work Remotely Travel Grant
 {: #travel-grant}

@@ -39,7 +39,6 @@ Once you've sent out the document you will receive email notifications of the pr
 If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
 ### Processing changes
-<a name="processing-changes"></a>
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
@@ -51,7 +50,6 @@ sends an email to the person reporting / requesting the change (member's manager
 to confirm this.
 
 ### Using BambooHR
-<a name="bamboohr"></a>
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
@@ -72,7 +70,6 @@ test account that does not have admin privileges.
 the ask, and who to turn to in case of questions.
 
 ### Settings in BambooHR
-<a name="bamboohr-settings"></a>
 
 Changing a Format (Example: Date)
 
@@ -95,7 +92,8 @@ Add a New Division
 1. Select Division
 1. Add new division
 
-### Process Referral Bonus<a name="referral-bonus"></a>
+### Process Referral Bonus
+<a name="referral-bonus"></a>
 
 If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
@@ -121,7 +119,6 @@ BambooHR will send an email to PeopleOps on the date that the referral bonus sho
 Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid.
 
 ### Asset Tracking
-<a name="asset-tracking"></a>
 
 Items paid for by the company are property of the company.
 
@@ -136,14 +133,12 @@ The information is then entered into BambooHR (to track who has which piece of e
 1. This process is repeated for each asset purchased
 
 ### Birthday Swag
-<a name="birthday-swag"></a>
 
 BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member an email (template below) and post on the #general channel on Slack so all team members can help them celebrate.
 
 Birthday Email Template: "Happy Birthday! We've got a great [swag store](https://gitlab.mybrightsites.com/) set up. Please login or create an account with the swag store to receive your free birthday shirt! The username will be your GitLab email. Once you are are in the store you should see your options to order a GitLab birthday shirt. In order to receive free shipping please use the code: [Enter free shipping code]. Please let people ops know if you have any questions."
 
 ### Managing the PeopleOps onboarding and offboarding tasks
-<a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
@@ -200,10 +195,8 @@ As username choose the same handle as on our dev domain. Enter the GitLab email 
 Lastly assign the department in which the new team member is working.
 
 ### Using TriNet
-<a name="using-trinet"></a>
 
 #### Entering New Hires into TriNet
-<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
@@ -343,7 +336,6 @@ Note: Make sure to file all appropriate documentation in BambooHR. Also, if the 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
 
 #### FedEx info for the team member
-<a name="fedex-info"></a>
 
 Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
 

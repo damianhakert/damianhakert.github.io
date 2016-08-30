@@ -17,6 +17,7 @@ title: "People Operations"
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
+- [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
 
 ## On this page
 {:.no_toc}
@@ -39,7 +40,6 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
 ## Letter of Employment
-<a name="letter-of-employment"></a>
 
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
@@ -50,10 +50,8 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
 
 ## Policies
-<a name="policies"></a>
 
 ### Compensation principles
-<a name="compensation-principles"></a>
 
 1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
 1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
@@ -103,7 +101,6 @@ If you change your address, you should let GitLab know the new address within a 
 <a name="benefits-us"></a>
 
 #### 401k
-<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -151,7 +148,6 @@ of your total financial status (including any savings you have). The requirement
 this seem to vary a bit between mortgage providers.
 
 ## Involuntary Terminations
-<a name="involuntary-terminations"></a>
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
