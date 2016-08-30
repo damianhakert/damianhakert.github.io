@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "People Operations Standard Operating Procedures "
+title: "People Operations Standard Operating Procedures"
 ---
 
 ## On this page
@@ -10,9 +10,11 @@ title: "People Operations Standard Operating Procedures "
 {:toc}
 
 ## Role of People Operations Standard Operating Procedures
+
 For more information about People Operations Policies please see [People Operations](https://about.gitlab.com/handbook/people-operations/). This page is dedicated toward how People Ops does what it does best.
 
 ## People Ops Timeline
+
 1. [Vacancy Creation Process](https://about.gitlab.com/handbook/hiring/#vacancy-creation-process)
 1. Hire a candidate through the [hiring process](https://about.gitlab.com/handbook/hiring/#hiring-process)
 1. Send out and have [contracts](https://about.gitlab.com/handbook/contracts/#how-to-use) signed.
@@ -339,7 +341,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Save when done.
 Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
-##Offboarding
+## Offboarding
 
 - **Remove a team member from Sundial**<a name="sundial-removal"></a>
 1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
