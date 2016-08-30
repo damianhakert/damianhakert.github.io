@@ -78,7 +78,7 @@ Within 2 weeks of signing:
 
 ### Partner Landing Page
 - [ ] partner.com/GitLab landing page set up `partner`
-- [ ] Partner.com/GitLab landing page reviewed  @virtuacreative and `local language speaker`  
+- [ ] Partner.com/GitLab landing page reviewed  @marcia and `local language speaker`  
 - [ ] Bi-weekly call with partner set up @malessio
 
 ### Lead Management
