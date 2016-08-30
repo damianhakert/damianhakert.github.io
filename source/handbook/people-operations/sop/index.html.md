@@ -13,20 +13,8 @@ title: "People Operations Standard Operating Procedures"
 
 For more information about People Operations Policies please see [People Operations](https://about.gitlab.com/handbook/people-operations/). This page is dedicated toward how People Ops does what it does best.
 
-## People Ops Timeline
-
-1. [Vacancy Creation Process](https://about.gitlab.com/handbook/hiring/#vacancy-creation-process)
-1. Hire a candidate through the [hiring process](https://about.gitlab.com/handbook/hiring/#hiring-process)
-1. Send out and have [contracts](https://about.gitlab.com/handbook/contracts/#how-to-use) signed.
-1. If applicable, close the [vacancy](https://about.gitlab.com/handbook/hiring/#closing-a-vacancy)
-1. [Onboard](https://about.gitlab.com/handbook/general-onboarding/) the new team member.
-1. Repeat for all great prospective team members to join GitLab!
-
-## Methods and Tools for People Ops
-<a name="peopleops-methods"></a>
 
 ### Setting up new contracts
-<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
@@ -43,7 +31,7 @@ Follow these steps to send out a signature request.
 1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory.
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
-1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
+1. For GitLab Inc. agreements, add a required text box to Exhibit A, and a supplemental larger text box below for a comment that is not required.
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
