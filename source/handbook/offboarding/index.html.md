@@ -41,7 +41,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
-1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/#returning-property) for further details on that process.
+1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
    1. [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 1. [x] _not relevant_ Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
 1. [x] _not relevant_ People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue.
