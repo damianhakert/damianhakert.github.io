@@ -332,6 +332,10 @@
   }
 }
 
+.try-gitlab-ee {
+  border-bottom: 1px solid $landing-organization-color;
+}
+
 .idea-to-production {
   background-color: $color-primary-alt;
   padding: 100px 0 60px;
