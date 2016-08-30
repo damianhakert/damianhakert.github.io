@@ -260,7 +260,7 @@ follow the steps below:
 1. Add your own `title`, `date` and `link`.
 1. Visit <http://localhost:4567/press/releases/> and make sure it appears in
    the list.
-1. When ready, commit the changes, push to the repository and open an MR for
+1. When ready, commit the changes, push to the repository and open a MR for
    review.
 
 [frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
