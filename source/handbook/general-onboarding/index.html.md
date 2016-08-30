@@ -95,6 +95,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     >
     > Free shipping: [Enter free shipping code]
 
+1. [ ] People Ops: Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
 
@@ -176,7 +177,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: provide access to PagerDuty.
 
 #### FOR SERVICE ENGINEERING ONLY
-1. [ ] New team member: Go through SE onboarding https://about.gitlab.com/handbook/support/onboarding/ 
+1. [ ] New team member: Go through SE onboarding https://about.gitlab.com/handbook/support/onboarding/
 1. [ ] Patricio/Robert/Jacob V: Create GitLab.com admin account.
 1. [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
 1. [ ] Jose/Drew: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
