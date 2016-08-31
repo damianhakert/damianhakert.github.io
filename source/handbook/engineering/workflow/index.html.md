@@ -109,7 +109,7 @@ Subject labels are always colored blue and all-lowercase.
 
 Type labels are very important. They define what kind of issue this is. Every issue should have one or more. Examples of types are:
 
-Examples of type labels are `bug`, `feature proposal`, `security`, `bug`, `customer`, and `direction`.
+Examples of type labels are `bug`, `feature proposal`, `security`, `customer`, and `direction`.
 
 A number of type labels have a priority assigned to them, which automatically makes them float to the top, depending on their importance.
 
