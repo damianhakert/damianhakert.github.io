@@ -17,7 +17,7 @@ We have set the dates and locations for all the stops not he tour.
 
 Stay tuned for more on our stops near you.
 
-The highlight from last month was being present at LinuxCon North America for the 25th anniverasry of Linux. Amanda and Christian
+The highlight from last month was being present at LinuxCon North America for the 25th anniverasry of Linux. Amanda and Christian both spoke at the event. Upon reflectin on the event Amanda said, "The 25th Anniversary of Linux Gala was great to be a part of. Linux got me through college and several jobs, and it was neat to celebrate its success amongst other Linux professionals and even the creator of Linux himself."
 '/images/blogimages/amandalinuxcon.jpg'
 
 <!-- more -->
