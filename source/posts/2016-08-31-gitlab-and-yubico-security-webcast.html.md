@@ -12,14 +12,14 @@ twitter_image: '/images/tweets/gitlab-and-yubico-security-webcast.png'
 
 Git is distributed, meaning that people can maintain a copy of the source code. While Git’s distributed nature is what makes it so
 popular amongst developers, it is also what makes it a security concern to enterprises. The concern is that your source code is only
-as secure as the machine it’s been copied. Each of these devices could be a point of exposure to risk. We understand how important it
+as secure as the machine it’s been copied. Each of these devices could be a point of exposure. We understand how important it
 is to maintain the integrity of your source code.
 
 With the release of [GitLab 8.9][8.9] we announced that we partnered with [Yubico][youb-home] to help
 customers strengthen their authentication process with YubiKeys. YubiKeys are a single key providing universal 2nd factor
 authentication into an unlimited number of applications. After [our announcement][yub], we asked Yubico to join us on a webcast. In this
-webcast, we talked about common security threats and how you can use GitLab and Yubico to avoid information breach of your private data
-and to provide a secure Git repo that you can trust as a single source of truth.
+webcast, we talked about common security threats and how you can use GitLab and Yubico to protect your private data
+and maintain a secure Git repo as a single source of truth.
 
 <!-- more -->
 
