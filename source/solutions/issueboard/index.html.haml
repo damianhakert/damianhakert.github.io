@@ -174,14 +174,7 @@ extra_js:
                   .step-image
                     = image_tag "/images/issue-boards/step-5-illustration.png", class: "img-responsive"
 
-.page-container.try-gitlab-ee.js-try-gitlab-ee.text-center.animated
-  .container
-    %h1.page-headline.cta
-      Try GitLab Enterprise Edition risk-free for 30 days.
-    %h4.subheader.cta
-      No credit card required. Have questions?
-      %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
-    %a.btn.btn-lg.btn-red.btn-margin-top{ href: "/free-trial/" } Get Your Free Trial Today
+= partial "includes/features/try-gitlab-ee"
 
 .sticky-banner.js-sticky-banner.active
   .sticky-banner-content

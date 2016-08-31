@@ -20,17 +20,31 @@ Animated gifs are an awesome way of showing of features that need a little more 
 
 Gifs are used everywhere for a reason, but as you can read in the referenced article above, they are also expensive. Expensive in that a gif can quickly become a big file, which takes longer to load. To create great looking gifs that walk the line between file size and quality, some steps need be considered.
 
-## The Process
+## Quick and Easy
+
+The "quick and easy" process is for your everyday usage, where performance is not that important. It's the most efficient way of creating a gif.
 
 ### Step 1
 
-Show only what you need to. Not everything needs to be in there, its a glimpse.
+Show only what you need to. Not everything needs to be in there, its a glimpse at a single bug/feature. Keep the recorded area small and dedicated.
+
+### Step 2
+
+Use a dedicated app that instantly outputs a gif, see [Tools - All in one](#all-in-one).
+
+## Expert
+
+The "expert" process is for those cases where performance is important. It takes a little longer, but can pay off for situations such as important blog posts, extremely big gifs, and incredibly detailed gifs.
+
+### Step 1
+
+Show only what you need to. Not everything needs to be in there, its a glimpse at a single bug/feature. Keep the recorded area small and dedicated.
 
 ### Step 2
 
 > All my GIFs start as videos – [Andy Orsow](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
 
-Most of the time you will want to create your gifs from a video file. This can give you expert control over the output if you need it (e.g. motion blur can add additional proffesionalism). Video files will in most cases be created from a screen recording software, details can be found in the [Tools Section](#tools)
+If you want to create professional gifs, you want to start from a video file. This can give you expert control over the output if you need it (e.g. motion blur can add additional professionalism). Video files will in most cases be created from a screen recording software, details can be found in the [Tools Section](#tools)
 
 ### Step 3
 
@@ -44,11 +58,31 @@ Try to go for a minimum of 15 fps and see if the result is good enough with your
 
 ## Tools
 
-There are many different tools to record your screen or to create gifs. Use whichever tool you are comfortable with, but remember: "In order to create great looking gifs that walk the line between file size and quality a certain control over each step of [the process](#the-process) is preferred".
+There are many different tools to record your screen or to create gifs. Use whichever tool you are comfortable with, but remember: "In order to create great looking gifs that walk the line between file size and quality a certain control over each step of [the expert process](#expert) is preferred".
 
-The *main* tools featured in this article are all free to use.
+### All in one
 
-### Screen recording
+A few things are important in this section:
+
+- Screen region support (ability to create a gif off a small portion of the screen)
+- Cursor support (ability to include your cursor in the gif)
+- FPS support (ability to control the amount of frames per second of the outputted gif, important if you want to show some interaction detail)
+- Local saving of gif (uploading to a server should only be an option)
+
+#### Gifox (macOS)
+
+[Gifox](http://gifox.io/) is the absolute best option here, although a payed app, its reasonably priced ($2.99). It has support for all of the features, shortcuts and then some.
+
+Worthy of mentioning:
+
+- [Giphy capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) (free and a great option! If you don't want to spend money choose this one!)
+- [Licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
+
+#### FFCast + FFmpeg (Linux)
+
+[FFCast](https://github.com/lolilolicon/FFcast) is a command line tool that wraps around ffmpeg to capture screen regions in order to record it or capture it. Optionally this could be piped into gifify.
+
+### Screen Recording
 
 #### Quicktime (macOS)
 
@@ -57,10 +91,10 @@ On every Mac, Quicktime has already been installed. It features a nice screen re
 ![quicktime gif](/handbook/product/making-gifs/quicktime.gif)
 
 Worthy of mentioning:
+
 - [Screeny](https://itunes.apple.com/us/app/screeny/id440991524?mt=12) (free for now)
 - [Screenflow](http://www.telestream.net/screenflow/) (not free)
 - [Gif Brewery](http://gifbrewery.com/) (not free)
-- [licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
 - [ffscreencast](https://github.com/cytopia/ffscreencast) (CLI tool, only capture the whole screen)
 
 #### Camstudio (Windows)
@@ -73,7 +107,7 @@ Worthy of mentioning:
 
 ### Converting to Gif
 
-#### Gifify (command line tool)
+#### Gifify (CLI)
 
 [Gifify](https://github.com/vvo/gifify) is a command line tool and gives you the most complete set of options in order to convert your video files to gifs. It is probably the best free tool available, with the most control.
 
@@ -81,13 +115,16 @@ Example command:
 
 `gifify input.mov -o output.gif --resize 960:-1 --compress 0 --colors 50 --speed 1.05 --fps 15`
 
+Worthy of mentioning:
+
+- [Drop to Gif](http://mortenjust.github.io/droptogif/) (Great free open source option to just convert on macOS with a GUI!)
+- [Screengif](https://github.com/dergachev/screengif) (CLI similar to gifify)
+- [Gif Brewery](http://gifbrewery.com/) (macOS, not free)
+
 #### Convert video to gif online
 
 - [EZGif](http://ezgif.com/video-to-gif) (Pretty good results and provides some settings)
 - [Giphy Gifmaker](https://giphy.com/create/gifmaker) (You can keep your GIFs private if you have an account. Otherwise: "all of your GIF are belong to GIPHY")
-
-Worthy of mentioning:
-- [Gif Brewery](http://gifbrewery.com/) (macOS, not free)
 
 ## Relevant links
 

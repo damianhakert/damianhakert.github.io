@@ -119,6 +119,10 @@ There are 2 kind of production events that we track:
   - If we don't know the root cause, also state it and leave the issue open for followup.
   - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
 
+## On Call
+
+See the separate [on-call page](/handbook/on-call/).
+
 # Make GitLab.com settings the default
 
 As said in the [production engineer job description](jobs/production-engineer/index.html)

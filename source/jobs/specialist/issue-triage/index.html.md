@@ -5,8 +5,8 @@ title: "Issue Triage Specialist"
 
 ## Responsibilities
 
-* Triage issues on GitLab.com
-* Monitor discussions, responds in a timely fashion where appropriate (or
+* Triage issues on [our projects located in the gitlab-org group on GitLab.com](https://gitlab.com/gitlab-org/)
+* Monitor discussions in those issues, responds in a timely fashion where appropriate (or
   ensures relevant responders are “nudged” to respond)
 * Identify patterns or common issues reported by community
 * Fixes community-reported bugs when possible (approximately 20% of the time)
