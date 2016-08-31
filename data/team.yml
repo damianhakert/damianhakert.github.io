@@ -1469,6 +1469,17 @@
   story:  |
           Joining September 1st
 
+- name: S.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 1st
+
 - name: P.M.
   locality:
   country:
@@ -1479,3 +1490,36 @@
   gitlab:
   story:  |
           Joining September 15th
+
+- name: F.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 19th
+
+- name: J.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 26th
+
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 1st
