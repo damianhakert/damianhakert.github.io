@@ -17,7 +17,7 @@ is to maintain the integrity of your source code.
 
 With the release of [GitLab 8.9][8.9] we announced that we partnered with [Yubico][youb-home] to help
 customers strengthen their authentication process with YubiKeys. YubiKeys are a single key providing universal 2nd factor
-authentication into an unlimited number of applications. After [our announce][yub], we asked Yubico to join us on a webcast. In this
+authentication into an unlimited number of applications. After [our announcement][yub], we asked Yubico to join us on a webcast. In this
 webcast, we talked about common security threats and how you can use GitLab and Yubico to avoid information breach of your private data
 and to provide a secure Git repo that you can trust as a single source of truth.
 
@@ -26,10 +26,10 @@ and to provide a secure Git repo that you can trust as a single source of truth.
 ## In this Webcast
 
 - Top security threats
--  Inside look at how YubiKeys work
+- Inside look at how YubiKeys work
 - Demo of setting up and using a YubiKey with GitLab
 - Demo GitLab’s additional security capabilities beyond authentication
-- industry best practices for securing your Git repository
+- Industry best practices for securing your Git repository
 
 ## Recording & Slides
 
@@ -60,7 +60,7 @@ A [YubiKey][what-is] is a small hardware device that offers two-factor authentic
 {: .panel-heading}
 <div class="panel-body">
 From a security standpoint, push notifications and SMS codes (a form of [One-time Passwords][1-t-pass]) are all
-vulnerable to phishing attacks, and replay attacks. Getting a bit technical here, if you are using the U2F protocol
+vulnerable to phishing attacks and replay attacks. Getting a bit technical here, if you are using the U2F protocol
 with the YubiKey, a properly implemented U2F registration flow contains Origin (phishing protection!) information
 as well as TLS Channel Identification information (Man in the Middle attack protection). Finally, the
 challenge-response piece of the U2F protocol provides complete replay attack protection.
@@ -96,7 +96,7 @@ Of course there are many more than just nine. These were the ones that stuck out
 take a look at [InfoSec’s article on security best practices for Git users][post] and you can also check out
 the [security section][hand] of our employee handbook.
 
-1. Assign strong passwords and store in an encrypted value (e.g., [1Password][1-pass]).
+1. Assign strong passwords and store in an encrypted vault (e.g., [1Password][1-pass]).
 2. Never reuse your passwords across accounts.
 3. Ensure proper user identity by restricting the use of shared or system accounts.
 4. Enforce two-factor authentication.
