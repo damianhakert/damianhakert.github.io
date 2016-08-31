@@ -18,12 +18,12 @@ We have set the dates and locations for all the stops not he tour.
 Stay tuned for more on our stops near you.
 
 The highlight from last month was being present at LinuxCon North America for the 25th anniverasry of Linux. Amanda and Christian
-/images/blogimages/amandalinuxcon.jpg
+'/images/blogimages/amandalinuxcon.jpg'
 
 <!-- more -->
 
 ## North America
-- [Pacific Northwest PHP](http://www.pnwphp.com/), Sept 15-17th in Seattle, WA. Amanda will be giving two talks. Give Me a Rest on Sept 16 and If you Build it They Won’t Come on Sept 17th.
+- [Pacific Northwest PHP](http://www.pnwphp.com/), Sept 15-17th in Seattle, WA. Amanda will be giving two talks. "Give Me a Rest" on Sept 16 and "If you Build it They Won’t Come" on Sept 17th.
 - [Velocity NYC](http://conferences.oreilly.com/velocity/devops-web-performance-ny), Sept 19- 22nd in New York, NY. Eliran will be present to support our new partner Mesosphere.
 
 ## South America
@@ -34,8 +34,8 @@ The highlight from last month was being present at LinuxCon North America for th
 - [Hack the Hub w/ Women who Code Belfast](http://www.meetup.com/Hack-in-the-hub-with-Women-Who-Code-Nigma/), Sep 10 in Belfast, UK.
 - [Rails Girls Trinity Conference] (https://www.facebook.com/RailsGirlsTricity/), Sep 15th in Trinity, Poland.
 - [Rails Girls Rzeszow](http://railsgirls.com/rzeszow), Sep 15-16th in Rzeszow, Poland.
-- [Code Motion Warsaw](http://warsaw2016.codemotionworld.com/), Sep 17-18th in Warsaw, Poland. Ivan speaking- Breaking Bad with GitLab CI.
-- [EuRuKo](http://euruko2016.org/), Sep 23- 24th in Sofia, Bulgaria. Ivan speaking on Remote Internships for the Ruby Developers Organization. Douwe, Robert, ZJ will also be attending.
+- [Code Motion Warsaw](http://warsaw2016.codemotionworld.com/), Sep 17-18th in Warsaw, Poland. Ivan will be doing his talk: Breaking Bad with GitLab CI.
+- [EuRuKo](http://euruko2016.org/), Sep 23- 24th in Sofia, Bulgaria. Ivan is speaking on Remote Internships for the Ruby Developers Organization. Douwe, Robert, ZJ will also be attending.
 
 [team]: https://about.gitlab.com/team/
 [Amanda]: https://twitter.com/AmbassadorAwsum
