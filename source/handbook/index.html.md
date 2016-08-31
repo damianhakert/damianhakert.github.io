@@ -343,7 +343,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### User Communication Guidelines
 
-1. Keep conversations positive, friendly, real and productive while adding value.
+1. Keep conversations positive, friendly, real, and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
 1. There can be a fine line between healthy debate and incendiary reaction. Try to frame what you write to invite differing points of view without inflaming others. You don’t need to respond to every criticism or barb. Be careful and considerate.
 1. Answer questions, thank people even if it’s just a few words. Make it a two way conversation.
