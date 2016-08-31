@@ -34,7 +34,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
    - All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
    - An invoice template can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
-1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/#processing-changes).
+1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/sop/#processing-changes).
 
 ## General Benefits <a name="general-benefits"></a>
 

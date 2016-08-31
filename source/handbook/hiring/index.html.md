@@ -67,9 +67,10 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 `REMOTE ONLY GitLab - We're hiring production engineers, developers, UX designers , and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
-1. [RemoteBase](https://remotebase.io/)
+1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
+1. [Support Driven Jobs](http://jobs.supportdriven.com/) $150 for 30 days, $250	for 45 days + highlight
 
 
 ## Hiring Process
@@ -84,7 +85,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
 **Compensation is discussed at start and end, but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager (based on what had been discussed with the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the hiring manager can send a note (or ask People Ops to send a note) to the candidate explaining that the expectations are too far apart. If the expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions, and keeps the process flowing smoothly.
 
-**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but the CEO extends any offer depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
@@ -101,9 +102,10 @@ Be aware that the visibility of internal comments in Workable can be switched be
 Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
 1. **Technical interview (optional)**: As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
-1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant). The hiring manager should have [suggested an offer](#offer-authorization) internally at this stage.
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
-1. Make an **offer** (the CEO needs to authorize offers). This can be verbal, but should be followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and will extend an offer if he decides to hire the candidate. The hiring manager has [suggested an offer](#offer-authorization) internally at this stage.
+1. In case the CEO decides to make an **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. People Ops will draft a contract based upon the written offer that was extended.
 1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
 1. People Ops [starts the onboarding process](#move-to-onboarding).
 1. Hiring manager considers [closing the vacancy](#closing-vacancy).
@@ -289,7 +291,9 @@ To close a vacancy:
 
 1. Hiring manager to clear the pipeline of candidates in all stages of application. Consider adding tags to candidates who were interesting but were passed over in this hiring process. Adding tags makes it easier to find them in Workable later on if you are recruiting for the same or a similar position.
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
-1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
+1. Create a merge request, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
+
+If the position was posted on RemoteBase, People Ops should email hello@remotebase.io to remove the job posting.
 
 ## Underperformance
 <a name="underperformance"></a>

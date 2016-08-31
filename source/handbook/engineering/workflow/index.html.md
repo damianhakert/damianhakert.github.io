@@ -21,14 +21,20 @@ For the workflow that applies to everyone please see [PROCESS.md](https://gitlab
 to ship with the milestone that is has. If you are not able to do this,
 you have to communicate this early.
 In teams, the team is responsible for this (see below).
+1. You (and your team, if applicable) are responsible for the testing of a new
+feature or fix, especially right after it has been merged and packaged. Once a
+release candidate has been deploy in the staging environment, please verify
+that your changes work as intended. We have seen issues where bugs did not
+appear in development but showed in production (e.g. due to CE-EE merge
+issues).
 
 [priority-issues]: https://gitlab.com/groups/gitlab-org/issues?scope=all&sort=priority&state=opened&milestone_title=%23upcoming&assignee_id=0
 
 ## Working in Teams
 
 For larger issues or issues that contain many different moving parts,
-you'll be likely working in a team. This team will typically consist of a 
-[backend developer](https://about.gitlab.com/jobs/developer/), a 
+you'll be likely working in a team. This team will typically consist of a
+[backend developer](https://about.gitlab.com/jobs/developer/), a
 [frontend developer](https://about.gitlab.com/jobs/frontend-engineer/), a
 [UX designer](https://about.gitlab.com/jobs/ux-designer/) and a
 [product manager](https://about.gitlab.com/jobs/product-manager/).
@@ -51,8 +57,8 @@ priority of items are defined under labels in the repository, but you are able
 to sort by priority.
 
 After sorting by priority, choose something that you’re able to tackle and falls
-under your responsibility. That means that if you’re a frontend developer, 
-you work on something with the label `Frontend`. 
+under your responsibility. That means that if you’re a frontend developer,
+you work on something with the label `Frontend`.
 
 To filter very precisely, you could filter all issues for:
 
@@ -61,14 +67,14 @@ To filter very precisely, you could filter all issues for:
 - Label: Your label of choice. For instance `Backend`, `Frontend`, or `CI`
 - Sort by priority
 
-[Use this link to quickly set the above parameters][priority-issues]. You'll 
+[Use this link to quickly set the above parameters][priority-issues]. You'll
 still need to filter by the label for your own team.
 
 If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
 
 ## Labelling issues
 
-To allow for asynchronous issue handling, we use milestones and labels. 
+To allow for asynchronous issue handling, we use milestones and labels.
 Leads and product managers handle most of the scheduling into milestones. Labelling is a task for everyone.
 
 Most issues will have labels for at least one of the following:
@@ -87,7 +93,7 @@ All labels, their meaning and priority are defined on the
 
 ### Team labels (`Backend`, `Frontend`, `CI`, etc.)
 
-Team labels specify what team is responsible for this issue. 
+Team labels specify what team is responsible for this issue.
 Assigning a team label makes sure issues get the attention of the appropriate people.
 
 The current team labels are `Backend`, `Frontend`, `CI`, `Performance`, `UX`, `Packaging`, `Documentation`, and `Release`.
@@ -97,8 +103,8 @@ Team labels are always colored aqua, and are capitalized so that they show up as
 
 ### Subject labels (`wiki`, `container registry`, etc.)
 
-Subject labels are labels that define what area or feature of GitLab this issue hits. 
-They are not always necessary, but very convenient. 
+Subject labels are labels that define what area or feature of GitLab this issue hits.
+They are not always necessary, but very convenient.
 If you are an expert in a particular area, it makes it easier to find issues to work on.
 
 Examples of subject labels are `api`, `wiki`, `issues`, `merge request`, `labels`, and `container registry`.
@@ -109,7 +115,7 @@ Subject labels are always colored blue and all-lowercase.
 
 Type labels are very important. They define what kind of issue this is. Every issue should have one or more. Examples of types are:
 
-Examples of type labels are `bug`, `feature proposal`, `security`, `bug`, `customer`, and `direction`.
+Examples of type labels are `bug`, `feature proposal`, `security`, `customer`, and `direction`.
 
 A number of type labels have a priority assigned to them, which automatically makes them float to the top, depending on their importance.
 
@@ -118,8 +124,8 @@ The descriptions on the [labels page][labels-page] explain what falls under each
 
 ### Priority labels
 
-To manually assign priority to specific features, there are labels such as `P1`, `P2`, `P3`. 
-These are assigned by leads and product to indicate overruling priority, and are to be used carefully. 
+To manually assign priority to specific features, there are labels such as `P1`, `P2`, `P3`.
+These are assigned by leads and product to indicate overruling priority, and are to be used carefully.
 
 Right now, these are in use:
 
@@ -127,8 +133,8 @@ Right now, these are in use:
 - `P2`: Must. Must be finished this milestone
 - `P3`: Should. Should be finished this milestone.
 
-All other issues are nice to land in a milestone, but not necessarily expected to do so. 
-They will be naturally ordered by the prioritized type labels. 
+All other issues are nice to land in a milestone, but not necessarily expected to do so.
+They will be naturally ordered by the prioritized type labels.
 This prevents ‘nice to have’ features from being prioritised over fixing bugs, which might be less fun, but is often more important.
 
 ## Scheduling issues
@@ -168,12 +174,12 @@ Any scheduled issue should have a team label assigned, and at least one type lab
 
 Only fleshed-out issues can be scheduled. If an issue is vague or has unclear requirements, we can not schedule it.
 
-To request a scheduling of an issue, ask the responsible lead. 
-You can find the leads on the team page, and in the descriptions of the team labels. 
+To request a scheduling of an issue, ask the responsible lead.
+You can find the leads on the team page, and in the descriptions of the team labels.
 For (major) feature requests, ask the relevant product manager. Right now this is either Mark (for CI) or Job.
 
-We have much more requests for great features than we have capacity to work on. 
-There is a good chance we’ll not be able to work on something. 
+We have much more requests for great features than we have capacity to work on.
+There is a good chance we’ll not be able to work on something.
 Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
 
 ### Scheduling Committee

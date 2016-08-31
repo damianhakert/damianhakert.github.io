@@ -366,24 +366,6 @@
   }
 }
 
-.try-gitlab-ee {
-  border-top: 1px solid $navbar-default-border;
-  padding-top: 120px;
-
-  .page-headline {
-    color: $color-primary;
-  }
-
-  .subheader {
-    color: $color-gray;
-
-    a {
-      color: $color-gray;
-      text-decoration: underline;
-    }
-  }
-}
-
 .sticky-banner {
   display: none;
   position: fixed;

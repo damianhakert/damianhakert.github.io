@@ -24,6 +24,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] Slack
    1. [ ] Robert/Jacob V/Ernst disable team member in [Slack](https://gitlab.slack.com/admin).
    1. [x] _not relevant_ New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
+   1. [x] _not relevant_ Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
 1. [ ] People Ops Information
    1. [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
    1. [ ] People Ops: Mark former team member as terminated in BambooHR. Use the date mentioned in this issue as final date of employment / contract.
@@ -40,7 +41,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
-1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/#returning-property) for further details on that process.
+1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
    1. [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 1. [x] _not relevant_ Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
 1. [x] _not relevant_ People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue.
@@ -126,7 +127,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: remove from support team call
-1. [ ] Pablo/Infrastructure Team: Remove user from the following services: 
+1. [ ] Pablo/Infrastructure Team: Remove user from the following services:
    1. [ ] Chef sysadmin account - [More info](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
    1. [ ] Azure account
    1. [ ] Remove Digital Ocean droplet/Account access
@@ -168,7 +169,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [ ] Manager: Remove team member from TriNet and HR Savvy as an admin.
 * [x] _not relevant, already handled_ People Ops: Invite team member to People Ops Confidential channel in Slack.
 
-### FOR CORE TEAM MEMBERS ONLY 
+### FOR CORE TEAM MEMBERS ONLY
 
 1.  [ ] Robert/Jacob V/Ernst: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
 2.  [x] _not relevant, People Ops: Have member sign NDA.

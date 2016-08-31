@@ -425,6 +425,23 @@ iframe {
   }
 }
 
+.try-gitlab-ee {
+  border-top: 1px solid $navbar-default-border;
+
+  .page-headline {
+    color: $color-primary;
+  }
+
+  .subheader {
+    color: $color-gray;
+
+    a {
+      color: $color-gray;
+      text-decoration: underline;
+    }
+  }
+}
+
 // scss-lint:disable SelectorFormat
 .a2a_default_style {
   margin-top: 10px;

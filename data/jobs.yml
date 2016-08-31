@@ -28,11 +28,6 @@
   apply: https://gitlab.workable.com/jobs/317102/candidates/new
   open: true
 
-- title: "Content Marketing Manager"
-  description: /jobs/content-marketing-manager/
-  apply:
-  open: false
-
 - title: "Director of Global Account Management"
   description: /jobs/dir-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
@@ -48,25 +43,15 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
+- title: "Global Recruiter"
+  description: /jobs/global-recruiter/
+  apply: https://gitlab.workable.com/jobs/269339/candidates/new
+  open: true  
+
 - title: "Senior Accountant (part time)"
   description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
-
-- title: "Marketing Operations Manager"
-  description: /jobs/marketing-operations-manager/
-  apply:
-  open: false
-
-- title: "People Operations Coordinator"
-  description: /jobs/people-ops-coordinator/
-  apply:
-  open: false
-
-- title: "Sr. Director of People Operations"
-  description: /jobs/senior-director-of-people-operations/
-  apply:
-  open: false
 
 - title: "Product Manager"
   description: /jobs/product-manager
@@ -147,9 +132,8 @@
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
   open: true
-  
+
 - title: "Issue Triage Specialist"
   description: /jobs/specialist/issue-triage/
   apply: https://gitlab.workable.com/jobs/307215/candidates/new
   open: true
-
