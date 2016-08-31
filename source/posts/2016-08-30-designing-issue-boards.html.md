@@ -50,6 +50,3 @@ The design, development, and product teams all worked closely throughout the cre
 ## What's next
 
 The [GitLab Issue Board](/solutions/issueboard) was created as a flexible tool that can be used for various workflows and tasks. We lean towards light-weight, flexible implementations so we can ship quickly, see real use cases, and make informed iterations. We are super excited to [continue working](https://gitlab.com/gitlab-org/gitlab-ce/issues/21365) on Issue Boards in the upcoming releases; from multiple and cross-project boards to searching through all lists and creating an issue directly from the board view. If you have further ideas for future improvements, let us know by [making an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/new?issue)!
-
-
-
