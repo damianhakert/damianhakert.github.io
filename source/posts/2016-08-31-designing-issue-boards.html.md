@@ -8,7 +8,7 @@ description: 'Feature Highlight: Learn how the UX team worked together on the cr
 twitter_image: '/images/tweets/designing-issue-boards.png'
 ---
 
-Accurate planning and coordination of each release at GitLab is critical to shipping useful features on time. In order to improve our planning process, not only ourselves but also for everyone who uses GitLab, we took a look at our existing features that help teams organize issues. From here, we determined that our current [Milestone Board](/2016/08/05/feature-highlight-set-dates-for-issues/#milestones) was not powerful enough for larger teams or more complex projects. The team then began to brainstorm ideas for designing and implementing a new type of board that allows users to visually plan issues.
+Accurate planning and coordination of each release at GitLab is critical to shipping useful features on time.In order to improve our planning process, not only ourselves but also for everyone who uses GitLab, we took a look at our existing features that help teams organize issues. From here, we determined that our current [Milestone Board](/2016/08/05/feature-highlight-set-dates-for-issues/#milestones) was not powerful enough for larger teams or more complex projects. The team then began to brainstorm ideas for designing and implementing a new type of board that allows users to visually plan issues.
 
 <!--more-->
 
@@ -50,3 +50,7 @@ The design, development, and product teams all worked closely throughout the cre
 ## What's next
 
 The [GitLab Issue Board](/solutions/issueboard) was created as a flexible tool that can be used for various workflows and tasks. We lean towards light-weight, flexible implementations so we can ship quickly, see real use cases, and make informed iterations. We are super excited to [continue working](https://gitlab.com/gitlab-org/gitlab-ce/issues/21365) on Issue Boards in the upcoming releases; from multiple and cross-project boards to searching through all lists and creating an issue directly from the board view. If you have further ideas for future improvements, let us know by [making an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/new?issue)!
+
+## Join our webcast 
+If you want to see a live demo of the Issue Board and see some of the other great features in [GitLab 8.11](/2016/08/22/gitlab-8-11-released/), join our webcast on September 1st. [Register now](https://page.gitlab.com/IssueBoardWebcast_LandingPage.html).  
+
