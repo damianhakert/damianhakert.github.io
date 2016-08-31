@@ -75,7 +75,7 @@ and makes our work more fulfilling. We think of how we can make the company bett
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
-1. **Collaboration**: Helping others is a priority, also when it is not related to the goals that you are trying to achieve. You are expected to ask others for
+1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
 help and advise. Anyone can chime in on any subject, including people that don't work at GitLab. The person that has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
