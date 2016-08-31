@@ -53,11 +53,6 @@
   apply: https://gitlab.workable.com/jobs/269339/candidates/new
   open: true  
 
-- title: "Senior Accountant (part time)"
-  description: /jobs/senior-accountant/
-  apply: https://gitlab.workable.com/jobs/260762/candidates/new
-  open: true
-
 - title: "Marketing Operations Manager"
   description: /jobs/marketing-operations-manager/
   apply:
