@@ -231,15 +231,15 @@ The following quote metrics are available:
  * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
-1. Create an Opportunity for an Add-on or Renewal
-1. Once an opportunity is created click on New Quote button within the opportunity
-1. Since this is a returning customer, sales rep would see the following screen
+1. Create an Opportunity for an Add-on or Renewal.  If a cancellation, click on Oportunity they want to cancel.
+1. Click on New Quote button within the opportunity
+1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
-#### New Subscription for the account
- * Amend existing subscription for this billing account
- * Renew existing subscription for this billing account
- * Cancel existing subscription for this billing account
+#### Updating Subscription for the account
+1. Amend existing subscription for this billing account
+2. Renew existing subscription for this billing account
+3. Cancel existing subscription for this billing account
 
 ##### New Subscription for the account
 1. This will allow the Sales rep to create a new subscription for the existing billing account.
@@ -250,6 +250,13 @@ The following quote metrics are available:
 1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
+
+##### Cancel existing subscription for the billing account
+1. This process is used to cancel an existing subscription
+1. Choosing “Canel existing subscription for billing account”,
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Click the subscription for performing a cancellation and hit on Next button
+1. Select cancellation date and click Next Button.
 
 #### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
