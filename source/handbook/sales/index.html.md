@@ -261,19 +261,10 @@ The following quote metrics are available:
 1. Add product Ammendment – Sales rep can add a new product from the product selector page
 1. Update Product Amendment – Sales rep can update the existing product of the existing selected product
  * Note: Do not change the Terms and conditions unless you are performing a terms and conditions amendment(except for start date).
-
-##### Let’s take an Example – Let’s say a sales rep is performing an upgrade to a customer from Basic to Standard product
-This will include 3 steps –
-1. Set the Start date
-1. Remove the basic product
-1. Add the Standard product
- * Hit on Save
-
-##### Let's take another Example - Let's say a customer once to add more seats to their license.  
-This will include 2 steps -
-1. Set the start date
-1. Change the quantity field to reflect the new total number of seats
- * Hit on Save
+       Let's take an example - Let's say a customer once to add more seats to their license.  
+       1. Set the start date
+       1. Change the quantity field to reflect the new total number of seats
+         * Hit on Save
 
 Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 Send it to the customer - only if there is no record of a signed quote. If customer purchased online, they agreed to our terms and condition, so no need to have them sign a quote.  It is ideal though.
