@@ -214,6 +214,9 @@ Here is also a list of resources that you may find useful to include on your lan
 * [Gitlab on Twitter](https://twitter.com/gitlab)
 
 
-## Authorized Reseller Logos
+## Authorised Reseller Logos
 {: #Logo}
-You should feel free to use our Authorized Reseller Logo on your materials where appropriate. These logos are available on the [resellers project](https://gitlab.com/gitlab-com/resellers/README.md).
+The GitLab Authorised reseller logo should help tell your prospects and customers that we are working with you. 
+You should use our Authorized Reseller Logo on your materials where appropriate and in accordance with our brand guidlines. 
+<img src="https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/wordmark/gitlab-authorised-reseller-logo-rgb.png" size="25%"><br>
+<img src="https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/wordmark/gitlab-authorised-reseller-logo-stacked-rgb.png" size="25%">
