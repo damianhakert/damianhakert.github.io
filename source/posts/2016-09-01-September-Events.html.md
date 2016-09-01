@@ -1,5 +1,5 @@
 ---
-title: “September Events"
+title: "September Events"
 date: 2016-09-01 08:00
 author: Emily Kyle
 author_twitter: emilylucie
@@ -35,7 +35,7 @@ and even the creator of Linux himself._
 
 - [Pacific Northwest PHP](http://www.pnwphp.com/), September 15-17 in
 Seattle, WA. [Amanda] will be giving two talks: "Give Me a Rest",
-on Sept 16, and "If you Build it They Won’t Come", on Sept 17th.
+on September 16, and "If you Build it They Won’t Come", on September 17th.
 - [Velocity NYC](http://conferences.oreilly.com/velocity/devops-web-performance-ny),
 September 19-22 in New York, NY. [Eliran] will be present to support our new partner,
 Mesosphere.
