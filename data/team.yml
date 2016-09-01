@@ -130,7 +130,8 @@
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
               <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-              Anti-spam expert
+              <li>LFS <a href="/jobs/expert/">expert</a></li>
+              <li>Anti-spam expert</li>
   story:  |
           Patricio is from Quito, Ecuador and he studied Computer Science in Stuttgart, Germany, where he lived for 7 years.
           He is very passionate about open source software and has been working with Ruby on Rails for the past 4 years. He also likes
@@ -175,8 +176,11 @@
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
               <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
+              <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
               <li>Docker <a href="/jobs/expert/">expert</a></li>
               <li>LFS <a href="/jobs/expert/">expert</a></li>
+              <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
+              <li>Jenkins <a href="/jobs/expert/">expert</a></li>
   story:  |
           Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge.
           He's focusing lately on security principles of mobile platforms and the "container revolution". In his spare time he likes to run, cycle and play good games, although not all at the same time.
@@ -406,7 +410,6 @@
              <li>On-call hero!</li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
-             <li><a href="https://about.gitlab.com/handbook/support/">Support Team Lead</a></li>
   story:  |
           Having worked with the Guatemalan Government and as an IT Manager at a Bio Lab for too long he launched a
           local startup to introduce tech labs into traditional businesses. Jose has worked with remote teams in Canada
@@ -444,7 +447,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
-              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
+              <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douglas is a software developer that fell in love with Ruby since 2007 and the open-source community surrounding it and has been working with Ruby on Rails for the past 3 years. Before joining GitLab, he was working remotely for nonprofit organization based in Brazil. He enjoys to improve people's lives with the product he is working on, so GitLab was a perfect match to him. In his free time, he loves to drink a good beer and, spend time with his friends.
 
@@ -536,6 +539,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
+              <li><a href="https://gitlab.com/help/user/project/slash_commands.md">Slash commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
           and enjoys working on complete features from back to front. When not
@@ -568,7 +572,6 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
@@ -660,7 +663,7 @@
   gitlab: alfredo1
   maintains:  |
                 <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
-                <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels</li>
+                <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
           Alfredo is a multi-disciplined web veteran specializing in front-end development and web design.
           In the past, he also dabbled in back-end, prototyping and graphic design.
@@ -777,7 +780,6 @@
   maintains:  |
               <li>Packaging specialist</li>
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> specialist</li>
-              <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           DJ grew up on a farm in the Canadian Prairies where it is common to have to fix your own tools and equipment. This didn't change when computers became the tools, and he discovered the joy of development while pursuing a career in IT. He has been working as a developer at various sized companies since 2008 and is excited to be able to finally work in the open source community with GitLab.
@@ -816,6 +818,7 @@
   gitlab: timothyandrew
   maintains:  |
                <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
+               <li>Branch permissions expert</li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -910,6 +913,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Merge request coach</li>
+              <li>Merge conflict expert</li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
@@ -983,6 +987,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
+              <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
