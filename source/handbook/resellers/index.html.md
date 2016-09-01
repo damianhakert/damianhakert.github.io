@@ -67,7 +67,7 @@ The steps to closing a deal are:
 
 GitLab requires lead registration. This process is to let us know which deals you are working on so that we can plan accordingly, and also helps prevent channel conflict.
 
-GitLab will not accept an order, give a quote, issue an eval license, nor pay commissions if a deal has not been registered.
+GitLab will not accept an order, give a quote, issue an evaluation license, nor pay commissions if a deal has not been registered.
 
 
 The link to the deal registration form is located in the [reseller project](https://gitlab.com/gitlab-com/resellers/). Please do not share the URL of the deal registration form with anyone outside your company.
@@ -226,7 +226,7 @@ Here is also a list of resources that you may find useful to include on your lan
 - [Gitlab on Twitter](https://twitter.com/gitlab)
 - [GitLab Team Handbook](https://about.gitlab.com/handbook/)
 
-## Authorised Reseller Logos
+## Authorized Reseller Logos
 {: #Logo}
 
 The GitLab Authorized reseller logo should help tell your prospects and customers that we are working with you.
