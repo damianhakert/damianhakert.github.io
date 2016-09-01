@@ -253,6 +253,9 @@ The following quote metrics are available:
 
 ##### Cancel existing subscription for the billing account
 1. This process is used to cancel an existing subscription
+1. Click on Opportunity to cancel.
+1. Click on New Quote
+1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
 1. Choosing “Canel existing subscription for billing account”,
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click the subscription for performing a cancellation and hit on Next button
@@ -307,17 +310,6 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Send it to the customer, via Sertifi button within Zquote screen
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 1. Close Won the opportunity
-
-##### Cancel existing subscription for the billing account
-1. This process is used to perform Cancellation of an existing subscription;
-1. Choosing “Cancel existing subscription for billing account”, will allow sales rep to perform cancellation to an existing subscription;
-1. Clicking on the this radio button will list all subscriptions that are tied to the customer
-1. Set the Start Date(Contract effective date) of when the customer have request for cancellation
-1. Choose a Cancellation Effective date
-1. Hit on next button
-1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
-1. Send it to the customer
-1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 
 ### Creating a Quote for a Partner <a name="resellerQuote"></a>
 A reseller quote has a few different things than a regular quote:
