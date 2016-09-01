@@ -5,7 +5,7 @@ author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/events/canada.jpg'
 description: "Watch out for our September events roundup."
-twitter_image: '/images/tweets/september-events.png'
+twitter_image: '/images/tweets/september-events-1.png'
 ---
 
 September will be quite a busy month for us. Aside from keeping busy with all the events happening this month, we are also hard at work planning our world tour and user conference.
