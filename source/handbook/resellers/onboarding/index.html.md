@@ -77,7 +77,7 @@ Within 2 weeks of signing:
 - [ ] Partner technical team training coordinated (or scheduled) by @ernstvn
 
 ### Partner Landing Page
-- [ ] partner.com/GitLab landing page set up `partner`
+- [ ] partner.com/GitLab landing page set up per guidlines in the [Resellers Handbook](/handbook/resellers/#landing-page) `partner`
 - [ ] Partner.com/GitLab landing page reviewed  @marcia and `local language speaker`  
 - [ ] Bi-weekly call with partner set up @malessio
 
