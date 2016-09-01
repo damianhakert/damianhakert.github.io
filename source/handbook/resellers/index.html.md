@@ -152,7 +152,7 @@ CA 94103 USA
 </div>
 
 <div class="panel panel-info">
-##### All other resellers
+##### Resellers outside North America
 {: .panel-heading #world-resellers}
 <div class="panel-body">
 **Rabobank** <br>
