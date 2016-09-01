@@ -192,8 +192,31 @@ At GitLab, we regularly review our leads for activity. In order to  make that **
 
 If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
 
+<a name="LandingPage" />
+## GitLab Landing Page guidelines
+
+Your website will need to have a landing page with information about GitLab.  You can see what others have done from the [Resellers page](about.gitlab.com/resellers)
+- We would prefer your landing page to be at `yoururl.com/GitLab` where this is not possible, we would ask you to set a redirect for that URL to the actual one.
+- We highly encourage your landing page to be in local language.  There are plenty of English language resources on GitLab, so providing them in the native tounge of your customers adds value.
+- You should use our [Authorised Reseller Logo](Logos) on your page, and have it link back to us at http://about.gitlab.com/resellers
+- There needs to be a “What is Gitlab?” paragraph
+- Where ever you mention a GitLab product or feature, there should be a link back to our coresponding item on about.gitlab.com
+
+Here is also a list of resources that you may find useful to include on your landing page.
+* [What is GitLab](https://about.gitlab.com)
+* [What is GitLab EE](https://about.gitlab.com/features/#enterprise)
+* [CE vs EE comparison](https://about.gitlab.com/features/#compare)
+* [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+* [GitLab Geo](http://docs.gitlab.com/ee/gitlab-geo/README.html)
+* [Pricing](https://about.gitlab.com/pricing/)
+* [GitLab Blog](https://about.gitlab.com/blog/)
+* [GitLab Culture](https://about.gitlab.com/culture/)
+* [Gitlab on Twitter](https://twitter.com/gitlab)
 
 
+
+
+<a name="Logos" />
 ## Authorized Reseller Logos
 
 You should feel free to use our Authorized Reseller Logo on your materials where appropriate. These logos are available on the [resellers project](https://gitlab.com/gitlab-com/resellers/README.md).
