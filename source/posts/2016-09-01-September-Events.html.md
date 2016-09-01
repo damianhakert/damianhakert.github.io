@@ -3,8 +3,9 @@ title: “September Events"
 date: 2016-09-01 08:00
 author: Emily Kyle
 author_twitter: emilylucie
-image_title: '/images/blogimages/canada.jpg'
+image_title: '/images/blogimages/events/canada.jpg'
 description: "Watch out for our September events roundup."
+twitter_image: '/images/tweets/september-events.png'
 ---
 
 September will be quite a busy month for us. Aside from keeping busy with all the events happening this month, we are also hard at work planning our world tour and user conference.
@@ -28,7 +29,7 @@ Linux got me through college and several jobs, and it was
 neat to celebrate its success amongst other Linux professionals
 and even the creator of Linux himself._
 
-![Amanda - LinuxCon](/images/blogimages/amandalinuxcon.jpg)
+![Amanda - LinuxCon](/images/blogimages/events/amandalinuxcon.jpg)
 
 ## North America
 
