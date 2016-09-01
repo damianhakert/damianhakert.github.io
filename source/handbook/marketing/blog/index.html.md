@@ -94,6 +94,70 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 
 **All** blog posts should always have an **author name**. When applicable, add a section "Acknowledgments" to the end of the post to thank contributors.
 
+### Types of Blog Posts
+
+In our [Blog], you will find 5 types of blog posts:
+
+#### Release Posts
+
+Every 22nd of each month, GitLab promotes a new release of our main instances:
+[GitLab CE] and [GitLab EE]. GitLab.com runs on GitLab EE, therefore, it gets the same
+enhancement GitLab EE does. We use our blog to communicate the new features,
+upgrades, and alterations. These posts are created by the Product Team or by the
+developers themselves, and they're reviewed by a lot of team members are involved.
+
+Release posts target the entire GitLab community, and they are usually cheered by
+the entire community. They are special posts, we love them, and we hope everyone
+love them too.
+
+#### Team Member's Posts
+
+Whenever we have something interesting to talk about, we encourage our own team
+members to write their stories. And there are a lot of awesome ones! Even if you are not a
+writer, you are very welcome to write, and our reviewers will be happy to help
+you with the language, the technical aspects, the markup, the concepts and whatever
+else you might need.
+
+If you are part of the [GitLab Team], please contribute! The review process is simple,
+please take a look at the [General Reviews] section below.
+
+#### Community Posts
+
+Community posts are also known as **guest** posts. If you are not a GitLab Team member,
+you're also very welcome to write for us.
+
+There are a few aspects to consider, described on the section [Community Writers] below.
+
+If you are a GitLab happy customer or a happy user, we'll be delighted to see your post in
+our Blog! And to make you even happier, we compensate you for your contributions, under
+specific circumstances.
+
+If you want to describe your own product, and how to use it with GitLab, or, if you are a GitLab partner, we'll be happy to see your post too, but we have specific procedures for
+[Partner Posts].
+
+If you are looking for examples, check the post "[Building an iOS app with GitLab CI]",
+or the post "[Publishing your website on GitLab.com with GitLab Pages]", or "[Let's Encrypt for GitLab Pages]".
+
+#### Partner Posts
+
+These posts are specific for community members that want to write about their own tools,
+features, and software integrations with GitLab. They can be written by the owners,
+executives or any team members of those companies, and will be reviewed by the GitLab
+Blog Team.
+
+For instance, we've had the post on [Integrating GitLab with Microsoft Azure]. It was
+written by one of Microsoft's employees, then reviewed and polished by our own Technical
+Writers.
+
+#### Ghost Posts
+
+Ghost posts are part of a special category of posts, written by ghostwriters contracted by
+GitLab with this specific purpose. They are based on interviews with GitLab Executives,
+reviewed by GitLab Team members, and approved by the GitLab Executive member assigned as
+author of the post.
+
+Check the section [Ghost Writers] below for more details.
+
 ### Publishing process for GitLab Team members
 
 1. Choose a [topic](#blog-content)
