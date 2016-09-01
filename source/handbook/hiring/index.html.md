@@ -67,7 +67,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 `REMOTE ONLY GitLab - We're hiring production engineers, developers, UX designers , and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
-1. [RemoteBase](https://remotebase.io/) ($50 per position per month, job descriptions are synced directly to our respective job description sites)
+1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 1. [Support Driven Jobs](http://jobs.supportdriven.com/) $150 for 30 days, $250	for 45 days + highlight
