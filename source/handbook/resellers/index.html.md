@@ -77,7 +77,7 @@ GitLab requires lead registration. This process is to let us know which deals yo
 GitLab will not accept an order, give a quote, issue an eval license, nor pay commissions if a deal has not been registered.  
 
 
-The link to the deal registration form is located in the [reseller project](https://gitlab.com/gitlab-com/resellers/README.md). Please do not share the URL of the deal registration form with anyone outside your company.  
+The link to the deal registration form is located in the [reseller project](https://gitlab.com/gitlab-com/resellers/). Please do not share the URL of the deal registration form with anyone outside your company.  
 
 When you complete the form, we get notified and will do the following:  
 
@@ -185,7 +185,7 @@ At GitLab, we regularly review our leads for activity. In order to  make that **
 
 ### To use
 
-- When replying to leads, BCC the SalesForce address that is listed in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/README.md).
+- When replying to leads, BCC the SalesForce address that is listed in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
 - This will create an activity record on the contact, lead, account, and opportunity records that match the people on the to: and cc: lines.   
 - This will show up on the Lead Activity report, and make everyone happy that the leads we are referring to you are showing activity.
 - When SFDC communities are eventually turned on, you will be able to see all of this activity too.  
@@ -216,7 +216,6 @@ Here is also a list of resources that you may find useful to include on your lan
 
 ## Authorised Reseller Logos
 {: #Logo}
-The GitLab Authorised reseller logo should help tell your prospects and customers that we are working with you. 
-You should use our Authorized Reseller Logo on your materials where appropriate and in accordance with our brand guidlines. 
-<img src="https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/wordmark/gitlab-authorised-reseller-logo-rgb.png" size="25%"><br>
-<img src="https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/wordmark/gitlab-authorised-reseller-logo-stacked-rgb.png" size="25%">
+The GitLab Authorised reseller logo should help tell your prospects and customers that we are working with you. <br>
+You should use our Authorized Reseller Logo on your materials where appropriate and in accordance with our brand guidlines. <br>
+The logos are avalable in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/)
