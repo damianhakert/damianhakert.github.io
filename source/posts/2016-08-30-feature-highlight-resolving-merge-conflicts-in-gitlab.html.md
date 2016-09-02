@@ -4,6 +4,7 @@ author: Sean McGivern
 author_twitter: mcgivernsa
 categories: GitLab
 image_title: '/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png'
+twitter_image: '/images/tweets/feature-highlight-resolving-merge-conflicts-in-gitlab.png'
 description:
 ---
 
