@@ -18,7 +18,7 @@ title: Product
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
 
-With every release of GitLab, we want to achieve the each of the following
+With every release of GitLab, we want to achieve each of the following
 goals.
 
 1. Improve GitLab's existing tools
@@ -138,6 +138,30 @@ certain behaviors.
 
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
+
+## Alignment
+
+Balancing our great ambition with our dedication to customer success is tough. Add in a growing number of dedicated teams focusing on areas of the product, and it becomes challenging to make sure everything we work on is truly the right thing to work on, right now. To help with that, it's good to keep a few things in mind. To ask a few questions to keep us all aligned.
+
+At a high level, you can think of aligning along these dimensions (not necessarily in priority order):
+
+* Align with company top projects
+* Align with company vision
+* Align with business objectives (profit, i.e. EE)
+* Align with team/project vision
+* Align with team/project top priorities
+* Align with developer experience
+* Align with customer demands
+
+To make it concrete with an example, the CI/CD team might ask:
+
+* What else is needed for the idea-to-production vision? Are there other APIs needed for ChatOps integration? Can we trigger manual actions via API? [Environment-specific variables](https://gitlab.com/gitlab-org/gitlab-ce/issues/20367), [activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992)
+* What moves us towards automatic deploys of `gitlab-ce`?
+* What moves the [CI/CD vision](https://about.gitlab.com/direction/cicd/) forward?
+* Can we polish the existing feature set? (e.g. [#21126](https://gitlab.com/gitlab-org/gitlab-ce/issues/21126), [#18178](https://gitlab.com/gitlab-org/gitlab-ce/issues/18178), [Show builds in context of pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/20863), [#5983](https://gitlab.com/gitlab-org/gitlab-ce/issues/5983), [#3976](https://gitlab.com/gitlab-org/gitlab-ce/issues/3976))
+* Can we speed up CI/CD pipelines? (e.g. sticky runners, [automatic parallelization](https://gitlab.com/gitlab-org/gitlab-ce/issues/21480))
+* What can we do to make customers happy? ([list](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=✓&label_name%5B%5D=CI&label_name%5B%5D=customer))
+* What can we do to ship EE features for CI? (e.g. [gitlab-org/gitlab-ee#933](https://gitlab.com/gitlab-org/gitlab-ee/issues/933))
 
 ## CI/CD<a name="cicd"></a>
 
