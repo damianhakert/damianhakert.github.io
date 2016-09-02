@@ -154,113 +154,55 @@ make it work in unpredictable ways.
 As a Product Manager, you are expected to act as the reference for everything
 related to your area of responsibilities.
 
-Everyone has opinions about the product, and all opinions matter and must be heard.
-Our great company culture empowers any employee to take decisions regarding
-existing or upcoming features. However when it's time to make a decision
-regarding the direction of the product, it's your responsibility as Product
-Manager to take the lead.
+Everyone has opinions about the product, and all opinions matter and must be
+heard. Our great company culture empowers any employee to take decisions
+regarding existing or upcoming features. However when it's time to make a
+decision regarding the direction of the product, it's your responsibility as
+Product Manager to take the lead.
 
-Your other responsibilities are described below.
+Your other responsibilities, and also what you are not responsible about, are
+listed in [the job description](https://about.gitlab.com/jobs/product-manager/).
 
-* **Work on the roadmap**
-
-TBD
-
-* **Work out feature proposals from the community and customers**
-
-We have a lot of users and a lot of customers. Feedback, bug reports and feature
-proposals come from multiple channels all the time. Feature proposals will have
-the `feature proposal` label assigned to them. It's our job to decide if this
-feature deserves to exist. If it doesn't, you should reject the feature.
-
-**A note about bug reports**
-
-As a Product Manager, you are not supposed to work on bug reports. Most of the
-time they are reported by the Support team and are tackled by the Engineering
-team. For critical bugs, you might chime in and decide to put the highest
-priority on solving them, but that happens rarely.
-
-* **Manage new features tailored for larger enterprises from conception to market**
-
-GitLab Enterprise Edition (EE) is very important for us. It gives us the financial
-resources we need to achieve [our vision](https://about.gitlab.com/direction/#vision)
-and give back to the community. It's our responsibility to create features that
-will be attractive to larger enterprises in order to give them the best tools
-to achieve great things.
-
-You will need to discuss with existing customers, with people from the Sales
-team and with other Product team members about which features to prioritize for
-the Enterprise Edition.
-
-* **Work together with UX and Frontend engineers on improving the look and feel of GitLab**
-
-We all have opinions about design and UX in general. We have a dedicated team at
-GitLab who handle this all day long. While it's important to let them to their
-job, we are collectively responsible for providing the best user experience to
-our users and customers. That means you should never worry about giving feedback
-to a mockup you see in an issue or a flow in our app - as long as you have valid
-arguments.
-
-* **Ensure a smooth release of changes and features together with all stakeholders**
-
-We don't have dedicated project managers. Everyone on the team is responsible
-for making things happen. However it's your job as Product Manager to ensure that
-the feature the team is working on moves as it should by pinging the different
-team members appropriately.
-
-* **Empower the community by writing great documentation and highlighting the product in various ways in cooperation with marketing**
-
-Everyone writes documentation at GitLab. About almost everything. This is why
-our product should provide clear documentation about what it does and how it
-works.
-
-You should work closely with marketing to make sure that the product is rightfully
-highlighted throughout our marketing materials.
-
-* **Finding the weak spots of GitLab and executing plans to improve them**
-
-This task is a responsibility shared by the entire GitLab team. However as
-Product Manager you should be aware of any weak spot we have on GitLab and make
-sure that any problem is properly described in an issue, with clear steps on
-how to fix it.
-
-#### What you are not responsible for
-
-As much as it's important to know what your main responsibilities are, it's also
-important to understand what you shouldn't do as Product Manager.
-
-* **Shipping in time**
-
-As a PM you are part of a team that delivers a change, the team is responsible
-for shipping in time, not you.
-
-* **A team of engineers**
-
-PMs at GitLab do not manage people, they manage the product. You'll be required
-to take the lead in decisions about the product, but it's not your role to manage
-the people that build the product.
-
-* **Capacity and availability planning**
-
-You will work together with engineering managers on schedules and planning: you
-prioritize, the engineering managers determine how much can be scheduled.
-
-### How we work
+### Workflow
 
 Almost everything that we do is documented in an issue. Issues are how GitLab
 works. Every feature, bug, feedback is documented and processed.
 
-#### How to submit a new Product issue
+#### How to submit a new issue
 
-First, identify if the issue is about GitLab Community Edition (EE) or GitLab
-Enterprise Edition (EE). This will let you know in which project you should log
-the issue into.
+1. The first thing you should do is searching both CE and EE projects if a
+similar issue already exists. There is no need to create duplicates.
+2. Identify if the issue is about GitLab Community Edition (EE) or GitLab
+Enterprise Edition (EE).
+3. You should clearly state what the current pain point is, what we are trying
+to solve, what the benefits will be, what it should do, how to accomplish that
+and the next steps.
+4. Choose which labels is relevant to the issue. If you are unsure about what
+certain labels are for, head up to the Labels page ([CE](https://gitlab.com/gitlab-org/gitlab-ce/labels)
+or [EE](https://gitlab.com/gitlab-org/gitlab-ee/labels)) and read the
+descriptions.
+5. Unless you know what you are doing, do not
+    - assign someone to the issue
+    - assign a milestone
+    - set a due date
+    - add weight - weight represents the technical complexity and should be
+    defined by our developers
+6. Mention the different stakeholders in the body of your issue. In most product
+related issues, we usually mention the product team members, either the frontend
+or the backend lead and sometimes the cofounders, as what we do impact the
+product most of the time. Mentioning the people in the body issue will
+trigger the notification mechanisms chosen by the people who are mentioned -
+therefore there is no need to notify people in another channel after the issue
+has been created (Slack, email).
 
-You should clearly state what's the current pain point, what we are trying to solve,
-what the benefits will be, what it should do, how to accomplish that and
-the next steps.
+#### Wireframes
 
-Finally, add the Product label and assign it to Job for review.
+When relevant, you can include a wireframe in your issues in order to illustrate
+your point. You don't need to include wireframes per se - our UX/design team can
+help us on that matter. Simply ping them if you need their help. We like
+[Balsamiq](https://balsamiq.com/) for its simplicity and its sketch-y approach.
+If you don't have inspiration, you can also paste screenshots of similar
+features in other products.
 
 #### What is a Meta issue?
 
@@ -268,17 +210,17 @@ Meta is a label assigned to certain issues that contain a large list of todos.
 If you are familiar with the Agile methodology, it's similar to an epic. At
 GitLab we have a short release cycle: the 22nd of every month. In some cases we
 won't be able to tackle all the tasks of a meta issue - this is why we centralize
-all the things that we need to do in a meta issue, then break it down to smaller issues.
-Meta issues are usually big, have lots of comments and passionate discussions
-and always lead to something great.
+all the things that we need to do in a meta issue, then break it down to smaller
+issues. Meta issues are usually big, have lots of comments and passionate
+discussions and always lead to something great.
 
 #### Which issue should you be working on?
 
 When you don't have specific tasks assigned, you should work on issues that are
-labeled `product`, in both EE and CE projects. These are issues that need our
-love and attention.
+labeled `Product work`, in both EE and CE projects. These are issues that need our
+love and attention the most.
 
-#### Where should you look when you need help?
+### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
 handbook](https://about.gitlab.com/handbook/).
@@ -287,7 +229,32 @@ handbook](https://about.gitlab.com/handbook/).
 * Specific Git related questions should be asked in `#git-help`.
 * HR questions should be asked in `#peopleops`.
 
-#### How to reject a feature request
+### Shipping
+
+#### Internal and external evangelization
+
+Before shipping a new or updated feature, you are responsible for its
+evangelization, both internally and externally. When something is released, the
+following teams need to be aware of it as they will all need to do something
+about it:
+* marketing: depending on the importance of the feature, we need the help of
+marketing to promote this feature on our different communication channels.
+* sales: sales need to know what's new or changed in the product so they can
+have better arguments to convince new or existing customers during their sales
+process.
+* support: as they are in contact with our users and customers all day long,
+support should perfectly know how our products work.
+
+The best way to achieve that is to schedule meetings with the different teams in
+order to prepare the launch.
+
+#### GitLab University
+
+To promote a major new feature internally, you can ask to host a GitLab
+University, a company wide demo session. This is a great opportunity to make
+sure every one is on the same page.
+
+### How to reject a feature request
 
 TBD
 
