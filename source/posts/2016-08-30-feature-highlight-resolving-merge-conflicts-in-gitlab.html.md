@@ -1,8 +1,9 @@
 ---
 title: "Feature Highlight: Resolving Merge Conflicts in GitLab"
 author: Sean McGivern
+author_twitter: mcgivernsa
 categories: GitLab
-image_title:
+image_title: '/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png'
 description:
 ---
 
@@ -107,15 +108,18 @@ resolved.
 
 When a merge request can have its conflicts resolved within GitLab, it will have
 a link within the merge box to 'resolve these conflicts':
+
 ![The 'resolve these conflicts' link on a merge request](/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/mr-widget.png){: .shadow}
 
 Clicking that link will show the files with conflicts, with conflict sections
 highlighted as 'our changes' (the changes in the merge request's source branch)
 and 'their changes' (the changes in the merge request's target branch):
+
 ![Some example merge conflicts](/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png){: .shadow}
 
 Here's an example conflict in a `schema.rb` that I resolved on the GitLab CE
 project:
+
 ![Resolving a merge conflict](/images/8_11/resolve_mc.gif){: .shadow}
 
 ### How does that work?
@@ -183,19 +187,19 @@ Incompatible renames are detected as conflicts by the `git` command line tool,
 but not by the library we use at GitLab. We can [detect rename conflicts][20345]
 ourselves, it's just more work.
 
-[release-post]: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/#merge-conflict-resolution
-[conflict-docs]: http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
-[vision]: https://about.gitlab.com/direction/#vision
-[schema-rb]: http://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark
-[changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG
-[changelog-crisis]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17826
+[20344]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20344
+[20345]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20345
+[20664]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20664
+[20665]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20665
+[21247]: https://gitlab.com/gitlab-org/gitlab-ce/issues/21247
 [automated-changelogs]: https://gitlab.com/gitlab-org/release-tools/merge_requests/29
+[ce-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues
+[changelog-crisis]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17826
+[changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG
+[conflict-docs]: http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
+[release-post]: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/#merge-conflict-resolution
+[rugged-add]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#add-instance_method
 [rugged-conflicts]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#conflicts-instance_method
 [rugged-merge-file]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#merge_file-instance_method
-[rugged-add]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#add-instance_method
-[ce-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues
-[20344]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20344
-[21247]: https://gitlab.com/gitlab-org/gitlab-ce/issues/21247
-[20665]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20665
-[20664]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20664
-[20345]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20345
+[schema-rb]: http://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark
+[vision]: https://about.gitlab.com/direction/#vision
