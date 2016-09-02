@@ -58,6 +58,7 @@ Warsaw, Poland. [Ivan] will be doing his talk: "Breaking Bad with GitLab CI".
 - [EuRuKo](http://euruko2016.org/), September 23-24 in Sofia, Bulgaria. Ivan
 is speaking on "Remote Internships" for the Ruby Developers Organization.
 [Douwe], [Robert], [ZJ] will also be attending.
+- [VoxxedDays Belgrade](https://belgrade.voxxeddays.com), September 28-30 in Belgrade, Serbia. Ivan will be down this talk on “Breaking Bad with GitLab CI".
 
 <!-- identifiers -->
 
