@@ -188,6 +188,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 ##### Quote Metrics
 The following quote metrics are available:
+
  * MRR (Monthly Recurring Revenue) - Monthly recurring revenue (MRR) calculates subscription recurring fees normalized to a monthly value.
  * Delta MRR - Delta of the total MRRs between the original subscription and the amendment.
  * TCV (Total Contract Value) - Total contract value (TCV) calculates the total recurring charges over the lifetime of a subscription.
@@ -313,6 +314,7 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 
 ### Creating a Quote for a Partner <a name="resellerQuote"></a>
 A reseller quote has a few different things than a regular quote:
+
 * Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM”
 * Quote Template:  Needs to be a reseller template.  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.  There is currently an issue with the reseller templates  Please see [Workaround for the lack of a reseller quote template](#ResellerTemplateWorkaround) below
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
