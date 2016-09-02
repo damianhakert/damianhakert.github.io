@@ -154,6 +154,7 @@ make it work in unpredictable ways.
 As a Product Manager, you are expected to act as the reference for everything
 related to your area of responsibilities.
 
+<<<<<<< HEAD
 Everyone has opinions about the product, and all opinions matter and must be
 heard. Our great company culture empowers any employee to take decisions
 regarding existing or upcoming features. However when it's time to make a
