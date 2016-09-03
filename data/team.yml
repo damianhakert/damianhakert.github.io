@@ -699,6 +699,7 @@
                 <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
+                <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
   story:  |
           Phil has a huge passion for programming, with skills ranging anywhere from JavaScript to C++. Having experienced a variety of roles in industry, he realised that front-end development was more his "cup of tea" and has since been focusing on improving his skills in this area. When not geeking out, he loves to spend time with his wife and his daughter Emilia.
 
@@ -913,7 +914,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Merge request coach</li>
-              <li>Merge conflict expert</li>
+	          <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
@@ -987,7 +988,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
-              <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
+              <li>Merge conflict resolve <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
