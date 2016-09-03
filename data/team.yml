@@ -914,7 +914,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Merge request coach</li>
-	          <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
+              <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
