@@ -1,11 +1,11 @@
 ---
-title: "Feature Highlight: Resolving Merge Conflicts in GitLab"
+title: "Resolving Merge Conflicts from the GitLab UI"
 author: Sean McGivern
 author_twitter: mcgivernsa
 categories: GitLab
 image_title: '/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png'
 twitter_image: '/images/tweets/feature-highlight-resolving-merge-conflicts-in-gitlab.png'
-description:
+description: "Learn how GitLab's merge conflict resolution feature works and why we introduced it."
 ---
 
 Merge conflicts can be very annoying for both merge request authors and
@@ -30,14 +30,15 @@ planning to do next with it.
 
 ## What is a merge conflict?
 
-A merge conflict is when a merge can't be performed cleanly between two files.
+A merge conflict is when a merge can't be performed cleanly between two versions
+of the same file.
 
 ### Wait, what's a merge?
 
-A merge is a way of combining two sets of changes made in different places. For
-example, in GitLab, we have merge requests. These are typically from a branch
-that we're working on (let's say, `new-feature`) to a branch used by everyone
-(`master`, for example).
+A merge is a way of combining two sets of changes made in different branches. In
+GitLab, we handle this with [Merge Requests], which are requests to merge the
+changes we've made to a file (or a group of files), from a [feature branch][fb]
+into another branch, for example, `master`.  (`master`, for example).
 
 When the merge request is merged, the changes from `new-feature` are added to
 `master`. This happens by looking at all of the changes made in `master` since
@@ -57,9 +58,8 @@ renames and deletions can also cause conflicts, and we
 
 They're really annoying!
 
-When there's a conflict, a merge request can't be
-merged without manual intervention. (As mentioned above, a conflict means that a merge
-can't be performed automatically.)
+When there's a conflict, a merge request can't be merged without manual
+intervention.
 
 If you can't resolve merge conflicts within GitLab, that means that any merge
 request with a conflict needs to be checked out locally, resolved locally,
@@ -127,21 +127,23 @@ project:
 
 The current implementation, at a high level, works like this:
 
-1. If a merge request has conflicts, get a list of the
+1. If a merge request has conflicts, GitLab gets a list of the
    [files with conflicts][rugged-conflicts].
-2. For each file,
-   [generate a merged file with conflict markers][rugged-merge-file].
-3. Parse those conflict markers out and present them to the UI as sections:
-   context, our side of the conflict, their side of the conflict, context, etc.
-4. When the UI passes the section IDs back, do the same thing. This time, only
-   keep the sections the user selected, along with all context sections.
-5. Join the resolved lines together to create a resolved file, and
-   [add it to the git index][rugged-add].
-6. Write that index as a merge commit to the source branch.
+2. For each file, it then
+   [generates a merged file with conflict markers][rugged-merge-file].
+3. GitLab parses those conflict markers out and present them to the UI as
+   sections: context, our side of the conflict, their side of the conflict,
+   context, etc.
+4. When the UI passes the section IDs back, we do the same thing. This time,
+   GitLab only keeps the sections the user selected, along with all context
+   sections.
+5. GitLab joins the resolved lines together to create a resolved file, and
+   [adds it to the git index][rugged-add].
+6. Finally, we write that index as a merge commit to the source branch.
 
 If the source branch is `new-feature` and the target branch is `master`, then
-this does basically the same thing as running `git checkout new-feature ; git
-merge master`.
+this does basically the same thing as running `git checkout new-feature`
+followed by `git merge master`.
 
 ### Why can't some conflicts be resolved in GitLab?
 
@@ -204,3 +206,4 @@ ourselves, it's just more work.
 [rugged-merge-file]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#merge_file-instance_method
 [schema-rb]: http://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark
 [vision]: https://about.gitlab.com/direction/#vision
+[fb]: http://docs.gitlab.com/ce/workflow/workflow.html
