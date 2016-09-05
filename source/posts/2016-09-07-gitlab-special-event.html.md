@@ -35,13 +35,13 @@ needs to be reduced. To arrive at the same quantity you need to go [faster from 
 to production][post-ci-cd]. To go faster you need to change from gatekeeping to enabling a conversation.
 
 This is why we’re excited to invite you to join us for a special event with
-GitLab’s CEO, Sid Sijbrandij. During this live event, Sid will share the
-future vision of GitLab Inc, CE, and EE, and the plan to build the new operating
-system for the modern developer using conversation driven development (CDD).
+GitLab’s CEO, [Sid Sijbrandij]. During this live event, Sid will share the
+future vision of GitLab and the plan to build the new operating
+system for the modern developer using Conversation Driven Development (CDD).
 
 Everyone is encouraged to tune in, ask questions, and learn how to contribute.
 
-## Join us for the live event from anywhere 
+## Join us for the live event from anywhere
 
 Join us for this special, digital event on Tuesday, September 13 at 1pm ET / 10am PT.
 GitLab’s CEO Sid Sijbrandij will give a special announcement and walk through the
@@ -49,7 +49,7 @@ future plan for GitLab and open source software development. Specific highlights
 
 - GitLab vision
 - Introduction to Conversation Driven Development (**CDD**)
-- GitLab’s Master Plan
+- The GitLab Master Plan
 - Panel and community discussion
 
 <!-- identifiers -->
@@ -57,4 +57,5 @@ future plan for GitLab and open source software development. Specific highlights
 [black-duck-survey]: https://www.blackducksoftware.com/2016-future-of-open-source
 [gitlab-vision]: https://about.gitlab.com/direction/#vision
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[Sid Sijbrandij]: https://twitter.com/sytses
 <!-- [event-page]: -->
