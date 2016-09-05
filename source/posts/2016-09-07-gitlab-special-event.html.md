@@ -5,7 +5,7 @@ author _twitter:
 categories: GitLab
 image_title: '/images/default-blog-image.png'
 twitter_image:
-description: "Tune in Tuesday, September 13 at 1pm ET - 10am PT - for a special live event with GitLab CEO Sid Sijbrandij"
+description: "Tune in Tuesday, September 13th at 1pm ET - 10am PT - for a special live event with GitLab CEO Sid Sijbrandij"
 ---
 
 The world of software development is changing.
