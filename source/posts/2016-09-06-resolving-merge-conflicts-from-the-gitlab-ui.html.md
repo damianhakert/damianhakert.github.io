@@ -110,13 +110,13 @@ resolved.
 When a merge request can have its conflicts resolved within GitLab, it will have
 a link within the merge box to 'resolve these conflicts':
 
-![The 'resolve these conflicts' link on a merge request](/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/mr-widget.png){: .shadow}
+![The 'resolve these conflicts' link on a merge request](/images/blogimages/resolving-merge-conflicts-from-the-gitlab-ui/mr-widget.png){: .shadow}
 
 Clicking that link will show the files with conflicts, with conflict sections
 highlighted as 'our changes' (the changes in the merge request's source branch)
 and 'their changes' (the changes in the merge request's target branch):
 
-![Some example merge conflicts](/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png){: .shadow}
+![Some example merge conflicts](/images/blogimages/resolving-merge-conflicts-from-the-gitlab-ui/merge-conflicts.png){: .shadow}
 
 Here's an example conflict in a `schema.rb` that I resolved on the GitLab CE
 project:
