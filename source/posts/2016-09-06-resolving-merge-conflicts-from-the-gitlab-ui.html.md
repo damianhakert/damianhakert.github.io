@@ -3,8 +3,8 @@ title: "Resolving Merge Conflicts from the GitLab UI"
 author: Sean McGivern
 author_twitter: mcgivernsa
 categories: GitLab
-image_title: '/images/blogimages/feature-highlight-resolving-merge-conflicts-in-gitlab/merge-conflicts.png'
-twitter_image: '/images/tweets/feature-highlight-resolving-merge-conflicts-in-gitlab.png'
+image_title: '/images/blogimages/resolving-merge-conflicts-from-the-gitlab-ui/merge-conflicts.png'
+twitter_image: '/images/tweets/resolving-merge-conflicts-from-the-gitlab-ui.png'
 description: "Learn how GitLab's merge conflict resolution feature works and why we introduced it."
 ---
 
