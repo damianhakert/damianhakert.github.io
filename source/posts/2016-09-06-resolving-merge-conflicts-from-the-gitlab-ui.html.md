@@ -36,9 +36,10 @@ of the same file.
 ### Wait, what's a merge?
 
 A merge is a way of combining two sets of changes made in different branches. In
-GitLab, we handle this with [Merge Requests], which are requests to merge the
-changes we've made to a file (or a group of files), from a [feature branch][fb]
-into another branch, for example, `master`.  (`master`, for example).
+GitLab, we handle this with [Merge Requests][mr], which are requests to merge
+the changes we've made to a file (or a group of files), from a [feature
+branch][fb] into another branch, for example, `master`.  (`master`, for
+example).
 
 When the merge request is merged, the changes from `new-feature` are added to
 `master`. This happens by looking at all of the changes made in `master` since
@@ -207,3 +208,4 @@ ourselves, it's just more work.
 [schema-rb]: http://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark
 [vision]: https://about.gitlab.com/direction/#vision
 [fb]: http://docs.gitlab.com/ce/workflow/workflow.html
+[mr]: http://doc.gitlab.com/ce/user/project/merge_requests.html
