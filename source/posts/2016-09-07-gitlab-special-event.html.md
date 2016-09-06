@@ -5,7 +5,7 @@ author _twitter: ashl3ysm1th
 categories: GitLab
 image_title: '/images/default-blog-image.png'
 twitter_image:
-description: "Tune in Tuesday, September 13th at 1pm ET - 10am PT - for a special live event with GitLab CEO Sid Sijbrandij"
+description: "Tune in Tuesday, September 13th at 1pm ET / 5pm GMT for a special live event with GitLab CEO Sid Sijbrandij"
 ---
 
 The world of software development is changing.
@@ -43,8 +43,8 @@ Everyone is encouraged to tune in, ask questions, and learn how to contribute.
 
 ## Join us for the live event from anywhere
 
-Join us for this special, digital event on Tuesday, September 13 at 1pm ET / 10am PT.
-GitLab’s CEO Sid Sijbrandij will give a special announcement and walk through the
+Join us for this special event on Tuesday, September 13 at 1pm ET / 5pm GMT.
+Our CEO, Sid Sijbrandij, will give a special announcement and walk through the
 future plan for GitLab and open source software development. Specific highlights include:
 
 - GitLab vision
