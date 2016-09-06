@@ -28,11 +28,6 @@
   apply: https://gitlab.workable.com/jobs/317102/candidates/new
   open: true
 
-- title: "Content Marketing Manager"
-  description: /jobs/content-marketing-manager/
-  apply:
-  open: false
-
 - title: "Director of Global Account Management"
   description: /jobs/dir-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
@@ -57,11 +52,6 @@
   description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
-
-- title: "Marketing Operations Manager"
-  description: /jobs/marketing-operations-manager/
-  apply:
-  open: false
 
 - title: "Product Manager"
   description: /jobs/product-manager
