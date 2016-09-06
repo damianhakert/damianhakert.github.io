@@ -139,6 +139,14 @@ certain behaviors.
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
 
+## Checklist before releasing a new version
+
+When a new version of GitLab is released, some public pages need to be updated with the changes it will introduce:
+
+* The [feature comparison page](https://about.gitlab.com/features/#compare) showing the differences between the different products we offer (hosted [here](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml))
+* The [release list page](https://about.gitlab.com/release-list/), which shows the different releases over time along with the changes they introduced (hostd [here](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/generators/release_list.rb))
+* [How GitLab compares to competitors](https://about.gitlab.com/comparison) (hosted [here](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/comparison/index.html.md))
+
 ## CI/CD<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
