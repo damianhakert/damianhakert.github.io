@@ -42,7 +42,7 @@ Please read on for more details.
 
 ## Upgrade barometer
 
-This version have some migrations, but should not require any downtime.
+This version has some migrations, but should not require any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
