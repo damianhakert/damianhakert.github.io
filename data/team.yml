@@ -1480,6 +1480,17 @@
   story:  |
           Joining September 1st
 
+- name: A.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 5th
+
 - name: P.M.
   locality:
   country:
