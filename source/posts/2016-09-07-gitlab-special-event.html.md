@@ -10,7 +10,7 @@ description: "Tune in Tuesday, September 13th at 1pm ET - 10am PT - for a specia
 
 The world of software development is changing.
 
-[More companies are choosing to use open source infrastructures][black-duck-survey]
+More companies are joining the [open source][trends-version-control] world
 due to the improved efficiency, interoperability, and innovation they can offer.
 Developers' roles are shifting away from specialized functions and moving toward
 project managing across the entire development process. 
@@ -54,7 +54,7 @@ future plan for GitLab and open source software development. Specific highlights
 
 <!-- identifiers -->
 
-[black-duck-survey]: https://www.blackducksoftware.com/2016-future-of-open-source
+[trends-version-control]: https://about.gitlab.com/2016/08/29/trends-in-version-control-land-open-source/
 [gitlab-vision]: https://about.gitlab.com/direction/#vision
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [Sid Sijbrandij]: https://twitter.com/sytses
