@@ -1,7 +1,7 @@
 ---
 title: "Live Event: Unveiling the GitLab Master Plan"
-author: 
-author _twitter: 
+author: Ashley Smith 
+author _twitter: ashl3ysm1th
 categories: GitLab
 image_title: '/images/default-blog-image.png'
 twitter_image:
