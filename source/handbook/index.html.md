@@ -156,7 +156,7 @@ Documenting things in the handbook takes more time initially and it requires thi
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
 1. When you discuss something in chat always try to **link** to a URL where relevant, for example the documentation you have a question about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
-After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send a MR for the handbook'?
+After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send a merge request for the handbook'?
 1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
@@ -284,7 +284,7 @@ step, **re-assign** the issue to that person.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies when the main body of work is completed.
 1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
-1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
+1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the merge request creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the merge request gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
@@ -376,6 +376,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
+1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
 
 ### Beamy Guidelines
 
@@ -743,8 +744,8 @@ If you are working on multiple GitLab instances and want to have a visual differ
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
 This is a guide on what you'll need to install and run on your machine to get
-Git up and running so you can create your first MR in minutes! Follow the
-numbered steps below to complete your setup.
+Git up and running so you can create your first merge request in minutes! Follow
+the numbered steps below to complete your setup.
 
 ### 1. Start using GitLab
 
