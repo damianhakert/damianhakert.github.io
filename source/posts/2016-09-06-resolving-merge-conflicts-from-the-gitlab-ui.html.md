@@ -143,8 +143,12 @@ The current implementation, at a high level, works like this:
 6. Finally, we write that index as a merge commit to the source branch.
 
 If the source branch is `new-feature` and the target branch is `master`, then
-this does basically the same thing as running `git checkout new-feature`
-followed by `git merge master`.
+this does basically the same thing as running:
+
+```
+git checkout new-feature`
+git merge master
+```
 
 ### Why can't some conflicts be resolved in GitLab?
 
