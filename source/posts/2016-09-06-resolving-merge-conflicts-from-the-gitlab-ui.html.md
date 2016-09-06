@@ -38,22 +38,22 @@ of the same file.
 A merge is a way of combining two sets of changes made in different branches. In
 GitLab, we handle this with [Merge Requests][mr], which are requests to merge
 the changes we've made to a file (or a group of files), from a [feature
-branch][fb] into another branch, for example, `master`.  (`master`, for
-example).
+branch][fb] into another branch, for example, `master`.
 
 When the merge request is merged, the changes from `new-feature` are added to
 `master`. This happens by looking at all of the changes made in `master` since
 the `new-feature` branch was created, and all the changes made in `new-feature`,
 and applying them to the files changed.
 
-Most of the time, git can do this automatically, but sometimes it can't. For
+Most of the time, Git can do this automatically, but sometimes it can't. For
 instance, if we changed a line in our `new-feature` branch, but that line was
-also changed in `master`, git doesn't know which line to accept. When this happens, someone needs to manually tell git which line
-to use which creates a **merge conflict**.
+also changed in `master`, Git doesn't know which line to accept. When this happens, someone needs to manually tell Git which line
+to use, which creates a **merge conflict**.
 
-(For this post, we will just concentrate on conflicts within a file. However,
+**Note:** for this post, we will just concentrate on conflicts within a file. However,
 renames and deletions can also cause conflicts, and we
-[plan on supporting those][20665] in the future.)
+[plan on supporting those][20665] in the future.
+{: .note}
 
 ## Why are conflicts a problem?
 
@@ -65,7 +65,7 @@ intervention.
 If you can't resolve merge conflicts within GitLab, that means that any merge
 request with a conflict needs to be checked out locally, resolved locally,
 pushed back, and merged. That's a hassle and can't be done without having some
-git tools installed locally. At GitLab, we want
+Git tools installed locally. At GitLab, we want
 [everyone to be able to collaborate on all digital content][vision], and that
 means not having to install special tools whenever possible.
 
@@ -139,14 +139,14 @@ The current implementation, at a high level, works like this:
    GitLab only keeps the sections the user selected, along with all context
    sections.
 5. GitLab joins the resolved lines together to create a resolved file, and
-   [adds it to the git index][rugged-add].
+   [adds it to the Git index][rugged-add].
 6. Finally, we write that index as a merge commit to the source branch.
 
 If the source branch is `new-feature` and the target branch is `master`, then
 this does basically the same thing as running:
 
 ```
-git checkout new-feature`
+git checkout new-feature
 git merge master
 ```
 
