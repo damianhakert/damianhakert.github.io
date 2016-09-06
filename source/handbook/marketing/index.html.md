@@ -592,7 +592,7 @@ The meeting should run as follows:
 
 **Run time: 30 minutes**
 
-All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or slack.
+All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
 
 The meeting should run as follows:  
 
@@ -633,7 +633,7 @@ help with any questions. There is an agenda for this meeting, but it also should
 
 The meeting should run as follows:
 
-- First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
+- First 60 seconds: Post funny GIFs in our chat `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
 - Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
@@ -665,7 +665,7 @@ When working remotely in such a quick moving organization, it is important for a
 - Be on time to meetings. We start at on time.
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-- Do not ping someone in a public channel on Slack on the weekends. This is rude.
+- Do not ping someone in a public channel on chat on the weekends. This is rude.
 
 ## <i class="fa fa-file-code-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Handbook Updates
 {: #handbook}
@@ -689,10 +689,10 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
 - [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-### Slack Marketing channels
+### Chat Marketing channels
 {: #chat}
 
-We use Slack internally as a communication tool. The marketing channels are as follows:  
+We use our chat internally as a communication tool. The marketing channels are as follows:  
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
 - Advertising - Online marketing channel
