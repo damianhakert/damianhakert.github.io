@@ -208,14 +208,14 @@ works. Every feature, bug, feedback is documented and processed.
 
 #### How to submit a new issue
 
-1. The first thing you should do is searching both CE and EE projects if a
+1. The first thing you should do is search both CE and EE projects if a
 similar issue already exists. There is no need to create duplicates.
 2. Identify if the issue is about GitLab Community Edition (EE) or GitLab
-Enterprise Edition (EE).
+Enterprise Edition (EE), although this can easily be changed later.
 3. You should clearly state what the current pain point is, what we are trying
 to solve, what the benefits will be, what it should do, how to accomplish that
 and the next steps.
-4. Choose which labels is relevant to the issue. If you are unsure about what
+4. Choose which labels are relevant to the issue. If you are unsure about what
 certain labels are for, head up to the Labels page ([CE](https://gitlab.com/gitlab-org/gitlab-ce/labels)
 or [EE](https://gitlab.com/gitlab-org/gitlab-ee/labels)) and read the
 descriptions.
@@ -232,6 +232,11 @@ product most of the time. Mentioning the people in the body issue will
 trigger the notification mechanisms chosen by the people who are mentioned -
 therefore there is no need to notify people in another channel after the issue
 has been created (Slack, email).
+
+#### Dealing with big issues
+
+If we know an issue is going to span multiple releases, it has to split into
+multiple issues. An issue should only span one release.
 
 #### Wireframes
 
@@ -251,6 +256,9 @@ won't be able to tackle all the tasks of a meta issue - this is why we centraliz
 all the things that we need to do in a meta issue, then break it down to smaller
 issues. Meta issues are usually big, have lots of comments and passionate
 discussions and always lead to something great.
+
+Note: sometimes, smaller tasks that are part of a meta issue are also labeled
+`meta`.
 
 #### Which issue should you be working on?
 
@@ -275,16 +283,20 @@ Before shipping a new or updated feature, you are responsible for its
 evangelization, both internally and externally. When something is released, the
 following teams need to be aware of it as they will all need to do something
 about it:
-* marketing: depending on the importance of the feature, we need the help of
+
+* Marketing: depending on the importance of the feature, we need the help of
 marketing to promote this feature on our different communication channels.
-* sales: sales need to know what's new or changed in the product so they can
+* Sales: sales need to know what's new or changed in the product so they can
 have better arguments to convince new or existing customers during their sales
 process.
-* support: as they are in contact with our users and customers all day long,
+* Support: as they are in contact with our users and customers all day long,
 support should perfectly know how our products work.
 
-The best way to achieve that is to schedule meetings with the different teams in
-order to prepare the launch.
+You can promote your work in several ways:
+
+* start with documenting what will be released and share this documentation with
+the different teams,
+* schedule meeting, if you think it's important, with the teams listed above.
 
 #### GitLab University
 
@@ -292,9 +304,46 @@ To promote a major new feature internally, you can ask to host a GitLab
 University, a company wide demo session. This is a great opportunity to make
 sure every one is on the same page.
 
-### How to reject a feature request
+### How and when to reject a feature request
 
-TBD
+Rejecting a feature request or a merge request is not an easy thing. People can
+feel quite protective of their ideas. They might have invested a lot of time and
+energy in writing those ideas. You can be tempted to accept a feature only to
+avoid hurting the people who thought of it. Worst, if you reject an idea too
+harshly, you might discourage other people to contribute, which is something we
+want to avoid at all costs.
+
+However, as the number of issues and merge requests grow more and more, we should
+be diligent about rejecting features we will not do. It's better for everyone:
+for the product team so we don't maintain a huge backlog of things we will not
+do anyway, and for the users who won't have to wait for our feedback
+indefinitely.
+
+Feature requests and merge requests can be rejected for the following reasons:
+
+* Not within our scope: the Direction page [lists all the areas](https://about.gitlab.com/direction/#outside-our-scope)
+where GitLab, the product, won't go. Point the issue's author to this article
+and close the issue.
+* We don't want another setting: whenever we can, we try to [avoid having settings](https://about.gitlab.com/handbook/product/#convention-over-configuration).
+Some settings are inevitable - most aren't. Ask the user to change how she
+approaches the feature in order to get rid of the setting.
+* Too complex: we want to have a user-friendly, simple product that does complex
+things. Not the other way around. Tell the user to take a step back and think
+about the problem she wants to solve in the first place. Offer directions on
+what she could do instead. If she's not willing to do it, indicate that you will
+have to close the issue/merge request because it will go nowhere.
+* Bring an Enterprise exclusive feature to the Community Edition: this problem
+is already addressed in the [About page](https://about.gitlab.com/about/#contributing-an-ee-only-feature-to-ce).
+Indicate that we will investigate whether the feature can be ported to the
+Community Edition, discuss it with other teams members and come back to the user
+in a timely fashion.
+* Low priority: sometimes, features are interesting but we simply don't have the
+capacity to implement them. In that case, simply tell the truth and indicate that
+we don't have enough resources at our disposal to do it at the moment.
+
+Don't forget to thank the authors for the time and effort taken to submit the
+feature request/merge request. In all cases and without exception, you should be
+nice and polite when interacting with users and customers.
 
 ## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 <<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
