@@ -506,7 +506,7 @@ This can be implemented if the following criteria are met:
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
 1. Support has had two failed attempts to contact the user within a
- two week period.
+ two week period.   
 1. The user cannot be an owner of any active project.
 
 Usernames will be appended with `_idle` to keep the account active but
