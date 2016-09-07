@@ -28,6 +28,11 @@
   apply: https://gitlab.workable.com/jobs/317102/candidates/new
   open: true
 
+- title: "Database Specialist"
+  description: /jobs/specialist/database/
+  apply: https://gitlab.workable.com/jobs/329033/candidates/new
+  open: true
+
 - title: "Director of Global Account Management"
   description: /jobs/dir-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
@@ -46,7 +51,7 @@
 - title: "Global Recruiter"
   description: /jobs/global-recruiter/
   apply: https://gitlab.workable.com/jobs/269339/candidates/new
-  open: true  
+  open: true
 
 - title: "Senior Accountant (part time)"
   description: /jobs/senior-accountant/
