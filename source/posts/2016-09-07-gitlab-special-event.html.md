@@ -61,7 +61,7 @@ Our CEO, Sid Sijbrandij, will give a special announcement and walk through the
 future plan for GitLab and software development. 
 
 Stick around after the announcement for a Q&A session with Sid, CEO, Job van der Voort, 
-VP of Product, and myself, Chief Marketing Officer, and guest MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
+VP of Product, myself, Chief Marketing Officer, and guest MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
 
 <!-- identifiers -->
 
