@@ -22,6 +22,7 @@ Please read on for more details.
 - **CE/EE:** Add the total number of issues in the JSON response in issue board lists. ([!5904])
 - **CE/EE:** Changed `.commit-row-title` `line-height` to `1.35` from `1`. ([!5996])
 - **CE/EE:** Optimize branch lookups and force a repository reload for Repository#find_branch. ([!6087])
+- **CE/EE:** Added search for all lists on issue boards. ([!6101])
 - **CE/EE:** Fix suggested colors options for new labels in the admin area. ([!6138])
 - **CE/EE:** Remove gitorious from import_sources on ApplicationSetting model. ([!6180])
 - **CE/EE:** Fix expiration date picker after update. ([!6184])
@@ -32,6 +33,7 @@ Please read on for more details.
 
 [!5904]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5904
 [!5996]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5996
+[!6101]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6101
 [!6087]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6087
 [!6138]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6138
 [!6180]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6180
