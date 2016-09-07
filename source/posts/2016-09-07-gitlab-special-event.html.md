@@ -9,7 +9,7 @@ description: "Tune in Tuesday, September 13th at 1pm ET - 5pm GMT for a special 
 ---
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">TL;DR: GitLab CEO Sid Sijbrandij is unveiling the &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab Master Plan</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="#">Join here</a>!</p>
+&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="https://Page.gitlab.com/20160913_UnveilingMasterPlan_landingpage.html">Join here</a>!</p>
 
 The world of software development is changing.
 
@@ -71,7 +71,7 @@ Register [here][event-page] for instructions on how to access the event.
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [Sid Sijbrandij]: https://twitter.com/sytses
 [trends-version-control]: https://about.gitlab.com/2016/08/29/trends-in-version-control-land-open-source/
-[event-page]: #
+[event-page]: https://Page.gitlab.com/20160913_UnveilingMasterPlan_landingpage.html
 
 <!-- custom styles -->
 
