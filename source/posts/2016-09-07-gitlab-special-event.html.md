@@ -60,12 +60,16 @@ opinions, and share ideas with us. At GitLab, **everyone can contribute!**
 Our CEO, Sid Sijbrandij, will give a special announcement and walk through the
 future plan for GitLab and software development. 
 
+Stick around around after the announcement for a Q&A session with Sid, CEO, Job van der Voort, 
+VP of Product, and myself, Chief Marketing Officer, and MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
+
 <!-- identifiers -->
 
 [gitlab-vision]: https://about.gitlab.com/direction/#vision
 [issue-board-release]: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [Sid Sijbrandij]: https://twitter.com/sytses
+[jono-twitter]: https://twitter.com/jonobacon
 [trends-version-control]: https://about.gitlab.com/2016/08/29/trends-in-version-control-land-open-source/
 [event-page]: https://Page.gitlab.com/20160913_UnveilingMasterPlan_landingpage.html
 
