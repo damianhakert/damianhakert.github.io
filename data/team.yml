@@ -1456,6 +1456,22 @@
           not working, he's an avid cyclist, audio book devourer, and burger connoisseur. He's a best friend
           to his wife and hands-on father to his three young children.
 
+- name: Sean Packham
+  locality: London
+  country: United Kingdon
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
+  reports_to: CMO
+  picture: seanpackham.png
+  twitter: SeanPackham
+  gitlab: SeanPackham
+  story:  |
+          Sean is a software developr passionate about education and teaching
+          others to code. Before GitLab Sean worked for various EdTech and
+          social startups and lectured game design, 2D and multiplayer game
+          development at his past university. When Sean is not sharing the
+          wonders of GitLab with others he can be found playing and coding
+          games or exploring London.
+          
 - name: D.P.
   locality:
   country:
@@ -1472,17 +1488,6 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining September 1st
-
-- name: S.P.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: CMO
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
