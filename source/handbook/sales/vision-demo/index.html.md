@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "UX Demo: Idea to Production"
+title: "Vision Demo: Idea to Production"
 ---
 
 This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
@@ -50,7 +50,7 @@ A [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 
-## UX Demo: Idea to Production
+## Vision Demo: Idea to Production
 
 ### Demo Setup
 
