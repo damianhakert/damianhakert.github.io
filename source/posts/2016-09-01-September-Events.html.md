@@ -42,7 +42,7 @@ Mesosphere.
 
 ## South America
 
-- [Ruby Brazil](http://rubyconfbrcfp.com.br/new_format#.VyoZ1RUrLBJ), Sept. 23-24
+- [RubyConf Brazil](http://rubyconfbrcfp.com.br/new_format#.VyoZ1RUrLBJ), Sept. 23-24
 in São Paulo, Brazil. [Gabriel] will give his Ruby Talk, "There is a Ruby in your Browser".
 [Douglas] will also be attending.
 
