@@ -62,6 +62,7 @@ future plan for GitLab and software development.
 
 ## How to attend
 
+Register [here][event-page] for instructions on how to access the event.
 
 <!-- identifiers -->
 
