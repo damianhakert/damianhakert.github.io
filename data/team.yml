@@ -1467,16 +1467,19 @@
   story:  |
           Joining August 29th
 
-- name: A.M.
-  locality:
-  country:
+- name: Abby Matthews
+  locality: London
+  country: UK
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: abby.png
+  twitter: almhrs
+  gitlab: amatthews
   story:  |
-          Joining September 1st
+          Abby has been involved in all things people and HR since 2002 and switched to focus on supporting technology companies in 2004. It was there she discovered the world of Software Development, Open Source and of course Software Developers!
+          Prior to joining Gitlab Abby has worked remotely as a HR Generalist and consultant supporting startups and is very excited to be part of the remote working world.
+          Abby is based in the UK and in her free time enjoys cooking, eating and writing her own blog (when she has time/remembers!)
+          
 
 - name: S.P.
   locality:
