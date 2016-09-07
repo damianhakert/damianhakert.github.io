@@ -60,6 +60,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Infrastructure](/handbook/infrastructure/) - [Infrastructure Lead](/jobs/infrastructure-lead/) - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
+      - [Database specialists](/jobs/specialist/database/)
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) that are packaging specialists
     - [Support](/handbook/support/) - [Support lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
