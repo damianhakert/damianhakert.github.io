@@ -28,7 +28,7 @@ To create an account expansion plan:
 - [ ] Record their industry within the account object of Salesforce.com
 - [ ] Recorded is in their technology stack within Salesforce.com 
 - [ ] What development tools within the company are provided 'as-a-service' by Engineering IT/Infrastructure and how does GitLab get on that list?
-- [ ]  Any executive changes at the company, company specific challenges and any relevant news events/press releases for the last year?
+- [ ] Any executive changes at the company, company specific challenges and any relevant news events/press releases for the last year?
 - [ ] Does the company have any job postings for developers?  Can learn a lot about what tools they use and where their locations are at from job postings.
 - [ ] Is the company a proponent of using Open Source software? 
 - [ ] Check Zendesk to see how many and what support requests the customer has submitted and how they were resolved.
