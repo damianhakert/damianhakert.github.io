@@ -24,6 +24,8 @@ title: Leadership
 - People should not be raised or given a title because they ask for it or threaten to quit. We should proactively raise and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
 - Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 - We avoid meetings because those aren't supporting the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
+- Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
+
 
 ## Articles
 
