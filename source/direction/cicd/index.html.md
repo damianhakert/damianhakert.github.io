@@ -5,8 +5,6 @@ title: "GitLab CI/CD Vision"
 
 ## Preamble
 
-As I write this on 2016-05-03, this represents only the views of one person, Mark Pundsack. In some ways, I'm doing this to expose my biases so they can be understood and validated or invalidated.
-
 Many of the examples describe development of an n-tier web app, but could equally be applied to an iOS app, Ruby gem, static website, or other type of project.
 
 ## Scope
@@ -71,7 +69,7 @@ Builds as first-class citizen (aka build artifacts):
 
 1. [Integration with third-party services like CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 2. [Report more than just pass/fail, report improving, degrading, above/below threshold of change](https://gitlab.com/gitlab-org/gitlab-ce/issues/14178)
-3. [Detect unnecessary builds/tests and skip them (e.g. merge of an MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
+3. [Detect unnecessary builds/tests and skip them (e.g. merge of a MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)
 6. [Provides examples and/or wizard to get started](https://gitlab.com/gitlab-org/gitlab-ce/issues/14266)

@@ -34,7 +34,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
    - All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
    - An invoice template can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
-1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/#processing-changes).
+1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/sop/#processing-changes).
 
 ## General Benefits <a name="general-benefits"></a>
 
@@ -68,6 +68,8 @@ to date and correct information is always available to employees through the
 and numbers listed there. This brief overview is not intended to replace the
 documentation in TriNet, but rather to give our team members and applicants a
 quick reference guide.
+
+If you have any questions in regards to your TriNet paycheck log in to TriNet, then go to [How To Read Your Paycheck](https://www.hrpassport.com/Help/Docs/pdf/Readpaycheck_US.pdf). 
 
 ### Group Medical Coverage<a name="group-medical"></a>
 

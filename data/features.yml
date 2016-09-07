@@ -3,7 +3,7 @@
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: http://doc.gitlab.com/ee/pages/README.html
   - description: Contribution Analytics, see detailed statistics of contributors
-    link: https://about.gitlab.com/features/#compare
+    link: http://docs.gitlab.com/ee/analytics/contribution_analytics.html
   - description: Edit files, directories and create merge requests straight from the web interface
     link: http://doc.gitlab.com/ce/workflow/web_editor.html
     in_ce: true
@@ -41,7 +41,8 @@
   - description: Ability to fork a repository
     in_ce: true
   - description: Share a project with other groups
-    link: http://doc.gitlab.com/ee/workflow/share_projects_with_other_groups.html
+    link: http://doc.gitlab.com/ce/workflow/share_projects_with_other_groups.html
+    in_ce: true
   - description: Manage large binaries with git LFS
     link: http://doc.gitlab.com/ee/workflow/lfs/manage_large_binaries_with_git_lfs.html
     in_ce: true
@@ -51,8 +52,8 @@
     link: http://doc.gitlab.com/ee/workflow/rebase_before_merge.html
   - description: Use fast-forward merges when possible
     link: http://doc.gitlab.com/ee/workflow/ff_merge.html
-  - description: Git hooks (commit message must mention an issue, no tag deletion, etc.)
-    link: http://doc.gitlab.com/ee/git_hooks/git_hooks.html
+  - description: Push Rules (commit message must mention an issue, no tag deletion, etc.)
+    link: http://docs.gitlab.com/ee/push_rules/push_rules.html
   - description: Webhooks at Project Level
     link: http://doc.gitlab.com/ee/web_hooks/web_hooks.html
     in_ce: true

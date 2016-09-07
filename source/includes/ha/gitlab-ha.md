@@ -188,7 +188,15 @@ database specific protocol instead of DRBD. In the documentation for
 each database you can find out more about the [options for MySQL]
 and the [options for PostgreSQL].
 
-### GitLab GEO
+## HA package product
+
+We're working on packages for this, feel free to comment [in the issue](https://gitlab.com/gitlab-org/gitlab-ee/issues/77).
+
+## GitLab GEO
+
+GitLab GEO is not a high-availability solution per se.
+It does bring the possibility to read git repo's when the main server is down.
+You can't fail over to this secundary server.
 
 Since the [release of version 8.5], GitLab GEO allows you to have a remote
 replica of your entire GitLab instance. This consists of a master server

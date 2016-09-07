@@ -73,61 +73,23 @@ For a more granular look at what individuals on the marketing team are focusing 
 
 To support these goals, we plan to hire the people outlined in our [hiring plan](#hiring-plan) during Q3 and Q4 of 2016. Job descriptions are linked from the hiring plan for each role to better understand how each role supports the goals of the marketing team and company.  
 
-Take a look at the focus for each functional group:  
-
-### Demand Generation  
-
-Demand Generation at GitLab focuses on online marketing, field marketing, business development, campaign planning, funnel metrics, marketing operations, and marketing automation. Demand Generation is responsible for the top of the lead funnel all the way to SQL.
-
-The focus for the second half of 2016 is on hiring, new business pipeline, demand infrastructure, and events.
-
-For more information, see the [demand generation handbook](/handbook/marketing/demand-generation/).
-
-### Product Marketing
-
-Product Marketing at GitLab focuses on product messaging, product launch marketing, partner marketing, channel marketing, PR and awareness, and content marketing.  
-
-For more information, see the [product marketing handbook](/handbook/marketing/product-marketing).
-
-### Developer Relations  
-
-Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
-
-- What are scalable developer education tools?
-- How do we turn in person feedback at events into actionable product requests?
-- What are the best and most engaging talks we can give to help educate developers?
-- How do we support the community?
-- How do we make the documentation even better?
-- How do we make it even more fun and easy to get started?
-- What is engaging developer content for blog, video, social media?
-- How do we build our global meetup plan so word of mouth + make it easy to love GitLab?
-- What is the developer GitLab experience?
-- How do we use social media to support the community?
-- How do field marketing and developer relations work together to support the community?
-
-For more information, see the [developer relations handbook](/handbook/marketing/developer-relations).
-
-### Design  
-
-Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
-
-For more information, see the [design handbook](/handbook/marketing/design).
+The focus for each [functional group](#groups) is described below.
 
 ### How we think about marketing a developer product
 
-A common misconception is that developer marketing is showing up at events and giving out free t-shirts and stickers. While true, developers are humans and people like free t-shirts it is not and cannot be the only method to your development marketing strategy, it's a whole lot more.
+A common misconception is that developer marketing is showing up at events and giving out free t-shirts and stickers. While true, developers are humans and people like free t-shirts it is not and cannot be the only method to your developer marketing strategy, it's a whole lot more.
 
-"But how do we market to developers?" is a question I've seen asked multiple times at multiple organizations. Every company that's building tools for developers have at some point struggled on how to properly market to their target audience. I've seen it at large organizations, I've seen it at small organizations, and we've all seen product messaging doesn't quite fit what the product actually does. Often times, that's due to a disconnect between marketing and engineering/product and/or the marketing team not understanding how to message a developer product. While people are quick to assume negative intentions of the marketing team, generally that isn't the case. It comes down to messaging and communication between marketing and your engineering/product team. Developers are awesome. Go talk to them.  
+"But how do we market to developers?" is a question I've seen asked multiple times at multiple organizations. Every company that's building tools for developers has at some point struggled on how to properly market to their target audience. I've seen it at large organizations, I've seen it at small organizations, and we've all seen product messaging doesn't quite fit what the product actually does. Often times, that's due to a disconnect between marketing and engineering/product and/or the marketing team not understanding how to message a developer product. While people are quick to assume negative intentions of the marketing team, generally that isn't the case. It comes down to messaging and communication between marketing and your engineering/product team. Developers are awesome. Go talk to them.  
 
 Is it hard to market to developers? No, however, there's a big focus on truth in marketing, getting a developer help fast when they need it, developer education, community, and making sure that your marketing doesn't over-promise what the product is capable of doing.  
 
 The team has to balance how you market a developer product with the expectations of the developer using that product. For example, most users of an developer tool will not expect an email from a demand generation team or BDR team and they certainly will not expect a phone call.
 
-So what do they expect? Developers will expect education, help getting started, tutorials, partner integrations that make their lives easier, and truth in marketing. Developers want truth in marketing, they want proper education, they want integrations that help them ,and they want the marketing team to kind of stay out of the way while quietly sprinkling helpful information around the areas that they are interested in.
+So what do they expect? Developers will expect education, help getting started, tutorials, partner integrations that make their lives easier, and truth in marketing. Developers want truth in marketing, they want proper education, they want integrations that help them, and they want the marketing team to kind of stay out of the way while quietly sprinkling helpful information around the areas that they are interested in.
 
-Some forums that developers use to get information are StackOverflow, Hacker News, Reddit, Twitter, GitLab Documentation, GitHub, a basic Google search, and all of these things channels should be taken into account when thinking about how to market a developer product. Where possible, try to offer community support via these forums. Be responsive.  
+Some forums that developers use to get information are [StackOverflow](https://www.stackoverflow.com), [Hacker News](https://news.ycombinator.com/), [Reddit](https://www.reddit.com/r/gitlab/), Twitter, GitLab Documentation, GitHub, a basic Google search, and all of these things channels should be taken into account when thinking about how to market a developer product. Where possible, try to offer community support via these forums. Be responsive.  
 
-For an event strategy, you need to not only think "how do I bring people together in a room that are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people that love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and because a developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will.
+For an event strategy, you need to not only think "how do I bring people together in a room that are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people that love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and because the developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will. Developer roundtables are awesome. You need a room, some developers using your product and someone to take notes.   
 
 For a content strategy, much of the same applies. Education, tutorials, and making it really easy to get started through blog posts, video, screencasts, office hours, webinars, etc.  
 
@@ -137,7 +99,7 @@ In product releases, when your users can see that feedback from the community is
 
 ### How we think about marketing an open-source product with a paid version  
 
-Marketing an open-source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open-source product. We have to make sure we are good stewards of the open-source project while also making money off of the paid edition, GitLab Enterprise Edition.  
+Marketing an open-source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open-source product. We have to make sure we are [good stewards of the open-source project](https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/) while also making money off of the paid edition, GitLab Enterprise Edition.  
 
 The balance can be tricky but if you pay attention to detail, never forget your community, always make it easy to contribute while also marketing your enterprise product to only the people that can use it, then you should be okay.  
 
@@ -169,8 +131,7 @@ The message targeting for the top down strategy will be different from the botto
 
 Top down marketing and bottom up marketing meets in the middle at the product. Your product must be rock solid. Product excellence is a key part of developer marketing strategy in the enterprise.
 
-We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.  
-
+We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.
 
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
@@ -246,12 +207,13 @@ as we are using the markdown parser to mix it up with markdown. Intending will g
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Demand Generation (to be included).
+Demand Generation at GitLab focuses on online marketing, field marketing, business development, campaign planning, funnel metrics, marketing operations, and marketing automation. Demand Generation is responsible for the top of the lead funnel all the way to SQL.
+
+The focus for the second half of 2016 is on hiring, new business pipeline, demand infrastructure, and events.
 
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Joe][joe]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Hank][hank]{:.btn .btn-orange}
 
 ### Business Development
 {: .no_toc}
@@ -261,6 +223,7 @@ What is BD (to be included).
 [Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv}
 [Handbook][Business Development]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
@@ -280,6 +243,7 @@ What is Marketing Operations (to be included).
 
 [Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
 [Handbook][Marketing Operations]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> JJ][jennifer]{:.btn .btn-orange}
 
 ### Online Marketing
 {: .no_toc}
@@ -309,7 +273,7 @@ What is Online Marketing (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Short description: what does Design does for GitLab (to be included).
+Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
 
 [Job Description](/jobs/designer/){:.btn .btn-purple-inv}
 [Handbook][Design]{:.btn .btn-purple}
@@ -334,7 +298,20 @@ Short description: what does Design does for GitLab (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Developer Relations (to be included).
+Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
+
+- What are scalable developer education tools?
+- How do we turn in person feedback at events into actionable product requests?
+- What are the best and most engaging talks we can give to help educate developers?
+- How do we support the community?
+- How do we make the documentation even better?
+- How do we make it even more fun and easy to get started?
+- What is engaging developer content for blog, video, social media?
+- How do we build our global meetup plan so word of mouth + make it easy to love GitLab?
+- What is the developer GitLab experience?
+- How do we use social media to support the community?
+- How do field marketing and developer relations work together to support the community?
+
 
 ### Developer Advocacy
 {: .no_toc}
@@ -377,7 +354,8 @@ At GitLab, tech writers are the folks who take care of writing and maintaining t
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Product Marketing (to be included)
+
+Product Marketing at GitLab focuses on product messaging, product launch marketing, partner marketing, channel marketing, PR/AR, and content marketing.  
 
 [Job Description](/jobs/product-marketing-manager){:.btn .btn-purple-inv}
 [Handbook](/handbook/marketing/product-marketing){:.btn .btn-purple}
@@ -390,6 +368,7 @@ What is Content Marketing (to be included)
 
 [Job Description](/jobs/content-marketing-manager){:.btn .btn-purple-inv}
 [Handbook][Content Marketing]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Erica][erica]{:.btn .btn-orange}
 
 ### Partner Marketing
 {: .no_toc}
@@ -613,7 +592,7 @@ The meeting should run as follows:
 
 **Run time: 30 minutes**
 
-All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or slack.
+All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
 
 The meeting should run as follows:  
 
@@ -633,7 +612,7 @@ The Monthly Marketing Townhall is open to the entire company for questions, idea
 
 To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Monthly Marketing Townhall Agenda"
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
 - 24 hours prior to the meeting all marketing members should have their sections of the agenda completed.  
 - The CMO will email all attendees reminding them to take a look at the agenda and add any questions to the top of the meeting.  
@@ -654,52 +633,46 @@ help with any questions. There is an agenda for this meeting, but it also should
 
 The meeting should run as follows:
 
-- First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
+- First 60 seconds: Post funny GIFs in our chat `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
-- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)
+- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
 
-### Quarterly marketing review
+### Quarterly marketing summit
 {: .no_toc}
 
-**Meeting goal: How did the last quarter go? What should we do for the upcoming quarter?**
+**Meeting goal: Planning for the upcoming quarter**
 
-**Run time: 120 minutes**
+**Run time: Full Day**
 
-The Quarterly Marketing Review takes the place of the Monthly Marketing Meeting every last month of the new Quarter.
-
-CMO works with the functional group leads to review planning for each group.
+CMO builds agenda and assigns ownership for each session.
 
 The meeting should run as follows:
 
-- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?  
-- Head of Product Marketing reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Developer Relations reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Demand Generation reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Head of Design reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
-- Team agrees on what key takeaways are from the last quarter.  
-- Team agrees on what our Team OKRs should be for the upcoming quarter.  
+- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?
+- Team agrees on what key takeaways are from the last quarter.
+- Team agrees on what our Team OKRs should be for the upcoming quarter.
 
 ## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
-When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
+When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.
 
 - Respond to your emails by end of next business day.
-- Respond when you are cc'd with an action item on issues by end of next business day.  
-- Be on time to meetings. We start at on time.  
+- Respond when you are cc'd with an action item on issues by end of next business day.
+- Be on time to meetings. We start at on time.
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-- Do not ping someone in a public channel on Slack on the weekends. This is rude.
+- Do not ping someone in a public channel on chat on the weekends. This is rude.
 
 ## <i class="fa fa-file-code-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Handbook Updates
 {: #handbook}
 
 Anything that is a process in marketing should be documented in the Marketing Handbook.
 
-- Format of all pages should be as follows:  
+- Format of all pages should be as follows:
     - Welcome to the Handbook.
     - Functional group overview if handbook for entire functional group or organization.
     - "On this page" index of all top level headers on the current page ([create a ToC]).
@@ -716,10 +689,10 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
 - [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-### <i class="fa fa-slack fa-fw slack font-awesome" aria-hidden="true"></i> Slack Marketing channels
+### Chat Marketing channels
 {: #chat}
 
-We use Slack internally as a communication tool. The marketing channels are as follows:  
+We use our chat internally as a communication tool. The marketing channels are as follows:  
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
 - Advertising - Online marketing channel
@@ -737,14 +710,14 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - Support - Ask any and all technical questions here for a quick response.
 - SFDC users - Having issues with SFDC? Ask here first.
 
-### <i class="fa fa-paper-plane-o fa-fw email font-awesome" aria-hidden="true"></i> Marketing email alias list
+### Marketing email alias list
 {: #email}
 
-- Community@gitlab.com is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
-- Marketing@gitlab.com is an internal team email address for everyone on the marketing team.  
-- Press@gitlab.com directs to the CMO and Senior Product Marketing Manager.  
-- News@gitlab.com is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
-- Securityalerts@gitlab.com is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
+- Community@ company domain is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
+- Marketing@ company domain is an internal team email address for everyone on the marketing team.  
+- Press@ company domain directs to the CMO and Senior Product Marketing Manager.  
+- News@ company domain is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
+- Securityalerts@ company domain is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
 
 <!-- IDENTIFIERS -->
 
@@ -778,13 +751,15 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [ashley]: https://gitlab.com/u/AshleyS
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
+[chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
 [emily]: https://gitlab.com/u/emilykyle
-[hank]: https://gitlab.com/u/hanktaylor
+[erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
+[jennifer]: https://gitlab.com/u/jjcordz
 [luke]: https://gitlab.com/u/lukebabb
-[marcia]: https://gitlab.com/u/virtuacreative
+[marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
 
@@ -887,8 +862,14 @@ We use Slack internally as a communication tool. The marketing channels are as f
   background-color: #fff;
   border-color: rgba(107,79,187,.5);
 }
-ul.toc-list-icons,
+ul.toc-list-icons {
+  list-style-type: none;
+  padding-left: 25px;
+}
 ul.toc-list-icons li ul {
+  padding-left: 25px;
+}
+ul.toc-list-icons {
   list-style-type: none;
   padding-left: 25px;
 }
@@ -899,12 +880,6 @@ ul.toc-list-icons li i,
 ul.toc-list-icons li ul li i {
   padding-right: 15px;
   color: rgb(107,79,187);
-}
-.slack {
-  color: rgb(224,23,101);
-}
-.email {
-  color: rgb(192,0,0);
 }
 ul.toc-list-icons li:nth-of-type(even) i {
   color:rgb(252,109,38);

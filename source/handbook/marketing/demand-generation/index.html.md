@@ -8,6 +8,8 @@ The Demand Generation organization includes Demand Generation, Business Developm
 
 ## On this page
 * [References](#references)
+* [Campaigns](#campaigns)
+* [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
 * [Soft-BANT](#bant)
@@ -40,6 +42,21 @@ The Demand Generation organization includes Demand Generation, Business Developm
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
 
+## Campaigns<a name="campaigns"></a>
+Demand Gen is responsible for executing marketing campaigns for GitLab.  We define a campaign as any programmed interaction with a user, customer, or prospect.  For each campaign, we will create a campaign brief that outlines the overall strategy, goals, and plans for the campaign.
+
+## Campaign Brief Process<a name="campaignbrief"></a>
+To create a campaign brief, first start with the [campaign brief template](https://docs.google.com/a/gitlab.com/document/d/1GttZqr7sjuvP9kWuIPfbif2b2VyNJtbN8CbL4tKJX2Q/edit?usp=sharing).  Fill out all fields in the brief as completely as possible.  Certain fields might not be applicable to a particular campaign.  For example, an email nurture campaign leveraging text based emails won’t have a visual design component.  This field can be left blank in that example. 
+
+Once the campaign brief is filled out, create an issue in the GitLab Marketing project and link to the campaign brief.
+
+On the GitLab issue, make sure to:
+* Tag all stakeholders
+* Use the Marketing Campaign label
+* Set the appropriate due date (the due date should be the campaign launch date)
+* If there are specific deliverables, create a todo list in the issue description for each stakeholder along with a due date
+
+
 ## Inbound Lead Flow<a name="leadFlow"></a>
 
 1. Lead comes into BDR team via one of the named Inbound Lead routes above.
@@ -60,8 +77,9 @@ The Demand Generation organization includes Demand Generation, Business Developm
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
 8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
-9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
+10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
+11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
 ## Soft-BANT<a name="bant"></a>
 
@@ -179,9 +197,10 @@ Currently, the newsletter consists of four blocks of content. Each block of cont
 
 For example:
 
-![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
+![newsletter block example](https://about.gitlab.com/images/handbook/marketing/newsletter-example-block.png)
 
 The different content ideas are placed in the newsletter issue using the following format:
+
 ```
 [Required] title/topic:
 

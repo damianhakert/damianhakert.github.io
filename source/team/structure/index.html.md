@@ -25,6 +25,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
       - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
       - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
+      - [Marketing Operations Manager](https://about.gitlab.com/jobs/marketing-operations-manager/) - Jennifer Cordz
       - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
@@ -43,8 +44,9 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Customer Success](/handbook/customer-success) - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
-    - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/)
-  - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (vacancy)
+    - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/) - Francis Aquino
+  - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
+    - [People Operations Generalist](/jobs/people-ops-generalist/)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
     - Accounting - [Controller](/jobs/controller/) - Wilson Lau
@@ -58,9 +60,10 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Infrastructure](/handbook/infrastructure/) - [Infrastructure Lead](/jobs/infrastructure-lead/) - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
+      - [Database specialists](/jobs/specialist/database/)
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) that are packaging specialists
-    - [Support](/handbook/support/) - [Support lead](/jobs/support-lead) - José Torres
+    - [Support](/handbook/support/) - [Support lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)
     - CI - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) that are CI specialists
@@ -69,5 +72,5 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Developers](/jobs/developer/) that are a merge request coach
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
   - [General Product](/handbook/product/) - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
-  - [CI/CD Product](/direction/cicd/) - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
+  - [CI/CD Product](/handbook/product/#cicd) - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
   - Strategic Partnerships - [Director of Strategic Partnerships](/jobs/director-strategic-partnerships/) - Eliran Mesika

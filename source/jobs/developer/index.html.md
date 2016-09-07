@@ -13,10 +13,10 @@ Developers can specialize immediately after joining, or after some time, when th
 ## Responsibilities
 
 * Develop features from proposal to polished end result.
-* Support our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
-* Engage with the core team and the open source community and collaborate on improving GitLab.
-* Review code contributed by the rest of the community and work with them to get it ready for production.
-* Write documentation around features and configuration to save our users time.
+* Support and collaborate with our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
+* Engage with the core team and the open source community to collaborate on improving GitLab.
+* Manage and review code contributed by the rest of the community and work with them to get it ready for production.
+* Create and maintain documentation around features and configuration to save our users time.
 * Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
@@ -27,15 +27,12 @@ Developers can specialize immediately after joining, or after some time, when th
 * You are passionate about open source
 * You have worked on a production-level Rails application
 * You know how to write your own Ruby gem using TDD techniques
+* Strong written communication skills
+* Experience with Docker, nginx, and Linux system administration a plus
+* Experience with online community development a plus
+* Self-motivated and have strong organizational skills
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
-
-We typically hire people who have experience in programming languages used
-at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
-excellent experience in other languages and frameworks. Tackling a GitLab CE
-issue is a good way to demonstrate your ability to learn and debug.
-
-
 
 ## Workflow
 
@@ -91,3 +88,8 @@ In the cover letter field please note that you want an internship and link to
 the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
 example, fixing 10 typos isn't as valuable as shipping 2 new features.
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)

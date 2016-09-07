@@ -11,6 +11,7 @@ extra_css:
 ## Index
 
 - [Bias](#bias)
+- [Open-Core](#open-core)
 - [GitLab CE vs. GitLab EE](#gitlab-ce-vs-gitlab-ee)
 - [GitLab vs. GitHub](#gitlab-vs-github)
 - [GitLab EE vs. GitHub Enterprise](#gitlab-ee-vs-github-enterprise)
@@ -25,6 +26,9 @@ extra_css:
 
 Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab. If you find something that is invalid, biased, missing, or out of date in the comparisons, please [open a merge request for this website](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests) to correct it. As with all the pages on this website you can find where this page lives in the repository via the link in the footer.
 
+## Open-Core
+GitLab is an open-core product whereas GitHub and BitBucket are closed-source products. The GitLab Community Edition is fully open-source, and the Enterprise Edition is closed-source.
+
 ## GitLab CE vs. GitLab EE
 
 To learn more about how GitLab Community Edition compares to GitLab Enterprise Edition, take a look at the [comparison table on our features page][comparison-versions].
@@ -32,6 +36,10 @@ To learn more about how GitLab Community Edition compares to GitLab Enterprise E
 [comparison-versions]: https://about.gitlab.com/features/#compare
 
 ## GitLab vs. GitHub
+
+### Faster from Idea to Production
+
+GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform. You can read more about our [vision](https://about.gitlab.com/direction/#vision).
 
 ### Multiple authentication Levels
 
@@ -171,7 +179,7 @@ To ensure strict code review, you can require a specific number of approvals on 
 Easily migrate all repos and merge request data from your previous provider.
 
 ### Security and Policy enforcement
-Git Hooks and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.
+Push Rules and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.
 
 ### Issue Weights
 Manage issues using Agile practices by setting the weight of an issue.

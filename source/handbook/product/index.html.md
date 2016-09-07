@@ -3,16 +3,34 @@ layout: markdown_page
 title: Product
 ---
 
+**Table of contents**
+
+- TOC
+{:toc}
+
 ## Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab CE)**](https://gitlab.com/gitlab-org/gitlab-ce) and **for [GitLab EE**](https://gitlab.com/gitlab-org/gitlab-ee); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Chat channel**](https://gitlab.slack.com/archives/product); please use the `#product` chat channels for questions that don't seem appropriate to use the issue tracker or more generic chat channels for.
 
+# Goals of Product
+
+Everyone at GitLab is involved with the product. It's the reason why we are
+working together.
+
+With every release of GitLab, we want to achieve the each of the following
+goals.
+
+1. Improve GitLab's existing tools
+1. Achieve [our vision](https://about.gitlab.com/direction/#vision) of a complete toolset
+1. Make our product more interesting for our customers through Products and
+EE exclusive features
+
 # Product at GitLab
 
 GitLab is designed and developed in a unique way.
 
-This document provides lessons and heuristics on how to design changes
+The direction for the GitLab product is spelled out on the [Direction page](/direction). This document provides lessons and heuristics on how to design changes
 and new features.
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome._
@@ -120,3 +138,11 @@ certain behaviors.
 
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
+
+## CI/CD<a name="cicd"></a>
+
+For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
+
+# Links
+
+- [Engineering Workflow](/handbook/engineering/workflow)

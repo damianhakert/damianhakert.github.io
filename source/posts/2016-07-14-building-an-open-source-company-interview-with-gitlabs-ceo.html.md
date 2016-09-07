@@ -6,6 +6,8 @@ categories: inside GitLab
 image_title: '/images/team_gitlab.png'
 ---
 
+Please note that while we think of ourselves as an open source company it would be more accurate to call it an open core company since we ship both the open source GitLab Community Edition and the close source GitLab Enterprise Edition. Thanks to paxcoder for [pointing this out on Hacker News](https://news.ycombinator.com/item?id=12129626).
+
 [GitLab] began as a labor of love from [Dmitriy Zaporozhets] and [Valery Sizov], who built the first version together in 2011. Like many open source authors, they were only able to work on the project part time. [Sid Sijbrandij] joined forces a year later and created [GitLab.com], the first SaaS offering and first experiment with monetization.
 
 <!-- more -->
@@ -45,7 +47,7 @@ We then looked at the SaaS product and realized most of the revenue is going to 
 **GitLab has a pretty impressive list of customers. How did they find out about GitLab? Did you do any marketing or outbound?**
 {: .alert .alert-info}
 
-**Sid:** No, nothing. They just found the open source project. If you wanted proper version control, single tenant, and open source, GitLab was and is the best option. We are just now beginning to do sales hired three inbound SDRs and an outbound SDR Lead in the last two months, so we’re just now starting to build those teams.
+**Sid:** No, nothing. They just found the open source project. If you wanted proper version control, single tenant, and open source, GitLab was and is the best option. We are just now beginning to do sales and hired three inbound SDRs and an outbound SDR Lead in the last two months, so we're just now starting to build those teams.
 
 **Does GitLab’s success with the on premise model challenge the conventional wisdom that everything, including the enterprise is moving to the cloud?**
 {: .alert .alert-info}

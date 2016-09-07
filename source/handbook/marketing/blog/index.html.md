@@ -115,7 +115,7 @@ Not a GitLab Team member? Check the process for Community Writers below.
 
 ### Publishing process for Community Writers
 
-For our [community writers], we will follow the Scalable Writing System described below. 
+For our [community writers], we will follow the Scalable Writing System described below.
 
 1. Guest Writer - choose a subject:
    - Make sure you are familiar with [GitLab Workflow]
@@ -131,7 +131,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 4. Reviewers:
   - Amara will take a first look to approve the article for review, and assign Marcia for the first review
   - When first review is finished, Marcia will assign Axil for a detailed technical review
-  - When finished, Axil will reassing the MR to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
+  - When finished, Axil will reassign the merge request to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
 5. Content Marketing: publish
   - Content Marketing will place the date for publishing
   - Amara will merge and tweet/Facebook
@@ -182,7 +182,7 @@ Twitter account, and schedule follow up tweets and LinkedIn and Facebook.
 
 - The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads
 - You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook]
-- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector
+- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
 - What worked for Apigee was the 'collaboration in the 21st century' theme
 - Explore a reading club such as [a NoSQL summer]
 - Milk [GitLab Flow] for more blog posts and videos
@@ -196,7 +196,7 @@ We invite and encourage guest writers and also offer compensation through the [C
 ## Blog Style Guidelines
 {: #styles-guidelines}
 
-This style guide is specifically for blog posts on [about.GitLab.com/blog][blog]. 
+This style guide is specifically for blog posts on [about.GitLab.com/blog][blog].
 
 ### Assumptions
 
@@ -207,7 +207,7 @@ is not documented, please consider contributing to the docs first, or bring it t
 Before writing, make sure you've read through this Style Guidelines, the [Blog directives][marketing-blog], the [Technical Aspects], the
 [Professional Writing Techniques][writing-tech] and the [Markdown Style Guide].
 
-Before submitting your post for review, make sure you: 
+Before submitting your post for review, make sure you:
 
 - Forked the project [www-gitlab-com] and cloned your fork to your computer
 - Have [Git], [Bundler] and [Middleman] installed locally
@@ -233,43 +233,57 @@ All posts are written in markdown Kramdown. Please read through the [Markdown St
 The post **frontmatter** is the first part of any post. It is standard and cannot be changed, so please make
 sure to provide the correct information, and do not add nor remove anything from the default template:
 
-```
+```yaml
 ---
 title: "This is the post title"
 author: Firstname Lastname
 author_twitter: userID
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
+description: "Short description for the blog post" # included in August, 2016
+---
+```
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image` and `description`!
+{: .alert .alert-warning .ambar}
+
+```yaml
+---
+title: "This is the post title"
+author: Firstname Lastname
+author_twitter: userID
+categories: technical overview
+image_title: '/images/blogimages/post-cover-image.jpg'
+description: "Short description for the blog post"
+twitter_image: '/images/tweets/post-screenshot-image.png'
 ---
 ```
 
 #### Title
-{: .no_toc}
 
 Make sure the post title represents very well the subject, and make it as short as possible.
 Do the same for headings.
 
 #### Author Name
-{: .no_toc}
 
 Use the author's full name. If the name has special chars, type it within
 double quotes `"Full Name"`.
 
 #### Twitter Handle
-{: .no_toc}
 
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
 #### Categories
-{: .no_toc}
 
 Use only **one** of the following categories per post.
 **Do not** capitalize nor pluralize them, nor change any letter,
 otherwise you'll create another category, which is somenthing we don't want to do unpurposely.
 
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
+- events
 - git
-- GitLab _(all GitLab products/features: CI, Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab CI
 - GitLab CE _(use it when highlighting CE features, advantages, etc.)_
 - GitLab EE _(EE-only features)_
 - GitLab workflow _(issues, merge requests, confidential issues, milestones, todos, etc.)_
@@ -290,23 +304,83 @@ If you think we are missing an important category, please let us know by adding 
 to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
 
 #### Cover Image
-{: .no_toc #cover-image-frontmatter}
+{: #cover-image-frontmatter}
 
 Do not leave the post without a cover image (`image_title`), unless you have a strong reason to do so.
 Read more about it [below](#cover-image).
 
+#### Description
+
+The `description` meta tag [is important][description-tag]
+for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
+[post frontmatter](#frontmatter), as a small summary of what the post is about.
+
+It's a way of making the post title shorter, then add complementary information in the description.
+It's not meant to repeat the post title, use your creativity to describe what's in the post.
+Try to use about 70 to 100 chars in one sentence.
+
+It is mandatory for all the new posts, and it [has been included][MR-description] in the default post
+frontmatter generated by [the command `rake new_post`](#create-a-new-post).
+
+Use this syntax:
+
+```yaml
+description: "This is an example description for a blog post."
+```
+
+See the following section "Social Media Info" for more information.
+
+#### Social Media Info
+
+When you post a link on Facebook or Twitter, either you can
+see only a link, or a full interactive card, which displays
+information about that link: title, **description**, **image** and URL.
+
+For Facebook these cards are configured via [OpenGraph Meta Tags][OG].
+[Twitter Cards] were recently setup for our website as well.
+
+Please compare the following images illustrating post's tweets.
+
+A complete card will look like this:
+
+![Twitter Card example - complete][twitter-card-comp]
+
+An incomplete card will look like this:
+
+![Twitter Card example - incomplete][twitter-card-incomp]
+
+Note that the [first post] has a **specific description** and the image is a **screenshot**
+of the post's cover image, taken from the [Blog landing page][blog]. This screenshot
+can be taken locally when previewing the site at `localhost:4567/blog/`.
+
+All the screenshots for `twitter_image` should be pushed to the [www-gitlab-com] project
+at `/source/images/tweets/` and must be named after the post's file name.
+If the post is called `2016-03-20-hello-world.html.md`, the tweet image
+must be named `hello-world.png` (or `.jpg`).
+
+For the [second post] above, note that the tweet image is the blog post cover image itself,
+not the screenshot. Also, there's no `description` provided in the frontmatter, so our
+Twitter Cards and Facebook's post will present the _fall back description_,
+which is the same for all [about.GitLab.com].
+
+The `description` is a [mandatory field](#description), though the `twitter_image` is optional.
+Whenever possible, provide the post screenshot image to make it easier to our audience to identify
+a GitLab Blog Post straight away when scrolling their feed.
+
+You can check and preview them with the [Twitter Card Validator]
+and the [Facebook Debugger].
+
 #### Comments
-{: .no_toc}
 
 Comments are present in all posts by default. Set it to false only if you have a strong reason to
 do so (`comments: false`). They are our best source of feedback on posts.
 
 #### Date
-{: .no_toc}
 
 The variable `date: yyyy-mm-aa hh:mm:ss` is not necessary in the frontmatter anymore, unless you want
 to set an specific time. If you do, just make sure that the date in the file name matches with
-the date in the frontmatter, otherwise the build will fail.
+the date in the frontmatter, otherwise the build will fail. It's going to be necessary when publishing
+more than one post per day. The latest will stay on the top of the [blog landing page][blog].
 
 ### Create a new post
 
@@ -341,7 +415,7 @@ It must be written by the author her/himself.
 you can add this section to show your gratitude to your colleagues.
 
 If the article is part of a series, make sure to link back among all articles
-in the series to each one after they get published. 
+in the series to each one after they get published.
 
 ### Tutorials
 
@@ -359,7 +433,7 @@ As explained on the [Professional Writing Techniques][writing-tech], always prov
 Illustrate your examples, with code blocks or screenshots. Be consistent along your examples. E.g., if you are using a generic URL
 to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, throughout the post.
 
-**Important security point:** Do not expose your personal details by using your real tokens or 
+**Important security point:** Do not expose your personal details by using your real tokens or
 security credentials.
 Use placeholders such as `[project's CI token]` stub instead. Or blur them if displayed on screenshots.
 
@@ -380,7 +454,7 @@ for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screen
 #### Preparing images
 {: .no_toc}
 
-For the blog, images should be cropped in a 700 x 490 pixel *proportion* 
+For the blog, images should be cropped in a 700 x 490 pixel *proportion*
 so the image doesn't get clipped when displayed as a lead image in the blog list.
 This includes the cover image.
 Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
@@ -388,7 +462,7 @@ Compress the image, for example using [TinyPNG.com][tinypng] or any other image 
 #### Where to place images
 {: .no_toc}
 
-Images used to illustrate articles should be placed in the `/source/images/blogimages/` directory. 
+Images used to illustrate articles should be placed in the `/source/images/blogimages/` directory.
 Unless they are 'free to use' lead images from [Unsplash][unsplash], which should be placed in the
 `/source/images/unsplash` directory.
 
@@ -397,7 +471,7 @@ Unless they are 'free to use' lead images from [Unsplash][unsplash], which shoul
 
 If you are using a set of images, create a **new directory** under `/source/images/blogimages/`, name it according to
 your post's title and add all the images there. For example, if your post has a file name
-`2015-03-20-my-awesome-post.html.md`, your new folder should be named `/my-awesome-post/`. 
+`2015-03-20-my-awesome-post.html.md`, your new folder should be named `/my-awesome-post/`.
 
 If you use just a couple images, you can add them directly to `/source/images/blogimages/`, but make sure they begin with the same
 name as you post's. This way it's easy to anyone know which image is related to each post. Name the files according to the previous example.
@@ -408,21 +482,40 @@ So, following the same logic, your cover image would be named `my-awesome-post-c
 {: .no_toc}
 
 Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
-of an image, use one of these: 
+of an image, use one of these:
 
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
 
-### GitLab Specific Terms 
+### GitLab Specific Terms
 
 - **GitLab** is always spelled with capital "G" and "L".
-- If you're writing about the CI feature, it's not a separate product. 
+- If you're writing about the CI feature, it's not a separate product.
 For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner", capital "R".
 - **GitLab, Inc.** is the company. **GitLab** is the SaaS, which refers to **GitLab.com**, **GitLab EE** and **GitLab CE**.
-- We refer to **GitLab team members** instead of staff. 
+- We refer to **GitLab team members** instead of staff.
 - Make sure the CI configuration file is spelled ``` `.gitlab-ci.yml` ```, with the leading period and backticks.
 - When we refer to specific configuration sections or pages in GitLab they should be in **bold**.
 - Refer to this website as **about.GitLab.com**, with capital "G" and "L", as always. **GitLab.com** is not the website, is the SaaS.
+
+----
+
+## Blog Content Calendar
+
+In the spreadsheet below you'll find posts recently published (From 2016, June 1st on), together with some other posts that are queued for writing, reviewing and publishing. This calendar was implemented not long ago and is still being improved, it's opened to eventual changes and contributions.
+
+The link attached to the post title will lead you to the Merge Request, while the link on "Published" will lead you to the post itself.
+
+<figure class="video_container">
+<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=696487FB19CE5807&resid=696487FB19CE5807%21999&authkey=AG3_C1jCZa8qMWo&em=2&ActiveCell='Content%20Queue'!B1&wdHideGridlines=True"></iframe>
+</figure>
+
+<br>
+
+**Note:** Main Content Pillars, subjects, categories, names, content distribution, and other
+specific matters are still being discussed and polished.
+{: .note}
+
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -462,10 +555,13 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [about.GitLab.com]: https://about.gitlab.com/
 [android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
 [android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
-[blog]: https://about.gitlab.com/blog
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
+[blog]: https://about.gitlab.com/blog
 [bundler]: http://bundler.io/
+[description-tag]: http://www.wordstream.com/meta-tags
 [documentation]: http://docs.gitlab.com/
+[facebook debugger]: https://developers.facebook.com/tools/debug/
+[first post]: /2016/07/19/markdown-kramdown-tips-and-tricks/
 [git]: https://git-scm.com/
 [issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
 [(key)words]: http://www.wordstream.com/seo-keyword
@@ -473,18 +569,24 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [marketing-blog]: #blog
 [middleman]: https://middlemanapp.com/basics/install/
+[MR-description]: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2740/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
+[OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
 [Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
+[second post]: /2016/07/20/gitlab-is-open-core-github-is-closed-source/
 [Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
 [synonyms]: http://www.thesaurus.com/
+[tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
 [technical aspects]: #technical-aspects
 [technical writers]: /jobs/technical-writer/
-[tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
 [tinypng]: https://tinypng.com/
+[twitter card validator]: https://cards-dev.twitter.com/validator
+[twitter cards]: https://dev.twitter.com/cards/overview
+[twitter-card-comp]: /images/handbook/marketing/twitter-card-complete.jpg
+[twitter-card-incomp]: /images/handbook/marketing/twitter-card-incomplete.jpg
 [unsplash]: https://unsplash.com/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
-
 
 <!-- Styles -->
 
@@ -502,5 +604,8 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
  }
   .purple {
    color: rgb(107,79,187) !important;
+ }
+   .ambar {
+    color: rgb(138,109,59) !important;
  }
  </style>
