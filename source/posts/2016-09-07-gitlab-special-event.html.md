@@ -54,15 +54,11 @@ production using **Conversation Driven Developement (CDD)**.
 Everyone is invited to tune in, encouraged to ask questions, express
 opinions, and share ideas with us. At GitLab, **everyone can contribute!**
 
-## [Join us][event-page] for the live event from anywhere
+## Join us for the live event from anywhere
 
-Join us for this special event on Tuesday, September 13th at 1pm ET / 5pm GMT.
+[Register here][event-page] for this special event on Tuesday, September 13th at 1pm ET / 5pm GMT.
 Our CEO, Sid Sijbrandij, will give a special announcement and walk through the
 future plan for GitLab and software development. 
-
-## How to attend
-
-[Register here][event-page] for event details.
 
 <!-- identifiers -->
 
