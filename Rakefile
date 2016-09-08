@@ -138,11 +138,7 @@ task :build do
     end
   }
 
-  File.open('build.log', 'a') do |file|
-    file.puts ""
-    file.puts "rake build:      #{rake_build_time}"
-    file.puts ""
-  end
+  puts "bundle exec rake build time:      #{rake_build_time}"
 end
 
 PDFS = %w{
@@ -181,9 +177,9 @@ EOS
     abort("command failed: #{cmd.join(' ')}") unless system(*cmd)
 
   }
-  File.open('build.log', 'a') do |file|
-    file.puts "#{pdf.name} build time:   #{rake_pdfs_time.real}"
-  end
+
+  puts "#{pdf.name} build time:   #{rake_pdfs_time.real}"
+
 end
 
 desc 'Generate PDFs'

@@ -117,9 +117,7 @@ configure :build do
     end
   }
 
-  File.open('build.log', 'w') do |file|
-    file.puts "Direction page build time:     #{direction_time.real}"
-  end
+  puts "Direction page build time:     #{direction_time.real}"
 
   release_list_time = Benchmark.measure {
     ## Release list page
@@ -127,9 +125,7 @@ configure :build do
     proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
   }
 
-  File.open('build.log', 'a') do |file|
-    file.puts "Release list page build time:  #{release_list_time.real}"
-  end
+  puts "Release list page build time:  #{release_list_time.real}"
 end
 
 
