@@ -31,7 +31,6 @@ build:
     expire_in: 31 days
     paths:
       - public/
-      - profile/
 
 deploy:
   stage: deploy
