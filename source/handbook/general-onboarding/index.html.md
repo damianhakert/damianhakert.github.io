@@ -62,7 +62,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops: Add team member's birthday and work anniversary to the GitLab Birthdays calendar
    1. [ ] People Ops: Add new team member to the next monthly GitLab 101 call
    1. [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
-   1. [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
+   1. [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item. Also, add the three introduction questions listed in the sample email below (1. where were you before GitLab? 2. why did you want to join the GitLab team? 3. what do you enjoy doing in your spare time?).
    1. [ ] PeopleOps: If in a technical role, add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 1. [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 1. [ ] People Ops: Add to phishing testing platform
@@ -84,10 +84,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > that you join, please make sure that you connect at least 10 minutes
     > before the call and make sure that your camera and microphone are working
     > properly. We'd like you to introduce yourself to the team (±1 minute), so please
-    > prepare some talking points for yourself. Some tips to help you out here:
-    > tell us about where you were before GitLab, why you wanted to join our
-    > team, just a little something about your background and of course
-    > something on what you like to do in your spare time.
+    > be prepared to answer these three questions:
+    > 1. where were you before GitLab?
+    > 2. why did you want to join the GitLab team?
+    > 3. what do you enjoy doing in your spare time?
     >
     > Here is some swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
