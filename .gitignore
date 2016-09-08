@@ -8,10 +8,12 @@
 /.cache
 /.pygments-cache
 /.sass-cache
+build.log
 
 /build
 /node_modules
 /public
+/profile
 
 source/stylesheets/screen.css
 

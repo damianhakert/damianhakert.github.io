@@ -27,6 +27,8 @@ gem "httparty"
 gem "oga"
 gem "stringex"
 
+gem 'ruby-prof'
+
 group :development, :test do
   gem 'scss_lint', require: false
   gem 'yaml-lint', require: false

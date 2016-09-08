@@ -1,6 +1,7 @@
 require 'generators/direction.rb'
 require 'generators/release_list.rb'
 require 'extensions/breadcrumbs.rb'
+require 'benchmark'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -110,14 +111,27 @@ configure :build do
   activate :minify_html
 
   ## Direction page
-  if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+  direction_time = Benchmark.measure {
+    if PRIVATE_TOKEN
+      proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+    end
+  }
+
+  File.open('build.log', 'w') do |file|
+    file.puts "Direction page build time:     #{direction_time.real}"
   end
 
-  ## Releast list page
-  releases = ReleaseList.new
-  proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
+  release_list_time = Benchmark.measure {
+    ## Release list page
+    releases = ReleaseList.new
+    proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
+  }
+
+  File.open('build.log', 'a') do |file|
+    file.puts "Release list page build time:  #{release_list_time.real}"
+  end
 end
+
 
 page '/404.html', directory_index: false
 

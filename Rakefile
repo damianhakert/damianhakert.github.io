@@ -1,6 +1,7 @@
 require 'scss_lint/rake_task'
 require 'yaml-lint'
-require "stringex"
+require 'stringex'
+require 'benchmark'
 
 desc "Run all lint tasks"
 task lint: ['lint:scss', 'lint:yaml'] do
@@ -130,9 +131,17 @@ end
 
 desc 'Build the site in public/ (for deployment)'
 task :build do
-  build_cmd = %W(middleman build --verbose)
-  if !system(*build_cmd)
-    raise "command failed: #{build_cmd.join(' ')}"
+  rake_build_time = Benchmark.measure {
+    build_cmd = %W(middleman build --verbose --profile)
+    if !system(*build_cmd)
+      raise "command failed: #{build_cmd.join(' ')}"
+    end
+  }
+
+  File.open('build.log', 'a') do |file|
+    file.puts ""
+    file.puts "rake build:      #{rake_build_time}"
+    file.puts ""
   end
 end
 
@@ -151,23 +160,30 @@ PDF_TEMPLATE = 'pdf_template.tex'
 
 # public/foo/bar.pdf depends on public/foo/bar.html
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }, PDF_TEMPLATE] do |pdf|
-  # Avoid distracting 'newline appended' message
-  open(pdf.source, 'a') { |f| f.puts }
-  # Rewrite the generated HTML to fix image links for pandoc. Image paths
-  # need to be relative paths starting with 'public/'.
-  IO.popen(%W(ed -s #{pdf.source}), 'w') do |ed|
-    ed.puts <<-'EOS'
+
+  rake_pdfs_time = Benchmark.measure {
+    # Avoid distracting 'newline appended' message
+    open(pdf.source, 'a') { |f| f.puts }
+    # Rewrite the generated HTML to fix image links for pandoc. Image paths
+    # need to be relative paths starting with 'public/'.
+    IO.popen(%W(ed -s #{pdf.source}), 'w') do |ed|
+      ed.puts <<-'EOS'
 H
 g/\.\.\/images\// s//\/images\//g
 g/'\/images\/ s//'public\/images\//g
 g/"\/images\// s//"public\/images\//g
 wq
 EOS
+    end
+    options = %W(--template=#{PDF_TEMPLATE} --latex-engine=xelatex -V date=#{Time.now.to_s})
+    warn "Generating #{pdf.name}"
+    cmd = ['pandoc', *options, '-o', pdf.name, pdf.source]
+    abort("command failed: #{cmd.join(' ')}") unless system(*cmd)
+
+  }
+  File.open('build.log', 'a') do |file|
+    file.puts "#{pdf.name} build time:   #{rake_pdfs_time.real}"
   end
-  options = %W(--template=#{PDF_TEMPLATE} --latex-engine=xelatex -V date=#{Time.now.to_s})
-  warn "Generating #{pdf.name}"
-  cmd = ['pandoc', *options, '-o', pdf.name, pdf.source]
-  abort("command failed: #{cmd.join(' ')}") unless system(*cmd)
 end
 
 desc 'Generate PDFs'
