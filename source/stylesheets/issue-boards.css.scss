@@ -422,3 +422,19 @@
     }
   }
 }
+
+.getting-started-subheader {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $color-primary;
+  font-weight: 300;
+
+  @media (min-width: $screen-md-min) {
+    margin-top: -50px;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
