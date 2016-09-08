@@ -18,7 +18,7 @@ experience.
 
 The right candidate is truly passionate about customer advocacy and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence our customers and furthermore, directly impact GitLab’s overall success and growth.
 
-## Responsibilities:
+## Responsibilities
 
 * Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers.
 * Drive Account Growth Outcomes: Expand our revenue in accounts through up-sell opportunities with our GitLab EE Products, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
@@ -36,7 +36,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * 7 - 10 years of management experience – including at least three years heading a successful customer success or account management organization in an enterprise software environment
 * Strong understanding and knowledge of the account management role in successful cloud and enterprise environments
 * Successful and inspired leadership of a management team
-* Experience with account realtionhsip and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
+* Experience with account relationship and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
 * Experience successfully working with senior (C-level) executives
 * Demonstrated ability to lead managers and successfully manage global, distributed teams across cultures, lines of business, and geographies
 * Possesses a strong management presence and leadership ability, with communication and interpersonal skills that inspire and motivate leaders and teams
