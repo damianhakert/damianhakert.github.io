@@ -23,8 +23,6 @@ build:
   stage: build
   script:
     - bundle exec rake build pdfs
-  after_script:
-    - mv build.log profile/
   tags:
     - docker
   artifacts:
