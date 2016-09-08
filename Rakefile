@@ -132,7 +132,7 @@ end
 desc 'Build the site in public/ (for deployment)'
 task :build do
   rake_build_time = Benchmark.measure {
-    build_cmd = %W(middleman build --verbose --profile)
+    build_cmd = %W(middleman build --verbose)
     if !system(*build_cmd)
       raise "command failed: #{build_cmd.join(' ')}"
     end
