@@ -1120,23 +1120,6 @@
   story:  |
            Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake.
 
-- name: Jeanine Adkisson
-  locality: Oakland, CA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
-  picture: jneen.jpg
-  twitter: jneen_
-  gitlab: jneen
-  maintains: |
-              <li>Maintainer of <a href="https://github.com/jneen/rouge/">Rouge</a></li>
-  story:  |
-          Jeanine loves languages. She is the author of the syntax highlighting gem `rouge`
-          and is at GitLab working to make our language support and highlighting experience
-          the best the industry has to offer. When not at work, she wears a lot of different
-          hats - she makes chiptune music, works on her language, and makes jokes on the
-          internet.
-
 - name: Chris Peressini
   locality: Madrid
   country: Spain
@@ -1471,7 +1454,7 @@
           development at his past university. When Sean is not sharing the
           wonders of GitLab with others he can be found playing and coding
           games or exploring London.
-          
+
 - name: D.P.
   locality:
   country:
