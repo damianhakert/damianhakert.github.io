@@ -7,7 +7,6 @@ cache:
   key: "website"
   paths:
     - vendor
-    - public
 
 stages:
   - build
