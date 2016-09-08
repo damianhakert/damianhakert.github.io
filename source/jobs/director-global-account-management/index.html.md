@@ -35,7 +35,12 @@ The right candidate is truly passionate about customer advocacy and has a proven
 ## Requirements for applicant
 
 * 7 - 10 years of management experience – including at least three years heading a successful customer success or account management organization in an enterprise software environment
+<<<<<<< f493bcedafc4307d85f97d9914b7ad8c4da46268:source/jobs/director-global-account-management/index.html.md
 * Strong understanding and knowledge of the account management role in successful [ALM]([ALM](https://en.wikipedia.org/wiki/Application_lifecycle_management)) enterprise environments
+=======
+* Strong understanding and knowledge of the account management role in successful cloud and enterprise environments
+* Successful and inspired leadership of a management team
+>>>>>>> rebasing:source/jobs/dir-global-account-management/index.html.md
 * Experience with account relationship and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
 * Experience successfully working with senior (C-level) executives
 * Demonstrated ability to lead managers and successfully manage global, distributed teams across cultures, lines of business, and geographies
