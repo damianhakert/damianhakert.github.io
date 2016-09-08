@@ -4,7 +4,7 @@ before_script:
   - bundle install --jobs 4 --path vendor
 
 cache:
-  key: "website"
+  key: "vendor"
   paths:
     - vendor
 
