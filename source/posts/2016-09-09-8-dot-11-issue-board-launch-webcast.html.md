@@ -54,7 +54,7 @@ features of GitLab 8.11, and share what's next on our product roadmap.
 In case you don't have time to watch the full video, here are the highlights. 
 
 <div class="panel panel-gitlab">
-**GitLab build-in integrations** 
+**GitLab built-in integrations** 
 {: .panel-heading}
 <div class="panel-body">
 GitLab is an integrated set of tools, including repository management, access controls, code review, issue tracker, **Issue Board**, and wiki. GitLab supports the full software development lifecycle through its built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and [Container Registry][container].
