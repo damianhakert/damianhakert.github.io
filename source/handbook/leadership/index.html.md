@@ -5,6 +5,19 @@ title: Leadership
 
 ## Guidelines
 
+### Leadership Qualities
+- Honesty - Whatever ethical plane you hold yourself to, when you are responsible for a team of people, its important to raise the bar even higher. Your business and its employees are a reflection of yourself, and if you make honest and ethical behavior a key value, your team will follow suit.
+- Delegate -  It is important to remember that trusting your team with your idea is a sign of strength, not weakness. Delegating tasks to the appropriate departments is one of the most important skills you can develop as your business/team grows.
+- Communication - Knowing what you want accomplished may seem clear in your head, but if you try to explain it to someone else and are met with a blank expression, you know there is a problem. Being able to clearly and succinctly describe what you want done is extremely important. If you can’t relate your vision to your team, you won’t all be working towards the same goal.
+- Confidence - Part of your job as a leader is to put out fires and maintain the team morale. Keep up your confidence level, and assure everyone that setbacks are natural and the important thing is to focus on the larger goal. As the leader, by staying calm and confident, you will help keep the team feeling the same. Remember, your team will take cues from you, so if you exude a level of calm damage control, your team will pick up on that feeling.
+- Positive Attitude - You want to keep your team motivated towards the continued success of the company, and keep the energy levels up. 
+- Commitment - There is no greater motivation than seeing the boss down in the trenches working alongside everyone else, showing that hard work is being done on every level. By proving your commitment to the brand and your role, you will not only earn the respect of your team, but will also instill that same hardworking energy among your staff. It’s important to show your commitment not only to the work at hand, but also to your promises.
+- Creativity - Some decisions will not always be so clear-cut. Thnk outside the box and encourage others to think outside the box.  
+- Intuition - Learning to trust yourself is as important as your team learning to trust you.
+- Inspire - Being able to inspire your team is great for focusing on the future goals. It is your job to keep spirits up, and that begins with an appreciation for the hard work.
+- Approach - Not all human beings are the same. You must have the ability to customize your approach on a person by person basis, based on the situation at hand. You also must be apporachable to others.
+
+
 - As a leader team members will follow your behavior, always do the right thing.
 - Behavior should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
 - In tough times people will put it in their best efforts when they do it for each other.
