@@ -4,6 +4,7 @@ author: Ashley Smith
 author_twitter: ashl3ysm1th
 categories: inside GitLab
 image_title: '/images/blogimages/gitlab-background-team-pics.png'
+twitter_image: '/images/tweets/gitlab-marketing-strategy.png'
 description: "How we think about marketing a developer product"
 ---
 
