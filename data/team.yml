@@ -308,12 +308,12 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-cookbooks/cookbook-marketo-tools">cookbook-marketo-tools</a></li>
               <li>CephFS <a href="/jobs/expert/">expert</a></li>
-              <li>On-call hero!</li>
   story:  |
           Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
           At GitLab he really enjoys the combination of operations and development.
@@ -1046,8 +1046,8 @@
   twitter: northrup
   gitlab: northrup
   maintains:  |
-              <li>CephFS <a href="/jobs/expert/">expert</a></li>
               <li>On-call hero!</li>
+              <li>CephFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           John's interest in systems engineering surpassed 'normal' when he amassed a small data center in his house to explore theoretical design scenarios. Passionate about open source and taking his role as a 'unix beard' seriously, John loves to spread the gospel of technology to anyone who will listen. Wearing his Chef hat, and harnessing the magic of ChatOps, he is determined to make things fit into their containers.
 
@@ -1076,8 +1076,8 @@
   twitter: eReGeBe
   gitlab: eReGeBe
   maintains: |
-             <li>Performance specialist</li>
              <li>On-call hero!</li>
+             <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
           computers from the moment he once actually deleted System32 and tried
@@ -1267,8 +1267,8 @@
   twitter: ahmadsherif
   gitlab: ahmadsherif
   maintains: |
-             <li>Performance specialist</li>
              <li>On-call hero!</li>
+             <li>Performance specialist</li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
           on web forums back in 2003, hasn't stopped coding ever since. He's interested
