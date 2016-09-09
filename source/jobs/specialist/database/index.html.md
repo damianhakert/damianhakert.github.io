@@ -15,4 +15,4 @@ title: "Database Specialist"
 * Document answers and improves existing documentation
 * Write blog posts relevant to the community
 
-In addition, see the [Production Engineer job description](/jobs/production-engineer]).
+In addition, see the [Production Engineer job description](/jobs/production-engineer).
