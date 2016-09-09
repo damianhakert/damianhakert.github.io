@@ -129,7 +129,7 @@ Some of our GitLab team members in the Netherlands have a "werkvergunning" or wo
 
 - GitLab is a recognized organization ("erkend referrent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones.
 - Work permits must be renewed at the end of each contract period, but at minimum once every 5 years.
-- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://www.ind.nl/en/individuals/employee/costs-income-requirements/Income-requirements). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions.
+- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://www.ind.nl/en/individuals/employee/costs-income-requirements/Income-requirements) (with a step at age 30). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions.
 
 Here is a [generally helpful guide](http://www.expatica.com/nl/visas-and-permits/When-your-residence-permit-expires-or-you-want-to-leave-the-Netherlands_108416.html) on considerations around permit extensions.
 
