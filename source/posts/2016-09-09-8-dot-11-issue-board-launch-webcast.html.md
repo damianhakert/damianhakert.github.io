@@ -4,7 +4,7 @@ author: Amara Nwaigwe
 author_twitter: its_amaracle 
 categories: release
 image_title: '/images/blogimages/Issue_Board_Full_Screen.png'
-twitter_image: 
+twitter_image: '/images/tweets/8-dot-11-issue-board-launch-webcast.png'
 description: GitLab 8.11 was our biggest release to date. Hear our vision and watch a demo. 
 ---
 
