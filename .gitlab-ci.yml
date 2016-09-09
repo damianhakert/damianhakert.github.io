@@ -1,7 +1,8 @@
 image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
 
 before_script:
-  - bundle install --jobs 4 --path vendor
+  - which ruby
+  - bundle install --jobs $(nproc) --path vendor
 
 cache:
   key: "vendor"
