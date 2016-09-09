@@ -149,8 +149,15 @@ to any tickets from channels in category 3 and 4, but we do track response times
 
 #### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. When a ticket is breaching or has breached its SLA this ticket must be picked up by a Service Engineer independently of who is assigned to it. This also applies to tickets for Premium Customers.
+Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
 
+1. Tickets that are close to breaching "first time to reply" SLA
+1. Tickets that are close to breaching "next time to reply" SLA
+   - It is a courtesy to check with the assigned agent first, before "taking" one of these tickets. Ask if they can respond soon and offer to reply if they don't have the bandwidth.
+1. New tickets (not close to breaching)
+1. Other open tickets
+
+When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
 ## Support Channels
 
