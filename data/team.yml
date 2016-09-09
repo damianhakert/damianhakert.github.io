@@ -1455,16 +1455,16 @@
           wonders of GitLab with others he can be found playing and coding
           games or exploring London.
 
-- name: D.P.
-  locality:
-  country:
+- name: Dan Parris
+  locality: Maryland
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Business Development Team Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: dan-picture.jpg
+  twitter: _dparris
+  gitlab: dparris
   story:  |
-          Joining August 29th
+          Dan is passionate about people, using technology to solve problems, and enjoys finding new ways to help teams work better together. Before joining GitLab, he was involved with web development, and starting businesses. He's excited to contribute on the business development team, and when not at work, he enjoys being outdoors, playing sports, and traveling.
 
 - name: A.M.
   locality:
