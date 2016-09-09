@@ -45,8 +45,10 @@ end
 activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
+unless ENV['ENABLE_LIVERELOAD'] != '1'
+  configure :development do
+    activate :livereload
+  end
 end
 
 ##
