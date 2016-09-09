@@ -70,7 +70,7 @@ Our goal is to help teams go [faster from idea to production][cd-faster]. To do 
 </div>
 
 <div class="panel panel-gitlab-purple">
-**10-Step livecycle**
+**10-Step lifecycle**
 {: .panel-heading}
 <div class="panel-body">
 We will ship this complete lifecycle in 2016.
