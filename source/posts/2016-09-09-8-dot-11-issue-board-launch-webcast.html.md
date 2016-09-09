@@ -49,11 +49,32 @@ features of GitLab 8.11, and share what's next on our product roadmap.
 
 ## Key Takeaways
 
+{::options parse_block_html="true" /}
+
 In case you don't have time to watch the full video, here are the highlights. 
 
-* GitLab is an integrated set of tools, including repository management, access controls, code review, issue tracker, **Issue Board**, and wiki. GitLab supports the full software development lifecycle through its built-in Continuous Integration, Continuous Deployment, and Container Registry. 
-* Our goal is to help teams go faster from idea to production. To do that, we've built chat, issues, wikis, code review, CI, and CD into a single UI. 
-* We will ship this complete lifecycle in 2016.
+<div class="panel panel-gitlab">
+**GitLab build-in integrations** 
+{: .panel-heading}
+<div class="panel-body">
+GitLab is an integrated set of tools, including repository management, access controls, code review, issue tracker, **Issue Board**, and wiki. GitLab supports the full software development lifecycle through its built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and [Container Registry][container].
+</div>
+</div>
+
+<div class="panel panel-success">
+**Faster from idea to production**
+{: .panel-heading}
+<div class="panel-body">
+Our goal is to help teams go [faster from idea to production][cd-faster]. To do that, we've built chat, issues, wikis, code review, CI, and CD into a single UI. 
+</div>
+</div>
+
+<div class="panel panel-gitlab-purple">
+**10-Step livecycle**
+{: .panel-heading}
+<div class="panel-body">
+We will ship this complete lifecycle in 2016.
+
 1. Chat conversation &#8594; [Mattermost ships with GitLab][mattermost]
 1. Issue creation &#8594; [GitLab Issues][issue]
 1. Planning board &#8594; [GitLab Issue Board]
@@ -64,7 +85,16 @@ In case you don't have time to watch the full video, here are the highlights.
 1. Continuous Delivery &#8594; [GitLab Deploy][cd]
 1. Chatops &#8594; We're planning to ship [Cog]
 1. Feedback &#8594; We plan to ship with [Cycle Analytics][cycle]
-* GitLab Issue Board and Resolving Merge Conflicts in the UI are awesome features and you should really check them out. 
+</div>
+</div>
+
+<div class="panel panel-info">
+**New features**
+{: .panel-heading}
+<div class="panel-body">
+[GitLab Issue Board] and [Resolving Merge Conflicts in the UI][mr-conflicts] are awesome features and you should really check them out. 
+</div>
+</div>
 
 ## Join us on for a special event on September 13th
 
@@ -72,23 +102,46 @@ In case you don't have time to watch the full video, here are the highlights.
 Our CEO, [Sid Sijbrandij][Sid Sijbrandij], will share a special announcement and walk through the
 future plan for GitLab and software development. 
 
-Stick around after the announcement for a Q&A session with Sid, CEO, Job van der Voort, 
-VP of Product, Ashley Smith, Chief Marketing Officer, and guest MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
+Stick around after the announcement for a Q&A session with [Sid][Sid Sijbrandij], CEO, [Job van der Voort][job], 
+VP of Product, [Ashley Smith][ashley], Chief Marketing Officer, and guest MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
 
 <!-- identifiers -->
 
-[gitlab-vision]: https://about.gitlab.com/direction/#vision
-[Sid Sijbrandij]: https://twitter.com/sytses
-[jono-twitter]: https://twitter.com/jonobacon
+[8.11]: /2016/08/22/gitlab-8-11-released/
+[ashley]: https://twitter.com/ashl3ysm1th
+[cd-faster]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
+[cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[ci]: /gitlab-ci/
+[cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
+[container]: /2016/05/23/gitlab-container-registry/
+[cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975
 [event-page]: https://Page.gitlab.com/20160913_UnveilingMasterPlan_landingpage.html
 [GitLab Issue Board]: /solutions/issueboard/
-[issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
-[koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
-[mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
-[ci]: https://about.gitlab.com/gitlab-ci/
-[cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
-[container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
-[cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975
-[cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
-[8.11]: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
-[issue-board-launch]: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
+[gitlab-vision]: /direction/#vision
+[issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
+[issue]: /2016/03/03/start-with-an-issue/
+[job]: https://twitter.com/Jobvo
+[jono-twitter]: https://twitter.com/jonobacon
+[koding]: /2016/07/26/koding-and-gitlab-integrated/
+[mattermost]: /2015/08/18/gitlab-loves-mattermost/
+[mr-conflicts]: /2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/
+[Sid Sijbrandij]: https://twitter.com/sytses
+
+<style>
+.panel-gitlab {
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab > .panel-heading {
+  color: rgb(226,67,41);
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-purple {
+  border-color: rgba(107,79,187,.3);
+}
+.panel-gitlab-purple > .panel-heading {
+  color: rgb(107,79,187);
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+}
+</style>
