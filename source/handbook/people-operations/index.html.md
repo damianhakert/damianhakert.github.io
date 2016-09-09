@@ -84,7 +84,6 @@ GitLab is committed to a policy of employment and advancement based on **qualifi
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
 b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
 
-
 This policy applies to all current employees and candidates for employment.
 
 ### Relocation
@@ -126,7 +125,13 @@ number is dialed.
 
 ## Dutch work permits
 
-Some of our GitLab team members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/EN/business/employer/highly-skilled-migrants/Pages/default.aspx) category of the Immigration and Naturalization Service (IND). GitLab is a recognized organization ("erkend referrent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones. Work permits must be renewed at the end of each contract period, but at minimum once every 5 years. This should be taken into account when issuing a new contract, since these are typically for either one year or for an indefinite period. Here is a [generally helpful guide](http://www.expatica.com/nl/visas-and-permits/When-your-residence-permit-expires-or-you-want-to-leave-the-Netherlands_108416.html) on considerations around permit extensions, including [income requirements](https://www.ind.nl/en/individuals/employee/costs-income-requirements/Income-requirements) at the time of the extension.
+Some of our GitLab team members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/EN/business/employer/highly-skilled-migrants/Pages/default.aspx) category of the Immigration and Naturalization Service (IND).
+
+- GitLab is a recognized organization ("erkend referrent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones.
+- Work permits must be renewed at the end of each contract period, but at minimum once every 5 years.
+- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://www.ind.nl/en/individuals/employee/costs-income-requirements/Income-requirements). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions.
+
+Here is a [generally helpful guide](http://www.expatica.com/nl/visas-and-permits/When-your-residence-permit-expires-or-you-want-to-leave-the-Netherlands_108416.html) on considerations around permit extensions.
 
 
 ## Paperwork people may need to obtain mortgage in the Netherlands
