@@ -32,7 +32,7 @@ addresses, etc. (fields are named the same in the contracts / PIAA to make this 
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
 1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
-1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign. 
+1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign.
 1. Once the contract is signed, place the signed pdf in the team member's folder in BambooHR.
 1. Delete the google doc that was used for the preparation of the contract; it is superseded by the signed version in BambooHR.
 
@@ -48,7 +48,7 @@ The following contracts are in Google docs that are viewable by anyone with the 
 
 ## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
 
-Core team members are an important part of the GitLab community. In order for these individuals to be able to participate in confidential GitLab communications we ask core team members to sign a [Non-Disclosure Agreement](https://docs.google.com/a/gitlab.com/document/d/18nYA_UoTqLY_L-rW5qGJxLJfxDGwK5v_NXZVg1hoQzM/edit?usp=sharing). This document is reviewed and signed by the CFO. 
+Core team members are an important part of the GitLab community. In order for these individuals to be able to participate in confidential GitLab communications we ask core team members to sign a [Non-Disclosure Agreement](https://docs.google.com/a/gitlab.com/document/d/18nYA_UoTqLY_L-rW5qGJxLJfxDGwK5v_NXZVg1hoQzM/edit?usp=sharing). This document is reviewed and signed by the CFO.
 
 ## Usability Testing Consent<a name="usability-consent"></a>
 

@@ -27,12 +27,10 @@ title: "People Operations"
 
 
 ## Role of People Operations
-<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
 ## Team Directory
-<a name="directory"></a>
 
 The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
@@ -44,7 +42,6 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Office addresses
-<a name="addresses"></a>
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
@@ -66,7 +63,6 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and Senior Director of People Operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee. When the CEO is away (e.g. vacation), the two other members of the committee can take a decision and inform the committee. Whatever the decision is, the compensation committee should be cc-ed (or bcc-ed) on the final email, so that the committee members can know that the loop was closed.
 
 ### Sick time - taking and reporting
-<a name="sick-time"></a>
 
 In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
 
@@ -83,11 +79,11 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 - Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
 
 ### Hiring Significant Other or Family Members
-<a name="family-hires"></a>
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:   
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
 b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+
 
 This policy applies to all current employees and candidates for employment.
 
@@ -99,7 +95,6 @@ If you change your address, you should let GitLab know the new address within a 
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
-<a name="benefits-us"></a>
 
 #### 401k
 
@@ -117,7 +112,6 @@ after the 1st of the month after your hire date.
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 ### Using RingCentral
-<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
 are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
