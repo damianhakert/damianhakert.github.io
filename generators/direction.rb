@@ -73,7 +73,7 @@ def generate_direction
 
   edition.each do |project|
     milestones = project.milestones
-    direction_output << "## #{project.name}\n\n"
+    direction_output << "### #{project.name}\n\n"
 
     milestones.each do |ms|
       if ms["due_date"] && Date.parse(ms["due_date"]) >= Date.today

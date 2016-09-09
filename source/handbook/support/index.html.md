@@ -236,7 +236,7 @@ This is can be requested either by GitLab or the reporter. If the reporter reque
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 
 1. No sensitive information.
-1. A link to the MR that fixed the issues.
+1. A link to the merge request that fixed the issues.
 
 If you need to grant HackerOne permissions to a new GitLab user, have an admin send
 an invitation from HackerOne and add you to the Internal group. You can find out who
@@ -502,11 +502,11 @@ Support often gets requests from gitlab.com users to release a username.
 This can be implemented if the following criteria are met:
 
 1. The account in question has no data.
-1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+1. There hasn't been any activity on the account (i.e. code, issues, merge requests)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
 1. Support has had two failed attempts to contact the user within a
- two week period.
+ two week period.   
 1. The user cannot be an owner of any active project.
 
 Usernames will be appended with `_idle` to keep the account active but

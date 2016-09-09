@@ -116,6 +116,16 @@ equivalent feature, but a feature request has been submitted for this.
 
 > [GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
 
+### Allow edits from upstream maintainers in branch
+
+In GitHub, when a user opens a pull request from a fork, they are given the
+option that allows the upstream repository contributors to collaborate with
+them on their new branch.
+
+GitLab allows you to restrict pushes very carefully, but does not have this option.
+
+> [GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
+
 ## GitLab EE vs. GitHub Enterprise
 
 ### Cost

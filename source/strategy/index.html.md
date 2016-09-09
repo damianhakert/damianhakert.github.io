@@ -103,21 +103,19 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 1. Work with our [strategic alliances](https://docs.google.com/a/gitlab.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit?usp=drive_web) to increase awareness and sales.
 
-2. Partner with Rocket Chat, ship it with GitLab and integrate it.
+1. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
+1. Publish our processes and plans in the handbook or link from there.
 
-4. Publish our processes and plans in the handbook or link from there.
+1. Keep hiring self-directed people that experience the freedom to suggest changes.
 
-5. Keep hiring self-directed people that experience the freedom to suggest changes.
+1. To preserve culture we should over communicate and regularly discuss our values.
 
-6. To preserve culture we should over communicate and regularly discuss our values.
+1. Drop minimum basic subscription user count to 1 user. DONE
 
-7. Drop minimum basic subscription user count to 1 user. DONE
+1. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
 
-8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
-
-9. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
+1. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
 
 ## Technology 2016
 

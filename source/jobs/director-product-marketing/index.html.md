@@ -1,24 +1,19 @@
 ---
 layout: job_page
-title: "Product Marketing Manager"
+title: "Director of Product Marketing"
 ---
-The Product Marketing Manager role includes 4 key areas of focus:
 
-* Monthly release management
-* Product messaging
-* Sales enablement
-* Market research
+As the Director of Product Marketing, you will be responsible for managing and building the team that focuses on GitLab's product, partner, and content marketing. 
 
 ## Responsibilities
 
-* Manage monthly release post with key understanding of technical details and ability to gather input from many people.
-* Create sales enablement materials like white-papers and case studies.
-* Conduct market research to understand buyer personas, competitive landscape, and other data to help influence marketing, sales, and product decisions.
-* Work with product and engineering to write feature highlights in addition to the monthly release post.
-* Help technical writing and engineering to write documentation.
-* Create positioning and copy for the website. Make sure the website is updated in all appropriate areas at release time.
-* Work with engineering and design on creating new ways to market products or releases. For example, infographics or animations explaining complex new features.
-* Manage expectations and timelines about upcoming features.
+* Positioning: Create positioning for GitLab's products and services. Write copy for the website and ensure it remains up to date. 
+* Launches: Develop and own quarterly cross-team marketing campaigns and GTM process to ensure successful, integrated “launches” for new and existing product features and company solutions.
+* Channel optimization: Maximizes the strengths of each channel or communication experience (e.g. website, blog, social, emails, press, events etc.) by clarifying how each will be used and how they build on each other.
+* Sales Enablement: Drive sales and marketing alignment. Create sales enablement materials like white-papers and case studies.
+* Cross-team collaboration: Work closely with the CRO, Director of Demand Gen, and Director of Strategic Partnerships to develop shared quarterly goals and make sure their needs are met.
+* Team management: Find rockstars and maintain a happy and effective team through setting goals, rewarding success, and opening gateways for career growth.
+* Reporting: Work with team to set clear goals, timing, and KPIs. Then ensure that those are communicated visible across the company and progress is reported regularly.
 
 ## Requirements
 

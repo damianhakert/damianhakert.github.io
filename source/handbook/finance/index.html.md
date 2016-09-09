@@ -118,7 +118,7 @@ VAT-number of GitLab BV (NL853740343B01).
 Invoices will arrive by email to ap@gitlab.com.
 
 1. Forward email to Sytse for approval.
-1. Create a .pdf copy of Syte's approval response.
+1. Create a .pdf copy of Sytse's approval response.
 1. File the invoice and approval in dropbox\GitLab Inc\inbox.
 1. Enter invoice in Quickbooks
 
@@ -207,7 +207,7 @@ At this point the invoicing process is complete. Now, continue on to the Cash Re
 
 ### Credit card customer
 
-Follow this procedure if the customer paid by credit card.  
+Follow this procedure if the customer paid by credit card.
 You may recall from the invoicing process that there was still a balance due when saving the invoice.  The following steps will record the payment and remove the balance due.
 
 1. Login to Stripe dashboard and click on Payments under Transactions (left hand side). You will see a listing of the latest Stripe transactions listed by amount, Recurly transaction, name, date and time. There is also an option to filter the report by clicking on XXX at the top left. Click on XXX to export to excel. This will give you a workbook area and also a breakdown of the fees which we will work on later.

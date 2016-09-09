@@ -41,10 +41,10 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
     - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) - Michael Alessio
-    - [Customer Success](/handbook/customer-success) - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
+    - Customer Success/Account Management - [Director of Global Account Management](https://about.gitlab.com/jobs/dir-global-account-management/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
-    - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/)
+    - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/) - Francis Aquino
   - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
     - [People Operations Generalist](/jobs/people-ops-generalist/)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
@@ -60,6 +60,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Infrastructure](/handbook/infrastructure/) - [Infrastructure Lead](/jobs/infrastructure-lead/) - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
+      - [Database specialists](/jobs/specialist/database/)
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) that are packaging specialists
     - [Support](/handbook/support/) - [Support lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
