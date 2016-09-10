@@ -5,7 +5,7 @@ before_script:
   - bundle install --jobs $(nproc) --path vendor
 
 cache:
-  key: "vendor"
+  key: "website"
   paths:
     - vendor
 
