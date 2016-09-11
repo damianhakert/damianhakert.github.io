@@ -1,4 +1,4 @@
-image: registry.gitlab.com/axil/gitlab-build-images:www-gitlab-com
+image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
 
 before_script:
   - which ruby
@@ -8,6 +8,7 @@ cache:
   key: "website"
   paths:
     - vendor
+    - public
 
 stages:
   - build
