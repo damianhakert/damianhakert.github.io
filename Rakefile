@@ -172,3 +172,13 @@ end
 
 desc 'Generate PDFs'
 task :pdfs => PDFS
+
+desc 'Remove PDFs'
+task :rm_pdfs do
+  PDFS.each do |pdf|
+    if File.exist? pdf
+      File.delete pdf
+      puts "Deleting #{pdf}"
+    end
+  end
+end

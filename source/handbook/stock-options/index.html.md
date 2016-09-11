@@ -13,6 +13,16 @@ title: "Stock Options"
 
 ----
 
+## Stock option grant levels
+
+|Level|Number of Options|
+|----|----:|
+|Sr. Director|15,000|
+|Director|10,000|
+|Sr. Manager / Lead / Sr. AE|5,000|
+|Manager / AE / Sr. Developer|2,500|
+|Individual contributor|2,000|
+
 ## About Your Ownership in GitLab
 
 At GitLab we strongly believe in employee ownership in our Company.  We are in business
@@ -207,15 +217,6 @@ Anyone is always welcome to ask our CFO any questions they have about their opti
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
  also consult a lawyer before making important financial decisions, especially regarding
  their equity because there are complex legal and tax requirements that may apply.
-
-## Stock option grant levels
-
-|Level|Number of Options|
-|----|----:|
-|Sr. Director|15,000|
-|Director|10,000|
-|Sr. Manager|5,000|
-|Manager / Lead / Individual contributor|2,000|
 
 
 ## References

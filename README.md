@@ -20,6 +20,25 @@ PDF files are not available in development mode. See below for more information.
 See the [Middleman docs](https://middlemanapp.com/basics/development_cycle/) for
 more information.
 
+### Enable livereloading
+
+When running middleman with the livereload option enabled, it watches your
+repo for changes and reloads the site automatically.
+
+Livereload can result to [slow server response times][gh-livereload], so it is
+disabled by default. To enable it, just set the environment variable
+`ENABLE_LIVERELOAD=1` before running middleman:
+
+```
+ENABLE_LIVERELOAD=1 bundle exec middleman
+```
+
+You can verify that it's enabled from the following line:
+
+```
+== LiveReload accepting connections from ws://192.168.0.12:35729
+```
+
 ## Contributing
 
 ### Blog posts
@@ -298,3 +317,11 @@ If you want to tweak pdf_template.tex run `rake build` once, and
 If you want to tweak the source HAML/Markdown/HTML and see the changes
 in the final PDF you have to run `rake build pdfs` after each source
 change.
+
+To remove the generated PDFs run:
+
+```
+rake rm_pdfs
+```
+
+[gh-livereload]: https://github.com/middleman/middleman-livereload/issues/60
