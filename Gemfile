@@ -19,6 +19,7 @@ gem "middleman-syntax"
 gem 'kramdown', '~> 1.10'
 gem 'nokogiri'
 gem 'mini_racer'
+gem 'sassc'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
