@@ -8,14 +8,12 @@ cache:
   key: "website"
   paths:
     - vendor
-    - public
 
 stages:
   - build
   - deploy
 
 lint:
-  image: "ruby:2.3"
   stage: build
   script:
     - bundle exec rake lint
