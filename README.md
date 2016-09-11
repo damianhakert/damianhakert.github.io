@@ -318,4 +318,10 @@ If you want to tweak the source HAML/Markdown/HTML and see the changes
 in the final PDF you have to run `rake build pdfs` after each source
 change.
 
+To remove the generated PDFs run:
+
+```
+rake rm_pdfs
+```
+
 [gh-livereload]: https://github.com/middleman/middleman-livereload/issues/60
