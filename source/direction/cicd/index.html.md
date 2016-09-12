@@ -9,11 +9,15 @@ Many of the examples describe development of an n-tier web app, but could equall
 
 ## Scope
 
-GitLab will cover the entire flow from idea to writing code, and then on through build, test, deployment, delivery, and monitoring. We don't want to be a PaaS company or monitoring company, but by integrating third parties, we can provide convenience and confidence to the developer in an integrated way.
+[GitLab's vision](/direction/#scope) covers the entire flow from idea to production. Many of these pieces will be provided directly by GitLab, others will be provided by bundling third-party solutions. [We don't want to own or manage the production infrastructure](https://about.gitlab.com/direction/#outside-our-scope), but we do want to help developers coordinate getting their code into production; providing convenience and confidence to the developer in an integrated way.
+
+![](handbook/sales/lifecycle.png)
+
+The CI/CD vision focuses on steps 6 through 9: Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
 
 ![](/images/direction/cicd/revised-gitlab-ci-scope.svg)
 
-This scope is compatible with the overall [direction](/direction/#scope), but focuses on CI, CD, and things that are currently beyond any definition of CD. One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
+One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level, giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
 
 ## Pipelines
 
