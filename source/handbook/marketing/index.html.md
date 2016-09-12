@@ -334,6 +334,7 @@ At GitLab, tech writers are the folks who take care of writing and maintaining t
 [Handbook][Technical Writing]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Axil][axil]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Marcia][marcia]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Sean][sean]{:.btn .btn-orange}
 
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
 </div>
@@ -594,7 +595,7 @@ The meeting should run as follows:
 
 All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
 - First discuss any issues or problems that the manager can help with. Any roadblocks or disagreements?  
 - Talk about career development and opportunities for growth.  
@@ -762,6 +763,7 @@ We use our chat internally as a communication tool. The marketing channels are a
 [marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
+[sean]: https://gitlab.com/u/SeanPackham
 
 <!-- EXTRA STYLES APPLIED FOR THIS PAGE ONLY -->
 
