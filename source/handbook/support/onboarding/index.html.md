@@ -247,6 +247,16 @@ Thanks,
 GitLab, Inc.
 ```
 
+## Digital Ocean account access
+
+As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account. 
+This can be used for testing and to reproduce customer problems. Please consider the following when using this account: 
+
++ Do not destroy, stop or modify droplets that you haven't created
++ Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
++ Use resources sparingly and remove droplets that have served a purpose and are no longer in use
++ Do not create droplets unrelated to GitLab (personal projects)
+
 ## Receiving feedback
 {: #feedback}
 
