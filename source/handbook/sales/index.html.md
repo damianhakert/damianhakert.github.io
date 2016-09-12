@@ -24,6 +24,7 @@ title: "Sales Handbook"
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
+* [Escalation to Support](#escalation-support)
 * [Contributing to EE Direction](#EE-Direction)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
@@ -391,6 +392,15 @@ Once you close a deal that includes Premium Support, you need to:
 1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+
+#### Escalation to Support <a name="escalation-support"></a>
+
+Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels. 
+
+1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-supporta-nameinternala) section of the support handbook.
+1. Forward a customer question via email to the **support** email address. - It's important the email is **forwarded** and not CC'd to avoid additional changes required once the support request is lodged.
+1. Create a new ticket on behalf of the customer in the [Zendesk](https://gitlab.zendesk.com) UI - [more information](https://support.zendesk.com/hc/en-us/articles/203690946)
+
 
 #### Contributing to EE Direction <a name="EE-Direction"></a>
 Being in a customer facing role, salespeople are expected to contribute to [GitLab Direction](https://about.gitlab.com/direction/).  Each day we talk to customers and prospects we have the opportunity to hear of a feature they find valuable or to give feedback (positive and constructive) to an EE feature that there is an issue for.
