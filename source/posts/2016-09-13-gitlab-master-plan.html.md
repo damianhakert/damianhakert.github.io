@@ -39,13 +39,13 @@ Here’s what our investors have to say about us:
 
 We are seeing a shift in the landscape as the disparate tools that were designed to enable collaboration and speed up development are actually slowing down the enterprise development process. Developers are looking to Git and open source for solutions to deliver higher quality software, faster. In fact, [18 million developers now use open source][idc-study] for their corporate infrastructure and 30% of enterprise developers are using Git. 
 
-Likewise, modern developers are well networked and have more choice than ever when it comes to adopting languages, tools, and infrastructure. As their roles shift from assembly line to managing the full process, there’s a greater need to track the full path of development. While many tools exist to serve each stage of the the development lifecycle, we believe an integrated set of open source tools is the best way to deliver Conversational Driven Development.
+Likewise, modern developers are well networked and have more choice than ever when it comes to adopting languages, tools, and infrastructure. As their roles shift from assembly line to managing the full process, there’s a greater need to track the full path of development. While many tools exist to serve each stage of the the development lifecycle, we believe an integrated set of open source tools is the best way to deliver Conversational Development.
 
 <div class="panel panel-gitlab-purple">
-**Conversational Driven Development**
+**Conversational Development**
 {: .panel-heading}
 <div class="panel-body">
-**Conversational Driven Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
+**Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
 </div>
 </div>
 
