@@ -173,7 +173,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Robert/Jacob V: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Robert/Jacob V: Set new team members' project-level permissions as-needed.
 1. [ ] For Production and Service Engineering team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
-1. [ ] Hiring manager (Service Engineering): Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty.
 
@@ -189,6 +188,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Jose: Add team member to `@supportteam` Slack handle.
 1. [ ] Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] Hiring Manager: Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
+1. [ ] New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
