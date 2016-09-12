@@ -82,7 +82,7 @@ Read more about our company values in our [open source][open-source-handbook-pos
 
 At GitLab, everyone can contribute!
 
-Use the hashtag **#GitLabLive** to share your impressions with your social media network!
+Use the hashtag **#ConvDev** to share your impressions with your social media network!
 
 Want to help GitLab grow? *[We're looking for people to work with us!][careers]*
 
