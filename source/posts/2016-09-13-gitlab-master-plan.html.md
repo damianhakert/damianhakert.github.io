@@ -10,7 +10,7 @@ ee_cta: true
 
 {::options parse_block_html="true" /}
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20160913_unveilingmasterplan_landingpage.html?utm_medium=blog&utm_source=blog&utm_campaign=gitlablive+announcement">Join me live today</a> at 8am PDT / 5pm GMT to learn more about our direction and to ask questions! &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20160913_unveilingmasterplan_landingpage.html?utm_medium=blog&utm_source=blog&utm_campaign=gitlablive+announcement">Join me live today</a> at 1pm ET / 5pm GMT to learn more about our direction and to ask questions! &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 &nbsp;&nbsp;</p>
 
 Today we are thrilled to announce our **$20 million** Series B funding from investors [August Capital], [Khosla Ventures], and [Y Combinator]. This follows our [Series A round last September][series-a-post].
@@ -64,7 +64,7 @@ To help you get [faster from idea to production][idea-production], we are focusi
 
 Our goal is to help you work better so you can ship faster. To do this, we are working on reducing cycle time and bringing ConvDev principles directly into our product as defined in our product direction [scope][scope].
 
-Learn more about our Master Plan and product direction today during our live YouTube event at 10am PDT / 5pm GMT. <br> [Register here][event-page].
+Learn more about our Master Plan and product direction today during our live YouTube event at 1pm ET / 5pm GMT. <br> [Register here][event-page].
 {: .alert .alert-orange}
 
 
@@ -78,7 +78,14 @@ We are committed to standing by our [promise to be good stewards of open source]
 1. [Business in the open][open-core]. Our company handbook and policies are in the open. 
 1. [Clear Direction][clear-direction]. Our Direction document clarifies the current project priorities and what is possible in the upcoming releases. 
 
-Read more about our company values in our [open source][open-source-handbook-post] [handbook][handbook-values], licensed by [CC-BY-SA-4.0][creative-commons].
+Read more about our company values in our [open source][open-source-handbook-post] [handbook][handbook-values], licensed by [CC BY-SA 4.0][creative-commons].
+
+## Get Involved
+
+At GitLab, everyone can contribute!
+
+- After the live event, join the further discussion on **Modern Software Development** in our forum: <http://bit.do/gitlab>
+- Use the hashtag **#GitLabLive** to share your impressions with your social media network!
 
 Want to help GitLab grow? *[We're looking for people to work with us!][careers]*
 
