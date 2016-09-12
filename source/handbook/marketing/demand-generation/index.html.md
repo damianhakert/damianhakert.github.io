@@ -12,7 +12,8 @@ The Demand Generation organization includes Demand Generation, Business Developm
 * [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
-* [Soft-BANT](#bant)
+* [Lead Qualification Criteria](#leadcriteria)
+* [Lead Assignment Rules](#assignment)
 * [SQL & MQL Definition](#SQL)
 * [Lead Status](#leadStatus)
 * [Passing Qualified Leads](#leadPassing)
@@ -62,31 +63,38 @@ On the GitLab issue, make sure to:
 1. Lead comes into BDR team via one of the named Inbound Lead routes above.
 1. Lead is input into Marketo.
 1. Lead is assigned according to assignment rules.
-1. If region is EMEA, lead goes directly to EMEA BDR team.
-1. If region is APAC, lead goes directly to APAC Sales Director.
+1. If region is EMEA, change lead owner to EMEA BDR team. Do no convert.
+1. If region is APAC, change lead owner to APAC Sales Director. Do not convert.
 1. All other regions go directly to NA BDR team.
 1. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process<a name="leadQual"></a>
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
-2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
-3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to help qualify lead.  Lead qualification criteria is in section below.
+3. Once qualified, BDR records information within lead record under the additional information section and passes the lead to sales for follow-up via Salesforce assignment and email notification.
+4. Before a lead is qualified and passed to Account Executive, a discovery call meeting is scheduled with prospect.  BDR has visibility into Account Executive's calendar. BDR creates a meeting invite with call in details and a quick summary of the purpose of the meeting.  Subject of meeting invite is "GitLab Discover Call". BDR adds prospect and AE to the invite and then changes the meeting from BDR calendar to AE's calendar. 
+4. Once meeting invite has been sent, BDR will email prospect and cc Account Executive summarizing the information discussed (lead qualification criteria), intorducing the Account Executive and confirming the call day and time and meeting invite sent.
+5. If further qualification is needed, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
-9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
-10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
-11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
-## Soft-BANT<a name="bant"></a>
+## Lead Qualification Criteria<a name="leadcriteria"></a>
 
-- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
-- Authority => Can the person influence a purchase decision?
-- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
-- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
+1. What problem(s) are they looking to solve with GitLab? 
+2. How are they solving this problem now? (competition, technology stack)
+3. What is their awareness and understanding of GitLab?  Are they using CE or .com? Are they on a trial?
+3. Are they interested in Enterprise Edition?
+4. What is their function and role (decision maker, evaluator, day-to-day user, influencer) within the organziation?
+4. How many users are they looking at now?
+5. What are the potential users for GitLab?
+6. What would they like to learn more about from an Account Executive?
+7. Discovery Call scheduled with prospect and calendar invite sent to prospect and Account Executive.
+
+## Lead Assignment Rules<a name="assignment"></a>
+1. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be qualified and assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
+2. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner, ask account owner if they would like the BDR to qualify or just pass lead.
+3. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
+4. If a lead is from a company that is already in Salesforce, it will be qualified and BDR team will determine account owner and pass lead.
 
 ## What counts as an SQL or MQL?<a name="SQL"></a>
 * SQL is any lead which has been both:
