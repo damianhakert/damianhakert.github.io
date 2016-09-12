@@ -23,7 +23,7 @@ With the help of our investors, we’re moving full speed ahead to bring you iss
 **GitLab Vision**
 {: .panel-heading}
 <div class="panel-body">
-The vision of GitLab is to allow everyone to collaborate on all digital content so people can cooperate effectively and achieve better results, faster. We can do this by providing an integrated set of tools that allow you to go faster from idea to production.
+The vision of GitLab is to allow everyone to collaborate on all digital content so people can cooperate effectively and achieve better results, faster. We can do this by providing an integrated set of tools that allows you to go faster from idea to production.
 </div>
 </div>
 
@@ -58,7 +58,7 @@ To help you get [faster from idea to production][idea-production], we are focusi
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
 
-"GitLab is providing developers with a new way to view the development process as a seamless, iterative conversation that maps to how developers work today. This ‘‘conversational development” is a natural evolution for software engineers that covers the entire lifecycle from idea to production with agility and collaboration", said Villi Iltchev. 
+"GitLab is providing developers with a new way to view the development process as a seamless, iterative conversation that maps to how developers work today. This ‘‘conversational development” is a natural evolution for software engineers that covers the entire lifecycle from idea to production with agility and collaboration", said Villi Iltchev.
 
 Our goal is to help you work better so you can ship faster. To do this, we are working on reducing cycle time and bringing ConvDev principles directly into our product as defined in our product direction [scope][scope].
 
@@ -74,7 +74,7 @@ We are committed to standing by our [promise to be good stewards of open source]
 
 1. [Development in the open][open-dev]. You can submit issues in a public issue tracker. This is not a read-only interface. 
 1. [Business in the open][open-core]. Our company handbook and policies are in the open. 
-1. [Clear Direction][clear-direction]. Our Direction document clarifies the current project priorities and what is possible in the upcoming releases. 
+1. [Clear Direction][clear-direction]. Our Direction page clarifies the current project priorities and what is possible in the upcoming releases. 
 
 Read more about our company values in our [open source][open-source-handbook-post] [handbook][handbook-values], licensed by [CC BY-SA 4.0][creative-commons].
 
