@@ -50,7 +50,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
 1. [ ] People Ops Information
    1. [ ] New team member: provide scan of photo ID to People Ops (used for verification and business travel purposes)
-   1. [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Make sure that all compensation information is visible to the hiring manager only in Workable. Find the profile on BambooHR and enable "self-service".
+   1. [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Find the profile on BambooHR and enable "self-service".
    1. [ ] People Ops: In BambooHR, input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address before saving the newly entered information.
    1. [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. For GitLab Inc. contractor agreements, also file the W9. If the contract has any exceptions to the IP agreement, check the applicable box under the Jobs tab.
    1. [ ] People Ops: file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
