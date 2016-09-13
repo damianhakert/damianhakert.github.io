@@ -54,10 +54,6 @@ Example flow:
 
 ## Stages
 
-### Code
-
-Code includes writing, storing, and collaborating on software (and other) projects. GitLab covers much of this today and partnerships with someone like [Koding](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759) can extend to cover the Online editor / IDE that has a preconfigured, collaborative, on-demand coding environment.
-
 ### Build
 
 GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts or "releases" from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
