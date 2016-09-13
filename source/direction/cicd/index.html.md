@@ -39,12 +39,15 @@ Example flow:
 
 ![](/images/direction/cicd/pipelines-goal.svg)
 
-1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+### Issues to support pipelines overall
+
+1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743) **DONE**
+1. [Run CI/CD on Merge Requests, not just branches](https://gitlab.com/gitlab-org/gitlab-ce/issues/15310), especially for fork-based flows
 2. Deploy pipelines
-    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
+    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
-    4. Show status of merge request beyond merge. (e.g. add staging and production deploys to MR activity stream)
+    4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
 3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ce/issues/15655)
     1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
     2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
