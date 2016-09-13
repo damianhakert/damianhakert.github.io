@@ -41,8 +41,9 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
     - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) - Michael Alessio
-    - Customer Success/Account Management - [Director of Global Account Management](https://about.gitlab.com/jobs/dir-global-account-management/) (vacancy)
+    - Account Management - [Director of Global Account Management](https://about.gitlab.com/jobs/director-global-account-management/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
+    - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
       - [Success Engineer](/jobs/success-engineer/)
     - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/) - Francis Aquino
   - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
