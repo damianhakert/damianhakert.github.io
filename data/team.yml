@@ -1511,6 +1511,17 @@
   story:  |
           Joining September 19th
 
+name: J.D.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 21st
+
 - name: J.P.
   locality:
   country:
