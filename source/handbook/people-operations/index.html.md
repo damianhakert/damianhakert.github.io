@@ -27,10 +27,12 @@ title: "People Operations"
 
 
 ## Role of People Operations
+{: #role-peopleops}
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
 ## Team Directory
+{: #directory}
 
 The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
@@ -42,9 +44,25 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Office addresses
+{: #addresses}
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+
+## Regular compensation
+
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the
+25th of every month, and can see their pay slip in their personal portal on
+[HR Savvy's system](https://hr-savvy.nmbrs.nl/) towards the end of the month.
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly
+through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   - For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   - All invoices are internally reviewed, approved, and then payment is processed.
+   This is usually a fast process, but be aware that it can incur delays around vacations.
+   - An invoice template can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
+1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/sop/#processing-changes).
 
 ## Policies
 
@@ -63,6 +81,7 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and Senior Director of People Operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee. When the CEO is away (e.g. vacation), the two other members of the committee can take a decision and inform the committee. Whatever the decision is, the compensation committee should be cc-ed (or bcc-ed) on the final email, so that the committee members can know that the loop was closed.
 
 ### Sick time - taking and reporting
+{: #sick-time}
 
 In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
 
@@ -94,6 +113,7 @@ If you change your address, you should let GitLab know the new address within a 
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
+{: #benefits-us}
 
 #### 401k
 
@@ -111,6 +131,7 @@ after the 1st of the month after your hire date.
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 ### Using RingCentral
+{: #ringcentral}
 
 Our company and office phone lines are handled via RingCentral. The login credentials
 are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
@@ -135,7 +156,7 @@ Here is a [generally helpful guide](http://www.expatica.com/nl/visas-and-permits
 
 
 ## Paperwork people may need to obtain mortgage in the Netherlands
-<a name="dutch-mortgage"></a>
+{: #dutch-mortgage}
 
 When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
 This document describes your salary and states that your employer expects to continue to employ
@@ -171,7 +192,7 @@ Ideally, the manager and the team member have walked through the guidelines on [
 
 
 ### Points to cover during the offboarding call, with sample wording
-<a name="offboarding-points"></a>
+{: #offboarding-points}
 
 The following points need to be covered for any team member:
 
