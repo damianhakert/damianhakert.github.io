@@ -26,8 +26,9 @@ When running middleman with the livereload option enabled, it watches your
 repo for changes and reloads the site automatically.
 
 Livereload can result to [slow server response times][gh-livereload], so it is
-disabled by default. To enable it, just set the environment variable
-`ENABLE_LIVERELOAD=1` before running middleman:
+disabled by default. That means you need to manually refresh the webpage if you
+make any changes to the source files. To enable it, just set the environment
+variable `ENABLE_LIVERELOAD=1` before running middleman:
 
 ```
 ENABLE_LIVERELOAD=1 bundle exec middleman
@@ -38,6 +39,24 @@ You can verify that it's enabled from the following line:
 ```
 == LiveReload accepting connections from ws://192.168.0.12:35729
 ```
+
+To permanently have livereload enabled without typing the environment variable,
+just export its value in your shell's configuration file:
+
+```
+# Open your rc file (replace editor with vim, emacs, nano, atom, etc.)
+editor ~/.bashrc
+
+# Export the livereload variable
+export ENABLE_LIVERELOAD=1
+```
+
+>**Note:**
+You need to logout and login in order for the changes to take effect. To
+temporarily use the changes, run `source ~/.bashrc`.
+
+Next time you login, livereload will be always enabled and you can just run
+`middleman` to start the local server to preview the changes.
 
 ## Contributing
 
