@@ -13,6 +13,7 @@ title: Support
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
+   - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [On-Call](https://about.gitlab.com/handbook/on-call)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
