@@ -112,7 +112,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Robert/Jacob V: Remove former team members' account from [Sentry](https://sentry.gitlap.com/organizations/gitlab/members/)
 1. [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
-1. [ ] For former Production and Service Engineering team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
+1. [ ] For former Developers (those who had access to part of the infrastructure), Production and Service Engineering team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
 1. [x] _not relevant_ For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Remove access to PagerDuty.
 
