@@ -18,7 +18,7 @@ experience.
 
 The right candidate is truly passionate about customer advocacy and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence our customers and furthermore, directly impact GitLab’s overall success and growth.
 
-## Responsibilities:
+## Responsibilities
 
 * Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers.
 * Drive Account Growth Outcomes: influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
@@ -29,6 +29,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * Enhance Effectiveness and Efficiency through technology
 * Serve as the lead spokesperson and ambassador for GitLab's customer experience, representing the organization at the highest levels to prospective partners and customers. Empower the organization through effective communication
 - Work closely with the [Director of Global Account Management](https://about.gitlab.com/jobs/director-global-account-management) to help them identify up-sell opportunities.
+- Depending on the candidate, the Head of Support may also report to this individual
 
 ## Requirements for applicant
 
