@@ -26,8 +26,9 @@ When running middleman with the livereload option enabled, it watches your
 repo for changes and reloads the site automatically.
 
 Livereload can result to [slow server response times][gh-livereload], so it is
-disabled by default. To enable it, just set the environment variable
-`ENABLE_LIVERELOAD=1` before running middleman:
+disabled by default. That means you need to manually refresh the webpage if you
+make any changes to the source files. To enable it, just set the environment
+variable `ENABLE_LIVERELOAD=1` before running middleman:
 
 ```
 ENABLE_LIVERELOAD=1 bundle exec middleman
