@@ -27,7 +27,7 @@ The vision of GitLab is to allow everyone to collaborate on all digital content 
 </div>
 </div>
 
-More than 100,000 organizations worldwide now use GitLab and we have hosted over 1 million projects since 2014. Our new financing will accelerate the development of GitLab in effort to continue to give teams the simplest way to scale projects across functional groups, collaborate in real-time and effortlessly manage workflows and version control.
+More than 100,000 organizations worldwide now use GitLab and we have hosted over 1 million projects in GitLab.com since 2014. Our new financing will accelerate the development of GitLab in an effort to continue to give teams the simplest way to scale projects across functional groups, collaborate in real-time and effortlessly manage workflows and version control.
 
 Here’s what our investors have to say about us:
 
@@ -37,15 +37,15 @@ Here’s what our investors have to say about us:
 
 ## The Software Development Revolution
 
-We are seeing a shift in the landscape as the disparate tools that were designed to enable collaboration and speed up development are actually slowing down the enterprise development process. Developers are looking to Git and open source for solutions to deliver higher quality software, faster. In fact, [18 million developers now use open source][idc-study] for their corporate infrastructure and 30% of enterprise developers are using Git. 
+We are seeing a shift in the landscape as the disparate tools that were designed to enable collaboration and speed up development are actually slowing down the enterprise development process. Developers are looking at Git and open source for solutions to deliver higher quality software, faster. In fact, [18 million developers now use open source][idc-study] for their corporate infrastructure and 30% of enterprise developers are using Git. 
 
-Likewise, modern developers are well networked and have more choice than ever when it comes to adopting languages, tools, and infrastructure. As their roles shift from assembly line to managing the full process, there’s a greater need to track the full path of development. While many tools exist to serve each stage of the the development lifecycle, we believe an integrated set of open source tools is the best way to deliver Conversational Development.
+Likewise, modern developers are well networked and have more choices than ever when it comes to adopting languages, tools, and infrastructure. As their roles shift from assembly line to managing the full process, there’s a greater need to track the full path of development. While many tools exist to serve each stage of the the development lifecycle, we believe an integrated set of open source tools is the best way to deliver Conversational Development.
 
 <div class="panel panel-gitlab-purple">
 **Conversational Development**
 {: .panel-heading}
 <div class="panel-body">
-**Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
+**Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process, enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
 </div>
 </div>
 
