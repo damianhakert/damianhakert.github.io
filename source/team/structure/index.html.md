@@ -43,8 +43,6 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) - Michael Alessio
     - Account Management - [Director of Global Account Management](https://about.gitlab.com/jobs/director-global-account-management/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
-    - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
-      - [Success Engineer](/jobs/success-engineer/)
     - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/) - Francis Aquino
   - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
     - [People Operations Generalist](/jobs/people-ops-generalist/)
@@ -53,6 +51,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Accounting - [Controller](/jobs/controller/) - Wilson Lau
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/) - Dmitriy Zaporozhets
   - [Engineering](/handbook/engineering) - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
+    - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
+      - [Success Engineer](/jobs/success-engineer/)
     - Backend - [Backend Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
