@@ -1,0 +1,140 @@
+---
+layout: default
+title: Cycle Analytics
+suppress_header: true
+extra_css:
+  - "issue-boards.css"
+extra_js:
+  - "issue-boards.js"
+---
+
+.page-container.issue-boards-container.text-center.animated
+  .container
+    .header-graphic
+      = image_tag "/images/issue-boards/icon-header.png", class: "img-responsive"
+
+    %h1.page-headline
+      Introducing GitLab Cycle Analytics
+    %h4.subheader
+      Real data, better decisions.
+    %a.btn.btn-lg.btn-red{ href: "/INSERT-LINK/" } View Blog Post
+    %a.btn.btn-lg.btn-white{ href: "#video-explainer" } Watch Video
+
+.page-container.content-container.text-center.animated
+  .container
+    %h2.page-headline.orange-title
+      What is the GitLab Cycle Analytics?
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards/icon-benefit-1", "feature-icon", { label: "One tool, full feedback" })
+      %h3
+        Real data
+      %p
+        Estimates of time or level of effort are often incorrect. Stop estimating. Know how many days or minutes it takes your team to get from idea to production.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards/icon-benefit-2", "feature-icon", { label: "Beautiful and comprehensive" })
+      %h3
+        Overviews and drill downs
+      %p
+        Measure your team's total and step-by-step velocity. Cycle analytics indicates the total time it takes to move from idea to production as well as the time it takes to move from one stage to another.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards/icon-benefit-3", "feature-icon", { label: "Better metrics, better decisions" })
+      %h3
+        Built for teams and managers
+      %p
+        Use shared metrics to make better decisions. With insights into how long it takes the team to move from idea to production, you can pinpoint areas of improvement and more accurately predict your releases.
+
+#video-explainer.page-container.content-container.text-center.video-explainer
+  .container
+    %h2.page-headline
+      Check out the Cycle Analytics overview
+
+    .video-container
+      %iframe{ src: "https://www.youtube.com/embed/UWsJ8tkHAa8", frameborder: "0", allowfullscreen: true }
+
+
+.what-is.purple-section.text-center.animated
+  .container
+    %h2.purple-section-title
+      Join our webcast!
+    .purple-section-subtitle
+      Hear more about Cycle Analytics and all the new functionalities of GitLab 8.12
+    %a.featured-item-button.white-on-primary.btn-margin-top{ href: "/INSERT-LINK/" } Sign Up Today
+
+.page-container.content-container.white-bg.animated
+  .container
+    %h2.page-headline.text-center
+      Getting started with your Cycle Analytics
+    %section#steps.steps
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-1", "step-icon", { label: "Navigate to the dashboard" })
+            %span.step-number.text-center
+              [ step 01 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Navigate to the dashboard
+              .lead.text-center.step-lead-text
+                :markdown
+                  Visit your project's Cycle Analytics dashboard
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    [MISSING 1. LONG DESCRIPTION STEP 1]
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-1-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-2", "step-icon", { label: "Choose the stages" })
+            %span.step-number.text-center
+              [ step 02 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Choose the stages
+              .lead.text-center.step-lead-text
+                :markdown
+                  Pinpoint which stages take the most time
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-2-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    [MISSING 2: LONG DESCRIPTION STEP 2]
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Improve your workflow" })
+            %span.step-number.text-center
+              [ step 03 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Improve your workflow
+              .lead.text-center.step-lead-text
+                :markdown
+                  Change things to lower the time the idea deployed to production
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    [MISSING 3: LONG DESCRIPTION STEP 3]
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-3-illustration.png", class: "img-responsive"
+
+= partial "includes/features/try-gitlab-ee"
+
+.sticky-banner.js-sticky-banner.active
+  .sticky-banner-content
+    .sticky-banner-text
+      %p.header-text
+        Try GitLab Enterprise Edition risk-free for 30 days.
+      %p.subheader-text
+        No credit card required. Have questions?
+        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
+    .action
+      %a.btn.featured-item-button{ href: "/free-trial/" } Get Your Free Trial Today
