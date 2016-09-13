@@ -742,6 +742,82 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 
 If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
 
+### How to change your username at GitLab.com
+
+- Starting point: let's say your username is `old-mary` and you want it
+to be just `mary`.
+- **Note:** each GitLab account is tracked by an **userID**, which is a number stored in
+a database. If we change the username, the userID does not change. And all the
+permissions, issues, MRs and relevant stuff within GitLab are related to your
+**userID**, not with your username.
+- **Note:** if you are not a GitLab Team member, the same process applies; except
+your e-mail ([STEP 2](#change-username-step-2)), which will be different
+(will not be @gitlab.com email), so you can replace it with your own email account.
+
+**STEP 1: Request your new username**
+
+- Access the username you want to request via `https://gitlab.com/u/mary`.
+- Check it's activity, projects, to see if he/she is an inactive -
+[according to the handbook](/handbook/support/#dormant-usernames-a-namedormantusersa).
+- Send your request to `support@gitlab.com`, explaining the reasons why
+you need that username.
+- There's no guarantee that the username will be available for you. Please
+check the [handbook guidelines for dormant usernames](/handbook/support/#dormant-usernames-a-namedormantusersa).
+
+**STEP 2: Create a new account with your new username**
+{: #change-username-step-2}
+
+- If support replies to you telling that the username is free to use, create a new
+GitLab.com account with it. Use a personal email to register your new account and
+choose one that has not been used with your old GitLab account.
+- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/profile/emails),
+and add a new email. ⭐️ **Trick** ⭐️ If your email at GitLab is `mary@gitlab.com`,
+add the new email as `mary+something@gitlab.com`:
+this is a [Gmail trick](https://support.google.com/mail/answer/12096?hl=en)! All
+your emails sent to this alias will end up in your GitLab email account. 😃
+- Navigate to <https://gitlab.com/profile/notifications> and choose the notifications
+email: `mary+something@gitlab.com`.
+- Open your old account in one browser and the new one in another browser
+(e.g., Chrome and Firefox, or Chrome and Safari) - log in to both accounts at
+the same time.
+
+**STEP 3: Let's have some fun (kidding, this is critical!)**
+
+- Navigate to <https://gitlab.com/profile/account> in both your accounts.
+- Look for your username. This operation has to be done quickly, otherwise you are
+risking to loose your awesome new username to someone else quicker than you. We
+need to **swap** the usernames between both accounts, so you'll keep all your
+history, your privileges, issues and MRs assigned to you, etc.
+- If you work with 2 monitors, open each browser on one monitor. If you don't,
+open them in parallel, so that you can keep an eye on both at the same time.
+- Rename your new username `mary` to something like `mary-1` and DO NOT click
+**update username** yet. Rename your old username `old-mary` to your new
+username `mary` and don't update that either. Just leave them typed into the boxes.
+- Make sure you did the previous step right!
+- ⚠️ **CRITICAL** ⚠️ Update the first one (`mary` to `mary-1`). Immediately, click
+**update** on the other one (`old-mary` to `mary`).
+- Immediately, rename the `mary-1` to your old one `old-mary` and click
+**update username** again.
+- Ta-Da! 🙌
+
+**STEP 4: Move your projects (or not)**
+
+- Now, if you have any personal projects, you might want to import them to
+your new account (the one that has your old username now). To do that, in
+your new account (the one with the old username), click **Create a New Project**,
+give it the very same name as the original one, click **Git - add repo by url**,
+and paste the `https://` url of your project there. To make things easier, make
+sure all the projects you want to import are set to `public` view.  You can make
+them private afterwards.
+- If you have GitLab Pages projects with the default **GitLab.io** url, you will need
+to import them to you new account, then make a change to **trigger a build** and
+redeploy your site. They will be affected only if you're using a
+[CNAME with a subdomain instead of an A record](/2016/04/07/gitlab-pages-setup/#custom-domains). 
+This won't affect Pages projects that use custom domains, as they all point to
+the same Pages server IP via `A` record. Your groups won't be affected either,
+as they operate under their own namespace. Add both users as members of your
+groups and nothing changes. That's it!
+
 ### Do NOT Use
 
 **Flash**: Due to security flaws, we strongly recommend _not_ using Adobe Flash. Certainly do not install it on your local machine. But even the Google Chrome plugin that let's you see embedded Flash content in websites can pose a security hazard. If you have not already, go to your [Chrome plugins](chrome://plugins) and disable Flash. For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough), it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
