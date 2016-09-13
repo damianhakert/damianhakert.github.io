@@ -220,11 +220,14 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 
 What is BD (to be included).
 
-[Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv}
-[Handbook][Business Development]{:.btn .btn-purple}
+[Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv .extra-space}
+[Handbook][Business Development]{:.btn .btn-purple .extra-space}
+<br>
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Dan][dan]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Kris][kris]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
 ### Field Marketing
@@ -754,11 +757,13 @@ We use our chat internally as a communication tool. The marketing channels are a
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
+[dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
+[kris]: https://gitlab.com/u/Touzel2
 [luke]: https://gitlab.com/u/lukebabb
 [marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
@@ -858,6 +863,9 @@ We use our chat internally as a communication tool. The marketing channels are a
 }
 .description {
   color: #999;
+}
+.extra-space {
+  margin-bottom: 5px;
 }
 .alert-purple {
   color: rgb(107,79,187);
