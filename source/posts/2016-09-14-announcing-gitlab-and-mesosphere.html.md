@@ -7,9 +7,10 @@ image_title: '/images/blogimages/mesosphere_cover_image.png'
 description: GitLab is now available on Mesosphere DC/OS. 
 ---
 
-Today we're happy to announce our integration with Mesosphere. Now you can install GitLab
-in your DC/OS environment in one-click. If you are not already familiar with Mesosphere, this is the 
-perfect chance to get acquainted. Built on top of Apache Mesos, [Mesosphere Enterprise DC/OS](https://mesosphere.com/product/) makes it easier to build, run, and scale modern
+Today we're happy to announce our integration with [Mesosphere](https://mesosphere.com/).
+Now you can install GitLab in your DC/OS environment in one-click. If you are not already familiar with Mesosphere, this is the 
+perfect chance to get acquainted. Built on top of [Apache Mesos](http://mesos.apache.org/),
+[Mesosphere Enterprise DC/OS](https://mesosphere.com/product/) makes it easier to build, run, and scale modern
 apps. How? In short, they let you put your workloads into Docker
 containers and then manage those containers from a single secure and highly-available platform. We won't say
 more than that so we don't spoil the five reasons to be excited.
@@ -64,10 +65,10 @@ Mesosphere offers tools to help you monitor and perform health checks on your ap
 
 If you're interested in learning more or want to learn how you can install GitLab on DC/OS take a look at these resources: 
 
-* GitLab-on-DC/OS tutorial blog post
-* GitLab-on-DC/OS documentation
-* GitLab & Mesosphere joint solution brief
-* [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
+- GitLab-on-DC/OS tutorial blog post
+- GitLab-on-DC/OS documentation
+- GitLab & Mesosphere joint solution brief
+- [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
 
 <!-- custom styles -->
 
