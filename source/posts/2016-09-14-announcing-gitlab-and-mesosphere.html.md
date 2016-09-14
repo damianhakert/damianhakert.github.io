@@ -10,7 +10,7 @@ description: GitLab is now available on Mesosphere DC/OS.
 Today we're happy to announce our integration with Mesosphere. Now you can install GitLab
 in your DC/OS environment in one-click. If you are not already familiar with Mesosphere, this is the 
 perfect chance to get acquainted. Built on top of Apache Mesos, [Mesosphere Enterprise DC/OS](https://mesosphere.com/product/) makes it easier to build, run, and scale modern
-apps. How? In short, they let you put your workloads into Doceker
+apps. How? In short, they let you put your workloads into Docker
 containers and then manage those containers from a single secure and highly-available platform. We won't say
 more than that so we don't spoil the five reasons to be excited.
 
@@ -32,7 +32,7 @@ Mesosphere is an incredible product that has made something that is genuinely co
 **2. Spin up GitLab instances in minutes** 
 {: .panel-heading}
 <div class="panel-body">
-If you've ever spent hours or days configuring your tools, you know what a time-consuming pain it can be. In a world where time to market is everything, your team should take advantage of all the time savings they can get. With this integration, you no longer have to worry about the underlying infrastructure because Mesosphere takes care of that for you. 
+If you've ever spent hours or days configuring your tools, you know what a time-consuming pain it can be. In a world where time to market is everything, your team should take advantage of all the time savings they can get. With this integration, you are able to take advantage of the infrastructure that you already have in Mesosphere. 
 </div>
 </div>
 
@@ -40,7 +40,7 @@ If you've ever spent hours or days configuring your tools, you know what a time-
 **3. Utilize resources more efficiently** 
 {: .panel-heading}
 <div class="panel-body">
-Let's say you have a pool of servers with Mesosphere you can easily set up clusters that can act as a shared computing resource. You can choose anyone of these servers to run your task, allowing you to maximize the capacity of each one. 
+Let's say you have a pool of servers with Mesosphere you can easily set up clusters that can act as a shared computing resource. You can choose any one of these servers to run your task, allowing you to maximize the capacity of each one. 
 </div>
 </div>
 
@@ -48,7 +48,7 @@ Let's say you have a pool of servers with Mesosphere you can easily set up clust
 **4. Maintain uptime** 
 {: .panel-heading}
 <div class="panel-body">
-DC/OS is fault tolerant. It keeps GitLab runnning through storage primitives in Mesos. If your GitLab instance dies then your server would just recover itself by going to another node. It happens automatically and you wouldn't lose anything (if using single instance version, not highly available version)
+DC/OS is fault tolerant. It keeps GitLab runnning through storage primitives in Mesos. If your GitLab instance dies then your server could just recover itself by going to another node. Setting up fault tolerance does require some additional configuration but this is a great way to ensure you don't lose anything.
 </div>
 </div>
 
