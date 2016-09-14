@@ -31,6 +31,7 @@ title: "UX Designer"
 * Collaborates with members across teams and advocates for users and user-centered
   design practices
 * Writes blog posts articulating UX vision
+* Interviews potential UX candidates
 
 ## Tools
 
