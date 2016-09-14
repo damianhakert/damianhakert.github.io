@@ -20,7 +20,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 
 ## Responsibilities:
 
-* Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers.
+* Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers. Work closely with the [Director of Customer Success](https://about.gitlab.com/jobs/director-customer-success)(vacancy) on these metrics.
 * Drive Account Growth Outcomes: Expand our revenue in accounts through up-sell opportunities with our GitLab EE Products, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
 * Define and Optimize Customer Lifecycle: define segmentation of customer base and varying strategies, identify opportunities for continuous improvement.
 * Measure effectiveness of team: define operational metrics for team, establish system for tracking metrics, create cadence for review within the team
