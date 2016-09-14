@@ -67,7 +67,7 @@ If you're interested in learning more or want to learn how you can install GitLa
 * GitLab-on-DC/OS tutorial blog post
 * GitLab-on-DC/OS documentation
 * GitLab & Mesosphere joint solution brief
-* GitLab & Mesosphere webcast recording 
+* [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
 
 <!-- identifiers -->
 
