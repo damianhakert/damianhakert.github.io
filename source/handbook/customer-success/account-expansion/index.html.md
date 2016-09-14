@@ -26,6 +26,9 @@ To create an account expansion plan:
 - [ ] How do they make money?
 - [ ] Which parts of the world do they operate in?
 - [ ] What different business units exist at the company
+- [ ] Is the large account field checked on the account object?
+- [ ] Is an outobund BDR helping you? If yes, update the oubound BDR field on the account object.
+- [ ] Meeting with outbound BDR to sync up on messaging to account and contacts (roles/functions) they will go after
 - [ ] Record their industry within the account object of Salesforce.com
 - [ ] Recorded is in their technology stack within Salesforce.com 
 - [ ] What development tools within the company are provided 'as-a-service' by Engineering IT/Infrastructure and how does GitLab get on that list?
