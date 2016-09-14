@@ -56,7 +56,7 @@ DC/OS is fault tolerant. It keeps GitLab runnning through storage primitives in 
 **5. Analytics and Reporting** 
 {: .panel-heading}
 <div class="panel-body">
-Mesosphere offers a tools to help you monitor and perform health checks on your applications. You can also pull in metrics from other monitoring platforms, such as DataDog and Graphite. Mesosphere even wraps your analytics into a nice dashboard view. If you're an existing GitLab customer you know how much we value great UI. We spend a lot of time thinking about how to deliver the best UI in our product. It is clear that Mesosphere does the same. Their dashboard views are clean and intuitive so you can maintain a pulse of your infrastructure. 
+Mesosphere offers tools to help you monitor and perform health checks on your applications. You can also pull in metrics from other monitoring platforms, such as DataDog and Graphite. Mesosphere even wraps your analytics into a nice dashboard view. If you're an existing GitLab customer you know how much we value great UI. We spend a lot of time thinking about how to deliver the best UI in our product. It is clear that Mesosphere does the same. Their dashboard views are clean and intuitive so you can maintain a pulse of your infrastructure. 
 </div>
 </div>
 
