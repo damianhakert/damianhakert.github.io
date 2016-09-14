@@ -5,13 +5,13 @@ title: Leadership
 
 ## Guidelines
 
-- As a leader team members will follow your behavior, always do the right thing.
+- As a leader, team members will follow your behavior, always do the right thing.
 - Behavior should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
 - In tough times people will put it in their best efforts when they do it for each other.
 - When times are great be a voice of moderation, when times are bad be a voice of hope.
 - A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
 - We work async, lead by example and make sure people understand that things need to be written down in issues as they happen.
-- Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people at showed up on time by waiting anyone.
+- Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for anyone.
 - We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
 - We don't have project managers. The individual contributors need to manage themselves.
 - We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after have listened to all the feedback.
@@ -46,10 +46,10 @@ title: Leadership
 
 ## No matrix organization
 
-We believe everyone deserves to report to exactly one person and that knows and understands what you do day to day.
+We believe everyone deserves to report to exactly one person that knows and understands what you do day to day.
 We don't want a matrix organizations where you work with a lead day to day but formally report to someone else.
 The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
-For the organization forgoing a separate class of managers ensures a simple structure with clear responsibilities.
+For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
 It reduces compensation costs, coordination costs, and office politics.
 The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
 To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
