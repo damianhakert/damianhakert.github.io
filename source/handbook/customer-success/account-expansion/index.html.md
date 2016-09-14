@@ -4,7 +4,8 @@ title: "Account Expansion Plan Template"
 ---
 
 For each account we have identifed there is significant growth opportunity, we want to create an account expansion plan to help us realize the potential for every account.
-To create an account expansion plan: 
+To create an account expansion plan:
+
 1. Create a new issue withing the [Customer Success Issue Tracker[(https://gitlab.com/gitlab-com/customer-success/issues).  This is a private project so customer names can be mentioned.
 1. Name the issue "Account Name - Expansion Plan"
 1. Copy and paste the template below into the issue you just created
