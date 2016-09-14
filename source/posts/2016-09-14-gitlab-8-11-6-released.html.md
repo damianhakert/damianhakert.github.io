@@ -9,7 +9,8 @@ Today we are releasing versions 8.11.6, 8.10.9 and 8.9.9 for GitLab Community
 Edition (CE) and Enterprise Edition (EE).
 
 Version 8.11.6 contains two security fixes for GitLab, plus fixes for minor
-regressions. Version 8.10.9 and 8.9.9 contain only the two security fixes.
+regressions. Version 8.10.9 only contains the two security fixes, while version
+8.9.9 contains only one.
 
 Please read on for more details.
 
@@ -22,22 +23,30 @@ Please read on for more details.
 - **CE/EE:** Fix GitLab import button. ([!6167])
 - **CE/EE:** Restore SSH Key title auto-population behavior. ([!6186])
 - **CE/EE:** Fix DB schema to match latest migration. ([!6256])
-- **CE/EE:** Fix intermittent spec failures with spec/features/issues/user_uses_slash_commands_spec.rb. ([!6271])
+- **CE/EE:** Exclude some pending or inactivated rows in Member scopes. ([#21650])
 
-- **EE:** Exclude blocked users from potential MR approvers.
+- **EE:** Exclude blocked users from potential MR approvers (`8.11.6` & `8.10.9` only). ([#976])
 
 - **Omnibus GitLab:** Fix registry build by enabling vendor feature. ([!991])
 
-[!6186]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6186
-[!6107]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6107
 [!6005]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6005
-[!6271]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6271
-[!6141]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6141
-[!6256]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6256
-[!6167]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6167
 [!6052]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6052
+[!6107]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6107
+[!6141]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6141
+[!6167]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6167
+[!6186]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6186
+[!6256]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6256
+
+[#21650]: https://gitlab.com/gitlab-org/gitlab-ce/issues/21650
+[#976]: https://gitlab.com/gitlab-org/gitlab-ee/issues/976
 
 [!991]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/991
+
+## Information disclosure through "access requested" emails
+
+Blocked owners & masters of a group or project would still receive notification
+emails for access requests, leaking the requesters's name to the blocked user.
+See [the issue][#21650] for more information.
 
 ## Upgrade barometer
 
