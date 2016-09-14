@@ -816,7 +816,12 @@ redeploy your site. They will be affected only if you're using a
 This won't affect Pages projects that use custom domains, as they all point to
 the same Pages server IP via `A` record. Your groups won't be affected either,
 as they operate under their own namespace. Add both users as members of your
-groups and nothing changes. That's it!
+groups and nothing changes. 
+
+That's it! Don't forget to update your username on the
+[team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/team.yml)
+and on the [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md),
+in case you're a Marketing Team member.
 
 ### Do NOT Use
 
