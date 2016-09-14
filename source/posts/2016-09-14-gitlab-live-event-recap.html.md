@@ -6,6 +6,7 @@ categories: inside GitLab
 image_title: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.png'
 description: "Watch the recording of the GitLab Master Plan plus event highlights and slides."
 twitter_image: '/images/social-media-assets/campaigns/live-event/twitter-4-5x.png'
+date: 2016-09-14 17:01
 ---
 
 {::options parse_block_html="true" /}
