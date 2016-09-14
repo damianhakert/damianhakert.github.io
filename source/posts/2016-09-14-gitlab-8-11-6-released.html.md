@@ -3,6 +3,7 @@ title: "GitLab 8.11.6, 8.10.9 and 8.9.9 released"
 author: Rubén Dávila
 author_twitter: rdavila
 categories: release, security
+date: 2016-09-14 17:00
 ---
 
 Today we are releasing versions 8.11.6, 8.10.9 and 8.9.9 for GitLab Community
