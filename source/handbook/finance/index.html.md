@@ -27,7 +27,10 @@ title: "Finance"
 
 
 ## General Topics
-<a name="general-topics"></a>
+
+### Regular compensation
+
+For details on regular compensation, view the [People Ops page](/handbook/people-operations/#regular-compensation).
 
 ### Company accounts
 <a name="company-accounts"></a>

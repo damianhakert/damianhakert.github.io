@@ -497,7 +497,7 @@ page for information on how to handle scheduled leave for someone from the [on-c
 ## <i class="fa fa-plus-square-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Incentives
 {: #incentives}
 
-The following incentives are available for GitLab team members.
+The following incentives are available for GitLab team members. Also see our separate page on [benefits](/handbook/benefits/) available to GitLab team members.
 
 ### Sales Target Dinner Evangelism Reward
 {: #sales-target-dinner}
