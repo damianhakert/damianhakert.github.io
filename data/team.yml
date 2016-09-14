@@ -308,6 +308,7 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
@@ -1045,6 +1046,7 @@
   twitter: northrup
   gitlab: northrup
   maintains:  |
+              <li>On-call hero!</li>
               <li>CephFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           John's interest in systems engineering surpassed 'normal' when he amassed a small data center in his house to explore theoretical design scenarios. Passionate about open source and taking his role as a 'unix beard' seriously, John loves to spread the gospel of technology to anyone who will listen. Wearing his Chef hat, and harnessing the magic of ChatOps, he is determined to make things fit into their containers.
@@ -1057,6 +1059,8 @@
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Marat is interested in computers since school. He learned how to program from books without any help,
           wrote his first programs on paper and typed them in school labs during breaks. This was the reason why
@@ -1072,6 +1076,7 @@
   twitter: eReGeBe
   gitlab: eReGeBe
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
@@ -1193,6 +1198,8 @@
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1260,6 +1267,7 @@
   twitter: ahmadsherif
   gitlab: ahmadsherif
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
