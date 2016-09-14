@@ -11,19 +11,18 @@ twitter_image: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.p
 {::options parse_block_html="true" /}
 
 [Join us for our next webcast][cycle-analytics-webcast-reg] on September 29th for an
-introduction to Cycle Analytics and a 8.13 Feature Release demo.
+introduction to Cycle Analytics and a 8.12 Feature Release demo.
 {: .alert .alert-info .text-center}
 
 The world of software development is changing and time to market matters more
-now than ever before. The world's best companies are reducing cycle times to
+now than ever before. The world's best companies are reducing cycle time to
 ship software at an incredible pace. In this brave new world, businesses that
 can iterate more quickly than their competitors will win. To help you stay
-competitive by moving faster from idea to production, [we are working][gitlab-scope]
-to bring you a product that mirrors the most natural and cohesive process for
-the way you do work--all in a single UI.
+competitive, [we are building][gitlab-scope] the most natural and cohesive
+process for teams to move from idea to production in a single UI.
 
-Following the [announcement][funding-post] of our $20M Series B funding lead
-by August Capital, we hosted a live event with our CEO [Sid Sijbrandij][sid-twitter]
+Following the [announcement][funding-post] of our $20M Series B funding led
+by [August Capital], we hosted a live event with our CEO [Sid Sijbrandij][sid-twitter]
 and MC [Jono Bacon][jono-twitter]. More than 1,000 GitLab community members attended
 to watch, ask questions, and contribute to the conversation. Within 12 hours of our
 funding announcement, **2,508 new projects** were added to GitLab. Thanks to our
@@ -37,15 +36,16 @@ awesome community for your continued support!
 - GitLab's Evolution
 - The Software Development Revolution
 - Introduction to Conversational Development (ConvDev)
-- GitLab in a Conversational World & Demo
-- Panel and Q&A Session with GitLab CEO Sid Sijbrandij, VP of Product [Job van der Voort][job-twitter], and CMO [Ashley Smith][ashley-twitter].
+- GitLab in a Conversational World
+- Demo Video
+- Panel and Q&A Session with [Villi Iltchev][villi], partner at August Capital, GitLab CEO [Sid Sijbrandij][sid-twitter], VP of Product [Job van der Voort][job-twitter], and CMO [Ashley Smith][ashley-twitter].
 
 ## Recording & Slides
 
 ### Event recording
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/KrF7jNfDSnI" frameborder="0" allowfullscreen> </iframe>
+  <iframe src="https://www.youtube.com/embed/iV7mVGPXrxU" frameborder="0" allowfullscreen> </iframe>
 </figure>
 
 <br>
@@ -87,7 +87,15 @@ properly, it causes frustration and complexity.
 GitLab started in 2011 as an open source project simply because "we wanted an
 open source git solution so we built GitLab," according to Dmitriy Zaporozhets,
 co-founder and CTO. Today, we've grown from a team of 2 to 104 team members
-spanning 33 countries. As of May 2016, we have over 1,000 contributors! 
+spanning 33 countries. As of May 2016, we have over 1,000 contributors!
+
+Over the last we have made some incredible [improvements][releases] to our product. We
+made amazing improvements in hosting, released [GitLab Pages] for static sites,
+and we have [GitLab Geo] that allows you to work with a remote team. [Continuous
+Integration] is getting even better with pipelines in the product and a [Docker
+Container Registry]. The interface has seen a lot of changes and improvements
+including our [Issue Board] release. We're excited about all of the
+improvements we've made so far and can't wait to share more with you.
 </div>
 </div>
 
@@ -104,7 +112,7 @@ work together to move faster and reduce cycle time.
 </div>
 
 <div class="panel panel-info">
-**What Is Cycle Time?**
+**Reduce cycle time to improve efficiency**
 {: .panel-heading}
 <div class="panel-body">
 Cycle time is the time it takes to move [from idea to production][ci-cd-cd].
@@ -120,6 +128,13 @@ as code, and by removing hand-offs.
 **Conversational Development (ConvDev)**
 {: .panel-heading}
 <div class="panel-body">
+
+> _Conversational Development (ConvDev) is a natural evolution of software development
+that carries a conversation across functional groups throughout the development
+process, enabling developers to track the full path of development in a cohesive
+and intuitive way. ConvDev accelerates the development lifecycle by fostering
+collaboration and knowledge sharing from idea to production._
+
 **5 Principles of Conversational Development**
 
 1. Reduce the cycle time to increase effectiveness
@@ -142,14 +157,14 @@ as code, and by removing hand-offs.
 **GitLab Product Vision**
 {: .panel-heading}
 <div class="panel-body">
-There are ten steps in the modern development lifecycle. From idea to product
+There are ten steps in the modern development lifecycle. From idea to production,
 developers need a tool that takes a strong, all-inclusive approach to the
-development process. We have product that supports 8 of the [10 steps] and are
+development process. GitLab currently supports 8 of the [10 steps] and are
 working to ship the rest.
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-We are also working on better integrations to GitLab a truely comprehensive package.
+We are also working on better integrations to GitLab a truly comprehensive package.
 </div>
 </div>
 
@@ -184,6 +199,18 @@ It's awesome to seeing the community engagement, we thank you all!
 </div>
 </div>
 
+## Let's talk more about it?
+
+Please keep the comments coming! We'll be glad to hear your impressions, opinions,
+questions, ideas, and feedback on our direction towards Conversational Development.
+Use the hashtag _#ConvDev_ to join the discussion. 
+
+Thank you again for your massive collaboration, the entire GitLab Team was super
+excited to see everyone popping up in the event chat and social media feeds!
+
+We'll be happy to see you again in our next webcast on September 29th for an
+introduction to Cycle Analytics and a 8.12 Feature Release demo. [Register here][cycle-analytics-webcast-reg].
+
 As always, if you have any questions feel free to comment on this post or [tweet at us][gitlab-twitter].
 
 <!-- identifiers -->
@@ -191,13 +218,21 @@ As always, if you have any questions feel free to comment on this post or [tweet
 [10 steps]: /2016/08/22/announcing-the-gitlab-issue-board/#gitlab-from-idea-to-production
 [ashley-twitter]: https://twitter.com/ashl3ysm1th
 [ci-cd-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
+[Continuous Integration]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [cycle-analytics-webcast-reg]: https://page.gitlab.com/20160922_CycleAnalyticsWebcast.html
+[Docker Container Registry]: /2016/05/23/gitlab-container-registry/
 [funding-post]: /2016/09/13/gitlab-master-plan/
+[GitLab Geo]: https://docs.gitlab.com/ee/gitlab-geo/README.html
+[GitLab Pages]: https://pages.gitlab.io/
 [gitlab-scope]: /direction/#scope
 [gitlab-twitter]: https://twitter.com/gitlab
+[Issue Board]: https://about.gitlab.com/solutions/issueboard/
 [job-twitter]: https://twitter.com/Jobvo
 [jono-twitter]: https://twitter.com/jonobacon
+[releases]: /blog/categories/release/
 [sid-twitter]: https://twitter.com/sytses
+[villi]: http://www.augustcap.com/team/villi-iltchev/
+[august capital]: http://www.augustcap.com/
 
 <!-- custom styles -->
 
