@@ -3,16 +3,16 @@ title: "GitLab Live Event Recap"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: inside GitLab
-image_title: '/images/social-media-assets/campaigns/live-event/twitter-4.png'
+image_title: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.png'
 description: "Watch the recording of the GitLab Master Plan plus event highlights and slides."
+twitter_image: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.png'
 ---
 
 {::options parse_block_html="true" /}
 
-
-[Join us for our next webcast][cycle-analytics-webcast-reg] on Sept. 29 for an
+[Join us for our next webcast][cycle-analytics-webcast-reg] on September 29th for an
 introduction to Cycle Analytics and a 8.13 Feature Release demo.
-{: .alert .alert-info}
+{: .alert .alert-info .text-center}
 
 The world of software development is changing and time to market matters more
 now than ever before. The world's best companies are reducing cycle times to
@@ -42,11 +42,23 @@ awesome community for your continued support!
 
 ## Recording & Slides
 
+### Event recording
+
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/KrF7jNfDSnI" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/KrF7jNfDSnI" frameborder="0" allowfullscreen> </iframe>
 </figure>
 
 <br>
+
+### Demo Recording
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/ZRcWCWatdas" frameborder="0" allowfullscreen> </iframe>
+</figure>
+
+<br>
+
+### Slides
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/12iugxtSBuHutwKua6MNerZ37CCDwLYrjTXyBeThFxjs/embed?start=false&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -91,11 +103,11 @@ work together to move faster and reduce cycle time.
 </div>
 </div>
 
-<div class="panel panel-danger">
+<div class="panel panel-info">
 **What Is Cycle Time?**
 {: .panel-heading}
 <div class="panel-body">
-Cycle time is the time it takes to move from idea to production.
+Cycle time is the time it takes to move [from idea to production][ci-cd-cd].
 
 To adapt to the emerging new world of software development, teams need to ship
 code faster. This is best accomplished by reducing the cycle time to 57 minutes
@@ -104,18 +116,20 @@ as code, and by removing hand-offs.
 </div>
 </div>
 
-<div class="panel panel-danger">
+<div class="panel panel-success">
 **Conversational Development (ConvDev)**
 {: .panel-heading}
 <div class="panel-body">
-**5 Principles of Conversational Development
+**5 Principles of Conversational Development**
+
 1. Reduce the cycle time to increase effectiveness
 2. Monitor the process from idea to production
 3. Thread the conversations through all stages
 4. Gatekeepers become part of the conversation
 5. The rest of the organization can contribute
 
-Benefits of ConvDev
+**Benefits of ConvDev**
+
 1. Shipping smaller and simpler changes is more efficient 
 2. Frequent interactions gather more information 
 3. Quicker to respond to market need
@@ -124,15 +138,18 @@ Benefits of ConvDev
 </div>
 </div>
 
-<div class="panel panel-danger">
+<div class="panel panel-gitlab">
 **GitLab Product Vision**
 {: .panel-heading}
 <div class="panel-body">
 There are ten steps in the modern development lifecycle. From idea to product
 developers need a tool that takes a strong, all-inclusive approach to the
-development process. We have product that supports 8 of the 10 steps and are
-working to ship the rest. We are also working on better integrations to
-GitLab a truely comprehensive package.
+development process. We have product that supports 8 of the [10 steps] and are
+working to ship the rest.
+
+![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
+
+We are also working on better integrations to GitLab a truely comprehensive package.
 </div>
 </div>
 
@@ -141,7 +158,12 @@ GitLab a truely comprehensive package.
 {: .panel-heading}
 <div class="panel-body">
 
+Take a look at the discussion on the event using the hashtag _#GitLabLive_.
+It's awesome to seeing the community engagement, we thank you all!
+
 {::options parse_block_html="false" /}
+
+<div class="center">
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Netwon:Einstein = <a href="https://twitter.com/hashtag/Agile?src=hash">#Agile</a>:<a href="https://twitter.com/hashtag/ConvDev?src=hash">#ConvDev</a> - seems good to me <a href="https://twitter.com/hashtag/gitlablive?src=hash">#gitlablive</a></p>&mdash; Lorenzo Sciandra (@Kelset) <a href="https://twitter.com/Kelset/status/775755128418799620">September 13, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -160,21 +182,22 @@ GitLab a truely comprehensive package.
 
 </div>
 </div>
+</div>
 
 As always, if you have any questions feel free to comment on this post or [tweet at us][gitlab-twitter].
 
 <!-- identifiers -->
 
+[10 steps]: /2016/08/22/announcing-the-gitlab-issue-board/#gitlab-from-idea-to-production
 [ashley-twitter]: https://twitter.com/ashl3ysm1th
+[ci-cd-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [cycle-analytics-webcast-reg]: https://page.gitlab.com/20160922_CycleAnalyticsWebcast.html
-[funding-post]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
-[gitlab-scope]: https://about.gitlab.com/direction/#scope
+[funding-post]: /2016/09/13/gitlab-master-plan/
+[gitlab-scope]: /direction/#scope
 [gitlab-twitter]: https://twitter.com/gitlab
 [job-twitter]: https://twitter.com/Jobvo
 [jono-twitter]: https://twitter.com/jonobacon
 [sid-twitter]: https://twitter.com/sytses
-
-
 
 <!-- custom styles -->
 
@@ -202,5 +225,8 @@ As always, if you have any questions feel free to comment on this post or [tweet
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   margin-bottom: 20px;
   margin-top: 20px;
+}
+.text-center {
+  text-align: center;
 }
 </style>
