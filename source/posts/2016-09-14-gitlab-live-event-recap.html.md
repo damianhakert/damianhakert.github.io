@@ -1,22 +1,33 @@
 ---
-title: "#GitLabLive Master Plan Recap"
+title: "GitLab Live Event Recap"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
-categories: GitLab
+categories: inside GitLab
 image_title: '/images/social-media-assets/campaigns/live-event/twitter-4.png'
-description: "Watch the recording of the GitLab Master plan plus event highlights and slides."
-twitter_image:
+description: "Watch the recording of the GitLab Master Plan plus event highlights and slides."
 ---
-<div class="panel panel-info">
-{: .panel-heading}
-<div class="panel-body">
-[Join us for our next webcast][cycle-analytics-webcast-reg] on Sept. 29 for an introduction to Cycle Analytics and a 8.13 Feature Release demo. 
-</div>
-</div>
 
-The world of software development is changing and time to market matters more now than ever before. The world's best companies are reducing cycle times to ship software at an incredible pace. In this brave new world, businesses that can iterate more quickly than their competitors will win. To help you stay competitive by moving faster from idea to production, [we are working][gitlab-scope] to bring you a product that mirrors the most natural and cohesive process for the way you do work--all in a single UI.
+{::options parse_block_html="true" /}
 
-Following the [announcement][funding-post] of our $20M Series B funding lead by August Capital, we hosted a live event with our CEO [Sid Sijbrandij][sid-twitter] and MC [Jono Bacon][jono-twitter]. More than 1,000 GitLab community members attended to watch, ask questions, and contribute to the conversation. Within 12 hours of our funding announcement, **2,508 new projects** were added to GitLab. Thanks to our awesome community for your continued support! 
+
+[Join us for our next webcast][cycle-analytics-webcast-reg] on Sept. 29 for an
+introduction to Cycle Analytics and a 8.13 Feature Release demo.
+{: .alert .alert-info}
+
+The world of software development is changing and time to market matters more
+now than ever before. The world's best companies are reducing cycle times to
+ship software at an incredible pace. In this brave new world, businesses that
+can iterate more quickly than their competitors will win. To help you stay
+competitive by moving faster from idea to production, [we are working][gitlab-scope]
+to bring you a product that mirrors the most natural and cohesive process for
+the way you do work--all in a single UI.
+
+Following the [announcement][funding-post] of our $20M Series B funding lead
+by August Capital, we hosted a live event with our CEO [Sid Sijbrandij][sid-twitter]
+and MC [Jono Bacon][jono-twitter]. More than 1,000 GitLab community members attended
+to watch, ask questions, and contribute to the conversation. Within 12 hours of our
+funding announcement, **2,508 new projects** were added to GitLab. Thanks to our
+awesome community for your continued support! 
 
 <!-- more -->
 
@@ -49,7 +60,11 @@ If you don’t have time to watch the full video, here are the highlights.
 **Building an Open Source Community**
 {: .panel-heading}
 <div class="panel-body">
-Building great open source communities isn't easy; it's a patchwork of pieces that are glued together in a specific way to work. These pieces include everything from idea management (i.e. How do you get the best ideas to flow to the surface?) to code review and quailty assurance (QA). If these pieces aren't glued together properly, it causes frustration and complexity.  
+Building great open source communities isn't easy; it's a patchwork of pieces
+that are glued together in a specific way to work. These pieces include everything
+from idea management (i.e. How do you get the best ideas to flow to the surface?)
+to code review and quailty assurance (QA). If these pieces aren't glued together
+properly, it causes frustration and complexity.  
 </div>
 </div>
 
@@ -57,7 +72,10 @@ Building great open source communities isn't easy; it's a patchwork of pieces th
 **GitLab's Evolution**
 {: .panel-heading}
 <div class="panel-body">
-GitLab started in 2011 as an open source project simply because "we wanted an open source git solution so we built GitLab," according to Dmitriy Zaporozhets, co-founder and CTO. Today, we've grown from a team of 2 to 104 team members spanning 33 countries. As of May 2016, we have over 1,000 contributors! 
+GitLab started in 2011 as an open source project simply because "we wanted an
+open source git solution so we built GitLab," according to Dmitriy Zaporozhets,
+co-founder and CTO. Today, we've grown from a team of 2 to 104 team members
+spanning 33 countries. As of May 2016, we have over 1,000 contributors! 
 </div>
 </div>
 
@@ -65,7 +83,11 @@ GitLab started in 2011 as an open source project simply because "we wanted an op
 **The Software Development Revolution** 
 {: .panel-heading}
 <div class="panel-body">
-As the world of software development evolves, outdated processes like Waterfall, Scrum, and Agile aren't suitable for the modern developer. There are five factors driving this change: shifts in the market, changes in developer roles and the ways we communicate, an explosion of new tools, and the transformation of how modern teams work together to move faster and reduce cycle time.  
+As the world of software development evolves, outdated processes like Waterfall,
+Scrum, and Agile aren't suitable for the modern developer. There are five factors
+driving this change: shifts in the market, changes in developer roles and the ways we
+communicate, an explosion of new tools, and the transformation of how modern teams
+work together to move faster and reduce cycle time.  
 </div>
 </div>
 
@@ -75,7 +97,10 @@ As the world of software development evolves, outdated processes like Waterfall,
 <div class="panel-body">
 Cycle time is the time it takes to move from idea to production.
 
-To adapt to the emerging new world of software development, teams need to ship code faster. This is best accomplished by reducing the cycle time to 57 minutes by establishing cross-functional teams, automated testing, adopting infrastructure as code, and by removing hand-offs.
+To adapt to the emerging new world of software development, teams need to ship
+code faster. This is best accomplished by reducing the cycle time to 57 minutes
+by establishing cross-functional teams, automated testing, adopting infrastructure
+as code, and by removing hand-offs.
 </div>
 </div>
 
@@ -103,14 +128,20 @@ Benefits of ConvDev
 **GitLab Product Vision**
 {: .panel-heading}
 <div class="panel-body">
-There are ten steps in the modern development lifecycle. From idea to product developers need a tool that takes a strong, all-inclusive approach to the development process. We have product that supports 8 of the 10 steps and are working to ship the rest. We are also working on better integrations to GitLab a truely comprehensive package.
+There are ten steps in the modern development lifecycle. From idea to product
+developers need a tool that takes a strong, all-inclusive approach to the
+development process. We have product that supports 8 of the 10 steps and are
+working to ship the rest. We are also working on better integrations to
+GitLab a truely comprehensive package.
 </div>
 </div>
 
 <div class="panel panel-gitlab-purple">
-**#GitLabLive Community Discussion**
+**GitLabLive Community Discussion**
 {: .panel-heading}
 <div class="panel-body">
+
+{::options parse_block_html="false" /}
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Netwon:Einstein = <a href="https://twitter.com/hashtag/Agile?src=hash">#Agile</a>:<a href="https://twitter.com/hashtag/ConvDev?src=hash">#ConvDev</a> - seems good to me <a href="https://twitter.com/hashtag/gitlablive?src=hash">#gitlablive</a></p>&mdash; Lorenzo Sciandra (@Kelset) <a href="https://twitter.com/Kelset/status/775755128418799620">September 13, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -163,5 +194,13 @@ As always, if you have any questions feel free to comment on this post or [tweet
   color: rgb(107,79,187);
   background-color: rgba(107,79,187,.3);
   border-color: rgba(107,79,187,.3);
+}
+.center twitterwidget {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 </style>
