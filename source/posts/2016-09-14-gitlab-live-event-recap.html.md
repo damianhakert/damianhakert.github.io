@@ -5,7 +5,7 @@ author_twitter: EricaLindberg_
 categories: inside GitLab
 image_title: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.png'
 description: "Watch the recording of the GitLab Master Plan plus event highlights and slides."
-twitter_image: '/images/social-media-assets/campaigns/live-event/linkedin-4-5x.png'
+twitter_image: '/images/social-media-assets/campaigns/live-event/twitter-4-5x.png'
 ---
 
 {::options parse_block_html="true" /}
@@ -72,11 +72,13 @@ If you don’t have time to watch the full video, here are the highlights.
 **Building an Open Source Community**
 {: .panel-heading}
 <div class="panel-body">
-Building great open source communities isn't easy; it's a patchwork of pieces
-that are glued together in a specific way to work. These pieces include everything
-from idea management (i.e. How do you get the best ideas to flow to the surface?)
-to code review and quailty assurance (QA). If these pieces aren't glued together
-properly, it causes frustration and complexity.  
+Building great open source communities isn't easy. Collaboration requires
+human interaction, but human dynamics are often irrational yet predictable.
+When we harness these basic behavioral economics principles, we can make better
+systems that help us work together.
+
+![Live Event presentation - slide 6](/images/blogimages/gitlab-live-event-recap-slide-6.png)
+
 </div>
 </div>
 
@@ -157,14 +159,21 @@ collaboration and knowledge sharing from idea to production._
 **GitLab Product Vision**
 {: .panel-heading}
 <div class="panel-body">
-There are ten steps in the modern development lifecycle. From idea to production,
-developers need a tool that takes a strong, all-inclusive approach to the
-development process. GitLab currently supports 8 of the [10 steps] and are
-working to ship the rest.
+We plan to ship all 10 steps in the modern development lifecycle:
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-We are also working on better integrations to GitLab a truly comprehensive package.
+From ideation and planning to committing, testing, deploying, and getting feedback, we are building a toolset that takes an all-inclusive approach to the development process. You should honestly hear Sid talk about what we have planned:
+
+- [19:50] "We'll be shipping Cycle Analytics this month"
+- [20:00] "After we ship all of these steps, we're not done. We want to make integrations better"
+- [20:15] "We want to become the solution for conversational development"
+- [20:20] "We'll ship cycle time, we'll ship review apps" 
+- [20:32] "We'll ship with Prometheus for monitoring" 
+- [20:50] "We'll ship better with container schedulers" 
+- [21:10] "We think it's great to use GitLab for everything, but we're going to make sure we have all the APIs" 
+- [22:00] "We want to make GitLab and GitLab.com faster" 
+- [22:10] "We want to make it easy to migrate to GitLab" 
 </div>
 </div>
 
@@ -203,7 +212,7 @@ It's awesome to seeing the community engagement, we thank you all!
 
 Please keep the comments coming! We'll be glad to hear your impressions, opinions,
 questions, ideas, and feedback on our direction towards Conversational Development.
-Use the hashtag _#ConvDev_ to join the discussion. 
+Use the hashtag _#ConvDev_ to join the discussion.
 
 Thank you again for your massive collaboration, the entire GitLab Team was super
 excited to see everyone popping up in the event chat and social media feeds!
