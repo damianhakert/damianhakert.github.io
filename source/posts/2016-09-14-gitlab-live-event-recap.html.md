@@ -91,7 +91,7 @@ open source git solution so we built GitLab," according to Dmitriy Zaporozhets,
 co-founder and CTO. Today, we've grown from a team of 2 to 104 team members
 spanning 33 countries. As of May 2016, we have over 1,000 contributors!
 
-Over the last we have made some incredible [improvements][releases] to our product. We
+Over the last year we have made some incredible [improvements][releases] to our product. We
 made amazing improvements in hosting, released [GitLab Pages] for static sites,
 and we have [GitLab Geo] that allows you to work with a remote team. [Continuous
 Integration] is getting even better with pipelines in the product and a [Docker
@@ -114,7 +114,7 @@ work together to move faster and reduce cycle time.
 </div>
 
 <div class="panel panel-info">
-**Reduce cycle time to improve efficiency**
+**Reduce Cycle Time to Improve Efficiency**
 {: .panel-heading}
 <div class="panel-body">
 Cycle time is the time it takes to move [from idea to production][ci-cd-cd].
@@ -208,7 +208,7 @@ It's awesome to seeing the community engagement, we thank you all!
 </div>
 </div>
 
-## Let's talk more about it?
+## Let's Talk More About it?
 
 Please keep the comments coming! We'll be glad to hear your impressions, opinions,
 questions, ideas, and feedback on our direction towards Conversational Development.
