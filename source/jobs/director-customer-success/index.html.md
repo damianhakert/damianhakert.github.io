@@ -3,7 +3,7 @@ layout: job_page
 title: "Director of Customer Success"
 ---
 
-As the Director of Customer Success, you report to the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering), and you will build the Customer Success team with world-class Success Engineers. Exceptionally qualified candidates may have the [Support Lead](https://about.gitlab.com/jobs/support-lead) report to the and help customers succeed with GitLab through their growth initiatives, projects, and strategies. The right candidate will play a critical role in the delivery of a world-class service experience to GitLab's customers and channel partners. If you are truly passionate about customer advocacy and have a proven track record to talk about, then apply for this opportunity to unequivocally help our customers and furthermore, directly impact GitLab’s overall success and growth.
+As the Director of Customer Success, you report to the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering), and you will build the Customer Success team with world-class Success Engineers. Exceptionally qualified candidates may have the [Support Lead](https://about.gitlab.com/jobs/support-lead) report to them. The Customer Success team will help customers succeed with GitLab through their growth initiatives, projects, and strategies. The right candidate will play a critical role in the delivery of a world-class service experience to GitLab's customers and channel partners. If you are truly passionate about customer advocacy and have a proven track record to talk about, then apply for this opportunity to unequivocally help our customers and furthermore, directly impact GitLab’s overall success and growth.
 
 ## Responsibilities
 
