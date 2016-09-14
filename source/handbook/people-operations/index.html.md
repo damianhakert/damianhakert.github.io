@@ -3,7 +3,7 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-## Communication<a name="reach-peopleops"></a>
+## Communication
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
@@ -60,7 +60,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
    - For 'fixed fee' contracts, it is OK to send the invoice before the time period
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
    - All invoices are internally reviewed, approved, and then payment is processed.
-   This is usually a fast process, but be aware that it can incur delays around vacations. In principal, payments go out once per week on Fridays. 
+   This is usually a fast process, but be aware that it can incur delays around vacations. In principal, payments go out once per week on Fridays.
    - An invoice template can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
 1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/sop/#processing-changes).
 
