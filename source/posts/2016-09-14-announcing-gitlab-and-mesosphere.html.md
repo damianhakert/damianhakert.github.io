@@ -69,7 +69,7 @@ If you're interested in learning more or want to learn how you can install GitLa
 * GitLab & Mesosphere joint solution brief
 * [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
 
-<!-- identifiers -->
+<!-- custom styles -->
 
 <style>
 .panel-gitlab {
