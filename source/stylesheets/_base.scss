@@ -482,6 +482,10 @@ iframe {
       color: $color-primary;
       font-size: 20px;
       margin: 0;
+
+      a {
+        color: inherit;
+      }
     }
 
     .subheader-text {
