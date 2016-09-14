@@ -9,7 +9,7 @@ Today we are releasing versions 8.11.6, 8.10.9 and 8.9.9 for GitLab Community
 Edition (CE) and Enterprise Edition (EE).
 
 Version 8.11.6 contains two security fixes for GitLab, plus fixes for minor
-regressions.
+regressions. Version 8.10.9 and 8.9.9 contain only the two security fixes.
 
 Please read on for more details.
 
@@ -24,7 +24,7 @@ Please read on for more details.
 - **CE/EE:** Fix DB schema to match latest migration. ([!6256])
 - **CE/EE:** Fix intermittent spec failures with spec/features/issues/user_uses_slash_commands_spec.rb. ([!6271])
 
-- **EE:** Exclude blocked users from potential MR approvers. ([!503])
+- **EE:** Exclude blocked users from potential MR approvers.
 
 - **Omnibus GitLab:** Fix registry build by enabling vendor feature. ([!991])
 
@@ -36,8 +36,6 @@ Please read on for more details.
 [!6256]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6256
 [!6167]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6167
 [!6052]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6052
-
-[!503]: https://dev.gitlab.org/gitlab/gitlab-ee/merge_requests/503
 
 [!991]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/991
 
