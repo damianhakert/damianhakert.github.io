@@ -84,11 +84,25 @@ A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket de
 
 ### Create issues
 
-During your interaction with the customers you will most likely need to create an
+During your interaction with the customers you will most likely need to create or update an
 issue, either for a feature request, for a bug, or for further documentation.
 Since we do everything in the open, it is good practice to send the link of the
 issue to the requesting customer, so that they can also keep an eye on the discussion
 there, and weigh in if necessary.
+
+
+Workflow for creating an issue:
+
+- Visit the issues page of the project, [CE example here](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+- Search to make sure the issue doesn't already exist
+- Click **New Issue**
+- Choose a template from the **Choose a template** dropdown and take a look at the
+**Typical kinds of issues created** below.
+- Fill in all the relevant sections
+- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
+someone a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to assign it to and do that.
 
 Typical kinds of issues created:
 
@@ -96,15 +110,23 @@ Typical kinds of issues created:
    - Make sure it looks like a bug - otherwise ping one of the developers to confirm.
    - Reproduce the bug
    - Assign the bug fix to the next milestone
-   - Report back to customer
-- **Unpaid feature request**
+   - Report back to customer with a link to the issue
+- **Proposed feature request**
    - Provide maximum information and use case from customer in the issue,
 mention any alternatives, how badly the customer wants it.
    - Ask a developer for opinion (do we want this feature in GitLab: yes/no, the
 developer might ask more questions before answer)
-- **Paid feature request**
-   - Follow some process as for an unpaid feature request, AND
-   - Ask for an estimate
+   - Report back to customer with a link to the issue
+
+Typical workflow for updating an existing issue:
+
+1. Comment on the issue that another customer is having a problem, adding relevant details
+and a link to the ZenDesk ticket. Also if it is an EE customer, add the `~customer`
+label to the ticket.
+1. Send the customer a link to the issue and invite them to comment.
+1. If the customer replies with satisfaction that their concern is
+being addressed after seeing the issue, ask them if it would be okay to mark
+the ticket as resolved and to instead continue the conversation on the issue.
 
 Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
