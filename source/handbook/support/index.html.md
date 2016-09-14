@@ -320,6 +320,10 @@ all the information you might need on a 20 minute call than on 10 2-minute email
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
 
+If you feel too inexperienced to handle a call, ask someone more experienced to handle the call and
+listen in if at all possible. After someone else had the call with the customer it is still your responsibility
+to handle the ticket as long as the ticket is still assigned to you.
+
 ### Internal Support<a name="internal"></a>
 
 Fellow GitLab team members can reach out for help from the Support Team in various ways:
