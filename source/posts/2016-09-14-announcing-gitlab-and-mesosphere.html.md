@@ -3,8 +3,8 @@ title: "Announcing GitLab + Mesosphere: Five reasons you should be excited about
 author: Amara Nwaigwe
 author_twitter: its_amaracle
 categories: integration
-image_title: '/images/blogimages/mesosphere_cover_image.png'
-description: GitLab is now available on Mesosphere DC/OS. 
+image_title: '/images/blogimages/announcing-gitlab-and-mesosphere-cover.png'
+description: "GitLab is now available on Mesosphere DC/OS!"
 ---
 
 Today we're happy to announce our integration with [Mesosphere](https://mesosphere.com/).
