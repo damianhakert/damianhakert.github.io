@@ -278,7 +278,7 @@
   reports_to: CEO
   picture: ashley.jpg
   twitter: ashl3ysm1th
-  gitlab: ashleys
+  gitlab: ashley
   story:  |
           Based in Brooklyn, Ashley's background in engineering has allowed her to excel in marketing developer products.
           She got her start at Twilio and then lead marketing at Parse, which was then acquired by Facebook. After an awesome but short
@@ -970,7 +970,10 @@
   reports_to: CMO
   picture: marcia.jpg
   twitter: XMDRamos
-  gitlab: virtuacreative
+  gitlab: marcia
+  maintains:  |
+              <li>Markdown Kramdown <a href="/jobs/expert/">expert</a></li>
+              <li>Technical Editor of the <a href="/blog/">GitLab Blog</a></li>
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
