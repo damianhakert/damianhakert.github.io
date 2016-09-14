@@ -25,7 +25,7 @@ more than that so we don't spoil the five reasons to be excited.
 **1. Simplify the complexities** 
 {: .panel-heading}
 <div class="panel-body">
-Mesosphere is an incredible product that has made something that is genuinely complex feel surprisingly simple and intuitive. Most teams do not run a production environment with less than 8 servers. Using GitLab.com as an example, at any given time, we run anywhere from 60-200 servers. You can read about the full breakdown in [this blog post](https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/). The point is that your infrastructure team is dealing with a lot of complexity. Mesosphere simplifies that. They offer a single platform to run everything on the same shared infrastructure.
+Mesosphere is an incredible product that has made something that is genuinely complex feel surprisingly simple and intuitive. Most teams run their applications in production environments composed of multiple servers. Using GitLab.com as an example, at any given time, we run anywhere from 60-200 servers. You can read about the full breakdown in [this blog post](https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/). The point is that your infrastructure team is dealing with a lot of complexity. Mesosphere simplifies that. They offer a single platform to run everything on the same shared infrastructure.
 </div>
 </div>
 
