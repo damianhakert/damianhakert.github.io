@@ -45,6 +45,11 @@ This guide has been made to make it easier for everyone to use Kramdown features
 There are different possible syntaxes for most of the markups described below, but this guide is to be considered the
 standard for about.GitLab.com.
 
+### Blog
+
+For our [Blog], everything in this guide can be applied. Read through the [Blog Style Guidelines] and the
+[Professional Writing Techniques] for further information.
+
 ----
 
 ## Headings
@@ -266,6 +271,7 @@ Also, it may cause repetition of the same link through the document.
 - Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
+- Check for broken links: <http://www.deadlinkchecker.com/>
 
 ----
 
@@ -669,7 +675,6 @@ This is an ``` `in-line` ``` code block.
 
 <div class="panel-body">
 
-
 _In-line_
 
 This is an `in-line` code block.
@@ -739,7 +744,6 @@ end
 </div>
 </div>
 
-
 ### Indented 
 
 Add 4 white spaces before every line:
@@ -778,8 +782,6 @@ _Indented Highlighted_
 
 </div>
 </div>
-
-
 
 ### Nested
 
@@ -1226,6 +1228,7 @@ long paragraph. For single and short paragraphs, use alert boxes instead.
 
 When using panels, make sure to add the HTML parser markup to the beginning of your document's body:
 `{::options parse_block_html="true" /}`.
+{: #html-parser}
 
 Copy paste the following code according to what you want to present to the user
 and replace only the description. The available colors are:
@@ -1269,6 +1272,17 @@ And blue alert boxes render like:
 My important paragraph.
 {: .alert .alert-info}
 
+If you want the text inside the alert box to be blue as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-info {
+  color: rgb(49,112,143) !important;
+}
+</style>
+```
+
 ### Warnings
 
 Use the following code for warnings, like information that may have a different
@@ -1310,6 +1324,17 @@ And amber alert boxes render like:
 My warning paragraph.
 {: .alert .alert-warning}
 
+If you want the text inside the alert box to be amber as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-warning {
+  color: rgb(138,109,59) !important;
+}
+</style>
+```
+
 ### Danger
 
 Use the following code for crucial warnings, like commands that result to loss
@@ -1348,6 +1373,17 @@ And red alert boxes render like:
 
 My danger paragraph.
 {: .alert .alert-danger}
+
+If you want the text inside the alert box to be red as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-danger {
+  color: rgb(169,68,66) !important;
+}
+</style>
+```
 
 ### Do's and Don'ts
 
@@ -1410,6 +1446,17 @@ or, if you chose an alert box:
 TO DO.
 {: .alert .alert-success}
 
+If you want the text inside the alert box to be green as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-green {
+  color: rgb(60,118,61) !important;
+}
+</style>
+```
+
 And for your "DON'TS" within red panels will look like:
 
 <div class="panel panel-danger">
@@ -1427,11 +1474,148 @@ or, if you chose a red alert box:
 NOT TO DO.
 {: .alert .alert-danger}
 
+### Custom alert panels and alert boxes
+
+All the previously mentioned alert boxes and panels are available by default by [Bootstrap]. If we want them in a different
+color, we need [custom styles](#styles). At about.GitLab.com, we can use the orange and the purple one, as follows.
+
+When using panels, don't forget to add to the beginning of your file the [HTML parser markup](#html-parser) to be able
+to mix HMTL + Markdown:
+`{::options parse_block_html="true" /}`.
+
+#### GitLab Orange Alert Panel
+
+<div class="panel panel-gitlab-orange">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+Text in markdown.
+</div>
+</div>
+
+Panel block markup:
+
+```html
+<div class="panel panel-gitlab-orange">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+
+Text in markdown.
+
+</div>
+</div>
+```
+
+Custom styles:
+
+```css
+<style>
+.panel-gitlab-orange {
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-orange > .panel-heading {
+  color: rgb(226,67,41);
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+}
+</style>
+```
+
+#### GitLab Orange Alert Box
+
+My text in an orange box.
+{: .alert .alert-gitlab-orange}
+
+Box block markup:
+
+```md
+My text in an orange box.
+{: .alert .alert-gitlab-orange}
+```
+
+Custom styles:
+
+```css
+<style>
+.alert-gitlab-orange {
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+  color: rgb(226,67,41) !important; /* remove this line in case you want the text in black */
+  text-align: center; /* remove this line in case you don't want the text centralized */
+}
+</style>
+```
+
+#### GitLab Purple Alert Panel
+
+<div class="panel panel-gitlab-purple">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+Text in markdown.
+</div>
+</div>
+
+Panel block markup:
+
+```html
+<div class="panel panel-gitlab-purple">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+
+Text in markdown.
+
+</div>
+</div>
+```
+
+Panel custom styles:
+
+```css
+<style>
+.panel-gitlab-purple {
+  border-color: rgba(107,79,187,.3);
+}
+.panel-gitlab-purple > .panel-heading {
+  color: rgb(107,79,187);
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+}
+</style>
+```
+
+#### GitLab Purple Alert Box
+
+My text in an purple box.
+{: .alert .alert-gitlab-purple}
+
+Box block markup:
+
+```md
+My text in an purple box.
+{: .alert .alert-gitlab-purple}
+```
+
+Custom styles:
+
+```css
+<style>
+.alert-gitlab-purple {
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+  color: rgb(107,79,187) !important; /* remove this line in case you want the text in black */
+  text-align: center; /* remove this line in case you don't want the text centralized */
+}
+</style>
+```
+
 ----
 
 ## Styles
 
-To wrap up, guess what?
+Yes, guess what?
 
 This:
 
@@ -1658,6 +1842,7 @@ they can render differently than the expected and can cause other issues.
 - Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
 - If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
+- To add fancy emojis to your file, click `control+cmd+space` on your Mac and check the ⭐️ **magic**! ⭐️ Do not overuse them, please!
 - If you are confused about any markup that you've found in this file, you can check its [`raw` file] for reference,
 where you'll be able to see exactly how everything was written to produce the results you are seeing on this page.
 
@@ -1669,9 +1854,12 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 
 <!-- Identifiers, in alphabetical order -->
 
+[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [about.gitlab.com]: https://about.gitlab.com/
 [alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
+[Blog Style Guidelines]: /handbook/marketing/blog/#styles-guidelines
+[bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
@@ -1686,7 +1874,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
 [mou]: http://25.io/mou/
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
-[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
+[Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
@@ -1701,3 +1889,34 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
+
+<style>
+.panel-gitlab-orange {
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-orange > .panel-heading {
+  color: rgb(226,67,41);
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-purple {
+  border-color: rgba(107,79,187,.3);
+}
+.panel-gitlab-purple > .panel-heading {
+  color: rgb(107,79,187);
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+}
+.alert-gitlab-orange {
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+  color: rgb(226,67,41) !important;
+  text-align: center;
+}
+.alert-gitlab-purple {
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+  color: rgb(107,79,187) !important;
+  text-align: center;
+}
+</style>
