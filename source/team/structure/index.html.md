@@ -53,6 +53,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - [Engineering](/handbook/engineering) - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
     - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
       - [Success Engineer](/jobs/success-engineer/)
+      - [Success Engineer (APAC and Channel)](/jobs/success-engineer-apac-and-channel)(vacancy)
     - Backend - [Backend Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
