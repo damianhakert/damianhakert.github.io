@@ -98,6 +98,11 @@
   apply: https://gitlab.workable.com/jobs/242971/candidates/new
   open: true
 
+- title: "Success Engineer (APAC and Channel)"
+  description: /jobs/Success-Engineer-APAC-and-Channel/
+  apply: 
+  open: true
+
 - title: "Build Engineer"
   description: /jobs/build-engineer
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
