@@ -117,14 +117,14 @@ Not a GitLab Team member? Check the process for Community Writers below.
 
 For our [community writers], we will follow the Scalable Writing System described below.
 
-1. Guest Writer - choose a subject:
+1. Community Writer - choose a subject:
    - Make sure you are familiar with [GitLab Workflow]
    - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> or create a new one.
    - Leave a comment "@amara I would like to write this and I accept the terms on [Community Writers Program][Community Writers]. Below follows my writing sample."
 2. Content Marketing - analyse the proposal:
   - Amara will evaluate the writer's sample and discuss anything necessary before start writing
   - When the guest writer is approved to get started, Amara will leave a comment "@username, you got it!" and assign the issue to the writer
-3. Guest Writer: prepare local environment and submit the article
+3. Community Writer: prepare local environment and submit the article
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
   - Write according to the [Professional Writing Techniques][writing-tech]
   - Submit a [WIP MR] with the proposal and assign it to Amara
@@ -163,7 +163,6 @@ Before making any change, create a new branch `git checkout -b branchname` clone
 
 Reviewer - check these before you publish:
 
-- First instance of GitLab should be linked to [GitLab] <!-- => WHAT EXACTLY DOES IT MEAN? -->
 - Follow the [Blog Style Guide](#styles-guidelines)
 - Check all links - make sure none is broken
 - Check the file extension `.html.md`
@@ -173,10 +172,13 @@ Reviewer - check these before you publish:
 - Check the blog appears good locally
 - When you have double checked, you can merge
 
-It takes about 5 mins for the blog post to appear as published.
+It takes about 7-10 mins for the blog post to appear as published after merged. As soon as it's live, check the
+post for broken links using this tool (or similar): <http://www.deadlinkchecker.com/>. Fix anything _before_ sharing
+in any communication channel or social media network.
 
 After the blog post is published we should tweet immediately from the GitLab
 Twitter account, and schedule follow up tweets and LinkedIn and Facebook.
+[Validate the Twitter Card][twitter card validator] before tweeting!
 
 ## Get inspired
 
