@@ -1858,6 +1858,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [about.gitlab.com]: https://about.gitlab.com/
 [alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
+[blog]: /blog/
 [Blog Style Guidelines]: /handbook/marketing/blog/#styles-guidelines
 [bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html

@@ -21,7 +21,7 @@ title: "Blog Handbook"
 
 Our [Blog] is orchestred by the [Product Marketing][prod] and the [Developer Relations][dev-rel] Marketing Team.
 
-<div class="alert alert-purple center"><h3 class="purple"><strong>EVERYONE CAN CONTRIBUTE</strong></h3></div>
+<div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
 ### Objectives &amp; Purposes
 
@@ -503,10 +503,12 @@ of an image, use one of these:
 {: .no_toc}
 
 Animated GIFs are very useful to illustrate short dynamic processes, which might be easier to understand with this kind of resource.
-There are a few ways to create animated GIFs, one of them is via [Giphy Capture], a light-weight app for Mac.
+There are a few ways to create animated GIFs, one of them is using [Giphy Capture], a light-weight app for Mac.
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases,
 you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image (e.g., the ones used in [this post][gifs-post]).
+
+Read more on [Making Gifs] in the Product Handbook.
 
 ### GitLab Specific Terms
 
@@ -590,6 +592,7 @@ specific matters are still being discussed and polished.
 [git]: https://git-scm.com/
 [issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
 [Mac screenshot]: https://support.apple.com/en-us/HT201361
+[Making Gifs]: /handbook/product/making-gifs
 [Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [marketing-blog]: #blog
 [middleman]: https://middlemanapp.com/basics/install/
