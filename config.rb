@@ -111,7 +111,7 @@ configure :build do
 
   ## Direction page
   if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
   end
 
   ## Releast list page
