@@ -4,6 +4,7 @@ title: "Sales Onboarding"
 ---
 
 Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://university.gitlab.com/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
+A library of past product training sessions can be found [Here](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk).  All new hires should review all content during their onboarding stages.
 
 ```
 ### Stage 1
