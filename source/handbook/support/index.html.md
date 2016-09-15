@@ -262,10 +262,10 @@ information about using the security PGP key pair and decrypting messages.
 
 ### Regular ZenDesk tickets <a name="regular"></a>
 
-You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
-that have come in and are unassigned, again using FIFO.
-When you need others to help please create an issue on the relevant GitLab issue tracker.
+that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
+the relevant GitLab issue tracker.
 
 ### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
