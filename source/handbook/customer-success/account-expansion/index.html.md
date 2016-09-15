@@ -4,6 +4,7 @@ title: "Account Expansion Plan Template"
 ---
 
 For each account we have identifed there is significant growth opportunity, we want to create an account expansion plan to help us realize the potential for every account.
+The list of accounts we are targetting for expansion, can be found [here](https://na34.salesforce.com/00O61000003SenE).  To be on this list, the field large accounts, must be checked off and type must equal customer.  To determine the potential EE subscription amount, the total # of potential users needs to be added.
 To create an account expansion plan:
 
 1. Create a new issue withing the [Customer Success Issue Tracker](https://gitlab.com/gitlab-com/customer-success/issues).  This is a private project so customer names can be mentioned.
