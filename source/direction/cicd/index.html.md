@@ -41,10 +41,8 @@ Example flow:
 
 ### Issues to support pipelines overall
 
-1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743) **DONE**
 1. [Run CI/CD on Merge Requests, not just branches](https://gitlab.com/gitlab-org/gitlab-ce/issues/15310), especially for fork-based flows
 2. Deploy pipelines
-    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
     4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
@@ -157,16 +155,6 @@ From [12 Factor](http://12factor.net/codebase), if there are multiple codebases,
     4. We can block deploys of one MR until upstream changes are deployed (to the same environment).
     5. This can work across projects so individual services get deployed in the right order.
 3. Coordinated deploy of all related apps to a new environment. e.g. autogenerate a "cloudformation" because we know how the projects relate to each other. This could, for example, be used by GitHost to spin up a new single-tenant instances of GitLab for a new customer.
-
-### Pages
-
-Pages is a great use of CI, but could be made even easier and more functional:
-
-1. Easy SSL cert creation and installation
-2. Easy Domain registration
-3. Staging and production
-4. Automatic CDN configuration (perhaps with CloudFlare)
-5. [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
 ## Example
 
