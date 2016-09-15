@@ -64,10 +64,10 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
 1. [PowerToFly](https://www.powertofly.com)
 1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
-`REMOTE ONLY GitLab - We're hiring production engineers, developers, UX designers , and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
+`REMOTE ONLY GitLab - We're hiring production engineers, developers, designers, and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
-1. [RemoteBase](https://remotebase.io/) ($50 per position per month, job descriptions are synced directly to our respective job description sites)
+1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 1. [Support Driven Jobs](http://jobs.supportdriven.com/) $150 for 30 days, $250	for 45 days + highlight
@@ -291,7 +291,7 @@ To close a vacancy:
 
 1. Hiring manager to clear the pipeline of candidates in all stages of application. Consider adding tags to candidates who were interesting but were passed over in this hiring process. Adding tags makes it easier to find them in Workable later on if you are recruiting for the same or a similar position.
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
-1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
+1. Create a merge request, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
 If the position was posted on RemoteBase, People Ops should email hello@remotebase.io to remove the job posting.
 

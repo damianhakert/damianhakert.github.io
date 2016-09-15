@@ -36,7 +36,7 @@ incredibly well written [runit cookbook][ru-cook].
 
 Using the Webrick as a base it’s fairly easy to get labels added to your
 MRs when they are opened. When the request comes in to your webrick server,
-look at the GitLab `object_kind` to see if it's an MR.
+look at the GitLab `object_kind` to see if it's a MR.
 
 ```ruby
 def merge_request?(request_body)
@@ -50,7 +50,7 @@ if the MR is just being opened. Then because we use [Semver] and
 [thor-scmversion][thor] we just scan all the commit messages for `#patch`, `#minor`
 and `#major` to apply the appropriate Semver tag to the MR.
 
-You will need a valid [GitLab API][doc-api] key to modify and or request data about an MR.
+You will need a valid [GitLab API][doc-api] key to modify and or request data about a MR.
 
 ```ruby
 def update_labels(gitlab_server, api_key, request_body )

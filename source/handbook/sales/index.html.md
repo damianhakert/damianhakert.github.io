@@ -33,15 +33,18 @@ title: "Sales Handbook"
 * [Sales Training](https://about.gitlab.com/handbook/sales-training/)
 * [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
 * [Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+* [EE Product Qualification Questions](https://about.gitlab.com/handbook/EE-Product-Qualification-Questions/)
 * [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Sales demo script](/handbook/sales/demo/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
 * [Demo: Idea to Production](/handbook/sales/idea-to-production)
+* [Vision Demo: Idea to Production](/handbook/sales/vision-demo)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
 
+* [Resellers Handbook](/handbook/resellers/)
 * [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
 * [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
@@ -187,6 +190,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 ##### Quote Metrics
 The following quote metrics are available:
+
  * MRR (Monthly Recurring Revenue) - Monthly recurring revenue (MRR) calculates subscription recurring fees normalized to a monthly value.
  * Delta MRR - Delta of the total MRRs between the original subscription and the amendment.
  * TCV (Total Contract Value) - Total contract value (TCV) calculates the total recurring charges over the lifetime of a subscription.
@@ -230,15 +234,15 @@ The following quote metrics are available:
  * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
-1. Create an Opportunity for an Add-on or Renewal
-1. Once an opportunity is created click on New Quote button within the opportunity
-1. Since this is a returning customer, sales rep would see the following screen
+1. Create an Opportunity for an Add-on or Renewal.  If a cancellation, click on Oportunity they want to cancel.
+1. Click on New Quote button within the opportunity
+1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
-#### New Subscription for the account
- * Amend existing subscription for this billing account
- * Renew existing subscription for this billing account
- * Cancel existing subscription for this billing account
+#### Updating Subscription for the account
+1. Amend existing subscription for this billing account
+2. Renew existing subscription for this billing account
+3. Cancel existing subscription for this billing account
 
 ##### New Subscription for the account
 1. This will allow the Sales rep to create a new subscription for the existing billing account.
@@ -250,6 +254,16 @@ The following quote metrics are available:
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
 
+##### Cancel existing subscription for the billing account
+1. This process is used to cancel an existing subscription
+1. Click on Opportunity to cancel.
+1. Click on New Quote
+1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
+1. Choosing “Canel existing subscription for billing account”,
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Click the subscription for performing a cancellation and hit on Next button
+1. Select cancellation date and click Next Button.
+
 #### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
 1. Remove product Amendment – The sales rep will be be able to perform a Remove a product Amendment;
@@ -260,19 +274,10 @@ The following quote metrics are available:
 1. Add product Ammendment – Sales rep can add a new product from the product selector page
 1. Update Product Amendment – Sales rep can update the existing product of the existing selected product
  * Note: Do not change the Terms and conditions unless you are performing a terms and conditions amendment(except for start date).
-
-##### Let’s take an Example – Let’s say a sales rep is performing an upgrade to a customer from Basic to Standard product
-This will include 3 steps –
-1. Set the Start date
-1. Remove the basic product
-1. Add the Standard product
- * Hit on Save
-
-##### Let's take another Example - Let's say a customer once to add more seats to their license.  
-This will include 2 steps -
-1. Set the start date
-1. Change the quantity field to reflect the new total number of seats
- * Hit on Save
+       Let's take an example - Let's say a customer once to add more seats to their license.  
+       1. Set the start date
+       1. Change the quantity field to reflect the new total number of seats
+         * Hit on Save
 
 Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 Send it to the customer - only if there is no record of a signed quote. If customer purchased online, they agreed to our terms and condition, so no need to have them sign a quote.  It is ideal though.
@@ -309,19 +314,9 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 1. Close Won the opportunity
 
-##### Cancel existing subscription for the billing account
-1. This process is used to perform Cancellation of an existing subscription;
-1. Choosing “Cancel existing subscription for billing account”, will allow sales rep to perform cancellation to an existing subscription;
-1. Clicking on the this radio button will list all subscriptions that are tied to the customer
-1. Set the Start Date(Contract effective date) of when the customer have request for cancellation
-1. Choose a Cancellation Effective date
-1. Hit on next button
-1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
-1. Send it to the customer
-1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
-
 ### Creating a Quote for a Partner <a name="resellerQuote"></a>
 A reseller quote has a few different things than a regular quote:
+
 * Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM”
 * Quote Template:  Needs to be a reseller template.  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.  There is currently an issue with the reseller templates  Please see [Workaround for the lack of a reseller quote template](#ResellerTemplateWorkaround) below
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.

@@ -9,11 +9,15 @@ Many of the examples describe development of an n-tier web app, but could equall
 
 ## Scope
 
-GitLab will cover the entire flow from idea to writing code, and then on through build, test, deployment, delivery, and monitoring. We don't want to be a PaaS company or monitoring company, but by integrating third parties, we can provide convenience and confidence to the developer in an integrated way.
+[GitLab's vision](/direction/#scope) covers the entire flow from idea to production. Many of these pieces will be provided directly by GitLab, others will be provided by bundling third-party solutions. [We don't want to own or manage the production infrastructure](https://about.gitlab.com/direction/#outside-our-scope), but we do want to help developers coordinate getting their code into production; providing convenience and confidence to the developer in an integrated way.
+
+![](handbook/sales/lifecycle.png)
+
+The CI/CD vision focuses on steps 6 through 9: Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
 
 ![](/images/direction/cicd/revised-gitlab-ci-scope.svg)
 
-This scope is compatible with the overall [direction](/direction/#scope), but focuses on CI, CD, and things that are currently beyond any definition of CD. One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
+One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level, giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
 
 ## Pipelines
 
@@ -35,12 +39,13 @@ Example flow:
 
 ![](/images/direction/cicd/pipelines-goal.svg)
 
-1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+### Issues to support pipelines overall
+
+1. [Run CI/CD on Merge Requests, not just branches](https://gitlab.com/gitlab-org/gitlab-ce/issues/15310), especially for fork-based flows
 2. Deploy pipelines
-    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
-    4. Show status of merge request beyond merge. (e.g. add staging and production deploys to MR activity stream)
+    4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
 3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ce/issues/15655)
     1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
     2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
@@ -49,10 +54,6 @@ Example flow:
     5. Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline
 
 ## Stages
-
-### Code
-
-Code includes writing, storing, and collaborating on software (and other) projects. GitLab covers much of this today and partnerships with someone like [Koding](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759) can extend to cover the Online editor / IDE that has a preconfigured, collaborative, on-demand coding environment.
 
 ### Build
 
@@ -69,7 +70,7 @@ Builds as first-class citizen (aka build artifacts):
 
 1. [Integration with third-party services like CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 2. [Report more than just pass/fail, report improving, degrading, above/below threshold of change](https://gitlab.com/gitlab-org/gitlab-ce/issues/14178)
-3. [Detect unnecessary builds/tests and skip them (e.g. merge of an MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
+3. [Detect unnecessary builds/tests and skip them (e.g. merge of a MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)
 6. [Provides examples and/or wizard to get started](https://gitlab.com/gitlab-org/gitlab-ce/issues/14266)
@@ -154,16 +155,6 @@ From [12 Factor](http://12factor.net/codebase), if there are multiple codebases,
     4. We can block deploys of one MR until upstream changes are deployed (to the same environment).
     5. This can work across projects so individual services get deployed in the right order.
 3. Coordinated deploy of all related apps to a new environment. e.g. autogenerate a "cloudformation" because we know how the projects relate to each other. This could, for example, be used by GitHost to spin up a new single-tenant instances of GitLab for a new customer.
-
-### Pages
-
-Pages is a great use of CI, but could be made even easier and more functional:
-
-1. Easy SSL cert creation and installation
-2. Easy Domain registration
-3. Staging and production
-4. Automatic CDN configuration (perhaps with CloudFlare)
-5. [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
 ## Example
 

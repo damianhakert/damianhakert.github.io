@@ -4,7 +4,7 @@ title: "Production Engineer"
 ---
 
 A production engineer is a developer with deep knowledge of some parts of the stack, either it
-is networking, or the linux kernel, or even an specific interesting in scaling and algorithms.
+is networking, or the Linux kernel, or even a specific interest in scaling and algorithms.
 
 It could also be seen as any systems engineer who aims to code themselves out of a job by automating
 all the things.

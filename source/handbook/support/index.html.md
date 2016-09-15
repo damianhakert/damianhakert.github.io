@@ -13,10 +13,12 @@ title: Support
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
-- [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+   - [Onboarding Checklist](/handbook/support/onboarding/checklist)
+- [On-Call](https://about.gitlab.com/handbook/on-call)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
 - [Mentions Channel](/handbook/support/mentions-of-gitlab)
+- [Zendesk](/handbook/support/zendesk)
 
 ----
 
@@ -87,7 +89,7 @@ support turbo developers to momentarily switch away from their other tasks.
 
 Certain subscribers have purchased Premium Support (TODO: create /support page), which gives them access to a Dedicated Service Engineer. This means that tickets that arrive in ZenDesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in ZenDesk.
 
-- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/), using the ["RFS-Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/.gitlab/issue_templates/RFS - Dedicated service engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
    - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in ZenDesk can then create the trigger, and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around ZenDesk or SalesForce.
    - Related section of the [Sales handbook](/handbook/sales/#premium-support).
 - To make sure that these subscribers are served well, even when their dedicated SE is not directly
@@ -148,10 +150,15 @@ to any tickets from channels in category 3 and 4, but we do track response times
 
 #### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. When
-a ticket is breaching or has breached its SLA this ticket must be picked up by
-a Service Engineer independently of who is assigned to it. This also applies to
-tickets for Premium Customers.
+Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
+
+1. Tickets that are close to breaching "first time to reply" SLA
+1. Tickets that are close to breaching "next time to reply" SLA
+   - It is a courtesy to check with the assigned agent first, before "taking" one of these tickets. Ask if they can respond soon and offer to reply if they don't have the bandwidth.
+1. New tickets (not close to breaching)
+1. Other open tickets
+
+When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
 ## Support Channels
 
@@ -238,7 +245,7 @@ This is can be requested either by GitLab or the reporter. If the reporter reque
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 
 1. No sensitive information.
-1. A link to the MR that fixed the issues.
+1. A link to the merge request that fixed the issues.
 
 If you need to grant HackerOne permissions to a new GitLab user, have an admin send
 an invitation from HackerOne and add you to the Internal group. You can find out who
@@ -255,10 +262,10 @@ information about using the security PGP key pair and decrypting messages.
 
 ### Regular ZenDesk tickets <a name="regular"></a>
 
-You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
-that have come in and are unassigned, again using FIFO.
-When you need others to help please create an issue on the relevant GitLab issue tracker.
+that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
+the relevant GitLab issue tracker.
 
 ### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
@@ -312,6 +319,10 @@ While engaging with customers you should always be prepared to jump on a call wi
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
+
+If you feel too inexperienced to handle a call, ask someone more experienced to handle the call and
+listen in if at all possible. After someone else had the call with the customer it is still your responsibility
+to handle the ticket as long as the ticket is still assigned to you.
 
 ### Internal Support<a name="internal"></a>
 
@@ -433,7 +444,7 @@ the spammer's user profile and click on the "Report Abuse" button:
 
 The Akismet filter may also flag false positives and prevent a user from
 creating issues. The contents of the flagged issue get stored in the spam logs,
-which is only accessible to admin users. Fom time to time, we may need to
+which is only accessible to admin users. From time to time, we may need to
 submit the flagged issue as "ham" (e.g. when a user lodges a complaint on the
 Support Tracker about not being able to create issues). Currently, there are
 no notifications whenever an entry is flagged, so this needs to be monitored
@@ -504,11 +515,11 @@ Support often gets requests from gitlab.com users to release a username.
 This can be implemented if the following criteria are met:
 
 1. The account in question has no data.
-1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+1. There hasn't been any activity on the account (i.e. code, issues, merge requests)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
 1. Support has had two failed attempts to contact the user within a
- two week period.
+ two week period.   
 1. The user cannot be an owner of any active project.
 
 Usernames will be appended with `_idle` to keep the account active but

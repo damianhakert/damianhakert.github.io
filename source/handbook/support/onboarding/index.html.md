@@ -25,48 +25,14 @@ expected to:
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 - Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines).
 
-## First steps when you join the team
-{: #first-steps}
+## Service Engineering Bootcamp
+{: #se-bootcamp}
 
-When you first join the team everything will be new to you. In order to get you started with GitLab quickly
-you should take a look at the resources we have available at the [GitLab University](https://university.gitlab.com/).
+When you first join the team everything will be new to you. In order to get you
+started with GitLab quickly a [Service Engineering Bootcamp Checklist](https://about.gitlab.com/handbook/support/onboarding/checklist)
+will be created for you to help guide you through your training.
 
-The [user training](https://gitlab.com/gitlab-org/University/tree/master/training) we use for our customers
-is also a great resource to get you started with the basics of Git and GitLab.
-
-If you want to dig deeper into the inner workings of our great features, the best place to do that is
-our [documentation](http://doc.gitlab.com) page.
-
-You also need to familiarize yourself with the GitLab codebase. A great place to start is by installing the
-[GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). Any problem that our customers have will first
-go through you, so you need to make sure you understand the issue and are able to radiate the information
-you collect in a precise manner to the rest of the team. Make sure that you know how to install and upgrade
-GitLab using our different installation methods:
-
-- Omnibus (preferred)
-- Docker
-- From source
-
-To familiarize yourself with ZenDesk, you can follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
-This great resource written by ZenDesk Support will help you better know how ZenDesk works and how you can
-use it to be more productive.
-
-It is also encouraged to go over your colleagues' responses to previously submitted tickets, to see how they
-craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
-
-### Training
-
-Right after joining the team you will go through a [training process](https://university.gitlab.com/support/)
-with the guidance of a fellow Service Engineer. In this training you will learn the ins and
-outs of GitLab, how to integrate it with the most used enterprise tools, like LDAP, JIRA,
-Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
-collect across the team.
-
-Initially, you will pick up relatively less complex tickets, and learn more about the product and the process by
-responding to a large volume of these tickets. Typically, you will start by answering tickets that come in
-through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
-
-### WebEx
+## WebEx
 
 More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
 a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
@@ -299,7 +265,8 @@ or suggestion for improvement which should be followed up on.
 ## Customer Training
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
-questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
+questions from potential customers. The materials for the customer training should be kept up to date
+[here](https://gitlab.com/gitlab-org/University/tree/master/training).
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
 via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
