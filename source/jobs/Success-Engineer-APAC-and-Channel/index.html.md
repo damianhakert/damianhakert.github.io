@@ -15,7 +15,7 @@ particular focus on addressing the technical requirements and challenges that
 limit the customer’s ability to achieve their business objectives in driving an
 effective Indirect Sales model.
 
-## Responsibilities:
+## Responsibilities
 
 - Be the primary pre-sales technical resource for GitLab's direct customers in the Asia/Pacific region and our worldwide reseller team.
 - Development, tailoring and delivery of client-specific product demonstrations and reseller trainings
@@ -24,12 +24,12 @@ effective Indirect Sales model.
 - Effectively lead and drive the response to functional and technical elements of RFIs/RFPs
 - Serve as liaison between the client or reseller and GitLab Service Engineers and Product Marketing to effectively convey and prioritize customer and reseller requirements
 - Become a Subject Matter Expert in competitive solution assessment and response
-- Provide technical and solutions leadership in the Field to our clients, partners and sales teams
+- Provide technical and solutions leadership in the Field to our clients, partners, and sales teams
 - Be the Subject Matter Expert and facilitate training workshops externally and internally.
 - Provide guidance on documentation
 - Provide support to, and present at User Groups, trade shows, and meetups.
 
-## Requirements:
+## Requirements
 
 - Multilingual with English and one or more of: Mandarin, Japanese, Korean
 - B.Sc. in Computer Science or equivalent experience
