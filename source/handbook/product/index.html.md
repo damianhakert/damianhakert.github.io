@@ -208,8 +208,9 @@ works. Every feature, bug, feedback is documented and processed.
 
 #### How to submit a new issue
 
-1. The first thing you should do is search both CE and EE projects if a
-similar issue already exists. There is no need to create duplicates.
+1. If you have time, the first thing you should do is search both CE and EE
+projects if a similar issue already exists. We shouldn't create duplicates if we
+can avoid them.
 2. Identify if the issue is about GitLab Community Edition (EE) or GitLab
 Enterprise Edition (EE), although this can easily be changed later.
 3. You should clearly state what the current pain point is, what we are trying
@@ -218,7 +219,8 @@ and the next steps.
 4. Choose which labels are relevant to the issue. If you are unsure about what
 certain labels are for, head up to the Labels page ([CE](https://gitlab.com/gitlab-org/gitlab-ce/labels)
 or [EE](https://gitlab.com/gitlab-org/gitlab-ee/labels)) and read the
-descriptions.
+descriptions. The Engineering handbook also provides [good hints](https://about.gitlab.com/handbook/engineering/workflow/#labelling-issues)
+on how to choose the right label.
 5. Unless you know what you are doing, do not
     - assign someone to the issue
     - assign a milestone
@@ -233,11 +235,6 @@ trigger the notification mechanisms chosen by the people who are mentioned -
 therefore there is no need to notify people in another channel after the issue
 has been created (Slack, email).
 
-#### Dealing with big issues
-
-If we know an issue is going to span multiple releases, it has to split into
-multiple issues. An issue should only span one release.
-
 #### Wireframes
 
 When relevant, you can include a wireframe in your issues in order to illustrate
@@ -249,22 +246,31 @@ features in other products.
 
 #### What is a Meta issue?
 
-Meta is a label assigned to certain issues that contain a large list of todos.
-If you are familiar with the Agile methodology, it's similar to an epic. At
-GitLab we have a short release cycle: the 22nd of every month. In some cases we
-won't be able to tackle all the tasks of a meta issue - this is why we centralize
-all the things that we need to do in a meta issue, then break it down to smaller
-issues. Meta issues are usually big, have lots of comments and passionate
-discussions and always lead to something great.
+Meta is a label assigned to issues that contain a large list of todos. If you
+are familiar with the Agile methodology, it's similar to an epic. At GitLab we
+have a short release cycle: the 22nd of every month. In some cases we won't be
+able to tackle all the tasks of a meta issue in a single release - this is why
+we centralize all the things that we need to do in a meta issue, then break it
+down to issues small enough that they will fit into one release. Meta issues
+generate most of the time lots of comments and passionate discussions. As a
+consequence, they always lead to something great.
 
-Note: sometimes, smaller tasks that are part of a meta issue are also labeled
-`meta`.
+Note: smaller tasks that are part of a meta issue are sometimes also
+labeled `meta`. That's because they are part of a meta topic, and thus get the
+meta label.
+
+#### Dealing with big issues
+
+A general guideline is that an issue should only span one release. If we know an
+issue is going to span multiple releases, it has to split into multiple issues.
+Unless this issue is labeled `meta` or `epic`. In that case, the issue will span
+two or more releases.
 
 #### Which issue should you be working on?
 
 When you don't have specific tasks assigned, you should work on issues that are
-labeled `Product work`, in both EE and CE projects. These are issues that need our
-love and attention the most.
+labeled `Product work`, in both EE and CE projects. These are issues that need
+our love and attention the most.
 
 ### Where should you look when you need help?
 
@@ -311,7 +317,7 @@ feel quite protective of their ideas. They might have invested a lot of time and
 energy in writing those ideas. You can be tempted to accept a feature only to
 avoid hurting the people who thought of it. Worst, if you reject an idea too
 harshly, you might discourage other people to contribute, which is something we
-want to avoid at all costs.
+want to avoid.
 
 However, as the number of issues and merge requests grow more and more, we should
 be diligent about rejecting features we will not do. It's better for everyone:
