@@ -20,7 +20,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 
 ## Responsibilities:
 
-* Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers.
+* Set the overall vision and strategic plan for the Global Account Management organization - with specific focus on leveraging Health, Usage and Adoption metrics to drive engagement and growth with customers. Work closely with the [Director of Customer Success](https://about.gitlab.com/jobs/director-customer-success)(vacancy) on these metrics.
 * Drive Account Growth Outcomes: Expand our revenue in accounts through up-sell opportunities with our GitLab EE Products, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
 * Define and Optimize Customer Lifecycle: define segmentation of customer base and varying strategies, identify opportunities for continuous improvement.
 * Measure effectiveness of team: define operational metrics for team, establish system for tracking metrics, create cadence for review within the team
@@ -36,7 +36,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * 7 - 10 years of management experience – including at least three years heading a successful customer success or account management organization in an enterprise software environment
 * Strong understanding and knowledge of the account management role in successful cloud and enterprise environments
 * Successful and inspired leadership of a management team
-* Experience with account realtionhsip and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
+* Experience with account relationship and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
 * Experience successfully working with senior (C-level) executives
 * Demonstrated ability to lead managers and successfully manage global, distributed teams across cultures, lines of business, and geographies
 * Possesses a strong management presence and leadership ability, with communication and interpersonal skills that inspire and motivate leaders and teams
