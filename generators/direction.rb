@@ -121,6 +121,7 @@ def label_list(label,not_label=nil)
       $stdout.flush
     end
   end
+  output = "No current issues\n" if (output.empty?)
   output
 end
 
@@ -128,7 +129,7 @@ def generate_wishlist
   print "Generating wishlist..."
   wishlist_output = {}
 
-  ["pages","container registry","Performance","moonshots","issues"].each do |label|
+  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product"].each do |label|
     wishlist_output[label] = label_list(label)
   end
   wishlist_output["CI"] = label_list("CI","pages")
