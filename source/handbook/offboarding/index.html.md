@@ -41,7 +41,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
-1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/#returning-property) for further details on that process.
+1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
    1. [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 1. [x] _not relevant_ Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
 1. [x] _not relevant_ People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue.
@@ -110,31 +110,29 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
 1. [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+1. [ ] Robert/Jacob V: Remove former team members' account from [Sentry](https://sentry.gitlap.com/organizations/gitlab/members/)
 1. [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
-1. [ ] For former Production Engineering team members: Hiring manager: add relevant topics from the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md) for offboarding action.
+1. [ ] For former Developers (those who had access to part of the infrastructure), Production and Service Engineering team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
 1. [x] _not relevant_ For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Remove access to PagerDuty.
 
 #### FOR SERVICE ENGINEERING ONLY
 
 1. [ ] Jose/Robert/Jacob V: Remove former team member's GitLab.com admin account.
-1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
-1. [ ] ZenDesk [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
+1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus.
+1. [ ] Zendesk [(general information about removing agents)](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
         + **Warning: This will unassign all tickets from the agent**
    1. [ ] Jose/Drew: Schedule a date to suspend the agents account. [More information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#3)
-1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
+   1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: remove from support team call
-1. [ ] Pablo/Infrastructure Team: Remove user from the following services:
-   1. [ ] Chef sysadmin account - [More info](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
-   1. [ ] Azure account
-   1. [ ] Remove Digital Ocean droplet/Account access
-   1. [ ] Remove from AWS
 1. [x] _not relevant, already addressed_ Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+1. [x] _not relevant, already addressed_ Jose: Add team member to `@supportteam` Slack handle.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
-1. [x] _not relevant_ New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance.
+1. [ ] Hiring Manager: Remove team member as a member to the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
+1. [x] _not relevant_ New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 

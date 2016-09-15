@@ -171,7 +171,7 @@ We can't wait to see how you'll use them.
 
 ## Koding Integration
 
-[Koding][koding-web] allows you to run your entire development environment
+[Koding](https://github.com/koding/koding) allows you to run your entire development environment
 in the cloud, share it with your team, and even use your local editor. This
 means that you don't have to spend hours setting up your stack on every new
 machine and every change.
@@ -206,7 +206,6 @@ We've put together a quick screencast showing this off:
 <br>
 
 You can read more about setting up Koding in GitLab in our [documentation](http://docs.gitlab.com/ce/user/project/koding.html).
-[koding-web]: https://github.com/koding/koding
 
 ## Pipelines in MRs
 
@@ -498,7 +497,7 @@ To remove the old indexes, call to Elasticsearch:
 curl -XDELETE 'http://localhost:9200/_all/'
 ```
 
-Then rebuild new indexes as described in [Elasticsearch integration](../integration/elasticsearch.md#add-gitlabs-data-to-the-elasticsearch-index)
+Then rebuild new indexes as described in [Elasticsearch integration](http://docs.gitlab.com/ee/integration/elasticsearch.html#add-gitlabs-data-to-the-elasticsearch-index)
 
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.

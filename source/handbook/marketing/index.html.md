@@ -220,11 +220,14 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 
 What is BD (to be included).
 
-[Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv}
-[Handbook][Business Development]{:.btn .btn-purple}
+[Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv .extra-space}
+[Handbook][Business Development]{:.btn .btn-purple .extra-space}
+<br>
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Dan][dan]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Kris][kris]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
 ### Field Marketing
@@ -334,6 +337,7 @@ At GitLab, tech writers are the folks who take care of writing and maintaining t
 [Handbook][Technical Writing]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Axil][axil]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Marcia][marcia]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Sean][sean]{:.btn .btn-orange}
 
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
 </div>
@@ -592,9 +596,9 @@ The meeting should run as follows:
 
 **Run time: 30 minutes**
 
-All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or slack.
+All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
 
-The meeting should run as follows:  
+The meeting should run as follows:
 
 - First discuss any issues or problems that the manager can help with. Any roadblocks or disagreements?  
 - Talk about career development and opportunities for growth.  
@@ -633,7 +637,7 @@ help with any questions. There is an agenda for this meeting, but it also should
 
 The meeting should run as follows:
 
-- First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
+- First 60 seconds: Post funny GIFs in our chat `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
 - Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
@@ -665,7 +669,7 @@ When working remotely in such a quick moving organization, it is important for a
 - Be on time to meetings. We start at on time.
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-- Do not ping someone in a public channel on Slack on the weekends. This is rude.
+- Do not ping someone in a public channel on chat on the weekends. This is rude.
 
 ## <i class="fa fa-file-code-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Handbook Updates
 {: #handbook}
@@ -689,10 +693,10 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
 - [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-### Slack Marketing channels
+### Chat Marketing channels
 {: #chat}
 
-We use Slack internally as a communication tool. The marketing channels are as follows:  
+We use our chat internally as a communication tool. The marketing channels are as follows:  
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
 - Advertising - Online marketing channel
@@ -748,20 +752,23 @@ We use Slack internally as a communication tool. The marketing channels are as f
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[ashley]: https://gitlab.com/u/AshleyS
+[ashley]: https://gitlab.com/u/ashley
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
+[dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
 [joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
+[kris]: https://gitlab.com/u/Touzel2
 [luke]: https://gitlab.com/u/lukebabb
-[marcia]: https://gitlab.com/u/virtuacreative
+[marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
+[sean]: https://gitlab.com/u/SeanPackham
 
 <!-- EXTRA STYLES APPLIED FOR THIS PAGE ONLY -->
 
@@ -856,6 +863,9 @@ We use Slack internally as a communication tool. The marketing channels are as f
 }
 .description {
   color: #999;
+}
+.extra-space {
+  margin-bottom: 5px;
 }
 .alert-purple {
   color: rgb(107,79,187);

@@ -64,7 +64,6 @@
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/cookbook-marketo-tools/">cookbook-marketo-tools</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-certificate-toolkit">gitlab-certificate-toolkit</a></li>
               <li><a href="/jobs/expert/">Expert</a> on: LDAP, packaging, init script, backup script, security, gitlab-shell, Redis, Unicorn, Kerberos, LFS</li>
   story:  |
@@ -74,8 +73,8 @@
           He is part of the GitLab core-team.
 
 - name: Job van der Voort
-  locality: Zaandam
-  country: The Netherlands
+  locality: Lisbon
+  country: Portugal
   role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">Vice President of Product</a>
   reports_to: CEO
   picture: picture_job.jpg
@@ -130,7 +129,8 @@
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
               <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-              Anti-spam expert
+              <li>LFS <a href="/jobs/expert/">expert</a></li>
+              <li>Anti-spam expert</li>
   story:  |
           Patricio is from Quito, Ecuador and he studied Computer Science in Stuttgart, Germany, where he lived for 7 years.
           He is very passionate about open source software and has been working with Ruby on Rails for the past 4 years. He also likes
@@ -174,7 +174,12 @@
   gitlab: ayufan
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
+              <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
+              <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
+              <li>Docker <a href="/jobs/expert/">expert</a></li>
               <li>LFS <a href="/jobs/expert/">expert</a></li>
+              <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
+              <li>Jenkins <a href="/jobs/expert/">expert</a></li>
   story:  |
           Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge.
           He's focusing lately on security principles of mobile platforms and the "container revolution". In his spare time he likes to run, cycle and play good games, although not all at the same time.
@@ -243,6 +248,8 @@
   picture: ernst.jpg
   twitter: ernstvannierop
   gitlab: ernstvn
+  maintains:  |
+              <li>Interim <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a></li>
   story:  |
           Ernst comes from a physics and engineering background, and was most recently the VP of Engineering at C12 Energy helping to clean up part of our energy infrastructure.
           He enjoys tackling a wide variety of challenges, including the technical, people, and organizational aspects of cool growing companies.
@@ -271,7 +278,7 @@
   reports_to: CEO
   picture: ashley.jpg
   twitter: ashl3ysm1th
-  gitlab: ashleys
+  gitlab: ashley
   story:  |
           Based in Brooklyn, Ashley's background in engineering has allowed her to excel in marketing developer products.
           She got her start at Twilio and then lead marketing at Parse, which was then acquired by Facebook. After an awesome but short
@@ -301,9 +308,12 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-cookbooks/cookbook-marketo-tools">cookbook-marketo-tools</a></li>
+              <li>CephFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
           At GitLab he really enjoys the combination of operations and development.
@@ -373,17 +383,6 @@
           He also loves to grind his own coffee and help build online
           communities in his spare time.
 
-- name: Henry 'Hank' Taylor
-  locality: San Mateo, CA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/demand-generation-manager/">Senior Demand Generation Manager</a>
-  reports_to: Director of Demand Generation
-  picture: hank.jpg
-  twitter: HenryJTaylor
-  gitlab: hanktaylor
-  story:  |
-          Hank has been at four OS software companies now. His goal is always to connect users to the most helpful resources via marketing and sales systems. When not on a CRM, marketing platform, or spreadsheet, Hank enjoys spending time with his wife and son or playing games, firmly believing that if you're not willing lose all your friends over a board game, you're doing it wrong.
-
 - name: Rubén Dávila
   locality: Lima
   country: Peru
@@ -413,7 +412,6 @@
              <li>On-call hero!</li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
-             <li><a href="https://about.gitlab.com/handbook/support/">Support Team Lead</a></li>
   story:  |
           Having worked with the Guatemalan Government and as an IT Manager at a Bio Lab for too long he launched a
           local startup to introduce tech labs into traditional businesses. Jose has worked with remote teams in Canada
@@ -451,6 +449,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
+              <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douglas is a software developer that fell in love with Ruby since 2007 and the open-source community surrounding it and has been working with Ruby on Rails for the past 3 years. Before joining GitLab, he was working remotely for nonprofit organization based in Brazil. He enjoys to improve people's lives with the product he is working on, so GitLab was a perfect match to him. In his free time, he loves to drink a good beer and, spend time with his friends.
 
@@ -504,15 +503,6 @@
   story:  |
           Wilson has worked in many accounting roles at various early to mid-stage startups over the past 20 years.  When not debiting or crediting,  you can find Wilson at a San Francisco Giants game, spending time with his dogs or at the poker table.  Ante up!
 
-- name: Ian Wilson
-  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: CEO
-  picture: uid0.jpg
-  twitter: uid0
-  gitlab: uid0
-  story: |
-         Ian's just your normal nerd who lives on a farm.  He blows and tinkers with glass in order to build telescopes and make neon art, is a board member and former president of his local hackerspace, and volunteers at a school for hearing impaired children in his spare time.  .
-
 - name: Tomasz Maczukin
   locality: Olsztyn
   country: Poland
@@ -551,6 +541,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
+              <li><a href="https://gitlab.com/help/user/project/slash_commands.md">Slash commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
           and enjoys working on complete features from back to front. When not
@@ -583,7 +574,6 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
@@ -675,7 +665,7 @@
   gitlab: alfredo1
   maintains:  |
                 <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
-                <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels</li>
+                <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
           Alfredo is a multi-disciplined web veteran specializing in front-end development and web design.
           In the past, he also dabbled in back-end, prototyping and graphic design.
@@ -711,6 +701,7 @@
                 <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
+                <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
   story:  |
           Phil has a huge passion for programming, with skills ranging anywhere from JavaScript to C++. Having experienced a variety of roles in industry, he realised that front-end development was more his "cup of tea" and has since been focusing on improving his skills in this area. When not geeking out, he loves to spend time with his wife and his daughter Emilia.
 
@@ -792,7 +783,7 @@
   maintains:  |
               <li>Packaging specialist</li>
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> specialist</li>
-              <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           DJ grew up on a farm in the Canadian Prairies where it is common to have to fix your own tools and equipment. This didn't change when computers became the tools, and he discovered the joy of development while pursuing a career in IT. He has been working as a developer at various sized companies since 2008 and is excited to be able to finally work in the open source community with GitLab.
 
@@ -805,13 +796,14 @@
   gitlab: annabeldunstone
   maintains:  |
               <li>Frontend UI merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
   story:  |
           Annabel is a front end developer with a passion for creating beautiful and functional applications. She has learned bits and pieces of various languages during her career, but is most excited about JavaScript, SASS, and Rails. In her free time she enjoys curling up with a good book, inventing cookie recipes, and spending time with her wonderful husband.
 
 - name: Amara Nwaigwe
   locality: New York City, NY
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Director of Product Marketing</a>
+  role: <a href="https://about.gitlab.com/jobs/director-product-marketing/">Director of Product Marketing</a>
   reports_to: CMO
   picture: amara.png
   twitter: its_amaracle
@@ -829,6 +821,7 @@
   gitlab: timothyandrew
   maintains:  |
                <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
+               <li>Branch permissions expert</li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -905,7 +898,7 @@
   twitter: IsChrisW
   gitlab: MrChrisW
   maintains:  |
-              <a href="https://gitlab.com/MrChrisW/anti-spam-bot">Anti-spam bot</a>
+              <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
   story:  |
           Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer.
           He is passionate about open source communities and enjoys helping people solve problems with software.
@@ -923,6 +916,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Merge request coach</li>
+              <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
@@ -976,7 +970,10 @@
   reports_to: CMO
   picture: marcia.jpg
   twitter: XMDRamos
-  gitlab: virtuacreative
+  gitlab: marcia
+  maintains:  |
+              <li>Markdown Kramdown <a href="/jobs/expert/">expert</a></li>
+              <li>Technical Editor of the <a href="/blog/">GitLab Blog</a></li>
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -996,6 +993,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
+              <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
@@ -1050,25 +1048,11 @@
   picture: northrup.png
   twitter: northrup
   gitlab: northrup
+  maintains:  |
+              <li>On-call hero!</li>
+              <li>CephFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           John's interest in systems engineering surpassed 'normal' when he amassed a small data center in his house to explore theoretical design scenarios. Passionate about open source and taking his role as a 'unix beard' seriously, John loves to spread the gospel of technology to anyone who will listen. Wearing his Chef hat, and harnessing the magic of ChatOps, he is determined to make things fit into their containers.
-
-- name: Connor Shea
-  locality: Highlands Ranch, CO
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineering Intern</a>
-  reports_to: Frontend Lead
-  picture: connor.png
-  twitter: connorjshea
-  gitlab: connorshea
-  story:  |
-          One part Google, two parts trial-and-error. Sort-of self-taught
-          front-end developer and sort-of designer. He’s passionate about
-          performance, user experience, security, upgrading things, style
-          guides, documentation, automation, localization, open source,
-          grammar, and enforcing Oxford commas. Outside of work: video games,
-          Dungeons & Dragons, following the news, listening to music and
-          podcasts, and thoughtleading.
 
 - name: Marat Kalibekov
   locality: Astana
@@ -1078,6 +1062,8 @@
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Marat is interested in computers since school. He learned how to program from books without any help,
           wrote his first programs on paper and typed them in school labs during breaks. This was the reason why
@@ -1093,6 +1079,7 @@
   twitter: eReGeBe
   gitlab: eReGeBe
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
@@ -1134,29 +1121,12 @@
   locality: Tacoma, WA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
-  reports_to: VP of Scaling
+  reports_to: Senior Director of People Operations
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
   gitlab: brittanyr
   story:  |
            Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake.
-
-- name: Jeanine Adkisson
-  locality: Oakland, CA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
-  picture: jneen.jpg
-  twitter: jneen_
-  gitlab: jneen
-  maintains: |
-              <li>Maintainer of <a href="https://github.com/jneen/rouge/">Rouge</a></li>
-  story:  |
-          Jeanine loves languages. She is the author of the syntax highlighting gem `rouge`
-          and is at GitLab working to make our language support and highlighting experience
-          the best the industry has to offer. When not at work, she wears a lot of different
-          hats - she makes chiptune music, works on her language, and makes jokes on the
-          internet.
 
 - name: Chris Peressini
   locality: Madrid
@@ -1231,6 +1201,8 @@
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1255,16 +1227,16 @@
           most of her time training as an aerialist, enjoying the beautiful Pacific Northwest,
           or cuddling up at home with a movie and her cat.
 
-- name: M.Y.
-  locality:
-  country:
+- name: Melissa Yue
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
   reports_to: Controller
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: melissa_yue.jpg
+  twitter: Melissa52201593
+  gitlab: melissa3
   story:  |
-          Joining July 5th
+          Prior to joining GitLab, Melissa worked as senior accountant for an international public corporation. In her free time she enjoys swimming, reading, watching movies.
 
 - name: Julie Manalo
   locality: Sydney
@@ -1298,6 +1270,7 @@
   twitter: ahmadsherif
   gitlab: ahmadsherif
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
@@ -1356,7 +1329,7 @@
           with his daughter, he enjoys training for triathlon.
 
 - name: Joan Parrow
-  locality: Pennsylvania 
+  locality: Pennsylvania
   country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-director-of-people-operations/">Senior Director of People Operations</a>
   reports_to: CEO
@@ -1364,7 +1337,7 @@
   twitter: joan_gitlab
   gitlab: jparrow
   story:  |
-          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.   
+          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.
 
 - name: Arihant Godha
   locality: Mumbai
@@ -1386,13 +1359,13 @@
   twitter: JJCordz
   gitlab: jjcordz
   story:  |
-          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports. 
+          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports.
 
 - name: Dimitrie Hoekstra
   locality: Breda
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: UX Designer
+  reports_to: Frontend Lead
   picture: dimitrie.jpg
   twitter: dimitrieh
   gitlab: dimitrieh
@@ -1409,7 +1382,7 @@
   gitlab: superfrank316
   story:  |
           Francis has years of experience building out sales processes for SaaS companies of all shapes and sizes.
-          Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the 
+          Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the
           occasional music concert, destroying his opponents in table tennis, and playing "Dust in the Wind" on his acoustic guitar
           ("You're my boy Blue!!). His pet peeves include inefficiency, slow walkers, and people who
           continuously press the call button believing the elevator will come sooner.
@@ -1436,16 +1409,16 @@
   story:  |
           As a self-described journalist, Erica is a dedicated researcher with a proclivity for narrative. Before joining GitLab, Erica worked for Kapost where she unofficially attended B2B marketing bootcamp. She is passionate about media, technology, and audience development. When she's not working, she enjoys hiking, cooking, and reading.
 
-- name: B.J.
-  locality:
-  country:
+- name: Bryce Johnson
+  locality: Madrid
+  country: Spain
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: bryce-johnson.jpg
+  twitter: _devbryce
+  gitlab: https://gitlab.com/u/brycepj
   story:  |
-          Joining August 22nd
+    Bryce's primary addictions are programming in JavaScript and adding to his .vimrc file. Before discovering code in 2011, he wrote content for websites and advertisements you most assuredly never read, and now puts his writing skills to good use obsessing about variable names. Outside of code, Bryce enjoys hanging out with his wife and their two cats, playing ping pong, hiking in the Blue Ridge mountains, and trying out new pizza restaurants.
 
 - name: Mike Greiling
   locality: Minneapolis, MN
@@ -1462,16 +1435,72 @@
           and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
           biking, craft beer, travel, and spending time with his wife and daughter.
 
-- name: A.M.
-  locality:
-  country:
+- name: De Wet Blomerus
+  locality: Cape Town
+  country: South Africa
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: dewet.jpg
+  twitter: dewetblomerus
+  gitlab: dewetblomerus
+  story:  |
+          De Wet is a software developer and mentor. He is passionate about problem-solving with code
+          and helping someone without making them feel stupid. Prior to joining the GitLab team, he founded
+          a coding bootcamp for underprivileged young people. He has worked in tech roles since 2010. When
+          not working, he's an avid cyclist, audio book devourer, and burger connoisseur. He's a best friend
+          to his wife and hands-on father to his three young children.
+
+- name: Sean Packham
+  locality: London
+  country: United Kingdon
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
+  reports_to: CMO
+  picture: seanpackham.png
+  twitter: SeanPackham
+  gitlab: SeanPackham
+  story:  |
+          Sean is a software developr passionate about education and teaching
+          others to code. Before GitLab Sean worked for various EdTech and
+          social startups and lectured game design, 2D and multiplayer game
+          development at his past university. When Sean is not sharing the
+          wonders of GitLab with others he can be found playing and coding
+          games or exploring London.
+
+- name: Dan Parris
+  locality: Maryland
+  country: USA
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: dan-picture.jpg
+  twitter: _dparris
+  gitlab: dparris
+  story:  |
+          Dan is passionate about people, using technology to solve problems, and enjoys finding new ways to help teams work better together. Before joining GitLab, he was involved with web development, and starting businesses. He's excited to contribute on the business development team, and when not at work, he enjoys being outdoors, playing sports, and traveling.
+
+- name: Abby Matthews
+  locality: London
+  country: UK
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
+  picture: abby.png
+  twitter: almhrs
+  gitlab: amatthews
+  story:  |
+          Abby has been involved in all things people and HR since 2002 and switched to focus on supporting technology companies in 2004. It was there she discovered the world of Software Development, Open Source and of course Software Developers!
+          Prior to joining Gitlab Abby has worked remotely as a HR Generalist and consultant supporting startups and is very excited to be part of the remote working world.
+          Abby is based in the UK and in her free time enjoys cooking, eating and writing her own blog (when she has time/remembers!)
+          
+
+- name: A.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining September 1st
+          Joining September 5th
 
 - name: P.M.
   locality:
@@ -1483,3 +1512,36 @@
   gitlab:
   story:  |
           Joining September 15th
+
+- name: F.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 19th
+
+- name: J.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 26th
+
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 1st

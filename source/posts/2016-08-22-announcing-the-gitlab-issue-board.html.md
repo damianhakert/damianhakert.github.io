@@ -56,7 +56,7 @@ everything:** make sure it’s in a common repository and that it’s
 easily discoverable.
 
 <i class="fa fa-eye fa-fw font-awesome orange" aria-hidden="true"></i> **4. Make
-approvals visible:** you and your team should have agreed up quality
+approvals visible:** you and your team should have agreed upon quality
 bars that determine what makes it into each environment.
 
 <i class="fa fa-terminal fa-fw font-awesome purple" aria-hidden="true"></i> **5. Deploy

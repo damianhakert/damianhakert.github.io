@@ -69,16 +69,14 @@ and processes to the world. An example is the MIT licensed [GitLab CE](https://a
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
-and not duplicating work. This enables us to achieve more progress with less people
+and not duplicating work. This enables us to achieve more progress with fewer people
 and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
-1. **Collaboration**: Helping others is a priority. You are expected to ask others for
-help and advise. Anyone can chime in on any subject. You don't have to comply with
-all feedback but you should always take it seriously. An example is the inclusion
-of people from outside GitLab Inc. in the [core team](https://about.gitlab.com/core-team/).
+1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
+help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
@@ -91,9 +89,9 @@ feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
 1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
-1. **Boring solutions**: Use the most simple and boring solution for a problem. You
+1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
-for our organization and product is constrained by the total complexity we added
+for our organization and product is constrained by the total complexity we have added
 so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
@@ -120,7 +118,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
-1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
+1. You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
 1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
 1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
@@ -158,7 +156,7 @@ Documenting things in the handbook takes more time initially and it requires thi
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
 1. When you discuss something in chat always try to **link** to a URL where relevant, for example the documentation you have a question about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
-After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
+After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send a merge request for the handbook'?
 1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
@@ -286,7 +284,7 @@ step, **re-assign** the issue to that person.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies when the main body of work is completed.
 1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
-1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
+1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the merge request creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the merge request gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
@@ -345,7 +343,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### User Communication Guidelines
 
-1. Keep conversations positive, friendly, real and productive while adding value.
+1. Keep conversations positive, friendly, real, and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
 1. There can be a fine line between healthy debate and incendiary reaction. Try to frame what you write to invite differing points of view without inflaming others. You don’t need to respond to every criticism or barb. Be careful and considerate.
 1. Answer questions, thank people even if it’s just a few words. Make it a two way conversation.
@@ -378,6 +376,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
+1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
 
 ### Beamy Guidelines
 
@@ -402,7 +401,7 @@ Make sure it is charging, otherwise try again.
 ### Company phone number
 {: #phone-number}
 
-If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
+If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#office-addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
@@ -412,7 +411,7 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 
 We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
 respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
-and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
+and how to swap duty in the [On-Call](https://about.gitlab.com/handbook/on-call/) page.
 
 ## <i class="fa fa-copyright fa-fw icon-color font-awesome" aria-hidden="true"></i> Intellectual Property
 {: #intellectual-property}
@@ -436,7 +435,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/#asset-tracking). Links in the list below are to sample items, other options can be considered:
+1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
     *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
@@ -488,7 +487,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
 1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+1. Please see the [On-Call](https://about.gitlab.com/handbook/on-call/)
 page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
@@ -498,14 +497,14 @@ page for information on how to handle scheduled leave for someone from the [on-c
 ## <i class="fa fa-plus-square-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Incentives
 {: #incentives}
 
-The following incentives are available for GitLab team members.
+The following incentives are available for GitLab team members. Also see our separate page on [benefits](/handbook/benefits/) available to GitLab team members.
 
 ### Sales Target Dinner Evangelism Reward
 {: #sales-target-dinner}
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
-to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
+to providing top notch customer support and everything in between, we reward **all**
+team members (not just the Sales team) for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member for the purpose of evangelizing the GitLab story.  You may use the incentive at a restaurant of your choice. Enjoy!
 
 - The CEO, or CRO will announce on the team call if the target was met.
@@ -541,7 +540,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus.
+People Ops will [process](/handbook/people-operations/sop/#referral-bonus) the bonus.
 
 ### Work Remotely Travel Grant
 {: #travel-grant}
@@ -618,10 +617,18 @@ fit anywhere else.
 1. Set up a [Calendly](https://calendly.com/) account
 1. Link it to your GitLab Google Calendar to make it possible for people to schedule a call with you
 1. All meetings will have the same Google Hangout URL on your calendar based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landing page](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call. Please note that the appointment will show up in other peoples calendar with a different link, to it is essential that you set a text with the link for your time slot as specified below.
-1. Set up the 45 minute time slot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
+1. Set up the 45 minute time slot with the following event description text (replacing XXXXX with your @gitlab.com handle):
+
+    > This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX
+    >
+    > Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/
+
+1. If you intend to use any of the other event types, make sure to add this to their event descriptions as well.
 1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
-1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
-1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
+1. Update your availability on [Calendy Event Types](https://calendly.com/event_types/)
+1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile). For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply clicking your Calendly link in your Slack profile.
+
+Keep in mind that unlike normal Google Calendar events, Calendly events are not automatically synchronized between both parties when changes are made.  If an event needs to be cancelled or modified, make sure to use Calendly to do so.
 
 ### Shush
 
@@ -745,8 +752,8 @@ If you are working on multiple GitLab instances and want to have a visual differ
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
 This is a guide on what you'll need to install and run on your machine to get
-Git up and running so you can create your first MR in minutes! Follow the
-numbered steps below to complete your setup.
+Git up and running so you can create your first merge request in minutes! Follow
+the numbered steps below to complete your setup.
 
 ### 1. Start using GitLab
 

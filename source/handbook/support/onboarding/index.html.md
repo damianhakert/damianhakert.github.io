@@ -4,29 +4,16 @@ title: Service Engineer Onboarding
 ---
 
 ## On this page
-- [Expectations of the support team](#expectations)
-- [First steps when you join the team](#first-steps)
-   - [Training](#training)
-   - [WebEx](#webex)
-- [Handling tickets](#handling-tickets)
-   - [Assigning a ticket to yourself](#assign-yourself)
-   - [Point to documentation, or make it](#document-it)
-   - [Create issues](#create-issue)
-   - [Recording information about the organization](#fix-organization)
-   - [Tags tickets](#tags)
-   - [After the first response](#first-response)
-   - [When and how to escalate a ticket?](#when-escalate)
-   - [When to mark a ticket as solved?](#when-solved)
-   - [Clearing out suspended tickets](#clear-suspended)
-   - [Allowing teammates to adopt a ticket](#allow-others)
-   - [Update agent signature](#agent-signature)
-- [Receiving feedback](#feedback)
-- [Dedicated Service Engineers](#dse)
-- [Customer Training](#customer-training)
-- [Team member is unavailable](#not-available)
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 
-## Expectations of the support team<a name="expectations"></a>
+## Expectations of the support team
+{: #expectations}
 
 As members of the support team we are the first to interact with someone when they have a problem or question.
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
@@ -38,47 +25,14 @@ expected to:
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 - Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines).
 
-## First steps when you join the team <a name="first-steps"></a>
+## Service Engineering Bootcamp
+{: #se-bootcamp}
 
-When you first join the team everything will be new to you. In order to get you started with GitLab quickly
-you should take a look at the resources we have available at the [GitLab University](https://university.gitlab.com/).
+When you first join the team everything will be new to you. In order to get you
+started with GitLab quickly a [Service Engineering Bootcamp Checklist](https://about.gitlab.com/handbook/support/onboarding/checklist)
+will be created for you to help guide you through your training.
 
-The [user training](https://gitlab.com/gitlab-org/University/tree/master/training) we use for our customers
-is also a great resource to get you started with the basics of Git and GitLab.
-
-If you want to dig deeper into the inner workings of our great features, the best place to do that is
-our [documentation](http://doc.gitlab.com) page.
-
-You also need to familiarize yourself with the GitLab codebase. A great place to start is by installing the
-[GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). Any problem that our customers have will first
-go through you, so you need to make sure you understand the issue and are able to radiate the information
-you collect in a precise manner to the rest of the team. Make sure that you know how to install and upgrade
-GitLab using our different installation methods:
-
-- Omnibus (preferred)
-- Docker
-- From source
-
-To familiarize yourself with ZenDesk, you can follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
-This great resource written by ZenDesk Support will help you better know how ZenDesk works and how you can
-use it to be more productive.
-
-It is also encouraged to go over your colleagues' responses to previously submitted tickets, to see how they
-craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
-
-### Training<a name="training"></a>
-
-Right after joining the team you will go through a [training process](https://university.gitlab.com/support/)
-with the guidance of a fellow Service Engineer. In this training you will learn the ins and
-outs of GitLab, how to integrate it with the most used enterprise tools, like LDAP, JIRA,
-Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
-collect across the team.
-
-Initially, you will pick up relatively less complex tickets, and learn more about the product and the process by
-responding to a large volume of these tickets. Typically, you will start by answering tickets that come in
-through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
-
-### WebEx<a name="webex"></a>
+## WebEx
 
 More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
 a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
@@ -101,9 +55,10 @@ to control it on request. It also gives the customer the possibility to join via
 us the possibility to use our computer audio connection.
 
 
-## Handling tickets <a name="handling-tickets"/>
+## Handling tickets
 
-### Assigning a ticket to yourself<a name="assign-yourself"></a>
+### Assigning a ticket to yourself
+{: #assign-yourself}
 
 Assign a ticket to yourself the moment you decide you are going to work on it. If the nature of the problem
 requires you to investigate further, let the customer know that you need further time to investigate, assign
@@ -112,7 +67,8 @@ know that you will work with this customer and by replying to the customer, even
 craft a proper answer, you are acknowledging their request.
 
 
-### Point to documentation, or make it<a name="document-it"></a>
+### Point to documentation, or make it
+{: #document-it}
 
 As a general rule, you should always include a link to the applicable documentation as
 part of your response to a ticket. If the documentation does not exist yet, then
@@ -126,7 +82,7 @@ where making documentation is a more time consuming exercise:
 Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
 
-### Create issues<a name="create-issue"></a>
+### Create issues
 
 During your interaction with the customers you will most likely need to create an
 issue, either for a feature request, for a bug, or for further documentation.
@@ -165,7 +121,8 @@ description or in a comment.
 
 Use this field as a reminder of when and where to follow up.
 
-### Recording information about the organization<a name="fix-organization"></a>
+### Recording information about the organization
+{: #fix-organization}
 
 We use ZenDesk Organization Profiles to store relevant information about the customer, like environment setup,
 hardware specs, usage patterns, etc, so that if you need this information, it is readily available from
@@ -183,7 +140,8 @@ in question.
 
 ![Organization Details](/images/support/org-details.png)
 
-### Tag tickets<a name="tags"></a>
+### Tag tickets
+{: #tags}
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
 add tags to it. Currently, the tags that are to be used are:
@@ -205,7 +163,8 @@ add tags to it. Currently, the tags that are to be used are:
 Tagging tickets will allow us to better capture what topics need to be documented in more detail,
 and/or which areas of the product development can use some attention to prevent creating more requests for support.
 
-### After the first response<a name="first-response"></a>
+### After the first response
+{: #first-response}
 
 In most cases when you reply to a customer you expect a reply back. In this case the ticket should be
 marked as `Pending`. If this ticket doesn't receive a reply within 7 days, you should follow up with
@@ -224,7 +183,8 @@ to your comment in the issue tracker. Providing the response to the customer is
 what sets the "first response time" metric, and allows the tickets to be closed
 when appropriate.
 
-### When and how to escalate a ticket?<a name="when-escalate"></a>
+### When and how to escalate a ticket?
+{: #when-escalate}
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
 Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue.
@@ -233,7 +193,8 @@ Slack, you can assign the ticket to them, add a comment summarizing the situatio
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
 
-### When to mark a ticket as solved?<a name="when-solved"></a>
+### When to mark a ticket as solved?
+{: #when-solved}
 
 A ticket can be marked as solved when you are certain that you were able to resolve the requester's
 problem, or, as mentioned above, when many days go by without a reply from the requester. The exception
@@ -241,14 +202,16 @@ to this rule is in social media support channels that do not integrate well with
 the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can
 close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
-### Clearing out Suspended Tickets<a name="clear-suspended"></a>
+### Clearing out Suspended Tickets
+{: #clear-suspended}
 
 In ZenDesk, various filters send a ticket straight to "suspended" status. This is mostly useful
 to remove spam and it works quite well. However, it is possible that actual tickets
 are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
 at least once a day. Doing this on a regular basis also keeps that queue manageable.
 
-### Allowing teammates to adopt a ticket<a name="allow-others"></a>
+### Allowing teammates to adopt a ticket
+{: #allow-others}
 
 When you are viewing a ticket teammates see an eye icon on the left of the ticket in the Views Screen.
 
@@ -266,7 +229,8 @@ ticket's title on the list view or by selecting the ticket and reading the
 like GitLab Support is being used there is no name to refer to so you might want
 to ask on the support and/or general chat channel with the ticket's link.
 
-### Update agent signature<a name="agent-signature"></a>
+### Update agent signature
+{: #agent-signature}
 
 Your personal ZenDesk signature is shown at the end of every ticket response.
 You can update this to include a personalized valediction like "Thanks" or "Best Regards" by following these steps.
@@ -283,7 +247,8 @@ Thanks,
 GitLab, Inc.
 ```
 
-## Receiving feedback<a name="feedback"></a>
+## Receiving feedback
+{: #feedback}
 
 After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
 the level of support they received. If a customer rates a ticket to which you were assigned as bad, an
@@ -296,34 +261,20 @@ celebrate those "wins" with the rest of the team through the #support or #thanks
 chat channel. Read the positive feedback carefully, often it contains a question
 or suggestion for improvement which should be followed up on.
 
-## Dedicated Service Engineers<a name="dse"></a>
 
-Certain subscribers have access to a Dedicated Service Engineer. This means that
-tickets that arrive in ZenDesk from people within the subscriber's organization
-are routed to a dedicated SE by way of a trigger in ZenDesk. To make sure that
-these subscribers are served well, even when their dedicated SE is not directly
-available, there is a 'view' in ZenDesk to display all "dedicated" tickets so
-that other Service Engineers can see them and jump in to avoid an SLA breach.
-
-If you are the Dedicated Service Engineer for an account and you will be away for a
-foreseeable reason (such as vacation), change the trigger in ZenDesk for the duration
-of your absence. Any tickets answered by others should mention "I will be helping
-you in this matter since your dedicated Service Engineer, [name], is unfortunately
-currently unavailable to respond to your ticket." When you return, you should review
-all tickets submitted by the subscriber during your absence, and make sure to follow-through
-or follow-up as required.
-
-## Customer Training<a name="customer-training"></a>
+## Customer Training
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
-questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
+questions from potential customers. The materials for the customer training should be kept up to date
+[here](https://gitlab.com/gitlab-org/University/tree/master/training).
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
 via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
 
-## Team member is unavailable<a name="not-available"></a>
+## Team member is unavailable
+{: #not-available}
 
 ### Vacation
 

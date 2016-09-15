@@ -131,7 +131,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 4. Reviewers:
   - Amara will take a first look to approve the article for review, and assign Marcia for the first review
   - When first review is finished, Marcia will assign Axil for a detailed technical review
-  - When finished, Axil will reassing the MR to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
+  - When finished, Axil will reassign the merge request to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
 5. Content Marketing: publish
   - Content Marketing will place the date for publishing
   - Amara will merge and tweet/Facebook
@@ -313,7 +313,7 @@ Read more about it [below](#cover-image).
 
 The `description` meta tag [is important][description-tag]
 for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
-[post frontmatter](#frontmatter), as a small summary of what the post is about. 
+[post frontmatter](#frontmatter), as a small summary of what the post is about.
 
 It's a way of making the post title shorter, then add complementary information in the description.
 It's not meant to repeat the post title, use your creativity to describe what's in the post.
