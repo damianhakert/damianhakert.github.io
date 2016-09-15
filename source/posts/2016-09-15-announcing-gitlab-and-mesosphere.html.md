@@ -41,7 +41,7 @@ If you've ever spent hours or days configuring your tools, you know what a time-
 **3. Utilize resources more efficiently** 
 {: .panel-heading}
 <div class="panel-body">
-Let's say you have a pool of servers with Mesosphere you can easily set up clusters that can act as a shared computing resource. You can choose any one of these servers to run your task, allowing you to maximize the capacity of each one. 
+Let's say you have a pool of servers with Mesosphere you can easily set up clusters that can act as a shared computing resource. Any of these servers can run your task, while still being able to run any other tasks that fit within their remaining resources, allowing you to maximize the capacity of each one. 
 </div>
 </div>
 
@@ -57,7 +57,7 @@ DC/OS is fault tolerant. It keeps GitLab runnning through storage primitives in 
 **5. Analytics and Reporting** 
 {: .panel-heading}
 <div class="panel-body">
-Mesosphere offers tools to help you monitor and perform health checks on your applications. You can also pull in metrics from other monitoring platforms, such as DataDog and Graphite. Mesosphere even wraps your analytics into a nice dashboard view. If you're an existing GitLab customer you know how much we value great UI. We spend a lot of time thinking about how to deliver the best UI in our product. It is clear that Mesosphere does the same. Their dashboard views are clean and intuitive so you can maintain a pulse of your infrastructure. 
+Mesosphere offers tools to help you monitor and perform health checks on your applications. You can also pull in metrics from other monitoring platforms, such as [DataDog and Graphite](https://mesosphere.com/solutions/container-orchestration/). Mesosphere even wraps your analytics into a nice dashboard view. If you're an existing GitLab customer you know how much we value great UI. We spend a lot of time thinking about how to deliver the best UI in our product. It is clear that Mesosphere does the same. Their dashboard views are clean and intuitive so you can maintain a pulse of your infrastructure. 
 </div>
 </div>
 
@@ -65,9 +65,8 @@ Mesosphere offers tools to help you monitor and perform health checks on your ap
 
 If you're interested in learning more or want to learn how you can install GitLab on DC/OS take a look at these resources: 
 
-- GitLab-on-DC/OS tutorial blog post
-- GitLab-on-DC/OS documentation
-- GitLab & Mesosphere joint solution brief
+- [GitLab-on-DC/OS tutorial blog post](https://mesosphere.com/blog/2016/09/15/gitlab-dcos/)
+- [GitLab & Mesosphere joint solution brief](https://mesosphere.com/resources/mesosphere-gitlab-joint-solution-brief/)
 - [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
 
 <!-- custom styles -->
