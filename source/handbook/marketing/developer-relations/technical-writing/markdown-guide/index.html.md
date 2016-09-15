@@ -460,6 +460,7 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 
 Notes:
 
+- Apply [shadow](#shadow) to your images!
 - All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
 and public domain images are permitted.
 - The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
@@ -1142,7 +1143,6 @@ This is a [link][google-es]{:hreflang="es"} in Spanish.
 ### Special classes
 
 #### Shadow
-{: .no_toc}
 
 The CSS class called `shadow` should be used when your image edges are not clearly defined.
 This happens when it has a white background or when it's a screenshot with text (for example,
@@ -1163,7 +1163,6 @@ markup:
 ```
 
 #### Note
-{: .no_toc}
 
 As [previously](#notes) explained, you can add the class `note` to paragraphs that
 you don't want to call attention to:
