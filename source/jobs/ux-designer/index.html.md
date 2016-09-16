@@ -11,7 +11,7 @@ title: "UX Designer"
 * Conduct user testing
 - latest UI/UX techniques, prototyping with tools or HTML/CSS, user testing, user flow.
 
-### UX Designers
+### UX Designer
 
 * Understands general UX design and best practices
 * Prototypes new mockups and flows with product and UX team members
@@ -19,20 +19,21 @@ title: "UX Designer"
 * Delivers new UX designs with monthly release cadence
 * Presents user research findings and recommendations to team
 
-### Senior UX Designers
+### Senior UX Designer
 
 * Deeply understands the needs/issues of GitLab users
 * Proposes, implements, and leads significant improvements to GitLab UX
 * Mentors more junior UX designers
 * Delegates work to more junior UX designers as needed/appropriate
-* Have deep knowledge of GitLab UX history and direction
+* Has deep knowledge of GitLab UX history and direction
 * Serves as the go-to person with UX decisions
 * Improves other UX designers productivity through better tools and workflow
 * Collaborates with members across teams and advocates for users and user-centered
   design practices
 * Writes blog posts articulating UX vision
 * Interviews potential UX candidates
-
+* Has a deep understanding of responsive Web design fundamentals
+ 
 ## Tools
 
 * UI/UX: Adobe CC, Sketch, Antetype, Web typography, assets
