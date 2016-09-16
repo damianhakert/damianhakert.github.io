@@ -65,7 +65,7 @@ DC/OS offers tools to help you monitor and perform health checks on your applica
 
 If you're interested in learning more or want to learn how you can install GitLab on DC/OS take a look at these resources: 
 
-- [GitLab-on-DC/OS tutorial blog post](https://mesosphere.com/blog/2016/09/15/gitlab-dcos/)
+- [GitLab-on-DC/OS tutorial blog post](https://mesosphere.com/blog/2016/09/16/gitlab-dcos/)
 - [GitLab & Mesosphere joint solution brief](https://mesosphere.com/resources/mesosphere-gitlab-joint-solution-brief/)
 - [GitLab & Mesosphere webcast recording](https://youtu.be/GPtSI_2-lbM) 
 
