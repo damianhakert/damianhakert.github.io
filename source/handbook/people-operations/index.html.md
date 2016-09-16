@@ -138,11 +138,12 @@ are in the Secretarial vault on 1Password. To add a number to the call handling 
 rules:
 
 - From the Admin Portal, click on the Users button (menu on left), select the user for which you
-want to make changes.
+want to make changes (for door handling, pick extension 101).
 - A menu appears to the right of the selected user; pick "Call Handling & Forwarding" and review
 the current settings which show all the people and numbers that are alerted when the listed User's
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
+ 
 
 ## Dutch work permits
 
