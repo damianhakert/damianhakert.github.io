@@ -119,6 +119,7 @@ iframe[name='google_conversion_frame'] {
   color: $color-white;
   font-size: 15px;
   background: $color-primary;
+  z-index: 9;
 
   .external-source-link {
     color: $color-white;
