@@ -9,7 +9,7 @@ description: "Tune in Tuesday, September 13th at 1pm ET - 5pm GMT for a special 
 ---
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">TL;DR: GitLab CEO Sid Sijbrandij unveiled the &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab Master Plan</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording and download the slides here.</a>!</p>
+&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording and download the slides here</a>!</p>
 
 The world of software development is changing.
 
