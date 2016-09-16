@@ -14,7 +14,7 @@ title: "Vice President of Scaling"
 ### Current specific responsibilities
 
 - Transitioning the People Ops team to the [Senior Director of People Operations](/jobs/senior-director-of-people-operations)
-- Interim [Support Lead](/jobs/support-lead)
+- Interim [Head of Support](/jobs/head-of-support)
 - Scaling up organizational structure internationally (in collaboration with CFO, Sr. Dir of People Ops)
 
 ## Requirements

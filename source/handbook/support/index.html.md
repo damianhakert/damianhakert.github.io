@@ -89,7 +89,7 @@ support turbo developers to momentarily switch away from their other tasks.
 
 Certain subscribers have purchased Premium Support (TODO: create /support page), which gives them access to a Dedicated Service Engineer. This means that tickets that arrive in ZenDesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in ZenDesk.
 
-- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Head of Support. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
    - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in ZenDesk can then create the trigger, and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around ZenDesk or SalesForce.
    - Related section of the [Sales handbook](/handbook/sales/#premium-support).
 - To make sure that these subscribers are served well, even when their dedicated SE is not directly
@@ -543,6 +543,6 @@ and include:
 1. Relevant links
 1. Summary of the high-level issues
 
-Include the Support Lead, VP of Engineering, and Director of PeopleOps in this issue. Together we will
+Include the Head of Support, VP of Engineering, and Director of PeopleOps in this issue. Together we will
 evaluate on a case-by-case basis whether to take action (e.g. ban the user from the forums
 for violating the Code of Conduct).
