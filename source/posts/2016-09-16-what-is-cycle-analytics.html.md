@@ -3,11 +3,11 @@ title: What Is Cycle Analytics?
 author: Régis Freyd
 author_twitter: djaiss
 categories: Concepts, GitLab 
-image_title: '/source/images/unsplash/data.png'
+image_title: '/images/unsplash/data.png'
 description:
 twitter_image:
 ---
-
+{::options parse_block_html="true" /}
 <div class="panel panel-danger">
 <div class="panel-body">
 [Join us for our next webcast][webcast-registration] on September 29 to learn more about Cycle Analytics and our upcoming 8.12 Feature Release. 
