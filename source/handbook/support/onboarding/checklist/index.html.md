@@ -142,10 +142,22 @@ Installation from source is not common but will give you a greater understanding
 - Have a good understanding of ticket flow through Zendesk and how to interat with our various channels
 - See some common issues that our customers are facing and how to resolve them.
 
+#### Initial Zendesk training 
 
-#### Zendesk Tickets
+1. [ ] Complete Zendesk Agent training (allow 40 minutes for completion)
+  1. Navigate to [Zendesk university](https://university.zendesk.com/#/purchase/category/34942) and order the **"Agents: Zendesk Fundamentals Online"** course
+     1. Add the **"Agents: Zendesk Fundamentals Online"** course to your cart and click "Proceed to Checkout"
+     1. Follow the prompts and finalise your order.
+     1. You'll receive an email with information on accessing the Zendesk course
+  1. Proceed to complete the **"Agents: Zendesk Fundamentals Online"** course 
+1. [ ] Review additional Zendesk resources   
+  1. [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
+  1. [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
+  1. [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
+  
+#### Learn about the Support process
 
-1. [ ] Follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
+Zendesk is our Support Centre and our main communication line with our Customers. We communicate with customers through several other channels too
 
 1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled.
 
@@ -160,21 +172,13 @@ Installation from source is not common but will give you a greater understanding
   1. [ ] call with ___
   1. [ ] call with ___
 
-#### Learn about the Support process
-
-Zendesk is our Support Centre and our main communication line with our Customers. We communicate with customers through several other channels too
-
-1. [ ] Familiarize yourself with ZenDesk
-  1. [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
-  1. [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
-  1. [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
 1. [ ] Dive into our ZenDesk support process by reading how to [handle tickets](https://about.gitlab.com/handbook/support/onboarding/#handling-tickets)
 1. [ ] Start getting real world experience by handling real tickets, all the while gaining further experience with the Product.
    1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/#support-channels)
     1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/support/#stack-overflowa-namestack-overflowa) and the [GitLab forum](https://about.gitlab.com/handbook/support/#foruma-namegitlab-foruma)
       1. Here you will find a large variety of queries mainly from our Users who are self hosting GitLab CE
       1. [ ] Answer one by understanding a question dig in to try to find a solution
-  1. [ ] [Proceed on to the GitLab.com Support Forum](https://about.gitlab.com/handbook/support/#gitlabcom-support-trackera-namesupp-foruma)
+  1. [ ] [Proceed on to the GitLab.com Support Tracker](https://about.gitlab.com/handbook/support/#gitlabcom-support-trackera-namesupp-foruma)
      1. Here you will find queries regarding our own GitLab.com
      1. [ ] Find a user you can help and help them, this will give you an understanding of our Admin interface and other tools
   1. [ ] [Proceed on to the Twitter tickets in Zendesk](https://about.gitlab.com/handbook/support/#twitter)
