@@ -43,6 +43,7 @@ in the modern development cycle are slowing down your team.
 Our [vision][vision] is to bring you all 10 steps of the modern development cycle into one UI. From idea to production, you should
 be able to monitor the entire process in one place, and thread your converstions throughout. [Check out this video][demo] to learn more about our product vision.
 
+![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
 **How Does Cycle Analytics Help Teams Work Better?**
 
