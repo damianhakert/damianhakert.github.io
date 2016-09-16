@@ -5,6 +5,7 @@ author_twitter: EricaLindberg_
 categories: GitLab
 image_title: '/images/unsplash/data.png'
 description: "Cycle Analytics allows you to measure the time it takes you to move from idea to production!"
+twitter_image: '/images/tweets/feature-preview-introducing-cycle analytics.png'
 ---
 
 {::options parse_block_html="true" /}
