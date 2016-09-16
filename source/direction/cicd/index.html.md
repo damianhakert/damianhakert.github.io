@@ -41,8 +41,10 @@ Example flow:
 
 ### Issues to support pipelines overall
 
+1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743) **DONE**
 1. [Run CI/CD on Merge Requests, not just branches](https://gitlab.com/gitlab-org/gitlab-ce/issues/15310), especially for fork-based flows
 2. Deploy pipelines
+    1. 1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
     4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
@@ -64,7 +66,7 @@ Builds as first-class citizen (aka build artifacts):
 1. [Build history (of artifacts), a view of releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/17178)
 2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
 3. Rollback to previous build
-4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299)
+4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299) **DONE**
 
 ### Test
 
@@ -84,14 +86,14 @@ A key part of CD is being able to deploy. We currently have this ability via the
 2. Other services (e.g. TestFlight, Apple)
 3. [Deploys as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
     1. New command rather than `dpl` gem
-    2. Deploy history view
-    3. Rollback to previous deploy
-4. [Environments as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/17009)
-    1. List of environments
-    2. Current state and history of environments
+    2. Deploy history view **DONE**
+    3. Rollback to previous deploy **DONE**
+4. [Environments as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/17009) **DONE**
+    1. List of environments **DONE**
+    2. Current state and history of environments **DONE**
 5. Releases as first-class entry?
     1. Release = build + config, so this implies we'd manage config
-6. Deploy/Promote without rebuilding
+6. Deploy/Promote without rebuilding **DONE**
 7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198)
 8. Support multiple rollout strategies
     1. Incremental deploys (make one, break one)
