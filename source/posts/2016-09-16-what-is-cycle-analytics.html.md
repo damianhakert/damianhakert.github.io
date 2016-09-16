@@ -17,27 +17,35 @@ twitter_image:
     and our upcoming 8.12 Feature Release.
 </p>
 
-Time to market is quickly becoming one of the most important, competitive factors for software development companies. However, the majority of development teams don't actually track cycle time, largely because there isn't an easy way to do it. 
+Time to market is quickly becoming one of the most important, competitive factors 
+for software development companies. However, the majority of development teams 
+don't actually track cycle time, largely because there isn't an easy way to do it. 
 
-Cycle Analytics changes that. It gives you the ability to measure how much time 
-it takes to go from an idea to production so you can more accurately predict how 
-long it will take to ship. The first iteration of GitLab Cycle Analytics will be 
-released on September 22, and is part of our [product vision][vision] to help you 
-move faster from idea to production. 
+*Cycle Analytics changes that.* It gives you the ability to measure how much time 
+it takes to go from an idea to production so you can monitor and improve overall cycle time for continuous improvement. 
 
 <div class="panel panel-info">
 **What Is Cycle Analytics?**
 {: .panel-heading}
 <div class="panel-body">
-Cycle Analytics measures the time it takes to go from an idea to production for each project you have. Not only do we indicate the total time it takes to achieve this, but we also break this total time down into the multiple stages an idea has to pass through to be shipped. 
+Cycle Analytics measures the time it takes to go from an idea to production for each project you have. 
+Not only do we indicate the total time it takes to achieve this, but we also break this total time down 
+into the multiple stages an idea has to pass through to be shipped. 
 </div>
 </div>
 
+Reducing cycle time is the competitive advantage of the future. In fact, it's the 
+first principle of [Conversational Development][convdev]. Few teams have cycle times 
+of days, or hours, and yet the goal should be to reach maximum efficiency with a
+[57 minute cycle time][tech-beacon]. Cycle Analytics enables you to reduce your cycle time by helping you to identify which steps
+in the modern development cycle are slowing down your team. 
 
-<div class="panel panel-info">
+Our [vision][vision] is to bring you all 10 steps of the modern development cycle into one UI. From idea to production, you should
+be able to monitor the entire process in one place, and thread your converstions throughout. [Check out this video][demo] to learn more about our product vision.
+
+
 **How Does Cycle Analytics Help Teams Work Better?**
-{: .panel-heading}
-<div class="panel-body">
+
 It's easy to think that we are shipping quickly as a team, but issues can get stuck 
 at a specific stage and easily fall between the cracks. Without metrics and a high-level 
 overview of progress, we just don't know. 
@@ -49,16 +57,24 @@ of improvement and more accurately predict your releases. Many teams already mea
 a portion of their workflow, such as how long they spend writing code, but Cycle Analytics
 allows you to see the entire flow from end-to-end, starting right at the idea stage. 
 
-It's not enough to focus your coding on speed; what matters is how quickly you react to market and customer needs.
-</div>
-</div>
+It's not enough to focus your coding on speed; what matters is how quickly you 
+react to market and customer needs.
 
-Want to learn more? Join me on September 29 for our Cycle Analytics webcast and a 8.12 Feature Release demo. [Register here][webcast-registration].
+**Learn More**
+
+The first iteration of GitLab Cycle Analytics will be 
+released on September 22, and is part of our [product vision][vision] to help you 
+move faster from idea to production. 
+
+Join me on September 29 for our Cycle Analytics webcast and a 8.12 Feature Release demo to learn more. [Register here][webcast-registration].
 
 
 <!-- identifiers -->
+[convdev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/
+[demo]: https://www.youtube.com/watch?v=ZRcWCWatdas
 [webcast-registration]: https://Page.gitlab.com/20160922_CycleAnalyticsWebcast.html
 [master-plan-recap-post]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/
+[tech-beacon]: http://techbeacon.com/doing-continuous-delivery-focus-first-reducing-release-cycle-times
 [vision]: https://about.gitlab.com/direction/#scope
 
 <!-- cover image: https://unsplash.com/photos/t5BvA-Q_m_Y -->
