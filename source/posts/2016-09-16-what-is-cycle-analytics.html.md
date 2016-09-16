@@ -1,7 +1,7 @@
 ---
 title: Feature Preview: Introducing Cycle Analytics
 author: Erica Lindberg
-author_twitter: Erica Lindberg
+author_twitter: EricaLindberg_
 categories: Concepts, GitLab 
 image_title: '/images/unsplash/data.png'
 description:
@@ -60,6 +60,8 @@ Reducing cycle time is the competitive advantage of the future. In fact, it's th
 first principle of [Conversational Development][convdev]. Yet, few teams have cycle times of weeks, days, or even hours. 
 The goal should be to reach [maximum efficiency][tech-beacon]. The benefit of reducing cycle time is that you can ship quicker, smaller changes. 
 This is not only more efficient, but helps teams be more customer-focused by delivering solutions, faster.
+
+![ConvDev Principles](/images/blogimages/convdev-principles.png)
 
 It's not enough to focus on coding speed; what matters is how quickly you 
 react to market and customer needs.
