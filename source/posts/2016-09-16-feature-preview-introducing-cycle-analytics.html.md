@@ -5,17 +5,17 @@ author_twitter: EricaLindberg_
 categories: GitLab
 image_title: '/images/unsplash/data.png'
 description: "Cycle Analytics allows you to measure the time it takes you to move from idea to production!"
-twitter_image: '/images/tweets/feature-preview-introducing-cycle analytics.png'
+twitter_image: '/images/tweets/feature-preview-introducing-cycle-analytics.png'
 ---
 
 {::options parse_block_html="true" /}
 
 <p  class="alert alert-orange" style="background-color: rgba(252,163,38,.3);
     border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">
-    <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+    <i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i>
     &nbsp;&nbsp;
-    [Join us for our next webcast][webcast-registration]{: .purple} on September 29 to learn more about Cycle Analytics
-    and our upcoming 8.12 Feature Release.
+    [Join us for our next release webcast][webcast-registration]{: .purple} on September 29 to
+    learn more about Cycle Analytics and our upcoming GitLab 8.12!
     &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 </p>
 
