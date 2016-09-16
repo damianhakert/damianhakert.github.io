@@ -247,7 +247,7 @@ The publishing process is simple and is conducted for our Blog Editors and revie
   - Social media promotion
 - Technical Editorial: Marcia Ramos ([@marcia]), Technical Writer
   - Technical review and approval
-  - Markdown, structure and flow review and approval
+  - Markdown, structure, and flow review and approval
   - Merge master
 - Technical Reviewers: any GitLab Team member with technical expertize on the post's subject
   - Technical review and approval
@@ -273,41 +273,52 @@ The publishing process is simple and is conducted for our Blog Editors and revie
 #### General Reviews
 
 - 1st review: Marcia (when technical), Erica (when non-technical)
-- Structure, flow and markdown: Marcia
+- Structure, flow, and markdown: Marcia
 - Technical review: Marcia, Axil, and/or one of the developers (depending on the content)
-- Last review (English, mostly): Erica
-- Last check (preview, markdown, images, date, build) and merge: Marcia or Erica
-- Tweet/retweet/promote: Erica
+- Last review (content, English): Erica
+- Last [check](#check-list-before-merging) (preview, markdown, images, date, build) and merge: Marcia (or Erica)
 
-Not a GitLab Team member? Check the process for Community Writers below.
+Read the section [How to conduct a review] for further details.
 
-### Publishing process for Community Writers
+#### Publishing process for Community Writers
 
 For our [community writers], we will follow the Scalable Writing System described below.
 
 1. Community Writer - choose a subject:
-   - Make sure you are familiar with [GitLab Workflow]
-   - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> or create a new one.
-   - Leave a comment "@amara I would like to write this and I accept the terms on [Community Writers Program][Community Writers]. Below follows my writing sample."
-2. Content Marketing - analyse the proposal:
-  - Amara will evaluate the writer's sample and discuss anything necessary before start writing
-  - When the guest writer is approved to get started, Amara will leave a comment "@username, you got it!" and assign the issue to the writer
-3. Community Writer: prepare local environment and submit the article
+   - Make sure you are familiar with the [GitLab Workflow]
+   - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> labeled with `up-for-grabs` or create a new one (only if your proposal is relevant for one of the [current important topics](#topics-community-writers)).
+   - Leave a comment "@Lindberg I would like to write this and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample)."
+1. Content Marketing - analyses the proposal:
+  - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
+  - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it`
+1. Community Writer: prepare your local environment and submit the article
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
-  - Write according to the [Professional Writing Techniques][writing-tech]
-  - Submit a [WIP MR] with the proposal and assign it to Amara
-4. Reviewers:
-  - Amara will take a first look to approve the article for review, and assign Marcia for the first review
-  - When first review is finished, Marcia will assign Axil for a detailed technical review
-  - When finished, Axil will reassign the merge request to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
-5. Content Marketing: publish
-  - Content Marketing will place the date for publishing
-  - Amara will merge and tweet/Facebook
-6. Content Marketing / Account Ops: pay the writer
-  - Amara email the writer to wire the money
-  - Guest writer will get paid
+  - Write according to the [Professional Writing Techniques][writing-tech], and to the [Markdown Guide]
+  - Submit a [WIP MR] with the proposal and mention @Lindberg for the first pass
+1. [General Review](#general-reviews)
+1. When your post gets ready:
+  - Marcia will change your MR from your branch into `gitlab.com: master` to another branch `gitlab.com: feature-branch`
+  - Marcia will merge your MR into the new feature-branch and:
+       - Create a new MR that closes the blog post issue
+       - Preview the post locally
+       - Upload the preview screenshot to the new MR thread
+  - Marcia and Erica can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the written content)
+  - Erica will place the final date for publishing and create the copyedit for social media (140 chars tops)
+1. On the publishing date:
+  - Marcia (or Erica) will merge your post into `master`
+  - Erica (or Marcia) will promote in social media: Twitter and/or Facebook
+1. After the publishing date: compensate the writer (when compensations applies)
+  - Erica email the writer to wire the money
+  - Community writer will get paid
 
-Important: make sure the last section of the post is "About the guest author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
+**Important:** make sure the last section of the post is "About the community author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
+
+**Important:** never write your draft on pre-styled text editors like Google Docs or Microsoft Word. They don't use the same
+character encoding as markdown does (UTF-8), and it may cause issues when rendering markdown into HTML. Please use one of
+the [recommended code editors][code-editors].
+
+**Note:** writing sample: any article or post written by yourself, or a sample of ~200 chars on a related topic.
+{: #sample}
 
 
 ### Blog Post Issue Tracker
@@ -315,8 +326,9 @@ Important: make sure the last section of the post is "About the guest author", d
 To keep things clear for everyone, we assume:
 
 - Anything not assigned to a person is in the [backlog]
-- Anything that is assigned to a person is "in progress"
-- Anything that has a WIP MR is ready for review
+- Anything that is assigned to a person or labels with `on it` is "in progress"
+- Anything that has a `WIP` MR is ready for review
+- Any MR that does not have a `WIP` is ready to be merged
 
 ### Styles
 
@@ -331,7 +343,7 @@ Before making any change, create a new branch `git checkout -b branchname` clone
 
 Reviewer - check these before you publish:
 
-- Follow the [Blog Style Guide](#styles-guidelines)
+- Check if the post follows the [Blog Style Guide](#styles-guidelines)
 - Check all links - make sure none is broken
 - Check the file extension `.html.md`
 - Check the date on the file name
@@ -345,8 +357,8 @@ post for broken links using this tool (or similar): <http://www.deadlinkchecker.
 in any communication channel or social media network.
 
 After the blog post is published we should tweet immediately from the GitLab
-Twitter account, and schedule follow up tweets and LinkedIn and Facebook.
-[Validate the Twitter Card][twitter card validator] before tweeting!
+Twitter account, and schedule follow up tweets, and LinkedIn and Facebook posts.
+Just **make sure** to [validate the Twitter Card][twitter card validator] before tweeting!
 
 ## Get inspired
 
@@ -790,6 +802,8 @@ specific matters are still being discussed and polished.
 [Emily Kyle]: https://twitter.com/emilylucie
 [@Lindberg]: https://gitlab.com/u/Lindberg
 [@marcia]: https://gitlab.com/u/marcia
+[code-editors]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#markdown-editors
+
 
 <!-- Styles -->
 
