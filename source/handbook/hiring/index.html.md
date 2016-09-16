@@ -26,7 +26,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
 1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
-    1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
+    1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]` be sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
