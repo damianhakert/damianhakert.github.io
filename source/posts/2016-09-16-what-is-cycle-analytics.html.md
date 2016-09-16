@@ -38,7 +38,7 @@ into the multiple stages an idea has to pass through to be shipped.
 
 Cycle Analytics enables you to reduce your cycle time by helping you to identify which steps
 in the modern development cycle are slowing down your team. Our [vision][vision] is to bring you all 10 steps of the modern development cycle into one cohesive experience. 
-From idea to production, you should be able to monitor the entire process in one place to help you move faster from idea to production. 
+From idea to production, you should be able to monitor the entire process in one place.
 [Check out this video][demo] to learn more about our product vision.
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
@@ -48,7 +48,7 @@ From idea to production, you should be able to monitor the entire process in one
 It's easy to think that you are shipping quickly as a team, but issues can get stuck 
 at a specific stage. Without metrics and a high-level 
 overview of progress, we just don't know how long it takes to move from stage to stage, making it much harder 
-to pinpoint *why* something stalled. 
+to identify *why* something stalled. 
 
 Cycle Analytics is a way to prevent this from happening by giving you the data you 
 need to make better decisions and work better as a team. With metrics to measure 
