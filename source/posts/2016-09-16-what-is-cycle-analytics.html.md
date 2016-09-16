@@ -37,11 +37,12 @@ into the multiple stages an idea has to pass through to be shipped.
 Reducing cycle time is the competitive advantage of the future. In fact, it's the 
 first principle of [Conversational Development][convdev]. Few teams have cycle times 
 of days, or hours, and yet the goal should be to reach maximum efficiency with a
-[57 minute cycle time][tech-beacon]. Cycle Analytics enables you to reduce your cycle time by helping you to identify which steps
-in the modern development cycle are slowing down your team. 
+[57 minute cycle time][tech-beacon]. The benefit of reducing cycle time is that you can ship quicker, smaller changes. 
+This is not only more efficient, but helps teams be more customer-focused by being able to fix bugs and release new features, faster.
 
-Our [vision][vision] is to bring you all 10 steps of the modern development cycle into one UI. From idea to production, you should
-be able to monitor the entire process in one place, and thread your converstions throughout. [Check out this video][demo] to learn more about our product vision.
+Cycle Analytics enables you to reduce your cycle time by helping you to identify which steps
+in the modern development cycle are slowing down your team. Our [vision][vision] is to bring you all 10 steps of the modern development cycle into one UI. From idea to production, you should
+be able to monitor the entire process in one place to help you move faster from idea to production. [Check out this video][demo] to learn more about our product vision.
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
