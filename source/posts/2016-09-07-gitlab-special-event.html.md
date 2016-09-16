@@ -9,7 +9,7 @@ description: "Tune in Tuesday, September 13th at 1pm ET - 5pm GMT for a special 
 ---
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">TL;DR: GitLab CEO Sid Sijbrandij unveiled the &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab Master Plan</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording and download the slides here.</a>!</p>
+&nbsp;&nbsp;during a special live event. <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording and download the slides here</a>!</p>
 
 The world of software development is changing.
 
@@ -44,7 +44,7 @@ to production][post-ci-cd].
 
 After the success of the [GitLab Issue Board][issue-board-release], a
 solution for better planning within the GitLab UI, we are working on
-having all 10 solutions ready to go for the GitLab community.
+having all [10 solutions][scope] ready to go for the GitLab community.
 
 This is why we hosted a special, live event with
 GitLab’s CEO, [Sid Sijbrandij]. During the event, Sid shared
@@ -66,6 +66,7 @@ VP of Product, myself, Chief Marketing Officer, and guest MC Community Extraordi
 [gitlab-vision]: https://about.gitlab.com/direction/#vision
 [issue-board-release]: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[scope]: https://about.gitlab.com/direction/#scope
 [Sid Sijbrandij]: https://twitter.com/sytses
 [jono-twitter]: https://twitter.com/jonobacon
 [trends-version-control]: https://about.gitlab.com/2016/08/29/trends-in-version-control-land-open-source/
