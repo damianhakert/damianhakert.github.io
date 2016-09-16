@@ -1,5 +1,5 @@
 ---
-title: "Announcing GitLab + Mesosphere: Five reasons you should be excited about this integration"
+title: "Announcing GitLab + Mesosphere: Five Reasons You Should Be Excited About This Integration"
 author: Amara Nwaigwe
 author_twitter: its_amaracle
 categories: integration
@@ -17,12 +17,12 @@ more than that so we don't spoil the five reasons to be excited.
 
 <!-- more -->
 
-## The five reasons
+## The Five Reasons
 
 {::options parse_block_html="true" /}
 
 <div class="panel panel-gitlab">
-**1. Simplify the complexities** 
+**1. Simplify the Complexities** 
 {: .panel-heading}
 <div class="panel-body">
 Mesosphere is an incredible product that has made something that is genuinely complex feel surprisingly simple and intuitive. Most teams run their applications in production environments composed of multiple servers. Using GitLab.com as an example, at any given time, we run anywhere from 60-200 servers. You can read about the full breakdown in [this blog post](https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/). The point is that your infrastructure team is dealing with a lot of complexity. Mesosphere simplifies that. They offer a single platform to run everything on the same shared infrastructure.
@@ -30,7 +30,7 @@ Mesosphere is an incredible product that has made something that is genuinely co
 </div>
 
 <div class="panel panel-success">
-**2. Spin up GitLab instances in minutes** 
+**2. Spin up GitLab Instances in Minutes** 
 {: .panel-heading}
 <div class="panel-body">
 If you've ever spent hours or days configuring your tools, you know what a time-consuming pain it can be. In a world where time to market is everything, your team should take advantage of all the time savings they can get. With this integration, you are able to take advantage of the infrastructure that you already have in Mesosphere. 
@@ -38,7 +38,7 @@ If you've ever spent hours or days configuring your tools, you know what a time-
 </div>
 
 <div class="panel panel-gitlab-purple">
-**3. Utilize resources more efficiently** 
+**3. Utilize Resources More Efficiently** 
 {: .panel-heading}
 <div class="panel-body">
 Let's say you have a pool of servers with Mesosphere you can easily set up clusters that can act as a shared computing resource. Any of these servers can run your task, while still being able to run any other tasks that fit within their remaining resources, allowing you to maximize the capacity of each one. 
@@ -46,7 +46,7 @@ Let's say you have a pool of servers with Mesosphere you can easily set up clust
 </div>
 
 <div class="panel panel-info">
-**4. Maintain uptime** 
+**4. Maintain Uptime** 
 {: .panel-heading}
 <div class="panel-body">
 DC/OS is fault tolerant. It keeps GitLab runnning through storage primitives in Mesos. If your GitLab instance dies then your server could just recover itself by going to another node. Setting up fault tolerance does require some additional configuration but this is a great way to ensure you don't lose anything.
