@@ -1,5 +1,5 @@
 ---
-title: What Is Cycle Analytics?
+title: Introducing Cycle Analytics
 author: Régis Freyd
 author_twitter: djaiss
 categories: Concepts, GitLab 
@@ -17,7 +17,7 @@ twitter_image:
     and our upcoming 8.12 Feature Release.
 </p>
 
-Time to market is quickly becoming one of the most important, competitive factors for software developers. However, the majority of development teams don't actually track cycle time, largely because there isn't an easy way to do it. 
+Time to market is quickly becoming one of the most important, competitive factors for software development companies. However, the majority of development teams don't actually track cycle time, largely because there isn't an easy way to do it. 
 
 Cycle Analytics changes that. It gives you the ability to measure how much time it takes to go from an idea to production so you can more accurately predict how long it will take to ship. The first iteration of GitLab Cycle Analytics will be released on September 22, and is part of our [product vision][vision] to help you move faster from idea to production. 
 
