@@ -44,12 +44,12 @@ to production][post-ci-cd].
 
 After the success of the [GitLab Issue Board][issue-board-release], a
 solution for better planning within the GitLab UI, we are working on
-having all 10 solutions ready to go for the GitLab community.
+having all [10 solutions][scope] ready to go for the GitLab community.
 
 This is why we hosted a special, live event with
 GitLab’s CEO, [Sid Sijbrandij]. During the event, Sid shared
 the **GitLab Master Plan**, and demoed our advanced workflow for modern software
-production using **Conversation Driven Developement (CDD)**.
+production using **Conversational Developement (ConvDev)**.
 
 Everyone is invited to tune in, encouraged to ask questions, express
 opinions, and share ideas with us. At GitLab, **everyone can contribute!**
@@ -66,6 +66,7 @@ VP of Product, myself, Chief Marketing Officer, and guest MC Community Extraordi
 [gitlab-vision]: https://about.gitlab.com/direction/#vision
 [issue-board-release]: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
 [post-ci-cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[scope]: https://about.gitlab.com/direction/#scope
 [Sid Sijbrandij]: https://twitter.com/sytses
 [jono-twitter]: https://twitter.com/jonobacon
 [trends-version-control]: https://about.gitlab.com/2016/08/29/trends-in-version-control-land-open-source/
