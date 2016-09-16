@@ -19,7 +19,11 @@ twitter_image:
 
 Time to market is quickly becoming one of the most important, competitive factors for software development companies. However, the majority of development teams don't actually track cycle time, largely because there isn't an easy way to do it. 
 
-Cycle Analytics changes that. It gives you the ability to measure how much time it takes to go from an idea to production so you can more accurately predict how long it will take to ship. The first iteration of GitLab Cycle Analytics will be released on September 22, and is part of our [product vision][vision] to help you move faster from idea to production. 
+Cycle Analytics changes that. It gives you the ability to measure how much time 
+it takes to go from an idea to production so you can more accurately predict how 
+long it will take to ship. The first iteration of GitLab Cycle Analytics will be 
+released on September 22, and is part of our [product vision][vision] to help you 
+move faster from idea to production. 
 
 <div class="panel panel-info">
 **What Is Cycle Analytics?**
@@ -34,9 +38,18 @@ Cycle Analytics measures the time it takes to go from an idea to production for 
 **How Does Cycle Analytics Help Teams Work Better?**
 {: .panel-heading}
 <div class="panel-body">
-It's easy to think that we are shipping quickly as a team, but issues can get stuck at a specific stage and easily fall between the cracks. Without metrics and a high level overview of progress, we just don't know. 
+It's easy to think that we are shipping quickly as a team, but issues can get stuck 
+at a specific stage and easily fall between the cracks. Without metrics and a high-level 
+overview of progress, we just don't know. 
 
-Cycle Analytics is a way to prevent this from happening by giving you the data you need to make better decisions and work better as a team. With metrics to measure how long it takes your team to move from idea to production, you can pinpoint ares of improvement and more accurately predict your releases. 
+Cycle Analytics is a way to prevent this from happening by giving you the data you 
+need to make better decisions and work better as a team. With metrics to measure 
+how long it takes your team to move from idea to production, you can pinpoint areas 
+of improvement and more accurately predict your releases. Many teams already measure
+a portion of their workflow, such as how long they spend writing code, but Cycle Analytics
+allows you to see the entire flow from end-to-end, starting right at the idea stage. 
+
+It's not enough to focus your coding on speed; what matters is how quickly you react to market and customer needs.
 </div>
 </div>
 
