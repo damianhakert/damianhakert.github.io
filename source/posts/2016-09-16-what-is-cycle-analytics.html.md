@@ -26,7 +26,7 @@ aren't able to track cycle time, largely because there isn't an easy way to do i
 it takes to go [from an idea to production][idea-production] so you can monitor and improve overall cycle time for continuous improvement. 
 
 <div class="panel panel-info">
-**What Is Cycle Analytics?**
+###What Is Cycle Analytics?###
 {: .panel-heading}
 <div class="panel-body">
 Cycle Analytics measures the time it takes to go from an idea to production for each project you have. 
@@ -42,7 +42,7 @@ From idea to production, you should be able to monitor the entire process in one
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-**How Does Cycle Analytics Help Teams Work Better?**
+##How Does Cycle Analytics Help Teams Work Better?##
 
 It's easy to think that you are shipping quickly as a team, but issues can get stuck 
 at a specific stage. Without metrics and a high-level 
@@ -64,7 +64,7 @@ software development process, and using this perspective to deliver solutions, f
 It's not enough to focus on coding speed; what matters is how quickly you 
 react to market and customer needs.
 
-**Learn More**
+##Learn More##
 
 The first iteration of GitLab Cycle Analytics will be 
 released on September 22, and is part of our [product vision][vision] to help you 
