@@ -96,22 +96,40 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 
 ### Types of Blog Posts
 
-In our [Blog], you will find 5 types of blog posts:
+{::options parse_block_html="true" /}
 
-#### Release Posts
+In our [Blog], you will find 8 types of blog posts:
 
+<div class="panel panel-gitlab-orange">
+#### <i class="fa fa-globe" style="font-size:.85em" aria-hidden="true"></i> Release Posts
+{: .panel-heading}
+<div class="panel-body">
 Every 22nd of each month, GitLab promotes a new release of our main instances:
 [GitLab CE] and [GitLab EE]. GitLab.com runs on GitLab EE, therefore, it gets the same
 enhancement GitLab EE does. We use our blog to communicate the new features,
 upgrades, and alterations. These posts are created by the Product Team or by the
-developers themselves, and they're reviewed by a lot of team members are involved.
+developers themselves, and they're reviewed by a lot of team members involved.
 
 Release posts target the entire GitLab community, and they are usually cheered by
-the entire community. They are special posts, we love them, and we hope everyone
-love them too.
+the everyone. They are special posts, we love them, and we hope you
+love them too!
 
-#### Team Member's Posts
+Once and awhile, you'll find patch-release posts as well. They are prepared by the
+same team as the major release posts, to communicate new features, rollbacks, and
+anything else relevant for the community.
 
+When we find important security issues, we publish security release posts in the same
+way. They communicate relevant changes that reflect in the system security and
+related subjects.
+
+Examples: [release] posts, [security release] posts.
+</div>
+</div>
+
+<div class="panel panel-gitlab-purple">
+#### <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Team Member's Posts
+{: .panel-heading}
+<div class="panel-body">
 Whenever we have something interesting to talk about, we encourage our own team
 members to write their stories. And there are a lot of awesome ones! Even if you are not a
 writer, you are very welcome to write, and our reviewers will be happy to help
@@ -120,60 +138,146 @@ else you might need.
 
 If you are part of the [GitLab Team], please contribute! The review process is simple,
 please take a look at the [General Reviews] section below.
+</div>
+</div>
 
-#### Community Posts
+<div class="panel panel-success">
+#### <i class="fa fa-hashtag" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Events Posts
+{: .panel-heading}
+<div class="panel-body">
+Every 1st working day of the month we publish a post communicating the events for that following
+month. They are written by our Field Marketing Manager & Swag Queen, [Emily Kyle], who always have a lot
+of fun stories to share with us. Stay tuned for the next event near you, so you can pass by our
+booth to say hello, grab your swag, and share your thoughts with Emily and other team members!
 
-Community posts are also known as **guest** posts. If you are not a GitLab Team member,
-you're also very welcome to write for us.
+Events posts are also submitted to [General Reviews].
+</div>
+</div>
 
-There are a few aspects to consider, described on the section [Community Writers] below.
+<div class="panel panel-info">
+#### <i class="fa fa-heart" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Community Posts
+{: .panel-heading}
+<div class="panel-body">
+If you are not a GitLab Team member, you're also very welcome to write for us. There are a few aspects to consider,
+described on the section [Community Writers] below.
 
 If you are a GitLab happy customer or a happy user, we'll be delighted to see your post in
-our Blog! And to make you even happier, we compensate you for your contributions, under
-specific circumstances.
+our Blog! And to make you even happier, we **compensate** you for your contributions, under
+specific circumstances. Note that this is the only type of post that offers financial compensation.
 
-If you want to describe your own product, and how to use it with GitLab, or, if you are a GitLab partner, we'll be happy to see your post too, but we have specific procedures for
-[Partner Posts].
+The community posts follow a particular [publishing process].
 
-If you are looking for examples, check the post "[Building an iOS app with GitLab CI]",
-or the post "[Publishing your website on GitLab.com with GitLab Pages]", or "[Let's Encrypt for GitLab Pages]".
+If you are looking for examples for community posts, check "[Building an iOS app with GitLab CI]",
+"[Publishing your website on GitLab.com with GitLab Pages]", and "[Let's Encrypt for GitLab Pages]".
 
-#### Partner Posts
+**Note:** if you want to describe your own product, and how to use it with GitLab, we'll be happy to publish your
+post as a GitLab Guest Writer, not as a community post. If you are a GitLab official partner,
+we'll be happy to see your post too! Please check, we have specific procedures for both [Guest Posts] and [Partner Posts].
+{: .note}
+</div>
+</div>
 
+<div class="panel panel-warning">
+#### <i class="fa fa-rocket" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Guest Posts
+{: .panel-heading}
+<div class="panel-body">
 These posts are specific for community members that want to write about their own tools,
 features, and software integrations with GitLab. They can be written by the owners,
 executives or any team members of those companies, and will be reviewed by the GitLab
-Blog Team.
+Blog Editors according to the [publishing process] for guest posts.
 
 For instance, we've had the post on [Integrating GitLab with Microsoft Azure]. It was
 written by one of Microsoft's employees, then reviewed and polished by our own Technical
-Writers.
+Writers. A similar process occurred to publish the post on [Continuous Delivery with GitLab and Convox].
+</div>
+</div>
 
-#### Ghost Posts
+<div class="panel panel-danger">
+#### <i class="fa fa-institution" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Partner Posts
+{: .panel-heading}
+<div class="panel-body">
+These posts are specific for official GitLab Partners. The drill for these posts is flexible, and 
+can be adapted case by case. We usually write the post and publish according to a
+schedule pre-defined by the GitLab Marketing Team and the partner.
 
+Examples: integration with [Koding], [Digital Ocean], [Yubico], [Mattermost], [Pivotal Cloud Foundry].
+</div>
+</div>
+
+<div class="panel panel-gitlab-orange">
+#### <i class="fa fa-refresh" style="font-size:.85em" aria-hidden="true"></i> Ghost Posts
+{: .panel-heading}
+<div class="panel-body">
 Ghost posts are part of a special category of posts, written by ghostwriters contracted by
 GitLab with this specific purpose. They are based on interviews with GitLab Executives,
-reviewed by GitLab Team members, and approved by the GitLab Executive member assigned as
+reviewed by GitLab Team members and Blog Editors, and approved by the GitLab Executive member assigned as
 author of the post.
 
 Check the section [Ghost Writers] below for more details.
+</div>
+</div>
 
-### Publishing process for GitLab Team members
+<div class="panel panel-gitlab-purple">
+#### <i class="fa fa-rss" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Crossposts
+{: .panel-heading}
+<div class="panel-body">
+These are great posts written by our community and published originally by another communication channel.
+The writer is invited to reach us via Twitter or email (`community@gitlab.com`) asking to repost his/her
+article in our blog. Your post will be evaluated by our Editors and, if accepted, will follow a [particular
+publishing process] for crossposts. 
+
+If we find your post ourselves, we'll reach you out and ask for your approval for cross-posting it. If you
+are interested and agree with the [publishing process] and the quick review, your post will get reposted.
+
+Everyone wins when we crosspost: we win, as it's interesting for our community; and you win, as your post will
+gain extra visibility across the web!
+</div>
+</div>
+
+### Publishing Processes
+
+The publishing process is simple and is conducted for our Blog Editors and reviewers. Check their roles:
+
+- Blog Editorial: Erica Lindberg ([@Lindberg]), Content Marketing Manager
+  - Blog Content Calendar manager
+  - Content strategy
+  - Content priority
+  - Content approval
+  - English review and approval
+  - Social media promotion
+- Technical Editorial: Marcia Ramos ([@marcia]), Technical Writer
+  - Technical review and approval
+  - Markdown, structure and flow review and approval
+  - Merge master
+- Technical Reviewers: any GitLab Team member with technical expertize on the post's subject
+  - Technical review and approval
+  - Test and reproduce methods and procedures
+
+#### General Publications
 
 1. Choose a [topic](#blog-content)
 1. Define the target audience, knowledge level and system requirements ([example])
 1. Create outlines (a few items describing what you want to discuss along the post)
-1. Submit an issue on the [blog posts issue tracker][blog-tracker] containing the previous items
-1. Mention @amara for feedback on your proposal and on your outlines
-1. Amara will evaluate the priority and estimate a due date for publishing
-1. Write the post according to the [Professional Writing Techniques][writing-tech]
-1. Submit your draft as a WIP MR (work in progress merge request) in the [GitLab website project][gitlabwww]
-1. You'll get reviewed and feedback from our Marketing Team:
-   - Assign Marcia (@virtuacreative) for a general review
-   - When done, Marcia will reassign to Axil (if technical), or Amara (if non-technical)
-   - Amara gives the last check and approval to merge
+1. Submit an issue on the [blog posts issue tracker][blog-tracker] containing the previous items (or pick up one of the existing issues)
+1. Mention Erica @Lindberg for feedback on your proposal and on your outlines
+  - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
+  - She will ask for an ETA on your first draft
+  - She will evaluate the priority, and estimate a due date for publishing (issue due date)
+  - She will give you a thumbs up 👍 to start writing (@mention you saying "you're good to go!")
+1. Write the post according to the [Professional Writing Techniques][writing-tech] and to the [Markdown Guide]
+1. Submit your draft as a WIP MR (Work in Progress Merge Request) to the [GitLab website project][gitlabwww]
+1. You'll get [reviewed](#general-reviews) and feedback from our Editorial Team
 1. Your post will be published
 1. Marketing Team will post on social media (Twitter/Facebook)
+
+#### General Reviews
+
+- 1st review: Marcia (when technical), Erica (when non-technical)
+- Structure, flow and markdown: Marcia
+- Technical review: Marcia, Axil, and/or one of the developers (depending on the content)
+- Last review (English, mostly): Erica
+- Last check (preview, markdown, images, date, build) and merge: Marcia or Erica
+- Tweet/retweet/promote: Erica
 
 Not a GitLab Team member? Check the process for Community Writers below.
 
@@ -681,6 +785,11 @@ specific matters are still being discussed and polished.
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
+[release]: /blog/categories/release/
+[security release]: /blog/categories/security-release/
+[Emily Kyle]: https://twitter.com/emilylucie
+[@Lindberg]: https://gitlab.com/u/Lindberg
+[@marcia]: https://gitlab.com/u/marcia
 
 <!-- Styles -->
 
@@ -702,4 +811,20 @@ specific matters are still being discussed and polished.
    .ambar {
     color: rgb(138,109,59) !important;
  }
+.panel-gitlab-orange {
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-orange > .panel-heading {
+  color: rgb(226,67,41);
+  background-color: rgba(252,163,38,.3);
+  border-color: rgba(252,163,38,.3);
+}
+.panel-gitlab-purple {
+  border-color: rgba(107,79,187,.3);
+}
+.panel-gitlab-purple > .panel-heading {
+  color: rgb(107,79,187);
+  background-color: rgba(107,79,187,.3);
+  border-color: rgba(107,79,187,.3);
+}
  </style>
