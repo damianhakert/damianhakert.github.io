@@ -57,9 +57,9 @@ a portion of their workflow, such as how long they spend writing code, but Cycle
 allows you to see the entire flow from end-to-end, starting right at the idea stage. 
 
 Reducing cycle time is the competitive advantage of the future. In fact, it's the 
-first principle of [Conversational Development][convdev]. Yet, few teams have cycle times of days, or hours. The benefit of reducing cycle time is that you can ship quicker, smaller changes. 
-This is not only more efficient, but helps teams be more customer-focused by being able to track the entire
-software development process, and using this perspective to deliver solutions, faster.
+first principle of [Conversational Development][convdev]. Yet, few teams have cycle times of weeks, days, or even hours. 
+The goal should be to reach [maximum efficiency][tech-beacon]. The benefit of reducing cycle time is that you can ship quicker, smaller changes. 
+This is not only more efficient, but helps teams be more customer-focused by delivering solutions, faster.
 
 It's not enough to focus on coding speed; what matters is how quickly you 
 react to market and customer needs.
