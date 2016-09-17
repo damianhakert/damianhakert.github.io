@@ -10,7 +10,7 @@ ee_cta: true
 
 {::options parse_block_html="true" /}
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording of The GitLab Master Plan. &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording of The GitLab Master Plan</a> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i>
 &nbsp;&nbsp;</p>
 
 Today we are thrilled to announce our **$20 million** Series B funding from investors [August Capital], [Khosla Ventures], and [Y Combinator]. This follows our [Series A round last September][series-a-post].
