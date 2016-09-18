@@ -58,9 +58,9 @@
   apply: https://gitlab.workable.com/jobs/269339/candidates/new
   open: true
 
-- title: "Head of Support"
-  description: /jobs/head-of-support/
-  apply: 
+- title: "Support Lead"
+  description: /jobs/support-lead/
+  apply:
   open: true
 
 - title: "Senior Accountant (part time)"

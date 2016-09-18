@@ -249,7 +249,7 @@
   twitter: ernstvannierop
   gitlab: ernstvn
   maintains:  |
-              <li>Interim <a href="https://about.gitlab.com/jobs/head-of-support/">Head of Support</a></li>
+              <li>Interim <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a></li>
   story:  |
           Ernst comes from a physics and engineering background, and was most recently the VP of Engineering at C12 Energy helping to clean up part of our energy infrastructure.
           He enjoys tackling a wide variety of challenges, including the technical, people, and organizational aspects of cool growing companies.
@@ -323,7 +323,7 @@
   locality: Kearney, NE
   country: USA
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: drew.jpg
   twitter: drewblessing
   gitlab: dblessing
@@ -404,7 +404,7 @@
   locality: San José Pinula
   country: Guatemala
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: josetorres.jpg
   twitter: random_primate
   gitlab: balameb
@@ -720,7 +720,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -893,7 +893,7 @@
   locality: Perth
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: chris.jpg
   twitter: IsChrisW
   gitlab: MrChrisW
@@ -1284,7 +1284,7 @@
   locality: Bauchi, Bauchi State
   country: Nigeria
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: abubakarango.jpg
   twitter: sarki247
   gitlab: abuango
@@ -1343,7 +1343,7 @@
   locality: Mumbai
   country: India
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: arihant.png
   twitter: arihantar
   gitlab: arihantar
@@ -1439,7 +1439,7 @@
   locality: Cape Town
   country: South Africa
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: dewet.jpg
   twitter: dewetblomerus
   gitlab: dewetblomerus
@@ -1495,7 +1495,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Head of Support
+  reports_to: Support Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
