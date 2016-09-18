@@ -3,9 +3,9 @@ layout: default
 title: Cycle Analytics
 suppress_header: true
 extra_css:
-  - "issue-boards.css"
+  - issue-boards.css
 extra_js:
-  - "issue-boards.js"
+  - issue-boards.js
 ---
 
 .page-container.issue-boards-container.text-center.animated
@@ -64,48 +64,53 @@ extra_js:
 .page-container.content-container.white-bg.animated
   .container
     %h2.page-headline.text-center
-      Getting started with your Cycle Analytics
+      Understanding GitLab Cycle Analytics
+    %h3.getting-started-subheader.text-center
+      :markdown
+        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Navigate to your Project's
+        **Pipelines** > **Cycle Analytics** to access the dashboard.
     %section#steps.steps
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards/icon-step-1", "step-icon", { label: "Navigate to the dashboard" })
+            = icon("issue-boards/icon-step-1", "step-icon", { label: "Issue" })
             %span.step-number.text-center
               [ step 01 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Navigate to the dashboard
+                Issue
               .lead.text-center.step-lead-text
                 :markdown
-                  Visit your project's Cycle Analytics dashboard
+                  Time before an issue gets scheduled
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    [MISSING 1. LONG DESCRIPTION STEP 1]
+                    It measures the time between creating an issue and taking action to solve it, by either 
+                    labeling it or adding it to a milestone.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-1-illustration.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/step-1-issue.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards/icon-step-2", "step-icon", { label: "Choose the stages" })
+            = icon("issue-boards/icon-step-2", "step-icon", { label: "Plan" })
             %span.step-number.text-center
               [ step 02 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Choose the stages
+                Plan
               .lead.text-center.step-lead-text
                 :markdown
-                  Pinpoint which stages take the most time
+                  Time before an issue starts implementation
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-2-illustration.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/step-2-plan.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    [MISSING 2: LONG DESCRIPTION STEP 2]
+                    This step measures the time between the action you took for the previous step, and pushing the first commit to the repository. To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
       .step.js-step
         .container
           .step-icon-container
@@ -115,14 +120,94 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Improve your workflow
+                Code
               .lead.text-center.step-lead-text
                 :markdown
-                  Change things to lower the time the idea deployed to production
+                  Time until first Merge Request (MR)
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    [MISSING 3: LONG DESCRIPTION STEP 3]
+                    This stage measures the time between pushing a first commit (previous step) and creating an MR related to that commit. The key to keep the process tracked is adding the tag [`closes/fixes #xxx`](#) to the description of the MR.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/step-3-code.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Improve your workflow" })
+            %span.step-number.text-center
+              [ step 04 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Test
+              .lead.text-center.step-lead-text
+                :markdown
+                  Time GitLab CI takes to run the pipeline for all commits and merges
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/step-4-test.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    This step measures the time to run the entire pipeline for that project, in every branch except `master`. It's related to the time GitLab CI takes to run every job for the commits related to that MR defined in the previous step.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Improve your workflow" })
+            %span.step-number.text-center
+              [ step 05 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Review
+              .lead.text-center.step-lead-text
+                :markdown
+                  Time between the creation of an MR and merging or closing it
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This step measures the time taken to review the MR, between its creation of until it's merged or closed.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/step-5-review.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Improve your workflow" })
+            %span.step-number.text-center
+              [ step 06 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Staging
+              .lead.text-center.step-lead-text
+                :markdown
+                  Time from merging an MR until deploy to production
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/step-6-staging.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time between merging the MR until the app is deployed to production. It's tracked by the `environment` set to `production` in your GitLab CI configuration.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Improve your workflow" })
+            %span.step-number.text-center
+              [ step 07 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Production
+              .lead.text-center.step-lead-text
+                :markdown
+                  **Total lifecycle time**: from creating an issue until deploying code to production
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This is the measure of the time taken to run entire process, from issue creation to deploying the code to production. In fact, this is the time your team takes to go from idea to production.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-3-illustration.png", class: "img-responsive"
