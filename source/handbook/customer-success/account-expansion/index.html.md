@@ -4,8 +4,10 @@ title: "Account Expansion Plan Template"
 ---
 
 For each account we have identifed there is significant growth opportunity, we want to create an account expansion plan to help us realize the potential for every account.
-To create an account expansion plan: 
-1. Create a new issue withing the [Customer Success Issue Tracker[(https://gitlab.com/gitlab-com/customer-success/issues).  This is a private project so customer names can be mentioned.
+The list of accounts we are targetting for expansion, can be found [here](https://na34.salesforce.com/00O61000003SenE).  To be on this list, the field large accounts, must be checked off and type must equal customer.  To determine the potential EE subscription amount, the total # of potential users needs to be added.
+To create an account expansion plan:
+
+1. Create a new issue withing the [Customer Success Issue Tracker](https://gitlab.com/gitlab-com/customer-success/issues).  This is a private project so customer names can be mentioned.
 1. Name the issue "Account Name - Expansion Plan"
 1. Copy and paste the template below into the issue you just created
 1. Modify the template based on your specific situation with any tasks you feel would be relevant.  This template is just a guide.
@@ -25,6 +27,9 @@ To create an account expansion plan:
 - [ ] How do they make money?
 - [ ] Which parts of the world do they operate in?
 - [ ] What different business units exist at the company
+- [ ] Is the large account field checked on the account object?
+- [ ] Is an outobund BDR helping you? If yes, update the oubound BDR field on the account object.
+- [ ] Meeting with outbound BDR to sync up on messaging to account and contacts (roles/functions) they will go after
 - [ ] Record their industry within the account object of Salesforce.com
 - [ ] Recorded is in their technology stack within Salesforce.com 
 - [ ] What development tools within the company are provided 'as-a-service' by Engineering IT/Infrastructure and how does GitLab get on that list?

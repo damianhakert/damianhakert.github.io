@@ -13,6 +13,7 @@ title: Support
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
+   - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [On-Call](https://about.gitlab.com/handbook/on-call)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
@@ -261,10 +262,10 @@ information about using the security PGP key pair and decrypting messages.
 
 ### Regular ZenDesk tickets <a name="regular"></a>
 
-You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
-that have come in and are unassigned, again using FIFO.
-When you need others to help please create an issue on the relevant GitLab issue tracker.
+that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
+the relevant GitLab issue tracker.
 
 ### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
@@ -318,6 +319,10 @@ While engaging with customers you should always be prepared to jump on a call wi
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
+
+If you feel too inexperienced to handle a call, ask someone more experienced to handle the call and
+listen in if at all possible. After someone else had the call with the customer it is still your responsibility
+to handle the ticket as long as the ticket is still assigned to you.
 
 ### Internal Support<a name="internal"></a>
 

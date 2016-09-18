@@ -33,6 +33,7 @@ title: "Sales Handbook"
 * [Sales Training](https://about.gitlab.com/handbook/sales-training/)
 * [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
 * [Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+* [EE Product Qualification Questions](https://about.gitlab.com/handbook/EE-Product-Qualification-Questions/)
 * [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)

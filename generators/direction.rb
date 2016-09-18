@@ -46,6 +46,14 @@ class GitLabProject
      @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
    end
 
+   def wishlist_issues(label,not_label=nil)
+     result = @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc")
+     #result << @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc&page=2")
+     result = result.select { |issue| issue["labels"].include? label }
+     result = result.reject { |issue| issue["labels"].include? not_label } if (not_label)
+     result = result.select { |issue| issue["milestone"].nil? || issue["milestone"]["title"] == "Backlog" }
+   end
+
    def name
      project["name"]
    end
@@ -93,4 +101,39 @@ def generate_direction
   print "\n"
 
   direction_output
+end
+
+def edition
+  @edition ||= begin
+    com = GitLabInstance.new('https://gitlab.com', PRIVATE_TOKEN, 'GitLab.com')
+    ce = GitLabProject.new('gitlab-org%2Fgitlab-ce',com)
+    ee = GitLabProject.new('gitlab-org%2Fgitlab-ee',com)
+    [ce,ee]
+  end
+end
+
+def label_list(label,not_label=nil)
+  output = ''
+  edition.each do |project|
+    issues = project.wishlist_issues(label, not_label)
+    issues.each do |issue|
+      output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["iid"]})\n"
+      $stdout.flush
+    end
+  end
+  output = "No current issues\n" if (output.empty?)
+  output
+end
+
+def generate_wishlist
+  print "Generating wishlist..."
+  wishlist_output = {}
+
+  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product"].each do |label|
+    wishlist_output[label] = label_list(label)
+  end
+  wishlist_output["CI"] = label_list("CI","pages")
+  print "\n"
+
+  wishlist_output
 end

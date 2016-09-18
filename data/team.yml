@@ -278,7 +278,7 @@
   reports_to: CEO
   picture: ashley.jpg
   twitter: ashl3ysm1th
-  gitlab: ashleys
+  gitlab: ashley
   story:  |
           Based in Brooklyn, Ashley's background in engineering has allowed her to excel in marketing developer products.
           She got her start at Twilio and then lead marketing at Parse, which was then acquired by Facebook. After an awesome but short
@@ -308,6 +308,7 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
@@ -626,7 +627,7 @@
   locality: Zamora
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
-  reports_to: CEO
+  reports_to: VP of Engineering
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
@@ -969,7 +970,10 @@
   reports_to: CMO
   picture: marcia.jpg
   twitter: XMDRamos
-  gitlab: virtuacreative
+  gitlab: marcia
+  maintains:  |
+              <li>Markdown Kramdown <a href="/jobs/expert/">expert</a></li>
+              <li>Technical Editor of the <a href="/blog/">GitLab Blog</a></li>
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -1045,6 +1049,7 @@
   twitter: northrup
   gitlab: northrup
   maintains:  |
+              <li>On-call hero!</li>
               <li>CephFS <a href="/jobs/expert/">expert</a></li>
   story:  |
           John's interest in systems engineering surpassed 'normal' when he amassed a small data center in his house to explore theoretical design scenarios. Passionate about open source and taking his role as a 'unix beard' seriously, John loves to spread the gospel of technology to anyone who will listen. Wearing his Chef hat, and harnessing the magic of ChatOps, he is determined to make things fit into their containers.
@@ -1057,6 +1062,8 @@
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Marat is interested in computers since school. He learned how to program from books without any help,
           wrote his first programs on paper and typed them in school labs during breaks. This was the reason why
@@ -1072,6 +1079,7 @@
   twitter: eReGeBe
   gitlab: eReGeBe
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
@@ -1193,6 +1201,8 @@
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
+  maintains: |
+              <li>On-call hero!</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1218,16 +1228,15 @@
           or cuddling up at home with a movie and her cat.
 
 - name: Melissa Yue
-  locality:
-  country:
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
   reports_to: Controller
   picture: melissa_yue.jpg
-  twitter:
-  gitlab: melissa
+  twitter: Melissa52201593
+  gitlab: melissa3
   story:  |
-          I live in SF Bay Area. Prior to joining GitLab, I worked as senior accountant for international public corporation. In my free time, I enjoy swimming, reading, watching movies. 
-          Joining July 5th
+          Prior to joining GitLab, Melissa worked as senior accountant for an international public corporation. In her free time she enjoys swimming, reading, watching movies.
 
 - name: Julie Manalo
   locality: Sydney
@@ -1261,6 +1270,7 @@
   twitter: ahmadsherif
   gitlab: ahmadsherif
   maintains: |
+             <li>On-call hero!</li>
              <li>Performance specialist</li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
@@ -1355,7 +1365,7 @@
   locality: Breda
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: UX Designer
+  reports_to: Frontend Lead
   picture: dimitrie.jpg
   twitter: dimitrieh
   gitlab: dimitrieh
@@ -1467,16 +1477,19 @@
   story:  |
           Dan is passionate about people, using technology to solve problems, and enjoys finding new ways to help teams work better together. Before joining GitLab, he was involved with web development, and starting businesses. He's excited to contribute on the business development team, and when not at work, he enjoys being outdoors, playing sports, and traveling.
 
-- name: A.M.
-  locality:
-  country:
+- name: Abby Matthews
+  locality: London
+  country: UK
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: abby.png
+  twitter: almhrs
+  gitlab: amatthews
   story:  |
-          Joining September 1st
+          Abby has been involved in all things people and HR since 2002 and switched to focus on supporting technology companies in 2004. It was there she discovered the world of Software Development, Open Source and of course Software Developers!
+          Prior to joining Gitlab Abby has worked remotely as a HR Generalist and consultant supporting startups and is very excited to be part of the remote working world.
+          Abby is based in the UK and in her free time enjoys cooking, eating and writing her own blog (when she has time/remembers!)
+          
 
 - name: A.H.
   locality:

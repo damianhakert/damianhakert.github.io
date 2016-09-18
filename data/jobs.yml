@@ -33,8 +33,13 @@
   apply: https://gitlab.workable.com/jobs/329033/candidates/new
   open: true
 
+- title: "Director of Customer Success"
+  description: /jobs/director-customer-success
+  apply: https://gitlab.workable.com/jobs/339588/candidates/new
+  open: true
+
 - title: "Director of Global Account Management"
-  description: /jobs/dir-global-account-management
+  description: /jobs/director-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
   open: true
 
@@ -51,6 +56,11 @@
 - title: "Global Recruiter"
   description: /jobs/global-recruiter/
   apply: https://gitlab.workable.com/jobs/269339/candidates/new
+  open: true
+
+- title: "Support Lead"
+  description: /jobs/support-lead/
+  apply: https://gitlab.workable.com/jobs/340051/candidates/new
   open: true
 
 - title: "Senior Accountant (part time)"
@@ -91,6 +101,11 @@
 - title: "Success Engineer (Customer Success)"
   description: /jobs/success-engineer/
   apply: https://gitlab.workable.com/jobs/242971/candidates/new
+  open: true
+
+- title: "Success Engineer (APAC and Channel)"
+  description: /jobs/Success-Engineer-APAC-and-Channel/
+  apply: https://gitlab.workable.com/jobs/338848/candidates/new
   open: true
 
 - title: "Build Engineer"

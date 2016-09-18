@@ -752,7 +752,7 @@ We use our chat internally as a communication tool. The marketing channels are a
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[ashley]: https://gitlab.com/u/AshleyS
+[ashley]: https://gitlab.com/u/ashley
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
