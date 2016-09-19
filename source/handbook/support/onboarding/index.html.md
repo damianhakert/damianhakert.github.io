@@ -54,6 +54,8 @@ WebEx is usually the best choice, since it allows you to see the customer's desk
 to control it on request. It also gives the customer the possibility to join via phone and
 us the possibility to use our computer audio connection.
 
+### Webex Global dial in numbers
+The link to the global dial in numbers is sent out with the meeting invitein case people can't dial in using VOIP [ Webex Global Dial in numbers] (https://docs.google.com/a/gitlab.com/document/d/1bpn0q-aNWH_djPG2vdMgrAnZWCeTYVpzOV6gWPCUTXI/edit?usp=sharing)
 
 ## Handling tickets
 
