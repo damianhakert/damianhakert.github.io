@@ -9,7 +9,7 @@ twitter_image: '/images/tweets/gitpitch-slideshow-presentations-for-developers-o
 ---
 
 Today I would like to introduce [GitPitch](https://gitpitch.com), a slideshow presentation service for developers on [GitLab](https://about.gitlab.com).
-GitPitch supports building, sharing and presenting online and offline slideshow presentations. Presentations powered entirely by Markdown and Git.
+GitPitch supports building, sharing, and presenting online and offline slideshow presentations. Presentations powered entirely by Markdown and Git.
 
 As developers and advocates, we often need to communicate with diverse audiences about our code.
 We find ourselves needing to present everything from designs and best practices, to code snippets and complete frameworks.
@@ -23,7 +23,7 @@ And with these tools we can quickly create compelling, responsive, online and of
 
 ## How GitPitch Works
 
-As GitLab users we are already familiar with the convention of adding a **README.md** to our projects.
+As GitLab users, we are already familiar with the convention of adding a **README.md** to our projects.
 GitPitch introduces a new convention for GitLab users, called **PITCHME.md**.
 
 As soon as we add a **PITCHME.md** markdown file to the root directory of our GitLab.com project, GitPitch instantly creates an online slideshow presentation based on the content in that file.
@@ -40,9 +40,9 @@ Note, the `/branch` can be omitted from the slideshow URL if we are referencing 
 
 To experience just how simple it is to create a GitPitch slideshow presentation follow along with this short tutorial.
 
-### Step 1. Create **PITCHME.md**
+### Step 1: Create **PITCHME.md**
 
-Using the [GitLab web editor](https://gitlab.com/help/user/project/repository/web_editor.md) or your preferred code editor create a file called **PITCHME.md** in the root directory of your repo, then add and save the following Markdown content:
+Using the [GitLab web editor](https://gitlab.com/help/user/project/repository/web_editor.md), or your preferred code editor, create a file called **PITCHME.md** in the root directory of your repo, then add and save the following Markdown content:
 
 ```
 # Flux 
@@ -62,10 +62,10 @@ An application architecture for React
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
 ```
 
-Before moving on to the next step it's worthwhile noting the following:
+Before moving on to the next step it's worthwhile to note the following:
 
 1. The **PITCHME.md** file name is case sensitive.
-1. The **PITCHME.md** file content is [standard Markdown]( https://daringfireball.net/projects/markdown/syntax)
+1. The **PITCHME.md** file content is [standard Markdown]( https://daringnfireball.net/projects/markdown/syntax).
 1. The `#HSLIDE` markdown fragment acts as a delimiter between slides.
 
 Using `#HSLIDE` is another GitPitch convention, acting as a delimiter to denote the separation between content on different slides in your presentation.
@@ -73,9 +73,9 @@ You can use [custom delimiters](https://github.com/gitpitch/gitpitch/wiki/Custom
 For this example, when GitPitch processes the Markdown content it will result in a simple presentation with just three slides.
 
 
-### Step 2. Commit **PITCHME.md**
+### Step 2: Commit **PITCHME.md**
 
-If you used the GitLab web editor in step 1. then go directly to step 3.
+If you used the GitLab web editor in step 1 then go directly to step 3.
 Otherwise, manually add this file to the root directory of your Git repo and push to GitLab:
 
 ```
@@ -84,7 +84,7 @@ git commit -m "Added my first GitPitch slideshow content."
 git push
 ```
 
-### Step 3. Done!
+### Step 3: Done!
 
 Your GitPitch slideshow presentation is now waiting for you to share or present at its public URL.
 To see a live demonstration of this slideshow presentation [click here](https://gitpitch.com/gitpitch/in-60-seconds?grs=gitlab).
@@ -109,7 +109,7 @@ See the [GitPitch Themes](https://github.com/gitpitch/gitpitch/wiki/Theme-Settin
 
 ![Slideshow-Night-Theme](/images/blogimages/gitpitch-slideshow-presentations-for-developers-on-gitlab/slideshow-night-theme.jpg){: .shadow}
 
-Building on these base themes we can further [customize the look and feel](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) of our slideshow presentations using background images, our own logo and even custom css to bend the pixels to our needs.
+Building on these base themes we can further [customize the look and feel](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) of our slideshow presentations using background images, our own logo, and even custom CSS to bend the pixels to our needs.
 
 ![Slideshow-Custom-Bg](/images/blogimages/gitpitch-slideshow-presentations-for-developers-on-gitlab/slideshow-custom-bg.jpg){: .shadow}
 
