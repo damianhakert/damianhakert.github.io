@@ -105,9 +105,9 @@ Depending on the outcome of the screening call, the hiring manager can either [r
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates.
 Before the CEO has the final call with the applicant the hiring manager will write the following info in an internal note in our ATS: 
-    * if the candidate is the final choice or if there is another (or more) applicant(s) in the running for the position, and if there are any next steps when applicable,
-    * if the CEO can extend the offer at the end of their call, or if the hiring manager will do so,
-    * in case the CEO extends the offer; what the proposed offer from the hiring manager is.
+    * who will extend the offer (CEO is fine with doing this since it is the most speedy for the applicant, but up to the hiring manager)
+    * the proposed offer (in all cases, so also when someone else than the CEO makes the offer)
+    * in case there are steps before making the final offer (more applicants in the running for the position) this should be noted <br>
 When the CEO makes the **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
 1. People Ops will draft a contract based upon the written offer that was extended.
 1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
