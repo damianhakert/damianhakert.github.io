@@ -4,9 +4,11 @@ title: "Sales Onboarding"
 ---
 
 Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://university.gitlab.com/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
-A library of past product training sessions can be found [Here](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk).  All new hires should review all content during their onboarding stages.
+
 
 ```
+A library of past product training sessions can be found [Here](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk).  All new hires should review all content during their onboarding stages.
+
 ### Stage 1
 
 **Familiarize yourself with the basics**
@@ -171,15 +173,7 @@ A library of past product training sessions can be found [Here](https://drive.go
 * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) This view should be used to make sure you are followign up on each lead in a timely manner and have a plan on how you qualify or disqualify a lead.
 * [ ] Review [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
 * [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
-
-
-**Stage 4 test**
-* [ ] Create Fake Lead in Salesforce.  Lead First Name - Test; Lead Last Name - GitLab Bootcamp.  Company: GitLab Sales Bootcamp. Lead Source: Other
-* [ ] Convert Lead into an opportunity and Account
-* [ ] Ensure Opportunity follows naming convention process
-* [ ] Add Opportunity Product to Opportunity.  Quantity 2 of 100 seat Standard, one year.
-* [ ] Change close date to be 90 days out
-* [ ] Opportunity Stage to presenting solution
+* [ ] Review [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/#leadQual) to understand what you should expect from the BDR team
 
 ```
 
