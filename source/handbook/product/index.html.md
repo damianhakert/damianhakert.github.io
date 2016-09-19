@@ -167,6 +167,33 @@ To make it concrete with an example, the CI/CD team might ask:
 
 For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
+# How to work as a PM
+
+If you follow the guidelines above, you won't be writing long, detailed
+specs for a part of the product for the next year. So how should you be
+spending your time?
+
+Invest the majority of your time in understanding the problem deeply (say 70%).
+Then spend 10% of your time writing the spec _for only the first iteration_ and
+handling comments, while the remaining 20% you work on promoting it.
+
+A problem you understand well will always have a (seemingly) simple or obvious
+solution. Reduce it to its simplest form (see above) and only ship that.
+
+Once you've shipped your solution, both you and the community will
+have a much better idea on what can be improved and what should be prioritized
+for future iterations.
+
+As a PM you're the person that has to kick-off new initiatives. You're not
+responsible for shipping something on time, but you are responsible for taking
+action and setting the direction. Be active everywhere, over-communicate and
+sell the things you think are important to the rest of the team and community.
+
+As a PM you don't own the product: ask other people for feedback and give
+team members and the community the space to suggest and create without your
+direct intervention. It's your job to make sure something is decided and
+planned, not to come up with every idea or change.
+
 # Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
