@@ -1502,16 +1502,16 @@
   story:  |
           Joining September 5th
 
-- name: P.M.
-  locality:
-  country:
+- name: Pedro Moreira da Silva
+  locality: Lisbon
+  country: Portugal
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: pedro.jpg
+  twitter: pedromscom
+  gitlab: pedroms
   story:  |
-          Joining September 15th
+          Pedro is commited to keep people happy while using GitLab. He loves to teach and help people grow. He's also passionate about transparency, culture, and remote working. Outside of work, it's all about travelling, soccer, movies and music.
 
 - name: F.L.
   locality:
