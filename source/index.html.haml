@@ -28,7 +28,7 @@ extra_js:
     .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
       - data.development_cycle.each_with_index do |item, index|
         %a.step{href: "#step-#{index+1}"}
-          = partial "images/home/icon-step-#{index + 1}.svg"
+          = icon("home/icon-step-#{index + 1}")
           .step-name-container
             .step-name
               #{item[:name]}
@@ -39,7 +39,7 @@ extra_js:
 .dev-cycle.cycle-vertical
   - data.development_cycle.each_with_index do |item, index|
     .step{id: "step-#{index+1}"}
-      = partial "images/home/icon-step-#{index + 1}.svg"
+      = icon("home/icon-step-#{index + 1}")
       .step-name
         #{item[:name]}
       .description
