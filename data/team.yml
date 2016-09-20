@@ -1535,6 +1535,28 @@
   story:  |
           Joining September 26th
 
+- name: A.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-lead/">UX Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 20th
+
+- name: J.D.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 21st
+
 - name: A.N.
   locality:
   country:
