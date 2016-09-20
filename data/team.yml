@@ -198,7 +198,7 @@
 
 - name: Richard 'Pidge' Pidgeon
   locality: Bath
-  country: England
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> EMEA
   reports_to: CRO
   picture: richard.jpg
@@ -691,7 +691,7 @@
 
 - name: Phil Hughes
   locality: Liverpool
-  country: England
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: phil-hughes.jpg
@@ -1108,7 +1108,7 @@
 
 - name: Luke 'Jared' Bennett
   locality: Plymouth
-  country: England
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Jr. Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: lukebennett.jpg
@@ -1304,7 +1304,7 @@
 
 - name: Nicholas 'Nick' Thomas
   locality: York
-  country: England
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Backend Lead
   picture: nick-thomas.png
