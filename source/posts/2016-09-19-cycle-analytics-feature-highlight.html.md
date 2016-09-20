@@ -90,7 +90,7 @@ We recognize that every team does not follow the same flow. And while GitLab is 
 
 ## Getting started
 
-On September 22nd, [Cycle Analytics](/solutions/cycle-analytics) will be available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products. All you have to do is navigate to your Project’s **Pipelines** tab and then select **Cycle Analytics** to see your project's dashboard.
+On September 22nd, [Cycle Analytics](/solutions/cycle-analytics/) will be available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products. All you have to do is navigate to your Project’s **Pipelines** tab and then select **Cycle Analytics** to see your project's dashboard.
 
 Keep in mind that if you're working in a new project and you haven't deployed anything to production then you won't see any data on your Cycle Analytics dashboard. 
 
