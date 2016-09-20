@@ -380,3 +380,14 @@
     margin-right: 150px;
   }
 }
+
+a {
+  &.purple {
+    color: $color-primary-alt;
+    
+    &:hover {
+      color: $color-secondary;
+      text-decoration: none;
+    }
+  }
+}
