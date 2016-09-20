@@ -40,9 +40,9 @@ extra_js:
         Built for managers and teams
       %p
         :markdown
-          One shared view of the team's velocity. Use data to make better decisions. 
+          One shared view of the team's velocity.
 
-          With insights into how long it takes the team to move from idea to production, you can pinpoint areas for improvement and more accurately predict your releases.
+          With insights into how long it takes the team to move from idea to production, you can pinpoint areas for improvement.
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-3", "feature-icon", { label: "No setup required" })
       %h3
@@ -92,14 +92,11 @@ extra_js:
                 Issue
               .lead.text-center.step-lead-text
                 :markdown
-                  How long do you take to start working on an issue?
+                  How long until you start working on an issue?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between creating an issue and taking action to solve it, by either 
-                    labeling it or adding it to a milestone, whatever comes first.
-
-                    The label will be tracked only if it already has an [Issue Board](/solutions/issueboard) list created for it.
+                    This stage measures the time between creating an issue and taking action to solve it, by either adding it to a milestone or moving it into a list on your [Issue Board](/solutions/issueboard), whichever comes first.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
@@ -115,7 +112,7 @@ extra_js:
                 Plan
               .lead.text-center.step-lead-text
                 :markdown
-                  How long do you take to plan your actions and push your first commit?
+                  How long does it take to plan your actions until your first commit?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -124,7 +121,7 @@ extra_js:
                   :markdown
                     This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository.
 
-                    To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
+                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/customization/issue_closing.html) `closes #xxx`, where `xxx` is the number of the issue related to this commit.
       .step.js-step
         .container
           .step-icon-container
@@ -137,13 +134,13 @@ extra_js:
                 Code
               .lead.text-center.step-lead-text
                 :markdown
-                  How long do you take to code and get it ready for review by creating a Merge Request (MR)?
+                  How long until you create a merge request (MR)?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between pushing a first commit (previous stage) and creating a [Merge Request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)).
+                    This stage measures the time between pushing a first commit (previous stage) and creating a [merge request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)).
 
-                    The key to keep the process tracked is adding the tag `closes/fixes #xxx` to the description of the MR.
+                    GitLab tracks this using the issue closing pattern `closes #xxx` in the MR description, where `xxx` is the number of the issue related to this merge request.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
@@ -159,7 +156,7 @@ extra_js:
                 Test
               .lead.text-center.step-lead-text
                 :markdown
-                  How long does your GitLab CI script take to test your code?
+                  How much time does it take GitLab CI to test your code?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -181,11 +178,11 @@ extra_js:
                 Review
               .lead.text-center.step-lead-text
                 :markdown
-                  How long does it take to review your code within a Merge Request?
+                  How much time do you spend on code review?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time taken to review the MR, between its creation of until it's merged or closed.
+                    This stage measures the time taken to review the MR, from the moment it's created until the moment it's merged.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
