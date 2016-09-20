@@ -25,13 +25,13 @@ real data on your team’s velocity. You'll see how long the total process takes
 
 <!-- more -->
 
-## Why Cycle Analytics recap
+## Why Cycle Analytics Recap
 
-Last week, we wrote a "feature preview" post about [what Cycle Analytics is and how it can help your team](/2016/09/16/feature-preview-introducing-cycle-analytics/). The TL;DR takeaway from 
-that post was: **reducing cycle time is a competitive advantage**. Cycle Analytics helps you uncover how long it actually takes to complete your process. 
-Having a shared view on the team's velocity is the first stage to improving it. 
+Last week, we wrote a "feature preview" on [what Cycle Analytics is and how it can help your team](/2016/09/16/feature-preview-introducing-cycle-analytics/). The TL;DR takeaway from 
+that post was: **reducing cycle time is a competitive advantage**. Cycle Analytics helps you uncover how long it actually takes to complete your development process. 
+A shared view of the team's velocity is the first stage to improving it. 
 
-## Measuring the modern development lifecycle 
+## Measuring the Modern Development Lifecycle 
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
@@ -66,35 +66,35 @@ Cycle Analytics tracks the [median](https://www.mathsisfun.com/definitions/media
 </div>
 </div>
 
-**Note:** This the first iteration of Cycle Analytics. As you know, we ship the first iteration of value and then we learn from your feedback and continue to improve the feature over time. We have ideas about what we will build next for Cycle Analytics but we'd love to hear your thoughts. You can follow and contribute to the discussion on [this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/20975).
+**Note:** This the first iteration of Cycle Analytics. As you know, we ship the smallest thing to provide initial value and then we learn from your feedback and continue to improve the feature over time. We have ideas about what we will build next for Cycle Analytics but we'd love to hear your thoughts. You can follow and contribute to the discussion on [this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/20975).
 {: .note}
 
-## Cycle Analytics follows GitLab Workflow 
+## Cycle Analytics Follows GitLab Flow 
 
-In the recent months, we talked a lot about [our vision](https://about.gitlab.com/direction/#vision) around being an integrated set of tools for the full software development lifecycle. Cycle Analytics is another testament to the benefits of having an integrated toolset.
-The reason we are able to measure cycle time is because GitLab has one data store with metrics on your development process. Now with Cycle Analytics we're able to surface that data.
-However, it's important to note that Cycle Analytics tracks cycle time based on the [GitLab Workflow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html). Therefore, there are some noteworthy dependencies.
+In recent months, we've talked a lot about [our vision](https://about.gitlab.com/direction/#vision) of being an integrated set of tools for the full software development lifecycle. Cycle Analytics is another testament to the benefits of having an integrated toolset.
+The reason we are able to measure cycle time is because GitLab stores all of the data around your development efforts, and the associated metrics, in one central data store. Now, we're able to surface that data through Cycle Analytics.
+However, it's important to note that Cycle Analytics tracks cycle time based on the [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html). Therefore, there are some noteworthy dependencies.
 
 <div class="panel panel-gitlab">
-**Cycle Analytics & GitLab Workflow** 
+**Cycle Analytics & GitLab Flow** 
 {: .panel-heading}
 <div class="panel-body">
 - Cycle Analytics is a measure of how long it takes the team to complete the cycle. Therefore, we only track cycle time on issues that have been **deployed to production.**
 - Cycle Analytics uses your GitLab CI configuration file to understand which [`environment` is set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction). For Cycle Analytics to track your cycle time, you'll need to [configure GitLab CI](https://docs.gitlab.com/ce/ci/quick_start/README.html).
-- The Plan stage measures the time from assigning an issue to a milestone or moving it to a list on the Issue Board to pushing the first commit. For Cycle Analytics to track this time you’ll need to add the tag `closes #xxx`, where `xxx` is the issue number related to this commit.
+- The **Plan** stage measures the time from assigning an issue to a milestone or moving it to a list on the Issue Board to pushing the first commit. For Cycle Analytics to track this time you’ll need to add the tag `closes #xxx`, where `xxx` is the issue number related to this commit.
 - The **Code** stage measures the time between pushing the first commit and creating a merge request (MR) related to that commit. For Cycle Analytics to track this, you’ll need to [add the tag `closes/fixes #xxx`](https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests) to the description of the MR. 
 </div>
 </div>
 
 We recognize that every team does not follow the same flow. And while GitLab is a flexible product, we are also building an opinionated product that’s aimed at helping you move faster from idea to production. Our CEO, Sid Sijbrandij, shared his thoughts on [GitLab Workflow best practices](/2016/07/27/the-11-rules-of-gitlab-flow/). We hope that they help simplify your workflow within GitLab. 
 
-## Getting started
+## Getting Started
 
 On September 22nd, [Cycle Analytics](/solutions/cycle-analytics/) will be available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products. All you have to do is navigate to your Project’s **Pipelines** tab and then select **Cycle Analytics** to see your project's dashboard.
 
 Keep in mind that if you're working in a new project and you haven't deployed anything to production then you won't see any data on your Cycle Analytics dashboard. 
 
-## Join our Release Webcast
+## Join Our Release Webcast
 
 Join us on September 29th for our Cycle Analytics and GitLab 8.12 Release Webcast. We'll demo some exciting new features and hold a Q&A. [Register here][webcast-registration].
 
