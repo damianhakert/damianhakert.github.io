@@ -1524,17 +1524,6 @@
   story:  |
           Joining September 19th
 
-- name: J.P.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining September 26th
-
 - name: A.W.
   locality:
   country:
@@ -1557,6 +1546,28 @@
   story:  |
           Joining September 21st
 
+- name: K.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 21st
+
+- name: J.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 26th
+
 - name: A.N.
   locality:
   country:
@@ -1566,4 +1577,38 @@
   twitter:
   gitlab:
   story:  |
-          Joining October 1st
+          Joining October 3rd
+
+- name: N.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 3rd
+
+- name: B.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/security-engineer/">Security Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 3rd
+
+- name: C.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 4th
+
