@@ -1612,3 +1612,14 @@
   story:  |
           Joining October 4th
 
+- name: R.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
