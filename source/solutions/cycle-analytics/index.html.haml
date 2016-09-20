@@ -28,7 +28,7 @@ extra_js:
       %h3
         Real data on your project
       %p
-        Estimates are often incorrect. Stop estimating. Cycle Analytics lets you know how long it takes your team to complete each step in their workflow from idea to production.
+        Estimates are often incorrect. Stop estimating. Cycle Analytics lets you know how long it takes your team to complete each stage in their workflow from idea to production.
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-2", "feature-icon", { label: "Built for managers and teams" })
       %h3
@@ -41,7 +41,7 @@ extra_js:
         No setup required
       %p
         :markdown
-          Cycle Analytics is pre-configured and ready to track your workflow. It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/) and records the median time it takes the team to complete each step.
+          Cycle Analytics is pre-configured and ready to track your workflow. It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/) and records the median time it takes the team to complete each stage.
 
 #img-explainer.page-container.content-container.text-center.img-explainer
   .container
@@ -110,7 +110,7 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This step measures the time between the action you took for the previous step, and pushing the first commit to the repository. To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
+                    This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository. To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
       .step.js-step
         .container
           .step-icon-container
@@ -127,7 +127,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between pushing a first commit (previous step) and creating an MR related to that commit. The key to keep the process tracked is adding the tag [`closes/fixes #xxx`](#) to the description of the MR.
+                    This stage measures the time between pushing a first commit (previous stage) and creating an MR related to that commit. The key to keep the process tracked is adding the tag [`closes/fixes #xxx`](#) to the description of the MR.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
@@ -150,7 +150,7 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This step measures the time to run the entire pipeline for that project, in every branch except `master`. It's related to the time GitLab CI takes to run every job for the commits related to that MR defined in the previous step.
+                    This stage measures the time to run the entire pipeline for that project, in every branch except `master`. It's related to the time GitLab CI takes to run every job for the commits related to that MR defined in the previous stage.
       .step.js-step
         .container
           .step-icon-container
@@ -167,7 +167,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This step measures the time taken to review the MR, between its creation of until it's merged or closed.
+                    This stage measures the time taken to review the MR, between its creation of until it's merged or closed.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
