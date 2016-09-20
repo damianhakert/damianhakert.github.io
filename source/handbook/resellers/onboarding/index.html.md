@@ -55,6 +55,7 @@ These are the members of your team that are most likely to interact with us. We 
    - Role (accounting, sales, technical, marketing, etc)
    - GitLab.com username (if any)
 - [ ] Partner team members added to SFDC @malessio
+- [ ] Partner account enabled in SFDC @malessio
 - [ ] Partner Demo License set up in Zuora @malessio
 - [ ] Partner announced during team call @malessio
 
@@ -114,7 +115,7 @@ Within 1 Month of Signing
  - [ ] Partner technical team trained by @balameb
 
 ### Lead Management
-- [ ] Reseller added to "Introduction to reseller check box" lead flow @joelucas
+- [ ] Reseller added to lead flow @francisaquino
 
 Within 45 Days of signing:
 ======================
