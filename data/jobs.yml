@@ -118,11 +118,6 @@
   apply:
   open: false
 
-- title: "UX Lead"
-  description: /jobs/ux-lead/
-  apply: https://gitlab.workable.com/jobs/279434/candidates/new
-  open: true
-
 - title: "UX Researcher"
   description: /jobs/ux-researcher/
   apply: https://gitlab.workable.com/jobs/304926/candidates/new
