@@ -1,8 +1,8 @@
 ---
 title: "GitLab 8.12 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -13,13 +13,17 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## Cycle Analytics
 
-> [Documentation link](link)
+## Global Code Search (EE)
 
-## feature 2
+## SSH Authentication for LFS
 
-> [Documentation link](link)
+## Merge Request Versions
+
+## Enforce Project Size Limit
+
+## Git hooks that prevent commit secrets - In review, gonna make it
 
 ## Other changes
 
