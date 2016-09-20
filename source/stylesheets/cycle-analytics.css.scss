@@ -2,7 +2,7 @@
 @import "vendor/bootstrap/bootstrap/variables";
 
 .cycle-analytics-container {
-  background-image: url("/images/cycle-analytics/header-background-photo.png");
+  background-image: url("/images/cycle-analytics/header-background-img.png");
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
@@ -169,25 +169,24 @@
   fill: $color-secondary;
 }
 
-.video-explainer {
+.img-explainer {
   background-color: $landing-community-bg;
 
   .page-headline {
     color: $color-white;
   }
 
-  iframe {
-    width: 969px;
-    height: 612px;
+  img {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 
     @media (max-width: $screen-md-max) {
-      width: 646px;
-      height: 408px;
+      max-width: 100%;
     }
 
     @media (max-width: $screen-xs-max) {
-      width: 323px;
-      height: 204px;
+      max-width: 100%;
     }
   }
 }

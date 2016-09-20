@@ -17,7 +17,7 @@ extra_js:
       Introducing GitLab Cycle Analytics
     %h4.subheader
       Real data, better decisions.
-    %a.btn.btn-lg.btn-red{ href: "/INSERT-LINK/" } View Blog Post
+    %a.btn.btn-lg.btn-red{ href: "/2016/09/20/cycle-analytics-feature-highlight/" } View Blog Post
 
 .page-container.content-container.text-center.animated
   .container
@@ -43,13 +43,13 @@ extra_js:
         :markdown
           Cycle Analytics is pre-configured and ready to track your workflow. It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/) and records the median time it takes the team to complete each step.
 
-#video-explainer.page-container.content-container.text-center.video-explainer
+#img-explainer.page-container.content-container.text-center.img-explainer
   .container
     %h2.page-headline
-      Check out the Cycle Analytics overview
+      Cycle Analytics Overview
 
-    .video-container
-      %iframe{ src: "https://www.youtube.com/embed/UWsJ8tkHAa8", frameborder: "0", allowfullscreen: true }
+    .image-container
+      = image_tag "/images/cycle-analytics/cycle-analytics-view.png", class: "img-responsive"
 
 
 .what-is.purple-section.text-center.animated
@@ -66,8 +66,9 @@ extra_js:
       Understanding GitLab Cycle Analytics
     %h3.getting-started-subheader.text-center
       :markdown
-        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Navigate to your Project's
-        **Pipelines** > **Cycle Analytics** to access the dashboard.
+        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
+
+        Navigate to your Project's **Pipelines** > **Cycle Analytics** to access the dashboard.
     %section#steps.steps
       .step.js-step
         .container
@@ -89,7 +90,7 @@ extra_js:
                     labeling it or adding it to a milestone.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-1-issue.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -106,7 +107,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-2-plan.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     This step measures the time between the action you took for the previous step, and pushing the first commit to the repository. To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
@@ -129,7 +130,7 @@ extra_js:
                     This stage measures the time between pushing a first commit (previous step) and creating an MR related to that commit. The key to keep the process tracked is adding the tag [`closes/fixes #xxx`](#) to the description of the MR.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-3-code.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -146,7 +147,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-4-test.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     This step measures the time to run the entire pipeline for that project, in every branch except `master`. It's related to the time GitLab CI takes to run every job for the commits related to that MR defined in the previous step.
@@ -169,7 +170,7 @@ extra_js:
                     This step measures the time taken to review the MR, between its creation of until it's merged or closed.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-5-review.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -186,7 +187,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/cycle-analytics/step-6-staging.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     This stage measures the time between merging the MR until the app is deployed to production. It's tracked by the `environment` set to `production` in your GitLab CI configuration.
@@ -209,7 +210,7 @@ extra_js:
                     This is the measure of the time taken to run entire process, from issue creation to deploying the code to production. In fact, this is the time your team takes to go from idea to production.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-3-illustration.png", class: "img-responsive"
+                    = image_tag "/images/cycle-analytics/stage-7-illustration.png", class: "img-responsive"
 
 = partial "includes/features/try-gitlab-ee"
 
