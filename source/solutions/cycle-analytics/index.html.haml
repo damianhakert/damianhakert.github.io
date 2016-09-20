@@ -88,8 +88,8 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    It measures the time between creating an issue and taking action to solve it, by either 
-                    labeling it or adding it to a milestone.
+                    This stage measures the time between creating an issue and taking action to solve it, by either 
+                    labeling it or adding it to a milestone, whatever comes first. The label will be tracked only if it already has an [Issue Board](/solutions/issueboard) list created for it.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
@@ -129,7 +129,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between pushing a first commit (previous stage) and creating an MR related to that commit. The key to keep the process tracked is adding the tag [`closes/fixes #xxx`](#) to the description of the MR.
+                    This stage measures the time between pushing a first commit (previous stage) and creating a [Merge Request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)). The key to keep the process tracked is adding the tag `closes/fixes #xxx` to the description of the MR.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
@@ -152,7 +152,7 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time to run the entire pipeline for that project, in every branch except `master`. It's related to the time GitLab CI takes to run every job for the commits related to that MR defined in the previous stage.
+                    This stage measures the time to run the entire pipeline for that project. It's related to the time GitLab CI takes to run every job for the commits pushed to that MR defined in the previous stage.
       .step.js-step
         .container
           .step-icon-container
@@ -192,7 +192,7 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between merging the MR until the app is deployed to production. It's tracked by the `environment` set to `production` in your GitLab CI configuration.
+                    This stage measures the time between merging the MR until the app is deployed to production. It's tracked by the [`environment` set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction) in your GitLab CI configuration.
       .step.js-step
         .container
           .step-icon-container
