@@ -24,26 +24,34 @@ extra_js:
 .page-container.content-container.text-center.animated
   .container
     %h2.page-headline.orange-title
-      What is the GitLab Cycle Analytics?
+      What is GitLab Cycle Analytics?
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
       %h3
         Real data on your project
       %p
-        Estimates are often incorrect. Stop estimating. Cycle Analytics lets you know how long it takes your team to complete each stage in their workflow from idea to production.
+        :markdown
+          Estimates are often incorrect. Stop estimating.
+
+          Cycle Analytics lets you know how long it takes your team to complete each stage in their workflow from idea to production.
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-2-1", "feature-icon", { label: "Built for managers and teams", width: 106, height: 106 })
       %h3
         Built for managers and teams
       %p
-        One shared view of the team's velocity. Use data to make better decisions. With insights into how long it takes the team to move from idea to production, you can pinpoint areas for improvement and more accurately predict your releases.
+        :markdown
+          One shared view of the team's velocity. Use data to make better decisions. 
+
+          With insights into how long it takes the team to move from idea to production, you can pinpoint areas for improvement and more accurately predict your releases.
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-3", "feature-icon", { label: "No setup required" })
       %h3
         No setup required
       %p
         :markdown
-          Cycle Analytics is pre-configured and ready to track your workflow. It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/){: .purple} and records the median time it takes the team to complete each stage.
+          Cycle Analytics is pre-configured and ready to track your workflow. 
+
+          It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/){: .purple} and records the median time it takes the team to complete each stage.
 
 #img-explainer.page-container.content-container.text-center.img-explainer
   .container
@@ -89,7 +97,9 @@ extra_js:
                 .col-md-6.step-content
                   :markdown
                     This stage measures the time between creating an issue and taking action to solve it, by either 
-                    labeling it or adding it to a milestone, whatever comes first. The label will be tracked only if it already has an [Issue Board](/solutions/issueboard) list created for it.
+                    labeling it or adding it to a milestone, whatever comes first.
+
+                    The label will be tracked only if it already has an [Issue Board](/solutions/issueboard) list created for it.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
@@ -112,7 +122,9 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository. To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
+                    This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository.
+
+                    To make this change tracked, you need to add the tag `closes #xxx`, where `xxx` is the number of the issue related to this commit.
       .step.js-step
         .container
           .step-icon-container
@@ -129,7 +141,9 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between pushing a first commit (previous stage) and creating a [Merge Request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)). The key to keep the process tracked is adding the tag `closes/fixes #xxx` to the description of the MR.
+                    This stage measures the time between pushing a first commit (previous stage) and creating a [Merge Request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)).
+
+                    The key to keep the process tracked is adding the tag `closes/fixes #xxx` to the description of the MR.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
@@ -145,14 +159,16 @@ extra_js:
                 Test
               .lead.text-center.step-lead-text
                 :markdown
-                  How long does your [GitLab CI](/gitlab-ci/){: .purple} script take to test your code?
+                  How long does your GitLab CI script take to test your code?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time to run the entire pipeline for that project. It's related to the time GitLab CI takes to run every job for the commits pushed to that MR defined in the previous stage.
+                    This stage measures the time to run the entire pipeline for that project.
+
+                    It's related to the time [GitLab CI](https://docs.gitlab.com/ce/ci/quick_start/README.html) takes to run every job for the commits pushed to that MR defined in the previous stage.
       .step.js-step
         .container
           .step-icon-container
@@ -192,7 +208,9 @@ extra_js:
                     = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between merging the MR until the app is deployed to production. It's tracked by the [`environment` set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction) in your GitLab CI configuration.
+                    This stage measures the time between merging the MR until the app is deployed to production.
+
+                    It's tracked by the [`environment` set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction) in your GitLab CI configuration.
       .step.js-step
         .container
           .step-icon-container
@@ -209,7 +227,11 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This is the measure of the time taken to run entire process, from issue creation to deploying the code to production. In fact, this is the time your team takes to go [from idea to production](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab).
+                    This is the measure of the time taken to run entire process, from issue creation to deploying the code to production.
+
+                    In fact, this is the time your team takes to go [from idea to production](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab)!
+
+                    Read through the [Cycle Analytics documentation](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) to learn more.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-7-illustration.png", class: "img-responsive"
