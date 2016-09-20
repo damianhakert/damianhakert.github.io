@@ -306,14 +306,18 @@ Availability Calendar. Vacation days are first come first served.
 
 **Tickets assigned to you**
 
-You'll need to mark yourself as unavailable in ZenDesk when taking leave longer then 2 days. Marking yourself as unavailable allows other agents to respond to any tickets that receive a response while you're away.
+As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue. 
 
+When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk. 
+Do this at the end of your last work day this will ensure tickets flowcorrectly to other agents. 
+
+Marking yourself as unavailable in Zendesk: 
 
 1. Sign into [ZenDesk](https://gitlab.zendesk.com/agent).
-1. Ensure any active tickets are in the Pending or On-Hold states and not Open.
+1. Try to ensure any active tickets are in the **Pending** or **On-Hold** states and not **Open**.
 2. View the [Out Of Office](https://gitlab.zendesk.com/agent/apps/out-of-office) app.
 3. Toggle your agent status to "Unavailable".
-   + Note: Do not tick **"Unassign All Open Tickets"**.
+   + Note: Only ticket **"Unassign All Open Tickets"** if you have **Open** tickets that are still awaiting a response from the support team.
 5. Click "Set to Unavailable"
 
 ### Illness
