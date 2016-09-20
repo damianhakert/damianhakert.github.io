@@ -1524,6 +1524,17 @@
   story:  |
           Joining September 19th
 
+  name: A.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-lead/">UX Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 20th
+
 - name: J.P.
   locality:
   country:
