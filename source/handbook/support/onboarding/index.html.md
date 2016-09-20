@@ -309,7 +309,7 @@ Availability Calendar. Vacation days are first come first served.
 As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue. 
 
 When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk. 
-Do this at the end of your last work day this will ensure tickets flowcorrectly to other agents. 
+Do this at the end of your last work day this will ensure tickets flow correctly to other agents. 
 
 Marking yourself as unavailable in Zendesk: 
 
