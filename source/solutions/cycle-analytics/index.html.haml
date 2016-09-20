@@ -84,7 +84,7 @@ extra_js:
                 Issue
               .lead.text-center.step-lead-text
                 :markdown
-                  Time before an issue gets scheduled
+                  How long do you take to start working on an issue?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
@@ -105,7 +105,7 @@ extra_js:
                 Plan
               .lead.text-center.step-lead-text
                 :markdown
-                  Time before an issue starts implementation
+                  How long do you take to plan your actions and push your first commit?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -125,7 +125,7 @@ extra_js:
                 Code
               .lead.text-center.step-lead-text
                 :markdown
-                  Time until first Merge Request (MR)
+                  How long do you take to code and get it ready for review by creating a Merge Request (MR)?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
@@ -145,7 +145,7 @@ extra_js:
                 Test
               .lead.text-center.step-lead-text
                 :markdown
-                  Time GitLab CI takes to run the pipeline for all commits and merges
+                  How long does your [GitLab CI](/gitlab-ci/){: .purple} script take to test your code?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -165,7 +165,7 @@ extra_js:
                 Review
               .lead.text-center.step-lead-text
                 :markdown
-                  Time between the creation of an MR and merging or closing it
+                  How long does it take to review your code within a Merge Request?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
@@ -185,7 +185,7 @@ extra_js:
                 Staging
               .lead.text-center.step-lead-text
                 :markdown
-                  Time from merging an MR until deploy to production
+                  We're ready to go now! How long does it take between merging and deploying?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -205,11 +205,11 @@ extra_js:
                 Production
               .lead.text-center.step-lead-text
                 :markdown
-                  **Total lifecycle time**: from creating an issue until deploying code to production
+                  **Total lifecycle time**: how long does it take between creating an issue until deploying code to production?
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    This is the measure of the time taken to run entire process, from issue creation to deploying the code to production. In fact, this is the time your team takes to go from idea to production.
+                    This is the measure of the time taken to run entire process, from issue creation to deploying the code to production. In fact, this is the time your team takes to go [from idea to production](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab).
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-7-illustration.png", class: "img-responsive"
