@@ -317,7 +317,7 @@ Marking yourself as unavailable in Zendesk:
 1. Try to ensure any active tickets are in the **Pending** or **On-Hold** states and not **Open**.
 2. View the [Out Of Office](https://gitlab.zendesk.com/agent/apps/out-of-office) app.
 3. Toggle your agent status to "Unavailable".
-   + Note: Only ticket **"Unassign All Open Tickets"** if you have **Open** tickets that are still awaiting a response from the support team.
+   + Note: Only tick **"Unassign All Open Tickets"** if you have **Open** tickets that are still awaiting a response from the support team.
 5. Click "Set to Unavailable"
 
 ### Illness
