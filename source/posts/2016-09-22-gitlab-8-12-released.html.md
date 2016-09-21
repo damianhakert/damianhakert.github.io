@@ -50,7 +50,29 @@ TODO DOCS
 
 ## Merge Request Versions
 
+When you're pushing more than a single commit to a merge request,
+it can be hard to view what changed between versions and the target branch.
+With merge request versions you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
+
+TODO SCREENSHOT
+
+TODO DOCS
+
 ## Preventing Secrets in your repositories (EE)
+
+It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure.
+
+Yet, it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed to files that were meant to stay local!
+
+GitLab now has a new [push rule][push-rules] that will prevent commits with secrets from entering the repository. Just check the checkbox and GitLab will prevent common unsafe files such as `.pem` and `.key` from being committed.
+
+TODO SCREENSHOT
+
+GitLab Enterprise Edition already had a feature that allows you to block files based on a regular expression, which you can leverage to block anything that we didn't think of. We also welcome suggestions and contributions to make this push rule even better.
+
+TODO DOCS
+
+[push-rules]: TODO
 
 ## Toggle Project Tools
 
@@ -86,10 +108,27 @@ If you're a project or group owner, you can enable or disable LFS for a projects
 
 TODO DOCS
 
-
 ## Enforce Project Size Limit
 
+As an alternative to restricting LFS, you might just want to prevent projects
+from growing too large. You can now limit project size. This will take into account all repository repository data and LFS objects and stop any commits that will surpass that limit.
 
+TODO SCREENSHOT
+
+You can set a global project limit and override that on group and project level, as an admin. This way, you can give particular projects extra space if necessary.
+
+TODO DOCS
+
+## LDAP/Active Directory Improvements
+
+- CE/EE - Request only the LDAP user/group attributes that GitLab requires (CE [!6187] and EE [!712]). Reduces the amount of data across the wire between GitLab and the LDAP/Active Directory server. Also, decreases the object memory footprint within GitLab.
+- EE - Faster Active Directory nested group and ranged member (large group) retrieval ([!719])
+- EE - Add 'Sync now' option to group membership page when LDAP group links are present ([!704])
+
+[!6187]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6187
+[!712]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/712
+[!719]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/719
+[!704]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/704
 
 ## API additions
 
