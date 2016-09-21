@@ -1489,7 +1489,6 @@
           Abby has been involved in all things people and HR since 2002 and switched to focus on supporting technology companies in 2004. It was there she discovered the world of Software Development, Open Source and of course Software Developers!
           Prior to joining Gitlab Abby has worked remotely as a HR Generalist and consultant supporting startups and is very excited to be part of the remote working world.
           Abby is based in the UK and in her free time enjoys cooking, eating and writing her own blog (when she has time/remembers!)
-          
 
 - name: A.H.
   locality:
@@ -1513,16 +1512,16 @@
   story:  |
           Pedro is commited to keep people happy while using GitLab. He loves to teach and help people grow. He's also passionate about transparency, culture, and remote working. Outside of work, it's all about travelling, soccer, movies and music.
 
-- name: F.L.
-  locality:
-  country:
+- name: Filipa Lacerda
+  locality: Porto
+  country: Portugal
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: filipa.png
+  twitter: FilipaLacerda
+  gitlab: filipa
   story:  |
-          Joining September 19th
+          Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
 
 - name: A.W.
   locality:
