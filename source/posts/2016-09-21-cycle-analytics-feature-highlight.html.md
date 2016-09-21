@@ -6,6 +6,7 @@ categories: GitLab
 image_title: '/images/blogimages/cycle-analytics-feature-highlight-cover.png'
 twitter_image: '/images/tweets/gitlab-cycle-analytics.png'
 description: "See how GitLab's Cycle Analytics can help measure your team's velocity."
+date: 2016-09-21 10:00
 ---
 
 On September 22nd, we will release GitLab 8.12 with [Cycle Analytics](/solutions/cycle-analytics/). Cycle Analytics tells you how long
