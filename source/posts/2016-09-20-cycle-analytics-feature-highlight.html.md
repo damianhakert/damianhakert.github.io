@@ -53,16 +53,16 @@ Cycle Analytics tracks the [median](https://www.mathsisfun.com/definitions/media
   - Median time from the first commit to creating the merge request
 
 \- **Test** (CI)
-  - Total test time for all commits/merges
+  - Median of the time CI takes to run every build for the related merge request
 
 \- **Review** (Merge Request)
-  - Median time from creating the merge request creation to merging it 
+  - Median time from creating the merge request to merging it
 
 \- **Staging** (Continuous Deployment)
-  - Median time from MR merge until deploy to production 
+  - Median time from MR merge until deploy to production
 
 \- **Production** (Total)
-  - Sum of the above excluding Test (CI) time
+  - The time it takes between creating an issue and deploying the code to production
 </div>
 </div>
 
