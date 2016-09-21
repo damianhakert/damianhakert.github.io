@@ -10,7 +10,7 @@ Today we are releasing versions 8.11.7, 8.10.10 and 8.9.10 for GitLab Community
 Edition (CE) and Enterprise Edition (EE).
 
 Version 8.11.7 contains a security fix for GitLab, plus fixes for minor
-regressions. Version 8.10.10 and 8.9.10 only contains the security fix.
+regressions. Version 8.10.10 and 8.9.10 only contain the security fix.
 
 Please read on for more details.
 
@@ -33,8 +33,8 @@ Please read on for more details.
 
 ## Information disclosure through `gon.private_token` JavaScript variable
 
-Users private token were available through the `gon.private_token` JavaScript
-variable, leading to a security risk since it *could* be stolen through
+The private user token was available through the `gon.private_token` JavaScript
+variable, leading to a potential security risk since it could be stolen through
 XSS or other attacks.
 See [the issue][#18302] for more information.
 
