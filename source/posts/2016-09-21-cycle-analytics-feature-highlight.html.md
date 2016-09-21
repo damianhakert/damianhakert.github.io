@@ -1,7 +1,7 @@
 ---
 title: "Feature Highlight: Cycle Analytics"
 author: Amara Nwaigwe
-author twitter: its_amaracle
+author_twitter: its_amaracle
 categories: GitLab
 image_title: '/images/blogimages/cycle-analytics-feature-highlight-cover.png'
 twitter_image: '/images/tweets/gitlab-cycle-analytics.png'
@@ -18,8 +18,7 @@ you do your best to estimate the time or level of effort that it will take to ge
 
 Unfortunately, most teams are flying blind on their estimates using past experiences and best 
 guesses to offer a semblance of how long it’ll take to complete a project. It’s no wonder
-[why estimates are often incorrect](http://www.innoarchitech.com/why-software-development-time-estimation-does-not-work-
-alternative-approaches/).
+[why estimates are often incorrect](http://www.innoarchitech.com/why-software-development-time-estimation-does-not-work-alternative-approaches/).
 
 We built Cycle Analytics to stop blind estimation and instead show you 
 real data on your team’s velocity. You'll see how long the total process takes as well as how much time you spend in each stage.
