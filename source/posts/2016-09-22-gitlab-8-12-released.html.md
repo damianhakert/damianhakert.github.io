@@ -36,7 +36,7 @@ Find Cycle Analytics under Pipelines in all your projects.
 ## Global Code Search (EE)
 
 If you're running Elasticsearch on your GitLab Enterprise Edition instance,
-you will now be able to search through _all_ code on the server.
+you will now be able to search through _all_ code on the server!
 
 TODO SCREENSHOT
 
@@ -48,19 +48,48 @@ See the upgrade barometer below for more information.
 
 TODO DOCS
 
-## Toggle tool visibility
+## Merge Request Versions
 
+## Preventing Secrets in your repositories (EE)
 
+## Toggle Project Tools
+
+Just want to use the issue tracker or only the repository in a project? From now on, you can toggle every single tool in your project.
+
+In fact, you can even selectively enable certain tools for only project members. That means you can have an issue tracker that is accessible only by team members, while the repository is fully open to everyone.
+
+TODO SCREENSHOT
+
+Or you can do the opposite and store your templates in a repository that is not accessible for other people, while they can still submit issues on the issue tracker.
+
+TODO DOCS
 
 ## SSH Authentication for LFS
 
+If you're used to using SSH for your Git pushes, it was frustrating to
+still have to enter credentials whenever using LFS.
+
+GitLab will now leverage your SSH key when using LFS, meaning that if you're
+using LFS while connecting through ssh, you no longer have to manually
+enter your credentials!
+
+File transfers of LFS still happen over HTTP.
+
+TODO DOCS
+
 ## Toggle LFS
 
-## Merge Request Versions
+Git LFS (Large File Storage), is great, but as the name implies, it can have
+significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on a group and project level.
+
+If you're a project or group owner, you can enable or disable LFS for a projects in the group. GitLab administrators can override this setting on both levels.
+
+TODO DOCS
+
 
 ## Enforce Project Size Limit
 
-## Preventing Secrets in your repositories (EE)
+
 
 ## API additions
 
