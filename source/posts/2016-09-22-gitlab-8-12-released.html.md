@@ -15,7 +15,42 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Cycle Analytics
 
+Reducing cycle time, the time it takes you to go from idea all the way to
+production, is the [first principle of conversational development][convdev].
+The shorter the cycle time, the higher the efficiency of your team.
+
+In order to make it possible to actually see what your cycle time is, we're
+introducing [Cycle Analytics][cycle-analytics] with GitLab 8.12.
+
+TODO SCREENSHOT
+
+Cycle Analytics tells you what your cycle time is and breaks it down into
+several steps, so you can quickly see where to improve and accurately predict
+when you're shipping something.
+
+Find Cycle Analytics under Pipelines in all your projects.
+
+[convdev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
+[cycle-analytics]: https://about.gitlab.com/2016/09/16/feature-preview-introducing-cycle-analytics/
+
 ## Global Code Search (EE)
+
+If you're running Elasticsearch on your GitLab Enterprise Edition instance,
+you will now be able to search through _all_ code on the server.
+
+TODO SCREENSHOT
+
+Just use the search as before and GitLab will show you matching code from each
+project you have access to.
+
+Note that this change requires that you rebuild your Elasticsearch index.
+See the upgrade barometer below for more information.
+
+TODO DOCS
+
+## Toggle tool visibility
+
+
 
 ## SSH Authentication for LFS
 
@@ -116,6 +151,8 @@ other content is transmitted. You can view the exact data that is sent in
 the admin settings. This is also where you can opt-out of the usage ping.
 
 TODO docs link
+
+> [See also the implementation in the merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/735)
 
 ### Note
 
