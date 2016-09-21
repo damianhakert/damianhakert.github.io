@@ -143,20 +143,38 @@ easier to recover your account, while still maintaining a level of security.
 
 TODO DOCS
 
+## Filter Tags by Name
+
+Want to quickly find a tag? That's much easier now with a handy little filter on top:
+
+TODO SCREENSHOT
+
 ## API additions
 
 We've expanded our API on several points with GitLab 8.12:
 
-- Allow to set request_access_enabled for groups and projects using API [!6359]
-- Add notification_settings API calls - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5632 (community contribution)
-- Add a BroadcastMessage API - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6112
+- Allow to set request_access_enabled for groups and projects using API
+- Add notification_settings API calls
+- Add a BroadcastMessage API
+- You can now fork to a specific namespace through the API
+- Allow to set enable/disable access request for groups and projects.
+- Add `web_url` field to issue, merge request, and snippet objects.  (community contribution)
+- Expose `sha` and `merge_commit_sha` in merge request API.  (community contribution)
+- Expose issue confidentiality flag.  (community contribution)
+- Added 'only_allow_merge_if_build_succeeds' project setting.  (community contribution)
+- New endpoint to lint your `.gitlab-ci.yml` file.  (community contribution)
 
 [!6359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6359
 
 ## Improved GitHub Importer
 
 Our GitHub importer keeps getting better,
-making it easier to migrate to GitLab. With GitLab 8.12, the importer will also copy release notes over to GitLab.
+making it easier to migrate to GitLab. With GitLab 8.12, the importer will also copy release notes over to GitLab and now lets you choose the namespace you want your imported projects to go towards:
+
+TODO SCREENSHOT
+
+This should make it easier to migrate if you already have existing projects
+or prefer something different than GitLab's way of importing your projects.
 
 TODO DOCS
 
@@ -173,6 +191,10 @@ Managing merge-request-heavy project should be a lot easier with this!
 If you have many similar builds, your pipeline graph becomes very long. We've made a small change to improve this: similar builds will now automatically group together.
 
 TODO SCREENSHOT
+
+## Expanded syntax highlighting
+
+By upgrading to rouge 2.0.6, we've added syntax highlighting for JSX, Prometheus and others.
 
 ## Sentry integration of Workhorse
 
