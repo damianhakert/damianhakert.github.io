@@ -1,15 +1,17 @@
 ---
-title: "GitLab 8.12 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.12 released with Cycle Analytics and Global Code Search"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're make sure GitLab does both and better than ever.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+GitLab 8.12 will give you feedback on how efficient you actually work, helps you find code across the entire instance, makes your workflow much safer with a single click and much more.
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is James Munnelly for
+Thanks James!
 
 <!--more-->
 
@@ -52,9 +54,10 @@ TODO DOCS
 
 When you're pushing more than a single commit to a merge request,
 it can be hard to view what changed between versions and the target branch.
-With merge request versions you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
 TODO SCREENSHOT
+
+With merge request versions you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
 TODO DOCS
 
@@ -102,9 +105,9 @@ TODO DOCS
 ## Toggle LFS
 
 Git LFS (Large File Storage), is great, but as the name implies, it can have
-significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on a group and project level.
+significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on instance, group and project level.
 
-If you're a project or group owner, you can enable or disable LFS for a projects in the group. GitLab administrators can override this setting on both levels.
+For instance, as a GitLab administrator, you can decide to turn off LFS for the entire instance, yet enable it for only a single group or project.
 
 TODO DOCS
 
@@ -121,6 +124,9 @@ TODO DOCS
 
 ## LDAP/Active Directory Improvements
 
+This release contains several improvements to LDAP/Active Directory support
+for GitLab CE and EE:
+
 - CE/EE - Request only the LDAP user/group attributes that GitLab requires (CE [!6187] and EE [!712]). Reduces the amount of data across the wire between GitLab and the LDAP/Active Directory server. Also, decreases the object memory footprint within GitLab.
 - EE - Faster Active Directory nested group and ranged member (large group) retrieval ([!719])
 - EE - Add 'Sync now' option to group membership page when LDAP group links are present ([!704])
@@ -130,7 +136,49 @@ TODO DOCS
 [!719]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/719
 [!704]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/704
 
+## Recover 2FA tokens through SSH
+
+You can now recover your 2FA security codes using SSH. This should make it
+easier to recover your account, while still maintaining a level of security.
+
+TODO DOCS
+
 ## API additions
+
+We've expanded our API on several points with GitLab 8.12:
+
+- Allow to set request_access_enabled for groups and projects using API [!6359]
+- Add notification_settings API calls - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5632 (community contribution)
+- Add a BroadcastMessage API - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6112
+
+[!6359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6359
+
+## Improved GitHub Importer
+
+Our GitHub importer keeps getting better,
+making it easier to migrate to GitLab. With GitLab 8.12, the importer will also copy release notes over to GitLab.
+
+TODO DOCS
+
+## Bulk update Merge Requests
+
+You can now bulk update merge requests. This means you can set the status, assignee, milestone, label or subscription to multiple merge requests at once.
+
+Managing merge-request-heavy project should be a lot easier with this!
+
+[!6226](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6226)
+
+## Build Grouping
+
+If you have many similar builds, your pipeline graph becomes very long. We've made a small change to improve this: similar builds will now automatically group together.
+
+TODO SCREENSHOT
+
+## Sentry integration of Workhorse
+
+GitLab-Workhorse can now report application errors to Sentry.
+
+> [Read more in the GitLab-Workhorse docs](https://gitlab.com/gitlab-org/gitlab-workhorse/blob/master/README.md#error-tracking)
 
 ## GitLab Mattermost 3.4
 
@@ -139,21 +187,6 @@ an [open source Slack-alternative](https://about.mattermost.com) whose newest
 release offers 700 integrations with full Markdown support via Zapier,
 simplified bot and 3rd party authentication via OAuth2, and community
 integrations with Gitter, Heroku, Pivotal Tracker, Chef, Ansible and Yunohost.
-
-TODO other changes
-
-- Add internal API to recovery 2FA - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5510
-- Add notification_settings API calls - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5632 (community contribution)
-- Fix "Remember Me" for users of U2F - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5918
-- Import GitHub release notes - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5981 (community contribution)
-- Added project specific enable/disable setting for LFS - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5997
-- Create bitmaps during 'git gc' - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6104
-- Add a BroadcastMessage API - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6112
-- Allow compare merge request versions - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6127
-- Added cron to prune events older than 12 months. - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6200 (community contribution)
-- Update snippets UI - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6210
-- Add bulk update support for merge requests list - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6226
-- Group similar builds - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6242
 
 ## Performance Improvements
 
@@ -221,6 +254,19 @@ the admin settings. This is also where you can opt-out of the usage ping.
 TODO docs link
 
 > [See also the implementation in the merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/735)
+
+### GitLab-Workhorse Secret Key
+
+GitLab-Workhorse now uses a secret key to sign certain messages sent
+to GitLab-the-Rails-application. For now this is mostly a
+configuration sanity check; in future releases we want to add features
+to GitLab-Workhorse that require this secret key to establish trust.
+
+If you use our Omnibus packages, or if you installed GitLab from
+source with our official init.d script, then this secret key will be
+generated and picked up automatically for you. If you use a custom
+init.d script or if you use packages not created by GitLab Inc. then
+you may have to set the `-secretPath` option on GitLab-Workhorse.
 
 ### Note
 
