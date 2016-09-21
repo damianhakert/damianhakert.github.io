@@ -4,7 +4,7 @@ This page is mainly as a guideline for the Executive Assistant(EA) to our Chief 
 ## Basic tips & tricks
 * [everytimezone.com](http://www.everytimezone.com) can help determine the best time to schedule
 * You can add other [calendars](calendar.google.com) on the left, to see when GitLab team members are free to schedule a meeting with
-* The [Agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
+* The [agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 
 ### Pick your brain meetings
