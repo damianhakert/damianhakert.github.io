@@ -23,8 +23,8 @@ If people want advice on open source, remote work, or other things related to Gi
 The EA should follow up to chase the draft post.
 
 ### Email
-* Labels :archive, respond or urgent/important
-* Prep draft responses
+* Labels: /archive, /respond or /urgent-important
+* Prepare draft responses
 * Standard reply for recruiters:
 “We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)” 
 
@@ -53,7 +53,7 @@ For meetings or lunch/dinner appointments, always make sure to add the address i
 * Hiring managers will tag EA to schedule a call for the applicant with Sid
 * Template email with wording to schedule “Kirsten schedule Sid”
 * Add date/time and make sure to include timezones
-* Add responses of form to our ATS; Workable
+* Add responses of [form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to our ATS; [Workable](https://gitlab.workable.com/backend)
 
 ### Travel
 EA does research for the best option for a flight and propose this to Sid before booking.
