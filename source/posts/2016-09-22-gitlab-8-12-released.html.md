@@ -6,9 +6,9 @@ author_twitter: Jobvo
 image_title: /images/8_12/header.jpg
 ---
 
-Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're making sure GitLab does both and better than ever.
+Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're making sure GitLab does both better than ever.
 
-GitLab 8.12 gives you feedback on how efficiently you actually work, helps you find code across the entire instance, makes your workflow much safer with a single click and much more.
+GitLab 8.12 gives you feedback on how efficiently you actually work, helps you find code across the entire instance, makes your workflow much safer with a single click, and much more.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 James Munnelly for contributing the
@@ -68,9 +68,9 @@ TODO DOCS
 
 ## Preventing Secrets in your repositories (EE)
 
-It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure.
+It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure for the information to be compromised.
 
-Yet, it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed to files that were meant to stay local!
+Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed files that were meant to stay local!
 
 GitLab now has a new [push rule][push-rules] that will prevent commits with secrets from entering the repository. Just check the checkbox and GitLab will prevent common unsafe files such as `.pem` and `.key` from being committed.
 
@@ -96,11 +96,11 @@ TODO DOCS
 
 ## Review Apps (Experimental)
 
-We've made several addition to CI that together make some magic.
+We've made several additions to CI that, when combined, make some magic.
 
-You can now use predefined CI variables as a name for environments. In addition, you can specify an URL for the environment configuration in your `.gitlab-ci.yml`. Together, these features bring the first iteration of Review Apps.
+You can now use predefined CI variables as a name for environments. In addition, you can specify a URL for the environment configuration in your `.gitlab-ci.yml` file. Together, these features bring the first iteration of Review Apps.
 
-Review apps are automatically-created environments that run your code for each branch. That means merge requests can be reviewed in a live running environment. Inspired by [Heroku's Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) which itself was inspired by [Fourchette](https://github.com/rainforestapp/fourchette).
+Review apps are automatically-created environments that run your code for each branch. That means merge requests can be reviewed in a live-running environment. This was inspired by [Heroku's Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) which itself was inspired by [Fourchette](https://github.com/rainforestapp/fourchette).
 
 These are small changes, but will make a huge impact on your development flow.
 Reviewing anything from performance to interface changes becomes much easier
@@ -124,7 +124,7 @@ TODO DOCS
 ## Toggle LFS
 
 Git LFS (Large File Storage) is great, but as the name implies, it can have
-significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on instance, group and project level.
+significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on instance, group, and project levels.
 
 For instance, as a GitLab administrator, you can decide to turn off LFS for the entire instance, yet enable it for only a single group or project.
 
@@ -146,7 +146,7 @@ TODO DOCS
 This release contains several improvements to LDAP/Active Directory support
 for GitLab CE and EE:
 
-- CE/EE - Request only the LDAP user/group attributes that GitLab requires (CE [!6187] and EE [!712]). Reduces the amount of data across the wire between GitLab and the LDAP/Active Directory server. Also, decreases the object memory footprint within GitLab.
+- CE/EE - Request only the LDAP user/group attributes that GitLab requires (CE [!6187] and EE [!712]), reducing the amount of data across the wire between GitLab and the LDAP/Active Directory server. This also decreases the object memory footprint within GitLab.
 - EE - Faster Active Directory nested group and ranged member (large group) retrieval ([!719])
 - EE - Add 'Sync now' option to group membership page when LDAP group links are present ([!704])
 
@@ -191,7 +191,7 @@ We've expanded our API on several points with GitLab 8.12:
 Our GitHub importer keeps getting better, making it easier to migrate to
 GitLab. With GitLab 8.12, the importer will also copy release notes over to
 GitLab and now lets you choose the namespace you want your imported projects
-to go towards:
+to go into.
 
 ![Improved GitHub importer in GitLab 8.12](/images/8_12/gh_namespace.png)
 
@@ -204,7 +204,7 @@ TODO DOCS
 
 You can now bulk update merge requests. This means you can set the status, assignee, milestone, label or subscription to multiple merge requests at once.
 
-Managing merge-request-heavy project should be a lot easier with this!
+Managing merge-request-heavy projects should be a lot easier with this!
 
 [!6226](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6226)
 
@@ -216,7 +216,7 @@ If you have many similar builds, your pipeline graph becomes very long. We've ma
 
 ## Expanded syntax highlighting
 
-By upgrading to [rouge](https://github.com/jneen/rouge) 2.0.6, we've added syntax highlighting for JSX, Prometheus, mxml, 1c, turtle/trig, vhdl and an update for Swift 3.
+By upgrading to [rouge](https://github.com/jneen/rouge) 2.0.6, we've added syntax highlighting for JSX, Prometheus, mxml, 1c, turtle/trig, vhdl, and improved highlighting for Swift 3.
 
 ## Sentry integration of Workhorse
 
@@ -228,14 +228,14 @@ GitLab-Workhorse can now report application errors to Sentry.
 
 We are also releasing GitLab Runner 1.6 today. Some highlights:
 
-- **Kubernetes executor [!30](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) and [!277](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/277)**
-- Autocompletion of _/ci_ in GitLab URL while registering the Runner [!289](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/289)
-- Configuration options for specifying scripts executed before clone/fetch is done and before build script is executed [!106](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/106)
-- Improvements in passing CA certificates to builds [!299](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/299)
-- Improvement in disabling recursive submodules fetching/cloning [!314](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/314)
-- Improve docker machine logging [!234](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/234)
-- Add possibility to specify a list of volumes to inherit from another container [!236](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/236)
-- Generate a `BuildError` instead of `SystemError` when Docker/Kubernetes image is missing [!295](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/295)
+- Kubernetes executor ([!30](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) and [!277](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/277))
+- Autocompletion of _/ci_ in GitLab URL while registering the Runner ([!289](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/289))
+- Configuration options for specifying scripts executed before clone/fetch is done and before build script is executed ([!106](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/106))
+- Improvements in passing CA certificates to builds ([!299](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/299))
+- Improvement in disabling recursive submodules fetching/cloning ([!314](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/314))
+- Improve docker machine logging ([!234](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/234))
+- Add possibility to specify a list of volumes to inherit from another container ([!236](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/236))
+- Generate a `BuildError` instead of `SystemError` when Docker/Kubernetes image is missing ([!295](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/295))
 
 To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/CHANGELOG.md).
 
@@ -378,11 +378,11 @@ now.
 ### Expanded usage data ping (EE)
 
 In order to better understand the usage of GitLab by our customers,
-GitLab 8.12 EE now sends additional data along its usage ping.
+GitLab 8.12 EE now sends additional data along with its usage ping.
 
 No information about the nature of the data, such as project names, comments or
 other content is transmitted. You can view the exact data that is sent in
-the admin settings. This is also where you can opt-out of the usage ping.
+the admin settings, where this feature can also be disabled entirely.
 
 TODO docs link
 
@@ -391,7 +391,7 @@ TODO docs link
 ### GitLab-Workhorse Secret Key
 
 GitLab-Workhorse now uses a secret key to sign certain messages sent
-to GitLab-the-Rails-application. For now this is mostly a
+to the GitLab Rails application. For now this is mostly a
 configuration sanity check; in future releases we want to add features
 to GitLab-Workhorse that require this secret key to establish trust.
 
