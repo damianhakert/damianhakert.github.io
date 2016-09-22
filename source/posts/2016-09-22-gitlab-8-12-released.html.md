@@ -96,6 +96,8 @@ with a live environment.
 
 Right now, Review Apps are labelled experimental, as the environments are not automatically destroyed when no longer necessary.
 
+We're [working on a blog post](https://gitlab.com/gitlab-com/blog-posts/issues/275) that will have an example.
+
 ## SSH Authentication for LFS
 
 If you're used to using SSH for your Git pushes, it was frustrating to
@@ -214,7 +216,7 @@ GitLab-Workhorse can now report application errors to Sentry.
 
 We are also releasing GitLab Runner 1.6 today. Some highlights:
 
-- Kubernetes executor ([!30](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) and [!277](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/277))
+- Kubernetes executor ([!30](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) and [!277](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/277)), this allows Kubernetes to automatically scale the number of CI runners. All your builds will be processed immediately without having idle machines running when it's not busy.
 - Autocompletion of _/ci_ in GitLab URL while registering the Runner ([!289](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/289))
 - Configuration options for specifying scripts executed before clone/fetch is done and before build script is executed ([!106](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/106))
 - Improvements in passing CA certificates to builds ([!299](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/299))
