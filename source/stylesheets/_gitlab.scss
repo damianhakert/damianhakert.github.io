@@ -1,6 +1,7 @@
+// scss-lint:disable ImportantRule
 @mixin gitlab-styles($name, $background, $color) {
   .gitlab-#{$name} {
-    color: $color;
+    color: $color !important;
   }
 
   .panel-gitlab-#{$name} {
@@ -16,7 +17,7 @@
   .alert-gitlab-#{$name} {
     background-color: rgba($background, .3);
     border-color: rgba($background, .3);
-    color: $color;
+    color: $color !important;
   }
 }
 
@@ -26,7 +27,7 @@
 .alert-webcast {
   background-color: rgba($color-secondary-alt, .3);
   border-color: rgba($color-secondary-alt, .3);
-  color: $color-secondary;
+  color: $color-secondary !important;
   text-align: center;
 
   a {
@@ -46,3 +47,5 @@
     box-shadow: 0 4px 18px 0 rgba($color-dark, .1), 0 6px 20px 0 rgba($color-dark, .09);
   }
 }
+
+// scss-lint:enable ImportantRule
