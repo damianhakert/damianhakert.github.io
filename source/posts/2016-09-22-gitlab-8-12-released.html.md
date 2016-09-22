@@ -29,7 +29,7 @@ The shorter the cycle time, the higher the efficiency of your team.
 In order to make it possible to actually see what your cycle time is, we're
 introducing [Cycle Analytics][cycle-analytics] with GitLab 8.12.
 
-TODO SCREENSHOT
+![Cycle Analytics in GitLab 8.12](/images/8_12/cycle_analytics.png)
 
 Cycle Analytics tells you what your cycle time is and breaks it down into
 several steps, so you can quickly see where to improve and accurately predict
