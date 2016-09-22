@@ -60,7 +60,7 @@ TODO DOCS
 When you're pushing more than a single commit to a merge request,
 it can be hard to view what changed between versions and the target branch.
 
-TODO SCREENSHOT
+![Merge Request Versions in GitLab 8.12](/images/8_12/mr_versions.png)
 
 With merge request versions you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
@@ -80,7 +80,7 @@ GitLab Enterprise Edition already had a feature that allows you to block files b
 
 TODO DOCS
 
-[push-rules]: TODO
+[push-rules]: https://docs.gitlab.com/ee/api/projects.html
 
 ## Toggle Project Tools
 
@@ -130,12 +130,12 @@ For instance, as a GitLab administrator, you can decide to turn off LFS for the 
 
 TODO DOCS
 
-## Enforce Project Size Limit (EE)
+## Limit Project Size (EE)
 
 As an alternative to restricting LFS, you might just want to prevent projects
 from growing too large. You can now limit project size. This will take into account all repository data and LFS objects and stop any commits that will surpass that limit.
 
-TODO SCREENSHOT
+![Limit project size in GitLab EE 8.12](/images/8_12/repo_size.png)
 
 You can set a global project limit and override that on group and project level, as an admin. This way, you can give particular projects extra space if necessary.
 
@@ -194,7 +194,7 @@ GitLab. With GitLab 8.12, the importer will also copy release notes over to
 GitLab and now lets you choose the namespace you want your imported projects
 to go towards:
 
-TODO SCREENSHOT
+![Improved GitHub importer in GitLab 8.12](/images/8_12/gh_namespace.png)
 
 This should make it easier to migrate if you already have existing projects
 or prefer something different than GitLab's way of importing your projects.
