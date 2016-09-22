@@ -1,17 +1,22 @@
 ---
-title: "GitLab 8.12 released with Cycle Analytics and Global Code Search"
+title: "GitLab 8.12 Released with Cycle Analytics and Global Code Search"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_12/header.jpg
 ---
 
-Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're make sure GitLab does both and better than ever.
+Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're making sure GitLab does both and better than ever.
 
-GitLab 8.12 will give you feedback on how efficient you actually work, helps you find code across the entire instance, makes your workflow much safer with a single click and much more.
+GitLab 8.12 gives you feedback on how efficiently you actually work, helps you find code across the entire instance, makes your workflow much safer with a single click and much more.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is James Munnelly for
-Thanks James!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+James Munnelly for contributing the
+[Kubernetes executor in the GitLab CI runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30).
+This feature allows users to run CI tests in a Kubernetes cluster easily.
+James created this merge request over a year ago and showed great patience
+and persistence in the review process to see it to completion.
+Thanks, James!
 
 <!--more-->
 
@@ -103,16 +108,6 @@ with a live environment.
 
 Right now, Review Apps are labelled experimental, as the environments are not automatically destroyed when no longer necessary.
 
-**CI:**
-
-- Change pipeline duration to be jobs running time instead of simple wall time from start to end. ([!6084])
-- Show queued time when showing a pipeline. ([!6084])
-- Added ability to use predefined CI variables for environment name. ([!6323])
-- Added ability to specify URL in environment configuration in `.gitlab-ci.yml`. ([!6323])
-- Add pipeline events to Slack integration. ([!5525])
-- Add a button to download latest successful artifacts for branches and tags. ([!5142])
-- Add information about user and manual build start to runner as variables. ([!6201]) (community contribution)
-
 ## SSH Authentication for LFS
 
 If you're used to using SSH for your Git pushes, it was frustrating to
@@ -135,10 +130,10 @@ For instance, as a GitLab administrator, you can decide to turn off LFS for the 
 
 TODO DOCS
 
-## Enforce Project Size Limit
+## Enforce Project Size Limit (EE)
 
 As an alternative to restricting LFS, you might just want to prevent projects
-from growing too large. You can now limit project size. This will take into account all repository repository data and LFS objects and stop any commits that will surpass that limit.
+from growing too large. You can now limit project size. This will take into account all repository data and LFS objects and stop any commits that will surpass that limit.
 
 TODO SCREENSHOT
 
@@ -194,8 +189,10 @@ We've expanded our API on several points with GitLab 8.12:
 
 ## Improved GitHub Importer
 
-Our GitHub importer keeps getting better,
-making it easier to migrate to GitLab. With GitLab 8.12, the importer will also copy release notes over to GitLab and now lets you choose the namespace you want your imported projects to go towards:
+Our GitHub importer keeps getting better, making it easier to migrate to
+GitLab. With GitLab 8.12, the importer will also copy release notes over to
+GitLab and now lets you choose the namespace you want your imported projects
+to go towards:
 
 TODO SCREENSHOT
 
@@ -220,7 +217,7 @@ TODO SCREENSHOT
 
 ## Expanded syntax highlighting
 
-By upgrading to rouge 2.0.6, we've added syntax highlighting for JSX, Prometheus and others.
+By upgrading to [rouge](https://github.com/jneen/rouge) 2.0.6, we've added syntax highlighting for JSX, Prometheus, mxml, 1c, turtle/trig, vhdl and an update for Swift 3.
 
 ## Sentry integration of Workhorse
 
@@ -283,14 +280,14 @@ Then rebuild new indexes as described in [Elasticsearch integration](http://docs
 
 ### Ruby Update
 
-Last release we mentioned we'd be dropping Ruby 2.1.x support in GitLab 8.13,
-we no longer plan to stop supporting Ruby 2.1.x in the near future.
+In our last release blog post we mentioned we'd be dropping Ruby 2.1.x support in GitLab 8.13, we no longer plan to stop supporting Ruby 2.1.x in
+the near future.
 
-We still recommend you to upgrade to Ruby 2.3 if you're running a source
+We still recommend you upgrade to Ruby 2.3 if you're running a source
 installation, as this is the same version that ships with our Omnibus package
 now.
 
-### Expanded usage data ping
+### Expanded usage data ping (EE)
 
 In order to better understand the usage of GitLab by our customers,
 GitLab 8.12 EE now sends additional data along its usage ping.
