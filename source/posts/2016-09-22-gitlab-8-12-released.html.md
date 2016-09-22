@@ -3,8 +3,9 @@ title: "GitLab 8.12 Released with Cycle Analytics and Global Code Search"
 categories: release
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/8_12/header.jpg
+image_title: "/images/8_12/header.jpg"
 description: "GitLab 8.12 with Cycle Analytics, Global Code Search, Merge Request Versions, Review Apps, Push rules to prevent secrets and much, much more!"
+twitter_image: '/images/tweets/gitlab-8-12-released.png'
 ---
 
 Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're making sure GitLab does both better than ever.
@@ -39,7 +40,7 @@ when you're shipping something.
 Find Cycle Analytics under Pipelines in all your projects.
 
 [convdev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
-[cycle-analytics]: https://about.gitlab.com/2016/09/16/feature-preview-introducing-cycle-analytics/
+[cycle-analytics]: /2016/09/21/cycle-analytics-feature-highlight/
 
 > Read more in the [documentation for Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html)
 
@@ -213,7 +214,7 @@ Managing merge-request-heavy project should be a lot easier with this!
 
 If you have many similar builds, your pipeline graph becomes very long. We've made a small change to improve this: similar builds will now automatically group together.
 
-![Build grouping in GitLab 8.12](/images/8_12/build_grouping.png)
+![Build grouping in GitLab 8.12](/images/8_12/build_grouping.png){: .shadow}
 
 ## Expanded syntax highlighting
 
@@ -412,7 +413,7 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
-- - -
+----
 
 ## Installation
 
@@ -433,4 +434,4 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
-- - -
+----

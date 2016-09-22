@@ -44,7 +44,7 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
-- - -
+----
 
 ## Installation
 
@@ -65,4 +65,4 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
-- - -
+----
