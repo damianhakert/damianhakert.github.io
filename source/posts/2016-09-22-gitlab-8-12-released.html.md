@@ -268,6 +268,64 @@ integrations with Gitter, Heroku, Pivotal Tracker, Chef, Ansible and Yunohost.
 * The payload size for the contributions calendar has been reduced:
   [merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5784)
 
+## Build permissions changes
+
+GitLab 8.12 brings very important changes to build permissions.
+
+We decided that builds permission should be tightly integrated with the permission of a user who is triggering a build.
+
+We decided to do this because:
+
+- We already have permission system in place: group and project membership of users,
+- We already fully know who is triggering a build (using git push, using web, executing triggers),
+- We already know what user is allowed to do,
+- We use the user permission for builds that are triggered by pusher,
+- It is simple and convenient, that your build can access to everything that you have access to,
+- We can issue a short living unique tokens, granting access for time of the build,
+- It fits very well into our philosophy of having everything integrated,
+- This opens us a lot of possibilities to further enforce user permissions, like:
+  allowing only specific users to access runners, secure variables and environments.
+
+Now, any build that was triggered by the user, it's also signed with his permissions. When a user does `git push` or changes files through web (**the pusher**), we will create a new Pipeline.
+The Pipeline will be owner by the pusher.
+So build created in this pipeline will have the permissions of **the pusher**.
+
+This allows us to make it really easy to evaluate access for all dependent projects,
+container images that the pusher would have access too.
+The permission is granted only for time that build is running.
+The access is revoked after the build is finished.
+
+For detailed information about the build permissions
+and what changes it brings please check [our documentation](TBD).
+
+You can find all discussion and all our concerns when choosing the current approach:
+https://gitlab.com/gitlab-org/gitlab-ce/issues/18994
+
+## Submodules in CI
+
+Submodules were one of the reasons why we redesigned the build permissions. Right now using Submodules in your CI builds is really easy.
+
+To use submodules you have to use the `.gitmodules` file. This file usually looks like this:
+
+        [submodule "tools"]
+            path = tools
+            url = git@gitlab.com/group/tools.git
+
+To use the new build permissions for your submodules you have to convert your URLs to be relative:
+
+        [submodule "tools"]
+            path = tools
+            url = ../../group/tools.git
+
+This will instruct Git to use the same credentials as it would use for checking out your project sources.
+
+The one last thing is to make GitLab CI to fetch submodules:
+
+        before_script:
+          - git submodule update --init --recursive
+
+You can read more about support for submodules in our [documentation](TBD).
+
 
 ## Other changes
 
