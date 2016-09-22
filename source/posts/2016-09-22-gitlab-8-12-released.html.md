@@ -177,7 +177,7 @@ GitLab. With GitLab 8.12, the importer will also copy release notes over to
 GitLab and now lets you choose the namespace you want your imported projects
 to go into.
 
-![Improved GitHub importer in GitLab 8.12](/images/8_12/gh_namespace.png)
+![Improved GitHub importer in GitLab 8.12](/images/8_12/gh_namespace.png){: .shadow}
 
 This should make it easier to migrate if you already have existing projects
 or prefer something different than GitLab's way of importing your projects.
