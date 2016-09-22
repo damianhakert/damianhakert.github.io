@@ -213,7 +213,7 @@ Managing merge-request-heavy project should be a lot easier with this!
 
 If you have many similar builds, your pipeline graph becomes very long. We've made a small change to improve this: similar builds will now automatically group together.
 
-TODO SCREENSHOT
+![Build grouping in GitLab 8.12](/images/8_12/build_grouping.png)
 
 ## Expanded syntax highlighting
 
