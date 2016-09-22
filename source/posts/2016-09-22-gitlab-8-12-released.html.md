@@ -76,7 +76,7 @@ Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` a
 
 GitLab now has a new push rule that will prevent commits with secrets from entering the repository. Just check the checkbox and GitLab will prevent common unsafe files such as `.pem` and `.key` from being committed.
 
-TODO SCREENSHOT
+![Prevent secrets in your repo in GitLab EE 8.12](/images/8_12/secrets.png)
 
 GitLab Enterprise Edition already had a feature that allows you to block files based on a regular expression, which you can leverage to block anything that we didn't think of. We also welcome suggestions and contributions to make this push rule even better.
 
@@ -88,11 +88,7 @@ Just want to use the issue tracker or only the repository in a project? From now
 
 In fact, you can even selectively enable certain tools for only project members. That means you can have an issue tracker that is accessible only by team members, while the repository is fully open to everyone.
 
-TODO SCREENSHOT
-
 Or you can do the opposite and store your templates in a repository that is not accessible for other people, while they can still submit issues on the issue tracker.
-
-TODO DOCS
 
 ## Review Apps (Experimental)
 
@@ -119,16 +115,12 @@ enter your credentials!
 
 File transfers of LFS still happen over HTTP.
 
-TODO DOCS
-
 ## Toggle LFS
 
 Git LFS (Large File Storage) is great, but as the name implies, it can have
 significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on instance, group, and project levels.
 
 For instance, as a GitLab administrator, you can decide to turn off LFS for the entire instance, yet enable it for only a single group or project.
-
-TODO DOCS
 
 ## Limit Project Size (EE)
 
@@ -166,7 +158,7 @@ easier to recover your account, while still maintaining a level of security.
 
 Want to quickly find a tag? That's much easier now with a handy little filter on top:
 
-TODO SCREENSHOT
+![Filter tags by name in GitLab 8.12](/images/8_12/tag_filter.png)
 
 ## API additions
 
@@ -385,8 +377,6 @@ GitLab 8.12 EE now sends additional data along with its usage ping.
 No information about the nature of the data, such as project names, comments or
 other content is transmitted. You can view the exact data that is sent in
 the admin settings, where this feature can also be disabled entirely.
-
-TODO docs link
 
 > [See also the implementation in the merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/735)
 
