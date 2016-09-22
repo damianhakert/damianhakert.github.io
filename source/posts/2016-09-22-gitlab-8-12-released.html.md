@@ -82,14 +82,6 @@ GitLab Enterprise Edition already had a feature that allows you to block files b
 
 > Read more in the [documentation on Push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
 
-## Toggle Project Tools
-
-Just want to use the issue tracker or only the repository in a project? From now on, you can toggle every single tool in your project.
-
-In fact, you can even selectively enable certain tools for only project members. That means you can have an issue tracker that is accessible only by team members, while the repository is fully open to everyone.
-
-Or you can do the opposite and store your templates in a repository that is not accessible for other people, while they can still submit issues on the issue tracker.
-
 ## Review Apps (Experimental)
 
 We've made several additions to CI that, when combined, make some magic.
