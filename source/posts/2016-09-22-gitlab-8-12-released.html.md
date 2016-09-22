@@ -309,34 +309,44 @@ discussion in [the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/18994).
 
 ## Submodules in CI
 
-Submodules were one of the reasons why we redesigned the build permissions. Right now using Submodules in your CI builds is really easy.
+Submodules were one of the reasons we redesigned the build permissions.
+Now using Submodules in your CI builds is easy.
 
-To use submodules you have to use the `.gitmodules` file. This file usually looks like this:
+To use submodules you have to use a `.gitmodules` file, which looks something
+like this:
 
-        [submodule "tools"]
-            path = tools
-            url = git@gitlab.com/group/tools.git
+```ini
+[submodule "tools"]
+    path = tools
+    url = git@gitlab.com/group/tools.git
+```
 
-To use the new build permissions for your submodules you have to convert your URLs to be relative:
+To use the new build permissions for your submodules you have to convert your
+URLs to be relative:
 
-        [submodule "tools"]
-            path = tools
-            url = ../../group/tools.git
+```ini
+[submodule "tools"]
+    path = tools
+    url = ../../group/tools.git
+```
 
-This will instruct Git to use the same credentials as it would use for checking out your project sources.
+This will instruct Git to use the same credentials as it would for checking out
+your project sources.
 
-The one last thing is to make GitLab CI to fetch submodules:
+The last step is to tell GitLab CI to fetch submodules:
 
-        before_script:
-          - git submodule update --init --recursive
+```yaml
+before_script:
+  - git submodule update --init --recursive
+```
 
 You can read more about support for submodules in our [documentation](TBD).
 
-
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
+This release has more improvements, including security fixes. Please check out
+[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+to see the all named changes.
 
 ## Upgrade barometer
 
