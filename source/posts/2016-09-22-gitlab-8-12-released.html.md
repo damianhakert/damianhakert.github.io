@@ -272,34 +272,40 @@ integrations with Gitter, Heroku, Pivotal Tracker, Chef, Ansible and Yunohost.
 
 GitLab 8.12 brings very important changes to build permissions.
 
-We decided that builds permission should be tightly integrated with the permission of a user who is triggering a build.
+We decided that build permissions should be tightly integrated with the
+permissions of the user triggering a build for the following reasons:
 
-We decided to do this because:
+- We already have a permission system in place: group and project membership of
+  users.
+- We already know who is triggering a build (using git push, using web,
+  executing triggers).
+- We already know what that user is allowed to do.
+- We use the user's permissions for builds that are triggered by pusher.
+- It is simple and convenient that your build can access everything that you
+  have access to.
+- We can issue a short-lived unique tokens, granting access for the duration of
+  the build.
+- It fits very well into our philosophy of having everything integrated.
+- This provides a lot of possibilities to further enforce user permissions, such
+  as allowing only specific users to access runners, secure variables and
+  environments.
 
-- We already have permission system in place: group and project membership of users,
-- We already fully know who is triggering a build (using git push, using web, executing triggers),
-- We already know what user is allowed to do,
-- We use the user permission for builds that are triggered by pusher,
-- It is simple and convenient, that your build can access to everything that you have access to,
-- We can issue a short living unique tokens, granting access for time of the build,
-- It fits very well into our philosophy of having everything integrated,
-- This opens us a lot of possibilities to further enforce user permissions, like:
-  allowing only specific users to access runners, secure variables and environments.
+Now, any build that was triggered by the user is also signed with his
+permissions. When a user does `git push` or modifies files through the UI (**the
+pusher**), we will create a new Pipeline. The Pipeline will be owned by the
+pusher. So builds created in this pipeline will have the permissions of **the
+pusher**.
 
-Now, any build that was triggered by the user, it's also signed with his permissions. When a user does `git push` or changes files through web (**the pusher**), we will create a new Pipeline.
-The Pipeline will be owner by the pusher.
-So build created in this pipeline will have the permissions of **the pusher**.
+This allows us to make it easy to evaluate access for all dependent projects and
+container images that the pusher would have access too. The permission is
+granted only for the duration of the build. The access is revoked after the
+build is finished.
 
-This allows us to make it really easy to evaluate access for all dependent projects,
-container images that the pusher would have access too.
-The permission is granted only for time that build is running.
-The access is revoked after the build is finished.
+For detailed information about the build permissions and the changes it brings
+please see [our documentation](TBD).
 
-For detailed information about the build permissions
-and what changes it brings please check [our documentation](TBD).
-
-You can find all discussion and all our concerns when choosing the current approach:
-https://gitlab.com/gitlab-org/gitlab-ce/issues/18994
+For the history and reasoning behind this change, you can read the full
+discussion in [the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/18994).
 
 ## Submodules in CI
 
