@@ -1,6 +1,6 @@
 ---
 title: "GitLab 8.12 Released with Cycle Analytics and Global Code Search"
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_12/header.jpg
@@ -47,7 +47,7 @@ Find Cycle Analytics under Pipelines in all your projects.
 If you're running Elasticsearch on your GitLab Enterprise Edition instance,
 you will now be able to search through _all_ code on the server!
 
-TODO SCREENSHOT
+![Global code search in GitLab EE 8.12](/images/8_12/search.gif)
 
 Just use the search as before and GitLab will show you matching code from each
 project you have access to.
