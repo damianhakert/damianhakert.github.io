@@ -23,14 +23,14 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - Ashley Smith
     - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
-      - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
+      - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - (vacancy)
       - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
       - [Marketing Operations Manager](https://about.gitlab.com/jobs/marketing-operations-manager/) - Jennifer Cordz
       - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
       - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
-    - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) - Amara Nwaigwe
+    - [Product Marketing](/handbook/marketing/product-marketing/) - [Director of Product Marketing](/jobs/director-product-marketing/) - Amara Nwaigwe
       - [Partner Marketing](/handbook/marketing/product-marketing/partner-marketing/) - Partner/Channel Marketing Manager (vacancy)
       - [Content Marketing](/handbook/marketing/product-marketing/content-marketing/) - Content Marketing Manager (vacancy)
     - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
@@ -44,7 +44,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Account Management - [Director of Global Account Management](https://about.gitlab.com/jobs/director-global-account-management/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
     - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/) - Francis Aquino
-  - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
+  - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/) Joan Parrow
     - [People Operations Generalist](/jobs/people-ops-generalist/)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
@@ -58,6 +58,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
       - [Frontend Engineers](/jobs/frontend-engineer/)
+    - UX - [UX Lead](/jobs/ux-lead/) - Allison Whilden
       - [UX Designers](/jobs/ux-designer/)
     - [Infrastructure](/handbook/infrastructure/) - [Infrastructure Lead](/jobs/infrastructure-lead/) - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
