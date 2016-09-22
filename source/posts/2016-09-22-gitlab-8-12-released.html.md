@@ -289,7 +289,7 @@ granted only for the duration of the build. The access is revoked after the
 build is finished.
 
 For detailed information about the build permissions and the changes it brings
-please see [our documentation](TBD).
+please see [our documentation](https://docs.gitlab.com/ce/user/permissions.html#build-permissions).
 
 For the history and reasoning behind this change, you can read the full
 discussion in [the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/18994).
@@ -327,7 +327,7 @@ before_script:
   - git submodule update --init --recursive
 ```
 
-You can read more about support for submodules in our [documentation](TBD).
+You can read more about support for submodules in our [documentation](https://docs.gitlab.com/ce/user/project/new_ci_build_permissions_model.html#git-submodules).
 
 ## Other changes
 
