@@ -15,19 +15,19 @@ particular focus on addressing the technical requirements and challenges that
 limit the customer’s ability to achieve their business objectives in driving an
 effective Indirect Sales model. 
 
-## Responsibilities:
+## Responsibilities
 
-- Development, tailoring and delivery of client-specific product demonstrations
+- Development, tailoring, and delivery of client-specific product demonstrations
 - Provide GitLab solution Subject Matter Expertise to the client throughout the sales process
 - Effectively team with GitLab sales team to assess and address technical requirements and challenges throughout the sales process
 - Effectively lead and drive the response to functional and technical elements of RFIs/RFPs
 - Serve as liaison between the client and GitLab Service Engineers and Product Marketing to effectively convey and prioritize customer requirements
 - Become a Subject Matter Expert in competitive solution assessment and response
-- Provide technical and solutions leadership in the Field to our clients, partners and sales teams
+- Provide technical and solutions leadership in the Field to our clients, partners, and sales teams
 - Be the Subject Matter Expert and facilitate training workshops externally and internally.
 - Provide guidance on documentation
 
-## Requirements:
+## Requirements
 
 - B.Sc. in Computer Science or equivalent experience
 - Above average knowledge of Unix and Unix based Operating Systems

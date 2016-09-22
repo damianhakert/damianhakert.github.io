@@ -274,6 +274,15 @@
           title: POEditor
         - url: https://poeditor.com/help/how_to_translate_a_language_file_from_a_gitlab_project
           title: GitLab Integration
+    - title: GitPitch - Slideshow Presentations for Developers
+      content: No more PowerPoint. No more Keynote. Just Markdown. Then Git-Commit.
+      links:
+        - url: https://gitpitch.com
+          title: GitPitch Website
+        - url: https://github.com/gitpitch/gitpitch
+          title: GitPitch GitHub Repo
+        - url: https://github.com/gitpitch/gitpitch/wiki
+          title: GitPitch GitHub Wiki
 - title: Continuous Integration
   id: continuous-integration
   applications:

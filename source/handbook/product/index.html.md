@@ -18,7 +18,7 @@ title: Product
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
 
-With every release of GitLab, we want to achieve the each of the following
+With every release of GitLab, we want to achieve each of the following
 goals.
 
 1. Improve GitLab's existing tools
@@ -139,9 +139,60 @@ certain behaviors.
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
 
+## Alignment
+
+Balancing our great ambition with our dedication to customer success is tough. Add in a growing number of dedicated teams focusing on areas of the product, and it becomes challenging to make sure everything we work on is truly the right thing to work on, right now. To help with that, it's good to keep a few things in mind. To ask a few questions to keep us all aligned.
+
+At a high level, you can think of aligning along these dimensions (not necessarily in priority order):
+
+* Align with company top projects
+* Align with company vision
+* Align with business objectives (profit, i.e. EE)
+* Align with team/project vision
+* Align with team/project top priorities
+* Align with developer experience
+* Align with customer demands
+
+To make it concrete with an example, the CI/CD team might ask:
+
+* What else is needed for the idea-to-production vision? Are there other APIs needed for ChatOps integration? Can we trigger manual actions via API? [Environment-specific variables](https://gitlab.com/gitlab-org/gitlab-ce/issues/20367), [activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992)
+* What moves us towards automatic deploys of `gitlab-ce`?
+* What moves the [CI/CD vision](https://about.gitlab.com/direction/cicd/) forward?
+* Can we polish the existing feature set? (e.g. [#21126](https://gitlab.com/gitlab-org/gitlab-ce/issues/21126), [#18178](https://gitlab.com/gitlab-org/gitlab-ce/issues/18178), [Show builds in context of pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/20863), [#5983](https://gitlab.com/gitlab-org/gitlab-ce/issues/5983), [#3976](https://gitlab.com/gitlab-org/gitlab-ce/issues/3976))
+* Can we speed up CI/CD pipelines? (e.g. sticky runners, [automatic parallelization](https://gitlab.com/gitlab-org/gitlab-ce/issues/21480))
+* What can we do to make customers happy? ([list](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=✓&label_name%5B%5D=CI&label_name%5B%5D=customer))
+* What can we do to ship EE features for CI? (e.g. [gitlab-org/gitlab-ee#933](https://gitlab.com/gitlab-org/gitlab-ee/issues/933))
+
 ## CI/CD<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
+
+# How to work as a PM
+
+If you follow the guidelines above, you won't be writing long, detailed
+specs for a part of the product for the next year. So how should you be
+spending your time?
+
+Invest the majority of your time in understanding the problem deeply (say 70%).
+Then spend 10% of your time writing the spec _for only the first iteration_ and
+handling comments, while the remaining 20% you work on promoting it.
+
+A problem you understand well will always have a (seemingly) simple or obvious
+solution. Reduce it to its simplest form (see above) and only ship that.
+
+Once you've shipped your solution, both you and the community will
+have a much better idea on what can be improved and what should be prioritized
+for future iterations.
+
+As a PM you're the person that has to kick-off new initiatives. You're not
+responsible for shipping something on time, but you are responsible for taking
+action and setting the direction. Be active everywhere, over-communicate and
+sell the things you think are important to the rest of the team and community.
+
+As a PM you don't own the product: ask other people for feedback and give
+team members and the community the space to suggest and create without your
+direct intervention. It's your job to make sure something is decided and
+planned, not to come up with every idea or change.
 
 # Links
 

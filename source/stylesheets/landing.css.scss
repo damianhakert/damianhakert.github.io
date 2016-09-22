@@ -77,7 +77,7 @@
       position: fixed;
       top: 50px;
       bottom: auto;
-      background-image: linear-gradient($landing-community-bg 50%, $color-transparent);
+      background-image: linear-gradient($landing-community-bg 50%, rgba($landing-community-bg, 0));
       padding-bottom: 75px;
     }
 

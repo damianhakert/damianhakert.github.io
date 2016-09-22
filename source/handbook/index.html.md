@@ -69,14 +69,14 @@ and processes to the world. An example is the MIT licensed [GitLab CE](https://a
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
-and not duplicating work. This enables us to achieve more progress with less people
+and not duplicating work. This enables us to achieve more progress with fewer people
 and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
 1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
-help and advise. Anyone can chime in on any subject, including people that don't work at GitLab. The person that has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
+help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
@@ -91,7 +91,7 @@ giving positive feedback is our [thanks chat channel](https://about.gitlab.com/h
 1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
-for our organization and product is constrained by the total complexity we added
+for our organization and product is constrained by the total complexity we have added
 so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
@@ -118,7 +118,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
-1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
+1. You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
 1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
 1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
@@ -332,6 +332,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
+1. When creating a calendar event that will be used company wide, please place it on the GitLab Availability Calendar. That way the event is easily located by all individuals.  
 
 ### Video calls
 
@@ -401,7 +402,7 @@ Make sure it is charging, otherwise try again.
 ### Company phone number
 {: #phone-number}
 
-If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
+If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#office-addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
@@ -497,14 +498,14 @@ page for information on how to handle scheduled leave for someone from the [on-c
 ## <i class="fa fa-plus-square-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Incentives
 {: #incentives}
 
-The following incentives are available for GitLab team members.
+The following incentives are available for GitLab team members. Also see our separate page on [benefits](/handbook/benefits/) available to GitLab team members.
 
 ### Sales Target Dinner Evangelism Reward
 {: #sales-target-dinner}
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
-to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
+to providing top notch customer support and everything in between, we reward **all**
+team members (not just the Sales team) for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member for the purpose of evangelizing the GitLab story.  You may use the incentive at a restaurant of your choice. Enjoy!
 
 - The CEO, or CRO will announce on the team call if the target was met.
@@ -620,7 +621,7 @@ fit anywhere else.
 1. Set up the 45 minute time slot with the following event description text (replacing XXXXX with your @gitlab.com handle):
 
     > This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX
-    > 
+    >
     > Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/
 
 1. If you intend to use any of the other event types, make sure to add this to their event descriptions as well.
