@@ -172,18 +172,17 @@ TODO SCREENSHOT
 
 We've expanded our API on several points with GitLab 8.12:
 
-- Allow to set request_access_enabled for groups and projects using API
-- Add notification_settings API calls
-- Add a BroadcastMessage API
+- Allow to set `request_access_enabled` for groups and projects using API
+- Add `notification_settings` API calls
+- Add a `BroadcastMessage` API
 - You can now fork to a specific namespace through the API
 - Allow to set enable/disable access request for groups and projects.
 - Add `web_url` field to issue, merge request, and snippet objects.  (community contribution)
 - Expose `sha` and `merge_commit_sha` in merge request API.  (community contribution)
 - Expose issue confidentiality flag.  (community contribution)
-- Added 'only_allow_merge_if_build_succeeds' project setting.  (community contribution)
-- New endpoint to lint your `.gitlab-ci.yml` file.  (community contribution)
+- Added `only_allow_merge_if_build_succeeds` project setting.  (community contribution)
+- Add endpoint to lint your `.gitlab-ci.yml` file.  (community contribution)
 - Add an API to list manual actions on Environments and Deployments
-
 
 [!6359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6359
 
@@ -235,8 +234,8 @@ We are also releasing GitLab Runner 1.6 today. Some highlights:
 - Improvements in passing CA certificates to builds [!299](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/299)
 - Improvement in disabling recursive submodules fetching/cloning [!314](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/314)
 - Improve docker machine logging [!234](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/234)
-- Add posibility to specify a list of volumes to inherit from another container [!236](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/236)
-- Generate a BuildError instead of SystemError when Docker/Kubernetes image is missing [!295](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/295)
+- Add possibility to specify a list of volumes to inherit from another container [!236](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/236)
+- Generate a `BuildError` instead of `SystemError` when Docker/Kubernetes image is missing [!295](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/295)
 
 To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/CHANGELOG.md).
 
@@ -252,7 +251,7 @@ integrations with Gitter, Heroku, Pivotal Tracker, Chef, Ansible and Yunohost.
 
 * Sidekiq processes now use a connection pool when using Rails' caching
   mechanism: [merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6429)
-* The oj Gem is now used for faster JSON processing: [merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6395)
+* The `oj` Gem is now used for faster JSON processing: [merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6395)
 * The column `projects.last_activity_at` is only updated once an hour to reduce
   database load: [merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6391)
 * The column `projects.pushes_since_gc` has been moved from the database to
@@ -354,10 +353,10 @@ This release requires downtime due to foreign keys being added, column types
 being changed, and various columns being removed from some tables. The whole
 migration process could take up to 30 minutes for large instances. Smaller instances should expect a downtime of about 10-15 minutes.
 
-### (EE Only) Elasticsearch reindexing
+### (EE Only) Elasticsearch re-indexing
 
 We changed the structure of Elasticsearch index for repositories, making use of Parent Child relationships. This requires a total rebuild of the ES index. Also
-Elasticsearch 2.3.* contains a bug that causes to fail all queries that use highlight feature and Parent Child relationship at once, so we recommend to use the version 2.4 and newer. After upgrading to GitLab 8.12, you will need to remove the old index and rebuild new index:
+Elasticsearch 2.3.x contains a bug that causes to fail all queries that use highlight feature and Parent Child relationship at once, so we recommend to use the version 2.4 and newer. After upgrading to GitLab 8.12, you will need to remove the old index and rebuild new index:
 
 To remove the old index, call to Elasticsearch:
 
