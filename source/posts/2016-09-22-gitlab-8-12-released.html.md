@@ -202,7 +202,13 @@ or prefer something different than GitLab's way of importing your projects.
 
 You can now bulk update merge requests. This means you can set the status, assignee, milestone, label or subscription to multiple merge requests at once.
 
+<<<<<<< HEAD
 Managing merge-request-heavy projects should be a lot easier with this!
+=======
+![Bulk update Merge Requests in GitLab 8.12](/images/8_12/bulk.gif)
+
+Managing merge-request-heavy project should be a lot easier with this!
+>>>>>>> more gifs
 
 [!6226](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6226)
 
