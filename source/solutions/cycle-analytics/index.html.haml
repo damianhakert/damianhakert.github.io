@@ -198,14 +198,14 @@ extra_js:
                 Staging
               .lead.text-center.step-lead-text
                 :markdown
-                  We're ready to go now! What's the length of time between merging and deploying?
+                  We're ready to go now! What's the length of time between merging and deploying to production?
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    This stage measures the time between merging the MR until the app is deployed to production.
+                    This stage measures the time spent in staging, from merging the MR until the app is deployed to production.
 
                     It's tracked by the [`environment` set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction) in your GitLab CI configuration.
       .step.js-step
