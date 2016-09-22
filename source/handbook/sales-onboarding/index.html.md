@@ -161,7 +161,7 @@ A library of past product training sessions can be found [Here](https://drive.go
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Blue Jeans or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Zoom or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
 * [ ] Within this sales bootcamp issue, please submit a comment with a link to a Product and the names of salespeople you have seen contribute to the discussion.
 
 ### Stage 4 <a name="stage-4"></a>
