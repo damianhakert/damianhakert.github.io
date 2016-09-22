@@ -108,6 +108,26 @@ and/or [Support](/getting-help/) and
 if it makes sense for the rest of the community to make a requested
 update to the product, do it.
 
+### Product Launch
+
+For every new feature or new product, we need to coordinate the entire team
+in order to have a successful launch. It's crucial having an efficient
+communication between every team involved: developers, product, executives, and marketing.
+We use [Conversational Development](/2016/09/13/gitlab-master-plan/#convdev) to achieve
+the results we need. Our communication happens mostly within GitLab.com, with issues and
+merge requests not only for the product itself, but for posts, webpages, media assets, documentation,
+and a lot more. We track the whole process cohesively and consistently across our own platform.
+
+Recently, we launched the [GitLab Issue Board](/2016/08/22/announcing-the-gitlab-issue-board/),
+[Cycle Analytics](/2016/09/21/cycle-analytics-feature-highlight/), and we revealed the
+[GitLab Master Plan](/2016/09/13/gitlab-master-plan/). We were thrilled by the involvement
+of our community, with tons of tweets, messages, emails, comments on posts, the explosive 
+chat on YouTube, and the questions and comments posted on
+[Hacker News](https://news.ycombinator.com/item?id=12487112). We raised the roof! All this
+success was the result of teamwork and much effort to not only have everything in place,
+on time, but also, to make sure the information spread was accurate and available throughout
+all the different channels we use to market.
+
 ## Read More
 
 This content was originally posted on our [Marketing Handbook](/handbook/marketing/).
@@ -117,3 +137,5 @@ You can read more about our Marketing Strategy in the following sections:
 - [Top down and bottom up marketing for developer products](/handbook/marketing/#top-down-and-bottom-up-marketing-for-developer-products)
 
 Our entire [Handbook](/handbook/) is [open source](/2016/07/12/our-handbook-is-open-source-heres-why/), licensed by [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Questions, feedback and suggestions are much appreciated! Leave a comment below or tweet at us [@GitLab](https://twitter.com/gitlab)! 🙌
