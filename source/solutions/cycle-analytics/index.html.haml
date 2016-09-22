@@ -121,7 +121,7 @@ extra_js:
                   :markdown
                     This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository.
 
-                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/customization/issue_closing.html) `closes #xxx`, where `xxx` is the number of the issue related to this commit.
+                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/user/project/issues/automatic_issue_closing.html) like `closes #xxx`, where `xxx` is the number of the issue related to this commit.
       .step.js-step
         .container
           .step-icon-container
@@ -140,7 +140,7 @@ extra_js:
                   :markdown
                     This stage measures the time between pushing a first commit (previous stage) and creating a [merge request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)).
 
-                    GitLab tracks this using the issue closing pattern `closes #xxx` in the MR description, where `xxx` is the number of the issue related to this merge request.
+                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/user/project/issues/automatic_issue_closing.html) like `closes #xxx` in the MR description, where `xxx` is the number of the issue related to this merge request.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
