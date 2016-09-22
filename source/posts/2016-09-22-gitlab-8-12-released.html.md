@@ -123,7 +123,7 @@ TODO DOCS
 
 ## Toggle LFS
 
-Git LFS (Large File Storage), is great, but as the name implies, it can have
+Git LFS (Large File Storage) is great, but as the name implies, it can have
 significant impact on your disk capacity. To make you feel a bit more secure about the LFS usage on your instance, you can now toggle LFS on instance, group and project level.
 
 For instance, as a GitLab administrator, you can decide to turn off LFS for the entire instance, yet enable it for only a single group or project.
@@ -224,6 +224,21 @@ By upgrading to [rouge](https://github.com/jneen/rouge) 2.0.6, we've added synta
 GitLab-Workhorse can now report application errors to Sentry.
 
 > [Read more in the GitLab-Workhorse docs](https://gitlab.com/gitlab-org/gitlab-workhorse/blob/master/README.md#error-tracking)
+
+## GitLab Runner 1.6
+
+We are also releasing GitLab Runner 1.6 today. Some highlights:
+
+- **Kubernetes executor [!30](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) and [!277](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/277)**
+- Autocompletion of _/ci_ in GitLab URL while registering the Runner [!289](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/289)
+- Configuration options for specifying scripts executed before clone/fetch is done and before build script is executed [!106](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/106)
+- Improvements in passing CA certificates to builds [!299](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/299)
+- Improvement in disabling recursive submodules fetching/cloning [!314](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/314)
+- Improve docker machine logging [!234](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/234)
+- Add posibility to specify a list of volumes to inherit from another container [!236](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/236)
+- Generate a BuildError instead of SystemError when Docker/Kubernetes image is missing [!295](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/295)
+
+To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/CHANGELOG.md).
 
 ## GitLab Mattermost 3.4
 
