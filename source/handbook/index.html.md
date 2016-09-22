@@ -294,9 +294,8 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
-1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
-1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
+1. We use [Zoom](https://zoom.us) for the call since Hangouts is capped at 15 people, link is in the calendar invite, and also listed at the top of the Team Agenda.
+1. The call is recorded automatically, and we have a 1GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Recordings can be found by logging on to the [Zoom portal](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
@@ -336,7 +335,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Video calls
 
-1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Blue Jeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
@@ -455,7 +454,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed.
     *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
-    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, BlueJeans, and WebEx)
+    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Zoom, and WebEx)
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
@@ -634,10 +633,10 @@ Keep in mind that unlike normal Google Calendar events, Calendly events are not 
 ### Shush
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
-Never again will you have switch window focus to Google Hangout or Blue Jeans to speak or mute.
+Never again will you have switch window focus to Google Hangout or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click you can switch from push to talk to push to mute.
-Don't forget to unblock your mic in Blue Jeans/Google Hangouts immediately after joining.
+Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
@@ -651,9 +650,13 @@ The Notification Center can be quickly disabled by Option-Clicking the menu bar 
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
-### Blue Jeans
+### Zoom
 
-Please add instructions how to set up a Blue Jeans meeting, how to record it and how to add the resulting video to our YouTube channel.
+To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need additional duration, reach out to People Ops to see if we can extend the existing Pro license that is in use to manage the [team call](#team-call).
+
+To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
+
+_Please add instructions on how to add the resulting video to our YouTube channel._
 
 ### Gmail
 
@@ -813,11 +816,11 @@ them private afterwards.
 - If you have GitLab Pages projects with the default **GitLab.io** url, you will need
 to import them to you new account, then make a change to **trigger a build** and
 redeploy your site. They will be affected only if you're using a
-[CNAME with a subdomain instead of an A record](/2016/04/07/gitlab-pages-setup/#custom-domains). 
+[CNAME with a subdomain instead of an A record](/2016/04/07/gitlab-pages-setup/#custom-domains).
 This won't affect Pages projects that use custom domains, as they all point to
 the same Pages server IP via `A` record. Your groups won't be affected either,
 as they operate under their own namespace. Add both users as members of your
-groups and nothing changes. 
+groups and nothing changes.
 
 That's it! Don't forget to update your username on the
 [team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/team.yml)
