@@ -4,6 +4,7 @@ categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_12/header.jpg
+description: "GitLab 8.12 with Cycle Analytics, Global Code Search, Merge Request Versions, Review Apps, Push rules to prevent secrets and much, much more!"
 ---
 
 Whether you're working on a small or a large project, your tools should get out of your way and give you actionable feedback. This month, we're making sure GitLab does both better than ever.
@@ -202,13 +203,9 @@ or prefer something different than GitLab's way of importing your projects.
 
 You can now bulk update merge requests. This means you can set the status, assignee, milestone, label or subscription to multiple merge requests at once.
 
-<<<<<<< HEAD
-Managing merge-request-heavy projects should be a lot easier with this!
-=======
 ![Bulk update Merge Requests in GitLab 8.12](/images/8_12/bulk.gif)
 
 Managing merge-request-heavy project should be a lot easier with this!
->>>>>>> more gifs
 
 [!6226](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6226)
 
