@@ -23,10 +23,10 @@ multiple times at multiple organizations. Every company that's building
 tools for developers has at some point struggled on how to properly
 market to their target audience. I've seen it at large organizations,
 I've seen it at small organizations, and we've all seen product
-messaging doesn't quite fit what the product actually does.
+messaging that doesn't quite fit what the product actually does.
 
-Often times,
-that's due to a disconnect between marketing and engineering/product
+Often,
+this is due to a disconnect between marketing and engineering/product
 and/or the marketing team not understanding **how to message a developer
 product**. While people are quick to assume negative intentions of the
 marketing team, generally that isn't the case. It comes down to messaging
@@ -108,7 +108,7 @@ and/or [Support](/getting-help/) and
 if it makes sense for the rest of the community to make a requested
 update to the product, do it.
 
-## Read more
+## Read More
 
 This content was originally posted on our [Marketing Handbook](/handbook/marketing/).
 You can read more about our Marketing Strategy in the following sections:
