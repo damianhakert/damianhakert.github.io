@@ -9,7 +9,7 @@ description: "See how GitLab's Cycle Analytics can help measure your team's velo
 date: 2016-09-21 10:00
 ---
 
-On September 22nd, we will release GitLab 8.12 with [Cycle Analytics](/solutions/cycle-analytics/). Cycle Analytics tells you how long
+On September 22nd, we will release [GitLab 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/) with [Cycle Analytics](/solutions/cycle-analytics/). Cycle Analytics tells you how long
 it takes your team to go [from idea to production][idea-production] on each of their projects.
 
 Few teams can answer how long 
@@ -96,7 +96,7 @@ Keep in mind that if you're working in a new project and you haven't deployed an
 
 ## Join Our Release Webcast
 
-Join us on September 29th for our Cycle Analytics and GitLab 8.12 Release Webcast. We'll demo some exciting new features and hold a Q&A. [Register here][webcast-registration].
+Join us on September 29th for our Cycle Analytics and [GitLab 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/) Release Webcast. We'll demo some exciting new features and hold a Q&A. [Register here][webcast-registration].
 
 <!-- identifiers -->
 
