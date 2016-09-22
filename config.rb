@@ -45,8 +45,10 @@ end
 activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
+unless ENV['ENABLE_LIVERELOAD'] != '1'
+  configure :development do
+    activate :livereload
+  end
 end
 
 ##
@@ -109,7 +111,7 @@ configure :build do
 
   ## Direction page
   if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
   end
 
   ## Releast list page

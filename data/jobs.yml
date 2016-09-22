@@ -23,14 +23,29 @@
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
 
-- title: "Content Marketing Manager"
-  description: /jobs/content-marketing-manager/
-  apply:
-  open: false
+- title: "Content Designer"
+  description: /jobs/content-designer/
+  apply: https://gitlab.workable.com/jobs/317102/candidates/new
+  open: true
 
-- title: "Director Customer Success"
-  description: /jobs/dir-customer-success/
+- title: "Database Specialist"
+  description: /jobs/specialist/database/
+  apply: https://gitlab.workable.com/jobs/329033/candidates/new
+  open: true
+
+- title: "Director of Customer Success"
+  description: /jobs/director-customer-success
+  apply: https://gitlab.workable.com/jobs/339588/candidates/new
+  open: true
+
+- title: "Director of Global Account Management"
+  description: /jobs/director-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
+  open: true
+
+- title: "Director Federal Sales"
+  description: /jobs/director-federal-sales/
+  apply: https://gitlab.workable.com/jobs/315093/candidates/new
   open: true
 
 - title: "Frontend Engineer"
@@ -38,29 +53,24 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
+- title: "Global Recruiter"
+  description: /jobs/global-recruiter/
+  apply: https://gitlab.workable.com/jobs/269339/candidates/new
+  open: true
+
+- title: "Support Lead"
+  description: /jobs/support-lead/
+  apply: https://gitlab.workable.com/jobs/340051/candidates/new
+  open: true
+
 - title: "Senior Accountant (part time)"
   description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
-- title: "Marketing Operations Manager"
-  description: /jobs/marketing-operations-manager/
-  apply:
-  open: false
-
-- title: "People Operations Coordinator"
-  description: /jobs/people-ops-coordinator/
-  apply:
-  open: false
-
-- title: "Sr. Director of People Operations"
-  description: /jobs/senior-director-of-people-operations/
-  apply:
-  open: false
-
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply:
+  apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
 - title: "Product Marketing Manager"
@@ -93,6 +103,11 @@
   apply: https://gitlab.workable.com/jobs/242971/candidates/new
   open: true
 
+- title: "Success Engineer (APAC and Channel)"
+  description: /jobs/Success-Engineer-APAC-and-Channel/
+  apply: https://gitlab.workable.com/jobs/338848/candidates/new
+  open: true
+
 - title: "Build Engineer"
   description: /jobs/build-engineer
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
@@ -100,12 +115,12 @@
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
-  apply: https://gitlab.workable.com/jobs/227708/candidates/new
-  open: true
+  apply:
+  open: false
 
-- title: "UX Lead"
-  description: /jobs/ux-lead/
-  apply: https://gitlab.workable.com/jobs/279434/candidates/new
+- title: "UX Researcher"
+  description: /jobs/ux-researcher/
+  apply: https://gitlab.workable.com/jobs/304926/candidates/new
   open: true
 
 - title: "Junior Designer"
@@ -121,4 +136,19 @@
 - title: "Open Application"
   description: /jobs/open-application/
   apply: https://gitlab.workable.com/jobs/298091
+  open: true
+
+- title: "Business Development Representative - Outbound"
+  description: /jobs/business-development-representative-outbound/
+  apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+
+- title: "Marketing Frontend Engineer"
+  description: /jobs/marketing-frontend-engineer/
+  apply: https://gitlab.workable.com/jobs/317072/candidates/new
+  open: true
+
+- title: "Issue Triage Specialist"
+  description: /jobs/specialist/issue-triage/
+  apply: https://gitlab.workable.com/jobs/307215/candidates/new
   open: true

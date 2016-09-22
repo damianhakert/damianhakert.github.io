@@ -21,13 +21,13 @@ A [pre-recorded version](https://youtu.be/pY4IbEXxxGY) is available on YouTube.
 
 ## Prerequisites
 - Access to a GitLab instance
-- Ability to create a project or create issues/MRs on the [example project]( https://gitlab.com/gitlab-examples/docker-cloud)
+- Ability to create a project or create issues/merge requests on the [example project]( https://gitlab.com/gitlab-examples/docker-cloud)
 - If Internet access is available, start at this URL while logged in: [https://gitlab.com/gitlab-examples/docker-cloud](https://gitlab.com/gitlab-examples/docker-cloud)
 
 ## Scope/Flow
 
 1. Have issue
-2. Have MR
+2. Have merge request
 3. Edit inline
 4. Check into version control
 5. Docker image (alpine linux)
@@ -36,7 +36,7 @@ A [pre-recorded version](https://youtu.be/pY4IbEXxxGY) is available on YouTube.
 8. Review in environments
 9. Review image in container registry
 10. Review the build
-11. Show link between merge, MR, and issue
+11. Show link between merge, merge request, and issue
 12. Deploy to production
 14. Rollback button to revert production deploy
 13. Review container registry `:production` tag updated

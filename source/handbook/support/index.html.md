@@ -13,10 +13,12 @@ title: Support
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
-- [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+   - [Onboarding Checklist](/handbook/support/onboarding/checklist)
+- [On-Call](https://about.gitlab.com/handbook/on-call)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
 - [Mentions Channel](/handbook/support/mentions-of-gitlab)
+- [Zendesk](/handbook/support/zendesk)
 
 ----
 
@@ -28,7 +30,7 @@ title: Support
 
 ----
 
-## Support Direction <a name="support-direction"></a>
+## Support Direction
 
 The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
 in order to meet our strategic objective, the following topics are being addressed by the team:
@@ -74,7 +76,7 @@ The issue tracker is open to the community and part of the GitLab.com
 group. It should not contain any sensitive information. Links to ZenDesk
 or other references are encouraged.
 
-## Support Turbo<a name="support-turbo"></a>
+## Support Turbo
 
 Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
@@ -83,7 +85,25 @@ The support team calls for help when necessary via Slack, but in case of doubt o
 conflicting priorities, the Backend Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
 
-## Dashboard <a name="dashboard"></a>
+## Dedicated Service Engineers
+
+Certain subscribers have purchased Premium Support (TODO: create /support page), which gives them access to a Dedicated Service Engineer. This means that tickets that arrive in ZenDesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in ZenDesk.
+
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
+   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in ZenDesk can then create the trigger, and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around ZenDesk or SalesForce.
+   - Related section of the [Sales handbook](/handbook/sales/#premium-support).
+- To make sure that these subscribers are served well, even when their dedicated SE is not directly
+available, there is a 'view' in ZenDesk to display all "dedicated" tickets so
+that other Service Engineers can see them and jump in to avoid an SLA breach.
+- If you are the Dedicated Service Engineer for an account and you will be away for a
+foreseeable reason (such as vacation), change the trigger in ZenDesk for the duration
+of your absence. Any tickets answered by others should mention "I will be helping
+you in this matter since your dedicated Service Engineer, [name], is unfortunately
+currently unavailable to respond to your ticket." When you return, you should review
+all tickets submitted by the subscriber during your absence, and make sure to follow-through
+or follow-up as required.
+
+## Dashboard
 
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
@@ -93,7 +113,8 @@ We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
 That is why some channels are combined.
 
-## Service Level Agreements <a name="sla"></a>
+## Service Level Agreements
+{: #sla}
 
 ### SLA categories
 
@@ -127,7 +148,19 @@ the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/e
 Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings)
 to any tickets from channels in category 3 and 4, but we do track response times.
 
-## Support Channels <a name="support-channels"></a>
+#### SLA Workflow
+
+Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
+
+1. Tickets that are close to breaching "first time to reply" SLA
+1. Tickets that are close to breaching "next time to reply" SLA
+   - It is a courtesy to check with the assigned agent first, before "taking" one of these tickets. Ask if they can respond soon and offer to reply if they don't have the bandwidth.
+1. New tickets (not close to breaching)
+1. Other open tickets
+
+When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+
+## Support Channels
 
 Our [service engineers](/jobs/service-engineer) handle the channels listed below.
 They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
@@ -212,7 +245,7 @@ This is can be requested either by GitLab or the reporter. If the reporter reque
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 
 1. No sensitive information.
-1. A link to the MR that fixed the issues.
+1. A link to the merge request that fixed the issues.
 
 If you need to grant HackerOne permissions to a new GitLab user, have an admin send
 an invitation from HackerOne and add you to the Internal group. You can find out who
@@ -229,10 +262,10 @@ information about using the security PGP key pair and decrypting messages.
 
 ### Regular ZenDesk tickets <a name="regular"></a>
 
-You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
-that have come in and are unassigned, again using FIFO.
-When you need others to help please create an issue on the relevant GitLab issue tracker.
+that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
+the relevant GitLab issue tracker.
 
 ### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
@@ -286,6 +319,10 @@ While engaging with customers you should always be prepared to jump on a call wi
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
+
+If you feel too inexperienced to handle a call, ask someone more experienced to handle the call and
+listen in if at all possible. After someone else had the call with the customer it is still your responsibility
+to handle the ticket as long as the ticket is still assigned to you.
 
 ### Internal Support<a name="internal"></a>
 
@@ -379,6 +416,45 @@ the case.
 - [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
 
+See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
+
+### Spam
+
+#### Flagging Issues as Spam
+
+Many spammers use GitLab.com to create spam. Starting with 8.11, GitLab has
+better integration with Akismet to check for spam whenever a user creates an
+issue. This filter needs to be trained properly, however. With some effort our
+spam detection should improve. If an issue is created on GitLab.com by a
+spammer, before deleting the account, flag the user's issues as spam:
+
+1. Login to GitLab.com with an admin account
+2. View each issue and click on "Submit as spam"
+
+#### Deleting Spammers
+
+Once the issues are flagged and the user is verified to be a spammer, go to
+the spammer's user profile and click on the "Report Abuse" button:
+
+1. Login to GitLab.com with an admin account
+2. Go to: https://gitlab.com/admin/abuse_reports
+3. Be careful: Click on "Delete user" only if you are sure this user is a spammer.
+
+### False positives: Ham
+
+The Akismet filter may also flag false positives and prevent a user from
+creating issues. The contents of the flagged issue get stored in the spam logs,
+which is only accessible to admin users. From time to time, we may need to
+submit the flagged issue as "ham" (e.g. when a user lodges a complaint on the
+Support Tracker about not being able to create issues). Currently, there are
+no notifications whenever an entry is flagged, so this needs to be monitored
+periodically. To flag an issue as ham:
+
+1. Login to GitLab.com with an admin account
+2. Go to: https://gitlab.com/admin/spam_logs
+3. Scan the contents of each log. If it appears that a user is trying to post valid
+   information, click on "Submit as ham".
+
 ### Mailing list<a name="mailing-list"></a>
 
 Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
@@ -414,7 +490,7 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 
 ### Removal of 2FA <a name="2faremoval"></a>
 
-[Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA) 
+[Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA)
 can only be removed from a GitLab.com account if one of the following combinations are met:
 
 #### Combination 1:
@@ -439,16 +515,19 @@ Support often gets requests from gitlab.com users to release a username.
 This can be implemented if the following criteria are met:
 
 1. The account in question has no data.
-1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+1. There hasn't been any activity on the account (i.e. code, issues, merge requests)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
-1. Support has had two failed attempt to contact the user within a
+1. Support has had two failed attempts to contact the user within a
  two week period.   
 1. The user cannot be an owner of any active project.
 
-Usernames will be prefixed with `idle` to keep the account active but
+Usernames will be appended with `_idle` to keep the account active but
 release the namespace.
 
+Support agents will not release a current user's contact information to another
+user. GitLab also will not contact a user on behalf of another user to request
+surrender of an apparently active username.
 
 ### Code of Conduct<a name="coc"></a>
 

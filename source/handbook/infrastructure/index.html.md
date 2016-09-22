@@ -86,6 +86,14 @@ When writing a new runbook, be mindful what the goal of it is:
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 - If it is for general management, it can be freely formatted.
 
+### Public and private cookbooks
+
+Generally our [chef cookbooks](https://gitlab.com/groups/gitlab-cookbooks) live in the open, and they get mirrored back to our
+[internal cookbooks group](https://dev.gitlab.org/cookbooks) for availability reasons.
+
+There may be cases of cookbooks that could become a security concern, in which case it is ok to keep them in our GitLab
+private instance. This should be assessed in a case by case and documented properly.
+
 ### Internal documentation
 
 Available in the [Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
@@ -110,6 +118,10 @@ There are 2 kind of production events that we track:
   - Try to be as explicit as possible on what the root cause is.
   - If we don't know the root cause, also state it and leave the issue open for followup.
   - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
+
+## On Call
+
+See the separate [on-call page](/handbook/on-call/).
 
 # Make GitLab.com settings the default
 
