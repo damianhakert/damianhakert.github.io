@@ -89,6 +89,30 @@ Or you can do the opposite and store your templates in a repository that is not 
 
 TODO DOCS
 
+## Review Apps (Experimental)
+
+We've made several addition to CI that together make some magic.
+
+You can now use predefined CI variables as a name for environments. In addition, you can specify an URL for the environment configuration in your `.gitlab-ci.yml`. Together, these features bring the first iteration of Review Apps.
+
+Review apps are automatically-created environments that run your code for each branch. That means merge requests can be reviewed in a live running environment. Inspired by [Heroku's Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) which itself was inspired by [Fourchette](https://github.com/rainforestapp/fourchette).
+
+These are small changes, but will make a huge impact on your development flow.
+Reviewing anything from performance to interface changes becomes much easier
+with a live environment.
+
+Right now, Review Apps are labelled experimental, as the environments are not automatically destroyed when no longer necessary.
+
+**CI:**
+
+- Change pipeline duration to be jobs running time instead of simple wall time from start to end. ([!6084])
+- Show queued time when showing a pipeline. ([!6084])
+- Added ability to use predefined CI variables for environment name. ([!6323])
+- Added ability to specify URL in environment configuration in `.gitlab-ci.yml`. ([!6323])
+- Add pipeline events to Slack integration. ([!5525])
+- Add a button to download latest successful artifacts for branches and tags. ([!5142])
+- Add information about user and manual build start to runner as variables. ([!6201]) (community contribution)
+
 ## SSH Authentication for LFS
 
 If you're used to using SSH for your Git pushes, it was frustrating to
@@ -163,6 +187,8 @@ We've expanded our API on several points with GitLab 8.12:
 - Expose issue confidentiality flag.  (community contribution)
 - Added 'only_allow_merge_if_build_succeeds' project setting.  (community contribution)
 - New endpoint to lint your `.gitlab-ci.yml` file.  (community contribution)
+- Add an API to list manual actions on Environments and Deployments
+
 
 [!6359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6359
 
