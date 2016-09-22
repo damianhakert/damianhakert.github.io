@@ -40,6 +40,8 @@ Find Cycle Analytics under Pipelines in all your projects.
 [convdev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
 [cycle-analytics]: https://about.gitlab.com/2016/09/16/feature-preview-introducing-cycle-analytics/
 
+> Read more in the [documentation for Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html)
+
 ## Global Code Search (EE)
 
 If you're running Elasticsearch on your GitLab Enterprise Edition instance,
@@ -53,8 +55,6 @@ project you have access to.
 Note that this change requires that you rebuild your Elasticsearch index.
 See the upgrade barometer below for more information.
 
-TODO DOCS
-
 ## Merge Request Versions
 
 When you're pushing more than a single commit to a merge request,
@@ -64,7 +64,7 @@ it can be hard to view what changed between versions and the target branch.
 
 With merge request versions you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
-TODO DOCS
+> Read more in the [documentation for Merge request revisions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html)
 
 ## Preventing Secrets in your repositories (EE)
 
@@ -72,15 +72,13 @@ It's a bad idea to commit secrets (such as keys and certificates) to your reposi
 
 Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed files that were meant to stay local!
 
-GitLab now has a new [push rule][push-rules] that will prevent commits with secrets from entering the repository. Just check the checkbox and GitLab will prevent common unsafe files such as `.pem` and `.key` from being committed.
+GitLab now has a new push rule that will prevent commits with secrets from entering the repository. Just check the checkbox and GitLab will prevent common unsafe files such as `.pem` and `.key` from being committed.
 
 TODO SCREENSHOT
 
 GitLab Enterprise Edition already had a feature that allows you to block files based on a regular expression, which you can leverage to block anything that we didn't think of. We also welcome suggestions and contributions to make this push rule even better.
 
-TODO DOCS
-
-[push-rules]: https://docs.gitlab.com/ee/api/projects.html
+> Read more in the [documentation on Push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
 
 ## Toggle Project Tools
 
@@ -114,7 +112,7 @@ If you're used to using SSH for your Git pushes, it was frustrating to
 still have to enter credentials whenever using LFS.
 
 GitLab will now leverage your SSH key when using LFS, meaning that if you're
-using LFS while connecting through ssh, you no longer have to manually
+using LFS while connecting through SSH, you no longer have to manually
 enter your credentials!
 
 File transfers of LFS still happen over HTTP.
@@ -139,7 +137,7 @@ from growing too large. You can now limit project size. This will take into acco
 
 You can set a global project limit and override that on group and project level, as an admin. This way, you can give particular projects extra space if necessary.
 
-TODO DOCS
+> Read mote in the [documentation about limiting the repository size](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#repository-size-limit)
 
 ## LDAP/Active Directory Improvements
 
@@ -160,7 +158,7 @@ for GitLab CE and EE:
 You can now recover your 2FA security codes using SSH. This should make it
 easier to recover your account, while still maintaining a level of security.
 
-TODO DOCS
+> Read more in the [documentation about recovering 2FA via SSH](https://docs.gitlab.com/ce/user/account//two_factor_authentication.html#generate-new-recovery-codes-using-ssh).
 
 ## Filter Tags by Name
 
@@ -198,7 +196,7 @@ to go into.
 This should make it easier to migrate if you already have existing projects
 or prefer something different than GitLab's way of importing your projects.
 
-TODO DOCS
+> Read more in the [documentation about importing your repositories from GitHub](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_github.html).
 
 ## Bulk update Merge Requests
 
