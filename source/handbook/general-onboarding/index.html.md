@@ -197,8 +197,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Join the `#interaction` channel on Slack.
 1. [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
-1. [ ] Hiring Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
-1. [ ] Hiring Manager: (for UX Designers) Add new team member to the GitLab Dribbble Organization.
+1. [ ] Hiring Manager: (for UX Designers) Give new team member `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
+1. [ ] Hiring Manager: (for UX Designers) Add new team member to the [GitLab Dribbble team](https://dribbble.com/gitlab).
 
 ### FOR MARKETING ONLY
 
