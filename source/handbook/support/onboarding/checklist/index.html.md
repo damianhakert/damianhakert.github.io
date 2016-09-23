@@ -276,6 +276,7 @@ Look at the `GitLab Support` Google Calendar to find customer calls you can list
 1. [ ] Create an issue on the internal Organization tracker to schedule time with the DevOps / Production team, so that you learn how to handle GitLab.com going down. Once you are trained for this, you are ready to be added to the on-call rotation.
 
 ### Stage 7. Optional Advanced GitLab Topics
+
 Discuss with your training manager if you should stop here and close your issue
 or continue. Also discuss which of the advanced topics should be followed. Do
 not just do all of them as they might not be relevant to what customers need
