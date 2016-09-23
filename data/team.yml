@@ -1557,6 +1557,17 @@
   gitlab:
   story:  |
           Joining September 21st
+          
+- name: J.E.J.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 26th
 
 - name: J.P.
   locality:
