@@ -26,7 +26,7 @@ and thus have to be created manually.
 
 <!-- more -->
 
-## Prepare the Debian package
+## Prepare the Debian Package
 
 First, the files which control the building of the Debian package
 are created. In the case of GoAccess, these are:
@@ -41,7 +41,7 @@ debian/rules     # Instructions for debhelper
 Debian themselves already offer [detailed documentations][debian-doc]
 to simplify the introduction to packaging.
 
-## Prepare the Docker container
+## Prepare the Docker Container
 
 On a host system, a container must be prepared in which a package can
 then be built. Start by creating a `Dockerfile`:
