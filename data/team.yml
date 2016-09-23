@@ -1569,6 +1569,17 @@
   story:  |
           Joining September 26th
 
+- name: E.v.H
+  locality:
+  country:
+  role: <Marketing Intern</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 26th
+
 - name: A.N.
   locality:
   country:
