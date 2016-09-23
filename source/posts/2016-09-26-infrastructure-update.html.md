@@ -3,7 +3,7 @@ title: "GitLab Infrastructure Update"
 author: Pablo Carranza
 author_twitter: psczg
 categories: gitlab
-image_title: '/images/blogimages/infrastructure.jpeg'
+image_title: '/images/blogimages/infrastructure-update.png'
 description: "Hear how we're working through infrastructure challenges as we scale."
 twitter_image: '/images/tweets/infrastructure-update.jpeg'
 ---
