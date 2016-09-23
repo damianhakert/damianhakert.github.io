@@ -250,7 +250,8 @@ some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, 
 from @gitlab".
 1. Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
 
-**Not sure where to go?**<br>
+**Not sure where to go?**
+
 If there is something that you want to discuss, but you do not feel that it is
 a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
@@ -331,7 +332,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
-1. When creating a calendar event that will be used company wide, please place it on the GitLab Availability Calendar. That way the event is easily located by all individuals.  
+1. When creating a calendar event that will be used company wide, please place it on the GitLab Availability Calendar. That way the event is easily located by all individuals.
 
 ### Video calls
 
@@ -445,6 +446,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
+    *  [Notebook stand](https://www.amazon.com/Roost-Laptop-Stand-Productivity-Lightweight/dp/B01C9KG8IG)
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
     *  [Yubikey](https://www.yubico.com/store/)
