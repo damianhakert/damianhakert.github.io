@@ -162,8 +162,8 @@ Ideally, the packages or artifacts built should be processed automatically,
 for example by uploading them to a mirror. In our case, we're using a
 bot which, when instructed by a [GitLab Webhook][webhooks-doc], downloads the artifacts
 onto a target server, adds them to a Aptly repository and publishes the
-repository, such that the process can be fully automated from package
-build to publication. The final result can be freely viewed on our Aptly mirror.
+repository, such that the process can be [fully automated from package
+build to publication][gitlab-cd]. The final result can be freely viewed on our Aptly mirror.
 
 ----
 
@@ -179,6 +179,8 @@ This post was [originally published][original-post] by [Adfinis SyGroup][adf].
 [ci]: /gitlab-ci/
 [debian-doc]: https://www.debian.org/doc/manuals/maint-guide/index.en.html
 [dockerfile-doc]: https://docs.docker.com/engine/tutorials/dockerimages/#/building-an-image-from-a-dockerfile
+[gitlab-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-deployment "Continuous Deployment with GitLab"
 [GoAccess]: https://goaccess.io/
 [original-post]: https://blog.adfinis-sygroup.ch/en/automated-debian-packagebuild-gitlabci/
 [webhooks-doc]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
+
