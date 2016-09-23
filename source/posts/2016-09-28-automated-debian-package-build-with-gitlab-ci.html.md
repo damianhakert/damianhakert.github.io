@@ -99,7 +99,7 @@ The GitLab URL and the CI token can be found in the GitLab
 project on the page **Settings** > **Runners**. Each project has its own CI token.
 
 In order for GitLab CI to know which commands in the container
-should be executed, the file `.gitlab-ci.yml` is created within the repository.
+should be executed, [the file `.gitlab-ci.yml`][ci-doc] is created within the repository.
 
 ```yaml
 # Is performed before the scripts in the stages step
@@ -173,9 +173,10 @@ This post was [originally published][original-post] by [Adfinis SyGroup][adf].
 
 <!-- identifiers -->
 
-[original-post]: https://blog.adfinis-sygroup.ch/en/automated-debian-packagebuild-gitlabci/
+[adf]: https://www.adfinis-sygroup.ch/
+[ci-doc]: https://docs.gitlab.com/ee/ci/quick_start/README.html
 [ci]: /gitlab-ci/
-[GoAccess]: https://goaccess.io/
 [debian-doc]: https://www.debian.org/doc/manuals/maint-guide/index.en.html
 [dockerfile-doc]: https://docs.docker.com/engine/tutorials/dockerimages/#/building-an-image-from-a-dockerfile
-[adf]: https://www.adfinis-sygroup.ch/
+[GoAccess]: https://goaccess.io/
+[original-post]: https://blog.adfinis-sygroup.ch/en/automated-debian-packagebuild-gitlabci/
