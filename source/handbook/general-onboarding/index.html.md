@@ -199,6 +199,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 1. [ ] Hiring Manager: (for UX Designers) Give new team member `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
 1. [ ] Hiring Manager: (for UX Designers) Add new team member to the [GitLab Dribbble team](https://dribbble.com/gitlab).
+1. [ ] Robert/Jacob V/Ernst: (for UX Designers) Add new team member to the `@uxers` User Group on Slack.
 
 ### FOR MARKETING ONLY
 
