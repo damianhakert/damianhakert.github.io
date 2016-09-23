@@ -8,7 +8,6 @@ description: Hear how we're working through infrastructure challenges as we scal
 twitter_image: 
 ---
 
-{::options parse_block_html="true" /}
 
 As a Lead of Infrastructure, my job is make GitLab.com run fast. 
 
@@ -24,17 +23,21 @@ responsibility to document this so other companies know what to do when they rea
 Last Thursday, I gave a GitLab.com infrastructure status report during our [daily team call][team-call). 
 Watch the recording or download the slides to see how we're working through our challenges with scaling. 
 
-<!-- More -->
+<!-- more -->
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kN-HcObb9zo" frameborder="0" allowfullscreen></iframe>
-</figure>
-<!-- blank line -->
+## Recording & Slides
 
 <figure class="video_container">
-  <iframe src="https://docs.google.com/presentation/d/11rCsJM41WAETPWqtWgfIxgfPRBQB4m037aZpgsGpzkk/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://www.youtube.com/embed/kN-HcObb9zo" frameborder="0" allowfullscreen></iframe>
 </figure>
+
+<br>
+
+<figure class="video_container">
+  <iframe src="https://docs.google.com/presentation/d/11rCsJM41WAETPWqtWgfIxgfPRBQB4m037aZpgsGpzkk/embed?start=false&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+<br>
 
 <!-- identifiers --> 
 [team-call]: https://about.gitlab.com/handbook/#team-call
