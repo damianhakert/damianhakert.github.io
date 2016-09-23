@@ -9,7 +9,7 @@ twitter_image: '/images/tweets/infrastructure-update.png'
 ---
 
 
-As a Lead of Infrastructure, my job is make [GitLab.com][gitlab] run fast. 
+As a Lead of Infrastructure, my job is to make [GitLab.com][gitlab] run fast. 
 
 Lately, it'e been a challenge. Why? We are hitting scale, adding 1.5 terabyes of git repos a week! 
 It's an interesting to problem to have. We have to store this information somewhere and make sure that 
