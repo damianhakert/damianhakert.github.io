@@ -4,7 +4,7 @@ author: Adfinis SyGroup
 author_twitter: adfinissygroup
 categories: GitLab CI
 image_title: '/images/blogimages/automated-debian-package-build-with-gitlab-ci/adfinis-sygroup-cover.png'
-description: ""
+description: "Continuous Deployment with GitLab: how to build and deploy a Debian Package with GitLab CI"
 twitter_image: '/images/tweets/automated-debian-package-build-with-gitlab-ci.png'
 ---
 
