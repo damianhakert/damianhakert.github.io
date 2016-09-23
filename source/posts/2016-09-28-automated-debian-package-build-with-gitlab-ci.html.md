@@ -132,7 +132,7 @@ The package that is created will then be made available in the web interface of 
 
 ## Outlook
 
-Ideally, the packages or artefacts built should be processed automatically, for example by uploading them to a mirror. In our case, we're using a bot which, when instructed by a GitLab web hook, downloads the artefacts onto a target server, adds them to a Aptly repository and publishes the repository, such that the process can be fully automated from package build to publication. The final result can be freely viewed on our Aptly mirror.
+Ideally, the packages or artifacts built should be processed automatically, for example by uploading them to a mirror. In our case, we're using a bot which, when instructed by a GitLab web hook, downloads the artifacts onto a target server, adds them to a Aptly repository and publishes the repository, such that the process can be fully automated from package build to publication. The final result can be freely viewed on our Aptly mirror.
 
 ----
 
