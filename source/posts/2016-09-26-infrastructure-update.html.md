@@ -27,11 +27,15 @@ Watch the recording or download the slides to see how we're working through our 
 
 ## Recording & Slides
 
+###Recording 
+
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/kN-HcObb9zo" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <br>
+
+###Slides
 
 <figure class="video_container">
   <iframe src="https://docs.google.com/presentation/d/11rCsJM41WAETPWqtWgfIxgfPRBQB4m037aZpgsGpzkk/embed?start=false&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
