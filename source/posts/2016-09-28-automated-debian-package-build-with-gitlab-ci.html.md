@@ -6,6 +6,7 @@ categories: GitLab CI
 image_title: '/images/blogimages/automated-debian-package-build-with-gitlab-ci/adfinis-sygroup-cover.png'
 description: "Continuous Deployment with GitLab: how to build and deploy a Debian Package with GitLab CI"
 twitter_image: '/images/tweets/automated-debian-package-build-with-gitlab-ci.png'
+ee_cta: true
 ---
 
 This post is a customer story by [Adfinis SyGroup][adf].
