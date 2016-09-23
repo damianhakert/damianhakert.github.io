@@ -170,7 +170,6 @@ build to publication][gitlab-cd]. The final result can be freely viewed on our A
 This post was [originally published][original-post] by [Adfinis SyGroup][adf].
 {:.note}
 
-
 <!-- identifiers -->
 
 [adf]: https://www.adfinis-sygroup.ch/
@@ -183,4 +182,3 @@ This post was [originally published][original-post] by [Adfinis SyGroup][adf].
 [GoAccess]: https://goaccess.io/
 [original-post]: https://blog.adfinis-sygroup.ch/en/automated-debian-packagebuild-gitlabci/
 [webhooks-doc]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
-
