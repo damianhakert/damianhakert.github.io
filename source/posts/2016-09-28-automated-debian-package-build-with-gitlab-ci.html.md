@@ -82,8 +82,8 @@ The container is now created and ready for use.
 
 ## Configure GitLab CI
 
-Now, the prepared Docker container has to be registered for the
-current project, in which a package is to be built:
+Now, the prepared Docker container has to be [registered for the
+current project][ci-docker-registry], in which a package is to be built:
 
 ```shell
 gitlab-ci-multi-runner register \
@@ -160,7 +160,7 @@ interface of GitLab, where it can be downloaded.
 
 Ideally, the packages or artifacts built should be processed automatically,
 for example by uploading them to a mirror. In our case, we're using a
-bot which, when instructed by a GitLab web hook, downloads the artifacts
+bot which, when instructed by a [GitLab Webhook][webhooks-doc], downloads the artifacts
 onto a target server, adds them to a Aptly repository and publishes the
 repository, such that the process can be fully automated from package
 build to publication. The final result can be freely viewed on our Aptly mirror.
@@ -175,8 +175,10 @@ This post was [originally published][original-post] by [Adfinis SyGroup][adf].
 
 [adf]: https://www.adfinis-sygroup.ch/
 [ci-doc]: https://docs.gitlab.com/ee/ci/quick_start/README.html
+[ci-docker-registry]: https://docs.gitlab.com/ee/ci/docker/using_docker_build.html
 [ci]: /gitlab-ci/
 [debian-doc]: https://www.debian.org/doc/manuals/maint-guide/index.en.html
 [dockerfile-doc]: https://docs.docker.com/engine/tutorials/dockerimages/#/building-an-image-from-a-dockerfile
 [GoAccess]: https://goaccess.io/
 [original-post]: https://blog.adfinis-sygroup.ch/en/automated-debian-packagebuild-gitlabci/
+[webhooks-doc]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
