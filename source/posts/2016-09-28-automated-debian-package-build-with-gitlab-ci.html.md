@@ -1,5 +1,5 @@
 ---
-title: "Automated Debian Package <br> Build with GitLab CI"
+title: "Automated Debian Package Build with GitLab CI"
 author: Adfinis SyGroup
 author_twitter: adfinissygroup
 categories: GitLab CI
@@ -11,17 +11,25 @@ twitter_image: '/images/tweets/automated-debian-package-build-with-gitlab-ci.png
 This post is a customer story by [Adfinis SyGroup][adf].
 {:.note}
 
-We've decided to use [GitLab CI][ci] to build Debian packages automatically. GitLab CI allows users to execute tasks based on definable events, such as Git tags.
+We've decided to use [GitLab CI][ci] to build Debian packages
+automatically. GitLab CI allows users to execute tasks based
+on definable events, such as Git tags.
 
-We've created a generic Docker container which contains the base package-building tools and is used by GitLab to build the package. Updates can be easily installed in the build environment, since the Docker container can be simply replaced with a new one.
+We've created a generic Docker container which contains the base
+package-building tools and is used by GitLab to build the package.
+Updates can be easily installed in the build environment, since the
+Docker container can be simply replaced with a new one.
 
-The following shows the automated packaging of the [GoAccess] log analysis tool. Many tools are not packaged in their latest version and thus have to be created manually.
+The following shows the automated packaging of the [GoAccess] log
+analysis tool. Many tools are not packaged in their latest version
+and thus have to be created manually.
 
 <!-- more -->
 
 ## Prepare the Debian package
 
-First, the files which control the building of the Debian package are created. In the case of GoAccess, these are:
+First, the files which control the building of the Debian package
+are created. In the case of GoAccess, these are:
 
 ```shell
 debian/changelog # Changes to the package and software  
@@ -30,11 +38,13 @@ debian/control   # Package-specific information such as dependencies and descrip
 debian/rules     # Instructions for debhelper 
 ```
 
-Debian themselves already offer [detailed documentations][debian-doc] to simplify the introduction to packaging.
+Debian themselves already offer [detailed documentations][debian-doc]
+to simplify the introduction to packaging.
 
 ## Prepare the Docker container
 
-On a host system, a container must be prepared in which a package can then be built. Start by creating a `Dockerfile`:
+On a host system, a container must be prepared in which a package can
+then be built. Start by creating a `Dockerfile`:
 
 ```dockerfile
 FROM debian:wheezy  
@@ -42,8 +52,11 @@ ADD  setup.sh /opt/
 RUN  /bin/bash /opt/setup.sh  
 ```
 
-In the `Dockerfile` ([official documentation][dockerfile-doc] is indicated which base image is to be used. In this case, it's Debian Wheezy. After that, the `setup.sh` script is copied into the `/opt/` directory of the container. 
-In `setup.sh`, the mirror which is going to be used is configured, and the most basic dependencies are installed, which can be used in any build:
+In the `Dockerfile` ([official documentation][dockerfile-doc] is indicated
+which base image is to be used. In this case, it's Debian Wheezy. After
+that, the `setup.sh` script is copied into the `/opt/` directory of the container. 
+In `setup.sh`, the mirror which is going to be used is configured, and
+the most basic dependencies are installed, which can be used in any build:
 
 
 ```shell
@@ -69,7 +82,8 @@ The container is now created and ready for use.
 
 ## Configure GitLab CI
 
-Now, the prepared Docker container has to be registered for the current project, in which a package is to be built:
+Now, the prepared Docker container has to be registered for the
+current project, in which a package is to be built:
 
 ```shell
 gitlab-ci-multi-runner register \
@@ -81,9 +95,11 @@ gitlab-ci-multi-runner register \
 --docker-image "generic-package-build-runner:v1"
 ```
 
-The GitLab URL and the CI token can be found in the GitLab project on the page **Settings** > **Runners**. Each project has its own CI token.
+The GitLab URL and the CI token can be found in the GitLab
+project on the page **Settings** > **Runners**. Each project has its own CI token.
 
-In order for GitLab CI to know which commands in the container should be executed, the file `.gitlab-ci.yml` is created within the repository.
+In order for GitLab CI to know which commands in the container
+should be executed, the file `.gitlab-ci.yml` is created within the repository.
 
 ```yaml
 # Is performed before the scripts in the stages step
@@ -115,24 +131,39 @@ run-build:
       - build/*
 ```
 
-The most important part of this file is the `run-build` stage. This part defines which actions are executed, when they are executed and the locations of the files created in the build.
+The most important part of this file is the `run-build` stage.
+This part defines which actions are executed, when they are
+executed and the locations of the files created in the build.
 
-Since a generic Docker container was created, the necessary dependencies have to be installed in the first step.
+Since a generic Docker container was created, the necessary
+dependencies have to be installed in the first step.
 
-After that, the building procedure is prepared with `autoreconf`. Among other things, this results in the creation of the Makefile, which is indispensable for the build. Since we're using the copyright from the package, we'll copy it to `debian/`.
+After that, the building procedure is prepared with `autoreconf`.
+Among other things, this results in the creation of the Makefile,
+which is indispensable for the build. Since we're using the copyright
+from the package, we'll copy it to `debian/`.
 
-The building process is then started with the command `dpkg-buildpackage`. The package is compiled and the Debian package is created. These packages are then moved to the `build` directory that was created and uploaded to GitLab.
+The building process is then started with the command `dpkg-buildpackage`.
+The package is compiled and the Debian package is created. These packages
+are then moved to the `build` directory that was created and uploaded to GitLab.
 
 ## Workflow
 
-As soon as we have a new release, a Git tag is created. This Git tag starts a new build in GitLab, which builds the package using the latest version. 
-The package that is created will then be made available in the web interface of GitLab, where it can be downloaded. 
+As soon as we have a new release, a Git tag is created. This Git tag
+starts a new build in GitLab, which builds the package using the latest version.
+The package that is created will then be made available in the web
+interface of GitLab, where it can be downloaded. 
 
 ![Build Debian Package with GitLab CI](/images/blogimages/automated-debian-package-build-with-gitlab-ci/gitlab-ci-build.png){:.shadow}
 
 ## Outlook
 
-Ideally, the packages or artifacts built should be processed automatically, for example by uploading them to a mirror. In our case, we're using a bot which, when instructed by a GitLab web hook, downloads the artifacts onto a target server, adds them to a Aptly repository and publishes the repository, such that the process can be fully automated from package build to publication. The final result can be freely viewed on our Aptly mirror.
+Ideally, the packages or artifacts built should be processed automatically,
+for example by uploading them to a mirror. In our case, we're using a
+bot which, when instructed by a GitLab web hook, downloads the artifacts
+onto a target server, adds them to a Aptly repository and publishes the
+repository, such that the process can be fully automated from package
+build to publication. The final result can be freely viewed on our Aptly mirror.
 
 ----
 
