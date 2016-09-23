@@ -1613,6 +1613,17 @@
   story:  |
           Joining October 3rd
 
+- name: D.F.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/junior-designer/">Junior Designer</a>
+  reports_to: Designer
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 3rd
+
 - name: C.H.
   locality:
   country:
