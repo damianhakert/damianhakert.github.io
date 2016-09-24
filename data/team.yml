@@ -1132,7 +1132,7 @@
   locality: Madrid
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: Frontend Lead
+  reports_to: UX Lead
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
   gitlab: cperessini
@@ -1149,7 +1149,7 @@
   locality: Shanghai
   country: China
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: Frontend Lead
+  reports_to: UX Lead
   picture: hazel.jpg
   twitter: hazelyuyang
   gitlab: hazelyang
@@ -1213,7 +1213,7 @@
   locality: Portland, OR
   country: USA
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">Senior UX Designer</a>
-  reports_to: Frontend Lead
+  reports_to: UX Lead
   picture: taurie.jpg
   twitter: tauried
   gitlab: tauriedavis
@@ -1365,7 +1365,7 @@
   locality: Breda
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: Frontend Lead
+  reports_to: UX Lead
   picture: dimitrie.jpg
   twitter: dimitrieh
   gitlab: dimitrieh
@@ -1507,7 +1507,7 @@
   locality: Lisbon
   country: Portugal
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: Frontend Lead
+  reports_to: UX Lead
   picture: pedro.jpg
   twitter: pedromscom
   gitlab: pedroms
