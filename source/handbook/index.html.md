@@ -16,6 +16,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 {: .no_toc}
 
 * [Engineering](/handbook/engineering)
+  * [Support](/handbook/support)
+  * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
   * [Blog](/handbook/marketing/blog)
