@@ -22,13 +22,13 @@ If people want advice on open source, remote work, or other things related to Gi
 
 We would love to help but we want to make sure the content is radiated as wide as possible. Can we do the following?
 
-1. We schedule a 50 minute skype/google hangout/office visit
-1. You send an initial list of questions no less than 24 hours in advance that you share via a Google Doc that everyone with the link can edit
-1. It is very much OK to keep adding questions to the doc and to ask questions not in the doc during the interview
-1. You audio record the conversation, please test the technology in advance
-1. You write up a draft post within 48 hours after the interview and submit it to https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/ If that is too hard paste the interview in the Google Doc with the questions
-1. If it is interesting our marketing department will work to publish the post
-1. A great examples of this in action is https://about.gitlab.com/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/ that got to nr. 1 on the fontpage on Hacker News
+1. We schedule a 50 minute skype/google hangout/office visit.
+1. You send an initial list of questions no less than 24 hours in advance that you share via a Google Doc that everyone with the link can edit.
+1. It is very much OK to keep adding questions to the doc and to ask questions not in the doc during the interview.
+1. You audio record the conversation, please test the technology in advance.
+1. You write up a draft post within 48 hours after the interview and submit it to https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/ If that is too hard paste the interview in the Google Doc with the questions.
+1. If it is interesting our marketing department will work to publish the post.
+1. A great examples of this in action is https://about.gitlab.com/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/ that got to nr. 1 on the fontpage on Hacker News.
 
 The EA should follow up to chase the draft post.
 
