@@ -3,6 +3,32 @@ layout: markdown_page
 title: Support
 ---
 
+## Welcome to the GitLab Support Handbook
+{: .no_toc}
+
+----
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Support Resources
+{: #marketing-handbooks}
+
+- [Onboarding]
+- [Knowledge Base]
+- [Knowledge Base]
+   - [Development Environment]
+   - [Field Marketing]
+   - [Marketing Operations]
+   - [Online Marketing]
+
+----
+
 ## Communication<a name="reach-support"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests, but for issues that relate to the support group.
@@ -19,14 +45,6 @@ title: Support
 - [External support resources for the team](/handbook/support/external/)
 - [Mentions Channel](/handbook/support/mentions-of-gitlab)
 - [Zendesk](/handbook/support/zendesk)
-
-----
-
-## Contents of the page
-{:.no_toc}
-
-- TOC
-{:toc}
 
 ----
 
@@ -330,7 +348,7 @@ Fellow GitLab team members can reach out for help from the Support Team in vario
 
 1. For normal support questions (can GitLab do x, how do I do x with GitLab) email
 the internal support email alias that is listed in the "GitLab Email Forwarding"
-google doc. Those emails create tickets in ZenDesk.
+Google doc. Those emails create tickets in ZenDesk.
 1. For longer term or larger scope questions, such as discussing customized training
 requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/),
 adding the "Support" label and @ mentioning one or more Service Engineers.
@@ -454,37 +472,6 @@ periodically. To flag an issue as ham:
 2. Go to: https://gitlab.com/admin/spam_logs
 3. Scan the contents of each log. If it appears that a user is trying to post valid
    information, click on "Submit as ham".
-
-### Mailing list<a name="mailing-list"></a>
-
-Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
-
-### Forum<a name="gitlab-forum"></a>
-
-Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
-within the Forum environment.
-
-### TODO Docker<a name="docker"></a>
-
-TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-ce/) page flow into ZenDesk.
-
-### Stack Overflow<a name="stack-overflow"></a>
-
-The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
-flow into ZenDesk, but can only be responded to from within Stack Overflow.
-
-### Reddit<a name="reddit"></a>
-
-Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
-
-### Quora<a name="quora"></a>
-
-Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
-
-## Non channel work<a name="other"></a>
-
-If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
-You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
 
 ## Support Policies
 
