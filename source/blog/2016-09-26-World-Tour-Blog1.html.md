@@ -5,7 +5,7 @@ date: 2016-10-01 08:00
 comments: true
 author: Emily Kyle
 author_twitter: emilylucie
-image_title: '/images/blogimages/worldtouramplifyyourcodet.JPG'
+image_title: '/images/blogimages/worldtouramplifyyourcode.JPEG'
 ---
 
 There are times when pretty sharp teams get into treble and face minor set backs when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that. Luckily, GitLab is here to pitch you an idea you to help get your act together. We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.  Are you ready to amplify your code?
