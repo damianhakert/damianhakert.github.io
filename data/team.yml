@@ -1572,7 +1572,7 @@
 - name: E.v.H
   locality:
   country:
-  role: <Marketing Intern</a>
+  role: <a href="https://about.gitlab.com/jobs/marketing-intern/">Marketing Intern</a>
   reports_to: CMO
   picture: logo-extra-whitespace.png
   twitter:
