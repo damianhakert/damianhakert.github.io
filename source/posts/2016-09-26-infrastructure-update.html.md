@@ -17,7 +17,7 @@ It's an interesting problem to have. We have to store this information somewhere
 while we're gaining data and users, GitLab.com keeps working fine. 
 
 A large part of the issue we're running into as we scale is that there is little or no documentation 
-on how to tackle this kind of problem. While there are companies have written high-level posts, almost none of them
+on how to tackle this kind of problem. While there are companies that have written high-level posts, almost none of them
 have shared **how** they arrived at their solutions.
 
 One of our main issues in the past six months has been around storage. We built a Cephfs cluster to tackle both the capacity and
