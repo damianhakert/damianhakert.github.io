@@ -769,6 +769,8 @@
   picture: felipe_artur.jpg
   twitter: FelipeArtur
   gitlab: felipe_artur
+  maintains: |
+             <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here to make GitLab better. Likes playing RTS video games and boxing in his free time.
 
