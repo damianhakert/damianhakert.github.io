@@ -285,17 +285,20 @@ or easy escalation when needed.
 *Pre Customer Training Checklist:*
 
 + Start training request issue on the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues)
-+ Ask teammate to assist you as chat Moderator.
++ Trainer: Ask teammate to assist you as chat Moderator.
 + In case of End User Training:
-    + Request average environment information (OS) to the customer.
-    + Send git installation instructions email
+    + Trainer: Request average environment information (OS) to the customer.
+    + Trainer: Send git installation instructions email
 
 *Customer Training Checklist:*
 
-+ Announce at the start of the call
++ Trainer: Announce at the start of the call
  > This call/session may be monitored and recorded for record-keeping, training and quality-assurance purposes
 Ensure the other party consents.
-+ Record the call via WebEx.
++ Trainer: Record the call via WebEx.
++ Moderator: Take (and reply) questions made on the chat.
++ Moderator: Interrupt Trainer if audio/screenshare has issues.
++ Moderator: Send questions from the chat to the Trainer during Q&A
 
 *Post Customer Training Checklist:*
 
