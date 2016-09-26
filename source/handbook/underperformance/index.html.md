@@ -15,7 +15,11 @@ underperformance. Note that someone may be terminated without undertaking these 
 needs to improve. If there are extenuating circumstances some leeway may be
 granted depending on the situation.  This is an area that People Operations can provide a sounding board / voice of reason on.
 
-2) If the lack of performance persists, the manager moves to documenting clear expectations for improvement in a performance improvement plan (PIP). The intention of a PIP is to support the individual in any way required to make their employment a positive experience but also to make clear that immediate and sustained improvement is required. [Here](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) is a good for resource, published by the Society of Human Resources, to review when you think this step is needed to push past the current performance issues.
+2) If the lack of performance persists, the manager moves to documenting clear expectations for improvement
+in a performance improvement plan (PIP). The intention of a PIP is to support the individual in any way required
+to make their time at GitLab a positive experience but also to make clear that immediate and sustained improvement
+is required. The Society for Human Resources Management (SHRM) has a [helpful guide](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) to review when
+you this step is needed to push past the current performance issues.
 
 A performance improvement plan includes the following:
 
@@ -23,7 +27,7 @@ A performance improvement plan includes the following:
    * Clear direction including metrics and concrete goals to improve (e.g. finish X before Y)
    * Resources/coaching necessary to achieve goals
 
-This [basic PIP template](https://docs.google.com/document/d/1AsVwUikcUofl58eLWhiEEUFJqtwgUQNdDo5lM98bP7o/edit) will provide a good start to creating the document. The template should be customized to fit the particular situation. All PIPs should be forwarded to the People Ops Generalist or Director for a final review before delivery.  This step will help ensure consistency in the PIP process for any affected team member and to protect GitLab should legal claims arise as a result of termination.  
+This [basic PIP template](https://docs.google.com/document/d/1AsVwUikcUofl58eLWhiEEUFJqtwgUQNdDo5lM98bP7o/edit) will provide a good start to creating the document. The template should be customized to fit the particular situation. All PIPs should be forwarded to the People Ops Generalist or Director for a final review and approval before delivery. This step will help ensure consistency in the PIP process for any affected team member and to protect GitLab should legal claims arise as a result of termination.  
 
 
 3) Team member gets time (e.g. 2-4 weeks; this can be longer or shorter and depends on the role and the circumstances) to demonstrate improvements and meet the goals that are outlined in the performance improvement plan. If insufficient improvements are made, the period for the performance improvement plan may be extended, at the discretion of the manager.
