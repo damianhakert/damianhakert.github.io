@@ -1,16 +1,24 @@
 ---
-layout: post
 title: “World Tour: Amplify Your Code"
-date: 2016-10-01 08:00
-comments: true
 author: Emily Kyle
 author_twitter: emilylucie
+categories: events
 image_title: '/images/blogimages/worldtouramplifyyourcode.JPG'
+description: 
+twitter_image:
 ---
 
-There are times when pretty sharp teams get into treble and face minor set backs when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that. Luckily, GitLab is here to pitch you an idea you to help get your act together. We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.  Are you ready to amplify your code?
+There are times when pretty sharp teams get into treble and face minor set backs 
+when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that. 
+Luckily, GitLab is here to pitch you an idea you to help get your act together. 
+We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.  
 
-The World tour will makes stops in London, New York, and Amsterdam before ending on a high note in San Francisco at our user conference early next year. The GitLab team will travel city to city, working in concert with git users like yourself, gathering feedback and stories to help make your git workflow even more seamless. We would also like to trumpet about some major developments features in GitLab. 
+Are you ready to amplify your code?
+
+The World tour will makes stops in London, New York, and Amsterdam before ending on a high note 
+in San Francisco at our user conference early next year. The GitLab team will travel city to city, 
+working in concert with git users like yourself, gathering feedback and stories to help make your git 
+workflow even more seamless. We would also like to trumpet about some major developments features in GitLab. 
 
 Here is a liszt of some of the topics we will be covering: 
 1. Continuous Integration
