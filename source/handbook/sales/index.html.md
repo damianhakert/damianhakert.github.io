@@ -56,11 +56,13 @@ Before prospecting and engaging with a prospect, check to see if they are using 
 
 ### Parent and Child Accounts <a name="parent"></a>
 
-* A Parent account is the business/organization which owns another business/organization.  Example: Disney is the parent account of ESPN and ABC.
-* A Child Account is the organization you may have an opportunity with but is owned by the Parent Account.
-* You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities.
-* When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page.
-* We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account.
+* A Parent Account is the business/organization which owns another business/organization.  Example: The Walt Disney Company is the parent account of Disney-ABC Television Group and Disney.com.
+* A Child Account is the organization you may have an opportunity with but is owned by the Parent Account. A Child Account can be a business unit, subsidiary, or a satellite office of the Parent Account.
+* You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities. However, the very first deal with a Parent Account, whether it is with the Parent Account or Child Account, should be marked as "New Business". All other deals under the Parent Account will fall under Add-On Business, Existing Account - Cross-Sell, or Renewal Business (see Opportunity Types section).
+* If the Parent and Child accounts have the same company name, either add the division, department, business unit, or location to the end of the account name. For example, Disney would be the name of the Parent Account, but the Child Account would be called The Walt Disney Company Latin America or The Walt Disney Company, Ltd Japan.
+* When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page. If done properly, the Parent/Child relationship will be displayed in the Account Hierarchy section of the account page.
+* Remember that a child account can also be a parent account for another account. For example, Disney-ABC Television Group is the child for The Walt Disney Company, but is the parent for ABC Entertainment Group.
+* We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account, as well as roll-up all Closed Won business against a Parent Account.
 
 ### When to create an Opportunity <a name="opportunity"></a>
 
@@ -106,10 +108,9 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 ### Opportunity Types <a name="types"></a>
 
-1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
-1. Web Direct -  This type should be used for any new business who pays directly online
-1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
-1. Existing Account (new division) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
+1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
+1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages <a name="stages"></a>
@@ -121,14 +122,18 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
+1. Unqualified - This should only be used when an opportunity is passed from the BDR team, but does not meet our stanard qualification criteria. Once you've moved the opportunity to Discovery or later, the opportunity can no longer be marked as Unqualified.
 
 ### Processing Orders <a name="processing"></a>
 
 #### Step 1 - New Account
 1. Click on the Accounts tab
 1. Click on New button to Create Account
+1. Select either Standard or Channel record Type. Each record type will have a different Account layout based on our engagement.
+1. Stanard Record Type should be used for all non-reseller partner accounts.
+1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
-1. A specific custom field has been created to capture the Entity information.
+1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form.
  * NL
  * US
 1. Sales rep will choose the Entity from the Dropdown
@@ -139,6 +144,9 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 #### Step 3 -  Opportunity
 1. Create Opportunity by navigating to the Opportunity Related list and click on New button
+1. Select the Opportunity Record Type. Like Accounts, the options are Standard and Channel.
+1. Standard should be selected when engaged in a Sales opportunity.
+1. Channel should be selected when engaged in a Reseller opportunity (attempting to sign a reseller partner in a new territory, not Sales opportunities where resellers are involved).
 1. Enter all the required fields based on your business process and click on Save Button
 
 #### Step 4 - Zquotes – New QUOTE
@@ -153,10 +161,10 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 * This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see [Creating a Quote for Partner Section](#resellerQuote)
 1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
 1. Payment Methods currently defined are as follows –
- * Credit card
+ * Credit Card
  * ACH
  * Check
- * Wire transfer
+ * Wire Transfer
 1. Currency - by default below are the fields available, the currencies can be removed/Added or hidden based on your business needs
  * USD
  * EUR
@@ -226,7 +234,7 @@ The following quote metrics are available:
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
  * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
-#### Step 8 – Close Win an Opportunity
+#### Step 8 – Close Won an Opportunity
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
