@@ -282,6 +282,27 @@ via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) u
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
+*Pre Customer Training Checklist:*
+
++ Start training request issue on the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues)
++ Ask teammate to assist you as chat Moderator.
++ In case of End User Training:
+    + Request average environment information (OS) to the customer.
+    + Send git installation instructions email
+
+*Customer Training Checklist:*
+
++ Announce at the start of the call
+ > This call/session may be monitored and recorded for record-keeping, training and quality-assurance purposes
+Ensure the other party consents.
++ Record the call via WebEx.
+
+*Post Customer Training Checklist:*
+
++ Upload the call to the WebEx platform - https://www.youtube.com/watch?v=h7pLj3iJKsc
++ Close training request issue.
++ Start debrief issue on the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues)
+
 
 ## Team member is unavailable
 {: #not-available}
