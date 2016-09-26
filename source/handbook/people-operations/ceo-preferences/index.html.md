@@ -14,7 +14,7 @@ In written communication, I appreciate the top-down approach. Set the subject he
 
 I get many email on which I am only cc'd on, I would very much appreciate if you started emails intended specifically for me with "Sid," or some other salutation that makes it clear that the message is for me.
 
-I have accounts on LinkedIn and Facebook, and I am happy to connect with you on both networks. On LinkedIn, I sometimes send a friend request to you, but on Facebook I will not. I will happily accept your LinkedIn and Facebook friend request, but given that I am the CEO, I don’t want to impose myself on anyone. You can also find me on twitter @sytses.
+I have accounts on [LinkedIn](https://www.linkedin.com/in/sijbrandij) and [Facebook](https://www.facebook.com/sytse). I will not send invites to team members on those networks since as the CEO I don't want to impose myself on anyone. But I would love to connect and I will happily accept your LinkedIn and Facebook friend request. You can also find me on Twitter as [@sytses](https://twitter.com/sytses).
 
 ## Pick your brain meetings
 
