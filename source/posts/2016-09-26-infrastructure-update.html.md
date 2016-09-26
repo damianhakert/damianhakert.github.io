@@ -20,7 +20,7 @@ A large part of the issue we're running into as we scale is that there is little
 on how to tackle this kind of problem. While there are companies that have written high-level posts, almost none of them
 have shared **how** they arrived at their solutions.
 
-One of our main issues in the past six months has been around storage. We built a Cephfs cluster to tackle both the capacity and
+One of our main issues in the past six months has been around storage. We built a CephFS cluster to tackle both the capacity and
 performance issues of using NFS appliances. Another more recent issue is around PostgreSQL vacuuming and how it affects performance locking up the database
 given the right kind of load. 
 
