@@ -25,15 +25,7 @@ issue tracker or more generic chat channels for.
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
 
-<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
-<<<<<<< 5fd30dec30db326264b258a98cd34447d08d1f62
 With every release of GitLab, we want to achieve each of the following
-=======
-With every release of GitLab, we want to achieve each one of those following
->>>>>>> Add responsabilities and how we work sections
-=======
-With every release of GitLab, we want to achieve each one of those following
->>>>>>> Add responsabilities and how we work sections
 goals.
 
 1. Improve GitLab's existing tools.
@@ -157,8 +149,6 @@ certain behaviours.
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
 
-<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
-<<<<<<< 5fd30dec30db326264b258a98cd34447d08d1f62
 ## Alignment
 
 Balancing our great ambition with our dedication to customer success is tough. Add in a growing number of dedicated teams focusing on areas of the product, and it becomes challenging to make sure everything we work on is truly the right thing to work on, right now. To help with that, it's good to keep a few things in mind. To ask a few questions to keep us all aligned.
@@ -183,28 +173,36 @@ To make it concrete with an example, the CI/CD team might ask:
 * What can we do to make customers happy? ([list](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=✓&label_name%5B%5D=CI&label_name%5B%5D=customer))
 * What can we do to ship EE features for CI? (e.g. [gitlab-org/gitlab-ee#933](https://gitlab.com/gitlab-org/gitlab-ee/issues/933))
 
-## CI/CD<a name="cicd"></a>
-=======
-=======
->>>>>>> Add responsabilities and how we work sections
-### Responsibilities of a Product Manager
+# How to work as a PM
 
-As a Product Manager, you are expected to act as the reference for everything
-related to your area of responsibilities.
+If you follow the guidelines above, you won't be writing long, detailed
+specs for a part of the product for the next year. So how should you be
+spending your time?
 
-Everyone has opinions about the product, and all opinions matter and must be
-heard. Our great company culture empowers any employee to take decisions
-regarding existing or upcoming features. However when it's time to make a
-decision regarding the direction of the product, it's your responsibility as
-Product Manager to take the lead.
+Invest the majority of your time in understanding the problem deeply (say 70%).
+Then spend 10% of your time writing the spec _for only the first iteration_ and
+handling comments, while the remaining 20% you work on promoting it.
 
-Your other responsibilities, and also what you are not responsible about, are
-listed in [the job description](https://about.gitlab.com/jobs/product-manager/).
+A problem you understand well will always have a (seemingly) simple or obvious
+solution. Reduce it to its simplest form (see above) and only ship that.
+
+Once you've shipped your solution, both you and the community will
+have a much better idea on what can be improved and what should be prioritized
+for future iterations.
+
+As a PM you're the person that has to kick-off new initiatives. You're not
+responsible for shipping something on time, but you are responsible for taking
+action and setting the direction. Be active everywhere, over-communicate and
+sell the things you think are important to the rest of the team and community.
+
+As a PM you don't own the product: ask other people for feedback and give
+team members and the community the space to suggest and create without your
+direct intervention. It's your job to make sure something is decided and
+planned, not to come up with every idea or change.
 
 ### Workflow
 
-Almost everything that we do is documented in an issue. Issues are how GitLab
-works. Every feature, bug, feedback is documented and processed.
+Almost everything that we do is documented in an issue.
 
 #### How to submit a new issue
 
@@ -355,50 +353,10 @@ feature request/merge request. In all cases and without exception, you should be
 nice and polite when interacting with users and customers.
 
 ## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
-<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
->>>>>>> Add responsabilities and how we work sections
 
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
-
-<<<<<<< 5fd30dec30db326264b258a98cd34447d08d1f62
-# How to work as a PM
-
-If you follow the guidelines above, you won't be writing long, detailed
-specs for a part of the product for the next year. So how should you be
-spending your time?
-
-Invest the majority of your time in understanding the problem deeply (say 70%).
-Then spend 10% of your time writing the spec _for only the first iteration_ and
-handling comments, while the remaining 20% you work on promoting it.
-
-A problem you understand well will always have a (seemingly) simple or obvious
-solution. Reduce it to its simplest form (see above) and only ship that.
-
-Once you've shipped your solution, both you and the community will
-have a much better idea on what can be improved and what should be prioritized
-for future iterations.
-
-As a PM you're the person that has to kick-off new initiatives. You're not
-responsible for shipping something on time, but you are responsible for taking
-action and setting the direction. Be active everywhere, over-communicate and
-sell the things you think are important to the rest of the team and community.
-
-As a PM you don't own the product: ask other people for feedback and give
-team members and the community the space to suggest and create without your
-direct intervention. It's your job to make sure something is decided and
-planned, not to come up with every idea or change.
 
 # Links
-=======
-## Relevant links
->>>>>>> Add responsabilities and how we work sections
-=======
-
-For more insights into our vision on Continuous Integration and Continuous
-Deployment & Delivery, see the [CI/CD page](/direction/cicd).
-
-## Relevant links
->>>>>>> Add responsabilities and how we work sections
 
 - [Engineering Workflow](/handbook/engineering/workflow)
