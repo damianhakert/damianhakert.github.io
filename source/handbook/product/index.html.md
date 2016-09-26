@@ -219,7 +219,7 @@ and the next steps.
 4. Choose which labels are relevant to the issue. If you are unsure about what
 certain labels are for, head up to the Labels page ([CE](https://gitlab.com/gitlab-org/gitlab-ce/labels)
 or [EE](https://gitlab.com/gitlab-org/gitlab-ee/labels)) and read the
-descriptions. The Engineering handbook also provides [good hints](https://about.gitlab.com/handbook/engineering/workflow/#labelling-issues)
+descriptions. The Engineering handbook provides [good hints](https://about.gitlab.com/handbook/engineering/workflow/#labelling-issues)
 on how to choose the right label.
 5. Unless you know what you are doing, do not
     - assign someone to the issue
@@ -263,14 +263,14 @@ meta label.
 
 A general guideline is that an issue should only span one release. If we know an
 issue is going to span multiple releases, it has to split into multiple issues.
-Unless this issue is labeled `meta` or `epic`. In that case, the issue will span
-two or more releases.
+Unless this issue is labeled `meta` or `epic`. Those issues are the only ones
+allowed to last 2 or more releases.
 
 #### Which issue should you be working on?
 
 When you don't have specific tasks assigned, you should work on issues that are
 labeled `Product work`, in both EE and CE projects. These are issues that need
-our love and attention the most.
+our attention the most.
 
 ### Where should you look when you need help?
 
@@ -320,10 +320,13 @@ harshly, you might discourage other people to contribute, which is something we
 want to avoid.
 
 However, as the number of issues and merge requests grow more and more, we should
-be diligent about rejecting features we will not do. It's better for everyone:
-for the product team so we don't maintain a huge backlog of things we will not
-do anyway, and for the users who won't have to wait for our feedback
+be diligent about rejecting features we are sure will not do. It's better for
+everyone: for the product team so we don't maintain a huge backlog of things we
+will not do anyway, and for the users who won't have to wait for our feedback
 indefinitely.
+
+Note: it's fine to not respond to issues that we think have potential until they
+gather momentum.
 
 Feature requests and merge requests can be rejected for the following reasons:
 
