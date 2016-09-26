@@ -9,17 +9,23 @@ twitter_image: '/images/tweets/infrastructure-update.png'
 ---
 
 
-As a Lead of Infrastructure, my job is to make [GitLab.com][gitlab] run fast. 
+As Infrastructure Lead, my job is to make [GitLab.com][gitlab] fast and highly available. 
 
-Lately, it's been a challenge. Why? We are hitting scale, adding 1.5 terabyes of git repos a week! 
+Lately, it's been a challenge. Why? We are hitting our threshold where scale starts to matter. For example, over 2,000 new repos
+are being created during peak hours, and CI runners are requesting new builds 3,000,000 times per hour.
 It's an interesting problem to have. We have to store this information somewhere and make sure that 
 while we're gaining data and users, GitLab.com keeps working fine. 
 
 A large part of the issue we're running into as we scale is that there is little or no documentation 
-on how to do it. While there are companies out there that have hit this threshold before, no one ever 
-wrote down, "When this happens, do this." As [outlined in our values][values], we believe we have a 
-responsibility to document this so other companies know what to do when they reach this point.
+on how to tackle this kind of problem. While there are companies have written high-level posts, almost none of them
+have shared **how** they arrived at their solutions.
 
+One of our main issues in the past six months has been around storage. We built a Cephfs cluster to tackle both the capacity and
+performance issues of using NFS appliances. Another more recent issue is around PostgreSQL vacuuming and how it affects performance locking up the database
+given the right kind of load. 
+
+As [outlined in our values][values], we believe we have a 
+responsibility to document this so other companies know what to do when they reach this point.
 Last Thursday, I gave a GitLab.com infrastructure status report during our [daily team call][team-call]. 
 Watch the recording or download the slides to see how we're working through our challenges with scaling. 
 
