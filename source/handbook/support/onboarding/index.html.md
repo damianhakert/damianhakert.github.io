@@ -293,8 +293,9 @@ or easy escalation when needed.
 *Customer Training Checklist:*
 
 + Trainer: Announce at the start of the call
+
  > This call/session may be monitored and recorded for record-keeping, training and quality-assurance purposes
-Ensure the other party consents.
+
 + Trainer: Record the call via WebEx.
 + Moderator: Take (and reply) questions made on the chat.
 + Moderator: Interrupt Trainer if audio/screenshare has issues.
