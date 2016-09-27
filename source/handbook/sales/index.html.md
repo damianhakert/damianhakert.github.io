@@ -89,12 +89,12 @@ Should be the name of the AE who is working the deal with the reseller
 
 * Associating Contact Roles:  
 After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
-- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
-- A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
+ - The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
+ - A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
 
 * Associating Partners to an Opportunity:  
 After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
-- You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
+ - You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
