@@ -112,7 +112,7 @@ Inbound leads receive appropriate marketing emails, such as newsletters, onboard
 
 ## Inbound Leads<a name="inbound"></a>
 
-- https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR. More info below under "New License Flow".
+- https://about.gitlab.com/pricing/ => Currently when someone clicks "Buy Now" it creates an account in Zuora and Salesforce. The account owner is notified, if account does not exist the account owner is sales admin.
 - https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/sales/ => When a lead submit a form to contact sales, that lead flows through marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/contact/ Email to community@gitlab.com - Email sends to marketing team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
@@ -130,19 +130,11 @@ Inbound leads receive appropriate marketing emails, such as newsletters, onboard
 
 ## New license flow<a name="licenseFlow"></a>
 
-Below is theoretical once it is implemented.
-
-1. "Buy Now" button on https://about.gitlab.com/pricing/ is submitted.
-2. Recurly intakes lead information and sends account information to Marketo.
-3. Lead information (first name, last name, email, company name) is sent to webhooks.io.
-4. Webhook.io sends information to Marketo via API.
-5. BDR team is notified via email that a lead has purchased via "buy now" button. Lead flows through BDR team for lead qualification process (documentation below).
-
 Current state
 1. "Buy Now" button on https://about.gitlab.com/pricing/ is submitted.
-2. Recurly intakes lead information and sends account information to Salesforce.
-3. Lead is assigned based on current account owner.
-4. If no current account owner, Emily handles.
+2. Zuora intakes order and sends account information to Salesforce.
+3. Account owner is notifed.
+4. If no current account owner, sales admin is the account owner.
 
 ## Marketo Tools Server<a name="marketoTools"></a>
 
@@ -158,13 +150,12 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
-- If an email is received(contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
+- If an email is received (contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
 
 ## Newsletters<a name="newsletters"></a>
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
-
 
 
 We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
