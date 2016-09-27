@@ -3,7 +3,7 @@ title: "GitLab World Tour: Amplify Your Code"
 author: Emily Kyle
 author_twitter: emilylucie
 categories: events
-image_title: '/images/social-media-assets/gitlab-world-tour/blog-posts-cover.jpg'
+image_title: '/images/social-media-assets/campaigns/gitlab-world-tour/blog-posts-cover.jpg'
 description: 
 twitter_image:
 ---
@@ -17,13 +17,19 @@ We kicking of the GitLab World Tour to help harmonize your development process b
 
 ## About GitLab
 
+Intro paragraph goes here :)
+
+
 {::options parse_block_html="true" /}
 
 <div class="panel panel-gitlab-purple">
 **GitLab Vision**
 {: .panel-heading #vision}
 <div class="panel-body">
-The vision of GitLab is to allow everyone to collaborate on all digital content so people can cooperate effectively and achieve better results, faster. We can do this by providing an integrated set of tools that allows you to go faster from idea to production.
+The vision of GitLab is to allow everyone to collaborate on all digital content
+so people can cooperate effectively and achieve better results, faster.
+We can do this by providing an integrated set of tools that allows you to go faster
+[from idea to production].
 </div>
 </div>
 
