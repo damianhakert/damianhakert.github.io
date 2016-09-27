@@ -26,6 +26,7 @@ title: Leadership
 - We avoid meetings because those aren't supporting the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
 - Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 - Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
+- Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are short.
 
 
 ## Articles
