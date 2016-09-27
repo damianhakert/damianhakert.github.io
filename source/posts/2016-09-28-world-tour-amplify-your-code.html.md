@@ -10,6 +10,11 @@ twitter_image:
 
 {::options parse_block_html="true" /}
 
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+GitLab World Tour - London, Oct 19th - [Register here][register]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
 There are times when pretty sharp teams get into treble <!-- "trouble", I guess? --> and face minor set backs
 when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that.
 Luckily, GitLab is here to pitch you an idea you to help get your act together.
