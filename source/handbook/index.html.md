@@ -16,6 +16,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 {: .no_toc}
 
 * [Engineering](/handbook/engineering)
+  * [Support](/handbook/support)
+  * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
   * [Blog](/handbook/marketing/blog)
@@ -80,7 +82,7 @@ help and advice. Anyone can chime in on any subject, including people who don't 
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
-Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
+Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/).
 We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way. Give negative
 feedback in the smallest setting possible, one-on-one video calls are preferred.

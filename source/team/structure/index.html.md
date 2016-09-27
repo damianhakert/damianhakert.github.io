@@ -13,7 +13,7 @@ GitLab Inc. has at most five layers in the team structure:
 1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one things and be an [expert](/jobs/expert/) in multiple things.
 
 The indentation below reflects the reporting relations.
-You can see our complete team and who reports to who on the [team page](https://about.gitlab.com/team/).
+You can see our complete team and who reports to whom on the [team page](https://about.gitlab.com/team/).
 If there is one individual for a role this person is named here, if there are multiple there only is a link to a function description in order to reduce the duplication with the team page.
 If there is a hyphen (-) in a line the part before hyphen is the name of the department and sometimes links to the relevant part of the [handbook](https://about.gitlab.com/handbook/).
 The job titles link to the job descriptions.

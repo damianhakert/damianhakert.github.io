@@ -227,12 +227,12 @@
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
+  speciality: Backstage
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
-              <li>Backstage specialist</li>
   story:  |
           Before joining GitLab the company in 2015, Robert was
           already an active member of the GitLab community beginning in 2012,
@@ -347,9 +347,9 @@
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
+  specialty: Performance
   maintains: |
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
-             <li>Performance specialist</li>
              <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
   story: |
          Yorick first started working as a professional software developer in
@@ -370,11 +370,11 @@
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
+  specialty: Packaging
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
               <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
-              <li>Packaging specialist</li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -426,10 +426,9 @@
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
+  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
-                <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
                 <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
-                <li>Backstage specialist</li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
           He enjoys creating software that people actually love using, so GitLab was an obvious choice for his next company to work at.
@@ -511,6 +510,7 @@
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
+  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
               <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a></li>
@@ -769,6 +769,8 @@
   picture: felipe_artur.jpg
   twitter: FelipeArtur
   gitlab: felipe_artur
+  maintains: |
+             <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here to make GitLab better. Likes playing RTS video games and boxing in his free time.
 
@@ -780,9 +782,9 @@
   picture: dj.png
   twitter: twk3
   gitlab: twk3
+  specialty: Packaging
   maintains:  |
-              <li>Packaging specialist</li>
-              <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> specialist</li>
+              <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> expert</li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           DJ grew up on a farm in the Canadian Prairies where it is common to have to fix your own tools and equipment. This didn't change when computers became the tools, and he discovered the joy of development while pursuing a career in IT. He has been working as a developer at various sized companies since 2008 and is excited to be able to finally work in the open source community with GitLab.
@@ -941,8 +943,7 @@
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
-  maintains:  |
-              <a href="https://about.gitlab.com/jobs/specialist/issue-triage/"><li>Issue triage specialist</li></a>
+  specialty: <a href="https://about.gitlab.com/jobs/specialist/issue-triage/">Issue Triage</a>
   picture: mark.jpg
   story:  |
           Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
@@ -958,8 +959,7 @@
   picture: christiancouder.jpg
   twitter: ChristianCouder
   gitlab: chriscool
-  maintains: |
-             <a>git command-line specialist</a>
+  specialty: Git Command-line
   story:  |
           Based near Paris, France, Christian has been developing Git since 2006. He is passionate about open source projects, especially development tools.
 
@@ -1034,8 +1034,8 @@
   picture: jen-shin.jpg
   twitter: godfat
   gitlab: godfat
+  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
-              <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
               <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Jen-Shin is a Taiwanese who is also known as @godfat on the Internet. He learned Ruby from 2006 and has built a ton of stuffs with it including open source libraries. He's also passionate about functional programming, particularly Haskell. Other than programming, Jen-Shin loves computer games, especially some indie games. At some point he would really like to write one indie game as well, combining two major interests.
@@ -1078,9 +1078,9 @@
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
+  specialty: Performance
   maintains: |
              <li>On-call hero!</li>
-             <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
           computers from the moment he once actually deleted System32 and tried
@@ -1097,8 +1097,7 @@
   picture: paco.jpg
   twitter: pacoguzman
   gitlab: pacoguzman
-  maintains: |
-             <li>Performance specialist</li>
+  specialty: Performance
   story:  |
           Paco started developing Ruby on Rails Web applications on the university.
           Since then he has been working on different companies on different sectors,
@@ -1151,9 +1150,6 @@
   picture: hazel.jpg
   twitter: hazelyuyang
   gitlab: hazelyang
-  maintains: |
-             <li>Interaction design specialist</li>
-             <li>Visual design specialist</li>
   story:  |
           Hazel comes from Taiwan. She is passionate about product design, interaction design,
           and illustration.  Before joining GitLab, she worked for a digital agency and worked
@@ -1195,7 +1191,7 @@
   locality: Austin, TX
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Senior Production Engineer and Infrastructure lead
+  reports_to: Infrastructure lead
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
@@ -1265,9 +1261,9 @@
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
+  specialty: Performance
   maintains: |
              <li>On-call hero!</li>
-             <li>Performance specialist</li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
           on web forums back in 2003, hasn't stopped coding ever since. He's interested
