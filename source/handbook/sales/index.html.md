@@ -244,7 +244,7 @@ The following quote metrics are available:
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
 1. Create an Opportunity for an Add-on or Renewal.  If a cancellation, click on Oportunity they want to cancel.
-1. Click on New Quote button within the opportunity
+1. Click on New Quote button within the opportunity.
 1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
@@ -258,20 +258,27 @@ The following quote metrics are available:
 1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
 
 ##### Amend existing subscription for the billing account
-1. This process is used to perform any Upgrades on an existing subscription
+1. This process is used to perform any Upgrades on an existing subscription. 
 1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
 
 ##### Cancel existing subscription for the billing account
-1. This process is used to cancel an existing subscription
+1. This process is used to cancel an existing subscription. (Note that if a customer purchases seats for the wrong billing account, please see the next section.)
 1. Click on Opportunity to cancel.
 1. Click on New Quote
 1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
-1. Choosing “Canel existing subscription for billing account”,
+1. Choosing “Cancel existing subscription for billing account”,
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click the subscription for performing a cancellation and hit on Next button
 1. Select cancellation date and click Next Button.
+
+##### Cancel an erroneous subscription for the billing account
+1. This process is used to cancel an erroneous subscription. 
+1. For example, a customer may purchase additional seats or products via the web portal which was originally intended as on add-on to an existing subscription.
+1. Provide Finance or Sales Operations with the erroneously created Zuora Subscription ID, invoice number and the correct Zuora Subscription ID.
+1. Finance will cancel the subscription and either refund the invoice (if a credit card purchase) or cancel the invoice (if check or other payment method).
+1. Finance will then amend the correct Zuora Subscription ID and will either charge the card on file or send the invoice via email.
 
 #### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
