@@ -125,8 +125,8 @@
 
 - title: "Junior Designer"
   description: /jobs/junior-designer/
-  apply: https://gitlab.workable.com/jobs/296974
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
