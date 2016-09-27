@@ -1,5 +1,5 @@
 ---
-title: "World Tour: Amplify Your Code"
+title: "GitLab World Tour: Amplify Your Code"
 author: Emily Kyle
 author_twitter: emilylucie
 categories: events
@@ -16,6 +16,8 @@ We kicking of the GitLab World Tour to help harmonize your development process b
 <!-- more -->
 
 ## About GitLab
+
+{::options parse_block_html="true" /}
 
 <div class="panel panel-gitlab-purple">
 **GitLab Vision**
