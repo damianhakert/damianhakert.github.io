@@ -8,7 +8,9 @@ description:
 twitter_image:
 ---
 
-There are times when pretty sharp teams get into treble and face minor set backs
+{::options parse_block_html="true" /}
+
+There are times when pretty sharp teams get into treble <!-- "trouble", I guess? --> and face minor set backs
 when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that.
 Luckily, GitLab is here to pitch you an idea you to help get your act together.
 We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.
@@ -17,10 +19,12 @@ We kicking of the GitLab World Tour to help harmonize your development process b
 
 ## About GitLab
 
-Intro paragraph goes here :)
+Intro
 
+![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-{::options parse_block_html="true" /}
+<!-- Erica, feel free to move around the blocks below,
+and to delete the image above if you don't want to use it :)  -->
 
 <div class="panel panel-gitlab-purple">
 **GitLab Vision**
@@ -29,7 +33,7 @@ Intro paragraph goes here :)
 The vision of GitLab is to allow everyone to collaborate on all digital content
 so people can cooperate effectively and achieve better results, faster.
 We can do this by providing an integrated set of tools that allows you to go faster
-[from idea to production].
+[from idea to production][idea-production].
 </div>
 </div>
 
@@ -37,7 +41,12 @@ We can do this by providing an integrated set of tools that allows you to go fas
 **Conversational Development**
 {: .panel-heading #convdev}
 <div class="panel-body">
-**Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process, enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
+**Conversational Development (ConvDev)** is a natural evolution of software
+development that carries a conversation across functional groups throughout
+the development process, enabling developers to track the full path of
+development in a cohesive and intuitive way. ConvDev accelerates the
+development lifecycle by fostering collaboration and knowledge sharing
+from idea to production.
 </div>
 </div>
 
@@ -59,6 +68,13 @@ Here is a list of some of the topics we will be covering:
 1. GitLab Direction
 1. GitLab CE, EE, and GitLab.com
 
+<!-- ideally, this should be checked by the folks who are gonna talk in these events ^^ -->
+
 We hope that some of those themes will strike a cord with you and your team.
 
-Take a minute to [register] (https://gitlabworldtourlondon.splashthat.com/) for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
+Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
+
+<!-- identifiers -->
+
+[idea-production]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
+[register]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
