@@ -16,4 +16,4 @@ We currently track the following sources for GitLab mentions:
 
 We use [notify.ly](https://notify.ly/)  to track and pipe these mentions to the mentions-of-gitlab channel.
 
-We also funnel all comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zappier](https://zapier.com/).
+We also funnel all comments on our [blog posts](https://about.gitlab.com/blog/) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zappier](https://zapier.com/).
