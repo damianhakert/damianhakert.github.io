@@ -9,3 +9,4 @@ Commonly there is a lead in this topic that makes the final calls.
 
 - [Issue Triage Specialist](issue-triage)
 - [Database Specialist](database)
+- [Prometheus Specialist](prometheus)
