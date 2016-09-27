@@ -3,7 +3,7 @@ title: "World Tour: Amplify Your Code"
 author: Emily Kyle
 author_twitter: emilylucie
 categories: events
-image_title: '/images/social-media-assets/gitlab-world-tour/blog-posts-cover-2.jpg'
+image_title: '/images/social-media-assets/gitlab-world-tour/blog-posts-cover.jpg'
 description: 
 twitter_image:
 ---
@@ -14,6 +14,24 @@ Luckily, GitLab is here to pitch you an idea you to help get your act together.
 We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.
 
 <!-- more -->
+
+## About GitLab
+
+<div class="panel panel-gitlab-purple">
+**GitLab Vision**
+{: .panel-heading #vision}
+<div class="panel-body">
+The vision of GitLab is to allow everyone to collaborate on all digital content so people can cooperate effectively and achieve better results, faster. We can do this by providing an integrated set of tools that allows you to go faster from idea to production.
+</div>
+</div>
+
+<div class="panel panel-gitlab-orange">
+**Conversational Development**
+{: .panel-heading #convdev}
+<div class="panel-body">
+**Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process, enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
+</div>
+</div>
 
 ## Are you ready to amplify your code?
 
@@ -35,4 +53,4 @@ Here is a list of some of the topics we will be covering:
 
 We hope that some of those themes will strike a cord with you and your team.
 
-Take a minuet to [register] (https://gitlabworldtourlondon.splashthat.com/) for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
+Take a minute to [register] (https://gitlabworldtourlondon.splashthat.com/) for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
