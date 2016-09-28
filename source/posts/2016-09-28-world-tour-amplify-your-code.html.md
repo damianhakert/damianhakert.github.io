@@ -16,40 +16,34 @@ GitLab World Tour - London, Oct 19th - [Register here][register]!
 {: .alert .alert-webcast}
 
 Even the sharpest teams face minor set backs when their code falls flat, or their team is just not in tune. 
-O-boe-y, nobody wants that.
+O-boe-y, nobody wants that. Luckily, GitLab is here to pitch you an idea to help you boost your act.
 
-Software development is changing and with it, the way developers work. Today’s rapid pace of 
-communication and innovation fosters creativity, collaboration, and information sharing; 
-bringing ideas to life—faster. Luckily, GitLab is here to pitch you an idea you to help you boost your act.
+We're kicking of the GitLab World Tour to help harmonize your development process because code is our forte.
+At this free event, we will explore how teams are using Git and other modern software development practices
+to work together and build amazing products. Software development is changing and with it, the way developers work. 
+Today’s rapid pace of communication and innovation fosters creativity, collaboration, and information sharing; 
+bringing ideas to life—faster. The GitLab World Tour is an interactive discussion on what's next for software development. 
 
 <!-- more -->
 
-We spend our days listening to our community and thinking about how we can
-build the best tool to help modern developers move faster from idea to production. 
-So we're kicking of the GitLab World Tour to help harmonize your development process because code is our forte. 
-Join us as we explore how teams are using Git and other modern development practices to work together and build amazing products. 
-
 ## What to Expect ##
 
-### Inspiration ###
-It's an exciting time to be a developer. There is a steady rise of new tools, languages, and practices. 
-We'll take a look at some incredible projects and share information that you can take back to your teams. 
 
-### Conversation ###
-We value our community and are eager to trade ideas with you. We've planned our sessions to be interactive so there will be
-plenty of time for you to ask questions about share feedback. 
-
-### Swag ###
-It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
-
-## About GitLab
-
-Intro
+We spend our days listening to our community and thinking about how we can
+build the best tool to help modern developers move faster from idea to production. 
+On Tour, we 
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-<!-- Erica, feel free to move around the blocks below,
-and to delete the image above if you don't want to use it :)  -->
+### Inspiration ###
+
+It's an exciting time to be a developer. There is a steady rise of new tools, languages, and practices. 
+We'll take a look at some incredible community projects and share information that you can take back to your teams. 
+
+### Conversation ###
+
+We value our community and are eager to trade ideas with you. We've planned our sessions to be interactive so there will be
+plenty of time for you to ask questions about share feedback. 
 
 <div class="panel panel-gitlab-purple">
 **GitLab Vision**
@@ -61,6 +55,18 @@ We can do this by providing an integrated set of tools that allows you to go fas
 [from idea to production][idea-production].
 </div>
 </div>
+
+### Swag ###
+
+It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
+
+## About GitLab
+
+Intro
+
+
+<!-- Erica, feel free to move around the blocks below,
+and to delete the image above if you don't want to use it :)  -->
 
 <div class="panel panel-gitlab-orange">
 **Conversational Development**
@@ -95,7 +101,7 @@ Here is a list of some of the topics we will be covering:
 
 <!-- ideally, this should be checked by the folks who are gonna talk in these events ^^ -->
 
-We hope that some of those themes will strike a cord with you and your team.
+We hope that some of those themes will strike a cord with you and your team. Come, share your ideas and amplify your code at a stop near you.
 
 Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
 
