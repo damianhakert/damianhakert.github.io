@@ -11,9 +11,9 @@ twitter_image: '/images/tweets/gitpitch-slideshow-presentations-for-developers-o
 Today I would like to introduce [GitPitch](https://gitpitch.com), a slideshow presentation service for developers on [GitLab](https://about.gitlab.com).
 GitPitch supports building, sharing and presenting online and offline slideshow presentations. Presentations powered entirely by Markdown and Git.
 
-As developers and advocates we often need to communicate with diverse audiences about our code.
+As developers and advocates, we often need to communicate with diverse audiences about our code.
 We find ourselves needing to present everything from designs and best practices, to code snippets and complete frameworks.
-Our audiences include colleagues, clients, customers, end-users and sometimes meetups and conferences.
+Our audiences include colleagues, clients, customers, end-users, and sometimes meetups and conferences.
 
 With GitPitch, we no longer need to turn to external toolsets like Keynote or Powerpoint to prepare for these kinds of presentations.
 In fact, now the only tools we need are the tools we live in, our preferred code editor and a GitLab repo.
@@ -26,14 +26,14 @@ And with these tools we can quickly create compelling, responsive, online and of
 As GitLab users we are already familiar with the convention of adding a **README.md** to our projects.
 GitPitch introduces a new convention for GitLab users, called **PITCHME.md**.
 
-As soon as we add a **PITCHME.md** markdown file to our GitLab project, GitPitch instantly creates an online slideshow presentation based on the content in that file.
+As soon as we add a **PITCHME.md** markdown file to the root directory of our GitLab.com project, GitPitch instantly creates an online slideshow presentation based on the content in that file.
 That slideshow presentation is then automatically made available at its public URL:
 
 ```
 https://gitpitch.com/user/project/branch?grs=gitlab
 ```
 
-Here `user` and `project` matches our GitLab user and project names respectively and `branch` matches the repository branch where we commited our **PITCHME.md** file.
+Here `user` and `project` matches our GitLab.com user and project names respectively and `branch` matches the repository branch where we commited our **PITCHME.md** file.
 Note, the `/branch` can be omitted from the slideshow URL if we are referencing the `master` branch.
 
 ## GitPitch In 60 Seconds
@@ -42,7 +42,7 @@ To experience just how simple it is to create a GitPitch slideshow presentation 
 
 ### Step 1. Create **PITCHME.md**
 
-Using the [GitLab web editor](https://gitlab.com/help/user/project/repository/web_editor.md) or your preferred code editor create a file called **PITCHME.md**, then add and save the following Markdown content:
+Using the [GitLab web editor](https://gitlab.com/help/user/project/repository/web_editor.md) or your preferred code editor create a file called **PITCHME.md** in the root directory of your repo, then add and save the following Markdown content:
 
 ```
 # Flux 
@@ -65,7 +65,7 @@ An application architecture for React
 Before moving on to the next step it's worthwhile noting the following:
 
 1. The **PITCHME.md** file name is case sensitive.
-1. The **PITCHME.md** file content is standard Markdown.
+1. The **PITCHME.md** file content is [standard Markdown]( https://daringfireball.net/projects/markdown/syntax)
 1. The `#HSLIDE` markdown fragment acts as a delimiter between slides.
 
 Using `#HSLIDE` is another GitPitch convention, acting as a delimiter to denote the separation between content on different slides in your presentation.
@@ -76,7 +76,7 @@ For this example, when GitPitch processes the Markdown content it will result in
 ### Step 2. Commit **PITCHME.md**
 
 If you used the GitLab web editor in step 1. then go directly to step 3.
-Otherwise, manually add this file to your Git repo and push to GitLab:
+Otherwise, manually add this file to the root directory of your Git repo and push to GitLab:
 
 ```
 git add PITCHME.md
@@ -93,9 +93,9 @@ Your own presentation should look a lot like this:
 ![Slideshow-In-60-Seconds](/images/blogimages/gitpitch-slideshow-presentations-for-developers-on-gitlab/slideshow-in-60-seconds.jpg){: .shadow}
 
 Immediately you can [download](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) your slideshow for offline presentation, [print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) it as a PDF document, or [share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) it on social media.
-But first you might want to apply some personal touches using GitPitch customization, the topic we'll look at next.
+But first, you might want to apply some personal touches using GitPitch customization, the topic we'll look at next.
 
-Note, beyond support for standard Markdown on presentation slides, GitPitch delivers a number of features tailored for developers, including support for [code blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GitHub GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides), [math formulas](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) along with [image](https://github.com/gitpitch/gitpitch/wiki/Image-Slides), and [video](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) support.
+Note that beyond support for standard Markdown on presentation slides, GitPitch delivers a number of features tailored for developers, including support for [code blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GitHub GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides), [math formulas](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) along with [image](https://github.com/gitpitch/gitpitch/wiki/Image-Slides), and [video](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) support.
 The full set of GitPitch features are documented on the [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki).
 To see a live slideshow demonstration of these features try out the GitPitch [Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink?grs=gitlab).
 
@@ -144,7 +144,7 @@ GitPitch embraces and extends this approach by helping individuals, teams and or
 Note, by default the GitPitch service on [GitPitch.com](https://gitpitch.com) integrates with [GitLab.com](https://gitlab.com).
 If you are interested in using GitPitch with your own GitLab server see [this note](https://github.com/gitpitch/gitpitch/wiki/Git-Repo-Services) on the GitPitch Wiki.
 
-Like GitLab, GitPitch itself is an [open source project](https://gitlab.com/gitpitch/gitpitch), built on some wonderful open source software.
+Like GitLab, GitPitch itself is an [open source project](https://github.com/gitpitch/gitpitch), built on some wonderful open source software.
 See the [GitPitch website](https://gitpitch.com/#gitpitch-about) for details. And remember, getting started couldn't be easier.
 GitPitch requires no sign-up. And no configuration. Just add **PITCHME.md** ;)
 
