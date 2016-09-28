@@ -144,6 +144,8 @@ A library of past product training sessions can be found [Here](https://drive.go
 
 * [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and New Products.  Each feature that is hyperlinked will take you to the issue to learn more.  
 
+* [ ] Review Probing Questions to develop EE need [EE Product Qualification Questions](https://about.gitlab.com/handbook/EE-Product-Qualification-Questions/)
+
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
 * [ ] [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
