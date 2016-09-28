@@ -22,23 +22,42 @@ We're kicking of the GitLab World Tour to help harmonize your development proces
 At this free event, we will explore how teams are using Git and other modern software development practices
 to work together and build amazing products. Software development is changing and with it, the way developers work. 
 Today’s rapid pace of communication and innovation fosters creativity, collaboration, and information sharing; 
-bringing ideas to life—faster. The GitLab World Tour is an interactive discussion on what's next for software development. 
+bringing ideas to life—faster. The GitLab World Tour is an interactive discussion on what's next for software development.
 
 <!-- more -->
 
 ## What to Expect ##
 
-
-We spend our days listening to our community and thinking about how we can
-build the best tool to help modern developers move faster from idea to production. 
-On Tour, we 
+From ideation and planning to committing, testing, deploying, and getting feedback, 
+we are building a toolset that takes an all-inclusive approach to the development process.
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
+We introduced our [Master Plan][master-plan] and now we need feedback from our rock star community as we think about how we can
+build the best toolset to help modern developers move faster from idea to production. 
+On Tour, you'll hear from GitLab CEO Sid Sijbrandij on the GitLab Master Plan, 
+have the opportunity to ask our developers questions, give feedback about our product vision, 
+and share your ideas and projects.
+
 ### Inspiration ###
 
+<div class="panel panel-gitlab-orange">
+**Conversational Development**
+{: .panel-heading #convdev}
+<div class="panel-body">
+**Conversational Development (ConvDev)** is a natural evolution of software
+development that carries a conversation across functional groups throughout
+the development process, enabling developers to track the full path of
+development in a cohesive and intuitive way. ConvDev accelerates the
+development lifecycle by fostering collaboration and knowledge sharing
+from idea to production.
+</div>
+</div>
+
 It's an exciting time to be a developer. There is a steady rise of new tools, languages, and practices. 
-We'll take a look at some incredible community projects and share information that you can take back to your teams. 
+We'll take a look at some incredible community projects and share information that you can take back to your teams
+including information onConversational Development and the modern development lifecycle alongside Continuous Integration and 
+trends in open source. 
 
 ### Conversation ###
 
@@ -56,30 +75,10 @@ We can do this by providing an integrated set of tools that allows you to go fas
 </div>
 </div>
 
+
 ### Swag ###
 
 It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
-
-## About GitLab
-
-Intro
-
-
-<!-- Erica, feel free to move around the blocks below,
-and to delete the image above if you don't want to use it :)  -->
-
-<div class="panel panel-gitlab-orange">
-**Conversational Development**
-{: .panel-heading #convdev}
-<div class="panel-body">
-**Conversational Development (ConvDev)** is a natural evolution of software
-development that carries a conversation across functional groups throughout
-the development process, enabling developers to track the full path of
-development in a cohesive and intuitive way. ConvDev accelerates the
-development lifecycle by fostering collaboration and knowledge sharing
-from idea to production.
-</div>
-</div>
 
 ## Are you ready to amplify your code?
 
@@ -99,8 +98,6 @@ Here is a list of some of the topics we will be covering:
 1. GitLab Direction
 1. GitLab CE, EE, and GitLab.com
 
-<!-- ideally, this should be checked by the folks who are gonna talk in these events ^^ -->
-
 We hope that some of those themes will strike a cord with you and your team. Come, share your ideas and amplify your code at a stop near you.
 
 Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
@@ -108,4 +105,5 @@ Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on O
 <!-- identifiers -->
 
 [idea-production]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
+[master-plan]: /2016/09/14/gitlab-live-event-recap/
 [register]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
