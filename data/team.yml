@@ -1575,14 +1575,16 @@
 
 - name: James Edwards-Jones
   locality: London
-  country: UK
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
   picture: jamesedwardsjones.jpg
   twitter: jamedjo
   gitlab: jamedjo
   story:  |
-          Joining September 26th
+          James has been developing games and websites since childhood and studied Computer Science at university.
+          He taught on a coding bootcamp in London, gaining a deeper understanding of the Ruby language to help answer unusual questions.
+          James believes it’s better when we share the things we work on, and joined GitLab to help make that happen.
 
 - name: J.P.
   locality:
