@@ -76,7 +76,7 @@ We can do this by providing an integrated set of tools that allows you to go fas
 </div>
 
 
-### Project #AmplifyYourCode
+#### Project #AmplifyYourCode
 
 At GitLab, we owe our success to our community and the thousands of contributors who help make GitLab.com great. 
 Thanks to you, we can ship faster to deliver the best toolset for the modern developer. Now, it's your turn to take the spotlight.
