@@ -36,7 +36,7 @@ we are building a toolset that takes an all-inclusive approach to the developmen
 We introduced our [Master Plan][master-plan] and now we need feedback from our rock star community as we think about how we can
 build the best toolset to help modern developers move faster from idea to production. 
 On Tour, you'll hear from GitLab CEO Sid Sijbrandij on the GitLab Master Plan, 
-have the opportunity to ask our developers questions, give feedback about our product vision, 
+have the opportunity to ask our developers questions, give feedback about our [product direction], 
 and share your ideas and projects.
 
 ### Inspiration ###
@@ -76,6 +76,14 @@ We can do this by providing an integrated set of tools that allows you to go fas
 </div>
 
 
+### Project #AmplifyYourCode
+
+At GitLab, we owe our success to our community and the thousands of contributors who help make GitLab.com great. 
+Thanks to you, we can ship faster to deliver the best toolset for the modern developer. Now, it's your turn to take the spotlight.
+
+[Submit your best GitLab project][project-form] to amplify your code and to have your project showcased in front of hundreds of developers 
+during the GitLab World Tour and promoted on the GitLab blog and social channels.   What are you waiting for? Make your voice heard! Who knows, it could be your greatest hit. 
+
 ### Swag ###
 
 It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
@@ -106,4 +114,6 @@ Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on O
 
 [idea-production]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [master-plan]: /2016/09/14/gitlab-live-event-recap/
+[product-direction]: https://about.gitlab.com/direction/
+[project-form]: https://goo.gl/forms/7HZYUNTxLFVzNeZN2
 [register]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
