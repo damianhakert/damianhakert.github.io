@@ -1649,3 +1649,14 @@
   story:  |
           Joining October 17th
 
+- name: M.Y.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
