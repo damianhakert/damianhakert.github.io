@@ -88,7 +88,7 @@ during the GitLab World Tour and promoted on the GitLab blog and social channels
 
 It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
 
-![GITLAB SWAG](/images/blogimages/pingpong-swag.jpg)
+![GITLAB SWAG](/images/blogimages/world-tour-amplify-your-code-ping-pong.jpg)
 
 ## Are you ready to amplify your code?
 
