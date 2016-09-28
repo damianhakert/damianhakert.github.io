@@ -1,3 +1,50 @@
+---
+layout: markdown_page
+title: Support Channels
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
+Our [service engineers](/jobs/service-engineer) handle the channels listed below.
+They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
+in this list experience longer delays in receiving responses. We are actively [hiring](/jobs/)
+more Service Engineers to strengthen the team and provide support to the community.
+
+### Emergency Tickets
+
+When an emergency ticket comes in, it triggers a [PagerDuty](https://gitlab.pagerduty.com) incident. All
+Service Engineers must have the PagerDuty application installed on their phones once they are added to
+the on-call rotation schedule.
+
+When a PD incident is triggered, the alarm will go off for the person on call. You should acknowledge the
+incident within 5 minutes, or the person on second level support will be alerted. The PD incident will
+have the link to the corresponding Zendesk issue from where you will continue the conversation with the customer.
+
+Once acknowledged, you need to login to [Zendesk](https://gitlab.Zendesk.com), go to the corresponding ticket
+and let the customer know that you will handle their case. On this response you should ask for the best way
+to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
+
+#### Crisis Situations
+
+If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
+data loss, etc.), you should **escalate** the PD incident to second level support, and work through the issue
+together.
+
+If an emergency takes longer than an hour to resolve,
+and/or multiple people are or need to be involved, **start a google doc** that is open to the customer and the wider team at GitLab, and keep track of the
+issues and ideas there. Zendesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
+majority of developers do not have access to Zendesk in the first place. Announce the google doc in the appropriate
+slack channel (#infrastructure, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
+has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
+issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
+in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
+clear-headed.
 
 #### HackerOne
 
@@ -19,7 +66,14 @@ If you need to grant HackerOne permissions to a new GitLab user, have an admin s
 an invitation from HackerOne and add you to the Internal group. You can find out who
 the admins are by asking on the #support channel.
 
-### Disqus questions on the blog <a name="disqus"></a>
+### Regular Zendesk tickets
+
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
+manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
+that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
+the relevant GitLab issue tracker.
+
+### Disqus
 
 All the comments from our blog are handled by Disqus, and we have an integration in place, where every new
 comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily support tasks, you should
@@ -29,7 +83,7 @@ our team, or is a question or a problem) you need to click on the link to the co
 the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
 the ticket that was created for your reply.
 
-### Twitter <a name="twitter"></a>
+### Twitter
 
 Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
 or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk,
@@ -68,7 +122,7 @@ When resolving Twitter tickets you should:
    channel if you don't know the answer
 1. Not cross assign tickets
 
-### Facebook<a name="facebook"></a>
+### Facebook
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
@@ -99,11 +153,11 @@ the case.
 
 See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
 
-### Mailing list<a name="mailing-list"></a>
+### Mailing list
 
 Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
 
-### Forum<a name="gitlab-forum"></a>
+### GitLab Forum
 
 Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
 within the Forum environment.
@@ -112,20 +166,35 @@ within the Forum environment.
 
 TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-ce/) page flow into ZenDesk.
 
-### Stack Overflow<a name="stack-overflow"></a>
+### Stack Overflow
 
 The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
 flow into ZenDesk, but can only be responded to from within Stack Overflow.
 
-### Reddit<a name="reddit"></a>
+### Reddit
 
 Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
 
-### Quora<a name="quora"></a>
+### Quora
 
 Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
 
-## Non channel work<a name="other"></a>
+### Mentions
+
+We use the [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel to track mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
+
+We currently track the following sources for GitLab mentions:
+
+1. Product Hunt
+2. Tumblr
+3. HackerNews
+4. Reddit
+
+We use [notify.ly](https://notify.ly/)  to track and pipe these mentions to the mentions-of-gitlab channel.
+
+We also funnel all comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zappier](https://zapier.com/).
+
+## Non channel work
 
 If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
