@@ -106,7 +106,7 @@ Here is a list of some of the topics we will be covering:
 1. The Open Source Community
 1. Innersourcing, Microservices, and Version Control
 1. GitLab Direction
-1. GitLab CE, EE, and GitLab.com
+1. GitLab Community Edition, Enterprise Edition, and GitLab.com
 
 We hope that some of those themes will strike a cord with you and your team. Come, share your ideas and amplify your code at a stop near you.
 
