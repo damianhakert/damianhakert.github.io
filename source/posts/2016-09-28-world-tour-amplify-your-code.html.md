@@ -4,7 +4,7 @@ author: Emily Kyle
 author_twitter: emilylucie
 categories: events
 image_title: '/images/social-media-assets/campaigns/gitlab-world-tour/blog-posts-cover.jpg'
-description: 
+description: Rock out with us and amplify your code on our World Tour! See where we'll be. 
 twitter_image:
 ---
 
@@ -35,8 +35,8 @@ we are building a toolset that takes an all-inclusive approach to the developmen
 
 We introduced our [Master Plan][master-plan] and now we need feedback from our rock star community as we think about how we can
 build the best toolset to help modern developers move faster from idea to production. 
-On Tour, you'll hear from GitLab CEO Sid Sijbrandij on the GitLab Master Plan, 
-have the opportunity to ask our developers questions, give feedback about our [product direction], 
+On Tour, you'll hear from GitLab CEO [Sid Sijbrandij][sid-twitter] on the GitLab Master Plan, 
+have the opportunity to ask our developers questions, give feedback about our [product direction][product-direction], 
 and share your ideas and projects.
 
 ### Inspiration ###
@@ -56,7 +56,7 @@ from idea to production.
 
 It's an exciting time to be a developer. There is a steady rise of new tools, languages, and practices. 
 We'll take a look at some incredible community projects and share information that you can take back to your teams
-including information onConversational Development and the modern development lifecycle alongside Continuous Integration and 
+including information on Conversational Development and the modern development lifecycle, Continuous Integration, and 
 trends in open source. 
 
 ### Conversation ###
@@ -88,6 +88,8 @@ during the GitLab World Tour and promoted on the GitLab blog and social channels
 
 It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
 
+![GITLAB SWAG](/images/blogimages/pingpong-swag.jpg)
+
 ## Are you ready to amplify your code?
 
 The World Tour will makes stops in **London**, **New York City**, and **Amsterdam** before ending on a high note
@@ -117,3 +119,4 @@ Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on O
 [product-direction]: https://about.gitlab.com/direction/
 [project-form]: https://goo.gl/forms/7HZYUNTxLFVzNeZN2
 [register]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
+[sid-twitter]: https://twitter.com/sytses
