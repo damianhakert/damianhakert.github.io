@@ -15,12 +15,32 @@ GitLab World Tour - London, Oct 19th - [Register here][register]!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
-There are times when pretty sharp teams get into treble <!-- "trouble", I guess? --> and face minor set backs
-when their code falls flat or their team is just not in tune. O-boe-y, nobody wants that.
-Luckily, GitLab is here to pitch you an idea you to help get your act together.
-We kicking of the GitLab World Tour to help harmonize your development process because code is our forte.
+Even the sharpest teams face minor set backs when their code falls flat, or their team is just not in tune. 
+O-boe-y, nobody wants that.
+
+Software development is changing and with it, the way developers work. Today’s rapid pace of 
+communication and innovation fosters creativity, collaboration, and information sharing; 
+bringing ideas to life—faster. Luckily, GitLab is here to pitch you an idea you to help you boost your act.
 
 <!-- more -->
+
+We spend our days listening to our community and thinking about how we can
+build the best tool to help modern developers move faster from idea to production. 
+So we're kicking of the GitLab World Tour to help harmonize your development process because code is our forte. 
+Join us as we explore how teams are using Git and other modern development practices to work together and build amazing products. 
+
+## What to Expect ##
+
+### Inspiration ###
+It's an exciting time to be a developer. There is a steady rise of new tools, languages, and practices. 
+We'll take a look at some incredible projects and share information that you can take back to your teams. 
+
+### Conversation ###
+We value our community and are eager to trade ideas with you. We've planned our sessions to be interactive so there will be
+plenty of time for you to ask questions about share feedback. 
+
+### Swag ###
+It's not a tour without some commemorative item that says, "I was here." Every stop on this tour will have their won city-specific GitLab swag. 
 
 ## About GitLab
 
@@ -57,7 +77,7 @@ from idea to production.
 
 ## Are you ready to amplify your code?
 
-The World Tour will makes stops in **London**, **New York**, and **Amsterdam** before ending on a high note
+The World Tour will makes stops in **London**, **New York City**, and **Amsterdam** before ending on a high note
 in **San Francisco** at our user conference early next year. The GitLab Team will travel city to city,
 working in concert with git users like yourself, gathering feedback and stories to help make your git
 workflow even more seamless. We would also like to trumpet about some major developments features in GitLab.
