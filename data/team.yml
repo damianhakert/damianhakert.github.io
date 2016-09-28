@@ -1572,6 +1572,17 @@
   story:  |
           Joining September 26th
 
+- name: M.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/specialist/issue-triage/">Issue Triage Specialist</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 29th
+
 - name: A.N.
   locality:
   country:
