@@ -18,14 +18,14 @@ We need have a library of questions we need to ask in the buying process to help
   - What kind of audit data does your security team need to be able to see? (implication question)
   - Are all of your projects required to be audited the same way? (implication question)
 * Multiple LDAP server support (also compatible with Active Directory)
- - Does your organization have more than one domain name? eg: an acquired company
- - How do you manage access to shared resources across multiple business units with different domains?
- - Would you like to enable inner-sourcing for better innovation across the entire company including multiple domains?
+  - Does your organization have more than one domain name? eg: an acquired company
+  - How do you manage access to shared resources across multiple business units with different domains?
+  - Would you like to enable inner-sourcing for better innovation across the entire company including multiple domains?
 * LDAP group synchronization (also compatible with Active Directory)
- - Can your GitLab Admins ensure that access to company IP is blocked as soon as an employee is terminated?
- - How much time does your GitLab Admin spend assigning permissions to newly hired developers?
- - When a new team is created for a new project, how much time does your GitLab Admin spend creating a GitLab group with the appropriate permissions?
- - How much time does your GitLab Admin spend cleaning  up user accounts to determine a more accurate active user count?
+  - Can your GitLab Admins ensure that access to company IP is blocked as soon as an employee is terminated?
+  - How much time does your GitLab Admin spend assigning permissions to newly hired developers?
+  - When a new team is created for a new project, how much time does your GitLab Admin spend creating a GitLab group with the appropriate permissions?
+  - How much time does your GitLab Admin spend cleaning  up user accounts to determine a more accurate active user count?
 * Create and remove admins based on an LDAP group
 * Kerberos user authentication
 * Integrate with Atlassian Crowd
@@ -39,17 +39,17 @@ We need have a library of questions we need to ask in the buying process to help
   - Is it important for you to allow users to access to their files of across all projects?
   - Is it problematic to manage different data sources as well as keep
 * Rebase merge requests before merge
- - Do you prefer a linear history on a project?
- - Is developer productivity hampered by trying to comprehend a projects history?
- - How do you force developers to rebase their changes before merging to Master and how effective is it?
- - Do Project Leads waste time cleaning up a projects commit history?
+  - Do you prefer a linear history on a project?
+  - Is developer productivity hampered by trying to comprehend a projects history?
+  - How do you force developers to rebase their changes before merging to Master and how effective is it?
+  - Do Project Leads waste time cleaning up a projects commit history?
 * Use fast-forward merges when possible
 * Push Rules (commit message must mention an issue, no tag deletion, etc.)
- - Do developers store large binaries  in your Git repositories?
- - How does that affect performance of clone times?
- - Do your repositories suffer from 'bloat'?
- - Does your workflow require commits to be tied to an applicable Issue or Bug ID?
- - How problematic is it when a developer deletes a tag with a push?
+  - Do developers store large binaries  in your Git repositories?
+  - How does that affect performance of clone times?
+  - Do your repositories suffer from 'bloat'?
+  - Does your workflow require commits to be tied to an applicable Issue or Bug ID?
+  - How problematic is it when a developer deletes a tag with a push?
 * Webhooks at Group Level
 * Lock project membership to the members of a group
   - Do you currently have projects that only certain members of a group should have access to or you would like them to only have access to, instead of the entire group? (problem question)
@@ -60,14 +60,14 @@ We need have a library of questions we need to ask in the buying process to help
   - How do you currently make sure that the right people approve code before it is applied to your most important branches? (Problem Question)
   - What happens if bad code makes it into your application and breaks it? (Implication Question)
 * Mirror External Repositories
- - Do you need changes in a GitLab project to update a legacy system repo?
- - Do you want to keep abreast of changes to a repository located on a different system?
- - How do you currently manage changes to a single project across multiple systems?
- - Do you have repositories located on a different server that you still want to work with? (Problem Question)
- - How much more efficient would your team be if your external repositories were automatically updated every hour with the ability to view the activity feed showing any new changes? (Implication Question)
- - Is it important to your team to keep an already existing repository in addition to your new GitLab one? (Problem Question)
- - Is there a current company policy that you need to keep some of your legacy system in place with your current repositories? (Problem Question)
- - How much more efficient would your team be if they didn't have to spend time reconfiguring your existing integrations by having your external repository automatically updated? (Implication Question)
+  - Do you need changes in a GitLab project to update a legacy system repo?
+  - Do you want to keep abreast of changes to a repository located on a different system?
+  - How do you currently manage changes to a single project across multiple systems?
+  - Do you have repositories located on a different server that you still want to work with? (Problem Question)
+  - How much more efficient would your team be if your external repositories were automatically updated every hour with the ability to view the activity feed showing any new changes? (Implication Question)
+  - Is it important to your team to keep an already existing repository in addition to your new GitLab one? (Problem Question)
+  - Is there a current company policy that you need to keep some of your legacy system in place with your current repositories? (Problem Question)
+  - How much more efficient would your team be if they didn't have to spend time reconfiguring your existing integrations by having your external repository automatically updated? (Implication Question)
 * Set weight of issues
   - How many open issues do you typically have at any given point in time? (Problem Question)
   - Is it hard to keep track of the amount of work involved with individual issues? (Problem Question)
