@@ -3,9 +3,9 @@ title: "GitLab World Tour: Amplify Your Code"
 author: Emily Kyle
 author_twitter: emilylucie
 categories: events
-image_title: '/images/social-media-assets/campaigns/gitlab-world-tour/blog-posts-cover.jpg'
-description: Rock out with us and amplify your code on our World Tour! See where we'll be. 
-twitter_image:
+image_title: '/images/blogimages/world-tour-amplify-your-code-cover.png'
+description: "Rock out with us and amplify your code on our World Tour! See where we'll be."
+twitter_image: '/images/social-media-assets/campaigns/gitlab-world-tour/world-tour-twitter.png' 
 ---
 
 {::options parse_block_html="true" /}
