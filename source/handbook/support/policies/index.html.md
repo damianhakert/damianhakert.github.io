@@ -1,4 +1,17 @@
-### Removal of 2FA <a name="2faremoval"></a>
+---
+layout: markdown_page
+title: Support Policies
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
+### Removal of 2FA
 
 [Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA)
 can only be removed from a GitLab.com account if one of the following combinations are met:
@@ -19,7 +32,7 @@ Examples:
 + Permanent Resident Cards
 
 
-### Dormant Usernames <a name="dormantusers"></a>
+### Dormant Usernames
 
 Support often gets requests from gitlab.com users to release a username.
 This can be implemented if the following criteria are met:
@@ -39,7 +52,7 @@ Support agents will not release a current user's contact information to another
 user. GitLab also will not contact a user on behalf of another user to request
 surrender of an apparently active username.
 
-### Code of Conduct<a name="coc"></a>
+### Code of Conduct
 
 Just as service engineers are expected to adhere to the [Code of
 Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we

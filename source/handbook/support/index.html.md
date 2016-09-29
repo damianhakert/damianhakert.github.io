@@ -150,7 +150,7 @@ or follow-up as required.
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
 Emails sent to security@gitlab.com go into Zendesk and receive an autoresponder that
 says: "Thank you for your responsible disclosure of a potential GitLab vulnerability.
-We'll follow up with you within one business day." We also accept reports via [HackerOne](https://hackerone.com/gitlab), see [more information](/handbook/support/channels#HackerOne) on this channel.
+We'll follow up with you within one business day." We also accept reports via [HackerOne](https://hackerone.com/gitlab), see [more information](/handbook/support/channels#hackerone) on this channel.
 
 Please be very patient with these reports. Do not say 'there is no problem', you
 might be misunderstanding something that can lead to a 0 day disclosure.

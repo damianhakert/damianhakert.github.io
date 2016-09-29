@@ -126,12 +126,11 @@ When resolving Twitter tickets you should:
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
-### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
-
+### Follow up on issues posted on GitLab issue tracker
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Tracker<a name="supp-forum"></a>
+### GitLab.com Support Tracker
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
 [Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
@@ -140,7 +139,7 @@ are having with their on-premises installation. In that case, you should refer t
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
 [Getting Help](/getting-help/) page, depending on the issue they are having.
 
-### GitLab CE/EE/Omnibus issue trackers<a name="product-issue-tracker"></a>
+### GitLab CE/EE/Omnibus issue trackers
 
 It is always encouraged to take a look at all our issue trackers and respond to bug reports or feature
 requests:
@@ -162,7 +161,7 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
 within the Forum environment.
 
-### TODO Docker<a name="docker"></a>
+### TODO Docker
 
 TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-ce/) page flow into ZenDesk.
 
