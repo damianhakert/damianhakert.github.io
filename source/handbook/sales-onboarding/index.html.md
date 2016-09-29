@@ -168,14 +168,16 @@ A library of past product training sessions can be found [Here](https://drive.go
 
 ### Stage 4 <a name="stage-4"></a>
 
+* [ ] Ask your manager or colleague if they can do a screenshare the next time they process an order using Salesforce/Zuora integration
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password.  Once you are in Salesforce, please familiarize yourself wth these reports/views as they will be critical in helping you manage your business.
 * [ ] Review in order, learning material on our [Sales Handbook](https://about.gitlab.com/handbook/sales/) page.
+* [ ] Familiarize yourself with the [lead qualification process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
+* [ ] Review with your manager what book of business or prospective accounts should be transferred over to your ownership, based on your territory assignment.
+* [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 * [ ] Review [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM) This view is to focus you on what you are committing to closing this month.  Are you in the right stage? What is needed to advance the sale to the next stage?
 * [ ] Review [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR) This view should be used to identify where you are going and where you need focus to ensure you are successful.  What needs to to close and/or where you need to build up your pipeline - new business, expansion, add-on
 * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) This view should be used to make sure you are followign up on each lead in a timely manner and have a plan on how you qualify or disqualify a lead.
 * [ ] Review [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
-* [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
-* [ ] Review [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/#leadQual) to understand what you should expect from the BDR team
 
 ```
 
