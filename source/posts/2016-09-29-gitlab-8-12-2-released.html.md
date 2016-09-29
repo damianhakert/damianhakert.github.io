@@ -3,43 +3,43 @@ title: "GitLab 8.12.2, 8.11.8, 8.10.11 and 8.9.11 released"
 author: Rubén Dávila
 author_twitter: rdavila
 categories: security release
-date: 2016-09-28 09:30
+date: 2016-09-29 10:30
 ---
 
 Today we are releasing versions 8.12.2, 8.11.8, 8.10.11 and 8.9.11 for GitLab Community
 Edition (CE) and Enterprise Edition (EE).
 
 Version 8.12.2 contains some security fixes for GitLab, plus fixes for minor
-regressions. Version 8.11.8, 8.10.11 and 8.9.11 only contains the security fixes.
+regressions. Version 8.11.8, 8.10.11, and 8.9.11 only contains the security fixes.
 
 Please read on for more details.
 
 <!-- more -->
 
-- **CE/EE:** Enforce the fork_project permission in Projects::CreateService. ([!1996])
-- **CE/EE:** Set a restrictive CORS policy for the API. ([!1998])
-- **CE/EE:** API: disable rails session auth for non-GET/HEAD requests. ([!1999])
-- **CE/EE:** Escape HTML nodes in builds commands in ci linter. ([!2001])
+- **CE/EE:** Enforce the `fork_project` permission in `Projects::CreateService`.
+- **CE/EE:** Set a restrictive CORS policy for the API.
+- **CE/EE:** API: Disable Rails session auth for non-GET/HEAD requests.
+- **CE/EE:** Escape HTML nodes in builds commands in CI linter.
 - **CE/EE:** Send ajax request for label update only if they are changed. ([!5071])
 - **CE/EE:** Pass the full project path for resolve buttons. ([!6129])
-- **CE/EE:** Fixed list issues not loading with spaces in filtered values. ([!6258])
-- **CE/EE:** fix LDAP omniauth regression (Closes: #22357). ([!6462])
-- **CE/EE:** Fixed awards dropdown search text from repeating. ([!6498])
-- **CE/EE:** Fixes issue with rails reserved keyword type exporting/importing services. ([!6499])
+- **CE/EE:** Fix list issues not loading with spaces in filtered values. ([!6258])
+- **CE/EE:** Fix LDAP omniauth regression (Closes: #22357). ([!6462])
+- **CE/EE:** Fix awards dropdown search text from repeating. ([!6498])
+- **CE/EE:** Fix issue with rails reserved keyword type exporting/importing services. ([!6499])
 - **CE/EE:** Fix snippets pagination. ([!6500])
-- **CE/EE:** Wrap List-Unsubscribe link in angle brackets. ([!6511])
+- **CE/EE:** Wrap `List-Unsubscribe` link in angle brackets. ([!6511])
 - **CE/EE:** Fix the "Commits" section of the cycle analytics summary. ([!6513])
 - **CE/EE:** Fix Import/Export milestone and 1to1 models issue. ([!6521])
-- **CE/EE:** Added v-cloak to resolve disc button. ([!6528])
+- **CE/EE:** Add `v-cloak` to resolve disc button. ([!6528])
 - **CE/EE:** Be nice to Docker Clients talking to JWT/auth. ([!6536])
-- **CE/EE:** Fix IssuesController#show degradation including project on loaded notes. ([!6540])
+- **CE/EE:** Fix `IssuesController#show` degradation including project on loaded notes. ([!6540])
 - **CE/EE:** Fix pipelines table headers. ([!6542])
 - **CE/EE:** Do not regenerate the `lfs_token` every time `git-lfs-authenticate` is called. ([!6551])
-- **CE/EE:** Changed to v-cloak attr to hash rocket and string 'true'. ([!6553])
-- **CE/EE:** Fix duplicate master entries in the mr versions dropdown. ([!6567])
+- **CE/EE:** Change the `v-cloak` attr to hash rocket and string 'true'. ([!6553])
+- **CE/EE:** Fix duplicate master entries in the merge request versions dropdown. ([!6567])
 
-- **EE:** [ES] Fix internal data exposure. ([!504])
-- **EE:** Add missing url param to ajax call. ([!760])
+- **EE:** ES: Fix internal data exposure. (8.12.2 only)
+- **EE:** Add missing URL param to ajax call. ([!760])
 - **EE:** Ignore unknown project ID in RepositoryUpdateMirrorWorker. ([!754])
 
 - **Omnibus GitLab** Update openssl to 1.0.2j to get the latest security fixes. ([!1006])
@@ -61,11 +61,6 @@ Please read on for more details.
 [!6553]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6553
 [!6567]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6567
 [!6551]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6551
-[!1996]: https://dev.gitlab.org/gitlab/gitlabhq/merge_requests/1996
-[!1998]: https://dev.gitlab.org/gitlab/gitlabhq/merge_requests/1998
-[!1999]: https://dev.gitlab.org/gitlab/gitlabhq/merge_requests/1999
-[!2001]: https://dev.gitlab.org/gitlab/gitlabhq/merge_requests/2001
-[!504]: https://dev.gitlab.org/gitlab/gitlab-ee/merge_requests/504
 [!760]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/760
 [!754]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/754
 [!1006]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/1006
