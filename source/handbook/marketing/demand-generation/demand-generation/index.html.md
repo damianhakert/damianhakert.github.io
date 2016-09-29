@@ -91,7 +91,7 @@ On the GitLab issue, make sure to:
 4. **Buying Process:** Who is the decision maker for GitLab?
 5. **Buying Process:** What is the buying process for procuring GitLab?
 6. **Buying Process:** What is role does the prospect play in the current evaluation (function, job title)?
-7. **Timeline:** What is the timeline to make a decision?
+7. **Timeline:** What is the timeline to make a decision?  Are you currently in an existing contract that needs to expire before you can move forward? If yes, when does the contract expire?
 8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need?
 9. **Product Fit:** Do they currently use another version of GitLab?  Are they familiar with our product family?
 10. **Scope:** How many seats are they interested in purchasing?
@@ -114,9 +114,10 @@ On the GitLab issue, make sure to:
 - Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
 ## Passing Qualified Leads<a name="leadPassing"></a>
-- Set "Lead Status" to Qualified and assign the appropriate sales team member as the new owner
-- Introduce the lead to the sales team member unless inappropriate or unnecessary.
-- If no action is taken by the newly assigned sales team member within 1-7 days, follow up with them and determine why no action has been taken.
+
+1. BDR emails prospect, cc'ing AE. Email consists of a summary of the lead qual data captured above (current state, problems to solve, what they would like to learn and desired state).  This email also introduces the AE and confirms the meeting day with the prospect and informs them that a meeting invite will be sent shortly.
+2. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
+3. BDR joins Discovery call and provides warm handoff
 
 ## Nurture campaign process<a name="nurture"></a>
 
