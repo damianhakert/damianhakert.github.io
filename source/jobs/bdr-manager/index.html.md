@@ -9,7 +9,7 @@ You have experience in sales or business development helping people get started 
 
 * Lead the business development team by:
     * Identifying where leads are in the sale and marketing funnel and taking the appropriate action.
-    * Passing qualified leads to the sales team and ensuring the sales team follows through.
+    * Ensuring qualified leads are passed to the sales team and the lead is followed up with properly and in a timely manner.
     * Training other members of the business development team to identify and pass qualified leads.
     * Ensuring business development team members improve performance and abilities over time by providing coaching and feedback.
     * Lead hiring and onboarding new business development representatives.
