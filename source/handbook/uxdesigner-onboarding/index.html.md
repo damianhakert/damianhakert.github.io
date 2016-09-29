@@ -26,7 +26,7 @@ To start designing, follow the instructions for the
 
 ## Design tools
 
-Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/) and [Sketch](bohemiancoding.com)
+Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/) and [Sketch](https://www.sketchapp.com/)
 
 Previously we used [Antetype](http://www.antetype.com/) and have [switched](https://gitlab.com/gitlab-org/gitlab-ce/issues/19790) to Sketch.
 
