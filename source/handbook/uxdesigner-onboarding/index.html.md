@@ -30,7 +30,7 @@ Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/)
 
 Previously we used [Antetype](http://www.antetype.com/) and have [switched](https://gitlab.com/gitlab-org/gitlab-ce/issues/19790) to Sketch.
 
-Old Antetype design files are still be valuable. If necessary, see: [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
+Old Antetype design files are still be valuable. If necessary, see [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
 
 When in need of different tools like CC Photoshop and/or CC Illustrator, request those by filing an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues).
 
@@ -38,7 +38,7 @@ Other tools can include, but are not limited to: [Framer](https://framerjs.com/)
 
 ## Issues
 
-As design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow UX designer in the issue.
+As design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow UX Designer in the issue.
 
 ## Relevant links
 
