@@ -12,7 +12,14 @@ required.
 ### How is GitLab EE licensed?
 
 Every person with a GitLab account that is not blocked by the administrator
-should be counted in the subscription.
+is a user and should be counted in the subscription.
+
+### What is a user
+A user is defined as an individual authorized by the customer to use their GitLab 
+server. Robots, bots and other automated accounts not linked to a person do not 
+count towards the user count. Guests, reporters, managers and people which access
+to an on-premise GitLab server DO count towards the user count, even if they do 
+not have access to the source code.
 
 ### Can I get an evaluation license of EE?
 
