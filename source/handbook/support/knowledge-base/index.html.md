@@ -11,15 +11,9 @@ title: Knowledge Base
 
 ----
 
-## Knowledge base pages
+## Customer calls
 
-- [Zendesk](/handbook/support/zendesk)
-
-----
-
-### Customer calls
-
-#### Scheduled calls
+### Scheduled calls
 
 We offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
 a call/screen sharing session with them and either guide them through the upgrade process or take control of the
@@ -37,7 +31,7 @@ much as possible about the customer's instance as you can.
 We collect this information in Zendesk and link it to the organization, see the
 [responding to tickets section in onboarding](/handbook/support/onboarding).
 
-#### Unscheduled calls
+### Unscheduled calls
 
 While engaging with customers you should always be prepared to jump on a call with them. It is easier to get
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
@@ -48,7 +42,13 @@ If you feel too inexperienced to handle a call, ask someone more experienced to 
 listen in if at all possible. After someone else had the call with the customer it is still your responsibility
 to handle the ticket as long as the ticket is still assigned to you.
 
-#### Errors on GitLab.com
+## Zendesk
+
+We use Zendesk to manage all customer queries. See the [Zendesk](/handbook/support/zendesk) page for more information on using Zendesk day to day.
+
+For additional resources see the "Initial Zendesk training" section of the support [onboarding checklist](/handbook/support/onboarding/checklist)
+
+## Errors on GitLab.com
 
 If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
 error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
@@ -76,9 +76,9 @@ title and/or augment the description with what the user experienced when this
 exception occurred to make it easier for developers to understand what
 happened.
 
-### Spam
+## Spam
 
-#### Flagging Issues as Spam
+### Flagging Issues as Spam
 
 Many spammers use GitLab.com to create spam. Starting with 8.11, GitLab has
 better integration with Akismet to check for spam whenever a user creates an
@@ -89,7 +89,8 @@ spammer, before deleting the account, flag the user's issues as spam:
 1. Login to GitLab.com with an admin account
 2. View each issue and click on "Submit as spam"
 
-#### Deleting Spammers
+
+### Deleting Spammers
 
 Once the issues are flagged and the user is verified to be a spammer, go to
 the spammer's user profile and click on the "Report Abuse" button:
@@ -113,7 +114,7 @@ periodically. To flag an issue as ham:
 3. Scan the contents of each log. If it appears that a user is trying to post valid
    information, click on "Submit as ham".
 
-### Sidekiq support
+## Sidekiq support
 
 With our subscription to Sidekiq, GitLab is in principle entitled to [one support request per quarter](https://github.com/mperham/sidekiq/wiki/Commercial-Support#priority-support).
 
