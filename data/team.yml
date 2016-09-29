@@ -1484,16 +1484,16 @@
           Prior to joining Gitlab Abby has worked remotely as a HR Generalist and consultant supporting startups and is very excited to be part of the remote working world.
           Abby is based in the UK and in her free time enjoys cooking, eating and writing her own blog (when she has time/remembers!)
 
-- name: A.H.
-  locality:
-  country:
+- name: Athar Hameed
+  locality: Kuala Lumpur
+  country: Malaysia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: athar.jpg
+  twitter: atharhameed
+  gitlab: athar
   story:  |
-          Joining September 5th
+          Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
 
 - name: Pedro Moreira da Silva
   locality: Lisbon
