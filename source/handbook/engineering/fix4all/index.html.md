@@ -19,7 +19,7 @@ his/her time helping the support team. There are several goals:
 1. Reduce the time it takes to resolve customer tickets.
 1. Reduce the time to fix customer bugs.
 1. Increase the shared knowledge between developers and service engineers.
-1. Increase customer awareness within the developing team.
+1. Increase customer awareness within the development team.
 1. Foster better cooperation between members of different groups.
 
 ## Implementation
