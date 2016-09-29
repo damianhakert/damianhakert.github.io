@@ -78,6 +78,8 @@ Please read on for more details.
 The new Global Code Search feature introduced in [GitLab 8.12.0] was returning titles of projects,
 milestones, issues, and merge requests from internal projects to anonymous. See [#1046] for more information.
 
+Thanks to **Christian Bönning** for reporthing this issue.
+
 [GitLab 8.12.0]: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
 [#1046]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1046
 
