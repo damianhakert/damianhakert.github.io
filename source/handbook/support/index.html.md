@@ -22,6 +22,7 @@ title: Support
    - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [Support Policies](/handbook/support/policies)
 - [Knowledge Base](/handbook/support/knowledge-base)
+- [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
 
 ----
