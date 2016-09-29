@@ -13,7 +13,7 @@ unfixed for quite some time.
 
 ## Introducing fix4all
 
-fix4all is a rotation where one developer wll spend a week of
+fix4all is a rotation where one developer will spend a week of
 his/her time helping the support team. There are several goals:
 
 1. Reduce the time it takes to resolve customer tickets.
