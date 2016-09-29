@@ -169,7 +169,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
  * USD
  * EUR
 1. Click Thru EULA - is used when an agreement has not been signed; A use case being a product(EE ) is sold through a partner
-1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora.
+1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora. Note: Customers can purchase in advance of the subscription Start Date. In this case, when the Quote is pushed to Z-billing the license generated will be encrypted with the furure Start Date and will not function until then.
 1. Subscription Term Type:
  * By default set as Termed
 1. Initial Term and Renewal Term -  Specify initial term and the renewal term in months
