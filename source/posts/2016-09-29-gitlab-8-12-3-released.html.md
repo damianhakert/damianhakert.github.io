@@ -3,7 +3,6 @@ title: "GitLab 8.12.3, 8.11.8, 8.10.11 and 8.9.11 released"
 author: Rubén Dávila
 author_twitter: rdavila
 categories: release
-date: 2016-09-29 16:30
 ---
 
 Today we are releasing versions 8.12.3, 8.11.8, 8.10.11 and 8.9.11 for GitLab Community
