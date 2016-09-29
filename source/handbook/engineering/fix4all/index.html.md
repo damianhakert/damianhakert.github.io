@@ -25,7 +25,7 @@ his/her time helping the support team. There are several goals:
 ## Implementation
 
 Every month, we will assign four developers to be on the fix4all
-rotation. Each developer will be assigned as week within that month
+rotation. Each developer will be assigned a week within that month
 to focus on helping support.
 
 ### Tasks
