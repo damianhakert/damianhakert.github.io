@@ -72,7 +72,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) who are packaging specialists
     - [Support](/handbook/support/) - [Support Lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)
-    - [Edge](/team/structure/edge/) - [Edge Lead](/jobs/edge-lead) - Rémy Coutable
+    - Edge - [Edge Lead](/jobs/edge-lead) - Rémy Coutable
        - [Developers](/jobs/developer/) who are issue triage specialists
        - [Developers](/jobs/developer/) who are maintainers of or specialist in projects without a lead
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
