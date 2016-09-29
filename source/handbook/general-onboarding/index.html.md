@@ -213,13 +213,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: If credit card holder, add to expense report calendar reminder
 1. [ ] Hiring Manager: Invite to sales meeting.
 1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi], and [WebEx].
-1. [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
 1. [ ] Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs.
 1. [ ] New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with:
   1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
   1. Competition https://about.gitlab.com/comparison/
 1. [ ] New team member: familiarize yourself with the [Support](https://about.gitlab.com/handbook/support/) process.
-1. [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
 ### FOR PEOPLE OPS ONLY
 
