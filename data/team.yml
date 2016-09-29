@@ -117,15 +117,14 @@
           I have a very strong desire to improve the world by making all things easier.
 
 - name: Patricio Cano
-  locality: Quito
-  country: Ecuador
+  locality: Mexico City
+  country: Mexico
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
   picture: picture_patricio.png
   twitter: suprnova32
   gitlab: patricio
   maintains:  |
-              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
               <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -724,6 +723,8 @@
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
+  maintains:  |
+               <li>On-call hero!</li>
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
@@ -771,6 +772,7 @@
   gitlab: felipe_artur
   maintains: |
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here to make GitLab better. Likes playing RTS video games and boxing in his free time.
 
@@ -900,6 +902,7 @@
   twitter: IsChrisW
   gitlab: MrChrisW
   maintains:  |
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
   story:  |
           Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer.
@@ -1549,7 +1552,7 @@
   gitlab:
   story:  |
           Joining September 21st
-          
+
 - name: J.E.J.
   locality:
   country:
@@ -1648,4 +1651,3 @@
   gitlab:
   story:  |
           Joining October 17th
-
