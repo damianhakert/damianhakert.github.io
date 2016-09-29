@@ -34,7 +34,7 @@ Old Antetype design files are still be valuable. If necessary, see: [Converting 
 
 When in need of different tools like CC Photoshop and/or CC Illustrator, request those by filing an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues).
 
-Other tools can include, but are not limited to: Framer, Origami by Facebook, Principal for Mac, and HTML/CSS/JS prototyping.
+Other tools can include, but are not limited to: [Framer](https://framerjs.com/), [Origami by Facebook](https://facebook.github.io/origami/), [Principle for Mac](http://principleformac.com/), and HTML/CSS/JS prototyping.
 
 ## Issues
 
