@@ -2,15 +2,15 @@
 title: "GitLab 8.12.2, 8.11.8, 8.10.11 and 8.9.11 released"
 author: Rubén Dávila
 author_twitter: rdavila
-categories: security release
-date: 2016-09-29 10:30
+categories: release
+date: 2016-09-29 16:30
 ---
 
 Today we are releasing versions 8.12.2, 8.11.8, 8.10.11 and 8.9.11 for GitLab Community
 Edition (CE) and Enterprise Edition (EE).
 
 Version 8.12.2 contains some security fixes for GitLab, plus fixes for minor
-regressions. Version 8.11.8, 8.10.11, and 8.9.11 only contains the security fixes.
+regressions. Version 8.11.8, 8.10.11, and 8.9.11 only contain the security fixes.
 
 Please read on for more details.
 
@@ -64,6 +64,37 @@ Please read on for more details.
 [!760]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/760
 [!754]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/754
 [!1006]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/1006
+
+## Information disclosure through Global Code Search
+
+The new Global Code Search feature introduced in [GitLab 8.12.0] was returning titles of projects,
+milestones, issues, and merge requests from internal projects to anonymous. See [#1046] for more information.
+
+[GitLab 8.12.0]: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
+[#1046]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1046
+
+## API: Restrictive CORS policy
+
+Previous versions set `Access-Control-Allow-Credentials: true` for all origins in their CORS policy.
+Combined with [#18302], this resulted in a JavaScript request spoofing vulnerability. See [#22450] for more information.
+
+[#22450]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22450
+
+## API: CSRF protection
+
+Issue [#18302] also introduced a vulnerability allowing third-party websites to spoof API requests using forms,
+which is mitigated in these releases. See [#22435] for more information.
+
+[#18302]: https://gitlab.com/gitlab-org/gitlab-ce/issues/18302
+[#22435]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22435
+
+## Wrong permission enforcement in ForkService
+
+A user with the "Guest" role could fork a project, and therefore gain access to the code,
+even though this was restricted to the "Reporter" level and above.
+See [#18028] for more information.
+
+[#18028]: https://gitlab.com/gitlab-org/gitlab-ce/issues/18028
 
 ## Upgrade barometer
 
