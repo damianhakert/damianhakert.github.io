@@ -1462,7 +1462,7 @@
   twitter: SeanPackham
   gitlab: SeanPackham
   story:  |
-          Sean is a software developr passionate about education and teaching
+          Sean is a software developer passionate about education and teaching
           others to code. Before GitLab Sean worked for various EdTech and
           social startups and lectured game design, 2D and multiplayer game
           development at his past university. When Sean is not sharing the
@@ -1536,6 +1536,17 @@
   gitlab: awhildy
   story:  |
           Allison is exhilarated by learning about and improving how people interact with technology. She is obsessed with finding the right problems to solve, and determined to solve them. In her free time, you can find her eagerly learning new skills, crafting something in her workshop, or curling up with a good book.
+
+- name: Elsje Smart
+  locality: Marazion
+  country: UK
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: elsje.jpg
+  twitter:
+  gitlab: elsje
+  story:  |
+          Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window. 
 
 - name: J.D.
   locality:
