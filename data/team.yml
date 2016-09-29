@@ -1283,6 +1283,8 @@
   picture: abubakarango.jpg
   twitter: sarki247
   gitlab: abuango
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events.
 
@@ -1342,6 +1344,8 @@
   picture: arihant.png
   twitter: arihantar
   gitlab: arihantar
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           Arihant is passionate about automating the boring parts of work life and likes to write small and useful ruby scripts. He loves interacting with people and solving problems. He also enjoys playing with his kid and likes social outings.
 
@@ -1440,6 +1444,8 @@
   picture: dewet.jpg
   twitter: dewetblomerus
   gitlab: dewetblomerus
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           De Wet is a software developer and mentor. He is passionate about problem-solving with code
           and helping someone without making them feel stupid. Prior to joining the GitLab team, he founded
