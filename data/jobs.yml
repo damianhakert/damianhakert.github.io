@@ -28,6 +28,11 @@
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
 
+- title: "Community Advocate"
+  description: /jobs/content-designer/
+  apply: https://gitlab.workable.com/jobs/348185/candidates/new
+  open: true
+
 - title: "Content Designer"
   description: /jobs/content-designer/
   apply: https://gitlab.workable.com/jobs/317102/candidates/new
@@ -155,5 +160,5 @@
 
 - title: "Community Advocate"
   description: /jobs/community-advocate/
-  apply: 
+  apply:
   open: false
