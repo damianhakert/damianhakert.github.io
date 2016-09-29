@@ -38,7 +38,7 @@ Other tools can include, but are not limited to: [Framer](https://framerjs.com/)
 
 ## Issues
 
-As Design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone their opinions. Try to come up with a solution instead of discussing endlessly. If you think additional perspective is needed mention a fellow UX designer in the issue.
+As design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow UX designer in the issue.
 
 ## Relevant links
 
