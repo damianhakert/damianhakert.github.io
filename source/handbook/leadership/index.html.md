@@ -48,7 +48,7 @@ title: Leadership
 ## No matrix organization
 
 We believe everyone deserves to report to exactly one person that knows and understands what you do day to day.
-We don't want a matrix organizations where you work with a lead day to day but formally report to someone else.
+We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
 The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
 For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
 It reduces compensation costs, coordination costs, and office politics.
