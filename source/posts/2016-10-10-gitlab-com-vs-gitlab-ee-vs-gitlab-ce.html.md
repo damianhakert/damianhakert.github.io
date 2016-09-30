@@ -48,23 +48,42 @@ which has a complete toolset for software development, including the following l
 
 ### Build, Test, and Deploy
 
-- Continuous Integration built-in ([GitLab CI][ci]), allowing you to run endless scripts
-with [GitLab Multi Runner][runner], which use an autoscaling method, making multiple simultaneous builds not only possible, but fast
+- Continuous Integration built-in ([GitLab CI][ci]), allowing you to
+run endless scripts with [GitLab Multi Runner][runner], which use
+an autoscaling method, making multiple simultaneous builds not only possible, but fast
 - [GitLab CI templates][ci-templates], to make your live easy when configuring a new project
-- GitLab [merge requests][mr], with in-line commenting, which is the best way to review your code, get feedback and approval
-- [Merge conflict resolution][mr-confl-ui] from the user interface, making easier than ever solving them out-of-the-box, faster than any other way
-- GitLab [Pipelines][pipes], with which you run multiple scripts in sequence or in parallel, whichever suits you best, and visualize the entire pipeline, making any error easily identifiable
-- [Environments] support, so you can deploy your code to different enviroments, as `staging` and `production`
-- [Continuous Delivery and Continuous Deployment][ci-cd-post] build-in support, to allow you to choose between deploying manually or automatically to whichever environment you choose, and `rollback` to the previous working version with a click of a button, whenever something goes wrong
+- GitLab [merge requests][mr], with in-line commenting, which is
+the best way to review your code, get feedback and approval
+- [Merge conflict resolution][mr-confl-ui] from the user interface,
+making easier than ever solving them out-of-the-box, faster than any other way
+- GitLab [Pipelines][pipes], with which you run multiple scripts in
+sequence or in parallel, whichever suits you best, and visualize the
+entire pipeline, making any error easily identifiable
+- [Environments] support, so you can deploy your code to different
+environments, as `staging` and `production`
+- [Continuous Delivery and Continuous Deployment][ci-cd-post]
+build-in support, to allow you to choose between deploying manually
+or automatically to whichever environment you choose, and `rollback`
+to the previous working version with a click of a button, whenever something goes wrong
 
 ![Build, Test and Deploy](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/build-test-deploy.png)
 
 ### Automation & Integration
 
-- [GitLab Webhooks][ce-webhooks], allowing you to automate repetitive processes, integrating with external tools and applications a discomplicated process
-- [GitLab Pages][pages], a static webserver which [supports][pages-post] custom domains and subdomains, SSL/TLS encryption and builds any SSGs. It was specially designed to attend web developers, and for making it easier for developers to deploy their website from the same platform they use for developing their software applications
-- [GitLab Container Registry], the first Docker registry that is fully-integrated with Git repository management, allowing you to build and deploy your Docker image right from GitLab, automatically
-- [GitLab Cycle Analytics][gca]: a new feedback tool, which allows you to track the time taken by your team to evolve in a project, from the first step (creating a new issue) until the last step (deploying to production). This is what we call "going [from idea to production with GitLab][idea-prod]"
+- [GitLab Webhooks][ce-webhooks], allowing you to automate repetitive
+processes, integrating with external tools and applications a discomplicated process
+- [GitLab Pages][pages], a static webserver which [supports][pages-post]
+custom domains and subdomains, SSL/TLS encryption and builds any SSGs.
+It was specially designed to attend web developers, and for making it
+easier for developers to deploy their website from the same platform
+they use for developing their software applications
+- [GitLab Container Registry], the first Docker registry that is
+fully-integrated with Git repository management, allowing you to build
+and deploy your Docker image right from GitLab, automatically
+- [GitLab Cycle Analytics][gca]: a new feedback tool, which allows you
+to track the time taken by your team to evolve in a project, from the
+first step (creating a new issue) until the last step (deploying to production).
+This is what we call "going [from idea to production with GitLab][idea-prod]"
 - A lot of external [integrations], such as [Jira], [Jenkins], [Slack], [Shippable], [Digital Ocean], [Koding], [Mesosphere] and many others
 - [GitLab API][api]: Automate GitLab via a simple and powerful API.
 
@@ -74,62 +93,101 @@ Astonished so far? Keep going, GitLab has a lot more to offer!
 
 ## GitLab Instances
 
-TL;DR: GitLab is offered in two instances: **GitLab CE** and **GitLab EE. <br> GitLab.com runs on top of GitLab EE.**
+TL;DR: GitLab is offered in two instances: **GitLab CE** and **GitLab EE.
+<br> GitLab.com runs on top of GitLab EE.**
 {: .alert .alert-info .text-center}
 
-You might have heard about "GitLab instances" before, but doesn't know exactly what this means. It's simple: our
-company offers two different major products: **GitLab CE** (which stands for **Community Edition**), and **GitLab EE** (which stands for **Enterprise Edition**). What about GitLab.com? Well, it runs on top of GitLab EE. It's our premium product, free to use at GitLab.com (yay!).
+You might have heard about "GitLab instances" before, but doesn't
+know exactly what this means. It's simple: our
+company offers two different major products: **GitLab CE** (which
+stands for **Community Edition**), and **GitLab EE** (which
+stands for **Enterprise Edition**). What about GitLab.com?
+Well, it runs on top of GitLab EE. It's our premium product,
+free to use at GitLab.com (yay!).
 
 [![GitLab EE, GitLab CE, GitLab.com](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/gitlab-instances.png)](/pricing/)
 
-Now you're confused: "okay, so the folks at GitLab give their honey for free?" Yes, we do. But let's start from the beginning, you'll catch up.
+Now you're confused: "okay, so the folks at GitLab give their honey
+for free?" Yes, we do. But let's start from the beginning, you'll catch up.
 
 ### <i class="fa fa-gitlab fa-fw" style="color: #e14329 !important; font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp; GitLab.com
 {:.gitlab-orange}
 
-Let's understand something important here: **at GitLab.com, you can access everything GitLab offers, but in a _user-level basis only_**. We own the admin tools, setup, servers, firewalls, etc.
+Let's understand something important here: **at GitLab.com, you
+can access everything GitLab offers, but in a _user-level basis only_**.
+We own the admin tools, setup, servers, firewalls, etc.
 
-Is it customizable? Up to a point, yes: you take control over your projects, your groups, you give access to your contributors, you do **everything an user can possibly do**. But no, **you can't setup GitLab.com** at your will. To do that, you'll need **your own GitLab instance**. With it, you are in control of the entire administrative area, tools, disk space, defaults, etc.
+Is it customizable? Up to a point, yes: you take control over your projects,
+your groups, you give access to your contributors, you do
+**everything an user can possibly do**. But no, **you can't setup GitLab.com**
+at your will. To do that, you'll need **your own GitLab instance**. With it,
+you are in control of the entire administrative area, tools, disk space, defaults, etc.
 
-Currently, GitLab.com offers all the features GitLab EE does, except [Koding integration][koding], tools controlled by administrative access, and the features listed on the [table below](#gitlab-ee-only-main-features).
+Currently, GitLab.com offers all the features GitLab EE does,
+except [Koding integration][koding], tools controlled by administrative
+access, and the features listed on the [table below](#gitlab-ee-only-main-features).
 
 #### Why GitLab.com?
 {:.gitlab-purple #gitlab-com}
 
-Why not? [GitLab.com][com] is where you'll find community collaboration, open source projects, and enjoy all it's awesomeness for free!
+Why not? [GitLab.com][com] is where you'll find community collaboration,
+open source projects, and enjoy all it's awesomeness for free!
 
 #### When should I choose GitLab EE or CE?
 {:.gitlab-purple}
 
-If you want to take control over every customizable aspect of GitLab, run it in your own server, behind your firewall, you have two options: GitLab CE and GitLab EE. And I can tell you by heart, it's awesome having your own GitLab, even if it's running in your local machine!
+If you want to take control over every customizable aspect of GitLab,
+run it in your own server, behind your firewall, you have two options:
+GitLab CE and GitLab EE. And I can tell you by heart, it's awesome
+having your own GitLab, even if it's running in your local machine!
 
 ### <i class="fa fa-gitlab fa-fw" style="color: #e14329 !important; font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp; GitLab CE
 {:.gitlab-orange #gitlab-ce}
 
-[GitLab CE][ce] is our princess, our open source product, free to download, tweak, contribute, customize and use as you wish. Does GitLab CE have everything described in this post so far? Yes, it does, except GitLab Pages. And we are very proud to deliver such an amazing product, for free.
+[GitLab CE][ce] is our princess, our open source product, free to
+download, tweak, contribute, customize and use as you wish. Does
+GitLab CE have everything described in this post so far? Yes, it
+does, except GitLab Pages. And we are very proud to deliver such
+an amazing product, for free.
 
 #### Why GitLab CE?
 {:.gitlab-purple}
 
-Well, if you want to have an entire GitLab only for you, it's all yours! If you want it for your company, it's all yours too.
+Well, if you want to have an entire GitLab only for you, it's
+all yours! If you want it for your company, it's all yours too.
 
-It's great to people that don't need all the premium features GitLab EE offers, or for trying GitLab for a while, or for when you can't afford GitLab EE, or just for fun!
+It's great to people that don't need all the premium features
+GitLab EE offers, or for trying GitLab for a while, or for when
+you can't afford GitLab EE, or just for fun!
 
-GitLab CE is as customizable as possible, it has all the administrative settings and tools, it can be [download and installed][ce-download] in different Unix operational systems, it can be made available locally (to your own network), or globally (to the entire internet). How you set it up, where to install, how you manage it, is totally up to you. We provide you guides and documentation, the rest is on you to play around!
+GitLab CE is as customizable as possible, it has all the administrative
+settings and tools, it can be [download and installed][ce-download] in
+different Unix operational systems, it can be made available locally
+(to your own network), or globally (to the entire internet). How you
+set it up, where to install, how you manage it, is totally up to you.
+We provide you guides and documentation, the rest is on you to play around!
 
-Does GitLab CE has all the features offered by GitLab? No, only its big brother has everything: GitLab EE.
+Does GitLab CE has all the features offered by GitLab? No, only its
+big brother has everything: GitLab EE.
 
 For GitLab CE, we provide support via issue tracker and forum.
 
 ### <i class="fa fa-gitlab fa-fw" style="color: #e14329 !important; font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp; GitLab EE
 {:.gitlab-orange #gitlab-ee}
 
-[GitLab EE][ee] is our queen, our open core and premium product. It has all the possible features GitLab offers, and some adds-ons to spice it up. It's also available to [download and install][ee-download], and use however you want. It's like having a "GitLab.com" all for yourself! Our subscriptions are very affordable and don't have any restrictions: if you want it just for yourself, you can buy a single-user subscription. If your company has dozens, hundreds, or thousands of users, GitLab EE supports all of them.
+[GitLab EE][ee] is our queen, our open core and premium product.
+It has all the possible features GitLab offers, and some adds-ons
+to spice it up. It's also available to [download and install][ee-download],
+and use however you want. It's like having a "GitLab.com" all for yourself!
+Our subscriptions are very affordable and don't have any restrictions: if
+you want it just for yourself, you can buy a single-user subscription. If
+your company has dozens, hundreds, or thousands of users, GitLab EE supports all of them.
 
 #### Why GitLab EE?
 {:.gitlab-purple}
 
-Well, for a great number of reasons. Let's make it reader-friendly and not over populate this single post with all the reasons.
+Well, for a great number of reasons. Let's make it reader-friendly and
+not over populate this single post with all the reasons.
 
 {::options parse_block_html="true" /}
 
@@ -137,7 +195,12 @@ Well, for a great number of reasons. Let's make it reader-friendly and not over 
 **Case 1: Single-User Subscription** 
 {: .panel-heading}
 <div class="panel-body">
-Okay. Let's say you love GitLab.com and you decided to have your own GitLab instance. If you are an advanced user of GitLab.com, it might be disappointing to move over GitLab CE. Sometimes, you'll find yourself wondering "where can I do this?", "where is that feature I love?", "where is my Pages server?". They're in GitLab EE. That's what drives you buy a single-user subscription.
+Okay. Let's say you love GitLab.com and you decided to have your own
+GitLab instance. If you are an advanced user of GitLab.com, it might
+be disappointing to move over GitLab CE. Sometimes, you'll find yourself
+wondering "where can I do this?", "where is that feature I love?", "where
+is my Pages server?". They're in GitLab EE. That's what drives you buy a
+single-user subscription.
 </div>
 </div>
 
@@ -145,9 +208,16 @@ Okay. Let's say you love GitLab.com and you decided to have your own GitLab inst
 **Case 2: Small Group Subscription** 
 {: .panel-heading}
 <div class="panel-body">
-Let's say you and a bunch of friends from college decided to work on a game project. Your game will be awesome, and you need a lot of different integrated tools, control who has access to what, keep it behind your own firewall, design a webpage for it, and do a lot of stuff you can achieve only with an advanced, fully-featured platform. 
+Let's say you and a bunch of friends from college decided to work on a
+game project. Your game will be awesome, and you need a lot of different
+integrated tools, control who has access to what, keep it behind your own
+firewall, design a webpage for it, and do a lot of stuff you can achieve
+only with an advanced, fully-featured platform. 
 
-You need all the features only GitLab EE has. And you need Premium Support, in case some of you messes things around. You go for GitLab EE. It's also affordable for small groups, you and your friends can split the costs among yourselves, until the game pays you all back!
+You need all the features only GitLab EE has. And you need Premium Support,
+in case some of you messes things around. You go for GitLab EE. It's also
+affordable for small groups, you and your friends can split the costs among
+yourselves, until the game pays you all back!
 </div>
 </div>
 
@@ -155,25 +225,41 @@ You need all the features only GitLab EE has. And you need Premium Support, in c
 **Case 3: Big Company Subscription** 
 {: .panel-heading}
 <div class="panel-body">
-Now, let's say you run an entire company and you're looking for a software development platform that can attend all your giant enterprise needs. Of course you will choose the best option available, so your team will be able to work faster and better within a fully-featured product. You go for GitLab EE, and boost it up with Premium Support, File Locking and GitLab GEO.
+Now, let's say you run an entire company and you're looking for a software
+development platform that can attend all your giant enterprise needs.
+Of course you will choose the best option available, so your team will
+be able to work faster and better within a fully-featured product. You
+go for GitLab EE, and boost it up with Premium Support, File Locking and GitLab GEO.
 </div>
 </div>
 
 ### What does GitLab EE have and CE does not?
 
-If you are following us on social media, our blog, and other communication channels, you probably have heard about our [Master Plan], and you're asking yourself "okay, sounds great! But what about the whole Master Plan thing? And the idea to production workflow? Is that available only for GitLab EE customers?" Don't worry, be happy: the answer is, **no**! 
+If you are following us on social media, our blog, and other communication
+channels, you probably have heard about our [Master Plan], and you're
+asking yourself "okay, sounds great! But what about the whole Master
+Plan thing? And the idea to production workflow? Is that available only
+for GitLab EE customers?" Don't worry, be happy: the answer is, **no**!
 
-Our [10-step from idea to production][idea-prod-steps] toolset is available for **every GitLab user**: CE, EE and GitLab.com.
+Our [10-step from idea to production][idea-prod-steps] toolset is
+available for **every GitLab user**: CE, EE and GitLab.com.
 {:.alert .alert-webcast}
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
-GitLab CE is an amazing product, and, as we've already said, we are proud to deliver it for free. But, of course, in order to be able to have people working at GitLab, to provide the entire infrastructure necessary to keep things up, and to support our company culture (which is awesome), we need to monetize. For this purpose, we offer an singular premium product, with special things that make it, well, **special**.
+GitLab CE is an amazing product, and, as we've already said, we
+are proud to deliver it for free. But, of course, in order to be
+able to have people working at GitLab, to provide the entire infrastructure
+necessary to keep things up, and to support our company culture
+(which is awesome), we need to monetize. For this purpose, we offer
+an singular premium product, with special things that make it, well, **special**.
 
 #### GitLab EE-only main features
 {:.gitlab-purple}
 
-There are a lot of things GitLab EE is boosted up with. You'll find the entire comparison table in our [features page][features]. Let's describe the main ones here.
+There are a lot of things GitLab EE is boosted up with. You'll find
+the entire comparison table in our [features page][features]. Let's
+describe the main ones here.
 
 | Feature name | Feature description | Available at GitLab.com |
 | -- | -- | :--: |
@@ -195,15 +281,23 @@ There are a lot of things GitLab EE is boosted up with. You'll find the entire c
 #### GitLab EE-only premium additional products
 {:.gitlab-purple}
 
-As a GitLab EE customer, you can [buy premium additional products][premium] to boost up your GitLab instance!
+As a GitLab EE customer, you can [buy premium additional products][premium]
+to boost up your GitLab instance!
 
 [![GitLab EE premium additional products](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/premium-add-prod-ee.png)](/pricing/)
 
-- [GitLab Geo][geo]: With this feature you can have a geographically replicated GitLab instance
- that mirrors the main source.
-- [Premium Support][premium]: You get 24/7 emergency support, two training workshops, dedicated service engineer, Live upgrade assistance, Support for High Availability.
-- [Pivotal Tile integration][pivotal]: deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
-- [File Locking][File-Lock]: lock any file or directory in the repository tree reserving you the right to make changes to that file or directory. With File Locking, you can prevent modification while you're working on a file, avoid conflicts when modifying your assets, prevent design assets from being overwritten, avoid merge conflicts.
+- [GitLab Geo][geo]: With this feature you can have a geographically
+replicated GitLab instance that mirrors the main source.
+- [Premium Support][premium]: You get 24/7 emergency support,
+two training workshops, dedicated service engineer, live
+upgrade assistance, Support for High Availability.
+- [Pivotal Tile integration][pivotal]: deploy GitLab as a
+pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
+- [File Locking][File-Lock]: lock any file or directory in the
+repository tree reserving you the right to make changes to that
+file or directory. With File Locking, you can prevent modification
+while you're working on a file, avoid conflicts when modifying your
+assets, prevent design assets from being overwritten, avoid merge conflicts.
 
 <!-- this section below is commented - too long - probably will be deleted  -->
 
@@ -262,17 +356,29 @@ If you work with a lot of projects, such as books, manuals, translations, and ge
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-gitlab-orange .text-center .extra-margin}
 
-Thank you to our amazing community. We owe GitLab’s existence to your enthusiasm, drive, and hard work. Without our contributors’ belief in open source software, we would not be where we are today. We need your help to make our collective vision a reality.
+Thank you to our amazing community. We owe GitLab’s existence
+to your enthusiasm, drive, and hard work. Without our contributors'
+belief in open source software, we would not be where we are today.
+We need your help to make our collective vision a reality.
 
 Every 22nd there's a new GitLab release, with more awesomeness than before!
 
-You are more than invited to contribute to make GitLab CE even better. We are happy to receive feature proposals in our issue tracker, and we get even happier and cheerful when you contribute with your own code, so it's easier and faster to make it happen.
+You are more than invited to contribute to make GitLab CE even better.
+We are happy to receive feature proposals in our issue tracker, and we
+get even happier and cheerful when you contribute with your own code,
+so it's easier and faster to make it happen.
 
-Check out the implementations that are [**up-for-grabs**][ce-up-for-grabs] and submit your code! You're also more than invited to share your thoughts, ask questions and even help us to answer some questions in our [forum]. Our community is what makes GitLab better and more attractive to everyone. We elect an **[MVP]** every month to express our gratitude. And some of our MVPs are now happy [GitLab Team][team] members!
+Check out the implementations that are [**up-for-grabs**][ce-up-for-grabs]
+and submit your code! You're also more than invited to share your thoughts,
+ask questions and even help us to answer some questions in our [forum]. Our
+community is what makes GitLab better and more attractive to everyone. We
+elect an **[MVP]** every month to express our gratitude. And some of our
+MVPs are now happy [GitLab Team][team] members!
 
 Do you love GitLab as much as we do? Please consider [joining us][jobs]!
 
-Looking forward to see you around! Questions, suggestions, feedback? Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
+Looking forward to see you around! Questions, suggestions, feedback?
+Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
 
 <!-- identifiers -->
 
