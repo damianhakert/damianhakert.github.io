@@ -181,7 +181,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -404,7 +404,7 @@ Make sure it is charging, otherwise try again.
 ### Company phone number
 {: #phone-number}
 
-If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#office-addresses) of the office in the Netherlands if that is more applicable.
+If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
@@ -425,7 +425,7 @@ and how to swap duty in the [On-Call](https://about.gitlab.com/handbook/on-call/
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
 1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
-1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](Proprietary Information and Assignment Agreement) and/or [GitLab B.V. NDA and IP Agreements](https://about.gitlab.com/handbook/contracts/#bv-nda-ip).
+1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit) and/or [GitLab B.V. NDA and IP Agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#).
 
 ## <i class="fa fa-usd fa-fw icon-color font-awesome" aria-hidden="true"></i> Spending Company Money
 {: #spending-company-money}
@@ -433,12 +433,12 @@ intellectual property violations
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.
-1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940#.qaa888pwq) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
+1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/sop/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
     *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
@@ -485,7 +485,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
-1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75#.hl1x9zh15), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
+1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. We have an "unlimited" time off policy. This means that:
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
@@ -544,7 +544,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/sop/#referral-bonus) the bonus.
+People Ops will [process](/handbook/people-operations/sop/#enter-a-bonus-into-trinet) the bonus.
 
 ### Work Remotely Travel Grant
 {: #travel-grant}
@@ -720,7 +720,7 @@ When people join the event they have to [accept a warning](https://gitlab.com/sn
 [Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
 You can use actions to make it public here
 
-BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
+BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.google.com/plus/answer/7126353?hl=en) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
 ### One Tab
 
@@ -766,11 +766,11 @@ your e-mail ([STEP 2](#change-username-step-2)), which will be different
 
 - Access the username you want to request via `https://gitlab.com/u/mary`.
 - Check it's activity, projects, to see if he/she is an inactive -
-[according to the handbook](/handbook/support/#dormant-usernames-a-namedormantusersa).
+[according to the handbook](/handbook/support/policies/#dormant-usernames).
 - Send your request to `support@gitlab.com`, explaining the reasons why
 you need that username.
 - There's no guarantee that the username will be available for you. Please
-check the [handbook guidelines for dormant usernames](/handbook/support/#dormant-usernames-a-namedormantusersa).
+check the [handbook guidelines for dormant usernames](/handbook/support/policies/#dormant-usernames).
 
 **STEP 2: Create a new account with your new username**
 {: #change-username-step-2}
