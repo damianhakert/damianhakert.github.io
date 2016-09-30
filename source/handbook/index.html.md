@@ -898,7 +898,7 @@ Read through our [Markdown Guide] to understand its syntax and create new conten
 
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
-1. To edit the site locally you'll need to install a text editor. We recommend
+1. You will need to install a text editor to edit the site locally. We recommend
    [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
 #### 2. Test if all URL links in a page are valid
@@ -912,7 +912,8 @@ links inside a page is the following.
 1. Click the newly installed extension in the upper right corner of Chrome.
 
 A pop-up window will open and tell you how many links, if any, are invalid.
-Fix any invalid links and ideally any warnings, commit, push back, test again.
+Fix any invalid links and ideally any warnings, commit and push your changes,
+and test again.
 
 [async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
 [check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
