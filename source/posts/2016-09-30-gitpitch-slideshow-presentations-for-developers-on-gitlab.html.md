@@ -45,7 +45,7 @@ To experience just how simple it is to create a GitPitch slideshow presentation 
 Using the [GitLab web editor](https://gitlab.com/help/user/project/repository/web_editor.md), or your preferred code editor, create a file called **PITCHME.md** in the root directory of your repo, then add and save the following Markdown content:
 
 ```
-# Flux 
+# Flux
 
 An application architecture for React
 
