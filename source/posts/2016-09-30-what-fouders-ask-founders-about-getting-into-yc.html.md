@@ -18,7 +18,7 @@ The deadline to [**apply**](https://www.ycombinator.com/apply/) for the Y Combin
 
 <!-- more -->
 
-In combination with the blog post we released [the application of GitLab to YC](/2016/09/30/gitlabs-appliaction-for-y-combinator-winter-2015) as an example.
+In combination with the blog post we released [the application of GitLab to YC](/2016/09/30/gitlabs-application-for-y-combinator-winter-2015/) as an example.
 Below some questions that Reinder Visser from [Placker](www.placker.com) asked Sid about applying at Y Combinator a few days ago.
 
 #### Reinder: Why should you apply?
