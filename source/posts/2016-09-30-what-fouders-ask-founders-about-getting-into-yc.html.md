@@ -1,21 +1,29 @@
 ---
-title: "What founders ask founders about getting into Y Combinator"
+title: "What Founders Ask Founders About Getting Into Y Combinator"
 author: Kirsten Abma
 author_twitter: kirsten_abma
-categories:
+categories: GitLab
+date: 2016-09-30 10:31
+image_title: '/images/blogimages/what-fouders-ask-founders-about-getting-into-yc-cover.png'
+description: "5 questions a founder asked our founder about applying to YC!"
 ---
 
 You’ve got a great idea and feel you can make a great company and product out of it. You’ve worked on a basic version and feel like you’re ready to enter the big leagues.
+
 Maybe the accelerator program of Y Combinator is a good idea? But you’ve got so many questions.
 When are you ready for the next step? How can Y Combinator help you? What are some tips or tricks to get in and what should you highlight in the application process?
 
 The deadline to **[apply](https://www.ycombinator.com/apply/)** for the Y Combinator program is **Tuesday October 4th 2017 by 8pm PT**.
-In combination with the blog post we released [the application of GitLab to YC](https://about.gitlab.com/2016/09/30/gitlabs-appliaction-for-y-combinator-winter-2015) as an example.
+{: .alert .alert-webcast}
+
+<!-- more -->
+
+In combination with the blog post we released [the application of GitLab to YC](/2016/09/30/gitlabs-appliaction-for-y-combinator-winter-2015) as an example.
 Below some questions that Reinder Visser from [Placker](www.placker.com) asked Sid about applying at Y Combinator a few days ago.
 
 ### Reinder: Why should you apply?
 
-Sid: The reason we applied for Y Combinator with GitLab was that we had lost our first customer mid 2014. The customer explained that while they liked GitLab they were standardizing on an alternative solution.
+**Sid:** The reason we applied for Y Combinator with GitLab was that we had lost our first customer mid 2014. The customer explained that while they liked GitLab they were standardizing on an alternative solution.
 Dmitriy and I figured every company would standardize on one solution to do [innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/) and we wanted that solution to be GitLab. The need to grow faster became the main reason to apply since there was a window of opportunity of a couple of years before people would standardize on one tool and be decided.
 
 We feel that the time to apply for Y Combinator is when you have mainly outlined your product vision, you’re still working somewhat on the market, and are still trying to figure out how to sell it, and how to scale to accommodate your customers.
@@ -23,7 +31,7 @@ The Y Combinator program is ideal when you have a solid team of founders that ha
 
 ### Reinder: So why chose Y Combinator if there are more than 2000 accelerator programs in the world?
 
-Sid: We feel that Y Combinator has the best network, the best partners, the best advice to give you because they see the most companies, and they are very strong at selecting them.
+**Sid:** We feel that Y Combinator has the best network, the best partners, the best advice to give you because they see the most companies, and they are very strong at selecting them.
 Going where the other strong applicants are, you will have a program where they have the largest set of data to offer you advice.
 Investors have noticed the Y Combinator pattern which helps you raise funding under better terms with better investors. Our Y Combinator experience exceeded our high expectations.
 
@@ -36,7 +44,7 @@ where it’s not so much that Y Combinator will be hard on your own, running a c
 
 ### Reinder: If you decide to apply, how do you get in?
 
-Sid: Take your time working on your answers for the application. Apply ahead of the deadline and don’t wait until the last minute if you can. But even last minute and late applications get a fair review so feel free to sleep on it.
+**Sid:** Take your time working on your answers for the application. Apply ahead of the deadline and don’t wait until the last minute if you can. But even last minute and late applications get a fair review so feel free to sleep on it.
 Describe what your company does and why it’s unique. Be concise and opt for simple descriptions with the use mundane language, because a main reason why you get declined is that a reviewer doesn’t understand you business.
 Have other people review your application. Then ask them “what does my company do”? and write down their answer. Take that answer they have given you and use it to improve your description.
 Writing down what your company does is one of the hardest things, and if you don’t agree with their answer than your first answer wasn’t clear enough.
@@ -49,7 +57,7 @@ They will ask you questions which are to be found on the internet so make sure t
 
 ### Reinder: So spill the beans; what’s it like?
 
-Sid: Y Combinator raises your ambition level; everyone is motivated by the feeling of progress, and that’s what fast growth gives you.
+**Sid:** Y Combinator raises your ambition level; everyone is motivated by the feeling of progress, and that’s what fast growth gives you.
 You’re in a batch with the best people in the world, it’s a form of healthy peer pressure that motivates you to work harder and set that high pace to keep developing your product.
 The first thing they ask you to do is launch, in case you haven’t done that yet. Y Combinator teaches you not to want your feature or product to be a certain way before shipping.
 Ship today, and make it better or nicer over time. As soon as it’s live you’ll have more information and data on what the real problems are.

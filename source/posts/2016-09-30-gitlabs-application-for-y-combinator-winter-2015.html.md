@@ -48,7 +48,7 @@ GitLab
 **What is your company going to make?** 
 {: .panel-heading}
 <div class="panel-body">
-We’re making open source software to collaborate on code. It started as ‘run your own GitHub’ that most users deploy on their own server(s). GitLab allows you to version control code including pull/merge requests, forking and public projects. It also includes project wiki’s and an issue tracker. Over 100k organizations use it including thousands of programmers at <redacted>. We also offer GitLab CI that allows you to test your code with a distributed set of workers.
+We’re making open source software to collaborate on code. It started as ‘run your own GitHub’ that most users deploy on their own server(s). GitLab allows you to version control code including pull/merge requests, forking and public projects. It also includes project wiki’s and an issue tracker. Over 100k organizations use it including thousands of programmers at \<Redacted>. We also offer GitLab CI that allows you to test your code with a distributed set of workers.
 </div>
 </div>
 
