@@ -74,7 +74,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Enter the amount per pay period
 1. Enter pay frequency
 
-Please see People Ops for more information on [making changes in TriNet](/people-operations/#using-trinet).
+Please see People Ops for more information on [making changes in TriNet](https://about.gitlab.com/handbook/people-operations/sop/#making-changes-in-trinet).
 
 ### GitLab BV Pay Slip Distribution Process
 <a name="payroll-bv"></a>
@@ -274,4 +274,4 @@ In Quickbooks:
 
 ### Asset Tracking
 
-See the entry on asset tracking on the [People Ops page](/handbook/people-operations/#asset-tracking)
+See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)

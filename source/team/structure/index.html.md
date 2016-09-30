@@ -27,7 +27,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
       - [Marketing Operations Manager](https://about.gitlab.com/jobs/marketing-operations-manager/) - Jennifer Cordz
       - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
-      - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
+      - [Field Marketing](/handbook/marketing/demand-generation/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
       - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
     - [Product Marketing](/handbook/marketing/product-marketing/) - [Director of Product Marketing](/jobs/director-product-marketing/) - Amara Nwaigwe
