@@ -150,7 +150,7 @@ the case.
 - [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
 
-See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
+See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies) for the above trackers for more information on how issues should be handled.
 
 ### Mailing list
 
@@ -167,7 +167,7 @@ TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-
 
 ### Stack Overflow
 
-The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
+The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
 flow into ZenDesk, but can only be responded to from within Stack Overflow.
 
 ### Reddit
