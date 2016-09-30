@@ -428,6 +428,7 @@
   specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
                 <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+                <li><a href="/jobs/specialist/backstage">Backstage</a> <href="/jobs/expert/">expert</a></li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
           He enjoys creating software that people actually love using, so GitLab was an obvious choice for his next company to work at.
@@ -921,6 +922,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Merge request coach</li>
+              <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
@@ -1307,6 +1309,8 @@
   picture: nick-thomas.png
   twitter: lupine_85
   gitlab: nick.thomas
+  maintains:  |
+              <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           After eight years spent building The Cloud (or at least, A Cloud),
           Nick fell in love with his newest tool for doing so - GitLab! His free
@@ -1546,7 +1550,7 @@
   twitter:
   gitlab: elsje
   story:  |
-          Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window. 
+          Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window.
 
 - name: J.D.
   locality:
@@ -1560,16 +1564,16 @@
           Joining September 21st
 
 - name: Kyla Gradin
-  locality: Fargo, North Dakota 
+  locality: Fargo, North Dakota
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Business Development Team Lead
   picture: kyla.jpg
   twitter: KylaGradin
   gitlab: kyla
-  story:  | 
-          Hailing from the Great Plains of North Dakota, where winters are colder than Antarctica. Kyla has seven years of experience in the computer technology field, where she prides herself on business development and management consulting. Prior to joining the GitLab team, Kyla gained experience working for a multinational technology company, where she contributed her time to the cloud platform. She enjoys dedicating her down time in the summer to ake weekends, and breaking away from cold winters by traveling with her family. GitLab's slice of North Dakota nice. 
-           
+  story:  |
+          Hailing from the Great Plains of North Dakota, where winters are colder than Antarctica. Kyla has seven years of experience in the computer technology field, where she prides herself on business development and management consulting. Prior to joining the GitLab team, Kyla gained experience working for a multinational technology company, where she contributed her time to the cloud platform. She enjoys dedicating her down time in the summer to ake weekends, and breaking away from cold winters by traveling with her family. GitLab's slice of North Dakota nice.
+
 
 - name: J.E.J.
   locality:
@@ -1601,7 +1605,7 @@
   picture: mattl.jpg
   twitter: mattl
   gitlab: mattl
-  story:  | 
+  story:  |
           Matt has been a fan of free software since a young age after reading Steven Levy's "Hackers". He previously worked at the Free Software Foundation and Creative Commons, and is the maintainer of the GNU FM and GNU social projects. He moved from the UK to the US in 2008 to complete work on his short film, <a href="https://www.gnu.org/fry/">Happy Birthday to GNU</a>.
 
 - name: A.N.
