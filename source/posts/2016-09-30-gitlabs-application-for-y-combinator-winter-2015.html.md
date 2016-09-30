@@ -37,7 +37,7 @@ GitLab
 **If you have an online demo, what's the url?** 
 {: .panel-heading}
 <div class="panel-body">
-<http://demo.gitlab.com/users/sign_in> 
+http://demo.gitlab.com/users/sign_in
 
 **Note:** this URL no longer works, in 2016 our sign up url is [https://gitlab.com/users/sign_in](https://gitlab.com/users/sign_in)
 {:.note .red}
