@@ -104,7 +104,7 @@ Depending on the outcome of the screening call, the hiring manager can either [r
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates.
-Before the CEO has the final call with the applicant the hiring manager will write the following info in an internal note in our ATS: 
+Before the CEO has the final call with the applicant the hiring manager will write the following info in an internal note in our ATS:
     * who will extend the offer (CEO is fine with doing this since it is the most speedy for the applicant, but up to the hiring manager)
     * the proposed offer (in all cases, so also when someone else than the CEO makes the offer)
     * in case there are steps before making the final offer (more applicants in the running for the position) this should be noted <br>
