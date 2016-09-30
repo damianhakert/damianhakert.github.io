@@ -9,7 +9,7 @@ date: 2016-09-30 10:30
 ---
 
 This application was created in October 2014.
-We released it together with out blog post [What founders ask founders about getting into Y Combinator](/2016/09/30/what-fouders-ask-founders-about-getting-into-yc)
+We released it together with out blog post [What founders ask founders about getting into Y Combinator](/2016/09/30/what-founders-ask-founders-about-getting-into-yc)
 
 <!-- more -->
 
