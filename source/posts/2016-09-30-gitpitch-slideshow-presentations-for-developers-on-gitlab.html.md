@@ -65,7 +65,7 @@ An application architecture for React
 Before moving on to the next step it's worthwhile to note the following:
 
 1. The **PITCHME.md** file name is case sensitive.
-1. The **PITCHME.md** file content is [standard Markdown]( https://daringnfireball.net/projects/markdown/syntax).
+1. The **PITCHME.md** file content is [standard Markdown](https://daringnfireball.net/projects/markdown/syntax).
 1. The `#HSLIDE` markdown fragment acts as a delimiter between slides.
 
 Using `#HSLIDE` is another GitPitch convention, acting as a delimiter to denote the separation between content on different slides in your presentation.
@@ -138,7 +138,7 @@ With GitPitch, a simple answer is always at hand:
 ## Going Faster from Idea to Presentation
 
 
-GitLab champions new, modern development tools and practices that foster collaboration and information sharing to help developers go faster from idea to production.
+GitLab champions new, modern development tools and practices that foster collaboration and information sharing to help developers go [faster from idea to production](/2016/08/22/announcing-the-gitlab-issue-board/#gitlab-from-idea-to-production).
 GitPitch embraces and extends this approach by helping individuals, teams and organizations to promote, pitch and present their ideas and code to ever wider audiences.
 
 Note, by default the GitPitch service on [GitPitch.com](https://gitpitch.com) integrates with [GitLab.com](https://gitlab.com).
