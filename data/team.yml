@@ -1559,16 +1559,17 @@
   story:  |
           Joining September 21st
 
-- name: K.G.
-  locality:
-  country:
+- name: Kyla Gradin
+  locality: Fargo, North Dakota 
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Business Development Team Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining September 21st
+  picture: kyla.jpg
+  twitter: KylaGradin
+  gitlab: kyla
+  story:  | 
+          Hailing from the Great Plains of North Dakota, where winters are colder than Antarctica. Kyla has seven years of experience in the computer technology field, where she prides herself on business development and management consulting. Prior to joining the GitLab team, Kyla gained experience working for a multinational technology company, where she contributed her time to the cloud platform. She enjoys dedicating her down time in the summer to ake weekends, and breaking away from cold winters by traveling with her family. GitLab's slice of North Dakota nice. 
+           
 
 - name: J.E.J.
   locality:
