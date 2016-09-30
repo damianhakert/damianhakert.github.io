@@ -98,13 +98,52 @@ After creating the opportunity, click “New” in the Partners section to assoc
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
-Opportunities will follow the following rules:
+Opportunities for subscriptions will use the following guidelines:
+* New Business/Existing Customer - Cross-Sell:
+ - [Name of Company]- [Quantity] [Abbreviations of Product]
+ - Example: Acme, Inc- 50 EE
+ - Example: Acme, Inc- 50 EE/Geo
+* Add-On Business (seats only):
+ - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+ - Example: Acme, Inc- Add 25 EE
+ - Example: Acme, Inc- Add 25 EE/Geo
+* Add-On Business (new products):
+ - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+ - Example: Acme, Inc- Add 25 PS
+* Renewal Business (no changes):
+ - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
+ - Example: Acme, Inc- 50 EE Renewal 01/17
+ - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+* Renewal Business + Add On Business (seats):
+ - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
+ - Example: Acme, Inc- 50 EE Renewal 01/17 + 25
+* Renewal Business + Add On Business (new products):
+ - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
+ - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
 
-* Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
-* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin].
-Example: First Community Credit Union User-Training. **Note** to set up the actual training,
-follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
-* Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
+Abbreviation of Products:
+* EE- Enterprise Edition
+* FL- File Locking
+* Geo- GitLab Geo
+* GH- GitHost
+* PS- Premium Support
+* PT- Pivotal Tile
+
+Opportunities for Training will use the following guidelines:
+* Training
+ - [Name of company]- [Type of training]
+ - Example: Acme Inc- User Training. 
+ - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+
+Types of Training:
+* User Training
+* Git Workshop
+* GitLab Flow
+* GitLab Admin
+
+Gitorious Opportunities:
+* Any deal coming from Gitorious has “(Gitorious)” added.  
+* Example Acme, Inc-Gitorious- 50 EE
 
 ### Opportunity Types <a name="types"></a>
 
