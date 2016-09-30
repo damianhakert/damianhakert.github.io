@@ -13,8 +13,9 @@ unfixed for quite some time.
 
 ## Introducing fix4all
 
-fix4all is a rotation where one developer will spend a week of
-his/her time helping the support team. There are several goals:
+fix4all is a rotation where one developer--or anyone in GitLab--will
+spend a week of his/her time helping the support team. There are
+several goals:
 
 1. Reduce the time it takes to resolve customer tickets.
 1. Reduce the time to fix customer bugs.
@@ -24,9 +25,9 @@ his/her time helping the support team. There are several goals:
 
 ## Implementation
 
-Every month, we will assign four developers to be on the fix4all
-rotation. Each developer will be assigned a week within that month
-to focus on helping support.
+At the release kickoff, we will assign four developers to
+be on the fix4all rotation. Each participant will be assigned a week
+within that month to focus on helping support.
 
 ### Tasks
 
