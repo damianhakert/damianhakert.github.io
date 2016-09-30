@@ -21,7 +21,7 @@ The deadline to [**apply**](https://www.ycombinator.com/apply/) for the Y Combin
 In combination with the blog post we released [the application of GitLab to YC](/2016/09/30/gitlabs-application-for-y-combinator-winter-2015/) as an example.
 Below some questions that Reinder Visser from [Placker](www.placker.com) asked Sid about applying at Y Combinator a few days ago.
 
-#### Reinder: Why should you apply?
+#### Reinder: Why should I apply?
 {:.gitlab-orange}
 
 **Sid:** The reason we applied for Y Combinator with GitLab was that we had lost our first customer mid 2014. The customer explained that while they liked GitLab they were standardizing on an alternative solution.
@@ -30,7 +30,7 @@ Dmitriy and I figured every company would standardize on one solution to do [inn
 We feel that the time to apply for Y Combinator is when you have mainly outlined your product vision, you’re still working somewhat on the market, and are still trying to figure out how to sell it, and how to scale to accommodate your customers.
 The Y Combinator program is ideal when you have a solid team of founders that have been working together for a while but you are ready to hire the rest of the team after you complete the Y Combinator program.
 
-#### Reinder: So why chose Y Combinator if there are more than 2000 accelerator programs in the world?
+#### Reinder: So why choose Y Combinator if there are more than 2000 accelerator programs in the world?
 {:.gitlab-orange}
 
 **Sid:** We feel that Y Combinator has the best network, the best partners, the best advice to give you because they see the most companies, and they are very strong at selecting them.
