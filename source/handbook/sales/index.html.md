@@ -116,7 +116,7 @@ Opportunities for subscriptions will use the following guidelines:
  - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
 * Renewal Business + Add On Business (seats):
  - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
- - Example: Acme, Inc- 50 EE Renewal 01/17 + 25
+ - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
 * Renewal Business + Add On Business (new products):
  - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
  - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
@@ -223,9 +223,9 @@ Gitorious Opportunities:
  * GitLab Enterprise Edition is the rate plan when selling per license seats @ $39
 1. In the Discount field, enter the discount in percentage (%) you wish to apply. This will automatically update the Effective Price field.
 1. Conversely, if you wish to apply a specific price to a product, enter the price in the Effective Price field. This will update the Discount (%) field.
-2. Enter then quantity of the product.
+2. Enter the quantity of the product.
 1. After you hit enter, the Total Price of the line item will update.
-1. Finanlly, enter the Period of the line item.
+1. Finally, enter the Period of the line item.
 1. Click Save to save the changes you made to the line item.
 1. If you need to add additional products to the quote, click New Product Button and repeat the steps of adding a product, rate plan, discount, price, and quantity.
 1. After you've completed adding all products to a quote, click Next Button and you will be taken back to the Quote record detail screen.
