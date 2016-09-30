@@ -37,7 +37,7 @@ which has a complete toolset for software development, including the following l
 ### General Management Assets
 
 - [GitLab Groups], so you can group your projects alike and set them up at once
-- GitLab repositories: unlimitted collaborators, unlimitted public and private repositories
+- GitLab repositories: unlimited collaborators, unlimited public and private repositories
 - [2FA][2fa-post]: Two-factor authentication, making your access always safe
 - Integrated Chat, with [Mattermost]
 - Advanced issue tracker, including [confidential issues][post-douglas], labels, [priority labels], user assignment, [due dates, and milestones][post-amanda]
@@ -55,13 +55,13 @@ with [GitLab Multi Runner][runner], which use an autoscaling method, making mult
 - [Merge conflict resolution][mr-confl-ui] from the user interface, making easier than ever solving them out-of-the-box, faster than any other way
 - GitLab [Pipelines][pipes], with which you run multiple scripts in sequence or in parallel, whichever suits you best, and visualize the entire pipeline, making any error easily identifiable
 - [Environments] support, so you can deploy your code to different enviroments, as `staging` and `production`
-- [Continuous Delivery and Continuos Deployment][ci-cd-post] build-in support, to allow you to choose between deploying manually or automatically to whichever environment you choose, and `rollback` to the previous working version with a click of a button, whenever something goes wrong
+- [Continuous Delivery and Continuous Deployment][ci-cd-post] build-in support, to allow you to choose between deploying manually or automatically to whichever environment you choose, and `rollback` to the previous working version with a click of a button, whenever something goes wrong
 
 ![Build, Test and Deploy](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/build-test-deploy.png)
 
 ### Automation & Integration
 
-- [GitLab Webhooks][ce-webhooks], allowing you to automate repetitive processes, integrating with external tools and aplications a discomplicated process
+- [GitLab Webhooks][ce-webhooks], allowing you to automate repetitive processes, integrating with external tools and applications a discomplicated process
 - [GitLab Pages][pages], a static webserver which [supports][pages-post] custom domains and subdomains, SSL/TLS encryption and builds any SSGs. It was specially designed to attend web developers, and for making it easier for developers to deploy their website from the same platform they use for developing their software applications
 - [GitLab Container Registry], the first Docker registry that is fully-integrated with Git repository management, allowing you to build and deploy your Docker image right from GitLab, automatically
 - [GitLab Cycle Analytics][gca]: a new feedback tool, which allows you to track the time taken by your team to evolve in a project, from the first step (creating a new issue) until the last step (deploying to production). This is what we call "going [from idea to production with GitLab][idea-prod]"
@@ -91,12 +91,12 @@ Let's understand something important here: **at GitLab.com, you can access every
 
 Is it customizable? Up to a point, yes: you take control over your projects, your groups, you give access to your contributors, you do **everything an user can possibly do**. But no, **you can't setup GitLab.com** at your will. To do that, you'll need **your own GitLab instance**. With it, you are in control of the entire administrative area, tools, disk space, defaults, etc.
 
-Currently, GitLab.com offers all the features GitLab EE does, except [Koding integration][koding], tools controlled by administractive access, and the features listed on the [table below](#gitlab-ee-only-main-features).
+Currently, GitLab.com offers all the features GitLab EE does, except [Koding integration][koding], tools controlled by administrative access, and the features listed on the [table below](#gitlab-ee-only-main-features).
 
 #### Why GitLab.com?
 {:.gitlab-purple #gitlab-com}
 
-Why not? [GitLab.com][com] is where you'll find community colaboration, open source projects, and enjoy all it's awesomeness for free!
+Why not? [GitLab.com][com] is where you'll find community collaboration, open source projects, and enjoy all it's awesomeness for free!
 
 #### When should I choose GitLab EE or CE?
 {:.gitlab-purple}
@@ -113,7 +113,7 @@ If you want to take control over every customizable aspect of GitLab, run it in 
 
 Well, if you want to have an entire GitLab only for you, it's all yours! If you want it for your company, it's all yours too.
 
-It's great to people that don't need all the premium features GitLab EE offers, or for trying GitLab for a while, or for when you can't affort GitLab EE, or just for fun!
+It's great to people that don't need all the premium features GitLab EE offers, or for trying GitLab for a while, or for when you can't afford GitLab EE, or just for fun!
 
 GitLab CE is as customizable as possible, it has all the administrative settings and tools, it can be [download and installed][ce-download] in different Unix operational systems, it can be made available locally (to your own network), or globally (to the entire internet). How you set it up, where to install, how you manage it, is totally up to you. We provide you guides and documentation, the rest is on you to play around!
 
@@ -124,7 +124,7 @@ For GitLab CE, we provide support via issue tracker and forum.
 ### <i class="fa fa-gitlab fa-fw" style="color: #e14329 !important; font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp; GitLab EE
 {:.gitlab-orange #gitlab-ee}
 
-[GitLab EE][ee] is our queen, our open core and premium product. It has all the possible features GitLab offers, and some adds-ons to spice it up. It's also available to [download and install][ee-download], and use however you want. It's like having a "GitLab.com" all for yourself! Our subscriptions are very affordable and don't have any restrictions: if you want it just for yourself, you can buy a single-user subscription. If your company has dozens, hundreads, or thousands of users, GitLab EE supports all of them.
+[GitLab EE][ee] is our queen, our open core and premium product. It has all the possible features GitLab offers, and some adds-ons to spice it up. It's also available to [download and install][ee-download], and use however you want. It's like having a "GitLab.com" all for yourself! Our subscriptions are very affordable and don't have any restrictions: if you want it just for yourself, you can buy a single-user subscription. If your company has dozens, hundreds, or thousands of users, GitLab EE supports all of them.
 
 #### Why GitLab EE?
 {:.gitlab-purple}
@@ -195,7 +195,7 @@ There are a lot of things GitLab EE is boosted up with. You'll find the entire c
 #### GitLab EE-only premium additional products
 {:.gitlab-purple}
 
-As a GitLab EE customer, you can [buy premium adictional products][premium] to boost up your GitLab instance!
+As a GitLab EE customer, you can [buy premium additional products][premium] to boost up your GitLab instance!
 
 [![GitLab EE premium additional products](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/premium-add-prod-ee.png)](/pricing/)
 
@@ -205,10 +205,12 @@ As a GitLab EE customer, you can [buy premium adictional products][premium] to b
 - [Pivotal Tile integration][pivotal]: deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 - [File Locking][File-Lock]: lock any file or directory in the repository tree reserving you the right to make changes to that file or directory. With File Locking, you can prevent modification while you're working on a file, avoid conflicts when modifying your assets, prevent design assets from being overwritten, avoid merge conflicts.
 
+<!-- this section below is commented - too long - probably will be deleted  -->
+
 <!-- 
 ## Who is GitLab for?
 
-Yes, it is for you! GitLab is for everyone. If you are a **sofware developer**, of course GitLab is for you. If you're not, you might consider joining the club as well:
+Yes, it is for you! GitLab is for everyone. If you are a **software developer**, of course GitLab is for you. If you're not, you might consider joining the club as well:
 
 
 <div class="panel panel-info">
@@ -232,7 +234,7 @@ members apart of the developers, they can all use GitLab to improve and evolve t
 **Universities**
 {: .panel-heading}
 <div class="panel-body">
-Colaboration and review is always easier to track within a version control platform. From the GitLab UI, it's simple to add new files, colaborate with your colleagues, pass the resposibilty on by reassigning issues and merge requests, and keep everything organized with the Issue Board.
+Collaboration and review is always easier to track within a version control platform. From the GitLab UI, it's simple to add new files, collaborate with your colleagues, pass the responsibility on by reassigning issues and merge requests, and keep everything organized with the Issue Board.
 </div>
 </div>
 
@@ -240,7 +242,7 @@ Colaboration and review is always easier to track within a version control platf
 **Students**
 {: .panel-heading}
 <div class="panel-body">
-Doesn't matter what you're studing for; version control is the best way to track your own improvement in your college homeworks, colabotate with your schollar groups, discuss different subjects and point of views within issues, and improve your entire workflow for having things done better and quicker.
+Doesn't matter what you're studying for; version control is the best way to track your own improvement in your college homeworks, collaborate with your scholar groups, discuss different subjects and point of views within issues, and improve your entire workflow for having things done better and quicker.
 </div>
 </div>
 
@@ -262,7 +264,7 @@ If you work with a lot of projects, such as books, manuals, translations, and ge
 
 Thank you to our amazing community. We owe GitLab’s existence to your enthusiasm, drive, and hard work. Without our contributors’ belief in open source software, we would not be where we are today. We need your help to make our collective vision a reality.
 
-Every 22nd there's a new GitLab realease, with more awesomeness than before!
+Every 22nd there's a new GitLab release, with more awesomeness than before!
 
 You are more than invited to contribute to make GitLab CE even better. We are happy to receive feature proposals in our issue tracker, and we get even happier and cheerful when you contribute with your own code, so it's easier and faster to make it happen.
 
@@ -272,73 +274,76 @@ Do you love GitLab as much as we do? Please consider [joining us][jobs]!
 
 Looking forward to see you around! Questions, suggestions, feedback? Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
 
+<!-- identifiers -->
+
 [2FA-post]: /2016/06/22/gitlab-adds-support-for-u2f/
 [@gitlab]: https://twitter.com/gitlab
+[api]: https://docs.gitlab.com/ce/api/README.html
+[CA]: https://docs.gitlab.com/ee/analytics/contribution_analytics.html
 [ce-download]: /downloads/
 [ce-up-for-grabs]: https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=up-for-grabs
+[ce-webhooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
 [ce]: https://gitlab.com/gitlab-org/gitlab-ce
+[ci-cd-post]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ci-templates]: /2016/06/22/gitlab-8-9-released/#gitlab-ciyml-templates
 [ci]: /gitlab-ci/
-[ci-cd-post]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[com]: /gitlab-com/
+[Digital Ocean]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
+[ee-devs]: /development/
 [ee-download]: /free-trial/
 [ee]: https://gitlab.com/gitlab-org/gitlab-ee
+[email]: https://docs.gitlab.com/ee/tools/email.html
 [Environments]: http://docs.gitlab.com/ce/ci/yaml/README.html#sts=environment
 [features]: /features/#compare
 [File locking]: /2016/06/22/gitlab-8-9-released/#file-locking-new-product
+[File-Lock]: https://docs.gitlab.com/ee/user/project/file_lock.html
 [forum]: https://forum.gitlab.com/
+[GCA]: /solutions/cycle-analytics/
+[geo]: https://docs.gitlab.com/ee/gitlab-geo/README.html
 [GitLab Container Registry]: /2016/05/23/gitlab-container-registry/
 [GitLab Groups]: https://docs.gitlab.com/ce/workflow/groups.html
+[global-search]: /2016/09/22/gitlab-8-12-released/#global-code-search-ee
 [group-webhooks]: https://docs.gitlab.com/ee/web_hooks/web_hooks.html
+[idea-prod-steps]: /2016/08/22/announcing-the-gitlab-issue-board/#gitlab-from-idea-to-production
 [idea-prod]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
+[integrations]: https://docs.gitlab.com/ee/integration/README.html
 [issue-board]: /solutions/issueboard/
+[Jenkins]: https://docs.gitlab.com/ee/integration/jenkins.html
+[Jira]: https://docs.gitlab.com/ee/project_services/jira.html
 [jobs]: /jobs/
+[kerb-gitlab]: https://docs.gitlab.com/ee/integration/kerberos.html
+[kerb]: https://web.mit.edu/kerberos/
+[koding]: https://docs.gitlab.com/ce/user/project/koding.html
 [ldap-ce]: https://docs.gitlab.com/ce/administration/auth/ldap.html
 [ldap-ee]: https://docs.gitlab.com/ee/administration/auth/ldap-ee.html
+[logs]: https://docs.gitlab.com/ee/administration/audit_events.html
+[master plan]: /2016/09/13/gitlab-master-plan/
 [Mattermost]:/2015/08/18/gitlab-loves-mattermost/
+[Mesosphere]: /2016/09/16/announcing-gitlab-and-mesosphere/
+[mirror]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
+[mr-approval]: https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html
 [mr-confl-ui]: https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html 
 [mr]: https://docs.gitlab.com/ee/user/project/merge_requests.html
 [MVP]: /mvp/
 [pages-doc]: https://docs.gitlab.com/ee/pages/administration.html
+[pages-post]: /2016/04/07/gitlab-pages-setup/
 [pages]: https://pages.gitlab.io
 [pipes]: https://docs.gitlab.com/ce/ci/pipelines.html
+[pivotal]: /2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
 [post-amanda]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [post-douglas]: /2016/03/31/feature-highlihght-confidential-issues/
 [post-ivan]: /2016/08/26/ci-deployment-and-environments/
+[premium]: /pricing/
 [priority labels]: https://about.gitlab.com/2016/06/22/gitlab-8-9-released/#priority-labels
 [runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
-[team]: [/team/]
-[todos-doc]: https://docs.gitlab.com/ce/workflow/todos.html
-[ce-webhooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
-[koding]: https://docs.gitlab.com/ce/user/project/koding.html
-[integrations]: https://docs.gitlab.com/ee/integration/README.html
-[Slack]: https://docs.gitlab.com/ce/project_services/slack.html[Shippable]: /2016/05/05/getting-started-gitlab-and-shippable/
-[Digital Ocean]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
-[Mesosphere]: /2016/09/16/announcing-gitlab-and-mesosphere/
-[templates]: https://docs.gitlab.com/ee/customization/issue_and_merge_request_template.html
-[shippable]: /2016/05/05/getting-started-gitlab-and-shippable/
-[GCA]: /solutions/cycle-analytics/
-[ee-devs]: /development/
-[api]: https://docs.gitlab.com/ce/api/README.html
-[master plan]: /2016/09/13/gitlab-master-plan/
-[idea-prod-steps]: /2016/08/22/announcing-the-gitlab-issue-board/#gitlab-from-idea-to-production
-[CA]: https://docs.gitlab.com/ee/analytics/contribution_analytics.html
-[mirror]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
-[kerb-gitlab]: https://docs.gitlab.com/ee/integration/kerberos.html
-[kerb]: https://web.mit.edu/kerberos/
-[logs]: https://docs.gitlab.com/ee/administration/audit_events.html
-[mr-approval]: https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html
-[global-search]: /2016/09/22/gitlab-8-12-released/#global-code-search-ee
 [Search]: https://gitlab.com/search
-[email]: https://docs.gitlab.com/ee/tools/email.html
-[geo]: https://docs.gitlab.com/ee/gitlab-geo/README.html
-[premium]: /pricing/
-[pivotal]: /2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
-[File-Lock]: https://docs.gitlab.com/ee/user/project/file_lock.html
-[Jira]: https://docs.gitlab.com/ee/project_services/jira.html
-[Jenkins]: https://docs.gitlab.com/ee/integration/jenkins.html
-[pages-post]: /2016/04/07/gitlab-pages-setup/
-[com]: /gitlab-com/
+[shippable]: /2016/05/05/getting-started-gitlab-and-shippable/
+[Slack]: https://docs.gitlab.com/ce/project_services/slack.html[Shippable]: /2016/05/05/getting-started-gitlab-and-shippable/
+[team]: [/team/]
+[templates]: https://docs.gitlab.com/ee/customization/issue_and_merge_request_template.html
+[todos-doc]: https://docs.gitlab.com/ce/workflow/todos.html
 
+<!-- custom styles -->
 
 <style>
 tr td {
