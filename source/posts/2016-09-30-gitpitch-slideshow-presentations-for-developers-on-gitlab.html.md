@@ -144,7 +144,7 @@ GitPitch embraces and extends this approach by helping individuals, teams and or
 Note, by default the GitPitch service on [GitPitch.com](https://gitpitch.com) integrates with [GitLab.com](https://gitlab.com).
 If you are interested in using GitPitch with your own GitLab server see [this note](https://github.com/gitpitch/gitpitch/wiki/Git-Repo-Services) on the GitPitch Wiki.
 
-Like GitLab, GitPitch itself is an [open source project](https://github.com/gitpitch/gitpitch), built on some wonderful open source software.
+Like GitLab, GitPitch itself is an [open source project](https://gitlab.com/gitpitch/gitpitch), built on some wonderful open source software.
 See the [GitPitch website](https://gitpitch.com/#gitpitch-about) for details. And remember, getting started couldn't be easier.
 GitPitch requires no sign-up. And no configuration. Just add **PITCHME.md** ;)
 
