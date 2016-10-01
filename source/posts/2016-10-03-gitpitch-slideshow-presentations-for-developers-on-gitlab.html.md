@@ -11,6 +11,8 @@ twitter_image: '/images/tweets/gitpitch-slideshow-presentations-for-developers-o
 Today I would like to introduce [GitPitch](https://gitpitch.com), a slideshow presentation service for developers on [GitLab](https://about.gitlab.com).
 GitPitch supports building, sharing, and presenting online and offline slideshow presentations. Presentations powered entirely by Markdown and Git.
 
+<!-- more -->
+
 As developers and advocates, we often need to communicate with diverse audiences about our code.
 We find ourselves needing to present everything from designs and best practices, to code snippets and complete frameworks.
 Our audiences include colleagues, clients, customers, end-users, and sometimes meetups and conferences.
@@ -151,4 +153,4 @@ GitPitch requires no sign-up. And no configuration. Just add **PITCHME.md** ;)
 ## About Guest Author
 
 David Russell is a freelance developer, consultant for-hire, [open source contributor](https://github.com/onetapbeyond) and the creator of [GitPitch](https://gitpitch.com).
-You can reach David on [Twitter @gitpitch](https://twitter.com/gitpitch).
+You can reach David on Twitter [@gitpitch](https://twitter.com/gitpitch).
