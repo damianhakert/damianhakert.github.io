@@ -22,9 +22,9 @@ If people want advice on open source, remote work, or other things related to Gi
 
 We would love to help but we want to make sure the content is radiated as wide as possible. Can we do the following?
 
-1. We schedule a 50 minute Zoom video call that is recorded.
-1. You write up a draft post within 48 hours after the interview and in a Google Doc and share that with us.
-1. You can redact anything you don't want to publish
+1. We schedule a 50 minute Zoom video call that is recorded by us, uploaded to Youtube as a private video, and shared with you.
+1. You write up a draft post within 48 hours after the interview in a Google Doc and share that with us with suggestion or edit rights for us.
+1. You can redact anything you don't want to publish.
 1. Our marketing department will work to publish the post.
 1. A great examples of this in action are the first two times we did this [https://about.gitlab.com/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/](https://news.ycombinator.com/item?id=12615723) and [https://news.ycombinator.com/item?id=12615723](https://news.ycombinator.com/item?id=12615723). Both got to nr. 1 on [Hacker News](https://news.ycombinator.com/).
 
