@@ -157,8 +157,3 @@
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
   open: true
-
-- title: "Community Advocate"
-  description: /jobs/community-advocate/
-  apply:
-  open: false
