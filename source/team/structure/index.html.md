@@ -54,11 +54,11 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
       - [Success Engineer](/jobs/success-engineer/)
       - [Success Engineer (APAC and Channel)](/jobs/Success-Engineer-APAC-and-Channel)(vacancy)
-    - [Platform (Backend)](/handbook/engineering/backend/platform.html) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
+    - [Platform (Backend)](/handbook/backend#ci) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) who are platform specialists
-    - [Discussion (Backend)](/handbook/engineering/backend/discussion.html) - [Discussion Lead](/jobs/discussion-lead/) - Sean McGivern
+    - [Discussion (Backend)](handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
       - [Developers](/jobs/developer/) who are discussion specialists
-    - [CI (backend)](/handbook/engineering/ci.html) - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
+    - [CI (backend)](/handbook/backend#ci) - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) who are CI specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
       - [Frontend Engineers](/jobs/frontend-engineer/)
@@ -72,7 +72,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) who are packaging specialists
     - [Support](/handbook/support/) - [Support Lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)
-    - Edge - [Edge Lead](/jobs/edge-lead) - Rémy Coutable
+    - [Edge](/handbook/engineering/edge/) - [Edge Lead](/jobs/edge-lead) - Rémy Coutable
        - [Developers](/jobs/developer/) who are issue triage specialists
        - [Developers](/jobs/developer/) who are maintainers of or specialist in projects without a lead
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop

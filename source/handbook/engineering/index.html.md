@@ -13,6 +13,7 @@ title: "Engineering"
 - [Support](/handbook/support)
 - [Infrastructure](/handbook/infrastructure)
 - [Backend](/handbook/backend)
+- [Edge](/handbook/edge)
 - [Frontend]() TODO
 - [Packaging]() TODO
 
