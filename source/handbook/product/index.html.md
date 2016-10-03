@@ -257,12 +257,19 @@ Note: smaller tasks that are part of a meta issue are sometimes also
 labeled `meta`. That's because they are part of a meta topic, and thus get the
 meta label.
 
-#### Dealing with big issues
+#### Long-lasting issues
 
 A general guideline is that an issue should only span one release. If we know an
-issue is going to span multiple releases, it has to split into multiple issues.
-Unless this issue is labeled `meta` or `epic`. Those issues are the only ones
-allowed to last 2 or more releases.
+issue is going to span multiple releases, split it up in multiple issues.
+
+Meta/epic issues are the exception to this rule, but should be kept to a
+minimum and only serve to guide broader subjects, not a single feature
+over multiple releases. This to make sure we stick to our values of
+the minimally viable change.
+
+The above means that feature issues should be closed after a first iteration
+whenever possible. We'll know more in the future and this keeps remaining
+issues short and actionable.
 
 #### Which issue should you be working on?
 
