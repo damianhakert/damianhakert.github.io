@@ -7,7 +7,7 @@ The Edge Team is part of engineering responsible for improving GitLab
 in multiple ways:
 
   * Improving GitLab code/workflows in ways that backend teams may not be doing
-    * [Backstage](jobs/specialist/backstage/) improvements
+    * [Backstage](/jobs/specialist/backstage/) improvements
     * Identifying architectural improvements
   * Interfacing with the community
     * Triaging bugs reported by the community

@@ -138,7 +138,7 @@
 - name: Douwe Maan
   locality: Utrecht
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/platform-backend-lead/">Platform Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Platform Lead</a>
   reports_to: VP of Engineering
   picture: douwe.jpg
   twitter: DouweM
@@ -915,7 +915,7 @@
 - name: Sean McGivern
   locality: Edinburgh
   country: Scotland
-  role: <a href="https://about.gitlab.com/jobs/discussion-backend-lead/">Discussion Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Discussion Lead</a>
   reports_to: VP of Engineering
   picture: smcgivern.jpg
   twitter: mcgivernsa
