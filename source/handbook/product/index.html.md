@@ -364,6 +364,22 @@ nice and polite when interacting with users and customers.
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
+# Products
+
+Products are large additions to GitLab that we sell separate to GitLab
+Enterprise Edition customers.
+
+## EE only or Product?
+
+Deciding on whether something should be a Product or just a EE-only
+feature can be tough. In doubt, make it a product, that's a reversible
+option, whereas the alternative is not.
+
+Also consider:
+
+- Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
+- Does it have an alternative in the marketplace?
+
 # Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
