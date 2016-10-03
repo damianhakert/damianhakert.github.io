@@ -28,21 +28,17 @@ class OrgChart
   end
 
   def build_json_data
-    json_data = []
-
     # Build only the data we need
-    @team.each do |entry|
+    @team.map do |entry|
       reports_to = entry['reports_to_person']
 
-      json_data << {
+      {
         name: entry['name'],
         lead: @title_to_person_map.fetch(reports_to, ''),
         title: entry['role'],
         speciality: entry.fetch('speciality', '')
       }
     end
-
-    json_data
   end
 
   def strip_tags(str)
