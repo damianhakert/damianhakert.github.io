@@ -1641,16 +1641,21 @@
   story:  |
           Joining October 3rd
 
-- name: D.F.
-  locality:
-  country:
+- name: David França
+  locality: Worthing
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/junior-designer/">Junior Designer</a>
   reports_to: Designer
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: david.png
+  twitter: davidjnf
+  gitlab: dfranca
   story:  |
-          Joining October 3rd
+          David is a Portuguese Designer, currently living in the UK. He's 
+          passionate about all things art, design or tech related. Before joining 
+          GitLab he worked as a freelance Designer on projects ranging from print
+          to digital. When he's not working, he can be found taking a walk along 
+          the beach with his beautiful, soon to be wife, or being a humble servant 
+          to his two cats. He also has a soft spot for mid-century furniture.
 
 - name: C.H.
   locality:
