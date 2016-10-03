@@ -35,7 +35,7 @@ backing up customers own private and secure GitLab instance.
 
 ### What regions does GitHost operate in?
 
-Amsterdam, London, San Francisco, Singapore, Toronto, New York, and Frankfurt.
+Amsterdam, London, San Francisco, Singapore, Toronto, New York, Frankfurt, and Bangalore.
 
 ### Can I customize my disk space?
 
