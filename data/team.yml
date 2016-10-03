@@ -172,6 +172,7 @@
   twitter: ayufanpl
   gitlab: ayufan
   maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
               <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
@@ -920,7 +921,7 @@
   twitter: mcgivernsa
   gitlab: smcgivern
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Merge request coach</li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
