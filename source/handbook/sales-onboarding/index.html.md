@@ -66,7 +66,7 @@ A library of past product training sessions can be found [Here](https://drive.go
 
 **Experience first hand the power of GitLab**
 
-* [ ] [Compare GitLab versions](/features/#compare)
+* [ ] [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
 * [ ] [GitLab compared to other tools](/comparison/)
     - [Compared to Atlassian (Recording 2016-03-03) ](https://youtu.be/Nbzp1t45ERo)
