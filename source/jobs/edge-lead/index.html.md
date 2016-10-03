@@ -11,8 +11,8 @@ The Edge Lead reports to the VP of Engineering.
 
 ## Responsibilities
 
-* Priotizes and leads the effort to triage and fix community-reported issues
-* Priotizes and leads the review of community-contributed merge requests
+* Prioritizes and leads the effort to triage and fix community-reported issues
+* Prioritizes and leads the review of community-contributed merge requests
 * Continues to spend part of the time coding
 * Identifies ways that GitLab can contribute to related open source projects (e.g. git command-line)
 * Proposes/leads architecture improvements to GitLab
