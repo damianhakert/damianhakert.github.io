@@ -67,7 +67,7 @@ An application architecture for React
 Before moving on to the next step it's worthwhile to note the following:
 
 1. The **PITCHME.md** file name is case sensitive.
-1. The **PITCHME.md** file content is [standard Markdown](https://daringnfireball.net/projects/markdown/syntax).
+1. The **PITCHME.md** file content is [standard Markdown](https://daringfireball.net/projects/markdown/syntax).
 1. The `#HSLIDE` markdown fragment acts as a delimiter between slides.
 
 Using `#HSLIDE` is another GitPitch convention, acting as a delimiter to denote the separation between content on different slides in your presentation.
