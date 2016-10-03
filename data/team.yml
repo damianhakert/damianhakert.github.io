@@ -57,7 +57,7 @@
   locality: Amsterdam
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -223,7 +223,7 @@
   locality: Leesburg, VA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
@@ -835,7 +835,7 @@
   locality: Gimo
   country: Sweden
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
@@ -961,7 +961,7 @@
   locality: Colombes
   country: France
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: christiancouder.jpg
   twitter: ChristianCouder
   gitlab: chriscool
@@ -1613,7 +1613,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Platform Lead
+  reports_to: Discussion Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
