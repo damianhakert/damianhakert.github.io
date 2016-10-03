@@ -396,6 +396,20 @@ When in doubt please consult the reseller team.
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
 
+### Using Customer Form Agreements
+Our experience shows that using a prospect's form agreement is expensive and, more importantly, time consuming.  Deals in which we use the customer agreement take on average 60 days longer to close than if completing using our standard subscription agreement with changes as requested by customer counsel.  The arguments in favor of using our agreement are as follows:
+1. Our agreement is an annual subscription agreement with a true-up whereas customer form agreements typically are based on paid up licenses.
+1. We are an open source company and our agreement provides licenses for both the CE version of the product and the EE version as well as dealing with contributions of code from our customer.
+1. We have non-standard but customer favorable warranty and acceptance provisions.
+1. We are very accommodating of customer requested changes to our form agreement which is why we can close deals quickly.
+
+Despite the overwhelming arguments in favor of using the Gitlab form some prospects insist on using their form agreement.  GitLab will accommodate such requests with the following assumptions:
+1. GitLab must have been selected as the solution of choice by the customer.
+1. The deal must be in excess of $15,000.
+1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
+Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
+
+
 ### Closing a Won Deal <a name="closing"></a>
 
 In order to close a deal in Salesforce.com, one of the following must happen:
