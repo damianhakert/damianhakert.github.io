@@ -141,12 +141,15 @@ Three things in three minutes about the:
 #### Where to Start?
 
 1. Salesforce
-    - Lost deals, users and customers (CE and EE)
+    - [Report](https://na34.salesforce.com/00O61000003JOUq) of prospects and customers with 500+ seat potential.
+       - Check with Account Owner on how they would like you to proceed with the account.
+       - If a customer, also check [Customer Success Issue Tracker](https://gitlab.com/gitlab-com/customer-success/issues) to see if an account expansion plan exists. If one does, please collaborate and contribute in the issue.
+    - [Lost deals](https://na34.salesforce.com/00O610000017SDD), users and customers (CE and EE)
     - Contacts
         - What relevant titles should we be reaching out to
     - Activity History
         - Who in the org have we called before that we can follow up with or reference
-    - Cross reference with version.gitlab.com to see their version and available other usage info
+    - Cross reference with [version.gitlab.com](https://version.gitlab.com/users/sign_in) to see their version and available other usage info
 
 2. Linkedin
     - Summary/Bio - Anything mentioned about job responsibilities or skills
