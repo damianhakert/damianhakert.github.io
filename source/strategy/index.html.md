@@ -42,7 +42,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 4. Offer a sense of progress [in a supportive environment with smart colleagues](http://pandodaily.com/2012/08/10/dear-startup-genius-choosing-co-founders-burning-out-employees-and-lean-vs-fat-startups/).
 
-5. Stay independent long term so we can preserve our values.
+5. Stay independent so we can preserve our values. Since we took external investment we need a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event). To stay independent we want that to be an IPO instead of being aquired. We want to triple ARR (Annual Recurring Revenue) in 2016&17, and double it in 2018&19&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)), in order to IPO in 2020.
 
 ## Sequence <a name="sequence"></a>
 
@@ -131,7 +131,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## Revenue 2016
 
-1. Triple ARR (Annual Recurring Revenue) in 2016&17, double it in 2019&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)).
+1. Triple ARR
 
 2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
