@@ -1,0 +1,12 @@
+@import "variables";
+
+.org-chart-container {
+  overflow-x: scroll;
+  padding-top: 50px;
+  padding-bottom: 0;
+
+  .employee-title {
+    color: $color-red;
+    font-style: italic;
+  }
+}
