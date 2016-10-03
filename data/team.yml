@@ -57,7 +57,7 @@
   locality: Amsterdam
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -103,7 +103,7 @@
   locality: Kharkiv
   country: Ukraine
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Discussion Lead
   picture: picture_vsizov.png
   twitter: Sizov_Valeriy
   gitlab: vsizov
@@ -120,7 +120,7 @@
   locality: Mexico City
   country: Mexico
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: picture_patricio.png
   twitter: suprnova32
   gitlab: patricio
@@ -138,7 +138,7 @@
 - name: Douwe Maan
   locality: Utrecht
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Platform Lead</a>
   reports_to: VP of Engineering
   picture: douwe.jpg
   twitter: DouweM
@@ -172,6 +172,7 @@
   twitter: ayufanpl
   gitlab: ayufan
   maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
               <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
@@ -222,7 +223,7 @@
   locality: Leesburg, VA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
@@ -386,7 +387,7 @@
   locality: Lima
   country: Peru
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: ruben.jpg
   twitter: rdavila
   gitlab: rdavila
@@ -440,7 +441,7 @@
   locality: Lavras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Discussion Lead
   picture: douglas.png
   twitter: dbalexandre
   gitlab: dbalexandre
@@ -531,7 +532,7 @@
 - name: Rémy Coutable
   locality: Cannes
   country: France
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/edge-lead/">Edge Lead</a>
   reports_to: VP of Engineering
   picture: remy.png
   twitter: rymai
@@ -569,7 +570,7 @@
   locality: A Coruña
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: james.png
   twitter: jlopezofficial
   gitlab: jameslopez
@@ -767,7 +768,7 @@
   locality: Goiânia, GO
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Discussion Lead
   picture: felipe_artur.jpg
   twitter: FelipeArtur
   gitlab: felipe_artur
@@ -820,7 +821,7 @@
   locality: Bengaluru
   country: India
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: tim.jpg
   twitter: timothyandrew
   gitlab: timothyandrew
@@ -834,7 +835,7 @@
   locality: Gimo
   country: Sweden
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
@@ -914,13 +915,13 @@
 - name: Sean McGivern
   locality: Edinburgh
   country: Scotland
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Discussion Lead</a>
+  reports_to: VP of Engineering
   picture: smcgivern.jpg
   twitter: mcgivernsa
   gitlab: smcgivern
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Merge request coach</li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
@@ -945,7 +946,7 @@
   locality: Edinburgh
   country: Scotland
   role: Developer
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
   specialty: <a href="https://about.gitlab.com/jobs/specialist/issue-triage/">Issue Triage</a>
@@ -960,7 +961,7 @@
   locality: Colombes
   country: France
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: christiancouder.jpg
   twitter: ChristianCouder
   gitlab: chriscool
@@ -1181,7 +1182,7 @@
   locality: Coimbra
   country: Portugal
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: TiagoBotelho.jpg
   twitter: tiagobotelho9
   gitlab:  tiagonbotelho
@@ -1305,7 +1306,7 @@
   locality: York
   country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: nick-thomas.png
   twitter: lupine_85
   gitlab: nick.thomas
@@ -1579,7 +1580,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Platform Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1590,7 +1591,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  reports_to: Packaging Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1601,7 +1602,7 @@
   locality: Boston
   country: USA
   role: <a href="https://about.gitlab.com/jobs/specialist/issue-triage/">Issue Triage Specialist</a>
-  reports_to: VP of Engineering
+  reports_to: Edge Lead
   picture: mattl.jpg
   twitter: mattl
   gitlab: mattl
@@ -1612,7 +1613,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Discussion Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
