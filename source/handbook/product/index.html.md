@@ -364,10 +364,13 @@ nice and polite when interacting with users and customers.
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-# Products
+# EE only and Products
 
 Products are large additions to GitLab that we sell separate to GitLab
 Enterprise Edition customers.
+
+EE only features are exclusive to GitLab Enterprise Edition, but don't
+require any additional purchases besides GitLab EE.
 
 ## EE only or Product?
 
@@ -379,6 +382,14 @@ Also consider:
 
 - Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
 - Does it have an alternative in the marketplace?
+
+## Talking about EE only decisions
+
+When talking about why a certain change is limited to Enterprise Edition in
+public, [mention the stewardship paragraph in the about page][stewardship]
+directly and link to it.
+
+[stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
 # Links
 
