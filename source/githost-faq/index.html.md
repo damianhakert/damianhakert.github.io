@@ -35,15 +35,11 @@ backing up customers own private and secure GitLab instance.
 
 ### What regions does GitHost operate in?
 
-Amsterdam, London, San Francisco, Singapore, Toronto, New York and Frankfurt.
+Amsterdam, London, San Francisco, Singapore, Toronto, New York, and Frankfurt.
 
 ### Can I customize my disk space?
 
 No. Our plans are based on the underlying infrastructure templates.
-
-### What SLA does the service provide?
-
-99.9% uptime.
 
 ### Will I be notified of downtime for maintenance?
 
@@ -101,10 +97,18 @@ Yes.
 GitHost will always install the latest version of GitLab when a new server is
 created.
 
-### If I subscribe to GitLab Enterprise and use GitHost how to I get support?
+### What level of availability does the service provide?
+
+99.9% uptime (also see the [terms](https://about.gitlab.com/terms/#githost)).
+
+### What level of support does the service provide?
+
+For assistance with issues that are specific to GitHost, we offer next-business day response times. You should receive a dedicated email address to reach the support team when you sign up for the service.
+
+### If I subscribe to GitLab Enterprise and use GitHost how do I get support?
 
 GitLab Enterprise subscribers will have the ability to email our Service
-Engineers directly for assistance with both GitHost and GitLab.
+Engineers directly for assistance with both GitHost and GitLab, and receive the benefit of the same response times and service levels that are in place for GitLab Enterprise Edition subscription.
 
 ### How is the service billed?
 
