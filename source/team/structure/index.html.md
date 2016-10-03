@@ -50,11 +50,11 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
     - Accounting - [Controller](/jobs/controller/) - Wilson Lau
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/) - Dmitriy Zaporozhets
-  - [Engineering](/handbook/engineering) - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
+  - [Engineering](/handbook/engineering/) - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
     - Customer Success - [Director of Customer Success](/jobs/director-customer-success) (vacancy)
       - [Success Engineer](/jobs/success-engineer/)
       - [Success Engineer (APAC and Channel)](/jobs/Success-Engineer-APAC-and-Channel)(vacancy)
-    - [Platform (Backend)](/handbook/backend#ci) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
+    - [Platform (Backend)](/handbook/backend/) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) who are platform specialists
     - [Discussion (Backend)](handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
       - [Developers](/jobs/developer/) who are discussion specialists
