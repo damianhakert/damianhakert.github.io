@@ -3,9 +3,11 @@ layout: job_page
 title: "Edge Lead"
 ---
 
-The [Edge Team](/handbook/edge) lead is responsible for leading the various
-initiatives that relate to improving GitLab through community contributions and
-other external projects.
+The [Edge Team](/handbook/edge) Lead is responsible for leading the various
+initiatives that relate to improving GitLab through community contributions
+and other external projects.
+
+The Edge Lead reports to the VP of Engineering.
 
 ## Responsibilities
 
