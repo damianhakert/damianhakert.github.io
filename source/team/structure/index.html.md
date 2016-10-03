@@ -10,7 +10,7 @@ GitLab Inc. has at most five layers in the team structure:
 1. Executives (e-team) consisting of CxO's and VP's
 1. Directors
 1. Leads
-1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one things and be an [expert](/jobs/expert/) in multiple things.
+1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one thing and be an [expert](/jobs/expert/) in multiple things.
 
 The indentation below reflects the reporting relations. See a [graph of the organization chart](/team/structure/org-chart/).
 You can see our complete team and who reports to whom on the [team page](https://about.gitlab.com/team/).
