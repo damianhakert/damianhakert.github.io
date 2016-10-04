@@ -7,13 +7,18 @@
       color: $color-gray;
       margin-top: 0;
     }
+    a {
+      color: $color-primary;
+    }
   }
 
   ul.comparison-tree-nav {
+    padding-left: 0;
     li {
       margin-bottom: 10px;
       list-style: none;
       a {
+        font-size: 13px;
         color: $color-gray;
         &.active {
           color: $color-primary;
