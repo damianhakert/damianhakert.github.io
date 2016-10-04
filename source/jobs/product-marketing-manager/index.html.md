@@ -1,9 +1,9 @@
 ---
 layout: job_page
-title: "Product Marketing Manager"
+title: "Product Marketing Manager: Enterprise Specialist"
 ---
 
-Do you have experience uncovering a product's core benefits, marketing to an enterprise buyer, or navigating a sales process? Product marketers are at the intersection of all teams. 
+Do you have experience uncovering a product's core benefits, marketing to an enterprise buyer, or navigating a sales process? Product marketers are at the intersection of all teams.
 GitLab is looking for a collaborative and process-driven product marketer to help craft our enterprise story, align to our sales process, and deliver effective go-to-market and sustain campaigns.
 
 The Product Marketing Manager role includes 4 key areas of focus:
