@@ -9,6 +9,8 @@ description: "The 25 YC application questions discussed with GitLab's CEO"
 Following our blog last Friday about [What Founders Ask Founders About Getting Into Y Combinator](https://about.gitlab.com/2016/09/30/what-founders-ask-founders-about-getting-into-yc/) we got a lot of responses through [HackerNews](news.ycombinator.com) to have Sid, our CEO, read through people's applciation.
 Sid figured talking in person would be way easier than leaving comments and we set up some office hours during the weekend and today to help founders applying with making their application as clear as possible.
 
+<!-- more -->
+
 With the blogpost [trending on the HackerNews homepage](https://news.ycombinator.com/item?id=12615723) last Friday, a lot of applicants wanted to know if their answers were clear and concise; like Sid advised in our blog.
 During the office hours and a few one-on-one meetings Sid read and talked through the application form answers and asked questions and discussed what applicants could improve.
 
