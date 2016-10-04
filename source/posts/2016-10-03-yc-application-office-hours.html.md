@@ -2,7 +2,7 @@
 title: "YC application office hours"
 author: Kirsten Abma
 author_twitter: kirsten_abma
-image_title: '/images/blogimages/yc-application-office-hours.jpg'
+image_title: '/images/default-blog-image.png'
 description: "The 25 YC application questions discussed with GitLab's CEO"
 ---
 
