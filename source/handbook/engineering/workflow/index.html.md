@@ -2,7 +2,7 @@
 layout: markdown_page
 title: "Engineering Workflow"
 extra_css:
-  - compared.css
+  - comparison.css
 ---
 
 This document explains the workflow for anyone working with issues in GitLab Inc.

@@ -1,5 +1,28 @@
 @import "variables";
 
+.blog-entry {
+  .comparison-page-content {
+    h2 {
+      font-size: 14px;
+      color: $color-gray;
+      margin-top: 0;
+    }
+  }
+
+  ul.comparison-tree-nav {
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+      a {
+        color: $color-gray;
+        &.active {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}
+
 h4 a {
   color: $color-white;
   font-weight: inherit;
@@ -184,3 +207,4 @@ ol li {
     }
   }
 }
+
