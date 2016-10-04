@@ -144,7 +144,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: Invite new team member to the recurring weekly team-meeting.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
-1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
+1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack. Not sure who to meet with? [This script will identify 10 team members at random](https://gitlab.com/mattl/various-gitlab-scripts/blob/master/getting-to-know-you.rb).
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
