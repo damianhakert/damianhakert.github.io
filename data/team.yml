@@ -1609,6 +1609,24 @@
   story:  |
           Matt has been a fan of free software since a young age after reading Steven Levy's "Hackers". He previously worked at the Free Software Foundation and Creative Commons, and is the maintainer of the GNU FM and GNU social projects. He moved from the UK to the US in 2008 to complete work on his short film, <a href="https://www.gnu.org/fry/">Happy Birthday to GNU</a>.
 
+- name: Emily von Hoffmann
+  locality: Durham, N.C.
+  country: USA
+  role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
+  reports_to: CMO
+  picture: emilyvonhoffmann.jpg
+  twitter: emvonhoffmann
+  gitlab: evhoffmann
+  story:  |
+          A California native currently exploring the South,
+          Emily's SoCal accent has proved surprisingly resilient.
+          She has worked as a journalist in multiple formats,
+          including long form pieces for The Atlantic and data-driven
+          explainers at Graphiq. She loves GitLab's open source values
+          and is fascinated by future possibilities for humans & work.
+          Recreationally, she enjoys podcasting, disappearing down internet
+          rabbit holes, and getting out on the water for an early morning row.
+
 - name: A.N.
   locality:
   country:
