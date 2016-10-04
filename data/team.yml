@@ -1659,16 +1659,19 @@
           the beach with his beautiful, soon to be wife, or being a humble servant 
           to his two cats. He also has a soft spot for mid-century furniture.
 
-- name: C.H.
-  locality:
-  country:
+- name: Clement Ho
+  locality: Austin, TX
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: clement.png
+  twitter: ClemMakesApps
+  gitlab: ClemMakesApps
   story:  |
-          Joining October 4th
+          Clement is passionate about technology and startups. He continually seeks
+          out new ways to improve his skillset and finds satisfaction in building
+          intuitive technology products that people can use to improve their lives.
+          Before working for GitLab, he was also a regular contributor and a GitLab MVP.
 
 - name: R.B.
   locality:
