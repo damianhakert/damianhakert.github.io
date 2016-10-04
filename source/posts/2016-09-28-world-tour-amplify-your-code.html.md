@@ -110,13 +110,20 @@ Here is a list of some of the topics we will be covering:
 
 We hope that some of those themes will strike a cord with you and your team. Come, share your ideas and amplify your code at a stop near you.
 
-Take a minute to [register] for our opening act in 🇬🇧 London 🇬🇧 on Oct 19th. Can't wait to rock out with you!
+🇬🇧 &nbsp; Take a minute to register for our opening act in [London] on Oct 19th! &nbsp; 🇬🇧
+<br>🇺🇸 &nbsp; [New York City][NYC] on October 26th! &nbsp; 🇺🇸
+<br>🇳🇱 &nbsp; [Amsterdam] on November 3rd! &nbsp; 🇳🇱
+{:.alert .alert-webcast}
+
+Can't wait to rock out with you!
 
 <!-- identifiers -->
 
+[amsterdam]: https://gitlabworldtouramsterdam.splashthat.com/
 [idea-production]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [master-plan]: /2016/09/14/gitlab-live-event-recap/
+[nyc]: https://gitlabworldtournyc.splashthat.com/
 [product-direction]: https://about.gitlab.com/direction/
 [project-form]: https://goo.gl/forms/7HZYUNTxLFVzNeZN2
-[register]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
+[London]: https://gitlabworldtourlondon.splashthat.com/ "GitLab World Tour: London"
 [sid-twitter]: https://twitter.com/sytses
