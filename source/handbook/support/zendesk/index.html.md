@@ -63,3 +63,25 @@ customer on the status of their request.
 To view these tickets, go to 'On-Hold > 7 Days' or 'Pending > 7 Days'.
 
 ![Zendesk 7 day tickets](/images/handbook/support/zendesk_7_day_tickets.png)
+
+## Zendesk settings
+
+
+### Service Level Agreements set as Business Rules
+
+Within Zendesk, the SLA's are set as follows. Under Business Rules in the Admin console,
+Service Level Agreements are defined. Currently only one is defined, with different response times
+required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
+
+Emergency tickets (SLA category 1 per the list above) are tagged as "Urgent" using a 30 minute max response time setting.
+
+SLA category 2 items are tagged as either High or Normal priority.
+
+- High with a max response time setting of 8 business hours: security disclosures and subscribers.
+- Normal with a max response time setting of 12 business hours: general support questions via the Zendesk web form and support@ address.
+
+An email is sent to everyone in the support team when an SLA breach is imminent, see
+the [automation in Zendesk](https://gitlab.Zendesk.com/agent/admin/automations/edit/80833987).
+
+Within Zendesk, currently we do _not_ have an SLA assigned (and no automated warnings)
+to any tickets from channels in category 3 and 4, but we do track response times.
