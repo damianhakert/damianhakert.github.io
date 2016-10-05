@@ -11,7 +11,7 @@ twitter_image: '/images/social-media-assets/campaigns/gitlab-world-tour/world-to
 {::options parse_block_html="true" /}
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-GitLab World Tour - London, Oct 19th - [Register here][register]!
+GitLab World Tour - London, Oct 19th - [Register here][London]!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
