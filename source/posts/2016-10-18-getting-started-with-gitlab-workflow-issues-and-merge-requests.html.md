@@ -133,8 +133,8 @@ git commit -m "this is my commit message. Related to https://gitlab.com/<usernam
 
 Of course, you can replace `gitlab.com` with the URL of your own GitLab instance.
 
-**Note:** Linking your first commit to your issue is going to be relevant for tracking your process far ahead with GitLab Cycle Analytics. It will measure the time taken for planning the implementation of that issue, which is the time between creating an issue and making the first commit.
-{: .alert .alert-success}
+**Note:** Linking your first commit to your issue is going to be relevant for tracking your process far ahead with [GitLab Cycle Analytics](#feedback). It will measure the time taken for planning the implementation of that issue, which is the time between creating an issue and making the first commit.
+{: .note .alert .alert-success}
 
 ### Merge Request
 
@@ -168,7 +168,10 @@ You can assign the MR to yourself until you finish your work, then assign it to 
 
 It can also be labeled and added to a [milestone](#milestones) to facilitate organization and prioritization.
 
-Merge requests can also be created from the UI, by editing a new file and committing to a new branch. Just mark the checkbox "start a new merge request with these changes" and GitLab will automatically create a new MR once you commit your changes.
+When you add or edit a file and commit to a new branch from the UI instead of from the command line, it's also easy to create a new merge requests. Just mark the checkbox "start a new merge request with these changes" and GitLab will automatically create a new MR once you commit your changes.
+
+**Note:** It's important to add the issue closing pattern to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
+{: .note .alert .alert-success}
 
 ### WIP MR
 
@@ -188,7 +191,35 @@ The commit history is also available from the UI, from which you can track the c
 
 ![code review in MRs at GitLab](#)
 
-## Issue and MR Templates
+## Build, Test, and Deploy
+
+[GitLab CI][ci] is an powerful built-in tool for [Continuous Integration, Continuos Deployment and Continuous Delivery][ci-cd-cd], which can be used to run scripts as you wish. The possibilities are endless: think of it as if it was your own command line, integrated with GitLab.
+
+It's all set by an Yaml file called, `.gitlab-ci.yml`, placed at your project's repository. Enjoy the bunch of CI templates by simply adding a new file through the web interface, and type the file name as `.gitlab-ci.yml` to trigger a dropdown menu with dozen of possible templates for different applications.
+
+Examples of GitLab CI capabilities:
+
+- Use it to [build][pages-post] any [Static Site Generator][ssgs-post], and deploy your website with [GitLab Pages][pages]
+- Use it to [deploy your website][ivan-post] to `staging` and `production` [environments][env]
+- Use it to [build an iOS application][ios-post]
+- Use it to [build and deploy your Docker Image][post-docker] with [GitLab Container Registry][gcr]
+
+## Feedback: Cycle Analytics
+{: #feedback}
+
+When you follow the GitLab Workflow, you'll be able to gather feedback with [GitLab Cycle Analytics][ca-post] on the time your team took to go from idea to production, for each key stage of the process:
+
+- **Issue:** the time from creating an issue to assigning the issue to a milestone or adding the issue to a list on your Issue Board
+- **Plan:** the time from giving an issue a milestone or adding it to an Issue Board list to the pushing first commit
+- **Code:** the time from the first commit to creating the merge request
+- **Test:** the time CI takes to run every build for the related merge request
+- **Review:** the time from creating the merge request to merging it
+- **Staging:** the time from MR merge until deploy to production
+- **Production** (Total): The time it takes between creating an issue and [deploying the code to production][env]
+
+## Enhance
+
+### Issue and MR Templates
 
 They allow you to define context-specific templates for issue and merge request description fields for your project.
 
@@ -200,9 +231,9 @@ As you can create multiple templates, they serve for different purposes. For exa
 
 ![issues and MR templates - dropdown menu screenshot](#)
 
-## Milestones
+### Milestones
 
-Milestones are the best tool you have at GitLab to track the work of your team based on a common target, in a specific date.
+[Milestones][post-amanda] are the best tool you have at GitLab to track the work of your team based on a common target, in a specific date.
 
 The goal can be different for each situation, but the panorama is the same: you have a collection of issues and merge requests being worked on to achieve that particular objective.
 
@@ -212,13 +243,63 @@ For instance, you can create a milestone for Q1 2017 and assign every issue and 
 
 ![milestone dashboard](#)
 
+## Pro Tips
+
+### For both Issues and MRs
+
+- In issues and MRs descriptions:
+  - Type `#` to trigger a dropdown list of existing issues
+  - Type `!` to trigger a dropdown list of existing MRs
+  - Type `/` to trigger slash commands
+  - Type `:` to trigger emojis (also supported for inline comments)
+- Add images (jpg, png, gif) and videos to inline comments with the button **Attach a file**
+- [Apply labels automatically][labels-post] with [GitLab Webhooks][hooks]
+- [Fenced blockquote][fenced]: use the syntax `>>>` to start and finish a blockquote
+
+      >>>
+      Quoted text
+
+      Another paragraph
+      >>>
+- Create [task lists]:
+
+      - [ ] Task 1
+      - [ ] Task 2
+      - [ ] Task 3
+
+#### Subscribe
+
+Have you found an issue or an MR that you want to follow up? Expand the navigation on your right and click [Subscribe][subsc-issue] and you'll be updated whenever a new comment comes up. What if you want to subscribe to multiple issues and MRs at once? Use [bulk subscriptions]. 😃
+
+#### Add TO-DO
+
+Besides keeping an eye on an issue or MR, if you want to take a future action on it, or whenever you want it in your GitLab TO-DO list, expand the navigation tab at your right and [click on **Add todo**][add-todo].
+
+#### Search for your Issues and MRs
+
+When you're looking for an issue or MR you opened long ago in a project with dozens, hundreds or even thousands of them, it turns out to be hard to find. Expand the navigation on your left and click on **Issues** or **Merge Requests**, and you'll be able to filter all your issues or MRs by author, assignee, milestone, label and weight. You can also search for opened, merged, closed, and all of them (both merged, closed, and opened).
+
+### Moving Issues
+
+An issue end up in a wrong project? Don't worry. Click on **Edit**, and [move the issue][move-issue] to the correct project.
+
+### Code Snippets
+
+Sometimes do you use exactly the same code snippet or template in different projects or files? Create a code snippet and leave it available for you whenever you want. Expand the navigation on your left and click **[Snippets]**. All of your snippets are gonna be there. You can set them to public, internal (only for GitLab logged users), or private.
+
+![Snippets - screenshot](#)
+
 ## GitLab WorkFlow Use-Case Scenario
+
+To wrap-up, let's put everything together. It's easy!
 
 Let's suppose you work at a company focused in software development. You created a new issue for developing a new feature to be implemented in one of your applications.
 
 For this  application, you already have created labels for "discussion", "backend", "frontend", "working on", "staging", "ready", "docs", "marketing", and "production". All of them already have their own lists in the Issue Board. Your issue currently have the label "discussion".
 
 After the discussion in the issue tracker came to an agreement, your backend team started to work on that issue, so their lead moved the issue from the list "discussion" to the list "backend". The first developer to start writing the code assigned the issue to himself, and added the label "working on".
+
+In his first commit message, he referenced the issue number. After some work, he pushed his commits to a feature-branch and created a new merge request, including the issue closing pattern in the MR description. His team reviewed his code and made sure all the tests and builds were passing.
 
 Once the backend team finished their work, they removed the label "working on" and moved the issue from the list "backend" to "frontend". So, the frontend team knew that issue was ready for them.
 
@@ -228,53 +309,7 @@ Finally, when the implementation succeeded, your team moved it to the list "read
 
 Now it's time for your technical writing team to create the documentation for the new feature, and once someone got started, he/she added the label "docs". At the same time, your marketing team started to work on the campaign to launch and promote that feature, so someone added the label "marketing". When the tech writer finished the documentation, he/she removed the label "docs". Once the marketing team finished their work, they moved the issue from the list "marketing" to "production".
 
-At last, someone responsible for new releases, deployed the new feature into the **production** environment and the issue was **closed**.
-
-## Pro Tips
-
-### For Issues and MRs
-
-- In issues and MRs descriptions:
-  - Type `#` to trigger a dropdown list of existing issues
-  - Type `!` to trigger a dropdown list of existing MRs
-  - Type `/` to trigger slash commands
-- Emojis are supported by GitLab for both issues and MRs descriptions and inline comments
-- [Fenced blockquote][fenced]: use the syntax `>>>` to start and finish a blockquote
-
-      >>>
-      Quoted text
-
-      Another paragraph
-      >>>
-
-- Add images (jpg, png, gif) and videos to inline comments with the button **Attach a file**
-- Create [task lists]:
-
-      - [ ] Task 1
-      - [ ] Task 2
-      - [ ] Task 3
-- [Apply labels automatically][labels-post] with [GitLab Webhooks][hooks]
-
-### Moving Issues
-
-An issue end up in a wrong project? Don't worry. Click on **Edit**, and [move the issue][move-issue] to the correct project.
-
-### Subscribe to an Issue
-
-Have you found an issue that you want to follow up? Expand the navigation on your right and click [Subscribe][subsc-issue] and you'll be updated whenever a new comment comes up. What if you want to subscribe to multiple issues at once? use [bulk subscriptions]. 😃
-
-### Add TO-DO
-
-Besides keeping an eye on an issue, if you want to take a future action on it, or whenever you want it in your GitLab TO-DO list, expand the navigation tab at your right and [click on **Add todo**][add-todo].
-
-### Find Your Issues
-
-When you're looking for an issue you opened long ago in a project with dozens, hundreds or even thousands of issues, it turns out to be hard to find. Expand the navigation on your left and click on **Issues**, and you'll be able to filter all your issues by author, assignee, milestone, label and weight. You can also search for opened, closed, and all the issues (both closed and opened).
-
-### Code Snippets
-
-Sometimes do you use exactly the same code snippet or template in different projects or files? Create a code snippet and leave it available for you whenever you want. Expand the navigation on your left and click **[Snippets]**. All of your snippets are gonna be there. You can set them to public, internal (only for GitLab logged users), or private.
-
+At last, you, being the person responsible for new releases, merged the MR and deployed the new feature into the **production** environment and the issue was **closed**.
 
 <!-- identifiers -->
 
@@ -305,5 +340,15 @@ Sometimes do you use exactly the same code snippet or template in different proj
 [issue-post]: /2016/03/03/start-with-an-issue/
 [labels-post]: /2016/08/19/applying-gitlab-labels-automatically/
 [hooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
+[pages]: https://pages.gitlab.io/
+[pages-post]: /2016/04/07/gitlab-pages-setup/
+[ssgs-post]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
+[ivan-post]: /2016/08/26/ci-deployment-and-environments/
+[ios-post]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
+[GCR]: /2016/05/23/gitlab-container-registry/
+[post-docker]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
+[ca-post]: /2016/09/21/cycle-analytics-feature-highlight/
+[post-amanda]: /2016/08/05/feature-highlight-set-dates-for-issues/#milestones
+[env]: https://docs.gitlab.com/ce/ci/yaml/README.html#environment
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/279 -->
