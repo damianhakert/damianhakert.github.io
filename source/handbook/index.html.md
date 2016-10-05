@@ -750,6 +750,16 @@ If you install [MobileDay (Free)](https://mobileday.com/) on your phone and give
 
 [Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) is a macOS utility application that can prevent your Mac from entering sleep mode for a predefined duration or as long as it is activated.
 
+### Enable screen lock on your mac menu bar
+
+1. Open up the `Keychain Access` application
+2. In the menu bar (next to the apple logo), click on `Keychain Access`
+3. Click on `Preferences`
+4. Check the box `Show keychain status in menu bar`
+5. The lock icon should now show up on your menu bar
+
+You can lock your screen by clicking the lock icon on the menu bar and clicking `Lock Screen`
+
 ### Visual help to differentiate between GitLab servers
 
 If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
