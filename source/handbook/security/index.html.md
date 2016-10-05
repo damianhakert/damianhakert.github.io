@@ -97,9 +97,8 @@ You can optionally sync this folder to Dropbox or iCloud (if you are using a Mac
 
 ### 1Password for Teams<a name="1password-for-teams"></a>
 
-1Password for Teams is a new feature, currently still in beta. It stores all
-**Vaults** on the 1Password servers and allows for sharing between multiple
-people on the same team.
+1Password for Teams stores all **Vaults** on the 1Password servers and allows
+for sharing between multiple people on the same team.
 
 Everyone at GitLab should already be signed up for our [Teams account]. This
 gives you access to the web interface, allowing you to view the Vaults we've
