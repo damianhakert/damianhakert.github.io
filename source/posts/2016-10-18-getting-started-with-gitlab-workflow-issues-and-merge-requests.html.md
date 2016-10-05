@@ -38,9 +38,21 @@ At GitLab our [goal][master-plan] is to allow you to go from idea to production 
 
 1. **IDEA:** Every new proposal starts with an idea, which usually come in a chat. For this stage, GitLab integrates with [Mattermost].
 2. **ISSUE:** The most effective way to discuss an idea is creating an issue for it. Your team and your collaborators can help you to polish and improve it in the [issue tracker](#gitlab-issue-tracker).
-3. **PLAN:** Once the discussion came to an agreement, it's time to code. But wait! First, we need to prioritize and organize our workflow. For this, we can use the [Issue Board](#gitlab-issue-board)
-4. **CODE:** Now we're ready to write our code, once we have everything organized. We use GitLab to host our code.
+3. **PLAN:** Once the discussion came to an agreement, it's time to code. But wait! First, we need to prioritize and organize our workflow. For this, we can use the [Issue Board](#gitlab-issue-board).
+4. **CODE:** Now we're ready to write our code, once we have everything organized. 
+5. **COMMIT:** Once we're happy with our draft, we can commit our code to a feature-branch.
+6. **TEST:** With [GitLab CI][ci], we can run our scripts to build and test our application.
+7. **REVIEW:** Once our script worked and our tests and builds succeeded, we are ready to get our [code reviewed](#gitlab-code-review) and approved.
+8. **STAGING:** Now it's time to [deploy our code to a staging environment][ci-cd-cd] to check if everything worked as we were expecting or if we still need adjustments.
+9. **PRODUCTION:** When we got everything working as it should, it's time to [deploy to our production environment][ci-cd-cd]!
+10. **FEEDBACK:** Now it's time to look back and check what stage of our work needs improvement. We use [Cycle Analytics] for a feedback on the time we spend in key stages of our process.
 
+On this post, we'll highlight the best of GitLab for the following stages:
+
+Issue - Plan - Code - Commit - Review
+{:.alert .alert-info .text-center}
+
+The "Test" stage involves the knowlegde of GitLab CI, which has been recently covered by the post xxx and xxx.
 
 ## GitLab Issue Tracker
 
