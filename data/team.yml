@@ -1584,16 +1584,16 @@
   story:  |
           Joining September 26th
 
-- name: J.P.
-  locality:
-  country:
+- name: Jason Plum
+  locality: Lancaster, Pennsylvania
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Packaging Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jplum.jpg
+  twitter: WarheadsSE
+  gitlab: WarheadsSE
   story:  |
-          Joining September 26th
+          From Pennsylvania Amish country comes an avid technologist, serial mentor and community evangelist. Jason can be seen attending, boothing, and speaking at as many FOSS conferences and Linux User Groups as he can manage. Previously working as a distribution manager for a thin client company, Jason brings his expertise in packaging for Linux along with a strong desire to produce tools for the community that has changed his life.
 
 - name: Matt Lee
   locality: Boston
