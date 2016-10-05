@@ -724,15 +724,15 @@ BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.goog
 
 ### One Tab
 
-[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
+[One Tab (Free)](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ### Quitter
 
-[Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
+[Quitter (Free)](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
 ### TripMode
 
-[TripMode](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
+[TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
 
 ### Check which process occupies a given port
 
@@ -744,7 +744,7 @@ this command in your `.bash_profile` or equivalent for your shell.
 
 ### MobileDay
 
-If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+If you install [MobileDay (Free)](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
 
 ### Visual help to differentiate between GitLab servers
 
