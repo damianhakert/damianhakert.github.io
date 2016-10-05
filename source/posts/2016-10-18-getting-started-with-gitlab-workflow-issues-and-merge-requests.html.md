@@ -1,5 +1,5 @@
 ---
-title: "GitLab Workflow Overview Part 1: <br> Issue, Plan, Code, Commit"
+title: "GitLab Workflow: an Overview"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab workflow
@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/getting-started-with-gitlab-workflow-issues-and-m
 
 GitLab is a Git-based repository manager, and a powerful complete application for software development.
 
-With an _user-and-newbie-friendly interface_, GitLab allows you to work very well, both from the command line and from the UI itself. It's useful not only for your developers, but to integrate your entire team work in a single an unique platform.
+With an _user-and-newbie-friendly interface_, GitLab allows you to work effectively, both from the command line and from the UI itself. It's useful not only for your developers, but to integrate your entire team work in a single an unique platform.
 
 The GitLab Workflow logic is intuitive and predictable, making the entire platform easy to use and easier to get used to. Once you do, you won't want anything else!
 
@@ -30,13 +30,19 @@ The GitLab Workflow logic is intuitive and predictable, making the entire platfo
 
 ## GitLab Workflow
 
-At GitLab our [goal][master-plan] is to allow you to go from idea to production in 10 steps:
+The **GitLab Workflow** consists on a logical sequence of possible actions to be taken during the entire lifecycle of the software development process, using GitLab as the platform that hosts your code.
+
+The GitLab Workflow takes into account the [GitLab Flow][post-flow], which consists of Git-based methods and tactics for version management, such as branching strategy, Git best practices, and so on.
+
+With the GitLab Workflow, the [goal][master-plan] is to help teams to work cohesively and effectively since the first stage of implementing something new (ideation) until the last stage, which is deploying that implementation to production. That's what we call "going faster from idea to production in 10 steps".
 
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/idea-to-production-10-steps.png)
 
 ### Stages of Software Development
 
-1. **IDEA:** Every new proposal starts with an idea, which usually come in a chat. For this stage, GitLab integrates with [Mattermost].
+The natural course of the software development process passes through 10 major steps, for whose GitLab presents individual solutions:
+
+1. **IDEA:** Every new proposal starts with an idea, which usually come up in a chat. For this stage, GitLab integrates with [Mattermost].
 2. **ISSUE:** The most effective way to discuss an idea is creating an issue for it. Your team and your collaborators can help you to polish and improve it in the [issue tracker](#gitlab-issue-tracker).
 3. **PLAN:** Once the discussion came to an agreement, it's time to code. But wait! First, we need to prioritize and organize our workflow. For this, we can use the [Issue Board](#gitlab-issue-board).
 4. **CODE:** Now we're ready to write our code, once we have everything organized. 
@@ -45,20 +51,17 @@ At GitLab our [goal][master-plan] is to allow you to go from idea to production 
 7. **REVIEW:** Once our script worked and our tests and builds succeeded, we are ready to get our [code reviewed](#gitlab-code-review) and approved.
 8. **STAGING:** Now it's time to [deploy our code to a staging environment][ci-cd-cd] to check if everything worked as we were expecting or if we still need adjustments.
 9. **PRODUCTION:** When we got everything working as it should, it's time to [deploy to our production environment][ci-cd-cd]!
-10. **FEEDBACK:** Now it's time to look back and check what stage of our work needs improvement. We use [Cycle Analytics] for a feedback on the time we spend in key stages of our process.
+10. **FEEDBACK:** Now it's time to look back and check what stage of our work needs improvement. We use [Cycle Analytics][ca] for a feedback on the time we spent on key stages of our process.
 
-On this post, we'll highlight the best of GitLab for the following stages:
-
-Issue - Plan - Code - Commit - Review
-{:.alert .alert-info .text-center}
-
-The "Test" stage involves the knowlegde of GitLab CI, which has been recently covered by the post xxx and xxx.
+To walk through these stages smoothly, it's important to have powerful tools to support this workflow. On the next sections you'll find an overview of the toolset available at GitLab.
 
 ## GitLab Issue Tracker
 
 GitLab has a powerful issue tracker that allows you, your team and your collaborators to share and discuss ideas before putting them in practice.
 
-Issues are the first essential feature of the GitLab flow. Always start a discussion with an issue: it's the best way to track the evolution of an idea or a new prospect.
+![issue tracker - view list](#)
+
+Issues are the first essential feature of the GitLab Workflow. [Always start a discussion with an issue][issue-post]: it's the best way to track the evolution of a new prospect.
 
 It's most useful for:
 
@@ -68,11 +71,15 @@ It's most useful for:
 - Reporting bugs and malfunction
 - Elaborating new code implementations coding
 
-Each project hosted by GitLab has an issue tracker. Start with creating a new issue: navigate to your project's **Issues** > **New issue**, give it a title that resumes the subject to be treated, and describe it using [Markdown][md-gitlab]. Check the [pro tips](#pro-tips) below to enhance your issue description.
+Each project hosted by GitLab has an issue tracker. To create a new issue, navigate to your project's **Issues** > **New issue**, give it a title that resumes the subject to be treated, and describe it using [Markdown][md-gitlab]. Check the [pro tips](#pro-tips) below to enhance your issue description.
+
+The GitLab Issue Tracker presents extra functionalities to make it easier to organize and prioritize your actions, described below.
+
+![new issue - additional settings](#)
 
 ### Issue Weight
 
-You can attribute an [Issue Weight] to make it clear how difficult is the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. But this is something that you can agree within your own team and your own project's needs.
+You can attribute an [Issue Weight] to make it clear how difficult is the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06.
 
 ### Confidential Issues
 
@@ -98,7 +105,7 @@ Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board
 
 The [GitLab Issue Board][board] is a tool ideal for planning and organizing your issues according to your project's workflow.
 
-It consists of a board with lists corresponding to its respective labels (aka "list-label"). Each list contains their corresponding labeled issues, displayed as cards.
+It consists of a board with lists corresponding to its respective labels. Each list contains their corresponding labeled issues, displayed as cards.
 
 The cards can be moved between lists, which will cause the label to be updated according to the list you moved the card into.
 
@@ -106,13 +113,13 @@ The cards can be moved between lists, which will cause the label to be updated a
 
 ## GitLab Code Review
 
-After discussing a new proposal or implementation in the issue tracker, it's time to work on the code. You write your code locally and, once you're done with your first iteration, you commit your code and push to your GitLab repository.
+After discussing a new proposal or implementation in the issue tracker, it's time to work on the code. You write your code locally and, once you're done with your first iteration, you commit your code and push to your GitLab repository. Your Git-based management strategy can be improved with the [GitLab Flow][post-flow].
 
 ### First Commit
 
-In your first commit message, you can add the number of the issue related to that commit message. By doing so, you create a link between the two stages of the development workflow: the issue and the first commit.
+In your first commit message, you can add the number of the issue related to that commit message. By doing so, you create a link between the two stages of the development workflow: the issue itself and the first commit related to that issue.
 
-To do so, if the issue and the code you're committing are both in the same project, you simply add `#xxx` to the commit message, where `xxx` is the issue number. If they are not in the same project, you can add the full URL to the issue.
+To do so, if the issue and the code you're committing are both in the same project, you simply add `#xxx` to the commit message, where `xxx` is the issue number. If they are not in the same project, you can add the full URL to the issue (`https://gitlab.com/<username>/<projectname>/issues/<xxx>`).
 
 ```shell
 git commit -m "this is my commit message. Ref #xxx"
@@ -124,10 +131,10 @@ or
 git commit -m "this is my commit message. Related to https://gitlab.com/<username>/<projectname>/issues/<xxx>"
 ```
 
-Of course you can replace `gitlab.com` with the URL of your own GitLab instance.
+Of course, you can replace `gitlab.com` with the URL of your own GitLab instance.
 
 **Note:** Linking your first commit to your issue is going to be relevant for tracking your process far ahead with GitLab Cycle Analytics. It will measure the time taken for planning the implementation of that issue, which is the time between creating an issue and making the first commit.
-{: .note}
+{: .alert .alert-success}
 
 ### Merge Request
 
@@ -135,7 +142,7 @@ Once you push your changes to a feature-branch, GitLab will identify this change
 
 Every MR will have a title (something that resumes that implementation) and a description ([Markdown][md-gitlab] supported). On the description, you can shortly describe what that MR is doing, mention any related issues and MRs (creating a link between them), and you can also add the [issue closing pattern], which will close that issue(s) once the MR is **merged**.
 
-For instance:
+For example:
 
 ```md
 ## Add new page
@@ -151,7 +158,7 @@ Preview:
 cc/ @Mary @Jane @John
 ```
 
-When creating an MR with a description like the one above, it will:
+When you create an MR with a description like the one above, it will:
 
 - Close both issues `#xxx` and `https://gitlab.com/<username>/<projectname>/issues/<xxx>` when merged
 - Display an image
@@ -246,7 +253,7 @@ At last, someone responsible for new releases, deployed the new feature into the
       - [ ] Task 1
       - [ ] Task 2
       - [ ] Task 3
-
+- [Apply labels automatically][labels-post] with [GitLab Webhooks][hooks]
 
 ### Moving Issues
 
@@ -285,9 +292,18 @@ Sometimes do you use exactly the same code snippet or template in different proj
 [fenced]: /2016/07/22/gitlab-8-10-released/#blockquote-fence-syntax
 [add-todo]: /2016/06/22/gitlab-8-9-released/#manually-add-todos
 [subsc-issue]: /2016/03/22/gitlab-8-6-released/#subscribe-to-a-label
-[confid-issue]: /2016/03/22/gitlab-8-6-released/#confidential-issues
+[confid-issue]: /2016/03/31/feature-highlihght-confidential-issues/
 [move-issue]: /2016/03/22/gitlab-8-6-released/#move-issues-to-other-projects
 [templates-ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
 [Snippets]: https://gitlab.com/dashboard/snippets
+[ca]: /solutions/cycle-analytics/
+[ci]: /gitlab-ci/
+[ci-cd-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[post-flow]: /2014/09/29/gitlab-flow/
+[master-plan]: /2016/09/13/gitlab-master-plan/
+[mattermost]: /2015/08/18/gitlab-loves-mattermost/
+[issue-post]: /2016/03/03/start-with-an-issue/
+[labels-post]: /2016/08/19/applying-gitlab-labels-automatically/
+[hooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/279 -->
