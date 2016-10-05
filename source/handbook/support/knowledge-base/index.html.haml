@@ -1,0 +1,38 @@
+---
+layout: default
+title: Support Knowledge Base
+---
+- pages = sitemap.resources.keep_if { |resource| resource.path =~ /knowledge-base\/categories/ }
+- pages = pages.group_by { |page| page.data.category }.sort_by { |category| category }
+.container
+  .content-area
+    #content.col-md-9
+      .row
+      - pages.each do |category, kb_pages|
+        .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12
+          %h1.h4.clearfix
+            %i.fa.fa-folder-open-o.fa-fw.text-muted
+            %small.pull-right
+              %i.fa.fa-hdd-o.fa-fw
+              #{kb_pages.count}
+            #{category}
+          - kb_pages.each do |page|
+            %ul.fa-ul
+              %li
+                %i.fa-li.fa.fa-list-alt.fa-fw.text-muted
+                %h3.h5
+                  = link_to page.data.title, page.path
+    #sidebar.site-sidebar.col-md-3
+      %section
+        .text-center.clearfix
+          %h3.banner-title.text-danger.h4 About
+          .banner-content
+            %p This knowledge base serves as a centralised repository for information used by the GitLab support team. 
+      %section#section-categories.section
+        %h2.section-title.h4.clearfix Categories
+        %ul.nav.nav-pills.nav-stacked.nav-categories
+        - pages.each do |category, kb_pages|
+          %li
+            %a{:href => "#"}
+              %span.badge.pull-right> #{kb_pages.count}
+              #{category}
