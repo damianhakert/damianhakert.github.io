@@ -1636,16 +1636,20 @@
   story:  |
           Joining October 3rd
 
-- name: N.R.
-  locality:
-  country:
+- name: Nur Rony
+  locality: Dhaka
+  country: Bangladesh
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nur.jpg
+  twitter: nmrony
+  gitlab: nmrony
   story:  |
-          Joining October 3rd
+          Nur is a forever learner and wants to dedicate his life building software that solves people's problem.
+          He is very passionate about Open Source and learning new technologies.
+          He loves building highly scalable and distributed applications.
+          When he is not doing code he loves watching movies, playing games and reading novels.
+          Fortunately married to the most beautiful girl in the world.
 
 - name: B.N.
   locality:
@@ -1667,11 +1671,11 @@
   twitter: davidjnf
   gitlab: dfranca
   story:  |
-          David is a Portuguese Designer, currently living in the UK. He's 
-          passionate about all things art, design or tech related. Before joining 
+          David is a Portuguese Designer, currently living in the UK. He's
+          passionate about all things art, design or tech related. Before joining
           GitLab he worked as a freelance Designer on projects ranging from print
-          to digital. When he's not working, he can be found taking a walk along 
-          the beach with his beautiful, soon to be wife, or being a humble servant 
+          to digital. When he's not working, he can be found taking a walk along
+          the beach with his beautiful, soon to be wife, or being a humble servant
           to his two cats. He also has a soft spot for mid-century furniture.
 
 - name: Clement Ho
