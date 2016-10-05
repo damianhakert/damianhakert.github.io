@@ -731,7 +731,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Manager
   picture: Braden.jpg
   twitter: jannandbraden
   gitlab: bradenC
@@ -754,7 +754,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Representative Manager
   picture: ryan.jpg
   twitter:
   gitlab: rycap
@@ -931,7 +931,7 @@
 - name: Colton Taylor
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/demand-generation-specialist/">Demand Generation Specialist</a>
   reports_to: Director of Demand Generation
   picture: colton.jpg
   twitter: ctaylor021
@@ -1247,7 +1247,7 @@
 - name: Chet Backman
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/bdr-manager/">Business Development Representative Manager</a>
   reports_to: Director of Demand Generation
   picture: chet.jpg
   twitter: chetbackman
@@ -1392,7 +1392,7 @@
   locality: Myrtle Beach, SC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Representative Manager
   picture: kris.jpg
   twitter: kris_touzel
   gitlab: Touzel2
@@ -1475,7 +1475,7 @@
   locality: Maryland
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Representative Manager
   picture: dan-picture.jpg
   twitter: _dparris
   gitlab: dparris
@@ -1543,7 +1543,7 @@
   locality: Marazion
   country: UK
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Representative Manager
   picture: elsje.jpg
   twitter:
   gitlab: elsje
@@ -1565,7 +1565,7 @@
   locality: Fargo, North Dakota
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  reports_to: Business Development Representative Manager
   picture: kyla.jpg
   twitter: KylaGradin
   gitlab: kyla
@@ -1667,11 +1667,11 @@
   twitter: davidjnf
   gitlab: dfranca
   story:  |
-          David is a Portuguese Designer, currently living in the UK. He's 
-          passionate about all things art, design or tech related. Before joining 
+          David is a Portuguese Designer, currently living in the UK. He's
+          passionate about all things art, design or tech related. Before joining
           GitLab he worked as a freelance Designer on projects ranging from print
-          to digital. When he's not working, he can be found taking a walk along 
-          the beach with his beautiful, soon to be wife, or being a humble servant 
+          to digital. When he's not working, he can be found taking a walk along
+          the beach with his beautiful, soon to be wife, or being a humble servant
           to his two cats. He also has a soft spot for mid-century furniture.
 
 - name: Clement Ho

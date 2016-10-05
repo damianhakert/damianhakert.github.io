@@ -24,13 +24,13 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - Ashley Smith
     - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
-      - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - (vacancy)
+      - [Demand Generation Specialist](/jobs/demand-generation-specialist/) - Colton Taylor
       - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
       - [Marketing Operations Manager](https://about.gitlab.com/jobs/marketing-operations-manager/) - Jennifer Cordz
-      - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
+      - [Business Development Representative Manager](https://about.gitlab.com/jobs/bdr-manager/) - Chet Backman
+        - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
+        - [Outbound Business Development Representatives](/jobs/business-development-representative-outbound/)
       - [Field Marketing](/handbook/marketing/demand-generation/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
-      - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
-      - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
     - [Product Marketing](/handbook/marketing/product-marketing/) - [Director of Product Marketing](/jobs/director-product-marketing/) - Amara Nwaigwe
       - [Partner Marketing](/handbook/marketing/product-marketing/partner-marketing/) - Partner/Channel Marketing Manager (vacancy)
       - [Content Marketing](/handbook/marketing/product-marketing/content-marketing/) - Content Marketing Manager (vacancy)
