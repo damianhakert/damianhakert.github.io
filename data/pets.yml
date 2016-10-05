@@ -130,9 +130,13 @@
   picture: jazz.jpg
   human: jplum
   story: Large, in charge, and doesn't care what you think. Unless you have treats or a free hand to pet him.
+  name: George
+  picture: george.jpg
+  human: elsje
+  story: George is a working cocker spaniel who loves running on his Cornish beaches and stealing socks! 
 - name: You?
   picture: ../logo-extra-whitespace.png
-  story:  |
+    story:  |
 
           Want to see your name and picture here? Ask your owner/servant to
           check out our latest
