@@ -34,7 +34,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @abby,@brittany, @joan.
+1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @abby,@brittany, @joan. 
 1. [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 1. [ ] People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
