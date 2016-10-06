@@ -55,9 +55,9 @@ The EA should follow up to make sure the draft post is submitted.
     * INTERVIEW | for interviews (looping in our PR partner)
     Make sure to block 10 min before for preparations and 10 min after for notes for Sid and send out https://about.gitlab.com/primer/ for background information for the interviewer.
     * CALL | for phone calls
-    * VIDEOCALL | for video conference calls using Zoom, where the call can be recorded if desired
+    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom.
     add message:
-    “Please use the link in this invite to join the Google Hangout. It will prompt a request for access.
+    “Please use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
 	    * Calls in the hiring process also have:
 	    “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”
 
