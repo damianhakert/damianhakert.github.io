@@ -1639,16 +1639,20 @@
   story:  |
           Joining October 3rd
 
-- name: N.R.
-  locality:
-  country:
+- name: Nur Rony
+  locality: Dhaka
+  country: Bangladesh
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nur.jpg
+  twitter: nmrony
+  gitlab: nmrony
   story:  |
-          Joining October 3rd
+          Nur is forever a learner and wants to dedicate his life to building software to solves people's problems.
+          He is very passionate about open source software. He is always learning new technologies.
+          He loves building highly scalable and distributed applications.
+          When he is not writing code, he loves watching movies, playing games, and reading novels.
+          Nur is fortunately to be married to the most beautiful girl in the world.
 
 - name: B.N.
   locality:
