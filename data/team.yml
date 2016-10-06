@@ -1543,8 +1543,8 @@
 - name: Elsje Smart
   locality: Marazion
   country: UK
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
+  reports_to: Business Development Representative Manager
   picture: elsje.jpg
   twitter:
   gitlab: elsje
@@ -1705,3 +1705,73 @@
   gitlab:
   story:  |
           Joining October 17th
+
+- name: D.E.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
+  reports_to: Business Development Representative Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: L.M.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: VP of Scaling
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: I.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Senior Build Engineer</a>
+  reports_to: Packaging Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: B.J. 
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
+  reports_to: Business Development Representative Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 24th
+
+
+- name: J.A. 
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
+  reports_to: Platform Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 1st
+
+
+- name: V.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 1st
+
+
