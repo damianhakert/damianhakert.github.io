@@ -1574,16 +1574,18 @@
           Hailing from the Great Plains of North Dakota, where winters are colder than Antarctica. Kyla has seven years of experience in the computer technology field, where she prides herself on business development and management consulting. Prior to joining the GitLab team, Kyla gained experience working for a multinational technology company, where she contributed her time to the cloud platform. She enjoys dedicating her down time in the summer to ake weekends, and breaking away from cold winters by traveling with her family. GitLab's slice of North Dakota nice.
 
 
-- name: J.E.J.
-  locality:
-  country:
+- name: James Edwards-Jones
+  locality: London
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jamesedwardsjones.jpg
+  twitter: jamedjo
+  gitlab: jamedjo
   story:  |
-          Joining September 26th
+          James has been developing games and websites since childhood and studied Computer Science at university.
+          He taught on a coding bootcamp in London, gaining a deeper understanding of the Ruby language to help answer unusual questions.
+          James believes it’s better when we share the things we work on, and joined GitLab to help make that happen.
 
 - name: Jason Plum
   locality: Lancaster, Pennsylvania
