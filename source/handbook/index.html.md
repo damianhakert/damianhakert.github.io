@@ -863,6 +863,8 @@ linking your account to Git.
 1. Close terminal.
 1. Open a new terminal to load the new environment.
 
+You may need to install [GPG Suite](https://gpgtools.org/) on your Mac, if you see `bash: command not found: gpg`
+
 ### 4. Install Ruby and Bundler
 
 1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
@@ -897,7 +899,7 @@ Read through our [Markdown Guide] to understand its syntax and create new conten
 #### 1. Preview website changes locally
 
 1. In a terminal, execute: `bundle exec middleman`.
-1. Visit http://localhost:4567 in your browser.
+1. Visit http://localhost:4567 or http://127.0.0.1:4567/ in your browser.
 1. You will need to install a text editor to edit the site locally. We recommend
    [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
