@@ -903,6 +903,7 @@
   maintains:  |
               <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
+              <li>Zendesk <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer.
           He is passionate about open source communities and enjoys helping people solve problems with software.
@@ -1667,11 +1668,11 @@
   twitter: davidjnf
   gitlab: dfranca
   story:  |
-          David is a Portuguese Designer, currently living in the UK. He's 
-          passionate about all things art, design or tech related. Before joining 
+          David is a Portuguese Designer, currently living in the UK. He's
+          passionate about all things art, design or tech related. Before joining
           GitLab he worked as a freelance Designer on projects ranging from print
-          to digital. When he's not working, he can be found taking a walk along 
-          the beach with his beautiful, soon to be wife, or being a humble servant 
+          to digital. When he's not working, he can be found taking a walk along
+          the beach with his beautiful, soon to be wife, or being a humble servant
           to his two cats. He also has a soft spot for mid-century furniture.
 
 - name: Clement Ho
