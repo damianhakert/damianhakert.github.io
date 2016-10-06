@@ -3,9 +3,9 @@ title: "GitLab Workflow: an Overview"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab workflow
-image_title: '/images/blogimages/getting-started-with-gitlab-workflow/xxx.png'
+image_title: '/images/blogimages/gitlab-workflow-an-overview/xxx.png'
 description: "Add description"
-twitter_image: '/images/tweets/getting-started-with-gitlab-workflow-issues-and-merge-requests.png'
+twitter_image: '/images/tweets/gitlab-workflow-an-overview.png'
 ---
 
 
@@ -57,9 +57,9 @@ To walk through these stages smoothly, it's important to have powerful tools to 
 
 ## GitLab Issue Tracker
 
-GitLab has a powerful issue tracker that allows you, your team and your collaborators to share and discuss ideas before putting them in practice.
+GitLab has a powerful issue tracker that allows you, your team and your collaborators to share and discuss ideas, before and while implementing them.
 
-![issue tracker - view list](#)
+![issue tracker - view list](/images/blogimages/gitlab-workflow-an-overview/issue-tracker-list-view.png){:.shadow}
 
 Issues are the first essential feature of the GitLab Workflow. [Always start a discussion with an issue][issue-post]: it's the best way to track the evolution of a new prospect.
 
@@ -75,11 +75,7 @@ Each project hosted by GitLab has an issue tracker. To create a new issue, navig
 
 The GitLab Issue Tracker presents extra functionalities to make it easier to organize and prioritize your actions, described below.
 
-![new issue - additional settings](#)
-
-### Issue Weight
-
-You can attribute an [Issue Weight] to make it clear how difficult is the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06.
+![new issue - additional settings](/images/blogimages/gitlab-workflow-an-overview/issue-features-view.png){:.shadow}
 
 ### Confidential Issues
 
@@ -101,6 +97,10 @@ GitLab labels are also an important part of the GitLab flow. You can use them to
 
 Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board), facilitating your plan stage and organizing your workflow.
 
+### Issue Weight
+
+You can attribute an [Issue Weight] to make it clear how difficult is the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06.
+
 ### GitLab Issue Board
 
 The [GitLab Issue Board][board] is a tool ideal for planning and organizing your issues according to your project's workflow.
@@ -109,9 +109,9 @@ It consists of a board with lists corresponding to its respective labels. Each l
 
 The cards can be moved between lists, which will cause the label to be updated according to the list you moved the card into.
 
-![Issue Board gif](#)
+![GitLab Issue Board](/images/blogimages/designing-issue-boards/issue-board.gif){: .shadow}
 
-## GitLab Code Review
+## Code Review with GitLab
 
 After discussing a new proposal or implementation in the issue tracker, it's time to work on the code. You write your code locally and, once you're done with your first iteration, you commit your code and push to your GitLab repository. Your Git-based management strategy can be improved with the [GitLab Flow][post-flow].
 
@@ -168,7 +168,9 @@ You can assign the MR to yourself until you finish your work, then assign it to 
 
 It can also be labeled and added to a [milestone](#milestones) to facilitate organization and prioritization.
 
-When you add or edit a file and commit to a new branch from the UI instead of from the command line, it's also easy to create a new merge requests. Just mark the checkbox "start a new merge request with these changes" and GitLab will automatically create a new MR once you commit your changes.
+When you add or edit a file and commit to a new branch from the UI instead of from the command line, it's also easy to create a new merge request. Just mark the checkbox "start a new merge request with these changes" and GitLab will automatically create a new MR once you commit your changes.
+
+![commit to a feature branch and add a new MR from the UI](/images/blogimages/gitlab-workflow-an-overview/start-new-mr-edit-from-ui.png){: .shadow}
 
 **Note:** It's important to add the issue closing pattern to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
 {: .note .alert .alert-success}
@@ -179,7 +181,7 @@ A WIP MR, which stands for **Work in Progress Merge Request**, is a technique we
 
 When your changes are ready to get merged, remove the `WIP:` pattern either by editing the issue and deleting manually, or use the shortcut available for you just below the MR description.
 
-![WIP MR click to remove WIP from the title](#)
+![WIP MR click to remove WIP from the title](/images/blogimages/gitlab-workflow-an-overview/gitlab-wip-mr.png){:.shadow}
 
 ### Code Review
 
@@ -189,15 +191,17 @@ You can also grab the link for each line of code by clicking on the line number.
 
 The commit history is also available from the UI, from which you can track the changes between the different versions of that file. You can view them inline or side-by-side.
 
-![code review in MRs at GitLab](#)
+![code review in MRs at GitLab](/images/blogimages/gitlab-workflow-an-overview/gitlab-code-review.png){: .shadow}
 
 ## Build, Test, and Deploy
 
-[GitLab CI][ci] is an powerful built-in tool for [Continuous Integration, Continuos Deployment and Continuous Delivery][ci-cd-cd], which can be used to run scripts as you wish. The possibilities are endless: think of it as if it was your own command line, integrated with GitLab.
+[GitLab CI][ci] is an powerful built-in tool for [Continuous Integration, Continuos Deployment, and Continuous Delivery][ci-cd-cd], which can be used to run scripts as you wish. The possibilities are endless: think of it as if it was your own command line, integrated with GitLab.
 
 It's all set by an Yaml file called, `.gitlab-ci.yml`, placed at your project's repository. Enjoy the bunch of CI templates by simply adding a new file through the web interface, and type the file name as `.gitlab-ci.yml` to trigger a dropdown menu with dozen of possible templates for different applications.
 
-Examples of GitLab CI capabilities:
+![GitLab CI templates - dropdown menu](/images/blogimages/gitlab-workflow-an-overview/gitlab-ci-template.png){:.shadow}
+
+Examples of GitLab CI use-cases:
 
 - Use it to [build][pages-post] any [Static Site Generator][ssgs-post], and deploy your website with [GitLab Pages][pages]
 - Use it to [deploy your website][ivan-post] to `staging` and `production` [environments][env]
@@ -215,7 +219,7 @@ When you follow the GitLab Workflow, you'll be able to gather feedback with [Git
 - **Test:** the time CI takes to run every build for the related merge request
 - **Review:** the time from creating the merge request to merging it
 - **Staging:** the time from MR merge until deploy to production
-- **Production** (Total): The time it takes between creating an issue and [deploying the code to production][env]
+- **Production** (Total): The time it takes between creating an issue and deploying the code to [production][env]
 
 ## Enhance
 
@@ -229,7 +233,7 @@ They save time when describing issues and MRs and standardize the information ne
 
 As you can create multiple templates, they serve for different purposes. For example, you can have one for feature proposals, and a different one for bug reports. Check the ones in [GitLab CE project][templates-ce] for real examples.
 
-![issues and MR templates - dropdown menu screenshot](#)
+![issues and MR templates - dropdown menu screenshot](/images/blogimages/gitlab-workflow-an-overview/issues-choose-template.png){:.shadow}
 
 ### Milestones
 
@@ -241,7 +245,7 @@ This goal can be basically anything that groups the team work and effort to do s
 
 For instance, you can create a milestone for Q1 2017 and assign every issue and MR that should be finished by the end of March, 2017. You can also create a milestone for an event that your company is organizing. Then you access that milestone and view an entire panorama on the progress of your team to get things done.
 
-![milestone dashboard](#)
+![milestone dashboard](/images/blogimages/gitlab-workflow-an-overview/gitlab-milestone.png){:.shadow}
 
 ## Pro Tips
 
@@ -287,7 +291,7 @@ An issue end up in a wrong project? Don't worry. Click on **Edit**, and [move th
 
 Sometimes do you use exactly the same code snippet or template in different projects or files? Create a code snippet and leave it available for you whenever you want. Expand the navigation on your left and click **[Snippets]**. All of your snippets are gonna be there. You can set them to public, internal (only for GitLab logged users), or private.
 
-![Snippets - screenshot](#)
+![Snippets - screenshot](/images/blogimages/gitlab-workflow-an-overview/gitlab-code-snippet.png){:.shadow}
 
 ## GitLab WorkFlow Use-Case Scenario
 
@@ -311,44 +315,53 @@ Now it's time for your technical writing team to create the documentation for th
 
 At last, you, being the person responsible for new releases, merged the MR and deployed the new feature into the **production** environment and the issue was **closed**.
 
+## Conclusions
+
+A new GitLab version is released every single month, for making it a better integrated solution for software development, and for bringing teams to work together in one single interface.
+
+At GitLab, anyone can contribute! Thanks to our amazing community we've got where we are. And thanks to them, we keep moving forward to provide you with a better product.
+
+Questions? Feedback? Please leave a comment or tweet at us [@GitLab]!
+
 <!-- identifiers -->
 
-[due-dates-post]: /2016/08/05/feature-highlight-set-dates-for-issues/#due-dates-for-issues
-[milestones-post]: /2016/08/05/feature-highlight-set-dates-for-issues/#milestones
-[issue weight]: https://docs.gitlab.com/ee/workflow/issue_weight.html
-[priority labels]: https://docs.gitlab.com/ee/user/project/labels.html#prioritize-labels
-[board]: /solutions/issueboard
-[task lists]: https://docs.gitlab.com/ee/user/markdown.html#task-lists
-[issue closing pattern]: https://docs.gitlab.com/ce/administration/issue_closing_pattern.html
-[md-gitlab]: https://docs.gitlab.com/ee/user/markdown.html
-[user-level]: https://docs.gitlab.com/ce/user/permissions.html
-[templates]: https://docs.gitlab.com/ce/user/project/description_templates.html
-[bulk subscriptions]: https://about.gitlab.com/2016/07/22/gitlab-8-10-released/#bulk-subscribe-to-issues
-[fenced]: /2016/07/22/gitlab-8-10-released/#blockquote-fence-syntax
+[@GitLab]: https://twitter.com/gitlab
 [add-todo]: /2016/06/22/gitlab-8-9-released/#manually-add-todos
-[subsc-issue]: /2016/03/22/gitlab-8-6-released/#subscribe-to-a-label
-[confid-issue]: /2016/03/31/feature-highlihght-confidential-issues/
-[move-issue]: /2016/03/22/gitlab-8-6-released/#move-issues-to-other-projects
-[templates-ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
-[Snippets]: https://gitlab.com/dashboard/snippets
+[board]: /solutions/issueboard
+[bulk subscriptions]: https://about.gitlab.com/2016/07/22/gitlab-8-10-released/#bulk-subscribe-to-issues
+[ca-post]: /2016/09/21/cycle-analytics-feature-highlight/
 [ca]: /solutions/cycle-analytics/
-[ci]: /gitlab-ci/
 [ci-cd-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
-[post-flow]: /2014/09/29/gitlab-flow/
+[ci]: /gitlab-ci/
+[confid-issue]: /2016/03/31/feature-highlihght-confidential-issues/
+[due-dates-post]: /2016/08/05/feature-highlight-set-dates-for-issues/#due-dates-for-issues
+[env]: https://docs.gitlab.com/ce/ci/yaml/README.html#environment
+[fenced]: /2016/07/22/gitlab-8-10-released/#blockquote-fence-syntax
+[GCR]: /2016/05/23/gitlab-container-registry/
+[hooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
+[ios-post]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
+[issue closing pattern]: https://docs.gitlab.com/ce/administration/issue_closing_pattern.html
+[issue weight]: https://docs.gitlab.com/ee/workflow/issue_weight.html
+[issue-post]: /2016/03/03/start-with-an-issue/
+[ivan-post]: /2016/08/26/ci-deployment-and-environments/
+[labels-post]: /2016/08/19/applying-gitlab-labels-automatically/
 [master-plan]: /2016/09/13/gitlab-master-plan/
 [mattermost]: /2015/08/18/gitlab-loves-mattermost/
-[issue-post]: /2016/03/03/start-with-an-issue/
-[labels-post]: /2016/08/19/applying-gitlab-labels-automatically/
-[hooks]: https://docs.gitlab.com/ce/web_hooks/web_hooks.html
-[pages]: https://pages.gitlab.io/
+[md-gitlab]: https://docs.gitlab.com/ee/user/markdown.html
+[milestones-post]: /2016/08/05/feature-highlight-set-dates-for-issues/#milestones
+[move-issue]: /2016/03/22/gitlab-8-6-released/#move-issues-to-other-projects
 [pages-post]: /2016/04/07/gitlab-pages-setup/
-[ssgs-post]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
-[ivan-post]: /2016/08/26/ci-deployment-and-environments/
-[ios-post]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
-[GCR]: /2016/05/23/gitlab-container-registry/
-[post-docker]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
-[ca-post]: /2016/09/21/cycle-analytics-feature-highlight/
+[pages]: https://pages.gitlab.io/
 [post-amanda]: /2016/08/05/feature-highlight-set-dates-for-issues/#milestones
-[env]: https://docs.gitlab.com/ce/ci/yaml/README.html#environment
+[post-docker]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
+[post-flow]: /2014/09/29/gitlab-flow/
+[priority labels]: https://docs.gitlab.com/ee/user/project/labels.html#prioritize-labels
+[Snippets]: https://gitlab.com/dashboard/snippets
+[ssgs-post]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
+[subsc-issue]: /2016/03/22/gitlab-8-6-released/#subscribe-to-a-label
+[task lists]: https://docs.gitlab.com/ee/user/markdown.html#task-lists
+[templates-ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
+[templates]: https://docs.gitlab.com/ce/user/project/description_templates.html
+[user-level]: https://docs.gitlab.com/ce/user/permissions.html
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/279 -->
