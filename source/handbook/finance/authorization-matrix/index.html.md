@@ -470,4 +470,4 @@ title: "Signature Authorization Matrix"
 
 ## Banking Controls
 
-- All accounts set up so initiator and approver are not the same.
+- All accounts are to be established so initiator and approver must be different.
