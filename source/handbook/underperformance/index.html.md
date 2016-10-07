@@ -12,7 +12,7 @@ underperformance. Note that someone may be terminated without undertaking these 
 
 1) Manager communicates to direct report during one-on-one that team member
 needs to improve. If there are extenuating circumstances some leeway may be
-granted depending on the situation.  This is an area that People Operations can provide a sounding board / voice of reason on.
+granted depending on the situation.  This is an area where People Operations can provide a sounding board / voice of reason.
 
 2) If the lack of performance persists, the manager moves to documenting clear expectations for improvement in a performance improvement plan (PIP). The intention of a PIP is to support the individual in any way required to make their time at GitLab a positive experience but also to make clear that immediate and sustained improvement
 is required. The Society for Human Resources Management (SHRM) has a [helpful guide](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) to review when
