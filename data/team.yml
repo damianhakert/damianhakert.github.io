@@ -268,19 +268,6 @@
          After a quick Google search she found GitLab and immediately knew they would <em>git</em> her enthusiasm for community and innovation.
          In her free time, she stays active and makes shoes, just in case they serve quesadillas on Mars and need a cobbler one day.
 
-- name: Ashley Smith
-  locality: New York City, NY
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/chief-marketing-officer/">Chief Marketing Officer (CMO)</a>
-  reports_to: CEO
-  picture: ashley.jpg
-  twitter: ashl3ysm1th
-  gitlab: ashley
-  story:  |
-          Based in Brooklyn, Ashley's background in engineering has allowed her to excel in marketing developer products.
-          She got her start at Twilio and then lead marketing at Parse, which was then acquired by Facebook. After an awesome but short
-          stint at Google Maps, she is so happy to be working at a start-up again.
-
 - name: Chad Malchow
   locality: El Dorado Hills, CA
   country: USA
@@ -454,7 +441,7 @@
   locality: Athens
   country: Greece
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
@@ -550,7 +537,7 @@
   locality: Colorado Springs, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/designer/">Designer</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: lukebabb.jpg
   twitter: lukebabb
   gitlab: lukebabb
@@ -642,7 +629,7 @@
   locality: Belgrade
   country: Serbia
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: ivan.jpg
   twitter: inemation
   gitlab: inem
@@ -743,7 +730,7 @@
   locality: Alameda, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: amanda.jpg
   twitter: AmbassadorAwsum
   gitlab: afolson
@@ -807,7 +794,7 @@
   locality: New York City, NY
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-product-marketing/">Director of Product Marketing</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: amara.png
   twitter: its_amaracle
   gitlab: amara
@@ -971,7 +958,7 @@
   locality: Quatro Barras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
@@ -1164,7 +1151,7 @@
   locality: Murrells Inlet, SC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-demand-generation/">Director of Demand Generation</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: JoeLucas.jpg
   twitter: joelucas
   gitlab: joelucas
@@ -1460,7 +1447,7 @@
   locality: London
   country: United Kingdon
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: seanpackham.png
   twitter: SeanPackham
   gitlab: SeanPackham
@@ -1614,7 +1601,7 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: CMO
+  reports_to: CEO
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
