@@ -12,7 +12,7 @@ underperformance. Note that someone may be terminated without undertaking these 
 
 1) Manager communicates to direct report during one-on-one that team member
 needs to improve. If there are extenuating circumstances some leeway may be
-granted depending on the situation.  This is an area that People Operations can provide a sounding board / voice of reason.
+granted depending on the situation.  This is an area that People Operations can provide a sounding board / voice of reason on.
 
 2) If the lack of performance persists, the manager moves to documenting clear expectations for improvement in a performance improvement plan (PIP). The intention of a PIP is to support the individual in any way required to make their time at GitLab a positive experience but also to make clear that immediate and sustained improvement
 is required. The Society for Human Resources Management (SHRM) has a [helpful guide](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) to review when
@@ -38,4 +38,6 @@ This [basic PIP template](https://docs.google.com/document/d/1AsVwUikcUofl58eLWh
    3. In retrospect, what questions should have been asked to bring awareness and
       ownership to performance issues? For example, "How would you compare yourself relative to your peers?" People are surprisingly honest here.
 
-By using this process, letting people go should not be a surprise to the individual. If a person does need to be let go, work with People Operations to follow the process for [involuntary termination](/handbook/people-operations/#involuntary-terminations) and the [offboarding steps](/handbook/offboarding/).
+The PIP process should be a discreet and positive interaction between a manager and their direct report. Information shared in a PIP should be kept confidential by both participants. If underperformance becomes a reason for termination, the individual should not be taken by surprise but the rest of the company should be.
+
+If a person does need to be let go, work with People Operations to follow the process for [involuntary termination](/handbook/people-operations/#involuntary-terminations) and the [offboarding steps](/handbook/offboarding/).
