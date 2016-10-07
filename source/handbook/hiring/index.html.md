@@ -108,7 +108,7 @@ Before the CEO has the final call with the applicant the hiring manager will wri
     * who will extend the offer (CEO is fine with doing this since it is the most speedy for the applicant, but up to the hiring manager)
     * the proposed offer (in all cases, so also when someone else than the CEO makes the offer)
     * in case there are steps before making the final offer (more applicants in the running for the position) this should be noted <br>
-When the CEO makes the **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. When the CEO or hiring manager makes the **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
 1. People Ops will draft a contract based upon the written offer that was extended.
 1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
 1. People Ops [starts the onboarding process](#move-to-onboarding).
