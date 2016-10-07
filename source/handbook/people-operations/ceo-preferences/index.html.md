@@ -1,10 +1,16 @@
+---
+layout: markdown_page
+title: CEO Preferences
+---
+
 ## Intro
 
-This page is mainly as a guideline for the Executive Assistants (EAs) to our Chief Executive Officer (CEO). It is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense. If there are things that might seem pretentious or overbearing please raise them so we can remove or adapt them.
+This page is mainly as a guideline for the Executive Assistants (EAs) to our Chief Executive Officer (CEO). It is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense. 
+If there are things that might seem pretentious or overbearing please raise them so we can remove or adapt them.
 
 ## Communication
 
-Thanks to Mårten Mickos for the inspiration for this section. All good idea's are his, all bad ones mine.
+Thanks to [Mårten Mickos](https://www.linkedin.com/in/martenmickos) for the inspiration for this section. All good idea's are his, all bad ones mine.
 
 I am a visual person much more than auditory, and I am a top-down person much more than bottom-up. This means that I love written communication: issues, email, Google Docs, and chat. Feel free to send me as many emails and chat messages as you like, and about whatever topics you like.
 
@@ -45,12 +51,13 @@ The EA should follow up to make sure the draft post is submitted.
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
 * Schedule calls in European timezones in the am Pacific (Daylight) Time and US time zones in the pm Pacific (Daylight) Time.
-    * MTG | for in person
+    * MTG | for meetings in person, either at the "office" or another location
     * INTERVIEW | for interviews (looping in our PR partner)
     Make sure to block 10 min before for preparations and 10 min after for notes for Sid and send out https://about.gitlab.com/primer/ for background information for the interviewer.
-    * CALL | for video conf
+    * CALL | for phone calls
+    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom.
     add message:
-    “Please use the link in this invite to join the Google Hangout. It will prompt a request for access.
+    “Please use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
 	    * Calls in the hiring process also have:
 	    “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”
 
@@ -62,6 +69,7 @@ The EA should follow up to make sure the draft post is submitted.
 Or for example “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
 
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
+Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 
 ## Hiring process
 
