@@ -8,7 +8,6 @@ description: "We just released our Y Combinator W2015 application!"
 date: 2016-09-30 10:30
 ---
 
-This application was created in October 2014.
 We released it together with out blog post [What founders ask founders about getting into Y Combinator](/2016/09/30/what-founders-ask-founders-about-getting-into-yc)
 
 <!-- more -->
@@ -94,7 +93,7 @@ In 2011 Dmitriy started GitLab. We met in 2012 via email when Sytse started buil
 **How far along are you?** 
 {: .panel-heading}
 <div class="panel-body">
-Over 100.000 organizations are using GitLab. \<Redacted>, Boeing, Disney, Qualcomm, NASA, Nasdaq OMX and Interpol are paying customers. Over 600 people have contributed to it. It is the most popular open source version control software. It has more installations than anything else (including GitHub Enterprise and Atlassian Stash).
+Over 100.000 organizations are using GitLab. \<Redacted>, Qualcomm, NASA, Nasdaq OMX and Interpol are paying customers. Over 600 people have contributed to it. It is the most popular open source version control software. It has more installations than anything else (including GitHub Enterprise and Atlassian Stash).
 </div>
 </div>
 
