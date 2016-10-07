@@ -1,33 +1,37 @@
 ---
 layout: markdown_page
-title: "Outbound Business Development"
+title: "Business Development"
 ---
-Outbound BDR Handbook   
+Business Development Handbook
 
 ## On this page
+* [Your Role](#Role)
 * [Outbound BDR Onboarding Guide](#BDRO)
 * [Week 1](#Week1)  
 * [Week 2](#Week2)
 * [Week 3](#Week3) 
+* [Outbound Process](#Outbound)
+* [Inbound BDR Onboarding Guide](#BDROn)
+* [Week 1](#Week1in)  
+* [Week 2](#Week2in)
+* [Week 3](#Week3in)
+* [Inbound Process](#Inbound)
 * [Variable Compensation Guidelines](#compensation)
 * [Vacation Days](#vacation)
 * [Additional Resources](#Toolkit)
 * [Prospecting 101](#Basic)
 * [How to Cold Call](#Cold)
 * [How to Email](#Email)
-* [Outbound Process](#Outbound)
 
-## Outbound BDR Onboarding Guide<a name="BDRO"></a>  
-
-#### WELCOME
+#### Welcome to the team!<a name="Role"></a>
 Welcome to GitLab and congratulations on landing a job with one of the best open source tech companies in the world. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson. 
 
 On the BDR team we work extremely hard, but also have a ton of fun. We expect your best each and every day. Know that we will do all we can to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
 The job can come with long days, hard work, frustration and even at times, failure. Know that those with the right mindset and work ethic will find success, personal development, career growth, and financial security. There isn’t a better place to be with more opportunity than this. Let’s make it happen!
 
-#### YOUR ROLE
-As an Outbound Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be generating qualified pipeline for GitLab as you hunt for leads, research companies, industries, roles, and setting meetings with key players. 
+#### Your Role
+As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be generating qualified pipeline for GitLab as you hunt for leads, research companies, industries, roles, and setting meetings with key players. 
 
 As you gain knowledge, you will be equipped with the necessary skills to aid these key players in solving complex business problems. We want to set you up for success and help you apply your critical thinking skills as you positively impact different businesses. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
@@ -39,15 +43,17 @@ As you gain knowledge, you will be equipped with the necessary skills to aid the
 
 The rest of this guide will outline your onboarding at GitLab. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
 
-#### FREQUENTLY ASKED QUESTIONS
+## Outbound BDR Onboarding Guide<a name="BDRO"></a> 
+
+#### Frequently Asked Questions
 I’m having issues with Salesforce - can’t login, my leads are not syncing, salesforce isn't working, I want to request more contacts from discoverorg, not sure what the protocol is, etc.
-* A: Slack - Francis Aquino @francis
+* Slack - Francis Aquino
 
 My GitLab account isn’t working. I can’t seem to login or access anything
-* A: Slack - Assigned Buddy
+* Slack - Assigned Buddy
 
 What are my work hours?
-* A: The handbook says “You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules”
+* The handbook says “You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules”
 
 How do I know who to assign a lead to?
 * [Here](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
@@ -101,13 +107,9 @@ How do I access the handbook?
  #working-on
  
 #### Who should I connect with for my 10 1:1 onboarding calls?
-* You can connect with whomever you please, however, here is a list of suggested employees that you will have interaction with at some point.
+* You can connect with whomever you please. However, you will interact the most with the Sales Team and the Demand Generation Team 
 
-###### Sales: 
-Haydn Mackay, Mike Walsh, Josh Wrede, Phil Camillo, Michael Alessio, Richard Pidgeon, Timo Schuit, Dan Leonte
-
-###### Demand Generation: 
-Joe Lucas, Chet Backman, Colton Taylor, Ryan Caplin, Braden Coleman, Kris Touzel, Kyla Gradin, Dan Parris
+    * [GitLab Team Page](https://about.gitlab.com/team/)
 
 #### Coined Terms
  #BDRing - Doing your job...Kris Touzel
@@ -116,15 +118,7 @@ Joe Lucas, Chet Backman, Colton Taylor, Ryan Caplin, Braden Coleman, Kris Touzel
  
  #BDR - Boss Destroying Revenue...Joe Lucas
  
-#### Outbound BDR Team Members
-
-B.J. (Oct 17)
-
-Elsje Smart
-
-D.E. (Oct 17)
-
-#### WEEK ONE<a name="Week1"></a>  
+#### Week One<a name="Week1"></a>  
 
 ###### Sales Training
 * [Intro to Git](https://www.codeschool.com/users/sign_in)
@@ -160,7 +154,7 @@ D.E. (Oct 17)
 
 * Sign in to Linkedin
 
-#### WEEK TWO<a name="Week2"></a>
+#### Week Two<a name="Week2"></a>
 
 ###### Sales Training
 * [GitLab University](https://university.gitlab.com/)
@@ -188,7 +182,7 @@ D.E. (Oct 17)
 
  * D.E. (Oct 17)
 
-###### METRICS
+###### Metrics
 * 50 Prospecting Calls####
 
 * 25 Prospecting Emails
@@ -208,7 +202,7 @@ D.E. (Oct 17)
 
 * Be assigned a list of accounts to work by your Team Lead
 
-#### WEEK THREE<a name="Week3"></a>
+#### Week Three<a name="Week3"></a>
 
 ###### Sales Training
 * [GitLab University](https://university.gitlab.com/)
@@ -250,7 +244,204 @@ D.E. (Oct 17)
 
 * How to BDR
 
-#### POST ONBOARDING
+## Outbound Process<a name="Outbound"></a>
+
+Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly or quarterly basis.
+
+#### Criteria for those accounts still TBD
+- Tier
+- Industry
+- Number of Employees
+- Revenue
+- Populated with contacts and activity
+- Last activity date
+- Lost opportunities
+- Former or current customers
+
+#### Help Marketing create campaigns focusing on:
+- Accounts using specific competitors
+- Up-to-date Titles
+- Up-to-date company sizes
+- Contract end dates
+
+#### Rules of engagement
+- Outbound to work off of contacts and leads within SFDC
+- Outbound does not touch any historical lead that has activity on it within the last 45 days. We are on the same team as inbound, no bad blood, etc.
+
+#### Formal Weekly 1:1
+
+BDR and BDR Team Lead
+
+- Mental check-in (winning and success)
+
+- Discuss progress on targeted accounts
+
+- Coaching - email strategy, campaigns, cadence, best practices
+
+- Review goals at the account level and personal level
+
+- Strategy for next week
+
+- Upcoming events/campaigns that can be leveraged
+
+- Personal goals and commitments 
+
+## Inbound BDR Onboarding Guide<a name="BDROn"></a>
+
+#### Frequently Asked Questions
+I’m having issues with Salesforce - can’t login, my leads are not syncing, salesforce isn't working, I want to request more contacts from discoverorg, not sure what the protocol is, etc.
+* Slack - Francis Aquino
+
+My GitLab account isn’t working. I can’t seem to login or access anything
+* Slack - Assigned Buddy
+
+What are my work hours?
+* The handbook says “You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules”
+
+How do I know who to assign a lead to?
+* [Here](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
+
+How do I convert a lead to an opportunity?
+* [Here](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZhO6am7qv3fXzrZo84K3k/edit)
+
+How do I access the handbook?
+* [Here](https://about.gitlab.com/primer/)
+
+#### What links should I be familiar with?
+* [Trinet](https://sso.trinet.com/)
+
+* [Salesforce](https://login.salesforce.com/)
+
+* [Slack](https://gitlab.slack.com)
+
+* [Expensify](https://www.expensify.com)
+
+* [Bamboohr](https://gitlab.bamboohr.com)
+
+* [Calendly](https://calendly.com/)
+
+* [Collabspot](https://go.collabspot.com)
+
+* [GitLab Version Check](https://version.gitlab.com)
+
+#### What Slack channels should I join?
+ #bdr-team
+ 
+ #general
+ 
+ #marketing
+ 
+ #peopleops
+ 
+ #questions
+ 
+ #random
+ 
+ #sales
+ 
+ #sfdc-users
+ 
+ #support
+ 
+ #thanks
+ 
+ #wins
+ 
+ #working-on
+ 
+#### Who should I connect with for my 10 1:1 onboarding calls?
+* You can connect with whomever you please. However, you will interact the most with the Sales Team and the Demand Generation Team 
+
+    * [GitLab Team Page](https://about.gitlab.com/team/)
+
+#### Coined Terms
+ #BDRing - Doing your job...Kris Touzel
+ 
+ #SQLing - Winning at your job...Ryan Caplin
+ 
+ #BDR - Boss Destroying Revenue...Joe Lucas
+ 
+#### Week One<a name="Week1in"></a>  
+
+###### Sales Training
+* [Intro to Git](https://www.codeschool.com/users/sign_in)
+
+* Watch the [Vision Demo](https://about.gitlab.com/handbook/sales/vision-demo/): Idea to Production 
+
+* Read [GitLab Direction](https://about.gitlab.com/direction/)
+
+* Study GLU: [GitLab University](https://university.gitlab.com/)
+
+* Read the [Hanbook](https://about.gitlab.com/handbook/)
+
+###### To Do
+* [Onboarding Issue](https://dev.gitlab.org)
+
+* Create an email signature [Sample](https://docs.google.com/document/d/1NvfC4a26G0WZwxB1K2oeXyGvI0DGqy-LbTKa9iPP6kU/edit)
+
+* Open Salesforce welcome email and activate account
+
+* Open Collabspot welcome email and activate account
+
+* Schedule time with your assigned mentor
+
+###### Metrics
+* Complete your onboarding issue
+
+###### By the end of your first week you should (know) and be able to do the following:
+* What is GitLab (from a high level)
+
+* Create and assign merge requests (from your onboarding issue)
+
+* Sign in to SFDC (Salesforce.com)
+
+* Sign in to Linkedin
+
+#### Week Two<a name="Week2in"></a>
+
+###### Sales Training
+* [GitLab University](https://university.gitlab.com/)
+
+* SFDC Training TBD
+
+* InsideView Overview TBD
+
+* [Sales Process](https://about.gitlab.com/handbook/sales/) and [Qualification](https://docs.google.com/document/d/1GR0v4cvBYUoTSn66kVAqzY5q_imWbDWW4ifo7ag6Gow/edit#heading=h.ebl8fraqpynv)
+ 
+* Prospecting 101 by Scheduled by Chet
+
+    * **Note**: You will recieve 200 inbound leads to start working this week
+
+###### To Do
+* Add these suggested [canned responses](https://docs.google.com/a/gitlab.com/document/d/1EektuIAJKo9fBe-EiAnPR3BHhlkdaWE4wqG2z3QuP5o/edit?usp=sharing) to your gmail for quick replies 
+
+* Create tasks for the leads you choose to work
+
+* Create a task list in SFDC of at least 25 leads
+
+* Shadow 3 Inbound BDRs for one hour
+
+    * See [Team Page](https://about.gitlab.com/team/)
+
+###### Metrics
+* 50 Prospecting Calls####
+
+* 25 Prospecting Emails
+
+* 25 New contacts added to your task list
+
+* First SQL
+
+###### By the end of your second week you should (know) and be able to do the following:
+* Create tasks for leads within SFDC
+
+* How to manage your task list in SFDC
+
+* How to use InsideView
+
+* Craft a basic response email
+
+ 
 
 ###### Variable Compensation Guidelines<a name="compensation"></a>
 
