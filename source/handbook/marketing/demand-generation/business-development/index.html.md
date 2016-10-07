@@ -325,7 +325,6 @@ How do I deal with APAC and SA leads?
 
 * *Note: BDRs do not set up meetings for resellers.
 
-
 #### What links should I be familiar with?
 * [Trinet](https://sso.trinet.com/)
 
