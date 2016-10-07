@@ -4,7 +4,7 @@ author: Erica Lindberg
 author_twitter: ericalindberg_ 
 categories: release
 image_title: '/images/blogimages/8-12-highlights.png'
-twitter_image: '/images/tweets/--.png'
+twitter_image:
 description:  In this webcast, we demo the highlights from GitLab 8.12
 ---
 
@@ -50,7 +50,7 @@ In this webcast, we walk through our vision, and demo some of the key features f
 
 In case you don't have time to watch the full video, here are the highlights. 
 
-<div class="panel panel-gitlab">
+<div class="panel panel-gitlab-orange">
 **GitLab Built-in Integrations** 
 {: .panel-heading}
 <div class="panel-body">
@@ -128,22 +128,3 @@ Register for an event near you:
 [nyc]: https://gitlabworldtournyc.splashthat.com/
 [Sid Sijbrandij]: https://twitter.com/sytses
 [world-tour]: /2016/09/28/world-tour-amplify-your-code/
-
-<style>
-.panel-gitlab {
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab > .panel-heading {
-  color: rgb(226,67,41);
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-purple {
-  border-color: rgba(107,79,187,.3);
-}
-.panel-gitlab-purple > .panel-heading {
-  color: rgb(107,79,187);
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-}
-</style>
