@@ -8,21 +8,18 @@ twitter_image: '/images/tweets/--.png'
 description:  
 ---
 
-This was an exciting release for GitLab! We appreciate all of the commments from the community
-on [GitLab 8.11][8.11] being an "epic release". We couldn’t agree more. 
+During the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. GitLab 8.12 is 
+exciting because it brings us one step closer to realizing our [vision][vision] to be an integrated set of tools for the software development lifecycle.
 
-In addition to the release news, 
-we made a point to highlight our vision more prominently. If you’re familiar with GitLab and 
-our open culture, you know that our vision has always been listed on [our direction page][gitlab-vision]. However, in this 
-release, we made our vision a part of our release story as well. GitLab is an integrated set of tools for 
-the software development lifecycle. 
+In this release, we launchted the first iteration of [Cycle Analytics][cycle-analytics]. Cycle Analytics gives you 
+feedback on your projects, measuring how long it takes your team to go from idea to production. Cycle Analytics helps you
+reduce cycle time, an important competitive advantage in today's development landscape. In fact, reducing cycle time to increase effectiveness is the
+very first principle of [Conversational Development][condev]. 
 
-The [launch of the GitLab Issue Board][issue-board-launch] makes it easier for customers to 
-plan, organize and visualize their issues. The GitLab Issue Board and the Issue Tracker are a perfectly 
-paired project management solution. 
+We also launched Global Code Search for GitLab Enterprsie Edition (EE). If you're running Elasticsearch on your 
+GitLab EE instance, you can know search through all the code on your server.
 
-In this webcast, we walk through our vision, demo a couple great 
-features of GitLab 8.11, and share what's next on our product roadmap. 
+In this webcast, we walk through our vision, and demo some of the key features from GitLab 8.12.
 
 <!-- more -->
 
@@ -112,6 +109,7 @@ VP of Product, [Ashley Smith][ashley], Chief Marketing Officer, and guest MC Com
 [cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ci]: /gitlab-ci/
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
+[condev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
 [container]: /2016/05/23/gitlab-container-registry/
 [cycle]: https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/
 [GitLab Issue Board]: /solutions/issueboard/
