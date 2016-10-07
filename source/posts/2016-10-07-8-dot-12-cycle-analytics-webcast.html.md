@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.12 Release Webcast: Cycle Analytics Launch"
+title: "GitLab 8.12 Release Webcast: Cycle Analytics & Global Code Search"
 author: Erica Lindberg
 author_twitter: ericalindberg_ 
 categories: release
