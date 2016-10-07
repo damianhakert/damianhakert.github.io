@@ -8,10 +8,10 @@ twitter_image: '/images/tweets/--.png'
 description:  
 ---
 
-During the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. GitLab 8.12 is 
+During the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. [GitLab 8.12][8.12] is 
 exciting because it brings us one step closer to realizing our [vision][vision] to be an integrated set of tools for the software development lifecycle.
 
-In this release, we launchted the first iteration of [Cycle Analytics][cycle-analytics]. Cycle Analytics gives you 
+In this release, we launchted the first iteration of [Cycle Analytics][cycle]. Cycle Analytics gives you 
 feedback on your projects, measuring how long it takes your team to go from idea to production. Cycle Analytics helps you
 reduce cycle time, an important competitive advantage in today's development landscape. In fact, reducing cycle time to increase effectiveness is the
 very first principle of [Conversational Development][condev]. 
@@ -89,18 +89,20 @@ We will ship this complete lifecycle in 2016.
 **New features**
 {: .panel-heading}
 <div class="panel-body">
-[GitLab Issue Board] and [Resolving Merge Conflicts in the UI][mr-conflicts] are awesome features and you should really check them out. 
+[Cycle Analytics][cycle], [Global Code Search][code-search], and [Merge Request Versions][mr-versions] are awesome features and you should really check them out. 
 </div>
 </div>
 
-## Join us on for a special event on September 13th
+## Amplify Your Code at GitLab World Tour
 
-[Register here][event-page] for our special live event on Tuesday, September 13th at 1pm ET / 5pm GMT.
-Our CEO, [Sid Sijbrandij][Sid Sijbrandij], will share a special announcement and walk through the
-future plan for GitLab and software development. 
+Join us for the [GitLab World Tour][world-tour] to learn more about our product vision, talk about changes in software developement, and meet
+other GitLabbers in your area! We'll be in three cities:
 
-Stick around after the announcement for a Q&A session with [Sid][Sid Sijbrandij], CEO, [Job van der Voort][job], 
-VP of Product, [Ashley Smith][ashley], Chief Marketing Officer, and guest MC Community Extraordinaire [Jono Bacon][jono-twitter]. 
+Register for an event near you: 
+
+- [London][london] - October 19
+- [NYC][nyc] - October 26
+- [Amsterdam][amsterdam] - November 3
 
 <!-- identifiers -->
 
@@ -118,9 +120,11 @@ VP of Product, [Ashley Smith][ashley], Chief Marketing Officer, and guest MC Com
 [issue]: /2016/03/03/start-with-an-issue/
 [job]: https://twitter.com/Jobvo
 [koding]: /2016/07/26/koding-and-gitlab-integrated/
+[masterplan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [mattermost]: /2015/08/18/gitlab-loves-mattermost/
 [mr-conflicts]: /2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/
 [Sid Sijbrandij]: https://twitter.com/sytses
+[world-tour]: https://about.gitlab.com/2016/09/28/world-tour-amplify-your-code/
 
 <style>
 .panel-gitlab {
