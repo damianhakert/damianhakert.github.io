@@ -1615,17 +1615,23 @@
           Recreationally, she enjoys podcasting, disappearing down internet
           rabbit holes, and getting out on the water for an early morning row.
 
-- name: A.N.
-  locality:
-  country:
+- name: Adam Niedzielski
+  locality: Berlin
+  country: Germany
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Discussion Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: adam.jpg
+  twitter: niedzielskiadam
+  gitlab: adamniedzielski
   story:  |
-          Joining October 3rd
-
+          Adam is a programmer that loves teaching people how to write code
+          and sharing his knowledge. He enjoys conferences and local
+          programming meetups as an attendee, speaker and organizer.
+          Adam is obsessed with clean code, but he never forgets that the
+          technology exists to serve its users. He is really proud of
+          <a href="http://blog.sundaycoding.com/">his blog</a>.
+          In his free time Adam plays board games, drinks craft beer or
+          explores new cities without checking a map.
 - name: Nur Rony
   locality: Dhaka
   country: Bangladesh
