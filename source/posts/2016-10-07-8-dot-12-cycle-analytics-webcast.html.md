@@ -127,3 +127,4 @@ Register for an event near you:
 [nyc]: https://gitlabworldtournyc.splashthat.com/
 [Sid Sijbrandij]: https://twitter.com/sytses
 [world-tour]: /2016/09/28/world-tour-amplify-your-code/
+[vision]: /direction/#vision
