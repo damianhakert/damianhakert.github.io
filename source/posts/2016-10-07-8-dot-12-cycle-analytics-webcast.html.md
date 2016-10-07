@@ -4,7 +4,6 @@ author: Erica Lindberg
 author_twitter: ericalindberg_ 
 categories: release
 image_title: '/images/blogimages/8-12-highlights.png'
-twitter_image:
 description:  In this webcast, we demo the highlights from GitLab 8.12
 ---
 
