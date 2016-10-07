@@ -58,11 +58,14 @@ What are my work hours?
 How do I know who to assign a lead to?
 * [Here](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
 
-How do I convert a lead to an opportunity?
+How do I create an opportunity?
 * [Here](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZhO6am7qv3fXzrZo84K3k/edit)
 
 How do I access the handbook?
 * [Here](https://about.gitlab.com/primer/)
+
+How do I BDR APAC and SA contacts
+* [Here](https://docs.google.com/a/gitlab.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit?usp=sharing)
 
 #### What links should I be familiar with?
 * [Trinet](https://sso.trinet.com/)
@@ -417,20 +420,20 @@ How do I access the handbook?
 
 * Create tasks for the leads you choose to work
 
-* Create a task list in SFDC of at least 25 leads
+* Create a task list in SFDC of at least 15 leads
 
 * Shadow 3 Inbound BDRs for one hour
 
     * See [Team Page](https://about.gitlab.com/team/)
 
 ###### Metrics
-* 50 Prospecting Calls####
+* First SQL
+
+* 25 Prospecting Calls
 
 * 25 Prospecting Emails
 
-* 25 New contacts added to your task list
-
-* First SQL
+* Maintain a task list of at least 15 leads
 
 ###### By the end of your second week you should (know) and be able to do the following:
 * Create tasks for leads within SFDC
@@ -441,7 +444,76 @@ How do I access the handbook?
 
 * Craft a basic response email
 
- 
+#### Week Three<a name="Week3in"></a>
+
+###### Sales Training
+* [GitLab University](https://university.gitlab.com/)
+
+* Manager Session
+
+* BDR Ongoing Training (Friday)
+
+###### To Do
+* You will start recieving live leads 
+
+* Schedule time with each of the AE's to collaborate and learn about lead management **Note** There is no agenda for this meeting, attend prepared with questions 
+
+* Have a healthy task list of at least 25 leads to target
+
+* Sit in on three discovery calls with the AE's
+
+    * [Team Page](https://about.gitlab.com/team/)
+  
+###### Metrics
+* Generate three SQLs
+
+* 50 Prospecting Emails
+
+    * **Note** - We do not have minimum call/email metrics that you are held against. Be tenacious in your efforts. Remember the more at bats you have the better chance you have of hitting a home run. The numbers reflected above are best practices to get you ramped and ready for your everyday workflow.
+
+###### By the end of your third week you should (know) and be able to do the following:
+* Convert leads into opportunities
+
+* How to manage your task list in SFDC
+
+* How to use InsideView
+
+* How to BDR
+
+## Inbound Process<a name="Inbound"></a>
+
+Each rep will be placed into the Marketo Queue and will recieve a high volume of leads to work on a monthly and quarterly basis
+
+Criteria for those leads are set by Marketo and the Director of Demand Generation
+
+#### Primary Responsibilities:
+* Manage and help inbound requests to community@gitlab.com and sales@gitlab.com
+
+* Strategize to develop the proper qualifying questions for all types of customers.
+
+* Be able to identify where a customer is in the sale and marketing funnel and take the appropriate action
+
+* Generate Sales Qualified Leads (SQLs)
+
+#### Rules of engagement
+- Inbound to work off of leads within SFDC
+- Inbound does not touch any lead that has activity on it within the last 45 days by a different BDR. 
+
+#### BDR and BDR Team Lead
+
+- Mental check-in (winning and success)
+
+- Discuss progress on targeted accounts
+
+- Coaching - email strategy, campaigns, cadence, best practices
+
+- Review goals at the account level and personal level
+
+- Strategy for next week
+
+- Upcoming events/campaigns that can be leveraged
+
+- Personal goals and commitments 
 
 ###### Variable Compensation Guidelines<a name="compensation"></a>
 
@@ -673,53 +745,3 @@ Everyday here at GitLab we help senior developers like yourself to collaborate o
 What day do you have 15 minutes on your calendar to discuss?
 
 Thanks,
-
-## Outbound Process<a name="Outbound"></a>
-
-Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly or quarterly basis.
-
-#### Criteria for those accounts still TBD
-- Tier
-- Industry
-- Number of Employees
-- Revenue
-- Populated with contacts and activity
-- Last activity date
-- Lost opportunities
-- Former or current customers
-
-#### Help Marketing create campaigns focusing on:
-- Accounts using specific competitors
-- Up-to-date Titles
-- Up-to-date company sizes
-- Contract end dates
-
-#### Rules of engagement
-- Outbound to work off of contacts and leads within SFDC
-- Outbound does not touch any historical lead that has activity on it within the last 45 days. We are on the same team as inbound, no bad blood, etc.
-
-#### Formal Weekly 1:1
-
-BDR and BDR Team Lead
-
-- Mental check-in (winning and success)
-
-- Discuss progress on targeted accounts
-
-- Coaching - email strategy, campaigns, cadence, best practices
-
-- Review goals at the account level and personal level
-
-- Strategy for next week
-
-- Upcoming events/campaigns that can be leveraged
-
-- Personal goals and commitments 
-
-
-
-
-
-
-
-
