@@ -3,9 +3,9 @@ title: "GitLab 8.12 Release Webcast: Cycle Analytics Launch"
 author: Erica Lindberg
 author_twitter: ericalindberg_ 
 categories: release
-image_title: '/images/blogimages/--.png'
+image_title: '/images/blogimages/8-12-highlights.png'
 twitter_image: '/images/tweets/--.png'
-description:  
+description:  In this webcast, we demo the highlights from GitLab 8.12
 ---
 
 During the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. [GitLab 8.12][8.12] is 
