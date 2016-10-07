@@ -57,7 +57,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Success Engineer (APAC and Channel)](/jobs/Success-Engineer-APAC-and-Channel)(vacancy)
     - [Platform (Backend)](/handbook/backend/) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) who are platform specialists
-    - [Discussion (Backend)](handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
+    - [Discussion (Backend)](/handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
       - [Developers](/jobs/developer/) who are discussion specialists
     - [CI (backend)](/handbook/backend#ci) - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) who are CI specialists
