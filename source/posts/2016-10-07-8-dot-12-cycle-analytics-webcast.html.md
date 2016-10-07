@@ -53,7 +53,8 @@ In case you don't have time to watch the full video, here are the highlights.
 **GitLab Built-in Integrations** 
 {: .panel-heading}
 <div class="panel-body">
-GitLab is an integrated set of tools, including repository management, access controls, code review, issue tracker, Issue Board, wiki, and now, **Cycle Analytics**. GitLab supports the full software development lifecycle through its built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and [Container Registry][container].
+GitLab has an integrated set of tools that supports the entire lifecycle of sodtware development, including repository management, version controls, 
+code review, advanced issue tracker, Issue Board, built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and wiki, and now, **Cycle Analytics**.
 </div>
 </div>
 
@@ -61,7 +62,7 @@ GitLab is an integrated set of tools, including repository management, access co
 **Faster From Idea to Production**
 {: .panel-heading}
 <div class="panel-body">
-Our goal is to help teams go [faster from idea to production][cd-faster]. To do that, we've built chat, issues, wikis, code review, CI, and CD into a single UI. 
+Our goal is to help teams go [faster from idea to production][cd-faster] by building a completely integrated toolset in a single UI. 
 </div>
 </div>
 
