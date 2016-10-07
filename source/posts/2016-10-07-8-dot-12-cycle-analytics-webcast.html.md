@@ -7,7 +7,7 @@ image_title: '/images/blogimages/8-12-highlights.png'
 description:  In this webcast, we demo the highlights from GitLab 8.12
 ---
 
-During the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. [GitLab 8.12][8.12] is 
+In the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. [GitLab 8.12][8.12] is 
 exciting because it brings us one step closer to realizing our [vision][vision] to be an integrated set of tools for the software development lifecycle.
 
 In this release, we launchted the first iteration of [Cycle Analytics][cycle]. Cycle Analytics gives you 
@@ -15,10 +15,10 @@ feedback on your projects, measuring how long it takes your team to go from idea
 reduce cycle time, an important competitive advantage in today's development landscape. In fact, reducing cycle time to increase effectiveness is the
 very first principle of [Conversational Development][condev]. 
 
-We also launched Global Code Search for GitLab Enterprsie Edition (EE). If you're running Elasticsearch on your 
+We also launched [Global Code Search][code-search] for GitLab Enterprsie Edition (EE). If you're running Elasticsearch on your 
 GitLab EE instance, you can know search through all the code on your server.
 
-In this webcast, we walk through our vision, and demo some of the key features from GitLab 8.12.
+In this webcast, we walk through our vision, and demo some of the key features from [GitLab 8.12][8.12].
 
 <!-- more -->
 
@@ -110,11 +110,11 @@ Register for an event near you:
 [cd-faster]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ci]: /gitlab-ci/
-[code-search]: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/#global-code-search-ee
+[code-search]: /2016/09/22/gitlab-8-12-released/#global-code-search-ee
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
-[condev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
+[condev]: /2016/09/14/gitlab-live-event-recap/#convdev
 [container]: /2016/05/23/gitlab-container-registry/
-[cycle]: https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/
+[cycle]: 2016/09/21/cycle-analytics-feature-highlight/
 [GitLab Issue Board]: /solutions/issueboard/
 [gitlab-vision]: /direction/#vision
 [issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
