@@ -53,7 +53,7 @@ In case you don't have time to watch the full video, here are the highlights.
 **GitLab Built-in Integrations** 
 {: .panel-heading}
 <div class="panel-body">
-GitLab has an integrated set of tools that supports the entire lifecycle of sodtware development, including repository management, version controls, 
+GitLab has an integrated set of tools that supports the entire lifecycle of sodtware development, including repository management, version control, 
 code review, advanced issue tracker, Issue Board, built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and wiki, and now, **Cycle Analytics**.
 </div>
 </div>
