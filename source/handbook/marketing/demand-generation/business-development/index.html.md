@@ -56,16 +56,22 @@ What are my work hours?
 * The handbook says “You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules”
 
 How do I know who to assign a lead to?
+
 * [Here](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
 
 How do I create an opportunity?
+
 * [Here](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZhO6am7qv3fXzrZo84K3k/edit)
 
 How do I access the handbook?
+
 * [Here](https://about.gitlab.com/primer/)
 
 How do I BDR APAC and SA contacts
+
 * [Here](https://docs.google.com/a/gitlab.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit?usp=sharing)
+
+* Note: BDRs do not set up meetings for resellers.
 
 #### What links should I be familiar with?
 * [Trinet](https://sso.trinet.com/)
@@ -302,13 +308,22 @@ What are my work hours?
 * The handbook says “You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules”
 
 How do I know who to assign a lead to?
+
 * [Here](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
 
 How do I convert a lead to an opportunity?
+
 * [Here](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZhO6am7qv3fXzrZo84K3k/edit)
 
 How do I access the handbook?
+
 * [Here](https://about.gitlab.com/primer/)
+
+How do I deal with APAC and SA leads?
+
+* [Here](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
+
+* *Note: BDRs do not set up meetings for resellers.
 
 #### What links should I be familiar with?
 * [Trinet](https://sso.trinet.com/)
