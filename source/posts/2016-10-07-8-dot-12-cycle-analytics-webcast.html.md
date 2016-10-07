@@ -35,7 +35,7 @@ In this webcast, we walk through our vision, and demo some of the key features f
 ## Recording & Slides
 
 <figure class="video_container">
-  <iframe src="https://youtu.be/EhiZdlkcNLI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/EhiZdlkcNLI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 <br>
@@ -107,9 +107,11 @@ Register for an event near you:
 <!-- identifiers -->
 
 [8.12]: /2016/09/22/gitlab-8-12-released/
+[amsterdam]: https://gitlabworldtouramsterdam.splashthat.com/
 [cd-faster]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ci]: /gitlab-ci/
+[code-search]: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/#global-code-search-ee
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
 [condev]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/#convdev
 [container]: /2016/05/23/gitlab-container-registry/
@@ -118,13 +120,14 @@ Register for an event near you:
 [gitlab-vision]: /direction/#vision
 [issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
 [issue]: /2016/03/03/start-with-an-issue/
-[job]: https://twitter.com/Jobvo
 [koding]: /2016/07/26/koding-and-gitlab-integrated/
-[masterplan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
+[london]: https://gitlabworldtourlondon.splashthat.com/
+[masterplan]: 2016/09/13/gitlab-master-plan/
 [mattermost]: /2015/08/18/gitlab-loves-mattermost/
-[mr-conflicts]: /2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/
+[mr-versions]: 2016/09/22/gitlab-8-12-released/#merge-request-versions
+[nyc]: https://gitlabworldtournyc.splashthat.com/
 [Sid Sijbrandij]: https://twitter.com/sytses
-[world-tour]: https://about.gitlab.com/2016/09/28/world-tour-amplify-your-code/
+[world-tour]: /2016/09/28/world-tour-amplify-your-code/
 
 <style>
 .panel-gitlab {
