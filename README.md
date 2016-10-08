@@ -343,7 +343,7 @@ To remove the generated PDFs run:
 rake rm_pdfs
 ```
 
-### Custom Generators
+## Custom Generators
 
 There are a few custom, static generators specified in config.rb. For
 example, there are generators that produce the direction issue list,
