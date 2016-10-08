@@ -42,3 +42,8 @@ deploy:
     - deploy
   only:
     - master@gitlab-com/www-gitlab-com
+
+team-twitter-list:
+  stage: deploy
+  script: ./bin/team-twitter-list
+  allow_failure: true
