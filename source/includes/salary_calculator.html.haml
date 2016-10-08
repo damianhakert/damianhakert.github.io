@@ -1,0 +1,29 @@
+- if data.payscale.select{|p| p.title.downcase == title.downcase }.length === 1
+   .salaryContainer{data: {title: title}}
+      %h2 Estimate your salary
+      %select.country
+         %option{value: ''} Country
+         = data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
+            %option= p.country
+
+      %select.city
+         %option{value: ''} City
+         = data.numbeo.sort_by(&:city).each do |p|
+            %option= p.city
+
+      %select.level
+         %option{value: ''} Level
+         %option{value: '0'} Junior
+         %option{value: '1'} Intermediate
+         %option{value: '2'} Senior
+         %option{value: '3'} Lead
+
+      %select.experience
+         %option{value: ''} Experience in your level
+         %option{value: '0.8'} Low
+         %option{value: '1.0'} Medium
+         %option{value: '1.2'} High
+         %option{value: '*'} Show range
+
+      %strong compensation
+      %span.amount

@@ -1,6 +1,8 @@
 ---
 layout: job_page
 title: "Developer"
+extra_js:
+   - "salary-calculator.js"
 ---
 
 At GitLab, developers are highly independent and self-organized individual

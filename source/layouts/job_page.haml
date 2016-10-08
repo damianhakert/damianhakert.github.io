@@ -26,6 +26,8 @@
   = yield
 
   - if job = job_for_current_page
+    = partial "includes/salary_calculator", locals: {title: job.title}
+
     :markdown
       Avoid the [confidence gap]; you do not have to match all the listed
       requirements exactly to apply. Our hiring process is described in more
