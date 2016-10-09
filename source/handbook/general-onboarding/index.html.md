@@ -11,6 +11,7 @@ title: "GitLab Onboarding"
 * [Designer (marketing) onboarding](/handbook/designer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
+* [Glossary](handbook/glossary/)
 
 ----
 
