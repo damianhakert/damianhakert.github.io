@@ -2,6 +2,7 @@
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var compensationTitle = salaryContainer + ' .compensation .title';
+  var contractorFactor = (1 + 1/6);
 
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
@@ -68,7 +69,18 @@
       $(compensationAmount).text('--');
     }
 
-    SalaryCalculator.prototype.getDataSuccess = function(input, numbeo, contractTypes, payscale) {
+    SalaryCalculator.prototype.renderContractType = function(factor) {
+      var $contractType = $('.salary-contract-type');
+      if (factor === contractorFactor) {
+        $contractType.find('span').text('a');
+        $contractType.find('strong').text('contractor');
+      } else {
+        $contractType.find('span').text('an');
+        $contractType.find('strong').text('employee');
+      }
+    }
+
+    SalaryCalculator.prototype.renderCompensation = function(input, numbeo, contractTypes, payscale) {
       var levelIndex = parseInt(input.level);
       var experienceFactor = parseFloat(input.experience);
 
@@ -80,14 +92,18 @@
         return o.country === input.country && o.city === input.city;
       });
 
+      if (!location) {
+        //When the city and country combination selected do not exist
+        return this.renderError();
+      }
+
       var contractType = contractTypes.find(function(o) {
         return o.country === input.country;
       }) || { factor: (1 + 1/6) };
 
-      if (!location) {
-        //When the city and country combination selected do not exist
-        return this.renderError();
-      } else if (input.experience === '0.8 - 1.2') {
+      this.renderContractType(contractType.factor);
+
+      if (input.experience === '0.8 - 1.2') {
         var container = salaryContainer + ' .experience';
         var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 0.8);
         var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 1.2);
@@ -106,7 +122,7 @@
       if (input.country !== undefined && input.city !== undefined &&
           input.level != undefined && input.experience != undefined) {
 
-        $.when(this.getData()).then(this.getDataSuccess.bind(this, input),
+        $.when(this.getData()).then(this.renderCompensation.bind(this, input),
           this.renderError.bind(this));
 
       } else {
