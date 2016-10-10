@@ -132,7 +132,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant, already addressed_ Jose: Add team member to `@supportteam` Slack handle.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] Hiring Manager: Remove team member as a member to the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
-1. [ ] Hiring Manager: Remove access to hackerone.com
+1. [ ] Robert/Jacob V: Remove access to hackerone.com
 1. [x] _not relevant_ New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
