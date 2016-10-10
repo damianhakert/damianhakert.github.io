@@ -25,7 +25,7 @@ Developers can specialize immediately after joining, or after some time, when th
 
 * You can reason about software, algorithms, and performance from a high level
 * You are passionate about open source
-* You have worked on a production-level Ruby application, preferrably using Rails. (This is a [strict requirement](#ruby-experience))
+* You have worked on a production-level Ruby application, preferably using Rails. (This is a [strict requirement](#ruby-experience))
 * You know how to write your own Ruby gem using TDD techniques
 * Strong written communication skills
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
