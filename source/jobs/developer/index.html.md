@@ -25,14 +25,36 @@ Developers can specialize immediately after joining, or after some time, when th
 
 * You can reason about software, algorithms, and performance from a high level
 * You are passionate about open source
-* You have worked on a production-level Rails application
+* You have worked on a production-level Ruby application, preferrably using Rails. (This is a [strict requirement](#ruby-experience))
 * You know how to write your own Ruby gem using TDD techniques
 * Strong written communication skills
-* Experience with Docker, Nginx, and Linux system administration a plus
+* Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
+
+### Ruby experience
+
+For this position, a significant amount of experience with Ruby is a **strict requirement**.
+
+We would love to hire all great backend developers, regardless of the language they have most experience with, 
+but at this point we are looking for developers who can get up and running within the GitLab code base very quickly
+and without requiring much training, which limits us to developers with a large amount of existing experience with Ruby, and preferrably Rails too.
+
+For a time, we explicitly said that we'd consider applicants without Ruby on Rails experience, 
+but we have unfortunately had to conclude that while that sounds nice in theory, 
+it doesn't work that well in practice, so we have removed that section from this listing.
+The reasons behind that can be found in the [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695) that removed that section.
+
+If you think you would be an asset to our engineering team regardless, please see if [another position](/jobs) better fits your experiences and interests, 
+or apply using the [Open Application](/jobs/open-application/).
+
+If you would still prefer to join the backend development team as a Ruby developer, 
+please consider contributing to the open-source [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce).
+We frequently hire people from the community who have shown through contributions that 
+they have the skills that we are looking for, even if they didn’t have much previous experience 
+with those technologies, and we would gladly review those contributions.
 
 ## Workflow
 
