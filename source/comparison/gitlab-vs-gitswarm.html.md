@@ -3,7 +3,7 @@ layout: comparison_page
 title: GitLab Compared to other tools
 suppress_header: true
 extra_css:
-  - comparison.css
+  - compared.css
 ---
 
 ## GitLab vs. GitSwarm

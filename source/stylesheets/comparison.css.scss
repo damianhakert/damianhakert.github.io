@@ -1,62 +1,5 @@
 @import "variables";
 
-.comparison {
-  background: #fff;
-  .comparison-container {
-    padding-top: 20px;
-    min-height:700px;
-  }
-  .comparison-page-content {
-    h2,
-    h3,
-    h4 {
-      font-weight: bold;
-      margin: 40px 0 5px 0;
-    }
-    h2 {
-      // used as top-of-page title ref only
-      font-size: 14px;
-      color: $color-gray;
-      margin-top: 0;
-
-    }
-    h3 {
-      font-size: 18px;
-      &:first-of-type {
-        margin-top: 20px;  
-      }
-    }
-    h4 {
-      font-size: 16px;
-    }
-    li {
-      margin: 10px;
-    }
-    p {
-     margin: 0; 
-    }
-    a {
-      color: $color-primary;
-    }
-  }
-
-  .comparison-tree-nav {
-    padding-left: 0;
-    li {
-      margin-bottom: 10px;
-      list-style: none;
-    }
-    a {
-      font-size: 14px;
-      color: $color-gray;
-      &.active {
-        font-weight: bold;
-        color: $color-primary;
-      }
-    }
-  }
-}
-
 h4 a {
   color: $color-white;
   font-weight: inherit;
@@ -238,32 +181,6 @@ ol li {
     &:hover {
       color: $color-secondary-alt;
       text-decoration: underline;
-    }
-  }
-
-  @media (min-width: 768px) {
-    // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
-    html, 
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    } 
-    body {
-      padding-top: 51px;
-
-      .page-wrap {
-        min-height: 100%;
-        position: relative;
-      }
-
-      .footer-container {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 411px;
-      }
     }
   }
 }
