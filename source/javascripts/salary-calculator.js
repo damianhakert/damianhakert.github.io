@@ -1,6 +1,7 @@
 (function () {
   var salaryContainer = '.salary-container';
-  var amountContainer = salaryContainer + ' .compensation .amount';
+  var compensationAmount = salaryContainer + ' .compensation .amount';
+  var compensationTitle = salaryContainer + ' .compensation .title';
 
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
@@ -64,7 +65,7 @@
     }
 
     SalaryCalculator.prototype.renderError = function() {
-      $(amountContainer).text('--');
+      $(compensationAmount).text('--');
     }
 
     SalaryCalculator.prototype.getDataSuccess = function(input, numbeo, contractTypes, payscale) {
@@ -90,10 +91,12 @@
         var container = salaryContainer + ' .experience';
         var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 0.8);
         var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 1.2);
-        $(amountContainer).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
+        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
+        $(compensationTitle).text('Compensation Range');
       } else {
         var compensation = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, experienceFactor);
-        $(amountContainer).text(this.formatAmount(compensation));
+        $(compensationAmount).text(this.formatAmount(compensation));
+        $(compensationTitle).text('Estimated Compensation');
       }
     }
 
