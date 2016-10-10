@@ -89,7 +89,7 @@
 - name: Haydn Mackay
   locality: Alameda, CA
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Regional Sales Director (US)</a>
+  role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> - US
   reports_to: CRO
   picture: picture_haydn.png
   twitter: haydnmackay
@@ -185,7 +185,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: CRO
+  reports_to: Sales Director - US
   picture: josh.jpg
   twitter: wredej
   gitlab: jwrede
@@ -196,7 +196,7 @@
 - name: Richard 'Pidge' Pidgeon
   locality: Bath
   country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> EMEA
+  role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> - EMEA
   reports_to: CRO
   picture: richard.jpg
   twitter: catchthepidge
@@ -209,7 +209,7 @@
   locality: Denver, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: CRO
+  reports_to: Sales Director - US
   picture: phil.jpg
   twitter: pmanjr311
   gitlab: philcamillo
@@ -1006,7 +1006,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
-  reports_to: CRO
+  reports_to: Sales Director - US
   picture: MikeWalsh.jpg
   twitter: MikeJohnWalsh
   gitlab: MikeWalsh
@@ -1280,7 +1280,7 @@
   locality: Arlon
   country: Belgium
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
-  reports_to: Sales Director EMEA
+  reports_to: Sales Director - EMEA
   picture: dan.jpg
   twitter:
   gitlab: dan.gitlab
