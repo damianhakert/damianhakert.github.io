@@ -1,8 +1,6 @@
 ---
 layout: job_page
 title: "Frontend Engineer"
-extra_js:
-   - "salary-calculator.js"
 ---
 
 ## Responsibilities
