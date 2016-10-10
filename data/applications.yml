@@ -279,10 +279,10 @@
       links:
         - url: https://gitpitch.com
           title: GitPitch Website
-        - url: https://github.com/gitpitch/gitpitch
-          title: GitPitch GitHub Repo
+        - url: https://gitlab.com/gitpitch/gitpitch
+          title: GitPitch Repo on GitLab
         - url: https://github.com/gitpitch/gitpitch/wiki
-          title: GitPitch GitHub Wiki
+          title: GitPitch Wiki
 - title: Continuous Integration
   id: continuous-integration
   applications:

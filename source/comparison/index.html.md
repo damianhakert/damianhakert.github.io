@@ -126,6 +126,18 @@ GitLab allows you to restrict pushes very carefully, but does not have this opti
 
 > [GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
 
+### Cycle Analytics
+
+GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production.
+
+> [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
+
+### Prevent committing secrets in the repositories
+
+GitLab provides a way to avoid committing sensitive files to your repositories automatically.
+
+> [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+
 ## GitLab EE vs. GitHub Enterprise
 
 ### Cost

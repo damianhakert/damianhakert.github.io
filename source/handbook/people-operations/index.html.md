@@ -29,7 +29,7 @@ title: "People Operations"
 ## Role of People Operations
 {: #role-peopleops}
 
-In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](https://about.gitlab.com/handbook/people-operations/#communication) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
 ## Team Directory
 {: #directory}
@@ -95,7 +95,7 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 **Details for specific groups of team members**
 
 - Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
-- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
+- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements).
 
 ### Hiring Significant Other or Family Members
 

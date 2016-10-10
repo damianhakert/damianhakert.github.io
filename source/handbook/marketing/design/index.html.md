@@ -2,22 +2,21 @@
 layout: markdown_page
 title: "Design"
 ---
-# Welcome to the Design Handbook
-{:.no_toc}
 
-[Up one level to the Marketing Handbook](/handbook/marketing/)    
+## Welcome to the Design Handbook
+{:.no_toc}
 
 ----
 
 ## On this page
 {:.no_toc}
 
-- TOC
+* Will be replaced with the ToC, excluding the "On this page" header
 {:toc}
 
 ----
 
-## Design Handbooks:
+## Design Handbooks
 {:.no_toc}
 
 - [Design](/handbook/marketing/design/)  
@@ -27,7 +26,7 @@ title: "Design"
 ## Requesting design help
 
 1. Create an issue in the corresponding project repository
-    1. For tasks pertaining to [about.gitlab.com](about.gitlab.com) create an issue in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/issues).
+    1. For tasks pertaining to [about.gitlab.com](https://about.gitlab.com/) create an issue in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/issues).
     1. For all other marketing related tasks create an issue in the [marketing project](https://gitlab.com/gitlab-com/marketing/issues).
 1. Add all relevant details, goal(s), purpose, resources, and links in the issue description. Also `@` mention team members who will be involved.
 1. Set due date (if possible) — small last-minute requests are OK, we understand, but in order to do our best work let's not make a habit of it.
@@ -45,11 +44,11 @@ Any design requests that do not fall in line with the company goals or Design OK
 
 ## Design touchpoints
 
-The Design team has a rather wide reach and plays a big part in almost all marketing efforts. Design touchpoints range from the [GitLab website](about.gitlab.com) to print collateral, swag, and business cards. This includes, but certainly not limited to:
+The Design team has a rather wide reach and plays a big part in almost all marketing efforts. Design touchpoints range from the [GitLab website](https://about.gitlab.com/) to print collateral, swag, and business cards. This includes, but certainly not limited to:
 
 ### Web & Digital
 {:.no_toc}
-- Redesign, updates, and maintenance of the [GitLab website](about.gitlab.com)
+- Redesign, updates, and maintenance of the [GitLab website](https://about.gitlab.com/)
 - Landing pages (campaigns, launches, and feature marketing)
 - Swag shop (shop design and new swag)
 - Presentation decks

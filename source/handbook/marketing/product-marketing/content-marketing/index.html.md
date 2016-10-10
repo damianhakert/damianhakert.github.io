@@ -40,8 +40,8 @@ Things you can expect GitLab to overshare on:
 
 ## 2016 activities<a name="2016"></a>
 
-- Publish an active [blog](blog/) with useful content relevant to GitLab users.
-- Host [webcasts](webcasts/)
+- Publish an active [blog](https://about.gitlab.com/blog/) with useful content relevant to GitLab users.
+- Host [webcasts](https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#what-is-the-webcast-program-at-gitlaba-namewebcasta)
 which welcome newcomers, celebrate with existing users, and provide access to expertise.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
 
@@ -63,9 +63,6 @@ GitLab Specific
 
 -   The webcast program consists of regular online events for GitLab users and community members.
 -   The webcasts are recorded and distributed to GitLab users, and can be referred to in the Resource Library as part of GitLab University
-
-- [How to Schedule a webcast](#schedule)
-- [Technical requirements to view a webcast](#view)
 
 ### Uploading video files to the GitLab YouTube channel
 
@@ -113,7 +110,7 @@ This program is in development. For the first month, January, we'll start with o
 
 ## Delivering Webcasts<a name="webcast"></a>
 
-- Webcasts are delivered in partnership with the [Demand Generation](https://about.gitlab.com/handbook/marketing/demand-generation/#webcasts) team
+- Webcasts are delivered in partnership with the [Demand Generation](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#webcasts) team
 - Webcasts are on Wednesdays, 17:00 UTC (9am PST, 6pm CET)
 - Panelists should arrive 15 mins before the webcast for a final sound check
 - Panelists should participate in a rehearsal before the webcast

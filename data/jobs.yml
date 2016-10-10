@@ -28,6 +28,11 @@
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
 
+- title: "Community Advocate"
+  description: /jobs/community-advocate/
+  apply: https://gitlab.workable.com/jobs/348185/candidates/new
+  open: true
+
 - title: "Content Designer"
   description: /jobs/content-designer/
   apply: https://gitlab.workable.com/jobs/317102/candidates/new
@@ -78,7 +83,12 @@
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
-- title: "Product Marketing Manager"
+- title: "Product Marketing Manager: Enterprise Specialist"
+  description: /jobs/product-marketing-manager/
+  apply: https://gitlab.workable.com/jobs/285177/candidates/new
+  open: true
+  
+- title: "Product Marketing Manager: Partner and Channel Specialist"
   description: /jobs/product-marketing-manager-partner/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
@@ -130,17 +140,17 @@
 
 - title: "Junior Designer"
   description: /jobs/junior-designer/
-  apply: https://gitlab.workable.com/jobs/296974
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: https://gitlab.workable.com/jobs/269330
+  apply: https://gitlab.workable.com/jobs/269330/candidates/new
   open: true
 
 - title: "Open Application"
   description: /jobs/open-application/
-  apply: https://gitlab.workable.com/jobs/298091
+  apply: https://gitlab.workable.com/jobs/298091/candidates/new
   open: true
 
 - title: "Business Development Representative - Outbound"
@@ -151,9 +161,4 @@
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
-  open: true
-
-- title: "Issue Triage Specialist"
-  description: /jobs/specialist/issue-triage/
-  apply: https://gitlab.workable.com/jobs/307215/candidates/new
   open: true

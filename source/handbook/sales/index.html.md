@@ -56,11 +56,13 @@ Before prospecting and engaging with a prospect, check to see if they are using 
 
 ### Parent and Child Accounts <a name="parent"></a>
 
-* A Parent account is the business/organization which owns another business/organization.  Example: Disney is the parent account of ESPN and ABC.
-* A Child Account is the organization you may have an opportunity with but is owned by the Parent Account.
-* You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities.
-* When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page.
-* We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account.
+* A Parent Account is the business/organization which owns another business/organization.  Example: The Walt Disney Company is the parent account of Disney-ABC Television Group and Disney.com.
+* A Child Account is the organization you may have an opportunity with but is owned by the Parent Account. A Child Account can be a business unit, subsidiary, or a satellite office of the Parent Account.
+* You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities. However, the very first deal with a Parent Account, whether it is with the Parent Account or Child Account, should be marked as "New Business". All other deals under the Parent Account will fall under Add-On Business, Existing Account - Cross-Sell, or Renewal Business (see Opportunity Types section).
+* If the Parent and Child accounts have the same company name, either add the division, department, business unit, or location to the end of the account name. For example, Disney would be the name of the Parent Account, but the Child Account would be called The Walt Disney Company Latin America or The Walt Disney Company, Ltd Japan.
+* When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page. If done properly, the Parent/Child relationship will be displayed in the Account Hierarchy section of the account page.
+* Remember that a child account can also be a parent account for another account. For example, Disney-ABC Television Group is the child for The Walt Disney Company, but is the parent for ABC Entertainment Group.
+* We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account, as well as roll-up all Closed Won business against a Parent Account.
 
 ### When to create an Opportunity <a name="opportunity"></a>
 
@@ -87,29 +89,78 @@ Should be the name of the AE who is working the deal with the reseller
 
 * Associating Contact Roles:  
 After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
-- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
-- A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
+ - The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
+ - A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
 
 * Associating Partners to an Opportunity:  
 After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
-- You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
+ - You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
-Opportunities will follow the following rules:
+Opportunities for subscriptions will use the following guidelines:
 
-* Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
-* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin].
-Example: First Community Credit Union User-Training. **Note** to set up the actual training,
-follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
-* Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
+- **New Business/Existing Customer - Cross-Sell**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- 50 EE
+   - Example: Acme, Inc- 50 EE/Geo
+
+- **Add-On Business (seats only)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 EE
+   - Example: Acme, Inc- Add 25 EE/Geo
+
+- **Add-On Business (new products)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 PS
+
+- **Renewal Business (no changes)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
+   - Example: Acme, Inc- 50 EE Renewal 01/17
+   - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+
+- **Renewal Business + Add On Business (seats)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
+
+- **Renewal Business + Add On Business (new products)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
+
+Abbreviation of Products:
+
+- EE- Enterprise Edition
+- FL- File Locking
+- Geo- GitLab Geo
+- GH- GitHost
+- PS- Premium Support
+- PT- Pivotal Tile
+
+Opportunities for Training will use the following guidelines:
+
+- Training
+   - [Name of company]- [Type of training]
+   - Example: Acme Inc- User Training. 
+   - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+
+Types of Training:
+
+- User Training
+- Git Workshop
+- GitLab Flow
+- GitLab Admin
+
+Gitorious Opportunities:
+
+- Any deal coming from Gitorious has “(Gitorious)” added.  
+- Example Acme, Inc-Gitorious- 50 EE
+
 
 ### Opportunity Types <a name="types"></a>
 
-1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
-1. Web Direct -  This type should be used for any new business who pays directly online
-1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
-1. Existing Account (new division) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
+1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
+1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages <a name="stages"></a>
@@ -121,14 +172,18 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
+1. Unqualified - This should only be used when an opportunity is passed from the BDR team, but does not meet our stanard qualification criteria. Once you've moved the opportunity to Discovery or later, the opportunity can no longer be marked as Unqualified.
 
 ### Processing Orders <a name="processing"></a>
 
 #### Step 1 - New Account
 1. Click on the Accounts tab
 1. Click on New button to Create Account
+1. Select either Standard or Channel record Type. Each record type will have a different Account layout based on our engagement.
+1. Stanard Record Type should be used for all non-reseller partner accounts.
+1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
-1. A specific custom field has been created to capture the Entity information.
+1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form.
  * NL
  * US
 1. Sales rep will choose the Entity from the Dropdown
@@ -139,6 +194,9 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 #### Step 3 -  Opportunity
 1. Create Opportunity by navigating to the Opportunity Related list and click on New button
+1. Select the Opportunity Record Type. Like Accounts, the options are Standard and Channel.
+1. Standard should be selected when engaged in a Sales opportunity.
+1. Channel should be selected when engaged in a Reseller opportunity (attempting to sign a reseller partner in a new territory, not Sales opportunities where resellers are involved).
 1. Enter all the required fields based on your business process and click on Save Button
 
 #### Step 4 - Zquotes – New QUOTE
@@ -153,15 +211,15 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 * This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see [Creating a Quote for Partner Section](#resellerQuote)
 1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
 1. Payment Methods currently defined are as follows –
- * Credit card
+ * Credit Card
  * ACH
  * Check
- * Wire transfer
+ * Wire Transfer
 1. Currency - by default below are the fields available, the currencies can be removed/Added or hidden based on your business needs
  * USD
  * EUR
 1. Click Thru EULA - is used when an agreement has not been signed; A use case being a product(EE ) is sold through a partner
-1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora.
+1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora. Note: Customers can purchase in advance of the subscription Start Date. In this case, when the Quote is pushed to Z-billing the license generated will be encrypted with the furure Start Date and will not function until then.
 1. Subscription Term Type:
  * By default set as Termed
 1. Initial Term and Renewal Term -  Specify initial term and the renewal term in months
@@ -174,6 +232,14 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Click on Product Vlookup Button to make the product selection
 1. Click on Rate plan Vlookup Button to make the rate plan selection
  * GitLab Enterprise Edition is the rate plan when selling per license seats @ $39
+1. In the Discount field, enter the discount in percentage (%) you wish to apply. This will automatically update the Effective Price field.
+1. Conversely, if you wish to apply a specific price to a product, enter the price in the Effective Price field. This will update the Discount (%) field.
+2. Enter the quantity of the product.
+1. After you hit enter, the Total Price of the line item will update.
+1. Finally, enter the Period of the line item.
+1. Click Save to save the changes you made to the line item.
+1. If you need to add additional products to the quote, click New Product Button and repeat the steps of adding a product, rate plan, discount, price, and quantity.
+1. After you've completed adding all products to a quote, click Next Button and you will be taken back to the Quote record detail screen.
 1. Once the quote has been created, you can modify it, delete it, or send it from Salesforce to Z-Billing to create a subscription.
 
 #### Step 5 – Generate PDF
@@ -226,7 +292,7 @@ The following quote metrics are available:
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
  * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
-#### Step 8 – Close Win an Opportunity
+#### Step 8 – Close Won an Opportunity
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
@@ -236,7 +302,7 @@ The following quote metrics are available:
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
 1. Create an Opportunity for an Add-on or Renewal.  If a cancellation, click on Oportunity they want to cancel.
-1. Click on New Quote button within the opportunity
+1. Click on New Quote button within the opportunity.
 1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
@@ -250,20 +316,27 @@ The following quote metrics are available:
 1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
 
 ##### Amend existing subscription for the billing account
-1. This process is used to perform any Upgrades on an existing subscription
+1. This process is used to perform any Upgrades on an existing subscription. 
 1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
 
 ##### Cancel existing subscription for the billing account
-1. This process is used to cancel an existing subscription
+1. This process is used to cancel an existing subscription. (Note that if a customer purchases seats for the wrong billing account, please see the next section.)
 1. Click on Opportunity to cancel.
 1. Click on New Quote
 1. Since this is a returning customer, sales rep will see a screen showing the current subscription.
-1. Choosing “Canel existing subscription for billing account”,
+1. Choosing “Cancel existing subscription for billing account”,
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click the subscription for performing a cancellation and hit on Next button
 1. Select cancellation date and click Next Button.
+
+##### Cancel an erroneous subscription for the billing account
+1. This process is used to cancel an erroneous subscription. 
+1. For example, a customer may purchase additional seats or products via the web portal which was originally intended as on add-on to an existing subscription.
+1. Provide Finance or Sales Operations with the erroneously created Zuora Subscription ID, invoice number and the correct Zuora Subscription ID.
+1. Finance will cancel the subscription and either refund the invoice (if a credit card purchase) or cancel the invoice (if check or other payment method).
+1. Finance will then amend the correct Zuora Subscription ID and will either charge the card on file or send the invoice via email.
 
 #### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
@@ -334,6 +407,22 @@ When in doubt please consult the reseller team.
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
 
+### Using Customer Form Agreements
+Our experience shows that using a prospect's form agreement is expensive and, more importantly, time consuming.  Deals in which we use the customer agreement take on average 60 days longer to close than if completing using our standard subscription agreement with changes as requested by customer counsel.  The arguments in favor of using our agreement are as follows:
+
+1. Our agreement is an annual subscription agreement with a true-up whereas customer form agreements typically are based on paid up licenses.
+1. We are an open source company and our agreement provides licenses for both the CE version of the product and the EE version as well as dealing with contributions of code from our customer.
+1. We have non-standard but customer favorable warranty and acceptance provisions.
+1. We are very accommodating of customer requested changes to our form agreement which is why we can close deals quickly.
+
+Despite the overwhelming arguments in favor of using the Gitlab form some prospects insist on using their form agreement.  GitLab will accommodate such requests with the following assumptions:
+
+1. GitLab must have been selected as the solution of choice by the customer.
+1. The deal must be in excess of $15,000.
+1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
+Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
+
+
 ### Closing a Won Deal <a name="closing"></a>
 
 In order to close a deal in Salesforce.com, one of the following must happen:
@@ -345,13 +434,14 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 Once the above has happened, please make sure the following actions are done:
 
-1. Attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
-1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
+1. On the Account record, make sure you've added the Industry. You will receive an error message if you attempt to close won an opportunity without an Industry.
+1. On the Opportunity record, attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
+1. Add the competition we were up against in the opportunity in the Competitor field, which is located in the Qualification Questions section. This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
   * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
   * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
-1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
+1. Once the opportunity is closed won, the field "type" on the Account object will change to "customer"
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 #### View and download invoices in Salesforce:

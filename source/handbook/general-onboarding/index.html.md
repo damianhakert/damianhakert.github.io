@@ -8,7 +8,7 @@ title: "GitLab Onboarding"
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [UX Designer onboarding](/handbook/uxdesigner-onboarding)
-* [Designer (Marketing) onboarding](handbook/designer-onboarding)
+* [Designer (marketing) onboarding](/handbook/designer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 
@@ -125,12 +125,12 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
    1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
-   1. [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access to the proper shared Vaults by making a suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
+   1. [ ] New team member: Once you are registered on 1Password, mention your hiring manager in a comment/suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet to grant you access to the proper shared Vaults.
    1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
-1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly. 
+1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
 1. [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
@@ -155,16 +155,16 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
-1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. In the description of the merge request, add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Assign the merge request to your hiring manager, and @ mention Amara so that she can schedule the tweet to announce you!
-1. [ ] Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
+1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of team members and our brains are comfortable with recognizing people, let's use them).
+1. [ ] New team member: New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
+1. [ ] New team member: Add yourself to the "New Hire Tweets" google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
-1. [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
-1. [ ] New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
+1. [ ] New team member: Encrypt the home folder of your hard drive (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
+1. [ ] New team member: Leave a comment in this issue with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 1. [ ] New team member: Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [ ] New team member: Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-1. [ ] New team member: Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
+1. [ ] New team member: Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your Google Calendar (tied to your GitLab Google account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
@@ -193,12 +193,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
-1. [ ] New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
-1. [ ] New team member: Join the `#interaction` channel.
+1. [ ] New team member: Get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+1. [ ] New team member: Join the `#interaction` channel on Slack.
 1. [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
-1. [ ] Hiring Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
-1. [ ] Hiring Manager: (for UX Designers) Add new team member to the GitLab Dribbble Organization.
+1. [ ] Hiring Manager: (for UX Designers) Give new team member `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
+1. [ ] Hiring Manager: (for UX Designers) Add new team member to the [GitLab Dribbble team](https://dribbble.com/gitlab).
+1. [ ] Robert/Jacob V/Ernst: (for UX Designers) Add new team member to the `@uxers` User Group on Slack.
 
 ### FOR MARKETING ONLY
 
@@ -210,15 +211,16 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 1. [ ] Finance: Order company credit card (for all sales team members who are employees)
 1. [ ] People Ops: If credit card holder, add to expense report calendar reminder
+1. [ ] Hiring Manager: Create Issue for [Sales Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/).  Naming convention for issue is "New hires name - Sales Bootcamp".  Due date is 30 days after start date.
 1. [ ] Hiring Manager: Invite to sales meeting.
+1. [ ] Hiring Manager: Invite to GLU
+1. [ ] Hiring Manager: Schedule weekly 1:1 meeting
 1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi], and [WebEx].
-1. [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
 1. [ ] Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs.
 1. [ ] New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with:
   1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
   1. Competition https://about.gitlab.com/comparison/
 1. [ ] New team member: familiarize yourself with the [Support](https://about.gitlab.com/handbook/support/) process.
-1. [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
 ### FOR PEOPLE OPS ONLY
 
@@ -229,7 +231,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR CORE TEAM MEMBERS ONLY
 
-1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
 2.  [ ] People Ops: Have member sign NDA.
 3.  [ ] Robert/Jacob V/Ernst: Add member to #core in Slack.  
 4.  [ ] Robert/Jacob V/Ernst: Give member developer access to gitlab-org.

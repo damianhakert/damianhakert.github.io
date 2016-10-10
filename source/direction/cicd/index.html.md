@@ -48,12 +48,13 @@ Example flow:
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
     4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
-3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ce/issues/15655)
-    1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
-    2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
-    3. Link between project pipeline views
-    4. Consolidated view of entire pipeline across projects
-    5. Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline
+3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ee/issues/933)
+  1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
+  2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
+  3. [Cross-project artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/14728)
+  4. [Link between project pipeline views](https://gitlab.com/gitlab-org/gitlab-ce/issues/22550)
+  5. [Consolidated view of entire pipeline across projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/22558)
+  6. [Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/22559)
 
 ## Stages
 

@@ -93,14 +93,12 @@ using throughout.
 
 Prior to adding Teams support, 1Password was designed for use by a single person.
 It uses a native app and stores your data in a local folder on your computer.
-You can optionally sync this folder to Dropbox to make it available on your
-phone's 1Password app, or on another computer.
+You can optionally sync this folder to Dropbox or iCloud (if you are using a Mac/iOS) to make it available on your phone's 1Password app, or on another computer.
 
 ### 1Password for Teams<a name="1password-for-teams"></a>
 
-1Password for Teams is a new feature, currently still in beta. It stores all
-**Vaults** on the 1Password servers and allows for sharing between multiple
-people on the same team.
+1Password for Teams stores all **Vaults** on the 1Password servers and allows
+for sharing between multiple people on the same team.
 
 Everyone at GitLab should already be signed up for our [Teams account]. This
 gives you access to the web interface, allowing you to view the Vaults we've
@@ -174,7 +172,7 @@ Click the **Vault Selector** in the upper-left corner of the window:
 ![Vault Selector](/handbook/security/1password-vault-selector.png)
 
 Keep in mind that **Primary** is your *local, private* vault and *is not synced*
-unless you enable syncing it to something like your personal Dropbox account.
+unless you enable syncing it to something like your personal Dropbox account or iCloud (Mac/iOS only).
 
 **Your Vault** is your *remote, private* vault that *is* synced to the GitLab
 1Password for Teams account, and *can not* be viewed by anyone else on the team,

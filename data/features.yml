@@ -9,6 +9,9 @@
     in_ce: true
   - description: Audit log and events
     link: http://doc.gitlab.com/ee/administration/audit_events.html
+  - description: Cycle Analytics
+    link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
+    in_ce: true
 
 - title: Extended authentication and authorization integration
   features:
@@ -79,6 +82,14 @@
     in_ce: true
   - description: File locking
     link: http://docs.gitlab.com/ee/user/project/file_lock.html
+  - description: Global code search
+    link: http://doc.gitlab.com/ee/integration/elasticsearch.html#sts=Elasticsearch_integration
+  - description: Merge request versions
+    link: https://docs.gitlab.com/ce/user/project/merge_requests/versions.html
+    in_ce: true
+  - description: Prevent committing secrets
+    link: https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository
+
 
 - title: Additional server management options
   features:
@@ -98,6 +109,8 @@
     link: http://doc.gitlab.com/ee/integration/elasticsearch.html#sts=Elasticsearch_integration
   - description: (GitLab Geo) Geographically replicated instance
     link: http://docs.gitlab.com/ee/gitlab-geo/README.html
+  - description: Limit project size at a global, group and project level
+    link: https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#repository-size-limit
 
 - title: Deeper integration with your tool stack
   features:
