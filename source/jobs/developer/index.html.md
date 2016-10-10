@@ -42,10 +42,11 @@ We would love to hire all great backend developers, regardless of the language t
 but at this point we are looking for developers who can get up and running within the GitLab code base very quickly
 and without requiring much training, which limits us to developers with a large amount of existing experience with Ruby, and preferably Rails too.
 
-For a time, we explicitly said that we'd consider applicants without Ruby on Rails experience, 
-but we have unfortunately had to conclude that while that sounds nice in theory, 
-it doesn't work that well in practice, so we have removed that section from this listing.
-The reasons behind that can be found in the [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695) that removed that section.
+For a time, we also considered applicants with little or no Ruby and Rails experience for this position, 
+because we realize that programming skills are to a large extent transferable between programming languages,
+but we are no longer doing that for the reasons described in the 
+[merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695) 
+that removed the section from this listing that described that policy.
 
 If you think you would be an asset to our engineering team regardless, please see if [another position](/jobs) better fits your experiences and interests, 
 or apply using the [Open Application](/jobs/open-application/).
