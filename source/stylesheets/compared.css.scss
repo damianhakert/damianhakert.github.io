@@ -1,17 +1,16 @@
 @import "variables";
 
 .comparison {
-  background: #fff;
+  background: $color-white;
   .comparison-container {
     padding-top: 20px;
-    min-height:700px;
   }
   .comparison-page-content {
     h2,
     h3,
     h4 {
       font-weight: bold;
-      margin: 40px 0 5px 0;
+      margin: 40px 0 5px;
     }
     h2 {
       // used as top-of-page title ref only
@@ -22,8 +21,9 @@
     }
     h3 {
       font-size: 18px;
+
       &:first-of-type {
-        margin-top: 20px;  
+        margin-top: 20px;
       }
     }
     h4 {
@@ -33,7 +33,7 @@
       margin: 10px;
     }
     p {
-     margin: 0; 
+      margin: 0;
     }
     a {
       color: $color-primary;
@@ -42,28 +42,32 @@
 
   .comparison-tree-nav {
     padding-left: 0;
+
     li {
       margin-bottom: 10px;
       list-style: none;
     }
+
     a {
       font-size: 14px;
       color: $color-gray;
+
       &.active {
         font-weight: bold;
         color: $color-primary;
       }
     }
   }
-  
+
+  // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
   @media (min-width: 768px) {
-    // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
-    html, 
+    html,
     body {
       height: 100%;
       margin: 0;
       padding: 0;
-    } 
+    }
+
     body {
       padding-top: 51px;
 
@@ -82,3 +86,4 @@
     }
   }
 }
+
