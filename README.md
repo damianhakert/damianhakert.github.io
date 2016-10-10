@@ -367,7 +367,7 @@ Middleman keywords:
 To preview these custom-generated pages locally, you must first rebuild the files:
 
 ```
-rake exec middleman build
+bundle exec middleman build
 ```
 
 To test out the site, you must run another Web server from the
