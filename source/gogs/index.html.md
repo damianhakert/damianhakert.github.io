@@ -2,8 +2,6 @@
 layout: markdown_page
 title: Gogs Overview
 suppress_header: true
-extra_css:
-  - comparison.css
 ---
 
 # Gogs - Go Git Service
