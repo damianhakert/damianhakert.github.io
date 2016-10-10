@@ -40,7 +40,7 @@ For this position, a significant amount of experience with Ruby is a **strict re
 
 We would love to hire all great backend developers, regardless of the language they have most experience with, 
 but at this point we are looking for developers who can get up and running within the GitLab code base very quickly
-and without requiring much training, which limits us to developers with a large amount of existing experience with Ruby, and preferrably Rails too.
+and without requiring much training, which limits us to developers with a large amount of existing experience with Ruby, and preferably Rails too.
 
 For a time, we explicitly said that we'd consider applicants without Ruby on Rails experience, 
 but we have unfortunately had to conclude that while that sounds nice in theory, 
