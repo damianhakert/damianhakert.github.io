@@ -4,6 +4,10 @@ title: Support Knowledge Base
 ---
 - pages = sitemap.resources.select { |resource| resource.path.start_with?("handbook/support/knowledge-base/categories") }
 - pages = pages.group_by { |page| page.data.category }.sort_by { |category| category }
+%ol.breadcrumb
+  %li You are here:
+  = breadcrumbs(current_page)
+  = partial "includes/layout/handbook_search.html.haml"
 .container
   .col-md-9
     .row

@@ -4,6 +4,14 @@ title: Issue Escalations
 category: Support Workflows
 ---
 
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ## Issue Escalations
 
 Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues. 

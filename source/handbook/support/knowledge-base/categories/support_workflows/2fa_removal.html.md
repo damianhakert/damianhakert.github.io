@@ -4,7 +4,13 @@ title: 2FA Removal
 category: Support Workflows
 ---
 
-### Workflow - 2FA Removal
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 ##### Overview
 

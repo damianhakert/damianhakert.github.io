@@ -4,6 +4,14 @@ title: Managing Spam
 category: GitLab.com
 ---
 
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ### Flagging Issues as Spam
 
 Many spammers use GitLab.com to create spam. Starting with 8.11, GitLab has

@@ -4,6 +4,14 @@ title: Customer calls
 category: General
 ---
 
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ## Customer calls
 
 ### Scheduled calls

@@ -4,6 +4,14 @@ title: Jenkins
 category: Shared Infrastructure
 ---
 
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ## Jenkins Server
 
 [Jenkins](https://jenkins.io/index.html) is an open source automation 

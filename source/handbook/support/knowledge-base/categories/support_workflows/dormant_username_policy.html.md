@@ -4,7 +4,13 @@ title: Dormant Username Policy
 category: Support Workflows
 ---
 
-### Workflow - Dormant Username Policy
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 ##### Overview
 Apply this workflow when a customer has lodged a dormant a [dormant username](https://about.gitlab.com/handbook/support/#dormantusers) request.

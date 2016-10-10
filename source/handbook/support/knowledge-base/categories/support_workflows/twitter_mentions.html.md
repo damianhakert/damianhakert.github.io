@@ -4,7 +4,13 @@ title: Twitter Mentions
 category: Support Workflows
 ---
 
-### Workflow - Twitter Mentions 
+### On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 ##### Overview
 Apply this workflow when managing a large number of Twitter **mentions**, please also ensure you've reviewed the [handbook](https://about.gitlab.com/handbook/support/#twitter) section on the support Twitter policies.
