@@ -10,15 +10,15 @@ description:  In this webcast, we demo the highlights from GitLab 8.12
 In the [GitLab Master Plan][masterplan], we promised to ship the entire development lifecycle before the end of the year. [GitLab 8.12][8.12] is 
 exciting because it brings us one step closer to realizing our [vision][vision] to be an integrated set of tools for the software development lifecycle.
 
-In this release, we launchted the first iteration of [Cycle Analytics][cycle]. Cycle Analytics gives you 
+In this release, we launched the first iteration of [Cycle Analytics][cycle]. Cycle Analytics gives you 
 feedback on your projects, measuring how long it takes your team to go from idea to production. Cycle Analytics helps you
 reduce cycle time, an important competitive advantage in today's development landscape. In fact, reducing cycle time to increase effectiveness is the
 very first principle of [Conversational Development][condev]. 
 
-We also launched [Global Code Search][code-search] for GitLab Enterprsie Edition (EE). If you're running Elasticsearch on your 
-GitLab EE instance, you can know search through all the code on your server.
+We also launched [Global Code Search][code-search] for GitLab Enterprise Edition (EE). If you're running Elasticsearch on your 
+GitLab EE instance, you can now search through all the code on your server.
 
-In this webcast, we walk through our vision, and demo some of the key features from [GitLab 8.12][8.12].
+In this webcast, we walk through our vision and demo some of the key features from [GitLab 8.12][8.12].
 
 <!-- more -->
 
@@ -53,7 +53,7 @@ In case you don't have time to watch the full video, here are the highlights.
 **GitLab Built-in Integrations** 
 {: .panel-heading}
 <div class="panel-body">
-GitLab has an integrated set of tools that supports the entire lifecycle of sodtware development, including repository management, version control, 
+GitLab has an integrated set of tools that supports the entire lifecycle of software development, including repository management, version control, 
 code review, advanced issue tracker, Issue Board, built-in [Continuous Integration, Continuous Deployment, Continuous Delivery][cd], and wiki, and now, **Cycle Analytics**.
 </div>
 </div>
@@ -95,7 +95,7 @@ We will ship this complete lifecycle in 2016.
 
 ## Amplify Your Code at GitLab World Tour
 
-Join us for the [GitLab World Tour][world-tour] to learn more about our product vision, talk about changes in software developement, and meet
+Join us for the [GitLab World Tour][world-tour] to learn more about our product vision, talk about changes in software development, and meet
 other GitLabbers in your area! We'll be in three cities:
 
 Register for an event near you: 
