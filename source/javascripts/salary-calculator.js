@@ -25,21 +25,10 @@
 
     SalaryCalculator.prototype.getData = function() {
       var deferred = jQuery.Deferred();
-      var numbeo = [];
-      var contractTypes = [];
 
-      $.get('/salary/numbeo.json')
-        .then(function(data) {
-          numbeo = data;
-          return $.get('/salary/contract_types.json');
-        })
-        .then(function(data) {
-          contractTypes = data;
-          return $.get('/salary/payscale.json');
-        })
-        .done(function(data) {
-          deferred.resolve(numbeo, contractTypes, data);
-        });
+      $.get('/salary/data.json').then(function(data) {
+        deferred.resolve(data.numbeo, data.contractTypes, data.payscale);
+      });
 
       return deferred.promise();
     }
@@ -85,13 +74,13 @@
     SalaryCalculator.prototype.render = function() {
       var input = this.getElementValues();
 
-      if (input.country !== '' && input.city !== '' && 
+      if (input.country !== '' && input.city !== '' &&
           input.level != '' && input.experience != '') {
 
         $.when(this.getData())
-          .then(this.renderSuccess.bind(this, input), 
+          .then(this.renderSuccess.bind(this, input),
                 this.renderError.bind(this));
-        
+
       } else {
         this.renderError();
       }
