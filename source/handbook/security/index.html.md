@@ -49,11 +49,14 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    the researcher comes to the same conclusion or stops responding.
 1. Do not **forward** company emails (@gitlab.com) to a non-company email address.
 1. Do not click on links in emails you did not request yourself (requested
-   password reset is OK, anything else is suspect). Clicking itself is a problem
-   even when you don't enter a password, because a visit can already be used to
-   execute a [0-day attack]. We simulate phishing attacks by having an external
-   service send emails to our company email addresses to ensure everyone is
-   aware of the threat.
+   password reset is OK, anything else is suspect).
+   **Exception:** During the onboarding process you may receive account
+   registration emails for various services GitLab uses. Before clicking these
+   links confirm with People Operations that they initialized the process.
+   Clicking itself is a problem even when you don't enter a password, because a
+   visit can already be used to execute a [0-day attack]. We simulate phishing
+   attacks by having an external service send emails to our company email
+   addresses to ensure everyone is aware of the threat.
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
 1. During offboarding, your 1Password account is deleted. If you want to
