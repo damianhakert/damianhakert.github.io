@@ -203,7 +203,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR MARKETING ONLY
 
-1. [ ] Patricio/Amara: Add to Tweetdeck.
+1. [ ] Patricio: Add to Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 

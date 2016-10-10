@@ -143,7 +143,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR MARKETING ONLY
 
-1. [ ] Patricio/Amara: Remove from Tweetdeck.
+1. [ ] Patricio: Remove from Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
