@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/wrapping-text.png'
 Whether and how we should be making line breaks is currently a
 controversial topic amongst the GitLab folks;
 it's an issue of style as well as ease of use.
-In this post we’re presenting the two current views held, and 
+In this post, we’re presenting the two current views held, and 
 giving you the opportunity to speak your mind
 (in the comments or [on Twitter][twitter]) about how we should
 handle this in our [style guide][style-guide].
@@ -27,9 +27,9 @@ Only double line breaks are shown as a full line break in
 The understanding is that you if you create a line break after
 80 characters, the text becomes easier to review.
 
-However, quite a few people feel think that this isn't helpful
-and creates stylistic and/or visual messiness when
-for example, edits are made, which cause the line breaks to go amok.
+However, quite a few people feel that this isn't helpful
+and creates stylistic and/or visual messiness when,
+for example, edits are made which cause the line breaks to go amok.
 Basically, there are two options if your line exceeds 80 characters:
 
 1. Wrap the text as the author of the code.
@@ -38,11 +38,11 @@ local editor, and insert a new line for every sentence.
 
 ## DON'T WRAP IT.
 
-Some of us at GitLab are in the don’t-wrap camp, positing
+Some of us at GitLab are in the don’t-wrap camp, positioning
 that it’s better to rely on the reviewer. If you modify text,
 you don’t want to have to realign the rest of the text when
 edits are made because the line breaks are uneven. Rewrapping
-requires a feature that some editors (including GitLab's)
+requires a feature that some editors (including GitLab)
 don’t have. Some people might have it but not know they
 have it, or not know where to find it in their editor.
 If you do rewrap with your editor, the diff might get messy
@@ -51,7 +51,7 @@ Plus, that 80- to 100-character limit is more of a guess
 than an exact limit. It can be different depending on your
 editor/screen size.
 
-That's how a paragraph looks like after a few reviews when
+This is how a paragraph looks like after a few reviews when
 you choose to wrap the text. It's odd, as it has long lines
 and short lines distributed unevenly:
 
@@ -74,7 +74,7 @@ which drives some people nuts. As a result, the comment
 box sometimes extends beyond the edge of the viewport, making
 it difficult to use any of the buttons on the right-hand side.
 
-To be compare to the last example, the following screenshot
+To compare to the last example, the following screenshot
 of a text already wrapped, it's easy to comment inline directly,
 without having to identify what you're talking about first
 and commenting afterwards.
@@ -97,7 +97,7 @@ text looks like on Sublime:
 
 ![Sublime text view - wrapped](/images/blogimages/wrapping-text/wrapped-text-easier-to-read.png){:.shadow}
 
-And how it looks like when wrapped:
+And how it looks when wrapped:
 
 ![Sublime text view - non-wrapped](/images/blogimages/wrapping-text/unwrapped-text-scroll-horizontally.png){:.shadow}
 
