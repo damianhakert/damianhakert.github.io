@@ -1,8 +1,7 @@
 ---
 layout: comparison_page
 title: GitLab Compared to other tools
-suppress_header: false
-image_title: '/images/blogimages/post-cover-image.jpg'
+suppress_header: true
 extra_css:
   - comparison.css
 ---
