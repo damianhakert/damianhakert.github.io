@@ -1,32 +1,68 @@
+- current_page.data.extra_css ||= []
+- current_page.data.extra_css += ['salary-calculator.css']
+
 - current_page.data.extra_js ||= []
 - current_page.data.extra_js += ['salary-calculator.js']
 
 - if data.payscale.select{|p| p.title.downcase == title.downcase }.length === 1
-   .salaryContainer{data: {title: title}}
-      %h2 Estimate your salary
-      %select.country
-         %option{value: ''} Country
-         = data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
-            %option= p.country
-
-      %select.city
-         %option{value: ''} City
-         = data.numbeo.sort_by(&:city).each do |p|
-            %option= p.city
-
-      %select.level
-         %option{value: ''} Level
-         %option{value: '0'} Junior
-         %option{value: '1'} Intermediate
-         %option{value: '2'} Senior
-         %option{value: '3'} Lead
-
-      %select.experience
-         %option{value: ''} Experience in your level
-         %option{value: '0.8'} Low
-         %option{value: '1.0'} Medium
-         %option{value: '1.2'} High
-         %option{value: '*'} Show range
-
-      %strong compensation
-      %span.amount
+  .salary-container.col-xs-12{data: {title: title}}
+    %h2 Estimate your salary
+    .col-xs-4
+      .dropdown.country
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span.title Country
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu
+          - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
+            %li
+              %span.key= p.country
+      .dropdown.level
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span.title Level
+          %span.subtitle
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-menu-align-right
+          %li
+            %span.key Junior
+            %span.value 0.0
+          %li
+            %span.key Intermediate
+            %span.value 1.0
+          %li
+            %span.key Senior
+            %span.value 2.0
+          %li
+            %span.key Lead
+            %span.value 3.0
+    .col-xs-4
+      .dropdown.city
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span.title City
+          %span.subtitle
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-menu-align-right
+          - data.numbeo.sort_by(&:city).each do |p|
+            %li
+              %span.key= p.city
+              %span.display-value= (p.rentIndex*0.01).round(2)
+      .dropdown.experience
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span.title Experience in your level
+          %span.subtitle
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-menu-align-right
+          %li
+            %span.key Low
+            %span.value 0.8
+          %li
+            %span.key Medium
+            %span.value 1.0
+          %li
+            %span.key High
+            %span.value 1.2
+          %li
+            %span.key Show range
+            %span.value 0.8 - 1.2
+    .compensation.col-xs-4
+      .title Estimated Compensation
+      .amount --

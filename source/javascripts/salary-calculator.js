@@ -1,25 +1,55 @@
 (function () {
+  var salaryContainer = '.salary-container';
+  var amountContainer = salaryContainer + ' .compensation .amount';
+
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
       this.bindElements();
     }
 
     SalaryCalculator.prototype.bindElements = function() {
-      $('.salaryContainer .country').change(this.render.bind(this));
-      $('.salaryContainer .city').change(this.render.bind(this));
-      $('.salaryContainer .level').change(this.render.bind(this));
-      $('.salaryContainer .experience').change(this.render.bind(this));
+      var $countryDropdown = $(salaryContainer + ' .country li');
+      var $cityDropdown = $(salaryContainer + ' .city li');
+      var $levelDropdown = $(salaryContainer + ' .level li');
+      var $experienceDropdown = $(salaryContainer + ' .experience li');
+
+      // Set selected dropdown value
+      $countryDropdown.click('.country', this.setDropdown);
+      $cityDropdown.click('.city', this.setDropdown);
+      $levelDropdown.click('.level', this.setDropdown);
+      $experienceDropdown.click('.experience', this.setDropdown);
+
+      // Render compensation
+      $countryDropdown.click(this.render.bind(this));
+      $cityDropdown.click(this.render.bind(this));
+      $levelDropdown.click(this.render.bind(this));
+      $experienceDropdown.click(this.render.bind(this));
+    }
+
+    SalaryCalculator.prototype.setDropdown = function(event) {
+      var key = $(this).find('.key').text();
+      var value = $(this).find('.value').text();
+      var displayValue = $(this).find('.display-value').text();
+      var $title = $(salaryContainer + ' ' + event.data + ' .title');
+      var $subtitle = $(salaryContainer + ' ' + event.data + ' .subtitle');
+
+      $title.text(key);
+      $title.data('selected', value ? value : key);
+
+      if (value) {
+        $subtitle.text(value);
+      } else if (displayValue) {
+        $subtitle.text(displayValue);
+      }
     }
 
     SalaryCalculator.prototype.getElementValues = function() {
-      var salaryContainer = '.salaryContainer';
-
       return {
         title: $(salaryContainer).data('title'),
-        country: $(salaryContainer + ' .country').val(),
-        city: $(salaryContainer + ' .city').val(),
-        level: $(salaryContainer + ' .level').val(),
-        experience: $(salaryContainer + ' .experience').val()
+        country: $(salaryContainer + ' .country .title').data('selected'),
+        city: $(salaryContainer + ' .city .title').data('selected'),
+        level: $(salaryContainer + ' .level .title').data('selected'),
+        experience: $(salaryContainer + ' .experience .title').data('selected')
       }
     }
 
@@ -34,11 +64,10 @@
     }
 
     SalaryCalculator.prototype.renderError = function() {
-      $('.salaryContainer .amount').text('---');
+      $(amountContainer).text('--');
     }
 
-    SalaryCalculator.prototype.renderSuccess = function(input, numbeo, contractTypes, payscale) {
-      var $amountContainer = $('.salaryContainer .amount');
+    SalaryCalculator.prototype.getDataSuccess = function(input, numbeo, contractTypes, payscale) {
       var levelIndex = parseInt(input.level);
       var experienceFactor = parseFloat(input.experience);
 
@@ -57,29 +86,25 @@
       if (!location) {
         //When the city and country combination selected do not exist
         return this.renderError();
-      } else if (input.experience === '*') {
-        var container = '.salaryContainer .experience';
-        var minExp = parseFloat($(container + ' option:nth-child(2)').val());
-        var maxExp = parseFloat($(container + ' option:nth-last-child(2)').val());
-
-        var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, minExp);
-        var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, maxExp);
-        $amountContainer.text(this.formatAmount(min) + '-' + this.formatAmount(max));
+      } else if (input.experience === '0.8 - 1.2') {
+        var container = salaryContainer + ' .experience';
+        var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 0.8);
+        var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 1.2);
+        $(amountContainer).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
       } else {
         var compensation = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, experienceFactor);
-        $amountContainer.text(this.formatAmount(compensation));
+        $(amountContainer).text(this.formatAmount(compensation));
       }
     }
 
     SalaryCalculator.prototype.render = function() {
       var input = this.getElementValues();
 
-      if (input.country !== '' && input.city !== '' &&
-          input.level != '' && input.experience != '') {
+      if (input.country !== undefined && input.city !== undefined &&
+          input.level != undefined && input.experience != undefined) {
 
-        $.when(this.getData())
-          .then(this.renderSuccess.bind(this, input),
-                this.renderError.bind(this));
+        $.when(this.getData()).then(this.getDataSuccess.bind(this, input),
+          this.renderError.bind(this));
 
       } else {
         this.renderError();

@@ -1,0 +1,49 @@
+.salary-container {
+  padding: 0;
+
+  .col-xs-4 {
+    padding: 0 10px 0 0;
+  }
+
+  .dropdown-menu-toggle,
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    padding: 8px;
+    background-color: white;
+
+    li {
+      padding: 5px 8px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #f7faff;
+        text-decoration: none;
+        outline: 0;
+      }
+    }
+  }
+
+  .dropdown {
+    margin-bottom: 10px;
+  }
+
+  .compensation {
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    height: 100%;
+    padding: 5px 10px;
+
+    .title {
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 5px;
+    }
+
+    .amount {
+      padding-top: 5px;
+      font-size: 25px;
+    }
+  }
+}
