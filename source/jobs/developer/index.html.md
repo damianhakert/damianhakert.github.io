@@ -44,7 +44,7 @@ and without requiring much training, which limits us to developers with a large 
 
 For a time, we also considered applicants with little or no Ruby and Rails experience for this position, 
 because we realize that programming skills are to a large extent transferable between programming languages,
-but we are no longer doing that for the reasons described in the 
+but we are not currently doing that anymore for the reasons described in the 
 [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695) 
 that removed the section from this listing that described that policy.
 
