@@ -5,7 +5,7 @@ author_twitter: XMDRamos
 categories: concepts
 image_title: '/images/blogimages/wrapping-text/wrap-not-to-wrap-text.png'
 description: "Breaking lines: useful or painful?"
-twitter_image:
+twitter_image: '/images/tweets/wrapping-text.png'
 ---
 
 Whether and how we should be making line breaks is currently a
