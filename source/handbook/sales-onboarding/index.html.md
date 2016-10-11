@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Onboarding"
 ---
 
-Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://university.gitlab.com/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
+Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://docs.gitlab.com/ce/university/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
 
 
 ```
@@ -13,7 +13,7 @@ A library of past product training sessions can be found [Here](https://drive.go
 
 **Familiarize yourself with the basics**
 
-* [ ] Understanding [terminology](http://university.gitlab.com/glossary/).
+* [ ] Understanding [terminology](https://docs.gitlab.com/ce/university/glossary/).
    Please create a merge request for any term that does not have an answer or
    to add a term that you feel is relevant but is not on this page.
 
