@@ -25,6 +25,31 @@
       $cityDropdown.click(this.render.bind(this));
       $levelDropdown.click(this.render.bind(this));
       $experienceDropdown.click(this.render.bind(this));
+
+      // Unlock and filter city dropdown
+      $countryDropdown.click(this.filterCityDropdown.bind(this));
+      $countryDropdown.click(this.resetCityDropdown.bind(this));
+    }
+
+    SalaryCalculator.prototype.filterCityDropdown = function() {
+      var selectedCountry = this.getElementValues().country;
+      var $cities = $(salaryContainer + ' .city li');
+
+      $cities.each(function(index, element) {
+        var $element = $(element);
+        if ($element.data('country') === selectedCountry) {
+          $element.removeClass('hidden');
+        } else {
+          $element.addClass('hidden');
+        }
+      });
+    }
+
+    SalaryCalculator.prototype.resetCityDropdown = function() {
+      var $cityDropdownBtn = $(salaryContainer + ' .city .btn');
+      $cityDropdownBtn.removeClass('disabled');
+      $cityDropdownBtn.find('.title').text('City');
+      $cityDropdownBtn.find('.subtitle').text('');
     }
 
     SalaryCalculator.prototype.setDropdown = function(event) {

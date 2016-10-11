@@ -57,13 +57,13 @@
                 %span.key= p.country
       .col-sm-6
         .dropdown.city
-          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
             %span.title City
             %span.subtitle
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
             - data.numbeo.sort_by(&:city).each do |p|
-              %li
+              %li.hidden{'data-country' => p.country}
                 %span.key= p.city
                 %span.display-value= (p.rentIndex*0.01).round(2)
       .col-sm-12
