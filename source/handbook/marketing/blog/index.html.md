@@ -230,10 +230,12 @@ article in our blog. Your post will be evaluated by our Editors and, if accepted
 publishing process](#publishing-process-for-crossposts) for crossposts. 
 
 If we find your post ourselves, we'll reach you out and ask for your approval for cross-posting it. If you
-are interested and agree with the [publishing process] and the quick review, your post will get reposted.
+are interested and agree with the [publishing process](#publishing-process-for-crossposts) and the quick review, your post will get reposted.
 
 Everyone wins when we crosspost: we win, as it's interesting for our community; and you win, as your post will
 gain extra visibility across the web!
+
+Examples: [Moving to GitLab! Yes, it's worth it!][cross-1], [Building an Elixir Release into a Docker image using GitLab CI - Part 1][cross-2], [Applying GitLab Labels Automatically][cross-3].
 </div>
 </div>
 
@@ -301,7 +303,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 1. Content Marketing - analyses the proposal:
   - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
   - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
-  - If the issue isn't labeled with the [compensation labels](#compensation-labels) (`$100`, `$150`, `TOP PRIORITY +$50`) yet, Erica will define the compensation the post is worth and attribute the correct label(s).
+  - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$150`, `TOP PRIORITY +$50`), Erica will define the compensation the post is worth and attribute the correct label(s).
   - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it` and `community post`.
   - Erica will ask for an ETA on your first draft
   - Erica will evaluate the priority, and estimate a due date for publishing (issue due date)
@@ -309,11 +311,12 @@ For our [community writers], we will follow the Scalable Writing System describe
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
   - Write according to the [Professional Writing Techniques][writing-tech], and to the [Markdown Guide]
   - Submit a [Work in Progress Merge Request (WIP MR)][WIP MR] with the proposal and mention @Lindberg for the first pass
+1. GitLab: Erica will make sure the MR description contains the [issue closing pattern][issue-close] (`Closes #xxx`) and the label `community post`, and start the review process
 1. GitLab - [General Review](#general-reviews)
 1. GitLab - When your post gets ready:
   - Marcia will change your MR from your branch into `gitlab.com: master` to another branch `gitlab.com: feature-branch`
-  - Marcia will merge your MR into the new feature-branch and:
-       - Create a new MR that closes the blog post issue
+  - Marcia will merge your MR into the new `feature-branch` and:
+       - Create a new MR to `master`, which closes the blog post issue (link to the original MR)
        - Preview the post locally
        - Upload the preview screenshot to the new MR thread
   - Marcia and Erica can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the content)
@@ -322,7 +325,8 @@ For our [community writers], we will follow the Scalable Writing System describe
   - Marcia or Erica will merge your post into `master`
   - Erica or Marcia will promote in social media: Twitter and/or Facebook
 1. After the publishing date: compensate the writer (when compensation applies)
-  - Erica email the writer to wire the money
+  - Author send an email to Erica (at `community@gitlab.com`) requesting the compensation for the post, adding a link to the issue, to the original MR, and to the published post
+  - Erica replies the writer to [start the process](community-writers/#get-paid) to wire the money
   - Community writer will get paid
 
 **Important:** make sure the last section of the post is "About the community author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
@@ -333,7 +337,7 @@ character encoding as markdown does (UTF-8), and it may cause issues when render
 the [recommended code editors][code-editors].
 {: #sample .alert .alert-warning}
 
-**Sample:** your writing sample can be any technical article or post already written by yourself, or a sample of ~200 chars on a related topic.
+**Sample:** your writing sample can be any technical article or post already written by yourself, or a sample of ~200 words on a related topic.
 {: #sample .alert .alert-info}
 
 **Outlines:** draw the post outlines, which is the sequence of topics to write about, as a skeleton with the headings you propose to follow along in your post. The blog editors will discuss them with you, and review if necessary.
@@ -357,7 +361,7 @@ To be included
 Every blog post should carry a label, in both issues and merge requests:
 
 - Release
-- Blog Post (for GitLab team members)
+- Team Post (for GitLab team members)
 - Events Post
 - Community Post
 - Guest Post
@@ -370,17 +374,17 @@ Every blog post should carry a label, in both issues and merge requests:
 #### Labels Exclusive for Community Posts
 {: #compensation-labels}
 
-The following labels define the [compensation](community-writers/#compensation) the post is worth it, corresponding to its length, importance to our Content Strategy, and to our community.
+The following labels define the [compensation](community-writers/#compensation) the post is worth it, corresponding to its length, importance to our Content Strategy, and to our community. They should be applied to every compensated community post, only in the [Blog Posts issue tracker][blog-tracker].
 
 - `$100` = post worth USD 100.00: short tutorials of 800-1500 words
 - `$150` = post worth USD 150.00: in-depth tutorials or opinion pieces of 1,500+ words
 - `TOP PRIORITY +$50` = top priority posts, worth **plus** USD 50.00
 
-**Important:** these labels should be added by the [Blog Editorial Team] members only. if you find a post that you think should receive one of these labels, please @mention one of the editors in the issue or MR. They will evaluate your request and attributte the proper label.
+**Important:** these labels should be added by the [Blog Editors][Blog Editorial Team] only. If you find a post that you think should receive one of these labels, please @mention one of the editors in the issue or MR. They will evaluate your request and attribute the proper label.
 
 ### Blog Post Issue Tracker
 
-To keep things clear for everyone, we assume:
+To keep things clear for everyone in the [issue tracker][blog-tracker], we assume:
 
 - Anything not assigned to a person is in the [backlog]
 - Anything that is assigned to a person or labels with `on it` is "in progress"
@@ -799,9 +803,9 @@ specific matters are still being discussed and polished.
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
 [Community Writers]: community-writers/
 [example]: /handbook/marketing/developer-relations/technical-writing/#st-subject-audience-requirements
-[GitLab]: //about.gitlab.com
 [GitLab Flow]: //doc.gitlab.com/ee/workflow/gitlab_flow.html
 [GitLab Workflow]: https://www.youtube.com/watch?v=enMumwvLAug "Introduction to GitLab Workflow"
+[GitLab]: /
 [gitlabwww]: https://gitlab.com/gitlab-com/www-gitlab-com
 [Kramdown]: //kramdown.gettalong.org/
 [post-convox]: https://about.gitlab.com/2016/06/09/continuous-delivery-with-gitlab-and-convox/#about-guest-author-noah-zoschke
@@ -819,31 +823,59 @@ specific matters are still being discussed and polished.
 <!-- BLOG STYLE GUIDELINES -->
 
 [(key)words]: http://www.wordstream.com/seo-keyword
+[@Lindberg]: https://gitlab.com/u/Lindberg
+[@marcia]: https://gitlab.com/u/marcia
 [about.GitLab.com]: https://about.gitlab.com/
 [android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
 [android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
+[Axil]: https://gitlab.com/u/axil
+[azure-post]: /2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/
+[Blog Editorial Team]: #blog-editorial-team
+[Blog Editorial Team]: #blog-editorial-team
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
 [blog]: /blog/
 [bundler]: http://bundler.io/
+[code-editors]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#markdown-editors
+[convox-post]: /2016/06/09/continuous-delivery-with-gitlab-and-convox/
+[cross-1]: /2016/08/04/moving-to-gitlab-yes-its-worth-it/
+[cross-2]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
+[cross-3]: /2016/08/19/applying-gitlab-labels-automatically/
 [css-shadow]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#special-classes
 [description-tag]: http://www.wordstream.com/meta-tags
+[Digital Ocean]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
 [documentation]: http://docs.gitlab.com/
+[Emily Kyle]: https://twitter.com/emilylucie
 [facebook debugger]: https://developers.facebook.com/tools/debug/
 [first post]: /2016/07/19/markdown-kramdown-tips-and-tricks/
+[General Publishing Process]: #general-publications
+[General Reviews]: #general-reviews
 [gifs-post]: /2016/08/19/posting-to-your-gitlab-pages-blog-from-ios/
 [Giphy Capture]: https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12
 [git]: https://git-scm.com/
+[GitLab CE]: https://gitlab.com/gitlab-org/gitlab-ce/
+[GitLab EE]: https://gitlab.com/gitlab-org/gitlab-ee/
+[issue-close]: https://docs.gitlab.com/ce/user/project/issues/automatic_issue_closing.html
 [issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
+[Koding]: /2016/07/26/koding-and-gitlab-integrated/
 [Mac screenshot]: https://support.apple.com/en-us/HT201361
 [Making Gifs]: /handbook/product/making-gifs
+[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [marketing-blog]: #blog
+[Mattermost]: /2015/08/18/gitlab-loves-mattermost/
 [middleman]: https://middlemanapp.com/basics/install/
 [MR-description]: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2740/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
 [OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
+[Pivotal Cloud Foundry]: /2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
+[post-iOS-CI]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
+[post-lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
+[post-pages]: /2016/04/07/gitlab-pages-setup/
+[release]: /blog/categories/release/
 [Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
+[Sean]: https://gitlab.com/u/SeanPackham
 [second post]: /2016/07/20/gitlab-is-open-core-github-is-closed-source/
+[security release]: /blog/categories/security-release/
 [Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
 [synonyms]: http://www.thesaurus.com/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
@@ -858,24 +890,7 @@ specific matters are still being discussed and polished.
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
-[release]: /blog/categories/release/
-[security release]: /blog/categories/security-release/
-[Emily Kyle]: https://twitter.com/emilylucie
-[@Lindberg]: https://gitlab.com/u/Lindberg
-[@marcia]: https://gitlab.com/u/marcia
-[code-editors]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#markdown-editors
-[post-iOS-CI]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
-[post-pages]: /2016/04/07/gitlab-pages-setup/
-[post-lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
-[Blog Editorial Team]: #blog-editorial-team
-[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
-[azure-post]: /2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/
-[convox-post]: /2016/06/09/continuous-delivery-with-gitlab-and-convox/
-[General Reviews]: #general-reviews
-[General Publishing Process]: #general-publications
-[Blog Editorial Team]: #blog-editorial-team
-[Axil]: https://gitlab.com/u/axil
-[Sean]: https://gitlab.com/u/SeanPackham
+[Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 
 <!-- Styles -->
 
