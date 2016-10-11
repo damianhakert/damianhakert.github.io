@@ -6,7 +6,7 @@ categories: release
 date: 2016-10-12 00:0
 ---
 
-Today we are releasing versions 8.12.6 for GitLab Community Edition (CE) and
+Today we are releasing version 8.12.6 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
 Version 8.12.6 contains a fix for the mail_room package not being included in
