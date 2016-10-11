@@ -1,10 +1,17 @@
 .salary-container {
   padding: 0 0 20px 0;
 
-  .col-sm-6,
   .col-sm-8,
   .col-sm-12 {
     padding: 0;
+  }
+
+  .col-sm-6 {
+    padding: 0 10px 0 0;
+
+    @media (max-width: 768px) {
+      padding-right: 0;
+    }
   }
 
   .dropdown-menu-toggle,
@@ -29,20 +36,7 @@
   }
 
   .dropdown {
-    padding-right: 10px;
     margin-bottom: 10px;
-
-    .dropdown-menu {
-      padding-right: 10px;
-    }
-
-    @media (max-width: 768px) {
-      padding-right: 0;
-
-      .dropdown-menu {
-        padding-right: 0;
-      }
-    }
   }
 
   .compensation {
