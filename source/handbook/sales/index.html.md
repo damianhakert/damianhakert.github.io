@@ -441,10 +441,20 @@ Once the above has happened, please make sure the following actions are done:
 1. Add the competition we were up against in the opportunity in the Competitor field, which is located in the Qualification Questions section. This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
-  * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
-  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
+1. If the customer agrees to be a reference, please complete the following steps:
+  * In the Referenceable Customer field on the account page, change the picklist value to "Yes".
+  * Select all the Reference Types they are willing to offer (please see the next section for an explanation of the Reference Types).
+  * Enter any Reference Comments related to the customer's willingness to be a reference.
+  * Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects".
+  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager.
 1. Once the opportunity is closed won, the field "type" on the Account object will change to "customer"
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+
+Reference Types
+* Homepage: The customer allows GitLab to use their logo on the GitLab homepage. Please obtain an image file with their logo, or gain customer acceptance of a logo to be used on the GitLab website.
+* Customer Story: The customer allows GitLab to share their story and use case with prospects and investors.
+* Case Study: The customer allows GitLab's marketing team to draft content highlighting their business challenges and how GitLab solved those challenges.
+* Verbal Reference: The customer agrees to speak with either investors or prospective customers on their experience with GitLab.
 
 #### View and download invoices in Salesforce:
 
