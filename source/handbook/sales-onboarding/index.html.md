@@ -70,7 +70,7 @@ and complete all the tests.
 * [ ] Study the [Sales Handbook](https://about.gitlab.com/handbook/sales/) page.
 * [ ] Have your manager or a colleague screenshare an order processing with the Salesforce/Zuora integration.
 * [ ] Familiarize yourself with our
-      [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
+    [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/).
     * [ ] Change you password when you are promoted to via email.    
 * [ ] Familiarize yourself with these business critical Salesforce reports and views.
