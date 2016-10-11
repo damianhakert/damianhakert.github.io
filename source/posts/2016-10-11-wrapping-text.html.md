@@ -1,5 +1,5 @@
 ---
-title: "To Wrap or Not to Wrap: <brl>One of Life's Greatest Questions"
+title: "To Wrap or Not to Wrap: One of Life's Greatest Questions"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: concepts
@@ -138,14 +138,3 @@ to honor that.
 [style-guide]: https://docs.gitlab.com/ce/development/doc_styleguide.html#text
 [twitter]: https://twitter.com/gitlab
 [blog-style-guide]: /handbook/marketing/blog/#styles-guidelines
-
-<style>
-h1 brl {
-	padding-top: 10px;
-	display: block;
-	content: " ";
-}
-li.post-list-item a brl {
-	display: none !important;
-}
-</style>
