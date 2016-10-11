@@ -40,7 +40,7 @@ Things you can expect GitLab to overshare on:
 
 ## Style Guide
 
-GitLab content primarily follows [AP Style](http://www.apstylebook.com/online/?do=chapter), the guide for which is searchable online. Any questions that cannot be answered by the AP Stylebook may be resolved by referring to the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/home.html). To learn about GitLab's advanced formatting system, check out our [Markdown Guide](https://gitlab.com/help/user/markdown.md). 
+GitLab content primarily follows the AP styleguide which is searchable online. Any questions that cannot be answered by the AP Stylebook may be resolved by referring to the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/home.html). To learn about GitLab's advanced formatting system, check out our [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/). 
 
 ## 2016 activities<a name="2016"></a>
 
