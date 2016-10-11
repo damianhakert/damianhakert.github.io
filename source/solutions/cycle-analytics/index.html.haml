@@ -1,0 +1,247 @@
+---
+layout: default
+title: Cycle Analytics
+description: "Cycle Analytics is a feedback tool designed to help teams understand how long it takes them to complete their development process."
+twitter_image: '/images/tweets/gitlab-cycle-analytics.png'
+suppress_header: true
+extra_css:
+  - cycle-analytics.css
+extra_js:
+  - issue-boards.js
+---
+
+.page-container.cycle-analytics-container.text-center.animated
+  .container
+    .header-graphic
+      = image_tag "/images/cycle-analytics/icon-header.png", class: "img-responsive"
+
+    %h1.page-headline
+      Introducing GitLab Cycle Analytics
+    %h4.subheader
+      Real data, better decisions.
+    %a.btn.btn-lg.btn-red{ href: "/2016/09/21/cycle-analytics-feature-highlight/" } View Blog Post
+
+.page-container.content-container.text-center.animated
+  .container
+    %h2.page-headline.orange-title
+      What is GitLab Cycle Analytics?
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
+      %h3
+        Real data on your project
+      %p
+        :markdown
+          Estimates are often incorrect. Stop estimating.
+
+          Cycle Analytics lets you know how long it takes your team to complete each stage in their workflow from idea to production.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-2-1", "feature-icon", { label: "Built for managers and teams", width: 106, height: 106 })
+      %h3
+        Built for managers and teams
+      %p
+        :markdown
+          One shared view of the team's velocity.
+
+          With insights into how long it takes the team to move from idea to production, you can pinpoint areas for improvement.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-3", "feature-icon", { label: "No setup required" })
+      %h3
+        No setup required
+      %p
+        :markdown
+          Cycle Analytics is pre-configured and ready to track your workflow. 
+
+          It follows the [GitLab Flow](/2016/07/27/the-11-rules-of-gitlab-flow/){: .purple} and records the median time it takes the team to complete each stage.
+
+#img-explainer.page-container.content-container.text-center.img-explainer
+  .container
+    %h2.page-headline
+      Cycle Analytics Overview
+
+    .image-container
+      = image_tag "/images/cycle-analytics/cycle-analytics-view.png", class: "img-responsive"
+
+
+.what-is.purple-section.text-center.animated
+  .container
+    %h2.purple-section-title
+      Join our webcast!
+    .purple-section-subtitle
+      Hear more about Cycle Analytics and the other new features in GitLab 8.12
+    %a.featured-item-button.white-on-primary.btn-margin-top{ href: "https://page.gitlab.com/20160922_CycleAnalyticsWebcast.html" } Sign Up Today
+
+.page-container.content-container.white-bg.animated
+  .container
+    %h2.page-headline.text-center
+      Understanding GitLab Cycle Analytics
+    %h3.getting-started-subheader.text-center
+      :markdown
+        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
+
+        Navigate to your Project's **Pipelines** > **Cycle Analytics** to access the dashboard.
+    %section#steps.steps
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-2", "step-icon", { label: "Issue" })
+            %span.step-number.text-center
+              [ stage 01 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Issue
+              .lead.text-center.step-lead-text
+                :markdown
+                  How long until you start working on an issue?
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time between creating an issue and taking action to solve it, by either assigning it to a milestone or moving it into a list on your [Issue Board](/solutions/issueboard), whichever comes first.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-3", "step-icon", { label: "Plan" })
+            %span.step-number.text-center
+              [ stage 02 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Plan
+              .lead.text-center.step-lead-text
+                :markdown
+                  How long until your first commit?
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time between the action you took for the previous stage, and pushing the first commit to the repository.
+
+                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/user/project/issues/automatic_issue_closing.html) like `closes #xxx`, where `xxx` is the number of the issue related to this commit.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-4", "step-icon step-icon-3", { label: "Code" })
+            %span.step-number.text-center
+              [ stage 03 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Code
+              .lead.text-center.step-lead-text
+                :markdown
+                  How long until you create a merge request (MR)?
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time between pushing a first commit (previous stage) and creating a [merge request related to that commit]((https://docs.gitlab.com/ce/workflow/gitlab_flow.html#linking-and-closing-issues-from-merge-requests)).
+
+                    GitLab tracks this using the [issue closing pattern](https://docs.gitlab.com/ce/user/project/issues/automatic_issue_closing.html) like `closes #xxx` in the MR description, where `xxx` is the number of the issue related to this merge request.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-6", "step-icon step-icon-3", { label: "Test" })
+            %span.step-number.text-center
+              [ stage 04 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Test
+              .lead.text-center.step-lead-text
+                :markdown
+                  How much time does it take GitLab CI to test your code?
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time to run the entire pipeline for that project.
+
+                    It's related to the time [GitLab CI](https://docs.gitlab.com/ce/ci/quick_start/README.html) takes to run every job for the commits pushed to that MR defined in the previous stage.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-7", "step-icon step-icon-3", { label: "Review" })
+            %span.step-number.text-center
+              [ stage 05 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Review
+              .lead.text-center.step-lead-text
+                :markdown
+                  How much time do you spend on code review?
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time taken to review the MR, from the moment it's created until the moment it's merged.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-8", "step-icon step-icon-3", { label: "Staging" })
+            %span.step-number.text-center
+              [ stage 06 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Staging
+              .lead.text-center.step-lead-text
+                :markdown
+                  We're ready to go now! What's the length of time between merging and deploying to production?
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    This stage measures the time spent in staging, from merging the MR until the app is deployed to production.
+
+                    It's tracked by the [`environment` set to `production`](https://docs.gitlab.com/ee/ci/environments.html#sts=Introduction) in your GitLab CI configuration.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-9", "step-icon step-icon-3", { label: "Production" })
+            %span.step-number.text-center
+              [ stage 07 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Production
+              .lead.text-center.step-lead-text
+                :markdown
+                  **Total lifecycle time**: how fast is my team?
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    This is the measure of the time taken to run entire process, from creating an issue to deploying the code to production.
+
+                    In fact, this is the time your team takes to go [from idea to production](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab)!
+
+                    Read through the [Cycle Analytics documentation](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) to learn more.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-7-illustration.png", class: "img-responsive"
+
+= partial "includes/features/try-gitlab-ee"
+
+.sticky-banner.js-sticky-banner.active
+  .sticky-banner-content
+    .sticky-banner-text
+      %p.header-text
+        Try GitLab Enterprise Edition risk-free for 30 days.
+      %p.subheader-text
+        No credit card required. Have questions?
+        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
+    .action
+      %a.btn.featured-item-button{ href: "/free-trial/" } Get Your Free Trial Today

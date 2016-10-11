@@ -20,7 +20,7 @@ As the Director of Customer Success, you report to the [VP of Engineering](https
    - measure and manage effectiveness of team.
 - Serve as the lead spokesperson and ambassador for GitLab's customer experience, representing the organization at the highest levels to prospective partners and customers. Empower the organization through effective communication.
 - Work closely with the [Director of Global Account Management](https://about.gitlab.com/jobs/director-global-account-management) to help them identify up-sell opportunities.
-- The ideal candidate also has a strong background in Customer Support, and would have the Head of Support report to them.
+- The ideal candidate also has a strong background in Customer Support, and would have the Support Lead report to them.
 
 ## Requirements for applicant
 

@@ -229,7 +229,7 @@ Do not escalate GitLab.com or GitLab CE incidents to your DSE; instead please re
 ## GitLab Landing Page guidelines
 {: #landing-page}
 
-Your website will need to have a landing page with information about GitLab. You can see what others have done from the [Resellers page](about.gitlab.com/resellers).
+Your website will need to have a landing page with information about GitLab. You can see what others have done from the [Resellers page](https://about.gitlab.com/resellers).
 
 - We would prefer your landing page to be at `yoururl.com/GitLab` where this is not possible, we would ask you to set a redirect for that URL to the actual one.
 - We highly encourage your landing page to be in local language.  There are plenty of English language resources on GitLab, so providing them in the native tounge of your customers adds value.

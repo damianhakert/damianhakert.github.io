@@ -1,0 +1,7 @@
+= wrap_layout :default do
+  = partial "includes/blog/image-single", locals: {post: current_page}
+  .comparison-container.full-post
+    .blog-entry.clearfix
+      = partial "includes/comparison_tree_nav"
+      %div.comparison-page-content.col-sm-8
+        = yield

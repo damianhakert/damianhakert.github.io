@@ -26,7 +26,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
 1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
-    1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
+    1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
@@ -79,13 +79,13 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 ### General points about moving applicants through the process
 <a name="general-points"></a>
 
-**Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
+**Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position. If an applicant submits a resume to a particular position, and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
 
 **Send Calendly link of the next person in the process.** If you have decided to let the applicant move on to the next interview, save time by sending the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
 **Compensation is discussed at start and end, but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager (based on what had been discussed with the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the hiring manager can send a note (or ask People Ops to send a note) to the candidate explaining that the expectations are too far apart. If the expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions, and keeps the process flowing smoothly.
 
-**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but the CEO extends any offer depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, and informs the CEO on its details depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
@@ -103,8 +103,12 @@ Depending on the outcome of the screening call, the hiring manager can either [r
 1. **Technical interview (optional)**: As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
-1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and will extend an offer if he decides to hire the candidate. The hiring manager has [suggested an offer](#offer-authorization) internally at this stage.
-1. In case the CEO decides to make an **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates.
+Before the CEO has the final call with the applicant the hiring manager will write the following info in an internal note in our ATS:
+    * who will extend the offer (CEO is fine with doing this since it is the most speedy for the applicant, but up to the hiring manager)
+    * the proposed offer (in all cases, so also when someone else than the CEO makes the offer)
+    * in case there are steps before making the final offer (more applicants in the running for the position) this should be noted <br>
+1. When the CEO or hiring manager makes the **offer**, this can be done verbal during the call with the applicant, but is always followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
 1. People Ops will draft a contract based upon the written offer that was extended.
 1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
 1. People Ops [starts the onboarding process](#move-to-onboarding).

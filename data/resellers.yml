@@ -16,6 +16,30 @@
       url: https://twitter.com/verticalsysadmn
     - type: linkedin
       url: https://www.linkedin.com/company/6425144
+- name: ALMtoolbox
+  image: /images/resellers/alm-toolbox-logo.png
+  content: |
+    ALMtoolbox provides services and add-on solutions focused on ALM, DevOps, SCM, IT and Continuous Integration for a variety of customers in many industries, including finance, IT, telecom, security, medical devices and more.  The company was founded in 2009 and has won 6 international awards for its contributions to the software community.
+    
+    <p class="text-right">החברה מפתחת ומספקת מגוון פתרונות לבעיות נפוצות במחזור חיי הפיתוח, באמצעות מוצרי מדף, פיתוח מותאם, שירותי יעוץ ומכירת כלים. החברה נוסדה בשנת 2009 ולה נסיון רב בעבודה מול מאות לקוחות בארץ ובחו"ל, בתחומי בנקאות, טלקום, IT, בטחון, מכשור רפואי ועוד. במהלך השנים זכתה החברה ב- 6 פרסים בינ"ל על תרומתה לקהילת מפתחי התוכנה בעולם.</p>
+  email: GitLab@almtoolbox.com
+  contact:
+    - address: פתח תקווה, ישראל
+      phone: +972-722-405-222
+    - address: Rockville/MD, USA
+      phone: +1(866)503-1471
+    - website: http://www.almtoolbox.com/
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/almtoolbox
+    - type: facebook
+      url: https://www.facebook.com/almtoolbox/
+    - type: twitter
+      url: https://twitter.com/almtoolbox
+    - type: linkedin
+      url: https://www.linkedin.com/company/207805
+    - type: youtube
+      url: https://www.youtube.com/c/almtoolbox
 - name: LSD Information Technology
   image: /images/resellers/LSD_logoV2.png
   content: |

@@ -10,7 +10,7 @@ ee_cta: true
 
 {::options parse_block_html="true" /}
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20160913_unveilingmasterplan_landingpage.html?utm_medium=blog&utm_source=blog&utm_campaign=gitlablive+announcement">Join me live today</a> at 1pm ET / 5pm GMT to learn more about our direction and to ask questions! &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;"> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp; <a style="color: rgb(107,79,187);" href="https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/">Watch the recording of The GitLab Master Plan</a> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i>
 &nbsp;&nbsp;</p>
 
 Today we are thrilled to announce our **$20 million** Series B funding from investors [August Capital], [Khosla Ventures], and [Y Combinator]. This follows our [Series A round last September][series-a-post].
@@ -43,7 +43,7 @@ Likewise, modern developers are well networked and have more choices than ever w
 
 <div class="panel panel-gitlab-purple">
 **Conversational Development**
-{: .panel-heading}
+{: .panel-heading #convdev}
 <div class="panel-body">
 **Conversational Development (ConvDev)** is a natural evolution of software development that carries a conversation across functional groups throughout the development process, enabling developers to track the full path of development in a cohesive and intuitive way. ConvDev accelerates the development lifecycle by fostering collaboration and knowledge sharing from idea to production.
 </div>
@@ -62,7 +62,7 @@ To help you get [faster from idea to production][idea-production], we are focusi
 
 Our goal is to help you work better so you can ship faster. To do this, we are working on reducing cycle time and bringing ConvDev principles directly into our product as defined in our product direction [scope][scope].
 
-Learn more about our Master Plan and product direction today during our live YouTube event at 1pm ET / 5pm GMT. <br> [Register here][event-page].
+Learn more about our Master Plan and product direction. <br> [Watch the recording here][event-recap].
 {: .alert .alert-orange}
 
 
@@ -94,7 +94,7 @@ Want to help GitLab grow? *[We're looking for people to work with us!][careers]*
 [ci-cd-post]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [clear-direction]: https://about.gitlab.com/direction/
 [creative-commons]: https://creativecommons.org/licenses/by-sa/4.0/
-[event-page]: https://page.gitlab.com/20160913_unveilingmasterplan_landingpage.html?utm_medium=blog&utm_source=blog&utm_campaign=gitlablive+announcement
+[event-recap]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/
 [handbook-values]: https://about.gitlab.com/handbook/#values
 [idc-study]: https://www.infoq.com/news/2014/01/IDC-software-developers
 [idea-production]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab

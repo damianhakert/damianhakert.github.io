@@ -24,7 +24,6 @@ If an item does not start with a role or name of someone else, it's yours to do.
 
 #### Goals
 
-- Have less lists in your life
 - Have all the needed user accounts and permissions for a GitLab Inc. SE
 
 This should have been created for you as an issue by PeopleOps when you were hired
@@ -142,10 +141,22 @@ Installation from source is not common but will give you a greater understanding
 - Have a good understanding of ticket flow through Zendesk and how to interat with our various channels
 - See some common issues that our customers are facing and how to resolve them.
 
+#### Initial Zendesk training
 
-#### Zendesk Tickets
+1. [ ] Complete Zendesk Agent training (allow 40 minutes for completion)
+  1. Navigate to [Zendesk university](https://university.zendesk.com/#/purchase/category/34942) and order the **"Agents: Zendesk Fundamentals Online"** course
+     1. Add the **"Agents: Zendesk Fundamentals Online"** course to your cart and click "Proceed to Checkout"
+     1. Follow the prompts and finalise your order.
+     1. You'll receive an email with information on accessing the Zendesk course
+  1. Proceed to complete the **"Agents: Zendesk Fundamentals Online"** course
+1. [ ] Review additional Zendesk resources   
+  1. [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
+  1. [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
+  1. [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
 
-1. [ ] Follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
+#### Learn about the Support process
+
+Zendesk is our Support Centre and our main communication line with our Customers. We communicate with customers through several other channels too
 
 1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled.
 
@@ -160,21 +171,13 @@ Installation from source is not common but will give you a greater understanding
   1. [ ] call with ___
   1. [ ] call with ___
 
-#### Learn about the Support process
-
-Zendesk is our Support Centre and our main communication line with our Customers. We communicate with customers through several other channels too
-
-1. [ ] Familiarize yourself with ZenDesk
-  1. [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
-  1. [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
-  1. [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
 1. [ ] Dive into our ZenDesk support process by reading how to [handle tickets](https://about.gitlab.com/handbook/support/onboarding/#handling-tickets)
 1. [ ] Start getting real world experience by handling real tickets, all the while gaining further experience with the Product.
    1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/#support-channels)
     1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/support/#stack-overflowa-namestack-overflowa) and the [GitLab forum](https://about.gitlab.com/handbook/support/#foruma-namegitlab-foruma)
       1. Here you will find a large variety of queries mainly from our Users who are self hosting GitLab CE
       1. [ ] Answer one by understanding a question dig in to try to find a solution
-  1. [ ] [Proceed on to the GitLab.com Support Forum](https://about.gitlab.com/handbook/support/#gitlabcom-support-trackera-namesupp-foruma)
+  1. [ ] [Proceed on to the GitLab.com Support Tracker](https://about.gitlab.com/handbook/support/#gitlabcom-support-trackera-namesupp-foruma)
      1. Here you will find queries regarding our own GitLab.com
      1. [ ] Find a user you can help and help them, this will give you an understanding of our Admin interface and other tools
   1. [ ] [Proceed on to the Twitter tickets in Zendesk](https://about.gitlab.com/handbook/support/#twitter)
@@ -214,7 +217,7 @@ Some tickets need specific knowledge or a deep understanding of a particular com
 
 ### Congratulations. You now have your Zendesk Wings!
 
-### From now on you can spend most of your work time answering tickets on Zendesk, try to set aside 2 hours per day to make it through the rest of this list.
+### From now on you can spend most of your work time answering tickets on Zendesk, try to set aside 2 hours per day to make it through **Stage 4-6** of this list.
 
 1. [ ] Ask as many questions as you can think of on the `#support` chat channel
 
@@ -272,4 +275,25 @@ Look at the `GitLab Support` Google Calendar to find customer calls you can list
 1. [ ] Read over the [public run-books to understand common tasks](https://gitlab.com/gitlab-com/runbooks)
 1. [ ] Create an issue on the internal Organization tracker to schedule time with the DevOps / Production team, so that you learn how to handle GitLab.com going down. Once you are trained for this, you are ready to be added to the on-call rotation.
 
+### Stage 7. Optional Advanced GitLab Topics
+
+Discuss with your training manager if you should stop here and close your issue
+or continue. Also discuss which of the advanced topics should be followed. Do
+not just do all of them as they might not be relevant to what customers need
+right now and can be a significant time investment.
+
+These are some of GitLab's more advanced features. You can make use of
+GitLab.com to understand the features from an end-user perspective and then use
+your own instance to understand setup and configuration of the feature from an
+Administrative perspective
+
+- [ ] Set up and try [Git Annex](https://docs.gitlab.com/ee/workflow/git_annex.html)
+- [ ] Set up and try [Git LFS](https://docs.gitlab.com/ee/workflow/lfs/manage_large_binaries_with_git_lfs.html)
+- [ ] Get to know the [GitLab API](https://docs.gitlab.com/ee/api/README.html), its capabilities and shortcomings
+- [ ] Learn how to [migrate from SVN to Git](https://docs.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
+- [ ] Set up [GitLab CI](https://docs.gitlab.com/ee/ci/quick_start/README.html)
+- [ ] Create your first [GitLab Page](https://docs.gitlab.com/ee/pages/administration.html)
+- [ ] Get familiar with the GitLab source code by finding the differences
+between the [EE codebase](https://gitlab.com/gitlab-org/gitlab-ee) and the [CE codebase](https://gitlab.com/gitlab-org/gitlab-ce)
+- [ ] Ask as many questions as you can think of on the `#support` chat channel
 ```

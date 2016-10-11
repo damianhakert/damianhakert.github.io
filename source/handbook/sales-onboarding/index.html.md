@@ -4,9 +4,11 @@ title: "Sales Onboarding"
 ---
 
 Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://university.gitlab.com/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
-A library of past product training sessions can be found [Here](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk).  All new hires should review all content during their onboarding stages.
+
 
 ```
+A library of past product training sessions can be found [Here](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk).  All new hires should review all content during their onboarding stages.
+
 ### Stage 1
 
 **Familiarize yourself with the basics**
@@ -64,7 +66,7 @@ A library of past product training sessions can be found [Here](https://drive.go
 
 **Experience first hand the power of GitLab**
 
-* [ ] [Compare GitLab versions](/features/#compare)
+* [ ] [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
 * [ ] [GitLab compared to other tools](/comparison/)
     - [Compared to Atlassian (Recording 2016-03-03) ](https://youtu.be/Nbzp1t45ERo)
@@ -131,11 +133,18 @@ A library of past product training sessions can be found [Here](https://drive.go
     - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
     - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
 
+* [ ] GitLab CI
+    - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+    - [Getting started with CI in GitLab](https://www.youtube.com/watch?v=Hs8LCilGVaM)
+    - [Documentation](http://docs.gitlab.com/ce/ci/)
+
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
-* [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and EE Options.  Each feature that is hyperlinked will take you to the issue to learn more.  
+* [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and New Products.  Each feature that is hyperlinked will take you to the issue to learn more.  
+
+* [ ] Review Probing Questions to develop EE need [EE Product Qualification Questions](https://about.gitlab.com/handbook/EE-Product-Qualification-Questions/)
 
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
@@ -154,27 +163,21 @@ A library of past product training sessions can be found [Here](https://drive.go
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Blue Jeans or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
-* [ ] Within this sales bootcamp issue, please submit a comment with a link to an EE Option and the names of salespeople you have seen contribute to the discussion.
+* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Zoom or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Within this sales bootcamp issue, please submit a comment with a link to a Product and the names of salespeople you have seen contribute to the discussion.
 
 ### Stage 4 <a name="stage-4"></a>
 
+* [ ] Ask your manager or colleague if they can do a screenshare the next time they process an order using Salesforce/Zuora integration
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password.  Once you are in Salesforce, please familiarize yourself wth these reports/views as they will be critical in helping you manage your business.
 * [ ] Review in order, learning material on our [Sales Handbook](https://about.gitlab.com/handbook/sales/) page.
+* [ ] Familiarize yourself with the [lead qualification process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
+* [ ] Review with your manager what book of business or prospective accounts should be transferred over to your ownership, based on your territory assignment.
+* [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 * [ ] Review [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM) This view is to focus you on what you are committing to closing this month.  Are you in the right stage? What is needed to advance the sale to the next stage?
-* [ ] Review [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR) This view should be used to identify where you are going and where you need focus to ensure you are successful.  What needs to to close and/or where you need to build up your pipleine - new business, expansion, add-on
+* [ ] Review [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR) This view should be used to identify where you are going and where you need focus to ensure you are successful.  What needs to to close and/or where you need to build up your pipeline - new business, expansion, add-on
 * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) This view should be used to make sure you are followign up on each lead in a timely manner and have a plan on how you qualify or disqualify a lead.
 * [ ] Review [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
-* [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
-
-
-**Stage 4 test**
-* [ ] Create Fake Lead in Salesforce.  Lead First Name - Test; Lead Last Name - GitLab Bootcamp.  Company: GitLab Sales Bootcamp. Lead Source: Other
-* [ ] Convert Lead into an opportunity and Account
-* [ ] Ensure Opportunity follows naming convention process
-* [ ] Add Opportunity Product to Opportunity.  Quantity 2 of 100 seat Standard, one year.
-* [ ] Change close date to be 90 days out
-* [ ] Opportunity Stage to presenting solution
 
 ```
 

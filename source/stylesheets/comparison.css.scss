@@ -1,5 +1,52 @@
 @import "variables";
 
+.comparison {
+  .comparison-container {
+    padding-top: 20px;
+  }
+  .comparison-page-content {
+    h2,
+    h3,
+    h4 {
+      font-weight: bold;
+      margin-top: 0;
+    }
+    h2 {
+      // used as top-of-page title ref only
+      font-size: 14px;
+      color: $color-gray;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    li {
+      margin: 10px;
+    }
+    a {
+      color: $color-primary;
+    }
+  }
+
+  .comparison-tree-nav {
+    padding-left: 0;
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+    a {
+      font-size: 14px;
+      color: $color-gray;
+      &.active {
+        font-weight: bold;
+        color: $color-primary;
+      }
+    }
+  }
+}
+
 h4 a {
   color: $color-white;
   font-weight: inherit;
@@ -184,3 +231,4 @@ ol li {
     }
   }
 }
+

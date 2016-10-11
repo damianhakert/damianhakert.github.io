@@ -49,11 +49,14 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    the researcher comes to the same conclusion or stops responding.
 1. Do not **forward** company emails (@gitlab.com) to a non-company email address.
 1. Do not click on links in emails you did not request yourself (requested
-   password reset is OK, anything else is suspect). Clicking itself is a problem
-   even when you don't enter a password, because a visit can already be used to
-   execute a [0-day attack]. We simulate phishing attacks by having an external
-   service send emails to our company email addresses to ensure everyone is
-   aware of the threat.
+   password reset is OK, anything else is suspect).
+   **Exception:** During the onboarding process you may receive account
+   registration emails for various services GitLab uses. Before clicking these
+   links confirm with People Operations that they initialized the process.
+   Clicking itself is a problem even when you don't enter a password, because a
+   visit can already be used to execute a [0-day attack]. We simulate phishing
+   attacks by having an external service send emails to our company email
+   addresses to ensure everyone is aware of the threat.
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
 1. During offboarding, your 1Password account is deleted. If you want to
@@ -93,14 +96,12 @@ using throughout.
 
 Prior to adding Teams support, 1Password was designed for use by a single person.
 It uses a native app and stores your data in a local folder on your computer.
-You can optionally sync this folder to Dropbox to make it available on your
-phone's 1Password app, or on another computer.
+You can optionally sync this folder to Dropbox or iCloud (if you are using a Mac/iOS) to make it available on your phone's 1Password app, or on another computer.
 
 ### 1Password for Teams<a name="1password-for-teams"></a>
 
-1Password for Teams is a new feature, currently still in beta. It stores all
-**Vaults** on the 1Password servers and allows for sharing between multiple
-people on the same team.
+1Password for Teams stores all **Vaults** on the 1Password servers and allows
+for sharing between multiple people on the same team.
 
 Everyone at GitLab should already be signed up for our [Teams account]. This
 gives you access to the web interface, allowing you to view the Vaults we've
@@ -174,7 +175,7 @@ Click the **Vault Selector** in the upper-left corner of the window:
 ![Vault Selector](/handbook/security/1password-vault-selector.png)
 
 Keep in mind that **Primary** is your *local, private* vault and *is not synced*
-unless you enable syncing it to something like your personal Dropbox account.
+unless you enable syncing it to something like your personal Dropbox account or iCloud (Mac/iOS only).
 
 **Your Vault** is your *remote, private* vault that *is* synced to the GitLab
 1Password for Teams account, and *can not* be viewed by anyone else on the team,

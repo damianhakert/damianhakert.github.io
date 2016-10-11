@@ -78,7 +78,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
    1. [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
-      1. [ ] team call recordings password (i.e. BlueJeans login)
+      1. [ ] team call recordings password (i.e. Zoom login)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
    1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
@@ -132,6 +132,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant, already addressed_ Jose: Add team member to `@supportteam` Slack handle.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] Hiring Manager: Remove team member as a member to the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
+1. [ ] Robert/Jacob V: Remove access to hackerone.com
 1. [x] _not relevant_ New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY

@@ -8,7 +8,7 @@ image_title: /images/8_9/windmills.jpg
 ---
 
 Whether you work on code or media,
-work thousands of miles away from your organisation's HQ,
+work thousands of miles away from your organization's HQ,
 or work on a project with ten thousand issues,
 GitLab 8.9 will help you get stuff done faster.
 
@@ -30,7 +30,7 @@ see what has changed exactly, below.
 
 <!--more-->
 
-## File Locking (EE option)
+## File Locking (new Product)
 
 When you're working on files that Git can't merge for you,
 working with multiple people on the same file can be a risk.
@@ -253,7 +253,7 @@ even prevent people from merging a merge request unless the build is 'green'.
 This prevents people from circumventing your tests, guards your code from
 sloppy contributions and encourages everyone to maintain a solid test suite.
 
-## GitLab Geo (EE option)
+## GitLab Geo (new Product)
 
 GitLab Geo allows you to have one or multiple mirrored instance of GitLab
 running in another location. That allows your remote team to have quick

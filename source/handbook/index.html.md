@@ -16,6 +16,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 {: .no_toc}
 
 * [Engineering](/handbook/engineering)
+  * [Support](/handbook/support)
+  * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
   * [Blog](/handbook/marketing/blog)
@@ -80,7 +82,7 @@ help and advice. Anyone can chime in on any subject, including people who don't 
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
-Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
+Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/).
 We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way. Give negative
 feedback in the smallest setting possible, one-on-one video calls are preferred.
@@ -179,7 +181,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -250,7 +252,8 @@ some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, 
 from @gitlab".
 1. Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
 
-**Not sure where to go?**<br>
+**Not sure where to go?**
+
 If there is something that you want to discuss, but you do not feel that it is
 a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
@@ -294,9 +297,8 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
-1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
-1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
+1. We use [Zoom](https://zoom.us) for the call since Hangouts is capped at 15 people, link is in the calendar invite, and also listed at the top of the Team Agenda.
+1. The call is recorded automatically, and we have a 1GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Recordings can be found by logging on to the [Zoom portal](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
@@ -332,10 +334,11 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
+1. When creating a calendar event that will be used company wide, please place it on the GitLab Availability Calendar. That way the event is easily located by all individuals.
 
 ### Video calls
 
-1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Blue Jeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
@@ -401,7 +404,7 @@ Make sure it is charging, otherwise try again.
 ### Company phone number
 {: #phone-number}
 
-If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#office-addresses) of the office in the Netherlands if that is more applicable.
+If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
@@ -422,7 +425,7 @@ and how to swap duty in the [On-Call](https://about.gitlab.com/handbook/on-call/
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
 1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
-1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](Proprietary Information and Assignment Agreement) and/or [GitLab B.V. NDA and IP Agreements](https://about.gitlab.com/handbook/contracts/#bv-nda-ip).
+1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit) and/or [GitLab B.V. NDA and IP Agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#).
 
 ## <i class="fa fa-usd fa-fw icon-color font-awesome" aria-hidden="true"></i> Spending Company Money
 {: #spending-company-money}
@@ -430,13 +433,13 @@ intellectual property violations
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.
-1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940#.qaa888pwq) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
-    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
+1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/sop/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
+    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers (Mention to the Apple Store that you are buying it for GitLab so that we can qualify for [business discounts](http://www.apple.com/business/vpp/)). Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
@@ -445,6 +448,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
+    *  [Notebook stand](https://www.amazon.com/Roost-Laptop-Stand-Productivity-Lightweight/dp/B01C9KG8IG)
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
     *  [Yubikey](https://www.yubico.com/store/)
@@ -454,7 +458,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed.
     *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
-    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, BlueJeans, and WebEx)
+    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Zoom, and WebEx)
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
@@ -481,7 +485,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
-1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75#.hl1x9zh15), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
+1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. We have an "unlimited" time off policy. This means that:
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
@@ -540,7 +544,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/sop/#referral-bonus) the bonus.
+People Ops will [process](/handbook/people-operations/sop/#enter-a-bonus-into-trinet) the bonus.
 
 ### Work Remotely Travel Grant
 {: #travel-grant}
@@ -633,10 +637,10 @@ Keep in mind that unlike normal Google Calendar events, Calendly events are not 
 ### Shush
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
-Never again will you have switch window focus to Google Hangout or Blue Jeans to speak or mute.
+Never again will you have switch window focus to Google Hangout or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click you can switch from push to talk to push to mute.
-Don't forget to unblock your mic in Blue Jeans/Google Hangouts immediately after joining.
+Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
@@ -650,9 +654,13 @@ The Notification Center can be quickly disabled by Option-Clicking the menu bar 
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
-### Blue Jeans
+### Zoom
 
-Please add instructions how to set up a Blue Jeans meeting, how to record it and how to add the resulting video to our YouTube channel.
+To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need additional duration, reach out to People Ops to see if we can extend the existing Pro license that is in use to manage the [team call](#team-call).
+
+To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
+
+_Please add instructions on how to add the resulting video to our YouTube channel._
 
 ### Gmail
 
@@ -712,19 +720,19 @@ When people join the event they have to [accept a warning](https://gitlab.com/sn
 [Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
 You can use actions to make it public here
 
-BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
+BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.google.com/plus/answer/7126353?hl=en) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
 ### One Tab
 
-[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
+[One Tab (Free)](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ### Quitter
 
-[Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
+[Quitter (Free)](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
 ### TripMode
 
-[TripMode](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
+[TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
 
 ### Check which process occupies a given port
 
@@ -736,11 +744,106 @@ this command in your `.bash_profile` or equivalent for your shell.
 
 ### MobileDay
 
-If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+If you install [MobileDay (Free)](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+
+### Keeping You Awake
+
+[Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) is a macOS utility application that can prevent your Mac from entering sleep mode for a predefined duration or as long as it is activated.
+
+### Enable screen lock on your mac menu bar
+
+1. Open up the `Keychain Access` application
+2. In the menu bar (next to the apple logo), click on `Keychain Access`
+3. Click on `Preferences`
+4. Check the box `Show keychain status in menu bar`
+5. The lock icon should now show up on your menu bar
+
+You can lock your screen by clicking the lock icon on the menu bar and clicking `Lock Screen`
 
 ### Visual help to differentiate between GitLab servers
 
 If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
+
+### How to change your username at GitLab.com
+
+- Starting point: let's say your username is `old-mary` and you want it
+to be just `mary`.
+- **Note:** each GitLab account is tracked by an **userID**, which is a number stored in
+a database. If we change the username, the userID does not change. And all the
+permissions, issues, MRs and relevant stuff within GitLab are related to your
+**userID**, not with your username.
+- **Note:** if you are not a GitLab Team member, the same process applies; except
+your e-mail ([STEP 2](#change-username-step-2)), which will be different
+(will not be @gitlab.com email), so you can replace it with your own email account.
+
+**STEP 1: Request your new username**
+
+- Access the username you want to request via `https://gitlab.com/u/mary`.
+- Check it's activity, projects, to see if he/she is an inactive -
+[according to the handbook](/handbook/support/policies/#dormant-usernames).
+- Send your request to `support@gitlab.com`, explaining the reasons why
+you need that username.
+- There's no guarantee that the username will be available for you. Please
+check the [handbook guidelines for dormant usernames](/handbook/support/policies/#dormant-usernames).
+
+**STEP 2: Create a new account with your new username**
+{: #change-username-step-2}
+
+- If support replies to you telling that the username is free to use, create a new
+GitLab.com account with it. Use a personal email to register your new account and
+choose one that has not been used with your old GitLab account.
+- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/profile/emails),
+and add a new email. ⭐️ **Trick** ⭐️ If your email at GitLab is `mary@gitlab.com`,
+add the new email as `mary+something@gitlab.com`:
+this is a [Gmail trick](https://support.google.com/mail/answer/12096?hl=en)! All
+your emails sent to this alias will end up in your GitLab email account. 😃
+- Navigate to <https://gitlab.com/profile/notifications> and choose the notifications
+email: `mary+something@gitlab.com`.
+- Open your old account in one browser and the new one in another browser
+(e.g., Chrome and Firefox, or Chrome and Safari) - log in to both accounts at
+the same time.
+
+**STEP 3: Let's have some fun (kidding, this is critical!)**
+
+- Navigate to <https://gitlab.com/profile/account> in both your accounts.
+- Look for your username. This operation has to be done quickly, otherwise you are
+risking to loose your awesome new username to someone else quicker than you. We
+need to **swap** the usernames between both accounts, so you'll keep all your
+history, your privileges, issues and MRs assigned to you, etc.
+- If you work with 2 monitors, open each browser on one monitor. If you don't,
+open them in parallel, so that you can keep an eye on both at the same time.
+- Rename your new username `mary` to something like `mary-1` and DO NOT click
+**update username** yet. Rename your old username `old-mary` to your new
+username `mary` and don't update that either. Just leave them typed into the boxes.
+- Make sure you did the previous step right!
+- ⚠️ **CRITICAL** ⚠️ Update the first one (`mary` to `mary-1`). Immediately, click
+**update** on the other one (`old-mary` to `mary`).
+- Immediately, rename the `mary-1` to your old one `old-mary` and click
+**update username** again.
+- Ta-Da! 🙌
+
+**STEP 4: Move your projects (or not)**
+
+- Now, if you have any personal projects, you might want to import them to
+your new account (the one that has your old username now). To do that, in
+your new account (the one with the old username), click **Create a New Project**,
+give it the very same name as the original one, click **Git - add repo by url**,
+and paste the `https://` url of your project there. To make things easier, make
+sure all the projects you want to import are set to `public` view.  You can make
+them private afterwards.
+- If you have GitLab Pages projects with the default **GitLab.io** url, you will need
+to import them to you new account, then make a change to **trigger a build** and
+redeploy your site. They will be affected only if you're using a
+[CNAME with a subdomain instead of an A record](/2016/04/07/gitlab-pages-setup/#custom-domains).
+This won't affect Pages projects that use custom domains, as they all point to
+the same Pages server IP via `A` record. Your groups won't be affected either,
+as they operate under their own namespace. Add both users as members of your
+groups and nothing changes.
+
+That's it! Don't forget to update your username on the
+[team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/team.yml)
+and on the [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md),
+in case you're a Marketing Team member.
 
 ### Do NOT Use
 
@@ -809,7 +912,7 @@ Read through our [Markdown Guide] to understand its syntax and create new conten
 
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
-1. To edit the site locally you'll need to install a text editor. We recommend
+1. You will need to install a text editor to edit the site locally. We recommend
    [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
 #### 2. Test if all URL links in a page are valid
@@ -823,7 +926,8 @@ links inside a page is the following.
 1. Click the newly installed extension in the upper right corner of Chrome.
 
 A pop-up window will open and tell you how many links, if any, are invalid.
-Fix any invalid links and ideally any warnings, commit, push back, test again.
+Fix any invalid links and ideally any warnings, commit and push your changes,
+and test again.
 
 [async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
 [check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/

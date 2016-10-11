@@ -35,9 +35,10 @@ On our [release list page](https://about.gitlab.com/release-list/) you can find 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and don't do things that are listed.
 This page is always in draft, some of the things on it might not ever be in GitLab.
-Products are indicated with 'Product' in the issue title, this is our best estimate of what will be Products, it is not definitive.
+New Products are indicated with 'New Product' in the issue title, this is our best estimate of what will be new products, it is not definitive.
 Also the list below not include any contributions from outside GitLab the company.
 The bullets list the tentpole features; the most important features of upcoming releases.
+This is not an authoritative list of upcoming releases - it just reflects current [milestones](https://gitlab.com/groups/gitlab-org/milestones).
 The CE and EE to the right of the version number link to all planned issues for that version.
 
 The milestone, as seen below, is the intended date that the listed features get shipped.
@@ -90,14 +91,26 @@ We very much welcome contributions that implement any of these things.
 ### Moonshots
 
 - [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
-- [Commit bots for code cleanup](http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext) Be sure they don’t break other projects when they change a method or w/e in one project. Also want to see how other projects are using some feature.
+- [Commit bots for code cleanup](https://gitlab.com/gitlab-org/gitlab-ce/issues/22393)
 <%= wishlist["moonshots"] %>
 
-### Products
+### New Products
 
 <%= wishlist["ee product"] %>
 
-### Scope <a name="scope"></a>
+### Meta issues
+
+We use meta issues to collect similar feature proposals, so that we can
+prioritize and review easily.
+
+- [Code review](https://gitlab.com/gitlab-org/gitlab-ce/issues/19049)
+- [Issue Board](https://gitlab.com/gitlab-org/gitlab-ce/issues/21365)
+- [User management](https://gitlab.com/gitlab-org/gitlab-ce/issues/19860)
+- [Moderation tools](https://gitlab.com/gitlab-org/gitlab-ce/issues/19313)
+- [Wiki improvements](https://gitlab.com/gitlab-org/gitlab-ce/issues/19276)
+- [Features for open source projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938)
+
+## Scope <a name="scope"></a>
 
 [Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we plan to ship the following stack of tools in our Omnibus package:
@@ -105,32 +118,13 @@ To achieve this we plan to ship the following stack of tools in our Omnibus pack
 1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) ships with GitLab
 1. **Issue** (Tracker) => GitLab Issues ships with GitLab
 1. **Plan** (Board) => GitLab Issue Board
-1. **Code** (IDE) => Koding integrates with GitLab
+1. **Code** (IDE) => [Koding integrates with GitLab](https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/)
 1. **Commit** (Repo) => GitLab Repositories ships with GitLab
 1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
 1. **Review** (MR) => GitLab Merge Requests ships with GitLab
-1. **Staging** (CD) => Many features of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) already ship with GitLab and we plan to ship with [Review Apps](https://gitlab.com/gitlab-org/gitlab-ce/issues/20255)
-1. **Production** (Chatops) => We plan to ship with [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
-1. **Feedback** (Cycle Analytics) => We plan to ship with [Cycle Analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/847)
-
-### Monitoring
-
-We're not sure if superficial application performance (APM) monitoring is in our scope.
-We don't want to do deep APM since that sophisticated requires introspection of code.
-But we are considering shipping Grafana and InfluxDB as part of our Omnibus package.
-Examples of the advantages of adding APM to GitLab would be:
-
-- No external tools or setup needed for [GitLab performance monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html).
-- It would make it easier have our [deployment pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/750910) automatically revert a deployment when it impacts performance.
-- We can use it to visualize the outcome of [A/B testing](https://gitlab.com/gitlab-org/gitlab-ee/issues/117).
-
-We want to be the devops side of monitoring more than the ops side of monitoring.
-Measure the impact of deployments and not ddos attacks and scaling problems.
-Not sure if we need to ship our own monitoring stack for this or not.
-
-If we just push a release we don't have a preconfigured way to push data to the monitoring system.
-Without this preconfigured way there is no advantage to doing this ourselves.
-Also, users might be using an existing solution they want to reuse (datadog, etc.).
+1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) already ship with GitLab and we plan to ship with [Review Apps](https://gitlab.com/gitlab-org/gitlab-ce/issues/20255)
+1. **Production** (Chatops) => We plan to ship with a [Slack bot](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
+1. **Feedback** (Cycle Analytics) => We plan to ship with [Cycle Analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/847) and [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
 
 ### Outside our scope
 
@@ -144,11 +138,6 @@ Also, users might be using an existing solution they want to reuse (datadog, etc
 1. **Network** Openflow, VMware NSX, Cisco ACI
 1. **Incident notification** Pagerduty, Pingdom
 1. **Network security** Nmap, rkhunter, Metasploit, Snort, OpenVAS, OSSEC
-
-### We would love to partner with
-
-- Scrum boards: We already support [some of them](https://about.gitlab.com/applications/#scrum-boards) and we're adding an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907) to GitLab. But would love for [Waffle.io](https://waffle.io/), [Huboard](https://github.com/huboard/huboard/issues/276), and [Zenhub.io](https://www.zenhub.io/) to support GitLab too. Email eliran at our company domain to get in touch.
-- Browser IDE's: We are intergrating [Koding into GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759). But we would love for other browser IDE's to ship GitLab with them and to have button to open them from GitLab: Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio, and CodeEnvy. Email eliran at our company domain to get in touch.
 
 ## Vision <a name="vision"></a>
 
