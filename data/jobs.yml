@@ -105,8 +105,8 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
-  apply: https://gitlab.workable.com/jobs/278602/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Service Engineer"
   description: /jobs/service-engineer/
