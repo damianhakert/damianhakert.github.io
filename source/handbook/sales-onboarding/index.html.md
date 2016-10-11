@@ -68,30 +68,40 @@ and complete all the tests.
 **Tasks:**
 
 * [ ] Study the [Sales Handbook](https://about.gitlab.com/handbook/sales/) page.
-* [ ] Have your manager or a colleague screenshare an order processing with the Salesforce/Zuora integration.
+* [ ] Have your manager or a colleague screenshare
+    <br>
+    an order being processed with the Salesforce/Zuora integration.
 * [ ] Familiarize yourself with our
     [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/).
     * [ ] Change you password when you are promoted to via email.    
 * [ ] Familiarize yourself with these business critical Salesforce reports and views.
-  * [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz):
+  * [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz):<br>
     Identify expansion opportunities, see who you have neglected
+    <br>
     and the mix of customers to prospects you are working on.
-  * [ ] With your manager review the book of business or prospective accounts to determine
-    which accounts you should owned based on your assigned territories.
-  * [ ] [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM):
-    View what you are committing to close this month.  
+  * [ ] With your manager review the book of business or prospective accounts
+    <br>
+    to determine which accounts you should owned based on your assigned territories.
+  * [ ] [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM):<br>
+    View what you are committing to close this month.
+    <br>
     Ask yourself if each lead is in the right stage to close this month?
+    <br>
     What is needed to advance the sale to the next stage?
-  * [ ] [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR):
-    Overview your pipeline and get insight into what you need to focus on to reach targets.
-    I will also show you what needs to be closes and where you need to build up your pipeline through new business, expansion or add-on.
-  * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1)
-    Use this to make sure you are following up on each lead
-    in a timely manner and have a plan on how you qualify or disqualify them.
-  * [ ] [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx)
-    Understand where you have been,
-    where you are, where are you going
+  * [ ] [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR):<br>
+    Overview your pipeline and get insight into focus areas to reach targets.
+    <br>
+    You will also be shown what needs to be closed
+    <br>
+    and where you need to build up your pipeline through new business, expansion or add-on.
+  * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1):<br>
+    Make sure you are following up on each lead in a timely manner
+    <br>
+    and have a plan on how you qualify or disqualify them.
+  * [ ] [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx):<br>
+    Understand where you have been, where you are, where are you going
+    <br>
     and do you have the pipeline to get to where you need to be.
 
 ## Supporting Material
