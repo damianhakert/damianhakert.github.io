@@ -102,7 +102,7 @@ In our [Blog], you will find 8 types of blog posts:
 
 <div class="panel panel-gitlab-orange">
 #### <i class="fa fa-globe" style="font-size:.85em" aria-hidden="true"></i> Release Posts
-{: .panel-heading}
+{: .panel-heading #release-posts}
 <div class="panel-body">
 Every 22nd of each month, GitLab promotes a new release of our main instances:
 [GitLab CE] and [GitLab EE]. GitLab.com runs on GitLab EE, therefore, it gets the same
@@ -128,7 +128,7 @@ Examples: [release] posts, [security release] posts.
 
 <div class="panel panel-gitlab-purple">
 #### <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Team Member's Posts
-{: .panel-heading}
+{: .panel-heading #team-members-posts}
 <div class="panel-body">
 Whenever we have something interesting to talk about, we encourage our own team
 members to write their stories. And there are a lot of awesome ones! Even if you are not a
@@ -143,7 +143,7 @@ please take a look at the [General Reviews] section below.
 
 <div class="panel panel-success">
 #### <i class="fa fa-hashtag" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Events Posts
-{: .panel-heading}
+{: .panel-heading #events-post}
 <div class="panel-body">
 Every 1st working day of the month we publish a post communicating the events for that following
 month. They are written by our Field Marketing Manager & Swag Queen, [Emily Kyle], who always have a lot
@@ -156,7 +156,7 @@ Events posts are also submitted to [General Reviews].
 
 <div class="panel panel-info">
 #### <i class="fa fa-heart" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Community Posts
-{: .panel-heading}
+{: .panel-heading #community-posts}
 <div class="panel-body">
 If you are not a GitLab Team member, you're also very welcome to write for us. There are a few aspects to consider,
 described on the section [Community Writers] below.
@@ -179,7 +179,7 @@ we'll be happy to see your post too! Please check, we have specific procedures f
 
 <div class="panel panel-warning">
 #### <i class="fa fa-rocket" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Guest Posts
-{: .panel-heading}
+{: .panel-heading #guest-posts}
 <div class="panel-body">
 These posts are specific for community members that want to write about their own tools,
 features, and software integrations with GitLab. They can be written by the owners,
@@ -194,7 +194,7 @@ Writers. A similar process occurred to publish the post on [Continuous Delivery 
 
 <div class="panel panel-danger">
 #### <i class="fa fa-institution" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Partner Posts
-{: .panel-heading}
+{: .panel-heading #partner-posts}
 <div class="panel-body">
 These posts are specific for official GitLab Partners. The drill for these posts is flexible, and 
 can be adapted case by case. We usually write the post and publish according to a
@@ -206,7 +206,7 @@ Examples: integration with [Koding], [Digital Ocean], [Yubico], [Mattermost], [P
 
 <div class="panel panel-gitlab-orange">
 #### <i class="fa fa-refresh" style="font-size:.85em" aria-hidden="true"></i> Ghost Posts
-{: .panel-heading}
+{: .panel-heading #ghost-posts}
 <div class="panel-body">
 Ghost posts are part of a special category of posts, written by ghostwriters contracted by
 GitLab with this specific purpose. They are based on interviews with GitLab Executives,
@@ -219,7 +219,7 @@ Check the section [Ghost Writers] below for more details.
 
 <div class="panel panel-gitlab-purple">
 #### <i class="fa fa-rss" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Crossposts
-{: .panel-heading}
+{: .panel-heading #crossposts}
 <div class="panel-body">
 These are great posts written by our community and published originally by another communication channel.
 The writer is invited to reach us via Twitter or email (`community@gitlab.com`) asking to repost his/her
@@ -825,20 +825,4 @@ specific matters are still being discussed and polished.
    .ambar {
     color: rgb(138,109,59) !important;
  }
-.panel-gitlab-orange {
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-orange > .panel-heading {
-  color: rgb(226,67,41);
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-purple {
-  border-color: rgba(107,79,187,.3);
-}
-.panel-gitlab-purple > .panel-heading {
-  color: rgb(107,79,187);
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-}
  </style>
