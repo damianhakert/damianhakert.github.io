@@ -92,12 +92,12 @@ And this is how an unwrapped code looks like:
 
 ![non-wrapped text, GitLab UI view](/images/blogimages/wrapping-text/gitlab-ui-non-wrapped-text.png){:.shadow}
 
-Even when you're reviewing locally, check how a non-wrapped
+Even when you're reviewing locally, check how a wrapped
 text looks like on Sublime:
 
 ![Sublime text view - wrapped](/images/blogimages/wrapping-text/wrapped-text-easier-to-read.png){:.shadow}
 
-And how it looks when wrapped:
+And how it looks when unwrapped:
 
 ![Sublime text view - non-wrapped](/images/blogimages/wrapping-text/unwrapped-text-scroll-horizontally.png){:.shadow}
 
