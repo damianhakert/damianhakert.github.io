@@ -1,15 +1,19 @@
 .salary-container {
-  padding: 0 0 20px 0;
+  padding: 0;
 
-  .col-sm-8,
   .col-sm-12 {
     padding: 0;
+  }
+
+  .col-sm-4,
+  .col-sm-8 {
+    padding: 0 0 20px 0;
   }
 
   .col-sm-6 {
     padding: 0 10px 0 0;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       padding-right: 0;
     }
   }
@@ -44,6 +48,7 @@
     border-radius: 3px;
     height: 100%;
     padding: 5px 10px;
+    margin-bottom: 10px;
 
     .title {
       border-bottom: 1px solid #eaeaea;
@@ -54,6 +59,12 @@
       padding-top: 5px;
       font-size: 25px;
     }
+  }
+
+  .note {
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
   }
 }
 

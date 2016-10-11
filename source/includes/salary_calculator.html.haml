@@ -66,13 +66,18 @@
               %li.hidden{'data-country' => p.country}
                 %span.key= p.city
                 %span.display-value= (p.rentIndex*0.01).round(2)
-      .col-sm-12
-        Learn about our contract types. We expect you will be
+      .col-sm-12.note
+        Learn about our
+        %a contract types
+        \. We expect you will be
         %span.contract-type-container
           %span.grammer a
           %strong.contract-type contractor
           at GitLab
           %span.company-type BV.
-    .compensation.col-sm-4
-      .title Estimated Compensation
-      .amount --
+    .col-sm-4
+      .compensation
+        .title Estimated Compensation
+        .amount --
+      .note
+        We will usually pay you in your local currency.
