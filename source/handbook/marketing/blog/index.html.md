@@ -92,7 +92,7 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 
 ## Technical Aspects
 
-**All** blog posts should always have an **author name**. When applicable, add a section "Acknowledgments" to the end of the post to thank contributors.
+**All** blog posts should always have a real **author name**. When applicable, add a section "Acknowledgments" to the end of the post to thank contributors.
 
 ### Types of Blog Posts
 
@@ -101,7 +101,7 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 In our [Blog], you will find 8 types of blog posts:
 
 <div class="panel panel-gitlab-orange">
-#### <i class="fa fa-globe" style="font-size:.85em" aria-hidden="true"></i> Release Posts
+#### <i class="fa fa-globe fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Release Posts
 {: .panel-heading #release-posts}
 <div class="panel-body">
 Every 22nd of each month, GitLab promotes a new release of our main instances:
@@ -127,7 +127,7 @@ Examples: [release] posts, [security release] posts.
 </div>
 
 <div class="panel panel-gitlab-purple">
-#### <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Team Member's Posts
+#### <i class="fa fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Team Member's Posts
 {: .panel-heading #team-members-posts}
 <div class="panel-body">
 Whenever we have something interesting to talk about, we encourage our own team
@@ -136,13 +136,13 @@ writer, you are very welcome to write, and our reviewers will be happy to help
 you with the language, the technical aspects, the markup, the concepts and whatever
 else you might need.
 
-If you are part of the [GitLab Team], please contribute! The review process is simple,
-please take a look at the [General Reviews] section below.
+If you are part of the [GitLab Team](/team/), please contribute! The review process is simple,
+please take a look at the [General Publishing Process] below.
 </div>
 </div>
 
 <div class="panel panel-success">
-#### <i class="fa fa-hashtag" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Events Posts
+#### <i class="fa fa-hashtag fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Events Posts
 {: .panel-heading #events-post}
 <div class="panel-body">
 Every 1st working day of the month we publish a post communicating the events for that following
@@ -155,45 +155,48 @@ Events posts are also submitted to [General Reviews].
 </div>
 
 <div class="panel panel-info">
-#### <i class="fa fa-heart" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Community Posts
+#### <i class="fa fa-heart fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Community Posts
 {: .panel-heading #community-posts}
 <div class="panel-body">
 If you are not a GitLab Team member, you're also very welcome to write for us. There are a few aspects to consider,
-described on the section [Community Writers] below.
+described on the section [Community Writers](community-writers/).
 
 If you are a GitLab happy customer or a happy user, we'll be delighted to see your post in
 our Blog! And to make you even happier, we **compensate** you for your contributions, under
 specific circumstances. Note that this is the only type of post that offers financial compensation.
 
-The community posts follow a particular [publishing process].
+The community posts follow a particular [publishing process](#publishing-process-for-community-writers).
 
-If you are looking for examples for community posts, check "[Building an iOS app with GitLab CI]",
-"[Publishing your website on GitLab.com with GitLab Pages]", and "[Let's Encrypt for GitLab Pages]".
+If you are looking for examples for community posts, check [Setting up GitLab CI for iOS projects][post-iOS-CI],
+[Hosting on GitLab.com with GitLab Pages][post-pages], and [Tutorial: Securing your GitLab Pages with TLS and Let's Encrypt][post-lets-encrypt].
 
-**Note:** if you want to describe your own product, and how to use it with GitLab, we'll be happy to publish your
-post as a GitLab Guest Writer, not as a community post. If you are a GitLab official partner,
-we'll be happy to see your post too! Please check, we have specific procedures for both [Guest Posts] and [Partner Posts].
+**Note:** if you want to describe **your own product**, and how to use it with GitLab, we'll be happy to publish your
+article as a [GitLab Guest Post](#guest-posts), not as a community post. If you are a GitLab official partner,
+we'll be happy to see your post too! Please check, we have specific procedures for both [Guest Posts](#guest-posts) and [Partner Posts](#partner-posts).
 {: .note}
 </div>
 </div>
 
 <div class="panel panel-warning">
-#### <i class="fa fa-rocket" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Guest Posts
+#### <i class="fa fa-rocket fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Guest Posts
 {: .panel-heading #guest-posts}
 <div class="panel-body">
 These posts are specific for community members that want to write about their own tools,
 features, and software integrations with GitLab. They can be written by the owners,
 executives or any team members of those companies, and will be reviewed by the GitLab
-Blog Editors according to the [publishing process] for guest posts.
+Blog Editors according to the [Publishing Process for Guest Writers](#publishing-process-for-guest-writers).
 
-For instance, we've had the post on [Integrating GitLab with Microsoft Azure]. It was
+For instance, we've had the post on [Integrating GitLab with Microsoft Azure][azure-post]. It was
 written by one of Microsoft's employees, then reviewed and polished by our own Technical
-Writers. A similar process occurred to publish the post on [Continuous Delivery with GitLab and Convox].
+Writers. A similar process occurred to publish the post on [Continuous Delivery with GitLab and Convox][convox-post].
+
+**Note:** we do not offer compensation for Guest Posts.
+{:.note}
 </div>
 </div>
 
 <div class="panel panel-danger">
-#### <i class="fa fa-institution" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Partner Posts
+#### <i class="fa fa-institution fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Partner Posts
 {: .panel-heading #partner-posts}
 <div class="panel-body">
 These posts are specific for official GitLab Partners. The drill for these posts is flexible, and 
@@ -205,26 +208,26 @@ Examples: integration with [Koding], [Digital Ocean], [Yubico], [Mattermost], [P
 </div>
 
 <div class="panel panel-gitlab-orange">
-#### <i class="fa fa-refresh" style="font-size:.85em" aria-hidden="true"></i> Ghost Posts
+#### <i class="fa fa-refresh fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Ghost Posts
 {: .panel-heading #ghost-posts}
 <div class="panel-body">
 Ghost posts are part of a special category of posts, written by ghostwriters contracted by
 GitLab with this specific purpose. They are based on interviews with GitLab Executives,
-reviewed by GitLab Team members and Blog Editors, and approved by the GitLab Executive member assigned as
+reviewed by GitLab Team members and Blog Editors, and approved by the GitLab Team member assigned as
 author of the post.
 
-Check the section [Ghost Writers] below for more details.
+Check the section [Publishing Process for Ghost Writers](#publishing-process-for-ghost-writers) below for more details.
 </div>
 </div>
 
 <div class="panel panel-gitlab-purple">
-#### <i class="fa fa-rss" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Crossposts
+#### <i class="fa fa-rss fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Crossposts
 {: .panel-heading #crossposts}
 <div class="panel-body">
 These are great posts written by our community and published originally by another communication channel.
 The writer is invited to reach us via Twitter or email (`community@gitlab.com`) asking to repost his/her
 article in our blog. Your post will be evaluated by our Editors and, if accepted, will follow a [particular
-publishing process] for crossposts. 
+publishing process](#publishing-process-for-crossposts) for crossposts. 
 
 If we find your post ourselves, we'll reach you out and ask for your approval for cross-posting it. If you
 are interested and agree with the [publishing process] and the quick review, your post will get reposted.
@@ -234,22 +237,29 @@ gain extra visibility across the web!
 </div>
 </div>
 
+### GitLab Community Writers Program
+{: #community-writers}
+
+Read through the terms on the [Community Writers Program](community-writers/).
+
 ### Publishing Processes
+
+#### Blog Editorial Team
 
 The publishing process is simple and is conducted for our Blog Editors and reviewers. Check their roles:
 
-- Blog Editorial: Erica Lindberg ([@Lindberg]), Content Marketing Manager
+- **Blog Editorial Manager:** Erica Lindberg ([@Lindberg]), Content Marketing Manager
   - Blog Content Calendar manager
   - Content strategy
   - Content priority
   - Content approval
   - English review and approval
   - Social media promotion
-- Technical Editorial: Marcia Ramos ([@marcia]), Technical Writer
+- **Blog Technical Editorial:** Marcia Ramos ([@marcia]), Technical Writer
   - Technical review and approval
   - Markdown, structure, and flow review and approval
-  - Merge master
-- Technical Reviewers: any GitLab Team member with technical expertize on the post's subject
+  - Merge to master
+- **Blog Technical Reviewers:** any GitLab Team member with technical expertize on the post's subject
   - Technical review and approval
   - Test and reproduce methods and procedures
 
@@ -261,65 +271,112 @@ The publishing process is simple and is conducted for our Blog Editors and revie
 1. Submit an issue on the [blog posts issue tracker][blog-tracker] containing the previous items (or pick up one of the existing issues)
 1. Mention Erica @Lindberg for feedback on your proposal and on your outlines
   - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
-  - She will ask for an ETA on your first draft
-  - She will evaluate the priority, and estimate a due date for publishing (issue due date)
-  - She will give you a thumbs up 👍 to start writing (@mention you saying "you're good to go!")
+  - Erica will ask for an ETA on your first draft
+  - Erica will evaluate the priority, and estimate a due date for publishing (issue due date)
+  - Erica will give you a thumbs up 👍 to start writing (@mention you saying "you're good to go!")
 1. Write the post according to the [Professional Writing Techniques][writing-tech] and to the [Markdown Guide]
 1. Submit your draft as a WIP MR (Work in Progress Merge Request) to the [GitLab website project][gitlabwww]
 1. You'll get [reviewed](#general-reviews) and feedback from our Editorial Team
 1. Your post will be published
-1. Marketing Team will post on social media (Twitter/Facebook)
+1. Marketing Team will promote on social media (Twitter/Facebook)
 
 #### General Reviews
 
 - 1st review: Marcia (when technical), Erica (when non-technical)
-- Structure, flow, and markdown: Marcia
-- Technical review: Marcia, Axil, and/or one of the developers (depending on the content)
+- Structural review: post structure, flow, and markdown: Marcia
+- Technical review: Marcia, [Axil], [Sean], and/or one of the developers (depending on the content)
 - Last review (content, English): Erica
-- Last [check](#check-list-before-merging) (preview, markdown, images, date, build) and merge: Marcia (or Erica)
+- Last [check](#check-list-before-merging) (preview, markdown, images, date, build) and merge: Marcia or Erica
 
-Read the section [How to conduct a review] for further details.
+Read the section [Performing Reviews](#performing-reviews) for further details.
 
 #### Publishing process for Community Writers
 
-For our [community writers], we will follow the Scalable Writing System described below.
+For our [community writers], we will follow the Scalable Writing System described below, coordinated by the [Blog Editorial Team].
 
 1. Community Writer - choose a subject:
    - Make sure you are familiar with the [GitLab Workflow]
-   - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> labeled with `up-for-grabs` or create a new one (only if your proposal is relevant for one of the [current important topics](#topics-community-writers)).
-   - Leave a comment "@Lindberg I would like to write this and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample)."
+   - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with `up-for-grabs` or create a new one (only if your proposal is relevant for one of the [current important topics](#topics-community-writers)).
+   - Leave a comment "@Lindberg I would like to write this post and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample) and the [proposed outlines](#outlines)."
 1. Content Marketing - analyses the proposal:
   - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
-  - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it`
+  - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
+  - If the issue isn't labeled with the [compensation labels](#compensation-labels) (`$100`, `$150`, `TOP PRIORITY +$50`) yet, Erica will define the compensation the post is worth and attribute the correct label(s).
+  - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it` and `community post`.
+  - Erica will ask for an ETA on your first draft
+  - Erica will evaluate the priority, and estimate a due date for publishing (issue due date)
 1. Community Writer: prepare your local environment and submit the article
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
   - Write according to the [Professional Writing Techniques][writing-tech], and to the [Markdown Guide]
-  - Submit a [WIP MR] with the proposal and mention @Lindberg for the first pass
-1. [General Review](#general-reviews)
-1. When your post gets ready:
+  - Submit a [Work in Progress Merge Request (WIP MR)][WIP MR] with the proposal and mention @Lindberg for the first pass
+1. GitLab - [General Review](#general-reviews)
+1. GitLab - When your post gets ready:
   - Marcia will change your MR from your branch into `gitlab.com: master` to another branch `gitlab.com: feature-branch`
   - Marcia will merge your MR into the new feature-branch and:
        - Create a new MR that closes the blog post issue
        - Preview the post locally
        - Upload the preview screenshot to the new MR thread
-  - Marcia and Erica can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the written content)
-  - Erica will place the final date for publishing and create the copyedit for social media (140 chars tops)
+  - Marcia and Erica can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the content)
+  - Erica will place the final date for publishing and create the copyedit for social media (140 chars tops, including the post link)
 1. On the publishing date:
-  - Marcia (or Erica) will merge your post into `master`
-  - Erica (or Marcia) will promote in social media: Twitter and/or Facebook
-1. After the publishing date: compensate the writer (when compensations applies)
+  - Marcia or Erica will merge your post into `master`
+  - Erica or Marcia will promote in social media: Twitter and/or Facebook
+1. After the publishing date: compensate the writer (when compensation applies)
   - Erica email the writer to wire the money
   - Community writer will get paid
 
 **Important:** make sure the last section of the post is "About the community author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
+{: .alert .alert-warning}
 
 **Important:** never write your draft on pre-styled text editors like Google Docs or Microsoft Word. They don't use the same
 character encoding as markdown does (UTF-8), and it may cause issues when rendering markdown into HTML. Please use one of
 the [recommended code editors][code-editors].
+{: #sample .alert .alert-warning}
 
-**Note:** writing sample: any article or post written by yourself, or a sample of ~200 chars on a related topic.
-{: #sample}
+**Sample:** your writing sample can be any technical article or post already written by yourself, or a sample of ~200 chars on a related topic.
+{: #sample .alert .alert-info}
 
+**Outlines:** draw the post outlines, which is the sequence of topics to write about, as a skeleton with the headings you propose to follow along in your post. The blog editors will discuss them with you, and review if necessary.
+{: #outlines .alert .alert-info}
+
+#### Publishing process for Guest Writers
+
+To be included
+
+#### Publishing process for Ghost Writers
+
+To be included
+
+#### Publishing process for CrossPosts
+
+To be included
+
+### Labels Strategy
+{: #labels}
+
+Every blog post should carry a label, in both issues and merge requests:
+
+- Release
+- Blog Post (for GitLab team members)
+- Events Post
+- Community Post
+- Guest Post
+- Partner Post
+- Ghost Post
+- Crosspost
+- Up-for-grabs: posts opened to the community and guests
+- On-it: posts that are being written
+
+#### Labels Exclusive for Community Posts
+{: #compensation-labels}
+
+The following labels define the [compensation](community-writers/#compensation) the post is worth it, corresponding to its length, importance to our Content Strategy, and to our community.
+
+- `$100` = post worth USD 100.00: short tutorials of 800-1500 words
+- `$150` = post worth USD 150.00: in-depth tutorials or opinion pieces of 1,500+ words
+- `TOP PRIORITY +$50` = top priority posts, worth **plus** USD 50.00
+
+**Important:** these labels should be added by the [Blog Editorial Team] members only. if you find a post that you think should receive one of these labels, please @mention one of the editors in the issue or MR. They will evaluate your request and attributte the proper label.
 
 ### Blog Post Issue Tracker
 
@@ -329,6 +386,10 @@ To keep things clear for everyone, we assume:
 - Anything that is assigned to a person or labels with `on it` is "in progress"
 - Anything that has a `WIP` MR is ready for review
 - Any MR that does not have a `WIP` is ready to be merged
+
+### Performing Reviews
+
+To be included
 
 ### Styles
 
@@ -736,7 +797,7 @@ specific matters are still being discussed and polished.
 [backlog]: https://dev.gitlab.org/gitlab/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&author_id=&assignee_id=0&milestone_title=&label_name=
 [Blog post style guide]: https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
-[Community Writers]: https://about.gitlab.com/community/writers
+[Community Writers]: community-writers/
 [example]: /handbook/marketing/developer-relations/technical-writing/#st-subject-audience-requirements
 [GitLab]: //about.gitlab.com
 [GitLab Flow]: //doc.gitlab.com/ee/workflow/gitlab_flow.html
@@ -803,7 +864,18 @@ specific matters are still being discussed and polished.
 [@Lindberg]: https://gitlab.com/u/Lindberg
 [@marcia]: https://gitlab.com/u/marcia
 [code-editors]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#markdown-editors
-
+[post-iOS-CI]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
+[post-pages]: /2016/04/07/gitlab-pages-setup/
+[post-lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
+[Blog Editorial Team]: #blog-editorial-team
+[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[azure-post]: /2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/
+[convox-post]: /2016/06/09/continuous-delivery-with-gitlab-and-convox/
+[General Reviews]: #general-reviews
+[General Publishing Process]: #general-publications
+[Blog Editorial Team]: #blog-editorial-team
+[Axil]: https://gitlab.com/u/axil
+[Sean]: https://gitlab.com/u/SeanPackham
 
 <!-- Styles -->
 
