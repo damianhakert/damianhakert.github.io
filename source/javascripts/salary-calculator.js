@@ -129,7 +129,7 @@
 
       this.renderContractType(contract);
 
-      if (input.experience === '0.8 - 1.2') {
+      if (input.experience === '0.8 to 1.2') {
         var container = salaryContainer + ' .experience';
         var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 0.8);
         var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 1.2);
