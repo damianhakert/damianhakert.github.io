@@ -2,7 +2,6 @@
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var compensationTitle = salaryContainer + ' .compensation .title';
-  var contractorFactor = (1 + 1/6);
 
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
@@ -69,18 +68,20 @@
       $(compensationAmount).text('--');
     }
 
-    SalaryCalculator.prototype.renderContractType = function(factor) {
-      var $contractType = $('.salary-contract-type');
-      if (factor === contractorFactor) {
-        $contractType.find('span').text('a');
-        $contractType.find('strong').text('contractor');
+    SalaryCalculator.prototype.renderContractType = function(contract) {
+      var $container = $('.contract-type-container');
+      if (contract.hasOwnProperty('type') && contract.type.toLowerCase() === 'employee') {
+        $container.find('.grammer').text('an');
+        $container.find('.contract-type').text('employee');
+        $container.find('.company-type').text('Inc.');
       } else {
-        $contractType.find('span').text('an');
-        $contractType.find('strong').text('employee');
+        $container.find('.grammer').text('a');
+        $container.find('.contract-type').text('contractor');
+        $container.find('.company-type').text('BV.');
       }
     }
 
-    SalaryCalculator.prototype.renderCompensation = function(input, numbeo, contractTypes, payscale) {
+    SalaryCalculator.prototype.renderCompensation = function(input, numbeo, contracts, payscale) {
       var levelIndex = parseInt(input.level);
       var experienceFactor = parseFloat(input.experience);
 
@@ -97,20 +98,20 @@
         return this.renderError();
       }
 
-      var contractType = contractTypes.find(function(o) {
+      var contract = contracts.find(function(o) {
         return o.country === input.country;
       }) || { factor: (1 + 1/6) };
 
-      this.renderContractType(contractType.factor);
+      this.renderContractType(contract);
 
       if (input.experience === '0.8 - 1.2') {
         var container = salaryContainer + ' .experience';
-        var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 0.8);
-        var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, 1.2);
+        var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 0.8);
+        var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 1.2);
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
         $(compensationTitle).text('Compensation Range');
       } else {
-        var compensation = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contractType.factor, experienceFactor);
+        var compensation = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, experienceFactor);
         $(compensationAmount).text(this.formatAmount(compensation));
         $(compensationTitle).text('Estimated Compensation');
       }
