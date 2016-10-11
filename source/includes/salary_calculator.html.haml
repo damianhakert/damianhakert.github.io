@@ -85,26 +85,33 @@
       %h4 How did we calculate your compensation?
       .formula
         .variable
-          %span.name NYC Benchmark
+          %span.name Benchmark
           %span.value $87,337
-        .symbol x
-        .symbol.parenthesis (
+        .symbol.multiplication x
+        .symbol (
         .variable
           %span.name Rent Index
           %span.value 1.0
         .symbol +
-        .variable
-          %span.value 0.25
-        .symbol.parenthesis )
-        .symbol x
+        .constant 0.25
+        .symbol )
+        .symbol.multiplication x
+        .symbol (
+        .symbol (
         .variable
           %span.name Level
           %span.value 1.0
-        .symbol x
+        .symbol +
+        .constant 4
+        .symbol )
+        .symbol /
+        .constant 5
+        .symbol )
+        .symbol.multiplication x
         .variable
           %span.name Experience
           %span.value 1.0
-        .symbol x
+        .symbol.multiplication x
         .variable
           %span.name Contract Type
           %span.value 1.0

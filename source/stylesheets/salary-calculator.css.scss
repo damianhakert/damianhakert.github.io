@@ -68,31 +68,44 @@
   }
 
   .formula {
+    text-align: center;
+    color: #9d9d9d;
     padding-bottom: 20px;
     font-size: 14px;
   }
 
   .variable,
-  .symbol {
+  .symbol,
+  .constant {
     display: inline-block;
+  }
+
+  .variable,
+  .symbol {
     padding: 3px 8px;
   }
 
   .variable {
     border: 1px solid #eaeaea;
+    background-color: #f9f9f9;
 
     .name {
+      color: #444;
       padding-right: 8px;
-      border-right: 1px solid #eaeaea;
+      border-right: 1px solid #9d9d9d;
+    }
+
+    .value {
+      background-color: white;
     }
 
     .name + .value {
       padding-left: 5px;
+      background-color: #f9f9f9;
     }
   }
 
-  .symbol + .symbol.parenthesis,
-  .variable + .symbol.parenthesis {
+  .symbol:not(.multiplication) {
     padding: 0;
   }
 }
