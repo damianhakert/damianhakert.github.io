@@ -41,4 +41,9 @@
     color: #aaa;
     float: right;
   }
+
+  &.dropdown-scroll{
+    max-height: 215px;
+    overflow-y: scroll;
+  }
 }
