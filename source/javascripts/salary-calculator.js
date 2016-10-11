@@ -134,7 +134,7 @@
         var min = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 0.8);
         var max = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, 1.2);
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
-        $(compensationTitle).text('Compensation Range');
+        $(compensationTitle).text('Estimated Range');
       } else {
         var compensation = this.calculate(benchmark.salary, location.rentIndex, levelIndex, contract.factor, experienceFactor);
         $(compensationAmount).text(this.formatAmount(compensation));
