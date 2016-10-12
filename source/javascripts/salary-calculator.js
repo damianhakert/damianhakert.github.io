@@ -215,7 +215,7 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {
-      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * ((levelIndex + 4)/5) * contractType * experienceFactor);
+      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * (levelIndex + 4)/5 * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
