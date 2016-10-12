@@ -36,7 +36,7 @@
 
     }
 
-    // Dropdown Core functionality (Refactor)
+    // Dropdown Core functionality
 
     SalaryCalculator.prototype.setDropdown = function(event) {
       var key = $(this).find('.key').text();
@@ -82,6 +82,7 @@
     }
 
     // Render functions
+
     SalaryCalculator.prototype.getData = function() {
       var deferred = jQuery.Deferred();
 
@@ -121,14 +122,10 @@
     SalaryCalculator.prototype.renderCompensation = function(input) {
       var numbeo = this.data.numbeo;
       var contracts = this.data.contractTypes;
-      var payscale = this.data.payscale;
 
       var levelIndex = parseInt(input.level);
       var experienceFactor = parseFloat(input.experience);
-
-      var benchmark = payscale.find(function(o) {
-        return o.title.toLowerCase() === input.title.toLowerCase();
-      });
+      var benchmark = input.salary;
 
       var rentIndex = this.calculateRentIndex(input.city, input.country)
 
@@ -142,12 +139,12 @@
 
       if (input.experience === '0.8 to 1.2') {
         var container = salaryContainer + ' .experience';
-        var min = this.calculateCompensation(benchmark.salary, rentIndex, levelIndex, contract.factor, 0.8);
-        var max = this.calculateCompensation(benchmark.salary, rentIndex, levelIndex, contract.factor, 1.2);
+        var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 0.8);
+        var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 1.2);
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
         $(compensationTitle).text('Estimated Range');
       } else {
-        var compensation = this.calculateCompensation(benchmark.salary, rentIndex, levelIndex, contract.factor, experienceFactor);
+        var compensation = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, experienceFactor);
         $(compensationAmount).text(this.formatAmount(compensation));
         $(compensationTitle).text('Estimated Compensation');
       }
@@ -185,7 +182,7 @@
 
     SalaryCalculator.prototype.getElementValues = function() {
       return {
-        title: $(salaryContainer).data('title') || '',
+        salary: $(salaryContainer).data('salary') || '',
         country: $(salaryContainer + ' .country .title').data('selected') || '',
         city: $(salaryContainer + ' .city .title').data('selected') || '',
         level: $(salaryContainer + ' .level .title').data('selected') || '',
