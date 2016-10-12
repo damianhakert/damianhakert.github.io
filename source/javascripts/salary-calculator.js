@@ -124,7 +124,7 @@
       var numbeo = this.data.numbeo;
       var contracts = this.data.contractTypes;
 
-      var levelIndex = parseInt(input.level, 10);
+      var levelIndex = parseFloat(input.level);
       var experienceFactor = parseFloat(input.experience);
       var benchmark = input.salary;
 
@@ -215,7 +215,7 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {
-      return Math.round(benchmark * (rentIndex + 0.25) * (levelIndex + 4)/5 * contractType * experienceFactor);
+      return Math.round(benchmark * (rentIndex + 0.25) * levelIndex * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
