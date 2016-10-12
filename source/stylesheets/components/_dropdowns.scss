@@ -2,11 +2,11 @@
   position: relative;
   width: 160px;
   padding: 6px 20px 6px 10px;
-  background-color: #fff;
-  color: #626262;
+  background-color: $color-white;
+  color: $dropdown-text-color;
   font-size: 15px;
   text-align: left;
-  border: 1px solid #eaeaea;
+  border: 1px solid $dropdown-border-color;
   border-radius: 3px;
   outline: 0;
   text-overflow: ellipsis;
@@ -18,7 +18,7 @@
     top: 50%;
     right: 6px;
     margin-top: -6px;
-    color: #c4c4c4;
+    color: $dropdown-focus-color;
     font-size: 10px;
   }
 
@@ -26,23 +26,23 @@
   &:focus {
     outline: 0;
     box-shadow: none;
-    border-color: #c4c4c4;
+    border-color: $dropdown-focus-color;
   }
 
   .subtitle {
-    color: #aaa;
+    color: $color-gray-light;
     float: right;
   }
 }
 
-.dropdown-menu { 
+.dropdown-menu {
   .value,
   .display-value {
-    color: #aaa;
+    color: $color-gray-light;
     float: right;
   }
 
-  &.dropdown-scroll{
+  &.dropdown-scroll {
     max-height: 215px;
     overflow-y: scroll;
   }
