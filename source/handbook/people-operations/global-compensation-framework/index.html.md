@@ -8,10 +8,8 @@ title: Global Compensation Framework
 
 1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We've developed a [compensation calculator](#compensation-calculator) that provides an estimate for various roles, across the globe.
 1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. Many of our team members took a pay cut when they joined because we have the better-than-market benefits of
-   - being a remote-only company (flexible, freedom),
-   - working on open source (great workflow, peers, build reputation).
-1. We also offer [stock options](/handbook/stock-options/) for most positions.
+1. We don't want people to select GitLab because of the compensation and we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom, see the [Top 10 reasons to work for GitLab on our culture page](/culture/#advantages/).
+1. We offer [stock options](/handbook/stock-options/) for most positions.
 1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even sometimes (although rarely) lower compensation.
 1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask their manager if they think they are due for a raise.
 1. The market rate depends on your metro region. When you move [you have to inform us](#relocation) and we may adjust your compensation up or down.
@@ -25,13 +23,13 @@ As a natural extension of the [Compensation Principles](#compensation-principles
 
 ### The formula
 
-Your compensation = `Benchmark compensation` x `Rent Index + 25%` x `(Level+4)/5` x `Experience Factor` x `Contract Type Factor`
+Your compensation = `Benchmark compensation` x `Rent Index + 25%` x `Level Factor` x `Experience Factor` x `Contract Type Factor`
 
 where:
 
 - `Benchmark compensation` is typically a median employee salary for the role in New York, as found on publicly available sources such as [Payscale](www.payscale.com) and others.
 - `Rent Index` is taken from [Numbeo](https://www.numbeo.com/cost-of-living/rankings.jsp), which expresses the ratio of cost of rent in many metro areas to the average cost of rent in New York City (i.e. Rent Index in New York = 1.00). As explained in more detail below, we add 25% to this regardless of location, which reflects the fact that we hire better than median performers. If your metro area is not listed, please list the nearest one that seems comparable.
-- `Level` is currently defined as junior (0), intermediate (1), senior (2), or lead (3)
+- `Level Factor` is currently defined as junior (0.8), intermediate (1.0), senior (1.2), or lead (1.4)
 - `Experience Factor` falls between 80% - 120%
 - `Contract Type Factor` distinguishes between employee or contractor, and can be a different factor in each country; see below for further explanation.
 
@@ -42,3 +40,11 @@ In developing the compensation formula above, we looked at the compensation of o
 It was a small step to go from the initial linear regression to picking the coefficients that are now in the formula, except that we 'discovered' that an offset was needed in the Rent Index to make things work (i.e. to have the formula 'predict' compensations that were in line with current actual compensations). As a consequence of this offset of 25%, for an employee in New York their median compensation will be 25% _higher_ than what the New York benchmark would have suggested. This probably reflects that we generally hire better than 'median' performers.
 
 The contract type factor helps to make the distinction between an employee and a contractor for those countries where we offer both contract types. For example, a typical contractor may have to bear the costs of their own health insurance, social security taxes and so forth, leading to a higher compensation for the contractor. As another example the costs also vary for employees between countries, for example if there are more government mandated programs, this commonly leads to more costs for the employer and a lower pay for the individual. The contract type factor is meant to capture these differences.
+
+#### Contract Type Factors
+
+This list will be expanded as we gain more experience with the calculator and as we are able to offer employee contracts (as opposed to only contractor contracts) in various countries.
+
+- Netherlands: Employee (0.8); Contractor (1.17)
+- USA: Employee (1.0); Contractor (1.17)
+- UK: Employee (0.9); Contractor (1.17)
