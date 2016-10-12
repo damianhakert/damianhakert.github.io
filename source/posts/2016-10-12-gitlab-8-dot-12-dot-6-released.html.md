@@ -3,7 +3,7 @@ title: "GitLab 8.12.6 released"
 author: Stan Hu
 author_twitter: stanhu
 categories: release
-date: 2016-10-12 00:0
+date: 2016-10-12 02:35
 ---
 
 Today we are releasing version 8.12.6 for GitLab Community Edition (CE) and
