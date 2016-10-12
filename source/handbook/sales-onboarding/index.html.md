@@ -5,7 +5,9 @@ title: "Sales Onboarding"
 
 When a GitLab salesperson starts they will need to complete a 4 week intensive sales bootcamp.
 
-Their manager will create an issue for each of the 4 weeks to track their progress.
+Their manager will create an issue for each of the 4 weeks to track their progress
+by copying the content from the
+[raw Markdown source](https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/sales-onboarding/index.html.md).
 
 ## Weekly Planning
 
