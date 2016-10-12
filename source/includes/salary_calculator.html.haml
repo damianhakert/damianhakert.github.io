@@ -7,7 +7,7 @@
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
 - if job.length == 1 and job[0].salary
   .salary-container.col-xs-12{data: {salary: job[0].salary}}
-    %h2 Estimate your compensation
+    %h2 Your compensation
     .col-sm-8
       .col-sm-6
         .dropdown.experience
@@ -69,7 +69,7 @@
                 %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
       .compensation
-        .title Estimated Compensation
+        .title Compensation
         .amount --
     .col-sm-12.note
       Learn about our
