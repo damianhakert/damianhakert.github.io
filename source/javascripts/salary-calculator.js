@@ -168,7 +168,6 @@
 
     SalaryCalculator.prototype.renderFormula = function() {
       var values = this.getElementValues();
-      console.log(values);
       $('.formula .level .value').text(values.level ? values.level : '--');
       $('.formula .experience .value').text(values.experience ? values.experience : '--');
 
