@@ -200,17 +200,12 @@
   .community-image {
     position: relative;
     float: left;
-    width: 16.66%;
-    padding-top: 16.66%;
+    width: 12.5%;
+    padding-top: 12.5%;
     height: auto;
     overflow: hidden;
 
     @media (min-width: 768px) {
-      width: 12.5%;
-      padding-top: 12.5%;
-    }
-
-    @media (min-width: 990px) {
       width: 6.25%;
       padding-top: 6.25%;
     }

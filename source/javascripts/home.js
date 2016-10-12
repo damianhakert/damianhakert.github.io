@@ -28,24 +28,18 @@ $(function () {
   var $community = $('#js-landing-community');
 
   if ($community.length) {
-    var cutoff = Math.floor(($community.height() / 100) * 40),
-        imgsRowCount = 6,
+    var cutoff = $community.height(),
+        imgsRowCount = 8,
         rowCount = 0,
-        imgSize = 55,
+        imgSize = 96,
         windowWidth = $(window).width();
 
     if (windowWidth >= 1200) {
-      cutoff = Math.floor(($community.height() / 100) * 75)
       imgsRowCount = 20;
       imgSize = 60;
-    } else if (windowWidth >= 990) {
-      cutoff = Math.floor(($community.height() / 100) * 55)
+    } else if (windowWidth >= 768) {
       imgsRowCount = 16;
       imgSize = 75;
-    } else if (windowWidth >= 768) {
-      cutoff = Math.floor(($community.height() / 100) * 40)
-      imgsRowCount = 8;
-      imgSize = 96;
     }
 
     rowCount = Math.ceil(cutoff / imgSize);
