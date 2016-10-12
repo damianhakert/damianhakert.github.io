@@ -2,11 +2,13 @@
 layout: markdown_page
 title: Servce Engineer Bootcamp Checklist
 ---
+
 ## Bootcamp Checklist for Training of New Service Engineers
 <a name="checklist"></a>
 
-Your hiring manager should create an issue with this checklist for you as part of your onboarding.
-This list looks strange in this handbook because it is formatted to be copy-pasted.
+Your hiring manager should create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/) for you as part of your onboarding.
+This list looks strange in this handbook because it is formatted to be copy-pasted into an issue and then render properly there.
+
 The topics are generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
@@ -20,15 +22,19 @@ that you can think of. If an item does not start with a role or name of someone 
 
 ### Stage 0: Complete general onboarding to have all necessary accounts and permissions
 
+- [ ] **Done with Stage 0**
+
 _Typically completed within first week_
 
-1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1,2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
+1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1, 2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2-3 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2-3 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
 1. [ ] General Onboarding Checklist: this should have been created for you on dev.gitlab.org as an issue by PeopleOps when you were hired.
    1. [ ] Finish every item on that list starting with `New team member:` until you are waiting for someone to answer a question or do something before you can continue that list.
    1. [ ] Start with Stage 1 here, but also with the first steps in Stage 2 and Stage 3.
    1. [ ] Check back daily on what was blocking you on your General Onboarding Checklist until that list is completely done, then focus on this one.
 
 ### Stage 1: Become familiar with git and GitLab basics
+
+- [ ] **Done with Stage 1**
 
 _Typically started in first week, completed by end of second week_
 
@@ -59,6 +65,8 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
   1. [ ] For the rest of the topics in `user training`, just do a quick read over the file names so you start remembering where to find them.
 
 ### Stage 2. Installation and Administration basics.
+
+- [ ] **Done with Stage 2**
 
 _Typically started in first week, completed by end of third week_
 
@@ -105,6 +113,8 @@ Installation from source is not common but will give you a greater understanding
 1. [ ] Ask as many questions as you can think of on the `#support` chat channel
 
 ### Stage 3. Customer Interaction through Zendesk
+
+- [ ] **Done with Stage 3**
 
 _Typically started in first week, and completed by the end of the fourth week_
 
@@ -170,17 +180,19 @@ Some tickets need specific knowledge or a deep understanding of a particular com
 1. [ ] If raising a new issue always provide a relevant label and a link to the relevant ticket in Zendesk
 1. [ ] Add [customer labels](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=customer) for those issues relevant to our subscribers
 1. [ ] Take a look at the [existing issue templates](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker) to see what is expected
-1. [ ] Raise issues for bugs in a manner that would make the issue easily reproducible. A Developer or a contributor may work on your issue
-1. [ ] Schedule three 45 minute blocks with your trainer where you share your screen with them while you answer tickets on Zendesk, they give you feedback and answer your questions.
-  1. [ ] call with ___
-  1. [ ] call with ___
-  1. [ ] call with ___
+1. [ ] Raise issues for bugs in a manner that would make the issue easily reproducible. A Developer or a contributor may work on your issue.
+1. [ ] Schedule a 45 minute call with your trainer where you share your screen
+with them while you answer tickets on Zendesk, they give you feedback and answer
+your questions. The goal with this call is for your trainer to pass on tactical
+knowledge about the ticket handling process. Repeat this step a few times if that seems useful.
 
 ### Congratulations. You now have your Zendesk Wings!
 
 ### From now on you can spend most of your work time answering tickets on Zendesk, try to set aside 2 hours per day to make it through **Stage 4-6** of this list. Never hesitate to ask as many questions as you can think of on the `#support` chat channel
 
 ### Stage 4. Customer Calls
+
+- [ ] **Done with Stage 4**
 
 _Typically start this in week 2 or 3, complete by end of week 4._
 
@@ -205,33 +217,36 @@ Look at the `GitLab Support` Google Calendar to find customer calls you can list
   1. [ ] Upgrade calls
      1. [ ] call with ___
      1. [ ] call with ___
-  1. [ ] Emergency calls
-     1. [ ] call with ___
-     1. [ ] call with ___
 
 ### Stage 5. Gathering Diagnostics
+
+- [ ] **Done with Stage 5**
 
 _Typically do this around the third week._
 
 **Goal** Understand the gathering of diagnostics for GitLab instances
 
 1. [ ] Learn about the GitLab checks that are available
-  1. [ ] [Environment Information and maintenance checks](http://docs.gitlab.com/ce/raketasks/maintenance.html)
-  1. [ ] [GitLab check](http://docs.gitlab.com/ce/raketasks/check.html)
-  1. [ ] Omnibus commands
-    1. [ ] [Status](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#get-service-status)
-    1. [ ] [Starting and stopping services](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#starting-and-stopping)
-    1. [ ] [Starting a rails console](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#invoking-rake-tasks)
+    1. [ ] [Environment Information and maintenance checks](http://docs.gitlab.com/ce/raketasks/maintenance.html)
+    1. [ ] [GitLab check](http://docs.gitlab.com/ce/raketasks/check.html)
+    1. [ ] Omnibus commands
+        1. [ ] [Status](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#get-service-status)
+        1. [ ] [Starting and stopping services](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#starting-and-stopping)
+        1. [ ] [Starting a rails console](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#invoking-rake-tasks)
 
 ### Stage 6. On Call Duty
 
-_Typically to be completed by the end of the first month._ 
+- [ ] **Done with Stage 6**
+
+_Typically to be completed by the end of the first month._
 
 **Goal** Aim to become a fully-fledged Service Engineer!
 
-1. [ ] Read about on-call duty, in [the handbook](https://about.gitlab.com/handbook/on-call/)
+1. [ ] Read about on-call duty, in [the handbook](https://about.gitlab.com/handbook/on-call/). On that page, the
+**Customer Emergency On-Call Rotation** section applies to Service Engineers, not the **Production Team** section.
 1. [ ] Schedule time with a Senior Service Engineer, to have them show you how to respond to Customer Emergencies.
 1. [ ] Ping the Support Lead to add you to PagerDuty, and familiarize yourself with the interface and the functionality.
+1. [ ] Sign up on PagerDuty with the link that will be emailed to you, and install the app on your phone.
 
 ### Stage 7. Optional Advanced GitLab Topics
 
