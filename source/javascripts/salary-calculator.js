@@ -74,9 +74,10 @@
 
     SalaryCalculator.prototype.resetCityDropdown = function() {
       var $cityDropdownBtn = $(salaryContainer + ' .city .btn');
+      var $cityDropdownTitle = $cityDropdownBtn.find('.title');
       $cityDropdownBtn.removeClass('disabled');
-      $cityDropdownBtn.find('.title').text('City');
-      $cityDropdownBtn.find('.title').data('selected', '');
+      $cityDropdownTitle.text('City');
+      $cityDropdownTitle.data('selected', '');
       $cityDropdownBtn.find('.subtitle').text('');
       this.renderInvalidCompensation();
       this.renderFormula();
