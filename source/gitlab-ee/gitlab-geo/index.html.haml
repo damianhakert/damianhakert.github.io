@@ -17,7 +17,7 @@ extra_css:
       .row.advantages
         .col-xs-1.col-md-1
         .col-xs-10.col-md-10
-          %h2 Overview
+          %h2 What are the advantages?
           %ul
             %li
               When development teams are spread across two or more teams geographical locations, but their
@@ -56,15 +56,15 @@ extra_css:
           %h2 Features
           %ul
             %li
-              %b Read-only secondaries
+              %b Read-only secondaries:
               Maintain one primary GitLab instance while still enabling a read-only secondary
               instance for each of your distributed teams.
             %li
-              %b Authentication system hooks
+              %b Authentication system hooks:
               The secondary instance receives all authentication data, like user accounts
               and logins, from the primary instance.
             %li
-              %b Intuitive UI
+              %b Intuitive UI:
               Secondaries utilize the same web interface your team has grown accustomed to. However, there
               are visual notifications that block write operations and make it clear that they are using the
               secondary instance.
@@ -77,18 +77,18 @@ extra_css:
         .col-md-5.hidden-xs.hidden-sm
         .col-xs-10.col-md-5
           %h2 Benefits
-          .architecture-text
-            %p
-              %b Time
+          %ul
+            %li
+              %b Time:
               Reduce the time it takes your distributed developers to clone and fetch large repos and
               projects from minutes to seconds.
-            %p
-              %b Collaboration
+            %li
+              %b Collaboration:
               Enable all of your developers to contribute ideas and work in parallel from each of their
               respective geographies.
-            %p
-              %b Scale
+            %li
+              %b Scale:
               Balance the load between your primary and secondary instance or you can offload your automated tests to the Geo secondary node.
         .hidden-xs.hidden-sm.col-md-6
 
-= partial "includes/features/gitlab-ee-trial"
+  = partial "includes/features/try-gitlab-ee"
