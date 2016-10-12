@@ -2,11 +2,13 @@
 layout: markdown_page
 title: Servce Engineer Bootcamp Checklist
 ---
+
 ## Bootcamp Checklist for Training of New Service Engineers
 <a name="checklist"></a>
 
-Your hiring manager should create an issue with this checklist for you as part of your onboarding.
-This list looks strange in this handbook because it is formatted to be copy-pasted.
+Your hiring manager should create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/) for you as part of your onboarding.
+This list looks strange in this handbook because it is formatted to be copy-pasted into an issue and then render properly there.
+
 The topics are generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
@@ -24,7 +26,7 @@ that you can think of. If an item does not start with a role or name of someone 
 
 _Typically completed within first week_
 
-1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1,2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
+1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1, 2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2-3 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2-3 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
 1. [ ] General Onboarding Checklist: this should have been created for you on dev.gitlab.org as an issue by PeopleOps when you were hired.
    1. [ ] Finish every item on that list starting with `New team member:` until you are waiting for someone to answer a question or do something before you can continue that list.
    1. [ ] Start with Stage 1 here, but also with the first steps in Stage 2 and Stage 3.
@@ -178,11 +180,11 @@ Some tickets need specific knowledge or a deep understanding of a particular com
 1. [ ] If raising a new issue always provide a relevant label and a link to the relevant ticket in Zendesk
 1. [ ] Add [customer labels](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=customer) for those issues relevant to our subscribers
 1. [ ] Take a look at the [existing issue templates](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker) to see what is expected
-1. [ ] Raise issues for bugs in a manner that would make the issue easily reproducible. A Developer or a contributor may work on your issue
+1. [ ] Raise issues for bugs in a manner that would make the issue easily reproducible. A Developer or a contributor may work on your issue.
 1. [ ] Schedule a 45 minute call with your trainer where you share your screen
 with them while you answer tickets on Zendesk, they give you feedback and answer
 your questions. The goal with this call is for your trainer to pass on tactical
-knowledge about the ticket handling process.
+knowledge about the ticket handling process. Repeat this step a few times if that seems useful.
 
 ### Congratulations. You now have your Zendesk Wings!
 
