@@ -73,8 +73,9 @@
         .amount --
     .col-sm-12.note
       Learn about our
-      %a contract types
-      \. We will usually pay you in your local currency.
+      = succeed '.' do
+        %a{:href => '/handbook/contracts'} contract types
+      We will usually pay you in your local currency.
       We expect you will be
       %span.contract-type-container
         %span.grammer a
@@ -117,5 +118,5 @@
           %span.value --
       .explanation
       Find out
-      %a how our calculator works
-      \.
+      = succeed '.' do
+        %a{:href => '/handbook/people-operations/global-compensation-framework'} how our calculator works
