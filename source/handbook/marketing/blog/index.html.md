@@ -755,11 +755,19 @@ So, following the same logic, your cover image would be named `my-awesome-post-c
 #### Cover image
 {: .no_toc}
 
-Choose a cover image for your post (1275x750 px). Try any public domain resource that
+Choose a cover image for your post. Try any public domain resource that
 reflects somehow your post's subject. In the absence of an image, use one of these:
 
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
+
+The cover image has the following proportions:
+
+On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
+On blog post page (widescreen): 1920px x 550px w/h = 3.5
+
+Try to have them harmonically aligned with the title,
+which overlays the background image in both cases.
 
 #### Creating GIFs
 {: .no_toc}
