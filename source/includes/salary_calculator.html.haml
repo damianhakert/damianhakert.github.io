@@ -83,23 +83,23 @@
     .col-sm-12.formula-container
       %h4 How did we calculate your compensation?
       .formula
-        .variable
+        .variable.benchmark
           %span.name Benchmark
           %span.value $87,337
         .symbol.multiplication x
         .symbol (
-        .variable
+        .variable.rentIndex
           %span.name Rent Index
-          %span.value 1.0
+          %span.value --
         .symbol +
         .constant 0.25
         .symbol )
         .symbol.multiplication x
         .symbol (
         .symbol (
-        .variable
+        .variable.level
           %span.name Level
-          %span.value 1.0
+          %span.value --
         .symbol +
         .constant 4
         .symbol )
@@ -107,13 +107,13 @@
         .constant 5
         .symbol )
         .symbol.multiplication x
-        .variable
+        .variable.experience
           %span.name Experience
-          %span.value 1.0
+          %span.value --
         .symbol.multiplication x
-        .variable
+        .variable.contractType
           %span.name Contract Type
-          %span.value 1.0
+          %span.value --
       .explanation
       Find out
       %a how our calculator works
