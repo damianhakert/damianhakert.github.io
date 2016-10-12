@@ -1,0 +1,6 @@
+- country: United States
+  type: Employee
+  factor: 1
+- country: Netherlands
+  type: Employee
+  factor: 0.8
