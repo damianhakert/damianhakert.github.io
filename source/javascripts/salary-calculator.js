@@ -170,7 +170,7 @@
 
       $('.formula .level .value').text(values.level ? values.level : defaultValue);
       $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
-      $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
+      $('.formula .rentIndex .value').text(rentIndex ? rentIndex.toFixed(2) : defaultValue);
       $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
 
@@ -196,7 +196,7 @@
           return o.country === country && o.city === city;
         });
 
-        return locationData ? locationData.rentIndex : 0;
+        return locationData ? locationData.rentIndex * 0.01 : 0;
       }
 
       // Rent Index will never be zero, safe to return as error value
@@ -215,7 +215,7 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {
-      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * (levelIndex + 4)/5 * contractType * experienceFactor);
+      return Math.round(benchmark * (rentIndex + 0.25) * (levelIndex + 4)/5 * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
