@@ -207,7 +207,7 @@
       if (this.data && this.data.contractTypes) {
         return this.data.contractTypes.find(function(o) {
           return o.country === country;
-        }) || { factor: (1 + 1/6) };
+        }) || { factor: 1.17 };
       }
 
       // Contract Type will never be zero, safe to return as error value
