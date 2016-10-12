@@ -5,7 +5,7 @@
 - current_page.data.extra_js += ['salary-calculator.js']
 
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
-- if job[0].salary
+- if job.length == 1 and job[0].salary
   .salary-container.col-xs-12{data: {salary: job[0].salary}}
     %h2 Estimate your compensation
     .col-sm-8
