@@ -1,5 +1,3 @@
-$hover-color: #f7faff;
-
 @import "variables";
 
 .salary-container {
@@ -33,7 +31,7 @@ $hover-color: #f7faff;
 
       &:hover {
         cursor: pointer;
-        background-color: $hover-color;
+        background-color: $dropdown-hover-color;
         text-decoration: none;
         outline: 0;
       }
@@ -113,6 +111,11 @@ $hover-color: #f7faff;
 
   .symbol:not(.multiplication) {
     padding: 0;
+  }
+
+  .variable-group {
+    display: inline-block;
+    white-space: no-wrap;
   }
 }
 

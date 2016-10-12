@@ -85,37 +85,42 @@
     .col-sm-12.formula-container
       %h4 How did we calculate your compensation?
       .formula
-        .variable.benchmark
-          %span.name Benchmark
-          %span.value= "$#{number_with_delimiter(job[0].salary, :delimiter => ',')}"
+        .variable-group
+          .variable.benchmark
+            %span.name Benchmark
+            %span.value= "$#{number_with_delimiter(job[0].salary, :delimiter => ',')}"
         .symbol.multiplication x
-        .symbol (
-        .variable.rentIndex
-          %span.name Rent Index
-          %span.value --
-        .symbol +
-        .constant 0.25
-        .symbol )
+        .variable-group
+          .symbol (
+          .variable.rentIndex
+            %span.name Rent Index
+            %span.value --
+          .symbol +
+          .constant 0.25
+          .symbol )
         .symbol.multiplication x
-        .symbol (
-        .symbol (
-        .variable.level
-          %span.name Level
-          %span.value --
-        .symbol +
-        .constant 4
-        .symbol )
-        .symbol /
-        .constant 5
-        .symbol )
+        .variable-group
+          .symbol (
+          .symbol (
+          .variable.level
+            %span.name Level
+            %span.value --
+          .symbol +
+          .constant 4
+          .symbol )
+          .symbol /
+          .constant 5
+          .symbol )
         .symbol.multiplication x
-        .variable.experience
-          %span.name Experience
-          %span.value --
+        .variable-group
+          .variable.experience
+            %span.name Experience
+            %span.value --
         .symbol.multiplication x
-        .variable.contractType
-          %span.name Contract Type
-          %span.value --
+        .variable-group
+          .variable.contractType
+            %span.name Contract Type
+            %span.value --
       .explanation
       Find out
       = succeed '.' do
