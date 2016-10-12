@@ -34,7 +34,6 @@
       // Render Formula
       $levelDropdown.click(this.renderFormula.bind(this));
       $experienceDropdown.click(this.renderFormula.bind(this));
-
     }
 
     // Dropdown Core functionality
@@ -129,18 +128,17 @@
       var experienceFactor = parseFloat(input.experience);
       var benchmark = input.salary;
 
-      var rentIndex = this.calculateRentIndex(input.city, input.country)
+      var rentIndex = this.calculateRentIndex(input.city, input.country);
+      var contract = this.calculateContractType(input.country);
 
       if (!rentIndex) {
         //When the city and country combination selected do not exist
         return this.renderInvalidCompensation();
       }
 
-      var contract = this.calculateContractType(input.country);
       this.renderContractType(contract);
 
       if (input.experience === '0.8 to 1.2') {
-        var container = salaryContainer + ' .experience';
         var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 0.8);
         var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 1.2);
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
@@ -167,11 +165,11 @@
 
     SalaryCalculator.prototype.renderFormula = function() {
       var values = this.getElementValues();
-      $('.formula .level .value').text(values.level ? values.level : defaultValue);
-      $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
-
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var contractType = this.calculateContractType(values.country);
+
+      $('.formula .level .value').text(values.level ? values.level : defaultValue);
+      $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
       $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
       $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
@@ -189,7 +187,7 @@
         city: $(salaryContainer + ' .city .title').data('selected') || '',
         level: $(salaryContainer + ' .level .title').data('selected') || '',
         experience: $(salaryContainer + ' .experience .title').data('selected') || ''
-      }
+      };
     }
 
     SalaryCalculator.prototype.calculateRentIndex = function(city, country) {
@@ -201,6 +199,7 @@
         return locationData ? locationData.rentIndex : 0;
       }
 
+      // Rent Index will never be zero, safe to return as error value
       return 0;
     }
 
@@ -211,11 +210,12 @@
         }) || { factor: (1 + 1/6) };
       }
 
+      // Contract Type will never be zero, safe to return as error value
       return 0;
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {
-      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * ((levelIndex + 4)/5) * contractType * experienceFactor)
+      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * ((levelIndex + 4)/5) * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
