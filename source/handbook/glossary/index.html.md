@@ -66,9 +66,9 @@ The following terms are often used in documentation, blog posts, and everyday li
     * Two-factor LDAP authentication: Lightweight Directory Access Protocol
     * LDAP group sync 
     * audit logs
-    * Static Site Generators (SSGs)
+    * [Static Site Generators](https://wiki.python.org/moin/StaticSiteGenerator) (SSGs)
     * [SSH Key] (https://docs.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html): 
-        -A unique identifier of a computer. It is used to identify computers without the need for a password. e.g. On GitLab I have added the ssh key of all my work machines so that the GitLab instance knows that it can accept code pushes and pulls from this trusted machines whose keys are I have added.
+        -A unique identifier of a computer. It is used to identify computers without the need for a password. e.g. On GitLab I have added the ssh key of all my work machines so that the GitLab instance knows that it can accept code pushes and pulls from this trusted machines whose keys I have added.
     * single-tenant 
     * On premise: 
         -On your own server. The fact that GitLab is on premise is a strong point for large corporate clients concerned with security. 
@@ -103,8 +103,19 @@ The following terms are often used in documentation, blog posts, and everyday li
     * [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner)
     * [Inner-sourcing] (https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/): 
         -the use of open source development techniques within the corporation. 
-    * 
-
+    * True-Up licensing model
+    * JUnit
+    * Ubuntu
+    * [VM Instance](https://cloud.google.com/compute/docs/instances/)
+    * [Gogs](https://gogs.io/)
+    *  golang
+    * CVS (Concurrent Versioning System)
+    * [Internet Relay Chat (IRC)](http://www.irchelp.org/)
+    * [Emacs](https://www.masteringemacs.org/article/mastering-key-bindings-emacs)
+    * OAuth
+    * Virtual private server (VPS)
+    * GUI/[Git GUI](https://git-scm.com/docs/git-gui)
+    *  
 
     
 
