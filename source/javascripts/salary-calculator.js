@@ -124,7 +124,7 @@
       var numbeo = this.data.numbeo;
       var contracts = this.data.contractTypes;
 
-      var levelIndex = parseInt(input.level);
+      var levelIndex = parseInt(input.level, 10);
       var experienceFactor = parseFloat(input.experience);
       var benchmark = input.salary;
 
