@@ -124,7 +124,7 @@
       var numbeo = this.data.numbeo;
       var contracts = this.data.contractTypes;
 
-      var levelIndex = parseInt(input.level, 10);
+      var levelIndex = parseFloat(input.level);
       var experienceFactor = parseFloat(input.experience);
       var benchmark = input.salary;
 
@@ -142,11 +142,11 @@
         var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 0.8);
         var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 1.2);
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
-        $(compensationTitle).text('Estimated Range');
+        $(compensationTitle).text('Compensation Range');
       } else {
         var compensation = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, experienceFactor);
         $(compensationAmount).text(this.formatAmount(compensation) + ' USD');
-        $(compensationTitle).text('Estimated Compensation');
+        $(compensationTitle).text('Compensation');
       }
     }
 
@@ -170,7 +170,7 @@
 
       $('.formula .level .value').text(values.level ? values.level : defaultValue);
       $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
-      $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
+      $('.formula .rentIndex .value').text(rentIndex ? rentIndex.toFixed(2) : defaultValue);
       $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
 
@@ -196,7 +196,7 @@
           return o.country === country && o.city === city;
         });
 
-        return locationData ? locationData.rentIndex : 0;
+        return locationData ? locationData.rentIndex * 0.01 : 0;
       }
 
       // Rent Index will never be zero, safe to return as error value
@@ -207,7 +207,7 @@
       if (this.data && this.data.contractTypes) {
         return this.data.contractTypes.find(function(o) {
           return o.country === country;
-        }) || { factor: (1 + 1/6) };
+        }) || { factor: 1.17 };
       }
 
       // Contract Type will never be zero, safe to return as error value
@@ -215,7 +215,7 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {
-      return Math.round(benchmark * ((rentIndex)/100 + 0.25) * (levelIndex + 4)/5 * contractType * experienceFactor);
+      return Math.round(benchmark * (rentIndex + 0.25) * levelIndex * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
