@@ -40,8 +40,8 @@ $(function () {
       imgSize = 60;
     } else if (windowWidth >= 990) {
       cutoff = Math.floor(($community.height() / 100) * 55)
-      imgsRowCount = 10;
-      imgSize = 99;
+      imgsRowCount = 16;
+      imgSize = 75;
     } else if (windowWidth >= 768) {
       cutoff = Math.floor(($community.height() / 100) * 40)
       imgsRowCount = 8;
