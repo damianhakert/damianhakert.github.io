@@ -141,11 +141,11 @@
         var container = salaryContainer + ' .experience';
         var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 0.8);
         var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 1.2);
-        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max));
+        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
         $(compensationTitle).text('Estimated Range');
       } else {
         var compensation = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, experienceFactor);
-        $(compensationAmount).text(this.formatAmount(compensation));
+        $(compensationAmount).text(this.formatAmount(compensation) + ' USD');
         $(compensationTitle).text('Estimated Compensation');
       }
     }
