@@ -708,6 +708,21 @@ Compress the image, for example using [TinyPNG.com][tinypng] or any other image 
 To preserve the harmony along the post, try to keep all the images with the same width
 (e.g., the ones used in [this post][width-post]).
 
+The only images accepted for about.GitLab.com are public domain images and
+screenshots. Whenever you choose an image which is not a screenshot, add a
+link to the original image to the merge request description and as an HTML comment:
+
+```html
+<!-- image: image-url -->
+```
+
+Do the same for [cover images](#cover-image), adding a link to the original image
+to the end of the post as a comment and to the MR description:
+
+```html
+<!-- cover image: image-url -->
+```
+
 #### Image shadow
 
 It is important to highlight the image so that it can easily be recognized as image, and not as part of the text.
@@ -740,8 +755,8 @@ So, following the same logic, your cover image would be named `my-awesome-post-c
 #### Cover image
 {: .no_toc}
 
-Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
-of an image, use one of these:
+Choose a cover image for your post (1275x750 px). Try any public domain resource that
+reflects somehow your post's subject. In the absence of an image, use one of these:
 
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
