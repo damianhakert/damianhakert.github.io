@@ -4,3 +4,6 @@
 - country: Netherlands
   type: Employee
   factor: 0.8
+- country: United Kingdom
+  type: Employee
+  factor: 0.9
