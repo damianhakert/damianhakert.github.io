@@ -2,6 +2,7 @@
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var compensationTitle = salaryContainer + ' .compensation .title';
+  var defaultValue = '--';
 
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
@@ -165,17 +166,17 @@
 
     SalaryCalculator.prototype.renderFormula = function() {
       var values = this.getElementValues();
-      $('.formula .level .value').text(values.level ? values.level : '--');
-      $('.formula .experience .value').text(values.experience ? values.experience : '--');
+      $('.formula .level .value').text(values.level ? values.level : defaultValue);
+      $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
 
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var contractType = this.calculateContractType(values.country);
-      $('.formula .rentIndex .value').text(rentIndex ? rentIndex : '--');
-      $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : '--');
+      $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
+      $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
 
     SalaryCalculator.prototype.renderInvalidCompensation = function() {
-      $(compensationAmount).text('--');
+      $(compensationAmount).text(defaultValue);
     }
 
     // Pure functions
