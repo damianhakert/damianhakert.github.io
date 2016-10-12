@@ -1770,4 +1770,14 @@
   story:  |
           Joining November 1st
 
+- name: S.D.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
+  reports_to: UX Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 14th
 
