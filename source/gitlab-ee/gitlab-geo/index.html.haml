@@ -1,0 +1,94 @@
+---
+layout: default
+title: GitLab Geo
+suppress_header: true
+extra_css:
+  - gitlab-ci.css
+  - gitlab-ee.css
+---
+.wrapper.gitlab-ee-page
+  .image-title
+    .color-bg
+      %div
+        %h1 GitLab Geo
+        %h3#ci-subt The solution for widely distributed development teams
+  .sub-wrapper
+    .container
+      .row.advantages
+        .col-xs-1.col-md-1
+        .col-xs-10.col-md-10
+          %h2 Overview
+          %ul
+            %li
+              When development teams are spread across two or more teams geographical locations, but their
+              GitLab instance is in a single location, fetching large repositories and cloning everything over
+              a wide area network can take a long time.
+            %li
+              Built for distributed teams, GitLab Geo allows for read-only mirrors of your GitLab instance. Reduce
+              the time it takes to clone and fetch large repos and improve your collaboration process.
+        .col-xs-1.col-md-1
+      %hr.divider/
+      .row.more-features
+        .col-xs-1.col-md-1
+        .col-md-5.hidden-xs.hidden-sm
+
+        .col-xs-10.col-md-5
+          %h2 How it works
+          %ul
+            %li
+              GitLab Geo is available to GitLab Enterprise Edition customers.
+            %li
+              GitLab Geo allows for read-only mirrors of your GitLab instance.
+            %li
+              Project repositories and the database including user accounts,
+              issues, merge requests, groups, project data, etc., are replicated on your secondary instance.
+            %li
+              With read-only mirrors, your team can fetch projects and read data much faster while still
+              pushing all changes to the primary server.
+            %li
+              All replication operations are asynchronous and are queued to be dispatched as soon as they
+              happen.
+        .col-xs-1.col-md-1
+      %hr.divider/
+      .row.integration
+        .col-xs-1.col-md-1
+        .col-xs-10.col-md-6
+          %h2 Features
+          %ul
+            %li
+              %b Read-only secondaries
+              Maintain one primary GitLab instance while still enabling a read-only secondary
+              instance for each of your distributed teams.
+            %li
+              %b Authentication system hooks
+              The secondary instance receives all authentication data, like user accounts
+              and logins, from the primary instance.
+            %li
+              %b Intuitive UI
+              Secondaries utilize the same web interface your team has grown accustomed to. However, there
+              are visual notifications that block write operations and make it clear that they are using the
+              secondary instance.
+
+        .hidden-xs.hidden-sm.col-md-4
+          %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
+        .col-xs-1.col-md-1
+      %hr.divider/
+      .row.architecture
+        .col-md-5.hidden-xs.hidden-sm
+        .col-xs-10.col-md-5
+          %h2 Benefits
+          .architecture-text
+            %p
+              %b Time
+              Reduce the time it takes your distributed developers to clone and fetch large repos and
+              projects from minutes to seconds.
+            %p
+              %b Collaboration
+              Enable all of your developers to contribute ideas and work in parallel from each of their
+              respective geographies.
+            %p
+              %b Scale
+              Balance the load between your primary and secondary instance or you can offload your automated tests to the Geo secondary node.
+        .hidden-xs.hidden-sm.col-md-6
+
+= partial "includes/features/gitlab-ee-trial"
