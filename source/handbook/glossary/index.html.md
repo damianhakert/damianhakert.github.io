@@ -115,7 +115,12 @@ The following terms are often used in documentation, blog posts, and everyday li
     * OAuth
     * Virtual private server (VPS)
     * GUI/[Git GUI](https://git-scm.com/docs/git-gui)
-    *  
+    * ChatOps
+        -  the ability to initiate an action from chat. 
+    * ChatBots
+        -  Bots that run in your chat application and give you the ability to do "anything" from chat.
+    * Slash commands
+    * 
 
     
 
