@@ -12,6 +12,7 @@ title: "People Operations"
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
+- [Global Compensation Framework](/handbook/people-operations/global-compensation-framework/)
 - [Onboarding](/handbook/general-onboarding/)
 - [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
