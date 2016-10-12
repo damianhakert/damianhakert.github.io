@@ -125,7 +125,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Zendesk [(general information about removing agents)](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Hiring Manager: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Hiring Manager: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
-        + **Warning: This will unassign all tickets from the agent**
+        + **Warning: This will unassign all tickets from the agent** Consider reducing the "full agent" count on our Zendesk license.
    1. [ ] Hiring Manager: Schedule a date to suspend the agents account. [More information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#3)
    1. [x] _not relevant_ Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Hiring Manager: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
