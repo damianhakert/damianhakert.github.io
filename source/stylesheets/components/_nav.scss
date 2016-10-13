@@ -88,6 +88,10 @@
       color: $color-primary;
       font-weight: 600;
 
+      &:hover {
+        text-decoration: underline;
+      }
+
       &.is-last {
         margin-left: 11px;
         margin-right: 0;
