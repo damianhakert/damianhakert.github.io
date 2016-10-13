@@ -3,13 +3,16 @@ layout: job_page
 title: "UX Designer"
 ---
 
+At GitLab, UX Designers collaborate closely with Engineers, UX Research and other Designers to create an intuitive, beautiful, world-class experience. 
+
 ## Responsibilities
 
-* Create wireframes/mockups/clickable deliverables to show the transitions and interactions of new features
-* Improve the interface of GitLab
-* Work with developers to improve flows
-* Conduct user testing
-- latest UI/UX techniques, prototyping with tools or HTML/CSS, user testing, user flow.
+* Help to define and improve the interface and experience of GitLab
+* Create deliverables (wireframes, mockups, prototypes, flows, etc.) to effectively communicate ideas
+* Work with developers to bring the right ideas into reality
+* Partner with UX Research to conduct user testing
+* Actively evaluate and incorporate feedback from UX Research
+* Stay informed of the latest UI/UX techniques, tools, and patterns
 
 ### UX Designer
 
