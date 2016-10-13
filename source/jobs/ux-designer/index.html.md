@@ -33,10 +33,11 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 
 #### Senior UX Designer
 
-* Deeply understands the needs/issues of GitLab users
+* Approaches the design of GitLab from a holistic and comprehensive perspective
+* Deeply understands the needs and issues of GitLab users
 * Proposes, implements, and leads significant improvements to GitLab UX
 * Mentors more junior UX designers
-* Delegates work to more junior UX designers as needed/appropriate
+* Delegates work to more junior UX designers as appropriate
 * Has deep knowledge of GitLab UX history and direction
 * Serves as the go-to person with UX decisions
 * Improves other UX designers productivity through better tools and workflow
