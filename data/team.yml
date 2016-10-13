@@ -1650,16 +1650,20 @@
           When he is not writing code, he loves watching movies, playing games, and reading novels.
           Nur is fortunately to be married to the most beautiful girl in the world.
 
-- name: B.N.
-  locality:
-  country:
+- name: Brian Neel
+  locality: Washington, DC
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/security-engineer/">Security Lead</a>
   reports_to: VP of Engineering
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: brianneel.jpg
+  twitter: b0bby_tables
+  gitlab: briann
   story:  |
-          Joining October 3rd
+          Co-founder and early member of several information security startups, Brian has been heavily involved 
+          in the network and application security fields. Having written a number of open-source security tools 
+          and contributed to many more, he's watched as the world slowly became aware of the benefits of open 
+          code. An avid motorcyclist and ice hockey player, Brian also sometimes enjoys standing in a cold 
+          mountain stream and wondering where all the fish went.
 
 - name: David França
   locality: Worthing
