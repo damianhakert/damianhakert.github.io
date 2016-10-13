@@ -8,7 +8,12 @@ description: "Write for GitLab and get compesated!"
 
 ![Write for GitLab](/images/community/computers-table-banner.jpg)
 
-## Get paid to write for GitLab!  
+{::options parse_block_html="true" /}
+
+<div class="alert alert-purple center">
+## <i class="fa fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Get paid to write for GitLab <i class="fa fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{:.gitlab-orange .text-center #write-for-gitlab}
+</div>
 
 All great contributions come from developers “scratching their own itch.” If you've ever
 solved a challenging problem or are great a explaining complex ideas, it’s likely 
@@ -31,7 +36,7 @@ the best resources. Get started today!
 
 - In-depth tutorials or opinion pieces of 1,500+ words: **USD 200.00**
 - Short tutorials of 800-1500 words: **USD 100.00**
-- Top-priority: **USD 200.00**
+- [Top-priority](#top-priority): **USD 200.00**
 
 Post with less than 800 words, as articles on quick tips and feature highlights, are also very welcome, but will not be compensated for.
 
@@ -48,7 +53,7 @@ It's important that the content is:
 ## Topics
 
 To find out what topics we're looking for, review the blog post backlog and see if there are any existing requests for topics that inspire you. 
-You can either [look for labeled issues](#look-for-labeled-posts) or [file a new one](example-topic-areas).
+You can either [look for labeled issues](#look-for-labeled-posts) or [file a new one][topics-issues].
 
 ### Look for Labeled Posts
 
@@ -60,7 +65,9 @@ Navigate to the [Blog Posts issue tracker][topics-issues] and look for issues [l
 - [$200]
 - [TOP PRIORITY]
 
-Issues labeled TOP PRIORITY, will be compenstated at USD $200 regardless of length. 
+<i class="fa fa-exclamation-triangle" aria-hidden="true" style="color: rgb(49, 112, 143);"></i>&nbsp;
+Issues labeled **TOP PRIORITY**, will be compenstated at **USD 200** regardless of length.
+{:.alert .alert-info .text-center #top-priority}
 
 ## Writing Process
 
@@ -69,13 +76,11 @@ The technical process of writing and reviewing can be found in our Handbooks: [G
 
 ## Publishing Process
 
-Read through the [Publishing Process for Community Writers](#publishing-process-for-community-writers).
+Read through the [Publishing Process for Community Writers](../#publishing-process-for-community-writers).
 
 ## Get Paid
 
 When your post gets published, it's time to claim for your compensation. You will send us an invoice, GitLab will pay you in American Dollars (USD) from a bank account in the USA, via wired transfer to your bank account. We can deal with other possible payment methods via credit card, but please discuss it with us before start writing.
-
-_**Note:** When you start writing for GitLab, we assume you have accepted the terms described along this page._
 
 ## Important Notes and Exceptions
 
@@ -86,12 +91,39 @@ _**Note:** When you start writing for GitLab, we assume you have accepted the te
 - Your post needs to be approved by the Blog Editorial Team to get published.
 - Your post must be original, comprehensible, technical, and unprecedented. We won't accept non-original content, unless you want to publish your post as a [Crosspost](../#crossposts), which we don't compensate for.
 
+_**Note:** When you start writing for GitLab, we assume you have accepted the terms described along this page._
+
 <!-- identifiers -->
 
-[topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=
-[our blog]: /blog/
-[GitLab Blog]: /handbook/marketing/blog/#publishing-process-for-community-writers
-[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
-[Pages group]: https://gitlab.com/groups/pages
 [CI/CD/CD]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ConvDev]: /2016/09/13/gitlab-master-plan/#convdev
+[GitLab Blog]: /handbook/marketing/blog/#publishing-process-for-community-writers
+[our blog]: /blog/
+[Pages group]: https://gitlab.com/groups/pages
+[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
+[topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues/
+
+<!-- labels -->
+
+[Community Posts]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Community+Posts
+[Up-for-grabs]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=up-for-grabs
+[$100]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=%24+100
+[$200]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=%24200
+[TOP PRIORITY]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=TOP+PRIORITY
+
+<style>
+.center {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.alert-purple {
+  color: rgb(107,79,187);
+  background-color: #fff;
+  border-color: rgba(107,79,187,.5);
+}
+.alert-purple h2 {
+      margin-top: 15px;
+}
+</style>
