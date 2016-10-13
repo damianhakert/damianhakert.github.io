@@ -56,8 +56,7 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
  
 ## Tools
 
-* UI/UX: Adobe CC, Sketch, Antetype, Web typography, assets
-* Prototyping: Framer, Origami by Facebook, Principal for Mac, HTML/CSS/JS
+Tools used by the UX Team are flexible depending on the needs of the work. Please see the [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/) page for more details.
 
 ## Workflow
 
