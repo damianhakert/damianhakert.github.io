@@ -77,20 +77,22 @@ $(function () {
   }
 
   // Sticky dev cycle nav
+  var $iconNav = $('.cycle-icon-row'),
+      iconNavOffsetTop;
   $(".cycle-icon-row").removeClass('stuck');
   $(document).scroll(function(){
     var navHeight = $('.navbar-fixed-top').height();
     var devCycleNavHeight = $('.cycle-icon-row').height();
-    var $iconNav = $('.cycle-icon-row');
     var scroll = $(window).scrollTop();
 
     if ($iconNav.is(':visible')) {
 
-      if (scroll > 0) {
+      if (scroll < iconNavOffsetTop && $iconNav.hasClass('stuck')) {
         $iconNav.removeClass('stuck');
       }
 
-      if (scroll >= $iconNav.offset().top - navHeight) {
+      if (scroll >= $iconNav.offset().top - navHeight && !$iconNav.hasClass('stuck')) {
+        iconNavOffsetTop = $iconNav.offset().top - navHeight;
         $iconNav.addClass('stuck');
       }
 

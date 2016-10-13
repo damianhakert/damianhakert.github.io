@@ -84,11 +84,25 @@ A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket de
 
 ### Create issues
 
-During your interaction with the customers you will most likely need to create an
+During your interaction with the customers you will most likely need to create or update an
 issue, either for a feature request, for a bug, or for further documentation.
 Since we do everything in the open, it is good practice to send the link of the
 issue to the requesting customer, so that they can also keep an eye on the discussion
 there, and weigh in if necessary.
+
+
+Workflow for creating an issue:
+
+- Visit the issues page of the project, [CE example here](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+- Search to make sure the issue doesn't already exist
+- Click **New Issue**
+- Choose a template from the **Choose a template** dropdown and take a look at the
+**Typical kinds of issues created** below.
+- Fill in all the relevant sections
+- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
+someone a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to assign it to and do that.
 
 Typical kinds of issues created:
 
@@ -96,15 +110,23 @@ Typical kinds of issues created:
    - Make sure it looks like a bug - otherwise ping one of the developers to confirm.
    - Reproduce the bug
    - Assign the bug fix to the next milestone
-   - Report back to customer
-- **Unpaid feature request**
+   - Report back to customer with a link to the issue
+- **Proposed feature request**
    - Provide maximum information and use case from customer in the issue,
 mention any alternatives, how badly the customer wants it.
    - Ask a developer for opinion (do we want this feature in GitLab: yes/no, the
 developer might ask more questions before answer)
-- **Paid feature request**
-   - Follow some process as for an unpaid feature request, AND
-   - Ask for an estimate
+   - Report back to customer with a link to the issue
+
+Typical workflow for updating an existing issue:
+
+1. Comment on the issue that another customer is having a problem, adding relevant details
+and a link to the ZenDesk ticket. Also if it is an EE customer, add the `~customer`
+label to the ticket.
+1. Send the customer a link to the issue and invite them to comment.
+1. If the customer replies with satisfaction that their concern is
+being addressed after seeing the issue, ask them if it would be okay to mark
+the ticket as resolved and to instead continue the conversation on the issue.
 
 Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
@@ -247,6 +269,21 @@ Thanks,
 GitLab, Inc.
 ```
 
+### How to handle emails forwarded from others at GitLab
+
+Every now and then, a GitLab team member will forward a support request from a customer, prospective customer, user, etc. These requests then appear as tickets from the team member, instead of from the original requestor. Always reply directly to the original requester, keeping the person who forwarded it in the cc. You will need to manually alter the "Requester" field of the ticket, by clicking on the "(change)" link next to the email address of the apparent requester in the ticket title.
+
+
+## Digital Ocean account access
+
+As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account.
+This can be used for testing and to reproduce customer problems. Please consider the following when using this account:
+
++ Do not destroy, stop or modify droplets that you haven't created
++ Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
++ Use resources sparingly and remove droplets that have served a purpose and are no longer in use
++ Do not create droplets unrelated to GitLab (personal projects)
+
 ## Receiving feedback
 {: #feedback}
 
@@ -265,7 +302,8 @@ or suggestion for improvement which should be followed up on.
 ## Customer Training
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
-questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
+questions from potential customers. The materials for the customer training should be kept up to date
+[here](https://gitlab.com/gitlab-org/University/tree/master/training).
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
 via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
@@ -295,14 +333,18 @@ Availability Calendar. Vacation days are first come first served.
 
 **Tickets assigned to you**
 
-You'll need to mark yourself as unavailable in ZenDesk when taking leave longer then 2 days. Marking yourself as unavailable allows other agents to respond to any tickets that receive a response while you're away.
+As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue.
 
+When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk.
+Do this at the end of your last work day this will ensure tickets flow correctly to other agents.
+
+Marking yourself as unavailable in Zendesk:
 
 1. Sign into [ZenDesk](https://gitlab.zendesk.com/agent).
-1. Ensure any active tickets are in the Pending or On-Hold states and not Open.
+1. Try to ensure any active tickets are in the **Pending** or **On-Hold** states and not **Open**.
 2. View the [Out Of Office](https://gitlab.zendesk.com/agent/apps/out-of-office) app.
 3. Toggle your agent status to "Unavailable".
-   + Note: Do not tick **"Unassign All Open Tickets"**.
+   + Note: Only tick **"Unassign All Open Tickets"** if you have **Open** tickets that are still awaiting a response from the support team.
 5. Click "Set to Unavailable"
 
 ### Illness

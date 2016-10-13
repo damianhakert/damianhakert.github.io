@@ -215,7 +215,7 @@ to help you get a feel of the hardware, software, and process
 implications of different HA setups. When it comes to your specific
 situation, we prefer to assess it in its context. We strongly suggest
 you get in touch with us before setting it up. Support for HA is
-included with the [Standard Subscription], and take a look at
+included with the [Premium Support], and take a look at
 the available [technical documentation][ha-docs] on this topic as well.
 If you have any questions please email us at `sales@gitlab.com`.
 
@@ -226,5 +226,5 @@ If you have any questions please email us at `sales@gitlab.com`.
 [options for postgresql]: http://www.postgresql.org/docs/9.2/static/high-availability.html "PostgreSQL HA"
 [release of version 8.5]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/ "GitLab 8.5 release blog post"
 [geo]: http://docs.gitlab.com/ee/gitlab-geo/README.html "GitLab GEO documentation"
-[standard subscription]: https://about.gitlab.com/pricing "Standard subscription"
+[premium support]: https://about.gitlab.com/pricing "Premium support"
 [ee]: /features#enterprise "GitLab Enterprise Edition features"

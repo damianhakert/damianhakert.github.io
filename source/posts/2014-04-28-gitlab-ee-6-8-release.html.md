@@ -5,7 +5,7 @@ author: Job van der Voort
 ---
 Today we've released [GitLab Enterprise Edition](/gitlab-ee/) 6.8.0. 
 GitLab is an open source code hosting and project managament application.
-In addition to the [improvements in GitLab Community Edition 6.8](/2014/03/21/gitlab-6-dot-8-released/), GitLab Enterprise Edition 6.8.0 contains the following improvements.
+In addition to the [improvements in GitLab Community Edition 6.8](/2014/04/22/gitlab-6-dot-8-released/), GitLab Enterprise Edition 6.8.0 contains the following improvements.
 
 <!--more-->
 

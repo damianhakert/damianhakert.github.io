@@ -137,7 +137,7 @@ We are fortunate that our product excellence stands on its own. Through a strong
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
 
-Our Marketing team is lead by [Ashley Smith][ashley] - [Chief Marketing Officer (CMO)][cmo]. It is split into four key functional groups, which are equally important for the success of GitLab:
+Our Marketing team is split into four key functional groups, which are equally important for the success of GitLab:
 
 <!-- The following HTML blocks are the Functional Groups Boxes -->
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
@@ -552,16 +552,16 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
-### Weekly 1:1 (New hire: First month with all direct reports)
+### Weekly 1:1 (New hire: First month - managers with all direct reports)
 {: .no_toc}
 
-**Meeting goal: For manager to help new team member onboard quickly.**  
+**Meeting goal: For manager to help new team member onboard quickly.**
 
 **Run time: 30 minutes**
 
-All managers should have a weekly 1:1 with their direct reports in the first month of employment, starting with the first day of employment where possible.  
+All managers should have a weekly 1:1 with their direct reports in the first month of employment, starting with the first day of employment where possible.
 
-The first meeting should run as follows:  
+The first meeting should run as follows:
 
 - Welcome and make sure new hire is working through onboarding tasks.  
 - Suggest people on the marketing team and beyond to meet with.  
@@ -571,11 +571,33 @@ The first meeting should run as follows:
 
 The agenda of the following 1:1s should be the same as the recurring Bi-weekly 1:1s with time set aside to answer any questions about onboarding.
 
+From the second month on, all managers should have twice monthly
+[(bi-weekly) meetings](#bi-weekly-11-all-managers-with-all-direct-reports) with all
+of his or her direct reports.
 
-### Bi-weekly 1:1 (After first month with all direct reports)
+### Weekly 1:1 (All directors with CMO)
 {: .no_toc}
 
-**Meeting goal: For manager to remove roadblocks and help prioritize so team member can be effective.**  
+**Meeting goal: For CMO to provide direction, help prioritize and receive feedback from all directors.**
+
+**Run time: 30 minutes**
+
+All directors should have weekly meetings with the CMO.
+
+The meeting should run as follows:
+
+- Always add agenda items to Google Doc agenda in description of meeting invite.
+- First discuss any issues or problems that the CMO can help with. Any roadblocks or disagreements?
+- Go through the agenda and answer any questions.
+- Action items for the director should be marked in Red.
+- Action items for the CMO should be marked in Blue.
+- All action items should be handled before next 1:1 unless otherwise noted.
+- Discuss upcoming OKRs if close to end of a quarter.
+
+### Bi-weekly 1:1 (Managers with all direct reports)
+{: .no_toc}
+
+**Meeting goal: For manager to remove roadblocks and help prioritize so team member can be effective.**
 
 **Run time: 30 minutes**
 
@@ -590,14 +612,14 @@ The meeting should run as follows:
 - Action items for the manager should be marked in Blue.
 - All action items should be handled before next 1:1 unless otherwise noted.
 
-### Every 6 weeks 1:1 (All members of marketing team with executive management)
+### Quarterly 1:1 (All members of Marketing Team with CMO)
 {: .no_toc}
 
 **Meeting goal: For CMO to help with any questions and career path discussion.**
 
 **Run time: 30 minutes**
 
-All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every 6 weeks. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
+All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every quarter. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
 
 The meeting should run as follows:
 
@@ -621,11 +643,11 @@ The meeting should run as follows:
 
 - 24 hours prior to the meeting all marketing members should have their sections of the agenda completed.  
 - The CMO will email all attendees reminding them to take a look at the agenda and add any questions to the top of the meeting.  
-- Meeting will open with the CMO giving an overview of new hires, organization changes, large upcoming campaigns, etc.  
+- Meeting will open with the CMO giving an overview of new hires, organization changes, large upcoming campaigns, etc.
 - The meeting will then open to questions starting with the questions already documented.
-- Everyone is encouraged to participate.    
+- Everyone is encouraged to participate.
 
-### Monday & Wednesday Dinosaur party
+### Monday & Wednesday Dinosaur Party
 {: .no_toc}
 
 **Meeting goal: Dinosaur Party! (and also make sure we're all working together effectively)**
@@ -645,7 +667,7 @@ The meeting should run as follows:
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
 
-### Quarterly marketing summit
+### Quarterly Marketing Summit
 {: .no_toc}
 
 **Meeting goal: Planning for the upcoming quarter**
@@ -708,6 +730,7 @@ We use our chat internally as a communication tool. The marketing channels are a
 - Docs - Technical writing and documentation questions? This is your room.
 - Events - Everything you want to know about events.
 - GitLab Pages - Where we discuss everything related to GitLab Pages.
+- Marketing Design - Discuss, feedback, and share ideas on Marketing Design here.
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
@@ -753,7 +776,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[ashley]: https://gitlab.com/u/AshleyS
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman

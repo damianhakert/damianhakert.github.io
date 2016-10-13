@@ -99,8 +99,8 @@ You can now run parallel builds on GitLab CI. For instance, if you have two or m
 
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
-GitLab CI is [now bundled with GitLab](https://about.gitlab.com/2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/)!
-If you prefer to install GitLab CI manually, please see the [documentation](http://doc.gitlab.com/ci/install/installation.html).
+GitLab CI is [now bundled with GitLab](https://about.gitlab.com/2014/11/06/gitlab-omnibus-packages-now-include-gitlab-ci/)!
+If you prefer to install GitLab CI manually, please see the [documentation](https://docs.gitlab.com/ce/ci/quick_start/README.html).
 
 To run your tests, you need to setup one or more GitLab CI Runners.
 Runners are quick and easy to setup, please see the [runner repository](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).

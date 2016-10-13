@@ -2,19 +2,16 @@
 layout: markdown_page
 title: Gogs Overview
 suppress_header: true
-extra_css:
-  - compared.css
 ---
 
 # Gogs - Go Git Service
+{:.no_toc}
 
 ## Index
+{:.no_toc}
 
-- [What is Gogs?](#what-is-gogs?)
-- [GitLab's Support of Gogs](#gitlab's-support-of-gogs)
-- [Shared Features](#shared-features)
-- [Gogs Advantages](#gogs-advantages)
-- [GitLab Feature Overview](#gitlab-advantages)
+- TOC
+{:toc}
 
 ## What is Gogs?
 

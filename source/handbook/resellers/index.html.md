@@ -75,6 +75,7 @@ The link to the deal registration form is located in the [reseller project](http
 When you complete the form, we get notified and will do the following:
 
 - Check our systems for opportunity approval
+- If approved provide deal protection
 - Create an opportunity in our SFDC implementation
 - Send a quote to your `GitLab@partnerTLD` email address <br>
 *Note: this is a reseller quote, not to be shared with the customer.*
@@ -202,10 +203,34 @@ GitLab leads.
 
 If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
 
+## Technical Support
+
+While we do not require them to, we do expect that your customers will, for the most part, contact you if they need help. 
+It is in both of our best interest that they do so, as the more touch points you have with them, the more likely you are to further develop business with them.
+We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you will need to escalate some issues to our support staff.
+To facilitate this, you will be assigned a [Designated Support Engineer (DSE)](https://about.gitlab.com/handbook/support/#dedicated-service-engineers) to help your staff troubleshoot and resolve any issues that your customers may encounter.
+We will make every attempt to assign you a DSE that is in your time zone and if possible, having appropriate language skills.
+
+You may contact your DSE at the email address in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
+This address is only for post-sales technical support. For pre-sales technical issues, please contact your local GitLab sales team.
+
+Due to vacations, holidays, etc., sometimes your DSE will not be available, or they may need to involve others at GitLab.
+For this reason, all correspondence should be in English as that is the language in common for our support staff worldwide.
+
+When contacting your DSE, you will need to include the following for each incident:
+
+- Name and email address of the end user reporting the problem, their GitLab.com user ID (if they have one), and their company name. 
+- What EE version they are using
+- Salient details about their setup
+- First date of issue occurrence 
+- Any related open bug reports, feature requests, etc. on the gitlab-ce or gitlab-ee issue trackers
+
+Do not escalate GitLab.com or GitLab CE incidents to your DSE; instead please refer them to the normal support channels.
+
 ## GitLab Landing Page guidelines
 {: #landing-page}
 
-Your website will need to have a landing page with information about GitLab. You can see what others have done from the [Resellers page](about.gitlab.com/resellers).
+Your website will need to have a landing page with information about GitLab. You can see what others have done from the [Resellers page](https://about.gitlab.com/resellers).
 
 - We would prefer your landing page to be at `yoururl.com/GitLab` where this is not possible, we would ask you to set a redirect for that URL to the actual one.
 - We highly encourage your landing page to be in local language.  There are plenty of English language resources on GitLab, so providing them in the native tounge of your customers adds value.

@@ -24,3 +24,5 @@
         = partial "includes/newsletter-signup.html"
         = partial "includes/blog/comments"
     = partial "includes/layout/footer"
+    - if current_page.data.ee_cta
+      = partial "includes/features/gitlab-ee-trial"
