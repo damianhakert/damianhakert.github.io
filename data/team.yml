@@ -441,7 +441,7 @@
   locality: Athens
   country: Greece
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
@@ -961,7 +961,7 @@
   locality: Quatro Barras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
@@ -1394,7 +1394,7 @@
   locality: Boulder, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: erica.jpg
   twitter: EricaLindberg_
   gitlab: lindberg
@@ -1449,7 +1449,7 @@
 - name: Sean Packham
   locality: London
   country: United Kingdon
-  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Content Lead</a>
   reports_to: CEO
   picture: seanpackham.jpg
   twitter: SeanPackham
@@ -1604,7 +1604,7 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
