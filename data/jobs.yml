@@ -74,11 +74,6 @@
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
   open: true
 
-- title: "Senior Accountant (part time)"
-  description: /jobs/senior-accountant/
-  apply: https://gitlab.workable.com/jobs/260762/candidates/new
-  open: true
-
 - title: "Product Manager"
   description: /jobs/product-manager
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
