@@ -2,6 +2,7 @@
 layout: markdown_page
 title: "Marketing"
 description: "GitLab Marketing Handbook: Marketing Strategy, Blog, Social Media, Design, Demand Generation, Developer Relations and Product Marketing"
+twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
 ## Welcome to the GitLab Marketing Handbook
