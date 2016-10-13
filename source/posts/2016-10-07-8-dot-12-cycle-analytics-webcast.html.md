@@ -18,7 +18,7 @@ very first principle of [Conversational Development][condev].
 We also launched [Global Code Search][code-search] for GitLab Enterprise Edition (EE). If you're running Elasticsearch on your 
 GitLab EE instance, you can now search through all the code on your server.
 
-In this webcast, we walk through our vision and demo some of the key features from [GitLab 8.12][8.12].
+In this webcast, we walk through our vision, and demo some of the key features from [GitLab 8.12][8.12].
 
 <!-- more -->
 
