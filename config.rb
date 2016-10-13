@@ -1,7 +1,7 @@
-require 'generators/direction.rb'
-require 'generators/release_list.rb'
-require 'generators/org_chart.rb'
-require 'extensions/breadcrumbs.rb'
+require 'generators/direction'
+require 'generators/release_list'
+require 'generators/org_chart'
+require 'extensions/breadcrumbs'
 
 ###
 # Page options, layouts, aliases and proxies

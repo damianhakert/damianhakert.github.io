@@ -8,7 +8,6 @@ title: "Demand Generation"
 * [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
-* [Soft-BANT](#bant)
 * [What counts as an MQL, SQL, or SAL?](#SQL)
 * [SQL Qualification Criteria](#sqlQual)
 * [Lead Status](#leadStatus)
@@ -60,13 +59,6 @@ On the GitLab issue, make sure to:
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
 10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
 11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
-
-## Soft-BANT<a name="bant"></a>
-
-- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
-- Authority => Can the person influence a purchase decision?
-- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
-- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an MQL, SQL, or SAL?<a name="SQL"></a>
 * SQL is any lead which meets the [SQL Qualification Criteria](#sqlQual)

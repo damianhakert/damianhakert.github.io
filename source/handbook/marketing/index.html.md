@@ -1,6 +1,8 @@
 ---
 layout: markdown_page
 title: "Marketing"
+description: "GitLab Marketing Handbook: Marketing Strategy, Blog, Social Media, Design, Demand Generation, Developer Relations and Product Marketing"
+twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
 ## Welcome to the GitLab Marketing Handbook
@@ -137,7 +139,7 @@ We are fortunate that our product excellence stands on its own. Through a strong
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
 
-Our Marketing team is lead by [Ashley Smith][ashley] - [Chief Marketing Officer (CMO)][cmo]. It is split into four key functional groups, which are equally important for the success of GitLab:
+Our Marketing team is split into four key functional groups, which are equally important for the success of GitLab:
 
 <!-- The following HTML blocks are the Functional Groups Boxes -->
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
@@ -777,7 +779,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[ashley]: https://gitlab.com/u/ashley
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman

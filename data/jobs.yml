@@ -20,6 +20,7 @@
 
 - title: "Backend Developer"
   description: /jobs/developer/
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
 
@@ -73,11 +74,6 @@
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
   open: true
 
-- title: "Senior Accountant (part time)"
-  description: /jobs/senior-accountant/
-  apply: https://gitlab.workable.com/jobs/260762/candidates/new
-  open: true
-
 - title: "Product Manager"
   description: /jobs/product-manager
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
@@ -105,8 +101,8 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
-  apply: https://gitlab.workable.com/jobs/278602/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Service Engineer"
   description: /jobs/service-engineer/
@@ -132,11 +128,6 @@
   description: /jobs/ux-designer/
   apply:
   open: false
-
-- title: "UX Researcher"
-  description: /jobs/ux-researcher/
-  apply: https://gitlab.workable.com/jobs/304926/candidates/new
-  open: true
 
 - title: "Junior Designer"
   description: /jobs/junior-designer/

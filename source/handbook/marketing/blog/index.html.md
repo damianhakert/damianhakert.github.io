@@ -303,7 +303,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 1. Content Marketing - analyses the proposal:
   - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
   - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
-  - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$150`, `TOP PRIORITY +$50`), Erica will define the compensation the post is worth and attribute the correct label(s).
+  - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$200`, `TOP PRIORITY`), Erica will define the compensation the post is worth and attribute the correct label.
   - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it` and `community post`.
   - Erica will ask for an ETA on your first draft
   - Erica will evaluate the priority, and estimate a due date for publishing (issue due date)
@@ -329,7 +329,7 @@ For our [community writers], we will follow the Scalable Writing System describe
   - Erica replies the writer to [start the process](community-writers/#get-paid) to wire the money
   - Community writer will get paid
 
-**Important:** make sure the last section of the post is "About the community author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
+**Important:** make sure the last section of the post is "About the Community Author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
 {: .alert .alert-warning}
 
 **Important:** never write your draft on pre-styled text editors like Google Docs or Microsoft Word. They don't use the same
@@ -360,27 +360,27 @@ To be included
 
 Every blog post should carry a label, in both issues and merge requests:
 
-- Release
-- Team Post (for GitLab team members)
-- Events Post
-- Community Post
-- Guest Post
-- Partner Post
-- Ghost Post
-- Crosspost
-- Up-for-grabs: posts opened to the community and guests
-- On-it: posts that are being written
+- [Release]
+- [Team Post][team] (for GitLab team members)
+- [Events Post][Events]
+- [Community Post]
+- [Guest Post]
+- [Partner Post]
+- [Ghost Post]
+- [Crosspost]
+- [Up-for-grabs][]: posts opened to the team, community, and guests
+- [On-it][]: posts that are being written
 
 #### Labels Exclusive for Community Posts
 {: #compensation-labels}
 
 The following labels define the [compensation](community-writers/#compensation) the post is worth it, corresponding to its length, importance to our Content Strategy, and to our community. They should be applied to every compensated community post, only in the [Blog Posts issue tracker][blog-tracker].
 
-- `$100` = post worth USD 100.00: short tutorials of 800-1500 words
-- `$150` = post worth USD 150.00: in-depth tutorials or opinion pieces of 1,500+ words
-- `TOP PRIORITY +$50` = top priority posts, worth **plus** USD 50.00
+- [`$100`][$100] = post worth USD 100.00: short tutorials of 800-1500 words
+- [`$200`][$200] = post worth USD 200.00: in-depth tutorials or opinion pieces of 1,500+ words
+- [`TOP PRIORITY`][TOP PRIORITY] = top priority posts, worth USD 200.00 regardless of length
 
-**Important:** these labels should be added by the [Blog Editors][Blog Editorial Team] only. If you find a post that you think should receive one of these labels, please @mention one of the editors in the issue or MR. They will evaluate your request and attribute the proper label.
+**Important:** these exclusive labels should be added by the [Blog Editors][Blog Editorial Team] only. If you find a post that you think should receive one of these labels, please @mention one of the editors in the issue or MR. They will evaluate your request and attribute the proper label.
 
 ### Blog Post Issue Tracker
 
@@ -898,6 +898,22 @@ specific matters are still being discussed and polished.
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 [Social Marketing Handbook]: ../social-marketing/
 [Snipping tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
+
+<!-- Labels -->
+
+[$100]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=%24+100
+[$200]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=%24200
+[TOP PRIORITY]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=TOP+PRIORITY
+[Release]: https://gitlab.com/gitlab-com/www-gitlab-com/issues?label_name%5B%5D=release
+[team]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Team+Post
+[Events]: https://gitlab.com/gitlab-com/www-gitlab-com/issues?label_name%5B%5D=Events
+[Community Post]: https://gitlab.com/gitlab-com/www-gitlab-com/issues?label_name%5B%5D=release
+[Guest Post]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Guest+Posts
+[Partner Post]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Partner+Post
+[Ghost Post]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Ghost+Posts
+[Crosspost]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Crosspost
+[Up-for-grabs]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=up-for-grabs
+[On-it]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=On-it
 
 <!-- Styles -->
 

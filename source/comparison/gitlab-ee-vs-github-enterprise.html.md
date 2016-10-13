@@ -3,15 +3,15 @@ layout: comparison_page
 title: GitLab Compared to other tools
 suppress_header: true
 extra_css:
-  - comparison.css
+  - compared.css
 ---
 
 ## GitLab EE vs. GitHub Enterprise
 
+### All features mentioned in GitLab versus GitHub
+
 ### Cost
 GitLab has the most competitive pricing model in the market and a fraction of the cost of our competition. Our remote-first philosophy allow us to pass on the cost savings to our clients.
-
-### All features mentioned in GitLab.com versus GitHub.com
 
 ### GitLab handles huge repositories well
 Big repository? Huge (>5GB) binary files? No problem. GitLab is built to handle very large repositories, and Git Annex and LFS are both supported.
