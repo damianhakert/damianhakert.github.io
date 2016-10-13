@@ -926,8 +926,8 @@
   gitlab: cdtaylor
   story:  |
           Colton is passionate about demand generation, business development, and marketing automation.
-          With a particular interest in innovative technologies, he found a great match at GitLab. 
-          When not at work, Colton enjoys basketball, football, golf, and action sports. 
+          With a particular interest in innovative technologies, he found a great match at GitLab.
+          When not at work, Colton enjoys basketball, football, golf, and action sports.
           He and his wife love being outdoors with their dog, as well as traveling often.
 
 - name: Mark Fletcher
@@ -1451,16 +1451,16 @@
   country: United Kingdon
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
   reports_to: CEO
-  picture: seanpackham.png
+  picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
   story:  |
-          Sean is a software developer passionate about education and teaching
-          others to code. Before GitLab Sean worked for various EdTech and
-          social startups and lectured game design, 2D and multiplayer game
-          development at his past university. When Sean is not sharing the
-          wonders of GitLab with others he can be found playing and coding
-          games or exploring London.
+          Sean is a software developer and writer passionate about education,
+          user experience and demystifying the complex. Before GitLab Sean
+          worked for various EdTech and social startups and lectured game
+          design, 2D and multiplayer game development at his past university.
+          When Sean is not sharing the wonders of GitLab with others he can
+          be found playing and coding games or exploring London.
 
 - name: Dan Parris
   locality: Maryland
@@ -1735,7 +1735,7 @@
   story:  |
           Joining October 17th
 
-- name: B.J. 
+- name: B.J.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
@@ -1747,7 +1747,7 @@
           Joining October 24th
 
 
-- name: J.A. 
+- name: J.A.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
@@ -1780,4 +1780,3 @@
   gitlab:
   story:  |
           Joining November 14th
-
