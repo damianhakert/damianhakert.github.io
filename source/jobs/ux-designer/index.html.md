@@ -28,7 +28,8 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 * Effectively communicate new features with mockups and prototypes
 * Creates and maintains UX documentation for design and thought process
 * Breakdown designs to fit within the monthly release cadence
-* Presents user research findings and recommendations to team
+* Productively iterate on features across milestones
+* Shares user research findings and recommendations to team
 
 #### Senior UX Designer
 
