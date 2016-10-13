@@ -39,7 +39,19 @@ Note that the [first post] has a **specific description** and the image is a **s
 of the post's cover image, taken from the [Blog landing page][blog]. This screenshot
 can be taken locally when previewing the site at `localhost:4567/blog/`.
 
-### Images
+### Defining Social Media Sharing Information
+
+Social Media Sharing info is set by the post or page frontmatter, by adding two variables:
+
+```yaml
+description: "short description of the post or page"
+twitter_image: '/images/tweets/image.png'
+```
+
+This information is valid for the entire website, including all the webpages for about.GitLab.com, handbook, and blog posts.
+
+
+#### Images
 
 All the images or screenshots for `twitter_image` should be pushed to the [www-gitlab-com] project
 at `/source/images/tweets/` and must be named after the page's file name.
@@ -50,18 +62,31 @@ Twitter Cards and Facebook's post will present the _fall back description_,
 which is the same for all [about.GitLab.com].
 
 For the handbook, make sure to name it so that it's obvious to which handbook it refers.
-For example, for the Marketing Handbook, it's name is `handbook-marketing.png`.
+For example, for the Marketing Handbook, the image file name is `handbook-marketing.png`. For the Team Handbook, the image is called `handbook-gitlab.png`. For Support, it would be named `handbook-support.png`, and so on.
 
-### Description
+#### Description
 
 The `description` meta tag [is important][description-tag]
 for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
 [post or page frontmatter](../blog/#frontmatter), as a small summary of what the post is about.
 
-It's not meant to repeat the post or page title, use your creativity to describe what's in the post or page.
+The description is not meant to repeat the post or page title, use your creativity to describe the content of the post or page.
 Try to use about 70 to 100 chars in one sentence.
 
 As soon as you add both description and social sharing image to a page or post, you must check and preview them with the [Twitter Card Validator]. You can also verify how it looks on the FB feed with the [Facebook Debugger].
+
+#### Examples
+
+To see it working, you can either share the page on Twitter or Facebook, or just test it with the [Twitter Card Validator].
+
+- Complete post, with `description` and `twitter_image` defined:
+[GitLab Master Plan](/2016/09/13/gitlab-master-plan/)
+- Incomplete post, with only the `description` defined:
+[Y Combinator Post](/2016/09/30/gitlabs-application-for-y-combinator-winter-2015/)
+- Incomplete post, with none defined: [8.9 Release](/2016/06/22/gitlab-8-9-released/)
+- Page with both defined: [Marketing Handbook](/handbook/marketing/)
+- Page with only `twitter_image` defined: [Team Handbook](/handbook/)
+- Page with none defined: [Blog landing page](/blog/)
 
 ## Promoting GitLab on Social Media
 
