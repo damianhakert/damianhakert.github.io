@@ -19,7 +19,9 @@ title: Global Compensation Framework
 
 ## Compensation calculator
 
-As a natural extension of the [Compensation Principles](#compensation-principles) outlined above, and our commitment to transparency, sharing, efficiency, directness, and boring solutions (amongst other [values](/handbook/people-operations/#values)), we developed a Compensation Calculator that we are rolling out for those roles in which we have the most contributors, and thus for whom the question about "what is fair compensation" comes up most frequently. As with all things at GitLab, the compensation calculator is a constant work in progress.
+As a natural extension of the [Compensation Principles](#compensation-principles) outlined above, and our commitment to transparency, sharing, efficiency, directness, and boring solutions (amongst other [values](/handbook/people-operations/#values)), we developed a Compensation Calculator that we are rolling out for those roles in which we have the most contributors, and thus for whom the question about "what is fair compensation" comes up most frequently.
+
+As with all things at GitLab, the compensation calculator is a constant work in progress. Please send an email to Ernst if/when you find a big difference between what the calculator suggests vs. what market data indicates. Please make sure to include all relevant links and data.
 
 ### The formula
 
