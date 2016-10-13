@@ -14,6 +14,13 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 * Actively evaluate and incorporate feedback from UX Research
 * Stay informed of the latest UI/UX techniques, tools, and patterns
 
+### Junior UX Designer
+
+* Execute feature design work consistent with GitLab design and personality
+* Seek and respond to feedback from the team and UX Research
+* Ask questions
+* Follow guidance from Senior UX team members
+
 ### UX Designer
 
 * Understands general UX design and best practices
