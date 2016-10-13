@@ -29,7 +29,7 @@ Your compensation = `Benchmark compensation` x `Rent Index + 25%` x `Level Facto
 
 where:
 
-- `Benchmark compensation` is typically a median employee salary for the role in New York, as found on publicly available sources such as [Payscale](www.payscale.com) and others.
+- `Benchmark compensation` is typically a median employee salary for the role in New York, as found on publicly available sources such as [Payscale](http://www.payscale.com) and others.
 - `Rent Index` is taken from [Numbeo](https://www.numbeo.com/cost-of-living/rankings.jsp), which expresses the ratio of cost of rent in many metro areas to the average cost of rent in New York City (i.e. Rent Index in New York = 1.00). As explained in more detail below, we add 25% to this regardless of location, which reflects the fact that we hire better than median performers. If your metro area is not listed, please list the nearest one that seems comparable.
 - `Level Factor` is currently defined as junior (0.8), intermediate (1.0), senior (1.2), or lead (1.4)
 - `Experience Factor` falls between 80% - 120%
