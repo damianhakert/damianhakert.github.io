@@ -575,9 +575,10 @@ Use this syntax (double quotes included):
 description: "This is an example description for a blog post."
 ```
 
-See the following section "Social Media Info" for more information.
+Check the [Social Marketing Handbook] for more information.
 
 #### Social Media Sharing Image
+{: #social-media-info}
 
 It's the image which will be displayed on social media feeds.
 It's defined in the post `frontmatter`, and it's not mandatory, but recommended.
@@ -759,6 +760,10 @@ On blog post page (widescreen): 1920px x 550px w/h = 3.5
 Try to have them harmonically aligned with the title,
 which overlays the background image in both cases.
 
+To crop the image, use the size of 1275x750 px. To align the
+background image with the title overlay, use the widescreen
+proportion, if necessary.
+
 #### Creating GIFs
 {: .no_toc}
 
@@ -780,25 +785,6 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 - Make sure the CI configuration file is spelled ``` `.gitlab-ci.yml` ```, with the leading period and backticks.
 - When we refer to specific configuration sections or pages in GitLab they should be in **bold**.
 - Refer to this website as **about.GitLab.com**, with capital "G" and "L", as always. **GitLab.com** is not the website, is the SaaS.
-
-----
-
-## Blog Content Calendar
-
-In the spreadsheet below you'll find posts recently published (From 2016, June 1st on), together with some other posts that are queued for writing, reviewing and publishing. This calendar was implemented not long ago and is still being improved, it's opened to eventual changes and contributions.
-
-The link attached to the post title will lead you to the Merge Request, while the link on "Published" will lead you to the post itself.
-
-<figure class="video_container">
-<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=696487FB19CE5807&resid=696487FB19CE5807%21999&authkey=AG3_C1jCZa8qMWo&em=2&ActiveCell='Content%20Queue'!B1&wdHideGridlines=True"></iframe>
-</figure>
-
-<br>
-
-**Note:** Main Content Pillars, subjects, categories, names, content distribution, and other
-specific matters are still being discussed and polished.
-{: .note}
-
 
 <!-- Identifiers, in alphabetical order -->
 
