@@ -646,9 +646,13 @@ good to start writing.
 
 ### Writing Style
 
-At GitLab, we use American English as the standard written language. 
+At GitLab, we use [American English](/handbook/#american-english) as the standard written language. 
 
-GitLab content primarily follows [AP Style](http://www.apstylebook.com/online/?do=chapter), the guide for which is searchable online. Any questions that cannot be answered by the AP Stylebook may be resolved by referring to the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/home.html). To learn about GitLab's advanced formatting system, check out our [Markdown Guide](https://gitlab.com/help/user/markdown.md). 
+GitLab content primarily follows [AP Style], the guide for
+which is searchable online. Any questions that cannot be answered
+by the AP Stylebook may be resolved by referring to the
+[Chicago Manual of Style]. To learn about GitLab's advanced
+formatting system, check out our [Markdown Guide].
 
 ### Body structure
 
@@ -920,6 +924,8 @@ specific matters are still being discussed and polished.
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
+[AP Style]: http://www.apstylebook.com/online/?do=chapter
+[Chicago Manual of Style]: http://www.chicagomanualofstyle.org/home.html
 
 <!-- Labels -->
 
