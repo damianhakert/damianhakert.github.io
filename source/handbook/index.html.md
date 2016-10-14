@@ -1,6 +1,7 @@
 ---
 layout: markdown_page
 title: Team Handbook
+twitter_image: '/images/tweets/handbook-gitlab.png'
 ---
 
 ## Welcome to the GitLab Handbook

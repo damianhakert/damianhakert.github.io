@@ -1,6 +1,8 @@
 ---
 layout: markdown_page
 title: "Marketing"
+description: "GitLab Marketing Handbook: Marketing Strategy, Blog, Social Media, Design, Demand Generation, Developer Relations and Product Marketing"
+twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
 ## Welcome to the GitLab Marketing Handbook
@@ -53,7 +55,7 @@ The GitLab Marketing team is here to do the following:
 
 - Meet board approved company goals and metrics.
 - Support the GitLab community with education and feedback outlets.
-- Enable anyone to contribute to our open-source product.
+- Enable anyone to contribute to our open source product.
 - Message the GitLab product in an authentic and helpful way.
 - Help each other to achieve our individual and company OKRs.
 
@@ -83,31 +85,31 @@ A common misconception is that developer marketing is showing up at events and g
 
 Is it hard to market to developers? No, however, there's a big focus on truth in marketing, getting a developer help fast when they need it, developer education, community, and making sure that your marketing doesn't over-promise what the product is capable of doing.  
 
-The team has to balance how you market a developer product with the expectations of the developer using that product. For example, most users of an developer tool will not expect an email from a demand generation team or BDR team and they certainly will not expect a phone call.
+The team has to balance how you market a developer product with the expectations of the developer using that product. For example, most users of a developer tool will not expect an email from a demand generation team or BDR team and they certainly will not expect a phone call.
 
 So what do they expect? Developers will expect education, help getting started, tutorials, partner integrations that make their lives easier, and truth in marketing. Developers want truth in marketing, they want proper education, they want integrations that help them, and they want the marketing team to kind of stay out of the way while quietly sprinkling helpful information around the areas that they are interested in.
 
-Some forums that developers use to get information are [StackOverflow](https://www.stackoverflow.com), [Hacker News](https://news.ycombinator.com/), [Reddit](https://www.reddit.com/r/gitlab/), Twitter, GitLab Documentation, GitHub, a basic Google search, and all of these things channels should be taken into account when thinking about how to market a developer product. Where possible, try to offer community support via these forums. Be responsive.  
+Some forums that developers use to get information are [StackOverflow](https://www.stackoverflow.com), [Hacker News](https://news.ycombinator.com/), [Reddit](https://www.reddit.com/r/gitlab/), Twitter, GitLab Documentation, GitHub, a basic Google search, and all of these channels should be taken into account when thinking about how to market a developer product. Where possible, try to offer community support via these forums. Be responsive.  
 
-For an event strategy, you need to not only think "how do I bring people together in a room that are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people that love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and because the developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will. Developer roundtables are awesome. You need a room, some developers using your product and someone to take notes.   
+For an event strategy, you need to not only think "how do I bring people together in a room who are using my product" but also "how do I get feedback from that room" or "how do I make sure that conversations are happening between GitLab team members and GitLab community members?". Use your event presence to talk to people who love your product. Give engaging talks and make it easy to give feedback. "How do I make it clear that feedback is appreciated?". You do that through saying, "Hey, I'd like feedback on this." Sometimes you don't even have to say it and, because the developer community is such an open and honest one in most cases, feedback is easier to get. Make it easy to provide feedback, make it easy to become part of the community, make it easy to contribute and people and developers will. Developer roundtables are awesome. You need a room, some developers using your product and someone to take notes.   
 
 For a content strategy, much of the same applies. Education, tutorials, and making it really easy to get started through blog posts, video, screencasts, office hours, webinars, etc.  
 
-In addition to the above mentioned tactics, good developer marketing strategy includes a great product. If you have a great product, the job of marketing is much easier. Constant product and feature releases are one of the best marketing tools. We are lucky that GitLab releases on the twenty-second of every month and has since 2011. This show of momentum makes it much easier to market a developer when it's not stagnant.     
+In addition to the above mentioned tactics, good developer marketing strategy includes a great product. If you have a great product, the job of marketing is much easier. Constant product and feature releases are one of the best marketing tools. We are lucky that GitLab releases on the twenty-second of every month and has since 2011. This show of momentum makes it much easier to market to a developer when it's not stagnant.     
 
-In product releases, when your users can see that feedback from the community is taken seriously and put back into the product, it says "we take our community seriously". Listen to the feedback, make it easy to give feedback via issue trackers, Twitter, and/or Support and if it makes sense for the rest of the community to make a requested update to the product, do it.
+In product releases, when your users can see that feedback from the community is taken seriously and put back into the product, it says "we take our community seriously." Listen to the feedback, make it easy to give feedback via issue trackers, Twitter, and/or Support and if it makes sense for the rest of the community to make a requested update to the product, do it.
 
-### How we think about marketing an open-source product with a paid version  
+### How we think about marketing an open source product with a paid version  
 
-Marketing an open-source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open-source product. We have to make sure we are [good stewards of the open-source project](https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/) while also making money off of the paid edition, GitLab Enterprise Edition.  
+Marketing an open source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open source product. We have to make sure we are [good stewards of the open source project](https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/) while also making money off of the paid edition, GitLab Enterprise Edition.  
 
-The balance can be tricky but if you pay attention to detail, never forget your community, always make it easy to contribute while also marketing your enterprise product to only the people that can use it, then you should be okay.  
+The balance can be tricky but if you pay attention to detail, never forget your community, always make it easy to contribute while also marketing your enterprise product to only the people who can use it, then you should be okay.  
 
-There’s a unique challenge that comes with marketing an open-source product when there is also a paid version. The community is important and you must always make sure that your contributors and community surrounding your open-source project do not feel at odds with your paid project. Only include features in your paid product that are tailored for large organizations and save the features that everyone can use for your open-source free offering.  
+There’s a unique challenge that comes with marketing an open source product when there is also a paid version. The community is important and you must always make sure that your contributors and community surrounding your open source project do not feel at odds with your paid project. Only include features in your paid product that are tailored for large organizations and save the features that everyone can use for your open source free offering.  
 
-Your marketing takes a two fold approach when you're working with an enterprise version of an open-source product. One approach doesn’t exclude the other. If you’re someone at an enterprise company that we are marketing to for a paid product, you’re a part of our community but if you’re a part of our community, you’re not necessarily a part of our enterprise marketing strategy.  
+Your marketing takes a two-fold approach when you're working with an enterprise version of an open source product. One approach doesn’t exclude the other. If you’re someone at an enterprise company that we are marketing to for a paid product, you’re a part of our community but if you’re a part of our community, you’re not necessarily a part of our enterprise marketing strategy.  
 
-An example, a developer using GitLab on an individual project or a small team is part of the community. A contributor who contributes a feature back to GitLab CE is part of the community. If those people also happen to work at a large fortune 500 company, global 2000 company, a company with any large amount of revenue, or a large development team, that’s where we begin to market our paid version of GitLab.
+For example, a developer using GitLab on an individual project or a small team is part of the community. A contributor who contributes a feature back to GitLab CE is part of the community. If those people also happen to work at a large fortune 500 company, global 2000 company, a company with any large amount of revenue, or a large development team, that’s where we begin to market our paid version of GitLab.
 
 We try to not market through spammy email or cold-calling people on the phone, but instead in a more thoughtful way. Our marketing strategy also includes field marketing, content marketing, email marketing, public relations, analyst relations, online marketing, and more to get the right developer resources in front of the right enterprise segment of our community.    
 
@@ -125,18 +127,18 @@ Top down marketing includes targeting the decision maker at an enterprise compan
 
 2) Why did this buyer select your product?  
 
-You can go deeper on these questions by company size and industry as buyer and reasons change at different scale and function, but these 2 questions should get you started.  
+You can go deeper into these questions by company size and industry as buyer and reasons change at different scale and function, but these 2 questions should get you started.  
 
 The message targeting for the top down strategy will be different from the bottom up messaging. The messaging is still focused on community, creating a great product, and contributing back to the product; however, it will be more focused on increased productivity of your development teams, lower pricing for a better product, security, team management, or any of the reasons you discover for buying in your research.  
 
-Top down marketing and bottom up marketing meets in the middle at the product. Your product must be rock solid. Product excellence is a key part of developer marketing strategy in the enterprise.
+Top down marketing and bottom up marketing meet in the middle at the product. Your product must be rock solid. Product excellence is a key part of developer marketing strategy in the enterprise.
 
 We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.
 
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
 
-Our Marketing team is lead by [Ashley Smith][ashley] - [Chief Marketing Officer (CMO)][cmo]. It is split into four key functional groups, which are equally important for the success of GitLab:
+Our Marketing team is split into four key functional groups, which are equally important for the success of GitLab:
 
 <!-- The following HTML blocks are the Functional Groups Boxes -->
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
@@ -329,7 +331,7 @@ What is Dev. Adv. (to be included).
 ### Technical Writing
 {: .no_toc}
 
-> _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
+> _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition, it is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
 
 At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional and up-to-date.
 
@@ -549,7 +551,7 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 ## <i class="fa fa-cogs fa-fw icon-color font-awesome" aria-hidden="true"></i> Meetings and structure
 {: #meetings}
 
-These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
+These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving among members, so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
 ### Weekly 1:1 (New hire: First month - managers with all direct reports)
 {: .no_toc}
@@ -566,7 +568,7 @@ The first meeting should run as follows:
 - Suggest people on the marketing team and beyond to meet with.  
 - Manager should make sure all technology needs are taken care of.  
 - Manager should answer or help to find proper resource for any questions.  
-- Manager should create Google Doc private 1:1 agenda for all recurring 1:1's and add to the description of the calendar invite.  
+- Manager should create a Google Doc private 1:1 agenda for all recurring 1:1's and add to the description of the calendar invite.  
 
 The agenda of the following 1:1s should be the same as the recurring Bi-weekly 1:1s with time set aside to answer any questions about onboarding.
 
@@ -618,7 +620,7 @@ The meeting should run as follows:
 
 **Run time: 30 minutes**
 
-All members of the marketing team that are not direct reports should meet with their executive management (CMO) once every quarter. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discuss via email or chat.
+All members of the marketing team who are not direct reports should meet with their executive management (CMO) once every quarter. If questions or concerns arise, please don't hesitate to reach out directly for an impromptu discussion via email or chat.
 
 The meeting should run as follows:
 
@@ -664,7 +666,7 @@ The meeting should run as follows:
 - Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
 
-To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
+To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome."
 
 ### Quarterly Marketing Summit
 {: .no_toc}
@@ -677,14 +679,14 @@ CMO builds agenda and assigns ownership for each session.
 
 The meeting should run as follows:
 
-- CMO leads review of over marketing strategies of last quarter. What worked? What didn't work? What should we do more of?
+- CMO leads the review of our marketing strategies from the last quarter. What worked? What didn't work? What should we do more of?
 - Team agrees on what key takeaways are from the last quarter.
 - Team agrees on what our Team OKRs should be for the upcoming quarter.
 
 ## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
-When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.
+When working remotely in a fast-paced organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With any of these, things can come up that make it not possible to meet the SLAs, but we all agree to use best effort when possible.
 
 - Respond to your emails by end of next business day.
 - Respond when you are cc'd with an action item on issues by end of next business day.
@@ -705,7 +707,7 @@ Anything that is a process in marketing should be documented in the Marketing Ha
     - Links to other handbooks included on this page.
 - Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top.
 - Each role should have a handbook page.
-- If more than one person are performing a role, the task should be shared to update the handbook with all process or guidelines.
+- If more than one person are performing a role, the task should be shared to update the handbook with all processes or guidelines.
 - Follow the [Markdown Style Guide] for about.GitLab.com.
 
 ## <i class="fa fa-rocket fa-fw icon-color font-awesome" aria-hidden="true"></i> How to contact marketing
@@ -775,7 +777,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[ashley]: https://gitlab.com/u/ashley
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
 [chet]: https://gitlab.com/u/chetbackman
