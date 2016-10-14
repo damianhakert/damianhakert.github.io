@@ -53,7 +53,7 @@ The GitLab Marketing team is here to do the following:
 
 - Meet board approved company goals and metrics.
 - Support the GitLab community with education and feedback outlets.
-- Enable anyone to contribute to our open-source product.
+- Enable anyone to contribute to our open source product.
 - Message the GitLab product in an authentic and helpful way.
 - Help each other to achieve our individual and company OKRs.
 
@@ -97,15 +97,15 @@ In addition to the above mentioned tactics, good developer marketing strategy in
 
 In product releases, when your users can see that feedback from the community is taken seriously and put back into the product, it says "we take our community seriously." Listen to the feedback, make it easy to give feedback via issue trackers, Twitter, and/or Support and if it makes sense for the rest of the community to make a requested update to the product, do it.
 
-### How we think about marketing an open-source product with a paid version  
+### How we think about marketing an open source product with a paid version  
 
-Marketing an open-source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open-source product is that we’re also creating a paid product that’s based off the open-source product. We have to make sure we are [good stewards of the open-source project](https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/) while also making money off of the paid edition, GitLab Enterprise Edition.  
+Marketing an open source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open source product. We have to make sure we are [good stewards of the open source project](https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/) while also making money off of the paid edition, GitLab Enterprise Edition.  
 
 The balance can be tricky but if you pay attention to detail, never forget your community, always make it easy to contribute while also marketing your enterprise product to only the people who can use it, then you should be okay.  
 
-There’s a unique challenge that comes with marketing an open-source product when there is also a paid version. The community is important and you must always make sure that your contributors and community surrounding your open-source project do not feel at odds with your paid project. Only include features in your paid product that are tailored for large organizations and save the features that everyone can use for your open-source free offering.  
+There’s a unique challenge that comes with marketing an open source product when there is also a paid version. The community is important and you must always make sure that your contributors and community surrounding your open source project do not feel at odds with your paid project. Only include features in your paid product that are tailored for large organizations and save the features that everyone can use for your open source free offering.  
 
-Your marketing takes a two-fold approach when you're working with an enterprise version of an open-source product. One approach doesn’t exclude the other. If you’re someone at an enterprise company that we are marketing to for a paid product, you’re a part of our community but if you’re a part of our community, you’re not necessarily a part of our enterprise marketing strategy.  
+Your marketing takes a two-fold approach when you're working with an enterprise version of an open source product. One approach doesn’t exclude the other. If you’re someone at an enterprise company that we are marketing to for a paid product, you’re a part of our community but if you’re a part of our community, you’re not necessarily a part of our enterprise marketing strategy.  
 
 For example, a developer using GitLab on an individual project or a small team is part of the community. A contributor who contributes a feature back to GitLab CE is part of the community. If those people also happen to work at a large fortune 500 company, global 2000 company, a company with any large amount of revenue, or a large development team, that’s where we begin to market our paid version of GitLab.
 
@@ -276,7 +276,7 @@ What is Online Marketing (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure a consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
+Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
 
 [Job Description](/jobs/designer/){:.btn .btn-purple-inv}
 [Handbook][Design]{:.btn .btn-purple}
@@ -331,7 +331,7 @@ What is Dev. Adv. (to be included).
 
 > _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition, it is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
 
-At GitLab, tech writers are the folks who take care of writing and maintaining technical content that is clear, concise, consistent, professional and up-to-date.
+At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional and up-to-date.
 
 [Job Description](/jobs/technical-writer/){:.btn .btn-purple-inv}
 [Handbook][Technical Writing]{:.btn .btn-purple}
@@ -659,7 +659,7 @@ help with any questions. There is an agenda for this meeting, but it also should
 
 The meeting should run as follows:
 
-- First 60 seconds: Post funny GIFs in our chat `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day.
+- First 60 seconds: Post funny GIFs in our chat `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
 - Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on.
 - Discuss roadblocks and any collaboration needs
@@ -677,14 +677,14 @@ CMO builds agenda and assigns ownership for each session.
 
 The meeting should run as follows:
 
-- CMO leads review of our marketing strategies from the last quarter. What worked? What didn't work? What should we do more of?
+- CMO leads the review of our marketing strategies from the last quarter. What worked? What didn't work? What should we do more of?
 - Team agrees on what key takeaways are from the last quarter.
 - Team agrees on what our Team OKRs should be for the upcoming quarter.
 
 ## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
-When working remotely in such a quickly moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With any of these, things can come up that make it not possible to meet the SLAs, but we all agree to use best effort when possible.
+When working remotely in a fast-paced organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With any of these, things can come up that make it not possible to meet the SLAs, but we all agree to use best effort when possible.
 
 - Respond to your emails by end of next business day.
 - Respond when you are cc'd with an action item on issues by end of next business day.
@@ -705,7 +705,7 @@ Anything that is a process in marketing should be documented in the Marketing Ha
     - Links to other handbooks included on this page.
 - Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top.
 - Each role should have a handbook page.
-- If more than one person is performing a role, the task should be shared to update the handbook with all processes or guidelines.
+- If more than one person are performing a role, the task should be shared to update the handbook with all processes or guidelines.
 - Follow the [Markdown Style Guide] for about.GitLab.com.
 
 ## <i class="fa fa-rocket fa-fw icon-color font-awesome" aria-hidden="true"></i> How to contact marketing
