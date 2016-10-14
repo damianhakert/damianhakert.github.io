@@ -399,6 +399,12 @@ want it, for example "Hello World - I'm a new post" and rake will take care of t
 Then you just open the file, fill in with your name, Twitter handle, and the post category, then you'll be
 good to start writing.
 
+### Style Guide
+
+At GitLab, we use American English as the standard written language. 
+
+GitLab content primarily follows [AP Style](http://www.apstylebook.com/online/?do=chapter), the guide for which is searchable online. Any questions that cannot be answered by the AP Stylebook may be resolved by referring to the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/home.html). To learn about GitLab's advanced formatting system, check out our [Markdown Guide](https://gitlab.com/help/user/markdown.md). 
+
 ### Body structure
 
 Just below the frontmatter, start writing your post, including the sections as follows:
