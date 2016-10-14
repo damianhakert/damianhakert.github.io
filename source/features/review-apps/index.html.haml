@@ -1,0 +1,220 @@
+---
+layout: default
+title: "Review Apps"
+description: "The quickest way to preview every change in a dynamic environment"
+twitter_image: '/images/tweets/gitlab-cycle-analytics.png' # update
+suppress_header: true
+extra_css:
+  - solutions.css
+extra_js:
+  - solutions.js
+---
+
+.page-container.review-apps-container.text-center.animated
+  .container
+    .header-graphic
+      = image_tag "/images/cycle-analytics/icon-header.png", class: "img-responsive"
+
+    %h1.page-headline
+      Review Apps
+    %h4.subheader
+      The quickest way to preview every change in a live environment
+    %a.btn.btn-lg.btn-red{ href: "/INCLUDE-URL/" } View Blog Post
+
+.page-container.content-container.text-center.animated
+  .container
+    %h2.page-headline.orange-title
+      What is GitLab Review Apps?
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
+      %h3
+        Automatic live review
+      %p
+        :markdown
+          Code, commit, and wait seconds for your review link. 
+
+          Review Apps automatically spin up dynamic environments for your merge requests. Once you merge, the environment is destroyed
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-2-1", "feature-icon", { label: "Built for managers and teams", width: 106, height: 106 })
+      %h3
+        Fully-Integrated
+      %p
+        :markdown
+          With GitLab's code review, built-in CI and now Review Apps, you can a peed up your development process with one tool for coding, testing, and live previewing your changes.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("cycle-analytics/icon-benefit-3", "feature-icon", { label: "No setup required" })
+      %h3
+        Easily configurable
+      %p
+        :markdown
+          Setting up Review Apps is as easy as adding a line to your GitLab CI yaml file. 
+
+          Simply define what server or cluster you want the review app deployed to and we do the rest.
+
+#img-explainer.page-container.content-container.text-center.img-explainer
+  .container
+    %h2.page-headline
+      Review Apps Overview
+
+    .image-container
+      = image_tag "/images/cycle-analytics/cycle-analytics-view.png", class: "img-responsive"
+
+
+.what-is.purple-section.text-center.animated
+  .container
+    %h2.purple-section-title
+      Join our webcast!
+    .purple-section-subtitle
+      Hear more about Review Apps and the other new features in GitLab 8.13
+    %a.featured-item-button.white-on-primary.btn-margin-top{ href: "INSERT-WEBCAST-URL" } Sign Up Today
+
+.page-container.content-container.white-bg.animated
+  .container
+    %h2.page-headline.text-center
+      Getting Started with Review Apps
+    %h3.getting-started-subheader.text-center
+      :markdown
+        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
+
+    %section#steps.steps
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-2", "step-icon", { label: "Issue" })
+            %span.step-number.text-center
+              [ step 01 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet.
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta minus tenetur aperiam sint labore quis magnam suscipit velit architecto quibusdam ea ad exercitationem odit saepe, delectus adipisci dolorem. Optio!
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-3", "step-icon", { label: "Plan" })
+            %span.step-number.text-center
+              [ step 02 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem ipsum
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet, consectetur.
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio placeat officia, minus! Veniam aspernatur, expedita, fugiat rem perferendis velit.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quam voluptatum quaerat totam dolores, iure distinctio, animi maxime!
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-4", "step-icon step-icon-3", { label: "Code" })
+            %span.step-number.text-center
+              [ step 03 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere, fugiat quia in minus, quis ipsum consequuntur cum?
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia qui aliquid tenetur molestias quos neque, nesciunt debitis nostrum libero corrupti, porro quidem fugit. Soluta, officiis?
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-6", "step-icon step-icon-3", { label: "Test" })
+            %span.step-number.text-center
+              [ step 05 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aliquid atque minima reiciendis.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim saepe voluptatem temporibus ipsa dolorem molestiae laboriosam animi facere? Delectus, debitis.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-7", "step-icon step-icon-3", { label: "Review" })
+            %span.step-number.text-center
+              [ step 05 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate accusamus quia maiores neque eligendi repellat, inventore. Iure sit, maxime a.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("home/icon-step-8", "step-icon step-icon-3", { label: "Staging" })
+            %span.step-number.text-center
+              [ step 06 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Lorem
+              .lead.text-center.step-lead-text
+                :markdown
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aspernatur est culpa porro vitae repudiandae. Voluptate?
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nesciunt illum, tenetur optio, hic fugiat!
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, quia. Saepe, unde!
+
+= partial "includes/features/try-gitlab-ee"
+
+.sticky-banner.js-sticky-banner.active
+  .sticky-banner-content
+    .sticky-banner-text
+      %p.header-text
+        Try GitLab Enterprise Edition risk-free for 30 days.
+      %p.subheader-text
+        No credit card required. Have questions?
+        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
+    .action
+      %a.btn.featured-item-button{ href: "/free-trial/" } Get Your Free Trial Today
