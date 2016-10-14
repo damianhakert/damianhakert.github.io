@@ -644,7 +644,7 @@ want it, for example "Hello World - I'm a new post" and rake will take care of t
 Then you just open the file, fill in with your name, Twitter handle, and the post category, then you'll be
 good to start writing.
 
-### Style Guide
+### Writing Style
 
 At GitLab, we use American English as the standard written language. 
 
