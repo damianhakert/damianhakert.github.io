@@ -9,236 +9,314 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 
 We're going to start from scratch, creating a brand new GitLab installation.
 
-A [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
+An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
 
 <iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
 
 ----
 
-## Sections
-{:.no_toc}
-
-- TOC
-{:toc}
-
-----
-
 ## Prerequisites
+{:.no_toc}
 
 - Working OpenShift setup
 
-## Scope/Flow
-
-1. Install GitLab using OpenShift
-2. Create Project
-3. Chat about idea
-4. Create Issue from idea
-5. Plan sprint with the GitLab Issue Board
-6. Code together with online IDE
-7. Review with Koding
-8. Merge Request
-9. Use Review App
-10. Test with GitLab CI
-11. Container Registry
-12. Manual Deploy to Development
-13. Deploy to Staging with CD
-14. Ship to Production via Chatops
-15. Review the time from Idea to Production using Velocity Analytics
-
 ## Links
+{:.no_toc}
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 
 ## Vision Demo: Idea to Production
+{:.no_toc}
 
-### Demo Setup
+**Main items**
 
-- Log in to [Openshift Origin](https://origin.gitlap.com:8443).
-* Set up new project (Dockersaurus or Development or GitLab).
-* Upload GitLab templates.
-  * `oc login --server=origin.gitlap.com`
-  * `wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/ux-demo/docker/openshift-template.json`
-  * `oc create -f openshift-template.json`
-  * `wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/ux-demo/docker/openshift-ci-template.json`
-  * `oc create -f openshift-ci-template.json`
-* Create public project on GitLab `markpundsack/velociraptor` with description: "App for the fastest idea-to-production company ever."
-* Create [issue #1](https://gitlab.com/markpundsack/velociraptor/issues/new?issue%5Btitle%5D=Add%20a%20logo&issue%5Bdescription%5D=From%20https%3A%2F%2Fdockersaurus.slack.com%2Farchives%2Fvelociraptor%2Fp1470115616000002%3A%0A%0A%3E%20We%20need%20a%20logo%20for%20the%20project.%20%20%0A%3E%20Yeah%2C%20it%20should%20be%20orange%2C%20like%20GitLab%27s%20logo!%20%20%0A%3E%20Great%20idea!)
+- TOC
+{:toc}
 
-### Per-Demo Cleanup
+## Pre-demo Setup
 
-* Delete the Openshift project
-  * `oc delete project dockersaurus`
-* Delete `markpundsack/velociraptor`
+> * Login to [OpenShift](https://openshift.tanukionline.com:8443/console/)
+>   * URL: https://openshift.tanukionline.com:8443/console/
+>   * Username: gitlab-user
+>   * Password: <from 1password>
+> * Delete all Openshift projects using OpenShift web interface  
+> * Disable desktop notifications (on a Mac, top-right corner, option click)
+> * Open up new browser window so the audience doesn’t see all your other open tabs.
+> * Open [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) as opening window during intro
+> * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 
-### Demo Script
+## Intro
 
-Today I'd like to demo some of the power of GitLab’s open set of tools for the software development lifecycle, helping you get from idea to production as quickly as possible. We'll start from scratch, creating a brand new GitLab installation, and then take you through using chatops, issues, planning boards, merge requests, CI, CD, and more.
+Today I'd like to demo some of the power of GitLab’s open set of tools
+for the software development lifecycle, helping you get from idea to production
+as quickly as possible.
 
-#### Installation [#19839](https://gitlab.com/gitlab-org/gitlab-ce/issues/19839)
+## Install GitLab itself
 
-> *Steps:*
->
-> * Open Openshift web UI
-> * Find GitLab in list of templates
-> * Click
-> * Show running GitLab
+The first step is to install GitLab itself. Today I'm going to use RedHat's Openshift, which is a Kubernetes platform that you can host yourself or use as a SaaS. We’re going to install everything from scratch and we’ll start by opening the Openshift web UI. Here we’ll create a new project named `gitlab`. And then import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
 
-The first step is to install GitLab itself. Since we have a Docker image, it's really easy to deploy to any number of container schedulers. Today I'm going to use RedHat's Openshift with Kubernetes. We'll start by opening the Openshift web UI, finding GitLab in the list of templates, and clicking on it. Enter a few optional parameters and after a few minutes, boom, you've got a shiny new GitLab installation. Just for fun, let's scale up the main service so we've got some redundancy. There, we've now got 3 containers running the main GitLab CE service, one running Postgres, and one running Redis.
+> * Open Openshift web UI and log in to [Openshift Origin](https://openshift.tanukionline.com:8443).
+> * Click New Project, name it `gitlab`, submit it
+> * Click on Import YAML/JSON
+> * Open in a browser: http://bit.do/openshiftgitlab or http://bit.ly/2e953Pn
+> * Copy content of idea-2-prod-template.json
+> * Click Create, leave `Process the template` selected, click Continue
+>   * GitLab instance hostname to `gitlab.tanukionline.com`  
+>   * Mattermost instance hostname to `mattermost.tanukionline.com`  
+> * Press button
+> * Continue to overview
 
-#### Setup [#19839](https://gitlab.com/gitlab-org/gitlab-ce/issues/19839)
+Boom, we’ve got a shiny new GitLab installation with several containers running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, and GitLab Runner for CI and CD. This is everything you need to run on Kubernetes. It will take a few minutes for GitLab Rails to configure itself so it’s a good time to describe what we’re covering today.
 
-Now that we've got GitLab running, let's open it up and create a new user for me, and a new project to start off with. Let's call it Velociraptor.
+> * Open up [Flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) and briefly walk through each step.
 
-#### Chat [#19838](https://gitlab.com/gitlab-org/gitlab-ce/issues/19838)
+In the rest of the demo, I’ll take you through everything you need to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous deployment to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
 
-> *Steps:*
->
-> Add comment:
->
->> Great idea!
->/issue create Add a logo
+> * Wait for gitlab pod to go from light blue to full blue
 
-I'm going to log in to the chat client. It already knows who I am through the integration with GitLab's user model.
+## Setup a user and project
 
-I see there's a chat room for our new project, created automatically when I created the project. Let's go there and talk with the team. Well that was quick, I see someone else is in there and has already come up with a great idea. It would be such a waste to let a good idea die in a chat room. Let's act on that and turn it into a new issue, right from the chat interface.
+Now that we've got GitLab running, let's open it up. We will start by creating a group for our company; let’s name it `tanuki`. Then let’s create a new project to start off with. Let's call it `www` and make it public.
 
-#### Issue
+> * Go to top right for the url for [gitlab](http://gitlab.tanukionline.com)
+> * Change password for root user
+> * Login
+> * Create a group called `tanuki` and make it public
+> * Create a project called `www` and make it public
 
-Great, now we've got our first issue on our new project. Inspiration is perishable, so let's pick this one up right away.
+### Configure a project
 
-#### Planning via Issue Board [#19952](https://gitlab.com/gitlab-org/gitlab-ce/issues/19952)
+Great, we have a new project, now let’s create a README. We’ll use the built-in GitLab editor to make the changes.
 
-As a team lead or manager, I'd go to the Issue Board. Since this is our first time, we have to add a couple columns here to match our workflow. I'll just add a "To Do" column, and a "Doing" column. There. Now we can just drag the new issue from the backlog into the To Do column to indicate that it should be worked on this sprint.
+> * Click add readme (changing that to + in https://gitlab.com/gitlab-org/gitlab-ce/issues/23310)
+> * Type `## Hello World`
 
-#### Online IDE [#19953](https://gitlab.com/gitlab-org/gitlab-ce/issues/19953)
+We’re going to keep this app simple and just make a static `index.html`.
 
-> *Hidden Steps:*
->
->* `mkdir velociraptor; cd velociraptor; git init .; cp ~/kubernetes-example/.gitlab-ci.yml .; cp ~/kubernetes-example/.dockerignore .; cd`
+> * Click on `www` or Repository and then `+`, New file
+> * Name the file `index.html`
+> * Type `Hello World` as the contents
+> * Click Submit
 
-Now as a developer on the team seeing the issue in the sprint view, I decide to pick it up. I'll drag it to Doing first and then click through. I'll assign the issue to myself to let the team know that it's claimed.
+Of course that’s just a static file and not an application yet, but since we’re using OpenShift it’s really easy to use Docker, and GitLab offers a set of `Dockerfile` templates that we can use. Let’s add a new file called Dockerfile and choose the template for Apache’s httpd server.
 
-Now let's get coding! Back to the project view, I see that the project is completely empty, but here are some suggestions to get started. A project isn't very good without a README, is it? Let's go create one. Type in some very helpful information...
+> * Click back to the files tab
+> * Add a file + icon, New file
+> * Filename to `Dockerfile`
+> * template HTTPd
+> * Commit changes on master
 
-> *This is going to be great!*
+### Prepare OpenShift
 
-Then commit. Great, our first change!
+The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift from the help for Command Line Tools and clicking on show token. We will now copy this token and go back to GitLab where we will use this token as a project variable which will be automatically passed to our CI/CD pipeline jobs.
 
-Editing one file at a time through this UI could get a bit tedious. How about we kick off Koding to write code directly in Koding's sweet online IDE; using the full power of a development environment that happens to be running in the cloud.
+> * Go to [Openshift](https://openshift.tanukionline.com:8443/console/command-line) or `Help > Command Line Tools > .. click to show token…`
+> * Copy token
 
-Here we go, an integrated development environment, running in the cloud. It even has a full terminal, so we can run all those CLI tasks a developer needs.
+Let’s click on `Settings > Variables` and add a new variable named `OPENSHIFT_TOKEN` and paste the previously copied token. Let’s also set up `OPENSHIFT_SERVER` and `OPENSHIFT_DOMAIN`.
 
-Since this is a new project, there's no real code yet. But of course my fictitious company has a boilerplate starter application I can copy, so I'll start from there.
+> * Go to GitLab
+> * Settings > Variables
+> * Key: OPENSHIFT_TOKEN
+> * Value: paste token
+> * Add new variable
+> * Repeat for:
+>   * OPENSHIFT_SERVER: https://openshift.tanukionline.com:8443
+>   * OPENSHIFT_DOMAIN: tanukionline.com
 
->* `cd velociraptor`
->* `cp -R ~/kubernetes-example/* .`
->* `git add .`
->* `git commit`
->* `git push origin master`
+### Use GitLab CI
 
-And then there's the new idea itself. Let's create a new branch. I'll just copy the new logo over...
+Now we’re ready to configure GitLab CI. Luckily GitLab also provides a bunch of templates for CI to get us started. Back to the project, let’s click `Setup CI` and choose the OpenShift template. Because we set these variables in the project settings, we can just delete them from the template.
 
->* `cp ~/logo.svg public`
+> * Go to Project, Click Setup CI
+> * Choose OpenShift template
+> * Delete `variables` section
+> * Commit
 
-Great, that was pretty simple, but If I get stuck, I can turn on "Start Collaboration", share the link, and someone else on my team could pair program with me.
+Great, that completes our setup.
 
-#### Review with Koding
+## Idea (Chat)
 
-Now, Koding isn't just an editor. It's a full development environment. That means I can run anything from the command line that I would do on my laptop. Let's go ahead and run this app we just created.
+Let’s go to our Mattermost client. We can get there from our OpenShift dashboard. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
->* `npm install`
->* `npm start`
+> * Go to OpenShift and select GitLab project https://openshift.tanukionline.com:8443/console/project/gitlab/overview
+> * Click [Mattermost URL](http://mattermost.tanukionline.com) (second application, top right)
+> * Sign up with GitLab
+> * Authorize
 
-We'll install all the required modules. Now start up the web server. Great, now go to the IP address of this server and take a look at the app. Beautiful, isn't it?
+Let’s create a new team: `tanuki`. And create a channel for our project: `#www`.
 
-#### Merge Request
+> * Create a new team: tanuki. Press Next. Press Finish.
+> * Create a new channel by clicking the + icon in the sidebar: www. Press 'Create new channel'
 
-So everything looks good, let's check in our changes and push them back to GitLab.
+This channel is where the team would discuss the project and come up with great ideas for improving it.
 
->* `git checkout -b 1-add-new-logo`
->* `git commit -am "Add new logo"`
->* `git push origin 1-add-new-logo`
+> * Type: Let's improve the homepage!
 
-Now let's switch back to GitLab. Here we see it's detected the new branch and offered to create a Merge Request for us, how nice of it. Let's go ahead and do that, creating the merge request. It knows by the branch name that it closes issue #1 and adds that message automatically. Let's save this.
+When a great idea does come along, it would be such a waste to let it die in a chat room. Let's act on it, and turn it into a new issue, right from the chat interface.
 
-#### *Test with GitLab CI*
+> ```
+> /issue create Make homepage more descriptive
+> SHIFT ENTER  
+> Currently it is just Hello World.
+> ```
 
-*There's one more thing we need to do to this project, and that's to configure CI. Luckily GitLab provides a bunch of templates to get us started. Let's pick the one for our language and go ahead and save it to our merge request branch. GitLab detects the configuration and starts running CI right away.* It's kicked off a pipeline of automated processes to build, test, and optionally deploy that change. Let’s follow the progress.
+## Issue (Tracker)
 
-#### Test Stage
+Now we can click through to the new issue. Great, we've got our first issue on our new project.
 
-The first step is to make sure all the unit tests pass on GitLab CI. Let's click through, and we can watch the build log in realtime.
+> * Click on the link that starts with #1
 
-#### Build Stage
+## Plan (Board)
 
-Now that that’s finished, it goes on to build the docker image and push it up to the integrated GitLab Container Registry. Let's click through and watch. OK, the pipeline has finished successfully and marked the merge request as green, letting everyone know it's passed CI.
+Inspiration is perishable, so let's pick this one up right away. As a team lead or manager, I'd go to the Issue Board.
 
-#### Container Registry
+> * Go to Issues, Issue Board
 
-Let’s take a quick trip over to the [container registry](https://gitlab.com/gitlab-examples/docker-cloud/container_registry) where you can see the image has been pushed.
+Since this is our first time, we have to add a couple columns here to match our workflow.
+I'll just add the default "To Do" and "Doing" columns.
 
-#### Peer Review
+> * Add default lists
 
-Going back to the Merge Request, we could ask for another developer on the team to review it. They can see the exact code that has changed, comment on it, and we'd see a thread of the discussion, as well as get an email notification, of course.
+There. Now we can just drag the new issue from the backlog into the To Do column to indicate that it should be worked on this sprint.
 
-Even better, any other developer on the team could do the same thing, starting where I left off. It can also be used to show the running app to other team members such as product managers that need to review the results without caring about the code itself.
+I’ll switch hats now, and as a developer, let’s go ahead and move it to Doing, because we want to resolve this issue right now.
 
+> * Drag issue from To Do to Doing
 
-#### Manual Deploy to Development
+## Code (Terminal)
 
-But I don’t just want to trust reading the code, I want to see it live in a production-like environment.  On Pipelines, there's a drop-down of manual actions where we see an option to Deploy to Development. Clicking on this kicks off another stage of the pipeline. Following along with the deploy progress, we see it pulling down the Docker image and then deploying the image to Openshift using Kubernetes.
+Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
-#### Deploy Activity
+> * Go to Pipelines
+> * Go to Environments
+> * Click Terminal button (on the right)
 
-Great, now that it's deployed, we see a little note appear in the activity thread of the merge request telling us about the deployment. We also see a summary of the current status at the top of the Merge Request. Clicking through, we can see the application running live on our development server. Even better, other reviewers or the product manager can now go to that development environment and see those changes too.
+Let's edit the index.html file.
 
-#### Merge to `master`
+> * `vi htdocs/index.html`  
+> * i (to insert)  
+> * Update text to `Updated Hello World`  
+> * esc (to go back to normal mode)  
+> * ZZ (to save and close)
 
-Since we’re happy with the changes, let’s merge them into `master`. We’ll click the Accept Merge Request button to merge the changes into the `master` branch.
+Now we’ve saved the changes, we can view the web page live to see how we like them.
 
-#### Pipelines
+> * Click external URL link on top right (3rd from right)
 
-Taking a look at the Pipelines tab, we see that we’re re-running CI on `master` to make sure the tests still pass after the merge. We actually see the history of all CI pipeline runs, and if there are any failures, it’ll quickly show you the stage where any runs fail.
+## Commit (Repo)
 
-#### Deploy to Staging with CD [#19571](https://gitlab.com/gitlab-org/gitlab-ce/issues/19571)
+That looks pretty good for now. But we didn't commit anything so this will be lost the next time we release. So let’s move on to committing changes into source control by using the web editor. Let’s go to the repository and find the index file. I’m just going to edit it with a header.
 
-Looking at this recent pipeline for `master`, we see it kicked off the test and build stages again, but this time, it also runs a new deploy stage. Following along with the deploy progress, we again see it pull down the Docker image and use Kubernetes to deploy, but this time to staging, which is configured even closer to production so we can do a thorough QA or stress testing before going any further.
+> * Go to Repository
+> * Go to index.html
+> * Click Edit button
+> * Replace `<h1>Idea to Production demo</h1>`
 
-#### Deploy Activity
+Now instead of committing directly to `master`, I’m going to create a new branch, named with the issue number. And it gives me an option to create a Merge Request for us, how nice of it. Let's go ahead and do that.
 
-Back at the original merge request, even though it was already merged, we now see that GitLab knows this has been deployed to `staging`. This is super important for project and product managers that need to know not just that a feature has been merged, but where it's been deployed for testing, and ultimately, when it gets to production. Clicking through, we can see the application running live on our staging server. Even better, the release manager can now go to that staging environment and see those changes too.
+> * Set target branch to `1-homepage` (no longer than 24 characters)
+> * Leave start a new merge request checked
+> * Commit
 
-#### Environments
+We’re now asked to create the merge request. GitLab knows by the branch name that it closes issue #1 and adds that message automatically. Let's hit submit.
 
-And on the Environments tab, you can see what’s currently running in staging . This clearly shows that while my new changes have made it to staging, they haven’t made it to production yet.
+> * Submit new merge request
+> * If popup asks to show notifications, click Allow.
 
-#### Ship to Production via Chatops [#19838](https://gitlab.com/gitlab-org/gitlab-ce/issues/19838)
+## Test (CI)
 
-Since we’re happy with the changes, let’s ship them to production! Looking at the manual actions here, we see an option to Deploy to Production. We could just click through there and kick off the deploy, but there's this little thing called ChatOps that encourages us to do these kinds of things in a common chat room, so everyone can see important changes, and so there's a continuos record of activity. So let's go back to our chat room, and tell GitLab to deploy `master` to production. We see it's kicked off a deploy job.
+As soon as the Merge Request is created, we see it kicking off the CI/CD Pipeline that will test our contributed code.
 
-#### Environments - Deployment history
+> * Click on Pipelines
+> * Click on first pipeline
 
-While we’re waiting, let’s go back to Environments. Clicking through on `staging`, we see a history of everything that has been deployed so far. This is great to see exactly what has been deployed, and also exactly when changes were deployed. There’s also an easy way to rollback to one of the previous deploys. That can be a life-saver in an emergency so you don’t have to wait to write a hotfix, wait for it to be tested again, etc.
+Here we see a simple pipeline that contains 3 stages for build, test, and staging.
 
-Our fix should be pretty much deployed to production by now. Let’s go back to Pipelines; yep, it’s been deployed. Check the chat log, yep, it's let everyone know the deploy has finished. Let’s check the environment tag... Ok great, we now see this production environment shows up, and we see the deploy happened less than a minute ago. And it's got our master changes with our new logo, and everything is in sync!
+### Test Stage
 
-#### Production
+There are 2 parallel tests. Let's click through one of them and see the build log.
 
-Now let's head over to our production site and refresh. Now, there we go. We've got our new logo in it; in production. All the way from idea to production!
+> * Click on `test1`
 
-#### Review the cycle time from Idea to Production using Cycle Analytics [#18687](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687)
+### OpenShift progress
 
-One final thing. Since the cycle time of getting from idea to production is so important, GitLab has built a dashboard that helps you track that. Clicking on Cycle Analytics...
+While it’s running, we can head back to OpenShift to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job.
+
+> * Go to OpenShift, GitLab project  
+> * Show runner pods
+
+## Review (MR)
+
+Now that we know tests have passed, we could ask for another developer on the team to review our merge request. They can see the exact code that has changed, comment on it, and we'd see a thread of the discussion, as well as get an email notification, of course.
+
+> * Show Changes
+> * Click on a change line to show ability to comment
+
+### Review apps
+
+But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our OpenShift cluster in a special app called a Review App, created just for this branch. Let’s see our Review job that is executed as part of our Pipeline. If it’s still running, we can follow its progress.
+
+> * Show `Deployed`
+> * Click link to show deployment
+
+Now that it’s finished, if we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
+
+> * Merge Requests  
+> * First merge request  
+> * Click on external link to review app
+
+### Merge to `master`
+
+Looks great! Since we’re happy with the changes, let’s click the Accept Merge Request button to merge the changes into the `master` branch.
+
+> * Click Accept Merge Request (no need to click remove source branch)
+
+## Staging (CD)
+
+Taking a look at the Pipelines tab, we see that we’re re-running CI on `master` to make sure the tests still pass after the merge. We actually see the history of all CI/CD pipeline runs, and if there are any failures, it’ll quickly show you the stage where any runs fail.
+
+> * Go to Pipelines
+
+Going back to the merge request, we now see another status showing that this code has indeed been deployed to staging. Clicking through, we can see our changes running live on our staging server.
+
+> * Click on first pipeline from top (staging)
+> * Click on `!1` in MR description
+> * Click on Staging URL to show that changes got deployed
+
+## Production (Chatops)
+
+I can also see the environments in the Environments page. So far we’ve got a review app and a staging app. Let’s ship these changes to production! On the staging line, we see a manual actions where can deploy to Production. We could just click through there and kick off the deploy, but there's this thing called ChatOps that encourages us to do these kinds of things in a common chat room, so everyone can see important changes. So let's go back to our chat room, and tell GitLab to deploy whatever’s on staging to production.
+
+> * Go to Mattermost  
+> * `/deploy staging to production`
+> * Click on link
+
+We see it's kicked off another deploy job.
+
+### Environments with deployment history
+
+Let’s go back to Environments. Ok great, we now see the production environment shows up, and we see the deploy happened less than a minute ago.
+
+> * Go to Environments
+
+Now let's head over to our production site. There we go! We've got our new text in it; all the way from idea to production!
+
+> * Click production link
+
+## Feedback (Cycle Analytics)
+
+One final thing. Since the cycle time of getting from idea to production is so important, GitLab has built a dashboard that helps you track that. Clicking on Cycle Analytics.
+
+> * Click Cycle Analytics
 
 Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. So far, we're doing amazingly well, with only 12 minutes for the complete release cycle.
 
-This is great for team managers and high level managers looking to better understand their company's release cycle time, which is key to staying competitive and responding to customers. It even includes stats for the last few features that made it into production. And you can drill down to each stage and see how those features looked. It's not so exciting yet, with only one feature shipped to production, but trust me, this is big.
+This is great for team managers and high level managers looking to better understand their company's release cycle time, which is key to staying competitive and responding to customers.
 
-#### Summary
+## Conclusion
 
-So that's it. We've taken you on a little journey. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in an IDE, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback look with cycle analytics dashboard. Welcome to Gitlab.
+> * Back to [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/)
 
-## Todos
-* Add environment variables for production secrets
-* Remove redundancy, for example revisiting the container registry (currently needed while waiting for deploys)
+So that's it. We've taken you on a little journey. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to Gitlab.
