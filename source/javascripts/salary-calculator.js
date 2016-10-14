@@ -5,10 +5,10 @@
 
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
-      this.bindElements();
+      this.bindEvents();
     }
 
-    SalaryCalculator.prototype.bindElements = function() {
+    SalaryCalculator.prototype.bindEvents = function() {
       var $countryDropdown = $(salaryContainer + ' .country li');
       var $cityDropdown = $(salaryContainer + ' .city li');
       var $levelDropdown = $(salaryContainer + ' .level li');
