@@ -45,7 +45,7 @@
       var $subtitle = $(salaryContainer + ' ' + event.data + ' .subtitle');
 
       $title.text(key);
-      $title.data('selected', value ? value : key);
+      $title.data('selected', value || key);
 
       if (value) {
         $subtitle.text(value);
