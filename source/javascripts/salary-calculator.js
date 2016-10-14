@@ -137,9 +137,9 @@
 
       this.renderContractType(contract);
 
-        var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[0]));
-        var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[1]));
-        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
+      var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[0]));
+      var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[1]));
+      $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
     SalaryCalculator.prototype.renderContractType = function(contract) {

@@ -7,7 +7,7 @@
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
 - if job.length == 1 and job[0].salary
   .salary-container.col-xs-12{data: {salary: job[0].salary}}
-    %h2{:id => 'compensation'} Compensation
+    %h2#compensation Compensation
     .col-sm-8
       .col-sm-6
         .dropdown.level
@@ -105,12 +105,12 @@
       .explanation
       Find out
       = succeed '.' do
-        %a{:href => '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+        %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
       You are also eligible for
-      %a{:href => '/handbook/stock-options/'} stock options
+      %a{href: '/handbook/stock-options/'} stock options
       and
       = succeed '.' do
-        %a{:href => '/handbook/benefits/'} other benefits
+        %a{href: '/handbook/benefits/'} other benefits
       %span.contract-type-container.hidden
         Based on the information provided, we expect you will be
         %span.grammer a
