@@ -2,22 +2,21 @@
 layout: markdown_page
 title: "Design"
 ---
-# Welcome to the Design Handbook
-{:.no_toc}
 
-[Up one level to the Marketing Handbook](/handbook/marketing/)    
+## Welcome to the Design Handbook
+{:.no_toc}
 
 ----
 
 ## On this page
 {:.no_toc}
 
-- TOC
+* Will be replaced with the ToC, excluding the "On this page" header
 {:toc}
 
 ----
 
-## Design Handbooks:
+## Design Handbooks
 {:.no_toc}
 
 - [Design](/handbook/marketing/design/)  

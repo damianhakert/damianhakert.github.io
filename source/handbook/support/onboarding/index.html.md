@@ -269,10 +269,15 @@ Thanks,
 GitLab, Inc.
 ```
 
+### How to handle emails forwarded from others at GitLab
+
+Every now and then, a GitLab team member will forward a support request from a customer, prospective customer, user, etc. These requests then appear as tickets from the team member, instead of from the original requestor. Always reply directly to the original requester, keeping the person who forwarded it in the cc. You will need to manually alter the "Requester" field of the ticket, by clicking on the "(change)" link next to the email address of the apparent requester in the ticket title.
+
+
 ## Digital Ocean account access
 
-As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account. 
-This can be used for testing and to reproduce customer problems. Please consider the following when using this account: 
+As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account.
+This can be used for testing and to reproduce customer problems. Please consider the following when using this account:
 
 + Do not destroy, stop or modify droplets that you haven't created
 + Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
@@ -328,12 +333,12 @@ Availability Calendar. Vacation days are first come first served.
 
 **Tickets assigned to you**
 
-As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue. 
+As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue.
 
-When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk. 
-Do this at the end of your last work day this will ensure tickets flow correctly to other agents. 
+When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk.
+Do this at the end of your last work day this will ensure tickets flow correctly to other agents.
 
-Marking yourself as unavailable in Zendesk: 
+Marking yourself as unavailable in Zendesk:
 
 1. Sign into [ZenDesk](https://gitlab.zendesk.com/agent).
 1. Try to ensure any active tickets are in the **Pending** or **On-Hold** states and not **Open**.

@@ -26,5 +26,6 @@ The Demand Generation organization includes Demand Generation, Business Developm
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
+- [Reseller Handbook](https://about.gitlab.com/handbook/resellers/)
 
 

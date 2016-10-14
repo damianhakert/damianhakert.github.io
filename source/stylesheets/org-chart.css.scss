@@ -1,0 +1,18 @@
+@import "variables";
+
+// Fixes Bootstrap 3 issue:
+// http://stackoverflow.com/questions/35398705/why-is-chrome-showing-extra-line-when-using-google-org-chart
+.google-visualization-orgchart-table {
+  border-collapse: separate;
+}
+
+.org-chart-container {
+  overflow-x: scroll;
+  padding-top: 50px;
+  padding-bottom: 0;
+
+  .employee-title {
+    color: $color-red;
+    font-style: italic;
+  }
+}

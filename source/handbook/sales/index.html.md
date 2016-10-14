@@ -21,6 +21,8 @@ title: "Sales Handbook"
 * [Opportunity Types](#types)
 * [Opportunity Stages](#stages)
 * [Processing Orders](#processing)
+* [Creating Quote for a Partner Deal](#resellerQuote)
+* [Using Customer Form](#CustomerFormAgreements)
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
@@ -99,51 +101,62 @@ After creating the opportunity, click “New” in the Partners section to assoc
 ### Opportunity Naming Convention <a name="naming"></a>
 
 Opportunities for subscriptions will use the following guidelines:
-* New Business/Existing Customer - Cross-Sell:
- - [Name of Company]- [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- 50 EE
- - Example: Acme, Inc- 50 EE/Geo
-* Add-On Business (seats only):
- - [Name of Company]- Add [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- Add 25 EE
- - Example: Acme, Inc- Add 25 EE/Geo
-* Add-On Business (new products):
- - [Name of Company]- Add [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- Add 25 PS
-* Renewal Business (no changes):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
- - Example: Acme, Inc- 50 EE Renewal 01/17
- - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
-* Renewal Business + Add On Business (seats):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
- - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
-* Renewal Business + Add On Business (new products):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
- - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
+
+- **New Business/Existing Customer - Cross-Sell**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- 50 EE
+   - Example: Acme, Inc- 50 EE/Geo
+
+- **Add-On Business (seats only)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 EE
+   - Example: Acme, Inc- Add 25 EE/Geo
+
+- **Add-On Business (new products)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 PS
+
+- **Renewal Business (no changes)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
+   - Example: Acme, Inc- 50 EE Renewal 01/17
+   - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+
+- **Renewal Business + Add On Business (seats)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
+
+- **Renewal Business + Add On Business (new products)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
 
 Abbreviation of Products:
-* EE- Enterprise Edition
-* FL- File Locking
-* Geo- GitLab Geo
-* GH- GitHost
-* PS- Premium Support
-* PT- Pivotal Tile
+
+- EE- Enterprise Edition
+- FL- File Locking
+- Geo- GitLab Geo
+- GH- GitHost
+- PS- Premium Support
+- PT- Pivotal Tile
 
 Opportunities for Training will use the following guidelines:
-* Training
- - [Name of company]- [Type of training]
- - Example: Acme Inc- User Training. 
- - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+
+- Training
+   - [Name of company]- [Type of training]
+   - Example: Acme Inc- User Training. 
+   - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
 
 Types of Training:
-* User Training
-* Git Workshop
-* GitLab Flow
-* GitLab Admin
+
+- User Training
+- Git Workshop
+- GitLab Flow
+- GitLab Admin
 
 Gitorious Opportunities:
-* Any deal coming from Gitorious has “(Gitorious)” added.  
-* Example Acme, Inc-Gitorious- 50 EE
+
+- Any deal coming from Gitorious has “(Gitorious)” added.  
+- Example Acme, Inc-Gitorious- 50 EE
+
 
 ### Opportunity Types <a name="types"></a>
 
@@ -396,6 +409,22 @@ When in doubt please consult the reseller team.
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
 
+### Using Customer Form Agreements<a name="CustomerFormAgreements"></a>
+Our experience shows that using a prospect's form agreement is expensive and, more importantly, time consuming.  Deals in which we use the customer agreement take on average 60 days longer to close than if completing using our standard subscription agreement with changes as requested by customer counsel.  The arguments in favor of using our agreement are as follows:
+
+1. Our agreement is an annual subscription agreement with a true-up whereas customer form agreements typically are based on paid up licenses.
+1. We are an open source company and our agreement provides licenses for both the CE version of the product and the EE version as well as dealing with contributions of code from our customer.
+1. We have non-standard but customer favorable warranty and acceptance provisions.
+1. We are very accommodating of customer requested changes to our form agreement which is why we can close deals quickly.
+
+Despite the overwhelming arguments in favor of using the Gitlab form some prospects insist on using their form agreement.  GitLab will accommodate such requests with the following assumptions:
+
+1. GitLab must have been selected as the solution of choice by the customer.
+1. The deal must be in excess of $15,000.
+1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
+Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
+
+
 ### Closing a Won Deal <a name="closing"></a>
 
 In order to close a deal in Salesforce.com, one of the following must happen:
@@ -407,13 +436,14 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 Once the above has happened, please make sure the following actions are done:
 
-1. Attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
-1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
+1. On the Account record, make sure you've added the Industry. You will receive an error message if you attempt to close won an opportunity without an Industry.
+1. On the Opportunity record, attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
+1. Add the competition we were up against in the opportunity in the Competitor field, which is located in the Qualification Questions section. This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
   * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
   * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
-1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
+1. Once the opportunity is closed won, the field "type" on the Account object will change to "customer"
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 #### View and download invoices in Salesforce:
