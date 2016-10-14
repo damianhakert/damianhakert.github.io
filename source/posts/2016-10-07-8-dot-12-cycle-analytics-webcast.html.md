@@ -115,16 +115,16 @@ Register for an event near you:
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
 [condev]: /2016/09/14/gitlab-live-event-recap/#convdev
 [container]: /2016/05/23/gitlab-container-registry/
-[cycle]: 2016/09/21/cycle-analytics-feature-highlight/
+[cycle]: /2016/09/21/cycle-analytics-feature-highlight/
 [GitLab Issue Board]: /solutions/issueboard/
 [gitlab-vision]: /direction/#vision
 [issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
 [issue]: /2016/03/03/start-with-an-issue/
 [koding]: /2016/07/26/koding-and-gitlab-integrated/
 [london]: https://gitlabworldtourlondon.splashthat.com/
-[masterplan]: 2016/09/13/gitlab-master-plan/
+[masterplan]: /2016/09/13/gitlab-master-plan/
 [mattermost]: /2015/08/18/gitlab-loves-mattermost/
-[mr-versions]: 2016/09/22/gitlab-8-12-released/#merge-request-versions
+[mr-versions]: /2016/09/22/gitlab-8-12-released/#merge-request-versions
 [nyc]: https://gitlabworldtournyc.splashthat.com/
 [Sid Sijbrandij]: https://twitter.com/sytses
 [world-tour]: /2016/09/28/world-tour-amplify-your-code/
