@@ -45,7 +45,7 @@ The contract type factor helps to make the distinction between an employee and a
 
 #### Contract Type Factors
 
-This list will be expanded as we gain more experience with the calculator and as we are able to offer employee contracts (as opposed to only contractor contracts) in various countries.
+This list will be expanded as we gain more experience with the calculator and as we are able to offer employee contracts (as opposed to only contractor contracts) in various countries. Visit our [contracts page](https://about.gitlab.com/handbook/contracts/) to learn more about the different types of contracts we offer.
 
 - Netherlands: Employee (0.8); Contractor (1.17)
 - USA: Employee (1.0); Contractor (1.17)
