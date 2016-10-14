@@ -79,7 +79,7 @@ where making documentation is a more time consuming exercise:
 - Enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
 - Update the ticket
 - Do not just look at the Docs and see how other directories and files were
-structured, we are trying to change some of that so please follow the [documentation styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/doc_styleguide.md)
+structured, we are trying to change some of that so please follow the [documentation styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.html#location-and-naming-of-documents)
 
 Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
