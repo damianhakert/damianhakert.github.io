@@ -38,8 +38,8 @@ An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on
 
 ## Pre-demo Setup
 
-> * Login to [OpenShift](https://openshift.tanukionline.com:8443/console/)
->   * URL: https://openshift.tanukionline.com:8443/console/
+> * Login to OpenShift
+>   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
 > * Delete all Openshift projects using OpenShift web interface
