@@ -36,17 +36,17 @@
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
             %li
-              %span.key Show range
+              %span.key Experience range
               %span.value 0.8 to 1.2
             %li
-              %span.key Low
-              %span.value 0.8
+              %span.key Little experience
+              %span.value 0.8 to 1.0
             %li
-              %span.key Medium
-              %span.value 1.0
+              %span.key Average experience
+              %span.value 0.9 to 1.1
             %li
-              %span.key High
-              %span.value 1.2
+              %span.key A lot of experience
+              %span.value 1.0 to 1.2
       .col-sm-6
         .dropdown.country
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
@@ -69,7 +69,7 @@
                 %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
       .compensation
-        .title Compensation
+        .title Compensation Range
         .amount --
     .col-sm-12.note
       Learn about our
