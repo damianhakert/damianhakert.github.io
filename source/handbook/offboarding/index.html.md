@@ -41,6 +41,9 @@ When it is time for offboarding, create issue for former team member on the dev 
    1. [ ] Hiring Manager: Remove team member from team meeting invitations.
    1. [ ] Hiring Manager: Cancel weekly 1:1 meetings with new team member.
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
+1. [ ] People Ops: If there is one, remove team member's pet from [team pets page](https://about.gitlab.com/team-pets). Don't forget to remove the picture.
+1. [ ] People Ops: Remove mentions of the team member from our documentation and handbook by doing a text search for their `username` and `first_name` in the `www-gitlab-com` and `gitlab-ce` repositories
+and removing them from everywhere except blog posts. If you do not have a tool of choice, try "Find in Project" using Atom.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
 1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
