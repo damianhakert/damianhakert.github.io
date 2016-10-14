@@ -2,10 +2,9 @@
 title: 30 Fundraising Tips from the CEO
 author: Sid Sijbrandij
 author_twitter: sytses
-categories: 
-image_title: '/images/blogimages/fundraising-tips.jpeg'
+categories: concepts
+image_title: '/images/blogimages/fundraising-tips-ceo.jpg'
 description: 30 fundraising tips from GitLab CEO Sid Sijbrandij
-twitter_image:
 ---
 
 
@@ -19,6 +18,7 @@ so these are the tips that have been most beneficial in our own quest to raise f
 <!-- more --> 
 
 ## When Is the Best Time to Raise Money?
+
 1. **Eight quarters of run rate is the best time to raise money for your organization.** This gives you sufficient time to spend as long as you need to plan the deck and meet investors without feeling like time is running out. It means that if you are offered a deal you don’t like, you don’t have to accept it. You have the time to step back from fundraising, get back to stockflow neutral, and not be forced to lay off any employees.
 
 1. **Make sure that you have a lot of runway.** This is indicative of how conservative you are financially, so investors will be looking closely at this. You can achieve this by fundraising early. Another strategy is to make sure that your net worth compared to your revenue is low. Don’t make your burn equal to half of your revenue, make it equal to 20% or even 10%.
@@ -57,7 +57,7 @@ so these are the tips that have been most beneficial in our own quest to raise f
 
 1. **Dress code is not important.** What matters is what you say during the meetings and follow-ups.
 
-1. **Don’t go hungry!(()) Eat something before going into a meeting, especially if you know you don’t perform well when you’re hungry!
+1. **Don’t go hungry!** Eat something before going into a meeting, especially if you know you don’t perform well when you’re hungry!
 
 1. **Have some backup slides for your deck.** We found it useful to create a slide that listed questions we did not yet have an answer for; after the meeting we could find the answer, then follow-up with the investor and add it to the slidedeck for future presentations if we felt it would be helpful. When you’re preparing your slidedeck, there will always be content that you’re not certain will be required, but could still be informative for the investor; these slides should go in the backup set. If and when you need the information, you can switch to that slide easily.
 
@@ -66,18 +66,16 @@ so these are the tips that have been most beneficial in our own quest to raise f
 1. **There should be someone on your team who is not presenting.** Their role is to write down the questions, so you can follow up after the meeting. If possible or relevant, add this information to your presentation.
 
 1. **Keep a list of when you last spoke to each investor.** If they are silent for a few days, then it’s important to follow up to find out why. If they don’t respond to your first message, ask if they are still interested in potentially investing in your organization. There are generally three reasons behind this: 
-
-- They are not interested 
-- They may have been too busy to reply, but are still interested 
-- They are keeping their options open. Whatever the reason, you need to find out so you know who you should focus your attention on.
-
-A1. **sk permission from the venture capitalists to record one of your pitches.** There is a lot of mystery surrounding what goes on in a pitch—this is your chance to help others.
+  - They are not interested 
+  - They may have been too busy to reply, but are still interested 
+  - They are keeping their options open. Whatever the reason, you need to find out so you know who you should focus your attention on.
+1. **Ask permission from the venture capitalists to record one of your pitches.** There is a lot of mystery surrounding what goes on in a pitch—this is your chance to help others.
 
 ## Familiarize Yourself with Financial Terminology
 
 1. **Prorata rights.** Prorata rights can be one of the most contentious aspects of investment, so make sure you understand it. Any lead investor will want a certain percentage of your company. For the A round it’s usually around 20%, for B round it’s 15%, and for C round it’s 10%. They need that much of the company to make it worth their time and effort investing. 
 
-Prorata investment rights allow investors the right to keep their percentage of their share of the company the same when you start the next fundraising round. During the second (or third) fundraising round, all existing shareholders get diluted; these investors can invest more money so they maintain the same percentage. This is what it means when you hear about investors ‘doing their prorata’. Super prorata is what happens if the investors want to increase their ownership percentage in the next round. If you would like to learn more on prorata, [this post][prorata-rights] is helpful.
+   Prorata investment rights allow investors the right to keep their percentage of their share of the company the same when you start the next fundraising round. During the second (or third) fundraising round, all existing shareholders get diluted; these investors can invest more money so they maintain the same percentage. This is what it means when you hear about investors ‘doing their prorata’. Super prorata is what happens if the investors want to increase their ownership percentage in the next round. If you would like to learn more on prorata, [this post][prorata-rights] is helpful.
 
 1. **Super prorata rights are not founder-friendly.** Firstly, what do we mean by ‘founder-friendly’? These are terms that do not give too much leverage to the investors. Instead, the CEO will be given the freedom to make decisions. If an investor asks to use super prorata rights, they want to increase their percentage ownership in the next funding round. This is not founder-friendly because it might make it difficult for you to secure funding from new investors, as there isn’t a significant percentage of the company left for them to invest in.
 
@@ -104,3 +102,4 @@ If you have any insights on fundraising, share them with the GitLab community. S
 [fundraising-article]: http://a16z.com/2015/02/27/16-common-questions-about-fundraising/
 [slide-tips]: http://slidebean.com/blog/startups/pitch-deck-presentation-complete-guide/
 [prorate-rights]: https://bothsidesofthetable.com/what-all-entrepreneurs-need-to-know-about-prorata-rights-e5883fd21f80#.r5eot3b5l
+[prorata-rights]: https://bothsidesofthetable.com/what-all-entrepreneurs-need-to-know-about-prorata-rights-e5883fd21f80#.66fpdinl3
