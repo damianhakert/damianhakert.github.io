@@ -15,24 +15,24 @@
       var $experienceDropdown = $(salaryContainer + ' .experience li');
 
       // Set selected dropdown value
-      $countryDropdown.click('.country', this.setDropdown);
-      $cityDropdown.click('.city', this.setDropdown);
-      $levelDropdown.click('.level', this.setDropdown);
-      $experienceDropdown.click('.experience', this.setDropdown);
+      $countryDropdown.on('click', '.country', this.setDropdown);
+      $cityDropdown.on('click', '.city', this.setDropdown);
+      $levelDropdown.on('click', '.level', this.setDropdown);
+      $experienceDropdown.on('click', '.experience', this.setDropdown);
 
       // Unlock and filter city dropdown
-      $countryDropdown.click(this.filterCityDropdown.bind(this));
-      $countryDropdown.click(this.resetCityDropdown.bind(this));
+      $countryDropdown.on('click', this.filterCityDropdown.bind(this));
+      $countryDropdown.on('click', this.resetCityDropdown.bind(this));
 
       // Render compensation
-      $countryDropdown.click(this.render.bind(this));
-      $cityDropdown.click(this.render.bind(this));
-      $levelDropdown.click(this.render.bind(this));
-      $experienceDropdown.click(this.render.bind(this));
+      $countryDropdown.on('click', this.render.bind(this));
+      $cityDropdown.on('click', this.render.bind(this));
+      $levelDropdown.on('click', this.render.bind(this));
+      $experienceDropdown.on('click', this.render.bind(this));
 
       // Render Formula
-      $levelDropdown.click(this.renderFormula.bind(this));
-      $experienceDropdown.click(this.renderFormula.bind(this));
+      $levelDropdown.on('click', this.renderFormula.bind(this));
+      $experienceDropdown.on('click', this.renderFormula.bind(this));
     }
 
     // Dropdown Core functionality
