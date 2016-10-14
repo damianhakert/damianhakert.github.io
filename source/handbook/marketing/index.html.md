@@ -33,6 +33,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 - [Design]
 - [Developer Relations]
    - [Developer Advocacy]
+   - [Community Advocacy]
    - [Technical Writing]
        - [Markdown Guide]
 - [Product Marketing]
@@ -303,7 +304,7 @@ Design focuses on creating the visual brand for GitLab. Design supports product 
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
+Developer Relations includes the technical writing, developer advocacy, and community advocacy functions. The team is focused on answering the following questions:  
 
 - What are scalable developer education tools?
 - How do we turn in person feedback at events into actionable product requests?
@@ -327,6 +328,14 @@ What is Dev. Adv. (to be included).
 [Handbook][Developer Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Amanda][amanda]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ivan][ivan]{:.btn .btn-orange}
+
+### Community Advocacy
+{: .no_toc}
+
+What is Comm. Adv. (to be included).
+
+[Job Description](/jobs/community-advocate){:.btn .btn-purple-inv}
+[Handbook][Community Advocacy]{:.btn .btn-purple}
 
 ### Technical Writing
 {: .no_toc}
@@ -762,6 +771,7 @@ We use our chat internally as a communication tool. The marketing channels are a
 [Content Marketing]: /handbook/marketing/product-marketing/content-marketing/
 [Demand Generation]: /handbook/marketing/demand-generation
 [Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
+[Community Advocacy]: /handbook/marketing/developer-relations/community-advocacy/
 [Developer Relations]: /handbook/marketing/developer-relations
 [Design]: /handbook/marketing/design/
 [Field Marketing]: /handbook/marketing/demand-generation/field-marketing/
