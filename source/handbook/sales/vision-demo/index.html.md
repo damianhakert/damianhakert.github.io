@@ -200,6 +200,8 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues, Issue Board
 
+*TODO: When viewing an individual issue the menu should also be expanded.*
+
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
 
