@@ -144,6 +144,7 @@
 
     SalaryCalculator.prototype.renderContractType = function(contract) {
       var $container = $('.contract-type-container');
+      $container.removeClass('hidden');
       if (contract.hasOwnProperty('type') && contract.type.toLowerCase() === 'employee') {
         $container.find('.grammer').text('an');
         $container.find('.contract-type').text('employee');
