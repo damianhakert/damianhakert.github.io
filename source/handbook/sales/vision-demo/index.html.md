@@ -83,7 +83,7 @@ Now that we've got GitLab running, let's open it up. We will start by creating a
 > * Change password for root user
 > * Login
 > * Create a group called `tanuki` and make it public
-> * Create a project called `www` and make it public
+> * Create a project called `www` under the `tanuki` group and make it public
 
 ### Configure a project
 
