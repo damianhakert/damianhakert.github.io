@@ -1541,16 +1541,16 @@
   story:  |
           Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window.
 
-- name: J.D.
-  locality:
-  country:
+- name: Joe Drumtra
+  locality: San Francisco
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: joedrumtra.jpg
+  twitter: techpretender
+  gitlab: jdrumtra
   story:  |
-          Joining September 21st
+          Joe is an accomplished sales professional with experience in advertising, infrastructure and cloud platform technologies and has spent enough time on the command line to know how to break just about everything.  Joe grew up in Chicago-land and has lived in Atlanta Georiga and Phoenix Arizona before moving to San Francisco California.  In his free time Joe is avid snowboarder, yogi and non-fiction reader.
 
 - name: Kyla Gradin
   locality: Fargo, North Dakota
