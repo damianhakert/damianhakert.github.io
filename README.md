@@ -382,3 +382,12 @@ This will start a Web server on port 8000 (you may omit the port number). You ca
 by pointing your browser to http://localhost:8000.
 
 [gh-livereload]: https://github.com/middleman/middleman-livereload/issues/60
+
+## Conclusion
+
+In case someone forgot the most important commands and is catting this file from the command line we end by listing them:
+
+```
+bundle exec rake new_post
+bundle exec middleman
+```
