@@ -71,8 +71,8 @@ And then we import an OpenShift template for a complete GitLab installation. We 
 > * Open in a browser: http://bit.do/openshiftgitlab or http://bit.ly/2e953Pn
 > * Copy content of idea-2-prod-template.json
 > * Click Create, leave `Process the template` selected, click Continue
->   * GitLab instance hostname to `gitlab.tanukionline.com`  
->   * Mattermost instance hostname to `mattermost.tanukionline.com`  
+>   * GitLab instance hostname to `gitlab.tanukionline.com`
+>   * Mattermost instance hostname to `mattermost.tanukionline.com`
 > * Press button
 > * Continue to overview
 
@@ -109,7 +109,6 @@ Then let’s now create a new project to start off with. Let's call it `www` and
 Great, we have a new project, now let’s create a the first file. We’ll use the built-in GitLab editor to add it.
 
 > * Click add readme (changing that to + in [#23310](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310))
-> * Type `Hello World`
 > * Name the file `index.html`
 > * Type `Hello World` as the contents
 > * Click Submit
@@ -124,7 +123,7 @@ Of course this is just a static file and not an application yet, but since we’
 
 ### Prepare OpenShift
 
-*TODO: Simplify this with Smart Deploys*
+*TODO: Simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373)*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
 
@@ -136,11 +135,11 @@ We will now copy this token and go back to GitLab where we will use this token a
 > * Go to GitLab
 > * Settings > Variables
 > * Key: OPENSHIFT_TOKEN
+> * Value: paste token
+> * Add new variable
 
 We also need to set our server and our domain.
 
-> * Value: paste token
-> * Add new variable
 > * Repeat for:
 >   * OPENSHIFT_SERVER: https://openshift.tanukionline.com:8443
 >   * OPENSHIFT_DOMAIN: tanukionline.com
@@ -159,20 +158,18 @@ Great, that completes our setup.
 
 Let’s go to our Mattermost client. We can get there from our OpenShift dashboard. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
-> * Go to OpenShift and select GitLab project https://openshift.tanukionline.com:8443/console/project/gitlab/overview
+> * Go to OpenShift and select the GitLab project [https://openshift.tanukionline.com:8443/console/project/gitlab/overview](https://openshift.tanukionline.com:8443/console/project/gitlab/overview)
 > * Click [Mattermost URL](http://mattermost.tanukionline.com) (second application, top right)
 > * Sign up with GitLab
 > * Authorize
 
 Let’s create a new team.
 
-*TODO: Automate this*
+*TODO: Automate the setup of the team and channel*
 
 > * Create a new team: tanuki. Press Next. Press Finish.
 
 And create a channel for our project.
-
-*TODO: Automate this*
 
 > * Create a new channel by clicking the + icon in the sidebar: www. Press 'Create new channel'
 
@@ -184,7 +181,7 @@ When a great idea does come along, it would be such a waste to let it die in a c
 
 > ```
 > /issue create Make homepage more descriptive
-> SHIFT ENTER  
+> SHIFT ENTER
 > Currently it is just Hello World.
 > ```
 
@@ -223,10 +220,10 @@ Now let’s get coding! We could of course code on our local laptops, but then w
 
 Let's edit the index.html file.
 
-> * `vi htdocs/index.html`  
-> * i (to insert)  
-> * Update text to `Updated Hello World`  
-> * esc (to go back to normal mode)  
+> * `vi htdocs/index.html`
+> * i (to insert)
+> * Update text to `Updated Hello World`
+> * esc (to go back to normal mode)
 > * ZZ (to save and close)
 
 Now we’ve saved the changes, we can view the web page live to see how we like them.
@@ -276,7 +273,7 @@ There are 2 parallel tests. Let's click through one of them and see the build lo
 
 While it’s running, we can head back to OpenShift to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed.
 
-> * Go to OpenShift, GitLab project  
+> * Go to OpenShift, GitLab project
 > * Show runner pods
 
 ## Review (MR)
@@ -290,7 +287,7 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our OpenShift cluster in a special app called a Review App, created just for this branch. If we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
 
-> * Merge Requests  
+> * Merge Requests
 > * First merge request
 > * Click on external link to review app (if it is not updated, go to the review app deployment history, find the second-last item and re-deploy.
 
@@ -315,7 +312,7 @@ Going back to the merge request, we now see another status showing that this cod
 
 Let’s ship these changes to production! There's this thing called ChatOps that encourages us to do these kinds of things in a common chat room, so everyone can see important changes. So let's go back to our chat room, and tell GitLab to deploy whatever’s on staging to production.
 
-> * Go to Mattermost  
+> * Go to Mattermost
 > * Type `/deploy staging to production`
 > * Click on the link
 > * enable auto scroll
