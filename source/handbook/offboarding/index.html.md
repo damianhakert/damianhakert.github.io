@@ -9,20 +9,20 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @rspeicher, @jacobvosmaer, @ernst, @brittany.
-1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @ernst.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
+1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
-   1. [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
-   1. [ ] Robert/Jacob V/Ernst: switch off 2FA for the account, reset the password, log on, and set email to forward to the manager. Also change the phone number and alternative email (typically personal email address) that are associated with the account. Switch 2FA back on and save login credentials in 1password (PeopleOps vault). When asked for a phone number use your own, this is only for the purposes of turning 2FA back on.
-   1. [ ] Robert/Jacob V/Ernst: upon manager's request (typically 4 weeks after blocking
+   1. [ ] People Ops: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
+   1. [ ] People Ops: switch off 2FA for the account, reset the password, log on, and set email to forward to the manager. Also change the phone number and alternative email (typically personal email address) that are associated with the account. Switch 2FA back on and save login credentials in 1password (PeopleOps vault). When asked for a phone number use your own, this is only for the purposes of turning 2FA back on.
+   1. [ ] People Ops: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
-1. [ ] Robert/Jacob V/Ernst: remove former team member's email from email aliases (workflow is by suggesting in "GitLab Email Forwarding", then enacting).
-1. [ ] Robert/Jacob V/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
-1. [x] _not relevant_ Robert/Jacob V/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+1. [ ] People Ops: remove former team member's email from email aliases (workflow is by suggesting in "GitLab Email Forwarding", then enacting).
+1. [ ] People Ops: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
+1. [x] _not relevant_ People Ops: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 1. [ ] Slack
-   1. [ ] Robert/Jacob V/Ernst disable team member in [Slack](https://gitlab.slack.com/admin).
+   1. [ ] People Ops disable team member in [Slack](https://gitlab.slack.com/admin).
    1. [x] _not relevant_ New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
    1. [x] _not relevant_ Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
 1. [ ] People Ops Information
@@ -82,7 +82,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
    1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-1. [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
+1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
@@ -108,8 +108,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
-1. [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
-1. [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
+1. [ ] People Ops: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Robert/Jacob V: Remove former team members' account from [Sentry](https://sentry.gitlap.com/organizations/gitlab/members/)
 1. [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
 1. [ ] For former Developers (those who had access to part of the infrastructure), Production and Service Engineering team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
@@ -118,7 +118,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Jose/Robert/Jacob V: Remove former team member's GitLab.com admin account.
+1. [ ] People Ops: Remove former team member's GitLab.com admin account.
 1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus.
 1. [ ] Zendesk [(general information about removing agents)](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
@@ -169,9 +169,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR CORE TEAM MEMBERS ONLY
 
-1.  [ ] Robert/Jacob V/Ernst: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+1.  [ ] People Ops: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
 2.  [x] _not relevant, People Ops: Have member sign NDA.
-3.  [ ] Robert/Jacob V/Ernst: Remove member to #core in Slack.  
-4.  [ ] Robert/Jacob V/Ernst: Remove member developer access to gitlab-org.
+3.  [ ] People Ops: Remove member to #core in Slack.  
+4.  [ ] People Ops: Remove member developer access to gitlab-org.
 
 ```
