@@ -886,7 +886,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [security release]: /blog/categories/security-release/
 [Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
 [Snipping tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
-[Social Marketing Handbook]: ../social-marketing/
+[Social Marketing Handbook]: ./social-marketing/
 [synonyms]: http://www.thesaurus.com/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
 [technical aspects]: #technical-aspects
