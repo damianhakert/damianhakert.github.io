@@ -75,7 +75,7 @@
 - name: Job van der Voort
   locality: Lisbon
   country: Portugal
-  role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">Vice President of Product</a>
+  role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">VP of Product</a>
   reports_to: CEO
   picture: picture_job.jpg
   twitter: Jobvo
@@ -1309,7 +1309,7 @@
   locality: Montréal
   country: Québec
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
-  reports_to: Vice President of Product
+  reports_to: VP of Product
   picture: regis.jpg
   twitter: djaiss
   gitlab: regisF
@@ -1721,7 +1721,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: VP of Scaling
+  reports_to: Support Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
