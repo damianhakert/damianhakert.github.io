@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Servce Engineer Bootcamp Checklist
+title: Service Engineer Bootcamp Checklist
 ---
 
 ## Bootcamp Checklist for Training of New Service Engineers
