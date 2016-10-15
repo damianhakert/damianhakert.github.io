@@ -35,7 +35,7 @@ You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on y
 A single machine server handles thousands of users and repositories
 
 ### HA setups
-GitLab offers multiple HA solutions, making it possible to failover easily.
+GitLab offers multiple highly availabiliy (HA) solutions, making it possible to failover easily.
 
 [More information about active servers](https://about.gitlab.com/high-availability/)
 
@@ -112,3 +112,18 @@ you have the right to modify the code.
 [Read the GitLab Enterprise Edition license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE)
 
 [ee-source]: https://gitlab.com/gitlab-org/gitlab-ee
+
+### Update easily
+GitLab is extremely easy to upgrade. All you need to do is `apt-get install gitlab-ee` to update to the latest version.
+
+### Excellent support
+GitLab Enterprise Edition comes with a support subscription.
+Our engineers will do our best to help you with any issues related to
+GitLab and are happy to do a screensharing or ssh session to help you out.
+
+### Easy, online backup
+GitLab will run in readonly mode while it runs a backup, which is
+as simple as running a single command. No external software needed.
+
+### IPv6 Support
+GitLab supports IPv6.

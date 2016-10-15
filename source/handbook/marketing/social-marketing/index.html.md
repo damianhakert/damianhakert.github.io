@@ -53,8 +53,8 @@ This information is valid for the entire website, including all the webpages for
 
 #### Images
 
-All the images or screenshots for `twitter_image` should be pushed to the [www-gitlab-com] project
-at `/source/images/tweets/` and must be named after the page's file name.
+All the images or screenshots for `twitter_image` should be pushed to the [www-gitlab-com] project at `/source/images/tweets/` and must be named
+after the page's file name.
 
 For the [second post] above, note that the tweet image is the blog post cover image itself,
 not the screenshot. Also, there's no `description` provided in the frontmatter, so our
@@ -90,15 +90,15 @@ To see it working, you can either share the page on Twitter or Facebook, or just
 
 ## Promoting GitLab on Social Media
 
-To be included (ref https://gitlab.com/gitlab-com/marketing/issues/524)
+To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/524>)
 
 ## Recycling of content on Twitter
 
-To be included (ref https://gitlab.com/gitlab-com/marketing/issues/386)
+To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/386>)
 
 ## Event Promotion
 
-To be included (ref https://gitlab.com/gitlab-com/marketing/issues/524)
+To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/524>)
 
 <!-- Social Marketing Handbook - ref https://gitlab.com/gitlab-com/marketing/issues/524 -->
 

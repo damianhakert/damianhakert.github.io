@@ -587,7 +587,7 @@ It's defined in the post `frontmatter`, and it's not mandatory, but recommended.
 twitter_image: '/images/tweets/image-name.png'
 ```
 
-Whenever you want to display exactly the cover image in social media feeds, don't\
+Whenever you want to display exactly the cover image in social media feeds, don't
 add a `twitter_image` to the frontmatter. Otherwise, make sure it's included,
 to make it easier to our audience to identify a GitLab Blog Post straight away
 when scrolling their feed.
@@ -634,6 +634,16 @@ Hit **enter** or **return**, then you'll be prompted to enter the post title. Ty
 want it, for example "Hello World - I'm a new post" and rake will take care of the file name for you.
 Then you just open the file, fill in with your name, Twitter handle, and the post category, then you'll be
 good to start writing.
+
+### Writing Style
+
+At GitLab, we use [American English](/handbook/#american-english) as the standard written language. 
+
+GitLab content primarily follows [AP Style], the guide for
+which is searchable online. Any questions that cannot be answered
+by the AP Stylebook may be resolved by referring to the
+[Chicago Manual of Style]. To learn about GitLab's advanced
+formatting system, check out our [Markdown Guide].
 
 ### Body structure
 
@@ -695,7 +705,7 @@ for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screen
 For the blog, images should be cropped in a 1.7 width/height pixel *proportion* (ideally 1275px x 750px)
 so the image doesn't get clipped when displayed as a lead image in the blog list.
 This includes the cover image.
-Compress the image, for example using or any other image editor.
+Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
 To preserve the harmony along the post, try to keep all the images with the same width
 (e.g., the ones used in [this post][width-post]).
 
@@ -754,15 +764,15 @@ reflects somehow your post's subject. In the absence of an image, use one of the
 
 The cover image has the following proportions:
 
-On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
-On blog post page (widescreen): 1920px x 550px w/h = 3.5
+- On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
+- On blog post page (widescreen): 1920px x 550px w/h = 3.5
 
 Try to have them harmonically aligned with the title,
 which overlays the background image in both cases.
 
-To crop the image, use the size of 1275x750 px. To align the
-background image with the title overlay, use the widescreen
-proportion, if necessary.
+To crop the image, use the size of 1275x750 px. If you want
+to align the background image with the title overlay, use the widescreen
+proportion.
 
 #### Creating GIFs
 {: .no_toc}
@@ -884,6 +894,8 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 [Social Marketing Handbook]: ../social-marketing/
 [Snipping tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
+[AP Style]: http://www.apstylebook.com/online/?do=chapter
+[Chicago Manual of Style]: http://www.chicagomanualofstyle.org/home.html
 
 <!-- Labels -->
 

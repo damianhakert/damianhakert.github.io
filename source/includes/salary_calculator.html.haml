@@ -7,27 +7,8 @@
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
 - if job.length == 1 and job[0].salary
   .salary-container.col-xs-12{data: {salary: job[0].salary}}
-    %h2 Your compensation
+    %h2#compensation Compensation
     .col-sm-8
-      .col-sm-6
-        .dropdown.experience
-          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            %span.title Experience in your level
-            %span.subtitle
-            %i.fa.fa-chevron-down
-          %ul.dropdown-menu.dropdown-scroll
-            %li
-              %span.key Show range
-              %span.value 0.8 to 1.2
-            %li
-              %span.key Low
-              %span.value 0.8
-            %li
-              %span.key Medium
-              %span.value 1.0
-            %li
-              %span.key High
-              %span.value 1.2
       .col-sm-6
         .dropdown.level
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
@@ -47,6 +28,25 @@
             %li
               %span.key Lead
               %span.value 1.4
+      .col-sm-6
+        .dropdown.experience
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            %span.title Experience in your level
+            %span.subtitle
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+            %li
+              %span.key Experience range
+              %span.value 0.8 to 1.2
+            %li
+              %span.key Little experience
+              %span.value 0.8 to 1.0
+            %li
+              %span.key Average experience
+              %span.value 0.9 to 1.1
+            %li
+              %span.key A lot of experience
+              %span.value 1.0 to 1.2
       .col-sm-6
         .dropdown.country
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
@@ -69,19 +69,8 @@
                 %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
       .compensation
-        .title Compensation
+        .title Annual Compensation
         .amount --
-    .col-sm-12.note
-      Learn about our
-      = succeed '.' do
-        %a{:href => '/handbook/contracts'} contract types
-      We will usually pay you in your local currency.
-      We expect you will be
-      %span.contract-type-container
-        %span.grammer a
-        %strong.contract-type contractor
-        at GitLab
-        %span.company-type BV.
     .col-sm-12.formula-container
       %h4 How did we calculate your compensation?
       .formula
@@ -116,4 +105,15 @@
       .explanation
       Find out
       = succeed '.' do
-        %a{:href => '/handbook/people-operations/global-compensation-framework'} how our calculator works
+        %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+      You are also eligible for
+      %a{href: '/handbook/stock-options/'} stock options
+      and
+      = succeed '.' do
+        %a{href: '/handbook/benefits/'} other benefits
+      %span.contract-type-container.hidden
+        Based on the information provided, we expect you will be
+        %span.grammer a
+        %strong.contract-type contractor
+        at GitLab
+        %span.company-type BV.

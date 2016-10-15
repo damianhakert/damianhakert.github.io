@@ -13,8 +13,6 @@ The topics are generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
 ```
-## Service Engineer Boot Camp
-
 We need to keep iterating on this checklist so please submit MR's for any improvements
 that you can think of. If an item does not start with a role or name of someone else, it's yours to do.
 
@@ -146,18 +144,14 @@ Zendesk is our Support Centre and our main communication line with our customers
   1. [ ] call with ___
 1. [ ] Dive into our ZenDesk support process by reading how to [handle tickets](https://about.gitlab.com/handbook/support/onboarding/#handling-tickets)
 1. [ ] Start getting real world experience by handling real tickets, all the while gaining further experience with the Product.
-   1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/#support-channels)
-    1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/support/#stack-overflowa-namestack-overflowa) and the [GitLab forum](https://about.gitlab.com/handbook/support/#foruma-namegitlab-foruma)
+   1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/channels), and be aware which ones are handled by the [Community Advocacy team](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy)
+    1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#stack-overflow) and the [GitLab forum](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#forum). Work with the Community Advocacy team (see their chat channel) to make sure you are not duplicating efforts.
       1. Here you will find a large variety of queries mainly from our Users who are self hosting GitLab CE
       1. [ ] Answer one by understanding a question dig in to try to find a solution
-  1. [ ] [Proceed on to the GitLab.com Support Tracker](https://about.gitlab.com/handbook/support/#gitlabcom-support-trackera-namesupp-foruma)
+  1. [ ] [Proceed on to the GitLab.com Support Tracker](https://about.gitlab.com/handbook/support/channels/#gitlabcom-support-tracker)
      1. Here you will find queries regarding our own GitLab.com
      1. [ ] Find a user you can help and help them, this will give you an understanding of our Admin interface and other tools
-  1. [ ] [Proceed on to the Twitter tickets in Zendesk](https://about.gitlab.com/handbook/support/#twitter)
-     1. Here you will gain a great insight into our user base
-     1. Tweets can range from help needed with GitLab installations, the API and just general queries
-     1. [ ] Find a complaint or problem and feed them back to the team
-  1. [ ] [Proceed on to Regular email Support tickets](https://about.gitlab.com/handbook/support/#regular-zendesk-tickets-a-nameregulara)
+  1. [ ] [Proceed on to Regular email Support tickets](https://about.gitlab.com/handbook/support/channel/#regular-zendesk-tickets)
      1. Here you will find tickets from our GitLab EE Customers and GitLab CE Users
      1. Tickets here are extremely varied and often very technical
      1. You should be prepared for these tickets, given the knowledge gained from previous tiers and your training
@@ -169,7 +163,7 @@ Zendesk is our Support Centre and our main communication line with our customers
 
 Some tickets need specific knowledge or a deep understanding of a particular component and will need to be escalated to a Senior Service Engineer or Developer
 
-1. [ ] Read about [Escalation](https://about.gitlab.com/handbook/support/onboarding/#create-issuesa-namecreate-issuea)
+1. [ ] Read about [Escalation](https://about.gitlab.com/handbook/support/onboarding/#create-issues)
 1. [ ] Find the macros in Zendesk for ticket escalations
 1. [ ] Take a look at the [GitLab.com Team page](https://about.gitlab.com/team/) to find the resident experts in their fields
 
@@ -201,7 +195,7 @@ _Typically start this in week 2 or 3, complete by end of week 4._
 Look at the `GitLab Support` Google Calendar to find customer calls you can listen in on. Contact the person leading the call to check if it is okay for you to jump in on the call, and if they could stay on with you for a few minutes after the call, for you to ask them a few questions about things you didn't understand, and them to ask you a few questions to make sure you understood the items they want you to take away.
 
 1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call
-   1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webexa-namewebexa)
+   1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webex)
    1. [ ] Training calls
      1. [ ] call with ___
      1. [ ] call with ___

@@ -441,7 +441,7 @@
   locality: Athens
   country: Greece
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
@@ -717,8 +717,8 @@
 - name: Braden Coleman
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  reports_to: BDR Manager
   picture: Braden.jpg
   twitter: jannandbraden
   gitlab: bradenC
@@ -740,8 +740,8 @@
 - name: Ryan Caplin
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  reports_to: BDR Manager
   picture: ryan.jpg
   twitter:
   gitlab: rycap
@@ -961,7 +961,7 @@
   locality: Quatro Barras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
@@ -1238,7 +1238,7 @@
 - name: Chet Backman
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/bdr-manager/">BDR Manager</a>
   reports_to: Director of Demand Generation
   picture: chet.jpg
   twitter: chetbackman
@@ -1382,8 +1382,8 @@
 - name: Kris Touzel
   locality: Myrtle Beach, SC
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  reports_to: BDR Manager
   picture: kris.jpg
   twitter: kris_touzel
   gitlab: Touzel2
@@ -1394,7 +1394,7 @@
   locality: Boulder, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: erica.jpg
   twitter: EricaLindberg_
   gitlab: lindberg
@@ -1449,7 +1449,7 @@
 - name: Sean Packham
   locality: London
   country: United Kingdon
-  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
+  role: Content Lead
   reports_to: CEO
   picture: seanpackham.jpg
   twitter: SeanPackham
@@ -1465,8 +1465,8 @@
 - name: Dan Parris
   locality: Maryland
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  reports_to: BDR Manager
   picture: dan-picture.jpg
   twitter: _dparris
   gitlab: dparris
@@ -1534,7 +1534,7 @@
   locality: Marazion
   country: UK
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Representative Manager
+  reports_to: Business Development Team Lead - Outbound Team
   picture: elsje.jpg
   twitter:
   gitlab: elsje
@@ -1555,8 +1555,8 @@
 - name: Kyla Gradin
   locality: Fargo, North Dakota
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  reports_to: BDR Manager
   picture: kyla.jpg
   twitter: KylaGradin
   gitlab: kyla
@@ -1604,7 +1604,7 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: CEO
+  reports_to: Content Lead
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
@@ -1659,10 +1659,10 @@
   twitter: b0bby_tables
   gitlab: briann
   story:  |
-          Co-founder and early member of several information security startups, Brian has been heavily involved 
-          in the network and application security fields. Having written a number of open-source security tools 
-          and contributed to many more, he's watched as the world slowly became aware of the benefits of open 
-          code. An avid motorcyclist and ice hockey player, Brian also sometimes enjoys standing in a cold 
+          Co-founder and early member of several information security startups, Brian has been heavily involved
+          in the network and application security fields. Having written a number of open-source security tools
+          and contributed to many more, he's watched as the world slowly became aware of the benefits of open
+          code. An avid motorcyclist and ice hockey player, Brian also sometimes enjoys standing in a cold
           mountain stream and wondering where all the fish went.
 
 - name: David França
@@ -1710,7 +1710,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Representative Manager
+  reports_to: Business Development Team Lead - Outbound Team
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1742,13 +1742,13 @@
 - name: B.J.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Representative Manager
+  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead-outbound/">Business Development Team Lead - Outbound Team</a>
+  reports_to: BDR Manager
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining October 24th
+          Joining October 17th
 
 
 - name: J.A.

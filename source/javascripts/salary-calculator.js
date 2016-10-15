@@ -1,7 +1,6 @@
 (function () {
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
-  var compensationTitle = salaryContainer + ' .compensation .title';
   var defaultValue = '--';
 
   this.SalaryCalculator = (function() {
@@ -125,7 +124,7 @@
       var contracts = this.data.contractTypes;
 
       var levelIndex = parseFloat(input.level);
-      var experienceFactor = parseFloat(input.experience);
+      var experienceRange = input.experience.split('to ');
       var benchmark = input.salary;
 
       var rentIndex = this.calculateRentIndex(input.city, input.country);
@@ -138,20 +137,14 @@
 
       this.renderContractType(contract);
 
-      if (input.experience === '0.8 to 1.2') {
-        var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 0.8);
-        var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, 1.2);
-        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
-        $(compensationTitle).text('Compensation Range');
-      } else {
-        var compensation = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, experienceFactor);
-        $(compensationAmount).text(this.formatAmount(compensation) + ' USD');
-        $(compensationTitle).text('Compensation');
-      }
+      var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[0]));
+      var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[1]));
+      $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
     SalaryCalculator.prototype.renderContractType = function(contract) {
       var $container = $('.contract-type-container');
+      $container.removeClass('hidden');
       if (contract.hasOwnProperty('type') && contract.type.toLowerCase() === 'employee') {
         $container.find('.grammer').text('an');
         $container.find('.contract-type').text('employee');
