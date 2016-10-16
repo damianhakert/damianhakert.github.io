@@ -1,3 +1,8 @@
+- title: "Prometheus Lead"
+  description: /jobs/prometheus-lead/
+  apply: https://gitlab.workable.com/jobs/*****/candidates/new
+  open: true
+
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
   apply: https://gitlab.workable.com/jobs/346406/candidates/new
@@ -83,7 +88,7 @@
   description: /jobs/product-marketing-manager/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
-  
+
 - title: "Product Marketing Manager: Partner and Channel Specialist"
   description: /jobs/product-marketing-manager-partner/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
@@ -101,7 +106,7 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
-  apply: 
+  apply:
   open: false
 
 - title: "Service Engineer"
