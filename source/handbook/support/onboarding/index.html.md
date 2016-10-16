@@ -75,9 +75,11 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- click the "Document this" checkbox (found on the left-hand side of the ticket)
-- enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
-- update the ticket
+- Click the "Document this" checkbox (found on the left-hand side of the ticket)
+- Enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
+- Update the ticket
+- Do not just look at the Docs and see how other directories and files were
+structured, we are trying to change some of that so please follow the [documentation styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.html#location-and-naming-of-documents)
 
 Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
@@ -298,6 +300,37 @@ celebrate those "wins" with the rest of the team through the #support or #thanks
 chat channel. Read the positive feedback carefully, often it contains a question
 or suggestion for improvement which should be followed up on.
 
+
+## Customer Calls Best Practices
+
+### Before a Call
+
+After sending the WebEx Invite, go to the ticket and ask for confirmation. Having the customer confirmation will also help to detect errors on the scheduling process such as an incorrect timezone, date, etc.
+
+Add the call with description and duration to the Support Team Calendar.
+
+### During a Call
+
+Once you started the call and the client connects, indentify yourself. Example:
+
+> Hi {customer name}, this is {agent name} from GitLab Support.
+
+If you started the call and the client doesn't join, wait for a couple minutes. After 10 minutes of waiting
+go to the ticket and send a reply to check if the customer is having either issues with the scheduled time
+or connecting to the WebEx Platform.
+
+If after another 10 minutes you don't get answer, go ahead and re-schedule.
+
+If a call takes too long (> 1 hour), and/or if you're not making progress, discuss with the customer the need to re-schedule.
+
++ If you were having problems helping the customer, make sure to contact a teammate to join you on the re-scheduled call (Call Escalation)
++ If the customer had problems either with their setup, environment or connectivity, remember him to solve them before the new
+call when re-scheduling.
+
+### After a Call
+
+Update the ticket with a brief description of what was accomplished or not during the call making sure to point out the missing
+information to solve the ticket.
 
 ## Customer Training
 

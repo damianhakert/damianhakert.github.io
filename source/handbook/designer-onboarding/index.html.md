@@ -42,7 +42,7 @@ As you may already know, at GitLab we work in the open, and a large part of that
 
 ## Design tools
 
-Every (marketing) designer receives a license for [Adobe CC](http://www.adobe.com/creativecloud.html).
+Every (marketing) designer receives licenses for [Adobe CC](http://www.adobe.com/creativecloud.html) and [Sketch](https://www.sketchapp.com/).
 
 ## Gathering Feedback
 As Design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Try to come up with a solution instead of discussing endlessly. If you think additional perspective is needed mention a fellow designer in the issue.

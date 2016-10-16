@@ -1,7 +1,7 @@
-require 'generators/direction.rb'
-require 'generators/release_list.rb'
-require 'generators/org_chart.rb'
-require 'extensions/breadcrumbs.rb'
+require 'generators/direction'
+require 'generators/release_list'
+require 'generators/org_chart'
+require 'extensions/breadcrumbs'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -101,6 +101,13 @@ helpers do
 
     "//fonts.googleapis.com/css?family=#{fonts}"
   end
+
+  def highlight_active_nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(link_text, url, options)
+  end
+
 end
 
 # Build-specific configuration

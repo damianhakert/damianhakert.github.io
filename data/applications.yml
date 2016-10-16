@@ -57,11 +57,21 @@
       links:
         - url: https://github.com/numa08/git-gitlab
           title: Repository on GitHub
+    - title: Invantive Data Hub
+      content: Invantive Data Hub is command-line driven software that is capable of executing Invantive Query Tool-compatible scripts across many databases and cloud platforms. Ideal for high volume data loads and extractions of cloud applications such as GitLab.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#data-hub
+          title: Invantive Data Hub
     - title: "Bor-sh's git-gitlab"
       content: Yet another GitLab command line interface.
       links:
         - url: https://gitlab.com/bor-sh/git-gitlab
           title: Repository on GitLab
+    - title: Invantive Data Access Point
+      content: Extend GitLab APIs by support for many additional communication protocols, including Microsoft Power BI.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#data-access-point
+          title: Invantive Data Access Point
     - title: "GoTsunami's GitLab Copy Tool"
       content: Copy issues (with labels, milestones and notes) from one GitLab project to another, possibly running on different GitLab instances.
       links:
@@ -204,11 +214,21 @@
       links:
         - url: https://gitlab.com/mcepl/create-gitlab-repo
           title: Repository
+    - title: Invantive Control for Excel
+      content: Download and upload facts to GitLab using the Excel add-in Invantive Control. The add-in provide businesses and organizations all the functionalities needed to make real-time management decisions.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#control
+          title: Invantive Control for Excel
     - title: GitLab Listener
       content: JIRA add-on allowing the reception of GitLab push events using GitLab project webhooks.
       links:
         - url: https://marketplace.atlassian.com/plugins/com.allenta.jira.plugins.gitlab.gitlab-listener
           title: Atlassian Marketplace
+    - title: Invantive Composition for Word
+      content: Save money and time by merging data from GitLab with Word documents. The automatic generation and creation of documents increases business profit.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#composition
+          title: Invantive Composition for Word
     - title: GitLab IRC gateway
       content: 'IRC notifications using webhooks, implemented with the <a href="http://www.catb.org/esr/irker/">irker IRC bot</a>'
       links:
@@ -229,6 +249,11 @@
       links:
         - url: https://teamweek.com/
           title: Teamweek
+    - title: Invantive Query Tool for SQL
+      content: With the Invantive Query Tool is all the data, stored in GitLab, available on demand. It empowers to execute queries, capture and analyze data and create business reports in real-time.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#query-tool
+          title: Invantive Query Tool for SQL
     - title: Toggl
       content: Time tracker that is built for speed and ease of use.
       links:
@@ -244,6 +269,11 @@
       links:
         - url: https://www.reviewboard.org/
           title: Review Board
+    - title: Online SQL Editor
+      content: Business Intelligence via any web browser and platform. By login in with the GitLab credentials easily extract, organize and analyze data, stored in the cloud of GitLab.
+      links:
+        - url: http://www.gitlab-apps.com/index.html#online-sql-editor
+          title: Online SQL Editor
     - title: TMetric
       content: Easy time management tool which helps to track all your working activity in GitLab. Follow GitLab time tracking instruction to start using TMetric.
       links:

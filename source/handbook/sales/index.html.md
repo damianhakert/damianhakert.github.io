@@ -21,6 +21,8 @@ title: "Sales Handbook"
 * [Opportunity Types](#types)
 * [Opportunity Stages](#stages)
 * [Processing Orders](#processing)
+* [Creating Quote for a Partner Deal](#resellerQuote)
+* [Using Customer Form](#CustomerFormAgreements)
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
@@ -407,7 +409,7 @@ When in doubt please consult the reseller team.
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
 
-### Using Customer Form Agreements
+### Using Customer Form Agreements<a name="CustomerFormAgreements"></a>
 Our experience shows that using a prospect's form agreement is expensive and, more importantly, time consuming.  Deals in which we use the customer agreement take on average 60 days longer to close than if completing using our standard subscription agreement with changes as requested by customer counsel.  The arguments in favor of using our agreement are as follows:
 
 1. Our agreement is an annual subscription agreement with a true-up whereas customer form agreements typically are based on paid up licenses.

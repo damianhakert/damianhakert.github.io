@@ -12,6 +12,10 @@ category: Zendesk
 
 ----
 
+## Adding / Removing Agents in Zendesk
+
+To add or remove "full" agents to our Zendesk account, contact Zendesk support through the email address contained in the Support vault on 1Password titled "Zendesk Account Manager". This makes sure that the request is routed more quickly than if it is just sent in via their generic support address. Since we are on an annual contract, changes typically require a purchase order to be signed by the [VP of Engineering](/jobs/vp-of-engineering), but the change request can be initiated by any current "full" agent.
+
 ## Tips to find important tickets
 
 Zendesk is an expansive tool and it can be easy to lose track of important
