@@ -639,13 +639,15 @@ Keep in mind that unlike normal Google Calendar events, Calendly events are not 
 
 ### Shush
 
-[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
+[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use your `fn` key as a push to talk or push to mute.
 Never again will you have switch window focus to Google Hangout or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
-With a right click you can switch from push to talk to push to mute.
-Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
-Be warned that page up with fn+down arrow will activate it.
-Use space for page down instead of fn+up arrow.
+Click on the app icon to choose betwen `Push-to-talk` or `Push-to-mute`.
+Don't forget to unmute your mic in Zoom/Google Hangouts immediately after joining.
+Be warned that page up/down with `fn+up/down arrow` will activate it.
+Use `space` for page down instead of `fn+down arrow`, or in Shush settings you
+could choose a convenient key other than `fn` that you are less likely to use
+during a call.
 
 ### Disabling OS X Notification Center
 
