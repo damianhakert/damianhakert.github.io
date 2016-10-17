@@ -71,10 +71,10 @@ extra_js:
 .page-container.content-container.white-bg.animated
   .container
     %h2.page-headline.text-center
-      Getting Started with Review Apps
+      Review Apps Main Advantages
     %h3.getting-started-subheader.text-center
       :markdown
-        Cycle Analytics is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
+        Review Apps is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
 
     %section#steps.steps
       .step.js-step
@@ -82,18 +82,18 @@ extra_js:
           .step-icon-container
             = icon("home/icon-step-2", "step-icon", { label: "Issue" })
             %span.step-number.text-center
-              [ step 01 ]
+              [ benefit 01 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Lorem
+                Dynamic Preview
               .lead.text-center.step-lead-text
                 :markdown
-                  Lorem ipsum dolor sit amet.
+                  Preview your app while working on a new implementation
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta minus tenetur aperiam sint labore quis magnam suscipit velit architecto quibusdam ea ad exercitationem odit saepe, delectus adipisci dolorem. Optio!
+                    The main power of GitLab Review Apps is the ability to preview a new proposal right from the merge request, in a per feature-branch basis.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
@@ -102,42 +102,43 @@ extra_js:
           .step-icon-container
             = icon("home/icon-step-3", "step-icon", { label: "Plan" })
             %span.step-number.text-center
-              [ step 02 ]
+              [ benefit 02 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Lorem ipsum
+                No more doubts
               .lead.text-center.step-lead-text
                 :markdown
-                  Lorem ipsum dolor sit amet, consectetur.
+                  Know that your proposal works
+
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio placeat officia, minus! Veniam aspernatur, expedita, fugiat rem perferendis velit.
-
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quam voluptatum quaerat totam dolores, iure distinctio, animi maxime!
+                    You don't need to ask yourself "does this really work?" anymore. Know it's working, or have your team
+                    making it work before deploying your code.
       .step.js-step
         .container
           .step-icon-container
             = icon("home/icon-step-4", "step-icon step-icon-3", { label: "Code" })
             %span.step-number.text-center
-              [ step 03 ]
+              [ benefit 03 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Lorem
+                Save time
               .lead.text-center.step-lead-text
                 :markdown
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  No more back and forwards
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere, fugiat quia in minus, quis ipsum consequuntur cum?
+                    Once you don't need to deploy you code to staging or even to production to see it working,
+                    you save your time, and your reviewer's, by having a fully-integrated tool to do it for you,
+                    in all your projects.
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia qui aliquid tenetur molestias quos neque, nesciunt debitis nostrum libero corrupti, porro quidem fugit. Soluta, officiis?
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
@@ -146,65 +147,49 @@ extra_js:
           .step-icon-container
             = icon("home/icon-step-6", "step-icon step-icon-3", { label: "Test" })
             %span.step-number.text-center
-              [ step 05 ]
+              [ benefit 04 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Lorem
+                Save money
               .lead.text-center.step-lead-text
                 :markdown
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  Built-in with GitLab
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aliquid atque minima reiciendis.
+                    Don't pay extra money for a third-party tool to do that for you. Neither spend your developer's time
+                    on setting it up. It's built-in with GitLab, free to use as you like.
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim saepe voluptatem temporibus ipsa dolorem molestiae laboriosam animi facere? Delectus, debitis.
+                    Save your money on infrastructure. Recycle your server storage, by destroying the environments created
+                    for each review, and creating new ones on the go.
       .step.js-step
         .container
           .step-icon-container
             = icon("home/icon-step-7", "step-icon step-icon-3", { label: "Review" })
             %span.step-number.text-center
-              [ step 05 ]
+              [ benefit 05 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Lorem
+                All together
               .lead.text-center.step-lead-text
                 :markdown
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  Chat, Issue, Plan, Code, Review, Deploy, Measure
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate accusamus quia maiores neque eligendi repellat, inventore. Iure sit, maxime a.
+                    GitLab is becoming completely self sufficient for software development: all the infrastructure
+                    you need united in one single product. Go faster [from idea to production] with GitLab!
+
+                    What are you waiting for? [Sign Up] for GitLab.com, download [GitLab Community Edition],
+                    or get your [GitLab Enterprise Edition] free trial right now!
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
-      .step.js-step
-        .container
-          .step-icon-container
-            = icon("home/icon-step-8", "step-icon step-icon-3", { label: "Staging" })
-            %span.step-number.text-center
-              [ step 06 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Lorem
-              .lead.text-center.step-lead-text
-                :markdown
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aspernatur est culpa porro vitae repudiandae. Voluptate?
-              .row.row-eq-height
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-6-illustration.png", class: "img-responsive"
-                .col-md-6.step-content
-                  :markdown
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nesciunt illum, tenetur optio, hic fugiat!
-
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, quia. Saepe, unde!
 
 = partial "includes/features/try-gitlab-ee"
 
