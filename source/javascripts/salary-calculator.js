@@ -10,11 +10,20 @@
     var key = $selected.find('.key').text();
     var value = $selected.find('.value').text();
     var displayValue = $selected.find('.display-value').text();
-    var $title = $selected.parents('.dropdown').find('.title')
-    var $subtitle = $selected.parents('.dropdown').find('.subtitle')
+    var $title = $selected.parents('.dropdown').find('.title');
+    var $subtitle = $selected.parents('.dropdown').find('.subtitle');
+
+    // Get range values if available
+    var min = $selected.find('.value').data('min');
+    var max = $selected.find('.value').data('max');
 
     $title.text(key);
     $title.data('selected', value || key);
+
+    if (min && max) {
+      $title.data('min', min);
+      $title.data('max', max);
+    }
 
     if (value) {
       $subtitle.text(value);
@@ -99,7 +108,7 @@
     SalaryCalculator.prototype.render = function() {
       var input = this.getElementValues();
 
-      if (input.country && input.city && input.level && input.experience) {
+      if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
 
         function renderData() {
           this.renderCompensation(input);
@@ -125,7 +134,6 @@
       var contracts = this.data.contractTypes;
 
       var levelIndex = parseFloat(input.level);
-      var experienceRange = input.experience.split('to ');
       var benchmark = input.salary;
 
       var rentIndex = this.calculateRentIndex(input.city, input.country);
@@ -138,8 +146,8 @@
 
       this.renderContractType(contract);
 
-      var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[0]));
-      var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, parseFloat(experienceRange[1]));
+      var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.min);
+      var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.max);
       $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
@@ -161,9 +169,10 @@
       var values = this.getElementValues();
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var contractType = this.calculateContractType(values.country);
+      var experience = values.experience;
 
       $('.formula .level .value').text(values.level ? values.level : defaultValue);
-      $('.formula .experience .value').text(values.experience ? values.experience : defaultValue);
+      $('.formula .experience .value').text(experience.min && experience.max ? experience.min + ' to ' + experience.max : defaultValue);
       $('.formula .rentIndex .value').text(rentIndex ? rentIndex.toFixed(2) : defaultValue);
       $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
@@ -180,7 +189,10 @@
         country: $(salaryContainer + ' .country .title').data('selected') || '',
         city: $(salaryContainer + ' .city .title').data('selected') || '',
         level: $(salaryContainer + ' .level .title').data('selected') || '',
-        experience: $(salaryContainer + ' .experience .title').data('selected') || ''
+        experience: {
+          min: $(salaryContainer + ' .experience .title').data('min') || '',
+          max: $(salaryContainer + ' .experience .title').data('max') || ''
+        }
       };
     }
 
