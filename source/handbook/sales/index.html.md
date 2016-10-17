@@ -14,6 +14,7 @@ title: "Sales Handbook"
 * [Pages inside Sales Handbook](#pages)
 * [Pages outside Sales Handbook](#pages-outside)
 * [GitLab Version Check](#version_check)
+* [Adding leads via Discover.org](#discover)
 * [Parent and Child Accounts](#parent)
 * [When to create an Opportunity](#opportunity)
 * [Reseller Opportunities](#reseller)
@@ -55,6 +56,17 @@ title: "Sales Handbook"
 ### GitLab Version Check <a name="version_check"></a>
 
 Before prospecting and engaging with a prospect, check to see if they are using CE. To do this, use GitLab Version Check. Everything about [GitLab Version Check](/handbook/sales-process/version_check).
+
+### Adding Leads via Discover.org <a name="discover"></a>
+* GiLab uses a 3rd party service to identify potential leads to prospect into and drive demand for GitLab Enterprise Edition and GitLab Products.
+* For an account/lead you own, you may request Sales Operations to upload any new contacts from Discover.org.  The request process is:
+  * Within the lead/account use the chatter function to make the request and tag Francis Aquino (Dir. Sales Operations).  Example, "Request for contacts to be added via Discover.org"
+  * Once the contacts have been uploaded, Sales Operations will respond via the same chatter message confirming the data upload has been done.
+  * Turnaround time for each request will be 2 business days or less.  Sales Operations strives to respond to each request within the same business day, if at all possible.
+* Before making a request for more contacts, please make sure you have a plan and time set aside to prospect to these new leads.  A plan means:
+  * Messaging targeted to the account - based on vertical, competition and/or use of CE. 
+  * Email templates created that you would like to send
+  * Time set aside to execute on your outbound plan
 
 ### Parent and Child Accounts <a name="parent"></a>
 
