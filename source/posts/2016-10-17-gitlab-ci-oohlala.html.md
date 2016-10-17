@@ -3,9 +3,9 @@ title: Why We Chose GitLab CI for our CI/CD Solution
 author: James Dang
 author_twitter: JamesDangry
 categories: GitLab CI
-image_title: '/images/blogimages/gitlab-ci-oohlala.png'
+image_title: '/images/blogimages/gitlab-ci-oohlala-cover.png'
 description: "Find out why we choose GitLab CI and what we've found through our experience using it."
-twitter_image:
+twitter_image: '/images/tweets/gitlab-ci-oohlala.png'
 date: 2016-10-17 03:35
 ---
 
