@@ -37,6 +37,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
       - [Technical Writing](https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/) - [Technical Writer](/jobs/technical-writer/)
+      - [Community Advocacy](/handbook/marketing/developer-relations/community-advocacy/) - [Community Advocate](/jobs/community-advocate/) (vacancy)
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon

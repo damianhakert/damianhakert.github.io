@@ -193,6 +193,11 @@
 - title: Utilities
   id: utilities
   applications:
+    - title: BugMuncher
+      content: 'Collect user feedback and bug reports on your website, which can be created as issues in a GitLab project. Information on how to integrate BugMuncher with GitLab can be found in the <a href="https://docs.bugmuncher.com/integrations/">BugMuncher Documentation</a>' 
+      links:
+        - url: https://www.bugmuncher.com/
+          title: BugMuncher User Feedback
     - title: Mirror a GitHub project to GitLab
       content: 'github2gitlab is a command line tool to mirror the git repository and the pull requests of a GitHub project to GitLab. As of version 7.7.0 GitLab also <a href="http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html">includes a GitHub importer</a> that transfers issues and comments.'
       links:

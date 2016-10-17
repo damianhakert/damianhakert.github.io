@@ -53,7 +53,7 @@ ADD  setup.sh /opt/
 RUN  /bin/bash /opt/setup.sh  
 ```
 
-In the `Dockerfile` ([official documentation][dockerfile-doc] is indicated
+In the `Dockerfile` ([official documentation][dockerfile-doc]) is indicated
 which base image is to be used. In this case, it's Debian Wheezy. After
 that, the `setup.sh` script is copied into the `/opt/` directory of the container. 
 In `setup.sh`, the mirror which is going to be used is configured, and

@@ -3,6 +3,8 @@ layout: job_page
 title: "Product Manager"
 ---
 
+## Role
+
 We're looking for product managers that can help us work on the future of
 developer tools. Specifically we're looking for independent people that are
 interested in building solutions for (very) large teams and organizations.
