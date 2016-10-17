@@ -1761,6 +1761,17 @@
   story:  |
           Joining October 17th
 
+- name: C.S.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
 - name: N.F.
   locality:
   country:
