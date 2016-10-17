@@ -336,7 +336,7 @@ This version also includes [security updates](http://about.mattermost.com/securi
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 
 ## Upgrade barometer
 

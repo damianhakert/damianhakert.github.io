@@ -332,7 +332,7 @@ You can read more about support for submodules in our [documentation](https://do
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out
-[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md)
 to see the all named changes.
 
 ## Upgrade barometer
