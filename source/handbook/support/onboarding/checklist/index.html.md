@@ -227,6 +227,8 @@ _Typically do this around the third week._
         1. [ ] [Status](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#get-service-status)
         1. [ ] [Starting and stopping services](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#starting-and-stopping)
         1. [ ] [Starting a rails console](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#invoking-rake-tasks)
+1. [ ] Ping the Support Lead to provide you admin access to GitLab.com, so that you can resolve user issues there. Create an admin user account for this purpose.
+
 
 ### Stage 6. On Call Duty
 
