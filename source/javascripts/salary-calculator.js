@@ -3,6 +3,26 @@
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
 
+  // Dropdown Core functionality
+
+  var setDropdown = function(event) {
+    var $selected = $(event.currentTarget);
+    var key = $selected.find('.key').text();
+    var value = $selected.find('.value').text();
+    var displayValue = $selected.find('.display-value').text();
+    var $title = $selected.parents('.dropdown').find('.title')
+    var $subtitle = $selected.parents('.dropdown').find('.subtitle')
+
+    $title.text(key);
+    $title.data('selected', value || key);
+
+    if (value) {
+      $subtitle.text(value);
+    } else if (displayValue) {
+      $subtitle.text(displayValue);
+    }
+  }
+
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
       this.bindEvents();
@@ -15,10 +35,10 @@
       var $experienceDropdown = $(salaryContainer + ' .experience li');
 
       // Set selected dropdown value
-      $countryDropdown.on('click', '.country', this.setDropdown);
-      $cityDropdown.on('click', '.city', this.setDropdown);
-      $levelDropdown.on('click', '.level', this.setDropdown);
-      $experienceDropdown.on('click', '.experience', this.setDropdown);
+      $countryDropdown.on('click', setDropdown);
+      $cityDropdown.on('click', setDropdown);
+      $levelDropdown.on('click', setDropdown);
+      $experienceDropdown.on('click', setDropdown);
 
       // Unlock and filter city dropdown
       $countryDropdown.on('click', this.filterCityDropdown.bind(this));
@@ -33,25 +53,6 @@
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
-    }
-
-    // Dropdown Core functionality
-
-    SalaryCalculator.prototype.setDropdown = function(event) {
-      var key = $(this).find('.key').text();
-      var value = $(this).find('.value').text();
-      var displayValue = $(this).find('.display-value').text();
-      var $title = $(salaryContainer + ' ' + event.data + ' .title');
-      var $subtitle = $(salaryContainer + ' ' + event.data + ' .subtitle');
-
-      $title.text(key);
-      $title.data('selected', value || key);
-
-      if (value) {
-        $subtitle.text(value);
-      } else if (displayValue) {
-        $subtitle.text(displayValue);
-      }
     }
 
     // Custom dropdown functionality
