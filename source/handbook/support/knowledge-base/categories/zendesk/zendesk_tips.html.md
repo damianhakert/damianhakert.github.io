@@ -1,13 +1,16 @@
 ---
 layout: markdown_page
-title: Zendesk
+title: Managing Tickets
+category: Zendesk
 ---
 
-## On this page
+### On this page
 {:.no_toc}
 
 - TOC
 {:toc}
+
+----
 
 ## Adding / Removing Agents in Zendesk
 
