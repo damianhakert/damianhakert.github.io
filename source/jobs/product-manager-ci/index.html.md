@@ -4,8 +4,8 @@ title: "Product Manager, CI/CD Pipelines"
 ---
 
 We're looking for product managers that can help us work on the future of
-developer tools. Specifically, building out continuous integration, continuous
-delivery, and beyond.
+developer tools. Specifically, building out continuous integration (CI), continuous
+delivery (CD), and beyond.
 
 We believe developers deserve an intuitive, integrated solution that covers the
 entire software development lifecycle. We believe running tests is just the
@@ -51,6 +51,7 @@ determine how much can be scheduled.
 - Experience in product management
 - Strong understanding of Git and Git workflows
 - Strong understanding of CI/CD
+- Understanding of deployment infrastructure and container technologies
 - Knowledge of the developer tool space
 - Strong technically. You understand how software is built, packaged and deployed.
 - Passion for design and usability
