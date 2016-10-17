@@ -34,20 +34,20 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, @joan.
+1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @abby,@brittany, @joan.
 1. [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 1. [ ] People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
-   1. [ ] Robert/Jacob V/Ernst: [create Google account](https://admin.google.com/gitlab.com/AdminHome?pli=1&fral=1#UserList:org=49bxu3w3zb11yx), `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
+   1. [ ] People Ops: [create Google account](https://admin.google.com/gitlab.com/AdminHome?pli=1&fral=1#UserList:org=49bxu3w3zb11yx), `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
    1. [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal.
-   1. [ ] Robert/Jacob V/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+   1. [ ] People Ops: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 1. [ ] Hiring manager: in the "GitLab Email Forwarding" doc, suggest which email aliases the new team member should be added to, then ping one of the admins mentioned in the doc to help get it done.
-1. [ ] Robert/Jacob V/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-1. [ ] Robert/Jacob V/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+1. [ ] People Ops: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+1. [ ] People Ops: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 1. [ ] Slack
-   1. [ ] Robert/Jacob V/Ernst: Add to [Slack](https://gitlab.slack.com/admin).
+   1. [ ] People Ops: Add to [Slack](https://gitlab.slack.com/admin).
    1. [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
-   1. [ ] Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to.
+   1. [ ] Hiring manager: please inform what [Slack groups](https://gitlab.slack.com/admin#user_groups) the new team member should be added to by adding this to the "GitLab Email Forwarding" document as a suggestion.
 1. [ ] People Ops Information
    1. [ ] New team member: provide scan of photo ID to People Ops (used for verification, such as [I9 verification](https://www.uscis.gov/sites/default/files/files/form/i-9.pdf), and business travel purposes)
    1. [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Find the profile on BambooHR and enable "self-service".
@@ -64,6 +64,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
    1. [ ] PeopleOps: If in a technical role, add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
+   1. [ ] Hiring Manager: Add team member to weekly team meetings.
+   1. [ ] Hiring Manager: Schedule weekly 1:1 meetings with new team member.
 1. [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 1. [ ] People Ops: Add to phishing testing platform
 1. [ ] People Ops: Check if new team member indicated who they were referred by (in bottom of application, in Workable). If no referral indicated, check with new team member by asking in this issue "@{new team member} please let people ops know if you were referred by another GitLab team member; otherwise we will assume you were not".
@@ -131,7 +133,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
-1. [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
+1. [ ] People Ops: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
@@ -141,7 +143,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
-1. [ ] Hiring Manager: Invite new team member to the recurring weekly team-meeting.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
@@ -170,29 +171,25 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
-1. [ ] Robert/Jacob V: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
-1. [ ] Robert/Jacob V: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
-1. [ ] Robert/Jacob V: Set new team members' project-level permissions as-needed.
-1. [ ] For Production and Service Engineering team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
+1. [ ] Hiring Manager: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
+1. [ ] Hiring Manager: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+1. [ ] Hiring Manager: Set new team members' project-level permissions as-needed.
+1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
-1. [ ] Hiring Manager: Provide access to PagerDuty.
+1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Patricio/Robert/Jacob V: Create GitLab.com admin account.
-1. [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
-1. [ ] Robert/Jacob V: Provide access to hackerone.com
-1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/zendesk/#adding--removing-agents-in-zendesk)
->>>>>>> 4c74a61... tweaks to SE onboarding
-1. [ ] Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
-1. [ ] Hiring Manager: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
-1. [ ] Hiring Manager: Invite to support team call
-1. [ ] Hiring Manager: Use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
-1. [ ] Hiring Manager: Add team member to `@supportteam` Slack handle.
-1. [ ] Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
+1. [ ] Hiring Manager: Open a new [support onboarding boot camp issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
+1. [ ] Hiring Manager: Provide access to hackerone.com
+1. [ ] Zendesk:
+   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/zendesk/#adding--removing-agents-in-zendesk)
+   1. [ ] Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
+1. [ ] Community Forum:
+   1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
+   1. [ ] Hiring Manager: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Hiring Manager: Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
 1. [ ] New team member: Register on timezone.io by clicking on the link in the **"Link to Timezone.io Sign-Up"** - You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
-1. [ ] New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
@@ -203,7 +200,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 1. [ ] Hiring Manager: (for UX Designers) Give new team member `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
 1. [ ] Hiring Manager: (for UX Designers) Add new team member to the [GitLab Dribbble team](https://dribbble.com/gitlab).
-1. [ ] Robert/Jacob V/Ernst: (for UX Designers) Add new team member to the `@uxers` User Group on Slack.
+1. [ ] People Ops: (for UX Designers) Add new team member to the `@uxers` User Group on Slack.
 
 ### FOR MARKETING ONLY
 
@@ -235,10 +232,10 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR CORE TEAM MEMBERS ONLY
 
-1.  [ ] Robert/Jacob V/Ernst: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
+1.  [ ] People Ops: Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
 2.  [ ] People Ops: Have member sign NDA.
-3.  [ ] Robert/Jacob V/Ernst: Add member to #core in Slack.  
-4.  [ ] Robert/Jacob V/Ernst: Give member developer access to gitlab-org.
+3.  [ ] People Ops: Add member to #core in Slack.  
+4.  [ ] People Ops: Give member developer access to gitlab-org.
 
 ```
 
