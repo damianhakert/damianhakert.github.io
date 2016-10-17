@@ -1,5 +1,5 @@
 ---
-title: "GitLab Workflow: an Overview"
+title: "GitLab Workflow: An Overview"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab workflow
@@ -9,7 +9,7 @@ twitter_image: '/images/tweets/gitlab-workflow-an-overview.png'
 ---
 
 
-GitLab is a Git-based repository manager, and a powerful complete application for software development.
+GitLab is a Git-based repository manager and a powerful complete application for software development.
 
 With an _user-and-newbie-friendly interface_, GitLab allows you to work effectively, both from the command line and from the UI itself. It's useful not only for your developers, but to integrate your entire team work in a single an unique platform.
 
