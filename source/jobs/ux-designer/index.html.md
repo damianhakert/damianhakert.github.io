@@ -8,8 +8,8 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 ## Responsibilities
 
 * Help to define and improve the interface and experience of GitLab
-* Create deliverables (wireframes, mockups, prototypes, flows, etc.) to effectively communicate ideas
-* Work with developers to bring the right ideas into reality
+* Create deliverables (wireframes, mockups, prototypes, flows, etc.) to communicate ideas
+* Work with developers to iterate on and refine the existing experience
 * Partner with UX Research to conduct user testing
 * Actively evaluate and incorporate feedback from UX Research
 * Stay informed of the latest UI/UX techniques, tools, and patterns
@@ -18,42 +18,44 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 
 * Execute feature design work consistent with GitLab design and personality
 * Seek and respond to feedback from the team and UX Research
-* Ask questions
+* Ask questions and follow through on assigned work
 * Follow guidance from Senior UX team members
 
 #### UX Designer
 
-* Understands general UX design and best practices
+* Understand general UX design and best practices
 * Design features that fit within the larger experience and flows
 * Effectively communicate new features with mockups and prototypes
-* Creates and maintains UX documentation for design and thought process
+* Create and maintain UX documentation for design process
 * Breakdown designs to fit within the monthly release cadence
 * Productively iterate on features across milestones
-* Shares user research findings and recommendations to team
+* Share user research findings and recommendations with team
 
 #### Senior UX Designer
 
-* Deeply understands the needs and issues of GitLab users
-* Proposes, implements, and leads significant improvements to GitLab UX
-* Mentors more junior UX designers
-* Delegates work to more junior UX designers as appropriate
-* Has deep knowledge of GitLab UX history and direction
-* Serves as the go-to person with UX decisions
-* Improves other UX designers productivity through better tools and workflow
-* Collaborates with members across teams and advocates for users and user-centered
+* Deeply understand the needs and issues of GitLab users
+* Propose, implement, and lead significant improvements to GitLab UX
+* Mentor more junior UX team members
+* Delegate work to more junior UX designers as appropriate
+* Have deep knowledge of GitLab UX history and direction
+* Serve as the go-to person with UX decisions
+* Improve other UX designers productivity through better tools and workflow
+* Collaborate with members across teams and advocates for users and user-centered
   design practices
-* Writes blog posts articulating UX vision
-* Interviews potential UX candidates
-* Has a deep understanding of responsive Web design fundamentals
+* Write blog posts articulating UX vision
+* Interview potential UX candidates
+* Have a deep understanding of responsive Web design fundamentals
 
 #### Staff UX Designer
 
-* Approaches the design of GitLab from a holistic and comprehensive perspective
+* Approach the design of GitLab from a holistic and comprehensive perspective
 * Lead strategic UX decisions, balancing both short-term considerations and long-term vision
 * Bring clarity and understanding to abstract and ambiguious UX problem spaces
-* Helps to set direction and focus for GitLab's experience
-* Proactively improves the UX team, process, and flow 
-* Anticipates and help address future needs for the UX team and product
+* Help to set direction and focus for GitLab's experience
+* Proactively improve the UX team, process, and flow 
+* Anticipate and help address future needs for the UX team and product
+* Propose and lead a team to implement major, cross-feature, broad projects
+* Conintually connect and drive current work towards our [Master Plan](https://about.gitlab.com/2016/09/13/gitlab-master-plan/) and [strategy](https://about.gitlab.com/strategy/)
  
 ## Tools
 
