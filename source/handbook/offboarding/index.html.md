@@ -105,6 +105,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
+1. [x] _not relevant_ New team member: Take a look at the "Reference Customers" google doc to familiarize yourself with which customer information should be kept confidential within the company.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
@@ -118,20 +119,22 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] People Ops: Remove former team member's GitLab.com admin account.
-1. [ ] Jose/Ernst: Remove access from Tweetdeck for [at]gitlabstatus.
+1. [ ] Hiring Manager: Remove former team member's GitLab.com admin account.
+1. [ ] Hiring Manager: Remove access to hackerone.com
+1. [ ] Hiring Manager: Remove access from Tweetdeck for [at]gitlabstatus.
 1. [ ] Zendesk [(general information about removing agents)](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
-   1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
-   1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
-        + **Warning: This will unassign all tickets from the agent**
-   1. [ ] Jose/Drew: Schedule a date to suspend the agents account. [More information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#3)
-   1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
-1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
-1. [ ] Jose: remove from support team call
-1. [x] _not relevant, already addressed_ Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
-1. [x] _not relevant, already addressed_ Jose: Add team member to `@supportteam` Slack handle.
+   1. [ ] Hiring Manager: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
+   1. [ ] Hiring Manager: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
+        + **Warning: This will unassign all tickets from the agent** Consider reducing the "full agent" count on our Zendesk license.
+   1. [ ] Hiring Manager: Schedule a date to suspend the agents account. [More information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#3)
+   1. [x] _not relevant_ Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
+1. [ ] Hiring Manager: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
+1. [ ] Hiring Manager: remove from support team call
+1. [x] _not relevant, already addressed_ Hiring Manager: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+1. [x] _not relevant, already addressed_ Hiring Manager: Add team member to `@supportteam` Slack handle.
 1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] Hiring Manager: Remove team member as a member to the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
+1. [ ] Hiring Manager: Remove team member from https://timezone.io/team/gitlab-support
 1. [x] _not relevant_ New team member: Open a new [support issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
@@ -139,7 +142,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
 1. [ ] People Ops: cancel [SketchApp](http://www.sketchapp.com/) license (?).
 1. [ ] People Ops: (for Designers only, not UX Designers) remove access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault.
-1. [ ] Hiring Manager: (for UX Designers) remove former team member's Master access to the gitlab-design project.
+1. [ ] Hiring Manager: (for UX Designers) Remove former team member's `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
+1. [ ] Hiring Manager: (for UX Designers) Remove former team member from the [GitLab Dribbble team](https://dribbble.com/gitlab).
 
 ### FOR MARKETING ONLY
 

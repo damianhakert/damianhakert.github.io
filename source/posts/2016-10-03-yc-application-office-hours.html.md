@@ -17,7 +17,7 @@ During the office hours and a few one-on-one meetings Sid read and talked throug
 Below are a few examples of the calls Sid did over the weekend. We posted the recordings on our YouTube account
 so everyone can have a look at the advice mentioned and hopefully adjust the last few details before [sending in their own application](https://www.ycombinator.com/apply/).
 
-[Color Search](Colorsearch.io) lets you choose a paint color online, and [TrueJob](https://www.truejob.com/) is a data-driven startup job search. Both company founders have graciously agreed to let us post their call with Sid to help out other founders.
+[Color Search](http://www.colorsearch.io/) lets you choose a paint color online, and [TrueJob](https://www.truejob.com/) is a data-driven startup job search. Both company founders have graciously agreed to let us post their call with Sid to help out other founders.
 
 Below is the video of Sid's call with Color Search and they also shared [their application form](https://docs.google.com/document/d/10isDYk_fxBmyuRM2IiGdNOkX3TjWGfgx69_abkEaUbc/edit).
 

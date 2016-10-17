@@ -89,7 +89,23 @@
     in_ce: true
   - description: Prevent committing secrets
     link: https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository
-
+  - description: Merge conflict resolution
+    link: http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
+    in_ce: true
+  - description: Issue Board
+    link: http://docs.gitlab.com/ce/user/project/issue_board.html
+    in_ce: true
+  - description: Branch Permissions for users
+    link: http://docs.gitlab.com/ee/user/project/protected_branches.html#restricting-push-and-merge-access-to-certain-users
+  - description: Resolve discussion in merge requests
+    link: http://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html
+    in_ce: true
+  - description: Control issues and merge requests with Slash commands
+    link: http://docs.gitlab.com/ce/user/project/slash_commands.html
+    in_ce: true
+  - description: Integrate with Koding
+    link: http://docs.gitlab.com/ce/user/project/koding.html
+    in_ce: true
 
 - title: Additional server management options
   features:

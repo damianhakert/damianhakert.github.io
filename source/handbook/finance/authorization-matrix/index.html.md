@@ -467,3 +467,7 @@ title: "Signature Authorization Matrix"
 - (2) If Not Included in Company Plan
 - (3) Approved by Compensation Committee (or Board if no Compensation Committee)
 - (4) All purchases must have purchase req (or email approval) in accordance with SAM
+
+## Banking Controls
+
+- All accounts are to be established so initiator and approver must be different.
