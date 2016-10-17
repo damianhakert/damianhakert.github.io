@@ -18,7 +18,7 @@
           He is the lead author of GitLab CE and CI.
 
 - name: Sid Sijbrandij
-  locality: San Francisco, CA 
+  locality: San Francisco, CA
   country: USA
   role: Co-founder, <a href="https://about.gitlab.com/jobs/chief-executive-officer/">Chief Executive Officer (CEO)</a>
   reports_to: Board of Directors
@@ -1773,7 +1773,7 @@
   gitlab:
   story:  |
           Joining October 17th
-          
+
 - name: N.V.
   locality:
   country:
@@ -1784,7 +1784,7 @@
   gitlab:
   story:  |
           Joining October 18th
-          
+
 
 - name: N.F.
   locality:
@@ -1846,7 +1846,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead
+  reports_to: UX Lead 
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
