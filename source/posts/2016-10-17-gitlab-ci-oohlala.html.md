@@ -17,9 +17,12 @@ that help manage our fabfile deployment system, which is growing
 more complex each day. In the end, we went with [GitLab CI][gitlab-ci], and here’s what we 
 found through our experience.
 
+## Simple to Use
 Since the bulk of the work is done in Fabric, the CI/CD solution can be very simple, 
 as it only needs to be able to execute fabfiles. GitLab CI’s shell executor is perfect 
 for this. The complexities of other solutions (e.g. Jenkins) are unnecessary for us.
+
+## Fast
 
 We will be using the system for all code deploys, including development and QA environments, 
 so the CI/CD system needs to be fast, to keep up with the fast-paced changes required for 
@@ -34,6 +37,8 @@ for our mobile teams as well. GitLab CI can do this for free, as we can simply i
 runners on our dedicated machines. Other CI solutions (e.g. Travis CI, CircleCI etc.) 
 do offer mobile CI/CD solutions, but will not meet our requirements since we need our in-house 
 build and deploy scripts on dedicated hardware to effectively manage the hundreds of mobile apps that we maintain.
+
+## Economical and Secure 
 
 The solution should be relatively economical, especially since our development team
 is still relatively small. Most CI solutions are relatively expensive (e.g. Travis 
