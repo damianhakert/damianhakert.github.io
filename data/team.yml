@@ -1689,6 +1689,8 @@
   picture: clement.jpg
   twitter: ClemMakesApps
   gitlab: ClemMakesApps
+  maintains:  |
+              <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
   story:  |
           Clement is passionate about technology and startups. He continually seeks
           out new ways to improve his skillset and finds satisfaction in building
