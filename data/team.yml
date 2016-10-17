@@ -1708,6 +1708,17 @@
   story:  |
           Joining October 17th
 
+- name: M.Y.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
 - name: D.E.
   locality:
   country:
@@ -1752,6 +1763,49 @@
   story:  |
           Joining October 17th
 
+- name: C.S.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: N.F.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
+  reports_to: Business Development Team Lead - Outbound Team
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 24th
+
+- name: C.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Jr. Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 24th
+
+- name: S.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager-partner/">Product Marketing Manager - Partner and Channel Specialist</a>
+  reports_to: Director of Product Marketing
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 31st
 
 - name: J.A.
   locality:
