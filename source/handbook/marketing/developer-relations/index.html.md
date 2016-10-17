@@ -8,5 +8,6 @@ The Developer Relations organization includes Developer Advocacy and Technical W
 
 Developer Relations Handbooks:  
 
-- [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)  
+- [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
+- [Community Advocacy](/handbook/marketing/developer-relations/community-advocacy/)  
 - [Technical Writing](/handbook/marketing/developer-relations/technical-writing/)  

@@ -9,11 +9,9 @@ extra_css:
 ## GitLab vs. GitHub
 
 ### Faster from Idea to Production
-
 GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform. You can read more about our [vision](https://about.gitlab.com/direction/#vision).
 
 ### Multiple authentication Levels
-
 Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
@@ -40,23 +38,19 @@ GitLab is meant to be the best place for any software project. The team behind G
 Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.
 
 #### Due date
-
 In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.
 
 #### Move issues between projects
-
 You can move issues between projects in GitLab. All links, history and comments
 will be copied and the original issue will reference the newly moved issue.
 This makes working with multiple issue trackers much easier.
 
 #### Group-level milestones
-
 View all the issues for the milestone you’re currently working on across multiple projects.
 
 [Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 #### Create new branches from Issues
-
 In GitLab, you can quickly create a new branch from an issue on the issue
 tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue.
 
@@ -66,12 +60,7 @@ tracker. It will include the issue number and title automatically, making it eas
 
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
-### Don't take our word for it.
-
-agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
-
 ### Drag and drop tasks
-
 You can change the order of tasks in markdown on GitHub.
 GitLab does not have this ability, but is considering implementing it.
 
@@ -98,13 +87,14 @@ GitLab allows you to restrict pushes very carefully, but does not have this opti
 > [GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
 
 ### Cycle Analytics
-
 GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production.
 
 > [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
 
 ### Prevent committing secrets in the repositories
-
 GitLab provides a way to avoid committing sensitive files to your repositories automatically.
 
 > [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+
+### Don't take our word for it.
+agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)

@@ -272,8 +272,8 @@ This version also includes a [security update] and [upgrade from earlier version
 
 This release has more improvements, including [security fixes from previous
 patches](/2016/04/20/gitlab-8-6-7-released/). Please check out [the
-changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see
-the all named changes.
+changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see
+all the named changes.
 
 ## Upgrade barometer
 

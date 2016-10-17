@@ -14,12 +14,12 @@
   position: relative;
   z-index: 9;
   color: $navbar-default-link-color;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   transition: all .2s;
 
   @media (min-width: $screen-md-min) {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   &:hover {
@@ -27,9 +27,27 @@
   }
 }
 
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .search-box {
+    display: none;
+  }
+}
+
 @media (min-width: $screen-sm-min) {
   .search-box {
     padding-top: 9px;
+
+    @media (min-width: $screen-sm-min) {
+      padding-right: 10px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      padding-right: 18px;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      padding-right: 25px;
+    }
 
     &.is-open {
       .search-input {
@@ -39,7 +57,7 @@
         padding-right: 10px;
         border: 1px solid $color-gray-medium;
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: $screen-lg-min) {
           width: 180px;
           margin-left: -20px;
           padding-left: 35px;
