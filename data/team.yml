@@ -1774,6 +1774,18 @@
   story:  |
           Joining October 17th
 
+- name: N.V.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
+  reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 18th
+
+
 - name: N.F.
   locality:
   country:
@@ -1834,7 +1846,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead
+  reports_to: UX Lead 
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
