@@ -39,18 +39,13 @@ creating a new issue and following the instructions above. Once approved, start 
 
 ## Get Paid
 
-When your post gets published, send us an invoice. GitLab will pay you in 
-American Dollars (USD) from a bank account in the USA, via wired transfer 
-to your bank account. 
-
-### Compensation
-
 - In-depth tutorials or opinion pieces of 750+ words: **USD 200.00**
 - Short tutorials of 500-750 words: **USD 100.00**
 - [Top-priority](#top-priority): **USD 200.00**
 
-
-
+When your post gets published, send us an invoice. GitLab will pay you in 
+American Dollars (USD) from a bank account in the USA, via wired transfer 
+to your bank account. 
 
 <!-- identifiers -->
 
