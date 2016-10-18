@@ -8,7 +8,7 @@ description: "Inside GitLab: Sneak peek of what the UX Team is working on"
 twitter_image: '/images/tweets/gitlab-ux-update.png'
 ---
 
-The UX Team at GitLab has been hard at work, and I'm delighted to share a sneak peek of some of their designs. While more details will be shared when the features ship, hopefully this quick update will help you get excited for what is in the works.
+The UX Team at GitLab has been hard at work, and I'm delighted to share a sneak peek of some of their designs. While more details will be shared when the various features ship, hopefully this quick update will help you get excited for what is in the works. The designs below share some of what the UX Team is currently focused on, with a mix of features for both 8.13 and future releases.
 
 <!-- more -->
 
@@ -18,11 +18,11 @@ The UX Team at GitLab has been hard at work, and I'm delighted to share a sneak 
 
 Empty states are easy to forget about. However, they can be great moments to celebrate an accomplishment (you finished all of your [Todos][todo-empty-state]!) or explain a concept (when to use a [group][group-empty-state]). 
 
-![Better Empty States in GitLab 8.13](/images/blogimages/ux-update-2016-10/empty-states.png)
+![Better Empty States](/images/blogimages/ux-update-2016-10/empty-states.png)
 
 ### Rethinking Filtering and Searching
 
-Today we have a rich set of filters and search options, allowing you to find exactly what you are looking for. However, you have to jump between many dropdowns, and can't always build the complex query you are looking for. With this [effort][rethinking-filters], we are hoping to combine the controls into a streamlined, powerful search flow.
+Today we have a rich set of filters and search options, allowing you to find exactly what you are looking for. However, you have to jump between many dropdowns, and can't always build the complex query you are looking for. We are actively working on combining the controls into a [streamlined, powerful search][rethinking-filters] flow.
 
 ![Rethinking Filtering and Searching](/images/blogimages/ux-update-2016-10/rethinking-filtering.png)
 
@@ -48,9 +48,11 @@ We are continuing to polish our Review Apps experience, allowing you to [stop ap
 
 We are already jumping into more work, from [standardizing and cleaning up our many settings pages][settings], to adding such useful visuals as [burndown charts][burndown]. We are also digging into large open question such as refining the [personality][personality] of GitLab. 
 
+We love getting feedback! Please share your thoughts on the designs by joining the discussions in any of the issues linked above, or let us know what else we should consider by opening a [new issue][new-issue]. Thanks!
+
 ## Acknowledgments
 
-The design work on this page was created by [Hazel Yang][hazel], [Chris Peressini][chris], [Dimitrie Hoekstra][dimitrie], [Pedro Moreira da Silva][pedro] and [Taurie Davis][taurie]. Thanks for all of your great work!
+The design work on this page was created by [Hazel Yang][hazel], [Chris Peressini][chris], [Dimitrie Hoekstra][dimitrie], [Pedro Moreira da Silva][pedro], and [Taurie Davis][taurie]. Thanks for all of your great work!
 
 
 
