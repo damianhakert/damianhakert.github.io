@@ -6,6 +6,7 @@ title: Support
 ## Welcome to the GitLab Support Handbook
 {: .no_toc}
 
+**Looking for technical support? Please visit the [Support Page](https://about.gitlab.com/support/) instead.**
 ----
 
 ### On this page
@@ -100,7 +101,7 @@ support turbo developers to momentarily switch away from their other tasks.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page. 
+SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page.
 
 ### Zendesk Dashboard
 
