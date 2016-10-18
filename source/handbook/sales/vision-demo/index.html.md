@@ -11,9 +11,7 @@ We're going to start from scratch, creating a brand new GitLab installation.
 
 ![](handbook/sales/steps.png)
 
-A [rough version](https://youtu.be/t_rB1oQdG98) is available on YouTube.
-
-<iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
 
 ----
 
