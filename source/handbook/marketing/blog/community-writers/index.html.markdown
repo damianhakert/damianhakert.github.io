@@ -43,6 +43,10 @@ creating a new issue and following the instructions above. Once approved, start 
 - Short tutorials of 500-750 words: **USD 100.00**
 - [Top-priority](#top-priority): **USD 200.00**
 
+<i class="fa fa-exclamation-triangle" aria-hidden="true" style="color: rgb(49, 112, 143);"></i>&nbsp;
+Issues labeled **TOP PRIORITY**, will be compenstated at **USD 200** regardless of length.
+{:.alert .alert-info .text-center #top-priority}
+
 When your post gets published, send us an invoice. GitLab will pay you in 
 American Dollars (USD) from a bank account in the USA, via wired transfer 
 to your bank account. 
