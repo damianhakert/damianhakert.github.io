@@ -92,7 +92,7 @@ To see it working, you can either share the page on Twitter or Facebook, or just
  
 #### Twitter
 
-- The Content Marketing Manager will give new team members access to TweetDeck. 
+- The Content Marketing Manager will give new team members access to TweetDeck 
 - A tweet should contain a short hook/summary of the main takeaway of the content and should mention (@) people when characters permit 
 - Examples of content to be tweeted include announcements about events, product changes, company news, new team members, blog posts, new SSGs added to Pages, and interviews/bylines of GitLab leadership in other publications
 - Retweet high profile mentions, as well as occasional high quality tweets (no typos or profane usernames) from people who mention switching to GitLab, positive anecdotes about using GitLab, positive comments about blog content 
@@ -133,7 +133,7 @@ To see it working, you can either share the page on Twitter or Facebook, or just
 - Try to tweet them out ~1 hour or more before event (mention our location in the venue if applicable/useful)
 
 #### After the event:
-- Thanks those who attended or stopped by our booth in tweet with photo from the event
+- Thank those who attended or stopped by our booth in tweet with photo from the event
 
 
 <!-- Social Marketing Handbook - ref https://gitlab.com/gitlab-com/marketing/issues/524 -->
