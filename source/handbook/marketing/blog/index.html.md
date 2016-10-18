@@ -51,7 +51,7 @@ Later sections of this handbook contain granular examples of different types of 
 - Ask yourself, "Do I as an [engineer/marketer/team member/executive] know things that are crucial to my reasoning that the reader may not know?" Include a brief explanation of these. 
 
 #### Conclusion
-- Briefly reiterate your key question and its answer, adding or reiterating any details and analysis.
+- Briefly restate your key question and its answer, adding or reiterating any details and analysis.
 
 ### Posts Formats
 
