@@ -48,7 +48,7 @@ We are continuing to polish our Review Apps experience, allowing you to [stop ap
 
 We are already jumping into more work, from [standardizing and cleaning up our many settings pages][settings], to adding such useful visuals as [burndown charts][burndown]. We are also digging into large open question such as refining the [personality][personality] of GitLab. 
 
-We love getting feedback! Please share your thoughts on the designs by commenting below, joining the discussions in any of the issues linked above, or let us know what else we should consider by opening a [new issue][new-issue]. Thanks!
+We love getting feedback! Please share your thoughts on the designs by commenting below, joining the discussions in any of the issues linked above, or opening a [new issue][new-issue] to let us know what else we should consider. Thanks!
 
 ## Acknowledgments
 
