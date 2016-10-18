@@ -23,7 +23,7 @@ If something is missing, add it (as goes with everything at GitLab)!
 You're welcome to join as many Slack channels as you'd like, but these will help you get up and running:
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
-- Design - All things marketing design are discussed here. Have questions? Need feedback? Stuck on an idea?
+- Marketing-Design - All things marketing design are discussed here. Have questions? Need feedback? Stuck on an idea?
 - General - The name says it all, general questions and updates are posted here.
 - Questions - Ask any and all questions, there's no such thing as a stupid question.
 - Working-On - See what others are doing, and share what you plan to accomplish today.
@@ -42,7 +42,7 @@ As you may already know, at GitLab we work in the open, and a large part of that
 
 ## Design tools
 
-Every (marketing) designer receives a license for [Adobe CC](http://www.adobe.com/creativecloud.html).
+Every (marketing) designer receives licenses for [Adobe CC](http://www.adobe.com/creativecloud.html) and [Sketch](https://www.sketchapp.com/).
 
 ## Gathering Feedback
 As Design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Try to come up with a solution instead of discussing endlessly. If you think additional perspective is needed mention a fellow designer in the issue.

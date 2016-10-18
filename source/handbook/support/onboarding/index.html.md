@@ -75,20 +75,36 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- click the "Document this" checkbox (found on the left-hand side of the ticket)
-- enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
-- update the ticket
+- Click the "Document this" checkbox (found on the left-hand side of the ticket)
+- Enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
+- Update the ticket
+- Do not just look at the Docs and see how other directories and files were
+structured, we are trying to change some of that so please follow the [documentation styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.html#location-and-naming-of-documents)
 
 Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
 
 ### Create issues
 
-During your interaction with the customers you will most likely need to create an
+During your interaction with the customers you will most likely need to create or update an
 issue, either for a feature request, for a bug, or for further documentation.
 Since we do everything in the open, it is good practice to send the link of the
 issue to the requesting customer, so that they can also keep an eye on the discussion
 there, and weigh in if necessary.
+
+
+Workflow for creating an issue:
+
+- Visit the issues page of the project, [CE example here](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+- Search to make sure the issue doesn't already exist
+- Click **New Issue**
+- Choose a template from the **Choose a template** dropdown and take a look at the
+**Typical kinds of issues created** below.
+- Fill in all the relevant sections
+- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
+someone a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to assign it to and do that.
 
 Typical kinds of issues created:
 
@@ -96,15 +112,23 @@ Typical kinds of issues created:
    - Make sure it looks like a bug - otherwise ping one of the developers to confirm.
    - Reproduce the bug
    - Assign the bug fix to the next milestone
-   - Report back to customer
-- **Unpaid feature request**
+   - Report back to customer with a link to the issue
+- **Proposed feature request**
    - Provide maximum information and use case from customer in the issue,
 mention any alternatives, how badly the customer wants it.
    - Ask a developer for opinion (do we want this feature in GitLab: yes/no, the
 developer might ask more questions before answer)
-- **Paid feature request**
-   - Follow some process as for an unpaid feature request, AND
-   - Ask for an estimate
+   - Report back to customer with a link to the issue
+
+Typical workflow for updating an existing issue:
+
+1. Comment on the issue that another customer is having a problem, adding relevant details
+and a link to the ZenDesk ticket. Also if it is an EE customer, add the `~customer`
+label to the ticket.
+1. Send the customer a link to the issue and invite them to comment.
+1. If the customer replies with satisfaction that their concern is
+being addressed after seeing the issue, ask them if it would be okay to mark
+the ticket as resolved and to instead continue the conversation on the issue.
 
 Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
@@ -247,10 +271,15 @@ Thanks,
 GitLab, Inc.
 ```
 
+### How to handle emails forwarded from others at GitLab
+
+Every now and then, a GitLab team member will forward a support request from a customer, prospective customer, user, etc. These requests then appear as tickets from the team member, instead of from the original requestor. Always reply directly to the original requester, keeping the person who forwarded it in the cc. You will need to manually alter the "Requester" field of the ticket, by clicking on the "(change)" link next to the email address of the apparent requester in the ticket title.
+
+
 ## Digital Ocean account access
 
-As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account. 
-This can be used for testing and to reproduce customer problems. Please consider the following when using this account: 
+As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account.
+This can be used for testing and to reproduce customer problems. Please consider the following when using this account:
 
 + Do not destroy, stop or modify droplets that you haven't created
 + Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
@@ -271,6 +300,37 @@ celebrate those "wins" with the rest of the team through the #support or #thanks
 chat channel. Read the positive feedback carefully, often it contains a question
 or suggestion for improvement which should be followed up on.
 
+
+## Customer Calls Best Practices
+
+### Before a Call
+
+After sending the WebEx Invite, go to the ticket and ask for confirmation. Having the customer confirmation will also help to detect errors on the scheduling process such as an incorrect timezone, date, etc.
+
+Add the call with description and duration to the Support Team Calendar.
+
+### During a Call
+
+Once you started the call and the client connects, indentify yourself. Example:
+
+> Hi {customer name}, this is {agent name} from GitLab Support.
+
+If you started the call and the client doesn't join, wait for a couple minutes. After 10 minutes of waiting
+go to the ticket and send a reply to check if the customer is having either issues with the scheduled time
+or connecting to the WebEx Platform.
+
+If after another 10 minutes you don't get answer, go ahead and re-schedule.
+
+If a call takes too long (> 1 hour), and/or if you're not making progress, discuss with the customer the need to re-schedule.
+
++ If you were having problems helping the customer, make sure to contact a teammate to join you on the re-scheduled call (Call Escalation)
++ If the customer had problems either with their setup, environment or connectivity, remember him to solve them before the new
+call when re-scheduling.
+
+### After a Call
+
+Update the ticket with a brief description of what was accomplished or not during the call making sure to point out the missing
+information to solve the ticket.
 
 ## Customer Training
 
@@ -306,12 +366,12 @@ Availability Calendar. Vacation days are first come first served.
 
 **Tickets assigned to you**
 
-As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue. 
+As a courtesy to other team members, please try to address all "Open" tickets (awaiting a response from the customer) in your queue.
 
-When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk. 
-Do this at the end of your last work day this will ensure tickets flow correctly to other agents. 
+When taking leave longer then 1 day, you should mark yourself as unavailable in Zendesk.
+Do this at the end of your last work day this will ensure tickets flow correctly to other agents.
 
-Marking yourself as unavailable in Zendesk: 
+Marking yourself as unavailable in Zendesk:
 
 1. Sign into [ZenDesk](https://gitlab.zendesk.com/agent).
 1. Try to ensure any active tickets are in the **Pending** or **On-Hold** states and not **Open**.

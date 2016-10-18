@@ -12,6 +12,7 @@ title: "People Operations"
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
+- [Global Compensation Framework](/handbook/people-operations/global-compensation-framework/)
 - [Onboarding](/handbook/general-onboarding/)
 - [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
@@ -29,7 +30,7 @@ title: "People Operations"
 ## Role of People Operations
 {: #role-peopleops}
 
-In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](https://about.gitlab.com/handbook/people-operations/#communication) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
 ## Team Directory
 {: #directory}
@@ -66,20 +67,6 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
 
 ## Policies
 
-### Compensation principles
-
-1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
-1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. We pay market rate for most non-engineering positions, and have the better-than-market benefit of being a remote-only company (flexible, freedom).
-1. We pay on the lower end of market rates for engineering positions because we offer the benefit of working on open source (great workflow, peers, build reputation); most engineers take a pay cut to join.
-1. We also offer [stock options](/handbook/stock-options/) for most positions.
-1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
-1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
-1. The market rate depends on your metro region. When you move [you have to inform us](#relocation) and we may adjust your compensation up or down.
-1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
-1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
-1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and Senior Director of People Operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee. When the CEO is away (e.g. vacation), the two other members of the committee can take a decision and inform the committee. Whatever the decision is, the compensation committee should be cc-ed (or bcc-ed) on the final email, so that the committee members can know that the loop was closed.
-
 ### Sick time - taking and reporting
 {: #sick-time}
 
@@ -95,7 +82,7 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 **Details for specific groups of team members**
 
 - Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
-- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
+- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements).
 
 ### Hiring Significant Other or Family Members
 
@@ -110,7 +97,7 @@ This policy applies to all current employees and candidates for employment.
 If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
-- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-framework/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
 {: #benefits-us}
@@ -143,7 +130,7 @@ want to make changes (for door handling, pick extension 101).
 the current settings which show all the people and numbers that are alerted when the listed User's
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
- 
+
 
 ## Dutch work permits
 

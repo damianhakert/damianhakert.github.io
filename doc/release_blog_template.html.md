@@ -23,8 +23,10 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out
+[the changelog] to see all the named changes.
 
+[the changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
 
 ## Upgrade barometer
 
