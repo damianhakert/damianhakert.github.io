@@ -76,10 +76,27 @@ Manage issues using Agile practices by setting the weight of an issue.
 
 [Issue Weights Documentation](http://doc.gitlab.com/ee/workflow/issue_weight.html)
 
+### Custom Push Rules (pre-received hooks)
+
+GitHub allows site administrators to create pre-received hooks at a global or
+project level.
+
+GitLab also allows the creation of those hooks at a project or global level, but
+they can be set by either the project owner or an administrator, and provides a
+simple user interface to define those push rules.
+
+> [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+
 ### Prevent committing secrets in the repositories
 GitLab provides a way to avoid committing sensitive files to your repositories automatically.
 
-> [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+> [Documentation](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+
+### Ability to set a project size
+
+GitLab allows to set a project size limit at a global, group and project level.
+
+> [Documentation on account and limit settings](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html)
 
 ### Merge Request Issue Templates
 Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize.
