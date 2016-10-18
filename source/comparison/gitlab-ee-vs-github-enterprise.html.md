@@ -76,6 +76,11 @@ Manage issues using Agile practices by setting the weight of an issue.
 
 [Issue Weights Documentation](http://doc.gitlab.com/ee/workflow/issue_weight.html)
 
+### Prevent committing secrets in the repositories
+GitLab provides a way to avoid committing sensitive files to your repositories automatically.
+
+> [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+
 ### Merge Request Issue Templates
 Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize.
 
