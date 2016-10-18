@@ -41,8 +41,7 @@ creating a new issue and following the instructions above. Once approved, start 
 
 When your post gets published, send us an invoice. GitLab will pay you in 
 American Dollars (USD) from a bank account in the USA, via wired transfer 
-to your bank account. We can deal with other possible payment methods via 
-credit card, but please discuss it with us before start writing.
+to your bank account. 
 
 ### Compensation
 
