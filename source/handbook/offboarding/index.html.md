@@ -72,6 +72,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### All team members
 
 1. [x] _not relevant_ New team member: Read the [security handbook](/handbook/security), and please ask questions to make sure it is all clear to you.
+1. [x] _not relevant_ New team member: Enable 2FA on your GitLab email account (this should have been an option to do when you first received the invitation to the account).
 1. [x] _not relevant_ New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 1. [x] _not relevant_ New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [x] _not relevant_ New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
@@ -89,6 +90,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ## FROM ONBOARDING'S "WITHIN FIRST WEEK OF STARTING"
 
+1. [x] _not relevant_ People Ops: remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
 1. [ ] People Ops: Remove from Beamy
 1. [x] _not relevant_ People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Remove team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) from Expensify (if employee).
