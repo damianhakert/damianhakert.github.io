@@ -65,6 +65,7 @@ The design work on this page was created by [Hazel Yang][hazel], [Chris Peressin
 [group-empty-state]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20829
 [group-environments]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22539
 [hazel]: https://twitter.com/hazelyuyang
+[new-issue]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
 [pedro]: https://twitter.com/pedromscom
 [personality]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22192
 [rethinking-filters]: https://gitlab.com/gitlab-org/gitlab-ce/issues/21747
