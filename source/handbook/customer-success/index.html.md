@@ -10,13 +10,13 @@ title: "Customer success"
 - [Account Expansion Template](https://about.gitlab.com/handbook/customer-success/account-expansion/)
 
 
-#### Customer On-boarding
+#### Customer On-boarding Checklist
 
 1.	Welcome! — Welcome the customer on board GitLab, introduce yourself and your purpose within the company and how you will support them throughout the relationship with the business and what they can expect from you. Provide the introduction to support and how to obtain support "For enterprise Enterprise Edition receive next business day support via e-mail. Please submit your support request through the [support web form](https://gitlab.zendesk.com/hc/en-us/requests/new)
 
 2.	Personal introduction - (2-5 days) Create a task in Salesforce to conduct a personal introduction to your new account contacts. This should be quick and informal phone call, this is not an opportunity for discovery but an outreach for you to build rapport and open lines for communication.
 
-3.	Installation follow-up - (7-10 days) Create a task in Salesforce to follow-up on the installation, was it successful did they have encounter any issues, were the issues self resolved by using documentation or was the help of support required. 
+3.	Installation follow-up - (7-10 days) Create a task in Salesforce to follow-up on the installation, was it successful did they have encounter any issues, were the issues self resolved by using documentation or was the help of support required. Good opportunity to share with the customer the vision of GitLab "Idea to Production" YouTube link https://www.youtube.com/watch?v=ZRcWCWatdas.
 
 4.	Education — (20-30 days) Create a task in Salesforce for product education. Remind your customer that our releases are on the 22nd of each month. Depending on your timing of this correspondence you may inform them of any major enhancements that have been released or are about to be released. 
 
@@ -26,12 +26,13 @@ title: "Customer success"
 
 7.	Outlook - (6 months) Same as 90 day task, additionally discuss what the customer roadmap and outlook looks like for the next 6 months. What can we expect in terms terms of growth, what does the customer expect in terms of our product and offerings. 
 
-8.	Renewal - (10 months) Check in with the customer and let them know they are soon due for renewal. Are there any changes to who is responsible for the renewal or otherwise?
+8.	Renewal/Expansion - (10 months) Check in with the customer and let them know they are soon due for renewal. Are there any changes to who is responsible for the renewal or otherwise? Good time to ask about their team growth to see if they need more seats.  Good time to educate and develop need for GitLab Products. 
 
 9.	Renewal - (11 months) Check in with the customer if they have not yet renewed, if there are any blockers to renewal or any changes to expect. 
 
 10.	Renewal - (12 months) Follow up with the customer, if we have lost their renewal discover the reasons why we did not succeed and if any changes can be made or improved. If they have moved to another solution, which and why? 
- 
+
+11. Expansion -  For Strategic Deals and [Account Expansion Template](https://about.gitlab.com/handbook/customer-success/account-expansion/) should be created.
 
  
 #### Data Integrity 
@@ -71,6 +72,6 @@ If the customer has a support query, log a zendesk ticket on their behalf
 #### Unsuccessful Customer Engagement
 
 * You've sent your customer introduction and they do not reply. Send a 'Keep in Touch' request in Salesforce.
-* Create or use templates in salesforce to educate customers about Geo, Lock or latest releases.
+* Create or use templates in salesforce (access via: my settings > email > email templates > customer success folder) to educate customers about Geo, File Lock and latest releases or [blog posts](https://about.gitlab.com/blog/).
 * Use a google docs form https://docs.google.com/a/gitlab.com/forms/d/17D8FZSqcw2SQeHxiru2tAN9EXZiixGYgzhdgrSxlbt4/edit?usp=forms_home&ths=true 
-* Check the non responsive customers license version, let them know the benefits of the latest release
+* Check the non responsive customers license version, let them know the benefits of the [latest release](https://about.gitlab.com/blog/).

@@ -203,7 +203,7 @@ ourselves, it's just more work.
 [automated-changelogs]: https://gitlab.com/gitlab-org/release-tools/merge_requests/29
 [ce-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues
 [changelog-crisis]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17826
-[changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG
+[changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
 [conflict-docs]: http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
 [release-post]: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/#merge-conflict-resolution
 [rugged-add]: http://www.rubydoc.info/github/libgit2/rugged/Rugged/Index#add-instance_method

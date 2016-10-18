@@ -59,9 +59,8 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    addresses to ensure everyone is aware of the threat.
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
-1. During offboarding, your 1Password account is deleted. If you want to
-   store your personal passwords please store them in your 'Primary' vault
-   (local storage) or your separate individual account, not in the GitLab team account.
+1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
+   keep your personal passwords, please copy/move them to [your personal local vault or your separate individual account](#1password-private-use).
 1. We will configure applications of which we store the passwords in 1Password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
 1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
 
@@ -96,17 +95,9 @@ using throughout.
 
 1Password can be used in two different ways - as a standalone application
 (by purchasing a standalone license) or as a hosted service (by subscribing).
-GitLab uses 1Passwords for Teams which is a hosted service. If you want to
-use 1Password for your private accounts not related to your work at GitLab you can
-choose a standalone license or start an individual subscription.
+GitLab uses 1Passwords for Teams which is a hosted service.
 
-Please bear in mind that if you decide to purchase a standalone license your data is
-stored only in a local folder on your computer. You can optionally sync this
-folder to Dropbox or iCloud (if you are using a Mac/iOS) to make it available
-on your phone's 1Password app, or on another computer.
-
-Signing up for a subscription seems to be the solution now recommended by the
-company behind 1Password.
+If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few of options](#1password-private-use).
 
 ### 1Password for Teams<a name="1password-for-teams"></a>
 
@@ -231,6 +222,30 @@ This means that if you are planning to use both GitLab team account and a
 separate individual account you should first sign in to the individual
 account. By doing this you will be able to unlock 1Password app using
 Master Password of the individual account.
+
+### 1Password for your private passwords<a name="1password-private-use"></a>
+
+You are encouraged to use 1Password for your private passwords, not related to your work at GitLab.
+This makes it less likely for a security breach to occur. You can purchase a standalone license or
+start an individual subscription. While under the GitLab team subscription, it is also possible to create
+and use a personal local vault (same features of a standalone license, without the cost).
+
+Please bear in mind that if you decide to purchase a standalone license or create a personal local vault, your data is
+stored only in a local folder on your computer. You can optionally sync this
+folder to Dropbox or iCloud (if you are using a Mac/iOS) to make it available
+on your phone's 1Password app, or on another computer.
+
+Signing up for a subscription seems to be the solution now recommended by the
+company behind 1Password.
+
+To create a personal local vault:
+
+1. Go to **Preferences**
+1. Go to **Advanced**
+1. Under **Local Vaults**, check **Allow creation of vaults outside of 1Password accounts**
+1. Enter your Master Password
+1. A new local vault (**Primary**) is created outside the GitLab team account 
+1. If you want to setup sync for your new local vault, go to **Preferences > Sync**
 
 ### Example Usage<a name="1password-example-usage"></a>
 

@@ -11,9 +11,7 @@ We're going to start from scratch, creating a brand new GitLab installation.
 
 ![](handbook/sales/steps.png)
 
-An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
-
-<iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
 
 ----
 
@@ -68,7 +66,7 @@ The first step is to install GitLab itself. Today I'm going to use RedHat's Open
 And then we import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
 
 > * Click on Import YAML/JSON
-> * Open in a browser: http://bit.do/openshiftgitlab or http://bit.ly/2e953Pn
+> * Open in a browser: [YAML template in Omnibus repo](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) which is also linked from [our installation page](https://about.gitlab.com/installation/).
 > * Copy content of idea-2-prod-template.json
 > * Click Create, leave `Process the template` selected, click Continue
 >   * GitLab instance hostname to `gitlab.tanukionline.com`

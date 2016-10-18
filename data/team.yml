@@ -348,7 +348,7 @@
 
 - name: Gabriel Mazetto
   locality: Utrecht
-  country: Netherlands
+  country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Packaging Lead
   picture: gabriel.jpg
@@ -932,7 +932,7 @@
 
 - name: Mark Fletcher
   locality: Burton upon Trent
-  country: England
+  country: United Kingdom
   role: Developer
   reports_to: Edge Lead
   picture: logo-extra-whitespace.png
@@ -1307,7 +1307,7 @@
 
 - name: Régis Freyd
   locality: Montréal
-  country: Québec
+  country: Canada
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
   reports_to: VP of Product
   picture: regis.jpg
@@ -1448,7 +1448,7 @@
 
 - name: Sean Packham
   locality: London
-  country: United Kingdon
+  country: United Kingdom
   role: Content Lead
   reports_to: CEO
   picture: seanpackham.jpg
@@ -1475,7 +1475,7 @@
 
 - name: Abby Matthews
   locality: London
-  country: UK
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
   picture: abby.png
@@ -1532,7 +1532,7 @@
 
 - name: Elsje Smart
   locality: Marazion
-  country: UK
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
   picture: elsje.jpg
@@ -1541,16 +1541,16 @@
   story:  |
           Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window.
 
-- name: J.D.
-  locality:
-  country:
+- name: Joe Drumtra
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: joedrumtra.jpg
+  twitter: techpretender
+  gitlab: jdrumtra
   story:  |
-          Joining September 21st
+          Joe is an accomplished sales professional with experience in advertising, infrastructure and cloud platform technologies and has spent enough time on the command line to know how to break just about everything.  Joe grew up in Chicago-land and has lived in Atlanta Georiga and Phoenix Arizona before moving to San Francisco California.  In his free time Joe is avid snowboarder, yogi and non-fiction reader.
 
 - name: Kyla Gradin
   locality: Fargo, North Dakota
@@ -1689,6 +1689,8 @@
   picture: clement.jpg
   twitter: ClemMakesApps
   gitlab: ClemMakesApps
+  maintains:  |
+              <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
   story:  |
           Clement is passionate about technology and startups. He continually seeks
           out new ways to improve his skillset and finds satisfaction in building
@@ -1700,6 +1702,17 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: M.Y.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Manager
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1750,6 +1763,61 @@
   story:  |
           Joining October 17th
 
+- name: C.S.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
+- name: N.V.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
+  reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 18th
+
+
+- name: N.F.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
+  reports_to: Business Development Team Lead - Outbound Team
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 24th
+
+- name: C.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Jr. Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 24th
+
+- name: S.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager-partner/">Product Marketing Manager - Partner and Channel Specialist</a>
+  reports_to: Director of Product Marketing
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 31st
 
 - name: J.A.
   locality:
@@ -1778,7 +1846,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead
+  reports_to: UX Lead 
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

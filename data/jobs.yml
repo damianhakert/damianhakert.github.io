@@ -79,11 +79,16 @@
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
+- title: "Product Manager: CI/CD Pipelines"
+  description: /jobs/product-manager-ci
+  apply: https://gitlab.workable.com/jobs/339744/candidates/new
+  open: true
+
 - title: "Product Marketing Manager: Enterprise Specialist"
   description: /jobs/product-marketing-manager/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
-  
+
 - title: "Product Marketing Manager: Partner and Channel Specialist"
   description: /jobs/product-marketing-manager-partner/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
@@ -101,7 +106,7 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
-  apply: 
+  apply:
   open: false
 
 - title: "Service Engineer"

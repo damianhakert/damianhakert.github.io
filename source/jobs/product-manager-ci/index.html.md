@@ -1,15 +1,20 @@
 ---
 layout: job_page
-title: "Product Manager"
+title: "Product Manager, CI/CD Pipelines"
 ---
 
-## Role
-
 We're looking for product managers that can help us work on the future of
-developer tools. Specifically we're looking for independent people that are
-interested in building solutions for (very) large teams and organizations.
+developer tools. Specifically, building out continuous integration (CI), continuous
+delivery (CD), and beyond.
 
-We know there are a million things we can and want to improve about GitLab.
+We believe developers deserve an intuitive, integrated solution that covers the
+entire software development lifecycle. We believe running tests is just the
+beginning of automation. We believe deploying your code should be automated and
+repeatable, and most of all, easy. We believe in pushing the boundaries of
+best-practices, and bringing these to every developer, so that doing the right
+thing is also the easy, default way of working.
+
+We know there are a million things we can and want to improve about GitLab CI.
 It'll be your job to work out what we are going to do and how.
 
 We work in quite a unique way at GitLab, where lots of flexibility and
@@ -21,16 +26,16 @@ to get started.
 
 ## Responsibilities
 
-- Build an attractive roadmap together with the VP of Product and Head of Product
+- Build an attractive roadmap together with the Head of Product, based on our [vision](/direction/cicd)
 - Work out feature proposals from the community and customers
-- Manage new features tailored for larger enterprises from conception to market
-- Work together with UX and Frontend engineers on improving the look and feel of GitLab
+- Manage new features from conception to market
+- Work together with UX and Frontend engineers
 - Ensure a smooth release of changes and features together with all stakeholders
 - Empower the community by writing great documentation and highlighting the product in various ways in cooperation with marketing
-- Finding the weak spots of GitLab and executing plans to improve them
+- Find the weak spots of GitLab CI and execute plans to improve them
 - Work together with other stakeholders on scheduling and executing releases
 
-## You are _not_ responsible for
+## You are _not_ (solely) responsible for
 
 - Shipping in time. As a PM you are part of a team that delivers a change,
 the team is responsible for shipping in time, not you.
@@ -45,6 +50,8 @@ determine how much can be scheduled.
 
 - Experience in product management
 - Strong understanding of Git and Git workflows
+- Strong understanding of CI/CD
+- Understanding of deployment infrastructure and container technologies
 - Knowledge of the developer tool space
 - Strong technically. You understand how software is built, packaged and deployed.
 - Passion for design and usability
