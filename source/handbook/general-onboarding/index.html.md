@@ -38,7 +38,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 1. [ ] People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
-   1. [ ] People Ops: [create Google account](https://admin.google.com/gitlab.com/AdminHome?pli=1&fral=1#UserList:org=49bxu3w3zb11yx), `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
+   1. [ ] People Ops: [create Google account](https://admin.google.com/gitlab.com/AdminHome?pli=1&fral=1#UserList:org=49bxu3w3zb11yx), `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue.
+   1. [ ] People Ops: Add new Google user to ['New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group) to disable 2FA for them
    1. [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal.
    1. [ ] People Ops: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 1. [ ] Hiring manager: in the "GitLab Email Forwarding" doc, suggest which email aliases the new team member should be added to, then ping one of the admins mentioned in the doc to help get it done.
@@ -122,6 +123,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### All team members
 
 1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.
+1. [ ] New team member: Enable 2FA on your GitLab email account (this should have been an option to do when you first received the invitation to the account).
 1. [ ] New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 1. [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
@@ -139,6 +141,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### WITHIN FIRST WEEK OF STARTING
 
+1. [ ] People Ops: remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
 1. [ ] People Ops: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
 1. [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
