@@ -16,20 +16,10 @@ category: General
 
 This guide involves configuring a Digital Ocean droplet and setting up Docker locally, it assumes you're using Mac OS X. 
 
-#### Install Docker
+#### Install Docker Toolbox
 
-Mac OS X: https://download.docker.com/mac/stable/Docker.dmg
+1. [https://www.docker.com/products/docker-toolbox](https://www.docker.com/products/docker-toolbox)
 
-+ Resource: https://docs.docker.com/docker-for-mac/
-
-#### Install `docker-machine`
-
-```
-curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine && \
-chmod +x /usr/local/bin/docker-machine
-```
-
-+ Resource: https://docs.docker.com/machine/install-machine/
 
 #### Create new docker host
 
