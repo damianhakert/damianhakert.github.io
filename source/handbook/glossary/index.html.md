@@ -120,7 +120,10 @@ The following terms are often used in documentation, blog posts, and everyday li
     * ChatBots
         -  Bots that run in your chat application and give you the ability to do "anything" from chat.
     * Slash commands
+    * [Build triggers](https://docs.gitlab.com/ce/ci/triggers/README.html)
+    * yaml configuration
+    * Canonical source 
+    * Raketasks
     * 
-
     
 
