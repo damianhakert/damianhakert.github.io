@@ -31,7 +31,7 @@ to revise, refine, and publish your post to share with our community.
 
 All of GitLab's blog posts begin as an issue in the [GitLab blog post project][blog-project]. 
 To become a community author, all you have to do is assign yourself to an open 
-issue labeled "community post" and "up-for-grabs, write a quick introduction in 
+issue [labeled "community post" and "up-for-grabs][avail-posts]," write a quick introduction in 
 the comments section explaining why you want to write the post, and ping @erica.
 
 If you don't see a topic that interests you, you can propose a new topic by 
@@ -55,6 +55,7 @@ credit card, but please discuss it with us before start writing.
 
 <!-- identifiers -->
 
+[avail-posts]: https://gitlab.com/gitlab-com/blog-posts/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Community+Posts&label_name%5B%5D=up-for-grabs
 [blog-project]: https://gitlab.com/gitlab-com/blog-posts
 [CI/CD/CD]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ConvDev]: /2016/09/13/gitlab-master-plan/#convdev
