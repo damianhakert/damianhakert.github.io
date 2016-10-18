@@ -13,6 +13,7 @@ title: "Sales Handbook"
 
 * [Pages inside Sales Handbook](#pages)
 * [Pages outside Sales Handbook](#pages-outside)
+* [Sales Team Call](#team-call)
 * [GitLab Version Check](#version_check)
 * [Adding leads via Discover.org](#discover)
 * [Parent and Child Accounts](#parent)
@@ -52,6 +53,20 @@ title: "Sales Handbook"
 * [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
 * [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
+
+### Sales Team Call <a name="team-call"></a>
+
+1. The Sales team call is every Monday and Wednesday from 9:00am to 9:30am Pacific Time.
+1. We use [Zoom](https://zoom.us) for the call since Hangouts is capped at 15 people, link is in the calendar invite, and also listed at the top of the Sales Team Agenda.
+1. The call is recorded automatically, and we have a 1GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Recordings can be found by logging on to the [Zoom portal](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings" and look for Sales Team Call. Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
+1. We start on time and will not wait for people.
+1. Person who has first item on the agenda starts the call.
+1. If you are unable to attend just add your name to the [Sales Team Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit) as 'Not attending'.
+1. We start by discussing the subjects that are on the agenda for today.
+   * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
+   * When done with a point mention the subject of the next item and hand over to the next person.
+   * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
+1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the sales team agenda and the links from there. 
 
 ### GitLab Version Check <a name="version_check"></a>
 
