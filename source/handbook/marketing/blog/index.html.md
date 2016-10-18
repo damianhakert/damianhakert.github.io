@@ -25,18 +25,33 @@ Our [Blog] is orchestred by the [Product Marketing][prod] and the [Developer Rel
 
 ### Objectives &amp; Purposes
 
-- Encourage potential users to try GitLab
+- Use the [blog](/blog) to encourage potential users to try GitLab
 - Motivate our community to explore what's best from GitLab features
 - Provide accurate, interesting and new information
+- Communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
+- Bring in voices from all throughout the company, as well as
+from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
 
-### Important considerations
+### Anatomy of a Blog Post
 
-The [blog](/blog) is our main publishing outlet. Let's do our best to show what's best!
+Later sections of this handbook contain granular examples of different types of posts and how to write them, but a few broad things should be true of all posts, no matter the writer or the topic. 
 
-- Content should communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
-- We want to bring in voices from all throughout the company, as well as
-from GitLab users and our customers.
-- As always, **everyone can contribute** - GitLab Team members and [Community Writers]
+#### Big Picture
+- Adopt a personal, conversational tone. For example, feel free to pose rhetorical questions and explain the answers as though you are speaking with a friend. 
+- Most blog posts are in their most potent form when kept to 500-750 words or fewer.
+- You should be able to articulate the purpose/central question of your post in 2-3 sentences or less before even [pitching the topic](https://gitlab.com/gitlab-com/blog-posts/issues). Think of this as your post's "right to exist," because your post will also contain the answer (i.e., the conclusion) to the question it raises. If you can't clearly state the central problem and solution of your post, you need to brainstorm a little more before beginning to write.
+
+#### Introduction
+- Establish your central question, problem, or argument within the first sentence or two.  
+- Briefly bring up the answer to your question in the introduction, because this informs readers of your path, and will help you stay focused. 
+- Every sentence following the introduction should move you closer to the resolution of your central question. If you are unsure about a sentence, ask yourself, "What fact or point am I trying to establish here, and does this sentence succeed in doing so?" Try to make every word pull its own weight.
+
+#### Body 
+- Map out the points you need to establish in order for your conclusion to make sense to the reader. You can begin by supplying the details of Who, What, Why, When, Where, and How.  
+- Ask yourself, "Do I as an [engineer/marketer/team member/executive] know things that are crucial to my reasoning that the reader may not know?" Include a brief explanation of these. 
+
+#### Conclusion
+- Briefly reiterate your key question and its answer, adding or reiterating any details and analysis.
 
 ### Posts Formats
 
@@ -146,7 +161,7 @@ please take a look at the [General Publishing Process] below.
 {: .panel-heading #events-post}
 <div class="panel-body">
 Every 1st working day of the month we publish a post communicating the events for that following
-month. They are written by our Field Marketing Manager & Swag Queen, [Emily Kyle], who always have a lot
+month. They are written by our Field Marketing Manager & Swag Queen, [Emily Kyle], who always has a lot
 of fun stories to share with us. Stay tuned for the next event near you, so you can pass by our
 booth to say hello, grab your swag, and share your thoughts with Emily and other team members!
 
@@ -261,7 +276,7 @@ The publishing process is simple and is conducted for our Blog Editors and revie
   - Technical review and approval
   - Markdown, structure, and flow review and approval
   - Merge to master
-- **Blog Technical Reviewers:** any GitLab Team member with technical expertize on the post's subject
+- **Blog Technical Reviewers:** any GitLab Team member with technical expertise on the post's subject
   - Technical review and approval
   - Test and reproduce methods and procedures
 
@@ -639,7 +654,7 @@ good to start writing.
 
 At GitLab, we use [American English](/handbook/#american-english) as the standard written language. 
 
-GitLab content primarily follows [AP Style], the guide for
+GitLab content primarily follows [AP Style],
 which is searchable online. Any questions that cannot be answered
 by the AP Stylebook may be resolved by referring to the
 [Chicago Manual of Style]. To learn about GitLab's advanced
