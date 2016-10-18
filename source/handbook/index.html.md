@@ -372,6 +372,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please always refer to GitLab Inc. people as team members, not employees.
 1. Use inclusive and gender-neutral language in all writing. So for example, write "they, their" instead "he, his".
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
+1. Always capitalize the names of GitLab [features](https://about.gitlab.com/features/)
+1. Do not use a hyphen when writing the term "open source."  
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
