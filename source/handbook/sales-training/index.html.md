@@ -626,7 +626,7 @@ Answer is “This tool would help us do X faster.”.  Read the article to gain 
 
 Leslie Ye wrote an aticle on [11 Sales Negotiation Mistakes You Might Be Making](http://blog.hubspot.com/sales/sales-negotiation-mistakes?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36093761#sm.00000thjdio2kmcx3y923dyo5fe5u)
 
-Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with #4, #5 and #10 resonating with me.
+Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with point 4, 5 and 10 resonating with me.
 
 1. Treating negotiation as a zero-sum game
 2. Not knowing why the prospect would buy
