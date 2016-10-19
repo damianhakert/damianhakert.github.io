@@ -140,8 +140,11 @@ We will now copy this token and go back to GitLab where we will use this token a
 We also need to set our server and our domain.
 
 > * Repeat for:
->   * OPENSHIFT_SERVER: https://openshift.tanukionline.com:8443
->   * OPENSHIFT_DOMAIN: tanukionline.com
+>   * Key: OPENSHIFT_SERVER 
+>   * Value: https://openshift.tanukionline.com:8443
+> * and repeat for:
+>   * Key: OPENSHIFT_DOMAIN
+>   * Value: tanukionline.com
 
 ### Use GitLab CI
 
