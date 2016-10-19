@@ -127,9 +127,9 @@ How do I BDR APAC and SA contacts
  
  #BDR - Boss Destroying Revenue...Joe Lucas
  
-#### Week One<a name="Week1"></a>  
+## Week One<a name="Week1"></a>  
 
-###### Sales Training
+#### Sales Training
 * [Intro to Git](https://www.codeschool.com/users/sign_in)
 
 * Watch the [Vision Demo](https://about.gitlab.com/handbook/sales/vision-demo/): Idea to Production 
@@ -138,9 +138,9 @@ How do I BDR APAC and SA contacts
 
 * Study GLU: [GitLab University](https://university.gitlab.com/)
 
-* Read the [Hanbook](https://about.gitlab.com/handbook/)
+* Read the [Handbook](https://about.gitlab.com/handbook/)
 
-###### To Do
+#### To Do
 * [Onboarding Issue](https://dev.gitlab.org)
 
 * Create an email signature [Sample](https://docs.google.com/document/d/1NvfC4a26G0WZwxB1K2oeXyGvI0DGqy-LbTKa9iPP6kU/edit)
@@ -151,10 +151,10 @@ How do I BDR APAC and SA contacts
 
 * Schedule time with your assigned mentor
 
-###### Metrics
+#### Metrics
 * Complete your onboarding issue
 
-###### By the end of your first week you should (know) and be able to do the following:
+#### By the end of your first week you should (know) and be able to do the following:
 * What is GitLab (from a high level)
 
 * Create and assign merge requests (from your onboarding issue)
@@ -163,9 +163,9 @@ How do I BDR APAC and SA contacts
 
 * Sign in to Linkedin
 
-#### Week Two<a name="Week2"></a>
+## Week Two<a name="Week2"></a>
 
-###### Sales Training
+#### Sales Training
 * [GitLab University](https://university.gitlab.com/)
 
 * SFDC Training TBD
@@ -176,7 +176,7 @@ How do I BDR APAC and SA contacts
  
 * Prospecting 101 by Scheduled by Chet
 
-###### To Do
+#### To Do
 * Mine 5 leads each day using Linkedin Sales Navigator and Inside View then add them as contacts to SFDC
 
 * Create tasks for each contact
@@ -185,22 +185,22 @@ How do I BDR APAC and SA contacts
 
 * Shadow 3 Outbound BDRs for one hour
 
- * B.J. (Oct 17)
+ * Brent Jensen
 
  * Elsje Smart
 
- * D.E. (Oct 17)
+ * Darin Ellsworth
 
-###### Metrics
-* 50 Prospecting Calls####
+#### Metrics
+* 50 Prospecting Calls
 
 * 25 Prospecting Emails
 
 * 25 New contacts added to your task list
 
-* First SQL
+* First SQL (Sales Qualified Lead)
 
-###### By the end of your second week you should (know) and be able to do the following:
+#### By the end of your second week you should (know) and be able to do the following:
 * Create and add contacts to SFDC
 
 * How to manage your task list in SFDC
@@ -211,16 +211,16 @@ How do I BDR APAC and SA contacts
 
 * Be assigned a list of accounts to work by your Team Lead
 
-#### Week Three<a name="Week3"></a>
+## Week Three<a name="Week3"></a>
 
-###### Sales Training
+#### Sales Training
 * [GitLab University](https://university.gitlab.com/)
 
 * Manager Session
 
 * BDR Ongoing Training (Friday)
 
-###### To Do
+#### To Do
 * Schedule 30 minutes with the AE’s that own your accounts (Accounts will assigned to you by your team lead) to  collaborate, strategize, and plan.
 
 * Have a healthy task list of at least 30 contacts/leads to target
@@ -233,8 +233,8 @@ How do I BDR APAC and SA contacts
 
     * Mike Walsh
   
-###### Metrics
-* Generate three SQLs
+#### Metrics
+* Generate three SQLs (Sales Qualified Lead)
 
 * 100 Prospecting Calls
 
@@ -244,7 +244,7 @@ How do I BDR APAC and SA contacts
 
     * Note - We do not have minimum call/email metrics that you are held against. Be tenacious in your efforts. Remember the more at bats you have the better chance you have of hitting a home run. The numbers reflected above are best practices to get you ramped and ready for your everyday workflow.
 
-###### By the end of your third week you should (know) and be able to do the following:
+#### By the end of your third week you should (know) and be able to do the following:
 * Create and add contacts to SFDC
 
 * How to manage your task list in SFDC
@@ -379,9 +379,9 @@ How do I deal with APAC and SA leads?
  
  #BDR - Boss Destroying Revenue...Joe Lucas
  
-#### Week One<a name="Week1in"></a>  
+## Week One<a name="Week1in"></a>  
 
-###### Sales Training
+#### Sales Training
 * [Intro to Git](https://www.codeschool.com/users/sign_in)
 
 * Watch the [Vision Demo](https://about.gitlab.com/handbook/sales/vision-demo/): Idea to Production 
@@ -392,7 +392,7 @@ How do I deal with APAC and SA leads?
 
 * Read the [Hanbook](https://about.gitlab.com/handbook/)
 
-###### To Do
+#### To Do
 * [Onboarding Issue](https://dev.gitlab.org)
 
 * Create an email signature [Sample](https://docs.google.com/document/d/1NvfC4a26G0WZwxB1K2oeXyGvI0DGqy-LbTKa9iPP6kU/edit)
@@ -403,10 +403,10 @@ How do I deal with APAC and SA leads?
 
 * Schedule time with your assigned mentor
 
-###### Metrics
+#### Metrics
 * Complete your onboarding issue
 
-###### By the end of your first week you should (know) and be able to do the following:
+#### By the end of your first week you should (know) and be able to do the following:
 * What is GitLab (from a high level)
 
 * Create and assign merge requests (from your onboarding issue)
@@ -415,9 +415,9 @@ How do I deal with APAC and SA leads?
 
 * Sign in to Linkedin
 
-#### Week Two<a name="Week2in"></a>
+## Week Two<a name="Week2in"></a>
 
-###### Sales Training
+#### Sales Training
 * [GitLab University](https://university.gitlab.com/)
 
 * SFDC Training TBD
@@ -430,7 +430,7 @@ How do I deal with APAC and SA leads?
 
     * **Note**: You will recieve 200 inbound leads to start working this week
 
-###### To Do
+#### To Do
 * Add these suggested [canned responses](https://docs.google.com/a/gitlab.com/document/d/1EektuIAJKo9fBe-EiAnPR3BHhlkdaWE4wqG2z3QuP5o/edit?usp=sharing) to your gmail for quick replies 
 
 * Create tasks for the leads you choose to work
@@ -441,8 +441,8 @@ How do I deal with APAC and SA leads?
 
     * See [Team Page](https://about.gitlab.com/team/)
 
-###### Metrics
-* First SQL
+#### Metrics
+* First SQL (Sales Qualified Lead)
 
 * 25 Prospecting Calls
 
@@ -450,7 +450,7 @@ How do I deal with APAC and SA leads?
 
 * Maintain a task list of at least 15 leads
 
-###### By the end of your second week you should (know) and be able to do the following:
+#### By the end of your second week you should (know) and be able to do the following:
 * Create tasks for leads within SFDC
 
 * How to manage your task list in SFDC
@@ -459,16 +459,16 @@ How do I deal with APAC and SA leads?
 
 * Craft a basic response email
 
-#### Week Three<a name="Week3in"></a>
+## Week Three<a name="Week3in"></a>
 
-###### Sales Training
+#### Sales Training
 * [GitLab University](https://university.gitlab.com/)
 
 * Manager Session
 
 * BDR Ongoing Training (Friday)
 
-###### To Do
+#### To Do
 * You will start recieving live leads 
 
 * Schedule time with each of the AE's to collaborate and learn about lead management **Note** There is no agenda for this meeting, attend prepared with questions 
@@ -479,14 +479,14 @@ How do I deal with APAC and SA leads?
 
     * [Team Page](https://about.gitlab.com/team/)
   
-###### Metrics
-* Generate three SQLs
+#### Metrics
+* Generate three SQLs (Sales Qualified Lead)
 
 * 50 Prospecting Emails
 
     * **Note** - We do not have minimum call/email metrics that you are held against. Be tenacious in your efforts. Remember the more at bats you have the better chance you have of hitting a home run. The numbers reflected above are best practices to get you ramped and ready for your everyday workflow.
 
-###### By the end of your third week you should (know) and be able to do the following:
+#### By the end of your third week you should (know) and be able to do the following:
 * Convert leads into opportunities
 
 * How to manage your task list in SFDC
