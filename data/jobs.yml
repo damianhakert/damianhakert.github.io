@@ -64,11 +64,6 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "Global Recruiter"
-  description: /jobs/global-recruiter/
-  apply: https://gitlab.workable.com/jobs/269339/candidates/new
-  open: true
-
 - title: "Support Lead"
   description: /jobs/support-lead/
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
