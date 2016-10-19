@@ -182,7 +182,8 @@ extra_js:
   .what-is.purple-section.text-center.animated
     .container
       %h2.purple-section-title
-        What's new on the Issue Board!
+        :markdown
+          What's **New** on the Issue Board!
       .purple-section-subtitle
         :markdown
           GitLab 8.13 brings new amazing features to the Issue Board!
@@ -205,10 +206,10 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                New issue from the Issue Board
+                Add New Issue from the Issue Board
               .lead.text-center.step-lead-text
                 :markdown
-                  Create a new issue from the Issue Board
+                  Create a new issue right from the Issue Board
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
@@ -219,7 +220,7 @@ extra_js:
                     Your new issue will be automatically created with the label corresponding to that list.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-1-illustration.png", class: "img-responsive"
+                    = image_tag "/images/issue-boards/add-new-issue-from-board.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -236,7 +237,7 @@ extra_js:
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-2-illustration.png", class: "img-responsive"
+                    = image_tag "/images/issue-boards/issue-board-sidebar.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     The issue sidebar accessed right from the issue board!
@@ -257,8 +258,6 @@ extra_js:
                 Multiple Issue Boards
               .lead.text-center.step-lead-text
                 :markdown
-                  Improve your workflow with Multiple Issue Boards!
-
                   This new functionallity is available only at **GitLab Enterprise Edition** and **GitLab.com**
               .row.row-eq-height
                 .col-md-6.step-content
@@ -273,7 +272,7 @@ extra_js:
                     Love it? Subscribe for [GitLab Enterprise Edition](/free-trial/) right now!
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-3-illustration.png", class: "img-responsive"
+                    = image_tag "/images/issue-boards/multiple-boards-menu.png", class: "img-responsive"
 
 = partial "includes/features/try-gitlab-ee"
 = partial "includes/features/gitlab-ee-trial"
