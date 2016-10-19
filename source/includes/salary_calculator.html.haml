@@ -1,8 +1,8 @@
 - current_page.data.extra_css ||= []
-- current_page.data.extra_css += ['salary-calculator.css']
+- current_page.data.extra_css |= ['salary-calculator.css']
 
 - current_page.data.extra_js ||= []
-- current_page.data.extra_js += ['salary-calculator.js']
+- current_page.data.extra_js |= ['salary-calculator.js']
 
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
 - if job.length == 1 and job[0].salary
@@ -37,16 +37,16 @@
           %ul.dropdown-menu.dropdown-scroll
             %li
               %span.key Experience range
-              %span.value 0.8 to 1.2
+              %span.value{'data': {'min': '0.8', 'max': '1.2'}} 0.8 to 1.2
             %li
               %span.key Little experience
-              %span.value 0.8 to 1.0
+              %span.value{'data': {'min': '0.8', 'max': '1.0'}} 0.8 to 1.0
             %li
               %span.key Average experience
-              %span.value 0.9 to 1.1
+              %span.value{'data': {'min': '0.9', 'max': '1.1'}} 0.9 to 1.1
             %li
               %span.key A lot of experience
-              %span.value 1.0 to 1.2
+              %span.value{'data': {'min': '1.0', 'max': '1.2'}} 1.0 to 1.2
       .col-sm-6
         .dropdown.country
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}

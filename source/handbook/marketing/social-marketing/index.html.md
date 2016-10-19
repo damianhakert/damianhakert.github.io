@@ -89,16 +89,52 @@ To see it working, you can either share the page on Twitter or Facebook, or just
 - Page with none defined: [Blog landing page](/blog/)
 
 ## Promoting GitLab on Social Media
+ 
+#### Twitter
 
-To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/524>)
+- The Content Marketing Manager will give new team members access to TweetDeck 
+- A tweet should contain a short hook/summary of the main takeaway of the content and should mention (@) people when characters permit 
+- Examples of content to be tweeted include announcements about events, product changes, company news, new team members, blog posts, new SSGs added to Pages, and interviews/bylines of GitLab leadership in other publications
+- Retweet high profile mentions, as well as occasional high quality tweets (no typos or profane usernames) from people who mention switching to GitLab, positive anecdotes about using GitLab, positive comments about blog content 
+
+#### Facebook & LinkedIn
+
+- Draw from Twitter content, but write longer share text and include a pull quote (when applicable) that points to the main purpose of the content
+- Post on Facebook & LinkedIn more sparingly than on Twitter; no more than once per day, and probably more like ~3x per week. Focus on bigger company/product/event news and blog posts authored by company leadership
+
+#### Scheduling Posts
+
+- Generally schedule posts to go out between 8 am - 10 pm Pacific Standard Time
+- Try to schedule posts in such an order that will maintain variety in the feed (i.e., don't have 5 new team members tweeted out in a row)
+
 
 ## Recycling of content on Twitter
 
-To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/386>)
+- Re-post content that gets a good response, such as positive blog comments, front page of hacker news, or the front page of reddit programming 
+- Repost up to two times after the original post, scheduling the posts to go out 1-2 weeks apart
 
 ## Event Promotion
 
-To be included (ref <https://gitlab.com/gitlab-com/marketing/issues/524>)
+#### After Committing to an Event
+
+- Find relevant handles (of speakers/moderators/hosts) or hashtags (if part of bigger conference for example), or create our own; try to include across all tweets for that event, characters permitting
+- Find event-related images to attach to all tweets (event logo showing GitLab sponsorship; speaker team pic; GitLab logo; or any sharable content designed for that event)
+- Schedule a tweet asap announcing our participation
+
+#### Leading up to an Event, Schedule Tweets to go out:
+
+- 1 week before event (counting down, include registration link if our event, include speaker team pic or other event branding where applicable)
+- 1 day before event (same as above)
+- During event referencing something in the content of the presentation if applicable/ not redundant (x2 or more depending on length of event and amount of content)
+- Need to find balance between the dev advocates promoting themselves at events and when they are speaking- maybe one of these tweets is us retweeting them?
+
+#### While at the event:
+- Take pictures of booth and/or team members at booth
+- Try to tweet them out ~1 hour or more before event (mention our location in the venue if applicable/useful)
+
+#### After the event:
+- Thank those who attended or stopped by our booth in tweet with photo from the event
+
 
 <!-- Social Marketing Handbook - ref https://gitlab.com/gitlab-com/marketing/issues/524 -->
 

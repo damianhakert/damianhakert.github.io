@@ -348,7 +348,7 @@
 
 - name: Gabriel Mazetto
   locality: Utrecht
-  country: Netherlands
+  country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Packaging Lead
   picture: gabriel.jpg
@@ -932,7 +932,7 @@
 
 - name: Mark Fletcher
   locality: Burton upon Trent
-  country: England
+  country: United Kingdom
   role: Developer
   reports_to: Edge Lead
   picture: logo-extra-whitespace.png
@@ -1307,7 +1307,7 @@
 
 - name: Régis Freyd
   locality: Montréal
-  country: Québec
+  country: Canada
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
   reports_to: VP of Product
   picture: regis.jpg
@@ -1448,7 +1448,7 @@
 
 - name: Sean Packham
   locality: London
-  country: United Kingdon
+  country: United Kingdom
   role: Content Lead
   reports_to: CEO
   picture: seanpackham.jpg
@@ -1475,7 +1475,7 @@
 
 - name: Abby Matthews
   locality: London
-  country: UK
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
   reports_to: Senior Director of People Operations
   picture: abby.png
@@ -1532,7 +1532,7 @@
 
 - name: Elsje Smart
   locality: Marazion
-  country: UK
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
   picture: elsje.jpg
@@ -1542,8 +1542,8 @@
           Elsje has worked in IT sales and marketing for most of her career and was freelance for many years providing inside sales support to software companies. Elsje lives in west Cornwall in the UK with her husband, two girls, dog, and cat with a view of the sea and St Michael's Mount from her office window.
 
 - name: Joe Drumtra
-  locality: San Francisco
-  country: United States
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
   reports_to: CRO
   picture: joedrumtra.jpg
@@ -1774,6 +1774,18 @@
   story:  |
           Joining October 17th
 
+- name: N.V.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
+  reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 18th
+
+
 - name: N.F.
   locality:
   country:
@@ -1834,7 +1846,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead
+  reports_to: UX Lead 
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

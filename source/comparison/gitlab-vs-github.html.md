@@ -91,10 +91,5 @@ GitLab provides a dashboard that lets teams measure the time it takes to go from
 
 > [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
 
-### Prevent committing secrets in the repositories
-GitLab provides a way to avoid committing sensitive files to your repositories automatically.
-
-> [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
-
 ### Don't take our word for it.
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)

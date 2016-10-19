@@ -24,20 +24,9 @@ This guide involves configuring and setting up VMWare and Docker locally and ass
    + Launch VMWare Fusion
    + Enter license details when prompted
 
-#### Install Docker
+#### Install Docker Toolbox
 
-Mac OS X: https://download.docker.com/mac/stable/Docker.dmg
-
-+ Resource: https://docs.docker.com/docker-for-mac/
-
-#### Install `docker-machine`
-
-```
-curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine && \
-chmod +x /usr/local/bin/docker-machine
-```
-
-+ Resource: https://docs.docker.com/machine/install-machine/
+1. [https://www.docker.com/products/docker-toolbox](https://www.docker.com/products/docker-toolbox)
 
 #### Create new docker host
 

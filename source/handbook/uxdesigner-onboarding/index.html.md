@@ -26,15 +26,9 @@ To start designing, follow the instructions for the
 
 ## Design tools
 
-Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/) and [Sketch](https://www.sketchapp.com/)
+Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/) and [Sketch](https://www.sketchapp.com/). Other tools as needed can include, but are not limited to: [Framer](https://framerjs.com/), [Origami by Facebook](https://facebook.github.io/origami/), [Principle for Mac](http://principleformac.com/), and HTML/CSS/JS prototyping. Previously we used [Antetype](http://www.antetype.com/) and have [switched](https://gitlab.com/gitlab-org/gitlab-ce/issues/19790) to Sketch. Old Antetype design files are still be valuable. If necessary, see [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
 
-Previously we used [Antetype](http://www.antetype.com/) and have [switched](https://gitlab.com/gitlab-org/gitlab-ce/issues/19790) to Sketch.
-
-Old Antetype design files are still be valuable. If necessary, see [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
-
-When in need of different tools like CC Photoshop and/or CC Illustrator, request those by filing an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues).
-
-Other tools can include, but are not limited to: [Framer](https://framerjs.com/), [Origami by Facebook](https://facebook.github.io/origami/), [Principle for Mac](http://principleformac.com/), and HTML/CSS/JS prototyping.
+When in need of different tools, request those by filing an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues).
 
 ## Issues
 

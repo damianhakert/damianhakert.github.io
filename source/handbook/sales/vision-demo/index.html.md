@@ -11,9 +11,7 @@ We're going to start from scratch, creating a brand new GitLab installation.
 
 ![](handbook/sales/steps.png)
 
-A [rough version](https://youtu.be/t_rB1oQdG98) is available on YouTube.
-
-<iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
 
 ----
 
@@ -123,7 +121,8 @@ Of course this is just a static file and not an application yet, but since we’
 
 ### Prepare OpenShift
 
-*TODO: Simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373)*
+*TODO: Simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) or in the short term with [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and [having trouble auto-discovering subdomain in OpenShift for idea to production demo
+](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
 
@@ -141,8 +140,11 @@ We will now copy this token and go back to GitLab where we will use this token a
 We also need to set our server and our domain.
 
 > * Repeat for:
->   * OPENSHIFT_SERVER: https://openshift.tanukionline.com:8443
->   * OPENSHIFT_DOMAIN: tanukionline.com
+>   * Key: OPENSHIFT_SERVER 
+>   * Value: https://openshift.tanukionline.com:8443
+> * and repeat for:
+>   * Key: OPENSHIFT_DOMAIN
+>   * Value: tanukionline.com
 
 ### Use GitLab CI
 
