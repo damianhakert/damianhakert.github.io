@@ -1,8 +1,8 @@
 - current_page.data.extra_css ||= []
-- current_page.data.extra_css += ['salary-calculator.css']
+- current_page.data.extra_css |= ['salary-calculator.css']
 
 - current_page.data.extra_js ||= []
-- current_page.data.extra_js += ['salary-calculator.js']
+- current_page.data.extra_js |= ['salary-calculator.js']
 
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }
 - if job.length == 1 and job[0].salary
