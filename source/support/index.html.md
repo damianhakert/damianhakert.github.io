@@ -23,7 +23,7 @@ If your organization purchased **Premium Support**, this includes:
    - **Emergency requests**: 30 minute response time, 24/7.
    - _How to submit regular and emergency requests:_ Please submit your support request through the [support web form](https://support.gitlab.com/). As part of receiving your license file, you should also have received a set of email addresses to use to reach Support for regular and emergency requests (separate addresses); in case the web form can't be reached for any reason.
    - **Dedicated Service Engineer**: your support requests will be handled by the same Service Engineer every time (under normal circumstances), who has a better handle on the specifics of your installation and environment.
-   - **Two [training workshops](/training)**: Please contact support to schedule a training and discuss the topics.
+   - **Two [training workshops](/training)**: Please contact support to schedule training and discuss the topics.
    - **Live upgrade assistance**: To schedule a time to have a Service Engineer be live with you via video-conference during an upgrade, please contact support.
 
 Please contact `sales@gitlab.com` if your organization would like to upgrade to Premium Support.
@@ -55,7 +55,14 @@ Our [community advocates](https://about.gitlab.com/handbook/marketing/developer-
 
 ### Support for GitLab.com
 
-If you have an issue accessing _your account_, please use the [support web form](https://support.gitlab.com/) so an admin can help. For all other issues (downtime, functionality, etc.), please visit the [GitLab.com support tracker](https://gitlab.com/gitlab-com/support-forum/issues), and comment in an issue relevant to you or open a new one.
+Subscribers to [GitLab.com Bronze Support](https://about.gitlab.com/gitlab-com/#select-package/) receive next business day support via e-mail. Please submit your support request through the [support web form](https://support.gitlab.com/).
+
+Even without a GitLab.com Bronze Support subscription, you can still receive the following support:
+
+- If you have an issue accessing _your account_, please use the [support web form](https://support.gitlab.com/) so an admin can help you.
+- For all other issues (downtime, functionality, etc.), please visit the [GitLab.com support tracker](https://gitlab.com/gitlab-com/support-forum/issues), and comment in an issue relevant to you or open a new one.
+- Follow [GitLabStatus on Twitter](https://twitter.com/GitLabStatus) for status updates for the GitLab.com site.
+
 
 ## Contributing to GitLab
 

@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Getting Help for GitLab"
+title: "Getting Help with GitLab"
 ---
 
 
