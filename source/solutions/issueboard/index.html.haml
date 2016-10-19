@@ -78,17 +78,22 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Create a new issue
+                Create a New Issue
               .lead.text-center.step-lead-text
                 :markdown
                   Issues help you summarize your ideas and align the team on a common goal.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Go to the **Issues** tab under your project's page and create your first issue. If your project already has some issues, jump right to the next step!
+                    You can either create a new issue as you usually do, or add a new one right from the board,
+                    by clicking the button <i class="fa fa-plus" style="color: rgb(49,163,92)" aria-hidden="true"></i> present on the top of every list. In that case, your new issue will be automatically created with the label corresponding to that list.
+
+                    When you click on a issue card, it will display the issue's sidebar on your Issue Board.
+                    From there, you can change the assignee, manage labels, milestones and due dates,
+                    exactly as you do in your issues.
                 .col-md-6.step-image-container
                   .step-image
-                    = image_tag "/images/issue-boards/step-1-illustration.png", class: "img-responsive"
+                    = image_tag "/images/issue-boards/add-new-issue-from-board.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -178,80 +183,12 @@ extra_js:
                   .step-image
                     = image_tag "/images/issue-boards/step-5-illustration.png", class: "img-responsive"
 
-%section#issue-board-v2
-  .what-is.purple-section.text-center.animated
-    .container
-      %h2.purple-section-title
-        :markdown
-          What's **New** on the Issue Board!
-      .purple-section-subtitle
-        :markdown
-          GitLab 8.13 brings new amazing features to the Issue Board!
-      %a.featured-item-button.white-on-primary.btn-margin-top{ href: "/2016/10/22/gitlab-8-13-released/" } 8.13 Release Post
-      %a.featured-item-button.white-on-primary.btn-margin-top{ href: "/INSERT-WEBCAST-URL/" } 8.13 Webcast - Register Here
-      .text-center
-        %a.get-started.js-scroll-to{ href: "#new" }
-          Check it out
-          %i.fa.fa-angle-down
-
-.page-container.content-container.white-bg.animated
-  .container
-    %section#new.steps
-      .step.js-step
-        .container
-          .step-icon-container
-            = icon("issue-boards/icon-step-2", "step-icon", { label: "Create an issue from the board" })
-            %span.step-number.text-center
-              [ new feature 01 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Add New Issue from the Issue Board
-              .lead.text-center.step-lead-text
-                :markdown
-                  Create a new issue right from the Issue Board
-              .row.row-eq-height
-                .col-md-6.step-content
-                  :markdown
-                    You don't need to navigate to the **Issues** tab and create a new issue from there anymore!
-
-                    Do it right from the Issue Board with the button <i class="fa fa-plus" style="color: rgb(49,163,92)" aria-hidden="true"></i> present on the top of every list.
-
-                    Your new issue will be automatically created with the label corresponding to that list.
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/issue-boards/add-new-issue-from-board.png", class: "img-responsive"
-      .step.js-step
-        .container
-          .step-icon-container
-            = icon("issue-boards/icon-sidebar", "step-icon", { label: "Sidebar" })
-            %span.step-number.text-center
-              [ new feature 02 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Issue Board Sidebar
-              .lead.text-center.step-lead-text
-                :markdown
-                  Click on the issue card to display a sidebar
-              .row.row-eq-height
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/issue-boards/issue-board-sidebar.png", class: "img-responsive"
-                .col-md-6.step-content
-                  :markdown
-                    The issue sidebar accessed right from the issue board!
-
-                    Click on a issue card to display its sidebar on your Issue Board.
-
-                    From there, you can change the assignee, manage labels, milestones and due dates,
-                    exactly as you do in your issues.
       .step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-screen", "step-icon step-icon-3", { label: "Multiple Boards" })
             %span.step-number.text-center
-              [ new feature 03 ]
+              [ step 06 ]
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
@@ -260,6 +197,9 @@ extra_js:
                 :markdown
                   This new functionallity is available only at **GitLab Enterprise Edition** and **GitLab.com**
               .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/multiple-boards-menu.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
 
@@ -270,9 +210,6 @@ extra_js:
                     don't need anymore. Use the same dropdown menu to navigate between your boards.
 
                     Love it? Subscribe for [GitLab Enterprise Edition](/free-trial/) right now!
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/issue-boards/multiple-boards-menu.png", class: "img-responsive"
 
 = partial "includes/features/try-gitlab-ee"
 = partial "includes/features/gitlab-ee-trial"
