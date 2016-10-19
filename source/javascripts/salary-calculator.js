@@ -173,7 +173,7 @@
 
       $('.formula .level .value').text(values.level ? values.level : defaultValue);
       $('.formula .experience .value').text(experience.min && experience.max ? experience.min + ' to ' + experience.max : defaultValue);
-      $('.formula .rentIndex .value').text(rentIndex ? rentIndex.toFixed(2) : defaultValue);
+      $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
       $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
     }
 
@@ -202,7 +202,7 @@
           return o.country === country && o.city === city;
         });
 
-        return locationData ? locationData.rentIndex * 0.01 : 0;
+        return locationData ? parseFloat((locationData.rentIndex * 0.01).toFixed(2)) : 0;
       }
 
       // Rent Index will never be zero, safe to return as error value
