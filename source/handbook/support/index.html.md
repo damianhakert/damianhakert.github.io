@@ -74,6 +74,8 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 | 3   | [Disqus](/handbook/support#disqus)  and [Twitter](/handbook/support#twitter)         | 1 business day                         |
 | 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
 
+**Response time indicates the first reply time.**
+
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
