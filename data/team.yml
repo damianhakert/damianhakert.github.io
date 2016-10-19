@@ -1697,16 +1697,19 @@
           intuitive technology products that people can use to improve their lives.
           Before working for GitLab, he was also a regular contributor and a GitLab MVP.
 
-- name: R.B.
-  locality:
-  country:
+- name: Regis Boudinot
+  locality: Denver, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: regisboudinot.jpg
+  twitter: rboudinot
+  gitlab: selfup
   story:  |
-          Joining October 17th
+          Regis really loves to program. JavaScript and Rust are his favorite languages
+          and he is always hacking on hardware. Regis is a helicopter pilot as well
+          as an avid guitar player. Before working at GitLab, he was busy building
+          npm packages as well as a database in rust.
 
 - name: M.Y.
   locality:
@@ -1846,7 +1849,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead 
+  reports_to: UX Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
