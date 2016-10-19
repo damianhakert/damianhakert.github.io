@@ -524,7 +524,7 @@
   maintains: |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
-              <li>Merge request coach</li>
+              <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="https://gitlab.com/help/user/project/slash_commands.md">Slash commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -907,7 +907,7 @@
   gitlab: smcgivern
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
-              <li>Merge request coach</li>
+              <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -1030,6 +1030,7 @@
   gitlab: godfat
   specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
+              <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Jen-Shin is a Taiwanese who is also known as @godfat on the Internet. He learned Ruby from 2006 and has built a ton of stuffs with it including open source libraries. He's also passionate about functional programming, particularly Haskell. Other than programming, Jen-Shin loves computer games, especially some indie games. At some point he would really like to write one indie game as well, combining two major interests.
@@ -1846,7 +1847,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead 
+  reports_to: UX Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
