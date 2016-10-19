@@ -17,7 +17,7 @@ title: "Sales Training"
 * [How to Create a Sales Plan](#buyingplan)
 * [73 Insightful "How" Sales Questions That Get Buyers Talking](#73)
 * [25 Phrases That Signal a Prospect Is Ready to Buy](#25-phrases)
-* [11 Sales Negotiation Mistakes You Might Be Making](#11-negotation-mistakes)
+* [11 Sales Negotiation Mistakes You Might Be Making](#11-mistakes)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -622,11 +622,12 @@ Quiz: Which phrase is a signal that the prospect is ready to buy?
  
 Answer is “This tool would help us do X faster.”.  Read the article to gain more insight and to help you translate what the customer is really asking and to tame our happy ears.
 
-### 11 Sales Negotiation Mistakes You Might Be Making <a name="11-negotiation-mistakes"></a>
+### 11 Sales Negotiation Mistakes You Might Be Making <a name="11-mistakes"></a>
 
 Leslie Ye wrote an aticle on [11 Sales Negotiation Mistakes You Might Be Making](http://blog.hubspot.com/sales/sales-negotiation-mistakes?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36093761#sm.00000thjdio2kmcx3y923dyo5fe5u)
 
 Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with #4, #5 and #10 resonating with me.
+
 1. Treating negotiation as a zero-sum game
 2. Not knowing why the prospect would buy
 3. Not knowing why the prospect wouldn’t buy
