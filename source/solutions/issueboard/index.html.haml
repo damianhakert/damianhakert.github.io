@@ -178,5 +178,15 @@ extra_js:
                   .step-image
                     = image_tag "/images/issue-boards/step-5-illustration.png", class: "img-responsive"
 
+.what-is.purple-section.text-center.animated
+  .container
+    %h2.purple-section-title
+      What's new on the Issue Board!
+    .purple-section-subtitle
+      :markdown
+        GitLab 8.13 brings new amazing features to the Issue Board!
+    %a.featured-item-button.white-on-primary.btn-margin-top{ href: "/2016/10/22/gitlab-8-13-released/" } 8.13 Release Post
+    %a.featured-item-button.white-on-primary.btn-margin-top{ href: "/INSERT-WEBCAST-URL/" } 8.13 Webcast - Register Here
+
 = partial "includes/features/try-gitlab-ee"
 = partial "includes/features/gitlab-ee-trial"
