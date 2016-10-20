@@ -1,68 +1,58 @@
 ---
-title: 'Why We Chose Vue JS'
+title: 'Why We Chose Vue.js'
 author: Jacob Schatz
 author_twitter: jakecodes
 categories: gitlab
 image_title: '/images/default-blog-image.png/'
-description: 'Why GitLab went with Vue JS'
+description: 'Why GitLab went with Vue.js'
 twitter_image: '/images/tweets/why-choose-vuejs.png'
 ---
 
-I had a great conversation with a recent interviewee a few weeks ago, and he 
-brought up some good points about why one would chose [Vue JS](https://vuejs.org/). He said, "when a 
-major software company releases their secret sauce, there is going to be hype.
-That company writes JS different than you, and they are very successful. 
-Is their way of writing JS better than mine and, therefore, must I adopt it?"
+I had a great conversation with an interviewee a few weeks ago about how one 
+should go about choosing a JavaScript framework. He brought up several good 
+points, but something he said also underscored for me one reason it's a hard 
+decision to make right. 
 
-Their secret sauce may be awesome, but don't assume awesomeness just because 
-everyone else gets excited. You wouldn't copy and paste an answer from 
-StackOverflow, without understanding it, so why copy and paste an entire framework. 
+He said, "when [insert big-name software company] releases their 
+front-end's secret sauce, there is going to be hype. And then you'll know that company 
+writes JavaScript very different than you do. And they are very successful. Does that make 
+their approach to JavaScript better than yours? Does that mean you need to adopt it?"
 
-Some people get annoyed with all the new JS frameworks that come out every 2 weeks. 
-I enjoy them. I like to think of myself as a JavaScript collector. I download 
-all the new libraries that come out and read their source to see how they solved 
-the problems they claim to solve. I love trying out new frameworks. If you 
-are _ok_ at JavaScript and want to get better, this is a great way to learn a 
-lot of the tricks people use. 
+A big software company's secret sauce may actually be awesome, but it's not 
+because lots of other JavaScripters are excited about it. You shouldn't copy/paste
+an answer from StackOverflow without understanding why it's right, no matter how 
+many upvotes it has. So why copy/paste your choice of framework?
 
-In the end, what I want most of all is to write plain old JavaScript. I like 
-that I know the ins and outs of JavaScript. Why read 
-[Secrets of a JavaScript Ninja](https://www.manning.com/books/secrets-of-the-javascript-ninja), 
-if you never get to show your skills? 
+Which brings me to our decision to use Vue.js at GitLab.
 
-## Easy and Simple to Use
+## Simplicity and easy of use
 
-This is what Vue JS does. It allows you to write simple JavaScript. Getting 
-started with Vue JS is extremely easy. It's source code is very readable. The 
-documentation is the only thing you'll ever need. You don't need any external 
-libraries. You can use it with or without jQuery. You won't need to install any 
-plugins, even though many are available. I like vanilla Vue personally, but 
-sometimes I add in vue-resource, because it's really nice too. Hooking it up to 
-existing code is very straightforward. Vue uses `Object.defineProperty` to track changes.
+Primarily what drew us to Vue.js is that it allows our team to _easily_ write _simple_ 
+JavaScript. Getting started with Vue.js is extremely easy. Its source code is 
+very readable, and the documentation is the only tutorial you'll ever need. You 
+don't need external libraries. You can use it with or without jQuery. You won't 
+need to install any plugins, though many are available. I like vanilla Vue.js 
+personally, although I can reach for vue-resource when I need it. Hooking Vue.js 
+up to existing code is very straightforward. There's no magic to Vue.js -- it's `Object`s
+all the way down.
 
-It's almost stupid to write a tutorial on it, because it's so straight forward. 
-Most people read the guide and are ready to go. 
+I talk to a lot of JavaScript devs and I find it really interesting that the ones who 
+spend the most time in Angular tend to not know JavaScript nearly as well. I don't want 
+that to be me or our devs. Why should we write "not JavaScript?"
 
-I talk to a lot of JS devs and I find it really interesting that the ones who 
-spend the most time in the Angular world tend to not know JS well. I don't want 
-that to happen to me or our devs. Why should we write "not JavaScript?"
+I remember back when I was using Backbone, I had to really force myself to stay 
+DRY, because it's really a blank canvas. Vue.js does not make large assumptions 
+about much of anything either. It really only assumes that your data will change. 
 
-When using Backbone, I was really forcing myself to stay DRY, to do the thing 
-that Backbone would have wanted me to do. With Backbone, there are many ways to 
-use it. It's really a blank canvas. 
+But Vue.js comes with the perfect balance of what it will do for you and what you 
+need to do yourself. If Backbone was anarchy (no one in charge) and Angular is a 
+dictatorship (the Angular team is in charge), I'd say Vue.js is like socialism: you 
+are in definitely in charge, but Vue.js is always within reach, a sturdy, but 
+flexible safety net ready to help you keep your programming efficient and your 
+DOM-inflicted suffering to a minimum.
 
-Vue JS does not make large assumptions about anything either, it only assumes 
-your data will change. With Vue it has the perfect balance of what it will do 
-for you and what you need to do yourself. Vue also has a structure that will 
-result in the best outcome. Backbone felt like anarchy, no one is in charge. 
-Angular feels like a dictatorship, Angular is in charge and tells you what to 
-do. Vue is like socialism, because you are in control. You own Vue, Vue does not 
-own you. You publicly own your objects while Vue tries to maximize your 
-programming and minimize human suffering.
-
-To give you an idea of how simple it is:
-
-Here's a simple [Codepen](http://codepen.io/jschatz1/pen/dpQkpx)
+To give you an idea of what I mean, here's a simple 
+[Codepen](http://codepen.io/jschatz1/pen/dpQkpx):
 
 ```
 <div id="journal">
@@ -71,43 +61,45 @@ Here's a simple [Codepen](http://codepen.io/jschatz1/pen/dpQkpx)
 </div>
 ```
 ```
-(function(w){
-	var journal = new Vue({
-		el: '#journal',
-    	data: {
-      		message: ''
-    	}
-	});
-}(window));
+var journal = new Vue({
+	el: '#journal',
+    data: {
+      	message: 'Your first entry'
+    }
+});
 ```
 
-If you've seen the slew of JS libraries then you should understand everything in 
-this example, without any documentation. Usually that's where the simplicity 
-stops. Nice simple example but in reality the rest is complicated. Not Vue 
-though, the rest is just as simple. 
+If you've seen a few JavaScript libraries, it's not hard to understand everything in 
+this example, without any documentation. And usually, with other frameworks, this is
+where the simplicity stops. You get nice, simple examples when you're "Getting 
+started" but in reality, but things get complicated as soon as you to try to get 
+your money's worth out of the framework. Not with Vue.js though -- real-life usage 
+seems to stay as simple as the docs. 
 
-And that is what I love about Vue JS. It combines the simplicity of using an 
-object to express what you want to show in your view. The data for that view 
-goes in an object called `data`. Any functions you'll write as callbacks for 
-events go into a `methods` object. It knows when things change, and updates it, 
-so you write less code. Best of all, when theres a need, it's most likely 
-already solved, and the answer is in the guide. For example, when you find 
-yourself querying the DOM, just stop, there's usually a better way. 
+And that is what we love about Vue.js: it's an elegant combination of structure 
+and simplicity. The data for the view goes in an object called `data`, but the 
+data can get there and look however you want. Any functions you'll write as 
+callbacks for events go into a `methods` object, but they can do or return whatever 
+you want. Vue.js just knows when things change and updates your views. And you write less code. 
 
-## Vue JS + GitLab = Less Code
+## Vue.js + GitLab === Less code
 
-So what problem does this solve for GitLab? When I joined, all JS was written 
-with JQuery. There is nothing _wrong_ with that except that you'll write a lot 
-more code to solve the problem. We can do better. Once we added in Vue, we could 
-suddenly solve much more complex problems in much less time. On the issues page, 
-the issue can be `closed` or `open`. That status has to update in a few places. 
-In JQuery, we had about 30 or so lines of code to make that work in all the right 
-places. We have to switch around classes and query the DOM. But in Vue, it would 
-be 1 line of code. The rest of the updating happens in the HTML, and it's much 
-more simple to write.
+So what problem does this solve for GitLab? When I joined, all the JavaScript was written 
+with JQuery. There is nothing _wrong_ with that, except that it takes a lot 
+more code to solve every problem. We knew we could do better. Once we started with 
+Vue.js, we could immediately and consistently solve complex problems in much less time. 
 
-What [Evan You](https://twitter.com/youyuxi) knows is that you can't just write a kick ass framework. 
-You need excellent documentation, responses to tons of questions from users to 
-create answers for Google searches. You need to continue to evolve based on user 
-feedback. On top of that, you need a bunch of plugins that solve all the other 
-problems people might have.
+A simple, but practical example we're using in production: on an GitLab 
+Issue, the issue's state is displayed as either `closed` or `open`. That 
+simple value can change often and needs to be represented in several views. 
+With JQuery, we had about 30 or so lines of code to propagate those changes, and they 
+those lines involved multiple classes and querying the DOM by hand. 
+
+In Vue, this now requires use to write 1 line of JavaScript. The only other code 
+we add is in the HTML, and that's just a few additional attributes.
+
+What [Evan You](https://twitter.com/youyuxi) knows is that creating a kick ass framework isn't just about
+writing great code. You need excellent documentation, a strong community helping each other
+learn, a supporting cast of libraries and plugins to help users solve the hard problems,
+and short feedback loops based on user feedback to keep the framework relevant. Vue is all
+of that, *plus* great code. That's why we're using it. What about you?
