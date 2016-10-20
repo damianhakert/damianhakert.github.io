@@ -4,7 +4,7 @@ title: Responsible Disclosure Policy
 ---
 
 Please email security@gitlab.com to report any security vulnerabilities. We will
-acknowledge receipt of your vulnerability report the next business day and strive to send you regular updates about our progress. If you're curious about the status of your disclosure please feel free to email us again. If you want to encrypt your disclosure email please email us to ask for our PGP key.
+acknowledge receipt of your vulnerability report the next business day and strive to send you regular updates about our progress. If you're curious about the status of your disclosure please feel free to email us again. If you want to encrypt your disclosure email please email us to ask for our [PGP key](http://pgp.mit.edu/pks/lookup?op=get&search=0xD1749DE8E13BA89D).
 
 Alternatively you may also send us your report via [HackerOne](https://hackerone.com/gitlab).
 

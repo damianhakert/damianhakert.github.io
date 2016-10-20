@@ -16,6 +16,8 @@ title: "Sales Training"
 * [5 B2B Sales Call Techniques That Get More Meetings](#techniques)
 * [How to Create a Sales Plan](#buyingplan)
 * [73 Insightful "How" Sales Questions That Get Buyers Talking](#73)
+* [25 Phrases That Signal a Prospect Is Ready to Buy](#25-phrases)
+* [11 Sales Negotiation Mistakes You Might Be Making](#11-mistakes)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -607,3 +609,33 @@ These HOW questions are broken down into categories
 1. Customer Service Questions
 1. Questions to Ask Yourself
 
+### 25 Phrases That Signal a Prospect Is Ready to Buy <a name="25-phrases"></a>
+
+Aja Frost wrote an insightful article on [25 Phrases That Signal a Prospect Is Ready to Buy](http://blog.hubspot.com/sales/phrases-signal-prospect-is-ready-to-buy?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36014993#sm.00000thjdio2kmcx3y923dyo5fe5u)
+
+As Aja points out, salespeople get happy ears and interpret the buyers response and interest as something not true and inaccurate.  The key is to understand is your buyer in the consideration phase or the buying phase.  This article
+calls out buying phrases that are committal.  Which phrases are you hearing?  Vague, abtract, no-committal.  If so, then your buyer is in the consideration stage and not buying.  Or is your buyer asking you or making very specific references to their interest in purchasing?  
+
+Quiz: Which phrase is a signal that the prospect is ready to buy? 
+  1. “That seems like it could be helpful.” or 
+  1. “This tool would help us do X faster.”
+ 
+Answer is “This tool would help us do X faster.”.  Read the article to gain more insight and to help you translate what the customer is really asking and to tame our happy ears.
+
+### 11 Sales Negotiation Mistakes You Might Be Making <a name="11-mistakes"></a>
+
+Leslie Ye wrote an aticle on [11 Sales Negotiation Mistakes You Might Be Making](http://blog.hubspot.com/sales/sales-negotiation-mistakes?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36093761#sm.00000thjdio2kmcx3y923dyo5fe5u)
+
+Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with point 4, 5 and 10 resonating with me.
+
+1. Treating negotiation as a zero-sum game
+2. Not knowing why the prospect would buy
+3. Not knowing why the prospect wouldn’t buy
+4. Negotiating too early
+5. Negotiating with the wrong person
+6. Treating all objections the same
+7. Thinking price as the only lever you can pull
+8. Giving something away without getting something in return
+9. Not knowing when to walk away
+10. You don’t understand the prospect’s decision criteria
+11. You take things personally

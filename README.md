@@ -343,4 +343,51 @@ To remove the generated PDFs run:
 rake rm_pdfs
 ```
 
+## Custom Generators
+
+There are a few custom, static generators specified in config.rb. For
+example, there are generators that produce the direction issue list,
+release list, and organization chart dynamically.
+
+These pages cannot be viewed directly via the Middleman server
+(e.g. http://localhost:4567) because there are explicit rules that
+tell Middleman to defer the generation to other scripts. These
+special URLs (e.g. /release-list/index.html) usually have two
+Middleman keywords:
+
+1. [`proxy`](https://middlemanapp.com/advanced/dynamic_pages/)
+
+    This tells Middleman to output a static file based on the provided template.
+
+2. [`ignore`](https://www.relishapp.com/middleman/middleman-core/docs/ignoring-paths)
+
+    This tells Middleman server not to handle this URL. The external generator will
+    build the static files.
+
+To preview these custom-generated pages locally, you must first rebuild the files:
+
+```
+bundle exec middleman build
+```
+
+To test out the site, you must run another Web server from the
+`public` directory:
+
+```
+cd public
+python -m SimpleHTTPServer 8000
+```
+
+This will start a Web server on port 8000 (you may omit the port number). You can preview the site
+by pointing your browser to http://localhost:8000.
+
 [gh-livereload]: https://github.com/middleman/middleman-livereload/issues/60
+
+## Conclusion
+
+In case someone forgot the most important commands and is catting this file from the command line we end by listing them:
+
+```
+bundle exec rake new_post
+bundle exec middleman
+```

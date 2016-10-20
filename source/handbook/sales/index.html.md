@@ -13,7 +13,9 @@ title: "Sales Handbook"
 
 * [Pages inside Sales Handbook](#pages)
 * [Pages outside Sales Handbook](#pages-outside)
+* [Sales Team Call](#team-call)
 * [GitLab Version Check](#version_check)
+* [Adding leads via Discover.org](#discover)
 * [Parent and Child Accounts](#parent)
 * [When to create an Opportunity](#opportunity)
 * [Reseller Opportunities](#reseller)
@@ -21,6 +23,8 @@ title: "Sales Handbook"
 * [Opportunity Types](#types)
 * [Opportunity Stages](#stages)
 * [Processing Orders](#processing)
+* [Creating Quote for a Partner Deal](#resellerQuote)
+* [Using Customer Form](#CustomerFormAgreements)
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
@@ -50,9 +54,34 @@ title: "Sales Handbook"
 * [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
 
+### Sales Team Call <a name="team-call"></a>
+
+1. The Sales team call is every Monday and Wednesday from 9:00am to 9:30am Pacific Time.
+1. We use [Zoom](https://zoom.us) for the call since Hangouts is capped at 15 people, link is in the calendar invite, and also listed at the top of the Sales Team Agenda.
+1. The call is recorded automatically, and we have a 1GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Recordings can be found by logging on to the [Zoom portal](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings" and look for Sales Team Call. Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
+1. We start on time and will not wait for people.
+1. Person who has first item on the agenda starts the call.
+1. If you are unable to attend just add your name to the [Sales Team Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit) as 'Not attending'.
+1. We start by discussing the subjects that are on the agenda for today.
+   * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
+   * When done with a point mention the subject of the next item and hand over to the next person.
+   * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
+1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the sales team agenda and the links from there.
+
 ### GitLab Version Check <a name="version_check"></a>
 
 Before prospecting and engaging with a prospect, check to see if they are using CE. To do this, use GitLab Version Check. Everything about [GitLab Version Check](/handbook/sales-process/version_check).
+
+### Adding Leads via Discover.org <a name="discover"></a>
+* GiLab uses a 3rd party service to identify potential leads to prospect into and drive demand for GitLab Enterprise Edition and GitLab Products.
+* For an account/lead you own, you may request Sales Operations to upload any new contacts from Discover.org.  The request process is:
+  * Within the lead/account use the chatter function to make the request and tag Francis Aquino (Dir. Sales Operations).  Example, "Request for contacts to be added via Discover.org"
+  * Once the contacts have been uploaded, Sales Operations will respond via the same chatter message confirming the data upload has been done.
+  * Turnaround time for each request will be 2 business days or less.  Sales Operations strives to respond to each request within the same business day, if at all possible.
+* Before making a request for more contacts, please make sure you have a plan and time set aside to prospect to these new leads.  A plan means:
+  * Messaging targeted to the account - based on vertical, competition and/or use of CE.
+  * Email templates created that you would like to send
+  * Time set aside to execute on your outbound plan
 
 ### Parent and Child Accounts <a name="parent"></a>
 
@@ -99,51 +128,62 @@ After creating the opportunity, click “New” in the Partners section to assoc
 ### Opportunity Naming Convention <a name="naming"></a>
 
 Opportunities for subscriptions will use the following guidelines:
-* New Business/Existing Customer - Cross-Sell:
- - [Name of Company]- [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- 50 EE
- - Example: Acme, Inc- 50 EE/Geo
-* Add-On Business (seats only):
- - [Name of Company]- Add [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- Add 25 EE
- - Example: Acme, Inc- Add 25 EE/Geo
-* Add-On Business (new products):
- - [Name of Company]- Add [Quantity] [Abbreviations of Product]
- - Example: Acme, Inc- Add 25 PS
-* Renewal Business (no changes):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
- - Example: Acme, Inc- 50 EE Renewal 01/17
- - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
-* Renewal Business + Add On Business (seats):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
- - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
-* Renewal Business + Add On Business (new products):
- - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
- - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
+
+- **New Business/Existing Customer - Cross-Sell**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- 50 EE
+   - Example: Acme, Inc- 50 EE/Geo
+
+- **Add-On Business (seats only)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 EE
+   - Example: Acme, Inc- Add 25 EE/Geo
+
+- **Add-On Business (new products)**:
+   - [Name of Company]- Add [Quantity] [Abbreviations of Product]
+   - Example: Acme, Inc- Add 25 PS
+
+- **Renewal Business (no changes)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
+   - Example: Acme, Inc- 50 EE Renewal 01/17
+   - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+
+- **Renewal Business + Add On Business (seats)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add 25
+
+- **Renewal Business + Add On Business (new products)**:
+   - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
+   - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
 
 Abbreviation of Products:
-* EE- Enterprise Edition
-* FL- File Locking
-* Geo- GitLab Geo
-* GH- GitHost
-* PS- Premium Support
-* PT- Pivotal Tile
+
+- EE- Enterprise Edition
+- FL- File Locking
+- Geo- GitLab Geo
+- GH- GitHost
+- PS- Premium Support
+- PT- Pivotal Tile
 
 Opportunities for Training will use the following guidelines:
-* Training
- - [Name of company]- [Type of training]
- - Example: Acme Inc- User Training. 
- - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+
+- Training
+   - [Name of company]- [Type of training]
+   - Example: Acme Inc- User Training.
+   - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
 
 Types of Training:
-* User Training
-* Git Workshop
-* GitLab Flow
-* GitLab Admin
+
+- User Training
+- Git Workshop
+- GitLab Flow
+- GitLab Admin
 
 Gitorious Opportunities:
-* Any deal coming from Gitorious has “(Gitorious)” added.  
-* Example Acme, Inc-Gitorious- 50 EE
+
+- Any deal coming from Gitorious has “(Gitorious)” added.  
+- Example Acme, Inc-Gitorious- 50 EE
+
 
 ### Opportunity Types <a name="types"></a>
 
@@ -305,7 +345,7 @@ The following quote metrics are available:
 1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
 
 ##### Amend existing subscription for the billing account
-1. This process is used to perform any Upgrades on an existing subscription. 
+1. This process is used to perform any Upgrades on an existing subscription.
 1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
@@ -321,7 +361,7 @@ The following quote metrics are available:
 1. Select cancellation date and click Next Button.
 
 ##### Cancel an erroneous subscription for the billing account
-1. This process is used to cancel an erroneous subscription. 
+1. This process is used to cancel an erroneous subscription.
 1. For example, a customer may purchase additional seats or products via the web portal which was originally intended as on add-on to an existing subscription.
 1. Provide Finance or Sales Operations with the erroneously created Zuora Subscription ID, invoice number and the correct Zuora Subscription ID.
 1. Finance will cancel the subscription and either refund the invoice (if a credit card purchase) or cancel the invoice (if check or other payment method).
@@ -396,6 +436,22 @@ When in doubt please consult the reseller team.
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
 
+### Using Customer Form Agreements<a name="CustomerFormAgreements"></a>
+Our experience shows that using a prospect's form agreement is expensive and, more importantly, time consuming.  Deals in which we use the customer agreement take on average 60 days longer to close than if completing using our standard subscription agreement with changes as requested by customer counsel.  The arguments in favor of using our agreement are as follows:
+
+1. Our agreement is an annual subscription agreement with a true-up whereas customer form agreements typically are based on paid up licenses.
+1. We are an open source company and our agreement provides licenses for both the CE version of the product and the EE version as well as dealing with contributions of code from our customer.
+1. We have non-standard but customer favorable warranty and acceptance provisions.
+1. We are very accommodating of customer requested changes to our form agreement which is why we can close deals quickly.
+
+Despite the overwhelming arguments in favor of using the Gitlab form some prospects insist on using their form agreement.  GitLab will accommodate such requests with the following assumptions:
+
+1. GitLab must have been selected as the solution of choice by the customer.
+1. The deal must be in excess of $15,000.
+1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
+Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
+
+
 ### Closing a Won Deal <a name="closing"></a>
 
 In order to close a deal in Salesforce.com, one of the following must happen:
@@ -407,8 +463,9 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 Once the above has happened, please make sure the following actions are done:
 
-1. Attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
-1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
+1. On the Account record, make sure you've added the Industry. You will receive an error message if you attempt to close won an opportunity without an Industry.
+1. On the Opportunity record, attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
+1. Add the competition we were up against in the opportunity in the Competitor field, which is located in the Qualification Questions section. This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
 1. If the customer agrees to be a reference, please complete the following steps:
@@ -469,7 +526,7 @@ Once you close a deal that includes Premium Support, you need to:
 
 #### Escalation to Support <a name="escalation-support"></a>
 
-Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels. 
+Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels.
 
 1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-supporta-nameinternala) section of the support handbook.
 1. Forward a customer question via email to the **support** email address. - It's important the email is **forwarded** and not CC'd to avoid additional changes required once the support request is lodged.

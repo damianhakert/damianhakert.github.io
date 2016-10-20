@@ -7,6 +7,11 @@
   }
 
   .navbar-brand {
+    @media (min-width: $screen-sm-min) {
+      padding-right: 0;
+      margin-right: -20px;
+    }
+
     .wordmark {
       transition: fill .3s;
     }
@@ -69,45 +74,40 @@
         }
 
         @media (min-width: $screen-lg-min) {
-          padding-left: 30px;
-          padding-right: 30px;
+          padding-left: 25px;
+          padding-right: 25px;
         }
       }
     }
 
     .sign-in-up-btn {
-      @media (min-width: $screen-sm-min) {
-        border: 1px solid $color-primary;
-        border-radius: 3px;
-        padding: 4px 20px;
-        margin-left: 25px;
-        margin-top: 9px;
-        background-color: $color-white;
-        color: $color-primary;
-        font-weight: 600;
+      position: relative;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 11px;
+      color: $color-primary;
+      font-weight: 600;
 
-        &:hover,
-        &:focus {
-          background-color: $color-primary;
-          color: $color-white;
-          outline: 0;
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.is-last {
+        margin-left: 11px;
+        margin-right: 0;
+
+        @media (min-width: $screen-sm-min) {
+          &::before {
+            content: "";
+            position: absolute;
+            left: -12px;
+            top: 50%;
+            margin-top: -9px;
+            width: 2px;
+            height: 18px;
+            background-color: $color-gray-light;
+          }
         }
-      }
-
-      @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-        margin-left: 10px;
-      }
-
-      @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-        margin-left: 15px;
-      }
-
-      @media (min-width: $screen-md-min) and (max-width: $screen-lg) {
-        margin-left: 18px;
-      }
-
-      @media (min-width: $screen-md-min) {
-        padding: 5px 30px;
       }
     }
   }

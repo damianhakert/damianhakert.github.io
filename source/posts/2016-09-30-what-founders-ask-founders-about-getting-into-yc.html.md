@@ -8,12 +8,14 @@ image_title: '/images/blogimages/what-fouders-ask-founders-about-getting-into-yc
 description: "5 questions a founder asked our founder about applying to YC!"
 ---
 
+Update: There is a followup post about the [YC application office hours](/2016/10/03/yc-application-office-hours/) as a response to this post.
+
 You’ve got a great idea and feel you can make a great company and product out of it. You’ve worked on a basic version and feel like you’re ready to enter the big leagues.
 
 Maybe the accelerator program of Y Combinator is a good idea? But you’ve got so many questions.
 When are you ready for the next step? How can Y Combinator help you? What are some tips or tricks to get in and what should you highlight in the application process?
 
-The deadline to [**apply**](https://www.ycombinator.com/apply/) for the Y Combinator program is **Tuesday October 4th 2017 by 8pm PT**.
+The deadline to [**apply**](https://www.ycombinator.com/apply/) for the Y Combinator program is **Tuesday October 4th 2016 by 8pm PT**.
 {: .alert .alert-webcast}
 
 <!-- more -->

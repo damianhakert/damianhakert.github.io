@@ -249,7 +249,7 @@ GitLab 8.5 here's what's new:
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 
 ### Updates in the omnibus-gitlab package
 

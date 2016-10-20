@@ -1,6 +1,7 @@
 ---
 layout: markdown_page
 title: Team Handbook
+twitter_image: '/images/tweets/handbook-gitlab.png'
 ---
 
 ## Welcome to the GitLab Handbook
@@ -19,9 +20,10 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
-  * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
   * [Blog](/handbook/marketing/blog)
   * [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/)
+  * [Social Marketing](/handbook/marketing/social-marketing/)
+  * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
 * [Sales](/handbook/sales)
   * [Customer Success](/handbook/customer-success)
 * [Finance](/handbook/finance)
@@ -56,15 +58,15 @@ collaboration, directness, kindness, diversity, boring solutions, and quirkiness
 1. **Results**: We care about what you achieve; the code you shipped, the user you
 made happy, and the team member you helped. Do not compete by proclaiming how many
 hours you worked yesterday because we don't want someone who took the afternoon
-off to feel like they did something wrong. Instead celebrate the achievements of
+off to feel like they did something wrong. Instead, celebrate the achievements of
 yourself and your teammates. We want people to have the desire to ship.
 1. **Transparency**: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
-Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
+Everything we do is public by default, for example, the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
 There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines).
-On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
+On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 1. **Sharing**: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors, and the open source ecosystem.
 1. **Freedom**: You should have clear objectives and the freedom to work on them as you
@@ -74,15 +76,15 @@ spend your day. We trust team members to do the right thing instead of having ri
 and not duplicating work. This enables us to achieve more progress with fewer people
 and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
-"Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
+_Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
-fixed expense."
+fixed expense._
 1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
 help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
-Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/).
+Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/#Principle-100).
 We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way. Give negative
 feedback in the smallest setting possible, one-on-one video calls are preferred.
@@ -112,12 +114,12 @@ people. We try to hire people who think work is a great way to express themselve
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
-1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
+1. Use **inclusive** language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys".
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
-1. Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (Inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules))
+1. Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (As inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules).)
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
-1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
+1. Most things are **public** unless there is a reason not to; not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
@@ -125,18 +127,16 @@ people. We try to hire people who think work is a great way to express themselve
 1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
-1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
+1. Please read and contribute to our [**strategy**](https://about.gitlab.com/strategy/).
 1. For each action or comment, it helps to ask yourself (i) does this help the company achieve its strategic goals? (ii) is this in the company's interest, and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
-1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the default settings and setup our users would also have.
-1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
+1. If you fix something for GitLab.com or one of our users, make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the same default settings and setup our users would also have.
+1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include "draft" in the titles of documents. Ensure everyone can read the current state. Nothing will ever be finished.
 1. Explicitly note what **next action** you propose or expect and from whom.
-1. When you **reply** to a request please do so after you have completed the request or
-indicate when you plan to do it. In the latter case always send a second message
-when the request is complete.
+1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
 1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than being an absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example: "It is not a problem, but next time please consider the following guideline from the handbook."
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Handbook Usage
 {: #handbook-usage}
@@ -357,6 +357,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Writing Style Guidelines
 
+1. {: #american-english} At GitLab, we use American English as the standard written language. 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
@@ -369,6 +370,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please always refer to GitLab Inc. people as team members, not employees.
 1. Use inclusive and gender-neutral language in all writing. So for example, write "they, their" instead "he, his".
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
+1. Always capitalize the names of GitLab [features](https://about.gitlab.com/features/)
+1. Do not use a hyphen when writing the term "open source."  
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
@@ -439,7 +442,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/sop/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
-    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
+    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers (Mention to the Apple Store that you are buying it for GitLab so that we can qualify for [business discounts](http://www.apple.com/business/vpp/)). Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
@@ -724,15 +727,15 @@ BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.goog
 
 ### One Tab
 
-[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
+[One Tab (Free)](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ### Quitter
 
-[Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
+[Quitter (Free)](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
 ### TripMode
 
-[TripMode](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
+[TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
 
 ### Check which process occupies a given port
 
@@ -744,7 +747,21 @@ this command in your `.bash_profile` or equivalent for your shell.
 
 ### MobileDay
 
-If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+If you install [MobileDay (Free)](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+
+### Keeping You Awake
+
+[Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) is a macOS utility application that can prevent your Mac from entering sleep mode for a predefined duration or as long as it is activated.
+
+### Enable screen lock on your mac menu bar
+
+1. Open up the `Keychain Access` application
+2. In the menu bar (next to the apple logo), click on `Keychain Access`
+3. Click on `Preferences`
+4. Check the box `Show keychain status in menu bar`
+5. The lock icon should now show up on your menu bar
+
+You can lock your screen by clicking the lock icon on the menu bar and clicking `Lock Screen`
 
 ### Visual help to differentiate between GitLab servers
 

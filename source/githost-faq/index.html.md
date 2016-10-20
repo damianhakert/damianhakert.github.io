@@ -5,9 +5,9 @@ title: GitHost.io FAQ
 
 ### What is GitHost?
 
-GitHost is a single-tenant solution that provides GitLab CE or EE as a managed
-service. GitLab Inc. is responsible for installing, updating, hosting, and
-backing up customers own private and secure GitLab instance.
+GitHost is a single-tenant solution that provides GitLab CE, EE and CI runners as
+a managed service. GitLab Inc. is responsible for installing, updating, hosting, and
+backing up customers own private and secure GitLab instances.
 
 ### Why should I use GitHost?
 
@@ -35,15 +35,15 @@ backing up customers own private and secure GitLab instance.
 
 ### What regions does GitHost operate in?
 
-Amsterdam, London, San Francisco, Singapore, Toronto, New York and Frankfurt.
+Amsterdam, London, San Francisco, Singapore, Toronto, New York, Frankfurt, and Bangalore.
 
 ### Can I customize my disk space?
 
-No. Our plans are based on the underlying infrastructure templates.
+Technically, no. Our plans are based on the underlying infrastructure templates.
+However, it is possible to attach an external block storage device that allows
+you to add up to 16TB of storage.
 
-### What SLA does the service provide?
-
-99.9% uptime.
+This feature is only available in our NYC1, SFO2, and FRA1 datacenters.
 
 ### Will I be notified of downtime for maintenance?
 
@@ -52,7 +52,7 @@ Yes.
 ### Do I need an SSL certificate?
 
 Yes, if you want to use your own domain. You can purchase one from vendors such
-as GoDaddy. No, if you want a `*.githost.io` subdomain.
+as Comodo. No, if you want a `*.githost.io` subdomain.
 
 ### Is LDAP supported?
 
@@ -70,8 +70,7 @@ Yes.
 
 Custom changes such as increasing the number of Unicorn workers or setting up an
 SMTP server for email must be done by a GitLab Service Engineer. Customers can
-request this by contacting GitHost Support. Self service for custom changes is
-in development.
+request this by contacting GitHost Support. 
 
 ### What connections does GitHost support?
 
@@ -82,10 +81,9 @@ SSH and HTTP.
 Full backups are taken every day and stored at an offsite location. Restoring
 from backups can be done by customers without help from GitHost Support.
 
-### Does GitHost come with a private hosted GitLab CI runner?
+### Does GitHost offer privately hosted GitLab CI runners?
 
-No, but you can hook up runners from anywhere. We plan to support this in the
-future.
+Yes, we do. And you can also hook up runners from anywhere. 
 
 ### Can I migrate from my on-premises GitLab server to GitHost?
 
@@ -101,10 +99,20 @@ Yes.
 GitHost will always install the latest version of GitLab when a new server is
 created.
 
-### If I subscribe to GitLab Enterprise and use GitHost how to I get support?
+### What level of availability does the service provide?
+
+99.9% uptime (also see the [terms](https://about.gitlab.com/terms/#githost)).
+
+### What level of support does the service provide?
+
+For assistance with issues that are specific to GitHost, we offer next-business day response times. You should receive a dedicated email address to reach the support team when you sign up for the service.
+
+### If I subscribe to GitLab Enterprise and use GitHost how do I get support?
 
 GitLab Enterprise subscribers will have the ability to email our Service
-Engineers directly for assistance with both GitHost and GitLab.
+Engineers directly for assistance with both GitHost and GitLab, and receive the 
+benefit of the same response times and service levels that are in place for 
+GitLab Enterprise Edition subscription.
 
 ### How is the service billed?
 
