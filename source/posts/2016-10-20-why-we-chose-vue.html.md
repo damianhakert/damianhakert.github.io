@@ -106,7 +106,7 @@ places. We have to switch around classes and query the DOM. But in Vue, it would
 be 1 line of code. The rest of the updating happens in the HTML, and it's much 
 more simple to write.
 
-What [Evan You](@youyuxi) knows is that you can't just write a kick ass framework. 
+What [Evan You](https://twitter.com/youyuxi) knows is that you can't just write a kick ass framework. 
 You need excellent documentation, responses to tons of questions from users to 
 create answers for Google searches. You need to continue to evolve based on user 
 feedback. On top of that, you need a bunch of plugins that solve all the other 
