@@ -135,8 +135,8 @@ people. We try to hire people who think work is a great way to express themselve
 1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include "draft" in the titles of documents. Ensure everyone can read the current state. Nothing will ever be finished.
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
-1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example: "It is not a problem, but next time please consider the following guideline from the handbook."
+1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
+1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook."
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Handbook Usage
 {: #handbook-usage}
@@ -155,20 +155,20 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 
 Documenting things in the handbook takes more time initially and it requires thinking. But it saves time over a longer period and it is essential to scale and adapt our organization. It is not unlike writing tests for your software. Please follow these guidelines and remind others of them.
 
-1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. When you discuss something in chat always try to **link** to a URL where relevant, for example the documentation you have a question about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
+1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered, discuss where it should be documented and who will do it. You can remind other people of this by asking "Who will document this?"
+1. When you discuss something in chat always try to **link** to a URL where relevant, for example, the documentation you have a question about or the page that answered your question. You can remind other people of this by asking "Can you please link?"
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
-After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send a merge request for the handbook'?
-1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
-1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
+After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking "Can you please send a merge request for the handbook?"
+1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking "Can you please update the handbook first?"
+1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking "Can you please link to the relevant part of the handbook?"
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
+Many things are documented in the handbook, but it will mostly be read by team members. If something concerns users of GitLab, it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
 ## <i class="fa fa-comments-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Communication
 {: #communication}
 
-We're a **distributed**, **remote-only** company where people work remote without missing out.
+We're a **distributed**, **remote-only** company where people work remotely without missing out.
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
@@ -181,7 +181,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
+chat). Issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -201,8 +201,8 @@ person know that you received it. A thread is done when there is a single word
 reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
 information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request themselves and expects you to do so instead.
-1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to be added or removed from an internal alias (e.g. `sales@gitlab.com`), change a rule, or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
-1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
+1. Email forwarding rules are specified in the shared _GitLab Email Forwarding_ Google Doc accessible only to people in the company. If you want to be added or removed from an internal alias (for example, "sales@gitlab.com"), change a rule, or add a forwarding email alias, please [suggest an edit](https://support.google.com/docs/answer/6033474?hl=en) in the doc.
+1. Emails are asynchronous, for example, if your manager emails you on a weekend it is fine to reply during the workweek.
 1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
 
 **Chat**
@@ -211,44 +211,41 @@ information) or FYA (for your action). If you forward an external request with F
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
 1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for pings that are both urgent as well as important. By overusing channel mentions you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
-1. If you agree in a chat to start a video call (typically by asking 'call?')
+1. If you agree in a chat to start a video call (typically by asking "Call?")
 the person that didn't leave the last comment starts the call. So either respond
-to the 'call?' request with a video link or say 'yes' and let the other person
-start it. Don't say 'yes' and start a call 5 seconds later since it is likely
+to the "Call?" request with a video link or say "Yes" and let the other person
+start it. Don't say "Yes" and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
-
 
 **Google Docs**
 
-1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website.
-1. If you _do_ need a Google Doc, then create the doc with your company Google
-Apps account. By default share Google docs with the whole company 'anyone at
-GitLab can find and access' with edit (preferred) or comment access for everyone.
-An easy way to do this, is to create your Google docs in a Shared Folder in
-Google Drive.
-1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
-Instead, write the name of the Google Doc. In the past, giving the URL of a doc
-has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
-prevent spam from people outside of GitLab who request access to the doc when they see the link.
+1. Work on website edits via commits to a merge request. Never use a Google Doc for something non-confidential that is intended for the website.
+1. If you _do_ need a Google Doc, create one with your company G Suite (formerly Google 
+Apps) account. By default, share it with the whole company using the _Anyone at GitLab can find and access_ link sharing permission 
+and the _Anyone within GitLab can edit_ access permission (preferred) or the _Anyone within GitLab can comment_ access permission.
+Easily do this by creating Google Docs within a Shared Folder in Google Drive.
+1. When referring to a Google Doc in the handbook, refrain from directly linking it. Instead, indicate the name of the doc.
+(In the past, linking a Google Doc has led to inadvertently opening the sharing settings beyond what was intended.)
+This also helps prevent spam from people outside GitLab requesting accessing to a doc when clicking its link.
 1. If you are having trouble finding a shared Google Doc, make sure you [Search &lt;your domain&gt;](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be _commented on_ by _anyone_ with the link. For instance, this is how we share our employment [contracts](/handbook/contracts/). If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
 
-**Video chats**
+**Video Chats**
 
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
 1. Having pets, children, significant others, friends and family visible during
 video chats is encouraged. If they are human, ask them to wave at your remote
-team member to say 'Hi'.
+team member to say "Hi".
 
 **Say Thanks**
 
-1. Thank people that did a great job in our 'Thanks' chat channel. If someone is
-a team member just "@" mention them. If multiple people were working on something
-try mentioning each person by "@" name. 'Thanks everyone' does not say much.
+1. Thank people that did a great job in our "Thanks" chat channel. If someone is
+a team member just @ mention them. If multiple people were working on something
+try mentioning each person by "@name". "Thanks everyone" does not say much.
 1. To thank someone who is not a team member, mention your manager, our People Ops Coordinator, the name of the person, a quirky gift
-and link to their work. For example: _"@manager, @peopleopscoordinator: Joe deserves a lawnmower for LINK"_.
+and link to their work. For example, "@manager, @peopleopscoordinator: Joe deserves a lawnmower for <link>".
 With your manager's blessing, the People Ops Coordinator will approach the person in question for their address saying we want to send
-some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love
+some swag. We'll ship it in gift wrap with "Thanks for your great work on <link>, love
 from @gitlab".
 1. Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
 
