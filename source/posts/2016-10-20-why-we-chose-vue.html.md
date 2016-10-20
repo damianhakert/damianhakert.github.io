@@ -5,7 +5,7 @@ author_twitter: jakecodes
 categories: gitlab
 image_title: '/images/default-blog-image.png/'
 description: 'Why GitLab went with Vue JS'
-twitter_image: ''
+twitter_image: '/images/tweets/why-choose-vuejs.png'
 ---
 
 I had a great conversation with a recent interviewee a few weeks ago, and he 
