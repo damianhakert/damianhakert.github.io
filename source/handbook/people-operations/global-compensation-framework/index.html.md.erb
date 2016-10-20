@@ -49,6 +49,8 @@ This list will be expanded as we gain more experience with the calculator and as
 
 | Country | Employee | Contractor |
 | --------| -------- | ---------- |
-| Netherlands | 0.8 | 1.17 |
-| USA | 1.0 | 1.17 |
-| UK | 0.9 | 1.17 |
+<% data.contract_types.sort_by(&:country).each do |contractType| %>
+  <% employee_factor = contractType.factor.employee ? sprintf('%0.2f', contractType.factor.employee).to_s : '--' %>
+  <% contractor_factor = contractType.factor.contractor ? contractType.factor.contractor : 1.17 %>
+  <%= "| #{contractType.country} | #{employee_factor} | #{sprintf('%0.2f', contractor_factor).to_s} |" %>
+<% end %>
