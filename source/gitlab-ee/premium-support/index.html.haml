@@ -4,8 +4,10 @@ title: Premium Support
 suppress_header: true
 extra_css:
   - gitlab-feature-landing-page.css
+  - features.css
 ---
 .wrapper.gitlab-ee-page
+  = partial "includes/features/gitlab-ee-nav"
   .image-title
     .color-bg
       %div
@@ -30,9 +32,10 @@ extra_css:
       %hr.divider/
       .row
         .col-xs-1.col-md-1
-        .col-md-5.hidden-xs.hidden-sm
-
-        .col-xs-10.col-md-5
+        .col-md-3.hidden-xs.hidden-sm
+          .ee-feature-icon
+            = icon("premium-support")
+        .col-xs-10.col-md-7
           %h2 What's included?
           %ul
             %li
@@ -81,4 +84,4 @@ extra_css:
           %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
         .col-xs-1.col-md-1
 
-  = partial "includes/features/try-gitlab-ee"
+  = partial "includes/features/gitlab-ee-add-product"

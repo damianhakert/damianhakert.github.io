@@ -1,0 +1,12 @@
+%nav#qnav.navbar.navbar-default.qnav.hidden-xs.qnav2{role: "navigation"}
+  .container-fluid.featurenav
+    %ul.nav.nav-pills.nav-justified
+      %li{class: ("active" if current_page.url == "/gitlab-ee/gitlab-geo/")}
+        %a{href: "/gitlab-ee/gitlab-geo"}
+          GitLab Geo
+      %li{class: ("active" if current_page.url == "/gitlab-ee/premium-support/")}
+        %a{href: "/gitlab-ee/premium-support"}
+          Premium Support
+      %li{class: ("active" if current_page.url == "/gitlab-ee/file-locking/")}
+        %a{href: "/gitlab-ee/file-locking"}
+          File Locking

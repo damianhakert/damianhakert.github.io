@@ -4,8 +4,10 @@ title: File Locking
 suppress_header: true
 extra_css:
   - gitlab-feature-landing-page.css
+  - features.css
 ---
 .wrapper.gitlab-ee-page
+  = partial "includes/features/gitlab-ee-nav"
   .image-title
     .color-bg
       %div
@@ -26,7 +28,8 @@ extra_css:
       .row
         .col-xs-1.col-md-1
         .col-md-5.hidden-xs.hidden-sm
-
+          .ee-feature-icon
+            = icon("file-locking-icon-1")
         .col-xs-10.col-md-5
           %h2 How it works
           %ul
@@ -60,10 +63,14 @@ extra_css:
         .hidden-xs.hidden-sm.col-md-4
           %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
         .col-xs-1.col-md-1
+
       %hr.divider/
       .row
-        .col-md-5.hidden-xs.hidden-sm
-        .col-xs-10.col-md-5
+        .col-xs-1.col-md-1
+        .col-md-4.hidden-xs.hidden-sm
+          .ee-feature-icon
+            = icon("file-locking-icon-2")
+        .col-xs-10.col-md-6
           %h2 Benefits
           %ul
             %li
@@ -77,6 +84,6 @@ extra_css:
               %b Streamline:
               With Git LFS support and file locking your team can effectively store and manage their media assets, such
               as images, PSDs, 3D models, etc. within the repository.
-        .hidden-xs.hidden-sm.col-md-6
+        .col-xs-1.col-md-1
 
-= partial "includes/features/try-gitlab-ee"
+  = partial "includes/features/gitlab-ee-add-product"

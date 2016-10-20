@@ -161,11 +161,27 @@ p {
     background-color: $color-white;
   }
 
+  .image-title {
+    background: url("/images/stock/ee-products-hero-image.jpg");
+    background-size: 100%;
+  }
+
   .color-bg {
     height: 370px;
   }
 
   .geo-diagram {
     margin-top: 30px;
+  }
+
+  .ee-feature-icon {
+    text-align: center;
+    margin-top: 50px;
+
+    svg {
+      height: 180px;
+      width: 180px;
+      fill: $color-secondary;
+    }
   }
 }
