@@ -2,6 +2,21 @@
 
 .comparison {
   background: $color-white;
+
+  .blog-image {
+    background-size: contain;
+    background-position: center 0;
+
+    .color-bg {
+      height: auto;
+      background: none;
+      padding: 200px 40px 130px 40px;
+    }
+
+    h1 {
+      display: none;
+    }
+  }
   .comparison-container {
     padding-top: 20px;
   }
