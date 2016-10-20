@@ -1782,15 +1782,20 @@
   story:  |
           Joining October 17th
 
-- name: N.V.
-  locality:
-  country:
+- name: Nadia Vatalidis
+  locality: Johannesburg
+  country: South Africa
   role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nadia-vatalidis.jpg
+  twitter: NadiaVat
+  gitlab: vatalidis
   story:  |
+          Nadia is passionate about startups, people & leadership coaching. Prior
+          to joining Gitlab Nadia ran a small boutique-style recruitment firm 
+          sourcing for both local clients and International companies. When she 
+          is not sourcing great candidates for Gitlab, she's riding her Scott Spark
+          910 mountain bike or hiking with her family. 
           Joining October 18th
 
 
