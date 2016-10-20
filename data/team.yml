@@ -1710,16 +1710,19 @@
   story:  |
           Joining October 17th
 
-- name: M.Y.
+- name: Molly Young
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Business Development Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: molly.jpg
+  twitter: molleyoung
+  gitlab: mollybeth
   story:  |
-          Joining October 17th
+          Molly lives in St. Paul, MN with her fianc&eacute;, two dogs, and an axolotl. She loves working with people
+          and volunteers as the Director of Special Events for the Minneapolis chapter of Girl Develop It, a national non-profit
+          focused on offering accessible programming education to women in a judgement-free environment. She also enjoys classic
+          cars, bourbon, and cheese.
 
 - name: D.E.
   locality:
