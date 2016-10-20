@@ -10,46 +10,40 @@ twitter_image: '/images/tweets/why-choose-vuejs.png'
 
 I had a great conversation with an interviewee a few weeks ago about how one 
 should go about choosing a JavaScript framework. He brought up several good 
-points, but something he said also underscored for me one reason it's a hard 
-decision to make right. 
+points, and underscored for me one reason it's a hard decision to make. 
 
 He said, "when [insert big-name software company] releases their 
-front-end's secret sauce, there is going to be hype. And then you'll know that company 
-writes JavaScript very different than you do. And they are very successful. Does that make 
-their approach to JavaScript better than yours? Does that mean you need to adopt it?"
+front-end's secret sauce, there is going to be hype. You'll know that this big company 
+writes JavaScript very different than you do. That big company is also very successful. Does that make their approach to JavaScript better than yours? Does that mean that you need to adopt it?"
 
-A big software company's secret sauce may actually be awesome, but it's not 
+A big software company's secret sauce may be as awesome as they say. It's not "good" 
 because lots of other JavaScripters are excited about it. You shouldn't copy/paste
-an answer from StackOverflow without understanding why it's right, no matter how 
+an answer from StackOverflow without understanding it, no matter how 
 many upvotes it has. So why copy/paste your choice of framework?
 
 Which brings me to our decision to use Vue.js at GitLab.
 
 ## Simplicity and easy of use
 
-Primarily what drew us to Vue.js is that it allows our team to _easily_ write _simple_ 
-JavaScript. Getting started with Vue.js is extremely easy. Its source code is 
-very readable, and the documentation is the only tutorial you'll ever need. You 
+What drew us to Vue.js is that it allows our team to _easily_ write _simple_ 
+JavaScript. Getting started with Vue.js is easy, its source code is 
+readable, and the documentation is the only tutorial you'll ever need. You 
 don't need external libraries. You can use it with or without jQuery. You won't 
-need to install any plugins, though many are available. I like vanilla Vue.js 
-personally, although I can reach for vue-resource when I need it. Hooking Vue.js 
-up to existing code is very straightforward. There's no magic to Vue.js -- it's `Object`s
-all the way down.
+need to install any plugins, though there are many. I personally like vanilla Vue.js, although I can always reach for `vue-resource` when I need it. Hooking up Vue.js 
+to existing code is very straightforward. You write some objects, and Vue does some magic.
 
 I talk to a lot of JavaScript devs and I find it really interesting that the ones who 
-spend the most time in Angular tend to not know JavaScript nearly as well. I don't want 
+spend the most time in Angular tend lack knowledge JavaScript. I don't want 
 that to be me or our devs. Why should we write "not JavaScript?"
 
 I remember back when I was using Backbone, I had to really force myself to stay 
 DRY, because it's really a blank canvas. Vue.js does not make large assumptions 
-about much of anything either. It really only assumes that your data will change. 
+about much of anything either. It only assumes that your data will change. 
 
-But Vue.js comes with the perfect balance of what it will do for you and what you 
-need to do yourself. If Backbone was anarchy (no one in charge) and Angular is a 
-dictatorship (the Angular team is in charge), I'd say Vue.js is like socialism: you 
-are in definitely in charge, but Vue.js is always within reach, a sturdy, but 
-flexible safety net ready to help you keep your programming efficient and your 
-DOM-inflicted suffering to a minimum.
+Vue.js comes with the perfect balance of what it does for you and what you 
+need to do yourself. Backbone is anarchy (no one in charge). Angular is a 
+dictatorship (Angular is in charge), I'd say Vue.js is socialism: you 
+are in charge of Vue. Vue is for the benefit of you the developer, to minimize suffering.
 
 To give you an idea of what I mean, here's a simple 
 [Codepen](http://codepen.io/jschatz1/pen/dpQkpx):
@@ -70,11 +64,10 @@ var journal = new Vue({
 ```
 
 If you've seen a few JavaScript libraries, it's not hard to understand everything in 
-this example, without any documentation. And usually, with other frameworks, this is
+this example, without any documentation. Usually, with other frameworks, this is
 where the simplicity stops. You get nice, simple examples when you're "Getting 
-started" but in reality, but things get complicated as soon as you to try to get 
-your money's worth out of the framework. Not with Vue.js though -- real-life usage 
-seems to stay as simple as the docs. 
+started" but in reality, things get complicated as soon as you to try to get 
+your money's worth out of the framework. Not with Vue.js though -- real-life is as simple as it claims to be. 
 
 And that is what we love about Vue.js: it's an elegant combination of structure 
 and simplicity. The data for the view goes in an object called `data`, but the 
