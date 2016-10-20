@@ -3,6 +3,9 @@
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
 
+  var CONTRACT_TYPE_EMPLOYEE = 'employee';
+  var CONTRACT_TYPE_CONTRACTOR = 'contractor';
+
   // Dropdown Core functionality
 
   var setDropdown = function(event) {
@@ -152,7 +155,7 @@
     SalaryCalculator.prototype.renderContractType = function(contract) {
       var $container = $('.contract-type-container');
 
-      if (contract.type === 'employee') {
+      if (contract.type === CONTRACT_TYPE_EMPLOYEE) {
         $container.find('.grammer').text('an');
         $container.find('.company-type').text('Inc.');
       } else {
@@ -217,14 +220,14 @@
           return o.country === country
         });
 
-        if (contractType && contractType.factor.hasOwnProperty('employee')) {
-          contract.type = 'employee';
+        if (contractType && contractType.factor.hasOwnProperty(CONTRACT_TYPE_EMPLOYEE)) {
+          contract.type = CONTRACT_TYPE_EMPLOYEE;
           contract.factor = contractType.factor.employee;
         } else if (contractType) {
-          contract.type = 'contractor';
+          contract.type = CONTRACT_TYPE_CONTRACTOR;
           contract.factor = contractType.factor.contractor;
         } else {
-          contract.type = 'contractor';
+          contract.type = CONTRACT_TYPE_CONTRACTOR;
           contract.factor = 1.17;
         }
       }
