@@ -8,13 +8,11 @@ description: "Add description"
 twitter_image: '/images/tweets/gitlab-workflow-an-overview.png'
 ---
 
-
 GitLab is a Git-based repository manager and a powerful complete application for software development.
 
 With an _user-and-newbie-friendly interface_, GitLab allows you to work effectively, both from the command line and from the UI itself. It's not only useful for developers, but can also be integrated across your entire team to bring everyone into a single and unique platform.
 
 The GitLab Workflow logic is intuitive and predictable, making the entire platform easy to use and easier to adopt. Once you do, you won't want anything else!
-
 
 <!-- more -->
 
@@ -45,8 +43,8 @@ The natural course of the software development process passes through 10 major s
 1. **IDEA:** Every new proposal starts with an idea, which usually come up in a chat. For this stage, GitLab integrates with [Mattermost].
 2. **ISSUE:** The most effective way to discuss an idea is creating an issue for it. Your team and your collaborators can help you to polish and improve it in the [issue tracker](#gitlab-issue-tracker).
 3. **PLAN:** Once the discussion comes to an agreement, it's time to code. But wait! First, we need to prioritize and organize our workflow. For this, we can use the [Issue Board](#gitlab-issue-board).
-4. **CODE:** Now we're ready to write our code, once we have everything organized. 
-5. **COMMIT:** Once we're happy with our draft, we can commit our code to a feature-branch.
+4. **CODE:** Now we're ready to write our code, once we have everything organized.
+5. **COMMIT:** Once we're happy with our draft, we can commit our code to a feature-branch with version control.
 6. **TEST:** With [GitLab CI][ci], we can run our scripts to build and test our application.
 7. **REVIEW:** Once our script works and our tests and builds succeeds, we are ready to get our [code reviewed](#gitlab-code-review) and approved.
 8. **STAGING:** Now it's time to [deploy our code to a staging environment][ci-cd-cd] to check if everything worked as we were expecting or if we still need adjustments.
@@ -69,11 +67,12 @@ It's most useful for:
 - Submitting feature proposals
 - Asking questions
 - Reporting bugs and malfunction
+- Obtaining support
 - Elaborating new code implementations
 
 Each project hosted by GitLab has an issue tracker. To create a new issue, navigate to your project's **Issues** > **New issue**, give it a title that summarizes the subject to be treated, and describe it using [Markdown][md-gitlab]. Check the [pro tips](#pro-tips) below to enhance your issue description.
 
-The GitLab Issue Tracker presents extra functionalities to make it easier to organize and prioritize your actions, described below.
+The GitLab Issue Tracker presents extra functionalities to make it easier to organize and prioritize your actions, described in the following sections.
 
 ![new issue - additional settings](/images/blogimages/gitlab-workflow-an-overview/issue-features-view.png){:.shadow}
 
@@ -166,7 +165,7 @@ When you create an MR with a description like the one above, it will:
 - Display an image
 - Notify the users `@Mary`, `@Jane`, and `@John` by e-mail
 
-You can assign the MR to yourself until you finish your work, then assign it to someone else to conduct a review. It can be reassigned as many times as necessary, to cover all the reviewers you need.
+You can assign the MR to yourself until you finish your work, then assign it to someone else to conduct a review. It can be reassigned as many times as necessary, to cover all the reviews you need.
 
 It can also be labeled and added to a [milestone](#milestones) to facilitate organization and prioritization.
 
@@ -174,7 +173,7 @@ When you add or edit a file and commit to a new branch from the UI instead of fr
 
 ![commit to a feature branch and add a new MR from the UI](/images/blogimages/gitlab-workflow-an-overview/start-new-mr-edit-from-ui.png){: .shadow}
 
-**Note:** It's important to add the issue closing pattern to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
+**Note:** It's important to add the [issue closing pattern] to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
 {: .note .alert .alert-success}
 
 ### WIP MR
@@ -213,7 +212,7 @@ Examples of GitLab CI use-cases:
 ## Feedback: Cycle Analytics
 {: #feedback}
 
-When you follow the GitLab Workflow, you'll be able to gather feedback with [GitLab Cycle Analytics][ca-post] on the time your team took to go from idea to production, for each key stage of the process:
+When you follow the GitLab Workflow, you'll be able to gather feedback with [GitLab Cycle Analytics][ca] on the time your team took to go from idea to production, for [each key stage of the process][ca-post]:
 
 - **Issue:** the time from creating an issue to assigning the issue to a milestone or adding the issue to a list on your Issue Board
 - **Plan:** the time from giving an issue a milestone or adding it to an Issue Board list, to pushing the first commit
@@ -227,9 +226,9 @@ When you follow the GitLab Workflow, you'll be able to gather feedback with [Git
 
 ### Issue and MR Templates
 
-Issue and MR templates allow you to define context-specific templates for issue and merge request description fields for your project.
+[Issue and MR templates][templates] allow you to define context-specific templates for issue and merge request description fields for your project.
 
-You write them in [Markdown] and add them to the default branch of your repository. They can be accessed by the dropdown menu whenever an issue or MR is created.
+You write them in [Markdown][md-gitlab] and add them to the default branch of your repository. They can be accessed by the dropdown menu whenever an issue or MR is created.
 
 They save time when describing issues and MRs and standardize the information necessary to follow along. It makes sure everything you need to proceed is there.
 
@@ -316,24 +315,42 @@ In his first commit message, he referenced the issue number. After some work, he
 ### Using the Issue Board
 {: .no_toc .special-h3}
 
-Once the backend team finished their work, they removed the label "working on" and moved the issue from the list "backend" to "frontend." So, the frontend team knew that issue was ready for them.
+Once the backend team finished their work, they removed the label "working on" and moved the issue from the list "backend" to "frontend" in the Issue Board. So, the frontend team knew that issue was ready for them.
 
 ### Deploying to Staging
 {: .no_toc .special-h3}
 
-When a frontend developer started working on that issue, he or she added back the label "working on" and reassigned the issue to him/herself. When ready, the implementation was deployed to a **staging** environment. The label "working on" was removed and the issue card was moved to the "staging" list on the Issue Board.
+When a frontend developer started working on that issue, he or she added back the label "working on" and reassigned the issue to him/herself. When ready, the implementation was deployed to a **staging** environment. The label "working on" was removed and the issue card was moved to the "staging" list in the Issue Board.
 
 ### Teamwork
 {: .no_toc .special-h3}
 
 Finally, when the implementation succeeded, your team moved it to the list "ready."
 
-Now it's time for your technical writing team to create the documentation for the new feature, and once someone got started, he/she added the label "docs." At the same time, your marketing team started to work on the campaign to launch and promote that feature, so someone added the label "marketing." When the tech writer finished the documentation, he/she removed the label "docs." Once the marketing team finished their work, they moved the issue from the list "marketing" to "production."
+Then, the time came for your technical writing team to create the documentation for the new feature, and once someone got started, he/she added the label "docs." At the same time, your marketing team started to work on the campaign to launch and promote that feature, so someone added the label "marketing." When the tech writer finished the documentation, he/she removed the label "docs." Once the marketing team finished their work, they moved the issue from the list "marketing" to "production."
 
 ### Deploying to Production
 {: .no_toc .special-h3}
 
 At last, you, being the person responsible for new releases, merged the MR and deployed the new feature into the **production** environment and the issue was **closed**.
+
+### Feedback
+{: .no_toc .special-h3}
+
+With [Cycle Analytics], you studied the time taken to go from idea to production with your team, and opened another issue to discuss the improvement of the process.
+
+### Summarizing
+{: .no_toc .special-h3}
+
+With this use-case, we exemplified a scenario covering:
+
+- Ideation: you've had an idea and created an issue as a guide for discussing and implementing it.
+- Plan: you added labels, prioritized and organized the team's workflow.
+- Code, Commit, Review, and Test: the proposal was discussed, implemented, reviewed and tested.
+- Teamwork: every department played a role, and everything was achieve from one single platform.
+- Deploy to Staging: your team deployed to staging to make sure that the proposal worked, and to make possible to create marketing assets and documentation, both based on the real thing.
+- Deploy to Production: once you were all set, you deployed your new feature to production.
+- Feedback: at the end, you looked back at our workflow and analyzed the efficiency of our team by tracking the time taken by each stage of the development process.
 
 ## Conclusions
 
@@ -345,9 +362,9 @@ GitLab Workflow helps your team to get faster from idea to production using a si
 - It's easy, because you don't need to setup different tools to accomplish what you need with just one, GitLab.
 - It's fast, because you don't need to jump across multiple platforms to get your job done.
 
-A new GitLab version is released every single month, for making it a better integrated solution for software development, and for bringing teams to work together in one single interface.
+A new GitLab version is released every single month (on the 22nd), for making it a better integrated solution for software development, and for bringing teams to work together in one single and unique interface.
 
-At GitLab, anyone can contribute! Thanks to our amazing community we've got where we are. And thanks to them, we keep moving forward to provide you with a better product.
+At GitLab, everyone can contribute! Thanks to our amazing community we've got where we are. And thanks to them, we keep moving forward to provide you with a better product.
 
 Questions? Feedback? Please leave a comment or tweet at us [@GitLab]!
 
