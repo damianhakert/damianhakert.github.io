@@ -11,9 +11,10 @@ Most of your questions can be answered by visiting [GitLab Documentation](https:
 
 Check below to see what level of support you can expect to receive, based on the subscription you have. For the quickest path to help:
 
-- For paid subscriptions (**Enterprise Edition**, **GitHost**), your fastest way to receive support is via the [support web form](https://support.gitlab.com/).
+- For paid subscriptions (**Enterprise Edition**, **GitHost**, **Bronze** Support for GitLab.com), your fastest way to receive support is via the [support web form](https://support.gitlab.com/).
 - For our free project (**Community Edition**), your fastest way to receive support is via the [community forum](https://forum.gitlab.com/).
 - For GitLab.com users (**GitLab.com**), if you have an issue accessing _your account_, please use the [support web form](https://support.gitlab.com/) so an admin can help. For all other issues (downtime, functionality, etc.), please visit the [GitLab.com support tracker](https://gitlab.com/gitlab-com/support-forum/issues), and comment in an issue relevant to you or open a new one.
+- Additional resources for getting help, reporting issues, requesting features, and so forth are listed on our [getting help page](/getting-help/).
 
 ### Premium Support (only for Enterprise Edition)
 
