@@ -184,4 +184,12 @@ p {
       fill: $color-secondary;
     }
   }
+
+  .add-options-buttons {
+    border-top: 1px solid $landing-organization-color;
+
+    .customer-block {
+      padding: 50px 0;
+    }
+  }
 }

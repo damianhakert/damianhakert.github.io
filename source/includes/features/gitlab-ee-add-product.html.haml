@@ -1,8 +1,12 @@
-.content-container.try-gitlab-ee.js-try-gitlab-ee.text-center
+.add-options-buttons.text-center
   .container
-    %h1.page-headline.cta
-      Try GitLab Enterprise Edition risk-free for 30 days.
-    %h4.subheader.cta
-      No credit card required. Have questions?
-      %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
-    %a.btn.btn-lg.btn-red.btn-margin-top{ href: "/free-trial/" } Get Your Free Trial Today
+    .row
+      .customer-block.col-xs-12.col-sm-4
+        %h4 Already a GitLab Enterprise Edition customer?
+        %a.btn.featured-item-button.btn-margin-top{ href: data.pricing.payment_url } Add #{feature_name}
+      .customer-block.col-xs-12.col-sm-4
+        %h4 Not a GitLab Enterprise Edition customer?
+        %a.btn.featured-item-button.btn-margin-top{ href: "/free-trial/" } Try it risk-free for 30 days
+      .customer-block.col-xs-12.col-sm-4
+        %h4 Have more questions?
+        %a.btn.featured-item-button.btn-margin-top{href: "https://about.gitlab.com/sales/"} Contact sales
