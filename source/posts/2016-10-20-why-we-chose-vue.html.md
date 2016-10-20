@@ -1,4 +1,12 @@
-#Why We Chose Vue
+---
+title: 'Why We Chose Vue JS'
+author: Jacob Schatz
+author_twitter: jakecodes
+categories: gitlab
+image_title: ''
+description: 'Why GitLab went with Vue JS'
+twitter_image: ''
+---
 
 I had a great conversation with a recent interviewee a few weeks ago and he brought up some good points about why one would chose Vue JS. He said, when a major software company releases a their secret sauce, there is going to be hype. That company writes JS different than you, and they are very successful. Is their way of writing JS better than mine? And therefore must I adopt it?
 
