@@ -390,7 +390,7 @@ How do I deal with APAC and SA leads?
 
 * Study GLU: [GitLab University](https://university.gitlab.com/)
 
-* Read the [Hanbook](https://about.gitlab.com/handbook/)
+* Read the [Handbook](https://about.gitlab.com/handbook/)
 
 ###### To Do
 * [Onboarding Issue](https://dev.gitlab.org)
