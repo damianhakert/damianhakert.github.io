@@ -99,18 +99,6 @@ docker run --detach \
 gitlab/gitlab-ee:$VERSION 
 ```
 
-
-##### Update `gitlab.rb` values
-``` 
-docker exec -it $NAME \
-sed -i "s/.*gitlab_shell_ssh_port.*/gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT/g" /etc/gitlab/gitlab.rb 
-
-docker exec -it $NAME gitlab-ctl reconfigure
-```
-
-*Note: the use of `sed` on gitlab.rb should not be required as you can use GITLAB_OMNIBUS_CONFIG, this isn't working in testing*
-
-
 #### Connect to the GitLab container
 
 ##### Retrieve the docker host IP
