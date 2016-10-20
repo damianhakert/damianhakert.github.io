@@ -1847,6 +1847,18 @@
   story:  |
           Joining November 1st
 
+- name: K.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 1st
+
+
 - name: S.D.
   locality:
   country:
