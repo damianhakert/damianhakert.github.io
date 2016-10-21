@@ -3,29 +3,21 @@ title: 'Why We Chose Vue.js'
 author: Jacob Schatz
 author_twitter: jakecodes
 categories: gitlab
-image_title: '/images/default-blog-image.png/'
+image_title: '/images/default-blog-image.png'
 description: 'Why GitLab went with Vue.js'
 twitter_image: '/images/tweets/why-choose-vuejs.png'
 ---
 
 I had a great conversation with an interviewee a few weeks ago about how one 
-should go about choosing a JavaScript framework. He brought up several good 
-points, but something he said also underscored for me one reason it's a hard 
-decision to make right. 
+should go about choosing a JavaScript framework.  
 
-He said, "when [insert big-name software company] releases their 
-front-end's secret sauce, there is going to be hype. And then you'll know that company 
-writes JavaScript very different than you do. And they are very successful. Does that make 
-their approach to JavaScript better than yours? Does that mean you need to adopt it?"
+He pointed out that when a major software company releases a their secret sauce, there is going to be hype. Devs think to themselves,'That company writes JS differently than me, and they are prominent and successful. Is their way of writing JS better than mine? And therefore must I adopt it?'
 
-A big software company's secret sauce may actually be awesome, but it's not 
-because lots of other JavaScripters are excited about it. You shouldn't copy/paste
-an answer from StackOverflow without understanding why it's right, no matter how 
-many upvotes it has. So why copy/paste your choice of framework?
+Their secret sauce may be awesome, but don't assume awesomeness just because everyone else gets excited. You wouldn't copy and paste an answer from StackOverflow, without understanding it, so why copy and paste an entire framework? 
 
 Which brings me to our decision to use Vue.js at GitLab.
 
-## Simplicity and easy of use
+## Simplicity and ease of use
 
 Primarily what drew us to Vue.js is that it allows our team to _easily_ write _simple_ 
 JavaScript. Getting started with Vue.js is extremely easy. Its source code is 
