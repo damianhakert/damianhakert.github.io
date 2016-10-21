@@ -27,6 +27,7 @@ title: Support
 - [Knowledge Base](/handbook/support/knowledge-base)
 - [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
+- [Advanced Topics](/handbook/support/advanced-topics)
 
 ----
 
