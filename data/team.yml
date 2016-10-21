@@ -1743,16 +1743,17 @@
   story:  |
           Joining October 17th
 
-- name: I.B.
-  locality:
-  country:
+- name: Ian Baum
+  locality: Hutchinson, MN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Senior Build Engineer</a>
   reports_to: Packaging Lead
-  picture: logo-extra-whitespace.png
+  picture: ibaum.jpg
   twitter:
-  gitlab:
+  gitlab: ibaum
   story:  |
-          Joining October 17th
+          Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
+          In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
 
 - name: B.J.
   locality:
