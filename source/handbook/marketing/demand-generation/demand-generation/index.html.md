@@ -8,8 +8,8 @@ title: "Demand Generation"
 * [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
-* [Soft-BANT](#bant)
-* [SQL & MQL Definition](#SQL)
+* [What counts as an MQL, SQL, or SAL?](#SQL)
+* [SQL Qualification Criteria](#sqlQual)
 * [Lead Status](#leadStatus)
 * [Passing Qualified Leads](#leadPassing)
 * [Nurture campaign process](#nurture)
@@ -50,31 +50,23 @@ On the GitLab issue, make sure to:
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
 2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
-3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+3. The following [criteria](#sqlQual) is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+4. If further qualification is needed to understand SQL Qualification requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+5. Once a lead has met the criteria for an SQL, the BDR will schedule a discovery call with the prospect and an AE.  On the call, the BDR will provide a warm introduction and handoff the prospect to the AE.
+6. If SQL criteria isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
 8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
 10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
 11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
-## Soft-BANT<a name="bant"></a>
-
-- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
-- Authority => Can the person influence a purchase decision?
-- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
-- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
-
-## What counts as an SQL or MQL?<a name="SQL"></a>
-* SQL is any lead which has been both:
-    * accepted by the sales team which has met the qualification requirements, and
-    * converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
+## What counts as an MQL, SQL, or SAL?<a name="SQL"></a>
+* SQL is any lead which meets the [SQL Qualification Criteria](#sqlQual)
 
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
 
         => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
+* SAL is an SQL which has been accepted by the sales team 
 * MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
    * Signing up to receive the newsletter (behavioral)
    * Signing up for an account on gitlab.com (behavioral)
@@ -82,6 +74,22 @@ On the GitLab issue, make sure to:
    * Starting an EE Trial (behavioral)
    * Working at a Fortune 500 (demographic)
    * Job title (demographic)
+   
+## SQL Qualification Criteria <a name="sqlQual"></a>
+
+1. **Current Defined Need:** Does the prospect have an identified need for GitLab?  List out the current need.
+2. **Current Defined Need:** What is the prospect currently doing to address their need?  What other technologies are they using?
+3. **Budget:** Does the prospect have a realistic chance of securing the budget for GitLab?  Is there already a budget secured for the project?
+4. **Buying Process:** Who is the decision maker for GitLab?
+5. **Buying Process:** What is the buying process for procuring GitLab?
+6. **Buying Process:** What is role does the prospect play in the current evaluation (function, job title)?
+7. **Timeline:** What is the timeline to make a decision?  Are you currently in an existing contract that needs to expire before you can move forward? If yes, when does the contract expire?
+8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need?
+9. **Product Fit:** Do they currently use another version of GitLab?  Are they familiar with our product family?
+10. **Scope:** How many seats are they interested in purchasing?
+11. **Scope:** How many developers total (potential additional seats) do they have?
+12. **Next Steps:** Is there a meeting set with an AE to discuss next steps?
+
 
 ## Lead status<a name="leadStatus"></a>
 
@@ -97,10 +105,11 @@ On the GitLab issue, make sure to:
 - Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provided "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
 - Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
-##Passing Qualified Leads<a name="leadPassing"></a>
-- Set "Lead Status" to Qualified and assign the appropriate sales team member as the new owner
-- Introduce the lead to the sales team member unless inappropriate or unnecessary.
-- If no action is taken by the newly assigned sales team member within 1-7 days, follow up with them and determine why no action has been taken.
+## Passing Qualified Leads<a name="leadPassing"></a>
+
+1. BDR emails prospect, cc'ing AE. Email consists of a summary of the lead qual data captured above (current state, problems to solve, what they would like to learn and desired state).  This email also introduces the AE and confirms the meeting day with the prospect and informs them that a meeting invite will be sent shortly.
+2. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
+3. BDR joins Discovery call and provides warm handoff
 
 ## Nurture campaign process<a name="nurture"></a>
 

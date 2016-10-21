@@ -5,6 +5,9 @@ title: "Support Lead"
 
 As the Support Lead, you will take overall responsibility for making sure that GitLab's customers receive an excellent service experience. This involves leading from within, jumping in on tickets when needed but spending the majority of your time determining and implementing the best strategies to measure and improve team performance, and interface with Sales, Customer Success, Development, and the rest of the GitLab team.
 
+The majority of our current customer base is in the Americas, and the Support Lead will be expected to respond to (or coordinate the team to respond to) sometimes unpredictable customer requests. For this reason, we are currently seeking candidates who are committed to working business hours aligned with the Americas time zones. 
+
+
 ## Responsibilities
 
 - Build and lead the team of Service Engineers by actively seeking and hiring globally distributed talent

@@ -74,7 +74,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Enter the amount per pay period
 1. Enter pay frequency
 
-Please see People Ops for more information on [making changes in TriNet](/people-operations/#using-trinet).
+Please see People Ops for more information on [making changes in TriNet](https://about.gitlab.com/handbook/people-operations/sop/#making-changes-in-trinet).
 
 ### GitLab BV Pay Slip Distribution Process
 <a name="payroll-bv"></a>
@@ -116,16 +116,16 @@ VAT-number of GitLab BV (NL853740343B01).
 1. Upon verified payment of the invoice move the .pdf copy of the invoice from dropbox\Inbox to folder inbox\”vendor name”.
 1. Post the payment through the accounting system.
 
-### QuickBooks
+### Netsuite
 
 Invoices will arrive by email to ap@gitlab.com.
 
 1. Forward email to Sytse for approval.
 1. Create a .pdf copy of Sytse's approval response.
 1. File the invoice and approval in dropbox\GitLab Inc\inbox.
-1. Enter invoice in Quickbooks
+1. Enter invoice in Netsuite
 
-#### Entering a Bill (invoice) in Quickbooks
+#### Entering a Bill (invoice) in Netsuite
 
 1. Click on "+" on the Home screen
 1. Click on "Bill" under  Vendors
@@ -166,12 +166,12 @@ Invoices will arrive by email to ap@gitlab.com.
 ### Invoicing
 
 1. In Recurly, export the "Invoices All" Report. For time period, set the end date to the day prior to the current date. Download the .CSV File.
-1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in Quickbooks to date. In the workbook go to worksheet named “Amortization”
-1. Go back to the "Invoices All" report you just downloaded from Recurly. This is a month to date report so it will contain orders which have already been invoiced in Quickbooks. Column "L" indicates the date the Recurly invoice was created. We want to select the orders which have not been invoiced in Quickbooks, which would be any orders after the last Quickbooks invoice batch. Copy the rows for the uninvoiced orders and "insert copied cells" to the next row after the last transaction of the "Revenue -Inc" report.
-1. Open Quickbooks. Click on the "+" sign at the top middle of the screen. Under "Customers" click on "Invoice"
+1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in Netsuite to date. In the workbook go to worksheet named “Amortization”
+1. Go back to the "Invoices All" report you just downloaded from Recurly. This is a month to date report so it will contain orders which have already been invoiced in Netsuite. Column "L" indicates the date the Recurly invoice was created. We want to select the orders which have not been invoiced in Netsuite, which would be any orders after the last Netsuite invoice batch. Copy the rows for the uninvoiced orders and "insert copied cells" to the next row after the last transaction of the "Revenue -Inc" report.
+1. Open Netsuite. Click on the "+" sign at the top middle of the screen. Under "Customers" click on "Invoice"
 1. In the "Revenue-Inc" workbook, locate the first invoice # to be invoiced (Column D).
 1. Open the invoice in Recurly.
-1.  Quickbooks
+1.  Netsuite
     * Refer to the Recurly invoice you opened in step 6.
       * Choose the customer. If new, add new customer.
       * Choose the Terms -- Credit Card = Due on Receipt.
@@ -186,11 +186,11 @@ Invoices will arrive by email to ap@gitlab.com.
       * The Amount will auto-populate but ensure that it matches with Recurly.
       * CLASS field can be left blank.
       * If applicable, enter the PO number  to field “Message displayed on invoice”.
-    * If this is a credit card order, the Amount Due on the Recurly invoice will show $0.00. The Quickbooks invoice will show a Balance Due. This is correct as it will not show as paid until a payment is posted in the cash receipts process.
+    * If this is a credit card order, the Amount Due on the Recurly invoice will show $0.00. The Netsuite invoice will show a Balance Due. This is correct as it will not show as paid until a payment is posted in the cash receipts process.
       * Save and close the invoice. You may get a warning about a missing Class field.  Click yes to proceed.
       * Proceed to invoice the remainder of new orders.  Do not invoice transactions marked “Failed”
 
-1.  In Quickbooks, export an invoice report for the batch you just invoiced.
+1.  In Netsuite, export an invoice report for the batch you just invoiced.
       * Under the transactions tab on the left,  select  Sales
       * Click on Filter
       * Type = Invoices
@@ -214,23 +214,23 @@ Follow this procedure if the customer paid by credit card.
 You may recall from the invoicing process that there was still a balance due when saving the invoice.  The following steps will record the payment and remove the balance due.
 
 1. Login to Stripe dashboard and click on Payments under Transactions (left hand side). You will see a listing of the latest Stripe transactions listed by amount, Recurly transaction, name, date and time. There is also an option to filter the report by clicking on XXX at the top left. Click on XXX to export to excel. This will give you a workbook area and also a breakdown of the fees which we will work on later.
-1. In Quickbooks, click on the "Transactions" tab on the left.
+1. In Netsuite, click on the "Transactions" tab on the left.
     * Click on the orange "OPEN INVOICES " tab. This will bring up all open invoices listed by date, invoice #, customer, etc.
-1. Match invoice #s  between the Stripe dashboard and Quickbooks. If you click on a transaction in the Stripe dashboard, it will take you to a screen that shows more detail, including the invoice # being paid. You can work your way from the bottom up.
-1. In Quickbooks, click "Receive Payment" on the matched payment and invoice.
+1. Match invoice #s  between the Stripe dashboard and Netsuite. If you click on a transaction in the Stripe dashboard, it will take you to a screen that shows more detail, including the invoice # being paid. You can work your way from the bottom up.
+1. In Netsuite, click "Receive Payment" on the matched payment and invoice.
 1.  Receiving the payment
     * Enter the payment date, which is the payment date from Stripe dashboard.
     * Payment method = Credit Card.
     * Reference no. = "Recurly Transaction ID:" found under Metadata in Stripe dashboard.
     * Deposit to = Stripe.
-    * Quickbooks will auto-fill the payment amount with the entire balance due. No need to change this unless the payment amount from Stripe is different.
+    * Netsuite will auto-fill the payment amount with the entire balance due. No need to change this unless the payment amount from Stripe is different.
     * Click on "Save and Close".
     * Repeat the above for all the remaining invoices that were paid by credit card.
 
 1. Post a journal entry to record Stripe Fees.
-    * In Quickbooks, click on the "+" sign. Under "Other", select "Journal Entry".
+    * In QNetsuite, click on the "+" sign. Under "Other", select "Journal Entry".
     * It is okay to leave the journal date as long as it is within the month the fees were incurred. If not, change it to the last day of the month.
-    * Quickbooks will auto fill the journal number. Do not change.
+    * Netsuite will auto fill the journal number. Do not change.
     * Account #1 Entry
       * Fill the "Account #1" entry with "Credit Card Transaction fees".
       * Fill the "Debits" entry with the value from the Stripe report that was exported. The value will be the sum of "Column I" in the Stripe report, which is the fee amount. Be sure to only sum the rows which you just posted payments for.
@@ -263,7 +263,7 @@ Post a journal entry:
 
 ### Posting a payment from a “bank customer”
 
-In Quickbooks:
+In Netsuite:
 1. Click on the “+” sign.
 1. Click on “Receive Payment” under Customers.
 1. Fill the "Payment Date" with the date payment was received.
@@ -274,4 +274,4 @@ In Quickbooks:
 
 ### Asset Tracking
 
-See the entry on asset tracking on the [People Ops page](/handbook/people-operations/#asset-tracking)
+See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)

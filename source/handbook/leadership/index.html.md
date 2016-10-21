@@ -7,26 +7,26 @@ title: Leadership
 
 - As a leader, team members will follow your behavior, always do the right thing.
 - Behavior should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
-- In tough times people will put it in their best efforts when they do it for each other.
+- In tough times people will put in their best efforts when they do it for each other.
 - When times are great be a voice of moderation, when times are bad be a voice of hope.
 - A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
 - We work async, lead by example and make sure people understand that things need to be written down in issues as they happen.
 - Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for anyone.
 - We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
 - We don't have project managers. The individual contributors need to manage themselves.
-- We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after have listened to all the feedback.
+- We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after they have listened to all the feedback.
 - It is encouraged to disagree and have a constructive confrontation, but it is "disagree & commit", when a decision is taken you make it happen.
 - We give feedback, lots of it, don't hold back on suggestions to improve.
 - If you praise someone try to do it in front of an audience, if you give suggestions to improve do it 1 on 1.
 - If you meet external people always ask what they think we should improve.
-- As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to knowing where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relation is probably going downhill).
-- When someone says they are considering to quit drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
-- People should not be raised or given a title because they ask for it or threaten to quit. We should proactively raise and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
+- As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
+- When someone says they are considering quitting drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
+- People should not be given a raise or a title because they ask for it or threaten to quit. We should proactively give raises and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
 - Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
-- We avoid meetings because those aren't supporting the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
+- We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
 - Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 - Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
-- Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are short.
+- Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 
 
 ## Articles
@@ -48,7 +48,7 @@ title: Leadership
 ## No matrix organization
 
 We believe everyone deserves to report to exactly one person that knows and understands what you do day to day.
-We don't want a matrix organizations where you work with a lead day to day but formally report to someone else.
+We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
 The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
 For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
 It reduces compensation costs, coordination costs, and office politics.
