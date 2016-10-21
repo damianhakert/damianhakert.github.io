@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.13 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.13 Released with Multiple Issue Boards and Merge Conflict Editor"
 categories:
 author: ADD_YOUR_FULL_NAME
 author_twitter: TWITTER_USERNAME
@@ -18,26 +18,99 @@ Thanks Marc!
 
 ## Multiple Issue Boards (EE)
 
+You can now have multiple Issue boards on a single project in GitLab
+Enterprise Edition.
+
+![]()
+
+This allows you to have multiple workflows, that interact and work together
+flawlessly. For instance, you can have a main board 'General', that lists
+all issues and their status:
+
+ux => fe => backend
+
+While using more specific boards for particular teams:
+
+'UX' (filter by UX label)
+
+wireframe => mockup => front-end
+
+We're looking forward to see how you'll use multiple issue boards.
+
+## New Issue from the Issue Board
+
+While we're on the subject, you can now quickly add a new issue to a list:
+
+![]()
+
+Of course, it'll immediately labeled correctly.
+
 ## Merge Conflict Editor
+
+In [GitLab 8.11][8-11], we introduced merge conflict resolution in GitLab,
+allowing you to choose between _our_ and _their_ changes when attempting
+to solve a conflict.
+
+With GitLab 8.13, we've expanded the conflict resolution, allowing you
+to edit the conflict right in GitLab. This means you can now solve almost
+any conflict right in GitLab!
+
+![]()
+
+We believe this step is another in the direction of making merge conflict
+headaches a thing of the past.
+
+[8-11]: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
 
 ## Group Labels
 
+With Issue Boards and label prioritization, managing labels across projects
+can be a pain.
+With GitLab 8.13 you're now able to create Group Labels. They work exactly
+the same, but they are immediately available to all projects in the group.
+
+![]()
+
 ## Ability to stop Review Apps
+
+Review apps give you the power to preview your changes in a live,
+fully functional environment. You can now actually destroy these
+enviroments straight from GitLab, whenever you don't need them anymore.
 
 ## Ref per Deployment
 
+To quickly check out the currently deployed commit, GitLab now
+stores a ref in the repository. This means that, [after configuring this locally](https://docs.gitlab.com/ce/ci/environments.html#checkout-deployments-locally),
+a single `git fetch` is all you need to check out the code that runs
+in production.
+
 ## Pipelines for Commits
+
+We now show related pipelines on the commit page, so you can
+quickly see what happened with this particular commit.
 
 ## Cycle Analytics Improvements
 
-Previously, Cycle Analytics would only mesure what's been shipped to production
-in a given time range. We've changed this behaviour and will now measure
-everything that happened in this time range. Only the staging and production
+Previously, Cycle Analytics would only measure what's been shipped to production
+in a given time range. We've changed this behavior and now measure
+everything that happened in this time range.
+
+Only the staging and production
 stages will show what's actually been shipped to production.
 
 ## Assign issues to MR author
 
+Did you reference some issues in your commits or merge request,
+but didn't assign them to yourself? There's now a quick link to do this:
+
+![]()
+
 ## /wip Slash Command
+
+From now on, you can use the amazing [slash commands][slash-cmds] to quickly
+change the status of a merge request to/from Work-In-Progress (WIP).
+
+Just type `/wip` and submit!
 
 ## Shell tracing for CI
 
@@ -53,7 +126,7 @@ https://gitlab.com/gitlab-org/gitlab-ce/issues/21652
 
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6676
 
-### GitLab Mattermost
+## GitLab Mattermost
 
 GitLab 8.13 includes [Mattermost](https://about.mattermost.com/), an open source Slack-alternative for web, PC and phone with [over 700 app integrations via Zapier](https://about.mattermost.com/mattermost-3-4/).
 New integrations this month [now support connecting to Slack, Gitter, XMPP, and IRC](https://about.mattermost.com/new-community-integrations-for-open-source-slack-alternative-as-mattermost-prepares-for-3-5/).
@@ -119,6 +192,13 @@ Changes to gitlab-shell:
 * Tracing of Git performance can now be enabled using an environment variable: [!91](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/91)
 * Moving repositories between shards has been improved: [!97](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/97) and [!96](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/96)
 
+## Omnibus GitLab package changes
+
+* Jemalloc is now used as a default memory allocator which should decrease the
+memory footprint.
+* Bundled NGINX now has a Status endpoint, enabled by default. Thanks to Luis Sagastume!
+* Multiple configuration options got introduced in the [gitlab.rb file](
+https://gitlab.com/gitlab-org/omnibus-gitlab/compare/8-12-stable...8-13-stable#diff-34)
 
 ## Other changes
 
