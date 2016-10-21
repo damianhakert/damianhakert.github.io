@@ -224,14 +224,14 @@ extra_css:
           %h2 RECENT NEWS
           .recent-blog
             %p
-              For recent news, please
+              For press releases, please
+              %a{href: "https://about.gitlab.com/press/releases/"} visit our Press Releases page.
+            %p
+              For updates from the GitLab team, please
               %a{href: "https://about.gitlab.com/blog/archives.html"} visit our blog
               or
               = succeed "." do
                 %a{href: "https://twitter.com/gitlab/"} view our Twitter feed
-            %p
-              For press releases, please
-              %a{href: "https://about.gitlab.com/press/releases/"} visit our Press Releases page.
         .col-xs-1.col-md-2
       %hr.divider/
       .row.recent-podcasts
