@@ -101,10 +101,10 @@ Workflow for creating an issue:
 - Choose a template from the **Choose a template** dropdown and take a look at the
 **Typical kinds of issues created** below.
 - Fill in all the relevant sections
-- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
-in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
-someone a job when you don't even know them and they might be much more senior than you,
-if it's not appropriate for them, they will know the right person to assign it to and do that.
+- @mention someone in the issue to attract attention to it. Choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be reviewed by. Do not worry that you are poking
+someone to review a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to pass it along to and do that.
 
 Typical kinds of issues created:
 
