@@ -22,8 +22,7 @@ extra_css:
           %ul
             %li
               When development teams are spread across two or more teams geographical locations, but their
-              GitLab instance is in a single location, fetching large repositories and cloning everything over
-              a wide area network can take a long time.
+              GitLab instance is in a single location, fetching and cloning large repositories and cloning can take a long time.
             %li
               Built for distributed teams, GitLab Geo allows for read-only mirrors of your GitLab instance. Reduce
               the time it takes to clone and fetch large repos and improve your collaboration process.
@@ -67,7 +66,7 @@ extra_css:
             %li
               %b Intuitive UI:
               Secondaries utilize the same web interface your team has grown accustomed to. However, there
-              are visual notifications that block write operations and make it clear that they are using the
+              are visual notifications that block write operations and make it clear that a user is on a
               secondary instance.
 
         .hidden-xs.hidden-sm.col-md-4
@@ -92,7 +91,7 @@ extra_css:
               respective geographies.
             %li
               %b Scale:
-              Balance the load between your primary and secondary instance or you can offload your automated tests to the Geo secondary node.
+              Balance the load between your primary and secondary instance or offload your automated tests to the Geo secondary node.
         .hidden-xs.hidden-sm.col-md-6
 
   = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "GitLab Geo" }
