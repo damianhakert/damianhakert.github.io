@@ -160,6 +160,24 @@ https://gitlab.com/gitlab-org/gitlab-ce/issues/21652
 
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6676
 
+## GitLab Runner
+
+We are also releasing GitLab Runner 1.7 today. Most interesting changes:
+
+* Use Go 1.7 - which makes Runner usable on Mac OS X Sierra [!323](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/323)
+* Introduce GIT_STRATEGY=none [!332](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/332)
+* Add OffPeak support for autoscaling [!345](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/345)
+* Introduce a variable to enable shell tracing on bash, cmd.exe and powershell.exe [!339](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/339)
+* Try to load the InCluster config first, if that fails load kubectl config [!327](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/327)
+* Godep: update github.com/Sirupsen/logrus to v0.10.0 [!344](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/344)
+* Use git clone --no-checkout and git checkout --force [!341](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/341)
+* Make runner name lowercase to work with GCE restrictions [!297](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/297)
+* Add per job before_script handling for exec command [!355](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/355)
+* Prevent caching failures from marking a build as failed [!359](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/359)
+* Improve registration behavior [!356](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/356)
+
+To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/v1.7.0/CHANGELOG.md).
+
 ## GitLab Mattermost
 
 GitLab 8.13 includes [Mattermost](https://about.mattermost.com/), an open source Slack-alternative for web, PC and phone with [over 700 app integrations via Zapier](https://about.mattermost.com/mattermost-3-4/).
@@ -169,25 +187,31 @@ Mattermost now [releases 6 times a year](https://about.mattermost.com/changing-r
 
 ## API additions
 
+This release contains several additions to the API. See below for more details.
+
 ### Multi-file commit
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6096
+Thanks to the MVP of this month, Marc, you can now commit multiple
+files at once through the API.
+
+> [See the API docs on committing multiple files](https://docs.gitlab.com/ee/api/repository_files.html#update-existing-file-in-repository)
 
 ### Issue Board
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6646
+Andre Guedes contributed a full API for Issue Boards. Thanks Andre!
 
-### Version Information
+### User contribution events
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6822
+You can now get user contribution events through the api.
 
-### User events
-
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6771
+> [API reference on User contribution events](https://docs.gitlab.com/ce/api/users.html#get-user-contribution-events)
 
 ### Visible projects
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6681
+Thanks to Ben Boeckel, you can now retrieve all projects that are visible
+to you, through the API.
+
+> [Read the projects API docs](https://docs.gitlab.com/ce/api/projects.html#list-projects)
 
 ## Performance Changes
 
