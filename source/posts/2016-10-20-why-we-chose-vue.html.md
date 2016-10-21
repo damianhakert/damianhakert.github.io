@@ -46,13 +46,13 @@ DOM-inflicted suffering to a minimum.
 To give you an idea of what I mean, here's a simple 
 [Codepen](http://codepen.io/jschatz1/pen/dpQkpx):
 
-```
+```html
 <div id="journal">
 	<input type="text" v-model="message">
 	<div>{{message}}</div>
 </div>
 ```
-```
+```javascript
 var journal = new Vue({
 	el: '#journal',
     data: {
