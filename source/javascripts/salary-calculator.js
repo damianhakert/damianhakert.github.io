@@ -84,7 +84,7 @@
       var $cityDropdownBtn = $(salaryContainer + ' .city .btn');
       var $cityDropdownTitle = $cityDropdownBtn.find('.title');
       $cityDropdownBtn.removeClass('disabled');
-      $cityDropdownTitle.text('City');
+      $cityDropdownTitle.text('--');
       $cityDropdownTitle.data('selected', '');
       $cityDropdownBtn.find('.subtitle').text('');
       this.renderInvalidCompensation();
