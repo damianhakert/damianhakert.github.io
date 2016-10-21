@@ -39,7 +39,7 @@ will be created for you to help guide you through your training.
 
 As a general rule, you should always include a link to the applicable documentation as
 part of your response to a question. If the documentation does not exist yet, then
-_make_ the documentation and send the link in the response. 
+_make_ the documentation and send the link in the response.
 
 ### Create issues
 
@@ -58,10 +58,10 @@ Workflow for creating an issue:
 - Choose a template from the **Choose a template** dropdown and take a look at the
 **Typical kinds of issues created** below.
 - Fill in all the relevant sections
-- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
-in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
-someone a job when you don't even know them and they might be much more senior than you,
-if it's not appropriate for them, they will know the right person to assign it to and do that.
+- @mention someone in the issue to attract attention to it. Choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be reviewed by. Do not worry that you are poking
+someone to review a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to pass it along to and do that.
 
 Typical kinds of issues created:
 
@@ -96,7 +96,7 @@ with ZenDesk. When in doubt, create an issue. Also see the section on [when to e
 {: #fix-organization}
 
 
-### After the first response? 
+### After the first response?
 {: #first-response}
 
 In most cases when you reply to a customer you expect a reply back. In this case the ticket should be
@@ -157,7 +157,7 @@ to ask on the support and/or general chat channel with the ticket's link.
 
 ### How to handle emails forwarded from others at GitLab
 
-Every now and then, a GitLab team member will forward a question from a customer, prospective customer, user, etc. Always reply directly to the original requester, keeping the person who forwarded it in the cc. 
+Every now and then, a GitLab team member will forward a question from a customer, prospective customer, user, etc. Always reply directly to the original requester, keeping the person who forwarded it in the cc.
 
 ## Customer Training ?
 
