@@ -82,6 +82,44 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6771
 
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6681
 
+## Performance Changes
+
+CE changes:
+
+* Performance of the group milestones page has been improved: [!6457](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6457)
+* The number of queries executed when processing Markdown references has been decreased: [!6457](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6457) and [!6545](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6545)
+* Sidekiq now uses a connection pool when using the Rails cache: [!6468](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6468) and [!6657](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6657)
+* CI runners less frequently update the `ci_runners` table, leading to less database load: [!6537](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6537)
+* The number of queries executed when pushing commits has been reduced slightly: [!6680](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6680)
+* Trending projects are now pre-calculated on a daily basis and limited to the top 100 projects. This improves performance of the trending projects page: [!6749](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6749)
+* When creating a new merge request the diffs are loaded asynchronously: [!5844](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5844)
+* Resetting a project's last activity timestamp no longer relies on Redis leases, reducing the time it takes to refresh this timestamp: [!6678](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6678)
+* The secret token used for gitlab-shell and the API is now stored in memory, instead of being read from disk on every API request: [!6599](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6599)
+* The number of queries used for checking project policies has been reduced: [!6442](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6442)
+* The worker used for expiring build artifacts now schedules jobs more efficiently and uses more efficient SQL queries: [!6732](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6732)
+* Updating merge requests upon a push is now performed using a dedicated Sidekiq worker: [!6767](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6767)
+* CI pipeline hooks are now updated asynchronously: [!6824](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6824)
+* CI pipeline metrics are now updated using a Sidekiq worker: [!6896](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6896)
+* Performance and memory usage of the GitHub importer has been improved: [!6552](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6552)
+* Render timings of award emoji URLs have been improved: [!6848](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6848)
+* When creating a project we immediately create a corresponding `project_features` row, instead of checking for this (and creating the row if needed) whenever we query a project from the database. This reduces the number of queries to retrieve a project from 2 back to 1: [!6908](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6908)
+* CI pipeline commits are only updated once a pipeline is created, instead of doing so upon every update: [!6986](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6986)
+* CI pipeline durations are only updated at the end of a pipeline, instead of doing so at every state transition: [!6987](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6987)
+* Updating of project caches now occurs at most every 15 minutes per project.  This may lead to stale statistics (e.g. commit counts) but can significantly reduce disk load: [!7017](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7017)
+* Sidekiq now uses separate queues for a wide variety of workers: [!7006](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7006)
+* CI pipeline jobs are scheduled in a smarter way, preventing multiple jobs using the same parameters from being performed at the same time: [!7005](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7005)
+
+EE changes:
+
+* GitLab usage data is now cached: [!779](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/779)
+
+Changes to gitlab-shell:
+
+* gitlab-shell now measures the time it takes to perform certain steps and logs these to the gitlab-shell log file using the DEBUG log level: [!98](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/98) and [!100](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/100)
+* Tracing of Git performance can now be enabled using an environment variable: [!91](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/91)
+* Moving repositories between shards has been improved: [!97](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/97) and [!96](https://gitlab.com/gitlab-org/gitlab-shell/merge_requests/96)
+
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -89,10 +127,34 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
+This release contains a significant amount of migrations that require downtime.
+Administrators should prepare for at least 30 minutes of downtime. Small
+installations (e.g. those with a few hundred projects) should be able to
+complete the migration process in 5-10 minutes.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+Keep in mind that these times are estimates,
+they may vary between installations.
+
+Among the migrations are migrations that:
+
+* add foreign keys to existing tables
+* move Sidekiq jobs from one queue to another
+* remove duplicate labels
+* fix label priorities
+* perform other data cleanups
+
+### Sidekiq Queues
+
+This release includes some changes to Sidekiq. Previously GitLab used a limited amount of queues that were hardcoded in `bin/background_jobs` and in Omnibus GitLab. Starting with 8.13 all queue names that are used can be found in `config/sidekiq_queues.yml`. Users using either `bin/background_jobs` to start Sidekiq or Omnibus GitLab don't need to make any manual changes. Users building from source may have to make changes to their setup to ensure Sidekiq uses this configuration file. To do so, make sure that Sidekiq is started as follows:
+
+```bash
+sidekiq -C path/to/gitlab/config/sidekiq_queues.yml
+```
+
+If you are using a custom Sidekiq configuration file you either have to merge the contents of `sidekiq_queues.yml` into this file (and keep it up to date), or use `sidekiq_queues.yml` and specify your custom options using the `sidekiq` CLI.
+
+This configuration file also specifies a weight for every queue. This means a slight increase in Redis load but allows Sidekiq to more fairly distribute work, instead of processing queues in order. Queue names and priorities can not be customized by the user.
+
 
 
 ### Note
