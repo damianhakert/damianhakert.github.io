@@ -8,18 +8,52 @@ image_title: /images/7_X/PICTURE.PNG
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Marc Siegfriedt for his contribution of the multi-file commit API endpoint.
+Marc showed patience and determination getting this complex merge request
+merged.
+Thanks Marc!
 
 <!--more-->
 
-## feature 1
+## Multiple Issue Boards (EE)
 
-> [Documentation link](link)
+## Merge Conflict Editor
 
-## feature 2
+## Group Labels
 
-> [Documentation link](link)
+## Ability to stop Review Apps
+
+## Ref per Deployment
+
+## Pipelines for Commits
+
+## Cycle Analytics Improvements
+
+Previously, Cycle Analytics would only mesure what's been shipped to production
+in a given time range. We've changed this behaviour and will now measure
+everything that happened in this time range. Only the staging and production
+stages will show what's actually been shipped to production.
+
+## Assign issues to MR author
+
+## API additions
+
+### Multi-file commit
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6096
+
+### Issue Board
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6646
+
+### Version Information
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6822
+
+### User events
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6771
 
 ## Other changes
 
