@@ -11,18 +11,23 @@ twitter_image: '/images/tweets/why-choose-vuejs.png'
 I had a great conversation with an interviewee a few weeks ago about how one 
 should go about choosing a JavaScript framework.  
 
-He pointed out that when a major software company releases a their secret sauce, there is going to be hype. Devs think to themselves,'That company writes JS differently than me, and they are prominent and successful. Is their way of writing JS better than mine? And therefore must I adopt it?'
+He pointed out that when a major software company releases their secret sauce, 
+there is going to be hype. Devs think to themselves,"That company writes JavaScript 
+differently than me, and they are prominent and successful. Is their way of 
+writing JavaScript better than mine? And therefore must I adopt it?"
 
-Their secret sauce may be awesome, but don't assume awesomeness just because everyone else gets excited. You wouldn't copy and paste an answer from StackOverflow, without understanding it, so why copy and paste an entire framework? 
+Their secret sauce may be awesome, but don't assume awesomeness just because 
+everyone else gets excited. You wouldn't copy and paste an answer from StackOverflow, 
+without understanding it, so why copy and paste an entire framework? 
 
 Which brings me to our decision to use Vue.js at GitLab.
 
 ## Simplicity and ease of use
 
-Primarily what drew us to Vue.js is that it allows our team to _easily_ write _simple_ 
-JavaScript. Getting started with Vue.js is extremely easy. Its source code is 
-very readable, and the documentation is the only tutorial you'll ever need. You 
-don't need external libraries. You can use it with or without jQuery. You won't 
+Primarily what drew us to [Vue.js](https://vuejs.org/) is that it allows our team 
+to _easily_ write _simple_ JavaScript. Getting started with Vue.js is extremely easy. 
+Its source code is very readable, and the documentation is the only tutorial you'll ever
+need. You don't need external libraries. You can use it with or without jQuery. You won't 
 need to install any plugins, though many are available. I like vanilla Vue.js 
 personally, although I can reach for vue-resource when I need it. Hooking Vue.js 
 up to existing code is very straightforward. There's no magic to Vue.js -- it's `Object`s
@@ -81,17 +86,17 @@ with JQuery. There is nothing _wrong_ with that, except that it takes a lot
 more code to solve every problem. We knew we could do better. Once we started with 
 Vue.js, we could immediately and consistently solve complex problems in much less time. 
 
-A simple, but practical example we're using in production: on an GitLab 
+A simple, but practical example we're using in production: on a GitLab 
 Issue, the issue's state is displayed as either `closed` or `open`. That 
 simple value can change often and needs to be represented in several views. 
 With JQuery, we had about 30 or so lines of code to propagate those changes, and they 
 those lines involved multiple classes and querying the DOM by hand. 
 
-In Vue, this now requires use to write 1 line of JavaScript. The only other code 
+In Vue.js, this now requires use to write 1 line of JavaScript. The only other code 
 we add is in the HTML, and that's just a few additional attributes.
 
 What [Evan You](https://twitter.com/youyuxi) knows is that creating a kick ass framework isn't just about
 writing great code. You need excellent documentation, a strong community helping each other
 learn, a supporting cast of libraries and plugins to help users solve the hard problems,
-and short feedback loops based on user feedback to keep the framework relevant. Vue is all
+and short feedback loops based on user feedback to keep the framework relevant. Vue.js is all
 of that, *plus* great code. That's why we're using it. What about you?
