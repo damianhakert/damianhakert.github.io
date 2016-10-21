@@ -3,16 +3,26 @@ title: "GitLab 8.13 Released with Multiple Issue Boards and Merge Conflict Edito
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/8_13/PICTURE.PNG
+image_title: /images/8_13/header.jpg
 ---
 
-Intro and introduce main features here.
+We're [traveling around the world][world-tour] and having the pleasure
+of meeting so many of you. This month we're proud to present many
+changes that have been highly requested both in person and on our issue tracker.
+
+You're now able to create multiple issue boards and quickly create issues from
+them. In addition, no merge conflict is safe anymore from being solved, as
+you can now edit the conflict right in GitLab. We've made it
+even easier to track what code is running where and get you immediate feedback
+with improved Cycle Analytics.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Marc Siegfriedt for his contribution of the multi-file commit API endpoint.
 Marc showed patience and determination getting this complex merge request
 merged.
 Thanks Marc!
+
+[world-tour]: https://about.gitlab.com/2016/09/28/world-tour-amplify-your-code/
 
 <!--more-->
 
@@ -21,19 +31,11 @@ Thanks Marc!
 You can now have multiple Issue boards on a single project in GitLab
 Enterprise Edition.
 
-![]()
+![Multiple Issue Boards in GitLab 8.13](/images/8_13/multiple_ib.jpg)
 
-This allows you to have multiple workflows, that interact and work together
-flawlessly. For instance, you can have a main board 'General', that lists
-all issues and their status:
-
-ux => fe => backend
-
-While using more specific boards for particular teams:
-
-'UX' (filter by UX label)
-
-wireframe => mockup => front-end
+This allows you to have multiple workflows, as issues are immediately updated
+with the corresponding labels. For instance, create a board for the whole
+organisation and one for only the design team, frontend team, etc.
 
 We're looking forward to see how you'll use multiple issue boards.
 
@@ -55,7 +57,7 @@ With GitLab 8.13, we've expanded the conflict resolution, allowing you
 to edit the conflict right in GitLab. This means you can now solve almost
 any conflict right in GitLab!
 
-![]()
+![Solve Merge Conflicts through the editor in GitLab 8.13](/images/8_13/merge_conflicts.png)
 
 We believe this step is another in the direction of making merge conflict
 headaches a thing of the past.
@@ -68,8 +70,6 @@ With Issue Boards and label prioritization, managing labels across projects
 can be a pain.
 With GitLab 8.13 you're now able to create Group Labels. They work exactly
 the same, but they are immediately available to all projects in the group.
-
-![]()
 
 ## Ability to stop Review Apps
 
