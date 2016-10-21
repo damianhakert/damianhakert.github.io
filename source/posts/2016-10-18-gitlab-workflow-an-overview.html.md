@@ -366,7 +366,7 @@ A new GitLab version is released every single month (on the 22nd), for making it
 
 At GitLab, everyone can contribute! Thanks to our amazing community we've got where we are. And thanks to them, we keep moving forward to provide you with a better product.
 
-Questions? Feedback? Please leave a comment or tweet at us [@GitLab]!
+Questions? Feedback? Please leave a comment or tweet at us [@GitLab]! 🙌
 
 <!-- identifiers -->
 
