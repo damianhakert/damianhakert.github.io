@@ -15,9 +15,9 @@ extra_css:
         %h3#ci-subt Focus on building your product not on debugging your tools.
   .sub-wrapper
     .container
+
       .row.advantages
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
+        .col-xs-12.col-md-10.col-md-offset-1
           %h2 What are the advantages?
           %ul
             %li
@@ -26,14 +26,13 @@ extra_css:
               training, upgrading, and troubleshooting needs.
             %li
               Premium Support is available to GitLab Enterprise Edition customers.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-md-3.hidden-xs.hidden-sm
+        .col-md-3.col-md-offset-1.hidden-xs.hidden-sm
           .ee-feature-icon
             = icon("premium-support")
-        .col-xs-10.col-md-7
+        .col-xs-12.col-md-7
           %h2 What's included?
           %ul
             %li
@@ -60,11 +59,10 @@ extra_css:
               %b Direct access to GitLab's internal chat channel for support:
               Don’t worry about filing a ticket or waiting the standard SLA, simply ask a short or quick questions in
               the channel and receive an almost immediate response.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-6
+        .col-xs-12.col-md-6.col-md-offset-1
           %h2 Benefits
           %ul
             %li
@@ -77,9 +75,7 @@ extra_css:
             %li
               %b Reliable:
               Our support team is spread out across the world. Regardless of your time zone someone will be available to help.
-
         .hidden-xs.hidden-sm.col-md-4
           %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
-        .col-xs-1.col-md-1
 
   = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "Premium Support" }

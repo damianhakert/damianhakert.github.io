@@ -15,9 +15,9 @@ extra_css:
         %h3#ci-subt The solution for widely distributed development teams
   .sub-wrapper
     .container
+
       .row.advantages
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
+        .col-xs-12.col-md-10.col-md-offset-1
           %h2 What are the advantages?
           %ul
             %li
@@ -26,13 +26,12 @@ extra_css:
             %li
               Built for distributed teams, GitLab Geo allows for read-only mirrors of your GitLab instance. Reduce
               the time it takes to clone and fetch large repos and improve your collaboration process.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-md-5.hidden-xs.hidden-sm
+        .col-md-5.col-md-offset-1.hidden-xs.hidden-sm
           %img.geo-diagram{alt: "", src: "/images/gitlab_ee/gitlab_geo_diagram.png"}/
-        .col-xs-10.col-md-5
+        .col-xs-12.col-md-5
           %h2 How it works
           %ul
             %li
@@ -48,11 +47,10 @@ extra_css:
             %li
               All replication operations are asynchronous and are queued to be dispatched as soon as they
               happen.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-6
+        .col-xs-12.col-md-6.col-md-offset-1
           %h2 Features
           %ul
             %li
@@ -68,17 +66,15 @@ extra_css:
               Secondaries utilize the same web interface your team has grown accustomed to. However, there
               are visual notifications that block write operations and make it clear that a user is on a
               secondary instance.
-
         .hidden-xs.hidden-sm.col-md-4
           %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-md-5.hidden-xs.hidden-sm
+        .col-md-5.col-md-offset-1.hidden-xs.hidden-sm
           .ee-feature-icon
             = icon("geo-icon")
-        .col-xs-10.col-md-5
+        .col-xs-12.col-md-5
           %h2 Benefits
           %ul
             %li
@@ -92,6 +88,5 @@ extra_css:
             %li
               %b Scale:
               Balance the load between your primary and secondary instance or offload your automated tests to the Geo secondary node.
-        .hidden-xs.hidden-sm.col-md-6
 
   = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "GitLab Geo" }

@@ -15,22 +15,21 @@ extra_css:
         %h3#ci-subt Better version control for text and binary files.
   .sub-wrapper
     .container
+
       .row.advantages
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
+        .col-xs-12.col-md-10.col-md-offset-1
           %h2 What are the advantages?
           %ul
             %li
               File Locking helps you avoid merge conflicts and better manage your binary files.
               Lock any file or directory, make your changes, and then unlock it so another member of the team can edit it.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-md-5.hidden-xs.hidden-sm
+        .col-md-5.col-md-offset-1.hidden-xs.hidden-sm
           .ee-feature-icon
             = icon("file-locking-icon-1")
-        .col-xs-10.col-md-5
+        .col-xs-12.col-md-5
           %h2 How it works
           %ul
             %li
@@ -42,11 +41,10 @@ extra_css:
               or a notification in the UI that will reject the changes.
             %li
               Teams can view and manage locks directly from the web interface of each of their projects.
-        .col-xs-1.col-md-1
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-6
+        .col-xs-12.col-md-6.col-md-offset-1
           %h2 Features
           %ul
             %li
@@ -62,15 +60,13 @@ extra_css:
 
         .hidden-xs.hidden-sm.col-md-4
           %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
-        .col-xs-1.col-md-1
-
       %hr.divider/
+
       .row
-        .col-xs-1.col-md-1
-        .col-md-4.hidden-xs.hidden-sm
+        .col-md-4.col-md-offset-1.hidden-xs.hidden-sm
           .ee-feature-icon
             = icon("file-locking-icon-2")
-        .col-xs-10.col-md-6
+        .col-xs-12.col-md-6
           %h2 Benefits
           %ul
             %li
@@ -84,6 +80,5 @@ extra_css:
               %b Streamline:
               With Git LFS support and File Locking your team can effectively store and manage their media assets, such
               as images, PSDs, 3D models, etc. within the repository.
-        .col-xs-1.col-md-1
 
   = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "File Locking" }

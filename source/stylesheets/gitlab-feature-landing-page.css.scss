@@ -1,4 +1,5 @@
 @import "variables";
+@import "vendor/bootstrap/bootstrap/variables";
 
 h1,
 h2 {
@@ -164,7 +165,13 @@ p {
 
   .image-title {
     background: url("/images/stock/ee-products-hero-image.jpg");
-    background-size: 100%;
+    background-size: cover;
+
+    h1 {
+      @media (max-width: $screen-xs-max) {
+        padding-top: 55px;
+      }
+    }
   }
 
   .color-bg {
