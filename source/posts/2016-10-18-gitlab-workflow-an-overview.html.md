@@ -30,7 +30,7 @@ The GitLab Workflow logic is intuitive and predictable, making the entire platfo
 
 The **GitLab Workflow** is a logical sequence of possible actions to be taken during the entire lifecycle of the software development process, using GitLab as the platform that hosts your code.
 
-The GitLab Workflow takes into account the [GitLab Flow][post-flow], which consists of Git-based methods and tactics for version management, such as branching strategy, Git best practices, and so on.
+The GitLab Workflow takes into account the [GitLab Flow][post-flow], which consists of **Git-based** methods and tactics for version management, such as **branching strategy**, **Git best practices**, and so on.
 
 With the GitLab Workflow, the [goal][master-plan] is to help teams work cohesively and effectively from the first stage of implementing something new (ideation) to the last stage—deploying implementation to production. That's what we call "going faster from idea to production in 10 steps."
 
@@ -100,7 +100,7 @@ Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board
 
 ### Issue Weight
 
-You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06.
+You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. Still, you can get to an agreement with your team to standardize the weights according to your needs.
 
 ### GitLab Issue Board
 
@@ -337,7 +337,7 @@ At last, you, being the person responsible for new releases, merged the MR and d
 ### Feedback
 {: .no_toc .special-h3}
 
-With [Cycle Analytics], you studied the time taken to go from idea to production with your team, and opened another issue to discuss the improvement of the process.
+With [Cycle Analytics][ca], you studied the time taken to go from idea to production with your team, and opened another issue to discuss the improvement of the process.
 
 ### Summarizing
 {: .no_toc .special-h3}
@@ -410,3 +410,11 @@ Questions? Feedback? Please leave a comment or tweet at us [@GitLab]!
 [user-level]: https://docs.gitlab.com/ce/user/permissions.html
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/279 -->
+
+<style>
+  .special-h3 {
+    font-size: 18px !important;
+    color: #444 !important;
+    font-weight: 600 !important;
+  }
+</style>
