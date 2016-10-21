@@ -7,6 +7,8 @@ title: Support
 {: .no_toc}
 
 **Looking for technical support? Please visit the [Support Page](https://about.gitlab.com/support/) instead.**
+{:.no_toc}
+
 ----
 
 ### On this page
