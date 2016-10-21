@@ -21,10 +21,6 @@
   picture: ramona.jpg
   human: patricio
   story: Loves the beach.
-- name: Lola
-  picture: lola.jpg
-  human: ashley
-  story: Super hip and fashionable. Lola likes snacks, naps and snacks.
 - name: Humpf
   picture: humpf.jpg
   story: Well-trained black lab with a love for carrots and naps.
@@ -130,9 +126,25 @@
   picture: jazz.jpg
   human: jplum
   story: Large, in charge, and doesn't care what you think. Unless you have treats or a free hand to pet him.
+- name: Angel
+  picture: angel.jpg
+  human: molly
+  story: |
+         A rottweiler that loves to sleep and is scared of bikes.
+- name: Sid
+  picture: sid.jpg
+  human: molly
+  story: |
+         An Olde English Bulldog that loves cars and cuddling.
+- name: Manuel
+  picture: manuel.jpg
+  human: molly
+  story: |
+         An always hungry axolotl. 
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
+  
 
           Want to see your name and picture here? Ask your owner/servant to
           check out our latest

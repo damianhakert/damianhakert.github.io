@@ -283,13 +283,19 @@ some standards.
 
 Always use **3** blank spaces to indent a nested list (to create sub items).
 
-Tip: don't leave blank lines between the items, unless you have a reason to do so.
+Tip: don't leave blank lines **between the items**, unless you have a reason to do so.
+
+**Important:** always leave a blank line between the paragraph or heading and the subsequent list!
+If you don't, the list will not render.
+{:.alert .alert-info}
 
 ### Ordered lists
 
 Ordered lists are pretty easy to create. Couldn't be more intuitive:
 
 ```md
+Paragraph:
+
 1. Item one
    1. Sub item one
    2. Sub item two
@@ -304,6 +310,7 @@ Ordered lists are pretty easy to create. Couldn't be more intuitive:
 
 
 <div class="panel-body">
+Paragraph:
 
 1. Item one
    1. Sub item one
@@ -318,6 +325,8 @@ To be practical and avoid errors on the numbers, use "1" for all the items. The 
 in the correct order.
 
 ```md
+Paragraph:
+
 1. Item one
    1. Sub item one
    1. Sub item two
@@ -332,6 +341,7 @@ in the correct order.
 
 
 <div class="panel-body">
+Paragraph:
 
 1. Item one
    1. Sub item one
@@ -348,6 +358,8 @@ in the correct order.
 Unordered lists are very easy to create too:
 
 ```md
+Paragraph:
+
 - Item 1
 - Item 2
 - Item 3
@@ -363,6 +375,7 @@ Unordered lists are very easy to create too:
 
 
 <div class="panel-body">
+Paragraph:
 
 - Item 1
 - Item 2
@@ -1167,9 +1180,101 @@ markup:
 As [previously](#notes) explained, you can add the class `note` to paragraphs that
 you don't want to call attention to:
 
-```md
-A paragraph.
+**Note:** this is something I don't want to call attention to.
 {: .note}
+
+Markup:
+
+```md
+**Note:** this is something I don't want to call attention to.
+{: .note}
+```
+
+#### Colors
+
+Add a custom class to a heading or paragraph using the following special classes.
+
+**GitLab Orange**
+
+#### GitLab Orange Heading
+{:.gitlab-orange .no_toc}
+
+Markup:
+
+```
+### GitLab Orange Heading
+{: .gitlab-orange}
+```
+
+**GitLab Purple**
+
+#### GitLab Purple Heading
+{:.gitlab-purple .no_toc}
+
+Markup:
+
+```
+### GitLab Purple Heading
+{: .gitlab-purple}
+```
+
+#### Text Align
+
+By default, the text will always be aligned to the left. You have a few
+options to customize it with custom classes:
+
+- Center: `.text-center`
+- Right: `.text-right`
+- Justify: `.text-justify`
+
+For demonstrations purposes, they are aligned
+in an [alert box](#colorful-sections), but this can be
+applied to regular paragraphs and headings.
+
+**Align to the center**
+
+Center-aligned
+{: .alert .alert-info .text-center}
+
+Alert box markup:
+
+```md
+Center-aligned
+{: .alert .alert-info .text-center}
+```
+
+Paragraph markup:
+
+```md
+Center-aligned
+{: .text-center}
+```
+
+Heading markup:
+
+```md
+### Center-aligned
+{: .text-center}
+```
+
+**Align to the right**
+
+Right-aligned
+{: .alert .alert-info .text-right}
+
+```md
+Right-aligned
+{: .alert .alert-info .text-right}
+```
+
+**Justify**
+
+Justified
+{: .alert .alert-info .text-justify}
+
+```md
+Justified
+{: .alert .alert-info .text-justify}
 ```
 
 ----
@@ -1445,8 +1550,10 @@ or, if you chose an alert box:
 TO DO.
 {: .alert .alert-success}
 
-If you want the text inside the alert box to be green as well, we need to apply [custom styles](#styles)
-to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+If you want the text inside the alert box to be green as well,
+we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones.
+Add the following `style` tag to the end of your file.
 
 ```css
 <style>
@@ -1475,11 +1582,13 @@ NOT TO DO.
 
 ### Custom alert panels and alert boxes
 
-All the previously mentioned alert boxes and panels are available by default by [Bootstrap]. If we want them in a different
-color, we need [custom styles](#styles). At about.GitLab.com, we can use the orange and the purple one, as follows.
+All the previously mentioned alert boxes and panels are available by
+default by [Bootstrap]. If we want them in a different
+color, we need [custom styles](#styles). At about.GitLab.com, we
+can use the orange and the purple one, as follows.
 
-When using panels, don't forget to add to the beginning of your file the [HTML parser markup](#html-parser) to be able
-to mix HMTL + Markdown:
+When using panels, don't forget to add to the beginning of your file the
+[HTML parser markup](#html-parser) to be able to mix HMTL + Markdown:
 `{::options parse_block_html="true" /}`.
 
 #### GitLab Orange Alert Panel
@@ -1506,21 +1615,6 @@ Text in markdown.
 </div>
 ```
 
-Custom styles:
-
-```css
-<style>
-.panel-gitlab-orange {
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-orange > .panel-heading {
-  color: rgb(226,67,41);
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-}
-</style>
-```
-
 #### GitLab Orange Alert Box
 
 My text in an orange box.
@@ -1531,19 +1625,6 @@ Box block markup:
 ```md
 My text in an orange box.
 {: .alert .alert-gitlab-orange}
-```
-
-Custom styles:
-
-```css
-<style>
-.alert-gitlab-orange {
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-  color: rgb(226,67,41) !important; /* remove this line in case you want the text in black */
-  text-align: center; /* remove this line in case you don't want the text centralized */
-}
-</style>
 ```
 
 #### GitLab Purple Alert Panel
@@ -1570,21 +1651,6 @@ Text in markdown.
 </div>
 ```
 
-Panel custom styles:
-
-```css
-<style>
-.panel-gitlab-purple {
-  border-color: rgba(107,79,187,.3);
-}
-.panel-gitlab-purple > .panel-heading {
-  color: rgb(107,79,187);
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-}
-</style>
-```
-
 #### GitLab Purple Alert Box
 
 My text in an purple box.
@@ -1597,17 +1663,25 @@ My text in an purple box.
 {: .alert .alert-gitlab-purple}
 ```
 
-Custom styles:
+### GitLab Webcast Alert Box 
 
-```css
-<style>
-.alert-gitlab-purple {
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-  color: rgb(107,79,187) !important; /* remove this line in case you want the text in black */
-  text-align: center; /* remove this line in case you don't want the text centralized */
-}
-</style>
+To be used in a CTA for webcast announcement in blog posts.
+You can use it for other purposes as well. Use it together with the [HMTL parser](#html-parser):
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+The webcast I want to announce - [Register here][webcast-link]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
+[webcast-link]: #
+
+```md
+{::options parse_block_html="true" /}
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+The webcast I want to announce - [Register here][webcast-link]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
 ```
 
 ----
@@ -1783,6 +1857,58 @@ with the rest of the handbook.
 
 ----
 
+## Embed Tweets
+
+To add tweets to markdown, copy both `<blockquote>` and `<script>` tags
+from the twitter post and paste it into your file. To make it look much
+nicer, wrap the script into a `div.center` (created for this specific purpose).
+
+**Important:** if you used the [HTML parser](#mix-html--markdown-markup) in your
+post or page, you'll need to set it to `false` before the `div`.
+{:.alert .alert-info}
+
+{::options parse_block_html="false" /}
+
+<div class="center">
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<br>
+
+Markup:
+
+```md
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+```
+
+For more than one Tweet, copy and paste all the code blocks from Twitter into one `div.center`:
+
+```md
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<!-- first tweet -->
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- second tweet -->
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+```
+
+
+----
+
 ## Markdown Editors
 
 Please use one of the following code editors to write in markdown, or another **code editor** of
@@ -1889,34 +2015,3 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
-
-<style>
-.panel-gitlab-orange {
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-orange > .panel-heading {
-  color: rgb(226,67,41);
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-}
-.panel-gitlab-purple {
-  border-color: rgba(107,79,187,.3);
-}
-.panel-gitlab-purple > .panel-heading {
-  color: rgb(107,79,187);
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-}
-.alert-gitlab-orange {
-  background-color: rgba(252,163,38,.3);
-  border-color: rgba(252,163,38,.3);
-  color: rgb(226,67,41) !important;
-  text-align: center;
-}
-.alert-gitlab-purple {
-  background-color: rgba(107,79,187,.3);
-  border-color: rgba(107,79,187,.3);
-  color: rgb(107,79,187) !important;
-  text-align: center;
-}
-</style>

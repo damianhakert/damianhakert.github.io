@@ -18,6 +18,7 @@ title: "Field Marketing"
 * [Speaker information](#speakerportal)
 * [Meetups](#meetups)
 * [Swag](#swag)
+* [Diversity Sponsorship](#diversitysponsorship)
 
 
 ## **Field Marketing**
@@ -53,7 +54,7 @@ Field marketing includes event marketing and swag production.
 - If you do not have any GitLab swag and are going to an event, notify the Field Marketing Manager as soon as possible so we can try and get you a GitLab shirt to wear.
 
 ## Promoting Events<a name="promotion"></a>
-- Use social media to post as soon as committed to attending an event.
+- [Use social media](https://about.gitlab.com/handbook/marketing/social-marketing/#event-promotion) to post as soon as committed to attending an event.
 - Email signatures- starting 1 month before event for those attending event.
 - Monthly blog post about upcoming events at the first of the month.
 
@@ -109,11 +110,11 @@ Field marketing includes event marketing and swag production.
 - Ideally booth shifts will be around 3 hours or less.
 - Staff more people during peak traffic hours.
 - Avopid shift changes during peak hours.
-- Aim to staff booth with individuals with a variety of expertise- ideally multiple deparments will be represented.
-- Send out calendar invites to booth staff with the following information:
+- Aim to staff booth with individuals with a variety of expertise and genders- ideally technical and non-technical people of either gender can be paired.
+- Send out invites on the Events & Sponsorship calendar to booth staff with the following information:
     - Time and date of event, booth, and shift
     - Suggested attire
-    - How he/ she can find his/ her ticket
+    - How he/she can find his/her ticket
     - Any instructions on using or locating lead scanner
     - Let them know of any contests happening
     - How to get a hold of you
@@ -153,7 +154,20 @@ Field marketing includes event marketing and swag production.
 ## Swag<a name="swag"></a>
 
 * We aim to have our swag delight and/ or be useful.
-* We aim to make limited edition and themed swag for the community to collect. Bigger events will have custom tanuki stickers in small runs, only available at specific event.
+* We aim to make limited edition and themed swag for the community to collect. Bigger events will have custom tanuki stickers in small runs, only available at their specific event.
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a web shop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
+* We get a lot of requests to send swag, and we try to respond to them all. 
+    - Ask about the expected number of attendees, the best shipping address, and if they have a specific order in mind (if they're requesting on behalf of a small meetup group, for example.) If they do not specify, send black unisex tees when in stock.
+    - Include the contents of the order, along with the shipping address in an email to our swag store managers. There is no need to add these amounts to the marketing budget spreadsheet because the swag store sends its own report of what was spent. 
+    - For orders of stickers in a quantity of 100 or greater, do not go through the swag store but rather use our [Stickermule](https://www.stickermule.com/) account. You will need the same information (address and order quantity). After placing the order, add the amount to the marketing budget spreadsheet. 
+
+## Diversity Sponsorship<a name="diversitysponsorship"></a>
+
+* We offer a $500 [sponsorship](https://about.gitlab.com/2016/02/02/gitlab-diversity-sponsorship/) to any group that aims to improve diversity in tech.
+* We receive requests through the [community sponsorship form](https://about.gitlab.com/community/sponsorship/) and to the community @ inbox. 
+* After receiving a request for sponsorship, ask for more information if necessary, then ask them to send an invoice with routing information for the appropriate account. 
+* After receicing the invoice, send it to ap @ company domain; after it is approved the amount will be sent via direct deposit. 
+* If we have a team member in the location of the event, alert them so they have the option to attend. 
+* After we have committed to sponsor the event, [schedule a tweet](https://about.gitlab.com/handbook/marketing/social-marketing/#event-promotion) announcing our involvement and add the amount to the marketing budget spreadsheet.  
