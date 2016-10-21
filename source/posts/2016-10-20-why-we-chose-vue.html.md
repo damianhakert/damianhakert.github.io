@@ -42,7 +42,7 @@ about much of anything either. It really only assumes that your data will change
 But Vue.js comes with the perfect balance of what it will do for you and what you
 need to do yourself. If Backbone was anarchy (no one in charge) and Angular is a
 dictatorship (the Angular team is in charge), I'd say Vue.js is like socialism: you
-are in definitely in charge, but Vue.js is always within reach, a sturdy, but
+are definitely in charge, but Vue.js is always within reach, a sturdy, but
 flexible safety net ready to help you keep your programming efficient and your
 DOM-inflicted suffering to a minimum.
 
@@ -51,16 +51,17 @@ To give you an idea of what I mean, here's a simple
 
 ```html
 <div id="journal">
-	<input type="text" v-model="message">
-	<div>{{message}}</div>
+  <input type="text" v-model="message">
+  <div>{{message}}</div>
 </div>
 ```
+
 ```javascript
 var journal = new Vue({
-	el: '#journal',
-    data: {
-      	message: 'Your first entry'
-    }
+  el: '#journal',
+  data: {
+    message: 'Your first entry'
+  }
 });
 ```
 
@@ -90,7 +91,7 @@ simple value can change often and needs to be represented in several views.
 With JQuery, we had about 30 or so lines of code to propagate those changes, and
 those lines involved multiple classes and querying the DOM by hand.
 
-In Vue.js, this now requires use to write one line of JavaScript. The only other code
+In Vue.js, this now requires us to write one line of JavaScript. The only other code
 we add is in the HTML, and that's just a few additional attributes.
 
 What [Evan You](https://twitter.com/youyuxi) knows is that creating a kick ass framework isn't just about
