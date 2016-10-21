@@ -356,11 +356,11 @@ With this use-case, we exemplified a scenario covering:
 
 GitLab Workflow helps your team to get faster from idea to production using a single platform:
 
-- It's effective, because you get your desired results.
-- It's efficient, because you achieve maximum productivity with minimum effort and expense.
-- It's productive, because you are able to plan effectively and act efficiently.
-- It's easy, because you don't need to setup different tools to accomplish what you need with just one, GitLab.
-- It's fast, because you don't need to jump across multiple platforms to get your job done.
+- <i class="fa fa-check-circle-o fa-fw" style="color: green;"></i> It's **effective**, because you get your desired results.
+- <i class="fa fa-check-circle-o fa-fw" style="color: green;"></i> It's **efficient**, because you achieve maximum productivity with minimum effort and expense.
+- <i class="fa fa-check-circle-o fa-fw" style="color: green;"></i> It's **productive**, because you are able to plan effectively and act efficiently.
+- <i class="fa fa-check-circle-o fa-fw" style="color: green;"></i> It's **easy**, because you don't need to setup different tools to accomplish what you need with just one, GitLab.
+- <i class="fa fa-check-circle-o fa-fw" style="color: green;"></i> It's **fast**, because you don't need to jump across multiple platforms to get your job done.
 
 A new GitLab version is released every single month (on the 22nd), for making it a better integrated solution for software development, and for bringing teams to work together in one single and unique interface.
 
