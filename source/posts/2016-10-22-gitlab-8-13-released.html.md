@@ -1,9 +1,9 @@
 ---
 title: "GitLab 8.13 Released with Multiple Issue Boards and Merge Conflict Editor"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
-image_title: /images/7_X/PICTURE.PNG
+author: Job van der Voort
+author_twitter: Jobvo
+image_title: /images/8_13/PICTURE.PNG
 ---
 
 Intro and introduce main features here.
@@ -41,7 +41,7 @@ We're looking forward to see how you'll use multiple issue boards.
 
 While we're on the subject, you can now quickly add a new issue to a list:
 
-![]()
+![Create a new issue from the Issue Board in GitLab 8.13](/images/8_13/new_issue.gif)
 
 Of course, it'll immediately labeled correctly.
 
@@ -75,7 +75,9 @@ the same, but they are immediately available to all projects in the group.
 
 Review apps give you the power to preview your changes in a live,
 fully functional environment. You can now actually destroy these
-enviroments straight from GitLab, whenever you don't need them anymore.
+dynamic environments straight from GitLab, whenever you don't need them anymore.
+
+![Stop dynamic environments (review apps) in GitLab 8.13](/images/8_13/review_app.png)
 
 ## Ref per Deployment
 
@@ -101,24 +103,56 @@ stages will show what's actually been shipped to production.
 ## Assign issues to MR author
 
 Did you reference some issues in your commits or merge request,
-but didn't assign them to yourself? There's now a quick link to do this:
+but didn't assign them to yourself or aren't they assigned to the merge request
+author? There's now a quick link to do this:
 
-![]()
+![Quickly assign](/images/8_13/assign_yourself.png)
 
 ## /wip Slash Command
 
-From now on, you can use the amazing [slash commands][slash-cmds] to quickly
+From now on, you can use the [amazing slash commands][slash-cmds] to quickly
 change the status of a merge request to/from Work-In-Progress (WIP).
 
-Just type `/wip` and submit!
+Just type `/wip` and submit your comment or merge request description!
 
-## Shell tracing for CI
+## Debug tracing for CI
 
-https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/339
+By default, GitLab Runner hides most of the details of what it is doing when
+processing a job. This behavior keeps build traces short, and prevents secrets
+from being leaked into the trace unless your script writes them to the screen.
+
+If a job isn't working as expected, this can make the problem difficult to
+investigate; in these cases, you can enable debug tracing in `.gitlab-ci.yml`.
+Available on GitLab Runner v1.7+, this feature enables the shell's execution
+trace, resulting in a verbose build trace listing all commands that were run,
+variables that were set, etc.
+
+Before enabling this, you should ensure builds are visible to team members
+only. You should also erase all generated build traces before making them
+visible again.
+
+To enable debug traces, set the CI_DEBUG_TRACE variable to true:
+
+```
+job1:
+  variables:
+    CI_DEBUG_TRACE: "true"
+```
+
+> [Read more in our documentation on Debug tracing](https://docs.gitlab.com/ce/ci/variables/README.html#debug-tracing)
 
 ## Disable Git operations for CI
 
-https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/332
+To speed up builds that don't require interaction with the repository,
+you can disable Git operations now. Just specify the Git strategy in your
+`.gitlab-ci.yml`:
+
+```
+variables:
+  GIT_STRATEGY: none
+```
+
+> [Read more about Git Strategies for CI in our docs](https://docs.gitlab.com/ce/ci/yaml/README.html#git-strategy)
 
 ## Deployment date on Merge Request
 
