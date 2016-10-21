@@ -354,9 +354,10 @@ are, however, some things to consider when a member of the support team takes a 
 **On-call schedule must be covered**
 
 Before leaving for vacation, 2 weeks before at the latest, you should coordinate with your colleagues
-to see who can take over the days when you should be on-call. This can happen via an issue in our
-[Organization Repo](https://dev.gitlab.org/gitlab/organization/issues?label_name=pagerduty) or via
-a Hangout that you should schedule.
+to see who can take over the days when you should be on-call. This can happen via an issue in our 
+[support issue tracker](https://gitlab.com/gitlab-com/support/issues) or via
+a Hangout that you should schedule. 
+See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information. 
 
 **Rest of the team**
 
