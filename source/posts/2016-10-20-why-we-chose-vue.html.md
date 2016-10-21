@@ -3,7 +3,7 @@ title: 'Why We Chose Vue.js'
 author: Jacob Schatz
 author_twitter: jakecodes
 categories: gitlab
-image_title: '/images/default-blog-image.png/'
+image_title: '/images/default-blog-image.png'
 description: 'Why GitLab went with Vue.js'
 twitter_image: '/images/tweets/why-choose-vuejs.png'
 ---
