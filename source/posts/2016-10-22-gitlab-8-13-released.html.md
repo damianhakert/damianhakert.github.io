@@ -37,6 +37,29 @@ stages will show what's actually been shipped to production.
 
 ## Assign issues to MR author
 
+## /wip Slash Command
+
+## Shell tracing for CI
+
+https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/339
+
+## Disable Git operations for CI
+
+https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/332
+
+## Deployment date on Merge Request
+
+https://gitlab.com/gitlab-org/gitlab-ce/issues/21652
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6676
+
+### GitLab Mattermost
+
+GitLab 8.13 includes [Mattermost](https://about.mattermost.com/), an open source Slack-alternative for web, PC and phone with [over 700 app integrations via Zapier](https://about.mattermost.com/mattermost-3-4/).
+New integrations this month [now support connecting to Slack, Gitter, XMPP, and IRC](https://about.mattermost.com/new-community-integrations-for-open-source-slack-alternative-as-mattermost-prepares-for-3-5/).
+Mattermost now [releases 6 times a year](https://about.mattermost.com/changing-release-cycle-to-bi-monthly-from-monthly/) and new updates ship with GitLab in alternate months.
+
+
 ## API additions
 
 ### Multi-file commit
@@ -54,6 +77,10 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6822
 ### User events
 
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6771
+
+### Visible projects
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6681
 
 ## Other changes
 
