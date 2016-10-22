@@ -35,7 +35,10 @@ Enterprise Edition.
 
 This allows you to have multiple workflows, as issues are immediately updated
 with the corresponding labels. For instance, create a board for the whole
-organisation and one for only the design team, frontend team, etc.
+organisation and one for only the UX team: issue will be updated across
+boards if the UX team moves it from UX to Frontend.
+
+![](/images/8_13/m_ib.gif)
 
 We're looking forward to see how you'll use multiple issue boards.
 
@@ -239,6 +242,7 @@ CE changes:
 * Updating of project caches now occurs at most every 15 minutes per project.  This may lead to stale statistics (e.g. commit counts) but can significantly reduce disk load: [!7017](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7017)
 * Sidekiq now uses separate queues for a wide variety of workers: [!7006](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7006)
 * CI pipeline jobs are scheduled in a smarter way, preventing multiple jobs using the same parameters from being performed at the same time: [!7005](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7005)
+* Cache markdown fields in the database [!6095](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6095)
 
 EE changes:
 
@@ -292,8 +296,6 @@ sidekiq -C path/to/gitlab/config/sidekiq_queues.yml
 If you are using a custom Sidekiq configuration file you either have to merge the contents of `sidekiq_queues.yml` into this file (and keep it up to date), or use `sidekiq_queues.yml` and specify your custom options using the `sidekiq` CLI.
 
 This configuration file also specifies a weight for every queue. This means a slight increase in Redis load but allows Sidekiq to more fairly distribute work, instead of processing queues in order. Queue names and priorities can not be customized by the user.
-
-
 
 ### Note
 
