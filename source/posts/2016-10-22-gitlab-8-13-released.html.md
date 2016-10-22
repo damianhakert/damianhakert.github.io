@@ -170,7 +170,7 @@ variables:
 
 ## Deployment date on Merge Request
 
-Small, yet sweet change: We now show you right in the merge request when a deployed happened.
+Small, yet sweet change: We now show you right in the merge request when a deploy happened.
 
 ![See when a deploy happened in GitLab 8.13](/images/8_13/deployed_ago.png)
 
