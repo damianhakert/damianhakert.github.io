@@ -38,7 +38,7 @@ with the corresponding labels. For instance, create a board for the whole
 organisation and one for only the UX team: issue will be updated across
 boards if the UX team moves it from UX to Frontend.
 
-![](/images/8_13/m_ib.gif)
+![Multiple Issue Boards in GitLab 8.13](/images/8_13/m_ib.gif)
 
 We're looking forward to see how you'll use multiple issue boards.
 
