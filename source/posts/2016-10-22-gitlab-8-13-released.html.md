@@ -36,7 +36,7 @@ Enterprise Edition.
 
 This allows you to have multiple workflows, as issues are immediately updated
 with the corresponding labels. For instance, create a board for the whole
-organisation and one for only the UX team: issue will be updated across
+organisation and one for only the UX team: an issue will be updated across
 boards if the UX team moves it from UX to Frontend.
 
 We're looking forward to see how you'll use multiple issue boards.
@@ -47,17 +47,17 @@ While we're on the subject, you can now quickly add a new issue to a list:
 
 ![Create a new issue from the Issue Board in GitLab 8.13](/images/8_13/new_issue.gif)
 
-Of course, it'll immediately labeled correctly.
+Of course, it'll immediately be labeled correctly.
 
 ## Merge Conflict Editor
 
-In [GitLab 8.11][8-11], we introduced merge conflict resolution in GitLab,
+In [GitLab 8.11][8-11], we introduced merge conflict resolution,
 allowing you to choose between _our_ and _their_ changes when attempting
 to solve a conflict.
 
 With GitLab 8.13, we've expanded the conflict resolution, allowing you
-to edit the conflict right in GitLab. This means you can now solve almost
-any conflict right in GitLab!
+to edit the conflict right inside GitLab. This means you can now solve almost
+any conflict without leaving your browser!
 
 ![Solve Merge Conflicts through the editor in GitLab 8.13](/images/8_13/inlinemergeconflictresolution.gif)
 
@@ -113,14 +113,14 @@ stages will show what's actually been shipped to production, of course.
 ## Assign issues to MR author
 
 Did you reference some issues in your commits or merge request,
-but didn't assign them to yourself or aren't they assigned to the merge request
+but didn't assign them to yourself, or they aren't assigned to the merge request
 author? There's now a quick link to do this:
 
 ![Quickly assign](/images/8_13/assign_yourself.png)
 
 ## /wip Slash Command
 
-From now on, you can use the [amazing slash commands][slash-cmds] to quickly
+You can now use the [amazing slash commands][slash-cmds] to quickly
 change the status of a merge request to/from Work-In-Progress (WIP).
 
 Just type `/wip` and submit your comment or merge request description!
@@ -275,8 +275,7 @@ https://gitlab.com/gitlab-org/omnibus-gitlab/compare/8-12-stable...8-13-stable#d
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see the all named changes.
 
 ## Upgrade barometer
 
