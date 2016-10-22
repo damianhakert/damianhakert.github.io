@@ -8,7 +8,7 @@ image_title: /images/8_13/header.jpg
 
 We're [traveling around the world][world-tour] and having the pleasure
 of meeting so many of you. This month we're proud to present many
-changes that have been highly requested both in person and on our issue tracker.
+changes that have been highly requested both in person and on [our issue tracker][issues-ce].
 
 You're now able to create multiple issue boards and quickly create issues from
 them. In addition, no merge conflict is safe anymore from being solved, as
@@ -23,6 +23,7 @@ merged.
 Thanks Marc!
 
 [world-tour]: https://about.gitlab.com/2016/09/28/world-tour-amplify-your-code/
+[issues-ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues
 
 <!--more-->
 
@@ -31,14 +32,12 @@ Thanks Marc!
 You can now have multiple Issue boards on a single project in GitLab
 Enterprise Edition.
 
-![Multiple Issue Boards in GitLab 8.13](/images/8_13/multiple_ib.jpg)
+![Multiple Issue Boards in GitLab 8.13](/images/8_13/m_ib.gif)
 
 This allows you to have multiple workflows, as issues are immediately updated
 with the corresponding labels. For instance, create a board for the whole
 organisation and one for only the UX team: issue will be updated across
 boards if the UX team moves it from UX to Frontend.
-
-![Multiple Issue Boards in GitLab 8.13](/images/8_13/m_ib.gif)
 
 We're looking forward to see how you'll use multiple issue boards.
 
@@ -74,6 +73,12 @@ can be a pain.
 With GitLab 8.13 you're now able to create Group Labels. They work exactly
 the same, but they are immediately available to all projects in the group.
 
+![Group level labels in GitLab 8.13](/images/8_13/group_labels.png)
+
+Currently you're required to make the group labels from the page of your
+Group. We'll be adding the ability to change project labels into group labels
+in a future release.
+
 ## Ability to stop Review Apps
 
 Review apps give you the power to preview your changes in a live,
@@ -94,6 +99,8 @@ in production.
 We now show related pipelines on the commit page, so you can
 quickly see what happened with this particular commit.
 
+![Pipelines for commits in GitLab 8.13](/images/8_13/commit_pipeline.png)
+
 ## Cycle Analytics Improvements
 
 Previously, Cycle Analytics would only measure what's been shipped to production
@@ -101,7 +108,7 @@ in a given time range. We've changed this behavior and now measure
 everything that happened in this time range.
 
 Only the staging and production
-stages will show what's actually been shipped to production.
+stages will show what's actually been shipped to production, of course.
 
 ## Assign issues to MR author
 
@@ -117,6 +124,8 @@ From now on, you can use the [amazing slash commands][slash-cmds] to quickly
 change the status of a merge request to/from Work-In-Progress (WIP).
 
 Just type `/wip` and submit your comment or merge request description!
+
+![WIP using slash commands in GitLab 8.13](/images/8_13/wip.gif)
 
 ## Debug tracing for CI
 
@@ -159,9 +168,9 @@ variables:
 
 ## Deployment date on Merge Request
 
-https://gitlab.com/gitlab-org/gitlab-ce/issues/21652
+Small, yet sweet change: We now show you right in the merge request when a deployed happened.
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6676
+![See when a deploy happened in GitLab 8.13](/images/8_13/deployed_ago.png)
 
 ## GitLab Runner
 
