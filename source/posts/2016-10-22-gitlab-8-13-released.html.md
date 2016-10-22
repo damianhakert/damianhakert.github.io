@@ -127,6 +127,8 @@ Just type `/wip` and submit your comment or merge request description!
 
 ![WIP using slash commands in GitLab 8.13](/images/8_13/wip.gif)
 
+[slash-cmds]: https://docs.gitlab.com/ce/user/project/slash_commands.html
+
 ## Debug tracing for CI
 
 By default, GitLab Runner hides most of the details of what it is doing when
