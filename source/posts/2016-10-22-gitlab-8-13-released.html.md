@@ -59,7 +59,7 @@ With GitLab 8.13, we've expanded the conflict resolution, allowing you
 to edit the conflict right in GitLab. This means you can now solve almost
 any conflict right in GitLab!
 
-![Solve Merge Conflicts through the editor in GitLab 8.13](/images/8_13/merge_conflicts.png)
+![Solve Merge Conflicts through the editor in GitLab 8.13](/images/8_13/inlinemergeconflictresolution.gif)
 
 We believe this step is another in the direction of making merge conflict
 headaches a thing of the past.
