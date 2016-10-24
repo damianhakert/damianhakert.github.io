@@ -105,7 +105,7 @@ GitLab operates with three tiers of customer support, each tier has a set of res
 
 #### Tier 1 Support
 
-+ Provide a resolution to the customer, resolved at first point of contact (FPOC).
++ Provide a resolution to the customer, r, r, r, r, r, r, resolved at first point of contact (FPOC).
 
 + Document information from the customer in relation to the problem.
 
