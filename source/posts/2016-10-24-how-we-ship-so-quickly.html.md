@@ -23,10 +23,10 @@ At GitLab we are a [remote only](http://remoteonly.org/) company which means com
 
 We have to diligently record and document knowledge to be efficient.
 The result is if you ask any GitLab team member an organizational question
-the answer is always "Its in the handbook".
+the answer is always "It's in the handbook".
 Our [handbook](https://about.gitlab.com/handbook/) is public, copy it, adapt it and make it your own.
 
-> "Its in the handbook" - Everyone who's been at GitLab for more than 2 weeks
+> "It's in the handbook" - Everyone who's been at GitLab for more than 2 weeks
 
 ### Reporting
 

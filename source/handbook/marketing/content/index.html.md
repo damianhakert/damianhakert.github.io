@@ -40,6 +40,6 @@ Detailed blog [handbook](/handbook/marketing/blog).
 ## Handbook Goals
 
 * Improve the GitLab handbook structure and quality
-* The answer to any organizational questions should be "Its in the handbook".
+* The answer to any organizational questions should be "It's in the handbook".
 * Share GitLab's culture.
 * Generate MQLs.
