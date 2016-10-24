@@ -1,9 +1,8 @@
 - country: United States
-  factor:
-    employee: 1
+  employee_factor: 1
 - country: Netherlands
-  factor:
-    employee: 0.8
+  employee_factor: 0.8
 - country: United Kingdom
-  factor:
-    employee: 0.9
+  employee_factor: 0.9
+- country: '*'
+  contractor_factor: 1.17

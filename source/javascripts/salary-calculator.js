@@ -3,8 +3,8 @@
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
 
-  var CONTRACT_TYPE_EMPLOYEE = 'employee';
-  var CONTRACT_TYPE_CONTRACTOR = 'contractor';
+  var CONTRACT_TYPE_EMPLOYEE = 'employee_factor';
+  var CONTRACT_TYPE_CONTRACTOR = 'contractor_factor';
 
   // Dropdown Core functionality
 
@@ -216,19 +216,23 @@
       var contract = {};
 
       if (this.data && this.data.contractTypes) {
+        var defaultContractorFactor = this.data.contractTypes.find(function (o) {
+          return o.country === '*';
+        }).contractor_factor;
+
         var contractType = this.data.contractTypes.find(function(o) {
           return o.country === country
         });
 
-        if (contractType && contractType.factor.hasOwnProperty(CONTRACT_TYPE_EMPLOYEE)) {
+        if (contractType && contractType.hasOwnProperty(CONTRACT_TYPE_EMPLOYEE)) {
           contract.type = CONTRACT_TYPE_EMPLOYEE;
-          contract.factor = contractType.factor.employee;
+          contract.factor = contractType[CONTRACT_TYPE_EMPLOYEE];
         } else if (contractType) {
           contract.type = CONTRACT_TYPE_CONTRACTOR;
-          contract.factor = contractType.factor.contractor;
+          contract.factor = contractType[CONTRACT_TYPE_CONTRACTOR];
         } else {
           contract.type = CONTRACT_TYPE_CONTRACTOR;
-          contract.factor = 1.17;
+          contract.factor = defaultContractorFactor;
         }
       }
 
