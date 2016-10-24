@@ -1855,6 +1855,16 @@
   story:  |
           Joining November 1st
 
+- name: S.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
+  reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 7th
 
 - name: S.D.
   locality:
