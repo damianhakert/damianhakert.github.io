@@ -70,7 +70,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) who are performance specialists
       - [Database specialists](/jobs/specialist/database/)
-    - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
+    - Build - [Build lead](/jobs/build-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) who are packaging specialists
     - [Support](/handbook/support/) - [Support Lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)
