@@ -35,7 +35,7 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/packaging-lead/">Packaging Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/build-lead/">Build Lead</a>
   reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
@@ -349,11 +349,11 @@
   locality: Utrecht
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Packaging Lead
+  reports_to: Build Lead
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
-  specialty: Packaging
+  specialty: Build
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -764,12 +764,12 @@
 - name: David 'DJ' Mountney
   locality: Victoria
   country: Canada
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Packaging Lead
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Build Engineer</a>
+  reports_to: Build Lead
   picture: dj.png
   twitter: twk3
   gitlab: twk3
-  specialty: Packaging
+  specialty: Build
   maintains:  |
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> expert</li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -1581,11 +1581,12 @@
 - name: Jason Plum
   locality: Lancaster, Pennsylvania
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Packaging Lead
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Senior Build Engineer</a>
+  reports_to: Build Lead
   picture: jplum.jpg
   twitter: WarheadsSE
   gitlab: WarheadsSE
+  specialty: Build
   story:  |
           From Pennsylvania Amish country comes an avid technologist, serial mentor and community evangelist. Jason can be seen attending, boothing, and speaking at as many FOSS conferences and Linux User Groups as he can manage. Previously working as a distribution manager for a thin client company, Jason brings his expertise in packaging for Linux along with a strong desire to produce tools for the community that has changed his life.
 
@@ -1747,10 +1748,11 @@
   locality: Hutchinson, MN
   country: USA
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Senior Build Engineer</a>
-  reports_to: Packaging Lead
+  reports_to: Build Lead
   picture: ibaum.jpg
   twitter:
   gitlab: ibaum
+  specialty: Build
   story:  |
           Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
           In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
