@@ -1731,16 +1731,16 @@
   story:  |
           Joining October 17th
 
-- name: L.M.
-  locality:
-  country:
+- name: Lee Matos
+  locality: New York City
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: leematos.jpg
+  twitter: leematos
+  gitlab: lbot
   story:  |
-          Joining October 17th
+          Lee is passionate about the intersection of Leadership and Technology. If he's not on the Interent, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club. 
 
 - name: Ian Baum
   locality: Hutchinson, MN
