@@ -20,7 +20,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
-  * [Content Team](/handbook/content/)
+  * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
   * [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/)
   * [Social Marketing](/handbook/marketing/social-marketing/)
