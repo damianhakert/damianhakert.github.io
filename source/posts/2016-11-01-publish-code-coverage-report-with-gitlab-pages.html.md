@@ -151,14 +151,15 @@ more sophisticated is to use tools or plugins that do distribute tests jobs
 evenly in the automated fashion.
 
 If you will decide to parallelize your test suite, you need to generate partial
-code coverage report in each parallel job, and store as build artifact as well.
-Then you will need another stage in the pipeline with job that will merge
-partial code coverage metrics into one and will generate single report that
-takes all results, from parallel jobs, into account.
+code coverage report in each parallel job, and store it as a build artifact
+Then you will need another stage in the pipeline with job that merges partial
+code coverage metrics into the one and generates a single report that takes all
+results, generating in all parallel jobs, into account.
 
 In GitLab, we parallelize our test suite heavily, and we do use additional
 tools, to distribute test jobs evenly. SimpleCov does not support merging
-result sets out-of-the-box, so we had to write patch for it.
+result sets out-of-the-box, so we had to [write patch for it](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/scripts/merge-simplecov).
+There is an issue about contributing this change to SimpleCov [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/23717)
 
 ## Deploy coverage report as GitLab Pages!
 
