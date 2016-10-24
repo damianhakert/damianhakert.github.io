@@ -1,10 +1,10 @@
 ---
-title: "Deploy the code coverage report to GitLab Pages"
+title: "Publish code coverage report with GitLab Pages"
 author: Grzegorz Bizon
 author_twitter: GrzegorzBizon
 categories: tutorial
 image_title: 
-description: "Deploying code coverage report as GitLab Pages"
+description: "Publish code coverage report with GitLab Pages"
 ---
 
 In GitLab we believe that everyone can contribute. We also use automated
@@ -47,11 +47,13 @@ In GitLab, in projects using Ruby, we often use [SimpleCov](https://github.com/c
 
 You will need to check documentation for your tool of choice to learn how to
 generate the code coverage report. Once you are able to do this locally,
-check out the rest of this tutorial to learn how to deploy report as GitLab
-Pages!
+check out the rest of this tutorial to learn how to publish the report with
+GitLab Pages!
 
 For the sake of this example, we will assume that you are using Ruby with RSpec
 and SimpleCov.
+
+## Configure your tools
 
 Configuring SimpleCov can be as simple as extending your `spec_helper.rb` with
 
@@ -62,7 +64,7 @@ SimpleCov.start
 
 When you run `rspec` command, you will notice code coverage report being
 generated when tests are completed. Example below comes from a very simple
-code that contains a single test for the single `Dog` class that is there.
+code that contains a single test for the single class that is there.
 
 Test looks like:
 
@@ -86,17 +88,17 @@ Finished in 0.00058 seconds (files took 0.08804 seconds to load)
 Coverage report generated for RSpec to /tmp/coverage_example/coverage. 6 / 6 LOC (100.0%) covered.
 ```
 
-At the end, you can see that code coverage was generated to `coverage/`
-directory which looks like:
+At the end of the output, you can see that code coverage report was generated
+to `coverage/` directory. Directory contents looks like:
 
 ```bash
 $ ls coverage/
 assets/ index.html
 ```
 
-Yes! This is a HTML code coverage report, we can deploy as GitLab Pages!
+Yes! This is a HTML code coverage report that we can publish with GitLab Pages!
 
-# Adding CI configuration
+## Add CI configuration
 
 > Run RSpec test suite first
 
