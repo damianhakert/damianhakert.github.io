@@ -2,7 +2,7 @@
 title: 'My first weeks at GitLab - How we ship so quickly'
 author: Sean Packham
 author_twitter: SeanPackham
-categories: culture,
+categories: inside GitLab
 image_title: '/images/default-blog-image.png'
 description: 'How we move so quickly and create so much at GitLab'
 ---
