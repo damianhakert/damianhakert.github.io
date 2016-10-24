@@ -8,7 +8,7 @@
   picture: picture_dmitriy.png
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a></li>
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
   story:  |
           Dmitriy started GitLab in September 2011 and has released it every month on the 22nd since then.
           He wanted to make a great and free project management system that he could use every day.
@@ -143,7 +143,7 @@
   twitter: DouweM
   gitlab: DouweM
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -171,7 +171,7 @@
   twitter: ayufanpl
   gitlab: ayufan
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
               <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
@@ -225,7 +225,7 @@
   gitlab: rspeicher
   speciality: Backstage
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
@@ -355,7 +355,7 @@
   gitlab: brodock
   specialty: Packaging
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
               <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -411,7 +411,7 @@
   gitlab: grzesiek
   specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
-                <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+                <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li><a href="/jobs/specialist/backstage">Backstage</a> <href="/jobs/expert/">expert</a></li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
@@ -429,7 +429,7 @@
   twitter: dbalexandre
   gitlab: dbalexandre
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
               <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
@@ -521,7 +521,7 @@
   twitter: rymai
   gitlab: rymai
   maintains: |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
@@ -648,7 +648,7 @@
   twitter: asumaran
   gitlab: alfredo1
   maintains:  |
-                <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+                <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
                 <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
           Alfredo is a multi-disciplined web veteran specializing in front-end development and web design.
@@ -905,7 +905,7 @@
   twitter: mcgivernsa
   gitlab: smcgivern
   maintains:  |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
@@ -983,7 +983,7 @@
   twitter: fatihacet
   gitlab: fatihacet
   maintains: |
-              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
@@ -1299,6 +1299,7 @@
   twitter: lupine_85
   gitlab: nick.thomas
   maintains:  |
+              <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           After eight years spent building The Cloud (or at least, A Cloud),
