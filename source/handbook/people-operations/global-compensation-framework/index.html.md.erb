@@ -49,8 +49,11 @@ This list will be expanded as we gain more experience with the calculator and as
 
 | Country | Employee | Contractor |
 | --------| -------- | ---------- |
+<% default_contractor_factor = (data.contract_types.select {|c| c.country == '*'}.first).contractor_factor %>
 <% data.contract_types.sort_by(&:country).each do |contractType| %>
-  <% employee_factor = contractType.factor.employee ? sprintf('%0.2f', contractType.factor.employee).to_s : '--' %>
-  <% contractor_factor = contractType.factor.contractor ? contractType.factor.contractor : 1.17 %>
-  <%= "| #{contractType.country} | #{employee_factor} | #{sprintf('%0.2f', contractor_factor).to_s} |" %>
+  <% if contractType.country != '*' %>
+    <% employee_factor = contractType.employee_factor ? sprintf('%0.2f', contractType.employee_factor).to_s : '--' %>
+    <% contractor_factor = contractType.contractor_factor ? contractType.contractor_factor : default_contractor_factor %>
+    <%= "| #{contractType.country} | #{employee_factor} | #{sprintf('%0.2f', contractor_factor).to_s} |" %>
+  <% end %>
 <% end %>
