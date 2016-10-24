@@ -109,7 +109,7 @@ Field marketing includes event marketing and swag production.
 ## Booth Staffing<a name="boothstaffing"></a>
 - Ideally booth shifts will be around 3 hours or less.
 - Staff more people during peak traffic hours.
-- Avopid shift changes during peak hours.
+- Avoid shift changes during peak hours.
 - Aim to staff booth with individuals with a variety of expertise and genders- ideally technical and non-technical people of either gender can be paired.
 - Send out invites on the Events & Sponsorship calendar to booth staff with the following information:
     - Time and date of event, booth, and shift
