@@ -93,8 +93,11 @@ Iterations is so important to us that we built
 allow anyone to measure how long it takes them to get from [Idea to Production](https://www.youtube.com/watch?v=t_rB1oQdG98),
 with GitLab its a matter of minutes!
 
-<iframe width="560" height="315" frameborder="0" style="margin-bottom: 22px"
-src="https://www.youtube.com/embed/t_rB1oQdG98" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<br>
 
 If you would like to be part of the GitLab team and
 contribute to our culture and tools take a look our
