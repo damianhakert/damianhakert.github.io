@@ -12,8 +12,9 @@
       .col-sm-6
         .dropdown.level
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            %span.title Level
-            %span.subtitle
+            %span.label Level
+            %span.title{'data-selected' => '1.0'} Intermediate
+            %span.subtitle 1.0
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
             %li
@@ -31,8 +32,9 @@
       .col-sm-6
         .dropdown.experience
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            %span.title Experience in your level
-            %span.subtitle
+            %span.label Experience
+            %span.title{data: { 'selected' => '0.9 to 1.1', 'min' => '0.9', 'max' => '1.1'} } Average experience
+            %span.subtitle 0.9 to 1.1
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
             %li
@@ -50,7 +52,8 @@
       .col-sm-6
         .dropdown.country
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            %span.title Country
+            %span.label Country
+            %span.title --
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
             - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
@@ -59,7 +62,8 @@
       .col-sm-6
         .dropdown.city
           %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            %span.title City
+            %span.label City
+            %span.title --
             %span.subtitle
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
@@ -91,12 +95,12 @@
         .variable-group
           .variable.level
             %span.name Level
-            %span.value --
+            %span.value 1.0
         .symbol.multiplication x
         .variable-group
           .variable.experience
             %span.name Experience
-            %span.value --
+            %span.value 0.9 to 1.1
         .symbol.multiplication x
         .variable-group
           .variable.contractType
