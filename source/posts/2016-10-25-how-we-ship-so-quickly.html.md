@@ -19,7 +19,7 @@ So how do we move and ship so quickly at GitLab?
 
 At GitLab we are a [remote only](http://remoteonly.org/) company which means communication is essential.
 
-### 1.1. The GitLab Handbook
+### The GitLab Handbook
 
 We have to diligently record and document knowledge to be efficient.
 The result is if you ask any GitLab team member an organizational question
@@ -28,7 +28,7 @@ Our [handbook](https://about.gitlab.com/handbook/) is public, copy it, adapt it 
 
 > "Its in the handbook" - Everyone who's been at GitLab for more than 2 weeks
 
-### 1.2. Reporting
+### Reporting
 
 Sid, our CEO, believes everyone deserves only one manager to report to
 so that they easily know what needs to be done.
@@ -38,7 +38,7 @@ Take a look at our [team page](https://about.gitlab.com/team/) and
 
 > "Everyone deserves only one manager" - Sid Sijbrandij (CEO)
 
-### 1.3. Meetings
+### Meetings
 
 At GitLab we have a number of essential meetings mostly for keeping up-to-date
 with teams and getting to know everyone:
@@ -57,8 +57,6 @@ I hear personal stories from people in all departments where normally
 people tend to socialize within their department.
 
 ## 2. Focus
-
-### Small steps
 
 My team and I were fortunate to get a lot of time
 with Sid during my first few weeks at GitLab and
@@ -88,14 +86,14 @@ GitLab has always shipped a new version on the
   going to make Gitlab an even more central tool than it is today.
   It is probable that, in a few months, we will not need
   anything more than Gitlab to manage the whole lifecycle of a project. - Théo Chamley
-  [MrTrustor's Shiny Blog](http://blog.mrtrustor.net/post/gitlab-grand-master-plan/)
+  [MrTrustor's Shiny Blog: Gitlab's Master Plan](http://blog.mrtrustor.net/post/gitlab-grand-master-plan/)
 
 Iterations is so important to us that we built
 [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/) to
 allow anyone to measure how long it takes them to get from [Idea to Production](https://www.youtube.com/watch?v=t_rB1oQdG98),
 with GitLab its a matter of minutes!
 
-<iframe width="560" height="315" frameborder="0"
+<iframe width="560" height="315" frameborder="0" style="margin-bottom: 22px"
 src="https://www.youtube.com/embed/t_rB1oQdG98" allowfullscreen></iframe>
 
 If you would like to be part of the GitLab team and
