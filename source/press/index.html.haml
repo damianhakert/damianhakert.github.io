@@ -16,6 +16,79 @@ extra_css:
           %span
   .sub-wrapper
     .container.text-center
+      .row.blog-twitter-row
+        .col-xs-1.col-md-2
+        .col-xs-10.col-md-8
+          %h2 RECENT NEWS
+          .recent-blog
+            %p
+              For press releases, please
+              %a{href: "https://about.gitlab.com/press/releases/"} visit our Press Releases page.
+            %p
+              For updates from the GitLab team, please
+              %a{href: "https://about.gitlab.com/blog/archives.html"} visit our blog
+              or
+              = succeed "." do
+                %a{href: "https://twitter.com/gitlab/"} view our Twitter feed
+        .col-xs-1.col-md-2
+      %hr.divider/
+      .row.recent-podcasts
+        .col-xs-1.col-md-1
+        .col-xs-10.col-md-10
+          %h2 PODCASTS
+          .podcast-item
+            .press-image
+              SEPTEMBER 2016
+            .press-text
+              %a{href: "https://changelog.com/podcast/220"}
+                .article-title
+                  Changelog: GitLab Master Plan
+          .podcast-item
+            .press-image
+              OCTOBER 2014
+            .press-text
+              %a{href: "http://blog.bitnami.com/2014/10/bitnami-open-source-leaders-interview.html"}
+                .article-title
+                  Bitnami Open Source Leaders Interview Series
+          .podcast-item
+            .press-image
+              AUGUST 2014
+            .press-text
+              %a{href: "http://www.binpress.com/blog/2014/08/05/binpress-podcast-episode-5-sytse-sijbrandij-gitlab/"}
+                .article-title
+                  Binpress podcast
+          .podcast-item
+            .press-image
+              NOVEMBER 2013
+            .press-text
+              %a{href: "http://episodes.gitminutes.com/2013/11/gitminutes-25-sytse-sijbrandij-from.html"}
+                .article-title
+                  Git Minutes (Nov 2013)
+          .podcast-item
+            .press-image
+              SEPTEMBER 2013
+            .press-text
+              %a{href: "http://thechangelog.com/103/"}
+                .article-title
+                  Changelog: GitLab and Open Source
+        .col-xs-1.col-md-1
+      %hr.divider/
+      .investors
+        %h2 INVESTORS
+        .logo-row
+          .press-image
+            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
+              = image_tag "/images/press/khosla.png"
+          .press-image
+            %a{href: "https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/"}
+              = image_tag "/images/press/user_75.png"
+          .press-image
+            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
+              = image_tag "/images/press/500.png"
+          .press-image
+            %a{href: "https://about.gitlab.com/2016/09/13/gitlab-master-plan/"}
+              = image_tag "/images/press/augustcap_logo.png"
+      %hr.divider/
       .all-items
         .row.images-column
           %h2 IMAGES & LOGOS
@@ -217,93 +290,3 @@ extra_css:
               %a.btn.btn-default{download: "gitlab_file_view", href: "/images/press/screenshots/file_view.png"}
                 %i.fa.fa-download
                 %span   .PNG
-      %hr.divider/
-      .row.blog-twitter-row
-        .col-xs-1.col-md-2
-        .col-xs-10.col-md-8
-          %h2 RECENT NEWS
-          .recent-blog
-            %p
-              For recent news, please
-              %a{href: "https://about.gitlab.com/blog/archives.html"} visit our blog
-              or
-              = succeed "." do
-                %a{href: "https://twitter.com/gitlab/"} view our Twitter feed
-        .col-xs-1.col-md-2
-      %hr.divider/
-      .row
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
-          %h2 IN THE PRESS
-          .item
-            %a{href: "http://venturebeat.com/2015/07/09/y-combinator-backed-github-competitor-gitlab-raises-1-5m/"}
-              .press-image
-                = image_tag "/images/testimonials/user_102.svg", width: "100px"
-            .press-text
-              %a{href: "http://venturebeat.com/2015/07/09/y-combinator-backed-github-competitor-gitlab-raises-1-5m/"}
-                .article-title
-                  Y Combinator-backed GitHub competitor GitLab raises $1.5M
-              .press-company
-                %span - Venture Beat
-          .item
-            %a{href: "http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/"}
-              .press-image
-                = image_tag "/images/testimonials/user_99.svg", width: "120px"
-            .press-text
-              %a{href: "http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/"}
-                .article-title
-                  Code collaboration platform GitLab acquires rival Gitorious
-              .press-company
-                %span - The Next Web
-      .row
-        .col-xs-1.col-md-2
-        .col-xs-10.col-md-8
-          .recent-blog
-            %a{href: "/press/releases/"} Check all the press releases.
-      %hr.divider/
-      .row.recent-podcasts
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
-          %h2 PODCASTS
-          .podcast-item
-            .press-image
-              OCTOBER 2014
-            .press-text
-              %a{href: "http://blog.bitnami.com/2014/10/bitnami-open-source-leaders-interview.html"}
-                .article-title
-                  Bitnami Open Source Leaders Interview Series
-          .podcast-item
-            .press-image
-              AUGUST 2014
-            .press-text
-              %a{href: "http://www.binpress.com/blog/2014/08/05/binpress-podcast-episode-5-sytse-sijbrandij-gitlab/"}
-                .article-title
-                  Binpress podcast
-          .podcast-item
-            .press-image
-              NOVEMBER 2013
-            .press-text
-              %a{href: "http://episodes.gitminutes.com/2013/11/gitminutes-25-sytse-sijbrandij-from.html"}
-                .article-title
-                  Git Minutes (Nov 2013)
-          .podcast-item
-            .press-image
-              SEPTEMBER 2013
-            .press-text
-              %a{href: "http://thechangelog.com/103/"}
-                .article-title
-                  The Changelog
-        .col-xs-1.col-md-1
-      %hr.divider/
-      .investors
-        %h2 INVESTORS
-        .logo-row
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
-              = image_tag "/images/press/khosla.png"
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/"}
-              = image_tag "/images/press/user_75.png"
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
-              = image_tag "/images/press/500.png"
