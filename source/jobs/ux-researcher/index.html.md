@@ -22,3 +22,10 @@ The User Experience Researcher reports to the UX Lead.
 * Degree in cognitive psychology, human factors, human-computer interaction, or related field.
 * Collaborative team spirit with great communication skills
 * You share our [values](/handbook/#values), and work in accordance with those values.
+
+## Relevant links
+
+- [UX Researcher Onboarding](https://about.gitlab.com/handbook/uxresearcher-onboarding/)
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)
+- [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design)
