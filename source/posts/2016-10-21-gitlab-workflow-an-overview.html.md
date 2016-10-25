@@ -18,7 +18,7 @@ The GitLab Workflow logic is intuitive and predictable, making the entire platfo
 
 ----
 
-## On this post
+## In this post
 {:.no_toc}
 
 - TOC
@@ -100,7 +100,7 @@ Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board
 
 ### Issue Weight
 
-You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. Still, you can get to an agreement with your team to standardize the weights according to your needs.
+You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea is. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. Still, you can get to an agreement with your team to standardize the weights according to your needs.
 
 ### GitLab Issue Board
 
