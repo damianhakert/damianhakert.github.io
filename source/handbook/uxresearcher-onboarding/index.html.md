@@ -29,6 +29,7 @@ We have two main GitLab instances, as explained in the
 
 ## Relevant links
 
+- [UX Designer Onboarding](/handbook/uxdesigner-onboarding/)
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [Product Handbook](/handbook/product)
