@@ -3,32 +3,30 @@ title: "Publish code coverage report with GitLab Pages"
 author: Grzegorz Bizon
 author_twitter: GrzegorzBizon
 categories: tutorial
-image_title: 
+image_title: '/images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-report-stats.png'
 description: "Publish code coverage report with GitLab Pages"
 ---
 
 In GitLab we believe that everyone can contribute. We also use automated
-testing extensively to make contributing to GitLab easier.
-
-Using automated testing is a great way to improve confidence when someone needs
-to change the code, what actually is the case in majority of contributions to
+testing extensively to make contributing to GitLab easier. Using automated
+testing is a great way to improve confidence when someone needs to change
+the code, what actually is the case in majority of contributions to
 software projects.
 
 But how do we ensure that our test suite is good enough to aid the confidence
 in changing behavior of the software, and what can we do to keep on improving it?
 
-# What is the code coverage?
+## What the code coverage is?
 
 Using [code coverage](https://en.wikipedia.org/wiki/Code_coverage) metric is a
 technique which helps to improve the test suite, and the software itself.
 
 Tools used to measure the code coverage usually extend the test harness
 environment, and make it possible to map the application execution process
-back to the source code while automated tests are being executed.
-
-With that approach, you can not only learn how much of your code is covered
-by tests, but it is also possible to find out what exact parts of the codebase
-are not covered well enough.
+back to the source code while automated tests are being executed. With that
+approach, you can not only learn how much of your code is covered by tests,
+but it is also possible to find out what exact parts of the codebase are not
+covered well enough.
 
 Some tools also make it possible to generate code coverage reports in the HTML
 format that you can then review in your browser. It makes it  much easier to
@@ -38,12 +36,13 @@ improvements as well.
 Take a look at code coverage report for GitLab that is available
 on [GitLab Pages for GitLab CE project](http://gitlab-org.gitlab.io/gitlab-ce/coverage-ruby/)
 
-# How to generate code coverage report?
+![code coverage report summary](images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-report-file-summary.png)
+
+## How to generate code coverage report?
 
 There are a lot of code coverage tools available for many different languages.
-You will need to find appropriate tool for your particular needs.
-
-In GitLab, in projects using Ruby, we often use [SimpleCov](https://github.com/colszowka/simplecov).
+You will need to find appropriate tool for your particular needs. In GitLab,
+in projects using Ruby, we often use [SimpleCov](https://github.com/colszowka/simplecov).
 
 You will need to check documentation for your tool of choice to learn how to
 generate the code coverage report. Once you are able to do this locally,
@@ -53,7 +52,7 @@ GitLab Pages!
 For the sake of this example, we will assume that you are using Ruby with RSpec
 and SimpleCov.
 
-## Configure your tools
+### Configure your tools
 
 Configuring SimpleCov can be as simple as extending your `spec_helper.rb` with
 
@@ -98,9 +97,10 @@ assets/ index.html
 
 Yes! This is a HTML code coverage report that we can publish with GitLab Pages!
 
-## Add CI configuration
+### Add CI configuration
 
-> Run RSpec test suite first
+<i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+_Run RSpec test suite first_
 
 The most simple approach is to execute all tests within a single job in the
 CI pipeline, using a GitLab CI.
@@ -114,7 +114,8 @@ rspec:
     - rspec
 ```
 
-> Then store result as build artifact
+<i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+_Then store result as build artifacs_
 
 ```yaml
 image: ruby:2.3
@@ -129,15 +130,11 @@ rspec:
 ```
 
 Let's see if artifacts were stored correctly using build artifacts browser
-that is available from the build sidebar:
+that is available from the build sidebar. It is there!
 
-_TODO add build sidebar screenshot here_
+![code coverage report artifacts](images/blogimages/publish-code-coverage-report-with-gitlab-pages/coverage-report-artifacts-browser.png)
 
-It is there!
-
-_TODO add screenshot of build artifacts browser_
-
-## Parallel tests
+### Parallel tests
 
 Things get a little more complicated when you want to parallelize your test
 suite.
@@ -161,13 +158,13 @@ tools, to distribute test jobs evenly. SimpleCov does not support merging
 result sets out-of-the-box, so we had to [write patch for it](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/scripts/merge-simplecov).
 There is an issue about contributing this change to SimpleCov [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/23717)
 
-## Deploy coverage report as GitLab Pages!
+### Deploy coverage report as GitLab Pages!
 
-# Using code coverage report badge
+## Using code coverage report badge
 
-# Summary
+## Summary
 
 Testing shows the presence, not the absence of bugs.
   -- Edsger Dijkstra
 
-# Documentation
+## Documentation
