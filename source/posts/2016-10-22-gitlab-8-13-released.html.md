@@ -6,6 +6,17 @@ author_twitter: Jobvo
 image_title: /images/8_13/header.jpg
 ---
 
+{::options parse_block_html="true" /}
+
+<p  class="alert alert-orange" style="background-color: rgba(252,163,38,.3);
+    border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">
+    <i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i>
+    &nbsp;&nbsp;
+    [Join us for our next release webcast](https://page.gitlab.com/20161027_8.13ReleaseWebcast_LandingPage.html){: .purple} on October 27 to
+    learn more about GitLab 8.13!
+    &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+</p>
+
 We're [traveling around the world][world-tour] and having the pleasure
 of meeting so many of you. This month we're proud to present many
 changes that have been highly requested both in person and on [our issue tracker][issues-ce].
