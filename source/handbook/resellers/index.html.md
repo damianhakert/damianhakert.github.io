@@ -75,6 +75,7 @@ The link to the deal registration form is located in the [reseller project](http
 When you complete the form, we get notified and will do the following:
 
 - Check our systems for opportunity approval
+- If approved provide deal protection
 - Create an opportunity in our SFDC implementation
 - Send a quote to your `GitLab@partnerTLD` email address <br>
 *Note: this is a reseller quote, not to be shared with the customer.*

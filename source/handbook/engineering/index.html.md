@@ -12,7 +12,8 @@ title: "Engineering"
 
 - [Support](/handbook/support)
 - [Infrastructure](/handbook/infrastructure)
-- [Backend]() TODO
+- [Backend](/handbook/backend)
+- [Edge](/handbook/edge)
 - [Frontend]() TODO
 - [Packaging]() TODO
 
@@ -42,8 +43,12 @@ no previous examples and requires a high degree of complexity in both
 frontend and backend, form a team upfront that has UX designers, frontend, and
 backend engineers.
 4. Final review: A final review of a merge request should be made by an endboss.
-If it is mainly frontend code it should be reviewed by a frontend endboss, and it it is mainly backend code it should be
+If it is mainly frontend code it should be reviewed by a frontend endboss, and if it is mainly backend code it should be
 reviewed by a backend endboss.
+
+## Developers on Support Team Rotation
+
+See [the fix4all description](/handbook/engineering/fix4all/).
 
 ## Resources for Engineering
 

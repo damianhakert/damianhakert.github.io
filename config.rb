@@ -1,6 +1,7 @@
-require 'generators/direction.rb'
-require 'generators/release_list.rb'
-require 'extensions/breadcrumbs.rb'
+require 'generators/direction'
+require 'generators/release_list'
+require 'generators/org_chart'
+require 'extensions/breadcrumbs'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -100,6 +101,13 @@ helpers do
 
     "//fonts.googleapis.com/css?family=#{fonts}"
   end
+
+  def highlight_active_nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(link_text, url, options)
+  end
+
 end
 
 # Build-specific configuration
@@ -114,9 +122,12 @@ configure :build do
     proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
   end
 
-  ## Releast list page
+  ## Release list page
   releases = ReleaseList.new
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
+
+  org_chart = OrgChart.new
+  proxy "/team/structure/org-chart/index.html", "/team/structure/org-chart/template.html", locals: { team_data: org_chart.team_data }, ignore: true
 end
 
 page '/404.html', directory_index: false
@@ -124,5 +135,6 @@ page '/404.html', directory_index: false
 ignore '/direction/template.html'
 ignore '/includes/*'
 ignore '/release-list/template.html'
+ignore '/team/structure/org-chart/template.html'
 ignore '/source/stylesheets/highlight.css'
 ignore '/category.html'
