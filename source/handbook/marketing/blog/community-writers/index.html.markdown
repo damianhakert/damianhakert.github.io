@@ -20,6 +20,8 @@ description: "Write for GitLab and get compesated!"
 <meta name="twitter:url" content="https://about.gitlab.com/handbook/marketing/blog/community-writers/" />
 <meta name="twitter:image" content="/images/community/community-writers-twitter-illustration.png/" />
 
+<br>
+
 ![Write for GitLab](/images/community/community-writers-twitter-illustration.png/)
 
 {::options parse_block_html="true" /}
