@@ -70,7 +70,7 @@ Sid gave us the following simple productivity steps:
 Over my years in software development I have notice that people
 over discuss ideas instead of acting.
 At GitLab each person knows what their objectives are because they have only one manager,
-This means individuals can own their work, make the change and then discuss it.
+this means individuals can own their work, make the change and then discuss it.
 The smaller the change, the less discussion there will be and then move to step 4 - merge it!
 
 ## 3. Iteration
