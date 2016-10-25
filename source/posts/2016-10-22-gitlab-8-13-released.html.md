@@ -12,8 +12,8 @@ image_title: /images/8_13/header.jpg
     border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">
     <i class="fa fa-gitlab" style="color:rgb(226,67,41); font-size:.85em" aria-hidden="true"></i>
     &nbsp;&nbsp;
-    [Join us for our next release webcast][webcast-registration]{: .purple} on September 29 to
-    learn more about Cycle Analytics and our upcoming GitLab 8.12!
+    [Join us for our next release webcast](https://page.gitlab.com/20161027_8.13ReleaseWebcast_LandingPage.html){: .purple} on October 27 to
+    learn more about GitLab 8.13!
     &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 </p>
 
