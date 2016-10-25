@@ -1,4 +1,7 @@
-<head>
+---
+layout: markdown_page
+title: "Community Writers Program"
+description: "Write for GitLab and get compesated!"
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Get Paid to Write for GitLab" />
@@ -13,13 +16,6 @@
 <meta name="twitter:description" content="Start today and earn up to $200 an article." />
 <meta name="twitter:url" content="https://about.gitlab.com/handbook/marketing/blog/community-writers/" />
 <meta name="twitter:image" content="/images/community/community-writers-twitter-illustration.png/" />
-
-</head>
-
----
-layout: markdown_page
-title: "Community Writers Program"
-description: "Write for GitLab and get compesated!"
 ---
 
 <br>
