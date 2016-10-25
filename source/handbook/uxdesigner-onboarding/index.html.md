@@ -44,6 +44,7 @@ As design can be subjective, discussion can heat up. Always try to be [direct](/
 
 ## Relevant links
 
+- [UX Researcher Onboarding](/handbook/uxresearcher-onboarding/)
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [Product Handbook](/handbook/product)
