@@ -98,7 +98,7 @@ GitLab labels are also an important part of the GitLab flow. You can use them to
 
 Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board), facilitating your plan stage and organizing your workflow.
 
-You can also create [Group Labels], which give you the ability to use the same labels per group of projects.
+**New!** You can also create [Group Labels], which give you the ability to use the same labels per group of projects.
 
 ### Issue Weight
 
@@ -114,9 +114,9 @@ The cards can be moved between lists, which will cause the label to be updated a
 
 ![GitLab Issue Board](/images/blogimages/designing-issue-boards/issue-board.gif){: .shadow}
 
-You can also create issues right from the Board, by clicking the <> button on the top of a list. When you do so, that issue will be automatically created with the label corresponding to that list.
+**New!** You can also create issues right from the Board, by clicking the <i class="fa fa-plus" style="color: green;"></i> button on the top of a list. When you do so, that issue will be automatically created with the label corresponding to that list.
 
-We've [recently introduced][8-13-issue-boards] **Multiple Issue Boards** per project ([GitLab Enterprise Edition][trial] only); it is the best way to organize your issues for different workflows.
+**New!** We've [recently introduced][8-13-issue-boards] **Multiple Issue Boards** per project ([GitLab Enterprise Edition][trial] only); it is the best way to organize your issues for different workflows.
 
 ![Multiple Issue Boards](/images/8_13/m_ib.gif){: .shadow}
 
@@ -184,7 +184,7 @@ When you add or edit a file and commit to a new branch from the UI instead of fr
 **Note:** It's important to add the [issue closing pattern] to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
 {: .note .alert .alert-success}
 
-We're currently developing [Review Apps][ra], a new feature that gives you the ability to deploy your app to a dynamic environment, from which you can preview the changes based on the branch name, per merge request. See a [working example][RA-example] here.
+**New!** We're currently developing [Review Apps][ra], a new feature that gives you the ability to deploy your app to a dynamic environment, from which you can preview the changes based on the branch name, per merge request. See a [working example][RA-example] here.
 
 ### WIP MR
 
@@ -194,9 +194,9 @@ When your changes are ready to get merged, remove the `WIP:` pattern either by e
 
 ![WIP MR click to remove WIP from the title](/images/blogimages/gitlab-workflow-an-overview/gitlab-wip-mr.png){:.shadow}
 
-The `WIP` pattern can be also [quickly added to the merge request][wip-slash] with the [slash command][slash] `/wip`. Simply type it and submit the comment or the MR description.
+**New!** The `WIP` pattern can be also [quickly added to the merge request][wip-slash] with the [slash command][slash] `/wip`. Simply type it and submit the comment or the MR description.
 
-### Code Review
+### Review
 
 Once you've created a merge request, it's time to get feedback from your team or collaborators. Using the diffs available on the UI, you can add inline comments, reply to them and resolve them.
 
@@ -206,7 +206,7 @@ The commit history is available from the UI, from which you can track the change
 
 ![code review in MRs at GitLab](/images/blogimages/gitlab-workflow-an-overview/gitlab-code-review.png){: .shadow}
 
-If you run into merge conflicts, you can quickly [solve them right for the UI][conflict-res], or even edit the file to fix them as you need:
+**New!** If you run into merge conflicts, you can quickly [solve them right for the UI][conflict-res], or even edit the file to fix them as you need:
 
 ![mr conflict resolution](/images/8_13/inlinemergeconflictresolution.gif){: .shadow}
 
