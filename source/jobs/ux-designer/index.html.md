@@ -86,6 +86,7 @@ The UX Interview determines if a UX Designer is a good fit for GitLab. Here are 
 
 ## Relevant links
 
+- [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design)
