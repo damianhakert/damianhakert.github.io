@@ -38,53 +38,53 @@ which has a complete toolset for software development, including the following l
 
 - [GitLab Groups], so you can group your projects alike and set them up at once
 - GitLab repositories: unlimited collaborators, unlimited public and private repositories
-- [2FA][2fa-post]: Two-factor authentication, making your access always safe
+- [2FA][2fa-post]: Two-factor authentication, ensuring your access is always safe
 - Integrated Chat, with [Mattermost]
 - Advanced issue tracker, including [confidential issues][post-douglas], labels, [priority labels], user assignment, [due dates, and milestones][post-amanda]
 - [GitLab Issue Board][issue-board], which helps you to prioritize, organize and plan your workflow and course of action
-- [Todos][todos-doc]: you in control on what you need to track and get done
+- [Todos][todos-doc]: you're in control of what you need to track and get done
 
 ![GitLab Issue Board, 2FA, todos, confidential issues](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/management-tools.png)
 
 ### Build, Test, and Deploy
 
-- Continuous Integration built-in ([GitLab CI][ci]), allowing you to
-run endless scripts with [GitLab Multi Runner][runner], which use
-an autoscaling method, making multiple simultaneous builds not only possible, but fast
-- [GitLab CI templates][ci-templates], to make your live easy when configuring a new project
+- Continuous Integration built-in ([GitLab CI][ci]), allowing you to run endless scripts
+with [GitLab Multi Runner][runner]. This uses an autoscaling method, making multiple
+simultaneous builds not only possible, but also fast.
+- [GitLab CI templates][ci-templates], to make your life easy when configuring a new project
 - GitLab [merge requests][mr], with in-line commenting, which is
 the best way to review your code, get feedback and approval
-- [Merge conflict resolution][mr-confl-ui] from the user interface,
-making easier than ever solving them out-of-the-box, faster than any other way
+- [Merge conflict resolution][mr-confl-ui] from the user interface. Resolve the conflict and move on.
 - GitLab [Pipelines][pipes], with which you run multiple scripts in
-sequence or in parallel, whichever suits you best, and visualize the
+sequence or in parallel, whichever suits you best. Visualize the
 entire pipeline, making any error easily identifiable
 - [Environments] support, so you can deploy your code to different
 environments, as `staging` and `production`
 - [Continuous Delivery and Continuous Deployment][ci-cd-post]
-build-in support, to allow you to choose between deploying manually
+build-in support. Allows you to choose between deploying manually
 or automatically to whichever environment you choose, and `rollback`
-to the previous working version with a click of a button, whenever something goes wrong
+to the previous working version with a click of a button
 
 ![Build, Test and Deploy](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/build-test-deploy.png)
 
 ### Automation & Integration
 
-- [GitLab Webhooks][ce-webhooks], allowing you to automate repetitive
-processes, integrating with external tools and applications a discomplicated process
+- [GitLab Webhooks][ce-webhooks]: automate repetitive
+processes. Integrate with external tools and applications.
 - [GitLab Pages][pages], a static webserver which [supports][pages-post]
 custom domains and subdomains, SSL/TLS encryption and builds any SSGs.
-It was specially designed to attend web developers, and for making it
-easier for developers to deploy their website from the same platform
-they use for developing their software applications
+Specially designed for web developers, and for making it
+easier for software engineers to deploy their website from the same platform
+they use to host and build their apps.
 - [GitLab Container Registry], the first Docker registry that is
 fully-integrated with Git repository management, allowing you to build
-and deploy your Docker image right from GitLab, automatically
+and deploy your Docker image right from GitLab.
 - [GitLab Cycle Analytics][gca]: a new feedback tool, which allows you
-to track the time taken by your team to evolve in a project, from the
+to track the time your team takes to evolve a project, from the
 first step (creating a new issue) until the last step (deploying to production).
-This is what we call "going [from idea to production with GitLab][idea-prod]"
-- A lot of external [integrations], such as [Jira], [Jenkins], [Slack], [Shippable], [Digital Ocean], [Koding], [Mesosphere] and many others
+This is what we call "going [from idea to production with GitLab][idea-prod]".
+- GitLab offers a lot of external [integrations], such as [Jira], [Jenkins], [Slack],
+[Shippable], [Digital Ocean], [Koding], [Mesosphere] and many others.
 - [GitLab API][api]: Automate GitLab via a simple and powerful API.
 
 [![Pages, Cycle Analytics, Services/Integrations](/images/blogimages/gitlab-com-vs-gitlab-ee-vs-gitlab-ce/pages-cycle-analytics-integrations.png)](/pricing/)
@@ -363,13 +363,13 @@ We need your help to make our collective vision a reality.
 
 Every 22nd there's a new GitLab release, with more awesomeness than before!
 
-You are more than invited to contribute to make GitLab CE even better.
+You are more than welcome to contribute to make GitLab CE even better.
 We are happy to receive feature proposals in our issue tracker, and we
 get even happier and cheerful when you contribute with your own code,
 so it's easier and faster to make it happen.
 
 Check out the implementations that are [**up-for-grabs**][ce-up-for-grabs]
-and submit your code! You're also more than invited to share your thoughts,
+and submit your code! You're also more than welcome to share your thoughts,
 ask questions and even help us to answer some questions in our [forum]. Our
 community is what makes GitLab better and more attractive to everyone. We
 elect an **[MVP]** every month to express our gratitude. And some of our
