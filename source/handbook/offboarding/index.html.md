@@ -112,13 +112,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [x] _not relevant_ New team member: Take a look at the "Reference Customers" google doc to familiarize yourself with which customer information should be kept confidential within the company.
+1. [ ] Hiring Manager: Check former team members' project-level permissions and remove them as-needed.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
 1. [ ] Hiring Manager: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
 1. [ ] Hiring Manager: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Hiring Manager: Remove former team members' account from [Sentry](https://sentry.gitlap.com/organizations/gitlab/members/)
-1. [ ] Hiring Manager: Check former team members' project-level permissions and remove them as-needed.
 1. [ ] For former Developers (those who had access to part of the infrastructure), and Production team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
 1. [x] _not relevant_ For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Remove access to PagerDuty if applicable.
