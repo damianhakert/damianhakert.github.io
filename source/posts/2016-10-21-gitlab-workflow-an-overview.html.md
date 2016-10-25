@@ -10,7 +10,7 @@ twitter_image: '/images/tweets/gitlab-workflow-an-overview.jpg'
 
 GitLab is a Git-based repository manager and a powerful complete application for software development.
 
-With an _user-and-newbie-friendly interface_, GitLab allows you to work effectively, both from the command line and from the UI itself. It's not only useful for developers, but can also be integrated across your entire team to bring everyone into a single and unique platform.
+With an _"user-and-newbie-friendly" interface_, GitLab allows you to work effectively, both from the command line and from the UI itself. It's not only useful for developers, but can also be integrated across your entire team to bring everyone into a single and unique platform.
 
 The GitLab Workflow logic is intuitive and predictable, making the entire platform easy to use and easier to adopt. Once you do, you won't want anything else!
 
@@ -38,7 +38,7 @@ With the GitLab Workflow, the [goal][master-plan] is to help teams work cohesive
 
 ### Stages of Software Development
 
-The natural course of the software development process passes through 10 major steps, GitLab has built solutions for all of them:
+The natural course of the software development process passes through 10 major steps; GitLab has built solutions for all of them:
 
 1. **IDEA:** Every new proposal starts with an idea, which usually come up in a chat. For this stage, GitLab integrates with [Mattermost].
 2. **ISSUE:** The most effective way to discuss an idea is creating an issue for it. Your team and your collaborators can help you to polish and improve it in the [issue tracker](#gitlab-issue-tracker).
@@ -98,6 +98,8 @@ GitLab labels are also an important part of the GitLab flow. You can use them to
 
 Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board), facilitating your plan stage and organizing your workflow.
 
+You can also create [Group Labels], which give you the ability to use the same labels per group of projects.
+
 ### Issue Weight
 
 You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea is. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. Still, you can get to an agreement with your team to standardize the weights according to your needs.
@@ -111,6 +113,12 @@ It consists of a board with lists corresponding to its respective labels. Each l
 The cards can be moved between lists, which will cause the label to be updated according to the list you moved the card into.
 
 ![GitLab Issue Board](/images/blogimages/designing-issue-boards/issue-board.gif){: .shadow}
+
+You can also create issues right from the Board, by clicking the <> button on the top of a list. When you do so, that issue will be automatically created with the label corresponding to that list.
+
+We've [recently introduced][8-13-issue-boards] **Multiple Issue Boards** per project ([GitLab Enterprise Edition][trial] only); it is the best way to organize your issues for different workflows.
+
+![Multiple Issue Boards](/images/8_13/m_ib.gif){: .shadow}
 
 ## Code Review with GitLab
 
@@ -176,6 +184,8 @@ When you add or edit a file and commit to a new branch from the UI instead of fr
 **Note:** It's important to add the [issue closing pattern] to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
 {: .note .alert .alert-success}
 
+We're currently developing [Review Apps][ra], a new feature that gives you the ability to deploy your app to a `review` stage, from which you can preview the changes based on the branch name, per MR. See a [working example][RA-example] here.
+
 ### WIP MR
 
 A WIP MR, which stands for **Work in Progress Merge Request**, is a technique we use at GitLab to prevent that MR from getting merged before it's ready. Just add `WIP:` to the beginning of the title of an MR, and it will not be merged unless you remove it from there.
@@ -183,6 +193,8 @@ A WIP MR, which stands for **Work in Progress Merge Request**, is a technique we
 When your changes are ready to get merged, remove the `WIP:` pattern either by editing the issue and deleting manually, or use the shortcut available for you just below the MR description.
 
 ![WIP MR click to remove WIP from the title](/images/blogimages/gitlab-workflow-an-overview/gitlab-wip-mr.png){:.shadow}
+
+The `WIP` pattern can be also [quickly added to the merge request][wip-slash] with the [slash command][slash] `/wip`. Simply type it and submit the comment or the MR description.
 
 ### Code Review
 
@@ -194,13 +206,23 @@ The commit history is available from the UI, from which you can track the change
 
 ![code review in MRs at GitLab](/images/blogimages/gitlab-workflow-an-overview/gitlab-code-review.png){: .shadow}
 
+If you run into merge conflicts, you can quickly [solve them right for the UI][conflict-res], or even edit the file to fix them as you need:
+
+![code review in MRs at GitLab](/images/8_13/inlinemergeconflictresolution.gif){: .shadow}
+
 ## Build, Test, and Deploy
 
-[GitLab CI][ci] is an powerful built-in tool for [Continuous Integration, Continuos Deployment, and Continuous Delivery][ci-cd-cd], which can be used to run scripts as you wish. The possibilities are endless: think of it as if it was your own command line, integrated with GitLab.
+[GitLab CI][ci] is an powerful built-in tool for [Continuous Integration, Continuos Deployment, and Continuous Delivery][ci-cd-cd], which can be used to run scripts as you wish. The possibilities are endless: think of it as if it was your own command line running the jobs for you.
 
 It's all set by an Yaml file called, `.gitlab-ci.yml`, placed at your project's repository. Enjoy the CI templates by simply adding a new file through the web interface, and type the file name as `.gitlab-ci.yml` to trigger a dropdown menu with dozens of possible templates for different applications.
 
 ![GitLab CI templates - dropdown menu](/images/blogimages/gitlab-workflow-an-overview/gitlab-ci-template.png){:.shadow}
+
+### Koding
+
+Use GitLab's [Koding integration][kod] to run your entire development environment in the cloud. This means that you can check out a project or just a merge request in a full-fledged IDE with the press of a button.
+
+### Use-Cases
 
 Examples of GitLab CI use-cases:
 
@@ -208,6 +230,8 @@ Examples of GitLab CI use-cases:
 - Use it to [deploy your website][ivan-post] to `staging` and `production` [environments][env]
 - Use it to [build an iOS application][ios-post]
 - Use it to [build and deploy your Docker Image][post-docker] with [GitLab Container Registry][gcr]
+
+We have prepared dozens of [GitLab CI Example Projects][ci-ex] to offer you guidance. Check them out!
 
 ## Feedback: Cycle Analytics
 {: #feedback}
@@ -255,7 +279,7 @@ For instance, you can create a milestone for Q1 2017 and assign every issue and 
 - In issues and MRs descriptions:
   - Type `#` to trigger a dropdown list of existing issues
   - Type `!` to trigger a dropdown list of existing MRs
-  - Type `/` to trigger slash commands
+  - Type `/` to trigger [slash commands][slash]
   - Type `:` to trigger emojis (also supported for inline comments)
 - Add images (jpg, png, gif) and videos to inline comments with the button **Attach a file**
 - [Apply labels automatically][labels-post] with [GitLab Webhooks][hooks]
@@ -339,19 +363,6 @@ At last, you, being the person responsible for new releases, merged the MR and d
 
 With [Cycle Analytics][ca], you studied the time taken to go from idea to production with your team, and opened another issue to discuss the improvement of the process.
 
-### Summarizing
-{: .no_toc .special-h3}
-
-With this use-case, we exemplified a scenario covering:
-
-- Ideation: you've had an idea and created an issue as a guide for discussing and implementing it.
-- Plan: you added labels, prioritized and organized the team's workflow.
-- Code, Commit, Review, and Test: the proposal was discussed, implemented, reviewed and tested.
-- Teamwork: every department played a role, and everything was achieve from one single platform.
-- Deploy to Staging: your team deployed to staging to make sure that the proposal worked, and to make possible to create marketing assets and documentation, both based on the real thing.
-- Deploy to Production: once you were all set, you deployed your new feature to production.
-- Feedback: at the end, you looked back at our workflow and analyzed the efficiency of our team by tracking the time taken by each stage of the development process.
-
 ## Conclusions
 
 GitLab Workflow helps your team to get faster from idea to production using a single platform:
@@ -401,6 +412,7 @@ Questions? Feedback? Please leave a comment or tweet at us [@GitLab]! 🙌
 [post-docker]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
 [post-flow]: /2014/09/29/gitlab-flow/
 [priority labels]: https://docs.gitlab.com/ee/user/project/labels.html#prioritize-labels
+[ra-example]: https://gitlab.com/gitlab-examples/review-apps-nginx/
 [Snippets]: https://gitlab.com/dashboard/snippets
 [ssgs-post]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 [subsc-issue]: /2016/03/22/gitlab-8-6-released/#subscribe-to-a-label
@@ -408,6 +420,15 @@ Questions? Feedback? Please leave a comment or tweet at us [@GitLab]! 🙌
 [templates-ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
 [templates]: https://docs.gitlab.com/ce/user/project/description_templates.html
 [user-level]: https://docs.gitlab.com/ce/user/permissions.html
+[ra]: /2016/10/22/gitlab-8-13-released/#ability-to-stop-review-apps
+[group labels]: /2016/10/22/gitlab-8-13-released/#group-labels
+[wip-slash]: /2016/10/22/gitlab-8-13-released/#wip-slash-command
+[slash]: https://docs.gitlab.com/ce/user/project/slash_commands.html
+[trial]: /free-trial/
+[8-13-issue-boards]: /2016/10/22/gitlab-8-13-released/#multiple-issue-boards-ee
+[conflict-res]: /2016/08/22/gitlab-8-11-released/#merge-conflict-resolution
+[kod]: /2016/08/22/gitlab-8-11-released/#koding-integration
+[ci-ex]: https://docs.gitlab.com/ee/ci/examples/README.html
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/279 -->
 
