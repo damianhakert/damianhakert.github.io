@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 36px;
 }
 
@@ -15,20 +15,11 @@ ul {
   list-style-type: none;
 }
 
-.press-container {
-  position: relative;
-  width: 100%;
-  height: 270px;
-  overflow: hidden;
-  background: $color-primary;
-}
-
 .press-content {
-  padding-top: 51px;
+  padding: 60px 0;
   text-align: center;
   color: $color-white;
-  width: 50%;
-  margin-left: 25%;
+  background: $color-primary;
 
   span {
     font-size: 17px;
@@ -43,90 +34,48 @@ ul {
   }
 }
 
-.press-company {
-  text-decoration: none;
-  color: $color-gray;
-  float: right;
-}
-
 .sub-wrapper {
-  margin: 0;
+  margin: 20px 0 60px;
 }
 
-.image-container {
-  transition: .5s ease;
-  margin-top: 35px;
-  padding-left: 100px;
-
-  .text {
-    width: 170px;
-
-    p {
-      color: $color-gray-light;
-      margin: 0;
-      font-size: 11px;
-      margin-bottom: 7px;
-    }
-
-    span {
-      font-size: 19px;
-    }
-  }
-}
-
-.all-items {
-  margin-bottom: 50px;
-}
-
-.images-column .image-container div:nth-child(2):hover {
-  opacity: .5;
-  cursor: pointer;
+.recent-news {
+  margin-bottom: 20px;
 }
 
 .founders {
   background-image: url("/images/press/founders.jpg");
-  background-position-y: -18px;
 }
 
 .fox {
   background-image: url("/images/press/logo/logo.png");
-  background-position-y: -17px;
 }
 
 .diff {
   background-image: url("/images/press/screenshots/diff.png");
-  background-position-y: -4px;
 }
 
 .mr {
   background-image: url("/images/press/screenshots/mr.png");
-  background-position-y: -4px;
 }
-
 
 .file {
   background-image: url("/images/press/screenshots/file_view.png");
-  background-position-y: -4px;
 }
 
 .network-graph {
   background-image: url("/images/press/screenshots/network_graph.png");
-  background-position-y: -4px;
 }
 
 .stacked-wordmark {
   background-image: url("https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png");
-  background-position-y: -8px;
 }
 
 .stacked-wordmark-no-bg {
   background-image: url("https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.png");
-  background-position-y: -7px;
 }
 
 .stacked-wordmark-grayscale {
   background-image: url("https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.png");
-  background-position-y: -8px;
 }
 
 .wordmark {
@@ -135,141 +84,118 @@ ul {
 
 .wordmark-no-bg {
   background-image: url("https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png");
-  background-position-y: 8px;
 }
 
 .wordmark-grayscale {
   background-image: url("https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png");
-  background-position-y: 8px;
 }
 
-.image {
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 40px;
-  width: 170px;
-  float: left;
-  border: 1px solid $color-primary;
-  border-radius: 2px;
-  pointer-events: none;
-}
+.downloads {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 
-.square-image {
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 40px;
-  width: 170px;
-  height: 170px;
-  float: left;
-  border: 1px solid $color-primary;
-  border-radius: 2px;
-  pointer-events: none;
-}
+  .image-container {
+    flex-basis: 33.33%;
+    padding: 20px 30px;
 
-.blog-twitter-row {
-  margin: 55px 0;
-}
+    @media (max-width: 768px) {
+      flex-basis: 50%;
+    }
 
-.recent-blog p {
-  font-size: 20px;
-}
+    @media (max-width: 400px) {
+      flex-basis: 100%;
+    }
 
-.recent-blog a:first-child {
-  color: $color-primary;
-  transition: .2s ease;
-  text-decoration: underline;
+    .text {
+      margin-bottom: 4px;
 
-  &:hover {
-    text-decoration: none;
-  }
-}
+      span {
+        font-size: 19px;
 
-.recent-blog a:nth-child(2) {
-  color: $link-color;
-  text-decoration: underline;
-  transition: .2s ease;
-}
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+    }
 
-.recent-blog a:nth-child(2):hover {
-  text-decoration: none;
-}
+    .image {
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 150px;
+      background-position: center;
+      border: 1px solid $border-color;
+    }
 
-.press-image {
-  display: inline-block;
-  width: 24%;
-  padding-right: 40px;
+    .list {
+      margin-top: 2px;
 
-  img {
-    filter: grayscale(85%);
-    transition: .2s ease;
-
-    &:hover {
-      filter: none;
+      .btn {
+        border-color: $border-color;
+        width: 100%;
+        margin: 2px 0;
+      }
     }
   }
 }
 
-.press-text {
-  text-align: left;
-  margin: 0 0 18px;
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
+.recent-blog p {
+  font-size: 18px;
+}
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .press-image {
+    flex-basis: 25%;
+
+    img {
+      filter: grayscale(85%);
+      transition: .2s ease;
+      padding: 10px 20px;
+
+      &:hover {
+        filter: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-basis: 50%;
+    }
+
+    @media (max-width: 400px) {
+      flex-basis: 100%;
+
+      img {
+        padding: 10px 60px;
+      }
+    }
+  }
+}
+
+.podcast-item {
+  margin-bottom: 20px;
+
+  .podcast-date {
+    display: inline-block;
+    text-align: right;
+    width: 110px;
+    vertical-align: middle;
+  }
+
+  .press-text {
+    text-align: left;
+    max-width: 350px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
 }
 
 .article-title {
   color: $color-dark;
   font-size: 18px;
-}
-
-.individual .btn {
-  width: 100%;
-  border-color: $color-gray-light;
-  margin-top: 1px;
-
-  a {
-    color: $color-dark;
-  }
-}
-
-.list {
-  width: 169px;
-}
-
-.multi-button a {
-  color: $color-dark;
-}
-
-.multi-button .btn {
-  border-color: $color-gray-light;
-  width: 100%;
-  margin: 2px 0;
-}
-
-.images-column .btn-group > .btn:first-child {
-  border: 1px solid $color-primary;
-  margin-top: -5px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  padding: 6px 49px;
-  margin-left: 1px;
-}
-
-.dropdown-menu > li > a {
-  text-align: left;
-}
-
-.recent-podcasts {
-  margin-bottom: 45px;
-}
-
-.podcast-item {
-  margin-bottom: 15px;
-}
-
-.investors {
-  width: 100%;
-  margin: 0 auto;
 }
