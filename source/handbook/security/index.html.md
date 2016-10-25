@@ -43,6 +43,8 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,
    lock the desktop, or close the lid.
+1. If you like to backup your computer make sure the backup drive is encrypted and use a strong password.
+1. For backups on macOS (OSX) follow this tutorial: [How to use Time Machine](https://support.apple.com/en-us/HT201250)
 1. **Report** suspect situations to an officer of the company.
 1. If you have security **suggestions** put them on the [team call agenda].
 1. Never **dismiss** a security report as invalid. Keep asking questions until
@@ -244,7 +246,7 @@ To create a personal local vault:
 1. Go to **Advanced**
 1. Under **Local Vaults**, check **Allow creation of vaults outside of 1Password accounts**
 1. Enter your Master Password
-1. A new local vault (**Primary**) is created outside the GitLab team account 
+1. A new local vault (**Primary**) is created outside the GitLab team account
 1. If you want to setup sync for your new local vault, go to **Preferences > Sync**
 
 ### Example Usage<a name="1password-example-usage"></a>
