@@ -118,6 +118,14 @@ author? There's now a quick link to do this:
 
 ![Quickly assign](/images/8_13/assign_yourself.png)
 
+### Restrict the visibility of a project's repository
+
+You can now restrict access to the project's repository, like you can do for the
+Issues or Snippets in a given project. You can either disable the access entirely
+for anyone, or restrict it to only team members.
+
+![Project repository visibility](/images/8_13/restrict_access.png)
+
 ## /wip Slash Command
 
 You can now use the [amazing slash commands][slash-cmds] to quickly
