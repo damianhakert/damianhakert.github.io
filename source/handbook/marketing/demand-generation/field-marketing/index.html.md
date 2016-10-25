@@ -61,7 +61,7 @@ Field marketing includes event marketing and swag production.
 ## Pre Event Outreach<a name="promotion"></a>
 - Get attendee list and contact customers and prospects before event.
 - If there is not an attendee list do "warm" outreach to prospects- create email campaign based on location. Send one email 1.5 weeks before event.
-- BDRS will help set up in person meetings to occur at event.
+- BDRs will help set up in person meetings to occur at event.
 
 ## Complete Before Event<a name="promotion"></a>
 - Set up post event follow up campaigns in Marketo.
@@ -94,10 +94,10 @@ Field marketing includes event marketing and swag production.
 
 - To Bring:
     - Generic business cards
-    - [Lego business card holder] (https://gitlab.com/gitlab-com/marketing/issues/306#note_12536262)
+    - [Lego business card holder](https://gitlab.com/gitlab-com/marketing/issues/306#note_12536262)
     - Stickers + any other swag
     - Events lap top (for slide show) + charger
-    - Back up power banks
+    - Backup power banks
     - Gum
 
 ## Suggested Attire<a name="attire"></a>
@@ -109,7 +109,7 @@ Field marketing includes event marketing and swag production.
 ## Booth Staffing<a name="boothstaffing"></a>
 - Ideally booth shifts will be around 3 hours or less.
 - Staff more people during peak traffic hours.
-- Avopid shift changes during peak hours.
+- Avoid shift changes during peak hours.
 - Aim to staff booth with individuals with a variety of expertise and genders- ideally technical and non-technical people of either gender can be paired.
 - Send out invites on the Events & Sponsorship calendar to booth staff with the following information:
     - Time and date of event, booth, and shift
