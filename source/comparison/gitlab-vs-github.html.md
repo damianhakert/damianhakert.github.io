@@ -91,5 +91,33 @@ GitLab provides a dashboard that lets teams measure the time it takes to go from
 
 > [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
 
+### Slash commands
+
+In GitLab, you can pilot almost everything that affects an issue or a merge
+request with slash commands.
+
+> [Documentation about slash commands](https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab slash commands)
+
+### Issue board
+
+GitHub has Projects, which are not tight to labels in any way, making it hard to automatize
+flows.
+
+GitLab has Issue boards. Each list of an issue board is based on a label that exists in your
+issue tracker. The Issue Board will therefore match the state of your issue tracker in a
+user friendly way.
+
+> [Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
+
+### Continuous Integration
+
+GitHub integrates with popular, external CI platforms.
+
+GitLab provides a continuous integration service, built-in, for free. It's tightly integrated
+with everything in the product and just works. You can also decide to use external CI solutions
+if you choose to.
+
+> [Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
+
 ### Don't take our word for it.
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
