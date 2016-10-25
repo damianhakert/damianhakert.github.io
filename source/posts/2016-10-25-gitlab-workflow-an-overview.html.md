@@ -184,7 +184,7 @@ When you add or edit a file and commit to a new branch from the UI instead of fr
 **Note:** It's important to add the [issue closing pattern] to your MR in order to be able to track the process with [GitLab Cycle Analytics](#feedback). It will track the "code" stage, which measures the time between pushing a first commit and creating a merge request related to that commit.
 {: .note .alert .alert-success}
 
-We're currently developing [Review Apps][ra], a new feature that gives you the ability to deploy your app to a `review` stage, from which you can preview the changes based on the branch name, per MR. See a [working example][RA-example] here.
+We're currently developing [Review Apps][ra], a new feature that gives you the ability to deploy your app to a dynamic environment, from which you can preview the changes based on the branch name, per merge request. See a [working example][RA-example] here.
 
 ### WIP MR
 
@@ -208,7 +208,7 @@ The commit history is available from the UI, from which you can track the change
 
 If you run into merge conflicts, you can quickly [solve them right for the UI][conflict-res], or even edit the file to fix them as you need:
 
-![code review in MRs at GitLab](/images/8_13/inlinemergeconflictresolution.gif){: .shadow}
+![mr conflict resolution](/images/8_13/inlinemergeconflictresolution.gif){: .shadow}
 
 ## Build, Test, and Deploy
 
@@ -231,7 +231,7 @@ Examples of GitLab CI use-cases:
 - Use it to [build an iOS application][ios-post]
 - Use it to [build and deploy your Docker Image][post-docker] with [GitLab Container Registry][gcr]
 
-We have prepared dozens of [GitLab CI Example Projects][ci-ex] to offer you guidance. Check them out!
+We have prepared a dozen of [GitLab CI Example Projects][ci-ex] to offer you guidance. Check them out!
 
 ## Feedback: Cycle Analytics
 {: #feedback}
@@ -306,7 +306,7 @@ Besides keeping an eye on an issue or MR, if you want to take a future action on
 
 #### Search for your Issues and MRs
 
-When you're looking for an issue or MR you opened long ago in a project with dozens, hundreds or even thousands of them, it turns out to be hard to find. Expand the navigation on your left and click on **Issues** or **Merge Requests**, and you'll be able to filter all your issues or MRs by author, assignee, milestone, label and weight. You can also search for opened, merged, closed, and all of them (both merged, closed, and opened).
+When you're looking for an issue or MR you opened long ago in a project with dozens, hundreds or even thousands of them, it turns out to be hard to find. Expand the navigation on your left and click on **Issues** or **Merge Requests**, and you'll see the ones assigned to you. From there or from any issue tracker, you can filter issues or MRs by author, assignee, milestone, label and weight, also search for opened, merged, closed, and all of them (both merged, closed, and opened).
 
 ### Moving Issues
 
@@ -327,7 +327,7 @@ Let's suppose you work at a company focused in software development. You created
 ### Labels Strategy
 {: .no_toc .special-h3}
 
-For this  application, you already have created labels for "discussion", "backend", "frontend", "working on", "staging", "ready", "docs", "marketing", and "production." All of them already have their own lists in the Issue Board. Your issue currently have the label "discussion."
+For this application, you already have created labels for "discussion", "backend", "frontend", "working on", "staging", "ready", "docs", "marketing", and "production." All of them already have their own lists in the Issue Board. Your issue currently have the label "discussion."
 
 After the discussion in the issue tracker came to an agreement, your backend team started to work on that issue, so their lead moved the issue from the list "discussion" to the list "backend." The first developer to start writing the code assigned the issue to himself, and added the label "working on."
 
