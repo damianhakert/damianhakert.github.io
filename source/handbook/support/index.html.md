@@ -65,7 +65,11 @@ for tough issues.
 By triaging support effort through internal SLA's, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
 
-## Service Level Agreements
+## Service and support we provide
+
+For an overview of the support we provide to customers and GitLab.com users, please see the general [support page](https://about.gitlab.com/support/). What follows is a more detailed description of the level of service.
+
+### Service Level Agreements
 {: #sla}
 
 The channels are sorted in order of priority, there are 4 SLA categories:
@@ -82,7 +86,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
-### SLA Workflow
+#### SLA Workflow
 
 Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
 
@@ -93,6 +97,52 @@ Service Engineers can work on any ticket they feel they can contribute to. Howev
 1. Other open tickets
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+
+#### Zendesk SLA settings and Breach alerts
+
+SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page.
+
+### Calls, Trainings, Installation Support, and Live Upgrade Assistance
+
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets.
+
+#### Installation Support
+
+We offer an "implementation service" for new EE customers. This is similar to live upgrade assistance, except that live upgrade assistance is a premium support offering, while implementation is an option available for purchase by any EE customer. To provide Implementation Support:
+
+- The relevant account executive should open an issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/), and include the following information:
+   - Customer name, and domain name
+   - Note whether customer is Premium Support, or "only" requesting Implementation Support.
+   - Collect from the customer, if possible, the following information:
+      - Server operating system (Red Hat, CentOS, Debian, Ubuntu), and version?
+      - Install type:
+         - Fresh install?
+         - Upgrade from CE?
+            - In-place or migration to new server?
+            - What version are they on, and what version do they expect to upgrade to?
+            - Source or Omnibus installation?
+            - Available downtime window - anytime or off-hours?
+   - Assign to Support Lead
+   - Mark as confidential
+- The account executive should make sure to add "Implementation Support" as a product field in Zuora for the customer. This allows the Support team to recognize such requests in Zendesk right away when the customer reaches out to schedule the installation.
+- The account executive should then instruct/invite the customer to submit a request for implementation using the [support web form](https://support.gitlab.com). From here on, it is within the hands of the Support Team.
+
+
+Implementation Support does **not** cover:
+
+   - Consulting services to help determine how to set up for HA (except where separately purchased).
+   - Active assistance in setting up HA systems.
+   - Further live upgrade assistance beyond the initial implementation (except for Premium Support customers).
+
+
+
+
+## How we're doing
+
+The [Zendesk Insight dashboard](https://gitlab.Zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
+lists the activity for all our channels currently and summarized over the last 30 days (login to Zendesk required).
+
+## Additional resources for the support team
 
 ### Support Turbo
 
@@ -105,27 +155,13 @@ support turbo developers to momentarily switch away from their other tasks.
 
 Support turbos are separate from the []"fix4all" rotation](/handbook/engineering/fix4all), in that turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
 
-### Zendesk SLA settings and Breach alerts
-
-SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page.
-
-### Zendesk Dashboard
-
-The [Zendesk Insight dashboard](https://gitlab.Zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
-lists the activity for all our channels currently and summarized over the last 30 days (login to Zendesk required).
-
-We can't fit more than 13 views in the dashboard panel.
-We have 6 views that are not channels.
-Meaning we have 7 views left for all our channels.
-That is why some channels are combined.
-
 ## Dedicated Service Engineers
 
-Certain subscribers have purchased Premium Support (TODO: create /support page), which gives them access to a Dedicated Service Engineer. This means that tickets that arrive in Zendesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in Zendesk.
+Customers who purchased Premium Support have access to a Dedicated Service Engineer. This means that tickets that arrive in Zendesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in Zendesk.
 
-- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that make it easier to pick an appropriate DSE, such as client timezone, language, specific needs, etc.
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that are requested in the template such as client timezone, language, specific needs, etc. to make it easier to assign an appropriate SE to the account.
    - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then create the trigger, and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or SalesForce.
-   - Related section of the [Sales handbook](/handbook/sales/#premium-support).
+   - Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
 - To make sure that these subscribers are served well, even when their dedicated SE is not directly
 available, there is a 'view' in Zendesk to display all "dedicated" tickets so
 that other Service Engineers can see them and jump in to avoid an SLA breach.
@@ -137,40 +173,10 @@ currently unavailable to respond to your ticket." When you return, you should re
 all tickets submitted by the subscriber during your absence, and make sure to follow-through
 or follow-up as required.
 
-## Security disclosures
 
-We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-Emails sent to security@gitlab.com go into Zendesk and receive an autoresponder that
-says: "Thank you for your responsible disclosure of a potential GitLab vulnerability.
-We'll follow up with you within one business day." We also accept reports via [HackerOne](https://hackerone.com/gitlab), see [more information](/handbook/support/channels#hackerone) on this channel.
+## Contacting support
 
-Please be very patient with these reports. Do not say 'there is no problem', you
-might be misunderstanding something that can lead to a 0 day disclosure.
-Give examples and keep asking questions until you understand the problem or until
-the researcher concludes there is no problem.
-If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](/vulnerability-acknowledgements/)
-even if there was no actual vulnerability.
-If you say that we'll get back to them **always** mention that they can email us at any time for an update.
-This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
-
-If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
-If someone opens a public issue please leave a message:
-"Thank you for helping to
-make GitLab more secure! We removed the contents of your vulnerability disclosure
-to keep it private. We opened an internal issue to look at your disclosure. Can
-you please use our [Responsible Disclosure Policy](/disclosure/)
-to send us an email that references this url so we can communicate in private?"
-
-#### PGP Process
-
-The key used to encode/decode PGP messages is stored in our Support Vault on 1Password.
-We only provide our public PGP key upon request because it makes collaborating much
-harder and only a small percentage of all disclosures are serious enough to require that overhead.
-
-See [PGP Process](/handbook/support/pgp_process) for
-information about using the security PGP key pair and decrypting messages.
-
-## Internal Support
+### Internal Support for GitLab team members
 
 Fellow GitLab team members can reach out for help from the Support Team in various ways:
 
@@ -181,8 +187,6 @@ Google doc. Those emails create tickets in Zendesk.
 requests create a [support issue](https://gitlab.com/gitlab-com/support/issues)
 1. If customers or users have questions advise them to contact support direct via the relevant channel.
 1. For quick questions that are urgent ping the support team on the support chat channel.
-
-## Contacting support
 
 ### Support Issue Tracker
 
