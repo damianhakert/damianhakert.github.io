@@ -1301,6 +1301,7 @@
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
+              <li><a href="https://gitlab.com/gitlab-org/gitlab-workhorse">GitLab Workhorse</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           After eight years spent building The Cloud (or at least, A Cloud),
           Nick fell in love with his newest tool for doing so - GitLab! His free
