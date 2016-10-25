@@ -1,3 +1,21 @@
+<head>
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Your eye-catching title here" />
+<meta property="og:url" content="http://www.gitlab.com" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="descriptive copy" />
+<meta property="og:image" content="image link" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Title" />
+<meta name="twitter:description" content="200 words" />
+<meta name="twitter:url" content="URL" />
+<meta name="twitter:image" content="image URL" />
+
+</head>
+
 ---
 layout: markdown_page
 title: "Community Writers Program"
