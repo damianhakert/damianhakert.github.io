@@ -274,3 +274,10 @@ ul {
   width: 100%;
   margin: 0 auto;
 }
+
+@media (max-width: 780px) {
+  .press-image {
+    width: 48%;
+    padding-left: 40px;
+  }
+}
