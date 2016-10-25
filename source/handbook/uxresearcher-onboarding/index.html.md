@@ -41,14 +41,11 @@ TODO
 
 ### Qualitative
 
-#### Contextual inquiry / User Acceptance Testing
-This method is used to understand the current (or potential) customers, use cases, and scenarios for the features. It involves interviewing people, and synthesizing the information into models such as personals and journey maps. These models are then shared to help inform decisions.
+#### User Acceptance Testing / Concept validation
+This method is used to understand the current (or potential) customers, use cases, and scenarios for the features. It involves interviewing people, and synthesizing the information into models such as personas and journey maps. These models are then shared to help inform decisions on if we are building the right things, or highlights what problems we should be solving for our customers.
 
 #### Usability testing
-Usability testing is used to understand if the details of the flow and design interactions make sense. Users are observed as they are asked to complete tasks, thinking aloud and sharing their understanding of the experience. 
-
-#### Concept validation
-Concept validation is used to ensure new features are the right features needed by our customers to solve their existing problems.
+Usability testing is used to understand if the details of the flow and design interactions make sense. Users are observed as they are asked to complete tasks, thinking aloud and sharing their understanding of the experience. This helps us know if we are building things in the right ways, with the right flows.
 
 ## Relevant links
 
