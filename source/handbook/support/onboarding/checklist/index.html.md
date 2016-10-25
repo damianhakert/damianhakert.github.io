@@ -194,6 +194,7 @@ _Typically start this in week 2 or 3, complete by end of week 4._
 
 Look at the `GitLab Support` Google Calendar to find customer calls you can listen in on. Contact the person leading the call to check if it is okay for you to jump in on the call, and if they could stay on with you for a few minutes after the call, for you to ask them a few questions about things you didn't understand, and them to ask you a few questions to make sure you understood the items they want you to take away.
 
+1. [ ] Hiring Manager: make sure that the new team member has a "Pro" account within the GitLab team account on [Zoom.us](https://gitlab.zoom.us).
 1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call
    1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webex)
    1. [ ] Training calls

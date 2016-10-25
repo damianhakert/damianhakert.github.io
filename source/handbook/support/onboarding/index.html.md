@@ -19,10 +19,10 @@ As members of the support team we are the first to interact with someone when th
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
 expected to:
 
-- Always be friendly and respectful
-- Be open to new ideas and points of view
-- It is OK if you don't know something. You can always ask someone else
-- It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
+- Always be friendly and respectful.
+- Be open to new ideas and points of view.
+- It is OK if you don't know something. You can always ask someone else.
+- It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary.
 - Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines).
 
 ## Service Engineering Bootcamp
@@ -32,10 +32,25 @@ When you first join the team everything will be new to you. In order to get you
 started with GitLab quickly a [Service Engineering Bootcamp Checklist](https://about.gitlab.com/handbook/support/onboarding/checklist)
 will be created for you to help guide you through your training.
 
-## WebEx
+## Tools
 
-More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
-a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
+We use Zendesk to handle tickets, and we will sometimes schedule calls. That is most often done through Zoom, but can also be done through WebEx if the customer's system does not allow them to install the Zoom plugin.
+
+### Zendesk
+
+For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/knowledge-base/zendesk/).
+
+### Zoom
+
+Zoom is a powerful and light-weight videoconferencing tool that works for 90% of the customer calls (see the bit about WebEx for the other 10%). As part of your support boot camp, you should have received a Pro account there so that you can schedule your own calls. To start a call, log on to [gitlab.zoom.us](https://gitlab.zoom.us/) using your personal credentials and click on "My Meetings" for a link to your personal meeting room. Share this with the customer.
+
+Zoom allows you to see the customer's desktop and
+to control it on request; and it also offers the option of recording the call (we do not typically do this, be certain to ask for the customer's permission of you have a good reason for recording). It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
+
+### WebEx
+
+For some customers, only Cisco systems are allowed and for those cases, WebEx will be the best tool for calls. To start a call / session use the `GitLab Support` WebEx account. Go to our
 [WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
 credentials found in the Support Vault on 1Password.
 
@@ -50,7 +65,7 @@ https://gitlabmeetings.webex.com/meet/gitlabsupport
 
 ![WebEx Room](/images/support/web-ex-room.png)
 
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
+WebEx allows you to see the customer's desktop and
 to control it on request. It also gives the customer the possibility to join via phone and
 us the possibility to use our computer audio connection.
 
@@ -354,10 +369,10 @@ are, however, some things to consider when a member of the support team takes a 
 **On-call schedule must be covered**
 
 Before leaving for vacation, 2 weeks before at the latest, you should coordinate with your colleagues
-to see who can take over the days when you should be on-call. This can happen via an issue in our 
+to see who can take over the days when you should be on-call. This can happen via an issue in our
 [support issue tracker](https://gitlab.com/gitlab-com/support/issues) or via
-a Hangout that you should schedule. 
-See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information. 
+a Hangout that you should schedule.
+See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information.
 
 **Rest of the team**
 
