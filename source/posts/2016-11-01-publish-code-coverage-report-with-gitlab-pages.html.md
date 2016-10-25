@@ -97,7 +97,9 @@ assets/ index.html
 
 Yes! This is a HTML code coverage report that we can publish with GitLab Pages!
 
-### Add CI configuration
+### Add GitLab CI configuration
+
+GitLab CI configuration can be defined in `.gitlab-ci.yml` file.
 
 <i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 _Run RSpec test suite first_
@@ -134,6 +136,42 @@ that is available from the build sidebar. It is there!
 
 ![code coverage report artifacts](images/blogimages/publish-code-coverage-report-with-gitlab-pages/coverage-report-artifacts-browser.png)
 
+<i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+_And publish with GitLab Pages!_
+
+```yaml
+image: ruby:2.3
+
+rspec:
+  stage: test
+  script:
+    - bundle install
+    - rspec
+  artifacts:
+    paths:
+      - coverage/
+
+pages:
+  stage: deploy
+  dependencies:
+    - rspec
+  script:
+    - mv coverage/ public/
+  artifacts:
+    paths:
+      - public
+```
+
+Job that is meant to publish your code coverage report with GitLab Pages has
+to be placed in the separate stage. Stages `test`, `build` and `deploy` are
+specified by default, but you can change that if needed. Note that you also
+need to use `pages` as a job name.
+
+Using `dependencies` keyword, tells GitLab to download artifacts stored as part
+of `rspec` job. You also need to rename directory from `coverage/` to `public/`
+because this is the directory that GitLab Pages feature expects to find static
+website.
+
 ### Parallel tests
 
 Things get a little more complicated when you want to parallelize your test
@@ -164,7 +202,7 @@ There is an issue about contributing this change to SimpleCov [here](https://git
 
 ## Summary
 
-Testing shows the presence, not the absence of bugs.
-  -- Edsger Dijkstra
+> _Testing shows the presence, not the absence of bugs._<br />
+> &nbsp; &nbsp; -- Edsger Dijkstra
 
 ## Documentation
