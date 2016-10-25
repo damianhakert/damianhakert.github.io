@@ -103,6 +103,8 @@ The support team calls for help when necessary via Slack, but in case of doubt o
 conflicting priorities, the Backend Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
 
+Support turbos are separate from the []"fix4all" rotation](/handbook/engineering/fix4all), in that turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
+
 ### Zendesk SLA settings and Breach alerts
 
 SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page.
