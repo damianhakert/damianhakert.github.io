@@ -6,6 +6,9 @@ title: Support
 ## Welcome to the GitLab Support Handbook
 {: .no_toc}
 
+**Looking for technical support? Please visit the [Support Page](https://about.gitlab.com/support/) instead.**
+{:.no_toc}
+
 ----
 
 ### On this page
@@ -74,6 +77,8 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 | 3   | [Disqus](/handbook/support#disqus)  and [Twitter](/handbook/support#twitter)         | 1 business day                         |
 | 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
 
+**Response time indicates the first reply time.**
+
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
@@ -100,7 +105,7 @@ support turbo developers to momentarily switch away from their other tasks.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page. 
+SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/zendesk)  page.
 
 ### Zendesk Dashboard
 

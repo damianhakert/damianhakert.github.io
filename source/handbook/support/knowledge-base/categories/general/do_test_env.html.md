@@ -29,6 +29,8 @@ This guide involves configuring a Digital Ocean droplet and setting up Docker lo
 
 This command will create a new DO droplet called `gitlab-test-evn-do` that will act as a docker host. 
 
+**Note: 4GB is the minimum requirement for a Docker host that will run more then one GitLab instance** 
+
 + RAM: 4GB
 + Name: `gitlab-test-env-do`
 + Driver: `digitalocean`
@@ -98,18 +100,6 @@ docker run --detach \
 --name $NAME \
 gitlab/gitlab-ee:$VERSION 
 ```
-
-
-##### Update `gitlab.rb` values
-``` 
-docker exec -it $NAME \
-sed -i "s/.*gitlab_shell_ssh_port.*/gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT/g" /etc/gitlab/gitlab.rb 
-
-docker exec -it $NAME gitlab-ctl reconfigure
-```
-
-*Note: the use of `sed` on gitlab.rb should not be required as you can use GITLAB_OMNIBUS_CONFIG, this isn't working in testing*
-
 
 #### Connect to the GitLab container
 

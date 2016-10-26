@@ -1,4 +1,5 @@
 @import "variables";
+@import "vendor/bootstrap/bootstrap/variables";
 
 h1,
 h2 {
@@ -153,4 +154,64 @@ p {
 
 .gitlab-arch {
   margin-top: 9%;
+}
+
+.gitlab-ee-page {
+  margin-bottom: -50px;
+
+  .sub-wrapper {
+    background-color: $color-white;
+  }
+
+  .image-title {
+    background: url("/images/stock/ee-products-hero-image.jpg");
+    background-size: cover;
+
+    h1 {
+      @media (max-width: $screen-xs-max) {
+        padding-top: 55px;
+      }
+    }
+  }
+
+  .color-bg {
+    height: 370px;
+  }
+
+  .geo-diagram {
+    margin-top: 30px;
+  }
+
+  .documentation-link {
+    margin-top: 15px;
+    list-style: none;
+  }
+
+  .ee-feature-icon {
+    text-align: center;
+    margin-top: 50px;
+
+    svg {
+      height: 180px;
+      width: 180px;
+      fill: $color-secondary;
+    }
+  }
+
+  .add-options-buttons {
+    background-color: $color-white;
+    padding-bottom: 50px;
+
+    .container {
+      border-top: 1px solid $landing-organization-color;
+    }
+
+    .customer-block {
+      padding: 50px 0;
+
+      .btn {
+        min-width: 240px;
+      }
+    }
+  }
 }

@@ -78,7 +78,7 @@ _Typically started in first week, completed by end of third week_
 - Have an installation available for reproducing customer bug reports.
 
 1. [ ] Check back on your Zendesk account if you are not yet an `Agent`.
-1. [ ] Check to make sure you were added to the `GitLab Support` Google Calendar and can see its events.
+1. [ ] Hiring Manager: Add team member to to the `GitLab Support` Google Calendar.
 
 **Set up your development machine**
 

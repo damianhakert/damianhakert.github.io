@@ -1,10 +1,10 @@
 ---
 layout: job_page
-title: "Packaging Lead"
+title: "Build Lead"
 ---
 
-The Packaging Lead reports to the VP of Engineering, and Packaging specialists
-report to the Packaging Lead.
+The Build Lead reports to the VP of Engineering, and Build specialists
+report to the Build Lead.
 
 ## Responsibilities
 

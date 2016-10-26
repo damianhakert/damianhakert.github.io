@@ -1,12 +1,13 @@
 ---
 layout: markdown_page
 title: "Community Writers Program"
-description: "Write for GitLab and get compesated!"
+description: "Start today and earn up to $200 an article."
+twitter_image: /images/handbook/marketing/community-writers-twitter-illustration.png
 ---
 
 <br>
 
-![Write for GitLab](/images/community/computers-table-banner.jpg)
+![Write for GitLab](/images/handbook/marketing/community-writers-twitter-illustration.png)
 
 {::options parse_block_html="true" /}
 

@@ -41,6 +41,9 @@ When it is time for offboarding, create issue for former team member on the dev 
    1. [ ] Hiring Manager: Remove team member from team meeting invitations.
    1. [ ] Hiring Manager: Cancel weekly 1:1 meetings with new team member.
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
+1. [ ] People Ops: If there is one, remove team member's pet from [team pets page](https://about.gitlab.com/team-pets). Don't forget to remove the picture.
+1. [ ] People Ops: Remove mentions of the team member from our documentation and handbook by doing a text search for their `username` and `first_name` in the `www-gitlab-com` and `gitlab-ce` repositories
+and removing them from everywhere except blog posts. If you do not have a tool of choice, try "Find in Project" using Atom.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
 1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
@@ -50,6 +53,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] Hiring Manager: Announce in general chat channel 'X is no longer with GitLab'
 1. [x] _not relevant_ Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Manager: Organize smooth hand over of any work or tasks from former team member. Offer option to send a message to everyone in the company (i.e. forwarded by the manager), for a farewell message and/or to transmit their personal email address in case people wish to stay in touch.
+1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 
 ### FROM ONBOARDING'S "ON YOUR FIRST DAY"
 
@@ -82,7 +86,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
       1. [ ] team call recordings password (i.e. Zoom login)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
-   1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
@@ -109,13 +112,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [x] _not relevant_ New team member: Take a look at the "Reference Customers" google doc to familiarize yourself with which customer information should be kept confidential within the company.
+1. [ ] Hiring Manager: Check former team members' project-level permissions and remove them as-needed.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
 1. [ ] Hiring Manager: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
 1. [ ] Hiring Manager: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Hiring Manager: Remove former team members' account from [Sentry](https://sentry.gitlap.com/organizations/gitlab/members/)
-1. [ ] Hiring Manager: Check former team members' project-level permissions and remove them as-needed.
 1. [ ] For former Developers (those who had access to part of the infrastructure), and Production team members: copy offboarding process from [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/offboarding.md) for offboarding action.
 1. [x] _not relevant_ For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Remove access to PagerDuty if applicable.
