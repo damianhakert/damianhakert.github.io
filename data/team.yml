@@ -1789,16 +1789,21 @@
   story:  |
           Joining October 17th
 
-- name: C.S.
-  locality:
-  country:
+- name: Connor Shea
+  locality: Highlands Ranch, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: connor.png
+  twitter: connorjshea
+  gitlab: connorshea
   story:  |
-          Joining October 17th
+          One part Google, two parts trial-and-error. Mostly self-taught 
+          front-end developer. He’s passionate about performance, user
+          experience, security, upgrading things, style guides, documentation,
+          automation, localization, open source, grammar, and enforcing Oxford
+          commas. Outside of work: video games, Dungeons & Dragons,
+          following the news, listening to podcasts, and thoughtleading.
 
 - name: Nadia Vatalidis
   locality: Johannesburg
