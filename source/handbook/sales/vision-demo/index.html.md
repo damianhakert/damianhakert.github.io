@@ -11,9 +11,7 @@ We're going to start from scratch, creating a brand new GitLab installation.
 
 ![](handbook/sales/steps.png)
 
-An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
-
-<iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
 
 ----
 
@@ -27,6 +25,7 @@ An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
+- [Allow first names for project and group names in Openshift and GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874)
 
 ## Vision Demo: Idea to Production
 {:.no_toc}
@@ -42,7 +41,7 @@ An earlier, [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
-> * Delete all Openshift projects using OpenShift web interface
+> * Delete all Openshift projects using OpenShift web interface (will be fixed with [#874](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874))
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0)
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -68,7 +67,7 @@ The first step is to install GitLab itself. Today I'm going to use RedHat's Open
 And then we import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
 
 > * Click on Import YAML/JSON
-> * Open in a browser: http://bit.do/openshiftgitlab or http://bit.ly/2e953Pn
+> * Open in a browser: [YAML template in Omnibus repo](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) which is also linked from [our installation page](https://about.gitlab.com/installation/).
 > * Copy content of idea-2-prod-template.json
 > * Click Create, leave `Process the template` selected, click Continue
 >   * GitLab instance hostname to `gitlab.tanukionline.com`
@@ -123,7 +122,8 @@ Of course this is just a static file and not an application yet, but since we’
 
 ### Prepare OpenShift
 
-*TODO: Simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373)*
+*TODO: Simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) or in the short term with [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and [having trouble auto-discovering subdomain in OpenShift for idea to production demo
+](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
 
@@ -141,8 +141,11 @@ We will now copy this token and go back to GitLab where we will use this token a
 We also need to set our server and our domain.
 
 > * Repeat for:
->   * OPENSHIFT_SERVER: https://openshift.tanukionline.com:8443
->   * OPENSHIFT_DOMAIN: tanukionline.com
+>   * Key: OPENSHIFT_SERVER 
+>   * Value: https://openshift.tanukionline.com:8443
+> * and repeat for:
+>   * Key: OPENSHIFT_DOMAIN
+>   * Value: tanukionline.com
 
 ### Use GitLab CI
 

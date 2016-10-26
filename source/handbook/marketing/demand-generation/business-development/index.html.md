@@ -18,22 +18,21 @@ Business Development Handbook
 * [Inbound Process](#Inbound)
 * [Variable Compensation Guidelines](#compensation)
 * [Vacation Days](#vacation)
-* [Additional Resources](#Toolkit)
 * [Prospecting 101](#Basic)
 * [How to Cold Call](#Cold)
 * [How to Email](#Email)
 
 #### Welcome to the team!<a name="Role"></a>
-Welcome to GitLab and congratulations on landing a job with one of the best open source tech companies in the world. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson. 
+Welcome to GitLab and congratulations on landing a job with the best open source tech company, GitLab. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson. 
 
-On the BDR team we work extremely hard, but also have a ton of fun. We expect your best each and every day. Know that we will do all we can to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
+On the BDR team we work hard, but have fun too. We will work hard to garuntee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
-The job can come with long days, hard work, frustration and even at times, failure. Know that those with the right mindset and work ethic will find success, personal development, career growth, and financial security. There isn’t a better place to be with more opportunity than this. Let’s make it happen!
+Being a BDR can come with what seems as long days, hard work, frustration and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role
-As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be generating qualified pipeline for GitLab as you hunt for leads, research companies, industries, roles, and setting meetings with key players. 
+As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries and different roles.
 
-As you gain knowledge, you will be equipped with the necessary skills to aid these key players in solving complex business problems. We want to set you up for success and help you apply your critical thinking skills as you positively impact different businesses. There are numerous resources at your fingertips that we have created to help you in this process. You have:
+As you gain knowledge, you will be able to aid these key players in solving problems within the developer lifecycle. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
 1: [Onboarding Issue](https://dev.gitlab.org) - This will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals. 
 
@@ -129,7 +128,7 @@ How do I BDR APAC and SA contacts
  
 #### Week One<a name="Week1"></a>  
 
-###### Sales Training
+###### Training
 * [Intro to Git](https://www.codeschool.com/users/sign_in)
 
 * Watch the [Vision Demo](https://about.gitlab.com/handbook/sales/vision-demo/): Idea to Production 
@@ -140,7 +139,7 @@ How do I BDR APAC and SA contacts
 
 * Read the [Hanbook](https://about.gitlab.com/handbook/)
 
-###### To Do
+###### To Do List
 * [Onboarding Issue](https://dev.gitlab.org)
 
 * Create an email signature [Sample](https://docs.google.com/document/d/1NvfC4a26G0WZwxB1K2oeXyGvI0DGqy-LbTKa9iPP6kU/edit)
@@ -165,7 +164,7 @@ How do I BDR APAC and SA contacts
 
 #### Week Two<a name="Week2"></a>
 
-###### Sales Training
+###### Training
 * [GitLab University](https://university.gitlab.com/)
 
 * SFDC Training TBD
@@ -176,7 +175,7 @@ How do I BDR APAC and SA contacts
  
 * Prospecting 101 by Scheduled by Chet
 
-###### To Do
+###### To Do List
 * Mine 5 leads each day using Linkedin Sales Navigator and Inside View then add them as contacts to SFDC
 
 * Create tasks for each contact
@@ -381,7 +380,7 @@ How do I deal with APAC and SA leads?
  
 #### Week One<a name="Week1in"></a>  
 
-###### Sales Training
+###### Training
 * [Intro to Git](https://www.codeschool.com/users/sign_in)
 
 * Watch the [Vision Demo](https://about.gitlab.com/handbook/sales/vision-demo/): Idea to Production 
@@ -392,7 +391,7 @@ How do I deal with APAC and SA leads?
 
 * Read the [Hanbook](https://about.gitlab.com/handbook/)
 
-###### To Do
+###### To Do List
 * [Onboarding Issue](https://dev.gitlab.org)
 
 * Create an email signature [Sample](https://docs.google.com/document/d/1NvfC4a26G0WZwxB1K2oeXyGvI0DGqy-LbTKa9iPP6kU/edit)
@@ -417,7 +416,7 @@ How do I deal with APAC and SA leads?
 
 #### Week Two<a name="Week2in"></a>
 
-###### Sales Training
+###### Training
 * [GitLab University](https://university.gitlab.com/)
 
 * SFDC Training TBD
@@ -430,7 +429,7 @@ How do I deal with APAC and SA leads?
 
     * **Note**: You will recieve 200 inbound leads to start working this week
 
-###### To Do
+###### To Do List
 * Add these suggested [canned responses](https://docs.google.com/a/gitlab.com/document/d/1EektuIAJKo9fBe-EiAnPR3BHhlkdaWE4wqG2z3QuP5o/edit?usp=sharing) to your gmail for quick replies 
 
 * Create tasks for the leads you choose to work
@@ -461,14 +460,14 @@ How do I deal with APAC and SA leads?
 
 #### Week Three<a name="Week3in"></a>
 
-###### Sales Training
+###### Training
 * [GitLab University](https://university.gitlab.com/)
 
 * Manager Session
 
 * BDR Ongoing Training (Friday)
 
-###### To Do
+###### To Do List
 * You will start recieving live leads 
 
 * Schedule time with each of the AE's to collaborate and learn about lead management **Note** There is no agenda for this meeting, attend prepared with questions 
@@ -561,35 +560,6 @@ Rules and qualifications for BDR Vacation Incentives:
 
 With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab's PTO policy</a>), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
 
-## Prospecting Toolkit<a name="Toolkit"></a>
-
-#### Learn
-- Read industry trends and articles about your job
-- Reach out to high performers on the sales and business development teams to learn or improve a skill
-- Read the BDR handbook
-
-#### Research
-- Add at least 5 new contacts to salesforce everyday
-- Learn something new about all of your targeted accounts
-- Look for a deposit you can make in your prospecting emails/calls from an article or study online
-
-#### Plan
-- Plan your day out entirely 
-- Have metric based goals for scheduled slot whether it is calling, emailing, mining, or reading
-- Try not not multitask, become focused and separate activities to increase efficiency
-
-#### Prospect
-- Pick up the phone and dial! You are not overstepping anyone's boundaries by doing this
-- Email all newly added prospects
-- Work your desired cadence of calls/emails/voicemails
-- Follow up with historical leads that pertain to your targeted list
-- Send content to at least 10 prospects without asking for anything in return
-
-#### Evaluate
-- Look at your most productive day and duplicate it
-- Analyze and benchmark your numbers
-- Make sure Salesforce is up to date with any account/contact information
-
 #### Additional Resources
 - <a href="https://university.gitlab.com/" target="_blank">GitLab University</a>
 - <a href="https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6" target="_blank">GitLab Market and Ecosystem</a>
@@ -600,16 +570,16 @@ With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">
 
 ## Buyer Types<a name="Buyer Types"></a>
 
-#### Technical
+#### Technical Buyer
 - (End User)
 - Collaborate, features, data
 
-#### Functional
+#### Functional Buyer
 - (Director)
 - Making team projects more collaborative 
 
-#### Economic
-- (CXO)
+#### Economic Buyer
+- (C-Level, VP)
 - Hit Team Targets and ROI
 
 Your messaging for each one will be different. An end user or lower level developer will not care much about the ROI on our product.
@@ -621,7 +591,7 @@ Your messaging for each one will be different. An end user or lower level develo
 Three things in three minutes about the:
 - Organization
 - Industry
-- Individual
+- Prospect/Lead
 
 #### Where to Start?
 
@@ -649,47 +619,12 @@ Three things in three minutes about the:
 ## Basics of Prospecting<a name="Basic"></a>
 - Call about them, not you
 - Be confident and passionate
-- Aim high and wide
+- Aim for every role but focus on decision makers
 - Prospect into multiple departments
-- Don’t sell into an interruption
-- Focus on the objective
+- Ask for time
+- Focus on the your end game
 - Make it easy to say yes
-- Objection handling
-- Get something actionable
-- Reschedules are part of it
-
-#### Example of an Initial Prospecting Process/Call Cadence:<a name="Sample"></a>
-
-- 8-10 Calls (4-5 voicemails - Every other call/1-2 per week)
-- 5-6 Emails (Include 2 InMails/1-2 per week)
-
-Step 1 - Call VM/Email
-- Day or two break
-
-Step 2 - Email follow-up/InMail
-- Day or two break
-
-Step 3 - Call 2x
-- Morning (no voicemail)
-- Afternoon (voicemail)
-    - Day or two break
-
-Step 4 - Email (Deposit)
-- 3rd party resource
-    - Day or two break
-
-Step 5 - Call 2x
-- Morning (voicemail)
-- Afternoon (no voicemail)
-    - Day or two break
-    
-Step 6 - InMail follow-up/Call 2x
-- Day or two break
-
-Step 7 - Call VM/Email "Why Not?"
-- Day or two break
-
-Step 8 - Call VM/Email "Too Busy or Not Interested?"
+- Obtain a commitment
 
 ## Cold Call Framework<a name="Cold"></a>
 
@@ -699,7 +634,7 @@ Hi. This is (Name) from GitLab
 #### Ask for Time
 “Do you have just a moment?”
 
-#### Key Question
+#### Question
 “Have you heard of GitLab before?”
 
 #### Initial Message with IBS
@@ -710,28 +645,27 @@ Hi. This is (Name) from GitLab
 “I understand you are in charge of application/program development, is that correct?
 
 #### Schedule meeting
-"Do you have 15 minutes on (specific day and time) to discuss your developer life cycle?"
+"Do you have 15 minutes on (specific day and time) to discuss your (example - developer life cycle)?"
 
 #### Initial Benefit Statement example
 - GitLab is an end-to-end developer lifecycle solution that allows developers to collaborate on code, project management, and to create a seamless workflow between teams across the entire org.
 
 #### Structure of a Prospecting Call
-- Introduction………………………...Approach/Into
-- Initial Benefit Statement………….Brief/IBS “Why me?”
-- Qualification………………………..Ask questions
-- Value proposition………………….Dive into IBS? “Why now?”
-- Education…………………………...Educate about GitLab
-- Next steps…………………………..Commitment and/or next steps
+- Introduction
+- Initial Benefit Statement
+- Qualification... See the criteria above in the handbook
+- Reason for taking the call (add value)
+- Inform them about GitLab
+- Commitments
 
 ## Email Prospecting<a name="Email"></a>
 
 #### Emails
-- Execs read emails in the morning
+- Studies show that Executives read emails in the morning
 - Expect to be forwarded to the right person (Always ask)
 - Keep emails 90 words or less
 - Break into readable stanzas
 - Always be specific and tailored
-- Make your request clear
 - Make your emails viewable from a mobile device
 
 #### Email Components
@@ -741,22 +675,3 @@ Hi. This is (Name) from GitLab
 - Benefit & Value Proposition
 - Create Urgency
 - Definite Ask with available days and times
-
-#### Basho Makeup
-- Include “you” or “your” in the subject line
-- Customer specific reference in subject line
-- First paragraph relevant customer news
-- Second paragraph is the “so what” and why they should take your call
-- End with a meeting request
-
-#### Subject: Your new project on Git
-
-Larry,
-
-You recently launched a new version of the webpage XYZ. Congrats! I am sure everyone at XYZ are loving the expertise you bring to the table. I read on your web page that it was developed using Git. 
-
-Everyday here at GitLab we help senior developers like yourself to collaborate on code, and project management in the IT departments of the Fortune 1000, ultimately leading to an average savings of 30% when compared to other tools on the market.
-
-What day do you have 15 minutes on your calendar to discuss?
-
-Thanks,

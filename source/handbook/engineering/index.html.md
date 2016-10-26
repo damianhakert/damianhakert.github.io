@@ -46,6 +46,10 @@ backend engineers.
 If it is mainly frontend code it should be reviewed by a frontend endboss, and if it is mainly backend code it should be
 reviewed by a backend endboss.
 
+## Developers on Support Team Rotation
+
+See [the fix4all description](/handbook/engineering/fix4all/).
+
 ## Resources for Engineering
 
 - [Developer onboarding](/handbook/developer-onboarding)

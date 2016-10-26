@@ -69,11 +69,6 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "Global Recruiter"
-  description: /jobs/global-recruiter/
-  apply: https://gitlab.workable.com/jobs/269339/candidates/new
-  open: true
-
 - title: "Support Lead"
   description: /jobs/support-lead/
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
@@ -84,13 +79,13 @@
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
-- title: "Product Marketing Manager: Enterprise Specialist"
-  description: /jobs/product-marketing-manager/
-  apply: https://gitlab.workable.com/jobs/285177/candidates/new
+- title: "Product Manager: CI/CD Pipelines"
+  description: /jobs/product-manager-ci
+  apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
-- title: "Product Marketing Manager: Partner and Channel Specialist"
-  description: /jobs/product-marketing-manager-partner/
+- title: "Product Marketing Manager: Enterprise Specialist"
+  description: /jobs/product-marketing-manager/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
 

@@ -78,7 +78,7 @@ _Typically started in first week, completed by end of third week_
 - Have an installation available for reproducing customer bug reports.
 
 1. [ ] Check back on your Zendesk account if you are not yet an `Agent`.
-1. [ ] Check to make sure you were added to the `GitLab Support` Google Calendar and can see its events.
+1. [ ] Hiring Manager: Add team member to to the `GitLab Support` Google Calendar.
 
 **Set up your development machine**
 
@@ -227,6 +227,8 @@ _Typically do this around the third week._
         1. [ ] [Status](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#get-service-status)
         1. [ ] [Starting and stopping services](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#starting-and-stopping)
         1. [ ] [Starting a rails console](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/maintenance/README.md#invoking-rake-tasks)
+1. [ ] Ping the Support Lead to provide you admin access to GitLab.com, so that you can resolve user issues there. Create an admin user account for this purpose.
+
 
 ### Stage 6. On Call Duty
 

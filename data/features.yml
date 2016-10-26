@@ -81,7 +81,7 @@
     link: http://doc.gitlab.com/ce/workflow/revert_changes.html
     in_ce: true
   - description: File locking
-    link: http://docs.gitlab.com/ee/user/project/file_lock.html
+    link: https://about.gitlab.com/features/file-locking/
   - description: Global code search
     link: http://doc.gitlab.com/ee/integration/elasticsearch.html#sts=Elasticsearch_integration
   - description: Merge request versions
@@ -89,7 +89,23 @@
     in_ce: true
   - description: Prevent committing secrets
     link: https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository
-
+  - description: Merge conflict resolution
+    link: http://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
+    in_ce: true
+  - description: Issue Board
+    link: http://docs.gitlab.com/ce/user/project/issue_board.html
+    in_ce: true
+  - description: Branch Permissions for users
+    link: http://docs.gitlab.com/ee/user/project/protected_branches.html#restricting-push-and-merge-access-to-certain-users
+  - description: Resolve discussion in merge requests
+    link: http://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html
+    in_ce: true
+  - description: Control issues and merge requests with Slash commands
+    link: http://docs.gitlab.com/ce/user/project/slash_commands.html
+    in_ce: true
+  - description: Integrate with Koding
+    link: http://docs.gitlab.com/ce/user/project/koding.html
+    in_ce: true
 
 - title: Additional server management options
   features:
@@ -108,7 +124,7 @@
   - description: Super-powered search using Elasticsearch
     link: http://doc.gitlab.com/ee/integration/elasticsearch.html#sts=Elasticsearch_integration
   - description: (GitLab Geo) Geographically replicated instance
-    link: http://docs.gitlab.com/ee/gitlab-geo/README.html
+    link: https://about.gitlab.com/features/gitlab-geo/
   - description: Limit project size at a global, group and project level
     link: https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#repository-size-limit
 

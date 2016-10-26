@@ -1,0 +1,81 @@
+---
+layout: default
+title: Premium Support
+suppress_header: true
+extra_css:
+  - gitlab-feature-landing-page.css
+  - features.css
+---
+.wrapper.gitlab-ee-page
+  = partial "includes/features/gitlab-ee-nav"
+  .image-title
+    .color-bg
+      %div
+        %h1 Premium Support
+        %h3#ci-subt Focus on building your product not on debugging your tools.
+  .sub-wrapper
+    .container
+
+      .row.advantages
+        .col-xs-12.col-md-10.col-md-offset-1
+          %h2 Advantages
+          %ul
+            %li
+              The best tools are intuitive. Simply working as expected. But no tool is perfect. There
+              will be a time when you'll need to troubleshoot. Premium Support gives your team a single point of contact for all of your onboarding,
+              training, upgrading, and troubleshooting needs.
+            %li
+              Premium Support is available to GitLab Enterprise Edition customers.
+      %hr.divider/
+
+      .row
+        .col-md-3.col-md-offset-1.hidden-xs.hidden-sm
+          .ee-feature-icon
+            = icon("premium-support")
+        .col-xs-12.col-md-7
+          %h2 What's included?
+          %ul
+            %li
+              %b Dedicated Service Engineer:
+              If anything goes wrong, you’ll know exactly who to reach out to. Your dedicated service engineer
+              is your team’s single point of contact for all of their support needs.
+            %li
+              %b Training:
+              Learning a new tool can be challenging, especially if members of your team are also new to Git.
+              To ease your team’s transition, you can choose two of the four
+              %a{href: "https://about.gitlab.com/training/"}training workshops
+              GitLab offers.
+            %li
+              %b Support for High Availability (HA):
+              Your Service Engineer will help you identify your specific HA needs and map out an architecture.
+            %li
+              %b 24x7 emergency support:
+              GitLab responds within 30 minutes to any emergency.
+            %li
+              %b Live upgrade assistance:
+              Schedule an upgrade time with GitLab. We’ll join a live screen share to help you through the process
+              to ensure there aren't any surprises.
+            %li
+              %b Direct access to GitLab's internal chat channel for support:
+              Don’t worry about filing a ticket or waiting the standard SLA, simply ask a short or quick questions in
+              the channel and receive an almost immediate response.
+      %hr.divider/
+
+      .row
+        .col-xs-12.col-md-6.col-md-offset-1
+          %h2 Benefits
+          %ul
+            %li
+              %b Fast:
+              Our average emergency response time is 30 minutes.
+            %li
+              %b Focused:
+              Your Dedicated Service Engineer takes time to learn about your team and business in an effort to offer
+              more tailored guidance.
+            %li
+              %b Reliable:
+              Our support team is spread out across the world. Regardless of your time zone someone will be available to help.
+        .hidden-xs.hidden-sm.col-md-4
+          %img.gitlab-raccoon-dog-image.hidden-xs{alt: "", src: "/images/logo.png"}/
+
+  = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "Premium Support" }
