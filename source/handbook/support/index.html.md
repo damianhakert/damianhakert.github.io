@@ -105,12 +105,9 @@ GitLab operates with three tiers of customer support, each tier has a set of res
 
 #### Tier 1 Support
 
-+ Provide a resolution to the customer, r, r, r, r, r, r, resolved at first point of contact (FPOC).
-
++ Provide a resolution to the customer, resolved at first point of contact (FPOC).
 + Document information from the customer in relation to the problem.
-
-+ For problems not solved at FPOC, the service engineer will inform the customer of an escalation and will escalate the ticket to Tier 2 support.
-
++ For problems not solved at FPOC, the service engineer will inform the customer of an escalation and will escalate the ticket to Tier 2 support. 
 + If no interactions have taken place and issue is not within the scope of Tier 1 support, the ticket should be escalated to Tier 2 immediately.
 
 **Examples of requests solved at Tier 1**
@@ -123,11 +120,8 @@ GitLab operates with three tiers of customer support, each tier has a set of res
 #### Tier 2 Support
 
 + Unknown issues/problems that require investigation. Follow up with customers over multiple interactions. Report the ongoing status of a pending issue/bug fix.
-
 + Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
-
 + In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
-
 + Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyse, troubleshoot, and resolve difficult issues.
 
 #### Tier 3 Support
@@ -135,9 +129,7 @@ GitLab operates with three tiers of customer support, each tier has a set of res
 Support requests escalated to tier 3:
 
 + Production critical problems faced by GitLab plus customers.
-
 + Problems that cannot be resolved at tier 2 within a signification amount of time (internal SLA).
-
 + Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
 
 ### Support Turbo
