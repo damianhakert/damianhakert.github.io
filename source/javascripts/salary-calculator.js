@@ -62,6 +62,8 @@
       $countryDropdown.on('click', this.filterCityDropdown.bind(this));
       $countryDropdown.on('click', this.resetCityDropdown.bind(this));
 
+      $countryDropdown.on('click', this.renderContractType.bind(this));
+
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
@@ -145,14 +147,14 @@
         return this.renderInvalidCompensation();
       }
 
-      this.renderContractType(contract);
-
       var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.max);
       $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
-    SalaryCalculator.prototype.renderContractType = function(contract) {
+    SalaryCalculator.prototype.renderContractType = function() {
+      var country = this.getElementValues().country;
+      var contract = this.calculateContractFactor(country);
       var $container = $('.contract-type-container');
 
       if (contract.type === CONTRACT_TYPE_EMPLOYEE) {
