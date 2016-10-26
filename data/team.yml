@@ -1613,6 +1613,8 @@
   picture: adam.jpg
   twitter: niedzielskiadam
   gitlab: adamniedzielski
+  maintains:  |
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Adam is a programmer that loves teaching people how to write code
           and sharing his knowledge. He enjoys conferences and local
@@ -1730,7 +1732,7 @@
   twitter: leematos
   gitlab: lbot
   story:  |
-          Lee is passionate about the intersection of Leadership and Technology. If he's not on the Internet, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club. 
+          Lee is passionate about the intersection of Leadership and Technology. If he's not on the Internet, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club.
 
 - name: Ian Baum
   locality: Hutchinson, MN
@@ -1798,7 +1800,7 @@
   twitter: connorjshea
   gitlab: connorshea
   story:  |
-          One part Google, two parts trial-and-error. Mostly self-taught 
+          One part Google, two parts trial-and-error. Mostly self-taught
           front-end developer. He’s passionate about performance, user
           experience, security, upgrading things, style guides, documentation,
           automation, localization, open source, grammar, and enforcing Oxford
