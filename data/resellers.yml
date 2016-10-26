@@ -184,6 +184,18 @@
       url: https://twitter.com/pivotal
     - type: twitter
       url: https://twitter.com/pivotalcf
+- name: Perforce
+  image: /images/resellers/Perforce_Logo.png
+  content: |
+    If you’re a Perforce user, or considering Perforce, and want the power of Helix for easier project management, simple DevOps integration, and greater security through narrow cloning, but are also committed to supporting various Git users, then you should consider GitSwarm, the Git management ecosystem that is enterprise ready out of the box. Empower your developers with intuitive, native workflows they’ll love while increasing project efficiency that your management team will covet. 
+  email: Sales@Perforce.com
+  contact:
+    - website: https://www.perforce.com/gitswarm
+  social:
+    - type: twitter
+      url: https://twitter.com/perforce
+    - type: linkedin
+      url: https://www.linkedin.com/company/perforce-software
 - name: ReleaseTEAM
   image: /images/resellers/release-team-logo.png
   content: |
@@ -200,3 +212,4 @@
       url: https://twitter.com/ReleaseTEAM
     - type: linkedin
       url: http://www.linkedin.com/in/releaseteam
+
