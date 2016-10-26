@@ -1745,6 +1745,39 @@
           Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
           In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
 
+- name: J.V.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
+  reports_to: Director of Strategic Partnerships
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 1st
+
+- name: B.B
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
+  reports_to: Director of Strategic Partnerships
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 10th
+
+- name: K.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
+  reports_to: Director of Strategic Partnerships
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining October 17th
+
 - name: B.J.
   locality:
   country:
