@@ -16,6 +16,9 @@ issues to work on for each release. The following information is not meant to
 be a set of hard-and-fast rules, but as a guideline as to what team decides can
 best improve certain areas of GitLab.
 
+There is a backend team call every Thursday, before the team call. You should
+have been invited when you joined; if not, ask your team lead!
+
 ### CI Team
 {: #ci}
 

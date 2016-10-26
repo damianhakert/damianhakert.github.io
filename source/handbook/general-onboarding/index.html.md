@@ -178,6 +178,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Hiring Manager: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 1. [ ] Hiring Manager: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+1. [ ] Hiring Manager: Add team member to the backend team call (if applicable)
 1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
