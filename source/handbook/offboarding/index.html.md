@@ -50,6 +50,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] Hiring Manager: Announce in general chat channel 'X is no longer with GitLab'
 1. [x] _not relevant_ Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Manager: Organize smooth hand over of any work or tasks from former team member. Offer option to send a message to everyone in the company (i.e. forwarded by the manager), for a farewell message and/or to transmit their personal email address in case people wish to stay in touch.
+1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 
 ### FROM ONBOARDING'S "ON YOUR FIRST DAY"
 
@@ -82,7 +83,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
       1. [ ] team call recordings password (i.e. Zoom login)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
-   1. [ ] People Ops: remove former team member from the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
