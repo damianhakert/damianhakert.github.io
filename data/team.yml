@@ -1700,10 +1700,10 @@
           npm packages as well as a database in rust.
 
 - name: Molly Young
-  locality:
-  country:
+  locality: St. Paul, MN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Manager
+  reports_to: BDR Manager
   picture: molly.jpg
   twitter: molleyoung
   gitlab: mollybeth
