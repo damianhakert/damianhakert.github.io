@@ -10,7 +10,7 @@ title: "Prometheus Lead"
 * Contribute to the [Prometheus open source project](https://github.com/prometheus)
 * Orchestrate the migration from our current performance monitoring solution to Prometheus
 * Improve coverage of GitLab performance monitoring
-* Measure applications deployed with GitLab (e.g. Mattermost)
+* Measure applications deployed with GitLab
 * Create automated alerts to notify team members of regressions
 * Ensures that there is a written onboarding and process that is effective and followed
 * Performs 1:1's with all reports every 2-5 weeks (depending on the experience of the report)
