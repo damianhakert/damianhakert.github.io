@@ -1812,15 +1812,17 @@
           Joining October 18th
 
 
-- name: N.F.
-  locality:
-  country:
+- name: Nick Flynn
+  locality:Orem, UT
+  country:USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
-  picture: logo-extra-whitespace.png
+  picture: Nicholasf.png
   twitter:
-  gitlab:
+  gitlab:gitlab.com/nrflynn
   story:  |
+          Nick has been in both business development and sale roles for over 3 years. In his free time he enjoys grilling, the outdoors, and
+          raising his two guinea pigs.
           Joining October 24th
 
 - name: C.P.
