@@ -158,12 +158,13 @@
       if (contract.type === CONTRACT_TYPE_EMPLOYEE) {
         $container.find('.grammer').text('an');
         $container.find('.company-type').text('Inc.');
+        $container.find('.contract-type').text('employee');
       } else {
         $container.find('.grammer').text('a');
         $container.find('.company-type').text('BV.');
+        $container.find('.contract-type').text('contractor');
       }
 
-      $container.find('.contract-type').text(contract.type);
       $container.removeClass('hidden');
     }
 
