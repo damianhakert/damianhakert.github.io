@@ -26,21 +26,20 @@ extra_js:
     %h2.page-headline.orange-title
       What is GitLab Review Apps?
     .feature-item.col-md-10.col-md-push-1
-      = icon("cycle-analytics/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
+      = icon("review-apps/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
       %h3
-        Automatic Live Review
+        Automatic Live Preview
       %p
         :markdown
-          Code, commit, and wait seconds for your review link. 
-
-          Review Apps automatically spin up dynamic environments for your merge requests. Once you merge, the environment is destroyed
+          Code, commit, and wait seconds for your preview link. 
+          Review Apps automatically spin up dynamic environments for your merge requests. After you merge the environment is destroyed.
     .feature-item.col-md-10.col-md-push-1
-      = icon("cycle-analytics/icon-benefit-2-1", "feature-icon", { label: "Built for managers and teams", width: 106, height: 106 })
+      = icon("review-apps/icon-benefit-2", "feature-icon", { label: "Built for managers and teams" })
       %h3
         Fully-Integrated
       %p
         :markdown
-          With GitLab's code review, built-in CI and now Review Apps, you can a peed up your development process with one tool for coding, testing, and live previewing your changes.
+          With GitLab's code review, built-in CI, and Review Apps, you can speed up your development process with one tool for coding, testing, and live previewing your changes.
     .feature-item.col-md-10.col-md-push-1
       = icon("cycle-analytics/icon-benefit-3", "feature-icon", { label: "No setup required" })
       %h3
@@ -48,7 +47,6 @@ extra_js:
       %p
         :markdown
           Setting up Review Apps is as easy as adding a line to your GitLab CI yaml file. 
-
           Simply define what server or cluster you want the review app deployed to and we do the rest.
 
 #img-explainer.page-container.content-container.text-center.img-explainer
@@ -65,22 +63,22 @@ extra_js:
     %h2.purple-section-title
       Join our webcast!
     .purple-section-subtitle
-      Hear more about Review Apps and the other new features in GitLab 8.13
+      Hear more about Review Apps and the other new features in GitLab 8.14
     %a.featured-item-button.white-on-primary.btn-margin-top{ href: "INSERT-WEBCAST-URL" } Sign Up Today
 
 .page-container.content-container.white-bg.animated
   .container
     %h2.page-headline.text-center
-      Review Apps Main Advantages
+      Review Apps Benefits
     %h3.getting-started-subheader.text-center
       :markdown
         Review Apps is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition
 
     %section#steps.steps
-      .step.js-step
+      #benefit-1.step.js-step
         .container
           .step-icon-container
-            = icon("home/icon-step-2", "step-icon", { label: "Issue" })
+            = icon("review-apps/icon-step-1", "step-icon", { label: "Issue" })
             %span.step-number.text-center
               [ benefit 01 ]
           .row
@@ -97,10 +95,10 @@ extra_js:
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
-      .step.js-step
+      #benefit-2.step.js-step
         .container
           .step-icon-container
-            = icon("home/icon-step-3", "step-icon", { label: "Plan" })
+            = icon("review-apps/icon-step-2", "step-icon", { label: "Plan" })
             %span.step-number.text-center
               [ benefit 02 ]
           .row
@@ -121,10 +119,10 @@ extra_js:
 
                     Know it's working, or have your team
                     making it work before deploying your code.
-      .step.js-step
+      #benefit-3.step.js-step
         .container
           .step-icon-container
-            = icon("home/icon-step-4", "step-icon step-icon-3", { label: "Code" })
+            = icon("review-apps/icon-step-3", "step-icon step-icon-3", { label: "Code" })
             %span.step-number.text-center
               [ benefit 03 ]
           .row
@@ -139,14 +137,14 @@ extra_js:
                   :markdown
                     Once you don't need to deploy you code to staging or even to production to see it working,
                     you save your time, and your reviewer's, by having a fully-integrated tool to do it for you,
-                    in all your projects.
+                    for all your projects.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
-      .step.js-step
+      #benefit-4.step.js-step
         .container
           .step-icon-container
-            = icon("review-apps/save-money", "step-icon step-icon-3", { label: "Save Money" })
+            = icon("review-apps/icon-step-4", "step-icon step-icon-3", { label: "Save Money" })
             %span.step-number.text-center
               [ benefit 04 ]
           .row
@@ -167,7 +165,7 @@ extra_js:
 
                     Save your money on infrastructure. Recycle your server storage, by destroying the environments created
                     for each review, and creating new ones on the go.
-      .step.js-step
+      #benefit-5.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-benefit-1", "step-icon step-icon-3", { label: "All Together" })
