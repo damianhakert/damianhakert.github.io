@@ -33,6 +33,9 @@
 %link{rel: "stylesheet", href: font_url(current_page)}
 %link{rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"}
 
+-# NOTE: This must be loaded in the head
+%script{src: "//cdn.optimizely.com/js/7718922374.js", type: "text/javascript"}
+
 = stylesheet_link_tag :styles, :highlight
 - if current_page.data.extra_css
   - current_page.data.extra_css.each do |css_name|
