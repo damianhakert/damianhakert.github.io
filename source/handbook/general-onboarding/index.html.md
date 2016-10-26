@@ -102,6 +102,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] People Ops: Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
+1. [ ] People Ops: Create a row for the new user on the [1Password spreadsheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0)
 
 ### ON YOUR FIRST DAY
 
@@ -130,7 +131,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
    1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
-   1. [ ] New team member: Once you are registered on 1Password, mention your hiring manager in a comment/suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet to grant you access to the proper shared Vaults.
+   1. [ ] New team member: Once you are registered on 1Password, post a comment below to ask the hiring manager to add you to the 1Password groups required for your role.
+   1. [ ] Hiring manager: add the new team member to the required groups in [1Password](https://gitlab.1password.com)
    1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
