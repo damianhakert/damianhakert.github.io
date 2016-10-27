@@ -223,7 +223,7 @@
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
-  speciality: Backstage
+  specialty: Backstage
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
