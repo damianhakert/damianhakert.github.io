@@ -503,7 +503,7 @@ Criteria for those leads are set by Marketo and the Director of Demand Generatio
 #### Primary Responsibilities:
 * Manage and help inbound requests to community@gitlab.com and sales@gitlab.com
 
-* Strategize to develop the proper qualifying questions for all types of customers.
+* Strategize to develop the proper qualifying questions for all types of customers
 
 * Be able to identify where a customer is in the sale and marketing funnel and take the appropriate action
 
@@ -511,7 +511,7 @@ Criteria for those leads are set by Marketo and the Director of Demand Generatio
 
 #### Rules of engagement
 - Inbound to work off of leads within SFDC
-- Inbound does not touch any lead that has activity on it within the last 45 days by a different BDR. 
+- Inbound does not touch any lead that has activity on it within the last 45 days by a different BDR 
 
 #### BDR and BDR Team Lead
 
@@ -534,11 +534,11 @@ Criteria for those leads are set by Marketo and the Director of Demand Generatio
 Full-time BDRs have a significant portion of their pay based on performance and objective attainment. Performance based "bonuses" are based on results. Actions for obtaining results will be prescribed and measured, but are intentionally left out of bonus attainment calculations to encourage experimentation. BDRs will naturally be drawn to activities that have the highest yield, but freedom to choose their own daily activities will allow new, higher yield activities to be discovered.
 
 Guidelines for bonuses:
-* Team and individual objectives are based on GitLab's revenue targets and adjusted monthly.
-* Bonuses are paid quarterly.
+* Team and individual objectives are based on GitLab's revenue targets and adjusted monthly
+* Bonuses are paid quarterly
 * Bonuses may be based on various objectives
     * E.g. a new BDR's first month's bonus is typically based on completing <a href="https://about.gitlab.com/handbook/general-onboarding/" target="_blank">onboarding</a>
-    * Bonuses may be tied to sales target attainment, <a href="https://about.gitlab.com/handbook/marketing/#okrs" target="_blank">OKRs</a>, or other objectives.
+    * Bonuses may be tied to sales target attainment, <a href="https://about.gitlab.com/handbook/marketing/#okrs" target="_blank">OKRs</a>, or other objectives
 
 #### BDR Vacation Incentives<a name="vacation"></a>
 
