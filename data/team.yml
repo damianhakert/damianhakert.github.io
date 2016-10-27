@@ -1863,18 +1863,6 @@
   story:  |
           Joining November 1st
 
-
-- name: V.W.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
-  reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining November 1st
-
 - name: K.P.
   locality:
   country:
@@ -1886,11 +1874,34 @@
   story:  |
           Joining November 1st
 
+
+- name: V.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 7th
+
 - name: S.B.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
   reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 7th
+
+- name: J.I.V.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
