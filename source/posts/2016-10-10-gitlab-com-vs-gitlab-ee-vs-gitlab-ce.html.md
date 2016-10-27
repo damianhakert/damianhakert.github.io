@@ -244,11 +244,11 @@ following table to clear this out.
 | [Support] | GitLab EE customers have support over e-mail in one business day | <i class="fa fa-times-circle-o" style="color: red;"></i> |
 | [Development][ee-devs] (service) | GitLab EE customers can contract GitLab to develop custom features | <i class="fa fa-times-circle-o" style="color: red;"></i> |
 | [GitLab Pages][pages] | Pages is a static webserver, written in Go. As EE admin, you can [set it up as you like][pages-doc] | <i class="fa fa-check-circle-o" style="color: green;"></i> |
-| [GitLab Group WebHooks][group-webhooks] | Make your webhooks configured for your groups of projects | <i class="fa fa-check-circle-o" style="color: green;"></i> |
-| LDAP | [LDAP][ldap-ce] is available for GitLab CE. GitLab EE includes [enhanced LDAP][ldap-ee] integration, including group membership syncing, and supports a configurable sync time, with a default of one hour. You can also configure multiple LDAP servers to connect to one GitLab server | <i class="fa fa-times-circle-o" style="color: red;"></i> |
+| [GitLab Group WebHooks][group-webhooks] | Configure webhooks for your groups of projects | <i class="fa fa-check-circle-o" style="color: green;"></i> |
+| LDAP | [LDAP][ldap-ce] is available for GitLab CE. GitLab EE includes [enhanced LDAP][ldap-ee] integration, including group membership syncing, and supports a configurable sync time. You can also configure multiple LDAP servers to connect to one GitLab server | <i class="fa fa-times-circle-o" style="color: red;"></i> |
 | [Templates] | Templates for issues and merge requests: create multiple templates for new issues and merge requests descriptions per project | <i class="fa fa-check-circle-o" style="color: green;"></i> |
-| [Contribution Analytics][CA] |  An overview for the activity of issues, merge requests and push events of your organization and its members. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
-| [Mirroring repositories][mirror] |  It's a way to mirror repositories from external sources. It's going to mirror all the branches, tags, and commits that you have in your project within another Git platform. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
+| [Contribution Analytics][CA] |  An overview of the activity in issues, merge requests, and push events of your organization and its members. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
+| [Mirroring repositories][mirror] |  Mirror repositories from external sources. It let's you to mirror all the branches, tags, and commits that you have in your project within another Git platform. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
 | [Kerberos][kerb-gitlab] | [Kerberos][kerb] is a secure method for authenticating a request for a service in a computer network. | <i class="fa fa-times-circle-o" style="color: red;"></i> |
 | [Audit Logs][logs] | Track important events such as user access level, target user, and user addition or removal. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
 | [Merge request approval][mr-approval] | Set the number of necessary approvals and predefine a list of approvers that will need to approve every merge request in a project. | <i class="fa fa-check-circle-o" style="color: green;"></i> |
@@ -265,7 +265,7 @@ to spice up your GitLab instance.
 
 - [GitLab Geo][geo]: With this feature you can have a geographically
 replicated GitLab instance that mirrors the main source.
-- [Premium Support][premium]: You get 24/7 emergency support,
+- [Premium Support][premium]: You get 24/7 emergency support (with less than 1h response time),
 two training workshops, dedicated service engineer, live
 upgrade assistance, Support for High Availability.
 - [Pivotal Tile integration][pivotal]: deploy GitLab as a
