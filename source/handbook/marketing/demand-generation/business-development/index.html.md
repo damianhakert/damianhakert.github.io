@@ -470,7 +470,7 @@ How do I deal with APAC and SA leads?
 ###### To Do List
 * You will start recieving live leads 
 
-* Schedule time with each of the AE's to collaborate and learn about lead management **Note** There is no agenda for this meeting, attend prepared with questions 
+* Schedule time with each of the AE's to collaborate and learn about lead management **Note** - There is no agenda for this meeting, attend prepared with questions 
 
 * Have a healthy task list of at least 25 leads to target
 
