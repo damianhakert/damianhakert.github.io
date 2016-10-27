@@ -90,13 +90,14 @@ available for **every GitLab user**: CE, EE and GitLab.com.
 
 Before answering this question, we ask you: where do you want your code hosted?
 
-On [this article][saas-or-not], you'll find a comparison between having your code on-premise and hosted.
+On [this article][saas-or-not], you'll find the advantages of having your code
+on-premises over having it hosted.
 
 ### GitLab On-Premises Key Benefits
 
 If you're concerned about containment, security, performance, management,
 and administrative control, you should consider
-GitLab Enterprise Edition (GitLab EE), [on-premise].
+GitLab Enterprise Edition (GitLab EE), [on-premises].
 
 With GitLab EE, you take control over every customizable aspect of GitLab,
 run it on your own server, behind your firewall. It's safe, it's reliable
@@ -119,20 +120,23 @@ and it doesn't have all the premium features GitLab EE has, but it's definitely 
 
 ### GitLab Hosted Key Benefits
 
-If you don't want or don't need GitLab EE in your own server, you can use the cloud-based options.
-The best option in this case is using [GitHost], the GitLab hosted service offered by GitLab.
+If you don't need GitLab EE in your own server, you can use the cloud-based options.
+The best option in this case is using [GitHost], the hosting service offered by GitLab.
 
-With GitHost, we take care of your GitLab instance for you. You don't need to worry about installation,
-updates, server configuration, backup, and general maintenance. We save all this time for you and your team,
+With GitHost, we take care of your GitLab instance for you. You don't need to
+worry about installation, updates, server configuration, backup, and general
+maintenance. We save all this time for you and your team,
 so you can focus on what's the most important: shipping.
 
-With this option, you still hold all the administrative control of
+With GitHost, you still hold all the administrative control of
 your instance, but de-stress about setting up and maintaining everything
 up-to-date. It serves both GitLab EE and CE.
 
-A similar option is using third-party cloud-based servers and VM providers to host your GitLab instance. For example,
-we are partners with Atlassian, OpenShift, and Azure, from witch you can quickly install GitLab in a few clicks.
-However, for these cases, you will have to take over the server configuration and maintenance yourself.
+A similar option is using third-party cloud-based servers and VM providers
+to host your GitLab instance. For example, we are partners with [Digital Ocean][do],
+[OpenShift], and [Azure], from witch you can quickly install GitLab in a few clicks.
+However, for these cases, you will have to take over the server
+configuration and maintenance yourself.
 
 #### GitLab.com
 
@@ -352,6 +356,10 @@ great for teams who need extended authentication, deeper user management
 capabilities, powerful workflow controls, etc. Subscribe now for your
 [EE trial][ee-trial] for 30 days.
 
+Watch this [demo video][demo], by Sid Sijbrandij (our CEO), on how to have GitLab up and running, and bring you from idea to production in about 20 min.
+
+### The Best Choice
+
 <i class="fa fa-key fa-fw" aria-hidden="true"></i> 
 1. **GitLab EE** or **GitLab EE** are your best choice when:
 {: .gitlab-orange}
@@ -421,6 +429,7 @@ Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
 [2FA-post]: /2016/06/22/gitlab-adds-support-for-u2f/
 [@gitlab]: https://twitter.com/gitlab
 [api]: https://docs.gitlab.com/ce/api/README.html
+[azure]: /2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/
 [CA]: https://docs.gitlab.com/ee/analytics/contribution_analytics.html
 [ce-download]: /downloads/
 [ce-up-for-grabs]: https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=up-for-grabs
@@ -431,7 +440,9 @@ Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
 [ci]: /gitlab-ci/
 [com]: /gitlab-com/
 [convdev]: /2016/09/13/gitlab-master-plan/#convdev
+[demo]: https://www.youtube.com/watch?v=t_rB1oQdG98
 [Digital Ocean]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
+[do]: /2016/04/27/getting-started-with-gitlab-and-digitalocean/
 [doc]: https://docs.gitlab.com
 [ee-devs]: /development/
 [ee-download]: /free-trial/
@@ -473,7 +484,8 @@ Much appreciated! Please leave a comment below or tweet at us [@GitLab]!
 [mr-confl-ui]: https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html 
 [mr]: https://docs.gitlab.com/ee/user/project/merge_requests.html
 [MVP]: /mvp/
-[on-premise]: /2015/02/12/why-ship-on-premises-in-the-saas-era/
+[on-premises]: /2015/02/12/why-ship-on-premises-in-the-saas-era/
+[openshift]: /2016/06/28/get-started-with-openshift-origin-3-and-gitlab/
 [pages-doc]: https://docs.gitlab.com/ee/pages/administration.html
 [pages-post]: /2016/04/07/gitlab-pages-setup/
 [pages]: https://pages.gitlab.io
