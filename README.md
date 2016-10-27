@@ -293,6 +293,41 @@ the 22th is 8.12, the month should be 8 (i.e August for 8.11), not 9.
 
 The release-list page will be updated after `bundle exec rake build`.
 
+## Changing webpage location
+
+We should avoid changing page locations and other redirections, as this is not a good
+SEO practice. However, when redirecting is necessary, we have a solution for that.
+Add to the page you want to redirect **from** a variable in the frontmatter pointing
+to the full URL you want to redirect traffic **to**:
+
+```yaml
+redirect_to: 'http://example.com'
+```
+
+You must add the url in between quotes.
+
+
+By doing so, the as soon as the page loads, it will be immediately redirected to the
+new url. However, it's recommended to leave a note at the page you are redirecting from:
+
+```md
+This content was transferred to `<add the url you're redirecting to>`. If the page doesn't
+redirect you automatically, please follow the link.
+```
+
+When you choose this approach, it's recommended to delay the page redirect in a few seconds:
+
+```yaml
+redirect_to: 'http://example.com'
+redirect_time: '3'
+```
+
+The redirect time is given in seconds (3s for the example above).
+
+Whenever we use this technique, the "old" page will not be indexed by bots anymore,
+which means it won't appear on web searches. This type of redirect is understood by
+bots as a 302 redirect. Read [this post](http://sebastians-pamphlets.com/google-and-yahoo-treat-undelayed-meta-refresh-as-301-redirect/) for reference.
+
 ## Production build
 
 Before building the static files, ensure you have a GitLab.com `PRIVATE_TOKEN`
