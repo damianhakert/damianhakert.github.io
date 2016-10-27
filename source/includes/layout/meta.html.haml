@@ -5,6 +5,7 @@
 - redirect = "#{redirect_time};URL=#{redirect_url}"
 - if current_page.data.redirect_to
   %meta{ :'http-equiv' => 'refresh', :content => redirect }
+  %meta{ name: "robots", content: "noindex,follow" }
 
 - description = current_page.data.description
 - if !description
