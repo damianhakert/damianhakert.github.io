@@ -1,5 +1,5 @@
 ---
-title: "Publish code coverage report with GitLab Pages"
+title: "Publish Code Coverage Report with GitLab Pages"
 author: Grzegorz Bizon
 author_twitter: GrzegorzBizon
 categories: tutorial
@@ -7,20 +7,20 @@ image_title: '/images/blogimages/publish-code-coverage-report-with-gitlab-pages/
 description: "Publish code coverage report with GitLab Pages"
 ---
 
-In GitLab we believe that everyone can contribute. We also use automated
+At GitLab, we believe that everyone can contribute. We also use automated
 testing extensively to make contributing to GitLab easier. Using automated
 testing is a great way to improve confidence when someone needs to change
-the code, what actually is the case in majority of contributions to
+the code, which actually is the case in the majority of contributions to
 software projects.
 
 But how do we ensure that our test suite covers enough to aid the confidence
 in changing behavior of the software, and what can we do to keep on improving
 it?
 
-## What the code coverage is?
+## What is code coverage?
 
-Using [code coverage](https://en.wikipedia.org/wiki/Code_coverage) metric is a
-technique which helps to improve the test suite, and the software itself.
+Using the [code coverage](https://en.wikipedia.org/wiki/Code_coverage) metric is a
+technique that helps to improve the test suite and the software itself.
 
 Tools used to measure the code coverage usually extend the test harness
 environment, and make it possible to map the application execution process
@@ -39,11 +39,11 @@ on [GitLab Pages for GitLab CE project](http://gitlab-org.gitlab.io/gitlab-ce/co
 
 ![code coverage report summary](images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-report-file-summary.png)
 
-## How to generate code coverage report?
+## How to generate a code coverage report?
 
 There are a lot of code coverage tools available for many different languages.
-You will need to find appropriate tool for your particular needs. In GitLab,
-in projects using Ruby, we often use [SimpleCov](https://github.com/colszowka/simplecov).
+You will need to find appropriate tool for your particular needs. In GitLab with
+projects using Ruby, we often use [SimpleCov](https://github.com/colszowka/simplecov).
 
 You will need to check documentation for your tool of choice to learn how to
 generate the code coverage report. Once you are able to do this locally,
@@ -183,7 +183,7 @@ pages:
     - master
 ```
 
-Job that is meant to publish your code coverage report with GitLab Pages has
+A job that is meant to publish your code coverage report with GitLab Pages has
 to be placed in the separate stage. Stages `test`, `build` and `deploy` are
 specified by default, but you can change that if needed. Note that you also
 need to use `pages` as a job name.
@@ -210,48 +210,48 @@ Numerous approaches are available, the most simple is to split test manually,
 more sophisticated is to use tools or plugins that do distribute tests jobs
 evenly in the automated fashion.
 
-If you will decide to parallelize your test suite, you need to generate partial
-code coverage report in each parallel job, and store it as a build artifact
-Then you will need another stage in the pipeline with job that merges partial
+If you will decide to parallelize your test suite, you need to generate a partial
+code coverage report in each parallel job, and store it as a build artifact.
+Then, you will need another stage in the pipeline with job that merges partial
 code coverage metrics into the one and generates a single report that takes all
 results, generated during parallel jobs, into account.
 
 In GitLab, we parallelize our test suite heavily, and we do use additional
 tools to distribute test jobs evenly. SimpleCov does not support merging
-result sets out-of-the-box, so we had to [write patch for it](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/scripts/merge-simplecov).
+result sets out-of-the-box, so we had to [write a patch for it](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/scripts/merge-simplecov).
 There is an issue about [contributing this change back to the SimpleCov](https://gitlab.com/gitlab-org/gitlab-ce/issues/23717).
 
-### Deploy coverage report as GitLab Pages!
+### Deploy coverage report as GitLab Pages
 
 When you push your changes in `.gitlab-ci.yml` to the GitLab for the first
 time, you will see new jobs in the CI pipeline.
 
 ![coverage-report-deploy-job](images/blogimages/publish-code-coverage-report-with-gitlab-pages/coverage-report-pages-deploy-job.png)
 
-If deploy job has been successful the status icon for it is green.
-This means that you can access you coverage report page using URL like
+If the deploy job has been successful, the status icon for it is green.
+This means that you can access you coverage report page using a URL like
 `http://group-path.gitlab.io/project-path`, for example
 `http://gitlab-org.gitlab.io/gitlab-ce`.
 
-New coverage report is going to be published each time you push new code
-to the GitLab!
+A new coverage report will be published each time you push new code
+to GitLab!
 
 <i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 Note that pages deploy job will not be successful if a new commit appears on
 branch that CI pipeline runs for, before deploy job has been started.
 
-## Using code coverage report badge
+## Using the code coverage report badge
 
 Once you have code coverage report published with GitLab Pages, you may want to
-put a link to it somewhere. We recommend using code coverage badge, that you
-can add to the `README.md` for that purpose!
+put a link to it somewhere. We recommend using the code coverage badge that you
+can add to the `README.md` for that purpose.
 
-This is how it looks like in our README.
+This is how it looks in our README.
 
 ![coverage-badge-gitlab](images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-badge-gitlab.png)
 
-When someone clicks coverage badge, code coverage report will get opened.
-Markdown source is as follows
+When someone clicks coverage badge, code coverage report will be opened.
+Markdown source is as follows:
 
 ```markdown
 [![Coverage report](https://gitlab.com/gitlab-org/gitlab-ce/badges/master/coverage.svg?job=coverage)](http://gitlab-org.gitlab.io/gitlab-ce/coverage-ruby)
@@ -259,12 +259,12 @@ Markdown source is as follows
 
 ## Summary
 
-Although code coverage technique is great for revealing untested code, and
-improving overall coverage, it is not really good metric to tell how good
-the tests are, but it helps people to contribute.
+Although the code coverage technique is great for revealing untested code and
+improving overall coverage, it is not a great metric to tell how good
+the tests are but it helps people to contribute.
 
 There are other techniques you can explore like mutation testing. One of the
 most useful techniques is _simplicity_ which is _prerequisite for reliability_.
 
-With GitLab you can create create simple software that it is easy to contribute
+With GitLab, you can create create simple software that it is easy to contribute
 to!
