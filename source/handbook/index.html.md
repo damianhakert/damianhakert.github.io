@@ -307,6 +307,7 @@ step, **re-assign** the issue to that person.
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
 1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
+   * We also encourage team members that are not the head of the department to give the functional group update. This can assist in their professional development as well as give the organization a different view of what that department does. 
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
