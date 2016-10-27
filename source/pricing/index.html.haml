@@ -198,14 +198,15 @@ extra_font:
                 = link_to "Learn more...", "http://docs.gitlab.com/ee/user/project/file_lock.html", class: "action-link"
             %a.featured-item-button{href: data.pricing.payment_url}
               Add File Locking
-    -# %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
-    -#   Purchase your GitLab EE package
+    %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
+      Purchase your GitLab EE package
 .what-is.choose-gitlab.text-center.animated
   .container
     %h2.choose-gitlab-title
       Choose the GitLab edition that is best for your team
-    = link_to "/features#compare", class: "choose-gitlab-link" do
-      View a side-by-side feature comparison of GitLab Community and Enterprise Edition
+.container
+  .compare
+    = partial "includes/features/table"
 .content-container.animated
   .container
     %h2.faq-title.light.text-center
