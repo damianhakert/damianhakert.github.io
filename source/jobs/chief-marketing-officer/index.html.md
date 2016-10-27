@@ -5,11 +5,11 @@ title: "VP of Marketing"
 
 ## Teams
 
-The marketing department consists of the following teams:
+The Marketing department consists of the following teams:
 
 * Demand generation
 * Content
-* Prodcut marketing
+* Product marketing
 * Developer advocates
 * Community advocates
 * Design
@@ -25,16 +25,16 @@ See the [marketing handbook](https://about.gitlab.com/handbook/marketing/) for d
 ## Responsibilities
 
 * Lead our marketing efforts
-* Help define our short and long term marketing strategy
-* Analysis of previous marketing efforts
+* Define our short and long term marketing strategy
+* Complete analysis of previous marketing efforts
 * Develop marketing materials that reflect GitLab's value proposition, advantages and positioning
 * Manage different channels
-* Work with sales to ensure a smooth handover of criteria and process
+* Work with Sales to ensure a smooth handover of criteria and process
 
 ## Requirements
 
-* Experience successfully leading a marketing team
+* Experience successfully leading a marketing team with global responsibilities
 * Result focus
-* Demonstated use of analytics to double down on successful efforts and groups
-* Strong written communication skills
-* Desire to develop a team and
+* Demonstrated use of analytics to double down on successful efforts and groups
+* Outstanding written communication skills
+* Desire to develop a team
