@@ -205,7 +205,6 @@
 
 .choose-gitlab-title {
   margin-top: 0;
-  margin-bottom: 15px;
   font-size: (45px / 20px) * 1em;
   font-weight: 300;
 }
@@ -343,5 +342,19 @@
 .pricing-tile-row {
   @media (min-width: $screen-md-min) {
     margin-bottom: 30px;
+  }
+}
+
+.compare {
+  margin-top: 35px;
+  margin-bottom: 80px;
+
+  .title {
+    font-weight: 600;
+    font-size: 47px;
+    color: #171717;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 50px;
   }
 }

@@ -354,42 +354,6 @@ hr {
   }
 }
 
-.compare {
-  margin-top: 35px;
-  margin-bottom: 80px;
-
-  .title {
-    font-weight: 600;
-    font-size: 47px;
-    color: #171717;
-    line-height: 64px;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-
-  .action {
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .btn-default {
-    color: $color-white;
-    background: $color-primary;
-    border-width: 0;
-    transition: all .3s;
-
-    &:hover {
-      color: $color-white;
-      background: #403366;
-      border-width: 0;
-    }
-  }
-
-  .btn-lg {
-    font-size: 21px;
-  }
-}
-
 .circle {
   background: #85f806;
   border-radius: 50%;
