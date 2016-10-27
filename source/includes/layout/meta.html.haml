@@ -1,3 +1,11 @@
+- redirect_url = current_page.data.redirect_to
+- redirect_time = current_page.data.redirect_time
+- if !redirect_time
+  - redirect_time = '0'
+- redirect = "#{redirect_time};URL=#{redirect_url}"
+- if current_page.data.redirect_to
+  %meta{ :'http-equiv' => 'refresh', :content => redirect }
+
 - description = current_page.data.description
 - if !description
   - description = "Code, test &amp; deploy with GitLab. Everyone can contribute!"
