@@ -325,8 +325,12 @@ redirect_time: '3'
 The redirect time is given in seconds (3s for the example above).
 
 Whenever we use this technique, the "old" page will not be indexed by bots anymore,
-which means it won't appear on web searches. This type of redirect is understood by
-bots as a 302 redirect. Read [this post](http://sebastians-pamphlets.com/google-and-yahoo-treat-undelayed-meta-refresh-as-301-redirect/) for reference.
+which means it won't appear on web searches.
+
+This type of redirect is recognized as a 301 if it specifies little or no delay or
+as a 302 if it specifies noticeable delay. Read through
+[this post](http://sebastians-pamphlets.com/google-and-yahoo-treat-undelayed-meta-refresh-as-301-redirect/)
+for reference.
 
 ## Production build
 
