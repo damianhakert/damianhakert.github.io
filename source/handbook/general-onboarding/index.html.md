@@ -99,6 +99,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     >
     > Free shipping: [Enter free shipping code]
 
+1. [ ] Hiring Manager: The day of introducing the new team member on the team call, test the audio and review the three questions again 15 minutes before the team call call starts.
 1. [ ] People Ops: Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
