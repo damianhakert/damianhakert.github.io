@@ -6,7 +6,7 @@ title: "People Operations"
 ## Communication
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
-- You can also send an email or pidgeon to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+- You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 - [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## Other pages related to People Operations
