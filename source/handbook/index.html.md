@@ -296,7 +296,7 @@ step, **re-assign** the issue to that person.
 ### Team Call
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
-1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
+1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and we have a 1 GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Access recordings in [Zoom](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
 1. We start on time and will not wait for people.
@@ -306,8 +306,8 @@ step, **re-assign** the issue to that person.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if it is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
-1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
-   * We also encourage team members that are not the head of the department to give the functional group update. This can assist in their professional development as well as give the organization a different view of what that department does. 
+1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, People Ops, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
+   * We also encourage team members who are not the head of the department to give the functional group update. This will support professional development as well as give the organization a different view of what that department is working on. 
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
