@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Travel"
+title: "GitLab 101 FAQ"
 ---
 
 ----
