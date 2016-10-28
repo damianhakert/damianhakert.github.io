@@ -42,12 +42,12 @@ We're going to start from scratch, creating a brand new GitLab installation.
 >   * Username: gitlab-user
 >   * Password: <from 1password>
 > * Delete all Openshift projects using OpenShift web interface (will be fixed with [#874](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874))
-> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0)
+> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browes, searching for tanuki, and deleting all those cookies
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Open [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) as opening window during intro
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
-> * [Zoom content on the screen](https://support.apple.com/kb/ph11488?locale=en_US)
+> * Go to 'Displays' settings, Resulution: Scaled, Larger text
 
 ## Intro
 
@@ -77,13 +77,9 @@ And then we import an OpenShift template for a complete GitLab installation. We 
 
 Boom, we’ve got a shiny new GitLab installation with several containers. They are running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, and GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes. It will take a few minutes for GitLab Rails to configure itself so it’s a good time to describe what we’re covering today.
 
-> * Open up [Flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/)
-
 In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous deployment to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
 
-*TODO: Make above content match what is on flowchart so you can read it from there.*
-
-*TODO: Talk about Cycle analytics*
+Talk about what a review app is and what cycle analytics are if there is more time.
 
 > * Wait for gitlab pod to go from light blue to full blue
 > Click the [GitLab link](http://gitlab.tanukionline.com)
@@ -105,7 +101,7 @@ Then let’s now create a new project to start off with. Let's call it `www` and
 
 ### Configure a project
 
-Great, we have a new project, now let’s create a the first file. We’ll use the built-in GitLab editor to add it.
+Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
 
 > * Click add readme (changing that to + in [#23310](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310))
 > * Name the file `index.html`
@@ -116,8 +112,8 @@ Of course this is just a static file and not an application yet, but since we’
 
 > * Click back to the files tab
 > * Add a file + icon, New file
-> * Filename to `Dockerfile`
-> * template HTTPd
+> * Filename to `Dockerfile` *TODO: Make sure this dropdown looks properly positioed even though my scaled resolution is larger text*
+> * template HTTPd *TODO: Add multiple templates, not just HTTPd*
 > * Commit changes on master
 
 ### Prepare OpenShift
@@ -141,7 +137,7 @@ We will now copy this token and go back to GitLab where we will use this token a
 We also need to set our server and our domain.
 
 > * Repeat for:
->   * Key: OPENSHIFT_SERVER 
+>   * Key: OPENSHIFT_SERVER
 >   * Value: https://openshift.tanukionline.com:8443
 > * and repeat for:
 >   * Key: OPENSHIFT_DOMAIN
@@ -217,6 +213,8 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
+*TODO: After using the new branch button in an issue I want to press a terminal button*
+
 > * Go to Pipelines
 > * Go to Environments
 > * Click Terminal button (on the right)
@@ -290,8 +288,6 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our OpenShift cluster in a special app called a Review App, created just for this branch. If we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
 
-> * Merge Requests
-> * First merge request
 > * Click on external link to review app (if it is not updated, go to the review app deployment history, find the second-last item and re-deploy.
 
 ### Merge to `master`
@@ -309,7 +305,7 @@ Taking a look at the Pipelines tab, we see that we’re re-running CI on `master
 Going back to the merge request, we now see another status showing that this code has indeed been deployed to staging. Clicking through, we can see our changes running live on our staging server.
 
 > * Click on Merge Requests, Merged, and click on `!1`
-> * Click on Staging URL to show that changes got deployed
+> * Click on Staging URL to show that changes got deployed *TODO: [Vision demo deployments don't seem to work](https://gitlab.com/gitlab-org/gitlab-ce/issues/23930)
 
 ## Production (Chatops)
 
@@ -318,7 +314,7 @@ Let’s ship these changes to production! There's this thing called ChatOps that
 > * Go to Mattermost
 > * Type `/deploy staging to production`
 > * Click on the link
-> * enable auto scroll
+> * enable auto scroll * TODO: [enable auto scroll automaticall](https://gitlab.com/gitlab-org/gitlab-ce/issues/19620)*
 > * wait until it is done
 
 Great, here we see the deploy to production happening live. As an alternative to Chatops we could have also triggered the deployment from the GitLab interface.
