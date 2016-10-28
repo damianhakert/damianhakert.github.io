@@ -114,8 +114,8 @@ Of course this is just a static file and not an application yet, but since we’
 
 > * Click back to the files tab
 > * Add a file + icon, New file
-> * Filename to `Dockerfile` *TODO: Make sure this dropdown looks properly positioed even though my scaled resolution is larger text*
-> * template HTTPd *TODO: Add multiple templates, not just HTTPd*
+> * Filename to `Dockerfile` *TODO: [Make sure this dropdown looks properly positioned even though my scaled resolution is larger text](https://gitlab.com/gitlab-org/gitlab-ce/issues/23962)*
+> * template HTTPd *TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)*
 > * Commit changes on master
 
 ### Prepare OpenShift
@@ -166,7 +166,7 @@ Let’s go to our Mattermost client. We can get there from our OpenShift dashboa
 
 Let’s create a new team.
 
-*TODO: Automate the setup of the team and channel*
+*TODO: [Automate the setup of the team and channe](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)l*
 
 > * Create a new team: tanuki. Press Next. Press Finish.
 
@@ -198,7 +198,7 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues, Issue Board
 
-*TODO: When viewing an individual issue the menu should also be expanded.*
+*TODO: [When viewing an individual issue the menu should also be expanded.](https://gitlab.com/gitlab-org/gitlab-ce/issues/23965)*
 
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
@@ -211,11 +211,11 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 ## Code (Terminal)
 
-*TODO: Use a Dockerfile that inclues `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back*
+*TODO: [Use a Dockerfile that inclues `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)*
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
-*TODO: After using the new branch button in an issue I want to press a terminal button*
+*TODO: [After using the new branch button in an issue I want to press a terminal button](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)*
 
 > * Go to Pipelines
 > * Go to Environments
