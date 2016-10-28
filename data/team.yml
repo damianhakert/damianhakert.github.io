@@ -868,7 +868,7 @@
           is always looking for the next interesting place to visit.
 
 - name: Mark Pundsack
-  locality: Sausalito, CA
+  locality: Wilmette, IL
   country: USA
   role: <a href="https://about.gitlab.com/jobs/head-of-product/">Head of Product</a>
   reports_to: CEO
@@ -876,7 +876,7 @@
   twitter: MarkPundsack
   gitlab: markpundsack
   story:  |
-          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he  builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. On rare occasions, you might find him on a 37' trawler in the San Francisco bay.
+          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. ~~On rare occasions, you might find him on a 37' trawler in the San Francisco bay.~~ A recent transplant to Chicagoland from California; you'll often see him bundled up in a winter coat for no reason at all.
 
 - name: Chris Wilson
   locality: Perth
@@ -1817,8 +1817,8 @@
   gitlab: vatalidis
   story:  |
           Nadia is passionate about startups, people & leadership coaching. Prior
-          to joining Gitlab Nadia ran a small boutique-style recruitment firm 
-          sourcing for both local clients and International companies. When she 
+          to joining Gitlab Nadia ran a small boutique-style recruitment firm
+          sourcing for both local clients and International companies. When she
           is not sourcing great candidates for Gitlab, she's riding her Scott Spark
           910 mountain bike or hiking with her family.
 
