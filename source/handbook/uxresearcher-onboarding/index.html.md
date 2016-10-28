@@ -31,6 +31,9 @@ As design can be subjective, discussion can heat up. Always try to be [direct](/
 
 ## Relevant links
 
+- [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [Product Handbook](/handbook/product)
+- [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design)
+ 
