@@ -301,24 +301,24 @@ Add to the page you want to redirect **from** a variable in the frontmatter poin
 to the full URL you want to redirect traffic **to**:
 
 ```yaml
-redirect_to: 'http://example.com'
+redirect_to: 'https://example.com'
 ```
 
-You must add the url in between quotes.
+**You must add the URL in between quotes**.
 
 
-By doing so, the as soon as the page loads, it will be immediately redirected to the
-new url. However, it's recommended to leave a note at the page you are redirecting from:
+By doing so, as soon as the page loads, it will be immediately redirected to the
+new URL. However, it's recommended to leave a note at the page you are redirecting from:
 
 ```md
-This content was transferred to `<add the url you're redirecting to>`. If the page doesn't
+This content was transferred to `<add the URL you're redirecting to>`. If the page doesn't
 redirect you automatically, please follow the link.
 ```
 
 When you choose this approach, it's recommended to delay the page redirect in a few seconds:
 
 ```yaml
-redirect_to: 'http://example.com'
+redirect_to: 'https://example.com'
 redirect_time: '3'
 ```
 
