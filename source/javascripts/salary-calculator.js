@@ -3,6 +3,9 @@
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
 
+  var CONTRACT_TYPE_EMPLOYEE = 'employee_factor';
+  var CONTRACT_TYPE_CONTRACTOR = 'contractor_factor';
+
   // Dropdown Core functionality
 
   var setDropdown = function(event) {
@@ -49,15 +52,15 @@
       $levelDropdown.on('click', setDropdown);
       $experienceDropdown.on('click', setDropdown);
 
-      // Unlock and filter city dropdown
-      $countryDropdown.on('click', this.filterCityDropdown.bind(this));
-      $countryDropdown.on('click', this.resetCityDropdown.bind(this));
-
       // Render compensation
       $countryDropdown.on('click', this.render.bind(this));
       $cityDropdown.on('click', this.render.bind(this));
       $levelDropdown.on('click', this.render.bind(this));
       $experienceDropdown.on('click', this.render.bind(this));
+
+      // Unlock and filter city dropdown
+      $countryDropdown.on('click', this.filterCityDropdown.bind(this));
+      $countryDropdown.on('click', this.resetCityDropdown.bind(this));
 
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
@@ -108,24 +111,22 @@
     SalaryCalculator.prototype.render = function() {
       var input = this.getElementValues();
 
-      if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
-
-        function renderData() {
+      function renderData() {
+        if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
           this.renderCompensation(input);
-          this.renderFormula();
-        }
-
-        if (this.data) {
-          renderData.call(this);
         } else {
-          $.when(this.getData()).then(function() {
-              renderData.call(this);
-            }.bind(this),
-            this.renderInvalidCompensation.bind(this));
+          this.renderInvalidCompensation();
         }
+        this.renderFormula();
+      }
 
+      if (this.data) {
+        renderData.call(this);
       } else {
-        this.renderInvalidCompensation();
+        $.when(this.getData()).then(function() {
+            renderData.call(this);
+          }.bind(this),
+          this.renderInvalidCompensation.bind(this));
       }
     }
 
@@ -137,7 +138,7 @@
       var benchmark = input.salary;
 
       var rentIndex = this.calculateRentIndex(input.city, input.country);
-      var contract = this.calculateContractType(input.country);
+      var contract = this.calculateContractFactor(input.country);
 
       if (!rentIndex) {
         //When the city and country combination selected do not exist
@@ -153,28 +154,30 @@
 
     SalaryCalculator.prototype.renderContractType = function(contract) {
       var $container = $('.contract-type-container');
-      $container.removeClass('hidden');
-      if (contract.hasOwnProperty('type') && contract.type.toLowerCase() === 'employee') {
+
+      if (contract.type === CONTRACT_TYPE_EMPLOYEE) {
         $container.find('.grammer').text('an');
-        $container.find('.contract-type').text('employee');
         $container.find('.company-type').text('Inc.');
       } else {
         $container.find('.grammer').text('a');
-        $container.find('.contract-type').text('contractor');
         $container.find('.company-type').text('BV.');
       }
+
+      $container.find('.contract-type').text(contract.type);
+      $container.removeClass('hidden');
     }
 
     SalaryCalculator.prototype.renderFormula = function() {
       var values = this.getElementValues();
       var rentIndex = this.calculateRentIndex(values.city, values.country);
-      var contractType = this.calculateContractType(values.country);
+      var contract = this.calculateContractFactor(values.country);
       var experience = values.experience;
 
       $('.formula .level .value').text(values.level ? values.level : defaultValue);
       $('.formula .experience .value').text(experience.min && experience.max ? experience.min + ' to ' + experience.max : defaultValue);
+
       $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
-      $('.formula .contractType .value').text(contractType ? contractType.factor.toFixed(2) : defaultValue);
+      $('.formula .contractType .value').text(contract.hasOwnProperty('factor') ? contract.factor.toFixed(2) : defaultValue);
     }
 
     SalaryCalculator.prototype.renderInvalidCompensation = function() {
@@ -209,15 +212,31 @@
       return 0;
     }
 
-    SalaryCalculator.prototype.calculateContractType = function(country) {
+    SalaryCalculator.prototype.calculateContractFactor = function(country) {
+      var contract = {};
+
       if (this.data && this.data.contractTypes) {
-        return this.data.contractTypes.find(function(o) {
-          return o.country === country;
-        }) || { factor: 1.17 };
+        var defaultContractorFactor = this.data.contractTypes.find(function (o) {
+          return o.country === '*';
+        }).contractor_factor;
+
+        var contractType = this.data.contractTypes.find(function(o) {
+          return o.country === country
+        });
+
+        if (contractType && contractType.hasOwnProperty(CONTRACT_TYPE_EMPLOYEE)) {
+          contract.type = CONTRACT_TYPE_EMPLOYEE;
+          contract.factor = contractType[CONTRACT_TYPE_EMPLOYEE];
+        } else if (contractType) {
+          contract.type = CONTRACT_TYPE_CONTRACTOR;
+          contract.factor = contractType[CONTRACT_TYPE_CONTRACTOR];
+        } else {
+          contract.type = CONTRACT_TYPE_CONTRACTOR;
+          contract.factor = defaultContractorFactor;
+        }
       }
 
-      // Contract Type will never be zero, safe to return as error value
-      return 0;
+      return contract;
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, levelIndex, contractType, experienceFactor) {

@@ -29,6 +29,8 @@ This guide involves configuring a Digital Ocean droplet and setting up Docker lo
 
 This command will create a new DO droplet called `gitlab-test-evn-do` that will act as a docker host. 
 
+**Note: 4GB is the minimum requirement for a Docker host that will run more then one GitLab instance** 
+
 + RAM: 4GB
 + Name: `gitlab-test-env-do`
 + Driver: `digitalocean`

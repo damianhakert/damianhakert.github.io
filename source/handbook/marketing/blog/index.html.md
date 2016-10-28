@@ -19,7 +19,7 @@ title: "Blog Handbook"
 ## GitLab Blog
 {: #blog}
 
-Our [Blog] is orchestred by the [Product Marketing][prod] and the [Developer Relations][dev-rel] Marketing Team.
+Our [Blog] is managed by the Content Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
@@ -27,7 +27,7 @@ Our [Blog] is orchestred by the [Product Marketing][prod] and the [Developer Rel
 
 - Use the [blog](/blog) to encourage potential users to try GitLab
 - Motivate our community to explore what's best from GitLab features
-- Provide accurate, interesting and new information
+- Provide accurate, interesting, and new information
 - Communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
 - Bring in voices from all throughout the company, as well as
 from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
@@ -265,8 +265,7 @@ Read through the terms on the [Community Writers Program](community-writers/).
 
 The publishing process is simple and is conducted for our Blog Editors and reviewers. Check their roles:
 
-- **Blog Editorial Manager:** Erica Lindberg ([@Lindberg]), Content Marketing Manager
-  - Blog Content Calendar manager
+- **Blog Editorial Manager:** Erica Lindberg ([@erica]), Content Marketing Manager
   - Content strategy
   - Content priority
   - Content approval
@@ -314,7 +313,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 1. Community Writer - choose a subject:
    - Make sure you are familiar with the [GitLab Workflow]
    - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with `up-for-grabs` or create a new one (only if your proposal is relevant for one of the [current important topics](#topics-community-writers)).
-   - Leave a comment "@Lindberg I would like to write this post and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample) and the [proposed outlines](#outlines)."
+   - Leave a comment "@erica I would like to write this post and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample) and the [proposed outlines](#outlines)."
 1. Content Marketing - analyses the proposal:
   - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
   - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
