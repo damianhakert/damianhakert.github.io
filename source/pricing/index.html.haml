@@ -207,8 +207,9 @@ extra_font:
   .container
     %h2.choose-gitlab-title
       Choose the GitLab edition that is best for your team
-    = link_to "/features#compare", class: "choose-gitlab-link" do
-      View a side-by-side feature comparison of GitLab Community and Enterprise Edition
+.container
+  .compare
+    = partial "includes/features/table"
 .content-container.animated
   .container
     %h2.faq-title.light.text-center
