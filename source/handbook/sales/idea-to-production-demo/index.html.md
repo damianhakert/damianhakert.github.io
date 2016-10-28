@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Vision Demo: Idea to Production"
+title: "From Idea to Production"
 ---
 
 ## Summary
