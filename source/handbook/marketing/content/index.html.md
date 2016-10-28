@@ -5,33 +5,19 @@ title: "Content Team"
 
 The Content Team is part of the Marketing Team.
 
-## Members
+## Expertise
 
-For a short bio on each team member take a look at our [team](https://about.gitlab.com/team/) page.
-
-* Sean Packham - Content Lead
-* [Erica Lindberg - Content Marketing Manager](https://about.gitlab.com/jobs/content-marketing-manager/)
-* [Achilleas 'Axil' Pipinellis - Technical Writer](https://about.gitlab.com/jobs/technical-writer/)
-* [Marcia Ramos - Junior - Technical Writer](https://about.gitlab.com/jobs/technical-writer/)
-* [Emily von Hoffmann - Marketing Intern](https://about.gitlab.com/jobs/marketing-intern/)
-* [Content Designer - Open Position](https://about.gitlab.com/jobs/content-designer/)
-* Sub Editor
-* Social Media Manager
-
-## Responsibilities
-
-* Content Strategy - [Erica](https://gitlab.com/erica), [Sean](https://gitlab.com/seanpackham)
-* [Blog](/blog/) content, design and UX - [Marcia](https://gitlab.com/marcia), [Emily](https://gitlab.com/evhoffmann), Sean
-* Social promotion of blog content - Erica
-* Newsletters - Sean, Marcia
-* [Documentation](https://docs.gitlab.com) and training - [Axil](https://gitlab.com/axil), Sean
-* Improving the Handbook](/handbook/) - Emily
-* White paper sourcing - Erica
-* Ebooks - Marcia, Content Designer
-* Enterprise surveys - Erica
-* Social Media Manager
+* Content Strategy
+* [Blog](/blog/) content, design and UX
+* Social promotion of blog content
+* Newsletters
+* [Documentation](https://docs.gitlab.com) and training
+* White paper sourcing
+* Ebooks
+* Enterprise surveys
+* Social Media Management
 * Sub-editing
-* Webinars - Erica, Sean, different GitLab team members as speakers each webinar
+* Webinars
     * GitLab vision webinar
     * CE to EE webinar
     * SVN to Git webinar
