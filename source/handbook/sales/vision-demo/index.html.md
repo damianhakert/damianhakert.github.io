@@ -3,17 +3,17 @@ layout: markdown_page
 title: "Vision Demo: Idea to Production"
 ---
 
+## Summary
+{:.no_toc}
+
 This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
 
-We're going to start from scratch, creating a brand new GitLab installation.
 
 ![](handbook/sales/steps.png)
 
 <iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
-
-----
 
 ## Prerequisites
 {:.no_toc}
@@ -27,10 +27,8 @@ We're going to start from scratch, creating a brand new GitLab installation.
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 - [Allow first names for project and group names in Openshift and GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874)
 
-## Vision Demo: Idea to Production
+## Table of Contents
 {:.no_toc}
-
-**Main items**
 
 - TOC
 {:toc}
@@ -79,7 +77,11 @@ Boom, we’ve got a shiny new GitLab installation with several containers. They 
 
 In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous deployment to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
 
-Talk about what a review app is and what cycle analytics are if there is more time.
+What takes 20 minutes in this demo will take days if you're not using GitLab and have to integrate different tools.
+Not only is GitLab faster to set up but it is also more convenient to have everything in one interface.
+Developers want to work on creating a great product, not on learning and maintaining the integrations between theirs tools.
+
+If there is more time talk about what a review app is and what cycle analytics are.
 
 > * Wait for gitlab pod to go from light blue to full blue
 > Click the [GitLab link](http://gitlab.tanukionline.com)
