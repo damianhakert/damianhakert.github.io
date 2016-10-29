@@ -3,17 +3,19 @@ layout: markdown_page
 title: "From Idea to Production"
 ---
 
-## Summary
+## Video
+{:.no_toc}
+
+<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
+
+## Overview
 {:.no_toc}
 
 This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
 
-
 ![](handbook/sales/steps.png)
-
-<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
 
 ## Prerequisites
 {:.no_toc}
