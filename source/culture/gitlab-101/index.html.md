@@ -1,9 +1,15 @@
 ---
 layout: markdown_page
-title: "GitLab 101 FAQ"
+title: "GitLab 101"
 ---
+### GitLab 101
 
-----
+During the monthly GitLab 101 call with new hires we talk about the following topis:
+- Overview of the GitLab [history](https://about.gitlab.com/about/)
+- Our [values](https://about.gitlab.com/handbook/#values) 
+- Team structure [overview](https://about.gitlab.com/team/structure/org-chart/)
+- [How we work](https://about.gitlab.com/handbook/#general-guidelines)
+- Q&A, which results in the FAQ below
 
 ### Frequently Asked Questions about the GitLab Culture
 
