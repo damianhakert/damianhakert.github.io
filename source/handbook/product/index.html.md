@@ -3,7 +3,7 @@ layout: markdown_page
 title: Product
 ---
 
-_As everything at GitLab, this document is forever in draft. Merge requests are very welcome. Infographics from [xkcd](www.xkcd.com)._
+_As everything at GitLab, this document is forever in draft. Merge requests are very welcome. Infographics from [xkcd](https://www.xkcd.com)._
 
 **Table of contents**
 
