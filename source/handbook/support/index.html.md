@@ -100,8 +100,19 @@ Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/).
 The support team calls for help when necessary via Slack, but in case of doubt or
-conflicting priorities, the Backend Lead needs to give the green light for the
+conflicting priorities, the Turbo's respective team lead or VP of Engineering needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
+
+As a general guideline for the Support Turbo, the order of priorities when called upon to join as a Turbo should be:
+
+1. Direction issues
+1. Turbo work.
+1. P1 issues
+
+Further guidelines when rolling up your sleeves to do Turbo work:
+
+- Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
+- Since Turbos log in using the generic agent, they need to pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context etc.
 
 ### Zendesk SLA settings and Breach alerts
 
