@@ -21,7 +21,7 @@ The job titles link to the job descriptions.
 Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
 
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/) - Sid Sijbrandij
-  - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - TBD
+  - [Marketing](/handbook/marketing/) - [VP of Marketing](/jobs/vp-of-marketing/) - vacancy
     - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
       - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - (vacancy)
