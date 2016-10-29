@@ -94,6 +94,10 @@ Service Engineers can work on any ticket they feel they can contribute to. Howev
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
+### Breach Hawks
+
+Breach hawks are members of the support team who help the rest of the team keep an eye out for nearly-breaching tickets, so that they can be responded to in a timely manner. Of course, any and all members of the Support Team will have a sense of how many tickets are close to breaching and how high the load is on any given day. But it can happen that you're deep into a ticket, a customer call, etc., unaware of the impending doom. That's where breach hawks come in: they tackle their tickets, but they also keep an eye out for the team at large; and can call in the [Support Turbos](#support-turbo) if and when needed.
+
 ### Support Turbo
 
 Every now and then, it may occur that we come close to breaching our SLA's.
