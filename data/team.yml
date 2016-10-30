@@ -1772,16 +1772,24 @@
   story:  |
           Joining October 10th
 
-- name: K.L.
-  locality:
-  country:
+- name: Kevin Lyda
+  locality: Caherlistrane, Co. Galway
+  country: Ireland
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
   reports_to: Director of Strategic Partnerships
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: lyda.jpeg
+  twitter: lyda
+  gitlab: lyda
   story:  |
-          Joining October 17th
+          Growing up in Kansas and New York, Kevin is used to bridging vast
+          cultural gaps. Much of his career has been spent as a software
+          developer on backend systems - the one time he got a front end job he
+          snuck in a catapulting cow action on the main screen. Past coding work
+          has been in Hypercard, Magic (a variant of MUMPS), C, C++, Perl and
+          PHP along with the odd bits of shell and awk. Occasionally he can do
+          systems administration in creative and entertaining ways. He has a
+          dream of escaping from the chore of mowing the lawn with a
+          Kubernetes-powered, Raspberry Pi-based autonomous lawn mower.
 
 - name: B.J.
   locality:
