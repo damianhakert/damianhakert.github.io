@@ -27,7 +27,7 @@ Welcome to GitLab and congratulations on landing a job with the best open source
 
 On the BDR team we work hard, but have fun too. We will work hard to garuntee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
-Being a BDR can come with what seems as long days, hard work, frustration and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
+Being a BDR can come with what seems as long days, hard work, frustration and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role
 As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries and different roles.

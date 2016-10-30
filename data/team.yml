@@ -223,7 +223,7 @@
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
-  speciality: Backstage
+  specialty: Backstage
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
@@ -312,6 +312,7 @@
   gitlab: dblessing
   maintains: |
              <li>On-call hero!</li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
@@ -393,6 +394,7 @@
   gitlab: balameb
   maintains: |
              <li>On-call hero!</li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
   story:  |
@@ -868,7 +870,7 @@
           is always looking for the next interesting place to visit.
 
 - name: Mark Pundsack
-  locality: Sausalito, CA
+  locality: Wilmette, IL
   country: USA
   role: <a href="https://about.gitlab.com/jobs/head-of-product/">Head of Product</a>
   reports_to: CEO
@@ -876,7 +878,7 @@
   twitter: MarkPundsack
   gitlab: markpundsack
   story:  |
-          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he  builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. On rare occasions, you might find him on a 37' trawler in the San Francisco bay.
+          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. ~~On rare occasions, you might find him on a 37' trawler in the San Francisco bay.~~ A recent transplant to Chicagoland from California; you'll often see him bundled up in a winter coat for no reason at all.
 
 - name: Chris Wilson
   locality: Perth
@@ -888,6 +890,7 @@
   gitlab: MrChrisW
   maintains:  |
               <li>On-call hero!</li>
+              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
               <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
               <li>Zendesk <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -1613,6 +1616,8 @@
   picture: adam.jpg
   twitter: niedzielskiadam
   gitlab: adamniedzielski
+  maintains:  |
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Adam is a programmer that loves teaching people how to write code
           and sharing his knowledge. He enjoys conferences and local
@@ -1700,10 +1705,10 @@
           npm packages as well as a database in rust.
 
 - name: Molly Young
-  locality:
-  country:
+  locality: St. Paul, MN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Business Development Manager
+  reports_to: BDR Manager
   picture: molly.jpg
   twitter: molleyoung
   gitlab: mollybeth
@@ -1730,7 +1735,7 @@
   twitter: leematos
   gitlab: lbot
   story:  |
-          Lee is passionate about the intersection of Leadership and Technology. If he's not on the Internet, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club. 
+          Lee is passionate about the intersection of Leadership and Technology. If he's not on the Internet, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club.
 
 - name: Ian Baum
   locality: Hutchinson, MN
@@ -1789,27 +1794,36 @@
   story:  |
           Joining October 17th
 
-- name: C.S.
-  locality:
-  country:
+- name: Connor Shea
+  locality: Highlands Ranch, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: connor.png
+  twitter: connorjshea
+  gitlab: connorshea
   story:  |
-          Joining October 17th
+          One part Google, two parts trial-and-error. Mostly self-taught
+          front-end developer. He’s passionate about performance, user
+          experience, security, upgrading things, style guides, documentation,
+          automation, localization, open source, grammar, and enforcing Oxford
+          commas. Outside of work: video games, Dungeons & Dragons,
+          following the news, listening to podcasts, and thoughtleading.
 
-- name: N.V.
-  locality:
-  country:
+- name: Nadia Vatalidis
+  locality: Johannesburg
+  country: South Africa
   role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nadia-vatalidis.jpg
+  twitter: NadiaVat
+  gitlab: vatalidis
   story:  |
-          Joining October 18th
+          Nadia is passionate about startups, people & leadership coaching. Prior
+          to joining Gitlab Nadia ran a small boutique-style recruitment firm
+          sourcing for both local clients and International companies. When she
+          is not sourcing great candidates for Gitlab, she's riding her Scott Spark
+          910 mountain bike or hiking with her family.
 
 
 - name: N.F.
@@ -1856,18 +1870,6 @@
   story:  |
           Joining November 1st
 
-
-- name: V.W.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
-  reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining November 1st
-
 - name: K.P.
   locality:
   country:
@@ -1879,11 +1881,34 @@
   story:  |
           Joining November 1st
 
+
+- name: V.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 7th
+
 - name: S.B.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
   reports_to: Senior Director of People Operations
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 7th
+
+- name: J.I.V.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

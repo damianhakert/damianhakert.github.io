@@ -30,6 +30,12 @@ Every UX designer gets a license to [Pixelmator](http://www.pixelmator.com/mac/)
 
 When in need of different tools, request those by filing an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues).
 
+## Workflow
+
+Please see the [UX team](/handbook/ux) page in the handbook.
+
+*Also see the [basics of GitLab development in the developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development).*
+
 ## Issues
 
 As design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow UX Designer in the issue.
