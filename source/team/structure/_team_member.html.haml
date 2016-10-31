@@ -1,0 +1,13 @@
+
+.node
+  .employee-profile
+    %strong.employee-name
+      = member[:name]
+    %em.employee-title
+      = member[:title]
+- if member[:children].any?
+  .tree
+    %ul
+      - member[:children].each do |child|
+        %li
+          = partial "team_member", locals: {member: child}

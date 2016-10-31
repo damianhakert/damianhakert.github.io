@@ -1,18 +1,133 @@
 @import "variables";
 
-// Fixes Bootstrap 3 issue:
-// http://stackoverflow.com/questions/35398705/why-is-chrome-showing-extra-line-when-using-google-org-chart
-.google-visualization-orgchart-table {
-  border-collapse: separate;
-}
-
 .org-chart-container {
   overflow-x: scroll;
-  padding-top: 50px;
-  padding-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #5c5d5e;
+  font-size: 10px;
 
-  .employee-title {
-    color: $color-red;
-    font-style: italic;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+
+  .employee-profile {
+    position: relative;
+    display: inline-block;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    z-index: 100;
+
+    .employee-name {
+      display: block;
+    }
+
+    .employee-title {
+      display: block;
+      color: $color-red;
+      font-style: italic;
+    }
+  }
+
+  .tree {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+
+    ul {
+      display: table-row;
+    }
+
+    li {
+      display: table-cell;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    .node {
+      position: relative;
+      width: 100%;
+    }
+
+    .node:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      display: block;
+      border-right: 2px solid #ccc;
+      border-top: 2px solid #ccc;
+      width: 50%;
+      height: 100%;
+    }
+
+    .node:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: '';
+      display: block;
+      border-top: 2px solid #ccc;
+      width: 50%;
+      height: 100%;
+    }
+
+    .node:last-child:before,
+    .node:last-child:after, {
+      height: 50%;
+    }
+
+    li:first-child {
+      > .node:before {
+        display: none;
+      }
+      > .node:after {
+        border-left: 2px solid #c6c6c6;
+        border-top-left-radius: 5px;
+      }
+    }
+
+    li:last-child {
+      > .node:after {
+        display: none;
+      }
+      > .node:before {
+        border-top-right-radius: 5px;
+      }
+    }
+
+    li:only-child {
+      > .node:before {
+        display: block;
+        border-radius: 0;
+        border-top: 0;
+      }
+    }
+
+    &.root > ul > li > .node {
+      &:before {
+        top: 50%;
+        height: 50%;
+      }
+    }
   }
 }
