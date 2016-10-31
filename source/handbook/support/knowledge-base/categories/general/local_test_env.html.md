@@ -14,7 +14,7 @@ category: General
 
 ## Initial setup
 
-This guide involves configuring and setting up VMWare and Docker locally and assumes you're using Mac OS X. 
+This guide involves configuring and setting up VMWare and Docker locally and assumes you're using Mac OS X.
 
 #### Install VMWare
 
@@ -30,7 +30,7 @@ This guide involves configuring and setting up VMWare and Docker locally and ass
 
 #### Create new docker host
 
-This command will create a new VMware fusion virtual machine called `gitlab-test-evn` that will act as a docker host. 
+This command will create a new VMware fusion virtual machine called `gitlab-test-evn` that will act as a docker host.
 
 + CPUs: Same as host (`-1`)
 + RAM: 4GB
@@ -38,13 +38,13 @@ This command will create a new VMware fusion virtual machine called `gitlab-test
 + Driver: `vmwarefusion`
 
 ```
-docker-machine create \ 
---vmwarefusion-cpu-count -1 \ 
+docker-machine create \
+--vmwarefusion-cpu-count -1 \
 --vmwarefusion-memory-size 4096 \
 --driver vmwarefusion gitlab-test-env
 ```
 
-+ Resource: https://docs.docker.com/machine/drivers/vm-fusion/ 
++ Resource: https://docs.docker.com/machine/drivers/vm-fusion/
 
 
 ## Creating GitLab test instance
@@ -53,7 +53,7 @@ docker-machine create \
 #### Connect your shell to the new machine
 
 
-In this example we'll create a GitLab EE 8.10.8 instance. 
+In this example we'll create a GitLab EE 8.10.8 instance.
 
 
 First connect the docker client to the docker host you created previously.
@@ -69,7 +69,7 @@ You can add this to your `~/.bash_profile` file to ensure the `docker` client us
 
 + HTTP port: `8080`
 + SSH port: `2222`
-   + Set `gitlab_shell_ssh_port` using `--env GITLAB_OMNIBUS_CONFIG ` 
+   + Set `gitlab_shell_ssh_port` using `--env GITLAB_OMNIBUS_CONFIG `
 + Hostname: IP of docker host
 + Container name: `gitlab-test-8.10`
 + GitLab version: **EE** `8.10.8-ee.0`
@@ -90,14 +90,14 @@ docker run --detach \
 --hostname $(docker-machine ip gitlab-test-env) \
 -p $HTTP_PORT:80 -p $SSH_PORT:22 \
 --name $NAME \
-gitlab/gitlab-ee:$VERSION 
+gitlab/gitlab-ee:$VERSION
 ```
 
 
 ##### Update `gitlab.rb` values
-``` 
+```
 docker exec -it $NAME \
-sed -i "s/.*gitlab_shell_ssh_port.*/gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT/g" /etc/gitlab/gitlab.rb 
+sed -i "s/.*gitlab_shell_ssh_port.*/gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT/g" /etc/gitlab/gitlab.rb
 
 docker exec -it $NAME gitlab-ctl reconfigure
 ```
@@ -118,7 +118,7 @@ docker-machine ip gitlab-test-env
 + Browse to: http://192.168.151.134:8080/
 
 
-##### Execute interactive shell/edit configuration 
+##### Execute interactive shell/edit configuration
 
 
 ```
@@ -131,7 +131,7 @@ root@192:/# vi /etc/gitlab/gitlab.rb
 root@192:/# gitlab-ctl reconfigure
 ```
 
-#### Resources 
+#### Resources
 
 + https://docs.gitlab.com/omnibus/docker/
 + https://docs.docker.com/machine/get-started/
