@@ -146,15 +146,15 @@ gitlab-rails c
 
    1. Perform a group sync
 
-	```
+    
 	LdapGroupSyncWorker.new.perform
-	```
+
 
    1. Perform a user sync
 
-	```
+
 	LdapSyncWorker.new.perform
-	```
+
 	
 	
    1. Check the console for sync output
