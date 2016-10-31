@@ -38,35 +38,6 @@
     }
   }
 
-  .filter-container {
-    .filter-input {
-      padding: 0 7px;
-      width: 100%;
-      line-height: 30px;
-      outline:0;
-      border: 1px solid rgba(0,0,0,0.1);
-      border-radius: 2px;
-
-      &:hover,
-      &:focus {
-        outline: 0;
-        box-shadow: none;
-        border-color: #c4c4c4;
-
-        & ~ .fa-search {
-          color: #555;
-        }
-      }
-    }
-
-    .fa-search {
-      position: absolute;
-      top: 22px;
-      right: 25px;
-      color: #c7c7c7;
-    }
-  }
-
   .dropdown {
     margin-bottom: 10px;
   }
@@ -142,3 +113,31 @@
   }
 }
 
+.filter-container {
+  .filter-input {
+    padding: 0 7px;
+    width: 100%;
+    line-height: 30px;
+    outline: 0;
+    border: 1px solid $dropdown-filter-border-color;
+    border-radius: 2px;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: $dropdown-focus-color;
+
+      ~ .fa-search {
+        color: $dropdown-fa-focus-color;
+      }
+    }
+  }
+
+  .fa-search {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    color: $dropdown-fa-color;
+  }
+}
