@@ -17,11 +17,6 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 
 ![](handbook/sales/steps.png)
 
-## Prerequisites
-{:.no_toc}
-
-- Working OpenShift setup
-
 ## Links
 {:.no_toc}
 
@@ -35,8 +30,9 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 - TOC
 {:toc}
 
-## Pre-demo Setup
+## Preparation
 
+> You need a working OpenShift setup
 > * Login to OpenShift
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
@@ -48,12 +44,6 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 > * Open [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) as opening window during intro
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 > * Go to 'Displays' settings, Resulution: Scaled, Larger text
-
-## Intro
-
-Today I'd like to demo some of the power of GitLab’s open set of tools
-for the software development lifecycle, helping you get from idea to production
-as quickly as possible. We plan to ship all this functionality in GitLab 8.14.
 
 ## Install GitLab itself
 
@@ -88,7 +78,9 @@ If there is more time talk about what a review app is and what cycle analytics a
 > * Wait for gitlab pod to go from light blue to full blue
 > Click the [GitLab link](http://gitlab.tanukionline.com)
 
-## Setup a user and project
+## Setup a project in GitLab
+
+### Create a user and a project
 
 Now that we've got GitLab running, let's set up an account.
 
@@ -103,7 +95,7 @@ Then let’s now create a new project to start off with. Let's call it `www` and
 
 > * Create a project called `www` under the `tanuki` group and make it public
 
-### Configure a project
+### Configure the project
 
 Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
 
@@ -120,7 +112,7 @@ Of course this is just a static file and not an application yet, but since we’
 > * template HTTPd *TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)*
 > * Commit changes on master
 
-### Prepare OpenShift
+### Add Openshift credentials to CI
 
 We can simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) at some point but in the short term we have a *TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445)* and a *TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
@@ -147,7 +139,7 @@ We also need to set our server and our domain.
 >   * Key: OPENSHIFT_DOMAIN
 >   * Value: tanukionline.com
 
-### Use GitLab CI
+### Setup GitLab CI
 
 Now we’re ready to configure GitLab CI. Luckily GitLab also provides a bunch of templates to get us started. Back to the project, let’s click `Setup CI` and choose the OpenShift template.
 
@@ -349,4 +341,4 @@ This is great for team managers and high level managers looking to better unders
 
 > * Back to [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/)
 
-So that's it. We've taken you on a little journey. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to Gitlab.
+So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to Gitlab.
