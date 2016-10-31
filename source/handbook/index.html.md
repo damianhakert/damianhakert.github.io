@@ -451,7 +451,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  [Headset](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=ac5827eb0f710d43c99d3715a05c0470fc91de286c1b5b57d4ff3412191a59385cab6f561626d062ee8e07a4b043fc12ab31a822639ade516ee00e2f5c61576a5ddb7e97cbb90a6ea5af3add73c1d412017bb8691535185d1776390844ca2825)
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
-    *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
+    *  Ergonomic [chair](https://www.amazon.com/gp/product/B0166J96XA/ref=pd_sbs_229_2?ie=UTF8&pd_rd_i=B0166J96XA&pd_rd_r=YR3Q8ZEWPP09EFR3AQ4Y&pd_rd_w=0KI3x&pd_rd_wg=MSYIX&psc=1&refRID=YR3Q8ZEWPP09EFR3AQ4Y)
     *  [Notebook stand](https://www.amazon.com/Roost-Laptop-Stand-Productivity-Lightweight/dp/B01C9KG8IG)
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
