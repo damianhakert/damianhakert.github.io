@@ -9,12 +9,16 @@
     background-color: $color-primary;
 
     .color-bg {
-      background: rgba(85, 68, 136, 0.1);
+      background: rgba(85, 68, 136, 0.1);   // spacing after breakpoint
+      @media (max-width: $screen-xs-max) {
+        padding-top: 90px;
+      }
     }
   }
   .comparison-container {
     padding: 40px;
   }
+  
   .comparison-page-content {
     h2,
     h3,
@@ -53,6 +57,9 @@
       }
       h3 {
         margin-top: 10px;
+      }
+      .color-bg {
+        padding-top: 100px;
       }
     }
   }
