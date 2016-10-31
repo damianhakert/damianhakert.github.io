@@ -354,7 +354,6 @@
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
-  specialty: Build
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -771,7 +770,6 @@
   picture: dj.png
   twitter: twk3
   gitlab: twk3
-  specialty: Build
   maintains:  |
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> expert</li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -1574,7 +1572,6 @@
   picture: jplum.jpg
   twitter: WarheadsSE
   gitlab: WarheadsSE
-  specialty: Build
   story:  |
           From Pennsylvania Amish country comes an avid technologist, serial mentor and community evangelist. Jason can be seen attending, boothing, and speaking at as many FOSS conferences and Linux User Groups as he can manage. Previously working as a distribution manager for a thin client company, Jason brings his expertise in packaging for Linux along with a strong desire to produce tools for the community that has changed his life.
 
@@ -1745,7 +1742,6 @@
   picture: ibaum.jpg
   twitter:
   gitlab: ibaum
-  specialty: Build
   story:  |
           Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
           In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
