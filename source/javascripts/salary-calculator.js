@@ -10,6 +10,11 @@
 
   var setDropdown = function(event) {
     var $selected = $(event.currentTarget);
+
+    if ($selected.hasClass('filter-container')) {
+      return;
+    }
+
     var key = $selected.find('.key').text();
     var value = $selected.find('.value').text();
     var displayValue = $selected.find('.display-value').text();
@@ -45,6 +50,7 @@
       var $cityDropdown = $(salaryContainer + ' .city li');
       var $levelDropdown = $(salaryContainer + ' .level li');
       var $experienceDropdown = $(salaryContainer + ' .experience li');
+      var $countryFilter = $('.js-country-filter');
 
       // Set selected dropdown value
       $countryDropdown.on('click', setDropdown);
@@ -67,6 +73,23 @@
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
+
+      $countryFilter.on('keyup', this.filterCountries);
+    }
+
+    SalaryCalculator.prototype.filterCountries = function(event) {
+      var text = event.target.value.toLowerCase();
+      var $countries = $(salaryContainer + ' .country li:not(.filter-container)');
+
+      $countries.each(function(index, element) {
+        var $element = $(element);
+        var value = $element.children('.key').text().toLowerCase();
+        if (value.indexOf(text) == -1) {
+          $element.addClass('hidden');
+        } else {
+          $element.removeClass('hidden');
+        }
+      });
     }
 
     // Custom dropdown functionality

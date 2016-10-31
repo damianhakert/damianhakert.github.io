@@ -29,12 +29,41 @@
     li {
       padding: 5px 8px;
 
-      &:hover {
+      &:hover:not(.filter-container) {
         cursor: pointer;
         background-color: $dropdown-hover-color;
         text-decoration: none;
         outline: 0;
       }
+    }
+  }
+
+  .filter-container {
+    .filter-input {
+      padding: 0 7px;
+      width: 100%;
+      line-height: 30px;
+      outline:0;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 2px;
+
+      &:hover,
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+        border-color: #c4c4c4;
+
+        & ~ .fa-search {
+          color: #555;
+        }
+      }
+    }
+
+    .fa-search {
+      position: absolute;
+      top: 22px;
+      right: 25px;
+      color: #c7c7c7;
     }
   }
 
