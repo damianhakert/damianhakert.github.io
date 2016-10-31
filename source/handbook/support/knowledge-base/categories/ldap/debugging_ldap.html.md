@@ -145,15 +145,13 @@ gitlab-rails c
 ```
 
    1. Perform a group sync
-
-    
-	LdapGroupSyncWorker.new.perform
+   
+           LdapGroupSyncWorker.new.perform
 
 
    1. Perform a user sync
 
-
-	LdapSyncWorker.new.perform
+           LdapSyncWorker.new.perform
 
 	
 	
