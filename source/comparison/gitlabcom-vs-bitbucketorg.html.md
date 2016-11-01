@@ -9,7 +9,7 @@ extra_css:
 
 ## GitLab.com vs. Bitbucket.org
 
-### Everything mentioned in GitLab CE/EE versus Bitbucket Server
+### Everything mentioned in <a href='/comparison/gitlab-ce-ee-vs-bitbucket-server.html'>GitLab CE/EE versus Bitbucket Server</a>
 
 ### Unlimited collaborators
 With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories.
