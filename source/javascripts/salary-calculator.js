@@ -10,6 +10,11 @@
 
   var setDropdown = function(event) {
     var $selected = $(event.currentTarget);
+
+    if ($selected.hasClass('filter-container')) {
+      return;
+    }
+
     var key = $selected.find('.key').text();
     var value = $selected.find('.value').text();
     var displayValue = $selected.find('.display-value').text();
@@ -41,10 +46,14 @@
     }
 
     SalaryCalculator.prototype.bindEvents = function() {
-      var $countryDropdown = $(salaryContainer + ' .country li');
-      var $cityDropdown = $(salaryContainer + ' .city li');
+      var $countryDropdown = $(salaryContainer + ' .country li:not(.filter-container)');
+      var $countryDropdownContainer = $(salaryContainer + ' .country');
+      var $cityDropdown = $(salaryContainer + ' .city li:not(.filter-container)');
+      var $cityDropdownContainer = $(salaryContainer + ' .city');
       var $levelDropdown = $(salaryContainer + ' .level li');
       var $experienceDropdown = $(salaryContainer + ' .experience li');
+      var $countryFilter = $('.js-country-filter');
+      var $cityFilter = $('.js-city-filter');
 
       // Set selected dropdown value
       $countryDropdown.on('click', setDropdown);
@@ -65,13 +74,56 @@
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
+
+      // Filtering
+      $countryFilter.on('keyup', this.search.bind(null, {
+        dropdown: 'country'
+      }));
+
+      $cityFilter.on('keyup', this.search.bind(this, {
+        dropdown: 'city',
+        filter: 'country',
+      }));
+
+      $countryDropdownContainer.on('shown.bs.dropdown', this.focusInput);
+      $cityDropdownContainer.on('shown.bs.dropdown', this.focusInput);
+    }
+
+    SalaryCalculator.prototype.focusInput = function(event) {
+      $(event.target).find('.filter-input').focus();
+    }
+
+    SalaryCalculator.prototype.search = function(data, event) {
+      var text = event.target.value.toLowerCase();
+      var filterValue = null;
+      var $items = $(salaryContainer + ' .' + data.dropdown + ' li:not(.filter-container)');
+
+      if (data.filter) {
+        filterValue = this.getElementValues()[data.filter];
+      }
+
+      $items.each(function(index, element) {
+        var $element = $(element);
+        var value = $element.children('.key').text().toLowerCase();
+        var searchableElement = true;
+
+        if (data.filter && filterValue) {
+          searchableElement = $element.data(data.filter) === filterValue;
+        }
+
+        if (value.indexOf(text) == -1 || !searchableElement) {
+          $element.addClass('hidden');
+        } else {
+          $element.removeClass('hidden');
+        }
+      });
     }
 
     // Custom dropdown functionality
 
     SalaryCalculator.prototype.filterCityDropdown = function() {
       var selectedCountry = this.getElementValues().country;
-      var $cities = $(salaryContainer + ' .city li');
+      var $cities = $(salaryContainer + ' .city li:not(.filter-container)');
 
       $cities.each(function(index, element) {
         var $element = $(element);
@@ -86,6 +138,8 @@
     SalaryCalculator.prototype.resetCityDropdown = function() {
       var $cityDropdownBtn = $(salaryContainer + ' .city .btn');
       var $cityDropdownTitle = $cityDropdownBtn.find('.title');
+      var $filterInput = $('.js-city-filter');
+      $filterInput.val('');
       $cityDropdownBtn.removeClass('disabled');
       $cityDropdownTitle.text('--');
       $cityDropdownTitle.data('selected', '');

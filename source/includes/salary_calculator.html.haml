@@ -56,6 +56,9 @@
             %span.title --
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
+            %li.filter-container
+              %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country'}
+              %i.fa.fa-search
             - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
               %li
                 %span.key= p.country
@@ -67,6 +70,9 @@
             %span.subtitle
             %i.fa.fa-chevron-down
           %ul.dropdown-menu.dropdown-scroll
+            %li.filter-container
+              %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
+              %i.fa.fa-search
             - data.numbeo.sort_by(&:city).each do |p|
               %li.hidden{'data-country' => p.country}
                 %span.key= p.city
