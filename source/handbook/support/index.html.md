@@ -85,7 +85,7 @@ The higher a channel is in the list the sooner it should be answered.
 
 ### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
+Service Engineers should work on tickets within their assigned support tier as a first prioity, after these are addressed they can work on tickets in any tier. Tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
 
 1. Tickets that are close to breaching "first time to reply" SLA
 1. Tickets that are close to breaching "next time to reply" SLA
@@ -94,6 +94,41 @@ Service Engineers can work on any ticket they feel they can contribute to. Howev
 1. Other open tickets
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+
+### Tiered Support
+
+GitLab operates with three tiers of customer support, each tier has a set of responsibilities as outlined below.
+
+#### Tier 1 Support
+
++ Provide a resolution to the customer, resolved at first point of contact (FPOC).
++ Document information from the customer in relation to the problem.
++ Tickets the service engineer is unable to resolve at Tier 1 level should be escalated to Tier 2. The following types of escalations can apply:
+   + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
+   + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
+   + Ticket is not within Tier 1 support scope, escalate to Tier 2.
+
+**Examples of requests solved at Tier 1**
+
++ Known issues/bugs (_A GitLab issue already exists_)
++ Requests for information (customer questions)
+   + Quick configuration changes - "How do I enable this feature?"
+   + Any other questions, e.g "Does GitLab support this?"
+
+#### Tier 2 Support
+
++ Unknown issues/problems that require investigation. Follow up with customers over multiple interactions. Report the ongoing status of a pending issue/bug fix.
++ Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
++ In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
++ Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyse, troubleshoot, and resolve difficult issues.
+
+#### Tier 3 Support
+
+Support requests escalated to tier 3:
+
++ Production critical problems faced by GitLab plus customers.
++ Problems that cannot be resolved at tier 2 within a signification amount of time (internal SLA).
++ Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
 
 ### Breach Hawks
 
