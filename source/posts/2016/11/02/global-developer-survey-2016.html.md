@@ -32,6 +32,7 @@ and over the last 35 years, we've all experienced the overwhelming takeover of
 technology, software, and digital devices. But what's surprising is there are still 
 tons of massive development teams attemping to do revolutionary work at a 
 revolutionary pace, using outdated systems and methods of software development. 
+
 In an era where speed and time to market mattermost, these technology companies 
 are sabotaging their bottom line. In fact, a business analyst at Forrester even 
 went so far as to say "['Evolve or Crumble' is one of the most important things 
@@ -39,15 +40,43 @@ you will read this year.][forrester-blog-odonnell]"
 
 However, while businesses may struggle to update their systems, processes, and 
 technologies to keep up, developers are demanding the latest developement tools and 
-more collaborative ways of working in order to ship code faster:
+more collaborative ways of working in order to ship code faster. Managers take note:
 
 ![infographic](images/blogimages/enterprise-survey-2016-infographic.png)
 
-## Collaboration is critical to modern developers
+Our survey reveals that the vast majority of developers work with open source tools 
+and that a distributed version control system, and more specifically, Git, is the
+most important tool used in everyday work. Developers have a strong desire to work
+with the latest tools and methods yet nearly half say their team doesn't have
+a good handle on the latest dev best practices. 
+
+## Give developers what they want 
+
+Developers are feeling the pressure to move faster from idea to production. 
+Unfortunately, unclear direction and outdated tools and techniques are slowing 
+down the process. Luckyily for DevOps and IT managers, there is a strong correlation 
+between what devs want and what business need but leadership must be willing to 
+embrace the changes required to get there. 
+
+At the core of what devs want and what businesses need is a more iterative and 
+collaborativeprocesses for software development. 81% of developers say that 
+chat/collaboration tools such as Slack, HipChat, etc., are very or extremely 
+important to their everyday work. In the new brave new world of software development,
+rigid processes are replaced with more natural ways of communicating which, in turn,
+improves the efficiency and speed of a team. 
 
 ### Conversational Development 
+
+Conversational Development (ConvDev)  is a natural process of accelerating the
+development lifecycle that threads a conversation trhough every step of the 
+development process. 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Agile development should be conversational development <a href="https://twitter.com/hashtag/RubyConfPT?src=hash">#RubyConfPT</a> <a href="https://twitter.com/hashtag/martinfowler?src=hash">#martinfowler</a> <a href="https://t.co/z7hrommlUA">pic.twitter.com/z7hrommlUA</a></p>&mdash; Luísa Lima (@__luisalima__) <a href="https://twitter.com/__luisalima__/status/791574169876045825">October 27, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 <!-- identifiers --> 
 
 [forrester-blog-odonnell]: http://blogs.forrester.com/glenn_odonnell/16-09-13-tech_vendors_must_evolve_or_crumble_the_report_you_must_read
-[report-lp]: 
+[report-lp]: https://page.gitlab.com/2016-Developer-Survey_2016-Developer-Survey.html
