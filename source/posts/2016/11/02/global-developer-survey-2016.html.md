@@ -3,7 +3,7 @@ title: Global Developer Survey Reveals Need for More Collaborative Workflows
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: press
-image_title: '/images/blogimages/post-cover-image.jpg'
+image_title: '/images/blogimages/ee-survey-2016-cover-3.jpg'
 description: "New survey examines how modern developers prefer to work." 
 twitter_image: '/images/tweets/post-screenshot-image.png'
 ---
@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/post-screenshot-image.png'
 {::options parse_block_html="true" /}.
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-**TL;DR:** New survey shows 98 percent of developers use open source tools at work; 92 percent prefer Git. [Get the full report][report-lp].
+**TL;DR:** New survey shows 98% of developers use open source tools at work; 92% prefer Git. [Get the full report][report-lp].
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
