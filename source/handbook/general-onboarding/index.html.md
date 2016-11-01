@@ -8,6 +8,7 @@ title: "GitLab Onboarding"
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [UX Designer onboarding](/handbook/uxdesigner-onboarding)
+* [UX Researcher onboarding](/handbook/uxresearcher-onboarding)
 * [Designer (marketing) onboarding](/handbook/designer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
