@@ -41,14 +41,14 @@ While businesses struggle to keep up with cutting edge systems, processes, and
 technologies, developers are demanding the latest development tools and 
 more collaborative ways of working in order to ship code faster. Managers take note:
 
-![infographic](/images/blogimages/enterprise-survey-2016-infographic.png)
+![infographic](/images/blogimages/enterprise-survey-2016-infographic.png){: .shadow}
 
 Our survey reveals that the vast majority of developers work with open source tools. A distributed version control system, and more specifically, Git, is the
 most important tool used in everyday work. Developers have a strong desire to work
 with the latest tools and methods, yet nearly half say their team doesn't have
 a good handle on the latest dev best practices. 
 
-## Give developers what they want 
+## Give Developers What They Want 
 
 Developers are feeling the pressure to move faster from idea to production. 
 Unfortunately, unclear direction and outdated tools and techniques are slowing 
@@ -63,7 +63,7 @@ important to their everyday work. In the brave new world of software development
 rigid processes are replaced with more natural ways of communicating, which in turn
 improve the efficiency and speed of a team. 
 
-### Conversational Development is the new Agile
+### Conversational Development is the new Agile.
 
 Software development methodologies have come a long way over the last few decades: 
 Scrum replaced the inflexible Waterfall Method, and Agile improved the time-consuming
