@@ -33,7 +33,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] Calendars & Agenda
    1. [x] _not relevant_ People Ops: Add entry to availability calendar so the team can see when new people are joining.
    1. [ ] People Ops: Remove team member from GitLab availability calendar
-   1. [ ] People Ops: Remove team member's birthday and work anniversary from the GitLab Birthdays calendar
+   1. [ ] People Ops: Remove team member's birthday and work anniversary from the GitLab Birthdays calendar. Also, un-share the calendar with the team member
    1. [x] _not relevant_ People Ops: Add new team member to the next monthly GitLab 101 call
    1. [ ] People Ops: Remove team member from Team Call Agenda and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] Hiring Manager: Add entry to Team Call agenda to announce departure of team member: 'X is no longer with GitLab'.
