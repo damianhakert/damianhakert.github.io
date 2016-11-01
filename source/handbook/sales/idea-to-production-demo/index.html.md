@@ -23,6 +23,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 - [Allow first names for project and group names in Openshift and GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874)
+- [Open issues for this demo](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
 
 ## Table of Contents
 {:.no_toc}
