@@ -24,7 +24,7 @@ world has not only moved onto something new, they're using a brand new
 set of tools you've never heard of to build it. Meanwhile, you're 
 still coding in C++. 
 
-<-- more --> 
+<!-- more --> 
 
 Rapid acceleration in the technology 
 industry is nothing new. Moore's law predicted this phenomenon as early as 1965 
