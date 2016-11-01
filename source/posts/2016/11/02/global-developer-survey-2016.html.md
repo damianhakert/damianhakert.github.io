@@ -61,7 +61,7 @@ collaborative process for software development. Eighty-one percent of developers
 chat and collaboration tools (such as Slack, HipChat, etc.) are very or extremely 
 important to their everyday work. In the brave new world of software development,
 rigid processes are replaced with more natural ways of communicating, which in turn
-improve the efficiency and speed of a team. 
+improves the efficiency and speed of a team. 
 
 ### Conversational Development is the new Agile
 
