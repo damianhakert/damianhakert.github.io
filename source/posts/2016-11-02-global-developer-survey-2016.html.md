@@ -8,7 +8,7 @@ description: "New survey examines how modern developers prefer to work."
 twitter_image: '/images/tweets/post-screenshot-image.png'
 ---
 
-{::options parse_block_html="true" /}.
+{::options parse_block_html="true" /}
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 **TL;DR:** New survey shows 98% of developers use open source tools at work; 92% prefer Git. [Get the full report][report-lp].
