@@ -85,7 +85,7 @@ The higher a channel is in the list the sooner it should be answered.
 
 ### SLA Workflow
 
-Service Engineers can work on any ticket they feel they can contribute to. However, tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
+Service Engineers should work on tickets within their assigned support tier as a first prioity, after these are addressed they can work on tickets in any tier. Tickets should be picked up in the following order to make sure that SLA's are not breached, and customers receive the proper level of service:
 
 1. Tickets that are close to breaching "first time to reply" SLA
 1. Tickets that are close to breaching "next time to reply" SLA
@@ -95,20 +95,18 @@ Service Engineers can work on any ticket they feel they can contribute to. Howev
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
-### Breach Hawks
-
-Breach hawks are members of the support team who help the rest of the team keep an eye out for nearly-breaching tickets, so that they can be responded to in a timely manner. Of course, any and all members of the Support Team will have a sense of how many tickets are close to breaching and how high the load is on any given day. But it can happen that you're deep into a ticket, a customer call, etc., unaware of the impending doom. That's where breach hawks come in: they tackle their tickets, but they also keep an eye out for the team at large; and can call in the [Support Turbos](#support-turbo) if and when needed.
-
 ### Tiered Support
 
-GitLab operates with three tiers of customer support, each tier has a set of responsibilities as outlined below. 
+GitLab operates with three tiers of customer support, each tier has a set of responsibilities as outlined below.
 
 #### Tier 1 Support
 
 + Provide a resolution to the customer, resolved at first point of contact (FPOC).
 + Document information from the customer in relation to the problem.
-+ For problems not solved at FPOC, the service engineer will inform the customer of an escalation and will escalate the ticket to Tier 2 support. 
-+ If no interactions have taken place and issue is not within the scope of Tier 1 support, the ticket should be escalated to Tier 2 immediately.
++ Tickets the service engineer is unable to resolve at Tier 1 level should be escalated to Tier 2. The following types of escalations can apply:
+   + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
+   + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
+   + Ticket is not within Tier 1 support scope, escalate to Tier 2.
 
 **Examples of requests solved at Tier 1**
 
@@ -131,6 +129,10 @@ Support requests escalated to tier 3:
 + Production critical problems faced by GitLab plus customers.
 + Problems that cannot be resolved at tier 2 within a signification amount of time (internal SLA).
 + Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
+
+### Breach Hawks
+
+Breach hawks are members of the support team who help the rest of the team keep an eye out for nearly-breaching tickets, so that they can be responded to in a timely manner. Of course, any and all members of the Support Team will have a sense of how many tickets are close to breaching and how high the load is on any given day. But it can happen that you're deep into a ticket, a customer call, etc., unaware of the impending doom. That's where breach hawks come in: they tackle their tickets, but they also keep an eye out for the team at large; and can call in the [Support Turbos](#support-turbo) if and when needed.
 
 ### Support Turbo
 
