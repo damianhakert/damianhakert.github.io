@@ -73,9 +73,9 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 | SLA | Channel                | Response Time                          |
 |-----|----------------------------|----------------------------------------|
-| 1   | [Emergencies](/handbook/support/channels#emergency-tickets)                | 30 minutes                             |
-| 2   | [Regular Tickets](/handbook/support/channels#regular-zendesk-tickets) and [Security](/handbook/support#security-disclosures) | 1 business day                         |
-| 3   | [Disqus](/handbook/support#disqus)  and [Twitter](/handbook/support#twitter)         | 1 business day                         |
+| 1   | [Emergencies](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 2   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
+| 3   | [Disqus](/handbook/marketing/developer-relations/community-advocacy/#disqus)  and [Twitter](/handbook/marketing/developer-relations/community-advocacy/#twitter)         | 1 business day                         |
 | 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
 
 **Response time indicates the first reply time.**
