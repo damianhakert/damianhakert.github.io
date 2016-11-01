@@ -148,7 +148,7 @@ If Google Sheets or Docs are mentioned, these will be shared with you on Google 
 - **Select a Buddy**
 In the "Buddy Spreadsheet" google sheet, select a buddy for the new team member that is in the same timezone, but a different functional group. Also, add the new team member to the sheet so they can also be a buddy one day!
 - **Google Account**
-Log on to the Google Admin console. Verify that the email that you have chosen for the new team member is not conflicting with a current account or team member's name. Select Users. Click the + sign to add a new user. Once you have created the handle, send an email to the new team member's personal email. Lastly, add the new team member to the New User's group under the users tab.
+Log on to the Google Admin console. Verify that the email that you have chosen for the new team member is not conflicting with a current account or team member's name. Select Users. Click the + sign to add a new user. Once you have created the handle, send an email to the new team member's personal email. Lastly, add the new team member to the New User's group under the Groups tab.
 - **Add team member to availability calendar**
 Make a new "all-day" event on the day the new team member starts "[Name] joining
 as [Job title]". Make sure to select the calendar as GitLab Availability and not your own.
