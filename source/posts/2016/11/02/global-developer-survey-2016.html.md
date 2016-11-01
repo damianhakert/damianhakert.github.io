@@ -65,16 +65,30 @@ important to their everyday work. In the new brave new world of software develop
 rigid processes are replaced with more natural ways of communicating which, in turn,
 improves the efficiency and speed of a team. 
 
-### Conversational Development 
+### Conversational Development is the new Agile
 
-Conversational Development (ConvDev)  is a natural process of accelerating the
-development lifecycle that threads a conversation trhough every step of the 
-development process. 
+Software development methodologies have come a long way over the last few decades: 
+Scrum replaced the inflexible Waterfall Method. Agile improved the time-consuming
+method of Scrum. Now, as more development teams are distributed globally and market 
+demands speed and innovation, a more flexible process that can deliver faster is needed.
+
+As a more networked society, communication is instanenous and constant. With more 
+conversations happening in more places during the software development lifecycle,
+a process that puts conversation at the center is needed. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Agile development should be conversational development <a href="https://twitter.com/hashtag/RubyConfPT?src=hash">#RubyConfPT</a> <a href="https://twitter.com/hashtag/martinfowler?src=hash">#martinfowler</a> <a href="https://t.co/z7hrommlUA">pic.twitter.com/z7hrommlUA</a></p>&mdash; Luísa Lima (@__luisalima__) <a href="https://twitter.com/__luisalima__/status/791574169876045825">October 27, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Conversational Development (ConvDev) is a natural process of accelerating the
+development lifecycle that threads a conversation trhough every step of the 
+development process. With ConvDev, gatekeepers become a part of the conversation
+and can monitor the process starting with an idea all the way to production. Cycle time
+is reduced by threading all conversations through every stage of development lifecycle. 
 
+As developers continue to gain control over the tools they use at work, there will be an 
+even greater push to choose open source, Git, and to adopt workflows that are 
+naturally collaborative. Teams that can ship quicker, smaller changes are poised
+to dominate the market. 
 
 <!-- identifiers --> 
 
