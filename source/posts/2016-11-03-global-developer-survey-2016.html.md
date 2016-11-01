@@ -1,5 +1,5 @@
 ---
-title: Global Developer Survey Reveals Dev's Prefer Git
+title: Global Developer Survey Reveals Need for More Collaborative Workflows
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: press
@@ -24,41 +24,24 @@ world has not only moved onto something new but they're using a brand new
 language and set of tools you've never head of to build it. Meanwhile, you're 
 still coding in C++. 
 
-This fact of rapid acceleration, or expotential growth, in the technology 
-industry is nothing new. Moore's law predicted this phenomenon as early as 1965 
-and over the last 35 years, we've all experienced the overwhelming shift in 
-technology and digital devices. But what's surprising is there are still tons 
-of massive development teams attemping to do revolutionary work at a 
-revolutionary pace, using outdated systems and methods of software development. 
-In an era where speed and time to market mattermost, technology companies are 
-sabotaging their bottom line.
-
 <-- more --> 
 
+Rapid acceleration, or expotential growth, in the technology 
+industry is nothing new. Moore's law predicted this phenomenon as early as 1965 
+and over the last 35 years, we've all experienced the overwhelming takeover of
+technology, software, and digital devices. But what's surprising is there are still 
+tons of massive development teams attemping to do revolutionary work at a 
+revolutionary pace, using outdated systems and methods of software development. 
+In an era where speed and time to market mattermost, these technology companies 
+are sabotaging their bottom line. In fact, a business analyst at Forrester even 
+went so far as to say "['Evolve or Crumble' is one of the most important things 
+you will read this year.][forrester-blog-odonnell]"
 
-
-Forrest analyst Glenn O'Donnell even went so far as to say "['Evolve or Crumble' 
-is one of the most important things you will read this year.][forrester-blog-odonnell]"
-
-As the pace of 
-
-1. Introduction explains changes in software development. Things are more agile, 
-need for better collaboration as more technologies appear. Businesses need to iterate
-faster to stay distruptive or risk being distrupted by existing or new competitors. 
-
-
-
-2. Open source is the future & whu developers love Git. Developers have more choice in the tools they use and
-prefer open source and Git. Latest technologies are important, some will even go 
-as far to say they would not take a job if they didn't use the latest technologies. 
-
-As the infographic below points out, 
-
-
+However, while businesses may struggle to update their systems, processes, and 
+technologies to keep up, developers are demanding the latest developement tools and 
+more collaborative ways of working in order to ship code faster:
 
 ![infographic](images/blogimages/enterprise-survey-2016-infographic.png)
-
-CTA: Download your copy of the 2016 Global Developer Report. 
 
 ## Collaboration is critical to modern developers
 
