@@ -1242,6 +1242,7 @@
   specialty: Performance
   maintains: |
              <li>On-call hero!</li>
+             <li><a href="https://gitlab.com/gitlab-org/gitlab-monitor">GitLab Monitor maintainer</a></li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
           on web forums back in 2003, hasn't stopped coding ever since. He's interested
