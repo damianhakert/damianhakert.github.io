@@ -41,7 +41,7 @@ While businesses struggle to keep up with cutting edge systems, processes, and
 technologies, developers are demanding the latest development tools and 
 more collaborative ways of working in order to ship code faster. Managers take note:
 
-![infographic](images/blogimages/enterprise-survey-2016-infographic.png)
+![infographic](/images/blogimages/enterprise-survey-2016-infographic.png)
 
 Our survey reveals that the vast majority of developers work with open source tools. A distributed version control system, and more specifically, Git, is the
 most important tool used in everyday work. Developers have a strong desire to work
