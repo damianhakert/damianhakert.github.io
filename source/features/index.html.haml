@@ -25,6 +25,14 @@ extra_js:
     .row.feature-row.first
       .col-md-4.small-feature
         .name
+          MERGE CONFLICT
+          %b RESOLUTION
+        %a.image-link{href: "/images/feature_page/mr.png"}
+          = image_tag "/images/feature_page/mr.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/activity"} Have a look at an actual activity page
+      .col-md-4.small-feature
+        .name
           ACTIVITY
           %b STREAM
         %a.image-link{href: "/images/feature_page/activity_stream_full.png"}
@@ -39,12 +47,6 @@ extra_js:
           = image_tag "/images/feature_page/file_browser_full.png", class: "img-responsive"
         .link
           %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"} Try navigating GitLab's code
-      .col-md-4.small-feature
-        .name
-          GIT POWERED
-          %b WIKI
-        %a.image-link{href: "/images/feature_page/wiki_full.png"}
-          = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
     .row.feature-row
       .col-md-4.small-feature
         .name
@@ -56,17 +58,63 @@ extra_js:
           %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how we use issues to manage our open source project
       .col-md-4.small-feature
         .name
+          ISSUE
+          %b BOARD
+        %a.image-link{href: "/images/feature_page/issue_management.png"}
+          = image_tag "/images/feature_page/issue-boards.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how we use issues to manage our open source project
+      .col-md-4.small-feature
+        .name
           CODE
           %b SNIPPETS
         %a.image-link{href: "/images/feature_page/snippets_full.png"}
           = image_tag "/images/feature_page/snippets_full.png", class: "img-responsive"
+    .row.feature-row
+      .col-md-4.small-feature
+        .name
+          GITLAB
+          %b CI
+        %a.image-link{href: "/images/feature_page/pipelines.png"}
+          = image_tag "/images/feature_page/pipelines.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          REVIEW
+          %b APPS
+        %a.image-link{href: "/images/feature_page/review-apps.png"}
+          = image_tag "/images/feature_page/review-apps.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          CONTAINER
+          %b REGISTRY
+        %a.image-link{href: "/images/feature_page/container-registry.png"}
+          = image_tag "/images/feature_page/container.png", class: "img-responsive"
+    .row.feature-row
+      .col-md-4.small-feature
+        .name
+          CYCLE
+          %b ANALYTICS
+        %a.image-link{href: "/images/feature_page/cycle-analytics-view.png"}
+          = image_tag "/images/feature_page/cycle-analytics-view.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          GITLAB
+          %b PAGES
+        %a.image-link{href: "/images/feature_page/pages.png"}
+          = image_tag "/images/feature_page/pages.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          GIT POWERED
+          %b WIKI
+        %a.image-link{href: "/images/feature_page/wiki_full.png"}
+          = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
+    .row.feature-row.last
       .col-md-4.small-feature
         .name
           WEB
           %b HOOKS
         %a.image-link{href: "/images/feature_page/webhooks_full.png"}
           = image_tag "/images/feature_page/webhooks_full.png", class: "img-responsive"
-    .row.feature-row.last
       .col-md-4.small-feature
         .name
           GIT
