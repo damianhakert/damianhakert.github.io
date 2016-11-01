@@ -17,11 +17,11 @@ They are listed here so people know it is not them and that I appreciate people 
 
 1. I look serious all the time, it is OK to say 'maybe you can smile more'.
 2. I love debating, it is OK to say 'please stop debating and start collaborating'.
-3. My English pronunciation, choice of words, and grammer are not great. I'm taking lessons but I welcome corrections when we're having a 1:1 conversation and/or when it might confuse people.
+3. My English pronunciation, choice of words, and grammar are not great. I'm taking lessons but I welcome corrections when we're having a 1:1 conversation and/or when it might confuse people.
 4. When in a rush I will jump to conclusions, it is OK to ask 'can we take more time to discuss this'.
 
 If you speak up about them I should thank you for it, it is OK to say 'this was on your list of flaws so I kinda expected a thank you'.
-I'm sure I have more flaws that effect my professional life.
+I'm sure I have more flaws that affect my professional life.
 Feel free to send a merge request to add them or communicate them anonymously to People Operations so they can send a merge request.
 
 ## Communication
