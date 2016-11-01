@@ -89,7 +89,7 @@ extra_js:
           %b REGISTRY
         %a.image-link{href: "/images/feature_page/container_registry.png"}
           = image_tag "/images/feature_page/container_registry.png", class: "img-responsive"
-    .row.feature-row
+    .row.feature-row.last
       .col-md-4.small-feature
         .name
           CYCLE
@@ -108,32 +108,5 @@ extra_js:
           %b WIKI
         %a.image-link{href: "/images/feature_page/wiki_full.png"}
           = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
-    .row.feature-row.last
-      .col-md-4.small-feature
-        .name
-          WEB
-          %b HOOKS
-        %a.image-link{href: "/images/feature_page/webhooks_full.png"}
-          = image_tag "/images/feature_page/webhooks_full.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          GIT
-          %b HOOKS
-        %a.image-link{href: "/images/feature_page/githooks_full.png"}
-          = image_tag "/images/feature_page/githooks_full.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          LDAP
-          %b GROUP SYNC
-        %a.image-link{href: "/images/feature_page/ldap_groups_full.png"}
-          = image_tag "/images/feature_page/ldap_groups_full.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          REPOSITORY
-          %b MIRRORING
-        %a.image-link{href: "/images/feature_page/mirror.png"}
-          = image_tag "/images/feature_page/mirror.png", class: "img-responsive"
-        .link
-          %a{href: "http://docs.gitlab.com/ee/workflow/repository_mirroring.html"}
-            Read about repository mirroring
+
 = partial "includes/features/gitlab-ee-trial"
