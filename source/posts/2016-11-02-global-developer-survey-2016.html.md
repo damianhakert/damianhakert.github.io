@@ -3,7 +3,7 @@ title: Global Developer Survey Reveals Need for More Collaborative Workflows
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: press
-image_title: '/images/blogimages/ee-survey-2016-cover-3.jpg'
+image_title: '/images/blogimages/ee-survey-2016-cover-3.png'
 description: "New survey examines how modern developers prefer to work." 
 twitter_image: '/images/tweets/post-screenshot-image.png'
 ---
