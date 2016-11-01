@@ -11,82 +11,80 @@ twitter_image: '/images/tweets/post-screenshot-image.png'
 {::options parse_block_html="true" /}.
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-**TL;DR:** New survey shows 98% of developers use open source tools at work; 92% prefer Git. [Get the full report][report-lp].
+**TL;DR:** New survey shows 98 percent of developers use open source tools at work; 92 percent prefer Git. [Get the full report][report-lp].
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
 Technology trends move fast. In the time it takes to build a new program or 
-feature, they very problem you're trying to solve can become obsolete. It's not 
+feature, the very problem you're trying to solve can become obsolete. It's not 
 just competitors you're worried about but the rapid pace of advancement in 
 technology that can pit products within a single company against each other. 
 Keep your head down too long on one project, and the rest of the development 
-world has not only moved onto something new but they're using a brand new 
-language and set of tools you've never head of to build it. Meanwhile, you're 
+world has not only moved onto something new, they're using a brand new 
+set of tools you've never heard of to build it. Meanwhile, you're 
 still coding in C++. 
 
 <-- more --> 
 
-Rapid acceleration, or expotential growth, in the technology 
+Rapid acceleration in the technology 
 industry is nothing new. Moore's law predicted this phenomenon as early as 1965 
 and over the last 35 years, we've all experienced the overwhelming takeover of
-technology, software, and digital devices. But what's surprising is there are still 
-tons of massive development teams attemping to do revolutionary work at a 
-revolutionary pace, using outdated systems and methods of software development. 
+technology, software, and digital devices. What's surprising is there are massive development teams attempting to do revolutionary work at a 
+revolutionary pace, while still using outdated systems and methods of software development. 
 
-In an era where speed and time to market mattermost, these technology companies 
-are sabotaging their bottom line. In fact, a business analyst at Forrester even 
+In an era where speed and time to market matter most, these technology companies 
+are sabotaging their bottom line. In fact, a business analyst at Forrester 
 went so far as to say "['Evolve or Crumble' is one of the most important things 
 you will read this year.][forrester-blog-odonnell]"
 
-However, while businesses may struggle to update their systems, processes, and 
-technologies to keep up, developers are demanding the latest developement tools and 
+While businesses struggle to keep up with cutting edge systems, processes, and 
+technologies, developers are demanding the latest development tools and 
 more collaborative ways of working in order to ship code faster. Managers take note:
 
 ![infographic](images/blogimages/enterprise-survey-2016-infographic.png)
 
-Our survey reveals that the vast majority of developers work with open source tools 
-and that a distributed version control system, and more specifically, Git, is the
+Our survey reveals that the vast majority of developers work with open source tools. A distributed version control system, and more specifically, Git, is the
 most important tool used in everyday work. Developers have a strong desire to work
-with the latest tools and methods yet nearly half say their team doesn't have
+with the latest tools and methods, yet nearly half say their team doesn't have
 a good handle on the latest dev best practices. 
 
 ## Give developers what they want 
 
 Developers are feeling the pressure to move faster from idea to production. 
 Unfortunately, unclear direction and outdated tools and techniques are slowing 
-down the process. Luckyily for DevOps and IT managers, there is a strong correlation 
-between what devs want and what business need but leadership must be willing to 
+down the process. Luckily for DevOps and IT managers, there is a strong correlation 
+between what devs want and what businesses need, but leadership must be willing to 
 embrace the changes required to get there. 
 
 At the core of what devs want and what businesses need is a more iterative and 
-collaborativeprocesses for software development. 81% of developers say that 
-chat/collaboration tools such as Slack, HipChat, etc., are very or extremely 
-important to their everyday work. In the new brave new world of software development,
-rigid processes are replaced with more natural ways of communicating which, in turn,
-improves the efficiency and speed of a team. 
+collaborative process for software development. Eighty-one percent of developers say that 
+chat and collaboration tools (such as Slack, HipChat, etc.) are very or extremely 
+important to their everyday work. In the brave new world of software development,
+rigid processes are replaced with more natural ways of communicating, which in turn
+improve the efficiency and speed of a team. 
 
 ### Conversational Development is the new Agile
 
 Software development methodologies have come a long way over the last few decades: 
-Scrum replaced the inflexible Waterfall Method. Agile improved the time-consuming
-method of Scrum. Now, as more development teams are distributed globally and market 
-demands speed and innovation, a more flexible process that can deliver faster is needed.
+Scrum replaced the inflexible Waterfall Method, and Agile improved the time-consuming
+method of Scrum. Now, as more development teams are distributed globally and the market 
+demands speed and innovation, a more flexible process is needed.
 
-As a more networked society, communication is instanenous and constant. With more 
-conversations happening in more places during the software development lifecycle,
+In our more networked society, communication is instanenous and constant. With more 
+conversations happening in multiple places during the software development lifecycle,
 a process that puts conversation at the center is needed. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Agile development should be conversational development <a href="https://twitter.com/hashtag/RubyConfPT?src=hash">#RubyConfPT</a> <a href="https://twitter.com/hashtag/martinfowler?src=hash">#martinfowler</a> <a href="https://t.co/z7hrommlUA">pic.twitter.com/z7hrommlUA</a></p>&mdash; Luísa Lima (@__luisalima__) <a href="https://twitter.com/__luisalima__/status/791574169876045825">October 27, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Conversational Development (ConvDev) is a natural process of accelerating the
-development lifecycle that threads a conversation trhough every step of the 
+development lifecycle that threads a conversation through every step of the 
 development process. With ConvDev, gatekeepers become a part of the conversation
-and can monitor the process starting with an idea all the way to production. Cycle time
-is reduced by threading all conversations through every stage of development lifecycle. 
+and can monitor the entire process - starting with an idea all the way to production. Cycle time
+is reduced by threading all conversations through every stage of the development lifecycle. 
 
 As developers continue to gain control over the tools they use at work, there will be an 
-even greater push to choose open source, Git, and to adopt workflows that are 
+even greater push to choose open source and Git, and to adopt workflows that are 
 naturally collaborative. Teams that can ship quicker, smaller changes are poised
 to dominate the market. 
 
