@@ -62,8 +62,6 @@
       $countryDropdown.on('click', this.filterCityDropdown.bind(this));
       $countryDropdown.on('click', this.resetCityDropdown.bind(this));
 
-      $countryDropdown.on('click', this.renderContractType.bind(this));
-
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
@@ -120,6 +118,7 @@
           this.renderInvalidCompensation();
         }
         this.renderFormula();
+        this.renderContractType();
       }
 
       if (this.data) {
