@@ -13,11 +13,13 @@ class OrgChart
   end
 
   def team_data_tree
-    tree = Hash.new { |h,k| h[k] = {
-      name: nil,
-      lead: nil,
-      children: []
-    }}
+    tree = Hash.new do |h, k|
+      h[k] = {
+        name: nil,
+        lead: nil,
+        children: []
+      }
+    end
 
     team_data.each do |member|
       name, lead = member.values_at(:name, :lead)
@@ -58,7 +60,7 @@ class OrgChart
   end
 
   def strip_tags(str)
-    str.gsub(/<\/?[^>]*>/, '')
+    str.gsub(%r{</?[^>]*>}, '')
   end
 
   def add_manual_entries
