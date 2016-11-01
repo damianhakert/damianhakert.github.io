@@ -37,12 +37,12 @@ We currently track the following sources for GitLab mentions:
 
 1. Product Hunt
 2. Tumblr
-3. HackerNews
+3. Hacker News
 4. Reddit
 
 We use [notify.ly](https://notify.ly/)  to track and pipe these mentions to the mentions-of-gitlab channel.
 
-We also funnel all comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zappier](https://zapier.com/).
+We also funnel all comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zapier](https://zapier.com/).
 
 ## Specific channels
 
@@ -57,7 +57,7 @@ Respond to the GitLab community across the following channels in a timely manner
 - Reddit
 - Quora
 - Google alerts
-- HackerNews
+- Hacker News
 - Comments on news stories in the media, and ....
 - .... more.
 
@@ -75,20 +75,22 @@ the ticket that was created for your reply.
 
 ### Twitter
 
-Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
-or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk,
-and show up in the "Twitter and Facebook" view. All responses should be sent from ZenDesk.
+Tweets that mention [@GitLab](https://twitter.com/GitLab), 
+or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in Zendesk,
+and show up in the "Twitter and Facebook" view. All responses should be sent from Zendesk.
 If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
-from ZenDesk also enables us to track our response times vs. our internal [SLA](/handbook/support/#sla).
+from Zendesk also enables us to track our response times vs. our internal [SLA](/handbook/support/#sla).
 
 Reply to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), and the guidelines on [representing GitLab on Twitter](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) regardless of whether the tweet is of a technical nature or not. Follow up with the support team if the issue is too complex to handle.
 
 - The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
+- Tweets directed at @GitLabStatus can be answered from the @GitLab account.
 - When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 - Tweets use short links which require you to visit that link to make sure you understand the context.
 To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
 handle requests for gitlab.com.
+- @GitLabSupport is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
 
 When resolving Twitter tickets you should:
 
@@ -121,16 +123,15 @@ within the Forum environment.
 _TODO: improve the process of responding to Stack Overflow questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
 The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
-flow into ZenDesk, but can only be responded to from within Stack Overflow.
+flow into Zendesk, but can only be responded to from within Stack Overflow.
 
 ### Reddit
 
-Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
+Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Subreddit](https://www.reddit.com/r/gitlab/).
 
 ### Quora
 
 Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
-
 
 
 ## Relevant Links
