@@ -30,7 +30,7 @@ This guide involves configuring and setting up VMWare and Docker locally and ass
 
 #### Create new docker host
 
-This command will create a new VMware fusion virtual machine called `gitlab-test-evn` that will act as a docker host.
+This command will create a new VMware fusion virtual machine called `gitlab-test-env` that will act as a docker host.
 
 + CPUs: Same as host (`-1`)
 + RAM: 4GB
