@@ -3,34 +3,17 @@ $org-chart-text-color-muted: #777;
 $org-chart-line-color: #c9c9c9;
 $org-chart-profile-bg: #fafafa;
 $org-chart-profile-border: #efefef;
-$org-chart-scrollbar: rgba(0, 0, 0, .5);
-$org-chart-scrollbar-bg: rgba(0, 0, 0, .2);
+$ps-rail-default-opacity: .8;
+
+@import "vendor/perfect-scrollbar/perfect-scrollbar";
 
 .org-chart-container {
+  position: relative;
   overflow-x: scroll;
   padding-top: 0;
   padding-bottom: 0;
   color: $org-chart-text-color;
   font-size: 10px;
-
-  &::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 4px;
-  }
-
-  &::-webkit-scrollbar:horizontal {
-    height: 10px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: $org-chart-scrollbar;
-  }
-
-  &::-webkit-scrollbar-track {
-    background-color: $org-chart-scrollbar-bg;
-    border-radius: 5px;
-  }
 }
 
 .employee-profile {
