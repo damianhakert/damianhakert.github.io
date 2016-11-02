@@ -27,7 +27,7 @@ This guide involves configuring a Digital Ocean droplet and setting up Docker lo
 1. Generate a new API token at https://cloud.digitalocean.com/settings/api/tokens
 
 
-This command will create a new DO droplet called `gitlab-test-evn-do` that will act as a docker host. 
+This command will create a new DO droplet called `gitlab-test-env-do` that will act as a docker host. 
 
 **Note: 4GB is the minimum requirement for a Docker host that will run more then one GitLab instance** 
 
@@ -49,7 +49,7 @@ docker-machine create \
   --driver digitalocean \
   --digitalocean-access-token=$DOTOKEN \
   --digitalocean-size "4gb" \
-    gitlab-test-evn-do
+    gitlab-test-env-do
 ```    
 
 + Resource: https://docs.docker.com/machine/drivers/digital-ocean/
