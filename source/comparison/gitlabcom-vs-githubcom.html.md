@@ -1,7 +1,8 @@
 ---
 layout: comparison_page
-title: GitLab Compared to other tools
+title: GitLab compared to other tools
 suppress_header: true
+image_title: '/images/comparison/title_image.png'
 extra_css:
   - compared.css
 ---
@@ -11,7 +12,7 @@ GitLab.com is the GitLab Enterprise Edition instance ran by GitLab Inc.
 It's a public instance where anyone can create projects for free.
 In that sense, it competes with GitHub.com.
 
-### Everything mentioned in GitLab versus GitHub
+### Everything mentioned in <a href='/comparison/gitlab-vs-github.html'>GitLab versus GitHub</a>
 
 ### Unlimited public private repositories and unlimited collaborators for free
 No matter the type of project or how many people you collaborate with,
