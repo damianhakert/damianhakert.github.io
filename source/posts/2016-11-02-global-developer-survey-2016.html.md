@@ -90,6 +90,11 @@ even greater push to choose open source and Git, and to adopt workflows that are
 naturally collaborative. Teams that can ship quicker, smaller changes are poised
 to dominate the market. 
 
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+**TL;DR:** New survey shows 98% of developers use open source tools at work; 92% prefer Git. [Get the full report][report-lp].
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
 <!-- identifiers --> 
 
 [forrester-blog-odonnell]: http://blogs.forrester.com/glenn_odonnell/16-09-13-tech_vendors_must_evolve_or_crumble_the_report_you_must_read
