@@ -1,6 +1,8 @@
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 
+$comparison-title-image-bg-color: rgba(85, 68, 136, .1);
+
 .comparison {
   background: $color-white;
 
@@ -9,7 +11,7 @@
     background-color: $color-primary;
 
     .color-bg {
-      background: rgba(85, 68, 136, 0.1);   // spacing after breakpoint
+      background: $comparison-title-image-bg-color;
       @media (max-width: $screen-xs-max) {
         padding-top: 90px;
       }
@@ -30,7 +32,7 @@
       // used as top-of-page title ref only
       font-size: 14px;
       color: $color-gray;
-      margin: 0 0 20px 0;
+      margin: 0 0 20px;
       text-transform: uppercase;
 
     }
