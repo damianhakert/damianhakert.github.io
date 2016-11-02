@@ -161,15 +161,17 @@ support turbo developers to momentarily switch away from their other tasks.
 
 Support turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
 
-## Calls, Trainings, Installation Support, and Live Upgrade Assistance
+## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
 As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets.
 
-#### Installation Support
+#### Implementation Support
 
-We offer an "implementation service" for new EE customers. This is similar to live upgrade assistance, except that live upgrade assistance is a premium support offering, while implementation is an option available for purchase by any EE customer. To provide Implementation Support:
+We offer "implementation support" for new EE customers. This is similar to live upgrade assistance, except that live upgrade assistance is a Premium Support offering, while Implementation Support is an option available for purchase by _any_ EE customer. To provide Implementation Support:
 
-- The relevant account executive should open an issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/), and include the following information:
+##### Requesting Implementation Support
+
+- The relevant account executive should open a confidential issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/), and include the following information:
    - Customer name, and domain name
    - Note whether customer is Premium Support, or "only" requesting Implementation Support.
    - Collect from the customer, if possible, the following information:
@@ -184,14 +186,21 @@ We offer an "implementation service" for new EE customers. This is similar to li
    - Assign to Support Lead
    - Mark as confidential
 - The account executive should make sure to add "Implementation Support" as a product field in Zuora for the customer. This allows the Support team to recognize such requests in Zendesk right away when the customer reaches out to schedule the installation.
-- The account executive should then instruct/invite the customer to submit a request for implementation using the [support web form](https://support.gitlab.com). From here on, it is within the hands of the Support Team.
+- The account executive should then instruct/invite the customer to submit a request for Implementation Support using the [support web form](https://support.gitlab.com). From here on, it is in the hands of the Support Team.
 
+##### What Implementation Support covers
 
-Implementation Support does **not** cover:
+- Pre-installation preparation over email or short call to check that everything is in place for a high probability of success with the installation. If backups need to be made for instance, this should be done before the call / installation since it can take a long time.
+- Up to 4 hrs of "live" assistance for the installation; on video call with screen sharing etc; during regular business hours.
+- Following the initial install, the customer will have access to Premium Support for a full week (1 calendar week); including 24x7 emergency support, but not including a Dedicated Service Engineer.
 
-   - Consulting services to help determine how to set up for HA (except where separately purchased).
-   - Active assistance in setting up HA systems.
+##### What Implementation Support does not cover
+
+   - Consulting services to help determine how to set up for High Availability (except where separately purchased).
+   - Active assistance in setting up HA systems. We can currently only provide HA for an active/active setup as that's what we have documented https://docs.gitlab.com/ce/administration/high_availability/README.html
    - Further live upgrade assistance beyond the initial implementation (except for Premium Support customers).
+   - The installation and configuration of the underlying server, including (but not be limited to) account provisioning, networking, and file system configuration.
+   - Establishing a third party authentication & authorization solution (such as LDAP, SAML). However,  it **does include** integration of supported authentication frameworks into GitLab.
 
 
 ## Dedicated Service Engineers
