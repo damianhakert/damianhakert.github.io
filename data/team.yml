@@ -1873,16 +1873,22 @@
   story:  |
           Joining November 1st
 
-- name: K.P.
-  locality:
-  country:
+- name: Kushal Pandya
+  locality: Pune
+  country: India
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: kushal.png
+  twitter: Kushal_Pandya
+  gitlab: kushalpandya
   story:  |
-          Joining November 1st
+          Kushal is originally from Gujarat, a western state of India with one
+          side covered by Kutch Desert and two sides by Arabian Sea, but now living in Pune (Maharashtra),
+          a place of magnificent green mountains called Sahyadri (part of Konkan Range).
+          He's a web designer and developer throughout the day with occassional breaks for making simple,
+          delicious Indian food for lunch and dinner, and on weekends either flashing
+          custom ROMs on his phone or exploring latest Linux distro or watching tech reviews on YouTube
+          or playing acoustic Guitar, or on a short road trip to a hill nearby.
 
 
 - name: V.W.
