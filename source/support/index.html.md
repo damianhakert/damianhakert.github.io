@@ -27,7 +27,7 @@ If your organization purchased **Premium Support**, this includes:
    - **Two [training workshops](/training)**: Please contact support to schedule training and discuss the topics.
    - **Live upgrade assistance**: To schedule a time to have a Service Engineer be live with you via video-conference during an upgrade, please contact support.
 
-Please contact `sales@gitlab.com` if your organization would like to upgrade to Premium Support.
+If your organization would like to upgrade to Premium Support, you may purchase [online](https://customers.gitlab.com), email your account manager or email `renewals@gitlab.com`.
 
 ### Regular Support for Enterprise Edition Subscribers
 
