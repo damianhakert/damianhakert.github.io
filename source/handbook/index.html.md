@@ -221,8 +221,8 @@ you'll both be creating a video call link at the same time.
 **Google Docs**
 
 1. Work on website edits via commits to a merge request. Never use a Google Doc for something non-confidential that is intended for the website.
-1. If you _do_ need a Google Doc, create one with your company G Suite (formerly Google 
-Apps) account. By default, share it with the whole company using the _Anyone at GitLab can find and access_ link sharing permission 
+1. If you _do_ need a Google Doc, create one with your company G Suite (formerly Google
+Apps) account. By default, share it with the whole company using the _Anyone at GitLab can find and access_ link sharing permission
 and the _Anyone within GitLab can edit_ access permission (preferred) or the _Anyone within GitLab can comment_ access permission.
 Easily do this by creating Google Docs within a Shared Folder in Google Drive.
 1. When referring to a Google Doc in the handbook, refrain from directly linking it. Instead, indicate the name of the doc.
@@ -307,7 +307,7 @@ step, **re-assign** the issue to that person.
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
 1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, People Ops, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
-   * We also encourage team members who are not the head of the department to give the functional group update. This will support professional development as well as give the organization a different view of what that department is working on. 
+   * We also encourage team members who are not the head of the department to give the functional group update. This will support professional development as well as give the organization a different view of what that department is working on.
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
@@ -359,7 +359,7 @@ doesn't unnecessarily appear on other people's calendars.
 ### Writing Style Guidelines
 
 1. {: #american-english} At GitLab, we use American English as the standard written language.
-1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/user/markdown.html) instead.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
 1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, `yyyy-mm-dd`, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
@@ -372,7 +372,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Use inclusive and gender-neutral language in all writing. So for example, write "they, their" instead "he, his".
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Always capitalize the names of GitLab [features](https://about.gitlab.com/features/)
-1. Do not use a hyphen when writing the term "open source."  
+1. Do not use a hyphen when writing the term "open source."
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
@@ -382,7 +382,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
-1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
+1. Read our [Documentation Styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.md) for more information when writing documentation.
 1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
 
 ### Beamy Guidelines
