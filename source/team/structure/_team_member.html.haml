@@ -1,5 +1,5 @@
-
-.node
+- level ||= 0
+.node{class: ("root-node" if level == 0)}
   .employee-profile
     %strong.employee-name
       = member[:name]
@@ -10,4 +10,4 @@
     %ul
       - member[:children].each do |child|
         %li
-          = partial "team_member", locals: {member: child}
+          = partial "team_member", locals: {member: child, level: level + 1}

@@ -72,65 +72,65 @@ $org-chart-scrollbar-bg: rgba(0, 0, 0, .2);
   .node {
     position: relative;
     width: 100%;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      display: block;
+      border-right: 2px solid $org-chart-line-color;
+      border-top: 2px solid $org-chart-line-color;
+      width: 50%;
+      height: 100%;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: "";
+      display: block;
+      border-top: 2px solid $org-chart-line-color;
+      width: 50%;
+      height: 100%;
+    }
+
+    &:last-child::before,
+    &:last-child::after, {
+      height: 50%;
+    }
+
+    &.root-node::before {
+      top: 50%;
+      height: 50%;
+    }
   }
 
-  .node::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    display: block;
-    border-right: 2px solid $org-chart-line-color;
-    border-top: 2px solid $org-chart-line-color;
-    width: 50%;
-    height: 100%;
-  }
-
-  .node::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    border-top: 2px solid $org-chart-line-color;
-    width: 50%;
-    height: 100%;
-  }
-
-  .node:last-child::before,
-  .node:last-child::after, {
-    height: 50%;
-  }
-
-  li:first-child {
-    > .node::before {
+  li:first-child > .node {
+    &::before {
       display: none;
     }
-    > .node::after {
+    &::after {
       border-left: 2px solid $org-chart-line-color;
       border-top-left-radius: 5px;
     }
   }
 
-  li:last-child {
-    > .node::after {
+  li:last-child > .node {
+    &::after {
       display: none;
     }
-    > .node::before {
+    &::before {
       border-top-right-radius: 5px;
     }
   }
 
-  li:only-child {
-    > .node::before {
+  li:only-child > .node {
+    &::before {
       display: block;
       border-radius: 0;
       border-top: 0;
     }
-  }
-
-  &.root > ul > li > .node::before {
-    top: 50%;
-    height: 50%;
   }
 }
