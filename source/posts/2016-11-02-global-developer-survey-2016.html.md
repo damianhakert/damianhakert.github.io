@@ -91,7 +91,7 @@ naturally collaborative. Teams that can ship quicker, smaller changes are poised
 to dominate the market. 
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-**TL;DR:** New survey shows 98% of developers use open source tools at work; 92% prefer Git. [Get the full report][report-lp].
+ [Get the complete 2016 Enterprise Survey Report here.][report-lp].
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
