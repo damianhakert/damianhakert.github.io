@@ -91,7 +91,7 @@ naturally collaborative. Teams that can ship quicker, smaller changes are poised
 to dominate the market. 
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
- [Get the complete 2016 Enterprise Survey Report here.][report-lp].
+ [Get the complete 2016 Enterprise Survey Report here][report-lp].
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
