@@ -74,6 +74,8 @@ In our more networked society, communication is instanenous and constant. With m
 conversations happening in multiple places during the software development lifecycle,
 a process that puts conversation at the center is needed. 
 
+{::options parse_block_html="false" /}
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Agile development should be conversational development <a href="https://twitter.com/hashtag/RubyConfPT?src=hash">#RubyConfPT</a> <a href="https://twitter.com/hashtag/martinfowler?src=hash">#martinfowler</a> <a href="https://t.co/z7hrommlUA">pic.twitter.com/z7hrommlUA</a></p>&mdash; Luísa Lima (@__luisalima__) <a href="https://twitter.com/__luisalima__/status/791574169876045825">October 27, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
