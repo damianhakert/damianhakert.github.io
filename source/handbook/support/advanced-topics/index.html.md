@@ -16,19 +16,14 @@ working on, so that they can let you know if there is a different area where
 the team really needs expertise. Always try to answer tickets on other advanced
 topics, but when it is time to do some dedicated learning, focus on one area.
 
+These are in the rough order of what our team needs, but check with your
+manager, and we need everyone to know LDAP so please do that first.
+
 ### Fixing Bugs on GitLab
 
-### Git Annex
+### LDAP Integration
 
-[Git Annex Docs](https://docs.gitlab.com/ee/workflow/git_annex.html)
-
-### Git LFS
-
-[Git LFS Docs](https://docs.gitlab.com/ee/workflow/lfs/manage_large_binaries_with_git_lfs.html)
-
-### GitLab API
-
-[GitLab API Docs](https://docs.gitlab.com/ee/api/README.html)
+[GitLab LDAP Docs](https://docs.gitlab.com/ee/administration/auth/ldap.html)
 
 ### GitLab CI
 
@@ -38,10 +33,23 @@ topics, but when it is time to do some dedicated learning, focus on one area.
 
 [Geo Checklist](/handbook/support/advanced-topics/geo) (WIP)
 
+### Git LFS
+
+[Git LFS Docs](https://docs.gitlab.com/ee/workflow/lfs/manage_large_binaries_with_git_lfs.html)
+
 ### GitLab Pages
 
 [GitLab Pages Docs](https://docs.gitlab.com/ee/pages/administration.html)
 
+### GitLab API
+
+[GitLab API Docs](https://docs.gitlab.com/ee/api/README.html)
+
 ### Migrating from SVN to Git
 
 [migrate from SVN to Git Docs](https://docs.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
+
+### Git Annex
+
+[Git Annex Docs](https://docs.gitlab.com/ee/workflow/git_annex.html)
+
