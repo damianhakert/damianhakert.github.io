@@ -5,6 +5,7 @@ author_twitter: emvonhoffmann
 categories: inside GitLab
 image_title: '/images/default-blog-image.png'
 description: 'Adapting to life at GitLab--marketing edition!'
+date: 2016-11-02 15:35 
 ---
 
 I rang in my first month at GitLab in spectacular fashion, by meeting up with team members for our NYC [World Tour](https://about.gitlab.com/2016/09/28/world-tour-amplify-your-code/) stop. The only real surprise in meeting team members in person — after weeks of daily Hangouts — is height (hopefully by force of my personality, several people remarked they thought I’d be taller.) Here are some other big takeaways from my time here so far. 
