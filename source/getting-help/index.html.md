@@ -11,6 +11,7 @@ title: "Getting Help with GitLab"
 {:toc}
 
 ---
+
 ## Technical Support
 
 For details on where to get Technical Support, and with what level of service, please see the [Support page](/support/).

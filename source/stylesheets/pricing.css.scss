@@ -190,22 +190,14 @@
 }
 
 .choose-gitlab {
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   font-size: 16px;
-
-  @media (min-width: $screen-md-min) {
-    padding-bottom: 60px;
-    font-size: 20px;
-  }
-
-  @media (min-width: $screen-lg-min) {
-    padding-bottom: 120px;
-  }
 }
 
 .choose-gitlab-title {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: (45px / 20px) * 1em;
   font-weight: 300;
 }
@@ -343,5 +335,19 @@
 .pricing-tile-row {
   @media (min-width: $screen-md-min) {
     margin-bottom: 30px;
+  }
+}
+
+.compare {
+  margin-top: 35px;
+  margin-bottom: 80px;
+
+  .title {
+    font-weight: 600;
+    font-size: 47px;
+    color: $color-dark;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 50px;
   }
 }

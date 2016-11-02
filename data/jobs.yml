@@ -1,3 +1,8 @@
+- title: "Prometheus Lead"
+  description: /jobs/prometheus-lead/
+  apply: https://gitlab.workable.com/jobs/366277/candidates/new
+  open: true
+
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
   apply: https://gitlab.workable.com/jobs/346406/candidates/new
@@ -116,6 +121,7 @@
 
 - title: "Build Engineer"
   description: /jobs/build-engineer
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
 
@@ -147,4 +153,9 @@
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
+  open: true
+
+- title: "VP of Marketing"
+  description: /jobs/vp-of-marketing/
+  apply: https://gitlab.workable.com/jobs/356285/candidates/new
   open: true

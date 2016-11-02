@@ -18,7 +18,7 @@ title: Security Handbook
 For all credentials that are not stored in a shared vault on 1Password there should be one secure note in the 'Shared' vault. This can be services that have individual
 accounts or OAuth access. Locate the 'secure note' in the team's 'Shared' vault with the name of the service you are trying to access. The note should list whom can give you access in case it has
 individual accounts, or it may link to the onboarding checklist. You should be added to most of these services during onboarding.
-1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and consider using [auto-generated TOTP] if useful.
+1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and use [1Password TOTP].
 1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'Shared' vault that the whole company can access or make a suggestion to create a new vault in the "1Password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1Password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1Password.
 1. Do not share credentials via email, issue comments, chat etc. This includes
@@ -35,7 +35,7 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
-1. Enable two-factor authentication (2FA) with 1Password [auto-generated TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts. The nice thing about 1Password is that it migrates when you have a new phone, unlike Google Authenticator.
+1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
 1. **Encrypt** your computer's home folder. For Mac users: Use [FileVault] to
    encrypt the entire disk.<a name="encrypt-home-folder"></a>
@@ -68,7 +68,7 @@ individual accounts, or it may link to the onboarding checklist. You should be a
 
 [1Password]: https://1password.com
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
-[auto-generated TOTP]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
+[1Password TOTP]: #1password-totp
 [Google Authenticator]: https://support.google.com/accounts/answer/1066447?hl=en
 [FileVault]: https://support.apple.com/en-us/HT204837
 [team call agenda]: https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit
@@ -248,6 +248,32 @@ To create a personal local vault:
 1. Enter your Master Password
 1. A new local vault (**Primary**) is created outside the GitLab team account
 1. If you want to setup sync for your new local vault, go to **Preferences > Sync**
+
+### Two Factor Authentication and Time-based One Time Passwords<a name="1password-totp"></a>
+
+There are several ways to get your Two Factor Authentication (2FA) codes.
+You can get them sent via SMS or use an app like Google Authenticator to
+generate them. 1Password provides an alternative solution that does not
+require using your smartphone: 1Password Time-based One Time Passwords
+(TOTP). 2FA codes are displayed directly in the 1Password app running on your
+laptop.
+
+To enable TOTP for a saved account:
+
+1. Open 1Password app
+1. Go to the item for which you want to set up TOTP
+1. Click **Edit** in the bottom right corner
+1. Click 3 dots icon
+   ![3 little dots](/handbook/security/1password-totp.png)
+1. Select **One-Time Password**
+1. Click QR code icon that appeared
+1. Scan QR code using the transparent window
+1. Click **Save**
+1. 2FA code should be displayed now
+
+Please refer to the [1Password blog] for more information on how TOTP works.
+
+[1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
 
 ### Example Usage<a name="1password-example-usage"></a>
 

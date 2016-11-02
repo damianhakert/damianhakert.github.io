@@ -94,7 +94,7 @@ in a future release.
 
 Review apps give you the power to preview your changes in a live,
 fully functional environment. You can now actually destroy these
-dynamic environments straight from GitLab, whenever you don't need them anymore.
+dynamic environments straight from GitLab, whenever you don't need them anymore. Note this is a manual action, and automatic stopping of review apps when a branch is deleted is [scheduled for next release](https://gitlab.com/gitlab-org/gitlab-ce/issues/23218).
 
 ![Stop dynamic environments (review apps) in GitLab 8.13](/images/8_13/review_app.png)
 

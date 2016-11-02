@@ -54,6 +54,17 @@ Exported projects are no longer world-readable in the GitLab server filesystem a
 
 [#22757]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22757
 
+## Prevent a 2FA brute force attack
+
+Incorrect two-factor authentication (2FA) code submissions were not incrementing
+the number of failed login attempts as intended, leading to a possible brute
+force attack on accounts with 2FA enabled. See [#19799] for more information.
+
+Thanks to [Pete Yaworski](https://twitter.com/yaworsk) for responsibly
+disclosing this issue via [HackerOne](https://hackerone.com/gitlab).
+
+[#19799]: https://gitlab.com/gitlab-org/gitlab-ce/issues/19799
+
 ## Upgrade barometer
 
 This version has no migrations and should not require any downtime.

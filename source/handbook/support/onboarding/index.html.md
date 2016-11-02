@@ -357,6 +357,11 @@ via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) u
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
+## Keeping up to date with new GitLab versions
+
+Since we ship a new release each month on the 22nd, and since we manage to fit _a lot_ of great new features and fixes into each release, it is sometimes difficult for the Support Team to keep up to date with key changes.
+
+In general, it is the responsibility of each Service Engineer individually to read the release blog post, dig deeper where you need to or want to, and keep yourself up to date. However, to facilitate this further, we have a Pre-Release Call every third Thursday of the month (it is listed on the GitLab Support calendar). During the call, key parts of the product that are expanding rapidly or add more complexity than usual will be reviewed together by reading the draft release-post and inviting on team leads to walk the Service Engineers through major changes, e.g. in CI.  
 
 ## Team member is unavailable
 {: #not-available}
