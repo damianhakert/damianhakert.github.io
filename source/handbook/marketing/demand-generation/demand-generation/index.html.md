@@ -83,12 +83,12 @@ On the GitLab issue, make sure to:
 4. **Buying Process:** Who is the decision maker for GitLab?
 5. **Buying Process:** What is the buying process for procuring GitLab?
 6. **Buying Process:** What is role does the prospect play in the current evaluation (function, job title)?
-7. **Timeline:** What is the timeline to make a decision?  Are you currently in an existing contract that needs to expire before you can move forward? If yes, when does the contract expire?
-8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need?
+7. **Timeline:** What is the timeline to make a decision?  Are you currently in an existing contract that needs to expire before you can move forward? If yes, when does the contract expire? 
+8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need? Needs to be YES
 9. **Product Fit:** Do they currently use another version of GitLab?  Are they familiar with our product family?
-10. **Scope:** How many seats are they interested in purchasing?
-11. **Scope:** How many developers total (potential additional seats) do they have?
-12. **Next Steps:** Is there a meeting set with an AE to discuss next steps?
+10. **Scope:** How many seats are they interested in purchasing? This will be needed to add in the opportunity amount field "example 100 x $39 = $3900"
+11. **Scope:** How many developers total (potential additional seats) do they have?  Anything over 100 potential seats is assigned to an AE.  Leads under 100 potential seats will be assigned to BDR Manager to track.
+12. **Next Steps:** Is there a meeting set with an AE to discuss next steps? Meeting needs to be set before lead can be qualfiied.
 
 
 ## Lead status<a name="leadStatus"></a>
@@ -107,8 +107,9 @@ On the GitLab issue, make sure to:
 
 ## Passing Qualified Leads<a name="leadPassing"></a>
 
+1. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
 1. BDR emails prospect, cc'ing AE. Email consists of a summary of the lead qual data captured above (current state, problems to solve, what they would like to learn and desired state).  This email also introduces the AE and confirms the meeting day with the prospect and informs them that a meeting invite will be sent shortly.
-2. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
+1. BDR converts lead to opportunity.  BDR adds into revenue into the amount field, within the opportunity object, based on the lead criteria uncovered of number of seats and/or products interested in purchasing now.
 3. BDR joins Discovery call and provides warm handoff
 
 ## Nurture campaign process<a name="nurture"></a>
