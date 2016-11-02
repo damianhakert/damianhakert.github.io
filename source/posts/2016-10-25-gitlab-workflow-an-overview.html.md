@@ -103,6 +103,9 @@ Labels will enable you to work with the [GitLab Issue Board](#gitlab-issue-board
 
 You can attribute an [Issue Weight] to make it clear how difficult the implementation of that idea is. Less difficult would receive weights of 01-03, more difficult, 07-09, and the ones in the middle, 04-06. Still, you can get to an agreement with your team to standardize the weights according to your needs.
 
+**Note:** this feature is only available in GitLab Enterprise Edition and GitLab.com.
+{: .note}
+
 ### GitLab Issue Board
 
 The [GitLab Issue Board][board] is a tool ideal for planning and organizing your issues according to your project's workflow.
