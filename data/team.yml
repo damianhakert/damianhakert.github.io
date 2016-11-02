@@ -1840,16 +1840,20 @@
   story:  |
           Joining October 24th
 
-- name: C.P.
-  locality:
-  country:
+- name: Cindy Pallares
+  locality: Texas
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Jr. Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
+  picture: cindy.jpg
   twitter:
-  gitlab:
+  gitlab: cpallares
   story:  |
-          Joining October 24th
+          Cindy is a software developer who is passionate about open source. She
+          previously worked as an upstream contributor and has taught robotics
+          to elementary and high school students. She enjoys programming in python
+          and lurking on IRC. On her spare time, she enjoys photography, traveling,
+          and gardening.
 
 - name: S.C.
   locality:
