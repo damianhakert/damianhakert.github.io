@@ -231,11 +231,6 @@ This means that you can access you coverage report page using a URL like
 That way, a new coverage report will be published each time you push new code
 to GitLab!
 
-<i class="fa fa-info-circle" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-Note that the pages deploy job will not be successful if a new commit appears on
-a branch that the CI pipeline runs for, before the deploy job has been started.
-{: .alert .alert-info}
-
 ## Using the code coverage report badge
 
 Once you have the code coverage report published with GitLab Pages, you may want to
@@ -262,8 +257,5 @@ You can find more info about report badges in [our documentation](https://docs.g
 Although the code coverage technique is great for revealing untested code and
 improving overall coverage, it is not a great metric to tell how good
 the tests are, but it helps people to contribute.
-
-There are other techniques you can explore like mutation testing. One of the
-most useful techniques is _simplicity_ which is _prerequisite for reliability_.
 
 With GitLab, you can create simple software that it is easy to contribute to!
