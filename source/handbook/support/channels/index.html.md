@@ -16,7 +16,7 @@ They are sorted in order of priority (strictest SLA at top), and as a result, it
 in this list experience longer delays in receiving responses. We are actively [hiring](/jobs/)
 more Service Engineers to strengthen the team and provide support to the community.
 
-### Emergency Tickets
+## Emergency Tickets
 
 When an emergency ticket comes in, it triggers a [PagerDuty](https://gitlab.pagerduty.com) incident. All
 Service Engineers must have the PagerDuty application installed on their phones once they are added to
@@ -30,7 +30,7 @@ Once acknowledged, you need to login to [Zendesk](https://gitlab.Zendesk.com), g
 and let the customer know that you will handle their case. On this response you should ask for the best way
 to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
 
-#### Crisis Situations
+### Crisis Situations
 
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should **escalate** the PD incident to second level support, and work through the issue
@@ -46,7 +46,40 @@ issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, 
 in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
 clear-headed.
 
-#### HackerOne
+## Security disclosures
+
+We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
+Emails sent to security@gitlab.com go into Zendesk and receive an autoresponder that
+says: "Thank you for your responsible disclosure of a potential GitLab vulnerability.
+We'll follow up with you within one business day." We also accept reports via [HackerOne](https://hackerone.com/gitlab), see [more information](/handbook/support/channels#hackerone) on this channel.
+
+Please be very patient with these reports. Do not say 'there is no problem', you
+might be misunderstanding something that can lead to a 0 day disclosure.
+Give examples and keep asking questions until you understand the problem or until
+the researcher concludes there is no problem.
+If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](/vulnerability-acknowledgements/)
+even if there was no actual vulnerability.
+If you say that we'll get back to them **always** mention that they can email us at any time for an update.
+This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
+
+If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
+If someone opens a public issue please leave a message:
+"Thank you for helping to
+make GitLab more secure! We removed the contents of your vulnerability disclosure
+to keep it private. We opened an internal issue to look at your disclosure. Can
+you please use our [Responsible Disclosure Policy](/disclosure/)
+to send us an email that references this url so we can communicate in private?"
+
+### PGP Process
+
+The key used to encode/decode PGP messages is stored in our Support Vault on 1Password.
+We only provide our public PGP key upon request because it makes collaborating much
+harder and only a small percentage of all disclosures are serious enough to require that overhead.
+
+See [PGP Process](/handbook/support/pgp_process) for
+information about using the security PGP key pair and decrypting messages.
+
+### HackerOne
 
 We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports.
 The HackerOne dashboard lists all reports for which you need to respond within one business day. These
@@ -66,19 +99,19 @@ If you need to grant HackerOne permissions to a new GitLab user, have an admin s
 an invitation from HackerOne and add you to the Internal group. You can find out who
 the admins are by asking on the #support channel.
 
-### Regular Zendesk tickets
+## Regular Zendesk tickets
 
 You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
 that have come in and are unassigned, again using FIFO. When you need others to help please create an issue on
 the relevant GitLab issue tracker.
 
-### Follow up on issues posted on GitLab issue tracker
+## Follow up on issues posted on GitLab issue tracker
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Tracker
+## GitLab.com Support Tracker
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
 [Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
@@ -87,7 +120,7 @@ are having with their on-premises installation. In that case, you should refer t
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
 [Getting Help](/getting-help/) page, depending on the issue they are having.
 
-### GitLab CE/EE/Omnibus issue trackers
+## GitLab CE/EE/Omnibus issue trackers
 
 It is always encouraged to take a look at all our issue trackers and respond to bug reports or feature
 requests:
@@ -100,7 +133,7 @@ the case.
 
 See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies) for the above trackers for more information on how issues should be handled.
 
-### TODO Docker
+## TODO Docker
 
 TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-ce/) page flow into ZenDesk.
 
