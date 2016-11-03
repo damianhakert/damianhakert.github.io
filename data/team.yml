@@ -311,7 +311,7 @@
   gitlab: dblessing
   maintains: |
              <li>On-call hero!</li>
-             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
@@ -392,7 +392,7 @@
   gitlab: balameb
   maintains: |
              <li>On-call hero!</li>
-             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
   story:  |
@@ -888,7 +888,7 @@
   gitlab: MrChrisW
   maintains:  |
               <li>On-call hero!</li>
-              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
               <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
               <li>Zendesk <a href="/jobs/expert/">expert</a></li>
   story:  |
