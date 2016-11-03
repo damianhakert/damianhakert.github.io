@@ -150,16 +150,33 @@ lists the activity for all our channels currently and summarized over the last 3
 
 Breach hawks are members of the support team who help the rest of the team keep an eye out for nearly-breaching tickets, so that they can be responded to in a timely manner. Of course, any and all members of the Support Team will have a sense of how many tickets are close to breaching and how high the load is on any given day. But it can happen that you're deep into a ticket, a customer call, etc., unaware of the impending doom. That's where breach hawks come in: they tackle their tickets, but they also keep an eye out for the team at large; and can call in the [Support Turbos](#support-turbo) if and when needed.
 
+### fix4all
+
+"fix4all" is a rotation where one developer--or anyone in GitLab--
+spends a week of his/her time helping the support team, as described in
+more detail on the ["fix4all" rotation page](/handbook/engineering/fix4all).
+
 ### Support Turbo
 
 Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/).
-The support team calls for help when necessary via Slack, but in case of doubt or
-conflicting priorities, the Backend Lead needs to give the green light for the
-support turbo developers to momentarily switch away from their other tasks.
-
 Support turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
+
+
+The support team calls for help when necessary via Slack, but in case of doubt or
+conflicting priorities, the the respective team lead or VP of Engineering needs to give the green light for the
+support turbo developers to momentarily switch away from their other tasks. As a general guideline for the Support Turbo, the order of priorities when called upon to join as a Turbo should be:
+
+1. Direction issues
+1. Turbo work
+1. P1 issues
+
+Further guidelines when rolling up your sleeves to do Turbo work:
+
+- Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
+- Since Turbos log in using the generic agent, they need to pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context etc.
+
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 

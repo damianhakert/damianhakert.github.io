@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "From Idea to Production"
+title: "Idea to Production demo"
 ---
 
 ## Video
@@ -21,8 +21,6 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 {:.no_toc}
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
-- [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
-- [Allow first names for project and group names in Openshift and GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874)
 - [Open issues for this demo](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
 
 ## Table of Contents
@@ -33,18 +31,20 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 
 ## Preparation
 
-> * You need a working OpenShift setup
+> * You need a working OpenShift Origin installation
 > * Login to OpenShift
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
-> * Delete all Openshift projects using OpenShift web interface (will be fixed with [#874](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874))
-> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, clicking on Content settings, then All cookies and side data, searching for tanukionline, and deleting all those cookies
+> * Delete all Openshift projects using OpenShift web interface TODO [Allow multiple people to give the demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/24114)
+> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Open [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) as opening window during intro
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 > * Go to 'Displays' settings, Resulution: Scaled, Larger text
+> * Open the [yaml template](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) in advance.
+> * Open this page on an Ipad that has screen lock disabled.
 
 ## Install GitLab itself
 
@@ -68,7 +68,7 @@ And then we import an OpenShift template for a complete GitLab installation. We 
 
 Boom, we’ve got a shiny new GitLab installation with several containers. They are running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, and GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes. It will take a few minutes for GitLab Rails to configure itself so it’s a good time to describe what we’re covering today.
 
-In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous deployment to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
+In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
 
 What takes 20 minutes in this demo will take days if you're not using GitLab and have to integrate different tools.
 Not only is GitLab faster to set up but it is also more convenient to have everything in one interface.
@@ -90,7 +90,7 @@ Now that we've got GitLab running, let's set up an account.
 
 We now create a group for our company; let’s name it `tanuki`.
 
-> * Create a group called `tanuki` and make it public
+> * Create a group called `tanuki` and make it public TODO: [New project should be below new group on the welcome screen](https://gitlab.com/gitlab-org/gitlab-ce/issues/24135)
 
 Then let’s now create a new project to start off with. Let's call it `www` and make it public.
 
@@ -100,7 +100,7 @@ Then let’s now create a new project to start off with. Let's call it `www` and
 
 Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
 
-> * Click add readme (changing that to + in [#23310](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310))
+> * Click add readme (changing that to + in TODO: [Create new arbitrary file in new project](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310)) or make irrelevant with TODO: [Auto deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)
 > * Name the file `index.html`
 > * Type `Hello World` as the contents
 > * Click Submit
@@ -109,13 +109,13 @@ Of course this is just a static file and not an application yet, but since we’
 
 > * Click back to the files tab
 > * Add a file + icon, New file
-> * Filename to `Dockerfile` *TODO: [Make sure this dropdown looks properly positioned even though my scaled resolution is larger text](https://gitlab.com/gitlab-org/gitlab-ce/issues/23962)*
-> * template HTTPd *TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)*
+> * Filename to `Dockerfile` TODO: [Make sure this dropdown looks properly positioned even though my scaled resolution is larger text](https://gitlab.com/gitlab-org/gitlab-ce/issues/23962)
+> * template HTTPd TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)
 > * Commit changes on master
 
 ### Add Openshift credentials to CI
 
-We can simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) at some point but in the short term we have a *TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445)* and a *TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
+We can simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) at some point but in the short term we have a TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and a TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
@@ -161,7 +161,7 @@ Let’s go to our Mattermost client. We can get there from our OpenShift dashboa
 
 Let’s create a new team.
 
-*TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)*
+TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
 
 > * Create a new team: tanuki. Press Next. Press Finish.
 
@@ -193,7 +193,7 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues, Issue Board
 
-*TODO: [When viewing an individual issue the menu should also be expanded.](https://gitlab.com/gitlab-org/gitlab-ce/issues/23965)*
+TODO: [When viewing an individual issue the menu should also be expanded.](https://gitlab.com/gitlab-org/gitlab-ce/issues/23965)
 
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
@@ -206,11 +206,11 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 ## Code (Terminal)
 
-*TODO: [Use a Dockerfile that includes `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)*
+TODO: [Use a Dockerfile that includes `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
-*TODO: [After using the new branch button in an issue I want to press a terminal button](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)*
+TODO: [After using the new branch button in an issue I want to press a terminal button](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)
 
 > * Go to Pipelines
 > * Go to Environments
@@ -302,7 +302,7 @@ Taking a look at the Pipelines tab, we see that we’re re-running CI on `master
 Going back to the merge request, we now see another status showing that this code has indeed been deployed to staging. Clicking through, we can see our changes running live on our staging server.
 
 > * Click on Merge Requests, Merged, and click on `!1`
-> * Click on Staging URL to show that changes got deployed *TODO: [Vision demo deployments don't seem to work](https://gitlab.com/gitlab-org/gitlab-ce/issues/23930)
+> * Click on Staging URL to show that changes got deployed TODO: [Vision demo deployments don't seem to work](https://gitlab.com/gitlab-org/gitlab-ce/issues/23930)
 
 ## Production (Chatops)
 
@@ -311,7 +311,7 @@ Let’s ship these changes to production! There's this thing called ChatOps that
 > * Go to Mattermost
 > * Type `/deploy staging to production`
 > * Click on the link
-> * enable auto scroll * TODO: [enable auto scroll automaticall](https://gitlab.com/gitlab-org/gitlab-ce/issues/19620)*
+> * enable auto scroll TODO: [enable auto scroll automaticall](https://gitlab.com/gitlab-org/gitlab-ce/issues/19620)
 > * wait until it is done
 
 Great, here we see the deploy to production happening live. As an alternative to Chatops we could have also triggered the deployment from the GitLab interface.

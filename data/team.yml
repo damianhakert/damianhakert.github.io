@@ -311,7 +311,7 @@
   gitlab: dblessing
   maintains: |
              <li>On-call hero!</li>
-             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
@@ -392,7 +392,7 @@
   gitlab: balameb
   maintains: |
              <li>On-call hero!</li>
-             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
   story:  |
@@ -412,7 +412,8 @@
   specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
                 <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
-                <li><a href="/jobs/specialist/backstage">Backstage</a> <href="/jobs/expert/">expert</a></li>
+                <li><a href="/jobs/specialist/backstage">Backstage</a> <a href="/jobs/expert/">expert</a></li>
+                <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
           He enjoys creating software that people actually love using, so GitLab was an obvious choice for his next company to work at.
@@ -875,7 +876,7 @@
   twitter: MarkPundsack
   gitlab: markpundsack
   story:  |
-          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. ~~On rare occasions, you might find him on a 37' trawler in the San Francisco bay.~~ A recent transplant to Chicagoland from California; you'll often see him bundled up in a winter coat for no reason at all.
+          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. A recent transplant to Chicagoland from California; you'll often see him bundled up in a winter coat for no reason at all.
 
 - name: Chris Wilson
   locality: Perth
@@ -887,7 +888,7 @@
   gitlab: MrChrisW
   maintains:  |
               <li>On-call hero!</li>
-              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawk">Breach hawk</a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
               <li>Maintainer of <a href="https://gitlab.com/MrChrisW/gitlab-anti-spam-toolkit">anti-spam toolkit</a></li>
               <li>Zendesk <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -897,8 +898,8 @@
           In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
 
 - name: Sean McGivern
-  locality: Edinburgh
-  country: Scotland
+  locality: Edinburgh, Scotland
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Discussion Lead</a>
   reports_to: VP of Engineering
   picture: smcgivern.jpg
@@ -1242,6 +1243,7 @@
   specialty: Performance
   maintains: |
              <li>On-call hero!</li>
+             <li><a href="https://gitlab.com/gitlab-org/gitlab-monitor">GitLab Monitor maintainer</a></li>
   story:  |
           Ahmad has been passionate about web development since he laid his eyes
           on web forums back in 2003, hasn't stopped coding ever since. He's interested
@@ -1531,7 +1533,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
-  reports_to: CRO
+  reports_to: Sales Director - US
   picture: joedrumtra.jpg
   twitter: techpretender
   gitlab: jdrumtra
