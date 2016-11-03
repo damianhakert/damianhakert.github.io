@@ -68,10 +68,24 @@ When you run the `rspec` command, you will notice the code coverage report being
 generated when tests are completed. The RSpec example below comes from a very simple
 code that contains a single test for the single class that is there:
 
+<i class="fa fa-file-code-o" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+`spec/dog_spec.rb`
+
 ```ruby
 describe Dog do
   it 'barks' do
     expect(subject.bark).to eq 'Woof, woof!'
+  end
+end
+```
+
+<i class="fa fa-file-code-o" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+`dog.rb`
+
+```ruby
+class Dog
+  def bark
+    'Woof, woof!'
   end
 end
 ```
@@ -174,6 +188,7 @@ pages:
   artifacts:
     paths:
       - public
+    expire_in: 30 days
   only:
     - master
 ```
@@ -190,7 +205,8 @@ static website in.
 
 It makes sense to deploy a new coverage report page only when the CI pipeline
 runs on `master` branch, so we added the `only` keyword at the end of the
-configuration file.
+configuration file. This will also expire artifacts after 30 days, what does
+not affect coverage report that has already been published.
 
 ### Parallel tests
 
