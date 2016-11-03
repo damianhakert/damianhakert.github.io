@@ -22,7 +22,7 @@
     link: http://doc.gitlab.com/ee/integration/ldap.html#integrate-gitlab-with-more-than-one-ldap-server-enterprise-edition
     in_ce: false
   - description: LDAP group synchronization (also compatible with Active Directory)
-    link: http://doc.gitlab.com/ee/integration/ldap.html#ldap-group-synchronization-gitlab-enterprise-edition
+    link: https://docs.gitlab.com/ee/administration/auth/ldap-ee.html#group-sync
   - description: Create and remove admins based on an LDAP group
     link: http://doc.gitlab.com/ee/integration/ldap.html#enabling-the-admin-group-feature
   - description: Kerberos user authentication
