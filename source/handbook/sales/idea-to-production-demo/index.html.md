@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "From Idea to Production"
+title: "Idea to Production demo"
 ---
 
 ## Video
@@ -31,7 +31,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 
 ## Preparation
 
-> * You need a working OpenShift setup
+> * You need a working OpenShift Origin installation
 > * Login to OpenShift
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
