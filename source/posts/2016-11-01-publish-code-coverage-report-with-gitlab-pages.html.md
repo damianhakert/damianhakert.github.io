@@ -237,7 +237,7 @@ Once you have the code coverage report published with GitLab Pages, you may want
 put a link to it somewhere. We recommend using the code coverage badge that you
 can add to your `README.md` file for that purpose.
 
-This is how it looks in [our README.md](.
+This is how it looks in [our README.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md).
 
 ![coverage-badge-gitlab](images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-badge-gitlab.png)
 
