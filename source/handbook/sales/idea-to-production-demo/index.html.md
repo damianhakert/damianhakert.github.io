@@ -37,12 +37,14 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 >   * Username: gitlab-user
 >   * Password: <from 1password>
 > * Delete all Openshift projects using OpenShift web interface *TODO [Allow multiple people to give the demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/24114)
-> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, clicking on Content settings, then All cookies and side data, searching for tanukionline, and deleting all those cookies
+> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Open [flowchart](https://gitlab-org.gitlab.io/gitlab-design/progress/dimitrie/flowchartideatoprod/flowchart-html-previews/) as opening window during intro
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 > * Go to 'Displays' settings, Resulution: Scaled, Larger text
+> * Open the [yaml template](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) in advance.
+> * Open this page on an Ipad that has screen lock disabled.
 
 ## Install GitLab itself
 
@@ -88,7 +90,7 @@ Now that we've got GitLab running, let's set up an account.
 
 We now create a group for our company; let’s name it `tanuki`.
 
-> * Create a group called `tanuki` and make it public
+> * Create a group called `tanuki` and make it public *TODO: [New project should be below new group on the welcome screen](https://gitlab.com/gitlab-org/gitlab-ce/issues/24135)*
 
 Then let’s now create a new project to start off with. Let's call it `www` and make it public.
 
