@@ -3,7 +3,7 @@ title: "Track your time in the same tool you do your work"
 author: Regis Freyd
 author_twitter: djaiss
 categories:
-image_title:
+image_title: 'images/blogimages/track-your-time-in-the-same-tool-you-do-your-work/time_tracking-cover.png'
 description: "Announcing Time Tracking in GitLab"
 ---
 
