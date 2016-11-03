@@ -21,8 +21,6 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 {:.no_toc}
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
-- [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
-- [Allow first names for project and group names in Openshift and GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874)
 - [Open issues for this demo](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
 
 ## Table of Contents
@@ -38,7 +36,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
-> * Delete all Openshift projects using OpenShift web interface (will be fixed with [#874](https://gitlab.com/gitlab-com/www-gitlab-com/issues/874))
+> * Delete all Openshift projects using OpenShift web interface *TODO [Allow multiple people to give the demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/24114)
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, clicking on Content settings, then All cookies and side data, searching for tanukionline, and deleting all those cookies
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -100,7 +98,7 @@ Then let’s now create a new project to start off with. Let's call it `www` and
 
 Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
 
-> * Click add readme (changing that to + in [#23310](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310))
+> * Click add readme (changing that to + in *TODO: [Create new arbitrary file in new project](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310)) or make irrelevant with *TODO: [Auto deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)*
 > * Name the file `index.html`
 > * Type `Hello World` as the contents
 > * Click Submit
