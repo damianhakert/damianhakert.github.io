@@ -898,8 +898,8 @@
           In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
 
 - name: Sean McGivern
-  locality: Edinburgh
-  country: Scotland
+  locality: Edinburgh, Scotland
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Discussion Lead</a>
   reports_to: VP of Engineering
   picture: smcgivern.jpg
