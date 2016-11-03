@@ -5,6 +5,7 @@ author_twitter: GrzegorzBizon
 categories: tutorial
 image_title: '/images/blogimages/publish-code-coverage-report-with-gitlab-pages/code-coverage-report-stats.png'
 description: "Publish code coverage report with GitLab Pages"
+twitter_image: '/images/tweets/publish-code-coverage.png'
 ---
 
 At GitLab, we believe that everyone can contribute. We also use automated
