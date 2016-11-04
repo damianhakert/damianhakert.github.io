@@ -16,8 +16,8 @@ extra_font:
       Flexible plans for individuals and businesses
     %h4.subheader
       All plans include Git repository management, code reviews, issue tracking, built-in GitLab CI for continuous integration and delivery, plus a 45 day money-back guarantee.
-    .row{ data: { equal: ".col-md-4" } }
-      .col-md-4
+    .row{ data: { equal: ".col-md-3" } }
+      .col-md-3
         .featured-item
           .edition-name
             GitLab.com
@@ -37,7 +37,7 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "/gitlab-com/", class: "action-link"
             = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
-      .col-md-4
+      .col-md-3
         .featured-item
           .edition-name
             Community Edition
@@ -49,7 +49,7 @@ extra_font:
             = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
             %ul.featured-item-list.list-unstyled
               %li.item-description
-                Single-tenant on your server
+                On-premises on your server
               %li.line-separator
               %li.item-description
                 Open source & scalable
@@ -57,7 +57,7 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "/features#community", class: "action-link"
             = link_to "Download Now", "/downloads/", class: "featured-item-button"
-      .col-md-4
+      .col-md-3
         .featured-item
           .edition-name
             Enterprise Edition
@@ -70,14 +70,35 @@ extra_font:
             = icon "ee", "featured-item-icon", {width: 76, height: 76, label: "GitLab EE"}
             %ul.featured-item-list.list-unstyled
               %li.item-description
-                Single-tenant on your server
+                On-premises on your server
               %li.line-separator
               %li.item-description
-                Next business day support
+                Proprietary features & next-day support
               %li.line-separator
               %li.item-description
                 = link_to "Learn more...", "/features#enterprise", class: "action-link"
             = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
+      .col-md-3
+        .featured-item
+          .edition-name
+            GitLab Hosted
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "35/mo" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              up to 30 users
+            = icon "hosted", "featured-item-icon", {width: 76, height: 76, label: "GitLab Hosted"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Private server hosted by GitLab
+              %li.line-separator
+              %li.item-description
+                Run GitLab CE or EE
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "https://githost.io/", class: "action-link"
+            = link_to "Hosting Options", "https://githost.io/", class: "featured-item-button"
     %h1.page-headline.cta
       Not sure? Try GitLab Enterprise Edition risk-free for 30 days.
     %h4.subheader.cta
