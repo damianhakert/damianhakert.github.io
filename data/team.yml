@@ -1857,20 +1857,16 @@
           and lurking on IRC. On her spare time, she enjoys photography, traveling,
           and gardening.
 
-- name: Stephane Cornille
-  locality: Buenos Aires
-  country: Argentina
+- name: S.C.
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/product-marketing-manager-partner/">Product Marketing Manager - Partner and Channel Specialist</a>
   reports_to: Director of Product Marketing
-  picture: stephanecornille.jpg
+  picture: logo-extra-whitespace.png
   twitter:
-  gitlab: scornille
-  story:  | 
-          Futurist and astronaut-in-waiting, Stephane hails from the Land of the
-          Long White Cloud, aka New Zealand. Stephane is open-minded challenger 
-          with expertise leading global marketing launches, and managing product 
-          life cycles. When he is not working, he is exploring abandoned places, 
-          gardening or learning about space.
+  gitlab:
+  story:  |
+          Joining October 31st
 
 - name: J.A.
   locality:
