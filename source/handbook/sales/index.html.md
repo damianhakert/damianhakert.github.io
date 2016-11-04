@@ -62,6 +62,7 @@ Before prospecting and engaging with a prospect, check to see if they are using 
 * GiLab uses a 3rd party service to identify potential leads to prospect into and drive demand for GitLab Enterprise Edition and GitLab Products.
 * For an account/lead you own, you may request Sales Operations to upload any new contacts from Discover.org.  The request process is:
   * Within the lead/account use the chatter function to make the request and tag Francis Aquino (Dir. Sales Operations).  Example, "Request for contacts to be added via Discover.org"
+  * If the account record is not for a specific business unit/division or has any address information, please be as specific as you can about the search criteria in your Chatter request. For example, if the account name just says "Disney", please specify if you want Sales Operations to search for contacts for a certain division or location for Disney.
   * Once the contacts have been uploaded, Sales Operations will respond via the same chatter message confirming the data upload has been done.
   * Turnaround time for each request will be 2 business days or less.  Sales Operations strives to respond to each request within the same business day, if at all possible.
 * Before making a request for more contacts, please make sure you have a plan and time set aside to prospect to these new leads.  A plan means:
