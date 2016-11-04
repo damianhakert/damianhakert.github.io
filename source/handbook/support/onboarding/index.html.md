@@ -198,6 +198,7 @@ add tags to it. Currently, the tags that are to be used are:
 - Kerberos
 - Importing
 - SSL
+- UX/UI
 
 Tagging tickets will allow us to better capture what topics need to be documented in more detail,
 and/or which areas of the product development can use some attention to prevent creating more requests for support.
