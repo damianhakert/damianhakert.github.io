@@ -12,7 +12,7 @@ extra_css:
     .color-bg
       %div
         %h1 Time Tracking
-        %h3#ci-subt Track your time in the same tool you do your work in
+        %h3#ci-subt Coming in GitLab 8.14, Track your time in the same tool you do your work in
   .sub-wrapper
     .container
 
@@ -47,8 +47,6 @@ extra_css:
               command to record the time you spent working on the problem.
               Every time you add a new spent command on an issue or merge request, GitLab adds it to a total of spent time.
               The record of the total time spent on an issue or merge request is displayed in the sidebar.
-            %li.documentation-link
-              %a{href: "https://docs.gitlab.com/ee/time-tracking/README.html", target: "_blank"} Explore Documentation
       %hr.divider/
 
       .row
@@ -87,4 +85,4 @@ extra_css:
               Maintain visibility across development teams and external contributors with
               one tool for code collaboration and time tracking.
 
-  /= partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "GitLab Geo" }
+  = partial "includes/features/gitlab-ee-trial"
