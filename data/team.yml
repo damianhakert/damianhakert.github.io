@@ -1899,18 +1899,6 @@
           or exploring latest Linux distro or watching tech reviews on YouTube or playing acoustic guitar,
           or on a short road trip to a hill nearby.
 
-
-- name: V.W.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
-  reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining November 7th
-
 - name: S.B.
   locality:
   country:
@@ -1932,6 +1920,17 @@
   gitlab:
   story:  |
           Joining November 7th
+
+- name: V.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 9th
 
 - name: S.D.
   locality:
