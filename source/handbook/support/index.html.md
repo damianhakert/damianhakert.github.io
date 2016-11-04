@@ -266,9 +266,10 @@ or other references are encouraged.
 
 ### Support chat channels
 
-We use our chat internally as a communication tool. The support channels are as follows:  
+We use our chat internally as a realtime communication tool. The support channels are as follows:  
 
-- [#Support](https://gitlab.slack.com/messages/support) - This is the general support channel. Don't know where to ask a question? Start here.
+- [#questions](https://gitlab.slack.com/messages/questions) - If your question is something that you think anyone in the company could answer or is valuable to the greater company to know, ask it here!
+- [#Support](https://gitlab.slack.com/messages/support) - This is the general support team channel. Don't know where to ask a question about a ticket? Start here.
 - [#support-live-feed](https://gitlab.slack.com/messages/support-live-feed) - Feed of all Zendesk related events
 - [#mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab) - Mentions of GitLab from various news sources - [info](/handbook/support/channels#mentions)
 - [#gitlab-issue-feed](https://gitlab.slack.com/messages/gitlab-issue-feed) - Feed of all GitLab-CE issues
