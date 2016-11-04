@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Adcanced Support Topics
+title: Advanced Support Topics
 ---
 
 ## Earn the Expert badge by completing any of these
