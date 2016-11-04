@@ -42,6 +42,7 @@ okay. But if you see a topic that is completely new to you, stop the video and t
 it out for yourself before continuing.
 
 1. [ ] Just quickly check on your Zendesk account to make sure that is ready for you when you need it.
+1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
 
