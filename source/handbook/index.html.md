@@ -74,8 +74,8 @@ and processes to the world. An example is the MIT licensed [GitLab CE](https://a
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
-and not duplicating work. This enables us to achieve more progress with fewer people
-and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
+and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
+We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
 _Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
