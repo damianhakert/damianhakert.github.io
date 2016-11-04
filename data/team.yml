@@ -1831,15 +1831,17 @@
           910 mountain bike or hiking with her family.
 
 
-- name: N.F.
-  locality:
-  country:
+- name: Nick Flynn
+  locality: Orem
+  country: Utah
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: Nicholasf.png
+  twitter: NRF460
+  gitlab: Nrflynn
   story:  |
+          Nick has been in both business development and sale roles for over 3 years. In his free time he enjoys grilling, the outdoors, and
+          raising his two guinea pigs.
           Joining October 24th
 
 - name: Cindy Pallares
