@@ -103,18 +103,29 @@ VAT-number of GitLab BV (NL853740343B01).
 
 ### Processing payment for invoices
 
-1. Upon receipt of vendor invoices:
-    * File a .pdf copy of the invoice to dropbox\For Approval.
-    * Notify manager of new invoices to be approved by forwarding the email from the vendor.
-    * Invoices are to be approved based on signed agreements, contract terms, and or purchase orders.
-    * After review, manager to reply to email with “Approved”. An audit trail is required and this email will serve this purpose.
-1. On approval, move the invoice from dropbox\For Approval to dropbox\Inbox
-1. Post the invoice through accounting system. Before paying any vendor (for Inc. only), be sure there is a W-9 on file for them.
-1. On a daily basis, generate an AP aging summary from the accounting system and identify invoices to be paid.
-1. Initiate payment(s) through the bank (Comerica/Rabobank) and notify management that there is a pending payment.  Include a summary of invoices being paid.
-1. Verify the payment has cleared the bank.
-1. Upon verified payment of the invoice move the .pdf copy of the invoice from dropbox\Inbox to folder inbox\”vendor name”.
-1. Post the payment through the accounting system.
+1.  Obtain invoices from suppliers and contractors through AP@gitlab.com
+1.  Reply with confirmation email when receive contractor's invoice
+1.  Validate contractor's invoice terms with BambooHR record and obtain approval from contractor's supervisor
+1.  Validate supplier invoices against contract terms and ensure billing accuracy, then obtain approval from department manager
+1.  Obtain W-9 form and bank information from new suppliers
+1.  Combine invoice with approval e-mail as one final PDF file
+1.  Enter invoices and employee's reimbursement expense into Netsuite and attached PDF file as backup
+1.  Save PDF file in Google drive "Invoice to Pay" folder
+1.  Initiate payment through Comerica bank and Roboank according to due date evey Friday
+1.  Notify bank approver with email regarding weekly payment run
+1.  Bank approver approves wire transfer and ACH payment based on AP's email "Invoice to Pay" list
+1.  Apply payments to each invoice on the date they are paid to maintain Netsuite system accuracy
+1.  Update Cash Flow report daily
+1.  Move paid invoice from "Invoice to Pay" folder to "Vendor Paid" folder
+1.  Perform A/P cutoff 5 days before period-end
+1.  Reconcile A/P sub-ledger to G/L
+1.  Review accounts payable aging for any upapplied debits and make neccessary adjustment
+1.  Contact relevant process owners to request information regarding required period-end accruals
+1.  Contact vendors for outstanding/unbilled amounts as period end
+1.  Verify prepaid expenses can be traced to specific expense
+1.  Verify trial balance amount reconciles with Accrued expense schedule
+1.  Vefify balance on bank reconciliation agrees with respective bank statement and trial balance
+1.  Prepare 1099 and 1096 form by the end of year
 
 ### Netsuite
 
