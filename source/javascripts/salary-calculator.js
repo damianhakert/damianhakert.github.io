@@ -75,6 +75,10 @@
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
 
+      // Highlighting
+      $(salaryContainer + ' .level').on('keydown', this.highlightDropdownItem.bind(this));
+      $(salaryContainer + ' .experience').on('keydown', this.highlightDropdownItem.bind(this));
+
       // Filtering
       $countryFilter.on('keyup', this.search.bind(null, {
         dropdown: 'country'
@@ -117,6 +121,47 @@
           $element.removeClass('hidden');
         }
       });
+    }
+
+    SalaryCalculator.prototype.highlightDropdownItem = function(e) {
+      var $this = $(e.currentTarget),
+          list = $this.find('li'),
+          nextLi, prevLi;
+
+      if ($this.hasClass('open')) {
+        if ((e.keyCode === 38 || e.keyCode === 40) &&
+            !$this.find('li.selected').length) {
+          $this.find('li').first().addClass('selected');
+        }
+
+        if (e.keyCode === 38 &&
+            !list.first().hasClass('selected')) { // Up
+          prevLi = $this
+                    .find('li.selected')
+                    .removeClass('selected')
+                    .prev('li');
+
+          if (prevLi[0] === list.first())
+            list.first().addClass('selected');
+          else
+            prevLi.addClass('selected');
+        } else if (e.keyCode === 40 &&
+                   !list.last().hasClass('selected')) { // Down
+          nextLi = $this
+                    .find('li.selected')
+                    .removeClass('selected')
+                    .next('li');
+
+          if (nextLi[0] === list.last())
+            list.last().addClass('selected');
+          else
+            nextLi.addClass('selected');
+        } else if (e.keyCode === 13) { // Enter/Return
+          // Triggering click directly while keydown is active
+          // doesn't hide dropdown, this workaround does. Need better way :/
+          setTimeout(function() { $this.find('li.selected').trigger('click'); });
+        }
+      }
     }
 
     // Custom dropdown functionality
