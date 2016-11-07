@@ -412,6 +412,7 @@
   specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
   maintains:  |
                 <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+                <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-qa/">GitLab QA</a></li>
                 <li><a href="/jobs/specialist/backstage">Backstage</a> <a href="/jobs/expert/">expert</a></li>
                 <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
