@@ -1789,16 +1789,16 @@
           dream of escaping from the chore of mowing the lawn with a
           Kubernetes-powered, Raspberry Pi-based autonomous lawn mower.
 
-- name: B.J.
-  locality:
-  country:
+- name: Brent Jensen
+  locality: Springville, UT
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead-outbound/">Business Development Team Lead - Outbound Team</a>
   reports_to: BDR Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: Brent.jpg
+  twitter: btwosockz
+  gitlab: brentj
   story:  |
-          Joining October 17th
+          Brent has worked in technology sales for the last 5 years and has grown extremely passionate about building relationships, sales, business development, and customer success. When Brent is not working, he loves to spend time with his family up in the mountains camping, riding dirt-bikes, hunting, and hiking.
 
 - name: Connor Shea
   locality: Highlands Ranch, CO
