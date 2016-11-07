@@ -7,7 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "Announcing Time Tracking in GitLab"
 ---
 
-In 8.14 we are adding Time Tracking to GitLab Enterprise Edition to allow teams to stack their project estimates against their time spent. At GitLab, our goal is to build everything software development teams need to collaborate efficiently into one product. With each new release we reduce the number of external tools you need, allowing you to complete the full software development lifecycle within GitLab. Lets take a look at how Time Tracking works.
+In 8.14 we are adding Time Tracking to GitLab Enterprise Edition as a Product to allow teams to stack their project estimates against their time spent. At GitLab, our goal is to build everything software development teams need to collaborate efficiently into one product. With each new release we reduce the number of external tools you need, allowing you to complete the full software development lifecycle within GitLab. Lets take a look at how Time Tracking works.
 
 <!-- more -->
 
