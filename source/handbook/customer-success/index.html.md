@@ -103,7 +103,7 @@ If the customer has a support query, log a zendesk ticket on their behalf
 * Reassign the Case to Francis Aquino and either Francis or Wilson will update Zuora with the new information.
 
 **Request for Refund or Erroneous Subscription Created**
-* Assignee responds and CCs ar@gitlab.com to process the refund or to resolve an erroneous subscription (a customer may have created a new subscription rather than add seats or renew their current subscription).
+* Assignee responds and CCs ar@ to process the refund or to resolve an erroneous subscription (a customer may have created a new subscription rather than add seats or renew their current subscription).
 
 **Request to Combine Multiple Subscriptions or Accounts**
 * Assignee responds and works with Francis or Wilson to resolve (inform both).
