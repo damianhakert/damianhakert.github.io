@@ -508,11 +508,31 @@ As soon as an invoice was generated, the sales rep can view and download it as a
 
 ### Using Cases in Salesforce
 
-A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service.
+A Case is a question or feedback from a prospect or customer. While there are many ways that a customer can reach out to GitLab, the following are the only email addresses that will crease a Case in Salesforce:
 
-When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is no match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reassign to yourself if this is your contact or respond to this case.
+#### New Business Inquiries
+* sales@: this is an inquiry from a prospect requesting information on GitLab's services. These inquiries will be handled by the BDR and Sales Team, depending on record or territory ownership.
+
+#### Existing Customer Inquiries
+* ar@: questions around billing or payments.
+* renewals@: these are questions regarding renewing a subscription.
+* support@: these are technical questions or issues submitted by our customers or trial users.
+* Please see the [Customer Success Handbook] (https://about.gitlab.com/handbook/customer-success/) for more information regarding existing customer inquiries.
+
+#### Emails to Sales@
+When a case is submitted, if the contacts email address is in Salesforce, the contact owner will be assigned to the case.  If there is no match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reassign to yourself if this is your contact or respond to this case.
 
 Cases display in an Emails related list. The Emails related list includes all emails sent by your customer regarding a particular case, as well the email threads between you and your customer. The first 77 characters of an email message appear in the related list so that you can see what the message is about without having to click on it.
+
+#### Reassigning Sales@ Cases to the Account Management Queue
+Since sales@ was the default email address for pre-sales and post-sales communication before the creation of ar@ and renewals@, customers might still send qeustions on billing or renewals to sales@. When this happens, reassign the Case to the [Account Management Queue] (https://na34.salesforce.com/500?fcf=00B610000042ioq):
+
+1. Go to the Case record.
+2. Next to the Case Owner field, click on the "Change" link.
+3. In the pull down field, select "Queue".
+4. Then type in the Owner field, "Account Management Queue".
+5. Make sure the checkbox to "Send Notification Email" is checked.
+6. Click Save.
 
 #### To work with Email-to-Case or On-Demand Email-to-Case emails
 
