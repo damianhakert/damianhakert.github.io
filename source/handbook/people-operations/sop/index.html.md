@@ -19,7 +19,7 @@ For more information about People Operations Policies please see [People Operati
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 #### Using HelloSign
-<a name="hellosign"></a>
+{: #hellosign}
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -93,7 +93,7 @@ Add a New Division
 1. Add new division
 
 ### Process Referral Bonus
-<a name="referral-bonus"></a>
+{: #referral-bonus}
 
 If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
@@ -199,6 +199,8 @@ Add the team member's name to the proper Google sheet to make sure they enter fl
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+- **Upgrade team member's Zoom account to Pro**<a name="make-zoom-pro"></a>
+Log in to [Zoom](https://gitlab.zoom.us) with the generic admin credentials stored in 1Password. Find the user in the "User Management" tab, and click "edit", then select "Pro" (the default is Basic). If the user does not yet appear in Zoom, add them through the "Add Users" button at the top of the User Management tab. A Pro account allows the individual to have calls longer than 30 minutes. If we've run out of Pro licenses, send an email to our account manager at Zoom, as listed in a shared note on 1Password.
 
 ### Using TriNet
 
@@ -266,7 +268,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
 #### Making changes in TriNet
-<a name="changes-trinet"></a>
+{: #changes-trinet}
 
 ##### Add a New Location
 
@@ -337,7 +339,7 @@ Note: Make sure to file all appropriate documentation in BambooHR. Also, if the 
 1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Returning property to GitLab
-<a name="returning-property"></a>
+{: #returning-property}
 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
 

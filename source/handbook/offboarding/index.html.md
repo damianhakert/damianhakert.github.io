@@ -138,6 +138,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] Hiring Manager: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
    1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 1. [ ] Hiring Manager: Remove team member as a member from the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
+1. [ ] People Ops: remove team member's Zoom account.
 1. [ ] Hiring Manager: Remove team member from https://timezone.io/team/gitlab-support
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
@@ -162,6 +163,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: If credit card holder, remove from expense report calendar reminder
 1. [ ] Hiring Manager: Remove from sales meeting.
 1. [ ] Hiring Manager: Remove from [Recurly](https://app.recurly.com/login)
+1. [ ] People Ops: remove team member's Zoom account.
 1. [ ] Hiring Manager: Remove from  [Salesforce]
 1. [x] _not relevant_ New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
 1. [x] _not relevant_ Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. In this folder, familiarize yourself with:

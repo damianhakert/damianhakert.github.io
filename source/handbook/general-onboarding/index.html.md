@@ -26,7 +26,7 @@ title: "GitLab Onboarding"
 
 
 ## Master Checklist for Onboarding of New Hires
-<a name="checklist"></a>
+{: #checklist}
 
 Create issue for new hire in organization with following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
@@ -198,6 +198,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
    1. [ ] Hiring Manager: Add the 'moderator' flag to the new team member's user on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Hiring Manager: Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
+1. [ ] People Ops: [upgrade new team member's Zoom account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro) to Pro.
 1. [ ] New team member: Register on timezone.io by clicking on the link in the **"Link to Timezone.io Sign-Up"** - You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 
 #### FOR COMMUNITY ADVOCATES ONLY
@@ -234,7 +235,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: Invite to sales meeting.
 1. [ ] Hiring Manager: Invite to GLU
 1. [ ] Hiring Manager: Schedule weekly 1:1 meeting
-1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi], and [WebEx].
+1. [ ] People Ops: [upgrade new team member's Zoom account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro) to Pro.
+1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi].
 1. [ ] Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs.
 1. [ ] New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with:
   1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
@@ -260,10 +262,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 
 ## Onboarding topics that apply to everyone
-<a name="everyone"></a>
+{: #everyone}
 
 ### General
-<a name="general"></a>
 
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
 * If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
@@ -300,7 +301,6 @@ The most common Issues are created in the following projects:
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 ### Add yourself to the team page
-<a name="add-yourself-to-team-page"></a>
 
 Welcome to GitLab! We are happy to have you join our company and to include
 you in our [team page](https://about.gitlab.com/team/). The following are
@@ -343,7 +343,7 @@ respect the spaces between lines. Please don't use "tab" because it will break t
 1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
 
 ### Quiz
-<a name="quiz"></a>
+
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
 Please schedule a call with your hiring manager.
