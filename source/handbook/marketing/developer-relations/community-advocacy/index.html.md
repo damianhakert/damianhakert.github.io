@@ -75,7 +75,7 @@ the ticket that was created for your reply.
 
 ### Twitter
 
-Tweets that mention [@GitLab](https://twitter.com/GitLab), 
+Tweets that mention [@GitLab](https://twitter.com/GitLab),
 or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in Zendesk,
 and show up in the "Twitter and Facebook" view. All responses should be sent from Zendesk.
 If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
@@ -137,4 +137,4 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 ## Relevant Links
 
 - [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
-- [Support handbook](/handbook/support), with specific link to how to work in [Zendesk (for Twitter)](/handbook/support/zendesk/).
+- [Support handbook](/handbook/support), with specific link to how to work in [Zendesk (for Twitter)](/handbook/support/knowledge-base/categories/zendesk/).
