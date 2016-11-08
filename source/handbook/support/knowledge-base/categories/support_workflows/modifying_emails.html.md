@@ -14,31 +14,34 @@ category: Support Workflows
 
 ##### Overview
 
-Use this when a user made a typo in their email address and are unable to receive confirmation emails.
+Use this when a user made a typo in their email address while signing up on GitLab.com and are unable to receive confirmation emails.
 
 
 ______________
 
 ##### Workflow
 
-1. If it's a new account and there is a typo in the email address, follow "Fix email address".
-2. If the email address is correct, but the user is not receiving the confirmation email, check `mailgun` logs.
-3. If the account has data, follow the "Account has data" section.
+1. If it's a new account and there is a typo in the email address, follow [Fix email address](#fix-email-address).
+2. If the email address is correct, but the user is not receiving the confirmation email, follow [Check emails in mailgun](#check-emails-in-mailgun).
+3. If the account has data, follow [Account has data](#account-has-data).
 
 ##### Fix email address
 
 Email address for an account can be changed via the GitLab.com Users Admin area.
 
-1. Search the account and click on it to edit it.
-2. Fix the email address to the correct one and save your changes.
-3. Trigger confirmation email for the user.
-4. Respond to the user.
+1. Go to https://gitlab.com/admin/users and search the account.
+2. Click `Edit`.
+3. Fix the email address to the correct one and save your changes.
+4. Send a confirmation email to the user from https://gitlab.com/users/confirmation/new.
+5. Respond to the user.
 
 ##### Check emails in mailgun
 
 1. Login into mailgun.com using `supportteam` credentials in Support vault.
-2. Search logs for the particular email address and see if email is being bounced or delayed.
-3. Respond to the user and ask them to wait for a few hours.
+2. Go to https://mailgun.com/app/logs/mg.gitlab.com
+3. Search logs for the particular email address and see if email is being bounced or delayed.
+4. Respond to the user and ask them to wait for a few hours.
+5. If the email is bounced, we ask the user to provide a different email address.
 
 ##### Account has data
 
@@ -81,3 +84,10 @@ In this case, we verify the existing email or user's identity.
 
 If the user claims they're unable to provide identification we should review the matter internally (Support Team) and determine the best course of action. 
 
+__________________
+
+**Macros**
+
+* [Account::2FA Removal Verification - GitLab.com](https://gitlab.zendesk.com/agent/admin/macros/103721068)
+* [Account::2FA Removal Verification - GitLab.com - Failed](https://gitlab.zendesk.com/agent/admin/macros/103790308)
+* [Account::2FA Removal Verification - GitLab.com - Successful](https://gitlab.zendesk.com/agent/admin/macros/103772548)
