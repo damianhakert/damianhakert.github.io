@@ -359,6 +359,21 @@ Don't forget to thank the authors for the time and effort taken to submit the
 feature request/merge request. In all cases and without exception, you should be
 nice and polite when interacting with users and customers.
 
+## Responsibilities and Expectations
+
+As a PM you're expected to:
+
+- Follow the issues you've been involved with / are assigned to as PM. That usually means reading all comments. Use email notifications for this.
+- Make sure the issue description is updated when necessary
+- Make sure issues are moved forward when needed. Not only should you avoid being the bottleneck, you should be the person moving issues forward when they get stuck or overlooked.
+- Make sure features are complete: documentation, marketing, API, etc.
+- Know when to cut corners and when not to. If we merge documentation a day
+later, that's usually acceptable. Inversely, discovering by demand of a
+customer that documentation is lacking is not.
+- Excite and market new features and changes internally and externally
+- Help build a vision for GitLab and GitLab's features
+- Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
+
 ## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous
