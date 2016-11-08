@@ -130,36 +130,36 @@
 
       if ($this.hasClass('open')) {
         if ((e.keyCode === 38 || e.keyCode === 40) &&
-            !$this.find('li.selected').length) {
-          $this.find('li').first().addClass('selected');
+            !$this.find('li.is-focused').length) {
+          $this.find('li').first().addClass('is-focused');
         }
 
         if (e.keyCode === 38 &&
-            !list.first().hasClass('selected')) { // Up
+            !list.first().hasClass('is-focused')) { // Up
           prevLi = $this
-                    .find('li.selected')
-                    .removeClass('selected')
+                    .find('li.is-focused')
+                    .removeClass('is-focused')
                     .prev('li');
 
           if (prevLi[0] === list.first())
-            list.first().addClass('selected');
+            list.first().addClass('is-focused');
           else
-            prevLi.addClass('selected');
+            prevLi.addClass('is-focused');
         } else if (e.keyCode === 40 &&
-                   !list.last().hasClass('selected')) { // Down
+                   !list.last().hasClass('is-focused')) { // Down
           nextLi = $this
-                    .find('li.selected')
-                    .removeClass('selected')
+                    .find('li.is-focused')
+                    .removeClass('is-focused')
                     .next('li');
 
           if (nextLi[0] === list.last())
-            list.last().addClass('selected');
+            list.last().addClass('is-focused');
           else
-            nextLi.addClass('selected');
+            nextLi.addClass('is-focused');
         } else if (e.keyCode === 13) { // Enter/Return
           // Triggering click directly while keydown is active
           // doesn't hide dropdown, this workaround does. Need better way :/
-          setTimeout(function() { $this.find('li.selected').trigger('click'); });
+          setTimeout(function() { $this.find('li.is-focused').trigger('click'); });
         }
       }
     }
