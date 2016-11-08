@@ -21,7 +21,7 @@ The efficiency of the team paired with the fact that everyone is so talented at 
 
 In less than a week of me working at GitLab, I collaborated with other team members and shipped the first iteration of a new feature, the [compensation calculator](https://about.gitlab.com/jobs/developer/#compensation) ([!3418](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/3418)). That's the fastest progress I've ever encountered in all the companies and internships I've experienced.
 
-## The Dark Side
+## Work-Life Balance
 
 Unfortunately this wow factor also cultivates a dark side. In a startup culture that is so focused, moving so fast and rewards results (all of which are good), it can be easy for me to continue working through lunch or after work. I enjoy working at and on GitLab which makes this all the more difficult (also a good thing). From time to time, it gets very tempting for me to put in extra work during my spare time. Although I know that working continually is only appealing in the short run and unsustainable in the long run, I've had to take extra steps to be more disciplined in this area.
 
