@@ -40,6 +40,14 @@
     }
   }
 
+  var isFullyVisible = function(el, parentEl) {
+    var parentHeight = parentEl.height() - el.height(), // Make sure last item is not partially visible
+        elTop = el.position().top,
+        elBottom = elTop + (el.height());
+
+    return (elBottom > 0 && elTop < parentHeight);
+  }
+
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
       this.bindEvents();
@@ -75,9 +83,13 @@
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
 
-      // Highlighting
+      // Highlighting for Dropdown
       $(salaryContainer + ' .level').on('keydown', this.highlightDropdownItem.bind(this));
       $(salaryContainer + ' .experience').on('keydown', this.highlightDropdownItem.bind(this));
+
+      // Highlighting for Filter
+      $countryDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+      $cityDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
 
       // Filtering
       $countryFilter.on('keyup', this.search.bind(null, {
@@ -125,42 +137,54 @@
 
     SalaryCalculator.prototype.highlightDropdownItem = function(e) {
       var $this = $(e.currentTarget),
-          list = $this.find('li'),
-          nextLi, prevLi;
+          listContainer = $this.find('.dropdown-menu.dropdown-scroll'),
+          list = $this.find('li:not(.hidden):not(.filter-container)'),
+          nextLi, prevLi,
+          focusedLi;
 
       if ($this.hasClass('open')) {
         if ((e.keyCode === 38 || e.keyCode === 40) &&
-            !$this.find('li.is-focused').length) {
-          $this.find('li').first().addClass('is-focused');
+            !list.filter('li.is-focused').length) {
+          list.first().addClass('is-focused');
         }
 
         if (e.keyCode === 38 &&
             !list.first().hasClass('is-focused')) { // Up
-          prevLi = $this
-                    .find('li.is-focused')
-                    .removeClass('is-focused')
-                    .prev('li');
+          prevLi = list
+                    .filter('li.is-focused')
+                    .prevAll('li:not(.hidden)').first();
 
-          if (prevLi[0] === list.first())
+          list.filter('li.is-focused').removeClass('is-focused');
+
+          if (prevLi[0] === list.first()[0])
             list.first().addClass('is-focused');
           else
             prevLi.addClass('is-focused');
         } else if (e.keyCode === 40 &&
                    !list.last().hasClass('is-focused')) { // Down
-          nextLi = $this
-                    .find('li.is-focused')
-                    .removeClass('is-focused')
-                    .next('li');
+          nextLi = list
+                    .filter('li.is-focused')
+                    .nextAll('li:not(.hidden)').first();
 
-          if (nextLi[0] === list.last())
+          list.filter('li.is-focused').removeClass('is-focused');
+
+          if (nextLi[0] === list.last()[0])
             list.last().addClass('is-focused');
           else
             nextLi.addClass('is-focused');
-        } else if (e.keyCode === 13) { // Enter/Return
+        } else if (e.keyCode === 13) { // Enter / Return
           // Triggering click directly while keydown is active
           // doesn't hide dropdown, this workaround does. Need better way :/
-          setTimeout(function() { $this.find('li.is-focused').trigger('click'); });
+          setTimeout(function() { list.filter('li.is-focused').trigger('click'); });
         }
+
+        focusedLi = list.filter('li.is-focused');
+        if (list.first()[0] !== focusedLi[0]) {
+          if (!isFullyVisible(focusedLi, listContainer))
+            listContainer.scrollTop(list.index(focusedLi) * focusedLi.outerHeight());
+        }
+        else
+          listContainer.scrollTop(0)
       }
     }
 
