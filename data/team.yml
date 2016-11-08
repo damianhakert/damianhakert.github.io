@@ -1947,3 +1947,14 @@
   gitlab:
   story:  |
           Joining November 14th
+
+- name: J.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  reports_to: Chief Revenue Officer
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 14th
