@@ -89,6 +89,7 @@ On the GitLab issue, make sure to:
 10. **Scope:** How many seats are they interested in purchasing? This will be needed to add in the opportunity amount field "example 100 x $39 = $3900"
 11. **Scope:** How many developers total (potential additional seats) do they have?  Anything over 100 potential seats is assigned to an AE.  Leads under 100 potential seats will be assigned to BDR Manager to track.
 12. **Next Steps:** Is there a meeting set with an AE to discuss next steps? Meeting needs to be set before lead can be qualfiied.
+13. **Existing Client** Is the contact from a new business unit? If existing business unit refer to AE responsible for the account.
 
 
 ## Lead status<a name="leadStatus"></a>
