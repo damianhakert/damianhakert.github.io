@@ -5,6 +5,8 @@ title: Marketing Bootcamp Checklist
 ## Bootcamp Checklist for Training of New Marketing Team Members
 <a name="checklist"></a>
 
+Put instructions somewhere telling people ops to warn new team members to wait for 1Password before signing up for other accounts.
+
 An issue will be created for you with the following checklist.
 This list looks strange in this handbook because it is formatted to be copy-pasted.
 The topics are generally ordered by priority in which they need to be tackled,
