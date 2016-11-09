@@ -61,6 +61,9 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
   1. [ ] `stash.md`
   1. [ ] `git_log.md`
   1. [ ] For the rest of the topics in `user training`, just do a quick read over the file names so you start remembering where to find them.
+1. [ ] Get familiar with the services GitLab offers
+  1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
+  1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
 
 ### Stage 2. Installation and Administration basics.
 
@@ -129,7 +132,7 @@ _Typically started in first week, and completed by the end of the fourth week_
      1. Follow the prompts and finalize your order.
      1. You'll receive an email with information on accessing the Zendesk course
   1. Proceed to complete the **"Agents: Zendesk Fundamentals Online"** course
-1. [ ] Review additional Zendesk resources   
+1. [ ] Review additional Zendesk resources
   1. [ ] [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
   1. [ ] [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
   1. [ ] [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
