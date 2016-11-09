@@ -41,9 +41,9 @@
   }
 
   var isFullyVisible = function(el, parentEl) {
-    var parentHeight = parentEl.height() - el.height(), // Make sure last item is not partially visible
-        elTop = el.position().top,
-        elBottom = elTop + (el.height());
+    var parentHeight = parentEl.height() - el.height(); // Make sure last item is not partially visible
+    var elTop = el.position().top;
+    var elBottom = elTop + (el.height());
 
     return (elBottom > 0 && elTop < parentHeight);
   }
@@ -136,11 +136,10 @@
     }
 
     SalaryCalculator.prototype.highlightDropdownItem = function(e) {
-      var $this = $(e.currentTarget),
-          listContainer = $this.find('.dropdown-menu.dropdown-scroll'),
-          list = $this.find('li:not(.hidden):not(.filter-container)'),
-          nextLi, prevLi,
-          focusedLi;
+      var $this = $(e.currentTarget);
+      var listContainer = $this.find('.dropdown-menu.dropdown-scroll');
+      var list = $this.find('li:not(.hidden):not(.filter-container)');
+      var nextLi, prevLi, focusedLi;
 
       if ($this.hasClass('open')) {
         if ((e.keyCode === 38 || e.keyCode === 40) &&
@@ -148,25 +147,23 @@
           list.first().addClass('is-focused');
         }
 
-        if (e.keyCode === 38 &&
-            !list.first().hasClass('is-focused')) { // Up
+        if (e.keyCode === 38 && !list.first().hasClass('is-focused')) { // Up
           prevLi = list
                     .filter('li.is-focused')
                     .prevAll('li:not(.hidden)').first();
 
-          list.filter('li.is-focused').removeClass('is-focused');
+          list.removeClass('is-focused');
 
           if (prevLi[0] === list.first()[0])
             list.first().addClass('is-focused');
           else
             prevLi.addClass('is-focused');
-        } else if (e.keyCode === 40 &&
-                   !list.last().hasClass('is-focused')) { // Down
+        } else if (e.keyCode === 40 && !list.last().hasClass('is-focused')) { // Down
           nextLi = list
                     .filter('li.is-focused')
                     .nextAll('li:not(.hidden)').first();
 
-          list.filter('li.is-focused').removeClass('is-focused');
+          list.removeClass('is-focused');
 
           if (nextLi[0] === list.last()[0])
             list.last().addClass('is-focused');
@@ -183,8 +180,9 @@
           if (!isFullyVisible(focusedLi, listContainer))
             listContainer.scrollTop(list.index(focusedLi) * focusedLi.outerHeight());
         }
-        else
-          listContainer.scrollTop(0)
+        else {
+          listContainer.scrollTop(0);
+        }
       }
     }
 
