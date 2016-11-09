@@ -1926,16 +1926,18 @@
   story:  |
           Joining November 7th
 
-- name: V.W.
-  locality:
-  country:
+- name: Victor Wu
+  locality: Chicago, IL
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
   reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: victor.jpg
+  twitter: victorwu416
+  gitlab: victorwu
   story:  |
-          Joining November 9th
+          Victor enjoys creating products to enable people to do things, and to do them well.
+          He's especially devoted to understanding individuals, whether they be customers, coworkers, friends, or family.
+          Before joining GitLab, Victor worked in fintech and foodtech.
 
 - name: S.D.
   locality:
