@@ -9,7 +9,7 @@ title: "Customer success"
 - [How to engage a Customer Success Engineer](engaging/)
 - [Account Expansion Template](https://about.gitlab.com/handbook/customer-success/account-expansion/)
 - [Why the AM is Becoming the Lebron James of the Modern Sales Org](http://www.saleshacker.com/why-the-am-is-becoming-the-lebron-james-of-the-modern-sales-org/)
-- [How to Succeed at Key Account Management(https://hbr.org/2012/07/how-to-succeed-at-key-account)
+- [How to Succeed at Key Account Management](https://hbr.org/2012/07/how-to-succeed-at-key-account)
 
 
 ### Customer On-boarding Checklist
