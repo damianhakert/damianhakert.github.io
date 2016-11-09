@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab 8.13.5, 8.12.9, and 8.11.11 Released"
-date: 2016-11-08 23:59
+date: 2016-11-09 10:30
 author: Brian Neel
 author_twitter: b0bby_tables
 ---
@@ -15,6 +15,9 @@ information disclosure vulnerabilities. In addition, version 8.13.5 resolves a
 number of regressions and bugs. We recommend that all GitLab installations be
 upgraded to one of these versions.
 
+If you're wondering what happened to 8.13.4, good eye! That version introduced
+a CI issue that we had to fix in 8.13.5.
+
 Please read on for more details.
 
 <!-- more -->
@@ -27,8 +30,10 @@ Please read on for more details.
 vulnerability in the autolinking feature of our description fields. Autolinking
 is used to automatically turn words or phrases into their HTML equivalent links.
 The autolinking code did not properly filter dangerous URL protocols and was
-therefore vulnerable to persistent script injection.
+therefore vulnerable to persistent script injection. Please see [#23153] for more details.
 
+[Mohamed Ebrahem]: https://www.facebook.com/PSX0S404
+[HackerOne]: https://hackerone.com/
 [#23153]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23153
 
 ## 8.13.5 Security Fixes
@@ -39,7 +44,7 @@ The following security issues were fixed ONLY in 8.13.5:
 
 Gustav Bylund reported an information disclosure vulnerability that allowed
 confidential issues inside public repositories to be viewed by anyone viewing
-the group page.
+the group page. Please see [#22481] for more details.
 
 [#22481]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22481
 
@@ -47,14 +52,15 @@ the group page.
 
 Patrick Fiedler reported an issue where private merge requests in public
 projects could be disclosed by creating related merge requests in the same
-project.
+project. Please see [#23548] for more details.
 
 [#23548]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23548
 
 ### Disabled Public Repositories Could Still Be Cloned
 
 An internal code review disclosed that when a public repository is disabled or
-restricted to team members only it could still be cloned by the public.
+restricted to team members only it could still be cloned by the public. Please
+see [#23788] for more details.
 
 [#23788]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23788
 
@@ -62,7 +68,8 @@ restricted to team members only it could still be cloned by the public.
 
 An internal code review disclosed that when a public repository has merge
 requests and issues disabled for non-team members these merge requests and
-issues were still visible in the public activity feed.
+issues were still visible in the public activity feed. Please see [#23403] for
+more details.
 
 [#23403]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23403
 
@@ -81,6 +88,8 @@ The following regressions were fixed in 8.13.5:
 - **CE/EE:** Fix builds tab visibility. ([!7178])
 - **CE/EE:** Fix project features default values. ([!7181])
 
+- **EE:** Weight dropdown in issue filter form does not stay selected. ([!826])
+
 [!7034]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7034
 [!7262]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7262
 [!7266]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7266
@@ -91,6 +100,8 @@ The following regressions were fixed in 8.13.5:
 [!7123]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7123
 [!7178]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7178
 [!7181]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7181
+
+[!826]: https://gitlab.com/gitlab-org/gitlabee/merge_requests/826
 
 ## Upgrade barometer
 
@@ -108,6 +119,3 @@ EE](https://about.gitlab.com/features/#enterprise).
 Access to GitLab Enterprise Edition is included with a
 [subscription](https://about.gitlab.com/pricing/). No time to upgrade GitLab
 yourself? Subscribers receive upgrade and installation services.
-
-[Mohamed Ebrahem]: https://www.facebook.com/PSX0S404
-[HackerOne]: https://hackerone.com/
