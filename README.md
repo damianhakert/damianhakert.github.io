@@ -343,6 +343,29 @@ To remove the generated PDFs run:
 rake rm_pdfs
 ```
 
+### Add a new PDF file
+
+In order to make a page be saved as pdf at a location reachable through the
+website, you have to:
+
+1. Open [Rakefile](./Rakefile) with your editor and add the location of the
+   generated PDF file (prepend with `public/`) under the `PDFS = %w{` section.
+   Save the file and exit.
+
+1. Make sure the file exists locally in the location you chose the pdf to be
+   saved. For example, a page in `source/my-page/page.html.haml` should have an
+   entry of `public/my-page/page.pdf` in the `Rakefile` (previous step).
+
+1. The file to be printed must have the `print` layout set in the yaml frontmatter.
+   For example:
+
+    ```
+    ---
+    layout: print
+    title: "The title of the page"
+    ---
+    ```
+
 ## Custom Generators
 
 There are a few custom, static generators specified in config.rb. For
