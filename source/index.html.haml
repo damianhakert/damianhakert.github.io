@@ -20,14 +20,10 @@ extra_js:
       Tools for modern developers
     %h2.page-subtitle
       GitLab unifies issues, code review, CI and CD into a single UI
-    %a.btn.cta-btn.red{href: "https://gitlab.com/users/sign_in"}
-      Sign Up
-    %a.btn.cta-btn.white{href: "/features"}
-      Learn More
 
-    .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
+    .dev-cycle.hidden-xs.hidden-sm
       - data.development_cycle.each_with_index do |item, index|
-        %a.step{href: "#step-#{index+1}"}
+        .step{href: "#step-#{index+1}"}
           = icon("home/icon-step-#{index + 1}")
           .step-name-container
             .step-name
@@ -36,17 +32,10 @@ extra_js:
             .arrows
               %i.fa.fa-angle-double-right
 
-.dev-cycle.cycle-vertical
-  - data.development_cycle.each_with_index do |item, index|
-    .step{id: "step-#{index+1}"}
-      = icon("home/icon-step-#{index + 1}")
-      .step-name
-        #{item[:name]}
-      .description
-        #{item[:description]}
-      - if index < data.development_cycle.length - 1
-        .line-container
-          = partial "images/home/icon-line.svg"
+    %a.btn.cta-btn.red{href: "https://gitlab.com/users/sign_in"}
+      Sign Up
+    %a.btn.cta-btn.white{href: "/features"}
+      Learn More
 
 = partial "includes/features/idea-to-production"
 = partial "includes/features/try-gitlab-ee"
