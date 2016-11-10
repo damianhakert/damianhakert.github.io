@@ -30,7 +30,7 @@ write anything and that basically takes everything down.
 
 What we learned is that when you get into the consistency, accessibility, and
 partition tolerance (CAP) of CephFS, it will just give away availability in
-in trade for consistency. We also learned that when you put a lot of pressure on
+exchange for consistency. We also learned that when you put a lot of pressure on
 the system, it will generate hot spots. For example, in specific places in the
 cluster of machines hosting the GitLab CE repo, all the reads and
 writes end up being on the same spot during high load times. This problem is
@@ -63,7 +63,7 @@ machines but there is a threshold in time, particulary when you're adding heavy
 IOPS, where it becomes less effective and very expensive. You'll still have to
 pay for bigger machines. The nature of the cloud is time sharing so you still
 will not get the best performance. When it comes down to it, you're paying a lot
-of money to get a sub par level of service while still needing more performance.
+of money to get a subpar level of service while still needing more performance.
 
 So, what happens when the cloud is just not enough?
 
