@@ -100,10 +100,8 @@ performing in one view:
 
 ### How we used our dashboard to understand CephFS in the cloud
 
-![osd-journal-latency-graph-one-day](/images/blogimages/osd-journal-latency-one-day.png)
 
-Here, you can see OSD Journal Latency for one day. Go back a week, as shown below, 
-and you can see how over the last 7 days shown, we had a spike. 
+Below, you can see OSD Journal Latency. You can see how, over the last 7 days shown, we had a spike. 
 
 ![osd-journal-latency-one-week](/images/blogimages/osd-journal-latency-one-week.png)
 
@@ -139,11 +137,11 @@ data to make informed decisions with.
 1. There is a threshold of performance on the cloud and if you need more, you will have to pay a lot more, be punished with latencies, or leave the cloud.
 1. Moving to dedicated hardware is more economical and reliable for the scale and performance of our application.
 1. Building an observable system by pulling and aggregating performance data into understandable dashboards helps us spot non-obvious trends and correlations, leading to addressing issues faster.
-1. Monitoring some things can be really application specific which is why we are building our own gitlab-monitor Prometheaus exporter. We plan to ship this with GitLab CE soon.
+1. Monitoring some things can be really application specific which is why we are [building our own gitlab-monitor Prometheaus exporter][prom-exporter]. We plan to ship this with GitLab CE soon.
 
 <!-- identifiers -->
 
-[gitlab-dashboard-code]: 
-[infra-post]: /2016/26/infrastructure-update/
+[infra-post]: https://about.gitlab.com/2016/09/26/infrastructure-update/
+[prom-exporter]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481
 [prometheus]: https://prometheus.io/
 [space-time-article]: https://blog.codinghorror.com/the-infinite-space-between-words/
