@@ -1904,6 +1904,19 @@
           or exploring latest Linux distro or watching tech reviews on YouTube or playing acoustic guitar,
           or on a short road trip to a hill nearby.
 
+- name: Rebecca Dodd
+  locality: London
+  country: United Kingdom
+  role: Content Editor
+  reports_to: Content Lead
+  picture: rebecca-dodd.jpg
+  twitter: Reberoodle
+  gitlab: rebeccad
+  story: |
+         Originally from Cape Town, South Africa, Rebecca found her way to GitLab from consumer journalism via content marketing. A self-proclaimed word nerd with a special fondness for 90s adventure games, Rebecca is on a mission to bring GitLab content to a wider audience. Outside of work, she's probably queueing at one of London's latest hipster restaurant openings.
+ 
+
+
 - name: S.B.
   locality:
   country:
