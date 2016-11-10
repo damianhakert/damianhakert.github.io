@@ -20,7 +20,7 @@ For more information about ALMtoolbox, please visit:
 
 * http://www.almtoolbox.com/gitlab.php
 * https://www.facebook.com/almtoolbox/
-* [ALMtoolbox website](https://www.linkedin.com/company/207805 
+* https://www.linkedin.com/company/207805 
 * https://www.youtube.com/almtoolbox 
 * https://twitter.com/almtoolbox  
 
