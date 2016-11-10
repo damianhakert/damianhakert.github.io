@@ -137,7 +137,7 @@ data to make informed decisions with.
 1. There is a threshold of performance on the cloud and if you need more, you will have to pay a lot more, be punished with latencies, or leave the cloud.
 1. Moving to dedicated hardware is more economical and reliable for the scale and performance of our application.
 1. Building an observable system by pulling and aggregating performance data into understandable dashboards helps us spot non-obvious trends and correlations, leading to addressing issues faster.
-1. Monitoring some things can be really application specific which is why we are [building our own gitlab-monitor Prometheaus exporter][prom-exporter]. We plan to ship this with GitLab CE soon.
+1. Monitoring some things can be really application specific which is why we are [building our own gitlab-monitor Prometheus exporter][prom-exporter]. We plan to ship this with GitLab CE soon.
 
 <!-- identifiers -->
 
