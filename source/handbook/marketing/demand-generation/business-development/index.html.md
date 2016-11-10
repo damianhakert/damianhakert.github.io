@@ -58,7 +58,7 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 1. The GitLab [Genral Onboarding Issue](https://dev.gitlab.org) will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals.
 
-1. The [BDR Onboarding Issue](https://https://about.gitlab.com/handbook/marketing/demand-generation/business-development/bdr-onboarding-checklist.html) will more specifically bring you up to speed with your role as a BDR. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
+1. The [BDR Onboarding Issue](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/bdr-onboarding-checklist.html) will more specifically bring you up to speed with your role as a BDR. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
 
 ### Process/workflow<a name="bdring"></a>
 
@@ -224,12 +224,12 @@ Your messaging for each one will be different. An end user or lower level develo
     Confirm that they are the right person
     “I understand you are in charge of application/program development, is that correct?
 
+    Initial Benefit Statement example
+    "GitLab is an end-to-end developer lifecycle solution that allows developers to collaborate on code, project management, and to create a seamless workflow between teams across the entire org"
+
     Schedule meeting
     "Do you have 15 minutes on (specific day and time) to discuss your (example - developer life cycle)?"
-
-    Initial Benefit Statement example
-
-       - GitLab is an end-to-end developer lifecycle solution that allows developers to collaborate on code, project management, and to create a seamless workflow between teams across the entire org.
+      
 
 #### Qualifying<a name="inboundQualify"></a>
 
