@@ -1,7 +1,7 @@
 ---
 title: "How We Knew It Was Time to Leave the Cloud"
 author: Pablo Carranza
-author_twitter: @psczg
+author_twitter: psczg
 categories: inside GitLab
 image_title: '/images/unsplash/data.png'
 description: "How we're solving storage and performance issues as we scale."
@@ -26,7 +26,7 @@ waiting for that operation alone, and the whole file system is blocked. When thi
 all of the hosts halt, and you have a locked file system; no one can read or 
 write anything and that basically takes everything down. 
 
-(osd-journal-latency)[]
+![osd-journal-latency](/images/blogimages/osd-journal-latency.png)
 
 What we learned is that when you get into the consistency, accessibility, and 
 partition tolerance (CAP) of CephFS, it will just give away availability in 
@@ -80,10 +80,8 @@ and reliable as we will have more ownership of the entire infrastructure.
 
 ## How We Proactively Uncover Issues 
 
-![gitlab-dashboard](place-holder)
-
 At GitLab, we are able to proactively uncover issues like this because we are 
-[building an observable system][gitlab-dashboard-code] as a way to understand how 
+building an observable system as a way to understand how 
 our system behaves. The machine is doing a lot of things, most of which we are 
 not even aware of. To get a deeper look at what's happening, we gather data and
 metrics into a Prometheus to build dashboards and observe trends. 
@@ -96,18 +94,18 @@ lot of data in one screen and read it with a simple glance.
 For example, our fleet overview dashboard shows how many different workers are
 performing in one view:
 
-![workers-load]
+![workers-load](images/blogimages/workers-load.png)
 
-![workers-wait]
+![workers-wait](images/blogimages/workers-wait.png)
 
 ### How we used our dashboard to understand CephFS in the cloud
 
-![osd-journal-latency-graph-one-day]()
+![osd-journal-latency-graph-one-day](/images/blogimages/osd-journal-latency-one-day.png)
 
 Here, you can see OSD Journal Latency for one day. Go back a week, as shown below, 
 and you can see how over the last 7 days shown, we had a spike. 
 
-![osd-journal-latency-one-week]()
+![osd-journal-latency-one-week](/images/blogimages/osd-journal-latency-one-week.png)
 
 This is how much time we spent trying to write to this journal disk. In general, 
 we roughly perform commit data to this journal within 2 to 12 seconds. You can 
