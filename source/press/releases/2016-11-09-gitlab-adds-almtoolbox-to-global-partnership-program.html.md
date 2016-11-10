@@ -28,4 +28,4 @@ About GitLab’s Global Partner Program
  
 At GitLab we pride ourselves on our global diversity, and GitLab's reseller program aims to expand upon that by helping to provide a local community for GitLab in regions around the world. The advantages to our users to having local representation is huge; with culturally contexted sales, support and services provided by our partners' local teams.  The teams at our partners are trained and supported by us, so our users around the globe will be able to get the best service possible.  
  
-For information on joining the partner team at GitLab, please [contact our sales team](Sales@GitLab.com).
+For information on joining the partner team at GitLab, please [contact our sales team](https://about.gitlab.com/sales/).
