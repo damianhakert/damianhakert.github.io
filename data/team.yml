@@ -1917,16 +1917,21 @@
  
 
 
-- name: S.B.
-  locality:
-  country:
+- name: Sasha Bannister
+  locality: Indianapolis, IN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
   reports_to: Senior Director of People Operations
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: sashapic.jpg
+  twitter: SashaFrisbee
+  gitlab: sashab
   story:  |
-          Joining November 7th
+          Sasha is a people person through and through. She loves recruiting, building great teams,
+          and learning from all of the candidates along the way. She's worked as a recruiter for large and small 
+          companies, but always with a focus on technology. After being born and raised in Indiana she 
+          is currently trying to do a tour of the U.S. on the hunt for her next place to live! If she's 
+          not at her desk she's probably playing with puppies, face timing family, or planning her next
+          trip!
 
 - name: J.I.V.L.
   locality:
