@@ -5,7 +5,7 @@ title: "GitLab adds ALMtoolbox to Global Partnership Program"
 
 This should help customers in Israel adopt DevOps best practices in order to bring their products to market faster
 
-San Francisco November 9th, 2016 – GitLab today announced a partnership with ALMtoolbox, a leading authority on application lifecycle management, development tools, and consulting services based in Israel. ALMtoolbox will now sell and support GitLab products as part of their portfolio. Headquartered in Israel, ALMtoolbox has been providing products and services that enable agile development, continuous delivery and DevOps for more than five years. 
+San Francisco (November 9th, 2016) – GitLab today announced a partnership with ALMtoolbox, a leading authority on application lifecycle management, development tools, and consulting services based in Israel. ALMtoolbox will now sell and support GitLab products as part of their portfolio. Headquartered in Israel, ALMtoolbox has been providing products and services that enable agile development, continuous delivery and DevOps for more than five years. 
 
 “GitLab will bring an end-to-end ALM system that is Git-based and has a single UI - This will allow us to provide professional services, training, and development of missing features,” says CEO and founder Tamir Gefen. “From startups to enterprises, we see a bright future here for many software shops.”
 
@@ -17,9 +17,10 @@ About ALMtoolbox
 ALM Toolbox provides productivity plugins for for IBM Rational ClearCase and ALM professional consulting services. Their reputation is built upon many years of experience in all aspects of software development, automating configuration management (CM) and application lifecycle management (ALM) processes and system administration on variety of platforms. 
 
 For more information about ALMtoolbox, please visit:
-* http://www.almtoolbox.com/gitlab.php 
-* https://www.facebook.com/almtoolbox/ 
-* https://www.linkedin.com/company/207805 
+
+* http://www.almtoolbox.com/gitlab.php
+* https://www.facebook.com/almtoolbox/
+* [ALMtoolbox website](https://www.linkedin.com/company/207805 
 * https://www.youtube.com/almtoolbox 
 * https://twitter.com/almtoolbox  
 
