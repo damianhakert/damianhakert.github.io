@@ -18,11 +18,11 @@ ALM Toolbox provides productivity plugins for for IBM Rational ClearCase and ALM
 
 For more information about ALMtoolbox, please visit:
 
-* http://www.almtoolbox.com/gitlab.php
-* https://www.facebook.com/almtoolbox/
-* https://www.linkedin.com/company/207805 
-* https://www.youtube.com/almtoolbox 
-* https://twitter.com/almtoolbox  
+* [http://www.almtoolbox.com/gitlab.php](http://www.almtoolbox.com/gitlab.php)
+* [https://www.facebook.com/almtoolbox/](https://www.facebook.com/almtoolbox/)
+* [https://www.linkedin.com/company/207805](https://www.linkedin.com/company/207805) 
+* [https://www.youtube.com/almtoolbox](https://www.youtube.com/almtoolbox) 
+* [https://twitter.com/almtoolbox](https://twitter.com/almtoolbox)  
 
 About GitLab’s Global Partner Program
  
