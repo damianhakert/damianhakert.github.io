@@ -1983,3 +1983,14 @@
   gitlab:
   story:  |
           Joining November 21st
+
+- name: C.D.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: BDR Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining December 1st         
