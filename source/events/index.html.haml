@@ -1,0 +1,77 @@
+---
+layout: default
+title: Events
+suppress_header: true
+extra_css:
+  - events.css
+extra_font:
+  - "Roboto+Slab"
+---
+
+.page-container.event-headline-container.text-center.animated
+  .container
+  %h1.page-headline
+    Lorem Ipsum Event Headline goes here
+  %h3.subheader
+    Tagline about events goes here
+  .row
+    .col.md-4.col-md-offset-4.text-center
+      .col-md-6
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .col.md-6
+        %h4
+          Gitlab World Tour-London
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+.page-container.upcoming-events.text-center.animated
+  .container
+    %h1.page-headline
+      Upcoming Events
+    %h3.subheader
+      Tagline about upcoming events goes here
+  .row
+    %ul.event-list{role: "navigation"}
+      -data.events.each do |event|
+        %li
+          .event-headers
+            -# The event title and dates
+            %h2.event-topic
+              = event.topic
+            %h2.event-date
+              = event.date
+            .clear-floats
+          .event-subheaders
+            -# The event type and location
+            %h3.event-type
+              = event.type
+            %h3.event-location
+              = event.location
+            .clear-floats
+          %div
+            %p.event-description{style: "width:80%"}
+              = event.description
+          .event-buttons
+            -# Social buttons
+            .buttons
+              %button.btn.featured-item-button-events{type:"button"}
+                Join Us!
+              %button.btn.featured-item-button-events{type:"button", style:"margin-left:15px;"}
+                Learn More
+            .clear-floats
+          .social-tags
+            -#The social networking jazz tags
+            -event.social_tags.split(",").each do |tag|
+              %span.social-tag
+                ="#" + tag.gsub(/\s+/, "")

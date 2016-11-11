@@ -1,0 +1,140 @@
+@import "variables";
+@import "vendor/bootstrap/bootstrap/variables";
+
+.container {
+  position: relative;
+  z-index: 9;
+}
+
+.event-headline-container{
+  background: $color-primary-alt;
+  padding-top: 40px;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 80px;
+  }
+
+  .page-headline{
+    margin-bottom: 0;
+  }
+
+  .image{
+    min-height:350px;
+    background: #3d3d3d;
+  }
+}
+
+
+.upcoming-events{
+  background: $color-white;
+  padding-top: 40px;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 80px;
+  }
+
+  .page-headline{
+    margin-bottom: 0;
+    color: $color-primary;
+  }
+
+  ul.event-list{
+    width: 75%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0px;
+    text-align: left;
+
+    @media (min-width: 360px) {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    li{
+      .event-headers{
+        .event-topic{
+          float: left;
+        }
+        .event-date{
+          float: right;
+        }
+        color: $color-primary;
+        font-weight: 400;
+      }
+      .event-subheaders{
+        .event-type{
+          float: left;
+        }
+        .event-location{
+          float: right;
+        }
+        color:$color-dark;
+        font-weight: 200;
+      }
+      .event-description{
+        font-size: 20px;
+        text-align: left;
+      }
+      @media(min-width: 360px){
+        font-size: 16px;
+        text-align: left;
+      }
+
+    }
+    li:not(:last-child){
+      border-bottom: 1px solid $color-gray-light;
+    }
+    @media(min-width: 360px){
+      li:not(:last-child){
+        border-bottom: 1px solid $color-gray-extra-light;
+      }
+    }
+  }
+  .event-buttons{
+    .buttons{
+      float: right;
+      text-align: right;
+    }
+    @media (min-width: 360px) {
+      .buttons{
+        float: none;
+        text-align: center;
+      }
+    }
+
+  }
+  .social-tags{
+    margin-bottom: 30px;
+  }
+  .social-tag{
+    font-weight: bold;
+    font-size: 16px;
+    color: $color-dark;
+    padding-right: 5px;
+  }
+  @media (min-width: 360px) {
+    .social-tag{
+      font-size: 12px;
+      padding-right: 3px;
+    }
+  }
+
+}
+
+.subheader{
+  margin-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: $color-gray-light;
+  font-weight: 400;
+  font-size: 20px;
+
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: 75px;
+  }
+}
+
+
+.clear-floats{
+  clear:both;
+}
