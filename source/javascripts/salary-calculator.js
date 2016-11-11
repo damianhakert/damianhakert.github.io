@@ -59,7 +59,9 @@
       var $cityDropdown = $(salaryContainer + ' .city li:not(.filter-container)');
       var $cityDropdownContainer = $(salaryContainer + ' .city');
       var $levelDropdown = $(salaryContainer + ' .level li');
+      var $levelDropdownContainer = $(salaryContainer + ' .level');
       var $experienceDropdown = $(salaryContainer + ' .experience li');
+      var $experienceDropdownContainer = $(salaryContainer + ' .experience');
       var $countryFilter = $('.js-country-filter');
       var $cityFilter = $('.js-city-filter');
 
@@ -84,8 +86,8 @@
       $experienceDropdown.on('click', this.renderFormula.bind(this));
 
       // Highlighting for Dropdown
-      $(salaryContainer + ' .level').on('keydown', this.highlightDropdownItem.bind(this));
-      $(salaryContainer + ' .experience').on('keydown', this.highlightDropdownItem.bind(this));
+      $levelDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+      $experienceDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
 
       // Highlighting for Filter
       $countryDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
@@ -154,10 +156,11 @@
 
           list.removeClass('is-focused');
 
-          if (prevLi[0] === list.first()[0])
+          if (prevLi[0] === list.first()[0]) {
             list.first().addClass('is-focused');
-          else
+          } else {
             prevLi.addClass('is-focused');
+          }
         } else if (e.keyCode === 40 && !list.last().hasClass('is-focused')) { // Down
           nextLi = list
                     .filter('li.is-focused')
@@ -165,10 +168,13 @@
 
           list.removeClass('is-focused');
 
-          if (nextLi[0] === list.last()[0])
+          if (nextLi[0] === list.last()[0]) {
             list.last().addClass('is-focused');
-          else
+          } else {
             nextLi.addClass('is-focused');
+          }
+        } else if (e.keyCode === 9) { // Tab keyCode
+          $this.removeClass('open');
         } else if (e.keyCode === 13) { // Enter / Return
           // Triggering click directly while keydown is active
           // doesn't hide dropdown, this workaround does. Need better way :/
@@ -176,9 +182,10 @@
         }
 
         focusedLi = list.filter('li.is-focused');
-        if (list.first()[0] !== focusedLi[0]) {
-          if (!isFullyVisible(focusedLi, listContainer))
+        if (focusedLi.length && list.first()[0] !== focusedLi[0]) {
+          if (!isFullyVisible(focusedLi, listContainer)) {
             listContainer.scrollTop(list.index(focusedLi) * focusedLi.outerHeight());
+          }
         }
         else {
           listContainer.scrollTop(0);
