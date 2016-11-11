@@ -23,7 +23,7 @@ extra_js:
 
     .dev-cycle.hidden-xs.hidden-sm
       - data.development_cycle.each_with_index do |item, index|
-        .step{href: "#step-#{index+1}"}
+        .step
           = icon("home/icon-step-#{index + 1}")
           .step-name-container
             .step-name
