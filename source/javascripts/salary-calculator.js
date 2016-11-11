@@ -8,8 +8,8 @@
 
   // Dropdown Core functionality
 
-  var setDropdown = function(event) {
-    var $selected = $(event.currentTarget);
+  var setDropdown = function(e) {
+    var $selected = $(e.currentTarget);
 
     if ($selected.hasClass('filter-container')) {
       return;
@@ -107,12 +107,12 @@
       $cityDropdownContainer.on('shown.bs.dropdown', this.focusInput);
     }
 
-    SalaryCalculator.prototype.focusInput = function(event) {
-      $(event.target).find('.filter-input').focus();
+    SalaryCalculator.prototype.focusInput = function(e) {
+      $(e.target).find('.filter-input').focus();
     }
 
-    SalaryCalculator.prototype.search = function(data, event) {
-      var text = event.target.value.toLowerCase();
+    SalaryCalculator.prototype.search = function(data, e) {
+      var text = e.target.value.toLowerCase();
       var filterValue = null;
       var $items = $(salaryContainer + ' .' + data.dropdown + ' li:not(.filter-container)');
 
