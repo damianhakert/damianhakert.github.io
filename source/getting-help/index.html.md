@@ -12,6 +12,10 @@ title: "Getting Help with GitLab"
 
 ---
 
+## Account Support
+
+If you haven't received your confirmation email, you can request to resend your confirmation instructions via our [confirmation page](https://gitlab.com/users/confirmation/new).
+
 ## Technical Support
 
 For details on where to get Technical Support, and with what level of service, please see the [Support page](/support/).
