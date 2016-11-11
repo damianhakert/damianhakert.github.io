@@ -45,7 +45,7 @@ machine with others on the providers resources. As such, the provider has to
 ensure that everyone gets a fair slice of the time share. To do this, providers
 place performance limits and thresholds on the services they provide.
 
-On our server, GitLab can only perform 20,000 IOPS/ms but the low limit is 0.
+On our server, GitLab can only perform 20,000 IOPS but the low limit is 0.
 With this performance capacity, we became the "noisy neighbors" on the shared
 machines, using all of the resources. We became the neighbor who plays their
 music loud and really late. So, we were punished with latencies. Providers don't
@@ -84,7 +84,7 @@ At GitLab, we are able to proactively uncover issues like this because we are
 building an observable system as a way to understand how
 our system behaves. The machine is doing a lot of things, most of which we are
 not even aware of. To get a deeper look at what's happening, we gather data and
-metrics into a Prometheus to build dashboards and observe trends.
+metrics into Prometheus to build dashboards and observe trends.
 
 These metrics are in the depth of the kernel and not readily visible to humans.
 To see it, you need to build a system that allows you to pull, aggregate, and
@@ -110,7 +110,7 @@ we roughly perform commit data to this journal within 2 to 12 seconds. You can
 see where it jumps to 42 seconds to complete -- that delay is where we are being
 punished. The high spikes show GitLab.com is down.
 
-What's great about having this dashbaord is that there is a lot of data available
+What's great about having this dashboard is that there is a lot of data available
 quickly, in one place. Non-technical people can understand this. This is the
 level of insight into your system you want to aim for. You can build on your own
 with [Prometheus][prometheus]. We have been building this for the last month, it's close to the
@@ -137,7 +137,7 @@ data to make informed decisions with.
 1. There is a threshold of performance on the cloud and if you need more, you will have to pay a lot more, be punished with latencies, or leave the cloud.
 1. Moving to dedicated hardware is more economical and reliable for the scale and performance of our application.
 1. Building an observable system by pulling and aggregating performance data into understandable dashboards helps us spot non-obvious trends and correlations, leading to addressing issues faster.
-1. Monitoring some things can be really application specific which is why we are [building our own gitlab-monitor Prometheaus exporter][prom-exporter]. We plan to ship this with GitLab CE soon.
+1. Monitoring some things can be really application specific which is why we are [building our own gitlab-monitor Prometheus exporter][prom-exporter]. We plan to ship this with GitLab CE soon.
 
 <!-- identifiers -->
 
