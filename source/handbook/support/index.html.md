@@ -154,7 +154,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 - Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. (_this is helpful to be able to reach out and gain context etc_)
-   - Do not ["assign"](https://support.zendesk.com/hc/en-us/articles/203690956) tickets to the generic agent account, leave the assignee as the "group" (_these tickets will get lost_)
+   - Do not ["assign"](https://support.zendesk.com/hc/en-us/articles/203690956) tickets to the generic agent account, leave the assignee as the "group" (_otherwise these tickets will get lost_)
 
 
 ### Zendesk SLA settings and Breach alerts
