@@ -14,27 +14,28 @@ extra_font:
     Lorem Ipsum Event Headline goes here
   %h3.subheader
     Tagline about events goes here
-  .row
-    .col.md-4.col-md-offset-4.text-center
-      .col-md-6
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
-      .col.md-6
-        %h4
-          Gitlab World Tour-London
+  .row.featured-event-container
+    .col-md-6
+      .featured-event-image
+        = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
+    .col-md-6
+      %h2.featured-event-title
+        Gitlab World Tour - London
+      .featured-event-description
         %p
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-          esse cillum dolore eu fugiat nulla pariatur.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
+      %button.btn.btn-large.btn-yellow{type:"button"}
+        CTA
+
+
+
+
 .page-container.upcoming-events.text-center.animated
   .container
     %h1.page-headline
@@ -54,13 +55,13 @@ extra_font:
             .clear-floats
           .event-subheaders
             -# The event type and location
-            %h3.event-type
+            %h4.event-type
               = event.type
-            %h3.event-location
+            %h4.event-location
               = event.location
             .clear-floats
           %div
-            %p.event-description{style: "width:80%"}
+            %p.event-description
               = event.description
           .event-buttons
             -# Social buttons
@@ -75,3 +76,45 @@ extra_font:
             -event.social_tags.split(",").each do |tag|
               %span.social-tag
                 ="#" + tag.gsub(/\s+/, "")
+    .rad-event
+      %h1
+        Know about a rad event we should be at?
+      %h2
+        Again, drop us a line -- we'd love to be there with you
+      %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
+        Drop It Like It's Hot
+.page-container.missed-events.text-center.animated
+  %h1
+    Sorry we missed you, checkout these event recaps
+  %h2
+    Optional tagline about event recaps goes here
+  .row.event-recap
+    .col-md-4.image-card-container
+      .image-card
+        -#
+          placeholders!
+        = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
+        .image-card-text
+          Event recap title goes here
+    .col-md-4.image-card-container
+      .image-card
+        -#
+          placeholders!
+        = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 2"
+        .image-card-text
+          Event recap title goes here
+    .col-md-4.image-card-container
+      .image-card
+        -#
+          placeholders!
+        = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 3"
+        .image-card-text
+          Event recap title goes here
+  .row.rad-event-container
+    .rad-event-alt
+      %h1
+        Gitlab Diversity Scholarship
+      %h2
+        Optional tagline about the scholarship can go right here
+      %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
+        Learn More

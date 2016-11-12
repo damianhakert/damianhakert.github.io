@@ -6,6 +6,10 @@
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco
                laboris nisi ut aliquip ex ea commodo consequat.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco
+               laboris nisi ut aliquip ex ea commodo consequat.
   location: San Francisco, CA USA
   social_tags: Git,Conference,VersionControl,Presenter
 
@@ -18,7 +22,7 @@
                Ut enim ad minim veniam, quis nostrud exercitation ullamco
                laboris nisi ut aliquip ex ea commodo consequat.
   location: Austin, TX USA
-  social_tags: Git,Conference,VersionControl,Presenter    
+  social_tags: Git,Conference,VersionControl,Presenter
 
 - topic: Event Name Goes Here It Might be Really Really Long Like This
   type: GitLab HQ #Not sure how the event types are gonna be
