@@ -21,8 +21,7 @@ just competitors you're worried about but the rapid pace of advancement in
 technology that can pit products within a single company against each other. 
 Keep your head down too long on one project, and the rest of the development 
 world has not only moved onto something new, they're using a brand new 
-set of tools you've never heard of to build it. Meanwhile, you're 
-still coding in C++. 
+set of tools you've never heard of to build it.
 
 <!-- more --> 
 
