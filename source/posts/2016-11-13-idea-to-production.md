@@ -28,3 +28,12 @@ GitLab comes with everything to bring your ideas to production from the box. Thi
 Enough words, below the unedited, continuous video over which I recorded audio:
 
 ![]()
+
+## Today
+
+Only the terminal is not available in GitLab yet. _All other functionality shown in the video is available with GitLab 8.14, due Nov. 22nd._
+
+To replicate the above, you'll have to have a live Openshift environment
+running. We believe Kubernetes is the future of application lifecycle
+management and will work hard on supporting other providers such as Mesosphere
+on the short term.
