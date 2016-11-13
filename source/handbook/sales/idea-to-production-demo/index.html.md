@@ -115,7 +115,7 @@ Of course this is just a static file and not an application yet, but since we’
 
 ### Add Openshift credentials to CI
 
-We can simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) at some point but in the short term we have a TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and a TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
+We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
