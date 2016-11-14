@@ -1,5 +1,5 @@
 ---
-title: "From Idea to Production in under 13 minutes"
+title: "In 13 minutes from Kubernetes to a complete application developement tool"
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: ''
@@ -7,33 +7,67 @@ description: ""
 twitter_image: ''
 ---
 
-When we raised our B-round this September we revealed our Master Plan: the ambition to go help the world go faster from idea to production with GitLab.
+## We promised to implement our master plan before the end of the year
 
-Today, I want to show you what we've been working on since then. In under 13 minutes I will install GitLab and deploy a simple website with production-ready workflow. In detail, I will:
+When we raised our B-round this September we revealed our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/): the ambition to go help the world go faster from idea to production with GitLab. We showed a [faked demo montage](https://youtu.be/ZRcWCWatdas) of how that would work. We promised to release this before the end of the year. Today I want to show you our progress to date.
 
-- deploy GitLab, Mattermost and auto-scaling GitLab CI using Openshift _from scratch_
-- Set up a website that deploys to Kubernetes
-- Create an issue from Mattermost
-- Plan this issue using Issue Boards
-- Edit the website that is deployed on staging using a built-in terminal in GitLab
-- Commit changes to a new branch and create a merge request
-- Review these changes before merging them into master
-- See the proposed changes live in a Review App
-- Merge the changes into master and see them deployed on staging
-- Deploy staging to production from chat
-- Review my cycle time with Cycle Analytics
+<!-- more -->
 
-GitLab comes with everything to bring your ideas to production from the box. This means you no longer have to spend time integrating many different apps. You no longer need to maintain these apps and integrations. There's no need for managing authentications and authorizations and you'll get feedback on where to improve your process.
+## The 13 minute demo of what would normally take days
 
-Enough words, below the unedited, continuous video over which I recorded audio:
+In the video below I will install GitLab and deploy a simple application from idea to production in less than 13 minutes.
+The demo video consists of the following steps:
 
-![]()
+1. Install GitLab, Mattermost and auto-scaling GitLab CI on Openshift _from scratch_
+1. Set up a project to use GitLab CI and deploy to Kubernetes
+1. Create an issue from Mattermost chat
+1. Plan this issue using Issue Boards
+1. Use the built-in terminal in GitLab to access the container
+1. Commit changes to a new branch and create a merge request
+1. Review these changes before merging them into master
+1. See the proposed changes live in a Review App
+1. Merge the changes into master and see them deployed on staging
+1. Deploy staging to production from chat
+1. Review my cycle time with Cycle Analytics
 
-## Today
+Below is the unedited, continuous video over which I recorded audio:
 
-Only the terminal is not available in GitLab yet. _All other functionality shown in the video is available with GitLab 8.14, due Nov. 22nd._
+![](https://www.youtube.com/watch?v=C8PvsIEk4rU)
 
-To replicate the above, you'll have to have a live Openshift environment
-running. We believe Kubernetes is the future of application lifecycle
-management and will work hard on supporting other providers such as Mesosphere
-on the short term.
+More than half of the demo is spend on the first two steps of installing GitLab and setting up the project.
+If you want to skip right to the idea to production cycle go to 6:30 in the video:
+
+![](https://www.youtube.com/watch?v=C8PvsIEk4rU&t=6m30s)
+
+## Advantages of an integrated setup
+
+If you need to set up self-hosted tools to do autoscaling CI, chatops, a container registry, and review apps on Kubernetes without GitLab you're likely spending days to install and connect the tools and script.
+GitLab comes with everything to bring your ideas to production from the box. This means you:
+
+- Can install and integrate everything in minutes
+- You no longer need to maintain separate apps and all their integrations
+- Less time spend managing authentications and authorizations, for example between CI and the private container registry
+- Have everything in one interface
+- Have a complete overview from idea to production that allows you to improve your cycle time
+
+## Replicating the demo
+
+To replicate the demo you need an Openshift origin environment.
+The [demo script](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) is public and the RedHat OpenShift template is linked from our [installation page](https://about.gitlab.com/installation/).
+We believe container schedulers such as Kubernetes are the future of application lifecycle management and are working on Mesosphere support.
+We would love it if people would contribute support for other container schedulers such as Docker Swarm and for other Kubernetes providers such as Tectonic.
+
+## Move to the left
+
+If you visualize the flow from development to production as something from left to right there is a trend to 'move to the left'.
+This means that what was standard practise later in the flow becomes the new practise earliers.
+For example CI used to be run on the machine of the developer, now most CI is run elsewhere.
+We think that developer environments will start to resemble production environments in that they run on the container scheduler.
+GitLab will make sure that we allow easy access to them from [a terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864) and a [local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
+
+## Christmas is coming
+
+Most functionality shown in the video such as review apps will be available with GitLab 8.14, due Nov. 22nd.
+We have a lot we still want to build and improve, see our TODO's in our [demo script](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) and the [issues for them](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production).
+We plan to ship everything including terminal access in GitLab 8.15, due just before Christmas.
+Let's end the year with a bang.
