@@ -4,10 +4,9 @@ author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/default-blog-image.png'
 description: "How GitLab gets you from idea to production"
-twitter_image: ''
 ---
 
-## We promised to implement our master plan before the end of the year
+**We promised to implement our master plan before the end of the year**
 
 When we raised our B-round this September we revealed our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/):
 the ambition to help the world go faster from idea to production with GitLab.
@@ -37,13 +36,11 @@ The demo video consists of the following steps:
 
 Below is the unedited, continuous video over which I recorded audio:
 
-![](https://www.youtube.com/watch?v=a7OIQfOJO-0)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/a7OIQfOJO-0" frameborder="0" allowfullscreen></iframe>
 
 More than half of the demo is spend on the first two steps of installing GitLab
 and setting up the project. If you want to skip right to the idea to production
-cycle go to 6:30 in the video:
-
-![](https://www.youtube.com/watch?v=a7OIQfOJO-0&t=6m30s)
+cycle [go to 6:30 in the video](https://www.youtube.com/watch?v=a7OIQfOJO-0&t=6m30s).
 
 ## Advantages of an integrated setup
 
