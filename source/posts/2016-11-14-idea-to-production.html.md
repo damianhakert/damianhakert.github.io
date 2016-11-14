@@ -6,6 +6,8 @@ image_title: '/images/default-blog-image.png'
 description: "How GitLab gets you from idea to production"
 ---
 
+{::options parse_block_html="true" /}
+
 **We promised to implement our master plan before the end of the year**
 
 When we raised our B-round this September we revealed our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/):
@@ -92,3 +94,8 @@ We have a lot we still want to build and improve, see our TODO's in our [demo sc
 We plan to ship everything including terminal access in GitLab 8.15, due just
 before Christmas.
 Let's end the year with a bang.
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+Have more questions? Join me live on November 23 10am PST/6pm GMT for open office hours. [Watch the live stream.][https://www.youtube.com/watch?v=njP8Wvp45o0]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
