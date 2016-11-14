@@ -34,13 +34,13 @@ The demo video consists of the following steps:
 1. See the proposed changes live in a Review App
 1. Merge the changes into master and see them deployed on staging
 1. Deploy staging to production from chat
-1. Review my cycle time with Cycle Analytics
+1. Review the cycle time with Cycle Analytics
 
 Below is the unedited, continuous video over which I recorded audio:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/a7OIQfOJO-0" frameborder="0" allowfullscreen></iframe>
 
-More than half of the demo is spend on the first two steps of installing GitLab
+More than half of the demo is spent on the first two steps of installing GitLab
 and setting up the project. If you want to skip right to the idea to production
 cycle [go to 6:30 in the video](https://www.youtube.com/watch?v=a7OIQfOJO-0&t=6m30s).
 
@@ -49,22 +49,22 @@ cycle [go to 6:30 in the video](https://www.youtube.com/watch?v=a7OIQfOJO-0&t=6m
 If you need to set up self-hosted tools to do autoscaling CI, chatops,
 a container registry, and review apps on Kubernetes without GitLab you're
 likely spending days to install and connect the tools and script.
-GitLab comes with everything to bring your ideas to production from the box.
+GitLab comes with everything to bring your ideas to production out of the box.
 This means you:
 
 - Can install and integrate everything in minutes
-- You no longer need to maintain separate apps and all their integrations
-- Less time spend managing authentications and authorizations,
+- No longer need to maintain separate apps and all their integrations
+- Have less time spent managing authentications and authorizations,
 for example between CI and the private container registry
 - Have everything in one interface
 - Have a complete overview from idea to production that allows you to improve your cycle time
 
 ## Replicating the demo
 
-To replicate the demo you need an Openshift origin environment.
+To replicate the demo you need a private Openshift origin environment.
 The [demo script](https://about.gitlab.com/handbook/sales/idea-to-production-demo/)
 is public and the RedHat OpenShift template is linked from our
-[installation page](https://about.gitlab.com/installation/).
+[installation page](/installation/).
 
 We believe container schedulers such as Kubernetes are the future of
 application lifecycle management and are working on Mesosphere support.
@@ -89,7 +89,7 @@ GitLab will make sure that we allow easy access to them from
 
 Most functionality shown in the video such as review apps will be available with GitLab 8.14, due Nov. 22nd.
 
-We have a lot we still want to build and improve, see our TODO's in our [demo script](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) and the [issues for them](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production).
+We have a lot we still want to build and improve, see our TODO's in our [demo script](/handbook/sales/idea-to-production-demo/) and the [issues for them](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production).
 
 We plan to ship everything including terminal access in GitLab 8.15, due just
 before Christmas.
