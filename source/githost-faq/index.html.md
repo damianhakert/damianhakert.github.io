@@ -121,3 +121,8 @@ Subscriptions plans are prorated to the nearest minute and charged monthly.
 ### Can I purchase an annual subscription to GitLab Enterprise Edition and GitHost?
 
 Yes. Please [contact our sales team](/sales).
+
+### Are other server side integrations available for my GitHost instance?
+
+We're working on integrating many of these features into GitHost but if you'd like
+to request one in particular feel free to open an issue at https://gitlab.com/gitlab-com/githost.
