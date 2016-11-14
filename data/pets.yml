@@ -153,6 +153,10 @@
   picture: luna.jpg
   human: cindy
   story: Luna is passionate about laying under desks and has been classicaly trained in the art of rubber duck debugging, mostly acting the part of the rubber duck. She enjoys treats, cuddles, walks, and the word "food".
+- name: Orbit
+  picture: orbit.jpg
+  human: ja-me-sk
+  story: Dreaming of her future mission to space.
 
 - name: You?
   picture: ../logo-extra-whitespace.png
