@@ -122,14 +122,13 @@ The descriptions on the [labels page][labels-page] explain what falls under each
 
 ### Priority labels
 
-To manually assign priority to specific features, there are labels such as `P1`, `P2`, `P3`.
+To manually assign priority to specific features, there are labels such as `deliverables` and `stretch`.
 These are assigned by leads and product to indicate overruling priority, and are to be used carefully.
 
 Right now, these are in use:
 
-- `P1`: Critical. Above all, this should be worked on this milestone. Reserved for only a handful of issues.
-- `P2`: Must. Must be finished this milestone
-- `P3`: Should. Should be finished this milestone.
+- `deliverables`: We are committed to be delivering this feature in this release.
+- `stretch`: If not done in current release, strongly consider for deliverables in the next release
 
 All other issues are nice to land in a milestone, but not necessarily expected to do so.
 They will be naturally ordered by the prioritized type labels.
