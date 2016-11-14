@@ -406,6 +406,21 @@ directly and link to it.
 
 [stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
+## Private tools and dashboards for monitoring and KPI tracking
+
+[EE usage](https://version.gitlab.com/): dev.gitlab.org account
+
+[Grafana](http://performance.gitlab.net): Google gitlab.com account
+
+[Kibana](https://log.gitlap.com): dev.gitlab.org account
+
+[LogTrail](https://log.gitlap.com): dev.gitlab.org account
+
+[Piwik](https://piwik.gitlab.com): GitLab 1Password account
+
+[S3stat](https://www.s3stat.com): GitLab 1Password account
+
+[Sentry](https://sentry.gitlap.com): dev.gitlab.org account
 # Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
