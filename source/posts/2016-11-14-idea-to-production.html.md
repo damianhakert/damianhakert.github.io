@@ -96,6 +96,6 @@ before Christmas.
 Let's end the year with a bang.
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Have more questions? Join me live on November 23 10am PST/6pm GMT for open office hours. [Watch the live stream.][https://www.youtube.com/watch?v=njP8Wvp45o0]!
+Have more questions? Join me live on November 23 10am PST/6pm GMT for open office hours. [Watch the live stream.](https://www.youtube.com/watch?v=njP8Wvp45o0)!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
