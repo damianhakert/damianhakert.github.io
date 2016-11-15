@@ -4,6 +4,7 @@
   outline: 0;
   border-radius: 3px;
   transition: all .3s;
+  color: $search-input-font-color;
 
   @media (min-width: $screen-md-min) {
     font-size: 16px;
