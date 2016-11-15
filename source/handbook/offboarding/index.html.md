@@ -179,8 +179,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ### FOR CORE TEAM MEMBERS ONLY
 
 1.  [ ] People Ops: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
-2.  [x] _not relevant, People Ops: Have member sign NDA.
-3.  [ ] People Ops: Remove member to #core in Slack.  
-4.  [ ] People Ops: Remove member developer access to gitlab-org.
+1.  [x] _not relevant, People Ops: Have member sign NDA.
+1.  [ ] People Ops: Remove member to #core in Slack.  
+1.  [ ] People Ops: Remove member developer access to gitlab-org.
+1.  [ ] People Ops: Make inactive from BambooHR
 
 ```
