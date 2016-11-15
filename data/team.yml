@@ -1958,3 +1958,14 @@
   gitlab:
   story:  |
           Joining November 14th
+
+- name: B.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
+  reports_to: Build Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 16th
