@@ -6,6 +6,9 @@ categories: feature
 image_title:
 description:
 ---
+
+{::options parse_block_html="true" /}
+
 Let's talk about deploys. When a developer starts out with a new idea for an application, they'll typically start working locally, where running the app is as simple as typing `rails server` or `npm start`. But at some point, you need to deploy that app somewhere so that other people, hopefully paying customers, can use it. An easy place to start is to deploy to Heroku or maybe you're using a massive Kubernetes cluster, but really, there are tons of options out there. This post is not about those options. It's about deployment strategy.
 
 <!-- more -->
@@ -121,3 +124,8 @@ stop_review:
 ```
 
 Experimental support for Review Apps is available now with creating dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps is available for free in GitLab CE, EE, and on GitLab.com.
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+Don't miss our upcoming GitLab 8.14 Release Webcast: Completing the Idea to Production Vision. We'll live demo Review Apps and Time Tracking for EE. [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
