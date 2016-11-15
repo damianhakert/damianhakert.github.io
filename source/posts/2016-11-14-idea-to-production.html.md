@@ -40,6 +40,8 @@ Below is the unedited, continuous video over which I recorded audio:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/a7OIQfOJO-0" frameborder="0" allowfullscreen></iframe>
 
+<br />
+
 More than half of the demo is spent on the first two steps of installing GitLab
 and setting up the project. If you want to skip right to the idea to production
 cycle [go to 6:30 in the video](https://www.youtube.com/watch?v=a7OIQfOJO-0&t=6m30s).
