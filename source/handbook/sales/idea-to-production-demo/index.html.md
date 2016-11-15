@@ -207,7 +207,7 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 ## Code (Terminal)
 
-TODO: [Use a Dockerfile that includes `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
+TODO: [Demo with a rails application instead of a static website](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
