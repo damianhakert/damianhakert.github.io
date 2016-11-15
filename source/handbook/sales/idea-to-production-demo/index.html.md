@@ -33,6 +33,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 ## Preparation
 
 > * You need a working OpenShift Origin installation
+>   * Our installation runs OpenShift Master v1.3.1 and Kubernetes Master v1.3.0+52492b4
 > * Login to OpenShift
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
