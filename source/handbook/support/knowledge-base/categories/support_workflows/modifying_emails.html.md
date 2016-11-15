@@ -40,8 +40,8 @@ Email address for an account can be changed via the GitLab.com Users Admin area.
 1. Login into mailgun.com using `supportteam` credentials in Support vault.
 2. Go to https://mailgun.com/app/logs/mg.gitlab.com
 3. Search logs for the particular email address and see if email is being bounced or delayed.
-4. Respond to the user and ask them to wait for a few hours.
-5. If the email is bounced, we ask the user to provide a different email address.
+    + If email is delayed, respond to the user and ask them to wait.
+    + If email is bounced, we remove the email from the suppressions list here: https://mailgun.com/app/suppressions/mg.gitlab.com/bounces
 
 ##### Account has data
 
