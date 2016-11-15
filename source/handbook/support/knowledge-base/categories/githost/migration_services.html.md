@@ -29,10 +29,9 @@ Only the following GitLab instances can be migrated.
 
 The customer will need to run a backup of their existing instance by using the [backup Rake](doc.gitlab.com/ee/raketasks/backup_restore.html) task.
 
-1. Verify the GitLab version matches the latest version
-   1. `sudo gitlab-rake gitlab:env:info`
-1. Request the customer creates a new backup:
-   1. `sudo gitlab-rake gitlab:backup:create`
+1. Verify the GitLab version matches the latest version - `sudo gitlab-rake gitlab:env:info`
+1. Request the customer creates a new backup (following the steps below):
+   1. Create a new backup - `sudo gitlab-rake gitlab:backup:create`
    1. The new backup will be located at `/var/opt/gitlab/backups/{{TIMESTAMP}}_gitlab_backup.tar`
    1. Backup `/etc/gitlab/gitlab-secrets.json`
    1. Compress both the `gitlab_backup.tar` file and `gitlab-secrets.json` file.
