@@ -6,21 +6,19 @@ categories: feature
 image_title:
 description:
 ---
-Let's talk about deploys. When a developer starts out with a new idea for an application, they'll typically start working locally when running the app is as simple as typing `rails server` or `npm start`. But at some point, you need to deploy that app somewhere so that other people, hopefully paying customers, can use it. An easy place to start is to deploy to Heroku or maybe you're using a massive Kubernetes cluster, but really, there are tons of options out there. This post is not about those options. It's about deployment strategy.
+Let's talk about deploys. When a developer starts out with a new idea for an application, they'll typically start working locally, where running the app is as simple as typing `rails server` or `npm start`. But at some point, you need to deploy that app somewhere so that other people, hopefully paying customers, can use it. An easy place to start is to deploy to Heroku or maybe you're using a massive Kubernetes cluster, but really, there are tons of options out there. This post is not about those options. It's about deployment strategy.
 
 <!-- more -->
 
 When you start, you have no users so there's very little risk in deploying directly to production. If you're still pitching your ideas to VCs, for example, you want your changes pushed up right away, usually right before a big meeting, so you push directly whenever you're ready. Nobody uses the app when you're not showing it to them, so who cares about "production downtime" or pushing untested code with bugs; nobody is using it! So you'll go ahead and create a production app named the same as your project.
 
 ```
-$ heroku list
 tanuki
 ```
 
-But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably set it up to automatically deploy any time `master` is updated.
+But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace continuous delivery and set it up to automatically deploy to `staging` any time `master` is updated.
 
 ```
-$ heroku list
 tanuki
 tanuki-staging
 ```
@@ -28,7 +26,6 @@ tanuki-staging
 But what about testing out changes earlier on in development? Say you've got a merge request that you want your coworker to check out to see if you're going in the right direction? Well you start out by asking your team members to pull down your topic branch (you did create a topic branch for your change, right?) and then run the code locally to see how it looks. That works for a while, especially while your entire company is full of developers, but what happens as you grow and you've got product managers, QA testers, and designers that may not have their development environment set up, or are just too busy to bother pulling down your branch just to see your code run. So you create a new `dev` app to show off your code on a running server.
 
 ```
-$ heroku list
 tanuki
 tanuki-dev
 tanuki-staging
@@ -37,7 +34,6 @@ tanuki-staging
 Then your team grows and one day you're running your topic branch on the dev server and someone else pushes a different branch to test their thing, not realizing you were already using the server. Now you realize you need a separate app for each developer on your team.
 
 ```
-$ heroku list
 tanuki
 tanuki-grzegorz
 tanuki-kamil
@@ -49,7 +45,6 @@ tanuki-staging
 This lets developers show off their work to their manager or product manager without getting overwritten by another developer. But at some point, in any fast-moving company, a single developer might have multiple features under development and want to demo them at any time, without having to micromanage their single `dev` app. So, you start creating new apps dedicated to big features.
 
 ```
-$ heroku list
 ...
 tanuki-new-interface
 tanuki-refactor-signup
@@ -59,7 +54,6 @@ tanuki-refactor-signup
 But apps should be easy to create and destroy so why not create a new one for every branch?
 
 ```
-$ heroku list
 tanuki
 tanuki-6-update-logo
 tanuki-7-refactor-backend
@@ -79,8 +73,49 @@ Review Apps are ephemeral app environments that are created dynamically every ti
 
 ![](https://gitlab.com/gitlab-org/gitlab-ce/uploads/dfadbba782a367e55e37c861f61f1c24/image.png)
 
-Once you embrace review apps, you'll find it hard to go back. You'll get rid of all your `dev` apps. You might even get rid of your `staging` app. Afterall, the feature will have gone through full automated CI testing, and with high fidelity feature-level testing on a review app, `staging` becomes an unnecessary speed bump on your way to full-speed productivity. Once a merge request is approved and merged, have it automatically deployed to `production`!
+Once you embrace review apps, you'll find it hard to go back. You'll get rid of all your `dev` apps. You might even move on to full continuous deployment and get rid of your `staging` app. After all, the feature will have gone through full automated CI testing, and with high fidelity feature-level testing on a review app, `staging` becomes an unnecessary speed bump on your way to full-speed productivity. Once a merge request is approved and merged, have it automatically deployed to `production`!
 
-<!Insert pretty graphic visualizing review app + production flow.>
+![Deploy Flow](/images/blogimages/deploy_review_apps.png)
 
-To [get started with Review Apps](https://docs.gitlab.com/ce/ci/yaml/README.html#dynamic-environments), you'll need to figure how to create and deploy a new app using shell scripts, then put that into your `.gitlab-ci.yml` in a special job. You might use nginx with subdirectories, like [we do for about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/3709). Or use the [Openshift client to create and build new apps](https://gitlab.com/gitlab-examples/review-apps-openshift/blob/master/.gitlab-ci.yml). Either way, you're in full control, creating and deploying temporary review apps on your own private infrastructure. Need them behind a firewall on dedicated PCs? No problem. Want them deployed in the cloud using the latest Docker technology? No problem. If you can script it, we can run it with GitLab CI.
+Review Apps aren't just for large teams; they're great even for solo developers. Review Apps mean you have an environment running that contains only the code changes of one merge request. This solves four problems:
+
+* Having each change go through multiple stages (development, staging and QA stages).
+* Finding a problem in staging or QA and having to research what merge request caused it.
+* Having to add screenshots and video's to your merge request.
+* Looking at a merge request and not being able to test the UX and edge cases.
+
+To [get started with Review Apps](https://docs.gitlab.com/ce/ci/yaml/README.html#dynamic-environments), you'll need to figure how to create and deploy a new app using shell scripts, then put that into your `.gitlab-ci.yml` in a special job.
+
+You might use nginx with subdirectories, like [we do for about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/3709). Or use the [Openshift client to create and build new apps](https://gitlab.com/gitlab-examples/review-apps-openshift/blob/master/.gitlab-ci.yml). Either way, you're in full control, creating and deploying temporary review apps on your own private infrastructure. Need them behind a firewall on dedicated PCs? No problem. Want them deployed in the cloud using the latest Docker technology? No problem. If you can script it, we can run it with GitLab CI.
+
+The `.gitlab-ci.yml` syntax is somewhat complex because we prefer being explicit over hiding magic. This example shows two jobs, one to start/update a review app, and the other to stop it. The key is in the declaration of an `environment` that has both its `name` and `url` be dynamic, based on the Git branch name. You can name the environment anything you like, but if you follow the convention of starting it with `review/`, the GitLab UI will group the apps in a `review` folder. The `start_review` job then points to the `stop_review` job using the `on_stop` keyword, which helps signal to GitLab to show the option to "stop" or delete the environment in several places in the GitLab interface.
+
+```
+start_review:
+  stage: review
+  script:
+    - rsync -av --delete public /srv/nginx/pages/$CI_BUILD_REF_NAME
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_NAME.$APPS_DOMAIN
+    on_stop: review_stop
+  only:
+    - branches
+  except:
+    - master
+
+stop_review:
+  stage: review
+  script:
+    - rm -rf public /srv/nginx/pages/$CI_BUILD_REF_NAME
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+  only:
+    - branches
+  except:
+    - master
+```
+
+Experimental support for Review Apps is available now with creating dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps is available for free in GitLab CE, EE, and on GitLab.com.
