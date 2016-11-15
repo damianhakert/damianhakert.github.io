@@ -34,6 +34,8 @@
   border-color: $color-secondary-alt;
   transition: all .2s;
   font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
 
   &:hover {
     color: $color-primary-alt;

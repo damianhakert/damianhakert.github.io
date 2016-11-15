@@ -28,7 +28,7 @@
       width: 70%;
     }
 
-    @media (min-width: 1300) {
+    @media (min-width: 1300px) {
       width: 60%;
     }
 
@@ -43,7 +43,23 @@
       font-size: 16px;
     }
     .feature-event-button{
-      text-align: left;
+
+      @media(min-width: 360px){
+        text-align: center;
+        .btn-yellow{
+          line-height: 35px;
+          padding-left: 50px;
+          padding-right: 50px;
+          font-size: 16px;
+        }
+      }
+      @media(min-width: $screen-md){
+        text-align: left;
+        .btn-yellow{
+          line-height: 25px;
+        }
+      }
+
     }
   }
 
@@ -79,22 +95,57 @@
 
     li{
       .event-headers{
-        .event-topic{
-          float: left;
-        }
-        .event-date{
-          float: right;
-        }
         color: $color-primary;
         font-weight: 400;
       }
       .event-subheaders{
-        h2,h3,h4{
-          margin-top:0px;
+        color:$color-dark;
+        font-weight: 200;
+      }
+
+      @media(min-width: 360px){
+        .event-topic{
+          float: none;
+          font-size: 24px;
+          margin-bottom: 5px;
         }
-        h4{
-          font-size: 20px;
-          margin-bottom: 25px;
+        .event-date{
+          float: none;
+          font-size: 24px;
+          margin-top: 5px;
+        }
+        .event-type{
+          float: none;
+        }
+        .event-location{
+          float: none;
+        }
+        .event-description{
+          font-size: 16px;
+          text-align: left;
+          margin-right: 0px;
+          margin-left: 0px;
+        }
+        .event-subheaders{
+          h2,h3,h4{
+            margin-top:0px;
+          }
+          h4{
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      @media(min-width: $screen-sm){
+        .event-topic{
+          float: left;
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+        .event-date{
+          float: right;
+          font-size: 30px;
+          margin-top: 20px;
         }
         .event-type{
           float: left;
@@ -102,24 +153,20 @@
         .event-location{
           float: right;
         }
-        color:$color-dark;
-        font-weight: 200;
-      }
-
-      @media(min-width: 360px){
-        .event-description{
-          font-size: 16px;
-          text-align: left;
-          margin-right: 10px;
-          margin-left: 10px;
-        }
-      }
-      @media(min-width: $screen-sm){
         .event-description{
           font-size: 20px;
           text-align: left;
           margin-right: 150px;
           margin-left: 0px;
+        }
+        .event-subheaders{
+          h2,h3,h4{
+            margin-top:0px;
+          }
+          h4{
+            font-size: 20px;
+            margin-bottom: 25px;
+          }
         }
       }
 
@@ -265,11 +312,14 @@
   color: $color-gray-light;
   font-weight: 400;
   font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 75px;
+  font-size: 28px;
 
-  @media (min-width: $screen-sm-min) {
-    margin-top: 5px;
-    margin-bottom: 75px;
+  @media (max-width: $screen-xs) {
+    font-size: 18px;
   }
+
 }
 
 
@@ -315,14 +365,13 @@
   margin-top: 0px;
 }
 
-@media (min-width: 360px){
-  .image-card-container:not(:last-child){
-    padding-bottom: 35px;
-  }
+
+.image-card-container:not(:last-child){
+  margin-bottom: 0px;
 }
 
-@media (min-width: $screen-sm-min) {
+@media (max-width: $screen-xs){
   .image-card-container:not(:last-child){
-    padding-bottom: 0px;
+    margin-bottom: 35px;
   }
 }

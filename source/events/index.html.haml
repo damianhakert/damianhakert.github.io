@@ -30,8 +30,9 @@ extra_font:
           in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-      %button.btn.btn-large.btn-yellow{type:"button"}
-        CTA
+      .feature-event-button
+        %button.btn.btn-large.btn-yellow{type:"button"}
+          CTA
 
 
 
@@ -50,10 +51,14 @@ extra_font:
             -# The event title and dates
             %h2.event-topic
               = event.topic
+            %h4.event-type.visible-xs-block
+              = event.type
             %h2.event-date
               = event.date
+            %h4.event-location.visible-xs-block
+              = event.location
             .clear-floats
-          .event-subheaders
+          .event-subheaders.hidden-xs
             -# The event type and location
             %h4.event-type
               = event.type
@@ -63,15 +68,20 @@ extra_font:
           %div
             %p.event-description
               = event.description
+          .social-tags.visible-xs-block
+            -#The social networking jazz tags
+            -event.social_tags.split(",").each do |tag|
+              %span.social-tag
+                ="#" + tag.gsub(/\s+/, "")
           .event-buttons
             -# Social buttons
             .buttons
               %button.btn.featured-item-button-events{type:"button"}
                 Join Us!
-              %button.btn.featured-item-button-events{type:"button", style:"margin-left:15px;"}
+              %button.btn.featured-item-button-events{type:"button", style:"margin-left:20px;"}
                 Learn More
             .clear-floats
-          .social-tags
+          .social-tags.hidden-xs
             -#The social networking jazz tags
             -event.social_tags.split(",").each do |tag|
               %span.social-tag
