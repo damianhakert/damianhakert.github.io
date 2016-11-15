@@ -2,6 +2,7 @@
 layout: job_page
 title: "Service Engineer"
 ---
+
 The rising popularity of GitLab means that our professional services are in high demand.
 If you have the skills to help our clients we would love to talk to you.  
 
@@ -16,10 +17,14 @@ work from home and help GitLab grow, this is the right spot for you.
 - Engage with the development team to escalate bugs, solve problems, or obtain missing information
 - Communicate via email and video conferencing with potential and current clients
 - Participate in the on-call rotation to provide 24/7 emergency customer response
-- Ensure the knowledge we gain from running GitLab.com is shared with users
+- Ensure the knowledge we gain from running GitLab.com is shared with customers and users
 - Maintain documentation relating to troubleshooting and other knowledge gained via customer interactions
 - Prepare and provide customer training, and make the training materials widely available
 - Submit and comment on feature requests based on customer interactions
+- Maintain good ticket performance and satisfaction
+- Meet or exceed SLA times consistently
+- Reliably respond to on-call emergencies
+- Create or update documentation based on customer interactions
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
@@ -28,13 +33,6 @@ More information can be found on the [support page in the handbook](https://abou
 - Above average knowledge of Unix and Unix based Operating Systems
 - Experience with Ruby on Rails applications and Git
 - Affinity for (and experience with) providing customer support
-- Excellent spoken and written English
-- You share our [values](/handbook/#values), and work in accordance with those values
-
-### Service Engineer
-
-Service Engineers meet the following criteria:
-
 - Technical Skills
   - Triage and resolve GitLab issues
   - Perform Linux system administrator tasks related to GitLab maintenance
@@ -44,10 +42,8 @@ Service Engineers meet the following criteria:
   - Escalate issues to the right people
   - Follow up on outstanding issues
   - Makes customers happy
-- Maintain good ticket performance and satisfaction
-- Meet or exceed SLA times consistently
-- Reliably respond to on-call emergencies
-- Create or update documentation based on customer interactions
+- Excellent spoken and written English
+- You share our [values](/handbook/#values), and work in accordance with those values
 
 ### Senior Service Engineer
 
