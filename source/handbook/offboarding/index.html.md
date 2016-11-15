@@ -182,6 +182,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1.  [x] _not relevant, People Ops: Have member sign NDA.
 1.  [ ] People Ops: Remove member to #core in Slack.  
 1.  [ ] People Ops: Remove member developer access to gitlab-org.
-1.  [ ] People Ops: Make inactive from BambooHR
+1.  [ ] People Ops: Make inactive in BambooHR
 
 ```
