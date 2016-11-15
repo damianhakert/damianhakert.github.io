@@ -766,7 +766,7 @@
 - name: David 'DJ' Mountney
   locality: Victoria
   country: Canada
-  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Build Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Senior Build Engineer</a>
   reports_to: Build Lead
   picture: dj.png
   twitter: twk3
@@ -1866,11 +1866,11 @@
   picture: stephanecornille.jpg
   twitter:
   gitlab: scornille
-  story:  | 
+  story:  |
           Futurist and astronaut-in-waiting, Stephane hails from the Land of the
-          Long White Cloud, aka New Zealand. Stephane is open-minded challenger 
-          with expertise leading global marketing launches, and managing product 
-          life cycles. When he is not working, he is exploring abandoned places, 
+          Long White Cloud, aka New Zealand. Stephane is open-minded challenger
+          with expertise leading global marketing launches, and managing product
+          life cycles. When he is not working, he is exploring abandoned places,
           gardening or learning about space.
 
 - name: J.A.
@@ -1914,7 +1914,7 @@
   gitlab: rebeccad
   story: |
          Originally from Cape Town, South Africa, Rebecca found her way to GitLab from consumer journalism via content marketing. A self-proclaimed word nerd with a special fondness for 90s adventure games, Rebecca is on a mission to bring GitLab content to a wider audience. Outside of work, she's probably queueing at one of London's latest hipster restaurant openings.
- 
+
 
 
 - name: Sasha Bannister
@@ -1927,9 +1927,9 @@
   gitlab: sashab
   story:  |
           Sasha is a people person through and through. She loves recruiting, building great teams,
-          and learning from all of the candidates along the way. She's worked as a recruiter for large and small 
-          companies, but always with a focus on technology. After being born and raised in Indiana she 
-          is currently trying to do a tour of the U.S. on the hunt for her next place to live! If she's 
+          and learning from all of the candidates along the way. She's worked as a recruiter for large and small
+          companies, but always with a focus on technology. After being born and raised in Indiana she
+          is currently trying to do a tour of the U.S. on the hunt for her next place to live! If she's
           not at her desk she's probably playing with puppies, face timing family, or planning her next
           trip!
 
@@ -1978,7 +1978,7 @@
   gitlab:
   story:  |
           Joining November 14th
-          
+
 
 - name: K.L.
   locality:
@@ -2000,4 +2000,4 @@
   twitter:
   gitlab:
   story:  |
-          Joining December 1st         
+          Joining December 1st
