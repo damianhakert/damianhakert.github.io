@@ -88,7 +88,7 @@ To [get started with Review Apps](https://docs.gitlab.com/ce/ci/yaml/README.html
 
 You might use nginx with subdirectories, like [we do for about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/3709). Or use the [Openshift client to create and build new apps](https://gitlab.com/gitlab-examples/review-apps-openshift/blob/master/.gitlab-ci.yml). Either way, you're in full control, creating and deploying temporary review apps on your own private infrastructure. Need them behind a firewall on dedicated PCs? No problem. Want them deployed in the cloud using the latest Docker technology? No problem. If you can script it, we can run it with GitLab CI.
 
-The `.gitlab-ci.yml` syntax is somewhat complex because we prefer being explicit over hiding magic. This example shows two jobs, one to start/update a review app, and the other to stop it. The key is in the declaration of an `environment` that has both its `name` and `url` be dynamic, based on the Git branch name. You can name the environment anything you like, but if you follow the convention of starting it with `review/`, the GitLab UI will group the apps in a `review` folder. The `start_review` job then points to the `stop_review` job using the `on_stop` keyword, which helps signal to GitLab to show the option to "stop" or delete the environment in several places in the GitLab interface.
+The `.gitlab-ci.yml` syntax is somewhat complex because we prefer being explicit over hiding magic. This example shows two jobs, one to start/update a review app, and the other to stop it. The key is in the declaration of an `environment` that has both its `name` and `url` be dynamic, based on the Git branch name. You can name the environment anything you like, but if you follow the convention of starting it with `review/`, the GitLab UI will group the apps in a `review` folder. The `start_review` job then points to the `stop_review` job using the `on_stop` keyword, which helps signal to GitLab to show the option to "stop" or delete the environment in several places in the GitLab interface. Setting the `GIT_STRATEGY` to `none` is necessary on the `stop_review` job so that the GitLab runner won't try to checkout the code after the branch is deleted.
 
 ```
 start_review:
@@ -106,6 +106,8 @@ start_review:
 
 stop_review:
   stage: review
+  variables:
+    GIT_STRATEGY: none
   script:
     - rm -rf public /srv/nginx/pages/$CI_BUILD_REF_NAME
   when: manual
