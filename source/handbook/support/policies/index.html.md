@@ -13,6 +13,15 @@ title: Support Policies
 
 ### Removal of 2FA
 
+Users can generate new recovery codes using SSH, if they've previously added
+SSH public keys to their profile. The new recovery codes can then be used at
+sign in. This option is presented to users in the Zendesk macro. If they cannot 
+use this method then move on to the manual methods below.
+
+```
+ssh git@gitlab.com 2fa_recovery_codes
+```
+
 [Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA)
 can only be removed from a GitLab.com account if one of the following combinations are met:
 
