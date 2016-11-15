@@ -63,9 +63,9 @@ for example between CI and the private container registry
 
 ## Replicating the demo
 
-To replicate the demo you need a private Openshift origin environment.
+To replicate the demo you need a private Openshift origin environment. 
 The [demo script](https://about.gitlab.com/handbook/sales/idea-to-production-demo/)
-is public and the RedHat OpenShift template is linked from our
+is public (along with the version numbers of OpenShift and Kubernetes we're using!) and the RedHat OpenShift template is linked from our
 [installation page](/installation/).
 
 We believe container schedulers such as Kubernetes are the future of
