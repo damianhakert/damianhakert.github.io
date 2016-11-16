@@ -39,15 +39,12 @@
     padding-top: 9px;
 
     @media (min-width: $screen-sm-min) {
-      padding-right: 10px;
-    }
-
-    @media (min-width: $screen-md-min) {
-      padding-right: 18px;
+      display: none;
     }
 
     @media (min-width: $screen-lg-min) {
-      padding-right: 25px;
+      display: block;
+      padding-right: 20px;
     }
 
     &.is-open {
