@@ -33,6 +33,7 @@ This release has more improvements, including security fixes. Please check out
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
+*** Make a point to clarify if HA upgrades will be "clean" or have trouble based on migrations***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
 
