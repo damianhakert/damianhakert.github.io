@@ -175,7 +175,7 @@ When opening a merge request for the docs site we use a new feature called Revie
 
 ### GitLab Pages
 
-[GitLab Pages](http://pages.gitlab.io/) allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done.
+[GitLab Pages](https://pages.gitlab.io/) allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done.
 
 GitLab Pages deploys the site whenever a commit is made to the master branch of the gitlab-docs repository or whenever the deploy hook is called. A job is used to trigger a new build whenever tests run and pass on master branch of CE, EE, Omnibus, and Runner.
 
