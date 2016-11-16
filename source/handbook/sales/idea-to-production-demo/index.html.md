@@ -38,7 +38,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
-> * Delete all Openshift projects using OpenShift web interface TODO [Allow multiple people to give the demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/24114)
+> * Delete previous Openshift projects using OpenShift web interface
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -54,7 +54,7 @@ The first step is to install GitLab itself. Today I'm going to use RedHat's Open
 
 > * Open Openshift web UI and log in to [Openshift Origin](https://openshift.tanukionline.com:8443).
 > * Click New Project
-> Name it `gitlab`
+> Name it `gitlab` (or `firstname-gitlab` if running multiple demos)
 > Create it
 
 And then we import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
@@ -63,8 +63,8 @@ And then we import an OpenShift template for a complete GitLab installation. We 
 > * Open in a browser: [YAML template in Omnibus repo](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) which is also linked from [our installation page](https://about.gitlab.com/installation/).
 > * Copy content of idea-2-prod-template.json
 > * Click Create, leave `Process the template` selected, click Continue
->   * GitLab instance hostname to `gitlab.tanukionline.com`
->   * Mattermost instance hostname to `mattermost.tanukionline.com`
+>   * GitLab instance hostname to `gitlab.tanukionline.com` (or leave blank if running multiple demos)
+>   * Mattermost instance hostname to `mattermost.tanukionline.com` (or leave blank if running multiple demos)
 > * Press button
 > * Continue to overview
 
@@ -96,7 +96,7 @@ We now create a group for our company; let’s name it `tanuki`.
 
 Then let’s now create a new project to start off with. Let's call it `www` and make it public.
 
-> * Create a project called `www` under the `tanuki` group and make it public
+> * Create a project called `www` (or `firstname-www` if running multiple demos) under the `tanuki` group and make it public
 
 ### Configure the project
 
