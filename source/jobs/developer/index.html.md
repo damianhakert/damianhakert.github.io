@@ -51,7 +51,7 @@ Senior Developers are experienced developers who meet the following criteria:
    a. Begins to show architectural perspective
    b. Leads the design for medium to large projects with feedback from other engineers
 3. Code quality
-   a. Leaves code in substantially beter shape than before
+   a. Leaves code in substantially better shape than before
    b. Fixes bugs/regressions quickly
    c. Monitors overall code quality/build failures
    d. Creates test plans
