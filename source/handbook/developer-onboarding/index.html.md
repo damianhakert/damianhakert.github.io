@@ -139,11 +139,16 @@ volunteer contributors.
 When building and publishing Gems for GitLab make sure multiple developers have
 access to said Gem on RubyGems.org. This ensures a Gem doesn't end up being
 orphaned because the original author left, lost their credentials, passed away,
-etc. When publishing a Gem you can add the following people as co-owners:
+etc. When publishing a Gem you can add some or all of the following people as
+co-owners:
 
-* Dmitriy Zaporozhets
-* Douwe Maan
-* Robert Speicher
+* [Dmitriy Zaporozhets](https://rubygems.org/profiles/randx)
+* [Douwe Maan](https://rubygems.org/profiles/DouweM)
+* [Marin Jankovski](https://rubygems.org/profiles/marinjankovski)
+* [Rémy Coutable](https://rubygems.org/profiles/rymai)
+* [Robert Speicher](https://rubygems.org/profiles/rspeicher)
+* [Stan Hu](https://rubygems.org/profiles/stanhu)
+* [Yorick Peterse](https://rubygems.org/profiles/YorickPeterse)
 
 You're of course free to add other developers as well.
 

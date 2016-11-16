@@ -28,24 +28,18 @@ $(function () {
   var $community = $('#js-landing-community');
 
   if ($community.length) {
-    var cutoff = Math.floor(($community.height() / 100) * 40),
-        imgsRowCount = 6,
+    var cutoff = $community.height(),
+        imgsRowCount = 8,
         rowCount = 0,
-        imgSize = 55,
+        imgSize = 96,
         windowWidth = $(window).width();
 
     if (windowWidth >= 1200) {
-      cutoff = Math.floor(($community.height() / 100) * 75)
       imgsRowCount = 20;
       imgSize = 60;
-    } else if (windowWidth >= 990) {
-      cutoff = Math.floor(($community.height() / 100) * 55)
-      imgsRowCount = 10;
-      imgSize = 99;
     } else if (windowWidth >= 768) {
-      cutoff = Math.floor(($community.height() / 100) * 40)
-      imgsRowCount = 8;
-      imgSize = 96;
+      imgsRowCount = 16;
+      imgSize = 75;
     }
 
     rowCount = Math.ceil(cutoff / imgSize);
@@ -75,54 +69,4 @@ $(function () {
       $community.append(html);
     });
   }
-
-  // Sticky dev cycle nav
-  var $iconNav = $('.cycle-icon-row'),
-      iconNavOffsetTop;
-  $(".cycle-icon-row").removeClass('stuck');
-  $(document).scroll(function(){
-    var navHeight = $('.navbar-fixed-top').height();
-    var devCycleNavHeight = $('.cycle-icon-row').height();
-    var scroll = $(window).scrollTop();
-
-    if ($iconNav.is(':visible')) {
-
-      if (scroll < iconNavOffsetTop && $iconNav.hasClass('stuck')) {
-        $iconNav.removeClass('stuck');
-      }
-
-      if (scroll >= $iconNav.offset().top - navHeight && !$iconNav.hasClass('stuck')) {
-        iconNavOffsetTop = $iconNav.offset().top - navHeight;
-        $iconNav.addClass('stuck');
-      }
-
-      if (scroll >= $('.idea-to-production').offset().top) {
-        $iconNav.removeClass('stuck');
-      }
-
-      var $currentSection;
-      $('.cycle-vertical .step').each(function() {
-        var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 3.5);
-        $('.cycle-icon-row .step').removeClass('active');
-
-        if (divPosition - 1 < scroll) {
-          $currentSection = $(this);
-        }
-
-        if ($currentSection) {
-          var id = $currentSection.attr('id');
-          $('a[href="#' + id + '"]').addClass('active');
-        }
-      })
-    }
-  });
-
-  // Animate scroll to icon
-  $('.cycle-icon-row .step').on('click', function (e){
-    e.preventDefault();
-    var anchor = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: ($(anchor).offset().top - 200)
-    }, 1000);
-  });
 });

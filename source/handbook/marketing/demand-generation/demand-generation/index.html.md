@@ -8,7 +8,6 @@ title: "Demand Generation"
 * [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
-* [Soft-BANT](#bant)
 * [What counts as an MQL, SQL, or SAL?](#SQL)
 * [SQL Qualification Criteria](#sqlQual)
 * [Lead Status](#leadStatus)
@@ -19,14 +18,13 @@ title: "Demand Generation"
 * [New license flow](#licenseFlow)
 * [Marketo Tools Server](#marketoTools)
 * [Sales and Community Group Emails](#groupEmail)
-* [Newsletters](#newsletters)
 * [Webcasts](#webcasts)
 
 ## Campaigns<a name="campaigns"></a>
 Demand Gen is responsible for executing marketing campaigns for GitLab.  We define a campaign as any programmed interaction with a user, customer, or prospect.  For each campaign, we will create a campaign brief that outlines the overall strategy, goals, and plans for the campaign.
 
 ## Campaign Brief Process<a name="campaignbrief"></a>
-To create a campaign brief, first start with the [campaign brief template](https://docs.google.com/a/gitlab.com/document/d/1GttZqr7sjuvP9kWuIPfbif2b2VyNJtbN8CbL4tKJX2Q/edit?usp=sharing).  Fill out all fields in the brief as completely as possible.  Certain fields might not be applicable to a particular campaign.  For example, an email nurture campaign leveraging text based emails won’t have a visual design component.  This field can be left blank in that example. 
+To create a campaign brief, first start with the [campaign brief template](https://docs.google.com/a/gitlab.com/document/d/1GttZqr7sjuvP9kWuIPfbif2b2VyNJtbN8CbL4tKJX2Q/edit?usp=sharing).  Fill out all fields in the brief as completely as possible.  Certain fields might not be applicable to a particular campaign.  For example, an email nurture campaign leveraging text based emails won’t have a visual design component.  This field can be left blank in that example.
 
 Once the campaign brief is filled out, create an issue in the GitLab Marketing project and link to the campaign brief.
 
@@ -56,17 +54,10 @@ On the GitLab issue, make sure to:
 5. Once a lead has met the criteria for an SQL, the BDR will schedule a discovery call with the prospect and an AE.  On the call, the BDR will provide a warm introduction and handoff the prospect to the AE.
 6. If SQL criteria isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
+8. All Account Executives and Senior Account Executives are part of the regular Lead round robin rotation but if a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a Senior Account Executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
 10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
 11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
-
-## Soft-BANT<a name="bant"></a>
-
-- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
-- Authority => Can the person influence a purchase decision?
-- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
-- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an MQL, SQL, or SAL?<a name="SQL"></a>
 * SQL is any lead which meets the [SQL Qualification Criteria](#sqlQual)
@@ -74,7 +65,7 @@ On the GitLab issue, make sure to:
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
 
         => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
-* SAL is an SQL which has been accepted by the sales team 
+* SAL is an SQL which has been accepted by the sales team
 * MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
    * Signing up to receive the newsletter (behavioral)
    * Signing up for an account on gitlab.com (behavioral)
@@ -82,7 +73,7 @@ On the GitLab issue, make sure to:
    * Starting an EE Trial (behavioral)
    * Working at a Fortune 500 (demographic)
    * Job title (demographic)
-   
+
 ## SQL Qualification Criteria <a name="sqlQual"></a>
 
 1. **Current Defined Need:** Does the prospect have an identified need for GitLab?  List out the current need.
@@ -92,11 +83,12 @@ On the GitLab issue, make sure to:
 5. **Buying Process:** What is the buying process for procuring GitLab?
 6. **Buying Process:** What is role does the prospect play in the current evaluation (function, job title)?
 7. **Timeline:** What is the timeline to make a decision?  Are you currently in an existing contract that needs to expire before you can move forward? If yes, when does the contract expire?
-8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need?
+8. **Product Fit:** Are they interested in GitLab EE?  Is GitLab EE a good fit for their need? Needs to be YES
 9. **Product Fit:** Do they currently use another version of GitLab?  Are they familiar with our product family?
-10. **Scope:** How many seats are they interested in purchasing?
-11. **Scope:** How many developers total (potential additional seats) do they have?
-12. **Next Steps:** Is there a meeting set with an AE to discuss next steps?
+10. **Scope:** How many seats are they interested in purchasing? This will be needed to add in the opportunity amount field "example 100 x $39 = $3900"
+11. **Scope:** How many developers total (potential additional seats) do they have?  Anything over 100 potential seats is assigned to an AE.  Leads under 100 potential seats will be assigned to BDR Manager to track.
+12. **Next Steps:** Is there a meeting set with an AE to discuss next steps? Meeting needs to be set before lead can be qualfiied.
+13. **Existing Client** Is the contact from a new business unit? If existing business unit refer to AE responsible for the account.
 
 
 ## Lead status<a name="leadStatus"></a>
@@ -115,8 +107,9 @@ On the GitLab issue, make sure to:
 
 ## Passing Qualified Leads<a name="leadPassing"></a>
 
+1. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
 1. BDR emails prospect, cc'ing AE. Email consists of a summary of the lead qual data captured above (current state, problems to solve, what they would like to learn and desired state).  This email also introduces the AE and confirms the meeting day with the prospect and informs them that a meeting invite will be sent shortly.
-2. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
+1. BDR converts lead to opportunity.  BDR adds into revenue into the amount field, within the opportunity object, based on the lead criteria uncovered of number of seats and/or products interested in purchasing now.
 3. BDR joins Discovery call and provides warm handoff
 
 ## Nurture campaign process<a name="nurture"></a>
@@ -168,39 +161,6 @@ Current state
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
 - If an email is received (contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
-
-## Newsletters<a name="newsletters"></a>
-
-- We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
-- The newsletters are scheduled to go out between 8 and 9 am Pacific time.
-
-
-We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
-
-Currently, the newsletter consists of four blocks of content. Each block of content consists of the following:
-- Title/topic
-- Link and call-to-action
-- Description/copy
-
-For example:
-
-![newsletter block example](https://about.gitlab.com/images/handbook/marketing/newsletter-example-block.png)
-
-The different content ideas are placed in the newsletter issue using the following format:
-
-```
-[Required] title/topic:
-
-link:
-
-copy:
-
-[Required] link is live/available as of this comment? YES/NO
-```
-
-After the content for the newsletter is finalized, build out the newsletter in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
-
-Once the newsletter content is updated, send a test email to `marketing@gitlab.com` and `robert@gitlab.com` and get feedback from everyone on copy, links, layout, etc. Implement whatever changes need to be made and send new test emails until the email is ready. Once it's ready, schedule the email within Marketo.
 
 ## Webcasts<a name="webcasts"></a>
 

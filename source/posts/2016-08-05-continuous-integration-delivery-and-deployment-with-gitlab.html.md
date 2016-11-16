@@ -195,7 +195,7 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [GitLab.com]: https://gitlab.com/users/sign_in
 [handbook-post]: /2016/07/12/our-handbook-is-open-source-heres-why/
 [handbook]: /handbook/
-[idea-to-prod]: /handbook/sales/idea-to-production/
+[idea-to-prod]: /handbook/sales/idea-to-production-demo/
 [manual]: /2016/07/22/gitlab-8-10-released/#manual-actions-to-trigger-pipeline-jobs
 [Mark Pundsack]: https://twitter.com/MarkPundsack
 [mark-pipes]: https://gitlab.com/gitlab-examples/docker-cloud/pipelines

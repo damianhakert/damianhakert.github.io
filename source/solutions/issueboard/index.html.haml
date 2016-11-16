@@ -2,10 +2,12 @@
 layout: default
 title: Issue Board
 suppress_header: true
+twitter_image: '/images/tweets/announcing-the-gitlab-issue-board.png'
+description: "The perfect pairing of issue tracking and project management"
 extra_css:
-  - "issue-boards.css"
+  - "solutions.css"
 extra_js:
-  - "issue-boards.js"
+  - "solutions.js"
 ---
 
 .page-container.issue-boards-container.text-center.animated
@@ -65,9 +67,10 @@ extra_js:
     %h2.page-headline.text-center
       Getting started with your Issue Board
     %h3.getting-started-subheader.text-center
-      The GitLab Issue Board is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products.
+      :markdown
+        The GitLab Issue Board is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.<br>Getting started is the same in all three products (except [step 6](#step-6)).
     %section#steps.steps
-      .step.js-step
+      #step-1.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-step-1", "step-icon", { label: "Create an issue" })
@@ -76,18 +79,20 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Create a new issue
+                Create a New Issue
               .lead.text-center.step-lead-text
                 :markdown
                   Issues help you summarize your ideas and align the team on a common goal.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Go to the **Issues** tab under your project's page and create your first issue. If your project already has some issues, jump right to the next step!
+                    Go to the Issues tab under your project's page and create your first issue.
+
+                    If your project already has some issues, jump right to the next step!
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-1-illustration.png", class: "img-responsive"
-      .step.js-step
+      #step-2.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-step-2", "step-icon", { label: "Add a label" })
@@ -99,7 +104,7 @@ extra_js:
                 Label your issue
               .lead.text-center.step-lead-text
                 :markdown
-                  [Labels](http://docs.gitlab.com/ce/user/project/labels.html) make it easy to make it easy to categorize issues based on descriptive titles. They help teams quickly understand the context of an issue. Labels can be used to describe the issue type, like "new feature," or describe the issue stage, like "QA."
+                  [Labels](http://docs.gitlab.com/ce/user/project/labels.html) make it easy to categorize issues based on descriptive titles. They help teams quickly understand the context of an issue. Labels can be used to describe the issue type, like "new feature," or describe the issue stage, like "QA."
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -109,8 +114,9 @@ extra_js:
                     Create your first label: it's simple, you can create it from
                     [within the issue](http://docs.gitlab.com/ce/user/project/labels.html#create-a-new-label-right-from-the-issue-tracker)
                     itself or by navigating to the [labels area](http://docs.gitlab.com/ce/user/project/labels.html#create-new-labels).
-                    If you already have some labels, it's time to meet the Issue Board!
-      .step.js-step
+                    
+                    If you already have labels, it's time to meet the Issue Board!
+      #step-3.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Go to your board" })
@@ -122,7 +128,7 @@ extra_js:
                 Navigate to your Issue Board
               .lead.text-center.step-lead-text
                 :markdown
-                  Issues appear as cards on the Issue Board. They can be arranged across a number of columns using lists.
+                  Issues appear as cards on the Issue Board.<br>They can be arranged across a number of columns using lists.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
@@ -130,7 +136,7 @@ extra_js:
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-3-illustration.png", class: "img-responsive"
-      .step.js-step
+      #step-4.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-step-4", "step-icon", { label: "Create a list based on a label" })
@@ -142,7 +148,7 @@ extra_js:
                 Create a new list
               .lead.text-center.step-lead-text
                 :markdown
-                  Lists are based on the labels already created for your project. Each list contains the issues that are assigned to the corresponding label.
+                  Lists are based on the labels already created for your project.<br>Each list contains the issues that are assigned to the corresponding label.
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
@@ -152,7 +158,7 @@ extra_js:
                     Click **"Create new list"** and choose a label to create the list from. Once done, the list will appear as a new column on your board, and the issues assigned to that label will automatically move from Backlog to your new list. If you are starting fresh, you can add GitLab's suggested default lists to your Issue Board in one click.
 
                     Once you have created your lists, you can drag-and-drop to re-order them to match your team's flow.
-      .step.js-step
+      #step-5.step.js-step
         .container
           .step-icon-container
             = icon("issue-boards/icon-step-5", "step-icon", { label: "Drag and drop to organize issues" })
@@ -164,17 +170,46 @@ extra_js:
                 Move issues between lists
               .lead.text-center.step-lead-text.step-lead-text-last
                 :markdown
-                  Communicate progress on your release by dragging and dropping issues from one column to another.
+                  Communicate progress on your release and easily adjust your plans right from the Issue Board.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
                     Move an issue between two lists and the label will swap to the new list.
 
-                    Every time you create a new issue with any of the labels you used in your lists, the issue will be automatically displayed on your Issue Board. If you move it to **Done**, the issue will be automatically closed for you!
+                    Every time you create a new issue with any of the labels in your lists or you create a new issue right from the Board, the issue will be automatically displayed on your Issue Board.
 
+                    When you're done working, simply move the card to **Done** and the issue will be automatically closed for you!
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-5-illustration.png", class: "img-responsive"
+
+      #step-6.step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards/icon-step-6", "step-icon step-icon-3", { label: "Multiple Boards" })
+            %span.step-number.text-center
+              [ step 06 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Multiple Issue Boards
+              .lead.text-center.step-lead-text
+                :markdown
+                  This new functionallity is available only in **GitLab Enterprise Edition** and **GitLab.com**
+              .row.row-eq-height
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-6-illustration.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+
+                    Create multiple Issue Boards for each of your projects. 
+
+                    It's simple: navigate to your Issue Board, click <i class="fa fa-caret-down" style="color: rgb(49,163,92)" aria-hidden="true"></i> to open a dropdown menu that will give you the
+                    option to create new boards, edit the existing ones, or delete the boards you
+                    don't need anymore. Use the same dropdown menu to navigate between your boards.
+
+                    Interested multiple Issue Boards per project? Download a free trial of [GitLab Enterprise Edition](/free-trial/) risk-free for 30 days!
 
 = partial "includes/features/try-gitlab-ee"
 = partial "includes/features/gitlab-ee-trial"

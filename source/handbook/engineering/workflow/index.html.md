@@ -1,8 +1,6 @@
 ---
 layout: markdown_page
 title: "Engineering Workflow"
-extra_css:
-  - compared.css
 ---
 
 This document explains the workflow for anyone working with issues in GitLab Inc.
@@ -64,7 +62,7 @@ To filter very precisely, you could filter all issues for:
 
 - Milestone: Upcoming
 - Assignee: Unassigned
-- Label: Your label of choice. For instance `Backend`, `Frontend`, or `CI`
+- Label: Your label of choice. For instance `CI`, `Discussion`, `Edge`, `Frontend`, or `Platform`
 - Sort by priority
 
 [Use this link to quickly set the above parameters][priority-issues]. You'll
@@ -79,7 +77,7 @@ Leads and product managers handle most of the scheduling into milestones. Labell
 
 Most issues will have labels for at least one of the following:
 
-- Team (`Backend`, `Frontend`, `CI`, etc.)
+- Team (`CI`, `Discussion`, `Edge`, `Frontend`, `Platform`, etc.)
 - Subject (`wiki`, `container registry`, etc.)
 - Type (`feature proposal`, `bug`, `customer`, etc.)
 - Priority (`P1`, `P2`, `P3`)
@@ -91,12 +89,12 @@ All labels, their meaning and priority are defined on the
 
 [labels-page]: https://gitlab.com/gitlab-org/gitlab-ce/labels
 
-### Team labels (`Backend`, `Frontend`, `CI`, etc.)
+### Team labels (`CI`, `Discussion`, `Edge`, `Frontend`, `Platform`, etc.)
 
 Team labels specify what team is responsible for this issue.
 Assigning a team label makes sure issues get the attention of the appropriate people.
 
-The current team labels are `Backend`, `Frontend`, `CI`, `Performance`, `UX`, `Packaging`, `Documentation`, and `Release`.
+The current team labels are `CI`, `Discussion`, `Documentation`, `Edge`, `Frontend`, `Packaging`, `Performance`, `Platform`, `Release`, and `UX`.
 The descriptions on the [labels page][labels-page] explain what falls under the responsibility of each team.
 
 Team labels are always colored aqua, and are capitalized so that they show up as the first label for any issue.
@@ -122,20 +120,14 @@ A number of type labels have a priority assigned to them, which automatically ma
 Type labels are always lowercase, but can have any color, besides blue (which is already reserved for subject labels).
 The descriptions on the [labels page][labels-page] explain what falls under each type label.
 
-### Priority labels
+### Priority labels (`Deliverable` and `Stretch`)
 
-To manually assign priority to specific features, there are labels such as `P1`, `P2`, `P3`.
-These are assigned by leads and product to indicate overruling priority, and are to be used carefully.
+Priority labels help us clearly communicate expectations of the work for the release. There are two levels of priority labels:
 
-Right now, these are in use:
+- `Deliverable`: Issues that are expected to be delivered in this milestone. 
+- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release. 
 
-- `P1`: Critical. Above all, this should be worked on this milestone. Reserved for only a handful of issues.
-- `P2`: Must. Must be finished this milestone
-- `P3`: Should. Should be finished this milestone.
-
-All other issues are nice to land in a milestone, but not necessarily expected to do so.
-They will be naturally ordered by the prioritized type labels.
-This prevents ‘nice to have’ features from being prioritised over fixing bugs, which might be less fun, but is often more important.
+Work with your lead if you feel that there are too many `Deliverable` issues scheduled for the current release.
 
 ## Scheduling issues
 

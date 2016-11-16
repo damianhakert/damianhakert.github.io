@@ -6,29 +6,99 @@ extra_css:
   - press.css
 ---
 .wrapper
-  .press-container
-    .press-content
-      %h1 PRESS AND LOGOS
-      %h3
-        For press enquiries, please email:
+  .press-content
+    %h1 PRESS AND LOGOS
+    %h3
+      For press enquiries, please email:
+      %span
+        press@gitlab.com
         %span
-          press@gitlab.com
-          %span
   .sub-wrapper
     .container.text-center
-      .all-items
-        .row.images-column
+      .row
+        .col-md-12.recent-news
+          %h2 RECENT NEWS
+          .recent-blog
+            %p
+              For press releases, please
+              %a{href: "https://about.gitlab.com/press/releases/"} visit our Press Releases page.
+            %p
+              For updates from the GitLab team, please
+              %a{href: "https://about.gitlab.com/blog/archives.html"} visit our blog
+              or
+              = succeed "." do
+                %a{href: "https://twitter.com/gitlab/"} view our Twitter feed
+      %hr.divider/
+      .row
+        .col-md-12.recent-podcasts
+          %h2 PODCASTS
+          .podcasts
+            .podcast-item
+              .podcast-date
+                SEPTEMBER 2016
+              .press-text
+                %a{href: "https://changelog.com/podcast/220"}
+                  .article-title
+                    Changelog: GitLab Master Plan
+            .podcast-item
+              .podcast-date
+                OCTOBER 2014
+              .press-text
+                %a{href: "http://blog.bitnami.com/2014/10/bitnami-open-source-leaders-interview.html"}
+                  .article-title
+                    Bitnami Open Source Leaders Interview Series
+            .podcast-item
+              .podcast-date
+                AUGUST 2014
+              .press-text
+                %a{href: "http://www.binpress.com/blog/2014/08/05/binpress-podcast-episode-5-sytse-sijbrandij-gitlab/"}
+                  .article-title
+                    Binpress podcast
+            .podcast-item
+              .podcast-date
+                NOVEMBER 2013
+              .press-text
+                %a{href: "http://episodes.gitminutes.com/2013/11/gitminutes-25-sytse-sijbrandij-from.html"}
+                  .article-title
+                    Git Minutes (Nov 2013)
+            .podcast-item
+              .podcast-date
+                SEPTEMBER 2013
+              .press-text
+                %a{href: "http://thechangelog.com/103/"}
+                  .article-title
+                    Changelog: GitLab and Open Source
+      %hr.divider/
+      .row
+        .col-md-12.investors
+          %h2 INVESTORS
+          .logo-row
+            .press-image
+              %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
+                = image_tag "/images/press/khosla.png"
+            .press-image
+              %a{href: "https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/"}
+                = image_tag "/images/press/user_75.png"
+            .press-image
+              %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
+                = image_tag "/images/press/500.png"
+            .press-image
+              %a{href: "https://about.gitlab.com/2016/09/13/gitlab-master-plan/"}
+                = image_tag "/images/press/augustcap_logo.png"
+      %hr.divider/
+      .row
+        .col-md-12.images-column
           %h2 IMAGES & LOGOS
           %h4
             %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/repository/archive.zip?ref=master"} Download all images (zip)
           %h4
             %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/tree/master/"} GitLab artwork repository with all images
-          .image-container.col-md-4.individual
-            .text
-              %span Logo
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
-              .image.fox
-            .multi-button
+          .downloads
+            .image-container
+              .text
+                %span Logo
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
+                .image.fox
               .list
                 %a.btn.btn-default{download: "gitlab_logo", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.jpg"}
                   %i.fa.fa-download
@@ -42,12 +112,11 @@ extra_css:
                 %a.btn.btn-default{download: "gitlab_logo_trans", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-          .image-container.col-md-4
-            .text
-              %span Logo (square)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
-              .image.fox
-            .multi-button
+            .image-container
+              .text
+                %span Logo (square)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
+                .image.fox
               .list
                 %a.btn.btn-default{download: "gitlab_logo", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png"}
                   %i.fa.fa-download
@@ -58,12 +127,11 @@ extra_css:
                 %a.btn.btn-default{download: "gitlab_logo_trans", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-          .image-container.col-md-4.individual
-            .text
-              %span Logo (whitespace)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
-              .image.fox
-            .multi-button
+            .image-container
+              .text
+                %span Logo (whitespace)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png", target: "_blank"}
+                .image.fox
               .list
                 %a.btn.btn-default{download: "gitlab_logo", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-extra-whitespace.png"}
                   %i.fa.fa-download
@@ -74,28 +142,26 @@ extra_css:
                 %a.btn.btn-default{download: "gitlab_logo_trans", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-extra-whitespace.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-        .row.images-column.individual
-          .image-container.col-md-4
-            .text
-              %span Stacked Wordmark (dark BG)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png", target: "_blank"}
-              .square-image.stacked-wordmark
-            .list
-              %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png"}
-                %i.fa.fa-download
-                %span   .PNG
-              %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.svg"}
-                %i.fa.fa-download
-                %span   .SVG
-              %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.pdf"}
-                %i.fa.fa-download
-                %span   .PDF
-          .image-container.col-md-4
-            .text
-              %span Stacked Wordmark (no BG)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.png", target: "_blank"}
-              .square-image.stacked-wordmark-no-bg
-            .multi-button
+            .image-container
+              .text
+                %span Stacked Wordmark (dark BG)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png", target: "_blank"}
+                .image.stacked-wordmark
+              .list
+                %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png"}
+                  %i.fa.fa-download
+                  %span   .PNG
+                %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.svg"}
+                  %i.fa.fa-download
+                  %span   .SVG
+                %a.btn.btn-default{download: "stacked_wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.pdf"}
+                  %i.fa.fa-download
+                  %span   .PDF
+            .image-container
+              .text
+                %span Stacked Wordmark (no BG)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.png", target: "_blank"}
+                .image.stacked-wordmark-no-bg
               .list
                 %a.btn.btn-default{download: "stacked_wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.png"}
                   %i.fa.fa-download
@@ -106,12 +172,11 @@ extra_css:
                 %a.btn.btn-default{download: "stacked_wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-          .image-container.file-view.col-md-4
-            .text
-              %span Stacked Wordmark (B&W)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.png", target: "_blank"}
-              .square-image.stacked-wordmark-grayscale
-            .multi-button
+            .image-container
+              .text
+                %span Stacked Wordmark (B&W)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.png", target: "_blank"}
+                .image.stacked-wordmark-grayscale
               .list
                 %a.btn.btn-default{download: "stacked_wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.png"}
                   %i.fa.fa-download
@@ -122,28 +187,26 @@ extra_css:
                 %a.btn.btn-default{download: "stacked_wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-        .row.images-column.individual
-          .image-container.col-md-4
-            .text
-              %span Wordmark (dark BG)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png", target: "_blank"}
-              .image.wordmark
-            .list
-              %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png"}
-                %i.fa.fa-download
-                %span   .PNG
-              %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.svg"}
-                %i.fa.fa-download
-                %span   .SVG
-              %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.pdf"}
-                %i.fa.fa-download
-                %span   .PDF
-          .image-container.col-md-4
-            .text
-              %span Wordmark (no BG)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png", target: "_blank"}
-              .image.wordmark-no-bg
-            .multi-button
+            .image-container
+              .text
+                %span Wordmark (dark BG)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png", target: "_blank"}
+                .image.wordmark
+              .list
+                %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png"}
+                  %i.fa.fa-download
+                  %span   .PNG
+                %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.svg"}
+                  %i.fa.fa-download
+                  %span   .SVG
+                %a.btn.btn-default{download: "wordmark", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.pdf"}
+                  %i.fa.fa-download
+                  %span   .PDF
+            .image-container
+              .text
+                %span Wordmark (no BG)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png", target: "_blank"}
+                .image.wordmark-no-bg
               .list
                 %a.btn.btn-default{download: "wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png"}
                   %i.fa.fa-download
@@ -154,12 +217,11 @@ extra_css:
                 %a.btn.btn-default{download: "wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-          .image-container.file-view.col-md-4
-            .text
-              %span Wordmark (B&W)
-            %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png", target: "_blank"}
-              .image.wordmark-grayscale
-            .multi-button
+            .image-container
+              .text
+                %span Wordmark (B&W)
+              %a{href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png", target: "_blank"}
+                .image.wordmark-grayscale
               .list
                 %a.btn.btn-default{download: "wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png"}
                   %i.fa.fa-download
@@ -170,140 +232,48 @@ extra_css:
                 %a.btn.btn-default{download: "wordmark_no_bg", href: "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.pdf"}
                   %i.fa.fa-download
                   %span   .PDF
-        .row.images-column.individual
-          .image-container.col-md-4.individual
-            .text
-              %span Founders
-            %a{href: "/images/press/founders.jpg", target: "_blank"}
-              .image.founders
-            .list
-              %a.btn.btn-default{download: "gitlab_founders", href: "/images/press/founders.jpg"}
-                %i.fa.fa-download
-                %span   .JPG
-          .image-container.col-md-4.individual
-            .text
-              %span Diff View
-            %a{href: "/images/press/screenshots/diff.png", target: "_blank"}
-              .image.diff
-            .list
-              %a.btn.btn-default{download: "gitlab_diff_view", href: "/images/press/screenshots/diff.png"}
-                %i.fa.fa-download
-                %span   .PNG
-          .image-container.col-md-4.individual
-            .text
-              %span Merge request
-            %a{href: "/images/press/screenshots/mr.png", target: "_blank"}
-              .image.mr
-            .list
-              %a.btn.btn-default{download: "gitlab_mr", href: "/images/press/screenshots/mr.png"}
-                %i.fa.fa-download
-                %span   .PNG
-        .row.images-column.individual
-          .image-container.col-md-4.individual
-            .text
-              %span Network Graph
-            %a{href: "/images/press/screenshots/network_graph.png", target: "_blank"}
-              .image.network-graph
-            .list
-              %a.btn.btn-default{download: "gitlab_network_graph_view", href: "/images/press/screenshots/network_graph.png"}
-                %i.fa.fa-download
-                %span   .PNG
-          .image-container.col-md-4.individual
-            .text
-              %span File View
-            %a{href: "/images/press/screenshots/file_view.png", target: "_blank"}
-              .image.file
-            .list
-              %a.btn.btn-default{download: "gitlab_file_view", href: "/images/press/screenshots/file_view.png"}
-                %i.fa.fa-download
-                %span   .PNG
-      %hr.divider/
-      .row.blog-twitter-row
-        .col-xs-1.col-md-2
-        .col-xs-10.col-md-8
-          %h2 RECENT NEWS
-          .recent-blog
-            %p
-              For recent news, please
-              %a{href: "https://about.gitlab.com/blog/archives.html"} visit our blog
-              or
-              = succeed "." do
-                %a{href: "https://twitter.com/gitlab/"} view our Twitter feed
-        .col-xs-1.col-md-2
-      %hr.divider/
-      .row
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
-          %h2 IN THE PRESS
-          .item
-            %a{href: "http://venturebeat.com/2015/07/09/y-combinator-backed-github-competitor-gitlab-raises-1-5m/"}
-              .press-image
-                = image_tag "/images/testimonials/user_102.svg", width: "100px"
-            .press-text
-              %a{href: "http://venturebeat.com/2015/07/09/y-combinator-backed-github-competitor-gitlab-raises-1-5m/"}
-                .article-title
-                  Y Combinator-backed GitHub competitor GitLab raises $1.5M
-              .press-company
-                %span - Venture Beat
-          .item
-            %a{href: "http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/"}
-              .press-image
-                = image_tag "/images/testimonials/user_99.svg", width: "120px"
-            .press-text
-              %a{href: "http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/"}
-                .article-title
-                  Code collaboration platform GitLab acquires rival Gitorious
-              .press-company
-                %span - The Next Web
-      .row
-        .col-xs-1.col-md-2
-        .col-xs-10.col-md-8
-          .recent-blog
-            %a{href: "/press/releases/"} Check all the press releases.
-      %hr.divider/
-      .row.recent-podcasts
-        .col-xs-1.col-md-1
-        .col-xs-10.col-md-10
-          %h2 PODCASTS
-          .podcast-item
-            .press-image
-              OCTOBER 2014
-            .press-text
-              %a{href: "http://blog.bitnami.com/2014/10/bitnami-open-source-leaders-interview.html"}
-                .article-title
-                  Bitnami Open Source Leaders Interview Series
-          .podcast-item
-            .press-image
-              AUGUST 2014
-            .press-text
-              %a{href: "http://www.binpress.com/blog/2014/08/05/binpress-podcast-episode-5-sytse-sijbrandij-gitlab/"}
-                .article-title
-                  Binpress podcast
-          .podcast-item
-            .press-image
-              NOVEMBER 2013
-            .press-text
-              %a{href: "http://episodes.gitminutes.com/2013/11/gitminutes-25-sytse-sijbrandij-from.html"}
-                .article-title
-                  Git Minutes (Nov 2013)
-          .podcast-item
-            .press-image
-              SEPTEMBER 2013
-            .press-text
-              %a{href: "http://thechangelog.com/103/"}
-                .article-title
-                  The Changelog
-        .col-xs-1.col-md-1
-      %hr.divider/
-      .investors
-        %h2 INVESTORS
-        .logo-row
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
-              = image_tag "/images/press/khosla.png"
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/"}
-              = image_tag "/images/press/user_75.png"
-          .press-image
-            %a{href: "https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/"}
-              = image_tag "/images/press/500.png"
+            .image-container
+              .text
+                %span Founders
+              %a{href: "/images/press/founders.jpg", target: "_blank"}
+                .image.founders
+              .list
+                %a.btn.btn-default{download: "gitlab_founders", href: "/images/press/founders.jpg"}
+                  %i.fa.fa-download
+                  %span   .JPG
+            .image-container
+              .text
+                %span Diff View
+              %a{href: "/images/press/screenshots/diff.png", target: "_blank"}
+                .image.diff
+              .list
+                %a.btn.btn-default{download: "gitlab_diff_view", href: "/images/press/screenshots/diff.png"}
+                  %i.fa.fa-download
+                  %span   .PNG
+            .image-container
+              .text
+                %span Merge request
+              %a{href: "/images/press/screenshots/mr.png", target: "_blank"}
+                .image.mr
+              .list
+                %a.btn.btn-default{download: "gitlab_mr", href: "/images/press/screenshots/mr.png"}
+                  %i.fa.fa-download
+                  %span   .PNG
+            .image-container
+              .text
+                %span Network Graph
+              %a{href: "/images/press/screenshots/network_graph.png", target: "_blank"}
+                .image.network-graph
+              .list
+                %a.btn.btn-default{download: "gitlab_network_graph_view", href: "/images/press/screenshots/network_graph.png"}
+                  %i.fa.fa-download
+                  %span   .PNG
+            .image-container
+              .text
+                %span File View
+              %a{href: "/images/press/screenshots/file_view.png", target: "_blank"}
+                .image.file
+              .list
+                %a.btn.btn-default{download: "gitlab_file_view", href: "/images/press/screenshots/file_view.png"}
+                  %i.fa.fa-download
+                  %span   .PNG

@@ -6,7 +6,7 @@
   contact:
     - address: Burbank/CA, USA
       phone: +1 (323) 393-0779
-    - website: http://www.verticalsysadmin.com/
+    - website: http://www.verticalsysadmin.com/git/GitLab.html
   social:
     - type: gitlab
       url: https://gitlab.com/u/vsagitlab
@@ -28,7 +28,7 @@
       phone: +972-722-405-222
     - address: Rockville/MD, USA
       phone: +1(866)503-1471
-    - website: http://www.almtoolbox.com/
+    - website: http://www.almtoolbox.com/gitlab.php
   social:
     - type: gitlab
       url: https://gitlab.com/u/almtoolbox
@@ -184,6 +184,18 @@
       url: https://twitter.com/pivotal
     - type: twitter
       url: https://twitter.com/pivotalcf
+- name: Perforce
+  image: /images/resellers/Perforce_Logo.png
+  content: |
+    If you’re a Perforce user, or considering Perforce, and want the power of Helix for easier project management, simple DevOps integration, and greater security through narrow cloning, but are also committed to supporting various Git users, then you should consider GitSwarm, the Git management ecosystem that is enterprise ready out of the box. Empower your developers with intuitive, native workflows they’ll love while increasing project efficiency that your management team will covet. 
+  email: Sales@Perforce.com
+  contact:
+    - website: https://www.perforce.com/gitswarm
+  social:
+    - type: twitter
+      url: https://twitter.com/perforce
+    - type: linkedin
+      url: https://www.linkedin.com/company/perforce-software
 - name: ReleaseTEAM
   image: /images/resellers/release-team-logo.png
   content: |
@@ -200,3 +212,4 @@
       url: https://twitter.com/ReleaseTEAM
     - type: linkedin
       url: http://www.linkedin.com/in/releaseteam
+

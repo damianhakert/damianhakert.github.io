@@ -21,7 +21,7 @@ The job titles link to the job descriptions.
 Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
 
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/) - Sid Sijbrandij
-  - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - Ashley Smith
+  - [Marketing](/handbook/marketing/) - [VP of Marketing](/jobs/vp-of-marketing/) - vacancy
     - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
       - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - (vacancy)
@@ -37,6 +37,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
       - [Technical Writing](https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/) - [Technical Writer](/jobs/technical-writer/)
+      - [Community Advocacy](/handbook/marketing/developer-relations/community-advocacy/) - [Community Advocate](/jobs/community-advocate/) (vacancy)
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon
@@ -57,7 +58,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Success Engineer (APAC and Channel)](/jobs/Success-Engineer-APAC-and-Channel)(vacancy)
     - [Platform (Backend)](/handbook/backend/) - [Platform Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) who are platform specialists
-    - [Discussion (Backend)](handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
+    - [Discussion (Backend)](/handbook/backend#discussion) - [Discussion Lead](/jobs/backend-lead/) - Sean McGivern
       - [Developers](/jobs/developer/) who are discussion specialists
     - [CI (backend)](/handbook/backend#ci) - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) who are CI specialists
@@ -69,7 +70,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) who are performance specialists
       - [Database specialists](/jobs/specialist/database/)
-    - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
+    - Build - [Build lead](/jobs/build-lead) - Marin Jankovski
       - [Developers](/jobs/developer/) who are packaging specialists
     - [Support](/handbook/support/) - [Support Lead (currently VP of Scaling)](/jobs/support-lead) - Ernst van Nierop
       - [Service Engineers](/jobs/service-engineer/)

@@ -3,6 +3,8 @@ layout: job_page
 title: "Product Manager"
 ---
 
+## Role
+
 We're looking for product managers that can help us work on the future of
 developer tools. Specifically we're looking for independent people that are
 interested in building solutions for (very) large teams and organizations.
@@ -51,6 +53,18 @@ determine how much can be scheduled.
 - You share our [values](/handbook/#values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects
+
+## Senior Product Manager
+
+A senior product manager is an experienced product manager that:
+
+1. Consistently displays the ability to ship changes in small iterations
+1. Regularly Proposes and leads new features
+1. Is able to distill proposals and requests from the community and customers to changes in GitLab
+1. Makes significant contributions to product marketing and makes sure this is up to date
+1. Shows deep understanding of their area and has a vision of where to go next
+1. Work independently and pro-actively
+1. Excites others with their work
 
 ## Relevant links
 

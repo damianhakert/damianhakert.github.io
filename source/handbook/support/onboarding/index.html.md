@@ -19,10 +19,10 @@ As members of the support team we are the first to interact with someone when th
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
 expected to:
 
-- Always be friendly and respectful
-- Be open to new ideas and points of view
-- It is OK if you don't know something. You can always ask someone else
-- It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
+- Always be friendly and respectful.
+- Be open to new ideas and points of view.
+- It is OK if you don't know something. You can always ask someone else.
+- It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary.
 - Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines).
 
 ## Service Engineering Bootcamp
@@ -32,10 +32,25 @@ When you first join the team everything will be new to you. In order to get you
 started with GitLab quickly a [Service Engineering Bootcamp Checklist](https://about.gitlab.com/handbook/support/onboarding/checklist)
 will be created for you to help guide you through your training.
 
-## WebEx
+## Tools
 
-More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
-a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
+We use Zendesk to handle tickets, and we will sometimes schedule calls. That is most often done through Zoom, but can also be done through WebEx if the customer's system does not allow them to install the Zoom plugin.
+
+### Zendesk
+
+For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/knowledge-base/zendesk/).
+
+### Zoom
+
+Zoom is a powerful and light-weight videoconferencing tool that works for 90% of the customer calls (see the bit about WebEx for the other 10%). As part of your support boot camp, you should have received a Pro account there so that you can schedule your own calls. To start a call, log on to [gitlab.zoom.us](https://gitlab.zoom.us/) using your personal credentials and click on "My Meetings" for a link to your personal meeting room. Share this with the customer.
+
+Zoom allows you to see the customer's desktop and
+to control it on request; and it also offers the option of recording the call (we do not typically do this, be certain to ask for the customer's permission of you have a good reason for recording). It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
+
+### WebEx
+
+For some customers, only Cisco systems are allowed and for those cases, WebEx will be the best tool for calls. To start a call / session use the `GitLab Support` WebEx account. Go to our
 [WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
 credentials found in the Support Vault on 1Password.
 
@@ -50,7 +65,7 @@ https://gitlabmeetings.webex.com/meet/gitlabsupport
 
 ![WebEx Room](/images/support/web-ex-room.png)
 
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
+WebEx allows you to see the customer's desktop and
 to control it on request. It also gives the customer the possibility to join via phone and
 us the possibility to use our computer audio connection.
 
@@ -75,9 +90,11 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- click the "Document this" checkbox (found on the left-hand side of the ticket)
-- enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
-- update the ticket
+- Click the "Document this" checkbox (found on the left-hand side of the ticket)
+- Enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
+- Update the ticket
+- Do not just look at the Docs and see how other directories and files were
+structured, we are trying to change some of that so please follow the [documentation styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.html#location-and-naming-of-documents)
 
 Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
@@ -99,10 +116,10 @@ Workflow for creating an issue:
 - Choose a template from the **Choose a template** dropdown and take a look at the
 **Typical kinds of issues created** below.
 - Fill in all the relevant sections
-- Assign it to someone, choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
-in the #support channel on slack who it should be assigned to. Do not worry that you are assigning
-someone a job when you don't even know them and they might be much more senior than you,
-if it's not appropriate for them, they will know the right person to assign it to and do that.
+- @mention someone in the issue to attract attention to it. Choose an expert [here](https://about.gitlab.com/team/) or feel free to ask
+in the #support channel on slack who it should be reviewed by. Do not worry that you are poking
+someone to review a job when you don't even know them and they might be much more senior than you,
+if it's not appropriate for them, they will know the right person to pass it along to and do that.
 
 Typical kinds of issues created:
 
@@ -181,6 +198,7 @@ add tags to it. Currently, the tags that are to be used are:
 - Kerberos
 - Importing
 - SSL
+- UX/UI
 
 Tagging tickets will allow us to better capture what topics need to be documented in more detail,
 and/or which areas of the product development can use some attention to prevent creating more requests for support.
@@ -299,6 +317,37 @@ chat channel. Read the positive feedback carefully, often it contains a question
 or suggestion for improvement which should be followed up on.
 
 
+## Customer Calls Best Practices
+
+### Before a Call
+
+After sending the WebEx Invite, go to the ticket and ask for confirmation. Having the customer confirmation will also help to detect errors on the scheduling process such as an incorrect timezone, date, etc.
+
+Add the call with description and duration to the Support Team Calendar.
+
+### During a Call
+
+Once you started the call and the client connects, indentify yourself. Example:
+
+> Hi {customer name}, this is {agent name} from GitLab Support.
+
+If you started the call and the client doesn't join, wait for a couple minutes. After 10 minutes of waiting
+go to the ticket and send a reply to check if the customer is having either issues with the scheduled time
+or connecting to the WebEx Platform.
+
+If after another 10 minutes you don't get answer, go ahead and re-schedule.
+
+If a call takes too long (> 1 hour), and/or if you're not making progress, discuss with the customer the need to re-schedule.
+
++ If you were having problems helping the customer, make sure to contact a teammate to join you on the re-scheduled call (Call Escalation)
++ If the customer had problems either with their setup, environment or connectivity, remember him to solve them before the new
+call when re-scheduling.
+
+### After a Call
+
+Update the ticket with a brief description of what was accomplished or not during the call making sure to point out the missing
+information to solve the ticket.
+
 ## Customer Training
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
@@ -309,6 +358,11 @@ via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) u
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
+## Keeping up to date with new GitLab versions
+
+Since we ship a new release each month on the 22nd, and since we manage to fit _a lot_ of great new features and fixes into each release, it is sometimes difficult for the Support Team to keep up to date with key changes.
+
+In general, it is the responsibility of each Service Engineer individually to read the release blog post, dig deeper where you need to or want to, and keep yourself up to date. However, to facilitate this further, we have a Pre-Release Call every third Thursday of the month (it is listed on the GitLab Support calendar). During the call, key parts of the product that are expanding rapidly or add more complexity than usual will be reviewed together by reading the draft release-post and inviting on team leads to walk the Service Engineers through major changes, e.g. in CI.  
 
 ## Team member is unavailable
 {: #not-available}
@@ -322,8 +376,9 @@ are, however, some things to consider when a member of the support team takes a 
 
 Before leaving for vacation, 2 weeks before at the latest, you should coordinate with your colleagues
 to see who can take over the days when you should be on-call. This can happen via an issue in our
-[Organization Repo](https://dev.gitlab.org/gitlab/organization/issues?label_name=pagerduty) or via
+[support issue tracker](https://gitlab.com/gitlab-com/support/issues) or via
 a Hangout that you should schedule.
+See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information.
 
 **Rest of the team**
 

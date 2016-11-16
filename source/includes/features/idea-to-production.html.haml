@@ -1,6 +1,6 @@
 .idea-to-production
   .container
-    %h1 Move faster from idea to production.
+    %h1.page-headline Move faster from idea to production.
 
     .row.tools-row
       .col-sm-6.col-md-5
@@ -15,7 +15,10 @@
       .col-sm-6.col-sm-push-6.col-md-5.col-md-push-5
         %h3 Shorten feedback cycles and increase confidence in your code.
         .description
-          GitLab has built-in CI and CD to test, build, and deploy your code.
+          GitLab has
+          %a{href: "/gitlab-ci"}
+            built-in Continuous Integration
+          and Continuous Deployment to test, build, and deploy your code.
           You can easily monitor the progress of your tests and build pipelines.
           Then deploy with the confidence that your code has been tested across
           multiple environments.
@@ -37,8 +40,13 @@
         %h3 Focus on building your product, not configuring your tools.
         .description
           Tools should be simple, intuitive, and just work out of the box.
-          GitLab ships pre-built packages for popular Linux distributions. It
-          installs in minutes, has a friendly UI, and offers detailed
-          documentation on every feature.
+          GitLab ships
+          %a{href: "/downloads"}
+            pre-built packages
+          for popular Linux distributions, it installs in minutes, has a
+          friendly UI, and offers detailed
+          %a{href: "https://docs.gitlab.com"}
+            documentation
+          on every feature.
       .col-sm-6.col-sm-pull-6.col-md-5.col-md-pull-5.image-column
         = image_tag "/images/home/value-illustration-4.png", alt: "Tools", class: "building-img"

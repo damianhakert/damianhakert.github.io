@@ -5,20 +5,32 @@
   %li{class: ("active" if current_page.url == "/features/")}
     %a{href: "/features"}
       Features
-  %li{class: ("active" if current_page.url == "/pricing/")}
-    %a{href: "/pricing"}
-      Pricing
+  %li{class: ("active" if current_page.url == "/products/")}
+    %a{href: "/products"}
+      Products
   %li{class: ("active" if current_page.url == "/community/")}
     %a{href: "/community"}
       Community
   %li
     %a{href: "https://gitlab.com/explore"}
       Explore
+  %li
+    %a{href: "https://docs.gitlab.com/"}
+      Docs
   %li{class: ("active" if current_page.url == "/blog/" || current_page.respond_to?(:blog_data))}
     %a{href: "/blog"}
       Blog
+  %li.visible-xs-block
+    %a{href: "https://gitlab.com/users/sign_in"}
+      Sign In
+  %li.visible-xs-block
+    %a{href: "https://gitlab.com/users/sign_in"}
+      Sign Up
   %li
     = partial "includes/layout/search"
-  %li
+  %li.hidden-xs
     %a.sign-in-up-btn{href: "https://gitlab.com/users/sign_in"}
       Sign In
+  %li.hidden-xs
+    %a.sign-in-up-btn.is-last{href: "https://gitlab.com/users/sign_in"}
+      Sign Up

@@ -75,6 +75,7 @@ The link to the deal registration form is located in the [reseller project](http
 When you complete the form, we get notified and will do the following:
 
 - Check our systems for opportunity approval
+- If approved provide deal protection
 - Create an opportunity in our SFDC implementation
 - Send a quote to your `GitLab@partnerTLD` email address <br>
 *Note: this is a reseller quote, not to be shared with the customer.*
@@ -258,6 +259,38 @@ The GitLab Authorized reseller logo should help tell your prospects and customer
 You should use our Authorized Reseller Logo on your materials where appropriate and in accordance with our brand guidelines.
 
 The logos are available in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
+
+## Making Marketing requests
+GitLab will strive to be able to support you in your marketing efforts.  The marketing should be focused on GitLab EE.  Marketing requests usually fall into 1 of 3 categories:
+### Events
+We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. If you think you have an event where people would like to get to know more about GitLab and our community, please do contact us.  
+Meetups, drink ups, hackathons, trade shows, and seminars are all examples of events that we may help you with. Leads gathered at an event that we help fund or promote need to be shared with us.  We ask for minimum of 6 weeks prior notice if you wish us to participate in an event with you.  More if we are expected to help promote the event.  
+_How we can help:_
+1. **Co-funding:**  Event costs such as booth space, venue, food, drinks, may, at our discretion, qualify for co-funding.  If approved, we might pay for up to half of an event's cost.  We may pay more than that or less than that under certain circumstances.  If GitLab is not the sole focus of the event, we would also expect your other vendors to participate in the cost sharing.
+2. **Speakers:**  We may be able to supply GitLab personel to attend and present at your event
+3. **Promotion:**  We may be able to promote your event to our users and prospects, through our website, and/or our social media.
+4. **Swag:** We may be able to provide you with shiny things bearing the mark of the :Tanuki:
+5. **Artwork:** Roller-banners and/or other items as needed
+
+When applying for co-marketing funds for an event please include the following information:
+  1. Event Name
+  2. Link to event website/sponsorship package or, if you are the host of the event, a description of the event and it's focus.
+  3. Attendance (How many will attend, and who are they likely to be)
+  4. Event Date(s) and location(s)
+  1. Total Cost 
+  2. Cost broken down to:
+    1. Admission/Booth rental or venue cost
+    2. Catering
+    3. How much your other vendors are contributing to the total cost
+  3. Do you need a gitlab speaker?
+    1. What are the requirements for the speaker?
+  4. Promotion.  What sort of promotion would you like us to do, and to whom?
+  5. Swag.  Will you be needing GitLab branded swag?  
+  
+### Advertising
+Gitlab may, at our discretion, also assist you with your advertising campaigns.  Artwork, content, quotes, and simular items are the typical items that we might provide.  More rarely, we may also help pay a portion of specific advertising campaigns that you run.  When requesting assistance, be as complete as you can in describing what you need, who the audience is, and what return you expect.  
+### Swag
+We have bee known to co-fund co-branded or locally produced SWAG.  Show us your idea.
 
 <style>
   blockquote p {

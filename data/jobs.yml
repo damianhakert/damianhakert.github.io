@@ -1,5 +1,10 @@
-- title: "Prometheus Specialist"
-  description: /jobs/specialist/prometheus/
+- title: "Prometheus Lead"
+  description: /jobs/prometheus-lead/
+  apply: https://gitlab.workable.com/jobs/366277/candidates/new
+  open: true
+
+- title: "Prometheus Engineer"
+  description: /jobs/prometheus-engineer/
   apply: https://gitlab.workable.com/jobs/346406/candidates/new
   open: true
 
@@ -11,7 +16,7 @@
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
   apply: https://gitlab.workable.com/jobs/242362/candidates/new
-  open: true
+  open: false
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
@@ -20,10 +25,11 @@
 
 - title: "Backend Developer"
   description: /jobs/developer/
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
 
-- title: "Business Development Representative"
+- title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
@@ -31,11 +37,6 @@
 - title: "Community Advocate"
   description: /jobs/community-advocate/
   apply: https://gitlab.workable.com/jobs/348185/candidates/new
-  open: true
-
-- title: "Content Designer"
-  description: /jobs/content-designer/
-  apply: https://gitlab.workable.com/jobs/317102/candidates/new
   open: true
 
 - title: "Database Specialist"
@@ -63,19 +64,9 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "Global Recruiter"
-  description: /jobs/global-recruiter/
-  apply: https://gitlab.workable.com/jobs/269339/candidates/new
-  open: true
-
 - title: "Support Lead"
   description: /jobs/support-lead/
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
-  open: true
-
-- title: "Senior Accountant (part time)"
-  description: /jobs/senior-accountant/
-  apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
 - title: "Product Manager"
@@ -83,14 +74,9 @@
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
-- title: "Product Marketing Manager: Enterprise Specialist"
-  description: /jobs/product-marketing-manager/
-  apply: https://gitlab.workable.com/jobs/285177/candidates/new
-  open: true
-  
-- title: "Product Marketing Manager: Partner and Channel Specialist"
-  description: /jobs/product-marketing-manager-partner/
-  apply: https://gitlab.workable.com/jobs/285177/candidates/new
+- title: "Product Manager: CI/CD Pipelines"
+  description: /jobs/product-manager-ci
+  apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
 - title: "Production Engineer"
@@ -105,8 +91,8 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
-  apply: https://gitlab.workable.com/jobs/278602/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Service Engineer"
   description: /jobs/service-engineer/
@@ -125,6 +111,7 @@
 
 - title: "Build Engineer"
   description: /jobs/build-engineer
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
 
@@ -133,11 +120,6 @@
   apply:
   open: false
 
-- title: "UX Researcher"
-  description: /jobs/ux-researcher/
-  apply: https://gitlab.workable.com/jobs/304926/candidates/new
-  open: true
-
 - title: "Junior Designer"
   description: /jobs/junior-designer/
   apply:
@@ -145,8 +127,8 @@
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: https://gitlab.workable.com/jobs/269330/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Open Application"
   description: /jobs/open-application/
@@ -161,4 +143,9 @@
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
   apply: https://gitlab.workable.com/jobs/317072/candidates/new
+  open: true
+
+- title: "VP of Marketing"
+  description: /jobs/vp-of-marketing/
+  apply: https://gitlab.workable.com/jobs/356285/candidates/new
   open: true

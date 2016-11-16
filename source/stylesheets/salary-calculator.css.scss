@@ -1,0 +1,147 @@
+@import "variables";
+
+.salary-container {
+  padding: 0 0 45px;
+
+  .col-sm-4,
+  .col-sm-8,
+  .col-sm-12 {
+    padding: 0;
+  }
+
+  .col-sm-6 {
+    padding: 0 10px 0 0;
+
+    @media (max-width: 767px) {
+      padding-right: 0;
+    }
+  }
+
+  .dropdown-menu-toggle,
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    padding: 8px;
+    background-color: $color-white;
+
+    li {
+      padding: 5px 8px;
+
+      &:hover:not(.filter-container) {
+        cursor: pointer;
+        background-color: $dropdown-hover-color;
+        text-decoration: none;
+        outline: 0;
+      }
+    }
+
+    .filter-container {
+      padding: 5px;
+    }
+  }
+
+  .dropdown {
+    margin-bottom: 10px;
+  }
+
+  .compensation {
+    border: 1px solid $dropdown-border-color;
+    border-radius: 3px;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    .title {
+      border-bottom: 1px solid $dropdown-border-color;
+      padding-bottom: 10px;
+    }
+
+    .amount {
+      padding-top: 10px;
+      font-size: 25px;
+    }
+  }
+
+  .formula-container {
+    margin-top: 20px;
+  }
+
+  .formula {
+    text-align: center;
+    color: $formula-text-color;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .variable,
+  .symbol,
+  .constant {
+    display: inline-block;
+  }
+
+  .variable,
+  .symbol {
+    padding: 3px 8px;
+  }
+
+  .variable {
+    border: 1px solid $dropdown-border-color;
+    background-color: $formula-variable-bg;
+    margin-bottom: 10px;
+
+    .name {
+      color: $formula-value-color;
+      padding-right: 8px;
+      border-right: 1px solid $formula-text-color;
+
+      + .value {
+        padding-left: 5px;
+        background-color: $formula-variable-bg;
+      }
+    }
+
+    .value {
+      background-color: $color-white;
+    }
+  }
+
+  .symbol:not(.multiplication) {
+    padding: 0;
+  }
+
+  .variable-group {
+    display: inline-block;
+    white-space: no-wrap;
+  }
+}
+
+.filter-container {
+  .filter-input {
+    padding: 0 7px;
+    width: 100%;
+    line-height: 30px;
+    outline: 0;
+    border: 1px solid $dropdown-filter-border-color;
+    border-radius: 2px;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: $dropdown-focus-color;
+
+      ~ .fa-search {
+        color: $dropdown-fa-focus-color;
+      }
+    }
+  }
+
+  .fa-search {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    color: $dropdown-fa-color;
+  }
+}
