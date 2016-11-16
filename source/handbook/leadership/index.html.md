@@ -44,6 +44,7 @@ title: Leadership
 - High output management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
 - The Hard thing about hard things - Ben Horowitz
 - [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
+- Crucial Conversations: Tools for Talking When Stakes Are High - Kerry Patterson 
 
 ## No matrix organization
 
