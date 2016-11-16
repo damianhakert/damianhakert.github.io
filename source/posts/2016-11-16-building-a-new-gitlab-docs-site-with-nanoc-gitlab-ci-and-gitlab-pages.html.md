@@ -7,6 +7,12 @@ image_title:
 description: 
 ---
 
+We recently rebuilt [docs.gitlab.com](https://docs.gitlab.com) from scratch. Where previously the site was generated with a simple Ruby script, we now use a proper static site generator.
+
+We wanted to show you some of the improvements we made, problems we faced, and the ways we used GitLab to build the new site more quickly and easily.
+
+<!-- more -->
+
 ## Improvements
 
 The old documentation website was pretty much just an HTML file, a stylesheet, and a Ruby script called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a static site generator and take better advantage of GitLab Pages.
@@ -31,11 +37,11 @@ In the `Rakefile` we have a hash for each of our products containing all the dat
 
 ```ruby
 ce = {
-   name: 'ce',
-   repo: 'https://gitlab.com/gitlab-org/gitlab-ce.git',
-   temp_dir: 'tmp/ce/',
-   dest_dir: 'content/ce',
-   doc_dir:  'doc'
+  name: 'ce',
+  repo: 'https://gitlab.com/gitlab-org/gitlab-ce.git',
+  temp_dir: 'tmp/ce/',
+  dest_dir: 'content/ce',
+  doc_dir:  'doc'
 }
 ```
 
