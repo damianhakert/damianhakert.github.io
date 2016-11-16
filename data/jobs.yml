@@ -96,6 +96,7 @@
 
 - title: "Service Engineer"
   description: /jobs/service-engineer/
+  salary: 75500
   apply: https://gitlab.workable.com/jobs/87722/candidates/new
   open: true
 
@@ -127,7 +128,7 @@
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: 
+  apply:
   open: false
 
 - title: "Open Application"
