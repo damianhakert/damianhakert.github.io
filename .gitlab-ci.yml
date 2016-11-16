@@ -53,6 +53,8 @@ review_stop:
   before_script: []
   artifacts: {}
   cache: {}
+  variables:
+    GIT_STRATEGY: none
   script:
     - rm -rf public ~/pages/$CI_BUILD_REF_NAME
   when: manual
