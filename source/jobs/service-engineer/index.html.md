@@ -36,8 +36,7 @@ More information can be found on the [support page in the handbook](https://abou
   - Experience with Ruby on Rails applications and Git
 - Communication Skills
   - Communicate clearly with customers on technical topics
-  - Escalate issues to the right people
-  - Follow up on outstanding issues
+  - Take ownership and work to manage the entire issue lifecycle, from customer, to development team, to resolution
   - Makes customers happy
 - Excellent spoken and written English
 - You share our [values](/handbook/#values), and work in accordance with those values
@@ -47,7 +46,7 @@ More information can be found on the [support page in the handbook](https://abou
 
 Junior Service Engineers share the same responsibilities outlined above, but typically
 join with less or alternate experience in one of the key areas of Service Engineering
-expertise (system admin skills, Ruby on Rails, Git, and customer service). For example,
+expertise (SysAdmin skills, Ruby on Rails, Git, and customer service). For example,
 a person with extensive experience in a web framework other than RoR, but with experience
 on the other three areas would typically join as a Junior.
 
@@ -82,7 +81,7 @@ involve a number of items:
   - Can solve most support tickets in a reasonable time without escalating to development
   - Expert in most advanced topics (e.g. LDAP, Jenkins/CI integration, Geo)
   - Regularly submits merge requests for customer GitLab bugs/issues
-  - Provides thorough and timely code and ticker response feedback for peers
+  - Provides thorough and timely code and ticket response feedback for peers
 - Actively works across functional groups to improve product or processes
 - Looks for opportunities to improve the customer user experience
   - Documentation: writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
