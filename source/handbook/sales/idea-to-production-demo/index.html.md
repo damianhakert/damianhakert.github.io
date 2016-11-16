@@ -195,8 +195,6 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues, Issue Board
 
-TODO: [When viewing an individual issue the menu should also be expanded.](https://gitlab.com/gitlab-org/gitlab-ce/issues/23965)
-
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
 
@@ -304,7 +302,7 @@ Taking a look at the Pipelines tab, we see that we’re re-running CI on `master
 Going back to the merge request, we now see another status showing that this code has indeed been deployed to staging. Clicking through, we can see our changes running live on our staging server.
 
 > * Click on Merge Requests, Merged, and click on `!1`
-> * Click on Staging URL to show that changes got deployed TODO: [Vision demo deployments don't seem to work](https://gitlab.com/gitlab-org/gitlab-ce/issues/23930)
+> * Click on Staging URL to show that changes got deployed
 
 ## Production (Chatops)
 
