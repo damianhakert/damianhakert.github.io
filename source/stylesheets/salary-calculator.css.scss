@@ -1,6 +1,7 @@
 @import "variables";
 
-.salary-container {
+.salary-container,
+.move-container {
   padding: 0 0 45px;
 
   .col-sm-4,
@@ -117,6 +118,36 @@
   }
 }
 
+.move-container {
+
+  .col-sm-4,
+  .updated-compensation {
+    padding: 0 5px;
+  }
+
+  .compensation {
+    position: relative;
+    min-height: 45px;
+
+    .title,
+    .amount {
+      position: absolute;
+    }
+
+    .title {
+      top: 4px;
+      padding: 0;
+      font-size: 13px;
+      border: none;
+    }
+
+    .amount {
+      bottom: 4px;
+      font-size: 15px;
+    }
+  }
+}
+
 .filter-container {
   .filter-input {
     padding: 0 7px;
@@ -143,5 +174,45 @@
     top: 22px;
     right: 25px;
     color: $dropdown-fa-color;
+  }
+}
+
+.input-container {
+  position: relative;
+  min-height: 45px;
+  margin: 0;
+  padding: 6px 20px 6px 10px;
+  border: 1px solid $dropdown-border-color;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $dropdown-focus-color;
+  }
+
+  .input-label {
+    position: absolute;
+    top: 4px;
+    font-size: 13px;
+    color: $color-gray-light;
+    font-weight: normal;
+  }
+
+  .input-field {
+    position: absolute;
+    bottom: 4px;
+    padding: 0;
+    width: 95%;
+    height: 18px;
+    font-size: 15px;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: $dropdown-focus-color;
+    }
   }
 }
