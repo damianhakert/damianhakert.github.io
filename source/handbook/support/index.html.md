@@ -136,8 +136,7 @@ Support requests escalated to tier 3:
 
 ### Zendesk SLA settings and Breach alerts
 
-SLA's are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/categories/zendesk)  page.
-
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/categories/zendesk/zendesk_tips.html) page.
 
 ## How we're doing
 
