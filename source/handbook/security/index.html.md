@@ -309,3 +309,51 @@ one of our developers, uses 1Password:
 [1Password for Teams]: https://blog.agilebits.com/2015/11/03/introducing-1password-for-teams/
 [Teams account]: https://gitlab.1password.com/
 [OSX app]: https://agilebits.com/downloads
+
+## Security Awareness Training
+
+During their first two weeks at GitLab new team members should receive an email
+with links to Security Awareness Training. This training covers how to recognize
+phishing attacks, how to safely use public wireless networks, and some general
+security tips and principles.
+
+### Phishing Tests
+
+GitLab conducts routine phishing tests using a third-party testing platform. All
+team members will occasionally receive emails that are designed to look like
+legitimate business-related communications but will in actuality be simulated
+phishing attacks. Real phishing attacks are designed to steal credentials or
+trick the recipient into downloading or executing dangerous attachments. No
+actual attempts will be made by GitLab or the third-party testing site to steal
+credentials or execute malicious code.
+
+The goal of these campaigns is not to catch people clicking on dangerous links
+or punish those who do, but rather to get people thinking about security and the
+techniques used by attackers via email to trick you into running malicious
+software or disclosing web passwords. If you fall victim to one of these
+simulated attacks feel free to take the training courses again or to ask the
+security team for more information on what could've been done to recognize the
+attack. What you shouldn't do is feel any shame for having clicked on the link
+or entered any data, nor should you feel like you need to _cop_ to the security
+team and let them know you made a mistake. Making a mistake online is
+practically the reason the Internet was invented.
+
+### What to do if you suspect an email is a phishing attack
+
+Delete it!
+
+Whether you believe that you have received an email from our testing platform or
+you believe you have received a real phishing attempt, the best thing to do is
+to delete the email. GMail also offers the option to report the email directly
+to Google as a phishing attempt which will result in its deletion. If you
+suspect that the email is targeted specifically at you or GitLab, please do
+notify the security team so it can be investigated. If you forward the phishing
+email to the security team please do so as an attachment and not inline. To
+forward the email as an attachment from inside GMail:
+
+  1. In the reply options choose "show original"
+  1. Choose "download original"
+  1. Save to your local drive or Google Drive
+  1. Create a new email with the saved email as an attachment
+
+Remember: When in doubt, delete it.
