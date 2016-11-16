@@ -1994,6 +1994,17 @@
   story:  |
           Joining November 21st
 
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/accounting-manager/">Accounting Manager</a>
+  reports_to: Controller
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
+
 - name: C.D.
   locality:
   country:
