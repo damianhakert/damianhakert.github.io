@@ -1,12 +1,12 @@
 ---
-title: "When Software Eats Software: Our Thoughts from Web Summit 2016"
+title: "When Software Eats Software, Plus Our Recap from Web Summit 2016"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 image_title: '/images/blogimages/web-summit-recap.jpg'
-description: "Watch our CEO present at Web Summit's Centre Stage"
+description: "Our CEO explains how GitLab's integrated experience is changing the way software is developed."
 ---
 
-_Watch our CEO Sytse Sijbrandij give a talk at Web Summit 2016, and listen in on our team recap of the event._ 
+_Watch our CEO [Sytse Sijbrandij](https://twitter.com/sytses) give a talk at Web Summit's Centre Stage, and listen in on our team recap of the event._ 
 
 <!-- more -->
 
