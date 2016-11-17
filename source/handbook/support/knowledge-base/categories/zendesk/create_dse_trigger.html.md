@@ -1,4 +1,3 @@
-
 ---
 layout: markdown_page
 title: Creating a DSE trigger
@@ -14,26 +13,26 @@ category: Zendesk
 ----
 
 
-### Workflow - Adding DSE triggers to ZenDesk 
+## Workflow - Adding DSE triggers to ZenDesk
 
-##### Overview
+### Overview
 
 
 Use this workflow when adding a DSE trigger to ZenDesk as part of the Dedicated Service Engineering policy - https://about.gitlab.com/handbook/support/#dedicated-service-engineers
 
 ______________
 
-##### Workflow
+### Workflow
 
 
 
 1. Ensure the organization exists in ZenDesk
-   - Search for the organization email domain in https://gitlab.zendesk.com/agent/admin/people 
+   - Search for the organization email domain in https://gitlab.zendesk.com/agent/admin/people
    - If the organization does not exist, create a new organization
 https://gitlab.zendesk.com/agent/organizations/new
- 
+
 1. Navigate to the trigger page in ZenDesk (administrator account required)
-   - https://gitlab.zendesk.com/agent/admin/triggers 
+   - https://gitlab.zendesk.com/agent/admin/triggers
 
 1. Click “add trigger”
 
@@ -45,8 +44,8 @@ https://gitlab.zendesk.com/agent/organizations/new
 Meet all of the following conditions:
 Ticket: Organization is {COMPANY}
 
-Perform these actions: 
-Ticket: Assignee {AGENT} 
+Perform these actions:
+Ticket: Assignee {AGENT}
 Ticket: Priority High
 
 ```
