@@ -2,9 +2,9 @@
 title: "Introducing Review Apps"
 author: Mark Pundsack
 author_twitter: MarkPundsack
-categories: feature
-image_title:
-description: Transform your development flow with temporary apps for review
+categories: GitLab workflow
+image_title: /images/blogimages/review_apps_cover.png
+description: Transform your development flow with temporary review apps
 ---
 
 {::options parse_block_html="true" /}
@@ -19,7 +19,7 @@ When you start, you have no users so there's very little risk in deploying direc
 
 - **tanuki**
 
-But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace continuous delivery and set it up to automatically deploy to `staging` any time `master` is updated:
+But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace [continuous delivery](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) and set it up to automatically deploy to `staging` any time `master` is updated:
 
 - **tanuki**
 - **tanuki-staging**
@@ -81,7 +81,7 @@ Review Apps aren't just for large teams; they're great even for solo developers.
 
 To [get started with Review Apps](https://docs.gitlab.com/ce/ci/review_apps/), you'll need to figure how to create and deploy a new app using shell scripts, then put that into your `.gitlab-ci.yml` in a special job.
 
-You might use NGINX with subdirectories, like [we do for about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/3709). Or use the [Openshift client to create and build new apps](https://gitlab.com/gitlab-examples/review-apps-openshift/blob/master/.gitlab-ci.yml). Either way, you're in full control, creating and deploying temporary review apps on your own private infrastructure. Need them behind a firewall on dedicated PCs? No problem. Want them deployed in the cloud using the latest Docker technology? No problem. If you can script it, we can run it with GitLab CI.
+You might use NGINX with subdirectories, like [we do for about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L33-70). Or use the [Openshift client to create and build new apps](https://gitlab.com/gitlab-examples/review-apps-openshift/blob/master/.gitlab-ci.yml). Either way, you're in full control, creating and deploying temporary review apps on your own private infrastructure. Need them behind a firewall on dedicated PCs? No problem. Want them deployed in the cloud using the latest Docker technology? No problem. If you can script it, we can run it with GitLab CI.
 
 ## A simple example
 
@@ -117,13 +117,18 @@ stop_review:
     - master
 ```
 
-Experimental support for Review Apps is available now with creating dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps is available for free in GitLab CE, EE, and on GitLab.com.
+## Conclusion
+
+Review Apps are about improving the fidelity and speed of review; bringing everyone (product managers, QA, designers, etc.) into the conversation earlier, with higher quality information, so you move faster from idea to production. After you embrace them, you'll look back and wonder how you ever lived without them.
+
+Experimental support for Review Apps is available now, with creating dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps is available for free in GitLab CE, GitLab EE, and on GitLab.com.
 
 ## Further reading
 
 - [Review Apps documentation](https://docs.gitlab.com/ce/ci/review_apps/)
 - [Environments documentation](https://docs.gitlab.com/ce/ci/environments.html)
 - [Review Apps with NGINX example project](https://gitlab.com/gitlab-examples/review-apps-nginx)
+- [Review Apps with Openshift example project](https://gitlab.com/gitlab-examples/review-apps-openshift)
 
 ---
 
