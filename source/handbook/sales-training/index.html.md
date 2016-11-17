@@ -302,6 +302,8 @@ Reps can often forget to include a call-to-action in their emails, making it dif
 Here are some examples of calls-to-action reps can include in their sales emails:
 
 1. Include a calendar invite
+1. Provide information relevant to their industry or company
+1. Make sure the subject line is all about the prospect, not you
 1. Provide a case study and ask the buyer to read it
 1. Ask when they’re free for a discussion
 1. Send them to a piece of content for review
