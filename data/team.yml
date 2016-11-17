@@ -2010,6 +2010,17 @@
   story:  |
           Joining November 21st
 
+- name: M.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
+  reports_to: VP of Scaling
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 21st
+
 - name: A.N.
   locality:
   country:
@@ -2031,3 +2042,5 @@
   gitlab:
   story:  |
           Joining December 1st
+          
+
