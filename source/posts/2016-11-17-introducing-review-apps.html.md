@@ -19,7 +19,7 @@ When you start, you have no users so there's very little risk in deploying direc
 
 - **tanuki**
 
-But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace [continuous delivery](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) and set it up to automatically deploy to `staging` any time `master` is updated:
+But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace [continuous delivery](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-delivery) and set it up to automatically deploy to `staging` any time `master` is updated:
 
 - **tanuki**
 - **tanuki-staging**
@@ -68,7 +68,7 @@ Review Apps are ephemeral app environments that are created dynamically every ti
 
 ![Environments](https://gitlab.com/gitlab-org/gitlab-ce/uploads/dfadbba782a367e55e37c861f61f1c24/image.png)
 
-Once you embrace review apps, you'll find it hard to go back. You'll get rid of all your `dev` apps. You might even move on to full continuous deployment and get rid of your `staging` app. After all, the feature will have gone through full automated CI testing, and with high fidelity feature-level testing on a review app, `staging` becomes an unnecessary speed bump on your way to full-speed productivity. Once a merge request is approved and merged, have it automatically deployed to `production`!
+Once you embrace review apps, you'll find it hard to go back. You'll get rid of all your `dev` apps. You might even move on to full [continuous deployment](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-deployment) and get rid of your `staging` app. After all, the feature will have gone through full automated CI testing, and with high fidelity feature-level testing on a review app, `staging` becomes an unnecessary speed bump on your way to full-speed productivity. Once a merge request is approved and merged, have it automatically deployed to `production`!
 
 ![Deploy Flow](/images/blogimages/deploy_review_apps.png)
 
