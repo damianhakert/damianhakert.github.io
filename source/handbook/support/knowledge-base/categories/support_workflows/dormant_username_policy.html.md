@@ -33,7 +33,9 @@ ______________
 1. Create a **new ZenDesk ticket** with the **username owner's email address (found in admin)**. 
 1. Apply the **“Account::Dormant Username::Contact Username Owner”** Macro and mark the ticket as **Pending**. 
 1. Make an internal comment providing a link to the ticket “requesting user's ticket”
-1. Wait for **a response** or the ticket to be **automatically reopened** in 2 weeks. 
+1. Wait for **a response** or the ticket to be **automatically reopened** in a week.
+1. Apply the **“Account::Dormant Username::Contact Username Owner”** Macro a second time and mark the ticket as **Pending**.
+1. Wait for **a response** or the ticket to be **automatically reopened** in a week.
 
 
 ##### Username owner responded
