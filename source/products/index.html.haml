@@ -20,26 +20,6 @@ extra_font:
       .col-md-3
         .featured-item
           .edition-name
-            GitLab.com
-          .featured-item-body
-            %h2.featured-item-headline
-              Free
-            %h3.featured-item-headline-small
-              unlimited repositories
-            = icon "com", "featured-item-icon", {width: 76, height: 76, label: "GitLab.com"}
-            %ul.featured-item-list.list-unstyled
-              %li.item-description
-                Hosted on GitLab's servers
-              %li.line-separator
-              %li.item-description
-                Unlimited private collaborators
-              %li.line-separator
-              %li.item-description
-                = link_to "Learn more...", "/gitlab-com/", class: "action-link"
-            = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
-      .col-md-3
-        .featured-item
-          .edition-name
             Community Edition
           .featured-item-body
             %h2.featured-item-headline
@@ -78,6 +58,26 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "#compare-options", class: "action-link"
             = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
+      .col-md-3
+        .featured-item
+          .edition-name
+            GitLab.com
+          .featured-item-body
+            %h2.featured-item-headline
+              Free
+            %h3.featured-item-headline-small
+              unlimited repositories
+            = icon "com", "featured-item-icon", {width: 76, height: 76, label: "GitLab.com"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Hosted on GitLab's servers
+              %li.line-separator
+              %li.item-description
+                Unlimited private collaborators
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "/gitlab-com/", class: "action-link"
+            = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
       .col-md-3
         .featured-item
           .edition-name

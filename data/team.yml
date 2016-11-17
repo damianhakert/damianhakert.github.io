@@ -312,7 +312,6 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-docs">gitlab-docs</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
@@ -1751,16 +1750,17 @@
           Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
           In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
 
-- name: J.V.
-  locality:
-  country:
+- name: Julius Volz
+  locality: Berlin
+  country: Germany
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
   reports_to: Director of Strategic Partnerships
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: julius.jpg
+  twitter: juliusvolz
+  gitlab: juliusv
   story:  |
-          Joining October 1st
+          Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
+          He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
 - name: B.B
   locality:
@@ -1811,6 +1811,8 @@
   picture: connor.png
   twitter: connorjshea
   gitlab: connorshea
+  maintains: |
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-docs">gitlab-docs</a></li>
   story:  |
           One part Google, two parts trial-and-error. Mostly self-taught
           front-end developer. He’s passionate about performance, user
@@ -1984,6 +1986,16 @@
   story:  |
           From Tech Support leveled up to Customer Success, James has many years of experience and leverages a broad background following interest in Business, IT, and Computer Science.  You will find James managing your account to ensure you get the most out of products now and going forward.  When not plugged-in, he is most likely cycling in the desert (day or night), functional training, partaking in modern cuisine, and often staying up late.
 
+- name: B.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
+  reports_to: Buid Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 16th
 
 - name: K.L.
   locality:
@@ -1995,6 +2007,17 @@
   gitlab:
   story:  |
           Joining November 21st
+
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/accounting-manager/">Accounting Manager</a>
+  reports_to: Controller
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
 
 - name: C.D.
   locality:
