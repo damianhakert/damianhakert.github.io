@@ -17,9 +17,6 @@ Set permissions according to people's role, rather than either read or write acc
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
 
-### Attachments in issues
-In GitLab you can attach any file to any issue or comment.
-
 ### Innersourcing
 Internal projects in GitLab allow you to promote innersourcing of your internal repositories.
 

@@ -17,75 +17,100 @@ extra_js:
         .description
           Merge requests with line-by-line comments, CI and issue tracker integrations and much more...
       .wide-img
-        %a.image-link{href: "/images/feature_page/mr_sh.png"}
-          = image_tag "/images/feature_page/mr_sh.png", class: "img-responsive"
+        %a.image-link{href: "/images/feature_page/screenshots/mr_sh.png"}
+          = image_tag "/images/feature_page/screenshots/mr_sh.png", class: "img-responsive"
       .wide-feature-link
-        %a.btn-default{href: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"} See the power of merge requests on GitLab.com
+        %a.btn-default{href: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"} See merge requests in action
   .container
     .row.feature-row.first
       .col-md-4.small-feature
         .name
+          MERGE CONFLICT
+          %b RESOLUTION
+        %a.image-link{href: "/images/feature_page/screenshots/02-merge-conflicts.png"}
+          = image_tag "/images/feature_page/screenshots/02-merge-conflicts.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
           ACTIVITY
           %b STREAM
-        %a.image-link{href: "/images/feature_page/activity_stream_full.png"}
-          = image_tag "/images/feature_page/activity_stream_full.png", class: "img-responsive"
+        %a.image-link{href: "/images/feature_page/screenshots/03-activity.png"}
+          = image_tag "/images/feature_page/screenshots/03-activity.png", class: "img-responsive"
         .link
           %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/activity"} Have a look at an actual activity page
       .col-md-4.small-feature
         .name
           FILE
           %b BROWSER
-        %a.image-link{href: "/images/feature_page/file_browser_full.png"}
-          = image_tag "/images/feature_page/file_browser_full.png", class: "img-responsive"
+        %a.image-link{href: "/images/feature_page/screenshots/04-file-browser.png"}
+          = image_tag "/images/feature_page/screenshots/04-file-browser.png", class: "img-responsive"
         .link
           %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"} Try navigating GitLab's code
-      .col-md-4.small-feature
-        .name
-          GIT POWERED
-          %b WIKI
-        %a.image-link{href: "/images/feature_page/wiki_full.png"}
-          = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
     .row.feature-row
       .col-md-4.small-feature
         .name
           ISSUE
           %b MANAGEMENT
-        %a.image-link{href: "/images/feature_page/issue_management.png"}
-          = image_tag "/images/feature_page/issue_management.png", class: "img-responsive"
+        %a.image-link{href: "/images/feature_page/screenshots/05-issue-management.png"}
+          = image_tag "/images/feature_page/screenshots/05-issue-management.png", class: "img-responsive"
         .link
-          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how we use issues to manage our open source project
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how GitLab uses issues
+      .col-md-4.small-feature
+        .name
+          ISSUE
+          %b BOARD
+        %a.image-link{href: "/images/feature_page/screenshots/06-issue-board.png"}
+          = image_tag "/images/feature_page/screenshots/06-issue-board.png", class: "img-responsive"
+        .link
+          %a{href: "https://about.gitlab.com/solutions/issueboard/"} Learn how to create your own Issue Board 
       .col-md-4.small-feature
         .name
           CODE
           %b SNIPPETS
-        %a.image-link{href: "/images/feature_page/snippets_full.png"}
-          = image_tag "/images/feature_page/snippets_full.png", class: "img-responsive"
+        %a.image-link{href: "/images/feature_page/screenshots/07-code-snippets.png"}
+          = image_tag "/images/feature_page/screenshots/07-code-snippets.png", class: "img-responsive"
+    .row.feature-row
       .col-md-4.small-feature
         .name
-          WEB
-          %b HOOKS
-        %a.image-link{href: "/images/feature_page/webhooks_full.png"}
-          = image_tag "/images/feature_page/webhooks_full.png", class: "img-responsive"
+          GITLAB
+          %b CI
+        %a.image-link{href: "/images/feature_page/screenshots/08-ci.png"}
+          = image_tag "/images/feature_page/screenshots/08-ci.png", class: "img-responsive"
+        .link
+          %a{href: "https://about.gitlab.com/gitlab-ci"} Read more on GitLab CI
+      .col-md-4.small-feature
+        .name
+          REVIEW
+          %b APPS
+        %a.image-link{href: "/images/feature_page/screenshots/09-review-apps.png"}
+          = image_tag "/images/feature_page/screenshots/09-review-apps.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          CONTAINER
+          %b REGISTRY
+        %a.image-link{href: "/images/feature_page/screenshots/10-container-registry.png"}
+          = image_tag "/images/feature_page/screenshots/10-container-registry.png", class: "img-responsive"
     .row.feature-row.last
       .col-md-4.small-feature
         .name
-          GIT
-          %b HOOKS
-        %a.image-link{href: "/images/feature_page/githooks_full.png"}
-          = image_tag "/images/feature_page/githooks_full.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          LDAP
-          %b GROUP SYNC
-        %a.image-link{href: "/images/feature_page/ldap_groups_full.png"}
-          = image_tag "/images/feature_page/ldap_groups_full.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          REPOSITORY
-          %b MIRRORING
-        %a.image-link{href: "/images/feature_page/mirror.png"}
-          = image_tag "/images/feature_page/mirror.png", class: "img-responsive"
+          CYCLE
+          %b ANALYTICS
+        %a.image-link{href: "/images/feature_page/screenshots/11-cycle-analytics.png"}
+          = image_tag "/images/feature_page/screenshots/11-cycle-analytics.png", class: "img-responsive"
         .link
-          %a{href: "http://docs.gitlab.com/ee/workflow/repository_mirroring.html"}
-            Read about repository mirroring
+          %a{href: "https://about.gitlab.com/solutions/cycle-analytics/"} Measure your team's cycle time 
+      .col-md-4.small-feature
+        .name
+          GITLAB
+          %b PAGES
+        %a.image-link{href: "/images/feature_page/screenshots/12-pages.png"}
+          = image_tag "/images/feature_page/screenshots/12-pages.png", class: "img-responsive"
+        .link
+          %a{href: "https://pages.gitlab.io/"} Create a website for your project 
+      .col-md-4.small-feature
+        .name
+          GIT POWERED
+          %b WIKI
+        %a.image-link{href: "/images/feature_page/screenshots/13-wiki.png"}
+          = image_tag "/images/feature_page/screenshots/13-wiki.png", class: "img-responsive"
+
 = partial "includes/features/gitlab-ee-trial"

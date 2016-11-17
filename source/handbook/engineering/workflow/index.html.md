@@ -120,20 +120,14 @@ A number of type labels have a priority assigned to them, which automatically ma
 Type labels are always lowercase, but can have any color, besides blue (which is already reserved for subject labels).
 The descriptions on the [labels page][labels-page] explain what falls under each type label.
 
-### Priority labels
+### Priority labels (`Deliverable` and `Stretch`)
 
-To manually assign priority to specific features, there are labels such as `P1`, `P2`, `P3`.
-These are assigned by leads and product to indicate overruling priority, and are to be used carefully.
+Priority labels help us clearly communicate expectations of the work for the release. There are two levels of priority labels:
 
-Right now, these are in use:
+- `Deliverable`: Issues that are expected to be delivered in this milestone. 
+- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release. 
 
-- `P1`: Critical. Above all, this should be worked on this milestone. Reserved for only a handful of issues.
-- `P2`: Must. Must be finished this milestone
-- `P3`: Should. Should be finished this milestone.
-
-All other issues are nice to land in a milestone, but not necessarily expected to do so.
-They will be naturally ordered by the prioritized type labels.
-This prevents ‘nice to have’ features from being prioritised over fixing bugs, which might be less fun, but is often more important.
+Work with your lead if you feel that there are too many `Deliverable` issues scheduled for the current release.
 
 ## Scheduling issues
 

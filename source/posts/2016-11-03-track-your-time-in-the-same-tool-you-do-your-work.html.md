@@ -7,7 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "Announcing Time Tracking in GitLab"
 ---
 
-In 8.14 we are adding Time Tracking to GitLab Enterprise Edition to allow teams to stack their project estimates against their time spent. At GitLab, our goal is to build everything software development teams need to collaborate efficiently into one product. With each new release we reduce the number of external tools you need, allowing you to complete the full software development lifecycle within GitLab. Lets take a look at how Time Tracking works.
+In 8.14 we are adding Time Tracking to GitLab Enterprise Edition as a Product to allow teams to stack their project estimates against their time spent. At GitLab, our goal is to build everything software development teams need to collaborate efficiently into one product. With each new release we reduce the number of external tools you need, allowing you to complete the full software development lifecycle within GitLab. Lets take a look at how Time Tracking works.
 
 <!-- more -->
 
@@ -16,7 +16,7 @@ Most teams use external tools to track time, but we wanted to give them a more n
 - The `/spent` command will let you record the time you spent working on a task e.g. `/spent 10h 45m`. Multiple spend commands add to the total time spent, visible in the sidebar.
 - The `/estimate` command will let you enter a time estimate. Contrary to the `/spent` command, the last `/estimate` entry overrides any previous.
 
-The `/spent` and `/estimate` commands can also be used independently of each other e.g tracking time without a formal estimation stage. With these two simple commands, you and your team have everything you need to get started estimating and track your time, all from within GitLab. You can read more about the exact specification in the [corresponding issue](https://gitlab.com/gitlab-org/gitlab-ee/issues/985).
+The `/spent` and `/estimate` commands can also be used independently of each other e.g tracking time without a formal estimation stage. With these two simple commands, you and your team have everything you need to get started estimating and track your time, all from within GitLab. You can read more about the exact specification in the [corresponding issue](https://gitlab.com/gitlab-org/gitlab-ee/issues/985), or in the [landing page](https://about.gitlab.com/features/time-tracking/).
 
 ![time tracking example](images/blogimages/track-your-time-in-the-same-tool-you-do-your-work/time_tracking.png)
 

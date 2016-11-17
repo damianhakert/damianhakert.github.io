@@ -30,6 +30,45 @@ build:
     paths:
       - public/
 
+review:
+  stage: deploy
+  before_script: []
+  cache: {}
+  script:
+    - rsync -av --delete public ~/pages/$CI_BUILD_REF_NAME
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_NAME.about.gitlab.com
+    on_stop: review_stop
+  only:
+    - branches
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
+
+review_stop:
+  stage: deploy
+  before_script: []
+  artifacts: {}
+  cache: {}
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - rm -rf public ~/pages/$CI_BUILD_REF_NAME
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+  only:
+    - branches
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
+
 deploy:
   stage: deploy
   dependencies:
@@ -37,7 +76,9 @@ deploy:
   before_script: []
   script:
     - rsync --delete -r public/ ~/public/
-  environment: production
+  environment:
+    name: production
+    url: https://about.gitlab.com
   tags:
     - deploy
   only:

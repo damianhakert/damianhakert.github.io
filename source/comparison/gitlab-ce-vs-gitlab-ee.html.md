@@ -11,4 +11,4 @@ extra_css:
 
 To learn more about how GitLab Community Edition compares to GitLab Enterprise Edition, take a look at the [comparison table on our features page][comparison-versions].
 
-[comparison-versions]: https://about.gitlab.com/features/#compare
+[comparison-versions]: https://about.gitlab.com/products/#compare-options

@@ -82,10 +82,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > Welcome to GitLab, we're excited that you're joining our team!
     >
     > You should have received an invitation to your GitLab email account;
-    > please let me know if that is not the case.
+    > please let me know if that is not the case. 
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link].
+    > [Insert link]. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later! 
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
@@ -192,7 +192,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: Open a new [support onboarding boot camp issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 1. [ ] Hiring Manager: Provide access to hackerone.com
 1. [ ] Zendesk:
-   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/zendesk/#adding--removing-agents-in-zendesk)
+   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/knowledge-base/categories/zendesk/#adding--removing-agents-in-zendesk)
    1. [ ] Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Community Forum:
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
@@ -204,7 +204,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Hiring Manager: Open a new [support onboarding boot camp issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 1. [ ] Zendesk:
-   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/zendesk/#adding--removing-agents-in-zendesk)
+   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/knowledge-base/categories/zendesk/#adding--removing-agents-in-zendesk)
    1. [ ] Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Community Forum:
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
@@ -251,9 +251,10 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ### FOR CORE TEAM MEMBERS ONLY
 
 1.  [ ] People Ops (Recruiter): Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
-2.  [ ] People Ops (Recruiter): Have member sign NDA.
-3.  [ ] People Ops (Recruiter): Add member to #core in Slack.  
-4.  [ ] People Ops (Recruiter): Give member developer access to gitlab-org.
+1.  [ ] People Ops (Recruiter): Have member sign NDA.
+1.  [ ] People Ops (Recruiter): Add member to #core in Slack.  
+1.  [ ] People Ops (Recruiter): Give member developer access to gitlab-org.
+1.  [ ] People Ops (Specialist): Change to core team member in BambooHR. 
 
 ```
 

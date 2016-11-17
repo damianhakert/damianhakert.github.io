@@ -33,9 +33,12 @@ within that month to focus on helping support.
 
 Each developer will be assigned a week where they work directly with
 the support team. The exact day-to-day tasks may vary depending on the
-most pressing needs at the moment. See the [Support
-Handbook](https://about.gitlab.com/handbook/support/) for more
-details.
+most pressing needs at the moment. Review the following resources before
+starting your fix4all rotation:
+
++ [Zendesk Overview](https://support.zendesk.com/entries/21981122)
++ [Support Handbook](https://about.gitlab.com/handbook/support/)
++ [Support Turbo Overview](https://about.gitlab.com/handbook/support/#support-turbo)
 
 ### Bugs
 

@@ -16,7 +16,7 @@
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
   apply: https://gitlab.workable.com/jobs/242362/candidates/new
-  open: true
+  open: false
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
@@ -37,11 +37,6 @@
 - title: "Community Advocate"
   description: /jobs/community-advocate/
   apply: https://gitlab.workable.com/jobs/348185/candidates/new
-  open: true
-
-- title: "Content Designer"
-  description: /jobs/content-designer/
-  apply: https://gitlab.workable.com/jobs/317102/candidates/new
   open: true
 
 - title: "Database Specialist"
@@ -101,6 +96,7 @@
 
 - title: "Service Engineer"
   description: /jobs/service-engineer/
+  salary: 75500
   apply: https://gitlab.workable.com/jobs/87722/candidates/new
   open: true
 
@@ -132,8 +128,8 @@
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: https://gitlab.workable.com/jobs/269330/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Open Application"
   description: /jobs/open-application/

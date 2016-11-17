@@ -6,7 +6,7 @@ title: "Idea to Production demo"
 ## Video
 {:.no_toc}
 
-<iframe width="640" height="389" src="https://www.youtube.com/embed/t_rB1oQdG98" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="389" src="https://www.youtube.com/embed/C8PvsIEk4rU" frameborder="0" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
@@ -21,6 +21,7 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 {:.no_toc}
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
+- [Blog post with progress](https://about.gitlab.com/2016/11/14/idea-to-production/)
 - [Open issues for this demo](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
 
 ## Table of Contents
@@ -32,11 +33,12 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 ## Preparation
 
 > * You need a working OpenShift Origin installation
+>   * Our installation runs OpenShift Master v1.3.1 and Kubernetes Master v1.3.0+52492b4
 > * Login to OpenShift
 >   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
 >   * Username: gitlab-user
 >   * Password: <from 1password>
-> * Delete all Openshift projects using OpenShift web interface TODO [Allow multiple people to give the demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/24114)
+> * Delete previous Openshift projects using OpenShift web interface
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -52,7 +54,7 @@ The first step is to install GitLab itself. Today I'm going to use RedHat's Open
 
 > * Open Openshift web UI and log in to [Openshift Origin](https://openshift.tanukionline.com:8443).
 > * Click New Project
-> Name it `gitlab`
+> Name it `gitlab` (or `firstname-gitlab` if running multiple demos)
 > Create it
 
 And then we import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
@@ -61,8 +63,8 @@ And then we import an OpenShift template for a complete GitLab installation. We 
 > * Open in a browser: [YAML template in Omnibus repo](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) which is also linked from [our installation page](https://about.gitlab.com/installation/).
 > * Copy content of idea-2-prod-template.json
 > * Click Create, leave `Process the template` selected, click Continue
->   * GitLab instance hostname to `gitlab.tanukionline.com`
->   * Mattermost instance hostname to `mattermost.tanukionline.com`
+>   * GitLab instance hostname to `gitlab.tanukionline.com` (or leave blank if running multiple demos)
+>   * Mattermost instance hostname to `mattermost.tanukionline.com` (or leave blank if running multiple demos)
 > * Press button
 > * Continue to overview
 
@@ -85,8 +87,8 @@ If there is more time talk about what a review app is and what cycle analytics a
 
 Now that we've got GitLab running, let's set up an account.
 
-> * Change password for root user
-> * Login
+> * Change password for root user, but do *not* log in as root
+> * Create new user with your name and email address
 
 We now create a group for our company; let’s name it `tanuki`.
 
@@ -94,7 +96,7 @@ We now create a group for our company; let’s name it `tanuki`.
 
 Then let’s now create a new project to start off with. Let's call it `www` and make it public.
 
-> * Create a project called `www` under the `tanuki` group and make it public
+> * Create a project called `www` (or `firstname-www` if running multiple demos) under the `tanuki` group and make it public
 
 ### Configure the project
 
@@ -115,7 +117,7 @@ Of course this is just a static file and not an application yet, but since we’
 
 ### Add Openshift credentials to CI
 
-We can simplify this with [Smart Deployments](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864#note_16790373) at some point but in the short term we have a TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and a TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
+We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
 The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
@@ -193,8 +195,6 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues, Issue Board
 
-TODO: [When viewing an individual issue the menu should also be expanded.](https://gitlab.com/gitlab-org/gitlab-ce/issues/23965)
-
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
 
@@ -206,7 +206,7 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 ## Code (Terminal)
 
-TODO: [Use a Dockerfile that includes `npm` and `git` so we can `npm install sails -g` and `sails new tanuki` and commit changes back](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
+TODO: [Demo with a rails application instead of a static website](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
@@ -302,7 +302,7 @@ Taking a look at the Pipelines tab, we see that we’re re-running CI on `master
 Going back to the merge request, we now see another status showing that this code has indeed been deployed to staging. Clicking through, we can see our changes running live on our staging server.
 
 > * Click on Merge Requests, Merged, and click on `!1`
-> * Click on Staging URL to show that changes got deployed TODO: [Vision demo deployments don't seem to work](https://gitlab.com/gitlab-org/gitlab-ce/issues/23930)
+> * Click on Staging URL to show that changes got deployed
 
 ## Production (Chatops)
 

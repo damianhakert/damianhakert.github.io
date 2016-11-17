@@ -75,7 +75,8 @@ A few things are important in this section:
 
 Worthy of mentioning:
 
-- [Giphy capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) (free and a great option! If you don't want to spend money choose this one!)
+- [Kap](https://getkap.co/) (free and open source!)
+- [Giphy capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) (free and a great option!)
 - [Licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
 
 #### FFCast + FFmpeg (Linux)
