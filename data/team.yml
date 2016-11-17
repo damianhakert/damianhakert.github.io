@@ -1985,6 +1985,16 @@
   story:  |
           From Tech Support leveled up to Customer Success, James has many years of experience and leverages a broad background following interest in Business, IT, and Computer Science.  You will find James managing your account to ensure you get the most out of products now and going forward.  When not plugged-in, he is most likely cycling in the desert (day or night), functional training, partaking in modern cuisine, and often staying up late.
 
+- name: B.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
+  reports_to: Buid Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 16th
 
 - name: K.L.
   locality:
