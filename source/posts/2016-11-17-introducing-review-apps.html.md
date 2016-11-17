@@ -24,7 +24,15 @@ But of course, you really hope things don't stop there. You push some code, test
 - **tanuki**
 - **tanuki-staging**
 
-But what about testing out changes earlier on in development? Say you've got a merge request that you want your coworker to check out to see if you're going in the right direction? Well, you start out by asking your team members to pull down your topic branch (you did create a topic branch for your change, right?) and then run the code locally to see how it looks. That works for a while, especially while your entire company is full of developers, but what happens as you grow and you've got product managers, QA testers, and designers that may not have their development environment set up, or are just too busy to bother pulling down your branch just to see your code run. So you create a new `dev` app to show off your code on a running server:
+But what about testing out changes earlier on in development? Say you've got a merge request that you want your coworker to check out to see if you're going in the right direction? Ever tried to review a merge request involving CSS just by looking at the code? Yeah, it's not fun. You really need to see it running to know if it's OK or not. So, you start out by asking your team members to pull down your topic branch (you did create a topic branch for your change, right?) and then run the code locally to see how it looks.
+
+```
+git pull origin
+git checkout topic-branch
+bundle install
+rails server # or npm start or whatever
+```
+That works for a while, especially while your entire company is full of developers, but what happens as you grow and you've got product managers, QA testers, and designers that may not have their development environment set up, or are just too busy to bother pulling down your branch just to see your code run. So you create a new `dev` app to show off your code on a running server:
 
 - **tanuki**
 - **tanuki-dev**
@@ -64,7 +72,7 @@ Let's talk about Review Apps.
 
 ## Introducing Review Apps
 
-Review Apps are ephemeral app environments that are created dynamically every time you push a new branch up to GitLab, and they're automatically deleted when the branch is deleted. This sounds nice and all, but what good is it? Well, rather than having a single `dev` environment for a project, or even separate `dev` apps for each developer, you get a new app for every topic branch, automatically. This let's you test and demo new features without having to ask in chat "hey, can I deploy to `dev`?" It's even better for the people on the periphery. Product managers can check out exactly what a merge request is going to look like without having to download and run a topic branch. QA or other users could take a look without having a development environment installed on their laptop at all. Ever tried to review a merge request involving CSS just by looking at the code? Yeah, it's not fun. You really need to see it running to know if it's OK or not.
+Review Apps are ephemeral app environments that are created dynamically every time you push a new branch up to GitLab, and they're automatically deleted when the branch is deleted. This sounds nice and all, but what good is it? Well, rather than having a single `dev` environment for a project, or even separate `dev` apps for each developer, you get a new app for every topic branch, automatically. This let's you test and demo new features without having to ask in chat "hey, can I deploy to `dev`?" It's even better for the people on the periphery. Product managers can check out exactly what a merge request is going to look like without having to download and run a topic branch. QA and other users can take a look without having a development environment installed on their laptop at all.
 
 ![Environments](https://gitlab.com/gitlab-org/gitlab-ce/uploads/dfadbba782a367e55e37c861f61f1c24/image.png)
 
@@ -121,7 +129,7 @@ stop_review:
 
 Review Apps are about improving the fidelity and speed of review; bringing everyone (product managers, QA, designers, etc.) into the conversation earlier, with higher quality information, so you move faster from idea to production. After you embrace them, you'll look back and wonder how you ever lived without them.
 
-Experimental support for Review Apps is available now, with creating dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps is available for free in GitLab CE, GitLab EE, and on GitLab.com.
+Experimental support for Review Apps is available now, with dynamic environments introduced in 8.12 and manual stopping of dynamic environments introduced in 8.13. 8.14 adds automatic stopping of environments on branch close, as well as environment folders in the UI. Review apps are available for free in GitLab CE, GitLab EE, and on GitLab.com.
 
 ## Further reading
 
