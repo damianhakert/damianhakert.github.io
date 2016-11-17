@@ -13,7 +13,8 @@ extra_js:
 .page-container.review-apps-container.text-center.animated
   .container
     .header-graphic
-      = image_tag "/images/cycle-analytics/icon-header.png", class: "img-responsive"
+      = icon("home/icon-step-7", "feature-icon", { label: "Review apps" })
+      /= image_tag "/images/cycle-analytics/icon-header.png", class: "img-responsive"
 
     %h1.page-headline
       Review Apps
@@ -31,10 +32,18 @@ extra_js:
         Automatic Live Preview
       %p
         :markdown
-          Code, commit, and get your preview link. 
+          Code, commit, and get your preview link.
           Review Apps automatically spin up dynamic environments for your merge requests.
     .feature-item.col-md-10.col-md-push-1
-      = icon("review-apps/icon-benefit-2", "feature-icon", { label: "Built for managers and teams" })
+      = icon("review-apps/icon-benefit-1", "feature-icon", { label: "Real data on your project" })
+      %h3
+        One-click to collaborate
+      %p
+        :markdown
+          No need to check out a branch or spin up a staging environment.
+          Just send a link and let your team click around.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("review-apps/icon-benefit-3", "feature-icon", { label: "Built for managers and teams" })
       %h3
         Fully-Integrated
       %p
