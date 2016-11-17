@@ -1964,16 +1964,18 @@
           He's especially devoted to understanding individuals, whether they be customers, coworkers, friends, or family.
           Before joining GitLab, Victor worked in fintech and foodtech.
 
-- name: S.D.
-  locality:
-  country:
+- name: Sarah O'Donnell
+  locality: Manchester
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
   reports_to: UX Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: sarah_odonnell.jpeg
+  twitter: saraheod
+  gitlab: sarahod
   story:  |
-          Joining November 14th
+          Sarah is interested in how users think, feel and behave when interacting with products.
+          She's passionate about using research to design brilliant user experiences and to create successful products.
+          Sarah loves spending time outdoors and is happiest with her dog by her side. She also enjoys reading, collecting vinyls and is an avid foodie.
 
 - name: James Komara
   locality: Scottsdale, AZ
