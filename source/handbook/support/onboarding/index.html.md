@@ -205,8 +205,7 @@ and/or which areas of the product development can use some attention to prevent 
 
 #### Adding tags
 
-The above tags can be added to tickets using the [Tag Locker](https://www.zendesk.com/apps/tag-locker/) app. Tag Locker can be found on the right side when viewing a ticket. 
-Click the menu button or search for a tag and click the tag text. 
+The above tags can be added to tickets using the [Tag Locker](https://www.zendesk.com/apps/tag-locker/) app. Tag Locker can be found on the right side when viewing a ticket. Click the menu button or search for a tag and click the tag text. 
 
 ![Tag Locker](/images/support/tag_locker.png)
 
