@@ -9,8 +9,17 @@ image_title: '/images/team_gitlab.png'
 
 *If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!*
 
-Data analytics startup [Cognitive Logic](http://www.cognitivelogic.com/) helps companies store, share, and examine consumer information without compromising security. Engineer Johan Brandhurst thought GitLab's CI and validated merge request capabilities made it the perfect match for Cognitive Logic, leading them to make the switch from one of our competitors. I sat down with Johan to learn more about his team, their work, and how GitLab helps. 
+Data analytics startup [Cognitive Logic](http://www.cognitivelogic.com/) helps companies store, share, and examine consumer information without compromising security. I sat down with engineer Johan Brandhurst to learn more about his team, their work, and how GitLab helps. 
 
+Three of our offerings in particular drove Cognitive Logic's decision to switch to GitLab:
+
+* Validated Merge Requests
+* Easily Configurable CI
+* Easy migration from GitHub
+
+Johan also told me that his team's biggest challenge with GitLab is that it can be difficult to orchestrate CI between repositories; they're looking forward to being able to chain testing between repositories. 
+
+Read the full conversation below!
 
 <!-- more -->
 
