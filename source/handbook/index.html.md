@@ -683,6 +683,11 @@ Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joini
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
+#### Shush alternative for Linux
+
+If you use Linux (eg; [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) then you can create system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org/main/index.php/Main_Page) system for sounds (most popular Linux distributions use ALSA). All you need to do is go to your desktop environment's _Keyboard Settings_ and create a custom shortcut with command `amixer set Capture toggle` and assign a key combination of your choice (eg; `Paush Break` key). Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application. Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
+
 ### Disabling OS X Notification Center
 
 During a presentation or screen share, you might want to disable your notifications on OS X to prevent distractions or possible embarrassment.
