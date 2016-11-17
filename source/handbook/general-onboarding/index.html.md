@@ -310,7 +310,7 @@ the steps to add yourself to the team page. Please follow the links that will gu
 your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com
 project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
-1. You need to [create an issue](https://docs.gitlab.com/ee/gitlab-basics/create-issue.html) in GitLab.com and assign it to yourself. 
+1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
 1. Download Git, following the [start using git
 documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
 1. Follow the steps to create and add your [SSH
