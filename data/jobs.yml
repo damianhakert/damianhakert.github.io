@@ -143,8 +143,8 @@
 
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
-  apply: https://gitlab.workable.com/jobs/317072/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
