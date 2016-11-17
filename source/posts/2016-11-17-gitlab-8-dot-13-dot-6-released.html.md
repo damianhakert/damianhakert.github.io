@@ -17,6 +17,7 @@ Please read on for more details.
 
 - **CE/EE:** Omniauth auto link LDAP user falls back to find by DN when user cannot be found by UID. ([!7002])
 - **CE/EE:** Fix Milestone dropdown not stay selected for `Upcoming` and `No Milestone` option. ([!7117])
+- **CE/EE:** Fix relative links in Markdown wiki when displayed in "Project" tab. ([!7218])
 - **CE/EE:** Fix project "Visibility Level" selector not using default values. ([!7264])
 - **CE/EE:** Fix no "Register" tab if LDAP auth is enabled. ([!7274])
 - **CE/EE:** Clicking "force remove source branch" label now toggles the checkbox again. ([!7356])
@@ -31,6 +32,7 @@ Please read on for more details.
 
 [!7002]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7002
 [!7117]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7117
+[!7218]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7218
 [!7264]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7264
 [!7274]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7274
 [!7356]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7356
