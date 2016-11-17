@@ -75,7 +75,7 @@ Let's talk about Review Apps.
 
 Review Apps are ephemeral app environments that are created dynamically every time you push a new branch up to GitLab, and they're automatically deleted when the branch is deleted. This sounds nice and all, but what good is it? Well, rather than having a single `dev` environment for a project, or even separate `dev` apps for each developer, you get a new app for every topic branch, automatically. This let's you test and demo new features without having to ask in chat "hey, can I deploy to `dev`?" It's even better for the people on the periphery. Product managers can check out exactly what a merge request is going to look like without having to download and run a topic branch. QA and other users can take a look without having a development environment installed on their laptop at all.
 
-![Environments](https://gitlab.com/gitlab-org/gitlab-ce/uploads/dfadbba782a367e55e37c861f61f1c24/image.png)
+![Environments](/images/blogimages/review-app-environments.png)
 
 Once you embrace review apps, you'll find it hard to go back. You'll get rid of all your `dev` apps. You might even move on to full [continuous deployment](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-deployment) and get rid of your `staging` app. After all, the feature will have gone through full automated CI testing, and with high fidelity feature-level testing on a review app, `staging` becomes an unnecessary speed bump on your way to full-speed productivity. Once a merge request is approved and merged, have it automatically deployed to `production`!
 
