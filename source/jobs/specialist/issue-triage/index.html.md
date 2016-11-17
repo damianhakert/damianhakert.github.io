@@ -6,6 +6,7 @@ title: "Issue Triage Specialist"
 ## Responsibilities
 
 * Triage issues on [our projects located in the gitlab-org group on GitLab.com](https://gitlab.com/gitlab-org/)
+  and in [the GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues/)
 * Monitor discussions in those issues, responds in a timely fashion where appropriate (or
   ensures relevant responders are “nudged” to respond)
 * Ping team leads or VP of Engineering via chat when outstanding critical
