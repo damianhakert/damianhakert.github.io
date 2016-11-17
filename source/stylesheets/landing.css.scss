@@ -281,7 +281,12 @@
   }
 
   a {
-    color: $color-secondary-alt;
+    color: $color-white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .tools-row {
