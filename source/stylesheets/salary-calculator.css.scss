@@ -125,6 +125,17 @@
     padding: 0 5px;
   }
 
+  .col-sm-12 .col-sm-4 {
+    
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
   .compensation {
     position: relative;
     min-height: 45px;
