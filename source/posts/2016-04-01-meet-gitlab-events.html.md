@@ -4,6 +4,7 @@ date: 2016-04-01 21:00
 author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/railsgirls-tomazs.jpg'
+categories: events
 ---
 
 Our [team] is growing! Since we're remote only we have no real headquarters
@@ -48,7 +49,7 @@ We'd love to meet you.
 
 - [Programadores e Informáticos Chile community](http://www.programadores.cl) - April 4. [Heather] will present about GitLab Pages.
 
-Photo by [Rails Girls Tricity](http://railsgirls.com/tricity).
+Photo by [Rails Girls Tricity](http://railsgirlstricity.pl/).
 
 
 [team]: https://about.gitlab.com/team/

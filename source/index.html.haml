@@ -13,107 +13,46 @@ extra_js:
 
 .page-container.landing-container.text-center
   #js-landing-community.landing-community
-  .container
-    %h1.page-headline
-      Code, test, and deploy together
+  .container.splash-container
     .landing-hero.hidden-xs
       = partial "images/home/gitlab-illustration.svg"
-    .row.animated
-      .col-md-4
-        .featured-item
-          = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
-          %h2.featured-item-headline
-            GitLab CE
-          %h3.featured-item-headline-small
-            Community Edition
-          %p.featured-item-description
-            Host it on your own server? Download and install the open source GitLab CE in 2 minutes.
-          %a.featured-item-button{href: "/downloads/"}
-            Download
-      .col-md-4
-        .featured-item
-          = icon "ee", "featured-item-icon", {width: 76, height: 76, label: "GitLab EE"}
-          %h2.featured-item-headline
-            GitLab EE
-          %h3.featured-item-headline-small
-            Enterprise Edition
-          %p.featured-item-description
-            Need enterprise features and support? See our pricing to run GitLab EE on your server.
-          %a.featured-item-button{href: "/pricing/"}
-            Pricing
-      .col-md-4
-        .featured-item
-          = icon "com", "featured-item-icon", {width: 76, height: 76, label: "GitLab.com"}
-          %h2.featured-item-headline
-            GitLab.com
-          %h3.featured-item-headline-small
-            On Our Server
-          %p.featured-item-description
-            Free hosting for private repos? Sign up to get unlimited repos and collaborators.
-          %a.featured-item-button{href: "https://gitlab.com/users/sign_in"}
-            Sign Up
-.what-is.animated
-  .container
-    .row
-      .col-sm-6.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "contribute", "what-is-item-icon", {width: 76, height: 76, label: "Contribute"}
-          %h3.what-is-item-title
-            Everyone can contribute
-          .what-is-item-content
-            :markdown
-              **Build together:** GitLab includes Git repository management,
-              code reviews, issue tracking, wikis, and [more](/features/), plus
-              [GitLab CI](/gitlab-ci/), an easy-to-use continuous integration and deployment
-              tool.
+    %h1.page-headline
+      Tools for modern developers
+    %h2.page-subtitle
+      GitLab unifies issues, code review, CI and CD into a single UI
 
-              **Stay up-to-date:** Collaborate with your team using issues,
-              milestones, and line-by-line code review. View activity streams of
-              projects or the people you work with.
+    .dev-cycle.hidden-xs.hidden-sm
+      - data.development_cycle.each_with_index do |item, index|
+        .step
+          = icon("home/icon-step-#{index + 1}")
+          .step-name-container
+            .step-name
+              #{item[:name]}
+          - if index < data.development_cycle.length - 1
+            .arrows
+              %i.fa.fa-angle-double-right
 
-              **Plays well with others:** GitLab seamlessly integrates with
-              Slack, Hipchat, LDAP, JIRA, Jenkins, and many other popular tools.
-              GitLab includes many webhooks and offers a complete API.
-      .col-sm-6.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "community", "what-is-item-icon", {width: 76, height: 76, label: "Community"}
-          %h3.what-is-item-title
-            Community-loved, enterprise-ready
-          .what-is-item-content
-            :markdown
-              GitLab Community Edition is [open source] and completely free to
-              [download]. GitLab is powered by a community of more than 1,000
-              people.
+    %a.btn.cta-btn.red{href: "/products"}
+      Explore Products
+    %a.btn.cta-btn.white{href: "/features"}
+      View Features
 
-              GitLab Enterprise Edition offers deeper LDAP and Active Directory
-              integration, Jira and Jenkins integration, and
-              [much more](/features#compare).
-
-              Enterprise Edition subscriptions can include 24/7 emergency
-              support, a dedicated service engineer, high availability support,
-              and more. Learn more on our [pricing page](/pricing).
-
-              [download]: /downloads
-              [open source]: https://gitlab.com/gitlab-org/gitlab-ce
-      .col-sm-12.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "release", "what-is-item-icon", {width: 76, height: 76, label: "Release"}
-          %h3.what-is-item-title
-            We are never done
-          .what-is-item-content
-            :markdown
-              **Updated Monthly:** We release a new version of GitLab each month
-              on the 22nd and it'll only take you 2 minutes to update.
-
-              **Community Input:** We listen to our community when deciding what
-              to release next. Follow along with our [upcoming releases](/direction).
-
-              **Scales Effortlessly:** GitLab runs smoothly on any size server
-              but can scale to multiple active servers. A single server can
-              handle more than 25,000 users.
-      .col-sm-12.what-is-twitter.text-center
-        %a{ href: "https://twitter.com/gitlab/likes" , target: "_blank" }
-          See what people are tweeting about us!
-
+= partial "includes/features/idea-to-production"
+= partial "includes/features/try-gitlab-ee"
 = partial "includes/organizations/grid"
 = partial "includes/testimonials/slider"
+
+.homepage-blog-section
+  .container
+    .row.post-list
+      - blog.articles[0..2].each do |post|
+        .col-sm-12.col-md-4.post-item
+          %a{href: post.url}
+            - if post.data.image_title
+              .image-title.blog-image{style: "background-image: url(#{post.data.image_title});"}
+                .color-bg
+                  %h4= post.title
+            - else
+              .image-title.no-image
+                .color-bg
+                  %h4= post.title

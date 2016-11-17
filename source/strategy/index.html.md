@@ -28,7 +28,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford it and adapt it. GitLab CE and GitLab.com are both [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. GitLab.com comes with free private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is also [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/); we distribute the source and use [MIT Expat license](https://www.debian.org/legal/licenses/mit). But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
 
-3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
+3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit), and a dedicated [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
 4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
@@ -42,7 +42,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 4. Offer a sense of progress [in a supportive environment with smart colleagues](http://pandodaily.com/2012/08/10/dear-startup-genius-choosing-co-founders-burning-out-employees-and-lean-vs-fat-startups/).
 
-5. Stay independent long term so we can preserve our values.
+5. Stay independent so we can preserve our values. Since we took external investment we need a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event). To stay independent we want that to be an IPO instead of being aquired. We want to triple ARR (Annual Recurring Revenue) in 2016&17, and double it in 2018&19&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)), in order to IPO in 2020.
 
 ## Sequence <a name="sequence"></a>
 
@@ -103,21 +103,19 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 1. Work with our [strategic alliances](https://docs.google.com/a/gitlab.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit?usp=drive_web) to increase awareness and sales.
 
-2. Partner with Rocket Chat, ship it with GitLab and integrate it.
+1. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
+1. Publish our processes and plans in the handbook or link from there.
 
-4. Publish our processes and plans in the handbook or link from there.
+1. Keep hiring self-directed people that experience the freedom to suggest changes.
 
-5. Keep hiring self-directed people that experience the freedom to suggest changes.
+1. To preserve culture we should over communicate and regularly discuss our values.
 
-6. To preserve culture we should over communicate and regularly discuss our values.
+1. Drop minimum basic subscription user count to 1 user. DONE
 
-7. Drop minimum basic subscription user count to 1 user. DONE
+1. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
 
-8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
-
-9. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
+1. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
 
 ## Technology 2016
 
@@ -133,7 +131,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## Revenue 2016
 
-1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
+1. Triple ARR
 
 2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
@@ -183,7 +181,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## People Operations 2016
 
-1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Director/VP of People Operations](https://about.gitlab.com/jobs/dir-or-vp-of-people-ops/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
+1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Sr. Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
 1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
 
@@ -204,7 +202,7 @@ a lot of support to others in the community.
 
 3. Make service engineering onboarding and training a mostly self-guided experience that scales.
 
-4. Reduce the demand for support by improved documentation, training, tutorials, and
+4. Empower users through improved documentation, training, tutorials, and
 community engagement.
 
 ## Production Engineering 2016

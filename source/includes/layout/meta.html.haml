@@ -1,6 +1,9 @@
 - description = current_page.data.description
-- if description
-  %meta{name: "description", content: description}
+- if !description
+  - description = "Code, test &amp; deploy with GitLab. Everyone can contribute!"
+%meta{ name: "description", content: description }
+%meta{ name: "twitter:description", content: description }
+%meta{ name: "og:description", content: description }
 
 %meta{content: data.site.title, property: "og:site_name"}
 - if current_page.data.title
@@ -20,7 +23,19 @@
   %meta{content: current_page.data.date, property: "article:published_time"}
   %meta{content: "#{data.site.url}/about", property: "article:author"}
 
-- if current_page.data.image_title
+- if current_page.data.twitter_image
+  %meta{content: "#{data.site.url}#{current_page.data.twitter_image}", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}#{current_page.data.twitter_image}" }
+- elsif current_page.data.image_title
   %meta{content: "#{data.site.url}#{current_page.data.image_title}", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}#{current_page.data.image_title}" }
 - else
-  %meta{content: "#{data.site.url}/images/gitlab_logo.png", property: "og:image"}
+  %meta{content: "#{data.site.url}/images/blogimages/gitlab-blog-cover.png", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}/images/blogimages/gitlab-blog-cover.png" }
+
+%meta{ name: "twitter:card", content: "summary_large_image" }
+%meta{ name: "twitter:site", content: "@GitLab" }
+- if current_page.data.title
+  %meta{ name: "twitter:title", content: current_page.data.title }
+
+%meta{ name: "twitter:creator", content: "@GitLab" }

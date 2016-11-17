@@ -1,0 +1,62 @@
+.btn.dropdown-menu-toggle {
+  position: relative;
+  width: 160px;
+  padding: 6px 20px 6px 10px;
+  background-color: $color-white;
+  color: $dropdown-text-color;
+  font-size: 15px;
+  text-align: left;
+  border: 1px solid $dropdown-border-color;
+  border-radius: 3px;
+  outline: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  min-height: 45px;
+
+  .fa {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    margin-top: -6px;
+    color: $dropdown-focus-color;
+    font-size: 10px;
+  }
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: $dropdown-focus-color;
+  }
+
+  .subtitle {
+    color: $color-gray-light;
+    float: right;
+  }
+
+  .title {
+    position: absolute;
+    bottom: 4px;
+  }
+
+  .label {
+    position: absolute;
+    font-size: 13px;
+    top: 4px;
+    color: $color-gray-light;
+  }
+}
+
+.dropdown-menu {
+  .value,
+  .display-value {
+    color: $color-gray-light;
+    float: right;
+  }
+
+  &.dropdown-scroll {
+    max-height: 215px;
+    overflow-y: scroll;
+  }
+}

@@ -5,6 +5,8 @@ categories: tutorial
 author: Marcia Ramos
 author_twitter: virtuacreative
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
+twitter_image: '/images/tweets/gitlab-pages-setup.png'
+description: "Learn how to host your website on GitLab.com with GitLab Pages"
 ---
 
 In this article we provide you with detailed information about using [GitLab Pages][pages] to

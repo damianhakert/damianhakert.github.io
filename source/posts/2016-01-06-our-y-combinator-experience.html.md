@@ -55,7 +55,7 @@ Y Combinator doesn’t assist with accommodation, so each company finds its own 
 This gives each company a way to forge their own approach and identity.
 In our case, we brought over our entire team.
 We all moved over to live in the same house for three months.
-We found one small apartment with a very small living room. 
+We found one small apartment with a very small living room.
 We pushed all of our desks together and worked in that room for three months.
 
 ![Our YC livingroom](/images/yc-livingroom.png)
@@ -75,7 +75,12 @@ a visit. We jumped in the car started our road trip in the direction of LA.
 After many hours of driving, Job started to realize we weren't driving in
 the correct direction after all...
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<br>
+<br>
 
 ![All piled into The Boat](/images/yc-the-boat.png)
 

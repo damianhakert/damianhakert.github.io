@@ -15,13 +15,13 @@ This demonstration is designed to show customers the highlights of GitLab and th
 ## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
-- If Internet access is available, start at this URL while logged in: https://gitlab.com/
+- If Internet access is available, start at this URL while logged in: [https://gitlab.com/](https://gitlab.com/)
 
 ## <A name="overall_navigation"></A>OVERALL NAVIGATION
 
 ### Front page navigation
 
-- Screen areas
+- Screen areas - Discuss the different areas of the GitLab screen and how they are used
    - Left hand navigation bar
        - Top - Open and close navigation bar
        - Upper part - Global navigation
@@ -54,9 +54,9 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 ## <A name="basic_product_demo"></A>BASIC PRODUCT DEMO
 
-### Project / GitLab flow
+### Project / [GitLab flow](https://about.gitlab.com/2016/07/27/the-11-rules-of-gitlab-flow/)
 - Ensure you are signed in
-- Select ‘new project’
+- Select ‘New Project’
    - Discuss per project settings
    - Name/path
    - Description
@@ -106,18 +106,35 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 ## <A name="issues_milestones"></A>Issues and milestones -- see how they are created, used and closed
 
-- Create issue
-   - “Readme needs more detail
-- Create another issue
-   - License file needs to be created
 - Create milestone
-   - Add two issues
-      - Base files for this project need to be created/fixed
-      - Tag issue #1 and #2  — and user doing the demo in the milestone
+   - On Issue tab select 'Milestones' and then 'Create new'
+   - Call the milestone "Initial file setup"
+   - Set a due date
+   - Description "Base files for this project need to be created/fixed"
+- Create two issues
+   - Create issue
+      - Enter text "Readme needs more detail"
+      - Add the Milestone from right hand menu
+   - Create another issue
+      - Enter text "License file needs to be created"
+      - Add the Milestone from right hand menu
 - View milestone progress
+   - From 'Activity' tab
+   - From 'Issues' tab and then Milestones
 - Update readme file with new information - on temp branch
-- Attach readme to merge request with issue
-
+   - Find readme file in repository and select Edit
+   - Update readme.md content
+   - Select a target branch (NOT master) and 'X' start a new merge request
+   - Commit changes
+- Close the 'readme' issue as it's been addressed
+- See how the Milestone progress has changed
+- Create Merge Request
+   - Select 'remove source branch qhen merge request is accepted'
+   - Assign the merge request to yourself
+   - Assign the milestone to the request
+- Accept Merge Request
+   - Branch should be removed
+   - Milestone progress should increase (another item was added and addressed)
 
 ## <A name="product_differentiations"></A>Product differentiations
 
@@ -132,7 +149,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
        - (use back button to go back to builds)
    - Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
    - Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
-   - Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
+   - Docs for learning more about CI:  [http://docs.gitlab.com/ce/ci/](http://docs.gitlab.com/ce/ci/)
 
 - Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
    - Click Issues at the top of page in www.gitlab.com project
@@ -140,17 +157,16 @@ This demonstration is designed to show customers the highlights of GitLab and th
    - Search by Author, Assignee, Milestone, Label, Weight
    - Open a closed issue and show the communication which occurred while the issue was open.
 
-- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch and enables it when searching in:
-   - GitLab application
+- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch uses it when searching:
    - Issues
-   - merge requests
+   - Merge Requests
    - Milestones
    - Notes
    - Projects
    - Repositories
    - Snippets
-   - wiki repositories
-   - Details available here: https://gitlab.com/help/integration/elasticsearch.md
+   - Wiki Repositories
+   - Details available here: [https://gitlab.com/help/integration/elasticsearch.md](https://gitlab.com/help/integration/elasticsearch.md)
 
 - Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
    - From project page of https://gitlab.com select “commits”

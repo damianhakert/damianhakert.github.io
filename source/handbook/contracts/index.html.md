@@ -8,8 +8,8 @@ title: "Contracts"
 * [Disclaimer](#disclaimer)
 * [How to use this page to prepare a contract](#how-to-use)
 * [Employment and Contractor Agreements](#employee-contractor-agreements)
+* [Core Team Member Non-Disclosure Agreement](#core-team-nda)
 * [Usability Testing Consent](#usability-consent)
-* [Template Invitation Letter for visa purposes](#invitation-letter)
 
 ## Disclaimer <a name="disclaimer"></a>
 
@@ -31,7 +31,8 @@ The following set of steps should suffice:
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
-1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign.
 1. Once the contract is signed, place the signed pdf in the team member's folder in BambooHR.
 1. Delete the google doc that was used for the preparation of the contract; it is superseded by the signed version in BambooHR.
 
@@ -40,10 +41,14 @@ addresses, etc. (fields are named the same in the contracts / PIAA to make this 
 
 The following contracts are in Google docs that are viewable by anyone with the link.
 
-- [GitLab Inc., employee offer letter with PIAA](https://docs.google.com/document/d/1URzYApx6SzjqDq4kv6pvvlZAgtF1xNAbl04vMQo1J_s/edit#)
+- [GitLab Inc., employee offer letter with PIAA](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit)
 - [GitLab Inc., contractor agreement with PIAA](https://docs.google.com/document/d/1TJXiS8LLwyFZSUH2eKj3Y24TYoqDEnLV7b9WFXfnPs8/edit)
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
+
+## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
+
+Core team members are an important part of the GitLab community. In order for these individuals to be able to participate in confidential GitLab communications we ask core team members to sign a [Non-Disclosure Agreement](https://docs.google.com/a/gitlab.com/document/d/18nYA_UoTqLY_L-rW5qGJxLJfxDGwK5v_NXZVg1hoQzM/edit?usp=sharing). This document is reviewed and signed by the CFO.
 
 ## Usability Testing Consent<a name="usability-consent"></a>
 
@@ -71,9 +76,3 @@ Please sign your name:
 Thank you!
 
 We appreciate your participation.
-
-## Template Invitation Letter for visa purposes <a name="invitation-letter"></a>
-
-When traveling to the USA for GitLab related business, the following invitation letter may need to be presented to your local US embassy. Contact the People Ops team to get the details right, and have it signed by someone in the executive team.
-
-- [Visa invitation letter](https://docs.google.com/document/d/1bKJYdhae5xSFp6wafF4FrfBgXmVgFpiinCJabV5BH-Y/edit)

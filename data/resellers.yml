@@ -1,19 +1,83 @@
+- name: Vertical Sysadmin
+  image: /images/resellers/vsa_logo_blue.jpeg
+  content: |
+    Vertical Sysadmin increases competence of the professionals supporting the IT fabric of modern civilization so that society lasts! We specialize in delivering effective training on excellent technologies.
+  email: GitLab@VerticalSysadmin.com
+  contact:
+    - address: Burbank/CA, USA
+      phone: +1 (323) 393-0779
+    - website: http://www.verticalsysadmin.com/git/GitLab.html
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/vsagitlab
+    - type: facebook
+      url: https://www.facebook.com/Vertical-Sysadmin-Inc-159564187456238
+    - type: twitter
+      url: https://twitter.com/verticalsysadmn
+    - type: linkedin
+      url: https://www.linkedin.com/company/6425144
+- name: ALMtoolbox
+  image: /images/resellers/alm-toolbox-logo.png
+  content: |
+    ALMtoolbox provides services and add-on solutions focused on ALM, DevOps, SCM, IT and Continuous Integration for a variety of customers in many industries, including finance, IT, telecom, security, medical devices and more.  The company was founded in 2009 and has won 6 international awards for its contributions to the software community.
+    
+    <p class="text-right">החברה מפתחת ומספקת מגוון פתרונות לבעיות נפוצות במחזור חיי הפיתוח, באמצעות מוצרי מדף, פיתוח מותאם, שירותי יעוץ ומכירת כלים. החברה נוסדה בשנת 2009 ולה נסיון רב בעבודה מול מאות לקוחות בארץ ובחו"ל, בתחומי בנקאות, טלקום, IT, בטחון, מכשור רפואי ועוד. במהלך השנים זכתה החברה ב- 6 פרסים בינ"ל על תרומתה לקהילת מפתחי התוכנה בעולם.</p>
+  email: GitLab@almtoolbox.com
+  contact:
+    - address: פתח תקווה, ישראל
+      phone: +972-722-405-222
+    - address: Rockville/MD, USA
+      phone: +1(866)503-1471
+    - website: http://www.almtoolbox.com/gitlab.php
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/almtoolbox
+    - type: facebook
+      url: https://www.facebook.com/almtoolbox/
+    - type: twitter
+      url: https://twitter.com/almtoolbox
+    - type: linkedin
+      url: https://www.linkedin.com/company/207805
+    - type: youtube
+      url: https://www.youtube.com/c/almtoolbox
+- name: LSD Information Technology
+  image: /images/resellers/LSD_logoV2.png
+  content: |
+    LSD has the core belief is that the only foundation of real business is service. LSD is able to provide the highest levels of service through our dedication to understanding, solving and meeting client requirements and challenges, while maintaining the highest levels of commitment to the promotion, training and use of OSS in Southern Africa. To enable us to consistently deliver on our core belief we put the time, effort & energy into our culture, so that we attract the rock stars of the open source world - people who are committed, excited and passionate about open source. We are also committed to giving back to the communities that have supported us, and work hard to be an active part of building a stable and professional open source community in South Africa.
+  email: GitLab@LSD.co.za
+  contact:
+    - address: Johannesburg, South Africa
+      phone: +27 (010) 5000 LSD
+    - address: Cape Town, South Africa
+      phone: +27 (021) 3000 916
+    - website: http://www.lsd.co.za/
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/lsdcoza
+    - type: facebook
+      url: https://www.facebook.com/LSD-Information-Technology-147548778617720
+    - type: twitter
+      url: https://twitter.com/lsdcoza
+    - type: linkedin
+      url: https://www.linkedin.com/company/516188?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A516188%2Cidx%3A3-1-3%2CtarId%3A1470297636693%2Ctas%3Alsd%20inf
 - name: Lyra Infosystems
   image: /images/resellers/lyra-logo.svg
   content: |
     Lyra is a recognized leader as Open Source Solution Enabler in Asia. We offer comprehensive suite of best-in-class technologies, solutions, support and services to software consuming organizations. Leading enterprises rely on our expertise to maximize their productivity and minimize risk by optimizing their SDLC processes. Our strategic consulting and services deliver high quality, on-demand solutions.
   email: GitLab@LyraInfo.com
   contact:
-    - address: Bengaluru, Karnataka
+    - address: Bengaluru/KA, India
       phone: +91 (80) 40408181
-    - address: Gurugram, Haryana
+    - address: Gurugram/HR, India
       phone: +91 (124) 4206939
-    - address: Mumbai, Maharashtra
+    - address: Mumbai, MH, India
       phone: +91 (22) 66089618
     - address: Singapore
       phone: +65 6809 7539
     - website: http://www.lyrainfo.com/
   social:
+    - type: gitlab
+      url: https://gitlab.com/u/lyrainfosystems
     - type: facebook
       url: https://www.facebook.com/pages/Lyra-Infosystems-Pvt-Ltd/1392172921012991
     - type: google-plus
@@ -22,18 +86,18 @@
       url: https://twitter.com/lyrainfosystems
     - type: linkedin
       url: https://www.linkedin.com/company/657607?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_657607%2Cidx%3A0
-- name: MOUSoft
-  image: /images/resellers/mousoft-logo.svg
-  content: |
-    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
-
-    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
-  email: sales@mousoft.co.kr
-  contact:
-    - address: 서울, 한국
-      phone: +82 (2) 508-2733
-      website: http://mousoft.co.kr/
-    - website: http://blog.naver.com/mousoft
+#- name: MOUSoft
+#  image: /images/resellers/mousoft-logo.svg
+#  content: |
+#    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
+#
+#    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
+#  email: sales@mousoft.co.kr
+#  contact:
+#    - address: 서울, 한국
+#      phone: +82 (2) 508-2733
+#      website: http://mousoft.co.kr/
+#    - website: http://blog.naver.com/mousoft
 - name: InTENSO
   image: /images/resellers/intenso-logo.svg
   content: |
@@ -104,7 +168,10 @@
   contact:
     - address: 上海，中国
       phone: + 86 (21) 6121 0910
-    - website: http://www.shcsinfo.com/
+    - website: http://www.shcsinfo.com/china/gitlab.html
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/SHCSINFO
 - name: Pivotal Cloud Foundry
   image: /images/resellers/pivotal-logo.svg
   content: |
@@ -117,6 +184,18 @@
       url: https://twitter.com/pivotal
     - type: twitter
       url: https://twitter.com/pivotalcf
+- name: Perforce
+  image: /images/resellers/Perforce_Logo.png
+  content: |
+    If you’re a Perforce user, or considering Perforce, and want the power of Helix for easier project management, simple DevOps integration, and greater security through narrow cloning, but are also committed to supporting various Git users, then you should consider GitSwarm, the Git management ecosystem that is enterprise ready out of the box. Empower your developers with intuitive, native workflows they’ll love while increasing project efficiency that your management team will covet. 
+  email: Sales@Perforce.com
+  contact:
+    - website: https://www.perforce.com/gitswarm
+  social:
+    - type: twitter
+      url: https://twitter.com/perforce
+    - type: linkedin
+      url: https://www.linkedin.com/company/perforce-software
 - name: ReleaseTEAM
   image: /images/resellers/release-team-logo.png
   content: |
@@ -133,3 +212,4 @@
       url: https://twitter.com/ReleaseTEAM
     - type: linkedin
       url: http://www.linkedin.com/in/releaseteam
+

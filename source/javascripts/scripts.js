@@ -9,6 +9,21 @@ function getUrlParameter(sParam) {
   }
 }
 
+function isElementOnScreen($el, scrollTop) {
+  // Get very bottom of element
+  var elementBottom = $el.offset().top + $el.outerHeight();
+  // Get very top of element
+  var elementTop = $el.offset().top - scrollTop;
+
+  if (elementTop <= $(window).height() && elementBottom - scrollTop >= 0) {
+    // Element is on-screen
+    return true;
+  } else {
+    // Element is not on-screen
+    return false;
+  }
+}
+
 $(function() {
   var $ci = $('#ci-subt'),
       $tagLine = $('#tagline'),
@@ -112,5 +127,21 @@ $(function() {
     $(this).parent().addClass('is-focused');
   }).on('blur', function () {
     $(this).parent().removeClass('is-focused');
-  });;
+  });
+
+  var $stickyBanner = $('.js-sticky-banner'),
+      $tryGitlabEnterprise = $('.js-try-gitlab-ee');
+
+  $(window).on('scroll', function() {
+    if ($tryGitlabEnterprise.length) {
+      var tryOnScreen = isElementOnScreen($tryGitlabEnterprise, ($(window).scrollTop() - 50));
+      if (tryOnScreen && $stickyBanner.hasClass('active')) {
+        $stickyBanner.removeClass('active');
+      }
+
+      if (!tryOnScreen && !$stickyBanner.hasClass('active')) {
+        $stickyBanner.addClass('active');
+      }
+    }
+  });
 });

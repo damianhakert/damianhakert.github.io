@@ -1,10 +1,10 @@
 ---
 layout: job_page
-title: "UX Lead"
+title: "UX/Design Lead"
 ---
 
-The User Experience (UX) Lead reports to the VP of Engineering, and UX
-Designers report to the UX Lead.
+The User Experience (UX) / Design Lead reports to the VP of Engineering, and UX
+Designers report to the UX/Design Lead.
 
 ## Responsibilities
 
@@ -21,7 +21,8 @@ Designers report to the UX Lead.
 ## Requirements for Applicants
 
 * A minimum of 3+ years experience as a design lead, product lead, or design manager
-* Proficiency with pre-visualization software (e.g. Adobe Photoshop, Illustrator)
+* Solid visual awareness with understanding of basic design principles like typography, layout, composition, and color theory
+* Proficiency with pre-visualization software (e.g. Sketch, Adobe Photoshop, Illustrator)
 * Experience defining the high-level strategy (the why) and creating design deliverables (the how) based on research.
 * Passion for creating visually pleasing and intuitive user experiences.
 * Collaborative team spirit with great communication skills

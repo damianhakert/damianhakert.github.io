@@ -1,33 +1,85 @@
+image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
+
 before_script:
-  - pwd
-  - git rev-parse HEAD
-  - export LC_ALL=en_US.UTF-8
-  - source ./scripts/prepare_build.sh
-  - ''
-  - bundle install --path ~/bundle
+  - bundle install --jobs 4 --path vendor
+
+cache:
+  key: "website"
+  paths:
+    - vendor
+
+stages:
+  - build
+  - deploy
 
 lint:
-  stage: test
+  stage: build
   script:
     - bundle exec rake lint
+  tags:
+    - docker
 
 build:
   stage: build
   script:
     - bundle exec rake build pdfs
+  tags:
+    - docker
   artifacts:
+    expire_in: 31 days
     paths:
       - public/
 
+review:
+  stage: deploy
+  before_script: []
+  cache: {}
+  script:
+    - rsync -av --delete public ~/pages/$CI_BUILD_REF_NAME
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_NAME.about.gitlab.com
+    on_stop: review_stop
+  only:
+    - branches
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
+
+review_stop:
+  stage: deploy
+  before_script: []
+  artifacts: {}
+  cache: {}
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - rm -rf public ~/pages/$CI_BUILD_REF_NAME
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+  only:
+    - branches
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
+
 deploy:
+  stage: deploy
   dependencies:
     - build
+  before_script: []
   script:
     - rsync --delete -r public/ ~/public/
-  type: deploy
-  environment: production
+  environment:
+    name: production
+    url: https://about.gitlab.com
   tags:
+    - deploy
   only:
-    - master
-  except:
-    - tags
+    - master@gitlab-com/www-gitlab-com

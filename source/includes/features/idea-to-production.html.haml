@@ -1,0 +1,52 @@
+.idea-to-production
+  .container
+    %h1.page-headline Move faster from idea to production.
+
+    .row.tools-row
+      .col-sm-6.col-md-5
+        %h3 Your tools make all the difference.
+        .description
+          GitLab includes Git repository management, issue tracking, code review,
+          an IDE, activity streams, wikis, and more.
+      .col-sm-6.col-md-5.image-column
+        = image_tag "/images/home/value-illustration-1.png", alt: "Tools"
+
+    .row.tools-row
+      .col-sm-6.col-sm-push-6.col-md-5.col-md-push-5
+        %h3 Shorten feedback cycles and increase confidence in your code.
+        .description
+          GitLab has
+          %a{href: "/gitlab-ci"}
+            built-in Continuous Integration
+          and Continuous Deployment to test, build, and deploy your code.
+          You can easily monitor the progress of your tests and build pipelines.
+          Then deploy with the confidence that your code has been tested across
+          multiple environments.
+      .col-sm-6.col-sm-pull-6.col-md-5.col-md-pull-5.image-column
+        = image_tag "/images/home/value-illustration-2.png", alt: "Tools"
+
+    .row.tools-row
+      .col-sm-6.col-md-5
+        %h3 Cover your bases by adding control to your development process.
+        .description
+          With LDAP group sync, git hooks, automated testing, and audit trails,
+          GitLab Enterprise Edition gives administrators user management
+          capabilities without imposing on developers' workflows.
+      .col-sm-6.col-md-5.image-column
+        = image_tag "/images/home/value-illustration-3.png", alt: "Tools"
+
+    .row.tools-row
+      .col-sm-6.col-sm-push-6.col-md-5.col-md-push-5
+        %h3 Focus on building your product, not configuring your tools.
+        .description
+          Tools should be simple, intuitive, and just work out of the box.
+          GitLab ships
+          %a{href: "/downloads"}
+            pre-built packages
+          for popular Linux distributions, it installs in minutes, has a
+          friendly UI, and offers detailed
+          %a{href: "https://docs.gitlab.com"}
+            documentation
+          on every feature.
+      .col-sm-6.col-sm-pull-6.col-md-5.col-md-pull-5.image-column
+        = image_tag "/images/home/value-illustration-4.png", alt: "Tools", class: "building-img"

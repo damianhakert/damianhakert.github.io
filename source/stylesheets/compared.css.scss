@@ -1,25 +1,118 @@
+@import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 
-p,
-a,
-ul,
-li {
-  font-size: 13pt;
+$comparison-title-image-bg-color: rgba(85, 68, 136, .1);
+
+.comparison {
+  background: $color-white;
+
+  .blog-image {
+    background-size: contain;
+    background-color: $color-primary;
+
+    .color-bg {
+      background: $comparison-title-image-bg-color;
+      @media (max-width: $screen-xs-max) {
+        padding-top: 90px;
+      }
+    }
+  }
+  .comparison-container {
+    padding: 40px;
+  }
+
+  .comparison-page-content {
+    h2,
+    h3,
+    h4 {
+      font-weight: bold;
+      margin: 30px 0 5px;
+    }
+    h2 {
+      // used as top-of-page title ref only
+      font-size: 14px;
+      color: $color-gray;
+      margin: 0 0 20px;
+      text-transform: uppercase;
+
+    }
+    h3 {
+      font-size: 18px;
+      a {
+        font-weight: 600;
+      }
+    }
+    h4 {
+      font-size: 16px;
+    }
+    li {
+      margin: 10px;
+    }
+    p {
+      margin: 0;
+      color: $blog-text-color;
+    }
+    a {
+      color: $color-primary-alt;
+    }
+    // spacing after breakpoint
+    @media (max-width: $screen-xs-max) {
+      h2 {
+        margin: 40px 0 10px;
+      }
+      h3 {
+        margin-top: 10px;
+      }
+      .color-bg {
+        padding-top: 100px;
+      }
+    }
+  }
+
+  .comparison-tree-nav {
+    padding-left: 0;
+
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+
+    a {
+      font-size: 14px;
+      color: $color-gray;
+
+      &.active {
+        font-weight: bold;
+        color: $color-primary;
+      }
+    }
+  }
+
+  // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
+  @media (min-width: 768px) {
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      padding-top: 51px;
+
+      .page-wrap {
+        min-height: 100%;
+        position: relative;
+      }
+
+      .footer-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 411px;
+      }
+    }
+  }
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 700;
-}
-
-h2 {
-  border-bottom: 2px solid $divider-color;
-  padding: 6pt 0;
-  margin-top: 30pt;
-}
-
-h3 {
-  margin-top: 25pt;
-}

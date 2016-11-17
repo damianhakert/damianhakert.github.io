@@ -12,11 +12,13 @@ work from home and help GitLab grow, this is the right spot for you.
 
 * Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and
 help them with anything from a simple support ticket to a customer training
+* Triage customer issues and find workarounds if possible
+* Engage with the development team to escalate bugs, problems, or missing information
 * Communicate via email and video conferencing with potential and current clients
-* Maintain GitLab.com and our other services such as GitHost.io
 * Participate in the rotating "on-call" list to provide 24/7 emergency response availability
 * Ensure that everything we learn from running GitLab.com is set as default or communicated to our users
-* Write and update documentation based on customer interactions
+* Maintain documentation relating to troubleshooting and other knowledge gained via customer interactions
+* Prepare and provide customer training, and make the training materials widely available
 * Submit and comment on feature requests based on customer interactions
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
@@ -46,7 +48,6 @@ supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/
 * Participate in the On-call schedule 
 * Work on SLA 1 emergency and security tickets
 * Work on SLA 2 customer tickets 
-* Maintain GitLab.com and other services such as GitHost.io 
 * Technical Skills
     * Able to triage intermediate GitLab issues and resolve them
     * Able to perform intermediate UNIX/GitLab system administration
@@ -66,8 +67,8 @@ supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/
 * Able to cover all channels
 * Help train new service engineers 
 * Improve the support workflow (ZenDesk)
-* Contributes to complementary projects (e.g. GitLab University, etc.)
-* Maintains good ticket performance
+* Contribute to complementary projects (e.g. GitLab University, etc.)
+* Maintain good ticket performance
 * Write blog articles
 * Take ownership of documentation and feature requests that is based on customer interactions
 * Improve the support process (on-boarding, training, escalation, etc)
@@ -99,11 +100,10 @@ supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/
 
 ## Requirements for Applicants
 
-* B.Sc. in Computer Science or equivalent experience
 * Above average knowledge of Unix and Unix based Operating Systems
 * Vast experience with Ruby on Rails Applications and git
-* Good people skills
+* Affinity for (and experience with) providing customer support
 * Excellent spoken and written English
 * You share our [values](/handbook/#values), and work in accordance with those values
-* [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
+* A technical interview is part of the hiring process for this position.
 * A customer scenario interview is part of the hiring process for this position.

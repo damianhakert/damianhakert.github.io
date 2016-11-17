@@ -22,7 +22,7 @@ Consider that right now, GitLab is huge. Our community dishes out around 900 com
 
 ## So, how do we manage to make it all into a single release every month?
 
-In GitLab we have a [release directory](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/release) for the release documents. The most powerful document for the release is called [monthly.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md).
+In GitLab we have a [release directory](https://gitlab.com/gitlab-org/release-tools/tree/master/doc) for the release documents. The most powerful document for the release is called [monthly.md](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/monthly.md).
 
 Release manager tasks can be broken down into:
 

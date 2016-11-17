@@ -1,6 +1,7 @@
-require 'generators/direction.rb'
-require 'generators/release_list.rb'
-require 'extensions/breadcrumbs.rb'
+require 'generators/direction'
+require 'generators/release_list'
+require 'generators/org_chart'
+require 'extensions/breadcrumbs'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -45,8 +46,10 @@ end
 activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
+unless ENV['ENABLE_LIVERELOAD'] != '1'
+  configure :development do
+    activate :livereload
+  end
 end
 
 ##
@@ -98,6 +101,13 @@ helpers do
 
     "//fonts.googleapis.com/css?family=#{fonts}"
   end
+
+  def highlight_active_nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(link_text, url, options)
+  end
+
 end
 
 # Build-specific configuration
@@ -109,12 +119,15 @@ configure :build do
 
   ## Direction page
   if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
   end
 
-  ## Releast list page
+  ## Release list page
   releases = ReleaseList.new
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
+
+  org_chart = OrgChart.new
+  proxy "/team/structure/org-chart/index.html", "/team/structure/org-chart/template.html", locals: { team_data: org_chart.team_data }, ignore: true
 end
 
 page '/404.html', directory_index: false
@@ -122,5 +135,6 @@ page '/404.html', directory_index: false
 ignore '/direction/template.html'
 ignore '/includes/*'
 ignore '/release-list/template.html'
+ignore '/team/structure/org-chart/template.html'
 ignore '/source/stylesheets/highlight.css'
 ignore '/category.html'

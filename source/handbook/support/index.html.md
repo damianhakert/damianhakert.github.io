@@ -3,24 +3,15 @@ layout: markdown_page
 title: Support
 ---
 
-## Communication<a name="reach-support"></a>
+## Welcome to the GitLab Support Handbook
+{: .no_toc}
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests, but for issues that relate to the support group.
-- [**Chat channel**](https://gitlab.slack.com/archives/support); please use the `#support` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
-
-## Other support pages
-
-- [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
-- [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
-- [Service Engineer Onboarding](/handbook/support/onboarding/)
-- [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
-- [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
-- [External support resources for the team](/handbook/support/external/)
-- [Mentions Channel](/handbook/support/mentions-of-gitlab)
+**Looking for technical support? Please visit the [Support Page](https://about.gitlab.com/support/) instead.**
+{:.no_toc}
 
 ----
 
-## Contents of the page
+### On this page
 {:.no_toc}
 
 - TOC
@@ -28,11 +19,23 @@ title: Support
 
 ----
 
-## Support Direction <a name="support-direction"></a>
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Support Resources
+
+- [Service Engineer Onboarding](/handbook/support/onboarding)
+   - [Onboarding Checklist](/handbook/support/onboarding/checklist)
+- [Support Policies](/handbook/support/policies)
+- [Knowledge Base](/handbook/support/knowledge-base)
+- [Support Channels](/handbook/support/channels)
+- [On-Call](/handbook/on-call/)
+- [Advanced Topics](/handbook/support/advanced-topics)
+
+----
+
+## <i class="fa fa-question-circle fa-fw icon-color font-awesome" aria-hidden="true"></i>  Support Direction
 
 The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
 in order to meet our strategic objective, the following topics are being addressed by the team:
-(also see the related [internal issue](https://dev.gitlab.org/gitlab/organization/issues/663) )
+(also see the related [direction issue](https://gitlab.com/gitlab-com/support/issues/40))
 
 **Increase Capacity**
 
@@ -44,398 +47,235 @@ documentation and participation in social channels.
 
 **Trend discovery**
 
-By gathering all our support channels in a central location, ZenDesk, we'll be able to tag tickets
+By gathering all our support channels in a central location, Zendesk, we'll be able to tag tickets
 with relevant keywords, and gather data on channel load, agent load, and topic trends. Likewise,
 through implementation of Swiftype on the [documentation](https://doc.gitlab.com/) server, we'll
 get a better handle on what people are looking for and/or not finding.
 
-**Decrease Demand for Support**
+**Empower Users**
 
 By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
 making documentation easy to find and easy to search, and constantly contributing to further documentation
 with the trend discovery showing where the need is greatest, we can help the community become
-as self sufficient as possible. A seamless interface between the support team and developers closes the
+as self sufficient as possible and empower users to problem-solve. A seamless interface between the support team and developers closes the
 feedback loop of user experience back to development, and provides 'network' support for the Service Engineers
 for tough issues.
 
 **Improve Customer Experience**
 
-By triaging support effort through internal SLA's, the team can improve the support experience
+By triaging support effort through internal SLAs, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
 
-## Support Issue Tracker <a name="issue-tracker"></a>
+## Service and support we provide
 
-The [Support project](https://gitlab.com/gitlab-com/support/issues)
-hosts an issue tracker meant to improve our workflow by reporting any
-problems that may arise on our tools or processes. Its also meant to
-propose and discuss ideas in general.
+For an overview of the support we provide to customers and GitLab.com users, please see the general [support page](https://about.gitlab.com/support/). What follows is a more detailed description of the level of service.
 
-The issue tracker is open to the community and part of the GitLab.com
-group. It should not contain any sensitive information. Links to ZenDesk
-or other references are encouraged.
-
-## Support Turbo<a name="support-turbo"></a>
-
-Every now and then, it may occur that we come close to breaching our SLA's.
-To prevent an actual breach from occurring, the Support team can call on the help
-of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/).
-The support team calls for help when necessary via Slack, but in case of doubt or
-conflicting priorities, the Backend Lead needs to give the green light for the
-support turbo developers to momentarily switch away from their other tasks.
-
-## Dashboard <a name="dashboard"></a>
-
-The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
-lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
-
-We can't fit more than 13 views in the dashboard panel.
-We have 6 views that are not channels.
-Meaning we have 7 views left for all our channels.
-That is why some channels are combined.
-
-## Dormant Usernames <a name="dormantusers"></a>
-
-Support often gets requests from gitlab.com users to release a username.
-This can be implemented if the following criteria are met:
-
-1. The account in question has no data.
-1. There hasn't been any activity on the account (i.e. code, issues, MRs)
-   for six months. This considers activity on projects the account owns
-   as well as activity on projects the account participants in.
-1. Support has had four failed attempts to  contact the user within a
- two week period.   
-1. The user cannot be an owner of any active project.
-
-Usernames will be prefixed with `idle` to keep the account active but
-release the namespace.
-
-## Service Level Agreements <a name="sla"></a>
-
-### SLA categories
+## Service Level Agreements
+{: #sla}
 
 The channels are sorted in order of priority, there are 4 SLA categories:
 
-1. Emergency tickets should be answered within 30 minutes.
-2. Security disclosures through regular tickets should be answered within 1 business day.
-3. Disqus and Twitter: we strive to answer them within 1 business day.
-4. Posted Issues through the end: we strive to answer them within two weeks but
-not sooner than two days, to give the rest of the community a chance to respond.
+| SLA | Channel                | Response Time                          |
+|-----|----------------------------|----------------------------------------|
+| 1   | [Emergencies](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 2   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
+| 3   | [Disqus](/handbook/marketing/developer-relations/community-advocacy/#disqus)  and [Twitter](/handbook/marketing/developer-relations/community-advocacy/#twitter)         | 1 business day                         |
+| 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
+
+**Response time indicates the first reply time.**
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
-### ZenDesk SLA settings and Breach alerts
+## Tiered Support
 
-Within ZenDesk, the SLA's are set as follows. Under Business Rules in the Admin console,
-Service Level Agreements are defined. Currently only one is defined, with different response times
-required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
+GitLab operates with three tiers of customer support. Each tier has a set of responsibilities as outlined below.
 
-Emergency tickets (SLA category 1 per the list above) are tagged as "Urgent" using a 30 minute max response time setting.
+### SLA Workflow
 
-SLA category 2 items are tagged as either High or Normal priority.
+Service Engineers should work on tickets within their assigned support tier as a first priority. After these are addressed they can work on tickets in any tier. Tickets should be picked up in the following order to make sure that SLAs are not breached, and customers receive the proper level of service:
 
-- High with a max response time setting of 8 business hours: security disclosures and subscribers.
-- Normal with a max response time setting of 12 business hours: general support questions via the zendesk web form and support@ address.
+1. Tickets that are close to breaching "first time to reply" SLA
+1. Tickets that are close to breaching "next time to reply" SLA
+   - It is a courtesy to check with the assigned agent first, before "taking" one of these tickets. Ask if they can respond soon and offer to reply if they don't have the bandwidth.
+1. New tickets (not close to breaching)
+1. Other open tickets
 
-An email is sent to everyone in the support team when an SLA breach is imminent, see
-the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/edit/80833987).
+When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
-Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings)
-to any tickets from channels in category 3 and 4, but we do track response times.
+### Tier 1 Support
 
-## Support Channels <a name="support-channels"></a>
++ Provide a resolution to the customer, resolved at first point of contact (FPOC).
++ Document information from the customer in relation to the problem.
++ Tickets the service engineer is unable to resolve at Tier 1 level should be escalated to Tier 2. The following types of escalations can apply:
+   + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
+   + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
+   + Ticket is not within Tier 1 support scope, escalate to Tier 2.
 
-Our [service engineers](/jobs/service-engineer) handle the channels listed below.
-They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
-in this list experience longer delays in receiving responses. We are actively [hiring](/jobs/)
-more Service Engineers to strengthen the team and provide support to the community.
+**Examples of requests solved at Tier 1**
 
-### Emergency Tickets <a name="emergency"></a>
++ Known issues/bugs (_A GitLab issue already exists_)
++ Requests for information (customer questions)
+   + Quick configuration changes - "How do I enable this feature?"
+   + Any other questions, e.g "Does GitLab support this?"
 
-When an emergency ticket comes in, it triggers a [PagerDuty](https://gitlab.pagerduty.com) incident. All
-Service Engineers must have the PagerDuty application installed on their phones once they are added to
-the on-call rotation schedule.
+### Tier 2 Support
 
-When a PD incident is triggered, the alarm will go off for the person on call. You should acknowledge the
-incident within 5 minutes, or the person on second level support will be alerted. The PD incident will
-have the link to the corresponding ZenDesk issue from where you will continue the conversation with the customer.
++ Unknown issues/problems that require investigation. Follow up with customers over multiple interactions. Report the ongoing status of a pending issue/bug fix.
++ Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
++ In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
++ Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyze, troubleshoot, and resolve difficult issues.
 
-Once acknowledged, you need to login to [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
-and let the customer know that you will handle their case. On this response you should ask for the best way
-to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
+### Tier 3 Support
 
-#### Crisis Situations
+Support requests escalated to tier 3:
 
-If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
-data loss, etc.), you should **escalate** the PD incident to second level support, and work through the issue
-together.
++ Production critical problems faced by "GitLab Plus" customers.
++ Problems that cannot be resolved at tier 2 within a reasonable amount of time (internal SLA).
++ Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
 
-If an emergency takes longer than an hour to resolve,
-and/or multiple people are or need to be involved, **start a google doc** that is open to the customer and the wider team at GitLab, and keep track of the
-issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
-majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate
-slack channel (#infrastructure, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
-has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
-issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
-in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
-clear-headed.
+### Zendesk SLA settings and Breach alerts
 
-### GitLab.com downtime <a name="downtime"></a>
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/categories/zendesk/zendesk_tips.html) page.
 
-When GitLab.com goes down a PD incident will be triggered as well, so the flow is the same as emergency tickets
-for the first steps. If you are on call and are still working, you should keep an eye on our #infrastructure channel
-in [Slack](https://gitlab.slack.com), as warning messages will often start to appear before the PD incident is triggered.
+## How we're doing
 
-Once you acknowledge the incident, you need to pinpoint the reason for the outage. Follow the documentation
-found on our [Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo). A fire drill to train you in this
-situation should take place before you are put on rotation. If this has not happened, please let the team know.
+The [Zendesk Insights dashboard](https://gitlab.Zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
+lists the activity for all of our current channels and summarizes the last 30 days (Zendesk login required).
 
-### Security disclosures <a name="security"></a>
+## Additional resources for the support team
 
-We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-Emails sent to security@gitlab.com go into ZenDesk and receive an autoresponder that
-says: "Thank you for your responsible disclosure of a potential GitLab vulnerability.
-We'll follow up with you within one business day."
+### Breach Hawks
 
-Please be very patient with these reports. Do not say 'there is no problem', you
-might be misunderstanding something that can lead to a 0 day disclosure.
-Give examples and keep asking questions until you understand the problem or until
-the researcher concludes there is no problem.
-If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](/vulnerability-acknowledgements/)
-even if there was no actual vulnerability.
-If you say that we'll get back to them **always** mention that they can email us at any time for an update.
-This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
+Breach hawks are members of the support team who help the rest of the team keep an eye out for nearly-breaching tickets, so that they can be responded to in a timely manner. Of course, any and all members of the Support Team will have a sense of how many tickets are close to breaching and how high the load is on any given day. But it can happen that you're deep into a ticket, a customer call, etc., unaware of the impending doom. That's where breach hawks come in: they tackle their tickets, but they also keep an eye out for the team at large and can call in the [Support Turbos](#support-turbo) when needed.
 
-If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
-If someone opens a public issue please leave a message:
-"Thank you for helping to
-make GitLab more secure! We removed the contents of your vulnerability disclosure
-to keep it private. We opened an internal issue to look at your disclosure. Can
-you please use our [Responsible Disclosure Policy](/disclosure/)
-to send us an email that references this url so we can communicate in private?"
+### fix4all
 
-#### HackerOne
+"fix4all" is a rotation where one developer - or anyone in GitLab - spends a
+week of his or her time helping the support team, as described in more detail on
+the ["fix4all" rotation page](/handbook/engineering/fix4all).
 
-We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports.
-The HackerOne dashboard lists all reports for which you need to respond within one business day. These
-reports are also piped into ZenDesk, but they need to be responded to from the HackerOne dashboard and closed manually in ZenDesk
-upon completion. Remember that all researchers should receive feedback as with regular support tickets,
-and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
-Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
+### Support Turbo
 
-After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812).
-This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it
-or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
+Every now and then, it may occur that we come close to breaching our SLAs.
+To prevent an actual breach from occurring, the Support team can call on the help
+of several "Support Turbo" developers who are denoted on the [Team Page](https://about.gitlab.com/team/).
+Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
 
-1. No sensitive information.
-1. A link to the MR that fixed the issues.
+The support team calls for help when necessary via Slack, but in case of doubt or
+conflicting priorities, the respective team lead or VP of Engineering needs to give the green light for the
+Support Turbo developers to momentarily switch away from their other tasks. As a general guideline for the Support Turbo, the order of priorities when called upon to join as a Turbo should be:
 
-If you need to grant HackerOne permissions to a new GitLab user, have an admin send
-an invitation from HackerOne and add you to the Internal group. You can find out who
-the admins are by asking on the #support channel.
+1. Direction issues
+1. Turbo work
+1. P1 issues
 
-#### PGP Process
+Further guidelines when rolling up your sleeves to do Turbo work:
 
-The key used to encode/decode PGP messages is stored in our Support Vault on 1Password.
-We only provide our public PGP key upon request because it makes collaborating much
-harder and only a small percentage of all disclosures are serious enough to require that overhead.
+- Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
+- Since Turbos log in using a generic agent, there are some special considerations:
+   - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
+   - Do not [assign tickets](https://support.zendesk.com/hc/en-us/articles/203690956) to the generic agent account. Leave the assignee as the "group", otherwise these tickets will get lost.
 
-See [PGP Process](/handbook/support/pgp_process) for
-information about using the security PGP key pair and decrypting messages.
 
-### Regular ZenDesk tickets <a name="regular"></a>
+## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
-manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
-that have come in and are unassigned, again using FIFO.
-When you need others to help please create an issue on the relevant GitLab issue tracker.
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets.
 
-### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
+#### Implementation Support
 
-If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
-error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
-by entering in the following:
+We offer "implementation support" for new EE customers. This is similar to live upgrade assistance, except that live upgrade assistance is a Premium Support offering, while Implementation Support is an option available for purchase by _any_ EE customer.
 
-user.username:<user ID>
+##### Requesting Implementation Support
 
-For example:
+- The relevant account executive should open a confidential issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/), and include the following information:
+   - Customer name and domain name
+   - Note whether customer is Premium Support, or "only" requesting Implementation Support
+   - Collect from the customer, if possible, the following information:
+      - Server operating system (Red Hat, CentOS, Debian, Ubuntu) and version
+      - Install type:
+         - Fresh install?
+         - Upgrade from CE?
+            - In-place or migration to new server?
+            - What version are they on, and what version do they expect to upgrade to?
+            - Source or Omnibus installation?
+            - Available downtime window - anytime or off-hours?
+   - Assign to Support Lead
+   - Mark as confidential
+- The account executive should make sure to add "Implementation Support" as a product field in Zuora for the customer. This allows the Support team to recognize such requests in Zendesk right away when the customer reaches out to schedule the installation.
+- The account executive should then instruct/invite the customer to submit a request for Implementation Support using the [support web form](https://support.gitlab.com). From here on, it is in the hands of the Support Team.
 
-user.username:sytse
+##### What Implementation Support covers
 
-This will bring up all exceptions encountered by the user.
+- Pre-installation preparation over email or short call to check that everything is in place for a high probability of success with the installation. If backups need to be made for instance, this should be done before the call / installation since it can take a long time.
+- Up to 4 hrs of "live" assistance for the installation, on video call with screen sharing, during regular business hours.
+- Following the initial install, the customer will have access to Premium Support for a full week (1 calendar week), including 24x7 emergency support, but _not_ including a Dedicated Service Engineer.
 
-Note that Sentry tries to group similar errors together, but it's possible
-that it creates a separate entry for the same problem. If a GitLab issue
-exists for that exception, it will show up by the headline as GL-XYZ, where
-XYZ is some incident number defined by Sentry. You may have to search other
-similar events or look on the issue tracker on GitLab.com whether a separate
-GitLab issue has been created for the Sentry exception.
+##### What Implementation Support does not cover
 
-If the exception looks like it does not exist, feel free to create a GitLab
-issue by clicking the "Create GitLab Issue" button. This will provide a
-pre-filled form with all the details of the backtrace. Please clean up the
-title and/or augment the description with what the user experienced when this
-exception occurred to make it easier for developers to understand what
-happened.
+- Consulting services to help determine how to set up for High Availability
+  (except where separately purchased)
+- Active assistance in setting up HA systems. We can currently only provide HA
+  for an active/active setup as that's what we have
+  [documented](https://docs.gitlab.com/ce/administration/high_availability/README.html)
+- Further live upgrade assistance beyond the initial implementation (except for
+  Premium Support customers)
+- The installation and configuration of the underlying server, including (but
+  not be limited to) account provisioning, networking, and file system
+  configuration
+- Establishing a third party authentication & authorization solution (such as
+  LDAP, SAML). However,  it **does include** integration of supported
+  authentication frameworks into GitLab
 
-#### Scheduled calls
+## Dedicated Service Engineers
 
-We also offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
-a call/screen sharing session with them and either guide them through the upgrade process or take control of the
-server yourself. You should make sure that the customer has a backup before you start the call, as they can take
-a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as
-much as possible about the customer's instance as you can.
+Customers who purchased Premium Support have access to a Dedicated Service Engineer. This means that tickets that arrive in Zendesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in Zendesk.
 
-**Important information to collect**
+- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that are requested in the template such as client timezone, language, specific needs, etc. to make it easier to assign an appropriate SE to the account.
+   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers Google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then create the trigger, and "accept" the suggestion. Having the Google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or Salesforce.
+   - Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
+- To make sure that these subscribers are served well, even when their dedicated SE is not directly
+available, there is a view in Zendesk to display all "dedicated" tickets so
+that other Service Engineers can see them and jump in to avoid an SLA breach.
+- If you are the Dedicated Service Engineer for an account and you will be away for a
+foreseeable reason (such as vacation), change the trigger in Zendesk for the duration
+of your absence. Any tickets answered by others should mention "I will be helping
+you in this matter since your dedicated Service Engineer, [name], is unfortunately
+currently unavailable to respond to your ticket." When you return, you should review
+all tickets submitted by the subscriber during your absence, and make sure to follow-through
+or follow-up as required.
 
-1. Type of installation: Source/Omnibus
-1. Current GitLab version
-1. Version you're upgrading to (it isn't always the latest)
-1. Use of GitLab CI (need to upgrade to 8.0 first, then 8.+)
+## Contacting support
 
-We collect this information in ZenDesk and link it to the organization, see the
-[responding to tickets section in onboarding](/handbook/support/onboarding).
-
-#### Unscheduled calls
-
-While engaging with customers you should always be prepared to jump on a call with them. It is easier to get
-all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
-several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
-Google Hangouts.
-
-### Internal Support<a name="internal"></a>
+### Internal Support for GitLab team members
 
 Fellow GitLab team members can reach out for help from the Support Team in various ways:
 
-1. For normal support questions (can GitLab do x, how do I do x with GitLab) email
+1. For normal support questions ("Can GitLab do x?", "How do I do y with GitLab?") email
 the internal support email alias that is listed in the "GitLab Email Forwarding"
-google doc. Those emails create tickets in ZenDesk.
+Google doc. Those emails create tickets in Zendesk.
 1. For longer term or larger scope questions, such as discussing customized training
-requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/),
-adding the "Support" label and @ mentioning one or more Service Engineers.
-1. If customers or users have questions advise them to contact support direct via the relevant channel.
+requests, create a [support issue](https://gitlab.com/gitlab-com/support/issues)
+1. If customers or users have questions, advise them to contact support direct via the relevant channel.
 1. For quick questions that are urgent ping the support team on the support chat channel.
 
+### Support Issue Tracker
 
-### Disqus questions on the blog <a name="disqus"></a>
+The [Support project](https://gitlab.com/gitlab-com/support/issues)
+hosts an issue tracker meant to improve our workflow by reporting any
+problems that may arise in our tools or processes. It's also meant to
+propose and discuss ideas in general.
 
-All the comments from our blog are handled by Disqus, and we have an integration in place, where every new
-comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily support tasks, you should
-make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
-comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
-our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
-the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
-the ticket that was created for your reply.
+The issue tracker is open to the community and part of the GitLab.com
+group. It should not contain any sensitive information. Links to Zendesk
+or other references are encouraged.
 
-### Twitter <a name="twitter"></a>
+### Support chat channels
 
-Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
-or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk,
-and show up in the "Twitter and Facebook" view. All responses should be sent from ZenDesk.
-If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
-from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
+We use our chat internally as a realtime communication tool. The support channels are as follows:
 
-Our Developer Advocates also have access to tweets through ZenDesk, and often
-participate in responding to questions. The support team does not retweet or favorite
-any tweets; that is handled by the marketing team. Our support team _does_ reply
-to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), regardless of whether
-the tweet is of a technical nature or not. The marketing team's decision to favorite
-and/or retweet is independent of the reply provided by the support team; so a tweet
-may be responded to from ZenDesk, and separately favorited from TweetDeck, as an
-example.
-
-From time-to-time, we also receive tweets that mention competitors or negative events
-related to them. In principle, we don't acknowledge these tweets as also described in
-the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter)
-section.
-
-The @GitLabStatus account should only be used to give updates on the availability
-of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
-
-When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
-
-Tweets use short links which require you to visit that link to make sure you understand the context.
-To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
-handle requests for gitlab.com.
-
-When resolving Twitter tickets you should:
-
-1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
-1. Not skip any tickets
-1. Assign the ticket to yourself and ask on the appropriate Slack
-   channel if you don't know the answer
-1. Not cross assign tickets
-
-### Facebook<a name="facebook"></a>
-
-Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
-
-### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
-
-For ZenDesk issues you will have created issues on the relevant issue tracker.
-Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
-
-### GitLab.com Support Tracker<a name="supp-forum"></a>
-
-For issues specific to GitLab.com that have nothing to do with availability we have the
-[Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
-for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
-are having with their on-premises installation. In that case, you should refer them to the
-[CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
-[Getting Help](/getting-help/) page, depending on the issue they are having.
-
-### GitLab CE/EE/Omnibus issue trackers<a name="product-issue-tracker"></a>
-
-It is always encouraged to take a look at all our issue trackers and respond to bug reports or feature
-requests:
-
-- [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) some customers create issues here instead of
-emailing us. When a new issue is created here, a ticket is created in ZenDesk, so we always know when this is
-the case.
-- [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
-- [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
-
-### Mailing list<a name="mailing-list"></a>
-
-Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
-
-### Forum<a name="gitlab-forum"></a>
-
-Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
-within the Forum environment.
-
-### Stack Overflow<a name="stack-overflow"></a>
-
-The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
-flow into ZenDesk, but can only be responded to from within Stack Overflow.
-
-### Reddit<a name="reddit"></a>
-
-Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
-
-### Quora<a name="quora"></a>
-
-Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
-
-## Non channel work<a name="other"></a>
-
-If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
-You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
-
-## Code of Conduct<a name="coc"></a>
-
-Just as service engineers are expected to adhere to the [Code of
-Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we
-also expect customers to treat service engineers with the same level of respect.
-
-If you receive threatening or hostile emails from a user, please create a
-confidential issue in the [GitLab Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
-and include:
-
-1. A history of the user's communication
-1. Relevant links
-1. Summary of the high-level issues
-
-Include the Support Lead, VP of Engineering, and Director of PeopleOps in this issue. Together we will
-evaluate on a case-by-case basis whether to take action (e.g. ban the user from the forums
-for violating the Code of Conduct).
+- [#questions](https://gitlab.slack.com/messages/questions) - If your question is something that you think anyone in the company could answer or is valuable to the greater company to know, ask it here!
+- [#Support](https://gitlab.slack.com/messages/support) - This is the general support team channel. Don't know where to ask a question about a ticket? Start here.
+- [#support-live-feed](https://gitlab.slack.com/messages/support-live-feed) - Feed of all Zendesk related events
+- [#mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab) - Mentions of GitLab from various news sources - [info](/handbook/support/channels#mentions)
+- [#gitlab-issue-feed](https://gitlab.slack.com/messages/gitlab-issue-feed) - Feed of all GitLab-CE issues
