@@ -312,7 +312,6 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-docs">gitlab-docs</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
@@ -1812,6 +1811,8 @@
   picture: connor.png
   twitter: connorjshea
   gitlab: connorshea
+  maintains: |
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-docs">gitlab-docs</a></li>
   story:  |
           One part Google, two parts trial-and-error. Mostly self-taught
           front-end developer. He’s passionate about performance, user
