@@ -147,6 +147,7 @@
         if ((e.keyCode === 38 || e.keyCode === 40) &&
             !list.filter('li.is-focused').length) {
           list.first().addClass('is-focused');
+          return;
         }
 
         if (e.keyCode === 38 && !list.first().hasClass('is-focused')) { // Up
