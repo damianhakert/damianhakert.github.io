@@ -321,7 +321,7 @@ require you to add your GitLab.com username and password.
 documentation](http://doc.gitlab.com/ce/gitlab-basics/command-line-commands.html).
 1. Find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/), change the picture's name to
-the following format: `yourname.jpg` or `yourname.png` and ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize". Then you can follow the
+the following format: `yourname.jpg` or `yourname.png` and ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize". Then you can follow
 "[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps.
    - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
