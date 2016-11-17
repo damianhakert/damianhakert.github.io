@@ -1751,16 +1751,17 @@
           Ian has been interested in computers from an early age. Both making them do things, and figuring out why they do other things. His professional career has been mostly systems oriented, with an occasional foray into the software development world.
           In his spare time, he enjoys brewing and drinking beer, trying new restaurants, and exploring Minnesota.
 
-- name: J.V.
-  locality:
-  country:
+- name: Julius Volz
+  locality: Berlin
+  country: Germany
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
   reports_to: Director of Strategic Partnerships
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: julius.jpg
+  twitter: juliusvolz
+  gitlab: juliusv
   story:  |
-          Joining October 1st
+          Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
+          He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
 - name: B.B
   locality:
