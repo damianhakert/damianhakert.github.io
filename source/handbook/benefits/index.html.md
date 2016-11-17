@@ -21,7 +21,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 
 1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
 1. [Stock options](/handbook/stock-options/) are offered to most team members.
-1.  Deceased team member
+1.  Deceased team member:
     In the unfortunate event that a GitLab team member passes away, GitLab will
     provide a $20,000 lump sum to anyone of their choosing. This can be a spouse,
     partner, family member, friend, or charity.
