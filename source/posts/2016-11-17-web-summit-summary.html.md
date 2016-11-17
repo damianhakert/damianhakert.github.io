@@ -6,8 +6,6 @@ image_title: '/images/blogimages/web-summit-recap.jpg'
 description: "Watch our CEO present at Web Summit's Centre Stage"
 ---
 
-{::options parse_block_html="true" /}
-
 _Watch our CEO Sytse Sijbrandij give a talk at Web Summit 2016, and listen in on our team recap of the event._ 
 
 <!-- more -->
