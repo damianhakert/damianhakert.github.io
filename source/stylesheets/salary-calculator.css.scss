@@ -29,7 +29,8 @@
     li {
       padding: 5px 8px;
 
-      &:hover:not(.filter-container) {
+      &:hover:not(.filter-container),
+      &.is-focused:not(.filter-container) {
         cursor: pointer;
         background-color: $dropdown-hover-color;
         text-decoration: none;
