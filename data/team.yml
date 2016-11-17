@@ -1484,6 +1484,8 @@
   picture: athar.jpg
   twitter: atharhameed
   gitlab: athar
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
 
@@ -1842,8 +1844,8 @@
   twitter: NRF460
   gitlab: Nrflynn
   story:  |
-          Nick has been in both business development and sale roles for over 3 years. 
-          In his free time he enjoys grilling, classical music and raising his 2 
+          Nick has been in both business development and sale roles for over 3 years.
+          In his free time he enjoys grilling, classical music and raising his 2
           male guinea pigs.
 
 - name: Cindy Pallares
@@ -1980,7 +1982,7 @@
   twitter: ja_me_sk
   gitlab: ja-me-sk
   story:  |
-          From Tech Support leveled up to Customer Success, James has many years of experience and leverages a broad background following interest in Business, IT, and Computer Science.  You will find James managing your account to ensure you get the most out of products now and going forward.  When not plugged-in, he is most likely cycling in the desert (day or night), functional training, partaking in modern cuisine, and often staying up late. 
+          From Tech Support leveled up to Customer Success, James has many years of experience and leverages a broad background following interest in Business, IT, and Computer Science.  You will find James managing your account to ensure you get the most out of products now and going forward.  When not plugged-in, he is most likely cycling in the desert (day or night), functional training, partaking in modern cuisine, and often staying up late.
 
 
 - name: K.L.
