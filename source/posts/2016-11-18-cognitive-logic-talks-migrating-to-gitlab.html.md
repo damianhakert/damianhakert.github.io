@@ -6,16 +6,18 @@ categories: user stories
 image_title: '/images/team_gitlab.png'
 ---
 
+
 *If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!*
 
 Data analytics startup [Cognitive Logic](http://www.cognitivelogic.com/) helps companies store, share, and examine consumer information without compromising security. Engineer Johan Brandhurst thought GitLab's CI and validated merge request capabilities made it the perfect match for Cognitive Logic, leading them to make the switch from one of our competitors. I sat down with Johan to learn more about his team, their work, and how GitLab helps. 
+
 
 <!-- more -->
 
 **Could you please explain for our readers what the dev team at Cognitive Logic does? What kinds of projects do you work on?**
 {: .alert .alert-info}
 
-**Johan** We’re working on connecting large datasets while maintaining customer privacy. Our platform is built on docker and golang microservices with a React/node.js frontend. We use gRPC for communications between services and protobuffers for backwards compatible messages. We maintain a container for our build environment and compile static binaries which can be run in a minimal docker container. The whole system runs on a cloud service provider.
+**Johan:** We’re working on connecting large datasets while maintaining customer privacy. Our platform is built on docker and golang microservices with a React/node.js frontend. We use gRPC for communications between services and protobuffers for backwards compatible messages. We maintain a container for our build environment and compile static binaries which can be run in a minimal docker container. The whole system runs on a cloud service provider.
 
 **You currently have 10 devs using GitLab — could you elaborate on the makeup of the team, and what your workflow is like?**
 {: .alert .alert-info}
@@ -40,7 +42,7 @@ We try to raise issues when features or bugs arise, then triage in a branch, sub
 **Johan:** We started the migration process quite early so there wasn’t much work to be done. I used the “import from Github” tool to get our repositories up and running on GitLab, and it imported all our issues and merge requests without problems. For the developers it took a little getting used to, but being able to sign up with your Google or Github account helped. There hasn’t been any real problems with our transition to GitLab, I’d consider the features of GitLab to be a superset of those available on GitHub, so it was all positive. The currently biggest problem with GitLab to us is that it can be difficult to orchestrate CI between repositories. We would like to be able to chain testing between repositories so that a change in one repo can automatically trigger a merge request in another repo (complete with testing). I know this kind of solution is being worked on and we’re eager to see what the team can deliver.
 
 
-Read more about [Cognitive Logic](http://www.cognitivelogic.com/), and follow them on [Twitter](https://twitter.com/cognitivelogic). 
+_Read more about [Cognitive Logic](http://www.cognitivelogic.com/), and follow them on [Twitter](https://twitter.com/cognitivelogic)._ 
 
-Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/). 
+_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._ 
 
