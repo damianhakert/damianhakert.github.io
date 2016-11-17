@@ -6,6 +6,10 @@
   z-index: 9;
 }
 
+.filters-container{
+  width: 50%;
+}
+
 .event-headline-container{
   background: $color-primary-alt;
   padding-top: 40px;
@@ -90,7 +94,7 @@
     }
 
     @media (min-width: $screen-sm) {
-      width: 75%;
+      width: 65%;
     }
 
     li{
@@ -99,11 +103,14 @@
         font-weight: 400;
       }
       .event-subheaders{
-        color:$color-dark;
+        color: $color-gray-features;
         font-weight: 200;
       }
 
       @media(min-width: 360px){
+        .event-headers{
+
+        }
         .event-topic{
           float: none;
           font-size: 24px;
@@ -116,15 +123,18 @@
         }
         .event-type{
           float: none;
+          color: $color-gray-features;
         }
         .event-location{
           float: none;
+          color: $color-gray-features;
         }
         .event-description{
           font-size: 16px;
           text-align: left;
           margin-right: 0px;
           margin-left: 0px;
+          color: $color-gray-features;
         }
         .event-subheaders{
           h2,h3,h4{
@@ -137,6 +147,9 @@
         }
       }
       @media(min-width: $screen-sm){
+        .event-headers{
+
+        }
         .event-topic{
           float: left;
           font-size: 30px;
@@ -149,15 +162,18 @@
         }
         .event-type{
           float: left;
+          color: $color-gray-features;
         }
         .event-location{
           float: right;
+          color: $color-gray-features;
         }
         .event-description{
           font-size: 20px;
           text-align: left;
           margin-right: 150px;
           margin-left: 0px;
+          color: $color-gray-features;
         }
         .event-subheaders{
           h2,h3,h4{
@@ -190,38 +206,21 @@
         float: none;
         text-align: center;
       }
+      margin-bottom: 35px;
     }
     @media (min-width: $screen-sm) {
       .buttons{
         float: right;
         text-align: right;
       }
+      margin-bottom: 0px;
     }
 
-  }
-  .social-tags{
-    margin-bottom: 30px;
-  }
-  .social-tag{
-    font-weight: bold;
-    color: $color-dark;
-  }
-  @media (min-width: 360px) {
-    .social-tag{
-      font-size: 12px;
-      padding-right: 3px;
-    }
-  }
-  @media (min-width: $screen-sm) {
-    .social-tag{
-      font-size: 16px;
-      padding-right: 5px;
-    }
   }
 }
 
 .missed-events{
-  background: $color-gray-extra-light;
+  background: $color-white-rad-event;
   padding-top: 40px;
   h1{
     color: $color-primary-alt;
@@ -240,7 +239,7 @@
       width:100%;
     }
     @media(min-width:$screen-sm){
-      width:75%;
+      width:67%;
     }
   }
   @media(min-width: 360px){
@@ -253,7 +252,7 @@
 
 .rad-event{
   display: block;
-  background: $color-gray-extra-light;
+  background: $color-white-rad-event;
   margin:0 auto;
   min-height: 200px;
   border: 1px solid $color-gray-medium;
@@ -281,7 +280,7 @@
     }
   }
   @media(min-width: $screen-sm){
-    width: 75%;
+    width: 65%;
     h1{
       font-size: 48px;
       padding-top: 20px;
@@ -313,7 +312,7 @@
   font-weight: 400;
   font-size: 28px;
   margin-top: 5px;
-  margin-bottom: 75px;
+  //margin-bottom: 75px;
   font-size: 28px;
 
   @media (max-width: $screen-xs) {
@@ -366,6 +365,36 @@
 }
 
 
+.social-tag{
+  font-weight: bold;
+  color: $color-dark;
+}
+@media (min-width: 360px) {
+  .social-tag{
+    font-size: 12px;
+    padding-right: 15px;
+    color:$color-gray-features;
+  }
+  .social-tags{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: $screen-sm) {
+  .social-tag{
+    font-size: 16px;
+    padding-right: 30px;
+    color: $color-dark;
+
+  }
+  .social-tags{
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+}
+
+
+
 .image-card-container:not(:last-child){
   margin-bottom: 0px;
 }
@@ -374,4 +403,48 @@
   .image-card-container:not(:last-child){
     margin-bottom: 35px;
   }
+
+  .filters-container{
+    width: 100%;
+  }
+}
+
+
+/*Dropdowns*/
+
+.dropdown-menu-toggle,
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-menu {
+  padding: 8px;
+  background-color: $color-white;
+
+  li {
+    padding: 5px 8px;
+
+    &:hover:not(.filter-container) {
+      cursor: pointer;
+      background-color: $dropdown-hover-color;
+      text-decoration: none;
+      outline: 0;
+    }
+  }
+
+  .filter-container {
+    padding: 5px;
+  }
+  .value{
+    float: none;
+  }
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+
+.btn.dropdown-menu-toggle{
+  width:220px;
 }

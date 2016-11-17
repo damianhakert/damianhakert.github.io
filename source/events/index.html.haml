@@ -4,6 +4,8 @@ title: Events
 suppress_header: true
 extra_css:
   - events.css
+extra_js:
+  - events.js
 extra_font:
   - "Roboto+Slab"
 ---
@@ -33,10 +35,6 @@ extra_font:
       .feature-event-button
         %button.btn.btn-large.btn-yellow{type:"button"}
           CTA
-
-
-
-
 .page-container.upcoming-events.text-center.animated
   .container
     %h1.page-headline
@@ -44,55 +42,35 @@ extra_font:
     %h3.subheader
       Tagline about upcoming events goes here
   .row
+    .container.filters-container
+      .col-md-4
+        .dropdown#event-types
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            .dropdown-title
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+      .col-md-4
+        .dropdown.level#event-topics
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            .dropdown-title
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+      .col-md-4
+        .dropdown.level#event-location
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            .dropdown-title
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+  .row
     %ul.event-list{role: "navigation"}
-      -data.events.each do |event|
-        %li
-          .event-headers
-            -# The event title and dates
-            %h2.event-topic
-              = event.topic
-            %h4.event-type.visible-xs-block
-              = event.type
-            %h2.event-date
-              = event.date
-            %h4.event-location.visible-xs-block
-              = event.location
-            .clear-floats
-          .event-subheaders.hidden-xs
-            -# The event type and location
-            %h4.event-type
-              = event.type
-            %h4.event-location
-              = event.location
-            .clear-floats
-          %div
-            %p.event-description
-              = event.description
-          .social-tags.visible-xs-block
-            -#The social networking jazz tags
-            -event.social_tags.split(",").each do |tag|
-              %span.social-tag
-                ="#" + tag.gsub(/\s+/, "")
-          .event-buttons
-            -# Social buttons
-            .buttons
-              %button.btn.featured-item-button-events{type:"button"}
-                Join Us!
-              %button.btn.featured-item-button-events{type:"button", style:"margin-left:20px;"}
-                Learn More
-            .clear-floats
-          .social-tags.hidden-xs
-            -#The social networking jazz tags
-            -event.social_tags.split(",").each do |tag|
-              %span.social-tag
-                ="#" + tag.gsub(/\s+/, "")
-    .rad-event
-      %h1
-        Know about a rad event we should be at?
-      %h2
-        Again, drop us a line -- we'd love to be there with you
-      %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
-        Drop It Like It's Hot
+    .rad-event-container
+      .rad-event
+        %h1
+          Know about a rad event we should be at?
+        %h2
+          Again, drop us a line -- we'd love to be there with you
+        %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
+          Drop It Like It's Hot
 .page-container.missed-events.text-center.animated
   %h1
     Sorry we missed you, checkout these event recaps
@@ -128,3 +106,38 @@ extra_font:
         Optional tagline about the scholarship can go right here
       %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
         Learn More
+%script{type:"text/events-templates", id:"events-list-template"}
+  %li
+    .event-headers
+      -# The event title and dates
+      %h2.event-topic
+
+      %h4.event-type.visible-xs-block
+
+      %h2.event-date
+
+      %h4.event-location.visible-xs-block
+
+      .clear-floats
+    .event-subheaders.hidden-xs
+
+      %h4.event-type
+
+      %h4.event-location
+
+      .clear-floats
+    %div
+      %p.event-description
+
+    .social-tags.visible-xs-block
+      %span.social-tag
+    .event-buttons
+      -# Social buttons
+      .buttons
+        %button.btn.featured-item-button-events{type:"button"}
+          Join Us!
+      .clear-floats
+    .social-tags.hidden-xs
+
+%script{type:"text/events-templates", id:"events-dropdowns-template"}
+  %li

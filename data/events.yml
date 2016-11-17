@@ -13,7 +13,7 @@
   location: San Francisco, CA USA
   social_tags: Git,Conference,VersionControl,Presenter
 
-- topic: Event Name Goes Here It Might be Really Really Long Like This
+- topic: Another Event Name Goes Here That's also really LOOONG!
   type: GitLab HQ #Not sure how the event types are gonna be
   date: Sept. 1-4 2016
   description: |
@@ -35,7 +35,7 @@
   location: Barcelona, Spain
   social_tags: Git, Conference, VersionControl, Presenter
 
-- topic: Event Name Goes Here It Might be Really Really Long Like This
+- topic: Another Event Name Goes Here That's also really LOOONG!
   type: GitLab HQ #Not sure how the event types are gonna be
   date: Sept. 1-4 2016
   description: |
