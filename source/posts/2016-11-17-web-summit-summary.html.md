@@ -18,7 +18,7 @@ _Watch our CEO [Sytse Sijbrandij](https://twitter.com/sytses) give a talk at Web
 
 ## Team Recap
 
-<iframe width="640" height="360" src=" https://www.youtube.com/watch?v=d74_G9AuhRg" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=HUsOHIgzzfY&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
 
 <br />
 
