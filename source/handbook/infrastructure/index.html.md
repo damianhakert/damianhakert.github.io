@@ -89,6 +89,7 @@ When writing a new runbook, be mindful what the goal of it is:
 ### Chef cookbooks
 
 Some basic rules:
+
 - Use maintained cookbooks from https://supermarket.chef.io.
 - Create a wrapper cookbook whenever a feature is missing.
 - Make sure our custom cookbooks are public available from https://gitlab.com/gitlab-cookbooks.
