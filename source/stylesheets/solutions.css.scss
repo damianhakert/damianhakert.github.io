@@ -134,7 +134,7 @@
 // review-apps
 
 .review-apps-container {
-  background-image: url("/images/cycle-analytics/header-background-img.png");
+  // background-image: url("/images/cycle-analytics/header-background-img.png");
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@
   padding-top: 20px;
 
   &::after {
-    background-image: linear-gradient(to bottom, rgba($landing-community-bg, .85), $landing-community-bg 75%);
+    background-image: linear-gradient(to bottom, rgba($landing-community-bg, .95), $landing-community-bg 75%);
     position: absolute;
     content: "";
     top: 0;
