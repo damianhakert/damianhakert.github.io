@@ -20,8 +20,8 @@
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
-  apply: https://gitlab.workable.com/jobs/285650/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Backend Developer"
   description: /jobs/developer/
