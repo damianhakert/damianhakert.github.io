@@ -1,0 +1,95 @@
+Why Gitlab is integrating with Kubernetes
+
+Introduction
+
+Software is hard. It has never been easy, but in the increasingly connected world with more and more connected devices  generating a growing amount of data, software is getting even more complex and harder to create and to maintain. Complexity drives costs. Complexity reduces productivity.
+
+GitLab is not just about version control. We set out to make the life easier for software creators and the best way to do that is to reduce the complexity of modern software development. Here we’ll cover the origins of this complexity and offer our ideas on how to address it.
+
+A bit of History
+
+Since the invention of computers, we have been gradually moving from batch processing to continuous operation. Early programs had to be loaded into a machine, ran once, produce the result for the user and be replaced by another program. 
+
+Then the operating systems was invented and it would run for as long as the machine was turned on, managing multiple users launching their programs, sometimes simultaneously. 
+
+
+Developing a new operating system was (and still is) a major undertaking. It couldn’t consume too many resources, because they had to remain available to users’ programs. It couldn’t leak resources because this caused the machine to freeze. Updating an OS to a new version was also a major undertaking, with some users opting to reinstall everything from scratch. 
+
+Developing operating systems was harder than regular programs. It took a long time for an OS to become stable - remember the blue screen of death? It was hard, in part, because it was a challenge to transition from batch processing to continuous operation.
+
+Making software in 2016
+
+Today the majority of software we make has to run like an operating system: i.e. run continuously and serve many users at the same time. To make matters worse, users today use myriads of different devices to access a typical application and developers are expected to ship new features all the time, without any downtime. And despite dramatically more powerful machines, the software usually still has to run on multiple machines, sometimes in the thousands or more.
+
+Compounding the difficulty of this task, the workplace has become more distributed, as well. Developers no longer sit and work in the same room, timezone or even hemisphere. Yet, despite all of these challenges we still have small teams deliver impressive results. 
+
+How do they do it? The answer is better tooling.
+
+Economics of a software company
+
+If you are the CEO of a software company, your software engineering expenses are probably quite large and can be broken down into two buckets:
+
+Software Production
+Software Operation
+
+
+[ILLUSTRATION]
+
+Expense 1: Software Production
+
+Launching a software product is hard and we already covered some of the reasons for that. However, minimizing the time it takes to go from an idea to production is of paramount importance. But what is also important is to being able to repeat this idea-to-production cycle over and over again, because modern software is expected to evolve quickly. Doing this while keeping the costs down (same as doing it faster) is what Gitlab helps with.
+
+
+Let’s take a look at what typically happens during this idea-to-production cycle at most companies when they want to add a new feature:
+
+It has to be documented.
+The required resources (people, digital assets, etc.) need to be allocated.
+The code for it has to be isolated from the stable base until it’s ready to be deployed. 
+Someone has to review code changes before the merge.
+Tests need to be written and they have to be executed in an environment which is as close to production as possible.
+If everything worked, the product needs to be re-deployed.
+If something unexpected happens in production, a rollback to a stable version needs to happen quickly.
+
+Initially, a lot of this was done by hand and the development velocity was slow. But over the years, developers have built tools to maintain project wikis, manage code branches (our favorite is git!), manage and run tests, automate builds, define and enforce deployment pipelines and so on. However, stitching these tools together is still a complex task and it’s easy to lose context when switching from your bug tracker to your code editor and then looking at your CI/CD run, etc.
+
+We believe the next step in increasing developer productivity is integrating these steps into a tighter feedback loop, so everyone within a company can instantly connect any line of code to a product feature, isolate it, change it, run its tests, find problems, change again, test and deploy with one click, change their mind, rollback, all the while not losing the context in which this feature exists. 
+
+[Insert demonstration of this]
+
+This significantly reduces the time it takes for software teams to go from idea to production and directly reduces software production costs. 
+
+Expense 2: Software Operation
+
+But writing code is only half the battle. The application needs to continue running with minimal downtime across many machines and, sometimes, in multiple locations all over the world. Running cloud software continuously can be extremely expensive. 
+
+For example, Mailgun, a popular SaaS provider, has hundreds of servers running in multiple data centers with infrastructure exceeding x% of its revenue. Moreover, more than 70% of their engineering team is working on keeping Mailgun up and running, while only 30% are available to evolve the feature set of the core offering.
+
+What are these ops engineers doing? The same thing they do at every SaaS company. They are building and continuously refining internal tools for reliable deployments and rollbacks, they are figuring out how to run the application across multiple data centers with consistent data, they integrate monitoring systems, they build tooling to deal with traffic spikes and to optimize infrastructure utilization in order to bring hosting costs down. 
+
+If you consider a modern data center as a single computer, the Mailgun team has effectively built their own operating system to run Mailgun, effectively. And now they’re on the hook to maintain and evolve it, just like any other successful SaaS company that has gone through several iterations of “scaling challenges”. It is not cheap.
+
+This is where tools like DC/OS or Kubernetes come in. At GitLab, we believe that adopting them is going to become the norm. Here we will explain why we feel that a tight integration with these tools is central to our goal of bringing down the cost of developing and operating software, using Kubernetes as an example.
+
+Kubernetes is essentially the operating system every successful engineering team at a SaaS company ends up building, but with a few critical advantages:
+
+It is standardized. This means that developers can transfer their experience from one project to another. This also means it can be plugged into our idea-to-production loop in the same way.
+Kubernetes is quickly evolving with a formidable team of developers behind it, which means that in most cases your software will run better on Kubernetes than on your own home-made tooling. 
+
+We have teamed up with our friends at Gravitational who helped us integrate GitLab with Kubernetes. Here is their advice:
+
+Standardizing on Kubernetes will bring uniformity to your operational procedures. It will eliminate special snowflakes and allow for separation of concerns:  developers no longer need to know the details of how applications run. Kubernetes helps separate “dev” and “ops” making both cheaper.
+Rent the biggest cloud instances possible, preferably occupying the entire physical host. Cloud providers make their margins by over-provisioning cloud resources and selling the same CPU cycles multiple times. Shrinking your footprint to fewer larger instances and using Kubernetes scheduling achieves a higher degree of utilization, reducing your hosting bill.
+Adopting Kubernetes removes a lot of dependencies on the infrastructure. This makes it cheaper to launch and successfully run your software on private clouds or international cloud regions, opening up new markets and revenue streams.
+Kubernetes makes bare metal quite “cloudy” and some companies can shrink their infrastructure spend even further by moving some (or all) of their workloads into colocation without making significant changes to the application code. 
+
+The folks at Gravitational can talk for hours about this, they help companies migrate their stacks to Kubernetes and erase the difference between running on public cloud and on private, behind-the-firewall environments. They augment Kubernetes with features needed for running applications across multiple environments, like taking a snapshot of the entire Kubernetes cluster and re-creating it in a different region, or installing a complex application stack into an air-gapped server rack from a USB stick.
+
+Gitlab’s Kubernetes integration allows developers to seamlessly clone & run the entire stack on clusters without having to worry about provisioning infrastructure and the uniformity of the environment and resource scheduling is taken care of.
+
+Conclusion
+
+So there you have it: a combination of GitLab and Kubernetes is capable of seriously shrinking the engineering expenses for software teams. GitLab’s tight idea-to-production loop makes software creation more effective, while Kubernetes dramatically shrinks the cost of software operation. 
+
+This is how even small teams today can deliver surprisingly capable software comparable in complexity to the operating systems of old!
+
+Building and running applications can be fun again, even in 2016. :)
