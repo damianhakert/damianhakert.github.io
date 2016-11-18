@@ -25,7 +25,7 @@ See LDAP troubleshooting in docs - [View Docs](http://docs.gitlab.com/ee/adminis
 
 1. Install `ldapsearch`
 
-```
+```bash
 # Ubuntu
 apt-get install ldap-utils
 # CentOS
@@ -38,7 +38,7 @@ Edit the following values to match the LDAP configuration in `gitlab.rb`
 
 **Example LDAP configuration**
 
-```
+```bash
 # cat /etc/gitlab/gitlab.rb | grep -A 24 ldap_servers
 gitlab_rails['ldap_servers'] = YAML.load <<-'EOS' # remember to close this block with 'EOS' below
    main: # 'main' is the GitLab 'provider ID' of this LDAP server
@@ -87,7 +87,7 @@ EOS
 
 **Get all LDAP objects for baseDN**
 
-```
+```bash
 ldapsearch -D "cn=admin,dc=ldap-testing,dc=mrchris,dc=me" \
 -w Password -p 389 -h 127.0.0.1 \
 -b "dc=ldap-testing,dc=mrchris,dc=me" -s sub "(objectclass=*)"
@@ -130,34 +130,29 @@ This indicates a syntax error with one of the configured DNs. Check the followin
 
 1. Update the log_level
 
+        vi /opt/gitlab/embedded/service/gitlab-rails/config/environments/production.rb
+
+
+   1. Find "config.log_level = :info"
+   1. Update `info` to `debug`
+
+1. Launch the rails console
+    ```ruby
+    gitlab-rails c
     ```
-    vi /opt/gitlab/embedded/service/gitlab-rails/config/environments/production.rb
+
+1. Perform a group sync
+    ```ruby    
+    LdapGroupSyncWorker.new.perform
     ```
 
-   + Find "config.log_level = :info"
-
-   + Update `info` to `debug`
-
-2. Launch the rails console
-
-```
-gitlab-rails c
-```
-
-   1. Perform a group sync
-
-	```
-	LdapGroupSyncWorker.new.perform
-	```
-
-   1. Perform a user sync
-
-	```
-	LdapSyncWorker.new.perform
-	```
+1. Perform a user sync
+    ```ruby 
+    LdapSyncWorker.new.perform
+    ```
 	
 	
-   1. Check the console for sync output
+1. Check the console for sync output
 
 
 **Removing exclusive lease** - Testing (valid for 8.6 to 8.9)
@@ -178,33 +173,33 @@ This is used to force an instant sync of LDAP for testing purposes.
 **Additional testing**
 
 1. Start the rails console
+        
+        sudo gitlab-rails console
 
-```
-sudo gitlab-rails console
-```
 2. Create a new adapter instance
-
-```
-adapter = Gitlab::LDAP::Adapter.new('ldapmain')
-```
+        
+    ```ruby
+    adapter = Gitlab::LDAP::Adapter.new('ldapmain')
+    ```
    
 3. Find a group by common name. Replace **UsersLDAPGroup** with the common name to search.
 
-**GitLab 8.11 >**
+   1. **GitLab 8.11 >**
 
-```
-group =  EE::Gitlab::LDAP::Group.find_by_cn('UsersLDAPGroup', adapter)
-```
+        ```ruby
+        group =  EE::Gitlab::LDAP::Group.find_by_cn('UsersLDAPGroup', adapter)
+        ```
 
 
-**GitLab < 8.10**
+   1. **GitLab < 8.10**
 
-```
-group =  Gitlab::LDAP::Group.find_by_cn('UsersLDAPGroup', adapter)
-```
-   
+        ```ruby
+        group =  Gitlab::LDAP::Group.find_by_cn('UsersLDAPGroup', adapter)
+        ```   
+
 4. Check `member_dns`
 
-```
-group.member_dns
-```
+    ```ruby
+    group.member_dns
+    ``` 
+        

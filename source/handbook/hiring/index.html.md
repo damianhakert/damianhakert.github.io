@@ -171,7 +171,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 #### Technical interviews
 
 1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
-1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pickup ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack.
+1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pick up Ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack. Note that individual positions may have stricter requirements; the Backend Developer position [requires Ruby experience](/jobs/developer/#ruby-experience), for example.
 1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
 
 ### Behavioral questions (STAR)

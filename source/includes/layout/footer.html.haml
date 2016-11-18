@@ -22,9 +22,10 @@
       .col-sm-6.col-md-3.col-lg-2.col-lg-offset-2.footer-link-holder
         %h3.footer-link-title Products
         %ul.animated.footer-links
-          %li= link_to('Community Edition',  '/features')
-          %li= link_to('Enterprise Edition', '/features/#enterprise')
+          %li= link_to('Community Edition',  '/pricing/#compare-options')
+          %li= link_to('Enterprise Edition', '/pricing/#compare-options')
           %li= link_to('GitLab.com',         '/gitlab-com/')
+          %li= link_to('GitLab Hosted',      'https://githost.io/')
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Services
         %ul.animated.footer-links
@@ -72,8 +73,6 @@
 = partial "includes/google/remarketing"
 
 %script{src: "//platform.twitter.com/oct.js", type: "text/javascript"}
-
-%script{src: "//cdn.optimizely.com/js/7718922374.js", type: "text/javascript"}
 
 :javascript
   twttr.conversion.trackPid('nufbg', { tw_sale_amount: 0, tw_order_quantity: 0 });

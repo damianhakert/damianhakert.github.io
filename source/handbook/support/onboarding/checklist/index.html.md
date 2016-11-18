@@ -42,6 +42,7 @@ okay. But if you see a topic that is completely new to you, stop the video and t
 it out for yourself before continuing.
 
 1. [ ] Just quickly check on your Zendesk account to make sure that is ready for you when you need it.
+1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
 
@@ -61,6 +62,9 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
   1. [ ] `stash.md`
   1. [ ] `git_log.md`
   1. [ ] For the rest of the topics in `user training`, just do a quick read over the file names so you start remembering where to find them.
+1. [ ] Get familiar with the services GitLab offers
+  1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
+  1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
 
 ### Stage 2. Installation and Administration basics.
 
@@ -129,7 +133,7 @@ _Typically started in first week, and completed by the end of the fourth week_
      1. Follow the prompts and finalize your order.
      1. You'll receive an email with information on accessing the Zendesk course
   1. Proceed to complete the **"Agents: Zendesk Fundamentals Online"** course
-1. [ ] Review additional Zendesk resources   
+1. [ ] Review additional Zendesk resources
   1. [ ] [UI Overview](https://support.zendesk.com/hc/en-us/articles/203661806-Introduction-to-the-Zendesk-agent-interface)
   1. [ ] [Updating Tickets](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
   1. [ ] [Working w/ Tickets](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets) *Read: avoiding agent collision.*
@@ -194,6 +198,7 @@ _Typically start this in week 2 or 3, complete by end of week 4._
 
 Look at the `GitLab Support` Google Calendar to find customer calls you can listen in on. Contact the person leading the call to check if it is okay for you to jump in on the call, and if they could stay on with you for a few minutes after the call, for you to ask them a few questions about things you didn't understand, and them to ask you a few questions to make sure you understood the items they want you to take away.
 
+1. [ ] Hiring Manager: make sure that the new team member has a "Pro" account within the GitLab team account on [Zoom.us](https://gitlab.zoom.us).
 1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call
    1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webex)
    1. [ ] Training calls

@@ -22,21 +22,21 @@ resources, and inspiration for becoming better distributed and collaborative dev
 
 For every piece of content we share the goal should be to  make an individual or a team better. To achieve
 this we should empathize with our audience, thinking about who the content is for and how it will help.
-We should aim to share both the 
+We should aim to share both the
 "how-to" and "the why it matters" in our content. We should strive to make takeaways clear and actionable.  
 
 ## Content Persona<a name="persona"></a>
 
 GitLab is a classic oversharer of ideas, opinions, and experiences that help better the community. We think
 of GitLab's voice as human, empathetic, light-hearted, and opinionated yet humble. We share our point of
-view and opinions but do not forget to provide context and ask for other opinions. 
+view and opinions but do not forget to provide context and ask for other opinions.
 
 Things you can expect GitLab to overshare on:
 
 * **Community Guidance**: Empowering developers to get stuff done by making it easy to get started with git and GitLab
-* **Enterprise Answers**: Working in large teams is often challenging. We'd like to understand more about the painpoints of enterprise development teams, present solutions, and answer questions. 
+* **Enterprise Answers**: Working in large teams is often challenging. We'd like to understand more about the painpoints of enterprise development teams, present solutions, and answer questions.
 * **Thought Leadership**: Share our perspective on variety of topics like open source, open organization, innersourcing, modern development, and change management.
-* **Quirky Culture**: Showcase our unique company culture and team members, focusing on remote-only, transparency, product design, employee learnings, stickers etc.) 
+* **Quirky Culture**: Showcase our unique company culture and team members, focusing on remote-only, transparency, product design, employee learnings, stickers etc.)
 
 ## 2016 activities<a name="2016"></a>
 
@@ -45,15 +45,15 @@ Things you can expect GitLab to overshare on:
 which welcome newcomers, celebrate with existing users, and provide access to expertise.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
 
-### Q3 Content Pillars 
+### Q3 Content Pillars
 
-Non-GitLab Specific 
+Non-GitLab Specific
 
 * Open source and open organizations
 * Innersourcing
 * Modern development
 
-GitLab Specific 
+GitLab Specific
 
 * GitLab workflow
 * GitLab tutorials and migration guides
@@ -120,7 +120,7 @@ This program is in development. For the first month, January, we'll start with o
 - Create webcast copy (Amara)
 - Create the webcast registration page (Mitchell)
 - Send calendar invitation (with 15 minute buffer) to presenters with presenter link (Mitchell)
-- Send webcast dry run calendar invitation to presenters 
+- Send webcast dry run calendar invitation to presenters
 - Create ads promoting webcast (Mitchell)
 - Promote webcast in newsletter (Amara)
 - Schedule webcast promo tweets T - 3 weeks, T - 2 weeks, T - 3 days, and T - 1 day, and T (Amara)
@@ -135,7 +135,6 @@ This program is in development. For the first month, January, we'll start with o
 - Presenters will deliver slides and must remain mindful of time and shorten their presentations if needed to make up time
 - Every webcast should leave at least 10 minutes for a Q&A
 
-
 #### Post webcast
 
 - Edit the recording (Amara)
@@ -144,3 +143,28 @@ This program is in development. For the first month, January, we'll start with o
 - Promote blog post on Twitter (Amara)
 - Send webinar follow up emails (Mitchell)
 - Add to newsletter (Amara)
+
+## Monthly Newsletters
+
+- We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
+- The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+### Delivering Newsletters
+
+An issue is created in the marketing repository on GitLab.com using the `Newsletter` issue template. A corresponding Marketo program is created using the format of `YYYYMMDD_Newsletter` with the date being the date that the email will be sent out. This program is most easily created by cloning the most recent newsletter that was sent out.
+
+The issue and Marketo program should be created at least a week in advance to give ample time to add content for the newsletter.
+
+The newsletter should have 3-4 blocks of content, with each block containing the following elements:
+- Title/topic
+- Link and call-to-action
+- Description/copy
+
+The content block will look like this once placed in the newsletter:
+
+![newsletter block example](https://about.gitlab.com/images/handbook/marketing/newsletter-example-block.png)
+
+
+After the content for the newsletter is finalized in the issue, it can be added to the email in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
+
+Once the newsletter content is updated, send a test email to the appropriate people and get feedback on email copy, links, layout, etc. Implement the necessary changes and send new test emails until the email is ready. Once the email has been reviewed and is ready to be sent, schedule the email within Marketo.

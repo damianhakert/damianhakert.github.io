@@ -22,6 +22,7 @@ title: "Stock Options"
 |Sr. Manager / Lead / Sr. AE|5,000|
 |Manager / AE / Sr. Developer|2,500|
 |Individual contributor|2,000|
+|Business Development Representative|1,500|
 
 ## About Your Ownership in GitLab
 

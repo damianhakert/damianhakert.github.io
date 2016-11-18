@@ -5,8 +5,25 @@ title: CEO Preferences
 
 ## Intro
 
-This page is mainly as a guideline for the Executive Assistants (EAs) to our Chief Executive Officer (CEO). It is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense. 
+This page is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense.
 If there are things that might seem pretentious or overbearing please raise them so we can remove or adapt them.
+Many items further down this page are a guideline for our the [Executive Assistants](https://about.gitlab.com/jobs/executive-assistant/) (EAs).
+
+## Flaws
+
+Transparency and directness are part of our [values](https://about.gitlab.com/handbook/#values) and I want to live them by sharing the flaws I know I have.
+I'm fully responsible for improving the things below, listing them is no excuse.
+They are listed here so people know it is not them and that I appreciate people speaking up about them.
+
+1. I look serious all the time, it is OK to say 'maybe you can smile more'.
+2. I love debating, it is OK to say 'please stop debating and start collaborating'.
+3. My English pronunciation, choice of words, and grammar are not great. I'm taking lessons but I welcome corrections when we're having a 1:1 conversation and/or when it might confuse people.
+4. When in a rush I will jump to conclusions, it is OK to ask 'can we take more time to discuss this'.
+5. I sometimes make reports feel like I'm scolding them, as in being angry for a percieved fault. It is OK to say, I don't mind you making that point but your tone doesn't make me feel respected.
+
+If you speak up about them I should thank you for it, it is OK to say 'this was on your list of flaws so I kinda expected a thank you'.
+I'm sure I have more flaws that affect my professional life.
+Feel free to send a merge request to add them or communicate them anonymously to People Operations so they can send a merge request.
 
 ## Communication
 
@@ -83,7 +100,7 @@ Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/
 EA does research for the best option for a flight and propose this to Sid before booking.
 Current preferences for flights are:
 * Aisle seat
-* Check a bag for **all** trips (longer than one night)
+* Check a bag for all trips longer than one night
 * Frequent Flyer details of all (previously flown) airlines are in EA vault of 1Password
 
 ## Mail

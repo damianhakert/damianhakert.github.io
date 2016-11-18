@@ -343,6 +343,29 @@ To remove the generated PDFs run:
 rake rm_pdfs
 ```
 
+### Add a new PDF file
+
+In order to make a page be saved as pdf at a location reachable through the
+website, you have to:
+
+1. Open [Rakefile](./Rakefile) with your editor and add the location of the
+   generated PDF file (prepend with `public/`) under the `PDFS = %w{` section.
+   Save the file and exit.
+
+1. Make sure the file exists locally in the location you chose the pdf to be
+   saved. For example, a page in `source/my-page/page.html.haml` should have an
+   entry of `public/my-page/page.pdf` in the `Rakefile` (previous step).
+
+1. The file to be printed must have the `print` layout set in the yaml frontmatter.
+   For example:
+
+    ```
+    ---
+    layout: print
+    title: "The title of the page"
+    ---
+    ```
+
 ## Custom Generators
 
 There are a few custom, static generators specified in config.rb. For
@@ -391,3 +414,26 @@ In case someone forgot the most important commands and is catting this file from
 bundle exec rake new_post
 bundle exec middleman
 ```
+
+## Review Apps
+
+Thanks to the [Review Apps], the `www-gitlab-com` project supports live reviewing
+of any website changes with every merge request. When a branch is pushed and
+the pipeline is successfully run, you can see a link pointing to the live
+environment in your merge request. The URL will be of the following scheme:
+`<branch-name>.about.gitlab.com`.
+
+Beware that:
+
+- To successfully deploy a Review App, the branch must exist in the
+  `www-gitlab-com` repository. That means that branches from forks will not
+  deploy a Review App (hence MRs from contributors). For that case, you should
+  have at least Developer access to the `www-gitlab-com` project or
+  `gitlab-com` group.
+- Branches containing a slash (`/`) or other special characters in their name
+  will not deploy a Review App. Prefer to use dashes (`-`) or underscores (`_`).
+  For more information on that matter check the discussion in this
+  [issue in the CE tracker][ce-22849].
+
+[ce-22849]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22849
+[review apps]: https://docs.gitlab.com/ce/ci/review_apps/

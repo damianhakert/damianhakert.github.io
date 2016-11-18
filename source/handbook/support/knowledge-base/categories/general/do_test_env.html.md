@@ -14,7 +14,7 @@ category: General
 
 ## Initial setup
 
-This guide involves configuring a Digital Ocean droplet and setting up Docker locally, it assumes you're using Mac OS X. 
+This guide involves configuring a Digital Ocean droplet and setting up Docker locally, it assumes you're using Mac OS X.
 
 #### Install Docker Toolbox
 
@@ -27,9 +27,9 @@ This guide involves configuring a Digital Ocean droplet and setting up Docker lo
 1. Generate a new API token at https://cloud.digitalocean.com/settings/api/tokens
 
 
-This command will create a new DO droplet called `gitlab-test-evn-do` that will act as a docker host. 
+This command will create a new DO droplet called `gitlab-test-env-do` that will act as a docker host.
 
-**Note: 4GB is the minimum requirement for a Docker host that will run more then one GitLab instance** 
+**Note: 4GB is the minimum requirement for a Docker host that will run more then one GitLab instance**
 
 + RAM: 4GB
 + Name: `gitlab-test-env-do`
@@ -49,8 +49,8 @@ docker-machine create \
   --driver digitalocean \
   --digitalocean-access-token=$DOTOKEN \
   --digitalocean-size "4gb" \
-    gitlab-test-evn-do
-```    
+    gitlab-test-env-do
+```
 
 + Resource: https://docs.docker.com/machine/drivers/digital-ocean/
 
@@ -61,7 +61,7 @@ docker-machine create \
 #### Connect your shell to the new machine
 
 
-In this example we'll create a GitLab EE 8.10.8 instance. 
+In this example we'll create a GitLab EE 8.10.8 instance.
 
 
 First connect the docker client to the docker host you created previously.
@@ -75,9 +75,9 @@ You can add this to your `~/.bash_profile` file to ensure the `docker` client us
 
 #### Create new GitLab container
 
-+ HTTP port: `8080`
++ HTTP port: `8888`
 + SSH port: `2222`
-   + Set `gitlab_shell_ssh_port` using `--env GITLAB_OMNIBUS_CONFIG ` 
+   + Set `gitlab_shell_ssh_port` using `--env GITLAB_OMNIBUS_CONFIG `
 + Hostname: IP of docker host
 + Container name: `gitlab-test-8.10`
 + GitLab version: **EE** `8.10.8-ee.0`
@@ -86,7 +86,7 @@ You can add this to your `~/.bash_profile` file to ensure the `docker` client us
 
 ```
 export SSH_PORT=2222
-export HTTP_PORT=8080
+export HTTP_PORT=8888
 export VERSION=8.10.8-ee.0
 export NAME=gitlab-test-8.10
 ```
@@ -94,11 +94,11 @@ export NAME=gitlab-test-8.10
 #####  Create container
 ```
 docker run --detach \
---env GITLAB_OMNIBUS_CONFIG="external_url 'http://$(docker-machine ip gitlab-test-env-do):$SSH_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
+--env GITLAB_OMNIBUS_CONFIG="external_url 'http://$(docker-machine ip gitlab-test-env-do):$HTTP_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
 --hostname $(docker-machine ip gitlab-test-env-do) \
--p $HTTP_PORT:80 -p $SSH_PORT:22 \
+-p $HTTP_PORT:$HTTP_PORT -p $SSH_PORT:22 \
 --name $NAME \
-gitlab/gitlab-ee:$VERSION 
+gitlab/gitlab-ee:$VERSION
 ```
 
 #### Connect to the GitLab container
@@ -111,10 +111,10 @@ docker-machine ip gitlab-test-env-do
 ```
 
 
-+ Browse to: http://192.168.151.134:8080/
++ Browse to: http://192.168.151.134:8888/
 
 
-##### Execute interactive shell/edit configuration 
+##### Execute interactive shell/edit configuration
 
 
 ```
@@ -127,8 +127,8 @@ root@192:/# vi /etc/gitlab/gitlab.rb
 root@192:/# gitlab-ctl reconfigure
 ```
 
-#### Resources 
+#### Resources
 
-+ https://docs.gitlab.com/omnibus/docker/
-+ https://docs.docker.com/machine/get-started/
-+ https://docs.docker.com/machine/reference/ip/
++ [https://docs.gitlab.com/omnibus/docker/](https://docs.gitlab.com/omnibus/docker/)
++ [https://docs.docker.com/machine/get-started/](https://docs.docker.com/machine/get-started/)
++ [https://docs.docker.com/machine/reference/ip/](https://docs.docker.com/machine/reference/ip/)

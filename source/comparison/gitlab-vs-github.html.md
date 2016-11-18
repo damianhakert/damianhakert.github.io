@@ -1,7 +1,8 @@
 ---
 layout: comparison_page
-title: GitLab Compared to other tools
 suppress_header: true
+title: GitLab compared to other tools
+image_title: '/images/comparison/title_image.png'
 extra_css:
   - compared.css
 ---
@@ -15,9 +16,6 @@ GitLab has a different approach to code development and deployment compared with
 Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
-
-### Attachments in issues
-In GitLab you can attach any file to any issue or comment.
 
 ### Innersourcing
 Internal projects in GitLab allow you to promote innersourcing of your internal repositories.
@@ -64,7 +62,7 @@ GitLab not only allows you to search through code, but also searches through you
 You can change the order of tasks in markdown on GitHub.
 GitLab does not have this ability, but is considering implementing it.
 
-> [See the GitLab issue to implement this](https://gitlab.com/gitlab-org/gitlab-ce/issues/18003)
+[See the GitLab issue to implement this](https://gitlab.com/gitlab-org/gitlab-ce/issues/18003)
 
 ### Assign multiple people to an issue / MR
 
@@ -74,7 +72,7 @@ GitLab doesn't allow you to do this, but allows for approvals in merge requests,
 which offsets this there. For issues, GitLab does not have an
 equivalent feature, but a feature request has been submitted for this.
 
-> [GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
+[GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
 
 ### Allow edits from upstream maintainers in branch
 
@@ -84,19 +82,19 @@ them on their new branch.
 
 GitLab allows you to restrict pushes very carefully, but does not have this option.
 
-> [GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
+[GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
 
 ### Cycle Analytics
 GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production.
 
-> [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
+[Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
 
 ### Slash commands
 
 In GitLab, you can pilot almost everything that affects an issue or a merge
 request with slash commands.
 
-> [Documentation about slash commands](https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab slash commands)
+[Documentation about slash commands](https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab slash commands)
 
 ### Issue board
 
@@ -107,7 +105,7 @@ GitLab has Issue boards. Each list of an issue board is based on a label that ex
 issue tracker. The Issue Board will therefore match the state of your issue tracker in a
 user friendly way.
 
-> [Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
+[Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
 
 ### Continuous Integration
 
@@ -117,7 +115,7 @@ GitLab provides a continuous integration service, built-in, for free. It's tight
 with everything in the product and just works. You can also decide to use external CI solutions
 if you choose to.
 
-> [Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
+[Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
 
 ### Don't take our word for it.
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)

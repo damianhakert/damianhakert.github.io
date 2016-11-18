@@ -8,8 +8,13 @@
 
   // Dropdown Core functionality
 
-  var setDropdown = function(event) {
-    var $selected = $(event.currentTarget);
+  var setDropdown = function(e) {
+    var $selected = $(e.currentTarget);
+
+    if ($selected.hasClass('filter-container')) {
+      return;
+    }
+
     var key = $selected.find('.key').text();
     var value = $selected.find('.value').text();
     var displayValue = $selected.find('.display-value').text();
@@ -35,16 +40,30 @@
     }
   }
 
+  var isFullyVisible = function(el, parentEl) {
+    var parentHeight = parentEl.height() - el.height(); // Make sure last item is not partially visible
+    var elTop = el.position().top;
+    var elBottom = elTop + (el.height());
+
+    return (elBottom > 0 && elTop < parentHeight);
+  }
+
   this.SalaryCalculator = (function() {
     function SalaryCalculator() {
       this.bindEvents();
     }
 
     SalaryCalculator.prototype.bindEvents = function() {
-      var $countryDropdown = $(salaryContainer + ' .country li');
-      var $cityDropdown = $(salaryContainer + ' .city li');
+      var $countryDropdown = $(salaryContainer + ' .country li:not(.filter-container)');
+      var $countryDropdownContainer = $(salaryContainer + ' .country');
+      var $cityDropdown = $(salaryContainer + ' .city li:not(.filter-container)');
+      var $cityDropdownContainer = $(salaryContainer + ' .city');
       var $levelDropdown = $(salaryContainer + ' .level li');
+      var $levelDropdownContainer = $(salaryContainer + ' .level');
       var $experienceDropdown = $(salaryContainer + ' .experience li');
+      var $experienceDropdownContainer = $(salaryContainer + ' .experience');
+      var $countryFilter = $('.js-country-filter');
+      var $cityFilter = $('.js-city-filter');
 
       // Set selected dropdown value
       $countryDropdown.on('click', setDropdown);
@@ -65,13 +84,121 @@
       // Render Formula
       $levelDropdown.on('click', this.renderFormula.bind(this));
       $experienceDropdown.on('click', this.renderFormula.bind(this));
+
+      // Highlighting for Dropdown
+      $levelDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+      $experienceDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+
+      // Highlighting for Filter
+      $countryDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+      $cityDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
+
+      // Filtering
+      $countryFilter.on('keyup', this.search.bind(null, {
+        dropdown: 'country'
+      }));
+
+      $cityFilter.on('keyup', this.search.bind(this, {
+        dropdown: 'city',
+        filter: 'country',
+      }));
+
+      $countryDropdownContainer.on('shown.bs.dropdown', this.focusInput);
+      $cityDropdownContainer.on('shown.bs.dropdown', this.focusInput);
+    }
+
+    SalaryCalculator.prototype.focusInput = function(e) {
+      $(e.target).find('.filter-input').focus();
+    }
+
+    SalaryCalculator.prototype.search = function(data, e) {
+      var text = e.target.value.toLowerCase();
+      var filterValue = null;
+      var $items = $(salaryContainer + ' .' + data.dropdown + ' li:not(.filter-container)');
+
+      if (data.filter) {
+        filterValue = this.getElementValues()[data.filter];
+      }
+
+      $items.each(function(index, element) {
+        var $element = $(element);
+        var value = $element.children('.key').text().toLowerCase();
+        var searchableElement = true;
+
+        if (data.filter && filterValue) {
+          searchableElement = $element.data(data.filter) === filterValue;
+        }
+
+        if (value.indexOf(text) == -1 || !searchableElement) {
+          $element.addClass('hidden');
+        } else {
+          $element.removeClass('hidden');
+        }
+      });
+    }
+
+    SalaryCalculator.prototype.highlightDropdownItem = function(e) {
+      var $this = $(e.currentTarget);
+      var listContainer = $this.find('.dropdown-menu.dropdown-scroll');
+      var list = $this.find('li:not(.hidden):not(.filter-container)');
+      var nextLi, prevLi, focusedLi;
+
+      if ($this.hasClass('open')) {
+        if ((e.keyCode === 38 || e.keyCode === 40) &&
+            !list.filter('li.is-focused').length) {
+          list.first().addClass('is-focused');
+          return;
+        }
+
+        if (e.keyCode === 38 && !list.first().hasClass('is-focused')) { // Up
+          prevLi = list
+                    .filter('li.is-focused')
+                    .prevAll('li:not(.hidden)').first();
+
+          list.removeClass('is-focused');
+
+          if (prevLi[0] === list.first()[0]) {
+            list.first().addClass('is-focused');
+          } else {
+            prevLi.addClass('is-focused');
+          }
+        } else if (e.keyCode === 40 && !list.last().hasClass('is-focused')) { // Down
+          nextLi = list
+                    .filter('li.is-focused')
+                    .nextAll('li:not(.hidden)').first();
+
+          list.removeClass('is-focused');
+
+          if (nextLi[0] === list.last()[0]) {
+            list.last().addClass('is-focused');
+          } else {
+            nextLi.addClass('is-focused');
+          }
+        } else if (e.keyCode === 9) { // Tab keyCode
+          $this.removeClass('open');
+        } else if (e.keyCode === 13) { // Enter / Return
+          // Triggering click directly while keydown is active
+          // doesn't hide dropdown, this workaround does. Need better way :/
+          setTimeout(function() { list.filter('li.is-focused').trigger('click'); });
+        }
+
+        focusedLi = list.filter('li.is-focused');
+        if (focusedLi.length && list.first()[0] !== focusedLi[0]) {
+          if (!isFullyVisible(focusedLi, listContainer)) {
+            listContainer.scrollTop(list.index(focusedLi) * focusedLi.outerHeight());
+          }
+        }
+        else {
+          listContainer.scrollTop(0);
+        }
+      }
     }
 
     // Custom dropdown functionality
 
     SalaryCalculator.prototype.filterCityDropdown = function() {
       var selectedCountry = this.getElementValues().country;
-      var $cities = $(salaryContainer + ' .city li');
+      var $cities = $(salaryContainer + ' .city li:not(.filter-container)');
 
       $cities.each(function(index, element) {
         var $element = $(element);
@@ -86,6 +213,8 @@
     SalaryCalculator.prototype.resetCityDropdown = function() {
       var $cityDropdownBtn = $(salaryContainer + ' .city .btn');
       var $cityDropdownTitle = $cityDropdownBtn.find('.title');
+      var $filterInput = $('.js-city-filter');
+      $filterInput.val('');
       $cityDropdownBtn.removeClass('disabled');
       $cityDropdownTitle.text('--');
       $cityDropdownTitle.data('selected', '');
@@ -118,6 +247,7 @@
           this.renderInvalidCompensation();
         }
         this.renderFormula();
+        this.renderContractType();
       }
 
       if (this.data) {
@@ -145,25 +275,26 @@
         return this.renderInvalidCompensation();
       }
 
-      this.renderContractType(contract);
-
       var min = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, levelIndex, contract.factor, input.experience.max);
       $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
-    SalaryCalculator.prototype.renderContractType = function(contract) {
+    SalaryCalculator.prototype.renderContractType = function() {
+      var country = this.getElementValues().country;
+      var contract = this.calculateContractFactor(country);
       var $container = $('.contract-type-container');
 
       if (contract.type === CONTRACT_TYPE_EMPLOYEE) {
         $container.find('.grammer').text('an');
         $container.find('.company-type').text('Inc.');
+        $container.find('.contract-type').text('employee');
       } else {
         $container.find('.grammer').text('a');
         $container.find('.company-type').text('BV.');
+        $container.find('.contract-type').text('contractor');
       }
 
-      $container.find('.contract-type').text(contract.type);
       $container.removeClass('hidden');
     }
 

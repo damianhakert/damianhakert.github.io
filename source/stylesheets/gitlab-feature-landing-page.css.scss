@@ -19,6 +19,20 @@ p {
   font-size: 14px;
 }
 
+@media (min-width: $screen-sm-min) {
+  .featurenav {
+
+    .nav-justified {
+      text-align: center; // This doesn't feel good, but looks good. :/
+
+      > li {
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
+}
+
 .image-title {
   background: url("/images/stock/ci.jpg");
   background-size: 100%;
@@ -146,6 +160,10 @@ p {
   border-width: 1px;
   max-width: 100%;
   margin-bottom: 60px;
+
+  &.blank {
+    border-width: 0;
+  }
 }
 
 .installation .fa {

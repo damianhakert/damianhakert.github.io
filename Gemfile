@@ -28,6 +28,7 @@ gem "oga"
 gem "stringex"
 
 group :development, :test do
+  gem 'docopt'
   gem 'scss_lint', require: false
   gem 'yaml-lint', require: false
 end
