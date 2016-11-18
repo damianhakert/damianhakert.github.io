@@ -30,7 +30,7 @@ title: "GitLab Onboarding"
 
 Create issue for new hire in organization with following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
-When you paste it in an issue it will have checkboxes that you can click to complete.
+When you paste it in an issue it will have checkboxes that you can click to complete. Sasha training to use local.
 The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task. Please update this list as more steps arise, and then also update the associated item on the [offboarding list](/handbook/offboarding).
 
 ```
@@ -82,10 +82,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > Welcome to GitLab, we're excited that you're joining our team!
     >
     > You should have received an invitation to your GitLab email account;
-    > please let me know if that is not the case. 
+    > please let me know if that is not the case.
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link]. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later! 
+    > [Insert link]. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes

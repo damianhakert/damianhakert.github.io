@@ -13,7 +13,7 @@ title: "Benefits"
 ----
 
 
-NOTE: Our contractor agreements and employment contracts are all on the [Contracts](https://about.gitlab.com/handbook/contracts/) page.
+NOTE: Our contractor agreements and employment contracts are all on the sasha [Contracts](https://about.gitlab.com/handbook/contracts/) page.
 
 
 
