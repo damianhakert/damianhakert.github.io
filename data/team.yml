@@ -1988,16 +1988,16 @@
   story:  |
           From Tech Support leveled up to Customer Success, James has many years of experience and leverages a broad background following interest in Business, IT, and Computer Science.  You will find James managing your account to ensure you get the most out of products now and going forward.  When not plugged-in, he is most likely cycling in the desert (day or night), functional training, partaking in modern cuisine, and often staying up late.
 
-- name: B.C.
-  locality:
-  country:
+- name: Balasankar "Balu" C
+  locality: Kochi, Kerala
+  country: India
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
   reports_to: Buid Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: balasankarc.jpg
+  twitter: cbalasankar
+  gitlab: balasankarc
   story:  |
-          Joining November 16th
+          Balu is from Kerala, southern most part of India and is passionate about anything related to Freedom and Privacy. He has been contributing to different Free Software and language computing communities for quite some time, especially in Packaging (he is currently a Debian Maintainer), Software Development, Localization, and Evangelism. Other than a computer geek, he is mainly a procaffinator and a bibliophile. He enjoys reading (and sometimes even writing) poetry too.
 
 - name: K.L.
   locality:
