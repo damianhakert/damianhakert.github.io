@@ -9,7 +9,7 @@ title: Service Engineer Bootcamp Checklist
 Your hiring manager should create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/) for you as part of your onboarding.
 This list looks strange in this handbook because it is formatted to be copy-pasted into an issue and then render properly there.
 
-The topics are generally ordered by priority in which they need to be tackled,
+The topics are  generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
 ```
