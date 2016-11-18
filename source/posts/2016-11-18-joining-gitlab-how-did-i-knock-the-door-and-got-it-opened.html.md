@@ -9,10 +9,10 @@ description:
 
 I'm writing this post onboard of a train from Praha to Budapest, crossing three different countries in a couple hours. That's how remote working can be sometimes. \o/
 
-Let's start with a "RECEITA" for cooking a new lifestyle.
+Let's start with a recipe for cooking a new lifestyle.
 
-- In a "pot", put some freedom to work from wherever you want
-- Then, use a "penereira" to remove the stress of commuting every day for hours and hours
+- In a pot, put some freedom to work from wherever you want
+- Then, use a sieve to remove the stress of commuting every day for hours and hours
 - Shake it for a while
 - Then add some flight tickets to work remotely from somewhere else
 - Don't forget to add some pictures of the adventures you live while traveling and working at the same time
@@ -31,8 +31,8 @@ Yeah, that summarizes the awesomeness of working for GitLab. 🙌
 I first knew about GitLab when looking for a better option for my websites'
 projects, at that time hosted on GitHub and served by GitHub Pages. I found GitLab by a Google search, and [signed up]() straight away. After exploring the platform for a while, I could perfectly understand what's what. I found a little difficult to set up GitLab CI for GitLab Pages for my blog project, which I imported from GitHub painlessly. After a few attempts and reading through the documentation, I figured out what I needed in my `.gitlab-ci.yaml`. But I had some back and forwards until I got it sorted.
 
-A couple months later, I saw on Twitter that GitLab had a program called "Community Writers", which offered compensation for technical blog posts interesting for its users. 
-I have 11 years experience writing technically, so I thought it would be worth digging into this opportunity.
+A couple weeks later, I saw on Twitter that GitLab had a program called "Community Writers", which offered compensation for technical blog posts interesting for its users. 
+I have eleven years experience writing technically, so I thought it would be worth digging into this opportunity.
 
 When I read the subjects GitLab had interest at that moment, I realized that I didn't have expertise enough to write about them, but I'd love to write about GitLab Pages, once the resources for setting it up were limited, as I had noticed before. So, I sent an email to the person responsible for the Community Writers Program, asking her if there was any interest on that content. After a couple weeks, she replied telling me it would be awesome to publish a complete tutorial on setting up GitLab Pages with Static Site Generators.
 
@@ -70,13 +70,21 @@ It's a serious mistake to think that because we're remote we don't care about ea
 
 When we finally meet someone in person, it's usually is a super exciting experience: we hug each other, we cheer up, we are surprised how tall people really look like (you can't believe how tall they are!), we have a lot of fun together, and we just are happy to hangout with one another. 
 
-I first met my fellow team members in Rio. Robert and Douwe are doing their amazing 6 months trip, and they stopped by in Brazil to hangout with us. Me, Douglas, and Felipe worked together and had a lot of fun with the "gringos" in Rio! Yay! 
+I first met my fellow team members in Rio. Robert and Douwe are doing their amazing 6 months trip, and they stopped by in Brazil to hangout with us. Me, Douglas, and Felipe worked together and had a lot of fun with the "gringos" in Rio! Yay!
+
+![pic in rio]()
 
 My second meeting with GitLabbers happened a couple weeks ago in Amsterdam, during the GitLab World Tour event. It was when I finally met Axil, our Tech Writer and docs master, with whom I work everyday, asking questions, making jokes, and speaking Portugreek whenever we have a lack of English words. 😜 I also had an awesome time out with Emily "1.0" and Richard "Pidge", from which I took a lot of important insights. Emily gave me the most famous socks in the world, and a couple other GitLab swag that we all love.
 
+![pic of swag]
+
 The event in Amsterdam was pretty special to me, once I had the pleasure to met not only GitLabbers, but GitLab users, customers, curious folks, and fans. It was very important to hear their stories, know what are they interested in, and what we can do to help. There's a lot of very interesting stories about them, which we'll share with you in the following weeks. Our community is awesome! Thank you all for hanging out with us in Amsterdam and in the other World Tour events as well. We ❤️ you!
 
-After the event I jumped into a short vacation, so I could visit my old friends in Dublin (where I'd lived before), and meet another friend in Praha. Right now I'm writing this post onboard of a train from Praha to Budapest, working remotely in a Friday afternoon. 😎 
+![pic in amst]
+
+After the event I jumped into a short vacation, so I could visit my old friends in Dublin (where I'd lived before), and meet another friend in Praha. Right now I'm writing this post onboard of a train from Praha to Budapest, working remotely in a Friday afternoon. 😎
+
+![pic in the train]
 
 Next week I'll go back home in Brazil, and chill out until January, when we're having our Summit Meeting. It happens once every 6 to 9 months, and it's when we have the opportunity to see all the team members in person! ❤️
 
@@ -84,7 +92,7 @@ Next week I'll go back home in Brazil, and chill out until January, when we're h
 
 Now, six months after joining the team, and seven months after publishing my first community post, I'm the Community Writers lead and the Technical Editor of the GitLab Blog, as member of the Content Team.
 
-I keep doing what I love, with a company culture that I love, with fellow colleagues that I love. And that's us!
+I keep doing what I love, within a company culture that I love, with fellow colleagues that I love. And that's us!
 
 The thing to get a job at GitLab is simple: contribute! When you do, you can prove your value, present your work, know the team, and fall in love with GitLab - the company and the product.
 
