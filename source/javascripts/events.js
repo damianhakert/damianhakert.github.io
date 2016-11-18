@@ -210,11 +210,13 @@
         var element = eventsToPopulate[i];
         if(element){
           var $tempTemplate = $templateEventListElement.clone()
+          $($tempTemplate).attr("index", i); //Prolly not gonna need this
           $($tempTemplate).find('.event-topic').append('<span class="fa fa-chevron-down" aria-hidden="true"></span>'+element.topic);
           $($tempTemplate).find('.event-date').text(element.date);
           $($tempTemplate).find('.event-type').text(element.type);
           $($tempTemplate).find('.event-location').text(element.location);
           $($tempTemplate).find('.event-description').text(element.description);
+          $($tempTemplate).find('.event-description').addClass('hide-description');
           //Separate the social tags
           var socialTags = element.social_tags.trim().split(',');
           socialTags.forEach(function(tag){
@@ -227,6 +229,16 @@
         }
       }
       $eventsList.append(eventListArray);
+      $('.event-list .event-headers span').off('click').on('click', function(event){
+        var descriptionToHideShow = $(event.currentTarget);
+        $parentElement = $(descriptionToHideShow).parent().parent().parent();
+        if(!$($parentElement).find('.event-description').hasClass('hide-description')){
+          $($parentElement).find('.event-description').addClass('hide-description');
+        }
+        else{
+          $($parentElement).find('.event-description').removeClass('hide-description');
+        }
+      });
       if(typeof options === 'undefined'){
         //Populate the dropdowns
         this.populateDropdowns();
