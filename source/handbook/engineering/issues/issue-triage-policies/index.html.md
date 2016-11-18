@@ -90,10 +90,10 @@ The following projects, resources, and blog posts were very helpful in crafting 
 - [The Art of Closing][art-of-closing]
 
 [open-development]: https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/
-[ce-issues-query]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[ee-issues-query]: https://gitlab.com/gitlab-org/gitlab-ee/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[omnibus-issues-query]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[support-issues-query]: https://gitlab.com/gitlab-com/support-forum/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
+[ce-issues-query]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[ee-issues-query]: https://gitlab.com/gitlab-org/gitlab-ee/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[omnibus-issues-query]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[support-issues-query]: https://gitlab.com/gitlab-com/support-forum/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
 [17693]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17693
 [code-triage]: https://www.codetriage.com/
 [open-source-gardener]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
