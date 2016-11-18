@@ -28,6 +28,8 @@ activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
+  # Allow draft posts to appear on all branches except master (for Review Apps)
+  blog.publish_future_dated = true if ENV['CI_BUILD_REF_NAME'].to_s != 'master'
 
   blog.summary_separator = /<!--\s*more\s*-->/
 
