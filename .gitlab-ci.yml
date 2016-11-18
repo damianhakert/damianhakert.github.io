@@ -42,7 +42,7 @@ review:
     url: http://$CI_BUILD_REF_NAME.about.gitlab.com
     on_stop: review_stop
   only:
-    - branches
+    - branches@gitlab-com/www-gitlab-com
   except:
     - master
   tags:
@@ -63,7 +63,7 @@ review_stop:
     name: review/$CI_BUILD_REF_NAME
     action: stop
   only:
-    - branches
+    - branches@gitlab-com/www-gitlab-com
   except:
     - master
   tags:
