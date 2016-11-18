@@ -1,6 +1,7 @@
 @import "variables";
 @import "vendor/bootstrap/bootstrap/variables";
 
+
 .container {
   position: relative;
   z-index: 9;
@@ -447,4 +448,33 @@
 
 .btn.dropdown-menu-toggle{
   width:220px;
+}
+
+.pagination{
+  display: inline-block;
+  list-style: none;
+  li {
+    float: left;
+    span{
+      padding: $padding-base-vertical $padding-base-horizontal;
+      line-height: $line-height-base;
+      text-decoration: none;
+      color: $pagination-color;
+      background-color: $pagination-bg;
+      margin-left: -1px;
+      cursor: pointer;
+    }
+  }
+  li[active="true"]{
+    span{
+      color: $color-dark;
+      cursor: default;
+    }
+  }
+}
+
+.center-horizontal{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
