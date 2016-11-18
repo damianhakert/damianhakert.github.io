@@ -21,11 +21,11 @@ The definition of a Twitter mention in this context is a Tweet that doesn't ask 
 
 #### Examples of Twitter mentions
 
-<img src="../images/workflow-twitter/example1.png" width="350">
-<img src="../images/workflow-twitter/example2.png" width="350">
+<img src="img/example1.png" width="350">
+<img src="img/example2.png" width="350">
 
-<img src="../images/workflow-twitter/example3.png" width="350">
-<img src="../images/workflow-twitter/example4.png" width="350">
+<img src="img/example3.png" width="350">
+<img src="img/example4.png" width="350">
 
 ______________
 
