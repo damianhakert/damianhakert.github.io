@@ -134,6 +134,16 @@ Support requests escalated to tier 3:
 + Problems that cannot be resolved at tier 2 within a reasonable amount of time (internal SLA).
 + Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
 
+#### Escalating between Tiers
+
+We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/203690796#topic_kda_eew_uf) to escalate between support tiers. These macros are located under the "Escalations" category in the ZD macros list.
+
++ Escalations::Tier 1
++ Escalations::Tier 2
++ Escalations::Tier 3
+
+Applying any of these macros will move the ticket to the tier group selected.
+
 ### Zendesk SLA settings and Breach alerts
 
 SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/categories/zendesk/zendesk_tips.html) page.
