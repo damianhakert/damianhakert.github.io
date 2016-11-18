@@ -32,6 +32,7 @@ build:
 
 review:
   stage: deploy
+  allow_failure: true
   before_script: []
   cache: {}
   script:
