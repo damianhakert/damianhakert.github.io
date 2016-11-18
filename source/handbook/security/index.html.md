@@ -37,8 +37,8 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    store the login.
 1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
-1. **Encrypt** your computer's home folder. For Mac users: Use [FileVault] to
-   encrypt the entire disk.<a name="encrypt-home-folder"></a>
+1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may
+   use [FileVault] (For details, refer [Apple Support](https://support.apple.com/en-in/HT204837)) and GNU/Linux users may use LUKS (For basic idea, refer the [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Dm-crypt) for this.
 1. Set up a screen saver with **password lock** on your laptop. The timeout
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,
