@@ -67,127 +67,22 @@ extra_js:
 
 .page-container.content-container.white-bg.animated
   .container
-    %h2.page-headline.text-center
-      Review Apps
-    %h3.getting-started-subheader.text-center
-      :markdown
-        Review Apps is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
-
-    %section#steps.steps
-      #benefit-1.step.js-step
-        .container
-          .step-icon-container
-            = icon("review-apps/icon-step-1", "step-icon", { label: "Issue" })
-            %span.step-number.text-center
-              [ benefit 01 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Dynamic Preview
-              .lead.text-center.step-lead-text
-                :markdown
-                  Preview your app while working on a new implementation
-              .row.row-eq-height
-                .col-md-6.step-content
-                  :markdown
-                    The main power of GitLab Review Apps is the ability to preview a new proposal right from the merge request, in a per feature-branch basis.
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-1-illustration.png", class: "img-responsive"
-      #benefit-2.step.js-step
-        .container
-          .step-icon-container
-            = icon("review-apps/icon-step-2", "step-icon", { label: "Plan" })
-            %span.step-number.text-center
-              [ benefit 02 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                No More Doubts
-              .lead.text-center.step-lead-text
-                :markdown
-                  Know that your proposal works
-
-              .row.row-eq-height
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-2-illustration.png", class: "img-responsive"
-                .col-md-6.step-content
-                  :markdown
-                    You don't need to ask yourself "does this really work?" anymore. 
-
-                    Know it's working, or have your team
-                    making it work before deploying your code.
-      #benefit-3.step.js-step
-        .container
-          .step-icon-container
-            = icon("review-apps/icon-step-3", "step-icon step-icon-3", { label: "Code" })
-            %span.step-number.text-center
-              [ benefit 03 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Save Time
-              .lead.text-center.step-lead-text
-                :markdown
-                  No more back and forwards
-              .row.row-eq-height
-                .col-md-6.step-content
-                  :markdown
-                    Once you don't need to deploy you code to staging or even to production to see it working,
-                    you save your time, and your reviewer's, by having a fully-integrated tool to do it for you,
-                    for all your projects.
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-3-illustration.png", class: "img-responsive"
-      #benefit-4.step.js-step
-        .container
-          .step-icon-container
-            = icon("review-apps/icon-step-4", "step-icon step-icon-3", { label: "Save Money" })
-            %span.step-number.text-center
-              [ benefit 04 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                Save Money
-              .lead.text-center.step-lead-text
-                :markdown
-                  Built-in with GitLab
-              .row.row-eq-height
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-4-illustration.png", class: "img-responsive"
-                .col-md-6.step-content
-                  :markdown
-                    Don't pay extra money for a third-party tool to do that for you. Neither spend your developer's time
-                    on setting it up. Review Apps is built-in with GitLab, free to use as you like.
-
-                    Save your money on infrastructure. Recycle your server storage, by destroying the environments created
-                    for each review, and creating new ones on the go.
-      #benefit-5.step.js-step
-        .container
-          .step-icon-container
-            = icon("issue-boards/icon-benefit-1", "step-icon step-icon-3", { label: "All Together" })
-            %span.step-number.text-center
-              [ benefit 05 ]
-          .row
-            .col-md-10.col-md-push-1.step-content-holder
-              %h3.step-title.text-center
-                All Together
-              .lead.text-center.step-lead-text
-                :markdown
-                  Chat, Issue, Plan, Code, Test, Review, Deploy, Measure
-              .row.row-eq-height
-                .col-md-6.step-content
-                  :markdown
-                    GitLab is becoming completely self sufficient for software development: all the infrastructure
-                    you need united in one single product. Go faster [from idea to production](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab) with GitLab!
-
-                    What are you waiting for? [Sign Up](https://gitlab.com/users/sign_in) for GitLab.com, download [GitLab Community Edition](/downloads/),
-                    or get your [GitLab Enterprise Edition](/free-trial/) free trial right now!
-                .col-md-6.step-image-container
-                  .step-image
-                    = image_tag "/images/cycle-analytics/stage-5-illustration.png", class: "img-responsive"
+    .row.row-eq-height
+      .col-md-6
+        = image_tag "/images/review-apps/review-apps-graph.png", class: "img-responsive"
+      .col-md-6
+        %p
+          :markdown
+            Review Apps transform the way you and your team work. For developers this
+            means you can kick off your feedback process much sooner. Submit a merge request
+            and preview your changes in a live environment. When you push to master,
+            you'll know your changes have gone through CI testing as well as a live review
+            where the team can make sure things actually work.
+            
+            For designers, product managers, marketing counterparts, etc., giving feedback
+            just got a lot easier. You won't have to check out branches or spin up a staging
+            environment to preview changes. With Review Apps, you click a link and see the live changes.
+            Hopefully, this means you can give more timely and informed feedback.
 
 .what-is.purple-section.text-center.animated
   .container
