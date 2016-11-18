@@ -96,7 +96,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > team, just a little something about your background and of course
     > something on what you like to do in your spare time.
     >
-    > Here is some swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
+    > Here is $50 in swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
     > Swag codes: [Enter 2 swag codes]
     >
@@ -132,7 +132,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
-   1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
+   1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @brittany to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
    1. [ ] New team member: Once you are registered on 1Password, post a comment below to ask the hiring manager to add you to the 1Password groups required for your role.
    1. [ ] Hiring manager: add the new team member to the required groups in [1Password](https://gitlab.1password.com)
    1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
@@ -311,6 +311,7 @@ the steps to add yourself to the team page. Please follow the links that will gu
 your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com
 project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
+1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
 1. Download Git, following the [start using git
 documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
 1. Follow the steps to create and add your [SSH
