@@ -2,13 +2,13 @@
 - current_page.data.extra_css |= ['salary-calculator.css']
 
 - current_page.data.extra_js ||= []
-- current_page.data.extra_js |= ['salary-calculator.js']
+- current_page.data.extra_js |= ['move-calculator.js']
 .move-container.col-xs-12
   %h2#compensation Move
   %h4.title Current contract
   .col-sm-12
     .col-sm-4
-      .dropdown.country
+      .dropdown.current-country
         %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
           %span.label Country
           %span.title --
@@ -21,7 +21,7 @@
             %li
               %span.key= p.country
     .col-sm-4
-      .dropdown.city
+      .dropdown.current-city
         %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
           %span.label City
           %span.title --
@@ -32,7 +32,7 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-country' => p.country}
+            %li.hidden{'data-currentCountry' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
@@ -42,7 +42,7 @@
   %h4.title New contract
   .col-sm-12
     .col-sm-4
-      .dropdown.country
+      .dropdown.new-country
         %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
           %span.label Country
           %span.title --
@@ -55,7 +55,7 @@
             %li
               %span.key= p.country
     .col-sm-4
-      .dropdown.city
+      .dropdown.new-city
         %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
           %span.label City
           %span.title --
@@ -66,7 +66,7 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-country' => p.country}
+            %li.hidden{'data-newCountry' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
