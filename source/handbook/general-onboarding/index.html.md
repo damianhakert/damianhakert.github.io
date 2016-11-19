@@ -267,6 +267,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 <a name="general"></a>
 
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
+* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber. 
 * If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
