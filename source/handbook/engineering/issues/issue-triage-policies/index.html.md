@@ -3,37 +3,66 @@ layout: markdown_page
 title: Issue Triage Policies
 ---
 
-GitLab believes in [Open Development][open-development], and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorisation according to type and severity.
+GitLab believes in [Open Development][open-development], and we encourage the
+community to file issues and open merge requests for our projects on
+[GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are
+valuable, and we should handle them as effectively as possible. A central part
+of this is triage - the process of categorisation according to type and severity.
 
-Any GitLab team member can triage issues. Keeping the number of untriaged issues low is essential for maintainability, and is our collective responsibility. Consider triaging a few issues around your other responsibilities, or scheduling some time for it on a regular basis.
+Any GitLab team member can triage issues. Keeping the number of untriaged issues
+low is essential for maintainability, and is our collective responsibility.
+Consider triaging a few issues around your other responsibilities, or scheduling
+some time for it on a regular basis.
 
 ## Triaging issues
 
-Initial triage involves (at a minimum) labelling an issue appropriately, so untriaged issues can be discovered by searching for issues without any labels. Follow one of these links:
+Initial triage involves (at a minimum) labelling an issue appropriately, so
+untriaged issues can be discovered by searching for issues without any labels.
+Follow one of these links:
 
 * [GitLab CE][ce-issues-query]
 * [GitLab EE][ee-issues-query]
 * [GitLab Omnibus][omnibus-issues-query]
-
-You may also find issues that need triaging in the [GitLab Support Forum][support-issues-query].
+* [GitLab.com Support Tracker][support-issues-query]
 
 Pick an issue, with preference given to the oldest in the list, and evaluate it with a critical eye, bearing the [policies](#policies) below in mind. Some questions to ask yourself:
 
 * Do you understand what the issue is describing?
 * What labels apply? Particularly consider [team, subject and type](/handbook/engineering/workflow/#labelling-issues) labels
-* How critical does it seem? Would the `security` label be appropriate?
+* How critical does it seem? Does it need to be escalated to a lead or the VP of engineering?
+* Would the `security` label be appropriate?
+* Should it be made confidential? It's usually the case for `security` issues or
+  issues that contain private information
 
-Apply each label that seems appropriate. Issues with a security impact should be treated specially - see the [security disclosure process](/handbook/support/#security-disclosures-a-namesecuritya).
+Apply each label that seems appropriate. Issues with a security impact should be
+treated specially - see the [security disclosure process](/handbook/support/#security-disclosures-a-namesecuritya).
 
-If the issue seems unclear - you aren't sure which labels to apply - ask the requestor to clarify matters for you. Keep our [user communication guidelines](handbook/#user-communication-guidelines) in mind at all times, and commit to keeping up the conversation until you have enough information to complete triage.
+If the issue seems unclear - you aren't sure which labels to apply - ask the
+requestor to clarify matters for you. Keep our
+[user communication guidelines](handbook/#user-communication-guidelines) in mind
+at all times, and commit to keeping up the conversation until you have enough
+information to complete triage.
 
-Check for duplicates! Searching for some keywords in the issue should give you a short list of possibilities to scan through. Check both open and closed issues, as it may be a duplicate of a solved problem.
+Check for duplicates! Searching for some keywords in the issue should give you a
+short list of possibilities to scan through. Check both open and closed issues,
+as it may be a duplicate of a solved problem.
 
-Consider whether the issue is still valid. Especially for older issues, a `bug` may have been fixed since it was reported, or a `feature request` may have already been implemented.
+Consider whether the issue is still valid. Especially for older issues, a `bug`
+may have been fixed since it was reported, or a `feature request` may have
+already been implemented.
 
-If the issue meets the requirements, it may be appropriate to make a [scheduling request](/handbook/engineering/workflow/#scheduling-issues) - use your judgement!
+Be sure to check cross-reference notes from other issues or merge requests, they
+are a great source of information! For instance, by looking at a cross-referenced
+merge request, you could see a "Picked into `8-13-stable`, will go into `8.13.6`."
+which would mean that the issue is fixed since the version `8.13.6`.
 
-You're done! The issue has all appropriate labels, and may now be in the backlog, closed, awaiting scheduling, or awaiting feedback from the requestor. Pick another, if you've got the time.
+If the issue meets the requirements, it may be appropriate to make a
+[scheduling request](/handbook/engineering/workflow/#scheduling-issues) - use
+your judgement!
+
+You're done! The issue has all appropriate labels, and may now be in the backlog,
+closed, awaiting scheduling, or awaiting feedback from the requestor. Pick
+another, if you've got the time.
 
 ## Policies
 
@@ -90,10 +119,10 @@ The following projects, resources, and blog posts were very helpful in crafting 
 - [The Art of Closing][art-of-closing]
 
 [open-development]: https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/
-[ce-issues-query]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[ee-issues-query]: https://gitlab.com/gitlab-org/gitlab-ee/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[omnibus-issues-query]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
-[support-issues-query]: https://gitlab.com/gitlab-com/support-forum/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
+[ce-issues-query]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[ee-issues-query]: https://gitlab.com/gitlab-org/gitlab-ee/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[omnibus-issues-query]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
+[support-issues-query]: https://gitlab.com/gitlab-com/support-forum/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=No+Label&assignee_id=0
 [17693]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17693
 [code-triage]: https://www.codetriage.com/
 [open-source-gardener]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener

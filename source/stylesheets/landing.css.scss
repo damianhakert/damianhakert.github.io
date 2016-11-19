@@ -280,6 +280,15 @@
     margin-bottom: 40px;
   }
 
+  a {
+    color: $color-white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .tools-row {
     display: flex;
     align-items: center;
