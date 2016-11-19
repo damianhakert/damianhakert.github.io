@@ -524,7 +524,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 - Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other participants.
 - You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
 - Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
-- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying [Accounts Payable](mailto:ap@gitlab.com) before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses
