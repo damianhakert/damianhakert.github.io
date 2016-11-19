@@ -138,9 +138,9 @@ Support requests escalated to tier 3:
 
 We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/203690796#topic_kda_eew_uf) to escalate between support tiers. These macros are located under the "Escalations" category in the ZD macros list.
 
-+ Escalations::Tier 1
-+ Escalations::Tier 2
-+ Escalations::Tier 3
++ `Escalations::Tier 1`
++ `Escalations::Tier 2`
++ `Escalations::Tier 3`
 
 Applying any of these macros will move the ticket to the tier group selected.
 
