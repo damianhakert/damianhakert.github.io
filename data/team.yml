@@ -2042,5 +2042,14 @@
   gitlab:
   story:  |
           Joining December 1st
-          
 
+- name: M.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/marketing-frontend-engineer/">Marketing Frontend Engineer</a>
+  reports_to: Designer
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd        
