@@ -67,10 +67,15 @@ extra_js:
 
 .page-container.content-container.white-bg.animated
   .container
+    %h2.page-headline.text-center
+      Review Apps
+    %h3.getting-started-subheader.text-center
+      :markdown
+        Review Apps is available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition.
     .row.row-eq-height
       .col-md-6
-        = image_tag "/images/review-apps/review-apps-graph.png", class: "img-responsive"
-      .col-md-6
+        = image_tag "/images/review-apps/continuous-delivery-review-apps.svg", class: "img-responsive"
+      .col-md-6.feature-item
         %p
           :markdown
             Review Apps transform the way you and your team work. For developers this
