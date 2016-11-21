@@ -1,40 +1,250 @@
 
-.clear {
+/* general */
+
+.blog {
+  font-size: 16px;
+}
+
+.blog a {
+  color: #548;
+}
+
+.blog .wrapper {
+  text-align: center;
+  max-width: 1100px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.blog .section {
+  margin: 50px 40px 0 40px;
   clear: both;
 }
 
-.blog {
-  text-align: center;
-  margin: 25px auto;
-}
+/* article */
 
-.blog.index {
-  max-width: 1100px;
-  text-align: left;
-}
-
-.wrapper {
-  margin: 0 40px;
-}
-
-.blog.index .article {
+.blog.list .article {
   display: inline-block;
   float: left;
   width: calc(50% - 20px);
-  height: 400px;
+  height: 625px;
+  margin-bottom: 50px;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+  padding: 25px;
 }
 
-.blog.index .article:nth-child(even) {
+.blog.list .article:nth-child(even) {
   float: right;
 }
 
-.blog.index .article .cover {
+@media only screen and (max-width : 992px) {
+  .blog.index .article {
+    float: none;
+    width: 100%;
+    height: inherit;
+  }
+}
+
+.blog.list .article .cover {
   width: 100%;
-  height: 220px;
+  height: 200px;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   position: relative;
-  opacity: 0.75;
-  filter: alpha(opacity=75)
+  opacity: 0.80;
+  filter: alpha(opacity=80);
+  margin-bottom: 12px;
 }
+
+@media only screen and (max-width : 992px) {
+.blog.list .article .cover {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+.blog.list .article .cover {
+    height: 200px;
+  }
+}
+
+.blog.list .article .author {
+  float: left;
+}
+
+.blog.list .article .date {
+  color: #777;
+  float: right;
+}
+
+.blog.list .article h2 {
+  clear: both;
+  margin-top: 42px;
+  margin-bottom: 22px;
+}
+
+.blog.list .article h2 a, .blog.list .article h2 a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+.blog.list .article .more {
+  font-weight: 800;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 12px 6px 12px !important;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/* trial */
+
+.blog .trial {
+  color: #fff;
+  clear: both;
+  text-align: center;
+  background-color: #34373c;
+  padding: 75px 0 100px;
+}
+
+.blog .trial a {
+  color: #fff;
+}
+
+.blog .trial h3 {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 0 25px;
+}
+
+.blog .trial h4 {
+  color: #aaa;
+  margin: 15px 40px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.blog .trial h4 a {
+  border-bottom: 1px solid #aaa;
+  color: #aaa;
+  font-weight: 300;
+}
+
+@media only screen and (max-width : 768px) {
+  .blog .trial {
+    padding: 35px 0 45px;
+  }
+
+  .blog .trial h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 0 25px;
+  }
+}
+
+/* newsletter */
+
+.newsletter .newsletter-preamble {
+  float: left;
+  line-height: 30px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+// scss-lint:disable SelectorFormat
+.newsletter .mktoForm {
+  display: inline-block;
+}
+
+// scss-lint:enable SelectorFormat
+.newsletter .newsletter-form {
+  width: auto;
+  float: right;
+}
+
+.newsletter .sbmc {
+  width: 100px;
+}
+
+// scss-lint:disable all
+
+.newsletter-form div {
+  display: inline;
+}
+
+.newsletter-form .mktoForm {
+  width: auto !important;
+}
+
+.newsletter-form .mktoFieldWrap {
+  float: none !important;
+  margin-right: 5px !important;
+}
+
+.newsletter-form .mktoField {
+  background-color: $color-white;
+  background-image: none;
+  border-radius: 4px !important;
+  border: 1px solid #ccc !important;
+  box-shadow: none !important;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857143;
+  padding: 6px 12px !important;
+  width: 100%;
+}
+
+.newsletter-form .mktoButtonWrap {
+  margin: 0 !important;
+}
+
+.newsletter-form .mktoButton {
+  background-color: $color-white;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  padding: 7px 12px 6px 12px !important;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.newsletter-form .mktoButton:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #333;
+}
+
+.newsletter-form .mktoAsterix,
+.newsletter-form .mktoGutter,
+.newsletter-form .mktoLabel,
+.newsletter-form .mktoOffset {
+  display: none;
+  width: 0;
+}
+
+.newsletter-form .mktoFormCol {
+  margin: 0;
+}
+
+.newsletter-form .mktoClear,
+.newsletter-form .mktoFormRow {
+  clear: none;
+}
+//scss-lint:enable all

@@ -5,11 +5,13 @@
   %body{:data => {:spy => "scroll", :target => ".qnav"}}
     = partial "includes/google/gtm"
     = partial "includes/layout/header"
-    = partial "includes/blog/image-single", locals: {post: current_page}
+
+    -# = partial "includes/blog/image-single", locals: {post: current_page}
+
     .container.full-post
       .blog-entry
         %h4.date
-          = partial "includes/blog/author", locals: {post: current_page}
+          -# = partial "includes/blog/author", locals: {post: current_page}
           - if is_blog_article?
             = current_article.date.to_time.strftime '%b %e, %Y'
         = yield
@@ -24,5 +26,4 @@
         = partial "includes/newsletter-signup.html"
         = partial "includes/blog/comments"
     = partial "includes/layout/footer"
-    - if current_page.data.ee_cta
-      = partial "includes/features/gitlab-ee-trial"
+    = partial "includes/features/gitlab-ee-trial"

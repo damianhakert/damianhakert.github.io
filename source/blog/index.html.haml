@@ -4,28 +4,23 @@ comments: false
 suppress_header: true
 ---
 
-.blog.index
+.blog.index.list
   .wrapper
+    .section
+      = partial "includes/newsletter-signup.html"
 
-    .articles
-      - blog.articles[0...8].each do |article|
-        .article
-          - image_title = article.data.image_title ? article.data.image_title : '/images/default-blog-image.png'
+  = partial "includes/blog/list", locals: {articles: blog.articles[0...6]}
 
-          .cover{style: "background-image: url(#{image_title});"}
-          %h2.title
-            = link_to article.title, article.url
-          .author
-            - if article.data.author_twitter
-              = link_to(article.data.author, "https://twitter.com/#{article.data.author_twitter}")
-            - else
-              = article.data.author
-          .date
-            = article.date.to_time.strftime '%b %e, %Y'
-          .summary
-            = article.summary
-            = link_to "Read on &rarr;", article.url
-  .clear
+  .trial
+    %h3
+      Try GitLab Enterprise Edition risk-free for 30 days.
+    %h4
+      No credit card required. Have questions?
+      %a.contact{href: "https://about.gitlab.com/sales/"} Contact us.
+    %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
 
-  %p
-    %a{href: "/blog/archives.html"} Browse the archives
+  = partial "includes/blog/list", locals: {articles: blog.articles[6...10]}
+
+  .wrapper
+    .section
+      %a{href: "/blog/archives.html"} Browse the archives

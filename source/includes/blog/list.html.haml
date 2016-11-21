@@ -1,0 +1,20 @@
+.wrapper
+  .section.articles
+    - articles.each do |article|
+      .article
+        - image_title = article.data.image_title ? article.data.image_title : '/images/default-blog-image.png'
+
+        %a{ href: article.url }
+          .cover{style: "background-image: url(#{image_title});"}
+        .author
+          - if article.data.author_twitter
+            = link_to(article.data.author, "https://twitter.com/#{article.data.author_twitter}")
+          - else
+            = article.data.author
+        .date
+          = article.date.to_time.strftime '%b %e, %Y'
+        %h2
+          = link_to article.title, article.url
+        .summary
+          = truncate_words(article.summary, :length => 52)
+        %a.more{ href: article.url } Read more
