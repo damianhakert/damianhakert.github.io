@@ -30,6 +30,28 @@ time tracking has traditionally been a painful experience: You have various
 systems to keep track or log your time and these never seem to fit in your
 day-to-day workflow.
 
+You can now track your time right where you're working, with Time Tracking
+in GitLab, available for purchase with GitLab Enterprise Edition.
+
+![]()
+
+With Time Tracking, you're able to set estimates for how much time is necessary
+for a particular issue. All you have to do is use a new slash command,
+which can be entered in the issue description or a comment:
+
+```
+/estimate 6h
+```
+
+You can adjust this at any time with the same command. Once you've spent time
+on an issue, you can log this simply with:
+
+```
+/spent 3h
+```
+
+## Chatops
+
 > [Documentation link](link)
 
 ## Review Apps
