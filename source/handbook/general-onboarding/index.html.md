@@ -209,6 +209,16 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Community Forum:
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
    1. [ ] Hiring Manager: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
+1. [ ] TweetDeck:
+   1. [ ] Hiring Manager: Add team member to [TweetDeck](https://tweetdeck.twitter.com/)
+   1. [ ] New team member: Enable "Confirmation Step" for all GitLab accounts to prevent accidental tweeting.
+1. [ ] New team member: View [Support Handbook](https://about.gitlab.com/handbook/support/) since many tools/processes overlap
+1. [ ] New team member: Read through and familiarize yourself with the [Community Advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/) page
+1. [ ] New team member: Create an account on [Stack Overflow](http://stackoverflow.com/) if you don't already have one. Start by answering a few simple questions in an area you're familiar with (a language, web framework, development platform, API, etc.), or in the GitLab tag if you feel comfortable. The goal is to get enough "Reputation" and have access to a few more features.
+1. [ ] Disqus:
+   1. [ ] New team member: Create a Disqus account, connect it to your `@gitlab.com` Google account.
+   1. [ ] Hiring Manager: Give the user the ability to moderate Disqus comments on the blog.
+1. [ ] New team member: Create a [Hacker News](https://news.ycombinator.com/news) account if you don't have one already, make sure to specify in your user bio that you're a Community Advocate at GitLab, Hacker News requires that we be transparent about any conflicts of interest.
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
