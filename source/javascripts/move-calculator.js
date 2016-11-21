@@ -1,5 +1,6 @@
 (function () {
   var moveContainer = '.move-container';
+  var formulaContainer = '.formula-container';
   var compensationAmount = moveContainer + ' .compensation .amount';
   var defaultValue = '--';
 
@@ -59,13 +60,16 @@
       var $newCityDropdown = $newCityDropdownContainer.find('li:not(.filter-container)');
       var $newCityFilter = $newCityDropdownContainer.find('.js-city-filter');
 
+      var $currentSalary = $(moveContainer + ' .current-salary input');
+
       // Set selected dropdown value
-      $currentCountryFilter.on('click', setDropdown);
+      $currentCountryDropdown.on('click', setDropdown);
       $currentCityDropdown.on('click', setDropdown);
-      $newCountryFilter.on('click', setDropdown);
+      $newCountryDropdown.on('click', setDropdown);
       $newCityDropdown.on('click', setDropdown);
 
       // Render compensation
+      $currentSalary.on('keyup', this.inputSalary.bind(this));
       // $countryDropdown.on('click', this.render.bind(this));
       // $cityDropdown.on('click', this.render.bind(this));
 
@@ -99,6 +103,8 @@
         dropdown: 'new-city',
         filter: 'country',
       }));
+
+      $currentSalary.on('keypress', this.preventLetters.bind(this));
 
       $currentCountryDropdownContainer.on('shown.bs.dropdown', this.focusInput);
       $newCountryDropdownContainer.on('shown.bs.dropdown', this.focusInput);
@@ -193,12 +199,29 @@
       }
     }
 
+    MoveCalculator.prototype.preventLetters = function(e) {
+      if (e.which < 48 || e.which > 57) {
+        e.preventDefault();
+      }
+    }
+
+    MoveCalculator.prototype.inputSalary = function(e) {
+      $currentSalary = $(formulaContainer + ' .currentSalary');
+      $currentSalary.find('.value').text('$'+ $(e.currentTarget).val());
+    }
     // Custom dropdown functionality
 
-    MoveCalculator.prototype.filterCityDropdown = function() {
-      var selectedCountry = this.getElementValues().country;
-      debugger;
-      var $cities = $(moveContainer + ' .city li:not(.filter-container)');
+    MoveCalculator.prototype.filterCityDropdown = function(e) {
+      var $countryDropdown = $(e.currentTarget).parents('.dropdown');
+      var selectedCountry, $cities;
+
+      if ($countryDropdown.hasClass('current-country')) {
+        selectedCountry = this.getElementValues().currentCountry;
+        $cities = $(moveContainer + ' .current-city li:not(.filter-container)');
+      } else if ($countryDropdown.hasClass('new-country')) {
+        selectedCountry = this.getElementValues().newCountry;
+        $cities = $(moveContainer + ' .new-city li:not(.filter-container)');
+      }
 
       $cities.each(function(index, element) {
         var $element = $(element);
@@ -210,11 +233,19 @@
       });
     }
 
-    MoveCalculator.prototype.resetCityDropdown = function() {
-      debugger;
-      var $cityDropdownBtn = $(moveContainer + ' .city .btn');
+    MoveCalculator.prototype.resetCityDropdown = function(e) {
+      var $countryDropdown = $(e.currentTarget).parents('.dropdown');
+      var $cityDropdownBtn, $filterInput;
+
+      if ($countryDropdown.hasClass('current-country')) {
+        $cityDropdownBtn = $(moveContainer + ' .current-city .btn');
+        $filterInput = $('.current-city .js-city-filter');
+      } else if ($countryDropdown.hasClass('new-country')) {
+        $cityDropdownBtn = $(moveContainer + ' .new-city .btn');
+        $filterInput = $('.new-city .js-city-filter');
+      }
+
       var $cityDropdownTitle = $cityDropdownBtn.find('.title');
-      var $filterInput = $('.js-city-filter');
       $filterInput.val('');
       $cityDropdownBtn.removeClass('disabled');
       $cityDropdownTitle.text('--');
@@ -242,11 +273,14 @@
       var input = this.getElementValues();
 
       function renderData() {
-        if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
+        if (input.currentCountry && input.currenCity &&
+            input.newCountry && input.newCity &&
+            input.salary) {
           this.renderCompensation(input);
         } else {
           this.renderInvalidCompensation();
         }
+        
         this.renderFormula();
         this.renderContractType();
       }
@@ -304,9 +338,6 @@
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var contract = this.calculateContractFactor(values.country);
       var experience = values.experience;
-
-      $('.formula .level .value').text(values.level ? values.level : defaultValue);
-      $('.formula .experience .value').text(experience.min && experience.max ? experience.min + ' to ' + experience.max : defaultValue);
 
       $('.formula .rentIndex .value').text(rentIndex ? rentIndex : defaultValue);
       $('.formula .contractType .value').text(contract.hasOwnProperty('factor') ? contract.factor.toFixed(2) : defaultValue);
