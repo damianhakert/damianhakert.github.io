@@ -134,6 +134,16 @@ Support requests escalated to tier 3:
 + Problems that cannot be resolved at tier 2 within a reasonable amount of time (internal SLA).
 + Requests that require direct input from the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/) or from the [Support Lead](https://about.gitlab.com/jobs/support-lead/).
 
+#### Escalating between Tiers
+
+We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/203690796#topic_kda_eew_uf) to escalate between support tiers. These macros are located under the "Escalations" category in the ZD macros list.
+
++ `Escalations::Tier 1`
++ `Escalations::Tier 2`
++ `Escalations::Tier 3`
+
+Applying any of these macros will move the ticket to the tier group selected.
+
 ### Zendesk SLA settings and Breach alerts
 
 SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/categories/zendesk/zendesk_tips.html) page.
@@ -232,7 +242,7 @@ We offer "implementation support" for new EE customers. This is similar to live 
 Customers who purchased Premium Support have access to a Dedicated Service Engineer. This means that tickets that arrive in Zendesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in Zendesk.
 
 - The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that are requested in the template such as client timezone, language, specific needs, etc. to make it easier to assign an appropriate SE to the account.
-   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers Google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then create the trigger, and "accept" the suggestion. Having the Google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or Salesforce.
+   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then [create the trigger](/handbook/support/knowledge-base/categories/zendesk/create_dse_trigger.html), and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or SalesForce.
    - Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
 - To make sure that these subscribers are served well, even when their dedicated SE is not directly
 available, there is a view in Zendesk to display all "dedicated" tickets so

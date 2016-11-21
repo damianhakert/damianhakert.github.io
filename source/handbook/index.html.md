@@ -19,6 +19,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Engineering](/handbook/engineering)
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
+  * [Backend](/handbook/backend)
+  * [Edge](/handbook/edge)
+  * [UX](/handbook/ux)
 * [Marketing](/handbook/marketing)
   * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
@@ -521,7 +524,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 - Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other participants.
 - You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
 - Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
-- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying [Accounts Payable](mailto:ap@gitlab.com) before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses
@@ -884,11 +887,11 @@ linking your account to Git.
 
 ### 4. Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
    (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
+1. Execute: `rvm use 2.3.1 --default` to set your default Ruby to `2.3.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+   `ruby 2.3.1p112 (2016-04-26 revision 54768)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### 5. Clone the source of the website and install its dependencies

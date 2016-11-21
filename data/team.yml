@@ -1914,7 +1914,7 @@
 - name: Rebecca Dodd
   locality: London
   country: United Kingdom
-  role: Content Editor
+  role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
   reports_to: Content Lead
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
@@ -1992,7 +1992,7 @@
   locality: Kochi, Kerala
   country: India
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
-  reports_to: Buid Lead
+  reports_to: Build Lead
   picture: balasankarc.jpg
   twitter: cbalasankar
   gitlab: balasankarc
@@ -2042,5 +2042,3 @@
   gitlab:
   story:  |
           Joining December 1st
-          
-
