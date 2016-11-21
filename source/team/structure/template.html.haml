@@ -1,0 +1,34 @@
+---
+layout: markdown_page
+title: Team Structure
+page_class: org-structure
+extra_css:
+  - "org-chart.css"
+extra_js:
+  - libs/perfect-scrollbar.min.js
+---
+
+:markdown
+  GitLab Inc. has at most five layers in the team structure:
+
+  1. CEO
+  1. Executives (e-team) consisting of CxO's and VP's
+  1. Directors
+  1. Leads
+  1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one thing and be an [expert](/jobs/expert/) in multiple things.
+
+  The organization chart below reflects the reporting relations.  You can see our complete team and who reports to whom on the [team page](/team/).  Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
+
+.org-chart-container
+  .tree
+    %ul
+      - team_data_tree.each do |member|
+        %li
+          = partial "team_member", locals: {member: member}
+
+:javascript
+  window.addEventListener('load', function loadPerfectScroll(event) {
+    var container = document.querySelector('.org-chart-container');
+    Ps.initialize(container);
+    window.removeEventListener('load', loadPerfectScroll, false);
+  }, false);
