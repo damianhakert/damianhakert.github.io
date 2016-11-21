@@ -32,13 +32,13 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-currentCountry' => p.country}
+            %li.hidden{'data-country' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
       .form-group.input-container.current-salary
         %label.input-label{ for: 'currentSalary' } Current compensation
-        %input#currenSalary.form-control.input-sm.input-field{ placeholder: '$ Enter your current compensation' }
+        %input#currentSalary.form-control.input-sm.input-field{ placeholder: '$ Enter your current compensation' }
   %h4.title New contract
   .col-sm-12
     .col-sm-4
@@ -66,7 +66,7 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-newCountry' => p.country}
+            %li.hidden{'data-country' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
@@ -77,13 +77,13 @@
     %h4 How did we calculate your compensation?
     .formula
       .variable-group
-        .variable.benchmark
+        .variable.currentSalary
           %span.name Current Salary
           %span.value= "$"
       .symbol.multiplication x
       .variable-group
         .symbol (
-        .variable.rentIndex
+        .variable.newRentIndex
           %span.name New Rent Index
           %span.value --
         .symbol +
@@ -92,7 +92,7 @@
       .symbol.division /
       .variable-group
         .symbol (
-        .variable.rentIndex
+        .variable.currentRentIndex
           %span.name Current Rent Index
           %span.value --
         .symbol +
@@ -101,11 +101,11 @@
       .symbol.multiplication x
       .variable-group
         .symbol (
-        .variable.contractTypeFactor
+        .variable.newContractTypeFactor
           %span.name New Contract Type Factor
           %span.value --
         .symbol /
-        .variable.contractTypeFactor
+        .variable.currentContractTypeFactor
           %span.name Current Contract Type Factor
           %span.value --
         .symbol )
