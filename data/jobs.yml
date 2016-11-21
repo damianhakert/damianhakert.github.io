@@ -154,5 +154,5 @@
 
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
-  apply: https://gitlab.workable.com/jobs/356285/candidates/new
-  open: true
+  apply: 
+  open: false
