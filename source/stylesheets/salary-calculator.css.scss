@@ -121,13 +121,19 @@
 
 .move-container {
 
-  .col-sm-4,
-  .updated-compensation {
-    padding: 0 5px;
+  .title {
+    margin-top: 10px;
+  }
+
+  @media (min-width: 767px) {
+    .col-sm-4,
+    .updated-compensation {
+      padding: 0 5px;
+    }
   }
 
   .col-sm-12 .col-sm-4 {
-    
+
     &:first-child {
       padding-left: 0;
     }
