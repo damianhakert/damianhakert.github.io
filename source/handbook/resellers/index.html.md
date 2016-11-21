@@ -263,7 +263,6 @@ The logos are available in the README file of the [resellers project](https://gi
 ## Reseller Marketing Program
 
 ### Program Objectives
-- Program Objectives
 - Support resellers to be successful and grow their business 
 - Motivate resellers to reach first for GitLab 
 - Promote Reseller program to recruit new resellers 
