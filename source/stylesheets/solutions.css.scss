@@ -226,6 +226,10 @@
   &.white-bg {
     background-color: $color-white;
   }
+
+  .feature-item-graphic {
+    margin-top: 15px;
+  }
 }
 
 .header-graphic img {
@@ -299,6 +303,11 @@
     margin-right: auto;
     font-size: 18px;
     font-weight: 300;
+  }
+
+  &.step-content p {
+    font-size: 20px;
+    font-weight: normal;
   }
 }
 
