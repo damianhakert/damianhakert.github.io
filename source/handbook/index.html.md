@@ -887,11 +887,11 @@ linking your account to Git.
 
 ### 4. Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
    (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
+1. Execute: `rvm use 2.3.1 --default` to set your default Ruby to `2.3.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+   `ruby 2.3.1p112 (2016-04-26 revision 54768)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### 5. Clone the source of the website and install its dependencies
