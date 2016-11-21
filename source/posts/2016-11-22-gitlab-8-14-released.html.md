@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.14 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.14 Released with Time Tracking Beta and Review Apps"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
@@ -25,14 +25,15 @@ You can do all of the above and much more with GitLab 8.14, today. Time
 tracking, Review Apps, Chat commands, Cycle Analytics improvements and much
 more.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Toon Claes. Toon contributed the button to delete all merged branches,
+a great addition to GitLab.
+Thanks Toon Claes!
 
 {::options parse_block_html="true" /}
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 Tune in on Nov. 30 for our 8.14 release webcast **Completing the Idea to Production Vision** for a live demo of Review Apps and Time Tracking for EE. [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>\
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 
 
 {: .alert .alert-webcast}
@@ -98,7 +99,16 @@ and GitLab's repositories, issue tracker and CI quickly and easily.
 
 ![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
 
-With this first iteration, you can quickly create or view an issue.
+With this first iteration, you can quickly create or view an issue, for
+instance use:
+
+```
+/gitlab issue create Even Better Issue Boards
+Let's make Issue boards _even_ better!
+```
+
+To make an issue with the title and description already filled and
+ready for planning.
 
 Read more about it in our blog post of today.
 
@@ -131,7 +141,11 @@ comments on the bottom of the page (even if we didn't have that handy widget on
 top) and make sure only code that has been checked and verified makes it to
 production.
 
+![Prevent merge until review is done in GitLab 8.14](/images/8_14/dis1.png)
+
 Enable this option in the project settings.
+
+![Prevent merge until review is done in GitLab 8.14](/images/8_14/dis2.png)
 
 ## Delete all Merged Branches
 
@@ -140,6 +154,8 @@ single button to quickly delete all merged branches in GitLab.
 
 We'll make sure to confirm your choice and then quickly set off a process to do
 as requested. Find the button under `Repository -> Branches`.
+
+![Quickly delete all merged branches in GitLab 8.14](/images/8_14/delete_mr.png)
 
 Thanks Toon Claes!
 
