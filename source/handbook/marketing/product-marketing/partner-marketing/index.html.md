@@ -13,8 +13,8 @@ Welcome to the Partner Marketing Handbook
 ## Partner Marketing Objectives<a name="partnermarketing"></a>
 
 - Promote existing partnerships to be at top-of-mind for developers
-- Integrate resale partnerships (i.e: SubGit): promote partnership integrations/products which we sell as part of our sales process.
-- Convert open source projects to adopt GitLab, and convert their users in-turn to GitLab.
+- Integrate resale partnerships: promote partnership integrations/products which we sell as part of our sales process.
+- Migrate open source projects to adopt GitLab, and convert their users in-turn to GitLab.
 - Surface the ease of GitLab integration to encourage more companies to integrate with GitLab.
 - Build closer relationships with existing partners through consistent communication
 
