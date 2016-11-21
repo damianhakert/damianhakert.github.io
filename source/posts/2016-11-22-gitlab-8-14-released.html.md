@@ -1,8 +1,8 @@
 ---
 title: "GitLab 8.14 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -22,7 +22,7 @@ Tune in on Nov. 30 for our 8.14 release webcast **Completing the Idea to Product
 
 <!--more-->
 
-## Time Tracking (EE)
+## Time Tracking Beta (EE)
 
 Whether you're a contractor that needs to keep track of their time,
 or you're managing time spent on issues and projects,
@@ -31,9 +31,7 @@ systems to keep track or log your time and these never seem to fit in your
 day-to-day workflow.
 
 You can now track your time right where you're working, with Time Tracking
-in GitLab, available for purchase with GitLab Enterprise Edition.
-
-![]()
+in GitLab.
 
 With Time Tracking, you're able to set estimates for how much time is necessary
 for a particular issue. All you have to do is use a new slash command,
@@ -50,17 +48,66 @@ on an issue, you can log this simply with:
 /spent 3h
 ```
 
-## Chatops
+You'll see this reflected in the interface.
+
+![Time Tracking Beta in GitLab 8.14](/images/8_14/time.gif)
+
+Time Tracking is made available as trial to all our Enterprise Edition
+customers during the beta period,
+[after which it becomes available as a paid Product][paid-product-issue].
+
+We're interested in hearing how we can improve time tracking to fit your
+workflow. Let us know by [creating an issue][create-tt-issue] or below in the comments.
+
+Some things we're thinking about: [reporting][reporting], [an API][tt-api],
+[Time Tracking in Issue Boards][tt-issue-boards] and [others][other-issues].
+
+> [Read the docs on how to use Time Tracking in GitLab](https://docs.gitlab.com/ee/workflow/time_tracking.html)
+
+[paid-product-issue]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1264
+[reporting]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1271
+[tt-api]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1228
+[tt-issue-boards]: https://gitlab.com/gitlab-org/gitlab-ee/issues/1265
+[other-issues]: https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name%5B%5D=time+tracking
+[create-tt-issue]: https://gitlab.com/gitlab-org/gitlab-ee/issues/new
+
+## Chat Commands
+
+It seems like work has moved from the work floor to the chatroom in the last
+few years. In particular, collaboration and idea generation seems to happen
+here, an important part of the idea-to-production vision we aim to capture
+with GitLab. With Chat Commands you can now bridge the step between chat
+and GitLab's repositories, issue tracker and CI quickly and easily.
+
+![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
 
 > [Documentation link](link)
 
 ## Review Apps
 
+Review Apps are the future of reviewing work. Rather than just looking at
+code or even having a test suite run any kind of tests, Review Apps will
+serve you with a fully functioning environment in which your app is running,
+ready for any kind of testing, trying or poking.
+
+We've initially announced Review Apps with GitLab 8.12 and have improved them
+in the last release, but today we're shipping the feature as it's supposed to.
+
+This means that, once setup, a review app will spin up automatically for each
+merge request and be destroyed automatically when the branch is removed from
+GitLab. It's awesome.
+
 ## Cycle Analytics Events
 
 > [Documentation link](link)
 
-## Prevent merge until review is done
+## Prevent merge until Review is done
+
+If you're using
+
+## Delete all Merged Branches
+
+## Subscribe to Group Labels
 
 ## GitLab Mattermost 3.5
 
