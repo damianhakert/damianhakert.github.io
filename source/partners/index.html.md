@@ -34,3 +34,6 @@ We love spreading the word on new integrations for GitLab to our community and f
 
 ## EE Dev License
 If you're working on an EE integration and need a GitLab EE license to develop and test on we will provide that upon request.
+
+
+If you want to talk to us about a partnership you can contact Eliran Mesika, our Director of Strategic Partnerships at eliran at gitlab.com.
