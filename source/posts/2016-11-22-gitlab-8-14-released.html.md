@@ -6,7 +6,24 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+You're doing code review of a new feature and wonder how it'll actually
+feel, look and work when it's live. Yesterday, you had to sacrifice your
+local development environment's state, checkout the remote branch, run
+migrations and the spin up the entire development environment.
+Today, you can just go to GitLab and click the link in
+the merge request to play with a fully functional, live environment.
+
+Maybe you have some feedback on what you saw and start talking with your
+colleague on chat. Rather than having to communicate on who moves the result to
+issues, you just create an issue directly from chat.
+You can immediately add a time estimate to the issue
+and anyone peeking at the cycle analytics will see the new issue coming by and
+over time, move to production, giving you feedback on where things might get
+stuck.
+
+You can do all of the above and much more with GitLab 8.14, today. Time
+tracking, Review Apps, Chat commands, Cycle Analytics improvements and much
+more.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -81,7 +98,9 @@ and GitLab's repositories, issue tracker and CI quickly and easily.
 
 ![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
 
-> [Documentation link](link)
+With this first iteration, you can quickly create or view an issue.
+
+Read more about it in our blog post of today.
 
 ## Review Apps
 
@@ -103,11 +122,76 @@ GitLab. It's awesome.
 
 ## Prevent merge until Review is done
 
-If you're using
+You shouldn't merge code before all tests have passed and review is done.
+The first was enforceable for a while in GitLab, but the second not yet.
+
+With GitLab 8.14, you can now prevent merges until all discussions on a merge
+request have been resolved. This makes it impossible to miss those last
+comments on the bottom of the page (even if we didn't have that handy widget on
+top) and make sure only code that has been checked and verified makes it to
+production.
+
+Enable this option in the project settings.
 
 ## Delete all Merged Branches
 
+Toon Claes contributed an amazingly obvious, yet dubiously missing feature: a
+single button to quickly delete all merged branches in GitLab.
+
+We'll make sure to confirm your choice and then quickly set off a process to do
+as requested. Find the button under `Repository -> Branches`.
+
+Thanks Toon Claes!
+
 ## Subscribe to Group Labels
+
+We've introduced the convenient Group Labels in GitLab 8.13.
+You can now finally subscribe to them, so you get notified on things that
+matter to you, across entire groups. For instance, get notified whenever
+a new issue is made with the `customer` label, so you'll get a good overview
+of customer issues across all projects in a group.
+
+## Better Pipeline emails
+
+Now when a pipeline fails, we'll try to show you what went wrong
+when it did, so you know whether to simply retry a build or call for
+all hands on deck without having to dive in the logs immediately.
+
+![Better pipeline notifications in GitLab 8.14](/images/8_14/emails.png)
+
+## JIRA integration improvements
+
+We know many of you use JIRA intensively. We're working very hard on
+improving GitLab's integration with it. Below some of the improvements
+we've made this release. We're interested in hearing what else.
+
+### Remote issue links to JIRA
+
+To make it super easy how a JIRA ticket relates to commits in GitLab, now
+whenever you mention a JIRA ticket in a commit or merge request,
+we'll add it to the remote issue links in the ticket. You can write
+that it `FIXES` a JIRA ticket or just mention it and we'll make sure
+it appears correctly.
+
+![Remote Issue Links to JIRA with GitLab 8.14](/images/8_14/jira.png)
+
+Related MR: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7413
+
+### A more silent GitLab in JIRA
+
+When you setup the JIRA service within GitLab, by default, every commit and
+merge request in GitLab that referenced a JIRA issue created a comment in this
+issue in JIRA. Some people like having the complete details of what's going on,
+others prefer this to be more silent.
+
+With GitLab 8.14, you can now disable the creation of comments when referencing
+a JIRA issue in a commit or in a merge request.
+
+### Better API documentation for our JIRA service
+
+We've updated
+[the documentation](https://docs.gitlab.com/ce/api/services.html#jira)
+for the API for the JIRA service.
 
 ## GitLab Mattermost 3.5
 
