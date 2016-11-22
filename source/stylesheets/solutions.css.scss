@@ -196,10 +196,6 @@
   }
 }
 
-.purple-section.what-is .featured-item-button {
-  min-width: 175px;
-}
-
 // ----------- general ---------- //
 
 .line-separator {
@@ -245,6 +241,10 @@
 .purple-section {
   padding-bottom: 40px;
   font-size: 16px;
+
+  &.what-is .featured-item-button {
+    min-width: 175px;
+  }
 
   @media (min-width: $screen-md-min) {
     padding-bottom: 60px;
