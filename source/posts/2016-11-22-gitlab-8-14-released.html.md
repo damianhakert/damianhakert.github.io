@@ -124,17 +124,21 @@ your feedback.
 
 ## Review Apps
 
-Review Apps are the future of reviewing work. Rather than just looking at
-code or even having a test suite run any kind of tests, Review Apps will
-serve you with a fully functioning environment in which your app is running,
-ready for any kind of testing, trying or poking.
+Review Apps are the future of reviewing work. Rather than just looking at code,
+Review Apps will serve you with a fully functioning environment in which your
+app is running, ready for any kind of testing, trying or poking.
 
-We've initially announced Review Apps with GitLab 8.12 and have improved them
-in the last release, but today we're shipping the feature as it's supposed to.
+We initially offered experimental support for Review Apps in GitLab 8.12, and
+improved it in the 8.13, but today we're shipping the last bit to call it
+"complete".
 
-This means that, once setup, a review app will spin up automatically for each
-merge request and be destroyed automatically when the branch is removed from
-GitLab. It's awesome.
+Now with Review Apps properly set up, an app will spin up automatically
+for each branch and be destroyed automatically when the branch is removed from
+GitLab. It's awesome. This feature is so exciting, there's a whole other blog
+post about it.
+
+> [Read the blog post introducing review apps](/2016-11-22-introducing-review-apps.html.html)  
+> [Read the documentation on Review Apps](http://docs.gitlab.com/ce/ci/review_apps/index.html)
 
 ## Cycle Analytics Events
 
