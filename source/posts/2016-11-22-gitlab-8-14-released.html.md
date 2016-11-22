@@ -183,9 +183,9 @@ of customer issues across all projects in a group.
 
 ## Better Pipeline emails
 
-Now when a pipeline fails, we'll try to show you what went wrong
-when it did, so you know whether to simply retry a build or call for
-all hands on deck without having to dive in the logs immediately.
+Now when a pipeline fails, we'll email you what went wrong, so you know whether
+to simply retry a build, or call for all-hands-on-deck, without having to dive
+into the logs immediately.
 
 ![Better pipeline notifications in GitLab 8.14](/images/8_14/emails.png)
 
