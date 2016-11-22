@@ -239,11 +239,11 @@ GitLab also got prettier and easier to use with 8.14, some highlights below:
 
 You can now _see_ who you are mentioning:
 
-![](/images/8_14/mention.png)
+![](/images/8_14/mention.png){: .shadow}
 
 Pipelines and the meta information are looking even better than they did:
 
-![](/images/8_14/pipes.png)
+![](/images/8_14/pipes.png){: .shadow}
 
 We now show you environment information on the build page:
 
@@ -251,11 +251,24 @@ We now show you environment information on the build page:
 
 Pipelines will now show whether specific builds are skipped:
 
-![](/images/8_14/pipes2.png)
+![](/images/8_14/pipes2.png){: .shadow}
 
 And we made it easier to see what is left in the current pipeline:
 
-![](/images/8_14/pipes3.png)
+![](/images/8_14/pipes3.png){: .shadow}
+
+## Improved Accessibility
+
+Our amazing UX and frontend teams have been working hard on improving
+the accessibility of GitLab. We've made a few changes worth highlighting this month:
+
+- We've added a 'Skip to Content' button when tabbing, This allows you
+to reach the content faster and skip navigation items.
+- All dropdowns, buttons and anchors now have focus states
+- We've increased the contrast between background and anchors
+
+We're always interested in hearing how we can improve GitLab's accessibility
+further.
 
 ## GitLab Mattermost 3.5
 
@@ -269,7 +282,7 @@ favorite channels and much more.
 This version also includes [security updates](http://about.mattermost.com/security-updates/)
 and upgrade from earlier versions is recommended.
 
-## GitLab Runner
+## GitLab Runner 1.8
 
 We are also releasing GitLab Runner 1.8 today. Most interesting changes:
 
@@ -279,6 +292,23 @@ We are also releasing GitLab Runner 1.8 today. Most interesting changes:
 - Add PullPolicy config option for kubernetes [!335](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/335)
 - Fix/unplug stalled endpoints [!390](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/390)
 - Fix {Bash,Cmd,Ps}Writer.IfCmd to escape its arguments [!364](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/364)
+
+## Support for private container registries in GitLab CI builds
+
+In GitLab 8.14 and GitLab Runner 1.8 we've improved support for private docker images.
+
+From now on you can use private/protected images stored in GitLab's Container
+Registry automatically, without any changes. GitLab will send registry
+credentials with build data, and Runner will use them to authorize docker pull
+requests.
+
+You can also use `DOCKER_AUTH_CONFIG` Secure Variable to add credentials
+for other private registries. Thanks to this you can use any image from any registry - public or private - which is accessible from build's host, to be a base of your build or a service used by it.
+
+Runner 1.8 fixes also the mechanism that is generating aliases from service
+name, when registry is available on non standard port.
+
+You can read more about private container registries support in [GitLab Runner's configuration](https://docs.gitlab.com/runner/configuration/advanced-configuration.html#using-a-private-container-registry) documentation.
 
 ## Performance Improvements
 
