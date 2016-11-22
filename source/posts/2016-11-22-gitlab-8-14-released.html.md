@@ -66,7 +66,7 @@ on an issue, you can log this simply with:
 
 You'll see this reflected in the interface.
 
-![Time Tracking Beta in GitLab 8.14](/images/8_14/time.gif)
+![Time Tracking Beta in GitLab 8.14](/images/8_14/time.gif){: .shadow}
 
 Time Tracking is made available as trial to all our Enterprise Edition
 customers during the beta period,
@@ -97,8 +97,9 @@ that we aim to capture with GitLab. With Chat Commands you can now bridge the
 gap between chat and GitLab's repositories, issue tracker, and CI/CD pipelines
 quickly and easily.
 
-![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
+![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif){: .shadow}
 
+The first iteration supports Mattermost, which ships with GitLab Omnibus.
 With this first iteration, you can quickly create or view an issue, for
 instance use:
 
@@ -143,7 +144,7 @@ comments on the bottom of the page (even if we didn't have that handy widget on
 top) and make sure only code that has been checked and verified makes it to
 production.
 
-![Prevent merge until review is done in GitLab 8.14](/images/8_14/dis1.png)
+![Prevent merge until review is done in GitLab 8.14](/images/8_14/dis1.png){: .shadow}
 
 Enable this option in the project settings.
 
@@ -157,7 +158,7 @@ single button to quickly delete all merged branches in GitLab.
 We'll make sure to confirm your choice and then quickly set off a process to do
 as requested. Find the button under `Repository -> Branches`.
 
-![Quickly delete all merged branches in GitLab 8.14](/images/8_14/delete_mr.png)
+![Quickly delete all merged branches in GitLab 8.14](/images/8_14/delete_mr.png){: .shadow}
 
 Thanks Toon Claes!
 
@@ -191,7 +192,7 @@ we'll add it to the remote issue links in the ticket. You can write
 that it `FIXES` a JIRA ticket or just mention it and we'll make sure
 it appears correctly.
 
-![Remote Issue Links to JIRA with GitLab 8.14](/images/8_14/jira.png)
+![Remote Issue Links to JIRA with GitLab 8.14](/images/8_14/jira.png){: .shadow}
 
 Related MR: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7413
 
