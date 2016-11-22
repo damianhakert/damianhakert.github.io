@@ -89,11 +89,13 @@ Some things we're thinking about: [reporting][reporting], [an API][tt-api],
 
 ## Chat Commands
 
-It seems like work has moved from the work floor to the chatroom in the last
-few years. In particular, collaboration and idea generation seems to happen
-here, an important part of the idea-to-production vision we aim to capture
-with GitLab. With Chat Commands you can now bridge the step between chat
-and GitLab's repositories, issue tracker and CI quickly and easily.
+It seems like communication has moved from the conference room to the online
+chatroom in the last few years. In particular, collaboration and idea generation
+seem to happen here, and that's an important part of the
+[idea-to-production vision](/2016/09/13/gitlab-master-plan/#the-master-plan)
+that we aim to capture with GitLab. With Chat Commands you can now bridge the
+gap between chat and GitLab's repositories, issue tracker, and CI/CD pipelines
+quickly and easily.
 
 ![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
 
@@ -108,7 +110,9 @@ Let's make Issue boards _even_ better!
 To make an issue with the title and description already filled and
 ready for planning.
 
-Read more about it in our blog post of today.
+Read the
+[documentation](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
+for more details.
 
 ## Review Apps
 
