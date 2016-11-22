@@ -11,7 +11,7 @@ suppress_header: true
 
   = partial "includes/blog/list", locals: {articles: blog.articles[0...4]}
 
-  .trial
+  .callout
     %h3
       Try GitLab Enterprise Edition risk-free for 30 days.
     %h4
@@ -20,6 +20,15 @@ suppress_header: true
     %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
 
   = partial "includes/blog/list", locals: {articles: blog.articles[4...10]}
+
+  .callout
+    %h3
+      Install GitLab on your own server in just 2 minutes
+    %h4
+      With Ubuntu, Debian, CentOS and Raspbian packages or from source
+    %a.btn.btn-lg.btn-red{ href: "/download/" } Install GitLab Now
+
+  = partial "includes/blog/list", locals: {articles: blog.articles[10...14]}
 
   .wrapper
     .section
