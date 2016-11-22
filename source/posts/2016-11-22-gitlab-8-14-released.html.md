@@ -61,7 +61,7 @@ You can adjust this at any time with the same command. Once you've spent time
 on an issue, you can log this simply with:
 
 ```
-/spent 3h
+/spend 3h
 ```
 
 You'll see this reflected in the interface.
