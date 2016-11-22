@@ -134,7 +134,7 @@ improved it in the 8.13, but today we're shipping the last bit to call it
 
 Now with Review Apps properly set up, an app will spin up automatically
 for each branch and be destroyed automatically when the branch is removed from
-GitLab. It's awesome. This feature is so exciting, there's a whole other blog
+GitLab. We're [using it with this blog](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L33-71), and it's awesome. This feature is so exciting, there's a whole other blog
 post about it.
 
 > [Read the blog post introducing review apps](/2016-11-22-introducing-review-apps.html.html)  
