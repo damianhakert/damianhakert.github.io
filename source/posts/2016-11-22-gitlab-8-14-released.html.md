@@ -233,12 +233,6 @@ others prefer this to be more silent.
 With GitLab 8.14, you can now disable the creation of comments when referencing
 a JIRA issue in a commit or in a merge request.
 
-### Better API documentation for our JIRA service
-
-We've updated
-[the documentation](https://docs.gitlab.com/ce/api/services.html#jira)
-for the API for the JIRA service.
-
 ## Improved Looks!
 
 GitLab also got prettier and easier to use with 8.14, some highlights below:
