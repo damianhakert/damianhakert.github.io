@@ -130,7 +130,7 @@ stop_review:
 
 Review Apps are about improving the fidelity and speed of review; bringing everyone (product managers, QA, designers, etc.) into the conversation earlier, with higher quality information, so you move faster from idea to production. After you embrace them, you'll look back and wonder how you ever lived without them.
 
-Dynamic environments were first introduced with experimental support in 8.12 and the ability to manually stop dynamic environments was introduced in 8.13. 8.14 adds automatic stopping of environments on branch deletion, as well as environment folders in the UI. With that, Review Apps is no longer considered experimental. Review apps are available for free in GitLab CE, GitLab EE, and on GitLab.com.
+Dynamic environments were first introduced with experimental support in 8.12 and the ability to manually stop dynamic environments was introduced in 8.13. 8.14 adds automatic stopping of environments on branch deletion, as well as environment folders in the UI. With that, Review Apps is no longer considered experimental. Review apps are available now, for free, in GitLab CE, GitLab EE, and on GitLab.com.
 
 ## Further reading
 
