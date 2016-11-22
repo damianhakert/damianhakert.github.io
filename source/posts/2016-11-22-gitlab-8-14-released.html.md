@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.14 Released with Time Tracking Beta and Review Apps"
+title: "GitLab 8.14 Released with Time Tracking Beta and Chat Commands"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
@@ -32,7 +32,7 @@ Thanks Toon Claes!
 {::options parse_block_html="true" /}
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Tune in on Nov. 30 for our 8.14 release webcast **Completing the Idea to Production Vision** for a live demo of Review Apps and Time Tracking for EE. [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
+Tune in on Nov. 30 for our 8.14 release webcast with a live demo of Review Apps and Time Tracking for EE! [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
@@ -142,7 +142,13 @@ post about it.
 
 ## Cycle Analytics Events
 
+With Cycle Analytics you get actionable feedback on how fast your ideas are moving to product and where they might be getting stuck. This can seem a little abstract, so to make it more obvious what is happening, we'll now show you the latest events in each stage.
+
 ![Improved Cycle Analytics in GitLab 8.14](/images/8_14/cycle_events.png)
+
+This should make it easier to get an overview of what is happening in each
+stage, but also to quickly jump in and see if you can move things forward
+faster.
 
 > [Documentation link](link)
 
@@ -192,6 +198,7 @@ of customer issues across all projects in a group.
 Now when a pipeline fails, we'll email you what went wrong, so you know whether
 to simply retry a build, or call for all-hands-on-deck, without having to dive
 into the logs immediately.
+
 
 ![Better pipeline notifications in GitLab 8.14](/images/8_14/emails.png)
 
