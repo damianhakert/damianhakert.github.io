@@ -9,7 +9,7 @@ image_title: /images/7_X/PICTURE.PNG
 You're doing code review of a new feature and wonder how it'll actually
 feel, look and work when it's live. Yesterday, you had to sacrifice your
 local development environment's state, checkout the remote branch, run
-migrations and the spin up the entire development environment.
+migrations, and then spin up the entire development environment.
 Today, you can just go to GitLab and click the link in
 the merge request to play with a fully functional, live environment.
 
@@ -17,7 +17,7 @@ Maybe you have some feedback on what you saw and start talking with your
 colleague on chat. Rather than having to communicate on who moves the result to
 issues, you just create an issue directly from chat.
 You can immediately add a time estimate to the issue
-and anyone peeking at the cycle analytics will see the new issue coming by and
+and anyone peeking at the cycle analytics will see the new issue come by and
 over time, move to production, giving you feedback on where things might get
 stuck.
 
