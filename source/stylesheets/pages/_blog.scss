@@ -17,7 +17,7 @@
 }
 
 .blog .section {
-  margin: 25px 40px;
+  margin: 25px 40px 0px 40px;
   clear: both;
 }
 
@@ -53,7 +53,7 @@
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	column-break-inside: avoid;
-  margin: 13px 0;
+  margin-bottom: 25px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -65,15 +65,32 @@
 }
 
 .blog.list .article .cover {
+  text-decoration: none;
+  display: block;
   width: 100%;
-  height: 200px;
+  height: 220px;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   position: relative;
-  opacity: 0.80;
-  filter: alpha(opacity=80);
   margin-bottom: 12px;
+}
+
+.blog.list .article .cover .overlay {
+  background: linear-gradient(-225deg, rgba(85,68,136,0.5) 0%, rgba(72,135,197,0.8) 100%);
+  display: block;
+  height: 100%;
+}
+
+.blog.list .article .cover h2 {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media only screen and (max-width : 992px) {
@@ -97,10 +114,9 @@
   float: right;
 }
 
-.blog.list .article h2 {
+.blog.list .article .summary {
   clear: both;
-  margin-top: 42px;
-  margin-bottom: 22px;
+  margin-top: 46px;
 }
 
 .blog.list .article h2 a, .blog.list .article h2 a:hover {
@@ -166,6 +182,12 @@
 }
 
 /* newsletter */
+
+.blog .panel, .blog .panel-default {
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  border: none;
+}
 
 .newsletter .newsletter-preamble {
   float: left;
