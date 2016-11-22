@@ -238,6 +238,30 @@ We've updated
 [the documentation](https://docs.gitlab.com/ce/api/services.html#jira)
 for the API for the JIRA service.
 
+## Improved Looks!
+
+GitLab also got prettier and easier to use with 8.14, some highlights below:
+
+You can now _see_ who you are mentioning:
+
+![](/images/8_14/mention.png)
+
+Pipelines and the meta information are looking even better than they did:
+
+![](/images/8_14/pipes.png)
+
+We now show you environment information on the build page:
+
+![](/images/8_14/env_info.png){: .shadow}
+
+Pipelines will now show whether specific builds are skipped:
+
+![](/images/8_14/pipes2.png)
+
+And we made it easier to see what is left in the current pipeline:
+
+![](/images/8_14/pipes3.png)
+
 ## GitLab Mattermost 3.5
 
 GitLab 8.14 includes [Mattermost 3.5](https://about.mattermost.com/mattermost-3-5/),
