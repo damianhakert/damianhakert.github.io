@@ -142,6 +142,8 @@ post about it.
 
 ## Cycle Analytics Events
 
+![Improved Cycle Analytics in GitLab 8.14](/images/8_14/cycle_events.png)
+
 > [Documentation link](link)
 
 ## Prevent merge until Review is done
@@ -160,6 +162,10 @@ production.
 Enable this option in the project settings.
 
 ![Prevent merge until review is done in GitLab 8.14](/images/8_14/dis2.png)
+
+Thanks to Rodolfo Arruda for contributing this awesome feature!
+
+> [See the documentation on merge request discussions](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_discussion_resolution.html)
 
 ## Delete all Merged Branches
 
