@@ -20,7 +20,7 @@ When you start, you have no users so there's very little risk in deploying direc
 
 - **tanuki**
 
-But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace [continuous delivery](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-delivery) and set it up to automatically deploy to `staging` any time `master` is updated:
+But of course, you really hope things don't stop there. You push some code, test it out, then get some real users, and eventually you realize you should have a separate app for testing that doesn't affect your real users. So you create a `staging` version, configured as much like production as possible including a production database, memcache or Redis, New Relic, Papertrail, and everything else you have added to your production app, but maybe scaled down so it doesn't cost as much. :) And if you're using GitLab, you'll probably embrace [continuous delivery](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-delivery) and set it up to automatically deploy to `staging` any time `master` is updated (but still require a manual deploy to go all the way to production):
 
 - **tanuki**
 - **tanuki-staging**
