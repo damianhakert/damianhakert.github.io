@@ -321,7 +321,6 @@ You can read more about private container registries support in [GitLab Runner's
 * An index has been added for `project_import_data.project_id` to improve finding project import data: [!7316](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7316)
 * Certain database associations are now eager loaded on the merge requests and issues index pages: [!7564](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7564)
 * Refreshing of caches upon a push has been improved. Previously GitLab would refresh all caches, starting with 8.14 it will only refresh the caches of data that has been changed: [!7360](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7360)
-* Performance of loading auto complete data (e.g. usernames) has been improved: [!6856](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6856)
 
 ## Omnibus GitLab package changes
 
