@@ -142,6 +142,6 @@ Dynamic environments were first introduced with experimental support in 8.12 and
 ---
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Don't miss our upcoming GitLab 8.14 Release Webcast: **Completing the Idea to Production Vision** on November 30. We'll live demo Review Apps and Time Tracking for EE. [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
+Don't miss our upcoming Release Webcast: **GitLab 8.14 with Review Apps and Time Tracking** on November 30. We'll live demo Review Apps and Time Tracking for EE. [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
