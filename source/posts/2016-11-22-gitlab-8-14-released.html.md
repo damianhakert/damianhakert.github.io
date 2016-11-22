@@ -111,7 +111,7 @@ You can also embrace ChatOps and trigger deploys to production (using the
 proper identity and permissions of the user):
 
 ```
-/gitlab deploy from staging to production
+/gitlab deploy staging to production
 ```
 
 This iteration supports Mattermost, which ships with GitLab Omnibus. Slack
@@ -120,7 +120,7 @@ The command set is limited, but we're [looking to add
 more](https://gitlab.com/gitlab-org/gitlab-ce/issues/24768) soon and would love
 your feedback.
 
-> [Read the documentation on Mattermost Chat Commands](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
+> [Read the documentation on Mattermost Slash Commands](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
 
 ## Review Apps
 
