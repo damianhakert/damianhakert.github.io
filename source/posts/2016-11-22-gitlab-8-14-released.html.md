@@ -3,7 +3,7 @@ title: "GitLab 8.14 Released with Time Tracking Beta and Chat Commands"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/8_14/pic.png
+image_title: /images/8_14/pic.jpg
 ---
 
 You're doing code review of a new feature and wonder how it'll actually
@@ -138,6 +138,7 @@ GitLab. We're [using it with this blog](https://gitlab.com/gitlab-com/www-gitlab
 post about it.
 
 > [Read the blog post introducing review apps](/2016/11/22/introducing-review-apps/)
+
 > [Read the documentation on Review Apps](https://docs.gitlab.com/ce/ci/review_apps/)
 
 ## Cycle Analytics Events
@@ -273,6 +274,17 @@ favorite channels and much more.
 
 This version also includes [security updates](http://about.mattermost.com/security-updates/)
 and upgrade from earlier versions is recommended.
+
+## GitLab Runner
+
+We are also releasing GitLab Runner 1.8 today. Most interesting changes:
+
+- Add initial Prometheus metrics server to runner manager [!358](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/358)
+- Add support for docker registries on non standard ports [!376](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/376)
+- Use correct constant for kubernetes ressource limits. [!367](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/367)
+- Add PullPolicy config option for kubernetes [!335](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/335)
+- Fix/unplug stalled endpoints [!390](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/390)
+- Fix {Bash,Cmd,Ps}Writer.IfCmd to escape its arguments [!364](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/364)
 
 ## Performance Improvements
 
