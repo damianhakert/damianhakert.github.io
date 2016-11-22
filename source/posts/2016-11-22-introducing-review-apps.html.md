@@ -85,7 +85,7 @@ Review Apps aren't just for large teams; they're great even for solo developers.
 
 1. Having each change go through multiple stages (development, staging and QA stages).
 1. Finding a problem in staging or QA and having to research what merge request caused it.
-1. Having to add screenshots and video's to your merge request.
+1. Having to add screenshots and videos to your merge request.
 1. Looking at a merge request and not being able to test the UX and edge cases.
 
 To [get started with Review Apps](https://docs.gitlab.com/ce/ci/review_apps/), you'll need to figure how to create and deploy a new app using shell scripts, then put that into your `.gitlab-ci.yml` in a special job.
