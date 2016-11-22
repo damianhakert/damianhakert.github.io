@@ -87,7 +87,7 @@ Some things we're thinking about: [reporting][reporting], [an API][tt-api],
 [other-issues]: https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name%5B%5D=time+tracking
 [create-tt-issue]: https://gitlab.com/gitlab-org/gitlab-ee/issues/new
 
-## Chat Commands
+## Chat Commands (experimental)
 
 It seems like communication has moved from the conference room to the online
 chatroom in the last few years. In particular, collaboration and idea generation
