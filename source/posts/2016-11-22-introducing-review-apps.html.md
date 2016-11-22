@@ -3,7 +3,7 @@ title: "Introducing Review Apps"
 author: Mark Pundsack
 author_twitter: MarkPundsack
 categories: GitLab workflow
-image_title: /images/blogimages/review_apps_cover.png
+image_title: '/images/blogimages/review_apps_cover.png'
 twitter_image: '/images/tweets/introduce-review-apps.png'
 description: Transform your development flow with temporary review apps
 ---
