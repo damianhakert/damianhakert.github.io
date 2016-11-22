@@ -3,7 +3,7 @@ title: "GitLab 8.14 Released with Time Tracking Beta and Review Apps"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_14/pic.png
 ---
 
 You're doing code review of a new feature and wonder how it'll actually
