@@ -17,7 +17,7 @@ Three of our offerings in particular drove Cognitive Logic's decision to switch 
 * Easily Configurable CI
 * Easy migration from GitHub
 
-Johan also told me that his team's biggest challenge with GitLab is that it can be difficult to orchestrate CI between repositories; they're looking forward to being able to chain testing between repositories. 
+Johan also told me that his team's biggest challenge with GitLab is that it can be difficult to orchestrate CI between repositories; he says they're looking forward to being able to chain testing between repositories. A fix is in the works - in typical fashion, minutes after I posted his query on Slack our Head of Product, [Mark Pundsack](https://twitter.com/MarkPundsack), wrote back that we have [existing functionality](https://docs.gitlab.com/ce/ci/triggers/) that allows one pipeline to trigger another pipeline in a different project. There are also several [issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/933) open to make this better.  
 
 Read the full conversation below!
 
@@ -43,7 +43,7 @@ We try to raise issues when features or bugs arise, then triage in a branch, sub
 **What were the major problems you were trying to solve with your previous version control system, if you used one?**
 {: .alert .alert-info}
 
-**Johan:** We were using Github for VCS before moving to GitLab earlier this year. I came from a company where we had rolled our own CI solution while running our own VCS server and I knew how much time it takes to run a system like that reliably, so when I started at Cognitive Logic I was conscious about trying to make good choices for VCS early on. This lead me to look at GitLab as I wanted something with easy CI and “validated merge request” capabilities to ensure maintained code quality. GitLab was perfect in this regard and we made the switch from Github.com to GitLab.com about 6 months ago. The major difference between GitLab and Github was the easily configurable CI.
+**Johan:** We were using Github for VCS before moving to GitLab earlier this year. I came from a company where we had rolled our own CI solution while running our own VCS server and I knew how much time it takes to run a system like that reliably, so when I started at Cognitive Logic I was conscious about trying to make good choices for VCS early on. This lead me to look at GitLab as I wanted something with easy CI and validated merge request capabilities to ensure maintained code quality. GitLab was perfect in this regard and we made the switch from Github.com to GitLab.com about 6 months ago. The major difference between GitLab and Github was the easily configurable CI.
 
 **How have developers responded to migrating to GitLab? Have there been any unforeseen challenges or obstacles?**
 {: .alert .alert-info}
