@@ -67,9 +67,9 @@ But apps should be easy to create and destroy, so why not create a new one for e
 - **tanuki-mark**
 - **tanuki-staging**
 
-As you can see, this gets complicated pretty quickly and boy, would that be a lot to manage manually. Over the last few releases, and culminating in 8.14, GitLab has been working to make this easier.
+As you can see, this gets complicated pretty quickly and boy, would that be a lot to manage manually.
 
-Let's talk about Review Apps.
+Over the last few releases, and culminating in 8.14, GitLab has been working to make this easier. Let's talk about Review Apps.
 
 ## Introducing Review Apps
 
