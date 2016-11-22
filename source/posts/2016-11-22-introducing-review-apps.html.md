@@ -104,7 +104,7 @@ start_review:
   environment:
     name: review/$CI_BUILD_REF_NAME
     url: http://$CI_BUILD_REF_NAME.$APPS_DOMAIN
-    on_stop: review_stop
+    on_stop: stop_review
   only:
     - branches
   except:
