@@ -120,7 +120,7 @@ The command set is limited, but we're [looking to add
 more](https://gitlab.com/gitlab-org/gitlab-ce/issues/24768) soon and would love
 your feedback.
 
-> [Read the documentation on Mattermost Slash Commands](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
+> [Read the documentation on Mattermost Slash Commands](https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
 
 ## Review Apps
 
@@ -137,8 +137,8 @@ for each branch and be destroyed automatically when the branch is removed from
 GitLab. We're [using it with this blog](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L33-71), and it's awesome. This feature is so exciting, there's a whole other blog
 post about it.
 
-> [Read the blog post introducing review apps](/2016-11-22-introducing-review-apps.html.html)  
-> [Read the documentation on Review Apps](http://docs.gitlab.com/ce/ci/review_apps/index.html)
+> [Read the blog post introducing review apps](/2016/11/22/introducing-review-apps/)
+> [Read the documentation on Review Apps](https://docs.gitlab.com/ce/ci/review_apps/)
 
 ## Cycle Analytics Events
 
@@ -150,7 +150,7 @@ This should make it easier to get an overview of what is happening in each
 stage, but also to quickly jump in and see if you can move things forward
 faster.
 
-> [Documentation link](link)
+> [Read the documentation on Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html)
 
 ## Prevent merge until Review is done
 
@@ -171,7 +171,7 @@ Enable this option in the project settings.
 
 Thanks to Rodolfo Arruda for contributing this awesome feature!
 
-> [See the documentation on merge request discussions](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_discussion_resolution.html)
+> [Read the documentation on merge request discussions](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_discussion_resolution.html)
 
 ## Delete all Merged Branches
 
@@ -179,7 +179,7 @@ Toon Claes contributed an amazingly obvious, yet dubiously missing feature: a
 single button to quickly delete all merged branches in GitLab.
 
 We'll make sure to confirm your choice and then quickly set off a process to do
-as requested. Find the button under `Repository -> Branches`.
+as requested. Find the button under your project's **Repository ➔ Branches**.
 
 ![Quickly delete all merged branches in GitLab 8.14](/images/8_14/delete_mr.png){: .shadow}
 
@@ -205,20 +205,22 @@ into the logs immediately.
 ## JIRA integration improvements
 
 We know many of you use JIRA intensively. We're working very hard on
-improving GitLab's integration with it. Below some of the improvements
+improving GitLab's integration with it. Below are some of the improvements
 we've made this release. We're interested in hearing what else.
+
+> [Read the revamped documentation on JIRA integration](https://docs.gitlab.com/ce/project_services/jira.html)
 
 ### Remote issue links to JIRA
 
 To make it super easy how a JIRA ticket relates to commits in GitLab, now
 whenever you mention a JIRA ticket in a commit or merge request,
 we'll add it to the remote issue links in the ticket. You can write
-that it `FIXES` a JIRA ticket or just mention it and we'll make sure
+that it `Fixes` a JIRA ticket or just mention it and we'll make sure
 it appears correctly.
 
 ![Remote Issue Links to JIRA with GitLab 8.14](/images/8_14/jira.png){: .shadow}
 
-Related MR: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7413
+Related MR: <https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7413>
 
 ### A more silent GitLab in JIRA
 
@@ -238,9 +240,15 @@ for the API for the JIRA service.
 
 ## GitLab Mattermost 3.5
 
-GitLab 8.14 includes [Mattermost 3.5](https://about.mattermost.com/mattermost-3-5/), an [open source Slack-alternative](https://about.mattermost.com) whose newest release offers improved performance on mobile and web through reduced loading times, mobile UI improvements and faster server-side processing, Minio as a self-hosted S3-alternative to local file storage, Russian language translation, favorite channels and much more.
+GitLab 8.14 includes [Mattermost 3.5](https://about.mattermost.com/mattermost-3-5/),
+an [open source Slack-alternative](https://about.mattermost.com) whose newest
+release offers improved performance on mobile and web through reduced loading
+times, mobile UI improvements and faster server-side processing, Minio as a
+self-hosted S3-alternative to local file storage, Russian language translation,
+favorite channels and much more.
 
-This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
+This version also includes [security updates](http://about.mattermost.com/security-updates/)
+and upgrade from earlier versions is recommended.
 
 ## Performance Improvements
 
@@ -265,9 +273,10 @@ We've improved this further and also introduced ways of configuring Redis HA, al
 
 With Omnibus GitLab 8.14 Enterprise Edition package, you can fully configure
 Redis in Highly Available configuration which also includes configuring
-Redis Sentinel. This is a step forward in the direction of having [fully HA ready Enterprise Edition package](https://gitlab.com/gitlab-org/gitlab-ee/issues/77).
+Redis Sentinel. This is a step forward in the direction of having a
+[fully HA ready Enterprise Edition package](https://gitlab.com/gitlab-org/gitlab-ee/issues/77).
 
-When using Community Edition package, Redis Sentinel needs to be
+When using the Community Edition package, Redis Sentinel needs to be
 installed and configured manually separately.
 
 > [Read more about Redis HA setup in our docs](https://docs.gitlab.com/ee/administration/high_availability/redis.html)
