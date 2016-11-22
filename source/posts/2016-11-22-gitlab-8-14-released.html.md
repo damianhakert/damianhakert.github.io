@@ -99,21 +99,28 @@ quickly and easily.
 
 ![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif){: .shadow}
 
-The first iteration supports Mattermost, which ships with GitLab Omnibus.
 With this first iteration, you can quickly create or view an issue, for
-instance use:
+instance, using this to make an issue with the title and description already filled in:
 
 ```
 /gitlab issue create Even Better Issue Boards
 Let's make Issue boards _even_ better!
 ```
 
-To make an issue with the title and description already filled and
-ready for planning.
+You can also embrace ChatOps and trigger deploys to production (using the
+proper identity and permissions of the user):
 
-Read the
-[documentation](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
-for more details.
+```
+/gitlab deploy from staging to production
+```
+
+This iteration supports Mattermost, which ships with GitLab Omnibus. Slack
+support is [coming soon](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182).
+The command set is limited, but we're [looking to add
+more](https://gitlab.com/gitlab-org/gitlab-ce/issues/24768) soon and would love
+your feedback.
+
+> [Read the documentation on Mattermost Chat Commands](http://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
 
 ## Review Apps
 
