@@ -13,5 +13,7 @@
           = partial "includes/comparison_tree_nav"
           .comparison-page-content.col-sm-8
             = yield
+      - if current_page.data.trial_bar
+        = partial "includes/features/gitlab-ee-trial"
       .footer-container
         = partial "includes/layout/footer"
