@@ -27,9 +27,15 @@ Issues should be tagged with 'UX' if UX work is required.
 Issues should be tagged with 'UX Research' if there may be an opportunity for research.
 
 1. Work with the UX team to determine the question to research.
-2. Create an issue to track the work. The issue should include the question to be researched, the hypothesis, what the impact will be based on how the question is answered, and what research method(s) will be used. List related issues.
-3. Tag the issue with 'UX Research' and assign it to yourself.
-4. Conduct the research and document the findings and recommendations in the issue.
-5. Assign the issue to the UX Designer who is going to implement the design based on the research. Remove the 'UX Research' tag and add the 'UX' tag.
+2. Create a meta issue which provides a high level summary of the research to be undertaken. Ensure that it is generic enough in scope, so it doesn’t influence user behaviour. 
+3. Detail research plan in Google Docs. The doc should include the question to be researched, the hypothesis, what the impact will be based on how the question is answered, and what research method(s) will be used. List related issues.
+4. Add the link to the research plan in the meta issue.
+5. Tag the meta issue with 'UX Research' and assign it to yourself. If the research is for a release, ensure that the release label is also added.
+6. Conduct the research.
+7. Document the findings and recommendations in a Google Doc. 
+8. Add the link to the findings and recommendations document in the meta issue.
+9. Ensure you update any issues which the research relates to, so the UX Designer is aware that the research has been completed. Remove the ‘UX Research’ label from both the meta issue and the issues your research addresses.
+10. For any new pain points which are uncovered during the research phase, create a new issue per pain point which describes the problem and link it to the meta issue.
+11. Tag any new issues with the ‘UX’ label. 
 
 *Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).*
