@@ -1914,7 +1914,7 @@
 - name: Rebecca Dodd
   locality: London
   country: United Kingdom
-  role: Content Editor
+  role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
   reports_to: Content Lead
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
@@ -1940,16 +1940,19 @@
           not at her desk she's probably playing with puppies, face timing family, or planning her next
           trip!
 
-- name: J.I.V.L.
-  locality:
-  country:
+- name: Jose Ivan Vargas Lopez
+  locality: Ciudad Guzman
+  country: Mexico
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
+  picture: jose-ivan.jpg
   twitter:
-  gitlab:
+  gitlab: jivanvl
   story:  |
-          Joining November 7th
+          Jose Ivan is a software developer with a passion for all things technology and programming. With a
+          thirst to improve his own skills and knowledge, either coding or reading he won't stop looking for
+          ways to create software. In his free time he likes to play videogames, drive around on his car,
+          cooking barbeques and reading about new tech.
 
 - name: Victor Wu
   locality: Chicago, IL
@@ -1992,7 +1995,7 @@
   locality: Kochi, Kerala
   country: India
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
-  reports_to: Buid Lead
+  reports_to: Build Lead
   picture: balasankarc.jpg
   twitter: cbalasankar
   gitlab: balasankarc
@@ -2042,5 +2045,3 @@
   gitlab:
   story:  |
           Joining December 1st
-          
-

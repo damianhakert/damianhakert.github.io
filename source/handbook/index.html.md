@@ -460,6 +460,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
     *  [Yubikey](https://www.yubico.com/store/)
+    *  [USB hub](https://www.amazon.com/Kensington-UH4000-Port-USB-3-0/dp/B00O9RPP28/)
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
@@ -697,6 +698,10 @@ With auto-advance you can return to the next message.
 Enable 'Auto-advance' in the labs section under settings.
 The default setting of showing the next older message is OK.
 
+#### Email signature
+
+Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
+
 ### Hangouts
 
 In Chrome Hangouts tends to consume 100% of CPU due to use of the vp9 codec.
@@ -887,11 +892,11 @@ linking your account to Git.
 
 ### 4. Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
    (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
+1. Execute: `rvm use 2.3.1 --default` to set your default Ruby to `2.3.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+   `ruby 2.3.1p112 (2016-04-26 revision 54768)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### 5. Clone the source of the website and install its dependencies
