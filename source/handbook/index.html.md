@@ -536,7 +536,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
-   * The manager should send a brief email that explains the bonus (same as the team call blurb) and states the amount to People Ops and our Controller who will [process](/handbook/people-ops/#using-trinet) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
+   * The manager should follow the following [process](https://about.gitlab.com/handbook/people-operations/sop/#processing-changes) to request the change in BambooHR. People Ops should _confirm_ when the approval has been processed, back to the manager.
 1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 

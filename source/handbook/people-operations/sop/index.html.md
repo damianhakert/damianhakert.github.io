@@ -40,14 +40,34 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 ### Processing changes
 
-Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
-bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
-the changes in BambooHR under the relevant section on the Jobs tab in the member’s profile; and then file the email in the Contracts and Changes folder in the Document tab.
+#### Compensation and Title Changes
 
-Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
+Any change to compensation or title must be requested in BambooHR. The Manager (Reports To) will initiate the change. Then the request is approved in the following order: Manager's Manager, CEO, and People Ops Admin.
+
+If you have any questions throughout this process, please feel free to contact People Ops. People Ops will confirm the change as the last step in the approval process. This ensures that further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
+
+##### Process for Compensation and Title Change in BambooHR
+
+Manager (Reports To):
+
+1. Login to BambooHR.
+1. Select the team member you would like to adjust.
+1. In the top right hand corner, click Request a Change.
+1. Select which type of change you are requesting. If you are only looking to change compensation, then select Compensation. If this is a promotion that includes a title change and a compensation change, select Promotion. To only change the title, select Job Information.
+1. Enter in all applicable fields in the form, and then submit.
+1. If there was a title change associated with the request, complete a merge request to change the title on the Team Page, and cc Brittany.
+
+##### Process for Recommending a Team Member for a Bonus in BambooHR
+
+1. Login to BambooHR.
+1. Select the team member you would like to adjust.
+1. In the top right hand corner, click Request a Change.
+1. Select Bonus.
+1. Enter in all applicable fields in the form, and then submit.
+1. Please ensure to announce the bonus on the Team Call.
 
 ### Using BambooHR
 
@@ -190,7 +210,7 @@ To celebrate a new team member joining our team, send an email with $50 swag cre
 Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields.
 Log in with your specific credentials to [MOO](https://www.moo.com/m4b/account/login). Select Create New Packs. Create a blank pack, then go to GitLab packs and select the newly created default. Edit the Title to be the team member's name. Click on the preview to edit the name, job title, email, phone number, twitter handle, and location. Once you have made sure all of the information is correct on the business card you can select how many cards you would like to order (standard is 50) and add the cards to the cart. When you are checking out, update which shipping center you would like the cards sent from at the top right by selecting the proper flag. Enter in the team member's shipping address. Place the order with the applicable shipping and billing addresses.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
-Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite". If the team member should be added as an admin to be able to also add new team members, update them to a [domain admin](https://docs.expensify.com/advanced-admin-controls/domain-members-and-groups). 
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite". If the team member should be added as an admin to be able to also add new team members, update them to a [domain admin](https://docs.expensify.com/advanced-admin-controls/domain-members-and-groups).
 - **Add team member to Beamy**<a name="add-beamy"></a>
 Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). In the top menu move your cursor over the blue login button. Go to "Manage your beams". Click on "manage" in the lower left corner. Enter the GitLab email and scroll down to find the newly addedd email. Check the box for "Auto connect".
 - **Add team member into the Summit info sheets**
