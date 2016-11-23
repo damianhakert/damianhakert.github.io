@@ -4,6 +4,7 @@ exclude:
   - "./build/**"
   - "./public/**"
   - "./vendor/**"
+  - "./source/stylesheets/highlight.css.erb"
 
 linters:
   BorderZero:
