@@ -4,7 +4,7 @@ comments: false
 suppress_header: true
 ---
 
-.blog.index.list
+.blog.list
   .wrapper
     .section
       = partial "includes/newsletter-signup.html"
@@ -21,15 +21,10 @@ suppress_header: true
 
   = partial "includes/blog/list", locals: {articles: blog.articles[6...12]}
 
-  .callout
-    %h3
-      Install GitLab on your own server in just 2 minutes
-    %h4
-      With Ubuntu, Debian, CentOS and Raspbian packages or from source
-    %a.btn.btn-lg.btn-red{ href: "/download/" } Install GitLab Now
+  = partial "includes/blog/install"
 
-  = partial "includes/blog/list", locals: {articles: blog.articles[12...16]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[12...18]}
 
   .wrapper
     .section
-      %a{href: "/blog/archives.html"} Browse the archives
+      %a.browse{href: "/blog/archives.html"} Browse the archives

@@ -6,24 +6,36 @@
     = partial "includes/google/gtm"
     = partial "includes/layout/header"
 
-    -# = partial "includes/blog/image-single", locals: {post: current_page}
+    - image_title = current_article.data.image_title ? current_article.data.image_title : '/images/default-blog-image.png'
 
-    .container.full-post
-      .blog-entry
-        %h4.date
-          -# = partial "includes/blog/author", locals: {post: current_page}
-          - if is_blog_article?
-            = current_article.date.to_time.strftime '%b %e, %Y'
-        = yield
-        %hr
-        = partial "includes/blog/share"
-        = partial "includes/download"
-        %hr
-        %p
-          &rarr;
-          %a{href: "/blog/archives.html"}
-            Browse all posts
+    .blog.article
+      .cover{ style: "background-image: url(#{image_title});" }
+        .overlay
+          .wrapper.header
+            %h1
+              = current_article.title
+            .author
+              - if current_article.data.author_twitter
+                = link_to(current_article.data.author, "https://twitter.com/#{current_article.data.author_twitter}")
+              - else
+                = current_article.data.author
+            .date
+              = current_article.date.to_time.strftime '%b %e, %Y'
+
+      .wrapper.body
+        .content
+          = yield
+
+        .social
+          = partial "includes/blog/share"
+
+      .wrapper.signup
         = partial "includes/newsletter-signup.html"
+
+      = partial "includes/blog/install"
+
+      .wrapper.comments
         = partial "includes/blog/comments"
-    = partial "includes/layout/footer"
-    = partial "includes/features/gitlab-ee-trial"
+
+      = partial "includes/layout/footer"
+      = partial "includes/features/gitlab-ee-trial"
