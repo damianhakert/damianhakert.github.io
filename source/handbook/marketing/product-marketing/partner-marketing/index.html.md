@@ -39,4 +39,4 @@ Suggested Format:
 - Links: GitLab integration/partner page & partner website
 - ROI - Track click-through to partner website and provide partner with metrics
 
-Submit to newsletter issue
+Submit to the 8th and 22nd of the month newsletter issue in the marketing project
