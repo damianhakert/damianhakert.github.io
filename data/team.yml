@@ -2013,16 +2013,19 @@
   story:  |
           Joining November 21st
 
-- name: M.C.
-  locality:
-  country:
+- name: Matija Čupić
+  locality: Belgrade
+  country: Serbia
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
   reports_to: VP of Scaling
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: matija.png
+  twitter: cmattrex
+  gitlab: cmattrex
   story:  |
-          Joining November 21st
+          Matija is a software engineer from Belgrade, Serbia. 
+          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming 
+          or anything else related to technology in general (like cool gadgets!).
+          His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
 - name: A.N.
   locality:
