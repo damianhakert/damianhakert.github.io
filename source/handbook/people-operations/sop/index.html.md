@@ -62,6 +62,8 @@ Manager (Reports To):
 
 ##### Process for Recommending a Team Member for a Bonus in BambooHR
 
+Manager (Reports To):
+
 1. Login to BambooHR.
 1. Select the team member you would like to adjust.
 1. In the top right hand corner, click Request a Change.
