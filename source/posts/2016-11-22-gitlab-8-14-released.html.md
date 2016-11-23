@@ -288,7 +288,7 @@ We are also releasing GitLab Runner 1.8 today. Most interesting changes:
 
 - Add initial Prometheus metrics server to runner manager [!358](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/358)
 - Add support for docker registries on non standard ports [!376](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/376)
-- Use correct constant for kubernetes ressource limits. [!367](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/367)
+- Use correct constant for kubernetes resource limits. [!367](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/367)
 - Add PullPolicy config option for kubernetes [!335](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/335)
 - Fix/unplug stalled endpoints [!390](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/390)
 - Fix {Bash,Cmd,Ps}Writer.IfCmd to escape its arguments [!364](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/364)
