@@ -267,9 +267,9 @@ GitLab will strive to support you in your marketing efforts. Marketing activitie
 # Event Funds Requests
 We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. Meetups, drink ups, hackathons, trade shows, and seminars are all examples of events that we may help you with. Leads gathered at an event that we help fund or promote are required to be shared with us. 
 
-We will endeavour to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. Please submit the request for event sponsorship no later than one month before the date of the event.
+We will endeavour to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. **Please submit the request for event sponsorship no later than one month before the date of the event.**
 
-If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.
+*If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
 
 Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
 
