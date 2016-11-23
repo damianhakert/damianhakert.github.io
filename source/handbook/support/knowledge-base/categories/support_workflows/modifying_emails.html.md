@@ -21,7 +21,8 @@ ______________
 
 ##### Workflow
 
-1. If it's a new account and there is a typo in the email address, follow [Fix email address](#fix-email-address).
+1. Make sure the account in question is a new account. This workflow does not apply to existing / in-use accounts.
+1. If there is a typo in the email address, follow [Fix email address](#fix-email-address).
 2. If the email address is correct, but the user is not receiving the confirmation email, follow [Check emails in mailgun](#check-emails-in-mailgun).
 
 ##### Fix email address
