@@ -8,7 +8,8 @@ You love talking about GitLab to people and no question or challenge is too big 
 ## Responsibilities
 
 * Strategize our senior demand generation manager to develop the proper qualifying questions for all types of customers. Be able to identify where a customer is in the sales and marketing funnel and take the appropriate action.
-* Develop and work with our senior demand generation manager to follow and improve the processes for passing leads to sales, support, etc.
+* Discretion to qualify and disqualify leads when appropriate.
+* Develop and work with our senior demand generation manager to follow and improve the [processes](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/) for passing leads to sales, support, etc.
 * Participate in documenting all processes in the handbook and update as needed with our demand generation manager.
 * Work closely with support to build a process where we can identify customers that would be interested in GitLab Enterprise Edition (EE) and pass those onto sales.
 * Manage and help qualify and/or route inbound requests and inquiries.
