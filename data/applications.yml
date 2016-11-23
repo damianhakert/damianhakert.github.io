@@ -190,6 +190,13 @@
       links:
         - url: https://github.com/Scooletz/NGitLab
           title: Repository on GitHub
+    - title: PowerShell
+      content: PSGitLab is a PowerShell module for interacting with the GitLab API.
+      links:
+        - url: http://www.powershellgallery.com/packages/PSGitLab/
+          title: Package on PSGallery
+        - url: https://github.com/ngetchell/PSGitLab
+          title: Repository on GitHub
 - title: Utilities
   id: utilities
   applications:

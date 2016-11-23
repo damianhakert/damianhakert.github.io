@@ -377,6 +377,7 @@
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
              <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="https://docs.gitlab.com/ee/workflow/time_tracking.html">Time Tracking <a href="/jobs/expert/">expert</a></li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
   story:  |
           Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
@@ -403,7 +404,7 @@
 - name: Grzegorz Bizon
   locality: Olsztyn
   country: Poland
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: CI Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
@@ -669,6 +670,7 @@
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
+              <li><a href="https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html">Chat Commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
           plays board games (he hates not winning) and watch TV shows. Two years ago, Douwe introduced him to Ruby and Zeger-Jan instantly fell in love with the elegant syntax and the expressiveness.
@@ -1076,6 +1078,7 @@
   specialty: Performance
   maintains: |
              <li>On-call hero!</li>
+             <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
           computers from the moment he once actually deleted System32 and tried
@@ -1398,6 +1401,8 @@
   picture: bryce-johnson.jpg
   twitter: _devbryce
   gitlab: brycepj
+  maintains: |
+             <li><a href="https://docs.gitlab.com/ee/workflow/time_tracking.html">Time Tracking <a href="/jobs/expert/">expert</a></li>
   story:  |
     Bryce's primary addictions are programming in JavaScript and adding to his .vimrc file. Before discovering code in 2011, he wrote content for websites and advertisements you most assuredly never read, and now puts his writing skills to good use obsessing about variable names. Outside of code, Bryce enjoys hanging out with his wife and their two cats, playing ping pong, hiking in the Blue Ridge mountains, and trying out new pizza restaurants.
 
@@ -1716,16 +1721,16 @@
   story:  |
           Molly lives in St. Paul, MN with her fianc&eacute;, two dogs, and an axolotl. She loves working with people and volunteers as the Director of Special Events for the Minneapolis chapter of Girl Develop It, a national non-profit focused on offering accessible programming education to women in a judgement-free environment. She also enjoys classic cars, bourbon, and cheese.
 
-- name: D.E.
-  locality:
-  country:
+- name: Darin Ellsworth
+  locality: Lewisville, ID
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
-  picture: logo-extra-whitespace.png
+  picture: Darin.JPG
   twitter:
-  gitlab:
+  gitlab: darin
   story:  |
-          Joining October 17th
+          Darin is passionate about software and sales and has been in the tech industry 3 years. He is a stereotypical Idaho potato farm kid and enjoys most any outdoors activities from fishing and hunting to snowmobiling and camping. Darin spends his free time golfing, watching most any sport and hanging out with his wife and daughter.
 
 - name: Lee Matos
   locality: New York City
@@ -1914,7 +1919,7 @@
 - name: Rebecca Dodd
   locality: London
   country: United Kingdom
-  role: Content Editor
+  role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
   reports_to: Content Lead
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
@@ -1940,16 +1945,19 @@
           not at her desk she's probably playing with puppies, face timing family, or planning her next
           trip!
 
-- name: J.I.V.L.
-  locality:
-  country:
+- name: Jose Ivan Vargas Lopez
+  locality: Ciudad Guzman
+  country: Mexico
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
+  picture: jose-ivan.jpg
   twitter:
-  gitlab:
+  gitlab: jivanvl
   story:  |
-          Joining November 7th
+          Jose Ivan is a software developer with a passion for all things technology and programming. With a
+          thirst to improve his own skills and knowledge, either coding or reading he won't stop looking for
+          ways to create software. In his free time he likes to play videogames, drive around on his car,
+          cooking barbeques and reading about new tech.
 
 - name: Victor Wu
   locality: Chicago, IL
@@ -1981,7 +1989,7 @@
   locality: Scottsdale, AZ
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
-  reports_to: Chief Revenue Officer
+  reports_to: CRO
   picture: komara.jpg
   twitter: ja_me_sk
   gitlab: ja-me-sk
@@ -1992,7 +2000,7 @@
   locality: Kochi, Kerala
   country: India
   role: <a href="https://about.gitlab.com/jobs/build-engineer/">Junior Build Engineer</a>
-  reports_to: Buid Lead
+  reports_to: Build Lead
   picture: balasankarc.jpg
   twitter: cbalasankar
   gitlab: balasankarc
@@ -2010,16 +2018,19 @@
   story:  |
           Joining November 21st
 
-- name: M.C.
-  locality:
-  country:
+- name: Matija Čupić
+  locality: Belgrade
+  country: Serbia
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
   reports_to: VP of Scaling
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: matija.png
+  twitter: cmattrex
+  gitlab: cmattrex
   story:  |
-          Joining November 21st
+          Matija is a software engineer from Belgrade, Serbia. 
+          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming 
+          or anything else related to technology in general (like cool gadgets!).
+          His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
 - name: A.N.
   locality:
@@ -2032,6 +2043,17 @@
   story:  |
           Joining November 28th
 
+- name: H.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
+          
 - name: C.D.
   locality:
   country:
@@ -2042,5 +2064,3 @@
   gitlab:
   story:  |
           Joining December 1st
-          
-

@@ -57,7 +57,7 @@ extra_font:
               %li.line-separator
               %li.item-description
                 = link_to "Learn more...", "#compare-options", class: "action-link"
-            = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
+            = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
       .col-md-3
         .featured-item
           .edition-name
@@ -87,7 +87,7 @@ extra_font:
               = succeed "35/mo" do
                 %span.currency $
             %h3.featured-item-headline-small
-              up to 30 users
+              Recommended for up to 30 users
             = icon "hosted", "featured-item-icon", {width: 76, height: 76, label: "GitLab Hosted"}
             %ul.featured-item-list.list-unstyled
               %li.item-description

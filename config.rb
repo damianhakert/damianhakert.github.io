@@ -28,6 +28,8 @@ activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
+  # Allow draft posts to appear on all branches except master (for Review Apps)
+  blog.publish_future_dated = true if ENV['CI_BUILD_REF_NAME'].to_s != 'master'
 
   blog.summary_separator = /<!--\s*more\s*-->/
 
@@ -125,10 +127,10 @@ configure :build do
   ## Release list page
   releases = ReleaseList.new
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
-
-  org_chart = OrgChart.new
-  proxy "/team/structure/org-chart/index.html", "/team/structure/org-chart/template.html", locals: { team_data: org_chart.team_data }, ignore: true
 end
+
+org_chart = OrgChart.new
+proxy "/team/structure/index.html", "/team/structure/template.html", locals: { team_data_tree: org_chart.team_data_tree }, ignore: true
 
 page '/404.html', directory_index: false
 

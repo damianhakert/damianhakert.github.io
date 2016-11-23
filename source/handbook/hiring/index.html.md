@@ -219,7 +219,7 @@ The vote is critical as it is telling the rest of the people what is your final 
 ## Interview Questions
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
 1. Thanks for taking the time to interview with us. I would like to take notes during this interview. This might cause me to look distracted since I'll be looking at another screen. What do you think?
 1. Do you have any questions about the job, our organization, our strategy, or me personally?

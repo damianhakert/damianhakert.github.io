@@ -19,6 +19,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Engineering](/handbook/engineering)
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
+  * [Backend](/handbook/backend)
+  * [Edge](/handbook/edge)
+  * [UX](/handbook/ux)
 * [Marketing](/handbook/marketing)
   * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
@@ -39,6 +42,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
+* [Miscellaneous](/handbook/miscellaneous)
 
 ----
 
@@ -283,6 +287,7 @@ step, **re-assign** the issue to that person.
     1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
     1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
+1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will re-assign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the merge request creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the merge request gets merged sooner. This is a suggestion, not an obligation.
@@ -456,6 +461,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
     *  [Yubikey](https://www.yubico.com/store/)
+    *  [USB hub](https://www.amazon.com/Kensington-UH4000-Port-USB-3-0/dp/B00O9RPP28/)
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
@@ -520,7 +526,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 - Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other participants.
 - You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
 - Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
-- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying [Accounts Payable](mailto:ap@gitlab.com) before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses
@@ -692,6 +698,10 @@ If you use the archive function you normally return to your overview.
 With auto-advance you can return to the next message.
 Enable 'Auto-advance' in the labs section under settings.
 The default setting of showing the next older message is OK.
+
+#### Email signature
+
+Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
 
 ### Hangouts
 
@@ -883,11 +893,11 @@ linking your account to Git.
 
 ### 4. Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
    (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
+1. Execute: `rvm use 2.3.1 --default` to set your default Ruby to `2.3.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+   `ruby 2.3.1p112 (2016-04-26 revision 54768)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### 5. Clone the source of the website and install its dependencies

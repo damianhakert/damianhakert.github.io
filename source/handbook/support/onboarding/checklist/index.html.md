@@ -9,7 +9,7 @@ title: Service Engineer Bootcamp Checklist
 Your hiring manager should create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/) for you as part of your onboarding.
 This list looks strange in this handbook because it is formatted to be copy-pasted into an issue and then render properly there.
 
-The topics are generally ordered by priority in which they need to be tackled,
+The topics are  generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
 ```
@@ -147,6 +147,7 @@ Zendesk is our Support Centre and our main communication line with our customers
   1. [ ] call with ___
   1. [ ] call with ___
 1. [ ] Dive into our ZenDesk support process by reading how to [handle tickets](https://about.gitlab.com/handbook/support/onboarding/#handling-tickets)
+1. [ ] Learn about the [tiered support system](https://about.gitlab.com/handbook/support/#tiered-support)
 1. [ ] Start getting real world experience by handling real tickets, all the while gaining further experience with the Product.
    1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/channels), and be aware which ones are handled by the [Community Advocacy team](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy)
     1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#stack-overflow) and the [GitLab forum](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#forum). Work with the Community Advocacy team (see their chat channel) to make sure you are not duplicating efforts.
