@@ -1721,16 +1721,16 @@
   story:  |
           Molly lives in St. Paul, MN with her fianc&eacute;, two dogs, and an axolotl. She loves working with people and volunteers as the Director of Special Events for the Minneapolis chapter of Girl Develop It, a national non-profit focused on offering accessible programming education to women in a judgement-free environment. She also enjoys classic cars, bourbon, and cheese.
 
-- name: D.E.
-  locality:
-  country:
+- name: Darin Ellsworth
+  locality: Lewisville, ID
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
   reports_to: Business Development Team Lead - Outbound Team
-  picture: logo-extra-whitespace.png
+  picture: Darin.JPG
   twitter:
-  gitlab:
+  gitlab: darin
   story:  |
-          Joining October 17th
+          Darin is passionate about software and sales and has been in the tech industry 3 years. He is a stereotypical Idaho potato farm kid and enjoys most any outdoors activities from fishing and hunting to snowmobiling and camping. Darin spends his free time golfing, watching most any sport and hanging out with his wife and daughter.
 
 - name: Lee Matos
   locality: New York City
