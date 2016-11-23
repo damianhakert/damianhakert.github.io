@@ -40,3 +40,7 @@ For a full size trebuchet Ill make an exception, other than that, please do not 
 > Can I add a poem to the package?
 
 So, if you're referring to the good old Sinterklaasgedichten, yes! You can and should! Just keep in mind not everyone is familiar with tone usually used in them.
+
+> Cool idea, but I rather not be a participant this year.
+
+That is ok! No hard feelings, and maybe next year!
