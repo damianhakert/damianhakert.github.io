@@ -2043,6 +2043,17 @@
   story:  |
           Joining November 28th
 
+- name: H.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
+          
 - name: C.D.
   locality:
   country:
