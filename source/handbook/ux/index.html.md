@@ -34,8 +34,9 @@ Issues should be tagged with 'UX Research' if there may be an opportunity for re
 6. Conduct the research.
 7. Document the findings and recommendations in a Google Doc. 
 8. Add the link to the findings and recommendations document in the meta issue.
-9. Ensure you update any issues which the research relates to, so the UX Designer is aware that the research has been completed. Remove the ‘UX Research’ label from both the meta issue and the issues your research addresses.
-10. For any new pain points which are uncovered during the research phase, create a new issue per pain point which describes the problem and link it to the meta issue.
-11. Tag any new issues with the ‘UX’ label. 
+9. Ensure you update any issues which the research relates to, so the UX Designer is aware that the research has been completed. 
+10 Remove the ‘UX Research’ label from the issues your research addresses. For the meta issue, if further UX research work is required, then the ‘UX Research’ label should remain. If no further research is needed, the meta issue can be closed.
+11. For any new pain points which are uncovered during the research phase, create a new issue per pain point which describes the problem and link it to the meta issue.
+12. Tag any new issues with the ‘UX’ label. 
 
 *Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).*
