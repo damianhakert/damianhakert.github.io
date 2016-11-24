@@ -6,21 +6,22 @@
     = partial "includes/google/gtm"
     = partial "includes/layout/header"
 
-    - image_title = current_article.data.image_title ? current_article.data.image_title : '/images/default-blog-image.png'
-
     .blog.article
-      .cover{ style: "background-image: url(#{image_title});" }
-        .overlay
-          .wrapper.header
-            %h1
-              = current_article.title
-            .author
-              - if current_article.data.author_twitter
-                = link_to(current_article.data.author, "https://twitter.com/#{current_article.data.author_twitter}")
-              - else
-                = current_article.data.author
-            .date
-              = current_article.date.to_time.strftime '%b %e, %Y'
+      - if is_blog_article?
+        - image_title = current_article.data.image_title ? current_article.data.image_title : '/images/default-blog-image.png'
+
+        .cover{ style: "background-image: url(#{image_title});" }
+          .overlay
+            .wrapper.header
+              %h1
+                = current_article.title
+              .author
+                - if current_article.data.author_twitter
+                  = link_to(current_article.data.author, "https://twitter.com/#{current_article.data.author_twitter}")
+                - else
+                  = current_article.data.author
+              .date
+                = current_article.date.to_time.strftime '%b %e, %Y'
 
       .wrapper.body
         .content
