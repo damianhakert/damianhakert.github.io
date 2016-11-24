@@ -57,7 +57,7 @@ What you need to do is very simple: enable GitLab Repository Mirroring!
 
 - 1. Mirror your fork
 
-Under your forked project's **Settings**, navigate to **Mirror Repository**, 
+Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
 ![img]()
 
@@ -67,7 +67,7 @@ Under your forked project's **Settings**, navigate to **Mirror Repository**,
 
 - 3. Setup the mirror user: it's the user the new commits to the upstream project will be attributed to.
 
-Done! Once an hour, GitLab will pull the upstream for you and keep your fork up-to-date!
+Done! Once an hour, GitLab will pull the upstream for you, and keep your fork up-to-date!
 
 By doing so, you only need to take care of your branching strategy before starting to work. All the rest GitLab does for you:
 
@@ -87,16 +87,16 @@ By doing so, you only need to take care of your branching strategy before starti
 
 Simple, isn't it? 
 
-Repository mirroring is available for free at GitLab.com and for all GitLab Enterprise Edition users.
+Repository mirroring is available for free at **GitLab.com** and for all **GitLab Enterprise Edition** users.
 {: .alert .alert-success}
 
 ## A Solution for GitLab CE Users
 
 We know, you're a GitLab Community Edition user and got disappointed with my last sentence. Well, subscribing to GitLab EE can give you this option and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
 
-But okay, let's give you a solution for CE, that I learned from [Kay Strobach](https://gitlab.com/kaystrobach), who he kindly posted to [this issue in GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
+But okay, let's give you a solution for CE, that I learned from [Kay Strobach](https://gitlab.com/kaystrobach), who kindly posted to [this issue in GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
 
-He uses [GitLab CI] to distribute his commits over their forks:
+He uses [GitLab CI](/gitlab-ci/) to distribute his commits over his forks:
 
 ```yaml
 publishToExternalgit:
@@ -118,7 +118,19 @@ publishToExternalgit:
 
 And he explains:
 
-> _The local and the remote project need to be either in different groups or projects, to ensure, that the job is not triggered on both sides of the sync
+> _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_
+
+## What's Your Solution?
+
+We would love to know how you do that! Have a different solution? You can certainly help others! Let's share them all in [this issue], so everyone from the community can decide which solution suits themselves best! Thank you!
+
+## Conclusion
+
+We hope to have provided you with an easy solution for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
+
+Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the issue, or tweet at us [@GitLab]! We ❤️ our community!
+
+Cheers!
 
 
 
