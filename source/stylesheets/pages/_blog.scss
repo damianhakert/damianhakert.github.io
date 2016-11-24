@@ -261,11 +261,19 @@
     h1 {
       font-size: 52px;
       font-weight: 600;
+      clear: both;
+      margin-top: 20px;
     }
 
     .author,
     .date {
-      font-size: 20px;
+      font-size: 18px;
+      display: inline-block;
+    }
+
+    .description {
+      margin: 35px 0 0;
+      font-size: 24px;
     }
 
     .alert {
