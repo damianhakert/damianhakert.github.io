@@ -168,3 +168,38 @@ The content block will look like this once placed in the newsletter:
 After the content for the newsletter is finalized in the issue, it can be added to the email in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
 
 Once the newsletter content is updated, send a test email to the appropriate people and get feedback on email copy, links, layout, etc. Implement the necessary changes and send new test emails until the email is ready. Once the email has been reviewed and is ready to be sent, schedule the email within Marketo.
+
+### Customer Case Study Creation
+
+
+## Objectives
+- Illustrate successful and measurable improvements in the customer’s business   
+- Show other users how customers are using GitLab 
+- Align content so that GitLab solutions reflect the challenges our customers, prospects and the market requirements
+- Develop and grow organisational relationships: speak at events on our behalf, promote their business
+- Support our value proposition - Faster from idea to production
+
+## Case Study Format 
+*Headline:* The name of the customer and the benefit they gained from implementing our solution
+*Sidebar Summary:* Summarize key points 
+- Customer Name and Logo
+- Customer Details: Country, Website
+- Organisation Type - Public/Private & Industry
+- Annual Revenue - If publicly available
+- Employees
+- Summary of Key Benefits
+*The Customer:* A brief introduction of the customer, not the solution.
+*The Challenge:* What was the customer trying to change or improve. What regulations or market conditions drove the customer to search for a new solution. Share the steps the customer took to solve the problem, including other products and services they investigated. 
+*The Solution:* Detail the solution and how it aligns to the customers requirements. Also detail other solutions that GitLab interfaces with. Also include customer quote.
+*The Results:* Detail how GitLab supported the customer to solve their problems. This is where the use of benchmarking metrics such as such as time saved, reduced costs, increased performance etc. are required. 
+*About GitLab:* Short paragraph on GitlLab - about, solutions etc. Call to action of solutions offered.
+
+*Possible Additional Supporting Documents:* 
+- Customer Deal Summary – High Level PowerPoint summary after deal first signed.
+- Customer Success Overview
+- Infographic – Single page A4 summary with diagrams and measureable benchmarks 
+- Benchmark Metrics
+- Publish on website
+- Video - Short video summary if customer is willing to participate - Perforce example
+- Blog Post - Blog post to launch customer case study
+- Keywords for SEO etc.
