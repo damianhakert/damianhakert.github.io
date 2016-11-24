@@ -184,6 +184,9 @@ as requested. Find the button under your project's **Repository ➔ Branches**.
 
 ![Quickly delete all merged branches in GitLab 8.14](/images/8_14/delete_mr.png){: .shadow}
 
+Deleting all merged branches will not delete any of your
+protected branches.
+
 Thanks Toon Claes!
 
 ## Subscribe to Group Labels
