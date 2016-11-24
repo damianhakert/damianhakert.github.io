@@ -7,23 +7,23 @@ image_title:
 description: 
 ---
 
-You have forked a project and you want to keep it automatically up-to-date with its remote origin. Have you ever come across this issue? 
+Have you ever wondered how to keep a fork automatically up-to-date with its remote origin?
 
-In this post, we're going to show you how you can do that with GitLab!
+In this post we'll show you how to do that on GitLab!
 
 <!-- more -->
 
 ## Fork
 
-As you most likely know, a fork is a copy of a Git repository somehow connected with the project you forked from (remote origin). When you collaborate on code, it's pretty common forking a project, cloning to your local machine, making the changes you're up to, pushing to your fork and submitting a merge request (MR) to merge your code into the original project.
+As you most likely know, a **fork** is a copy of a Git repository connected with the project you forked from (upstream). When you collaborate on code, it's pretty common forking a project, cloning to your local machine, making the changes you're up to, pushing to your fork, and submitting a merge request (MR) to merge your code into the original project.
 
-You fork a project whenever you don't have access to it, because it's not your own or your team's. This is how open source projects hosted in GitLab get so much collaboration from the community.
+You fork a repository whenever you want to contribute to a project which you don't have access to, as it's not your own or your team's. This is how open source projects hosted in GitLab get so much collaboration from the community.
 
-When you are a member of a project (or a group), it's easier using the [GitLab Flow](/2014/09/29/gitlab-flow/), or _branching strategy_, once anyone in your team can pull and preview your branch locally. However, with our brand-new solution for this, called [Review Apps](/features/review-apps), you can preview your apps in a per-branch basis, for each MR submitted to GitLab.
+When you are a member of a project (or a group), it's easier using the [GitLab Flow](/2014/09/29/gitlab-flow/), or _branching strategy_, once anyone in your team can pull your branch and preview your changes locally. However, with our brand-new solution for this, called [Review Apps](/features/review-apps), you can preview your apps in a per-branch basis, for each MR submitted to GitLab.
 
 ## The Problem
 
-When you fork a project and clone it to your local computer, you need to update it with the master branch of the upstream project to be able to checkout a new branch up-to-date. If you do not do that, perhaps your changes can break the app once you merge it to the upstream, once the copy of the code you're working on is out-of-date.
+When you fork a project and clone it to your local computer, you need to update it with the master branch of the upstream project to be able to checkout a new branch up-to-date. If you do not do that, perhaps your changes can break the app once you merge it to the upstream, since the copy of the code you're working on is out-of-date.
 
 To prevent this, you need first update your local repo, then start your work. This takes time and if you forget to do it, can cause a lot of pain. What I'd normally do is the following:
 
@@ -47,25 +47,25 @@ To prevent this, you need first update your local repo, then start your work. Th
 **Note:** You can rebase it too, but particularly, I prefer pulling, as rebasing can get messy.
 {: .note}
 
-As you can see, this takes some time and turns out to be annoying if you need to do this multiple times a day. That's why we need a better solution.
+As you can see, this sequence takes some time to complete, and turns out to be annoying if you need to do this multiple times a day. That's why we need a better solution.
 
 ## The Solution
 
 GitLab can do that for you with no pain! Yay!
 
-What you need to do is very simple: enable GitLab Repository Mirroring!
+What you need to do is very simple: enable [GitLab Repository Mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html)!
 
 - 1. Mirror your fork
 
 Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
-![img]()
+![setting - mirror repository]()
 
 - 2. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
 
-![img]()
+![fork - enable automatic repository update]()
 
-- 3. Setup the mirror user: it's the user the new commits to the upstream project will be attributed to.
+- 3. Setup the **mirror user**: it's the user whose the new commits to the upstream project will be attributed to.
 
 Done! Once an hour, GitLab will pull the upstream for you, and keep your fork up-to-date!
 
