@@ -69,7 +69,7 @@ Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
 Done! Once an hour, GitLab will pull the upstream for you, and keep your fork up-to-date!
 
-By doing so, you only need to take care of your branching strategy before starting to work. All the rest GitLab does for you:
+By doing so, you only need to take care of your branching strategy before starting to work. All the rest GitLab does for you!
 
 - Open the project in the terminal and checkout `master`
     cd <directory>
@@ -92,15 +92,14 @@ Repository mirroring is available for free at **GitLab.com** and for all **GitLa
 
 ## A Solution for GitLab CE Users
 
-We know, you're a GitLab Community Edition user and got disappointed with my last sentence. Well, subscribing to GitLab EE can give you this option and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
+We know, you're a **GitLab Community Edition** (CE) user and felt disappointed with my last sentence. Well, by subscribing to GitLab EE, you'll have this feature and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
 
-But okay, let's give you a solution for CE, that I learned from [Kay Strobach](https://gitlab.com/kaystrobach), who kindly posted to [this issue in GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
+But okay, let's give you a solution for CE, which I learned from [Kay Strobach](https://gitlab.com/kaystrobach), who kindly posted to [this post's issue in GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
 
 He uses [GitLab CI](/gitlab-ci/) to distribute his commits over his forks:
 
 ```yaml
 publishToExternalgit:
-  image: docker.kay-strobach.de/docker/php:latest
   stage: distribute
   environment: testing
   script:
@@ -112,26 +111,20 @@ publishToExternalgit:
     - git remote rm extern
   only:
     - master@group/project
-  tags:
-    - docker
 ```
 
 And he explains:
 
 > _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_
 
+The `git remote add` command adds the external remote reference (upstream), and the `only` section ensures that this is not issued from forks if you push it to another GitLab instance.
+
 ## What's Your Solution?
 
-We would love to know how you do that! Have a different solution? You can certainly help others! Let's share them all in [this issue], so everyone from the community can decide which solution suits themselves best! Thank you!
+We would love to know how you do that! Have a different solution? You can certainly help others. Let's share them all in [this post's issue](https://gitlab.com/gitlab-com/blog-posts/issues/299), so everyone from the community can decide which solution suits themselves best! Thank you!
 
 ## Conclusion
 
-We hope to have provided you with an easy solution for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
+We hope to have provided you with easy solutions for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
 
-Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the issue, or tweet at us [@GitLab]! We ❤️ our community!
-
-Cheers!
-
-
-
-
+Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the issue, or tweet at us [@GitLab](https://twitter.com/gitlab)! We ❤️ our community!
