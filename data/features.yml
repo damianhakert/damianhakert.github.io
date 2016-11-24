@@ -131,13 +131,13 @@
 - title: Deeper integration with your tool stack
   features:
   - description: Mention JIRA ticket from GitLab
-    link: https://docs.gitlab.com/ce/integration/external-issue-tracker.html
+    link: https://docs.gitlab.com/ce/ce/project_services/jira.html
     in_ce: true
   - description: Reference JIRA issues with GitLab commits, merge requests and issues
-    link: https://docs.gitlab.com/ee/integration/jira.html
+    link: https://docs.gitlab.com/ce/project_services/jira.html
     in_ce: true
   - description: Close JIRA issues with GitLab commits
-    link: https://docs.gitlab.com/ee/integration/jira.html
+    link: https://docs.gitlab.com/ce/project_services/jira.html
     in_ce: true
   - description: Display merge request status for builds on Jenkins CI
     link: https://docs.gitlab.com/ee/integration/jenkins.html
