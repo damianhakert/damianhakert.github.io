@@ -30,7 +30,7 @@ Possible content:
 - Feature on new partner if signed
 - Feature on existing partner if major update released
 - Feature on existing partner highlighting benefits of partner product
-- Educational how-to or quick explanation video
+- 1-minute video showcasing the integration as a reference
 - Blog post from partner
 - Feature on how existing customer uses GitLab and partner
 
