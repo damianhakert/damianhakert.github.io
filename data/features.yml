@@ -12,6 +12,8 @@
   - description: Cycle Analytics
     link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
     in_ce: true
+  - description: Time Tracking
+    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
 
 - title: Extended authentication and authorization integration
   features:
