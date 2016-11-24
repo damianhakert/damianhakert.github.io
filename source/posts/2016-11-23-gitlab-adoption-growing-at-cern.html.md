@@ -9,7 +9,7 @@ description: CERN, the European Organization for Nuclear Research, is increasing
 
 CERN, the European Organization for Nuclear Research, is the world's largest particle physics lab. They are well known for creating [the world’s first website](http://home.cern/topics/birth-web), hosted on Tim Berners-Lee’s computer. 
 
-[GitLab](http://about.gitlab.com] is one of the platforms CERN uses to host software projects and code for configuration management. CERN has about 2500 active developers using GitLab. While most GitLab users at CERN are located in France and Switzerland around Geneva, they also have a community of scientists working from their home institutes in their various member states.
+[GitLab](http://about.gitlab.com) is one of the platforms CERN uses to host software projects and code for configuration management. CERN has about 2500 active developers using GitLab. While most GitLab users at CERN are located in France and Switzerland around Geneva, they also have a community of scientists working from their home institutes in their various member states.
 
 <!-- more -->
 
