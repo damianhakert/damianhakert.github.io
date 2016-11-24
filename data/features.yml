@@ -108,6 +108,9 @@
   - description: Integrate with Koding
     link: https://docs.gitlab.com/ce/user/project/koding.html
     in_ce: true
+  - description: ChatOps
+    link: https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html
+    in_ce: true
 
 - title: Additional server management options
   features:
@@ -178,3 +181,6 @@
   - description: Environments and deployments in CI
     in_ce: true
     link: https://docs.gitlab.com/ce/ci/environments.html
+  - description: Review Apps
+    in_ce: true
+    link: https://docs.gitlab.com/ce/ci/review_apps/index.html
