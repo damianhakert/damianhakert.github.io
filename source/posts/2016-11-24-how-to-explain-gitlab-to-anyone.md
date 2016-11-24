@@ -4,11 +4,7 @@ How do you explain what GitLab is and how it works to a non-technical person?
 
 This is a challenge I’m facing right now, as I try to describe the company I just joined to my family and friends. Initial conversations were not very successful:  
 
-
-
-
-
-Me: “It’s an open source workflow solution...”  
+<br> Me: “It’s an open source workflow solution...”  
 
 Them: “What’s a workflow?”  
 
@@ -17,10 +13,7 @@ Me:
 Them:  
 
 Me:   
-
-
-
-
+<br>
 
 I’ve been getting closer (“We help people who write code to collaborate on projects”), but it’s still hard to drive the idea home in a way that really speaks to people – especially if they have only a vague idea of what coding is. 
 
@@ -67,10 +60,7 @@ In GitLab, we start with an Idea (the main article that everyone will work on), 
 
 
 
-## Then, we code! 
-
-
-This is like that first draft of my contribution to the story. When the code is ready, we Commit it, like a final draft. The sub-editor checking the work before updating the article is part of what we call Continuous Integration – a system by which the project is updated throughout the day, and those updates are automatically, continually checked for any problems. When I ask the editor to approve my contribution, we do this in the form of a Merge Request, and when that’s been approved, we can preview the changes in Staging, just like the newspaper team did with the mock-up of the page. If everything looks good, it goes into Production, the equivalent of going off to the printers. 
+Then, we code! This is like that first draft of my contribution to the story. When the code is ready, we Commit it, like a final draft. The sub-editor checking the work before updating the article is part of what we call Continuous Integration – a system by which the project is updated throughout the day, and those updates are automatically, continually checked for any problems. When I ask the editor to approve my contribution, we do this in the form of a Merge Request, and when that’s been approved, we can preview the changes in Staging, just like the newspaper team did with the mock-up of the page. If everything looks good, it goes into Production, the equivalent of going off to the printers. 
 
 
 
