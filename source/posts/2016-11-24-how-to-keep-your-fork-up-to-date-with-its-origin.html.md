@@ -88,24 +88,26 @@ By doing so, you only need to take care of your branching strategy before starti
 Simple, isn't it? 
 
 Repository mirroring is available for free at **GitLab.com** and for all **GitLab Enterprise Edition** users.
-{: .alert .alert-success}
+{: .alert .alert-success .text-center}
 
 ## A Solution for GitLab CE Users
 
 We know, you're a **GitLab Community Edition** (CE) user and felt disappointed with my last sentence. Well, by subscribing to GitLab EE, you'll have this feature and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
 
-But okay, let's give you a solution for CE, which I learned from [Kay Strobach](https://gitlab.com/kaystrobach), who kindly posted to [this post's issue in GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
+But okay, let's give you a similar solution for CE, which I learned from [Kay Strobach](https://twitter.com/kaystrobach), who kindly posted to [this post's issue on GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
 
-He uses [GitLab CI](/gitlab-ci/) to distribute his commits over his forks:
+He uses a [job](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in his [GitLab CI](/gitlab-ci/) configuration file (`.gitlab-ci.yml`) in his upstream project to push to his fork every commit in his upstream master's branch:
 
 ```yaml
+stages:
+  - distribute
+
 publishToExternalgit:
+  image: docker.kay-strobach.de/docker/php:latest
   stage: distribute
   environment: testing
   script:
     - git status
-    - git checkout master
-    - git pull
     - git remote add --mirror=fetch extern git@hostname:group/project.git || true
     - git push extern master
     - git remote rm extern
@@ -113,11 +115,30 @@ publishToExternalgit:
     - master@group/project
 ```
 
+
 And he explains:
 
-> _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_
+> _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_.
 
 The `git remote add` command adds the external remote reference (upstream), and the `only` section ensures that this is not issued from forks if you push it to another GitLab instance.
+
+For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my forked project's `.gitlab-ci.yml`:
+
+```yaml
+stages:
+  - distribute
+publishToExternalgit:
+  image: docker.kay-strobach.de/docker/php:latest
+  stage: distribute
+  environment: testing
+  script:
+    - git status
+    - git remote add --mirror=fetch extern https://marcia:$SECRET_TOKEN@gitlab.com/marcia/upstream.git
+    - git push extern master
+    - git remote rm extern
+  only:
+    - master
+```
 
 ## What's Your Solution?
 
