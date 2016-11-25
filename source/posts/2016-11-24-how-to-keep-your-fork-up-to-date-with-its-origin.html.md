@@ -4,7 +4,7 @@ author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab Workflow
 image_title: 
-description: 
+description: "GitLab Repository Mirroring: the best way to keep your fork up-to-date!"
 ---
 
 Have you ever wondered how to keep a fork automatically up-to-date with its remote origin?
@@ -59,11 +59,11 @@ What you need to do is very simple: enable [GitLab Repository Mirroring](https:/
 
 Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
-![settings - mirror repository]()
+![settings - mirror repository](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png)
 
 - 2. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
 
-![fork - enable automatic repository update]()
+![fork - enable automatic repository update](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/setup-automatic-mirror.png)
 
 - 3. Setup the **mirror user**: it's the user whose the new commits to the upstream project will be attributed to.
 
@@ -92,9 +92,9 @@ Repository mirroring is available for free at **GitLab.com** and for all **GitLa
 
 ## A Solution for GitLab CE Users
 
-We know, you're a **GitLab Community Edition** (CE) user and felt disappointed with my last sentence. Well, by subscribing to GitLab EE, you'll have this feature and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
+We know, if you're a **GitLab Community Edition** (CE) user, you might have felt disappointed with my last sentence. Well, by subscribing to GitLab EE, you'll have this feature and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
 
-But okay, let's give you a similar solution for CE, which I learned from [Kay Strobach](https://twitter.com/kaystrobach), who kindly posted to [this post's issue on GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
+But okay, let's give you a different solution with similar results for CE, inspired by [Kay Strobach](https://twitter.com/kaystrobach), who kindly posted to [this post's issue on GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
 
 He uses a [job](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in his [GitLab CI](/gitlab-ci/) configuration file (`.gitlab-ci.yml`) in his upstream project to push to his fork every commit in his upstream's master branch:
 
@@ -140,7 +140,7 @@ publishToExternalgit:
     - master
 ```
 
-## What's Your Solution?
+## What is Your Solution?
 
 We would love to know how you do that! Have a different solution? You can certainly help others. Let's share them all in [this post's issue](https://gitlab.com/gitlab-com/blog-posts/issues/299), so everyone from the community can decide which solution suits themselves best! Thank you!
 
