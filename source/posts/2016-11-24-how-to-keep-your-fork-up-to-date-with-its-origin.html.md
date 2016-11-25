@@ -151,13 +151,17 @@ To create a token for you account, navigate to your profile's **Settings** -> To
 
 This is the token that should be added as a project variable in the upstream project.
 
-### Security Note
-
+<div class="panel panel-gitlab-orange">
+**Security Note**
+{: .panel-heading #security-note}
+<div class="panel-body">
 Note that this method of pushing code from one GitLab project to another is not the safest solution, once you may expose your account token in the build logs.
 
 If you use this method, you'd better prevent the builds to be displayed publicly by disabling public pipelines:
 
 ![disable public view of pipelines and builds](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/xxxxxxx)
+</div>
+</div>
 
 ## What is Your Solution?
 
