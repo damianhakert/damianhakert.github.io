@@ -21,8 +21,8 @@ Welcome to the Partner Marketing Handbook
 - [Strategic Partner listing](https://docs.google.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit) (internal)
 
 ## Partner Marketing Initiatives
-* [Partner Newsletter Feature](#partnermarketing)
-* [Partner Marketing Activation](#partnermarketing)
+* [Partner Newsletter Feature](#partnernewsletterfeature)
+* [Partner Marketing Activation](#partnermarketingactivation)
 
 ## Partner Newsletter Feature
 In line with the objective of: Promote existing partnerships to be at top-of-mind for developers, a regular feature in our fortnightly (8th & 22nd) newsletter will promote our partners to our target audience.
@@ -47,7 +47,7 @@ Within first 2 weeks of agreement:
 - Blog post announcing partnership. To be published on website, promoted on both companies social media platforms, and included in company newsletter, & partner newsletter
 - Add partner to our website partner page. Request that GitLab is added to partner's website
 
-Suggedted ongoing marketing activities
+Suggested ongoing marketing activities
 - Webinar with partner
 - Webinar with partner and customer
 - Customer case study
