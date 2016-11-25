@@ -810,6 +810,25 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 - When we refer to specific configuration sections or pages in GitLab they should be in **bold**.
 - Refer to this website as **about.GitLab.com**, with capital "G" and "L", as always. **GitLab.com** is not the website, is the SaaS.
 
+---
+
+## Quick Guide for Release Posts
+
+To keep our blog posts consistent with one another, let's follow these simple guidelines to all of them. Please read the [Blog Style Guidelines](#styles-guidelines) and the [Markdown Guide] to avoid inconsistencies. What you can't miss:
+
+- Always add the label `release` to the MR
+- Add the [frontmatter](#frontmatter) information:
+  - `description`: a short description of the blog post
+  - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.  
+  - [`categories`](#categories): use either `release` or  `security release` for these posts.
+
+- There are some important things to note when adding:
+  - [Videos](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos) => they must be wrapped by a `<figure>` tag with the class `video_container`, otherwise they will not look well on mobile phones. The `<figure>` tag is [very important for SEO](https://www.searchenginejournal.com/html5-an-essential-weapon-for-seos/62512/).
+  - [Images](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#images) => always add an `ALT` text, try to make the image filename meaningful => they will show up on Google searches more often and more accurately => again, important for SEO.
+  - Use [colorful sections](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#colorful-sections) to highlight the main points (use it wisely :)
+  - [Add `{:.shadow}` to images](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#shadow), specially GitLab UI screenshots
+  - Add the [class `{:.note}` for notes](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#note), instead of making them look like blockquotes, which are technically meant for quoting someone else's sayings.
+
 <!-- Identifiers, in alphabetical order -->
 
 <!-- INTRO -->
