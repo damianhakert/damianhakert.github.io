@@ -96,7 +96,7 @@ We know, you're a **GitLab Community Edition** (CE) user and felt disappointed w
 
 But okay, let's give you a similar solution for CE, which I learned from [Kay Strobach](https://twitter.com/kaystrobach), who kindly posted to [this post's issue on GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
 
-He uses a [job](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in his [GitLab CI](/gitlab-ci/) configuration file (`.gitlab-ci.yml`) in his upstream project to push to his fork every commit in his upstream master's branch:
+He uses a [job](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in his [GitLab CI](/gitlab-ci/) configuration file (`.gitlab-ci.yml`) in his upstream project to push to his fork every commit in his upstream's master branch:
 
 ```yaml
 stages:
@@ -122,7 +122,7 @@ And he explains:
 
 The `git remote add` command adds the external remote reference (upstream), and the `only` section ensures that this is not issued from forks if you push it to another GitLab instance.
 
-For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my forked project's `.gitlab-ci.yml`:
+For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my upstream's `.gitlab-ci.yml`:
 
 ```yaml
 stages:
