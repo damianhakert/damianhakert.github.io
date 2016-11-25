@@ -18,7 +18,7 @@ Welcome to the Partner Marketing Handbook
 - Surface the ease of GitLab integration to encourage more companies to integrate with GitLab.
 - Build closer relationships with existing partners through consistent communication
 
-- [Strategic Partner listing](https://docs.google.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit) (internal)
+[Strategic Partner listing](https://docs.google.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit) (internal)
 
 ## Partner Marketing Initiatives
 * [Partner Marketing Activation](#partnermarketingactivation)
