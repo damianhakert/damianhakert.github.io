@@ -59,7 +59,7 @@ What you need to do is very simple: enable [GitLab Repository Mirroring](https:/
 
 Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
-![setting - mirror repository]()
+![settings - mirror repository]()
 
 - 2. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
 
