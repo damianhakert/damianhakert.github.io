@@ -25,12 +25,12 @@ Welcome to the Partner Marketing Handbook
 * [Partner Newsletter Feature](#partnernewsletterfeature)
 
 ## Partner Marketing Activation
-Within first 2 weeks of partnership agreement: 
+Within first 2 weeks of partnership agreement, generate initial buzz by:
 - Blog post announcing partnership. To be published on website, promoted on both companies social media platforms, and included in company newsletter, & partner newsletter
 - Add partner to our website partner page. Request that GitLab is added to partner's website
 
-Suggested ongoing marketing activities
-- Webinar with partner
+Tier out marketing efforts to ensure that there is consistent communication to the market and target audience to keep partnership front-of-mind. Suggested ongoing marketing activities:
+- Webinar with partner - Host, and share leads.
 - Webinar with partner and customer
 - Customer case study
 - How to video/demo 
