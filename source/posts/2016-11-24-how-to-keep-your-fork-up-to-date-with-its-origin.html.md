@@ -59,11 +59,11 @@ What you need to do is very simple: enable [GitLab Repository Mirroring](https:/
 
 Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
-![settings - mirror repository](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png)
+![settings - mirror repository](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png){:.shadow}
 
 - 2. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
 
-![fork - enable automatic repository update](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/setup-automatic-mirror.png)
+![fork - enable automatic repository update](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/setup-automatic-mirror.png){:.shadow}
 
 - 3. Setup the **mirror user**: it's the user whose the new commits to the upstream project will be attributed to.
 
@@ -79,7 +79,7 @@ By doing so, you only need to take care of your branching strategy before starti
 - Checkout a new branch
     git checkout -b my-new-branch
 - Make changes
-- Add, commit and push to my fork
+- Add, commit and push to the fork
     git add
     git commit -m "commit message"
     git push origin my-new-branch
@@ -115,14 +115,17 @@ publishToExternalgit:
     - master@group/project
 ```
 
-
 And he explains:
 
 > _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_.
 
 The `git remote add` command adds the external remote reference (upstream), and the `only` section ensures that this is not issued from forks if you push it to another GitLab instance.
 
-For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my upstream's `.gitlab-ci.yml`:
+### Authentication
+
+If your fork and upstream project are in GitLab, you'll need to create a personal token to be able to push to a project, as GitLab will deny push attempts whenever you try to push code without logging in first (or username + password, or via SSH).
+
+For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my **upstream**'s `.gitlab-ci.yml`:
 
 ```yaml
 stages:
@@ -139,6 +142,22 @@ publishToExternalgit:
   only:
     - master
 ```
+
+The variable `$SECRET_TOKEN` should be defined by navigating to your project's **Settings** > **Variables**. The variable name is defined at your will, and the key value should be an access token from the personal GitLab account of your fork (which is the project we want to push code to, whenever the upstream project master's branch is updated).
+
+To create a token for you account, navigate to your profile's **Settings** -> Token -> New token. <!-- VERIFY THIS-->
+
+![settings - account token](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png){:.shadow}
+
+This is the token that should be added as a project variable in the upstream project.
+
+### Security Note
+
+Note that this method of pushing code from one GitLab project to another is not the safest solution, once you may expose your account token in the build logs.
+
+If you use this method, you'd better prevent the builds to be displayed publicly by disabling public pipelines:
+
+![disable public view of pipelines and builds](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/xxxxxxx)
 
 ## What is Your Solution?
 
