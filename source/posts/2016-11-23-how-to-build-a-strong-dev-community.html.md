@@ -1,5 +1,5 @@
 ---
-title: "How to Build a Strong Developer Community"
+title: "How to build a strong developer community"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: user stories
