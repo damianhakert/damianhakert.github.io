@@ -72,7 +72,6 @@ If the customer has a support query, log a zendesk ticket on their behalf
 3. Create a 'task' in salesforce to follow up on 60 days
 
 ### Unsuccessful Customer Engagement
-
 * You've sent your customer introduction and they do not reply. Send a 'Keep in Touch' request in Salesforce.
 * Create or use templates in salesforce (access via: my settings > email > email templates > customer success folder) to educate customers about Geo, File Lock and latest releases or [blog posts](https://about.gitlab.com/blog/).
 * Use a google docs form https://docs.google.com/a/gitlab.com/forms/d/17D8FZSqcw2SQeHxiru2tAN9EXZiixGYgzhdgrSxlbt4/edit?usp=forms_home&ths=true 
@@ -91,6 +90,11 @@ If the customer has a support query, log a zendesk ticket on their behalf
 #### Assignments
 * ar@: these inquiries will continue to be managed by the Finance team. An AE/AM may get involved when the Case is escalated. They are created in Salesforce simply for visibility.
 * renewals@: these inquiries will be assigned to the current AE. If there is no current AE or if the account was closed via the web portal and owned by Sales Admin, then Julie will manage all inquiries for NCSA and APAC regions, while Timo will handle customers located in EMEA.
+
+#### Renewal Notifications
+There following are the different types of renewal notifications from Zuora. Renewal notifications are sent from renewals@gitlab.com and will create a CASE upon response.
+* Manual Renewals: For subscriptions where Auto-Renewal is FALSE, a renewal notification is sent 60, 30, 7, and 1 day before the subscription expiration date.
+* Automatic Renewals: For subscriptions where Auto-Renewal is TRUE, a renewal notification is sent 30 days before the subscription expiration date.
 
 #### Types of Inquiries and How to Handle Them
 **Request to Renew**
@@ -115,6 +119,9 @@ If the customer has a support query, log a zendesk ticket on their behalf
 
 **Other Inquiry Types**
 * Reassign to Francis Aquino.
+
+
+
 
 
 

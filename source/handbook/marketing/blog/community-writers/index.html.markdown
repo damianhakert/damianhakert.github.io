@@ -33,7 +33,7 @@ to revise, refine, and publish your post to share with our community.
 All of GitLab's blog posts begin as an issue in the [GitLab blog post project][blog-project]. 
 To become a community author, all you have to do is assign yourself to an open 
 issue [labeled "community post" and "up-for-grabs][avail-posts]," write a quick introduction in 
-the comments section explaining why you want to write the post, and ping @erica.
+the comments section explaining why you want to write the post, and ping Marcia (@marcia).
 
 If you don't see a topic that interests you, you can propose a new topic by 
 creating a new issue and following the instructions above. Once approved, start writing! 

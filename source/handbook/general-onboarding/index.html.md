@@ -204,7 +204,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Hiring Manager: Open a new [support onboarding boot camp issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 1. [ ] Zendesk:
-   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/knowledge-base/categories/zendesk/#adding--removing-agents-in-zendesk)
+   1. [ ] Hiring Manager: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com); you may need to [purchase a new license](https://about.gitlab.com/handbook/support/knowledge-base/categories/zendesk/zendesk_tips.html#adding--removing-agents-in-zendesk)
    1. [ ] Hiring Manager: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Community Forum:
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.

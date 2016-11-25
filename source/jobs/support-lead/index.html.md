@@ -15,7 +15,7 @@ The majority of our current customer base is in the Americas, and the Support Le
 - Fully capable and excited to step into the role of a [Service Engineer](https://about.gitlab.com/jobs/service-engineer) when needed.
 - Develop and implement data-driven tactics to deliver on the strategic goals for Support, as set out on the overall team's [strategy](https://about.gitlab.com/strategy/) page as well as outlined in the [direction for Support](https://about.gitlab.com/handbook/support/#support-direction).
 - Develop and use various analytics to review the Service Engineering team performance - from individual to group - and adjust processes or provide mentorship as needed to improve performance and enjoyment.
-- Organize and maintain the [on-call schedule](https://about.gitlab.com/handbook/support/on-call) for customer emergencies.
+- Organize and maintain the [on-call schedule](https://about.gitlab.com/handbook/on-call/) for customer emergencies.
 - Construct and monitor metrics to maintain customer and user SLA's, and customer experience.
 - Ensure that creation and maintenance of documentation, training materials, and other references are a natural part of the Service Engineering workflow.
 - Handle the interfaces between the Support organization and Sales, Development, Customer Success, and the rest of the GitLab team.
