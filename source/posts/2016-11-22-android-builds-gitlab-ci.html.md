@@ -1,15 +1,15 @@
 ---
-title: "Setting Up Gitlab CI for Android Projects"
+title: "Setting Up GitLab CI for Android Projects"
 author: Greyson Parrelli
 author_twitter: greyson_p
-categories: Gitlab CI
+categories: GitLab CI
 image_title: '/images/blogimages/setting-up-gitlab-ci-for-android-projects/sample-app-screenshot.png'
-description: "Learn how to setup Gitlab CI for your Android projects."
+description: "Learn how to setup GitLab CI for your Android projects."
 ---
 
 Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile and pass your tests before they're merged in.
 
-[Gitlab CI](TODO: Link) is a wonderful Continuous Integration solution built right into Gitlab, and in this post we'll walk through how to setup a basic config file to ensure your Android app compiles and passes unit and functional tests.
+[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (```.gitlab-ci.yml```) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and you are familiar with the basics of the GitLab UI.
 
 <!-- more -->
 
@@ -22,7 +22,7 @@ Here's the [sample project](https://gitlab.com/greysonp/gitlab-ci-android) we'll
 </div>
 
 ### Unit Tests
-Your existing unit tests should run fine on Gitlab CI without adjustment. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). They don't use [Robolectric](http://robolectric.org/), but nothing is stopping you from doing so.
+Your existing unit tests should run fine on GitLab CI without adjustment. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). They don't use [Robolectric](http://robolectric.org/), but nothing is stopping you from doing so.
 
 ### Functional/Emulator Tests
 Functional tests run on an emulator and therefore have a tendency to be finnicky. Because they run on an actual device, any number of things could happen to screw up the test. One of those things is that the screen could lock. As a result, the sample project includes a base class for tests that ensures that screen locking won't be an issue. Before each tests, the following is run:
@@ -53,10 +53,10 @@ public void setup() {
 
 This will help make sure our tests run smoothly.
 
-Now that we've got the project setup, let's look at how we integrate Gitlab CI.
+Now that we've got the project setup, let's look at how we integrate GitLab CI.
 
 ## Setting Up Our CI Config
-We want to be able to configure our project such that our app is built and has both the unit and functional tests run upon checkin. To do so, we have to create our Gitlab CI config file, which is named ```.gitlab-ci.yml``` and is located in the root of our project.
+We want to be able to configure our project such that our app is built and has both the unit and functional tests run upon checkin. To do so, we have to create our GitLab CI config file, which is named ```.gitlab-ci.yml``` and is located in the root of our project.
 
 So, first things first: If you're just here for the copy-pasta, here is a ```.gitlab-ci.yml``` that will build and test your app upon checkin:
 
@@ -231,7 +231,7 @@ And clicking the download button for your desired job.
 
 ## Conclusion
 
-So there you have it! You now know how to create a Gitlab CI config that will ensure your app:
+So there you have it! You now know how to create a GitLab CI config that will ensure your app:
 
 *   Compiles
 *   Passes unit tests
