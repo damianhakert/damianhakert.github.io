@@ -9,7 +9,7 @@ description: "Learn how to setup GitLab CI for your Android projects."
 
 Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile and pass your tests before they're merged in.
 
-[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (```.gitlab-ci.yml```) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and you are familiar with the basics of the GitLab UI.
+[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (```.gitlab-ci.yml```) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
 
 <!-- more -->
 
@@ -20,10 +20,16 @@ Here's the [sample project](https://gitlab.com/greysonp/gitlab-ci-android) we'll
 ![Sample app screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/sample-app-screenshot.png)
 
 ### Unit Tests
-Your existing unit tests should run fine on GitLab CI without adjustment. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). They don't use [Robolectric](http://robolectric.org/), but nothing is stopping you from doing so.
 
-### Functional/Emulator Tests
-Functional tests run on an emulator and therefore have a tendency to be finnicky. Because they run on an actual device, any number of things could happen to screw up the test. One of those things is that the screen could lock. As a result, the sample project includes a base class for tests that ensures that screen locking won't be an issue. Before each tests, the following is run:
+Unit tests are a fantastic way to catch regressions when making changes to your app. They run directly on the JVM, so you don't need an actual Android device to run them. As a result, they run quite quickly and are generally preferred over other types of tests when possible. For more information on unit tests, you can consult the [official documentation](https://developer.android.com/training/testing/unit-testing/index.html).
+
+If you already have working unit tests, you shouldn't have to make any adjustments to have them work with GitLab CI. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). The sample doesn't use [Robolectric](http://robolectric.org/), but nothing stops you from doing so.
+
+### Functional Tests
+
+Functional tests, sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient. For more information on functional tests, you can consult the [official documentation](https://developer.android.com/training/testing/ui-testing/index.html).
+
+Because functional tests run on an actual Android device or emulator, they tend to be finnicky. Any number of things could happen to screw up the test, including the screen locking. To help prevent this, the sample project includes a [base class](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/TestBase.java) for tests to ensure the screen is unlocked when the tests are run. The base class contains this ```@Before```-annotated method, ensuring that it is run before each of your tests:
 
 ```java
 @Before
@@ -49,11 +55,10 @@ public void setup() {
 }
 ```
 
-This will help make sure our tests run smoothly.
-
 Now that we've got the project setup, let's look at how we integrate GitLab CI.
 
 ## Setting Up Our CI Config
+
 We want to be able to configure our project such that our app is built and has both the unit and functional tests run upon checkin. To do so, we have to create our GitLab CI config file, which is named ```.gitlab-ci.yml``` and is located in the root of our project.
 
 So, first things first: If you're just here for the copy-pasta, here is a ```.gitlab-ci.yml``` that will build and test your app upon checkin:
@@ -203,6 +208,7 @@ functionalTests:
 This defines a job called 'functionalTests' that runs during the 'tests' stage. Functional tests are a little tricky to setup. First, we download a script made by the folks at Travis CI that will allow us to detect when an emulator has finished booting. Then, we download the emulator system image we're going to use and create an instance of it. Afterwards, we start the emulator, wait for it to finish booting using our downloaded script, input the adb keyevent to unlock the screen, and run our tests. After the tests are run, the generated test report is made available for download via the artifacts field.
 
 ## Run Your new CI Setup
+
 After you've added your new ```.gitlab-ci.yml``` file to the root of your directory, just push your changes and off you go! You can see your running builds in the 'Pipelines' tab of your project.
 
 ![Pipelines tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-01.png)
