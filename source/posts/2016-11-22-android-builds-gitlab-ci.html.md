@@ -17,9 +17,7 @@ Have you ever accidentally checked in a typo that broke your Android build or un
 
 Here's the [sample project](https://gitlab.com/greysonp/gitlab-ci-android) we'll be working with today. It's very simple. The app allows you to input two numbers, and then click "Calculate" to view the sum in a separate Activity. This is of course a very silly way to structure an app, but it allows us to write some clear examples of different kinds of tests.
 
-<div align="center">
-  <img src="/images/blogimages/setting-up-gitlab-ci-for-android-projects/sample-app-screenshot.png" />
-</div>
+![Sample app screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/sample-app-screenshot.png)
 
 ### Unit Tests
 Your existing unit tests should run fine on GitLab CI without adjustment. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). They don't use [Robolectric](http://robolectric.org/), but nothing is stopping you from doing so.
@@ -207,27 +205,19 @@ This defines a job called 'functionalTests' that runs during the 'tests' stage. 
 ## Run Your new CI Setup
 After you've added your new ```.gitlab-ci.yml``` file to the root of your directory, just push your changes and off you go! You can see your running builds in the 'Pipelines' tab of your project.
 
-<div align="center">
-  <img src="/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-01.png" />
-</div>
+![Pipelines tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-01.png)
 
 After your build is done, you can retrieve your build artifacts by clicking on your completed build...
 
-<div align="center">
-  <img src="/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-02.png" />
-</div>
+![Build details button screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-02.png)
 
 Navigating to the 'Builds' tab...
 
-<div align="center">
-  <img src="/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-03.png" />
-</div>
+![Builds tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-03.png)
 
 And clicking the download button for your desired job.
 
-<div align="center">
-  <img src="/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-04.png" />
-</div>
+![Download button screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-04.png)
 
 ## Conclusion
 
@@ -253,6 +243,7 @@ Questions? Feedback? Please leave a comment or tweet at us [@GitLab]()! 🙌
   }
 
   img {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
   }
 </style>
