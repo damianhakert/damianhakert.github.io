@@ -9,7 +9,7 @@ description: "Learn how to setup GitLab CI for your Android projects."
 
 Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile and pass your tests before they're merged in.
 
-[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (```.gitlab-ci.yml```) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
+[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (`.gitlab-ci.yml`) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
 
 <!-- more -->
 
@@ -29,7 +29,7 @@ If you already have working unit tests, you shouldn't have to make any adjustmen
 
 Functional tests, sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient. For more information on functional tests, you can consult the [official documentation](https://developer.android.com/training/testing/ui-testing/index.html).
 
-Because functional tests run on an actual Android device or emulator, they tend to be finnicky. Any number of things could happen to screw up the test, including the screen locking. To help prevent this, the sample project includes a [base class](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/TestBase.java) for tests to ensure the screen is unlocked when the tests are run. The base class contains this ```@Before```-annotated method, ensuring that it is run before each of your tests:
+Because functional tests run on an actual Android device or emulator, they tend to be finnicky. Any number of things could happen to screw up the test, including the screen locking. To help prevent this, the sample project includes a [base class](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/TestBase.java) for tests to ensure the screen is unlocked when the tests are run. The base class contains this `@Before`-annotated method, ensuring that it is run before each of your tests:
 
 ```java
 @Before
@@ -57,11 +57,11 @@ public void setup() {
 
 Now that we've got the project setup, let's look at how we integrate GitLab CI.
 
-## Setting Up Our CI Config
+## Setting Up GitLab CI
 
-We want to be able to configure our project such that our app is built and has both the unit and functional tests run upon checkin. To do so, we have to create our GitLab CI config file, which is named ```.gitlab-ci.yml``` and is located in the root of our project.
+We want to be able to configure our project su that our app is built, and it has both the unit and functional tests run upon check-in. To do so, we have to create our GitLab CI config file, called `.gitlab-ci.yml` and place it in the root of our project.
 
-So, first things first: If you're just here for the copy-pasta, here is a ```.gitlab-ci.yml``` that will build and test your app upon checkin:
+So, first things first: If you're just here for the copy-pasta, here is a `.gitlab-ci.yml` that will build and test your app upon checkin:
 
 ```yml
 image: openjdk:8-jdk
@@ -134,11 +134,11 @@ variables:
   ANDROID_SDK_TOOLS: "24.4.1"
 ```
 
-These are variables we'll use throughout our script. They're named to match the properties you specify in your app's ```build.gradle```.
+These are variables we'll use throughout our script. They're named to match the properties you specify in your app's `build.gradle`.
 
-*   ```ANDROID_COMPILE_SDK``` is the version of Android you're compiling with. It should match ```compileSdkVersion```.
-*   ```ANDROID_BUILD_TOOLS``` is the version  of the Android build tools you are using. It should match ```buildToolsVersion```.
-*   ```ANDROID_SDK_TOOLS``` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
+*   `ANDROID_COMPILE_SDK` is the version of Android you're compiling with. It should match `compileSdkVersion`.
+*   `ANDROID_BUILD_TOOLS` is the version  of the Android build tools you are using. It should match `buildToolsVersion`.
+*   `ANDROID_SDK_TOOLS` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
 
 ```yml
 before_script:
@@ -209,7 +209,7 @@ This defines a job called 'functionalTests' that runs during the 'tests' stage. 
 
 ## Run Your new CI Setup
 
-After you've added your new ```.gitlab-ci.yml``` file to the root of your directory, just push your changes and off you go! You can see your running builds in the 'Pipelines' tab of your project.
+After you've added your new `.gitlab-ci.yml` file to the root of your directory, just push your changes and off you go! You can see your running builds in the 'Pipelines' tab of your project.
 
 ![Pipelines tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-01.png)
 
