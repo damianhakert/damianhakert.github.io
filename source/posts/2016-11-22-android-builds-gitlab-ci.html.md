@@ -61,7 +61,7 @@ Now that we've got the project setup, let's look at how we integrate GitLab CI.
 
 We want to be able to configure our project su that our app is built, and it has both the unit and functional tests run upon check-in. To do so, we have to create our GitLab CI config file, called `.gitlab-ci.yml` and place it in the root of our project.
 
-So, first things first: If you're just here for the copy-pasta, here is a `.gitlab-ci.yml` that will build and test your app upon checkin:
+So, first things first: If you're just here for a snippet to copy-paste, here is a `.gitlab-ci.yml` that will build and test your app:
 
 ```yml
 image: openjdk:8-jdk
@@ -117,15 +117,17 @@ functionalTests:
 ```
 [Sample Project's .gitlab-ci.yml](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/.gitlab-ci.yml)
 
-Well, that's a lot of text! Let's break it down.
+Well, that's a lot of code! Let's break it down.
+
+### Understanding `.gitlab-ci.yml`
 
 ```yml
 image: openjdk:8-jdk
 ```
 
-This tells our runner (the thing that is executing our build) what Docker image to use. If you're not familiar with Docker, the TL;DR is that Docker provides a way to create a completely isolated version of an operating system running in it’s own “container”. Anything running inside the container thinks it has the whole machine to itself, but in reality there can be many containers running on a single machine. Unlike full virtual machines, Docker containers are super fast to create and destroy, making them great choices for setting up temporary environments for building and testing.
+This tells [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html#runners) (the things that are executing our build) what [Docker image](https://hub.docker.com/explore/) to use. If you're not familiar with [Docker](https://hub.docker.com/), the TL;DR is that Docker provides a way to create a completely isolated version of a virtual operating system running in it’s own [container](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container-open-source-project/). Anything running inside the container thinks it has the whole machine to itself, but in reality there can be many containers running on a single machine. Unlike full virtual machines, Docker containers are super fast to create and destroy, making them great choices for setting up temporary environments for building and testing.
 
-This Docker image just has a basic installation of Java that we build upon further down in our config.
+[This Docker image](https://hub.docker.com/_/openjdk/) just has a basic installation of Java that we build upon further down in our config, which is necessary for building Android apps.
 
 ```yml
 variables:
@@ -134,16 +136,23 @@ variables:
   ANDROID_SDK_TOOLS: "24.4.1"
 ```
 
-These are variables we'll use throughout our script. They're named to match the properties you specify in your app's `build.gradle`.
+These are variables we'll use throughout our script. They're named to match the properties you specify in your app's [`build.gradle`](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/build.gradle).
 
-*   `ANDROID_COMPILE_SDK` is the version of Android you're compiling with. It should match `compileSdkVersion`.
-*   `ANDROID_BUILD_TOOLS` is the version  of the Android build tools you are using. It should match `buildToolsVersion`.
-*   `ANDROID_SDK_TOOLS` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
+-   `ANDROID_COMPILE_SDK` is the version of Android you're compiling with. It should match `compileSdkVersion`.
+-   `ANDROID_BUILD_TOOLS` is the version  of the Android build tools you are using. It should match `buildToolsVersion`.
+-   `ANDROID_SDK_TOOLS` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
 
 ```yml
 before_script:
   - apt-get --quiet update --yes
   - apt-get --quiet install --yes wget tar unzip lib32stdc++6 lib32z1
+```
+
+This starts the block of the commands that will be run before each job in our config.
+
+This section ensures that our package repository listings are up to date and installs packages we'll be using later on: namely wget, tar, unzip, and some packages that are necessary to allow 64-bit machines to run Android's 32-bit tools.
+
+```yml
   - wget --quiet --output-document=android-sdk.tgz https://dl.google.com/android/android-sdk_r${ANDROID_SDK_TOOLS}-linux.tgz
   - tar --extract --gzip --file=android-sdk.tgz
   - echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter android-${ANDROID_COMPILE_SDK}
@@ -152,12 +161,17 @@ before_script:
   - echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-android-m2repository
   - echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-google-google_play_services
   - echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-google-m2repository
+```
+
+Here we're downloading the Android SDK tools from their official location, using our `ANDROID_SDK_TOOLS` variable to specify the version. Afterwards, we're unzipping the tools and running a series of `android` commands to install the necessary Android SDK packages that will allow our app to build.
+
+```yml
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=$PATH:$PWD/android-sdk-linux/platform-tools/
   - chmod +x ./gradlew
 ```
 
-These are all of the commands that will be run before each job in our config. The gist of this is that we're installing some necessary packages to allow our 64-bit machines to run Android's 32-bit tools, then simply downloading the Android command line tools and installing all of the relevant packages of the SDK.
+Finally, we wrap up the `before_script` section of our config with a few remaining tasks. First, we set the `ANDROID_HOME` environment variable to the SDK location, which is necessary for our app to build. Next, we add the platform tools to our `PATH`, allowing us to use the `adb` command without specifying its full path, which is important when we run a downloaded script later. Finally, we ensure that `gradlew` is executable, as sometimes git will mess up permissions.
 
 ```yml
 stages:
@@ -229,9 +243,9 @@ And clicking the download button for your desired job.
 
 So there you have it! You now know how to create a GitLab CI config that will ensure your app:
 
-*   Compiles
-*   Passes unit tests
-*   Passes functional tests
+-   Compiles
+-   Passes unit tests
+-   Passes functional tests
 
 And allows you to access your build artifacts (like your APK) afterwards.
 
