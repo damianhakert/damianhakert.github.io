@@ -41,13 +41,14 @@ documentation on how to disable the service until you can install the patch.
 
 ### Users with Read Access to a Project Can Create Labels
 Hari Gopal reported a vulnerability involving non-members of a project who have
-read-only access being able to create labels inside the project. https://gitlab.com/gitlab-org/gitlab-ce/issues/23416
+read-only access being able to create labels inside the project. [#23416](https://gitlab.com/gitlab-org/gitlab-ce/issues/23416)
 ### Information Disclosure for Private Project Names
 An internal code review discovered that it was possible to enumerate private
-project names. https://gitlab.com/gitlab-org/gitlab-ce/issues/22869
+project names. [#22869](https://gitlab.com/gitlab-org/gitlab-ce/issues/22869)
 ### Information Disclosure for Private Issues
-An internal code review discovered that it was possible to enumerate the names
-of private issues using specifically-crafted search queries.
+An internal code review discovered that it was possible to read private issues
+using specifically-crafted search queries for projects with issues visibility
+restricted to ‘Only team members'.
 
 ## Other fixes
 
