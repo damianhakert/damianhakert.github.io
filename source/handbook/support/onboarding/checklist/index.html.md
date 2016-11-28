@@ -65,6 +65,8 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
 1. [ ] Get familiar with the services GitLab offers
   1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
   1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
+    1. [ ] Read through the [GitHost documentation](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md)
+
 
 ### Stage 2. Installation and Administration basics.
 
