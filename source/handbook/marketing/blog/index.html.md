@@ -271,10 +271,11 @@ The publishing process is simple and is conducted for our Blog Editors and revie
   - Content approval
   - English review and approval
   - Social media promotion
-- **Blog Technical Editorial:** Marcia Ramos ([@marcia]), Technical Writer
+- **Blog Technical Editor:** Marcia Ramos ([@marcia]), Technical Writer
   - Technical review and approval
-  - Markdown, structure, and flow review and approval
-  - Merge to master
+  - Markdown, structure, content, and flow review and approval
+  - Publish posts (merge to master)
+  - Social promotion
 - **Blog Technical Reviewers:** any GitLab Team member with technical expertise on the post's subject
   - Technical review and approval
   - Test and reproduce methods and procedures
@@ -313,19 +314,19 @@ For our [community writers], we will follow the Scalable Writing System describe
 1. Community Writer - choose a subject:
    - Make sure you are familiar with the [GitLab Workflow]
    - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with `up-for-grabs` or create a new one (only if your proposal is relevant for one of the [current important topics](#topics-community-writers)).
-   - Leave a comment "@erica I would like to write this post and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample) and the [proposed outlines](#outlines)."
+   - Leave a comment "@marcia I would like to write this post and I accept the terms on the [Community Writers Program][Community Writers]. Below follows my [writing sample](#sample) and the [proposed outlines](#outlines)."
 1. Content Marketing - analyses the proposal:
-  - Erica will evaluate the writer's sample and discuss anything necessary before the author start writing
-  - If necessary, Erica will assign Marcia for evaluating your proposal and outlines
-  - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$200`, `TOP PRIORITY`), Erica will define the compensation the post is worth and attribute the correct label.
-  - When the community writer is approved to get started, Erica will leave a comment "@username, you got it!" and label the issue `on it` and `community post`.
-  - Erica will ask for an ETA on your first draft
-  - Erica will evaluate the priority, and estimate a due date for publishing (issue due date)
+  - Marcia will evaluate the writer's sample and discuss anything necessary before the author start writing
+  - Marcia will evaluate your proposal and outlines
+  - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$200`, `TOP PRIORITY`), Marcia will define the compensation the post is worth and attribute the correct label.
+  - When the community writer is approved to get started, Marcia will leave a comment "@username, you got it!" and label the issue `on it` and `community post`.
+  - Marcia will ask for an ETA on your first draft
+  - Marcia will evaluate the priority, and estimate a due date for publishing (issue due date)
 1. Community Writer: prepare your local environment and submit the article
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
   - Write according to the [Professional Writing Techniques][writing-tech], and to the [Markdown Guide]
   - Submit a [Work in Progress Merge Request (WIP MR)][WIP MR] with the proposal and mention @Lindberg for the first pass
-1. GitLab: Erica will make sure the MR description contains the [issue closing pattern][issue-close] (`Closes #xxx`) and the label `community post`, and start the review process
+1. GitLab: Marcia will make sure the MR description contains the [issue closing pattern][issue-close] (`Closes #xxx`) and the label `community post`, and start the review process
 1. GitLab - [General Review](#general-reviews)
 1. GitLab - When your post gets ready:
   - Marcia will change your MR from your branch into `gitlab.com: master` to another branch `gitlab.com: feature-branch`
@@ -333,14 +334,14 @@ For our [community writers], we will follow the Scalable Writing System describe
        - Create a new MR to `master`, which closes the blog post issue (link to the original MR)
        - Preview the post locally
        - Upload the preview screenshot to the new MR thread
-  - Marcia and Erica can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the content)
-  - Erica will place the final date for publishing and create the copyedit for social media (140 chars tops, including the post link)
+  - Marcia can make any necessary adjustments to the post in the new MR (date, typos, grammar, broken links, and other changes that won't affect substantially the content)
+  - Marcia will place the final date for publishing and create the copyedit for social media (140 chars tops, including the post link)
 1. On the publishing date:
-  - Marcia or Erica will merge your post into `master`
-  - Erica or Marcia will promote in social media: Twitter and/or Facebook
+  - Marcia will merge your post into `master`
+  - Marcia will promote in social media: Twitter and/or Facebook
 1. After the publishing date: compensate the writer (when compensation applies)
-  - Author send an email to Erica (at `community@gitlab.com`) requesting the compensation for the post, adding a link to the issue, to the original MR, and to the published post
-  - Erica replies the writer to [start the process](community-writers/#get-paid) to wire the money
+  - Author send an email to Marcia (at `community@gitlab.com`) requesting the compensation for the post, adding a link to the issue, to the original MR, and to the published post
+  - Marcia replies the writer to [start the process](community-writers/#get-paid) to wire the money
   - Community writer will get paid
 
 **Important:** make sure the last section of the post is "About the Community Author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
@@ -354,7 +355,7 @@ the [recommended code editors][code-editors].
 **Sample:** your writing sample can be any technical article or post already written by yourself, or a sample of ~200 words on a related topic.
 {: #sample .alert .alert-info}
 
-**Outlines:** draw the post outlines, which is the sequence of topics to write about, as a skeleton with the headings you propose to follow along in your post. The blog editors will discuss them with you, and review if necessary.
+**Outlines:** draw the [post outlines][outlines], which is the sequence of topics to write about, as a skeleton with the headings you propose to follow along in your post. The blog editors will discuss them with you, and review if necessary.
 {: #outlines .alert .alert-info}
 
 #### Publishing process for Guest Writers
@@ -382,8 +383,9 @@ Every blog post should carry a label, in both issues and merge requests:
 - [Partner Post]
 - [Ghost Post]
 - [Crosspost]
-- [Up-for-grabs][]: posts opened to the team, community, and guests
-- [On-it][]: posts that are being written
+- [Up-for-grabs][]: posts opened to the community and guests writers
+- [Up-for-grabs-GitLab][]: posts opened to GitLab Team members
+- [On-it][]: posts that are being written at the moment
 
 #### Labels Exclusive for Community Posts
 {: #compensation-labels}
@@ -909,6 +911,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [MR-description]: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2740/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
 [OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
+[outlines]: /handbook/marketing/developer-relations/technical-writing/#3rd-plan
 [Pivotal Cloud Foundry]: /2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
 [post-iOS-CI]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
 [post-lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
@@ -947,6 +950,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [Ghost Post]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Ghost+Posts
 [Crosspost]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=Crosspost
 [Up-for-grabs]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=up-for-grabs
+[Up-for-grabs-GitLab]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=up-for-grabs-GitLab
 [On-it]: https://gitlab.com/gitlab-com/blog-posts/issues?label_name%5B%5D=On-it
 
 <!-- Styles -->
