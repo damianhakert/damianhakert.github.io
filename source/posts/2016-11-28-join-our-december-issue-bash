@@ -2,7 +2,7 @@
 + title: "Join our December Issue Bash"
 + author: Rebecca Dodd
 + author_twitter: Reberoodle
-+ categories: community
++ categories:
 + image_title: '/images/default-blog-image.png'
 + description: 'We’re on a mission to blitz GitLab’s open issues and we need your help!'
 +
@@ -49,3 +49,4 @@
 +
 +
 +GitLab team members @markgenfletcher @ClemMakesApps @haynes will be on hand to answer questions and close issues. 
++
