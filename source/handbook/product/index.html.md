@@ -271,6 +271,10 @@ The above means that feature issues should be closed after a first iteration
 whenever possible. We'll know more in the future and this keeps remaining
 issues short and actionable.
 
+In addition, it's almost never a bad idea to throw away an original plan and
+start fresh. Try to do this more often that you're comfortable. Close the issue
+and create a new one.
+
 #### Which issue should you be working on?
 
 When you don't have specific tasks assigned, you should work on issues that are
