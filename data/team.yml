@@ -2065,3 +2065,14 @@
   gitlab:
   story:  |
           Joining December 1st
+          
+- name: B.K
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/prometheus-lead/">Prometheus Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
