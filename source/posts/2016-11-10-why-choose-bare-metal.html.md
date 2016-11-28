@@ -8,11 +8,18 @@ description: "How we're solving storage and performance issues as we scale."
 twitter_image: '/images/tweets/why-bare-metal.png'
 ---
 
+{::options parse_block_html="true" /}
+
 In my last [infrastructure update][infra-post], I documented our challenges with
 storage as GitLab scales. We built a CephFS cluster to tackle both the capacity
 and performance issues of NFS and decided to replace PostgreSQL standard Vacuum
 with the pg_repack extension. Now, we're feeling the pain of running a high
 performance distributed filesystem on the cloud.
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+Tune in on December 7 for my webcast on Monitoring Distributed Systems with Prometheus [Watch live on Decemeber 7][https://www.youtube.com/watch?v=WzAzm0C15W8]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
 
 Over the past month, we loaded a lot of projects, users, and CI artifacts onto
 CephFS. We chose CephFS because it's a reliable distributed file system that can
