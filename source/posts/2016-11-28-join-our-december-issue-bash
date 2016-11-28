@@ -5,7 +5,7 @@ categories:
 image_title: '/images/default-blog-image.png'
 description: 'We’re on a mission to blitz GitLab’s open issues and we need your help!'
 
-Join us for an all-weekend Issue Bash on 3-4 December and you could walk away with (PRIZE TBC).
+Join us for an all-weekend Issue Bash on 3-4 December and you could walk away with a [Pocket CHIP](https://getchip.com/pages/pocketchip) – we're giving away two! Two Raspberry Pis and 10 GitLab T-shirts are also up for grabs. 
 
 There are currently over 5000 open issues on GitLab CE! We want everyone to be able to find issues to work on, and part of that means streamlining our issue tracker: culling duplicate issues, categorizing unlabelled issues and tackling bugs. 
 
@@ -25,7 +25,7 @@ Fix bugs: close bug issues once and for all
 
 Categorize existing issues: provide a suitable label for uncategorized issues
 
-Check out the 2016 GitLab-ce Issue Bash Proposal to find out how to get started.
+Check out the [2016 GitLab-ce Issue Bash Proposal](https://gitlab.com/gitlab-org/gitlab-ce/issues/17815) to find out how to get started. To be considered for a prize you need at least one MR accepted by 11 December (one week after the bash). Prizes will be drawn at random.
 
 ## Who can take part?
 
