@@ -2055,6 +2055,17 @@
   story:  |
           Joining November 28th
 
+- name: T.A.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">VP of Marketing</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
+          
 - name: C.D.
   locality:
   country:
