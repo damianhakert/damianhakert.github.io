@@ -19,7 +19,7 @@ They are also using GitLab more and more for [Continuous Integration](https://ab
 
 ### Why Did CERN Choose GitLab?
 
-Alexandre Lossent, Service Manager for the Version Control Systems at CERN, explained that part of their user community has a preference for open-source software; GitLab was also cheaper than other alternatives.
+Alexandre Lossent, Service Manager for the version control systems at CERN, explained that part of their user community has a preference for open-source software; GitLab was also cheaper than other alternatives.
 
 The most significant benefit is probably how easy GitLab makes it to create a project and start working. Lossent said, “We had more than 2,000 projects in a few months, a very fast adoption rate compared to our other code hosting platforms.”
 
