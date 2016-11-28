@@ -183,4 +183,4 @@
     link: https://docs.gitlab.com/ce/ci/environments.html
   - description: Review Apps
     in_ce: true
-    link: https://docs.gitlab.com/ce/ci/review_apps/index.html
+    link: https://about.gitlab.com/features/review-apps/
