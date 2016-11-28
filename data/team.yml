@@ -2008,16 +2008,16 @@
   story:  |
           Balu is from Kerala, southern most part of India and is passionate about anything related to Freedom and Privacy. He has been contributing to different Free Software and language computing communities for quite some time, especially in Packaging (he is currently a Debian Maintainer), Software Development, Localization, and Evangelism. Other than a computer geek, he is mainly a procaffinator and a bibliophile. He enjoys reading (and sometimes even writing) poetry too.
 
-- name: K.L.
-  locality:
-  country:
+- name: Krys Lambiase
+  locality: San Antonio, TX
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Product Marketing Manager - Enterprise Specialist</a>
   reports_to: Director of Product Marketing
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: krys-lambiase.jpg
+  twitter: lambo_tech
+  gitlab: krysl
   story:  |
-          Joining November 21st
+          Krys is from San Antonio, TX.  He has worked in the IT industry for over 8 years and has a passion for creative writing and product marketing.  Krys enjoys enabling people to learn new things and helping them along their career path.  In his free time he enjoys running and playing video games.
 
 - name: Matija Čupić
   locality: Belgrade
@@ -2065,7 +2065,7 @@
   gitlab:
   story:  |
           Joining November 28th
-          
+
 - name: C.D.
   locality:
   country:
@@ -2076,7 +2076,7 @@
   gitlab:
   story:  |
           Joining December 1st
-          
+
 - name: B.K.
   locality:
   country:
