@@ -10,7 +10,7 @@ After meeting at Web Summit 2016, GitLab developer advocate [Amanda Folson](http
 
 Some key takeaways include: 
 
-* Public speaking is only one facet of [dev advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/); nurturing communities is the unifying imperative.
+* Public speaking is only one facet of [dev advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/); nurturing communities is the most important thing.
 * It’s important that dev advocates aren’t just additional sales people. They should seek to be genuinely helpful for developers’ education and experience.
 * For people who happily use a competitor’s product, dev advocates should have a ready value proposition for whomever they’re speaking with (e.g. developer or manager).
 * It’s tough to put metrics to events, but you can develop “fuzzy metrics” like event attendees or traffic to certain site pages over time.
@@ -68,6 +68,8 @@ Ultimately we’ll create a group of ambassadors who want to talk about GitLab, 
 {: .alert .alert-info}
 
 **Amanda:** Keep tabs on what’s going on in the broader tech community - I look at Hacker News a lot, and Reddit and Twitter as well. Definitely keep track of what people are talking about; this helps you strike up conversations at events and gives you a little bit of developer cred as well. If you’re a developer at all, then keep those skills sharp. Over the past three years I stopped really shipping code and I feel like it’s been detrimental. One of my goals for 2017 is to write more code so I can stay in the weeds in conversations. You’ll get lots of language-specific questions across the whole spectrum, so ideally you’ll be somewhat familiar with Ruby, JavaScript, golang, and PHP, and at least be willing to go look for the answers when you get questions. That’s where it helps to have a great network of people – I know people in the community who I can poke when I don’t know the answer to something and ask for help. So keep those skills up and look out for the next trend in technology; that way you can be ready to predict where developers are headed next. 
+
+_Recast.AI is a french artificial intelligence startup focusing on conversational interfaces. Built on a strong language processing technology, Recast.AI allows developers to easily create their own bots through a collaborative platform and API._
 
 _Follow [Recast.ai](https://twitter.com/recastai) on Twitter._
 
