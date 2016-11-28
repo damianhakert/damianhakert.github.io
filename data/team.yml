@@ -566,7 +566,7 @@
   story:  |
           James is an experienced developer coming from the corporate world
           of Vodafone in the UK. He has contributed to the open source
-          community for many years, has 5+ years of experience with Ruby on Rails, 
+          community for many years, has 5+ years of experience with Ruby on Rails,
           and is very excited about contributing full-time to open source projects.
           When he is not in front of a black screen, you can find him enjoying
           sea-sports, cycling or keeping up to date with the latest trends in
@@ -1301,7 +1301,7 @@
 - name: Régis Freyd
   locality: Montréal
   country: Canada
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> EE Products
   reports_to: VP of Product
   picture: regis.jpg
   twitter: djaiss
@@ -1963,7 +1963,7 @@
 - name: Victor Wu
   locality: Chicago, IL
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> Discussion
   reports_to: VP of Product
   picture: victor.jpg
   twitter: victorwu416
@@ -2028,8 +2028,8 @@
   twitter: cmattrex
   gitlab: cmattrex
   story:  |
-          Matija is a software engineer from Belgrade, Serbia. 
-          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming 
+          Matija is a software engineer from Belgrade, Serbia.
+          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming
           or anything else related to technology in general (like cool gadgets!).
           His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
@@ -2054,7 +2054,7 @@
   gitlab:
   story:  |
           Joining November 28th
-          
+
 - name: C.D.
   locality:
   country:
