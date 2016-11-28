@@ -13,7 +13,7 @@ class GitLabInstance
     url = @endpoint + path + params
     response = HTTParty.get(url, headers: { "PRIVATE-TOKEN" => @private_token })
 
-    print "Error in retrieving URL #{url}: #{response.code}" if response.code != 200
+    puts "Error in retrieving URL #{url}: #{response.code}" if response.code != 200
 
     response
   end
