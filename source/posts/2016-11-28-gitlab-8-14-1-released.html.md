@@ -17,7 +17,8 @@ Please read on for more details.
 Mattermost recently released a critical security update to address a remote
 command execution vulnerability. Because the Omnibus version of GitLab 8.14.0
 ships with Mattermost we are providing this emergency security patch.
-Details of the vulnerability can be found at https://docs.mattermost.com/administration/changelog.html#release-v3-5-1
+Details of the vulnerability can be found at
+[https://docs.mattermost.com/administration/changelog.html#release-v3-5-1](https://docs.mattermost.com/administration/changelog.html#release-v3-5-1)
 ### Versions affected
 - 8.14.0
 
