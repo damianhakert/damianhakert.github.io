@@ -174,7 +174,8 @@
       background-color: $color-white;
     }
 
-    .more:hover, .browse:hover {
+    .more:hover,
+    .browse:hover {
       background-color: $blog-color-purple;
       border: 1px solid $blog-color-purple;
       color: $color-white;
