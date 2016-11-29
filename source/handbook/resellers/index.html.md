@@ -260,7 +260,14 @@ You should use our Authorized Reseller Logo on your materials where appropriate 
 
 The logos are available in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
 
-## Making Marketing requests
+## Reseller Marketing Program
+
+### Program Objectives
+- Support resellers to be successful and grow their business 
+- Motivate resellers to reach first for GitLab 
+- Promote Reseller program to recruit new resellers 
+
+### Making Marketing requests
 GitLab will strive to be able to support you in your marketing efforts.  The marketing should be focused on GitLab EE.  Marketing requests usually fall into 1 of 3 categories:
 ### Events
 We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. If you think you have an event where people would like to get to know more about GitLab and our community, please do contact us.  
