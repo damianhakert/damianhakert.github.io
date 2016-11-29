@@ -383,7 +383,7 @@ customer that documentation is lacking is not.
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-# EE only and Products
+## EE only and Products
 
 Products are large additions to GitLab that we sell separate to GitLab
 Enterprise Edition customers.
@@ -391,7 +391,7 @@ Enterprise Edition customers.
 EE only features are exclusive to GitLab Enterprise Edition, but don't
 require any additional purchases besides GitLab EE.
 
-## EE only or Product?
+### EE only or Product?
 
 Deciding on whether something should be a Product or just a EE-only
 feature can be tough. In doubt, make it a product, that's a reversible
@@ -402,7 +402,7 @@ Also consider:
 - Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
 - Does it have an alternative in the marketplace?
 
-## Talking about EE only decisions
+### Talking about EE only decisions
 
 When talking about why a certain change is limited to Enterprise Edition in
 public, [mention the stewardship paragraph in the about page][stewardship]
@@ -410,7 +410,7 @@ directly and link to it.
 
 [stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
-## Private tools and dashboards for monitoring and KPI tracking
+### Private tools and dashboards for monitoring and KPI tracking
 
 [EE usage](https://version.gitlab.com/): dev.gitlab.org account
 
@@ -425,6 +425,32 @@ directly and link to it.
 [S3stat](https://www.s3stat.com): GitLab 1Password account
 
 [Sentry](https://sentry.gitlap.com): dev.gitlab.org account
-# Links
+
+## Writing about features
+
+As PM we need to constantly write about the features we ship: in a blog post,
+internally to promote something, in emails sent to customers.
+
+While we want every PM to have his unique voice and style, there are some
+guidelines that one should take into account when writing about features. Let's
+highlight them with a concrete example, Preventing Secrets in your repositories,
+ that [we've shipped in 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
+
+* Start with the context. Explain what the current situation is without the
+feature. Describe the pain points.
+
+> It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure for the information to be compromised. Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed files that were meant to stay local!
+
+* Explain in one line what we've shipped to fix this problem.
+
+> GitLab now has a new push rule that will prevent commits with secrets from entering the repository.
+
+* Describe how to use the feature in simple terms.
+
+> Just check the checkbox and GitLab will prevent common unsafe files such as .pem and .key from being committed.
+
+* Point to the documentation.
+
+## Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
