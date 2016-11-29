@@ -401,6 +401,7 @@ Also consider:
 
 - Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
 - Does it have an alternative in the marketplace?
+- Can we build a whole new set of features around it?
 
 ## Talking about EE only decisions
 
