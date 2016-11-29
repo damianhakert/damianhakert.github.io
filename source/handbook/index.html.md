@@ -42,6 +42,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
+  * [Product Areas](/handbook/product/product-areas)
 * [Miscellaneous](/handbook/miscellaneous)
 
 ----

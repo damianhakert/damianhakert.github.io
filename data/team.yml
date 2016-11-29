@@ -538,7 +538,7 @@
   locality: Colorado Springs, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/designer/">Designer</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: lukebabb.jpg
   twitter: lukebabb
   gitlab: lukebabb
@@ -561,15 +561,16 @@
   gitlab: jameslopez
   maintains: |
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
           of Vodafone in the UK. He has contributed to the open source
-          community for many years, has 5+ years of experience with Ruby on Rails
+          community for many years, has 5+ years of experience with Ruby on Rails,
           and is very excited about contributing full-time to open source projects.
           When he is not in front of a black screen, you can find him enjoying
           sea-sports, cycling or keeping up to date with the latest trends in
-          technology, Astronomy and top spinning.
+          technology, Astronomy, and top spinning.
 
 - name: Timo Schuit
   locality: Hamburg
@@ -630,7 +631,7 @@
   locality: Belgrade
   country: Serbia
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: ivan.jpg
   twitter: inemation
   gitlab: inem
@@ -707,7 +708,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -732,7 +733,7 @@
   locality: Alameda, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: amanda.jpg
   twitter: AmbassadorAwsum
   gitlab: afolson
@@ -795,7 +796,7 @@
   locality: New York City, NY
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-product-marketing/">Director of Product Marketing</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: amara.png
   twitter: its_amaracle
   gitlab: amara
@@ -1142,7 +1143,7 @@
   locality: Murrells Inlet, SC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-demand-generation/">Director of Demand Generation</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: JoeLucas.jpg
   twitter: joelucas
   gitlab: joelucas
@@ -1300,7 +1301,7 @@
 - name: Régis Freyd
   locality: Montréal
   country: Canada
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> EE Products
   reports_to: VP of Product
   picture: regis.jpg
   twitter: djaiss
@@ -1444,7 +1445,7 @@
   locality: London
   country: United Kingdom
   role: Content Lead
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
@@ -1812,7 +1813,7 @@
   locality: Highlands Ranch, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: connor.png
   twitter: connorjshea
   gitlab: connorshea
@@ -1962,7 +1963,7 @@
 - name: Victor Wu
   locality: Chicago, IL
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> Discussion
   reports_to: VP of Product
   picture: victor.jpg
   twitter: victorwu416
@@ -2027,8 +2028,8 @@
   twitter: cmattrex
   gitlab: cmattrex
   story:  |
-          Matija is a software engineer from Belgrade, Serbia. 
-          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming 
+          Matija is a software engineer from Belgrade, Serbia.
+          When he's not totally submerged into RoR and/or C#, he enjoys fitness, gaming
           or anything else related to technology in general (like cool gadgets!).
           His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
@@ -2053,7 +2054,18 @@
   gitlab:
   story:  |
           Joining November 28th
-          
+
+- name: T.A.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">Interim VP of Marketing</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining November 28th
+
 - name: C.D.
   locality:
   country:
@@ -2064,3 +2076,14 @@
   gitlab:
   story:  |
           Joining December 1st
+
+- name: B.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/prometheus-lead/">Prometheus Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
