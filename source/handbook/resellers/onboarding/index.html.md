@@ -58,6 +58,7 @@ These are the members of your team that are most likely to interact with us. We 
 - [ ] Partner account enabled in SFDC @malessio
 - [ ] Partner Demo License set up in Zuora @malessio
 - [ ] Partner announced during team call @malessio
+- [ ] Partner email address added to partner newsletter mail list @scornille
 
 ### Training
 - [ ] Partner read [Reseller Handbook](https://about.gitlab.com/handbook/resellers/)   
