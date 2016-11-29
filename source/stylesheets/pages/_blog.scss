@@ -76,8 +76,15 @@
 
   &.list {
     .section {
-      margin: 25px 40px 0;
+      margin: 20px 40px 0;
       clear: both;
+    }
+
+    @media only screen and (max-width : 768px) {
+      .section {
+        margin: 5px 10px;
+        clear: both;
+      }
     }
 
     .panel {
@@ -110,6 +117,13 @@
 
       a {
         color: $blog-color-purple;
+      }
+    }
+
+    @media only screen and (max-width : 768px) {
+      .article {
+        padding: 10px;
+        margin-bottom: 15px;
       }
     }
     // scss-lint:enable VendorPrefix
@@ -299,15 +313,20 @@
 
     @media only screen and (max-width : 768px) {
       .wrapper {
-        padding: 45px;
+        padding: 10px;
+      }
+
+      .signup {
+        padding: 0;
+        border-bottom: 0;
       }
 
       .header {
-        padding: 60px 45px;
+        padding: 30px 10px;
       }
 
       .cover {
-        height: 200px;
+        height: inherit;
       }
 
       .content {
@@ -380,26 +399,32 @@
 
 // newsletter
 
-.newsletter .newsletter-preamble {
-  float: left;
-  line-height: 30px;
-  font-size: 1.7rem;
-  font-weight: 600;
-  margin-bottom: 5px;
+// marketo form has a bug on mobile and doesn't display
+.newsletter {
+  .newsletter-preamble {
+    float: left;
+    line-height: 30px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .newsletter-form {
+    width: auto;
+    float: right;
+  }
+
+  .sbmc {
+    width: 100px;
+  }
+
+  @media only screen and (max-width : 768px) {
+    display: none;
+  }
 }
 
 .rss-btn .btn {
-  line-height: inherit;
-  padding: 4px 8px 4px 10px;
-}
-
-.newsletter .newsletter-form {
-  width: auto;
-  float: right;
-}
-
-.newsletter .sbmc {
-  width: 100px;
+  margin-right: 8px;
 }
 
 .newsletter-form div {
