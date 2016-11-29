@@ -165,7 +165,11 @@
   picture: Dinkum.jpg
   human: sarah
   story:  Dinkum loves locusts and worms, she's less keen on salad. When she's not napping, she enjoys sprinting around the house and hiding in really awkward places.
-  
+- name: Roo and Tugg
+  picture: roo_tugg.jpg
+  human: sasha
+  story:  Roo and Tugg are matching goldendoodles who hate wearing sweaters despite this photo. Roo likes to destroy anything that makes noise and Tugg enjoys making a lot of noise.
+
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
