@@ -3,11 +3,11 @@ title: "Setting Up GitLab CI for Android Projects"
 author: Greyson Parrelli
 author_twitter: greyson_p
 categories: GitLab CI
-image_title: '/images/blogimages/setting-up-gitlab-ci-for-android-projects/sample-app-screenshot.png'
+image_title: '/images/blogimages/setting-up-gitlab-ci-for-android-projects/banner.jpg'
 description: "Learn how to setup GitLab CI for your Android projects."
 ---
 
-Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile and pass your tests before they're merged in.
+Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile, and your tests pass before they're merged in.
 
 [GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to setup a basic config file (`.gitlab-ci.yml`) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
 
@@ -21,13 +21,13 @@ Here's the [sample project](https://gitlab.com/greysonp/gitlab-ci-android) we'll
 
 ### Unit Tests
 
-Unit tests are a fantastic way to catch regressions when making changes to your app. They run directly on the JVM, so you don't need an actual Android device to run them. As a result, they run quite quickly and are generally preferred over other types of tests when possible. For more information on unit tests, you can consult the [official documentation](https://developer.android.com/training/testing/unit-testing/index.html).
+[Unit tests](https://developer.android.com/training/testing/unit-testing/index.html) are the fundamental tests in your app testing strategy, from which you can verify that the logic of individual units is correct. They are a fantastic way to catch regressions when making changes to your app. They run directly on the Java Virtual Machine (JVM), so you don't need an actual Android device to run them.
 
-If you already have working unit tests, you shouldn't have to make any adjustments to have them work with GitLab CI. You can see the sample app's unit tests [here](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). The sample doesn't use [Robolectric](http://robolectric.org/), but nothing stops you from doing so.
+If you already have working unit tests, you shouldn't have to make any adjustments to have them work with GitLab CI. You can see some example unit tests in the [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/test/java/com/greysonparrelli/gitlabciandroid). The sample doesn't use [Robolectric](http://robolectric.org/), but nothing stops you from doing so.
 
 ### Functional Tests
 
-Functional tests, sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient. For more information on functional tests, you can consult the [official documentation](https://developer.android.com/training/testing/ui-testing/index.html).
+[Functional tests]((https://developer.android.com/training/testing/ui-testing/index.html)), sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient.
 
 Because functional tests run on an actual Android device or emulator, they tend to be finnicky. Any number of things could happen to screw up the test, including the screen locking. To help prevent this, the sample project includes a [base class](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/TestBase.java) for tests to ensure the screen is unlocked when the tests are run. The base class contains this `@Before`-annotated method, meaning that it is run before each of your tests:
 
@@ -115,6 +115,7 @@ functionalTests:
     - adb shell input keyevent 82
     - ./gradlew cAT
 ```
+
 _[Source](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/.gitlab-ci.yml)_
 
 Well, that's a lot of code! Let's break it down.
@@ -127,7 +128,9 @@ image: openjdk:8-jdk
 
 This tells [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html#runners) (the things that are executing our build) what [Docker image](https://hub.docker.com/explore/) to use. If you're not familiar with [Docker](https://hub.docker.com/), the TL;DR is that Docker provides a way to create a completely isolated version of a virtual operating system running in it’s own [container](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container-open-source-project/). Anything running inside the container thinks it has the whole machine to itself, but in reality there can be many containers running on a single machine. Unlike full virtual machines, Docker containers are super fast to create and destroy, making them great choices for setting up temporary environments for building and testing.
 
-[This Docker image](https://hub.docker.com/_/openjdk/) just has a basic installation of Java that we build upon further down in our config, which is necessary for building Android apps.
+[This Docker image](https://hub.docker.com/_/openjdk/) is just a barebones installation of Debian with Java pre-installed. We then run additional commands further down in our config to make our image capable of building Android apps.
+
+#### Defining Variables
 
 ```yml
 variables:
@@ -142,6 +145,8 @@ These are variables we'll use throughout our script. They're named to match the 
 - `ANDROID_BUILD_TOOLS` is the version of the Android build tools you are using. It should match `buildToolsVersion`.
 - `ANDROID_SDK_TOOLS` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
 
+#### Installing Packages
+
 ```yml
 before_script:
   - apt-get --quiet update --yes
@@ -150,7 +155,9 @@ before_script:
 
 This starts the block of the commands that will be run before each job in our config.
 
-These commands ensure that our package repository listings are up to date, and it installs packages we'll be using later on, namely: wget, tar, unzip, and some packages that are necessary to allow 64-bit machines to run Android's 32-bit tools.
+These commands ensure that our package repository listings are up to date, and it installs packages we'll be using later on, namely: `wget`, `tar`, `unzip`, and some packages that are necessary to allow 64-bit machines to run Android's 32-bit tools.
+
+#### Installing the Android SDK
 
 ```yml
   - wget --quiet --output-document=android-sdk.tgz https://dl.google.com/android/android-sdk_r${ANDROID_SDK_TOOLS}-linux.tgz
@@ -165,13 +172,17 @@ These commands ensure that our package repository listings are up to date, and i
 
 Here we're downloading the Android SDK tools from their official location, using our `ANDROID_SDK_TOOLS` variable to specify the version. Afterwards, we're unzipping the tools and running a series of `android` commands to install the necessary Android SDK packages that will allow our app to build.
 
+#### Setting Up the Environment
+
 ```yml
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=$PATH:$PWD/android-sdk-linux/platform-tools/
   - chmod +x ./gradlew
 ```
 
-Finally, we wrap up the `before_script` section of our config with a few remaining tasks. First, we set the `ANDROID_HOME` environment variable to the SDK location, which is necessary for our app to build. Next, we add the platform tools to our `PATH`, allowing us to use the `adb` command without specifying its full path, which is important when we run a downloaded script later. Finally, we ensure that `gradlew` is executable, as sometimes git will mess up permissions.
+Finally, we wrap up the `before_script` section of our config with a few remaining tasks. First, we set the `ANDROID_HOME` environment variable to the SDK location, which is necessary for our app to build. Next, we add the platform tools to our `PATH`, allowing us to use the `adb` command without specifying its full path, which is important when we run a downloaded script later. Finally, we ensure that `gradlew` is executable, as sometimes Git will mess up permissions.
+
+#### Define the Stages
 
 ```yml
 stages:
@@ -180,6 +191,8 @@ stages:
 ```
 
 Here we're defining the different [stages](https://docs.gitlab.com/ce/ci/yaml/README.html#stages) of our build. We can call these anything we want. A stage can be thought of as a group of [jobs](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs). All of the jobs in the same stage happen in parallel, and all jobs in one stage must be completed before the jobs in the subsequent stage begin. We've defined two stages: `build` and `test`. They do exactly what you think: the `build` stage ensures the app compiles, and the `test` stage runs our unit and functional tests.
+
+#### Build the App
 
 ```yml
 build:
@@ -191,7 +204,9 @@ build:
     - app/build/outputs/
 ```
 
-This defines our first job, called "build". It's the only job in the `build` stage. It just builds the debug version of the app and makes the outputs of the build available for download via the `artifacts` field.
+This defines our first job, called `build`. It's the only job in the `build` stage. It just builds the debug version of the app and makes the outputs of the build available for download via the `artifacts` field.
+
+#### Run Unit Tests
 
 ```yml
 unitTests:
@@ -200,7 +215,9 @@ unitTests:
     - ./gradlew test
 ```
 
-This defines a job called "unitTests" that runs during the `test` stage. Nothing crazy here - we're just running unit tests.
+This defines a job called `unitTests` that runs during the `test` stage. Nothing crazy here - we're just running unit tests.
+
+#### Run Functional Tests
 
 ```yml
 functionalTests:
@@ -219,7 +236,7 @@ functionalTests:
     - app/build/reports/androidTests/
 ```
 
-This defines a job called "functionalTests" that runs during the `test` stage. Functional tests are a little tricky to setup. First, we download a script made by the folks at [Travis CI](https://travis-ci.org/) that will allow us to detect when an emulator has finished booting. Then, we download the emulator system image we're going to use and create an instance of it. Afterwards, we start the emulator, wait for it to finish booting using our downloaded script, use `adb` to send a signal to unlock the screen, and run our tests. After the tests are run, the generated test report is made available for download via the `artifacts` field.
+This defines a job called `functionalTests` that runs during the `test` stage. Functional tests are a little tricky to setup. First, we download a script that will allow us to detect when an emulator has finished booting. Then, we download the emulator system image we're going to use and create an instance of it. Afterwards, we start the emulator, wait for it to finish booting using our downloaded script, use `adb` to send a signal to unlock the screen, and run our tests. After running these tests, the generated test report is made available for download via the `artifacts` field.
 
 ## Run Your new CI Setup
 
@@ -227,21 +244,23 @@ After you've added your new `.gitlab-ci.yml` file to the root of your directory,
 
 ![Pipelines tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-01.png)
 
-After your build is done, you can retrieve your build artifacts by clicking on your completed build...
+After your build is done, you can retrieve your build artifacts:
+
+- First, click on your completed build:
 
 ![Build details button screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-02.png)
 
-Navigating to the **Builds** tab...
+- Then, navigate to the **Builds** tab:
 
 ![Builds tab screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-03.png)
 
-And clicking the download button for your desired job.
+- Lastly, click on the download button for your desired job:
 
 ![Download button screenshot](/images/blogimages/setting-up-gitlab-ci-for-android-projects/artifacts-tutorial-04.png)
 
 ## Conclusion
 
-So there you have it! You now know how to create a GitLab CI config that will ensure your app:
+So, there you have it! You now know how to create a GitLab CI config that will ensure your app:
 
 - Compiles
 - Passes unit tests
