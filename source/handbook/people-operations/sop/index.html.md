@@ -42,12 +42,14 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 #### Compensation and Title Changes
 
-Any change to compensation or title must be requested in BambooHR. The Manager (Reports To) will initiate the change. Then the request is approved in the following order: Manager's Manager, CEO, and People Ops Admin.
+Any change to compensation or title requested by a manager must be approved before it is processed in Bamboo HR. The Manager (Reports To) should initiate the change by email to have it approved in the following order: Manager's Manager, Head of Department or CEO and finally, the Senior Director of People Operations.
 
 If you have any questions throughout this process, please feel free to contact People Ops. People Ops will confirm the change as the last step in the approval process. This ensures that further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
+
+If you feel your title is not aligned with your skill level or you are interested in the career ladder ahead, you should discuss your personal professional development plan with your manager or People Operations Generalist.
 
 ##### Process for Compensation and Title Change in BambooHR
 
