@@ -531,14 +531,11 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 
 ### Discretionary Bonuses
 
-1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
-   * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
-   * Managers can recommend their team members to the CEO for a $1,000 bonus.
-   * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
-   should be tied to our [values](#values).
-   * The manager should follow the following [process](https://about.gitlab.com/handbook/people-operations/sop/#processing-changes) to request the change in BambooHR. People Ops should _confirm_ when the approval has been processed, back to the manager.
-1. If you think you are meeting the requirements for another title, want to change
-jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+1. When individual team members go above and beyond their regular responsibilities to achieve outstanding results.
+   * We recognize their accomplishments on the #thanks channel and, on occasion, by awarding a discretionary bonus.
+   * Managers can recommend their direct reports to the CEO for a $1,000 (or local currency equivalent) bonus.
+   * Once approved, the manager announces the “who” and “why” on the next team call. The "why" must be directly related to our [values](#values).
+   * Managers should adhere to the following [process](https://about.gitlab.com/handbook/people-operations/sop/#processing-changes) to submit a request to add the discretionary bonus award in BambooHR. People Ops will _confirm_ when the transaction has been processed.
 
 ### Referral Bonuses
 
