@@ -13,14 +13,12 @@ running GitLab 8.14.0 with Mattermost enabled upgrade to this version
 **immediately**.
 Please read on for more details.
 <!-- more -->
-## Remote Command Execution via Mattermost Service
+## Remote Command Execution via Mattermost Service in 8.14.0
 Mattermost recently released a critical security update to address a remote
 command execution vulnerability. Because the Omnibus version of GitLab 8.14.0
 ships with Mattermost we are providing this emergency security patch.
 Details of the vulnerability can be found at
 [https://docs.mattermost.com/administration/changelog.html#release-v3-5-1](https://docs.mattermost.com/administration/changelog.html#release-v3-5-1)
-### Versions affected
-- 8.14.0
 
 We **strongly recommend** that all installations running GitLab 8.14.0 with
 Mattermost enabled upgrade immediately. Mattermost is *not* enabled by default.
@@ -38,7 +36,7 @@ Note: If you are running Mattermost on an external server and not through GitLab
 this workaround will not be sufficient. Please consult your Mattermost
 documentation on how to disable the service until you can install the patch.
 
-## Security fixes
+## 8.14.1, 8.13.7 and 8.12.10 Security fixes
 
 ### Users with Read Access to a Project Can Create Labels
 Hari Gopal reported a vulnerability involving non-members of a project who have
@@ -51,7 +49,7 @@ An internal code review discovered that it was possible to read private issues
 using specifically-crafted search queries for projects with issues visibility
 restricted to ‘Only team members'.
 
-## Other fixes
+## Other fixes in 8.14.1
 
 This version resolves a number of regressions and bugs in the [recent 8.14 release](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/).
 - CE/EE: Fix deselecting calendar days on contribution graph ([!6453](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6453))
