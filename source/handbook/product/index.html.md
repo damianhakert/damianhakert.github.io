@@ -378,12 +378,12 @@ customer that documentation is lacking is not.
 - Help build a vision for GitLab and GitLab's features
 - Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
 
-## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
+# Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-## EE only and Products
+# EE only and Products
 
 Products are large additions to GitLab that we sell separate to GitLab
 Enterprise Edition customers.
@@ -391,7 +391,7 @@ Enterprise Edition customers.
 EE only features are exclusive to GitLab Enterprise Edition, but don't
 require any additional purchases besides GitLab EE.
 
-### EE only or Product?
+## EE only or Product?
 
 Deciding on whether something should be a Product or just a EE-only
 feature can be tough. In doubt, make it a product, that's a reversible
@@ -402,7 +402,7 @@ Also consider:
 - Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
 - Does it have an alternative in the marketplace?
 
-### Talking about EE only decisions
+## Talking about EE only decisions
 
 When talking about why a certain change is limited to Enterprise Edition in
 public, [mention the stewardship paragraph in the about page][stewardship]
@@ -410,7 +410,7 @@ directly and link to it.
 
 [stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
-### Private tools and dashboards for monitoring and KPI tracking
+## Private tools and dashboards for monitoring and KPI tracking
 
 [EE usage](https://version.gitlab.com/): dev.gitlab.org account
 
@@ -426,7 +426,7 @@ directly and link to it.
 
 [Sentry](https://sentry.gitlap.com): dev.gitlab.org account
 
-## Writing about features
+# Writing about features
 
 As PM we need to constantly write about the features we ship: in a blog post,
 internally to promote something, in emails sent to customers.
@@ -451,6 +451,6 @@ feature. Describe the pain points.
 
 * Point to the documentation.
 
-## Links
+# Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
