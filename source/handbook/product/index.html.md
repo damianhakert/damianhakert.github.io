@@ -441,7 +441,7 @@ feature. Describe the pain points.
 
 > It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure for the information to be compromised. Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed files that were meant to stay local!
 
-* Explain in one line what we've shipped to fix this problem.
+* Explain what we've shipped to fix this problem.
 
 > GitLab now has a new push rule that will prevent commits with secrets from entering the repository.
 
@@ -449,7 +449,7 @@ feature. Describe the pain points.
 
 > Just check the checkbox and GitLab will prevent common unsafe files such as .pem and .key from being committed.
 
-* Point to the documentation.
+* Point to the documentation and any other relevant links (previous posts, etc).
 
 # Links
 
