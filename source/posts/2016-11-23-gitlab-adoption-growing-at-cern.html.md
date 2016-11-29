@@ -28,3 +28,5 @@ He has also found that the internal adoption of GitLab is spreading throughout C
 Not only are they an active team of users, they have also offered contributions. Lossent contributed the SAML code they wrote for their own usage, and earned an [MVP recognition](https://about.gitlab.com/mvp/) in June 2015. Thanks to their effort, GitLab can be configured to act as a [SAML](https://docs.gitlab.com/ce/integration/saml.html) 2.0 Service Provider, [since release 7.12](https://about.gitlab.com/2015/06/22/gitlab-7-12-released/). For this reason, the advantage of an open source code base management tool is clear.
 
 _Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
+
+Image: "[Views of the LHC tunnel sector 3-4 - CERN-AC-0910152-02](http://cds.cern.ch/record/1211045?ln=en)" by [CERN](http://home.cern/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
