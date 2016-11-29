@@ -21,32 +21,41 @@ Here are some tips from Mikael's experience:
 
 <!-- more -->
 
-Can you please tell me what you were using for your previous VCS?
+**What were you were using for your previous VCS?** 
+{: .alert .alert-info}
 
 Before migrating to GitLab, Vaadin used Gitolite for git repository management, Trac for issue tracking, and a variety of other platforms. We had a range of tools with separate instances provisioned for specific purposes within each project. 
 
-What were the challenges with it? Was there a specific moment when you knew it was time to try something else? 
+**What were the challenges with it? Was there a specific moment when you knew it was time to try something else?**
+{: .alert .alert-info} 
 
 As the team grew, the administrative overhead grew with it. For me, the work of tracking which repos individual projects were in, or who had access to what, was starting to burden the team. The development team had problems finding relevant projects, linking to the right issue tracker, and managing the needed credentials. They lost valuable time searching for the right version control system and the correct set of credentials for it. 
 
 As the IT Manager, I was tasked with setting up new repos and credentials for the growing number of projects, tools, and employees. In doing so, I noticed that our tooling was leading developers to inefficiently allocate their time and become frustrated. Like most companies, our engineering teams play a critical role in the success of our business. Vaadin couldn’t afford the loss of developers’ time. It was clear the team needed one platform where they could pull everything together under a single entry point. 
 
-Once you decided on us, how did you find the migration process? 
+**Once you decided on us, how did you find the migration process?**
+{: .alert .alert-info} 
 
 The prospect of a migration can be intimidating, but Omnibus made the installation and migration process easy, so we could begin using it very quickly. I ran the setup procedure to get the new system provisioned on a new virtual machine in Vaadin's on-premise servers. I was impressed by the Omnibus distribution, and once I set up the basic settings, it was pretty much self-service. The only thing we had to pay a little more attention to was how integrate GitLab into our authentication system (powered by CAS).
 
 I've been impressed in terms of maintenance and updates. Rather than a multitude of servers and configuration files, the only resources needed for the 200 internal projects that Vaadin runs using GitLab are just one server and one configuration file. You know there’s always that software where you try to postpone updates. But, with GitLab, it’s pretty safe to take the latest version. We’ve done the updates 20 times now.
 
-How have developers on your team responded to the switch? How did you announce the change?
+**How have developers on your team responded to the switch? How did you announce the change?**
+{: .alert .alert-info}
 
 We really emphasize open-mindedness and choice, so I couldn’t mandate a tool switch. I've heard from team members who appreciate that our culture allows people to choose their own hardware and discuss challenges openly. 
 
 So after I set up GitLab I wrote a post to all of our employees. I took the time to explain what GitLab is, what different people should use it for, and generally how GitLab as a tool fits with our culture. I was pleased to see that after they heard GitLab was available to them, people generally adopted it quickly.
 
-Can you share any details about how using GitLab has improved your team's performance or experience? 
+**Can you share any details about how using GitLab has improved your team's performance or general experience?** 
+{: .alert .alert-info}
 
 It made a big difference for us to have a central point for software projects that we could manage by ourselves and have all the tooling in one place. I think using GitLab has also led to improvements in our workflow and collaboration. Using cross-linking within GitLab, you can link to issues and merges, the mark-up system is great, and you can select a project’s activity to see all the members in one place. Integration, workflow, and communication have all been vastly improved. 
 
+
+_Tweet at us [@GitLab](https://twitter.com/gitlab), and check out our [job openings](https://about.gitlab.com/jobs/)_
+
+_Follow [@Vaadin](https://twitter.com/vaadin?lang=en) on Twitter_
 
 
 
