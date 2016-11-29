@@ -28,7 +28,7 @@ If you already have working unit tests, you shouldn't have to make any adjustmen
 
 ### Functional Tests
 
-[Functional tests]((https://developer.android.com/training/testing/ui-testing/index.html)), sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/tree/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient.
+[Functional tests]((https://developer.android.com/training/testing/ui-testing/index.html)), sometimes called UI tests or emulator tests, are great for those times when unit tests aren't practical. They are often used when you want to test a distinct user path that would be difficult to unit test. In our [sample app](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/AddingTest.java), we test the path of a user inputting numbers, pressing "Calculate," and seeing the result in the next Activity. Functional tests run on an actual Android device or emulator and can therefore be slow to execute, meaning that are typically only used when other testing methods aren't sufficient.
 
 Because functional tests run on an actual Android device or emulator, they tend to be finnicky. Any number of things could happen to screw up the test, including the screen locking. To help prevent this, the sample project includes a [base class](https://gitlab.com/greysonp/gitlab-ci-android/blob/master/app/src/androidTest/java/com/greysonparrelli/gitlabciandroid/TestBase.java) for tests to ensure the screen is unlocked when the tests are run. The base class contains this `@Before`-annotated method, meaning that it is run before each of your tests:
 
@@ -129,7 +129,7 @@ image: openjdk:8-jdk
 
 This tells [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html#runners) (the things that are executing our build) what [Docker image](https://hub.docker.com/explore/) to use. If you're not familiar with [Docker](https://hub.docker.com/), the TL;DR is that Docker provides a way to create a completely isolated version of a virtual operating system running in it’s own [container](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container-open-source-project/). Anything running inside the container thinks it has the whole machine to itself, but in reality there can be many containers running on a single machine. Unlike full virtual machines, Docker containers are super fast to create and destroy, making them great choices for setting up temporary environments for building and testing.
 
-[This Docker image](https://hub.docker.com/_/openjdk/) is just a barebones installation of Debian with Java pre-installed. We then run additional commands further down in our config to make our image capable of building Android apps.
+This [Docker image (openjdk:8-jdk)](https://hub.docker.com/_/openjdk/) works perfectly for our use case, as it is just a barebones installation of Debian with Java pre-installed. We then run additional commands further down in our config to make our image capable of building Android apps.
 
 #### Defining Variables
 
@@ -276,6 +276,7 @@ Enjoy your newfound app stability :)
 [Greyson Parrelli](http://www.greysonparrelli.com/) is an Android developer at Snap Inc. working on [Snapchat](https://play.google.com/store/apps/details?id=com.snapchat.android&hl=en). Previously, he's worked on the [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en), [Yahoo! Weather](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.weather&hl=en), and [Yahoo! Mail](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.mail&hl=en) Android apps.
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/28 -->
+<!-- cover image: https://unsplash.com/photos/aso6SYJZGps -->
 
 <style>
   img {
