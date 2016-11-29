@@ -39,7 +39,7 @@ Tier out marketing efforts over next few months to ensure that there is consiste
 - Discount for their service and send out to all our customers
 
 ## Partner Newsletter Feature
-In line with the objective of: Promote existing partnerships to be at top-of-mind for developers, a regular feature in our fortnightly (8th & 22nd) newsletter will promote our partners to our target audience.
+In line with the objective of: Promote existing partnerships to be at top-of-mind for developers, a regular feature in our fortnightly (8th & 22nd) newsletter will promote our partners to our target audience. This feature should be co-authored by the partner.
 
 Possible content:
 - Feature on new partner if signed
@@ -54,4 +54,4 @@ Suggested Format:
 - Links: GitLab integration/partner page & partner website
 - ROI - Track click-through to partner website and provide partner with metrics
 
-Submit to the 8th and 22nd of the month newsletter issue in the marketing project
+Submit to the 8th and 22nd of the month newsletter issue in the marketing project. Request that partner features segment in their newsletter if possible.
