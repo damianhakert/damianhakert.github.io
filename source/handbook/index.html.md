@@ -533,7 +533,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 
 1. When individual team members go above and beyond their regular responsibilities to achieve outstanding results.
    * We recognize their accomplishments on the #thanks channel and, on occasion, by awarding a discretionary bonus.
-   * Managers can recommend their direct reports to the CEO for a $1,000 (or local currency equivalent) bonus.
+   * Managers can recommend their direct reports to their manager for a $1,000 (or local currency equivalent) bonus.
    * Once approved, the manager announces the “who” and “why” on the next team call. The "why" must be directly related to our [values](#values). For example, awards have been given to team members who:
    1. Make it their purpose in life to create simple and boring solutions,
    2. Continuously demonstrate efficiency, collaboration, kindness or quirkiness,
