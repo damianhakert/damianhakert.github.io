@@ -4,6 +4,7 @@ author: Greyson Parrelli
 author_twitter: greyson_p
 categories: GitLab CI
 image_title: '/images/blogimages/setting-up-gitlab-ci-for-android-projects/banner.jpg'
+twitter_image: '/images/tweets/setting-up-gitlab-ci-for-android-projects.png'
 description: "Learn how to setup GitLab CI for your Android projects."
 ---
 
