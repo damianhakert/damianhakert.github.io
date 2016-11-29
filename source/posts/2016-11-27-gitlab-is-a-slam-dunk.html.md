@@ -8,8 +8,6 @@ description: "Developer Warren Postma shares his opinions on VCS, after years of
 twitter_image: '/images/tweets/why-bare-metal.png'
 ---
 
-_If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
-
 Warren Postma is a team lead and "de facto DevOps guy" at [RamSoft](https://www.ramsoft.com/), but like so many he's gotten hooked on [contributing](https://gitlab.com/warren.postma) to GitLab in his spare time. After becoming familiar with GitHub, Atlassian, and Mercurial in previous jobs, he felt strongly that Git and GitLab were the best choice for his current team. Since reaching that conclusion, he's also assisted his peers and former colleagues in their switch to GitLab, so I wanted to hear his opinions - they're both strong and numerous, which made for a fun conversation.
 
 <!--more-->
@@ -63,6 +61,7 @@ A pet peeve of mine can be summed up in the saying "When all you have is a hamme
 
 In terms of companies and products that I consider to be almost "peers" of GitLab, perhaps Bitbucket is closest. I prefer GitLab because the product is open source, the people are great, and the growing community around GitLab is also great. Oh and the product is growing at a fantastic pace. Just watching it from mid 2015 to today, the pace of innovation has been boggling. I have also collaborated with GitLab community members to create add-ons and tools. One guy made a Python-based tool that uses the GitLab API to [expire and delete old artifacts](https://github.com/JonathonReinhart/gitlab-artifact-cleanup) *site-wide*. Another guy made a Go-based tool that copies Issues and Issue labels from one project to another. All great plugins from the community!
 
+_If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
 
 _Follow Warren on [Twitter](https://twitter.com/warrenpostma)_
 
