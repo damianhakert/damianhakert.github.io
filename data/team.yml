@@ -74,7 +74,7 @@
   locality: Lisbon
   country: Portugal
   role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">VP of Product</a>
-  reports_to: Interim VP of Marketing
+  reports_to: CEO
   picture: picture_job.jpg
   twitter: Jobvo
   gitlab: JobV
@@ -2065,7 +2065,7 @@
   gitlab:
   story:  |
           Joining November 28th
-          
+
 - name: C.D.
   locality:
   country:
@@ -2076,7 +2076,7 @@
   gitlab:
   story:  |
           Joining December 1st
-          
+
 - name: B.K.
   locality:
   country:
