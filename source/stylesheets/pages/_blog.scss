@@ -82,7 +82,7 @@
 
     @media only screen and (max-width : 768px) {
       .section {
-        margin: 5px 10px;
+        margin: 0 0 10px;
         clear: both;
       }
     }
@@ -186,6 +186,10 @@
       margin-top: 10px;
       color: $blog-color-purple;
       background-color: $color-white;
+    }
+
+    .browse {
+      margin: 0 10px;
     }
 
     .more:hover,
@@ -393,6 +397,7 @@
     background-color: $blog-color-ipanel-heading;
     border-radius: 0;
     border: 0;
+    line-height: 27px;
   }
 }
 
