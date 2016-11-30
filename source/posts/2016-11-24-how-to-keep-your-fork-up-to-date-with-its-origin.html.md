@@ -28,21 +28,41 @@ When you fork a project and clone it to your local computer, you need to update 
 To prevent this, you need first update your local repo, then start your work. This takes time and if you forget to do it, can cause a lot of pain. What I'd normally do is the following:
 
 - Open the project in the terminal and checkout `master`
+
+    ```shell
     cd <directory>
     git checkout master
+    ```
+
 - Pull the upstream master branch
-    git pull https://gitlab.com/<namespace>/<project>.git master`
+    
+    ```shell
+    git pull https://gitlab.com/<namespace>/<project>.git master
+    ```
+
 - Git will prompt you to commit
-- Push to my fork
+- Push to your fork
+    
+    ```shell
     git push origin master
+    ```
+
 - Checkout a new branch
-    git checkout -b my-new-branch
+
+    ```shell
+    git checkout -b your-new-branch
+    ```
+
 - Make changes
-- Add, commit and push to my fork
+- Add, commit and push to your fork
+
+    ```shell
     git add
     git commit -m "commit message"
-    git push origin my-new-branch
-- Create a new merge request in the GitLab UI to merge `my-fork/my-new-branch` into the `upstream/master`
+    git push origin your-new-branch
+    ```
+
+- Create a new merge request in the GitLab UI to merge `your-fork/your-new-branch` into the `upstream/master`
 
 **Note:** You can rebase it too, but particularly, I prefer pulling, as rebasing can get messy.
 {: .note}
@@ -55,35 +75,51 @@ GitLab can do that for you with no pain! Yay!
 
 What you need to do is very simple: enable [GitLab Repository Mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html)!
 
-- 1. Mirror your fork
+**First**. Mirror your fork:
 
 Under your forked project's **Settings**, navigate to **Mirror Repository**:
 
 ![settings - mirror repository](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png){:.shadow}
 
-- 2. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
+**Second**. Add the upstream's path to the field **Git repository URL**, then enable automatic mirroring:
 
 ![fork - enable automatic repository update](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/setup-automatic-mirror.png){:.shadow}
 
-- 3. Setup the **mirror user**: it's the user whose the new commits to the upstream project will be attributed to.
+**Third**. Setup the **mirror user**: it's the user whose the new commits to the upstream project will be attributed to in your fork.
 
 Done! Once an hour, GitLab will pull the upstream for you, and keep your fork up-to-date!
 
 By doing so, you only need to take care of your branching strategy before starting to work. All the rest GitLab does for you!
 
 - Open the project in the terminal and checkout `master`
+    
+    ```shell
     cd <directory>
     git checkout master
+    ```
+
 - Update your local branch with the origin
+    
+    ```shell
     git pull
+    ```
+
 - Checkout a new branch
-    git checkout -b my-new-branch
+
+    ```shell
+    git checkout -b your-new-branch
+    ```
+
 - Make changes
-- Add, commit and push to the fork
+- Add, commit and push to your fork
+
+    ```
     git add
     git commit -m "commit message"
-    git push origin my-new-branch
-- Create a new merge request in the GitLab UI to merge `my-fork/my-new-branch` into the `upstream/master`
+    git push origin your-new-branch
+    ```
+
+- Create a new merge request in the GitLab UI to merge `your-fork/your-new-branch` into the `upstream/master`
 
 Simple, isn't it? 
 
@@ -98,4 +134,6 @@ We would love to know how you do that! Do you have a different solution? You can
 
 We hope to have provided you with an easy solution for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
 
-Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the issue, or tweet at us [@GitLab](https://twitter.com/gitlab)! We ❤️ our community!
+Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/25147), or tweet at us [@GitLab](https://twitter.com/gitlab)! We ❤️ our community!
+
+<!-- cover image: https://unsplash.com/search/fork?photo=8yqds_91OLw -->
