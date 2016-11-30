@@ -67,7 +67,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
    1. [ ] People Ops (Recruiter): Add new team member to the next monthly GitLab 101 call
    1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
-   1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call. 
+   1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
    1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
    1. [ ] People Ops (Recruiter): If in a technical role, add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
    1. [ ] Hiring Manager: Add team member to weekly team meetings.
@@ -76,8 +76,6 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] People Ops (Recruiter): Add to phishing testing platform
 1. [ ] People Ops (Recruiter): Check if new team member indicated who they were referred by (in bottom of application, in Workable). If no referral indicated, check with new team member by asking in this issue "@{new team member} please let people ops know if you were referred by another GitLab team member; otherwise we will assume you were not".
     1. [ ] People Ops (Specialist): If the new team member was referred, add the referral bonus to BambooHR.
-1. [ ] People Ops (Recruiter): reach out to the new team member to identify and order any necessary supplies/equipment. Send an email to their GitLab account, personal email, and cc Peopleops.<br>
-"Please let People Ops (cced here) know if there are any necessary supplies or equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter."
 1. [ ] People Ops (Recruiter): Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue. Template text:
 
     > Welcome to GitLab, we're excited that you're joining our team!
@@ -96,7 +94,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > tell us about where you were before GitLab, why you wanted to join our
     > team, just a little something about your background and of course
     > something on what you like to do in your spare time.
-    >
+
+    > Please let People Ops (cced here) know if there are any necessary supplies
+    > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter.
+    
     > Here is $50 in swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
     > Swag codes: [Enter 2 swag codes]
@@ -265,7 +266,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1.  [ ] People Ops (Recruiter): Have member sign NDA.
 1.  [ ] People Ops (Recruiter): Add member to #core in Slack.  
 1.  [ ] People Ops (Recruiter): Give member developer access to gitlab-org.
-1.  [ ] People Ops (Specialist): Change to core team member in BambooHR. 
+1.  [ ] People Ops (Specialist): Change to core team member in BambooHR.
 
 ```
 
@@ -278,7 +279,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 <a name="general"></a>
 
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
-* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber. 
+* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber.
 * If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
