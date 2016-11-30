@@ -81,8 +81,6 @@
       $newCountryDropdown.on('click', this.filterCityDropdown.bind(this));
       $newCountryDropdown.on('click', this.resetCityDropdown.bind(this));
 
-      // Render Formula
-
       // Highlighting for Filter
       $currentCountryDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
       $currentCityDropdownContainer.on('keydown', this.highlightDropdownItem.bind(this));
@@ -202,7 +200,7 @@
     }
 
     MoveCalculator.prototype.preventLetters = function(e) {
-      if (e.which < 48 || e.which > 57) {
+      if (e.which < 48 || e.which > 57) { // Note: `e.which` is part of jQuery
         e.preventDefault();
       }
     }
@@ -211,6 +209,7 @@
       $currentSalary = $(formulaContainer + ' .currentSalary');
       $currentSalary.find('.value').text('$'+ $(e.currentTarget).val());
     }
+
     // Custom dropdown functionality
 
     MoveCalculator.prototype.filterCityDropdown = function(e) {
@@ -322,9 +321,7 @@
 
     MoveCalculator.prototype.renderContractType = function() {
       var values = this.getElementValues();
-      // var currentCountry = values.currentCountry;
       var newCountry = values.newContract;
-      // var currentContract = this.calculateContractFactor(currentCountry);
       var newContract = this.calculateContractFactor(newCountry);
       var $container = $('.contract-type-container');
 
