@@ -8,6 +8,15 @@ description: 'Why GitLab went with Vue.js'
 twitter_image: '/images/tweets/why-choose-vuejs.png'
 ---
 
+{::options parse_block_html="true" /}
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+Join Jacob and Phil Hughes from GitLab live for a Frontend Update including more details
+on why we chose Vue.js on Thursday, December 1st. 
+[Watch live here](https://www.youtube.com/watch?v=ioogrvs2Ejc)!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
 I had a great conversation with an interviewee a few weeks ago about how one
 should go about choosing a JavaScript framework.
 
