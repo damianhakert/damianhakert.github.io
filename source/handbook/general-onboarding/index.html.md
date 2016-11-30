@@ -317,7 +317,7 @@ The most common Issues are created in the following projects:
 
 Welcome to GitLab! We are happy to have you join our company and to include
 you in our [team page](https://about.gitlab.com/team/). The following are
-the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step. These are the steps to do this on the GitLab.com User Interface.
+the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step to add yourself locally. These are the steps to do this on the GitLab.com User Interface.
 
 1. Create an account on [GitLab.com](https://gitlab.com/) and take note of
 your username and password, because you will need them throughout these steps.
@@ -327,7 +327,7 @@ project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onb
 1. Find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/), change the picture's name to
 the following format: `yourname.jpg` or `yourname.png` and then follow the
-"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps if you would like to add the photo locally. To add the photo on the web UI select files, source, images, team. Select "+" and upload the file. Commit your changes to a target branch and enter in a commit message similar to "add (name) photo). Picture Notes:
+"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps if you would like to add the photo locally. To add the photo on the web UI select files, source, images, team. Select "+" and upload the file. Commit your changes to a target branch and enter in a commit message similar to "add (name) photo." Picture Notes:
    - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
    - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
