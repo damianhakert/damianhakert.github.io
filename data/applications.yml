@@ -333,6 +333,11 @@
       links:
         - url: https://about.gitlab.com/gitlab-ci/
           title: GitLab CI
+    - title: Codeship
+      content: Hosted Continuous Integration & Delivery with native Docker support that allows to fully customize your CI environment 
+      links:
+        - url: https://codeship.com/gitlab
+          title: Codeship Continuous Integration with GitLab
     - title: Magnum CI
       content: Hosted Continuous Integration and Delivery Platform
       links:
