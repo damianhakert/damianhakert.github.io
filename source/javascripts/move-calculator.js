@@ -273,10 +273,11 @@
       var input = this.getElementValues();
 
       function renderData() {
-        if (input.currentCountry && input.currentCity &&
-            input.newCountry && input.newCity &&
-            input.salary) {
-          this.renderCompensation(input);
+        if (input.currentCountry && input.currentCity && input.newCountry) {
+          if (input.newCity && input.salary) {
+            this.renderCompensation(input);
+          }
+          
           this.renderContractType();
         } else {
           this.renderInvalidCompensation();
