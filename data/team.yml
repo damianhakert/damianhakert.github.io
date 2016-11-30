@@ -1761,7 +1761,7 @@
   locality: Berlin
   country: Germany
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: julius.jpg
   twitter: juliusvolz
   gitlab: juliusv
@@ -1769,11 +1769,11 @@
           Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
           He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
-- name: B.B
+- name: Brian Brazil
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1784,7 +1784,7 @@
   locality: Caherlistrane, Co. Galway
   country: Ireland
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: lyda.jpeg
   twitter: lyda
   gitlab: lyda
@@ -2078,7 +2078,7 @@
   story:  |
           Joining December 1st
 
-- name: P.K. 
+- name: P.K.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -2088,8 +2088,8 @@
   gitlab:
   story:  |
           Joining January 2nd
-          
-- name: B.K.
+
+- name: Ben Kochie
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/prometheus-lead/">Prometheus Lead</a>
