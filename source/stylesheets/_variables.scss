@@ -162,3 +162,8 @@ $features-gallery-background-gradient-begin: #6b4fbb;
 $features-gallery-background-gradient-middle: #5942a0;
 $features-gallery-background-gradient-end: #42327a;
 $features-gallery-alt-description-black: rgba(0, 0, 0, .7);
+
+$ee-standalone-primary-background-gradient: linear-gradient(to right, $color-primary-alt 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
+$ee-standalone-hero-background-top: rgba(52, 55, 60, .85);
+$ee-standalone-hero-background-gradient: linear-gradient(to bottom, $ee-standalone-hero-background-top, $landing-community-bg 85%);
+

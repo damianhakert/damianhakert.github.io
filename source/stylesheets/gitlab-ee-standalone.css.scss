@@ -1,0 +1,94 @@
+@import "vendor/bootstrap/bootstrap/variables";
+@import "variables";
+
+body {
+  padding-top: 0;
+}
+
+.gitlab-ee-standalone {
+  .landing-container {
+    background: url("/images/gitlab_ee/hero/ee-standalone-hero-2x.png") center center no-repeat;
+    background-size: cover;
+    background-color: #landing-community-bg;
+
+    &::after {
+      background-image: $ee-standalone-hero-background-gradient;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .dev-cycle {
+    text-align: center;
+
+    .step-name-container {
+      position: absolute;
+      left: 50%;
+
+      .step-name {
+        position: relative;
+        left: -50%;
+      }
+    }
+
+    svg {
+      height: 46px;
+      width: 46px;
+
+      path {
+        fill: $color-secondary;
+      }
+    }
+
+    .step {
+      width: 46px;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+      color: $color-secondary;
+
+      .step-name {
+        text-transform: uppercase;
+      }
+    }
+
+    .arrows {
+      position: absolute;
+      top: 25px;
+      right: -25px;
+
+      i {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  .contact-sales {
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .top-reasons {
+    text-align: center;
+
+    .media {
+      @media(max-width: $screen-sm-max) {
+        text-align: left;
+      }
+    }
+  }
+
+  .orgs-row {
+    // name orgs-row or something
+    text-align: center;
+    margin-bottom: 20px;
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+}
