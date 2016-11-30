@@ -187,7 +187,7 @@ Here we're downloading the Android SDK tools from their official location, using
 
 Finally, we wrap up the `before_script` section of our config with a few remaining tasks. First, we set the `ANDROID_HOME` environment variable to the SDK location, which is necessary for our app to build. Next, we add the platform tools to our `PATH`, allowing us to use the `adb` command without specifying its full path, which is important when we run a downloaded script later. Finally, we ensure that `gradlew` is executable, as sometimes Git will mess up permissions.
 
-#### Define the Stages
+#### Defining the Stages
 
 ```yml
 stages:
@@ -197,7 +197,7 @@ stages:
 
 Here we're defining the different [stages](https://docs.gitlab.com/ce/ci/yaml/README.html#stages) of our build. We can call these anything we want. A stage can be thought of as a group of [jobs](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs). All of the jobs in the same stage happen in parallel, and all jobs in one stage must be completed before the jobs in the subsequent stage begin. We've defined two stages: `build` and `test`. They do exactly what you think: the `build` stage ensures the app compiles, and the `test` stage runs our unit and functional tests.
 
-#### Build the App
+#### Building the App
 
 ```yml
 build:
@@ -211,7 +211,7 @@ build:
 
 This defines our first job, called `build`. It's the only job in the `build` stage. It just builds the debug version of the app and makes the outputs of the build available for download via the `artifacts` field.
 
-#### Run Unit Tests
+#### Running Unit Tests
 
 ```yml
 unitTests:
@@ -222,7 +222,7 @@ unitTests:
 
 This defines a job called `unitTests` that runs during the `test` stage. Nothing crazy here - we're just running unit tests.
 
-#### Run Functional Tests
+#### Running Functional Tests
 
 ```yml
 functionalTests:
