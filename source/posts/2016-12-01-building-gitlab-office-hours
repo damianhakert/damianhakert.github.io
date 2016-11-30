@@ -1,0 +1,130 @@
+---
+title: "Building GitLab with VP of Product Job van der Voort"
+author: Erica Lindberg
+author_twitter: EricaLindberg_
+categories: inside GitLab 
+image_title: '/images/unsplash/data.png'
+description: ""
+twitter_image: '/images/tweets/feature-preview-introducing-cycle-analytics.png'
+---
+
+{::options parse_block_html="true" /}
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an update and Q&A with our Frontend Engineering team. [Get the details here][https://www.youtube.com/watch?v=ioogrvs2Ejc]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
+ 
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/njP8Wvp45o0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+## Highlights 
+
+### 1:07 GitLab's Vision
+
+"When we announced our B round in Septmeber, we said, "Ok, what we're going to do is we're going to try 
+and ship the whole GitLab flow, going from idea all the way to production and we're going to ship it by the end of the year."
+
+### 2:06 One of the most important things...
+
+"...has been Review Apps." 
+
+### 2:42 What is Review Apps?
+
+"When you do a merge request, let's say you have some change you want to make on the website.
+In the past, you would create a merge request and then somebody would check out the code; maybe
+you have CI (continuous integration) running automatically to see if those tests past.Now, if 
+you wanted to actually *see* the changes, and play around with them, you would still have to
+checkout the branch for the merge request locally and run it to your local development environment.
+
+With Review Apps, what happens is that rather than you having to do anything, 
+on every single merge request we automatically create a new envionment. In that environment,
+we run a full, live environment."
+
+### 4:09 Ok, but how do you manage this architecture? 
+
+"Once that branch is deleted, we will automatically destroy it. So you won't
+be bother with having to manage those environments." 
+
+### 4:57 Time Tracking Beta released for GitLab Enterprise Edition
+
+"What you can do with GitLab 8.14 Enterprise Edition is you can set - for each issue 
+that you're working on - an estimate and you can set how you are spent your time.
+You don't even need to do this all at once. You can just set an estimate at the beginning,
+and as you spend time, you can just type a comment with a slash command for time spent."
+
+### 7:04 Mattmost Chat Commands
+
+"As the whole world started hanging out in chat, we wanted to bridge the gap 
+from chat to GitLab. In GitLab 8.14, for the first time we released chat slash 
+commands."
+
+### 8:50 But wait, there's more
+
+"There's a few small feautures that we added that I think are extremely cool."
+(Seriously, go find out!)
+
+### 10:23 Ask me anything
+
+10:38 Is there a mobile handbook of GitLab for the Kindle?
+
+11:02 What are your thoughts on the short term possiblities of NLP, chat, 
+Conversational Development, and local development data sets?
+
+12:38 How do you decide what to work on each release?
+
+15:29 Feature proposal to improve labels and issues
+
+18:40 What kind of data do you receive from on-premise GitLab instances? What kind of
+data insights can you obtain from this group of users?
+
+21:22 Are there any downsides of only planning a few months ahead?
+
+
+## Upcoming Live Streams 
+
+<div class="panel panel-gitlab-orange">
+**Why We Chose Vue.js**
+{: .panel-heading}
+<div class="panel-body">
+
+An update from the frontend engineering team. 
+
+</div>
+</div>
+
+<div class="panel panel-success">
+**Monitoring Distributed Systems with Prometheus**
+{: .panel-heading}
+<div class="panel-body">
+
+Webcast follow up on why we chose bare metal and how we monitor our infrastructure
+with Prometheus 
+
+</div>
+</div>
+
+<div class="panel panel-gitlab-purple">
+**UX Webcast**
+{: .panel-heading}
+<div class="panel-body">
+
+Webcast w
+
+</div>
+</div>
+
+
+<!-- identifiers -->
+
+[8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html
+[frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
+[infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
+[ux-webcast]: 
+
+## Community Discussion & Highlights 
+
+## Upcoming Events
