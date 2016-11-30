@@ -476,8 +476,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
-    *  Travel and lodging to get together with colleagues and work on a specific project, with a minimum of 3 team members present and 3 days of co-location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department. For meals specifically:
-        * They are generally not covered out of fairness to any people already on location.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
