@@ -32,13 +32,13 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-currentCountry' => p.country}
+            %li.hidden{'data-current-country' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4
       .form-group.input-container.current-salary
-        %label.input-label{ for: 'currentSalary' } Current compensation
-        %input#currentSalary.form-control.input-sm.input-field{ placeholder: '$ Enter your compensation' }
+        %label.input-label{ for: 'current-salary' } Current compensation
+        %input#current-salary.form-control.input-sm.input-field{ placeholder: '$ Enter your compensation' }
   %h4.title New contract
   .col-sm-12
     .col-sm-4
@@ -66,7 +66,7 @@
             %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
-            %li.hidden{'data-newCountry' => p.country}
+            %li.hidden{'data-new-country' => p.country}
               %span.key= p.city
               %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
     .col-sm-4

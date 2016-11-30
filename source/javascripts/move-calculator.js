@@ -97,11 +97,11 @@
 
       $currentCityFilter.on('keyup', this.search.bind(this, {
         dropdown: 'current-city',
-        filter: 'currentCountry',
+        filter: 'current-country',
       }));
       $newCityFilter.on('keyup', this.search.bind(this, {
         dropdown: 'new-city',
-        filter: 'newCountry',
+        filter: 'new-country',
       }));
 
       $currentSalary.on('keypress', this.preventLetters.bind(this));
@@ -120,9 +120,11 @@
       var text = e.target.value.toLowerCase();
       var filterValue = null;
       var $items = $(moveContainer + ' .' + data.dropdown + ' li:not(.filter-container)');
+      var filterName;
 
       if (data.filter) {
-        filterValue = this.getElementValues()[data.filter];
+        filterName = data.filter === 'current-country' ? 'currentCountry' : 'newCountry';
+        filterValue = this.getElementValues()[filterName];
       }
 
       $items.each(function(index, element) {
@@ -218,11 +220,11 @@
 
       if ($countryDropdown.hasClass('current-country')) {
         selectedCountry = this.getElementValues().currentCountry;
-        dataAttr = 'currentcountry';
+        dataAttr = 'current-country';
         $cities = $(moveContainer + ' .current-city li:not(.filter-container)');
       } else if ($countryDropdown.hasClass('new-country')) {
         selectedCountry = this.getElementValues().newCountry;
-        dataAttr = 'newcountry';
+        dataAttr = 'new-country';
         $cities = $(moveContainer + ' .new-city li:not(.filter-container)');
       }
 
