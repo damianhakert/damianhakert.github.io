@@ -19,10 +19,10 @@ twitter_image: /images/handbook/marketing/community-writers-twitter-illustration
 We want to publish you! **Earn up to $200 per article** writing for the [GitLab Blog].
 
 Are you great at solving challenging problems or explaining complex ideas? Do you
-have a specific area of expertise and want to share your knowledge? Help us expand 
-our range of tutorials and advice about creating, collaborating, and deploying with 
+have a specific area of expertise and want to share your knowledge? Help us expand
+our range of tutorials and advice about creating, collaborating, and deploying with
 Git and GitLab.  You don't have to be an experienced writer, we will work with you
-to revise, refine, and publish your post to share with our community. 
+to revise, refine, and publish your post to share with our community.
 
 ## How It Works
 
@@ -30,16 +30,15 @@ to revise, refine, and publish your post to share with our community.
 2. Start writing
 3. Get paid
 
-All of GitLab's blog posts begin as an issue in the [GitLab blog post project][blog-project]. 
+All of GitLab's blog posts begin as an issue in the [GitLab blog post project][blog-project].
 To become a community author:
 
 - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with "[up-for-grabs]"
-- Write a quick introduction in the comments section explaining what is your background on that subject
-- Link to an existing [writing sample][sample], or write a new one
+- Submit an the first two paragraphs of the article or link to a relevant article you've written before.
 - Leave a comment "@marcia I would like to write this post, and I accept the terms on the [Community Writers Program](#)"
 
-If you don't see a topic that interests you, you can propose a new topic by 
-creating a new issue and following the instructions above. Once approved, start writing!
+If you don't see a topic that interests you, you can propose a new topic by
+creating a new issue and following the last two instructions above. Once approved Marcia will leave a comment "@username, you got it!" and you can start writing!
 
 ## Get Paid
 
@@ -51,8 +50,8 @@ creating a new issue and following the instructions above. Once approved, start 
 Issues labeled **TOP PRIORITY**, will be compensated at **USD 200** regardless of length.
 {:.alert .alert-info .text-center #top-priority}
 
-When your post gets published, send us an invoice. GitLab will pay you in 
-American Dollars (USD) from a bank account in the USA, via wired transfer 
+When your post gets published, send us an invoice. GitLab will pay you in
+American Dollars (USD) from a bank account in the USA, via wired transfer
 to your bank account.
 
 ## Learn More
@@ -73,7 +72,6 @@ to your bank account.
 [publishing-process]: /handbook/marketing/blog/#publishing-process-for-community-writers
 [gitlab blog]: /blog/
 [Pages group]: https://gitlab.com/groups/pages
-[sample]: /handbook/marketing/blog/#sample
 [Writing Method]: /handbook/marketing/developer-relations/technical-writing/#writing-method
 [topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues/
 
