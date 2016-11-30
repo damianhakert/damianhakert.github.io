@@ -123,6 +123,9 @@ Well, that's a lot of code! Let's break it down.
 
 ### Understanding `.gitlab-ci.yml`
 
+#### Defining the Docker Image
+{:.special-h4}
+
 ```yml
 image: openjdk:8-jdk
 ```
@@ -147,6 +150,7 @@ These are variables we'll use throughout our script. They're named to match the 
 - `ANDROID_SDK_TOOLS` is a little funny. It's what version of the command line tools we're going to download from the [official site](https://developer.android.com/studio/index.html). So, that number really just comes from the latest version available there.
 
 #### Installing Packages
+{:.special-h4}
 
 ```yml
 before_script:
@@ -282,5 +286,8 @@ Enjoy your newfound app stability :)
   img {
     display: block;
     margin: 0 auto 20px auto;
+  }
+  .special-h4 {
+    margin-top: 20px !important;
   }
 </style>
