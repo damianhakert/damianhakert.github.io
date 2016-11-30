@@ -4,8 +4,6 @@ title: Team Structure
 page_class: org-structure
 extra_css:
   - "org-chart.css"
-extra_js:
-  - libs/perfect-scrollbar.min.js
 ---
 
 :markdown
@@ -25,10 +23,4 @@ extra_js:
       - team_data_tree.each do |member|
         %li
           = partial "team_member", locals: {member: member}
-
-:javascript
-  window.addEventListener('load', function loadPerfectScroll(event) {
-    var container = document.querySelector('.org-chart-container');
-    Ps.initialize(container);
-    window.removeEventListener('load', loadPerfectScroll, false);
-  }, false);
+  
