@@ -274,7 +274,7 @@ We will endeavour to provide funds to support up one event per reseller per quar
 Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
 
 # Online Marketing Support Requests 
-Gitlab may, at our discretion, also assist you with your advertising campaigns by matching your financial contribution to run online marketing campaigns. When requesting assistance, be as complete as you can in describing what you need, who the audience is, and the ROI. 
+Gitlab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
 
 # Swag Requests 
 Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
