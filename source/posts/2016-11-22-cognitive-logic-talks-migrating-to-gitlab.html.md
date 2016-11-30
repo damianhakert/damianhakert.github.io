@@ -6,10 +6,7 @@ categories: user stories
 image_title: '/images/team_gitlab.png'
 ---
 
-
-*If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!*
-
-Data analytics startup [Cognitive Logic](http://www.cognitivelogic.com/) helps companies store, share, and examine consumer information without compromising security. I sat down with engineer Johan Brandhorst to learn more about his team, their work, and how GitLab helps. 
+Data analytics startup [Cognitive Logic](http://www.cognitivelogic.com/) helps companies store, share, and examine consumer information without compromising security. I sat down with engineer Johan Brandhorst to learn more about his team, their work, and how GitLab helps.
 
 Three of our offerings in particular drove Cognitive Logic's decision to switch to GitLab:
 
@@ -17,11 +14,9 @@ Three of our offerings in particular drove Cognitive Logic's decision to switch 
 * Easily Configurable CI
 * Easy migration from GitHub
 
-Johan also told me that his team's biggest challenge with GitLab is that it can be difficult to orchestrate CI between repositories; he says they're looking forward to being able to chain testing between repositories. A fix is in the works - in typical fashion, minutes after I posted his query on Slack our Head of Product, [Mark Pundsack](https://twitter.com/MarkPundsack), wrote back that we have [existing functionality](https://docs.gitlab.com/ce/ci/triggers/) that allows one pipeline to trigger another pipeline in a different project. There are also several [issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/933) open to make this better.  
+<!--more-->
 
-Read the full conversation below!
-
-<!-- more -->
+Johan also told me that his team's biggest challenge with GitLab is that it can be difficult to orchestrate CI between repositories; he says they're looking forward to being able to chain testing between repositories. A fix is in the works - in typical fashion, minutes after I posted his query on Slack our Head of Product, [Mark Pundsack](https://twitter.com/MarkPundsack), wrote back that we have [existing functionality](https://docs.gitlab.com/ce/ci/triggers/) that allows one pipeline to trigger another pipeline in a different project. There are also several [issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/933) open to make this better.
 
 **Could you please explain for our readers what the dev team at Cognitive Logic does? What kinds of projects do you work on?**
 {: .alert .alert-info}
@@ -50,8 +45,9 @@ We try to raise issues when features or bugs arise, then triage in a branch, sub
 
 **Johan:** We started the migration process quite early so there wasn’t much work to be done. I used the “import from Github” tool to get our repositories up and running on GitLab, and it imported all our issues and merge requests without problems. For the developers it took a little getting used to, but being able to sign up with your Google or Github account helped. There hasn’t been any real problems with our transition to GitLab, I’d consider the features of GitLab to be a superset of those available on GitHub, so it was all positive. The currently biggest problem with GitLab to us is that it can be difficult to orchestrate CI between repositories. We would like to be able to chain testing between repositories so that a change in one repo can automatically trigger a merge request in another repo (complete with testing). I know this kind of solution is being worked on and we’re eager to see what the team can deliver.
 
+*If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!*
 
-_Read more about [Cognitive Logic](http://www.cognitivelogic.com/), and follow them on [Twitter](https://twitter.com/cognitivelogic)._ 
+_Read more about [Cognitive Logic](http://www.cognitivelogic.com/), and follow them on [Twitter](https://twitter.com/cognitivelogic)._
 
-_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._ 
+_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
 
