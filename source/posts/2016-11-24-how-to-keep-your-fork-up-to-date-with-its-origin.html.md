@@ -90,85 +90,12 @@ Simple, isn't it?
 Repository mirroring is available for free at **GitLab.com** and for all **GitLab Enterprise Edition** users.
 {: .alert .alert-success .text-center}
 
-## A Solution for GitLab CE Users
-
-We know, if you're a **GitLab Community Edition** (CE) user, you might have felt disappointed with my last sentence. Well, by subscribing to GitLab EE, you'll have this feature and more than 30 other awesome possibilities. You can [try GitLab EE for free](/free-trial/)!
-
-But okay, let's give you a different solution with similar results for CE, inspired by [Kay Strobach](https://twitter.com/kaystrobach), who kindly posted to [this post's issue on GitLab.com](https://gitlab.com/gitlab-com/blog-posts/issues/299#note_18912122).
-
-He uses a [job](https://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in his [GitLab CI](/gitlab-ci/) configuration file (`.gitlab-ci.yml`) in his upstream project to push to his fork every commit in his upstream's master branch:
-
-```yaml
-stages:
-  - distribute
-
-publishToExternalgit:
-  image: docker.kay-strobach.de/docker/php:latest
-  stage: distribute
-  environment: testing
-  script:
-    - git status
-    - git remote add --mirror=fetch extern git@hostname:group/project.git || true
-    - git push extern master
-    - git remote rm extern
-  only:
-    - master@group/project
-```
-
-And he explains:
-
-> _The local and the remote project need to be either in different groups or projects, to ensure that the job is not triggered on both sides of the sync_.
-
-The `git remote add` command adds the external remote reference (upstream), and the `only` section ensures that this is not issued from forks if you push it to another GitLab instance.
-
-### Authentication
-
-If your fork and upstream project are in GitLab, you'll need to create a personal token to be able to push to a project, as GitLab will deny push attempts whenever you try to push code without logging in first (or username + password, or via SSH).
-
-For example, let's say my fork is <https://gitlab.com/marcia/www-gitlab-com> and the upstream project is <https://gitlab.com/gitlab-com/www-gitlab-com/>, this job would be placed under my **upstream**'s `.gitlab-ci.yml`:
-
-```yaml
-stages:
-  - distribute
-publishToExternalgit:
-  image: docker.kay-strobach.de/docker/php:latest
-  stage: distribute
-  environment: testing
-  script:
-    - git status
-    - git remote add --mirror=fetch extern https://marcia:$SECRET_TOKEN@gitlab.com/marcia/upstream.git
-    - git push extern master
-    - git remote rm extern
-  only:
-    - master
-```
-
-The variable `$SECRET_TOKEN` should be defined by navigating to your project's **Settings** > **Variables**. The variable name is defined at your will, and the key value should be an access token from the personal GitLab account of your fork (which is the project we want to push code to, whenever the upstream project master's branch is updated).
-
-To create a token for you account, navigate to your profile's **Settings** -> Token -> New token. <!-- VERIFY THIS-->
-
-![settings - account token](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/mirror-repository-settings.png){:.shadow}
-
-This is the token that should be added as a project variable in the upstream project.
-
-<div class="panel panel-gitlab-orange">
-**Security Note**
-{: .panel-heading #security-note}
-<div class="panel-body">
-Note that this method of pushing code from one GitLab project to another is not the safest solution, once you may expose your account token in the build logs.
-
-If you use this method, you'd better prevent the builds to be displayed publicly by disabling public pipelines:
-
-![disable public view of pipelines and builds](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/xxxxxxx)
-</div>
-</div>
-
 ## What is Your Solution?
 
-We would love to know how you do that! Have a different solution? You can certainly help others. Let's share them all in [this post's issue](https://gitlab.com/gitlab-com/blog-posts/issues/299), so everyone from the community can decide which solution suits themselves best! Thank you!
+We would love to know how you do that! Do you have a different solution? You can certainly help others. Let's share them all in [this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/25147), so everyone from the community can decide which solution suits themselves best! Thank you!
 
 ## Conclusion
 
-We hope to have provided you with easy solutions for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
+We hope to have provided you with an easy solution for keeping your fork up-to-date. Remember, you can even mirror repositories hosted in other Git platforms!
 
 Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the issue, or tweet at us [@GitLab](https://twitter.com/gitlab)! We ❤️ our community!
