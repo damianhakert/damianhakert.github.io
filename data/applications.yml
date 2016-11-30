@@ -201,7 +201,7 @@
   id: utilities
   applications:
     - title: BugMuncher
-      content: 'Collect user feedback and bug reports on your website, which can be created as issues in a GitLab project. Information on how to integrate BugMuncher with GitLab can be found in the <a href="https://docs.bugmuncher.com/integrations/">BugMuncher Documentation</a>' 
+      content: 'Collect user feedback and bug reports on your website, which can be created as issues in a GitLab project. Information on how to integrate BugMuncher with GitLab can be found in the <a href="https://docs.bugmuncher.com/integrations/">BugMuncher Documentation</a>'
       links:
         - url: https://www.bugmuncher.com/
           title: BugMuncher User Feedback
@@ -333,21 +333,34 @@
       links:
         - url: https://about.gitlab.com/gitlab-ci/
           title: GitLab CI
-    - title: Codeship
-      content: Hosted Continuous Integration & Delivery with native Docker support that allows to fully customize your CI environment 
-      links:
-        - url: https://codeship.com/gitlab
-          title: Codeship Continuous Integration with GitLab
-    - title: Magnum CI
-      content: Hosted Continuous Integration and Delivery Platform
-      links:
-        - url: http://blog.magnum-ci.com/post/55149963415/integration-with-gitlab
-          title: Magnum CI Integration with GitLab
     - title: BuildKite
       content: BuildKite runs builds on GitLab commits, either on self-hosted GitLab repositories or GitLab.com.
       links:
         - url: https://buildkite.com/docs/guides/gitlab
           title: BuildKite
+    - title: Codeship
+      content: Hosted Continuous Integration & Delivery with native Docker support that allows to fully customize your CI environment
+      links:
+        - url: https://codeship.com/gitlab
+          title: Codeship Continuous Integration with GitLab
+    - title: Jenkins
+      content: We support Jenkins through the Jenkins GitLab plugin.
+      links:
+        - url: http://doc.gitlab.com/ee/integration/jenkins.html
+          title: Jenkins CI integration
+    - title: Magnum CI
+      content: Hosted Continuous Integration and Delivery Platform
+      links:
+        - url: http://blog.magnum-ci.com/post/55149963415/integration-with-gitlab
+          title: Magnum CI Integration with GitLab
+    - title: Shippable
+      content: |
+        Shippable is the one solution you need to automate your application
+        delivery pipelines, with the flexibility to work with your existing
+        tools, processes and infrastructure.
+      links:
+        - url: http://docs.shippable.com/ht_using_gitlab/
+          title: Shippable GitLab integration
     - title: StriderCD
       content: StriderCD is an open-source continuous integration tool that integrates well with GitLab.
       links:
@@ -358,19 +371,6 @@
       links:
         - url: https://www.jetbrains.com/teamcity/features/
           title: TeamCity
-    - title: Jenkins
-      content: We support Jenkins through the Jenkins GitLab plugin.
-      links:
-        - url: http://doc.gitlab.com/ee/integration/jenkins.html
-          title: Jenkins CI integration
-    - title: Shippable
-      content: |
-        Shippable is the one solution you need to automate your application
-        delivery pipelines, with the flexibility to work with your existing
-        tools, processes and infrastructure.
-      links:
-        - url: http://docs.shippable.com/ht_using_gitlab/
-          title: Shippable GitLab integration
 - title: CMS Plugins
   id: cms-plugins
   applications:
