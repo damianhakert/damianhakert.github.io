@@ -129,7 +129,7 @@ image: openjdk:8-jdk
 
 This tells [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html#runners) (the things that are executing our build) what [Docker image](https://hub.docker.com/explore/) to use. If you're not familiar with [Docker](https://hub.docker.com/), the TL;DR is that Docker provides a way to create a completely isolated version of a virtual operating system running in it’s own [container](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container-open-source-project/). Anything running inside the container thinks it has the whole machine to itself, but in reality there can be many containers running on a single machine. Unlike full virtual machines, Docker containers are super fast to create and destroy, making them great choices for setting up temporary environments for building and testing.
 
-This [Docker image (openjdk:8-jdk)](https://hub.docker.com/_/openjdk/) works perfectly for our use case, as it is just a barebones installation of Debian with Java pre-installed. We then run additional commands further down in our config to make our image capable of building Android apps.
+This [Docker image (`openjdk:8-jdk`)](https://hub.docker.com/_/openjdk/) works perfectly for our use case, as it is just a barebones installation of Debian with Java pre-installed. We then run additional commands further down in our config to make our image capable of building Android apps.
 
 #### Defining Variables
 
