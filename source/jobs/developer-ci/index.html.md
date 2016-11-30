@@ -1,14 +1,14 @@
 ---
 layout: job_page
-title: "Backend Developer, CI/CD Pipelines"
+title: "Senior Backend Developer, CI/CD Pipelines"
 ---
 
 CI Backend Developers are primarily tasked with improving the Continuous
 Integration (CI) and Continuous Deployment (CD) functionality in GitLab. See
-the description on the [CI team](/handbook/backend#ci) for more details. CI
+the description on the [CI team](/handbook/backend#ci) for more details. Senior CI
 Backend Developers report to the [CI Lead](/jobs/ci-lead/).
 
-We are currently looking for experienced engineers who are proficient in the
+We are currently looking for senior engineers who are proficient in the
 Go programming language.
 
 ## Responsibilities

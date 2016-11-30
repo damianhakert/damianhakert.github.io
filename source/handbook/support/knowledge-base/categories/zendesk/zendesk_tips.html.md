@@ -24,13 +24,13 @@ to you.
 
 ### View your assigned tickets
 
-A good place to view all tickets, including Open, Pending, Solved and On-Hold,
+A good place to view all tickets, including Open, Pending, Solved, and On-Hold,
 is your user profile. Click your avatar in the top right corner and then choose
 'View profile' at the top of the dropdown.
 
-On the profile page you will see all ticket. Open tickets are shown first,
-following by Pending, Closed and On-Hold. This a quick way to see the most
-recent Open and Pending tickets.
+On the profile page you will see all your tickets. Open tickets are shown first,
+followed by Pending, On-Hold, Solved, and Closed. This is a quick way to see the
+most recent Open and Pending tickets.
 
 ![Zendesk profile page](/images/handbook/support/zendesk_profile_page.png)
 
@@ -49,7 +49,7 @@ are nearing breach or actually breaching and respond to those first.
 ### View your On-Hold tickets
 
 Tickets are placed On-Hold is they are awaiting a response from GitLab. For
-example, maybe it's a feature request waiting to be schedule. We don't need
+example, maybe it's a feature request waiting to be scheduled. We don't need
 to respond to these within the 24 hour response time but it's still important
 to go through them periodically and ensure we're making progress.
 
@@ -60,7 +60,7 @@ To view your On-Hold tickets, go to the 'My On-Hold Tickets' view.
 ### View all tickets Pending/On-Hold < 7 days
 
 In addition to viewing your own tickets On-Hold, it may be beneficial to look
-all *all* tickets that have been On-Hold or Pending for more than 7 days.
+at *all* tickets that have been On-Hold or Pending for more than 7 days.
 
 In the case of Pending tickets, an agent may need to follow up and close the
 ticket or send the customer another message asking if they still need help.
@@ -73,10 +73,9 @@ To view these tickets, go to 'On-Hold > 7 Days' or 'Pending > 7 Days'.
 
 ## Zendesk settings
 
-
 ### Service Level Agreements set as Business Rules
 
-Within Zendesk, the SLA's are set as follows. Under Business Rules in the Admin console,
+Within Zendesk, the SLAs are set as follows. Under Business Rules in the Admin console,
 Service Level Agreements are defined. Currently only one is defined, with different response times
 required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
 

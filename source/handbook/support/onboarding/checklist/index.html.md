@@ -65,6 +65,8 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
 1. [ ] Get familiar with the services GitLab offers
   1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
   1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
+    1. [ ] Read through the [GitHost documentation](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md)
+
 
 ### Stage 2. Installation and Administration basics.
 
@@ -93,6 +95,8 @@ _Typically started in first week, completed by end of third week_
 
 You will keep one installation continually updated on Digital Ocean, just like many of our clients. But you need to choose where you would like to test other installations. TODO: We need to list some benefits of each choice here.
 
+1. [ ] Submit an issue on the [GitLab infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues/) titled 'Add <name> as a developer in Digital Ocean'.
+1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/knowledge-base/categories/general/local_test_env.html)
 1. [ ] Choose your preferred test environment between Local VM's or Digital Ocean and put it in a comment below.
 
 Installation from source is not common but will give you a greater understanding of the components that we employ and how everything fits together.

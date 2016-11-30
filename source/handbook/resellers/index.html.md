@@ -44,10 +44,10 @@ When responding to the customer, please be sure to BCC [email to SFDC](#email-to
 If a lead is unmodified (by not having received a reply for instance) for 1 week, the lead will then receive a follow up email in English that looks like this:
 
 > Greetings `Customer Name`
-> 
+>
 > I hope this finds you well.
 > I wanted to follow up on our introduction of `partner` the other day. Have you spoken with them yet? Is there anything that perhaps I can do for you?
-> 
+>
 > `GitLab employee signature block`
 
 #### Lead aging - 2 weeks
@@ -205,7 +205,7 @@ If there are any additional email addresses you want me to enable SFDC to receiv
 
 ## Technical Support
 
-While we do not require them to, we do expect that your customers will, for the most part, contact you if they need help. 
+While we do not require them to, we do expect that your customers will, for the most part, contact you if they need help.
 It is in both of our best interest that they do so, as the more touch points you have with them, the more likely you are to further develop business with them.
 We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you will need to escalate some issues to our support staff.
 To facilitate this, you will be assigned a [Designated Support Engineer (DSE)](https://about.gitlab.com/handbook/support/#dedicated-service-engineers) to help your staff troubleshoot and resolve any issues that your customers may encounter.
@@ -219,10 +219,10 @@ For this reason, all correspondence should be in English as that is the language
 
 When contacting your DSE, you will need to include the following for each incident:
 
-- Name and email address of the end user reporting the problem, their GitLab.com user ID (if they have one), and their company name. 
+- Name and email address of the end user reporting the problem, their GitLab.com user ID (if they have one), and their company name.
 - What EE version they are using
 - Salient details about their setup
-- First date of issue occurrence 
+- First date of issue occurrence
 - Any related open bug reports, feature requests, etc. on the gitlab-ce or gitlab-ee issue trackers
 
 Do not escalate GitLab.com or GitLab CE incidents to your DSE; instead please refer them to the normal support channels.
@@ -260,25 +260,28 @@ You should use our Authorized Reseller Logo on your materials where appropriate 
 
 The logos are available in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
 
+
 ## Marketing
 
 GitLab will strive to support you in your marketing efforts. Marketing activities should be focused on GitLab EE, and will usually fall into 1 of 3 categories:
 
-# Event Funds Requests
+### Event Funds Requests
+
 We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. Meetups, drink ups, hackathons, trade shows, and seminars are all examples of events that we may help you with. Leads gathered at an event that we help fund or promote are required to be shared with us. These leads will be assigned to you in SalesForce.
 
-We will endeavour to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. **Please submit the request for event sponsorship no later than one month before the date of the event.**
+We will endeavor to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. **Please submit the request for event sponsorship no later than one month before the date of the event.**
 
 *If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
 
 Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
 
-# Online Marketing Support Requests 
-Gitlab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
+### Online Marketing Support Requests
 
-# Swag Requests 
+GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
+
+### Swag Requests
 Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
-We have been known to co-fund co-branded or locally produced SWAG.  Send us your idea [here](stephane@gitlab.com).
+We have been known to co-fund co-branded or locally produced SWAG. Send us your idea to Stephane (stephane@ company domain).
 
 
 <style>

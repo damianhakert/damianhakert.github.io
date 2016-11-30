@@ -5,7 +5,7 @@ title: "Infrastructure"
 
 ## Communication<a name="reach-infra"></a>
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. Still alive, but in the course of being deprecated, there is the public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
 - [**Chat channel**](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## Infrastructure roles

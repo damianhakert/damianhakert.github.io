@@ -42,6 +42,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
+  * [Product Areas](/handbook/product/product-areas)
 * [Miscellaneous](/handbook/miscellaneous)
 
 ----
@@ -284,6 +285,7 @@ step, **re-assign** the issue to that person.
 1. Once a merge request is created, make sure to assign it to the proper person:
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
+    1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
     1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
     1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
@@ -300,7 +302,8 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
+1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and we have a 1 GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Access recordings in [Zoom](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
@@ -472,8 +475,10 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, please submit a proposal and get permission from your manager.
-    *  Travel and lodging to get together with colleagues and work on a specific project, with a minimum of 3 team members present and 3 days of co-location. Meals are generally not covered out of fairness to any people already on location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
+    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+        * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
+        * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.

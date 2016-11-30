@@ -320,32 +320,36 @@
 }
 
 .homepage-blog-section {
-  padding-top: 70px;
+  padding: 70px 0 20px;
 
-  .post-item {
+  .cover {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 12px;
+  }
+
+  .overlay {
+    background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
+    display: block;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
     text-align: center;
-
-    h4,
-    a {
-      color: $color-white;
-      font-weight: 300;
-
-    }
-
-    .no-image {
-      background-image: url("/images/home/generic-blog-cover.png");
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-    }
-
-    .color-bg {
-      height: 200px;
-      padding: 0 25px;
-      margin-bottom: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+    color: $blog-color-heading;
+    vertical-align: middle;
+    font-weight: 600;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
