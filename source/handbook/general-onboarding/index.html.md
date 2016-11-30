@@ -67,7 +67,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
    1. [ ] People Ops (Recruiter): Add new team member to the next monthly GitLab 101 call
    1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
-   1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call. 
+   1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
    1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
    1. [ ] People Ops (Recruiter): If in a technical role, add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
    1. [ ] Hiring Manager: Add team member to weekly team meetings.
@@ -265,7 +265,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1.  [ ] People Ops (Recruiter): Have member sign NDA.
 1.  [ ] People Ops (Recruiter): Add member to #core in Slack.  
 1.  [ ] People Ops (Recruiter): Give member developer access to gitlab-org.
-1.  [ ] People Ops (Specialist): Change to core team member in BambooHR. 
+1.  [ ] People Ops (Specialist): Change to core team member in BambooHR.
 
 ```
 
@@ -278,7 +278,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 <a name="general"></a>
 
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
-* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber. 
+* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber.
 * If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
@@ -317,26 +317,17 @@ The most common Issues are created in the following projects:
 
 Welcome to GitLab! We are happy to have you join our company and to include
 you in our [team page](https://about.gitlab.com/team/). The following are
-the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step.
+the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step. These are the steps to do this on the GitLab.com User Interface.
 
 1. Create an account on [GitLab.com](https://gitlab.com/) and take note of
 your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com
 project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
 1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
-1. Download Git, following the [start using git
-documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
-1. Follow the steps to create and add your [SSH
-keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).<br>
-Note: in some of these steps, your
-[shell](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html) will
-require you to add your GitLab.com username and password.
-1. Clone the www-gitlab-com project through your shell, following the [command line commands
-documentation](http://doc.gitlab.com/ce/gitlab-basics/command-line-commands.html).
 1. Find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/), change the picture's name to
 the following format: `yourname.jpg` or `yourname.png` and then follow the
-"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps. Picture Notes:
+"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps if you would like to add the photo locally. To add the photo on the web UI select files, source, images, team. Select "+" and upload the file. Commit your changes to a target branch and enter in a commit message similar to "add (name) photo). Picture Notes:
    - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
    - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
