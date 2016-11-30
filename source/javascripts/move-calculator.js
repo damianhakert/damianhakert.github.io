@@ -207,11 +207,6 @@
       }
     }
 
-    MoveCalculator.prototype.inputSalary = function(e) {
-      $currentSalary = $(formulaContainer + ' .currentSalary');
-      $currentSalary.find('.value').text('$'+ $(e.currentTarget).val());
-    }
-
     // Custom dropdown functionality
 
     MoveCalculator.prototype.filterCityDropdown = function(e) {
