@@ -208,19 +208,30 @@
     border-color: $dropdown-focus-color;
   }
 
-  .input-label {
+  .input-label,
+  .input-prefix,
+  .input-field {
     position: absolute;
+  }
+
+  .input-label {
     top: 4px;
     font-size: 13px;
     color: $color-gray-light;
     font-weight: normal;
   }
 
+  .input-prefix {
+    left: 10;
+    bottom: 3px;
+    color: $color-gray-light;
+  }
+
   .input-field {
-    position: absolute;
     bottom: 4px;
+    left: 20px;
     padding: 0;
-    width: 95%;
+    width: 90%;
     height: 18px;
     font-size: 15px;
     outline: 0;
