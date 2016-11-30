@@ -1,7 +1,12 @@
+---
+layout: markdown_page
+title: Partners
+---
+
 ## Open to Collaboration
 GitLab is an open product with a Community Edition product that is fully open-source and an Enterprise Edition product that is built on our Community Edition but with additional features that are closed-sourced. We're open to integrations with companies and tools that are interested in harnessing GitLab's platform capabilities, user flows and data with their products.
 
-##Integrating with GitLab
+## Integrating with GitLab
 
 ### Ways to Integrate
 If you want to integrate with GitLab there are three possible paths you can take:
