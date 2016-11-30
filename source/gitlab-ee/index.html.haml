@@ -8,41 +8,15 @@ extra_js:
   - home.js
   - landing-ee.js
 ---
-- if data.promo.link && data.promo.text
-  .gitlab-promo-banner.animated
-    %a{href: data.promo.link}= data.promo.text
-
 .page-container.landing-container.text-center
+  .ee-navbar Benefits Features Pricing Compare
   #js-landing-community.landing-community
   .container.splash-container
     .landing-hero.hidden-xs
       = partial "images/home/gitlab-illustration.svg"
     %h1.page-headline
-    %h2.page-subtitle
       GitLab Enterprise Edition helps large teams innovate faster without compromising security or quality.
-    -# .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
-    -#   - data.development_cycle.each_with_index do |item, index|
-    -#     %a.step{href: "#step-#{index+1}"}
-    -#       = icon("home/icon-step-#{index + 1}")
-    -#       .step-name-container
-    -#         .step-name
-    -#           #{item[:name]}
-    -#       - if index < data.development_cycle.length - 1
-    -#         .arrows
-    -#           %i.fa.fa-angle-double-right
-
-
--# .dev-cycle.cycle-vertical
--#   - data.development_cycle.each_with_index do |item, index|
--#     .step{id: "step-#{index+1}"}
--#       = icon("home/icon-step-#{index + 1}")
--#       .step-name
--#         #{item[:name]}
--#       .description
--#         #{item[:description]}
--#       - if index < data.development_cycle.length - 1
--#         .line-container
--#           = partial "images/home/icon-line.svg"
+    %h2.page-subtitle
 
 = partial "includes/gitlab-ee/larger-teams"
 = partial "includes/gitlab-ee/os-principles"
