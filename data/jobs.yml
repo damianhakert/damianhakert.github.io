@@ -20,13 +20,19 @@
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
-  apply: 
+  apply:
   open: false
 
 - title: "Backend Developer"
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
+  open: true
+
+- title: "Senior Backend Developer, CI/CD Pipelines"
+  description: /jobs/developer-ci/
+  salary: 87337
+  apply: https://gitlab.workable.com/jobs/381495/candidates/new
   open: true
 
 - title: "Business Development Representative - Inbound"
@@ -133,8 +139,8 @@
 
 - title: "Open Application"
   description: /jobs/open-application/
-  apply: https://gitlab.workable.com/jobs/298091/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Business Development Representative - Outbound"
   description: /jobs/business-development-representative-outbound/
@@ -143,7 +149,7 @@
 
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
-  apply: 
+  apply:
   open: false
 
 - title: "VP of Marketing"

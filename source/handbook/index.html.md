@@ -19,6 +19,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Engineering](/handbook/engineering)
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
+  * [Backend](/handbook/backend)
+  * [Edge](/handbook/edge)
+  * [UX](/handbook/ux)
 * [Marketing](/handbook/marketing)
   * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
@@ -39,6 +42,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
+  * [Product Areas](/handbook/product/product-areas)
+* [Miscellaneous](/handbook/miscellaneous)
 
 ----
 
@@ -280,6 +285,7 @@ step, **re-assign** the issue to that person.
 1. Once a merge request is created, make sure to assign it to the proper person:
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
+    1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
     1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
     1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
@@ -296,7 +302,8 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
+1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and we have a 1 GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Access recordings in [Zoom](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
@@ -457,6 +464,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
     *  [Yubikey](https://www.yubico.com/store/)
+    *  [USB hub](https://www.amazon.com/Kensington-UH4000-Port-USB-3-0/dp/B00O9RPP28/)
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
@@ -467,8 +475,10 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, please submit a proposal and get permission from your manager.
-    *  Travel and lodging to get together with colleagues and work on a specific project, with a minimum of 3 team members present and 3 days of co-location. Meals are generally not covered out of fairness to any people already on location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
+    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+        * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
+        * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
@@ -521,7 +531,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 - Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other participants.
 - You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
 - Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
-- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying [Accounts Payable](mailto:ap@gitlab.com) before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses
@@ -693,6 +703,10 @@ If you use the archive function you normally return to your overview.
 With auto-advance you can return to the next message.
 Enable 'Auto-advance' in the labs section under settings.
 The default setting of showing the next older message is OK.
+
+#### Email signature
+
+Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
 
 ### Hangouts
 
@@ -884,11 +898,11 @@ linking your account to Git.
 
 ### 4. Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+1. In a terminal, execute: `rvm install 2.3.1` to install Ruby
    (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
+1. Execute: `rvm use 2.3.1 --default` to set your default Ruby to `2.3.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+   `ruby 2.3.1p112 (2016-04-26 revision 54768)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### 5. Clone the source of the website and install its dependencies

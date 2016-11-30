@@ -12,6 +12,24 @@ class OrgChart
     build_json_data
   end
 
+  def team_data_tree
+    tree = Hash.new do |h, k|
+      h[k] = {
+        name: nil,
+        lead: nil,
+        children: []
+      }
+    end
+
+    team_data.each do |member|
+      name, lead = member.values_at(:name, :lead)
+      tree[name].merge!(member)
+      tree[lead][:children].push(tree[name])
+    end
+
+    tree[nil][:children]
+  end
+
   private
 
   def normalize_reports_to_field
@@ -34,15 +52,15 @@ class OrgChart
 
       {
         name: entry['name'],
-        lead: @title_to_person_map.fetch(reports_to, ''),
+        lead: @title_to_person_map.fetch(reports_to, nil),
         title: entry['role'],
-        speciality: entry.fetch('speciality', '')
+        speciality: entry.fetch('speciality', nil)
       }
     end
   end
 
   def strip_tags(str)
-    str.gsub(/<\/?[^>]*>/, '')
+    str.gsub(%r{</?[^>]*>}, '')
   end
 
   def add_manual_entries

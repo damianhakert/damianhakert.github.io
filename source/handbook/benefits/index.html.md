@@ -36,7 +36,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
            the lump sum would be $10,000.
 1. [Paid time off policy](https://about.gitlab.com/handbook/#paid-time-off).
 1. [Further incentives](https://about.gitlab.com/handbook/#incentives), such as
-   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner-evangelism-reward)
+   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
    - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)
    - [Referral Bonuses](https://about.gitlab.com/handbook/#referral-bonuses)
    - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/#work-remotely-travel-grant)

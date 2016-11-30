@@ -1,5 +1,6 @@
 ---
 layout: comparison_page
+trial_bar: true
 title: GitLab compared to other tools
 suppress_header: true
 image_title: '/images/comparison/title_image.png'
@@ -109,7 +110,7 @@ GitLab Enterprise Edition can have a geographically replicated instance,
 so your remote teams don't have to wait for long downloads when cloning or
 pulling from repositories.
 
-[Geo is available as an Enterprise Edition option](https://about.gitlab.com/pricing/).
+[Geo is available as an Enterprise Edition Product](https://about.gitlab.com/pricing/).
 
 [Read the Geo docs for more information](http://docs.gitlab.com/ee/gitlab-geo/README.html)
 
@@ -119,9 +120,16 @@ directory. This ensures that no one will work on or overwrite work that
 can't be merged easily, for instance when working with art assets or
 other non-text files.
 
-[File locking is available as an Enterprise Edition option](https://about.gitlab.com/pricing/).
+[File locking is available as an Enterprise Edition Product](https://about.gitlab.com/pricing/).
 
 [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
+
+## Time Tracking
+Time Tracking in GitLab Enterprise Edition lets your team add estimates and record
+time spent on issues and merge requests. There is no need to use external tools
+anymore.
+
+[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.

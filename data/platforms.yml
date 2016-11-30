@@ -81,6 +81,40 @@
   firewall_open: |
                     sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
+- name: opensuse421
+  long_name: OpenSUSE 42.1
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo zypper install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/opensuse/42.1/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo zypper install curl openSSH postfix
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo yast2 firewall services add tcpport=80,443,22,25,465,587 udpport=80,443,22,25,465,587 zone=EXT
+                    sudo rcSuSEfirewall2 restart
+- name: opensuse132
+  long_name: OpenSUSE 13.2
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo zypper install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/opensuse/13.2/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo zypper install curl openSSH postfix
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo yast2 firewall services add tcpport=80,443,22,25,465,587 udpport=80,443,22,25,465,587 zone=EXT
+                    sudo rcSuSEfirewall2 restart
 - name: raspberrypi2
   long_name: Raspberry PI 2 on Raspbian
   download_command: |

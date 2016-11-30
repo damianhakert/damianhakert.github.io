@@ -127,10 +127,10 @@ configure :build do
   ## Release list page
   releases = ReleaseList.new
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
-
-  org_chart = OrgChart.new
-  proxy "/team/structure/org-chart/index.html", "/team/structure/org-chart/template.html", locals: { team_data: org_chart.team_data }, ignore: true
 end
+
+org_chart = OrgChart.new
+proxy "/team/structure/index.html", "/team/structure/template.html", locals: { team_data_tree: org_chart.team_data_tree }, ignore: true
 
 page '/404.html', directory_index: false
 

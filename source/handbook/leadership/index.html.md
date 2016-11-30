@@ -41,8 +41,10 @@ title: Leadership
 
 ## Books
 
-- High output management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
-- The Hard thing about hard things - Ben Horowitz
+Note: Books in this section [can be expensed](https://about.gitlab.com/handbook/#spending-company-money).
+
+- High Output Management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
+- The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers - Ben Horowitz
 - [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
 - Crucial Conversations: Tools for Talking When Stakes Are High - Kerry Patterson 
 
