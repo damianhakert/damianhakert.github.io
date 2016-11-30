@@ -41,7 +41,7 @@ My colleagues go through the same process until all of their work is visible too
 
 ## This is how GitLab works!
 
-The process I described above is a [workflow in which everyone collaborates to bring an idea to production] (https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/), and it’s a process that works just as well for developers making software as it does for my imaginary newspaper team.
+The process I described above is a [workflow in which everyone collaborates to bring an idea to production](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/), and it’s a process that works just as well for developers making software as it does for my imaginary newspaper team.
 
 ![Idea to Production](/images/blogimages/idea-to-production.png)
 
