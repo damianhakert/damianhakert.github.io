@@ -9,27 +9,27 @@
   .col-sm-12
     .col-sm-4
       .dropdown.current-country
-        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+        %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
           %span.label Country
           %span.title --
           %i.fa.fa-chevron-down
         %ul.dropdown-menu.dropdown-scroll
           %li.filter-container
-            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country'}
+            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country' }
             %i.fa.fa-search
           - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
             %li
               %span.key= p.country
     .col-sm-4
       .dropdown.current-city
-        %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
+        %button.dropdown-menu-toggle.disabled.btn{ type: 'button', 'data-toggle' => 'dropdown' }
           %span.label City
           %span.title --
           %span.subtitle
           %i.fa.fa-chevron-down
         %ul.dropdown-menu.dropdown-scroll
           %li.filter-container
-            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
+            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
             %li.hidden{'data-currentCountry' => p.country}
@@ -43,27 +43,27 @@
   .col-sm-12
     .col-sm-4
       .dropdown.new-country
-        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+        %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
           %span.label Country
           %span.title --
           %i.fa.fa-chevron-down
         %ul.dropdown-menu.dropdown-scroll
           %li.filter-container
-            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country'}
+            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country' }
             %i.fa.fa-search
           - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
             %li
               %span.key= p.country
     .col-sm-4
       .dropdown.new-city
-        %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
+        %button.dropdown-menu-toggle.disabled.btn{ type: 'button', 'data-toggle' => 'dropdown' }
           %span.label City
           %span.title --
           %span.subtitle
           %i.fa.fa-chevron-down
         %ul.dropdown-menu.dropdown-scroll
           %li.filter-container
-            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
+            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
             %i.fa.fa-search
           - data.numbeo.sort_by(&:city).each do |p|
             %li.hidden{'data-newCountry' => p.country}
