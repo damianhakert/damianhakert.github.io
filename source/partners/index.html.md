@@ -1,3 +1,8 @@
+---
+layout: markdown_page
+title: Partners
+---
+
 ## Open to Collaboration
 GitLab is an open product with a Community Edition product that is fully open-source and an Enterprise Edition product that is built on our Community Edition but with additional features that are closed-sourced. We're open to integrations with companies and tools that are interested in harnessing GitLab's platform capabilities, user flows and data with their products.
 
@@ -35,5 +40,5 @@ We love spreading the word on new integrations for GitLab to our community and f
 ## EE Dev License
 If you're working on an EE integration and need a GitLab EE license to develop and test on we will provide that upon request.
 
-
+## Talk to Us
 If you want to talk to us about a partnership you can contact Eliran Mesika, our Director of Strategic Partnerships at eliran at gitlab.com.
