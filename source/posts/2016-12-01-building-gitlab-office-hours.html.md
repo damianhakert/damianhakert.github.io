@@ -28,17 +28,17 @@ some of the awesome features we just released. Check out the video and highlight
 ### 1:07 GitLab's Vision
 
 "When we [announced our series B round in Septmeber][master-plan], we said, "Ok, what we're going to do is we're going to try 
-and ship the whole GitLab flow, going from idea all the way to production and we're going to ship it by the end of the year."
+and ship the whole [GitLab flow][gitlab-flow], going from idea all the way to production and we're going to ship it by the end of the year."
 
 ### 2:42 What is Review Apps?
 
 "When you do a merge request, let's say you have some change you want to make on the website.
 In the past, you would create a merge request and then somebody would check out the code; maybe
-you have CI (continuous integration) running automatically to see if those tests past.Now, if 
+you have [continuous integration][ci-post] running automatically to see if those tests past.Now, if 
 you wanted to actually *see* the changes, and play around with them, you would still have to
 checkout the branch for the merge request locally and run it to your local development environment.
 
-With Review Apps, what happens is that rather than you having to do anything, 
+With [Review Apps][intro-ra], what happens is that rather than you having to do anything, 
 on every single merge request we automatically create a new envionment. In that environment,
 we run a full, live environment."
 
@@ -113,10 +113,13 @@ Webcast w
 
 <!-- identifiers -->
 
+[ci-post]: https://about.gitlab.com/gitlab-ci/
 [gitlab-8-14]: /2016/11/22/gitlab-8-14-released/
+[gitlab-flow]: https://docs.gitlab.com/ce/university/training/topics/gitlab_flow.html
 [8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html
 [frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 [infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
+[intro-ra]: /2016/11/22/introducing-review-apps/
 [job-twitter]: https://twitter.com/Jobvo
 [master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [ux-webcast]: 
