@@ -2101,12 +2101,13 @@
           Joining January 9th
 
 - name: T.P.
-    locality:
-    country:
-    role: <a href="https://about.gitlab.com/jobs/content-designer/">Content Designer</a>
-    reports_to: Content Lead
-    picture: logo-extra-whitespace.png
-    twitter:
-    gitlab:
-    story:  |
-            Joining January 11th
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/content-designer/">Content Designer</a>
+  reports_to: Content Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 11th
+          
