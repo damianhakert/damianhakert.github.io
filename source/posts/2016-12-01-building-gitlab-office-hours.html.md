@@ -15,9 +15,9 @@ Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an u
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
-Following the release of [GitLab 8.14][gitlab-8-14], VP of Product Job van der Voort 
-hosted a YouTube live stream to talk more about realising GitLab's vision and 
-some of the awesome features we just released. Check it out below.
+Following the release of [GitLab 8.14][gitlab-8-14], VP of Product [Job van der Voort][job-twitter] 
+hosted a YouTube live stream to discuss how our product team is working to realize GitLab's vision and 
+some of the awesome features we just released. Check out the video and highlights below.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/njP8Wvp45o0" frameborder="0" allowfullscreen="true"> </iframe>
@@ -27,7 +27,7 @@ some of the awesome features we just released. Check it out below.
 
 ### 1:07 GitLab's Vision
 
-"When we announced our B round in Septmeber, we said, "Ok, what we're going to do is we're going to try 
+"When we [announced our series B round in Septmeber][master-plan], we said, "Ok, what we're going to do is we're going to try 
 and ship the whole GitLab flow, going from idea all the way to production and we're going to ship it by the end of the year."
 
 ### 2:42 What is Review Apps?
@@ -117,6 +117,8 @@ Webcast w
 [8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html
 [frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 [infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
+[job-twitter]: https://twitter.com/Jobvo
+[master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [ux-webcast]: 
 
 ## Community Discussion & Highlights 
