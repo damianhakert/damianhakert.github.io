@@ -8,7 +8,7 @@ twitter_image: '/images/tweets/how-to-keep-your-fork-up-to-date-with-its-origin.
 description: "GitLab Repository Mirroring: the best way to keep your fork up-to-date!"
 ---
 
-Have you ever wondered how to keep a fork automatically up-to-date with its origin (aka **upstream**)?
+Have you ever wondered how to keep a fork automatically up-to-date with its origin (**upstream**)?
 
 In this post we'll show you how to do that on GitLab!
 
@@ -63,7 +63,7 @@ To prevent this, first you need to update your local repo, then start your work.
     git push origin your-new-branch
     ```
 
-- Create a new merge request to merge `your-fork/your-new-branch` into the `upstream/master`
+- Create a new merge request to merge `your-fork/your-new-branch` into `upstream/master`
 
 As you can see, this sequence takes some time to complete, and turns out to be annoying if you need to do this multiple times a day. That's why we could use a better solution.
 {:.extra-margin-top}
@@ -100,7 +100,7 @@ Repository Mirroring is available for free at **GitLab.com** and to all **GitLab
 
 ## The Secret
 
-To be able to pull a project without authentication, or to use Repository Mirroring, the upstream project needs to be public. Also, the **Repository**'s **Feature Visibility** settings of the upstream project needs to be enabled to **Everyone with access**:
+To be able to pull a project without authentication, or to use Repository Mirroring, the upstream project needs to be public. Also, the **Repository**'s **Feature Visibility** settings of the upstream project needs to be set to **Everyone with access**:
 
 ![feature visibility settings](/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/feature-visibility-settings.png){:.shadow}
 
