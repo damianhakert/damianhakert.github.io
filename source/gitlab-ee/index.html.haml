@@ -27,18 +27,3 @@ extra_js:
 = partial "includes/gitlab-ee/flexible-solution"
 = partial "includes/gitlab-ee/contact-sales"
 = partial "includes/gitlab-ee/top-reasons"
-
-.homepage-blog-section
-  .container
-    .row.post-list
-      - blog.articles[0..2].each do |post|
-        .col-sm-12.col-md-4.post-item
-          %a{href: post.url}
-            - if post.data.image_title
-              .image-title.blog-image{style: "background-image: url(#{post.data.image_title});"}
-                .color-bg
-                  %h4= post.title
-            - else
-              .image-title.no-image
-                .color-bg
-                  %h4= post.title
