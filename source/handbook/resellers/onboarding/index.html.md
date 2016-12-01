@@ -129,7 +129,6 @@ Within 60 days of signing:
 ### Press Release
 - [ ] Press release localised `partner`
 - [ ] Press release placed in local publications `partner` 
-- [ ] If marketing support for branded swag, funds or speakers for events, or funds online marketing campaigns is required, please refer to the Marketing section in the [Reseller Handbook](https://about.gitlab.com/handbook/resellers/)
 
 Within 90 days of signing:
 =====================
