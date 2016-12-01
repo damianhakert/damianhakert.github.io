@@ -7,7 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "A Lukkien developer shares his team's challenges with Git and GitLab for their UX designs, and requests a few tweaks they'd find useful."
 twitter_image: '/images/tweets/default-blog-image.png'
 ---
-Wouter is an engineer at Lukkien, a multimedia company that produces photography, commercials, apps and website. His team currently works on an app aimed towards parents and healthcare professionals, on behalf of an account that makes baby food. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used a CVS, and ultimately decided on Gitlab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer Lee Matos sat down with Wouter to learn about how GitLab can help.
+Wouter van Kuipers is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces photography, film, apps, CGI, and graphic design. His team currently works on an app aimed towards parents and healthcare professionals, on behalf of an account that makes baby food. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used a CVS, and ultimately decided on Gitlab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
 
 Here are some items discussed below and requested by the Lukkien team:
 
@@ -27,7 +27,7 @@ Read the full exchange below!
 **Wouter: Currently, no we don’t. Right now we create separate folders and label the versions. We use InDesign and Photoshop files.**
 {: .alert .alert-info}
 
-**Lee:** Ok so not Balsamiq or another tool mockup tool. Frankly this is on our dream feature list. I think everybody on our team wants to be able to version Photoshop and InDesign documents, but we don’t have a good solution for those files right now that is going to work smoothly.  On a related note though, it looks like Adobe is getting into the versioning space for files like these, so there’s a silver lining here in that once Adobe solves that problem, we’ll probably do something similar quickly thereafter. For now if it’s a text-based format or some other kind of underlying xml structure then sure, we’re good, we can version that. Otherwise it’s pretty tiresome to use GitLab for versioning Photoshop/InDesign files. 
+**Lee:** Ok so not Balsamiq or another mockup tool. Frankly this is on our dream feature list. I think everybody on our team wants to be able to version Photoshop and InDesign documents, but we don’t have a good solution for those files right now that is going to work smoothly.  On a related note though, it looks like Adobe is getting into the versioning space for files like these, so there’s a silver lining here in that once Adobe solves that problem, we’ll probably do something similar quickly thereafter. For now if it’s a text-based format or some other kind of underlying xml structure then sure, we’re good, we can version that. Otherwise it’s pretty tiresome to use GitLab for versioning Photoshop/InDesign files. 
 
 **Wouter: Right, and especially for seeing differences in those files.**
 {: .alert .alert-info}
@@ -37,15 +37,14 @@ Read the full exchange below!
 **Wouter: As a team we are now working on integrating CI builds for merge requests, we are able to run validation & testing suites, which is great and easy to set-up, but we miss the option to have all output of the builds in one place (like unit test results across different builds) We are thinking about pushing the results to another server, but can't this be managed from within Gitlab itself?**
 {: .alert .alert-info}
 
-**Lee:** So your question is about validating the builds in one place — this is really interesting, I’m curious to see what you think about the two options that I have in mind, and what you’re looking for, and if they align. 
-If you’re using CI inside of GitLab we have two sections for pipelines, we have “builds,” which aggregate all of the pending and current builds. That’s the “builds view,” so you can see all the builds in progress. There’s also the “pipelines” view, which shows us which stage they’re in. Is this different from what you’re looking for? 
+**Lee:** So your question is about validating the builds in one place — this is really interesting, and I have a couple of options for you to consider. If you’re using CI inside of GitLab we have two sections for pipelines, we have “builds,” which aggregate all of the pending and current builds. That’s the “builds view,” so you can see all the builds in progress. There’s also the “pipelines” view, which shows us which stage they’re in. Is this different from what you’re looking for? 
 
 **Wouter: Currently we’re on a Jenkins set-up, so we can quickly compare testing results between builds using a jenkins plugin which gives us a"code metrics repoort." As an example, over on the right we have the test results, so you can see the scope of the builds and when something fails you’ll see a gap in that. And then you can see stuff like code metrics, and output from the unit test compared to previous builds.**
 {: .alert .alert-info}
 
 **Lee:**  I see, and that gives you basically the output of the unit test, and the trend over time. Ok, so as far as I know, we don’t have this currently, and I’ll confirm with our CI team and see if there are any related issues. It seems like something we'd be interested in exploring.
 
-**Wouter: Secondly, keeping track of issues between builds is sometimes hard. Team members have the responsibility to set the correct status of a ticket to keep track of the status, but it's a manual job. We have a OTAP build lane, but its sometimes not clear on/to which environment a ticket is deployed (is this ticket on acceptance yet?) Do you have any idea on how we could improve this? We are thinking about posting a comment to an issue when a specific commit (always containing issue number) is build to a certain env.(by the way we use Jira)?**
+**Wouter: My next question has to do with the fact that keeping track of issues between builds is sometimes hard. Team members have the responsibility to set the correct status of a ticket to keep track of the status, but it's a manual job. We have a OTAP build lane, but it's sometimes not clear on/to which environment a ticket is deployed (is this ticket on acceptance yet?) Do you have any idea on how we could improve this? We are thinking about posting a comment to an issue when a specific commit (always containing issue number) is build to a certain env.(by the way we use Jira)?**
 {: .alert .alert-info}
 
 **Lee:** This is really interesting to myself and my team, because you’re talking about tracking issues between builds. This seems like a use case that we haven’t encountered before. Where are the struggles in the over the air builds? I saw you’re using Jira now; do you plan on using Jira with GitLab, or are you trying to replace Jira, what are your thoughts on that? 
@@ -58,7 +57,7 @@ If you’re using CI inside of GitLab we have two sections for pipelines, we hav
 **Wouter: Our testers aren’t in GitLab, so they have to look it up in Jira. So we now have an extra lane in Jira saying “this is ready for deployment,” and then when it’s being deployed, someone has to do a manual change to say “this is now being deployed to the testing environment,” later on when it’s going to acceptance, someone has to change the label to “this is now in acceptance.” This is hard when people have to do it manually because people forget sometimes which causes problems.**
 {: .alert .alert-info}
 
-**Lee:** So you’re in CI, you’re using Jira, and then you have it set up for someone to say “hey, we need to do acceptance testing, and then they do their testing, and then…you’re saying the failure happens…I’m trying to see how GitLab can help that. What are you thinking would solve it? 
+**Lee:** So you’re in CI, you’re using Jira, and then you have it set up for someone to tell the testers when they can do their testing...I’m trying to see how GitLab can help. What are you thinking would solve it? 
 
 **Wouter: Yes, our tickets get updated when someone puts the ticket number in the commit, which is really useful for developers who check the status of the ticket. But it would be really useful if a CI build could update all tickets that are mentioned in that build. So if it’s a merge request, those issues would say “this is now built to test.” Because we use Jenkins now to deploy but we want to use GitLab CI to deploy.**
 {: .alert .alert-info}
@@ -78,7 +77,7 @@ If you’re using CI inside of GitLab we have two sections for pipelines, we hav
 **Wouter: It does seem like Mattermost would use a lot of system resources.**
 {: .alert .alert-info}
 
-**Lee:** I agree with that, but as far as I know the Mattermost integration is working really well. But that probably depends on what Mattermost is doing, so we will keep an eye on that. 
+**Lee:** I agree with that, but as far as I know the Mattermost integration is working really well. That probably depends on what Mattermost is doing, so we will keep an eye on that. 
 
 **Wouter: Finally, in what way does Gitlab want to position itself in the long run compared to GitHub?**
 {: .alert .alert-info}
@@ -88,6 +87,6 @@ If you’re using CI inside of GitLab we have two sections for pipelines, we hav
 I think GitHub is positioning itself as more of a core component, they see Git and code as the core thing that needs to be solved, and are leaving integrations up to the third parties. We have integrations and we see the need for and value in them, but we want to build something that out of the box allows you to start making things work. Instead of saying “you need to go buy Drone CI, you need to use Waffle.io, and need to wire them all up and read ten different documentations to figure it out.” We want that process to be as easy as possible. 
 
 
-_If you'd be interested in speaking with a GitLab technical expert about your use-case or unique challenges, please fill out this[form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
+_We want you to ask us anything! If you're a user interested in sharing your story on our blog, please fill out this[form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
 
-_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
+_Tweet us [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
