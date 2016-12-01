@@ -1,5 +1,5 @@
 ---
-title: "How to Keep your Fork<br>Up-To-Date with its Origin"
+title: "How to Keep your Fork Up-To-Date with its Origin"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab Workflow
