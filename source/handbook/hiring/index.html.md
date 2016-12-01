@@ -11,7 +11,7 @@ title: "Hiring"
 
 ## General note on hiring
 
-If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates. Opening it up helps people find us. We have two [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter) in PeopleOps to manage and improve this process.
+If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
 
 
 ## Vacancy Creation Process
