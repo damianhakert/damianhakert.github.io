@@ -1,0 +1,1 @@
+console.log("Hello world from gitlab ee standalone javascript file");
