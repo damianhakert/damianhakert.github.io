@@ -74,7 +74,7 @@ data insights can you obtain from this group of users?
 ## Upcoming Live Streams 
 
 <div class="panel panel-gitlab-orange">
-**Why We Chose Vue.js | December 1, 2016 at 10 am PT/6pm UTC**
+**Why We Chose Vue.js | [Watch the recording][vuejs-recording]**
 {: .panel-heading}
 <div class="panel-body">
 
@@ -88,12 +88,18 @@ and host a Q&A session along with Jacob.
 </div>
 
 <div class="panel panel-success">
-**Monitoring Distributed Systems with Prometheus**
+**Monitoring Distributed Systems with Prometheus | December 7 at 9am PT/5pm GMT**
 {: .panel-heading}
 <div class="panel-body">
 
-Webcast follow up on why we chose bare metal and how we monitor our infrastructure
-with Prometheus 
+Infrastructure Lead [Pablo Carranza][pablo-twitter] will give a behind-the-scenes 
+look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with 
+GitLab CE, and give a tutorial on how you can set up your own dashboard. 
+A live chat Q&A will follow the presentation. See more details and sign up for
+a reminder [here][infra-lp].
+
+For more information on the topic, read Pablo's blog post on [how we knew it was
+time to leave the cloud][bare-metal-post].
 
 </div>
 </div>
@@ -111,18 +117,22 @@ Webcast w
 
 <!-- identifiers -->
 
+[bare-metal-post]: https://about.gitlab.com/2016/11/10/why-choose-bare-metal/
 [ci-post]: https://about.gitlab.com/gitlab-ci/
 [gitlab-8-14]: /2016/11/22/gitlab-8-14-released/
 [gitlab-flow]: https://docs.gitlab.com/ce/university/training/topics/gitlab_flow.html
 [8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html
 [frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 [infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
+[infra-lp]: https://page.gitlab.com/20161207_PrometheusWebcast_LandingPage.html
 [intro-ra]: /2016/11/22/introducing-review-apps/
 [jacob-twitter]: https://twitter.com/jakecodes
 [job-twitter]: https://twitter.com/Jobvo
 [master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
+[pablo-twitter]: https://twitter.com/psczg
 [ux-webcast]: 
 [why-vuejs-post]: /2016/10/20/why-we-chose-vue/
+[vue-js-recording]:
 
 ## Community Discussion & Highlights 
 
