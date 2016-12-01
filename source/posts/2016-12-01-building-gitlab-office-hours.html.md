@@ -147,7 +147,3 @@ they discuss their process, the big challenges they face and how they look to so
 [ux-webcast]: https://www.youtube.com/watch?v=Lxy1jET5pww
 [why-vuejs-post]: /2016/10/20/why-we-chose-vue/
 [vue-js-recording]: https://www.youtube.com/watch?v=ioogrvs2Ejc
-
-## Community Discussion & Highlights 
-
-## Upcoming Events
