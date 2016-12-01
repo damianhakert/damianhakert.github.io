@@ -269,7 +269,7 @@
       return deferred.promise();
     }
 
-    MoveCalculator.prototype.render = function() {
+    MoveCalculator.prototype.render = function(e) {
       var input = this.getElementValues();
 
       function renderData() {
@@ -293,6 +293,16 @@
             renderData.call(this);
           }.bind(this),
           this.renderInvalidCompensation.bind(this));
+      }
+
+      this.renderContainerUpdates(e);
+    }
+
+    MoveCalculator.prototype.renderContainerUpdates = function(e) {
+      var $currentEl = $(e.currentTarget);
+
+      if ($currentEl.attr('id') === 'current-salary') {
+        $currentEl.parent().toggleClass('has-value', $(e.currentTarget).val().length > 0);
       }
     }
 
