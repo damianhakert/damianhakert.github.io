@@ -17,12 +17,15 @@ title: "Stock Options"
 
 |Level|Number of Options|
 |----|----:|
-|Sr. Director|15,000|
+|Senior Director|15,000|
 |Director|10,000|
-|Sr. Manager / Lead / Sr. AE|5,000|
-|Manager / AE / Sr. Developer|2,500|
-|Individual contributor|2,000|
-|Business Development Representative|1,500|
+|Senior Manager / Lead / Senior Account Executive|5,000|
+|Manager / Account Executive / Senior Engineer|2,500|
+|Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
+|Junior Engineer / Business Development Representative|1,500|
+
+We should update your stock option grant if you make a promotion.
+If we didn't please contact people operations.
 
 ## About Your Ownership in GitLab
 
