@@ -11,20 +11,15 @@ title: "Hiring"
 
 ## General note on hiring
 
-If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates. Opening it up helps people find us. If selection of candidates is a lot of work feel free to ask People Ops to help.
+If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
 
 
 ## Vacancy Creation Process
 
-The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
+The CEO must authorize any new job positions/searches.
 
-1. Define role and ask People Ops for compensation baselines / bands / guidelines. People Ops proposes a compensation range and submits this to the [compensation committee](/handbook/people-operations/global-compensation-framework/#compensation-committee) for approval.
-1. CEO approves the job requisition, which at this point includes title, role, and target compensation range.
-1. Define hiring team. Roles can be assigned fluidly (see below for the
-   [Hiring Process](#hiring-process)), depending on who is available, bearing in
-   mind that the most time-consuming aspect tends to be review of the first wave
-   of applicants.
-1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
+1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
+1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist to create an accurate job description for the website including location or timezone specification if required.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
@@ -40,64 +35,73 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
-1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
+1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
+1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-framework/#compensation-committee) for approval.
+2. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the new job description / posting is live on our website, the hiring manager should announce it on the team call, in the #general chat channel, and via Twitter. Also consider your additional available [advertising methods](#advertising-the-job) below.
+ 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
 
 
-## Advertising the job
+## Publicize the job
 
-**Always** advertise the job through the following means:
+The recruiting team will **always** publicize the job through the following means:
 
-1. Announce it on team call, and on the #general chat channel.
+1. Announce it on team call and on the #general chat channel.
 1. Tweet the new job posting.
-1. "Soft” referral, e.g. encourage all GitLab team members to post links to the jobs site on their LinkedIn profiles.
-1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
+1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
+1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
-**Consider** advertising the job through the following sites (People Ops can help with the listings, but the hiring manager should determine whether it is the right place to advertise, and at the right cost):
+**Note** recruiting team will advertise the job through the following sites:
 
-1. [PowerToFly](https://www.powertofly.com)
+1. [PowerToFly](https://www.powertofly.com) Helping us connect with 100k+ women in tech
 1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
 `REMOTE ONLY GitLab - We're hiring production engineers, developers, designers, and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
-1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
+1. [RemoteOK](https://remoteok.io) ($200 for 90 days, per position)
 1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
-1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
-1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
-1. [Support Driven Jobs](http://jobs.supportdriven.com/) $150 for 30 days, $250	for 45 days + highlight
+1. [StackOverflow](http://stackoverflow.com/jobs) (Able to post 3 jobs simultaneously, please mention to recruiting team if you want your role listed here)
+1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-egningeering roles)
+
+###Sourcing for Open Positions
+*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
+
 
 
 ## Hiring Process
 
 ### General points about moving applicants through the process
 
-**Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position. If an applicant submits a resume to a particular position, and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
+**Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next."
 
-**Send Calendly link of the next person in the process.** If you have decided to let the applicant move on to the next interview, save time by sending the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
+**The process can differ from team to team and from position to position. If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
+TODO: Update each job description with the process specific to that role.
 
-**Compensation is discussed at start and end, but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager (based on what had been discussed with the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the hiring manager can send a note (or ask People Ops to send a note) to the candidate explaining that the expectations are too far apart. If the expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions, and keeps the process flowing smoothly.
+**Send Calendly link of the next person in the process.** If you have decided to move the applicant on in the process, save time by sending the next interviewer's Calendly link to the applicant. This saves the time it would otherwise take the next interviewer to send the link.
 
-**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, and informs the CEO on its details depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/global-compensation-framework) in place.
+**Compensation is discussed at start and end but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager or recruiter (based on what had been approved by the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the recruiter can send a note to the candidate explaining that salary expectations are too far apart. If expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions and keeps the process flowing smoothly.
+
+**The CEO authorizes all offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable and informs the CEO on its details depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/global-compensation-framework) fully in place.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
 
 ### Typical process
 
-1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
-1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting-applicants). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
+1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel they must be added to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
+1. Recruiting team does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting-applicants). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
+1. **Pre-screening Questionnaire** Applicants will be sent a pre-screening questionnaire relating to the position by either the recruiting team or the hiring manager to complete and return to the sender. Responses will be added to the candidate's Workable profile.
 1. [**Screening call**](#screening-call): in Workable,
-   1. ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call;
+   1. Our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) will do a screening call;
    1. move the applicant to the "screening call" stage in Workable.
-   1. send the applicant the calendly link of the People Ops Coordinator.
+   1. send the applicant the Calendly link for the Recruiters, there is a template in Workable.
 Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting-applicants), or move the applicant to the interview stage in Workable.
 1. **Technical interview (optional)**: As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
-1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. **Reference calls**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates.
 Before the CEO has the final call with the applicant the hiring manager will write the following info in an internal note in our ATS:
     * who will extend the offer (CEO is fine with doing this since it is the most speedy for the applicant, but up to the hiring manager)
@@ -112,37 +116,39 @@ Before the CEO has the final call with the applicant the hiring manager will wri
 ### Rejecting applicants
 
 1. At any time during the hiring process the applicant can be rejected.
-1. The applicant should always be notified of this. The hiring manager is primarily
-responsible for this, but People Ops can help and does a weekly check-up in Workable.
-1. If the applicant asks for further feedback always offer frank feedback. This
+1. The applicant should always be notified of this. The recruiting team is primarily
+responsible for this.
+1. If the applicant asks for further feedback only offer frank feedback. This
 is hard, but it is part of our [company values](/handbook/#values).
     * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
     * Feedback and rejection should not be based on soft skills.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
-1. TODO: If the candidate is not hired, People Ops sends out an email to ask for feedback.
+1. TODO: If the candidate is not hired, the recruiting team will send out an inquiry to gather feedback.
    * There is a "gathering applicant feedback" template in Workable with these questions.
-The feedback survey should be sent out about 3 days after the applicant has been
+The feedback survey should be sent out within 2 days after the applicant has been
 notified of the rejection.
-   * PeopleOps will receive the feedback and will use this to improve the hiring process.
+   * People Ops will review all feedback and use it to improve the hiring process.
 
 ## Screening Call
 
-For some positions, we conduct screening calls. This call is typically done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/).
+We conduct screening calls for all positions. This call will be completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/).
 
 Questions are:
 
 1. Why are they looking for a new job?
+1. Why did they apply with GitLab?
 1. What is your experience with X? (do for each of the skills asked in the job description)
 1. Current address? (relevant in context of comp, and in case of contract we will need that information).
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
+1. Notice period needed
 1. STAR questions and simple technical questions may also be asked during the screening call if applicable.
 
 [An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
 
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
-An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
+An example message would be "We are still reviewing applications, but our goal is to let you know in 3 business days from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
 
 ## Interviewing
 
@@ -154,16 +160,15 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 ### Before the interview
 
 * Screening - writing a good resume is an art, and not many people master it. When you read a resume look for evolution rather than buzzwords, and if something sparks your curiosity, ask.
-* Spend some time talking through email to get to know each other. Since GitLab is remote-only company, most of our interactions happen on written form. Check that this person can communicate efficiently this way. If it is for a technical position, ask open ended technical questions. The value of these questions is that there is no absolute good answer, it lets you see how this person thinks.
 * If the process is taking too long, apologize and explain what is going on. It is really frustrating to not hear anything from the other side, and then resume conversations like nothing has happened. Show respect for the time of the candidate.
 * If the process ends at this stage, be kind, and if the interviewee asks for feedback, give honest constructive feedback that explains why have we taken our decision.
 
 ### During the interview
 
 1. There is an unbalanced power relationship during the interview. The interviewer is in a powerful position. It will decide if this candidate will get an offer or not. Be mindful of this. Be as friendly and approachable as you can. Be frank about what is going on, explain how the interview is going to be and set clear expectations: tell it like it is. This has the added value of getting people comfortable (over time) and allows you to get much better data.
-1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
+1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening to your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what you understood and allow the candidate to correct your story.
 1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
-1. Aim to at the end of the interview know if you want to work with this person.
+1. Aim to at the end of the interview to know if you want to work with this person.
 1. Interview for soft skills, really, do it. Pick some behavioral questions to get data on what has the candidate done before and how his behavior aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
 1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
 1. Always let the interviewee ask questions at the end, and be frank in your answers.
@@ -172,7 +177,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 
 1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
 1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pick up Ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack. Note that individual positions may have stricter requirements; the Backend Developer position [requires Ruby experience](/jobs/developer/#ruby-experience), for example.
-1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
+1. Consider including non-engineering people to ask soft skills questions. Because technical people should be capable of talking to non-engineering just fine, we should assess it.
 
 ### Behavioral questions (STAR)
 
@@ -202,19 +207,19 @@ Once you have your notes, tell the candidate what you understood, repeat the sto
 
 ### Interview feedback
 
-Always leave feedback, this will allow the rest people to understand what happened and why you took the decision you took.
+Always leave feedback, this will help everyone to understand what happened and how you came to your decision.
 
 One way of writing the feedback is as follows:
 
-> Vote: inclined/not inclined
-> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
-> Pros: what is good, and where did you found it during the interview, bullet points is fine.
-> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
-> Interview notes: What questions were asked, what story you got back. Ex.
+> Vote: Inclined, Semi-Inclined or Not Inclined to Hire
+> Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
+> Pros: What is good and where did you hear it during the interview?
+> Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
+> Interview notes: What questions were asked and what story did you got back? Ex.
 >   Tell me about a time when you did X
 >   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
-The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
+The vote is critical as it is telling the rest of the hiring team your opinion on this hire.
 
 ## Interview Questions
 
@@ -246,14 +251,13 @@ These questions are also available in a [Google form](https://docs.google.com/fo
 
 ## Reference calls
 
-As part of our hiring process we may ask applicants to provide us with one or more
-references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
- manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+As part of our hiring process we will ask applicants to provide us with two or more
+references to contact. These reference calls are completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Offers and Contracts Ready, Reviewed, and Signed
 {: #prep-contracts}
 
-Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
+Offers made to new team members should be documented in Workable through the email thread between the person authorized to make the offer and the applicant.
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
    1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use), ask People Ops if in doubt;
@@ -268,8 +272,8 @@ Offers made to new team members should be documented in the email thread between
       - is it clear how many (if any) stock options this person should receive?
       - is all necessary information (start date, salary, location, etc.) clearly available and agreed to?
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
-   1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
-   1. confirms with a reply-to-all when the contract is sent.
+   1. has the contract reviewed and approved by another member of PeopleOps as a quality check.
+   1. stages the contract in HelloSign and emails offer to the signing parties, cc PeopleOps
 1. When the contract is signed, the People Ops team member or hiring manager should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](/handbook/general-onboarding/).
 
@@ -286,7 +290,7 @@ To close a vacancy:
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
 1. Create a merge request, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
-If the position was posted on RemoteBase, People Ops should email hello@remotebase.io to remove the job posting.
+If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the recruiting team will email the partner or remove the position from that site.
 
 ## Underperformance
 
