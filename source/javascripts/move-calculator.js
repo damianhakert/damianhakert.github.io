@@ -319,7 +319,7 @@
 
     MoveCalculator.prototype.renderContractType = function() {
       var values = this.getElementValues();
-      var newCountry = values.newContract;
+      var newCountry = values.newCountry;
       var newContract = this.calculateContractFactor(newCountry);
       var $container = $('.contract-type-container');
 
