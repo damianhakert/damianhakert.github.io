@@ -114,6 +114,7 @@ Within 1 Month of Signing
 
 ### Technical training
  - [ ] Partner technical team trained by @balameb
+ - [ ] Partner to be sent authorised reseller plaque engraved with their business name.@scornille
 
 ### Lead Management
 - [ ] Reseller added to lead flow @francisaquino
