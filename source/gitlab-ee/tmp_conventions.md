@@ -1,0 +1,2 @@
+- prefix classes with ee
+- h2 for section titles
