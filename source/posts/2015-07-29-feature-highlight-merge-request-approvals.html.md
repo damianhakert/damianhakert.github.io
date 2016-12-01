@@ -86,6 +86,6 @@ further improve it.
 
 Find our [documentation on Merge Request Approvals].
 
-[GitLab Enterprise Edition]: https://about.gitlab.com/pricing/
+[GitLab Enterprise Edition]: https://about.gitlab.com/products/
 [previous feature highlight on approvals]: https://about.gitlab.com/2015/06/16/feature-highlight-approve-merge-request/
 [documentation on Merge Request Approvals]: http://doc.gitlab.com/ee/workflow/merge_request_approvals.html

@@ -270,7 +270,7 @@ The mentioned EE only features and things like LDAP group support can be found i
 For a complete overview please have a look at the [feature list of GitLab EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription]( https://about.gitlab.com/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 

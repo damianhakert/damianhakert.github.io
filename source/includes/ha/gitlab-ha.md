@@ -226,5 +226,5 @@ If you have any questions please email us at `sales@gitlab.com`.
 [options for postgresql]: http://www.postgresql.org/docs/9.2/static/high-availability.html "PostgreSQL HA"
 [release of version 8.5]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/ "GitLab 8.5 release blog post"
 [geo]: http://docs.gitlab.com/ee/gitlab-geo/README.html "GitLab GEO documentation"
-[premium support]: https://about.gitlab.com/pricing "Premium support"
+[premium support]: https://about.gitlab.com/products "Premium support"
 [ee]: /features#enterprise "GitLab Enterprise Edition features"

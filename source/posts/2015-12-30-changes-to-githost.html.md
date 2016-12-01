@@ -48,7 +48,7 @@ We are making GitLab Enterprise Edition available within GitHost. Organizations 
 authorization integration, fine-grained workflow management, extra server management options, and integration with their
 tool stack can now easily deploy an EE instance in minutes. Use of the Enterprise Edition requires you to have a valid
 license. If you would like to purchase GitLab Enterprise Edition, you may do so by going to
-[https://about.gitlab.com/pricing/](https://about.gitlab.com/pricing/).
+[https://about.gitlab.com/products/](https://about.gitlab.com/products/).
 
 ![CE & EE](/images/githost/ce-ee.png)
 

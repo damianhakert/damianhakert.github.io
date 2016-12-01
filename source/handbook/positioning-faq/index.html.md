@@ -68,7 +68,7 @@ title: "GitLab Positioning FAQ"
     1. 2FA
     1. Permissions management
 * How does support work?
-    1. For on-premises EE - https://about.gitlab.com/pricing/ - gitlab enterprise edition with paid support
+    1. For on-premises EE - https://about.gitlab.com/products/ - gitlab enterprise edition with paid support
     1. For GitLab.com - Bronze support - monthly fee - https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20
     1. Active StackOverflow community for free users.
 * Do you offer a solution for migrating data from GitHub, Bitbucket, SVN to GitLab?

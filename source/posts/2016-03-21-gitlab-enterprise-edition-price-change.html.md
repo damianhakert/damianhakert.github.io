@@ -53,4 +53,4 @@ Deadline for early renewals is April 30, 2016.
 - Currently on Standard with 110 users with Premium Support? Your cost decreases from $9800 to $9735 (with the 50% discount)
 - Currently on Standard with 150 users with no support? Your cost decreases from $9800 to $5850
 
-[pricing]: https://about.gitlab.com/pricing/
+[pricing]: https://about.gitlab.com/products/

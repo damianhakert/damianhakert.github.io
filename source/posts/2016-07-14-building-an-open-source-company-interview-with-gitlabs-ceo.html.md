@@ -101,4 +101,4 @@ _This post was originally posted on [medium.com] by [Jason Chen] himself._
 [Valery Sizov]: https://twitter.com/Sizov_Valeriy
 [Sid Sijbrandij]: https://twitter.com/sytses
 [stewardship]: https://about.gitlab.com/about/#our-stewardship-of-gitlab-cea-namestewardshipaa-nameour-stewardship-of-gitlab-cea
-[enterprise licenses]: https://about.gitlab.com/pricing/
+[enterprise licenses]: https://about.gitlab.com/products/

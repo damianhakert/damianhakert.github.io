@@ -122,7 +122,7 @@ Inbound leads receive appropriate marketing emails, such as newsletters, onboard
 
 ## Inbound Leads<a name="inbound"></a>
 
-- https://about.gitlab.com/pricing/ => Currently when someone clicks "Buy Now" it creates an account in Zuora and Salesforce. The account owner is notified, if account does not exist the account owner is sales admin.
+- https://about.gitlab.com/products/ => Currently when someone clicks "Buy Now" it creates an account in Zuora and Salesforce. The account owner is notified, if account does not exist the account owner is sales admin.
 - https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/sales/ => When a lead submit a form to contact sales, that lead flows through marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/contact/ Email to community@gitlab.com - Email sends to marketing team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
@@ -141,7 +141,7 @@ Inbound leads receive appropriate marketing emails, such as newsletters, onboard
 ## New license flow<a name="licenseFlow"></a>
 
 Current state
-1. "Buy Now" button on https://about.gitlab.com/pricing/ is submitted.
+1. "Buy Now" button on https://about.gitlab.com/products/ is submitted.
 2. Zuora intakes order and sends account information to Salesforce.
 3. Account owner is notifed.
 4. If no current account owner, sales admin is the account owner.

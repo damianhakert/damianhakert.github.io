@@ -266,7 +266,7 @@ with Microsoft. <!-- Dave: improve at will, if you wish. -->
 <!-- Identifiers -->
 
 [ce]: https://about.gitlab.com/downloads/
-[ee]: https://about.gitlab.com/pricing/
+[ee]: https://about.gitlab.com/products/
 [free-trial]: https://azure.microsoft.com/en-us/free/
 [msdn-benefits]: https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F
 [marketplace]: https://azure.microsoft.com/en-us/marketplace/

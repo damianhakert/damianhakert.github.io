@@ -75,6 +75,6 @@ To update, check out our [update page](https://about.gitlab.com/update).
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/features/#enterprise).
 
-Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/pricing/).
+Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/products/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
 services

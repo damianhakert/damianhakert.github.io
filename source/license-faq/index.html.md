@@ -26,7 +26,7 @@ not have access to the source code.
 It is possible to obtain a free evaluation license of our enterprise edition for
 a 30 day period for up to 100 users. Please visit our [pricing page] to sign up.
 
-[pricing page]: https://about.gitlab.com/pricing
+[pricing page]: https://about.gitlab.com/products
 
 ### What will happen to my evaluation license key at the end of the trial period?
 

@@ -282,7 +282,7 @@ GitLab Geo only supports PostgreSQL at the moment. MySQL is not supported.
 To get started with GitLab Geo, [read our documentation on it][geo-docs].
 
 [geo-alpha]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/
-[our pricing page]: https://about.gitlab.com/pricing
+[our pricing page]: https://about.gitlab.com/products
 [our sales team]: sales@gitlab.com
 [geo-docs]: http://docs.gitlab.com/ee/gitlab-geo/README.html#sts=GitLab Geo
 
@@ -502,7 +502,7 @@ The mentioned EE only features and things like LDAP group support can be found i
 For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription]( https://about.gitlab.com/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 

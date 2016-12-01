@@ -116,7 +116,7 @@ your margin with your quarterly VIR cheque.
 
 ##### By Credit Card
 
-If your customer wishes to pay by credit card, you can simply direct them to `https://about.gitlab.com/pricing/`.
+If your customer wishes to pay by credit card, you can simply direct them to `https://about.gitlab.com/products/`.
 
 ##### By purchase order
 
@@ -245,7 +245,7 @@ Here is also a list of resources that you may find useful to include on your lan
 - [CE vs EE comparison](https://about.gitlab.com/features/#compare)
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 - [GitLab Geo](http://docs.gitlab.com/ee/gitlab-geo/README.html)
-- [Pricing](https://about.gitlab.com/pricing/)
+- [Pricing](https://about.gitlab.com/products/)
 - [GitLab Blog](https://about.gitlab.com/blog/)
 - [GitLab Culture](https://about.gitlab.com/culture/)
 - [Gitlab on Twitter](https://twitter.com/gitlab)

@@ -53,7 +53,7 @@ One of the servers is active as application server at a time.
 If something goes wrong, we tell DRBD to promote the other server to primary.
 
 Our DRBD tooling that we've built for this is made available to our
-[subscribers](https://about.gitlab.com/pricing/).
+[subscribers](https://about.gitlab.com/products/).
 
 ## Scaling further
 

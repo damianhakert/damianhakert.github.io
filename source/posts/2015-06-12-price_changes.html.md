@@ -26,7 +26,7 @@ affordable for small teams.
 Current Plus subscribers will receive a prorated refund on the price differece.
 
 There are no changes in the software features or service level of Basic or Plus subscriptions,
-which you can view on our [website here](https://about.gitlab.com/pricing/).
+which you can view on our [website here](https://about.gitlab.com/products/).
 Standard Subscription pricing will also remain unchanged at $4,900 per year for
 each 100-user pack ($49 per user / per year).
 
