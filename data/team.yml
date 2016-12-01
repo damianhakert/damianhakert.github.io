@@ -445,9 +445,7 @@
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
-  maintains:  |
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-recipes">GitLab Recipes</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/groups/pages">GitLab Pages examples</a></li>
+  specialty: Documentation, social
   story:  |
           Achilleas has been using GitLab since version 2, back when the default
           username and password were not documented. He started actively
@@ -968,9 +966,7 @@
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
-  maintains:  |
-              <li>Markdown Kramdown <a href="/jobs/expert/">expert</a></li>
-              <li>Technical Editor of the <a href="/blog/">GitLab Blog</a></li>
+  specialty: Blog, technical writing, community writers program, social
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -1392,6 +1388,7 @@
   picture: erica.jpg
   twitter: EricaLindberg_
   gitlab: lindberg
+  specialty: YouTube, webinars, AMAs, social
   story:  |
           As a self-described journalist, Erica is a dedicated researcher with a proclivity for narrative. Before joining GitLab, Erica worked for Kapost where she unofficially attended B2B marketing bootcamp. She is passionate about media, technology, and audience development. When she's not working, she enjoys hiking, cooking, and reading.
 
@@ -1450,6 +1447,7 @@
   picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
+  specialty: Newsletter, blog, documentation, social
   story:  |
           Sean is a software developer and writer passionate about education,
           user experience and demystifying the complex. Before GitLab Sean
@@ -1606,6 +1604,7 @@
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
+  specialty: Blog, user stories, social
   story:  |
           A California native currently exploring the South,
           Emily's SoCal accent has proved surprisingly resilient.
@@ -1926,6 +1925,7 @@
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
   gitlab: rebeccad
+  specialty: Blog, culture stories, enterprise & partnership stories, social
   story: |
          Originally from Cape Town, South Africa, Rebecca found her way to GitLab from consumer journalism via content marketing. A self-proclaimed word nerd with a special fondness for 90s adventure games, Rebecca is on a mission to bring GitLab content to a wider audience. Outside of work, she's probably queueing at one of London's latest hipster restaurant openings.
 
