@@ -2034,16 +2034,16 @@
           or anything else related to technology in general (like cool gadgets!).
           His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
-- name: A.N.
-  locality:
-  country:
+- name: Art Nasser
+  locality: Chicago, IL
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/accounting-manager/">Accounting Manager</a>
   reports_to: Controller
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: ArtNasser.jpg
+  twitter: Art_Nasser_
+  gitlab: artNasser
   story:  |
-          Joining November 28th
+          Art started his career in public accounting and quickly became frustrated with the uncompromising nature of the industry. In 2012, he made the switch to private accounting and unexpectedly landed at a software startup, where he fell in love with the tech space and all of its awesome (and oftentimes crazy) quirks. He has since worked in a number of accounting and finance roles for various startups. When not on the job, Art enjoys spending time with his wife, their Goldendoodle (Scout), and trying his hand at new recipes in the kitchen. He is also an avid Dodgers fan whose ultimate goal is to see a game at every Major League ballpark… 11 down, 19 to go! 
 
 - name: H.K.
   locality:
