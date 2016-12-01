@@ -3,9 +3,9 @@ title: "Building GitLab with VP of Product Job van der Voort Recap"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: inside GitLab 
-image_title: '/images/unsplash/data.png'
-description: ""
-twitter_image: '/images/tweets/feature-preview-introducing-cycle-analytics.png'
+image_title: '/images/blogimages/facebook-open-office-hours-webcast.png'
+description: "A conversational take on what's new from GitLab 8.14"
+twitter_image: ''
 ---
 
 {::options parse_block_html="true" /}
