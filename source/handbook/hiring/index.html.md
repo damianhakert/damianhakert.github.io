@@ -16,12 +16,10 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 
 ## Vacancy Creation Process
 
-The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
+The CEO must authorize any new job positions/searches.
 
-1. Hiring manager defines proposed position and works with HR Generalist to ask People Ops to initiate hiring discussion to deem role strategically justifiable.
-1. People Ops proposes a compensation range and submits this to the [compensation committee](/handbook/people-operations/global-compensation-framework/#compensation-committee) for approval.
-1. CEO approves the job requisition, which at this point includes title, role, hiring team, and target compensation range.
-1. If a job description does not already exist, the hiring manager should work with the People Ops Generalist to create the job description for the website including location or timezone specification if required; assign the merge request to the CEO as a way to obtain authorization.
+1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
+1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist to create an accurate job description for the website including location or timezone specification if required.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
@@ -37,27 +35,29 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
-1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
+1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
+1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-framework/#compensation-committee) for approval.
+2. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the new job description / posting is live on our website, the re should announce it on the team call, in the #general chat channel, and via Twitter. Also consider your additional available [advertising methods](#publicize-the-job) below.
+ 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
 
 
 ## Publicize the job
 
 The recruiting team will **always** publicize the job through the following means:
 
-1. Announce it on team call, and on the #general chat channel.
+1. Announce it on team call and on the #general chat channel.
 1. Tweet the new job posting.
-1. Request "soft” referral, e.g. encourage all GitLab team members to post links to the jobs site on their LinkedIn profiles.
-1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
+1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
+1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
 **Note** recruiting team will advertise the job through the following sites:
 
-1. [PowerToFly](https://www.powertofly.com) Helping us connect with 1000s of women in tech
+1. [PowerToFly](https://www.powertofly.com) Helping us connect with 100k+ women in tech
 1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
 `REMOTE ONLY GitLab - We're hiring production engineers, developers, designers, and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
