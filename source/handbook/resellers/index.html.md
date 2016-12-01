@@ -203,6 +203,28 @@ GitLab leads.
 
 If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
 
+## Marketing
+
+GitLab will strive to support you in your marketing efforts. Marketing activities should be focused on GitLab EE, and will usually fall into 1 of 3 categories:
+
+### Event Funds Requests
+
+We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. Meetups, drink ups, hackathons, trade shows, and seminars are all examples of events that we may help you with. Leads gathered at an event that we help fund or promote are required to be shared with us. These leads will be assigned to you in SalesForce.
+
+We will endeavor to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. **Please submit the request for event sponsorship no later than one month before the date of the event.**
+
+*If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
+
+Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
+
+### Online Marketing Support Requests
+
+GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
+
+### Swag Requests
+Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
+We have been known to co-fund co-branded or locally produced SWAG. Send us your idea to Stephane (stephane@ company domain).
+
 ## Technical Support
 
 While we do not require them to, we do expect that your customers will, for the most part, contact you if they need help.
@@ -259,29 +281,6 @@ The GitLab Authorized reseller logo should help tell your prospects and customer
 You should use our Authorized Reseller Logo on your materials where appropriate and in accordance with our brand guidelines.
 
 The logos are available in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
-
-
-## Marketing
-
-GitLab will strive to support you in your marketing efforts. Marketing activities should be focused on GitLab EE, and will usually fall into 1 of 3 categories:
-
-### Event Funds Requests
-
-We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. Meetups, drink ups, hackathons, trade shows, and seminars are all examples of events that we may help you with. Leads gathered at an event that we help fund or promote are required to be shared with us. These leads will be assigned to you in SalesForce.
-
-We will endeavor to provide funds to support up one event per reseller per quarter. We may also be able to provide speakers, promote your event, provide swag, and/or artwork for an event. Please note that a request does not mean that funds will automatically be allocated.  We need to see value in an event to provide support. **Please submit the request for event sponsorship no later than one month before the date of the event.**
-
-*If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
-
-Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
-
-### Online Marketing Support Requests
-
-GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
-
-### Swag Requests
-Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
-We have been known to co-fund co-branded or locally produced SWAG. Send us your idea to Stephane (stephane@ company domain).
 
 
 <style>
