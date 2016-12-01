@@ -1,5 +1,5 @@
 ---
-title: "Building GitLab with VP of Product Job van der Voort Recap"
+title: "Building GitLab Recap & Recording"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: inside GitLab 
