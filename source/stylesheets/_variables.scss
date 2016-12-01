@@ -9,6 +9,8 @@ $color-gray-medium: #ddd;
 $color-gray-light: #aaa;
 $color-gray-extra-light: #e7e7e7;
 
+$text-color-light: #444;
+
 $color-green: #18be97;
 
 $color-red: #f00;
@@ -17,6 +19,8 @@ $color-primary: #548;
 $color-primary-alt: #6b4fbb;
 $color-secondary: #e14329;
 $color-secondary-alt: #fba225;
+
+$color-blue: #4887c5;
 
 $divider-color: #d3d3d3;
 
@@ -43,17 +47,6 @@ $blog-color-image-to: rgba(255, 255, 255, .6);
 $blog-color-ipanel-heading: rgba(221, 221, 221, .5);
 $blog-color-legacy-image-from: rgba(85, 68, 136, .8);
 $blog-color-legacy-image-to: rgba(72, 135, 197, .92);
-
-// legacy blog variables that were used by other pages
-
-$blog-date-color: #999;
-$blog-text-color: #444;
-$blog-notes-color: #606060;
-$blog-image-color-to: #4887c5;
-$blog-divider-color: #128bee;
-$blog-table-background: #faf9f9;
-$blog-table-background-hover: #f4f8fe;
-$blog-table-border: #efeff1;
 
 $mvp-list-bg: #403366;
 $mvp-table-border: #584985;
@@ -88,7 +81,7 @@ $subscription-header-bg: #444;
 $subs-header-color: #242424;
 $subs-header-sub-color: #979797;
 $subs-header-hr-color: #d4d4d4;
-$pricing-header-color-to: #4887c5;
+$pricing-header-color-to: $color-blue;
 $pricing-gray-bg: #fafafa;
 
 $blueish-gray: #a1a1a2;
