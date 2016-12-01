@@ -77,8 +77,8 @@ The recruiting team will **always** publicize the job through the following mean
 
 **Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next."
 
-**The process can differ from team to team, and from position to position. If an applicant submits a resume to a particular position, and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
-TODO Update each job description with the process specific to that role.
+**The process can differ from team to team and from position to position. If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
+TODO: Update each job description with the process specific to that role.
 
 **Send Calendly link of the next person in the process.** If you have decided to move the applicant on in the process, save time by sending the next interviewer's Calendly link to the applicant. This saves the time it would otherwise take the next interviewer to send the link.
 
@@ -124,15 +124,15 @@ is hard, but it is part of our [company values](/handbook/#values).
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
     * Feedback and rejection should not be based on soft skills.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
-1. TODO: If the candidate is not hired, People Ops sends out an email to ask for feedback.
+1. TODO: If the candidate is not hired, the recruiting team will send out an inquiry to gather feedback.
    * There is a "gathering applicant feedback" template in Workable with these questions.
-The feedback survey should be sent out about 3 days after the applicant has been
+The feedback survey should be sent out within 2 days after the applicant has been
 notified of the rejection.
-   * PeopleOps will receive the feedback and will use this to improve the hiring process.
+   * People Ops will review all feedback and use it to improve the hiring process.
 
 ## Screening Call
 
-For all positions, we conduct screening calls. This call is typically done by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/).
+We conduct screening calls for all positions. This call will be completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/).
 
 Questions are:
 
@@ -211,15 +211,15 @@ Always leave feedback, this will help everyone to understand what happened and h
 
 One way of writing the feedback is as follows:
 
-> Vote: inclined/not inclined
-> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
-> Pros: what is good, and where did you found it during the interview, bullet points is fine.
-> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
-> Interview notes: What questions were asked, what story you got back. Ex.
+> Vote: Inclined, Semi-Inclined or Not Inclined to Hire
+> Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
+> Pros: What is good and where did you hear it during the interview?
+> Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
+> Interview notes: What questions were asked and what story did you got back? Ex.
 >   Tell me about a time when you did X
 >   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
-The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
+The vote is critical as it is telling the rest of the hiring team your opinion on this hire.
 
 ## Interview Questions
 
@@ -252,13 +252,12 @@ These questions are also available in a [Google form](https://docs.google.com/fo
 ## Reference calls
 
 As part of our hiring process we will ask applicants to provide us with two or more
-references to contact. These reference calls are typically be done by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) or the hiring
- manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+references to contact. These reference calls are completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Offers and Contracts Ready, Reviewed, and Signed
 {: #prep-contracts}
 
-Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
+Offers made to new team members should be documented in Workable through the email thread between the person authorized to make the offer and the applicant.
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
    1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use), ask People Ops if in doubt;
