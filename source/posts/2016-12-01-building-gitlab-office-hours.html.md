@@ -10,11 +10,6 @@ twitter_image: '/images/tweets/feature-preview-introducing-cycle-analytics.png'
 
 {::options parse_block_html="true" /}
 
-<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an update and Q&A with our Frontend Engineering team. [Get the details here](https://www.youtube.com/watch?v=ioogrvs2Ejc)!
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-{: .alert .alert-webcast}
-
 Following the release of [GitLab 8.14][gitlab-8-14], VP of Product [Job van der Voort][job-twitter] 
 hosted a YouTube live stream to discuss how our product team is working to realize GitLab's vision and 
 some of the awesome features we just released. Check out the video and highlights below.
@@ -76,15 +71,18 @@ data insights can you obtain from this group of users?
 
 21:22 Are there any downsides of only planning a few months ahead?
 
-
 ## Upcoming Live Streams 
 
 <div class="panel panel-gitlab-orange">
-**Why We Chose Vue.js**
+**Why We Chose Vue.js | December 1, 2016 at 10 am PT/6pm UTC**
 {: .panel-heading}
 <div class="panel-body">
 
-An update from the frontend engineering team. 
+A couple of months ago, [Jacob Schatz][jacob-twitter], Front End Lead at GitLab, published a post
+detailing [why we chose Vue.js][why-vuejs-post] as our JavaScript framework. Since,
+this post has spurred tons of conversation on the topic. To faciliate the conversation
+further, GitLab Front End engineer Phil Hughes will present a front end update
+and host a Q&A session along with Jacob. 
 
 </div>
 </div>
@@ -120,9 +118,11 @@ Webcast w
 [frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 [infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
 [intro-ra]: /2016/11/22/introducing-review-apps/
+[jacob-twitter]: https://twitter.com/jakecodes
 [job-twitter]: https://twitter.com/Jobvo
 [master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [ux-webcast]: 
+[why-vuejs-post]: /2016/10/20/why-we-chose-vue/
 
 ## Community Discussion & Highlights 
 
