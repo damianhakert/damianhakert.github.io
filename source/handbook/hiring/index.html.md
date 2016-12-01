@@ -58,8 +58,9 @@ The recruiting team will **always** publicize the job through the following mean
 **Note** recruiting team will advertise the job through the following sites:
 
 1. [PowerToFly](https://www.powertofly.com) Helping us connect with 100k+ women in tech
-1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
+1. [Hacker News Who's Hiring](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
 `REMOTE ONLY GitLab - We're hiring production engineers, developers, designers, and more, see https://about.gitlab.com/jobs/ We're a remote only company so everyone can participate and contribute equally. GitLab Community Edition is an open-source Ruby on Rails project with over 1000 contributors.`
+1. [Hacker News Jobs](https://news.ycombinator.com/jobs) as a Y Combinator alumni we can post directly to the front page. The EA vault has credentials so ask an EA to post. Template text: `GitLab (YC W15) is hiring XXX and more - Remote Only`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for 90 days, per position)
 1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
