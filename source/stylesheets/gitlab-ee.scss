@@ -1,0 +1,53 @@
+.gitlab-ee-standalone {
+  .brand-primary-background-theme {
+    h2 {}
+    h3 {}
+    p {}
+    .media {}
+    .media-heading {}
+    .media-body {}
+    .media-object {
+      img {}
+    }
+    .feature-preview-selector {
+      .feature-item {}
+      .feature-title {}
+      .feature-description {}
+    }
+    .feature-tree {}
+  }
+  .no-background-color-theme {
+    h2 {}
+    h3 {}
+    p {}
+    .media-heading {}
+    .media-body {}
+    .media-object {}
+  }
+  .ee-standalone-section {
+    .section-title {}
+    .section-description {}
+  }
+  .feature-tree {
+    .feature-tree-row {}
+    .feature-tree-title {}
+    .feature-tree-description {}
+  }
+  .feature-preview-selector {
+    .feature-preview-selector {}
+    .selected-feature-image-wrap {}
+    .feature-list {}
+    .feature-select-zone {}
+    .feature-title {}
+    .feature-description {}
+  }
+  .media-object-row {
+    .media {}
+    .media-heading {}
+    .media-body {}
+    .media-object {
+      img {}
+    }
+  }
+  .call-to-action-btn {}
+}
