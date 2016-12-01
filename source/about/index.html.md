@@ -12,7 +12,7 @@ It provides Git repository management with fine grained access controls, code re
 GitLab Inc. has 4 product offerings:
 
 1. [GitLab Community Edition (CE)](https://about.gitlab.com/features/#community) - free, self hosted application, support from [Community](https://about.gitlab.com/getting-help/)
-1. [GitLab Enterprise Edition (EE)](https://about.gitlab.com/products/) - paid, self hosted application, comes with additional features and support
+1. [GitLab Enterprise Edition (EE)](/products/) - paid, self hosted application, comes with additional features and support
 1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
 1. [GitHost.io](https://about.gitlab.com/githost-io/) - a private single-tenant GitLab instance run by us
 
@@ -87,7 +87,7 @@ Please see the [values section in our handbook](https://about.gitlab.com/handboo
 GitLab Inc. is a for profit company that balances the need to improve
 GitLab Community Edition (CE) with the need to add features to GitLab
 Enterprise Edition (EE) exclusively in order to generate income.
-We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate almost all our revenue with [subscriptions to use Enterprise Edition](https://about.gitlab.com/products/).
+We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate almost all our revenue with [subscriptions to use Enterprise Edition](/products/).
 We recognize that we need to balance the need to generate income and with the needs of the open source project.
 
 ### Promises

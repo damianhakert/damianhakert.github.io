@@ -292,7 +292,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * Review our [Team Call Section](/handbook/#team-call) for the daily call
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
   1. [Documentation](https://about.gitlab.com/documentation/)
-  1. [EE Pricing](https://about.gitlab.com/products/)
+  1. [EE Pricing](/products/)
   1. [Blog](https://about.gitlab.com/blog/)
   1. [About Us](https://about.gitlab.com/about/)
 * Connect with GitLab's social media sites:

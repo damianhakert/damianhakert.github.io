@@ -110,7 +110,7 @@ GitLab Enterprise Edition can have a geographically replicated instance,
 so your remote teams don't have to wait for long downloads when cloning or
 pulling from repositories.
 
-[Geo is available as an Enterprise Edition Product](https://about.gitlab.com/products/).
+[Geo is available as an Enterprise Edition Product](/products/).
 
 [Read the Geo docs for more information](http://docs.gitlab.com/ee/gitlab-geo/README.html)
 
@@ -120,7 +120,7 @@ directory. This ensures that no one will work on or overwrite work that
 can't be merged easily, for instance when working with art assets or
 other non-text files.
 
-[File locking is available as an Enterprise Edition Product](https://about.gitlab.com/products/).
+[File locking is available as an Enterprise Edition Product](/products/).
 
 [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
 

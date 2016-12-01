@@ -61,6 +61,6 @@ for our [Security Newsletter](https://about.gitlab.com/contact/).
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/features/#enterprise).
 
-Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/products/).
+Access to GitLab Enterprise Edition is included with a [subscription](/products/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
 services.

@@ -63,7 +63,7 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
   1. [ ] `git_log.md`
   1. [ ] For the rest of the topics in `user training`, just do a quick read over the file names so you start remembering where to find them.
 1. [ ] Get familiar with the services GitLab offers
-  1. [ ] The differences between [CE and EE](https://about.gitlab.com/products/)
+  1. [ ] The differences between [CE and EE](/products/)
   1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
     1. [ ] Read through the [GitHost documentation](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md)
 

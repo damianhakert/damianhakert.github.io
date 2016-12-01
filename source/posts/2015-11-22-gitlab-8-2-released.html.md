@@ -67,7 +67,7 @@ progress across groups and projects.
 
 If you want to maintain a mirror of a repository in a GitLab instance,
 you can now let GitLab handle the mirroring for you automatically in [GitLab
-Enterprise Edition](https://about.gitlab.com/products/).
+Enterprise Edition](/products/).
 
 ![Mirror any repository automatically in GitLab 8.2 EE](/images/8_2/mirroring.png)
 
