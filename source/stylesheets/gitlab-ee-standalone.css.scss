@@ -1,6 +1,13 @@
+@import "variables";
 .gitlab-ee-standalone {
   .brand-primary-background-theme {
-    h2 {}
+    background-color: $color-primary;
+    .section-title {
+      color: $color-secondary-alt;
+    }
+    .section-description {
+      color: $color-white;
+    }
     h3 {}
     p {}
     .media {}
@@ -11,21 +18,57 @@
     }
     .feature-preview-selector {
       .feature-item {}
-      .feature-title {}
-      .feature-description {}
+      .feature-title {
+        color: $color-secondary-alt;
+      }
+      .feature-description {
+        color: $color-white;
+      }
     }
-    .feature-tree {}
+    .feature-tree-title {
+      color: $color-secondary-alt;
+    }
+    .feature-tree-description {
+      color: $color-primary;
+    }
   }
   .no-background-color-theme {
-    h2 {}
+    background-color: $color-white;
+    .section-title {
+      color: $color-secondary-alt;
+    }
+    .section-description {
+      color: $color-white;
+    }
     h3 {}
     p {}
     .media-heading {}
     .media-body {}
     .media-object {}
+    .feature-preview-selector {
+      .feature-item {
+
+      }
+      .feature-title {
+        color: $color-primary;
+      }
+      .feature-description {
+        color: $blog-text-color;
+      }
+    }
+    .feature-tree-title {
+      color: $color-secondary-alt;
+    }
+    .feature-tree-description {
+      color: $color-primary;
+    }
   }
-  .ee-standalone-section {
-    .section-title {}
+  .ee-standalone-section,
+  section {
+    padding: 50px 0;
+    .section-title {
+      margin: 10px;
+    }
     .section-description {}
   }
   .feature-tree {
