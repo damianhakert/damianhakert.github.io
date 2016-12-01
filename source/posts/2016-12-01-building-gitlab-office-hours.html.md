@@ -11,11 +11,13 @@ twitter_image: '/images/tweets/feature-preview-introducing-cycle-analytics.png'
 {::options parse_block_html="true" /}
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an update and Q&A with our Frontend Engineering team. [Get the details here][https://www.youtube.com/watch?v=ioogrvs2Ejc]!
+Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an update and Q&A with our Frontend Engineering team. [Get the details here](https://www.youtube.com/watch?v=ioogrvs2Ejc)!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
- 
+Following the release of [GitLab 8.14][gitlab-8-14], VP of Product Job van der Voort 
+hosted a YouTube live stream to talk more about realising GitLab's vision and 
+some of the awesome features we just released. Check it out below.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/njP8Wvp45o0" frameborder="0" allowfullscreen="true"> </iframe>
@@ -28,10 +30,6 @@ Tune in for our next live webcast **Why We Chose Vue.js** on December 1 for an u
 "When we announced our B round in Septmeber, we said, "Ok, what we're going to do is we're going to try 
 and ship the whole GitLab flow, going from idea all the way to production and we're going to ship it by the end of the year."
 
-### 2:06 One of the most important things...
-
-"...has been Review Apps." 
-
 ### 2:42 What is Review Apps?
 
 "When you do a merge request, let's say you have some change you want to make on the website.
@@ -43,11 +41,6 @@ checkout the branch for the merge request locally and run it to your local devel
 With Review Apps, what happens is that rather than you having to do anything, 
 on every single merge request we automatically create a new envionment. In that environment,
 we run a full, live environment."
-
-### 4:09 Ok, but how do you manage this architecture? 
-
-"Once that branch is deleted, we will automatically destroy it. So you won't
-be bother with having to manage those environments." 
 
 ### 4:57 Time Tracking Beta released for GitLab Enterprise Edition
 
@@ -120,6 +113,7 @@ Webcast w
 
 <!-- identifiers -->
 
+[gitlab-8-14]: /2016/11/22/gitlab-8-14-released/
 [8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html
 [frontend-webcast]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 [infra-webcast]: https://www.youtube.com/watch?v=WzAzm0C15W8
