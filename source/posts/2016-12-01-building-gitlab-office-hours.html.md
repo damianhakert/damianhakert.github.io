@@ -1,5 +1,5 @@
 ---
-title: "Building GitLab with VP of Product Job van der Voort"
+title: "Building GitLab with VP of Product Job van der Voort Recap"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: inside GitLab 
@@ -105,11 +105,19 @@ time to leave the cloud][bare-metal-post].
 </div>
 
 <div class="panel panel-gitlab-purple">
-**UX Webcast**
+**Designing GitLab's User Experience with UX Lead Allison Whilden | December 15 at 10am PT/6pm GMT**
 {: .panel-heading}
 <div class="panel-body">
 
-Webcast w
+User experience (UX) affects every interaction a user has with a product. Because 
+of this, it can literally make or break the adoption of a website, or application. 
+UX designers have a really big job to do as they dig into the who, the what, 
+the why, and the how of essentially everything that happens within a platform. 
+
+How does GitLab's UX team work to solve the challenge of creating an application 
+that has so many different types of users and releases a new version of its 
+product every month? Join GitLab's UX Lead, Allison Whilden, and her team, as 
+they discuss their process, the big challenges they face and how they look to solve them.
 
 </div>
 </div>
@@ -130,9 +138,9 @@ Webcast w
 [job-twitter]: https://twitter.com/Jobvo
 [master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [pablo-twitter]: https://twitter.com/psczg
-[ux-webcast]: 
+[ux-webcast]: https://www.youtube.com/watch?v=Lxy1jET5pww
 [why-vuejs-post]: /2016/10/20/why-we-chose-vue/
-[vue-js-recording]:
+[vue-js-recording]: https://www.youtube.com/watch?v=ioogrvs2Ejc
 
 ## Community Discussion & Highlights 
 
