@@ -103,7 +103,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     >
     > Free shipping: [Enter free shipping code]
 
-1. [ ] People Ops (Recruiter): Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab!'
+1. [ ] People Ops (Recruiter): Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab as (title)!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
 1. [ ] People Ops (Recruiter): Create a row for the new user on the [1Password spreadsheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0)

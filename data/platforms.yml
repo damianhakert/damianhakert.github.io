@@ -122,7 +122,7 @@
   install_commands: |
                     sudo apt-get install gitlab-ce
   install_commands_manual: |
-                    curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/raspbian/(wheezy|jessie)/gitlab-ce-XXX.deb/download
+                    curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/debian/(wheezy|jessie)/gitlab-ce-XXX.deb/download
                     dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https

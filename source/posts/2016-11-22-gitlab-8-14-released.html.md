@@ -13,6 +13,8 @@ migrations, and then spin up the entire development environment.
 Today, you can just go to GitLab and click the link in
 the merge request to play with a fully functional, live environment.
 
+<!--more-->
+
 Maybe you have some feedback on what you saw and start talking with your
 colleague on chat. Rather than having to communicate on who moves the result to
 issues, you just create an issue directly from chat.
@@ -35,8 +37,6 @@ Thanks Toon Claes!
 Tune in on Nov. 30 for our 8.14 release webcast with a live demo of Review Apps and Time Tracking for EE! [Register here](https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html)!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
-
-<!--more-->
 
 ## Time Tracking Beta (EE)
 
