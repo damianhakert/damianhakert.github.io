@@ -116,7 +116,7 @@ Hopefully, we provided you with an easy solution for keeping your fork up-to-dat
 
 Cool! I'm looking forward to hearing from you: feedback, questions, and suggestions are very welcome! Leave your comment below, add your solution to the [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/25147), or tweet at us [@GitLab](https://twitter.com/gitlab)! We <i class="fa fa-heart gitlab-purple" aria-hidden="true"></i> our community!
 
-<!-- cover image: https://unsplash.com/search/fork?photo=8yqds_91OLw -->
+<!-- cover image: https://unsplash.com/photos/8yqds_91OLw -->
 
 <style>
   .extra-margin-top {
