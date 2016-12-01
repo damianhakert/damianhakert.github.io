@@ -45,6 +45,9 @@ you to add up to 16TB of storage for $0.15 USD per GB per Month.
 
 This feature is only available in our NYC1, SFO2, and FRA1 datacenters.
 
+Please contact [GitLab support](https://about.gitlab.com/support/#support-for-githost)
+if you would like to customize your instance storage.
+
 ### Will I be notified of downtime for maintenance?
 
 Yes.
