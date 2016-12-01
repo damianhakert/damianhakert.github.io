@@ -310,7 +310,7 @@ Below is the last section containing a more formal description of terms and keyw
 
 
 
-Don't miss these GitLab CI stories as well:
+Also:
 
 - Read about [deployment using GitLab CI, and environments support](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/)
 - Learn about [migrating from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
