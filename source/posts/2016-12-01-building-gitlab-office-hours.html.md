@@ -11,7 +11,7 @@ twitter_image: ''
 {::options parse_block_html="true" /}
 
 Following the release of [GitLab 8.14][gitlab-8-14], VP of Product [Job van der Voort][job-twitter] 
-hosted a YouTube live stream to discuss how our product team is working to realize GitLab's vision and 
+hosted a YouTube live stream to discuss how our team is working to realize GitLab's vision and 
 some of the awesome features we just released. Check out the video and highlights below.
 
 <figure class="video_container">
