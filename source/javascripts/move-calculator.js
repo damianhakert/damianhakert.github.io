@@ -184,8 +184,9 @@
         } else if (e.keyCode === 9) { // Tab keyCode
           $this.removeClass('open');
         } else if (e.keyCode === 13) { // Enter / Return
-          // Triggering click directly while keydown is active
-          // doesn't hide dropdown, this workaround does. Need better way :/
+          // As user is highlighting list items using up/down arrow keys
+          // we have to wait until effects of `addClass()` are completed
+          // otherwise we won't get any results on `list.filter()` call
           setTimeout(function() { list.filter('li.is-focused').trigger('click'); });
         }
 
