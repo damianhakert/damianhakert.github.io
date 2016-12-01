@@ -67,7 +67,7 @@ The recruiting team will **always** publicize the job through the following mean
 1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-egningeering roles)
 
 ###Sourcing for Open Positions
-*On difficult/hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialize, or difficult to fill position.
+*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
 
 
 
