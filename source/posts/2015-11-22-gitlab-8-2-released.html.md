@@ -241,7 +241,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 The mentioned EE-only features and things like Repository Mirroring can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
-Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
+Access to GitLab Enterprise Edition is included with a [subscription](/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 

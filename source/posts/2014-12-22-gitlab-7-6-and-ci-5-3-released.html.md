@@ -89,6 +89,6 @@ If you still want to do it manually - see the [Update Guide](https://gitlab.com/
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
-Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
+Access to GitLab Enterprise Edition is included with a [subscription](/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles to our upgrade and installation services.
