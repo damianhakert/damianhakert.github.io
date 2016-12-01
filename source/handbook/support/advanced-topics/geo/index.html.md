@@ -20,22 +20,38 @@ any order you prefer.
 1. [ ] Commit to this by notifying the current experts that they can start
 routing non-technical Geo questions to you
 1. [ ] GitLab University
-  1. [ ] [GLU Deck on Geo](https://drive.google.com/open?id=1r9nXLxU9fuAJdEDTi0ZWg7JyU5Ng4hNJPY3jnQyaor8)
-  1. [ ] [GLU Recording on Geo](https://drive.google.com/open?id=0BxSd33hPSs-jRGRLUkpuWHF2cjQ)
+   1. [ ] [GLU Deck on Geo](https://drive.google.com/open?id=1r9nXLxU9fuAJdEDTi0ZWg7JyU5Ng4hNJPY3jnQyaor8)
+   1. [ ] [GLU Recording on Geo](https://drive.google.com/open?id=0BxSd33hPSs-jRGRLUkpuWHF2cjQ)
 1. [ ] Read through all the [Geo Documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html)
 
-### Stage 2: Installation
+### Stage 2: Technical Setup
 
 - [ ] **Done with Stage 2**
 
 Remember to contribute to any documentation that needs updating
 
-- [ ] Follow the [Setup Instructions](https://docs.gitlab.com/ee/gitlab-geo/README.html#setup-instructions)
+1. [ ] Standard installation following the [Setup Instructions](https://docs.gitlab.com/ee/gitlab-geo/README.html#setup-instructions)
 to install Geo on two VM's
-- [ ] Set up a local repo to push to the primary and pull from the secondary
-- [ ] Destroy the primary and promote the secondary node to primary by following
+1. [ ] Set up a local repo to push to the primary and pull from the secondary
+1. [ ] Destroy the primary and promote the secondary node to primary by following
 the [GitLab Geo Disaster Recovery Instructions](https://gitlab.com/help/gitlab-geo/disaster-recovery.md)
-- [ ] Connect a local repo to this new primary and make sure you can push and pull
+   1. [ ] Connect a local repo to this new primary and make sure you can push and pull
+1. [ ] Custom ports for SSH and HTTP
+1. [ ] Certificates
+   1. [ ] Custom CA, same self signed certificate on both servers
+   1. [ ] Custom certificates for each server, from the same custom CA
+1. [ ] HTTP/HTTPS Test to make sure Geo is working after each step
+   1. [ ] Start with HTTP on both servers and change to the following:
+   1. [ ] Primary use HTTP, secondary HTTPS
+   1. [ ] Primary use HTTPS, secondary HTTP
+   1. [ ] HTTPS on both
+   1. [ ] Back to HTTP
+1. [ ] Upgrade and Downgrade
+   1. [ ] Start with GitLab CE
+   1. [ ] Upgrade to GitLab EE
+   1. [ ] Configure Geo
+   1. [ ] Disable Geo after a trial period
+   1. [ ] Downgrade back to CE
 
 ### Stage 3: Tickets
 
@@ -72,10 +88,10 @@ the customer.
 
 1. [ ] Sales calls with customers that have expressed interest in Geo, and will
 be asking questions about it.
-  1. [ ] call with ___
-  1. [ ] call with ___
+   1. [ ] call with ___
+   1. [ ] call with ___
 1. [ ] Installation calls where we help a client install Geo
-  1. [ ] call with ___
+   1. [ ] call with ___
   1. [ ] call with ___
 1. [ ] Diagnosis calls, where something is wrong with Geo for a customer
   1. [ ] call with ___
