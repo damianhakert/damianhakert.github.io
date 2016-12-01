@@ -245,4 +245,8 @@
       border-color: $dropdown-focus-color;
     }
   }
+
+  &.has-value .input-prefix {
+    color: $dropdown-fa-focus-color;
+  }
 }
