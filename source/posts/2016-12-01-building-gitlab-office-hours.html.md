@@ -74,9 +74,11 @@ data insights can you obtain from this group of users?
 ## Upcoming Live Streams 
 
 <div class="panel panel-gitlab-orange">
-**Why We Chose Vue.js | [Watch the recording][vuejs-recording]**
+**Why We Chose Vue.js**
 {: .panel-heading}
 <div class="panel-body">
+
+[Watch the recording][vuejs-recording]
 
 A couple of months ago, [Jacob Schatz][jacob-twitter], Front End Lead at GitLab, published a post
 detailing [why we chose Vue.js][why-vuejs-post] as our JavaScript framework. Since,
@@ -88,9 +90,11 @@ and host a Q&A session along with Jacob.
 </div>
 
 <div class="panel panel-success">
-**Monitoring Distributed Systems with Prometheus | December 7 at 9am PT/5pm GMT**
+**Monitoring Distributed Systems with Prometheus**
 {: .panel-heading}
 <div class="panel-body">
+
+[Watch live][infra-post] on December 7 at 9am PT/5pm GMT. 
 
 Infrastructure Lead [Pablo Carranza][pablo-twitter] will give a behind-the-scenes 
 look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with 
@@ -105,9 +109,11 @@ time to leave the cloud][bare-metal-post].
 </div>
 
 <div class="panel panel-gitlab-purple">
-**Designing GitLab's User Experience with UX Lead Allison Whilden | December 15 at 10am PT/6pm GMT**
+**Designing GitLab's User Experience with UX Lead Allison Whilden**
 {: .panel-heading}
 <div class="panel-body">
+
+[Watch live][ux-webcast] on December 15 at 10am PT/6pm GMT
 
 User experience (UX) affects every interaction a user has with a product. Because 
 of this, it can literally make or break the adoption of a website, or application. 
