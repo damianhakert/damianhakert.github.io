@@ -83,7 +83,7 @@ and host a Q&A session along with Jacob.
 
 ## 2. Monitoring Distributed Systems with Prometheus
 
-[Watch live][infra-post] on **December 7 at 9am PT/5pm GMT**.
+[Watch live][infra-webcast] on **December 7 at 9am PT/5pm GMT**.
 
 Infrastructure Lead [Pablo Carranza][pablo-twitter] will give a behind-the-scenes
 look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with
@@ -91,8 +91,7 @@ GitLab CE, and give a tutorial on how you can set up your own dashboard.
 A live chat Q&A will follow the presentation. See more details and sign up for
 a reminder [here][infra-lp].
 
-For more information on the topic, read Pablo's blog post on [how we knew it was
-time to leave the cloud][bare-metal-post].
+For more information on the topic, read Pablo's blog post on [how we knew it was time to leave the cloud][bare-metal-post].
 
 ## 3. Designing GitLab's User Experience with UX Lead Allison Whilden
 
