@@ -4,7 +4,11 @@ title: "Product Marketing"
 ---
 # Welcome to the Product Marketing Handbook  
 
-The Product Marketing organization includes Product Marketing and Partner/Channel Product Marketing.
+The Product Marketing organization includes Product Marketing and Partner/Channel Product Marketing.The team consists of: 
+
+* Amara: [Director of Product Marketing](https://about.gitlab.com/jobs/director-product-marketing/) 
+* Stephane: [Product Marketing Manager - Partner and Channel Specialist](https://about.gitlab.com/jobs/product-marketing-manager-partner/) 
+* Krys: [Product Marketing Manager - Enterprise Specialist](https://about.gitlab.com/jobs/product-marketing-manager/)
 
 [Up one level to the Marketing Handbook](/handbook/marketing/)
 
@@ -48,6 +52,7 @@ If you're interested in learning more about the specific deliverables or read mo
 ## Audience and Buyer Persona<a name="audience-buyer-persona"></a>
 
 ### Audiences
+
 Based on feedback from the sales team it seems like potential EE customers come from the following places: 
 
 * Legacy systems: There is a Gartner report that states that 30% of enterprise development teams have move to Git and they predict that there will be a great migration to Git. The sales team has communicated that a number of prospects are looking to move off SVN. 
@@ -55,8 +60,10 @@ Based on feedback from the sales team it seems like potential EE customers come 
 * Hosted git competitive switchers: There are a number of teams that already use hosted Git solutions in the workplace, they may be using GitHub Enterprise, BitBucket, Gogs, or others. Our own CE solution would fall in this group as well.  
 
 ### Buying Personas 
+
 Within the above audiences, we assume the following personas play a role in the decision making process. There are likely more personas involved but we should focus our efforts on the audiences that we can market/sell to in a unique way. For example, we should focus on audiences that we can reach with demographic data like company size or job title to help support our marketing and sales outreach. Therefore, I suggest we focus on the following audiences. 
-* Developer: This is the person who will likely use GitLab. In August, we worked on [a buyer persona study](https://drive.google.com/open?id=0BxSd33hPSs-jbEpSNkFVLXlkY3c) to understand more about our enterprise audience. We only interviewed the "lead evaluator" (i.e. the developer who is looking to find a Git solution for their team). 
+
+* Developer: This is the person who will likely use GitLab. In August 2016, we worked on [a buyer persona study](https://drive.google.com/open?id=0BxSd33hPSs-jbEpSNkFVLXlkY3c) (internal only) to understand more about our enterprise audience. We only interviewed the "lead evaluator" (i.e. the developer who is looking to find a Git solution for their team). 
 * Admin: This is the person who will implement GitLab for the team to use and they are responsible for maintaining the instance and controlling permissions. 
 * Manager/buyer: This person oversees the decision to buy GitLab. They likely will not be a core user but they have a vested interest in making sure that their team gets the tooling they need to be successful at work. 
 * VP Level: This person is not involved in the tool selection process. Their concern is with driving business value but they will likely leave the decision for tools up to the management level as long as managers can prove to them how the solution will drive business value. 
