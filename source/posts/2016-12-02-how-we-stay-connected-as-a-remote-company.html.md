@@ -14,7 +14,7 @@ GitLab is a remote-only company, which means we have the freedom to live where w
 
 ## Team calls
 
-Almost every day we have a team call, not just for company updates but to take it in turns filling in the rest of the team about what we’ve been up to that weekend. I’ve been given a tour of team members’ new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I’ve never had in any office job. I’ve worked at companies where I didn’t know the names of anyone who worked on a different floor – as Douwe at GitLab and because you’ve chatted with everyone on team calls, everyone feels approachable.
+Almost every day we have a team call, not just for company updates but to take it in turns filling in the rest of the team about what we’ve been up to that weekend. I’ve been given a tour of team members’ new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I’ve never had in any office job. I’ve worked at companies where I didn’t know the names of anyone who worked on a different floor. "There are no floors at GitLab," Douwe said to me on a call, and it's true both literally and metaphorically. Because you’ve chatted with everyone on team calls, everyone feels approachable.
 
 ## Coffee break calls
 
@@ -30,4 +30,4 @@ Because holiday cheer knows no borders, this year for the first time we’re doi
 
 ## Meet-ups
 
-Working remotely means you can take your office anywhere – and that’s exactly what some of the team has done. Douwe and Robert are currently on an epic 6-month World Tour, working from 13 different countries and meeting up with other team members in Mexico City, Warsaw, Tel Aviv and more. Working together even for just a short period builds our relationships so that even when we’re working independently, we feel more connected. Douwe and Robert’s adventure has even inspired others to travel while working, joining team members along the way.
+Working remotely means you can take your office anywhere – and that’s exactly what some of the team has done. Douwe and Robert are currently on an epic 6-month World Tour, working from 13 different countries and meeting up with other team members in Mexico City, Warsaw, Tel Aviv and more. Working together even for just short bursts builds our relationships so that even when we’re working independently, we feel more connected and in tune with each other. Douwe and Robert’s adventure has even inspired others to travel while working, joining team members along the way.
