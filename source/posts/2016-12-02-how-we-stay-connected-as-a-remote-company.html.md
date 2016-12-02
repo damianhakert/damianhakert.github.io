@@ -3,8 +3,8 @@ title: "How we stay connected as a remote company"
 author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: inside GitLab
-image_title: '/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/fork.png'
-twitter_image: '/images/tweets/how-to-keep-your-fork-up-to-date-with-its-origin.png'
+image_title: '/images/blogimages/how-we-stay-connected-as-a-remote-company-globe.jpg'
+twitter_image: '/images/blogimages/how-we-stay-connected-as-a-remote-company-globe.jpg'
 description:
 ---
 
@@ -20,11 +20,11 @@ Almost every day we have a team call, not just for company updates but to take i
 
 We also have regular one-on-one chats that can be about anything (as long as it’s not work!). Acknowledging that we don’t have a water cooler around which to gather, we make time for shooting the breeze online instead. And it’s kind of cool to have my coffee break with someone on the other side of the world, in an entirely different time zone or season.
 
-##Summits
+## Summits
 
 Of course, nothing beats getting to know your team in person, which is why we get together every nine months for the [GitLab summit](https://about.gitlab.com/culture/https://about.gitlab.com/culture/). So far we’ve met up in Amsterdam and Austin, and in January we’ll be heading to sunny Cancun for a week to work and play together.
 
-##Secret Santa
+## Secret Santa
 
 Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/miscellaneous/). Because it’s a bit much to expect Santa to deliver to 35 different countries before he even starts his Christmas rounds, we’ll be exchanging gifts at the Cancun Summit. Watch this space for the highlights!
 
