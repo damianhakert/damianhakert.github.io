@@ -19,6 +19,7 @@
   .wrapper {
     max-width: 1050px;
     margin: 0 auto;
+    clear: both;
   }
 
   .alert-webcast {
@@ -61,16 +62,24 @@
 
   .sticky-banner {
     height: inherit;
-    padding: 6px 15px 4px;
+    padding: 6px 0 4px;
 
     .sticky-banner-content {
-      width: 740px;
+      max-width: 1050px;
+      padding: 0 75px;
       margin: 0 auto;
-      max-width: inherit;
+    }
+
+    .sticky-banner-text {
+      display: inline-block;
+      float: left;
     }
 
     .action {
       padding-top: 11px;
+      display: inline-block;
+      float: right;
+      flex: 0;
     }
   }
 
@@ -80,29 +89,13 @@
       clear: both;
     }
 
-    @media only screen and (max-width : 768px) {
-      .section {
-        margin: 0 0 10px;
-        clear: both;
-      }
-    }
-
     .panel {
       box-shadow: 0 3px 3px $blog-color-border-shadow;
+      margin: 0 10px;
     }
 
-    // scss-lint:disable VendorPrefix
     .articles {
       width: 100%;
-      -webkit-column-count: 2;
-      -webkit-column-gap: 25px;
-      -webkit-column-fill: balance;
-      -moz-column-count: 2;
-      -moz-column-gap: 25px;
-      -moz-column-fill: balance;
-      column-count: 2;
-      column-gap: 25px;
-      column-fill: balance;
     }
 
     .article {
@@ -110,23 +103,14 @@
       background: $color-white;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
       padding: 25px;
-      -webkit-column-break-inside: avoid;
-      -moz-column-break-inside: avoid;
-      column-break-inside: avoid;
-      margin-bottom: 25px;
+      margin: 0 10px 25px;
+      float: left;
+      width: calc(50% - 20px);
 
       a {
         color: $blog-color-purple;
       }
     }
-
-    @media only screen and (max-width : 768px) {
-      .article {
-        padding: 10px;
-        margin-bottom: 15px;
-      }
-    }
-    // scss-lint:enable VendorPrefix
 
     .cover {
       text-decoration: none;
@@ -199,28 +183,32 @@
       color: $color-white;
     }
 
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 768px) {
+      .section {
+        margin: 0 0 10px;
+        clear: both;
+      }
 
-      // scss-lint:disable VendorPrefix
+      .panel {
+        margin: 0 0 15px;
+      }
+
       .articles {
         width: 100%;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
       }
-      // scss-lint:enable VendorPrefix
 
       .article {
         float: none;
         width: 100%;
         height: inherit;
+        margin: 0 0 15px;
+        padding: 10px;
       }
     }
   }
 
   &.article {
     .wrapper {
-      max-width: 890px;
       padding: 75px;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
     }
