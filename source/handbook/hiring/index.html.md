@@ -233,7 +233,6 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
 1. What were you most satisfied with in your recent/current position?
 1. What did you like least about your recent/current position?
-1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
 1. Whose careers have you made better?
 1. How do you keep up-to-date with developments in your profession?
