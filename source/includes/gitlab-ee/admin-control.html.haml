@@ -4,17 +4,17 @@
     %p.section-description Get your developers up and running on new projects quickly with centralized user management and access controls.
     .feature-preview-selector.js-feature-preview-selector
       .selected-feature-image-wrap.js-selected-feature-image-wrap
-        %img.selected{src: "http://placehold.it/1280x770", :alt => "Media object image"}
-        %img{src: "http://placehold.it/1280x770", :alt => "Media object image"}
-        %img{src: "http://placehold.it/1280x770", :alt => "Media object image"}
+        %img.selected{src: "http://placehold.it/1280x770", :alt => "Authentication preview", data: { 'feature-id' => 'auth'}}
+        %img{src: "http://placehold.it/1280x770", :alt => "LDAP group sync preview", data: { 'feature-id' => 'ldap'}}}
+        %img{src: "http://placehold.it/1280x770", :alt => "Permissions preview", data: { 'feature-id' => 'permissions'}}}
       %ul.feature-list.js-select-zone-wrap
-        %li.feature-select-zone.selected
+        %li.feature-select-zone.selected{ data: { 'feature-id' => 'auth'}}
           %h4.feature-title Authentication
           %p.feature-description Secure your account with GitLab support for 2FA, U2F, Kerberos, CAS, Atlassian Crowd, SAML and more.
-        %li.feature-select-zone
+        %li.feature-select-zone{ data: { 'feature-id' => 'ldap'}}
           %h4.feature-title LDAP group sync
           %p.feature-description Sync groups, manage SSH-keys, manage permissions, authentication and more.
-        %li.feature-select-zone
+        %li.feature-select-zone{ data: { 'feature-id' => 'permissions'}}
           %h4.feature-title Permissions
           %p.feature-description Manage access and permissions with user roles and group-level settings.
       .media-object-row

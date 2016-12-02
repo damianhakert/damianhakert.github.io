@@ -3,17 +3,19 @@
   %h3.section-subtitle-xl Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that yourteam needs.
   %h2.section-title Work better together
   %p.section-description Let developers contribute ideas and work in parallel with built-in issue trackers, merge requests (MR), and powerful diff tools.
-  .feature-preview-selector
-    .selected-feature-image-wrap
-      %img{:src => "", :alt => ""}
-    %ul.feature-list
-      %li.feature-select-zone
-        %h4.feature-title Issue weights
+  .feature-preview-selector.js-feature-preview-selector
+    .selected-feature-image-wrap.js-selected-feature-image-wrap
+      %img.selected{src: "http://placehold.it/1280x770", :alt => "Authentication preview", data: { 'feature-id' => 'weights'}}
+      %img{src: "http://placehold.it/1280x770", :alt => "LDAP group sync preview", data: { 'feature-id' => 'timetracking'}}}
+      %img{src: "http://placehold.it/1280x770", :alt => "Permissions preview", data: { 'feature-id' => 'locking'}}}
+    %ul.feature-list.js-select-zone-wrap
+      %li.feature-select-zone.selected{ data: { 'feature-id' => 'weights'}}
+        %h4.feature-title Issue Weights
         %p.feature-description Communicate an issue’s complexity or value to your team.
-      %li.feature-select-zone
+      %li.feature-select-zone{ data: { 'feature-id' => 'timetracking'}}
         %h4.feature-title Time tracking
         %p.feature-description Manage your projects effectively by tracking estimated and actual time spent.
-      %li.feature-select-zone
+      %li.feature-select-zone{ data: { 'feature-id' => 'locking'}}
         %h4.feature-title File locking
         %p.feature-description Lock any ﬁle or directory to avoid merge conflicts and better manage your text and binary files.
   .media-object-row

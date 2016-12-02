@@ -1,16 +1,18 @@
 %section.faster-iteration.no-background-color-theme
   %h2.section-title Iterate faster than your competition
   %p.section-description Move faster from idea to production with built-in workﬂow best practices.
-  .feature-preview-selector
-    .selected-feature-image-wrap
-      %img{:src => "", :alt => ""}
-    %ul.feature-list
-      %li.feature-select-zone
+  .feature-preview-selector.js-feature-preview-selector
+    .selected-feature-image-wrap.js-selected-feature-image-wrap
+      %img.selected{src: "http://placehold.it/1280x770", :alt => "GitLab CI preview", data: { 'feature-id' => 'ci'}}
+      %img{src: "http://placehold.it/1280x770", :alt => "Deploys preview", data: { 'feature-id' => 'deploys'}}
+      %img{src: "http://placehold.it/1280x770", :alt => "Pipeline graph preview", data: { 'feature-id' => 'pipeline'}}
+    %ul.feature-list.js-select-zone-wrap
+      %li.feature-select-zone.selected{ data: { 'feature-id' => 'ci'}}
         %h4.feature-title GitLab CI
-        %p.feature-description Run tests on every merge request and merge with conﬁdence.
-      %li.feature-select-zone
+        %p.feature-description  Run tests on every merge request and merge with conﬁdence.
+      %li.feature-select-zone{ data: { 'feature-id' => 'deploys'}}
         %h4.feature-title Manual or automatic deploys
-        %p.feature-description Deﬁne your CI/CD Pipeline and deploy cha nges on you r terms.
-      %li.feature-select-zone
+        %p.feature-description Deﬁne your CI/CD Pipeline and deploy cha nges on your terms.
+      %li.feature-select-zone{ data: { 'feature-id' => 'pipeline'}}
         %h4.feature-title Pipeline Graph
         %p.feature-description Visualize your pipelines and easily ﬁx anything that fails.
