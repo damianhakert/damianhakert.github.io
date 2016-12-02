@@ -37,6 +37,6 @@ This is a chance for anyone in the GitLab community to get involved, even if you
 
 ## Questions? More info?
 
-GitLab team members [@markglenfletcher](https://gitlab.com/markglenfletcher) [@ClemMakesApps](https://gitlab.com/ClemMakesApps) [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
+GitLab team members [@markglenfletcher](https://gitlab.com/markglenfletcher) [@ClemMakesApps](https://gitlab.com/ClemMakesApps) [@haynes](https://gitlab.com/haynes) [@axil](https://gitlab.com/axil) [@afolson](https://gitlab.com/afolson) will be on hand to answer questions and close issues.
 
 Image: "[Smash](https://www.flickr.com/photos/schatz/3893795729)" by [Richard Schatzberger](https://www.flickr.com/photos/schatz/) is licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/#)
