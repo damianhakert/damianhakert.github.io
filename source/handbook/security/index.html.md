@@ -340,20 +340,23 @@ practically the reason the Internet was invented.
 
 ### What to do if you suspect an email is a phishing attack
 
-Delete it!
-
 Whether you believe that you have received an email from our testing platform or
 you believe you have received a real phishing attempt, the best thing to do is
 to delete the email. GMail also offers the option to report the email directly
 to Google as a phishing attempt which will result in its deletion. If you
-suspect that the email is targeted specifically at you or GitLab, please do
-notify the security team so it can be investigated. If you forward the phishing
-email to the security team please do so as an attachment and not inline. To
-forward the email as an attachment from inside GMail:
+suspect that the email is targeted specifically at you or GitLab, please
+notify the security team so it can be investigated. You can also notify other
+team members via Slack. If you forward the phishing email to the security team
+please do so as an attachment and not inline. To forward the email as an
+attachment from inside GMail:
 
   1. In the reply options choose "show original"
   1. Choose "download original"
   1. Save to your local drive or Google Drive
   1. Create a new email with the saved email as an attachment
 
-Remember: When in doubt, delete it.
+If you receive an email that appears to come from a service that you utilize,
+but other details of the email are suspicious -- a private message from a
+sender you don't recognize, for example -- do not click on any links in the
+email. Instead, use your own bookmark for the site or manually type the address
+of the website into your browser.
