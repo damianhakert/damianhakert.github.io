@@ -17,10 +17,10 @@ title: "Stock Options"
 
 |Level|Number of Options|
 |----|----:|
-|Senior Director|15,000|
-|Director|10,000|
-|Senior Manager / Lead / Senior Account Executive|5,000|
-|Manager / Account Executive / Senior Engineer|2,500|
+|(Senior) GitLab Fellow / Senior Director|15,000|
+|Principal &  Distinguished Engineer / Director|10,000|
+|(Senior) Staff Engineer / Senior Manager / Lead / Senior Account Executive|5,000|
+|Senior Engineer / Manager / Account Executive|2,500|
 |Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
 |Junior Engineer / Business Development Representative|1,500|
 
@@ -159,7 +159,7 @@ You will most likely want to include the following letter when sending in the 83
 >
 >To whom it may concern:
 >
->Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.  
+>Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.
 >
 >Yours Truly,
 >
