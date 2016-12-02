@@ -3,8 +3,8 @@ title: "Building a new GitLab Docs site with Nanoc, GitLab CI, and GitLab Pages"
 author: Connor Shea
 author_twitter: connorjshea
 categories: tutorial
-image_title: 
-description: 
+image_title: '/images/blogimages/book.jpg'
+description: "How we built the new GitLab Docs portal from the ground up"
 ---
 
 We recently rebuilt [docs.gitlab.com](https://docs.gitlab.com) from scratch. Where previously the site was generated with a simple Ruby script, we now use a proper static site generator.
@@ -15,9 +15,9 @@ We wanted to show you some of the improvements we made, problems we faced, and t
 
 ## Improvements
 
-The old documentation website was pretty much just an HTML file, a stylesheet, and a Ruby script called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a static site generator and take better advantage of GitLab Pages.
+The old documentation website was pretty much just an HTML file, a stylesheet, and a [Ruby script][genrb] called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a static site generator and take better advantage of [GitLab Pages](https://pages.gitlab.io).
 
-We chose [Nanoc](http://nanoc.ws/) because it’s fast, it comes with a number of built-in helpers and filters (as well as the ability to create custom filters and helpers), and it’s built with Ruby. Overall I think this was definitely the right choice. Nanoc’s documentation had some problems, but the author was very responsive and addressed anything we brought up. Kudos to him on the great project!
+We chose [Nanoc](http://nanoc.ws/) because it’s fast, it comes with a number of built-in helpers and filters (as well as the ability to create custom ones), and it’s built with Ruby. Overall I think this was definitely the right choice. Nanoc’s documentation had some problems, but the author was very responsive and addressed anything we brought up. Kudos to him on the great project!
 
 Other improvements include syntax highlighting with Rouge (no syntax highlighting was used at all on the old site), breadcrumbs for navigating between pages, and an improved overall design – especially on mobile.
 
@@ -188,3 +188,7 @@ Hopefully this shows some of the power of GitLab and having everything integrate
 The [documentation website](https://gitlab.com/gitlab-com/gitlab-docs) is open source, available under the MIT License. You’re welcome to take a look at it, submit a merge request, or even fork it to use it with your own project.
 
 Thanks for reading, if you have any questions we’d be happy to answer them in the comments!
+
+_Photo: https://unsplash.com/photos/G6G93jtU1vE_
+
+[genrb]: https://gitlab.com/gitlab-com/doc-gitlab-com/blob/master/generate.rb
