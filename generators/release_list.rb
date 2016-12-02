@@ -2,7 +2,7 @@ require 'oga'
 require 'httparty'
 
 VERSIONS = [
-  "8.13", "8.12", "8.11", "8.10", "8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3","8.2","8.1","8.0","7.14","7.13","7.12","7.11","7.10",
+  "8.14", "8.13", "8.12", "8.11", "8.10", "8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3","8.2","8.1","8.0","7.14","7.13","7.12","7.11","7.10",
   "7.9","7.8"
 ]
 
@@ -16,7 +16,7 @@ class ReleaseList
     base_url = 'https://about.gitlab.com'
     dec = "##"
     year = 2016
-    month = 10
+    month = 11
     next_version = VERSIONS[0]
     major_version = next_version.split(".").first
     minor_version = next_version.split(".").last

@@ -38,6 +38,10 @@ Follow these steps to send out a signature request.
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
+#### Letter of Adjustment
+
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable. 
+
 ### Processing changes
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and

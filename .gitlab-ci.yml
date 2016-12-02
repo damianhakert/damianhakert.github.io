@@ -72,6 +72,8 @@ review_stop:
 
 deploy:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   dependencies:
     - build
   before_script: []

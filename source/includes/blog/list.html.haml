@@ -1,0 +1,21 @@
+.wrapper
+  .section
+    .articles
+      - articles.each do |article|
+        .article
+          - image_title = article.data.image_title ? article.data.image_title : '/images/default-blog-image.png'
+
+          %a.cover{ href: article.url, style: "background-image: url(#{image_title});" }
+            .overlay
+              %h2
+                = article.title
+          .author
+            - if article.data.author_twitter
+              = link_to(article.data.author, "https://twitter.com/#{article.data.author_twitter}")
+            - else
+              = article.data.author
+          .date
+            = article.date.to_time.strftime '%b %e, %Y'
+          .summary
+            = article.summary
+          %a.more{ href: article.url } Read more
