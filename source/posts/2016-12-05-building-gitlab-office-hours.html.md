@@ -71,7 +71,7 @@ data insights can you obtain from this group of users?
 
 ## Upcoming Live Streams
 
-![]
+![Inside GitLab](/images/blogimages/facebook-inside-gitlab-webcast-ad.png)
 
 ## 1. Why We Chose Vue.js
 
