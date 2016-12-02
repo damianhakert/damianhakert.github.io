@@ -33,6 +33,7 @@ feedback into GitLab.
 - Accurate, nuanced, direct, and kind messaging.
 - Being able to work independent and respond quickly.
 - Able to articulate the GitLab mission, values, and vision.
+- Understand the difference between different online developer communities 
 - You LOVE working with the GitLab community.
 
 ## Relevant links
