@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Migration Services
+title: GitHost Administration
 category: GitHost
 ---
 
