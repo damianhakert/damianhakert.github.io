@@ -1,0 +1,127 @@
+- current_page.data.extra_css ||= []
+- current_page.data.extra_css |= ['salary-calculator.css']
+
+- current_page.data.extra_js ||= []
+- current_page.data.extra_js |= ['move-calculator.js']
+.move-container.col-xs-12
+  %h2#move Move
+  .col-sm-12
+    %h4.title Current Contract
+    .col-sm-4
+      .dropdown.current-country
+        %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
+          %span.label Country
+          %span.title --
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+          %li.filter-container
+            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country' }
+            %i.fa.fa-search
+          - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
+            %li
+              %span.key= p.country
+    .col-sm-4
+      .dropdown.current-city
+        %button.dropdown-menu-toggle.disabled.btn{ type: 'button', 'data-toggle' => 'dropdown' }
+          %span.label City
+          %span.title --
+          %span.subtitle
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+          %li.filter-container
+            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
+            %i.fa.fa-search
+          - data.numbeo.sort_by(&:city).each do |p|
+            %li.hidden{'data-current-country' => p.country}
+              %span.key= p.city
+              %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
+    .col-sm-4
+      .form-group.input-container.current-salary
+        %label.input-label{ for: 'current-salary' } Current Compensation
+        %span.input-prefix $
+        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "6" }
+  .col-sm-12
+    %h4.title New Contract
+    .col-sm-4
+      .dropdown.new-country
+        %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
+          %span.label Country
+          %span.title --
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+          %li.filter-container
+            %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country' }
+            %i.fa.fa-search
+          - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
+            %li
+              %span.key= p.country
+    .col-sm-4
+      .dropdown.new-city
+        %button.dropdown-menu-toggle.disabled.btn{ type: 'button', 'data-toggle' => 'dropdown' }
+          %span.label City
+          %span.title --
+          %span.subtitle
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+          %li.filter-container
+            %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city' }
+            %i.fa.fa-search
+          - data.numbeo.sort_by(&:city).each do |p|
+            %li.hidden{'data-new-country' => p.country}
+              %span.key= p.city
+              %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
+    .col-sm-4
+      .compensation
+        .title New Compensation
+        .amount --
+  .col-sm-12.formula-container
+    %h4 How did we calculate your compensation?
+    .formula
+      .variable-group
+        .variable.currentSalary
+          %span.name Current Salary
+          %span.value $
+      .symbol.multiplication x
+      .variable-group
+        .symbol (
+        .variable.newRentIndex
+          %span.name New Rent Index
+          %span.value --
+        .symbol +
+        .constant 0.25
+        .symbol )
+      .symbol.division /
+      .variable-group
+        .symbol (
+        .variable.currentRentIndex
+          %span.name Current Rent Index
+          %span.value --
+        .symbol +
+        .constant 0.25
+        .symbol )
+      .symbol.multiplication x
+      .variable-group
+        .symbol (
+        .variable.newContractTypeFactor
+          %span.name New Contract Type Factor
+          %span.value --
+        .symbol /
+        .variable.currentContractTypeFactor
+          %span.name Current Contract Type Factor
+          %span.value --
+        .symbol )
+    .explanation
+    Find out
+    = succeed '.' do
+      %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+    You are also eligible for
+    %a{href: '/handbook/stock-options/'} stock options
+    and
+    = succeed '.' do
+      %a{href: '/handbook/benefits/'} other benefits
+    %span.contract-type-container.hidden
+      Based on the information provided, we expect you will be
+      %span.grammer a
+      %strong.contract-type contractor
+      at GitLab
+      %span.company-type BV.
