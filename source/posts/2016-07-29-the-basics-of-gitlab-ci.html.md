@@ -310,11 +310,10 @@ Below is the last section containing a more formal description of terms and keyw
 
 
 
-Also:
-
-- Read about [deployment using GitLab CI, and environments support](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/)
-- Learn about [migrating from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
-- Learn how to [decrease build time](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
+See also:
+- [Learn how to set up deployment pipeline to multiple environments](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/)
+- [Migrate from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
+- [Decrease build time with custom docker image](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
 
 
 
