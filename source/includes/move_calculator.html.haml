@@ -4,7 +4,7 @@
 - current_page.data.extra_js ||= []
 - current_page.data.extra_js |= ['move-calculator.js']
 .move-container.col-xs-12
-  %h2#compensation Move
+  %h2#move Move
   .col-sm-12
     %h4.title Current Contract
     .col-sm-4
@@ -39,7 +39,7 @@
       .form-group.input-container.current-salary
         %label.input-label{ for: 'current-salary' } Current Compensation
         %span.input-prefix $
-        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation' }
+        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "6" }
   .col-sm-12
     %h4.title New Contract
     .col-sm-4
