@@ -17,7 +17,7 @@ with the pg_repack extension. Now, we're feeling the pain of running a high
 performance distributed filesystem on the cloud.
 
 <i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-Tune in on December 7 for my webcast on Monitoring Distributed Systems with Prometheus [Watch live on Decemeber 7][https://www.youtube.com/watch?v=WzAzm0C15W8]!
+Tune in on December 14 for my webcast on Monitoring Distributed Systems with Prometheus [Watch live on Decemeber 14][https://www.youtube.com/watch?v=WzAzm0C15W8]!
 &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {: .alert .alert-webcast}
 
