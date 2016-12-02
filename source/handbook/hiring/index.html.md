@@ -227,27 +227,8 @@ The vote is critical as it is telling the rest of the hiring team your opinion o
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
-1. Thanks for taking the time to interview with us. I would like to take notes during this interview. This might cause me to look distracted since I'll be looking at another screen. What do you think?
-1. Do you have any questions about the job, our organization, our strategy, or me personally?
-1. Why did you apply to GitLab?
-1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
-1. What were you most satisfied with in your recent/current position?
-1. What did you like least about your recent/current position?
-1. What professional achievements are you most proud of?
-1. Whose careers have you made better?
-1. How do you keep up-to-date with developments in your profession?
-1. If you don't get this job what will you do instead?
-1. Are you interviewing anywhere else?
-1. How can we change GitLab as a software product to make it better?
-1. What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
-1. What do you expect to achieve in your first month at GitLab?
-1. Where do you want to be in three years from now?
-1. How do you feel about working remotely?
-1. If you get hired, when can you start?
-1. What compensation would you feel comfortable with?
-1. Do you have any questions for me?
-
-These questions are also available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
+The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview. 
+All candidates are asked to fill out the form when they are scheduled for an interview with our CEO to discuss during their call with the CEO.
 
 ## Reference calls
 
