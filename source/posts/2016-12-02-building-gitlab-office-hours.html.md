@@ -71,19 +71,22 @@ data insights can you obtain from this group of users?
 
 ## Upcoming Live Streams
 
+![]
+
 ## 1. Why We Chose Vue.js
 
-[Watch the recording][vuejs-recording]
+[Watch the recording][vue-js-recording]
 
 A couple of months ago, [Jacob Schatz][jacob-twitter], Front End Lead at GitLab, published a post
 detailing [why we chose Vue.js][why-vuejs-post] as our JavaScript framework. Since,
 this post has spurred tons of conversation on the topic. To faciliate the conversation
-further, GitLab Front End engineer Phil Hughes will present a front end update
+further, GitLab Front End engineer Phil Hughes presented a front end update
 and host a Q&A session along with Jacob.
 
 ## 2. Monitoring Distributed Systems with Prometheus
 
-[Watch live][infra-webcast] on **December 7 at 9am PT/5pm GMT**.
+[Watch live][infra-webcast] on **December 14 at 9am PT/5pm GMT**. 
+[Sign up to receive a reminder and the recording.][infra-lp]
 
 Infrastructure Lead [Pablo Carranza][pablo-twitter] will give a behind-the-scenes
 look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with
