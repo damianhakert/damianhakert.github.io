@@ -54,6 +54,12 @@ When your post gets published, send us an invoice. GitLab will pay you in
 American Dollars (USD) from a bank account in the USA, via wired transfer
 to your bank account.
 
+## Notes
+
+- If you want to write about your own product (or the product you represent), and how it integrates with GitLab, we'll be happy to have you as a [Guest Writer](../#guest-posts). The Community Writers Program won't apply for these cases.
+- You are encouraged to write more than one post. If you succeed on the first process, we'll be glad to have you writing for us regularly. The process for writing more than one post is exactly the same for writing the first one. Please, pick up an issue at a time.
+- Your post must be original, comprehensible, technical, and unprecedented.
+
 ## Learn More
 
 - [Publishing Process for Community Writers][publishing-process]
