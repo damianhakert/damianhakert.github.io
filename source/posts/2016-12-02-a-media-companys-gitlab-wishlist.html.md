@@ -7,7 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "A Lukkien developer shares his team's challenges with Git and GitLab for their UX designs, and requests a few tweaks they'd find useful."
 twitter_image: '/images/tweets/default-blog-image.png'
 ---
-Wouter van Kuipers is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces photography, film, apps, CGI, and graphic design. His team currently works on an app aimed towards parents and healthcare professionals, on behalf of an account that makes baby food. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used a CVS, and ultimately decided on Gitlab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
+[Wouter van Kuipers](https://twitter.com/wvkuipers) is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces online media, photography, film, apps, CGI, and graphic design. His team currently works on an platform aimed towards parents and healthcare professionals, on behalf of an account that makes nutrition. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used SVN, and ultimately decided on Gitlab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
 
 Here are some items discussed below and requested by the Lukkien team:
 
@@ -39,17 +39,17 @@ Read the full exchange below!
 
 **Lee:** So your question is about validating the builds in one place — this is really interesting, and I have a couple of options for you to consider. If you’re using CI inside of GitLab we have two sections for pipelines, we have “builds,” which aggregate all of the pending and current builds. That’s the “builds view,” so you can see all the builds in progress. There’s also the “pipelines” view, which shows us which stage they’re in. Is this different from what you’re looking for? 
 
-**Wouter: Currently we’re on a Jenkins set-up, so we can quickly compare testing results between builds using a jenkins plugin which gives us a"code metrics repoort." As an example, over on the right we have the test results, so you can see the scope of the builds and when something fails you’ll see a gap in that. And then you can see stuff like code metrics, and output from the unit test compared to previous builds.**
+**Wouter: Currently we’re on a Jenkins set-up, so we can quickly compare testing results between builds using a jenkins plugin which gives us a "code metrics report." As an example, in Jenkins we can display a graph of test treds. And then you can see stuff like code metrics, and output from the unit test compared to previous builds.**
 {: .alert .alert-info}
 
 **Lee:**  I see, and that gives you basically the output of the unit test, and the trend over time. Ok, so as far as I know, we don’t have this currently, and I’ll confirm with our CI team and see if there are any related issues. It seems like something we'd be interested in exploring.
 
-**Wouter: My next question has to do with the fact that keeping track of issues between builds is sometimes hard. Team members have the responsibility to set the correct status of a ticket to keep track of the status, but it's a manual job. We have a OTAP build lane, but it's sometimes not clear on/to which environment a ticket is deployed (is this ticket on acceptance yet?) Do you have any idea on how we could improve this? We are thinking about posting a comment to an issue when a specific commit (always containing issue number) is build to a certain env.(by the way we use Jira)?**
+**Wouter: My next question has to do with the fact that keeping track of issues between builds is sometimes hard. Team members have the responsibility to set the correct status of a ticket to keep track of the status, but it's a manual job. We have a DTAP build lane, but it's sometimes not clear on/to which environment a ticket is deployed (is this ticket on acceptance yet?) Do you have any idea on how we could improve this? We are thinking about posting a comment to an issue when a specific commit (always containing issue number) is build to a certain env.(by the way we use Jira)?**
 {: .alert .alert-info}
 
 **Lee:** This is really interesting to myself and my team, because you’re talking about tracking issues between builds. This seems like a use case that we haven’t encountered before. Where are the struggles in the over the air builds? I saw you’re using Jira now; do you plan on using Jira with GitLab, or are you trying to replace Jira, what are your thoughts on that? 
 
-**Wouter: Yes we are already using Jira and GitLab alongside each other, so now when a tester wants to test a subject, first they have to see if it’s already built to that environment, maybe it’s in production already, and some time goes into that stage by developers. They have to do that with GitHub as well, this issue is older.**
+**Wouter: Yes we are already using Jira and GitLab alongside each other, so now when a tester wants to test a issue, first they have to see if it’s already built to a specific environment, maybe it’s in production already, and some time goes into that stage for testers/developers as they have to look it up. They have to do that from within Git(lab) as well, especially when the issue is older.**
 {: .alert .alert-info}
 
 **Lee:** And they’re looking it up in GitLab issues, or in Jira? 
