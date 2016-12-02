@@ -159,3 +159,8 @@
   description: /jobs/vp-of-marketing/
   apply:
   open: false
+
+- title: "Regional Director Sales, US"
+  description: /jobs/regional-director-sales/
+  apply: https://gitlab.workable.com/jobs/377841/candidates/new
+  open: true
