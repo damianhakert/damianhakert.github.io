@@ -629,3 +629,7 @@
   height: 500px;
   background: linear-gradient(-225deg, $blog-color-legacy-image-from 0%, $blog-color-legacy-image-to, 100%);
 }
+
+.image-title .color-bg h1 {
+  color: $color-white;
+}
