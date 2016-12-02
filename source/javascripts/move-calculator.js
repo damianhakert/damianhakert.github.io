@@ -351,15 +351,22 @@
       var values = this.getElementValues();
       var currentRentIndex = this.calculateRentIndex(values.currentCity, values.currentCountry);
       var newRentIndex = this.calculateRentIndex(values.newCity, values.newCountry);
-      var currentContract = this.calculateContractFactor(values.currentCountry);
-      var newContract = this.calculateContractFactor(values.newCountry);
       var salary = values.salary;
+      var currentContract, newContract;
+
+      if (values.currentCountry) {
+        currentContract = this.calculateContractFactor(values.currentCountry);
+      }
+
+      if (values.newCountry) {
+        newContract = this.calculateContractFactor(values.newCountry);
+      }
 
       $('.formula .currentSalary .value').text(this.formatAmount(salary));
       $('.formula .currentRentIndex .value').text(currentRentIndex ? currentRentIndex : defaultValue);
       $('.formula .newRentIndex .value').text(newRentIndex ? newRentIndex : defaultValue);
-      $('.formula .currentContractTypeFactor .value').text(currentContract.hasOwnProperty('factor') ? currentContract.factor.toFixed(2) : defaultValue);
-      $('.formula .newContractTypeFactor .value').text(newContract.hasOwnProperty('factor') ? newContract.factor.toFixed(2) : defaultValue);
+      $('.formula .currentContractTypeFactor .value').text(currentContract && currentContract.hasOwnProperty('factor') ? currentContract.factor.toFixed(2) : defaultValue);
+      $('.formula .newContractTypeFactor .value').text(newContract && newContract.hasOwnProperty('factor') ? newContract.factor.toFixed(2) : defaultValue);
     }
 
     MoveCalculator.prototype.renderInvalidCompensation = function() {
