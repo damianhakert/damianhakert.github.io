@@ -26,8 +26,13 @@ feedback into GitLab.
 ## Requirements for Applicants
 
 - Have an understanding of Git, GitLab, and modern development practices.
-- Ruby on Rails experience a plus.
-- Excellent written and spoken English. 
+- A broad knowledge of the application development ecosystem.
+- Be a good conversation partner for experienced developers.
+- Know multiple programming languages, Ruby on Rails experience is a plus
+- Excellent written and spoken English.
+- Accurate, nuanced, direct, and kind messaging.
+- Being able to work independent and respond quickly.
+- Able to articulate the GitLab mission, values, and vision.
 - You LOVE working with the GitLab community.
 
 ## Relevant links

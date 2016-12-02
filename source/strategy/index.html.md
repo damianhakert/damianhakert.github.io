@@ -48,17 +48,19 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 We want to achieve our goals in the following order:
 
-1. In 2015 we became the most popular on-premises software development lifecycle solution and we want to continue that.
+1. In 2015 we became the most popular on-premises software development lifecycle solution, and we want to continue that.
 
-2. We want to become the most revenue generating on-premises software development lifecycle solution
+2. We want to become the most revenue generating on-premises software development lifecycle solution.
 
-3. After on-premises we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
+3. After on-premises, we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones).
 
-4. After private repositories we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories.
+4. After private repositories, we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories.
 
-5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it
+5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this, we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it.
 
-While we achieve our goals one by one this doesn't mean we will focus on only one goal at the time. Simultaneously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+While we achieve our goals one by one, this doesn't mean we will focus on only one goal at a time. Simultaneously, we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [products](https://about.gitlab.com/pricing/#gitlab-ee), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+
+We realize our competitors have started earlier and have more capital. Because we started later we need a more compelling product that covers the complete [scope](https://about.gitlab.com/direction/#scope), that is integrated out of the box, and that is cloud native. Because we have less capital, we need to build that as a community. Therefore it is important to share and ship our [vision for the product](https://about.gitlab.com/direction/#vision). The people that have the most knowledge have to prioritize **breadth over depth** since only they can add new functionality. Making the functionality more comprehensive requires less coordination than making the initial minimal feature. Shipping a small part of a big vision as quickly as possible sometimes goes against our instincts. However leading the way is needed to allow others to see our path and contribute. So when in doubt, the rule of thumb is breadth over depth, so everyone can contribute.
 
 ## Principles
 

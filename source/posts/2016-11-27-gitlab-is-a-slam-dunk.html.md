@@ -8,18 +8,14 @@ description: "Developer Warren Postma shares his opinions on VCS, after years of
 twitter_image: '/images/tweets/why-bare-metal.png'
 ---
 
-_If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
+Warren Postma is a team lead and "de facto DevOps guy" at [RamSoft](https://www.ramsoft.com/), but like so many he's gotten hooked on [contributing](https://gitlab.com/warren.postma) to GitLab in his spare time. After becoming familiar with GitHub, Atlassian, and Mercurial in previous jobs, he felt strongly that Git and GitLab were the best choice for his current team. Since reaching that conclusion, he's also assisted his peers and former colleagues in their switch to GitLab, so I wanted to hear his opinions - they're both strong and numerous, which made for a fun conversation.
 
-Warren Postma is a team lead and "de facto DevOps guy" at [RamSoft](https://www.ramsoft.com/), but like so many he's gotten hooked on [contributing](https://gitlab.com/warren.postma) to GitLab in his spare time. After becoming familiar with GitHub, Atlassian, and Mercurial in previous jobs, he felt strongly that Git and GitLab were the best choice for his current team. Since reaching that conclusion, he's also assisted his peers and former colleagues in their switch to GitLab, so I wanted to hear his opinions - they're both strong and numerous, which made for a fun conversation.  
+<!--more-->
 
 Here are some highlights:
 * In a team distributed across timezones and languages, the decentralized nature of Git and GitLab is a huge win.
-* If you pair people for code review who are in the same timezone, you can prevent having merge requests stay open for days or weeks. 
+* If you pair people for code review who are in the same timezone, you can prevent having merge requests stay open for days or weeks.
 * When switching to GitLab CI, the biggest barrier is training and removing ingrained habits - especially if people are also new to Git.
-
-Read the full exchange below!
-
-<!-- more -->
 
 **Can you briefly describe the kinds of projects you use GitLab for?**
 {: .alert .alert-info}
@@ -52,12 +48,12 @@ Privately Hosted (on my computer or VM) + Free + OpenSource = Made of Win. I can
 **What is the main reason you would recommend GitLab to another dev?**
 {: .alert .alert-info}
 
-**Warren:** Once the choice is made to use Git, to me, GitLab is a slam dunk decision. Software companies, whether small, medium, or large, and even single developers who are professionals who get paid, should be hosting their own in-house GitLab, and perhaps having that back up to some off-site repo (say Bitbucket or GitLab.com). Single developers could be quite happy with Bitbucket also. I happen to still love Bitbucket, but happen to distrust GitHub. I only use GitHub when I have to use it, which is to make MRs to projects that are on GitHub. 
+**Warren:** Once the choice is made to use Git, to me, GitLab is a slam dunk decision. Software companies, whether small, medium, or large, and even single developers who are professionals who get paid, should be hosting their own in-house GitLab, and perhaps having that back up to some off-site repo (say Bitbucket or GitLab.com). Single developers could be quite happy with Bitbucket also. I happen to still love Bitbucket, but happen to distrust GitHub. I only use GitHub when I have to use it, which is to make MRs to projects that are on GitHub.
 
 People who I have talked to, and I have even given presentations to people at user groups, are usually interested in GitLab because:
 
 1. It lets you host your own private Git server.
-2. It has a pretty impressive set of features, issue tracking, merge request handling, and continuous integration server built in.  
+2. It has a pretty impressive set of features, issue tracking, merge request handling, and continuous integration server built in.
 
 I am working on a community blog post on switching a small healthcare software company from Jenkins to GitLab CI. So far, I have found that the only difficulty is in training team members. Moving ingrained practices and working against ingrained tendencies is the hardest thing. We previously had a single-branch trunk-based monorepo culture, and switching to Git, to me, was only sensible if we changed our practices to work how Git is meant to be used.
 
@@ -65,7 +61,8 @@ A pet peeve of mine can be summed up in the saying "When all you have is a hamme
 
 In terms of companies and products that I consider to be almost "peers" of GitLab, perhaps Bitbucket is closest. I prefer GitLab because the product is open source, the people are great, and the growing community around GitLab is also great. Oh and the product is growing at a fantastic pace. Just watching it from mid 2015 to today, the pace of innovation has been boggling. I have also collaborated with GitLab community members to create add-ons and tools. One guy made a Python-based tool that uses the GitLab API to [expire and delete old artifacts](https://github.com/JonathonReinhart/gitlab-artifact-cleanup) *site-wide*. Another guy made a Go-based tool that copies Issues and Issue labels from one project to another. All great plugins from the community!
 
+_If your team uses GitLab and is interested in sharing your story, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
 
-_Follow Warren on [Twitter](https://twitter.com/warrenpostma)_ 
+_Follow Warren on [Twitter](https://twitter.com/warrenpostma)_
 
-_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._ 
+_Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._

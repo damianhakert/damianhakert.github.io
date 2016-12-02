@@ -92,7 +92,7 @@ Now that we've got GitLab running, let's set up an account.
 
 We now create a group for our company; let’s name it `tanuki`.
 
-> * Create a group called `tanuki` and make it public TODO: [New project should be below new group on the welcome screen](https://gitlab.com/gitlab-org/gitlab-ce/issues/24135)
+> * Create a group called `tanuki` and make it public
 
 Then let’s now create a new project to start off with. Let's call it `www` and make it public.
 

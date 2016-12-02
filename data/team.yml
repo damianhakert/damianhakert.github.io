@@ -172,7 +172,6 @@
   maintains:  |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
-              <li><a href="https://pages.gitlab.io/">GitLab Pages maintainer</a></li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
               <li><a href="/jobs/expert/">Expert</a> on: Docker, LFS, Gitlab Runner, Jenkins</li>
   story:  |
@@ -446,9 +445,7 @@
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
-  maintains:  |
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-recipes">GitLab Recipes</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/groups/pages">GitLab Pages examples</a></li>
+  specialty: Documentation, social
   story:  |
           Achilleas has been using GitLab since version 2, back when the default
           username and password were not documented. He started actively
@@ -538,7 +535,7 @@
   locality: Colorado Springs, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/designer/">Designer</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: lukebabb.jpg
   twitter: lukebabb
   gitlab: lukebabb
@@ -562,6 +559,7 @@
   maintains: |
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
@@ -631,7 +629,7 @@
   locality: Belgrade
   country: Serbia
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: ivan.jpg
   twitter: inemation
   gitlab: inem
@@ -708,7 +706,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -733,7 +731,7 @@
   locality: Alameda, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: amanda.jpg
   twitter: AmbassadorAwsum
   gitlab: afolson
@@ -796,7 +794,7 @@
   locality: New York City, NY
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-product-marketing/">Director of Product Marketing</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: amara.png
   twitter: its_amaracle
   gitlab: amara
@@ -968,9 +966,7 @@
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
-  maintains:  |
-              <li>Markdown Kramdown <a href="/jobs/expert/">expert</a></li>
-              <li>Technical Editor of the <a href="/blog/">GitLab Blog</a></li>
+  specialty: Blog, technical writing, community writers program, social
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -1100,9 +1096,9 @@
           Luke believes that Git is one of the most significant tools in today's digital toolbox. After recognising the importance of the GitLab vision and values, he couldn't have got on board any quicker. Luke is excited to use Ruby, JavaScript and Sass to craft rich and elegant user experiences at GitLab. In his spare time, Luke enjoys cooking, pretending to understand financial markets and hacking intelligence into boring household applicances.
 
 - name: Brittany Rohde
-  locality: Tacoma, WA
+  locality: Columbus, GA
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
+  role: <a href="https://about.gitlab.com/jobs/people-ops-specialist/">People Operations Specialist</a>
   reports_to: Senior Director of People Operations
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
@@ -1143,7 +1139,7 @@
   locality: Murrells Inlet, SC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-demand-generation/">Director of Demand Generation</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: JoeLucas.jpg
   twitter: joelucas
   gitlab: joelucas
@@ -1289,6 +1285,7 @@
   twitter: lupine_85
   gitlab: nick.thomas
   maintains:  |
+              <li><a href="https://pages.gitlab.io/">GitLab Pages</a> maintainer</li>
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-workhorse">GitLab Workhorse</a> <a href="/jobs/expert/">expert</a></li>
@@ -1391,6 +1388,7 @@
   picture: erica.jpg
   twitter: EricaLindberg_
   gitlab: lindberg
+  specialty: YouTube, webinars, AMAs, social
   story:  |
           As a self-described journalist, Erica is a dedicated researcher with a proclivity for narrative. Before joining GitLab, Erica worked for Kapost where she unofficially attended B2B marketing bootcamp. She is passionate about media, technology, and audience development. When she's not working, she enjoys hiking, cooking, and reading.
 
@@ -1445,10 +1443,11 @@
   locality: London
   country: United Kingdom
   role: Content Lead
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
+  specialty: Newsletter, blog, documentation, social
   story:  |
           Sean is a software developer and writer passionate about education,
           user experience and demystifying the complex. Before GitLab Sean
@@ -1605,6 +1604,7 @@
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
+  specialty: Blog, user stories, social
   story:  |
           A California native currently exploring the South,
           Emily's SoCal accent has proved surprisingly resilient.
@@ -1760,7 +1760,7 @@
   locality: Berlin
   country: Germany
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: julius.jpg
   twitter: juliusvolz
   gitlab: juliusv
@@ -1768,11 +1768,11 @@
           Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
           He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
-- name: B.B
+- name: Brian Brazil
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -1783,7 +1783,7 @@
   locality: Caherlistrane, Co. Galway
   country: Ireland
   role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Director of Strategic Partnerships
+  reports_to: Prometheus Lead
   picture: lyda.jpeg
   twitter: lyda
   gitlab: lyda
@@ -1813,7 +1813,7 @@
   locality: Highlands Ranch, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: CEO
+  reports_to: Interim VP of Marketing
   picture: connor.png
   twitter: connorjshea
   gitlab: connorshea
@@ -1925,6 +1925,7 @@
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
   gitlab: rebeccad
+  specialty: Blog, culture stories, enterprise & partnership stories, social
   story: |
          Originally from Cape Town, South Africa, Rebecca found her way to GitLab from consumer journalism via content marketing. A self-proclaimed word nerd with a special fondness for 90s adventure games, Rebecca is on a mission to bring GitLab content to a wider audience. Outside of work, she's probably queueing at one of London's latest hipster restaurant openings.
 
@@ -2023,7 +2024,7 @@
   locality: Belgrade
   country: Serbia
   role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: VP of Scaling
+  reports_to: Interim VP of Marketing
   picture: matija.png
   twitter: cmattrex
   gitlab: cmattrex
@@ -2058,7 +2059,7 @@
 - name: T.A.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">VP of Marketing</a>
+  role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">Interim VP of Marketing</a>
   reports_to: CEO
   picture: logo-extra-whitespace.png
   twitter:
@@ -2076,6 +2077,17 @@
   gitlab:
   story:  |
           Joining December 1st
+
+- name: P.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Platform Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 2nd
 
 - name: B.K.
   locality:

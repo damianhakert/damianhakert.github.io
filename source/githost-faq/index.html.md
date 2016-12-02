@@ -41,7 +41,7 @@ Amsterdam, London, San Francisco, Singapore, Toronto, New York, Frankfurt, and B
 
 Technically, no. Our plans are based on the underlying infrastructure templates.
 However, it is possible to attach an external block storage device that allows
-you to add up to 16TB of storage.
+you to add up to 16TB of storage for $0.15 USD per GB per Month.
 
 This feature is only available in our NYC1, SFO2, and FRA1 datacenters.
 
