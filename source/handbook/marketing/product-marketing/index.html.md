@@ -136,3 +136,39 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 * Check out the [GLU calendar](https://docs.google.com/a/gitlab.com/spreadsheets/d/18ZouDT5HASCxztDX_a8H4zHVrTN0EkqbIkuf9SpHJsM/edit?usp=sharing) to see what's scheduled. 
 * GLU slides and recordings will be stored in the Sales Google Drive in the [GitLab University folder](https://drive.google.com/a/gitlab.com/folderview?id=0B41DBToSSIG_NlNFLUEwQ2JHSVk&usp=sharing).
 * All recordings that do not contain senstive information will also be shared in Gitlab's public [YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg). 
+
+
+### Customer Case Study Creation
+
+#### **Objectives**:
+- Illustrate successful and measurable improvements in the customer’s business   
+- Show other users how customers are using GitLab 
+- Align content so that GitLab solutions reflect the challenges our customers, prospects and the market requirements
+- Develop and grow organisational relationships: speak at events on our behalf, promote their business
+- Support our value proposition - Faster from idea to production
+
+#### **Case Study Format**:
+
+*Headline:* The name of the customer and the benefit they gained from implementing our solution
+*Sidebar Summary:* Summarize key points 
+- Customer Name and Logo
+- Customer Details: Country, Website
+- Organisation Type - Public/Private & Industry
+- Annual Revenue - If publicly available
+- Employees
+- Summary of Key Benefits
+*The Customer:* A brief introduction of the customer, not the solution.
+*The Challenge:* What was the customer trying to change or improve. What regulations or market conditions drove the customer to search for a new solution. Share the steps the customer took to solve the problem, including other products and services they investigated. 
+*The Solution:* Detail the solution and how it aligns to the customers requirements. Also detail other solutions that GitLab interfaces with. Also include customer quote.
+*The Results:* Detail how GitLab supported the customer to solve their problems. This is where the use of benchmarking metrics such as such as time saved, reduced costs, increased performance etc. are required. 
+*About GitLab:* Short paragraph on GitlLab - about, solutions etc. Call to action of solutions offered.
+
+*Possible Additional Supporting Documents:* 
+- Customer Deal Summary – High Level PowerPoint summary after deal first signed.
+- Customer Success Overview
+- Infographic – Single page A4 summary with diagrams and measureable benchmarks 
+- Benchmark Metrics
+- Publish on website
+- Video - Short video summary if customer is willing to participate - Perforce example
+- Blog Post - Blog post to launch customer case study
+- Keywords for SEO etc.
