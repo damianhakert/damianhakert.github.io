@@ -14,6 +14,7 @@ The Product Marketing organization includes Product Marketing, Content Marketing
 * [Priority focus areas](#priority-focus-areas)
 * [Release management](#release-management)
 * [Sales enablement](#sales-enablement)
+* [Customer case study creation](#case-study)
 
 
 ## Product Marketing Handbooks  
