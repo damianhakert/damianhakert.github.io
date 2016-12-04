@@ -5,7 +5,8 @@ title: "Community Advocacy"
 
 ## Finding the Community Advocates
 
-- [**Public Issue Tracker**, as part of the Marketing team](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
+- [**Public Issue Tracker**, as part of the Marketing team](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
+- [**Support Issue Tracker**, issues filtered to *Community*](https://gitlab.com/gitlab-com/support/issues?label_name%5B%5D=Community+); please use this issue tracket for community interaction related issues only.
 - [**Chat channel**](https://gitlab.slack.com/archives/community-advocacy); please use the `#community-advocacy` chat channel for questions that don't seem appropriate to use the issue tracker for.
 
 ## On this page
