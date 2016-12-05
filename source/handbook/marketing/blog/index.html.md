@@ -539,6 +539,7 @@ Use only **one** of the following categories per post.
 otherwise you'll create another category, which is somenthing we don't want to do unpurposely.
 
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
+- customer stories
 - events
 - git
 - GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
@@ -553,7 +554,6 @@ otherwise you'll create another category, which is somenthing we don't want to d
 - security release _(when the main objective is GitLab security)_
 - technical overview
 - tutorial
-- customer stories
 
 We'll improve it, but by now you can find posts under the same category by navigating to
 `https://about.gitlab.com/blog/categories/category-name/`. Dashes will be automatically added
