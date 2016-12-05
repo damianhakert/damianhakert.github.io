@@ -88,7 +88,7 @@ Notes:
 - Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
   > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
-- For keeping the text clear and consistent, jump a line between any heading and the subsequent paragraph.
+- For keeping the text clear and the markdown consistent, [jump a line](#jump-a-line) between any heading and its subsequent paragraph.
 
 ----
 
