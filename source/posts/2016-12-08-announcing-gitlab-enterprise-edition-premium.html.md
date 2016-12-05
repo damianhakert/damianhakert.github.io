@@ -1,5 +1,5 @@
 ---
-title: "Expanding Our Enterprise Plan Offering: Announcing GitLab Enterprise Edition Premium"
+title: "Expanding Our Enterprise Offering: Announcing GitLab Enterprise Edition Premium"
 author: Amara Nwaigwe
 author_twitter: its_amaracle
 categories: 
