@@ -83,7 +83,9 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 
 Notes:
 
-- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy, such as h2 &rarr; h4.
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
+  > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
+- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy, such as h2 &rarr; h4.
   > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
 
@@ -2004,6 +2006,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
+[SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
