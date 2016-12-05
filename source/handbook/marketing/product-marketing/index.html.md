@@ -139,7 +139,7 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 * All recordings that do not contain senstive information will also be shared in Gitlab's public [YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg). 
 
 
-### Customer Case Study Creation
+### Customer Case Study Creation<a name="case-study"></a>
 
 #### **Objectives**:
 - Illustrate successful and measurable improvements in the customer’s business   
