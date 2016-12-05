@@ -160,7 +160,7 @@ pages:
 
 ### Review Apps
 
-When opening a merge request for the docs site we use a new feature called [Review Apps](https://docs.gitlab.com/ce/ci/review_apps/) to test changes. This lets us test new features, style changes, new sections, etc. by deploying the updated static site to a test domain.
+When opening a merge request for the docs site we use a new feature called [Review Apps](https://about.gitlab.com/features/review-apps/) to test changes. This lets us test new features, style changes, new sections, etc. by deploying the updated static site to a test domain.
 
 ![Review apps](/images/blogimages/gitlab-docs-review-apps-screenshot.png)
 
