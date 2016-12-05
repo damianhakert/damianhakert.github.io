@@ -111,7 +111,6 @@ _TODO: improve the process of responding to Facebook comments, probably by disab
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
-
 ### GitLab Forum
 
 _TODO: improve the process of responding to forum questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
@@ -129,6 +128,12 @@ flow into Zendesk, but can only be responded to from within Stack Overflow.
 ### Reddit
 
 Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Subreddit](https://www.reddit.com/r/gitlab/).
+
+### Youtube
+
+_TODO: improve the process of responding to Youtube comments._
+
+Comments made on the [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
 ### Quora
 
