@@ -164,21 +164,23 @@ When opening a merge request for the docs site we use a new feature called [Revi
 
 ![Review apps](/images/blogimages/gitlab-docs-review-apps-screenshot.png)
 
-See [our post on Review Apps](/2016/11/22/introducing-review-apps/) for more information about how they work and their purpose.
+See [our blog post on Review Apps](/2016/11/22/introducing-review-apps/) for more information about how they work and their purpose.
 
 ### GitLab Pages
 
-[GitLab Pages](https://pages.gitlab.io/) allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done.
+[GitLab Pages](https://pages.gitlab.io/) hosts [static websites](https://en.wikipedia.org/wiki/Static_web_page) and can be used with any Static Site Generator, including [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Middleman](https://middlemanapp.com/), [Pelican](http://blog.getpelican.com/), and of course Nanoc.
 
-GitLab Pages deploys the site whenever a commit is made to the master branch of the gitlab-docs repository or whenever the deploy hook is called. A job is used to trigger a new build whenever tests run and pass on master branch of CE, EE, Omnibus, and Runner.
+GitLab Pages allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done.
+
+GitLab Pages deploys our documentation site whenever a commit is made to the master branch of the gitlab-docs repository. A job is used to trigger a new build whenever a new commit is pushed to CE, EE, Omnibus, or Runner.
 
 It’s worth noting that GitLab Pages _is_ a GitLab Enterprise Edition-only feature, but it’s also available for free on GitLab.com.
 
 ## Conclusion
 
-Hopefully this shows some of the power of GitLab and having everything integrated into one cohesive product. If you have a complex documentation site you’d like to put together from multiple Git repositories, the process described above is the best we’ve been able to come up with.
+Hopefully this shows some of the power of GitLab and having everything integrated into one cohesive product. If you have a complex documentation site you’d like to put together from specific directories in multiple Git repositories, the process described above is the best we’ve been able to come up with. If you have any ideas to make this system better, let us know!
 
-The [documentation website](https://gitlab.com/gitlab-com/gitlab-docs) is open source, available under the MIT License. You’re welcome to take a look at it, submit a merge request, or even fork it to use it with your own project.
+The documentation website is [open source](https://gitlab.com/gitlab-com/gitlab-docs), available under the MIT License. You’re welcome to take a look at it, submit a merge request, or even fork it to use it with your own project.
 
 Thanks for reading, if you have any questions we’d be happy to answer them in the comments!
 
