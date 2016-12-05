@@ -97,30 +97,19 @@ All comments on our [blog posts](https://about.gitlab.com/blog-posts) and any me
 
 Respond to the GitLab community across the following channels in a timely manner:
 
+- Hacker News
+- Twitter (via Zendesk)
 - Disqus
-- Twitter (via Zendesk, to enable tracking metrics on response times),
+- [forum.gitlab.com](https://forum.gitlab.com)
 - Mailing List
 - Facebook
-- [forum.gitlab.com](https://forum.gitlab.com)
 - StackOverflow
 - Reddit
+- YouTube
 - Quora
 - Google alerts
-- Hacker News
 - Comments on news stories in the media, and ....
 - .... more.
-
-### Disqus
-
-_TODO: improve the process of responding to blog comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
-
-All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new
-comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily routine, you should
-make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
-comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
-our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
-the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
-the ticket that was created for your reply.
 
 ### Twitter
 
@@ -166,6 +155,24 @@ of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [Gi
 
 Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
 
+### Disqus
+
+_TODO: improve the process of responding to blog comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
+
+All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new
+comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily routine, you should
+make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
+comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
+our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
+the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
+the ticket that was created for your reply.
+
+### GitLab Forum
+
+_TODO: improve the process of responding to forum questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
+
+Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
+within the Forum environment.
 
 ### Mailing list
 
@@ -177,19 +184,19 @@ _TODO: improve the process of responding to Facebook comments, probably by disab
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
-### GitLab Forum
-
-_TODO: improve the process of responding to forum questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
-
-Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
-within the Forum environment.
-
 ### Stack Overflow
 
 _TODO: improve the process of responding to Stack Overflow questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
 The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
 flow into Zendesk, but can only be responded to from within Stack Overflow.
+
+After you create an account on [Stack Overflow](http://stackoverflow.com/) (if you don't already have one), you should start by 
+answering a few simple questions in an area you're familiar with (a language, web framework, development platform, API, etc.), 
+or in the GitLab tag(s) if you feel comfortable. The goal is to get enough ["Reputation"](http://stackoverflow.com/help/whats-reputation) and have access to a few more features.
+
+Consider offering some of your Reputation using [bounties](http://stackoverflow.com/help/bounty) if a question is particularly advanced and you don't believe you can answer yourself, 
+and the question seems deserving of an answer (e.g. if it has lots of upvotes).
 
 ### Reddit
 
@@ -199,7 +206,7 @@ Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Subreddi
 
 _TODO: improve the process of responding to Youtube comments._
 
-Comments made on the [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
+Repond to comments made on the [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
 ### Quora
 
