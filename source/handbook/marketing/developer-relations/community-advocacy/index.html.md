@@ -29,6 +29,43 @@ title: "Community Advocacy"
 - Don’t be afraid of animated gifs and well-placed humor! We are not robots.
 - Work within the GitLab process to help users report bugs, make feature requests, contact support, and provide feedback to the product.
 
+## Community Interaction Archetypes
+
+### Stability Complaints
+
+- Apologize for the inconvenience
+- Search for an active issue that could be the cause of instability (deployment downtime, load spikes, ...)
+    - [Sentry](https://sentry.gitlap.com/gitlab/)
+    - [Infrastructure Issue Repository](https://gitlab.com/gitlab-com/infrastructure/issues/)
+    - `infrastructure` and `core` Slack channels
+- Determine if the user is still affected
+- Link to the relevant issue
+- (Optional) Forward to support - support AT gitlab.com (be very forbearing about this!)
+
+### Feature Requests
+
+- Analyze the request
+- Open an issue for it
+- Thank the user for the contribution
+- Link to the issue
+- Invite the community member to provide further feedback in the issue
+
+### General Questions / Issues
+
+- Gauge the complexity of the question
+- Search related issues / documentation
+    - [GitLab CE Issues Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues/)
+    - [GitLab Documentation](http://docs.gitlab.com/)
+- (Optional) Forward to support - support AT gitlab.com (be very forbearing about this!)
+
+### Mentions
+
+- Use the `Twitter -> Mention` ZenDesk macro
+
+### Tickets in languages other than English
+
+- Submit the ticket as on-hold
+    - If you speak the language in question - answer it
 
 ## Mentions
 
