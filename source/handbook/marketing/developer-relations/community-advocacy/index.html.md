@@ -78,28 +78,37 @@ the ticket that was created for your reply.
 
 Tweets that mention [@GitLab](https://twitter.com/GitLab),
 or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in Zendesk,
-and show up in the "Twitter and Facebook" view. All responses should be sent from Zendesk.
+and show up in the "Twitter" view. All responses should be sent from Zendesk.
 If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
-from Zendesk also enables us to track our response times vs. our internal [SLA](/handbook/support/#sla).
+from Zendesk also enables us to track our response times vs. [our internal SLA](/handbook/support/#sla).
 
 Reply to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), and the guidelines on [representing GitLab on Twitter](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) regardless of whether the tweet is of a technical nature or not. Follow up with the support team if the issue is too complex to handle.
 
-- The @GitLabStatus account should only be used to give updates on the availability
-of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
-- Tweets directed at @GitLabStatus can be answered from the @GitLab account.
-- When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
+##### General
+
 - Tweets use short links which require you to visit that link to make sure you understand the context.
-To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
-handle requests for gitlab.com.
-- @GitLabSupport is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
+- Clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
+handle requests for [GitLab.com](https://gitlab.com).
 
 When resolving Twitter tickets you should:
 
 1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
-1. Assign the ticket to yourself and ask on the appropriate Slack
-   channel if you don't know the answer
+1. Assign the ticket to yourself or ask in the appropriate Slack channel if you don't know how to answer it
 1. Not cross assign tickets
+
+##### Handles
+
+- The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability
+of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable.
+- Tweets directed at [@GitLabStatus](https://twitter.com/GitLabStatus) can be answered from the [@GitLab](https://twitter.com/GitLab) account.
+- When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
+- [@GitLabSupport](https://twitter.com/GitLabSupport) is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
+
+##### Usage of likes
+
+Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
+
 
 ### Mailing list
 
