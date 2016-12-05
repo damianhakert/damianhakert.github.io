@@ -227,13 +227,13 @@ The vote is critical as it is telling the rest of the hiring team your opinion o
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
-The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview. 
+The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 All candidates are asked to fill out the form when they are scheduled for an interview with our CEO to discuss during their call with the CEO.
 
 ## Reference calls
 
 As part of our hiring process we will ask applicants to provide us with two or more
-references to contact. These reference calls are completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+references to contact. These reference calls are completed by our [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Offers and Contracts Ready, Reviewed, and Signed
 {: #prep-contracts}
