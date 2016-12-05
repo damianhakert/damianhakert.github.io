@@ -9,14 +9,14 @@ description: "Vaadin needed a new solution after their multiple platforms began 
 
 _[Vaadin](https://vaadin.com) is an open source UI product development company that builds components and tools for developers to create beautiful web applications. The company has more than 170 employees, based in Finland, Helsinki, Berlin, and San Jose. Today more than 150,000 developers are active users of Vaadin._
 
+<!-- more -->
+
 Vaadin wanted a tool to centralize their internal projects, while maintaining the commitment to simple UI/UX that they prioritize in their own product. Although they had developed a workflow using [Gitolite](http://gitolite.com/gitolite/index.html), [Trac](https://trac.edgewall.org/), and several other platforms, the administrative overhead began costing developers and admins valuable time. After following GitLab since its earliest iterations, Vaadin’s IT manager, Mikael Vappula, decided that GitLab was the right platform for them. We sat down with Mikael to learn more. 
 
 Here are some tips from Mikael's experience:
 * Centralizing projects reduces the overhead of both IT admins and developers. 
 * Issue trackers and code review make a potent combination, especially when you can easily cross-link relevant issues and MRs. 
 * Make the best tools available to your team, but let them decide what to use. 
-
-<!-- more -->
 
 **What were you using for your previous VCS?** 
 {: .alert .alert-info}
