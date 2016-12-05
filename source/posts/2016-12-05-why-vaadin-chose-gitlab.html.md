@@ -3,7 +3,7 @@ title: "Why Vaadin chose GitLab"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: customer stories
-image_title: '/images/blogimages/why-vaadin-chose-gitlab.png'
+image_title: '/images/blogimages/why-vaadin-chose-gitlab-cover.png'
 description: "Vaadin needed a new solution after their multiple platforms began costing too much time and frustration."
 ---
 
