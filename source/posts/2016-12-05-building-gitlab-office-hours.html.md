@@ -85,7 +85,7 @@ and host a Q&A session along with Jacob.
 
 ## 2. Monitoring Distributed Systems with Prometheus
 
-[Watch live][infra-webcast] on **December 14 at 9am PT/5pm GMT**. 
+[Watch live][infra-webcast] on **December 14 at 9am PT/5pm GMT.** 
 [Sign up to receive a reminder and the recording.][infra-lp]
 
 Infrastructure Lead [Pablo Carranza][pablo-twitter] will give a behind-the-scenes
@@ -98,7 +98,8 @@ For more information on the topic, read Pablo's blog post on [how we knew it was
 
 ## 3. Designing GitLab's User Experience with UX Lead Allison Whilden
 
-[Watch live][ux-webcast] on **December 15 at 10am PT/6pm GMT**
+[Watch live][ux-webcast] on **December 15 at 10am PT/6pm GMT.** [Sign up to receive
+a reminder and the recording.][ux-lp]
 
 User experience (UX) affects every interaction a user has with a product. Because
 of this, it can literally make or break the adoption of a website, or application.
@@ -126,5 +127,6 @@ they discuss their process, the big challenges they face and how they look to so
 [master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/
 [pablo-twitter]: https://twitter.com/psczg
 [ux-webcast]: https://www.youtube.com/watch?v=Lxy1jET5pww
+[ux-lp]: https://page.gitlab.com/UXLiveStream_LandingPage.html
 [why-vuejs-post]: /2016/10/20/why-we-chose-vue/
 [vue-js-recording]: https://www.youtube.com/watch?v=ioogrvs2Ejc
