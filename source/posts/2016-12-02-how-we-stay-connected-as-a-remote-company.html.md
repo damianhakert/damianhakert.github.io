@@ -24,6 +24,8 @@ We also have regular one-on-one chats that can be about anything (as long as it�
 
 Of course, nothing beats getting to know your team in person, which is why we get together every nine months for the [GitLab summit](https://about.gitlab.com/culture/https://about.gitlab.com/culture/). So far we’ve met up in Amsterdam and Austin, and in January we’ll be heading to sunny Cancun for a week to work and play together.
 
+![GitLab Austin summit](/images/blogimages/Gitlab-summit-Austin.jpeg){:.shadow}
+
 ## Secret Santa
 
 Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/miscellaneous/). Because it’s a bit much to expect Santa to deliver to 35 different countries before he even starts his Christmas rounds, we’ll be exchanging gifts at the Cancun Summit. Watch this space for the highlights!
@@ -31,3 +33,5 @@ Because holiday cheer knows no borders, this year for the first time we’re doi
 ## Meet-ups
 
 Working remotely means you can take your office anywhere – and that’s exactly what some of the team has done. Douwe and Robert are currently on an epic 6-month World Tour, working from 13 different countries and meeting up with other team members in Mexico City, Warsaw, Tel Aviv and more. Working together even for just short bursts builds our relationships so that even when we’re working independently, we feel more connected and in tune with each other. Douwe and Robert’s adventure has even inspired others to travel while working, joining team members along the way.
+
+![GitLab Edinburgh](/images/blogimages/gitlab-edinburgh.jpg){:.shadow}
