@@ -4,8 +4,7 @@ author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: inside GitLab
 image_title: '/images/blogimages/how-we-stay-connected-as-a-remote-company-globe.jpg'
-twitter_image:
-description:
+description: "Open communication and strong relationships are key to our company culture – here's how we achieve these remotely"
 ---
 
 GitLab is a remote-only company, which means we have the freedom to live where we choose and work from anywhere. This flexibility is one of the reasons why it’s great to work at GitLab, but working remotely can be isolating. So how do we build a company culture when we’re all so scattered?
