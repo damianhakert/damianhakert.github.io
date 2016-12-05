@@ -78,9 +78,9 @@ We currently track the following sources for GitLab mentions:
 3. Hacker News
 4. Reddit
 
-We use [notify.ly](https://notify.ly/)  to track and pipe these mentions to the mentions-of-gitlab channel.
+These mentions get piped to the `mentions-of-gitlab` channel by [notify.ly](https://notify.ly/).
 
-We also funnel all comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) to this channel using [zapier](https://zapier.com/).
+All comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
 
 ## Specific channels
 
