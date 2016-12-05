@@ -1,5 +1,6 @@
 ---
 layout: comparison_page
+trial_bar: true
 title: GitLab compared to other tools
 suppress_header: true
 image_title: '/images/comparison/title_image.png'

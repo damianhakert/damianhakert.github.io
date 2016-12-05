@@ -38,6 +38,10 @@ Follow these steps to send out a signature request.
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
+#### Letter of Adjustment
+
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable. 
+
 ### Processing changes
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
@@ -146,7 +150,7 @@ If Google Sheets or Docs are mentioned, these will be shared with you on Google 
 #### Onboarding
 
 - **Select a Buddy**
-In the "Buddy Spreadsheet" google sheet, select a buddy for the new team member that is in the same timezone, but a different functional group. Also, add the new team member to the sheet so they can also be a buddy one day!
+In the "Buddy Spreadsheet" google sheet, select a buddy for the new team member that is in the same timezone, but a different functional group. Try to pair a technical team member with a non-technical team member and vice versa. Also, add the new team member to the sheet so they can also be a buddy one day!
 - **Google Account**
 Log on to the Google Admin console. Verify that the email that you have chosen for the new team member is not conflicting with a current account or team member's name. Select Users. Click the + sign to add a new user. Once you have created the handle, send an email to the new team member's personal email. Lastly, add the new team member to the New User's group under the Groups tab.
 - **Add team member to availability calendar**
@@ -190,7 +194,7 @@ To celebrate a new team member joining our team, send an email with $50 swag cre
 Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields.
 Log in with your specific credentials to [MOO](https://www.moo.com/m4b/account/login). Select Create New Packs. Create a blank pack, then go to GitLab packs and select the newly created default. Edit the Title to be the team member's name. Click on the preview to edit the name, job title, email, phone number, twitter handle, and location. Once you have made sure all of the information is correct on the business card you can select how many cards you would like to order (standard is 50) and add the cards to the cart. When you are checking out, update which shipping center you would like the cards sent from at the top right by selecting the proper flag. Enter in the team member's shipping address. Place the order with the applicable shipping and billing addresses.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
-Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite". If the team member should be added as an admin to be able to also add new team members, update them to a [domain admin](https://docs.expensify.com/advanced-admin-controls/domain-members-and-groups). 
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite". If the team member should be added as an admin to be able to also add new team members, update them to a [domain admin](https://docs.expensify.com/advanced-admin-controls/domain-members-and-groups).
 - **Add team member to Beamy**<a name="add-beamy"></a>
 Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). In the top menu move your cursor over the blue login button. Go to "Manage your beams". Click on "manage" in the lower left corner. Enter the GitLab email and scroll down to find the newly addedd email. Check the box for "Auto connect".
 - **Add team member into the Summit info sheets**

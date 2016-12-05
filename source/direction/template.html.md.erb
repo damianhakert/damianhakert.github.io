@@ -45,6 +45,16 @@ The milestone, as seen below, is the intended date that the listed features get 
 
 <%= direction %>
 
+## Next Products
+
+Below is the list of Products we are working on. These Products will be available
+for GitLab Enterprise Edition. The higher the item on the list, the sooner we expect
+to ship it.
+
+* [GitLab Geo Disaster Recovery](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
+* [Time Tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/1293)
+* [License Finder](https://gitlab.com/gitlab-org/gitlab-ee/issues/1125)
+
 ## Wishlist <a name="wishlist"></a>
 
 Below are features we'd really like to see in GitLab.
@@ -142,17 +152,19 @@ To achieve this we plan to ship the following stack of tools in our Omnibus pack
 1. **Production** (Chatops) => We plan to ship with a [Slack bot](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
 1. **Feedback** (Cycle Analytics) => We plan to ship with [Cycle Analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/847) and [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
 
+Also see our video [In 13 minutes from Kubernetes to a complete application development tool](https://about.gitlab.com/2016/11/14/idea-to-production/).
+
 ### Outside our scope
 
-1. **PaaS** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
+1. **Operating System** Ubuntu, CentOS, [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CoreOS](https://coreos.com/), [Alpine Linux](https://alpinelinux.org/about/)
+1. **Container Scheduler** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
 1. **Configuration management** although we do want to upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
-1. **Distributed configuration stores** Consul, Etcd, Zookeeper, Vault
 1. **Container configuration agents** [ContainerPilot](http://container-solutions.com/containerpilot-on-mantl/), [Orchestrator-agent](https://www.percona.com/blog/2016/04/13/orchestrator-agent-how-to-recover-a-mysql-database/)
-1. **Log monitoring** ELK stack, Graylog, Splunk
-1. **Infrastructure monitoring** CheckMK, Nagios, Sensu
+1. **Distributed configuration stores** Consul, Etcd, Zookeeper, Vault
+1. **Logging** [Fluentd](http://www.fluentd.org/architecture), ELK stack, Graylog, Splunk, [LogDNA](https://logdna.com/)
 1. **Error monitoring** Sentry, Airbrake, Bugsnag
-1. **Network** Openflow, VMware NSX, Cisco ACI
-1. **Incident notification** Pagerduty, Pingdom
+1. **Network** [Flannel](https://github.com/coreos/flannel/), Openflow, VMware NSX, Cisco ACI
+1. **Tracing** OpenTracing, [LightStep](http://lightstep.com/)
 1. **Network security** Nmap, rkhunter, Metasploit, Snort, OpenVAS, OSSEC
 
 ## Vision <a name="vision"></a>

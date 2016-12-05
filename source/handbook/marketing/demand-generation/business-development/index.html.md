@@ -320,12 +320,6 @@ Who should I connect with for my 10 1:1 onboarding calls?
 
 [Additional FAQ's](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
 
-#### Improvements/Contributing<a name="contribute"></a>
-
-- If you get an answer to a question someone else may benefit from, incorporate it into this handbook or add it to the [FAQ document](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
-- After meetings or process changes, feel free to update this handbook, and submit a merge request
-- Create issues for any idea (small or large that), that you want feedback on
-
 #### Variable Compensation Guidelines<a name="compensation"></a>
 
 Full-time BDRs have a significant portion of their pay based on performance and objective attainment. Performance based "bonuses" are based on results. Actions for obtaining results will be prescribed and measured, but are intentionally left out of bonus attainment calculations to encourage experimentation. BDRs will naturally be drawn to activities that have the highest yield, but freedom to choose their own daily activities will allow new, higher yield activities to be discovered.
@@ -338,25 +332,11 @@ Guidelines for bonuses:
    - E.g. a new BDR's first month's bonus is typically based on completing [onboarding](https://about.gitlab.com/handbook/general-onboarding/)
    - Bonuses may be tied to sales target attainment, [OKRs](https://about.gitlab.com/handbook/marketing/#okrs), or other objectives.
 
-#### BDR Vacation Incentives<a name="vacation"></a>
+#### Improvements/Contributing<a name="contribute"></a>
 
-Note: this is a new, experimental policy started in June 2016: changes and adjustments are expected
-
-At GitLab, we have an [unlimited time off policy](https://about.gitlab.com/handbook/#paid-time-off). The business development team has additional incentives for taking time off:
-
-- The first 5 business days taken off by a BDR in a calendar year prorates their target by 100%, rounded up (i.e. reduces the BDR's target by the period's target divided by the number of business days in the period, times the number of days taken off).
-- The second 5 business days are prorated by 50%, rounded up if applicable
-- The third 5 business days are prorated by 25%, rounded up if applicable
-- Example: A BDR with a target of 200 opportunities in a January with 20 business days can reduce that month's target to 190 by taking 1 day off, 150 by taking 5 days off, 125 by taking 10 days off, or 113 by taking 15 days off.
-
-Rules and qualifications for BDR Vacation Incentives:
-
-- BDRs must give notice 30 days ahead of intended time off to by the Team Lead and Senior Demand Generation Manager (and ensure they acknowledge receipt within 48 hours)
-- BDRs must add intended time off to the availability calendar
-- Prorated days can be deferred (i.e. take PTO without prorating the target), but are lost at the end of the year. Incidentally, the math usually works out in favor of not deferring.
-- BDRs can take additional vacation days (see [GitLab PTO policy](https://about.gitlab.com/handbook/#paid-time-off), but time off beyond 15 days will not adjust targets.
-
-With [GitLab's PTO policy](https://about.gitlab.com/handbook/#paid-time-off), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
+- If you get an answer to a question someone else may benefit from, incorporate it into this handbook or add it to the [FAQ document](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
+- After meetings or process changes, feel free to update this handbook, and submit a merge request
+- Create issues for any idea (small or large that), that you want feedback on
 
 #### Additional Resources
 

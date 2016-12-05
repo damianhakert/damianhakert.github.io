@@ -42,6 +42,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
+  * [Product Areas](/handbook/product/product-areas)
+* [Miscellaneous](/handbook/miscellaneous)
 
 ----
 
@@ -283,6 +285,7 @@ step, **re-assign** the issue to that person.
 1. Once a merge request is created, make sure to assign it to the proper person:
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
+    1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
     1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
     1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
@@ -299,7 +302,8 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
+1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and we have a 1 GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Access recordings in [Zoom](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
@@ -343,7 +347,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Video Calls
 
-1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
@@ -467,12 +471,15 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed.
     *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
-    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Zoom, and WebEx)
+    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Appear.in, Zoom, and WebEx)
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, please submit a proposal and get permission from your manager.
-    *  Travel and lodging to get together with colleagues and work on a specific project, with a minimum of 3 team members present and 3 days of co-location. Meals are generally not covered out of fairness to any people already on location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
+    *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.  
+    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+        * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
+        * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
@@ -734,6 +741,10 @@ When people join the event they have to [accept a warning](https://gitlab.com/sn
 You can use actions to make it public here
 
 BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.google.com/plus/answer/7126353?hl=en) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
+
+### Appear.in
+
+[Appear.in] (https://appear.in/) allows you to instantly create a free video chat room for up to 8 participants with no login and no installation. It also offers a free reliable mobile video conference app. 
 
 ### One Tab
 

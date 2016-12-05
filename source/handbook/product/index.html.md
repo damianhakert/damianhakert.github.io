@@ -271,6 +271,10 @@ The above means that feature issues should be closed after a first iteration
 whenever possible. We'll know more in the future and this keeps remaining
 issues short and actionable.
 
+In addition, it's almost never a bad idea to throw away an original plan and
+start fresh. Try to do this more often that you're comfortable. Close the issue
+and create a new one.
+
 #### Which issue should you be working on?
 
 When you don't have specific tasks assigned, you should work on issues that are
@@ -374,7 +378,7 @@ customer that documentation is lacking is not.
 - Help build a vision for GitLab and GitLab's features
 - Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
 
-## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
+# Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
@@ -421,6 +425,32 @@ directly and link to it.
 [S3stat](https://www.s3stat.com): GitLab 1Password account
 
 [Sentry](https://sentry.gitlap.com): dev.gitlab.org account
+
+# Writing about features
+
+As PM we need to constantly write about the features we ship: in a blog post,
+internally to promote something, in emails sent to customers.
+
+While we want every PM to have his unique voice and style, there are some
+guidelines that one should take into account when writing about features. Let's
+highlight them with a concrete example, Preventing Secrets in your repositories,
+ that [we've shipped in 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/#preventing-secrets-in-your-repositories-ee).
+
+* Start with the context. Explain what the current situation is without the
+feature. Describe the pain points.
+
+> It's a bad idea to commit secrets (such as keys and certificates) to your repositories: they'll be cloned to the machines of anyone that has access to the repository, only one of which has to be insecure for the information to be compromised. Yet it happens quite easily. You write `git commit -am 'quickfix' && git push` and suddenly you've committed files that were meant to stay local!
+
+* Explain what we've shipped to fix this problem.
+
+> GitLab now has a new push rule that will prevent commits with secrets from entering the repository.
+
+* Describe how to use the feature in simple terms.
+
+> Just check the checkbox and GitLab will prevent common unsafe files such as .pem and .key from being committed.
+
+* Point to the documentation and any other relevant links (previous posts, etc).
+
 # Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
