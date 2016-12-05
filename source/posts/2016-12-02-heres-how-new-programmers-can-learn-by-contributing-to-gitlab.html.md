@@ -1,25 +1,23 @@
 ---
 title: "Here's how new programmers can learn by contributing to GitLab"
-author: Eni Arinde
-categories: user stories
-image_title: '/images/default-blog-image.png'
+author: Emily von Hoffmann
+author_twitter: emvonhoffmann
+categories: customer stories
+image_title: '/images/blogimages/heres-how-new-programmers-can-learn-by-contributing-to-gitlab.png'
 description: "Hello, relative newcomers. There’s room for you to contribute, too. You can start by finding other programmers, making a plan before you code, documenting properly, and poking around on GitLab so you're never ever learning in a vacuum."
-twitter_image: '/images/tweets/default-blog-image.png'
 ---
 
-I can still remember the day I made the decision to switch from wanting to become a Theoretical Physicist to being a Software Developer. It was about 3 years ago, and I have never regretted making that decision. 
+Three years ago, [Eni Arinde](https://gitlab.com/elvongray) made a career choice that surely involved plenty of hand wringing and reflection. While living in Ibadan, Nigeria, he changed his aspirations from theoretical physics to software development, and began the long process of teaching himself PHP in isolation, with limited internet access. Here he shares a few tips for how new programmers can avoid the challenges he faced.
 
-I basically taught myself, because there were few opportunities for me to learn programming formally, and I have always enjoyed self-learning. I lived in the suburbs of Ibadan, one of the largest cities in Nigeria, but found it difficult to connect with other developers. The high cost of accessing the internet also made it really difficult to use resources online, so there were times I spent days trying to resolve a bug because I couldn't easily get online to search for a solution. 
+Learn more about his story and what he's learned below!
 
 <!--more-->
-
-Because of these challenges, I embarked on a study of PHP and used it to build simple websites in almost total isolation. I had no knowledge of version control systems, so most of my code has since been lost. I laugh when I remember the spaghetti code I wrote and how badly designed the applications were. It wasn’t until I got into a company that trained software developers to become professionals that I began to unlearn a lot of misconceptions I had learned. 
-
+ 
 Teaching yourself is difficult, and I hope this motivates you to continue pushing towards your goals. If I could go back and talk to myself three years ago, these are few things I would tell myself.
 
 ### Find other programmers near you. 
 
-I cannot overemphasize how really important this is. I always made the mistake of believing programming was something I could do on my own. You have to incorporate other perspectives, and you need to bounce ideas off people. Go to meetups, conferences and any events that will facilitate meeting with other developers. Try to work on projects with other deveopers, because most of your professional work will involve you and others collaborating on a project - it is very difficult to design and maintain complex software on your own! Even making small contributions to GitLab will help you get involved and practice communicating with others working on the same project. 
+I cannot overemphasize how really important this is. I always made the mistake of believing programming was something I could do on my own. You have to incorporate other perspectives, and you need to bounce ideas off people. Go to meetups, conferences and any events that will facilitate meeting with other developers. Try to work on projects with other deveopers, because most of your professional work will involve you and others collaborating on a project - it is very difficult to design and maintain complex software on your own! This can also help you avoid bad habits; it wasn’t until I got into a company that trained software developers to become professionals that I began to unlearn a lot of misconceptions I had learned. Even making small contributions to GitLab will help you get involved and practice communicating with others working on the same project. 
 
 ### Plan before you start coding. 
 
