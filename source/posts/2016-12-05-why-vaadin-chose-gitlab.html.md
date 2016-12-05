@@ -2,15 +2,14 @@
 title: "Why Vaadin chose GitLab"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/default-blog-image.png'
 description: "Vaadin needed a new solution after their multiple platforms began costing too much time and frustration."
-twitter_image: '/images/default-blog-image.png'
 ---
 
 _[Vaadin](https://vaadin.com) is an open source UI product development company that builds components and tools for developers to create beautiful web applications. The company has more than 170 employees, based in Finland, Helsinki, Berlin, and San Jose. Today more than 150,000 developers are active users of Vaadin._
 
-Vaadin wanted a tool to centralize their internal projects, while maintaining the commitment to simple UI/UX that they prioritize in their own product. Although they had developed a workflow using Gitolite, Trac, and several other platforms, the administrative overhead began costing developers and admins valuable time. After following GitLab since its earliest iterations, Vaadin’s IT manager, Mikael Vappula, decided that GitLab was the right platform for them. We sat down with Mikael to learn more. 
+Vaadin wanted a tool to centralize their internal projects, while maintaining the commitment to simple UI/UX that they prioritize in their own product. Although they had developed a workflow using [Gitolite](http://gitolite.com/gitolite/index.html), [Trac](https://trac.edgewall.org/), and several other platforms, the administrative overhead began costing developers and admins valuable time. After following GitLab since its earliest iterations, Vaadin’s IT manager, Mikael Vappula, decided that GitLab was the right platform for them. We sat down with Mikael to learn more. 
 
 Here are some tips from Mikael's experience:
 * Centralizing projects reduces the overhead of both IT admins and developers. 
