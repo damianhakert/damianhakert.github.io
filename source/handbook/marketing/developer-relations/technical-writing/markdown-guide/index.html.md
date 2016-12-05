@@ -85,9 +85,10 @@ Notes:
 
 - We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
   > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
-- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy, such as h2 &rarr; h4.
+- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
   > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
+- For keeping the text clear and consistent, jump a line between any heading and the subsequent paragraph.
 
 ----
 
@@ -1954,7 +1955,7 @@ or out of resources. It works from every major browser and saves automatically y
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
 - Do not leave blank spaces at the end of sentences.
-- Always leave a blank line between markups, except between list items. Example:
+- {:#jump-a-line} Always leave a blank line between markups, except between list items. Example:
 
         ---- (markup for horizontal line)
         <!-- blank line -->
