@@ -2,26 +2,25 @@
 title: "Introducing a usage cap for shared runners for GitLab.com"
 author: Job van der Voort
 author_twitter: Jobvo
-categories:
-image_title:
-description:
 ---
 
-Right now, you can use our shared Runners on GitLab.com for free, to run any kind of CI job you’d like. This is manageable because we’ve generously received free credits from DigitalOcean, whose service we used to power our runners.
+Right now, you can use our shared Runners on GitLab.com for free, to run any
+kind of CI job you’d like.
+This is manageable because [we’ve received credits from DigitalOcean][credits-do], whose service we used to power our runners. We'd like to thank them for their generosity.
 
 Unfortunately, our credit has ran out and CI usage is growing fast.
 Specifically, we’re seeing that a small percentage of our users are using CI
 significantly more than others. That combined makes offering unlimited,
 uncapped CI not a sustainable business for GitLab Inc. To make it possible to
-offer free CI, we’ll be introducing a cap to total build minutes. Most (~95%)
-of users will not be affect by this.
+offer free CI, we’ll be introducing a cap to total build minutes of 1000 minutes. Most users (>99%) will not be affected by this.
+
+[credits-do]: https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
 
 ## Build minutes
 
-We’ll be capping the amount of free build minutes available per user / group.
-We’re still looking into the amount of minutes that we’ll offer for free, but
-we’re aiming for a limit that makes that 95-99% of GitLab.com users will not
-notice any change.
+We’ll be capping the amount of free build minutes available per project at
+1000 minutes. This will affect less than 1% of all projects using CI on
+GitLab.com.
 
 We’ve chosen to restrict minutes (and not another restriction), as this will
 still allow you to have parallel builds and therefore fast CI runs.
@@ -30,8 +29,8 @@ Users that exceed the cap will get a message ahead of time and we’ll work
 together with them in the transition.
 
 Note that this will only restrict your minutes for our shared runners. If you
-have a private runner setup for your projects, that will not affect your build
-minutes on our shared cluster.
+have a private runner setup for your projects, there is no limit to your build
+time on GitLab.com
 
 ## Future
 
