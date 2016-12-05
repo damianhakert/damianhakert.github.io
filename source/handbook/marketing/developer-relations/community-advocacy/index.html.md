@@ -67,6 +67,17 @@ title: "Community Advocacy"
 - Submit the ticket as on-hold
     - If you speak the language in question - answer it
 
+## ZenDesk Workflow
+
+### Suggested Views for ZenDesk
+
+- Channel: Twitter (Status: Open, Asignee: Self)
+- Channel: Twitter (Status: New)
+- Channel: Twitter (Status: Open, Asignee: Not Self)
+- Channel: Twitter (Status: Pending)
+- Channel: Twitter (Status: On-Hold)
+- Group: Facebook
+
 ## Mentions
 
 We use the [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel to track mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
@@ -121,7 +132,7 @@ from Zendesk also enables us to track our response times vs. [our internal SLA](
 
 Reply to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), and the guidelines on [representing GitLab on Twitter](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) regardless of whether the tweet is of a technical nature or not. Follow up with the support team if the issue is too complex to handle.
 
-##### General
+#### General
 
 - Tweets use short links which require you to visit that link to make sure you understand the context.
 - Clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
@@ -134,7 +145,7 @@ When resolving Twitter tickets you should:
 1. Assign the ticket to yourself or ask in the appropriate Slack channel if you don't know how to answer it
 1. Not cross assign tickets
 
-##### Handles
+#### Handles
 
 - The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability
 of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable.
@@ -142,7 +153,16 @@ of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [Gi
 - When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 - [@GitLabSupport](https://twitter.com/GitLabSupport) is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
 
-##### Usage of likes
+#### ZenDesk Macro Usage
+
+- Mention - Tweets just mentioning @GitLab
+- Solved by User - Tweets about problems / issues that were solved by the user
+- Tweet Removed - Tweets that got removed
+- GitLab.com Downtime (Public Issue) - GitLab.com Downtime with a public issue related to it
+- GitLab.com Downtime - General GitLab.com Downtime
+- Forward to support - Forwarding the user to the support team due to issue complexity
+
+#### Usage of likes
 
 Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
 
