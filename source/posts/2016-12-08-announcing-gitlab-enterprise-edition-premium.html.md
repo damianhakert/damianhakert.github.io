@@ -3,7 +3,7 @@ title: "Expanding Our Product Offering: Announcing GitLab Enterprise Edition Pre
 author: Amara Nwaigwe
 author_twitter: its_amaracle
 categories: 
-image_title: 
+image_title: '/images/blogimages/announcing-ee-premium-cover.jpg'
 twitter_image: 
 description: "We've added a new enterprise product, GitLab Enterprise Edition Premium"
 ---
@@ -15,7 +15,7 @@ Today we are announcing the addition of a new enterprise product, GitLab Enterpr
 * File Locking: Improve how you manage your binary and text files with the ability to lock any file or directory.
 * Pivotal Tile: Easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
-GitLab EE Premium ensures your team has the tools and support they need today as well as in the future. Take a look at some of the Premium features we are considering on our direction page. GitLab EE Premium is now [available for purchase](/products) for $199 per user per year with a minimum of 100 users.
+GitLab EE Premium ensures your team has the tools and support they need today as well as in the future. Take a look at some of the Premium features we are considering on [our direction page](https://about.gitlab.com/direction/#new-products). GitLab EE Premium is now [available for purchase](https://about.gitlab.com/products/) for $199 per user per year with a minimum of 100 users.
 
 <!-- more -->
 
