@@ -83,7 +83,8 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 
 Notes:
 
-- Usually we don't use `h1` headings, as they already are displayed on every page as titles.
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy, such as h2 &rarr; h4.
+  > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
 
 ----
@@ -1964,7 +1965,7 @@ they can render differently than the expected and can cause other issues.
         - Item 3
     {: .language-html}
 
-- Do not jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- As explained [above](#headings), do **not** jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
 - Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
 - If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
@@ -2016,3 +2017,5 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
+[w3c]: https://www.w3.org/MarkUp/html-spec/html-spec_5.html#SEC5.4
+
