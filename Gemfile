@@ -24,7 +24,6 @@ gem 'therubyracer'
 gem "builder", "~> 3.0"
 
 gem "httparty"
-gem "oga"
 gem "stringex"
 
 group :development, :test do

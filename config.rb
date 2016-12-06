@@ -126,7 +126,7 @@ configure :build do
 
   ## Release list page
   releases = ReleaseList.new
-  proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
+  proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.generate }, ignore: true
 end
 
 org_chart = OrgChart.new
