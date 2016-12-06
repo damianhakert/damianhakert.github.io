@@ -2,16 +2,15 @@
 @import "vendor/bootstrap/bootstrap/variables";
 
 .pricing-container {
-  background-image: url("/images/pricing/header_photo.jpg");
-  background-size: cover;
   padding-top: 40px;
 
   @media (min-width: $screen-sm-min) {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   &::after {
-    background-image: linear-gradient(to bottom, rgba($landing-community-bg, .85), $landing-community-bg 75%);
+    background-image: linear-gradient(to right, $color-primary, $color-primary-alt 50%);
     position: absolute;
     content: "";
     top: 0;
@@ -36,6 +35,7 @@
   }
 
   .subheader {
+    margin-top: 30px;
     margin-bottom: 25px;
     padding-left: 40px;
     padding-right: 40px;
@@ -44,7 +44,7 @@
     font-size: 20px;
 
     @media (min-width: $screen-sm-min) {
-      margin-bottom: 75px;
+      margin-bottom: 50px;
     }
 
     &.cta {
@@ -59,6 +59,19 @@
       &:hover {
         text-decoration: none;
       }
+    }
+  }
+}
+
+.pricing-options {
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+  @media (min-width: $screen-md-min) {
+    .row .col-md-2 {
+      width: 20%;
+      padding-left: 8px;
+      padding-right: 8px;
     }
   }
 }
@@ -198,6 +211,10 @@
   }
 
   .featured-item-button {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     transition: background-color .2s linear, color .2s linear, border-color .2s linear, width 0s;
     padding-left: 10px;
@@ -205,18 +222,15 @@
 
     @media (min-width: $screen-md-min) {
       position: absolute;
-      left: 50%;
       bottom: 35px;
-      width: 190px;
-      margin-left: (-190px / 2);
+      min-width: 80%;
+      max-width: 190px;
     }
 
     @media (min-width: $screen-lg-min) {
       position: absolute;
-      left: 50%;
       bottom: 35px;
       width: 250px;
-      margin-left: (-250px / 2);
     }
   }
 }
