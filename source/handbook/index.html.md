@@ -42,7 +42,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Desktop vs mobile](/handbook/product/desktop-vs-mobile)
-  * [Product Areas](/handbook/product/product-areas)
+  * [Data analysis](/handbook/product/data-analysis)  
+  * [Product areas](/handbook/product/product-areas)
   * [Making Gifs](/handbook/product/making-gifs)  
 * [Miscellaneous](/handbook/miscellaneous)
 
