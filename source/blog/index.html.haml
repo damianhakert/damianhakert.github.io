@@ -9,7 +9,8 @@ suppress_header: true
     .section
       = partial "includes/newsletter-signup.html"
 
-  = partial "includes/blog/list", locals: {articles: blog.articles[0...4]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[0...2]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[2...4]}
 
   .callout
     %h3
@@ -19,11 +20,13 @@ suppress_header: true
       %a.contact{href: "https://about.gitlab.com/sales/"} Contact us.
     %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
 
-  = partial "includes/blog/list", locals: {articles: blog.articles[4...8]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[4...6]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[6...8]}
 
   = partial "includes/blog/install"
 
-  = partial "includes/blog/list", locals: {articles: blog.articles[8...12]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[8...10]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[10...12]}
 
   .wrapper
     .section
