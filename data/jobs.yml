@@ -161,6 +161,6 @@
   open: false
 
 - title: "Regional Director Sales, US"
-  description: /jobs/regional-director-sales/
+  description: /jobs/regional_director_sales/regional-director-sales
   apply: https://gitlab.workable.com/jobs/377841/candidates/new
   open: true
