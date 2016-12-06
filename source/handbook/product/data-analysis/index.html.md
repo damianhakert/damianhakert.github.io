@@ -6,6 +6,8 @@ title: "Data analysis"
 ### Get a GitLab Linux account
 Ask production folks (`#infrastructure` channel) to set up a Linux account for you. Mine is `victor`, and is used as an example below.
 
+---
+
 ### Access `worker1.staging.gitlab.com` staging rails console
 Access the server
 ```
@@ -16,6 +18,8 @@ Run
 ```
 $ sudo gitlab-rails c production
 ```
+
+---
 
 ### Access `db2.staging.gitlab.com` db
 As required, ask production folks to refresh the `db2.staging.gitlab.com` db with the `gitlab.com` db.
@@ -29,6 +33,8 @@ Run
 ```
 $ sudo gitlab-psql gitlabhq_production
 ```
+
+---
 
 ### Access `version.gitlab.com` db
 Access the server
@@ -47,6 +53,8 @@ Access the db
 postgres=# \c version_gitlab_com_production
 postgres=# \dt
 ```
+
+---
 
 ### Access db from a sql client
 Access db from a sql client for additional features and ease of use. The sql client can connect to your local machine, and tunnel to the server. A suggested native Mac sql client is [Postico](https://eggerapps.at/postico/). Ask GitLab to expense a license. Download and install.
