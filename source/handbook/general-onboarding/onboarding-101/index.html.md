@@ -203,8 +203,7 @@ Learn how to [get started with git](https://about.gitlab.com/handbook/#starting-
 
 ## Questions?
 
-
 At any time if you have questions, please ask your manager, buddy, People Ops, or anyone else at the company!
 
 
-Please add to me. Questions that were not answered? Something that is not clear? Please create an issue or a merge request and assign it to People Ops to make this documentation better for the next new team member. 
+Please add to me. Questions that were not answered? Something that is not clear? Please create an issue or a merge request and assign it to People Ops to make this documentation better for the next new team member.
