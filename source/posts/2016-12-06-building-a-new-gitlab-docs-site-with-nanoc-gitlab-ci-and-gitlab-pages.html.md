@@ -351,6 +351,9 @@ server is set up to [use Nginx with Review Apps][nginx-example], and it uses
 the artifacts from the previously `verify_compile` job which contain the
 `public/` directory with the HTML files Nanoc compiled.
 
+Notice that both jobs rely on [dynamic environments][environments] and with
+the `review/` prefix we can group them under the [Environments page](https://gitlab.com/gitlab-com/gitlab-docs/environments).
+
 The `review_stop` job depends on the `review` one and is called whenever we
 want to clear up the review app. By default it is called every time the related
 branch is deleted, but you can also manually call it with the buttons that can
