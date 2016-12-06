@@ -470,7 +470,7 @@ Thanks for reading, if you have any questions we’d be happy to answer them in 
 
 ---
 
-_Photo credits: <https://unsplash.com/photos/G6G93jtU1vE>_
+_Cover image: <https://unsplash.com/photos/G6G93jtU1vE>_
 {: .note}
 
 [genrb]: https://gitlab.com/gitlab-com/doc-gitlab-com/blob/master/generate.rb
