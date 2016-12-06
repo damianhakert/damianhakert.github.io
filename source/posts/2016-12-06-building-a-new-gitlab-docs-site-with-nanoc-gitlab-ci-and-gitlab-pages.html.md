@@ -175,10 +175,9 @@ Nanoc has a built-in system of [Checks](http://nanoc.ws/doc/testing/), including
 
 Our [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gitlab-docs/blob/master/.gitlab-ci.yml) file looks like this:
 
-```yml
+```yaml
 image: ruby:2.3
 
-# Cache the Ruby gems directory for reuse in future builds.
 cache:
   key: "ruby-231"
   paths:
@@ -188,16 +187,13 @@ stages:
   - test
   - deploy
 
-## Install Ruby gem dependencies.
 before_script:
-  - bundle install --path vendor
+  - ruby -v
+  - bundle install --jobs 4 --path vendor
 
-# Verify that the site compiles.
 verify_compile:
   stage: test
   script:
-    # Run the "pull_repos" Rake task to pull down the git repositories and
-    # get the docs.
     - rake pull_repos
     - nanoc
   artifacts:
@@ -206,24 +202,32 @@ verify_compile:
     expire_in: 1w
   except:
     - master
+  tags:
+    - docker
 
-# Validate internal links
 internal_links:
   stage: test
   script:
     - rake pull_repos
     - nanoc
     - nanoc check internal_links
+  allow_failure: true
+  tags:
+    - docker
 
-# Run our SCSS Linter
 scss_lint:
   stage: test
   script:
     - bundle exec scss-lint
+  tags:
+    - docker
 
 review:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   before_script: []
+  cache: {}
   script:
     - rsync -av --delete public /srv/nginx/pages/$CI_BUILD_REF_NAME
   environment:
@@ -231,15 +235,21 @@ review:
     url: http://$CI_BUILD_REF_NAME.$APPS_DOMAIN
     on_stop: review_stop
   only:
-    - branches
+    - branches@gitlab-com/gitlab-docs
   except:
     - master
+  tags:
+    - nginx
+    - review-apps
 
 review_stop:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   before_script: []
   artifacts: {}
   cache: {}
+  dependencies: []
   script:
     - rm -rf public /srv/nginx/pages/$CI_BUILD_REF_NAME
   when: manual
@@ -247,9 +257,12 @@ review_stop:
     name: review/$CI_BUILD_REF_NAME
     action: stop
   only:
-    - branches
+    - branches@gitlab-com/gitlab-docs
   except:
     - master
+  tags:
+    - nginx
+    - review-apps
 
 pages:
   stage: deploy
@@ -259,11 +272,16 @@ pages:
   script:
     - rake pull_repos
     - nanoc
+    # Symlink all README.html to index.html
+    - for i in `find public -name README.html`; do ln -sf README.html $(dirname $i)/index.html; done
   artifacts:
     paths:
     - public
+    expire_in: 1h
   only:
-    - master
+    - master@gitlab-com/gitlab-docs
+  tags:
+    - docker
 ```
 
 To better visualize how the jobs are run, take a look at how the pipeline
@@ -284,7 +302,10 @@ We define two additional jobs for that purpose in `.gitlab-ci.yml`:
 ```yaml
 review:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   before_script: []
+  cache: {}
   script:
     - rsync -av --delete public /srv/nginx/pages/$CI_BUILD_REF_NAME
   environment:
@@ -292,15 +313,21 @@ review:
     url: http://$CI_BUILD_REF_NAME.$APPS_DOMAIN
     on_stop: review_stop
   only:
-    - branches
+    - branches@gitlab-com/gitlab-docs
   except:
     - master
+  tags:
+    - nginx
+    - review-apps
 
 review_stop:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   before_script: []
   artifacts: {}
   cache: {}
+  dependencies: []
   script:
     - rm -rf public /srv/nginx/pages/$CI_BUILD_REF_NAME
   when: manual
@@ -308,9 +335,12 @@ review_stop:
     name: review/$CI_BUILD_REF_NAME
     action: stop
   only:
-    - branches
+    - branches@gitlab-com/gitlab-docs
   except:
     - master
+  tags:
+    - nginx
+    - review-apps
 ```
 
 They both run on all branches except `master` since `master` is deployed straight
@@ -329,12 +359,43 @@ be found in GitLab.
 The trick of this particular set up is that we use the shared Runners provided
 in GitLab.com to test and build the docs site (using Docker containers) whereas
 we use a specific Runner that is set up in the server that hosts the Review Apps
-and is configured with the [shell executor].
+and is configured with the [shell executor]. GitLab CI knows what Runner to use
+each time from the `tags` we provide each job with.
+
+The `review` job has also some other things specified:
+
+```yaml
+variables:
+  GIT_STRATEGY: none
+before_script: []
+cache: {}
+```
+
+In this case, [`GIT_STRATEGY`][gitstrategy] is set up to `none` since we don't need to
+checkout the repository for this job. We only use `rsync` to copy over the
+artifacts that were passed from the previous job to the server where Review
+Apps are deployed. We also turn off the `before_script` since we don't need it
+to run, same for `cache`. They both are defined globally, so you need to pass
+an empty array and hash respectively to disable them in a job level.
+
+On the other hand, setting the `GIT_STRATEGY` to `none` is necessary on the
+`review_stop` job so that the GitLab Runner won't try to checkout the code after
+the branch is deleted. We also define one additional thing in it:
+
+```yaml
+dependencies: []
+```
+
+Since this is the last job that is performed in the lifecycle of a merge request
+(after it's merged and the branch deleted), we opt to not download any artifacts
+from the previous stage with passing an empty array in [`dependencies`][deps].
+
+---
 
 See [our blog post on Review Apps](/2016/11/22/introducing-review-apps/) for
 more information about how they work and their purpose. Be sure to also check
-the [Review Apps documentation][radocs] as well as [how environments work][environments]
-since they are the base of the Review Apps.
+the [Review Apps documentation][radocs] as well as [how dynamic environments work][environments]
+since they are the basis of the Review Apps.
 
 The final step after the site gets successfully built is to deploy to
 production which is under the URL everybody knows: <https://docs.gitlab.com>.
@@ -355,14 +416,19 @@ pages:
   script:
     - rake pull_repos
     - nanoc
+    # Symlink all README.html to index.html
+    - for i in `find public -name README.html`; do ln -sf README.html $(dirname $i)/index.html; done
   artifacts:
     paths:
     - public
+    expire_in: 1h
   only:
-    - master
+    - master@gitlab-com/gitlab-docs
+  tags:
+    - docker
 ```
 
-GitLab Pages deploys our documentation site whenever a commit is made to the master branch of the gitlab-docs repository.
+GitLab Pages deploys our documentation site whenever a commit is made to the master branch of the gitlab-docs repository and is run only on the `master` branch of the gitlab-docs project.
 
 Since the documentation content itself is not hosted under the gitlab-docs repository, we rely to a CI job under all the products we build the docs site from. We specifically [make use of triggers][triggers] where a build for the docs site is triggered whenever CI runs successfully on the master branches of CE, EE, Omnibus GitLab, or Runner. If you go to the [pipelines page of the gitlab-docs project][pipelines-docs], you can notice the **triggered** word next to the pipelines that are re-run because a trigger was initiated.
 
@@ -371,18 +437,38 @@ Since the documentation content itself is not hosted under the gitlab-docs repos
 How we specifically use triggers for gitlab-docs is briefly described in the
 [project's readme][readme-triggers].
 
+We also use a hack to symlink all `README.html` files into `index.html` so that
+they can be viewed without the extension. Notice how the following links point
+to the same document:
+
+- <https://docs.gitlab.com/ce/ci/yaml/README.html>
+- <https://docs.gitlab.com/ce/ci/yaml/index.html>
+- <https://docs.gitlab.com/ce/ci/yaml/>
+
+The line responsible for this is:
+
+```bash
+for i in `find public -name README.html`; do ln -sf README.html $(dirname $i)/index.html; done
+```
+
+The artifacts are made to [expire in] an hour since they are deployed to the
+GitLab Pages server, we don't need them lingering in GitLab forever.
+
 It’s worth noting that GitLab Pages is a [GitLab Enterprise Edition](/products)-only feature, but it’s also available for free on GitLab.com.
 {: .alert .alert-info}
 
 ## Conclusion
 
-Hopefully this shows some of the power of GitLab and having everything integrated into one cohesive product. If you have a complex documentation site you’d like to put together from specific directories in multiple Git repositories, the process described above is the best we’ve been able to come up with. If you have any ideas to make this system better, let us know!
+Hopefully this shows some of the power of GitLab and having everything integrated into one cohesive product. If you have a complex documentation site you’d like to put together from specific directories in multiple Git repositories, the process described above is the best we've been able to come up with. If you have any ideas to make this system better, let us know!
 
 The documentation website is [open source](https://gitlab.com/gitlab-com/gitlab-docs), available under the MIT License. You’re welcome to take a look at it, submit a merge request, or even fork it to use it with your own project.
 
 Thanks for reading, if you have any questions we’d be happy to answer them in the comments!
 
-_Photo: https://unsplash.com/photos/G6G93jtU1vE_
+---
+
+_Photo credits: <https://unsplash.com/photos/G6G93jtU1vE>_
+{: .note}
 
 [genrb]: https://gitlab.com/gitlab-com/doc-gitlab-com/blob/master/generate.rb
 [nanocyaml]: https://gitlab.com/gitlab-com/gitlab-docs/blob/30f13e6a81bf9baeda95204b5524c6abf980b1e5/nanoc.yaml#L101-149
@@ -392,7 +478,7 @@ _Photo: https://unsplash.com/photos/G6G93jtU1vE_
 [redcarpet]: https://github.com/vmg/redcarpet
 [allowfail]: https://docs.gitlab.com/ce/ci/yaml/#allow_failure
 [ciyaml]: https://docs.gitlab.com/ce/ci/yaml/
-[environments]: https://docs.gitlab.com/ce/ci/environments.html
+[environments]: https://docs.gitlab.com/ce/ci/environments.html#dynamic-environments
 [pipeline]: https://gitlab.com/gitlab-com/gitlab-docs/pipelines/5266794
 [nginx-example]: https://gitlab.com/gitlab-examples/review-apps-nginx
 [radocs]: https://docs.gitlab.com/ce/ci/review_apps/index.html
@@ -400,3 +486,6 @@ _Photo: https://unsplash.com/photos/G6G93jtU1vE_
 [triggers]: https://docs.gitlab.com/ce/ci/triggers/
 [pipelines-docs]: https://gitlab.com/gitlab-com/gitlab-docs/pipelines
 [readme-triggers]: https://gitlab.com/gitlab-com/gitlab-docs/blob/master/README.md#deployment-process
+[gitstrategy]: https://docs.gitlab.com/ce/ci/yaml/#git-strategy
+[expire in]: https://docs.gitlab.com/ce/ci/yaml/#artifacts-expire_in
+[deps]: https://docs.gitlab.com/ce/ci/yaml/#dependencies
