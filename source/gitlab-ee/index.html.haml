@@ -2,23 +2,13 @@
 title: Code, test, and deploy together with GitLab open source git repo management software
 suppress_header: true
 extra_css:
-  - landing.css
   - gitlab-ee-standalone.css
 extra_js:
-  - home.js
   - gitlab-ee-standalone.js
 ---
 .gitlab-ee-standalone
-  .page-container.landing-container.text-center
-    .ee-navbar Benefits Features Pricing Compare
-    #js-landing-community.landing-community
-    .container.splash-container
-      .landing-hero.hidden-xs
-        = partial "images/home/gitlab-illustration.svg"
-      %h1.page-headline
-        GitLab Enterprise Edition helps large teams innovate faster without compromising security or quality.
-      %h2.page-subtitle
-
+  = partial "includes/gitlab-ee/top-nav"
+  = partial "includes/gitlab-ee/hero-section"
   = partial "includes/gitlab-ee/larger-teams"
   = partial "includes/gitlab-ee/os-principles"
   = partial "includes/gitlab-ee/productive-teams"

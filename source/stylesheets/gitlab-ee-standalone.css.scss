@@ -1,7 +1,6 @@
 @import "vendor/bootstrap/bootstrap";
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
-
 .gitlab-ee-standalone {
   .brand-primary-background-theme {
     background-color: $color-primary;
@@ -21,7 +20,8 @@
       color: $color-white-alt;
     }
     .media-object {
-      img {}
+      color: $color-secondary-alt;
+      fill: $color-secondary-alt;
     }
     .feature-preview-selector {
       .feature-item {}
@@ -54,12 +54,11 @@
       color: $blog-text-color;
     }
     .media-object {
-      
+      color: $color-secondary;
+      fill: $color-secondary;
     }
     .feature-preview-selector {
-      .feature-item {
-
-      }
+      .feature-item {}
       .feature-title {
         color: $color-primary;
       }
@@ -74,67 +73,48 @@
       color: $color-primary;
     }
   }
-
   section {
     .section-container {
       @extend .container;
     }
     padding: 50px 0;
-
     .section-title {
       text-align: center;
       margin: 10px;
     }
-
     .section-description {
       text-align: center;
     }
-
     img {
       @extend .img-responsive;
     }
-
     p {
       font-size: 16px;
     }
   }
-
   .feature-tree {
     .feature-tree-row {
       @extend .row;
-
       display: flex;
       justify-content: start;
       align-items: center;
       margin-top: 50px;
     }
-
     .feature-tree-image-wrap {
       @extend .col-xs-7;
     }
-
-    img {
-    }
-
+    img {}
     .feature-tree-text-wrap {
       @extend .col-xs-5;
-
     }
-
-    .feature-tree-title {
-
-    }
-    .feature-tree-description {
-
-    }
+    .feature-tree-title {}
+    .feature-tree-description {}
   }
-
   .feature-preview-selector {
     .feature-preview-selector {}
     .selected-feature-image-wrap {
       margin-top: 30px;
       @extend .row;
-
       img {
         display: none;
         @extend .col-xs-8;
@@ -154,7 +134,6 @@
       list-style-type: none;
       &.selected {
         background: pink;
-      
       }
       &:hover {
         background: $color-white;
@@ -163,13 +142,11 @@
     }
     .feature-title {
       font-size: 24px;
-    
     }
     .feature-description {
       font-size: 18px;
     }
   }
-
   .media-object-row {
     @extend .row;
     .media {
@@ -181,11 +158,29 @@
     .media-heading {}
     .media-body {}
     .media-object {
-      height: 100%;
-
-      img {}
+      height: 32px;
+      width: 32px;
     }
   }
-
   .call-to-action-btn {}
+  .icons-wrap-better-name {}
+  .hero-section {
+    background: black;
+    position: relative;
+  }
+  .hero-icon {
+    z-index: 10000;
+    position: absolute;
+    bottom: 0;
+  }
+  .landing-hero {
+    background-image: url(gitlab_ee/hero/ee-standalone-hero-2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+    z-index: 100;
+  }
+  .container {}
 }
