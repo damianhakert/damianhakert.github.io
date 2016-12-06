@@ -120,6 +120,9 @@ spec:
 ```
 This is the definition of a Kubernetes [`Deployment`](http://kubernetes.io/docs/user-guide/deployments/) named `actuator-sample`. The `replicas` element defines the target number of [`Pods`](http://kubernetes.io/docs/user-guide/pods/). Kubernetes performs automated binpacking and self-healing of the system to comply with the deployment specifications while achieving optimal utilization of compute resources. A Pod can be composed of multiple containers. In this scenario, we only include the `actuator-sample` image stored on our private [GitLab Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). For this reason, we need to set an entry under the `imagePullSecrets` which is used to authenticate to the GitLab Container Registry.
 
+For a detailed explanation of Kubernetes resources and concepts refer to the [official documentation](http://kubernetes.io/).
+{: .alert .alert-info}
+
 Time to commit again and we are ready to define our GitLab CI pipeline.
 
 ```shell
@@ -184,7 +187,7 @@ image: docker:latest
 services:
   - docker:dind
 ```
-The [GitLab Runner](https://docs.gitlab.com/ee/ci/runners/README.html) can [use Docker images](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html) to support our pipelines. The `image` element defines the name of the Docker image we want to use. Valid images are those hosted in the local Docker Engine or on [Docker Hub](https://hub.docker.com/). The `services` element defines additional Docker images which should be linked to the main container. In our case the main container is a plain Docker image with a linked container enabled for running Docker in Docker.
+The [GitLab Runner](https://docs.gitlab.com/ee/ci/runners/README.html) can [use Docker images](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html) to support our pipelines. The `image` element defines the name of the Docker image we want to use. Valid images are those hosted in the local Docker Engine or on [Docker Hub](https://hub.docker.com/). The `services` element defines additional Docker images which are linked to the main container. In our case the main container is a plain Docker image while the linked container is enabled for running Docker in Docker.
 
 #### **[Variables](https://docs.gitlab.com/ce/ci/yaml/#variables)**
 
@@ -194,7 +197,7 @@ variables:
   SPRING_PROFILES_ACTIVE: gitlab-ci
 ```
 
-This is the definition `variables` to be set on our build environment. The `DOCKER_DRIVER` variable signals the Docker Engine which storage driver to use. We use `overlay` for performance reasons. The `SPRING_PROFILES_ACTIVE` is very useful when dealing with Spring Boot applications. It activates [Spring Profiles](http://docs.spring.io/autorepo/docs/spring-boot/current/reference/html/boot-features-profiles.html) which provide a way to segregate parts of our application configuration and make it available only in certain environments. For instance, we can define different database URIs per environment, e.g. `localhost` when running on the developer machine and `mongo` when running within GitLab CI. 
+This is the definition of `variables` to be set on our build environment. The `DOCKER_DRIVER` signals the Docker Engine which storage driver to use. We use `overlay` for performance reasons. The `SPRING_PROFILES_ACTIVE` is very useful when dealing with Spring Boot applications. It activates [Spring Profiles](http://docs.spring.io/autorepo/docs/spring-boot/current/reference/html/boot-features-profiles.html) which provide a way to segregate parts of our application configuration and make it available only in certain environments. For instance, we can define different database URIs per environment, e.g. `localhost` when running on the developer machine and `mongo` when running within GitLab CI. 
 
 #### **[Stages](https://docs.gitlab.com/ce/ci/yaml/#stages)**
 
@@ -206,7 +209,7 @@ stages:
 ```
 The `stages` element defines the lifecycle of our build. We associate each job to one stage. All jobs within a stage are run in parallel and stages are triggered sequentially in the order we define them, i.e. the next stage is initiated only when the previous one is complete.
 
-#### The `maven-build` job
+#### **The `maven-build` job**
 
 ```yml
 maven-build:
@@ -221,13 +224,13 @@ This is a job definition. Jobs can have any name except keywords. Have a look at
 
 The scope of this job is to perform a [Maven](https://maven.apache.org/index.html) build. For this reason, we define the `maven:3-jdk-8` as the Docker image on which this job should execute. This image comes with Maven 3 and the Java JDK 8 pre-installed for us. 
 
-We then specify `build` as the `stage` of this job. As mentioned early, job associated the same stage run concurrently. This is extremely useful if you need to cross-compile your application. For instance, if we wanted to build and test our application also on Java JDK 7, we could simply create another job with a different name and just use the image `maven:3-jdk-7`.
+We then specify `build` as the `stage` of this job. As mentioned early, jobs associated with the same stage run concurrently. This is extremely useful if you need to cross-compile your application. For instance, if we wanted to build and test our application also on Java JDK 7, we could simply create another job with a different name and just use the image `maven:3-jdk-7`.
 
-The script is a shell command to be executed by the GitLab Runner. The `mvn package -B` triggers a non-interactive Maven build up to the `package` phase. This phase is specific to the [Maven build lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html) and it includes also the `validate`, `compile` and `test` phases. That means that our Maven project will be validated, compiled and (unit) tested as well. Tests are to be included in the `src/test/java` folder. In our specific case, Spring Initializr has already created a text which just verifies that the application context loads without errors. We are free to add as many unit tests as we like. The `package` instead creates the executable JAR.
+The script is a shell command to be executed by the GitLab Runner. The `mvn package -B` triggers a non-interactive Maven build up to the `package` phase. This phase is specific to the [Maven build lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html) and it includes also the `validate`, `compile` and `test` phases. That means that our Maven project will be validated, compiled and (unit) tested as well. Tests are to be included in the `src/test/java` folder. In our specific case, Spring Initializr has already created a unit test which verifies that the application context loads without errors. We are free to add as many unit tests as we like. Finally, the `package` phase creates the executable JAR.
 
-To share the executable JAR with other jobs, we specify job `artifacts`. These are files or directories that should be attached to the build after success.
+To persist the executable JAR and share it across jobs, we specify job `artifacts`. These are files or directories that should be attached to the build after success.
 
-#### **The docker-build job**
+#### **The `docker-build` job**
 
 ```yml
 docker-build:
@@ -238,15 +241,20 @@ docker-build:
   - docker push registry.gitlab.com/marcolenzo/actuator-sample
 ```
 
-The `docker-build` job packages the application in a Docker container. We define `package` as the build `stage` since we want `maven-build` job to be executed before and have the executable JAR as an available artifact to add to our container as specified in the `Dockerfile` we created beforehand.
+The `docker-build` job packages the application in a Docker container. We define `package` as the build `stage` since we need the `maven-build` job to produce the executable JAR beforehand.
 
-We then execute a typical sequence of `docker` commands which builds the container and pushes it to the GitLab Container Registry. It is interesting the use of the `$CI_BUILD_TOKEN` variable. This is a pre-defined variable which is available in our build environment for free. It is used to login to the GitLab Container Registry. For the full list of pre-defined variables, have a look at the [variables documentation](https://docs.gitlab.com/ce/ci/variables/README.html#variables).
+The scripts are a typical sequence of `docker` commands used to build an image, login to a private registry and push the image to it. We will be pushing images to the [GitLab Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). 
 
-#### **The k8s-deploy job**
+The `$CI_BUILD_TOKEN` is a pre-defined variable which is injected by GitLab CI in our build environment automatically. It is used to login to the GitLab Container Registry. 
 
-This job is responsible for deploying our application to the [Google Container Engine](https://cloud.google.com/container-engine/). I purposely decided to make use of the [Google Cloud SDK](https://cloud.google.com/sdk/gcloud/) (`gcloud`) because it gives us the possibility to programmatically create and manage Google Container Engine clusters and many more products of the Google Cloud ecosystem. In this tutorial, we will simplify things a bit by creating the Google Container Engine cluster beforehand.
+For a complete list of pre-defined variables, have a look at the [variables documentation](https://docs.gitlab.com/ce/ci/variables/README.html#variables).
+{: .alert .alert-info}
 
-First, we need to create a Google Cloud Project named `actuator-sample`. Take note of the `Project ID` since this can sometimes differ from the project name we specify. Then we create a Google Container Engine cluster named `actuator-sample` as well. Choose the settings you prefer and take note of the `zone`.
+#### **The `k8s-deploy` job**
+
+This job is responsible for deploying our application to the [Google Container Engine](https://cloud.google.com/container-engine/). I purposely decided to make use of the [Google Cloud SDK](https://cloud.google.com/sdk/gcloud/) (`gcloud`) because it gives us the possibility to programmatically create and manage Google Container Engine clusters and other products of the Google Cloud ecosystem. In this tutorial, we will simplify things a bit by creating the Google Container Engine cluster beforehand through the GUI.
+
+First, we create a Google Cloud Project named `actuator-sample`. Take note of the `Project ID` since it sometimes differs from the project name we specify. Then we create a Google Container Engine cluster named `actuator-sample` as well. We can choose any machine type and any number of nodes. For the purpose of this tutorial is sufficient one node and a small machine. Let's take note of the `zone`.
 
 ![Create a container cluster](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/create-gce-cluster.png){: .shadow}
 
@@ -270,13 +278,15 @@ k8s-deploy:
   - kubectl apply -f deployment.yml 
 ```
 
-We use the `google/cloud-sdk` image for this process since it comes preloaded with `gcloud` and all components and dependencies of the Google Cloud SDK including alpha and beta components. We obviously chose `deploy` as the `stage` since we want that our application is packaged beforehand and its container pushed to the GitLab Container Registry. Then we execute a set of scripts.
+We use the `google/cloud-sdk` image for this process since it comes preloaded with `gcloud` and all components and dependencies of the Google Cloud SDK including alpha and beta components. We obviously chose `deploy` as the `stage` since we want that our application is packaged beforehand and its container and pushed to the GitLab Container Registry. Then we execute a set of scripts.
 
 The `echo "$GOOGLE_KEY" > key.json` script injects the Google Cloud service account key in the container. `$GOOGLE_KEY` is a Secure Variable having as value the content of the Google Cloud service account key. [Secure Variables](https://docs.gitlab.com/ce/ci/variables/#user-defined-variables-secure-variables) are user defined variables that should not be shown in the `.gitlab-ci.yml`. They are set per project by navigating to `Project > Variables > Add Variable` in GitLab.
 
-The `gcloud auth activate-service-account --key-file key.json` script performs the non-interactive authentication process. The `gcloud config set ...` scripts are selecting the target project, zone and cluster. Make sure these values correspond to those you jotted down before. The `gcloud container clusters get-credentials actuator-example` scripts downloads the `kubectl` configuration file. If we wanted to use Kubernetes on another cloud provider or custom installation, we would instead source the `kubectl` configuration by injecting the relevant `~/.kube/config` file in the container without the need of interacting with `gcloud`.
+![Secure Variables](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/secure-variables.png){: .shadow}
 
-The `kubectl create secret docker-registry ...` script creates the `imagePullSecret` we had defined in the `deployment.yml`. This is used by Kubernetes to authenticate with our private GitLab Container Registry and download the container images. The `kubectl delete secret` is necessary because the Kubernetes API is lacking the `replace` operation for `docker-registry` secrets. In a real world scenario, it would be advisable to set these secrets outside the CD pipeline. Note that `$REGISTRY_PASSWD` is another Secure Variable.
+The `gcloud auth activate-service-account --key-file key.json` script performs the non-interactive authentication process. The `gcloud config set ...` scripts are selecting the target project, zone and cluster. Make sure these values correspond to those you jotted down before. The `gcloud container clusters get-credentials actuator-example` scripts downloads the `kubectl` configuration file. If we wanted to use Kubernetes on another cloud provider or custom installation, we would source the `kubectl` configuration `~/.kube/config` without the need of interacting with `gcloud`.
+
+The `kubectl create secret docker-registry ...` script creates the `imagePullSecret` we had defined in the `deployment.yml`. This is used by Kubernetes to authenticate with our private GitLab Container Registry and download the container images. The `kubectl delete secret` is necessary because the Kubernetes API is lacking the `replace` operation for `docker-registry` secrets. In a real world scenario, we would not need to set these secrets at every pipeline execution. Note that `$REGISTRY_PASSWD` is another Secure Variable.
 
 Time to check if everything is in order on our cluster.
 
@@ -290,10 +300,11 @@ actuator-sample-3641958612-3e5xy   1/1       Running   0          2m
 actuator-sample-5542343546-fr4gh   1/1       Running   0          2m
 ```
 
+![Kubernetes](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/kubernetes.png){: .shadow}
+
 Deployed!
 
-
-#### **Environments**
+#### **GitLab Environments**
 
 Before concluding the tutorial, we will learn about [GitLab Environments](https://docs.gitlab.com/ce/ci/environments.html) which enable us to track environments and deployments.
 
@@ -340,9 +351,9 @@ k8s-deploy-production:
   - production
 ```
 
-The `environment` keyword associates the job with a specific environment. The `url` element is used to generate a handy hyperlink on the GitLab Environments page from which we can access our application. The `only` keyword signals to GitLab CI that the job should be executed only when the pipeline is building the listed branches. Finally, `when: manual` is used to turn the job execution from automatic to manual. In this example, we are setting deployment to the production environments to manual. From a Kubernetes perspective, we are making use of `namespaces` to segregate the different environments. 
+The `environment` keyword associates the job with a specific environment while the `url` element is used to generate a handy hyperlink to our application on the GitLab Environments page. The `only` keyword signals to GitLab CI that the job should be executed only when the pipeline is building the listed branches. Finally, `when: manual` is used to turn the job execution from automatic to manual. From a Kubernetes perspective, we are making use of `namespaces` to segregate the different environments.
 
-We commit on `master` and create the `production` branch to trigger a pipeline per environment. As previously said, we are not making use of any collaboration tool because it is out of the scope of this tutorial. In real world scenarios, we would use [Merge Requests](https://docs.gitlab.com/ee/api/merge_requests.html) to move code across branches since they work as a reviewing and gatekeeping tool.
+By committing on `master` and `production` we trigger a pipeline per environment. As previously said, we are not making use of any collaboration tool because it is out of the scope of this tutorial. In real world scenarios, we would use [Merge Requests](https://docs.gitlab.com/ee/api/merge_requests.html) to move code across branches since they work as a reviewing and gatekeeping tool.
 
 ```shell
 git commit -am "Showcasing Pipelines"
@@ -352,24 +363,24 @@ git push origin production
 ```
 ![Pipelines](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/pipelines.png){: .shadow}
 
-The Pipelines screen details all pipeline executions. We can gather information about the branch and the individual result of each stage. In the case of the `production` pipeline we can manually trigger the `k8s-deploy-production` job as expected. We can also download the build artifacts.
+The Pipelines screen details all pipeline executions. We can gather information about the branch and the individual result of each stage. In the case of the `production` pipeline the `k8s-deploy-production` is not executed automatically as expected but can be triggered from the GUI from where we can also download the build artifacts.
 
 ![Environments](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/environments.png){: .shadow}
 
-Environments are listed in a separate page from where we can trigger re-deployments. By accessing the details for an environment, we can also see all the deployment history and perform rollbacks.
+Environments are listed in a separate page. It is possible to redeploy the latest version of an environment or to rollback to a particular version of the environment by accessing the relative details page.
 
 ![Rollbacks](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/rollbacks.png){: .shadow}
 
 
 ## Conclusion
 
-In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. GitLab CI was the core engine of our pipeline. Its declarative `.gitlab-ci.yml` file allowed us to declare, version and manage our pipelines while GitLab Pipelines and Environments gave us full visibility and control.
+In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. [GitLab CI](https://about.gitlab.com/gitlab-ci/) was the core engine of our pipeline. Its declarative [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file allowed us to define, version and manage our pipelines while the GUI gave us full visibility and control.
 
-While this example is far from complete, it shows clearly the immense benefits any team or company can gain by using the unified UI of GitLab for issues, code review, CI and CD.
+While this example is far from complete, it shows clearly the immense benefits any team or company can gain by using the unified GUI of GitLab for issues, code review, CI and CD.
 
 ## About Guest Author
 
-Marco Lenzo is a Software Architect at CCBill and PhoenixNAP always looking for the next challenge. He has expertise in transaction processing and platform as a service (PaaS). Java, Spring, Go and Kubernetes are currently his bread and butter.
+Marco Lenzo is a Software Architect always up for a challenge. He has expertise in transaction processing and platform as a service (PaaS). Java, Spring, Go and Kubernetes are currently his bread and butter.
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/309 -->
 
