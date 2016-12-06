@@ -40,7 +40,7 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 #### Letter of Adjustment
 
-When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable. 
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable.
 
 ### Processing changes
 
@@ -331,6 +331,18 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
 Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
+
+## Visa Processing
+
+To transfer an H1B Visa, GitLab needs to initiate the transfer before the team member can start work. In the past we have used Immigration Law Group as our legal counsel to help us through these steps.
+
+1. People Ops should reach out to legal counsel to start the process.
+1. Legal Counsel will reach out to the new team member and their manager to gather all information in regards to the transfer itself and the position.
+1. If there is a need for a rush in processing the H1B (plans for travel outside the US, for example) then you can file the transfer under premium processing, if approved by the CEO.
+1. Once the documents have been prepared by the law group, they will be sent to the CFO for wet signatures, and then returned to the law group.
+1. Once the law group receives the signed forms, they can file the transfer with USCIS. Note: Until we receive confirmation that the transfer paperwork has been received by USCIS, the new team member cannot start work at GitLab.
+1. Confirm to legal counsel when the new team member starts work at GitLab.
+1. File all documentation in BambooHR surrounding the transfer.
 
 ## Offboarding
 

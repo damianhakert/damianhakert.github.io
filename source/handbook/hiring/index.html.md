@@ -13,7 +13,6 @@ title: "Hiring"
 
 If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
 
-
 ## Vacancy Creation Process
 
 The CEO must authorize any new job positions/searches.
@@ -227,7 +226,7 @@ The vote is critical as it is telling the rest of the hiring team your opinion o
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
-The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview. 
+The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 All candidates are asked to fill out the form when they are scheduled for an interview with our CEO to discuss during their call with the CEO.
 
 ## Reference calls
@@ -276,3 +275,10 @@ If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the
 ## Underperformance
 
 See [underperformance guidelines](/handbook/underperformance).
+
+## Visas & Work Permits
+
+GitLab does not offer full sponsorship for obtaining a H1B visa at this time.
+If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/sop/#visa-processing). 
+
+For work permits and visas in The Netherlands please refer to [Dutch Work Permits](https://about.gitlab.com/handbook/people-operations/#dutch-work-permits) in our handbook.
