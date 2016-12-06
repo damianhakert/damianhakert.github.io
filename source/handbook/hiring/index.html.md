@@ -48,7 +48,7 @@ The CEO must authorize any new job positions/searches.
 
 ## Publicize the job
 
-The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](handbook/#referral-bonuses)
+The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/#referral-bonuses)
 
 The recruiting team will **always** publicize the job through the following means:
 
