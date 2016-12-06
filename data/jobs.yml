@@ -157,8 +157,8 @@
 
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
-  apply:
-  open: false
+  apply: https://gitlab.workable.com/jobs/356285/candidates/new
+  open: true
 
 - title: "Regional Director Sales, US"
   description: /jobs/regional-director-sales/
