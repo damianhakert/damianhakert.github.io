@@ -20,7 +20,7 @@ I cannot overemphasize how really important this is. I always made the mistake o
 
 ## Plan before you start coding.
 
-This is an important part of software development that lots of new programmers tend to ignore. Often we want to start writing code as soon as possible, but I have come to realize that skipping the planning stage has a negative effect in the long term. You’ll likely end up with an unmaintainable code base and a poorly designed application. You need to embrace the "boring parts" of software development. These help to remind you to start small by mastering the basics before you try to build the next Facebook. [_The Pragmatic Programmer_](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) by Andrew Hunt and David Thomas is an excellent resource. GitLab's issue board is a useful tool for thinking through potential challenges and creating detailed checklists.
+This is an important part of software development that lots of new programmers tend to ignore. Often we want to start writing code as soon as possible, but I have come to realize that skipping the planning stage has a negative effect in the long term. You’ll likely end up with an unmaintainable code base and a poorly designed application. You need to embrace the "boring parts" of software development. These help to remind you to start small by mastering the basics before you try to build the next Facebook. [_The Pragmatic Programmer_](https://pragprog.com/book/tpp/the-pragmatic-programmer) by Andrew Hunt and David Thomas is an excellent resource. GitLab's issue board is a useful tool for thinking through potential challenges and creating detailed checklists.
 
 ## Follow conventions and standards.
 
