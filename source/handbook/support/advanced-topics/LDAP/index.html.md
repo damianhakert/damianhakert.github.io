@@ -9,7 +9,7 @@ with the **Title:** *"LDAP Boot Camp - your_name"*
 **Goal of this checklist:** Set a clear path for LDAP Expert training
 
 Remember to contribute to any documentation that needs updating
-
+```
 ### Stage 1: Commit and Become familiar with what LDAP is
 
 - [ ] **Done with Stage 1**
@@ -31,3 +31,5 @@ routing non-technical LDAP questions to you
 
  * [ ] Install the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
  * [ ] Add [OpenLDAP](https://gitlab.com/gitlab-org/gitlab-development-kit/tree/master/gitlab-openldap) to your GDK installation.
+ 
+ ```
