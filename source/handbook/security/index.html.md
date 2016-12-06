@@ -35,6 +35,7 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
+1. Do not allow your web browser (e.g. Chrome, Safari) to store passwords when prompted. This presents an unnecessary risk and is redundant as 1Password should serve as the sole password management application.  
 1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
 1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may

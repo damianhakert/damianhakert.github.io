@@ -1,0 +1,73 @@
+---
+layout: default
+title: Learn GitLab with Git Basics
+suppress_header: true
+extra_css:
+  - training.css
+---
+.wrapper
+  .training-picture-container
+    .training-overlay
+      .training-content
+        %h1.text-center 
+          Learning GitLab with Git Basics
+        There are two sessions, 90 minutes each. Session 1 is built around re-enforcing how the UI works, and then paralleling that in the command line. Session 2 focuses on Merge Conflicts in the UI and command line and Git/Hub/Lab Flow.
+        %h3.text-center 
+          Session 1: GitLab UI & Git Command Line (90 Minutes)
+        %h4 
+          Part 1: The UI (45 minutes)
+        %h5
+          TODO: INSERT VIDEO HERE
+        GitLab is software that allows you to do a lot without having to use the command line. In this session, all participants will work together to commit code with the instructor and understand the GitLab interface through action and practice.
+        The UI also includes some advanced git features, and we dive into those topics at the end of the first session when we cover branching and what Git is and how Git fits into the GitLab equation.
+        %h4 
+          Part 2: Command Line (45 minutes)
+        A core part of using Git and GitLab includes using Git locally on your computer to make changes and push these changes to the server. We use the command line (where Git is born and thrives) to make simple changes to some local files and push them to the server. This mirrors the work we did in the UI in the first session and bridges the gap of how GitLab and Git work together.
+        
+        %h3.text-center
+          Session 2: Merge Conflicts & Git Flow (90 minutes)
+        %h4
+          Part 1: Simple Merge Conflicts in the UI (60 minutes)
+        %h5
+          TODO: INSERT VIDEO HERE
+        In the second session, we recap how the UI works and then dive into a complex topic: Merge Conflicts. A Majority of this session is focused on dealing with Merge conflicts in the UI and then Mirroring that experience in the command line. Since this topic can be more complex, it is lecture based.
+        %h4
+          Part 2: Merge Conflicts in the Command Line & Git Flow (30 minutes)
+        In the second portion of of the training, we focus on Merge conflicts and how they look and act locally in the command line. Since we already saw basic conflicts via the UI it's not as scary and daunting as they can be at first. Merge Conflicts arise from working with multiple developers and we talk about how to build workflows based on Git Flow, GitHub Flow and GitLab flow with examples of each and how they help to make different types of software development workflows easier.
+
+        %h3.text-center
+          Training Resources
+        %h3
+          %a{href:"https://docs.google.com/presentation/d/1G5KAZNvZ_iRpz39jf1MvMzKyaFYclZ0LItHoeinlOpU/edit#slide=id.g153a2ed090_0_57"}Learning GitLab with Git Basics Slidedeck
+
+        %h3
+          %a{href:"https://gitlab.com/gitlab-com-trainings/learning-gitlab-with-git-basics/blob/master/README.md"}Trainer's Guide
+
+        %br/
+  .centered-form.training-form
+    %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %form#mktoForm_1068
+    :javascript
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1068, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
+            return false;
+          });
+          function getgacid() {
+            try {
+              var tracker = ga.getAll()[0];
+              return tracker.get('clientId');
+            } catch (e) {
+              return 'n/a';
+            }
+          }
+          form.vals({
+            'gacid': getgacid()
+          });
+      });
+    #confirmform{style: "visibility:hidden;"}
+      %p Submission received! We'll be in touch shortly.

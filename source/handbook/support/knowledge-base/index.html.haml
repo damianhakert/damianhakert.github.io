@@ -2,7 +2,8 @@
 layout: default
 title: Support Knowledge Base
 ---
-- pages = sitemap.resources.select { |resource| resource.path.start_with?("handbook/support/knowledge-base/categories") }
+- pages = sitemap.resources.select { |resource| resource.path.start_with?("handbook/support/knowledge-base") }
+- pages = pages.reject { |page| page.data.title == "Support Knowledge Base" }
 - pages = pages.group_by { |page| page.data.category }.sort_by { |category| category }
 %ol.breadcrumb
   %li You are here:
