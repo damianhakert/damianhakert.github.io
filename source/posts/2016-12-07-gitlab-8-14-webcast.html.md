@@ -42,21 +42,21 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 ## Q&A 
 
-**[39:26] For time tracking, can I see 'original', 'current', and remaining?**
+[39:26] For time tracking, can I see "original", "current", and "remaining"?
 
-**[40:16] Other time tracking tools measure the time an issue remains in a particular lane so time spent is automated. Can GitLab do this?**
+[40:16] Other time tracking tools measure the time an issue remains in a particular lane so time spent is automated. Can GitLab do this?
 
-**[41:46] What is Review Apps?**
+[41:46] What is Review Apps?
 
-**[42:46] How can the Review Apps apply to more non-traditional, or, non-web apps?**
+[42:46] How can the Review Apps apply to more non-traditional, or, non-web apps?
 
-**[44:57] So, Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage?**
+[44:57] So, Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage?
 
-**[49:00] Time tracking overview. For example: across projects, by user, etc.**
+[49:00] Time tracking overview. For example: across projects, by user, etc.
 
-**[50:06] How is 1 day definied? Is it hardcoded to equal 8 hours or is it configurable by user?**
+[50:06] How is 1 day definied? Is it hardcoded to equal 8 hours or is it configurable by user?
 
-**[51:42] In [Continuous Integration][ci-post] (CI), if a packaged project is released as docker images and pushed to GitLab [Container Registry][cr-post] can I set up a manual action that will reverse the release by using containers from the previously released docker image?**
+[51:42] In [Continuous Integration][ci-post] (CI), if a packaged project is released as docker images and pushed to GitLab [Container Registry][cr-post] can I set up a manual action that will reverse the release by using containers from the previously released docker image?
 
 ## Upcoming Live Streams 
 
@@ -69,7 +69,7 @@ For more information on the topic, read Pablo's blog post on how we knew it was 
 
 ## 2. Introducing the Codeship GitLab Integration
 
-[Register here][codeship-lp] | December 15 at 9am PT/6pm GMT.
+Hosted by [Codeship][codeship-lp] on December 15 at 9am PT/6pm GMT. [Register here][codeship-lp]
 
 Following [Codeship's announcement][codeship-post], GitLab's Mark Pundsack will join Codeship Senior Software Engineer Kyle Rames for a discussion on why Codeship built a GitLab integration and showcase a demo alongside Codeship's Docker Platform.
 
