@@ -11,8 +11,8 @@ title: Security Handbook
    master password.
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
-   **share access** with. There are three types of account access for these services, Individual, OAuth, and Single. The 'Shared' vault (to which all team members have access) has a secure note for all Individual and OAuth account services. This note lists the administrators you can contact to gain access to the service. You are added to the relevant Individual services during onboarding.
-   1. **Individual services** (created manually per person, such as our Google accounts): keep your credentials to yourself by storing them in your 'Personal' vault.
+   **share access** with. There are three types of account access for these services, Individual, OAuth, and Single. All Individual and OAuth account services have a secure note in the 'Shared' vault. This note lists the administrators you can contact to gain access to the service for Individual services or lists the account you can use to get access for OAuth services. During onboarding you should be added to all relevant Individual services by deafult.
+   1. **Individual services** (created manually per person, such as our Google accounts): keep your credentials to yourself by storing them in your 'Personal' vault in the GitLab 1password account.
    1. **OAuth services** (authentication through GitLab or Google accounts, such as for grafana).
    1. **Single services** (services that don't allow individual accounts or where it is too expensive): store the credentials in an appropriate company 1Password vault ('Shared' or otherwise) so that your colleagues can sign in using the same credentials.
 1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and use [1Password TOTP].
