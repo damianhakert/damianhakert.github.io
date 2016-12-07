@@ -23,6 +23,7 @@ routing less-technical LDAP questions to you
    1. [ ] [GitLab LDAP](https://docs.gitlab.com/ce/university/#3-5-ldap-and-active-directory)
 1. [ ] Read through all the [LDAP Documentation for CE](https://docs.gitlab.com/ce/administration/auth/ldap.html)
 1. [ ] Read through all the [LDAP Documentation for EE](https://docs.gitlab.com/ce/administration/auth/ldap.html) which covers EE specific portions.
+
 ### Stage 2: Technical Setup
 
 - [ ] **Done with Stage 2**
@@ -32,6 +33,7 @@ routing less-technical LDAP questions to you
  * [ ] Install the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
  * [ ] Add [OpenLDAP](https://gitlab.com/gitlab-org/gitlab-development-kit/tree/master/gitlab-openldap) to your GDK installation.
  * [ ] Try Group sync
+ 
  ### Stage 3: Tickets
 
 - [ ] **Done with Stage 3**
