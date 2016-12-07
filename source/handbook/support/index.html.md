@@ -146,7 +146,7 @@ Applying any of these macros will move the ticket to the tier group selected.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/zendesk/zendesk_tips.html) page.
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/zendesk/zendesk_admin.html) page.
 
 ## How we're doing
 
