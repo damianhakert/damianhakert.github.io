@@ -3,7 +3,7 @@ title: GitLab 8.14 Webcast Recording & Highlights
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: webcast
-image_title: '/images/blogimages/--.jpeg'
+image_title: '/images/blogimages/8-14-webcast-cover.png'
 description: Review Apps, Time Tracking Beta, and Mattermost Chat Commands released!
 twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
