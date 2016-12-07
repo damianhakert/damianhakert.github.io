@@ -28,6 +28,7 @@ gem "stringex"
 
 group :development, :test do
   gem 'docopt'
+  gem 'pry',       require: false
   gem 'scss_lint', require: false
   gem 'yaml-lint', require: false
 end
