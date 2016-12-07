@@ -56,7 +56,7 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 **[50:06] How is 1 day definied? Is it hardcoded to equal 8 hours or is it configurable by user?**
 
-**[51:42] In continuous integration (CI), if a packaged project is released as docker images and pushed to GitLab container registry, can I set up a manual action that will reverse the release by using containers from the previously released docker image?**
+**[51:42] In [Continuous Integration][ci-post] (CI), if a packaged project is released as docker images and pushed to GitLab [Container Registry][cr-post] can I set up a manual action that will reverse the release by using containers from the previously released docker image?**
 
 ## Upcoming Live Streams 
 
@@ -91,8 +91,10 @@ they share our future plans for GitLab and Prometheus.
 
 
 <!-- identifiers --> 
+[ci-post]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [codeship-lp]: http://bit.ly/2g2jFjG
 [codeship-post]: https://blog.codeship.com/codeship-launches-gitlab-support/
+[cr-post]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
 [infra-lp]: https://page.gitlab.com/20161207_PrometheusWebcast_LandingPage.html
 [infra-livestream]: https://www.youtube.com/watch?v=WzAzm0C15W8
 [mark-twitter]: https://twitter.com/MarkPundsack
