@@ -1,0 +1,53 @@
+---
+title: GitLab 8.14 Webcast Recording & Highlights 
+author: Erica Lindberg
+author_twitter: EricaLindberg_
+categories: webcast
+image_title: '/images/blogimages/--.jpeg'
+description: 
+twitter_image:
+---
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen></iframe>
+
+
+## Highlights 
+
+[01:21] Introduction to Git and GitLab
+
+Git is the leading distributed version control system. It allows developers to store a local copy of their source code, propose changes to it, and share those changes with others. Since each developer maintains a local copy, it’s incredibly easy to work offline and merge changes later. Git was designed for distributed teams that have to work together across geographies and timezones but it’s since expanded to developers who are just looking for a tool that helps them iterate faster and collaborate more naturally.
+
+[04:07] GitLab's Idea to Production Vision
+[06:10] Time Tracking Beta (EE) & live demo
+[12:18] Mattermost Chat Commands & demo
+[15:40] Review Apps & demo
+[28:33] Behind the scenes: Iterating on Review Apps
+[33:50] Other improvements & what's next
+
+## Q&A 
+[39:26] For time tracking, can I see 'original', 'current', and remaining?
+[40:16] Other time tracking tools measure the time an issue remains in a particular lane so time spent is automated. Can GitLab do this?
+[41:46] What is Review Apps? 
+[42:46] How can the Review Apps apply to more non-traditional,or non-web apps?
+[44:57]: So Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage? (Related blog post: http://bit.ly/IntroRevApps) 
+[49:00] Time tracking overview. For example: across projects, by user, etc.
+[50:06] How is 1 day definied? Is it hardcoded to equal 8 hours or is it configurable by user?
+[51:42] In continuous integration (CI), if a packaged project is released as docker images and pushed to GitLab container registry, can I set up a manual action that will reverse the release by using containers from the previously released docker image?
+
+## Upcoming Live Streams 
+
+## 1. Monitoring Distributed Systems with Prometheus
+
+Watch live on December 14 at 9am PT/5pm GMT. Sign up to receive a reminder and the recording.
+Infrastructure Lead Pablo Carranza will give a behind-the-scenes look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with GitLab CE, and give a tutorial on how you can set up your own dashboard. A live chat Q&A will follow the presentation. See more details and sign up for a reminder here.
+For more information on the topic, read Pablo's blog post on how we knew it was time to leave the cloud.
+
+## 1. Designing GitLab's User Experience with UX Lead Allison Whilden
+
+Watch live on December 15 at 10am PT/6pm GMT. Sign up to receive a reminder and the recording.
+User experience (UX) affects every interaction a user has with a product. Because of this, it can literally make or break the adoption of a website, or application. UX designers have a really big job to do as they dig into the who, the what, the why, and the how of essentially everything that happens within a platform.
+How does GitLab's UX team work to solve the challenge of creating an application that has so many different types of users and releases a new version of its product every month? Join GitLab's UX Lead, Allison Whilden, and her team, as they discuss their process, the big challenges they face and how they look to solve them.
+
+<!-- identifier --> 
