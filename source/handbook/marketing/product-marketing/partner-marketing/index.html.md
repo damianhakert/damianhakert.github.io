@@ -56,6 +56,17 @@ Suggested Format:
 
 - Length: Couple of paragraphs
 - Links: GitLab integration/partner page & partner website
-- ROI - Track click-through to partner website and provide partner with metrics
 
-Submit to the 8th and 22nd of the month newsletter issue in the marketing project. Request that partner features segment in their newsletter if possible.
+Creation:
+
+Email potential partner with case for creating content/blog post which will feature in our newsletter. Also request that they include the content in their own newsletter. 
+
+Create issue and assign to Content Marketing with the following information:
+- A summary describing the partnership
+- Any specific goals for the blog post (e.g. must link to this, mention this, do not do this...)
+- Contacts from both sides for people involved in the partnership
+- Any marketing pages or material created from both sides which we can use in the post
+- Deadlines for the post (internal draft, partner draft review and publication)
+
+After Publication: Send to partner a summary of the click-throughs to their website, registration for webinar etc. 
+
