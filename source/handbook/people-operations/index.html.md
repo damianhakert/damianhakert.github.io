@@ -97,7 +97,7 @@ This policy applies to all current employees and candidates for employment.
 If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
-- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-framework/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. People Ops will process any changes that are agreed on, and file the email in BambooHR.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-framework/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager) that your current contract continues to be valid "as-is" or if it needs to be adjusted with respect to compensation or other terms. Refer to the ["move calculator"](https://about.gitlab.com/jobs/move) to see what the likely impact will be. People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
 {: #benefits-us}
