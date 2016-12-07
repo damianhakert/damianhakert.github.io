@@ -157,16 +157,6 @@
 .featured-item-body {
   position: relative;
 
-  .currency {
-    position: relative;
-    font-size: 22px;
-    top: -16px;
-
-    @media (min-width: $screen-lg-min) {
-      font-size: 30px;
-    }
-  }
-
   .edition-description,
   .edition-pricing {
     border-bottom: 1px solid $color-white-alt;
@@ -179,6 +169,14 @@
     font-size: 13px;
     color: $color-primary-alt;
     vertical-align: middle;
+
+    // Tablet & Mobile
+    @media (max-width: $screen-md-min) {
+      display: block;
+      height: auto;
+      margin: auto;
+      padding: 15px;
+    }
   }
 
   .edition-pricing {
@@ -201,11 +199,19 @@
       font-size: 28px;
       font-weight: bold;
 
+      // Tablet & Mobile
+      @media (max-width: $screen-md-min) {
+        margin-top: 3%;
+        font-size: 38px;
+      }
+
+      // Regular Desktop
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 38px;
       }
 
+      // Large Desktop
       @media (min-width: $screen-lg-min) {
         margin-top: 8%;
         font-size: 48px;
@@ -218,12 +224,20 @@
       font-weight: 700;
       text-align: left;
 
+      // Tablet & Mobile
+      @media (max-width: $screen-md-min) {
+        margin-top: 3%;
+        text-align: center;
+      }
+
+      // Regular Desktop
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 40px;
         font-size: 16px;
       }
 
+      // Large Desktop
       @media (min-width: $screen-lg-min) {
         font-size: 15px;
         margin-top: 12%;
@@ -232,6 +246,32 @@
     }
   }
 
+  .featured-item-expand {
+    display: none;
+    padding: 10px;
+    font-size: 15px;
+    color: $mvp-table-header-color;
+
+    &:after {
+      content: "\f078";
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    &.chevron-up {
+      &:after {
+        content: "\f077";
+      }
+    }
+
+    // Mobile Screens
+    @media (max-width: $screen-sm) {
+      display: block;
+    }
+  }
   .item-description {
     padding: 10px;
     font-size: 12px;
@@ -280,6 +320,12 @@
         background-color: transparent;
       }
 
+      // Tablet & Mobile
+      @media (max-width: $screen-md-min) {
+        width: 60%
+      }
+
+      // Regular Desktop
       @media (min-width: $screen-md-min) {
         max-width: 60%;
       }
@@ -297,6 +343,15 @@
 .featured-item-list {
   margin-bottom: 0;
   min-height: 300px;
+
+  // Mobile Screens
+  @media (max-width: $screen-sm) {
+    display: none;
+
+    &.list-expanded {
+      display: block;
+    }
+  }
 }
 
 .choose-gitlab {
