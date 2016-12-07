@@ -68,7 +68,7 @@ the customer.
 1. [ ] Installation calls where we help a client who needs to integrate LDAP
    1. [ ] call with ___
   1. [ ] call with ___
-1. [ ] Diagnosis calls, where something is wrong with Geo for a customer
+1. [ ] Diagnosis calls, where something is wrong with LDAP for a customer
   1. [ ] call with ___
   1. [ ] call with ___
 
@@ -79,6 +79,6 @@ the customer.
 ### Final Stage
 
 - [ ] Ask Ernst and Drew to look over this list, send a MR to delete this line after they both satisfied with the list
-- [ ] Send a MR to declare yourself a **Geo Expert** on the team page
+- [ ] Send a MR to declare yourself a **LDAP Expert** on the team page
  
  ```
