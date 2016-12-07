@@ -14,10 +14,9 @@ title: Security Handbook
    **share access** with. There are three types of account access for these services:
    1. Individual accounts (created manually for you, such as Slack, Google): keep your credentials to yourself by storing them in your 'Personal' vault.
    1. Shared accounts (services that don't allow individual accounts or where it is too expensive): store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
-   1. OAuth accounts (authentication through GitLab or Google, such as for checkmk monitoring and grafana).<br>
-For all credentials that are not stored in a shared vault on 1Password there should be one secure note in the 'Shared' vault. This can be services that have individual
-accounts or OAuth access. Locate the 'secure note' in the team's 'Shared' vault with the name of the service you are trying to access. The note should list whom can give you access in case it has
-individual accounts, or it may link to the onboarding checklist. You should be added to most of these services during onboarding.
+   1. OAuth accounts (authentication through GitLab or Google, such as for checkmk monitoring and grafana).
+
+The 'Shared' vault (to which all team members have access) has a secure note for _each_ service that uses individual or OAuth account access. The note lists whom you should contact to gain access to the service. You should be added to most of these services during onboarding.
 1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and use [1Password TOTP].
 1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'Shared' vault that the whole company can access or make a suggestion to create a new vault in the "1Password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1Password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1Password.
@@ -35,7 +34,7 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
-1. Do not allow your web browser (e.g. Chrome, Safari) to store passwords when prompted. This presents an unnecessary risk and is redundant as 1Password should serve as the sole password management application.  
+1. Do not allow your web browser (e.g. Chrome, Safari) to store passwords when prompted. This presents an unnecessary risk and is redundant as 1Password should serve as the sole password management application.
 1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
 1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may
