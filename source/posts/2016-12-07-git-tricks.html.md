@@ -2,12 +2,12 @@
 title: "Git tricks, handy Git commands for everyday use"
 author: Achilleas Pipinellis
 author_twitter: _axil
-categories:
-image_title:
+categories: git
+image_title: '/images/blogimages/git-tricks/git-tricks-cover-image.png'
 description: Handy Git commands for everyday use.
 ---
 
-Git comes with a ton of commands, and that's probably an understatement.
+[Git] comes with a ton of commands, and that's probably an understatement.
 
 [The internet] is full of Git tips and it's hard if not impossible to know
 them all, but sometimes you stumble upon an aha! moment that changes your
@@ -18,11 +18,14 @@ Hopefully they will add up to your aha! moment.
 
 <!-- more -->
 
+- TOC
+{:toc}
+
 ## Intro
 
 Almost everybody at GitLab will need to use Git at some point. For newcomers
 who know nothing about Git that can be a fearsome experience. We have
-a `#git-help` Slack channel where we ask questions and provide help if some of
+a `#git-help` chat channel where we ask questions and provide help if some of
 us get stuck. That's a quick way to provide help, and if something is complicated
 or someone has messed up their local repository and needs immediate help, there's
 always a person to jump on a quick call.
@@ -32,11 +35,11 @@ find useful. Remember, the list is far from exhaustive :)
 
 ## Git's built-in help
 
-The majority of users rely on sites like StackOverflow to find answers to their
+The majority of users rely on sites like [StackOverflow] to find answers to their
 Git problems, but how often do you use Git's built-in help to find more about a
 command you are struggling with?
 
-### Learn about the most common commands
+### The most common commands
 
 Run `git help` to print a list of the most common commands. You'll probably
 notice you've used most of them, but how well do you really know them?
@@ -44,7 +47,7 @@ Thankfully, there is a help page for every command!
 
 ### A help page for every command
 
-Git's documentation is comprehensive and is automatically installed with Git. 
+Git's documentation is comprehensive and is automatically installed with Git.
 Run `git help <command>` to find out all about a command's behavior and what
 options it can take.
 
@@ -70,13 +73,15 @@ Jump to a Git tutorial with `git help tutorial`, go through the glossary with
 `git help glossary` or learn about the most common commands with
 `git help everyday`.
 
-## See the repository status in your prompt
+## See the repository status in your terminal's prompt
 
 It's very useful to be able to visualize the status of your repository at any
 given time. While there are 3rd party tools that include this information
 ([oh-my-zsh][ohmyzsh] anyone?), Git itself provides a script named `git-prompt.sh`
 that does exactly that. You can [download it][gitprompt] and follow the
-instructions to install and use it in your system.
+instructions in it to install and use it in your system. If you're using Linux
+and have installed Git with your package manager, it may already be
+present on your system, usually under `/etc/bash_completion.d/`.
 
 Go ahead and replace your boring shell prompt with something like this:
 
@@ -86,11 +91,29 @@ _Taken from oh-my-zsh's [themes wiki][git-shell-info-source]_
 
 ## Autocompletion for Git commands
 
-You may also find it useful to use the [completion scripts] that provide Git 
-completion for `bash`, `tcsh` and `zsh`. Again, follow the instructions inside 
-the scripts to learn how to install them. Once done, try them out by typing 
-`git` in your terminal followed by <kbd>Tab</kbd>+ <kbd>Tab</kbd>, and see the 
-magic happening.
+You may also find it useful to use the [completion scripts] that provide Git
+command completion for `bash`, `tcsh` and `zsh`. Again, follow the instructions
+inside the scripts to learn how to install them. Once done, you can try out
+typing a command.
+
+Let's say you want to type `git pull`. If Git completion is enabled, typing
+just the first letter with `git p` followed by <kbd>Tab</kbd> will show the
+following:
+
+```
+pack-objects   -- create packed archive of objects
+pack-redundant -- find redundant pack files
+pack-refs      -- pack heads and tags for efficient repository access
+parse-remote   -- routines to help parsing remote repository access parameters
+patch-id       -- compute unique ID for a patch
+prune          -- prune all unreachable objects from the object database
+prune-packed   -- remove extra objects that are already in pack files
+pull           -- fetch from and merge with another repository or local branch
+push           -- update remote refs along with associated objects
+```
+
+To show all available commands, type `git` in your terminal followed by
+<kbd>Tab</kbd>+ <kbd>Tab</kbd>, and see the magic happening.
 
 ![It's a kind of magic](https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
 
@@ -104,18 +127,19 @@ its functionality. Let's see some of the most common ones.
 If you want to enhance Git with more commands, you'll want to try out the
 [`git-extras` plugin][gitextras]. It includes commands like `git info` (show
 information about the repository), `git effort` (number of commits per file),
-and the list goes on. Make sure to visit the [documentation on the provided
-commands][commands] in order to understand what each one does before using it.
+and the list goes on. After you [install][extras-inst] it, make sure to visit
+the [documentation on the provided commands][commands] in order to understand
+what each one does before using it.
 
 ### The `git-open` plugin
 
 If you want to quickly visit the website on which the repository you're on is
-hosted, `git-open` is for you. All major providers are supported (GitLab, GitHub, 
+hosted, `git-open` is for you. All major providers are supported (GitLab, GitHub,
 Bitbucket) and you can even use them all at the same time if you set
 them as different remotes.
 
 [Install it][install-open], and try it out by cloning a repository from
-[GitLab.com](https://gitlab.com/explore). From your terminal browse to that
+[GitLab.com](https://gitlab.com/explore). From your terminal navigate to that
 repository and run `git open` to be transferred to the project's page on
 GitLab.com.
 
@@ -135,12 +159,20 @@ Read more in the [examples section][git-open-examples].
 The `.gitconfig` file contains information on how you want Git to behave on
 certain circumstances. There are options you can set at a repository level,
 but you can also set them in a global `.gitconfig` so that all local config
-will inherit its values.
+will inherit its values. This file usually resides in your home directory.
+If not, either you'll have to create it manually or it will be automatically
+be created when you issue a command starting with `git config --global` as
+we'll see below.
 
 The very first encounter with `.gitconfig` was probably when you set your
 name and email address for Git to know who you are.
 To know more about the options `.gitconfig` can take, see the [Git documentation
 on `.gitconfig`][gitconfig].
+
+If you are using macOS or Linux, `.gitconfig` will probably be hidden if you are
+trying to open it from a file manager. Either make sure the hidden files are
+shown or open it using a command in the terminal: `atom ~/.gitconfig`.
+{: .alert .alert-info}
 
 Let's explore some of the most useful config options.
 
@@ -148,12 +180,6 @@ Let's explore some of the most useful config options.
 
 If you want to avoid committing files like `.DS_Store`, Vim `swp` files, etc.,
 you can set up a global `.gitignore` file.
-
-If that happens, it means you use `git add .` a lot. Just, don't. Try to learn
-and commit only the files you want by replacing the dot with the path of the
-files/directories. Use dot (`.`) only when you are absolutely sure that you
-want to add all unstaged files in the current directory.
-{: .alert .alert-info}
 
 First create the file:
 
@@ -174,8 +200,8 @@ Or manually add the following to your `~/.gitconfig`:
   excludesFile = ~/.gitignore
 ```
 
-Gradually build up your own useful list of things you want Git to ignore. Read 
-the [gitignore documentation](https://git-scm.com/docs/gitignore) to find out 
+Gradually build up your own useful list of things you want Git to ignore. Read
+the [gitignore documentation](https://git-scm.com/docs/gitignore) to find out
 more.
 
 ---
@@ -219,6 +245,9 @@ Or manually add the following to your `~/.gitconfig`:
   autosquash = true
 ```
 
+At this point, let us remind you of [the perils of rebasing][rebase].
+{: .alert .alert-info}
+
 ---
 
 _[Git docs source](https://git-scm.com/docs/git-config#git-config-rebaseautoSquash)_
@@ -226,7 +255,7 @@ _([tip taken from thoughbot](https://github.com/thoughtbot/dotfiles/pull/377))_
 
 ### Extra info when using Git submodules
 
-If you are using submodules, it might be useful to turn on the submodule summary.
+If you are using [submodules], it might be useful to turn on the submodule summary.
 From your terminal run:
 
 ```bash
@@ -369,7 +398,8 @@ git mr upstream 5
 ```
 
 This will fetch the merge request into a local `mr-upstream-5` branch and check
-it out.
+it out. In the above example, `upstream` is the remote that points to GitLab
+which you can find out by running `git remote -v`.
 
 ### The Oh-my-zsh Git aliases plugin
 
@@ -461,6 +491,22 @@ the base branch. Use the following:
 git checkout -b new_branch base_branch
 ```
 
+For example, if you are on a branch named `old-branch` and you want to
+checkout another branch from `master`, you'd normally do:
+
+```bash
+git checkout master
+git checkout -b new-branch
+```
+
+With the above abbreviation you could do:
+
+```bash
+git checkout -b new-branch master
+```
+
+while still on the `old-branch`.
+
 ## References
 
 - [Thoughbot's gitconfig file](https://github.com/thoughtbot/dotfiles/blob/master/gitconfig)
@@ -492,3 +538,8 @@ What's your favorite tip?
 [ohmyzsh]: http://ohmyz.sh/
 [the internet]: https://gitlab.com/theinternet/theinternet/uploads/8361c77029e22e296e5356129abddd32/theinternet.png
 [gitconfig]: https://git-scm.com/docs/git-config
+[stackoverflow]: https://stackoverflow.com
+[extras-inst]: https://github.com/tj/git-extras/blob/master/Installation.md
+[rebase]: https://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing
+[submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[git]: https://git-scm.com
