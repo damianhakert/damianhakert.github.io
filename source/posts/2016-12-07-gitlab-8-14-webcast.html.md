@@ -16,14 +16,33 @@ twitter_image:
 ## Highlights 
 
 [01:21] Introduction to Git and GitLab
-
-Git is the leading distributed version control system. It allows developers to store a local copy of their source code, propose changes to it, and share those changes with others. Since each developer maintains a local copy, it’s incredibly easy to work offline and merge changes later. Git was designed for distributed teams that have to work together across geographies and timezones but it’s since expanded to developers who are just looking for a tool that helps them iterate faster and collaborate more naturally.
-
 [04:07] GitLab's Idea to Production Vision
 [06:10] Time Tracking Beta (EE) & live demo
+
+>> "Recording time has always been painful. You have to use different systems to do it, 
+and even then, you don't get a complete picture because your work is in one place, 
+and your time tracking data in another. This is why we've decided to release Time Tracking in Beta in 8.14" —Régis Freyd
+
 [12:18] Mattermost Chat Commands & demo
+
+>> "Team communication has changed, and so much is happening in chat rooms these days. 
+More and more, ideas are first discussed in chat, and so GitLab wants to make it 
+easier for you to get your ideas from Chat and put them into GitLab issues where 
+they can be acted on." —Mark Pundsack
+
 [15:40] Review Apps & demo
+
+>> "Review Apps are the future of reviewing work! Rather than just looking at code, 
+Review Apps serve up a fully functioning environment where your app is running, 
+so you get a live preview of every branch and merge request. It’s perfect for 
+testing complex changes where looking at the code isn’t enough." —Mark Pundsack
+
 [28:33] Behind the scenes: Iterating on Review Apps
+
+>> "So, this really complex, life changing feature was broken down into three releases of the minimal viable change." —Mark Pundsack
+
+Read Mark's blog post on how we shipped Review Apps. 
+
 [33:50] Other improvements & what's next
 
 ## Q&A 
