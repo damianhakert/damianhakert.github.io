@@ -65,14 +65,20 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 Infrastructure Lead Pablo Carranza will give a behind-the-scenes look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with GitLab CE, and give a tutorial on how you can set up your own dashboard. A live chat Q&A will follow the presentation. See more details and sign up for a reminder here.
 For more information on the topic, read Pablo's blog post on how we knew it was time to leave the cloud.
 
-## 1. Designing GitLab's User Experience with UX Lead Allison Whilden
+## 2. Introducing the Codeship GitLab Integration
+
+[Register here][codeship-lp] | December 15 at 9am PT/6pm GMT.
+
+Hosted by Codeship, GitLab's Mark Pundsack joins Codeship Senior Software Engineer Kyle Rames for a discussion on why Codeship built a GitLab integration and showcase a demo alongside Codeship's Docker Platform.
+
+## 3. Designing GitLab's User Experience with UX Lead Allison Whilden
 
 [Watch live][ux-livestream] on December 15 at 10am PT/6pm GMT. [Sign up to receive a reminder and the recording][ux-lp].
 
 User experience (UX) affects every interaction a user has with a product. Because of this, it can literally make or break the adoption of a website, or application. UX designers have a really big job to do as they dig into the who, the what, the why, and the how of essentially everything that happens within a platform.
 How does GitLab's UX team work to solve the challenge of creating an application that has so many different types of users and releases a new version of its product every month? Join GitLab's UX Lead, Allison Whilden, and her team, as they discuss their process, the big challenges they face and how they look to solve them.
 
-## 1. Prometheus and GitLab: Completing the application lifecycle with monitoring
+## 4. Prometheus and GitLab: Completing the application lifecycle with monitoring
 
 [Watch live][sid-livestream] on December 15 at 1:30pm PT/9:30pm GMT.
 
@@ -83,6 +89,7 @@ they share our future plans for GitLab and Prometheus.
 
 
 <!-- identifiers --> 
+[codeship-lp]: http://bit.ly/2g2jFjG
 [infra-lp]: https://page.gitlab.com/20161207_PrometheusWebcast_LandingPage.html
 [infra-livestream]: https://www.youtube.com/watch?v=WzAzm0C15W8
 [mark-twitter]: https://twitter.com/MarkPundsack
