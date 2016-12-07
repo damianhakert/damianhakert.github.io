@@ -23,7 +23,9 @@ end
 
 def print_selected(options)
   selected = []
-  team_members = YAML.load_file('data/team.yml')
+  team_members = YAML
+    .load_file('data/team.yml')
+    .reject { |member| member['picture'].start_with?('logo') }
 
   n = options['<n>'].to_i
   min = options['--min'].to_i
