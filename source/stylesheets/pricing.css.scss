@@ -180,10 +180,21 @@
   }
 
   .edition-pricing {
+    position: relative;
     overflow: auto;
     height: 100px;
     padding: 5px;
     background-color: $body-bg;
+
+    .pricing-term {
+      position: absolute;
+      width: 80%;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      color: $mvp-table-header-color;
+    }
 
     .featured-item-headline,
     .featured-item-headline-small {
