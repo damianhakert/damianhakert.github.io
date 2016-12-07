@@ -1,10 +1,10 @@
 ---
-title: GitLab 8.14 Webcast Recording & Highlights 
+title: "GitLab 8.14 Webcast Recording & Highlights" 
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: webcast
 image_title: 
-description: Review Apps, Time Tracking Beta, and Mattermost Chat Commands released!
+description: "Review Apps, Time Tracking Beta, and Mattermost Chat Commands released!"
 twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
 
@@ -50,7 +50,7 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 [42:46] How can the Review Apps apply to more non-traditional,or non-web apps?
 
-[44:57]: So Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage?
+[44:57] So, Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage?
 
 [49:00] Time tracking overview. For example: across projects, by user, etc.
 
@@ -87,7 +87,7 @@ How does GitLab's UX team work to solve the challenge of creating an application
 Tune in for this live broadcast with GitLab CEO [Sid Sijbrandij][sid-twitter] and Head of Product Mark Pundsack as 
 they share our future plans for GitLab and Prometheus. 
 
-  >"Prometheus is not just for monitoring GitLab. It is not an optional feature. It is essential part of deploying applications with GitLab. All GitLab users should have access to it to monitor the impact of their deployments to business/application/system metrics and do feature flags/ab-testing/etc." - Sid Sijbrandij
+> _Prometheus is not just for monitoring GitLab. It is not an optional feature. It is an essential part of deploying applications with GitLab. All GitLab users should have access to it to monitor the impact of their deployments to business/application/system metrics and do feature flags/ab-testing/etc._ - Sid Sijbrandij
 
 
 <!-- identifiers --> 
