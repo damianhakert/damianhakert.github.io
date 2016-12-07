@@ -6,9 +6,6 @@
   - description: Cycle Analytics
     link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
     in_ce: true
-  - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
-    link: https://docs.gitlab.com/ee/pages/README.html
-    in_ee: true
   - description: Contribution Analytics, see detailed statistics of contributors
     link: https://docs.gitlab.com/ee/analytics/contribution_analytics.html
     in_ee: true
@@ -17,6 +14,9 @@
     in_ee: true
   - description: Time Tracking
     link: https://docs.gitlab.com/ee/workflow/time_tracking.html
+    in_ee: true
+  - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
+    link: https://docs.gitlab.com/ee/pages/README.html
     in_ee: true
 
 - title: Extended authentication and authorization integration
@@ -157,9 +157,16 @@
   - description: Limit project size at a global, group and project level
     link: https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#repository-size-limit
     in_ee: true
+  - description: (Pivotal Tile)  Deploy GitLab as a pre-configured appliance
+    link: https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
+    in_eep: true
   - description: (GitLab Geo) Geographically replicated instance
     link: https://about.gitlab.com/features/gitlab-geo/
     in_eep: true
+  - description: (Premium Support) Support High Availability
+    link: https://about.gitlab.com/features/premium-support/
+    in_eep: true
+
 
 - title: Deeper integration with your tool stack
   features:
@@ -175,11 +182,11 @@
   - description: Omnibus package supports configuring an external PostgreSQL database
     link: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server
     in_ce: true
-  - description: Display merge request status for builds on Jenkins CI
-    link: https://docs.gitlab.com/ee/integration/jenkins.html
-    in_ee: true
   - description: Omnibus package supports configuring an external MySQL database
     link: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only
+    in_ee: true
+  - description: Display merge request status for builds on Jenkins CI
+    link: https://docs.gitlab.com/ee/integration/jenkins.html
     in_ee: true
 
 - title: Continuous Integration
