@@ -36,8 +36,6 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 > "So, this really complex, life changing feature was broken down into three releases of the minimal viable change."
 
-Read Mark's blog post on how we shipped Review Apps. 
-
 ### [33:50] Other improvements & what's next
 
 ## Q&A 
@@ -76,6 +74,11 @@ How does GitLab's UX team work to solve the challenge of creating an application
 ## 1. Prometheus and GitLab: Completing the application lifecycle with monitoring
 
 [Watch live][sid-livestream] on December 15 at 1:30pm PT/9:30pm GMT.
+
+Tune in for this live broadcast with GitLab CEO Sid Sijbrandij and Head of Product Mark Pundsack as 
+they share our future plans for GitLab and Prometheus. 
+
+  >"Prometheus is not just for monitoring GitLab. It is not an optional feature. It is essential part of deploying applications with GitLab. All GitLab users should have access to it to monitor the impact of their deployments to business/application/system metrics and do feature flags/ab-testing/etc." 
 
 
 <!-- identifiers --> 
