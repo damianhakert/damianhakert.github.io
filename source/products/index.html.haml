@@ -17,7 +17,7 @@ extra_font:
     %h4.subheader
       All plans include Git repository management, code reviews, issue tracking, built-in GitLab CI for continuous integration and delivery, plus a 45 day money-back guarantee.
 
-.pricing-options.text-center.animated
+.pricing-options.text-center
   .container
     .row{ data: { equal: ".col-md-2" } }
       .col-md-2
@@ -26,11 +26,14 @@ extra_font:
             Community Edition
           .featured-item-body
             %p.edition-description
-              Ideal for personal projects or small teams with minimal user management and workflow control needs
-            %h2.featured-item-headline
-              Free
-            %h3.featured-item-headline-small
-              unlimited users
+              Ideal for personal projects or small teams with minimal user management and workflow control needs.
+            .edition-pricing
+              %h2.featured-item-headline
+                FREE
+              %h3.featured-item-headline-small
+                unlimited
+                %br
+                users
             %ul.featured-item-list.list-unstyled
               %li.item-description
                 Git repository hosting
@@ -48,81 +51,133 @@ extra_font:
                 = link_to "Cycle analytics", "https://docs.gitlab.com/ce/user/project/cycle_analytics.html"
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "#compare-options", class: "action-link"
-            = link_to "Download Now", "/downloads/", class: "featured-item-button"
+                = link_to "Learn more...", "#compare-options"
+            .edition-actions
+              = link_to "Download Now", "/downloads/", class: "featured-item-button"
       .col-md-2
         .featured-item
           .edition-name.edition-enterprise
             Enterprise Edition Starter
           .featured-item-body
-            %h2.featured-item-headline
-              = succeed "39/yr" do
-                %span.currency $
-            %h3.featured-item-headline-small
-              per user (no minimum)
-            = icon "ee", "featured-item-icon", {width: 76, height: 76, label: "GitLab EE"}
+            %p.edition-description
+              Ideal for co-located teams who need additional security and workflow controls for their professional projects.
+            .edition-pricing
+              %h2.featured-item-headline
+                $39
+              %h3.featured-item-headline-small
+                per user
+                %br
+                per month
             %ul.featured-item-list.list-unstyled
-              %li.item-description
-                On-premises on your server
+              %li.item-description.text-muted
+                Community plus...
               %li.line-separator
               %li.item-description
-                Proprietary features & next-day support
+                LDAP group sync
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "#compare-options", class: "action-link"
-            = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+                Repository mirroring
+              %li.line-separator
+              %li.item-description
+                Merge request approvals
+              %li.line-separator
+              %li.item-description
+                Push rules
+              %li.line-separator
+              %li.item-description
+                Next business day support
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "#compare-options"
+            .edition-actions
+              = link_to "Free Trial", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-link"
       .col-md-2
         .featured-item
           .edition-name.edition-enterprise
             Enterprise Edition Premium
           .featured-item-body
-            %h2.featured-item-headline
-              = succeed "39/yr" do
-                %span.currency $
-            %h3.featured-item-headline-small
-              per user (no minimum)
-            = icon "ee", "featured-item-icon", {width: 76, height: 76, label: "GitLab EE"}
+            %p.edition-description
+              Ideal for distributed teams who need advanced workflow controls, High Availability, and Premium Support.
+            .edition-pricing
+              %h2.featured-item-headline
+                $199
+              %h3.featured-item-headline-small
+                per user
+                %br
+                per month
             %ul.featured-item-list.list-unstyled
-              %li.item-description
-                On-premises on your server
+              %li.item-description.text-muted
+                Starter plus...
               %li.line-separator
               %li.item-description
-                Proprietary features & next-day support
+                = link_to "GitLab Geo", "https://about.gitlab.com/features/gitlab-geo/"
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "#compare-options", class: "action-link"
-            = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+                = link_to "Premium Support", "https://about.gitlab.com/features/premium-support/"
+              %li.line-separator
+              %li.item-description
+                = link_to "Time Tracking", "https://docs.gitlab.com/ee/workflow/time_tracking.html"
+              %li.line-separator
+              %li.item-description
+                = link_to "File Locking", "https://about.gitlab.com/features/file-locking/"
+              %li.line-separator
+              %li.item-description
+                = link_to "Pivotal Tile", "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/"
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "#compare-options"
+            .edition-actions
+              = link_to "Free Trial", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-link"
       .col-md-2
         .featured-item
           .edition-name
             GitLab.com
           .featured-item-body
-            %h2.featured-item-headline
-              Free
-            %h3.featured-item-headline-small
-              unlimited repositories
-            = icon "com", "featured-item-icon", {width: 76, height: 76, label: "GitLab.com"}
+            %p.edition-description
+              Great for getting all of your personal projects up and running quickly
+            .edition-pricing
+              %h2.featured-item-headline
+                FREE
+              %h3.featured-item-headline-small
+                unlimited
+                %br
+                repositories
             %ul.featured-item-list.list-unstyled
               %li.item-description
-                Hosted on GitLab's servers
+                Run Enterprise Edition Starter
               %li.line-separator
               %li.item-description
-                Unlimited private collaborators
+                Unlimited public &amp; private repos
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "/gitlab-com/", class: "action-link"
-            = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
+                10GB disk space per project
+              %li.line-separator
+              %li.item-description
+                Unlimited collaborators
+              %li.line-separator
+              %li.item-description
+                = link_to "Built-in CI &amp; unlimited runners", "https://docs.gitlab.com/ce/ci/environments.html"
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "/gitlab-com/"
+            .edition-actions
+              = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
       .col-md-2
         .featured-item
           .edition-name
             GitLab Hosted
           .featured-item-body
-            %h2.featured-item-headline
-              = succeed "35/mo" do
-                %span.currency $
-            %h3.featured-item-headline-small
-              Recommended for up to 30 users
-            = icon "hosted", "featured-item-icon", {width: 76, height: 76, label: "GitLab Hosted"}
+            %p.edition-description
+              Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades.
+            .edition-pricing
+              %h2.featured-item-headline
+                $35
+              %h3.featured-item-headline-small
+                per user
+                %br
+                up to 30 users
             %ul.featured-item-list.list-unstyled
               %li.item-description
                 Private server hosted by GitLab
@@ -131,8 +186,12 @@ extra_font:
                 Run GitLab CE or EE
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "https://githost.io/", class: "action-link"
-            = link_to "Hosting Options", "https://githost.io/", class: "featured-item-button"
+                Automatic updates &amp; backups
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "https://githost.io/"
+            .edition-actions
+              = link_to "Hosting Options", "https://githost.io/", class: "featured-item-button"
 
 #compare-options.what-is.choose-gitlab.text-center.animated
   .container
