@@ -31,5 +31,54 @@ routing non-technical LDAP questions to you
 
  * [ ] Install the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
  * [ ] Add [OpenLDAP](https://gitlab.com/gitlab-org/gitlab-development-kit/tree/master/gitlab-openldap) to your GDK installation.
+ * [ ] Try Group sync
+ ### Stage 3: Tickets
+
+- [ ] **Done with Stage 3**
+
+1. [ ] Answer 20 LDAP tickets and paste the links here. Even if a ticket seems
+too advanced for you to answer. Find the answers from an expert and relay it to
+the customer.
+
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+  1. [ ] __
+
+### Stage 4: Pair on Customer Calls
+
+- [ ] **Done with Stage 4**
+
+1. [ ] Installation calls where we help a client who needs to integrate LDAP
+   1. [ ] call with ___
+  1. [ ] call with ___
+1. [ ] Diagnosis calls, where something is wrong with Geo for a customer
+  1. [ ] call with ___
+  1. [ ] call with ___
+
+### Stage 5: Quiz?
+
+- [ ] **Done with Stage 5**
+
+### Final Stage
+
+- [ ] Ask Ernst and Drew to look over this list, send a MR to delete this line after they both satisfied with the list
+- [ ] Send a MR to declare yourself a **Geo Expert** on the team page
  
  ```
