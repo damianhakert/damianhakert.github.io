@@ -5,7 +5,7 @@ author_twitter: EricaLindberg_
 categories: webcast
 image_title: '/images/blogimages/--.jpeg'
 description: Review Apps, Time Tracking Beta, and Mattermost Chat Commands released!
-twitter_image:
+twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
 
 We ship a new version of GitLab on the 22nd of every month, and [this month we released GitLab 8.14][8-14-release-post], 
