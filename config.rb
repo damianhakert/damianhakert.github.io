@@ -120,7 +120,7 @@ configure :build do
   activate :minify_html
 
   ## Direction page
-  if PRIVATE_TOKEN
+  if ENV['PRIVATE_TOKEN']
     proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
   end
 
