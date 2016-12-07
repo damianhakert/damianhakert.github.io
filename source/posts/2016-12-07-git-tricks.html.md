@@ -14,7 +14,7 @@ them all, but sometimes you stumble upon an aha! moment that changes your
 whole workflow.
 
 In this post, we gathered some Git tips and commands we use at GitLab everyday.
-Hopefully they will add up to yours aha! moment.
+Hopefully they will add up to your aha! moment.
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ find useful. Remember, the list is far from exhaustive :)
 
 The majority of users rely on sites like StackOverflow to find answers to their
 Git problems, but how often do you use Git's built-in help to find more about a
-command you just found out?
+command you are struggling with?
 
 ### Learn about the most common commands
 
@@ -44,11 +44,11 @@ Thankfully, there is a help page for every command!
 
 ### A help page for every command
 
-Git's documentation is very comprehensive and comes by default when installing
-Git. Run `git help <command>` to find out all about a command's behavior and what
+Git's documentation is comprehensive and is automatically installed with Git. 
+Run `git help <command>` to find out all about a command's behavior and what
 options it can take.
 
-### A handful of guides
+### Git guides
 
 Git comes with a handful of guides ready for you to explore. Run `git help -g`
 to see what's available:
@@ -86,11 +86,11 @@ _Taken from oh-my-zsh's [themes wiki][git-shell-info-source]_
 
 ## Autocompletion for Git commands
 
-You may also find useful the [completion scripts] that are also in the same
-directory and will provide Git completion for `bash`, `tcsh` and `zsh`. Again,
-follow the instructions inside the scripts to learn how to install them. Once
-done, try them out by typing `git` in your terminal followed by <kbd>Tab</kbd>+
-<kbd>Tab</kbd>, and see the magic happening.
+You may also find it useful to use the [completion scripts] that provide Git 
+completion for `bash`, `tcsh` and `zsh`. Again, follow the instructions inside 
+the scripts to learn how to install them. Once done, try them out by typing 
+`git` in your terminal followed by <kbd>Tab</kbd>+ <kbd>Tab</kbd>, and see the 
+magic happening.
 
 ![It's a kind of magic](https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
 
@@ -110,8 +110,8 @@ commands][commands] in order to understand what each one does before using it.
 ### The `git-open` plugin
 
 If you want to quickly visit the website on which the repository you're on is
-hosted, `git-open` is for you. All major providers are supported (GitHub,
-GitLab, Bitbucket) and you can even use them all at the same time if you set
+hosted, `git-open` is for you. All major providers are supported (GitLab, GitHub, 
+Bitbucket) and you can even use them all at the same time if you set
 them as different remotes.
 
 [Install it][install-open], and try it out by cloning a repository from
@@ -127,22 +127,22 @@ name with:
 git config gitopen.gitlab.domain git.example.com
 ```
 
-You can even open different remotes and branches if you have set them up.
+You can even open different remotes and branches if they have been set up.
 Read more in the [examples section][git-open-examples].
 
 ## `.gitconfig` on steroids
 
 The `.gitconfig` file contains information on how you want Git to behave on
 certain circumstances. There are options you can set at a repository level,
-but you can also set them in a global `.gitconfig` so that all local configs
+but you can also set them in a global `.gitconfig` so that all local config
 will inherit its values.
 
 The very first encounter with `.gitconfig` was probably when you set your
 name and email address for Git to know who you are.
-To know more about the options `.gitconfig` can take see the [Git documentation
-about `.gitconfig`][gitconfig].
+To know more about the options `.gitconfig` can take, see the [Git documentation
+on `.gitconfig`][gitconfig].
 
-Let's explore some of them that we found most useful.
+Let's explore some of the most useful config options.
 
 ###  Set a global `.gitignore`
 
@@ -174,8 +174,9 @@ Or manually add the following to your `~/.gitconfig`:
   excludesFile = ~/.gitignore
 ```
 
-Start adding things you want Git to ignore, one at a line. Read more at the
-[gitignore documentation](https://git-scm.com/docs/gitignore).
+Gradually build up your own useful list of things you want Git to ignore. Read 
+the [gitignore documentation](https://git-scm.com/docs/gitignore) to find out 
+more.
 
 ---
 
