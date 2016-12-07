@@ -133,8 +133,8 @@ task :pull_repos do
 end
 ```
 
-The `pull_repos` task inside the Rakefile is pretty self-explanatory, but here's
-what it does:
+The `pull_repos` task inside the Rakefile is pretty self-explanatory if you know
+some Ruby, but here's what it does:
 
 1. `nanoc.yml` is loaded since it contains the information we need for the various products.
 1. The products data are pulled from the config.
@@ -146,8 +146,8 @@ In the future we may speed this up further by caching the `tmp` folder in CI. Th
 
 Now that all the needed files are in order, we run `nanoc` to build the static sire. Nanoc runs each Markdown file through a series of filters defined by rules in the `Rules` file. We currently use [Redcarpet][] as the Markdown parser along with Rouge for syntax highlighting, as well as some custom filters. We plan on [moving to Kramdown as our Markdown parser in the future](https://gitlab.com/gitlab-com/gitlab-docs/issues/50) as it provides some nice stuff like user-defined Table of Contents, etc.
 
-We also define some filters inside the `lib/filters/` directory, including the one
-that [transforms Markdown to HTML][md2html].
+We also define some filters inside the `lib/filters/` directory, including one
+that [replaces any `.md` extension with `.html`][md2html].
 
 The Table of Contents (ToC) is generated for each page except when it's named `index.md`
 or `README.md` as we usually use these as landing pages to index other
@@ -178,19 +178,34 @@ Our [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gitlab-docs/blob/master/.gi
 ```yaml
 image: ruby:2.3
 
+## Cache the vendor/ruby directory so that we don't have to install the gems
+## for each job/pipeline.
+## https://docs.gitlab.com/ce/ci/yaml/#cache
 cache:
   key: "ruby-231"
   paths:
   - vendor/ruby
 
+## Define the stages the jobs will run
+## https://docs.gitlab.com/ce/ci/yaml/#stages
 stages:
   - test
   - deploy
 
+## Before each job's script is run, run the commands below
+## https://docs.gitlab.com/ce/ci/yaml/#before_script
 before_script:
   - ruby -v
   - bundle install --jobs 4 --path vendor
 
+## A job where we make sure the site builds successfully.
+## It first pulls the repos locally, then runs nanoc to compile the site.
+## The public/ directory where the static site is built, is uploaded as
+## an artifact so that it can pass between stages.
+## We define an expire date of one week.
+## The job runs on all refs except master.
+## The docker tag ensures that this job is picked by the shared Runners
+## on GitLab.com.
 verify_compile:
   stage: test
   script:
@@ -205,6 +220,13 @@ verify_compile:
   tags:
     - docker
 
+## In this job we check for dead internal links using Nanoc's built-in
+## functionality. We first need to pull the repos and compile the static
+## site.
+## We allow it to fail since the source of the dead links are in a
+## different repository, not much related with the current one.
+## The docker tag ensures that this job is picked by the shared Runners
+## on GitLab.com.
 internal_links:
   stage: test
   script:
@@ -215,6 +237,10 @@ internal_links:
   tags:
     - docker
 
+## This job makes sure our SCSS stylesheets are correctly defined by
+## running a linter on them.
+## The docker tag ensures that this job is picked by the shared Runners
+## on GitLab.com.
 scss_lint:
   stage: test
   script:
@@ -222,6 +248,21 @@ scss_lint:
   tags:
     - docker
 
+## A job that deploys a review app to a dedicated server running Nginx.
+## GIT_STRATEGY is set to none so that the repository is not checked out
+## since it's not a prerequisite for the script command to run.
+## `before_script` and `cache` are turned off to minimize the build time
+## of the job.
+## The `environment` uses a dynamic value for its name, prefixed
+## with `review/` and we define a url for it constructed by the `CI_BUILD_REF_NAME`
+## environment variable (branch name) and the `APPS_DOMAIN` which is set
+## as a secret variable.
+## The `on_stop` directive tells what job is dependent on the current one.
+## The job runs only for branches that are created on
+## the 'gitlab-com/gitlab-docs' namespace except master.
+## We tag it with `nginx` and `review-apps` which are the same tags we
+## have given to the specific Runner which will pick up the job and deploy
+## it to the dedicated server we have for the review apps.
 review:
   stage: deploy
   variables:
@@ -242,6 +283,21 @@ review:
     - nginx
     - review-apps
 
+## This job runs whenever we run it manually via GitLab's UI or
+## a branch is deleted.
+## GIT_STRATEGY is set to none so that Runner won't try to checkout the
+## code after the branch is deleted.
+## `before_script` and `cache` are turned off to minimize the build time
+## of the job.
+## The `environment` uses a dynamic value for its name, prefixed
+## with `review/`. It must match the environment name of the review app.
+## The `stop` action tells what job is dependent on the current one.
+## `when:manual` is set so the job can be run via GitLab's web interface.
+## The job runs only for branches that are created on
+## the 'gitlab-com/gitlab-docs' namespace except master.
+## We tag it with `nginx` and `review-apps` which are the same tags we
+## have given to the specific Runner which will pick up the job and deploy
+## it to the dedicated server we have for the review apps.
 review_stop:
   stage: deploy
   variables:
@@ -264,6 +320,16 @@ review_stop:
     - nginx
     - review-apps
 
+## This job deploys the static site to GitLab Pages.
+## A production environment is set with a url to the of the docs portal.
+## The script pulls the repos, runs `nanoc` to compile the static site
+## and we make symlinks of README.html to index.html.
+## The public/ directory where the static site is built, is uploaded as
+## an artifact so that it can be deployed to GitLab Pages.
+## We define an expire date of one hour.
+## The job runs only on the master branch.
+## The docker tag ensures that this job is picked by the shared Runners
+## on GitLab.com.
 pages:
   stage: deploy
   environment:
@@ -300,6 +366,21 @@ When opening a merge request for the docs site we use a new feature called [Revi
 We define two additional jobs for that purpose in `.gitlab-ci.yml`:
 
 ```yaml
+## A job that deploys a review app to a dedicated server running Nginx.
+## GIT_STRATEGY is set to none so that the repository is not checked out
+## since it's not a prerequisite for the script command to run.
+## `before_script` and `cache` are turned off to minimize the build time
+## of the job.
+## The `environment` uses a dynamic value for its name, prefixed
+## with `review/` and we define a url for it constructed by the `CI_BUILD_REF_NAME`
+## environment variable (branch name) and the `APPS_DOMAIN` which is set
+## as a secret variable.
+## The `on_stop` directive tells what job is dependent on the current one.
+## The job runs only for branches that are created on
+## the 'gitlab-com/gitlab-docs' namespace except master.
+## We tag it with `nginx` and `review-apps` which are the same tags we
+## have given to the specific Runner which will pick up the job and deploy
+## it to the dedicated server we have for the review apps.
 review:
   stage: deploy
   variables:
@@ -320,6 +401,21 @@ review:
     - nginx
     - review-apps
 
+## This job runs whenever we run it manually via GitLab's UI or
+## a branch is deleted.
+## GIT_STRATEGY is set to none so that Runner won't try to checkout the
+## code after the branch is deleted.
+## `before_script` and `cache` are turned off to minimize the build time
+## of the job.
+## The `environment` uses a dynamic value for its name, prefixed
+## with `review/`. It must match the environment name of the review app.
+## The `stop` action tells what job is dependent on the current one.
+## `when:manual` is set so the job can be run via GitLab's web interface.
+## The job runs only for branches that are created on
+## the 'gitlab-com/gitlab-docs' namespace except master.
+## We tag it with `nginx` and `review-apps` which are the same tags we
+## have given to the specific Runner which will pick up the job and deploy
+## it to the dedicated server we have for the review apps.
 review_stop:
   stage: deploy
   variables:
@@ -411,6 +507,16 @@ For that purpose, we use [GitLab Pages](https://pages.gitlab.io).
 GitLab Pages allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done. The job responsible for this is named `pages`:
 
 ```yaml
+## This job deploys the static site to GitLab Pages.
+## A production environment is set with a url to the of the docs portal.
+## The script pulls the repos, runs `nanoc` to compile the static site
+## and we make symlinks of README.html to index.html.
+## The public/ directory where the static site is built, is uploaded as
+## an artifact so that it can be deployed to GitLab Pages.
+## We define an expire date of one hour.
+## The job runs only on the master branch.
+## The docker tag ensures that this job is picked by the shared Runners
+## on GitLab.com.
 pages:
   stage: deploy
   environment:
