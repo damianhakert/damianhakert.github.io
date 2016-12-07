@@ -247,7 +247,7 @@
       left: 0;
       right: 0;
       margin: auto;
-      color: $mvp-table-header-color;
+      color: $color-gray;
     }
 
     .featured-item-headline,
@@ -268,6 +268,8 @@
       @media (max-width: $screen-md-min) {
         margin-top: 3%;
         font-size: 38px;
+        text-align: right;
+        padding-right: 5px;
       }
 
       // Regular Desktop
@@ -292,7 +294,8 @@
       // Tablet & Mobile
       @media (max-width: $screen-md-min) {
         margin-top: 3%;
-        text-align: center;
+        text-align: left;
+        padding-left: 5px;
       }
 
       // Regular Desktop
