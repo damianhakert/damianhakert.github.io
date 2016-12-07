@@ -9,13 +9,13 @@ description: "How we built the new GitLab Docs portal from the ground up"
 
 We recently rebuilt [docs.gitlab.com](https://docs.gitlab.com) from scratch. Where previously the site was generated with a simple Ruby script, we now use a proper static site generator.
 
-We wanted to show you some of the improvements we made, problems we faced, and the ways we used GitLab to build the new site more quickly and easily.
+Check out the improvements we made, the structure we now use to deploy from specific directories in multiple repositories to a single website, build with [GitLab CI][/gitlab-ci/] and deployed with [GitLab Pages][pages]. Now our documentation has a nicer look and feel, is more pleasant to read through, and simpler and quicker to maintain.
 
 <!-- more -->
 
 ## Improvements
 
-The old documentation website was pretty much just an HTML file, a stylesheet, and a [Ruby script][genrb] called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a [static site generator](/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/) and take better advantage of [GitLab Pages](https://pages.gitlab.io).
+The old documentation website was pretty much just an HTML file, a stylesheet, and a [Ruby script][genrb] called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a [static site generator](/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/) and take better advantage of [GitLab Pages][pages].
 
 We chose [Nanoc](http://nanoc.ws/) because it’s fast, it comes with a number of built-in helpers and filters (as well as the ability to create custom ones), and it’s built with Ruby. Overall, we think this was definitely the right choice. The author was very responsive and addressed anything we brought up. Kudos to him on the great project!
 
@@ -164,7 +164,7 @@ branches, iterate on feedback and finally merge things in the `master` branch.
 
 There are 3 key things we use to test, build, deploy and host the Nanoc site
 all built into GitLab: [GitLab CI](/gitlab-ci), [Review Apps](/features/review-apps)
-and [GitLab Pages](https://pages.gitlab.io).
+and [GitLab Pages][pages].
 
 ### GitLab CI
 
@@ -498,7 +498,7 @@ since they are the basis of the Review Apps.
 
 The final step after the site gets successfully built is to deploy to
 production which is under the URL everybody knows: <https://docs.gitlab.com>.
-For that purpose, we use [GitLab Pages](https://pages.gitlab.io).
+For that purpose, we use [GitLab Pages][pages].
 
 ### GitLab Pages
 
@@ -568,7 +568,7 @@ It’s worth noting that GitLab Pages is a [GitLab Enterprise Edition](/products
 
 ## Conclusion
 
-Hopefully this shows some of the power of GitLab and having everything integrated into one cohesive product. If you have a complex documentation site you’d like to put together from specific directories in multiple Git repositories, the process described above is the best we've been able to come up with. If you have any ideas to make this system better, let us know!
+Hopefully this shows some GitLab's power and how having everything integrated into one cohesive product simplifies one's workflow. If you have a complex documentation site you’d like to put together from specific directories in multiple Git repositories, the process described above is the best we've been able to come up with. If you have any ideas to make this system better, let us know!
 
 The documentation website is [open source](https://gitlab.com/gitlab-com/gitlab-docs), available under the MIT License. You’re welcome to take a look at it, submit a merge request, or even fork it to use it with your own project.
 
@@ -598,3 +598,4 @@ _Cover image: <https://unsplash.com/photos/G6G93jtU1vE>_
 [gitstrategy]: https://docs.gitlab.com/ce/ci/yaml/#git-strategy
 [expire in]: https://docs.gitlab.com/ce/ci/yaml/#artifacts-expire_in
 [deps]: https://docs.gitlab.com/ce/ci/yaml/#dependencies
+[pages]: https://pages.gitlab.io
