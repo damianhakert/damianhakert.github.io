@@ -20,6 +20,14 @@ extra_font:
 .pricing-options.text-center
   .container
     .row{ data: { equal: ".col-md-2" } }
+      .col-md-6.pricing-category-ruler
+        %span.ruler
+        %span.label YOU HOST IT
+        %span.ruler
+      .col-md-4.pricing-category-ruler.desktop-only
+        %span.ruler
+        %span.label WE HOST IT
+        %span.ruler
       .col-md-2
         .featured-item
           .edition-name
@@ -133,6 +141,10 @@ extra_font:
             .edition-actions
               = link_to "Free Trial", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
               = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-link"
+      .col-md-6.pricing-category-ruler.mobile-only
+        %span.ruler
+        %span.label WE HOST IT
+        %span.ruler
       .col-md-2
         .featured-item
           .edition-name
