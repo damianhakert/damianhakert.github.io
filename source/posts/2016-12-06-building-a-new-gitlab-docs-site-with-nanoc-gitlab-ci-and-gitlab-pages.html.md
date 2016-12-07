@@ -136,18 +136,69 @@ end
 The `pull_repos` task inside the Rakefile is pretty self-explanatory if you know
 some Ruby, but here's what it does:
 
-1. `nanoc.yml` is loaded since it contains the information we need for the various products.
-1. The products data are pulled from the config.
-1. The needed directories to be created (or deleted) are populated in an array.
-1. The empty directories are created.
-1. We finally copy the contents of the documentation directory (defined by `doc_dir`) for each product from `tmp/` to `content/`. `content/` is where Nanoc looks for the actual site’s Markdown files. To prevent the `tmp/` and `content/` subdirectories from being pushed after testing the site locally, they’re excluded by `.gitignore`.
+1. `nanoc.yml` is loaded since it contains the information we need for the
+   various products:
+
+    ```ruby
+    config = YAML.load_file('./nanoc.yaml')
+    ```
+
+1. The products data are pulled from the config:
+
+    ```ruby
+    ce = config["products"]["ce"]
+    ee = config["products"]["ee"]
+    omnibus = config["products"]["omnibus"]
+    runner = config["products"]["runner"]
+    ```
+
+1. The needed directories to be created (or deleted) are populated in an array:
+
+    ```ruby
+    products = [ce, ee, omnibus, runner]
+    dirs = []
+    products.each do |product|
+      dirs.push(product['dirs']['temp_dir'])
+      dirs.push(product['dirs']['dest_dir'])
+    end
+    ```
+
+1. The empty directories are created:
+
+    ```ruby
+    dirs.each do |dir|
+      unless "#{dir}".start_with?("tmp")
+
+        puts "\n=> Making an empty #{dir}"
+        FileUtils.mkdir("#{dir}") unless File.exist?("#{dir}")
+      end
+    end
+    ```
+1. We finally copy the contents of the documentation directory (defined by
+   `doc_dir`) for each product from `tmp/` to `content/`:
+
+    ```ruby
+    products.each do |product|
+      temp_dir = File.join(product['dirs']['temp_dir'])
+      puts "\n=> Cloning #{product['repo']} into #{temp_dir}\n"
+
+      `git clone #{product['repo']} #{temp_dir} --depth 1 --branch master`
+
+      temp_doc_dir = File.join(product['dirs']['temp_dir'], product['dirs']['doc_dir'], '.')
+      destination_dir = File.join(product['dirs']['dest_dir'])
+      puts "\n=> Copying #{temp_doc_dir} into #{destination_dir}\n"
+      FileUtils.cp_r(temp_doc_dir, destination_dir)
+    end
+    ```
+
+   `content/` is where Nanoc looks for the actual site’s Markdown files. To prevent the `tmp/` and `content/` subdirectories from being pushed after testing the site locally, they’re excluded by `.gitignore`.
 
 In the future we may speed this up further by caching the `tmp` folder in CI. The task would need to be updated to check if the local repository is up-to-date with the remote, only cloning if they differ.
 
-Now that all the needed files are in order, we run `nanoc` to build the static sire. Nanoc runs each Markdown file through a series of filters defined by rules in the `Rules` file. We currently use [Redcarpet][] as the Markdown parser along with Rouge for syntax highlighting, as well as some custom filters. We plan on [moving to Kramdown as our Markdown parser in the future](https://gitlab.com/gitlab-com/gitlab-docs/issues/50) as it provides some nice stuff like user-defined Table of Contents, etc.
+Now that all the needed files are in order, we run `nanoc` to build the static sire. Nanoc runs each Markdown file through a series of [filters][nanoc-filters] defined by rules in the [`Rules` file][rules]. We currently use [Redcarpet][] as the Markdown parser along with Rouge for syntax highlighting, as well as some custom filters. We plan on [moving to Kramdown as our Markdown parser in the future](https://gitlab.com/gitlab-com/gitlab-docs/issues/50) as it provides some nice stuff like user-defined Table of Contents, etc.
 
-We also define some filters inside the `lib/filters/` directory, including one
-that [replaces any `.md` extension with `.html`][md2html].
+We also define some filters inside the [`lib/filters/` directory][filtersdir],
+including one that [replaces any `.md` extension with `.html`][md2html].
 
 The Table of Contents (ToC) is generated for each page except when it's named `index.md`
 or `README.md` as we usually use these as landing pages to index other
@@ -161,51 +212,45 @@ For more on the specifics of building a site with Nanoc, see [the Nanoc tutorial
 The new docs portal is hosted on GitLab.com at <https://gitlab.com/gitlab-com/gitlab-docs>.
 In that project we create issues, discuss things, open merge requests in feature
 branches, iterate on feedback and finally merge things in the `master` branch.
+Again, the documentation source files are not stored in this repository, if
+you want to contribute, you'd have to open a merge request to the respective
+project.
 
 There are 3 key things we use to test, build, deploy and host the Nanoc site
 all built into GitLab: [GitLab CI](/gitlab-ci), [Review Apps](/features/review-apps)
 and [GitLab Pages][pages].
 
+Let's break it down to pieces.
+
 ### GitLab CI
 
-GitLab CI is responsible of almost all the stages that we go through to publish
+GitLab CI is responsible of all the stages that we go through to publish
 new documentation: test, build and deploy.
 
 Nanoc has a built-in system of [Checks](http://nanoc.ws/doc/testing/), including HTML/CSS and internal/external link validation. With GitLab CI we test with the internal link checker (set to [`allow failure`][allowfail]) and also verify that the site compiles without errors. We also run a [SCSS Linter](https://github.com/brigade/scss-lint) to make sure our SCSS looks uniform.
 
-Our [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gitlab-docs/blob/master/.gitlab-ci.yml) file looks like this:
+Our full [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gitlab-docs/blob/master/.gitlab-ci.yml) file looks like this. We'll break it down to make it clear what it is doing:
 
 ```yaml
 image: ruby:2.3
 
-## Cache the vendor/ruby directory so that we don't have to install the gems
-## for each job/pipeline.
-## https://docs.gitlab.com/ce/ci/yaml/#cache
+## Cache the vendor/ruby directory
 cache:
   key: "ruby-231"
   paths:
   - vendor/ruby
 
-## Define the stages the jobs will run
-## https://docs.gitlab.com/ce/ci/yaml/#stages
+## Define the stages
 stages:
   - test
   - deploy
 
 ## Before each job's script is run, run the commands below
-## https://docs.gitlab.com/ce/ci/yaml/#before_script
 before_script:
   - ruby -v
   - bundle install --jobs 4 --path vendor
 
-## A job where we make sure the site builds successfully.
-## It first pulls the repos locally, then runs nanoc to compile the site.
-## The public/ directory where the static site is built, is uploaded as
-## an artifact so that it can pass between stages.
-## We define an expire date of one week.
-## The job runs on all refs except master.
-## The docker tag ensures that this job is picked by the shared Runners
-## on GitLab.com.
+## Make sure the site builds successfully
 verify_compile:
   stage: test
   script:
@@ -220,13 +265,7 @@ verify_compile:
   tags:
     - docker
 
-## In this job we check for dead internal links using Nanoc's built-in
-## functionality. We first need to pull the repos and compile the static
-## site.
-## We allow it to fail since the source of the dead links are in a
-## different repository, not much related with the current one.
-## The docker tag ensures that this job is picked by the shared Runners
-## on GitLab.com.
+## Check for dead internal links using Nanoc's built-in tool
 internal_links:
   stage: test
   script:
@@ -237,10 +276,7 @@ internal_links:
   tags:
     - docker
 
-## This job makes sure our SCSS stylesheets are correctly defined by
-## running a linter on them.
-## The docker tag ensures that this job is picked by the shared Runners
-## on GitLab.com.
+## Make sure our SCSS stylesheets are correctly defined
 scss_lint:
   stage: test
   script:
@@ -249,20 +285,6 @@ scss_lint:
     - docker
 
 ## A job that deploys a review app to a dedicated server running Nginx.
-## GIT_STRATEGY is set to none so that the repository is not checked out
-## since it's not a prerequisite for the script command to run.
-## `before_script` and `cache` are turned off to minimize the build time
-## of the job.
-## The `environment` uses a dynamic value for its name, prefixed
-## with `review/` and we define a url for it constructed by the `CI_BUILD_REF_NAME`
-## environment variable (branch name) and the `APPS_DOMAIN` which is set
-## as a secret variable.
-## The `on_stop` directive tells what job is dependent on the current one.
-## The job runs only for branches that are created on
-## the 'gitlab-com/gitlab-docs' namespace except master.
-## We tag it with `nginx` and `review-apps` which are the same tags we
-## have given to the specific Runner which will pick up the job and deploy
-## it to the dedicated server we have for the review apps.
 review:
   stage: deploy
   variables:
@@ -283,21 +305,7 @@ review:
     - nginx
     - review-apps
 
-## This job runs whenever we run it manually via GitLab's UI or
-## a branch is deleted.
-## GIT_STRATEGY is set to none so that Runner won't try to checkout the
-## code after the branch is deleted.
-## `before_script` and `cache` are turned off to minimize the build time
-## of the job.
-## The `environment` uses a dynamic value for its name, prefixed
-## with `review/`. It must match the environment name of the review app.
-## The `stop` action tells what job is dependent on the current one.
-## `when:manual` is set so the job can be run via GitLab's web interface.
-## The job runs only for branches that are created on
-## the 'gitlab-com/gitlab-docs' namespace except master.
-## We tag it with `nginx` and `review-apps` which are the same tags we
-## have given to the specific Runner which will pick up the job and deploy
-## it to the dedicated server we have for the review apps.
+## Stop the review app
 review_stop:
   stage: deploy
   variables:
@@ -320,16 +328,7 @@ review_stop:
     - nginx
     - review-apps
 
-## This job deploys the static site to GitLab Pages.
-## A production environment is set with a url to the of the docs portal.
-## The script pulls the repos, runs `nanoc` to compile the static site
-## and we make symlinks of README.html to index.html.
-## The public/ directory where the static site is built, is uploaded as
-## an artifact so that it can be deployed to GitLab Pages.
-## We define an expire date of one hour.
-## The job runs only on the master branch.
-## The docker tag ensures that this job is picked by the shared Runners
-## on GitLab.com.
+## Deploy the static site to GitLab Pages
 pages:
   stage: deploy
   environment:
@@ -355,7 +354,104 @@ graph looks like for [one of the pipelines][pipeline].
 
 ![Pipeline graph example](/images/blogimages/new-gitlab-docs-site/pipeline-graph.png){: .shadow}
 
+Let's see what all these settings mean.
+
 For more information, you can read the [documentation on `.gitlab-ci.yml`][ciyaml].
+{: .alert .alert-info}
+
+---
+
+Define the Docker image to be used:
+
+```yaml
+image: ruby:2.3
+```
+
+[Cache] the vendor/ruby directory so that we don't have to install the
+gems for each job/pipeline:
+
+```yaml
+cache:
+  key: "ruby-231"
+  paths:
+  - vendor/ruby
+```
+
+Define the [stages] the jobs will run:
+
+```yaml
+stages:
+  - test
+  - deploy
+```
+
+Before each job's script is run, run the commands that are defined in the
+[`before_script`][before_script]. Display the Ruby version and install
+the needed gems:
+
+```yaml
+before_script:
+  - ruby -v
+  - bundle install --jobs 4 --path vendor
+```
+
+In the `verify_compile` job we make sure the site builds successfully.
+It first pulls the repos locally, then runs `nanoc` to compile the site.
+The `public/` directory where the static site is built, is uploaded as
+an artifact so that it can pass between stages. We define an expire date of
+one week. The job runs on all refs except master. The `docker` tag ensures that
+this job is picked by the shared Runners on GitLab.com:
+
+```yaml
+verify_compile:
+  stage: test
+  script:
+    - rake pull_repos
+    - nanoc
+  artifacts:
+    paths:
+      - public
+    expire_in: 1w
+  except:
+    - master
+  tags:
+    - docker
+```
+
+In the `internal_links` job we check for dead internal links using Nanoc's
+built-in functionality. We first need to pull the repos and compile the static
+site. We allow it to fail since the source of the dead links are in a
+different repository, not much related with the current one.
+The `docker` tag ensures that this job is picked by the shared Runners
+on GitLab.com:
+
+```yaml
+internal_links:
+  stage: test
+  script:
+    - rake pull_repos
+    - nanoc
+    - nanoc check internal_links
+  allow_failure: true
+  tags:
+    - docker
+```
+
+The `scss_lint` job makes sure our SCSS stylesheets are correctly defined by
+running a linter on them. The `docker` tag ensures that this job is picked by
+the shared Runners on GitLab.com:
+
+```yaml
+scss_lint:
+  stage: test
+  script:
+    - bundle exec scss-lint
+  tags:
+    - docker
+
+```
+
+Next, we define the Review Apps.
 
 ### Review Apps
 
@@ -366,21 +462,6 @@ When opening a merge request for the docs site we use a new feature called [Revi
 We define two additional jobs for that purpose in `.gitlab-ci.yml`:
 
 ```yaml
-## A job that deploys a review app to a dedicated server running Nginx.
-## GIT_STRATEGY is set to none so that the repository is not checked out
-## since it's not a prerequisite for the script command to run.
-## `before_script` and `cache` are turned off to minimize the build time
-## of the job.
-## The `environment` uses a dynamic value for its name, prefixed
-## with `review/` and we define a url for it constructed by the `CI_BUILD_REF_NAME`
-## environment variable (branch name) and the `APPS_DOMAIN` which is set
-## as a secret variable.
-## The `on_stop` directive tells what job is dependent on the current one.
-## The job runs only for branches that are created on
-## the 'gitlab-com/gitlab-docs' namespace except master.
-## We tag it with `nginx` and `review-apps` which are the same tags we
-## have given to the specific Runner which will pick up the job and deploy
-## it to the dedicated server we have for the review apps.
 review:
   stage: deploy
   variables:
@@ -401,21 +482,6 @@ review:
     - nginx
     - review-apps
 
-## This job runs whenever we run it manually via GitLab's UI or
-## a branch is deleted.
-## GIT_STRATEGY is set to none so that Runner won't try to checkout the
-## code after the branch is deleted.
-## `before_script` and `cache` are turned off to minimize the build time
-## of the job.
-## The `environment` uses a dynamic value for its name, prefixed
-## with `review/`. It must match the environment name of the review app.
-## The `stop` action tells what job is dependent on the current one.
-## `when:manual` is set so the job can be run via GitLab's web interface.
-## The job runs only for branches that are created on
-## the 'gitlab-com/gitlab-docs' namespace except master.
-## We tag it with `nginx` and `review-apps` which are the same tags we
-## have given to the specific Runner which will pick up the job and deploy
-## it to the dedicated server we have for the review apps.
 review_stop:
   stage: deploy
   variables:
@@ -504,19 +570,17 @@ For that purpose, we use [GitLab Pages][pages].
 
 [GitLab Pages](https://pages.gitlab.io/) hosts [static websites](https://en.wikipedia.org/wiki/Static_web_page) and can be used with any Static Site Generator, including [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Middleman](https://middlemanapp.com/), [Pelican](http://blog.getpelican.com/), and of course Nanoc.
 
-GitLab Pages allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done. The job responsible for this is named `pages`:
+GitLab Pages allows us to create the static site dynamically since it just deploys the `public` directory after the GitLab CI task is done. The job responsible for this is named `pages`.
+
+A production environment is set with a url to the of the docs portal.
+The script pulls the repos, runs `nanoc` to compile the static site.
+The `public/` directory where the static site is built, is uploaded as
+an artifact so that it can be deployed to GitLab Pages. We define an expire
+date of one hour and the job runs only on the master branch.
+The `docker` tag ensures that this job is picked by the shared Runners
+on GitLab.com.
 
 ```yaml
-## This job deploys the static site to GitLab Pages.
-## A production environment is set with a url to the of the docs portal.
-## The script pulls the repos, runs `nanoc` to compile the static site
-## and we make symlinks of README.html to index.html.
-## The public/ directory where the static site is built, is uploaded as
-## an artifact so that it can be deployed to GitLab Pages.
-## We define an expire date of one hour.
-## The job runs only on the master branch.
-## The docker tag ensures that this job is picked by the shared Runners
-## on GitLab.com.
 pages:
   stage: deploy
   environment:
@@ -574,10 +638,7 @@ The documentation website is [open source](https://gitlab.com/gitlab-com/gitlab-
 
 Thanks for reading, if you have any questions we’d be happy to answer them in the comments!
 
----
-
-_Cover image: <https://unsplash.com/photos/G6G93jtU1vE>_
-{: .note}
+<!-- Cover image: https://unsplash.com/photos/G6G93jtU1vE -->
 
 [genrb]: https://gitlab.com/gitlab-com/doc-gitlab-com/blob/master/generate.rb
 [nanocyaml]: https://gitlab.com/gitlab-com/gitlab-docs/blob/30f13e6a81bf9baeda95204b5524c6abf980b1e5/nanoc.yaml#L101-149
@@ -599,3 +660,9 @@ _Cover image: <https://unsplash.com/photos/G6G93jtU1vE>_
 [expire in]: https://docs.gitlab.com/ce/ci/yaml/#artifacts-expire_in
 [deps]: https://docs.gitlab.com/ce/ci/yaml/#dependencies
 [pages]: https://pages.gitlab.io
+[nanoc-filters]: http://nanoc.ws/doc/reference/filters/
+[rules]: https://gitlab.com/gitlab-com/gitlab-docs/blob/30f13e6a81bf9baeda95204b5524c6abf980b1e5/Rules
+[filtersdir]: https://gitlab.com/gitlab-com/gitlab-docs/tree/30f13e6a81bf9baeda95204b5524c6abf980b1e5/lib/filters
+[cache]: https://docs.gitlab.com/ce/ci/yaml/#cache
+[stages]: https://docs.gitlab.com/ce/ci/yaml/#stages
+[before_script]: https://docs.gitlab.com/ce/ci/yaml/#before_script
