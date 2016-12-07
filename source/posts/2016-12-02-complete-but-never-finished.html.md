@@ -2,8 +2,8 @@
 title: "Complete, but never finished"
 author: Mark Pundsack
 author_twitter: MarkPundsack
-categories:
-image_title:
+categories: gitlab
+image_title: 
 description: A behind-the-scenes look at iterating on Review Apps
 ---
 I’m now going to try something new here, and give a little behind-the-scenes look at how we iterated and shipped review apps over the last 3 releases.
