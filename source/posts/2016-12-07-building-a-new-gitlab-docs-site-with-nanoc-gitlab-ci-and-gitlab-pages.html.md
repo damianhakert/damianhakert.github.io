@@ -9,7 +9,7 @@ description: "How we built the new GitLab Docs portal from the ground up"
 
 We recently rebuilt [docs.gitlab.com](https://docs.gitlab.com) from scratch. Where previously the site was generated with a simple Ruby script, we now use a proper static site generator.
 
-Check out the improvements we made, the structure we now use to deploy from specific directories in multiple repositories to a single website, build with [GitLab CI][/gitlab-ci/] and deployed with [GitLab Pages][pages]. Now our documentation has a nicer look and feel, is more pleasant to read through, and simpler and quicker to maintain.
+Check out the improvements we made, the structure we now use to deploy from specific directories in multiple repositories to a single website, build with [GitLab CI](/gitlab-ci/) and deployed with [GitLab Pages][pages]. Now our documentation has a nicer look and feel, is more pleasant to read through, and simpler and quicker to maintain.
 
 <!-- more -->
 
