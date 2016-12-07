@@ -8,6 +8,8 @@ description: A behind-the-scenes look at iterating on Review Apps
 ---
 I’m now going to try something new here, and give a little behind-the-scenes look at how we iterated and shipped review apps over the last 3 releases.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen></iframe>
+
 A bunch of us knew review apps were really important. Full disclosure: I used to work at Heroku on the team that shipped Heroku Review Apps, and some of that work was inspired by a tool called Fourchette, which was created by the great folks at RainforestQA. But even outside of my personal bias, Sid, Kamil, and others had seen things like this elsewhere and saw how it transformed a developer’s flow. So even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it. And we knew that tightly integrating it into GitLab would be even more amazing.
 
 Now, there are a ton of different ways we could have shipped it. We started months ago, mostly discussing asynchronously on GitLab issues, with big ideas which made Review Apps seem kind of daunting. We had ideas for black magic to detect Kubernetes settings, configure all the review app stuff for you, make them work only for merge requests, not for every branch, etc. It felt like something that might not ship for months, if not years, because of all the complexity and dependencies.
