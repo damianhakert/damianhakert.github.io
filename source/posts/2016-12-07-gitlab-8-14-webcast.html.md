@@ -3,7 +3,7 @@ title: GitLab 8.14 Webcast Recording & Highlights
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: webcast
-image_title: '/images/blogimages/8-14-webcast-cover.png'
+image_title: 
 description: Review Apps, Time Tracking Beta, and Mattermost Chat Commands released!
 twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
@@ -39,6 +39,7 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 ### [33:50] Other improvements & what's next
 
 ## Q&A 
+
 [39:26] For time tracking, can I see 'original', 'current', and remaining?
 
 [40:16] Other time tracking tools measure the time an issue remains in a particular lane so time spent is automated. Can GitLab do this?
@@ -75,10 +76,10 @@ How does GitLab's UX team work to solve the challenge of creating an application
 
 [Watch live][sid-livestream] on December 15 at 1:30pm PT/9:30pm GMT.
 
-Tune in for this live broadcast with GitLab CEO Sid Sijbrandij and Head of Product Mark Pundsack as 
+Tune in for this live broadcast with GitLab CEO [Sid Sijbrandij][sid-twitter] and Head of Product Mark Pundsack as 
 they share our future plans for GitLab and Prometheus. 
 
-  >"Prometheus is not just for monitoring GitLab. It is not an optional feature. It is essential part of deploying applications with GitLab. All GitLab users should have access to it to monitor the impact of their deployments to business/application/system metrics and do feature flags/ab-testing/etc." 
+  >"Prometheus is not just for monitoring GitLab. It is not an optional feature. It is essential part of deploying applications with GitLab. All GitLab users should have access to it to monitor the impact of their deployments to business/application/system metrics and do feature flags/ab-testing/etc." - Sid Sijbrandij
 
 
 <!-- identifiers --> 
@@ -88,6 +89,7 @@ they share our future plans for GitLab and Prometheus.
 [regis-twitter]: https://twitter.com/djaiss
 [review-apps-post]: https://about.gitlab.com/2016/11/22/introducing-review-apps/
 [sid-livestream]: https://www.youtube.com/watch?v=rT92jecagQo
+[sid-twitter]: https://twitter.com/sytses
 [ux-lp]: https://page.gitlab.com/UXLiveStream_LandingPage.html
 [ux-livestream]: https://www.youtube.com/watch?v=Lxy1jET5pww
 [8-14-release-post]: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
