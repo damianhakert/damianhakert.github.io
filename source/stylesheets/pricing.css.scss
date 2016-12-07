@@ -74,6 +74,55 @@
       padding-right: 8px;
     }
   }
+
+  .pricing-category-ruler {
+    overflow: auto;
+    margin-bottom: 10px;
+
+    &.col-md-6 {
+      width: 60%;
+    }
+
+    &.col-md-4 {
+      width: 40%;
+    }
+
+    &.mobile-only {
+      display: none;
+    }
+
+    span {
+      display: inline-block;
+      float: left;
+      color: $color-primary-alt;
+
+      &.ruler {
+        height: 2px;
+        width: 40%;
+        margin-top: 10px;
+        background-color: $color-white-alt;
+      }
+
+      &.label {
+        width: 20%;
+      }
+    }
+
+    // Tablet & Mobile
+    @media (max-width: $screen-md-min) {
+      &.col-md-6 {
+        width: 100%;
+      }
+
+      &.desktop-only {
+        display: none
+      }
+
+      &.mobile-only {
+        display: block;
+      }
+    }
+  }
 }
 
 .featured-item {
@@ -83,6 +132,11 @@
   height: 100%;
   padding: 0;
   border-color: $color-white-alt;
+
+  // Tablet & Mobile
+  @media (max-width: $screen-md-min) {
+    margin-bottom: 50px;
+  }
 
   .edition-name {
     border-bottom: 1px solid $color-white-alt;
@@ -263,7 +317,7 @@
     font-size: 15px;
     color: $mvp-table-header-color;
 
-    &:after {
+    &::after {
       content: "\f078";
       font: normal normal normal 14px/1 FontAwesome;
       font-size: inherit;
@@ -273,7 +327,7 @@
     }
 
     &.chevron-up {
-      &:after {
+      &::after {
         content: "\f077";
       }
     }
@@ -333,7 +387,7 @@
 
       // Tablet & Mobile
       @media (max-width: $screen-md-min) {
-        width: 60%
+        width: 60%;
       }
 
       // Regular Desktop
