@@ -1,5 +1,5 @@
 ---
-title: "Git tips & tricks"
+title: "Git Tips & Tricks"
 author: Achilleas Pipinellis
 author_twitter: _axil
 categories: git
