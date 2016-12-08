@@ -12,7 +12,6 @@ category: Zendesk
 
 ----
 
-
 ## Tips to find important tickets
 
 Zendesk is an expansive tool and it can be easy to lose track of important
