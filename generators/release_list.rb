@@ -86,7 +86,7 @@ class ReleaseList
     root = File.expand_path('../source/posts', __dir__)
 
     # find's `-regex` option is too dumb to do what we want, so use grep too
-    find = %Q(find #{root} -type f -iname "*-released.html.md")
+    find = %Q(find "#{root}" -type f -iname "*-released.html.md")
     grep = %Q(grep #{grep_flags} '\\d{4}-\\d{2}-22-gitlab-\\d{1,2}-\\d{1,2}-released')
     sort = %q(sort -n)
 

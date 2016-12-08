@@ -54,7 +54,7 @@ class GitLabProject
      result = @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc")
      #result << @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc&page=2")
      result = result.select { |issue| issue["labels"].include? label }
-     result = result.reject { |issue| issue["labels"].include? not_label } if (not_label)
+     result = result.select { |issue| (issue["labels"] & not_label).empty? } if (not_label)
      result = result.select { |issue| issue["milestone"].nil? || issue["milestone"]["title"] == "Backlog" }
    end
 
@@ -133,10 +133,10 @@ def generate_wishlist
   print "Generating wishlist..."
   wishlist_output = {}
 
-  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product"].each do |label|
+  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product","monitoring","deploy"].each do |label|
     wishlist_output[label] = label_list(label)
   end
-  wishlist_output["CI"] = label_list("CI","pages")
+  wishlist_output["CI"] = label_list("CI",["pages","monitoring","deploy","container registry"])
   print "\n"
 
   wishlist_output
