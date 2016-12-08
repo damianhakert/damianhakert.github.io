@@ -1,5 +1,5 @@
 ---
-title: "A media company's GitLab wishlist"
+title: "A creative agency's GitLab wishlist"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: user stories
@@ -7,7 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "A Lukkien developer shares his team's challenges with Git and GitLab for their UX designs, and requests a few tweaks they'd find useful."
 twitter_image: '/images/tweets/default-blog-image.png'
 ---
-[Wouter van Kuipers](https://twitter.com/wvkuipers) is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces online media, photography, film, apps, CGI, and graphic design. His team currently works on a platform aimed towards parents and healthcare professionals. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used SVN, and ultimately decided on Gitlab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
+[Wouter van Kuipers](https://twitter.com/wvkuipers) is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces online media, photography, film, apps, CGI, and graphic design. His team currently works on a platform aimed towards parents and healthcare professionals. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used SVN, and ultimately decided on GitLab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
 
 Here are some items discussed below and requested by the Lukkien team:
 
@@ -34,7 +34,7 @@ Read the full exchange below!
 
 **Lee:** Yes, and that’s something that we would love to do, because we use GitLab for everything at GitLab, but unfortunately it’s not there yet. 
 
-**Wouter:** As a team we are now working on integrating CI builds for merge requests, we are able to run validation & testing suites, which is great and easy to set-up, but we miss the option to have all output of the builds in one place (like unit test results across different builds) We are thinking about pushing the results to another server, but can't this be managed from within Gitlab itself?
+**Wouter:** As a team we are now working on integrating CI builds for merge requests, we are able to run validation & testing suites, which is great and easy to set-up, but we miss the option to have all output of the builds in one place (like unit test results across different builds) We are thinking about pushing the results to another server, but can't this be managed from within GitLab itself?
 {: .alert .alert-info}
 
 **Lee:** So your question is about validating the builds in one place — this is really interesting, and I have a couple of options for you to consider. If you’re using CI inside of GitLab we have two sections for pipelines, we have “builds,” which aggregate all of the pending and current builds. That’s the “builds view,” so you can see all the builds in progress. There’s also the “pipelines” view, which shows us which stage they’re in. Is this different from what you’re looking for? 
@@ -79,7 +79,7 @@ Read the full exchange below!
 
 **Lee:** I agree with that, but as far as I know the Mattermost integration is working really well. That probably depends on what Mattermost is doing, so we will keep an eye on that. 
 
-**Wouter:** Finally, in what way does Gitlab want to position itself in the long run compared to GitHub?
+**Wouter:** Finally, in what way does GitLab want to position itself in the long run compared to GitHub?
 {: .alert .alert-info}
 
 **Lee:** The best way to think about it, for me, is we are actually more like Atlassian. Atlassian came to prominence by acquiring all these software pieces and mashing them together with 30 different backend software stacks, and just making it work. I think that we have the lucky second mover advantage of saying “all of this integration is great, but it needs to be built cohesively.” So our end goal is to build what Atlassian ended up with by acquiring the little pieces, by instead building those parts and making them 100 percent cohesive. So it’s more about building an end-to-end development tool that allows your team to work together and converse and go. Our buzz phrase at this point is “idea to production,” so we want to cover everything over that process, and make it faster, whatever you’re using GitLab for. That’s even our goal internally as well, so it excites me because we’re actually using GitLab to build it. 
@@ -87,6 +87,6 @@ Read the full exchange below!
 I think GitHub is positioning itself as more of a core component, they see Git and code as the core thing that needs to be solved, and are leaving integrations up to the third parties. We have integrations and we see the need for and value in them, but we want to build something that out of the box allows you to start making things work. Instead of saying “you need to go buy Drone CI, you need to use Waffle.io, and need to wire them all up and read ten different documentations to figure it out.” We want that process to be as easy as possible. 
 
 
-_We want you to ask us anything! If you're a user interested in sharing your story on our blog, please fill out this[form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
+_We want you to ask us anything! If you're a user interested in sharing your story on our blog, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
 
 _Tweet us [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
