@@ -31,15 +31,13 @@ There are a few reasons:
 
 1. The per product purchasing process slowed customers down. We'd release a new product that our customers needed but in order for customers to actually start using it they would have to start a new internal purchasing process.
 2. Unlocking certain features/experiences on a per product reduces the usage, so we were not getting enough feedback from our customers on how we could improve.
-3. We think this will make ordering and upsell conversations less complex. We want to make it easy for someone to purchase the tool they need and feel confident in their decision.
+3. We think this will make ordering and upsell conversations less complex. 
 
 ## What does this mean for existing enterprise customers?
-
-These changes either have no impact on your plan or it'll help you add value or save money. 
 
 * For customers who did not purchase an EE product, there is no change. 
 * For customers with one EE Product, you were paying $138 per user/per year for one product. With the new EE Premium plan you'll have quicker support response times and access to the additional products for $199 per user/per year.
 * For customers with two or more EE Product, you will save money and enjoy quicker support response times. 
 
-We want all of our customers to have the best experience with our products so we offering all enterprise customers a 25% discount for early renewal until January 31st, 2017. If you've purchased an EE product we'll upgrade your plan to EE Premium so you can try the additional products and services for FREE until your contract renewal. For customers with two or more of the EE products, we will include the additional products and services and update your contract to reflect the new EE Premium price of $199/per user.
+We want all of our customers to have the best experience with our products so we offering all enterprise customers a 25% discount for early renewal until January 31st, 2017. If you've purchased an EE product we'll upgrade your plan to EE Premium so you can try the additional products and services for FREE until your contract renewal. For customers with two or more of the EE products, we will include the additional products and services, update your contract to reflect the new EE Premium price of $199/per user, and give you money back (to refund the difference between your old monthly bill with multiple EE products and the new EE Premium price).
 
