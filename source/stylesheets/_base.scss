@@ -25,6 +25,10 @@ a {
   font-weight: 400;
 }
 
+a > code {
+  color: $link-code-color;
+}
+
 .map {
   height: 350px;
   width: 100%;
