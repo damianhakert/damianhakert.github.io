@@ -31,23 +31,6 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 ### [33:50] Other improvements & what's next
 
-## Q&A 
-
-[39:26] For time tracking, can I see "original", "current", and "remaining"?
-
-[40:16] Other time tracking tools measure the time an issue remains in a particular lane so time spent is automated. Can GitLab do this?
-
-[41:46] What is Review Apps?
-
-[42:46] How can the Review Apps apply to more non-traditional, or, non-web apps?
-
-[44:57] So, Review Apps are temporary testing environments between staging and production, why not just test in staging, and what's the advantage?
-
-[49:00] Time tracking overview. For example: across projects, by user, etc.
-
-[50:06] How is 1 day definied? Is it hardcoded to equal 8 hours or is it configurable by user?
-
-[51:42] In [Continuous Integration][ci-post] (CI), if a packaged project is released as docker images and pushed to GitLab [Container Registry][cr-post] can I set up a manual action that will reverse the release by using containers from the previously released docker image?
 
 ## Upcoming Live Streams 
 
