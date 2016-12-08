@@ -30,6 +30,6 @@ This might seem trivial, but it is actually one of the most difficult aspects of
 
 Almost anyone can learn how to code, but it takes tremendous effort to learn how to build complex software that can be maintained for years. It will be great if more experienced developers reading this article give feedback or add to the points given above in the comment section.  
 
-_If you have some Ruby/CoffeeScript experience and you’re looking for a place to get started, check out our [Contribution Guide]( https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) and the “[up for grabs]( https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#i-want-to-contribute)” label._
+_If you have some Ruby/JavaScript experience and you’re looking for a place to get started, check out our [Contribution Guide]( https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) and the “[up for grabs]( https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#i-want-to-contribute)” label._
 
 _Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
