@@ -6,6 +6,7 @@ before_script:
 cache:
   key: "website"
   paths:
+    - public
     - vendor
 
 stages:
