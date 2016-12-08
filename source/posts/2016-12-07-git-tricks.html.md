@@ -1,10 +1,10 @@
 ---
-title: "Git tricks, handy Git commands for everyday use"
+title: "Git tips & tricks"
 author: Achilleas Pipinellis
 author_twitter: _axil
 categories: git
 image_title: '/images/blogimages/git-tricks/git-tricks-cover-image.png'
-description: Handy Git commands for everyday use.
+description: Handy Git commands for everyday use
 ---
 
 [Git] comes with a ton of commands, and that's probably an understatement.
