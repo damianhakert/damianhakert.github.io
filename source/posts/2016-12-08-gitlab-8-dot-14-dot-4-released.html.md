@@ -20,17 +20,18 @@ Please read on for more details.
 
 ## Security fixes in 8.14.4, 8.13.9 and 8.12.12
 
-- **CE/EE:** Replace MR access checks with use of MergeRequestsFinder ([!23867])
+- **CE/EE:** Replace MR access checks with use of `MergeRequestsFinder` ([#23867])
 
 ## Security fixes in 8.14.4
 
-- **CE/EE:** Destroy a user's session when they delete their account. ([!25015])
+- **CE/EE:** Destroy a user's session when they delete their account. ([#25015])
 - **CE/EE:** Filter authentication tokens from Sentry output.
-- **CE/EE:** Replace MR access checks with use of MergeRequestsFinder ([!23867])
-- **CE/EE:** XSS when LegacyDiffNote is created on a merge request diff containing HTML ([!25249])
+- **CE/EE:** Replace MR access checks with use of `MergeRequestsFinder` ([#23867])
+- **CE/EE:** XSS when `LegacyDiffNote` is created on a merge request diff containing HTML ([#25249])
 - Thanks to Kristiyan Bogdanov via HackerOne.
 
 ## Other fixes in 8.14.4
+
 - **CE/EE:** Fix pipeline author for Slack and use pipeline id for pipeline link ([!7506])
 - **CE/EE:** Resolve "Highlighting lines is broken" ([!7090])
 - **CE/EE:** Fix pipelines tabs ([!7709])
@@ -41,6 +42,11 @@ Please read on for more details.
 
 
 - **EE:** Prevent remote mirrors from failing when project is in pending_delete ([!938])
+
+[#23867]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23867
+[#25015]: https://gitlab.com/gitlab-org/gitlab-ce/issues/25015
+[#23867]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23867
+[#25249]: https://gitlab.com/gitlab-org/gitlab-ce/issues/25249
 
 [!7506]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7506
 [!7090]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7090
