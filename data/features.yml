@@ -163,7 +163,7 @@
   - description: (GitLab Geo) Geographically replicated instance
     link: https://about.gitlab.com/features/gitlab-geo/
     in_eep: true
-  - description: (Premium Support) Support High Availability
+  - description: (Premium Support) Support for High Availability
     link: https://about.gitlab.com/features/premium-support/
     in_eep: true
 
