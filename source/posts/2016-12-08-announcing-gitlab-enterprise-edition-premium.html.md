@@ -6,6 +6,7 @@ categories:
 image_title: '/images/blogimages/announcing-ee-premium-cover.jpg'
 twitter_image: 
 description: "We've added a new enterprise plan, GitLab Enterprise Edition Premium"
+date: 2016-12-08 15:35
 ---
 
 Today we are announcing the addition of a new enterprise plan, GitLab Enterprise Edition Premium. GitLab Enterprise Edition (EE) Premium was built for global organizations who need a solution for remote teams, premium support, High Availability, and advanced workflow controls. GitLab EE Premium builds on top of our base enterprise plan and offers the following additional features:
