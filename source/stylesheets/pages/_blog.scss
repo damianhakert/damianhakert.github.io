@@ -270,8 +270,14 @@
       color: $blog-color-purple;
     }
 
-    .body p,
-    .body ul,
+    .body p {
+      margin: 20px 0;
+    }
+
+    .body ul  {
+      margin-bottom: 0;
+    }
+
     .body ol {
       margin-bottom: 32px;
     }
@@ -649,4 +655,8 @@
   h1 {
     color: $color-white;
   }
+}
+
+pre {
+  border-radius: 0;
 }
