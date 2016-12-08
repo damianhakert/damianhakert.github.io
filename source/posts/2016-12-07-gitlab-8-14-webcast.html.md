@@ -8,7 +8,7 @@ description: "Review Apps, Time Tracking (EE) Beta, and Mattermost Chat Commands
 twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
 
-On 22 October we released [GitLab 8.14][8-14-release-post], our 60th consecutive monthly release. In this webcast, GitLab's Head of Product [Mark Pundsack][mark-twitter] and Product Manager [Régis Freyd][regis-twitter] show off what's new, including live demos of Time Tracking Beta, Mattermost Chat
+On 22 October we released [GitLab 8.14][8-14-release-post], our 60th consecutive monthly release. In this webcast, GitLab's Head of Product [Mark Pundsack][mark-twitter] and Product Manager [Régis Freyd][regis-twitter] show off what's new, including live demos of Time Tracking Beta (EE), Mattermost Chat
 Commands, and [Review Apps][review-apps-post]. Watch the recording and get the highlights below. 
 
 <iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
@@ -55,8 +55,8 @@ Commands, and [Review Apps][review-apps-post]. Watch the recording and get the h
 
 [Watch live][infra-livestream] on December 14 at 9am PT/5pm GMT. [Sign up to receive a reminder and the recording][infra-lp].
 
-Infrastructure Lead Pablo Carranza will give a behind-the-scenes look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with GitLab CE, and give a tutorial on how you can set up your own dashboard. A live chat Q&A will follow the presentation. See more details and sign up for a reminder here.
-For more information on the topic, read Pablo's blog post on how we knew it was time to leave the cloud.
+Infrastructure Lead Pablo Carranza will give a behind-the-scenes look at GitLab's Prometheus set up, explain how we plan to ship Prometheus with GitLab CE, and give a tutorial on how you can set up your own dashboard. A live chat Q&A will follow the presentation. 
+For more information on the topic, read Pablo's [blog post on how we knew it was time to leave the cloud][bare-metal].
 
 ## 2. Introducing the Codeship GitLab Integration
 
@@ -82,6 +82,7 @@ they share our future plans for GitLab and Prometheus.
 
 
 <!-- identifiers --> 
+[bare-metal]: https://about.gitlab.com/2016/11/10/why-choose-bare-metal/
 [ci-post]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [codeship-lp]: http://bit.ly/2g2jFjG
 [codeship-post]: https://blog.codeship.com/codeship-launches-gitlab-support/
