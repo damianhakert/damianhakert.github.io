@@ -13,7 +13,7 @@ description: Handy Git commands for everyday use
 them all, but sometimes you stumble upon an aha! moment that changes your
 whole workflow.
 
-In this post, we gathered some Git tips and commands we use at GitLab everyday.
+In this post, we gathered some Git tips and tricks we use at GitLab everyday.
 Hopefully they will add up to your aha! moment.
 
 <!-- more -->
@@ -24,11 +24,11 @@ Hopefully they will add up to your aha! moment.
 ## Intro
 
 Almost everybody at GitLab will need to use Git at some point. For newcomers
-who know nothing about Git that can be a fearsome experience. We have
-a `#git-help` chat channel where we ask questions and provide help if some of
-us get stuck. That's a quick way to provide help, and if something is complicated
-or someone has messed up their local repository and needs immediate help, there's
-always a person to jump on a quick call.
+who know nothing about Git that can be a fearsome experience. We have a
+[Git cheatsheet] and a `#git-help` chat channel where we ask questions and
+provide help if some of us get stuck. That's a quick way to provide help, and
+if something is complicated or someone has messed up their local repository and
+needs immediate help, there's always a person to jump on a quick call.
 
 Here's a pack of Git tricks that will leverage your Git-fu and you'll hopefully
 find useful. Remember, the list is far from exhaustive :)
@@ -485,27 +485,27 @@ If you want this to be run automatically every time you fetch/pull, see
 ### Checking out a new branch from a base branch
 
 You can checkout a new branch from a base branch without first checking out
-the base branch. Use the following:
+the base branch. Confusing? Here's an example.
 
-```bash
-git checkout -b new_branch base_branch
-```
-
-For example, if you are on a branch named `old-branch` and you want to
-checkout another branch from `master`, you'd normally do:
+If you are on a branch named `old-branch` and you want to
+checkout `new-branch` based off `master`, you'd normally do:
 
 ```bash
 git checkout master
 git checkout -b new-branch
 ```
 
-With the above abbreviation you could do:
+There's a quicker way though. While still on the `old-branch`, run:
 
 ```bash
 git checkout -b new-branch master
 ```
 
-while still on the `old-branch`.
+The pattern is the following:
+
+```bash
+git checkout -b new_branch base_branch
+```
 
 ## References
 
@@ -521,7 +521,7 @@ As always, writing something about Git, only scratches the surface. While some
 of the tips included in this post might come in handy, there are sure a lot
 of other stuff we're not familiar with.
 
-What's your favorite tip?
+![Uncle Sam wants you to tell your trick](/images/blogimages/git-tricks/uncle-sam-wants-git.jpg){: .shadow}
 
 <!-- Links -->
 
@@ -536,10 +536,11 @@ What's your favorite tip?
 [del-merged]: http://stevenharman.net/git-clean-delete-already-merged-branches
 [dash]: https://twitter.com/holman/status/530490167522779137
 [ohmyzsh]: http://ohmyz.sh/
-[the internet]: https://gitlab.com/theinternet/theinternet/uploads/8361c77029e22e296e5356129abddd32/theinternet.png
+[the internet]: /images/theinternet.png
 [gitconfig]: https://git-scm.com/docs/git-config
 [stackoverflow]: https://stackoverflow.com
 [extras-inst]: https://github.com/tj/git-extras/blob/master/Installation.md
 [rebase]: https://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing
 [submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [git]: https://git-scm.com
+[git cheatsheet]: https://gitlab.com/gitlab-com/marketing/raw/master/design/print/git-cheatsheet/print-pdf/git-cheatsheet.pdf
