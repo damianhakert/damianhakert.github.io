@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.14 Webcast Recording & Highlights" 
+title: "GitLab 8.14 webcast recording & highlights" 
 author: Erica Lindberg
 author_twitter: EricaLindberg_
 categories: webcast
@@ -8,35 +8,26 @@ description: "Review Apps, Time Tracking (EE) Beta, and Mattermost Chat Commands
 twitter_image: '/images/tweets/8-14-webcast-tweet.png'
 ---
 
-We ship a new version of GitLab on the 22nd of every month, and [this month we released GitLab 8.14][8-14-release-post] 
-marking our 60th consecutive monthly release. In this webcast, GitLab's Head of Product [Mark Pundsack][mark-twitter]
-and Product Manager [Régis Freyd][regis-twitter] show off what's new, including live demos of Time Tracking Beta, Mattermost Chat
+On 22 October we released [GitLab 8.14][8-14-release-post], our 60th consecutive monthly release. In this webcast, GitLab's Head of Product [Mark Pundsack][mark-twitter] and Product Manager [Régis Freyd][regis-twitter] show off what's new, including live demos of Time Tracking Beta, Mattermost Chat
 Commands, and [Review Apps][review-apps-post]. Watch the recording and get the highlights below. 
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
+<iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
 
 ## Highlights 
 
 ### [01:21] Introduction to Git and GitLab
 ### [04:07] GitLab's Idea to Production Vision
-### [06:10] Time Tracking Beta (EE) & live demo
+### [06:10] Time Tracking Beta (EE)
 
->Recording time has always been painful. You have to use different systems to do it, and even then, you don't get a complete picture because your work is in one place, and your time tracking data in another. This is why we've decided to release Time Tracking in Beta in 8.14 
+> Recording time has always been painful. You have to use many different systems, and even then, you don't get a complete picture because your work is in one place, and your time tracking data in another. This is why we've decided to release Time Tracking in Beta in 8.14.
 
-### [12:18] Mattermost Chat Commands & demo
+### [12:18] Mattermost Chat Commands
 
->Team communication has changed, and so much is happening in chat rooms these days. More and more, ideas are first discussed in chat, and so GitLab wants to make it easier for you to get your ideas from Chat and put them into GitLab issues where they can be acted on. 
+> Team communication has changed, more and more ideas are first discussed in chat. GitLab wants to make it easier for you to get your ideas from chat into GitLab issues where they can be acted on. 
 
-### [15:40] Review Apps & demo
+### [15:40] Review Apps
 
->Review Apps are the future of reviewing work! Rather than just looking at code, Review Apps serve up a fully functioning environment where your app is running, so you get a live preview of every branch and merge request. It’s perfect for testing complex changes where looking at the code isn’t enough. 
-
-### [28:33] Behind the scenes: Iterating on Review Apps
-
->So, this really complex, life changing feature was broken down into three releases of the minimal viable change.
+> Review Apps are the future of reviewing work! Rather than just looking at code, Review Apps serve up a fully functioning environment where your app is running, so you get a live preview of every branch and merge request. It’s perfect for testing complex changes where looking at the code isn’t enough. 
 
 ### [33:50] Other improvements & what's next
 
@@ -77,8 +68,8 @@ Following [Codeship's announcement][codeship-post], GitLab's Mark Pundsack will 
 
 [Watch live][ux-livestream] on December 15 at 10am PT/6pm GMT. [Sign up to receive a reminder and the recording][ux-lp].
 
-User experience (UX) affects every interaction a user has with a product. Because of this, it can literally make or break the adoption of a website, or application. UX designers have a really big job to do as they dig into the who, the what, the why, and the how of essentially everything that happens within a platform.
-How does GitLab's UX team work to solve the challenge of creating an application that has so many different types of users and releases a new version of its product every month? Join GitLab's UX Lead, Allison Whilden, and her team, as they discuss their process, the big challenges they face and how they look to solve them.
+User experience (UX) affects every interaction a user has with a product. Because of this, it can make or break the adoption of a website, or application. UX designers have to do dig into the who, the what, the why, and the how of everything that happens within a platform.
+How does GitLab's UX address the needs of many different types of users in a product that expands every month? Join GitLab's UX Lead, Allison Whilden, and her team, as they discuss their process, the big challenges they face and how they solve them.
 
 ## 4. Prometheus and GitLab: Completing the application lifecycle with monitoring
 
