@@ -100,7 +100,7 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "#compare-options"
             .edition-actions
-              = link_to "Free Trial", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+              = link_to "Free Trial", "https://about.gitlab.com/free-trial/", class: "featured-item-button"
               = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-link"
       .col-md-2
         .featured-item
@@ -128,7 +128,7 @@ extra_font:
                 = link_to "Premium Support", "https://about.gitlab.com/features/premium-support/"
               %li.line-separator
               %li.item-description
-                = link_to "Time Tracking", "https://docs.gitlab.com/ee/workflow/time_tracking.html"
+                = link_to "Time Tracking", "https://about.gitlab.com/features/time-tracking/"
               %li.line-separator
               %li.item-description
                 = link_to "File Locking", "https://about.gitlab.com/features/file-locking/"
@@ -139,7 +139,7 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "#compare-options"
             .edition-actions
-              = link_to "Free Trial", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-button"
+              = link_to "Free Trial", "https://about.gitlab.com/free-trial/", class: "featured-item-button"
               = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe55823ee501558a9ba4b1216a", class: "featured-item-link"
       .col-md-6.pricing-category-ruler.mobile-only
         %span.ruler
@@ -174,7 +174,7 @@ extra_font:
                 Unlimited collaborators
               %li.line-separator
               %li.item-description
-                = link_to "Built-in CI &amp; unlimited runners", "https://docs.gitlab.com/ce/ci/environments.html"
+                = link_to "GitLab CI &amp; unlimited runners", "https://about.gitlab.com/gitlab-ci/"
               %li.line-separator
               %li.item-description
                 = link_to "Learn more...", "/gitlab-com/"
@@ -225,7 +225,7 @@ extra_font:
     %h3.faq-subtitle.light.text-center
       Still have questions?
       = succeed "." do
-        = link_to "Contact us", "/sales/"
+        = link_to "Contact Us", "/sales/"
     .faq-holder.clearfix
       - size = (data.pricing.questions.size / Float(2)).ceil
       - data.pricing.questions.each_slice(size).to_a.each do |group|
