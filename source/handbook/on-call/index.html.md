@@ -65,3 +65,9 @@ you can also do a direct swap with a team member, and there is no need to mark t
 From Slack you can page by using the slash pd command, like so: `/pd message for the on call`
 
 This will trigger high urgency notification rules and escalates as needed.
+
+## Adding and removing people from the roster
+
+In principle, it is straightforward to add or remove people from the on-call schedules, through the same "schedule editing" links provided above for setting overrides. However, _take care_ to _not_ change the timezone setting of the schedule unless you absolutely most certainly intend to. As indicated in the image below, when editing a schedule (adding, removing, changing time blocks, etc.), make sure you keep the timezone setting in the upper left corner constant. If you change the timezone setting, PagerDuty will _not_ move the time 'blocks' for on-call duty, but instead it will assume that you meant to keep the selected time blocks (e.g. "11am to 7pm") in the _new_ timezone. As a result, your new schedule may become disjointed from the old ones (old = the schedule as set _before_ the "change on this date" selection), and gaps may appear in the schedule.
+
+![](/handbook/on-call/changing_pagerduty.png)
