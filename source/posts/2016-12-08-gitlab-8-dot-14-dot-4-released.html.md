@@ -26,7 +26,6 @@ Please read on for more details.
 
 - **CE/EE:** Destroy a user's session when they delete their account. ([#25015])
 - **CE/EE:** Filter authentication tokens from Sentry output.
-- **CE/EE:** Replace MR access checks with use of `MergeRequestsFinder` ([#23867])
 - **CE/EE:** XSS when `LegacyDiffNote` is created on a merge request diff containing HTML ([#25249])
 - Thanks to Kristiyan Bogdanov via HackerOne.
 
@@ -45,7 +44,6 @@ Please read on for more details.
 
 [#23867]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23867
 [#25015]: https://gitlab.com/gitlab-org/gitlab-ce/issues/25015
-[#23867]: https://gitlab.com/gitlab-org/gitlab-ce/issues/23867
 [#25249]: https://gitlab.com/gitlab-org/gitlab-ce/issues/25249
 
 [!7506]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7506
