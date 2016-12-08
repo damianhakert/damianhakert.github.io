@@ -13,6 +13,9 @@ Check out the improvements we made, the structure we now use to deploy from spec
 
 <!-- more -->
 
+- TOC
+{:toc}
+
 ## Improvements
 
 The old documentation website was pretty much just an HTML file, a stylesheet, and a [Ruby script][genrb] called `generate.rb`. While it worked, it was hard to update and not very flexible. It mostly laid dormant, only occasionally being touched by developers. The docs team really wanted to update the site to use a [static site generator](/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/) and take better advantage of [GitLab Pages][pages].
