@@ -1,7 +1,7 @@
 - title: "Prometheus Lead"
   description: /jobs/prometheus-lead/
-  apply: https://gitlab.workable.com/jobs/366277/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
