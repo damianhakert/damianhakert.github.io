@@ -5,6 +5,7 @@ author_twitter: _axil
 categories: git
 image_title: '/images/blogimages/git-tricks/git-tricks-cover-image.png'
 description: Handy Git commands for everyday use
+date: 2016-12-08 10:34
 ---
 
 [Git] comes with a ton of commands, and that's probably an understatement.
