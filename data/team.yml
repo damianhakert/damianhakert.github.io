@@ -1886,16 +1886,22 @@
           life cycles. When he is not working, he is exploring abandoned places,
           gardening or learning about space.
 
-- name: J.A.
-  locality:
-  country:
+- name: Jeanine Adkisson
+  locality: Oakland, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Discussion Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jneen.jpg
+  twitter: jneen_
+  gitlab: jneen
+  maintains: |
+              <li>Maintainer of <a href="https://github.com/jneen/rouge/">Rouge</a> and GitLab's syntax highlighting features</li>
   story:  |
-          Joining November 1st
+          Jeanine loves languages. She is the author of the syntax highlighting gem `rouge`
+          and is at GitLab working to make our language support and highlighting experience
+          the best the industry has to offer. When not at work, she wears a lot of different
+          hats - she makes chiptune music, works on <a href="http://tuliplang.org/">her language</a>,
+          and makes jokes on the internet.
 
 - name: Kushal Pandya
   locality: Pune
