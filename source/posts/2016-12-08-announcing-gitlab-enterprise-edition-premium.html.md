@@ -11,14 +11,14 @@ date: 2016-12-08 15:35
 
 Today we are announcing the addition of a new enterprise plan, GitLab Enterprise Edition Premium. GitLab Enterprise Edition (EE) Premium was built for global organizations who need a solution for remote teams, premium support, High Availability, and advanced workflow controls. GitLab EE Premium builds on top of our base enterprise plan and offers the following additional features:
 
+<!-- more -->
+
 * Premium Support: 4-hour response times, 24/7 emergency support, training, live upgrade assistance, and support for High Availability ensure that your team can focus on building great products.
 * GitLab Geo: Make your remote teams more productive with read-only mirrors of your GitLab instance the signficantly reduce the time it takes to clone and fetch large repos.
 * File Locking: Improve how you manage your binary and text files with the ability to lock any file or directory.
 * Pivotal Tile: Easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
 GitLab EE Premium ensures your team has the tools and support they need today as well as in the future. Take a look at some of the premium features we are considering on [our direction page](https://about.gitlab.com/direction/#new-products). GitLab EE Premium is now [available for purchase](https://about.gitlab.com/products/) for $199 per user per year.
-
-<!-- more -->
 
 ## What has changed?
 
