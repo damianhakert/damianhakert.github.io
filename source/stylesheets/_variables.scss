@@ -31,12 +31,26 @@ $member-name-color: #333;
 $member-shadow-color: #ccc;
 $member-social-color: #ccc;
 
+$blog-color-text: #222;
+$blog-color-heading: #333;
+$blog-color-purple: #548;
+$blog-color-mk-border: #ccc;
+$blog-color-date: #888;
+$blog-color-overlay-border: #eee;
+$blog-color-border-shadow: rgba(0, 0, 0, .1);
+$blog-color-image-from: rgba(255, 255, 255, .65);
+$blog-color-image-to: rgba(255, 255, 255, .95);
+$blog-color-ipanel-heading: rgba(221, 221, 221, .5);
+$blog-color-legacy-image-from: rgba(85, 68, 136, .8);
+$blog-color-legacy-image-to: rgba(72, 135, 197, .92);
+
+// legacy blog variables that were used by other pages
+
 $blog-date-color: #999;
 $blog-text-color: #444;
 $blog-notes-color: #606060;
 $blog-image-color-to: #4887c5;
 $blog-divider-color: #128bee;
-
 $blog-table-background: #faf9f9;
 $blog-table-background-hover: #f4f8fe;
 $blog-table-border: #efeff1;

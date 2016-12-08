@@ -3,13 +3,18 @@ layout: markdown_page
 title: CEO Preferences
 ---
 
+- TOC
+{:toc}
+
 ## Intro
+{: #intro}
 
 This page is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense.
 If there are things that might seem pretentious or overbearing please raise them so we can remove or adapt them.
 Many items further down this page are a guideline for our the [Executive Assistants](https://about.gitlab.com/jobs/executive-assistant/) (EAs).
 
 ## Flaws
+{: #flaws}
 
 Transparency and directness are part of our [values](https://about.gitlab.com/handbook/#values) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
@@ -26,6 +31,7 @@ I'm sure I have more flaws that affect my professional life.
 Feel free to send a merge request to add them or communicate them anonymously to People Operations so they can send a merge request.
 
 ## Communication
+{: #communication}
 
 Thanks to [Mårten Mickos](https://www.linkedin.com/in/martenmickos) for the inspiration for this section. All good idea's are his, all bad ones mine.
 
@@ -40,6 +46,7 @@ I get many email on which I am only cc'd on, I would very much appreciate if you
 I have accounts on [LinkedIn](https://www.linkedin.com/in/sijbrandij) and [Facebook](https://www.facebook.com/sytse). I will not send invites to team members on those networks since as the CEO I don't want to impose myself on anyone. But I would love to connect and I will happily accept your LinkedIn and Facebook friend request. You can also find me on Twitter as [@sytses](https://twitter.com/sytses).
 
 ## Pick your brain meetings
+{: #pick-your-brain-meetings}
 
 If people want advice on open source, remote work, or other things related to GitLab we'll consider that. If Sid approves of the request we send the following email:
 
@@ -54,6 +61,7 @@ We would love to help but we want to make sure the content is radiated as wide a
 The EA should follow up to make sure the draft post is submitted.
 
 ## Email
+{: #emails}
 
 * Labels: /archive, /respond or /urgent-important
 * Prepare draft responses
@@ -61,6 +69,7 @@ The EA should follow up to make sure the draft post is submitted.
 “We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
 
 ## Scheduling
+{: #scheduling}
 
 * [everytimezone.com](http://www.everytimezone.com) can help determine the best time to schedule
 * You can add other [calendars](calendar.google.com) on the left, to see when GitLab team members are free to schedule a meeting with
@@ -89,6 +98,7 @@ For meetings or lunch/dinner appointments, always make sure to add the address i
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 
 ## Hiring process
+{: #hiring-process}
 
 * Hiring managers will tag EA to schedule a call for the applicant with Sid
 * Template email with wording to schedule “Kirsten schedule Sid”
@@ -96,6 +106,7 @@ Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/
 * Add responses of [form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to our ATS; [Workable](https://gitlab.workable.com/backend)
 
 ## Travel
+{: #travel}
 
 EA does research for the best option for a flight and propose this to Sid before booking.
 Current preferences for flights are:
@@ -104,12 +115,14 @@ Current preferences for flights are:
 * Frequent Flyer details of all (previously flown) airlines are in EA vault of 1Password
 
 ## Mail
+{: #mail}
 
 * Check all incoming (physical) mail at 1233 Howard st and sort the urgent and important letters.
 * Inform AP if invoices came in
 * Inform other people/departments if mail is addressed for them and include a scan of the document
 
 ## Expensify
+{: #expensify}
 
 * When you’re logged in, you can find wingman account access for Sid in the top right corner menu.
 * Check Sids email, using the search bar in the top, to find any receipts for the postings in the current expense report.

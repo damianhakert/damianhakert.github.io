@@ -16,11 +16,11 @@
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
   apply: https://gitlab.workable.com/jobs/242362/candidates/new
-  open: false
+  open: true
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
-  apply: 
+  apply:
   open: false
 
 - title: "Backend Developer"
@@ -29,7 +29,7 @@
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
 
-- title: "Backend Developer, CI/CD Pipelines"
+- title: "Senior Backend Developer, CI/CD Pipelines"
   description: /jobs/developer-ci/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/381495/candidates/new
@@ -67,6 +67,7 @@
 
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
+  salary: 83132
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
@@ -87,6 +88,7 @@
 
 - title: "Production Engineer"
   description: /jobs/production-engineer/
+  salary: 110295
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
   open: true
 
@@ -124,6 +126,7 @@
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
+  salary: 85843
   apply:
   open: false
 
@@ -139,8 +142,8 @@
 
 - title: "Open Application"
   description: /jobs/open-application/
-  apply: https://gitlab.workable.com/jobs/298091/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Business Development Representative - Outbound"
   description: /jobs/business-development-representative-outbound/
@@ -149,10 +152,15 @@
 
 - title: "Marketing Frontend Engineer"
   description: /jobs/marketing-frontend-engineer/
-  apply: 
+  apply:
   open: false
 
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
-  apply: https://gitlab.workable.com/jobs/356285/candidates/new
+  apply:
+  open: false
+
+- title: "Regional Director Sales, US"
+  description: /jobs/regional_director_sales/regional-director-sales
+  apply: https://gitlab.workable.com/jobs/377841/candidates/new
   open: true

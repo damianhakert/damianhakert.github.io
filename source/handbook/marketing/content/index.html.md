@@ -3,54 +3,55 @@ layout: markdown_page
 title: "Content Team"
 ---
 
-The Content Team is part of the Marketing Team.
+The Content Team aka the "Blog, Documentation and Webinar Team" is part of the
+Marketing Team and specializes in creating and facilitating the creation of
+content and discussions for the blog, documentation and YouTube webinars.
 
-## Expertise
+## Who creates blog, documentation and webinar content for GitLab?
 
-* Content Strategy
-* [Blog](/blog/) content, design and UX
-* Social promotion of blog content
-* Newsletters
-* [Documentation](https://docs.gitlab.com) and training
-* White paper sourcing
-* Ebooks
-* Enterprise surveys
-* Social Media Management
-* Sub-editing
-* Webinars
-    * GitLab vision webinar
-    * CE to EE webinar
-    * SVN to Git webinar
-    * 1 thought leadership or partner webinar a quarter
-* conversationaldevelopment.com (prioritized for Q1 2017)
-* remoteonly.org (prioritized for Q1 2017)
+The Content Team is not the only source of content for these channels,
+all GitLab team members and the extended community are encouraged to contribute
+for the following reasons:
 
-## Documentation Goals
+- The Content Team's resources are limited; GitLab is a large company with
+  a comprehensive and constantly improving product suite in the fast paced
+  industry of software development. Because of this we cannot be
+  aware of every possible development inside GitLab, the community and e.
+- The voice of GitLab is not just that of the Content Team, it is the
+  contribution of every GitLab team member, community member, partner, customer
+  and user and we want to share all these perspectives.
+- The Content Team needs your help to create content and suggest content ideas
+  so that the GitLab team and extended community can stay ahead of the curve.
 
-* Create **well written** and **up-to-date** documentation.
-* Enhance documentation articles with illustrations, animations and videos.
-* Allow users to comment directly on documentation articles.
-* Create a curriculum taking users from beginner to expert in Git and GitLab.
-* Create a high quality responsive design.
-* Allow users to easily browse and search the documentation.
-* Generate MQLs
+## What areas of "content" does the Content Team specialize in?
 
-## Blog Goals
+- **Blog:** see the team page for each Content Team members' content specialties.
+  Each team member will create content and facilitate others contributing
+  content to their area of specialty. A general theme we are focusing on is
+  'User Driven Content'.
+- **Documentation:** creating Git and GitLab lessons, maintaining the structure and
+  style of articles and working with the development team and community to
+  facilitate the creation and updating of articles when features are added and
+  changed.
+- **YouTube webinars:** focusing on feature and release previews and GitLab team
+  member AMAs.
+- **Bi-weekly newsletter:** the creation of the bi-weekly newsletter on the
+  8th and 22nd (release newsletter) of each month. We welcome all teams to
+  suggest content to include in newsletters.
+- **Content Team social promotion:** Each Content Team member is responsible for
+  the social promotion of all content in their area of specialty. Content team
+  members should share content on Facebook, Twitter, LinkedIn, Reddit (where
+  applicable) and occasionally Hacker News - most of the time we want the
+  community to share our content on Hacker News rather than us so that our
+  presence feels organic rather than forcefully marketed.
 
-Detailed blog [handbook](/handbook/marketing/blog).
+## Specific areas of "content" the Content Team does not own:
 
-* Create **well written** and **engaging** content that shares GitLab's culture and user success stories.
-* Monitor and promote existing popular content.
-* Share the best posts in our newsletter with additional insights from the community discussions.
-* Provide article formulas (recipes) for the team and community to use.
-* Enhance blog posts with illustrations, animations and videos.
-* Generate MQLs.
-
-## Handbook Goals
-
-* Improve the **writing quality** and organization of the GitLab handbook.
-* The answer to any organizational questions should be "It's in the handbook".
-* Share GitLab's culture.
-* Generate MQLs.
-
-todo: Webinar and Social Media goals.
+- **Website**
+- **PR**
+- **Outbound marketing**
+- **White papers**
+- **Training & support:** outside of Git and GitLab lesson in the documentation.
+- **Sales:** outside of indirect content on our channels support the Sales Team
+  or generate MQLs.
+- **Handbook:** each team owns their section of the handbook.

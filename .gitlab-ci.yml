@@ -6,6 +6,7 @@ before_script:
 cache:
   key: "website"
   paths:
+    - public
     - vendor
 
 stages:
@@ -72,6 +73,8 @@ review_stop:
 
 deploy:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   dependencies:
     - build
   before_script: []

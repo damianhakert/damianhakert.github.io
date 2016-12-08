@@ -4,21 +4,30 @@ comments: false
 suppress_header: true
 ---
 
-.blog-index.blog-entry
-  = partial "includes/newsletter-signup.html"
-  - blog.articles[0...3].each do |article|
-    %article.blog-article
-      = partial "includes/blog/snippet", locals: {post: article}
-  %h2
-    10 most recent posts
-  %ul.post-list
-    - blog.articles[0..10].each do |post|
-      %li.post-list-item
-        %a{href: post.url}
-          = post.title
-        - if post.date
-          %time
-            = post.date.to_time.strftime '%b %e, %Y'
-  %p
-    \→
-    %a{href: "/blog/archives.html"} Browse the archives
+.blog.list
+  .wrapper
+    .section
+      = partial "includes/newsletter-signup.html"
+
+  = partial "includes/blog/list", locals: {articles: blog.articles[0...2]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[2...4]}
+
+  .callout
+    %h3
+      Try GitLab Enterprise Edition risk-free for 30 days.
+    %h4
+      No credit card required. Have questions?
+      %a.contact{href: "https://about.gitlab.com/sales/"} Contact us.
+    %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
+
+  = partial "includes/blog/list", locals: {articles: blog.articles[4...6]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[6...8]}
+
+  = partial "includes/blog/install"
+
+  = partial "includes/blog/list", locals: {articles: blog.articles[8...10]}
+  = partial "includes/blog/list", locals: {articles: blog.articles[10...12]}
+
+  .wrapper
+    .section
+      %a.browse{href: "/blog/archives.html"} Browse the archives
