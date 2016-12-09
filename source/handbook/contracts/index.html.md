@@ -45,7 +45,6 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab Inc., employee offer letter with PIAA](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit)
 - [GitLab Inc., hourly employee offer letter with PIAA](https://docs.google.com/document/d/1JyCxKbTwt_8gL5X1o2TYvxoTRQo1y2nxdy6CAcpYnfk/edit#)
 - [GitLab Inc., contractor agreement with PIAA](https://docs.google.com/document/d/1TJXiS8LLwyFZSUH2eKj3Y24TYoqDEnLV7b9WFXfnPs8/edit)
-- [GitLab Inc., W2 contractor agreement with PIAA](https://docs.google.com/document/d/1wfkfIUaTBMKduGNwH6cylBhEacKPrG13aUfQhll3v8o/edit#)
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
 
