@@ -27,7 +27,8 @@ build:
   tags:
     - docker
   artifacts:
-    expire_in: 31 days
+    only: master@gitlab-com/www-gitlab-com
+    expire_in: 14 days
     paths:
       - public/
 
