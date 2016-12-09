@@ -32,7 +32,7 @@ routing less-technical LDAP questions to you
 
  * [ ] Install the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
  * [ ] Add [OpenLDAP](https://gitlab.com/gitlab-org/gitlab-development-kit/tree/master/gitlab-openldap) to your GDK installation.
- * [ ] Try Group sync
+ * [ ] Try Group sync in the GDK environment. If you don't succeed, contact an LDAP expert, then contribute to documentation on this.
  
  ### Stage 3: Tickets
 
