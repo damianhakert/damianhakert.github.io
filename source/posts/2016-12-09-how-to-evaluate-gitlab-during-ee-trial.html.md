@@ -11,7 +11,7 @@ Ever reach the end of a free trial and wonder if you even learned anything from 
 
 <!-- more -->
 
-Sometimes when you start a free trial you don't have any particular criteria in mind and aren't sure what exactly you're looking for from GitLab EE, so you don't get much out of your time using it. The spreadsheet below was created by one of our biggest EE customers to use when they were evaluating GitLab, and they've kindly shared it with us to help more users discover whether EE is the best choice for you. 
+Sometimes when you start a free trial you don't have any particular criteria in mind and aren't sure what exactly you're looking for from GitLab EE, so you don't get much out of your time using it. The spreadsheet below was created by one of our biggest EE customers to use when they were evaluating GitLab, and they've kindly shared it with us to help more users discover whether EE is the best choice for them. 
 
 We'd love for you to contribute to it and make it work for you so we can also learn more about what you're looking for in EE. Please share your feedback in the comments!
 
