@@ -7,7 +7,7 @@ image_title: '/images/unsplash/dew-leaf.jpg'
 description: "Create a Continuous Delivery pipeline in few minutes leveraging the power of Spring Boot, GitLab CI and Kubernetes."
 ---
 
-Continuous Integration, Continuous Deployment and Continuous Delivery are increasingly popular topics among modern development teams. Together they enable a team to safely build, test and deploy the code virtually at any commit. The main benefit of these approaches is the ability to release more frequently quality code through means of automated pipelines. The tough part is building such pipelines. There is a myriad of tools available which we would need to choose, learn, install, integrate, and maintain. 
+[Continuous Integration, Continuous Deployment and Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) are increasingly popular topics among modern development teams. Together they enable a team to safely build, test and deploy the code virtually at any commit. The main benefit of these approaches is the ability to release more frequently quality code through means of automated pipelines. The tough part is building such pipelines. There is a myriad of tools available which we would need to choose, learn, install, integrate, and maintain. 
 
 Recently, I literally fell in love with [GitLab](https://gitlab.com/)! It offers a fully-featured ecosystem of tools which enable us to create an automated pipeline in minutes! From source control to issue tracking and CI, we find everything under one roof fully integrated and ready for use.
 
@@ -262,7 +262,7 @@ maven-test-jdk-7:
       - target/*.jar
 ```
 
-As previously said, the `maven-test-jdk-7` job run in parallel with the `maven-build`. Hence, it does not have an impact on the pipeline execution time.
+As previously said, the `maven-test-jdk-7` job runs in parallel with the `maven-build`. Hence, it does not have an impact on the pipeline execution time.
 
 The [`script`](https://docs.gitlab.com/ce/ci/yaml/#script) is a shell command to be executed by the GitLab Runner. The `mvn package -B` triggers a non-interactive Maven build up to the `package` phase. This phase is specific to the [Maven build lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html) and it includes also the `validate`, `compile` and `test` phases. That means that our Maven project will be validated, compiled and (unit) tested as well. Tests are to be included in the `src/test/java` folder. In our specific case, Spring Initializr has already created a unit test which verifies that the application context loads without errors. We are free to add as many unit tests as we like. Finally, the `package` phase creates the executable JAR.
 
