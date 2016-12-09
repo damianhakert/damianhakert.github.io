@@ -22,7 +22,7 @@ routing less-technical LDAP questions to you
    1. [ ] [Training Video](https://drive.google.com/open?id=0B9T-nz-7uMATSUxGT3hDX3RKdTg)
    1. [ ] [GitLab LDAP](https://docs.gitlab.com/ce/university/#3-5-ldap-and-active-directory)
 1. [ ] Read through all the [LDAP Documentation for CE](https://docs.gitlab.com/ce/administration/auth/ldap.html)
-1. [ ] Read through all the [LDAP Documentation for EE](https://docs.gitlab.com/ce/administration/auth/ldap.html) which covers EE specific portions.
+1. [ ] Read through all the [LDAP Documentation for EE](https://docs.gitlab.com/ee/administration/auth/ldap-ee.html) which covers EE specific portions.
 
 ### Stage 2: Technical Setup
 
