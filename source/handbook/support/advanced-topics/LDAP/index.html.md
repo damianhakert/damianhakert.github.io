@@ -38,10 +38,10 @@ routing less-technical LDAP questions to you
 
 - [ ] **Done with Stage 3**
 
+1. [ ] Go through a few solved LDAP tickets to check the responses and get a sense of the types of frequently asked questions that come up.
 1. [ ] Answer 20 LDAP tickets and paste the links here. Even if a ticket seems
 too advanced for you to answer. Find the answers from an expert and relay it to
 the customer.
-
   1. [ ] __
   1. [ ] __
   1. [ ] __
