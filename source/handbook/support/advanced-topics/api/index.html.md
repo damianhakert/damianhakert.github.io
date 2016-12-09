@@ -18,8 +18,6 @@ any order you prefer.
 
 1. [ ] Ping your manager on the issue to notify them you have started
 1. [ ] Commit to this by notifying the current experts that they can start routing non-technical API related questions to you
-1. [ ] GitLab University
-   1. [ ] Watch [GitLab API Training](https://docs.gitlab.com/ee/api/README.html) videos
 1. [ ] Read the [GitLab API Overview](https://docs.gitlab.com/ee/api/README.html)
 
 1. [ ] Find answers to and understand the following question
