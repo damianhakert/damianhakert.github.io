@@ -1,5 +1,9 @@
 // scss-lint:disable NestingDepth,SelectorDepth
 .navbar-default {
+  > .container {
+    position: relative;
+  }
+
   .navbar-collapse {
     @media (max-width: 767px) {
       text-align: center;
@@ -68,7 +72,7 @@
         }
 
         @media (min-width: $screen-md-min) {
-          padding: 15px 16px;
+          padding: 15px 10px;
           font-size: 16px;
         }
 
