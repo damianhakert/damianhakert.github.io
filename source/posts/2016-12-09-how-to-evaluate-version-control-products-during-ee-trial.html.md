@@ -3,7 +3,7 @@ title: "How to evaluate version control products during an EE trial"
 author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: GitLab EE
-image_title: '/images/blogimages/i-love-spreadsheets-trial-evaluation'
+image_title: '/images/blogimages/i-love-spreadsheets-trial-evaluation.jpg'
 description: "Find out if GitLab EE is the right fit for your company by evaluating your free trial with our handy spreadsheet"
 ---
 
