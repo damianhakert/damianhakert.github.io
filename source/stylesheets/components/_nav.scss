@@ -87,19 +87,22 @@
       position: relative;
       padding-left: 0;
       padding-right: 0;
-      margin-right: 11px;
       color: $color-primary;
       font-weight: 600;
+
+      @media (min-width: $screen-sm-min) {
+        margin-right: 11px;
+      }
 
       &:hover {
         text-decoration: underline;
       }
 
       &.is-last {
-        margin-left: 11px;
-        margin-right: 0;
-
         @media (min-width: $screen-sm-min) {
+          margin-right: 0;
+          margin-left: 11px;
+
           &::before {
             content: "";
             position: absolute;

@@ -8,6 +8,8 @@
 
   @media (min-width: $screen-md-min) {
     margin-right: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
   }
 
   @media (min-width: $screen-lg-min) {
@@ -19,6 +21,12 @@
     color: $color-primary;
     outline: 0;
   }
+}
+
+.search-icon {
+  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .search-close {
@@ -36,20 +44,34 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: calc(100% - 145px);
-  right: 145px;
+  left: calc(100% - 75px);
+  right: 75px;
   z-index: 9;
   background-color: $color-white;
   overflow: hidden;
-  transition:  .4s ease;
+  transition: .25s ease;
+
+  @media (min-width: $screen-md-min) {
+    left: calc(100% - 145px);
+    right: 145px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    left: calc(100% - 145px);
+    right: 145px;
+  }
 
   @media (min-width: $screen-lg-min) {
-    left: calc(100% - 160px);
-    right: 160px;
+    left: calc(100% - 150px);
+    right: 150px;
   }
 
   &.is-visible {
-    left: 210px;
+    left: 15px;
+
+    @media (min-width: $screen-sm-min) {
+      left: 200px;
+    }
 
     .search-close {
       opacity: 1;
@@ -67,7 +89,7 @@
   line-height: 28px;
   border-style: solid;
   border-color: $search-border-color;
-  border-width: 0 0 1px 0;
+  border-width: 0 0 1px;
   transition: all .35s ease;
 
   &:focus {
