@@ -4,6 +4,9 @@ title: Applications Supporting GitLab
 suppress_header: true
 extra_css:
   - applications.css
+extra_js:
+  - libs/typeahead.bundle.min.js
+  - applications.js
 ---
 .wrapper
   .application-container
@@ -18,6 +21,7 @@ extra_css:
         To learn more about integrating with GitLab and read how
         to add an application to this page, please head to our
       %a{href: "http://about.gitlab.com/partners"} partners page
+      %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
       - data.applications.each do |app_category|
         %hr{id: app_category.id}
         %h2
