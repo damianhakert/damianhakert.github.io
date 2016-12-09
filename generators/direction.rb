@@ -1,26 +1,40 @@
-require 'httparty'
+require 'active_support/core_ext/date/calculations'
+require 'active_support/core_ext/numeric/time'
+
+require 'faraday_middleware'
+require 'faraday_middleware/parse_oj'
 
 class GitLabInstance
-  def initialize(endpoint, name)
-    @endpoint = "#{endpoint}/api/v3"
-    @name = name
+  def initialize
+    raise 'PRIVATE_TOKEN required to generate direction page' unless ENV['PRIVATE_TOKEN']
+
+    @connection = Faraday.new(url: endpoint, headers: headers) do |config|
+      config.request :json
+      config.response :oj
+      config.adapter Faraday.default_adapter
+    end
   end
 
-  def call(path, params = "")
-    url = @endpoint + path + params
-    response = HTTParty.get(url, headers: { "PRIVATE-TOKEN" => ENV['PRIVATE_TOKEN'] })
+  def get(path, params = {})
+    response = @connection.get(path, params)
 
-    puts "Error in retrieving URL #{url}: #{response.code}" if response.code != 200
+    if response.status != 200
+      $stderr.puts "Error in retrieving URL #{response.env.url}: #{response.status}"
+    end
 
-    response
+    response.body
   end
 
-  def name
-    @name
-  end
+  private
 
   def endpoint
-    @endpoint
+    'https://gitlab.com/api/v3'
+  end
+
+  def headers
+    {
+      'PRIVATE-TOKEN' => ENV['PRIVATE_TOKEN']
+    }
   end
 end
 
@@ -33,31 +47,39 @@ class GitLabProject
    def milestones
      today = Date.today
 
-     response = @instance.call("/projects/#{@id}/milestones")
+     milestones = @instance.get("projects/#{@id}/milestones")
 
-     response.select!  { |ms| ms['state'] != 'closed' && ms['title'] =~ /\A\d+.\d+\z/ }
-     response.select!  { |ms| ms['due_date'] && Date.parse(ms['due_date']) >= today }
-     response.sort_by! { |ms| ms['title'].split('.').map(&:to_i) }
+     milestones.select!  { |ms| ms['state'] != 'closed' && ms['title'] =~ /\A\d+.\d+\z/ }
+     milestones.select!  { |ms| ms['due_date'] && Date.parse(ms['due_date']) >= today }
+     milestones.sort_by! { |ms| ms['title'].split('.').map(&:to_i) }
 
-     response
+     milestones
    end
 
    def milestone(milestone_id)
-     @instance.call("/projects/#{@id}/milestones/#{milestone_id}")
+     @instance.get("projects/#{@id}/milestones/#{milestone_id}")
    end
 
    def milestone_direction_issues(milestone_id)
-     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
+     @instance.get("projects/#{@id}/issues", {
+       milestone: milestone_id,
+       labels: 'direction'
+     })
    end
 
    def wishlist_issues(label, exclude: nil)
-     result = @instance.call("/projects/#{@id}/issues", '?labels=direction&state=opened&per_page=100&sort=asc')
+     issues = @instance.get("projects/#{@id}/issues", {
+       labels: 'direction',
+       state: 'opened',
+       per_page: 100,
+       sort: 'asc'
+     })
 
-     result.select! { |issue| wishlist_milestone?(issue['milestone']) }
-     result.select! { |issue| issue['labels'].include?(label) }
-     result.select! { |issue| (issue['labels'] & exclude).empty? } if exclude
+     issues.select! { |issue| wishlist_milestone?(issue['milestone']) }
+     issues.select! { |issue| issue['labels'].include?(label) }
+     issues.select! { |issue| (issue['labels'] & exclude).empty? } if exclude
 
-     result
+     issues
    end
 
    def name
@@ -69,7 +91,7 @@ class GitLabProject
    end
 
    def project
-     @project ||= @instance.call("/projects/#{@id}")
+     @project ||= @instance.get("projects/#{@id}")
    end
 
    private
@@ -81,7 +103,7 @@ end
 
 def edition
   @edition ||= begin
-    com = GitLabInstance.new('https://gitlab.com', 'GitLab.com')
+    com = GitLabInstance.new
     ce  = GitLabProject.new('gitlab-org%2Fgitlab-ce', com)
     ee  = GitLabProject.new('gitlab-org%2Fgitlab-ee', com)
 

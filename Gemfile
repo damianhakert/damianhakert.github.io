@@ -18,13 +18,16 @@ gem "middleman-syntax"
 
 gem 'kramdown', '~> 1.10'
 gem 'nokogiri'
+gem 'stringex'
 gem 'therubyracer'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-gem "httparty"
-gem "stringex"
+# Direction generation
+gem 'faraday', '>= 0.8'
+gem 'faraday_middleware'
+gem 'faraday_middleware-parse_oj', '~> 0.3'
 
 group :development, :test do
   gem 'docopt'
