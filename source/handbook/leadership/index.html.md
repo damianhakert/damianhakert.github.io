@@ -55,9 +55,29 @@ GitLab's expectations for managers
 
 ## Grovo
 
-WIP- [Grovo](https://www.grovo.com/) is a Learning Management System (LMS) with a focus on Internet Education. Grovo delivers, short, engaging learning moments called [microlearning](https://www.grovo.com/microlearning). We will be putting together modules specifically designed for Managers and Individual Contributors, to be able to learn at your own pace, using  videos, short assessments and real-world practice exercises.
+[Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
 
-WIP - implement Grovo before year end.
+
+### What is Microlearning?
+
+Microlearning provides short bursts of information that can be applied right away, helping people build the skills they need to be successful at their jobs.
+Think of these bite-size pieces of learning like sentences: each conveys just one complete thought, but when you put a few of them together, you build a more complex idea.
+Each microlearning moment is made of a digestible morsel of information combined with a short practice exercise.
+It's hyper specific, so you can get the right help, right when you need it: like when composing an email, working with new spreadsheet software, or practicing a big speech.
+Bit by bit, these microlearning moments add up to better job performance today and continual improvement going forward.
+Microlearning isn't just breaking up content into smaller pieces.
+It's a way to make learning digestible and effective, transforming not just what you know, but what you actually do, every day.
+
+
+### Grovo at GitLab
+
+We're a remote and globally distributed team that requires something more than the traditional learning approaches and courses that currently exist. We want to foster a new way of learning that mirrors GitLab's culture.
+
+
+Take a coffee break with Grovo and see how much you can learn.  It can take just under 60 seconds to sharpen your skills!
+
+
+The initial phase of rolling out Grovo will take place in December 2016 and as part of that first step we will be offering learning tracks on professional development & compliance.
 
 
 
