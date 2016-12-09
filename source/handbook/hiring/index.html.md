@@ -90,6 +90,8 @@ TODO: Update each job description with the process specific to that role.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
+If you have completed your portion of the hiring process and would like to stop receiving notifications about a candidate from Workable, remove yourself as a follower. To do this go to the candidate's profile, under timeline there are boxes with the photo of each follower. Uncheck your photo/name, and this will remove you from the Workable emails. You will be added to each candidate profile upon being mentioned, so you might have to remove yourself each time. 
+
 
 ### Typical process
 
