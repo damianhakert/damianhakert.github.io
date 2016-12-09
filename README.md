@@ -368,7 +368,7 @@ website, you have to:
 
 ## Custom Generators
 
-There are a few custom, static generators specified in config.rb. For
+There are a few custom, static generators specified in `config.rb`. For
 example, there are generators that produce the direction issue list,
 release list, and organization chart dynamically.
 
@@ -434,6 +434,10 @@ Beware that:
   will not deploy a Review App. Prefer to use dashes (`-`) or underscores (`_`).
   For more information on that matter check the discussion in this
   [issue in the CE tracker][ce-22849].
+- The generation of the direction, wishlist and release list pages is omitted
+  in branches and is run only on master. This helps to shave off some time from
+  the build process. That means you won't be able to preview these pages with
+  Review Apps.
 
 [ce-22849]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22849
 [review apps]: https://docs.gitlab.com/ce/ci/review_apps/
