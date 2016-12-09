@@ -271,6 +271,29 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
+#### Adding a Trusted Advisor to TriNet
+
+A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system. 
+
+1. Add to the TriNet Platform
+    1. From TriNet Passport homepage, click on the tab My Company 
+    1. Select My Workplace, Trusted Advisor Setup 
+    1. Complete the information in the online form 
+    1. Click Submit
+1. Assign the Role of Trusted Advisor 
+    1. From TriNet Passport homepage, click Find 
+    1. Select Find Person by Name
+    1. Type in the person’s name 
+    1. Click search
+    1. Once the name appears, click on it 
+    1. From the options to the left, select Assign Roles 
+    1. Click on Add
+    1. From the drop down select the access role desired
+    1. Click Add
+
+You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system. 
+
+
 #### Making changes in TriNet
 {: #changes-trinet}
 
