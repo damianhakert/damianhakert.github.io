@@ -1,5 +1,5 @@
 ---
-title: "How to evaluate version control products during an EE trial"
+title: "How to evaluate GitLab during an EE trial"
 author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: GitLab EE
