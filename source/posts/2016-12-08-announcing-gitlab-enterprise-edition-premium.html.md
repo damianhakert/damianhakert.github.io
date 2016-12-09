@@ -14,7 +14,7 @@ Today we are announcing the addition of a new enterprise plan, GitLab Enterprise
 <!-- more -->
 
 * Premium Support: 4-hour response times, 24/7 emergency support, training, live upgrade assistance, and support for High Availability ensure that your team can focus on building great products.
-* GitLab Geo: Make your remote teams more productive with read-only mirrors of your GitLab instance the signficantly reduce the time it takes to clone and fetch large repos.
+* GitLab Geo: Make your remote teams more productive with read-only mirrors of your GitLab instance that significantly reduce the time it takes to clone and fetch large repos.
 * File Locking: Improve how you manage your binary and text files with the ability to lock any file or directory.
 * Pivotal Tile: Easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
@@ -40,5 +40,5 @@ There are a few reasons:
 * For customers with one EE Product, you were paying $138 per user/per year for one product. With the new EE Premium plan you'll have quicker support response times and access to the additional products for $199 per user/per year.
 * For customers with two or more EE Product, you will save money and enjoy quicker support response times. 
 
-We want all of our customers to have the best experience with our products so we offering all enterprise customers a 25% discount for early renewal until January 31st, 2017. If you've purchased an EE product we'll upgrade your plan to EE Premium so you can try the additional products and services for FREE until your contract renewal. For customers with two or more of the EE products, we will include the additional products and services, update your contract to reflect the new EE Premium price of $199/per user, and give you money back (to refund the difference between your bill with multiple EE products and the new EE Premium price).
+We want all of our customers to have the best experience with our products so we are offering all enterprise customers a 25% discount for early renewal until January 31st, 2017. If you've purchased an EE product we'll upgrade your plan to EE Premium so you can try the additional products and services for FREE until your contract renewal. For customers with two or more of the EE products, we will include the additional products and services, update your contract to reflect the new EE Premium price of $199/per user, and give you money back (to refund the difference between your bill with multiple EE products and the new EE Premium price).
 
