@@ -43,7 +43,7 @@ manager, and we need everyone to know LDAP so please do that first.
 
 ### GitLab API
 
-[GitLab API Docs](https://docs.gitlab.com/ee/api/README.html)
+[GitLab API Checklist](/handbook/support/advanced-topics/api) (WIP)
 
 ### Migrating from SVN to Git
 

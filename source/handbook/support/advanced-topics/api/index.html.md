@@ -22,6 +22,11 @@ any order you prefer.
    1. [ ] Watch [GitLab API Training](https://docs.gitlab.com/ee/api/README.html) videos
 1. [ ] Read the [GitLab API Overview](https://docs.gitlab.com/ee/api/README.html)
 
+1. [ ] Find answers to and understand the following question
+   1. [ ] How are the API routes handled differently from the Rails routes?
+   1. [ ] What does it mean to [Grapify the API](http://www.ruby-grape.org/)?
+   1. [ ] Where in the code do I look to find which attributes are exposed for an API route (e.g. users)?
+
 ### Stage 2: Using the GitLab API
 
 - [ ] **Done with Stage 2**
