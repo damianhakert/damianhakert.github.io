@@ -42,8 +42,8 @@
 
 - title: "Community Advocate"
   description: /jobs/community-advocate/
-  apply: https://gitlab.workable.com/jobs/348185/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Database Specialist"
   description: /jobs/specialist/database/
