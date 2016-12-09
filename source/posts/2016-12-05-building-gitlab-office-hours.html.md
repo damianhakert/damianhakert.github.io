@@ -14,7 +14,9 @@ Following the release of [GitLab 8.14][gitlab-8-14], VP of Product [Job van der 
 hosted a YouTube live stream to discuss how our team is working to realize GitLab's vision and
 some of the awesome features we just released. Check out the video and highlights below.
 
+<figure class="video_container">
 <iframe src="https://www.youtube.com/embed/njP8Wvp45o0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Highlights
 

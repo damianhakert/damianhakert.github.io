@@ -12,7 +12,9 @@ date: 2016-12-08 10:33
 On 22 October we released [GitLab 8.14][8-14-release-post], our 60th consecutive monthly release. In this webcast, GitLab's Head of Product [Mark Pundsack][mark-twitter] and Product Manager [Régis Freyd][regis-twitter] show off what's new, including live demos of Time Tracking Beta (EE), Mattermost Chat
 Commands, and [Review Apps][review-apps-post]. Watch the recording and get the highlights below. 
 
+<figure class="video_container">
 <iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Highlights 
 
