@@ -12,6 +12,7 @@
 /build
 /node_modules
 /public
+/tmp/cache
 
 source/stylesheets/screen.css
 

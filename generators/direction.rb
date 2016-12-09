@@ -1,5 +1,7 @@
+require 'active_support/cache'
 require 'active_support/core_ext/date/calculations'
 require 'active_support/core_ext/numeric/time'
+require 'active_support/notifications'
 
 require 'faraday_middleware'
 require 'faraday_middleware/parse_oj'
@@ -16,16 +18,36 @@ class GitLabInstance
   end
 
   def get(path, params = {})
-    response = @connection.get(path, params)
+    cache_key = @connection.build_url(path, params).to_s
 
-    if response.status != 200
-      $stderr.puts "Error in retrieving URL #{response.env.url}: #{response.status}"
+    response = cache_store.read(cache_key)
+
+    # Unless the cached response exists and was successful, run it again
+    if response.nil? || response.status != 200
+      response = @connection.get(path, params)
+
+      if response.status == 200
+        cache_store.write(cache_key, response)
+      else
+        $stderr.puts "Error in retrieving URL #{response.env.url}: #{response.status}"
+      end
     end
 
     response.body
   end
 
   private
+
+  def cache_store
+    @cache_store ||= ActiveSupport::Cache::FileStore.new(
+      cache_path,
+      expires_in: 24.hours.to_i
+    )
+  end
+
+  def cache_path
+    File.expand_path('../tmp/cache/direction', __dir__)
+  end
 
   def endpoint
     'https://gitlab.com/api/v3'
