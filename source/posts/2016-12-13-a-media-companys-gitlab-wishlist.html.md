@@ -9,15 +9,13 @@ twitter_image: '/images/tweets/default-blog-image.png'
 ---
 [Wouter van Kuipers](https://twitter.com/wvkuipers) is an engineer at [Lukkien](https://www.lukkien.com/en/), a creative agency that produces online media, photography, film, apps, CGI, and graphic design. His team currently works on a platform aimed towards parents and healthcare professionals. They've used a combination of Jenkins and GitLab, although they are switching to GitLab CI for testing, and they use Jira for issue-tracking. He told me his team tends to use the collaboration tools of GitLab the most. Before GitLab, they used SVN, and ultimately decided on GitLab intead of a competitor because they needed to host on-premises for security reasons. Our service engineer [Lee Matos](https://twitter.com/leematos) sat down with Wouter to learn about how GitLab can help.
 
+<!--more-->
+
 Here are some items discussed below and requested by the Lukkien team:
 
 * A view that will let you see changes over builds, and how builds are affected over time.  
 * Notifications around CI builds, so if there are any related tickets, those get updated as well. 
 * Versioning for Photoshop and InDesign files.
-
-Read the full exchange below!
-
-<!--more-->
 
 **Wouter:** We struggle as a team and company to find a good versioning system for our (UX) designs. We want to know the latest version, but also want to have a clear visual representation of the changes between versions. Is there any planning for tooling like that in GitLab in the (near) feature?
 {: .alert .alert-info}
