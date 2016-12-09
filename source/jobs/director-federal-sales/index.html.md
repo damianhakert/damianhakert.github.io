@@ -33,6 +33,7 @@ The right candidate will play a critical role in the creation and execution of a
 * Experience with partner recruitment, enablement and on going support
 * Exceptional knowledge of Federal infrastructure and agencies
 * Have history of working with and driving revenue within NSF, DOE Labs, DoD and Intel
+* A security clearance is a plus
 
 Avoid the [confidence gap](http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/); you do not have to match all the listed requirements exactly to apply. Our hiring process is described in more detail in our [hiring handbook](https://about.gitlab.com/handbook/hiring/).
 
