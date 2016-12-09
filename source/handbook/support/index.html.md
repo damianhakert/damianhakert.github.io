@@ -182,6 +182,7 @@ Support Turbo developers to momentarily switch away from their other tasks. As a
 
 Further guidelines when rolling up your sleeves to do Turbo work:
 
+- Start with **Tier 2**, these are more difficult tickets and often the reason why we ask for Turbos
 - Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
