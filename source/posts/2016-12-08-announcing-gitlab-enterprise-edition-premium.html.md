@@ -14,7 +14,7 @@ Today we are announcing the addition of a new enterprise plan, GitLab Enterprise
 <!-- more -->
 
 * Premium Support: 4-hour response times, 24/7 emergency support, training, live upgrade assistance, and support for High Availability ensure that your team can focus on building great products.
-* GitLab Geo: Make your remote teams more productive with read-only mirrors of your GitLab instance that signficantly reduce the time it takes to clone and fetch large repos.
+* GitLab Geo: Make your remote teams more productive with read-only mirrors of your GitLab instance that significantly reduce the time it takes to clone and fetch large repos.
 * File Locking: Improve how you manage your binary and text files with the ability to lock any file or directory.
 * Pivotal Tile: Easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
