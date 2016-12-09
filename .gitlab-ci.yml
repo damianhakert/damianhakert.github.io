@@ -20,16 +20,28 @@ lint:
   tags:
     - docker
 
-build:
+.build_base: &build_base
   stage: build
-  script:
-    - bundle exec rake build pdfs
-  tags:
-    - docker
   artifacts:
     expire_in: 31 days
     paths:
       - public/
+  tags:
+    - docker
+
+build_branch:
+  <<: *build_base
+  script:
+    - bundle exec rake build
+  except:
+    - master
+
+build_master:
+  <<: *build_base
+  script:
+    - bundle exec rake build pdfs
+  only:
+    - master
 
 review:
   stage: deploy
@@ -76,7 +88,7 @@ deploy:
   variables:
     GIT_STRATEGY: none
   dependencies:
-    - build
+    - build_master
   before_script: []
   script:
     - rsync --delete -r public/ ~/public/
