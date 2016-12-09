@@ -65,7 +65,7 @@ The recruiting team will **always** publicize the job through the following mean
 1. [RemoteOK](https://remoteok.io) ($200 for 90 days, per position)
 1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs) (Able to post 3 jobs simultaneously, please mention to recruiting team if you want your role listed here)
-1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-egningeering roles)
+1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
 ###Sourcing for Open Positions
 *On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
