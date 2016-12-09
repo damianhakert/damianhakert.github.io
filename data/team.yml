@@ -2087,6 +2087,17 @@
   story:  |
           Joining December 1st
 
+- name: J.A.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
+  reports_to: Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining December 12th
+
 - name: P.K.
   locality:
   country:
