@@ -23,7 +23,7 @@ In this article, we dive into how to integrate GitLab with JIRA, and why you wou
 [Jira](http://atlassian.com/software/jira) is a project management platform that provides teams with the tools necessary to plan, create, track, prioritize, and distribute tasks amongst engineers, and manage user stories, sprints, releases, reports, and more. While GitLab's very own [Issue Board](https://about.gitlab.com/solutions/issueboard/) provides a simple and concise in-tool way to create and track issues, which is sufficient for many smaller teams and projects, the industry-established Jira offers greater enterprise-level project management tools to projects. 
 
 
-![A backlog project-view of a Jira project](source/images/blogimages/How-to-use-GitLab-with-Jira/image_1.png)
+![A backlog project-view of a Jira project](images/blogimages/How-to-use-GitLab-with-Jira/image_1.png)
 
 Teams working with an agile-first approach, would find Jira highly conducive toward effective scrum and Kanban management, and more so, Jira is highly customizable allowing teams to create their own custom workflow processes from conception to completion.
 
@@ -35,7 +35,7 @@ Whereas Gitlab is developer-geared, and Jira is more project-management-driven, 
 ### Commenting on Jira issues within Git
 The first benefit we will look at is using commit messages to mention and write comments in a specific Jira issue, so when developers mention specific Jira issues within their git commits by issue number, that aforementioned Jira issue will subsequently get that new comment, as well as a link that refers to that specific Jira commit, as illustrated below:
 
-![How Jira includes GitLab commits within the links-to section](source/images/blogimages/How-to-use-GitLab-with-Jira/image_3.png)
+![How Jira includes GitLab commits within the links-to section](images/blogimages/How-to-use-GitLab-with-Jira/image_3.png)
 
 > When a developer adds a specific git comment in his or her commit we would subsequently see that Jira issue create a relationship to that specific Git commit, making it easier for both developers and managers to follow the progress of that user story together.  This is a really nice way of tying together the development and project tracking efforts contextually and centrally. 
 
@@ -51,10 +51,10 @@ PROJECT-1 #close Fixed this today
 
 In the following illustration, we can see from within GitLab (with a link to the Jira issue) within the merge-request, closure of that issue, as confirmation of bi-directionality. 
 
-![Merge requests reference the specific project issue in GitLab](source/images/blogimages/How-to-use-GitLab-with-Jira/image_4.png)
+![Merge requests reference the specific project issue in GitLab](images/blogimages/How-to-use-GitLab-with-Jira/image_4.png)
 
 
-![A Jira issue view of the resolution by commit](source/images/blogimages/How-to-use-GitLab-with-Jira/image_5.png)
+![A Jira issue view of the resolution by commit](images/blogimages/How-to-use-GitLab-with-Jira/image_5.png)
 
 
 This also has the added benefit in the long-term, through tying commits to specific issues, making regression testing and diagnosing bugs a lot easier through time by being able to trace the resolution to a specific commit in time.
@@ -114,14 +114,14 @@ Starting off with Jira, the first step is to create a new Jira user, with access
 
 Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group, then within Application Access/View configuration, add the group you just created to **Jira Core**.
 
-![Associating the group with Jira Core](source/images/blogimages/How-to-use-GitLab-with-Jira/image_9.png)
+![Associating the group with Jira Core](images/blogimages/How-to-use-GitLab-with-Jira/image_9.png)
 
 With that last step, you are now ready to move on to setting up GitLab. 
 
 ###Configuring GitLab
 In your GitLab project, to complete the Jira integration, within the project repository, go to Services/JIRA and complete the details to connect to your specific Jira instance nad project. 
 
-![Configuring Jira on your GitLab project services settings](source/images/blogimages/How-to-use-GitLab-with-Jira/image_7.png)
+![Configuring Jira on your GitLab project services settings](images/blogimages/How-to-use-GitLab-with-Jira/image_7.png)
 
 You will need to set the following:
 * URL - the base URL of your Jira project.
