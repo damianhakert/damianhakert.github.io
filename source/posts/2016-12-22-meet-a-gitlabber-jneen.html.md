@@ -11,26 +11,26 @@ _The GitLab team contains multitudes. One GitLabber at a time, we'll celebrate t
 
 <!-- more -->
 
-You've been a friend of the team for a while through your work maintaining Rouge, which I recently learned we use at GitLab! Can you tell me more about Rouge, and what your work on it entails?
+**Emily:** You've been a friend of the team for a while through your work maintaining Rouge, which I recently learned we use at GitLab! Can you tell me more about Rouge, and what your work on it entails?
 {: .alert .alert-info} 
 
 **Jeanine:** Yes I have! I really enjoyed working with the GitLab team on Rouge. It's a syntax highlighter, which means it's capable of breaking apart text written in more than 100 programming languages into different highlightable tokens, and then formatting those tokens in, for example, HTML to display colors. It can also make a reasonable guess at what language text is written in by the file extension and the source contents.
 
 It's one of those projects that's never really *done* - there are always more languages to support and guessing improvements to be made. At its heart one lexer (the thing needed to support a particular language) is a slightly more organized giant pile of regular expressions, so there's always going to be edge cases that crop up and some level of maintenance cost.
 
-How did you first hear about GitLab, and what made you interested in joining the team?
+**Emily:** How did you first hear about GitLab, and what made you interested in joining the team?
 {: .alert .alert-info}
 
 **Jeanine:** I was only sort of vaguely aware of GitLab until they started using Rouge a couple of years ago to highlight their project pages and markdown snippets. Between them and the Jekyll project, I was just completely overwhelmed with issues and pull requests - from genuine bugs to language support requests (JSX was a big one) to guessing inaccuracies - I just couldn't keep up. That's why I eventually reached out to GitLab, and they hired me on as a contractor last summer to, among other things, catch up on the massive backlog I'd accumulated.
 
 Working as a contractor, I got the opportunity to experience the amazing remote culture at GitLab. It was really easy to get a lot of work done quickly. I think, mostly because we make a product centered around software process, this company highly values things I'd have to advocate for in other companies - we already do code review, our CI is already set up and integrated into the workflow, we have an issue/merge-request process that has clearly been thought through carefully in terms of product design.
 
-What do you now do in your day-to-day at GitLab? What does your task list look like?
+**Emily:** What do you do now in your day-to-day at GitLab? What does your task list look like?
 {: .alert .alert-info}
 
 **Jeanine:** I've just started, so there isn't really a "usual" yet. I'm strongest at text-processing kinds of tasks, so I started by working out some bugs in the parsing of our comment-by-email feature. Recently I've picked up some features for our Enterprise Edition as well. In general I like to take on difficult bits of code and untangle them to make something nicer.
 
-I also saw that you created a programming language called Tulip. Can you tell me about that process, how you got the idea, and any surprising challenges you encountered?
+**Emily:** I also saw that you created a programming language called Tulip. Can you tell me about that process, how you got the idea, and any surprising challenges you encountered?
 {: .alert .alert-info}
 
 **Jeanine:** Oh, Tulip! Tulip is my dream project, and also my windmill-chasing attempt to take over the world (of tech). It's an impure functional language with a unique ML/Haskell-inspired syntax and an Erlang-style concurrency model. It's still a work-in-progress and has a long ways to go before it's even close to production-ready.
