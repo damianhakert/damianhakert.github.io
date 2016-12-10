@@ -1,14 +1,3 @@
-- name: Doron Katz
-  locality: Sydney
-  country: Australia
-  role: iOS Engineering Manager & Founder, <a href="https://doronkatz.com"></a>
-  twitter: doronkatz
-  gitlab: doron
-  picture: picture_doron.png
-  maintains: |
-              
-  story:  |
-           A keen passion for emerging technologies, practices and methodologies, Doron embraces the vision of lean development with continuous customer development. Consultant for various startups, as a Project and Product Manager, with a mobile engineering background in iOS, and over 10 years of professional web development experience.
 - name: Dmitriy Zaporozhets
   locality: Kharkiv
   country: Ukraine

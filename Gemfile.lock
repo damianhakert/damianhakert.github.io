@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/middleman/middleman-blog.git
-  revision: 7b7eaa8213c07648cc8b16ac47c89c8ee2c37052
-  specs:
-    middleman-blog (4.0.1)
-      addressable (~> 2.3)
-      middleman-core (>= 4.0.0)
-      tzinfo (>= 0.3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,19 +8,26 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.5.3.1)
-      execjs
     backports (3.6.8)
-    builder (3.2.2)
+    chunky_png (1.3.8)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
+    compass (1.0.3)
+      chunky_png (~> 1.2)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.2)
     contracts (0.13.0)
-    docopt (0.5.0)
     dotenv (2.1.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -46,13 +44,9 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.4.6)
-    htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
-    httparty (0.14.0)
-      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     kramdown (1.13.1)
-    libv8 (3.16.14.17)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -65,11 +59,11 @@ GEM
       middleman-cli (= 4.1.14)
       middleman-core (= 4.1.14)
       sass (>= 3.4.0, < 4.0)
-    middleman-autoprefixer (2.7.1)
-      autoprefixer-rails (>= 6.5.2, < 7.0.0)
-      middleman-core (>= 3.3.3)
     middleman-cli (4.1.14)
       thor (>= 0.17.0, < 2.0)
+    middleman-compass (4.0.1)
+      compass (>= 1.0.0, < 2.0.0)
+      middleman-core (>= 4.0.0)
     middleman-core (4.1.14)
       activesupport (>= 4.2, < 5.1)
       addressable (~> 2.3)
@@ -97,17 +91,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    middleman-minify-html (3.4.1)
-      htmlcompressor (~> 0.2.0)
-      middleman-core (>= 3.2)
-    middleman-syntax (3.0.0)
-      middleman-core (>= 3.2)
-      rouge (~> 2.0)
-    mini_portile2 (2.1.0)
     minitest (5.10.1)
-    multi_xml (0.6.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    multi_json (1.12.1)
     padrino-helpers (0.13.3.3)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.3)
@@ -119,21 +104,11 @@ GEM
     rack (2.0.1)
     rack-livereload (0.3.16)
       rack
-    rake (11.3.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    ref (2.0.0)
-    rouge (2.0.7)
     sass (3.4.22)
-    scss_lint (0.50.3)
-      rake (>= 0.9, < 12)
-      sass (~> 3.4.20)
     servolux (0.12.0)
-    stringex (2.6.1)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.4)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -141,29 +116,16 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
-    yaml-lint (0.0.9)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  builder (~> 3.0)
-  docopt
-  httparty
-  kramdown (~> 1.10)
-  middleman (~> 4.1)
-  middleman-autoprefixer
-  middleman-blog!
+  middleman (>= 4.0.0)
+  middleman-compass (>= 4.0.0)
   middleman-livereload
-  middleman-minify-html
-  middleman-syntax
-  nokogiri
-  scss_lint
-  stringex
-  therubyracer
   tzinfo-data
   wdm (~> 0.1.0)
-  yaml-lint
 
 BUNDLED WITH
    1.13.6
