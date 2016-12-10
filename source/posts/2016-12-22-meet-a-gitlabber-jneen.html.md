@@ -7,6 +7,7 @@ image_title: '/images/default-blog-image.png'
 description: "An intermittent series on passions and to-do lists."
 ---
 
+_The GitLab team contains multitudes. One GitLabber at a time, we'll celebrate the personalities that make the whole thing go._   
 
 <!-- more -->
 
