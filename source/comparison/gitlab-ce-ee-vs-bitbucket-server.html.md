@@ -13,7 +13,7 @@ extra_css:
 ### Built-in Continuous Integration tool
 Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
 
-[Learn about the benefits of our CI tool](http://doc.gitlab.com/ci/)
+[Learn about the benefits of our CI tool](https://docs.gitlab.com/ce/ci/)
 
 ### More value with everything you need in one solution
 To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo.
