@@ -25,9 +25,9 @@ In this article, we dive into how to integrate GitLab with JIRA, and why you wou
 
 ![A backlog project-view of a Jira project](source/images/blogimages/How-to-use-GitLab-with-Jira/image_1.png)
 
-Teams working with an agile-first approach, would find Jira highly conducive toward effective scrum and KZanban management, and more so, Jira is highly customizable allowing teams to create their own custom workflow processes from conception to completion.
+Teams working with an agile-first approach, would find Jira highly conducive toward effective scrum and Kanban management, and more so, Jira is highly customizable allowing teams to create their own custom workflow processes from conception to completion.
 
-While each tool on its own is powerful, in this article we will show you how you can leverage GitLab in Jira projects to propel your development workflow to a whole new level, creating a more engaging relationship between developers and project managers.  Let’s find out how. 
+Jira on its own, whilst serving as a strong project management platform, not being able to relate issues to specific bits of code makes articulating to developers the problem a bit more ambiguous. In this article we will show you how you can leverage GitLab in Jira projects to propel your development workflow to a whole new level, creating a more engaging relationship between developers and project managers.  Let’s find out how. 
 
 ## Why use GitLab with Jira?
 Whereas Gitlab is developer-geared, and Jira is more project-management-driven, the goal has always been in projects for teams to work more closely, and while managers tend to not meddle in GitLab, it can also be said that developers don’t share the same passion for wanting to contribute in Jira. Through integrating GitLab into Jira, this takes away a major pain-point, by letting developers articulate to the project team through an environment they are more comfortable with, through their git commit statements. 
@@ -106,6 +106,20 @@ PROJECT-42 PROJECT-1 #time 2d 5h #comment Task completed ahead of schedule #clos
 
 As you can see, chaining actions together in one commit saves developers even more time, and hassle, while ensuring the project managers get all the information in a timely and accurate manner. 
 
+##How to Integrate GitLab into Jira
+In order for your GitLab repository project to interact a specific Jira project, you will need to go through some configuration steps. The first step is to setup Jira.
+
+###Configuring Jira
+Best practice is to create a new Jira user, a user with access to all the projects in the instance, that will be used as the conduit for connecting with GitLab, and this can be done by logging in as admin to Jira, and under Administration/User Management, creating a new user, that has *read/write access* to all projects. You could create a group, called *Gitlab-developers* with read-write access, and add the new user to that group. Take note of the username and passwordfor the user. 
+
+To give a user *read/write access*, go to Application access/View configuration and add the group *gitlab-developers* to  **Jira Core**. 
+
+###Configuring GitLab
+In your GitLab project, to complete the Jira integration, within the project repository, go to Services/JIRA and complete the details to connect to your specific Jira instance nad project. 
+
+![Configuring Jira on your GitLab project services settings](source/images/blogimages/How-to-use-GitLab-with-Jira/image_7.png)
+
+By following those two steps, your GitLab and Jira project are integrated and ready to be bi-directionally engaged. 
 
 ## Next Steps
 - Integrate GitLab into Jira through following our [step-by-step guide](https://docs.gitlab.com/ee/project_services/jira.html#gitlab-jira-integration) . 
