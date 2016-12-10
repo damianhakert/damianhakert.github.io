@@ -2,7 +2,7 @@
 title: "Meet a GitLabber: Jneen"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: customer stories
+categories: inside gitlab
 image_title: '/images/default-blog-image.png'
 description: "An intermittent series on passions and to-do lists."
 ---
