@@ -107,17 +107,28 @@ PROJECT-42 PROJECT-1 #time 2d 5h #comment Task completed ahead of schedule #clos
 As you can see, chaining actions together in one commit saves developers even more time, and hassle, while ensuring the project managers get all the information in a timely and accurate manner. 
 
 ##How to Integrate GitLab into Jira
-In order for your GitLab repository project to interact a specific Jira project, you will need to go through some configuration steps. The first step is to setup Jira.
+In order for you to take advantage of GitLab in your Jira project, and integrate into your specific Jira project, you will need to first follow some configuration steps on Jira, before referring to your Jira instance on GitLab. 
 
 ###Configuring Jira
-Best practice is to create a new Jira user, a user with access to all the projects in the instance, that will be used as the conduit for connecting with GitLab, and this can be done by logging in as admin to Jira, and under Administration/User Management, creating a new user, that has *read/write access* to all projects. You could create a group, called *Gitlab-developers* with read-write access, and add the new user to that group. Take note of the username and passwordfor the user. 
+Starting off with Jira, the first step is to create a new Jira user, with access to all the projects. Log in to Jira with as an admin user, and create a new user (under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira. Take note of the username and password, you will need it later. 
 
-To give a user *read/write access*, go to Application access/View configuration and add the group *gitlab-developers* to  **Jira Core**. 
+Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group, then within Application Access/View configuration, add the group you just created to **Jira Core**.
+
+![Associating the group with Jira Core](source/images/blogimages/How-to-use-GitLab-with-Jira/image_9.png)
+
+With that last step, you are now ready to move on to setting up GitLab. 
 
 ###Configuring GitLab
 In your GitLab project, to complete the Jira integration, within the project repository, go to Services/JIRA and complete the details to connect to your specific Jira instance nad project. 
 
 ![Configuring Jira on your GitLab project services settings](source/images/blogimages/How-to-use-GitLab-with-Jira/image_7.png)
+
+You will need to set the following:
+* URL - the base URL of your Jira project.
+* Project Key - the key of your specific project, such as PROJ
+* Username - the username of the gitlab user you created.
+* Password - the password of the gitlab user you created. 
+* JIRA issue transition - The id of the transition that moves your issue to the closed state. This is found under Jira workflow administration.
 
 By following those two steps, your GitLab and Jira project are integrated and ready to be bi-directionally engaged. 
 
