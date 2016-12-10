@@ -2098,6 +2098,28 @@
   story:  |
           Joining December 12th
 
+- name: C.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineering Intern</a>
+  reports_to: Interim Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining December 12th
+
+- name: S.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining December 13th
+
 - name: P.K.
   locality:
   country:
@@ -2108,6 +2130,17 @@
   gitlab:
   story:  |
           Joining January 2nd
+
+- name: T.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/marketing-frontend-engineer/">Marketing Frontend Engineer</a>
+  reports_to: Designer
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd
 
 - name: B.K.
   locality:
