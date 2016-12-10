@@ -4,15 +4,17 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
-# Ignore bundler config
 /.bundle
-
-# Ignore the build directory
-/build
-
-# Ignore cache
-/.sass-cache
 /.cache
+/.pygments-cache
+/.sass-cache
 
-# Ignore .DS_store file
+/build
+/node_modules
+/public
+
+source/stylesheets/screen.css
+
 .DS_Store
+
+.idea/
