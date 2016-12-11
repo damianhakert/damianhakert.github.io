@@ -145,6 +145,8 @@ D5 Is it a good idea to have a boot drive or should we use [PXE boot](https://en
 
 D6 Should we go for the 3700 series SSD or save some money and go for the 3600 series? Both for the normal and the SQL servers?
 
+D7 We're planning on one SSD per node. For the OSD nodes (file server) that would mean having the Ceph journal and bcache on the same SSD. Is this a good idea?
+
 # Memory
 
 Suppose one node runs both as application server and fileserver.
