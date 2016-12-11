@@ -74,7 +74,7 @@ This allows us to have a blended workload using all CPU and disk.
 For example we can combine file storage and background jobs on the same server since one is disk heavy and one is CPU heavy.
 We will start by having one workload per server to reduce complexity.
 This means that when we need to grow we can still unlock almost twice as much disk space and CPU by blending the workloads.
-Please note that this will be container based, to get maximum IO performance we won't not virtualize our workload.
+Please note that this will be container based, to get maximum IO performance we won't virtualize our workload.
 
 N1 Shall we spread the database servers among different chassis to make sure they don't all fail when one chassis fails?
 
