@@ -86,7 +86,7 @@ Our current SQL server has one E5-2698B v3 with 32 virtual cores.
 PostgreSQL commonly uses about 20-25 virtual cores.
 Moving to dual processors should already help a lot.
 To give us more months to grow before having to distribute the database we want to purchase some headroom.
-That is why we're getting a [E5-2687Wv4] for the database servers.
+That is why we're getting a [E5-2687Wv4](https://ark.intel.com/products/91750/Intel-Xeon-Processor-E5-2687W-v4-30M-Cache-3_00-GHz) for the database servers.
 This processor costs $2100 instead of $670 but has 4 extra virtual cores and runs continuously on 3 Ghz instead of 2.2.
 
 # Disk
@@ -159,9 +159,13 @@ Apart from those routers we'll have a seprate router for a 1Gbps management netw
 For example to make [STONITH](https://en.wikipedia.org/wiki/STONITH) reliable when there is a lot of traffic on the normal network.
 Each node already has a separate 1Gbps connection for this.
 
+We have 64+1 nodes (1 for backup) and most routers seem to have 48 ports.
+Every node has 2 network ports so that is a need for 130 ports in total.
+We're not use if we can use 3 routers with 48 ports each (144 in total) to cover that.
+
 N1 Which router should we purchase?
 
-N2 How do we deal with 48 ports on the router vs. having 64 nodes?
+N2 How do we interconnect the routers while keeping the network simple and fast?
 
 N3 Should we have a separate network for Ceph traffic?
 
@@ -237,12 +241,12 @@ B12 Is it smart to make the controller a seperate 1U box or should we reporpose 
 
 # Rack
 
-The default rack size seems to be 45 nowdays (42 used to be the standard).
+The default rack height seems to be 45U nowdays (42U used to be the standard).
 
 It is used as follows:
 
 - 32U for 16 chassis with 64 nodes
-- 3U for three network routers (48x3=144 should cover 65x2=130 ports)
+- 3U for three network routers
 - 1U for the management network
 - 4U for the disk enclosure
 - 1U for the disk controller
