@@ -141,7 +141,7 @@ D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](
 
 D4 Should we ask for 8TB HGST drives instead of Seagate since they seem [more reliable](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/).
 
-D5 Is it a good idea to have a boot drive or should we use [PXE boot](https://en.wikipedia.org/wiki/Preboot_Execution_Environment) every time it starts?
+D5 Is it a good idea to have a boot drive or should we use [PXE boot](https://en.wikipedia.org/wiki/Preboot_Execution_Environment) every time it starts? => [dsr_](https://news.ycombinator.com/item?id=13153336): You want a local boot drive, and you want it to fall back to PXE booting if the local drive is unavailable. Your PXE image should default to the last known working image, and have a boot-time menu with options for a rescue image and an installer for your distribution of choice.
 
 D6 Should we go for the 3700 series SSD or save some money and go for the 3600 series? Both for the normal and the SQL servers?
 
