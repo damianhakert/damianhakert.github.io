@@ -54,6 +54,11 @@ We would like to have one common node so that they are interchangable.
 This would mean installing only a few disks per node instead of having large fileservers.
 This would distribute failures and IO.
 
+![IOPS on GitLab.com](/images/blogimages/write_iops.png)
+
+The above picture shows the curreny number of Input/output Operations Per Second (IOPS) on GitLab.com.
+With more than 100k IOPS it would be nice to distribute than among multiple servers.
+
 One task that we could not fit on the common nodes was PostgreSQL.
 Plan to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
 But for now we need to scale vertically so we need a lot of Memory and CPU.
