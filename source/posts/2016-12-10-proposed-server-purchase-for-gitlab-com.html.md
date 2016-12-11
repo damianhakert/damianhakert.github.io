@@ -271,8 +271,6 @@ Both hosting providers quoted 4 x 208v 30A power supplies (2 for redundancy).
 
 P1 Does the quoted supply seem adequate for our needs?
 
-P2 Should we give our hosting party special instructions to make sure the two power supplies of each chassis are connected to a different [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply#/media/File:MGE_Uninterruptible_Power_Supply_at_NERSC.jpg)?
-
 # Hosting
 
 We've worked in [an issue](https://gitlab.com/gitlab-com/infrastructure/issues/732) to see where we should host.
