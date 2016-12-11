@@ -318,7 +318,7 @@ H2 Should we install the servers ourselves or is it OK to let the hosting provid
 
 H3 How can we minimize installation costs? Should we ask to configure the servers to PXE boot?
 
-H4 Is there an Azure equivalent for AWS Direct Connect?
+H4 Is there an Azure equivalent for AWS Direct Connect? => Azure will let you work with a provider to "peer into" the Azure network at a data center of your choice. So for example we could pay to have a circuit established in a data center that was linked into the Azure 'US East 2' data center (where we currently host out of) for direct connectivity needs.
 
 # Expense
 
