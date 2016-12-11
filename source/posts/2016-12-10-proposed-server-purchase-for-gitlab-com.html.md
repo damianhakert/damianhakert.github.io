@@ -25,14 +25,6 @@ also attempting to move GitLab application servers and supporting services
 Note that for now our CI Runners will stay in the cloud. Not only are they are
 much less sensitive to latency, but autoscaling is easier with a cloud service.
 
-![IOPS on GitLab.com](/images/blogimages/write_iops.png)
-
-The above picture shows the currently number of Input/output Operations Per
-Second (IOPS) on GitLab.com. On our current NFS servers, our peak write IOPS
-often hit close to 500K, and our peak read IOPS reach 200K. These numbers
-suggest that using spinning disks alone may not be enough; we need to use
-high-performance SSDs judiciously.
-
 # Chassis
 
 One of the team members that will join GitLab in 2017 recommended using a [6028TP-HTTR SuperMicro 2U Twin2 server](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) chassis that has 4 dual processor nodes and is 2 [rack units](https://en.wikipedia.org/wiki/Rack_unit) (U) high. The advantages are:
@@ -71,6 +63,14 @@ For a total of 64 nodes.
 We would like to have one common node so that they are interchangable.
 This would mean installing only a few disks per node instead of having large fileservers.
 This would distribute failures and IO.
+
+![IOPS on GitLab.com](/images/blogimages/write_iops.png)
+
+The above picture shows the currently number of Input/output Operations Per
+Second (IOPS) on GitLab.com. On our current NFS servers, our peak write IOPS
+often hit close to 500K, and our peak read IOPS reach 200K. These numbers
+suggest that using spinning disks alone may not be enough; we need to use
+high-performance SSDs judiciously.
 
 One task that we could not fit on the common nodes was PostgreSQL.
 Our current plan is to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
