@@ -42,7 +42,7 @@ For example HPE has the [Apollo 2000 series](https://www.hpe.com/h20195/v2/getpd
 
 C1 Should we use another version of the chassis than HTTR?
 
-C2 What is the best Dell equivalent?
+C2 What is the best Dell equivalent? => [C6320](http://www.dell.com/us/business/p/poweredge-c6320/pd)
 
 # Servers
 
