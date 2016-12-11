@@ -55,7 +55,7 @@ This would mean installing only a few disks per node instead of having large fil
 This would distribute failures and IO.
 
 One task that we could not fit on the common nodes was PostgreSQL.
-Plan to make PostgreSQL distrubuted in 2017 with the help of [Citus](https://www.citusdata.com/).
+Plan to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
 But for now we need to scale vertically so we need a lot of Memory and CPU.
 We need at least a primary and secondary.
 We wanted to add a second pair for testing and to ensure spares in case of failure.
@@ -63,15 +63,15 @@ Details about this are in the following sections.
 
 For now our CI Runners will stay in the cloud. They are much less sensitive to latency.
 
-Choosing a common node will mean that file storage servers will have too much CPU and that application servers will have to much disk space.
+Choosing a common node will mean that file storage servers will have too much CPU and that application servers will have too much disk space.
 We plan to remedy that by running everything on Kubernetes.
 This allows us to have a blended workload using all CPU and disk.
-For example we can file storage and background jobs on the same server, one is disk heavy and one is CPU heavy.
+For example we can combine file storage and background jobs on the same server since one is disk heavy and one is CPU heavy.
 We will start by having one workload per server to reduce complexity.
 This means that when we need to grow we can still unlock almost twice as much disk space and CPU by blending the workloads.
-Please note that this will be container based, to get maximum IO performance we'll not virtualize our workload.
+Please note that this will be container based, to get maximum IO performance we won't not virtualize our workload.
 
-N1 Shall we spead the database servers amoung different chassis to make sure they don't all fail when one chassis fails?
+N1 Shall we spread the database servers among different chassis to make sure they don't all fail when one chassis fails?
 
 N2 Does Ceph handle running 60 OSD nodes well or can this cause problems?
 
@@ -123,7 +123,7 @@ We recommend virtual cores + 1 instances of Unicorn of about 0.5GB each, for a t
 Ceph recommends about 1GB per TB of data which comes out to 24 per node.
 So theoretically we can fit everything in 45GB so 64GB should be enough.
 
-But in practise we've seen 24TB OSD nodes use 79GB of memory.
+But in practice we've seen 24TB OSD nodes use 79GB of memory.
 And the rule of thumb is have about 2GB per virtual core for background jobs available (40GB).
 So in order not to be to low we'll spend the extra $30k to have 128GB of ECC memory per node instead of 64GB.
 
@@ -145,9 +145,9 @@ M1. Should we use 128dimms to be able to expand the database server later even t
 The servers come with 2x 10Gbps RJ45 by default (Intel X540 Dual port 10GBase-T).
 We want to [dual bound](https://docs.oracle.com/cd/E37670_01/E41138/html/ch11s05.html) the network connections to increase performance and reliability.
 We think that 20Gbps is enough to have minimal latency between the Ceph servers.
-And this will allow use to take routers out of service during low traffic times, for example to restart them after a software upgrade.
+And this will allow us to take routers out of service during low traffic times, for example to restart them after a software upgrade.
 
-Ceph reference designs recomment a seperated font and back network with the back network reserved for Ceph traffic.
+Ceph reference designs recommend a seperated front and back network with the back network reserved for Ceph traffic.
 We think that this is not needed as long as there is enough capacity.
 We do want to have user request termination in a DMZ, so our HA proxy servers will be the only ones with a public IP.
 
@@ -155,7 +155,7 @@ Each of the two physical network connections will connect to a different top of 
 We want to get a Software Defined Networking (SDN) compatible router so we have flexibility there.
 We're considering the [10/40GbE SDN SuperSwitch (SSE-X3648S/SSE-X3648SR)](https://www.supermicro.com/products/accessories/Networking/SSE-X3648S.cfm) that can switch 1440 Gbps.
 
-Apart from those routers we'll have a seprate router for a 1Gbps management network.
+Apart from those routers we'll have a separate router for a 1Gbps management network.
 For example to make [STONITH](https://en.wikipedia.org/wiki/STONITH) reliable when there is a lot of traffic on the normal network.
 Each node already has a separate 1Gbps connection for this.
 
@@ -181,7 +181,7 @@ Backing up 480TB of data (expected size in 2017) is pretty hard.
 We thought about using [Google Nearline](https://cloud.google.com/storage-nearline/) because with a price of $0.01 per GB per month means that for $4800 we don't have to worry about much.
 But restoring that over a 1Gbps connection takes 44 days, way too long.
 
-We mainly want our backup to protect against us against human and software errors.
+We mainly want our backup to protect us against human and software errors.
 Because all the files are already replicated 3 times hardware errors are unlikely to affect us.
 Of course we should have a good [Ceph CRUSH map](http://docs.ceph.com/docs/jewel/rados/operations/crush-map/) to prevent storing multiple copies on the same chassis.
 
@@ -204,7 +204,7 @@ And each drive has to do at least 30 MBps which seems reasonable for a continuou
 The problem is that even at 20Gbps a full restore takes 2 days.
 Of course many times you need to restore only part of the files (uploads).
 And most of the time it won't contain 480TB (we'll start at about 100TB).
-They question is if we can accept this worst case scenario for GitLab.com.
+The question is if we can accept this worst case scenario for GitLab.com.
 
 An alternative would be to use multiple controllers.
 But you can't aggregate ZFS pools over multiple servers.
@@ -229,19 +229,19 @@ B6 How should we configure the backup software?  Should we use incremental backu
 
 B7 Should we use the live filesystem or [CephFS snapshots](http://docs.ceph.com/docs/master/dev/cephfs-snapshots/) to back up from?
 
-B8 How common is it to have have a tape or cloud backup in addition to the above?
+B8 How common is it to have a tape or cloud backup in addition to the above?
 
 B9 Should we pick the top load model or [one of the front and rear access models](https://www.supermicro.com/products/chassis/JBOD/index.cfm?show=SELECT&storage=90).
 
 B10 Can we connect two SAS cables to get 2x 12 Gbps?
 
-B11 What [HBA card](https://www.supermicro.com/products/nfo/storage_cards.cfm) should be add to the controler or does it come with an LSI 3108?
+B11 What [HBA card](https://www.supermicro.com/products/nfo/storage_cards.cfm) should be added to the controller or does it come with an LSI 3108?
 
-B12 Is it smart to make the controller a seperate 1U box or should we reporpose some of our normal nodes for this?
+B12 Is it smart to make the controller a seperate 1U box or should we repurpose some of our normal nodes for this?
 
 # Rack
 
-The default rack height seems to be 45U nowdays (42U used to be the standard).
+The default rack height seems to be 45U nowadays (42U used to be the standard).
 
 It is used as follows:
 
@@ -270,7 +270,7 @@ We've worked in [an issue](https://gitlab.com/gitlab-com/infrastructure/issues/7
 Apart from the obvious (reliable, affordable) we had the following needs:
 
 - [AWS Direct connect](https://aws.amazon.com/directconnect/details/) so we can use the cloud for temporary application server needs
-- Based on the east coast of the USA since it povides the best latency tradeoff for most of our users
+- Based on the east coast of the USA since it provides the best latency tradeoff for most of our users
 - Advanced remote hands service so we don't have to station people near the datacenter at all times
 - Ability to upgrade from one rack to a private cage
 
@@ -304,7 +304,7 @@ Our proposed buying plan is about 5x the capacity we need now.
 Having your own hardware means you're always overprovisioned.
 And we could probably have reduced the cost of cloud hosting by focussing on it.
 
-The bigger expense will hiring more people to deal with the additional complexity.
+The bigger expense will be hiring more people to deal with the additional complexity.
 We'll probably need to hire a couple of people more to deal with this.
 We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistake after mistake in this post we would love to talk to you.
 
@@ -312,7 +312,7 @@ We looked into initially having disks in only half the servers but that saves on
 
 C1 If we want to look at leasing should we do that through SuperMicro or third party?
 
-C2 Are there way we can save money?
+C2 Are there ways we can save money?
 
 # Details
 
