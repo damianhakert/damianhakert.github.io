@@ -26,7 +26,9 @@ One of the team members that will join GitLab in 2017 recommended using a [6028T
 
 We use the [2U Twin2](https://www.supermicro.com/products/nfo/2UTwin2.cfm) instead of the [1U Twin](https://www.supermicro.com/products/nfo/1UTwin.cfm) because it fits one more 3.5" hard drive (3 per node instead of 2).
 
-This server is on the list of global SKU's for SuperMicro. We'll also ask for quotes from other vendors to see if they have a competitive alternative.
+This server is on the list of global SKU's for SuperMicro.
+We'll also ask for quotes from other vendors to see if they have a competitive alternative.
+For example HPE has the [Apollo 2000 series](https://www.hpe.com/h20195/v2/getpdf.aspx/c04542552.pdf?ver=7).
 
 C1 Should we use another version than HTTR?
 
@@ -53,7 +55,7 @@ This would distribute failures and IO.
 One task that we could not fit on the common nodes was PostgreSQL.
 Plan to make PostgreSQL distrubuted in 2017 with the help of [Citus](https://www.citusdata.com/).
 But for now we need to scale vertically so we need a lot of Memory and CPU.
-We need at least a primary and secundary.
+We need at least a primary and secondary.
 We wanted to add a second pair for testing and to ensure spares in case of failure.
 Details about this are in the following sections.
 
@@ -61,7 +63,7 @@ For now our CI Runners will stay in the cloud. They are much less sensitive to l
 
 Choosing a common node will mean that file storage servers will have too much CPU and that application servers will have to much disk space.
 We plan to remedy that by running everything on Kubernetes.
-This allows us to have a blended workloads using all CPU and disk.
+This allows us to have a blended workload using all CPU and disk.
 For example we can file storage and background jobs on the same server, one is disk heavy and one is CPU heavy.
 We will start by having one workload per server to reduce complexity.
 This means that when we need to grow we can still unlock almost twice as much disk space and CPU by blending the workloads.
@@ -97,15 +99,16 @@ Disks can be slow so we looked at improving latency.
 Higher RPM hard drives typically come in [GB instead of TB sizes](http://www.seagate.com/enterprise-storage/hard-disk-drives/enterprise-performance-15k-hdd/).
 Going all SSD is too expensive.
 To improve latency we plan to fit every server with an SSD card.
-On the fileservers this will be used to as a cache.
+On the fileservers this will be used as a cache.
+We're thinking about using [Bcache](https://en.wikipedia.org/wiki/Bcache) for this.
 
-We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) SSD's because they have a good reputation.
+We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) SSD's because they are recommended by the CephFS experts we hired.
 For most servers it will be the [800GB SSDPEDMD800G4](http://www.supermicro.com/products/nfo/PCI-E_SSD.cfm?show=Intel).
 For the database servers we plan to use the the 1.6TB variant to have more headroom.
 
 D1 We plan to configure the disks as just a bunch of disks (JBOD) but heard that this caused performance problems with some controllers. Is this likely to impact us?
 
-D2 What technology should we use to improve latency on on the Ceph OSD servers with SSD?
+D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD?
 
 D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit?
 
@@ -165,6 +168,8 @@ N4 Do we need an SDN compatible router or can we purchase something more afforda
 N5 What router should we use for the management network?
 
 # Backup
+
+We're still early in figuring out the backup solution so there are still lots of questions.
 
 Backing up 480TB of data (expected size in 2017) is pretty hard.
 We thought about using [Google Nearline](https://cloud.google.com/storage-nearline/) because with a price of $0.01 per GB per month means that for $4800 we don't have to worry about much.
@@ -258,7 +263,7 @@ We've worked in [an issue](https://gitlab.com/gitlab-com/infrastructure/issues/7
 
 Apart from the obvious (reliable, affordable) we had the following needs:
 
-- AWS Direct uplink so we can use the cloud for temporary application server needs
+- [AWS Direct connect](https://aws.amazon.com/directconnect/details/) so we can use the cloud for temporary application server needs
 - Based on the east coast of the USA since it povides the best latency tradeoff for most of our users
 - Advanced remote hands service so we don't have to station people near the datacenter at all times
 - Ability to upgrade from one rack to a private cage
@@ -276,6 +281,8 @@ H1 Any watchouts when selecting hosting providers?
 H2 Should we install the servers ourselves or is it OK to let the hosting provider do that?
 
 H3 How can we minimize installation costs? Should we ask to configure the servers to PXE boot?
+
+H4 Is there an Azure equivalent for AWS Direct Connect?
 
 # Costs
 
