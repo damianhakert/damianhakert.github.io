@@ -334,7 +334,7 @@ And we could probably have reduced the cost of cloud hosting by focussing on it.
 
 The bigger expense will be hiring more people to deal with the additional complexity.
 We'll probably need to hire a couple of people more to deal with this.
-We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistake after mistake in this post we would love to talk to you.
+We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistakes in this post we would love to talk to you (and if you didn't spot many mistakes but think you can help us we also want to talk to you).
 
 We looked into initially having disks in only half the servers but that saves only $20k ($225 per disk) and it would create a lot of work when we eventually have to install them.
 
