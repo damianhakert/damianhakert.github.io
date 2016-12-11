@@ -15,6 +15,24 @@ We'll try to update the questions with prelimenary answers as we learn more.
 
 <!-- more -->
 
+# Overview
+
+Today, GitLab.com hosts 96TB of data, and that number is growing rapidly. We
+are attempting to build a fault-tolerant and performant CephFS cluster. We are
+also attempting to move GitLab application servers and supporting services
+(e.g. PostgreSQL) to bare metal.
+
+Note that for now our CI Runners will stay in the cloud. Not only are they are
+much less sensitive to latency, but autoscaling is easier with a cloud service.
+
+![IOPS on GitLab.com](/images/blogimages/write_iops.png)
+
+The above picture shows the currently number of Input/output Operations Per
+Second (IOPS) on GitLab.com. On our current NFS servers, our peak write IOPS
+often hit close to 500K, and our peak read IOPS reach 200K. These numbers
+suggest that using spinning disks alone may not be enough; we need to use
+high-performance SSDs judiciously.
+
 # Chassis
 
 One of the team members that will join GitLab in 2017 recommended using a [6028TP-HTTR SuperMicro 2U Twin2 server](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) chassis that has 4 dual processor nodes and is 2 [rack units](https://en.wikipedia.org/wiki/Rack_unit) (U) high. The advantages are:
@@ -54,19 +72,12 @@ We would like to have one common node so that they are interchangable.
 This would mean installing only a few disks per node instead of having large fileservers.
 This would distribute failures and IO.
 
-![IOPS on GitLab.com](/images/blogimages/write_iops.png)
-
-The above picture shows the currently number of Input/output Operations Per Second (IOPS) on GitLab.com.
-With more than 100k write IOPS it would be nice to distribute than among many servers.
-
 One task that we could not fit on the common nodes was PostgreSQL.
 Our current plan is to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
 But for now, we need to scale vertically so we need a lot of memory and CPU.
 We need at least a primary and secondary database.
 We wanted to add a second pair for testing and to ensure spares in case of failure.
 Details about this are in the following sections.
-
-For now our CI Runners will stay in the cloud. They are much less sensitive to latency.
 
 Choosing a common node will mean that file storage servers will have too much CPU and that application servers will have too much disk space.
 We plan to remedy that by running everything on Kubernetes.
