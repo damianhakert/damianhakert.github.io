@@ -113,6 +113,9 @@ We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/so
 For most servers it will be the [800GB SSDPEDMD800G4](http://www.supermicro.com/products/nfo/PCI-E_SSD.cfm?show=Intel).
 For the database servers we plan to use the the 1.6TB variant to have more headroom.
 
+We plan to add a 64GB [SSD SATADOM boot drive](https://www.supermicro.com/products/nfo/SATADOM.cfm) to the servers to boot from.
+This way we can keep the large SSD as a separate volume.
+
 D1 We plan to configure the disks as just a bunch of disks (JBOD) but heard that this caused performance problems with some controllers. Is this likely to impact us?
 
 D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD?
@@ -120,6 +123,8 @@ D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD?
 D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit?
 
 D4 Should we ask for 8TB HGST drives instead of Seagate since they seem [more reliable](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/).
+
+D5 Is it a good idea to have a boot drive or should we use [PXE boot](https://en.wikipedia.org/wiki/Preboot_Execution_Environment) every time it starts?
 
 # Memory
 
