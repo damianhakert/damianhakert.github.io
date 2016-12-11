@@ -254,24 +254,53 @@ P2 Should we give our hosting party special instructions to make sure the two po
 
 # Hosting
 
-PXE
-Advanced remote hands
-AWS Direct
+We've worked in [an issue](https://gitlab.com/gitlab-com/infrastructure/issues/732) to see where we should host.
 
+Apart from the obvious (reliable, affordable) we had the following needs:
+
+- AWS Direct uplink so we can use the cloud for temporary application server needs
+- Based on the east coast of the USA since it povides the best latency tradeoff for most of our users
+- Advanced remote hands service so we don't have to station people near the datacenter at all times
+- Ability to upgrade from one rack to a private cage
+
+The following networking options are a plus:
+
+- Carrier neutral (all major global network providers in its meet-me facility)
+- Backbones to other locations to provide cheap 2nd site transit
+- CDN services to reduce origin bandwidth costs
+
+So far we've gotten quotes from [QTS in Ashburn, VA](http://www.qtsdatacenters.com/data-centers/ashburn) and [NYI in Bridgewater, NJ](https://www.nyi.net/datacenters/new-jersey/).
+
+H1 Any watchouts when selecting hosting providers?
+
+H2 Should we install the servers ourselves or is it OK to let the hosting provider do that?
+
+H3 How can we minimize installation costs? Should we ask to configure the servers to PXE boot?
 
 # Costs
 
-$200k per month
-2 months of hosting
-memory is xxx
-hdd disk is cheap
+We can't give cost details since all the quotes we receive are confidential.
+The cloud hosting for GitLab.com excluding GitLab CI is currently costing us about $200k per month.
+The capital needed for going to metal would be less than we pay for 1 quarter of hosting.
+The hosting facility costs look to be less than $10k per month.
+If you spread the capital costs over 2.5 years (10 quarters) it is 10x cheaper to host your own.
 
-half disks is only $20k
+Of course the growth of GitLab.com will soon force us to buy additional hardware.
+But we would also have to pay extra for additional cloud capacity.
+Our proposed buying plan is about 5x the capacity we need now.
+Having your own hardware means you're always overprovisioned.
+And we could probably have reduced the cost of cloud hosting by focussing on it.
 
-hosting costs
+The bigger expense will hiring more people to deal with the additional complexity.
+We'll probably need to hire a couple of people more to deal with this.
+We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistake after mistake in this post we would love to talk to you.
+
+We looked into initially having disks in only half the servers but that saves only $20k ($225 per disk) and it would create a lot of work when we eventually have to install them.
+
+C1 If we want to look at leasing should we do that through SuperMicro or third party?
+
+C2 Are there way we can save money?
 
 # Details
 
 Our detailed calculations and notes can be found in a [public Google sheet](https://docs.google.com/spreadsheets/d/1XG9VXdDxNd8ipgPlEr7Nb7Eg22twXPuzgDwsOhtdYKQ/edit#gid=894825456).
-
-
