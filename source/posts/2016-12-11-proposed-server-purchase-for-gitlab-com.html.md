@@ -97,7 +97,7 @@ The [SuperServer 6028TP-HTTR](https://www.supermicro.nl/products/system/2U/6028/
 We think the [E5-2630v4](http://ark.intel.com/products/92981/Intel-Xeon-Processor-E5-2630-v4-25M-Cache-2_20-GHz) is a good blend of power and cost.
 It has 20 virtual cores at 2.20Ghz, 25MB cache, and costs about $669 per processor.
 Every physical core is two virtual cores due to [hyperthreading](https://en.wikipedia.org/wiki/Hyper-threading).
-A slightly more powerfull processor is the [E5-2640v4](https://ark.intel.com/products/92984/Intel-Xeon-Processor-E5-2640-v4-25M-Cache-2_40-GHz) but while the [SPECint score](https://en.wikipedia.org/wiki/SPECint) increases from 845 to 887 the costs increase from $669 to $939.
+A slightly more powerful processor is the [E5-2640v4](https://ark.intel.com/products/92984/Intel-Xeon-Processor-E5-2640-v4-25M-Cache-2_40-GHz) but while the [SPECint score](https://en.wikipedia.org/wiki/SPECint) increases from 845 to 887 the costs increase from $669 to $939.
 You can find the scores by entering a [search on spec.org](https://www.spec.org/cgi-bin/osgresults?conf=rint2006) with 'Hewlett Packard Enterprise' as the hardware vendor and looking for ProLiant DL360 Gen9 as the platform.
 
 Our current SQL server has one E5-2698B v3 with 32 virtual cores.
@@ -125,7 +125,7 @@ To improve latency we plan to fit every server with an SSD card.
 On the fileservers this will be used as a cache.
 We're thinking about using [Bcache](https://en.wikipedia.org/wiki/Bcache) for this.
 
-We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) or slight less powerfull [P3600 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3600-spec.html) of SSD's because they are recommended by the CephFS experts we hired.
+We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) or slight less powerful [P3600 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3600-spec.html) of SSD's because they are recommended by the CephFS experts we hired.
 For most servers it will be the [800GB SSDPEDMD800G4](http://www.supermicro.com/products/nfo/PCI-E_SSD.cfm?show=Intel).
 For the database servers we plan to use the the 1.6TB variant to have more headroom.
 The endurance we need for the database server is 90TB/year, the 3600 series is already above 4PB of endurance.
