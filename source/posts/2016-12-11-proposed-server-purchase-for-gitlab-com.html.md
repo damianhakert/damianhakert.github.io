@@ -15,9 +15,19 @@ We'll try to update the questions with prelimenary answers as we learn more.
 
 <!-- more -->
 
+# Overview
+
+Today, GitLab.com hosts 96TB of data, and that number is growing rapidly. We
+are attempting to build a fault-tolerant and performant CephFS cluster. We are
+also attempting to move GitLab application servers and supporting services
+(e.g. PostgreSQL) to bare metal.
+
+Note that for now our CI Runners will stay in the cloud. Not only are they are
+much less sensitive to latency, but autoscaling is easier with a cloud service.
+
 # Chassis
 
-One of the team members that will join GitLab in 2017 recommended using a [6028TP-HTTR SuperMicro supertwin server](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) chassis that has 4 dual processor nodes and is 2 [rack units](https://en.wikipedia.org/wiki/Rack_unit) (U) high. The advanatages are:
+One of the team members that will join GitLab in 2017 recommended using a [6028TP-HTTR SuperMicro 2U Twin2 server](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) chassis that has 4 dual processor nodes and is 2 [rack units](https://en.wikipedia.org/wiki/Rack_unit) (U) high. The advantages are:
 
 1. Great density, 0.5U per dual processor server
 1. You have one common form factor
@@ -44,7 +54,7 @@ We need the following servers:
 1. 7x Background jobs ([Sidekiq](http://sidekiq.org/))
 1. 5x Key value store ([Redis Sentinel](https://redis.io/topics/sentinel))
 1. 4x Database (PostgreSQL)
-1. 3x Loadbalancers (HAproxy)
+1. 3x Load balancers (HAproxy)
 1. 1x Staging
 1. 1x Spare
 
@@ -56,17 +66,18 @@ This would distribute failures and IO.
 
 ![IOPS on GitLab.com](/images/blogimages/write_iops.png)
 
-The above picture shows the curreny number of Input/output Operations Per Second (IOPS) on GitLab.com.
-With more than 100k write IOPS it would be nice to distribute than among many servers.
+The above picture shows the currently number of Input/output Operations Per
+Second (IOPS) on GitLab.com. On our current NFS servers, our peak write IOPS
+often hit close to 500K, and our peak read IOPS reach 200K. These numbers
+suggest that using spinning disks alone may not be enough; we need to use
+high-performance SSDs judiciously.
 
 One task that we could not fit on the common nodes was PostgreSQL.
-Plan to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
-But for now we need to scale vertically so we need a lot of Memory and CPU.
-We need at least a primary and secondary.
+Our current plan is to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
+But for now, we need to scale vertically so we need a lot of memory and CPU.
+We need at least a primary and secondary database.
 We wanted to add a second pair for testing and to ensure spares in case of failure.
 Details about this are in the following sections.
-
-For now our CI Runners will stay in the cloud. They are much less sensitive to latency.
 
 Choosing a common node will mean that file storage servers will have too much CPU and that application servers will have too much disk space.
 We plan to remedy that by running everything on Kubernetes.
@@ -74,7 +85,7 @@ This allows us to have a blended workload using all CPU and disk.
 For example we can combine file storage and background jobs on the same server since one is disk heavy and one is CPU heavy.
 We will start by having one workload per server to reduce complexity.
 This means that when we need to grow we can still unlock almost twice as much disk space and CPU by blending the workloads.
-Please note that this will be container based, to get maximum IO performance we won't not virtualize our workload.
+Please note that this will be container based, to get maximum IO performance we won't virtualize our workload.
 
 N1 Shall we spread the database servers among different chassis to make sure they don't all fail when one chassis fails?
 
@@ -147,20 +158,20 @@ For the SQL nodes we'll need much more memory, we currently give it 440GB and it
 The database is about 250GB in size and growing with 40GB per month.
 At 250GB of server memory we redlined the server, probably because it no longer fits into memory.
 Theoretically the server supports 2TB of memory but it needs to fit in 16 memory slots per node.
-We wanted to start with 1TB per server but we're not sure if we should go from a 64GB dimm to 128GB to be able to expand later.
+We wanted to start with 1TB per server but we're not sure if we should go from a 64GB DIMM to 128GB to be able to expand later.
 By having only half of the memory banks full you get half the bandwidth.
-And 64GB dimms already cost twice as much per GB as 32GB dimms, let alone 128GB ones.
-At a price of about $940 per 64 dimm the cost for 1TB of memory already is $15k per server.
+And 64GB DIMMs already cost twice as much per GB as 32GB DIMMs, let alone 128GB ones.
+At a price of about $940 per 64 DIMM the cost for 1TB of memory already is $15k per server.
 
 Note that larger sizes such as 64GB come in the form of LRDIMM that has a [small performance penalty](https://www.microway.com/hpc-tech-tips/ddr4-rdimm-lrdimm-performance-comparison/) but this looks acceptable.
 
-M1. Should we use 128dimms to be able to expand the database server later even though the will double the cost and half the bandwidth?
+M1. Should we use 128GB DIMMS to be able to expand the database server later even though the will double the cost and half the bandwidth?
 
 # Network
 
 The servers come with 2x 10Gbps RJ45 by default (Intel X540 Dual port 10GBase-T).
 We want to [dual bound](https://docs.oracle.com/cd/E37670_01/E41138/html/ch11s05.html) the network connections to increase performance and reliability.
-We think that 20Gbps is enough to have minimal latency between the Ceph servers, right now our higest peaks are 1Gbps.
+We think that 20Gbps is enough bandwidth to have minimal latency between the Ceph servers, right now our higest peaks are 1Gbps.
 And this will allow us to take routers out of service during low traffic times, for example to restart them after a software upgrade.
 
 Ceph reference designs recommend a seperated front and back network with the back network reserved for Ceph traffic.
@@ -278,8 +289,6 @@ That doesn't account for the routers and backup.
 Both hosting providers quoted 4 x 208v 30A power supplies (2 for redundancy).
 
 P1 Does the quoted supply seem adequate for our needs?
-
-P2 Should we give our hosting party special instructions to make sure the two power supplies of each chassis are connected to a different [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply#/media/File:MGE_Uninterruptible_Power_Supply_at_NERSC.jpg)?
 
 # Hosting
 
