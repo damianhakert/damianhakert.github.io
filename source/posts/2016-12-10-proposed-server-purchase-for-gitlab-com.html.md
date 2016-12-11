@@ -109,6 +109,8 @@ D2 What technology should we use to improve latency on on the Ceph OSD servers w
 
 D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit?
 
+D4 Should we ask for 8TB HGST drives instead of Seagate since they seem [more reliable](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/).
+
 # Memory
 
 Suppose one node runs both as application server and fileserver.
@@ -160,13 +162,95 @@ N3 Should we have a separate network for Ceph traffic?
 
 N4 Do we need an SDN compatible router or can we purchase something more affordable?
 
+N5 What router should we use for the management network?
+
 # Backup
 
-Mention backblaze
+Backing up 480TB of data (expected size in 2017) is pretty hard.
+We thought about using [Google Nearline](https://cloud.google.com/storage-nearline/) because with a price of $0.01 per GB per month means that for $4800 we don't have to worry about much.
+But restoring that over a 1Gbps connection takes 44 days, way too long.
+
+We mainly want our backup to protect against us against human and software errors.
+Because all the files are already replicated 3 times hardware errors are unlikely to affect us.
+Of course we should have a good [Ceph CRUSH map](http://docs.ceph.com/docs/jewel/rados/operations/crush-map/) to prevent storing multiple copies on the same chassis.
+
+We're most afraid of human error or Ceph corruption. For that reason we don't want to replicate on the Ceph level but on the file level.
+
+We're thinking about using [Bareos backup software](https://www.bareos.org/en/) to replicate to a huge fileserver.
+We're inspired by the posts about the [latest 480TB Backblaze storage pod 6.0](https://www.backblaze.com/blog/open-source-data-storage-server/) and these are available for $6k without drives from [Backuppods](https://www.backuppods.com/).
+But SuperMicro offers a [comparable solution in the form of a SuperChassis that can hold 90 drives](https://www.supermicro.com/products/chassis/4U/946/SC946ED-R2KJBOD).
+At 8TB per drive that is 720TB of raw storage.
+Even with RAID overhead it should be possible to have 480TB of usable storage (66%).
+
+The SuperChassis is only hard drives, it still needs a controller. In a [reference architecture by Nexenta (PDF download)](https://nexenta.com/sites/default/files/docs/Nexenta_SMC_RA_DataSheet.pdf) two [SYS6028U](https://www.supermicro.com/products/system/2u/6028/sys-6028u-tr4_.cfm) with E5-2643v3 processors and 256GB of RAM is recommended. Unlike smaller configurations this one doesn't come with an SSD for [ZFS L2ARC](https://blogs.oracle.com/brendan/entry/test).
+
+Since backups are mostly linear we don't need an SSD for caching. In general 1GB of memory per TB of raw ZFS disk space is recommended. That would mean getting 512GB of RAM, 16x 32GB. Unlike the reference architecture we'll go with one controller. We're considering the [SuperServer 1028R-WC1RT](https://www.supermicro.com/products/system/1U/1028/SYS-1028R-WC1RT.cfm) since it is similar to our other servers, 1U, has 2x 10Gbps, 16 DIMM slots, and has 2 PCI slots. We'll use our regular [E5-2630v4](http://ark.intel.com/products/92981/Intel-Xeon-Processor-E5-2630-v4-25M-Cache-2_20-GHz) processor.
+
+The question is if this controller can saturate the 20 Gbps uplink.
+For this it needs to use both 12 Gbps SAS buses.
+And each drive has to do at least 30 MBps which seems reasonable for a continuous read.
+
+The problem is that even at 20Gbps a full restore takes 2 days.
+Of course many times you need to restore only part of the files (uploads).
+And most of the time it won't contain 480TB (we'll start at about 100TB).
+They question is if we can accept this worst case scenario for GitLab.com.
+
+An alternative would be to use multiple controllers.
+But you can't aggregate ZFS pools over multiple servers.
+Another option would be to have one controller with more IO.
+We can use multiple disk enclosures and multiple SAS buses.
+And we can add more network ports and/or switch to 40Gbps.
+But this all seems pretty complicated.
+
+B0 Are we on the right track here or is 20 Gbps of restore speed not OK?
+
+B1 Should we go for the [90 or 60 drive SuperChassis](https://www.supermicro.com/products/chassis/4U/?chs=946)? It looks like 60 drive one has more peak power (1600W vs. 800W) to start the drives.
+
+B2 How should we configure the SuperChassis? [ZFS on Linux](http://zfsonlinux.org/) with [RAIDZ3](https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/)?
+
+B3 Will the SuperChassis be able to saturate the 20Gbsp connection?
+
+B4 Should we upgrade the networking on the SuperChassis to be able to restore even faster?
+
+B5 Is Bareos the right software to use?
+
+B6 How should we configure the backup software?  Should we use incremental backups with parallel jobs to speed things up?
+
+B7 Should we use the live filesystem or [CephFS snapshots](http://docs.ceph.com/docs/master/dev/cephfs-snapshots/) to back up from?
+
+B8 How common is it to have have a tape or cloud backup in addition to the above?
+
+B9 Should we pick the top load model or [one of the front and rear access models](https://www.supermicro.com/products/chassis/JBOD/index.cfm?show=SELECT&storage=90).
+
+B10 Can we connect two SAS cables to get 2x 12 Gbps?
+
+B11 What [HBA card](https://www.supermicro.com/products/nfo/storage_cards.cfm) should be add to the controler or does it come with an LSI 3108?
+
+B12 Is it smart to make the controller a seperate 1U box or should we reporpose some of our normal nodes for this?
 
 # Rack
 
+The default rack size seems to be 45 nowdays (42 used to be the standard).
+
+It is used as follows:
+
+- 32U for 16 chassis with 64 nodes
+- 3U for three network routers (48x3=144 should cover 65x2=130 ports)
+- 1U for the management network
+- 4U for the disk enclosure
+- 1U for the disk controller
+- 4U spare for 2 new chassis (maybe distributed PostgreSQL servers)
+
 # Power
+
+Each chassis has a 2000 watt power supply (comes to 1kW per U), 32kW in total.
+Normal usage is guessed at 60% of the rated capacity, about 19kW.
+That doesn't account for the routers and backup.
+Both hosting providers quoted 4 x 208v 30A power supplies (2 for redundancy).
+
+P1 Does the quoted supply seem adequate for our needs?
+
+P2 Should we give our hosting party special instructions to make sure the two power supplies of each chassis are connected to a different [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply#/media/File:MGE_Uninterruptible_Power_Supply_at_NERSC.jpg)?
 
 # Hosting
 
