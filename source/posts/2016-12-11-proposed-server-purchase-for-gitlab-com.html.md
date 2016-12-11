@@ -10,7 +10,7 @@ description: "What hardware we're considering purchasing now that we have to mov
 We want to make GitLab.com fast and we [knew it was time to leave the cloud](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and purchase our own servers.
 In this post is our thinking about what chassis, rack, memory, CPU, network, power, and hosting to buy.
 We wanted to share what we learned and get your feedback on our proposal and questions.
-When you reply to a question please reference it with their letter and number: 'Regarding R1'.
+When you reply to a question in the comments on our blog or Hacker News please reference it with the letter and number: 'Regarding R1'.
 We'll try to update the questions with prelimenary answers as we learn more.
 
 <!-- more -->
@@ -38,11 +38,11 @@ C2 What is the best Dell equivalent?
 
 We need the following servers:
 
-1. 32x File storage (Ceph OSD)
-1. 3x File Monitoring (Ceph MON)
-1. 10x Application server ([unicorn](https://bogomips.org/unicorn/))
-1. 7x Background jobs (sidekiq)
-1. 3x Key value store (Redis Sentinel)
+1. 32x File storage (CephFS OSD)
+1. 3x File Monitoring (CephFS MON)
+1. 8x Application server ([Unicorn](https://bogomips.org/unicorn/))
+1. 7x Background jobs ([Sidekiq](http://sidekiq.org/))
+1. 5x Key value store ([Redis Sentinel](https://redis.io/topics/sentinel))
 1. 4x Database (PostgreSQL)
 1. 3x Loadbalancers (HAproxy)
 1. 1x Staging
@@ -84,15 +84,18 @@ N2 Does Ceph handle running 60 OSD nodes well or can this cause problems?
 
 The [SuperServer 6028TP-HTTR](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) supports dual E5-2600v4 processors per node.
 We think the [E5-2630v4](http://ark.intel.com/products/92981/Intel-Xeon-Processor-E5-2630-v4-25M-Cache-2_20-GHz) is a good blend of power and cost.
-It has 20 virtual cores at 2.20Ghz, 25MB cache, and costs about $670 per processor.
+It has 20 virtual cores at 2.20Ghz, 25MB cache, and costs about $669 per processor.
 Every physical core is two virtual cores due to [hyperthreading](https://en.wikipedia.org/wiki/Hyper-threading).
+A slightly more powerfull processor is the [E5-2640v4](https://ark.intel.com/products/92984/Intel-Xeon-Processor-E5-2640-v4-25M-Cache-2_40-GHz) but while the [SPECint score](https://en.wikipedia.org/wiki/SPECint) increases from 845 to 887 the costs increase from $669 to $939.
+You can find the scores by entering a [search on spec.org](https://www.spec.org/cgi-bin/osgresults?conf=rint2006) with 'Hewlett Packard Enterprise' as the hardware vendor and looking for ProLiant DL360 Gen9 as the platform.
 
 Our current SQL server has one E5-2698B v3 with 32 virtual cores.
 PostgreSQL commonly uses about 20-25 virtual cores.
 Moving to dual processors should already help a lot.
 To give us more months to grow before having to distribute the database we want to purchase some headroom.
 That is why we're getting a [E5-2687Wv4](https://ark.intel.com/products/91750/Intel-Xeon-Processor-E5-2687W-v4-30M-Cache-3_00-GHz) for the database servers.
-This processor costs $2100 instead of $670 but has 4 extra virtual cores and runs continuously on 3 Ghz instead of 2.2.
+This processor costs $2100 instead of $670 but has 4 extra virtual cores and runs continuously on 3 Ghz instead of 2.2 Ghz.
+Comprated to the E5-2630v4 leads to a SPEC score or 1230 instead of 845 and 51.3 SPEC per virtual core instead of 42.3.
 
 # Disk
 
@@ -109,9 +112,10 @@ To improve latency we plan to fit every server with an SSD card.
 On the fileservers this will be used as a cache.
 We're thinking about using [Bcache](https://en.wikipedia.org/wiki/Bcache) for this.
 
-We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) SSD's because they are recommended by the CephFS experts we hired.
+We plan to use [Intel DC P3700 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3700-spec.html) or slight less powerfull [P3600 series](http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-p3600-spec.html) of SSD's because they are recommended by the CephFS experts we hired.
 For most servers it will be the [800GB SSDPEDMD800G4](http://www.supermicro.com/products/nfo/PCI-E_SSD.cfm?show=Intel).
 For the database servers we plan to use the the 1.6TB variant to have more headroom.
+The endurance we need for the database server is 90TB/year, the 3600 series is already above 4PB of endurance.
 
 We plan to add a 64GB [SSD SATADOM boot drive](https://www.supermicro.com/products/nfo/SATADOM.cfm) to the servers to boot from.
 This way we can keep the large SSD as a separate volume.
@@ -125,6 +129,8 @@ D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](
 D4 Should we ask for 8TB HGST drives instead of Seagate since they seem [more reliable](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/).
 
 D5 Is it a good idea to have a boot drive or should we use [PXE boot](https://en.wikipedia.org/wiki/Preboot_Execution_Environment) every time it starts?
+
+D6 Should we go for the 3700 series SSD or save some money and go for the 3600 series? Both for the normal and the SQL servers?
 
 # Memory
 
@@ -154,7 +160,7 @@ M1. Should we use 128dimms to be able to expand the database server later even t
 
 The servers come with 2x 10Gbps RJ45 by default (Intel X540 Dual port 10GBase-T).
 We want to [dual bound](https://docs.oracle.com/cd/E37670_01/E41138/html/ch11s05.html) the network connections to increase performance and reliability.
-We think that 20Gbps is enough to have minimal latency between the Ceph servers.
+We think that 20Gbps is enough to have minimal latency between the Ceph servers, right now our higest peaks are 1Gbps.
 And this will allow us to take routers out of service during low traffic times, for example to restart them after a software upgrade.
 
 Ceph reference designs recommend a seperated front and back network with the back network reserved for Ceph traffic.
@@ -249,6 +255,8 @@ B11 What [HBA card](https://www.supermicro.com/products/nfo/storage_cards.cfm) s
 
 B12 Is it smart to make the controller a seperate 1U box or should we repurpose some of our normal nodes for this?
 
+B13 Any hints on how to test the backup restore (on AWS or our hardware, how often, etc.)?
+
 # Rack
 
 The default rack height seems to be 45U nowadays (42U used to be the standard).
@@ -300,7 +308,7 @@ H3 How can we minimize installation costs? Should we ask to configure the server
 
 H4 Is there an Azure equivalent for AWS Direct Connect?
 
-# Costs
+# Expense
 
 We can't give cost details since all the quotes we receive are confidential.
 The cloud hosting for GitLab.com excluding GitLab CI is currently costing us about $200k per month.
@@ -320,9 +328,9 @@ We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engi
 
 We looked into initially having disks in only half the servers but that saves only $20k ($225 per disk) and it would create a lot of work when we eventually have to install them.
 
-C1 If we want to look at leasing should we do that through SuperMicro or third party?
+E1 If we want to look at leasing should we do that through SuperMicro or third party?
 
-C2 Are there ways we can save money?
+E2 Are there ways we can save money?
 
 # Details
 
