@@ -137,7 +137,7 @@ D1 We plan to configure the disks as just a bunch of disks (JBOD) but heard that
 
 D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD? => Make sure you're using a kernel >= 4.5, since that's when a bunch of stability patches landed (https://lkml.org/lkml/2015/12/5/38).
 
-D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit?
+D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit? => [Florian Heigl](http://disq.us/p/1eedj2n): "Somewhat unlikely you will be able to fit a P3700. I have a Twin^2 too and the only SSD I could fit there was a consumer NVME with a PCIe adapter board."
 
 D4 Should we ask for 8TB HGST drives instead of Seagate since they seem [more reliable](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/).
 
