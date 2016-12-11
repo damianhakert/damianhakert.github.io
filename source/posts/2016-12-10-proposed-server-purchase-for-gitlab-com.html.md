@@ -57,7 +57,7 @@ This would distribute failures and IO.
 ![IOPS on GitLab.com](/images/blogimages/write_iops.png)
 
 The above picture shows the curreny number of Input/output Operations Per Second (IOPS) on GitLab.com.
-With more than 100k IOPS it would be nice to distribute than among multiple servers.
+With more than 100k write IOPS it would be nice to distribute than among many servers.
 
 One task that we could not fit on the common nodes was PostgreSQL.
 Plan to make PostgreSQL distributed in 2017 with the help of [Citus](https://www.citusdata.com/).
