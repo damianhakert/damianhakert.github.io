@@ -19,10 +19,10 @@ gem "middleman-syntax"
 gem 'kramdown', '~> 1.10'
 gem 'nokogiri'
 
-# therubyracer do not compile on Windows. According to this post:
+# therubyracer does not compile on Windows. According to this post:
 # http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows#comment7926287_6356450
 # ... looks like it is not needed when we are not deploying.
-# So, Windows users can safelly comment this gem to run `bundle install`, than `bundle exec middleman`
+# So, Windows users can safely comment this gem to run `bundle install`, then `bundle exec middleman`
 gem 'therubyracer'
 
 # For feed.xml.builder
