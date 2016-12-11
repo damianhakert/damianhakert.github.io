@@ -171,8 +171,9 @@ M1. Should we use 128GB DIMMS to be able to expand the database server later eve
 
 The servers come with 2x 10Gbps RJ45 by default (Intel X540 Dual port 10GBase-T).
 We want to [dual bound](https://docs.oracle.com/cd/E37670_01/E41138/html/ch11s05.html) the network connections to increase performance and reliability.
-We think that 20Gbps is enough bandwidth to have minimal latency between the Ceph servers, right now our higest peaks are 1Gbps.
-And this will allow us to take routers out of service during low traffic times, for example to restart them after a software upgrade.
+This will allow us to take routers out of service during low traffic times, for example to restart them after a software upgrade.
+We think that 20Gbps is enough bandwidth to handle our data access and replication needs, right now our higest peaks are 1 Gbps.
+This is important because we want to have minimal latency between the Ceph servers so network congestion would be a problem.
 
 Ceph reference designs recommend a seperated front and back network with the back network reserved for Ceph traffic.
 We think that this is not needed as long as there is enough capacity.
