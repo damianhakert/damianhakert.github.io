@@ -106,7 +106,9 @@ Moving to dual processors should already help a lot.
 To give us more months to grow before having to distribute the database we want to purchase some headroom.
 That is why we're getting a [E5-2687Wv4](https://ark.intel.com/products/91750/Intel-Xeon-Processor-E5-2687W-v4-30M-Cache-3_00-GHz) for the database servers.
 This processor costs $2100 instead of $670 but has 4 extra virtual cores and runs continuously on 3 Ghz instead of 2.2 Ghz.
-Comprated to the E5-2630v4 leads to a SPEC score or 1230 instead of 845 and 51.3 SPEC per virtual core instead of 42.3.
+Comprated to the E5-2630v4 that leads to a SPEC score or 1230 instead of 845 and 51.3 SPEC per virtual core instead of 42.3.
+For the 4 dual processor database servers this upgrade will cost $11k.
+We think it is worth it since the 20-40% of extra performence will buy us the month or two of extra time to distribute the database that we need.
 
 # Disk
 
