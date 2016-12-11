@@ -44,7 +44,7 @@ C1 Should we use another version of the chassis than HTTR?
 
 C2 What is the best Dell equivalent?
 
-# Chassis
+# Servers
 
 We need the following servers:
 
@@ -87,9 +87,9 @@ We will start by having one workload per server to reduce complexity.
 This means that when we need to grow we can still unlock almost twice as much disk space and CPU by blending the workloads.
 Please note that this will be container based, to get maximum IO performance we won't virtualize our workload.
 
-C1 Shall we spread the database servers among different chassis to make sure they don't all fail when one chassis fails?
+S1 Shall we spread the database servers among different chassis to make sure they don't all fail when one chassis fails?
 
-C2 Does Ceph handle running 60 OSD nodes well or can this cause problems?
+S2 Does Ceph handle running 60 OSD nodes well or can this cause problems?
 
 # CPU
 
