@@ -4,7 +4,7 @@ author: Sid Sijbrandij
 author_twitter: sytses
 categories: gitlab
 image_title: '/images/default-blog-image.png'
-description: ""
+description: "What hardware we're considering purchasing now that we have to move GitLab.com to metal."
 ---
 
 We want to make GitLab.com fast and we [knew it was time to leave the cloud](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and purchase our own servers.
@@ -30,7 +30,9 @@ This server is on the list of global SKU's for SuperMicro.
 We'll also ask for quotes from other vendors to see if they have a competitive alternative.
 For example HPE has the [Apollo 2000 series](https://www.hpe.com/h20195/v2/getpdf.aspx/c04542552.pdf?ver=7).
 
-C1 Should we use another version than HTTR?
+C1 Should we use another version of the chassis than HTTR?
+
+C2 What is the best Dell equivalent?
 
 # Node
 
