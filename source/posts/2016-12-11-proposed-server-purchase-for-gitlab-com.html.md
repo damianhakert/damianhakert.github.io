@@ -135,7 +135,7 @@ This way we can keep the large SSD as a separate volume.
 
 D1 We plan to configure the disks as just a bunch of disks (JBOD) but heard that this caused performance problems with some controllers. Is this likely to impact us?
 
-D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD?
+D2 Should we use Bcache to improve latency on on the Ceph OSD servers with SSD? => Make sure you're using a kernel >= 4.5, since that's when a bunch of stability patches landed (https://lkml.org/lkml/2015/12/5/38).
 
 D3 We heard concerns about fitting the PCIe 3.0 x 4 SSD card into [our chassis](https://www.supermicro.nl/products/system/2U/6028/SYS-6028TP-HTTR.cfm) that supports a PCI-E 3.0 x16 Low-profile slot. Will this fit?
 
