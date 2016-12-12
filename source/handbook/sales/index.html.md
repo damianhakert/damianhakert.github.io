@@ -483,7 +483,14 @@ Once the above has happened, please make sure the following actions are done:
 1. On the Account record, make sure you've added the Industry. You will receive an error message if you attempt to close won an opportunity without an Industry.
 1. On the Opportunity record, attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
 1. Add the competition we were up against in the opportunity in the Competitor field, which is located in the Qualification Questions section. This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meaning GitLab CE or .com
-1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
+1. Submit the Opportunity for Approval. To do this, complete the following steps:
+  * Click on the Submit for Approval button on the opportunity.
+  * The opportunity will be locked, meaning that you will not be able to make any updates. If you'd like to unlock the opportunity to make changes, you'll have to recall the approval submission. Scroll down to the Approval History secion and click on the Recall Approval Request button. Once you've made your changes, you can resubmit your opportunity for approval.
+  * An email will be sent to you confirming that the opportunity has been submitted for approval.
+  * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
+  * If you would like to recall the submission, just click on 
+  * If the opportunity has been rejected, the approver will add notes. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval.
+  * If the opportunity has been approved, you will receive an email that the opportunity has been approved. The opportunity will automtically change to Closed Won and the Close Date will update to the date of submission.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
 1. If the customer agrees to be a reference, please complete the following steps:
   * In the Referenceable Customer field on the account page, change the picklist value to "Yes".
@@ -494,6 +501,7 @@ Once the above has happened, please make sure the following actions are done:
 1. If the customer declines to be a reference in any way, please note that we cannot mention them in any external conversations with prospects or investors. Please make sure to add notes in the Reference Notes field on why the customer declined.
 1. Once the opportunity is closed won, the field "type" on the account object will change to "Customer".
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 
 **Reference Types:**
 
