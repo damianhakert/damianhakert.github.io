@@ -532,3 +532,9 @@ iframe {
   }
 }
 //scss-lint:enable SelectorFormat
+
+.note {
+  font-size: 16px;
+  font-style: italic;
+  color: $blog-color-note;
+}
