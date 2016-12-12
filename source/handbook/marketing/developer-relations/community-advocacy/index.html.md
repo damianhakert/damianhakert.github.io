@@ -67,6 +67,12 @@ title: "Community Advocacy"
 - Submit the ticket as on-hold
     - If you speak the language in question - answer it
 
+### Tickets that are out of scope from the channel they were submitted in
+
+- EE Customer issues / GitHost customers -> Forward to support
+- User submitted feature request -> Open an issue and link back to the user
+- User submitted bug report -> Reproduce, then open an issue and link back to the user
+
 ## ZenDesk Workflow
 
 ### Suggested Views for ZenDesk
