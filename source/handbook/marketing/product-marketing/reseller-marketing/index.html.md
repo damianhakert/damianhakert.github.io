@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Reseller Marketing"
 ---
 
-Welcome to the Reseller Marketing Handbook
+##Welcome to the Reseller Marketing Handbook
 
 [Up one level to the Product Marketing Handbook](/handbook/marketing/product-marketing/)    
 
