@@ -33,3 +33,16 @@ Collaborative activity feed to help everyone understand what is happening in a p
 
 ### Full, powerful search
 Search through all your code, issues, wikis, commits, groups and projects. Built into GitLab.
+
+### No need to manage licenses
+GitLab EE needs a license, but doesn't require any validation or separate
+licenses for separate servers. With BitBucket Server (Data Center), licenses
+are linked to servers, requiring management of licenses over servers.
+You can deploy 100 instances of GitLab EE for the same price as a single
+instance. You only pay for the total amount of users, not for how you choose to
+manage and scale the software.
+
+### Easy configuration
+GitLab can be easily configured through ENV variables and YAML files.
+This makes maintaining, upgrading and deploying GitLab easy to automate.
+BitBucket Server requires extensive manual configuration.
