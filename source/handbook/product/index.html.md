@@ -5,6 +5,9 @@ title: Product
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome. Infographics from [xkcd](https://www.xkcd.com)._
 
+The document below talks about _how_ we do product at GitLab, not about _what_.
+For the _what_, see [Product Strategy](/direction/strategy).
+
 **Table of contents**
 
 - TOC
