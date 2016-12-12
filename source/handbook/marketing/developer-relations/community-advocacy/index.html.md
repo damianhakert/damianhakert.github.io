@@ -70,6 +70,7 @@ title: "Community Advocacy"
 ### Tickets that are out of scope from the channel they were submitted in
 
 - EE Customer issues / GitHost customers -> Forward to support
+- 2FA reset queries -> Forward to support
 - User submitted feature request -> Open an issue and link back to the user
 - User submitted bug report -> Reproduce, then open an issue and link back to the user
 
