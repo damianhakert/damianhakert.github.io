@@ -119,14 +119,19 @@ configure :build do
   activate :minify_javascript
   activate :minify_html
 
-  ## Direction page
-  if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
+  # Populate the direction and release list pages only on master.
+  # That will help shave off some time of the build times on branches.
+  if ENV['CI_BUILD_REF_NAME'] == 'master'
+    ## Direction page
+    if PRIVATE_TOKEN
+      proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
+    end
+
+    ## Release list page
+    releases = ReleaseList.new
+    proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.generate }, ignore: true
   end
 
-  ## Release list page
-  releases = ReleaseList.new
-  proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
 end
 
 org_chart = OrgChart.new

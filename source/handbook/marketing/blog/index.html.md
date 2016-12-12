@@ -539,6 +539,7 @@ Use only **one** of the following categories per post.
 otherwise you'll create another category, which is somenthing we don't want to do unpurposely.
 
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
+- customer stories
 - events
 - git
 - GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_

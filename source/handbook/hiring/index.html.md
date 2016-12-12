@@ -11,8 +11,7 @@ title: "Hiring"
 
 ## General note on hiring
 
-If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](#https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
-
+If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
 
 ## Vacancy Creation Process
 
@@ -48,6 +47,8 @@ The CEO must authorize any new job positions/searches.
 
 ## Publicize the job
 
+The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/#referral-bonuses)
+
 The recruiting team will **always** publicize the job through the following means:
 
 1. Announce it on team call and on the #general chat channel.
@@ -65,9 +66,9 @@ The recruiting team will **always** publicize the job through the following mean
 1. [RemoteOK](https://remoteok.io) ($200 for 90 days, per position)
 1. [RemoteBase](https://remotebase.io/) (Free. Job descriptions are synced directly to our respective job description sites)
 1. [StackOverflow](http://stackoverflow.com/jobs) (Able to post 3 jobs simultaneously, please mention to recruiting team if you want your role listed here)
-1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-egningeering roles)
+1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
-###Sourcing for Open Positions
+### Sourcing for Open Positions
 *On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
 
 
@@ -78,7 +79,7 @@ The recruiting team will **always** publicize the job through the following mean
 
 **Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next."
 
-**The process can differ from team to team and from position to position. If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
+**The process can differ from team to team and from position to position.** If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
 TODO: Update each job description with the process specific to that role.
 
 **Send Calendly link of the next person in the process.** If you have decided to move the applicant on in the process, save time by sending the next interviewer's Calendly link to the applicant. This saves the time it would otherwise take the next interviewer to send the link.
@@ -88,6 +89,8 @@ TODO: Update each job description with the process specific to that role.
 **The CEO authorizes all offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable and informs the CEO on its details depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/global-compensation-framework) fully in place.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
+
+If you have completed your portion of the hiring process and would like to stop receiving notifications about a candidate from Workable, remove yourself as a follower. To do this go to the candidate's profile, under timeline there are boxes with the photo of each follower. Uncheck your photo/name, and this will remove you from the Workable emails. You will be added to each candidate profile upon being mentioned, so you might have to remove yourself each time. 
 
 
 ### Typical process
@@ -227,7 +230,7 @@ The vote is critical as it is telling the rest of the hiring team your opinion o
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
-The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview. 
+The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 All candidates are asked to fill out the form when they are scheduled for an interview with our CEO to discuss during their call with the CEO.
 
 ## Reference calls
@@ -276,3 +279,10 @@ If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the
 ## Underperformance
 
 See [underperformance guidelines](/handbook/underperformance).
+
+## Visas & Work Permits
+
+GitLab does not offer full sponsorship for obtaining a H1B visa at this time.
+If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/sop/#visa-processing). 
+
+For work permits and visas in The Netherlands please refer to [Dutch Work Permits](https://about.gitlab.com/handbook/people-operations/#dutch-work-permits) in our handbook.

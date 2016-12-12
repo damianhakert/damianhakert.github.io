@@ -13,12 +13,14 @@
   h2,
   h3,
   h4 {
-    margin-top: 20px 0 14px;
+    margin: 20px 0 14px;
+    font-weight: 600;
   }
 
   .wrapper {
     max-width: 1050px;
     margin: 0 auto;
+    clear: both;
   }
 
   .alert-webcast {
@@ -32,6 +34,10 @@
 
     a {
       color: $color-white;
+
+      &.contact {
+        color: $blog-color-purple;
+      }
     }
 
     h3 {
@@ -61,16 +67,24 @@
 
   .sticky-banner {
     height: inherit;
-    padding: 6px 15px 4px;
+    padding: 6px 0 4px;
 
     .sticky-banner-content {
-      width: 740px;
+      max-width: 1050px;
+      padding: 0 75px;
       margin: 0 auto;
-      max-width: inherit;
+    }
+
+    .sticky-banner-text {
+      display: inline-block;
+      float: left;
     }
 
     .action {
       padding-top: 11px;
+      display: inline-block;
+      float: right;
+      flex: 0;
     }
   }
 
@@ -80,29 +94,13 @@
       clear: both;
     }
 
-    @media only screen and (max-width : 768px) {
-      .section {
-        margin: 0 0 10px;
-        clear: both;
-      }
-    }
-
     .panel {
       box-shadow: 0 3px 3px $blog-color-border-shadow;
+      margin: 0 10px;
     }
 
-    // scss-lint:disable VendorPrefix
     .articles {
       width: 100%;
-      -webkit-column-count: 2;
-      -webkit-column-gap: 25px;
-      -webkit-column-fill: balance;
-      -moz-column-count: 2;
-      -moz-column-gap: 25px;
-      -moz-column-fill: balance;
-      column-count: 2;
-      column-gap: 25px;
-      column-fill: balance;
     }
 
     .article {
@@ -110,23 +108,15 @@
       background: $color-white;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
       padding: 25px;
-      -webkit-column-break-inside: avoid;
-      -moz-column-break-inside: avoid;
-      column-break-inside: avoid;
-      margin-bottom: 25px;
+      margin: 0 10px 25px;
+      float: left;
+      width: calc(50% - 20px);
 
       a {
         color: $blog-color-purple;
+        font-weight: 600;
       }
     }
-
-    @media only screen and (max-width : 768px) {
-      .article {
-        padding: 10px;
-        margin-bottom: 15px;
-      }
-    }
-    // scss-lint:enable VendorPrefix
 
     .cover {
       text-decoration: none;
@@ -199,28 +189,32 @@
       color: $color-white;
     }
 
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 768px) {
+      .section {
+        margin: 0 0 10px;
+        clear: both;
+      }
 
-      // scss-lint:disable VendorPrefix
+      .panel {
+        margin: 0 0 15px;
+      }
+
       .articles {
         width: 100%;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
       }
-      // scss-lint:enable VendorPrefix
 
       .article {
         float: none;
         width: 100%;
         height: inherit;
+        margin: 0 0 15px;
+        padding: 10px;
       }
     }
   }
 
   &.article {
     .wrapper {
-      max-width: 890px;
       padding: 75px;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
     }
@@ -237,18 +231,23 @@
       strong {
         letter-spacing: -.05em;
       }
+
+      p:not(.panel-heading) {
+        margin: 20px 0;
+      }
+
+      ul {
+        margin-bottom: 0;
+      }
+
+      ol {
+        margin-bottom: 32px;
+      }
     }
 
     .content {
       margin-bottom: 40px;
       font-size: 19px;
-    }
-
-    // videos
-    iframe {
-      width: 100%;
-      height: 420px;
-      margin-bottom: 25px;
     }
 
     .social {
@@ -275,12 +274,7 @@
     .body a,
     .newsletter a {
       color: $blog-color-purple;
-    }
-
-    .body p,
-    .body ul,
-    .body ol {
-      margin-bottom: 32px;
+      font-weight: 600;
     }
 
     .cover {
@@ -344,11 +338,6 @@
         font-size: 18px;
       }
 
-      // videos
-      iframe {
-        height: 280px;
-      }
-
       h1 {
         font-size: 38px;
       }
@@ -395,21 +384,6 @@
       float: right;
       color: $blog-color-date;
     }
-  }
-
-  .panel,
-  .panel-default {
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .panel-heading {
-    padding: 15px;
-    background-color: $blog-color-ipanel-heading;
-    border-radius: 0;
-    border: 0;
-    line-height: 27px;
   }
 }
 
@@ -652,4 +626,12 @@
   text-align: center;
   height: 500px;
   background: linear-gradient(-225deg, $blog-color-legacy-image-from 0%, $blog-color-legacy-image-to, 100%);
+
+  h1 {
+    color: $color-white;
+  }
+}
+
+pre {
+  border-radius: 0;
 }

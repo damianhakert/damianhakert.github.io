@@ -41,7 +41,7 @@ Leadership at GitLab applies to everyone, whether an individual contributor or a
 
 ## Managers
 
-GitLab's expectations for managers
+GitLab's expectations for managers:
 
  - When times are great be a voice of moderation, when times are bad be a voice of hope.
  - A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
@@ -49,14 +49,17 @@ GitLab's expectations for managers
   - As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
   - When someone says they are considering quitting drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
   - People should not be given a raise or a title because they ask for it or threaten to quit. We should proactively give raises and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
-  - Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
+  - Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that, this builds a stronger team. But _families_ and _teams_ are different. _Families_ come together for the relationship and do what is critical to retain it. _Teams_ are assembled for the task and do what is required to complete it. Don't put the relationship above the task. Besides, families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
   - Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
   - Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
+  As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
+ - We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
+ - Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
+
 
 ## Grovo
 
 [Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
-
 
 ### What is Microlearning?
 
@@ -78,7 +81,6 @@ Take a coffee break with Grovo and see how much you can learn.  It can take just
 
 
 The initial phase of rolling out Grovo will take place in December 2016 and as part of that first step we will be offering learning tracks on professional development & compliance.
-
 
 
 ## Available Resources

@@ -21,7 +21,7 @@ We also have regular one-on-one chats that can be about anything (as long as it�
 
 ## Summits
 
-Of course, nothing beats getting to know your team in person, which is why we get together every nine months for the [GitLab summit](https://about.gitlab.com/culture/https://about.gitlab.com/culture/). So far we’ve met up in Amsterdam and Austin, and in January we’ll be heading to sunny Cancun for a week to work and play together.
+Of course, nothing beats getting to know your team in person, which is why we get together every nine months for the [GitLab summit](https://about.gitlab.com/culture/). So far we’ve met up in Amsterdam and Austin, and in January we’ll be heading to sunny Cancun for a week to work and play together.
 
 ![GitLab Austin summit](/images/blogimages/Gitlab-summit-Austin.jpeg)*The GitLab summit in Austin, May 2016*
 

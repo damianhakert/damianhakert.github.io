@@ -1,68 +1,113 @@
-require 'oga'
-require 'httparty'
+require 'date'
 
-VERSIONS = [
-  "8.14", "8.13", "8.12", "8.11", "8.10", "8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3","8.2","8.1","8.0","7.14","7.13","7.12","7.11","7.10",
-  "7.9","7.8"
-]
+# Don't generate for versions prior to 8.0
+CUTOFF = Date.new(2015, 9, 22)
 
+# Generates the Markdown used by the `/release-list/` page based on monthly
+# release blog posts in this repository
 class ReleaseList
-  def initialize
+  def generate(output = StringIO.new)
+    release_posts.each do |post|
+      output.puts "## [#{post.version}](#{post.relative_url})"
+      output.puts
 
-  end
-
-  def content
-    print "Generating release list..."
-    base_url = 'https://about.gitlab.com'
-    dec = "##"
-    year = 2016
-    month = 11
-    next_version = VERSIONS[0]
-    major_version = next_version.split(".").first
-    minor_version = next_version.split(".").last
-
-    output = ''
-    VERSIONS.each do |version|
-      $stdout.flush
-      major_version = version.split('.').first
-      minor_version = version.split('.').last
-
-      month.to_s.length < 2 ? zero = '0' : zero = ''
-
-      url = "#{base_url}/#{year}/#{zero}#{month}/22/gitlab-#{major_version}-#{minor_version}-released"
-
-      output << "#{dec} [GitLab #{major_version}.#{minor_version}](#{url}) \n\n"
-
-      page = Oga.parse_xml(HTTParty.get(url))
-      page.css('h2').each do |heading|
-        text = heading.children.first.text
-        unless do_not_list(text)
-          output << "- #{heading.children.first.text}"
-          output << "\n"
-        end
+      post.highlights.each do |highlight|
+        output.puts "- #{highlight}"
       end
 
-      output << "\n"
-
-      if month == 1
-        month = 12
-        year = year - 1
-      else
-        month = month - 1
-      end
+      output.puts
     end
 
-    print "\n"
-
-    output
+    # Return the final string if `output` supports it
+    output.string if output.respond_to?(:string)
   end
 
-  def do_not_list(input)
-    [ "Other changes",
-      "Upgrade barometer",
-      "Installation",
-      "Updating",
-      "Enterprise Edition"
-    ].include? input
+  private
+
+  class ReleasePost
+    attr_reader :filename, :title, :date, :version
+
+    def initialize(filename)
+      @filename = filename.strip
+
+      extract_attributes
+    end
+
+    def relative_url
+      sprintf('/%d/%0.2d/%0.2d/%s', date.year, date.month, date.day, title)
+    end
+
+    # Returns an Array of "highlights"
+    #
+    # A highlight is anything that gets a level two header - `##` - but isn't in
+    # the `EXCLUSIONS` list.
+    def highlights
+      return @highlights if @highlights
+
+      lines = File.read(filename).lines
+      @highlights = lines
+        .select { |l| l =~ /\A##[^#]/ }
+        .map    { |l| l.sub(/\A##([^#]+)\z/, '\1').strip }
+        .reject { |l| EXCLUSIONS.include?(l) }
+    end
+
+    private
+
+    # These headers are in every post and should not be considered highlights
+    EXCLUSIONS = [
+      'Other changes',
+      'Upgrade barometer',
+      'Installation',
+      'Updating',
+      'Enterprise Edition'
+    ].freeze
+
+    def extract_attributes
+      match = filename.match(
+        %r{
+          (?<date>\d{4}-\d{2}-\d{2})
+          -
+          (?<title>
+            gitlab-
+            (?<major>\d{1,2})-(?<minor>\d{1,2})
+            -released
+          )
+        }xi
+      )
+
+      @title   = match['title']
+      @date    = Date.parse(match['date'])
+      @version = "#{match['major']}.#{match['minor']}"
+    end
   end
+
+  # Returns an Array of monthly release posts in descending order
+  def release_posts
+    root = File.expand_path('../source/posts', __dir__)
+
+    # find's `-regex` option is too dumb to do what we want, so use grep too
+    find = %Q(find "#{root}" -type f -iname "*-released.html.md")
+    grep = %Q(grep #{grep_flags} '\\d{4}-\\d{2}-22-gitlab-\\d{1,2}-\\d{1,2}-released')
+    sort = %q(sort -n)
+
+    `#{find} | #{grep} | #{sort}`
+      .lines
+      .map    { |path| ReleasePost.new(path) }
+      .reject { |post| post.date < CUTOFF }
+      .reverse
+  end
+
+  def grep_flags
+    # GNU supports PCRE via `-P`; for others (i.e., BSD), we want `-E`
+    if `grep -V`.include?('GNU grep')
+      '-P'
+    else
+      '-E'
+    end
+  end
+end
+
+# Print to stdout when this file is run directly
+if $PROGRAM_NAME == __FILE__
+  ReleaseList.new.generate($stdout)
 end

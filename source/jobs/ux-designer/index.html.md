@@ -3,7 +3,7 @@ layout: job_page
 title: "UX Designer"
 ---
 
-At GitLab, UX Designers collaborate closely with Engineers, UX Research and other Designers to create an intuitive, beautiful, world-class experience. 
+At GitLab, UX Designers collaborate closely with Engineers, UX Research, and other Designers to create an intuitive, beautiful, world-class experience. 
 
 ## Responsibilities
 
@@ -40,7 +40,7 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 * Have deep knowledge of GitLab UX history and direction
 * Serve as the go-to person with UX decisions
 * Improve other UX designers productivity through better tools and workflow
-* Collaborate with members across teams and advocates for users and user-centered
+* Collaborate with members across teams and advocate for users and user-centered
   design practices
 * Write blog posts articulating UX vision
 * Interview potential UX candidates
@@ -50,12 +50,12 @@ At GitLab, UX Designers collaborate closely with Engineers, UX Research and othe
 
 * Approach the design of GitLab from a holistic and comprehensive perspective
 * Lead strategic UX decisions, balancing both short-term considerations and long-term vision
-* Bring clarity and understanding to abstract and ambiguious UX problem spaces
+* Bring clarity and understanding to abstract and ambiguous UX problem spaces
 * Help to set direction and focus for GitLab's experience
 * Proactively improve the UX team, process, and flow 
 * Anticipate and help address future needs for the UX team and product
 * Propose and lead a team to implement major, cross-feature, broad projects
-* Conintually connect and drive current work towards our [Master Plan](https://about.gitlab.com/2016/09/13/gitlab-master-plan/) and [strategy](https://about.gitlab.com/strategy/)
+* Continually connect and drive current work towards our [Master Plan](https://about.gitlab.com/2016/09/13/gitlab-master-plan/) and [strategy](https://about.gitlab.com/strategy/)
  
 ## Tools
 

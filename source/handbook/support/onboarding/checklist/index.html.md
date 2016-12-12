@@ -45,6 +45,11 @@ it out for yourself before continuing.
 1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
+1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/knowledge-base/gitlab_com/500_errors.html)
+   1. [ ] Log into [Sentry](https://sentry.gitlap.com/gitlab/gitlabcom/) and
+   choose **"Sign in with GitLab"**.
+   1. [ ] View the [teams](https://sentry.gitlap.com/organizations/gitlab/teams/)
+   and select **"Join existing team"**. Then **Request access** to all the teams.
 
 Cover these topics on the [GitLab University](https://university.gitlab.com/):
 

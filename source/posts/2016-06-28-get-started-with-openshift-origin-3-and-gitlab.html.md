@@ -43,11 +43,11 @@ test OpenShift easily:
 - [OpenShift Client][oc] (`oc` for short)
 
 It is also important to mention that for the purposes of this tutorial, the
-latest Origin release, which is currently on alpha, is used:
+latest Origin release is used:
 
-- **oc** `v1.3.0-alpha.1` (must be [installed][oc-gh] locally on your computer)
-- **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the [VM image][vm-new])
-- **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the [VM image][vm-new])
+- **oc** `v1.3.0` (must be [installed][oc-gh] locally on your computer)
+- **openshift** `v1.3.0` (is pre-installed in the [VM image][vm-new])
+- **kubernetes** `v1.3.0` (is pre-installed in the [VM image][vm-new])
 
 <div class="panel panel-info">
 **Note**
@@ -70,15 +70,17 @@ the tools needed pre-installed: Docker, kubernetes, OpenShift, etcd.
 
 ### Test OpenShift using Vagrant
 
-As of this writing, the all-in-one VM is at version 1.2, whereas an alpha
-version 1.3 has been released. Since many bugs have been fixed in 1.3, that's
+As of this writing, the all-in-one VM is at version 1.3, and that's
 what we will use in this tutorial.
 
 In short:
 
-1. Download the [Vagrantfile]
-1. Edit it and replace `thesteve0/openshift-origin` with `openshift/origin-all-in-one`
-1. Open a terminal and in the same directory where you downloaded the Vagrantfile
+1. Open a terminal and in a new directory run:
+   ```sh
+   vagrant init openshift/origin-all-in-one
+   ```
+1. This will generate a Vagrantfile based on the all-in-one VM image
+1. In the same directory where you generated the Vagrantfile
    enter:
 
    ```sh
@@ -87,7 +89,7 @@ In short:
 
 This will download the VirtualBox image and fire up the VM with some preconfigured
 values as you can see in the Vagrantfile. As you may have noticed, you need
-plenty of RAM (4GB in our example), so make sure you have enough.
+plenty of RAM (5GB in our example), so make sure you have enough.
 
 Now that OpenShift is setup, let's see how the web console looks like.
 
@@ -128,8 +130,8 @@ Let's first see the version of `oc`:
 ```sh
 $ oc version
 
-oc v1.3.0-alpha.1
-kubernetes v1.3.0-alpha.1-331-g0522e63
+oc v1.3.0
+kubernetes v1.3.0+52492b4
 ```
 
 With `oc help` you can see the top level arguments you can run with `oc` and
@@ -333,61 +335,13 @@ Read more on how this works in <http://xip.io>.
 </div>
 </div>
 
-As a last step, we need to edit the `/etc/exports` file in the VM.
-
-### Edit the NFS exports file
-
-Before you deploy GitLab, you need to change a setting in the NFS shares
-configuration. The rationale is explained in [Current limitations](#current-limitations).
-
-Navigate to **Browse > Storage** and take a note of the volume names. We need
-all names except for the `gitlab-ce-postgresql` one.
-
-![Storage volumes](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/storage-volumes.png)
-
-In our example, these are:
-
-- **pv02**
-- **pv03**
-- **pv05**
-- **pv10**
-
-Here are the steps:
-
-1. First, ssh into the VM using the following command (it must be issued from
-   the same directory you saved the Vagrantfile):
-
-   ```sh
-   vagrant ssh
-   ```
-
-1. Next, edit the `/etc/exports` file and change the volumes you noted before
-   from `root_squash` to `no_root_squash`.
-
-   Ultimately, `/etc/exports` should look like this:
-
-   ```
-   /nfsvolumes/pv01 *(rw,root_squash)
-   /nfsvolumes/pv02 *(rw,no_root_squash)
-   /nfsvolumes/pv03 *(rw,no_root_squash)
-   /nfsvolumes/pv04 *(rw,root_squash)
-   /nfsvolumes/pv05 *(rw,no_root_squash)
-   /nfsvolumes/pv06 *(rw,root_squash)
-   /nfsvolumes/pv07 *(rw,root_squash)
-   /nfsvolumes/pv08 *(rw,root_squash)
-   /nfsvolumes/pv09 *(rw,root_squash)
-   /nfsvolumes/pv10 *(rw,no_root_squash)
-   ```
-
-1. Run `sudo exportfs -f` for the changes to take effect.
-
 Now that we configured this, let's see how to manage and scale GitLab.
 
 ## Manage and scale GitLab
 
 Setting up GitLab for the first time might take a while depending on your
 internet connection and the resources you have attached to the all-in-one VM.
-GitLab's docker image is quite big (~400MB), so you'll have to wait until
+GitLab's docker image is quite big (~500MB), so you'll have to wait until
 it's downloaded and configured before you use it.
 
 ### Watch while GitLab gets deployed
@@ -532,19 +486,19 @@ The all-in-one VM we are using has this security turned off so it will not
 bother us. In any case, it is something to keep in mind when deploying GitLab
 on a production cluster.
 
-This is the reason we had to alter the NFS settings, since GitLab's docker
-image requires root privileges to run. The same thing happens with the Redis
-version we use, but that's not the case with PostgreSQL. That's why in the
-[Edit the NFS exports file](#edit-the-nfs-exports-file) section you were asked
-to note down all volumes except for PostgreSQL's.
+In order to deploy GitLab on a production cluster, you will need to assign the
+GitLab service account  to the `anyuid` Security Context.
 
-Here are some issues we are currently working on with the OpenShift team in
-order to provide full OpenShift support without the need to edit any
-configuration files in the OS level. Feel free to subscribe to follow their
-status:
+1. Edit the Security Context:
+   ```sh
+   oc edit scc anyuid
+   ```
 
-- Support running GitLab in OpenShift without the need for a privileged container ([1251])
-- Support running `gitlab-ctl reconfigure` as non-root user ([1324])
+1. Add `system:serviceaccount:<project>:gitlab-ce-user` to the `users` section.
+   If you changed the Application Name from the default the user will
+     will be `<app-name>-user` instead of `gitlab-ce-user`
+
+1. Save and exit the editor
 
 ## Conclusion
 
@@ -569,17 +523,14 @@ PaaS and managing your applications with the ease of containers.
 [kubernetes]: http://kubernetes.io/ "Kubernetes website"
 [Docker]: https://www.docker.com "Docker website"
 [oc]: https://docs.openshift.org/latest/cli_reference/get_started_cli.html "Documentation - oc CLI documentation"
-[1251]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1251 "GitLab - Support running GitLab in OpenShift without the need for a privileged container"
-[1324]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1324 "GitLab - Support running gitlab-ctl reconfigure as non-root user"
 [VirtualBox]: https://www.virtualbox.org/wiki/Downloads "VirtualBox downloads"
 [Vagrant]: https://www.vagrantup.com/downloads.html "Vagrant downloads"
-[Vagrantfile]: https://www.openshift.org/vm/Vagrantfile "OpenShift Vagrantfile"
 [projects]: https://docs.openshift.org/latest/dev_guide/projects.html "Documentation - Projects overview"
 [core]: https://docs.openshift.org/latest/architecture/core_concepts/index.html "Documentation - Core concepts of OpenShift Origin"
 [templates]: https://docs.openshift.org/latest/architecture/core_concepts/templates.html "Documentation - OpenShift templates"
 [old-post]: https://blog.openshift.com/deploy-gitlab-openshift/ "Old post - Deploy GitLab on OpenShift"
 [line]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/658c065c8d022ce858dd63eaeeadb0b2ddc8deea/docker/openshift-template.json#L239 "GitLab - OpenShift template"
-[oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0-alpha.1 "Openshift 1.3.0.alpha.1 release on GitHub"
+[oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0 "Openshift 1.3.0 release on GitHub"
 [ha]: http://docs.gitlab.com/ce/administration/high_availability/gitlab.html "Documentation - GitLab High Availability"
 [replicas]: https://docs.openshift.org/latest/architecture/core_concepts/deployments.html#replication-controllers "Documentation - Replication controller"
 [autoscaling]: https://docs.openshift.org/latest/dev_guide/pod_autoscaling.html "Documentation - Autoscale"

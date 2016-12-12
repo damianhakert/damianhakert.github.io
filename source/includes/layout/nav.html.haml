@@ -20,6 +20,9 @@
   %li{class: ("active" if current_page.url == "/blog/" || current_page.respond_to?(:blog_data))}
     %a{href: "/blog"}
       Blog
+  %li{class: ("active" if current_page.url == "/contact/")}
+    %a{href: "/contact"}
+      Contact
   %li.visible-xs-block
     %a{href: "https://gitlab.com/users/sign_in"}
       Sign In
