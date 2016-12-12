@@ -11,7 +11,7 @@ From development teams to marketing organizations, everyone needs to
 collaborate on digital content. Content should be open to suggestions by a wide
 number of potential contributors. Open contribution can be achieved by using a
 mergeable file format and distributed version control. The vision of GitLab is
-to **allow everyone to collaborate on all digital content** so people can
+that **everyone can contribute** on all digital content so people can
 cooperate effectively and achieve better results, faster.
 
 ## Open Core
@@ -22,6 +22,9 @@ Today you can create an entire product successfully in GitLab, from idea to prod
 
 GitLab provides an _integrated toolset_ for organisations with _any kind_ of projects to move faster from idea to production, while giving you _actionable feedback_, and making shipping products _simple_.
 
+GitLab's toolset is opinionated, but still allows you to use other tools if you
+like to do so. GitLab plays well with others.
+
 ### Integrated Toolset
 
 GitLab is an integrated set of tools for conversational development. This offers a superior user experience and lowers the threshold between each step in going from idea to production.
@@ -31,6 +34,8 @@ GitLab is an integrated set of tools for conversational development. This offers
 Conversational development carries a conversation across functional groups through the software development lifecycle, involving gatekeepers at every step. By providing relevant context, a feature that is only possible with an integrated solution like GitLab, we can reduce cycle time, making it easier to diagnose problems and make decisions.
 
 Concretely, conversational development in GitLab means that a change can be easily followed from inception to the changes it made in performance and business metrics and feeding this information back to _all_ stakeholders _immediately_.
+
+Effectively, this allows cross-functional teams to collaborate effecitvely.
 
 ### Any Project
 
