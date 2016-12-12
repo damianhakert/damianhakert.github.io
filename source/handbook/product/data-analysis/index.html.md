@@ -56,20 +56,36 @@ postgres=# \dt
 
 ---
 
+### Access `piwik.gitlab.com` db
+Access the server
+```
+$ ssh victor@piwik.gitlab.com
+```
+
+Use `mysql` and access the db
+```
+$ sudo mysql --defaults-file=/etc/mysql/debian.cnf
+```
+
+Refer to the [Piwik schema](https://developer.piwik.org/guides/persistence-and-the-mysql-backend)
+
+---
+
 ### Access db from a sql client
-Access db from a sql client for additional features and ease of use. The sql client can connect to your local machine, and tunnel to the server. A suggested native Mac sql client is [Postico](https://eggerapps.at/postico/). Ask GitLab to expense a license. Download and install.
+Access db from a sql client for additional features and ease of use. The sql client can connect to your local machine, and tunnel to the server. A suggested native Mac sql client for PostgreSQL is [Postico](https://eggerapps.at/postico/). Ask GitLab to expense a license. Download and install. For MySQL, [Sequel Pro](http://sequelpro.com) (i.e. "Pancakes") is decent.
 
 
 Set up forwarding through your local machine by running one of the following
 ```
 $ ssh -L5432:localhost:5432 victor@db2.staging.gitlab.com
 $ ssh -L5432:localhost:5432 victor@version.gitlab.com
+$ ssh -L3306:localhost:3306 victor@piwik.gitlab.com
 ```
 
 #### `db2.staging.gitlab.com`
 Find the database password on `db2.staging.gitlab.com`
 ```
-$ vi /etc/gitlab/gitlab.rb
+$ sudo vi /etc/gitlab/gitlab.rb
 ```
 Look at `postgresql['sql_password']`.
 
@@ -92,7 +108,22 @@ In your sql client, connect with
 ```
 host: localhost
 port: 5432
-username: gitlab-version
+username: <username>
 password: <password>
 database: version_gitlab_com_production
+```
+
+#### `piwik.gitlab.com`
+Find the database login and password on `piwik.gitlab.com`
+```
+$ sudo vi /etc/mysql/debian.cnf
+```
+
+In your sql client, connect with
+```
+host: 127.0.0.1
+port: 3306
+username: <username>
+password: <password>
+database: piwik
 ```
