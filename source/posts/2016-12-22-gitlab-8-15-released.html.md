@@ -21,6 +21,33 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
+## Omnibus GitLab package changes
+
+### PostgreSQL version upgrade
+
+Starting with GitLab 8.14 omnibus-gitlab package, we are providing a way to
+upgrade the PostgreSQL database version.
+
+The current version of PostgreSQL we are packaging (9.2.18) is slowly
+approaching its EOL. Due to the [PostgreSQL versioning policy](https://www.postgresql.org/support/versioning/),
+upgrades between major releases require downtime and the use of the `pg_upgrade` tool.
+
+For this purpose, we are packaging the newest available PostgreSQL version (9.6.1).
+We are also introducing `gitlab-ctl pg-upgrade` tool which should make this
+transition as painless as possible.
+When upgrading to GitLab 8.14, this *action will not be ran automatically*.
+This will allow you to plan the database upgrade downtime.
+
+After version 9.0 is released, we plan on setting the PostgreSQL version 9.6 as
+default so please make sure that you plan your upgrade before that release.
+
+> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/maintenance/README.html#upgrade-postgresql-database)
+
+
+> Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
+and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
+
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out
