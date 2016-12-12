@@ -24,9 +24,10 @@ You love talking about GitLab to people and no question or challenge is too big 
 * Experience in sales, marketing, or customer service
 * Experience with CRM and/or marketing automation software is highly preferred
 * An understanding of B2B software, Open Source software, and the developer product space is preferred
-* Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
-* You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
+* Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate
+* You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness
 * Passionate about technology and learning more about GitLab
+* An affinity for software and the software development process
 * Be ready to learn how to use GitLab and Git
 * Start part-time or full-time depending on situation
 * You share our [values](/handbook/#values), and work in accordance with those values.

@@ -24,6 +24,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 * Articulate, confident, and reliable
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * You are obsessed with making customers happy.
+* An affinity for software and the software development process
 * Passionate about technology and learning more about GitLab
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 
