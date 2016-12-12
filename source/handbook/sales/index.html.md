@@ -43,7 +43,7 @@ title: "Sales Handbook"
 
 1. The Sales team call is every Monday and Wednesday from 9:00am to 9:30am Pacific Time.
 1. We use [Zoom](https://zoom.us) for the call since Hangouts is capped at 15 people, link is in the calendar invite, and also listed at the top of the Sales Team Agenda.
-1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "Sales Team Meeting", which is accessible to all users with a GitLab.com e-mails account.
+1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "Sales Team Meeting", which is accessible to all users with a GitLab.com e-mail account.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Sales Team Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit) as 'Not attending'.
