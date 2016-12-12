@@ -2142,6 +2142,17 @@
   story:  |
           Joining January 3rd
 
+- name: J.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Platform Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd
+
 - name: B.K.
   locality:
   country:
