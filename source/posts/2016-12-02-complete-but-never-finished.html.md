@@ -12,7 +12,7 @@ A bunch of us on the GitLab team have known for a while just how important revie
 
 Full disclosure: I used to work at Heroku on the team that shipped [Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps), and some of that work was inspired by a tool called Fourchette, which was created by the great folks at [Rainforest QA](https://www.rainforestqa.com/). Even outside of my personal bias, our CEO, CI Lead and others had seen things like this elsewhere and saw how transformative it could be. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo?t=28m32s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo?start=1713" frameborder="0" allowfullscreen></iframe>
 
 There are a ton of different ways we could have shipped it. We started months ago, mostly discussing asynchronously on GitLab issues, with big ideas that made Review Apps seem kind of daunting. We had ideas for black magic to detect Kubernetes settings, configure all the review app stuff for you, make them work only for merge requests, not for every branch, etc. It felt like something that might not ship for months, if not years, because of all the complexity and dependencies.
 
