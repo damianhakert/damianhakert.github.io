@@ -20,6 +20,7 @@ The Product Marketing organization includes Product Marketing, Content Marketing
 ## Product Marketing Handbooks  
 * [Content marketing](/handbook/marketing/product-marketing/content-marketing/)
 * [Partner marketing](/handbook/marketing/product-marketing/partner-marketing/)
+* [Reseller marketing](/handbook/marketing/product-marketing/reseller-marketing/)
 
 ## Key Responsibilities<a name="responsibilities"></a>
 
