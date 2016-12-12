@@ -43,7 +43,9 @@ Product marketing has three primary responsibilities.
 
 If you're interested in learning more about the specific deliverables or read more on the insights that were shared, take a look a the documented feedback in this presentation. 
 
-<script async class="speakerdeck-embed" data-id="10e750aafa4f4680af00f134d1dc4bcd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1b59ZpkTmn5_sn8ryi-Ai8eacX4HinurAPq194bnl7Rw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
 
 ## Release Management<a name="release-management"></a>
 
