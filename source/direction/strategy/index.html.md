@@ -71,6 +71,8 @@ Software projects are often more than single repositories. GitLab will evolve fr
 
 Starting a project from scratch makes it easy to do everything through GitLab and well integrated. But existing / migrated / legacy projects should benefit from the same features that GitLab offers. GitLab will offer the tools to help you integrate, setup and improve your projects with the tools we have at offer. A concrete example is setting up review apps: everyone would benefit from this. GitLab will give you all the handles to set this up. It should not be required to dive deep in the documentation to discover features like this.
 
+- [Auto Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)
+
 #### Beyond code
 
 Going from idea to production is not a matter of just code anymore. Modern products work with elaborate mockups and designs both in ideation, but also in production. Whether you’re working on assets in a game or working on the design of a new website, GitLab will allow you to collaborate on your work as a programmer would on their code.
@@ -109,6 +111,8 @@ System feedback happens over different time windows:
 * Medium-Long term: did a particular effort influence system status
 
 - Implemented: [Performance Monitoring](https://docs.gitlab.com/ee/administration/monitoring/performance/introduction.html)
+- [Status monitoring and feedback](https://gitlab.com/gitlab-org/gitlab-ce/issues/25555)
+- [Feature monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/24254)
 
 #### Execution Feedback & Cycle Analytics
 
@@ -116,6 +120,8 @@ GitLab is able to speed up cycle time for any project.
 To provide feedback on cycle time GitLab will continue to expand cycle
 analytics so that it not only shows you what is slow, it’ll help you speed up
 with concrete, clickable suggestions.
+
+- [Cycle Speed Suggestions](https://gitlab.com/gitlab-org/gitlab-ce/issues/25281)
 
 ### Teams of any Size
 
