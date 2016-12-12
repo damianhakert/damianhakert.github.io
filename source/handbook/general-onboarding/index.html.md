@@ -66,7 +66,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): Add entry to availability calendar so the team can see when new people are joining.
    1. [ ] People Ops (Recruiter): Give team member access to the GitLab availability calendar
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
-   1. [ ] People Ops (Recruiter): Add new team member to the next monthly [GitLab 101 call](ttps://about.gitlab.com/culture/gitlab-101/)
+   1. [ ] People Ops (Recruiter): Add new team member to the next monthly [GitLab 101 call](https://about.gitlab.com/culture/gitlab-101/)
    1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
    1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
