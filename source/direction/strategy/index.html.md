@@ -81,27 +81,41 @@ Going from idea to production is not a matter of just code anymore. Modern produ
 
 Deployments should never be fire and forget. GitLab will give you immediate feedback on every deployment on any scale. This means that GitLab can tell you whether performance has improved on the application level, but also whether business metrics have changed.
 
+Concretely, we can split up monitoring and feedback efforts within GitLab in three distinct areas: execution (cycle analytics), business and system feedback.
+
 #### Business feedback
 
 With the power of monitoring and an integrated approach, we have the ability to do amazing things within GitLab. GitLab will be able to automatically test commits and versions through feature flags and A/B testing.
 
+Business feedback exists on different levels:
+
+* Short term: how does a certain change perform? Choose A/B based on data.
+* Medium term: did a particular new feature change conversions, engagement
+* Long term: how do larger efforts relate to changes in conversations, engagement, revenue
+
 - [A/B Testing of branches](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
-#### Performance feedback
+#### System feedback
 
 We can now go beyond CI and CD. GitLab will able to tell you whether a change
 improved performance or stability. Because it will have access to both
 historical data on performance and code, it can show you the impact of any
 particular change at any time.
 
+System feedback happens over different time windows:
+
+* Immediate: see whether changes influence availability and alert if they do
+* Short-medium term: see whether changes influence system metrics and performance
+* Medium-Long term: did a particular effort influence system status
+
 - Implemented: [Performance Monitoring](https://docs.gitlab.com/ee/administration/monitoring/performance/introduction.html)
 
-#### Cycle Analytics
+#### Execution Feedback & Cycle Analytics
 
-GitLab is able to speed up cycle time for any project. To provide feedback on
-cycle time GitLab will continue to expand cycle analytics so that it not only
-shows you what is slow, it’ll help you speed up with concrete, clickable
-suggestions.
+GitLab is able to speed up cycle time for any project.
+To provide feedback on cycle time GitLab will continue to expand cycle
+analytics so that it not only shows you what is slow, it’ll help you speed up
+with concrete, clickable suggestions.
 
 ### Teams of any Size
 
