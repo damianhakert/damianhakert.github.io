@@ -99,7 +99,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     >
     > Free shipping: [Enter free shipping code]
 
-1. [ ] Hiring Manager: The day of introducing the new team member on the team call, test the audio and review the three questions again 15 minutes before the team call call starts.
+1. [ ] Hiring Manager: The day of introducing the new team member on the team call, test the audio and review the three questions (what did you do before this?, why did you join GitLab?, what do you do in your free time?) again 15 minutes before the team call call starts.
 1. [ ] People Ops: Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 1. [ ] Hiring Manager: Organize smooth onboarding with clear starting tasks / pathway for new team member.
@@ -152,7 +152,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
-1. [ ] New team member: schedule 10 "Virtual Coffee break calls" of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
+1. [ ] New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
@@ -163,7 +163,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
-1. [ ] New team member: We expect you to schedule 1 new virtual coffee break call every week after you've been onboarded
+1. [ ] New team member: We expect you to schedule at least 1 new virtual coffee break call every week after you've been onboarded
 1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of team members and our brains are comfortable with recognizing people, let's use them).
 1. [ ] New team member: New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the [New Hire Tweets](https://docs.google.com/document/d/1NmrgUXnigXXptEnxjBTI9sBWKyWyynBP_8K-S0fYC1w/edit) google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
