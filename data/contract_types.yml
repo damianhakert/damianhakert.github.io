@@ -3,10 +3,12 @@
 - country: India
   employee_factor: 0.6
 - country: Netherlands
-  employee_factor: 0.8  
+  employee_factor: 0.8
 - country: United Kingdom
   employee_factor: 0.85
 - country: United States
   employee_factor: 1
+- country: Rest of World
+  contractor_factor: 1.17
 - country: '*'
   contractor_factor: 1.17
