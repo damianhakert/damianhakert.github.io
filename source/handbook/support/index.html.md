@@ -24,7 +24,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding)
    - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [Support Policies](/handbook/support/policies)
-- [Knowledge Base](/handbook/support/sop)
+- [Support Standard Operating Procedures (SOPs)](/handbook/support/sop)
 - [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
 - [Advanced Topics](/handbook/support/advanced-topics)
