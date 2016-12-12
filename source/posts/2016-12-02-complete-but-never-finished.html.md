@@ -4,13 +4,13 @@ author: Mark Pundsack
 author_twitter: MarkPundsack
 categories: inside gitlab
 image_title: /source/images/default-blog-image.jpg
-description: GitLab's Head of Product shares an inside look at iterating on one of our latest features. 
+description: GitLab's Head of Product shares an inside look at iterating on one of our latest features.
 ---
-A bunch of us on the GitLab team have known for a while just how important review apps are. Even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it because of how we'd seen it transform a developer's flow. We also knew that tightly integrating it into GitLab would make it an even greater feat. Although our aspirations for the feature started out gigantic and magical, we ultimately constrained them to the practical and concrete. Here's a behind-the-scenes look at how we iterated and shipped Review Apps over the last 3 releases. 
+A bunch of us on the GitLab team have known for a while just how important review apps are. Even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it because of how we'd seen it transform a developer's flow. We also knew that tightly integrating it into GitLab would make it an even greater feat. Although our aspirations for the feature started out gigantic and magical, we ultimately constrained them to the practical and concrete. Here's a behind-the-scenes look at how we iterated and shipped Review Apps over the last 3 releases.
 
 <!-- more -->
 
-Full disclosure: I used to work at Heroku on the team that shipped [Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps), and some of that work was inspired by a tool called Fourchette, which was created by the great folks at [Rainforest QA](https://www.rainforestqa.com/). Even outside of my personal bias, our CEO, CI Lead and others had seen things like this elsewhere and saw how transformative it could be. 
+Full disclosure: I used to work at Heroku on the team that shipped [Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps), and some of that work was inspired by a tool called [Fourchette](https://github.com/rainforestapp/fourchette), which was created by the great folks at [Rainforest QA](https://www.rainforestqa.com/). Even outside of my personal bias, our CEO, CI Lead and others had seen things like this elsewhere and saw how transformative it could be. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo?start=1713" frameborder="0" allowfullscreen></iframe>
 
