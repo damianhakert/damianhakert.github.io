@@ -232,7 +232,7 @@
         letter-spacing: -.05em;
       }
 
-      p {
+      p:not(.panel-heading) {
         margin: 20px 0;
       }
 
@@ -384,21 +384,6 @@
       float: right;
       color: $blog-color-date;
     }
-  }
-
-  .panel,
-  .panel-default {
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .panel-heading {
-    padding: 15px;
-    background-color: $blog-color-ipanel-heading;
-    border-radius: 0;
-    border: 0;
-    line-height: 27px;
   }
 }
 
