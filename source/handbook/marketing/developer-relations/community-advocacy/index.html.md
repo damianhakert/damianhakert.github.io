@@ -17,6 +17,13 @@ title: "Community Advocacy"
 
 ----
 
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Community Advocate Resources
+
+- Community Advocate Onboarding
+  - [Onboarding Checklist](/handbook/marketing/developer-relations/community-advocacy/onboarding/checklist)
+
+----
+
 ## Role of Community Advocacy
 
 **Ultimate Goal: respond to every community question about GitLab asked online**
