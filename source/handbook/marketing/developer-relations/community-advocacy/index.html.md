@@ -74,6 +74,13 @@ title: "Community Advocacy"
 - User submitted feature request -> Open an issue and link back to the user
 - User submitted bug report -> Reproduce, then open an issue and link back to the user
 
+### Special Types
+
+- Event Sponsorship Requests -> TBD
+- Product Pitches -> TBD
+- Investment request/interest -> TBD
+- Spam -> Mark as spam
+
 ## ZenDesk Workflow
 
 ### Suggested Views for ZenDesk
@@ -106,6 +113,7 @@ Respond to the GitLab community across the following channels in a timely manner
 
 - Hacker News
 - Twitter (via Zendesk)
+- `community@gitlab.com` email
 - Disqus
 - [forum.gitlab.com](https://forum.gitlab.com)
 - Mailing List
@@ -161,6 +169,10 @@ of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [Gi
 #### Usage of likes
 
 Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
+
+### `community@gitlab.com` email
+
+
 
 ### Disqus
 
