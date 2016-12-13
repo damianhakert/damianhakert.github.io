@@ -25,14 +25,20 @@
 
 .search-icon {
   margin-right: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 11px 15px;
+  font-size: 20px;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
 }
 
 .search-close {
   position: absolute;
   top: 0;
-  right: 2px;
+  right: -7px;
   margin-right: 0;
   transition: .4s ease;
   opacity: 0;
