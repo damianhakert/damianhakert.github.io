@@ -18,6 +18,14 @@
     }
   }
 
+  .col-sm-12 {
+    h5 {
+      display: inline-block;
+      color: $color-gray-light;
+      font-weight: normal;
+    }
+  }
+
   .dropdown-menu-toggle,
   .dropdown-menu {
     width: 100%;
@@ -45,7 +53,9 @@
   }
 
   .dropdown {
-    margin-bottom: 10px;
+    @media (max-width: 767px) {
+      margin-bottom: 10px;
+    }
   }
 
   .compensation {
@@ -53,7 +63,6 @@
     border-radius: 3px;
     height: 100%;
     padding: 10px;
-    margin-bottom: 10px;
 
     .title {
       border-bottom: 1px solid $dropdown-border-color;
@@ -63,6 +72,10 @@
     .amount {
       padding-top: 10px;
       font-size: 25px;
+    }
+
+    @media (max-width: 767px) {
+      margin-bottom: 10px;
     }
   }
 
@@ -258,5 +271,9 @@
     .input-suffix {
       color: $dropdown-fa-focus-color;
     }
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
   }
 }
