@@ -1,11 +1,45 @@
 = wrap_layout :markdown_page do
+  - if job_for_current_page
+    :markdown
+      GitLab Inc. is a company based on the GitLab open-source project. GitLab is
+      a community project to which over 1,000 people worldwide have contributed.
+      We are an active participant in this community, trying to serve its needs
+      and lead by example. We have one [vision]: everyone can contribute to all
+      digital content, and our mission is to change all creative work from
+      read-only to read-write so that everyone can contribute.
+
+      We [value] results, transparency, sharing, freedom, efficiency, frugality,
+      collaboration, directness, kindness, diversity, boring solutions, and
+      quirkiness. If these values match your personality, work ethic, and personal
+      goals, we encourage you to visit our [primer] to learn more. Open source is
+      our culture, our way of life, our story, and what makes us truly unique.
+
+      [vision]: https://about.gitlab.com/strategy
+      [value]: https://about.gitlab.com/handbook/#values
+      [primer]: https://about.gitlab.com/primer
+
+    = partial "includes/reasons_to_work_for_gitlab"
+
+    :markdown
+      See [our culture page](/culture) for more!
+
   = yield
 
   - if job = job_for_current_page
+    = partial "includes/salary_calculator", locals: {title: job.title}
+
     :markdown
-      Avoid the [confidence gap](http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/); you do not have to match all the listed requirements exactly to apply.
+      ## Apply
+
+      Avoid the [confidence gap]; you do not have to match all the listed
+      requirements exactly to apply. Our hiring process is described in more
+      detail in our [hiring handbook].
 
       Work remotely from anywhere in the world. Curious to see what that looks
-      like? Check out our [remote manifesto](/2015/04/08/the-remote-manifesto/).
+      like? Check out our [remote manifesto].
+
+      [confidence gap]: http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/
+      [hiring handbook]: /handbook/hiring/
+      [remote manifesto]: /2015/04/08/the-remote-manifesto/
 
     = link_to("Apply", job.apply, class: 'btn btn-purple')

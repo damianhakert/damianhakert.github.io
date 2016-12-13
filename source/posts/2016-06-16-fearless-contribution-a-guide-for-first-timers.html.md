@@ -179,4 +179,4 @@ your involvement and you'll become more confident.
 [1k-post]: https://about.gitlab.com/2016/05/24/1k-contributors/
 [gdk-post]: https://about.gitlab.com/2016/06/08/getting-started-with-gitlab-development-kit/
 [getting-help]: https://about.gitlab.com/getting-help/
-[contrib-guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md)
+[contrib-guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md

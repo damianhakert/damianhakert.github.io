@@ -1,0 +1,19 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    = partial "includes/layout/head"
+  %body{class: "#{page_classes} #{'purple-bg' if current_page.data.purple_bg}", data: {spy: "scroll", target: ".qnav", offset: "90"}}
+    .page-wrap
+      = partial "includes/google/gtm"
+      = partial "includes/layout/header"
+      = partial "includes/layout/headline"
+      = partial "includes/blog/image-single", locals: {post: current_page}
+      .comparison-container.full-post
+        .blog-entry.clearfix
+          = partial "includes/comparison_tree_nav"
+          .comparison-page-content.col-sm-8
+            = yield
+      - if current_page.data.trial_bar
+        = partial "includes/features/gitlab-ee-trial"
+      .footer-container
+        = partial "includes/layout/footer"

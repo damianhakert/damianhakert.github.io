@@ -1,39 +1,100 @@
 image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
 
 before_script:
-  - bundle install --path vendor
+  - bundle install --jobs 4 --path vendor
 
 cache:
   key: "website"
   paths:
+    - public
     - vendor
 
+stages:
+  - build
+  - deploy
+
 lint:
-  stage: test
+  stage: build
   script:
     - bundle exec rake lint
   tags:
     - docker
 
-build:
+.build_base: &build_base
   stage: build
-  script:
-    - bundle exec rake build pdfs
-  tags:
-    - docker
   artifacts:
     expire_in: 31 days
     paths:
       - public/
+  tags:
+    - docker
+
+build_branch:
+  <<: *build_base
+  script:
+    - bundle exec rake build
+  except:
+    - master
+
+build_master:
+  <<: *build_base
+  script:
+    - bundle exec rake build pdfs
+  only:
+    - master
+
+review:
+  stage: deploy
+  allow_failure: true
+  before_script: []
+  cache: {}
+  script:
+    - rsync -av --delete public ~/pages/$CI_BUILD_REF_NAME
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_NAME.about.gitlab.com
+    on_stop: review_stop
+  only:
+    - branches@gitlab-com/www-gitlab-com
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
+
+review_stop:
+  stage: deploy
+  before_script: []
+  artifacts: {}
+  cache: {}
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - rm -rf public ~/pages/$CI_BUILD_REF_NAME
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+  only:
+    - branches@gitlab-com/www-gitlab-com
+  except:
+    - master
+  tags:
+    - deploy
+    - review-apps
 
 deploy:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   dependencies:
-    - build
+    - build_master
   before_script: []
   script:
     - rsync --delete -r public/ ~/public/
-  environment: production
+  environment:
+    name: production
+    url: https://about.gitlab.com
   tags:
     - deploy
   only:

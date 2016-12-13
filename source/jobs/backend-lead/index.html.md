@@ -19,3 +19,8 @@ title: "Backend Lead"
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
 * Defines best practices and coding standards for backend team
 * Coordinates with frontend lead to form teams for major features/moonshots
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)

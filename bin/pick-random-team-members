@@ -1,0 +1,73 @@
+#!/usr/bin/env ruby
+
+require 'docopt'
+require 'yaml'
+
+docstring = <<DOCSTRING
+Pick some random team members!
+
+Usage:
+  #{__FILE__} <n> [--min=<m>] [--reports-to=<reports-to>]... [--role=<role>]...
+  #{__FILE__} -h | --help
+
+Options:
+  -h --help                  Show this screen.
+  --min=<m>                  Pick a minimum number of team members from each category.
+  --reports-to=<reports-to>  Pick team members who report to the given team members.
+  --role=<role>              Pick team members with the given role.
+DOCSTRING
+
+def strip_html(string)
+  string.gsub(/<[^>]+>/, '')
+end
+
+def print_selected(options)
+  selected = []
+  team_members = YAML
+    .load_file('data/team.yml')
+    .reject { |member| member['picture'].start_with?('logo') }
+
+  n = options['<n>'].to_i
+  min = options['--min'].to_i
+  reports_to, role = options.values_at('--reports-to', '--role')
+
+  # Key the team members by (reports to, role). If --reports-to isn't passed,
+  # use nil for that part of the key; do the same for --role. Strip HTML tags
+  # from both.
+  categorised_team_members = team_members.group_by do |member|
+    [
+      reports_to && strip_html(member['reports_to']),
+      role && strip_html(member['role'])
+    ]
+  end
+
+  reports_to ||= [nil]
+  role ||= [nil]
+
+  chosen_hash_keys = reports_to.product(role)
+  available_categorised_team_members = categorised_team_members.values_at(*chosen_hash_keys).compact
+
+  # If min * selected categories > n, then we can't enforce that.
+  if min > 0 && (min * available_categorised_team_members.length) <= n
+    available_categorised_team_members.map! do |members|
+      sampled = members.sample(min)
+
+      selected += sampled
+      n -= min
+
+      members - sampled
+    end
+  end
+
+  selected += available_categorised_team_members.flatten.sample(n)
+
+  puts selected.map { |member| member['name'] }.sort
+end
+
+begin
+  options = Docopt::docopt(docstring)
+
+  print_selected(options)
+rescue Docopt::Exit => e
+  puts e.message
+end

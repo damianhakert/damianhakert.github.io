@@ -4,6 +4,8 @@ title: GitLab.com
 suppress_header: true
 extra_css:
   - gitlab-com.css
+extra_js:
+  - gitlab-com.js
 ---
 .wrapper
   .image-title
@@ -72,9 +74,6 @@ extra_css:
             .logo_samsung
               = image_tag "/images/gitlab-com/samsung.png"
           .logo
-            .logo_spacex
-              = image_tag "/images/gitlab-com/spacex.png"
-          .logo
             .logo_microsoft
               = image_tag "/images/gitlab-com/microsoft.png"
           .logo
@@ -102,50 +101,48 @@ extra_css:
               %a{href: "https://gitlab.com/gitlab-com/support-forum/issues"} GitLab.com Support Tracker
               if they have questions.
             %li
-              If you purchase
-              %a{href: "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} GitLab.com Bronze Support
-              you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.
+              Users can purchase Gitlab.com Bronze Support providing you with email support directly for timely, personal and private answers. The cost is $199.80 annually (for up to 20 users) for next-business-day response time.
       .row.panels
         %h2.text-center
           Select package
           %a{name: "select-package"}
-        .col-md-6
-          .panel.panel-default
-            .panel-heading
-              %h3.panel-title Free
-            .panel-body
-              %b Unlimited
-              private and public repositories
-              %br/
-              %b Unlimited
-              private collaborators
-              %br/
-              Support via
-              %a{href: "https://gitlab.com/gitlab-com/support-forum/issues"} the forum
-              %br/
-              %br/
-              %b Completely free
-              %br/
-              %br/
-              %a.btn.btn-lg.btn-default{href: "https://gitlab.com/users/sign_up"} Sign up
-        .col-md-6
-          .panel.panel-purple
-            .panel-heading
-              %h3.panel-title + Support
-            .panel-body
-              %b Unlimited
-              private and public repositories
-              %br/
-              %b Unlimited
-              private collaborators
-              %br/
-              %b Next-business day support
-              %br/
-              %br/
-              %b $9.99 per user, per year in multiples of 20 users
-              %br/
-              %br/
-              %a.btn.btn-lg.btn-purple{href: "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} Order support
+        .row{ data: { equal: ".col-md-6" } }
+          .col-md-6
+            .gitlab-com-panel.panel.panel-default
+              .panel-heading
+                %h3.panel-title Free
+              .panel-body
+                %b Unlimited
+                private and public repositories
+                %br/
+                %b Unlimited
+                private collaborators
+                %br/
+                Support via
+                %a{href: "https://gitlab.com/gitlab-com/support-forum/issues"} the forum
+                .btns
+                  %div
+                    %b Free
+                  %a.btn.btn-lg.btn-default{href: "https://gitlab.com/users/sign_up"} Sign up
+          .col-md-6
+            .gitlab-com-panel.panel.panel-purple
+              .panel-heading
+                %h3.panel-title Gitlab.com Bronze Support
+              .panel-body
+                %b Unlimited
+                private and public repositories
+                %br/
+                %b Unlimited
+                private collaborators
+                %br/
+                %b Next Business Day Support
+                %br/
+                %b Direct email access to support team for timely, personal and private answers
+                .btns
+                  %div
+                    %b $199.80
+                    (for up to 20 users)
+                  %a.btn.btn-lg.btn-purple{href: "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe58068f08015807ef5f2f66df"} Order support
       %hr.divider/
       .row.security
         .col-xs-1.col-md-1
@@ -233,7 +230,7 @@ extra_css:
           free today. So we thought, why wait? Let's make it free for everyone
           now. Our subscriptions for GitLab EE on-premises bring in more
           than enough revenue to pay for the hosting of GitLab.com.
-          The revenues from EE and EE options are growing fast enough to keep up
+          The revenues from EE and other Products are growing fast enough to keep up
           with the growth in GitLab.com usage.
           We see GitLab.com as a way to make GitLab more known and popular. In the future we might
           introduce paid features like projects sizes above 10GB and Windows/OSX CI Runners.

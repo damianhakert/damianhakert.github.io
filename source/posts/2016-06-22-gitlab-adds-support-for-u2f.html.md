@@ -6,7 +6,7 @@ categories:
 image_title: '/images/blogimages/fido-u2f-yubikey.jpg'
 ---
 
-With the [release of GitLab 8.9](https://about.gitlab.com/2016-06-22-gitlab-8-9-released), GitLab now supports the FIDO Universal 2nd Factor (U2F) protocol for user authentication with 
+With the [release of GitLab 8.9](https://about.gitlab.com/2016/06/22/gitlab-8-9-released/), GitLab now supports the FIDO Universal 2nd Factor (U2F) protocol for user authentication with 
 the added layer of hardware security from [YubiKey](https://www.yubico.com/products/yubikey-hardware/yubikey4/). We're excited to expand our authentication 
 capabilities to include U2F devices. U2F changes the game for online authentication because
 it uses public key cryptography and has built-in support to prevent phishing. This higher 

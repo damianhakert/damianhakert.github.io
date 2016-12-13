@@ -14,7 +14,7 @@ title: "Sales Process"
 * [Opportunity Stages](#stages)
 * [Submitting Quotes in Salesforce.com](#quotes)
 * [Closing A Won Deal](#closing)
-* [Process after you sell a Plus Subscription](#plus-subscription)
+* [Process after you sell a Premium Support Subscription](#premium-support)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
@@ -125,19 +125,20 @@ Once the above has happened, please make sure the following actions are done:
 1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us.
 1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
-1. Create a task 30 days later, to check in with Account to make sure they are happy, address any questions they have and to explore any growth opportunity in the account.  Example: new divisions, more users on the exisiting team.
+1. Create a task 30 days later, to check in with Account to make sure they are happy, address any questions they have and to explore any growth opportunity in the account.  Example: new divisions, more users on the existing team.
     * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
 1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
 1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
-### Process after you close a Plus Subscription <a name="plus-subscription"></a>
+### Process after you sell a Premium Support Subscription <a name=#premium-support></a>
 
-Once you close a Plus Subscription deal, you need to do a few things.
+Once you close a deal that includes Premium Support, you need to:
 
-1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by Ernst if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
-Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down. 
+1. [Request a Dedicated Service Engineer](/handbook/support/#dedicated-service-engineers) as described in the Support Handbook.
+1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen. 
+1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+
 
 ### Processing Orders in Recurly <a name="processing"></a>
 

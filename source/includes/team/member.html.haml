@@ -10,6 +10,10 @@
           = member.name
         %h4
           = member.role
+          - if member.specialty
+            %h5
+              = member.specialty
+              Specialist
         - if member.reports_to
           %h5
             Reports to

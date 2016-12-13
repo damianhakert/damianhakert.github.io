@@ -15,6 +15,10 @@ Create a clear process, which outlines ownership throughout each sub-flow, with 
 - Omnibus team - Packing and maintaining
 - Partner Marketing team - Announcements and promotions
 
+**Due to lack of available resources in the packaging team, Eliran Mesika, Director 
+of Strategic Partnerships, will be the temporary maintainer of the available cloud images. Once hiring 
+will complete for the packaging team they will reinstate their ownership as maintainers of the images.**
+
 ### Project Building Blocks
 
 - Progress Tracking: GitLab issue
@@ -80,10 +84,10 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 - Login to [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:sort=publicIp)
 - Creating a new image:
   - Create a new instance and choose the Ubuntu AMI
-  - Install GitLab-ee or GitLab-ce via omnibus:
-    - 'curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash'
-    - 'sudo apt-get install gitlab-ce'
-    - 'gitlab-ctl reconfigure'
+  - Install GitLab-ee or GitLab-ce via omnibus (change to the appropriate version CE/EE in the commands below):
+    - `curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash`
+    - `sudo apt-get install gitlab-ce`
+    - `gitlab-ctl reconfigure`
   - [Create the new AMI from this instance](http://docs.aws.amazon.com/AWSToolkitVS/latest/UserGuide/tkv-create-ami-from-instance.html)
     - Make the AMI public, change the properties in the console when you right click on this AMI
 
@@ -91,7 +95,7 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 - Manage the account and details on the [publisher portal](https://publish.windowsazure.com/), choose 'Personal' account
 to continue the login.
 - Once logged in, you can view the images and the marketing information for the account there
-- [How to publish an offer to the Azure Marketplace](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-getting-started/
+- [How to publish an offer to the Azure Marketplace](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-getting-started/)
 1. Create the image:
     - [General non-technical prerequisites](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-pre-requisites/)
     - [VM image technical prerequisites](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-vm-image-creation-prerequisites/)

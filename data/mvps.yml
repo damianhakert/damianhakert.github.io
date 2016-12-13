@@ -1,123 +1,135 @@
+- version: "8.14"
+  name: Toon Claes
+  date: November 22nd, 2016
+- version: "8.13"
+  name: Marc Siegfriedt
+  date: October 22nd, 2016
+- version: "8.12"
+  name: James Munnelly
+  date: September 22nd, 2016
+- version: "8.11"
+  name: Clement Ho
+  date: August 22nd, 2016
 - version: "8.10"
   name: Winnie
   date: July 22nd, 2016
-- version: 8.9
+- version: "8.9"
   name: Rui Santos
   date: June 22nd, 2016
-- version: 8.8
+- version: "8.8"
   name: Matt Oakes
   date: May 22nd, 2016
-- version: 8.7
+- version: "8.7"
   name: Connor Shea
   date: April 22nd, 2016
-- version: 8.6
+- version: "8.6"
   name: Marcia Ramos
   date: March 22nd, 2016
-- version: 8.5
+- version: "8.5"
   name: Artem Sidorenko
   date: February 22nd, 2016
-- version: 8.4
+- version: "8.4"
   name: Kyungchul Shin
   date: January 22nd, 2016
-- version: 8.3
+- version: "8.3"
   name: Greg Smethells
   date: December 22nd, 2015
-- version: 8.2
+- version: "8.2"
   name: Cristian Bica
   date: November 22nd, 2015
-- version: 8.1
+- version: "8.1"
   name: Zeger-Jan van de Weg
   date: October 22nd, 2015
-- version: 8.0
+- version: "8.0"
   name: Kirill Zaitsev
   date: September 22nd, 2015
-- version: 7.14
+- version: "7.14"
   name: Stan Hu
   date: August 22nd, 2015
-- version: 7.13
+- version: "7.13"
   name: Stan Hu
   date: July 22nd, 2015
-- version: 7.12
+- version: "7.12"
   name: Alexandre Lossent (CERN)
   date: June 22nd, 2015
-- version: 7.11
+- version: "7.11"
   name: James Newton
   date: May 22nd, 2015
 - version: "7.10"
   name: Stan Hu
   date: April 22nd, 2015
-- version: 7.9
+- version: "7.9"
   name: Stan Hu
   date: Mar. 22nd, 2015
-- version: 7.8
+- version: "7.8"
   name: Hannes Rosenögger
   date: Feb. 22nd, 2015
-- version: 7.7
+- version: "7.7"
   name: Ciro Santilli
   date: Jan. 22nd, 2015
-- version: 7.6
+- version: "7.6"
   name: Ben Bodenmiller
   date: Dec. 22nd, 2014
-- version: 7.5
+- version: "7.5"
   name: Martijn van Bemmel
   date: Nov. 22nd, 2014
-- version: 7.4
+- version: "7.4"
   name: Vinnie Okada
   date: Oct. 22nd, 2014
-- version: 7.3
+- version: "7.3"
   name: Robert Schilling
   date: Sept. 22nd, 2014
-- version: 7.2
+- version: "7.2"
   name: Robert Schilling
   date: Aug. 22nd, 2014
-- version: 7.1
+- version: "7.1"
   name: Jeroen van Baarsen
   date: July 22nd, 2014
-- version: 7.0
+- version: "7.0"
   name: Earle Randolph Bunao and Neil Francis Calabroso
   date: June 22nd, 2014
-- version: 6.9
+- version: "6.9"
   name: Evgeniy Sokovikov
   date: May 22nd, 2014
-- version: 6.8
+- version: "6.8"
   name: Jeroen van Baarsen
   date: April 22nd, 2014
-- version: 6.7
+- version: "6.7"
   name: Jason Hollingsworth
   date: March 22nd, 2014
-- version: 6.6
+- version: "6.6"
   name: Drew Blessing
   date: Feb. 22nd, 2014
-- version: 6.5
+- version: "6.5"
   name: Jason Blanchard
   date: Jan. 22nd, 2014
-- version: 6.4
+- version: "6.4"
   name: Steven Thonus and Jason Hollingsworth
   date: Dec. 22nd, 2013
-- version: 6.3
+- version: "6.3"
   name: Andrew Kumanyaev
   date: Nov. 22nd, 2013
-- version: 6.2
+- version: "6.2"
   name: Steven Thonus
   date: Oct. 22nd, 2013
-- version: 6.1
+- version: "6.1"
   name: Ash Wilson
   date: Sept. 22nd, 2013
-- version: 6.0
+- version: "6.0"
   name: Izaak Alpert
   date: Aug. 22nd, 2013
-- version: 5.4
+- version: "5.4"
   name: Javier Castro
   date: July 22nd, 2013
-- version: 5.3
+- version: "5.3"
   name: Karlo Nicholas T. Soriano
   date: June 22nd, 2013
-- version: 5.2
+- version: "5.2"
   name: Angus MacArthur
   date: May 22nd, 2013
-- version: 5.1
+- version: "5.1"
   name: Hiroyuki Sato
   date: April 22nd, 2013
-- version: 5.0
+- version: "5.0"
   name: Dan Knox
   date: March 22nd, 2013

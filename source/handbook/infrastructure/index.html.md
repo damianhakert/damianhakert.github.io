@@ -5,7 +5,7 @@ title: "Infrastructure"
 
 ## Communication<a name="reach-infra"></a>
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. Still alive, but in the course of being deprecated, there is the public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
 - [**Chat channel**](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## Infrastructure roles
@@ -86,6 +86,24 @@ When writing a new runbook, be mindful what the goal of it is:
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 - If it is for general management, it can be freely formatted.
 
+### Chef cookbooks
+
+Some basic rules:
+
+- Use maintained cookbooks from https://supermarket.chef.io.
+- Create a wrapper cookbook whenever a feature is missing.
+- Make sure our custom cookbooks are public available from https://gitlab.com/gitlab-cookbooks.
+- Make sure there is a copy in our DEV environment https://dev.gitlab.org/cookbooks and setup push mirror to keep it in sync.
+- Berkshell should only point to our cookbooks in DEV so we are able to fix our cookbooks whenever GitLab.com comes unavailable.
+- Cookbooks should be developed using the team. We use merge requests and code review to share knowledge and build the best product we can.
+- Cookbooks should be covered with testing in order to prevent them from becoming legacy.
+
+Generally our [chef cookbooks](https://gitlab.com/groups/gitlab-cookbooks) live in the open, and they get mirrored back to our
+[internal cookbooks group](https://dev.gitlab.org/cookbooks) for availability reasons.
+
+There may be cases of cookbooks that could become a security concern, in which case it is ok to keep them in our GitLab
+private instance. This should be assessed in a case by case and documented properly.
+
 ### Internal documentation
 
 Available in the [Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
@@ -96,7 +114,7 @@ Still, this documentation is [in the Chef Repo](https://dev.gitlab.org/cookbooks
 start pulling things out of there into the runbooks, until this documentation is thin and GitLab.com only.
 
 ### GitLab Cloud Images
-A detailed process on creating and maintaining GitLab cloud images can be found [here](https://about.gitlab.com/handbook/cloud-images).
+A detailed process on creating and maintaining GitLab cloud images can be found [here](https://about.gitlab.com/cloud-images/).
 
 ## Production events logging
 
@@ -110,6 +128,10 @@ There are 2 kind of production events that we track:
   - Try to be as explicit as possible on what the root cause is.
   - If we don't know the root cause, also state it and leave the issue open for followup.
   - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
+
+## On Call
+
+See the separate [on-call page](/handbook/on-call/).
 
 # Make GitLab.com settings the default
 

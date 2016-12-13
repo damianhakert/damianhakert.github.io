@@ -8,7 +8,7 @@ It is organized from the short to the long term.
 
 ## Your contributions
 
-GitLab's direction is determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
+GitLab's direction is also determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
 We continually merge code to be released in the next version.
 Contributing is the best way to get a feature you want included.
 On [our issue tracker for CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
@@ -30,17 +30,30 @@ Due to our short release cycle we can ship simple feature requests (for example 
 
 On our [release list page](https://about.gitlab.com/release-list/) you can find an overview of the most important features of recent releases and a links to the release blog posts.
 
-## Next releases
+## Next releases (automatically generated)
 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and don't do things that are listed.
 This page is always in draft, some of the things on it might not ever be in GitLab.
-EE options are indicated with 'EE option' in the issue title, this is our best estimate of what will be options, it is not definitive.
+New Products are indicated with 'New Product' in the issue title, this is our best estimate of what will be new products, it is not definitive.
 Also the list below not include any contributions from outside GitLab the company.
 The bullets list the tentpole features; the most important features of upcoming releases.
+This is not an authoritative list of upcoming releases - it just reflects current [milestones](https://gitlab.com/groups/gitlab-org/milestones).
 The CE and EE to the right of the version number link to all planned issues for that version.
 
+The milestone, as seen below, is the intended date that the listed features get shipped.
+
 <%= direction %>
+
+## Next Premium Features
+
+Below is the list of premium features we are working on. These features will be available
+for GitLab Enterprise Edition Premium. The higher the item on the list, the sooner we expect
+to ship it.
+
+* [GitLab Geo Disaster Recovery](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
+* [Time Tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/1293)
+* [License Finder](https://gitlab.com/gitlab-org/gitlab-ee/issues/1125)
 
 ## Wishlist <a name="wishlist"></a>
 
@@ -49,160 +62,120 @@ This list is not prioritized. We invite everyone to join the discussion by click
 Feel free to comment, vote up or down any issue or just follow the conversation.  For GitLab sales, please add a link to the account in Salesforce.com that has expressed interest in a wishlist feature.
 We very much welcome contributions that implement any of these things.
 
-### Major Wins
+### CI
 
-- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012)
-- [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
-- [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
-- [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
-- [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
-- [Handle incoming emails with support questions in issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/149)
-- [Cherry-pick MR into any branch in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/12785)
-- [Allow pushing to multiple servers](https://gitlab.com/gitlab-org/gitlab-ee/issues/276)
-
-### Usability
-
-- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
-- [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
-- [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
-- [Ship octotree as part of GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/13723)
+<%= wishlist["CI"] %>
 
 ### Code Review
 
-- [See current HEAD in outdated discussion](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502)
-- [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
-- [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
-- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
+[Code review meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19049)
+
+<%= wishlist["code review"] %>
+
+### Container Registry
+
+<%= wishlist["container registry"] %>
+
+### Issue Boards
+
+[Issue Boards meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/21365)
+
+<%= wishlist["issue boards"] %>
 
 ### Issue tracker
 
-- [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
-- [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
-- [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
+<%= wishlist["issues"] %>
 
-### Productivity
+### Moderation Tools
 
-- [Change notification setting](https://gitlab.com/gitlab-org/gitlab-ce/issues/3778)
-- [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
+[Moderation tools meta issue ](https://gitlab.com/gitlab-org/gitlab-ce/issues/19313)
 
-### Version Control for Everything
-
-- [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
-- [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
-- [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
-
-### Performance
-
-- [Handle errors before they give a 500](https://gitlab.com/gitlab-org/gitlab-ce/issues/4665)
-- [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
-- [Participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
-- [Reduce memory leaks](https://gitlab.com/gitlab-org/gitlab-ce/issues/3700)
-
-### CI
-
-- [Deploy your branch button](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-- [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
-- [A/B testing of branches with GitLab Pages (EE option)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Code coverage graphs and adding more metrics (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
-- [Pre-testing of merged results (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-
-### Moonshots
-
-- [Resolve merge conflicts in the browser](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
-- [Automatic parallelization of tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
-- [Allow me to work on todo's from my mobile, mobile apps](https://gitlab.com/gitlab-org/gitlab-ce/issues/18669)
-- [Real Time editing of description fields](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
-- [Federated merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
-- [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
-- [Run tests in the cloud pre-commit from a client](https://gitlab.com/gitlab-org/gitlab-ce/issues/19267)
-- [Copy-on-write fuse filesystem](https://gitlab.com/gitlab-org/gitlab-ce/issues/19292)
-- [Autocommit using auto-assigned approvers](https://gitlab.com/gitlab-org/gitlab-ce/issues/19293)
-- [CI suggesting edits](https://gitlab.com/gitlab-org/gitlab-ce/issues/19294)
-- [Comment on pictures](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-https://gitlab.com/gitlab-org/gitlab-ce/issues/2641
-- [Rebuild all containers](https://gitlab.com/gitlab-org/gitlab-ee/issues/592)
-- [Code to issue audit](https://gitlab.com/gitlab-org/gitlab-ee/issues/740)
-- [Clone MR](https://gitlab.com/gitlab-org/gitlab-ee/issues/741)
-- [Idea to production dashboard ](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687#note_12633700)
-- [Machine learning to classify](https://gitlab.com/gitlab-org/gitlab-ce/issues/19369)
-- [GitLab as a package server](https://gitlab.com/gitlab-org/gitlab-ce/issues/19095)
-- [Commit bots for code cleanup](http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext) Be sure they don’t break other projects when they change a method or w/e in one project. Also want to see how other projects are using some feature.
-
-### EE Options
-
-- [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Code coverage graphs and adding more metrics ](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
-- [Pre-testing of merged results (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- [Feature deploy (measure KPI and use feature toggles)](https://gitlab.com/gitlab-org/gitlab-ee/issues/779)
-- [Automatic environment per merge request](https://gitlab.com/gitlab-org/gitlab-ee/issues/684)
-- [Automatic A/B testing of branches](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Configuration management integration (Chef, Puppet, Ansible, Salt)](https://gitlab.com/gitlab-org/gitlab-ee/issues/780)
-- [Directory access management](https://gitlab.com/gitlab-org/gitlab-ee/issues/308)
-- [Turnstile security that is self learning and location dependent](https://gitlab.com/gitlab-org/gitlab-ee/issues/782)
-- [Automated vulnerability scanner](https://gitlab.com/gitlab-org/gitlab-ee/issues/781)
-- [Watermarking of binaries that are downloaded](https://gitlab.com/gitlab-org/gitlab-ee/issues/783)
-- [Build traceability (trace binary to source)](https://gitlab.com/gitlab-org/gitlab-ee/issues/622)
-- [New code license detection](https://gitlab.com/gitlab-org/gitlab-ee/issues/744)
-- [Advanced compliance reporting on access rights](https://gitlab.com/gitlab-org/gitlab-ee/issues/784)
-- [Advanced analytics features](https://gitlab.com/gitlab-org/gitlab-ee/issues/112) and [Delivery analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Management dashboard (time spend per phase, cycle time and velocity)](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
-
-### Scope <a name="scope"></a>
-
-[Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
-To achieve this we plan to ship the following stack of tools in our Omnibus package:
-
-1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) ships with GitLab
-1. **Issue** (Tracker) => GitLab Issues ships with GitLab
-1. **Plan** (Board) => We plan to make an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907)
-1. **Code** (IDE) => We plan to ship an [IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
-1. **Commit** (Repo) => GitLab Repositories ships with GitLab
-1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
-1. **Review** (MR) => GitLab Merge Requests ships with GitLab
-1. **Staging** (CD) => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) already ships many features.
-1. **Production** (Chatops) => We plan to ship with [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
-1. **Feedback** (Idea to Production Dashboard) => We plan to ship [this dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687#note_12633700)
+<%= wishlist["moderation"] %>
 
 ### Monitoring
 
-We're not sure if superficial application performance (APM) monitoring is in our scope.
-We don't want to do deep APM since that sophisticated requires introspection of code.
-But we are considering shipping Grafana and InfluxDB as part of our Omnibus package.
-Examples of the advantages of adding APM to GitLab would be:
+<%= wishlist["monitoring"] %>
 
-- No external tools or setup needed for [GitLab performance monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html).
-- It would make it easier have our [deployment pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/750910) automatically revert a deployment when it impacts performance.
-- We can use it to visualize the outcome of [A/B testing](https://gitlab.com/gitlab-org/gitlab-ee/issues/117).
+### Open Source Projects
 
-We want to be the devops side of monitoring more than the ops side of monitoring.
-Measure the impact of deployments and not ddos attacks and scaling problems.
-Not sure if we need to ship our own monitoring stack for this or not.
+[Features for open source projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938)
 
-If we just push a release we don't have a preconfigured way to push data to the monitoring system.
-Without this preconfigured way there is no advantage to doing this ourselves.
-Also, users might be using an existing solution they want to reuse (datadog, etc.).
+<%= wishlist["open source"] %>
+
+### Pages
+
+<%= wishlist["pages"] %>
+
+### Performance
+
+<%= wishlist["Performance"] %>
+
+### Usability
+
+<%= wishlist["usability"] %>
+
+### User management
+
+[User management meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19860)
+
+<%= wishlist["user management"] %>
+
+### Version Control for Everything
+
+<%= wishlist["vcs for everything"] %>
+
+### Wiki
+
+[Wiki improvements meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19276)
+
+<%= wishlist["wiki"] %>
+
+### Moonshots
+
+- [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
+<%= wishlist["moonshots"] %>
+
+### New Premium Features
+
+<%= wishlist["ee product"] %>
+
+## Scope <a name="scope"></a>
+
+[Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
+To achieve this we plan to ship the following stack of tools in our Omnibus package:
+
+1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) and Mattermost Chat Command ships with GitLab.
+1. **Issue** (Tracker) => GitLab Issues ships with GitLab.
+1. **Plan** (Board) => [GitLab Issue Boards](https://about.gitlab.com/solutions/issueboard/) ships with GitLab.
+1. **Code** (IDE) => Online file editor ships with GitLab, we plan to ship [Online terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864), and are thinking about [syncing files for a local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
+1. **Commit** (Repo) => GitLab Repositories ships with GitLab.
+1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
+1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/) ship with GitLab.
+1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) ships with GitLab, and we are thinking about [Smart Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/24197) and [Auto Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580).
+1. **Production** (Chatops) => Mattermost Command ships with GitLab, and we plan to ship [Slack](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412).
+1. **Feedback** (Cycle Analytics) => Cycle Analytics ships with GitLab, and we plan to ship [Monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841) with [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481).
+
+Also see our video [In 13 minutes from Kubernetes to a complete application development tool](https://about.gitlab.com/2016/11/14/idea-to-production/).
 
 ### Outside our scope
 
-1. **PaaS** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
+1. **Operating System** Ubuntu, CentOS, [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CoreOS](https://coreos.com/), [Alpine Linux](https://alpinelinux.org/about/)
+1. **Container Scheduler** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
 1. **Configuration management** although we do want to upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
+1. **Container configuration agents** [ContainerPilot](http://container-solutions.com/containerpilot-on-mantl/), [Orchestrator-agent](https://www.percona.com/blog/2016/04/13/orchestrator-agent-how-to-recover-a-mysql-database/)
 1. **Distributed configuration stores** Consul, Etcd, Zookeeper, Vault
-1. **Container configuration agents** [ContainerPilot](http://container-solutions.com/containerpilot-on-mantl/) [Orchestrator-agent](https://www.percona.com/blog/2016/04/13/orchestrator-agent-how-to-recover-a-mysql-database/)
-1. **Log monitoring** ELK stack, Graylog, Splunk
-1. **Infrastructure monitoring** CheckMK, Nagios, Sensu
+1. **Logging** [Fluentd](http://www.fluentd.org/architecture), ELK stack, Graylog, Splunk, [LogDNA](https://logdna.com/)
 1. **Error monitoring** Sentry, Airbrake, Bugsnag
-1. **Network** Openflow, VMware NSX, Cisco ACI
-1. **Incident notification** Pagerduty, Pingdom
+1. **Network** [Flannel](https://github.com/coreos/flannel/), Openflow, VMware NSX, Cisco ACI
+1. **Tracing** OpenTracing, [LightStep](http://lightstep.com/)
 1. **Network security** Nmap, rkhunter, Metasploit, Snort, OpenVAS, OSSEC
 
-### We would love to partner with
-
-- Scrum boards: We already support [some of them](https://about.gitlab.com/applications/#scrum-boards) and we're adding an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907) to GitLab. But would love for [Waffle.io](https://waffle.io/), [Huboard](https://github.com/huboard/huboard/issues/276), and [Zenhub.io](https://www.zenhub.io/) to support GitLab too. Email eliran at our company domain to get in touch.
-- Browser IDE's: We are intergrating [Koding into GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759). But we would love for other browser IDE's to ship GitLab with them and to have button to open them from GitLab: Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio, and CodeEnvy. Email eliran at our company domain to get in touch.
-
 ## Vision <a name="vision"></a>
+
+See below for a TL;DR on how and what we're building at GitLab.
+[See this page for an in-depth in our product strategy](/direction/strategy).
+
+---
 
 From development teams to marketing organizations, everyone needs to collaborate on
 digital content. Content should be open to suggestions by a wide number of
@@ -231,12 +204,12 @@ We prefer to offer an integrated set of tools instead of a network of services o
 
 1. We think an integrated set of tools provides a better user experience that a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that that we can combine great open source products.
-1. everyone can contribute to a create a feature set that is [more complete than other tools](https://about.gitlab.com/comparison/). We'll focus on making all the parts work well together to create a better user experience.
+1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/comparison/). We'll focus on making all the parts work well together to create a better user experience.
 1. Because GitLab is open source the enhancements can become [part of
 the codebase instead](http://doc.gitlab.com/ce/project_services/project_services.html) of being external. This ensures the automated tests for all
 functionality are continually run, ensuring that additions keep working work. This is contrast to externally maintained plugins that might not be updated.
 1. Having the enhancements as part of the codebase also
-ensures GitLab can continue to evolve with it's additions instead of being bound
+ensures GitLab can continue to evolve with its additions instead of being bound
 to an API that is hard to change and that resists refactoring. Refactoring is essential to maintaining a codebase that is easy to contribute to.
 1. Many people use GitLab on-premises, for such situations it is much easier to install one tool than installing and integrating many tools.
-1. GitLab is used by many large organizations with complex purchasing processes, having to buy only subscription simplifies their purchasing.
+1. GitLab is used by many large organizations with complex purchasing processes, having to buy only one subscription simplifies their purchasing.

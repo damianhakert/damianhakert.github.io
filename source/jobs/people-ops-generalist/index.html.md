@@ -17,6 +17,7 @@ title: "People Operations Generalist"
 - Maintain the hiring pipeline and ensure proper follow-up. Participate in recruiting, screening, and reference calls.
 - Suggest and implement improvements to People Operations, for example for performance reviews and various types of training.
 - Help write job descriptions and promotion criteria.
+- TODO
 
 ## Requirements
 
@@ -31,3 +32,4 @@ title: "People Operations Generalist"
 - Wanting to work for a fast moving startup
 - You share our [values](/handbook/#values), and work in accordance with those values
 - The ability to work in a fast paced environment with strong attention to detail is essential.
+- TODO
