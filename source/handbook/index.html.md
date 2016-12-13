@@ -77,10 +77,9 @@ On a personal level, you should tell it like it is instead of putting up a poker
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
 We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
-1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
-_Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
+1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
-fixed expense._
+fixed expense.".
 1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
 help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
