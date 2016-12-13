@@ -4,7 +4,7 @@ author: Marco Lenzo
 author_twitter: marco_lenzo
 categories: GitLab CI
 image_title: '/images/unsplash/dew-leaf.jpg'
-description: "Create a Continuous Delivery pipeline in few minutes leveraging the power of Spring Boot, GitLab CI and Kubernetes."
+description: "Create a Continuous Delivery pipeline to deploy a Spring Boot app with GitLab CI and Kubernetes to Google Cloud Container Engine"
 ---
 
 [Continuous Integration, Continuous Deployment and Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) are increasingly popular topics among modern development teams. Together they enable a team to safely build, test and deploy the code virtually at any commit. The main benefit of these approaches is the ability to release more frequently quality code through means of automated pipelines. The tough part is building such pipelines. There is a myriad of tools available which we would need to choose, learn, install, integrate, and maintain. 
@@ -155,7 +155,7 @@ git push origin master
 
 ### Creating the GitLab CI Pipeline
 
-In order to make use of [Gitlab CI](https://about.gitlab.com/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file to the root directory of our repository. This file is used by [GitLab Runner](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
+In order to make use of [Gitlab CI](https://about.gitlab.com/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) configuration file to the root directory of our repository. This file is used by [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
 
 ```yml
 image: docker:latest
@@ -286,7 +286,7 @@ The `docker-build` job packages the application into a Docker container. We defi
 
 The scripts are a typical sequence of `docker` commands used to build an image, login to a private registry and push the image to it. We will be pushing images to the [GitLab Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). 
 
-The `$CI_BUILD_TOKEN` is a pre-defined variable which is injected by GitLab CI in our build environment automatically. It is used to login to the GitLab Container Registry. 
+The [`$CI_BUILD_TOKEN`](https://docs.gitlab.com/ce/user/project/new_ci_build_permissions_model.html#container-registry) is a pre-defined variable which is injected by GitLab CI in our build environment automatically. It is used to login to the GitLab Container Registry. 
 
 For a complete list of pre-defined variables, have a look at the [variables documentation](https://docs.gitlab.com/ce/ci/variables/README.html#variables).
 {: .alert .alert-info}
@@ -332,10 +332,10 @@ The `kubectl create secret docker-registry ...` script creates the `imagePullSec
 Time to check if everything is in order on our cluster.
 
 ```shell
-marcol@ubuntu-workstation:~$ kubectl get deployments
+$ kubectl get deployments
 NAME              DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
 actuator-sample   2         2         2            2           2m
-marcol@ubuntu-workstation:~$ kubectl get pods
+$ kubectl get pods
 NAME                               READY     STATUS    RESTARTS   AGE
 actuator-sample-3641958612-3e5xy   1/1       Running   0          2m
 actuator-sample-5542343546-fr4gh   1/1       Running   0          2m
@@ -392,9 +392,9 @@ k8s-deploy-production:
   - production
 ```
 
-The `environment` keyword associates the job with a specific environment while the `url` element is used to generate a handy hyperlink to our application on the GitLab Environments page. The `only` keyword signals to GitLab CI that the job should be executed only when the pipeline is building the listed branches. Finally, `when: manual` is used to turn the job execution from automatic to manual. Turning the execution of this job to `automatic` would project us in the world of [Continuous Deployment](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-deployment) rather than [Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-delivery). From a Kubernetes perspective, we are making use of `namespaces` to segregate the different environments.
+The `environment` keyword associates the job with a specific environment while the `url` element is used to generate a handy hyperlink to our application on the GitLab Environments page (found under your project's `Pipelines > Environments`). The `only` keyword signals to GitLab CI that the job should be executed only when the pipeline is building the listed branches. Finally, `when: manual` is used to turn the job execution from automatic to manual. Turning the execution of this job to `automatic` would project us in the world of [Continuous Deployment](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-deployment) rather than [Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#continuous-delivery). From a Kubernetes perspective, we are making use of `namespaces` to segregate the different environments.
 
-By committing on `master` and `production` we trigger a pipeline per environment. As previously said, we are not making use of any collaboration tool because it is out of the scope of this tutorial. In real world scenarios, we would use [Merge Requests](https://docs.gitlab.com/ee/api/merge_requests.html) with [Review Apps](https://about.gitlab.com/features/review-apps/) to move code across branches. [Merge Requests](https://docs.gitlab.com/ee/api/merge_requests.html) allow the team to review and discuss the changes before they get merged into the target branch. [Review Apps](https://about.gitlab.com/features/review-apps/) take that one step further by spinning up dynamic environments for our merge requests offering the team access to a deployed instance of our application without the need of checking out the branch. This is extremely useful for non-technical members of the team.
+By committing on `master` and `production` we [trigger a pipeline per environment](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/). As previously said, we are not making use of any collaboration tool because it is out of the scope of this tutorial. In real world scenarios, we would use [Merge Requests](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/#merge-request) with [Review Apps](https://about.gitlab.com/features/review-apps/) to move code across branches. Merge Requests allow the team to review and discuss the changes before they get merged into the target branch. [Review Apps](https://about.gitlab.com/features/review-apps/) take that one step further by spinning up dynamic environments for our merge requests offering the team access to a deployed instance of our application without the need of checking out the branch. This is extremely useful not only for non-technical members of the team, but also to collaborators and project managers to preview the changes without having to clone and install the app and its dependencies when evaluating a proposal.
 
 ```shell
 git commit -am "Showcasing Pipelines"
@@ -408,7 +408,7 @@ The Pipelines screen details all pipeline executions. We can gather information 
 
 ![Environments](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/environments.png){: .shadow}
 
-Environments are listed in a separate page. It is possible to redeploy the latest version of an environment or to rollback to a particular version of the environment by accessing the relative details page.
+Environments are listed in a separate page, from which it is possible to redeploy the latest version of an environment or to rollback to a particular version of the environment by accessing the relative details page.
 
 ![Rollbacks](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/rollbacks.png){: .shadow}
 
@@ -424,6 +424,7 @@ While this is a basic example, it shows clearly the immense benefits any team or
 Marco Lenzo is a Software Architect always up for a challenge. He has expertise in transaction processing and platform as a service (PaaS). Java, Spring, Go and Kubernetes are currently his bread and butter.
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/309 -->
+<!-- cover image: https://unsplash.com/photos/G86MS2ZsiJA -->
 
 <style>
   .h4 {
