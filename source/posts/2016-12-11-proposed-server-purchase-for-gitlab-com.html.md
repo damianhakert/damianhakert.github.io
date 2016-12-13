@@ -11,7 +11,7 @@ We want to make GitLab.com fast and we [knew it was time to leave the cloud](htt
 In this post is our thinking about what chassis, rack, memory, CPU, network, power, and hosting to buy.
 We wanted to share what we learned and get your feedback on our proposal and questions.
 When you reply to a question in the comments on our blog or Hacker News please reference it with the letter and number: 'Regarding R1'.
-We'll try to update the questions with prelimenary answers as we learn more.
+We'll try to update the questions with preliminary answers as we learn more.
 
 <!-- more -->
 
@@ -338,7 +338,7 @@ And we could probably have reduced the cost of cloud hosting by focussing on it.
 
 The bigger expense will be hiring more people to deal with the additional complexity.
 We'll probably need to hire a couple of people more to deal with this.
-We're hiring [producton engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistakes in this post we would love to talk to you (and if you didn't spot many mistakes but think you can help us we also want to talk to you).
+We're hiring [production engineers](https://about.gitlab.com/jobs/production-engineer/) and if you're spotting mistakes in this post we would love to talk to you (and if you didn't spot many mistakes but think you can help us we also want to talk to you).
 
 We looked into initially having disks in only half the servers but that saves only $20k ($225 per disk) and it would create a lot of work when we eventually have to install them.
 
