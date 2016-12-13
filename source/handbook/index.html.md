@@ -350,6 +350,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
