@@ -61,7 +61,7 @@ Creation:
 
 Email potential partner with case for creating content/blog post which will feature in our newsletter. Also request that they include the content in their own newsletter. 
 
-Create issue and assign to Content Marketing with the following information:
+Create separate issue for blog post in www-gitlab-com project with blog post label and assign to Content Marketing with the following information:
 - A summary describing the partnership
 - Any specific goals for the blog post (e.g. must link to this, mention this, do not do this...)
 - Contacts from both sides for people involved in the partnership
