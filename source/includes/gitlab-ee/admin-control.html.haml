@@ -2,37 +2,41 @@
   .section-container
     %h2.section-title Give admins more control without slowing down developers
     %p.section-description Get your developers up and running on new projects quickly with centralized user management and access controls.
-    .feature-preview-selector.js-feature-preview-selector
-      .selected-feature-image-wrap.js-selected-feature-image-wrap
-        %img.selected{src: "http://placehold.it/1280x770", :alt => "Authentication preview", data: { 'feature-id' => 'auth'}}
-        %img{src: "http://placehold.it/1280x770", :alt => "LDAP group sync preview", data: { 'feature-id' => 'ldap'}}}
-        %img{src: "http://placehold.it/1280x770", :alt => "Permissions preview", data: { 'feature-id' => 'permissions'}}}
-      %ul.feature-list.js-select-zone-wrap
-        %li.feature-select-zone.selected{ data: { 'feature-id' => 'auth'}}
-          %h4.feature-title Authentication
-          %p.feature-description Secure your account with GitLab support for 2FA, U2F, Kerberos, CAS, Atlassian Crowd, SAML and more.
-        %li.feature-select-zone{ data: { 'feature-id' => 'ldap'}}
-          %h4.feature-title LDAP group sync
-          %p.feature-description Sync groups, manage SSH-keys, manage permissions, authentication and more.
-        %li.feature-select-zone{ data: { 'feature-id' => 'permissions'}}
-          %h4.feature-title Permissions
-          %p.feature-description Manage access and permissions with user roles and group-level settings.
-      .media-object-row
-        .media
-          .media-left{:href => "#"}
-            = icon "gitlab-ee/icons/10-repo-size-icon", "media-object"
-          .media-body
-            %h4.media-heading Repository size restictions
-            Set global, per group, or per project limits for your repositories’ size.
-        .media
-          .media-left{:href => "#"}
-            = icon "gitlab-ee/icons/11-branches-icon", "media-object"
-          .media-body
-            %h4.media-heading Protected branches
-            Control who can create, push, or delete branches at a roles-based and user-specific level.
-        .media
-          .media-left{:href => "#"}
-            = icon "gitlab-ee/icons/12-deployment-icon", "media-object"
-          .media-body
-            %h4.media-heading Deployment flexibility
-            Say goodbye to pro-configured VMs and run GitLab on almost any infrastructure.
+    .media-object-row
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/10-repo-size-icon", "media-object"
+        .media-body
+          %h4.media-heading Authentication
+          Secure your account with GitLab support for 2FA, U2F, Kerberos, CAS, Atlassian Crowd, SAML and more.
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/11-branches-icon", "media-object"
+        .media-body
+          %h4.media-heading  LDAP group sync
+          Sync groups, manage SSH-keys, manage permissions, authentication and more.
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/12-deployment-icon", "media-object"
+        .media-body
+          %h4.media-heading Permissions
+          Manage access and permissions with user roles and group-level settings.
+    .media-object-row
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/10-repo-size-icon", "media-object"
+        .media-body
+          %h4.media-heading Repository size restictions
+          Set global, per group, or per project limits for your repositories’ size.
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/11-branches-icon", "media-object"
+        .media-body
+          %h4.media-heading Protected branches
+          Control who can create, push, or delete branches at a roles-based and user-specific level.
+      .media
+        .media-left{:href => "#"}
+          = icon "gitlab-ee/icons/12-deployment-icon", "media-object"
+        .media-body
+          %h4.media-heading Deployment flexibility
+          Say goodbye to pro-configured VMs and run GitLab on almost any infrastructure.

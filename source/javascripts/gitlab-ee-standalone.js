@@ -6,7 +6,6 @@
   });
 
   function FeaturePreviewSelector($widgetContainer) {
-    // TODO: Warn if misconfigured
     this.$selectZoneContainer = $widgetContainer.find('.js-select-zone-wrap');
     this.$featurePreviewContainer = $widgetContainer.find('.js-selected-feature-image-wrap');
     this.selectedFeatureId = this.$selectZoneContainer.find('.selected');
@@ -16,14 +15,10 @@
   }
 
   FeaturePreviewSelector.prototype.ensureCorrectConfiguration = function() {
-    // add select to first if not already
-    // Data attrs match
-    // All or nothing selections
     this.ensureFeatureIds();
     this.initSelections();
   };
 
-  // Document me
   FeaturePreviewSelector.prototype.ensureFeatureIds = function() {
     this.$selectZoneContainer.find('.feature-select-zone').each(function(idx, elem) {
       var $elem = $(elem);
@@ -35,7 +30,6 @@
   };
 
   FeaturePreviewSelector.prototype.initSelections = function() {
-    // Make higher order method
     const hasSelectedImage = this.$featurePreviewContainer.find('.selected');
     const hasSelectedClickZone = this.$selectZoneContainer.find('.selected');
 
@@ -50,7 +44,6 @@
   };
 
   FeaturePreviewSelector.prototype.selectFeature = function(e) {
-    debugger;
     var selectedId = this.nextSelectedFeatureId = $(e.currentTarget).data('feature-id');
 
     this.showSelectedImage(selectedId);
