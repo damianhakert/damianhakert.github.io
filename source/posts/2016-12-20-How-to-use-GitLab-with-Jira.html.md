@@ -2,7 +2,7 @@
 title: "Project Management with GitLab and Jira"
 author: Doron Katz
 author_twitter: doronkatz
-categories: integration concepts
+categories: integration
 image_title: 
 description: "How to integrate GitLab with JIRA, and why you might want to do so"
 ---
