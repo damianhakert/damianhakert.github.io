@@ -33,6 +33,7 @@ Leadership at GitLab applies to everyone, whether an individual contributor or a
  - The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
  - To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
  - Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
+ - As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
 
 ## Individual Contributors
 
