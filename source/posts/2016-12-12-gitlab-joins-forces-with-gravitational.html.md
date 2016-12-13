@@ -1,5 +1,5 @@
 ---
-title: "GitLab joins forces with Gravitational to integrate with Kubernetes"
+title: "GitLab and Gravitational discuss Kubernetes"
 author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: integration
