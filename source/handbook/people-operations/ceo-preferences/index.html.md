@@ -77,11 +77,11 @@ The EA should follow up to make sure the draft post is submitted.
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
 * Schedule calls in European timezones in the am Pacific (Daylight) Time and US time zones in the pm Pacific (Daylight) Time.
-    * MTG | for meetings in person, either at the "office" or another location
-    * INTERVIEW | for interviews (looping in our PR partner)
+    * MTG |  for meetings in person, either at the "office" or another location
+    * INTERVIEW |  for interviews (looping in our PR partner)
     Make sure to block 10 min before for preparations and 10 min after for notes for Sid and send out https://about.gitlab.com/primer/ for background information for the interviewer.
     * CALL | for phone calls
-    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom.
+    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom. Make sure to take out the Google Hangout link when you switch to Zoom.
     add message:
     “Please use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
 	    * Calls in the hiring process also have:
@@ -94,6 +94,7 @@ The EA should follow up to make sure the draft post is submitted.
 “MTG | Bruce Armstrong (Khosla) & Sid Sijbrandij (GitLab) @ [office/location]”
 Or for example “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
 
+For all external meetings include [visiting info](about.gitlab.com/visiting) (for in-person meetings), our [primer page](about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers. 
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 
