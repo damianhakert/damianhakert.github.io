@@ -307,6 +307,8 @@
           inputSalary = inputSalary.toLocaleString();
           $currentEl.val(inputSalary);
           $currentEl.parent().toggleClass('has-value', inputSalary.length > 0);
+        } else {
+          $currentEl.parent().removeClass('has-value');
         }
       }
     }
@@ -336,15 +338,19 @@
       var countryContract = this.calculateContractFactor(selectedCountry);
       var $containerContract = type === 'current' ? $('.current-contract') : $('.new-contract');
 
-      if (countryContract.type === CONTRACT_TYPE_EMPLOYEE) {
-        $containerContract.find('.company-type').text('Inc.');
-        $containerContract.find('.contract-type').text('Employee');
-      } else {
-        $containerContract.find('.company-type').text('BV.');
-        $containerContract.find('.contract-type').text('Contractor');
-      }
+      if (selectedCountry) {
+        if (countryContract.type === CONTRACT_TYPE_EMPLOYEE) {
+          $containerContract.find('.company-type').text('Inc.');
+          $containerContract.find('.contract-type').text('Employee');
+        } else {
+          $containerContract.find('.company-type').text('BV.');
+          $containerContract.find('.contract-type').text('Contractor');
+        }
 
-      $containerContract.removeClass('hidden');
+        $containerContract.removeClass('hidden');
+      } else {
+        $containerContract.addClass('hidden');
+      }
     }
 
     MoveCalculator.prototype.renderFormula = function() {
@@ -362,7 +368,7 @@
         newContract = this.calculateContractFactor(values.newCountry);
       }
 
-      $('.formula .currentSalary .value').text(this.formatAmount(salary));
+      $('.formula .currentSalary .value').text(salary.length ? this.formatAmount(salary) : '$ ' + defaultValue);
       $('.formula .currentRentIndex .value').text(currentRentIndex ? currentRentIndex : defaultValue);
       $('.formula .newRentIndex .value').text(newRentIndex ? newRentIndex : defaultValue);
       $('.formula .currentContractTypeFactor .value').text(currentContract && currentContract.hasOwnProperty('factor') ? currentContract.factor.toFixed(2) : defaultValue);
