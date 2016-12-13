@@ -200,7 +200,8 @@
     }
 
     MoveCalculator.prototype.preventLetters = function(e) {
-      if (e.which < 48 || e.which > 57) { // Note: `e.which` is part of jQuery
+      // Check if input value is number between 0 to 9 and Backspace key (firefox)
+      if ((e.which < 48 || e.which > 57) && e.which !== 8) { // Note: `e.which` is part of jQuery
         e.preventDefault();
       }
     }
@@ -298,9 +299,16 @@
 
     MoveCalculator.prototype.renderContainerUpdates = function(e) {
       var $currentEl = $(e.currentTarget);
+      var inputSalary;
 
       if ($currentEl.attr('id') === 'current-salary') {
-        $currentEl.parent().toggleClass('has-value', $(e.currentTarget).val().length > 0);
+        inputSalary = parseInt($currentEl.val().split(',').join(''));
+
+        if (inputSalary) {
+          inputSalary = inputSalary.toLocaleString();
+          $currentEl.val(inputSalary);
+          $currentEl.parent().toggleClass('has-value', inputSalary.length > 0);
+        }
       }
     }
 
@@ -374,7 +382,7 @@
 
     MoveCalculator.prototype.getElementValues = function() {
       return {
-        salary: $(moveContainer + ' .current-salary input').val() || '',
+        salary: $(moveContainer + ' .current-salary input').val().split(',').join('') || '',
         currentCountry: $(moveContainer + ' .current-country .title').data('selected') || '',
         currentCity: $(moveContainer + ' .current-city .title').data('selected') || '',
         newCountry: $(moveContainer + ' .new-country .title').data('selected') || '',
