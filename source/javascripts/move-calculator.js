@@ -272,12 +272,11 @@
       var input = this.getElementValues();
 
       function renderData() {
-        if (input.currentCountry && input.newCountry) {
-          if (input.currentCity && input.newCity && input.salary) {
-            this.renderCompensation(input);
-          }
+        this.renderContractType(input.currentCountry, 'current');
+        this.renderContractType(input.newCountry, 'new');
 
-          this.renderContractType();
+        if (input.currentCity && input.newCity && input.salary) {
+          this.renderCompensation(input);
         } else {
           this.renderInvalidCompensation();
         }
@@ -333,23 +332,19 @@
       $(compensationAmount).text(this.formatAmount(newSalary) + ' USD');
     }
 
-    MoveCalculator.prototype.renderContractType = function() {
-      var values = this.getElementValues();
-      var newCountry = values.newCountry;
-      var newContract = this.calculateContractFactor(newCountry);
-      var $container = $('.contract-type-container');
+    MoveCalculator.prototype.renderContractType = function(selectedCountry, type) {
+      var countryContract = this.calculateContractFactor(selectedCountry);
+      var $containerContract = type === 'current' ? $('.current-contract') : $('.new-contract');
 
-      if (newContract.type === CONTRACT_TYPE_EMPLOYEE) {
-        $container.find('.grammer').text('an');
-        $container.find('.company-type').text('Inc.');
-        $container.find('.contract-type').text('employee');
+      if (countryContract.type === CONTRACT_TYPE_EMPLOYEE) {
+        $containerContract.find('.company-type').text('Inc.');
+        $containerContract.find('.contract-type').text('Employee');
       } else {
-        $container.find('.grammer').text('a');
-        $container.find('.company-type').text('BV.');
-        $container.find('.contract-type').text('contractor');
+        $containerContract.find('.company-type').text('BV.');
+        $containerContract.find('.contract-type').text('Contractor');
       }
 
-      $container.removeClass('hidden');
+      $containerContract.removeClass('hidden');
     }
 
     MoveCalculator.prototype.renderFormula = function() {
