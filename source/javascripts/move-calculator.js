@@ -184,10 +184,7 @@
         } else if (e.keyCode === 9) { // Tab keyCode
           $this.removeClass('open');
         } else if (e.keyCode === 13) { // Enter / Return
-          // As user is highlighting list items using up/down arrow keys
-          // we have to wait until effects of `addClass()` are completed
-          // otherwise we won't get any results on `list.filter()` call
-          setTimeout(function() { list.filter('li.is-focused').trigger('click'); });
+          list.filter('li.is-focused').trigger('click');
         }
 
         focusedLi = list.filter('li.is-focused');
