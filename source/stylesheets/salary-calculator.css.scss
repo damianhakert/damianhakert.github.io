@@ -210,8 +210,15 @@
 
   .input-label,
   .input-prefix,
-  .input-field {
+  .input-field,
+  .input-suffix {
     position: absolute;
+  }
+
+  .input-prefix,
+  .input-suffix {
+    bottom: 3px;
+    color: $color-gray-light;
   }
 
   .input-label {
@@ -222,16 +229,14 @@
   }
 
   .input-prefix {
-    left: 10;
-    bottom: 3px;
-    color: $color-gray-light;
+    left: 10px;
   }
 
   .input-field {
     bottom: 4px;
     left: 20px;
     padding: 0;
-    width: 90%;
+    width: 75%;
     height: 18px;
     font-size: 15px;
     outline: 0;
@@ -246,7 +251,14 @@
     }
   }
 
-  &.has-value .input-prefix {
-    color: $dropdown-fa-focus-color;
+  .input-suffix {
+    right: 10px;
+  }
+
+  &.has-value {
+    .input-prefix,
+    .input-suffix {
+      color: $dropdown-fa-focus-color;
+    }
   }
 }
