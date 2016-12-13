@@ -58,3 +58,19 @@ improvements
 - Do data analysis whenever useful
 - Assist the rest of the team with topics related to growth
 - Build and expand tools related to growth (version.gitlab.com and others)
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with a Frontend Engineer
+* Candidates will then be invited to schedule a technical interview with the Frontend Lead
+* Candidates will be invited to schedule a third interview with our VP of Engineering
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
