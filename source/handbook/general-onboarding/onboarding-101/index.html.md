@@ -66,7 +66,7 @@ BambooHR is our HRIS (Human Resource Information System) for all team members. W
 
 The information from BambooHR is used to feed other systems, so it is important that it is filled out before you start. If you are a GitLab Inc. employee, you will receive login information from TriNet, our payroll and benefits provider, within 24 hours of your start date.
 
-#### GitLab.com vs Dev.GitLab.com
+#### GitLab.com vs Dev.GitLab.org
 
 Your onboarding issue was created on the dev server, which is only viewable to team members. Per the [gitlab workflow](https://about.gitlab.com/handbook/#gitlab-workflow) point 9, everything that can be public should be out in the open. GitLab.com is viewable to anyone with an account. We ask you to set up your GitLab.com account with your GitLab email for additional security.
 

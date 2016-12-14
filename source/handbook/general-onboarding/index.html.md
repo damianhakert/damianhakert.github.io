@@ -66,7 +66,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): Add entry to availability calendar so the team can see when new people are joining.
    1. [ ] People Ops (Recruiter): Give team member access to the GitLab availability calendar
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
-   1. [ ] People Ops (Recruiter): Add new team member to the next monthly GitLab 101 call
+   1. [ ] People Ops (Recruiter): Add new team member to the next monthly [GitLab 101 call](https://about.gitlab.com/culture/gitlab-101/)
    1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
    1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
@@ -85,7 +85,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > please let me know if that is not the case.
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link]. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
+    > [Insert link]. Check out [Onboarding 101](/handbook/general-onboarding/onboarding-101) for everything you need to know throughout the onboarding process. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
