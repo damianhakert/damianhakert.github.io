@@ -126,14 +126,20 @@ Atlassian offer both a [self-hosted license tier](https://www.atlassian.com/soft
 After you've successfully create a new Jira account, we will configure it to work with your GitLab project. 
 
 ###Configuring Jira
-In your newly created Jira instance, the first step is to create a new Jira user, with access to all the projects. Making sure you are logged in to Jira  as an admin user,  create a new user (under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira. Take note of the username and password, you will need it later. 
+In your newly created Jira instance, the first step is to create a new Jira user with access to all the projects. 
+
+
+* Making sure you are logged in to Jira  as an admin user, the user with access to all projects so that you can manage user permissions on a higher level. 
+* Create a new user(under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira, which will make it easier in the long run when adding new projects, with the same user. 
+* Take note of the username and password, you will need it later. 
 
 
 ![Accessing User Management](images/blogimages/How-to-use-GitLab-with-Jira/image_10.png)
 
 ![Creating the new User](images/blogimages/How-to-use-GitLab-with-Jira/image_11.png)
 
-Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group, then within Application Access/View configuration, add the group you just created to **jira-software-users**.
+* Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group. 
+* Then within Application Access/View configuration, add the group you just created to **jira-software-users**.
 
 ![Creating a group in Jira](images/blogimages/How-to-use-GitLab-with-Jira/image_13.png)
 
