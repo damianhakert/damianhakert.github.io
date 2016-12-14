@@ -1,7 +1,6 @@
-
 ---
 layout: markdown_page
-title: "Field Marketing"
+title: Field Marketing
 ---
 
 ## Welcome to the Field Marketing Handbook!
