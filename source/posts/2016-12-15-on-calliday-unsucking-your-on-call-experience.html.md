@@ -3,147 +3,38 @@ title: "On-Calliday: Unsucking your on-call experience"
 author: Amanda Folson
 author_twitter: Ambassadorawsum
 categories: inside gitlab
-image_title: '/images/default-blog-image.jpg'
-description: "In spirit of the rapidly approaching holidays, we figured we’d share this talk on how to schedule on-call rotations to prevent burnout. Cheers to all the folks working over the holidays."
+image_title: '/images/blogimages/on-calliday.jpg'
+description: "Being on-call can be rough because you're likely losing sleep, which can impact your personal and professional life. Here are some tips on how to make on-call shifts less painful for your team and company."
 ---
 
+In spirit of the rapidly approaching holidays, here are some tips on how to prevent burnout when scheduling on-call rotations. Although I'm currently a developer advocate at GitLab, I've been a career developer and worked in DevOps roles, and I'm no stranger to the on-call life.  Here I'll discuss burnout, the pros and cons of different shift lengths, and how to make on-call rotations a little less painful. 
 
 <!-- more -->
 
-My name is Amanda Folson and I’m a developer advocate at GitLab. Prior to that I worked at PagerDuty, and I've been a career developer and worked in Ops-type roles. 
+## Four phases of burnout
 
-Some of the content here is based on my own experiences while other stuff is industry best-practice. I realize that best practice is a pipe dream, but this is a pain point for people we should be trying to improve.
+First, let's talk about burnout, because this is what we’re trying to prevent. These stages are for employees and employers alike to keep tabs on yourself and your team.
 
-Being on call sucks because you’re losing out on sleep - people get divorced over this! There are too many things to take care of while on call
+* **Caution:** You feel like you’re not providing value so you try to prove yourself by working more. You might feel down on yourself. 
+* **Warning:** You start to ignore your own needs in favor of working. Sleep, family, and hobbies become secondary priorities to you. You might panic. You work all the time and sleep like crap.
+* **Danger:** This is the point where you need to REALLY start seeking help. Your behavior starts to change at this stage. You might become aggressive or withdraw from serious commitments and social functions, or start engaging in risky behavior. You might be so anxious about all of the work you have to do that you end up not doing anything at all.
+* **Emergency:** If you’re in this zone you need to seek help immediately. In this stage you might feel empty and engage in even riskier behaviors. Many people are depressed at this stage, and it’s not uncommon for people to have suicidal thoughts.
 
-### What if I told you it could be better?
+## Whom does burnout affect?
 
-Would you believe me? We’re going to talk about some things you can do to help unburden you from your on-call experience.
+Especially in tech, people may respond to the demands of their job by staying late to get stuff done, or forgoing vacation days because even the prospect of catching up upon return is daunting. It's worth remembering that work can actually kill you, and there's a lot of stigma around this kind of stress, so it's important to talk about. Doctors in Sao Paolo did a study of physicians who were on-call and found that there was an extremely high rate of burnout among on-call professionals. The same rules appear to apply to non-physicians as well; Scientific American notes that burnout tends to happen in high-stress environments where certain needs are not met:
 
-There’s no silver bullet and not all of these things will apply to your organization, but leveraging a few of them can help tremendously.
+* Not enough sleep
+* Not enough money
+* Poor diet (including catered lunches and snacks aren’t always healthy - “quick lunch” usually means fast food)
+* Not enough water - a lot of us live on soda
+* Too much emphasis on performance over staying healthy
 
-Let’s talk about burnout for a second because this is what we’re trying to prevent.
+## How can we make on-call shifts better for team members?
 
-This stuff is useful for you as an employee and as an employer to keep tabs on yourself and your team.
+Team members can protect themselves from burnout by making sure everything is in order before their shift. For example, make sure to pay important bills, run errands you’ve been putting off, and do anything else you can to simplify your work week. 
 
-### Four Phases of Burnout
-* Caution: You feel like you’re not providing value so you try to prove yourself by working more. You might feel down on yourself. 
-* Warning: You start to ignore your own needs in favor of working. Sleep, family, and hobbies become secondary priorities to you. You might panic. You work all the time and sleep like crap.
-* Danger: This is the point where you need to REALLY start seeking help. Your behavior starts to change at this stage. You might become aggressive or withdraw from serious commitments and social functions, or start engaging in risky behavior. You might be so anxious about all of the work you have to do that you end up not doing anything at all.
-* Emergency: If you’re in this zone you need to seek help immediately. In this stage you might feel empty and engage in even riskier behaviors. Many people are depressed at this stage, and it’s not uncommon for people to have suicidal thoughts.
-
-At this point it's worth remembering that work can actually kill you.
-
-### Why am I bringing this up?
-
-First of all, there’s a lot of stigma about this and I feel that talking about it helps to reduce some of that. 
-
-Doctors in Sao Paolo did a study of physicians who were on call and found that there was an extremely high rate of burnout amongst on call professionals. You might be thinking, “But I’m not a doctor.” No, but the same rules appear to apply to non-physicians as well. It shouldn’t surprise you to hear that burnout occurs more in people who have sedentary lifestyles -- many of us do! It’s no surprise that people on call get burnt out, and this is especially true if you’re the only person who is ever on call. Stress and not sleeping will do that to a person.
-
-Scientific American notes that burnout tends to happen in high-stress environments where needs are not met:
-
-Not enough sleep
-Not enough money
-Poor diet
-Catered lunches and snacks aren’t always healthy
-“Quick lunch” usually means fast food
-If you’re busy you’ll graze on chips
-Not enough water -- a lot of us live on soda
-Too much emphasis on performance over staying healthy
-We work in an industry that likes to move FAST, and it’s creating a scenario where we’re all afraid of underperforming
-We’ll stay late to GSD
-We’ll take on more than we can handle because we’re incapable of saying no
-Afraid of getting fired for saying no
-We don’t take vacation because we’ll have to catch up
-
-
-### So what can we do to address this and make our on call experiences suck a little less?
-
-Being prepared is worth its weight in gold.
-
-Simple things like keeping your laptop and phone charged go a long way.
-
-Keep a snack handy so you’re never caught without food
-This is good advice in general but it’s hard to focus on something when you’re stressed AND hungry.
-
-Everyone *knows* they should be doing these things, but a lot of people don’t have this stuff handy when they need it.
-
-People become complacent and don’t do this - especially if they’re burnt out.
-
-### Before your shift begins, make sure everything is in order.
-
-Pay important bills 
-Run errands you’ve been putting off
-Try to set yourself up to have an easier work week
-This is all common sense stuff that people often overlook.
-People forget and go to movies/events
-This happens ALL THE TIME
-Relax, it’s not the end of the world
-If you’re ready to go, this becomes less scary
-If you don’t have reception, get to a place that does and go grab your laptop.
-It’s not an emergency  if you have a secondary on call person
-But they might be salty if they get paged after you don’t respond
-Those are things YOU can personally do to get ready
-
-### How do we make being on call easier from an employer standpoint?
-
-* We can start by setting better schedules.
-
-Start and end your on call rotations in the middle of the day
-Gives staff an opportunity to go over problems they experienced on shift
-Gives staff a chance to actually hand off information
-Gives staff a chance to ask questions about incidents that occurred
-
-Start and end your shifts mid week
-Avoids many bank holidays
-Gives people time to triage issues they saw over the weekend before someone else takes over
-
-Don’t start or end shifts on a weekend
-You miss out on everything mentioned above
-
-Be mindful of holidays
-Never start/end a shift on a holiday -- people aren’t around
-If you have international staff, see if they can cover this
-Not all US holidays are holidays elsewhere!
-Share the load across the team if you can so that one person isn’t on call the whole day
-Gives employees a chance to spend holidays with family and not stress out
-
-* Vacation
-Keep track of how many people are taking vacation days/when
-Actually take vacation. Force people to if you need to.
-This is extremely important for recovering and preventing burn out
-This will make going on call suck less
-
-* Select the right shift length 
-
-Common shift lengths
-   * 8 hours
-Great for people who are covering a business day. Might start at when someone comes in and end when they leave (or up to 3 hours after leaving) before another team takes over. 3 hours after leaving so that work they did during the day has time to settle. Useful for people who are doing deploys during the day as they’re around to fix issues that arise without anyone else getting paged for it
-   * 12 hours
-Great for people who are covering an overnight
-Swing shifts
-Follow-the-sun rotations. What do I mean by follow the sun? Just as it sounds, rotation that follows daylight. Everyone is on call during their local business hours. Someone starts at 9am, someone starts at 9pm -- Still allows for a hand off and isn’t middle of the night.
-   * 24 hours
-Really common and relatively low stress if you have several people on a team. No one has a “rough week” -- equal opportunity for everyone to have a rough night. Shift is over before you know it.
-   * 1 week
-Typical for small AND large teams
-Great if you want to have longer periods of rest between shifts
-4 people means you’re off call for 3 weeks at a time
-BAD STUFF:
-LONG, especially if stuff is on fire multiple nights
-Most likely to lead to burnout
-
-* What length rotation should I use? 
-There’s no one-size-fits-all solution to scheduling.
-Typically tell people to not do weekly rotations unless they have mature monitoring in place
-It’s better to proactively monitor and adjust schedules as needed
-
-* Scheduling Overrides
-Never be afraid to adjust the schedule
-Think of schedules as a living calendar that’s flexible and open to improvement
-Even the best theoretical schedule won’t stand up to actual use -- iterate!
-A lot of people “set it and forget it” which is absolutely the wrong approach to schedule management
-People are dynamic and their needs change. You schedule should reflect that.
+In terms of making your team work better as a whole, here are some additional best practices you can consider enforcing:
 
 ### Don't make the pain in vain
 
@@ -160,37 +51,54 @@ DO POST MORTEMS -- TALK ABOUT ISSUES AND LOOK FOR PATTERNS
 FIX ISSUE PATTERNS
 If you notice that something happens at 2am every few days, you can dig in and fix that
 
-### Tooling matters
-Many tools exist to help you manage scheduling and data aggregation
-I worked at PD, but this isn’t a plug for them. Plenty of alternatives exist.
-You should definitely be using one of these to help you, even if you’re only one person
-All of these tools will help you schedule rotations, all of them allow you to set up complex schedules
-Every single one of them is designed to tell you when people are getting woken up and what’s waking them up
+### Find the best tool for the job
+
+Many tools exist to help you manage complex scheduling and data aggregation. Plenty of alternatives exist, so definitely find one that works for you.
+Every single one of them is designed to tell you when people are getting woken up and what’s waking them up. 
 
 ### Keep your staff sharp
-Keep your staff on their toes. Run drills where you knock things over in a controlled environment and practice putting out those fires.
 
-### Incident response
+Run drills where you knock things over in a controlled environment and practice putting out those fires.
 
-Learn how to do incident response
-You can actually learn a lot from ACTUAL firefighters
-I learned a lot from 3 guys at Blackrock
-They were actual firefighters turned ops guys who go around teaching ops orgs how to handle incidents better
-When there’s a fire, there’s an incident commander
-Someone in charge of directing everyone else
-THIS DOES NOT HAVE TO BE A MANAGER, RANK DOES NOT MATTER HERE
-This person is responsible for checking in on everyone for status updates
-This person assigns a scribe to take notes -- they should NOT be taking notes at this time
-Sometimes it’s unavoidable for them to take notes -- try to record calls if you can for better notes later
+### Learn how to do incident response
 
-### You write it, you wear it
-The people who are writing the code, deploying the infrastructure, or touching the guts should be involved in the on-call rotation somehow.
-These are the best people to fix issues -- they’re the ones that know it in and out
-If you don’t have these people on call, I’m going to boldly say you’re doing it wrong
-If you do nothing else in this talk, do this.
+You can learn a lot from actual firefighters. I learned a lot from 3 guys at Blackrock, who were actual firefighters turned ops guys who go around teaching ops orgs how to handle incidents better. When there’s a fire, there’s an incident commander, who is in charge of directing everyone else. Rank isn't important here; this person does not have to be manager, they should just be repsonsible for checking in on everyone for status updates. This person also assigns a scribe to take notes if necessary, although it's better to record calls if you can for better learnings later. 
+
+### Implement "you write it, you wear it"
+
+If you do nothing else in this list, do this. The people who are writing the code, deploying the infrastructure, or touching the guts should be involved in the on-call rotation somehow. These are the best people to fix issues - they’re the ones that know it inside and out. If you don’t have these people on call, I’m going to boldly say you’re doing it wrong.
+
+## How can we make this better for employers?
+
+Start by setting better schedules. Starting and ending your on call rotations in the middle of the day gives staff an opportunity to go over problems they experienced on shift. This way they can hand off information to the next shift, and ask any questions they have about events that occurred. Starting and ending your shifts mid-week is also ideal, since it avoids many bank holidays, and gives people time to triage issues they saw over the weekend before someone else takes over. 
+
+It's also important to be mindful of holidays - never start or end a shift on a holiday because people won't be around. If you have international staff, they might be able to cover some US holidays, and vice versa. If you have to have someone on-call on a holiday, it's important to share the load across the team if you can so that one person isn’t on call the whole day. This gives employees a chance to spend holidays with family and not stress out. On a related note, employers should keep track of how many people are taking vacation and when. Force people to actually take vacation if you need to - this will make the team as a whole healthier and better when on their shift.
+
+## Which shift length is right?
+
+There’s no one-size-fits-all solution to scheduling, but I typically tell people to not do weekly rotations unless they have mature monitoring in place. It’s better to proactively monitor and adjust schedules as needed.
+
+Never be afraid to adjust the schedule by overriding what you had planned; 
+instead, think of schedules as a living calendar that’s flexible and open to improvement. A lot of people “set it and forget it” which is absolutely the wrong approach to schedule management. People are dynamic and their needs change, so your schedule should reflect that. Here are a few options. 
+
+### 8 hours
+
+This is great for people who are covering a business day. The shift might start when someone comes in and end when they leave - or up to 3 hours after leaving - before another team takes over. Extend by 3 hours after they leave so that work they did during the day has time to settle. This length is useful for people who are doing deploys during the day as they’re around to fix issues that arise without anyone else getting paged for it.
+
+### 12 hours
+
+This shift length is ideal for people who are covering an overnight. Try "follow-the-sun" rotations, which means exactly what you'd expect: Everyone is on call during their local business hours. Someone starts at 9am, someone starts at 9pm - this still allows for a hand-off and isn’t in the middle of the night.
+
+### 24 hours
+
+A 24-hour shift is really common and relatively low stress if you have several people on a team. This prevents anyone from having a “rough week” - there's equal opportunity for everyone to have a rough night. The shift is over before you know it.
+
+### 1 week
+
+This is typical for small and large teams, and is great if you want to have longer periods of rest between shifts. If you have 4 people, this schedule means each team member is "off-call" for 3 weeks at a time. However, having a week long shift feels really long, particularly if stuff is on fire multiple nights. This is the schedule most likely to lead to burnout.
 
 
-
+Image: "[day16](https://www.flickr.com/photos/winm/4207884868/in/photolist-7pQvz7-dJWsyG-dEEMqQ-93SSE9-8N51oy-7qfAA2-94Zuez-dJxMi6-4iQ9Kn-dEzpvH-bm1PF6-CaMipD-dEzonR-iJ3ikH-91ZEN3-quDS87-tTxWo-dEzpbF-96CHbx-b1JDXF-7qko6k-dyHo3s-EQ1EK-5Mm6tq-dMRacP-948isw-qxhuwK-8dXQfY-9pMdaX-dD3W6L-dCFdWt-qPa4GZ-aYRp8D-4cb2c1-7skez6-7spdL5-dK27Hi-itR6qt-93ZKiZ-5MH8RE-vpQ1c-qmz3Ct-92uKPk-tTxX5-6JhWGe-7spdCA-7qV6Ls-aYaGWX-pAsRKp-q5iPcV/)" by [Win™](https://www.flickr.com/photos/winm/) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 _Tweet us [@GitLab](https://twitter.com/gitlab), and check out our [job openings](https://about.gitlab.com/jobs/)_
 
