@@ -111,21 +111,20 @@ PROJECT-42 PROJECT-1 #time 2d 5h #comment Task completed ahead of schedule #clos
 
 As you can see, chaining actions together in one commit saves developers even more time, and hassle, while ensuring the project managers get all the information in a timely and accurate manner. 
 
-##How to Integrate GitLab with Jira
+## How to Integrate GitLab with Jira
 
 In this tutorial, we will first walk you through:
-# Creating a Jira account
-# Configuring Jira
-# Configuring Gitlab
+
+* Creating a Jira account
+* Configuring Jira
+* Configuring Gitlab
 
 Let's start off first by creating a new Jira account.
 
-###Creating and setting up a Jira Account
-Atlassian offer both a [self-hosted license tier](https://www.atlassian.com/software/jira/pricing?tab=self-hosted), as well as a [cloud license tier](https://www.atlassian.com/software/jira/pricing?tab=cloud), of which you can start off with a free trial. For the purpose of this tutorial, we opted with a cloud-based licensing, so go ahead and register for a free trial. 
+### Creating and setting up a Jira Account
+Atlassian offer both a [self-hosted license tier](https://www.atlassian.com/software/jira/pricing?tab=self-hosted), as well as a [cloud license tier](https://www.atlassian.com/software/jira/pricing?tab=cloud), of which you can start off with a free trial. For the purpose of this tutorial, we opted with a cloud-based licensing, so go ahead and register for a free trial. After you've successfully create a new Jira account, we will configure it to work with your GitLab project. 
 
-After you've successfully create a new Jira account, we will configure it to work with your GitLab project. 
-
-###Configuring Jira
+### Configuring Jira
 In your newly created Jira instance, the first step is to create a new Jira user with access to all the projects. 
 
 
@@ -155,7 +154,7 @@ Now, before we move to setting up GitLab, lets setup a mock project to work with
 
 With that last step, you are now ready to move on to setting up GitLab. 
 
-###Configuring GitLab
+### Configuring GitLab
 
 First create a new Gitlab project, as shown below:
 
@@ -190,6 +189,7 @@ Some important terminology for you to understand:
 * **Jira Closure** - When an issue has reached its final status, marked as *closed*.
 * **GitLab Issue** - An issue reported within GitLab, and is trackable within GitLab. Issues are created via the [new issue button](https://docs.gitlab.com/ee/gitlab-basics/create-issue.html) and subsequently added to the issue traker of the project. 
 - etc...
+
 
 ## Next Steps
 
