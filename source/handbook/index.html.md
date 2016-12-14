@@ -743,7 +743,7 @@ BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.goog
 
 ### Appear.in
 
-[Appear.in] (https://appear.in/) allows you to instantly create a free video chat room for up to 8 participants with no login and no installation. It also offers a free reliable mobile video conference app.
+[Appear.in](https://appear.in/) allows you to instantly create a free video chat room for up to 8 participants with no login and no installation. It also offers a free reliable mobile video conference app.
 
 ### One Tab
 
