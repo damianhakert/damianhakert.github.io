@@ -99,6 +99,7 @@ $ps-rail-default-opacity: .8;
     &::before {
       display: none;
     }
+
     &::after {
       border-left: 2px solid $org-chart-line-color;
       border-top-left-radius: 5px;
@@ -109,6 +110,7 @@ $ps-rail-default-opacity: .8;
     &::after {
       display: none;
     }
+
     &::before {
       border-top-right-radius: 5px;
     }
