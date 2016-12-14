@@ -9,7 +9,7 @@ description: "Create a Continuous Delivery pipeline to deploy a Spring Boot app 
 
 [Continuous Integration, Continuous Deployment and Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) are increasingly popular topics among modern development teams. Together they enable a team to safely build, test and deploy the code virtually at any commit. The main benefit of these approaches is the ability to release more frequently quality code through means of automated pipelines. The tough part is building such pipelines. There is a myriad of tools available which we would need to choose, learn, install, integrate, and maintain. 
 
-Recently, I literally fell in love with [GitLab](https://gitlab.com/)! It offers a fully-featured ecosystem of tools which enable us to create an automated pipeline in minutes! From source control to issue tracking and CI, we find everything under one roof fully integrated and ready for use.
+Recently, I literally fell in love with [GitLab](https://gitlab.com/)! It offers a fully-featured ecosystem of tools which enable us to create an automated pipeline in minutes! From source control to issue tracking and CI, we find everything under one roof fully integrated and ready to use.
 
 <!-- more -->
 
@@ -87,7 +87,7 @@ git push origin master
 
 ## Creating a Continuous Delivery Pipeline with GitLab CI
 
-While our code is now safe on GitLab, we still need to automate its integration and deployment. We need to verify each commit with an automated build and set of tests in order to discover issues as early as possible and, if the build is successful, deploy to a target environment. Few years ago, our only option was to install, configure and maintain a CI Server like [Jenkins](https://jenkins.io/) and possibly automate our deployment with a set of bash scripts. While the number of options has grown significantly, whether hosted or on the cloud, we still need to find a way to integrate our source control system with the CI Server of our choice. 
+While our code is now safe on GitLab, we still need to automate its integration and deployment. We need to verify each commit with an automated build and set of tests in order to discover issues as early as possible and, if the build is successful, deploy to a target environment. A few years ago, our only option was to install, configure and maintain a CI Server like [Jenkins](https://jenkins.io/) and possibly automate our deployment with a set of bash scripts. While the number of options has grown significantly, whether hosted or on the cloud, we still need to find a way to integrate our source control system with the CI Server of our choice. 
 
 Not anymore though! GitLab has fully integrated CI and CD Pipelines in its offering allowing us to [build, test and deploy](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/#build-test-and-deploy) our code with ease.
 
