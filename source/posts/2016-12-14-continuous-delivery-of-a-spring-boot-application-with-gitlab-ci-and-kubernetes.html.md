@@ -301,7 +301,7 @@ First, we create a Google Cloud Project named `actuator-sample`. Take note of th
 
 ![Create a container cluster](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/create-gce-cluster.png){: .shadow}
 
-Finally we need to create a service account which is necessary to perform a non-interactive login with `gcloud`. Navigate to Google Cloud `API Manager > Credentials > Create Credentials` and create a JSON key for the `Compute Engine default service account`.
+Finally we need to create a service account which is necessary to perform a non-interactive login with `gcloud`. Navigate to Google Cloud **API Manager** > **Credentials** > **Create Credentials** and create a JSON key for the `Compute Engine default service account`.
 
 We can now analyze the configuration.
 
@@ -323,7 +323,7 @@ k8s-deploy:
 
 We use the `google/cloud-sdk` image for this process since it comes preloaded with `gcloud` and all components and dependencies of the Google Cloud SDK including alpha and beta components. We obviously chose `deploy` as the `stage` since we want that our application is packaged beforehand and its container and pushed to the GitLab Container Registry. Then we execute a set of scripts.
 
-The `echo "$GOOGLE_KEY" > key.json` script injects the Google Cloud service account key in the container. `$GOOGLE_KEY` is a Secure Variable having as value the content of the Google Cloud service account key. [Secure Variables](https://docs.gitlab.com/ce/ci/variables/#user-defined-variables-secure-variables) are user defined variables that should not be shown in the `.gitlab-ci.yml`. They are set per project by navigating to `Project > Variables > Add Variable` in GitLab.
+The `echo "$GOOGLE_KEY" > key.json` script injects the Google Cloud service account key in the container. `$GOOGLE_KEY` is a Secure Variable having as value the content of the Google Cloud service account key. [Secure Variables](https://docs.gitlab.com/ce/ci/variables/#user-defined-variables-secure-variables) are user defined variables that should not be shown in the `.gitlab-ci.yml`. They are set per project by navigating to **Project** > **Variables** > **Add Variable** in GitLab.
 
 ![Secure Variables](/images/blogimages/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/secure-variables.png){: .shadow}
 
