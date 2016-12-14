@@ -1,7 +1,7 @@
 - title: "Prometheus Lead"
   description: /jobs/prometheus-lead/
-  apply: https://gitlab.workable.com/jobs/366277/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
@@ -42,8 +42,8 @@
 
 - title: "Community Advocate"
   description: /jobs/community-advocate/
-  apply: https://gitlab.workable.com/jobs/348185/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Database Specialist"
   description: /jobs/specialist/database/
@@ -161,6 +161,12 @@
   open: false
 
 - title: "Regional Director Sales, US"
-  description: /jobs/regional-director-sales/
+  description: /jobs/regional_director_sales/regional-director-sales
   apply: https://gitlab.workable.com/jobs/377841/candidates/new
+  open: true
+
+
+- title: "Growth Product Manager"
+  description: /jobs/growth-product-manager/
+  apply: https://gitlab.workable.com/jobs/392010/candidates/new
   open: true

@@ -21,6 +21,7 @@ $color-secondary-alt: #fba225;
 $divider-color: #d3d3d3;
 
 $link-color: #55acee;
+$link-code-color: rgb(55, 119, 176);
 
 $border-color: #dfdfdf;
 
@@ -32,8 +33,9 @@ $member-shadow-color: #ccc;
 $member-social-color: #ccc;
 
 $blog-color-text: #222;
+$blog-color-note: #666;
 $blog-color-heading: #333;
-$blog-color-purple: #548;
+$blog-color-purple: rgb(107, 79, 187);
 $blog-color-mk-border: #ccc;
 $blog-color-date: #888;
 $blog-color-overlay-border: #eee;
@@ -120,9 +122,10 @@ $font-family-serif: "Roboto Slab", serif;
 
 $border-radius-large: 3px;
 
+$grid-float-breakpoint: 992px;
+
 $navbar-default-bg: #fff;
 $navbar-default-toggle-icon-bar-bg: $color-primary;
-
 $navbar-default-link-color: #8c929d;
 $navbar-default-link-hover-color: $color-primary;
 $navbar-default-link-active-color: $color-primary;
@@ -134,6 +137,7 @@ $dropdown-link-color: #fff;
 $dropdown-link-hover-color: #18be97;
 
 $search-input-font-color: #333;
+$search-border-color: #bcbcbc;
 
 $reseller-divider-color: $navbar-default-border;
 $reseller-hero-bg-color: #35393d;

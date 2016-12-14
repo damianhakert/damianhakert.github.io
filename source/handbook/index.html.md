@@ -42,7 +42,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
-  * [Product Areas](/handbook/product/product-areas)
+  * [Product areas](/handbook/product/product-areas)
+  * [Data analysis](/handbook/product/data-analysis)
 * [Miscellaneous](/handbook/miscellaneous)
 
 ----
@@ -70,25 +71,19 @@ yourself and your teammates. We want people to have the desire to ship.
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
-Everything we do is public by default, for example, the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
+Everything we do is public by default, for example, the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them.
 There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines).
 On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
-1. **Sharing**: We care about giving great software, documentation, examples, lessons,
-and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors, and the open source ecosystem.
-1. **Freedom**: You should have clear objectives and the freedom to work on them as you
-see fit. Any instructions are open to discussion. You don't have to defend how you
-spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
 We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
-1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
-_Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
+1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
-fixed expense._
+fixed expense.".
 1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
 help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
-and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
+and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed, we [disagree and commit](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
 1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
 Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/#Principle-100).
 We're all for accurate assessment but we think it must be done in a kind way.
@@ -306,7 +301,7 @@ step, **re-assign** the issue to that person.
 1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
-1. The call is recorded automatically, and we have a 1 GB limit for recordings which is roughly sufficient for 3 days; after this is full, the recording will not be stored. Access recordings in [Zoom](https://zoom.us) using the generic credentials in the Shared vault in 1Password; find "My Recordings". Remember to actively _log out_ after viewing or downloading the recording, otherwise you will appear as the Moderator on subsequent calls.
+1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "GitLab Team Call", which is accessible to all users with a GitLab.com e-mail account.
 1. We start on time and will not wait for people.
 1. The person who has the first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the team agenda as "Not attending".
@@ -349,6 +344,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
@@ -452,6 +448,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/sop/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
     *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers (Mention to the Apple Store that you are buying it for GitLab so that we can qualify for [business discounts](http://www.apple.com/business/vpp/)). Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
+    *  [USB-C Adapter for New Macbooks](https://www.amazon.com/gp/product/B00VU2K10G/ref=s9_simh_gw_g147_i1_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=0Q5B62MGPPH9AFDBSHA6&pf_rd_t=36701&pf_rd_p=b13ec477-194d-4f63-971b-ca6229de96a2&pf_rd_i=desktop)
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
@@ -468,14 +465,14 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
-    *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed.
+    *  Internet connection subscription. (For employees in the Netherlands, see the [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq) and send the signed form to People Ops once completed).
     *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
     *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Appear.in, Zoom, and WebEx)
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.  
+    *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
     *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
     *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
@@ -502,6 +499,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
 1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
+1. Encourage your co-workers to take time out when you become aware that they are working long hours over a sustained period.
 1. We have an "unlimited" time off policy. This means that:
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
@@ -559,6 +557,7 @@ once the new team member has been with the company for 3 months.
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
+1. You can also submit passive referrals for our [global recruiters](https://about.gitlab.com/jobs/global-recruiter) to actively connect with via the passive [referral form](https://goo.gl/forms/1rNIYpdgDB3qXBAi2)
 
 People Ops will [process](/handbook/people-operations/sop/#enter-a-bonus-into-trinet) the bonus.
 
@@ -672,7 +671,7 @@ The Notification Center can be quickly disabled by Option-Clicking the menu bar 
 
 ### Zoom
 
-To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need additional duration, reach out to People Ops to see if we can extend the existing Pro license that is in use to manage the [team call](#team-call).
+To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need to be able to organize calls longer than 40 minutes using Zoom, contact People Ops to be granted a [Pro account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro). By default, only Service Engineers and members of the Sales team are given Pro accounts during onboarding since their job routinely involves making video calls with (potential) customers.
 
 To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
 
@@ -744,7 +743,7 @@ BTW Trying to set this up via Google+ via [Hangouts on Air](https://support.goog
 
 ### Appear.in
 
-[Appear.in] (https://appear.in/) allows you to instantly create a free video chat room for up to 8 participants with no login and no installation. It also offers a free reliable mobile video conference app. 
+[Appear.in] (https://appear.in/) allows you to instantly create a free video chat room for up to 8 participants with no login and no installation. It also offers a free reliable mobile video conference app.
 
 ### One Tab
 

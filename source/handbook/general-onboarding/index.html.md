@@ -26,7 +26,7 @@ title: "GitLab Onboarding"
 
 
 ## Master Checklist for Onboarding of New Hires
-<a name="checklist"></a>
+{: #checklist}
 
 Create issue for new hire in organization with following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
@@ -149,12 +149,12 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ### WITHIN FIRST WEEK OF STARTING
 
 1. [ ] People Ops (Recruiter): remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
-1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
-1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
-1. [ ] People Ops (Recruiter): [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
+1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/sop/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
+1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/people-operations/sop/#b-cards) for new team member.
+1. [ ] People Ops (Recruiter): Add team member to [Expensify](https://www.expensify.com/signin) (if employee). See SOP for more [instructions](https://about.gitlab.com/handbook/people-operations/sop/#add-expensify).
 1. [ ] People Ops (Recruiter): Add new team member to the info sheets of the next Summit if applies.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
-1. [ ] People Ops (Recruiter): [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
+1. [ ] People Ops (Recruiter): [Create a profile](https://about.gitlab.com/handbook/people-operations/sop/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
    1. [ ] call with ___
    1. [ ] call with ___
@@ -188,6 +188,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
+1. [ ] Hiring Manager (For Build Engineers): Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
 
 #### FOR SERVICE ENGINEERING ONLY
 
@@ -200,6 +201,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
    1. [ ] Hiring Manager: Add the 'moderator' flag to the new team member's user on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Hiring Manager: Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
+1. [ ] People Ops: [upgrade new team member's Zoom account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro) to Pro.
 1. [ ] New team member: Register on timezone.io by clicking on the link in the **"Link to Timezone.io Sign-Up"** - You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 
 #### FOR COMMUNITY ADVOCATES ONLY
@@ -246,7 +248,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: Invite to sales meeting.
 1. [ ] Hiring Manager: Invite to GLU
 1. [ ] Hiring Manager: Schedule weekly 1:1 meeting
-1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi], and [WebEx].
+1. [ ] People Ops: [upgrade new team member's Zoom account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro) to Pro.
+1. [ ] Sales Operations (Francis): Add to  [Salesforce], [Sertifi].
 1. [ ] Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs.
 1. [ ] New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with:
   1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
@@ -271,7 +274,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ```
 
 ## Quiz
-<a name="quiz"></a>
+
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
 Please schedule a call with your hiring manager.

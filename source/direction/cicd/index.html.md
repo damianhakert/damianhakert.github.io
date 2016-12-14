@@ -60,19 +60,21 @@ Example flow:
 
 ### Build
 
-GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts or "releases" from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
+GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
 
 Builds as first-class citizen (aka build artifacts):
 
-1. [Build history (of artifacts), a view of releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/17178)
-2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
-3. Rollback to previous build
+1. Build as separate entity from artifacts
+1. Build history
+1. Identify docker image as build for specific pipeline
+2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
+3. Rollback to previous build **DONE**
 4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299) **DONE**
 
 ### Test
 
 1. [Integration with third-party services like CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-2. [Report more than just pass/fail, report improving, degrading, above/below threshold of change](https://gitlab.com/gitlab-org/gitlab-ce/issues/14178)
+2. Report more than just pass/fail, report improving, degrading, above/below threshold of change
 3. [Detect unnecessary builds/tests and skip them (e.g. merge of a MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)

@@ -19,7 +19,7 @@ For more information about People Operations Policies please see [People Operati
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 #### Using HelloSign
-<a name="hellosign"></a>
+{: #hellosign}
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -40,7 +40,7 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 #### Letter of Adjustment
 
-When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable. 
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable.
 
 ### Processing changes
 
@@ -97,7 +97,7 @@ Add a New Division
 1. Add new division
 
 ### Process Referral Bonus
-<a name="referral-bonus"></a>
+{: #referral-bonus}
 
 If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
@@ -203,6 +203,8 @@ Add the team member's name to the proper Google sheet to make sure they enter fl
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+- **Upgrade team member's Zoom account to Pro**<a name="make-zoom-pro"></a>
+Log in to [Zoom](https://gitlab.zoom.us) with the generic admin credentials stored in 1Password. Find the user in the "User Management" tab, and click "edit", then select "Pro" (the default is Basic). If the user does not yet appear in Zoom, add them through the "Add Users" button at the top of the User Management tab. A Pro account allows the individual to have calls longer than 30 minutes. If we've run out of Pro licenses, send an email to our account manager at Zoom, as listed in a shared note on 1Password.
 
 ### Using TriNet
 
@@ -269,8 +271,31 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
+#### Adding a Trusted Advisor to TriNet
+
+A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system. 
+
+1. Add to the TriNet Platform
+    1. From TriNet Passport homepage, click on the tab My Company 
+    1. Select My Workplace, Trusted Advisor Setup 
+    1. Complete the information in the online form 
+    1. Click Submit
+1. Assign the Role of Trusted Advisor 
+    1. From TriNet Passport homepage, click Find 
+    1. Select Find Person by Name
+    1. Type in the person’s name 
+    1. Click search
+    1. Once the name appears, click on it 
+    1. From the options to the left, select Assign Roles 
+    1. Click on Add
+    1. From the drop down select the access role desired
+    1. Click Add
+
+You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system. 
+
+
 #### Making changes in TriNet
-<a name="changes-trinet"></a>
+{: #changes-trinet}
 
 ##### Add a New Location
 
@@ -332,6 +357,18 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Save when done.
 Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
+## Visa Processing
+
+To transfer an H1B Visa, GitLab needs to initiate the transfer before the team member can start work. In the past we have used Immigration Law Group as our legal counsel to help us through these steps.
+
+1. People Ops should reach out to legal counsel to start the process.
+1. Legal Counsel will reach out to the new team member and their manager to gather all information in regards to the transfer itself and the position.
+1. If there is a need for a rush in processing the H1B (plans for travel outside the US, for example) then you can file the transfer under premium processing, if approved by the CEO.
+1. Once the documents have been prepared by the law group, they will be sent to the CFO for wet signatures, and then returned to the law group.
+1. Once the law group receives the signed forms, they can file the transfer with USCIS. Note: Until we receive confirmation that the transfer paperwork has been received by USCIS, the new team member cannot start work at GitLab.
+1. Confirm to legal counsel when the new team member starts work at GitLab.
+1. File all documentation in BambooHR surrounding the transfer.
+
 ## Offboarding
 
 - **Remove a team member from Sundial**<a name="sundial-removal"></a>
@@ -341,7 +378,7 @@ Note: Make sure to file all appropriate documentation in BambooHR. Also, if the 
 1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Returning property to GitLab
-<a name="returning-property"></a>
+{: #returning-property}
 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
 

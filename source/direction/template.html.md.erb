@@ -8,7 +8,7 @@ It is organized from the short to the long term.
 
 ## Your contributions
 
-GitLab's direction is determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
+GitLab's direction is also determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
 We continually merge code to be released in the next version.
 Contributing is the best way to get a feature you want included.
 On [our issue tracker for CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
@@ -45,10 +45,10 @@ The milestone, as seen below, is the intended date that the listed features get 
 
 <%= direction %>
 
-## Next Products
+## Next Premium Features
 
-Below is the list of Products we are working on. These Products will be available
-for GitLab Enterprise Edition. The higher the item on the list, the sooner we expect
+Below is the list of premium features we are working on. These features will be available
+for GitLab Enterprise Edition Premium. The higher the item on the list, the sooner we expect
 to ship it.
 
 * [GitLab Geo Disaster Recovery](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
@@ -62,33 +62,9 @@ This list is not prioritized. We invite everyone to join the discussion by click
 Feel free to comment, vote up or down any issue or just follow the conversation.  For GitLab sales, please add a link to the account in Salesforce.com that has expressed interest in a wishlist feature.
 We very much welcome contributions that implement any of these things.
 
-### Usability
-
-<%= wishlist["usability"] %>
-
-### Issue tracker
-
-<%= wishlist["issues"] %>
-
-### Version Control for Everything
-
-<%= wishlist["vcs for everything"] %>
-
-### Performance
-
-<%= wishlist["Performance"] %>
-
 ### CI
 
 <%= wishlist["CI"] %>
-
-### Pages
-
-<%= wishlist["pages"] %>
-
-### Container Registry
-
-<%= wishlist["container registry"] %>
 
 ### Code Review
 
@@ -96,17 +72,19 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["code review"] %>
 
+### Container Registry
+
+<%= wishlist["container registry"] %>
+
 ### Issue Boards
 
 [Issue Boards meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/21365)
 
 <%= wishlist["issue boards"] %>
 
-### User management
+### Issue tracker
 
-[User management meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19860)
-
-<%= wishlist["user management"] %>
+<%= wishlist["issues"] %>
 
 ### Moderation Tools
 
@@ -114,11 +92,9 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["moderation"] %>
 
-### Wiki
+### Monitoring
 
-[Wiki improvements meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19276)
-
-<%= wishlist["wiki"] %>
+<%= wishlist["monitoring"] %>
 
 ### Open Source Projects
 
@@ -126,31 +102,58 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["open source"] %>
 
+### Pages
+
+<%= wishlist["pages"] %>
+
+### Performance
+
+<%= wishlist["Performance"] %>
+
+### Usability
+
+<%= wishlist["usability"] %>
+
+### User management
+
+[User management meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19860)
+
+<%= wishlist["user management"] %>
+
+### Version Control for Everything
+
+<%= wishlist["vcs for everything"] %>
+
+### Wiki
+
+[Wiki improvements meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19276)
+
+<%= wishlist["wiki"] %>
+
 ### Moonshots
 
 - [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
-- [Commit bots for code cleanup](https://gitlab.com/gitlab-org/gitlab-ce/issues/22393)
 <%= wishlist["moonshots"] %>
 
-### New Products
+### New Premium Features
 
 <%= wishlist["ee product"] %>
 
 ## Scope <a name="scope"></a>
 
-[Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
+[Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we plan to ship the following stack of tools in our Omnibus package:
 
-1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) ships with GitLab
-1. **Issue** (Tracker) => GitLab Issues ships with GitLab
-1. **Plan** (Board) => GitLab Issue Board
-1. **Code** (IDE) => A have [a terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864) and are thinking about [syncing files for a local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
-1. **Commit** (Repo) => GitLab Repositories ships with GitLab
-1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
-1. **Review** (MR) => GitLab Merge Requests ships with GitLab
-1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) already ship with GitLab and we plan to ship with [Review Apps](https://gitlab.com/gitlab-org/gitlab-ce/issues/20255)
-1. **Production** (Chatops) => We plan to ship with a [Slack bot](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
-1. **Feedback** (Cycle Analytics) => We plan to ship with [Cycle Analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/847) and [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
+1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) and Mattermost Chat Command ships with GitLab.
+1. **Issue** (Tracker) => GitLab Issues ships with GitLab.
+1. **Plan** (Board) => [GitLab Issue Boards](https://about.gitlab.com/solutions/issueboard/) ships with GitLab.
+1. **Code** (IDE) => Online file editor ships with GitLab, we plan to ship [Online terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864), and are thinking about [syncing files for a local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
+1. **Commit** (Repo) => GitLab Repositories ships with GitLab.
+1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
+1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/) ship with GitLab.
+1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) ships with GitLab, and we are thinking about [Smart Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/24197) and [Auto Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580).
+1. **Production** (Chatops) => Mattermost Command ships with GitLab, and we plan to ship [Slack](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412).
+1. **Feedback** (Cycle Analytics) => Cycle Analytics ships with GitLab, and we plan to ship [Monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841) with [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481).
 
 Also see our video [In 13 minutes from Kubernetes to a complete application development tool](https://about.gitlab.com/2016/11/14/idea-to-production/).
 
@@ -168,6 +171,11 @@ Also see our video [In 13 minutes from Kubernetes to a complete application deve
 1. **Network security** Nmap, rkhunter, Metasploit, Snort, OpenVAS, OSSEC
 
 ## Vision <a name="vision"></a>
+
+See below for a TL;DR on how and what we're building at GitLab.
+[See this page for an in-depth in our product strategy](/direction/strategy).
+
+---
 
 From development teams to marketing organizations, everyone needs to collaborate on
 digital content. Content should be open to suggestions by a wide number of

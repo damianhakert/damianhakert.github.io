@@ -60,9 +60,13 @@ The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, D
 
 In the very start of 2015, almost the entire GitLab team flew over to Silicon
 Valley to [participate in Y Combinator].
+We graduated in March of 2015 and had 9 people on our team.
 
-At this point, over 1000 people worldwide have [contributed to GitLab] and more
-than 100,000 organizations are using GitLab.
+### _2016: Growth_
+
+In 2016 the number of [people that contributed to GitLab] grew to more than 1000.
+More than 100,000 organizations and millions of users are using GitLab.
+Our team grew to more than 140 people.
 
 ## Vision
 
