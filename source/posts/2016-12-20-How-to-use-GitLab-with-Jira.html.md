@@ -129,7 +129,7 @@ After you've successfully create a new Jira account, we will configure it to wor
 In your newly created Jira instance, the first step is to create a new Jira user with access to all the projects. 
 
 
-* Making sure you are logged in to Jira  as an admin user, the user with access to all projects so that you can manage user permissions on a higher level. 
+* Making sure you are logged in to Jira  as an admin user, the user with access to all projects so that you can manage user permissions on a higher level, which you will do in the next step.
 * Create a new user(under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira, which will make it easier in the long run when adding new projects, with the same user. 
 * Take note of the username and password, you will need it later. 
 
@@ -178,6 +178,18 @@ You will need to set the following:
 ![Successful confirmation of Jira integration](images/blogimages/How-to-use-GitLab-with-Jira/image_20.png)
 
 By following those two steps, your GitLab and Jira project are integrated and ready to be bi-directionally engaged. 
+
+## Level up your GitLab-Jira integration 
+
+### Terminology
+
+Some important terminology for you to understand:
+
+* **Jira Issue** - Different organizations and projects track different kinds of issues, which could represent a software bug, project or business task, helpdesk ticket, for instance. Issues could also be of different types, such as task, bug, epic, and so on. 
+* **Jira Resolution** - Issues that are resolved could mean different things, from an item being *fixed*, to *closed*, but conceptually means the status has changed. Jira has default statuses, which the project administrator could customize further. 
+* **Jira Closure** - When an issue has reached its final status, marked as *closed*.
+* **GitLab Issue** - An issue reported within GitLab, and is trackable within GitLab. Issues are created via the [new issue button](https://docs.gitlab.com/ee/gitlab-basics/create-issue.html) and subsequently added to the issue traker of the project. 
+- etc...
 
 ## Next Steps
 
