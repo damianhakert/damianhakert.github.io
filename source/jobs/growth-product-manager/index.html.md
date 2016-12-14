@@ -66,9 +66,8 @@ Applicants for this position can expect the hiring process to follow the order b
 
 * Qualified applicants receive a short questionnaire from our Global Recruiters
 * Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
-* Next, candidates will be invited to schedule a first interview with a Frontend Engineer
-* Candidates will then be invited to schedule a technical interview with the Frontend Lead
-* Candidates will be invited to schedule a third interview with our VP of Engineering
+* Next, candidates will be invited to schedule a first interview with a VP of Product
+* Candidates will then be invited to schedule a second interview with the Head of Product
 * Finally, candidates will interview with our CEO
 * Successful candidates will subsequently be made an offer via email
 
