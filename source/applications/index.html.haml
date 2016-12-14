@@ -5,7 +5,6 @@ suppress_header: true
 extra_css:
   - applications.css
 extra_js:
-  - libs/typeahead.bundle.min.js
   - applications.js
 ---
 .wrapper
@@ -22,6 +21,9 @@ extra_js:
         to add an application to this page, please head to our
       %a{href: "http://about.gitlab.com/partners"} partners page
       %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
+      %ul.suggestions
+        %li
+          App
       - data.applications.each do |app_category|
         %hr{id: app_category.id}
         %h2

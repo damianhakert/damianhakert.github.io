@@ -8,11 +8,24 @@
         scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop() - 50
     });
   }
+
+  var findMatches = function(searchQuery, apps){
+    return apps.filter(function (app){
+      var regex = new RegExp(searchQuery, 'gi');
+      return app.match(regex);
+    });
+  }
+
+  var displayMatches = function(){
+    const matches = findMatches(this.searchContainer.val(), this.data.applicationTitles);
+    
+  }
+
   this.ApplicationSearchBar = (function(){
     function ApplicationSearchBar(){
-      this.typeaheadSearch = $('.search-apps');
+      this.searchContainer = $('.search-apps');
+      this.suggestions = $();
       this.initializeSearch();
-      this.bindEvents();
     }
 
     ApplicationSearchBar.prototype.getData = function() {
@@ -27,28 +40,14 @@
     }
 
     ApplicationSearchBar.prototype.bindEvents = function(){
-      this.typeaheadSearch.bind('typeahead:select', scrollToElement);
+      this.searchContainer.bind('change', displayMatches.bind(this));
+      this.searchContainer.bind('keyup', displayMatches.bind(this));
     }
 
     ApplicationSearchBar.prototype.initializeSearch = function() {
 
       function startHound(){
-        //The bloodhound engine
-        this.applicationHound = new Bloodhound({
-          datumTokenizer: Bloodhound.tokenizers.whitespace,
-          queryTokenizer: Bloodhound.tokenizers.whitespace,
-          local: this.data.applicationTitles
-        });
-
-        this.typeaheadSearch.typeahead({
-          hint: true,
-          highlight: true,
-          minLength: 1
-        },
-        {
-          name: 'Applications',
-          source: this.applicationHound
-        });
+        this.bindEvents();
       }
 
       if(this.data) {
