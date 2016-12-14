@@ -423,7 +423,7 @@ While this is a basic example, it shows clearly the immense benefits any team or
 
 ## About Guest Author
 
-Marco Lenzo is a Software Architect always up for a challenge. He has expertise in transaction processing and platform as a service (PaaS). Java, Spring, Go and Kubernetes are currently his bread and butter.
+[Marco Lenzo](https://twitter.com/marco_lenzo) is a Software Architect always up for a challenge. He has expertise in transaction processing and platform as a service (PaaS). Java, Spring, Go and Kubernetes are currently his bread and butter.
 
 <!-- closes https://gitlab.com/gitlab-com/blog-posts/issues/309 -->
 <!-- cover image: https://unsplash.com/photos/G86MS2ZsiJA -->
