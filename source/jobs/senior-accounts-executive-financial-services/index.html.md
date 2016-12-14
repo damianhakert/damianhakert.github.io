@@ -1,5 +1,4 @@
-layout: job_page
-title: "Senior Accounts Executive Financial Services"
+
 ---
 
 ## Responsibilities
@@ -8,16 +7,16 @@ Additional efforts include:
 Lead qualification for all leads and sales opportunities
 Up-selling and leveraging business from new and established customer relationships
 
-    * Senior Account Executive (SAE) will report to a regional director
-    * Act as a primary point of contact and the face of GitLab for our Financial Services prospects/clients.
-    * Lead qualification for all Financial Services leads and sales opportunities
-    * Contribute to post-mortem analysis on wins/losses.
-        * Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
-    * Take ownership of your book of business
-        * document the buying criteria
-        * document the buying process
-        * document next steps and owners
-        * ensure pipeline accuracy based on evidence and not hope
+* Senior Account Executive (SAE) will report to a regional director
+* Act as a primary point of contact and the face of GitLab for our Financial Services prospects/clients.
+* Lead qualification for all Financial Services leads and sales opportunities
+* Contribute to post-mortem analysis on wins/losses.
+* Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
+* Take ownership of your book of business
+      * document the buying criteria
+      * document the buying process
+      * document next steps and owners
+      * ensure pipeline accuracy based on evidence and not hope
 * Contribute to documenting improvements in our [sales handbook](https://about.gitlab.com/handbook/sales/).
 * Provide account leadership and direction in the pre- and post-sales process
 * Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
