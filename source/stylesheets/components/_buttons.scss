@@ -42,29 +42,6 @@
   }
 }
 
-.btn-red-transparent {
-  color: $color-white;
-  //background-color: $color-secondary;
-  padding-left: 40px;
-  padding-right: 40px;
-  min-width: 130px;
-  border-color: $color-secondary;
-  transition: all .2s;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 60px;
-
-  span {
-    color: $color-secondary;
-  }
-
-  &:hover {
-    color: $color-white;
-    //background-color: darken($color-secondary, 10%);
-    border-color: darken($color-secondary, 10%);
-  }
-}
-
 .btn-white {
   color: $color-secondary;
   background-color: $color-white;

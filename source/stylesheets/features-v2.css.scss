@@ -3,46 +3,9 @@
 @import "variables";
 @import "vendor/slick";
 
-body {
-  min-height: 100%;
-}
-
 .landing-container {
-  background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg")  center center no-repeat;
+  background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg") center center no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // Center horizontaly ie
-  -ms-flex-pack: center;
-  min-height: 850px;
-  height: 800px;
-
-  .landing-hero {
-    margin: 10px 0 50px;
-
-    path {
-      fill: $color-secondary;
-    }
-  }
-
-  .page-headline {
-    margin-bottom: 0;
-  }
-
-  .page-subtitle {
-    font-size: 28px;
-
-    @media (max-width: $screen-xs-max) {
-      font-size: 24px;
-    }
-  }
-
-  h2 {
-    color: $blueish-gray;
-    font-weight: 300;
-    margin-top: 10px;
-  }
 }
 
 .dev-cycle {
@@ -85,6 +48,7 @@ body {
       height: 55px;
       width: 55px;
     }
+
     .step {
       width: 55px;
     }
@@ -104,29 +68,35 @@ body {
 .feature-gallery,
 %feature-gallery {
   background: linear-gradient(to right, $features-gallery-background-gradient-begin 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
+
   .titles {
     h1 {
       font-weight: 300;
       color: $color-white;
     }
+
     h2 {
       color: $color-gray-light;
       font-weight: 300;
       margin-top: 10px;
     }
+
     h3 {
       margin-top: 100px;
       color: $color-secondary-alt;
     }
+
     h4 {
       color: $color-white;
       font-weight: normal;
       margin-bottom: 60px;
     }
   }
+
   .slider-dots {
     margin-bottom: 25px;
   }
+
   .feature-slider-dot-content {
     min-height: 180px;
     height: 180px;
@@ -141,20 +111,24 @@ body {
       outline: none;
       color: $features-semi-transparent-gray-link;
     }
+
     h4 {
       color: $color-secondary-alt;
       margin-bottom: 10px;
       font-size: 24px;
       font-weight: normal;
     }
+
     p {
       color: $color-white;
       font-size: 18px;
       font-weight: normal;
     }
+
     &:hover {
       cursor: pointer;
     }
+
     &:focus {
       outline: 0;
     }
@@ -187,6 +161,7 @@ body {
 
   .feature-gallery-slick-container {
     margin: 0 auto;
+
     button {
       display: block;
       width: 10px;
@@ -217,13 +192,17 @@ body {
       margin-bottom: 7px;
       font-size: 20px;
     }
+
     p {
       color: $features-barely-transparent-white;
       font-size: 16px;
       font-weight: normal;
     }
+
   }
+
   svg {
+
     path {
       fill: $color-secondary-alt;
       transition: fill .2s linear;
@@ -231,6 +210,7 @@ body {
   }
 
   @media(min-width: 1024px) {
+
     svg {
       width: 32px;
       position: absolute;
@@ -238,7 +218,9 @@ body {
       right: -5px;
     }
   }
+
   @media(max-width: 1023px) {
+
     svg {
       width: 32px;
       position: absolute;
@@ -246,14 +228,18 @@ body {
       right: 20px;
     }
   }
+
   @media(max-width: $screen-md-max) {
+
     .col-md-4 {
       margin-top: 20px;
       padding-bottom: 35px;
     }
+
     .col-md-1 {
       padding-bottom: 15px;
     }
+
     svg {
       width: 32px;
       position: absolute;
@@ -269,32 +255,42 @@ body {
   @extend %feature-gallery;
   background: none;
   background-color: $color-white;
+
   .titles {
     h3 {
       color: $color-secondary;
     }
+
     h4 {
       color: $color-primary-alt;
     }
   }
+
   .feature-slider-dot-content {
     h4 {
       color: $color-secondary;
     }
+
     p {
       color: $color-primary-alt;
     }
   }
+
   .features-description {
+
     .feature-contents {
+
       h4 {
         color: $color-primary-alt;
       }
+
       p {
         color: $features-gallery-alt-description-black;
       }
     }
+
     svg {
+
       path {
         fill: $color-secondary;
         transition: fill .2s linear;
@@ -312,6 +308,7 @@ body {
     button {
       color: transparent;
       background-color: $features-semi-transparent-purple;
+
       &:hover {
         background-color: transparent;
       }
@@ -324,6 +321,7 @@ body {
     color: $color-primary-alt;
     font-weight: 300;
   }
+
   h4 {
     color: $color-gray;
     font-weight: 300;
@@ -352,6 +350,7 @@ body {
 .video-button {
   width: 190px;
   line-height: 60px;
+
   span {
     margin-right: 3px;
   }
@@ -363,33 +362,37 @@ body {
 }
 
 @media(min-width: 1024px) {
+
   .features-description-separation {
     margin-top: 50px;
   }
+
   .main-slider-size {
     width: 70%;
     margin: 0 auto;
   }
+
   .slick-dots {
     > li {
       margin-left: 2px;
       margin-right: 2px;
     }
   }
+
   .slider-dots {
     margin-top: 70px;
   }
-  .landing-container {
-    height: 800px;
-  }
+
   .gitlab-version-section {
     h1 {
       font-size: 46px;
     }
+
     h4 {
       margin-top: 25px;
     }
   }
+
   .video-container {
     width: 560px;
     height: 315px;
@@ -397,39 +400,47 @@ body {
 }
 
 @media(max-width: $screen-md-max) {
-  .landing-container {
-    height: 700px;
-  }
+
   .main-slider-size {
     width: 100%;
     margin: 0 auto;
   }
+
   .slider-dots {
     margin-top: 20px;
   }
+
   .feature-contents {
     margin-top: 15px;
   }
+
   .gitlab-version-section {
+
     h1 {
       font-size: 36px;
     }
+
     h4 {
       margin-top: 30px;
     }
+
     a {
       margin-top: 30px;
     }
   }
+
   .slick-dots {
+
     > li {
       margin-left: 2px;
       margin-right: 10px;
     }
   }
+
   .video-button {
     margin-top: 50px;
   }
+
   .video-container {
     width: 380px;
     height: 260px;
