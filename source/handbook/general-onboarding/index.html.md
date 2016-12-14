@@ -275,6 +275,5 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ## Quiz
 
-Employees should answer GitLab quiz questions in the first 2 weeks of working in
-the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
+Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
 Please schedule a call with your hiring manager.
