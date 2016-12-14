@@ -3,7 +3,7 @@ title: "A creative agency's GitLab wishlist"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: user stories
-image_title: '/images/default-blog-image.png'
+image_title: '/images/blogimages/a-creative-agencys-gitlab-wishlist.jpg'
 description: "A Lukkien developer shares his team's challenges with Git and GitLab for their UX designs, and requests a few tweaks they'd find useful."
 twitter_image: '/images/tweets/default-blog-image.png'
 ---
@@ -34,6 +34,7 @@ Here are some items discussed below and requested by the Lukkien team:
 
 I think GitHub is positioning itself as more of a core component, they see Git and code as the core thing that needs to be solved, and are leaving integrations up to the third parties. We have integrations and we see the value in them, but we want to build something that allows you to start making things work out of the box. Instead of saying "You need to go buy Drone CI, you need to use Waffle.io, and need to wire them all up and read 10 different documentations to figure it out." We want that process to be as easy as possible.
 
+Image ["Lightroom Preset Balloon Release"](https://www.flickr.com/photos/lennykphotography/26687024535/in/photolist-GEeYCF-hUAGKL-nQCwXy-Emhqdz-HRUzeG-EeGxU4-p2KCQa-Eroe6z-e4BpVm-dcZWfj-mQnNTJ-atd2f5-DSYEyA-DSqqGk-DFXwUA-aHPQVk-GucZJZ-EDGjje-CS8FYi-rymZ62-EBjtSY-DSfzQT-avJQMx-aYtqkR-CztMC7-dTRM3q-EPK3hD-DpeasQ-f2hdPB-eRwBGC-EoaxPD-b18F74-9sd1No-bkNuRx-byvPzZ-hxRZyb-D7F1xM-EVqmsh-CVBJBa-9pnw9W-eBWbNx-ftZrun-DXtJuT-p8As5e-DWQhdR-bkNdg7-oQCcaJ-b3JagT-8VoF1U-cgzLCU) by [Lenny K Photography](https://www.flickr.com/photos/lennykphotography/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 _We want you to ask us anything! If you're a user interested in sharing your story on our blog, please fill out this [form]( https://docs.google.com/a/gitlab.com/forms/d/1K8ZTS1QvSSPos6mVh1ol8ZyagInYctX3fb9eglzeK70/edit)  and we’ll get in touch!_
 
