@@ -1,5 +1,9 @@
 // scss-lint:disable NestingDepth,SelectorDepth
 .navbar-default {
+  > .container {
+    position: relative;
+  }
+
   .navbar-collapse {
     @media (max-width: 767px) {
       text-align: center;
@@ -68,7 +72,7 @@
         }
 
         @media (min-width: $screen-md-min) {
-          padding: 15px 16px;
+          padding: 15px 10px;
           font-size: 16px;
         }
 
@@ -83,19 +87,22 @@
       position: relative;
       padding-left: 0;
       padding-right: 0;
-      margin-right: 11px;
       color: $color-primary;
       font-weight: 600;
+
+      @media (min-width: $screen-sm-min) {
+        margin-right: 11px;
+      }
 
       &:hover {
         text-decoration: underline;
       }
 
       &.is-last {
-        margin-left: 11px;
-        margin-right: 0;
-
         @media (min-width: $screen-sm-min) {
+          margin-right: 0;
+          margin-left: 11px;
+
           &::before {
             content: "";
             position: absolute;

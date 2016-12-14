@@ -23,17 +23,12 @@
   %li{class: ("active" if current_page.url == "/contact/")}
     %a{href: "/contact"}
       Contact
-  %li.visible-xs-block
-    %a{href: "https://gitlab.com/users/sign_in"}
-      Sign In
-  %li.visible-xs-block
-    %a{href: "https://gitlab.com/users/sign_in"}
-      Sign Up
-  %li
-    = partial "includes/layout/search"
   %li.hidden-xs
+    %button.search-icon.js-search-toggle{ type: "button", "aria-label" => "Search" }
+      %i.fa.fa-search
+  %li
     %a.sign-in-up-btn{href: "https://gitlab.com/users/sign_in"}
       Sign In
-  %li.hidden-xs
+  %li
     %a.sign-in-up-btn.is-last{href: "https://gitlab.com/users/sign_in"}
       Sign Up
