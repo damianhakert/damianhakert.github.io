@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Lyra Infosystems Press Release"
+title: "GitLab adds Lyra Infosystems to Global Partnership Program"
 ---
 
 San Francisco (December 8th, 2016) – GitLab today announced a partnership with Lyra Infosystems, a recognized Open Source Solution Enabler in India and Southeast Asia. Lyra Infosystems will now sell and support GitLab products as part of their portfolio. Headquartered in Bengaluru, Karnataka, India, Lyra Infosystems is an one-stop shop for Open Source solutions. Their services range from consulting, system design, to implementation and continued support for complex systems. 
