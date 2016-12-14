@@ -94,7 +94,7 @@ The EA should follow up to make sure the draft post is submitted.
 “MTG | Bruce Armstrong (Khosla) & Sid Sijbrandij (GitLab) @ [office/location]”
 Or for example “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
 
-For all external meetings include [visiting info](about.gitlab.com/visiting) (for in-person meetings), our [primer page](about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers. 
+For all external meetings include [visiting info](http://about.gitlab.com/visiting) (for in-person meetings), our [primer page](http://about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers. 
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 
