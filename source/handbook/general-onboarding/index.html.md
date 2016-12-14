@@ -188,6 +188,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
+1. [ ] Hiring Manager (For Build Engineers): Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
 
 #### FOR SERVICE ENGINEERING ONLY
 
