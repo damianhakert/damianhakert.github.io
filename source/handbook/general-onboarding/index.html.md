@@ -98,7 +98,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
     > Please let People Ops (cced here) know if there are any necessary supplies
     > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter.
-    
+
     > Here is $50 in swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
     > Swag codes: [Enter 2 swag codes]
@@ -126,6 +126,12 @@ welcome email to the employee at their work email on their first date of hire.
 
 1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
 This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
+
+#### For GitLab Ltd employees only
+
+1. [ ] People Ops (Specialist/Generalist): complete UK payroll and New Starter Checklist forms (located in UK Documents folder in the Google drive) with new team members' details then stage the form in HelloSign (cc Vistra) and send to the new team member to complete any missing information and sign
+1. [ ] New team member: complete payroll form and New Starter Checklist (if applicable). If you have a P45 from your previous company contact people ops for the address to mail this to
+1. [ ] People Ops (Specialist/Generalist): once the payroll forms have been completed file in BambooHR in Documents-Signed Documents folder
 
 #### All team members
 
