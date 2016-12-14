@@ -787,8 +787,11 @@ We use our chat internally as a communication tool. The marketing channels are a
 [amara]: https://gitlab.com/u/amara
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
+[cabargas]: https://gitlab.com/u/cabargas
 [chet]: https://gitlab.com/u/chetbackman
+[cmattrex]: https://gitlab.com/u/cmattrex
 [colton]: https://gitlab.com/u/coltontaylor
+[connorshea]: https://gitlab.com/u/connorshea
 [dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
