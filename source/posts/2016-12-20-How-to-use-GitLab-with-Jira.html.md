@@ -19,16 +19,15 @@ But what if those two platforms could be integrated? How would this help improve
 
 GitLab acts as a great integrator that seamlesly fits into the software development workflow to ensure developers and project managers remain in-tune. In this article, we look at the advantages of integrating GitLab with Jira. 
 
-In this article, we dive into how to integrate GitLab with JIRA, and why you would want to do so, and we assume you already have some familiar with with both [GitLab](http://gitlab.com) and [Jira](http://atlassian.com/software/jira).
+GitLab acts as a great integrator that seamlessly fits into the software development workflow to ensure developers and project managers remain in-tune. In this article, we dive into how to integrate GitLab with Jira, and look at the advantages of this integration, explaining why you would want to do so. We assume you already have some familiarity with both GitLab and Jira.
 
 ## What is Jira
 
-[Jira](http://atlassian.com/software/jira) is a project management platform that provides teams with the tools necessary to plan, create, track, prioritize, and distribute tasks amongst engineers, and manage user stories, sprints, releases, reports, and more. While GitLab's very own [Issue Board](https://about.gitlab.com/solutions/issueboard/) provides a simple and concise in-tool way to create and track issues, which is sufficient for many smaller teams and projects, the industry-established Jira offers greater enterprise-level project management tools to projects. 
-
+[Jira](http://atlassian.com/software/jira) is a project management platform that provides teams with the tools necessary to plan, create, track, prioritize, and distribute tasks amongst engineers, and manage user stories, sprints, releases, reports, and more. It offers a range of tools to facilitate project management, such as a helpdesk system, a marketing campaign platform, and portfolio planning structure. GitLab's very own [Issue Board](https://about.gitlab.com/solutions/issueboard/) provides a simple and concise in-tool way to create and track issues, sufficient for most purposes and scenarios without the extended bells and whistles of Jira. 
 
 ![A backlog project-view of a Jira project](images/blogimages/How-to-use-GitLab-with-Jira/image_1.png)
 
-Jira on its own, whilst serving as a strong project management platform, not being able to relate issues to specific bits of code makes articulating to developers the problem a bit more ambiguous. In this article we will show you how you can leverage GitLab in Jira projects to propel your development workflow to a whole new level, creating a more engaging relationship between developers and project managers.  Let’s find out how. 
+In this article we will show you how you can leverage GitLab in Jira projects to propel your development workflow to a whole new level, creating a more engaging relationship between developers and project managers.  Let’s find out how. 
 
 ## Why use GitLab with Jira?
 
@@ -112,25 +111,56 @@ PROJECT-42 PROJECT-1 #time 2d 5h #comment Task completed ahead of schedule #clos
 
 As you can see, chaining actions together in one commit saves developers even more time, and hassle, while ensuring the project managers get all the information in a timely and accurate manner. 
 
-##How to Integrate GitLab into Jira
+##How to Integrate GitLab with Jira
 
-In order for you to take advantage of GitLab in your Jira project, and integrate into your specific Jira project, you will need to first follow some configuration steps on Jira, before referring to your Jira instance on GitLab. 
+In this tutorial, we will first walk you through:
+# Creating a Jira account
+# Configuring Jira
+# Configuring Gitlab
+
+Let's start off first by creating a new Jira account.
+
+###Creating and setting up a Jira Account
+Atlassian offer both a [self-hosted license tier](https://www.atlassian.com/software/jira/pricing?tab=self-hosted), as well as a [cloud license tier](https://www.atlassian.com/software/jira/pricing?tab=cloud), of which you can start off with a free trial. For the purpose of this tutorial, we opted with a cloud-based licensing, so go ahead and register for a free trial. 
+
+After you've successfully create a new Jira account, we will configure it to work with your GitLab project. 
 
 ###Configuring Jira
+In your newly created Jira instance, the first step is to create a new Jira user, with access to all the projects. Making sure you are logged in to Jira  as an admin user,  create a new user (under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira. Take note of the username and password, you will need it later. 
 
-Starting off with Jira, the first step is to create a new Jira user, with access to all the projects. Log in to Jira with as an admin user, and create a new user (under Administration/User Management), you can call it **gitlab**, making sure you give it **read/write access* to all projects in Jira. Take note of the username and password, you will need it later. 
 
-Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group, then within Application Access/View configuration, add the group you just created to **Jira Core**.
+![Accessing User Management](images/blogimages/How-to-use-GitLab-with-Jira/image_10.png)
 
-![Associating the group with Jira Core](images/blogimages/How-to-use-GitLab-with-Jira/image_9.png)
+![Creating the new User](images/blogimages/How-to-use-GitLab-with-Jira/image_11.png)
+
+Next, you will create a new group, and you could call it something like *GitLab-developers*, adding the user you just created to that group, then within Application Access/View configuration, add the group you just created to **jira-software-users**.
+
+![Creating a group in Jira](images/blogimages/How-to-use-GitLab-with-Jira/image_13.png)
+
+![Adding the user to the group](images/blogimages/How-to-use-GitLab-with-Jira/image_14.png)
+
+![Associating the group with jira-software-users](images/blogimages/How-to-use-GitLab-with-Jira/image_15.png)
+
+
+Now, before we move to setting up GitLab, lets setup a mock project to work with. We are calling it **GitR**. Go to Settings/Projects/Create New Project.
+
+![Creating a new Project for this tutorial](images/blogimages/How-to-use-GitLab-with-Jira/image_16.png)
+
 
 With that last step, you are now ready to move on to setting up GitLab. 
 
 ###Configuring GitLab
 
+First create a new Gitlab project, as shown below:
+
+![Creating a new GitLab project](images/blogimages/How-to-use-GitLab-with-Jira/image_17.png)
+
 In your GitLab project, to complete the Jira integration, within the project repository, go to Services/JIRA and complete the details to connect to your specific Jira instance nad project. 
 
-![Configuring Jira on your GitLab project services settings](images/blogimages/How-to-use-GitLab-with-Jira/image_7.png)
+![Associating project with Jira settings](images/blogimages/How-to-use-GitLab-with-Jira/image_18.png)
+
+
+![Configuring Jira on your GitLab project services settings](images/blogimages/How-to-use-GitLab-with-Jira/image_19.png)
 
 You will need to set the following:
 * URL - the base URL of your Jira project.
@@ -138,6 +168,8 @@ You will need to set the following:
 * Username - the username of the gitlab user you created.
 * Password - the password of the gitlab user you created. 
 * JIRA issue transition - The id of the transition that moves your issue to the closed state. This is found under Jira workflow administration.
+
+![Successful confirmation of Jira integration](images/blogimages/How-to-use-GitLab-with-Jira/image_20.png)
 
 By following those two steps, your GitLab and Jira project are integrated and ready to be bi-directionally engaged. 
 
