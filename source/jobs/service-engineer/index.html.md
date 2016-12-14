@@ -32,7 +32,7 @@ More information can be found on the [support page in the handbook](https://abou
 - Affinity for (and experience with) providing customer support
 - Technical Skills
   - Able to triage and resolve GitLab issues
-  - Above average knowledge of Unix and Unix based Operating Systems
+  - Above average knowledge of Unix and Unix based Operating Systems,   - Perform complex Linux system administration tasks
   - Experience with Ruby on Rails applications and Git
 - Communication Skills
   - Communicate clearly with customers on technical topics
@@ -56,17 +56,17 @@ Senior Service Engineers are more experienced engineers who meet the following
 criteria:
 
 - Technical Skills
+  - Can solve most support tickets in a reasonable time without escalating to development
+  - Expert in most [advanced topics](/handbook/support/advanced-topics) (e.g. LDAP, Jenkins/CI integration, Geo)
   - Deep understanding of GitLab internals and a variety of possible configurations
-  - Expert in several advanced topics (e.g. LDAP, Geo, etc.)
-  - Perform complex Linux system administration tasks
   - Debug challenging problems
   - Submit merge requests to resolve GitLab bugs
 - Leadership
   - Help hire and train new Service Engineers
   - Become a go-to person for the other Service Engineers when they face tough challenges
 - Communication
-  - Take ownership of documentation
-  - Lead by example in terms of taking a customer issue, through technical documentation, and then to a blog post
+  - Take ownership of improving documentation
+  - Lead by example in terms of solving a customer issue, updating documentation as a result, and then radiating this knowledge through a blog post
   - Drive feature requests based on customer interactions
 - Suggest and implement improvements to the support workflow
 - Contribute to one or more complementary projects
@@ -74,17 +74,12 @@ criteria:
 ### Staff Engineer
 
 A Senior Service Engineer will be promoted to Staff Service Engineer when he/she has
-demonstrated significant leadership to resolve customer issues. This may
-involve a number of items:
+demonstrated significant leadership and impact; typically around resolving customer issues. This may
+involve any type of consistent "above and beyond senior level" performance, for example:
 
-- Technical Skills
-  - Can solve most support tickets in a reasonable time without escalating to development
-  - Expert in most advanced topics (e.g. LDAP, Jenkins/CI integration, Geo)
-  - Regularly submits merge requests for customer GitLab bugs/issues
-  - Provides thorough and timely code and ticket response feedback for peers
-- Actively works across functional groups to improve product or processes
-- Looks for opportunities to improve the customer user experience
-  - Documentation: writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
-  - Support processes and workflow
-  - Administrator maintenance tasks
-- Maintain one or more complementary projects
+1. Regularly submitting merge requests for customer reported/requested GitLab bugs and feature proposals
+1. Working across functional groups to deliver on projects relating to customer experience and success.
+1. Writing in-depth documentation and clarifying community communications that share knowledge and radiate GitLab's technical strengths
+1. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
+1. Identifying significant projects that result in substantial cost savings or revenue
+1. Proactively defining and solving important architectural issues
