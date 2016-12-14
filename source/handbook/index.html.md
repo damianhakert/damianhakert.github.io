@@ -710,8 +710,11 @@ Set up an [email signature](https://support.google.com/mail/answer/8395) which i
 
 ### Hangouts
 
-In Chrome Hangouts tends to consume 100% of CPU due to use of the vp9 codec.
+In Chrome, Hangouts tends to consume 100% of CPU due to use of the vp9 codec.
 On MacOS switching to Safari solves this since it will use h264 that is hardware accelerated.
+On all platforms suffering from less than stellar performance, investigate the
+[h264ify](https://github.com/erkserkserks/h264ify) extension on the
+[Chrome Web Store](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal).
 
 ### Hangouts on air
 
