@@ -17,9 +17,9 @@ Issues should be tagged with 'UX' if UX work is required.
 1. UX issues have a tendency to expand in scope. Aggressively split off new issues, ideas, and concepts into their own issues. Large issue become really challenging to drive decisions in and make progress on. If you are ever unsure how to split apart large issues, work with the UX Lead.
 1. Before you hand off the work, make sure to update the issue description with the single source of truth. Update the issue description if the single source of truth changes while the work is going on. If the developer implementing the issue ever has any questions on what they should implement, they can ask the designer to update the issue description with the design.
 1. Once UX work is completed and feedback addressed, unassign yourself and remove the UX label. 
-   * If it is an issue that is scheduled for the current release, add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) needed for the issue. Typically, this is the Frontend label.
-   * If it is a large issue that needs to be scheduled, mention a member of the product team so they can [prioritize and schedule it](https://about.gitlab.com/handbook/engineering/workflow/#scheduling-issues)
-   * If it is a small fix, mention the UX Lead to schedule it
+   * If the issue is scheduled for a milestone, add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) needed to progress the issue. Typically, this is the Frontend label.
+   * If the issue is not scheduled, and is a bug or a minor, non-direction feature proposal, mention the responsible team lead to schedule it.
+   * If the issue is not scheduled, and is a major, direction feature proposal, mention a product manager to [prioritize and schedule it](https://about.gitlab.com/handbook/engineering/workflow/#scheduling-issues)
 1. Continue to follow the issue, addressing any additional UX issues that come up.
 
 ### Researcher
