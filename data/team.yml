@@ -443,11 +443,11 @@
   locality: Montpellier
   country: France
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: Content Lead
+  reports_to: Interim VP of Marketing
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
-  specialty: Documentation, social
+  maintains: Documentation
   story:  |
           Achilleas has been using GitLab since version 2, back when the default
           username and password were not documented. He started actively
@@ -965,11 +965,11 @@
   locality: Quatro Barras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
-  reports_to: Content Lead
+  reports_to: Interim VP of Marketing
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
-  specialty: Blog, technical writing, community writers program, social
+  maintains: Community writers program
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -1388,11 +1388,10 @@
   locality: Boulder, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
-  reports_to: Content Lead
+  reports_to: Interim VP of Marketing
   picture: erica.jpg
   twitter: EricaLindberg_
   gitlab: lindberg
-  specialty: YouTube, webinars, AMAs, social
   story:  |
           As a self-described journalist, Erica is a dedicated researcher with a proclivity for narrative. Before joining GitLab, Erica worked for Kapost where she unofficially attended B2B marketing bootcamp. She is passionate about media, technology, and audience development. When she's not working, she enjoys hiking, cooking, and reading.
 
@@ -1446,12 +1445,11 @@
 - name: Sean Packham
   locality: London
   country: United Kingdom
-  role: Content Lead
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
   reports_to: Interim VP of Marketing
   picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
-  specialty: Newsletter, blog, documentation, social
   story:  |
           Sean is a software developer and writer passionate about education,
           user experience and demystifying the complex. Before GitLab Sean
@@ -1604,11 +1602,10 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: Content Lead
+  reports_to: Content Marketing Manager
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
-  specialty: Blog, user stories, social
   story:  |
           A California native currently exploring the South,
           Emily's SoCal accent has proved surprisingly resilient.
@@ -1931,11 +1928,10 @@
   locality: London
   country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
-  reports_to: Content Lead
+  reports_to: Content Marketing Manager
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
   gitlab: rebeccad
-  specialty: Blog, culture stories, enterprise & partnership stories, social
   story: |
          Originally from Cape Town, South Africa, Rebecca found her way to GitLab from consumer journalism via content marketing. A self-proclaimed word nerd with a special fondness for 90s adventure games, Rebecca is on a mission to bring GitLab content to a wider audience. Outside of work, she's probably queueing at one of London's latest hipster restaurant openings.
 
@@ -2066,7 +2062,7 @@
   story:  |
           Ever since Harish rediscovered his childhood joy of programming, he has spent most of his time either on the computer writing code or learning new ways to code.  He loves spending the rest of his time with his lovely wife and two kids, or hanging out with friends in Jacksonville, Florida.  He also enjoys exercising and you will usually find him beginning each day with a trip to the gym.
 
-- name: T.A.
+- name: Tim Anglade
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">Interim VP of Marketing</a>
@@ -2103,7 +2099,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineering Intern</a>
-  reports_to: Interim Support Lead
+  reports_to: Support Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
