@@ -45,26 +45,29 @@ vulnerability and number of releases to be patched.
 - [ ] Remove mitigation from infrastructure hosts and close issue. (owner: infrastructure)
 
 ### Day four (before 12:00 UTC):
+
 - [ ] Build packages for all versions to private PackageCloud package repository (owners: build team)
 - [ ] Write blog post with CVE number (owner: security lead)
 - [ ] Write CVE notice for CVE-ID provider (owner: security lead)
 
 ### Day four (before 23:59 UTC):
+
 - [ ] Publish security packages to public (owner: build team)
 - [ ] Publish latest security Docker images (owner: build team)
 - [ ] Update GitHost.io (owner: githost / infrastructure)
 - [ ] Send CVE notice to CVE-ID provider (owner: security lead)
 - [ ] Add version.gitlab.com entries (owner: release manager)
 - [ ] Publish blog post (owner: marketing)
+- [ ] Remove confidentiality from disclosure issues. (owner: security lead)
 - [ ] Email, Tweet, etc. (owner: marketing)
 - [ ] Publish latest code to GitLab.com (owner: release manager)
 - [ ] Update vulnerability acknowledgements (owner: security lead)
-- [ ] Remove confidentiality from disclosure issues. (owner: security lead)
 - [ ] Follow-up with disclosure reports to inform/thank security researchers (owner: security lead)
 - [ ] Approve request(s) for disclosure on HackerOne (owner security lead)
 
 _Note that we should not publish code or the packages to the public until everything is ready._
 
 ### Afterwards:
+
 - [ ] "Lessons learned" writeup / blog post. (owner: security lead)
 ```
