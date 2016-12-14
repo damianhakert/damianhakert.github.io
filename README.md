@@ -368,7 +368,7 @@ website, you have to:
 
 ## Custom Generators
 
-There are a few custom, static generators specified in config.rb. For
+There are a few custom, static generators specified in `config.rb`. For
 example, there are generators that produce the direction issue list,
 release list, and organization chart dynamically.
 
@@ -414,3 +414,30 @@ In case someone forgot the most important commands and is catting this file from
 bundle exec rake new_post
 bundle exec middleman
 ```
+
+## Review Apps
+
+Thanks to the [Review Apps], the `www-gitlab-com` project supports live reviewing
+of any website changes with every merge request. When a branch is pushed and
+the pipeline is successfully run, you can see a link pointing to the live
+environment in your merge request. The URL will be of the following scheme:
+`<branch-name>.about.gitlab.com`.
+
+Beware that:
+
+- To successfully deploy a Review App, the branch must exist in the
+  `www-gitlab-com` repository. That means that branches from forks will not
+  deploy a Review App (hence MRs from contributors). For that case, you should
+  have at least Developer access to the `www-gitlab-com` project or
+  `gitlab-com` group.
+- Branches containing a slash (`/`) or other special characters in their name
+  will not deploy a Review App. Prefer to use dashes (`-`) or underscores (`_`).
+  For more information on that matter check the discussion in this
+  [issue in the CE tracker][ce-22849].
+- The generation of the direction, wishlist and release list pages is omitted
+  in branches and is run only on master. This helps to shave off some time from
+  the build process. That means you won't be able to preview these pages with
+  Review Apps.
+
+[ce-22849]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22849
+[review apps]: https://docs.gitlab.com/ce/ci/review_apps/

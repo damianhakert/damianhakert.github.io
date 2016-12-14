@@ -1,6 +1,7 @@
 @import "variables";
 
-.salary-container {
+.salary-container,
+.move-container {
   padding: 0 0 45px;
 
   .col-sm-4,
@@ -29,7 +30,8 @@
     li {
       padding: 5px 8px;
 
-      &:hover:not(.filter-container) {
+      &:hover:not(.filter-container),
+      &.is-focused:not(.filter-container) {
         cursor: pointer;
         background-color: $dropdown-hover-color;
         text-decoration: none;
@@ -117,6 +119,54 @@
   }
 }
 
+.move-container {
+
+  .title {
+    margin-top: 15px;
+  }
+
+  @media (min-width: 767px) {
+    .col-sm-4,
+    .updated-compensation {
+      padding: 0 5px;
+    }
+  }
+
+  .col-sm-12 .col-sm-4 {
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+
+  .compensation {
+    position: relative;
+    min-height: 45px;
+
+    .title,
+    .amount {
+      position: absolute;
+    }
+
+    .title {
+      top: 4px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 13px;
+      border: 0;
+    }
+
+    .amount {
+      bottom: 4px;
+      font-size: 15px;
+    }
+  }
+}
+
 .filter-container {
   .filter-input {
     padding: 0 7px;
@@ -143,5 +193,60 @@
     top: 22px;
     right: 25px;
     color: $dropdown-fa-color;
+  }
+}
+
+.input-container {
+  position: relative;
+  min-height: 45px;
+  margin: 0;
+  padding: 6px 20px 6px 10px;
+  border: 1px solid $dropdown-border-color;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $dropdown-focus-color;
+  }
+
+  .input-label,
+  .input-prefix,
+  .input-field {
+    position: absolute;
+  }
+
+  .input-label {
+    top: 4px;
+    font-size: 13px;
+    color: $color-gray-light;
+    font-weight: normal;
+  }
+
+  .input-prefix {
+    left: 10;
+    bottom: 3px;
+    color: $color-gray-light;
+  }
+
+  .input-field {
+    bottom: 4px;
+    left: 20px;
+    padding: 0;
+    width: 90%;
+    height: 18px;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: $dropdown-focus-color;
+    }
+  }
+
+  &.has-value .input-prefix {
+    color: $dropdown-fa-focus-color;
   }
 }

@@ -83,6 +83,8 @@ extra_js:
           %b APPS
         %a.image-link{href: "/images/feature_page/screenshots/09-review-apps.png"}
           = image_tag "/images/feature_page/screenshots/09-review-apps.png", class: "img-responsive"
+        .link
+          %a{href: "https://about.gitlab.com/features/review-apps/"} Read more on Review Apps 
       .col-md-4.small-feature
         .name
           CONTAINER
@@ -112,5 +114,8 @@ extra_js:
           %b WIKI
         %a.image-link{href: "/images/feature_page/screenshots/13-wiki.png"}
           = image_tag "/images/feature_page/screenshots/13-wiki.png", class: "img-responsive"
+    .row.features-bottom-cta
+      .col-md-12
+        %a.btn.cta-btn.red{href: "/products"} Explore Our Products
 
 = partial "includes/features/gitlab-ee-trial"

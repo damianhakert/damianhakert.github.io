@@ -11,13 +11,19 @@ extra_css:
   .image-title
     .color-bg
       %div
-        %h1 Time Tracking
-        %h3#ci-subt Coming in GitLab 8.14: Track your time in the same tool you work in
+        %h1
+          Time Tracking
+          %span.beta
+            beta
+        %h3#ci-subt Track your time in the same tool you work in
   .sub-wrapper
     .container
 
       .row.advantages
         .col-xs-12.col-md-10.col-md-offset-1
+          %p
+            :markdown
+              This Product is available for free while in Beta. As we expand on it, we will remove it from Beta and make it available for purchase. [Read about our future plans](https://gitlab.com/gitlab-org/gitlab-ee/issues/1293) for Time Tracking.
           %h2 Overview
           %ul
             %li

@@ -107,11 +107,10 @@ $(function() {
   });
 
   // Search
-  var $search = $('.js-search'),
-      $searchIcon = $('.js-search-icon');
+  var $search = $('.js-search');
 
-  $('.js-search-icon').on('click', function () {
-    $searchIcon.parent().addClass('is-open is-focused');
+  $('.js-search-toggle').on('click', function () {
+    $search.parent().toggleClass('is-visible');
 
     setTimeout(function () {
       $search.focus();
@@ -123,10 +122,6 @@ $(function() {
       // Trigger a search by changing hash
       window.location.hash = '#stq=' + $(this).val()
     }
-  }).on('focus', function () {
-    $(this).parent().addClass('is-focused');
-  }).on('blur', function () {
-    $(this).parent().removeClass('is-focused');
   });
 
   var $stickyBanner = $('.js-sticky-banner'),

@@ -157,7 +157,15 @@
   picture: orbit.jpg
   human: ja-me-sk
   story: Dreaming of her future mission to space.
-
+- name: Leia
+  picture: Leia.jpg
+  human: sarah
+  story:  Leia loves her walks followed by a nice snooze afterwards. She's an older girl, but don't let that fool you, she can beat any young dog when a ball is brought out. She also likes swimming, squeaky toys and the original Star Wars trilogy.
+- name: Dinkum
+  picture: Dinkum.jpg
+  human: sarah
+  story:  Dinkum loves locusts and worms, she's less keen on salad. When she's not napping, she enjoys sprinting around the house and hiding in really awkward places.
+  
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |

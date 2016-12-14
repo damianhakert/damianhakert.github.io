@@ -130,7 +130,7 @@ end
 
 desc 'Build the site in public/ (for deployment)'
 task :build do
-  build_cmd = %W(middleman build --verbose)
+  build_cmd = %W(middleman build)
   if !system(*build_cmd)
     raise "command failed: #{build_cmd.join(' ')}"
   end

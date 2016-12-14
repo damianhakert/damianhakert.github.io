@@ -17,12 +17,15 @@ title: "Stock Options"
 
 |Level|Number of Options|
 |----|----:|
-|Sr. Director|15,000|
-|Director|10,000|
-|Sr. Manager / Lead / Sr. AE|5,000|
-|Manager / AE / Sr. Developer|2,500|
-|Individual contributor|2,000|
-|Business Development Representative|1,500|
+|(Senior) GitLab Fellow / Senior Director|15,000|
+|Principal &  Distinguished Engineer / Director|10,000|
+|(Senior) Staff Engineer / Senior Manager / Lead / Senior Account Executive|5,000|
+|Senior Engineer / Manager / Account Executive|2,500|
+|Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
+|Junior Engineer / Business Development Representative|1,500|
+
+We should update your stock option grant if you make a promotion.
+If we didn't please contact people operations.
 
 ## About Your Ownership in GitLab
 
@@ -107,6 +110,19 @@ is worth $100m and it raises $25m, the company XYZ is now worth $125m. If you ow
 of $100m before, you now own 4% of $125m (20% of the company was sold, or, said differently,
 diluted you by 20%). The 5% stake was worth $5m before the fundraise and the 4% stake is now worth $5m.
 
+## Exercise Window After Termination
+
+Please note that until the [post IPO lockup period](http://www.investopedia.com/ask/answer/12/ipo-lockup-period.asp) has expired (or we are bought) company stock is not liquid. If your employment ends
+for whatever reason you have a 90 day window to exercise your options. During this window you have to come up with
+the exercise price and in some cases the tax on the gain in value of your stock options, which could be considerable.
+If the company stock is not liquid this money might be hard to come by. The 90 day window is an industry standard but
+there are [good arguments against it](https://zachholman.com/posts/fuck-your-90-day-exercise-window/). At GitLab the stock options are intended to commit our team members to get us to 
+a successful IPO. We want to motivate and reward our people for reaching that goal. Therefore we will consider exercise
+window extensions only on a case by case basis at our discretion. An example of a situation we'll consider is a valued
+team member quitting because of personal circumstances. In most cases there will be no extension and you will either have 
+to pay for shares and the taxes yourself or lose the options, even when you are fully vested. And of course [an IPO in 2020
+is our public ambition](https://about.gitlab.com/strategy/) but neither timing or if it happens at all is guaranteed.
+
 ## Exercising Your Options
 
 "Exercising your options" means buying the stock guaranteed by your options. You pay
@@ -156,7 +172,7 @@ You will most likely want to include the following letter when sending in the 83
 >
 >To whom it may concern:
 >
->Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.  
+>Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.
 >
 >Yours Truly,
 >

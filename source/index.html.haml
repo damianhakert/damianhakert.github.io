@@ -32,10 +32,10 @@ extra_js:
             .arrows
               %i.fa.fa-angle-double-right
 
-    %a.btn.cta-btn.red{href: "/products"}
-      Explore Products
     %a.btn.cta-btn.white{href: "/features"}
       View Features
+    %a.btn.cta-btn.red{href: "/products"}
+      Explore Products
 
 = partial "includes/features/idea-to-production"
 = partial "includes/features/try-gitlab-ee"
@@ -45,14 +45,12 @@ extra_js:
 .homepage-blog-section
   .container
     .row.post-list
-      - blog.articles[0..2].each do |post|
+      - blog.articles[0..2].each do |article|
         .col-sm-12.col-md-4.post-item
-          %a{href: post.url}
-            - if post.data.image_title
-              .image-title.blog-image{style: "background-image: url(#{post.data.image_title});"}
-                .color-bg
-                  %h4= post.title
-            - else
-              .image-title.no-image
-                .color-bg
-                  %h4= post.title
+          .article
+          - image_title = article.data.image_title ? article.data.image_title : '/images/default-blog-image.png'
+
+          %a.cover{ href: article.url, style: "background-image: url(#{image_title});" }
+            .overlay
+              %h2
+                = article.title

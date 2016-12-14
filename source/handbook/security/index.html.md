@@ -11,13 +11,10 @@ title: Security Handbook
    master password.
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
-   **share access** with. There are three types of account access for these services:
-   1. Individual accounts (created manually for you, such as Slack, Google): keep your credentials to yourself by storing them in your 'Personal' vault.
-   1. Shared accounts (services that don't allow individual accounts or where it is too expensive): store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
-   1. OAuth accounts (authentication through GitLab or Google, such as for checkmk monitoring and grafana).<br>
-For all credentials that are not stored in a shared vault on 1Password there should be one secure note in the 'Shared' vault. This can be services that have individual
-accounts or OAuth access. Locate the 'secure note' in the team's 'Shared' vault with the name of the service you are trying to access. The note should list whom can give you access in case it has
-individual accounts, or it may link to the onboarding checklist. You should be added to most of these services during onboarding.
+   **share access** with. There are three types of account access for these services, Individual, OAuth, and Single. All Individual and OAuth account services have a secure note in the 'Shared' vault. This note lists the administrators you can contact to gain access to the service for Individual services or lists the account you can use to get access for OAuth services. During onboarding you should be added to all relevant Individual services by default.
+   1. **Individual services** (created manually per person, such as our Google accounts): keep your credentials to yourself by storing them in your 'Personal' vault in the GitLab 1password account.
+   1. **OAuth services** (authentication through GitLab or Google accounts, such as for grafana).
+   1. **Single services** (services that don't allow individual accounts or where it is too expensive): store the credentials in an appropriate company 1Password vault ('Shared' or otherwise) so that your colleagues can sign in using the same credentials.
 1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and use [1Password TOTP].
 1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'Shared' vault that the whole company can access or make a suggestion to create a new vault in the "1Password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1Password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1Password.
@@ -35,10 +32,11 @@ individual accounts, or it may link to the onboarding checklist. You should be a
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
+1. Do not allow your web browser (e.g. Chrome, Safari) to store passwords when prompted. This presents an unnecessary risk and is redundant as 1Password should serve as the sole password management application.
 1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
-1. **Encrypt** your computer's home folder. For Mac users: Use [FileVault] to
-   encrypt the entire disk.<a name="encrypt-home-folder"></a>
+1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may
+   use [FileVault] (for details, refer to [Apple Support](https://support.apple.com/en-in/HT204837)) and GNU/Linux users may use LUKS (for basic idea, refer to the [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Dm-crypt) for this.<a name="encrypt-home-folder"></a>
 1. Set up a screen saver with **password lock** on your laptop. The timeout
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,
@@ -309,3 +307,54 @@ one of our developers, uses 1Password:
 [1Password for Teams]: https://blog.agilebits.com/2015/11/03/introducing-1password-for-teams/
 [Teams account]: https://gitlab.1password.com/
 [OSX app]: https://agilebits.com/downloads
+
+## Security Awareness Training
+
+During their first two weeks at GitLab new team members should receive an email
+with links to Security Awareness Training. This training covers how to recognize
+phishing attacks, how to safely use public wireless networks, and some general
+security tips and principles.
+
+### Phishing Tests
+
+GitLab conducts routine phishing tests using a third-party testing platform. All
+team members will occasionally receive emails that are designed to look like
+legitimate business-related communications but will in actuality be simulated
+phishing attacks. Real phishing attacks are designed to steal credentials or
+trick the recipient into downloading or executing dangerous attachments. No
+actual attempts will be made by GitLab or the third-party testing site to steal
+credentials or execute malicious code.
+
+The goal of these campaigns is not to catch people clicking on dangerous links
+or punish those who do, but rather to get people thinking about security and the
+techniques used by attackers via email to trick you into running malicious
+software or disclosing web passwords. If you fall victim to one of these
+simulated attacks feel free to take the training courses again or to ask the
+security team for more information on what could've been done to recognize the
+attack. What you shouldn't do is feel any shame for having clicked on the link
+or entered any data, nor should you feel like you need to _cop_ to the security
+team and let them know you made a mistake. Making a mistake online is
+practically the reason the Internet was invented.
+
+### What to do if you suspect an email is a phishing attack
+
+Whether you believe that you have received an email from our testing platform or
+you believe you have received a real phishing attempt, the best thing to do is
+to delete the email. GMail also offers the option to report the email directly
+to Google as a phishing attempt which will result in its deletion. If you
+suspect that the email is targeted specifically at you or GitLab, please
+notify the security team so it can be investigated. You can also notify other
+team members via Slack. If you forward the phishing email to the security team
+please do so as an attachment and not inline. To forward the email as an
+attachment from inside GMail:
+
+  1. In the reply options choose "show original"
+  1. Choose "download original"
+  1. Save to your local drive or Google Drive
+  1. Create a new email with the saved email as an attachment
+
+If you receive an email that appears to come from a service that you utilize,
+but other details of the email are suspicious -- a private message from a
+sender you don't recognize, for example -- do not click on any links in the
+email. Instead, use your own bookmark for the site or manually type the address
+of the website into your browser.

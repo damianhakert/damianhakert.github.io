@@ -56,3 +56,4 @@ See [the fix4all description](/handbook/engineering/fix4all/).
 - [Developer onboarding](/handbook/developer-onboarding)
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [Issue Triage Policies](/handbook/engineering/issues/issue-triage-policies)
+- [Critical Security Release Process](/handbook/engineering/critical-release-process)

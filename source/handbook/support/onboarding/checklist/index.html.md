@@ -9,7 +9,7 @@ title: Service Engineer Bootcamp Checklist
 Your hiring manager should create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/) for you as part of your onboarding.
 This list looks strange in this handbook because it is formatted to be copy-pasted into an issue and then render properly there.
 
-The topics are generally ordered by priority in which they need to be tackled,
+The topics are  generally ordered by priority in which they need to be tackled,
 but feel free to work on later things in the list when you are waiting on something.
 
 ```
@@ -45,6 +45,11 @@ it out for yourself before continuing.
 1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
+1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/knowledge-base/gitlab_com/500_errors.html)
+   1. [ ] Log into [Sentry](https://sentry.gitlap.com/gitlab/gitlabcom/) and
+   choose **"Sign in with GitLab"**.
+   1. [ ] View the [teams](https://sentry.gitlap.com/organizations/gitlab/teams/)
+   and select **"Join existing team"**. Then **Request access** to all the teams.
 
 Cover these topics on the [GitLab University](https://university.gitlab.com/):
 
@@ -65,6 +70,8 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
 1. [ ] Get familiar with the services GitLab offers
   1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
   1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
+    1. [ ] Read through the [GitHost documentation](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md)
+
 
 ### Stage 2. Installation and Administration basics.
 
@@ -93,6 +100,8 @@ _Typically started in first week, completed by end of third week_
 
 You will keep one installation continually updated on Digital Ocean, just like many of our clients. But you need to choose where you would like to test other installations. TODO: We need to list some benefits of each choice here.
 
+1. [ ] Submit an issue on the [GitLab infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues/) titled 'Add <name> as a developer in Digital Ocean'.
+1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/knowledge-base/general/local_test_env.html)
 1. [ ] Choose your preferred test environment between Local VM's or Digital Ocean and put it in a comment below.
 
 Installation from source is not common but will give you a greater understanding of the components that we employ and how everything fits together.
@@ -147,6 +156,7 @@ Zendesk is our Support Centre and our main communication line with our customers
   1. [ ] call with ___
   1. [ ] call with ___
 1. [ ] Dive into our ZenDesk support process by reading how to [handle tickets](https://about.gitlab.com/handbook/support/onboarding/#handling-tickets)
+1. [ ] Learn about the [tiered support system](https://about.gitlab.com/handbook/support/#tiered-support)
 1. [ ] Start getting real world experience by handling real tickets, all the while gaining further experience with the Product.
    1. [ ] First, learn about our [Support Channels](https://about.gitlab.com/handbook/support/channels), and be aware which ones are handled by the [Community Advocacy team](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy)
     1. [ ] Start with [StackOverflow](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#stack-overflow) and the [GitLab forum](https://about.gitlab.com/handbook/marketing/developer-relations/community-advocacy/#forum). Work with the Community Advocacy team (see their chat channel) to make sure you are not duplicating efforts.
