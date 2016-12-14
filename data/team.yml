@@ -2106,16 +2106,16 @@
   story:  |
           Joining December 12th
 
-- name: S.R.
-  locality:
-  country:
+- name: Sam Rose
+  locality: Knoxville, TN
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: sam.jpg
+  twitter: _SamRose3_
+  gitlab: sam
   story:  |
-          Joining December 13th
+          Coming from a background in computer engineering, Sam is fascinated by all things from the metal to the screen. He's found a passion for the frontend where he can flex his first love for design and UX. He spends most of his time working with JavaScript, CSS and HTML. Sam also enjoys creating mobile application in Swift and experimenting with machine learning using Python. Away from the desk, Sam might be found hiking the Appalachian Mountains, tracking his rides on Strava, working out with friends, or meal prepping for the week.
 
 - name: P.K.
   locality:
