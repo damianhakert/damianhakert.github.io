@@ -1,5 +1,5 @@
 ---
-title: "Continuous Delivery of a Spring Boot application with Gitlab CI and Kubernetes"
+title: "Continuous Delivery of a Spring Boot application with GitLab CI and Kubernetes"
 author: Marco Lenzo
 author_twitter: marco_lenzo
 categories: GitLab CI
@@ -157,7 +157,7 @@ git push origin master
 
 ### Creating the GitLab CI Pipeline
 
-In order to make use of [Gitlab CI](https://about.gitlab.com/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) configuration file to the root directory of our repository. This file is used by [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
+In order to make use of [GitLab CI](https://about.gitlab.com/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) configuration file to the root directory of our repository. This file is used by [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
 
 ```yml
 image: docker:latest
