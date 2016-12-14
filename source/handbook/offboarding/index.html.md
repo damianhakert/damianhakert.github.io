@@ -103,7 +103,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Remove team members profile from [Egencia](https://about.gitlab.com/handbook/people-operations/#add-egencia).
 1. [x] _not relevant_ New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
-1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
+1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/onboarding-101/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).

@@ -66,7 +66,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): Add entry to availability calendar so the team can see when new people are joining.
    1. [ ] People Ops (Recruiter): Give team member access to the GitLab availability calendar
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
-   1. [ ] People Ops (Recruiter): Add new team member to the next monthly GitLab 101 call
+   1. [ ] People Ops (Recruiter): Add new team member to the next monthly [GitLab 101 call](https://about.gitlab.com/culture/gitlab-101/)
    1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
    1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
@@ -85,7 +85,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > please let me know if that is not the case.
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link]. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
+    > [Insert link]. Check out [Onboarding 101](/handbook/general-onboarding/onboarding-101) for everything you need to know throughout the onboarding process. You might have received invitations to create accounts for Slack, BambooHR and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
@@ -167,7 +167,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] call with ___
    1. [ ] call with ___
 1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of team members and our brains are comfortable with recognizing people, let's use them).
-1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
+1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/onboarding-101/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the "New Hire Tweets" Google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 1. [ ] New team member: Encrypt the home folder of your hard drive (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
@@ -273,93 +273,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ```
 
+## Quiz
 
-
-## Onboarding topics that apply to everyone
-{: #everyone}
-
-### General
-
-* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
-* The first month at a remote company can be hard. Take a look at [3 Things I Learned in My First Month at GitLab](https://about.gitlab.com/2016/11/02/three-things-I-learned-in-my-first-month-at-gitlab/) for some insight from a GitLabber.
-* If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
-* You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
-  1. The Dashboard
-  1. The Projects
-  1. The Issue Tracker
-* Become familiar with the README.md’s for these projects:
-  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
-  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-  1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
-* Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
-* Review our [Team Call Section](/handbook/#team-call) for the daily call
-* Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
-  1. [Documentation](https://about.gitlab.com/documentation/)
-  1. [EE Pricing](https://about.gitlab.com/pricing/)
-  1. [Blog](https://about.gitlab.com/blog/)
-  1. [About Us](https://about.gitlab.com/about/)
-* Connect with GitLab's social media sites:
-  1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
-  1. [Twitter](https://twitter.com/gitlab)
-  1. [Facebook](https://www.facebook.com/gitlab)
-  1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
-* Learn how to use our Internal Issue Trackers:
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
-The most common Issues are created in the following projects:
-  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee) - Issues related to GitLab Enterprise Edition
-  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
-  1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
-* Add issues in the correct Issue Tracker:
-  1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
-  1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-  1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
-  1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
-
-### Add yourself to the team page
-
-Welcome to GitLab! We are happy to have you join our company and to include
-you in our [team page](https://about.gitlab.com/team/). The following are
-the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step.
-
-1. Create an account on [GitLab.com](https://gitlab.com/) and take note of
-your username and password, because you will need them throughout these steps.
-1. You should have been granted access to the [www-gitlab-com
-project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
-1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
-1. Download Git, following the [start using git
-documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
-1. Follow the steps to create and add your [SSH
-keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).<br>
-Note: in some of these steps, your
-[shell](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html) will
-require you to add your GitLab.com username and password.
-1. Clone the www-gitlab-com project through your shell, following the [command line commands
-documentation](http://doc.gitlab.com/ce/gitlab-basics/command-line-commands.html).
-1. Find the picture that you’d like to add to
-our [team page](https://about.gitlab.com/team/), change the picture's name to
-the following format: `yourname.jpg` or `yourname.png` and then follow the
-"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps. Picture Notes:
-   - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
-   - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
-1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
-1. In [GitLab.com](https://gitlab.com/), click on "Files".
-1. Find the dropdown menu at the top of your screen and find the branch
-that you previously created to add your picture (they are in alphabetical
-order). If you don't have a branch yet, follow the steps to [create a new
-branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
-![dropdown menu](/images/dropdown-branch-teampage.jpg)
-1. Information displayed on [Team page](https://about.gitlab.com/team/) is
-pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
-1. When you are in `team.yml`, click on “edit” on the top right side of
-your screen.
-1. Your information should already be added after the last person on the team page. Update the initials to be your `Firstname 'Nickname' Lastname`. Verify that your title is entered correctly. Add the file name of the picture that you uploaded previously. Enter your twitter and gitlab handle. Write a story about yourself.
-Don't forget to use other team members' information as a reference and to
-respect the spaces between lines. Please don't use "tab" because it will break the page format.
-1. After you added your information, add a comment to your commit and click on “Commit Changes”.
-1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
-
-### Quiz
-
-Employees should answer GitLab quiz questions in the first 2 weeks of working in
-the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
+Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
 Please schedule a call with your hiring manager.
