@@ -22,21 +22,6 @@ Here are some items discussed below and requested by the Lukkien team:
 
 **Lee:** Frankly, this is on our dream feature list. I think everybody on our team wants to be able to version Photoshop and InDesign documents, but we don’t have a good solution for those files right now that's going to work smoothly. It looks like Adobe is getting into the versioning space for files like these, so there’s a silver lining here in that once Adobe solves that problem, we’ll probably do something similar quickly thereafter.
 
-**Wouter:** My next question has to do with the fact that keeping track of issues between builds is sometimes hard. Team members have the responsibility to set the correct status of a ticket to keep track of the status, but it's a manual job. We have a DTAP build lane, but it's sometimes not clear to which environment a ticket is deployed. Do you have any idea how we could improve this? We are thinking about posting a comment to an issue when a specific commit (always containing issue number) is built to a certain environment.
-{: .alert .alert-info}
-
-**Lee:**  Where are the struggles in the over-the-air builds? I saw you’re using Jira now; do you plan on using Jira with GitLab, or are you trying to replace Jira?
-
-**Wouter:** Yes, we are already using Jira and GitLab alongside each other, so now when a tester wants to test a issue, first they have to see if it’s already built to a specific environment, maybe it’s in production already, and some time goes into that stage for testers/developers as they have to look it up. They have to do that from within GitLab as well, especially when the issue is older, but our testers aren’t in GitLab, so they have to look it up in Jira. So we now have an extra lane in Jira saying "This is ready for deployment," and then when it’s being deployed, someone has to do a manual change to say "This is now being deployed to the testing environment," later on when it’s going to acceptance, someone has to change the label to "This is now in acceptance." This is hard when people have to do it manually because people forget sometimes, which causes problems.
-{: .alert .alert-info}
-
-**Lee:** I’m trying to see how GitLab can help. What are you thinking would solve it?
-
-**Wouter:** Our tickets get updated when someone puts the ticket number in the commit, which is really useful for developers who check the status of the ticket. But it would be really useful if a CI build could update all tickets that are mentioned in that build. So if it’s a merge request, those issues would say "This is now built to test." Because we use Jenkins now to deploy but we want to use GitLab CI to deploy.
-{: .alert .alert-info}
-
-**Lee:** It sounds like when a build passes, if the build had any tickets related to that, it would update those tickets with a message that CI then update all the tickets that are related to that build. That sounds like something that could be useful: it could be either integrated into GitLab directly or added as some kind of monitor that pings in an issue that, "The build is now complete, go test." I made a note here to raise with our CI team and see if there are any related issues.
-
 **Wouter:** My next question is that we are hosting GitLab using a Docker setup, this works quite well but we are not sure if this will create limitations in the long run, for example if we want to use Mattermost in the future? My team has 8-10 developers, but we use the setup for all our teams, we’re all in the same GitLab instance. So that’s 100-120 developers.
 {: .alert .alert-info}
 
