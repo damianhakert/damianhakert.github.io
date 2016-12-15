@@ -712,8 +712,6 @@
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
-  maintains:  |
-               <li>On-call hero!</li>
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
@@ -1635,6 +1633,7 @@
           <a href="http://blog.sundaycoding.com/">his blog</a>.
           In his free time Adam plays board games, drinks craft beer or
           explores new cities without checking a map.
+
 - name: Nur Rony
   locality: Dhaka
   country: Bangladesh
@@ -1742,6 +1741,8 @@
   picture: leematos.jpg
   twitter: leematos
   gitlab: lbot
+  maintains: |
+             <li>On-call hero!</li>
   story:  |
           Lee is passionate about the intersection of Leadership and Technology. If he's not on the Internet, he's probably playing Magic: The Gathering, riding a bike, or in the Techno club.
 
@@ -1865,6 +1866,8 @@
   picture: cindy.jpg
   twitter:
   gitlab: cpallares
+  maintains: |
+             <li>On-call hero!</li>
   story:  |
           Cindy is a software developer who is passionate about open source. She
           previously worked as an upstream contributor and has taught robotics
