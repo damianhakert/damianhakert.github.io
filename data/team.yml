@@ -2040,6 +2040,17 @@
           or anything else related to technology in general (like cool gadgets!).
           His definition of a good time is evangelizing technology supplemented by sublime food and the sound of mechanical keyboards clicking in the background.
 
+- name: Kris Kringle
+  locality: Christmas Town
+  country: North Pole
+  role: <a href="https://about.gitlab.com/handbook/miscellaneous/">Secret Santa</a>
+  reports_to: Mother Nature
+  picture: santa.png
+  twitter:
+  gitlab:
+  story:  |
+          Kris Kringle (aka Santa, Saint Nicholas, Saint Nick, Father Christmas, Santa Claus, Popojijo) is often found checking his list and seeing who's naughty or nice.
+
 - name: A.N.
   locality:
   country:
