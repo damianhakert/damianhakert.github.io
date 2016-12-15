@@ -97,7 +97,9 @@
     .section-container {
       @extend .container;
     }
+
     padding: 60px 0 80px;
+
     .section-title {
       text-align: center;
       margin-bottom: 40px;
@@ -257,6 +259,7 @@
 
   .image-row {
     text-align: center;
+    margin-bottom: 20px;
     svg {
       margin-right: 10px;
     }
