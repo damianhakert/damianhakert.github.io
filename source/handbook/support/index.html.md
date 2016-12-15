@@ -111,6 +111,8 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
    + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
    + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
    + Ticket is not within Tier 1 support scope, escalate to Tier 2.
+   + As a rough guideline, agents should consider escalating to Tier 2 after working on a ticket for more than 45 minutes. After escalating to Tier 2, the agent can choose to keep working on it or go back to triaging Tier 1 tickets.
+   + If all Tier 1 tickets are cleared out, move on to Tier 2 tickets.
 
 **Examples of requests solved at Tier 1**
 
