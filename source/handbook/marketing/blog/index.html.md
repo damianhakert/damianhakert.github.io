@@ -667,7 +667,7 @@ Just below the frontmatter, start writing your post, including the sections as f
 page <https://about.GitLab.com/blog/> from the rest of the article body.
 - Software and hardware requirements - explain what the reader needs before following your steps.
 - Concepts - state and explain the concepts needed to follow through your post.
-- Article body - develop the subject of your post.
+- Article body - develop the subject of your post. Mind that we [wrap text].
 - Section `## Conclusion` - summarize the article.
 - Section `## About guest author` - when the author is not a GitLab Team member, add this section telling
 in 3 or 4 sentences who is the guest author, and what is her/his background on the post's subject.
@@ -931,6 +931,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
+[wrap text]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#wrapping-text
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 
 <!-- Labels -->
