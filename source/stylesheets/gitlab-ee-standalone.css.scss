@@ -2,6 +2,29 @@
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 .gitlab-ee-standalone {
+  .ee-navbar.navbar-default {
+    background-color: #6b4fbb;
+    font-size: 16px;
+    margin: 50px 0 0 0;
+    min-height: 0;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .nav.navbar-nav {
+    margin: 0 auto;
+    display: inline-block;
+    float: none;
+    a {
+      font-size: 13px;
+      padding: 10px 25px 5px;
+      color: $color-white;
+      font-weight: 300;
+      &:hover {
+        color: $color-white-alt
+      }
+    }
+  }
   .brand-primary-background-theme {
     background-color: $color-primary;
     .section-title {
@@ -97,9 +120,7 @@
     .section-container {
       @extend .container;
     }
-
     padding: 60px 0 80px;
-
     .section-title {
       text-align: center;
       margin-bottom: 40px;
@@ -212,12 +233,20 @@
   .icons-wrap-better-name {}
   .hero-section {
     position: relative;
+    padding: 80px 0 160px;
+  }
+  .page-headline {
+    margin-bottom: 130px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 60px;
   }
   .landing-community {
     position: absolute;
+    height: 100%;
+    overflow: hidden;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
     background-color: #34373c;
     &:after {
@@ -229,7 +258,7 @@
       bottom: 0;
       left: 0;
     }
-    .container-splash {
+    .splash-container {
       .landing-hero {}
       h1 {}
       h2 {}
@@ -256,7 +285,6 @@
   .top-reasons {
     text-align: center;
   }
-
   .image-row {
     text-align: center;
     margin-bottom: 20px;
@@ -264,5 +292,4 @@
       margin-right: 10px;
     }
   }
-  
 }
