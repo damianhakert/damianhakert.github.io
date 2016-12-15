@@ -358,9 +358,8 @@ information to solve the ticket.
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date
-[here](https://gitlab.com/gitlab-org/University/tree/master/training).
-Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
+[here](https://about.gitlab.com/training/).
+Importantly, requests for Service Engineer's time for training should be done via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Training' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 

@@ -151,19 +151,16 @@ Abbreviation of Products:
 - PS- Premium Support
 - PT- Pivotal Tile
 
-Opportunities for Training will use the following guidelines:
+Opportunities for Customer Training will use the following guidelines:
 
 - Training
    - [Name of company]- [Type of training]
    - Example: Acme Inc- User Training.
-   - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+   - **Note** to set up the actual training, click [here](https://gitlab.com/gitlab-com/support/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#), choose the template "Customer Training", and fill in the details under the Sales Heading. Support will handle the rest. 
 
 Types of Training:
 
-- User Training
-- Git Workshop
-- GitLab Flow
-- GitLab Admin
+See [GitLab.com](https://about.gitlab.com/training/) for the most up to date trainings offered.
 
 Gitorious Opportunities:
 
