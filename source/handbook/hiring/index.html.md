@@ -11,7 +11,10 @@ title: "Hiring"
 
 ## Hiring Introduction
 
-GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives. Firstly, it is meant to be instructive for internal employees on how to conduct the GitLab interviewing and hiring practices. Secondly, it acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps.
+GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
+1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
+1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#CEO-interview-questions).
+
 
 ## Equal Employment Opportunity
 
@@ -19,7 +22,7 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
  national origin, age, disability or genetics. One example of how put this into practice
- is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+ is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/)
 
  GitLab complies with all applicable laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer,
  leaves of absence, compensation, and training. GitLab expressly prohibits any form of workplace harassment.
@@ -87,7 +90,6 @@ The recruiting team will **always** publicize the job through the following mean
 *On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
 
 
-
 ## Hiring Process
 
 ### General points about moving applicants through the process
@@ -95,7 +97,6 @@ The recruiting team will **always** publicize the job through the following mean
 **Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next."
 
 **The process can differ from team to team and from position to position.** If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
-TODO: Update each job description with the process specific to that role.
 
 **Send Calendly link of the next person in the process.** If you have decided to move the applicant on in the process, save time by sending the next interviewer's Calendly link to the applicant. This saves the time it would otherwise take the next interviewer to send the link.
 
@@ -143,10 +144,8 @@ is hard, but it is part of our [company values](/handbook/#values).
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
     * Feedback and rejection should not be based on soft skills.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
-1. TODO: If the candidate is not hired, the recruiting team will send out an inquiry to gather feedback.
-   * There is a "gathering applicant feedback" template in Workable with these questions.
-The feedback survey should be sent out within 2 days after the applicant has been
-notified of the rejection.
+1. TODO: The recruiting team will send out an inquiry to all candidates to gather feedback after they have exited the hiring process. The feedback survey should be sent out within 2 days after the applicant has been
+notified of the rejection or hire.
    * People Ops will review all feedback and use it to improve the hiring process.
 
 ## Screening Call
@@ -175,6 +174,8 @@ Interviewing is hard, it's hard for both sides. In less than one hour you both n
 both will have to make the decision if you want to work with this person.
 This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
 
+Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
 
 ### Before the interview
 
@@ -240,10 +241,7 @@ One way of writing the feedback is as follows:
 
 The vote is critical as it is telling the rest of the hiring team your opinion on this hire.
 
-## Interview Questions
-
-Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
+## CEO Interview Questions
 
 The questions are available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 All candidates are asked to fill out the form when they are scheduled for an interview with our CEO to discuss during their call with the CEO.
@@ -273,8 +271,9 @@ Offers made to new team members should be documented in Workable through the ema
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed and approved by another member of PeopleOps as a quality check.
    1. stages the contract in HelloSign and emails offer to the signing parties, cc PeopleOps
-1. When the contract is signed, the People Ops team member or hiring manager should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
+1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](/handbook/general-onboarding/).
+1.Candidates will start the onboarding process no more than 30 days before her/his start date.
 
 Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
@@ -285,9 +284,9 @@ Note for People Operations:<br>
 
 To close a vacancy:
 
-1. Hiring manager to clear the pipeline of candidates in all stages of application. Consider adding tags to candidates who were interesting but were passed over in this hiring process. Adding tags makes it easier to find them in Workable later on if you are recruiting for the same or a similar position.
+1. The recruiting team will clear the pipeline of candidates in all stages of application. Consider adding tags to candidates who were interesting but were passed over in this hiring process. Adding tags makes it easier to find them in Workable later on if you are recruiting for the same or a similar position.
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
-1. Create a merge request, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
+1. Recruiting team will create a merge request, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
 If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the recruiting team will email the partner or remove the position from that site.
 
