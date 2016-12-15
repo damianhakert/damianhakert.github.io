@@ -9,7 +9,7 @@ If there is no link to a checklist, you will need to create and document the
 learning path as you go. The links to documentation are just to help you get
 started with that process. Take a look at the [Geo Checklist](/handbook/support/advanced-topics/geo)
 for how to get started and put a **(WIP)** after your link to let people know
-they won't get the expert badge by finishing the list in its current state. 
+they won't get the expert badge by finishing the list in its current state.
 
 Only work on one subject at a time. Inform your manager which one you will be
 working on, so that they can let you know if there is a different area where
@@ -23,7 +23,8 @@ manager, and we need everyone to know LDAP so please do that first.
 
 ### LDAP Integration
 
-[GitLab LDAP Docs](https://docs.gitlab.com/ee/administration/auth/ldap.html)
+- [GitLab LDAP Docs](https://docs.gitlab.com/ee/administration/auth/ldap.html)
+- [LDAP Checklist](/handbook/support/advanced-topics/LDAP)
 
 ### GitLab CI
 
@@ -31,7 +32,7 @@ manager, and we need everyone to know LDAP so please do that first.
 
 ### GitLab Geo
 
-[Geo Checklist](/handbook/support/advanced-topics/geo) (WIP)
+[Geo Checklist](/handbook/support/advanced-topics/geo)
 
 ### Git LFS
 
@@ -52,4 +53,3 @@ manager, and we need everyone to know LDAP so please do that first.
 ### Git Annex
 
 [Git Annex Docs](https://docs.gitlab.com/ee/workflow/git_annex.html)
-
