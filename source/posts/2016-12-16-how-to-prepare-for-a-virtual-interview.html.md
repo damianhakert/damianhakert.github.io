@@ -38,7 +38,7 @@ After you've mastered these tips, it's important to remember that much of the tr
 
  So what are you waiting for?! Now that you’re ready for your first interview with GitLab, head to our [jobs page](/jobs) to check out all of our open roles. We can’t wait to meet you!
 
-Image: "[20131121-OC-TEW-0007](https://www.flickr.com/photos/usdagov/10982999103/in/photolist-hJwJZv-ajfAp4-ePjM8X-mbFtpp-ePw3fy-hJvBEe-ceF17u-HHywQL-ePw19o-kYkwKf-dqEjfQ-pESWes-kYkxBf-ePw9h3-cfW6eb-HLxMw2-HHyDaj-fA43ft-dUYEGc-hVp7qj-hHfkXj-rtZnmw-nDvJzr-a8ygpG-krfaXi-edHRac-a8ygq1-aaUbmS-krfbbV-hJvB7k-dyxQZQ-a8ygqA-aaUbis-eHuQJe-h7U3mF-f29C1c-dXS8Cy-ePw58L-hVpb6J-oS8XNJ-nzD7xn-oS9qPV-hVp92f-krfaUc-a8ygqs-pDAET6-pTVJ9E-krgJKw-aaRkQT-q2rnj3)" by U.S. [Department of Agriculture](https://www.flickr.com/photos/usdagov/) available under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
+Image: "[Nurturing Global Communities Of Practice via Google Plus Hangouts](https://www.flickr.com/photos/thomcochrane/6816952248/in/photolist-booEps-eAd9dF-nFi1Nk-ePjC2R-irZLco-p9T8i9-hJw5BS-hJwJZv-ajfAp4-ePjM8X-mbFtpp-ePw3fy-hJvBEe-ceF17u-HHywQL-ePw19o-kYkwKf-dqEjfQ-pESWes-kYkxBf-ePw9h3-cfW6eb-HLxMw2-HHyDaj-fA43ft-dUYEGc-hVp7qj-hHfkXj-rtZnmw-nDvJzr-a8ygpG-krfaXi-edHRac-a8ygq1-aaUbmS-krfbbV-hJvB7k-dyxQZQ-a8ygqA-aaUbis-eHuQJe-h7U3mF-f29C1c-dXS8Cy-ePw58L-hVpb6J-oS8XNJ-nzD7xn-oS9qPV-hVp92f)" by [Thom Cochrane](https://www.flickr.com/photos/thomcochrane/) available under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
 
 Tweet us [@GitLab](https://twitter.com/gitlab), or add your thoughts and questions to our issue tracker.
 
