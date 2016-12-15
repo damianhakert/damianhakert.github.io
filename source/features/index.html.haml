@@ -47,7 +47,7 @@ extra_js:
           = image_tag 'images/feature_page/screenshots/03-gitlab-pages.png'
         .row.slider-dots.slider-nav
           .col-md-4.feature-slider-dot-content{index: "0"}
-            %div{style:"overflow: hidden;"}
+            %div
               %h4
                 Projects
               %p
@@ -60,8 +60,8 @@ extra_js:
                 Manage access and permissions with five different user roles and settings for external users
           .col-md-4.feature-slider-dot-content{index: "2"}
             %div
-              %a{href: "http://pages.gitlab.io/"}
-                %h4
+              %h4
+                %a{href: "http://pages.gitlab.io/"}
                   Gitlab Pages
               %p
                 Create websites for your Gitlab projects, groups, or user accounts
@@ -116,7 +116,7 @@ extra_js:
           %p
             Control GitLab with a set of powerful APIs.
 /Second features block
-.page-container.feature-gallery-alt.text-center.animated
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
   .container.titles
     %h3
       Track and manage releases
@@ -138,8 +138,8 @@ extra_js:
                 Leverage GitLab’s built-in issue tracker to outline and share ideas
           .col-md-4.feature-slider-dot-content{index:"1"}
             %div
-              %a{href:"https://about.gitlab.com/solutions/issueboard/"}
-                %h4
+              %h4
+                %a{href:"https://about.gitlab.com/solutions/issueboard/"}
                   Issue Board
               %p
                 Plan, organize, and visualize your release with a kanban-style board
@@ -228,8 +228,8 @@ extra_js:
                 Review merge conflicts in the UI and tell git which version to track.
           .col-md-4.feature-slider-dot-content{index:"2"}
             %div
-              %a{href:"https://about.gitlab.com/gitlab-ci"}
-                %h4
+              %h4
+                %a{href:"https://about.gitlab.com/gitlab-ci"}
                   GitLab CI
               %p
                 Test every merge request. Run multiple jobs in parallel and see if your build passes with GitLab’s built-in CI.
@@ -259,7 +259,7 @@ extra_js:
           %p
             Easily select specific changes on a merge request or commit from the UI.
 /Fourth features container
-.page-container.feature-gallery-alt.text-center.animated
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
   .container.titles
     %h3
       Deploy with confidence
@@ -275,8 +275,8 @@ extra_js:
         .row.slider-dots.slider-nav-3
           .col-md-4.feature-slider-dot-content{index:"0"}
             %div
-              %a{href:"https://about.gitlab.com/features/review-apps"}
-                %h4
+              %h4
+                %a{href:"https://about.gitlab.com/features/review-apps"}
                   Review Apps
               %p
                 Preview your branch in a live environment. Review Apps automatically spin up dynamic environments for your merge requests.
@@ -346,8 +346,8 @@ extra_js:
                 Set your alert preferences and be notified by email, Slack, or ToDos anytime there are changes to an issue or merge request
           .col-md-4.feature-slider-dot-content{index:"2"}
             %div
-              %a{href: "https://about.gitlab.com/solutions/cycle-analytics/"}
-                %h4
+              %h4
+                %a{href: "https://about.gitlab.com/solutions/cycle-analytics/"}
                   Cycle analytics
               %p
                 See how long it takes you to complete the development workflow from idea to production.

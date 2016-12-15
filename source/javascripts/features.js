@@ -6,12 +6,11 @@
       this.slickNavElement = slickNavElement;
       this.options = options;
       this.customDots = slickNavElement.find('.feature-slider-dot-content');
-      this.slickElement.on('init reInit', this.bindEvents.bind(this));      
-      this.slickElement.slick({
+      this.slickElement.on('init reInit', this.bindEvents.bind(this));
+      this.configSlickElement = {
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        draggable: false,
         responsive: [
          {
            breakpoint: 768,
@@ -23,30 +22,31 @@
            }
          }
        ]
-      });
+      };
+      this.configSlickNavElement = {
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '#' + idSlickElement,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots:false,
+              swipe:true,
+              autoplay:true,
+              autoplaySpeed: 5000
+            }
+          }
+        ]
+      }
+      this.slickElement.slick(this.configSlickElement);
       if(typeof this.slickNavElement !== 'undefined') {
         if(this.slickNavElement !== null){
-          this.slickNavElement.slick({
-          	arrows: false,
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              draggable: false,
-              asNavFor: '#' + idSlickElement,
-              responsive: [
-               {
-                 breakpoint: 768,
-                 settings: {
-                   arrows: false,
-                   slidesToShow: 1,
-                   slidesToScroll: 1,
-                   dots:false,
-                   swipe:true,
-                   autoplay:true,
-                   autoplaySpeed: 5000
-                 }
-               }
-              ]
-           	});
+          this.slickNavElement.slick(this.configSlickNavElement);
         }
       }
       this.slickElement[0].slick.slickGoTo(0);
@@ -65,6 +65,7 @@
       this.customDots.off('click').on('click', this.changePage.bind(this));
       this.slickElement.on("breakpoint", this.removeDesktopElements.bind(this));
       this.slickElement.on("swipe", this.syncSliders.bind(this));
+      this.slickElement.on("destroy", this.reInitSliders.bind(this));
     }
 
     //Remove the clicked element styling in case a resize happens
@@ -73,7 +74,16 @@
         this.customDots.removeClass('clicked-element');
         this.customDots.removeClass('clicked-element-alt');
       }
+      else{
+        this.slickElement.slick('unslick');
+        this.slickNavElement.slick('unslick');
+      }
     };
+
+    SlickHandler.prototype.reInitSliders =  function(){
+      this.slickElement.slick(this.configSlickElement);
+      this.slickNavElement.slick(this.configNavElement);
+    }
 
     SlickHandler.prototype.syncSliders = function(e, slick, direction){
       if(slick.activeBreakpoint === 768 && slick.activeBreakpoint !== null){

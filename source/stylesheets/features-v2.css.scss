@@ -1,4 +1,3 @@
-// scss-lint:enable ColorVariable
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 @import "vendor/slick";
@@ -22,17 +21,16 @@
   }
 
   svg {
-    height: 65px;
-    width: 65px;
+    height: 46px;
+    width: 46px;
 
     path {
       fill: $color-secondary;
-      transition: fill .2s linear;
     }
   }
 
   .step {
-    width: 65px;
+    width: 46px;
     display: inline-block;
     margin: 0 20px;
     position: relative;
@@ -40,17 +38,6 @@
 
     .step-name {
       text-transform: uppercase;
-    }
-  }
-
-  @media(max-width: 1024px){
-    svg {
-      height: 55px;
-      width: 55px;
-    }
-
-    .step {
-      width: 55px;
     }
   }
 
@@ -65,8 +52,7 @@
   }
 }
 
-.feature-gallery,
-%feature-gallery {
+.feature-gallery {
   background: linear-gradient(to right, $features-gallery-background-gradient-begin 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
 
   .titles {
@@ -94,6 +80,8 @@
   }
 
   .slider-dots {
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 25px;
   }
 
@@ -107,16 +95,17 @@
     -ms-flex-pack: center;
     border-radius: 3px;
 
-    a {
-      outline: none;
-      color: $features-semi-transparent-gray-link;
-    }
-
     h4 {
       color: $color-secondary-alt;
       margin-bottom: 10px;
       font-size: 24px;
       font-weight: normal;
+
+      a,
+      a:visited {
+        outline: none;
+        color: $color-secondary-alt;
+      }
     }
 
     p {
@@ -200,32 +189,16 @@
     }
 
   }
-
-  svg {
-
-    path {
-      fill: $color-secondary-alt;
-      transition: fill .2s linear;
-    }
+  path {
+    fill: $color-secondary-alt;
   }
 
-  @media(min-width: 1024px) {
+  @media(min-width: $screen-md-min) {
 
     svg {
-      width: 32px;
       position: absolute;
-      top: -18px;
-      right: -5px;
-    }
-  }
-
-  @media(max-width: 1023px) {
-
-    svg {
-      width: 32px;
-      position: absolute;
-      top: -18px;
-      right: 20px;
+      top: 3px;
+      right: -40px;
     }
   }
 
@@ -241,10 +214,9 @@
     }
 
     svg {
-      width: 32px;
       position: absolute;
       left: 16px;
-      top: -42px;
+      top: -18px;
     }
   }
 }
@@ -252,7 +224,6 @@
 
 
 .feature-gallery-alt {
-  @extend %feature-gallery;
   background: none;
   background-color: $color-white;
 
@@ -269,6 +240,11 @@
   .feature-slider-dot-content {
     h4 {
       color: $color-secondary;
+      a,
+      a:visited {
+        outline: none;
+        color: $color-secondary;
+      }
     }
 
     p {
@@ -289,12 +265,8 @@
       }
     }
 
-    svg {
-
-      path {
-        fill: $color-secondary;
-        transition: fill .2s linear;
-      }
+    path {
+      fill: $color-secondary;
     }
   }
 
@@ -310,11 +282,12 @@
       background-color: $features-semi-transparent-purple;
 
       &:hover {
-        background-color: transparent;
+        background-color: $color-primary-alt;
       }
     }
   }
 }
+
 
 .gitlab-version-section {
   h1 {
@@ -361,54 +334,19 @@
   display: none;
 }
 
-@media(min-width: 1024px) {
-
-  .features-description-separation {
-    margin-top: 50px;
-  }
-
-  .main-slider-size {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  .slick-dots {
-    > li {
-      margin-left: 2px;
-      margin-right: 2px;
-    }
-  }
-
-  .slider-dots {
-    margin-top: 70px;
-  }
-
-  .gitlab-version-section {
-    h1 {
-      font-size: 46px;
-    }
-
-    h4 {
-      margin-top: 25px;
-    }
-  }
-
-  .video-container {
-    width: 560px;
-    height: 315px;
-  }
-}
-
-@media(max-width: $screen-md-max) {
+@media(max-width: $screen-xs-max) {
 
   .main-slider-size {
     width: 100%;
     margin: 0 auto;
   }
 
-  .slider-dots {
-    margin-top: 20px;
+  .feature-gallery {
+    .slider-dots {
+      margin-top: -25px;
+    }
   }
+
 
   .feature-contents {
     margin-top: 15px;
@@ -447,5 +385,3 @@
     margin-top: 50px;
   }
 }
-
-// scss-lint:enable ColorVariable
