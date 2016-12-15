@@ -113,7 +113,7 @@ Installation from source is not common but will give you a greater understanding
   1. [ ] Install via [Docker](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker)
   1. [ ] Restore backup to your Docker VM using our [Restore rake task](http://docs.gitlab.com/ce/raketasks/backup_restore.html#restore-a-previously-created-backup)
   1. [ ] Version 7 from [Source](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/doc/install/installation.md)
-1. [ ] As a part of your general onboarding checklist, you should have asked for a Digital Ocean droplet to be created for you, where you can install and maintain your own instance of GitLab
+1. [ ] As a part of your general onboarding checklist, you should have been given access to Digital Ocean, create a droplet for yourself, where you can install and maintain your own instance of GitLab
   1. [ ] Install via [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/)
   1. [ ] Populate with some test data
     1. [ ] Populated Repos
