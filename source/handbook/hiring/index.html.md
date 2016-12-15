@@ -9,11 +9,26 @@ title: "Hiring"
 - TOC
 {:toc}
 
-## General note on hiring
+## Hiring Introduction
 
-If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us. We have two [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) in People Operations who manage and continuously work on improving this process.
+GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives. Firstly, it is meant to be instructive for internal employees on how to conduct the GitLab interviewing and hiring practices. Secondly, it acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps.
+
+## Equal Employment Opportunity
+
+ Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
+ GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
+ and applicants for employment without regard to race, color, religion, sex,
+ national origin, age, disability or genetics. One example of how put this into practice
+ is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+
+ GitLab complies with all applicable laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer,
+ leaves of absence, compensation, and training. GitLab expressly prohibits any form of workplace harassment.
+ Improper interference with the ability of GitLab’s team members to perform their job duties
+ may result in discipline up to and including discharge. If you have any complaints, concerns,
+ or suggestions to do better please [contact People Ops](/handbook/people-operations/#reach-peopleops).
 
 ## Vacancy Creation Process
+If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us.
 
 The CEO must authorize any new job positions/searches.
 
@@ -90,7 +105,7 @@ TODO: Update each job description with the process specific to that role.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
-If you have completed your portion of the hiring process and would like to stop receiving notifications about a candidate from Workable, remove yourself as a follower. To do this go to the candidate's profile, under timeline there are boxes with the photo of each follower. Uncheck your photo/name, and this will remove you from the Workable emails. You will be added to each candidate profile upon being mentioned, so you might have to remove yourself each time. 
+If you have completed your portion of the hiring process and would like to stop receiving notifications about a candidate from Workable, remove yourself as a follower. To do this go to the candidate's profile, under timeline there are boxes with the photo of each follower. Uncheck your photo/name, and this will remove you from the Workable emails. You will be added to each candidate profile upon being mentioned, so you might have to remove yourself each time.
 
 
 ### Typical process
@@ -283,6 +298,6 @@ See [underperformance guidelines](/handbook/underperformance).
 ## Visas & Work Permits
 
 GitLab does not offer full sponsorship for obtaining a H1B visa at this time.
-If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/sop/#visa-processing). 
+If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/sop/#visa-processing).
 
 For work permits and visas in The Netherlands please refer to [Dutch Work Permits](https://about.gitlab.com/handbook/people-operations/#dutch-work-permits) in our handbook.
