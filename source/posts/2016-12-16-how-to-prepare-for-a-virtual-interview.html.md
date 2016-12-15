@@ -1,9 +1,11 @@
-title: "How to Prepare for a Virtual Interview"
+---
+title: "How to prepare for a virtual interview"
 author: Sasha Bannister
 author_twitter: sashafrisbee
-categories:
-image_title:
-description:
+categories: inside gitlab
+image_title: '/images/blogimages/i-love-spreadsheets-trial-evaluation.jpg'
+description: " "
+---
 
 <!-- more -->
 
