@@ -12,9 +12,9 @@ of our daily culture and a great way to connect with our teammates, but they can
 
 <!-- more -->
 
-More and more organizations are conducting interviews and meetings using video platforms. At GitLab we use Google Hangouts or Appear.in for most of our [one-on-one calls](/handbook/#video-calls). Whatever platform you’re using, these simple guidelines will help you have the most productive web interview allowing you to focus on the role. 
+More and more organizations are conducting interviews and meetings using video platforms. At GitLab we use Google Hangouts or Appear.in for most of our [one-on-one calls](/handbook/#video-calls). Whatever platform you’re using, these simple guidelines will help you have a productive web interview and allow you to focus on the role. 
 
-Read on to discover our simple steps for how to avoid video chat nerves! 
+Read on for our tips on how to avoid video chat nerves! 
 
 ## Stage Your Interview Spot
 
