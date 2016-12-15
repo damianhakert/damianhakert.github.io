@@ -19,7 +19,6 @@ For more information about People Operations Policies please see [People Operati
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 #### Using HelloSign
-{: #hellosign}
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -73,6 +72,61 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
+### Adding a New Team Member to BambooHR
+
+As part of [onboarding](https://about.gitlab.com/handbook/general-onboarding/), the People Ops Specialist will process new hires in BambooHR. Aside from the steps listed in the onboarding issue, this is a description of how to add the proper information into BambooHR.
+
+Personal Tab
+
+1. Verify the team member was given an Employee ID number.
+1. Enter the appropriate Country.
+1. Region: Should either be Americas, EMEA, or JAPAC.
+1. Enter the team member's time zone.
+1. Verify the work email is entered.
+
+Jobs Tab
+
+1. Hire Date - This will automatically populate with the day that the profile was transferred from Workable. Make sure to enter in the correct date.
+1. Role
+   * Leader - if director or above
+   * Manager - if has any direct reports
+   * Individual Contributor - all others
+1. FLSA Code - This will either be exempt or non-exempt depending on how the role is classified. If there are questions on the classification, please ask the People Ops Specialist.
+1. Reports to EID - Direct Manager's employee ID number.
+1. Cost Center - Leave blank for now. This will become relevant as we scale.
+1. Exec Name - Executive in the team member's reporting chain who reports to the CEO.
+1. Payroll Type
+   * Employee - paid through Payroll
+   * Contractor - IND - Independent Contractor agreement
+   * Contractor - C2C - Contractor Company agreement
+1. Exception to IP Agreement - If they answered Yes, on the IP agreement in the contract.
+1. Compensation Table
+   * Effective Date - Hire Date
+   * Pay Rate - Entered as if it were a payroll amount. For example, a US employee would be entered as their yearly amount divided by 24 payrolls in a year. A contractor would have their monthly contract amount listed.
+   * Pay Per - Leave blank unless for an hourly employee
+   * Pay Type - Use either Salary, Hourly, or Contract.
+   * Pay Period - Select the pay period. Currently we have twice a month for the US, and monthly for all others.
+   * Change Reason - New Hire
+   * Comment - Please add any comments that are relevant from the contract terms.
+1. Pay Frequency (Note: Pay Frequency times pay rate should equal annual compensation)
+   * 12 for contractors, GitLab LTD, and LYRA
+   * 12.96 for GitLab B.V. employees in the Netherlands
+   * 13.92 for GitLab B.V. employees in Belgium
+   * 24 for GitLab Inc. employees
+1. On Target Earnings
+   * If the new team member is on a commission or quarterly bonus plan according to their contract, please add the details into this table.
+1. Currency Conversion
+   * Every January and July the People Ops specialist will conduct a currency conversion for all team members.
+   * Using either January 1 or July 1 as the currency conversion effective date, use Oanda for the currency conversion factor.
+   * Enter the Local Annual Salary, and the converted salary in USD.
+1. Job information
+   * Effective Date - Hire Date
+   * Location - Which entity the new team member is contracted through.
+   * Division - Enter the appropriate division from the dropdown.
+   * Department - Leave blank for now. This will become relevant as we scale.
+1. Employment Status
+   * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
+
 ### Settings in BambooHR
 
 Changing a Format (Example: Date)
@@ -97,7 +151,6 @@ Add a New Division
 1. Add new division
 
 ### Process Referral Bonus
-{: #referral-bonus}
 
 If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
@@ -273,25 +326,25 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 
 #### Adding a Trusted Advisor to TriNet
 
-A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system. 
+A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system.
 
 1. Add to the TriNet Platform
-    1. From TriNet Passport homepage, click on the tab My Company 
-    1. Select My Workplace, Trusted Advisor Setup 
-    1. Complete the information in the online form 
+    1. From TriNet Passport homepage, click on the tab My Company
+    1. Select My Workplace, Trusted Advisor Setup
+    1. Complete the information in the online form
     1. Click Submit
-1. Assign the Role of Trusted Advisor 
-    1. From TriNet Passport homepage, click Find 
+1. Assign the Role of Trusted Advisor
+    1. From TriNet Passport homepage, click Find
     1. Select Find Person by Name
-    1. Type in the person’s name 
+    1. Type in the person’s name
     1. Click search
-    1. Once the name appears, click on it 
-    1. From the options to the left, select Assign Roles 
+    1. Once the name appears, click on it
+    1. From the options to the left, select Assign Roles
     1. Click on Add
     1. From the drop down select the access role desired
     1. Click Add
 
-You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system. 
+You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system.
 
 
 #### Making changes in TriNet

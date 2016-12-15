@@ -13,6 +13,7 @@ title: "GitLab Onboarding"
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 * [Glossary](handbook/glossary/)
+* [Onboarding 101](/handbook/general-onboarding/onboarding-101) 
 
 ----
 
@@ -57,7 +58,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
    1. [ ] People Ops (Recruiter): Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR.
    1. [ ] People Ops (Specialist): Find the profile on BambooHR and enable "self-service".
-   1. [ ] People Ops (Specialist): In BambooHR, input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address before saving the newly entered information.
+   1. [ ] People Ops (Specialist): In BambooHR, input [relevant data](https://about.gitlab.com/handbook/people-operations/sop/#adding-a-new-team-member-to-bamboohr) into the team members profile. Be sure to add the personal and work email address before saving the newly entered information.
    1. [ ] People Ops (Specialist): file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. For GitLab Inc. contractor agreements, also file the W9. If the contract has any exceptions to the IP agreement, check the applicable box under the Jobs tab.
    1. [ ] People Ops (Specialist): file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
    1. [ ] People Ops (Specialist): list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
