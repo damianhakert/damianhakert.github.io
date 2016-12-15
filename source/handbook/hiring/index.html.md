@@ -15,13 +15,14 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
 1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#CEO-interview-questions).
 
+
 ## Equal Employment Opportunity
 
  Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
  national origin, age, disability or genetics. One example of how put this into practice
- is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+ is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/)
 
  GitLab complies with all applicable laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer,
  leaves of absence, compensation, and training. GitLab expressly prohibits any form of workplace harassment.
