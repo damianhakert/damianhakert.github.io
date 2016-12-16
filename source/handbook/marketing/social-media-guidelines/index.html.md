@@ -7,9 +7,13 @@ Go to the [Handbook](/handbook/)
 
 ## Responding to Requests
 
-Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you. Remain positive.
-
+- **Respond to mentions.** Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you.
+- **Respond quickly.** The urgency to respond depends on the medium. On Hacker News we need to respond within an hour or so, responses after an item is no longer on the homepage are much less valuable.
+- **Everyone in the team helps.** Responding to social media is a task of all of us. Every team member is expected to contribute, espacially if you have a leadership position.
+- **Delegate to the experts.** Nobody knows everything. Send the most relevant team member that is available a link over chat so they can respond. Make sure they can follow up quicky or find someone else.
+- **Answer yourself.**  We should be personable and human. So if something is delegated to you don't answer the question and have someone else post it. Engage yourself. Make or create an account for the service if needed.
 - **Continue the conversation by providing meaningful responses instead of just upvoting or saying a one word “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You can even provide people with links to non-GitLab things such as Git guides or DevOps guides. There is always a feature to mention or gratitude to express 'Thanks you so much for spreading the word about GitLab.'. For an example see the first three responses to [a HN post where the first three comments where positive but no questions](https://news.ycombinator.com/item?id=12052695). Or see [this response](https://twitter.com/sytses/status/762578230197022720) that links to the actual issue and therefore a reply that the original 'thank you' didn't get.
+- *Stay positive* don't feel the need to defend GitLab. There is always something to learn or consider. Be open minded with a growth mindset.
 - **Remember that you’re speaking to a human being.** The people behind the comments are real, so treat them how you’d want to be treated if the roles were reversed. Try to find their real name so that you can personalize your message to them.
 - **Begin by thanking them for their feedback or apologizing to them for the inconvenience they experienced.** We want to start and end conversations on a high note.
 - **Assume good faith**. Remember, people are commenting on the product, not the people. The line can get blurry, but it’s important to stay objective.

@@ -56,6 +56,7 @@ GitLab's expectations for managers:
   As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
  - We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
  - Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
+ - To [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 
 
 ## Grovo
