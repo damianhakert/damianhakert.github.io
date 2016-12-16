@@ -20,10 +20,9 @@ extra_js:
         To learn more about integrating with GitLab and read how
         to add an application to this page, please head to our
       %a{href: "http://about.gitlab.com/partners"} partners page
-      %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
-      %ul.suggestions
-        %li
-          App
+      .search-container
+        %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
+        %ul.suggestions
       - data.applications.each do |app_category|
         %hr{id: app_category.id}
         %h2
