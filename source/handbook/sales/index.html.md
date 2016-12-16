@@ -562,7 +562,7 @@ Once you close a deal that includes Premium Support, you need to:
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
-#### Escalation to Support
+### Escalation to Support
 
 Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels.
 
@@ -572,7 +572,7 @@ Customers that require technical assistance or have questions that are not withi
 
 
 
-#### Contributing to EE Direction
+### Contributing to EE Direction
 
 Being in a customer facing role, salespeople are expected to contribute to [GitLab Direction](https://about.gitlab.com/direction/).  Each day we talk to customers and prospects we have the opportunity to hear of a feature they find valuable or to give feedback (positive and constructive) to an EE feature that there is an issue for.
 When you hear of feedback or you personally have feedback, we encourage you to comment within the issue, if one exists, or create your own issue on our [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues). Checking the [GitLab Direction](https://about.gitlab.com/direction/) page and the [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues) should happen throughout the week.
