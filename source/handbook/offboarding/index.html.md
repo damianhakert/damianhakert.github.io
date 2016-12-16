@@ -19,7 +19,7 @@ When it is time for offboarding, create issue for former team member on the dev 
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
 1. [ ] People Ops: remove former team member's email from email aliases (workflow is by suggesting in "GitLab Email Forwarding", then enacting).
-1. [ ] People Ops: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
+1. [ ] People Ops: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members). If a core team member is removed, ensure that the permissions are changed from master to developer. 
 1. [x] _not relevant_ People Ops: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 1. [ ] Slack
    1. [ ] People Ops disable team member in [Slack](https://gitlab.slack.com/admin).
