@@ -112,7 +112,7 @@ We currently track the following sources for GitLab mentions:
 
 These mentions get piped to the `mentions-of-gitlab` channel by [notify.ly](https://notify.ly/).
 
-All comments on our [blog posts](https://about.gitlab.com/blog-posts) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
+All comments on our [blog posts](https://about.gitlab.com/blog/) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
 
 ## Specific channels
 
@@ -242,4 +242,4 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 ## Relevant Links
 
 - [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
-- [Support handbook](/handbook/support), with specific link to how to work in [Zendesk (for Twitter)](/handbook/support/knowledge-base/zendesk/).
+- [Support handbook](/handbook/support)
