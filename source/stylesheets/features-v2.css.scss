@@ -171,6 +171,7 @@
   }
 }
 
+
 .features-description {
   text-align: left;
 
@@ -221,7 +222,10 @@
   }
 }
 
-
+.main-slider-size {
+  width: 800px;
+  margin: 0 auto;
+}
 
 .feature-gallery-alt {
   background: none;
@@ -288,7 +292,6 @@
   }
 }
 
-
 .gitlab-version-section {
   h1 {
     color: $color-primary-alt;
@@ -332,6 +335,13 @@
 .video-container {
   box-shadow: 0 0 5 3 $features-semi-transparent-black;
   display: none;
+}
+
+@media(max-width: $screen-sm-max) {
+  .main-slider-size {
+    width: 750px;
+    margin: 0 auto;
+  }
 }
 
 @media(max-width: $screen-xs-max) {
