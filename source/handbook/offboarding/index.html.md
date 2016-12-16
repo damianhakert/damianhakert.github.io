@@ -19,7 +19,7 @@ When it is time for offboarding, create issue for former team member on the dev 
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
 1. [ ] People Ops: remove former team member's email from email aliases (workflow is by suggesting in "GitLab Email Forwarding", then enacting).
-1. [ ] People Ops: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
+1. [ ] People Ops: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members).
 1. [x] _not relevant_ People Ops: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 1. [ ] Slack
    1. [ ] People Ops disable team member in [Slack](https://gitlab.slack.com/admin).
@@ -184,8 +184,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1.  [ ] People Ops: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
 1.  [x] _not relevant, People Ops: Have member sign NDA.
-1.  [ ] People Ops: Remove member to #core in Slack.  
-1.  [ ] People Ops: Remove member developer access to gitlab-org.
+1.  [ ] People Ops: Remove member to #core in Slack.
+1.  [ ] People Ops: Remove member developer access to [gitlab-org](https://gitlab.com/groups/gitlab-org).
 1.  [ ] People Ops: Make inactive in BambooHR
 
 ```
