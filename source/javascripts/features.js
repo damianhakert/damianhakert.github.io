@@ -89,6 +89,17 @@
       if(slick.activeBreakpoint === 768 && slick.activeBreakpoint !== null){
         this.slickNavElement[0].slick.slickGoTo(slick.currentSlide);
       }
+      else{
+        var newSelectedElement = $(this.slickNavElement).find('.feature-slider-dot-content');
+        var clickedElementName = 'clicked-element';
+        if(typeof this.options !== 'undefined'){
+          clickedElementName = 'clicked-element-alt';
+        }
+        newSelectedElement.removeClass(clickedElementName);
+        $(newSelectedElement).filter(function(){
+          return $(this).attr('index') == slick.currentSlide;
+        }).addClass(clickedElementName);
+      }
     }
 
     SlickHandler.prototype.changePage = function(e){
