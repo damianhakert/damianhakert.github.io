@@ -499,7 +499,7 @@ Once the above has happened, please make sure that the following fields are popu
   * An email will be sent to you confirming that the opportunity has been submitted for approval.
   * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
   * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval.
-  * If the opportunity has been approved, you will receive an email that the opportunity has been approved. 
+  * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
   * The opportunity will automtically change to Closed Won and the Close Date will update to the date of submission.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
 1. If the customer agrees to be a reference, please complete the following steps:
@@ -557,17 +557,20 @@ Cases display in an Emails related list. The Emails related list includes all em
 
 Once you close a deal that includes Premium Support, you need to:
 
-1. [Request a Dedicated Service Engineer](/handbook/support/#dedicated-service-engineers) as described in the Support Handbook.
-1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
-1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+1. Ensure that they are marked as such in SalesForce, so that it carries through to Zuora and Zendesk.
+1. Until we get the kinks worked out in the integration of SalesForce, Zuora, and Zendesk, notify the Support Lead that the customer is a Premium support customer, by creating an issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues). Be sure to include:
+   - Name of organization
+   - domain name, and (optionally) named individuals that are most likely to submit support tickets
+   - link to the SalesForce record.
+   - mark the issue confidential, and \cc the Support Lead.
+   - If the client is interested in joining the Slack group support channel, indicate this with the email addresses of the individuals that should be added to the channel. Any Slack admin can do this, but the Support Lead should see it through to completion via the issue.
 
 #### Escalation to Support
 
 Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels.
 
 1. Create a new ticket on behalf of the customer in the [support web form](https://support.gitlab.com)
-1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-support) section of the support handbook.
+1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-support-for-gitlab-team-members) section of the support handbook.
 1. Forward a customer question via email to the **support** email address. - It's important the email is **forwarded** and not CC'd to avoid additional changes required once the support request is lodged.
 
 
