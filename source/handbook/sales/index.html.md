@@ -117,22 +117,30 @@ Opportunities for subscriptions will use the following guidelines:
 
 - **New Business/Existing Customer - Cross-Sell**:
    - [Name of Company]- [Quantity] [Abbreviations of Product]
-   - Example: Acme, Inc- 50 EE
-   - Example: Acme, Inc- 50 EE/Geo
+   - Example: Acme, Inc- 50 EES
+   - Example: Acme, Inc- 50 EES/Geo
 
 - **Add-On Business (seats only)**:
    - [Name of Company]- Add [Quantity] [Abbreviations of Product]
-   - Example: Acme, Inc- Add 25 EE
+   - Example: Acme, Inc- Add 25 EES
    - Example: Acme, Inc- Add 25 EE/Geo
 
 - **Add-On Business (new products)**:
    - [Name of Company]- Add [Quantity] [Abbreviations of Product]
    - Example: Acme, Inc- Add 25 PS
 
+- **Add-On Business (Upgrade from Starter to Premium)**:
+   - [Name of Company]- Upgrade to EEP 
+   - Example: Acme, Inc- Upgrade to EEP
+
+- **Add-On Business (Downgrade from Premium to Starter)**:
+   - [Name of Company]- Downgrade to EES 
+   - Example: Acme, Inc- Downgrade to EES
+
 - **Renewal Business (no changes)**:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
-   - Example: Acme, Inc- 50 EE Renewal 01/17
-   - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+   - Example: Acme, Inc- 50 EES Renewal 01/17
+   - Example: Acme, Inc- 50 EES/Geo Renewal 01/17
 
 - **Renewal Business + Add On Business (seats)**:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
@@ -142,14 +150,22 @@ Opportunities for subscriptions will use the following guidelines:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
    - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
 
+- **Renewal Business + Upgrade**:
+   - [Name of Company]- [Quantity] Upgrade to EEP + Renewal [MM/YY]
+   - Example: Acme, Inc- 50 Upgrade to EEP + Renewal 01/17
+
 Abbreviation of Products:
 
-- EE- Enterprise Edition
-- FL- File Locking
-- Geo- GitLab Geo
+- EES- Enterprise Edition Starter
+- EEP- Enterprise Edition Premium
+- FL- File Locking*
+- Geo- GitLab Geo*
 - GH- GitHost
-- PS- Premium Support
-- PT- Pivotal Tile
+- BS- Bronze Support
+- PS- Premium Support*
+- PT- Pivotal Tile*
+
+* Once all active customers are converted to either EE Starter or EE Premium, these products will no longer be available to sell a la carte.
 
 Opportunities for Training will use the following guidelines:
 
