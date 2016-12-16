@@ -337,6 +337,9 @@ What is Comm. Adv. (to be included).
 
 [Job Description](/jobs/community-advocate){:.btn .btn-purple-inv}
 [Handbook][Community Advocacy]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Matija][cmattrex]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Connor][connorshea]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Felipe][cabargas]{:.btn .btn-orange}
 
 ### Technical Writing
 {: .no_toc}
@@ -784,8 +787,11 @@ We use our chat internally as a communication tool. The marketing channels are a
 [amara]: https://gitlab.com/u/amara
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
+[cabargas]: https://gitlab.com/u/cabargas
 [chet]: https://gitlab.com/u/chetbackman
+[cmattrex]: https://gitlab.com/u/cmattrex
 [colton]: https://gitlab.com/u/coltontaylor
+[connorshea]: https://gitlab.com/u/connorshea
 [dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
