@@ -26,6 +26,7 @@ Go to the [Handbook](/handbook/)
 If there is already an opened issue or merge request for that case, link it to your answer. Do the same if there are other
 sources of information to support your statement, such as [blog posts](https://about.gitlab.com/blog) and [webpages](https://about.gitlab.com).
 - **Do what you say you will.** If you say you'll look into something, set a reminder to circle back with the person or link them to an issue on the issue tracker. Saying you'll look into something makes it impossible to continue the conversation until you do so, so it is essential that you continue the conversation at some later point. If this is too much work just say 'I don't know' and leave it at that.
+- **It is a disclosure**. Mentioning that you work at GitLab is not a disclaimer, actually your comment will rightfully be vetted more critically. If you post a lot on certain forums prefacing everything with 'GitLab CEO here' becomes annoying. Everyone should ensure that if you comment on Hacker News your profile mentions that you work at GitLab. And a subtle disclosure is possible by speaking in the we form (we shipped, we messed up, we will make that).
 
 ## GitLab Voice
 
