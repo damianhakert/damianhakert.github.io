@@ -18,7 +18,7 @@ lint:
   script:
     - bundle exec rake lint
   tags:
-    - docker
+    - kubernetes
 
 .build_base: &build_base
   stage: build
@@ -27,7 +27,7 @@ lint:
     paths:
       - public/
   tags:
-    - docker
+    - kubernetes
 
 build_branch:
   <<: *build_base
