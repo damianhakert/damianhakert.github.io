@@ -119,12 +119,12 @@ All comments on our [blog posts](https://about.gitlab.com/blog/) and any mention
 Respond to the GitLab community across the following channels in a timely manner:
 
 - Hacker News
-- Twitter (via Zendesk)
-- `community@gitlab.com` email
 - Disqus
-- [forum.gitlab.com](https://forum.gitlab.com)
+- Twitter (via Zendesk)
 - Mailing List
+- `community@gitlab.com` email
 - Facebook
+- [forum.gitlab.com](https://forum.gitlab.com)
 - StackOverflow
 - Reddit
 - YouTube
@@ -132,6 +132,18 @@ Respond to the GitLab community across the following channels in a timely manner
 - Google alerts
 - Comments on news stories in the media, and ....
 - .... more.
+
+### Disqus
+
+_TODO: improve the process of responding to blog comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
+
+All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new
+comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily routine, you should
+make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
+comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
+our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
+the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
+the ticket that was created for your reply.
 
 ### Twitter
 
@@ -177,21 +189,17 @@ of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [Gi
 
 Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
 
-### `community@gitlab.com` email
+### Mailing list
 
+Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
 
+### community@ email
 
-### Disqus
+### Facebook
 
-_TODO: improve the process of responding to blog comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
+_TODO: improve the process of responding to Facebook comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
-All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new
-comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily routine, you should
-make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
-comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
-our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
-the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
-the ticket that was created for your reply.
+Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
 ### GitLab Forum
 
@@ -199,16 +207,6 @@ _TODO: improve the process of responding to forum questions, probably by disabli
 
 Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
 within the Forum environment.
-
-### Mailing list
-
-Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
-
-### Facebook
-
-_TODO: improve the process of responding to Facebook comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
-
-Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
 ### Stack Overflow
 
