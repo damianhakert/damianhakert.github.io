@@ -82,9 +82,11 @@ This list will be expanded as we gain more experience with the calculator and as
 | Country | Employee | Contractor |
 | --------| -------- | ---------- |
 <% data.contract_types.sort_by(&:country).each do |contractType| %>
-  <% if contractType.country != '*' %>
-    <% employee_factor = contractType.employee_factor ? sprintf('%0.2f', contractType.employee_factor).to_s : '--' %>
-    <% contractor_factor = contractType.contractor_factor ? sprintf('%0.2f', contractType.contractor_factor).to_s : '--' %>
-    <%= "| #{contractType.country} | #{employee_factor} | #{contractor_factor} |" %>
+  <% country_name = contractType.country %>
+  <% employee_factor = contractType.employee_factor ? sprintf('%0.2f', contractType.employee_factor).to_s : '--' %>
+  <% contractor_factor = contractType.contractor_factor ? sprintf('%0.2f', contractType.contractor_factor).to_s : '--' %>
+  <% if country_name == '*' %>
+    <% country_name = 'Rest of World' %>
   <% end %>
+  <%= "| #{country_name} | #{employee_factor} | #{contractor_factor} |" %>
 <% end %>

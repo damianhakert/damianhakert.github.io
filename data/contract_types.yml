@@ -8,7 +8,5 @@
   employee_factor: 0.85
 - country: United States
   employee_factor: 1
-- country: Rest of World
-  contractor_factor: 1.17
 - country: '*'
   contractor_factor: 1.17
