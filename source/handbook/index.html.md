@@ -372,7 +372,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. In URLs, always prefer hyphens to underscores.
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. When we refer to the GitLab community excluding GitLab team members please say 'wider community' instead of 'community'.
-2. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that is part GitLab team, part volunteers.
+1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that consists of volunteers.
 1. Please always refer to GitLab Inc. people as team members, not employees.
 1. Use inclusive and gender-neutral language in all writing. So for example, write "they, their" instead "he, his".
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
