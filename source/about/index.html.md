@@ -113,6 +113,11 @@ When we make new features we ask ourselves, is this feature **more relevant for 
 If the answer is yes the feature is likely to be exclusive to EE.
 We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 users.
 
+### What features are EE Premium
+
+Enterprise Edition Premium features are features that replace other products
+typically used within organizations.
+
 ### Why release simultaneously in both
 
 Sometimes people suggest having features in EE for a limited time.
