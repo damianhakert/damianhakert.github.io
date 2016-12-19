@@ -6,7 +6,21 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+With this last release of the year, we're not only completing our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/), but we
+want to show you something cool we've been working on:
+
+<SHORT VIDEO HERE>
+
+With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
+[xx:xx]()), which automates setting up deploys and review apps. For a
+Ruby on Rails project, this brings setup time to under a minute.
+
+Plus, to make accessing your environments easier and faster, you can now
+access them directly through a terminal in GitLab ([xx:xx]()).
+
+We want to give the power of containers, continuous integration and deployment,
+review apps and container schedulers to everyone. GitLab 8.15, we
+take away all the hard work, without hiding anything.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
