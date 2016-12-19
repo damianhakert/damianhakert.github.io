@@ -530,6 +530,13 @@ double quotes `"Full Name"`.
 
 #### Twitter Handle
 
+Add the author's Twitter handle (username ony). If your username is `johndoe`,
+accessible under `https://twitter.com/johndoe`, this field should be filled as follows:
+
+```yaml
+author_twitter: johndoe
+``` 
+
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
 #### Categories
