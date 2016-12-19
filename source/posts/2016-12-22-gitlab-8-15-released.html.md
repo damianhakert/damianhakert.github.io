@@ -22,10 +22,18 @@ We want to give the power of containers, continuous integration and deployment,
 review apps and container schedulers to everyone. GitLab 8.15, we
 take away all the hard work, without hiding anything.
 
+And the hard work shouldn't even include setting up GitLab. [See below]() for
+the full video, in which we install GitLab and ship a full app, from idea to
+production, in under Y minutes.
+
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
+
+## Installing GitLab to deploying to Production in Y minutes
+
+< FULL VIDEO>
 
 ## Auto Deploy
 
