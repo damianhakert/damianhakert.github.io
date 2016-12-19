@@ -115,8 +115,7 @@ We always make sure that CE can do all essential things and there are companies 
 
 ### What features are EE Premium
 
-Enterprise Edition Premium features are features that replace other products
-typically used within organizations.
+[See the definition of EE Premium features in our product handbook](/handbook/product/#ee-only-or-premium).
 
 ### Why release simultaneously in both
 
