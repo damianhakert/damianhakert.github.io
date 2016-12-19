@@ -2174,3 +2174,14 @@
   gitlab:
   story:  |
           Joining January 9th
+
+- name: O.F.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Discussion Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 19th
