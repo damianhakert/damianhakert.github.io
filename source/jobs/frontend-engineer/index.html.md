@@ -25,7 +25,7 @@ title: "Frontend Engineer"
 * Basic knowledge of Vue.js is a plus but not a requirement
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
-* Needs to have extensive knowledge of Rails
+* Knowledge of Ruby on Rails is a plus
 * You share our [values](/handbook/#values), and work in accordance with those values.
 
 ## Relevant links
