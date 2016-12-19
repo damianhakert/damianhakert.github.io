@@ -394,16 +394,14 @@ Enterprise Edition customers.
 EE only features are exclusive to GitLab Enterprise Edition, but don't
 require any additional purchases besides GitLab EE.
 
-## EE only or Product?
+## EE only or Premium?
 
-Deciding on whether something should be a Product or just a EE-only
-feature can be tough. In doubt, make it a product, that's a reversible
+Deciding on whether something should be a Premium feature or just a EE-only
+feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
 
-Also consider:
-
-- Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
-- Does it have an alternative in the marketplace?
+Premium features replace other products in organisations. E.g. license checker
+replaces BlackDuck, time tracking replaces time tracking software.
 
 ## Talking about EE only decisions
 
