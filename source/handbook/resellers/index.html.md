@@ -80,7 +80,7 @@ When you complete the form, we get notified and will allow us to do the followin
 - Create an opportunity in our SFDC implementation
 - Send a quote to your `GitLab@partnerTLD` email address <br>
 *Note: this is a reseller quote, not to be shared with the customer.*
-- Send an evaluation license to the `GitLab@partnerTLD` email address.  See [evaluations](evaluations) section below
+- Send an evaluation license to the `GitLab@partnerTLD` email address.  See [evaluations](#evaluation-licenses-for-prospects) section below
 - Send you an email with any other intelligence that we may have on this account; possibly including:
    - GitLab CE usage (if any) from [GitLab Version Check](https://about.gitlab.com/handbook/sales-process/version_check/).
    - Other usage elsewhere at that company and their affiliates
@@ -205,8 +205,9 @@ GitLab leads.
 If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
 
 ## Evaluation licenses for prospects
-{: #evaluations}
-We will issue you a 30 day evaluation license for your prospects if the deal is properly [registered](deal-registration).  We can renew this license if your customer needs more time.  Upon the second request for renewal, we will assist you with a managed evaluation, where goals are set for the customer to meet, and one of our success engineers will work with you and the prospect to bring them to completion before the 3rd evaluation expires.  
+{: #evaluation-licenses-for-prospects}
+
+We will issue you a 30 day evaluation license for your prospects if the deal is properly [registered](#deal-registration).  We can renew this license if your customer needs more time.  Upon the second request for renewal, we will assist you with a managed evaluation, where goals are set for the customer to meet, and one of our success engineers will work with you and the prospect to bring them to completion before the 3rd evaluation expires.  
 
 ## Marketing
 
