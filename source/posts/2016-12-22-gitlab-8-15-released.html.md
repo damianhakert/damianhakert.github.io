@@ -1,8 +1,8 @@
 ---
 title: "GitLab 8.15 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -20,6 +20,69 @@ Thanks ***MVP_USER_FIRST_NAME***!
 ## feature 2
 
 > [Documentation link](link)
+
+## Support for custom global git hooks, and chained custom hooks
+
+GitLab custom hooks got some awesome upgrades:
+
+* Global custom hooks: create hooks in `{pre-receive,update,post-receive}.d/` directories, tell GitLab shell where the directories are, and these hooks will be run on every project.
+* Chained custom hooks: for both global and project-specific custom hooks, any hooks in a directory named as above will be executed in lexical order, failing on the first failing script.
+
+For more information, see the [custom git hooks documentation](https://docs.gitlab.com/ce/administration/custom_hooks.html#chained-hooks-support).
+
+Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define this feature, and providing the implementation!
+
+## Mathematics support for Markdown and AsciiDoc, using KaTeX
+
+Comments and repository files can now contain beautifully-typeset mathematics, using the [KaTeX](https://khan.github.io/KaTeX/) library from Khan Academy.
+
+To render inline mathematics, use dollar signs around inline code: ```$`a^2+b^2=c^2`$```
+
+To render multiline mathematics, use the `math` language for the code block:
+
+    ```math
+    a^2+b^2=c^2
+    ```
+
+In addition to working for Markdown, this is also available for AsciiDoc documents. [Read the documentation on mathematics support.](https://docs.gitlab.com/ce/user/markdown.html#math)
+
+Thanks to Michael Munch for this feature!
+
+## Cleaner merge commit messages
+
+Previously, merge commit messages included the title and description of the merge request, and a reference to the merge request. This didn't read well when using `git log` and similar tools, because merge request descriptions often contain requests for review, screenshots, and other details incidental to the code change.
+
+Now, the default merge commit message is in the following format:
+
+    Merge branch '$SOURCE_BRANCH' into '$TARGET_BRANCH'
+
+    $TITLE
+
+    Closes $CLOSING_ISSUE_REFERENCES # only present if the MR closes issues
+
+    See merge request $MERGE_REQUEST_REFERENCE
+
+The previous default message is available as an option when customising the merge commit message.
+
+Thanks to Gabriel Gizotti!
+
+## Shorthand cross-project references in GitLab Flavored Markdown
+
+Previously, a reference to something in another project always included the namespace, even if the project was in the same namespace.
+
+Now, shorthand references are available. So from within the `gitlab-org/gitlab-ce` project, you can refer to issue #1 in GitLab Workhorse by writing `gitlab-workhorse#1` instead of `gitlab-org/gitlab-workhorse#1`, saving precious keystrokes!
+
+For more information, see the [special GitLab references](https://docs.gitlab.com/ce/user/markdown.html#special-gitlab-references) section of our Markdown documentation.
+
+Thanks to Oswaldo Ferreira!
+
+## Create an issue with unresolved discussion from a merge request
+
+In 8.14, we [added the ability to block a merge when there are unresolved discussions](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/#prevent-merge-until-review-is-done).
+
+Now, we have added an option to [create a new issue from the unresolved discussions in a merge request](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html#move-all-unresolved-discussions-in-a-merge-request-to-an-issue), and resolve those discussions at the same time! This is perfect for those cases where you need to merge something now, but don't want to forget about the code review comments.
+
+Thanks to Bob van Landuyt!
 
 ## Omnibus GitLab package changes
 
