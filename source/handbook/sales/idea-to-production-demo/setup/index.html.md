@@ -49,6 +49,7 @@ which is needed for this setup. So to recap what you should done:
 - Enabled your user to run the docker command without sudo
 - Restarted or launched a new terminal to get new user permissions
 - Are able to run the following without `sudo`
+
   ```
   docker run hello-world
   ```
@@ -60,20 +61,23 @@ Once Docker is installed and running, we need to configure support for a insecur
 Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/16`
 
  - In RHEL and Fedora, edit the `/etc/sysconfig/docker` file and add or uncomment the insecure registry line:
-   ```
-   sudo vi /etc/sysconfig/docker
-   ```
 
-   ```
-   INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
-   ```
+     ```
+     sudo vi /etc/sysconfig/docker
+     ```
+
+     ```
+     INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
+     ```
 
  - After editing the config, restart the Docker daemon.
-   ```
-   sudo systemctl restart docker
-   ```
+
+     ```
+     sudo systemctl restart docker
+     ```
 
  - In Ubuntu edit `/lib/systemd/system/docker.service` and edit edit the `ExecStart` line:
+
    ```
    sudo vi /lib/systemd/system/docker.service
    ```
@@ -83,6 +87,7 @@ Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/1
    ```
 
  - After editing the config, restart the Docker daemon.
+
    ```
    sudo systemctl daemon-reload
    sudo systemctl restart docker
@@ -116,11 +121,13 @@ To install the tools, run the following from a terminal on the OpenShift host ma
 
 1. In a new directory, download and extract the tools:
   - Linux:
+
     ```
     curl -L  https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-linux-64bit.tar.gz | tar -xz
     ```
 
   - Mac:
+
     ```
     curl -L -O https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-mac.zip
     unzip openshift-origin-client-tools*
@@ -128,11 +135,13 @@ To install the tools, run the following from a terminal on the OpenShift host ma
 
 1. Place the tools on your path:
    - Linux:
+
      ```
      sudo cp openshift-origin-client-tools-*/oc /usr/local/bin/.
      ```
 
    - Mac:
+
      ```
      cd openshift-origin-client-tools-*
      sudo chflags nohidden /private
@@ -141,11 +150,13 @@ To install the tools, run the following from a terminal on the OpenShift host ma
      ```
 
 1. Test that the tools are on your path:
+
    ```
    oc version
    ```
 
    Should return version output:
+
    ```
    oc v1.3.2
    kubernetes v1.3.0+52492b4
@@ -164,11 +175,13 @@ changes to your cluster.
 
 1. Get the setup script, in a new directory from your terminal:
    - Linux:
+
      ```
      curl -L https://gitlab.com/gitlab-org/omnibus-gitlab/repository/archive.tar.gz?ref=i2ptest | tar -zx
      ```
 
    - Mac:
+
      ```
      curl -L -O https://gitlab.com/gitlab-org/omnibus-gitlab/repository/archive.zip?ref=i2ptest
      unzip archive.zip*
@@ -176,6 +189,7 @@ changes to your cluster.
 
 1. Place the script on your path:
   - Linux:
+
     ```
     cd omnibus-gitlab-*
     echo "export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:\$PATH" >> ~/.bashrc
@@ -183,6 +197,7 @@ changes to your cluster.
     ```
 
   - Mac:
+
     ```
     cd omnibus-gitlab-*
     sudo echo $(pwd)/docker/openshift/oc-cluster-wrapper >> /private/etc/paths.d/origin-paths
@@ -190,11 +205,13 @@ changes to your cluster.
     ```
 
 1. Test that the script is on your path:
+
   ```
   oc-cluster help
   ```
 
   This should return a list of valid commands.
+
   ```
   oc-cluster up [profile] [OPTIONS]
   oc-cluster down
@@ -220,12 +237,14 @@ changes to your cluster.
    - If you are using Digital Ocean, the hostname will work with `<your public ip>.xip.io`
      and suffix with `apps.<your public ip>.xip.io`
    - If you are running locally on you own box, the example provided should work.
+
    ```
    export OC_CLUSTER_PUBLIC_HOSTNAME=127.0.0.1.xip.io
    export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
    ```
 
 1. Launch the Cluster:
+
    ```
    oc-cluster up
    ```
@@ -240,6 +259,7 @@ You will have to accept the invalid certificate.
 Then login to OpenShift using username: `developer` password: `developer`
 
 1. In your terminal, install the gitlab plugin:
+
    ```
    oc-cluster plugin-install gitlab
    ```
@@ -260,7 +280,9 @@ Which is: `https://gitlab.com/gitlab-org/omnibus-gitlab/raw/i2ptest/docker/opens
 
 And while filling in parameters for the template, you will need to provide the two custom hostnames.
 
+
 GitLab Hostname: `gitlab.<your routing suffix>`
+
 Mattermost Hostname: `mattermost.<your routing suffix>`
 
 Note, anywhere else in the demo script that references `tanukionline.com` will be replaced with you DNS name.
@@ -269,6 +291,7 @@ Note, anywhere else in the demo script that references `tanukionline.com` will b
 
 Because you have limited storage, you will need to uninstall and re-install the gitlab-plugin each time
 you want to run the demo. This involves making sure the correct values are on your path:
+
 ```
 export OC_CLUSTER_PUBLIC_HOSTNAME=127.0.0.1.xip.io
 export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
@@ -277,6 +300,7 @@ export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
 Where the values match what you used during setup.
 
 And then running
+
 ```
 oc-cluster plugin-uninstall gitlab
 oc-cluster plugin-install gitlab
@@ -294,6 +318,7 @@ export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
 Where the values match what you used during setup
 
 And then start up the instance:
+
 ```
 oc-cluster up
 ```
@@ -301,6 +326,7 @@ oc-cluster up
 ## GitLab Plugin Install Source
 
 The GitLab plugin that we install to provision the storage and permissions looks like this:
+
 ```
 # Prefetch the Docker images so the demo is faster
 oc import-image gitlab-ce:8.13.0 --from=docker.io/ayufan/gitlab-i2p:latest --confirm
@@ -321,6 +347,7 @@ create-volume pv-gitlab-06
 ```
 
 The create volume command used looks like:
+
 ```
 function create-volume {
   [ $# -lt 1 ] && echo "volumename is required" && exit 1
