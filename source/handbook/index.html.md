@@ -320,6 +320,27 @@ step, **re-assign** the issue to that person.
 1. The last person wishes everyone a good day.
 1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
+### Release Retrospectives and Kickoffs
+{: #kickoffs}
+
+After GitLab releases a new version on the 22nd of each month, we have a
+30-minute call on the next business day reflecting on what could have been
+better:
+
+1. What went well this month?
+2. What went wrong this month?
+3. What could we have done better?
+
+We spend the first part of the retrospective meeting reviewing the action
+items from the previous month.
+
+After the retrospective meeting is done, we launch immediately into the
+kickoff meeting. The product team and other leads will have already have had
+some discussion in a [meta issue on the GitLab.com CE
+tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&label_name=meta)
+on what should be prioritized for each release. The purpose of this kickoff is
+to get everyone on the same page and to invite comments.
+
 ### Random Chat and Room
 {: #random-room}
 
