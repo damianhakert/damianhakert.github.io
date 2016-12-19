@@ -6,6 +6,8 @@
 
   var CONTRACT_TYPE_EMPLOYEE = 'employee_factor';
   var CONTRACT_TYPE_CONTRACTOR = 'contractor_factor';
+  var CURRENT_COUNTRY = 'current';
+  var NEW_COUNTRY = 'new';
 
   // Dropdown Core functionality
 
@@ -272,8 +274,8 @@
       var input = this.getElementValues();
 
       function renderData() {
-        this.renderContractType(input.currentCountry, 'current');
-        this.renderContractType(input.newCountry, 'new');
+        this.renderContractType(input.currentCountry, CURRENT_COUNTRY);
+        this.renderContractType(input.newCountry, NEW_COUNTRY);
 
         if (input.currentCity && input.newCity && input.salary) {
           this.renderCompensation(input);
@@ -336,7 +338,7 @@
 
     MoveCalculator.prototype.renderContractType = function(selectedCountry, type) {
       var countryContract = this.calculateContractFactor(selectedCountry);
-      var $containerContract = type === 'current' ? $('.current-contract') : $('.new-contract');
+      var $containerContract = type === CURRENT_COUNTRY ? $('.current-contract') : $('.new-contract');
 
       if (selectedCountry) {
         if (countryContract.type === CONTRACT_TYPE_EMPLOYEE) {
