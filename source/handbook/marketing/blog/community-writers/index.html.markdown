@@ -61,7 +61,7 @@ to your bank account.
 - Good written English
 - Some previous experience in writing tutorials or technical overviews
 - Some background on the subject you're willing to write about
-- To be familiar with GitLab
+- Be familiar with GitLab
 
 ## Notes
 
