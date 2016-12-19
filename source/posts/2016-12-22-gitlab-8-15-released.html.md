@@ -13,24 +13,49 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## Auto Deploy
 
 > [Documentation link](link)
 
-## feature 2
+## Online Terminal
 
 > [Documentation link](link)
 
-## Support for custom global git hooks, and chained custom hooks
+## Issue Filtering
 
-GitLab custom hooks got some awesome upgrades:
+## Improved BitBucket Importer
 
-* Global custom hooks: create hooks in `{pre-receive,update,post-receive}.d/` directories, tell GitLab shell where the directories are, and these hooks will be run on every project.
-* Chained custom hooks: for both global and project-specific custom hooks, any hooks in a directory named as above will be executed in lexical order, failing on the first failing script.
+## Global Git Hooks
+
+If you want to enforce rules and triggers based on Git pushes and their
+contents, you have been able to use custom Git hooks in GitLab. But if you
+want to standardize on these rules, you'd have to copy and paste them
+to every new project.
+
+With Global Git Hooks you can now create Git hooks that will be run
+for each project on the GitLab instance. This should make it much easier
+to set up rules that you want all incoming code to comply with.
+
+Create the hooks in `hooks/<hook_name>.d/` directory or tell GitLab Shell where the directories are.
+
+[See the documentation on Custom Hooks](https://docs.gitlab.com/ce/administration/custom_hooks.html)
+
+
+## Chained Custom Git Hooks
+
+If you have set up custom Git hooks, the order might matter: when an initial
+hook fails, there is no point in moving forward. With Chained Custom Hooks
+hooks will execute in lexical order, failing on the first failing script.
+
+This means you can create hook `1-hook.sh`, `2-hook.sh` and you'll know that
+`1` will execute before `2`.
+
+This gives a lot of power to your hooks and allows endless customization of
+what happens when a commit is about to land in your GitLab project.
 
 For more information, see the [custom git hooks documentation](https://docs.gitlab.com/ce/administration/custom_hooks.html#chained-hooks-support).
 
-Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define this feature, and providing the implementation!
+Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define Global Git Hooks and this feature, and providing the implementation!
 
 ## Mathematics support for Markdown and AsciiDoc, using KaTeX
 
