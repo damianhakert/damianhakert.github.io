@@ -5,10 +5,9 @@ author_twitter: emvonhoffmann
 categories: customer stories
 image_title: '/images/blogimages/how-to-keep-remote-teams-engaged.jpg'
 description: "Our Director of Strategic Partnerships chats about remote engagement challenges at a charity that encourages kids to get interested in space, finding interesting parallels with open source projects."
-twitter_image: '/images/tweets/why-bare-metal.png'
 ---
 
-We love hearing when people outside of GitLab read our [Handbook](https://about.gitlab.com/handbook/) - it's totally public, after all, and it's pretty comprehensive (or behemoth, depending on your frame of mind). It was even more exciting to hear from James Telfer, of [UK Students for the Exploration and Development of Space](http://ukseds.org/) (UKSEDS) that he read the handbook and had further questions that we'd left unanswered. In particular - what to do when you have neither carrot nor stick when managing remote volunteers? 
+We love hearing when people outside of GitLab read our [Handbook](https://about.gitlab.com/handbook/) - it's totally public, after all, and it's pretty comprehensive (or behemoth, depending on your frame of mind). It was even more exciting to hear from James Telfer, of [UK Students for the Exploration and Development of Space](http://ukseds.org/) (UKSEDS) that he read the handbook and had further questions that we'd left unanswered. In particular - what to do when you have neither carrot nor stick when managing remote volunteers?
 
 <!--more-->
 
@@ -16,7 +15,7 @@ UKSEDS is a charity run by students that operates around the UK offering career 
 
 The internal engagement problem was exacerbated after UKSEDS experienced a growth surge and a structural change earlier this year. Specifically, James said, "Project teams are interacting okay with their direct managers but interaction with the wider organization is little to none. While this doesn't directly impact work, we're concerned about the longer term impact on volunteer enjoyment and retention, both of which are really important to us."
 
-Eliran Mesika, our Director of Strategic Partnerships, agreed to jump on the phone with James to learn more about UKSEDS' particular case and the challenges they faced.  
+Eliran Mesika, our Director of Strategic Partnerships, agreed to jump on the phone with James to learn more about UKSEDS' particular case and the challenges they faced.
 
 Here are some highlights:
 * Having individual responsibilities somewhere public (even internally) is a useful accountability tool, and it helps direct team members to the correct person when they have a question.
@@ -68,6 +67,5 @@ One other thing that's working well is centralizing a process for working asynch
 {: .alert .alert-info} 
 
 **Eliran:** We may have those specific discussions on Slack, but for the most part, maybe 95% of the decisions are happening within the issue. But we don't discourage people from talking, so there could be times when you have to talk to someone or a group of people, because there's only so much you can do over text. So you may make a decision over Hangout, but that is communicated back through the issue. Someone will go back and say "I had a discussion with Mark, and we decided the best way to move forward is x." That way everyone has the opportunity to get the takeaways from that meeting and give input. So some decisions happen away from the issues. But it's important to reinforce that we try to keep communication on a specific topic within an issue. We really push that, and it's part of the culture at GitLab. As you keep growing, the sooner you adopt changes in a working culture, the better it is for people to learn them later on. 
-
 
 _Tweet us [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
