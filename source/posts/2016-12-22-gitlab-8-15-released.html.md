@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.15 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.15 Released with Auto Deploy and Web Terminal"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
@@ -79,6 +79,23 @@ to quickly try out some changes.
 > [Documentation link](link)
 
 ## Improved BitBucket Importer
+
+Importing from BitBucket has become even more powerful. With GitLab 8.15 we'll
+also import all pull requests as individual merge request plus pull
+request comments, milestones and the wiki from BitBucket.
+That makes the things we import from any BitBucket project:
+
+- Repository description
+- Git repository
+- Issues and their comments
+- Pull Requests and their comments
+- Milestones
+- Wiki
+
+When importing a project all references to pull requests and issues are
+preserved and so is the access level (public/private).
+
+[Read the docs on the BitBucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
 
 ## Global Git Hooks
 
