@@ -37,13 +37,46 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Auto Deploy
 
+We want everyone to quickly get a fully functioning CI/CD pipeline that deploys
+to a container scheduler. It shouldn't require any effort to get started,
+but also be scalable and not hide any of the magic.
+
+Auto Deploy does this. Auto Deploy adds a single button to your project,
+that when clicked, will create a merge request with all necessary templates
+to set up GitLab CI, including review apps, and a template to deploy your
+application to your container scheduler.
+
+![TODO IMAGE]()
+
+This is as close as you can get to one-click deploys, while exposing what
+is happening and having all this version-controlled in your repository, ready
+to collaborate and iterate on.
+
+See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
+in GitLab 8.15.
+
+For this first iteration, Auto Deploy only has templates for Ruby on Rails and
+Kubernetes. We want to add support for more stacks (Node, Java, etc) soon and other container schedulers later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](TODO_ADD_LINK).
+
 > [Documentation link](link)
 
 ## Web Terminal
 
-> [Documentation link](link)
+Working together with your container scheduler, GitLab happily spins up several
+(dynamic) environments on request for your projects. Be that for review apps
+or a staging or production environment.
+Traditionally, getting direct access to these environments has been a little painful. And that's a shame: it's very useful to quickly try something in a
+live environment, be it to debug a problem or just to experiment.
 
-## Issue Filtering
+With the web terminal, this has become extremely easy. Just visit the
+environments page in your project and click on the terminal button.
+GitLab will SSH into the instance for you and allow you to do anything
+you would be able to do from your local instance.
+
+In the demonstartion at [XX:XX]() we show you how to use the web terminal
+to quickly try out some changes.
+
+> [Documentation link](link)
 
 ## Improved BitBucket Importer
 
