@@ -13,14 +13,17 @@ We love hearing when people outside of GitLab read our [Handbook](https://about.
 
 UKSEDS is a charity run by students that operates around the UK offering career advice and skills support to students interested in the space industry and borrowed a lot from our handbook when making their constitution. 
 
-The internal engagement problem was exacerbated after UKSEDS experienced a growth surge and a structural change earlier this year. Specifically, James said, "Project teams are interacting okay with their direct managers but interaction with the wider organization is little to none. While this doesn't directly impact work, we're concerned about the longer term impact on volunteer enjoyment and retention, both of which are really important to us."
+The internal engagement problem was exacerbated after UKSEDS experienced a growth surge and a structural change earlier this year. Specifically, James said:
+
+> _Project teams are interacting okay with their direct managers but interaction with the wider organization is little to none. While this doesn't directly impact work, we're concerned about the longer term impact on volunteer enjoyment and retention, both of which are really important to us._
 
 Eliran Mesika, our Director of Strategic Partnerships, agreed to jump on the phone with James to learn more about UKSEDS' particular case and the challenges they faced.
 
 Here are some highlights:
-* Having individual responsibilities somewhere public (even internally) is a useful accountability tool, and it helps direct team members to the correct person when they have a question.
-* Functional group updates presented to the whole company make teams talk more, which results in more organic collaboration.
-* Keeping communication on a specific topic within the right issue is essential for keeping everyone on the same page - especially when working asynchronously.
+
+- Having individual responsibilities somewhere public (even internally) is a useful accountability tool, and it helps direct team members to the correct person when they have a question.
+- Functional group updates presented to the whole company make teams talk more, which results in more organic collaboration.
+- Keeping communication on a specific topic within the right issue is essential for keeping everyone on the same page - especially when working asynchronously.
 
 Read on for Eliran's tips.
 
