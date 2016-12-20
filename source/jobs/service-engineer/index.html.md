@@ -32,7 +32,7 @@ More information can be found on the [support page in the handbook](https://abou
 - Affinity for (and experience with) providing customer support
 - Technical Skills
   - Able to triage and resolve GitLab issues
-  - Above average knowledge of Unix and Unix based Operating Systems to be able to perform complex Linux system administration tasks
+  - Able to perform complex Linux system administration tasks
   - Experience with Ruby on Rails applications and Git
 - Communication Skills
   - Communicate clearly with customers on technical topics
