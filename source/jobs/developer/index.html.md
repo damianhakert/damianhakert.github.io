@@ -87,12 +87,16 @@ Senior Developers are experienced developers who meet the following criteria:
     * Keeps issues up-to-date with progress
     * Helps guide other merge requests to completion
     * Helps with recruiting
+5. Performance & Scalability
+    * Excellent at writing production-ready code with little assistance
+    * Able to write complex code that can scale with a significant nubmer of users
 
 ## Staff Developers
 
 A Senior Developer will be promoted to a Staff Developer when he/she has
 demonstrated significant leadership to deliver high-impact projects. This may
-involve any type of consistent "above and beyond senior level" performance, for example:
+involve any type of consistent "above and beyond senior level" performance,
+for example:
 
 1. Technical Skills
     * Identifies significant projects that result in substantial cost savings or revenue
@@ -105,6 +109,9 @@ involve any type of consistent "above and beyond senior level" performance, for 
     * Proactively defining and solving important architectural issues
 4. Communication
     * Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
+5. Performance & Scalability
+    * Leads development of projects that lead to a significant improvement of the overall
+      performance and scalability of GitLab
 
 ## Internships
 
