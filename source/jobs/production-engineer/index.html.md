@@ -3,14 +3,45 @@ layout: job_page
 title: "Production Engineer"
 ---
 
-A production engineer is a developer with deep knowledge of some parts of the
-stack, whether it be networking, or the Linux kernel, or even a specific
-interest in scaling and algorithms.
+A production engineer is a developer with who thinks deeply about systems and
+how they behave in the wild. Whether it be networking, or the Linux kernel,
+or even a specific interest in scaling, algorithms, or distributed systems.
 
-It could also be seen as any systems engineer who aims to code themselves out of
-a job by automating all the things.
+It could also be seen as a systems engineer who aims to code themselves out of
+a job by automating all the things, learning to leverage great development
+practices like TDD or continous integration (to start with).
 
-By becoming a production engineer you could be:
+## As a production engineer you will:
+
+* Be on a PagerDuty rotation to respond to GitLab.com availability incidents and
+  Provide support for service engineers with customer incidents.
+* Use your oncall rotation to prevent pages from ever happening.
+* Manage our infrastructure with Chef, Terraform and Kubernetes.
+* Make monitoring and alerting alert on symptoms and not on outages.
+* [Document every action](https://gitlab.com/gitlab-com/runbooks) so your learnings turn in repeatable actions and then on automation.
+* Improve the deployment process to make it as boring as possible.
+* Design, build and maintain core infrastructure pieces that allow GitLab scaling to support hundred of thousands of concurrent users.
+* Debug production issues across services and levels of the stack.
+* Plan the growth of GitLab's infrastructure.
+* Ship every solution into the GitLab-CE and EE package as a default.
+
+## You may be a fit to this role if you:
+
+* Think about systems - edge cases, failure modes, behaviors, specific implementations.
+* Know your way around linux and the Unix Shell.
+* Have an interest in distributed systems and a solid understanding of how modern web stacks are built, and why.
+* Know what is the use of config management systems like Chef (the one we use)
+* Have strong programing skills - Ruby and/or Go (for operations and infrastructure projects respectively)
+* Have a sense for scale either.
+* Hold yourself to a high bar when working in production environments.
+* Have an urge to collaborate and communicate asynchronously.
+* Have a proactive, go-for-it attitude. When you see something broken, you can't help
+  but fix it.
+* Have an urgency for delivering quickly and iterating fast.
+* You share our [values](/handbook/#values), and work in accordance with those
+  values.
+
+## Projects you could work on:
 
 * Building a distributed system like [Gitaly](https://gitlab.com/gitlab-org/gitaly)
 * Coding infrastructure automation with [Chef](https://gitlab.com/gitlab-cookbooks/)
@@ -21,41 +52,7 @@ By becoming a production engineer you could be:
 * Helping drive production ready large scale features.
 * Helping release managers deploying and troubleshooting new versions of GitLab-EE.
 * Helping the build team to ship complex pieces of infrastructure in a way that just work out of the box.
-
-## Responsibilities
-
-* As a Production Engineer you will be on a PagerDuty rotation to respond to
-  GitLab.com availability incidents and provide support for service engineers
-  with customer incidents.
-* Use your oncall rotation to prevent pages from ever happening.
-* Manage our infrastructure with Chef, Terraform and Kubernetes.
-* Build monitoring and alerting systems so alerts trigger on symptoms and not on outages.
-* [Document every action](https://gitlab.com/gitlab-com/runbooks) so they turn in repeatable and then on automation.
-* Improve the deployment process to make it as boring as possible.
-* Build core infrastructure pieces that allow GitLab scaling to support hundred of thousands of concurrent users.
-* Work comfortably at any level of the stack.
-* Ship every solution into the GitLab-CE and EE package as a default.
-
-## Workflow
-
-* You work on issues in the [infrastructure repository](https://gitlab.com/gitlab-com/infrastructure/issues).
-* The priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
-
-## Requirements for Applicants
-
-* Linux depth of knowledge (we use Ubuntu Server).
-* Database scaling depth of knowledge (we use PostgreSQL and Redis).
-* An interest in distributed systems and a solid understanding of how modern web stacks are built, and why.
-* Chef experience (optional if you are awesome on something else).
-* Strong Ruby (our preferred language for operations).
-* Go programming experience or willing to learn (our preferred language for core infrastructure pieces)
-* Programming expertise, and a sense for scale either demonstrable with experience or CS knowledge.
-* Collaborative team spirit with great communication skills.
-* Proactive, go-for-it attitude. When you see something broken, you can't help
-  but fix it.
-* An urgency for delivering quickly and iterating fast.
-* You share our [values](/handbook/#values), and work in accordance with those
-  values.
+* Whatever is on the [infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues) and you feel passionate about.
 
 ## Hiring Process
 
