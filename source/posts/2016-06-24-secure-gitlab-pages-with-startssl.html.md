@@ -9,6 +9,14 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/startssl-gitlab-pages/startssl-gitlab-pages-cover.jpg'
 ---
 
+<i class="fa fa-exclamation-triangle red" aria-hidden="true"></i>
+<span class="red">**WARNING**</span>
+<i class="fa fa-exclamation-triangle red" aria-hidden="true"></i>
+**StartCom** certificates have recently been **distrusted** by [Mozilla Firefox](https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/) and [Google Chrome](https://security.googleblog.com/2016/10/distrusting-wosign-and-startcom.html). Certs issued previous to October 21st, 2016, don't seem to have been affected, therefore, are still trusted.<br>
+In response to my contact, StartCom affirmed to be working hard to revert this situation, which they hope to be solved by the end of January, 2017.<br>
+<span class="note">Update by Marcia Ramos, on 2016/12/20.</span>
+{:.alert .alert-warning .black}
+
 With [GitLab Pages][pages] you can host your static website under your custom domain.
 With a [StartSSL] digital certificate you can secure it. And that's all for **free**!
 
@@ -523,3 +531,9 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [gitlab-post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
 [twitter]: https://twitter.com/gitlab
+
+<style>
+  .red { color: red !important; }
+  .black { color: black !important; }
+</style>
+
