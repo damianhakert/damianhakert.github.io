@@ -37,6 +37,7 @@
 
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
+  salary: 80834
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
 
@@ -78,11 +79,13 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
+  salary: 117530
   apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
+  salary: 117530
   apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
@@ -147,6 +150,7 @@
 
 - title: "Business Development Representative - Outbound"
   description: /jobs/business-development-representative-outbound/
+  salary: 103482
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
 
@@ -162,7 +166,7 @@
 
 - title: "Regional Director Sales, US"
   description: /jobs/regional_director_sales/regional-director-sales
-  apply: 
+  apply:
   open: false
 
 
