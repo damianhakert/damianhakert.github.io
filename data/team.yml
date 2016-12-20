@@ -2098,16 +2098,16 @@
   story:  |
           Joining December 12th
 
-- name: C.K.
-  locality:
-  country:
+- name: Collen Kriel
+  locality: Kampot
+  country: Cambodia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineering Intern</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: collen.jpg
+  twitter: collenkriel
+  gitlab: collen
   story:  |
-          Joining December 12th
+          Originally from South Africa, Collen is a Ruby on Rails developer with a background in enterprise software sales and freelance tech journalism. He is fascinated with how great software is made and the positive impact it can have on our professional and personal lives. In his free time he reads (a lot), takes average photos, and travels Southeast Asia with his partner.
 
 - name: Sam Rose
   locality: Knoxville, TN
