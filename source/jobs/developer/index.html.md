@@ -57,11 +57,13 @@ We frequently hire people from the community who have shown through contribution
 they have the skills that we are looking for, even if they didn’t have much previous experience
 with those technologies, and we would gladly review those contributions.
 
-## Workflow
+### Junior Developers
 
-The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
-
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+Junior Developers share the same responsibilities outlined above, but typically
+join with less or alternate experience in one of the key areas of Developer
+expertise (Ruby on Rails, Git, reviewing code). For example,
+a person with extensive experience in a web framework other than RoR, but with experience
+on the other areas would typically join as a Junior.
 
 ## Senior Developers
 
@@ -70,9 +72,10 @@ Senior Developers are experienced developers who meet the following criteria:
 1. Technical Skills
     * Are able to write modular, well-tested, and maintainable code
     * Know a domain really well and radiate that knowledge
+    * Contribute to one or more complementary projects
 2. Leadership
     * Begins to show architectural perspective
-    * Leads the design for medium to large projects with feedback from other engineers
+    * Proposing new ideas, performing feasibility analyses and scoping the work
 3. Code quality
     * Leaves code in substantially better shape than before
     * Fixes bugs/regressions quickly
@@ -84,22 +87,31 @@ Senior Developers are experienced developers who meet the following criteria:
     * Keeps issues up-to-date with progress
     * Helps guide other merge requests to completion
     * Helps with recruiting
+5. Performance & Scalability
+    * Excellent at writing production-ready code with little assistance
+    * Able to write complex code that can scale with a significant nubmer of users
 
 ## Staff Developers
 
 A Senior Developer will be promoted to a Staff Developer when he/she has
 demonstrated significant leadership to deliver high-impact projects. This may
-involve a number of items:
+involve any type of consistent "above and beyond senior level" performance,
+for example:
 
-1. Proposing new ideas, performing feasibility analyses and scoping the work
-2. Leading the design for large projects
-3. Working across functional groups to deliver the project
-4. Proactively identifying and reducing technical debt
-5. Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
-6. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
-7. Identifies significant projects that result in substantial cost savings or revenue
-8. Proactively defines and solves important architectural issues
-9. TODO
+1. Technical Skills
+    * Identifies significant projects that result in substantial cost savings or revenue
+    * Able to create innovative solutions that push GitLab's technical abilities ahead of the curve
+2. Leadership
+    * Leads the design for medium to large projects with feedback from other engineers
+    * Working across functional groups to deliver the project
+3. Code quality
+    * Proactively identifying and reducing technical debt
+    * Proactively defining and solving important architectural issues
+4. Communication
+    * Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
+5. Performance & Scalability
+    * Leads development of projects that lead to a significant improvement of the overall
+      performance and scalability of GitLab
 
 ## Internships
 
@@ -111,6 +123,12 @@ In the cover letter field, please note that you want an internship and link to
 the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
 example, fixing 10 typos isn't as valuable as shipping 2 new features.
+
+## Workflow
+
+The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
+
+The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
 
 ## Relevant links
 
