@@ -151,6 +151,21 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 - Develop and grow organisational relationships: speak at events on our behalf, promote their business
 - Support our value proposition - Faster from idea to production
 
+#### **Creating the Customer Case Study**:
+
+Customer case studies follow the format outlined in the Case Study Format below. Approaching customers to participate in a case study should always be done with the decdicated AE of that customer. 
+
+The information required by GitLab to write the customer case study should be gathered by way of an interview with the customer, where we ask them the following questions:
+- What challenges were you facing before you moved to GitLab (The Challenge)
+- Why did you decide on GitLab & how did you implement GitLab e.g. integrating with existing systems (The Solution)
+- What results did you notice after implementation of GitLab - decreased cycle time, increased productivity etc.
+
+The customer case study should then be written by GitLab, following the agreement by the customer to participate in a case study. The case study draft should then be sent to the customer for their input, and approval. 
+
+The other sections in the case study can be found on the customer's website or by searching the web - Sidebar summary, The Customer.
+
+Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website under case studies.
+
 #### **Case Study Format**:
 
 *Headline:* The name of the customer and the benefit they gained from implementing our solution
