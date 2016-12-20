@@ -3,12 +3,13 @@
   const MAX_RESULTS = 5;
 
   var scrollToElement = function() {
-    var container = $('body');
+    var container = $('html, body');
         scrollTo = $('h4:icontains("'+this.searchContainer.val()+'")');
     container.animate({
         scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop() - 50
     });
     this.suggestions.html('');
+    this.searchContainer.blur();
   }
 
   var findMatches = function(searchQuery, apps) {
