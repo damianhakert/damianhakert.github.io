@@ -11,6 +11,7 @@ title: "Content Editor"
 - Maintain a high standard of well written and factually accurate content.
 - Develop a deep understanding of GitLab's current and upcoming products and features.
 - Assist the team to create content assets for content marketing campaigns. Including, but not limited to:
+- 
   + Blog posts
   + Webinars
   + Interviews
