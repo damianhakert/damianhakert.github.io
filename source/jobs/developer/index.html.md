@@ -89,7 +89,7 @@ Senior Developers are experienced developers who meet the following criteria:
     * Helps with recruiting
 5. Performance & Scalability
     * Excellent at writing production-ready code with little assistance
-    * Able to write complex code that can scale with a significant nubmer of users
+    * Able to write complex code that can scale with a significant number of users
 
 ## Staff Developers
 
