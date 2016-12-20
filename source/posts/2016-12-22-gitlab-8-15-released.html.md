@@ -16,7 +16,7 @@ With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
 Ruby on Rails project, this brings setup time to under a minute.
 
 Plus, to make accessing your environments easier and faster, you can now
-access them directly through a terminal in GitLab ([xx:xx]()).
+access them directly through a terminal in GitLab (show in the video at [xx:xx]()).
 
 We want to give the power of containers, continuous integration and deployment,
 review apps and container schedulers to everyone. GitLab 8.15, we
@@ -24,7 +24,7 @@ take away all the hard work, without hiding anything.
 
 And the hard work shouldn't even include setting up GitLab. [See below]() for
 the full video, in which we install GitLab and ship a full app, from idea to
-production, in under Y minutes.
+production, in under Y minutes. Before, setting up a place for your repositories, setting up a CI service and making that auto deploy to dynamic environments and deploying all of this on a container scheduler would take weeks.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -39,7 +39,7 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
-## Online Terminal
+## Web Terminal
 
 > [Documentation link](link)
 
@@ -145,11 +145,12 @@ upgrades between major releases require downtime and the use of the `pg_upgrade`
 For this purpose, we are packaging the newest available PostgreSQL version (9.6.1).
 We are also introducing `gitlab-ctl pg-upgrade` tool which should make this
 transition as painless as possible.
-When upgrading to GitLab 8.14, this *action will not be ran automatically*.
+When upgrading to GitLab 8.14, this *action will not be run automatically*.
 This will allow you to plan the database upgrade downtime.
 
 After version 9.0 is released, we plan on setting the PostgreSQL version 9.6 as
 default so please make sure that you plan your upgrade before that release.
+We're expecting to ship GitLab 9.0 on or after February 22nd.
 
 > [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/maintenance/README.html#upgrade-postgresql-database)
 
