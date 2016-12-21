@@ -165,8 +165,12 @@
   apply: 
   open: false
 
-
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
   apply: https://gitlab.workable.com/jobs/392010/candidates/new
+  open: true
+
+- title: "Performance Lead"
+  description: /jobs/performance-lead/
+  apply: https://gitlab.workable.com/jobs/398569/candidates/new
   open: true
