@@ -49,14 +49,14 @@ application to your container scheduler.
 ![TODO IMAGE]()
 
 This is as close as you can get to one-click deploys, while exposing what
-is happening and having all this version-controlled in your repository, ready
+is happening and having all this version-controlled, ready
 to collaborate and iterate on.
 
 See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
 in GitLab 8.15.
 
-For this first iteration, Auto Deploy only has templates for Ruby on Rails and
-Kubernetes. We want to add support for more stacks (Node, Java, etc) soon and other container schedulers later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](TODO_ADD_LINK).
+For this first iteration, Auto Deploy only has templates for Ruby on Rails on
+Kubernetes. We want to add support for more stacks soon and other container schedulers later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
 > [Documentation link](link)
 
@@ -73,7 +73,7 @@ environments page in your project and click on the terminal button.
 GitLab will SSH into the instance for you and allow you to do anything
 you would be able to do from your local instance.
 
-In the demonstartion at [XX:XX]() we show you how to use the web terminal
+In the demonstration at [XX:XX]() we show you how to use the web terminal
 to quickly try out some changes.
 
 > [Documentation link](link)
@@ -112,7 +112,6 @@ Create the hooks in `hooks/<hook_name>.d/` directory or tell GitLab Shell where 
 
 [See the documentation on Custom Hooks](https://docs.gitlab.com/ce/administration/custom_hooks.html)
 
-
 ## Chained Custom Git Hooks
 
 If you have set up custom Git hooks, the order might matter: when an initial
@@ -128,6 +127,45 @@ what happens when a commit is about to land in your GitLab project.
 For more information, see the [custom git hooks documentation](https://docs.gitlab.com/ce/administration/custom_hooks.html#chained-hooks-support).
 
 Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define Global Git Hooks and this feature, and providing the implementation!
+
+## Interface improvements
+
+Our amazing usability team has been working hard on making GitLab easier to use,
+enhancing GitLab's personality and improving readability. This release contains
+various changes that will make using GitLab more enjoyable!
+
+### Fresh typefaces!
+
+To improve readability and cross-OS/browser support in GitLab, we have
+changed to using system fonts. These fonts are optimized for your platform
+and should therefore provide a better experience, independent of where you're
+viewing GitLab from.
+
+If you want to get a feel of GitLab across platforms, [check out the original merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7545).
+
+### Slimmed down widths
+
+We've reduced the max-width for issues and merge requests container in order to provide a more readable line length. This is the first step for us to correct the huge line lengths you see throughout GitLab. Follow our [meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/13680) as we continue to improve GitLab's line length.
+
+### Unique Labels
+
+We've given labels a unique look in order to differentiate them from buttons.
+We are continuing work on this to make our
+[labels](https://gitlab.com/gitlab-org/gitlab-ce/issues/25518) and
+[status badges](https://gitlab.com/gitlab-org/gitlab-ce/issues/25564)
+even more consistent in further iterations.
+
+![Unique Labels in GitLab 8.15]](/images/8_15/labels.png)
+
+### Other changes and tweaks
+
+- Improve accessibility by adding a focus state to dropdown options
+![Improved dropdown menus in GitLab 8.15](/images/8_15/dropdown.png)
+- Added hover states to our primary navigation and tabs throughout the site.
+- Improved hover, focus, and active states for buttons [!7797](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7797)
+- Added hover states to collapsed items with the issues/mr's sidebar [!7777](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7777)
+
+
 
 ## Mathematics support for Markdown and AsciiDoc, using KaTeX
 
@@ -181,6 +219,47 @@ Now, we have added an option to [create a new issue from the unresolved discussi
 
 Thanks to Bob van Landuyt!
 
+## Manual Actions from the Pipeline Graph
+
+Manual actions allow you to require manual interaction before moving
+forward with a particular job in CI. Your entire pipeline can run
+automatically, but the actual deploy to production will require a click.
+
+You can do this straight from the pipeline graph. Just click on the play
+button to execute that particular job.
+
+![Manual actions on the pipeline graph](/images/8_15/manual_actions_graph.png)
+
+## User Activities API
+
+To quickly get an idea of when a user last interacted with GitLab,
+we've added a special admin-only API to GitLab that allows you to get
+the last activity timestamp of every user on the instance.
+
+[Find the details in the docs](https://docs.gitlab.com/ee/api/users.html#get-user-activities-admin-only)
+
+## API Changes
+
+- Allow some Project API GET endpoints to be requested anonymously
+- Allow Repositories & Files API GET endpoints to be requested anonymously
+- Allow some Tag API GET endpoints to be requested anonymously
+- Add scopes for personal access tokens and OAuth tokens
+- Add ability to cherry pick a commit (community contribution)
+- Add ability to unshare a project from a group (community contribution)
+- Add ability to set `should_remove_source_branch` on merge requests (community contribution)
+- Add simple representation of group's projects (community contribution)
+- Expose committer details for commits (community contribution)
+- Expose merge status for branch API (community contribution)
+- Expose personal snippets as /snippets (community contribution)
+- Expose pipeline coverage
+
+## Small Changes
+
+- Add support for Dockerfile templates
+- Allow all alphanumeric characters in file names  (community contribution)
+- Don't display prompt to add SSH keys if SSH protocol is disabled (community contribution)
+- New `gitlab:workhorse:install` rake task
+
 ## Omnibus GitLab package changes
 
 ### PostgreSQL version upgrade
@@ -208,6 +287,20 @@ We're expecting to ship GitLab 9.0 on or after February 22nd.
 > Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
 and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
 
+## Performance Improvements
+
+GitLab CE:
+
+* Retrieving commit counts has been improved for certain cases: ![7668](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7668)
+* Polling intervals have been adjusted to reduce system load: ![7762](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7762)
+* Refreshing authorized projects is done in a smarter way to reduce database load: ![7956](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7956)
+* The most recent commit ID for a path is now cached: ![8098](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8098)
+
+GitLab EE:
+
+GitLab EE now ships with a command called `sidekiq-cluster`. This command can be used to start extra Sidekiq workers that process only a limited number of queues. This feature can be used to process queues that receive a lot of jobs, without it affecting other parts of Sidekiq. This was added in ![922](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/922).
+
+This command is not yet used by Omnibus, our goal is to add this in 8.16.
 
 ## Other changes
 
@@ -218,10 +311,12 @@ This release has more improvements, including security fixes. Please check out
 
 ## Upgrade barometer
 
+To upgrade to GitLab 8.15, downtime is required.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+For those not using post-deploy migrations I believe this release will require
+at least 30 minutes of downtime. Those using post-deployment migrations can
+probably reduce that down to 10 or-so minutes for large instances.
+
 
 
 ### Note
