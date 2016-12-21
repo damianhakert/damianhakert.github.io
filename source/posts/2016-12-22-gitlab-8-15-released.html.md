@@ -95,6 +95,9 @@ That makes the things we import from any BitBucket project:
 When importing a project all references to pull requests and issues are
 preserved and so is the access level (public/private).
 
+NOTE: You will need to add permissions and an OAuth2 callback URL to the BitBucket
+settings to work with this new importer.
+
 [Read the docs on the BitBucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
 
 ## Global Git Hooks
