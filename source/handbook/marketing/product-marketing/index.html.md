@@ -153,18 +153,27 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 
 #### **Creating the Customer Case Study**:
 
-Customer case studies follow the format outlined in the Case Study Format below. Approaching customers to participate in a case study should always be done with the decdicated AE of that customer. 
+**Explaining the Case Study process to a Customer & Creating the Case Study**:
 
-The information required by GitLab to write the customer case study should be gathered by way of an interview with the customer, where we ask them the following questions:
-- What challenges were you facing before you moved to GitLab (The Challenge)
-- Why did you decide on GitLab & how did you implement GitLab e.g. integrating with existing systems (The Solution)
-- What results did you notice after implementation of GitLab - decreased cycle time, increased productivity etc.
+Below is an example email template that you can send customers to after the AE has introduced you to the customer. The email below will help the customer to get a better sense of what we are asking of them.
 
-The customer case study should then be written by GitLab, following the agreement by the customer to participate in a case study. The case study draft should then be sent to the customer for their input, and approval. 
+>Hi X,
 
-The other sections in the case study can be found on the customer's website or by searching the web - Sidebar summary, The Customer.
+>It's nice to e-meet you, we'd love to hear more about your journey to GitLab and potentially write a customer story on COMPANY NAME.
 
-Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website under case studies.
+>Here are the steps that we'd work with you on.
+>- A short customer survey
+>- 20-30 minute phone call to hear more about your industry, business, and team. (In the call, we would also like to hear more about your decision making process to first choose GitLab and then eventually purchase EE.)
+>- Review of the draft customer story
+>- Final review of the customer story Then once the customer story is agreed upon by you or someone on your team we will publish it on GitLab's channels.
+
+>Please let me know if you're open to kicking off the customer story process on X date
+
+The customer case study should then be written by Product Marketing team, and the draft sent to the customer for their input, and approval. 
+
+Other sections in the case study can be found on the customer's website or by searching the web - Sidebar summary, The Customer.
+
+Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website.
 
 #### **Case Study Format**:
 
