@@ -6,6 +6,7 @@
 
   .navbar-collapse {
     @media (max-width: 767px) {
+      max-height: none;
       text-align: center;
     }
   }
