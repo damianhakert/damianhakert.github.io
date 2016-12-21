@@ -320,7 +320,7 @@ GitLab EE:
 
 GitLab EE now ships with a command called `sidekiq-cluster`. This command can be used to start extra Sidekiq workers that process only a limited number of queues. This feature can be used to process queues that receive a lot of jobs, without it affecting other parts of Sidekiq. This was added in ![922](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/922).
 
-This command is not yet used by Omnibus, our goal is to add this in 8.16.
+This command is not yet used by Omnibus. Our goal is to add this in 8.16.
 
 ## Other changes
 
