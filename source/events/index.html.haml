@@ -18,7 +18,7 @@ extra_font:
     Tagline about events goes here
   .row.featured-event-container
     .col-md-6
-      .featured-event-image
+      .image-card.featured-event-image
         = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
     .col-md-6
       %h2.featured-event-title
@@ -81,7 +81,7 @@ extra_font:
           Know about a rad event we should be at?
         %h2
           Again, drop us a line -- we'd love to be there with you
-        %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
+        %button.btn.btn-lg.btn-red{type:"button"}
           Drop It Like It's Hot
 .page-container.missed-events.text-center.animated
   %h1
@@ -111,12 +111,12 @@ extra_font:
         .image-card-text
           Event recap title goes here
   .row.rad-event-container
-    .rad-event-alt
+    .rad-event.rad-event-alt
       %h1
         Gitlab Diversity Scholarship
       %h2
         Optional tagline about the scholarship can go right here
-      %button.btn.btn-lg.btn-red{type:"button", style:"margin-top:25px;margin-bottom:35px;"}
+      %button.btn.btn-lg.btn-red{type:"button"}
         Learn More
 %script{type:"text/events-templates", id:"events-list-template"}
   %li
@@ -150,6 +150,3 @@ extra_font:
           Join Us!
       .clear-floats
     .social-tags.hidden-xs
-
-%script{type:"text/events-templates", id:"events-dropdowns-template"}
-  %li

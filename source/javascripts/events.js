@@ -45,7 +45,7 @@
     return items;
   }
 
-  var setDropdown = function(event){
+  var setDropdown = function(event) {
     var $selected = $(event.currentTarget);
 
     var newTitle = $selected.find('.value').text();
@@ -54,92 +54,66 @@
     $title.text(newTitle);
   }
 
-  var filterEvents = function(el){
+  //TODO: Improve this
+  var filterEvents = function(el) {
     if(this.location !== 'Event Location'
        && this.type !== 'Event Type'
-       && this.topic !== 'Event Topic'){
+       && this.topic !== 'Event Topic') {
       if(this.location === el.location
         && this.type === el.type
         && this.topic === el.topic){
         return true;
       }
-      else{
-        return false;
-      }
     } else if(this.location === 'Event Location'
               && this.type !== 'Event Type'
-              && this.topic !== 'Event Topic'){
-      if(this.type === el.type && this.topic === el.topic){
+              && this.topic !== 'Event Topic') {
+      if(this.type === el.type && this.topic === el.topic) {
         return true;
       }
-      else{
-        return false;
-      }
     } else if(this.location !== 'Event Location'
               && this.type === 'Event Type'
-              && this.topic !== 'Event Topic'){
-      if(this.location === el.location && this.topic === el.topic){
+              && this.topic !== 'Event Topic') {
+      if(this.location === el.location && this.topic === el.topic) {
         return true;
       }
-      else{
-        return false;
-      }
     } else if(this.location !== 'Event Location'
               && this.type !== 'Event Type'
-              && this.topic === 'Event Topic'){
-        if(this.location === el.location && this.type === el.type){
+              && this.topic === 'Event Topic') {
+        if(this.location === el.location && this.type === el.type) {
           return true;
-        }
-        else{
-          return false;
         }
     } else if(this.location !== 'Event Location'
               && this.type === 'Event Type'
-              && this.topic === 'Event Topic'){
-        if(this.location === el.location){
+              && this.topic === 'Event Topic') {
+        if(this.location === el.location) {
           return true;
-        }
-        else{
-          return false;
         }
     } else if(this.location === 'Event Location'
               && this.type !== 'Event Type'
-              && this.topic === 'Event Topic'){
-        if(this.type === el.type){
+              && this.topic === 'Event Topic') {
+        if(this.type === el.type) {
           return true;
-        }
-        else{
-          return false;
         }
     } else if(this.location === 'Event Location'
               && this.type === 'Event Type'
-              && this.topic !== 'Event Topic'){
-        if(this.topic === el.topic){
+              && this.topic !== 'Event Topic') {
+        if(this.topic === el.topic) {
           return true;
         }
-        else{
-          return false;
-        }
-    }
-    else if(this.location === 'Event Location'
-              && this.type === 'Event Type'
-              && this.topic === 'Event Topic'){
+    } else {
       return true;
-    }
-    else{
-      return false;
     }
   }
 
   const DESIRED_ELEMENTS_PER_PAGE = 3;
 
-  this.EventsHandler = (function(){
-    function EventsHandler(){
+  this.EventsHandler = (function() {
+    function EventsHandler() {
       this.render();
       this.currentPage = 1;
     }
 
-    EventsHandler.prototype.bindEvents = function(){
+    EventsHandler.prototype.bindEvents = function() {
       var $eventTypeDropdown = $('#event-types li');
       var $eventTopicDropdown = $('#event-topics li');
       var $eventLocationDropdown = $('#event-location li');
@@ -160,7 +134,7 @@
     EventsHandler.prototype.getData = function() {
       var deferred = jQuery.Deferred();
 
-      $.get('/events/data.json').then(function(data){
+      $.get('/events/data.json').then(function(data) {
         this.data = data;
         deferred.resolve();
       }.bind(this));
@@ -168,18 +142,17 @@
       return deferred.promise();
     }
 
-    EventsHandler.prototype.renderEventList = function(options){
+    EventsHandler.prototype.renderEventList = function(options) {
       var $eventsList = $('.event-list');
       var eventsToPopulate = typeof options !== 'undefined' ? options.filteredData : this.data.events;
-      if(this.currentPage < 1){
+      if(this.currentPage < 1) {
         this.currentPage = 1;
         return;
-      }
-      else if(this.currentPage > this.getTotalPages(eventsToPopulate.length)){
+      } else if(this.currentPage > this.getTotalPages(eventsToPopulate.length)) {
         this.currentPage = this.getTotalPages(eventsToPopulate.length);
         return;
       }
-      if(typeof options !== 'undefined'){
+      if(typeof options !== 'undefined') {
         $eventsList.empty();
       }
       //The template for the event list
@@ -189,28 +162,26 @@
       //Unbind all events from the list elements
 
       $('.pagination li span').off('click');
-      if(eventsToPopulate.length > DESIRED_ELEMENTS_PER_PAGE){
+      if(eventsToPopulate.length > DESIRED_ELEMENTS_PER_PAGE) {
         document.querySelector('.pagination').innerHTML =
         getItems(this.getTotalPages(eventsToPopulate.length), this.currentPage)
-        .map(function(e, i){
+        .map(function(e, i) {
           return('<li seperator="'+e.seperator+'" active="'+e.active+'" disabled="'+e.disabled+'">'
           + '<span>'+e.title+'</span>'
           + '</li>');
         }).join('');
         $('.pagination li[active="false"] span').on('click', this.render.bind(this));
         $('.pagination li[active="undefined"] span').on('click', this.render.bind(this));
-      }
-      else{
+      } else {
         document.querySelector('.pagination').innerHTML = '';
       }
 
       //Create the event list based on the data that we have filtered and page
       for(var i = (this.currentPage - 1) * DESIRED_ELEMENTS_PER_PAGE;
-      i < (this.currentPage * DESIRED_ELEMENTS_PER_PAGE); i += 1){
+      i < (this.currentPage * DESIRED_ELEMENTS_PER_PAGE); i += 1) {
         var element = eventsToPopulate[i];
-        if(element){
+        if(element) {
           var $tempTemplate = $templateEventListElement.clone()
-          $($tempTemplate).attr("index", i); //Prolly not gonna need this
           $($tempTemplate).find('.event-topic').append('<span class="fa fa-chevron-down" aria-hidden="true"></span>'+element.topic);
           $($tempTemplate).find('.event-date').text(element.date);
           $($tempTemplate).find('.event-type').text(element.type);
@@ -219,36 +190,33 @@
           $($tempTemplate).find('.event-description').addClass('hide-description');
           //Separate the social tags
           var socialTags = element.social_tags.trim().split(',');
-          socialTags.forEach(function(tag){
+          socialTags.forEach(function(tag) {
             $($tempTemplate).find('.social-tags').append('<span class="social-tag">#'+tag+'</span>');
           });
           eventListArray.push($tempTemplate);
-        }
-        else{
+        } else {
           i = (this.currentPage * DESIRED_ELEMENTS_PER_PAGE) + 1;
         }
       }
       $eventsList.append(eventListArray);
-      $('.event-list .event-headers span').off('click').on('click', function(event){
+      $('.event-list .event-headers span').off('click').on('click', function(event) {
         var descriptionToHideShow = $(event.currentTarget);
         $parentElement = $(descriptionToHideShow).parent().parent().parent();
-        if(!$($parentElement).find('.event-description').hasClass('hide-description')){
+        if(!$($parentElement).find('.event-description').hasClass('hide-description')) {
           $($parentElement).find('.event-description').addClass('hide-description');
-        }
-        else{
+        } else {
           $($parentElement).find('.event-description').removeClass('hide-description');
         }
       });
-      if(typeof options === 'undefined'){
+      if(typeof options === 'undefined') {
         //Populate the dropdowns
         this.populateDropdowns();
       }
     }
 
-
     EventsHandler.prototype.render = function(event) {
-      function renderData(shouldWeFilter, pageNumber){
-        if(shouldWeFilter && !pageNumber){
+      function renderData(shouldWeFilter, pageNumber) {
+        if(shouldWeFilter && !pageNumber) {
           var filters = this.getFilterValues();
           var filteredData = this.data.events.filter(filterEvents,filters);
           this.currentPage = 1;
@@ -260,38 +228,31 @@
           var newPageNumber;
           if(pageNumber.text().toLowerCase() === 'next'){
             newPageNumber = this.currentPage += 1;
-          }
-          else if(pageNumber.text().toLowerCase() === 'prev'){
+          } else if(pageNumber.text().toLowerCase() === 'prev'){
             newPageNumber = this.currentPage -= 1;
-          }
-          else if(pageNumber.text().toLowerCase().indexOf('first') !== -1){
+          } else if(pageNumber.text().toLowerCase().indexOf('first') !== -1){
             newPageNumber = this.currentPage = 1;
-          }
-          else if(pageNumber.text().toLowerCase().indexOf('last') !== -1){
+          } else if(pageNumber.text().toLowerCase().indexOf('last') !== -1){
             newPageNumber = this.getTotalPages(filteredData.length);
-          }
-          else{
+          } else {
             newPageNumber = parseInt(pageNumber.text());
           }
           this.currentPage = newPageNumber;
           this.renderEventList({renderFilteredData: true, filteredData: filteredData});
-        }
-        else{
+        } else {
           this.renderEventList();
         }
       }
-      if(this.data && typeof event !== 'undefined'){
+      if(this.data && typeof event !== 'undefined') {
         var $callingElement = $(event.currentTarget);
         var classCallingElement = $callingElement.parent()[0].className;
-        if(classCallingElement.indexOf('dropdown-menu') != -1){
+        if(classCallingElement.indexOf('dropdown-menu') != -1) {
           renderData.call(this, true);
-        }
-        else{
+        } else {
           renderData.call(this, true, $callingElement);
         }
-
       } else {
-        $.when(this.getData()).then(function(){
+        $.when(this.getData()).then(function() {
           renderData.call(this);
         }.bind(this));
       }
@@ -306,8 +267,7 @@
       var $eventTopicDropdown = $('#event-topics ul');
       var $eventLocationDropdown = $('#event-location ul');
       //The template for the dropdown list
-      var $templateEventListDropdownElement = $('#events-dropdowns-template').html();
-      $templateEventListDropdownElement = $($templateEventListDropdownElement);
+      var $templateEventListDropdownElement = $('<li></li>');
       eventTypes = this.data.events.map(function(el){
         return el.type;
       });
@@ -323,17 +283,17 @@
       });
       eventLocations.unshift('Event Topic');
       eventLocations = filterDuplicatesArray(eventLocations);
-      eventTypes.forEach(function(type){
+      eventTypes.forEach(function(type) {
         var $tempDropdownEl = $templateEventListDropdownElement.clone();
         $($tempDropdownEl).append('<span class="value">'+type+'</span>');
         eventTypesDisplayArray.push($tempDropdownEl)
       });
-      eventTopics.forEach(function(topic){
+      eventTopics.forEach(function(topic) {
         var $tempDropdownEl = $templateEventListDropdownElement.clone();
         $($tempDropdownEl).append('<span class="value">'+topic+'</span>');
         eventTopicsDisplayArray.push($tempDropdownEl)
       });
-      eventLocations.forEach(function(location){
+      eventLocations.forEach(function(location) {
         var $tempDropdownEl = $templateEventListDropdownElement.clone();
         $($tempDropdownEl).append('<span class="value">'+location+'</span>');
         eventLocationDisplayArray.push($tempDropdownEl)
@@ -348,13 +308,13 @@
       this.bindEvents();
     }
 
-    EventsHandler.prototype.filterTest = function(){
+    EventsHandler.prototype.filterTest = function() {
       var filters = this.getFilterValues();
       var filteredData = this.data.events.filter(filterEvents,filters);
       this.renderEventList({renderFilteredData: true, filteredData: filteredData});
     }
 
-    EventsHandler.prototype.getFilterValues = function(){
+    EventsHandler.prototype.getFilterValues = function() {
       return {
         type: $('#event-types').find('.dropdown-title').text() || '',
         topic: $('#event-topics').find('.dropdown-title').text() || '',
@@ -362,7 +322,7 @@
       };
     }
 
-    EventsHandler.prototype.getTotalPages = function(dataLength){
+    EventsHandler.prototype.getTotalPages = function(dataLength) {
       return Math.ceil(dataLength / DESIRED_ELEMENTS_PER_PAGE);
     }
 
