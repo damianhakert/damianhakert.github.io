@@ -58,7 +58,7 @@ in GitLab 8.15.
 For this first iteration, Auto Deploy only has templates for Ruby on Rails on
 Kubernetes, AWS or Heroku. We want to add support for more stacks soon and other container schedulers and cloud platforms later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
-> [Documentation link](link)
+[Documentation link](http://docs.gitlab.com/ce/ci/environments.html#web-terminals)
 
 ## Web Terminal
 
