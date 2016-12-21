@@ -28,7 +28,6 @@ responsible for it for the life of the project, so it needs to be maintainable.
   * Make sure a changelog entry crediting the author exists
   * Add your own commits to improve and finish the original work
   * Push to a new branch and open a new merge request
-* Reduce the amount of open [merge requests from the community]
 * Make it easy to contribute to GitLab even for people who are new to Ruby,
   JavaScript, or programming entirely
 
