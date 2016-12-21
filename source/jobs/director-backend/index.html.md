@@ -22,7 +22,7 @@ lead all backend groups within engineering.
 * Provide coaching and feedback to direct reports
 * Review merge requests made by developers
 * Define best practices and coding standards for backend team
-* Deliver input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
+* Deliver input on engineering organizational changes in consultation with the CEO, CTO, and VP of Engineering
 * Coordinates with frontend and UX leads to form teams for major features/moonshots
 
 ## Requirements
