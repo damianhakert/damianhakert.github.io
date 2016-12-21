@@ -333,11 +333,9 @@ This release has more improvements, including security fixes. Please check out
 
 To upgrade to GitLab 8.15, downtime is required.
 
-For those not using post-deploy migrations I believe this release will require
-at least 30 minutes of downtime. Those using post-deployment migrations can
-probably reduce that down to 10 or-so minutes for large instances.
-
-
+For those not using post-deploy migrations, this release will require at least
+30 minutes of downtime. Those using post-deployment migrations can probably
+reduce that down to 10 or so minutes for large instances.
 
 ### Note
 
