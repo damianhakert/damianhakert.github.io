@@ -9,7 +9,7 @@ image_title: /images/7_X/PICTURE.PNG
 With this last release of the year, we're not only completing our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/), but we
 want to show you something cool we've been working on:
 
-<SHORT VIDEO HERE>
+![short video here]()
 
 With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
 [xx:xx]()), which automates setting up deploys and review apps. For a
@@ -26,14 +26,25 @@ And the hard work shouldn't even include setting up GitLab. [See below]() for
 the full video, in which we install GitLab and ship a full app, from idea to
 production, in under Y minutes. Before, setting up a place for your repositories, setting up a CI service and making that auto deploy to dynamic environments and deploying all of this on a container scheduler would take weeks.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+For many people, December is a month of celebration and gift giving.
+This month, GitLab was so lucky to receive so many great contributions that
+a single MVP wouldn't suffice. This month, we have four (4!!) MVPs, as
+their contributions were so large, we felt it would be unfair to not mention
+them.
+
+Our first MVP is [Warren Postma](https://gitlab.com/warren.postma) for his contributions on the issue trackers, and the [community forum](https://forum.gitlab.com/users/warren.postma/activity) and [generally being a great advocate of the product and the company](https://gitlab.com/warren.postma/gitlab-ce/wikis/home).
+Next, we want to thank Michael Munch for bring beautifully-typeset math to GitLab (Michael worked over a period of six months on this!).
+And lastly, we want to thank Elan Ruusamäe and Dirk Hörner for their
+contributions in technical design and implementation that have given super
+powers to Git Hooks.
+
+Thanks Warren, Michael, Elan and Dirk!
 
 <!--more-->
 
 ## Installing GitLab to deploying to Production in Y minutes
 
-< FULL VIDEO>
+![full video here]()
 
 ## Auto Deploy
 
@@ -42,11 +53,12 @@ to a container scheduler. It shouldn't require any effort to get started,
 but also be scalable and not hide any of the magic.
 
 Auto Deploy does this. Auto Deploy adds a single button to your project,
-that when clicked, will create a merge request with all necessary templates
-to set up GitLab CI, including review apps, and a template to deploy your
-application to your container scheduler.
+that when clicked, will create a merge request with a template that will
+automatically deploy your application using Docker to your container scheduler.
+The cool thing about this is that this immediately leverages Review Apps,
+meaning you can see it working before even merging the merge request!
 
-![TODO IMAGE]()
+![Auto deploy in GitLab 8.15](/images/8_15/auto_deploy.png)
 
 This is as close as you can get to one-click deploys, while exposing what
 is happening and having all this version-controlled, ready
@@ -55,17 +67,17 @@ to collaborate and iterate on.
 See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
 in GitLab 8.15.
 
-For this first iteration, Auto Deploy only has templates for Ruby on Rails on
-Kubernetes, AWS or Heroku. We want to add support for more stacks soon and other container schedulers and cloud platforms later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
+For this first iteration, we ship Auto Deploy with a template for deploying to OpenShift. You can use any Heroku buildpack to create the Docker image (thanks to [Herokuish](https://github.com/gliderlabs/herokuish)) or provide your own Dockerfile. We want to add support for more container schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
-[Documentation link](http://docs.gitlab.com/ce/ci/environments.html#web-terminals)
+> [Documentation link](link)
 
 ## Web Terminal
 
 Working together with your container scheduler, GitLab happily spins up several
 (dynamic) environments on request for your projects. Be that for review apps
 or a staging or production environment.
-Traditionally, getting direct access to these environments has been a little painful. And that's a shame: it's very useful to quickly try something in a
+Traditionally, getting direct access to these environments has been a little
+painful. And that's a shame: it's very useful to quickly try something in a
 live environment, be it to debug a problem or just to experiment.
 
 With the web terminal, this has become extremely easy. Just visit the
@@ -78,12 +90,12 @@ to quickly try out some changes.
 
 > [Documentation link](link)
 
-## Improved Bitbucket Importer
+## Improved BitBucket Importer
 
-Importing from Bitbucket has become even more powerful. With GitLab 8.15 we'll
+Importing from BitBucket has become even more powerful. With GitLab 8.15 we'll
 also import all pull requests as individual merge requests plus pull
-request comments, milestones and the wiki from Bitbucket.
-That makes the things we import from any Bitbucket project:
+request comments, milestones and the wiki from BitBucket.
+That makes the things we import from any BitBucket project:
 
 - Repository description
 - Git repository
@@ -95,10 +107,7 @@ That makes the things we import from any Bitbucket project:
 When importing a project all references to pull requests and issues are
 preserved and so is the access level (public/private).
 
-NOTE: You will need to add permissions and an OAuth2 callback URL to the Bitbucket
-settings to work with this new importer.
-
-[Read the docs on the Bitbucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
+[Read the docs on the BitBucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
 
 ## Global Git Hooks
 
@@ -121,7 +130,7 @@ If you have set up custom Git hooks, the order might matter: when an initial
 hook fails, there is no point in moving forward. With Chained Custom Hooks
 hooks will execute in lexical order, failing on the first failing script.
 
-This means you can create hook `1-hook.sh`, `2-hook.sh` and you'll know that
+This means you can create hooks `1-hook.sh` and `2-hook.sh` and you'll know that
 `1` will execute before `2`.
 
 This gives a lot of power to your hooks and allows endless customization of
@@ -147,6 +156,14 @@ This encourages collaboration, since you can use both your approval and removal 
 
 Note that you can only remove your own approval that you have already given. (You can't give a negative signal.) Also, once a merge request has the minimum number of approvals required, it is unlocked and ready to be merged (provided all the other necessary conditions are met). This is the same behavior as before.
 
+## Diff in Notification Emails
+
+When you get a notification email from a comment on a diff, GitLab will now
+send along a bit of the diff, so you have the correct context immediately
+available.
+
+![Diffs in Notification emails in GitLab 8.15](/images/8_15/diff_emails.png)
+
 ## Interface improvements
 
 Our amazing usability team has been working hard on making GitLab easier to use,
@@ -164,7 +181,11 @@ If you want to get a feel of GitLab across platforms, [check out the original me
 
 ### Slimmed down widths
 
-We've reduced the max-width for issues and merge requests container in order to provide a more readable line length. This is the first step for us to correct the huge line lengths you see throughout GitLab. Follow our [meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/13680) as we continue to improve GitLab's line length.
+We've reduced the max-width for issues and merge requests container in order to
+provide a more readable line length. This is the first step for us to correct
+the huge line lengths you see throughout GitLab.
+Follow our [meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/13680)
+as we continue to improve GitLab's line length.
 
 ### Unique Labels
 
@@ -178,7 +199,25 @@ even more consistent in further iterations.
 
 ### Improved Build Scrolling and Loading
 
-![](/images/8_15/build_scroll.png)
+Build scrolling and loading works and looks quite a bit better now:
+
+![Improved Build Scrolling and Loading in GitLab 8.15](/images/8_15/build_scroll.png)
+
+### Smaller page size
+
+Between system fonts and improvements to autocomplete, we've reduced the
+average page size of any page in GitLab significantly. A given merge request
+in the GitLab CE project went from 1800kb to now 718kb!
+
+### Improved empty states
+
+In order to improve our experience for users who are just getting started with
+GitLab, we've added informative and fun empty states to many of our pages
+across the application!
+View our [meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/15632) to
+see where we've placed new empty states and feel free to suggest new ones!
+
+![Even empty is beautiful in GitLab 8.15](/images/8_15/empty.png)
 
 ### Other changes and tweaks
 
@@ -187,8 +226,6 @@ even more consistent in further iterations.
 - Added hover states to our primary navigation and tabs throughout the site.
 - Improved hover, focus, and active states for buttons [!7797](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7797)
 - Added hover states to collapsed items with the issues/mr's sidebar [!7777](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7777)
-
-
 
 ## Mathematics support for Markdown and AsciiDoc, using KaTeX
 
@@ -204,11 +241,17 @@ To render multiline mathematics, use the `math` language for the code block:
 
 In addition to working for Markdown, this is also available for AsciiDoc documents. [Read the documentation on mathematics support.](https://docs.gitlab.com/ce/user/markdown.html#math)
 
+![Beautifully rendered math in GitLab 8.15](/images/8_15/math.png)
+
 Thanks to Michael Munch for this feature!
 
 ## Cleaner merge commit messages
 
-Previously, merge commit messages included the title and description of the merge request, and a reference to the merge request. This didn't read well when using `git log` and similar tools, because merge request descriptions often contain requests for review, screenshots, and other details incidental to the code change.
+Previously, merge commit messages included the title and description of the
+merge request, and a reference to the merge request. This didn't read well when
+using `git log` and similar tools, because merge request descriptions often
+contain requests for review, screenshots, and other details incidental to the
+code change.
 
 Now, the default merge commit message is in the following format:
 
@@ -220,15 +263,20 @@ Now, the default merge commit message is in the following format:
 
     See merge request $MERGE_REQUEST_REFERENCE
 
-The previous default message is available as an option when customising the merge commit message.
+The previous default message is available as an option when customizing the
+merge commit message.
 
 Thanks to Gabriel Gizotti!
 
 ## Shorthand cross-project references in GitLab Flavored Markdown
 
-Previously, a reference to something in another project always included the namespace, even if the project was in the same namespace.
+Previously, a reference to something in another project always included the
+namespace, even if the project was in the same namespace.
 
-Now, shorthand references are available. So from within the `gitlab-org/gitlab-ce` project, you can refer to issue #1 in GitLab Workhorse by writing `gitlab-workhorse#1` instead of `gitlab-org/gitlab-workhorse#1`, saving precious keystrokes!
+Now, shorthand references are available. So from within the
+`gitlab-org/gitlab-ce` project, you can refer to issue #1 in GitLab Workhorse
+by writing `gitlab-workhorse#1` instead of `gitlab-org/gitlab-workhorse#1`,
+saving precious keystrokes!
 
 For more information, see the [special GitLab references](https://docs.gitlab.com/ce/user/markdown.html#special-gitlab-references) section of our Markdown documentation.
 
@@ -261,7 +309,17 @@ the last activity timestamp of every user on the instance.
 
 [Find the details in the docs](https://docs.gitlab.com/ee/api/users.html#get-user-activities-admin-only)
 
+## Sort Project and Group members
+
+You can now find people in projects and groups easier by sorting them according
+by name, access level and date of joining.
+
+![Easily find people in projects and groups in GitLab 8.15](/images/8_15/sort_members.png)
+
 ## API Changes
+
+Every month we make many additions to our API, here's the highlights
+for GitLab 8.15:
 
 - Allow some Project API GET endpoints to be requested anonymously
 - Allow Repositories & Files API GET endpoints to be requested anonymously
@@ -275,13 +333,6 @@ the last activity timestamp of every user on the instance.
 - Expose merge status for branch API (community contribution)
 - Expose personal snippets as /snippets (community contribution)
 - Expose pipeline coverage
-
-## Small Changes
-
-- Add support for Dockerfile templates
-- Allow all alphanumeric characters in file names  (community contribution)
-- Don't display prompt to add SSH keys if SSH protocol is disabled (community contribution)
-- New `gitlab:workhorse:install` rake task
 
 ## Omnibus GitLab package changes
 
@@ -323,7 +374,7 @@ GitLab EE:
 
 GitLab EE now ships with a command called `sidekiq-cluster`. This command can be used to start extra Sidekiq workers that process only a limited number of queues. This feature can be used to process queues that receive a lot of jobs, without it affecting other parts of Sidekiq. This was added in ![922](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/922).
 
-This command is not yet used by Omnibus. Our goal is to add this in 8.16.
+This command is not yet used by Omnibus, our goal is to add this in 8.16.
 
 ## Other changes
 
@@ -334,11 +385,18 @@ This release has more improvements, including security fixes. Please check out
 
 ## Upgrade barometer
 
-To upgrade to GitLab 8.15, downtime is required.
+To upgrade to GitLab 8.15, downtime is required. Larger instances (>1000 users)
+should expect about 15 minutes of downtime.
 
-For those not using post-deploy migrations, this release will require at least
-30 minutes of downtime. Those using post-deployment migrations can probably
-reduce that down to 10 or so minutes for large instances.
+The specific migrations requiring downtime are described below.
+
+- Columns with default values are added, this process may take some time depending on the number of rows in these tables
+- Some indexes are added concurrently, which does not require downtime but may take some time to complete
+- Nested groups support (I believe) is added in this release, which requires a bunch of database migrations. Some of these require downtime and can take quite some time to finish
+- The environments table is cleaned up, and a new column is added with a generated default value (this could take some time depending on the number of environments)
+
+Furthermore, this release adds an expanded blacklist for project names.
+Existing projects will be renamed automatically ina
 
 ### Note
 
@@ -348,7 +406,7 @@ If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enable
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
-file](https://docs.gitlab.com/omnibus/update/README.html).
+file](http://doc.gitlab.com/omnibus/update/README.html).
 
 ----
 
