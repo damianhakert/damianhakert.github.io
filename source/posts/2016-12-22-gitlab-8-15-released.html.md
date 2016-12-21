@@ -78,12 +78,12 @@ to quickly try out some changes.
 
 > [Documentation link](link)
 
-## Improved BitBucket Importer
+## Improved Bitbucket Importer
 
-Importing from BitBucket has become even more powerful. With GitLab 8.15 we'll
-also import all pull requests as individual merge request plus pull
-request comments, milestones and the wiki from BitBucket.
-That makes the things we import from any BitBucket project:
+Importing from Bitbucket has become even more powerful. With GitLab 8.15 we'll
+also import all pull requests as individual merge requests plus pull
+request comments, milestones and the wiki from Bitbucket.
+That makes the things we import from any Bitbucket project:
 
 - Repository description
 - Git repository
@@ -95,10 +95,10 @@ That makes the things we import from any BitBucket project:
 When importing a project all references to pull requests and issues are
 preserved and so is the access level (public/private).
 
-NOTE: You will need to add permissions and an OAuth2 callback URL to the BitBucket
+NOTE: You will need to add permissions and an OAuth2 callback URL to the Bitbucket
 settings to work with this new importer.
 
-[Read the docs on the BitBucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
+[Read the docs on the Bitbucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
 
 ## Global Git Hooks
 
