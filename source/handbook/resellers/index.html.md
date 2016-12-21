@@ -221,15 +221,15 @@ We will endeavor to provide funds to support up one event per reseller per quart
 
 *If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
 
-Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
+Please submit your application for event support [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
 ### Online Marketing Support Requests
 
-GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](stephane@gitlab.com)
+GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
 ### Swag Requests
 Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
-We have been known to co-fund co-branded or locally produced SWAG. Send us your idea to Stephane (stephane@ company domain).
+We have been known to co-fund co-branded or locally produced SWAG. Send submit your idea [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
 ## Technical Support
 
