@@ -12,8 +12,8 @@ image_title: '/images/blogimages/startssl-gitlab-pages/startssl-gitlab-pages-cov
 <i class="fa fa-exclamation-triangle red" aria-hidden="true"></i>
 <span class="red">**WARNING**</span>
 <i class="fa fa-exclamation-triangle red" aria-hidden="true"></i>
-**StartCom** certificates have recently been **distrusted** by [Mozilla Firefox](https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/) and [Google Chrome](https://security.googleblog.com/2016/10/distrusting-wosign-and-startcom.html). Certs issued previous to October 21st, 2016, don't seem to have been affected, therefore, are still trusted.<br>
-In response to my contact, StartCom affirmed to be working hard to revert this situation, which they hope to be solved by the end of January, 2017.<br>
+**StartCom** certificates have recently been **distrusted** by [Mozilla Firefox](https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/) and [Google Chrome](https://security.googleblog.com/2016/10/distrusting-wosign-and-startcom.html). Certs issued prior to October 21st, 2016 don't seem to have been affected and are therefore still trusted.<br>
+In response to my contact, StartCom affirmed they're working hard to revert this situation and hope to have a resolution by the end of January, 2017.<br>
 <span class="note">Update by Marcia Ramos, on 2016/12/20.</span>
 {:.alert .alert-warning .black}
 
