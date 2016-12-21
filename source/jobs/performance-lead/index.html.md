@@ -5,7 +5,7 @@ title: "Performance Lead"
 
 As the Performance Lead, you will take overall responsibility for making sure
 that GitLab the application and GitLab.com runs fast at scale. This position
-will report to the Infrastructure Lead.
+will report to the Backend Director.
 
 ## Responsibilities
 
@@ -13,7 +13,7 @@ will report to the Infrastructure Lead.
 - Identify and prioritize the most critical performance issues from various sources (e.g. database, filesystem, etc.)
 - Work with team to propose new architecture designs to support 10x of the current scale
 - Lead team meetings, conduct 1:1's, and continuously improve the onboarding and training process/experience.
-- Direct the improvement of performance monitoring and alerting
+- Drive the improvement of performance monitoring and alerting
 - Identify ways to load test and stress application stack
 - Educate all team members on best practices relating to performance
 - Lead development of tools/abstractions that aid backend developers
