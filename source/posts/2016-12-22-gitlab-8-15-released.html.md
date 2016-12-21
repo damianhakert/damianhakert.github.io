@@ -143,7 +143,7 @@ it. This means that if you notice a problem during code review or another review
 
 ![Remove Approvals in GitLab 8.15 EE](/images/8_15/remove_approval.png)
 
-This encourages collaboration, since you can use both your approval and removal of it to give richer feedback to the author of a merge request.And you can be confident in approving merge requests, without worrying that you are stuck with it if new information arises.
+This encourages collaboration, since you can use both your approval and removal of it to give richer feedback to the author of a merge request. And you can be confident in approving merge requests, without worrying that you are stuck with it if new information arises.
 
 Note that you can only remove your own approval that you have already given. (You can't give a negative signal.) Also, once a merge request has the minimum number of approvals required, it is unlocked and ready to be merged (provided all the other necessary conditions are met). This is the same behavior as before.
 
