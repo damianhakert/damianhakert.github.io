@@ -56,7 +56,7 @@ See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
 in GitLab 8.15.
 
 For this first iteration, Auto Deploy only has templates for Ruby on Rails on
-Kubernetes. We want to add support for more stacks soon and other container schedulers later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
+Kubernetes, AWS or Heroku. We want to add support for more stacks soon and other container schedulers and cloud platforms later (Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
 > [Documentation link](link)
 
@@ -128,6 +128,22 @@ For more information, see the [custom git hooks documentation](https://docs.gitl
 
 Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define Global Git Hooks and this feature, and providing the implementation!
 
+## Remove approval from merge request (EE)
+
+Merge request approvals allow you to set a required number of approvals from
+people other than the author, before a merge request can be merged.
+This is super useful for strict control of what code lands in your important
+branches.
+
+You can now remove your approval from a merge request, after you have approved
+it. This means that if you notice a problem during code review or another reviewer points one out, you can remove your approval that you previously gave.
+
+![Remove Approvals in GitLab 8.15 EE](/images/8_15/remove_approval.png)
+
+This encourages collaboration, since you can use both your approval and removal of it to give richer feedback to the author of a merge request.And you can be confident in approving merge requests, without worrying that you are stuck with it if new information arises.
+
+Note that you can only remove your own approval that you have already given. (You can't give a negative signal.) Also, once a merge request has the minimum number of approvals required, it is unlocked and ready to be merged (provided all the other necessary conditions are met). This is the same behavior as before.
+
 ## Interface improvements
 
 Our amazing usability team has been working hard on making GitLab easier to use,
@@ -156,6 +172,10 @@ We are continuing work on this to make our
 even more consistent in further iterations.
 
 ![Unique Labels in GitLab 8.15]](/images/8_15/labels.png)
+
+### Improved Build Scrolling and Loading
+
+![](/images/8_15/build_scroll.png)
 
 ### Other changes and tweaks
 
