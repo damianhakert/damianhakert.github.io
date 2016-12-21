@@ -18,6 +18,10 @@ When we truly understand a user’s mindset when interacting with our product, w
 
 At GitLab, we are in the early stages of discovering who our personas are. If you want to make sure that as a user your needs and expectations are met, then you can help us by [completing our survey][survey link] and sharing your views.
 
+The qualitative data from this survey will be analyzed and categorized by coding similar responses. A code is a word or short phrase that describes a respondent’s answer. Codes condense the information collected into key themes and topics. Whilst statistical analysis will be used to summarize and describe the quantitative data (close-ended questions) in the survey. We can then interpret these findings to form a basis for our personas. 
+
+When drawing conclusions from the survey data, it’s important to recognize the limitations of what the data is telling us, therefore we will triangulate any findings with the outcome of user interviews and web analytics. By comparing multiple research methods, we can consider whether findings are similar and ensure that the personas are based on supporting evidence.
+
 
 <!-- Identifiers, in alphabetical order -->
 
