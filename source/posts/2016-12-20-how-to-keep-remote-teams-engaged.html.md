@@ -3,7 +3,7 @@ title: "How to Keep Remote (Volunteer) Teams Engaged"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: customer stories
-image_title: '/images/blogimages/how-to-keep-remote-teams-engaged.jpg'
+image_title: '/images/blogimages/how-to-keep-remote-teams-engaged-cover.jpg'
 description: "Our Director of Strategic Partnerships chats about remote engagement challenges at a charity that encourages kids to get interested in space, finding interesting parallels with open source projects."
 ---
 
@@ -72,3 +72,7 @@ One other thing that's working well is centralizing a process for working asynch
 **Eliran:** We may have those specific discussions on Slack, but for the most part, maybe 95% of the decisions are happening within the issue. But we don't discourage people from talking, so there could be times when you have to talk to someone or a group of people, because there's only so much you can do over text. So you may make a decision over Hangout, but that is communicated back through the issue. Someone will go back and say "I had a discussion with Mark, and we decided the best way to move forward is x." That way everyone has the opportunity to get the takeaways from that meeting and give input. So some decisions happen away from the issues. But it's important to reinforce that we try to keep communication on a specific topic within an issue. We really push that, and it's part of the culture at GitLab. As you keep growing, the sooner you adopt changes in a working culture, the better it is for people to learn them later on. 
 
 _Tweet us [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
+
+<!-- cover image: https://www.pexels.com/photo/people-coffee-meeting-team-7096/ -->
+
+<!-- cover image license: CC0: https://www.pexels.com/photo-license/ -->
