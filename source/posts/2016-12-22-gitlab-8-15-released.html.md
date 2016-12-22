@@ -27,13 +27,11 @@ the full video, in which we install GitLab and ship a full app, from idea to
 production, in under Y minutes. Before, setting up a place for your repositories, setting up a CI service and making that auto deploy to dynamic environments and deploying all of this on a container scheduler would take weeks.
 
 For many people, December is a month of celebration and gift giving.
-This month, GitLab was so lucky to receive so many great contributions that
-a single MVP wouldn't suffice. This month, we have four (4!!) MVPs, as
-their contributions were so large, we felt it would be unfair to not mention
-them.
+This month, GitLab was again so lucky to receive many great contributions.
 
-Our first MVP is [Warren Postma](https://gitlab.com/warren.postma) for his contributions on the issue trackers, and the [community forum](https://forum.gitlab.com/users/warren.postma/activity) and [generally being a great advocate of the product and the company](https://gitlab.com/warren.postma/gitlab-ce/wikis/home).
-Next, we want to thank Michael Munch for bring beautifully-typeset math to GitLab (Michael worked over a period of six months on this!).
+The MVP of this month is Michael Munch for bringing beautifully-typeset math to GitLab. Michael worked over a period of 6 months in a merge request with more than a hundred comments to bring this to GitLab.
+
+We'd also like to thank [Warren Postma](https://gitlab.com/warren.postma) for his contributions on the issue trackers, and the [community forum](https://forum.gitlab.com/users/warren.postma/activity) and [generally being a great advocate of the product and the company](https://gitlab.com/warren.postma/gitlab-ce/wikis/home).
 And lastly, we want to thank Elan Ruusamäe and Dirk Hörner for their
 contributions in technical design and implementation that have given super
 powers to Git Hooks.
@@ -41,10 +39,6 @@ powers to Git Hooks.
 Thanks Warren, Michael, Elan and Dirk!
 
 <!--more-->
-
-## Installing GitLab to deploying to Production in Y minutes
-
-![full video here]()
 
 ## Auto Deploy
 
