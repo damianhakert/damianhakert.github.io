@@ -94,59 +94,42 @@ We now create a group for our company; let’s name it `tanuki`.
 
 Then let’s now create a new project to start off with.
 
-> * Create a project called `firstname-www` under the `tanuki` group and make it public
+> * Create a project:
+  - name `firstname-www`
+  - under the `tanuki` group
+  - public
+  - Import project from -> Repo by URL: https://github.com/heroku/ruby-sample
 
-### Configure the project
+### Configure project service with Openshift credentials
 
-Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
-
-> * Click add readme (changing that to + in TODO: [Create new arbitrary file in new project](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310)) or make irrelevant with TODO: [Auto deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)
-> * Name the file `index.html`
-> * Type `Hello World` as the contents
-> * Click Submit
-
-Of course this is just a static file and not an application yet, but since we’re using OpenShift it’s really easy to use Docker. GitLab offers a set of `Dockerfile` templates that we can use. Let’s add a new Dockerfile and choose the template for Apache’s httpd server.
-
-> * Click back to the files tab
-> * Add a file + icon, New file
-> * Filename to `Dockerfile` TODO: [Make sure this dropdown looks properly positioned even though my scaled resolution is larger text](https://gitlab.com/gitlab-org/gitlab-ce/issues/23962)
-> * template HTTPd TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)
-> * Commit changes on master
-
-### Add Openshift credentials to CI
-
-We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
-](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
-
-The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
+The next step is to configure CI, but first we have to expose some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
 
 > * Go to [Openshift](https://openshift.tanukionline.com:8443/console/command-line) or `Help > Command Line Tools > .. click to show token…`
 > * Copy token
 
-We will now copy this token and go back to GitLab where we will use this token as a environmental variable which will be automatically passed to our CI/CD pipeline jobs.
+We will now copy this token and go back to GitLab where we will use this token to configure Kubernetes project service.
+The value will be automatically passed to our CI/CD pipeline jobs.
 
 > * Go to GitLab
-> * Settings > Variables
-> * Key: OPENSHIFT_TOKEN
-> * Value: paste token
-> * Add new variable
-
-We also need to set our server and our domain.
-
-> * Repeat for:
->   * Key: OPENSHIFT_SERVER
->   * Value: https://openshift.tanukionline.com:8443
-> * and repeat for:
->   * Key: OPENSHIFT_DOMAIN
->   * Value: tanukionline.com
+> * Settings > Services > Kubernetes
+> * Kubernetes Namespace: leave default value
+> * API URL: https://openshift.tanukionline.com:8443
+> * Service token: OPENSHIFT_TOKEN
+> * Custom CA bundle: leave blank
+> * Save changes
+> * Test settings
 
 ### Setup GitLab CI
 
-Now we’re ready to configure GitLab CI. Luckily GitLab also provides a bunch of templates to get us started. Back to the project, let’s click `Setup CI` and choose the OpenShift template.
+Now we’re ready to configure GitLab CI. Thanks to Autodeploy we can do
+it by just selecting a template. Back to the project, let’s click
+`Set up autodeploy` and choose the OpenShift template.
 
-> * Go to Project, Click Setup CI
+> * Go to Project, Click Set up autodeploy
 > * Choose OpenShift template
-> * Commit
+> * Modify `KUBE_DOMAIN` in the editor to `tanukionline.com`
+> * Change target branch to `master`
+> * Commit changes
 
 Great, that completes our setup.
 
@@ -178,7 +161,7 @@ When a great idea does come along, it would be such a waste to let it die in a c
 > ```
 > /issue create Make homepage more descriptive
 > SHIFT ENTER
-> Currently it is just Hello World.
+> Currently it is just Hello, world.
 > ```
 
 ## Issue (Tracker)
@@ -231,9 +214,9 @@ Now we’ve saved the changes, we can view the web page live to see how we like 
 That looks pretty good for now. But we didn't commit anything so this will be lost the next time we deploy. So let’s move on to committing changes into source control by using the web editor. I’m just going to add a header to it.
 
 > * Go to Repository
-> * Go to index.html
+> * Go to web.rb
 > * Click Edit button
-> * Replace `<h1>Idea to Production demo</h1>`
+> * Replace `Hello, world` with `<h1>Idea to Production demo</h1>`
 > DON'T COMMIT
 
 Now instead of committing directly to `master`, I’m going to create a new branch, named with the issue number.
