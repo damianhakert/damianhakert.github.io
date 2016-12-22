@@ -70,8 +70,6 @@ Kubernetes on Openshift. We want to add support for more container
 schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker
 Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
-> [Documentation link](link)
-
 ## Web Terminal
 
 Working together with your container scheduler, GitLab happily spins up several
@@ -86,7 +84,7 @@ environments page in your project and click on the terminal button.
 GitLab will SSH into the instance for you and allow you to do anything
 you would be able to do from your local instance.
 
-![Web Terminal in GitLab 8.15](/images/8_15/terminal_gif.gif)
+![Web Terminal in GitLab 8.15](/images/8_15/terminal_gif.gif){: .shadow}
 
 In the demonstration at [5:18](https://youtu.be/m0nYHPue5RU?t=318) we show you
 give you a quick peek at the web terminal. We can't wait to see how you'll
@@ -157,7 +155,7 @@ automatically synced permissions, you can now override this permission
 per user. This should make it easier to manage complex permissions across
 groups and projects.
 
-![Override LDAP permissions in GitLab 8.15 EE](/images/8_15/ldap_overrides.gif)
+![Override LDAP permissions in GitLab 8.15 EE](/images/8_15/ldap_overrides.gif){: .shadow}
 
 ## Slack Chatops
 
@@ -254,7 +252,7 @@ across the application!
 View our [meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/15632) to
 see where we've placed new empty states and feel free to suggest new ones!
 
-![Even empty is beautiful in GitLab 8.15](/images/8_15/empty.png)
+![Even empty is beautiful in GitLab 8.15](/images/8_15/empty.png){: .shadow}
 
 ### Other changes and tweaks
 
