@@ -459,11 +459,7 @@ The specific migrations requiring downtime are described below.
 
 - Columns with default values are added, this process may take some time depending on the number of rows in these tables
 - Some indexes are added concurrently, which does not require downtime but may take some time to complete
-- Nested groups support (I believe) is added in this release, which requires a bunch of database migrations. Some of these require downtime and can take quite some time to finish
 - The environments table is cleaned up, and a new column is added with a generated default value (this could take some time depending on the number of environments)
-
-Furthermore, this release adds an expanded blacklist for project names.
-Existing projects will be renamed automatically ina
 
 ### Note
 
