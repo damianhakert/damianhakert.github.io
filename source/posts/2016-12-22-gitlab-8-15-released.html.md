@@ -29,7 +29,9 @@ production, in under Y minutes. Before, setting up a place for your repositories
 For many people, December is a month of celebration and gift giving.
 This month, GitLab was again so lucky to receive many great contributions.
 
-The MVP of this month is Michael Munch for bringing beautifully-typeset math to GitLab. Michael worked over a period of 6 months in a merge request with more than a hundred comments to bring this to GitLab.
+The MVP of this month is Michael Munch for bringing beautifully-typeset math
+(LaTeX) to GitLab. Michael worked over a period of 6 months in merge requests
+with in total more than three hundred comments to bring this to GitLab.
 
 We'd also like to thank [Warren Postma](https://gitlab.com/warren.postma) for his contributions on the issue trackers, and the [community forum](https://forum.gitlab.com/users/warren.postma/activity) and [generally being a great advocate of the product and the company](https://gitlab.com/warren.postma/gitlab-ce/wikis/home).
 And lastly, we want to thank Elan Ruusamäe and Dirk Hörner for their
@@ -82,6 +84,8 @@ With the web terminal, this has become extremely easy. Just visit the
 environments page in your project and click on the terminal button.
 GitLab will SSH into the instance for you and allow you to do anything
 you would be able to do from your local instance.
+
+![Web Terminal in GitLab 8.15](/images/8_15/terminal.png)
 
 In the demonstration at [XX:XX]() we show you how to use the web terminal
 to quickly try out some changes.
