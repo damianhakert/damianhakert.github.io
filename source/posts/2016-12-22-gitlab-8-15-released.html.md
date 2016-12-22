@@ -13,6 +13,10 @@ want to show you something cool we've been working on:
   <iframe src="https://www.youtube.com/embed/m0nYHPue5RU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+<!--more-->
+
+<br>
+
 With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
 [1:42](https://youtu.be/m0nYHPue5RU?t=102)), which automates setting up deploys and review apps. For a
 Ruby on Rails project, this brings setup time to under a minute.
@@ -40,8 +44,6 @@ contributions in technical design and implementation that have given super
 powers to Git Hooks.
 
 Thanks Warren, Michael, Elan and Dirk!
-
-<!--more-->
 
 ## Auto Deploy
 
