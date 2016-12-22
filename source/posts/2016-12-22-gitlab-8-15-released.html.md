@@ -34,12 +34,12 @@ if not weeks to setup and use without GitLab.
 For many people, December is a month of celebration and gift giving.
 This month, GitLab was again so lucky to receive many great contributions.
 
-The MVP of this month is Michael Munch for bringing beautifully-typeset math
+The MVP of this month is [Michael Munch](https://gitlab.com/Munken) for bringing beautifully-typeset math
 (LaTeX) to GitLab. Michael worked over a period of 6 months in merge requests
 with in total more than three hundred comments to bring this to GitLab.
 
 We'd also like to thank [Warren Postma](https://gitlab.com/warren.postma) for his contributions on the issue trackers, and the [community forum](https://forum.gitlab.com/users/warren.postma/activity) and [generally being a great advocate of the product and the company](https://gitlab.com/warren.postma/gitlab-ce/wikis/home).
-And lastly, we want to thank Elan Ruusamäe and Dirk Hörner for their
+And lastly, we want to thank [Elan Ruusamäe](https://gitlab.com/glensc) and [Dirk Hörner](https://gitlab.com/dirker) for their
 contributions in technical design and implementation that have given super
 powers to Git Hooks.
 
