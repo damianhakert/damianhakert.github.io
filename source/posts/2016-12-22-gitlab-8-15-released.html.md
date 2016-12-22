@@ -64,11 +64,11 @@ to collaborate and iterate on.
 See [1:42](https://youtu.be/m0nYHPue5RU?t=102) in the video for a quick demo of
 Auto Deploy, as it is available in GitLab 8.15.
 
-For this first iteration, we ship Auto Deploy with a template for deploying to an external OpenShift cluster. You can use any Heroku buildpack to create the
-Docker image (thanks to [Herokuish](https://github.com/gliderlabs/herokuish))
-or provide your own Dockerfile. We want to add support for more container
-schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker Swarm).
-Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
+For this first iteration, we ship Auto Deploy with a template for deploying to an external OpenShift cluster. We use [Herokuish](https://github.com/gliderlabs/herokuish) and Heroku Buildpacks to
+package your application into a Docker Image that then is deployed to
+Kubernetes on Openshift. We want to add support for more container
+schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker
+Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
 > [Documentation link](link)
 
