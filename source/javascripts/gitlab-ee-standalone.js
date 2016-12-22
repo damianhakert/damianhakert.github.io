@@ -1,6 +1,6 @@
 (function(global) {
   $(function() {
-    $('.js-feature-preview-selector').each(function(idx, container) {
+    $('.js-feature-gallery').each(function(idx, container) {
       new global.FeaturePreviewSelector($(container));
     });
   });

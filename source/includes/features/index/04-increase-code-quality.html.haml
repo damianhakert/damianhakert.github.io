@@ -1,5 +1,5 @@
 /Third features container
-.page-container.feature-gallery.text-center.animated
+%section.page-container.feature-gallery.text-center.animated.brand-primary-background-theme
   .container.titles
     %h3
       Increase code quality
@@ -32,29 +32,23 @@
                   GitLab CI
               %p
                 Test every merge request. Run multiple jobs in parallel and see if your build passes with GitLab’s built-in CI.
-    .row.features-description
-      .col-md-4
-        .col-md-1
+  
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-13-mr-versions")
-        .col-md-11.feature-contents
-          %h4
-            Merge request versions
-          %p
-            View and compare merge request diffs from the UI.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading  Merge request versions
+          View and compare merge request diffs from the UI.
+      .media
+        .media-left
           =icon("features/icon-14-inline-commenting")
-        .col-md-11.feature-contents
-          %h4
-            Inline commenting and resolution
-          %p
-            Leave comments and resolve discussions on specific lines of code.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Inline commenting and resolution
+          Leave comments and resolve discussions on specific lines of code.
+      .media
+        .media-left
           =icon("features/icon-15-cherry-pick")
-        .col-md-11.feature-contents
-          %h4
-            Cherry-pick changes
-          %p
-            Use the cherry-pick button in the UI to isolate specific changes from a merge request.
-/Fourth features container
+        .media-body
+          %h4.media-heading Cherry-pick changes
+          Use the cherry-pick button in the UI to isolate specific changes from a merge request.

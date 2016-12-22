@@ -1,0 +1,314 @@
+/* Reusable styles for 'sandwich'-like layouts, as seen on /features and /gitlab-ee */
+
+@import "vendor/bootstrap/bootstrap";
+@import "vendor/bootstrap/bootstrap/variables";
+@import "variables";
+
+/* THEMES */
+
+.sandwich-page-layout {
+  font-family: $font-family-sans-serif;
+  .generic-theme-styles {
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 300;
+      font-size: 24px;
+    }
+    .section-description {
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 300;
+      font-size: 18px;
+    }
+    .section-title-xl {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 300;
+    }
+    .section-description-xl {
+      margin-bottom: 100px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+  .brand-primary-background-theme {
+    @extend .generic-theme-styles;
+    // TODO: Use variables
+    background: linear-gradient(to right, #6b4fbb 0%, #5942a0 40%, #42327a 100%);
+    .section-title {
+      color: $color-secondary-alt;
+    }
+    .section-description {
+      color: $color-white;
+    }
+  }
+  .no-background-color-theme {
+    @extend .generic-theme-styles;
+    background-color: $color-white;
+    .section-title {
+      color: $color-secondary;
+    }
+    .section-title-xl {
+      color: $color-primary;
+    }
+    .section-subtitle-xl {
+      color: $color-gray;
+    }
+    .section-description {
+      color: $color-primary;
+    }
+  }
+  // Font sizes should be in the themes ^^ 
+  /* SECTION TYPES */
+  section {
+    padding: 60px 0 80px;
+    .section-container {
+      @extend .container;
+    }
+    img {
+      @extend .img-responsive;
+    }
+  }
+  /* Top-Nav section */
+  .navbar-default {
+    background-color: #6b4fbb;
+    font-size: 16px;
+    margin: 50px 0 0 0;
+    min-height: 0;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .nav.navbar-nav {
+    margin: 0 auto;
+    display: inline-block;
+    float: none;
+    a {
+      font-size: 13px;
+      padding: 10px 25px 5px;
+      color: $color-white;
+      font-weight: 300;
+      &:hover {
+        color: $color-white-alt
+      }
+    }
+  }
+
+  /* Hero Section -- USE CONVENTIONS HERE */
+  .hero-section {
+    position: relative;
+    padding: 80px 0 160px;
+    background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg") center center no-repeat;
+    background-size: cover;
+  }
+  .hero-image-wrap {
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #34373c;
+    &:after {
+      background-image: linear-gradient(to bottom, rgba(52, 55, 60, 0.85), #34373c 85%);
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    .hero-icon {
+      z-index: 10000;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .hero-content-wrap {
+    position: relative;
+    z-index: 9;
+    padding-bottom: 30px;
+    .page-headline {
+      margin-bottom: 130px;
+      font-weight: 300;
+      text-align: center;
+      line-height: 60px;
+    }
+    .page-subtitle {}
+  }
+  /* Feature Tree */
+  .brand-primary-background-theme {
+    .feature-tree-title {
+      color: $color-secondary-alt;
+    }
+    .feature-tree-description {
+      color: $color-white;
+    }
+  }
+  .no-background-color-theme {
+    .feature-tree-title {
+      color: $color-secondary-alt;
+    }
+    .feature-tree-description {
+      color: $color-primary;
+    }
+  }
+  .feature-tree {
+    .feature-tree-row {
+      @extend .row;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .feature-tree-image-wrap {
+      @extend .col-xs-7;
+    }
+    .feature-tree-text-wrap {
+      @extend .col-xs-5;
+    }
+  }
+  /* Feature Gallery */
+  .brand-primary-background-theme {
+    .feature-gallery {
+      .feature-select-zone {
+        &.selected {
+          background: $color-gray-extra-light;
+        }
+        &:hover {
+          background: $color-gray-extra-light;
+        }
+      }
+      .feature-title {
+        color: $color-secondary-alt;
+      }
+      .feature-description {
+        color: $color-white;
+      }
+    }
+  }
+  .no-background-color-theme {
+    .feature-gallery {
+      .feature-select-zone {
+        &.selected {
+          background: lighten($color-gray-extra-light, 5%);
+        }
+        &:hover {
+          background: lighten($color-gray-extra-light, 6%);
+        }
+      }
+      .feature-title {
+        color: $color-secondary;
+      }
+      .feature-description {
+        color: $color-primary;
+      }
+    }
+  }
+  .feature-gallery {
+    margin-bottom: 40px;
+    .selected-feature-image-wrap {
+      margin-bottom: 60px;
+      @extend .row;
+      img {
+        display: none;
+        @extend .col-xs-8;
+        @extend .col-md-offset-2;
+        &.selected {
+          display: block;
+        }
+      }
+    }
+    .feature-list {
+      margin-bottom: 90px;
+      @extend .row;
+    }
+    .feature-select-zone {
+      height: 180px;
+      padding: 30px 50px;
+      @extend .col-xs-4;
+      text-align: center;
+      list-style-type: none;
+    }
+    .feature-title {
+      font-size: 24px;
+      font-weight: 300px;
+    }
+    .feature-description {
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+  /* Media object row */
+  .brand-primary-background-theme {
+    .media-heading {
+      color: $color-white;
+    }
+    .media-body {
+      color: $color-white-alt;
+    }
+    .media-object {
+      color: $color-secondary-alt;
+      fill: $color-secondary-alt;
+    }
+  }
+  .no-background-color-theme {
+    .media-heading {
+      color: $color-primary;
+    }
+    .media-body {
+      color: $blog-text-color;
+    }
+    .media-object {
+      color: $color-secondary;
+      fill: $color-secondary;
+    }
+  }
+  .feature-cluster-row {
+    @extend .row;
+    margin-top: 50px;
+    .media {
+      @extend .col-xs-4;
+    }
+    .media-left {
+      @extend .col-xs-2;
+    }
+    .media-heading {
+      margin-top: 0;
+    }
+    .media-body {
+      @extend .col-xs-10;
+    }
+    .media-object {
+      height: 32px;
+      width: 32px;
+    }
+  }
+  /* Call to action section */
+  .cta-btn {
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 60px;
+    width: 100px;
+    font-weight: 500;
+    margin: 0 auto;
+    @media (min-width: 990px) {
+      line-height: 40px;
+      padding: 0 15px;
+      font-size: 18px;
+      line-height: 48px;
+      width: 350px;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+  }
+  /* Generic components */
+  // PERHAPS ADD A FLAG TO PREVENT LOADING BOOTSTRAP
+}

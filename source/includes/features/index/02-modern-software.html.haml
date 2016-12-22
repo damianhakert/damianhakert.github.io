@@ -1,4 +1,4 @@
-.page-container.feature-gallery.text-center.animated
+%section.page-container.feature-gallery.text-center.animated.brand-primary-background-theme
   .container.titles
     %h1
       Powerful features for modern software development
@@ -34,53 +34,41 @@
                   GitLab Pages
               %p
                 Create websites for your GitLab projects, groups, or user accounts.
-    .row.features-description
-      .col-md-4
-        .col-md-1
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-01-repos")
-        .col-md-11.feature-contents
-          %h4
-            Unlimited public and private repos
-          %p
-            Create a new repo for even the smallest projects.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Unlimited public and private repos
+          Create a new repo for even the smallest projects.
+      .media
+        .media-left
           =icon("features/icon-02-project-importing")
-        .col-md-11.feature-contents
-          %h4
-            Project importing
-          %p
-            Import existing projects from GitHub, BitBucket, Google Code, Fogbugz, or any git repo with a URL.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Project importing
+          Import existing projects from GitHub, BitBucket, Google Code, Fogbugz, or any git repo with a URL.
+      .media
+        .media-left
           =icon("features/icon-03-protected-branches")
-        .col-md-11.feature-contents
-          %h4
-            Protected branches
-          %p
-            Control read/write permissions to specific branches.
-    .row.features-description.features-description-separation
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Protected branches
+          Control read/write permissions to specific branches.
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-04-wiki")
-        .col-md-11.feature-contents
-          %h4
-            Wiki
-          %p
-            Keep your documentation within the project using GitLab’s built-in wiki system.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Wiki
+          Keep your documentation within the project using GitLab’s built-in wiki system.
+      .media
+        .media-left
           =icon("features/icon-05-code-snippets")
-        .col-md-11.feature-contents
-          %h4
-            Code Snippets
-          %p
-            Collect and share reusable code.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Code Snippets
+          Collect and share reusable code.
+      .media
+        .media-left
           =icon("features/icon-06-powerful-apis")
-        .col-md-11.feature-contents
-          %h4
-            Powerful APIs
-          %p
-            Control GitLab with a set of powerful APIs.
+        .media-body
+          %h4.media-heading Powerful APIs
+          Control GitLab with a set of powerful APIs.

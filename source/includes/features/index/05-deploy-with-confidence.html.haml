@@ -1,4 +1,4 @@
-.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+%section.no-background-color-theme.page-container.feature-gallery.feature-gallery-alt.text-center.animated
   .container.titles
     %h3
       Deploy with confidence
@@ -31,29 +31,24 @@
                 Container Registry
               %p
                 An integrated private Docker Container Registry means every project can have its own space to store its Docker images.
-    .row.features-description
-      .col-md-4
-        .col-md-1
+
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-16-versioned-tests")
-        .col-md-11.feature-contents
-          %h4
-            Versioned Tests
-          %p
-            Ensure every branch gets the tests it needs by allowing your team to contribute changes to the .gitlab-ci.yml file that contains your tests.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading  Versioned Tests
+          Ensure every branch gets the tests it needs by allowing your team to contribute changes to the .gitlab-ci.yml file that contains your tests.
+      .media
+        .media-left
           =icon("features/icon-17-autoscaling")
-        .col-md-11.feature-contents
-          %h4
-            Autoscaling
-          %p
-            You can automatically spin up and down VMs to make sure your builds get processed immediately and minimize costs.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Autoscaling
+          You can automatically spin up and down VMs to make sure your builds get processed immediately and minimize costs.
+      .media
+        .media-left
           =icon("features/icon-18-jenkins")
-        .col-md-11.feature-contents
-          %h4
-            Jenkins Integration
-          %p
-            Integrate Jenkins CI, trigger a build, and see the build status on your merge request.
-/Fifth features container
+        .media-body
+          %h4.media-heading Jenkins Integration
+          Integrate Jenkins CI, trigger a build, and see the build status on your merge request.
+

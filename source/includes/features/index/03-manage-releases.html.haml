@@ -1,5 +1,5 @@
 /Second features block
-.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+%section.no-background-color-theme.page-container.feature-gallery.feature-gallery-alt.text-center.animated
   .container.titles
     %h3
       Track and manage releases
@@ -32,53 +32,42 @@
                 Todos
               %p
                 View a simple dashboard with a chronological list of todos so you know what needs your attention.
-    .row.features-description
-      .col-md-4
-        .col-md-1
+ 
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-07-issues-mr-templates")
-        .col-md-11.feature-contents
-          %h4
-            Issue and MR Templates
-          %p
-            Create templates for issues and merge requests.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Issue and MR Templates
+          Create templates for issues and merge requests.
+      .media
+        .media-left
           =icon("features/icon-08-milestones")
-        .col-md-11.feature-contents
-          %h4
-            Milestones
-          %p
-            Organize issues and merge requests into groups.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Milestones
+          Organize issues and merge requests into groups.
+      .media
+        .media-left
           =icon("features/icon-09-labels")
-        .col-md-11.feature-contents
-          %h4
-            Labels
-          %p
-            Categorize and track issues or merge requests based on descriptive titles.
-    .row.features-description.features-description-separation
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading Labels
+          Categorize and track issues or merge requests based on descriptive titles.
+    .feature-cluster-row
+      .media
+        .media-left
           =icon("features/icon-10-todos")
-        .col-md-11.feature-contents
-          %h4
-            External Services
-          %p
-            Integrate with 24 external services (such as JIRA, Slack, Asana and more) to track progress across all the tools your team uses.
-      .col-md-4
-        .col-md-1
+        .media-body
+          %h4.media-heading  External Services
+          Integrate with 24 external services (such as JIRA, Slack, Asana and more) to track progress across all the tools your team uses.
+      .media
+        .media-left
           =icon("features/icon-11-due-dates")
-        .col-md-11.feature-contents
-          %h4
-            Due dates
-          %p
-            Assign due dates to issues to make sure things get done on time.
-      .col-md-4
-        .col-md-1
-          =icon("features/icon-12-search")
-        .col-md-11.feature-contents
-          %h4
-            Powerful search
-          %p
-            Spend less time searching and more time building software.
+        .media-body
+          %h4.media-heading Due dates
+          Assign due dates to issues to make sure things get done on time.
+      .media
+        .media-left
+          =icon("features/icon-06-powerful-apis")
+        .media-body
+          %h4.media-heading Powerful search
+          Spend less time searching and more time building software.
