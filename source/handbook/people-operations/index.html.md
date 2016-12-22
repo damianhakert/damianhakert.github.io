@@ -88,7 +88,7 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
-b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages, and leave requests.
 
 This policy applies to all current employees and candidates for employment.
 

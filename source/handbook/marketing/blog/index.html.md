@@ -669,7 +669,7 @@ formatting system, check out our [Markdown Guide].
 
 Just below the frontmatter, start writing your post, including the sections as follows:
 
-- Introduction. State the problem, audience and purpose of the article.
+- Introduction. State the problem, audience, and purpose of the article.
 - Add the `<!-- more -->` separator. This is going to separate the visible part on the landing
 page <https://about.GitLab.com/blog/> from the rest of the article body.
 - Software and hardware requirements - explain what the reader needs before following your steps.

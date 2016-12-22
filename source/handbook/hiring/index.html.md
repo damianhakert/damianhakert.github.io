@@ -21,7 +21,7 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
  Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
- national origin, age, disability or genetics. One example of how put this into practice
+ national origin, age, disability, or genetics. One example of how put this into practice
  is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/)
 
  GitLab complies with all applicable laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer,
@@ -87,7 +87,7 @@ The recruiting team will **always** publicize the job through the following mean
 1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
 ### Sourcing for Open Positions
-*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
+*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
 
 
 ## Hiring Process

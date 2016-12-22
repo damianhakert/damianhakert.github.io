@@ -235,7 +235,7 @@ This also helps prevent spam from people outside GitLab requesting accessing to 
 **Video Chats**
 
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during
+1. Having pets, children, significant others, friends, and family visible during
 video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say "Hi".
 
@@ -496,8 +496,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
-    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+    *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
@@ -510,7 +510,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. As part of onboarding you will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  For step by step instructions on creating, submitting, and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
     *  If you are an employee with a company credit card, your company credit card charges will automatically be fed to a new Expensify report each month. Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
    * **Expense Policy**
       * Max Expense Amount - 5,000 USD or 5,000 EUR
@@ -598,7 +598,7 @@ To claim the approved award, include a line item on your expense report or invoi
 
 Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
 When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
-If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
+If you need to sign, fill out, send, or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
 1. Names and email addresses of those who need to sign the document.
 1. Any contractual information that needs to be included in the document.
@@ -816,7 +816,7 @@ If you are working on multiple GitLab instances and want to have a visual differ
 to be just `mary`.
 - **Note:** each GitLab account is tracked by an **userID**, which is a number stored in
 a database. If we change the username, the userID does not change. And all the
-permissions, issues, MRs and relevant stuff within GitLab are related to your
+permissions, issues, MRs, and relevant stuff within GitLab are related to your
 **userID**, not with your username.
 - **Note:** if you are not a GitLab Team member, the same process applies; except
 your e-mail ([STEP 2](#change-username-step-2)), which will be different
@@ -855,7 +855,7 @@ the same time.
 - Look for your username. This operation has to be done quickly, otherwise you are
 risking to loose your awesome new username to someone else quicker than you. We
 need to **swap** the usernames between both accounts, so you'll keep all your
-history, your privileges, issues and MRs assigned to you, etc.
+history, your privileges, issues, and MRs assigned to you, etc.
 - If you work with 2 monitors, open each browser on one monitor. If you don't,
 open them in parallel, so that you can keep an eye on both at the same time.
 - Rename your new username `mary` to something like `mary-1` and DO NOT click

@@ -43,7 +43,7 @@ This should have been created for you as an issue by PeopleOps when you were hir
 
 #### Goals
 
-- Aim to have a good overview of the Product and main features, Git and the Company
+- Aim to have a good overview of the Product and main features, Git, and the Company
 
 If you are already comfortable with using Git and GitLab and you will be able to
 retain a good amount of information by just reading and watching through, that is

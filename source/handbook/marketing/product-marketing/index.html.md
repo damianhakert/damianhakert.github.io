@@ -147,7 +147,7 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 #### **Objectives**:
 - Illustrate successful and measurable improvements in the customer’s business   
 - Show other users how customers are using GitLab 
-- Align content so that GitLab solutions reflect the challenges our customers, prospects and the market requirements
+- Align content so that GitLab solutions reflect the challenges our customers, prospects, and the market requirements
 - Develop and grow organisational relationships: speak at events on our behalf, promote their business
 - Support our value proposition - Faster from idea to production
 

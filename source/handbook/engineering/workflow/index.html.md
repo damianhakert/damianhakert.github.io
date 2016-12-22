@@ -178,7 +178,7 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 There is an informal scheduling committee that has a weekly meeting that
 discusses issues _around_ scheduling and how the process of scheduling issues
-can be improved. Actual scheduling, prioritization and others has to happen
+can be improved. Actual scheduling, prioritization, and others has to happen
 on GitLab.com and nowhere else.
 
 The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
