@@ -34,7 +34,7 @@ Always replace `marcolenzo` with your own GitLab username whenever copying a sni
 
 ## Create a Spring Boot application
 
-To bootstrap the Spring Boot application we navigate to the [Spring Initializr](https://start.spring.io) web page and generate a **Maven Project** with the pre-selected Spring Boot **Version**. [Maven](https://maven.apache.org/index.html) is a project management tool commonly used in Java projects to define dependencies and the build lifecycle. We leave `com.example` as **Group** and set `actuator-sample` as the **Artifact** name. We select the `Web` dependency, which supports full stack web development with [Tomcat](http://tomcat.apache.org/) and [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html), and the `Actuator` dependency which implements some production grade features useful for monitoring and managing our application like health-checks and HTTP requests traces.
+To bootstrap the Spring Boot application we navigate to the [Spring Initializr](https://start.spring.io) web page and generate a **Maven Project** with the pre-selected Spring Boot **Version**. [Maven](https://maven.apache.org/index.html) is a project management tool commonly used in Java projects to define dependencies and the build lifecycle. We leave `com.example` as **Group** and set `actuator-sample` as the **Artifact** name. We select the `Web` dependency, which supports full stack web development with [Tomcat](http://tomcat.apache.org/) and [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html), and the `Actuator` dependency which implements some production-grade features useful for monitoring and managing our application like health-checks and HTTP requests traces.
 
 Finally, we generate the project and a Zip file named `actuator-sample.zip` will be downloaded to our machine.
 
@@ -67,7 +67,7 @@ export JAVA_HOME=/path/to/your/java/home # e.g. /usr/lib/jvm/java-8-openjdk-amd6
 2016-12-02 22:41:14.420  INFO 10882 --- [           main] com.example.ActuatorSampleApplication    : Started ActuatorSampleApplication in 17.924 seconds (JVM running for 87.495)
 ```
 
-The application is up and running and we did not write one line of code! Spring Boot is opinionated and auto-configures the application with sane default values and beans. It also scans the classpath for known dependencies and initializes them. In our case, we immediately enjoy all the production grade services offered by [Spring Actuator](http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html).
+The application is up and running and we did not write one line of code! Spring Boot is opinionated and auto-configures the application with sane default values and beans. It also scans the classpath for known dependencies and initializes them. In our case, we immediately enjoy all the production-grade services offered by [Spring Actuator](http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html).
 
 ```shell
 ~$ curl http://localhost:8080/health
@@ -417,7 +417,7 @@ Environments are listed on a separate page, from which it is possible to redeplo
 
 ## Conclusion
 
-In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. [GitLab CI](https://about.gitlab.com/gitlab-ci/) was the core engine of our pipeline. Its declarative [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file allowed us to define, version and manage our pipelines while the GUI gave us full visibility and control.
+In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production-grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. [GitLab CI](https://about.gitlab.com/gitlab-ci/) was the core engine of our pipeline. Its declarative [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file allowed us to define, version and manage our pipelines while the GUI gave us full visibility and control.
 
 While this is a basic example, it clearly shows the immense benefits any team or company can gain by using the unified GUI of GitLab for issues, code review, CI and CD.
 
