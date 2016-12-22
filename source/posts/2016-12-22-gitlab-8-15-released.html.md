@@ -393,7 +393,7 @@ After version 9.0 is released, we plan on setting the PostgreSQL version 9.6 as
 default so please make sure that you plan your upgrade before that release.
 We're expecting to ship GitLab 9.0 on or after February 22nd.
 
-> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/maintenance/README.html#upgrade-postgresql-database)
+> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server)
 
 
 > Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
