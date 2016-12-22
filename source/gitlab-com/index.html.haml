@@ -222,19 +222,23 @@ extra_js:
             %a{name: "free-forever"}>
             Why GitLab.com will be free forever
 
-          We want GitLab.com to become the most popular service for hosting
-          projects. To achieve this goal, GitLab.com is free, both for public
-          and private projects. Unlike other companies in this space, there is
-          no limit to the number of collaborators. We think that in the future
-          most repository hosting will be free in the same way email hosting is
-          free today. So we thought, why wait? Let's make it free for everyone
-          now. Our subscriptions for GitLab EE on-premises bring in more
-          than enough revenue to pay for the hosting of GitLab.com.
-          The revenues from EE and other Products are growing fast enough to keep up
-          with the growth in GitLab.com usage.
-          We see GitLab.com as a way to make GitLab more known and popular. In the future we might
-          introduce paid features like projects sizes above 10GB and Windows/OSX CI Runners.
-          We intend to keep the features that you have now free and monetize only new features.
+            We want GitLab.com to become the most popular service for hosting
+            projects. To achieve this goal, GitLab.com is free, both for public
+            and private projects. Unlike other companies in this space, there is
+            no limit to the number of collaborators.
+
+            There are three levels of subscriptions for GitLab.com
+
+            1. Free: unlimited repo's, collaborators, 2000 build minutes, all [EE starter features](https://about.gitlab.com/products/#comparison)
+            2. Bronze: email support and unlimited build minutes, features are similar to free
+            3. Silver (future plan): includes all [EE premium features](https://about.gitlab.com/products/#comparison)
+
+            In the future we might also move the following things to a paid plan:
+
+            - Build artifact storage above a certain size (currently unlimited even in the free plan)
+            - Container images storage above a certain size (currently unlimited even in the free plan)
+            - GitLab Pages with very high traffic (currently unlimited even in the free plan)
+            - Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
 
           %h3
             = link_to('Sign Up', 'https://gitlab.com/users/sign_in', class: 'btn btn-purple')
