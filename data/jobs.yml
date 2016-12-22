@@ -76,6 +76,11 @@
   apply: 
   open: false
 
+- title: "Frontend Lead"
+  description: /jobs/frontend-lead/
+  apply: https://gitlab.workable.com/jobs/XXXXX/candidates/new
+  open: true
+
 - title: "Support Lead"
   description: /jobs/support-lead/
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
