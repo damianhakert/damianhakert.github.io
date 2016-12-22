@@ -386,7 +386,7 @@ upgrades between major releases require downtime and the use of the `pg_upgrade`
 For this purpose, we are packaging the newest available PostgreSQL version (9.6.1).
 We are also introducing `gitlab-ctl pg-upgrade` tool which should make this
 transition as painless as possible.
-When upgrading to GitLab 8.14, this *action will not be run automatically*.
+When upgrading to GitLab 8.15, this *action will not be run automatically*.
 This will allow you to plan the database upgrade downtime.
 
 After version 9.0 is released, we plan on setting the PostgreSQL version 9.6 as
