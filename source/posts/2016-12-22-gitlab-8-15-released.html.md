@@ -39,7 +39,7 @@ And lastly, we want to thank Elan Ruusamäe and Dirk Hörner for their
 contributions in technical design and implementation that have given super
 powers to Git Hooks.
 
-Thanks Warren, Michael, Elan and Dirk!
+Thanks Warren, Michael, Elan, and Dirk!
 
 <!--more-->
 
@@ -69,6 +69,8 @@ package your application into a Docker Image that then is deployed to
 Kubernetes on Openshift. We want to add support for more container
 schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker
 Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
+
+> See [the Autodeploy documentation](https://docs.gitlab.com/ce/ci/autodeploy/index.html) for more information.
 
 ## Web Terminal
 
