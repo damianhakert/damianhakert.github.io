@@ -92,7 +92,7 @@ In the demonstration at [5:18](https://youtu.be/m0nYHPue5RU?t=318) we show you
 give you a quick peek at the web terminal. We can't wait to see how you'll
 use it to speed up your workflow.
 
-> [Documentation link](link)
+> See the [administrator](https://docs.gitlab.com/ce/administration/integration/terminal.html) and [environments](https://docs.gitlab.com/ce/ci/environments.html#terminal-support) documentation on the web terminal
 
 ## Improved Bitbucket Importer
 
