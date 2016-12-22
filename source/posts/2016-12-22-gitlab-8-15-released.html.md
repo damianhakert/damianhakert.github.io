@@ -16,11 +16,11 @@ With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
 Ruby on Rails project, this brings setup time to under a minute.
 
 Plus, to make accessing your environments easier and faster, you can now
-access them directly through a terminal in GitLab (show in the video at [xx:xx]()).
+access them directly through a terminal in GitLab (shown in the video at [xx:xx]()).
 
 We want to give the power of containers, continuous integration and deployment,
-review apps and container schedulers to everyone. GitLab 8.15, we
-take away all the hard work, without hiding anything.
+review apps and container schedulers to everyone. With GitLab 8.15, we
+take away all the hard work without hiding anything.
 
 And the hard work shouldn't even include setting up GitLab. [See below]() for
 the full video, in which we install GitLab and ship a full app, from idea to
@@ -44,7 +44,7 @@ Thanks Warren, Michael, Elan and Dirk!
 
 We want everyone to quickly get a fully functioning CI/CD pipeline that deploys
 to a container scheduler. It shouldn't require any effort to get started,
-but also be scalable and not hide any of the magic.
+but should also be scalable and not hide any of the magic.
 
 Auto Deploy does this. Auto Deploy adds a single button to your project,
 that when clicked, will create a merge request with a template that will
@@ -76,7 +76,7 @@ Working together with your container scheduler, GitLab happily spins up several
 or a staging or production environment.
 Traditionally, getting direct access to these environments has been a little
 painful. And that's a shame: it's very useful to quickly try something in a
-live environment, be it to debug a problem or just to experiment.
+live environment to debug a problem, or just to experiment.
 
 With the web terminal, this has become extremely easy. Just visit the
 environments page in your project and click on the terminal button.
@@ -152,22 +152,6 @@ per user. This should make it easier to manage complex permissions across
 groups and projects.
 
 ![Override LDAP permissions in GitLab 8.15 EE](/images/8_15/ldap_overrides.gif)
-
-## Remove approval from merge request (EE)
-
-Merge request approvals allow you to set a required number of approvals from
-people other than the author, before a merge request can be merged.
-This is super useful for strict control of what code lands in your important
-branches.
-
-You can now remove your approval from a merge request, after you have approved
-it. This means that if you notice a problem during code review or another reviewer points one out, you can remove your approval that you previously gave.
-
-![Remove Approvals in GitLab 8.15 EE](/images/8_15/remove_approval.png)
-
-This encourages collaboration, since you can use both your approval and removal of it to give richer feedback to the author of a merge request. And you can be confident in approving merge requests, without worrying that you are stuck with it if new information arises.
-
-Note that you can only remove your own approval that you have already given. (You can't give a negative signal.) Also, once a merge request has the minimum number of approvals required, it is unlocked and ready to be merged (provided all the other necessary conditions are met). This is the same behavior as before.
 
 ## Diff in Notification Emails
 
@@ -323,14 +307,14 @@ the last activity timestamp of every user on the instance.
 
 ## Sort Project and Group members
 
-You can now find people in projects and groups easier by sorting them according
+You can now find people in projects and groups more easily by sorting them
 by name, access level and date of joining.
 
 ![Easily find people in projects and groups in GitLab 8.15](/images/8_15/sort_members.png)
 
 ## API Changes
 
-Every month we make many additions to our API, here's the highlights
+Every month we make many additions to our API. Here are the highlights
 for GitLab 8.15:
 
 - Allow some Project API GET endpoints to be requested anonymously
@@ -350,8 +334,8 @@ for GitLab 8.15:
 
 ### PostgreSQL version upgrade
 
-Starting with GitLab 8.14 omnibus-gitlab package, we are providing a way to
-upgrade the PostgreSQL database version.
+Starting last month with GitLab 8.14 omnibus-gitlab package, we are providing a
+way to upgrade the PostgreSQL database version.
 
 The current version of PostgreSQL we are packaging (9.2.18) is slowly
 approaching its EOL. Due to the [PostgreSQL versioning policy](https://www.postgresql.org/support/versioning/),
@@ -377,20 +361,48 @@ and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab
 
 GitLab CE:
 
-* Retrieving commit counts has been improved for certain cases: [7668](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7668)
-* Polling intervals have been adjusted to reduce system load: [7762](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7762)
-* Refreshing authorized projects is done in a smarter way to reduce database load: [7956](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7956)
-* The most recent commit ID for a path is now cached: [8098](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8098)
+* Retrieving commit counts has been improved for certain cases: [!7668](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7668)
+* Polling intervals have been adjusted to reduce system load: [!7762](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7762)
+* Refreshing authorized projects is done in a smarter way to reduce database load: [!7956](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7956)
+* The most recent commit ID for a path is now cached: [!8098](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8098)
 
 GitLab EE:
 
-GitLab EE now ships with a command called `sidekiq-cluster`. This command can be used to start extra Sidekiq workers that process only a limited number of queues. This feature can be used to process queues that receive a lot of jobs, without it affecting other parts of Sidekiq. This was added in ![922](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/922).
+GitLab EE now ships with a command called `sidekiq-cluster`. This command can be used to start extra Sidekiq workers that process only a limited number of queues. This feature can be used to process queues that receive a lot of jobs, without it affecting other parts of Sidekiq. This was added in [922](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/922).
 
 This command is not yet used by Omnibus, our goal is to add this in 8.16.
 
+## GitLab Runner 1.9
+
+We are also releasing GitLab Runner 1.9 today. Some highlights:
+
+- Add a retry mechanism to prevent failed clones in builds [!399](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/399)
+- Add Kubernete Node Selector [!328](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/328)
+- Push prebuilt images to dockerhub [!420](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/420)
+- Add path and share cache settings for S3 cache [!423](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/423)
+- Split prepare stage to be: prepare, git_clone, restore_cache, download_artifacts [!406](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/406)
+- Introduce docker.Client timeouts [!411](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/411)
+- Allow network-sourced variables to specify that they should be files [!413](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/413)
+- Fix docker hanging for docker-engine 1.12.4 [!415](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/415)
+- Add pprof HTTP endpoints to metrics server [!398](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/398)
+- Add a multiple prometheus metrics: [!401](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/401)
+
+To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/v1.9.0/CHANGELOG.md).
+
+## GitLab Mattermost 3.5.1
+
+GitLab 8.15 includes [Mattermost 3.5.1](https://about.mattermost.com/), an open
+source Slack-alternative providing workplace messaging for web, PC and phone
+with archiving and search. Improvements this month include new [Xen Orchestra and Homebrew integrations, plus upgraded Desktop Apps for Windows, Mac and Linux](https://about.mattermost.com/mattermost-december-2016-update/).
+
+This version includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
+
+Mattermost 3.5.1 was included in GitLab 8.14.1, so anyone on GitLab 8.14.1 or
+later should have the patch already.
+
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out
+This release has more improvements. Please check out
 [the changelog] to see all the named changes.
 
 [the changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
