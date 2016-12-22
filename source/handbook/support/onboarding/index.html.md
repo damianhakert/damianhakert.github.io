@@ -303,7 +303,7 @@ Every now and then, a GitLab team member will forward a support request from a c
 As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account.
 This can be used for testing and to reproduce customer problems. Please consider the following when using this account:
 
-+ Do not destroy, stop or modify droplets that you haven't created
++ Do not destroy, stop, or modify droplets that you haven't created
 + Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
 + Use resources sparingly and remove droplets that have served a purpose and are no longer in use
 + Do not create droplets unrelated to GitLab (personal projects)
@@ -346,7 +346,7 @@ If after another 10 minutes you don't get answer, go ahead and re-schedule.
 If a call takes too long (> 1 hour), and/or if you're not making progress, discuss with the customer the need to re-schedule.
 
 + If you were having problems helping the customer, make sure to contact a teammate to join you on the re-scheduled call (Call Escalation)
-+ If the customer had problems either with their setup, environment or connectivity, remember him to solve them before the new
++ If the customer had problems either with their setup, environment, or connectivity, remember him to solve them before the new
 call when re-scheduling.
 
 ### After a Call

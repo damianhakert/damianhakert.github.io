@@ -61,7 +61,7 @@ GitLab's expectations for managers:
 
 ## Grovo
 
-[Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
+[Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet, or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
 
 ### What is Microlearning?
 

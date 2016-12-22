@@ -16,7 +16,7 @@ category: General
 
 ### Scheduled calls
 
-We offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
+We offer intake, upgrade, and installation support for our customers. When these requests come in, you will schedule
 a call/screen sharing session with them and either guide them through the upgrade process or take control of the
 server yourself. You should make sure that the customer has a backup before you start the call, as they can take
 a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as

@@ -71,7 +71,7 @@ A few things are important in this section:
 
 #### Gifox (macOS)
 
-[Gifox](http://gifox.io/) is the absolute best option here, although a payed app, its reasonably priced ($2.99). It has support for all of the features, shortcuts and then some.
+[Gifox](http://gifox.io/) is the absolute best option here, although a payed app, its reasonably priced ($2.99). It has support for all of the features, shortcuts, and then some.
 
 Worthy of mentioning:
 

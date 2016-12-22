@@ -43,7 +43,7 @@ with strict Federal security requirements
 
 •	Standardize companywide on a Git-based Version Control System
 
-•	Improved Control, Visibility, Manageability and Reporting
+•	Improved Control, Visibility, Manageability, and Reporting
 
 •	Better User and Group Management
 
@@ -53,7 +53,7 @@ with strict Federal security requirements
 
 •	Since multiple vendors are used, Your Company has issues with manageability,
 
-control, visibility and reporting of the different systems being used.
+control, visibility, and reporting of the different systems being used.
 
 •	Challenge 2
 
@@ -65,7 +65,7 @@ Your Comapny is looking to standardize on one Git-based solution which will be u
 
 companywide. Currently there are number of different solutions in place and this
 
-makes managing, controlling and reporting on the disparate systems difficult.
+makes managing, controlling, and reporting on the disparate systems difficult.
 
 
 #### OBJECTIVE OF THE TRIAL

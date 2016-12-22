@@ -318,7 +318,7 @@ Select next or save (if you select save, it will hold your information)
     * Workers compensation- select unknown and it will default to our principle class code for our industry
 Window: Describe employees job duties - simple description
 
-After submission -  you will receive a prompt for final submission, select and submit.
+After submission -  you will receive a prompt for final submission, select, and submit.
 
 Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue.
 
@@ -359,7 +359,7 @@ You can also follow the same process for assigning a role to a GitLab Inc. emplo
 1. Click Find Location.
 1. When search field appears, leave blank and click Search.
 1. Click on Add location.
-1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
+1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state, and zip.
 1. Click Add.
 
 ##### Transfer Employee to Different Location
