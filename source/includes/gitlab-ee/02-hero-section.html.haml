@@ -1,13 +1,19 @@
-%section.hero-section
-  .hero-image-wrap
-    // Contains images
-    %img.img-responsive.img-responsive.img-responsive.img-responsive.img-responsive{src: '/images/gitlab_ee/hero/ee-standalone-hero-2x.png'}
+.hero-section.landing-container
   .container.hero-content-wrap
     %h1.page-headline
       GitLab Enterprise Edition helps large teams innovate faster without compromising security or quality.
     %h2.page-subtitle
-    .icons-wrap-better-name
-      %img.img-responsive{src: '/images/gitlab_ee/hero/hero-icons.svg'}
+    .dev-cycle.hidden-xs.hidden-sm
+      - data.development_cycle.each_with_index do |item, index|
+        .step
+          = icon("home/icon-step-#{index + 1}")
+          .step-name-container
+            .step-name
+              #{item[:name]}
+          - if index < data.development_cycle.length - 1
+            .arrows
+              %i.fa.fa-angle-double-right
+
 
 
 

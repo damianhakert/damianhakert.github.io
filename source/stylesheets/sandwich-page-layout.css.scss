@@ -64,7 +64,6 @@
       color: $color-primary;
     }
   }
-
   /* SECTION TYPES */
   section {
     padding: 60px 0 80px;
@@ -93,13 +92,15 @@
       }
     }
   }
-
   /* Hero Section */
   .hero-section {
     position: relative;
     padding: 80px 0 160px;
     background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg") center center no-repeat;
     background-size: cover;
+    @media(max-width: $screen-sm-max) {
+      padding: 80px 0 0;
+    }
   }
   .hero-image-wrap {
     position: absolute;
@@ -211,9 +212,13 @@
     }
     .feature-list {
       margin-bottom: 90px;
+      padding: 0 20px;
+      @media(max-width: $screen-sm-max) {
+        margin-bottom: 0;
+      }
     }
     .feature-select-zone {
-      height: 180px;
+      max-height: 180px;
       padding: 30px 50px;
       text-align: center;
       list-style-type: none;
@@ -227,7 +232,7 @@
       font-weight: 300;
     }
   }
-  /* Media object row */
+  /* Feature Cluster Row */
   .brand-primary-background-theme {
     .media-heading {
       color: $color-white;
@@ -254,6 +259,11 @@
   }
   .feature-cluster-row {
     margin-top: 50px;
+    .media {
+      @media(max-width: $screen-sm-max) {
+        height: 100px;
+      }
+    }
     .media-heading {
       margin-top: 0;
     }
@@ -267,19 +277,7 @@
     padding: 0 15px;
     font-size: 18px;
     line-height: 60px;
-    width: 100px;
     font-weight: 500;
-    margin: 0 auto;
-    @media (min-width: 990px) {
-      line-height: 40px;
-      padding: 0 15px;
-      font-size: 18px;
-      line-height: 48px;
-      width: 350px;
-      font-weight: bold;
-      margin-top: 25px;
-    }
+    margin: 40px auto 0;
   }
-  /* Generic components */
-  // PERHAPS ADD A FLAG TO PREVENT LOADING BOOTSTRAP
 }

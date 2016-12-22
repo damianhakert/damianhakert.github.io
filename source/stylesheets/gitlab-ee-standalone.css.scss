@@ -1,19 +1,74 @@
-@import "vendor/bootstrap/bootstrap";
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
+body {
+  padding-top: 0;
+}
 
 .gitlab-ee-standalone {
-  .icons-wrap-better-name {}
-  
-  .container {}
+  .landing-container {
+    background: url("/images/gitlab_ee/hero/ee-standalone-hero-2x.png") center center no-repeat;
+    background-size: cover;
+    background-color: #34373c;
+    &:after {
+      background-image: linear-gradient(to bottom, rgba(52, 55, 60, 0.85), #34373c 85%);
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  .dev-cycle {
+    text-align: center;
+    .step-name-container {
+      position: absolute;
+      left: 50%;
+      .step-name {
+        position: relative;
+        left: -50%;
+      }
+    }
+    svg {
+      height: 46px;
+      width: 46px;
+      path {
+        fill: $color-secondary;
+      }
+    }
+    .step {
+      width: 46px;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+      color: $color-secondary;
+      .step-name {
+        text-transform: uppercase;
+      }
+    }
+    .arrows {
+      position: absolute;
+      top: 25px;
+      right: -25px;
+      i {
+        color: $color-secondary;
+      }
+    }
+  }
   .contact-sales {
     text-align: center;
     border-bottom: 1px solid $border-color;
   }
   .top-reasons {
     text-align: center;
+    .media {
+      @media(max-width: $screen-sm-max) {
+        text-align: left;
+      }
+    }
   }
-  .image-row { // name orgs-row or something
+  .orgs-row {
+    // name orgs-row or something
     text-align: center;
     margin-bottom: 20px;
     svg {
