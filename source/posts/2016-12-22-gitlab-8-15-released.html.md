@@ -1,6 +1,6 @@
 ---
 title: "GitLab 8.15 Released with Auto Deploy and Web Terminal"
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_15/pic.jpg
