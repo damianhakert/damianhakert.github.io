@@ -1,41 +1,41 @@
 %section.os-principles.no-background-color-theme
-  .section-container
+  .container
     %h2.section-title-xl Open source principles meet enterprise software.
-    %h3.section-subtitle-xl Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that yourteam needs.
+    %h3.section-description-xl Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that yourteam needs.
     %h2.section-title Work better together
     %p.section-description Let developers contribute ideas and work in parallel with built-in issue trackers, merge requests (MR), and powerful diff tools.
-    .feature-gallery.js-feature-preview-selector
-      .selected-feature-image-wrap.js-selected-feature-image-wrap
-        %img.selected{src: "/images/gitlab_ee/screenshots/01-issue-weights.png", :alt => "Issue weights preview", data: { 'feature-id' => 'weights'}}
-        %img{src: "/images/gitlab_ee/screenshots/02-time-tracking.png", :alt => "Time tracking preview", data: { 'feature-id' => 'timetracking'}}
-        %img{src: "/images/gitlab_ee/screenshots/03-merge-request-approvals.png", :alt => "Merge request approvals preview", data: { 'feature-id' => 'locking'}}
-      %ul.feature-list.js-select-zone-wrap
-        %li.feature-select-zone.selected{ data: { 'feature-id' => 'weights'}}
+    .feature-gallery.js-feature-gallery
+      .selected-feature-image-wrap.row.js-selected-feature-image-wrap
+        %img.img-responsive.selected.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/01-issue-weights.png", :alt => "Issue weights preview", data: { 'feature-id' => 'weights'}}
+        %img.img-responsive.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/02-time-tracking.png", :alt => "Time tracking preview", data: { 'feature-id' => 'timetracking'}}
+        %img.img-responsive.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/03-merge-request-approvals.png", :alt => "Merge request approvals preview", data: { 'feature-id' => 'locking'}}
+      %ul.feature-list.row.js-select-zone-wrap
+        %li.feature-select-zone.col-xs-4.selected{ data: { 'feature-id' => 'weights'}}
           %h4.feature-title Issue Weights
           %p.feature-description Communicate an issue’s complexity or value to your team.
-        %li.feature-select-zone{ data: { 'feature-id' => 'timetracking'}}
+        %li.feature-select-zone.col-xs-4{ data: { 'feature-id' => 'timetracking'}}
           %h4.feature-title Time tracking
           %p.feature-description Manage your projects effectively by tracking estimated and actual time spent.
-        %li.feature-select-zone{ data: { 'feature-id' => 'locking'}}
+        %li.feature-select-zone.col-xs-4{ data: { 'feature-id' => 'locking'}}
           %h4.feature-title File locking
           %p.feature-description Lock any ﬁle or directory to avoid merge conflicts and better manage your text and binary files.
-    .feature-cluster-row
-      .media
-        .media-left{:href => "#"}
+    .feature-cluster-row.row
+      .media.col-xs-4
+        .media-left.col-xs-2
           = icon "gitlab-ee/icons/4-issue-board-icon", "media-object"
-        .media-body
+        .media-body.col-xs-10
           %h4.media-heading Issue Boards
           Plan, organize and visualize your release with multiple issue boards per project.
-      .media
-        .media-left{:href => "#"}
+      .media.col-xs-4
+        .media-left.col-xs-2
           = icon "gitlab-ee/icons/5-file-lock-icon", "media-object"
-        .media-body
+        .media-body.col-xs-10
           %h4.media-heading Merge request approvals
           Keep code quality high and set a number of required approvals before code can be merged.
-      .media
-        .media-left{:href => "#"}
+      .media.col-xs-4
+        .media-left.col-xs-2
           = icon "gitlab-ee/icons/6-search-icon", "media-object"
-        .media-body
+        .media-body.col-xs-10
           %h4.media-heading Global code search
           Increase discovery and code reuse. Search through all code on the server.
 

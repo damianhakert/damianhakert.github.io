@@ -1,19 +1,19 @@
 %section.faster-iteration.no-background-color-theme
-  .section-container
+  .container
     %h2.section-title Iterate faster than your competition
     %p.section-description Move faster from idea to production with built-in workﬂow best practices.
-    .feature-gallery.js-feature-preview-selector
-      .selected-feature-image-wrap.js-selected-feature-image-wrap
-        %img.selected{src: "/images/gitlab_ee/screenshots/07-gitlab-ci.png", :alt => "GitLab CI preview", data: { 'feature-id' => 'ci'}}
-        %img{src: "/images/gitlab_ee/screenshots/08-review-apps.png", :alt => "Deploys preview", data: { 'feature-id' => 'deploys'}}
-        %img{src: "/images/gitlab_ee/screenshots/09-pipeline-graph.png", :alt => "Pipeline graph preview", data: { 'feature-id' => 'pipeline'}}
-      %ul.feature-list.js-select-zone-wrap
-        %li.feature-select-zone.selected{ data: { 'feature-id' => 'ci'}}
+    .feature-gallery.js-feature-gallery
+      .selected-feature-image-wrap.row.js-selected-feature-image-wrap
+        %img.img-responsive.selected.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/07-gitlab-ci.png", :alt => "GitLab CI preview", data: { 'feature-id' => 'ci'}}
+        %img.img-responsive.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/08-review-apps.png", :alt => "Deploys preview", data: { 'feature-id' => 'deploys'}}
+        %img.img-responsive.col-xs-8.col-md-offset-2{src: "/images/gitlab_ee/screenshots/09-pipeline-graph.png", :alt => "Pipeline graph preview", data: { 'feature-id' => 'pipeline'}}
+      %ul.feature-list.row.js-select-zone-wrap
+        %li.feature-select-zone.col-xs-4.selected{ data: { 'feature-id' => 'ci'}}
           %h4.feature-title GitLab CI
           %p.feature-description  Run tests on every merge request and merge with conﬁdence.
-        %li.feature-select-zone{ data: { 'feature-id' => 'deploys'}}
+        %li.feature-select-zone.col-xs-4{ data: { 'feature-id' => 'deploys'}}
           %h4.feature-title Manual or automatic deploys
           %p.feature-description Deﬁne your CI/CD Pipeline and deploy cha nges on your terms.
-        %li.feature-select-zone{ data: { 'feature-id' => 'pipeline'}}
+        %li.feature-select-zone.col-xs-4{ data: { 'feature-id' => 'pipeline'}}
           %h4.feature-title Pipeline Graph
           %p.feature-description Visualize your pipelines and easily ﬁx anything that fails.

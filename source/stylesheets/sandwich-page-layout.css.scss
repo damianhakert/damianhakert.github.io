@@ -1,6 +1,5 @@
 /* Reusable styles for 'sandwich'-like layouts, as seen on /features and /gitlab-ee */
 
-@import "vendor/bootstrap/bootstrap";
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 
@@ -65,16 +64,10 @@
       color: $color-primary;
     }
   }
-  // Font sizes should be in the themes ^^ 
+
   /* SECTION TYPES */
   section {
     padding: 60px 0 80px;
-    .section-container {
-      @extend .container;
-    }
-    img {
-      @extend .img-responsive;
-    }
   }
   /* Top-Nav section */
   .navbar-default {
@@ -91,17 +84,17 @@
     display: inline-block;
     float: none;
     a {
-      font-size: 13px;
+      font-size: 15px;
       padding: 10px 25px 5px;
       color: $color-white;
-      font-weight: 300;
+      font-weight: bold;
       &:hover {
         color: $color-white-alt
       }
     }
   }
 
-  /* Hero Section -- USE CONVENTIONS HERE */
+  /* Hero Section */
   .hero-section {
     position: relative;
     padding: 80px 0 160px;
@@ -162,17 +155,10 @@
   }
   .feature-tree {
     .feature-tree-row {
-      @extend .row;
       display: flex;
       justify-content: start;
       align-items: center;
       margin-top: 50px;
-    }
-    .feature-tree-image-wrap {
-      @extend .col-xs-7;
-    }
-    .feature-tree-text-wrap {
-      @extend .col-xs-5;
     }
   }
   /* Feature Gallery */
@@ -216,11 +202,8 @@
     margin-bottom: 40px;
     .selected-feature-image-wrap {
       margin-bottom: 60px;
-      @extend .row;
       img {
         display: none;
-        @extend .col-xs-8;
-        @extend .col-md-offset-2;
         &.selected {
           display: block;
         }
@@ -228,12 +211,10 @@
     }
     .feature-list {
       margin-bottom: 90px;
-      @extend .row;
     }
     .feature-select-zone {
       height: 180px;
       padding: 30px 50px;
-      @extend .col-xs-4;
       text-align: center;
       list-style-type: none;
     }
@@ -272,19 +253,9 @@
     }
   }
   .feature-cluster-row {
-    @extend .row;
     margin-top: 50px;
-    .media {
-      @extend .col-xs-4;
-    }
-    .media-left {
-      @extend .col-xs-2;
-    }
     .media-heading {
       margin-top: 0;
-    }
-    .media-body {
-      @extend .col-xs-10;
     }
     .media-object {
       height: 32px;
