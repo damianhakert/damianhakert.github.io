@@ -163,20 +163,33 @@ Let’s create a new team.
 
 TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
 
-> * Create a new team: tanuki. Press Next. Press Finish.
+> * Create a new team: firstname-tanuki. Press Next. Press Finish. Press Skip tutorial
 
-And create a channel for our project.
+Now we have to enable Mattermost Command project service in GitLab.
 
-> * Create a new channel by clicking the + icon in the sidebar: firstname-www. Press 'Create new channel'
+> * Go back to GitLab
+> * Settings -> Services -> Mattermost Command
+> * Click Add to Mattermost
+> * Select team "firstname-tanuki"
+> * Click Install
 
-This channel is where the team would discuss the project and come up with great ideas for such as “Let’s improve the homepage!”.
+Next it is time to finish the configuration on the Mattermost side.
+
+> * Go back to Mattermost
+> * Type `/firstname-www help`
+> * Click link "connect your GitLab account" (opens GitLab)
+> * Click Authorize
+> * Go back to Mattermost
+> * Type `/firstname-www help` again
+
+The chat is where the team would discuss the project and come up with great ideas for it such as “Let’s improve the homepage!”.
 
 > * Type: Let's improve the homepage!
 
 When a great idea does come along, it would be such a waste to let it die in a chat room. Let's act on it, and turn it into a new issue, right from the chat interface.
 
 > ```
-> /issue create Make homepage more descriptive
+> /firstname-www issue new Make homepage more descriptive
 > SHIFT ENTER
 > Currently it is just Hello World.
 > ```
