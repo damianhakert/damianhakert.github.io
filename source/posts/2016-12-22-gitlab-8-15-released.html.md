@@ -417,6 +417,7 @@ We are also releasing GitLab Runner 1.9 today. Some highlights:
 - Add a retry mechanism to prevent failed clones in builds [!399](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/399)
 - Add Kubernete Node Selector [!328](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/328)
 - Push prebuilt images to dockerhub [!420](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/420)
+- Use prebuilt containers with Kubernetes executor [!425](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/425)
 - Add path and share cache settings for S3 cache [!423](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/423)
 - Split prepare stage to be: prepare, git_clone, restore_cache, download_artifacts [!406](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/406)
 - Introduce docker.Client timeouts [!411](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/411)
