@@ -3,7 +3,7 @@ title: "GitLab 8.15 Released with Auto Deploy and Web Terminal"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_15/pic.jpg
 ---
 
 With this last release of the year, we're not only completing our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/), but we
@@ -61,7 +61,11 @@ to collaborate and iterate on.
 See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
 in GitLab 8.15.
 
-For this first iteration, we ship Auto Deploy with a template for deploying to OpenShift. You can use any Heroku buildpack to create the Docker image (thanks to [Herokuish](https://github.com/gliderlabs/herokuish)) or provide your own Dockerfile. We want to add support for more container schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker Swarm). Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
+For this first iteration, we ship Auto Deploy with a template for deploying to an external OpenShift cluster. You can use any Heroku buildpack to create the
+Docker image (thanks to [Herokuish](https://github.com/gliderlabs/herokuish))
+or provide your own Dockerfile. We want to add support for more container
+schedulers and cloud platforms later (vanilla Kubernetes cluster, Mesos, Docker Swarm).
+Contributions are very welcome in [our template repository](https://gitlab.com/gitlab-org/gitlab-ci-yml).
 
 > [Documentation link](link)
 
@@ -84,12 +88,12 @@ to quickly try out some changes.
 
 > [Documentation link](link)
 
-## Improved BitBucket Importer
+## Improved Bitbucket Importer
 
-Importing from BitBucket has become even more powerful. With GitLab 8.15 we'll
+Importing from Bitbucket has become even more powerful. With GitLab 8.15 we'll
 also import all pull requests as individual merge requests plus pull
-request comments, milestones and the wiki from BitBucket.
-That makes the things we import from any BitBucket project:
+request comments, milestones and the wiki from Bitbucket.
+That makes the things we import from any Bitbucket project:
 
 - Repository description
 - Git repository
@@ -101,7 +105,7 @@ That makes the things we import from any BitBucket project:
 When importing a project all references to pull requests and issues are
 preserved and so is the access level (public/private).
 
-[Read the docs on the BitBucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
+[Read the docs on the Bitbucket importer](https://docs.gitlab.com/ce/workflow/importing/import_projects_from_bitbucket.html)
 
 ## Global Git Hooks
 
@@ -133,6 +137,21 @@ what happens when a commit is about to land in your GitLab project.
 For more information, see the [custom git hooks documentation](https://docs.gitlab.com/ce/administration/custom_hooks.html#chained-hooks-support).
 
 Thanks to both Elan Ruusamäe and Dirk Hörner for both helping to define Global Git Hooks and this feature, and providing the implementation!
+
+## LDAP Group membership overrides (EE)
+
+In GitLab EE, you can sync any LDAP group with any GitLab group and give
+everyone automatically a certain permission. For instance, you
+can give everyone in the LDAP group `developers` the `Developer`
+permission level. New developers just have to be added to the LDAP
+group and GitLab will take care of giving them access automatically.
+
+With GitLab 8.15, this has become even more powerful. In addition to the
+automatically synced permissions, you can now override this permission
+per user. This should make it easier to manage complex permissions across
+groups and projects.
+
+![Override LDAP permissions in GitLab 8.15 EE](/images/8_15/ldap_overrides.gif)
 
 ## Remove approval from merge request (EE)
 
@@ -195,7 +214,7 @@ even more consistent in further iterations.
 
 Build scrolling and loading works and looks quite a bit better now:
 
-![Improved Build Scrolling and Loading in GitLab 8.15](/images/8_15/build_scroll.png)
+![Improved Build Scrolling and Loading in GitLab 8.15](/images/8_15/build_scroll.gif)
 
 ### Smaller page size
 
@@ -216,7 +235,6 @@ see where we've placed new empty states and feel free to suggest new ones!
 ### Other changes and tweaks
 
 - Improved accessibility by adding a focus state to dropdown options
-![Improved dropdown menus in GitLab 8.15](/images/8_15/dropdown.png)
 - Added hover states to our primary navigation and tabs throughout the site.
 - Improved hover, focus, and active states for buttons [!7797](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7797)
 - Added hover states to collapsed items with the issues/mr's sidebar [!7777](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7777)
@@ -359,10 +377,10 @@ and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab
 
 GitLab CE:
 
-* Retrieving commit counts has been improved for certain cases: ![7668](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7668)
-* Polling intervals have been adjusted to reduce system load: ![7762](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7762)
-* Refreshing authorized projects is done in a smarter way to reduce database load: ![7956](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7956)
-* The most recent commit ID for a path is now cached: ![8098](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8098)
+* Retrieving commit counts has been improved for certain cases: [7668](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7668)
+* Polling intervals have been adjusted to reduce system load: [7762](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7762)
+* Refreshing authorized projects is done in a smarter way to reduce database load: [7956](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7956)
+* The most recent commit ID for a path is now cached: [8098](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8098)
 
 GitLab EE:
 
