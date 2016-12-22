@@ -1,4 +1,10 @@
 %ul.nav.navbar-nav.animated
+  %li.visible-xs-block
+    %a.sign-in-up-btn{href: "https://gitlab.com/users/sign_in"}
+      Sign In
+  %li.visible-xs-block
+    %a.sign-in-up-btn.is-last{href: "https://gitlab.com/users/sign_in"}
+      Sign Up
   %li{class: ("active" if current_page.url == "/downloads/")}
     %a{href: "/downloads"}
       Download
@@ -26,9 +32,9 @@
   %li.hidden-xs
     %button.search-icon.js-search-toggle{ type: "button", "aria-label" => "Search" }
       %i.fa.fa-search
-  %li
+  %li.hidden-xs
     %a.sign-in-up-btn{href: "https://gitlab.com/users/sign_in"}
       Sign In
-  %li
+  %li.hidden-xs
     %a.sign-in-up-btn.is-last{href: "https://gitlab.com/users/sign_in"}
       Sign Up
