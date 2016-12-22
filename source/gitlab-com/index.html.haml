@@ -219,26 +219,31 @@ extra_js:
         .col-xs-1.col-md-1
         .col-xs-12.col-md-9
           %h2#why-gitlab-com-will-be-free-forever
-            %a{name: "free-forever"}>
+            %a{name: "free-forever"}
             Why GitLab.com will be free forever
 
-            We want GitLab.com to become the most popular service for hosting
-            projects. To achieve this goal, GitLab.com is free, both for public
-            and private projects. Unlike other companies in this space, there is
-            no limit to the number of collaborators.
+          We want GitLab.com to become the most popular service for hosting projects. To achieve this goal, GitLab.com is free, both for public
+          and private projects. Unlike other companies in this space, there is
+          no limit to the number of collaborators.
 
-            There are three levels of subscriptions for GitLab.com
+          %p There are three levels of subscriptions for GitLab.com:
 
-            1. Free: unlimited repo's, collaborators, 2000 build minutes, all [EE starter features](https://about.gitlab.com/products/#comparison)
-            2. Bronze: email support and unlimited build minutes, the same features as the free plan
-            3. Silver (future plan): includes all [EE premium features](https://about.gitlab.com/products/#comparison)
+          %ol
+            %li
+              Free: unlimited repo's, collaborators, 2000 build minutes, all
+              %a{href: "https://about.gitlab.com/products/#comparison"} EE starter features
+            %li Bronze: email support and unlimited build minutes, the same features as the free plan
+            %li
+              Silver: (future plan) includes all
+              %a{href: "https://about.gitlab.com/products/#comparison"} EE premium features
 
-            In the future we might also move the following things to a paid plan:
+          %p In the future we might also move the following things to a paid plan:
 
-            - Build artifact storage above a certain size (currently unlimited even in the free plan)
-            - Container images storage above a certain size (currently unlimited even in the free plan)
-            - GitLab Pages with very high traffic (currently unlimited even in the free plan)
-            - Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
+          %ul
+            %li Build artifact storage above a certain size (currently unlimited even in the free plan)
+            %li Container images storage above a certain size (currently unlimited even in the free plan)
+            %li GitLab Pages with very high traffic (currently unlimited even in the free plan)
+            %li  Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
 
           %h3
             = link_to('Sign Up', 'https://gitlab.com/users/sign_in', class: 'btn btn-purple')
