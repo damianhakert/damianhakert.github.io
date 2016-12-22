@@ -182,7 +182,7 @@
         var element = eventsToPopulate[i];
         if(element) {
           var $tempTemplate = $templateEventListElement.clone()
-          $($tempTemplate).find('.event-topic').append('<span class="fa fa-chevron-down" aria-hidden="true"></span>'+element.topic);
+          $($tempTemplate).find('.event-topic').append('<span class="fa fa-chevron-up" aria-hidden="true"></span>'+element.topic);
           $($tempTemplate).find('.event-date').text(element.date);
           $($tempTemplate).find('.event-type').text(element.type);
           $($tempTemplate).find('.event-location').text(element.location);
@@ -200,12 +200,14 @@
       }
       $eventsList.append(eventListArray);
       $('.event-list .event-headers span').off('click').on('click', function(event) {
-        var descriptionToHideShow = $(event.currentTarget);
-        $parentElement = $(descriptionToHideShow).parent().parent().parent();
-        if(!$($parentElement).find('.event-description').hasClass('hide-description')) {
-          $($parentElement).find('.event-description').addClass('hide-description');
+        var currentArrow = $(event.currentTarget).parent();
+        $parentElement = $(currentArrow).parent().parent();
+        if(currentArrow.hasClass('is-open')) {
+          currentArrow.removeClass('is-open');
+          $($parentElement).find('.event-description').hide();
         } else {
-          $($parentElement).find('.event-description').removeClass('hide-description');
+          currentArrow.addClass('is-open');
+          $($parentElement).find('.event-description').show();
         }
       });
       if(typeof options === 'undefined') {

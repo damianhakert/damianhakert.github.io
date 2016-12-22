@@ -18,6 +18,7 @@
 
 .page-headline {
   margin-bottom: 0;
+  font-weight: 300;
 }
 
 .featured-event-container {
@@ -27,12 +28,14 @@
   .featured-event-title {
     color: $color-secondary-alt;
     text-align: left;
+    font-weight: 300;
   }
 
   .featured-event-description {
     text-align: left;
     color: $color-white;
     font-size: 16px;
+    font-weight: 300;
   }
 }
 
@@ -95,6 +98,7 @@
   font-size: 20px;
   text-align: left;
   margin-left: 0;
+  display: none;
 }
 
 .event-type {
@@ -111,6 +115,19 @@
   float: left;
   font-size: 28px;
   margin-bottom: 10px;
+
+  .fa {
+    color: $color-primary;
+    transition: all .2s;
+  }
+
+  &.is-open {
+    .fa {
+      color: $color-secondary;
+      transform: rotate(180deg);
+      transition: all .2s;
+    }
+  }
 }
 
 .event-date {
@@ -175,8 +192,8 @@
   }
 
   button {
-    margin-top:25px;
-    margin-bottom:35px;
+    margin-top: 25px;
+    margin-bottom: 35px;
   }
 }
 
@@ -232,10 +249,6 @@
   }
 }
 
-.featured-event-image { //This extends the image card
-  min-height: 300px;
-}
-
 .clear-floats {
   clear: both;
 }
@@ -277,12 +290,12 @@
       margin-left: -1px;
       cursor: pointer;
     }
-  }
 
-  li[active="true"] { //TODO: Change this
-    span {
-      color: $color-dark;
-      cursor: default;
+    &[active="true"] {
+      span {
+        color: $color-dark;
+        cursor: default;
+      }
     }
   }
 }
@@ -307,7 +320,17 @@
 
 @media (max-width: $screen-xs-max) {
   .featured-event-container {
-    width: 85%;
+    width: 100%;
+    .featured-event-title {
+      text-align: center;
+      padding: 0 45px;
+      margin: 30px 0;
+    }
+
+    .featured-event-description {
+      text-align: center;
+      margin-bottom: 45px;
+    }
   }
 
   .feature-event-button {
@@ -315,6 +338,9 @@
 
     .btn-yellow {
       line-height: 35px;
+      padding-right: 60px;
+      padding-left: 60px;
+      margin-bottom: 35px;
     }
   }
 
@@ -395,19 +421,24 @@
 
   .subheader {
     font-size: 18px;
+    margin-bottom: 35px;
   }
 
   .rad-event {
     width: 100%;
 
     h1 {
-      font-size: 36px;
+      font-size: 30px;
       padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     h2 {
-      font-size: 26px;
+      font-size: 20px;
       margin-top: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
     }
   }
 
