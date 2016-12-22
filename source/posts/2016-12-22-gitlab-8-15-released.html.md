@@ -9,22 +9,23 @@ image_title: /images/8_15/pic.jpg
 With this last release of the year, we're not only completing our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/), but we
 want to show you something cool we've been working on:
 
-![short video here]()
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/m0nYHPue5RU" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 With GitLab 8.15, we're introducing Auto Deploy (shown in the video at
-[xx:xx]()), which automates setting up deploys and review apps. For a
+[1:42](https://youtu.be/m0nYHPue5RU?t=102)), which automates setting up deploys and review apps. For a
 Ruby on Rails project, this brings setup time to under a minute.
 
 Plus, to make accessing your environments easier and faster, you can now
-access them directly through a terminal in GitLab (shown in the video at [xx:xx]()).
+access them directly through a terminal in GitLab (shown in the video at [5:18](https://youtu.be/m0nYHPue5RU?t=318)).
 
 We want to give the power of containers, continuous integration and deployment,
 review apps and container schedulers to everyone. With GitLab 8.15, we
-take away all the hard work without hiding anything.
-
-And the hard work shouldn't even include setting up GitLab. [See below]() for
-the full video, in which we install GitLab and ship a full app, from idea to
-production, in under Y minutes. Before, setting up a place for your repositories, setting up a CI service and making that auto deploy to dynamic environments and deploying all of this on a container scheduler would take weeks.
+take away all the hard work without hiding anything. In the demonstration we
+setup and deploy a Ruby application with review apps, multiple environments,
+chatops to a Kubernetes cluster in about 12 minutes. This typically takes days,
+if not weeks to setup and use without GitLab.
 
 For many people, December is a month of celebration and gift giving.
 This month, GitLab was again so lucky to receive many great contributions.
@@ -60,8 +61,8 @@ This is as close as you can get to one-click deploys, while exposing what
 is happening and having all this version-controlled, ready
 to collaborate and iterate on.
 
-See [XX:XX]() in the video for a quick demo of Auto Deploy, as it is available
-in GitLab 8.15.
+See [1:42](https://youtu.be/m0nYHPue5RU?t=102) in the video for a quick demo of
+Auto Deploy, as it is available in GitLab 8.15.
 
 For this first iteration, we ship Auto Deploy with a template for deploying to an external OpenShift cluster. You can use any Heroku buildpack to create the
 Docker image (thanks to [Herokuish](https://github.com/gliderlabs/herokuish))
@@ -85,10 +86,11 @@ environments page in your project and click on the terminal button.
 GitLab will SSH into the instance for you and allow you to do anything
 you would be able to do from your local instance.
 
-![Web Terminal in GitLab 8.15](/images/8_15/terminal.png)
+![Web Terminal in GitLab 8.15](/images/8_15/terminal_gif.gif)
 
-In the demonstration at [XX:XX]() we show you how to use the web terminal
-to quickly try out some changes.
+In the demonstration at [5:18](https://youtu.be/m0nYHPue5RU?t=318) we show you
+give you a quick peek at the web terminal. We can't wait to see how you'll
+use it to speed up your workflow.
 
 > [Documentation link](link)
 
@@ -156,6 +158,40 @@ per user. This should make it easier to manage complex permissions across
 groups and projects.
 
 ![Override LDAP permissions in GitLab 8.15 EE](/images/8_15/ldap_overrides.gif)
+
+## Slack Chatops
+
+After bringing Chatops to GitLab with [our Mattermost integration](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/#chat-commands-experimental),
+we're now doing the same for everyone using Slack! This
+means you can create, show and search for issues straight from Slack. Super
+convenient to bridge that gap from a casual conversation to an actual issue.
+
+In addition, you can actually deploy from and to any environment.
+For instance, you can do
+
+```
+/awesome-website deploy from staging to production
+```
+
+And GitLab will deploy the latest commit from staging onto master.
+
+![Slack Chatops in GitLab 8.15](/images/8_15/slack.png)
+
+Configure Chatops for Slack in your project services. As always,
+we're looking forward to see contributions to help expand the power of
+chat integration with GitLab!
+
+## One-click Mattermost configuration
+
+Setting up the [awesome Mattermost integration](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/#chat-commands-experimental) with GitLab has been made
+much easier. It's a matter of a single click now, as you can see [in the video at 3:16](https://youtu.be/m0nYHPue5RU?t=196).
+
+![Super easy Mattermost configuration in GitLab 8.15](/images/8_15/mattermost.png)
+
+The Mattermost and Slack integrations allow you to do the same things:
+create, show and search for issues and deploy to any environment.
+
+> [Read the docs on the Mattermost Chatops integration](https://gitlab.com/help/project_services/mattermost_slash_commands.md)
 
 ## Diff in Notification Emails
 
