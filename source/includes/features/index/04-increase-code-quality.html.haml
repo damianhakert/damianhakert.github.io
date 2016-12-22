@@ -1,0 +1,60 @@
+/Third features container
+.page-container.feature-gallery.text-center.animated
+  .container.titles
+    %h3
+      Increase code quality
+    %h4
+      Code collaboratively and trust your code review with fast branching and powerful diff tools.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-2.main-slider-size
+          = image_tag 'images/feature_page/screenshots/07-merge-requests.png'
+          = image_tag 'images/feature_page/screenshots/08-merge-conflicts.png'
+          = image_tag 'images/feature_page/screenshots/09-gitlab-ci.png'
+        .row.slider-dots.slider-nav-2
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                Merge Requests
+              %p
+                Create merge requests and @mention team members to review and safely merge your changes.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                Resolve merge conflicts in UI
+              %p
+                Preview merge conflicts in the UI and tell git which version to track.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/gitlab-ci"}
+                  GitLab CI
+              %p
+                Test every merge request. Run multiple jobs in parallel and see if your build passes with GitLab’s built-in CI.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-13-mr-versions")
+        .col-md-11.feature-contents
+          %h4
+            Merge request versions
+          %p
+            View and compare merge request diffs from the UI.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-14-inline-commenting")
+        .col-md-11.feature-contents
+          %h4
+            Inline commenting and resolution
+          %p
+            Leave comments and resolve discussions on specific lines of code.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-15-cherry-pick")
+        .col-md-11.feature-contents
+          %h4
+            Cherry-pick changes
+          %p
+            Use the cherry-pick button in the UI to isolate specific changes from a merge request.
+/Fourth features container

@@ -1,0 +1,84 @@
+/Second features block
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+  .container.titles
+    %h3
+      Track and manage releases
+    %h4
+      Ease the collaboration process with a single tool to track issues and monitor progress on your releases.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-1.main-slider-size
+          = image_tag 'images/feature_page/screenshots/04-issues.png'
+          = image_tag 'images/feature_page/screenshots/05-issue-boards.png'
+          = image_tag 'images/feature_page/screenshots/06-todos.png'
+        .row.slider-dots.slider-nav-1
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                Issues
+              %p
+                Leverage GitLab’s built-in issue tracker to outline and share ideas.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/solutions/issueboard/"}
+                  Issue Board
+              %p
+                Plan, organize, and visualize your release with a kanban-style board.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                Todos
+              %p
+                View a simple dashboard with a chronological list of todos so you know what needs your attention.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-07-issues-mr-templates")
+        .col-md-11.feature-contents
+          %h4
+            Issue and MR Templates
+          %p
+            Create templates for issues and merge requests.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-08-milestones")
+        .col-md-11.feature-contents
+          %h4
+            Milestones
+          %p
+            Organize issues and merge requests into groups.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-09-labels")
+        .col-md-11.feature-contents
+          %h4
+            Labels
+          %p
+            Categorize and track issues or merge requests based on descriptive titles.
+    .row.features-description.features-description-separation
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-10-todos")
+        .col-md-11.feature-contents
+          %h4
+            External Services
+          %p
+            Integrate with 24 external services (such as JIRA, Slack, Asana and more) to track progress across all the tools your team uses.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-11-due-dates")
+        .col-md-11.feature-contents
+          %h4
+            Due dates
+          %p
+            Assign due dates to issues to make sure things get done on time.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-12-search")
+        .col-md-11.feature-contents
+          %h4
+            Powerful search
+          %p
+            Spend less time searching and more time building software.

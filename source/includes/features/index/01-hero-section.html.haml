@@ -1,0 +1,22 @@
+.page-container.landing-container.text-center
+  %div
+    %h1.page-headline
+      Next-generation developer collaboration software
+    %h2.page-subtitle
+      Confidently and rapidly iterate towards a better product.
+
+    .dev-cycle.hidden-xs.hidden-sm
+      - data.development_cycle.each_with_index do |item, index|
+        .step
+          = icon("home/icon-step-#{index + 1}")
+          .step-name-container
+            .step-name
+              #{item[:name]}
+          - if index < data.development_cycle.length - 1
+            .arrows
+              %i.fa.fa-angle-double-right
+
+    %a.btn.cta-btn.red.video-button
+      %span.fa.fa-play-circle-o
+      Watch the Video
+    %object.video-container{data:"https://www.youtube.com/embed/a7OIQfOJO-0", frameborder:"0", allowfullscreen:true}

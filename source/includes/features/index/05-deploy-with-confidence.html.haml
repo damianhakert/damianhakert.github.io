@@ -1,0 +1,59 @@
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+  .container.titles
+    %h3
+      Deploy with confidence
+    %h4
+      Test, build, and deploy your code.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-3.main-slider-size
+          = image_tag 'images/feature_page/screenshots/10-review-apps.png'
+          = image_tag 'images/feature_page/screenshots/11-pipelines.png'
+          = image_tag 'images/feature_page/screenshots/12-container-registry.png'
+        .row.slider-dots.slider-nav-3
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/features/review-apps"}
+                  Review Apps
+              %p
+                Preview your branch in a live environment. Review Apps automatically spin up dynamic environments for your merge requests.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                Pipelines
+              %p
+                Define the build stages and visualize your pipelines so you can spot anything that fails.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                Container Registry
+              %p
+                An integrated private Docker Container Registry means every project can have its own space to store its Docker images.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-16-versioned-tests")
+        .col-md-11.feature-contents
+          %h4
+            Versioned Tests
+          %p
+            Ensure every branch gets the tests it needs by allowing your team to contribute changes to the .gitlab-ci.yml file that contains your tests.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-17-autoscaling")
+        .col-md-11.feature-contents
+          %h4
+            Autoscaling
+          %p
+            You can automatically spin up and down VMs to make sure your builds get processed immediately and minimize costs.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-18-jenkins")
+        .col-md-11.feature-contents
+          %h4
+            Jenkins Integration
+          %p
+            Integrate Jenkins CI, trigger a build, and see the build status on your merge request.
+/Fifth features container

@@ -1,0 +1,86 @@
+.page-container.feature-gallery.text-center.animated
+  .container.titles
+    %h1
+      Powerful features for modern software development
+    %h2
+      Tightly integrated into one platform.
+    %h3
+      Consolidate your source code
+    %h4
+      Wrangle your projects into one easy-to-manage tool.
+    .row
+      .feature-gallery-slick-container
+        #feature-gallery-slider.main-slider-size
+          = image_tag 'images/feature_page/screenshots/01-projects.png'
+          = image_tag 'images/feature_page/screenshots/02-user-roles.png'
+          = image_tag 'images/feature_page/screenshots/03-gitlab-pages.png'
+        .row.slider-dots.slider-nav
+          .col-md-4.feature-slider-dot-content{index: "0"}
+            %div
+              %h4
+                Projects
+              %p
+                Organize your repository into private, internal, or public projects.
+          .col-md-4.feature-slider-dot-content{index: "1"}
+            %div
+              %h4
+                User roles
+              %p
+                Manage access and permissions with five different user roles and settings for external users.
+          .col-md-4.feature-slider-dot-content{index: "2"}
+            %div
+              %h4
+                %a{href: "http://pages.gitlab.io/"}
+                  GitLab Pages
+              %p
+                Create websites for your GitLab projects, groups, or user accounts.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-01-repos")
+        .col-md-11.feature-contents
+          %h4
+            Unlimited public and private repos
+          %p
+            Create a new repo for even the smallest projects.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-02-project-importing")
+        .col-md-11.feature-contents
+          %h4
+            Project importing
+          %p
+            Import existing projects from GitHub, BitBucket, Google Code, Fogbugz, or any git repo with a URL.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-03-protected-branches")
+        .col-md-11.feature-contents
+          %h4
+            Protected branches
+          %p
+            Control read/write permissions to specific branches.
+    .row.features-description.features-description-separation
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-04-wiki")
+        .col-md-11.feature-contents
+          %h4
+            Wiki
+          %p
+            Keep your documentation within the project using GitLab’s built-in wiki system.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-05-code-snippets")
+        .col-md-11.feature-contents
+          %h4
+            Code Snippets
+          %p
+            Collect and share reusable code.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-06-powerful-apis")
+        .col-md-11.feature-contents
+          %h4
+            Powerful APIs
+          %p
+            Control GitLab with a set of powerful APIs.
