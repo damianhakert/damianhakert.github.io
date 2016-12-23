@@ -385,6 +385,20 @@ to see who can take over the days when you should be on-call. This can happen vi
 a Hangout that you should schedule.
 See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information.
 
+**Calendar Availability**
+
+If your Calendly link is being given out to customers or interviewees to schedule
+calls with you, you need to make sure that no one schedules a call with you on
+the days you are away. See Calendly's instructions for handling this [here](https://help.calendly.com/hc/en-us/articles/223194148).
+When you create an all-day event in Google Calendar, the
+default behavior is to set you as **"Available"** for that day. This means that
+if you create an all-day event to mark yourself off, and even after creating that
+event if you change it to a **non-all-day-event** by giving it a time, people
+will be able to schedule calls with you on that day. You have to create an event
+that has a set time, from the time of creation, or change the event settings to
+mark you as **"Unavailable"**. It is not a bad idea to double check your
+availability on an **out-of-office** event after creating it.
+
 **Rest of the team**
 
 At any point in time at least half of the support team must be available to handle all our tasks, so
