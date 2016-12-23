@@ -430,14 +430,9 @@ Beware that:
   deploy a Review App (hence MRs from contributors). For that case, you should
   have at least Developer access to the `www-gitlab-com` project or
   `gitlab-com` group.
-- Branches containing a slash (`/`) or other special characters in their name
-  will not deploy a Review App. Prefer to use dashes (`-`) or underscores (`_`).
-  For more information on that matter check the discussion in this
-  [issue in the CE tracker][ce-22849].
 - The generation of the direction, wishlist and release list pages is omitted
   in branches and is run only on master. This helps to shave off some time from
   the build process. That means you won't be able to preview these pages with
   Review Apps.
 
-[ce-22849]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22849
 [review apps]: https://docs.gitlab.com/ce/ci/review_apps/
