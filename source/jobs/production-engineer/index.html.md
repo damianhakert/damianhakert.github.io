@@ -32,13 +32,13 @@ practices like TDD or continous integration (to start with).
 * Have an interest in distributed systems and a solid understanding of how modern web stacks are built, and why.
 * Know what is the use of config management systems like Chef (the one we use)
 * Have strong programing skills - Ruby and/or Go (for operations and infrastructure projects respectively)
-* Have a sense for scale either.
 * Hold yourself to a high bar when working in production environments.
 * Have an urge to collaborate and communicate asynchronously.
+* Have an urge to document all the things so you don't need to learn the same thing twice.
 * Have a proactive, go-for-it attitude. When you see something broken, you can't help
   but fix it.
-* Have an urgency for delivering quickly and iterating fast.
-* You share our [values](/handbook/#values), and work in accordance with those
+* Have an urge for delivering quickly and iterating fast.
+* Share our [values](/handbook/#values), and work in accordance with those
   values.
 
 ## Projects you could work on:
