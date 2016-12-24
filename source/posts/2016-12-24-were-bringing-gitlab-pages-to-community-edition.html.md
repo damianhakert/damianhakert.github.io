@@ -15,7 +15,7 @@ Inspired by the holiday-spirit we're happy to bring GitLab Pages to the Communit
 [GitLab Pages][gl-pages] allows you to [host static websites][host] straight from GitLab, with any kind of [static site generator][static].
 For instance, [my personal website](http://www.jobvandervoort.com) is hosted
 through GitLab Pages on GitLab.com using my favorite static site generator
-[Middleman][middleman] ([source code]([jobs-site]). Even our [documentation site][doc-site] is
+[Middleman][middleman] ([see the source here][jobs-site]). Even our [documentation site][doc-site] is
 also fully built on GitLab Pages. Until today, GitLab Pages was exclusive to
 the [Enterprise Edition][ee] of GitLab.
 
@@ -49,7 +49,7 @@ subscriptions. Subscriptions allows us to keep investing in new features, packag
 **In this case, I’m happy to announce that we will be bringing GitLab Pages to the Community Edition.** We’ll do this at the earliest convenience, most likely
 with GitLab 8.16 on January 22nd.
 
-We’re very fortunate that the wider community keep us
+We’re very fortunate that the wider community keeps us
 sharp. It’s our hope that in the new year, you will continue to support,
 guide, criticize, and contribute to GitLab.
 
