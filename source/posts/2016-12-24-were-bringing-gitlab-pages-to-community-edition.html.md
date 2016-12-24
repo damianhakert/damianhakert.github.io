@@ -13,7 +13,7 @@ Inspired by the holiday-spirit we're happy to bring GitLab Pages to the Communit
 <!-- more -->
 
 [GitLab Pages][gl-pages] allows you to [host static websites][host] straight from GitLab, with any kind of [static site generator][static].
-For instance, [my personal website](http://jobv.gitlab.io/) is hosted
+For instance, [my personal website](http://www.jobvandervoort.com) is hosted
 through GitLab Pages on GitLab.com using my favorite static site generator
 [Middleman][middleman] ([source code]([jobs-site]). Even our [documentation site][doc-site] is
 also fully built on GitLab Pages. Until today, GitLab Pages was exclusive to
