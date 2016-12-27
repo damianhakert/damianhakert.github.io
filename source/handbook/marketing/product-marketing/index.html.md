@@ -169,6 +169,15 @@ Below is an example email template that you can send customers to after the AE h
 
 >Please let me know if you're open to kicking off the customer story process on X date
 
+####**Collecting Metrics**:
+Possible quantitative metrics that the customer can be asked to share with GitLab include:
+- Reduced cycle time
+- Number of deploys in a given time frame
+- Reduced number of bugs or Reverts
+- Recuced number of admin hours
+- Cost savings % through purchasing GitLab: Reduce the cost of managing a number of different people, projects, and platforms.
+- Reduction in internal support tickets requests: Reduction in the number of support tickets team submitting to fix challenges, compared to initial SCM tool
+
 The customer case study should then be written by Product Marketing team, and the draft sent to the customer for their input, and approval. 
 
 Other sections in the case study can be found on the customer's website or by searching the web - Sidebar summary, The Customer.
