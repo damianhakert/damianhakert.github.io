@@ -137,7 +137,8 @@ people. We try to hire people who think work is a great way to express themselve
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
 1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook."
+1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook.".
+1. Also see our [leadership guidelines](https://about.gitlab.com/handbook/leadership/#guidelines).
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Handbook Usage
 {: #handbook-usage}
