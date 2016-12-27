@@ -3,7 +3,7 @@ layout: markdown_page
 title: Leadership
 ---
 
-### Guidelines
+## Leadership
 
 1. Leadership at GitLab applies to everyone, whether an individual contributor or a manager.
 1. Everyone that joins GitLab should consider themselves to be an ambassador of our [values](https://about.gitlab.com/handbook/#values) and a protector of our [culture](https://about.gitlab.com/culture/).
@@ -12,25 +12,15 @@ title: Leadership
 1. In tough times people will put in their best efforts when they do it for each other.
 1. We work async, lead by example and make sure people understand that things need to be written down in issues as they happen.
 1. We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after they have listened to all the feedback.
-1. It is encouraged to disagree and have a constructive confrontation, but it is "disagree & commit", when a decision is taken you make it happen.
+1. It is encouraged to disagree and have a constructive confrontation but please [argue intelligently](https://www.brainpickings.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
 1. We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
-1. Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for anyone.
+1. Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for anyone or repeating things for people that come late.
 1. We give feedback, lots of it, don't hold back on suggestions to improve.
 1. If you meet external people always ask what they think we should improve.
-1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
-1. We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
-1. The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
-1. For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
-1. It reduces compensation costs, coordination costs, and office politics.
-1. The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
-1. To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
-1. Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
 1. As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
 1. We don't have project managers. Individual contributors need to manage themselves.
 
-## Expectations
-
-GitLab's expectations for managers:
+## Management
 
 1. When times are great be a voice of moderation, when times are bad be a voice of hope.
 1. A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
@@ -42,7 +32,6 @@ GitLab's expectations for managers:
 1. Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that, this builds a stronger team. But _families_ and _teams_ are different. _Families_ come together for the relationship and do what is critical to retain it. _Teams_ are assembled for the task and do what is required to complete it. Don't put the relationship above the task. Besides, families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 1. Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 1. Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
-1. We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 
@@ -67,6 +56,18 @@ We're a remote and globally distributed team that requires something more than t
 Take a coffee break with Grovo and see how much you can learn.  It can take just under 60 seconds to sharpen your skills!
 
 The initial phase of rolling out Grovo will take place in December 2016 and as part of that first step we will be offering learning tracks on professional development & compliance.
+
+## No matrix organization
+
+1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
+1. We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
+1. The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
+1. For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
+1. It reduces compensation costs, coordination costs, and office politics.
+1. The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
+1. To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
+1. Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
+
 
 ## Articles
 
