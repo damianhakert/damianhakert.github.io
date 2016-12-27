@@ -2,10 +2,6 @@
 layout: markdown_page
 title: Team Handbook
 twitter_image: '/images/tweets/handbook-gitlab.png'
-extra_js:
-  - libs/moment.min.js
-  - libs/moment-timezone-with-data.min.js
-  - team-call.js
 ---
 
 ## Welcome to the GitLab Handbook
@@ -302,14 +298,6 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. Schedule
-   * PST: <span id="main-PST"></span>
-   * UTC: <span id="main-UTC"></span>
-   * <span id="main-abbr"></span>: <span id="main-USER"></span>
-1. APAC schedule
-   * PST: <span id="apac-PST"></span>
-   * UTC: <span id="apac-UTC"></span>
-   * <span id="apac-abbr"></span>: <span id="apac-USER"></span>
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
 1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
