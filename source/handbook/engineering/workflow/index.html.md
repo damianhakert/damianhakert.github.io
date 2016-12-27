@@ -129,6 +129,44 @@ Priority labels help us clearly communicate expectations of the work for the rel
 
 Work with your lead if you feel that there are too many `Deliverable` issues scheduled for the current release.
 
+### Label for community contributors (`Accepting Merge Requests`)
+
+Issues that are beneficial to our users, 'nice to haves', that we currently
+do not have the capacity for or want to give the priority to, are labeled as
+`Accepting Merge Requests`, so the community can make a contribution.
+
+Community contributors can submit merge requests for any issue they want,
+but `Accepting Merge Requests` label has a special meaning. It points to
+changes that we already agreed on, are well-defined, and are likely to get
+accepted by a merge request endboss. We want to avoid a situation when a
+contributor picks an `Accepting Merge Requests` issue and then their merge
+request gets closed, because we realize that it does not fit our vision
+and or we want to solve it in a different way.
+
+We add the `Accepting Merge Requests` label to:
+
+- low priority bugs (i.e. we do not add it to the bugs that we want to
+solve in the next patch release)
+- small features if they do not need UX / product work or UX / product work
+is already done
+- small technical debt issues
+
+After adding `Accepting Merge Requests` label, we try to estimate the weight of
+the issue. We use issue weight to let contributors know how difficult the
+issue is. Additionally:
+
+- we advertise `Accepting Merge Requests` issues with weight < 5 as suitable
+for people that have never contributed to GitLab before on the
+[Up For Grabs campaign](http://up-for-grabs.net)
+- we encourage people that have never contributed to any open source project
+to look for `Accepting Merge Requests` issues with weight 1
+
+Of course, the weight is only an estimate, but you (as a person familiar with
+GitLab codebase) are more likely to estimate correctly than a potential
+contributor who is new to GitLab. However, if you are unable to provide
+an estimate, it is better to leave the issue without weight, so we do not
+make a false promise that the issue is suitable for new contributors.
+
 ## Scheduling issues
 
 GitLab Inc has to be selective in working on particular issues.
@@ -155,10 +193,8 @@ capacity to work on other important issues, bug fixes, etc.
 Issues that are not scheduled for a future milestone,
 but we are committed to doing, are put in the Backlog milestone.
 
-Issues that are beneficial to our users, 'nice to haves', that we currently
-don't have the capacity for or want to give the priority to, are not
-scheduled. These issues are labeled as accepting merge requests, so
-the community can make a contribution.
+If you want to schedule an `Accepting Merge Requests` issue, please remove
+the label first.
 
 Any scheduled issue should have a team label assigned, and at least one type label.
 
