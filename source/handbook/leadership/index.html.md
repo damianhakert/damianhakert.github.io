@@ -68,7 +68,7 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 1. The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
 1. To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
 1. Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
-
+1. "Nuke all matrices. Nuke all dual reporting structures. And nuke as many shared services functions as you possibly can." in the great [guide to big companies from Marc Andreessen](http://pmarchive.com/guide_to_big_companies_part2.html) (the other guides are awesome too).
 
 ## Articles
 
