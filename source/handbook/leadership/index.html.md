@@ -34,6 +34,7 @@ title: Leadership
 1. Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
+1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
 
 ## Grovo
 
