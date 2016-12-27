@@ -2164,6 +2164,17 @@
   story:  |
           Joining January 3rd
 
+- name: X.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/success-engineer/">Success Engineer</a>
+  reports_to: Director of Global Alliances and APAC Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd
+
 - name: B.K.
   locality:
   country:
