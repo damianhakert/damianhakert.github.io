@@ -228,11 +228,10 @@ extra_js:
 
           %p
             %a{href: "https://about.gitlab.com/strategy/#sequence"} Our strategy is to make GitLab.com the most popular SaaS solution for private and public repositories.
-            To achieve this goal you can use GitLab.com for free.
-            You get unlimited public and private projects, and there is no limit to the number of collaborators on a project.
-            We plan to keep this basic usage of GitLab.com free forever.
-            To keep this sustainable there are paid accounts and features.
-            Below the types of accounts and planned paid features are detailed.
+            To achieve this goal you get unlimited public and private projects, and there is no limit to the number of collaborators on a project.
+            And we plan to keep unlimited repositories and collaborators free forever.
+            To sustain this there are paid accounts and features.
+            Below the types of accounts and the planned paid features are detailed.
 
           %p There are three types of accounts on GitLab.com:
 
@@ -245,14 +244,14 @@ extra_js:
               Silver: (future plan) all
               %a{href: "https://about.gitlab.com/products/#comparison"} EE premium features
 
-          %p In the future we might also move the following things to a paid account:
+          %p In the future we might also charge for the following things:
 
           %ul
-            %li Limit build minutes in the bronze plan (currently unlimited)
-            %li Build artifact storage above a certain size (currently unlimited even in the free plan)
-            %li Container images storage above a certain size (currently unlimited even in the free plan)
-            %li GitLab Pages with very high traffic (currently unlimited even in the free plan)
-            %li  Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
+            %li Build artifact storage above a certain size (currently unlimited even with a free account)
+            %li Container images storage above a certain size (currently unlimited even with a free account)
+            %li GitLab Pages with very high traffic (currently unlimited even with a free acount)
+            %li Restrict the build minutes in the bronze plan (move unlimited minutes to the silver account)
+            %li Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
 
           %h3
             = link_to('Sign Up', 'https://gitlab.com/users/sign_in', class: 'btn btn-purple')
