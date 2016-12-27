@@ -3,7 +3,6 @@ layout: markdown_page
 title: Leadership
 ---
 
-
 ### Guidelines
 
 - Leadership at GitLab applies to everyone, whether an individual contributor or a manager.
@@ -29,8 +28,7 @@ title: Leadership
 - As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
 - We don't have project managers. Individual contributors need to manage themselves.
 
-
-## Managers
+## Expectations
 
 GitLab's expectations for managers:
 
@@ -38,16 +36,15 @@ GitLab's expectations for managers:
 - A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
 - If you praise someone try to do it in front of an audience, if you give suggestions to improve do it 1 on 1.
 - As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
+- When performance is below par we normally put someone on a [performance improvement plan (PIP)](https://about.gitlab.com/handbook/underperformance/). Use a PIP when you are convinced that the team member will be great for year to come after completing the plan. If you would not hire a team member if they applied for this role today [offboarding](https://about.gitlab.com/handbook/offboarding/) is a better step.
 - When someone says they are considering quitting drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
 - People should not be given a raise or a title because they ask for it or threaten to quit. We should proactively give raises and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
 - Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that, this builds a stronger team. But _families_ and _teams_ are different. _Families_ come together for the relationship and do what is critical to retain it. _Teams_ are assembled for the task and do what is required to complete it. Don't put the relationship above the task. Besides, families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 - Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 - Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
-As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
 - We avoid meetings because those don't support the asynchronous work flow, are hard to conduct due to timezone differences and are limited only to those attending them, making it harder to share.
 - Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
-- To [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
-
+- You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 
 ## Grovo
 
@@ -63,14 +60,11 @@ Bit by bit, these microlearning moments add up to better job performance today a
 Microlearning isn't just breaking up content into smaller pieces.
 It's a way to make learning digestible and effective, transforming not just what you know, but what you actually do, every day.
 
-
 ### Grovo at GitLab
 
 We're a remote and globally distributed team that requires something more than the traditional learning approaches and courses that currently exist. We want to foster a new way of learning that mirrors GitLab's culture.
 
-
 Take a coffee break with Grovo and see how much you can learn.  It can take just under 60 seconds to sharpen your skills!
-
 
 The initial phase of rolling out Grovo will take place in December 2016 and as part of that first step we will be offering learning tracks on professional development & compliance.
 
