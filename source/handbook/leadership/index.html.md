@@ -18,7 +18,7 @@ title: Leadership
 1. We give feedback, lots of it, don't hold back on suggestions to improve.
 1. If you meet external people always ask what they think we should improve.
 1. As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
-1. We don't have project managers. Individual contributors need to manage themselves. No everyone will be able to do this effective and be fit for our organization. But making someone responsible for managing others will make the job of the people that can manage themselves worse. If you manage yourself you have a much greater freedom to take desicions, and those decisions are based on deep knowledge of the situation. We want to retain the people that can handle that responsibility and therefore we can't retain the ones that struggle. Assinging a project manager/coordinator/case manager/etc. to something is an indication something is wrong and we're picking the wrong solution.
+1. We don't have project managers. Individual contributors need to manage themselves. No everyone will be able to do this effective and be fit for our organization. But making someone responsible for managing others will make the job of the people that can manage themselves worse. If you manage yourself you have a much greater freedom to take decisions, and those decisions are based on deep knowledge of the situation. We want to retain the people that can handle that responsibility and therefore we can't retain the ones that struggle. Assigning a project manager/coordinator/case manager/etc. to something is an indication something is wrong and we're picking the wrong solution.
 
 ## Management
 
