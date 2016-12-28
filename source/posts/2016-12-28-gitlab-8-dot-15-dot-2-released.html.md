@@ -31,6 +31,8 @@ Please read on for more details.
 - **CE/EE:** Added ability to put emojis into repository name. ([!7420])
 - **CE/EE:** Fixed resolve discussion note button color.
 - **EE:** Add hover states for collapsed Issue/Merge Request sidebar for Time tracking Icon
+- **EE:** Fix ElasticSearch search for non-default branches ([!999])
+- **Omnibus GitLab** Add a delay option for pg-upgrade ([!1164])
 
 [!8271]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8271
 [!8273]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8273
@@ -41,6 +43,8 @@ Please read on for more details.
 [!8322]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8322
 [!8301]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8301
 [!7420]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7420
+[!999]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/999
+[!1164]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/1164
 
 ## Upgrade barometer
 
