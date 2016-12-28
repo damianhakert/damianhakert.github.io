@@ -101,7 +101,7 @@ deploy:
     - build_master
   before_script: []
   script:
-    - rsync --delete -r public/ ~/public/
+    - rsync --delete -vr public/ ~/public/
   environment:
     name: production
     url: https://about.gitlab.com
