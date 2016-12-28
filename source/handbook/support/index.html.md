@@ -125,6 +125,11 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
 + Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
 + In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
 + Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyze, troubleshoot, and resolve difficult issues.
++ When possible, please provide feedback to the agent that escalated the ticket.
+  If there is further information required from the customer before the problem
+  can be diagnosed, or if the answer is in the documentation, the agent who
+  escalated needs to learn about this so that they can perform those tasks
+  before escalating in the future.
 
 ### Tier 3 Support
 
@@ -142,7 +147,8 @@ We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/20369079
 + `Escalations::Tier 2`
 + `Escalations::Tier 3`
 
-Applying any of these macros will move the ticket to the tier group selected.
+Applying any of these macros will move the ticket to the tier group selected,
+create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
