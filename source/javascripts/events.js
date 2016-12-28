@@ -182,12 +182,15 @@
         var element = eventsToPopulate[i];
         if(element) {
           var $tempTemplate = $templateEventListElement.clone()
-          $($tempTemplate).find('.event-topic').append('<span class="fa fa-chevron-up" aria-hidden="true"></span>'+element.topic);
+          $($tempTemplate).find('.event-topic').append(
+            '<span class="fa fa-chevron-up" aria-hidden="true"></span>' +
+            element.topic);
           $($tempTemplate).find('.event-date').text(element.date);
           $($tempTemplate).find('.event-type').text(element.type);
           $($tempTemplate).find('.event-location').text(element.location);
           $($tempTemplate).find('.event-description').text(element.description);
           $($tempTemplate).find('.event-description').addClass('hide-description');
+          $($tempTemplate).find('.featured-item-button-events').attr("href", element.event_url);
           //Separate the social tags
           var socialTags = element.social_tags.trim().split(',');
           socialTags.forEach(function(tag) {
@@ -198,7 +201,7 @@
           i = (this.currentPage * DESIRED_ELEMENTS_PER_PAGE) + 1;
         }
       }
-      $eventsList.append(eventListArray);
+      $eventsList.append(eventListArray).hide().fadeIn();
       $('.event-list .event-headers span').off('click').on('click', function(event) {
         var currentArrow = $(event.currentTarget).parent();
         $parentElement = $(currentArrow).parent().parent();
@@ -207,7 +210,7 @@
           $($parentElement).find('.event-description').hide();
         } else {
           currentArrow.addClass('is-open');
-          $($parentElement).find('.event-description').show();
+          $($parentElement).find('.event-description').fadeIn();
         }
       });
       if(typeof options === 'undefined') {
