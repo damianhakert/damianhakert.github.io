@@ -271,6 +271,10 @@ requests, create a [support issue](https://gitlab.com/gitlab-com/support/issues)
 1. If customers or users have questions, advise them to contact support directly via the [support web form](https://support.gitlab.com).
 1. As a last resort, ping the support team on the support chat channel.
 
+### Google Alerts<a name="google-alerts"></a>
+
+Google Alerts configured to track GitLab mentions are also piped into ZenDesk.
+
 ### Support Issue Tracker
 
 The [Support project](https://gitlab.com/gitlab-com/support/issues)
