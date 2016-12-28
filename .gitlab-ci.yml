@@ -95,6 +95,7 @@ review_stop:
 
 deploy:
   stage: deploy
+  cache: {}
   variables:
     GIT_STRATEGY: none
   dependencies:
