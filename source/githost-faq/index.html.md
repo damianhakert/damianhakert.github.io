@@ -92,7 +92,7 @@ Service Engineer. However, we are working to make this easier.
 
 ### Can I migrate my projects from gitlab.com to GitHost?
 
-Absolutely.  Go [here](https://about.gitlab.com/handbook/support/knowledge-base/githost/migration_services.html) to learn how.
+Yes.  Please go [here](https://about.gitlab.com/githost-faq/migrate_from_gitlab_com.html) to see how.
 
 ### Can I apply my GitLab Enterprise Edition subscription for use with GitHost if I decide to move from on-premises hosting?
 
