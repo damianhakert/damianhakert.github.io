@@ -78,8 +78,8 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply: https://gitlab.workable.com/jobs/269007/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
