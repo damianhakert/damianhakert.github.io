@@ -290,9 +290,6 @@ To close a vacancy:
 
 If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the recruiting team will email the partner or remove the position from that site.
 
-## Underperformance
-
-See [underperformance guidelines](/handbook/underperformance).
 
 ## Visas & Work Permits
 
