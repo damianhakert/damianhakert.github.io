@@ -21,12 +21,12 @@ $ sudo gitlab-rails c production
 
 ---
 
-### Access `db2.staging.gitlab.com` db
-As required, ask production folks to refresh the `db2.staging.gitlab.com` db with the `gitlab.com` db.
+### Access `db1.staging.gitlab.com` db
+As required, ask production folks to refresh the `db1.staging.gitlab.com` db with the `gitlab.com` db.
 
 Access the server
 ```
-$ ssh victor@db2.staging.gitlab.com
+$ ssh victor@db1.staging.gitlab.com
 ```
 
 Run
@@ -77,13 +77,13 @@ Access db from a sql client for additional features and ease of use. The sql cli
 
 Set up forwarding through your local machine by running one of the following
 ```
-$ ssh -L5432:localhost:5432 victor@db2.staging.gitlab.com
+$ ssh -L5432:localhost:5432 victor@db1.staging.gitlab.com
 $ ssh -L5432:localhost:5432 victor@version.gitlab.com
 $ ssh -L3306:localhost:3306 victor@piwik.gitlab.com
 ```
 
-#### `db2.staging.gitlab.com`
-Find the database password on `db2.staging.gitlab.com`
+#### `db1.staging.gitlab.com`
+Find the database password on `db1.staging.gitlab.com`
 ```
 $ sudo vi /etc/gitlab/gitlab.rb
 ```
