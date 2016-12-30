@@ -16,10 +16,15 @@ category: General
 
 ### Scheduled calls
 
-We offer intake, upgrade and installation support for our customers. These calls should be scheduled
-via the support project [issue tracker](https://gitlab.com/gitlab-com/support/issues) using the [customer call template](https://gitlab.com/gitlab-com/support/blob/master/.gitlab/issue_templates/Customer%20call.md).
+All scheduled calls should be organized via the support project [issue tracker](https://gitlab.com/gitlab-com/support/issues) using the [customer call template](https://gitlab.com/gitlab-com/support/blob/master/.gitlab/issue_templates/Customer%20call.md).
 
-Call/screen sharing sessions involve guiding customers through the GitLab upgrade process or taking control of the customers server to perform the upgrade. You should make sure that the customer has a backup before you start the call, as they can take
+The template can be used when coordinating a call with other engineering/sales team members or when scheduling another service engineer in a more preferable timezone.
+
+#### Intake, upgrade and installation support
+
+We offer intake, upgrade and installation support for our customers.
+
+These call/screen sharing sessions involve guiding customers through the GitLab upgrade process or taking control of the customers server to perform the upgrade. You should make sure that the customer has a backup before you start the call, as they can take
 a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as
 much as possible about the customer's instance as you can.
 
