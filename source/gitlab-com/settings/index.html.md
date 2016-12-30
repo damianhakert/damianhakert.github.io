@@ -130,6 +130,16 @@ The full contents of our `config.toml` are:
     BucketName = "runner"
 ```
 
+## Sidekiq
+GitLab.com runs [Sidekiq][sidekiq] with arguments `--timeout=4 --concurrency=6` and the following environment variables:
+
+| Key                                     | Value     |
+|-----                                    |-------    |
+| `SIDEKIQ_MEMORY_KILLER_MAX_RSS`         | `1000000` |
+| `SIDEKIQ_MEMORY_KILLER_SHUTDOWN_SIGNAL` | `SIGKILL` |
+| `SIDEKIQ_LOG_ARGUMENTS`                 | `1`       |
+
+
 [runners-post]: /2016/04/05/shared-runners/ "Shared Runners on GitLab.com"
 [do-post]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/ "GitLab Partners with DigitalOcean"
 [GitLab Runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
@@ -137,3 +147,4 @@ The full contents of our `config.toml` are:
 [GitLab Pages]: https://pages.gitlab.io "GitLab Pages"
 [docker in docker]: https://hub.docker.com/_/docker/ "Docker in Docker at DockerHub"
 [mailgun]: https://www.mailgun.com/ "Mailgun website"
+[sidekiq]: http://sidekiq.org/ "Sidekiq website"
