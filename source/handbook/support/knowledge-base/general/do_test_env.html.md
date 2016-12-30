@@ -27,8 +27,7 @@ locally on either macOS or Linux.
 
 #### Install Docker Engine
 
-1. [https://docs.docker.com](https://docs.docker.com/)
-- In the left sidebar, go to **Docker Engine > Install > On Linux distributions**, select your distribution and follow the instructions.
+1. [https://docs.docker.com/engine/installation/linux](https://docs.docker.com/engine/installation/linux/)
 
 #### Install Docker Machine
 
