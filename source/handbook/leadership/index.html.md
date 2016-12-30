@@ -60,15 +60,19 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 
 ## No matrix organization
 
-1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
+1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard to get right.
 1. We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
-1. The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
+1. The advantage of a functional structure is that you get better feedback and training since your boss understands your work better than a general manager.
 1. For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
+1. A functional organization structure mimics the top structure of our and many other organizations (Finance, Sales, Engineering, etc.).
 1. It reduces compensation costs, coordination costs, and office politics.
 1. The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
 1. To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
 1. Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
 1. "Nuke all matrices. Nuke all dual reporting structures. And nuke as many shared services functions as you possibly can." in the great [guide to big companies from Marc Andreessen](http://pmarchive.com/guide_to_big_companies_part2.html) (the other guides are awesome too).
+1. On this page we recommend to read High Output Management and its author coined Grove's law: All large organizations with a common business purpose end up in a hybrid organizational form. We believe a dual reporting structure is inevitable, we just want to delay it as long as possible.
+1. We want to promote organic cross-functional collaboration by giving people stable natural counterparts. A sales region will consist of a SDR, AE, and SE. A strategic customer has a AE, AM, and SE assigned. Every backend team maps to a PM and eventually a frontend team.
+1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). We can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products.
 
 ## Articles
 
