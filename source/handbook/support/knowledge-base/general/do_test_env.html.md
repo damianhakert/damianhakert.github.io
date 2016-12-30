@@ -14,14 +14,29 @@ category: General
 
 ## Initial setup
 
-This guide involves configuring a Digital Ocean droplet and setting up Docker locally, it assumes you're using Mac OS X.
+In this guide you'll configure a Digital Ocean droplet and set up Docker
+locally on either macOS or Linux.
+
+### On macOS
 
 #### Install Docker Toolbox
 
 1. [https://www.docker.com/products/docker-toolbox](https://www.docker.com/products/docker-toolbox)
 
+### On Linux
 
-#### Create new docker host
+#### Install Docker Engine
+
+1. [https://docs.docker.com](https://docs.docker.com/)
+- In the left sidebar, go to **Docker Engine > Install > On Linux distributions**, select your distribution and follow the instructions.
+
+#### Install Docker Machine
+
+1. [https://docs.docker.com/machine/install-machine](https://docs.docker.com/machine/install-machine/)
+
+_The rest of the steps are identical for macOS and Linux_
+
+### Create new docker host
 
 1. Login to Digital Ocean
 1. Generate a new API token at https://cloud.digitalocean.com/settings/api/tokens
