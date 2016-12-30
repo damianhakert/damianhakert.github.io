@@ -72,7 +72,7 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 1. "Nuke all matrices. Nuke all dual reporting structures. And nuke as many shared services functions as you possibly can." in the great [guide to big companies from Marc Andreessen](http://pmarchive.com/guide_to_big_companies_part2.html) (the other guides are awesome too).
 1. On this page we recommend to read High Output Management and its author coined Grove's law: All large organizations with a common business purpose end up in a hybrid organizational form. We believe a dual reporting structure is inevitable, we just want to delay it as long as possible.
 1. We want to promote organic cross-functional collaboration by giving people stable natural counterparts. A sales region will consist of a SDR, AE, and SE. A strategic customer has a AE, AM, and SE assigned. Every backend team maps to a PM and eventually a frontend team.
-1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). We can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products.
+1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). The advantage is that you can make one strong integrated product. But we can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products.
 
 ## Articles
 
