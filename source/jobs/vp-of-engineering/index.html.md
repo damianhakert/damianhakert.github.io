@@ -19,7 +19,7 @@ title: "Vice President of Engineering"
 * Help to recruit for difficult to hire positions.
 * Grow skills in team leads and directors, give them a sense of progress, and proactively promote people.
 * Identify and remedy underperformance.
-* Identify missing skills and organize taining to remedy.
+* Identify missing skills and organize training to remedy.
 * Reorganize teams, mostly splitting them up.
 * Ensure engineers can have career progress without being a manager.
 * Push for individual accountability instead of project managers/coordinators.
