@@ -131,7 +131,6 @@ Inbound leads receive appropriate marketing emails, such as newsletters, onboard
 - https://about.gitlab.com/contact/ Security signup - Signs up lead for security notices.
 - Emails to sales@gitlab.com => Email to sales@gitlab.com - Email sends to sales team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/press/ press@gitlab.com => Forwards to CMO for handling with our PR team.
-- https://about.gitlab.com/development/ => When a lead submit a form to request development help, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/training/ => When a lead submit a form for training, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/consultancy/ => When a  submit a form for consultancy, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - GitLab.com lead signup =>
