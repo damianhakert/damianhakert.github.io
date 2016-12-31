@@ -49,6 +49,7 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+- For the UK office, there is a Ltd registered address located in the "GitLab Ltd (UK) Address" note in the Shared vault on 1Password
 
 ## Regular compensation
 
