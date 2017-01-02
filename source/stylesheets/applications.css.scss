@@ -7,7 +7,7 @@ p {
 
 h2 {
   text-align: center;
-  margin-top: 76px;
+  margin-top: 16px;
   padding: 14px;
   color: $applications-title-color;
   border-bottom: solid 4px $color-secondary-alt;
@@ -99,5 +99,14 @@ hr {
 }
 
 .hl {
-  background: $applications-highligt-color;
+  background: $applications-highlight-color;
+}
+
+.search-apps-container-icon {
+  position: absolute;
+  z-index: 2;
+  right: 12px;
+  bottom: 15px;
+  color: $applications-search-apps-container-icon;
+  cursor: default;
 }

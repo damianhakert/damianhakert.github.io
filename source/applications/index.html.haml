@@ -22,21 +22,24 @@ extra_js:
       %a{href: "http://about.gitlab.com/partners"} partners page
       .search-container
         %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
+        %span.fa.fa-search.search-apps-container-icon.search
+        %span.fa.fa-times.search-apps-container-icon.reset
         %ul.suggestions
-      - data.applications.each do |app_category|
-        %hr{id: app_category.id}
-        %h2
-          = app_category.title
-        .row
-          - app_category.applications.each do |application|
-            .col-md-4
-              .app
-                %h4
-                  = application.title
-                %p
-                  = application.content
-                - if application.links
-                  - application.links.each do |link|
-                    %a{href: link.url, title: link.title}
-                      = link.title
-                    %br
+      .app-list
+        - data.applications.each do |app_category|
+          %hr{id: app_category.id}
+          %h2
+            = app_category.title
+          .row
+            - app_category.applications.each do |application|
+              .col-md-4
+                .app
+                  %h4
+                    = application.title
+                  %p
+                    = application.content
+                  - if application.links
+                    - application.links.each do |link|
+                      %a{href: link.url, title: link.title}
+                        = link.title
+                      %br
