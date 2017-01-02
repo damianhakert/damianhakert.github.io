@@ -78,12 +78,14 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply: 
-  open: false
+  salary: 117530
+  apply:
+  open: true
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
-  apply: 
+  salary: 117530
+  apply:
   open: false
 
 - title: "Production Engineer"
@@ -162,12 +164,12 @@
 
 - title: "Regional Director Sales, US"
   description: /jobs/regional_director_sales/regional-director-sales
-  apply: 
+  apply:
   open: false
 
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
-  apply: 
+  apply:
   open: false
 
 - title: "Performance Lead"
