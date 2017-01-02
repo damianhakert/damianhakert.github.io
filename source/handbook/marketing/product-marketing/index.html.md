@@ -162,7 +162,6 @@ Below is an example email template that you can send customers to after the AE h
 >It's nice to e-meet you, we'd love to hear more about your journey to GitLab and potentially write a customer story on COMPANY NAME.
 
 >Here are the steps that we'd work with you on.
->- A short customer survey
 >- 20-30 minute phone call to hear more about your industry, business, and team. (In the call, we would also like to hear more about your decision making process to first choose GitLab and then eventually purchase EE.)
 >- Review of the draft customer story
 >- Final review of the customer story Then once the customer story is agreed upon by you or someone on your team we will publish it on GitLab's channels.
