@@ -79,13 +79,13 @@
 - title: "Product Manager"
   description: /jobs/product-manager
   salary: 117530
-  apply: https://gitlab.workable.com/jobs/269007/candidates/new
-  open: false
+  apply:
+  open: true
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
   salary: 117530
-  apply: https://gitlab.workable.com/jobs/339744/candidates/new
+  apply:
   open: false
 
 - title: "Production Engineer"
