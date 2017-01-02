@@ -80,7 +80,7 @@
   description: /jobs/product-manager
   salary: 117530
   apply:
-  open: true
+  open: false
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
