@@ -6,7 +6,7 @@
     var container = $('html, body');
         scrollTo = $('h4:icontains("'+this.searchContainer.val()+'")');
     container.animate({
-        scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop() - 50
+        scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop() - 180
     });
     this.suggestions.html('');
     this.searchContainer.blur();
@@ -16,6 +16,23 @@
     return apps.filter(function (app){
       var regex = new RegExp(searchQuery, 'gi');
       return app.match(regex);
+    });
+  }
+
+  var showAllApps = function() {
+    this.appListDOM.each(function () {
+      $(this).parent().parent().show();
+    });
+  }
+
+  var showAppsAccordingToSearch = function(searchQuery) {
+    var regex = new RegExp(searchQuery, 'gi');
+    this.appListDOM.each(function () {
+      if($(this).text().match(regex)) {
+        $(this).parent().parent().show();
+      } else {
+        $(this).parent().parent().hide();
+      }
     });
   }
 
@@ -29,10 +46,11 @@
     }).join('');
     this.suggestions.html(html);
     this.suggestionsListElements = $('.suggestions li');
-    this.suggestionsListElements.off('click').on('click', function(e) {
+    this.suggestionsListElements.off('click touchstart').on('click touchstart', function(e) {
       var target = $(e.target);
       this.searchContainer.val(target.text());
       this.suggestions.html('');
+      showAppsAccordingToSearch.call(this, this.searchContainer.val());
       scrollToElement.call(this);
     }.bind(this));
   }
@@ -65,11 +83,24 @@
           }
         }
       } else if(e.keyCode === 13) {
-        this.searchContainer.val($('.selected-suggestion').text());
-        scrollToElement.call(this);
+        if(this.searchContainer.val() === '') {
+          showAllApps.call(this);
+        }
+        else {
+          this.searchContainer.val($('.selected-suggestion').text());
+          // Filter all of the apps
+          showAppsAccordingToSearch.call(this, this.searchContainer.val());
+          scrollToElement.call(this);
+        }
+
+      } else if(e.keyCode === 8) {
+        if(this.searchContainer.val() === '') {
+          showAllApps.call(this);
+        }
       } else {
         if(this.searchContainer.val() !== '') {
           populateList.call(this, this.searchContainer.val(), this.data.applicationTitles);
+          showAppsAccordingToSearch.call(this, this.searchContainer.val());
           this.searchIcon.hide();
           this.resetIcon.show();
         } else {
@@ -91,6 +122,7 @@
       this.searchIcon = $('.search');
       this.resetIcon = $('.reset');
       this.resetIcon.hide();
+      this.appListDOM = $('.app-list').find('h4');
       this.initializeSearch();
     }
 
@@ -110,7 +142,7 @@
       this.searchContainer.bind('keyup', displayMatches.bind(this));
       this.searchContainer.bind('blur', this.resetSearch.bind(this));
       this.searchContainer.bind('focus', displayMatches.bind(this));
-      this.resetIcon.bind('click', this.resetSearch.bind(this));
+      this.resetIcon.bind('click touchstart', this.resetSearch.bind(this));
     }
 
     ApplicationSearchBar.prototype.resetSearch = function(e) {
@@ -120,6 +152,7 @@
         this.searchContainer.val('');
         this.searchIcon.show();
         this.resetIcon.hide();
+        showAllApps.call(this);
       }
     }
 
