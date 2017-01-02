@@ -2132,16 +2132,22 @@
   story:  |
           Joining January 2nd
 
-- name: T.C.
-  locality:
-  country:
+- name: Toon Claes
+  locality: Herentals
+  country: Belgium
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: toon.png
+  twitter: to1ne
+  gitlab: to1ne
   story:  |
-          Joining January 2nd
+          Toon's interest in electronics and computers started when he was a young boy. He
+          learned how to solder using broken circuit boards his father replaced while
+          repairing televisions. And when his parents got their first computer, he learned
+          MS-DOS and started programming by typing over BASIC programs from
+          magazines. Over the years the interest in computer kept on growing.
+          Most of the time Toon lives inside Emacs typing code on one of his
+          mechanical ergonomic keyboards.
 
 - name: T.R.
   locality:
