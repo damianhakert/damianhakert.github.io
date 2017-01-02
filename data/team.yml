@@ -61,6 +61,7 @@
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
   maintains:  |
+              <li><a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a> owner</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li><a href="/jobs/expert/">Expert</a> on: Redis, Unicorn, Kerberos</li>
