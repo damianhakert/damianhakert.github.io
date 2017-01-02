@@ -57,6 +57,7 @@ Week 5:
 
 - Monday  Marketing   Tim
 - Tuesday Edge Remy
+- Wednesday Partnerships Eliran
 - More marketing groups
 
 ## Agenda
