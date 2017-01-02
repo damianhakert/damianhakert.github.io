@@ -17,7 +17,7 @@ Functional Group Updates are regular updates from a group at GitLab.
 1. Tone should be informal, like explain to a friend what happend in the group last month, it shouldn't require a lot of presentation.
 1. You can invite someone in the team to give it, it doesn't need to be the team lead, but the team lead is responsible that it is given.
 1. Calls are 4 times a week 30 minutes before the team call, 8:00 to 8:25am Pacific.
-1. Calls do not go over time, if there are more questions invite them via chat.
+1. Calls do not go over time, if there are more questions invite them via chat, if there are no more questions feel free to end the call after 5 minutes.
 1. Calls are scheduled by an [EA](https://about.gitlab.com/jobs/executive-assistant/) who can also switch team based on availability of the presenter.
 1. Every group with 5 people or more presents.
 
