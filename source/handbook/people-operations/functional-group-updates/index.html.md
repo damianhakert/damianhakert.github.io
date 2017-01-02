@@ -27,7 +27,7 @@ There is a rotating schedule:
 
 Week 1:
 
-- Monday Edge Sean
+- Monday Discussion Sean
 - Tuesday Product Job
 - Wednesday   General Sid
 - Thursday    Sales   Chad
@@ -56,6 +56,7 @@ Week 4:
 Week 5:
 
 - Monday  Marketing   Tim
+- Tuesday Edge Remy
 - More marketing groups
 
 ## Agenda
