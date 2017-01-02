@@ -57,6 +57,7 @@ title: Security Handbook
    visit can already be used to execute a [0-day attack]. We simulate phishing
    attacks by having an external service send emails to our company email
    addresses to ensure everyone is aware of the threat.
+1. If you get strange emails personally or other things related to security feel free to ask our security people for help, [they might be aiming for the company](https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b).
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
 1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
