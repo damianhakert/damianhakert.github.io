@@ -36,6 +36,7 @@ title: Leadership
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
 1. A tweet by [Sam Altman](https://twitter.com/sama/status/804138512878473220) combined the reply by [Paul Graham](https://twitter.com/paulg/status/804209365305659392) says it best: "People either get shit done or they don't. And it's easy to be tricked because they can be smart but never actually do anything.". Watch for results instead of articulate answers to questions, otherwise you'll take too much time to indentify underperformers.
+1. [Our summits](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/) are meant for informal communication and bonding accross the company. There is a limited time for business activities during the summit so all our regular meetings should happen outside of the summit. We want informal, cross team, open-ended meetings, that includes individual contributors, for example inviting everyone including sales to suggest currently missing functionality in GitLab. Formal, team restricted, structured meetings, where not everyone is welcome shouldn't happen, for example an executive team meeting to set the yearly budget.
 
 ## Grovo
 
