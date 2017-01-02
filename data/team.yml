@@ -374,6 +374,7 @@
   gitlab: rdavila
   maintains: |
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/license-app">license-app</a> (internal)</li>
+             <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/payment_app">Zuora Payment App</a> (internal)</li>
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
              <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
