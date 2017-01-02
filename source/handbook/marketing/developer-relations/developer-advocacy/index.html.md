@@ -312,6 +312,10 @@ Use English
 
     -   If this is not known, alert the infrastructure team, and thank the reporter. 
 
+-   Request for consulting or development.
+
+    - If a GitLab user would like to engage the GitLab team for custom consulting, for example to sponsor a feature, they can contact via this form: [Development](https://about.gitlab.com/development/).
+
 ### Facebook
 
 - We post blog articles there if we think they are good and relevant.
