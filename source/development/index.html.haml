@@ -1,0 +1,47 @@
+---
+layout: default
+title: Development
+suppress_header: true
+extra_css:
+  - development.css
+---
+.wrapper
+  .development-picture-container
+    .development-overlay
+      .development-content
+        %h1 Development
+        %ul
+          %li If you are missing some functionality in GitLab you can sponsor the development of it.
+          %li After you send in the form below we will check if the feature is acceptable to include in GitLab. If so we will first email back with a minimum cost estimate. This is to make sure the expectations of the work that is involved are realistic.
+          %li If the minimum estimate matches your expectations we will work on a detailed estimate. If you accept the detailed estimate we will give you an estimated release date and start the work.
+          %li
+            We will inform you when the feature is ready and
+            %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/blob/a88225b7689ab87b49908db23e1bebf1c7ea09d3/CHANGELOG#L8"} note your sponsorship in the Changelog
+            (unless you ask us not to, no problem). From then on your feature is a part of GitLab and will probably be maintained without any additional cost to you.
+  .centered-form.development-form
+    %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %form#mktoForm_1063
+    :javascript
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1063, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
+            return false;
+          });
+          function getgacid() {
+            try {
+              var tracker = ga.getAll()[0];
+              return tracker.get('clientId');
+            } catch (e) {
+              return 'n/a';
+            }
+          }
+          form.vals({
+            'gacid': getgacid()
+          });
+      });
+    #confirmform{style: "visibility:hidden;"}
+      %p Submission received!

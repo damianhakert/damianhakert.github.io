@@ -20,6 +20,7 @@ GitLab Inc. also offers:
 
 1. [Git and GitLab Training](https://about.gitlab.com/training/)
 1. [Consulting](https://about.gitlab.com/consultancy/)
+1. [Custom Development work](https://about.gitlab.com/development/)
 
 GitLab is a community project, over 1000 people worldwide have [contributed to GitLab]!
 GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example. For more information see [Our stewardship of GitLab CE](#stewardship) further down this page.
