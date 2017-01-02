@@ -689,9 +689,17 @@ During a presentation or screen share, you might want to disable your notificati
 
 The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
-### Google Calendar Guest Modify Event Default
+### Google Calendar
+
+#### Guest Modify Event Default
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
+
+#### Filter Google Calendar invites
+
+Add a filter for:
+
+*.ics subject:("invitation" OR "accepted" OR "rejected" OR "updated" OR "canceled event" OR "declined") when where calendar who organizer
 
 ### Zoom
 
