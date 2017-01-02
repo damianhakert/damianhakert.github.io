@@ -13,7 +13,7 @@ title: "GitLab Onboarding"
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 * [Glossary](handbook/glossary/)
-* [Onboarding 101](/handbook/general-onboarding/onboarding-101) 
+* [Onboarding 101](/handbook/general-onboarding/onboarding-101)
 
 ----
 
@@ -127,6 +127,12 @@ welcome email to the employee at their work email on their first date of hire.
 
 1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
 This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
+
+#### GitLab Ltd employees only
+
+1. [ ] People Ops (Specialist): using the template, send new team member the UK payroll form and New Starter Checklist (only if the new team member does not have a P45) to complete (this can be found in the Google Drive/UK Documents folder). Fill in as much information as possible and stage in HelloSign for signature. Cc peopleops and Vistra (email address is located on the Payroll form)
+1.[ ] New Team Member: once you have received the payroll form please fill in the missing details and sign. This form will then be sent electronically to GitLab's payroll provider Vistra. If you have a P45 from your previous company please post this to Vistra at the address at the bottom of the payroll form. If you don't have a P45 then you must complete the New Starter Checklist and post this to Vistra.
+1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents
 
 #### All team members
 

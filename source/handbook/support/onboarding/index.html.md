@@ -358,9 +358,8 @@ information to solve the ticket.
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date
-[here](https://gitlab.com/gitlab-org/University/tree/master/training).
-Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
+[here](https://about.gitlab.com/training/).
+Importantly, requests for Service Engineer's time for training should be done via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Training' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
@@ -385,6 +384,20 @@ to see who can take over the days when you should be on-call. This can happen vi
 [support issue tracker](https://gitlab.com/gitlab-com/support/issues) or via
 a Hangout that you should schedule.
 See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information.
+
+**Calendar Availability**
+
+If your Calendly link is being given out to customers or interviewees to schedule
+calls with you, you need to make sure that no one schedules a call with you on
+the days you are away. See Calendly's instructions for handling this [here](https://help.calendly.com/hc/en-us/articles/223194148).
+When you create an all-day event in Google Calendar, the
+default behavior is to set you as **"Available"** for that day. This means that
+if you create an all-day event to mark yourself off, and even after creating that
+event if you change it to a **non-all-day-event** by giving it a time, people
+will be able to schedule calls with you on that day. You have to create an event
+that has a set time, from the time of creation, or change the event settings to
+mark you as **"Unavailable"**. It is not a bad idea to double check your
+availability on an **out-of-office** event after creating it.
 
 **Rest of the team**
 

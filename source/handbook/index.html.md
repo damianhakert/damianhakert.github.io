@@ -76,7 +76,7 @@ There are exceptions, material that is not public by default is documented in th
 On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
-We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
+We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. Give short answers to verbal questions so the other party has to opportunity to ask more or move on. And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense.".
@@ -93,7 +93,7 @@ Clearly make negative feedback about the work itself, not the person. When givin
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
-1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we have added
@@ -114,7 +114,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender, or sexual orientation.
 1. Use **inclusive** language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys".
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (As inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules).)
@@ -137,7 +137,8 @@ people. We try to hire people who think work is a great way to express themselve
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
 1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook."
+1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook.".
+1. Also see our [leadership guidelines](https://about.gitlab.com/handbook/leadership/#guidelines).
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Handbook Usage
 {: #handbook-usage}
@@ -163,6 +164,7 @@ After it is merged you can talk about it during the team call if applicable. You
 1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking "Can you please update the handbook first?"
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking "Can you please link to the relevant part of the handbook?"
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+1. If someone inside or outside GitLab makes a good suggestion invite them to add it to the handbook. Send the person the url of the relevant page and section and offer to do it for them if they can't. Having them make and send it will make the change and review reflect their knowledge.
 
 Many things are documented in the handbook, but it will mostly be read by team members. If something concerns users of GitLab, it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
@@ -266,7 +268,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions, submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned to an issue but don't have time to work on it, assign it to someone else. If nobody is assigned to an issue and it is not a priority, please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: Is there a team member waiting for the answer? What is the impact if you delay it? How many people does it affect, etc.? This is detailed in [Engineering Workflow](/handbook/engineering/workflow).
-1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). We do still use some private issue trackers on our internal dev.gitlab.org server, such as for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
+1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). Issue trackers that can be found on the relevant page in the handbook and in the projects under [the gitlab-com group](https://gitlab.com/gitlab-com/).
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
@@ -687,9 +689,17 @@ During a presentation or screen share, you might want to disable your notificati
 
 The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
-### Google Calendar Guest Modify Event Default
+### Google Calendar
+
+#### Guest Modify Event Default
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
+
+#### Filter Google Calendar invites
+
+Add a filter for:
+
+*.ics subject:("invitation" OR "accepted" OR "rejected" OR "updated" OR "canceled event" OR "declined") when where calendar who organizer
 
 ### Zoom
 
@@ -715,9 +725,6 @@ or merge request.
    as "Mentioned"
 1. Check "Also apply filter to matching conversations."
 1. Click "Create filter"
-
-If your username on dev.gitlab.org is different from your username on
-GitLab.com, you might want to create a similar filter for that username as well.
 
 #### Advance
 

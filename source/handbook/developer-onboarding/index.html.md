@@ -26,9 +26,10 @@ To start development, follow the instructions for the
 
 ## GitLab Repositories
 
-Almost all repositories are available on both gitlab.com and dev.gitlab.org. We
-also mirror our biggest projects to [GitHub](https://github.com/gitlabhq),
-making them more widely available for people to contribute.
+Almost all repositories are available on both GitLab.com and dev.gitlab.org. We
+also mirror to dev.gitlab.org for availability reasons and [GitHub](https://github.com/gitlabhq) for historical reasons.
+
+All issues should be filed on GitLab.com.
 
 ### GitLab Community Edition (CE)
 

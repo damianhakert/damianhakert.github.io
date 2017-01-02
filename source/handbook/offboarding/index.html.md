@@ -9,7 +9,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create issue called 'Offboarding (NAME), per (DATE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in [the peopleops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
 1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
@@ -182,7 +182,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR CORE TEAM MEMBERS ONLY
 
-1.  [ ] People Ops: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core  
+1.  [ ] People Ops: Remove e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
 1.  [x] _not relevant, People Ops: Have member sign NDA.
 1.  [ ] People Ops: Remove member to #core in Slack.
 1.  [ ] People Ops: Remove member developer access to [gitlab-org](https://gitlab.com/groups/gitlab-org).
