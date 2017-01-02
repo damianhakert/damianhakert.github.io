@@ -12,7 +12,7 @@ Functional Group Updates are regular updates from a group at GitLab.
 1. All calls except sales and finance are public unless mentioned otherwise, in the future all calls will be public.
 1. Right now everyone at GitLab the company is invited to each call, we'll invite the wider community later.
 1. Attendence is optional.
-1. Video will be published on our blog so contributers, users, and customers can see it. We'll probably publish a week of recordings in one go.
+1. Video will be published on our blog so contributers, users, and customers can see it. We'll probably publish a week of recordings in one go with [automated transcriptions](https://www.labnol.org/internet/transcribe-video-to-text/28914/)
 1. The update is also announced on and the recording linked from our team call agenda.
 1. Tone should be informal, like explain to a friend what happend in the group last month, it shouldn't require a lot of presentation.
 1. You can invite someone in the team to give it, it doesn't need to be the team lead, but the team lead is responsible that it is given.
