@@ -35,6 +35,7 @@ title: Leadership
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
+1. A tweet by [Sam Altman](https://twitter.com/sama/status/804138512878473220) combined the reply by [Paul Graham](https://twitter.com/paulg/status/804209365305659392) says it best: "People either get shit done or they don't. And it's easy to be tricked because they can be smart but never actually do anything.". Watch for results instead of articulate answers to questions, otherwise you'll take too much time to indentify underperformers.
 
 ## Grovo
 
@@ -72,7 +73,7 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 1. "Nuke all matrices. Nuke all dual reporting structures. And nuke as many shared services functions as you possibly can." in the great [guide to big companies from Marc Andreessen](http://pmarchive.com/guide_to_big_companies_part2.html) (the other guides are awesome too).
 1. On this page we recommend to read High Output Management and its author coined Grove's law: All large organizations with a common business purpose end up in a hybrid organizational form. We believe a dual reporting structure is inevitable, we just want to delay it as long as possible.
 1. We want to promote organic cross-functional collaboration by giving people stable natural counterparts. A sales region will consist of a Sales Development Represenative, [Account Executive (AE)](https://about.gitlab.com/jobs/account-executive/), and [Success Engineer (SE)](https://about.gitlab.com/jobs/success-engineer/). A strategic customer has an AE, [Account Manager (AM)](https://about.gitlab.com/jobs/account-manager/), and SE assigned. Every backend team of developers maps to a [Product Manager (PM)](https://about.gitlab.com/jobs/product-manager/) and eventually a mapping frontend team.
-1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). The advantage is that you can make one strong integrated product. But we can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products.
+1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). The advantage is that you can make one strong integrated product. But we can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products. The fact that we're in touch with the market by using our own product also helps.
 
 ## Articles
 
