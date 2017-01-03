@@ -61,7 +61,7 @@ and complete all the tests.
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
 * [ ] Using either Zoom or WebEx to record a demo.
-  * [ ] Scenario: A 500 seat organization that uses Jira, BitBucket and GitLab CE for various teams.
+  * [ ] Scenario: A 500 seat organization that uses Jira, BitBucket, and GitLab CE for various teams.
   * [ ] While preparing refer to the [Sales Demo Script](https://about.gitlab.com/handbook/sales/demo/).
   * [ ] Send your recording to your manager and **Chad Malchow**.
 

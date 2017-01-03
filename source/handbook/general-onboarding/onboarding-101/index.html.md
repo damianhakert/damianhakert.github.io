@@ -186,7 +186,7 @@ If you need any help with Git itself, subscribe to the `#git-help` channel on Sl
   1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 * As part of onboarding you created an account on our external / public [GitLab Server](https://gitlab.com). Have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role.
 * Learn how to use our Internal Issue Trackers:
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
+We use GitLab Issues to raise awareness, discuss, and propose solutions for various issues related to any aspect of our business.
 The most common Issues are created in the following projects:
   1. [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee/issues) - Issues related to GitLab Enterprise Edition
   1. [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce/issues) - customer requests
