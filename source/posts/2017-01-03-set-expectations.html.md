@@ -8,7 +8,6 @@ description:
 
 With GitLab Inc growing to more than 150 people working remotely and steadily
 increasing, inevitably new challenges come up while building great software.
-
 We never shied away from hierarchy, but recently I’ve been noticing a trend
 towards more traditional people management in an effort to maintain focus on
 shipping at scale.
@@ -24,7 +23,6 @@ Below I’ll share some more detailed thoughts on this subject.
 When a team grows from five to thirty to a hundred people, some parts of the
 team will fail at some point. Be that in the form of missing a deadline or not
 delivering quality work.
-
 Of course, larger organisations want to solve this permanently. If there
 already is an established hierarchy, it’s likely that the managers of the
 failing team will ask themselves:
@@ -55,7 +53,6 @@ waste of time.
 You must set clear expectations for any and all work. These expectations should
 include a clear scope, time of delivery, but more importantly: communication
 expectations.
-
 Communication expectations are easily outlined:
 
 - I expect that you will let me know immediately if you think that this deliverable will not make the deadline
