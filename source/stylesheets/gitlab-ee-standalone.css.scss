@@ -83,12 +83,19 @@ body {
   }
 
   .orgs-row {
-    // name orgs-row or something
     text-align: center;
-    margin-bottom: 20px;
 
-    svg {
-      margin-right: 10px;
+    > svg {
+      float: left;
+      width: 50%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 20px;
+
+      @media (min-width: $screen-sm-min) {
+        float: none;
+        width: auto;
+      }
     }
   }
 }
