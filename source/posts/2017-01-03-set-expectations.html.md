@@ -50,6 +50,7 @@ Reviewing work in progress both directly, and indirectly through meetings is a
 waste of time.
 
 > Q: But what happens if things go off the rails? How will I know? Who will handle it?
+>
 > A: Trust your people.
 
 You must set clear expectations for any and all work. These expectations should
