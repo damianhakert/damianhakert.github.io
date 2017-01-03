@@ -6,13 +6,15 @@ categories: inside gitlab
 image_title: /images/blogimages/code-gitlab-tanuki.png
 description: GitLab's Head of Product shares an inside look at iterating on one of our latest features.
 ---
-A bunch of us on the GitLab team have known for a while just how important review apps are. Even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it because of how we'd seen it transform a developer's flow. We also knew that tightly integrating it into GitLab would make it even better. Although our aspirations for the feature started out gigantic and magical, we ultimately constrained them to the practical and concrete. Here's a behind-the-scenes look at how we iterated and shipped Review Apps over the last 3 releases.
+A bunch of us on the GitLab team have known for a while just how important review apps are. Even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it because of how we'd seen it transform a developer's flow. We also knew that tightly integrating it into GitLab would make it even better. Although our aspirations for the feature started out gigantic and magical, we ultimately constrained them to the practical and concrete. Here's a behind-the-scenes look at how we iterated and shipped [Review Apps](https://about.gitlab.com/features/review-apps/) over the last 3 releases.
 
 <!-- more -->
 
 Full disclosure: I used to work at Heroku on the team that shipped [Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps), and some of that work was inspired by a tool called [Fourchette](https://github.com/rainforestapp/fourchette), which was created by the great folks at [Rainforest QA](https://www.rainforestqa.com/). Even outside of my personal bias, our CEO, CI Lead and others had seen things like this elsewhere and saw how transformative it could be.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CteZol_7pxo?start=1713" frameborder="0" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/CteZol_7pxo?start=1713" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 There are a ton of different ways we could have shipped it. We started months ago, mostly discussing asynchronously on GitLab issues, with big ideas that made Review Apps seem kind of daunting. We had ideas for black magic to detect Kubernetes settings, configure all the review app stuff for you, make them work only for merge requests rather than for every branch, etc. It felt like something that might not ship for months, if not years, because of all the complexity and dependencies.
 
@@ -27,22 +29,22 @@ Here are a few links to some of the issues we went through, starting with a larg
 * [#21411](https://gitlab.com/gitlab-org/gitlab-ce/issues/21411) - How do we do deploys, _3 months ago_
 * [#21971](https://gitlab.com/gitlab-org/gitlab-ce/issues/21971) - Dynamic environments aka Review Apps, _2 months ago_
 
-**8.12**
+## 8.12
 
 We initially offered experimental support for Review Apps in GitLab 8.12. At that point, we had reduced it to just one or two seemingly small changes to the `.gitlab-ci.yml` format. Specifically, we let you specify the URL of an environment in `.gitlab-ci.yml` (rather than just in the web UI), and we let you use variables within the environment name and URL. Trivial, right? One extra keyword and another small change enabled environments to now be “dynamic,” which is the core of Review Apps.
 
-```
+```yaml
 review_apps:
   environment:
     name: review/$CI_BUILD_REF_NAME
     url: http://$CI_BUILD_REF_NAME.review.gitlab.com/
 ```
 
-**8.13**
+## 8.13
 
 Then in 8.13 we implemented another key piece: the ability to delete or stop apps. Again, there were all sorts of complex ideas for how to solve this, but we settled on the smallest change possible that enabled the feature. In this case, that was reusing our existing concept of manual actions, or jobs that run in a pipeline only when a user triggers them manually from the web UI. So we said, if you can script how to delete your app, just create a manual action job for it. Then we added a new keyword in `.gitlab-ci.yml` so you could identify which of these jobs stopped the environment, and we displayed a different UI for that - now you get a little square stop button instead of the triangle play button. Again, pretty trivial.
 
-```
+```yaml
 review:
   environment:
     name: review/$app
@@ -56,12 +58,14 @@ stop_review:
     action: stop
 ```
 
-**8.14**
+## 8.14
 
 Most recently, in the 8.14 release, we made it so that we automatically detect when a branch is deleted, and run that manual action automatically for you. We also realized that with tons of Review Apps, your environments list might get unmanageable. To mitigate this, we came up with the convention that if you named your review app starting with a common name and then a slash, we’d treat that like a folder by which to group your apps, so the interface can show a bunch of Review Apps behind a collapsed folder. Once again, these are relatively small changes.
 
 * Auto-stop on branch delete
 * Folders in environment list
+
+## Wrap up
 
 Ultimately this really complex, life changing feature was broken down into 3 releases of the minimal viable change.
 
