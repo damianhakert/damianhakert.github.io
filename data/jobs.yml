@@ -176,3 +176,8 @@
   description: /jobs/performance-lead/
   apply: https://gitlab.workable.com/jobs/398569/candidates/new
   open: true
+
+- title: "Performance Specialist"
+  description: /jobs/performance-specialist
+  apply:
+  open: true
