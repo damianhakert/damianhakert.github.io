@@ -13,11 +13,11 @@ TODO: INTRO
 
 For a visual of how far we’ve come, take a look at these two screenshots.
 
-![Screenshot of an issue from GitLab 8.4 on January 22, 2016](gitlab-8-4.png)
+![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png)
 
 An issue for GitLab Community Edition on January 22, 2016 (8.4). 
 
-![Screenshot of an issue from GitLab 8.15 on January 3, 2017](gitlab-8-15.png)
+![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png)
 
 An issue for GitLab Community Edition on January 3, 2017 (8.15).
 
