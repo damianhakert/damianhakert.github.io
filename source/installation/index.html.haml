@@ -60,6 +60,16 @@ extra_css:
               %p
                 %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker"} Docker installation instructions
                 for a container based on the Omnibus packages
+            %li
+              %p
+                %a{href: "/aws"} GitLab Community Edition AMI for use on Amazon Web Services (AWS)
+            %li
+              %p
+                %a{href: "https://azure.microsoft.com/en-us/"} Microsoft Azure
+                is Microsoft's business cloud. Through the Azure Marketplace, you can spin up a pre-configured GitLab VM in just a few clicks.
+                Get started with
+                = succeed "." do
+                  %a{href: "/2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/"} this tutorial
         .method
           %h2#one-click-install-providers One-click install providers
           %p
@@ -70,9 +80,6 @@ extra_css:
             but instead start an vanilla Ubuntu instance and use the recommended Omnibus package installation.
             This is almost as quick as a one-click install and you're sure of the latest version and easy upgrades.
           %ul
-            %li
-              %p
-                %a{href: "/aws"} GitLab Community Edition AMI for use on Amazon Web Services (AWS)
             %li
               %p
                 %a{href: "https://www.digitalocean.com/features/one-click-apps/gitlab/"} Digital Ocean 1-Click Application Install
@@ -103,13 +110,6 @@ extra_css:
                 that can be installed on your Cloudron Smartserver. They actively track GitLab releases (
                 %a{href: "https://git.cloudron.io/cloudron/gitlab-app"} source
                 ) keeping your installation up-to-date.
-            %li
-              %p
-                %a{href: "https://azure.microsoft.com/en-us/"} Microsoft Azure
-                is Microsoft's business cloud. Through the Azure Marketplace, you can spin up a pre-configured GitLab VM in just a few clicks.
-                Get started with
-                = succeed "." do
-                  %a{href: "/2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/"} this tutorial
         .method
           %h2 Community installation methods
           %ul
