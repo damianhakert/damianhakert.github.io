@@ -103,6 +103,6 @@ We realize our competitors have started earlier and have more capital. Because w
 
 8. The low base price for EE is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
 
-## 2017 OKRs
+## Quarterly OKR
 
-OKRs for 2017 are documented in Lattice. We're waiting for a public link.
+Our quarterly Objectives and Key Results are documented in Lattice. We're waiting for a public link.
