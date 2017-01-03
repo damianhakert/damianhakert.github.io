@@ -22,10 +22,9 @@ The template can be used when coordinating a call with other engineering/sales t
 
 #### Intake, upgrade and installation support
 
-We offer intake, upgrade and installation support for our customers.
+For Premium Support customers, and customers who have purchased Implementation Support, we offer intake and installation support. Premium Support customers also receive live upgrade assistance. The different levels of service that are offered are described on the [support page](https://about.gitlab.com/support), and Implementation Support is described in more detail in the [support handbook](/handbook/support/#implementation-support).
 
-These call/screen sharing sessions involve guiding customers through the GitLab upgrade process or taking control of the customers server to perform the upgrade. You should make sure that the customer has a backup before you start the call, as they can take
-a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as
+Call/screen sharing sessions involve guiding customers through the GitLab upgrade process or taking control of the customers server to perform the upgrade. You should make sure that the customer has a backup before you start the call, as they can take a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as
 much as possible about the customer's instance as you can.
 
 **Important information to collect**
