@@ -691,13 +691,9 @@ The Notification Center can be quickly disabled by Option-Clicking the menu bar 
 
 ### Google Calendar
 
-#### Guest Modify Event Default
-
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
-#### Filter Google Calendar invites
-
-Add a filter for:
+Add a filter to remove invites responses from your inbox with the following query:
 
 *.ics subject:("invitation" OR "accepted" OR "rejected" OR "updated" OR "canceled event" OR "declined") when where calendar who organizer
 
@@ -705,9 +701,7 @@ Add a filter for:
 
 To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need to be able to organize calls longer than 40 minutes using Zoom, contact People Ops to be granted a [Pro account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro). By default, only Service Engineers and members of the Sales team are given Pro accounts during onboarding since their job routinely involves making video calls with (potential) customers.
 
-To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
-
-_Please add instructions on how to add the resulting video to our YouTube channel._
+To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording).
 
 ### Gmail
 
