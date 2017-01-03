@@ -46,7 +46,8 @@
     }).join('');
     this.suggestions.html(html);
     this.suggestionsListElements = $('.suggestions li');
-    this.suggestionsListElements.off('click touchstart').on('click touchstart', function(e) {
+    this.suggestionsListElements.on('click touchstart', function(e) {
+      e.stopPropagation();
       var target = $(e.target);
       this.searchContainer.val(target.text());
       this.suggestions.html('');
@@ -92,7 +93,8 @@
           showAppsAccordingToSearch.call(this, this.searchContainer.val());
           scrollToElement.call(this);
         }
-
+      } else if (e.keyCode === 27) {
+        this.suggestions.html('');
       } else if(e.keyCode === 8) {
         if(this.searchContainer.val() === '') {
           showAllApps.call(this);
@@ -138,16 +140,18 @@
     }
 
     ApplicationSearchBar.prototype.bindEvents = function() {
-      this.searchContainer.bind('change', displayMatches.bind(this));
-      this.searchContainer.bind('keyup', displayMatches.bind(this));
-      this.searchContainer.bind('blur', this.resetSearch.bind(this));
-      this.searchContainer.bind('focus', displayMatches.bind(this));
-      this.resetIcon.bind('click touchstart', this.resetSearch.bind(this));
+      this.searchContainer.on('change', displayMatches.bind(this));
+      this.searchContainer.on('keyup', displayMatches.bind(this));
+      $('body').on('click', this.resetSearch.bind(this));
+      this.searchContainer.on('focus', displayMatches.bind(this));
+      this.resetIcon.on('click touchstart', this.resetSearch.bind(this));
     }
 
     ApplicationSearchBar.prototype.resetSearch = function(e) {
       var $target = $(e.target);
-      this.suggestions.html('');
+      if(!$target.hasClass('search-apps')) {
+        this.suggestions.html('');
+      }
       if($target.hasClass('reset')) {
         this.searchContainer.val('');
         this.searchIcon.show();
