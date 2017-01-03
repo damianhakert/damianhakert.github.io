@@ -60,7 +60,7 @@ and complete all the tests.
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Review [Idea to Production Video](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) and record your own presentation of Idea to Prodution and send to manager
+* [ ] Review [Idea to Production Video](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) and record your own presentation of Idea to Production and send to manager
 * [ ] Record sales demo, using Zoom.
   * [ ] Scenario: A 500 seat organization that uses Jira, BitBucket, and GitLab CE for various teams.
   * [ ] While preparing refer to the [Sales Demo Script](https://about.gitlab.com/handbook/sales/demo/).
