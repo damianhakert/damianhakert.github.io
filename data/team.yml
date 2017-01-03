@@ -2165,6 +2165,17 @@
   gitlab:
   story:  |
           Joining January 3rd
+          
+- name: J.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
+  reports_to: Head of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
 
 - name: B.K.
   locality:
