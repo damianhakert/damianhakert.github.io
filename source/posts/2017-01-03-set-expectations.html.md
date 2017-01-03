@@ -3,14 +3,15 @@ title: "Set expectations, manage better"
 author: Job van der Voort
 author_twitter: Jobvo
 categories:
-description:
+description: I believe that creating overhead with meetings and reviews is a risk to the efficiency and remote culture of organisations. It should be actively avoided for an organisation to succeed remote at scale.
 ---
 
-With GitLab Inc growing to more than 150 people working remotely and steadily
-increasing, inevitably new challenges come up while building great software.
-We never shied away from hierarchy, but recently I’ve been noticing a trend
-towards more traditional people management in an effort to maintain focus on
-shipping at scale.
+With GitLab Inc growing to [more than 150 people](/team) working remotely and
+steadily increasing, inevitably new challenges come up while building great
+software.
+We never shied away from [hierarchy](/team/structure), but recently I’ve been
+noticing a trend towards more traditional people management in an effort to
+maintain focus on shipping at scale.
 
 I believe that creating overhead with meetings and reviews is a risk to the
 efficiency and remote culture of organisations. It should be _actively_ avoided
@@ -32,7 +33,7 @@ failing team will ask themselves:
 A senior manager will think back about the old days where everyone was
 performing well as a small team.
 
-Now reader, how would you solve this? Obviously this was an oversight by
+Now, reader, how would you solve this? Obviously this was an oversight by
 management: they should’ve seen this earlier. The solution is to improve or
 create a reporting structure where management reviews the status of projects
 and teams more frequently.
@@ -87,3 +88,15 @@ From personal experience, being a little more pushy and impatient that you’d b
 in everyday life is enormously beneficial to this end.
 
 Over-communicating is a small cost to pay for the freedom of working remotely.
+
+## At GitLab
+
+I wrote this as a response to observations I made at GitLab. That said,
+it already was a company policy to specifically look for people that
+manage themselves. This is [what we write in our handbook on this topic](https://about.gitlab.com/handbook/leadership/):
+
+> We don't have project managers. Individual contributors need to manage themselves. Not everyone will be able to do this effectively and be fit for our organization. Making someone responsible for managing others will make the job of the people that can manage themselves worse. If you manage yourself you have a much greater freedom to make decisions, and those decisions are based on deep knowledge of the situation. We want to retain the people that can handle that responsibility and therefore we can't retain the ones that struggle. Assigning a project manager/coordinator/case manager/etc. to something is an indicator that something is wrong and we are picking the wrong solution.
+
+We write these and other lessons in our single source of truth,
+[our handbook](/handbook). Like (almost) everything at GitLab, our handbook is
+open source and you're welcome to read it and contribute to it.
