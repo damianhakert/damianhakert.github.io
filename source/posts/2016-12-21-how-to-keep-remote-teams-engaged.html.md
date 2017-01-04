@@ -1,5 +1,5 @@
 ---
-title: "How to keep remote (volunteer) teams engaged"
+title: "How to Keep Remote (Volunteer) Teams Engaged"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: customer stories
