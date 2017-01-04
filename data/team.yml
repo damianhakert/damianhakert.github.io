@@ -61,6 +61,7 @@
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
   maintains:  |
+              <li><a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a> owner</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li><a href="/jobs/expert/">Expert</a> on: Redis, Unicorn, Kerberos</li>
@@ -374,6 +375,7 @@
   gitlab: rdavila
   maintains: |
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/license-app">license-app</a> (internal)</li>
+             <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/payment_app">Zuora Payment App</a> (internal)</li>
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
              <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
@@ -1600,7 +1602,7 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: Content Marketing Manager
+  reports_to: Interim VP of Marketing
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
@@ -1931,7 +1933,7 @@
   locality: London
   country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
-  reports_to: Content Marketing Manager
+  reports_to: Interim VP of Marketing
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
   gitlab: rebeccad
@@ -2062,6 +2064,8 @@
   picture: harish-ramachandran.jpg
   twitter: harishsr
   gitlab: harish
+  maintains: |
+             <li>On-call hero!</li>
   story:  |
           Ever since Harish rediscovered his childhood joy of programming, he has spent most of his time either on the computer writing code or learning new ways to code.  He loves spending the rest of his time with his lovely wife and two kids, or hanging out with friends in Jacksonville, Florida.  He also enjoys exercising and you will usually find him beginning each day with a trip to the gym.
 
@@ -2112,7 +2116,7 @@
 - name: Sam Rose
   locality: Knoxville, TN
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Junior Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: sam.jpg
   twitter: _SamRose3_
@@ -2131,16 +2135,22 @@
   story:  |
           Joining January 2nd
 
-- name: T.C.
-  locality:
-  country:
+- name: Toon Claes
+  locality: Herentals
+  country: Belgium
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: toon.png
+  twitter: to1ne
+  gitlab: to1ne
   story:  |
-          Joining January 2nd
+          Toon's interest in electronics and computers started when he was a young boy. He
+          learned how to solder using broken circuit boards his father replaced while
+          repairing televisions. And when his parents got their first computer, he learned
+          MS-DOS and started programming by typing over BASIC programs from
+          magazines. Over the years the interest in computer kept on growing.
+          Most of the time Toon lives inside Emacs typing code on one of his
+          mechanical ergonomic keyboards.
 
 - name: T.R.
   locality:
@@ -2164,6 +2174,29 @@
   story:  |
           Joining January 3rd
 
+
+- name: X.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/Success-Engineer-APAC-and-Channel/">Success Engineer APAC & Channel</a>
+  reports_to: Director of Global Alliances and APAC Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd
+
+- name: J.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
+  reports_to: Head of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+
 - name: B.K.
   locality:
   country:
@@ -2174,3 +2207,14 @@
   gitlab:
   story:  |
           Joining January 9th
+
+- name: D.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager-ci/">Senior Product Manager (CI/CD Pipelines)</a>
+  reports_to: Head of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 23rd

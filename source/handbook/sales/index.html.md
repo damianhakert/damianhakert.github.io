@@ -189,7 +189,7 @@ Gitorious Opportunities:
 1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new purchasing group.
-1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
+1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased, or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages
 
@@ -197,7 +197,7 @@ Gitorious Opportunities:
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
 1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
-1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
+1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance, and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 1. Unqualified - This should only be used when an opportunity is passed from the BDR team, but does not meet our standard qualification criteria. Once you've moved the opportunity to Discovery or later, the opportunity can no longer be marked as Unqualified.
@@ -451,7 +451,7 @@ A reseller quote has a few different things than a regular quote:
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
 * Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.
 * Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
-* Discount: Authorized resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fulfillment houses like SHI, Insights or other resellers that are not authorized resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
+* Discount: Authorized resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fulfillment houses like SHI, Insights, or other resellers that are not authorized resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
 When in doubt please consult the reseller team.
 
 ### Workaround for the lack of a reseller quote template
@@ -488,8 +488,8 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
   * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
-1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term and pricing.  Quote is also needed to confirm they agree to terms and conditions.  
-  * If a PO is received, we need to receive a signed quote showing the products, # of users, term and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
+  * If a PO is received, we need to receive a signed quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
 
 Once the above has happened, please make sure that the following fields are populated, otherwise you will receive an error message when submitting the opportunity for approval:
 

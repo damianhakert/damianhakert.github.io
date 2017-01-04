@@ -78,12 +78,14 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply: 
+  salary: 117530
+  apply:
   open: false
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
-  apply: 
+  salary: 117530
+  apply:
   open: false
 
 - title: "Production Engineer"
@@ -116,7 +118,7 @@
 - title: "Success Engineer (APAC and Channel)"
   description: /jobs/Success-Engineer-APAC-and-Channel/
   apply: https://gitlab.workable.com/jobs/338848/candidates/new
-  open: true
+  open: false
 
 - title: "Build Engineer"
   description: /jobs/build-engineer
@@ -162,12 +164,12 @@
 
 - title: "Regional Director Sales, US"
   description: /jobs/regional_director_sales/regional-director-sales
-  apply: 
+  apply:
   open: false
 
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
-  apply: 
+  apply:
   open: false
 
 - title: "Performance Lead"

@@ -10,6 +10,15 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 ```
 1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in [the peopleops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
+
+#### For GitLab BV Belgium only
+
+1. [ ] People Ops: Once the termination date is known verify with Senior People Operations Director or CEO that the non-competition clause is to be waived or enforced.
+1. [ ] Non-competition waived: People Ops: send a letter (in French or Dutch depending on location in Belgium) via registered mail and by email to the team member within 15 days of the termination date.
+1. [ ] Non-competition enforced: People Ops: to inform Financial Controller & instruct payroll to pay the team member a lump sum as stated in the contract  
+
+#### All team members
+
 1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
@@ -66,7 +75,7 @@ and removing them from everywhere except blog posts. If you do not have a tool o
 welcome email to the employee at their work email on their first date of hire.
 1. [x] _not relevant_ New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 1. [x] _not relevant_ People Ops: complete the employer portion of the I9 in TriNet within three days of hire
-1. [x] _not relevant_ New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
+1. [x] _not relevant_ New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 1. [x] _not relevant_ People Ops: Set up new hire training with TriNet (If necessary).
 
 #### For GitLab BV employees only

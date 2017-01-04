@@ -38,3 +38,5 @@ See the [marketing handbook](https://about.gitlab.com/handbook/marketing/) for d
 * Demonstrated use of analytics to double down on successful efforts and groups
 * Outstanding written communication skills
 * Desire to develop a team
+
+## To Apply - reach out to: kevin@carbonpartners.io 

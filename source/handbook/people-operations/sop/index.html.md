@@ -47,10 +47,14 @@ Any changes to a team member’s status, classification, promotion/demotion, pay
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
 the changes in BambooHR under the relevant section on the Jobs tab in the member’s profile; and then file the email in the Contracts and Changes folder in the Document tab.
 
-Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
-is responsible for seeing the change through to completion. Once completed, People Ops
+Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. If the team member is located in the UK, Belgium or India an email with the change will need to be sent to the payroll provider/co-employer.  
+People Ops is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
+
+### Process for Monthly Payroll Approval (UK, Belgium & India)
+
+Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
 
 ### Using BambooHR
 
@@ -318,7 +322,7 @@ Select next or save (if you select save, it will hold your information)
     * Workers compensation- select unknown and it will default to our principle class code for our industry
 Window: Describe employees job duties - simple description
 
-After submission -  you will receive a prompt for final submission, select and submit.
+After submission -  you will receive a prompt for final submission, select, and submit.
 
 Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue.
 
@@ -359,7 +363,7 @@ You can also follow the same process for assigning a role to a GitLab Inc. emplo
 1. Click Find Location.
 1. When search field appears, leave blank and click Search.
 1. Click on Add location.
-1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
+1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state, and zip.
 1. Click Add.
 
 ##### Transfer Employee to Different Location

@@ -236,7 +236,7 @@ This also helps prevent spam from people outside GitLab requesting accessing to 
 **Video Chats**
 
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during
+1. Having pets, children, significant others, friends, and family visible during
 video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say "Hi".
 
@@ -294,8 +294,8 @@ step, **re-assign** the issue to that person.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
 1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in one of these issues.
-1. It you notice that the tests for the master branch of GitLab CE are failing (red) or broken (green as a false positive), fixing this takes priority over everything else development related, since everything we do while test are broken may break existing functionality, or introduce new bugs and security issues. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, create an issue, post about it in `#development`, and `@mention` the Backend Leads and CTO in the issue and on Slack, so that they are aware of it, the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
-1. It you find or are alerted of a security issue, major or small, fixing this takes priority over everything else development related. Create an issue, post about it in `#development`, and `@mention` the Backend Leads and VP of Engineering in the issue and on Slack, so that they are aware of it. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, communicate this to them, so that the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
+1. If you notice that the tests for the master branch of GitLab CE are failing (red) or broken (green as a false positive), fixing this takes priority over everything else development related, since everything we do while test are broken may break existing functionality, or introduce new bugs and security issues. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, create an issue, post about it in `#development`, and `@mention` the Backend Leads and CTO in the issue and on Slack, so that they are aware of it, the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
+1. If you find or are alerted of a security issue, major or small, fixing this takes priority over everything else development related. Create an issue, post about it in `#development`, and `@mention` the Backend Leads and VP of Engineering in the issue and on Slack, so that they are aware of it. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, communicate this to them, so that the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
 
 ### Team Call
 
@@ -497,8 +497,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
-    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+    *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
@@ -511,7 +511,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. As part of onboarding you will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  For step by step instructions on creating, submitting, and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
     *  If you are an employee with a company credit card, your company credit card charges will automatically be fed to a new Expensify report each month. Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
    * **Expense Policy**
       * Max Expense Amount - 5,000 USD or 5,000 EUR
@@ -599,7 +599,7 @@ To claim the approved award, include a line item on your expense report or invoi
 
 Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
 When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
-If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
+If you need to sign, fill out, send, or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
 1. Names and email addresses of those who need to sign the document.
 1. Any contractual information that needs to be included in the document.
@@ -689,17 +689,19 @@ During a presentation or screen share, you might want to disable your notificati
 
 The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
-### Google Calendar Guest Modify Event Default
+### Google Calendar
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
+
+Add a filter to remove invites responses from your inbox with the following query:
+
+*.ics subject:("invitation" OR "accepted" OR "rejected" OR "updated" OR "canceled event" OR "declined") when where calendar who organizer
 
 ### Zoom
 
 To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need to be able to organize calls longer than 40 minutes using Zoom, contact People Ops to be granted a [Pro account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro). By default, only Service Engineers and members of the Sales team are given Pro accounts during onboarding since their job routinely involves making video calls with (potential) customers.
 
-To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
-
-_Please add instructions on how to add the resulting video to our YouTube channel._
+To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording).
 
 ### Gmail
 
@@ -814,7 +816,7 @@ If you are working on multiple GitLab instances and want to have a visual differ
 to be just `mary`.
 - **Note:** each GitLab account is tracked by an **userID**, which is a number stored in
 a database. If we change the username, the userID does not change. And all the
-permissions, issues, MRs and relevant stuff within GitLab are related to your
+permissions, issues, MRs, and relevant stuff within GitLab are related to your
 **userID**, not with your username.
 - **Note:** if you are not a GitLab Team member, the same process applies; except
 your e-mail ([STEP 2](#change-username-step-2)), which will be different
@@ -853,7 +855,7 @@ the same time.
 - Look for your username. This operation has to be done quickly, otherwise you are
 risking to loose your awesome new username to someone else quicker than you. We
 need to **swap** the usernames between both accounts, so you'll keep all your
-history, your privileges, issues and MRs assigned to you, etc.
+history, your privileges, issues, and MRs assigned to you, etc.
 - If you work with 2 monitors, open each browser on one monitor. If you don't,
 open them in parallel, so that you can keep an eye on both at the same time.
 - Rename your new username `mary` to something like `mary-1` and DO NOT click

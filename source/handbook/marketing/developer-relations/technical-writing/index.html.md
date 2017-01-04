@@ -23,7 +23,7 @@ help GitLab to:
 
 - have all features well documented
 - ensure the information regarding GitLab CE/EE/CI and its particularities are up to date
-- write guides, recipes and blog content
+- write guides, recipes, and blog content
 - assist the team with documentation and non-documentation tasks
 - review every technical content published in the channels we use
 
@@ -32,10 +32,10 @@ help GitLab to:
 - setup and administrate their accounts
 - setup and update GitLab instances
 - use every tool and feature
-- handle integrations, services and tools
+- handle integrations, services, and tools
 
 Docs are written technically, methodically,
-programmatically, clearly and practically.
+programmatically, clearly, and practically.
 
 [Blog posts][blog] have the same purpose of assisting the GitLab community,
 but with a more flexible and reader-friendly language. Also,
@@ -66,7 +66,7 @@ When writing professionally, it's important to understand some standards to foll
 
 Technical papers have the characteristic of being less personal and more formal: they're not the right place to express our opinions, nor to give advice. Accuracy matters most.
 
-For classical scientific papers, the rules are much more restrictive and the language is absolutely formal. For blog posts, we need to use a middle term. Be clear, precise and professional, but be empathetic and "reader-friendly". A discrete and occasional touch of humor is also welcome.
+For classical scientific papers, the rules are much more restrictive and the language is absolutely formal. For blog posts, we need to use a middle term. Be clear, precise, and professional, but be empathetic and "reader-friendly". A discrete and occasional touch of humor is also welcome.
 
 When writing non-technical blog posts, we can be less formal and more personal, depending on the subject we are writing about. In any case, though, we need to be professional. Meaning, we can be friendly and personal, but we need to focus on the point. The method suggested in this document is valid for both technical and non-technical themes, once it's related to the process of writing, not to the content itself.
 
