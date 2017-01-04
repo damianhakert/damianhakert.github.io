@@ -91,7 +91,9 @@ Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs
 
 [GitLab 8.10 Release Post](https://about.gitlab.com/2016/07/22/gitlab-8-10-released/)
 
-Wildcard Branch Protection and Manual Actions for CI
+Wildcard Branch Protection
+
+Manual Actions for CI
 
 ## August: 8.11
 
@@ -101,13 +103,23 @@ GitLab 8.11 was probably the most exciting release of the year, bringing with it
 
 [Issue Boards](https://docs.gitlab.com/ce/user/project/issue_board.html) are another way of tracking project issues. Similar to existing kanban board software, issue boards integrate with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
 
+![Issue Boards](/images/8_11/issue_boards.gif)
+
 [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html)
+
+![Merge Conflict Resolution](/images/8_11/resolve_mc.gif)
 
 [Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
 
+![Resolve Discussions](/images/8_11/resolve_discussion.png)
+
 Pipeline Graphs are an awesome visual representation of a project's Pipeline.
 
+![Pipeline Graph](/images/8_11/pipeline_graph2.png)
+
 With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/slash_commands.html), comments can be used to modify the status, author, assignee, due date, milestone, and labels of a merge request or issue, among other things. This feature gives users more power over their issues and merge requests without ever leaving the keyboard or needing to memorize keyboard shortcuts.
+
+![Slash Commands](/images/8_11/slash-commands.gif)
 
 8.11 introduces integration with [Koding](http://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser.
 
@@ -117,9 +129,13 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 The headline feature of 8.12 was [Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html), a new way of tracking software development using the data GitLab gathers as you use it. See [our feature highlight](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
+![Cycle Analytics](/images/8_12/cycle_analytics.png)
+
 Code search was improved in Enterprise Edition 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
 
 [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html)
+
+![Merge Request Versions](/images/8_12/mr_versions.png)
 
 ## October: 8.13
 
@@ -127,7 +143,11 @@ Code search was improved in Enterprise Edition 8.12 with the addition of Global 
 
 Issue Boards were improved for EE users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
 
+![Multiple Issue Boards](/images/8_13/m_ib.gif)
+
 Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Resolution tool gained an Editor. This allows more complex merge conflicts, which require the user to manually modify a file in order to resolve a conflict, to be solved right form the GitLab interface.
+
+![Merge Conflict Editor](/images/8_13/inlinemergeconflictresolution.gif)
 
 ## November: 8.14
 
