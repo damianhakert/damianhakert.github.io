@@ -23,7 +23,7 @@ An issue for GitLab Community Edition on January 3, 2017 (8.15).
 
 ## January: 8.4
 
-[GitLab 8.4 Release Post](https://about.gitlab.com/2016/01/22/gitlab-8-4-released/)
+> [GitLab 8.4 Release Post](https://about.gitlab.com/2016/01/22/gitlab-8-4-released/)
 
 We kicked off the year with our 50th release of GitLab.
 
@@ -41,7 +41,7 @@ Improved repository search was added for Enterprise Edition with [Elasticsearch]
 
 ## February: 8.5
 
-[GitLab 8.5 Release Post](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/)
+> [GitLab 8.5 Release Post](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/)
 
 ### Todos
 
@@ -57,7 +57,7 @@ Also included in February's release was an alpha version of GitLab Geo. GitLab G
 
 ## March: 8.6
 
-[GitLab 8.6 Release Post](https://about.gitlab.com/2016/03/22/gitlab-8-6-released/)
+> [GitLab 8.6 Release Post](https://about.gitlab.com/2016/03/22/gitlab-8-6-released/)
 
 ### Confidential Issues
 
@@ -69,7 +69,7 @@ Confidential issues are issues visible only to members of a project with suffici
 
 ## April: 8.7
 
-[GitLab 8.7 Release Post](https://about.gitlab.com/2016/04/22/gitlab-8-7-released/)
+> [GitLab 8.7 Release Post](https://about.gitlab.com/2016/04/22/gitlab-8-7-released/)
 
 ### License Templates
 
@@ -85,7 +85,7 @@ Due dates were added for issues and merge requests. They can be used to keep tra
 
 ## May: 8.8
 
-[GitLab 8.8 Release Post](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/)
+> [GitLab 8.8 Release Post](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/)
 
 ### Pipelines
 
@@ -103,7 +103,7 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 ## June: 8.9
 
-[GitLab 8.9 Release Post](https://about.gitlab.com/2016/06/22/gitlab-8-9-released/)
+> [GitLab 8.9 Release Post](https://about.gitlab.com/2016/06/22/gitlab-8-9-released/)
 
 ### File Locking (EE)
 
@@ -125,7 +125,7 @@ Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs
 
 ## July: 8.10
 
-[GitLab 8.10 Release Post](https://about.gitlab.com/2016/07/22/gitlab-8-10-released/)
+> [GitLab 8.10 Release Post](https://about.gitlab.com/2016/07/22/gitlab-8-10-released/)
 
 ### Wildcard Branch Protection
 
@@ -133,7 +133,7 @@ Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs
 
 ## August: 8.11
 
-[GitLab 8.11 Release Post](https://about.gitlab.com/2016/08/22/gitlab-8-11-released/)
+> [GitLab 8.11 Release Post](https://about.gitlab.com/2016/08/22/gitlab-8-11-released/)
 
 GitLab 8.11 was probably the most exciting release of the year, bringing with it a number of major features and improvements.
 
@@ -173,7 +173,7 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ## September: 8.12
 
-[GitLab 8.12 Release Post](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/)
+> [GitLab 8.12 Release Post](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/)
 
 ### Cycle Analytics
 
@@ -193,7 +193,7 @@ Code search was improved in Enterprise Edition 8.12 with the addition of Global 
 
 ## October: 8.13
 
-[GitLab 8.13 Release Post](https://about.gitlab.com/2016/10/22/gitlab-8-13-released/)
+> [GitLab 8.13 Release Post](https://about.gitlab.com/2016/10/22/gitlab-8-13-released/)
 
 ### Multiple Issue Boards (EE)
 
@@ -209,7 +209,7 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 ## November: 8.14
 
-[GitLab 8.14 Release Post](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/)
+> [GitLab 8.14 Release Post](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/)
 
 ### Time Tracking Beta (EE)
 
@@ -229,7 +229,7 @@ For more information on Review Apps, see [our feature highlight](https://about.g
 
 ## December: 8.15 
 
-[GitLab 8.15 Release Post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/)
+> [GitLab 8.15 Release Post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/)
 
 Rounding off the year with GitLab 8.15, we finished the base of our idea-to-production toolset. Moving on to 2017, we'll be building on our current product to make it easier to use and more powerful.
 
