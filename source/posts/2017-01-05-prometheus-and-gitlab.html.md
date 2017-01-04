@@ -34,7 +34,7 @@ Meta: [gitlab-com/infrastructure/issues/589](https://gitlab.com/gitlab-com/infra
 1. [Bundle Prometheus with GitLab CE](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
 1. [Build High Available (Federated) prometheus monitoring solution](https://gitlab.com/gitlab-com/infrastructure/issues/760)
 
-So the first step is to add Prometheus to monitor GitLab installations themselves. I won’t go into details here; and I believe Pablo will be giving a talk about how we’re using it. But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up so you can use it to monitor your own instances of GitLab.
+So the first step is to add Prometheus to monitor GitLab installations themselves. I won’t go into details here; and I believe [Pablo will be giving a talk about how we’re using it](https://gitlab.com/gitlab-com/marketing/issues/594). But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up so you can use it to monitor your own instances of GitLab.
 
 ### Use Prometheus to monitor GitLab installation
 
