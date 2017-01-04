@@ -24,11 +24,11 @@ But then a few of us got together to see how we could simplify, starting with a 
 Here are a few links to some of the issues we went through, starting with a large meta issue, down to a concrete proposal and then counterproposal, until finally, the winning proposal emerged:
 
 * [#3286](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) - [Epic] GitLab Deploy, _opened 1 year ago_
-* [#14698](https://gitlab.com/gitlab-org/gitlab-ce/issues/14698) - Container scheduler for 4 use cases, _8 months ago_
-* [#20255](https://gitlab.com/gitlab-org/gitlab-ce/issues/20255) - [Meta] Review Apps, _4 months ago_
-* [#20054](https://gitlab.com/gitlab-org/gitlab-ce/issues/20054) - Review Apps as Runner job, _4 months ago_
-* [#21411](https://gitlab.com/gitlab-org/gitlab-ce/issues/21411) - How do we do deploys, _3 months ago_
-* [#21971](https://gitlab.com/gitlab-org/gitlab-ce/issues/21971) - Dynamic environments aka Review Apps, _2 months ago_
+* [#14698](https://gitlab.com/gitlab-org/gitlab-ce/issues/14698) - Container scheduler for 4 use cases, _9 months ago_
+* [#20255](https://gitlab.com/gitlab-org/gitlab-ce/issues/20255) - [Meta] Review Apps, _5 months ago_
+* [#20054](https://gitlab.com/gitlab-org/gitlab-ce/issues/20054) - Review Apps as Runner job, _5 months ago_
+* [#21411](https://gitlab.com/gitlab-org/gitlab-ce/issues/21411) - How do we do deploys, _4 months ago_
+* [#21971](https://gitlab.com/gitlab-org/gitlab-ce/issues/21971) - Dynamic environments aka Review Apps, _3 months ago_
 
 ## 8.12
 
