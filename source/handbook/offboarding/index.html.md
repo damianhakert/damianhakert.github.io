@@ -170,8 +170,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Finance: Remove from Comerica (as user or viewer only if in Finance)
 1. [ ] Finance: Remove from [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
-1. [ ] Finance: revoke company credit card (for all sales team members who are employees)
-1. [ ] People Ops: If credit card holder, remove from expense report calendar reminder
 1. [ ] Hiring Manager: Remove from sales meeting.
 1. [ ] Hiring Manager: Remove from [Recurly](https://app.recurly.com/login)
 1. [ ] People Ops: remove team member's Zoom account.
