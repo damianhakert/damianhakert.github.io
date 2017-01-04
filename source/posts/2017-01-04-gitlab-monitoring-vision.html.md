@@ -4,7 +4,7 @@ author: Mark Pundsack
 author_twitter: MarkPundsack
 categories:
 image_title:
-description: "First draft of our vision for monitoring within GitLab"
+description: "Our vision for monitoring within GitLab, using Prometheus"
 ---
 
 A little while ago, we presented a first draft of our vision for monitoring within GitLab. We [value transparency](https://about.gitlab.com/handbook/#values) so see below for the embedded video, link to slides, and transcript of the presentation. Please do give us your feedback on any of the linked issues!
