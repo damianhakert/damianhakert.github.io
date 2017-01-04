@@ -153,13 +153,31 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 [GitLab 8.14 Release Post](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/)
 
-Time Tracking Beta, Chat Commands, and Review Apps
+Time Tracking Beta
+
+![Time Tracking](/images/8_14/time.gif)
+
+We introduced [Chat Commands](https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html). Chat commands allow you to interact with your GitLab instance from Mattermost.
+
+A new addition to GitLab CI in this release was [Review Apps](https://docs.gitlab.com/ce/ci/review_apps/index.html). Review Apps can be used to deploy merge requests from your GitLab instance to a dev or staging environment for testing. At GitLab, we use these for testing [about.gitlab.com](https://about.gitlab.com) as well as [docs.gitlab.com](https://docs.gitlab.com).
+
+For more information on Review Apps, see [our feature highlight](https://about.gitlab.com/2016/11/22/introducing-review-apps/)
 
 ## December: 8.15 
 
 [GitLab 8.15 Release Post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/)
 
-Auto Deploy, Web Terminal, improved Git Hooks, and LaTeX support.
+Rounding off the year with GitLab 8.15, we finished the base of our idea-to-production toolset. Moving on to 2017, we'll be building on our current product to make it easier to use and more powerful.
+
+[Auto Deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
+
+The addition of the [Web Terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals) brings more power to the GitLab web interface. If you deploy to your environments with the help of a deployment service (e.g. Kubernetes), GitLab can open a terminal session to your environment and let you debug on your staging or – if you so dare – production site.
+
+![Web Terminal](/images/8_15/terminal_gif.gif)
+
+LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. 
+
+![LaTeX math in a comment](/images/8_15/math.png)
 
 ## Looking forward
 
