@@ -3,9 +3,10 @@ title: "Behind the scenes: How we built Review Apps"
 author: Mark Pundsack
 author_twitter: MarkPundsack
 categories: inside gitlab
-image_title: /images/blogimages/code-gitlab-tanuki.png
-description: GitLab's Head of Product shares an inside look at iterating on one of our latest features.
+image_title: '/images/blogimages/code-gitlab-tanuki.png'
+description: "GitLab's Head of Product shares an inside look at iterating on one of our latest features"
 ---
+
 A bunch of us on the GitLab team have known for a while just how important review apps are. Even though this wasn’t something that a lot of customers asked for, we knew we had to tackle it because of how we'd seen it transform a developer's flow. We also knew that tightly integrating it into GitLab would make it even better. Although our aspirations for the feature started out gigantic and magical, we ultimately constrained them to the practical and concrete. Here's a behind-the-scenes look at how we iterated and shipped [Review Apps](https://about.gitlab.com/features/review-apps/) over the last 3 releases.
 
 <!-- more -->
