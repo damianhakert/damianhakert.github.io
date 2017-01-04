@@ -25,40 +25,41 @@ And if you want to play along at home, here’s a link to your personalized [buz
 
 ## Minimum viable product (MVP)
 ### Use Prometheus to monitor GitLab installation
-We want to bundle up [Prometheus](https://prometheus.io/), ship it with GitLab CE, and use it to monitor GitLab itself.
 
-Meta: [gitlab-com/infrastructure/issues/589](https://gitlab.com/gitlab-com/infrastructure/issues/589), Discussion: [gdoc](https://docs.google.com/document/d/11LsrDXEEOB53TrqNY-XaR1OkwwsJCX8X-rDbMuNBKT0/edit)
+So the first step is to add [Prometheus](https://prometheus.io/) to monitor GitLab installations themselves. I won’t go into details here; and I believe [Pablo will be giving a talk about how we’re using it](https://gitlab.com/gitlab-com/marketing/issues/594). But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up with GitLab CE so you can use it to monitor your own instances of GitLab.
+
+Meta issue: [gitlab-com/infrastructure/issues/589](https://gitlab.com/gitlab-com/infrastructure/issues/589)
+
+Related issues:  
 1. [Expose service metrics via Prometheus](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/61)
 1. [Monitor CI end to end with prometheus](https://gitlab.com/gitlab-com/infrastructure/issues/543)
 1. [Build public monitoring infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues/414)
 1. [Bundle Prometheus with GitLab CE](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
 1. [Build High Available (Federated) prometheus monitoring solution](https://gitlab.com/gitlab-com/infrastructure/issues/760)
 
-So the first step is to add Prometheus to monitor GitLab installations themselves. I won’t go into details here; and I believe [Pablo will be giving a talk about how we’re using it](https://gitlab.com/gitlab-com/marketing/issues/594). But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up so you can use it to monitor your own instances of GitLab.
-
 ### Use Prometheus to monitor GitLab installation
 
+Here’s a couple screenshots I cribbed from some of those issues. Again, I’m not going to go into detail here. These are fairly traditional, if not ugly, dashboards using Prometheus and Grafana.
+
 ![Sidekiq stats](/images/blogimages/monitoring/sidekiq-stats.png)
-Here’s a couple screenshots I cribbed from some of those issues. Again, I’m not going to go into detail here.
 
 ![CPU Usage](/images/blogimages/monitoring/cpu-usage.png)
-These are fairly traditional, if not ugly, dashboards using Prometheus and Grafana.
 
 ## MVP+3
 
 ### Web Application Monitoring
-* Next step is to use Prometheus to [monitor end-user applications](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841)
-* A "New Relic"-like out-of-the-box experience
-* Our value won’t be in the deepness of the monitoring, it’ll be in the integration of monitoring into the rest of the experience.
+
+I kind of tongue-in-cheek called this MVP+3, but after some number of iterations, the next **major** step is to [use Prometheus to monitor end-user applications](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841). Ideally, providing a [New Relic](https://newrelic.com/)-like experience. Maybe it’s more accurate to say [Heroku-like monitoring](https://devcenter.heroku.com/articles/metrics) experience. New Relic does TONS of things we won’t touch for a long time, if ever. I believe there’s always a place for dedicated monitoring solutions that go deep. Our unique value won’t be in the deepness of the monitoring, it’ll be in the integration of monitoring into the rest of the experience. That may not be apparent in the initial release, but will show up later.
+
 MVP focuses on:
 * Limit to applications on Kubernetes
 * Response: Throughput, latency, errors
 * Resource: CPU, Memory, I/O
 
-I kind of tongue-in-cheek called this MVP+3, but after some number of iterations, the next **major** step is to use Prometheus to monitor end-user applications. Ideally, providing a New Relic-like experience. Maybe it’s more accurate to say Heroku-like monitoring experience. New Relic does TONS of things we won’t touch for a long time, if ever. I believe there’s always a place for dedicated monitoring solutions that go deep. Our unique value won’t be in the deepness of the monitoring, it’ll be in the integration of monitoring into the rest of the experience. That may not be apparent in the initial release, but will show up later.
-
 Initially we’ll focus on Kubernetes because that’s where we’re placing a few bets and installing Prometheus into every permutation of hardware is just too much to tackle. So to keep scope smaller, we’ll focus on Kubernetes.
+
 We’ll start by measuring throughput, latency (or response time), and error rates. I’m calling this response monitoring, and it’s the highest value we can deliver that works for monitoring any web stack.
+
 But measuring resources such as CPU, memory, and I/O might be easier for an MVP, so I’m keeping that open. Kubernetes may make some parts of that easier, but others harder. I don’t believe we should do all of this for an MVP, so my preference would be the web response side of things. The thinking goes: if one of the resources are constrained, say memory is entering swap too much, then that will show up as latency in the system. So I’d rather observe the material impact to the user directly. Unfortunately that means you don’t see anything until it’s already an impact. And knowing that latency is bad or error rates are up doesn’t help you debug the situation. That’s where resource monitoring can be useful. But still, as a first step, I want to know how my users are impacted and THEN find a way to debug it, at which point I may very well fire up New Relic to do more powerful analysis.
 
 ### Monitoring alert on merge request
@@ -81,9 +82,9 @@ The point is that monitoring is an essential part of environments, deployments, 
 
 ### Deployment history
 
-![Deployment history](/images/blogimages/monitoring/deploy-history-e747cf6fa6b33dd414e8099294091dca.png)
-
 This is a screenshot cribbed from New Relic, but I could imagine some of this information show up on our deployment history pages.
+
+![Deployment history](/images/blogimages/monitoring/deploy-history-e747cf6fa6b33dd414e8099294091dca.png)
 
 ## Future
 
@@ -101,7 +102,7 @@ So the future holds an infinite set of possibilities, but I’ll talk about a fe
 
 First, there’s more to flesh out in response and resource monitoring, covering whatever we don’t ship in the MVP, and going beyond.
 
-Then there’s status monitoring. Think Pingdom, which tracks whether your app is responding to a certain HTTP request to know if it’s “up” or “down”, and then alerting on that, and reporting uptime. The linked issue describes an MVP that just checks a URL after each deploy to see if your merge request borked the server or not. I have no idea yet what role Prometheus may play here.
+Then there’s status monitoring. Think [Pingdom](https://www.pingdom.com/), which tracks whether your app is responding to a certain HTTP request to know if it’s “up” or “down”, and then alerting on that, and reporting uptime. The linked issue describes an MVP that just checks a URL after each deploy to see if your merge request borked the server or not. I have no idea yet what role Prometheus may play here.
 
 Then there’s the broader application performance monitoring, which really is a superset of these other pieces, but I’m breaking it out to differentiate monitoring that usually requires your code to be instrumented with a client library installed in your application; like a Gem file or an npm module. Generally, it’s language, framework, and stack aware, can analyze code paths, and even profile database SQL queries.
 
@@ -113,13 +114,13 @@ Lastly, we’ve got user-defined or business metrics like signups, conversions, 
 
 Now, I’ve pretty much just defined the entirety of several monitoring industries. Obviously we’re unlikely to be best-of-breed in all of these. At least not in the next release or two. So again, the focus really is how we can provide the biggest bang-for-buck, the 20% effort that delivers 80% of the value, and really leverage our unique value, and that’s in our deep integration; making everything easier to use because it’s already there, and more impactful because it’s integrated across the experience. Anyone can show a graph of performance, where you can see that deploy 123 of merge request XYZ caused a problem, but alerting right on the merge request itself, right after deploying it, and emailing the authors of the actual changes about their impact, well, that’s just the tip of the iceberg of how monitoring could permeate the developer experience.
 
-### [Deploy monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/21413)
+### Deploy monitoring
 * Track status of deploy from start to finish
 * Finer state detail (ready, preparing, waiting, deploying, finished, failed)
 * Aware of rollout across multiple containers/servers
 * Ability to abort a deploy
 
-Now let’s go in a different direction and talk about something I’m calling deploy monitoring.
+Now let’s go in a different direction and talk about something I’m calling [deploy monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/21413).
 Deploys aren’t just binary pass/fail, and they’re not instantaneous, but we currently kinda treat them as if they’re both. Deploys can take significant time, going through many different states, and across many containers or servers. Being able to track and debug that complexity is pretty important, especially for larger organizations.
 
 ### Deployboard
@@ -178,10 +179,10 @@ It also helps stay true to the premise of continuous integration which is that e
 * Feature Flags as first-class citizens
 * Compare flag states across environments (e.g. staging has X, which is not yet enabled on production)
 
-![User flags](/images/blogimages/monitoring/user-flags.png)
-
 I'd like to see us work [feature flags into GitLab](https://gitlab.com/gitlab-org/gitlab-ee/issues/779) in a first-class way. To be honest, I really don’t know how to do that. But I know I’d like to visually see, at a glance, which features are in private beta, for example. If a product manager tries to turn a feature on for general availability, they’ll be subtly reminded that they should consider going through private beta first. Companies should be able to set a rollout policy of what percentages things should go through at each stage.
 If done right, it’ll encourage a good rollout process, and make it trivially easy for users to follow the flow, every time.
+
+![User flags](/images/blogimages/monitoring/user-flags.png)
 
 ### Feature Monitoring
 Now to bring this back to monitoring, feature flags are another rollout mechanism, similar to some of the deployment strategies. So we should be able to [monitor these](https://gitlab.com/gitlab-org/gitlab-ce/issues/24254), showing some analysis/graphing on them.
@@ -201,4 +202,4 @@ And with that, I’d like to thank you all for listening, and open it up to ques
 
 ---
 
-_P.S. I really love being able to work out in the open like this, publicly sharing our vision long before it's a reality. If you love the same, please check out or [jobs page](https://about.gitlab.com/jobs/). Tweet us [@GitLab](https://twitter.com/gitlab), add your questions below, and add suggestions to our [issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)!_
+_P.S. I really love being able to work out in the open like this, publicly sharing our vision long before it's a reality. If you love the same, please check out or [jobs page](https://about.gitlab.com/jobs/). We're looking for more [Prometheus Engineers](https://about.gitlab.com/jobs/prometheus-engineer/) (and many other positions)! Tweet us [@GitLab](https://twitter.com/gitlab), add your questions below, and add suggestions to our [issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)!_
