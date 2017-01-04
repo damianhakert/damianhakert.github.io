@@ -2,7 +2,7 @@
 title: "Prometheus and GitLab"
 author: Mark Pundsack
 author_twitter: MarkPundsack
-categories:
+categories: 'inside GitLab'
 image_title:
 description: "Completing the application lifecycle with monitoring"
 ---
@@ -19,11 +19,11 @@ A little while ago, we presented a first draft of our vision for monitoring with
 
 Thanks everyone for joining. Just to level set: This call is to go over a first draft of our vision for monitoring within GitLab. A version 0.1 of the vision, if you will. I’m presenting it so Sid and others can ask questions and critique it, and to share more broadly. If you’re looking for a polished presentation about a well-defined product, this is the wrong place. :)
 
-I’ll start by talking about a potential MVP, and then discuss future directions, and finally open it up to Q&A.
+I’ll start by talking about a potential minimum viable product (MVP), and then discuss future directions, and finally open it up to Q&A.
 
 And if you want to play along at home, here’s a link to your personalized buzzword bingo card for the presentation.
 
-## MVP
+## Minimum viable product (MVP)
 ### Use Prometheus to monitor GitLab installation
 We want to bundle up [Prometheus](https://prometheus.io/), ship it with GitLab CE, and use it to monitor GitLab itself.
 
