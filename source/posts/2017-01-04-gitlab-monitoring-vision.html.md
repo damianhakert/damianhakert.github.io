@@ -7,15 +7,13 @@ image_title:
 description: "Our vision for monitoring within GitLab, using Prometheus"
 ---
 
-A little while ago, we presented a first draft of our vision for monitoring within GitLab. We [value transparency](https://about.gitlab.com/handbook/#values) so see below for the embedded video, link to slides, and transcript of the presentation. Please do give us your feedback on any of the linked issues!
+A little while ago, we presented a first draft of our vision for monitoring within GitLab. We [value transparency](https://about.gitlab.com/handbook/#values), so see below for the recorded video and transcript of the presentation, or view the [slides](https://docs.google.com/presentation/d/12SDArWFfr8fGOZEOqUOwn7NMwfuGKBeS1KLJxtBVyMM/edit?usp=sharing) directly. Please do give us your feedback on any of the linked issues!
 
 <!-- more -->
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/NFPGtbQfL1A" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-[Slides](https://docs.google.com/presentation/d/12SDArWFfr8fGOZEOqUOwn7NMwfuGKBeS1KLJxtBVyMM/edit?usp=sharing)
 
 ## GitLab Monitoring Vision 0.1
 
