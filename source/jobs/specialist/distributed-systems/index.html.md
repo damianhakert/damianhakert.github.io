@@ -5,7 +5,7 @@ title: "Distributed Systems Specialist"
 
 ## Responsibilities
 
-* Work on large-scale, in-production distributed systems that enable GitLab to scale horizontally
+* Work on large-scale, in-production distributed systems that enable GitLab to scale horizontally (e.g. [Gitaly](https://gitlab.com/gitlab-org/gitaly/tree/master)
 * Architect GitLab features that require distributed system expertise
 * Optimize bottlenecks through performance monitoring and measurement
 * Design and implement plans for increasing availability through partitioning/sharding
@@ -14,10 +14,10 @@ title: "Distributed Systems Specialist"
 
 ## Requirements
 
-* Strong understanding of consensus protocols (e.g. Paxos, Raft)
-* Strong understanding of tradeoffs between sharding and abst
+* Strong understanding of distributed consensus protocols (e.g. Paxos, Raft)
+* Strong understanding of tradeoffs with sharding
 * Experience creating and working with distributed systems
-* Experience building and scaling distributed, highly available systems
+* Experience building and scaling highly-available systems
 * Proficient in Ruby on Rails and/or Go
 
 In addition, see the [Developer job description](/jobs/developer/).
