@@ -22,6 +22,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Backend](/handbook/backend)
   * [Edge](/handbook/edge)
   * [UX](/handbook/ux)
+  * [Build](/handbook/build)
 * [Marketing](/handbook/marketing)
   * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
