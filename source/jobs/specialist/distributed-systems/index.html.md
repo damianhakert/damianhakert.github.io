@@ -5,7 +5,7 @@ title: "Distributed Systems Specialist"
 
 ## Responsibilities
 
-* Work on large-scale, in-production distributed systems that enable GitLab to scale horizontally (e.g. [Gitaly](https://gitlab.com/gitlab-org/gitaly/tree/master)
+* Work on large-scale, in-production distributed systems that enable GitLab to scale horizontally (e.g. [Gitaly](https://gitlab.com/gitlab-org/gitaly/tree/master))
 * Architect GitLab features that require distributed system expertise
 * Optimize bottlenecks through performance monitoring and measurement
 * Design and implement plans for increasing availability through partitioning/sharding
