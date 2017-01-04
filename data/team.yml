@@ -2064,6 +2064,8 @@
   picture: harish-ramachandran.jpg
   twitter: harishsr
   gitlab: harish
+  maintains: |
+             <li>On-call hero!</li>
   story:  |
           Ever since Harish rediscovered his childhood joy of programming, he has spent most of his time either on the computer writing code or learning new ways to code.  He loves spending the rest of his time with his lovely wife and two kids, or hanging out with friends in Jacksonville, Florida.  He also enjoys exercising and you will usually find him beginning each day with a trip to the gym.
 
@@ -2165,7 +2167,7 @@
   gitlab:
   story:  |
           Joining January 3rd
-          
+
 
 - name: X.G.
   locality:
@@ -2210,4 +2212,3 @@
   gitlab:
   story:  |
           Joining January 23rd
-          
