@@ -249,8 +249,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 1. [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
-1. [ ] Finance: Order company credit card (for all sales team members who are employees)
-1. [ ] People Ops (Recruiter): If credit card holder, add to expense report calendar reminder
 1. [ ] Hiring Manager: Create Issue for [Sales Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/).  Naming convention for issue is "New hires name - Sales Bootcamp".  Due date is 30 days after start date.
 1. [ ] Hiring Manager: Invite to sales meeting.
 1. [ ] Hiring Manager: Invite to GLU
