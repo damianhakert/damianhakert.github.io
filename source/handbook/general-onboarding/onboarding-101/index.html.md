@@ -104,7 +104,7 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
 1. Find the dropdown menu at the top of your screen and find the branch
 that you previously created to add your picture (they are in alphabetical
 order).
-1. Got back to the GitLab.com project. Information displayed on [Team page](https://about.gitlab.com/team/) is
+1. Go back to the GitLab.com project. Information displayed on [Team page](https://about.gitlab.com/team/) is
 pulled from a data file. You can find it by clicking on each of the following items: Files, `data/`, and then `team.yml`.
 1. When you are in `team.yml`, click on “edit” on the top right side of
 your screen.
