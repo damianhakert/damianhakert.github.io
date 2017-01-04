@@ -237,15 +237,15 @@ Rounding off the year with GitLab 8.15, we finished the base of our idea-to-prod
 
 [Auto Deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
 
-The addition of the [Web Terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals) brings more power to the GitLab web interface. If you deploy to your environments with the help of a deployment service (e.g. Kubernetes), GitLab can open a terminal session to your environment and let you debug on your staging or – if you so dare – production site.
-
 ### Web Terminal
+
+The addition of the [Web Terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals) brings more power to the GitLab web interface. If you deploy to your environments with the help of a deployment service (e.g. Kubernetes), GitLab can open a terminal session to your environment and let you debug on your staging or – if you so dare – production site.
 
 ![Web Terminal](/images/8_15/terminal_gif.gif)
 
 ### LaTeX Support
 
-LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. 
+LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. LaTeX support was contributed by the community.
 
 ![LaTeX math in a comment](/images/8_15/math.png)
 
