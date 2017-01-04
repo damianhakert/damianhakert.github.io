@@ -21,7 +21,7 @@ Thanks everyone for joining. Just to level set: This call is to go over a first 
 
 I’ll start by talking about a potential minimum viable product (MVP), and then discuss future directions, and finally open it up to Q&A.
 
-And if you want to play along at home, here’s a link to your personalized buzzword bingo card for the presentation.
+And if you want to play along at home, here’s a link to your personalized [buzzword bingo card](http://bit.ly/2hP4xTn) for the presentation.
 
 ## Minimum viable product (MVP)
 ### Use Prometheus to monitor GitLab installation
