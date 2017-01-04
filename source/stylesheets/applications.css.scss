@@ -71,7 +71,7 @@ hr {
 }
 // scss-lint:disable all
 .selected-suggestion {
-  background: $applications-selected-element-color !important;
+  background: $dropdown-hover-color !important;
 }
 // scss-lint:enable all
 
@@ -85,15 +85,14 @@ hr {
   li {
     background: $color-white;
     list-style: none;
-    border-bottom: 1px solid $color-gray-extra-light;
-    box-shadow: 0 0 10px $applications-search-bar-shadow-color;
     margin: 0;
     padding: 12px;
     transition: background .2s;
     text-transform: capitalize;
 
     &:hover {
-      background: $applications-selected-element-color;
+      background: $dropdown-hover-color;
+      cursor: pointer;
     }
   }
 }
@@ -107,6 +106,6 @@ hr {
   z-index: 2;
   right: 12px;
   bottom: 15px;
-  color: $applications-search-apps-container-icon;
+  color: $search-border-color;
   cursor: default;
 }

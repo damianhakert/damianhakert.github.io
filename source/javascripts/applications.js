@@ -20,18 +20,39 @@
   }
 
   var showAllApps = function() {
-    this.appListDOM.each(function () {
-      $(this).parent().parent().show();
+    this.appListDOM.each(function() {
+      $(this).show();
+      $(this).next('.row').each(function () {
+        $(this).show();
+      });
+      $(this).next('.row').find('h4').each(function() {
+        $(this).parent().show();
+      });
+      $(this).prev('hr').show();
     });
   }
 
   var showAppsAccordingToSearch = function(searchQuery) {
     var regex = new RegExp(searchQuery, 'gi');
     this.appListDOM.each(function () {
-      if($(this).text().match(regex)) {
-        $(this).parent().parent().show();
-      } else {
-        $(this).parent().parent().hide();
+      var appsInCategory = $(this).next('.row').find('h4');
+      var appCategoryRows = $(this).next('.row');
+      var categorySeparator = $(this).prev('hr');
+      var hideCategoryTitle = true;
+      appsInCategory.each(function() {
+        if($(this).text().match(regex)) {
+          hideCategoryTitle = false;
+          $(this).parent().show();
+        } else {
+          $(this).parent().hide();
+        }
+      });
+      if(hideCategoryTitle) {
+        $(this).hide();
+        categorySeparator.hide();
+        appCategoryRows.each(function() {
+          $(this).hide();
+        });
       }
     });
   }
@@ -97,7 +118,10 @@
         this.suggestions.html('');
       } else if(e.keyCode === 8) {
         if(this.searchContainer.val() === '') {
+          this.searchIcon.show();
+          this.resetIcon.hide();
           showAllApps.call(this);
+          this.suggestions.html('');
         }
       } else {
         if(this.searchContainer.val() !== '') {
@@ -124,7 +148,7 @@
       this.searchIcon = $('.search');
       this.resetIcon = $('.reset');
       this.resetIcon.hide();
-      this.appListDOM = $('.app-list').find('h4');
+      this.appListDOM = $('.app-list').find('h2');
       this.initializeSearch();
     }
 
