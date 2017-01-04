@@ -1,5 +1,5 @@
 ---
-title: "GitLab Monitoring Vision"
+title: "Prometheus and GitLab: Completing the application lifecycle with monitoring"
 author: Mark Pundsack
 author_twitter: MarkPundsack
 categories:
