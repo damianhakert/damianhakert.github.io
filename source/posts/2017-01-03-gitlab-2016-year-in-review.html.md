@@ -77,7 +77,15 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 [GitLab 8.9 Release Post](https://about.gitlab.com/2016/06/22/gitlab-8-9-released/)
 
-File Locking, Environments, Priority Labels, Redesigned Navigation, and U2F
+[File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that 
+
+[Environments](https://docs.gitlab.com/ce/ci/environments.html)
+
+[Priority Labels](https://docs.gitlab.com/ce/user/project/labels.html#prioritize-labels)
+
+Redesigned Navigation
+
+Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs.gitlab.com/ce/profile/two_factor_authentication.html) that uses physical keys (usually via USB) for authentication. GitLab 8.9 added support for the U2F device standard.
 
 ## July: 8.10
 
@@ -89,19 +97,37 @@ Wildcard Branch Protection and Manual Actions for CI
 
 [GitLab 8.11 Release Post](https://about.gitlab.com/2016/08/22/gitlab-8-11-released/)
 
-Issue Boards, Merge Conflict Resolution, Discussion Resolution, Pipeline Graphs, Slash Commands, and Koding Integration
+GitLab 8.11 was probably the most exciting release of the year, bringing with it a number of major features and improvements.
+
+[Issue Boards](https://docs.gitlab.com/ce/user/project/issue_board.html) are another way of tracking project issues. Similar to existing kanban board software, issue boards integrate with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
+
+[Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html)
+
+[Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
+
+Pipeline Graphs are an awesome visual representation of a project's Pipeline.
+
+With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/slash_commands.html), comments can be used to modify the status, author, assignee, due date, milestone, and labels of a merge request or issue, among other things. This feature gives users more power over their issues and merge requests without ever leaving the keyboard or needing to memorize keyboard shortcuts.
+
+8.11 introduces integration with [Koding](http://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser.
 
 ## September: 8.12
 
 [GitLab 8.12 Release Post](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/)
 
-Cycle Analytics, Global Code Search, and Merge Request Versions
+The headline feature of 8.12 was [Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html), a new way of tracking software development using the data GitLab gathers as you use it. See [our feature highlight](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
+
+Code search was improved in Enterprise Edition 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
+
+[Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html)
 
 ## October: 8.13
 
 [GitLab 8.13 Release Post](https://about.gitlab.com/2016/10/22/gitlab-8-13-released/)
 
-Multiple Issue Boards and Merge Conflict Editor
+Issue Boards were improved for EE users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
+
+Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Resolution tool gained an Editor. This allows more complex merge conflicts, which require the user to manually modify a file in order to resolve a conflict, to be solved right form the GitLab interface.
 
 ## November: 8.14
 
