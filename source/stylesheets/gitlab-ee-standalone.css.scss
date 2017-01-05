@@ -3,8 +3,8 @@
 @import "sandwich-page-layout";
 
 .qnav {
-  margin-bottom: 0;
   background: $color-primary;
+  position: fixed;
   width: 100%;
   border: 0;
   border-radius: 0;
@@ -14,12 +14,11 @@
 }
 
 .qnav2 {
-  background: #6652a3;
+  background: $color-primary-alt;
 }
 
-.nav-pills > li > a {
+.nav-justified > li > a {
   color: $color-white;
-  font-weight: 600;
   border-radius: 0;
 
   &:hover {
@@ -39,11 +38,11 @@
     background-color: $landing-community-bg;
 
     @media (min-width: $screen-sm-min) {
-      padding-top: 80px;
+      padding-top: 120px;
     }
 
     @media (min-width: $screen-lg-min) {
-      padding-top: 120px;
+      padding-top: 160px;
     }
 
     &::after {
