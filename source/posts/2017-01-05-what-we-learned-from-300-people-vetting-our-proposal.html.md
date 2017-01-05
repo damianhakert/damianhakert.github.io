@@ -29,7 +29,11 @@ These insights led us to realize that our initial thinking was not the right way
 
 ## So how are we solving our storage scaling and performance issues
 
-Glad you ask!
+1. As a quick fix we are spreading all our storage into [multiple NFS shards](issue-back-to-nfs) [dropping CephFS](cephfs-turndown) from our stack. We will create more if we need to.
+1. Move all our git access to a single interface
+1. We started working on [Gitaly](gitaly), this is a git RPC layer that will remove our waste of resources dramatically. We will also use this project to improve our monitoring of git resource usage to make better decisions because we are [only sampling processes](git-sampling). We will also move all our application git access to it so we
+1. We will explore different ways of reducing the [latency](gitlab-latency) of the requests.
+
 
 
 <!-- identifiers -->
@@ -38,3 +42,7 @@ Glad you ask!
 [gitaly]: https://gitlab.com/gitlab-org/gitaly
 [gitlab-values]: https://about.gitlab.com/handbook/#values
 [gitlab-outages]: https://gitlab.com/gitlab-com/infrastructure/issues?label_name%5B%5D=outage&label_name%5B%5D=ceph&scope=all&state=all
+[issue-back-to-nfs]: https://gitlab.com/gitlab-com/infrastructure/issues/711
+[cephfs-turndown]: https://gitlab.com/gitlab-com/infrastructure/issues/817
+[git-sampling]: https://gitlab.com/gitlab-org/gitlab-monitor/blob/v0.0.25/lib/gitlab_monitor/git.rb#L87
+[gitlab-latency]: https://gitlab.com/gitlab-com/infrastructure/issues/947
