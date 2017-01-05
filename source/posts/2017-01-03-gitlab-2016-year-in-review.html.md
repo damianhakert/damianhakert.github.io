@@ -115,6 +115,8 @@ With GitLab 8.9 you can now define [Environments](https://docs.gitlab.com/ce/ci/
 
 ![Environments](/images/8_9/environments.png)
 
+For more information, see [our blog post on Environments and Deployments](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/).
+
 ### Priority Labels
 
 [Priority Labels](https://docs.gitlab.com/ce/user/project/labels.html#prioritize-labels)
