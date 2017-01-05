@@ -2186,6 +2186,17 @@
   story:  |
           Joining January 3rd
 
+- name: M.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 3rd
+
 - name: J.L.
   locality:
   country:
