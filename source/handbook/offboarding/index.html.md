@@ -9,7 +9,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in [the peopleops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in [the peopleops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @amatthews, @brittanyr, @jparrow.
 
 #### For GitLab BV Belgium only
 
@@ -164,7 +164,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR MARKETING ONLY
 
-1. [ ] Patricio/Amara: Remove from Tweetdeck.
+1. [ ] Amara: Remove from Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
