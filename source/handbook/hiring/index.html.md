@@ -61,6 +61,7 @@ The CEO must authorize any new job positions/searches.
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
+ 1. All job openings must be posted on our careers page for at least 5 business days; this includes all new positions and promotions. 
 
 
 ## Publicize the job
