@@ -37,7 +37,7 @@ We introduced a [File Finder](https://docs.gitlab.com/ce/workflow/file_finder.ht
 
 ### Elasticsearch (EE Starter)
 
-Improved repository search was added for Enterprise Edition Starter with [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html). This made searching projects' code, issues, and merge requests faster and more useful.
+Improved repository search was added for [Enterprise Edition Starter](https://about.gitlab.com/products/) with [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html). This made searching projects' code, issues, and merge requests faster and more useful.
 
 ## February: 8.5
 
@@ -49,11 +49,11 @@ February saw the release of GitLab 8.5 with the introduction of [Todos](https://
 
 ### GitLab Geo (EE Premium)
 
-Also included in February's release was an alpha version of GitLab Geo. GitLab Geo is available for GitLab Enterprise Edition Premium and allows companies with offices around the world to mirror their GitLab instance in multiple places. This makes downloading large repositories much faster for all team members, no matter where they are.
+Also included in February's release was an alpha version of GitLab Geo. GitLab Geo is available for [GitLab Enterprise Edition Premium](https://about.gitlab.com/products/) and allows companies with offices around the world to mirror their GitLab instance in multiple places. This makes downloading large repositories much faster for all team members, no matter where they are.
 
 ### Custom Domains and custom TLS certs for GitLab Pages
 
-[GitLab Pages](https://pages.gitlab.io/) added support for custom domains and custom TLS certificates. This allows users to host their static sites on custom domains without giving up the added security of HTTPS. While GitLab Pages is an Enterprise Edition-only feature right now, [we'll be bringing it to Community Edition in an upcoming release](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
+[GitLab Pages](https://pages.gitlab.io/) added support for custom domains and custom TLS certificates. This allows users to host their static sites on custom domains without giving up the added security of HTTPS. While GitLab Pages is an Enterprise Edition-only feature right now, [we'll be bringing it to all versions in an upcoming release](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
 
 ## March: 8.6
 
@@ -203,7 +203,7 @@ The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solu
 
 ### Global Code Search (EE Starter)
 
-Code search was improved in Enterprise Edition 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
+Code search was improved [Enterprise Edition Starter](https://about.gitlab.com/products/) in GitLab 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
 
 ### Merge Request Versions
 
@@ -217,7 +217,7 @@ With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requ
 
 ### Multiple Issue Boards (EE Starter)
 
-Issue Boards were improved for EE users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
+Issue Boards were improved for [EE Starter](https://about.gitlab.com/products/) users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
 
 ![Multiple Issue Boards](/images/8_13/m_ib.gif)
 
@@ -233,7 +233,7 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 ### Time Tracking Beta (EE Premium)
 
-With the introduction of the Time Tracking Beta (available in Enterprise Edition Premium), companies that need time tracking tools can use them right from within GitLab. 
+With the introduction of the Time Tracking Beta (available in [Enterprise Edition Premium](https://about.gitlab.com/products/)), companies that need time tracking tools can use them right from within GitLab. 
 
 ![Time Tracking](/images/8_14/time.gif)
 
