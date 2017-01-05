@@ -62,9 +62,6 @@ increase availability, or to just generally make it scale to handle more users w
 
 We have a [public monitoring server](http://monitor.gitlab.net/dashboard/db/gitlab-status) that shows our most important metrics.
 
-
-
-
 ## Documentation
 
 The main infrastructure documentation can be found in 2 places:
@@ -127,7 +124,7 @@ There are 2 kind of production events that we track:
 - Changes into the production fleet: for this we record things [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
   - Deploys will be recorded automagically because of the way we do deploys.
   - General operations can be recorded by creating an empty commit in the repo and pushing it into origin.
-- Outages and general production events
+- Outages and general production incidents
   - Refer to the _Outages and Blameless Post Mortems_ section ahead
 
 ## Outages and Blameless Post Mortems
