@@ -116,25 +116,6 @@
           I started the GitLab project together with Dmitriy in 2011. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
           I have a very strong desire to improve the world by making all things easier.
 
-- name: Patricio Cano
-  locality: Mexico City
-  country: Mexico
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Platform Lead
-  picture: picture_patricio.png
-  twitter: suprnova32
-  gitlab: patricio
-  maintains:  |
-              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
-              <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
-              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-              <li>LFS <a href="/jobs/expert/">expert</a></li>
-              <li>Anti-spam expert</li>
-  story:  |
-          Patricio is from Quito, Ecuador and he studied Computer Science in Stuttgart, Germany, where he lived for 7 years.
-          He is very passionate about open source software and has been working with Ruby on Rails for the past 4 years. He also likes
-          to swim, play video games and spend time with his family and friends.
-
 - name: Douwe Maan
   locality: Utrecht
   country: The Netherlands
