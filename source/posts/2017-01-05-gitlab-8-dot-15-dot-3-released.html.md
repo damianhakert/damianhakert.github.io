@@ -9,7 +9,12 @@ Today we are releasing version 8.15.3 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
 This version resolves a number of regressions and bugs in the [recent 8.15
-release](/2016/12/22/gitlab-8-15-released). It will **rename projects** that are not working previously in 8.15 with 404 due to reserved names. Renaming projects in patch release is evil (we tried to finish it before 8.15 released) but comparing to non-working access to certain projects we believe it's a fair tradeoff.
+release](/2016/12/22/gitlab-8-15-released).
+
+This version includes a migration which will **rename projects** that became
+inaccessible in version 8.15 due to reserved names. We would have preferred
+to do this in the monthly release rather than a patch release, but weighed
+against inaccessible projects we believe it's a reasonable tradeoff.
 
 <!-- more -->
 
@@ -67,7 +72,8 @@ release](/2016/12/22/gitlab-8-15-released). It will **rename projects** that are
 
 ## Upgrade barometer
 
-This version has no migrations and should not require any downtime.
+This version includes a post-deploy migration and should not require
+any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
