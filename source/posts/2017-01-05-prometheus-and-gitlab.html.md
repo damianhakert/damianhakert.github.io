@@ -23,7 +23,7 @@ I’ll start by talking about a potential minimum viable product (MVP), and then
 
 And if you want to play along at home, here’s a link to your personalized [buzzword bingo card](http://bit.ly/2hP4xTn) for the presentation.
 
-## Minimum viable product (MVP)
+## Minimum Viable Product (MVP)
 ### Use Prometheus to monitor GitLab installation
 
 So the first step is to add [Prometheus](https://prometheus.io/) to monitor GitLab installations themselves. I won’t go into details here; and I believe [Pablo will be giving a talk about how we’re using it](https://gitlab.com/gitlab-com/marketing/issues/594). But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up with GitLab CE so you can use it to monitor your own instances of GitLab.
