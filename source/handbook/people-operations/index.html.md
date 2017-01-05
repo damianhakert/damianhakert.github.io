@@ -19,6 +19,7 @@ title: "People Operations"
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
 - [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
+- [Functional Group Updates](/handbook/people-operations/functional-group-updates)
 
 ## On this page
 {:.no_toc}
@@ -49,6 +50,7 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+- For the UK office, there is a Ltd registered address located in the "GitLab Ltd (UK) Address" note in the Shared vault on 1Password
 
 ## Regular compensation
 
@@ -88,7 +90,7 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
-b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages, and leave requests.
 
 This policy applies to all current employees and candidates for employment.
 

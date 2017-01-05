@@ -20,7 +20,7 @@ title: Global Compensation Framework
 
 ## Paying local rates
 
-Different than business travel, vacation or visiting a relative for a few weeks, relocation means that you will establish yourself in a new location outside of your current metro area. If you are ending your current residential living arrangement and/or will have your mail delivered to an address in a different city please contact us.
+Different than business travel, vacation, or visiting a relative for a few weeks, relocation means that you will establish yourself in a new location outside of your current metro area. If you are ending your current residential living arrangement and/or will have your mail delivered to an address in a different city please contact us.
 
 As stated in the [people ops section of the handbook](/handbook/people-operations/#relocation/), you should first obtain written agreement (from your hiring manager) when planning a relocation. It is the company's discretion to offer you a contract in your new location. At the time of the location update, we will take into consideration your new metro region when making a salary offer for continued employment.
 
@@ -45,14 +45,14 @@ Please send an email to `ernst@ company domain` if/when you find a big differenc
 
 ### The formula
 
-Your compensation = `Benchmark compensation` x `Rent Index + 25%` x `Level Factor` x `Experience Factor` x `Contract Type Factor`
+Your compensation = `NYC benchmark` x `(Rent Index + 0.25)` x `Level Factor` x `Experience Factor` x `Contract Type Factor`
 
 where:
 
-- `Benchmark compensation` is typically a median employee salary for the role in New York, as found on publicly available sources such as [Payscale](http://www.payscale.com) and others. Payscale uses [crowdsourced self-reported compensation data](http://www.payscale.com/career-news/2006/08/salary_data_whe#comment-7148). The benchmark used in each position is available in the [`jobs.yml` file](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) in this [website's repo](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/).
-- `Rent Index` is taken from [Numbeo](https://www.numbeo.com/cost-of-living/rankings.jsp), which expresses the ratio of cost of rent in many metro areas to the average cost of rent in New York City (i.e. Rent Index in New York = 1.00). As explained in more detail below, we add 25% to this regardless of location, which reflects the fact that we hire better than median performers. In point 7 of [Compensation Principles](https://about.gitlab.com/handbook/people-operations/global-compensation-framework/#compensation-principles) it is mentioned what to do if your metro area is not listed. The full list of rent indices used is stored in the [`numbeo.yml` file](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/numbeo.yml).
+- `NYC benchmark` is typically a median employee salary for the role in New York, which we determine using various sources including [crowdsourced self-reported compensation data from Payscale](http://www.payscale.com/career-news/2006/08/salary_data_whe#comment-7148). The NYC benchmark used in each position is available in the [`jobs.yml` file](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) in this [website's repo](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/).
+- `Rent Index` is taken from [Numbeo](https://www.numbeo.com/cost-of-living/rankings.jsp), which expresses the ratio of cost of rent in many metro areas to the average cost of rent in New York City (i.e. Rent Index in New York = 1.00). As explained in more detail below, we add 0.25 to this regardless of location, which reflects the fact that we hire better than median performers. In point 7 of [Compensation Principles](https://about.gitlab.com/handbook/people-operations/global-compensation-framework/#compensation-principles) it is mentioned what to do if your metro area is not listed. The full list of rent indices used is stored in the [`numbeo.yml` file](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/numbeo.yml).
 - `Level Factor` is currently defined as junior (0.8), intermediate (1.0), senior (1.2), or lead (1.4)
-- `Experience Factor` falls between 80% - 120%
+- `Experience Factor` falls between 0.8 - 1.2
 - `Contract Type Factor` distinguishes between employee or contractor, and can be a different factor in each country; see below for further explanation. The full list of contract type factors is stored in the [`contract_types.yml` file](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/contract_types.yml).
 
 See the calculator in action for example for the Developer role, on the Developer [job description](https://about.gitlab.com/jobs/developer/).

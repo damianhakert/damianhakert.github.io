@@ -221,7 +221,7 @@ We will endeavor to provide funds to support up one event per reseller per quart
 
 *If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
 
-Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
+Please submit your application for event support in a new issue in the [reseller page of gitlab.com](https://gitlab.com/gitlab-com/resellers/issues). When it allowes you to select a tempate, choose the reseller template and fill in responses to the categories. All the relevant GitLab parties will be notified once you submit your issue and will be in touch shortly. You will be able to track the progress of your submission in the issue. 
 
 ### Online Marketing Support Requests
 

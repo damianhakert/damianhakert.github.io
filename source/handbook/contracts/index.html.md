@@ -25,11 +25,11 @@ Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) we
 The following set of steps should suffice:
 
 1. The currency should normally be the local currency of the new team member unless they explicitly request USD/EUR because their local currency has a lot of inflation.
-1. Employee entity: employ though the GitLab entity where they are located (US => Inc., NL => B.V.)
+1. Employee entity: employ through the GitLab entity where they are located (US => Inc., NL => B.V., UK => Ltd, India => Lyra, Belgium => B.V.(Belgian contract) depending on the location in Belgium the contract will need to be in either French or Dutch with the English translation alongside)
 1. Contractor entity: if the team member is in the US, or if the person is part of the Sales organization, GitLab Inc. is the contracting entity. In all other regions and functional groups, GitLab BV is the contracting entity.
 1. Make a copy of the relevant Template Contract (linked below) in Drive, and include the name of the new hire in the title of the copy.
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient to do a find + replace on fields that appear multiple times such as names, email
-addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
+addresses, etc. (fields are named the same in the contracts / PIAA to make this easier). The one exception to the curly bracket find and replace process is the Belgian contract, the fields that need to be edited are highlighted.
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
 1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).

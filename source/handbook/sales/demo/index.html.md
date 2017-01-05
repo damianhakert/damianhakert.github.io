@@ -104,7 +104,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 - Code->Network
    - See network diagram!
 
-## <A name="issues_milestones"></A>Issues and milestones -- see how they are created, used and closed
+## <A name="issues_milestones"></A>Issues and milestones -- see how they are created, used, and closed
 
 - Create milestone
    - On Issue tab select 'Milestones' and then 'Create new'
@@ -140,7 +140,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 ### vs. BitBucket
 
-- Continuous integration tool - Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
+- Continuous integration tool - Easy-to-set up, performant, stable, and elegant continuous integration with every GitLab installation.
    - Go to a project, select ‘Pipelines’ and then ‘builds’
    - View build status, duration, branch (under ref) and tags
    - Select buildID for more detail (and then use back button)
@@ -153,7 +153,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 - Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
    - Click Issues at the top of page in www.gitlab.com project
-   - Look at Open, Closed or All issues
+   - Look at Open, Closed, or All issues
    - Search by Author, Assignee, Milestone, Label, Weight
    - Open a closed issue and show the communication which occurred while the issue was open.
 

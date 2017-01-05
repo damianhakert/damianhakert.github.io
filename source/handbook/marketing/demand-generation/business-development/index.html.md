@@ -43,16 +43,16 @@ Welcome to GitLab and congratulations on landing a job with the best open source
 
 On the BDR team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
-Being a BDR can come with what seems as long days, hard work, frustration and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
+Being a BDR can come with what seems as long days, hard work, frustration, and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role<a name="Role"></a>
 
-As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries and different roles.
+As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
 
 As you gain knowledge, you will be able to aid these key players in solving problems within the developer lifecycle. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
 1. [BDR Handbook](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/) - This will help you with your day to day workflow. You can find information on how to prospect, best practices, customer FAQs, buyer types, cadence samples and more. Use the BDR handbook in conjunction with the [marketing](https://about.gitlab.com/handbook/marketing/) and [sales](https://about.gitlab.com/handbook/sales/) handbooks. This will help you bridge the gap between the two and learn the product and process faster.
-1. [GLU GitLab University](https://university.gitlab.com/) - These trainings will teach the fundamentals of Version Control with Git and GitLab through courses that cover topics which can be mastered in about 2 hours. These trainings include an intro to Git, GitLab basics, a demo of Gitlab.com, terminology and more. You can also find information about GitLab compared to other tools in the market.
+1. [GLU GitLab University](https://university.gitlab.com/) - These trainings will teach the fundamentals of Version Control with Git and GitLab through courses that cover topics which can be mastered in about 2 hours. These trainings include an intro to Git, GitLab basics, a demo of Gitlab.com, terminology, and more. You can also find information about GitLab compared to other tools in the market.
 
 #### Onboarding<a name="onboard"></a>
 

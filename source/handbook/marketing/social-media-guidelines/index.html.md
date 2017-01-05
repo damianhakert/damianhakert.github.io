@@ -30,7 +30,7 @@ sources of information to support your statement, such as [blog posts](https://a
 
 ## GitLab Voice
 
-You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts.
+You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts.
 
 When speaking for GitLab, use the “GitLab voice.” When replying from the official GitLab account, speak as “we” and represent the software and community. On the official @GitLab account Twitter account and in other social media we should model attributes of our software and community. We strive to respond to all messages and questions. We respond by encouraging collaboration and contribution.
 
@@ -48,4 +48,4 @@ You may come across angry users from time to time. When dealing with people who 
 
 This document is a guide for GitLab team members who manage social media accounts. 
 
-You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
+You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 

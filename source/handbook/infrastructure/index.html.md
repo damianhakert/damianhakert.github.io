@@ -94,9 +94,9 @@ Some basic rules:
 - Create a wrapper cookbook whenever a feature is missing.
 - Make sure our custom cookbooks are public available from https://gitlab.com/gitlab-cookbooks.
 - Make sure there is a copy in our DEV environment https://dev.gitlab.org/cookbooks and setup push mirror to keep it in sync.
-- Berkshell should only point to our cookbooks in DEV so we are able to fix our cookbooks whenever GitLab.com comes unavailable.
+- Berkshelf should only point to our cookbooks in DEV so we are able to fix our cookbooks whenever GitLab.com comes unavailable.
 - Cookbooks should be developed using the team. We use merge requests and code review to share knowledge and build the best product we can.
-- Cookbooks should be covered with testing in order to prevent them from becoming legacy.
+- Cookbooks should be covered with ChefSpec and TestKitchen testing in order to ensure they do what they are supposed to and don't have conflicts.
 
 Generally our [chef cookbooks](https://gitlab.com/groups/gitlab-cookbooks) live in the open, and they get mirrored back to our
 [internal cookbooks group](https://dev.gitlab.org/cookbooks) for availability reasons.

@@ -111,6 +111,8 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
    + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
    + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
    + Ticket is not within Tier 1 support scope, escalate to Tier 2.
+   + As a rough guideline, agents should consider escalating to Tier 2 after working on a ticket for more than 45 minutes. After escalating to Tier 2, the agent can choose to keep working on it or go back to triaging Tier 1 tickets.
+   + If all Tier 1 tickets are cleared out, move on to Tier 2 tickets.
 
 **Examples of requests solved at Tier 1**
 
@@ -125,6 +127,11 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
 + Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
 + In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
 + Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyze, troubleshoot, and resolve difficult issues.
++ When possible, please provide feedback to the agent that escalated the ticket.
+  If there is further information required from the customer before the problem
+  can be diagnosed, or if the answer is in the documentation, the agent who
+  escalated needs to learn about this so that they can perform those tasks
+  before escalating in the future.
 
 ### Tier 3 Support
 
@@ -142,7 +149,8 @@ We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/20369079
 + `Escalations::Tier 2`
 + `Escalations::Tier 3`
 
-Applying any of these macros will move the ticket to the tier group selected.
+Applying any of these macros will move the ticket to the tier group selected,
+create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
@@ -191,7 +199,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets.
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found on the [support knowledge base](https://about.gitlab.com/handbook/support/knowledge-base/general/customer_calls.html).
 
 #### Implementation Support
 

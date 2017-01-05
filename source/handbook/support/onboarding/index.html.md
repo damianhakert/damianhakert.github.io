@@ -303,7 +303,7 @@ Every now and then, a GitLab team member will forward a support request from a c
 As part of onboarding SE team members will be given access to the GitLab Digital Ocean team account.
 This can be used for testing and to reproduce customer problems. Please consider the following when using this account:
 
-+ Do not destroy, stop or modify droplets that you haven't created
++ Do not destroy, stop, or modify droplets that you haven't created
 + Always include your name in the droplet hostname - e.g `user-ldap-testing-box`
 + Use resources sparingly and remove droplets that have served a purpose and are no longer in use
 + Do not create droplets unrelated to GitLab (personal projects)
@@ -346,7 +346,7 @@ If after another 10 minutes you don't get answer, go ahead and re-schedule.
 If a call takes too long (> 1 hour), and/or if you're not making progress, discuss with the customer the need to re-schedule.
 
 + If you were having problems helping the customer, make sure to contact a teammate to join you on the re-scheduled call (Call Escalation)
-+ If the customer had problems either with their setup, environment or connectivity, remember him to solve them before the new
++ If the customer had problems either with their setup, environment, or connectivity, remember him to solve them before the new
 call when re-scheduling.
 
 ### After a Call
@@ -384,6 +384,20 @@ to see who can take over the days when you should be on-call. This can happen vi
 [support issue tracker](https://gitlab.com/gitlab-com/support/issues) or via
 a Hangout that you should schedule.
 See the [on-call](https://about.gitlab.com/handbook/on-call/#swapping-on-call-duty) page for more information.
+
+**Calendar Availability**
+
+If your Calendly link is being given out to customers or interviewees to schedule
+calls with you, you need to make sure that no one schedules a call with you on
+the days you are away. See Calendly's instructions for handling this [here](https://help.calendly.com/hc/en-us/articles/223194148).
+When you create an all-day event in Google Calendar, the
+default behavior is to set you as **"Available"** for that day. This means that
+if you create an all-day event to mark yourself off, and even after creating that
+event if you change it to a **non-all-day-event** by giving it a time, people
+will be able to schedule calls with you on that day. You have to create an event
+that has a set time, from the time of creation, or change the event settings to
+mark you as **"Unavailable"**. It is not a bad idea to double check your
+availability on an **out-of-office** event after creating it.
 
 **Rest of the team**
 
