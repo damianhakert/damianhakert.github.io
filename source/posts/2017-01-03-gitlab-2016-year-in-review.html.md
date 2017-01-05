@@ -107,21 +107,31 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 ### File Locking (EE)
 
-[File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that 
+[File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that can be used to prevent binary files from being overridden. This is useful for many use cases, like game development with models, art assets, and sound files or on a website when editing a graphic. 
 
 ### Environments
 
-[Environments](https://docs.gitlab.com/ce/ci/environments.html)
+With GitLab 8.9 you can now define [Environments](https://docs.gitlab.com/ce/ci/environments.html). Environments allow you to track deployments and quickly understand things like "what's running in staging?"
+
+![Environments](/images/8_9/environments.png)
 
 ### Priority Labels
 
 [Priority Labels](https://docs.gitlab.com/ce/user/project/labels.html#prioritize-labels)
 
+![Priority Labels](/images/8_9/plabels2.png)
+
 ### Redesigned Navigation
+
+With 8.9 we replaced the often-confusing sidebar paradigm with a new tabbed header. We've been really happy with this change, and think it was a huge improvement over our past iterations.
+
+![Redesigned Navigation](/images/8_9/look3.png)
 
 ### Universal Two Factor (U2F)
 
 Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs.gitlab.com/ce/profile/two_factor_authentication.html) that uses physical keys (usually via USB) for authentication. GitLab 8.9 added support for the U2F device standard.
+
+See [our blog post](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) for more information.
 
 ## July: 8.10
 
@@ -129,7 +139,15 @@ Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs
 
 ### Wildcard Branch Protection
 
+Our branch protection feature was improved with [Wildcard Branch Protection](https://docs.gitlab.com/ce/user/project/protected_branches.html), allowing repositories to protect branches based on their names, for example `release-*` protects any branch which starts with `release-`.
+
+![Wildcard Branch Protection](/images/8_10/wc1.png)
+
 ### Manual Actions for CI
+
+Manual Actions were introduced for CI, this addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion.
+
+![Manual Actions for CI](/images/8_10/ci_manual1.png)
 
 ## August: 8.11
 
@@ -145,19 +163,19 @@ GitLab 8.11 was probably the most exciting release of the year, bringing with it
 
 ### Merge Conflict Resolution
 
-[Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html)
+Merge conflicts frequently happen in large projects with lots of developers. They cause friction and slow down the pace of development, which is why we introduced [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html) into the GitLab web interface. With Merge Conflict Resolution, users can resolve simple conflicts right from GitLab.
 
 ![Merge Conflict Resolution](/images/8_11/resolve_mc.gif)
 
 ### Merge Request Discussion Resolution
 
-[Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html)
+With [Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html), each comment and discussion on merge request diffs can be resolved. Longer threads can be resolved all at once or just comment-by-comment. Discussion resolution can help prevent feedback from slipping through the cracks on larger merge requests.
 
 ![Resolve Discussions](/images/8_11/resolve_discussion.png)
 
 ### Pipeline Graphs
 
-Pipeline Graphs are an awesome visual representation of a project's Pipeline.
+Pipeline Graphs are an awesome visual representation of a project's Pipeline, they help users understand the way their pipelines are run.
 
 ![Pipeline Graph](/images/8_11/pipeline_graph2.png)
 
@@ -187,7 +205,7 @@ Code search was improved in Enterprise Edition 8.12 with the addition of Global 
 
 ### Merge Request Versions
 
-[Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html)
+With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html) you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
 ![Merge Request Versions](/images/8_12/mr_versions.png)
 
@@ -213,7 +231,7 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 ### Time Tracking Beta (EE)
 
-Time Tracking Beta
+With the introduction of the Time Tracking Beta (available in Enterprise Edition Premium), companies that need time tracking tools can use them right from within GitLab. 
 
 ![Time Tracking](/images/8_14/time.gif)
 
@@ -251,6 +269,6 @@ LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians
 
 ## Looking forward
 
-As always, if you found this post interesting and want to contribute to the project, we’d be happy to have you! Take a look around the [Accepting Merge Requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Accepting+Merge+Requests) and [up-for-grabs](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=up-for-grabs) labels in the GitLab CE project, and download the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit) to get started. If you have any questions feel free to reach out on Twitter, in the GDK issue tracker, or in our IRC channel. 
+As always, if you found this post interesting and want to contribute to the project, we’d be happy to have you! Take a look around the [Accepting Merge Requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Accepting+Merge+Requests) label in the GitLab CE project, and download the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit) to get started. If you have any questions feel free to reach out on Twitter, in the GDK issue tracker, or in our IRC channel. 
 
 What improvements do you want to see this year? 
