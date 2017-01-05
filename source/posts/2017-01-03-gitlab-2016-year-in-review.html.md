@@ -255,7 +255,7 @@ Rounding off the year with GitLab 8.15, we finished the base of our idea-to-prod
 
 ### Auto Deploy
 
-[Auto Deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
+[Auto Deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html) is an easy way to configure GitLab CI for the deployment of your application. Right now it supports deployment to OpenShift, with more templates coming in future releases.
 
 ### Web Terminal
 
