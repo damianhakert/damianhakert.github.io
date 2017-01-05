@@ -3,7 +3,7 @@ title: "Prometheus and GitLab"
 author: Mark Pundsack
 author_twitter: MarkPundsack
 categories: 'inside GitLab'
-image_title:
+image_title: '/images/unsplash/t5bva-q_m_y-luis-llerena.jpg'
 description: "Completing the application lifecycle with monitoring"
 ---
 
