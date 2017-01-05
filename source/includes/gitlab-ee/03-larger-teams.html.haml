@@ -1,6 +1,8 @@
-%section.larger-teams.brand-primary-background-theme
+%section.larger-teams.text-center.feature-gallery.page-container
   .container
-    %h2.section-title Larger teams shouldn't mean slower processes
+    .titles
+      %h3
+        Larger teams shouldn't mean slower processes
     .orgs-row.clearfix
       = icon "gitlab-ee/org-logos/1-citrix-logo", "", viewbox_width: 132, viewbox_height: 52
       = icon "gitlab-ee/org-logos/2-ing-logo", "", viewbox_width: 170, viewbox_height: 52
@@ -8,23 +10,26 @@
       = icon "gitlab-ee/org-logos/4-intel-logo", "", viewbox_width: 100, viewbox_height: 66
       = icon "gitlab-ee/org-logos/5-harman-logo", "", viewbox_width: 146, viewbox_height: 78
       = icon "gitlab-ee/org-logos/6-nasdaq-logo", "", viewbox_width: 153, viewbox_height: 42
-    %p.section-description Used by over 100,000 organizations, enterprise development teams everywhere have realized that speed and security can coexist— but only with the right tools. GitLab Enterprise Edition builds on top of our open source product to give your team everything they need to work together and ship quality software.
-    .feature-cluster-row.row
-      .media.col-sm-4
-        .media-left.col-xs-2
+    .row
+      .col-md-10.col-md-offset-1
+        %p.section-description
+          Used by over 100,000 organizations, enterprise development teams everywhere have realized that speed and security can coexist— but only with the right tools. GitLab Enterprise Edition builds on top of our open source product to give your team everything they need to work together and ship quality software.
+    .row.features-description
+      .col-md-4
+        .col-md-2
           = icon "gitlab-ee/icons/1-platform-icon", "media-object"
-        .media-body.col-xs-10
-          %h4.media-heading One platform
-          All of the necessary tools for modern development in a single UI.
-      .media.col-sm-4
-        .media-left.col-xs-2
+        .col-md-10.feature-contents
+          %h4 One platform
+          %p All of the necessary tools for modern development in a single UI.
+      .col-md-4
+        .col-md-2
           = icon "gitlab-ee/icons/2-install-icon", "media-object"
-        .media-body.col-xs-10
-          %h4.media-heading Straightforward installation
-          Ships in one easy to install package that can be hosted on nearly any server.
-      .media.col-sm-4
-        .media-left.col-xs-2
+        .col-md-10.feature-contents
+          %h4 Straightforward installation
+          %p Ships in one easy to install package that can be hosted on nearly any server.
+      .col-md-4
+        .col-md-2
           = icon "gitlab-ee/icons/3-supported-icon", "media-object"
-        .media-body.col-xs-10
-          %h4.media-heading Supported
-          Support packages that ensure your team can focus on their products and not their tools.
+        .col-md-10.feature-contents
+          %h4 Supported
+          %p Support packages that ensure your team can focus on their products and not their tools.

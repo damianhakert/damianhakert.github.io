@@ -1,15 +1,50 @@
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
+@import "sandwich-page-layout";
 
-body {
-  padding-top: 0;
+.qnav {
+  margin-bottom: 0;
+  background: $color-primary;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  min-height: 0;
+  z-index: 100;
+  transition: all .5s ease;
+}
+
+.qnav2 {
+  background: #6652a3;
+}
+
+.nav-pills > li > a {
+  color: $color-white;
+  font-weight: 600;
+  border-radius: 0;
+
+  &:hover {
+    background: $color-primary;
+  }
+}
+
+.featurenav {
+  width: 500px;
 }
 
 .gitlab-ee-standalone {
   .landing-container {
+    padding-top: 30px;
     background: url("/images/gitlab_ee/hero/ee-standalone-hero-2x.png") center center no-repeat;
     background-size: cover;
-    background-color: #landing-community-bg;
+    background-color: $landing-community-bg;
+
+    @media (min-width: $screen-sm-min) {
+      padding-top: 80px;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      padding-top: 120px;
+    }
 
     &::after {
       background-image: $ee-standalone-hero-background-gradient;
@@ -19,51 +54,6 @@ body {
       right: 0;
       bottom: 0;
       left: 0;
-    }
-  }
-
-  .dev-cycle {
-    text-align: center;
-
-    .step-name-container {
-      position: absolute;
-      left: 50%;
-
-      .step-name {
-        position: relative;
-        left: -50%;
-      }
-    }
-
-    svg {
-      height: 46px;
-      width: 46px;
-
-      path {
-        fill: $color-secondary;
-      }
-    }
-
-    .step {
-      width: 46px;
-      display: inline-block;
-      margin: 0 20px;
-      position: relative;
-      color: $color-secondary;
-
-      .step-name {
-        text-transform: uppercase;
-      }
-    }
-
-    .arrows {
-      position: absolute;
-      top: 25px;
-      right: -25px;
-
-      i {
-        color: $color-secondary;
-      }
     }
   }
 
@@ -83,6 +73,7 @@ body {
   }
 
   .orgs-row {
+    margin-top: 20px;
     text-align: center;
 
     > svg {
@@ -96,6 +87,50 @@ body {
         float: none;
         width: auto;
       }
+    }
+  }
+}
+
+.larger-teams {
+  .titles {
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .section-description {
+    margin-bottom: 30px;
+    color: $color-white;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.feature-tree-row {
+  @media (min-width: $screen-md-min) {
+    display: flex;
+  }
+
+  &:not(:last-child) {
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.feature-tree-text-wrap {
+  align-self: center;
+}
+
+.feature-tree-description {
+  font-size: 16px;
+}
+
+.top-reasons {
+  .titles {
+    h2 {
+      margin-bottom: 40px;
+      color: $color-primary-alt;
     }
   }
 }
