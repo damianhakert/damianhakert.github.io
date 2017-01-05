@@ -23,14 +23,13 @@ These insights led us to realize that our initial thinking was not the right way
 1. Metal is harder than it looks. Even with managed hosting hardware should become a core competence (networking, provisioning, security, capacity planning, disaster recovery). If you host in the cloud you can get their experts to help, outside you need to hire people that are increasingly hard to find. You need to hire for it and it changes your company. It is hard keep making software at the same rate when you also need to think about hosting. We want to keep improving GitLab at a fast rate.
 1. Ceph(FS) is [hard to run](gitlab-outages) and [not boring](https://about.gitlab.com/handbook/#values), even if we hire the expertise to run it, it would be a burden on ourselves and on our largest customers, or just impossible for them to do it.
 1. GitLab is a Software Company, we have to solve our problems with software so we can solve them for all our customers out of the box.
-1. Any performance optimization on the software will benefit everyone.
-
-## Next steps
-
+1. One of the main reasons behind using CephFS was performance, any performance optimization we can bake in GitLab-CE/EE will benefit everyone, not just as Us.
 1. Our users are using GitLab in the cloud, so we should ensure it works there.
-1. Any performance optimizations will benefit everyone.
 1. We should be having shorter feedback cycles (measure, improve, repeat)
 
+## So how are we solving our storage scaling and performance issues
+
+Glad you ask!
 
 
 <!-- identifiers -->
