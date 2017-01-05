@@ -13,7 +13,7 @@
   .col-sm-6 {
     padding: 0 10px 0 0;
 
-    @media (max-width: $gl-screen-sm) {
+    @media (max-width: $screen-sm-min) {
       padding-right: 0;
     }
   }
@@ -121,7 +121,7 @@
     white-space: no-wrap;
   }
 
-  @media (max-width: $gl-screen-sm) {
+  @media (max-width: $screen-sm-min) {
     .dropdown,
     .compensation {
       margin-bottom: 10px;
@@ -134,7 +134,7 @@
     margin-top: 15px;
   }
 
-  @media (min-width: $gl-screen-sm) {
+  @media (min-width: $screen-sm-min) {
     .col-sm-4,
     .updated-compensation {
       padding: 0 5px;
@@ -270,7 +270,7 @@
     }
   }
 
-  @media (max-width: $gl-screen-sm) {
+  @media (max-width: $screen-sm-min) {
     margin-bottom: 10px;
   }
 }
