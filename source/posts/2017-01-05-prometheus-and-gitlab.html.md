@@ -39,9 +39,9 @@ Related issues:
 
 Here’s a couple screenshots I cribbed from some of those issues. Again, I’m not going to go into detail here. These are fairly traditional, if not ugly, dashboards using Prometheus and Grafana.
 
-![Sidekiq stats](/images/blogimages/monitoring/sidekiq-stats.png)
+![Sidekiq stats](/images/blogimages/monitoring/sidekiq-stats.png){: .shadow}
 
-![CPU Usage](/images/blogimages/monitoring/cpu-usage.png)
+![CPU Usage](/images/blogimages/monitoring/cpu-usage.png){: .shadow}
 
 ## MVP+3
 
@@ -64,7 +64,7 @@ But measuring resources such as CPU, memory, and I/O might be easier for an MVP,
 
 So to show how we’re thinking of integrating monitoring, here’s a merge request, that has already been merged and deployed to production. Because we’ve got monitoring, GitLab noticed that memory usage increased right after the deploy, so we get a message right on the merge request.
 
-![Monitoring alert on merge request](/images/blogimages/monitoring/merge-request__performance--inline-v03.png)
+![Monitoring alert on merge request](/images/blogimages/monitoring/merge-request__performance--inline-v03.png){: .shadow}
 
 Let’s zoom in a little more. We see the alert, plus some summary information, telling you the memory usage increased from 114MB to 127MB, and a little spark line so you can see it graphically. Maybe we’d add a percent increase to make it more concrete. Of course, we’d also send an email notification of this alert, to the author of the actual changes about the impact. That way, this isn’t just an ops problem, the person or people most likely to be be able to deal with it know as soon as possible.
 Now let’s click through and see more details.
@@ -73,7 +73,7 @@ Now let’s click through and see more details.
 
 So now we see something a little more traditional. This is an early mockup of how a monitoring dashboard could appear. Note even in this early stage, we’ve got lines showing when deploys happened, to help identify code changes that impacted performance. Maybe hovering over them would show a list of merge requests that were included in that deploy.
 
-![Monitoring dashboard](/images/blogimages/monitoring/environments__monitoring.png)
+![Monitoring dashboard](/images/blogimages/monitoring/environments__monitoring.png){: .shadow}
 
 This dashboard would be available for all of your environments: production, staging, and review apps. Or maybe you’d only want to install it for production environments. I’m not sure yet.
 The point is that monitoring is an essential part of environments, deployments, and MRs.
@@ -82,7 +82,7 @@ The point is that monitoring is an essential part of environments, deployments, 
 
 This is a screenshot cribbed from New Relic, but I could imagine some of this information show up on our deployment history pages.
 
-![Deployment history](/images/blogimages/monitoring/deploy-history-e747cf6fa6b33dd414e8099294091dca.png)
+![Deployment history](/images/blogimages/monitoring/deploy-history-e747cf6fa6b33dd414e8099294091dca.png){: .shadow}
 
 ## Future
 
@@ -125,7 +125,7 @@ Deploys aren’t just binary pass/fail, and they’re not instantaneous, but we 
 
 So here’s an early mockup of how we could integrate this information into our environment view.
 
-![Deployboard](/images/blogimages/monitoring/environments__deploy-graphic.png)
+![Deployboard](/images/blogimages/monitoring/environments__deploy-graphic.png){: .shadow}
 
 On staging, you see that the last deployment finished, but production has a deployment that is ongoing. Each square represents a container, managed by Kubernetes. Hovering over each one shows the server name and it’s current status. Clicking through might show more details about that container. Since this is the environment list, we also see our review apps, but we’ve hidden the deploy status by default since it’s less important for review apps. For any of these environments, you can click through to the monitoring dashboard I already showed.
 
@@ -134,7 +134,7 @@ On staging, you see that the last deployment finished, but production has a depl
 
 Now deploy monitoring is a rich area with lots of opportunities for growth. Here’s an image from someone else’s Deployboard that shows a Slack notification of a staging deploy, and @ mentioning everyone with code in that change.
 
-![Deployboard notification](/images/blogimages/monitoring/deployboard_notification.png)
+![Deployboard notification](/images/blogimages/monitoring/deployboard_notification.png){: .shadow}
 
 Here are some other ideas I want to explore:
 
@@ -180,7 +180,7 @@ It also helps stay true to the premise of continuous integration which is that e
 I'd like to see us work [feature flags into GitLab](https://gitlab.com/gitlab-org/gitlab-ee/issues/779) in a first-class way. To be honest, I really don’t know how to do that. But I know I’d like to visually see, at a glance, which features are in private beta, for example. If a product manager tries to turn a feature on for general availability, they’ll be subtly reminded that they should consider going through private beta first. Companies should be able to set a rollout policy of what percentages things should go through at each stage.
 If done right, it’ll encourage a good rollout process, and make it trivially easy for users to follow the flow, every time.
 
-![User flags](/images/blogimages/monitoring/user-flags.png)
+![User flags](/images/blogimages/monitoring/user-flags.png){: .shadow}
 
 ### Feature Monitoring
 Now to bring this back to monitoring, feature flags are another rollout mechanism, similar to some of the deployment strategies. So we should be able to [monitor these](https://gitlab.com/gitlab-org/gitlab-ce/issues/24254), showing some analysis/graphing on them.
