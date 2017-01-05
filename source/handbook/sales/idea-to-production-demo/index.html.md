@@ -21,8 +21,9 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 {:.no_toc}
 
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
-- [Blog post with progress](https://about.gitlab.com/2016/11/14/idea-to-production/)
-- [Open issues for this demo](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
+- [13 minute demo blog post](https://about.gitlab.com/2016/11/14/idea-to-production/)
+- [Everyone can replicate idea to production](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986)
+- [All open issues](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
 
 ## Table of Contents
 {:.no_toc}

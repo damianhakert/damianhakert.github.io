@@ -93,6 +93,16 @@ helpers do
     end
   end
 
+  def salary_avail
+    data.jobs.select(&:salary).sort_by(&:title)
+  end
+
+  def salary_for_current_job
+    salary_avail.detect do |job|
+      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+    end
+  end
+
   def font_url(current_page)
     fonts = ["Source+Sans+Pro:300,400,600"]
 

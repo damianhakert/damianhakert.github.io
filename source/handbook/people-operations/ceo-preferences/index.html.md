@@ -69,7 +69,7 @@ The EA should follow up to make sure the draft post is submitted.
 * Labels: /archive, /respond or /urgent-important
 * Prepare draft responses
 * Standard reply for recruiters:
-“We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
+“We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
 
 ## Scheduling
 {: #scheduling}

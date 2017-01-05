@@ -60,6 +60,8 @@ We want to achieve our goals in the following order:
 
 While we achieve our goals one by one, this doesn't mean we will focus on only one goal at a time. Simultaneously, we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [products](https://about.gitlab.com/pricing/#gitlab-ee), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
+During phase 2 there is a natural inclanation to focus only on on-premises since we make all our money there. Having GitHub focus on SaaS instead of on-premises gave us a great opportunity to achieve phase 1. But GitHub was not wrong, they were early. When everyone was focussed on video on demand Netflix focussed on shipping DVD's by mail. Not because it was the future but because it was the biggest market. The biggest mistake they could have made was to stick with DVDs. Instead they leveraged the revenue generated with the DVDs to build the best video on demand service.
+
 We realize our competitors have started earlier and have more capital. Because we started later we need a more compelling product that covers the complete [scope](https://about.gitlab.com/direction/#scope), that is integrated out of the box, and that is cloud native. Because we have less capital, we need to build that as a community. Therefore it is important to share and ship our [vision for the product](https://about.gitlab.com/direction/#vision). The people that have the most knowledge have to prioritize **breadth over depth** since only they can add new functionality. Making the functionality more comprehensive requires less coordination than making the initial minimal feature. Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However leading the way is needed to allow others to see our path and contribute. So when in doubt, the rule of thumb is breadth over depth, so everyone can contribute.
 
 ## Principles
@@ -101,128 +103,6 @@ We realize our competitors have started earlier and have more capital. Because w
 
 8. The low base price for EE is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
 
-## General 2016
+## Quarterly OKR
 
-1. Work with our [strategic alliances](https://docs.google.com/a/gitlab.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit?usp=drive_web) to increase awareness and sales.
-
-1. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
-
-1. Publish our processes and plans in the handbook or link from there.
-
-1. Keep hiring self-directed people that experience the freedom to suggest changes.
-
-1. To preserve culture we should over communicate and regularly discuss our values.
-
-1. Drop minimum basic subscription user count to 1 user. DONE
-
-1. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
-
-1. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
-
-## Technology 2016
-
-1. Make something people want: merging community contributions is the priority and at least one person will work on that fulltime.
-
-1. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
-
-1. Ship with the full [scope](https://about.gitlab.com/direction/#scope) before the year ends.
-
-1. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
-
-1. Implement effective development processes and leadership.
-
-## Revenue 2016
-
-1. Triple ARR
-
-2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
-
-3. Increase revenue globally, with a focus on APAC, by developing channel sales program (value-added reseller and OEM).
-
-4. Increase our average deal size through upsell to higher plans, selling multi-year deals and increasing seats sold.
-
-5. Increase adoption and revenue within accounts through the creation of a Customer Success organization
-
-6. Increase salesperson capacity and productivity by creating specialized roles, in sales we'll have account executives, senior accounts executives, and regional sales directors. In Customer Success we'll have account managers (on quota and work with named accounts) and success engineers (not on quota, work with named accounts, will not do product support, work primarily via email/web-conferencing, provide pre-sales support, guide their accounts through our features, installation, implementation, integrations, roadmap, and best practices).
-
-7. Account Executives specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
-
-8. Intense one month onboarding program (GLU, GitLab, Udacity, TrainTool) to prepare new salespeople to add value faster to the buying process.
-
-## Marketing 2016
-
-1. Automation: automation will bring predictable, growing, and well-prioritized leads.
-
-2. PR pitch: [opinionated and integrated set of tools based on CoC offers a superior UX](https://about.gitlab.com/direction/).
-
-3. Needs to win hearts and minds with excellent [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/).
-
-4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
-
-5. Announce we'll sponsor every diversity in tech event with at least $500. DONE
-
-6. Introduce 'everyone can contribute' as our why and tagline. DONE
-
-7. Hire partner marketing and product marketing people (release posts, website, and sales enablement).
-
-## Finance 2016
-
-1. Globally integrated finance with NetSuite.
-
-2. A great subscription system that is loved by sales.
-
-3. Need enough cash, raise if terms are great.
-
-4. Efficient finance that enables team, sales, etc.
-
-5. Efficient legal counsel with expert people and short cycles.
-
-6. Within 2016 we'll switch from TCV to ARR as the metric for bonuses.
-
-7. Monthly incentive for the whole company ($100 dinner) if we make our sales goal. DONE
-
-## People Operations 2016
-
-1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Sr. Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
-
-1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
-
-1. To support our great culture, institutionalize feedback as being near-continuous and mostly informal.
-
-1. Adopt a coherent approach to [OKR's](https://en.wikipedia.org/wiki/OKR), performance management, and compensation management.
-
-1. Develop job levels with promotion criteria, including criteria on team and company collaboration.
-
-1. Sponsor initiatives and hire in countries that have low opportunity.
-
-## Service Engineering 2016
-
-1. Provide a great support experience with reliable and fast response times for customers.
-
-2. Respond to all community communication and recognize community members who provide
-a lot of support to others in the community.
-
-3. Make service engineering onboarding and training a mostly self-guided experience that scales.
-
-4. Empower users through improved documentation, training, tutorials, and
-community engagement.
-
-## Production Engineering 2016
-
-1. A highly available GitLab.com that [feels fast](https://gitlab.com/gitlab-com/operations/issues/182) and has little downtime.
-
-2. [Free CI runners for everyone](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322) for at least as long as our credits last. DONE
-
-4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
-
-5. Solutions for performance measurement, logs, including tools for alerting when something goes wrong, that ship with EE.
-
-## Partnerships 2016
-
-1. Most partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc.
-
-1. We'll hire a [Director of Strategic Partnerships](https://about.gitlab.com/jobs/director-strategic-partnerships/). DONE
-
-1. The reseller partnerships are especially important here.
-
-1. We also want to get shipped as official Debian package. DONE
+Our quarterly Objectives and Key Results are documented in Lattice. We're waiting for a public link.

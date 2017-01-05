@@ -223,6 +223,9 @@ We will endeavor to provide funds to support up one event per reseller per quart
 
 Please submit your application for event support [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
+Please submit your application for event support in a new issue in the [reseller page of gitlab.com](https://gitlab.com/gitlab-com/resellers/issues). When it allowes you to select a tempate, choose the reseller template and fill in responses to the categories. All the relevant GitLab parties will be notified once you submit your issue and will be in touch shortly. You will be able to track the progress of your submission in the issue. 
+
+
 ### Online Marketing Support Requests
 
 GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.

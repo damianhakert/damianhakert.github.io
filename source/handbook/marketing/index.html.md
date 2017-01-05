@@ -346,7 +346,7 @@ What is Comm. Adv. (to be included).
 
 > _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition, it is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
 
-At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional and up-to-date.
+At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional, and up-to-date.
 
 [Job Description](/jobs/technical-writer/){:.btn .btn-purple-inv}
 [Handbook][Technical Writing]{:.btn .btn-purple}

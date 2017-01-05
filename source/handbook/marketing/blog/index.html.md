@@ -669,7 +669,7 @@ formatting system, check out our [Markdown Guide].
 
 Just below the frontmatter, start writing your post, including the sections as follows:
 
-- Introduction. State the problem, audience and purpose of the article.
+- Introduction. State the problem, audience, and purpose of the article.
 - Add the `<!-- more -->` separator. This is going to separate the visible part on the landing
 page <https://about.GitLab.com/blog/> from the rest of the article body.
 - Software and hardware requirements - explain what the reader needs before following your steps.
@@ -823,6 +823,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 To keep our blog posts consistent with one another, let's follow these simple guidelines to all of them. Please read the [Blog Style Guidelines](#styles-guidelines) and the [Markdown Guide] to avoid inconsistencies. What you can't miss:
 
 - Always add the label `release` to the MR
+- When mentioning contributors or MVPs, link their name to their respective user account on GitLab.com
 - Add the [frontmatter](#frontmatter) information:
   - `description`: a short description of the blog post
   - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.
