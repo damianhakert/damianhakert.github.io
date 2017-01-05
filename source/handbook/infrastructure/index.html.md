@@ -125,7 +125,8 @@ There are 2 kind of production events that we track:
   - Deploys will be recorded automagically because of the way we do deploys.
   - General operations can be recorded by creating an empty commit in the repo and pushing it into origin.
 - Outages and general production incidents
-  - Refer to the _Outages and Blameless Post Mortems_ section ahead
+  - If we are required to act in production manually to perform any operation we should create an issue and consider labeling it as _toil_ to track the cost of such manual work load.
+  - It we had a disruption in the service, we must create a blameless post mortem. Refer to the _Outages and Blameless Post Mortems_ section ahead
 
 ## Outages and Blameless Post Mortems
 
@@ -139,6 +140,8 @@ In this issue we will gather the following information:
 * The things that worked well
 * The things that can be improved
 * Further actions with links to the issues that cover them
+
+These issues should also be tagged with any other label that makes sense, for example, if the issue is related to storage, label it so.
 
 The responsibility of creating this post mortem is initially on the person that handled the incident, unless it gets assigned explicitly to someone else.
 
