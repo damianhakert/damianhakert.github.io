@@ -2200,7 +2200,7 @@
 - name: J.L.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager, Prometheus</a>
   reports_to: Head of Product
   picture: logo-extra-whitespace.png
   twitter:
@@ -2222,7 +2222,7 @@
 - name: D.L.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager-ci/">Senior Product Manager (CI/CD Pipelines)</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager-ci/">Senior Product Manager, CI/CD Pipelines</a>
   reports_to: Head of Product
   picture: logo-extra-whitespace.png
   twitter:
