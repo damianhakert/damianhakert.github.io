@@ -24,7 +24,7 @@ I’ll start by talking about a potential minimum viable product (MVP), and then
 And if you want to play along at home, here’s a link to your personalized [buzzword bingo card](http://bit.ly/2hP4xTn) for the presentation.
 
 ## Minimum Viable Product (MVP)
-### Use Prometheus to monitor GitLab installation
+### Use Prometheus to Monitor GitLab Installation
 
 So the first step is to add [Prometheus](https://prometheus.io/) to monitor GitLab installations themselves. I won’t go into details here; and I believe [Pablo will be giving a talk about how we’re using it](https://gitlab.com/gitlab-com/marketing/issues/594). But in short, Prometheus is an open source monitoring solution. We’ve been using it internally here, and we’re going to bundle it up with GitLab CE so you can use it to monitor your own instances of GitLab.
 
@@ -36,8 +36,6 @@ Related issues:
 1. [Build public monitoring infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues/414)
 1. [Bundle Prometheus with GitLab CE](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481)
 1. [Build High Available (Federated) prometheus monitoring solution](https://gitlab.com/gitlab-com/infrastructure/issues/760)
-
-### Use Prometheus to monitor GitLab installation
 
 Here’s a couple screenshots I cribbed from some of those issues. Again, I’m not going to go into detail here. These are fairly traditional, if not ugly, dashboards using Prometheus and Grafana.
 
@@ -62,7 +60,7 @@ We’ll start by measuring throughput, latency (or response time), and error rat
 
 But measuring resources such as CPU, memory, and I/O might be easier for an MVP, so I’m keeping that open. Kubernetes may make some parts of that easier, but others harder. I don’t believe we should do all of this for an MVP, so my preference would be the web response side of things. The thinking goes: if one of the resources are constrained, say memory is entering swap too much, then that will show up as latency in the system. So I’d rather observe the material impact to the user directly. Unfortunately that means you don’t see anything until it’s already an impact. And knowing that latency is bad or error rates are up doesn’t help you debug the situation. That’s where resource monitoring can be useful. But still, as a first step, I want to know how my users are impacted and THEN find a way to debug it, at which point I may very well fire up New Relic to do more powerful analysis.
 
-### Monitoring alert on merge request
+### Monitoring Alert on Merge Request
 
 So to show how we’re thinking of integrating monitoring, here’s a merge request, that has already been merged and deployed to production. Because we’ve got monitoring, GitLab noticed that memory usage increased right after the deploy, so we get a message right on the merge request.
 
@@ -71,7 +69,7 @@ So to show how we’re thinking of integrating monitoring, here’s a merge requ
 Let’s zoom in a little more. We see the alert, plus some summary information, telling you the memory usage increased from 114MB to 127MB, and a little spark line so you can see it graphically. Maybe we’d add a percent increase to make it more concrete. Of course, we’d also send an email notification of this alert, to the author of the actual changes about the impact. That way, this isn’t just an ops problem, the person or people most likely to be be able to deal with it know as soon as possible.
 Now let’s click through and see more details.
 
-### Monitoring dashboard
+### Monitoring Dashboard
 
 So now we see something a little more traditional. This is an early mockup of how a monitoring dashboard could appear. Note even in this early stage, we’ve got lines showing when deploys happened, to help identify code changes that impacted performance. Maybe hovering over them would show a list of merge requests that were included in that deploy.
 
@@ -80,7 +78,7 @@ So now we see something a little more traditional. This is an early mockup of ho
 This dashboard would be available for all of your environments: production, staging, and review apps. Or maybe you’d only want to install it for production environments. I’m not sure yet.
 The point is that monitoring is an essential part of environments, deployments, and MRs.
 
-### Deployment history
+### Deployment History
 
 This is a screenshot cribbed from New Relic, but I could imagine some of this information show up on our deployment history pages.
 
@@ -114,7 +112,7 @@ Lastly, we’ve got user-defined or business metrics like signups, conversions, 
 
 Now, I’ve pretty much just defined the entirety of several monitoring industries. Obviously we’re unlikely to be best-of-breed in all of these. At least not in the next release or two. So again, the focus really is how we can provide the biggest bang-for-buck, the 20% effort that delivers 80% of the value, and really leverage our unique value, and that’s in our deep integration; making everything easier to use because it’s already there, and more impactful because it’s integrated across the experience. Anyone can show a graph of performance, where you can see that deploy 123 of merge request XYZ caused a problem, but alerting right on the merge request itself, right after deploying it, and emailing the authors of the actual changes about their impact, well, that’s just the tip of the iceberg of how monitoring could permeate the developer experience.
 
-### Deploy monitoring
+### Deploy Monitoring
 * Track status of deploy from start to finish
 * Finer state detail (ready, preparing, waiting, deploying, finished, failed)
 * Aware of rollout across multiple containers/servers
@@ -131,7 +129,7 @@ So here’s an early mockup of how we could integrate this information into our 
 
 On staging, you see that the last deployment finished, but production has a deployment that is ongoing. Each square represents a container, managed by Kubernetes. Hovering over each one shows the server name and it’s current status. Clicking through might show more details about that container. Since this is the environment list, we also see our review apps, but we’ve hidden the deploy status by default since it’s less important for review apps. For any of these environments, you can click through to the monitoring dashboard I already showed.
 
-### Deploy monitoring++
+### Deploy Monitoring++
 * Notify authors of MRs that their changes are now live or in staging
 
 Now deploy monitoring is a rich area with lots of opportunities for growth. Here’s an image from someone else’s Deployboard that shows a Slack notification of a staging deploy, and @ mentioning everyone with code in that change.
