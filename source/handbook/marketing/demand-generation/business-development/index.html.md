@@ -229,7 +229,7 @@ Your messaging for each one will be different. An end user or lower level develo
 
     Schedule meeting
     "Do you have 15 minutes on (specific day and time) to discuss your (example - developer life cycle)?"
-      
+
 
 #### Qualifying<a name="inboundQualify"></a>
 
@@ -296,7 +296,7 @@ Helpful [Tutorials](https://drive.google.com/open?id=0B1W9hTDXggO1NGJwMS12R09lak
 
  - #BDRing - Doing your job...Kris Touzel
  - #SQLing - Winning at your job...Ryan Caplin
- - #BDR - Boss Destroying Revenue...Joe Lucas
+ - #BDR - Boss Destroying Revenue
 
 #### Frequently Asked Questions<a name="questions"></a>
 
