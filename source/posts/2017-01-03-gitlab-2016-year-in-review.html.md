@@ -2,7 +2,7 @@
 title: "GitLab 2016 Year In Review"
 author: Connor Shea
 author_twitter: connorjshea
-categories: 
+categories: GitLab
 image_title: 
 description: 
 ---
@@ -13,13 +13,13 @@ TODO: INTRO
 
 For a visual of how far we’ve come, take a look at these two screenshots.
 
+An issue for GitLab Community Edition on January 22, 2016 (8.4):
+
 ![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png)
 
-An issue for GitLab Community Edition on January 22, 2016 (8.4). 
+An issue for GitLab Community Edition on January 3, 2017 (8.15):
 
 ![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png)
-
-An issue for GitLab Community Edition on January 3, 2017 (8.15).
 
 ## January: 8.4
 
@@ -35,9 +35,9 @@ A browser was added for [Build Artifacts](https://docs.gitlab.com/ce/user/projec
 
 We introduced a [File Finder](https://docs.gitlab.com/ce/workflow/file_finder.html), a much-requested addition contributed by the community! It helps find any file in a repository using "fuzzy" search.
 
-### Elasticsearch (EE)
+### Elasticsearch (EE Starter)
 
-Improved repository search was added for Enterprise Edition with [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html). This made searching projects' code, issues, and merge requests faster and more useful.
+Improved repository search was added for Enterprise Edition Starter with [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html). This made searching projects' code, issues, and merge requests faster and more useful.
 
 ## February: 8.5
 
@@ -47,9 +47,9 @@ Improved repository search was added for Enterprise Edition with [Elasticsearch]
 
 February saw the release of GitLab 8.5 with the introduction of [Todos](https://docs.gitlab.com/ee/workflow/todos.html) – our take on a more useful notification system.
 
-### GitLab Geo (EE)
+### GitLab Geo (EE Premium)
 
-Also included in February's release was an alpha version of GitLab Geo. GitLab Geo is available for GitLab Enterprise Edition and allows companies with offices around the world to mirror their GitLab instance in multiple places. This makes downloading large repositories much faster for all team members, no matter where they are.
+Also included in February's release was an alpha version of GitLab Geo. GitLab Geo is available for GitLab Enterprise Edition Premium and allows companies with offices around the world to mirror their GitLab instance in multiple places. This makes downloading large repositories much faster for all team members, no matter where they are.
 
 ### Custom Domains and custom TLS certs for GitLab Pages
 
@@ -77,7 +77,7 @@ Confidential issues are issues visible only to members of a project with suffici
 
 ### Due Dates
 
-Due dates were added for issues and merge requests. They can be used to keep track of deadlines and make sure features are shipped on time.
+Due dates were added for issues. They can be used to keep track of deadlines and make sure features are shipped on time.
 
 ### Cherry Picking
 
@@ -105,7 +105,7 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 > [GitLab 8.9 Release Post](https://about.gitlab.com/2016/06/22/gitlab-8-9-released/)
 
-### File Locking (EE)
+### File Locking (EE Premium)
 
 [File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that can be used to prevent binary files from being overridden. This is useful for many use cases, like game development with models, art assets, and sound files or on a website when editing a graphic. 
 
@@ -187,7 +187,7 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ### Koding integration
 
-8.11 introduces integration with [Koding](http://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser.
+8.11 introduces integration with [Koding](https://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser. Note that Koding integration isn't currently supported on GitLab.com, only self-hosted GitLab instances.
 
 ## September: 8.12
 
@@ -195,11 +195,11 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ### Cycle Analytics
 
-The headline feature of 8.12 was [Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html), a new way of tracking software development using the data GitLab gathers as you use it. See [our feature highlight](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
+The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. See [our feature highlight](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
 ![Cycle Analytics](/images/8_12/cycle_analytics.png)
 
-### Global Code Search (EE)
+### Global Code Search (EE Starter)
 
 Code search was improved in Enterprise Edition 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
 
@@ -213,7 +213,7 @@ With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requ
 
 > [GitLab 8.13 Release Post](https://about.gitlab.com/2016/10/22/gitlab-8-13-released/)
 
-### Multiple Issue Boards (EE)
+### Multiple Issue Boards (EE Starter)
 
 Issue Boards were improved for EE users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
 
@@ -229,7 +229,7 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 > [GitLab 8.14 Release Post](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/)
 
-### Time Tracking Beta (EE)
+### Time Tracking Beta (EE Premium)
 
 With the introduction of the Time Tracking Beta (available in Enterprise Edition Premium), companies that need time tracking tools can use them right from within GitLab. 
 
@@ -241,9 +241,9 @@ We introduced [Chat Commands](https://docs.gitlab.com/ce/project_services/matter
 
 ### Review Apps
 
-A new addition to GitLab CI in this release was [Review Apps](https://docs.gitlab.com/ce/ci/review_apps/index.html). Review Apps can be used to deploy merge requests from your GitLab instance to a dev or staging environment for testing. At GitLab, we use these for testing [about.gitlab.com](https://about.gitlab.com) as well as [docs.gitlab.com](https://docs.gitlab.com).
+A new addition to GitLab CI in this release was [Review Apps](https://about.gitlab.com/features/review-apps/). Review Apps can be used to [deploy merge requests from your GitLab instance to a dev or staging environment for testing](https://docs.gitlab.com/ce/ci/review_apps/index.html). At GitLab, we use these for testing [about.gitlab.com](https://about.gitlab.com) as well as [docs.gitlab.com](https://docs.gitlab.com).
 
-For more information on Review Apps, see [our feature highlight](https://about.gitlab.com/2016/11/22/introducing-review-apps/)
+For more information on Review Apps, see [our feature highlight blog post](https://about.gitlab.com/2016/11/22/introducing-review-apps/).
 
 ## December: 8.15 
 
