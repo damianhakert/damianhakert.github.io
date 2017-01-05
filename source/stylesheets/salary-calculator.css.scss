@@ -13,8 +13,16 @@
   .col-sm-6 {
     padding: 0 10px 0 0;
 
-    @media (max-width: 767px) {
+    @media (max-width: $screen-sm-min) {
       padding-right: 0;
+    }
+  }
+
+  .col-sm-12 {
+    h5 {
+      display: inline-block;
+      color: $color-gray-light;
+      font-weight: normal;
     }
   }
 
@@ -44,16 +52,11 @@
     }
   }
 
-  .dropdown {
-    margin-bottom: 10px;
-  }
-
   .compensation {
     border: 1px solid $dropdown-border-color;
     border-radius: 3px;
     height: 100%;
     padding: 10px;
-    margin-bottom: 10px;
 
     .title {
       border-bottom: 1px solid $dropdown-border-color;
@@ -117,15 +120,21 @@
     display: inline-block;
     white-space: no-wrap;
   }
+
+  @media (max-width: $screen-sm-min) {
+    .dropdown,
+    .compensation {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .move-container {
-
   .title {
     margin-top: 15px;
   }
 
-  @media (min-width: 767px) {
+  @media (min-width: $screen-sm-min) {
     .col-sm-4,
     .updated-compensation {
       padding: 0 5px;
@@ -133,7 +142,6 @@
   }
 
   .col-sm-12 .col-sm-4 {
-
     &:first-of-type {
       padding-left: 0;
     }
@@ -210,8 +218,15 @@
 
   .input-label,
   .input-prefix,
-  .input-field {
+  .input-field,
+  .input-suffix {
     position: absolute;
+  }
+
+  .input-prefix,
+  .input-suffix {
+    bottom: 3px;
+    color: $color-gray-light;
   }
 
   .input-label {
@@ -222,16 +237,14 @@
   }
 
   .input-prefix {
-    left: 10;
-    bottom: 3px;
-    color: $color-gray-light;
+    left: 10px;
   }
 
   .input-field {
     bottom: 4px;
     left: 20px;
     padding: 0;
-    width: 90%;
+    width: 75%;
     height: 18px;
     font-size: 15px;
     outline: 0;
@@ -246,7 +259,18 @@
     }
   }
 
-  &.has-value .input-prefix {
-    color: $dropdown-fa-focus-color;
+  .input-suffix {
+    right: 10px;
+  }
+
+  &.has-value {
+    .input-prefix,
+    .input-suffix {
+      color: $dropdown-fa-focus-color;
+    }
+  }
+
+  @media (max-width: $screen-sm-min) {
+    margin-bottom: 10px;
   }
 }
