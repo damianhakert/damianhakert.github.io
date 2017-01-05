@@ -1076,7 +1076,7 @@
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
-  specialty: Performance
+  specialty: <a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a>
   maintains: |
              <li>On-call hero!</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
@@ -1244,7 +1244,7 @@
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
-  specialty: Performance
+  specialty: <a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a>
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://gitlab.com/gitlab-org/gitlab-monitor">GitLab Monitor maintainer</a></li>
