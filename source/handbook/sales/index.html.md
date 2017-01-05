@@ -117,22 +117,30 @@ Opportunities for subscriptions will use the following guidelines:
 
 - **New Business/Existing Customer - Cross-Sell**:
    - [Name of Company]- [Quantity] [Abbreviations of Product]
-   - Example: Acme, Inc- 50 EE
-   - Example: Acme, Inc- 50 EE/Geo
+   - Example: Acme, Inc- 50 EES
+   - Example: Acme, Inc- 50 EES/Geo
 
 - **Add-On Business (seats only)**:
    - [Name of Company]- Add [Quantity] [Abbreviations of Product]
-   - Example: Acme, Inc- Add 25 EE
+   - Example: Acme, Inc- Add 25 EES
    - Example: Acme, Inc- Add 25 EE/Geo
 
 - **Add-On Business (new products)**:
    - [Name of Company]- Add [Quantity] [Abbreviations of Product]
    - Example: Acme, Inc- Add 25 PS
 
+- **Add-On Business (Upgrade from Starter to Premium)**:
+   - [Name of Company]- Upgrade to EEP 
+   - Example: Acme, Inc- Upgrade to EEP
+
+- **Add-On Business (Downgrade from Premium to Starter)**:
+   - [Name of Company]- Downgrade to EES 
+   - Example: Acme, Inc- Downgrade to EES
+
 - **Renewal Business (no changes)**:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]
-   - Example: Acme, Inc- 50 EE Renewal 01/17
-   - Example: Acme, Inc- 50 EE/Geo Renewal 01/17
+   - Example: Acme, Inc- 50 EES Renewal 01/17
+   - Example: Acme, Inc- 50 EES/Geo Renewal 01/17
 
 - **Renewal Business + Add On Business (seats)**:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Quantity]
@@ -142,28 +150,33 @@ Opportunities for subscriptions will use the following guidelines:
    - [Name of Company]- [Quantity] [Abbreviations of Product] Renewal [MM/YY]+ Add [Abbreviation of Product]
    - Example: Acme, Inc- 50 EE Renewal 01/17 + Add Geo
 
+- **Renewal Business + Upgrade**:
+   - [Name of Company]- [Quantity] Upgrade to EEP + Renewal [MM/YY]
+   - Example: Acme, Inc- 50 Upgrade to EEP + Renewal 01/17
+
 Abbreviation of Products:
 
-- EE- Enterprise Edition
-- FL- File Locking
-- Geo- GitLab Geo
+- EES- Enterprise Edition Starter
+- EEP- Enterprise Edition Premium
+- FL- File Locking*
+- Geo- GitLab Geo*
 - GH- GitHost
-- PS- Premium Support
-- PT- Pivotal Tile
+- BS- Bronze Support
+- PS- Premium Support*
+- PT- Pivotal Tile*
 
-Opportunities for Training will use the following guidelines:
+* Once all active customers are converted to either EE Starter or EE Premium, these products will no longer be available to sell a la carte.
+
+Opportunities for Customer Training will use the following guidelines:
 
 - Training
    - [Name of company]- [Type of training]
    - Example: Acme Inc- User Training.
-   - **Note** to set up the actual training, follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
+   - **Note** to set up the actual training, click [here](https://gitlab.com/gitlab-com/support/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#), choose the template "Customer Training", and fill in the details under the Sales Heading. Support will handle the rest. 
 
 Types of Training:
 
-- User Training
-- Git Workshop
-- GitLab Flow
-- GitLab Admin
+See [GitLab.com](https://about.gitlab.com/training/) for the most up to date trainings offered.
 
 Gitorious Opportunities:
 
@@ -176,7 +189,7 @@ Gitorious Opportunities:
 1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new purchasing group.
-1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
+1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased, or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages
 
@@ -184,7 +197,7 @@ Gitorious Opportunities:
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
 1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
-1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
+1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance, and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 1. Unqualified - This should only be used when an opportunity is passed from the BDR team, but does not meet our standard qualification criteria. Once you've moved the opportunity to Discovery or later, the opportunity can no longer be marked as Unqualified.
@@ -438,7 +451,7 @@ A reseller quote has a few different things than a regular quote:
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
 * Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.
 * Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
-* Discount: Authorized resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fulfillment houses like SHI, Insights or other resellers that are not authorized resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
+* Discount: Authorized resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fulfillment houses like SHI, Insights, or other resellers that are not authorized resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
 When in doubt please consult the reseller team.
 
 ### Workaround for the lack of a reseller quote template
@@ -475,8 +488,8 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
   * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
-1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term and pricing.  Quote is also needed to confirm they agree to terms and conditions.  
-  * If a PO is received, we need to receive a signed quote showing the products, # of users, term and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
+  * If a PO is received, we need to receive a signed quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
 
 Once the above has happened, please make sure that the following fields are populated, otherwise you will receive an error message when submitting the opportunity for approval:
 
@@ -499,7 +512,7 @@ Once the above has happened, please make sure that the following fields are popu
   * An email will be sent to you confirming that the opportunity has been submitted for approval.
   * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
   * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval.
-  * If the opportunity has been approved, you will receive an email that the opportunity has been approved. 
+  * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
   * The opportunity will automtically change to Closed Won and the Close Date will update to the date of submission.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
 1. If the customer agrees to be a reference, please complete the following steps:
@@ -557,22 +570,25 @@ Cases display in an Emails related list. The Emails related list includes all em
 
 Once you close a deal that includes Premium Support, you need to:
 
-1. [Request a Dedicated Service Engineer](/handbook/support/#dedicated-service-engineers) as described in the Support Handbook.
-1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
-1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+1. Ensure that they are marked as such in SalesForce, so that it carries through to Zuora and Zendesk.
+1. Until we get the kinks worked out in the integration of SalesForce, Zuora, and Zendesk, notify the Support Lead that the customer is a Premium support customer, by creating an issue on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues). Be sure to include:
+   - Name of organization
+   - domain name, and (optionally) named individuals that are most likely to submit support tickets
+   - link to the SalesForce record.
+   - mark the issue confidential, and \cc the Support Lead.
+   - If the client is interested in joining the Slack group support channel, indicate this with the email addresses of the individuals that should be added to the channel. Any Slack admin can do this, but the Support Lead should see it through to completion via the issue.
 
-#### Escalation to Support
+### Escalation to Support
 
 Customers that require technical assistance or have questions that are not within the scope of sales can have their queries escalated to the GitLab support team via the following channels.
 
 1. Create a new ticket on behalf of the customer in the [support web form](https://support.gitlab.com)
-1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-support) section of the support handbook.
+1. For quick questions, see the [internal support](https://about.gitlab.com/handbook/support/#internal-support-for-gitlab-team-members) section of the support handbook.
 1. Forward a customer question via email to the **support** email address. - It's important the email is **forwarded** and not CC'd to avoid additional changes required once the support request is lodged.
 
 
 
-#### Contributing to EE Direction
+### Contributing to EE Direction
 
 Being in a customer facing role, salespeople are expected to contribute to [GitLab Direction](https://about.gitlab.com/direction/).  Each day we talk to customers and prospects we have the opportunity to hear of a feature they find valuable or to give feedback (positive and constructive) to an EE feature that there is an issue for.
 When you hear of feedback or you personally have feedback, we encourage you to comment within the issue, if one exists, or create your own issue on our [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues). Checking the [GitLab Direction](https://about.gitlab.com/direction/) page and the [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues) should happen throughout the week.

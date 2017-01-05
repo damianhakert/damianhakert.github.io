@@ -21,7 +21,7 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
  Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
- national origin, age, disability or genetics. One example of how put this into practice
+ national origin, age, disability, or genetics. One example of how put this into practice
  is through sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/)
 
  GitLab complies with all applicable laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer,
@@ -87,14 +87,14 @@ The recruiting team will **always** publicize the job through the following mean
 1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
 ### Sourcing for Open Positions
-*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized or difficult to fill position.
+*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
 
 
 ## Hiring Process
 
 ### General points about moving applicants through the process
 
-**Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next."
+**Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next." Some brief feedback from the previous stage can also be included to help the candidate gauge their progress.
 
 **The process can differ from team to team and from position to position.** If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
 
@@ -157,7 +157,8 @@ Questions are:
 1. Why are they looking for a new job?
 1. Why did they apply with GitLab?
 1. What is your experience with X? (do for each of the skills asked in the job description)
-1. Current address? (relevant in context of comp, and in case of contract we will need that information).
+1. Current address? (relevant in context of comp, and in case of contract we will need that information)
+1. Full legal name? (relevant in case an offer would be made)
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
 1. Notice period needed
@@ -290,9 +291,6 @@ To close a vacancy:
 
 If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the recruiting team will email the partner or remove the position from that site.
 
-## Underperformance
-
-See [underperformance guidelines](/handbook/underperformance).
 
 ## Visas & Work Permits
 

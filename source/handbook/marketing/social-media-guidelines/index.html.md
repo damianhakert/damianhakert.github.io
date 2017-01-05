@@ -7,9 +7,13 @@ Go to the [Handbook](/handbook/)
 
 ## Responding to Requests
 
-Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you. Remain positive.
-
+- **Respond to mentions.** Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you.
+- **Respond quickly.** The urgency to respond depends on the medium. On Hacker News we need to respond within an hour or so, responses after an item is no longer on the homepage are much less valuable.
+- **Everyone in the team helps.** Responding to social media is a task of all of us. Every team member is expected to contribute, especially if you have a leadership position.
+- **Delegate to the experts.** Nobody knows everything. Send the most relevant team member that is available a link over chat so they can respond. Make sure they can follow up quicky or find someone else.
+- **Answer yourself.**  We should be personable and human. So if something is delegated to you don't answer the question and have someone else post it. Engage yourself. Make or create an account for the service if needed.
 - **Continue the conversation by providing meaningful responses instead of just upvoting or saying a one word “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You can even provide people with links to non-GitLab things such as Git guides or DevOps guides. There is always a feature to mention or gratitude to express 'Thanks you so much for spreading the word about GitLab.'. For an example see the first three responses to [a HN post where the first three comments where positive but no questions](https://news.ycombinator.com/item?id=12052695). Or see [this response](https://twitter.com/sytses/status/762578230197022720) that links to the actual issue and therefore a reply that the original 'thank you' didn't get.
+- **Stay positive.** Don't feel the need to defend GitLab when someone says something negative (see "Assume good faith" below). Negative feedback is a great chance to learn or consider something new, so thank them for their feedback, document it in the issue tracker (add a comment to the issue if one is already open), and invite them to leave more comments if they wish.
 - **Remember that you’re speaking to a human being.** The people behind the comments are real, so treat them how you’d want to be treated if the roles were reversed. Try to find their real name so that you can personalize your message to them.
 - **Begin by thanking them for their feedback or apologizing to them for the inconvenience they experienced.** We want to start and end conversations on a high note.
 - **Assume good faith**. Remember, people are commenting on the product, not the people. The line can get blurry, but it’s important to stay objective.
@@ -22,10 +26,11 @@ Any time GitLab is mentioned or relevant to a thread it gets directed to our dif
 If there is already an opened issue or merge request for that case, link it to your answer. Do the same if there are other
 sources of information to support your statement, such as [blog posts](https://about.gitlab.com/blog) and [webpages](https://about.gitlab.com).
 - **Do what you say you will.** If you say you'll look into something, set a reminder to circle back with the person or link them to an issue on the issue tracker. Saying you'll look into something makes it impossible to continue the conversation until you do so, so it is essential that you continue the conversation at some later point. If this is too much work just say 'I don't know' and leave it at that.
+- **It is a disclosure**. Mentioning that you work at GitLab is not a disclaimer, actually your comment will rightfully be vetted more critically. If you post a lot on certain forums prefacing everything with 'GitLab CEO here' becomes annoying. Everyone should ensure that if you comment on Hacker News your profile mentions that you work at GitLab. And a subtle disclosure is possible by speaking in the we form (we shipped, we messed up, we will make that).
 
 ## GitLab Voice
 
-You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts.
+You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts.
 
 When speaking for GitLab, use the “GitLab voice.” When replying from the official GitLab account, speak as “we” and represent the software and community. On the official @GitLab account Twitter account and in other social media we should model attributes of our software and community. We strive to respond to all messages and questions. We respond by encouraging collaboration and contribution.
 
@@ -43,4 +48,4 @@ You may come across angry users from time to time. When dealing with people who 
 
 This document is a guide for GitLab team members who manage social media accounts. 
 
-You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
+You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 

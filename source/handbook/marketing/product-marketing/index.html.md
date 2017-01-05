@@ -147,13 +147,14 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 #### **Objectives**:
 - Illustrate successful and measurable improvements in the customer’s business   
 - Show other users how customers are using GitLab 
-- Align content so that GitLab solutions reflect the challenges our customers, prospects and the market requirements
+- Align content so that GitLab solutions reflect the challenges our customers, prospects, and the market requirements
 - Develop and grow organisational relationships: speak at events on our behalf, promote their business
 - Support our value proposition - Faster from idea to production
 
 #### **Case Study Format**:
 
 *Headline:* The name of the customer and the benefit they gained from implementing our solution
+
 *Sidebar Summary:* Summarize key points 
 - Customer Name and Logo
 - Customer Details: Country, Website
@@ -161,10 +162,15 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 - Annual Revenue - If publicly available
 - Employees
 - Summary of Key Benefits
+
 *The Customer:* A brief introduction of the customer, not the solution.
+
 *The Challenge:* What was the customer trying to change or improve. What regulations or market conditions drove the customer to search for a new solution. Share the steps the customer took to solve the problem, including other products and services they investigated. 
+
 *The Solution:* Detail the solution and how it aligns to the customers requirements. Also detail other solutions that GitLab interfaces with. Also include customer quote.
+
 *The Results:* Detail how GitLab supported the customer to solve their problems. This is where the use of benchmarking metrics such as such as time saved, reduced costs, increased performance etc. are required. 
+
 *About GitLab:* Short paragraph on GitlLab - about, solutions etc. Call to action of solutions offered.
 
 *Possible Additional Supporting Documents:* 

@@ -211,6 +211,10 @@ extra_js:
           %p
             %a{href: "http://doc.gitlab.com/ce/workflow/importing/README.html"} See our documentation
             for all your import options.
+          %p
+            You're never stuck on GitLab.com, your can always
+            %a{href: "https://docs.gitlab.com/ee/user/project/settings/import_export.html"} export and import your project
+            to a self hosted version of GitLab.
         .hidden-xs.hidden-sm.col-md-4
           = image_tag "/images/gitlab-com/import_options.png"
         .col-xs-1.col-md-1
@@ -219,22 +223,35 @@ extra_js:
         .col-xs-1.col-md-1
         .col-xs-12.col-md-9
           %h2#why-gitlab-com-will-be-free-forever
-            %a{name: "free-forever"}>
-            Why GitLab.com will be free forever
+            %a{name: "free-forever"}
+            Free forever
 
-          We want GitLab.com to become the most popular service for hosting
-          projects. To achieve this goal, GitLab.com is free, both for public
-          and private projects. Unlike other companies in this space, there is
-          no limit to the number of collaborators. We think that in the future
-          most repository hosting will be free in the same way email hosting is
-          free today. So we thought, why wait? Let's make it free for everyone
-          now. Our subscriptions for GitLab EE on-premises bring in more
-          than enough revenue to pay for the hosting of GitLab.com.
-          The revenues from EE and other Products are growing fast enough to keep up
-          with the growth in GitLab.com usage.
-          We see GitLab.com as a way to make GitLab more known and popular. In the future we might
-          introduce paid features like projects sizes above 10GB and Windows/OSX CI Runners.
-          We intend to keep the features that you have now free and monetize only new features.
+          %p
+            %a{href: "https://about.gitlab.com/strategy/#sequence"} Our strategy is to make GitLab.com the most popular SaaS solution for private and public repositories.
+            To achieve this goal you get unlimited public and private projects, and there is no limit to the number of collaborators on a project.
+            And we plan to keep unlimited repositories and collaborators free forever.
+            To sustain this there are paid accounts and features.
+            Below the types of accounts and the planned paid features are detailed.
+
+          %p There are three types of accounts on GitLab.com:
+
+          %ol
+            %li
+              Free: unlimited repositories, unlimited collaborators, 2000 build minutes (will enforce Q1 of 2017), all
+              %a{href: "https://about.gitlab.com/products/#comparison"} EE starter features
+            %li Bronze: email support, unlimited build minutes, the same features as the free plan
+            %li
+              Silver: (second half of 2017) all
+              %a{href: "https://about.gitlab.com/products/#comparison"} EE premium features
+
+          %p In the future we might also charge for the following things:
+
+          %ul
+            %li Build artifact storage above a certain size (currently unlimited even with a free account)
+            %li Container images storage above a certain size (currently unlimited even with a free account)
+            %li GitLab Pages with very high traffic (currently unlimited even with a free acount)
+            %li Restrict the build minutes in the bronze plan (move unlimited minutes to the silver account)
+            %li Windows & MacOS Runners for GitLab CI (not available now but you can always bring your own Runner)
 
           %h3
             = link_to('Sign Up', 'https://gitlab.com/users/sign_in', class: 'btn btn-purple')

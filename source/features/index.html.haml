@@ -1,121 +1,364 @@
 ---
-layout: default
 title: Features
 suppress_header: true
 extra_css:
-  - features.css
+  - features-v2.css
 extra_js:
-  - libs/jquery.magnific-popup.min.js
+  - libs/slick.min.js
+  - features.js
 ---
-.wrapper
-  .wide-feature.mr
-    .row
-      .col-md-12
-        .name
-          powerful
-          %b code review
-        .description
-          Merge requests with line-by-line comments, CI and issue tracker integrations and much more...
-      .wide-img
-        %a.image-link{href: "/images/feature_page/screenshots/mr_sh.png"}
-          = image_tag "/images/feature_page/screenshots/mr_sh.png", class: "img-responsive"
-      .wide-feature-link
-        %a.btn-default{href: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"} See merge requests in action
-  .container
-    .row.feature-row.first
-      .col-md-4.small-feature
-        .name
-          MERGE CONFLICT
-          %b RESOLUTION
-        %a.image-link{href: "/images/feature_page/screenshots/02-merge-conflicts.png"}
-          = image_tag "/images/feature_page/screenshots/02-merge-conflicts.png", class: "img-responsive"
-      .col-md-4.small-feature
-        .name
-          ACTIVITY
-          %b STREAM
-        %a.image-link{href: "/images/feature_page/screenshots/03-activity.png"}
-          = image_tag "/images/feature_page/screenshots/03-activity.png", class: "img-responsive"
-        .link
-          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/activity"} Have a look at an actual activity page
-      .col-md-4.small-feature
-        .name
-          FILE
-          %b BROWSER
-        %a.image-link{href: "/images/feature_page/screenshots/04-file-browser.png"}
-          = image_tag "/images/feature_page/screenshots/04-file-browser.png", class: "img-responsive"
-        .link
-          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"} Try navigating GitLab's code
-    .row.feature-row
-      .col-md-4.small-feature
-        .name
-          ISSUE
-          %b MANAGEMENT
-        %a.image-link{href: "/images/feature_page/screenshots/05-issue-management.png"}
-          = image_tag "/images/feature_page/screenshots/05-issue-management.png", class: "img-responsive"
-        .link
-          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how GitLab uses issues
-      .col-md-4.small-feature
-        .name
-          ISSUE
-          %b BOARD
-        %a.image-link{href: "/images/feature_page/screenshots/06-issue-board.png"}
-          = image_tag "/images/feature_page/screenshots/06-issue-board.png", class: "img-responsive"
-        .link
-          %a{href: "https://about.gitlab.com/solutions/issueboard/"} Learn how to create your own Issue Board 
-      .col-md-4.small-feature
-        .name
-          CODE
-          %b SNIPPETS
-        %a.image-link{href: "/images/feature_page/screenshots/07-code-snippets.png"}
-          = image_tag "/images/feature_page/screenshots/07-code-snippets.png", class: "img-responsive"
-    .row.feature-row
-      .col-md-4.small-feature
-        .name
-          GITLAB
-          %b CI
-        %a.image-link{href: "/images/feature_page/screenshots/08-ci.png"}
-          = image_tag "/images/feature_page/screenshots/08-ci.png", class: "img-responsive"
-        .link
-          %a{href: "https://about.gitlab.com/gitlab-ci"} Read more on GitLab CI
-      .col-md-4.small-feature
-        .name
-          REVIEW
-          %b APPS
-        %a.image-link{href: "/images/feature_page/screenshots/09-review-apps.png"}
-          = image_tag "/images/feature_page/screenshots/09-review-apps.png", class: "img-responsive"
-        .link
-          %a{href: "https://about.gitlab.com/features/review-apps/"} Read more on Review Apps 
-      .col-md-4.small-feature
-        .name
-          CONTAINER
-          %b REGISTRY
-        %a.image-link{href: "/images/feature_page/screenshots/10-container-registry.png"}
-          = image_tag "/images/feature_page/screenshots/10-container-registry.png", class: "img-responsive"
-    .row.feature-row.last
-      .col-md-4.small-feature
-        .name
-          CYCLE
-          %b ANALYTICS
-        %a.image-link{href: "/images/feature_page/screenshots/11-cycle-analytics.png"}
-          = image_tag "/images/feature_page/screenshots/11-cycle-analytics.png", class: "img-responsive"
-        .link
-          %a{href: "https://about.gitlab.com/solutions/cycle-analytics/"} Measure your team's cycle time 
-      .col-md-4.small-feature
-        .name
-          GITLAB
-          %b PAGES
-        %a.image-link{href: "/images/feature_page/screenshots/12-pages.png"}
-          = image_tag "/images/feature_page/screenshots/12-pages.png", class: "img-responsive"
-        .link
-          %a{href: "https://pages.gitlab.io/"} Create a website for your project 
-      .col-md-4.small-feature
-        .name
-          GIT POWERED
-          %b WIKI
-        %a.image-link{href: "/images/feature_page/screenshots/13-wiki.png"}
-          = image_tag "/images/feature_page/screenshots/13-wiki.png", class: "img-responsive"
-    .row.features-bottom-cta
-      .col-md-12
-        %a.btn.cta-btn.red{href: "/products"} Explore Our Products
+.page-container.landing-container.text-center
+  %div
+    %h1.page-headline
+      Next-generation developer collaboration software
+    %h2.page-subtitle
+      Confidently and rapidly iterate towards a better product.
 
-= partial "includes/features/gitlab-ee-trial"
+    .dev-cycle.hidden-xs.hidden-sm
+      - data.development_cycle.each_with_index do |item, index|
+        .step
+          = icon("home/icon-step-#{index + 1}")
+          .step-name-container
+            .step-name
+              #{item[:name]}
+          - if index < data.development_cycle.length - 1
+            .arrows
+              %i.fa.fa-angle-double-right
+
+    %a.btn.cta-btn.red.video-button
+      %span.fa.fa-play-circle-o
+      Watch the Video
+    %object.video-container{data:"https://www.youtube.com/embed/a7OIQfOJO-0", frameborder:"0", allowfullscreen:true}
+.page-container.feature-gallery.text-center.animated
+  .container.titles
+    %h1
+      Powerful features for modern software development
+    %h2
+      Tightly integrated into one platform.
+    %h3
+      Consolidate your source code
+    %h4
+      Wrangle your projects into one easy-to-manage tool.
+    .row
+      .feature-gallery-slick-container
+        #feature-gallery-slider.main-slider-size
+          = image_tag 'images/feature_page/screenshots/01-projects.png'
+          = image_tag 'images/feature_page/screenshots/02-user-roles.png'
+          = image_tag 'images/feature_page/screenshots/03-gitlab-pages.png'
+        .row.slider-dots.slider-nav
+          .col-md-4.feature-slider-dot-content{index: "0"}
+            %div
+              %h4
+                Projects
+              %p
+                Organize your repository into private, internal, or public projects.
+          .col-md-4.feature-slider-dot-content{index: "1"}
+            %div
+              %h4
+                User roles
+              %p
+                Manage access and permissions with five different user roles and settings for external users.
+          .col-md-4.feature-slider-dot-content{index: "2"}
+            %div
+              %h4
+                %a{href: "http://pages.gitlab.io/"}
+                  GitLab Pages
+              %p
+                Create websites for your GitLab projects, groups, or user accounts.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-01-repos")
+        .col-md-11.feature-contents
+          %h4
+            Unlimited public and private repos
+          %p
+            Create a new repo for even the smallest projects.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-02-project-importing")
+        .col-md-11.feature-contents
+          %h4
+            Project importing
+          %p
+            Import existing projects from GitHub, BitBucket, Google Code, Fogbugz, or any git repo with a URL.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-03-protected-branches")
+        .col-md-11.feature-contents
+          %h4
+            Protected branches
+          %p
+            Control read/write permissions to specific branches.
+    .row.features-description.features-description-separation
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-04-wiki")
+        .col-md-11.feature-contents
+          %h4
+            Wiki
+          %p
+            Keep your documentation within the project using GitLab’s built-in wiki system.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-05-code-snippets")
+        .col-md-11.feature-contents
+          %h4
+            Code Snippets
+          %p
+            Collect and share reusable code.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-06-powerful-apis")
+        .col-md-11.feature-contents
+          %h4
+            Powerful APIs
+          %p
+            Control GitLab with a set of powerful APIs.
+/Second features block
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+  .container.titles
+    %h3
+      Track and manage releases
+    %h4
+      Ease the collaboration process with a single tool to track issues and monitor progress on your releases.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-1.main-slider-size
+          = image_tag 'images/feature_page/screenshots/04-issues.png'
+          = image_tag 'images/feature_page/screenshots/05-issue-boards.png'
+          = image_tag 'images/feature_page/screenshots/06-todos.png'
+        .row.slider-dots.slider-nav-1
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                Issues
+              %p
+                Leverage GitLab’s built-in issue tracker to outline and share ideas.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/solutions/issueboard/"}
+                  Issue Board
+              %p
+                Plan, organize, and visualize your release with a kanban-style board.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                Todos
+              %p
+                View a simple dashboard with a chronological list of todos so you know what needs your attention.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-07-issues-mr-templates")
+        .col-md-11.feature-contents
+          %h4
+            Issue and MR Templates
+          %p
+            Create templates for issues and merge requests.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-08-milestones")
+        .col-md-11.feature-contents
+          %h4
+            Milestones
+          %p
+            Organize issues and merge requests into groups.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-09-labels")
+        .col-md-11.feature-contents
+          %h4
+            Labels
+          %p
+            Categorize and track issues or merge requests based on descriptive titles.
+    .row.features-description.features-description-separation
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-10-todos")
+        .col-md-11.feature-contents
+          %h4
+            External Services
+          %p
+            Integrate with 24 external services (such as JIRA, Slack, Asana and more) to track progress across all the tools your team uses.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-11-due-dates")
+        .col-md-11.feature-contents
+          %h4
+            Due dates
+          %p
+            Assign due dates to issues to make sure things get done on time.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-12-search")
+        .col-md-11.feature-contents
+          %h4
+            Powerful search
+          %p
+            Spend less time searching and more time building software.
+/Third features container
+.page-container.feature-gallery.text-center.animated
+  .container.titles
+    %h3
+      Increase code quality
+    %h4
+      Code collaboratively and trust your code review with fast branching and powerful diff tools.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-2.main-slider-size
+          = image_tag 'images/feature_page/screenshots/07-merge-requests.png'
+          = image_tag 'images/feature_page/screenshots/08-merge-conflicts.png'
+          = image_tag 'images/feature_page/screenshots/09-gitlab-ci.png'
+        .row.slider-dots.slider-nav-2
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                Merge Requests
+              %p
+                Create merge requests and @mention team members to review and safely merge your changes.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                Resolve merge conflicts in UI
+              %p
+                Preview merge conflicts in the UI and tell git which version to track.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/gitlab-ci"}
+                  GitLab CI
+              %p
+                Test every merge request. Run multiple jobs in parallel and see if your build passes with GitLab’s built-in CI.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-13-mr-versions")
+        .col-md-11.feature-contents
+          %h4
+            Merge request versions
+          %p
+            View and compare merge request diffs from the UI.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-14-inline-commenting")
+        .col-md-11.feature-contents
+          %h4
+            Inline commenting and resolution
+          %p
+            Leave comments and resolve discussions on specific lines of code.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-15-cherry-pick")
+        .col-md-11.feature-contents
+          %h4
+            Cherry-pick changes
+          %p
+            Use the cherry-pick button in the UI to isolate specific changes from a merge request.
+/Fourth features container
+.page-container.feature-gallery.feature-gallery-alt.text-center.animated
+  .container.titles
+    %h3
+      Deploy with confidence
+    %h4
+      Test, build, and deploy your code.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-3.main-slider-size
+          = image_tag 'images/feature_page/screenshots/10-review-apps.png'
+          = image_tag 'images/feature_page/screenshots/11-pipelines.png'
+          = image_tag 'images/feature_page/screenshots/12-container-registry.png'
+        .row.slider-dots.slider-nav-3
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                %a{href:"https://about.gitlab.com/features/review-apps"}
+                  Review Apps
+              %p
+                Preview your branch in a live environment. Review Apps automatically spin up dynamic environments for your merge requests.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                Pipelines
+              %p
+                Define the build stages and visualize your pipelines so you can spot anything that fails.
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                Container Registry
+              %p
+                An integrated private Docker Container Registry means every project can have its own space to store its Docker images.
+    .row.features-description
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-16-versioned-tests")
+        .col-md-11.feature-contents
+          %h4
+            Versioned Tests
+          %p
+            Ensure every branch gets the tests it needs by allowing your team to contribute changes to the .gitlab-ci.yml file that contains your tests.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-17-autoscaling")
+        .col-md-11.feature-contents
+          %h4
+            Autoscaling
+          %p
+            You can automatically spin up and down VMs to make sure your builds get processed immediately and minimize costs.
+      .col-md-4
+        .col-md-1
+          =icon("features/icon-18-jenkins")
+        .col-md-11.feature-contents
+          %h4
+            Jenkins Integration
+          %p
+            Integrate Jenkins CI, trigger a build, and see the build status on your merge request.
+/Fifth features container
+.page-container.feature-gallery.text-center.animated
+  .container.titles
+    %h3
+      Follow changes and progress
+    %h4
+      Keep track of the progress and activity on your projects.
+    .row
+      .feature-gallery-slick-container
+        /Gallery will be here
+        #feature-gallery-slider-4.main-slider-size
+          = image_tag 'images/feature_page/screenshots/13-activity-stream.png'
+          = image_tag 'images/feature_page/screenshots/14-customized-notifications.png'
+          = image_tag 'images/feature_page/screenshots/15-cycle-analytics.png'
+        .row.slider-dots.slider-nav-4
+          .col-md-4.feature-slider-dot-content{index:"0"}
+            %div
+              %h4
+                Activity Stream
+              %p
+                View a list of the latest commits, merges, comments, and team members on your project.
+          .col-md-4.feature-slider-dot-content{index:"1"}
+            %div
+              %h4
+                Customizable Notifications
+              %p
+                Set your alert preferences and be notified by email, Slack, or ToDos anytime there are changes to an issue or merge request
+          .col-md-4.feature-slider-dot-content{index:"2"}
+            %div
+              %h4
+                %a{href: "https://about.gitlab.com/solutions/cycle-analytics/"}
+                  Cycle Analytics
+              %p
+                See how long it takes you to complete your software development lifecycle.
+.page-container.gitlab-version-section.text-center.animated
+  .container
+    %h1
+      Choose the version of GitLab that is best for you
+
+    %h4
+      Host GitLab on your servers or let us host it for you
+    %a.btn.cta-btn.red.hidden-sm.hidden-xs{href: "/products"}
+      Explore our products
+    %a.btn.cta-btn.red.visible-sm.visible-xs{href: "/products"}
+      Explore

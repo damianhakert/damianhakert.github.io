@@ -156,7 +156,7 @@ There are two methods to exercise your shares:
    - Click on "View" (right hand side of screen)
    - Click on "Attachments and Notes"
    - Click on "Form of Exercise Agreement"
-   - Complete the form, sign and return as PDF to the CFO
+   - Complete the form, sign, and return as PDF to the CFO
    - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
 Note for US residents: whichever method you choose, be sure to download the 83-b election form provided by eShares and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.

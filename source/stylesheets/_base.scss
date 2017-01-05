@@ -206,6 +206,37 @@ iframe {
   }
 
   &.landing-container {
+    > .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .landing-hero {
+      margin: 10px 0 50px;
+
+      path {
+        fill: $color-secondary;
+      }
+    }
+
+    .page-headline {
+      margin-bottom: 0;
+    }
+
+    .page-subtitle {
+      font-size: 28px;
+
+      @media (max-width: $screen-xs-max) {
+        font-size: 24px;
+      }
+    }
+
+    h2 {
+      color: $blueish-gray;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+
     @media (min-width: 1200px) {
       padding-bottom: 70px;
     }

@@ -88,7 +88,7 @@ the steps to add yourself to the team page. Please follow the links that will gu
 
 1. As part of your onboarding issue, you created an account on [GitLab.com](https://gitlab.com/). take note of your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
-1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
+1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.
 1. Find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/), change the picture's name to
 the following format: `yourname.jpg` or `yourname.png` and then follow the
@@ -104,7 +104,7 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
 1. Find the dropdown menu at the top of your screen and find the branch
 that you previously created to add your picture (they are in alphabetical
 order).
-1. Got back to the GitLab.com project. Information displayed on [Team page](https://about.gitlab.com/team/) is
+1. Go back to the GitLab.com project. Information displayed on [Team page](https://about.gitlab.com/team/) is
 pulled from a data file. You can find it by clicking on each of the following items: Files, `data/`, and then `team.yml`.
 1. When you are in `team.yml`, click on “edit” on the top right side of
 your screen.
@@ -119,7 +119,7 @@ respect the spaces between lines. Please don't use "tab" because it will break t
 1. As part of your onboarding issue, you created an account on [GitLab.com](https://gitlab.com/). take note of your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com
 project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
-1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.  
+1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.
 1. Download Git, following the [start using git
 documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
 1. Follow the steps to create and add your [SSH
@@ -154,7 +154,7 @@ respect the spaces between lines. Please don't use "tab" because it will break t
 
 ## Reading the Handbook
 
-A core value of GitLab is documentation. Therefore, everything that we do, we have documented on about.gitLab.com. This can make the handbook seem huge! Don't let it scare you. To simplify navigating the handbook here are some suggested steps. Feel free to take a wrong turn at any time to learn more about whatever you are interested in.  
+A core value of GitLab is documentation. Therefore, everything that we do, we have documented on about.gitLab.com. This can make the handbook seem huge! Don't let it scare you. To simplify navigating the handbook here are some suggested steps. Feel free to take a wrong turn at any time to learn more about whatever you are interested in.
 
 1. Read [about](https://about.gitlab.com/about/) the company, and [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/). It is important to understand our [culture](/culture), and how the organization was started. If you have any questions about company products you can always check out our [features](https://about.gitlab.com/features/#compare) and [products](https://about.gitlab.com/products/).
 1. Tackle the main page of the [handbook](/handbook/). You can use this link and read through the entire page to ensure that you do not miss anything! Here are some highlights that are important for new hires to pay attention to:
@@ -181,15 +181,15 @@ If you need any help with Git itself, subscribe to the `#git-help` channel on Sl
   1. The Projects
   1. The Issue Tracker
 * Become familiar with the README.md’s for these projects:
-  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
-  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
+  1. [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee/)
+  1. [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce/)
   1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 * As part of onboarding you created an account on our external / public [GitLab Server](https://gitlab.com). Have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role.
 * Learn how to use our Internal Issue Trackers:
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
+We use GitLab Issues to raise awareness, discuss, and propose solutions for various issues related to any aspect of our business.
 The most common Issues are created in the following projects:
-  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee) - Issues related to GitLab Enterprise Edition
-  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
+  1. [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee/issues) - Issues related to GitLab Enterprise Edition
+  1. [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce/issues) - customer requests
   1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
 * Add issues in the correct Issue Tracker:
   1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)

@@ -28,7 +28,7 @@ manager, and we need everyone to know LDAP so please do that first.
 
 ### GitLab CI
 
-[GitLab CI Docs](https://docs.gitlab.com/ee/ci/quick_start/README.html)
+[GitLab CI](/handbook/support/advanced-topics/ci) (WIP)
 
 ### GitLab Geo
 

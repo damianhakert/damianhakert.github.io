@@ -64,6 +64,7 @@ The steps to closing a deal are:
 4. [Execute the GitLab EULA](#gitlab-eula)
 
 ### Deal Registration
+{: #deal-registration}
 
 GitLab requires lead registration. This process is to let us know which deals you are working on so that we can plan accordingly, and also helps prevent channel conflict.
 
@@ -72,14 +73,14 @@ GitLab will not accept an order, give a quote, issue an evaluation license, nor 
 
 The link to the deal registration form is located in the [reseller project](https://gitlab.com/gitlab-com/resellers/). Please do not share the URL of the deal registration form with anyone outside your company.
 
-When you complete the form, we get notified and will do the following:
+When you complete the form, we get notified and will allow us to do the following:
 
 - Check our systems for opportunity approval
 - If approved provide deal protection
 - Create an opportunity in our SFDC implementation
 - Send a quote to your `GitLab@partnerTLD` email address <br>
 *Note: this is a reseller quote, not to be shared with the customer.*
-- Send an evaluation license to the `GitLab@partnerTLD` email address
+- Send an evaluation license to the `GitLab@partnerTLD` email address.  See [evaluations](#evaluation-licenses-for-prospects) section below
 - Send you an email with any other intelligence that we may have on this account; possibly including:
    - GitLab CE usage (if any) from [GitLab Version Check](https://about.gitlab.com/handbook/sales-process/version_check/).
    - Other usage elsewhere at that company and their affiliates
@@ -203,6 +204,11 @@ GitLab leads.
 
 If there are any additional email addresses you want me to enable SFDC to receive email from, please let us know.
 
+## Evaluation licenses for prospects
+{: #evaluation-licenses-for-prospects}
+
+We will issue you a 30 day evaluation license for your prospects if the deal is properly [registered](#deal-registration).  We can renew this license if your customer needs more time.  Upon the second request for renewal (the 3rd license), we will assist you with a managed evaluation, where goals are set for the customer to meet, and one of our success engineers will work with you and the prospect to bring them to completion before the 3rd evaluation expires.  
+
 ## Marketing
 
 GitLab will strive to support you in your marketing efforts. Marketing activities should be focused on GitLab EE, and will usually fall into 1 of 3 categories:
@@ -215,7 +221,7 @@ We will endeavor to provide funds to support up one event per reseller per quart
 
 *If request for sponsorship is accepted, you will be asked to provide photos of the event, participate in a blog post writing about your of the event, and provide a summary of the number of opportunities/leads gained.*
 
-Please submit your application for event support [here](https://docs.google.com/a/gitlab.com/forms/d/1np6zx17MZ4bEwto6NR8mEv0YLprU-V_BMETX-XIRzj8/edit)
+Please submit your application for event support in a new issue in the [reseller page of gitlab.com](https://gitlab.com/gitlab-com/resellers/issues). When it allowes you to select a tempate, choose the reseller template and fill in responses to the categories. All the relevant GitLab parties will be notified once you submit your issue and will be in touch shortly. You will be able to track the progress of your submission in the issue. 
 
 ### Online Marketing Support Requests
 
