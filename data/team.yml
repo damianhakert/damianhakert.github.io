@@ -2156,16 +2156,16 @@
           Joining January 3rd
 
 
-- name: X.G.
-  locality:
-  country:
+- name: Xiaogang Wen 温小刚
+  locality: Beijing
+  country: China
   role: <a href="https://about.gitlab.com/jobs/Success-Engineer-APAC-and-Channel/">Success Engineer APAC & Channel</a>
   reports_to: Director of Global Alliances and APAC Sales
-  picture: logo-extra-whitespace.png
+  picture: xiaogang.jpg
   twitter:
-  gitlab:
+  gitlab: xiaogang_gitlab
   story:  |
-          Joining January 3rd
+          Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods. 
 
 - name: M.R.
   locality:
