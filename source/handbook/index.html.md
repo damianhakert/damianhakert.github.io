@@ -312,12 +312,10 @@ step, **re-assign** the issue to that person.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if it is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
-1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, People Ops, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
-   * We also encourage team members who are not the head of the department to give the functional group update. This will support professional development as well as give the organization a different view of what that department is working on.
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
-1. The sequence of asking people is in order of joining the company, as shown on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
+1. The sequence of asking people is in a random order where each team member is assigned a day. Since we are growing rapidly, team members share their weekend update every two weeks. Days are split into group A and group B, which alternates depending on the week. People Ops will denote on the agenda which group will share that day. If there are non-team page people in the call we end with those. 
 1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. The last person wishes everyone a good day.
