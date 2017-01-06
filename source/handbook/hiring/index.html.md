@@ -181,7 +181,7 @@ both will have to make the decision if you want to work with this person.
 This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences).
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences). For example, if there is a gap in employment history on a CV, you can ask the candidate what they did during that time to keep their skills current. You may not ask why they were absent from work as it may be related to a medical or family issue which is protected information.   
 
 ### Before the interview
 
