@@ -35,9 +35,21 @@ You can move your existing projects from gitlab.com to your new GitHost.io insta
 
 ### Add the secret data to GitHost.io
 
-<<< INCOMPLETE!
-- Go to the GitHost Admin page for your instance.
+- Go to [GitHost](https://githost.io/)
+- Find your instance and click on 'Details'
+- Under 'OmniAuth Providers' on the right, click on 'Add GitLab auth':
+  ![Add GitLab as an OmniAuth provider](img/index_gitlab_omniauth.png)
 - Add the Application ID and Client Secret to this instance:
   ![Add Application ID and Secret key to GitHost](img/index_githost_secrets.png)
 - Click 'Save Configuration'
-- Log in to your GitHost instance and click 'Import All'
+- You'll now be on the 'Details' page again.  On the left, under 'Actions',
+  click on 'Reconfigure'.
+
+### Import
+
+- Go to your GitLab instance and try to create a new project
+- Under 'Import project from' click 'GitLab.com'
+- You will be taken to a page asking for permission to authorize GitLab.com.
+  Click on 'Authorize'
+- You will then see a list of your projects on GitLab.com.  Select 'Import
+  all projects'
