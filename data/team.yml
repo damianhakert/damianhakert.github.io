@@ -1898,17 +1898,14 @@
   picture: kushal.png
   twitter: Kushal_Pandya
   gitlab: kushalpandya
+  maintains: |
+            <li>Frontend <a href="https://about.gitlab.com/jobs/merge-request-coach/">Merge Request Coach</a></li>
   story:  |
-          Kushal is originally from Gujarat, a western state of India with one
-          side covered by Kutch Desert and two sides by Arabian Sea, but now living in Pune (Maharashtra),
-          a place of magnificent green mountains called Sahyadri (part of Konkan Range). Prior to GitLab,
-          Kushal worked at Saba Software, Inc. for almost 4 years where he did frontend development
-          for enterprise webapps on Saba Cloud around Learning (LMS), Talent and Certification domains.
-          He has long experience working with ExtJS as well as migrating ExtJS apps to React and Angular 2.
-          He's a web designer and developer throughout the day with occassional breaks for making simple,
-          delicious Indian food for lunch and dinner, and on weekends either flashing custom ROMs on his phone
-          or exploring latest Linux distro or watching tech reviews on YouTube or playing acoustic guitar,
-          or on a short road trip to a hill nearby.
+          Kushal is full-stack JavaScript aficionado. Prior to GitLab,
+          he worked at Saba Software, Inc. for almost 4 years designing enterprise webapps on Learning (LMS), Talent
+          and Certification domains, with extensive experience working with ExtJS at scale and migration of ExtJS apps to React and Angular 2.
+          When not writing code, he loves cooking Indian food, flashing Android custom ROMs, exploring Linux distros,
+          watching gadgets on YouTube, playing acoustic guitar, movies, and a short road trip to a hill nearby.
 
 - name: Rebecca Dodd
   locality: London
