@@ -83,3 +83,18 @@ involve any type of consistent "above and beyond senior level" performance, for 
 1. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
 1. Identifying significant projects that result in substantial cost savings or revenue
 1. Proactively defining and solving important architectural issues
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a technical first interview with a Service Engineer
+* Candidates will then be invited to schedule a customer service interview with a Service Engineer
+* Candidates will be invited to schedule a third interview with our Interim Support Lead
+* Next, all candidates will meet with our VP of Engineering
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
