@@ -19,6 +19,7 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 <!-- more -->
 
 - **CE/EE:** Rename projects with reserved path names ([!8234])
+- **CE/EE:** Whitelist next project names: assets, profile, public ([!8470])
 - **CE/EE:** Fix 500 error when visit group from admin area if group name contains dot ([!8342])
 - **CE/EE:** Fix GFM dropdown not showing at beginning of new lines ([!8338])
 - **CE/EE:** Fix error 500 renaming group. ([!8201])
@@ -30,6 +31,7 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 - **CE/EE:** Remove bottom border from Issuable titles ([!8278])
 - **CE/EE:** Fix project hooks params ([!8425])
 - **CE/EE:** Gitlab::LDAP::Person uses LDAP attributes configuration ([!8418])
+- **CE/EE:** LDAP attributes needs default values ([!8465])
 - **CE/EE:** Removes invalid HTML and unneeded CSS to prevent shaking in the pipelines tab ([!8411])
 - **CE/EE:** API: extern_uid is a string ([!8404])
 - **CE/EE:** Increases pipeline graph drowdown width in order to prevent strange position ([!8399])
@@ -45,11 +47,13 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 - **EE:** Disable LDAP permission override in project members edit list ([!1018])
 
 [!8234]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8234
+[!8470]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8470
 [!8342]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8342
 [!8338]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8338
 [!8201]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8201
 [!8224]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8224
 [!8232]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8232
+[!8465]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8465
 [!8240]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8240
 [!8252]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8252
 [!8256]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8256
