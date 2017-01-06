@@ -125,7 +125,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 #### For GitLab BV employees only
 
-1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
+1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLSekAouLh-DQsDXVho4TYL62CsBK8Pj0NhfI--npa3L1nF8IqA/viewform)
 This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
 
 #### GitLab Ltd employees only
