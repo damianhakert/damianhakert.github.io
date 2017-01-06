@@ -1,8 +1,10 @@
-%section.os-principles.feature-gallery.feature-gallery-alt.text-center.page-container
+%section.os-principles.feature-gallery.feature-gallery-alt.text-center.page-container#os-principles
   .container
     .titles
       %h1 Open source principles meet enterprise software.
-      %h2 Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that yourteam needs.
+      .row
+        .col-md-8.col-md-offset-2
+          %h2 Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that yourteam needs.
       %h3 Work better together
       %h4 Let developers contribute ideas and work in parallel with built-in issue trackers, merge requests (MR), and powerful diff tools.
     .feature-gallery-slick-container
@@ -17,18 +19,21 @@
             %p Communicate an issue’s complexity or value to your team.
         .col-md-4.feature-slider-dot-content{index:"1"}
           %div
-            %h4 Time tracking
+            %h4
+              = link_to "Time tracking", "/features/time-tracking/"
             %p Manage your projects effectively by tracking estimated and actual time spent.
         .col-md-4.feature-slider-dot-content{index:"2"}
           %div
-            %h4 File locking
+            %h4
+              = link_to "File locking", "/features/file-locking/"
             %p Lock any ﬁle or directory to avoid merge conflicts and better manage your text and binary files.
     .row.features-description
       .col-md-4
         .col-md-2
           = icon "gitlab-ee/icons/4-issue-board-icon", "media-object"
         .col-md-10.feature-contents
-          %h4 Issue Boards
+          %h4
+            = link_to "Issue Boards", "/solutions/issueboard/"
           %p Plan, organize and visualize your release with multiple issue boards per project.
       .col-md-4
         .col-md-2

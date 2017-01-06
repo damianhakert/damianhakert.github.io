@@ -201,6 +201,11 @@
 
   .feature-tree-title {
     color: $color-secondary-alt;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
   }
 }
 

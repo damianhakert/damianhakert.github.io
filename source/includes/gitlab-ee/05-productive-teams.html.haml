@@ -8,7 +8,8 @@
         .feature-tree-image-wrap.col-md-6.col-md-offset-1
           %img.img-responsive{src: "/images/gitlab_ee/screenshots/04-gitlab-geo.png", :alt => "Feature Tree Image"}
         .feature-tree-text-wrap.col-md-4
-          %h3.feature-tree-title GitLab Geo
+          %h3.feature-tree-title
+            = link_to "GitLab Geo", "/features/gitlab-geo/"
           %p.feature-tree-description Reduce the time it takes your distributed team to clone and fetch large repos by creating read-only mirrors of your GitLab instance.
       .feature-tree-row.row
         .feature-tree-image-wrap.col-md-6.col-md-offset-1.col-md-push-4

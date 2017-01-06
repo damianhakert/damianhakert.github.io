@@ -17,11 +17,14 @@
   background: $color-primary-alt;
 }
 
-.nav-justified > li > a {
-  color: $color-white;
-  border-radius: 0;
+.nav-justified > li {
+  > a {
+    color: $color-white;
+    border-radius: 0;
+  }
 
-  &:hover {
+  > a:hover,
+  &.active > a {
     background: $color-primary;
   }
 }
@@ -90,10 +93,19 @@
   }
 }
 
+.os-principles {
+  .titles {
+    h2 {
+      color: $color-gray;
+      font-size: 24px;
+    }
+  }
+}
+
 .larger-teams {
   .titles {
     h3 {
-      margin-top: 0;
+      margin-top: 70px;
     }
   }
 
