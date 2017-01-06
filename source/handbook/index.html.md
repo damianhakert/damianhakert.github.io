@@ -711,12 +711,10 @@ Setting the topic of the meeting is important, otherwise all meetings will be re
 ### Google Cloud
 
 All users with a gitlab.com e-mail account have access to an internal Google
-Cloud group. To access this:
+Cloud project called `gitlab-internal`. To access this, login to the [Google
+Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
 
-1. Login to the [Google Cloud Console](https://console.cloud.google.com/)
-2. Select the project `gitlab-internal` from the dropdown bar
-
-Once selected, you can spin up VM instances, Kubernetes clusters, etc. Please
+Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
 remove any resources that you are not using, since the company is [billed
 monthly](https://cloud.google.com/pricing/). If you are unable to create a
 resource due to quota limits, file an issue on the [Infrastructure
