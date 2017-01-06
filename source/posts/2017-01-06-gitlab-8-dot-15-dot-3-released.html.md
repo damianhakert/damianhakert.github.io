@@ -28,6 +28,7 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 - **CE/EE:** Revert MattermostNotificationService and SlackNotificationService ([!8240])
 - **CE/EE:** Use stable icon for Mattermost integration ([!8252])
 - **CE/EE:** Resolve "Labels are not consistent on all pages" ([!8256])
+- **CE/EE:** Fix 500 errors when creating a user with identity via API ([!8442])
 - **CE/EE:** Remove bottom border from Issuable titles ([!8278])
 - **CE/EE:** Fix project hooks params ([!8425])
 - **CE/EE:** Gitlab::LDAP::Person uses LDAP attributes configuration ([!8418])
@@ -55,6 +56,7 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 [!8232]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8232
 [!8465]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8465
 [!8240]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8240
+[!8442]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8442
 [!8252]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8252
 [!8256]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8256
 [!8278]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8278
