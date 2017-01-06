@@ -165,7 +165,7 @@ Questions are:
 1. Current address? (relevant in context of comp, and in case of contract we will need that information)
 1. Full legal name? (relevant in case an offer would be made)
 1. How do they feel about working remotely and do they have experience with it?
-1. Compensation expectation and compensation in current/last job.
+1. Compensation expectation.
 1. Notice period needed
 1. STAR questions and simple technical questions may also be asked during the screening call if applicable.
 
