@@ -3,8 +3,6 @@ layout: markdown_page
 title: "GitLab Strategy"
 ---
 
-"Strategy is a commodity, execution is an art." — Peter Drucker
-
 ## Why
 
 GitLab was created because Dmitriy needed an affordable tool to collaborate with his team. He wanted something efficient and enjoyable so he could focus on his work, not the tools. He worked on it from home, a house in Ukraine without running water.
@@ -105,4 +103,8 @@ We realize our competitors have started earlier and have more capital. Because w
 
 ## Quarterly OKR
 
-Our quarterly Objectives and Key Results are documented in Lattice. We're waiting for a public link.
+Our quarterly Objectives and Key Results are [publicly visible in our Lattice goal tree](https://gitlab.latticehq.com/public/goals).
+
+## Why public
+
+Our strategy is completely public because transparency is one of our [values](/handbook#values). We're not afraid of sharing it because as Peter Drucker said: "Strategy is a commodity, execution is an art.".
