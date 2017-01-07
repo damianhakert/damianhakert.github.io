@@ -55,6 +55,6 @@ You are personally responsible for the tweets, likes, and replies you post on so
 - We need to try to have two weeks between posts on the frontpage of HN to avoid 'GitLab fatigue'. Since our release post is on the 22nd please post things that are likely to trend around the 7th.
 - Always address the HN community as peers. Be sure to always be modest and grateful in responses.
 - If you comment yourself make sure it is interesting and relevant.
-- Unless the CEO approves it team members should never submit GitLab content to Hacker News.
+- Unless the CEO approves it team members should never submit GitLab content to Hacker News. Submission gets more credibility if a non-GitLab Hacker News community member posts it, we should focus on making our posts interesting instead of on submitting it.
 - When submitting to Hacker News please add a ? to the url.
 - When submitting to Hacker news do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
