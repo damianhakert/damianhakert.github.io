@@ -98,6 +98,31 @@
       max-width: 1680px;
       margin: auto;
     }
+
+    .social {
+      padding: 15px 0 50px;
+    }
+  }
+
+  .signup {
+    max-width: none;
+
+    .panel {
+      padding: 0 5% 0;
+      box-shadow: inset 0 50px 0 0 whitesmoke, inset 0 51px 0 0 #dddddd;
+
+      @media (max-width: 768px) {
+        padding: 0 15px 0 !important;
+      }
+
+      .panel-body,
+      .panel-heading {
+        max-width: 1680px;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 }
 
@@ -106,8 +131,11 @@ h2 {
   font-weight: normal !important;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-bottom: 1.36em !important;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 }
 
 .ce:before {
@@ -122,6 +150,8 @@ h2 {
   border-radius: 3px;
   margin-right: 10px;
   font-weight: 600;
+  height: 50px;
+  width: 56px;
 }
 
 .ee:before {
@@ -146,16 +176,35 @@ h2 {
 .right {
   display: inline-block;
   width: 50%;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: justify;
   margin-right: -4px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
   @media (max-width: 1024px) {
     display: block;
     width: auto;
-    margin-right: auto;
+    margin: auto;
     padding: auto;
+    width: 80%;
+    max-width: 900px;
+
+    h2{
+      justify-content: center !important;
+      text-align: center;
+    }
+
+    img {
+      width: 125%;
+      max-width: none;
+      margin: 50px 0;
+      margin-left: -12.5%;
+    }
+  }
+
+  h2 {
+    justify-content: flex-start;
+    text-align: left;
   }
 }
 
@@ -182,6 +231,11 @@ h2 {
   margin: auto;
   margin-bottom: 100px;
 
+  h2{
+    justify-content: center;
+    text-align: center;
+  }
+
   img {
     width: 125%;
     max-width: none;
@@ -200,4 +254,8 @@ h2 {
   // border-left: 5px solid #00bcf2;
   // background-color: #eff6fb;
   font-size: 26px;
+}
+
+.vertical-align-top {
+  vertical-align: top;
 }
