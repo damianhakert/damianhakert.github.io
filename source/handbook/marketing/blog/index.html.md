@@ -441,7 +441,7 @@ Just **make sure** to [validate the Twitter Card][twitter card validator] before
 
 - The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads
 - You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook]
-- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
+- For the Hacker News guidelines please see the [Hacker News section of the social media guidelines](/handbook/marketing/social-media-guidelines/#hacker-news).
 - What worked for Apigee was the 'collaboration in the 21st century' theme
 - Explore a reading club such as [a NoSQL summer]
 - Milk [GitLab Flow] for more blog posts and videos
@@ -535,7 +535,7 @@ accessible under `https://twitter.com/johndoe`, this field should be filled as f
 
 ```yaml
 author_twitter: johndoe
-``` 
+```
 
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 

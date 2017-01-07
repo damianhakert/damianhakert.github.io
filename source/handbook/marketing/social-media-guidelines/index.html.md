@@ -48,4 +48,13 @@ You may come across angry users from time to time. When dealing with people who 
 
 This document is a guide for GitLab team members who manage social media accounts. 
 
-You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
+You are personally responsible for the tweets, likes, and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts.
+
+## Hacker News
+
+- We need to try to have two weeks between posts on the frontpage of HN to avoid 'GitLab fatigue'. Since our release post is on the 22nd please post things that are likely to trend around the 7th.
+- Always address the HN community as peers. Be sure to always be modest and grateful in responses.
+- If you comment yourself make sure it is interesting and relevant.
+- Unless the CEO approves it team members should never submit GitLab content to Hacker News.
+- When submitting to Hacker News please add a ? to the url.
+- When submitting to Hacker news do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
