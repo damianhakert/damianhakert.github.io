@@ -4,8 +4,14 @@ categories: release
 author: ADD_YOUR_FULL_NAME
 author_gitlab: GITLAB-COM_USERNAME
 author_twitter: TWITTER_USERNAME
+<<<<<<< HEAD
 image_title: '/images/7_X/PICTURE.PNG'
 description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+=======
+image_title: /images/7_X/PICTURE.PNG
+extra_css:
+  - /stylesheets/release-posts_v1.css
+>>>>>>> e1108d378... initial commit, design header stands
 ---
 
 ** Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts **

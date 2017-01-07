@@ -36,6 +36,9 @@
                     %span &nbsp;
                     %spam.author-twitter
                       %i.fa.fa-twitter
+                - if current_article.data.release_number
+                  %span.release-number
+                    = current_article.data.release_number
               %h1
                 = current_article.title
               - if current_article.data.description

@@ -1,0 +1,165 @@
+
+.container {
+  @media (min-width: 1333px) {
+    width: 90vw;
+  }
+
+  @media (min-width: 769px) and (max-width: 992px) {
+    width: 90vw;
+  }
+}
+
+.blog {
+  .cover {
+    height: 100vh;
+
+    .overlay {
+      background: linear-gradient(0deg, white 35%, rgba(255, 255, 255, 0) 55%);
+      border-bottom: none;
+      height: 100vh;
+
+      .wrapper.header {
+        max-width: none;
+        padding: 10vh 20% 0;
+        text-align: center;
+
+        @media (max-width: 768px) {
+          padding: 10vh 10% 0;
+        }
+
+        .author a{
+          color: #28acf7;
+        }
+
+        .release-number {
+          font-size: 35vh; // 284px
+          color: white;
+          display: block;
+          text-align: center;
+          text-align: center;
+          line-height: 1.2;
+
+          @media (max-width: 1200px) {
+            font-size: 30vh;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 30vw;
+          }
+
+          @media (max-width: 510px) {
+            font-size: 150px;
+          }
+        }
+
+        h1 {
+          text-align: center;
+          font-weight: 300;
+          font-size: 8vh; // 66px
+          line-height: 1.25;
+          position: absolute;
+          margin: auto;
+          left: 0;
+          right: 0;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          top: 65%;
+
+          @media (max-width: 1200px) {
+            font-size: 6vh;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 7vw;
+          }
+
+          @media (max-width: 510px) {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+  .wrapper.body {
+    max-width: none;
+    padding: 0 5% 0;
+
+    @media (max-width: 768px) {
+      padding: 0 15px 0;
+    }
+  }
+}
+
+.ce:before {
+  content: 'CE';
+  color: #FFFFFF;
+  background: #5aab6e;
+
+  float: left;
+  font-size: .68em;
+  padding: .3em .4em;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.ee:before {
+  @extend .ce:before;
+  content: 'EE';
+  background: #51a7e0;
+}
+
+.ce-ee:before {
+  @extend .ce:before;
+}
+
+.ce-ee:after {
+  @extend .ee:before;
+}
+
+.figcaption {
+  font-style: italic;
+}
+
+.left,
+.right {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  text-align: justify;
+  margin-right: -4px;
+
+  @media (max-width: 1024px) {
+    display: block;
+    width: auto;
+    margin: auto;
+    padding: auto;
+  }
+}
+
+.left {
+  padding: 0 5% 0 0;
+
+  @media (max-width: 1024px) {
+    padding: auto;
+  }
+
+  p:first-child {
+    margin-top: 0 !important;
+  }
+}
+
+.right {
+  padding: 0;
+}
+
+.mvp {
+  text-align: center;
+  // color: white;
+  padding: 50px 15px;
+  width: 100vw;
+  background: #f9f9f9;
+  margin: 100px 0 150px !important;
+  margin-left: -5vw !important;
+}
