@@ -86,6 +86,7 @@ When writing a new runbook, be mindful what the goal of it is:
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 - If it is for general management, it can be freely formatted.
 
+
 ### Chef cookbooks
 
 Some basic rules:
@@ -123,11 +124,50 @@ There are 2 kind of production events that we track:
 - Changes into the production fleet: for this we record things [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
   - Deploys will be recorded automagically because of the way we do deploys.
   - General operations can be recorded by creating an empty commit in the repo and pushing it into origin.
-- Outages and general production events
-  - Create an issue in the [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues) tracker with the _outage_ label, or whatever else applies,
-  - Try to be as explicit as possible on what the root cause is.
-  - If we don't know the root cause, also state it and leave the issue open for followup.
-  - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
+- Outages and general production incidents
+  - If we are required to act in production manually to perform any operation we should create an issue and consider labeling it as _toil_ to track the cost of such manual work load.
+  - It we had a disruption in the service, we must create a blameless post mortem. Refer to the _Outages and Blameless Post Mortems_ section ahead
+
+## Outages and Blameless Post Mortems
+
+Every time there is a production incident we will create an issue in the [infrastructure
+issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues) with the _outage_ label.
+
+In this issue we will gather the following information:
+* The timeline of events: what happened first, what later, what reasoning triggered what action.
+* Sample graphs or logs captured from our monitoring explaining how they drove our reasoning.
+* [The 5 whys](https://en.wikipedia.org/wiki/5_Whys) that lead to the root cause that triggered the incident.
+* The things that worked well
+* The things that can be improved
+* Further actions with links to the issues that cover them
+
+These issues should also be tagged with any other label that makes sense, for example, if the issue is related to storage, label it so.
+
+The responsibility of creating this post mortem is initially on the person that handled the incident, unless it gets assigned explicitly to someone else.
+
+### Public by default policy
+
+These blameless post mortems have to be public by default with just a few exceptions:
+* The post mortem would affect a customer or employee privacy: revealing the real user name, email, private project names, any data that can identify the person, etc.
+* The post mortem would reveal billing information.
+* The post mortem would reveal GitLab's confidential information.
+
+That's it, there are no more reasons.
+
+If what's blocking us from revealing this information is shame because we made a mistake, that is not a good enough reason.
+
+The post mortem is blameless because our mistakes are not a person mistake but a company mistake, if we made a bad decision because our monitoring failed we have to fix our monitoring, not blame someone for making a decision based on insuficient data.
+
+On top of this, blameless post mortems help in the following aspects:
+
+* We can help people understand the complexity of running a service in production, and how things can go wrong.
+* We help ourselves to learn by reflecting and analyzing on why this issue has happened.
+* We force ourselves to think what do we need to do to not make the same mistake again, or to improve our infrastructure in a way that we don't have to deal with the same incident.
+* We open our reasoning and information to the public so they can chime in and help us out.
+* We leave a great trace of information for onboarding new engineers. They can see how production fails.
+* We can use these post mortems for recruiting and marketing.
+
+Once this Post Mortem is created, we will tweet from the GitLabStatus account with a link to the issue and a brief explanation of what is it about.
 
 ## On Call
 
