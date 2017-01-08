@@ -167,7 +167,7 @@ On top of this, blameless post mortems help in the following aspects:
 * We leave a great trace of information for onboarding new engineers. They can see how production fails.
 * We can use these post mortems for recruiting and marketing.
 
-Once this Post Mortem is finished, we will tweet from the GitLabStatus account with a link to the issue and a brief explanation of what is it about.
+Once this Post Mortem is created, we will tweet from the GitLabStatus account with a link to the issue and a brief explanation of what is it about.
 
 ## On Call
 
