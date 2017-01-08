@@ -2175,6 +2175,17 @@
   story:  |
           Joining January 3rd
 
+- name: D.V.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  reports_to: Production Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 6th
+          
 - name: J.L.
   locality:
   country:
