@@ -2196,6 +2196,17 @@
   gitlab:
   story:  |
           Joining January 9th
+          
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/performance-lead/">Performance Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
 
 - name: D.L.
   locality:
