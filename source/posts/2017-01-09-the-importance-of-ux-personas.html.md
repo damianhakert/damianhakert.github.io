@@ -4,7 +4,7 @@ author: Sarah O’Donnell
 author_twitter: saraheod
 categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
-description: “Our User Experience (UX) Researcher explains what personas are and how they change the way teams work”
+description: 'Our User Experience (UX) Researcher explains what personas are and how they change the way teams work'
 ---
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our upcoming webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Designing For the Modern Developer</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
