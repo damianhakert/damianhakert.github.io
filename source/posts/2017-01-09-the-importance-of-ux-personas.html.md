@@ -4,9 +4,9 @@ author: Sarah O’Donnell
 author_twitter: saraheod
 categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
-description: “Our UX Researcher explains what UX personas are and why we use them in product development”
+description: “Our UX Researcher explains what personas are and why we use them in product development”
 ---
-When developing a product, it’s easy to assume that users are just like ourselves. If we rely on our assumptions to lead what and how we develop, there is a risk of creating a product that may only work for a segment of users. A more scientific approach is necessary for understanding the needs of all users, which is paramount to successful UX. 
+When developing a product, it’s easy to assume that users are just like ourselves. If we rely on our assumptions to lead what and how we develop, there is a risk of creating a product that may only work for a segment of users. A more analytical approach is necessary for understanding the needs of all users, which is paramount to successful user experience (UX). 
 
 <!--more-->
 
@@ -18,13 +18,13 @@ Personas are fictional characters created to represent the major needs and expec
 
 Imagine the last time you were engrossed in a television series. It’s likely that you connected with one or more of the leading characters because you could understand - and on some level, relate to - their emotions, responses and actions in a given situation. You probably discussed the television series with a friend and together, you may have guessed at future plot lines based on the events that had occurred so far in the series. Personas work in a similar way.
 
-## What can personas reveal to researchers? 
+## What can personas reveal? 
 
  A good persona generates empathy for users by putting a “human face” on data. Its aim is to summarize and share research findings with anybody contributing towards the success of the product. It’s easier for an individual (regardless of their job title) to understand a persona that collectively represents the motivations, frustrations and goals of thousands of users, than it is to trawl through days, or even months' worth, of research findings. 
 
  Personas provide a clear understanding of why and how a person is using your product, and documents any pain points they experience, both in the context of using the product and the environment in which the product is used. Finally, it summarizes their goals: what do they hope to solve or achieve by using your product? This information is normally collected by using both qualitative (surveys, user interviews, etc.) and quantitative research techniques (web analytics). While a persona itself is fictional, it is formed using factual data to provide a realistic model of user needs.
 
-## How do personas change the way UX teams work?
+## How do personas change the way teams work?
 
  Personas promote further discussions within a team about how a user would interact with a proposed idea. By internalizing the user, we adopt their mentality and form solutions based on what’s best for the user and their given situation.
 
