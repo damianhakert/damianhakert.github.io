@@ -212,8 +212,9 @@ Gitorious Opportunities:
 1. Standard Record Type should be used for all non-reseller partner accounts.
 1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
-1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form.
+1. A custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form.
  * NL
+ * UK
  * US
 1. Sales rep will choose the Entity from the Dropdown
 
