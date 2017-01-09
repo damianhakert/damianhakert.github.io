@@ -2197,6 +2197,17 @@
   story:  |
           Joining January 9th
 
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+          
 - name: D.L.
   locality:
   country:
