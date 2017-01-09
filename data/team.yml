@@ -2186,6 +2186,17 @@
   story:  |
           Joining January 9th
 
+- name: E.E.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+
 - name: B.K.
   locality:
   country:
