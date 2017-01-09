@@ -102,6 +102,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
+1. [ ] Twitter/TweetDeck
+   1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
+   1. [ ] People Ops: Remove access from Tweetdeck for [at]GitHostIO (if applicable).
+   1. [ ] People Ops: Remove access from Tweetdeck for [at]gitlabstatus (if applicable).
+   1. [ ] People Ops: Remove access from Tweetdeck for [at]GitLabSupport (if applicable).
 
 ## FROM ONBOARDING'S "WITHIN FIRST WEEK OF STARTING"
 
@@ -115,7 +120,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/onboarding-101/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
-1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
@@ -141,6 +145,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ Hiring Manager: Open a new [support onboarding boot camp issue](https://gitlab.com/gitlab-com/support/issues) using the support [onboarding checklist](https://about.gitlab.com/handbook/support/onboarding/checklist), and provide the link in a comment below this onboarding checklist.
 1. [ ] Hiring Manager: Remove access to hackerone.com
 1. [ ] Hiring Manager: Remove access from Tweetdeck for [at]gitlabstatus.
+1. [ ] Hiring Manager: Remove access from Tweetdeck for [at]githostio.
 1. [ ] Zendesk [(general information about removing agents)](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
    1. [ ] Hiring Manager: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
    1. [ ] Hiring Manager: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
@@ -167,6 +172,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ### FOR MARKETING ONLY
 
 1. [ ] Amara: Remove from Tweetdeck.
+1. [ ] Amanda: Remove from Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
