@@ -6,6 +6,10 @@ categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
 description: “Our User Experience (UX) Researcher explains what personas are and how they change the way teams work”
 ---
+
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our upcoming webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Designing For the Modern Developer</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+&nbsp;&nbsp;on January 19. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/uxlivestream_landingpage.html?utm_medium=blog&utm_source=blog&utm_campaign=ux+webcast&utm_content=register+now+button">Register here</a>!</p>
+
 When developing a product, it’s easy to assume that users are just like ourselves. If we rely on our assumptions to lead what and how we develop, there is a risk of creating a product that may only work for a segment of users. A more analytical approach is necessary for understanding the needs of all users, which is paramount to successful user experience (UX). 
 
 <!--more-->
