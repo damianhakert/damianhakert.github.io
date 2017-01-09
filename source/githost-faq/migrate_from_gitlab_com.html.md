@@ -16,20 +16,20 @@ category: GitHost
 
 ### Overview
 
-You can move your existing projects from gitlab.com to your new GitHost.io instance. First you must enable the GitLab.com OmniAuth provider by registering your application with GitLab.com. GitLab.com will then generate an application ID and secret key for you to use. Then you would add this application ID and secret key to your GitHost instance before being able to import your projects.
+You can move your existing projects from GitLab.com to your new GitHost.io instance. First you must open your GitLab account to a connection from your GitHost instance before giving that GitHost instance the keys to that connection. Once they are properly connected you can import one or all of your projects.
 
 ### Enable your GitHost application in GitLab.com
 
 - On GitLab.com, go to your [Applications page](https://gitlab.com/profile/applications) to add a New Application.
 - Provide the required details:
-  - Name: This can be anything. Consider something like <Organization>'s GitLab or <Your Name>'s GitLab or something else descriptive.
+  - Name: This can be anything. Consider something like "<Organization>'s GitLab" or "<Your Name>'s GitLab" or something else descriptive.
   - Redirect URI:
     ```
     http://your-instance.githost.io/import/gitlab/callback
     http://your-instance.githost.io/users/auth/gitlab/callback
     ```
     The first link is required for the importer and second for the authorization.
-- Hit 'Submit'
+- Click 'Submit'
 - You should now see a Client ID and Client Secret near the top of the page (see screenshot). Keep this page open as you continue this process.
   ![Application id and Secret](img/index_created_secrets.png)
 
