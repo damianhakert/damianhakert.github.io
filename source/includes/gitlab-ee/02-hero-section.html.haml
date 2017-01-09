@@ -2,13 +2,4 @@
   .container.hero-content-wrap
     %h1.page-headline GitLab Enterprise Edition
     %h2.page-subtitle Innovate faster without compromising security or quality.
-    .dev-cycle.hidden-xs.hidden-sm
-      - data.development_cycle.each_with_index do |item, index|
-        .step
-          = icon("home/icon-step-#{index + 1}")
-          .step-name-container
-            .step-name
-              #{item[:name]}
-          - if index < data.development_cycle.length - 1
-            .arrows
-              %i.fa.fa-angle-double-right
+    = image_tag "/images/gitlab_ee/hero/hero-icons.svg", class: "hidden-xs hidden-sm img-responsive gitlab-ee-hero"
