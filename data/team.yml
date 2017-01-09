@@ -2240,3 +2240,14 @@
   gitlab:
   story:  |
           Joining January 23rd
+
+- name: S.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th
