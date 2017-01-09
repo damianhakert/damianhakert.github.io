@@ -2186,6 +2186,17 @@
   story:  |
           Joining January 9th
 
+- name: E.E.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+
 - name: B.K.
   locality:
   country:
@@ -2196,7 +2207,29 @@
   gitlab:
   story:  |
           Joining January 9th
+          
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/performance-lead/">Performance Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
 
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+          
 - name: D.L.
   locality:
   country:
@@ -2207,3 +2240,14 @@
   gitlab:
   story:  |
           Joining January 23rd
+
+- name: S.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th
