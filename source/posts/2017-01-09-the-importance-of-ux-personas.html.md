@@ -10,9 +10,9 @@ When developing a product, it’s easy to assume that users are just like oursel
 
 <!--more-->
 
-Every month, we piece together the jigsaw of new features and design tweaks, and all the tools that ship with GitLab, ensuring that each change fits within our vision and understanding of user needs. To help with this task, we're [developing](https://www.surveymonkey.co.uk/r/GitLab) UX personas that will allow us to relate to different types of users and subsequently predict their behavior. This is essential for our key challenge of creating a unified experience for teams big and small, so they can stay focused on their own goals. In this post, I'll explore some of the reasons to use UX personas in product development. 
+Every month, we piece together the jigsaw of new features and design tweaks, and all the tools that ship with GitLab, ensuring that each change fits within our vision and understanding of user needs. To help with this task, we're [developing](https://www.surveymonkey.co.uk/r/GitLab) personas that will allow us to relate to different types of users and subsequently predict their behavior. This is essential for our key challenge of creating a unified experience for teams big and small, so they can stay focused on their own goals. In this post, I'll explore some of the reasons to use personas in product development. 
 
-## What is a UX persona?
+## What is a persona?
 
 Personas are fictional characters created to represent the major needs and expectations of the different types of users that use a website, product or service. A persona typically has a name, a picture, and a background, along with demographic information such as age, highest level of education and work experience. 
 
