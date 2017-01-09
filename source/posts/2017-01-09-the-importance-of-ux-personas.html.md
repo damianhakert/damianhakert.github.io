@@ -4,7 +4,7 @@ author: Sarah O’Donnell
 author_twitter: saraheod
 categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
-description: “Our User Experience (UX) Researcher explains what personas are and how they change the way teams work”
+description: 'Our User Experience (UX) Researcher explains what personas are and how they change the way teams work'
 ---
 When developing a product, it’s easy to assume that users are just like ourselves. If we rely on our assumptions to lead what and how we develop, there is a risk of creating a product that may only work for a segment of users. A more analytical approach is necessary for understanding the needs of all users, which is paramount to successful user experience (UX). 
 
