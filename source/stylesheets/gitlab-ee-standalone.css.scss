@@ -24,7 +24,8 @@
   }
 
   > a:hover,
-  &.active > a {
+  &.active > a,
+  &.active > a:hover {
     background: $color-primary;
   }
 }
@@ -60,8 +61,19 @@
   }
 
   .contact-sales {
-    text-align: center;
     border-bottom: 1px solid $border-color;
+
+    .btn {
+      width: auto;
+
+      &:first-child {
+        margin-right: 10px;
+      }
+
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
   }
 
   .top-reasons {

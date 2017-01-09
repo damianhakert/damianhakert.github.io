@@ -282,7 +282,7 @@
   }
 
   .feature-tree-title {
-    color: $color-secondary-alt;
+    color: $color-secondary;
   }
 }
 
@@ -295,6 +295,11 @@
       color: $color-white;
       margin-bottom: 7px;
       font-size: 20px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
     }
 
     p {
