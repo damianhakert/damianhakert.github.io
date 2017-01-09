@@ -1,10 +1,10 @@
 ---
-title: "The Importance of UX Personas"
+title: "Why We Use Personas in Product Development"
 author: Sarah O’Donnell
 author_twitter: saraheod
 categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
-description: “Our UX Researcher explains what personas are and why we use them in product development”
+description: “Our User Experience (UX) Researcher explains what personas are and how they change the way teams work”
 ---
 When developing a product, it’s easy to assume that users are just like ourselves. If we rely on our assumptions to lead what and how we develop, there is a risk of creating a product that may only work for a segment of users. A more analytical approach is necessary for understanding the needs of all users, which is paramount to successful user experience (UX). 
 
@@ -30,7 +30,7 @@ Imagine the last time you were engrossed in a television series. It’s likely t
 
  By defining personas, there is a well-documented, clear focus on who the product is for, which stops users’ needs from being altered to suit an idea or concept. A product manager may use personas to validate and prioritize features, whereas a designer may use them to determine the overall visual style of a product. When everybody within a team has a shared understanding of users, disagreements surrounding product development are reduced, as there is greater consensus about what is right for users. 
 
-## Do you use personas at GitLab?
+## What is the state of personas at GitLab?
 
 At GitLab, we are in the early stages of discovering who our personas are. If you want to make sure that your needs and expectations as a user are met, then you can help us by [completing our survey][survey link] and sharing your views. 
 
