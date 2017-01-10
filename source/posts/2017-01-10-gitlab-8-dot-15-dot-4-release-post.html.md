@@ -13,6 +13,8 @@ affected GitLab installations be upgraded to one of these versions.
 Additionally, the 8.15.4 version resolves a number of regressions and bugs in
 last month's [8.15 release](/2016/12/22/gitlab-8-15-released).
 
+<!-- more -->
+
 ## Security fixes in 8.15.4, 8.14.6 and 8.13.11
 
 ### Cross-Site Scripting Vulnerability in Turbolinks
@@ -30,8 +32,6 @@ vulnerability in the GitLab Markup gem, forked from the GitHub Markup gem.
 This vulnerability can be exploited by tricking users into clicking on
 ReStructuredText files that specify a raw HTML format. Thanks to Jason Ritzke
 (@Rtzq0) for reporting this vulnerability.
-
-<!-- more -->
 
 ## Additional changes in 8.15.4
 
