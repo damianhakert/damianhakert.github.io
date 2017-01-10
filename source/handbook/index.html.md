@@ -342,8 +342,8 @@ tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&l
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
 
-We will post the recordings and notes of the kickoff and retrospective to
-publicly to YouTube.
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
 
 ### Random Chat and Room
 {: #random-room}
