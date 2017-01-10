@@ -2175,6 +2175,21 @@
   story:  |
           Joining January 3rd
 
+- name: Oswaldo Ferreira
+  locality: Campos, RJ
+  country: Brazil
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Discussion Lead
+  picture: oswaldo.png
+  twitter: olsfer
+  gitlab: oswluizf
+  story:  |
+          Oswaldo started his engineering journey back in 2012 at a research center
+          playing with a metadata extraction library. Since then, passionate about the field,
+          he kept writing Ruby and JavaScript code on a variety of projects.
+          While he is not on VIM editor, he likes watching TV series with his girlfriend,
+          reading and playing tough games.
+
 - name: J.L.
   locality:
   country:
