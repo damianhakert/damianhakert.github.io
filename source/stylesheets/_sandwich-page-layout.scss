@@ -97,16 +97,22 @@
     }
 
     h4 {
+      margin-left: auto;
+      margin-bottom: 60px;
+      margin-right: auto;
+      max-width: 750px;
       color: $color-white;
       font-weight: normal;
-      margin-bottom: 60px;
     }
   }
 
   .slider-dots {
     width: 90%;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    margin: 0 auto 40px;
+
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 80px;
+    }
   }
 
   .feature-slider-dot-content {
@@ -205,6 +211,10 @@
     a {
       color: inherit;
       text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
