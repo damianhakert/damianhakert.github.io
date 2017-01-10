@@ -108,11 +108,7 @@
 
   .slider-dots {
     width: 90%;
-    margin: 0 auto 40px;
-
-    @media (min-width: $screen-md-min) {
-      margin-bottom: 80px;
-    }
+    margin: 0 auto;
   }
 
   .feature-slider-dot-content {
@@ -297,7 +293,14 @@
 }
 
 .features-description {
+  margin-top: 40px;
   text-align: left;
+
+  @media (min-width: $screen-md-min) {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 80px;
+  }
 
   .feature-contents {
     h4 {
@@ -310,6 +313,10 @@
     a {
       color: inherit;
       text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     p {
@@ -324,12 +331,11 @@
     fill: $color-secondary-alt;
   }
 
-  @media(min-width: $screen-md-min) {
-
+  @media (min-width: $screen-md-min) {
     svg {
       position: absolute;
       top: 3px;
-      right: -40px;
+      right: -20px;
     }
   }
 
