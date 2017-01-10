@@ -17,10 +17,13 @@
                 = current_article.date.to_time.strftime '%b %e, %Y'
               %span -
               %span.author
+                = current_article.data.author
+                - if current_article.data.author_gitlab
+                  = link_to "https://gitlab.com/#{current_article.data.author_gitlab}" do
+                    %i.fa.gitlab
                 - if current_article.data.author_twitter
-                  = link_to(current_article.data.author, "https://twitter.com/#{current_article.data.author_twitter}")
-                - else
-                  = current_article.data.author
+                  = link_to "https://twitter.com/#{current_article.data.author_twitter}" do
+                    %i.fa.twitter
               %h1
                 = current_article.title
               - if current_article.data.description
