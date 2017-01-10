@@ -1,19 +1,39 @@
 ---
-title: "GitLab 8.15.4 released"
+title: "GitLab 8.15.4, 8.14.6, and 8.13.11 Released"
 author: Douglas Barbosa Alexandre
 author_twitter: dbalexandre
 categories: release
 ---
 
-Today we are releasing version 8.15.4 for GitLab Community Edition (CE) and
-Enterprise Edition (EE).
+Today we are releasing versions 8.15.4, 8.14.6, and 8.13.11 for GitLab Community
+Edition (CE) and Enterprise Edition (EE).
 
-This version resolves a number of regressions and bugs in the [recent 8.15
+These versions contain important security fixes, and we recommend that all
+affected GitLab installations be upgraded to one of these versions.
+
+## Security fixes in 8.15.4, 8.14.6 and 8.13.11
+
+### Cross-Site Scripting Vulnerability in Turbolinks
+
+These releases include a [patch](https://gitlab.com/gitlab-org/gitlab-ce/issues/25842) for a cross-site scripting vulnerability in the
+Ruby gem Turbolinks. Versions 2.5.4 and earlier of Turbolinks are vulnerable to
+cross-site scripting attacks when loading attachments with HTML content types.
+We've released a temporary GitLab fork of Turbolinks while we make a decision
+on migrating to Turbolinks version 5 or abandoning Turbolinks.
+
+### Cross-Site Scripting Vulnerability in GitLab-Markup
+
+Also included with these releases is a [patch](https://gitlab.com/gitlab-org/gitlab-ce/issues/26411) for a cross-site scripting
+vulnerability in the GitLab Markup gem, forked from the GitHub Markup gem.
+This vulnerability can be exploited by tricking users into clicking on
+ReStructuredText files that specify a raw HTML format. Thanks to Jason Ritzke
+(@Rtzq0) for reporting this vulnerability.
+
+## The 8.15.4 version resolves a number of regressions and bugs in the [recent 8.15
 release](/2016/12/22/gitlab-8-15-released).
 
 <!-- more -->
 
-- **CE/EE:** Update the gitlab-markup gem to the version `1.5.1` ([!8509])
 - **CE/EE:** Use #parts instead of #part to read all the parts of the Message. ([!8507])
 - **CE/EE:** Re-add Google Cloud Storage as a backup strategy ([!8481])
 - **CE/EE:** Don't instrument 405 Grape calls ([!8445])
