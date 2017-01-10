@@ -1,9 +1,9 @@
 ---
 layout: job_page
-title: "Regional Director Sales, US"
+title: "Regional Director Sales"
 ---
 
-As the Regional Director of Sales, US, you will lead a dynamic sales team and help GitLab surpass our growth goals. 
+As the Regional Director of Sales, you will lead a dynamic sales team and help GitLab surpass our growth goals. 
 The right candidate is responsible for building and leading a world class sales team, implementing technology and processes, and partnering with the account management, customer success, marketing, product, engineering and operations teams to deliver the best possible customer experience.
 The right candidate is truly passionate about open source software and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence GitLab’s overall success and growth.
 
@@ -30,4 +30,3 @@ The right candidate is truly passionate about open source software and has a pro
 * Experience utilizing CRM systems and marketing automation systems (such as salesforce, market, outreach etc.)
 * Prior employment in technology consulting, open source software or software development is highly desired
 * Demonstrate high levels of integrity, initiative, honesty and leadership
-
