@@ -10,6 +10,8 @@ Edition (CE) and Enterprise Edition (EE).
 
 These versions contain important security fixes, and we recommend that all
 affected GitLab installations be upgraded to one of these versions.
+Additionally, the 8.15.4 version resolves a number of regressions and bugs in
+last month's [8.15 release](/2016/12/22/gitlab-8-15-released).
 
 ## Security fixes in 8.15.4, 8.14.6 and 8.13.11
 
@@ -29,17 +31,15 @@ This vulnerability can be exploited by tricking users into clicking on
 ReStructuredText files that specify a raw HTML format. Thanks to Jason Ritzke
 (@Rtzq0) for reporting this vulnerability.
 
-## The 8.15.4 version resolves a number of regressions and bugs in the [recent 8.15
-release](/2016/12/22/gitlab-8-15-released).
-
 <!-- more -->
+
+## Additional changes in 8.15.4
 
 - **CE/EE:** Use #parts instead of #part to read all the parts of the Message. ([!8507])
 - **CE/EE:** Re-add Google Cloud Storage as a backup strategy ([!8481])
 - **CE/EE:** Don't instrument 405 Grape calls ([!8445])
 - **CE/EE:** Speed up group milestone index by passing group_id to IssuesFinder ([!8363])
 - **CE/EE:** With Gitea v1.0.0, notes are imported ([!8298])
-- **CE/EE:** Re-order update steps in the 8.14 -> 8.15 upgrade guide ([!8287])
 - **CE/EE:** Make successful pipeline emails off for watchers ([!8176])
 - **Omnibus GitLab:** Switch to using gitlab-psql for query against db ([!1197])
 - **Omnibus GitLab:** Adding /bin/sh to command for analyze_new_cluster.sh call ([!1194])
@@ -50,14 +50,13 @@ release](/2016/12/22/gitlab-8-15-released).
 [!8445]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8445
 [!8363]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8363
 [!8298]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8298
-[!8287]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8287
 [!8176]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8176
 [!1194]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/1194
 [!1197]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/1197
 
 ## Upgrade barometer
 
-This version has no migrations and should not require any downtime.
+These versions have no migrations and should not require any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
