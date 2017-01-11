@@ -2050,15 +2050,15 @@
           Ever since Harish rediscovered his childhood joy of programming, he has spent most of his time either on the computer writing code or learning new ways to code.  He loves spending the rest of his time with his lovely wife and two kids, or hanging out with friends in Jacksonville, Florida.  He also enjoys exercising and you will usually find him beginning each day with a trip to the gym.
 
 - name: Tim Anglade
-  locality:
-  country:
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">Interim VP of Marketing</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: timanglade.png
+  twitter: timanglade
+  gitlab: timanglade
   story:  |
-          Joining November 28th
+          Helping Marketing for a little bit. EIR at Scale Venture Partners, Senior Technical Advisor on the tv show Silicon Valley. Formerly VP Product at Realm, Head of Developer Programs at Apigee, Lecturer in Computer Science & Management at the Université of Paris Est.
 
 - name: C.D.
   locality:
