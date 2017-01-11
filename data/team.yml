@@ -88,7 +88,7 @@
 - name: Haydn Mackay
   locality: Alameda, CA
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> - US
+  role: <a href="https://about.gitlab.com/jobs/regional-sales-director/">Regional Sales Director</a> - US
   reports_to: CRO
   picture: picture_haydn.png
   twitter: haydnmackay
@@ -165,7 +165,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: Sales Director - US
+  reports_to: Regional Sales Director - US
   picture: josh.jpg
   twitter: wredej
   gitlab: jwrede
@@ -176,7 +176,7 @@
 - name: Richard 'Pidge' Pidgeon
   locality: Bath
   country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/sales-director/">Sales Director</a> - EMEA
+  role: <a href="https://about.gitlab.com/jobs/regional-sales-director/">Regional Sales Director</a> - EMEA
   reports_to: CRO
   picture: richard.jpg
   twitter: catchthepidge
@@ -189,7 +189,7 @@
   locality: Denver, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: Sales Director - US
+  reports_to: Regional Sales Director - US
   picture: phil.jpg
   twitter: pmanjr311
   gitlab: philcamillo
@@ -559,7 +559,7 @@
   locality: Hamburg
   country: Germany
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Manager EMEA</a>
-  reports_to: Sales Director - EMEA
+  reports_to: Regional Sales Director - EMEA
   picture: timo.jpg
   twitter: timouit
   gitlab: teemo
@@ -992,7 +992,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
-  reports_to: Sales Director - US
+  reports_to: Regional Sales Director - US
   picture: MikeWalsh.jpg
   twitter: MikeJohnWalsh
   gitlab: MikeWalsh
@@ -1254,7 +1254,7 @@
   locality: Arlon
   country: Belgium
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
-  reports_to: Sales Director - EMEA
+  reports_to: Regional Sales Director - EMEA
   picture: dan.jpg
   twitter:
   gitlab: dan.gitlab
@@ -1526,7 +1526,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
-  reports_to: Sales Director - US
+  reports_to: Regional Sales Director - US
   picture: joedrumtra.jpg
   twitter: techpretender
   gitlab: jdrumtra
@@ -2075,7 +2075,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
-  reports_to: Sales Director - US
+  reports_to: Reginoal Sales Director - US
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

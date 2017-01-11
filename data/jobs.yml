@@ -162,8 +162,8 @@
   apply:
   open: true
 
-- title: "Regional Director Sales, US"
-  description: /jobs/regional_director_sales/regional-director-sales
+- title: "Regional Sales Director"
+  description: /jobs/regional-sales-director
   apply:
   open: false
 
