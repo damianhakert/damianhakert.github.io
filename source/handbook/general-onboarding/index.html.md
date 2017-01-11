@@ -125,7 +125,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 #### For GitLab BV employees only
 
-1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
+1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLSekAouLh-DQsDXVho4TYL62CsBK8Pj0NhfI--npa3L1nF8IqA/viewform)
 This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
 
 #### GitLab Ltd employees only
@@ -144,7 +144,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] 1Password
    1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @brittany to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
    1. [ ] New team member: Once you are registered on 1Password, post a comment below to ask the hiring manager to add you to the 1Password groups required for your role.
-   1. [ ] Hiring manager: add the new team member to the required groups in [1Password](https://gitlab.1password.com)
+   1. [ ] Hiring manager: Add the new team member to the required groups in [1Password](https://gitlab.1password.com) if you have access to the Admin Console in 1Password. If you do not have access please ping @brittany with which vaults the new team member should be added to
    1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
@@ -191,7 +191,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Hiring Manager: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 1. [ ] Hiring Manager: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
-1. [ ] Hiring Manager: Add team member to the backend team call (if applicable)
+1. [ ] Hiring Manager: Add team member to the backend group call (if applicable)
 1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
@@ -243,7 +243,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR MARKETING ONLY
 
-1. [ ] Patricio/Amara: Add to Tweetdeck.
+1. [ ] Amara: Add to Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
