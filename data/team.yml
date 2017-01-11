@@ -14,7 +14,7 @@
           He wanted to make a great and free project management system that he could use every day.
           He loved to work on GitLab so much that in January of 2013 he began to work on GitLab fulltime.
           When he has time he loves to code a major new GitLab feature in two days.
-          He loves a good Martini and a merge request that can be accepted without comments.
+          He loves a good chocolate and a merge request that can be accepted without comments.
           He is the lead author of GitLab CE and CI.
 
 - name: Sid Sijbrandij
@@ -61,7 +61,7 @@
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
   maintains:  |
-              <li><a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a> owner</li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitaly/">Gitaly</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li><a href="/jobs/expert/">Expert</a> on: Redis, Unicorn, Kerberos</li>
@@ -115,25 +115,6 @@
   story:  |
           I started the GitLab project together with Dmitriy in 2011. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
           I have a very strong desire to improve the world by making all things easier.
-
-- name: Patricio Cano
-  locality: Mexico City
-  country: Mexico
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Platform Lead
-  picture: picture_patricio.png
-  twitter: suprnova32
-  gitlab: patricio
-  maintains:  |
-              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
-              <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
-              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-              <li>LFS <a href="/jobs/expert/">expert</a></li>
-              <li>Anti-spam expert</li>
-  story:  |
-          Patricio is from Quito, Ecuador and he studied Computer Science in Stuttgart, Germany, where he lived for 7 years.
-          He is very passionate about open source software and has been working with Ruby on Rails for the past 4 years. He also likes
-          to swim, play video games and spend time with his family and friends.
 
 - name: Douwe Maan
   locality: Utrecht
@@ -561,7 +542,7 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
+             <li>GitHost maintainer</li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -1076,7 +1057,7 @@
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
-  specialty: Performance
+  specialty: <a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a>
   maintains: |
              <li>On-call hero!</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
@@ -1244,7 +1225,7 @@
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
-  specialty: Performance
+  specialty: <a href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a>
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://gitlab.com/gitlab-org/gitlab-monitor">GitLab Monitor maintainer</a></li>
@@ -1366,6 +1347,8 @@
   picture: francisaquino.jpg
   twitter: N/A
   gitlab: superfrank316
+  maintains: |
+           <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/zuora">Zuora issue tracker</a> (internal)</li>
   story:  |
           Francis has years of experience building out sales processes for SaaS companies of all shapes and sizes.
           Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the
@@ -1917,17 +1900,14 @@
   picture: kushal.png
   twitter: Kushal_Pandya
   gitlab: kushalpandya
+  maintains: |
+            <li>Frontend <a href="https://about.gitlab.com/jobs/merge-request-coach/">Merge Request Coach</a></li>
   story:  |
-          Kushal is originally from Gujarat, a western state of India with one
-          side covered by Kutch Desert and two sides by Arabian Sea, but now living in Pune (Maharashtra),
-          a place of magnificent green mountains called Sahyadri (part of Konkan Range). Prior to GitLab,
-          Kushal worked at Saba Software, Inc. for almost 4 years where he did frontend development
-          for enterprise webapps on Saba Cloud around Learning (LMS), Talent and Certification domains.
-          He has long experience working with ExtJS as well as migrating ExtJS apps to React and Angular 2.
-          He's a web designer and developer throughout the day with occassional breaks for making simple,
-          delicious Indian food for lunch and dinner, and on weekends either flashing custom ROMs on his phone
-          or exploring latest Linux distro or watching tech reviews on YouTube or playing acoustic guitar,
-          or on a short road trip to a hill nearby.
+          Kushal is full-stack JavaScript aficionado. Prior to GitLab,
+          he worked at Saba Software, Inc. for almost 4 years designing enterprise webapps on Learning (LMS), Talent
+          and Certification domains, with extensive experience working with ExtJS at scale and migration of ExtJS apps to React and Angular 2.
+          When not writing code, he loves cooking Indian food, flashing Android custom ROMs, exploring Linux distros,
+          watching gadgets on YouTube, playing acoustic guitar, movies, and a short road trip to a hill nearby.
 
 - name: Rebecca Dodd
   locality: London
@@ -2175,22 +2155,59 @@
           Joining January 3rd
 
 
-- name: X.G.
-  locality:
-  country:
+- name: Xiaogang Wen 温小刚
+  locality: Beijing
+  country: China
   role: <a href="https://about.gitlab.com/jobs/Success-Engineer-APAC-and-Channel/">Success Engineer APAC & Channel</a>
   reports_to: Director of Global Alliances and APAC Sales
+  picture: xiaogang.jpg
+  twitter:
+  gitlab: xiaogang_gitlab
+  story:  |
+          Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods. 
+
+- name: M.R.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
+  reports_to: CRO
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
           Joining January 3rd
 
+- name: Oswaldo Ferreira
+  locality: Campos, RJ
+  country: Brazil
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Discussion Lead
+  picture: oswaldo.png
+  twitter: olsfer
+  gitlab: oswluizf
+  story:  |
+          Oswaldo started his engineering journey back in 2012 at a research center
+          playing with a metadata extraction library. Since then, passionate about the field,
+          he kept writing Ruby and JavaScript code on a variety of projects.
+          While he is not on VIM editor, he likes watching TV series with his girlfriend,
+          reading and playing tough games.
+
 - name: J.L.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager, Prometheus</a>
   reports_to: Head of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+
+- name: E.E.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -2207,14 +2224,47 @@
   gitlab:
   story:  |
           Joining January 9th
+          
+- name: A.N.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/performance-lead/">Performance Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
 
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining January 9th
+          
 - name: D.L.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager-ci/">Senior Product Manager (CI/CD Pipelines)</a>
+  role: <a href="https://about.gitlab.com/jobs/product-manager-ci/">Senior Product Manager, CI/CD Pipelines</a>
   reports_to: Head of Product
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
           Joining January 23rd
+
+- name: S.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th

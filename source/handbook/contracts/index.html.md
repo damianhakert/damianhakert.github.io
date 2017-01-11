@@ -31,7 +31,7 @@ The following set of steps should suffice:
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient to do a find + replace on fields that appear multiple times such as names, email
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier). The one exception to the curly bracket find and replace process is the Belgian contract, the fields that need to be edited are highlighted.
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
-1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
+1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/#prep-contracts).
 1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
 1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign.
 1. Once the contract is signed, place the signed pdf in the team member's folder in BambooHR.

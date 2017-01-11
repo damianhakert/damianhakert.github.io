@@ -123,6 +123,7 @@ $font-family-serif: "Roboto Slab", serif;
 $border-radius-large: 3px;
 
 $grid-float-breakpoint: 992px;
+$screen-sm-min: 768px;
 
 $navbar-default-bg: #fff;
 $navbar-default-toggle-icon-bar-bg: $color-primary;
@@ -142,6 +143,8 @@ $search-border-color: #bcbcbc;
 $reseller-divider-color: $navbar-default-border;
 $reseller-hero-bg-color: #35393d;
 $reseller-hero-content-color: #969696;
+
+$applications-highlight-color: #ffc600;
 
 $features-gradient-end: rgba(148, 149, 150, 1);
 $features-gradient-begin: rgba(0, 0, 0, .91);
