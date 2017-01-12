@@ -2165,7 +2165,7 @@
   twitter:
   gitlab: xiaogang_gitlab
   story:  |
-          Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods. 
+          Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods.
 
 - name: M.R.
   locality:
@@ -2192,6 +2192,19 @@
           he kept writing Ruby and JavaScript code on a variety of projects.
           While he is not on VIM editor, he likes watching TV series with his girlfriend,
           reading and playing tough games.
+
+- name: Daniele Valeriani
+  locality: Florence
+  country: Italy
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Produciton Engineer</a>
+  reports_to: Infrastructure Lead
+  picture: daniele.jpg
+  twitter: escociao
+  gitlab: omame
+  story:  |
+          Daniele fell in love with computers when he started to use a Vic 20 very early in his life and never looked back.
+          In his teenage years he replaced lego with pc components and suddenly his room became a messy computer lab.
+          In his professional career he managed a diverse set of infrastructures, from just a bunch of nodes to multiple DCs in different continents.
 
 - name: J.L.
   locality:
@@ -2225,7 +2238,7 @@
   gitlab:
   story:  |
           Joining January 9th
-          
+
 - name: A.N.
   locality:
   country:
@@ -2247,7 +2260,7 @@
   gitlab:
   story:  |
           Joining January 9th
-          
+
 - name: D.L.
   locality:
   country:
