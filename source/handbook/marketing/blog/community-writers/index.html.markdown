@@ -37,10 +37,10 @@ To become a community author:
 
 - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with "[up-for-grabs]"
 - Submit an the first two paragraphs of the article or link to a relevant article you've written before.
-- Leave a comment "@marcia I would like to write this post, and I accept the terms on the [Community Writers Program](#)"
+- Leave a comment "@gl-community-writers I would like to write this post, and I accept the terms on the [Community Writers Program](#)"
 
 If you don't see a topic that interests you, you can propose a new topic by
-creating a new issue and following the last two instructions above. Once approved Marcia will leave a comment "@username, you got it!" and you can start writing!
+creating a new issue and following the last two instructions above. Once approved, a GitLab Team Member will leave a comment "@username, you got it!" and you can start writing!
 
 ## Get Paid
 
