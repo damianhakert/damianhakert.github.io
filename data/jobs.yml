@@ -37,8 +37,8 @@
 
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
-  apply: https://gitlab.workable.com/jobs/198792/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Community Advocate"
   description: /jobs/community-advocate/
