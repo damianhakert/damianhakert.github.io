@@ -236,6 +236,18 @@ Repond to comments made on the [GitLab Youtube Channel](https://www.youtube.com/
 
 Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
 
+## Sample Daily Workflow
+
+1. [ZenDesk](https://gitlab.zendesk.com):
+    1. Go through the recommended Disqus view
+    1. Go through the recommended Twitter view
+    1. Go through the recommended Facebook view
+1. Go through the [GitLab Forum](https://forum.gitlab.com/), answering all relevant tickets
+1. Go through [StackOverflow GitLab tagged questions](https://stackoverflow.com/questions/tagged/gitlab), answering them
+1. Go through the [GitLab Subreddit](https://www.reddit.com/r/gitlab/), answering all relevant tickets
+1. Handle ToDos
+1. Rinse and Repeat ↻
+
 ## Relevant Links
 
 - [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
