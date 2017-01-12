@@ -61,7 +61,7 @@ The CEO must authorize any new job positions/searches.
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
- 1. All job openings must be posted on our careers page for at least 5 business days; this includes all new positions and promotions. 
+ 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and promotions.
 
 
 ## Publicize the job
@@ -181,7 +181,7 @@ both will have to make the decision if you want to work with this person.
 This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences). For example, if there is a gap in employment history on a CV, you can ask the candidate what they did during that time to keep their skills current. You may not ask why they were absent from work as it may be related to a medical or family issue which is protected information.   
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences). For example, if there is a gap in employment history on a CV, you can ask the candidate what they did during that time to keep their skills current. You may not ask why they were absent from work as it may be related to a medical or family issue which is protected information.
 
 ### Before the interview
 
@@ -275,7 +275,7 @@ Offers made to new team members should be documented in Workable through the ema
       - is it clear how many (if any) stock options this person should receive?
       - is all necessary information (start date, salary, location, etc.) clearly available and agreed to?
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
-   1. has the contract reviewed and approved by another member of PeopleOps as a quality check. The Global Recruiter who did not create the contract will conduct the quality check. Backups for approval are the People Ops Generalist, then the People Ops Specialist, and lastly the Sr. Director of People Operations. 
+   1. has the contract reviewed and approved by another member of PeopleOps as a quality check. The Global Recruiter who did not create the contract will conduct the quality check. Backups for approval are the People Ops Generalist, then the People Ops Specialist, and lastly the Sr. Director of People Operations.
    1. stages the contract in HelloSign and emails offer to the signing parties, cc PeopleOps
 1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](/handbook/general-onboarding/).
