@@ -57,7 +57,7 @@ title: "Community Advocacy"
 - Link to the issue
 - Invite the community member to provide further feedback in the issue
 
-### General Questions / Issues
+### General Questions / Issues (Bugs)
 
 - Gauge the complexity of the question
 - Search related issues / documentation
@@ -67,7 +67,9 @@ title: "Community Advocacy"
 
 ### Mentions
 
-- Use the `Twitter -> Mention` ZenDesk macro
+_TODO: Create `Mention` macros for all channels handled in ZenDesk_
+
+- Use the `Mention` ZenDesk macro
 
 ### Tickets in languages other than English
 
@@ -92,12 +94,8 @@ title: "Community Advocacy"
 
 ### Suggested Views for ZenDesk
 
-- Channel: Twitter (Status: Open, Asignee: Self)
-- Channel: Twitter (Status: New)
-- Channel: Twitter (Status: Open, Asignee: Not Self)
-- Channel: Twitter (Status: Pending)
-- Channel: Twitter (Status: On-Hold)
-- Group: Facebook
+- Group: Twitter (Status: New + Open)
+- Group: Facebook (Status: New + Open)
 
 ## Mentions
 
@@ -144,6 +142,8 @@ comment from ZenDesk, so if a comment you see requires a reply (that is if the t
 our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
 the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
 the ticket that was created for your reply.
+
+Go through the tickets per-post, see if all comments have received responses, respond if any need responses, then mark all the relevant tickets as Solved.
 
 ### Twitter
 
@@ -235,7 +235,6 @@ Repond to comments made on the [GitLab Youtube Channel](https://www.youtube.com/
 ### Quora
 
 Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
-
 
 ## Relevant Links
 
