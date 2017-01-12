@@ -21,7 +21,6 @@ lint:
   script:
     - bundle exec rake lint
   tags:
-    - kubernetes
     - gitlab-org
 
 .build_base: &build_base
@@ -31,7 +30,6 @@ lint:
     paths:
       - public/
   tags:
-    - kubernetes
     - gitlab-org
 
 build_branch:
