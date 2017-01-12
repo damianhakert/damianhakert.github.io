@@ -81,6 +81,9 @@ against inaccessible projects we believe it's a reasonable tradeoff.
 This version includes a post-deploy migration and should not require
 any downtime.
 
+We recommend clearing the GitLab cache (`gitlab-rake cache:clear`) after
+upgrading to 8.15.3 due to the renamed projects.
+
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
