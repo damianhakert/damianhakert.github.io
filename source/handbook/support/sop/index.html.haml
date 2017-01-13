@@ -11,15 +11,15 @@ title: Support - Standard Operating Procedures
 .container
   .col-md-9
     .row
-      - pages.each do |category, kb_pages|
+      - pages.each do |category, sop_pages|
         .col-xs-6.col-centered
           %h4.clearfix
             %i.fa.fa-folder-open-o.fa-fw.text-muted
             %small.pull-right
               %i.fa.fa-hdd-o.fa-fw
-              #{kb_pages.count}
+              #{sop_pages.count}
             #{category}
-          - kb_pages.each do |page|
+          - sop_pages.each do |page|
             %ul.fa-ul
               %li
                 %i.fa-li.fa.fa-list-alt.fa-fw.text-muted
@@ -33,8 +33,8 @@ title: Support - Standard Operating Procedures
     %section
       %h4.clearfix Categories
       %ul.nav
-      - pages.each do |category, kb_pages|
+      - pages.each do |category, sop_pages|
         %li
           %a{:href => "#"}
-            %span.badge.pull-right> #{kb_pages.count}
+            %span.badge.pull-right> #{sop_pages.count}
             #{category}
