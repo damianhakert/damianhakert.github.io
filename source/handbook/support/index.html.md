@@ -199,7 +199,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found on the [support knowledge base](https://about.gitlab.com/handbook/support/knowledge-base/general/customer_calls.html).
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/sop/general/customer_calls.html).
 
 #### Implementation Support
 
