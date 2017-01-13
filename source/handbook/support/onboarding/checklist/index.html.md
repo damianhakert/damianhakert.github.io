@@ -41,6 +41,7 @@ retain a good amount of information by just reading and watching through, that i
 okay. But if you see a topic that is completely new to you, stop the video and try
 it out for yourself before continuing.
 
+1. [ ] Let your hiring manager know you're ready to be assigned a trainer.
 1. [ ] Just quickly check on your Zendesk account to make sure that is ready for you when you need it.
 1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
@@ -113,7 +114,7 @@ Installation from source is not common but will give you a greater understanding
   1. [ ] Install via [Docker](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker)
   1. [ ] Restore backup to your Docker VM using our [Restore rake task](http://docs.gitlab.com/ce/raketasks/backup_restore.html#restore-a-previously-created-backup)
   1. [ ] Version 7 from [Source](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/doc/install/installation.md)
-1. [ ] As a part of your general onboarding checklist, you should have asked for a Digital Ocean droplet to be created for you, where you can install and maintain your own instance of GitLab
+1. [ ] As a part of your general onboarding checklist, you should have been given access to Digital Ocean, create a droplet for yourself, where you can install and maintain your own instance of GitLab
   1. [ ] Install via [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/)
   1. [ ] Populate with some test data
     1. [ ] Populated Repos
@@ -151,7 +152,7 @@ _Typically started in first week, and completed by the end of the fourth week_
 
 Zendesk is our Support Centre and our main communication line with our customers. We communicate with customers through several other channels too, see the support handbook for the full list.
 
-1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled.
+1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled. Make comments on this issue noting who each Zendesk screen share was with
   1. [ ] call with ___
   1. [ ] call with ___
   1. [ ] call with ___
@@ -209,7 +210,7 @@ _Typically start this in week 2 or 3, complete by end of week 4._
 Look at the `GitLab Support` Google Calendar to find customer calls you can listen in on. Contact the person leading the call to check if it is okay for you to jump in on the call, and if they could stay on with you for a few minutes after the call, for you to ask them a few questions about things you didn't understand, and them to ask you a few questions to make sure you understood the items they want you to take away.
 
 1. [ ] Hiring Manager: make sure that the new team member has a "Pro" account within the GitLab team account on [Zoom.us](https://gitlab.zoom.us).
-1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call
+1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call. Comment on this issue with the type of call you were in, who it was with, and the link to the relevant ticket (if one exists)
    1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webex)
    1. [ ] Training calls
      1. [ ] call with ___

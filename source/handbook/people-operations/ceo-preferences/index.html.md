@@ -11,20 +11,23 @@ title: CEO Preferences
 
 This page is intended to be helpful, feel free to deviate from it and update this page if you think it makes sense.
 If there are things that might seem pretentious or overbearing please raise them so we can remove or adapt them.
-Many items further down this page are a guideline for our the [Executive Assistants](https://about.gitlab.com/jobs/executive-assistant/) (EAs).
+Many items further down this page are a guideline for our [Executive Assistants](https://about.gitlab.com/jobs/executive-assistant/) (EAs).
 
 ## Flaws
 {: #flaws}
 
 Transparency and directness are part of our [values](https://about.gitlab.com/handbook/#values) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
-They are listed here so people know it is not them and that I appreciate people speaking up about them.
+They are listed here for two reasons.
+The fist one is so that people know it is not them but my fault.
+The second one is so I can improve, I hope that listing them lets people know I appreciate when people speak up about them.
 
 1. I look serious all the time, it is OK to say 'maybe you can smile more'.
 2. I love debating, it is OK to say 'please stop debating and start collaborating'.
 3. My English pronunciation, choice of words, and grammar are not great. I'm taking lessons but I welcome corrections when we're having a 1:1 conversation and/or when it might confuse people.
 4. When in a rush I will jump to conclusions, it is OK to ask 'can we take more time to discuss this'.
 5. I sometimes make reports feel like I'm scolding them, as in being angry for a percieved fault. It is OK to say, I don't mind you making that point but your tone doesn't make me feel respected.
+6. In my feedback I sometimes sound more like I'm giving an order instead of offering a suggestion, even when I mean the latter. It is OK to say 'that sounds like an order, I would have appreciated it more in the form of a suggestion'.
 
 If you speak up about them I should thank you for it, it is OK to say 'this was on your list of flaws so I kinda expected a thank you'.
 I'm sure I have more flaws that affect my professional life.
@@ -58,6 +61,8 @@ We would love to help but we want to make sure the content is radiated as wide a
 1. Our marketing department will work to publish the post.
 1. A great examples of this in action are the first two times we did this [https://about.gitlab.com/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/](https://news.ycombinator.com/item?id=12615723) and [https://news.ycombinator.com/item?id=12615723](https://news.ycombinator.com/item?id=12615723). Both got to nr. 1 on [Hacker News](https://news.ycombinator.com/).
 
+Alternatively we can also make it a YouTube live event, people can ask us questions in the chat during the event, and we can share the recording later.
+
 The EA should follow up to make sure the draft post is submitted.
 
 ## Email
@@ -66,7 +71,7 @@ The EA should follow up to make sure the draft post is submitted.
 * Labels: /archive, /respond or /urgent-important
 * Prepare draft responses
 * Standard reply for recruiters:
-“We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
+“We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
 
 ## Scheduling
 {: #scheduling}
@@ -77,11 +82,11 @@ The EA should follow up to make sure the draft post is submitted.
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
 * Schedule calls in European timezones in the am Pacific (Daylight) Time and US time zones in the pm Pacific (Daylight) Time.
-    * MTG | for meetings in person, either at the "office" or another location
-    * INTERVIEW | for interviews (looping in our PR partner)
+    * MTG |  for meetings in person, either at the "office" or another location
+    * INTERVIEW |  for interviews (looping in our PR partner)
     Make sure to block 10 min before for preparations and 10 min after for notes for Sid and send out https://about.gitlab.com/primer/ for background information for the interviewer.
     * CALL | for phone calls
-    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom.
+    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom. Make sure to take out the Google Hangout link when you switch to Zoom.
     add message:
     “Please use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
 	    * Calls in the hiring process also have:
@@ -94,6 +99,7 @@ The EA should follow up to make sure the draft post is submitted.
 “MTG | Bruce Armstrong (Khosla) & Sid Sijbrandij (GitLab) @ [office/location]”
 Or for example “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
 
+For all external meetings include [visiting info](about.gitlab.com/visiting) (for in-person meetings), our [primer page](about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 

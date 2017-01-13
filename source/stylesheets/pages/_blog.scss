@@ -128,24 +128,24 @@
       background-size: cover;
       position: relative;
       margin-bottom: 12px;
+
+      h2 {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: $blog-color-heading;
+        vertical-align: middle;
+        font-weight: 600;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
 
     .overlay {
       background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
       display: block;
       height: 100%;
-    }
-
-    h2 {
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-      color: $blog-color-heading;
-      vertical-align: middle;
-      font-weight: 600;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
     }
 
     .author {
@@ -215,13 +215,14 @@
 
   &.article {
     .wrapper {
-      padding: 75px;
+      padding: 50px 75px;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
     }
 
     .header {
       box-shadow: none;
-      padding: 120px 75px;
+      padding: 150px 75px 50px;
+      color: $blog-color-heading;
     }
 
     .body {
@@ -232,7 +233,7 @@
         letter-spacing: -.05em;
       }
 
-      p {
+      p:not(.panel-heading) {
         margin: 20px 0;
       }
 
@@ -248,13 +249,6 @@
     .content {
       margin-bottom: 40px;
       font-size: 19px;
-    }
-
-    // videos
-    iframe {
-      width: 100%;
-      height: 420px;
-      margin-bottom: 25px;
     }
 
     .social {
@@ -288,29 +282,40 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
+      height: 450px;
+      position: relative;
     }
 
     .overlay {
-      background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
+      background: linear-gradient(to bottom, $blog-color-image-from, $blog-color-image-to);
       border-bottom: 1px solid $blog-color-overlay-border;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
     }
 
     h1 {
-      font-size: 52px;
+      font-size: 34px;
       font-weight: 600;
+      margin: 15px 0 10px;
       clear: both;
-      margin-top: 20px;
     }
 
     .author,
     .date {
-      font-size: 18px;
+      font-size: 17px;
+      font-weight: 600;
       display: inline-block;
+
+      a {
+        color: $blog-color-heading;
+        text-decoration: underline;
+      }
     }
 
     .description {
-      margin: 35px 0 0;
-      font-size: 24px;
+      font-size: 20px;
+      margin-bottom: 0;
     }
 
     .alert {
@@ -337,21 +342,8 @@
         padding: 30px 10px;
       }
 
-      .cover {
-        height: inherit;
-      }
-
       .content {
         font-size: 18px;
-      }
-
-      // videos
-      iframe {
-        height: 280px;
-      }
-
-      h1 {
-        font-size: 38px;
       }
     }
   }
@@ -396,21 +388,6 @@
       float: right;
       color: $blog-color-date;
     }
-  }
-
-  .panel,
-  .panel-default {
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .panel-heading {
-    padding: 15px;
-    background-color: $blog-color-ipanel-heading;
-    border-radius: 0;
-    border: 0;
-    line-height: 27px;
   }
 }
 
@@ -543,6 +520,7 @@
   .author {
     display: inline;
     font-weight: 600;
+
     a {
       font-weight: 600;
       line-height: normal;

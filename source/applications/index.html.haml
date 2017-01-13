@@ -4,6 +4,8 @@ title: Applications Supporting GitLab
 suppress_header: true
 extra_css:
   - applications.css
+extra_js:
+  - applications.js
 ---
 .wrapper
   .application-container
@@ -16,22 +18,27 @@ extra_css:
         Every application that supports Git will work with GitLab.
         Below are some of the applications we wanted to highlight.
         To learn more about integrating with GitLab and read how
-        to add an application to this page, please head to our
-        partners page %a{href: "http://about.gitlab.com/partners"}.
-      - data.applications.each do |app_category|
-        %hr{id: app_category.id}
-        %h2
-          = app_category.title
-        .row
-          - app_category.applications.each do |application|
-            .col-md-4
-              .app
-                %h4
-                  = application.title
-                %p
-                  = application.content
-                - if application.links
-                  - application.links.each do |link|
-                    %a{href: link.url, title: link.title}
-                      = link.title
-                    %br
+        to add an application to this page, please head to our #{link_to 'partners page', 'http://about.gitlab.com/partners'} 
+      .search-container
+        %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
+        %span.fa.fa-search.search-apps-container-icon.search
+        %span.fa.fa-times.search-apps-container-icon.reset
+        %ul.suggestions
+      .app-list
+        - data.applications.each do |app_category|
+          %hr{id: app_category.id}
+          %h2
+            = app_category.title
+          .row
+            - app_category.applications.each do |application|
+              .col-md-4
+                .app
+                  %h4
+                    = application.title
+                  %p
+                    = application.content
+                  - if application.links
+                    - application.links.each do |link|
+                      %a{href: link.url, title: link.title}
+                        = link.title
+                      %br

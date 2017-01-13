@@ -39,7 +39,13 @@
       .form-group.input-container.current-salary
         %label.input-label{ for: 'current-salary' } Current Compensation
         %span.input-prefix $
-        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "6" }
+        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "10" }
+        %span.input-suffix USD
+    %h5.current-contract.hidden
+      Contract type:
+      %span.contract-type --
+      at GitLab
+      %span.company-type BV.
   .col-sm-12
     %h4.title New Location
     .col-sm-4
@@ -74,13 +80,18 @@
       .compensation
         .title New Compensation
         .amount --
+    %h5.new-contract.hidden
+      Contract type:
+      %span.contract-type --
+      at GitLab
+      %span.company-type BV.
   .col-sm-12.formula-container
     %h4 How did we calculate your compensation?
     .formula
       .variable-group
         .variable.currentSalary
           %span.name Current Salary
-          %span.value $
+          %span.value $ --
       .symbol.multiplication x
       .variable-group
         .symbol (
@@ -119,9 +130,3 @@
     and
     = succeed '.' do
       %a{href: '/handbook/benefits/'} other benefits
-    %span.contract-type-container.hidden
-      Based on the information provided, we expect you will be
-      %span.grammer a
-      %strong.contract-type contractor
-      at GitLab
-      %span.company-type BV.

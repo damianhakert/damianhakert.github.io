@@ -17,7 +17,7 @@ title: "Backend Lead"
 * Ensures that all issues that can't be shipped are moved quickly
 * Reviews and manages a significant amount of the merge requests made by developers
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
-* Defines best practices and coding standards for backend team
+* Defines best practices and coding standards for backend group
 * Coordinates with frontend lead to form teams for major features/moonshots
 
 ## Relevant links

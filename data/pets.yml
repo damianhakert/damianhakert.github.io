@@ -17,10 +17,6 @@
   human: haydn
   story: |
          Lick Bull Terrier. So cute. Keeps <a href="http://everybodylovessadie.blogspot.com/">her own blog</a>.
-- name: Ramona
-  picture: ramona.jpg
-  human: patricio
-  story: Loves the beach.
 - name: Humpf
   picture: humpf.jpg
   story: Well-trained black lab with a love for carrots and naps.
@@ -165,7 +161,7 @@
   picture: Dinkum.jpg
   human: sarah
   story:  Dinkum loves locusts and worms, she's less keen on salad. When she's not napping, she enjoys sprinting around the house and hiding in really awkward places.
-  
+
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |

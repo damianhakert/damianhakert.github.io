@@ -337,13 +337,16 @@ What is Comm. Adv. (to be included).
 
 [Job Description](/jobs/community-advocate){:.btn .btn-purple-inv}
 [Handbook][Community Advocacy]{:.btn .btn-purple}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Matija][cmattrex]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Connor][connorshea]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Felipe][cabargas]{:.btn .btn-orange}
 
 ### Technical Writing
 {: .no_toc}
 
 > _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition, it is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
 
-At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional and up-to-date.
+At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional, and up-to-date.
 
 [Job Description](/jobs/technical-writer/){:.btn .btn-purple-inv}
 [Handbook][Technical Writing]{:.btn .btn-purple}
@@ -784,8 +787,11 @@ We use our chat internally as a communication tool. The marketing channels are a
 [amara]: https://gitlab.com/u/amara
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
+[cabargas]: https://gitlab.com/u/cabargas
 [chet]: https://gitlab.com/u/chetbackman
+[cmattrex]: https://gitlab.com/u/cmattrex
 [colton]: https://gitlab.com/u/coltontaylor
+[connorshea]: https://gitlab.com/u/connorshea
 [dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg

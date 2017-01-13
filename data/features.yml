@@ -12,12 +12,12 @@
   - description: Audit log and events
     link: https://docs.gitlab.com/ee/administration/audit_events.html
     in_ee: true
-  - description: Time Tracking
-    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
-    in_ee: true
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: https://docs.gitlab.com/ee/pages/README.html
     in_ee: true
+  - description: Time Tracking
+    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
+    in_eep: true
 
 - title: Extended authentication and authorization integration
   features:

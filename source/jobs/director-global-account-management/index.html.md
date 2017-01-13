@@ -35,7 +35,7 @@ The right candidate is truly passionate about customer advocacy and has a proven
 ## Requirements for applicant
 
 * 7 - 10 years of management experience – including at least three years heading a successful customer success or account management organization in an enterprise software environment
-* Strong understanding and knowledge of the account management role in successful [ALM]([ALM](https://en.wikipedia.org/wiki/Application_lifecycle_management)) enterprise environments
+* Strong understanding and knowledge of the account management role in successful [Application Lifecyle Management](https://en.wikipedia.org/wiki/Application_lifecycle_management)) enterprise environments
 * Experience with account relationship and growth management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
 * Experience successfully working with senior (C-level) executives
 * Demonstrated ability to lead managers and successfully manage global, distributed teams across cultures, lines of business, and geographies
@@ -46,3 +46,20 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * Holds strong operational skills that will drive organizational efficiencies and customer satisfaction
 * Willing and able to address escalated client issues with speed and urgency
 * You share our [values](/handbook/#values), and work in accordance with those values.
+
+## Hiring Process
+
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+
+* Qualified applicants receive a short questionnaire and coding exercise from our Global Recruiters
+* The review process for this role can take a little longer than usual but if in doubt, check in with the Global recruiter at any point.
+* Selected candidates will be invited to schedule a 45min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with our CRO
+* Candidates will then be invited to schedule a series of interviews with our Director of Demand Generation and our three Regional Directors of Sales
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

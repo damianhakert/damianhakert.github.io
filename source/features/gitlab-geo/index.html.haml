@@ -35,7 +35,7 @@ extra_css:
           %h2 How it works
           %ul
             %li
-              GitLab Geo is available to GitLab Enterprise Edition customers.
+              GitLab Geo is included in GitLab Enterprise Edition Premium.
             %li
               GitLab Geo allows for read-only mirrors of your GitLab instance.
             %li
@@ -90,5 +90,12 @@ extra_css:
             %li
               %b Scale:
               Balance the load between your primary and secondary instance or offload your automated tests to the Geo secondary node.
+      %hr.divider/
+
+      .row.gitlab-geo-video-row
+        .container
+          %h2.text-center GitLab Geo saves you time. Watch the video below to learn how.
+          %figure.video_container
+            %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/-HDLxSjEh6w", :width => "560"}
 
   = partial "includes/features/gitlab-ee-add-product", locals: { feature_name: "GitLab Geo" }

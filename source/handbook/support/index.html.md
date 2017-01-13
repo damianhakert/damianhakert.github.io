@@ -111,6 +111,8 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
    + Resolution was attempted at Tier 1 but the problem persists (interaction with the customer)
    + First reply SLA is breaching and the ticket is not within Tier 1 support scope, inform the customer and escalate to Tier 2.
    + Ticket is not within Tier 1 support scope, escalate to Tier 2.
+   + As a rough guideline, agents should consider escalating to Tier 2 after working on a ticket for more than 45 minutes. After escalating to Tier 2, the agent can choose to keep working on it or go back to triaging Tier 1 tickets.
+   + If all Tier 1 tickets are cleared out, move on to Tier 2 tickets.
 
 **Examples of requests solved at Tier 1**
 
@@ -125,6 +127,11 @@ When a ticket is breaching or has breached its first reply (or next reply) SLA t
 + Provide workarounds (_where applicable_) to address the problem and quickly resolve any production critical issues.
 + In situations where a bug is found or a new feature is requested the engineer will create a GitLab project issue and track the changes providing an update when necessary.
 + Escalate unresolved support requests to the GitLab Development team. Work closely with developers to analyze, troubleshoot, and resolve difficult issues.
++ When possible, please provide feedback to the agent that escalated the ticket.
+  If there is further information required from the customer before the problem
+  can be diagnosed, or if the answer is in the documentation, the agent who
+  escalated needs to learn about this so that they can perform those tasks
+  before escalating in the future.
 
 ### Tier 3 Support
 
@@ -142,7 +149,8 @@ We use 3 Zendesk [macros](https://support.zendesk.com/hc/en-us/articles/20369079
 + `Escalations::Tier 2`
 + `Escalations::Tier 3`
 
-Applying any of these macros will move the ticket to the tier group selected.
+Applying any of these macros will move the ticket to the tier group selected,
+create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
@@ -182,6 +190,7 @@ Support Turbo developers to momentarily switch away from their other tasks. As a
 
 Further guidelines when rolling up your sleeves to do Turbo work:
 
+- Start in either Tier 1 or Tier 2, depending on your own level of comfort. If there are no tickets left in Tier 2, move to Tier 1, and vice versa.
 - Turbos should attempt to pick up "single touch" tickets (though this is not always easy to recognize) whenever possible
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
@@ -190,7 +199,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets.
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found on the [support knowledge base](https://about.gitlab.com/handbook/support/knowledge-base/general/customer_calls.html).
 
 #### Implementation Support
 
@@ -239,12 +248,10 @@ We offer "implementation support" for new EE customers. This is similar to live 
 
 ## Dedicated Service Engineers
 
-Customers who purchased Premium Support have access to a Dedicated Service Engineer. This means that tickets that arrive in Zendesk from people within the subscriber's organization are routed to a dedicated SE by way of a trigger in Zendesk.
+We no longer offer Dedicated Service Engineers for Premium support, but we _do_ offer them for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk.
 
-- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that are requested in the template such as client timezone, language, specific needs, etc. to make it easier to assign an appropriate SE to the account.
-   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the customer name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then [create the trigger](/handbook/support/sop/zendesk/create_dse_trigger.html), and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or SalesForce.
-   - Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
-- To make sure that these subscribers are served well, even when their dedicated SE is not directly
+- Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
+- To make sure that the resellers are served well, even when their dedicated SE is not directly
 available, there is a view in Zendesk to display all "dedicated" tickets so
 that other Service Engineers can see them and jump in to avoid an SLA breach.
 - If you are the Dedicated Service Engineer for an account and you will be away for a
@@ -261,13 +268,14 @@ or follow-up as required.
 
 Fellow GitLab team members can reach out for help from the Support Team in various ways:
 
-1. For normal support questions ("Can GitLab do x?", "How do I do y with GitLab?") email
-the internal support email alias that is listed in the "GitLab Email Forwarding"
+1. For normal support questions ("Can GitLab do x?", "How do I do y with GitLab?") try:
+   - pose your question on the `#questions` channel in Slack, so that everyone can contribute to an answer. If you're not getting an answer, try pinging the group handle for the support team, but be aware that this pings _everyone_  in the team.
+   - or, email the internal support email alias that is listed in the "GitLab Email Forwarding"
 Google doc. Those emails create tickets in Zendesk.
 1. For longer term or larger scope questions, such as discussing customized training
 requests, create a [support issue](https://gitlab.com/gitlab-com/support/issues)
-1. If customers or users have questions, advise them to contact support direct via the relevant channel.
-1. For quick questions that are urgent ping the support team on the support chat channel.
+1. If customers or users have questions, advise them to contact support directly via the [support web form](https://support.gitlab.com).
+1. As a last resort, ping the support team on the support chat channel.
 
 ### Support Issue Tracker
 

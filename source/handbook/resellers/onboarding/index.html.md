@@ -58,9 +58,10 @@ These are the members of your team that are most likely to interact with us. We 
 - [ ] Partner account enabled in SFDC @malessio
 - [ ] Partner Demo License set up in Zuora @malessio
 - [ ] Partner announced during team call @malessio
+- [ ] Partner email address added to partner newsletter mail list @scornille
 
 ### Training
-- [ ] Partner read [Reseller Handbook](https://about.gitlab.com/handbook/resellers/)   
+- [ ] Partner read [Reseller Handbook](https://about.gitlab.com/handbook/resellers/). Especially familiarize yourself with the Order Processing & [Marketing Fund](https://about.gitlab.com/handbook/resellers/#marketing) allocation sections. 
 
 ### Lead Management
 - [ ] mailtosfdc set up for partner team members @malessio . (This will enable easy lead activity tracking. See [reseller handbook](https://about.gitlab.com/handbook/resellers/)   
@@ -113,6 +114,7 @@ Within 1 Month of Signing
 
 ### Technical training
  - [ ] Partner technical team trained by @balameb
+ - [ ] Partner to be sent authorised reseller plaque engraved with their business name.@scornille
 
 ### Lead Management
 - [ ] Reseller added to lead flow @francisaquino
@@ -127,7 +129,7 @@ Within 60 days of signing:
 =====================
 ### Press Release
 - [ ] Press release localised `partner`
-- [ ] Press release placed in local publications `partner`  
+- [ ] Press release placed in local publications `partner` 
 
 Within 90 days of signing:
 =====================

@@ -3,10 +3,10 @@
 source 'https://rubygems.org'
 
 # For faster file watcher updates on Windows:
-gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
+gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
 
 # Windows does not come with time zone data
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :x64_mingw, :jruby]
 
 # Middleman Gems
 gem "middleman", "~> 4.1"
@@ -18,6 +18,11 @@ gem "middleman-syntax"
 
 gem 'kramdown', '~> 1.10'
 gem 'nokogiri'
+
+# therubyracer does not compile on Windows. According to this post:
+# http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows#comment7926287_6356450
+# ... looks like it is not needed when we are not deploying.
+# So, Windows users can safely comment this gem to run `bundle install`, then `bundle exec middleman`
 gem 'therubyracer'
 
 # For feed.xml.builder

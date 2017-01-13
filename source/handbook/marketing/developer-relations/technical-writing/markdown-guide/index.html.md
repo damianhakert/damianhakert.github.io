@@ -92,13 +92,19 @@ Notes:
 
 ----
 
-## Paragraphs, breaks and horizontal lines
+## Paragraphs, breaks, and horizontal lines
 
 Regular paragraphs are obtained by just writing text lines. If you hit **enter** between two lines,
-both lines will be joined into a single paragraph.
+both lines will be joined into a single paragraph, which is called [wrapping text][wrap].
 But, if you leave a blank line between them, they will split into two paragraphs.
 
-### Regular paragraphs and automatic join
+### Wrapping Text
+
+We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces
+after the last word of the line broken within a paragraph, unless you want it to be intentionally
+broken with a `<br>`.
+
+#### Regular paragraphs and automatic join
 
 ```md
 This text is a paragraph.
@@ -121,10 +127,6 @@ This will be another paragraph, as it has a blank line above it.
 
 </div>
 </div>
-
-_**Note:** We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces after the last
-word of the line broken within a paragraph, unless you want it to be intentionally broken with a `<br>`._
-{: .note}
 
 ### Additional breaks
 
@@ -564,7 +566,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 
 _**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
-worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
+worked on Mozilla Firefox for OS X, Android, and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
 {: .note}
@@ -672,7 +674,7 @@ the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attri
 Certain tools can help you to create your own complex table if you need merging lines or columns,
 and more advanced layouts. This is a [Table Generator] that perhaps can help you out.
 
-Note that the bars, spaces and dashes were used symmetrically above just for providing a nice
+Note that the bars, spaces, and dashes were used symmetrically above just for providing a nice
 view of the table markup. The symmetry is not required.
 
 Read through the [Kramdown syntax guide][kram-tables] on tables for further information.
@@ -1081,7 +1083,7 @@ See live examples [on this post][ssgs-post], where the icons are used to illustr
 
 -----
 
-## Classes, IDs and attributes
+## Classes, IDs, and attributes
 
 Defining CSS classes, and elements IDs and attributes with markdown is definitely something unusual (Kramdown magic!).
 
@@ -1745,7 +1747,7 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ## Embed documents
 
-It's easy to embed Google Docs, Sheets, Slides and pretty much everything that
+It's easy to embed Google Docs, Sheets, Slides, and pretty much everything that
 provides an iframe to use with. The only thing you need to do is use the
 following code inside your markdown file and replace the iframe from the document
 you want to embed:
@@ -2022,4 +2024,4 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
 [w3c]: https://www.w3.org/MarkUp/html-spec/html-spec_5.html#SEC5.4
-
+[wrap]: /2016/10/11/wrapping-text/#do-wrap-it

@@ -5,6 +5,9 @@ title: Product
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome. Infographics from [xkcd](https://www.xkcd.com)._
 
+The document below talks about _how_ we do product at GitLab, not about _what_.
+For the _what_, see [Product Strategy](/direction/strategy).
+
 **Table of contents**
 
 - TOC
@@ -40,7 +43,8 @@ GitLab is designed and developed in a unique way.
 
 The direction for the GitLab product is spelled out on the
 [Direction page](/direction). This document provides lessons and heuristics on
-how to design changes and new features.
+how to design changes and new features. Our iterative process is demonstrated in
+a [blog post](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/).
 
 ### TL;DR
 
@@ -391,16 +395,14 @@ Enterprise Edition customers.
 EE only features are exclusive to GitLab Enterprise Edition, but don't
 require any additional purchases besides GitLab EE.
 
-## EE only or Product?
+## EE only or Premium?
 
-Deciding on whether something should be a Product or just a EE-only
-feature can be tough. In doubt, make it a product, that's a reversible
+Deciding on whether something should be a Premium feature or just a EE-only
+feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
 
-Also consider:
-
-- Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
-- Does it have an alternative in the marketplace?
+Premium features replace other products in organisations. E.g. license checker
+replaces BlackDuck, time tracking replaces time tracking software.
 
 ## Talking about EE only decisions
 

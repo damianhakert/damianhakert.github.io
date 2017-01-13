@@ -38,30 +38,32 @@ Developers can specialize immediately after joining, or after some time, when th
 
 For this position, a significant amount of experience with Ruby is a **strict requirement**.
 
-We would love to hire all great backend developers, regardless of the language they have most experience with, 
+We would love to hire all great backend developers, regardless of the language they have most experience with,
 but at this point we are looking for developers who can get up and running within the GitLab code base very quickly
 and without requiring much training, which limits us to developers with a large amount of existing experience with Ruby, and preferably Rails too.
 
-For a time, we also considered applicants with little or no Ruby and Rails experience for this position, 
+For a time, we also considered applicants with little or no Ruby and Rails experience for this position,
 because we realize that programming skills are to a large extent transferable between programming languages,
-but we are not currently doing that anymore for the reasons described in the 
-[merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695) 
+but we are not currently doing that anymore for the reasons described in the
+[merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695)
 that removed the section from this listing that described that policy.
 
-If you think you would be an asset to our engineering team regardless, please see if [another position](/jobs) better fits your experiences and interests, 
+If you think you would be an asset to our engineering team regardless, please see if [another position](/jobs) better fits your experiences and interests,
 or apply using the [Open Application](/jobs/open-application/).
 
-If you would still prefer to join the backend development team as a Ruby developer, 
+If you would still prefer to join the backend development team as a Ruby developer,
 please consider contributing to the open-source [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce).
-We frequently hire people from the community who have shown through contributions that 
-they have the skills that we are looking for, even if they didn’t have much previous experience 
+We frequently hire people from the community who have shown through contributions that
+they have the skills that we are looking for, even if they didn’t have much previous experience
 with those technologies, and we would gladly review those contributions.
 
-## Workflow
+### Junior Developers
 
-The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
-
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+Junior Developers share the same responsibilities outlined above, but typically
+join with less or alternate experience in one of the key areas of Developer
+expertise (Ruby on Rails, Git, reviewing code). For example,
+a person with extensive experience in a web framework other than RoR, but with experience
+on the other areas would typically join as a Junior.
 
 ## Senior Developers
 
@@ -70,9 +72,10 @@ Senior Developers are experienced developers who meet the following criteria:
 1. Technical Skills
     * Are able to write modular, well-tested, and maintainable code
     * Know a domain really well and radiate that knowledge
+    * Contribute to one or more complementary projects
 2. Leadership
     * Begins to show architectural perspective
-    * Leads the design for medium to large projects with feedback from other engineers
+    * Proposing new ideas, performing feasibility analyses and scoping the work
 3. Code quality
     * Leaves code in substantially better shape than before
     * Fixes bugs/regressions quickly
@@ -84,22 +87,31 @@ Senior Developers are experienced developers who meet the following criteria:
     * Keeps issues up-to-date with progress
     * Helps guide other merge requests to completion
     * Helps with recruiting
+5. Performance & Scalability
+    * Excellent at writing production-ready code with little assistance
+    * Able to write complex code that can scale with a significant number of users
 
 ## Staff Developers
 
 A Senior Developer will be promoted to a Staff Developer when he/she has
 demonstrated significant leadership to deliver high-impact projects. This may
-involve a number of items:
+involve any type of consistent "above and beyond senior level" performance,
+for example:
 
-1. Proposing new ideas, performing feasibility analyses and scoping the work
-2. Leading the design for large projects
-3. Working across functional groups to deliver the project
-4. Proactively identifying and reducing technical debt
-5. Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
-6. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
-7. Identifies significant projects that result in substantial cost savings or revenue
-8. Proactively defines and solves important architectural issues
-9. TODO
+1. Technical Skills
+    * Identifies significant projects that result in substantial cost savings or revenue
+    * Able to create innovative solutions that push GitLab's technical abilities ahead of the curve
+2. Leadership
+    * Leads the design for medium to large projects with feedback from other engineers
+    * Working across functional groups to deliver the project
+3. Code quality
+    * Proactively identifying and reducing technical debt
+    * Proactively defining and solving important architectural issues
+4. Communication
+    * Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
+5. Performance & Scalability
+    * Leads development of projects that lead to a significant improvement of the overall
+      performance and scalability of GitLab
 
 ## Internships
 
@@ -112,7 +124,30 @@ the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
 example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
+## Workflow
+
+The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
+
+The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+
 ## Relevant links
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+
+* Part of the application process is to provide links to some code. Some candidates want to share code privately, so if they do, we send them an email with our GitLab.com / GitHub / Bitbucket usernames and also invite them to email code to us.
+* If the code looks good, we ask the candidate to answer two questions about web applications. One is fairly Rails-specific, to do with the MVC pattern, concerns, and services; the other is about the stages a web request goes through when someone gets the GitLab CE repo on GitLab.com.
+* Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first 15 minute soft-skills interview with a Discussion/ Platform Lead
+* Candidates will then be invited to schedule a technical interview with the Platform/ Discussion Lead
+* Candidates will be invited to schedule a third one hour interview with our VP of Engineering
+* Finally, candidates will have a 50 minute interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

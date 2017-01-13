@@ -57,6 +57,7 @@ title: Security Handbook
    visit can already be used to execute a [0-day attack]. We simulate phishing
    attacks by having an external service send emails to our company email
    addresses to ensure everyone is aware of the threat.
+1. If you get strange emails personally or other things related to security feel free to ask our security people for help, [they might be aiming for the company](https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b).
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
 1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
@@ -273,6 +274,8 @@ Please refer to the [1Password blog] for more information on how TOTP works.
 
 [1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
 
+If scanning of QR code using the tranparent window with 1Password Mac app fails on a recent Mac OS, please consider to use 1Password iOS app which could do the same and support Touch ID to login.
+
 ### Example Usage<a name="1password-example-usage"></a>
 
 This is an example of how <a href="https://gitlab.com/u/rspeicher">Robert</a>,
@@ -307,3 +310,54 @@ one of our developers, uses 1Password:
 [1Password for Teams]: https://blog.agilebits.com/2015/11/03/introducing-1password-for-teams/
 [Teams account]: https://gitlab.1password.com/
 [OSX app]: https://agilebits.com/downloads
+
+## Security Awareness Training
+
+During their first two weeks at GitLab new team members should receive an email
+with links to Security Awareness Training. This training covers how to recognize
+phishing attacks, how to safely use public wireless networks, and some general
+security tips and principles.
+
+### Phishing Tests
+
+GitLab conducts routine phishing tests using a third-party testing platform. All
+team members will occasionally receive emails that are designed to look like
+legitimate business-related communications but will in actuality be simulated
+phishing attacks. Real phishing attacks are designed to steal credentials or
+trick the recipient into downloading or executing dangerous attachments. No
+actual attempts will be made by GitLab or the third-party testing site to steal
+credentials or execute malicious code.
+
+The goal of these campaigns is not to catch people clicking on dangerous links
+or punish those who do, but rather to get people thinking about security and the
+techniques used by attackers via email to trick you into running malicious
+software or disclosing web passwords. If you fall victim to one of these
+simulated attacks feel free to take the training courses again or to ask the
+security team for more information on what could've been done to recognize the
+attack. What you shouldn't do is feel any shame for having clicked on the link
+or entered any data, nor should you feel like you need to _cop_ to the security
+team and let them know you made a mistake. Making a mistake online is
+practically the reason the Internet was invented.
+
+### What to do if you suspect an email is a phishing attack
+
+Whether you believe that you have received an email from our testing platform or
+you believe you have received a real phishing attempt, the best thing to do is
+to delete the email. GMail also offers the option to report the email directly
+to Google as a phishing attempt which will result in its deletion. If you
+suspect that the email is targeted specifically at you or GitLab, please
+notify the security team so it can be investigated. You can also notify other
+team members via Slack. If you forward the phishing email to the security team
+please do so as an attachment and not inline. To forward the email as an
+attachment from inside GMail:
+
+  1. In the reply options choose "show original"
+  1. Choose "download original"
+  1. Save to your local drive or Google Drive
+  1. Create a new email with the saved email as an attachment
+
+If you receive an email that appears to come from a service that you utilize,
+but other details of the email are suspicious -- a private message from a
+sender you don't recognize, for example -- do not click on any links in the
+email. Instead, use your own bookmark for the site or manually type the address
+of the website into your browser.

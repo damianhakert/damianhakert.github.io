@@ -24,20 +24,11 @@ Welcome to the Partner Marketing Handbook
 
 ## Partner Marketing Activation<a name="partner-marketing-activation"></a>
 
-Within first 2 weeks of partnership agreement, generate initial buzz by:
+Our partner activation framework consists of a series of action items within a high-level issue. When a strategic partnership is signed, Product Marketing will choose the issue template called [partner-activation](https://gitlab.com/gitlab-com/marketing/issues/new) which will trigger notification for all involved in partner activation activities.
 
-- Blog post announcing partnership. To be published on website, promoted on both companies social media platforms, and included in company newsletter, & partner newsletter
-- Add partner to our website partner page. Request that GitLab is added to partner's website
-- Add partner email address to partner newsletter list in Marketo
+For each action item within this issue, a separate issue should be created by the assignee who is responsible for that action item within the allocated timeframe.
 
-Tier out marketing efforts over next few months to ensure that there is consistent communication to the market and target audience to keep partnership front-of-mind. Suggested ongoing marketing activities:
-
-- Webinar with partner - Host, and share leads.
-- Webinar with partner and customer
-- Customer case study
-- How to video/demo 
-- Attend events together, speak at each-other's meet-ups
-- Discount for their service and send out to all our customers
+The partner should be included on the high level issue so they can see the planned activities and can contibute.
 
 ## Partner Newsletter Feature<a name="partner-newsletter"></a>
 
@@ -61,7 +52,7 @@ Creation:
 
 Email potential partner with case for creating content/blog post which will feature in our newsletter. Also request that they include the content in their own newsletter. 
 
-Create issue and assign to Content Marketing with the following information:
+Create separate issue for blog post in www-gitlab-com project with blog post label and assign to Content Marketing with the following information:
 - A summary describing the partnership
 - Any specific goals for the blog post (e.g. must link to this, mention this, do not do this...)
 - Contacts from both sides for people involved in the partnership

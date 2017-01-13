@@ -530,6 +530,13 @@ double quotes `"Full Name"`.
 
 #### Twitter Handle
 
+Add the author's Twitter handle (username ony). If your username is `johndoe`,
+accessible under `https://twitter.com/johndoe`, this field should be filled as follows:
+
+```yaml
+author_twitter: johndoe
+``` 
+
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
 #### Categories
@@ -662,12 +669,12 @@ formatting system, check out our [Markdown Guide].
 
 Just below the frontmatter, start writing your post, including the sections as follows:
 
-- Introduction. State the problem, audience and purpose of the article.
+- Introduction. State the problem, audience, and purpose of the article.
 - Add the `<!-- more -->` separator. This is going to separate the visible part on the landing
 page <https://about.GitLab.com/blog/> from the rest of the article body.
 - Software and hardware requirements - explain what the reader needs before following your steps.
 - Concepts - state and explain the concepts needed to follow through your post.
-- Article body - develop the subject of your post.
+- Article body - develop the subject of your post. Mind that we [wrap text].
 - Section `## Conclusion` - summarize the article.
 - Section `## About guest author` - when the author is not a GitLab Team member, add this section telling
 in 3 or 4 sentences who is the guest author, and what is her/his background on the post's subject.
@@ -816,6 +823,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 To keep our blog posts consistent with one another, let's follow these simple guidelines to all of them. Please read the [Blog Style Guidelines](#styles-guidelines) and the [Markdown Guide] to avoid inconsistencies. What you can't miss:
 
 - Always add the label `release` to the MR
+- When mentioning contributors or MVPs, link their name to their respective user account on GitLab.com
 - Add the [frontmatter](#frontmatter) information:
   - `description`: a short description of the blog post
   - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.
@@ -931,6 +939,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
+[wrap text]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#wrapping-text
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 
 <!-- Labels -->

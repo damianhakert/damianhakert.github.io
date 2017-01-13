@@ -101,10 +101,18 @@
         width: 40%;
         margin-top: 10px;
         background-color: $color-white-alt;
+
+        @media (max-width: $screen-xs-max) {
+          width: 35%;
+        }
       }
 
       &.label {
         width: 20%;
+
+        @media (max-width: $screen-xs-max) {
+          width: 30%;
+        }
       }
     }
 
@@ -134,14 +142,14 @@
   border-color: $color-white-alt;
 
   // Tablet & Mobile
-  @media (max-width: $screen-md-min) {
-    margin-bottom: 50px;
+  @media (min-width: $screen-md-min) {
+    min-height: 695px;
   }
 
   .edition-name {
     border-bottom: 1px solid $color-white-alt;
     background-color: $color-white;
-    border-radius: 4px 4px 0 0;
+    border-radius: $border-radius-large $border-radius-large 0 0;
     color: $color-primary-alt;
     font-size: 16px;
     font-weight: bold;
@@ -204,7 +212,7 @@
   .featured-item-body {
     border: 1px solid $landing-organization-color;
     border-top: 0;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 $border-radius-large $border-radius-large;
   }
 }
 
@@ -217,37 +225,31 @@
   }
 
   .edition-description {
-    display: table-cell;
-    height: 120px;
-    padding: 0 10px;
     font-size: 13px;
     color: $color-primary-alt;
     vertical-align: middle;
+    display: block;
+    height: auto;
+    margin: auto;
+    padding: 15px;
 
-    // Tablet & Mobile
-    @media (max-width: $screen-md-min) {
-      display: block;
-      height: auto;
-      margin: auto;
-      padding: 15px;
+    @media (min-width: $screen-md-min) {
+      display: table-cell;
+      height: 120px;
+      padding: 0 10px;
     }
   }
 
   .edition-pricing {
     position: relative;
     overflow: auto;
-    height: 100px;
-    padding: 5px;
+    padding: 0 5px 15px;
     background-color: $body-bg;
 
     .pricing-term {
-      position: absolute;
-      width: 80%;
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      margin-top: 5px;
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: -25px;
       color: $color-gray;
     }
 
@@ -267,7 +269,7 @@
 
       // Tablet & Mobile
       @media (max-width: $screen-md-min) {
-        margin-top: 3%;
+        margin-top: 20px;
         font-size: 38px;
         text-align: right;
         padding-right: 5px;
@@ -294,7 +296,7 @@
 
       // Tablet & Mobile
       @media (max-width: $screen-md-min) {
-        margin-top: 3%;
+        margin-top: 20px;
         text-align: left;
         padding-left: 5px;
       }
@@ -316,7 +318,7 @@
   }
 
   .featured-item-expand {
-    display: none;
+    display: block;
     padding: 10px;
     font-size: 15px;
     color: $mvp-table-header-color;
@@ -336,11 +338,11 @@
       }
     }
 
-    // Mobile Screens
-    @media (max-width: $screen-sm) {
-      display: block;
+    @media (min-width: $screen-md-min) {
+      display: none;
     }
   }
+
   .item-description {
     padding: 10px;
     font-size: 12px;
@@ -372,31 +374,39 @@
   }
 
   .edition-actions {
-    margin: 10px auto auto;
-    padding-bottom: 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-md-min) {
+      position: absolute;
+      bottom: 20px;
+    }
+
+    &.align-button {
+      bottom: 0;
+
+      @media (min-width: $screen-md-min) {
+        bottom: 51px;
+      }
+    }
 
     .featured-item-button {
       display: block;
       margin: auto;
       transition: background-color .2s linear, color .2s linear, border-color .2s linear, width 0s;
       padding-left: 10px;
+      font-size: $font-size-base;
       padding-right: 10px;
       color: $color-white;
       background-color: $color-secondary;
+      width: 145px;
 
       &:hover {
         color: $color-secondary;
         background-color: transparent;
-      }
-
-      // Tablet & Mobile
-      @media (max-width: $screen-md-min) {
-        width: 60%;
-      }
-
-      // Regular Desktop
-      @media (min-width: $screen-md-min) {
-        max-width: 65%;
       }
     }
 
@@ -410,16 +420,16 @@
 }
 
 .featured-item-list {
-  margin-bottom: 0;
-  min-height: 300px;
+  margin-bottom: 20px;
+  display: none;
 
-  // Mobile Screens
-  @media (max-width: $screen-sm) {
-    display: none;
+  &.list-expanded {
+    display: block;
+  }
 
-    &.list-expanded {
-      display: block;
-    }
+  @media (min-width: $screen-md-min) {
+    min-height: 300px;
+    display: block;
   }
 }
 
