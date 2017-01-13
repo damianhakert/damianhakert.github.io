@@ -18,7 +18,7 @@
 
   var scrollToElement = function() {
     var container = $('html, body');
-        scrollTo = $('h4:icontains("'+this.searchContainer.val()+'")');
+        scrollTo = $('.js-application-title:icontains("'+this.searchContainer.val()+'")');
     container.animate({
         scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop() - 180
     });
@@ -39,7 +39,7 @@
       $(this).next('.row').each(function () {
         $(this).show();
       });
-      $(this).next('.row').find('h4').each(function() {
+      $(this).next('.row').find('.js-application-title').each(function() {
         $(this).closest('.col-md-4').show();
       });
       $(this).prev('hr').show();
@@ -50,7 +50,7 @@
     var regex = new RegExp(searchQuery, 'gi');
     var allAppsHidden = true;
     this.appListDOM.each(function () {
-      var appsInCategory = $(this).next('.row').find('h4');
+      var appsInCategory = $(this).next('.row').find('.js-application-title');
       var appCategoryRows = $(this).next('.row');
       var categorySeparator = $(this).prev('hr');
       var hideCategoryTitle = true;
@@ -85,7 +85,7 @@
       return '<li>'+application+'</li>'
     }).join('');
     this.suggestions.html(html);
-    this.suggestionsListElements = $('.suggestions li');
+    this.suggestionsListElements = $('.js-suggestions li');
     this.suggestionsListElements.on('click touchstart', function(e) {
       e.stopPropagation();
       var target = $(e.target);
@@ -161,15 +161,15 @@
 
   this.ApplicationSearchBar = (function() {
     function ApplicationSearchBar(){
-      this.searchContainer = $('.search-apps');
-      this.suggestions = $('.suggestions');
-      this.suggestionsListElements = $('.suggestions li');
+      this.searchContainer = $('.js-search-apps');
+      this.suggestions = $('.js-suggestions');
+      this.suggestionsListElements = $('.js-suggestions li');
       this.searchIcon = $('.search');
       this.resetIcon = $('.reset');
       this.resetIcon.hide();
-      this.appListDOM = $('.app-list').find('h2');
+      this.appListDOM = $('.js-app-list').find('.js-category-title');
       var applicationTitles = [];
-      $('.app-list').find('h4').each(function() {
+      $('.js-app-list').find('.js-application-title').each(function() {
         applicationTitles.push($(this).text().trim());
       });
       this.applicationTitles = filterDuplicatesArray(applicationTitles);

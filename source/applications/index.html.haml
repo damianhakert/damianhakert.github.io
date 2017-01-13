@@ -5,40 +5,50 @@ suppress_header: true
 extra_css:
   - applications.css
 extra_js:
-  - applications.js
+  - applications/search_bar.js
+  - applications/broken_image_placeholder.js
+  - applications/categories_scroller.js
+  - scroll_to_top.js
 ---
 .wrapper
   .application-container
-    .application-overlay
-      .application-content
-        %h1 Applications Supporting GitLab
+    %h1 Our Application Partners
+    %p
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu consequat quam.
+      Suspendisse imperdiet eros lacus, id bladit sem volutpat ut.
+  .search-container
+    .container
+      %input.js-search-apps{ type: "search", placeholder: "Search for an application by name" }
+      %span.fa.fa-search.search-apps-container-icon.search
+      %span.fa.fa-times.search-apps-container-icon.reset
+    %ul.suggestions
+      .container.js-suggestions
   .container
-    .container-text
-      %p
-        Every application that supports Git will work with GitLab.
-        Below are some of the applications we wanted to highlight.
-        To learn more about integrating with GitLab and read how
-        to add an application to this page, please head to our #{link_to 'partners page', 'http://about.gitlab.com/partners'} 
-      .search-container
-        %input.search-apps{ type: "text", placeholder: "Search for an application by name..." }
-        %span.fa.fa-search.search-apps-container-icon.search
-        %span.fa.fa-times.search-apps-container-icon.reset
-        %ul.suggestions
-      .app-list
-        - data.applications.each do |app_category|
-          %hr{id: app_category.id}
-          %h2
-            = app_category.title
-          .row
-            - app_category.applications.each do |application|
-              .col-md-4
-                .app
-                  %h4
-                    = application.title
-                  %p
-                    = application.content
-                  - if application.links
-                    - application.links.each do |link|
-                      %a{href: link.url, title: link.title}
-                        = link.title
-                      %br
+    %h2.categories-header Application categories
+    .app-categories
+      - data.applications.each do |category|
+        .app-category
+          %a{ href: "##{category.id}"}
+            = partial "/images/applications/categories/#{category.id.underscore}.svg"
+            %span.category-name= category.title
+
+    .js-app-list.affix-threshold
+      - data.applications.each do |category|
+        %hr
+
+        %h2.category-title.js-category-title= category.title.split.map(&:capitalize).join(' ')
+
+        .category-applications{ id: category.id }
+          - category.applications.each do |application|
+            .application
+              = image_tag "/images/applications/apps/#{application.title.parameterize.underscore}.png", width: 100, height: 100
+              %h3.app-title.js-application-title= application.title
+              %p.app-content= application.content
+              - if application.links
+                = link_to 'Link', application.links.first, class: 'link', target: '_blank', rel: 'noopener nofollow noreferrer'
+                %br
+
+      .js-scroll-to-top.scroll-to-top
+        %i.fa.fa-chevron-up
+
+%script#js-placeholder-image{ type: 'text/template' }= partial '/images/applications/apps/placeholder.svg'
