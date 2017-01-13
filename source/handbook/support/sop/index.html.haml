@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Support Knowledge Base
+title: Support - Standard Operating Procedures
 ---
-- pages = sitemap.resources.select { |resource| resource.path.start_with?("handbook/support/knowledge-base") }
-- pages = pages.reject { |page| page.data.title == "Support Knowledge Base" }
-- pages = pages.group_by { |page| page.data.category }.sort_by { |category| category }
+- pages = sitemap.resources.select { |resource| resource.path.start_with?("handbook/support/sop")  }
+- pages = pages.reject {|page| page.data.category.nil?}.group_by { |page| page.data.category }.sort_by { |category| category }
 %ol.breadcrumb
   %li You are here:
   = breadcrumbs(current_page)
@@ -12,15 +11,15 @@ title: Support Knowledge Base
 .container
   .col-md-9
     .row
-      - pages.each do |category, kb_pages|
+      - pages.each do |category, sop_pages|
         .col-xs-6.col-centered
           %h4.clearfix
             %i.fa.fa-folder-open-o.fa-fw.text-muted
             %small.pull-right
               %i.fa.fa-hdd-o.fa-fw
-              #{kb_pages.count}
+              #{sop_pages.count}
             #{category}
-          - kb_pages.each do |page|
+          - sop_pages.each do |page|
             %ul.fa-ul
               %li
                 %i.fa-li.fa.fa-list-alt.fa-fw.text-muted
@@ -30,12 +29,12 @@ title: Support Knowledge Base
     %section
       .text-center.clearfix
         %h4.text-danger About
-        %p This knowledge base serves as a centralised repository for information used by the GitLab support team. 
+        %p This is a collection of SOPs used by the GitLab support team.
     %section
       %h4.clearfix Categories
       %ul.nav
-      - pages.each do |category, kb_pages|
+      - pages.each do |category, sop_pages|
         %li
           %a{:href => "#"}
-            %span.badge.pull-right> #{kb_pages.count}
+            %span.badge.pull-right> #{sop_pages.count}
             #{category}
