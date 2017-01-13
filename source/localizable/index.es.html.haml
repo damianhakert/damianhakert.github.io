@@ -1,0 +1,56 @@
+---
+title: Code, test, and deploy together with GitLab open source git repo management software
+suppress_header: true
+extra_css:
+  - landing.css
+extra_js:
+  - libs/slick.min.js
+  - home.js
+---
+- if data.promo.link && data.promo.text
+  .gitlab-promo-banner.animated
+    %a{href: data.promo.link}= data.promo.text
+
+.page-container.landing-container.text-center
+  #js-landing-community.landing-community
+  .container.splash-container
+    .landing-hero.hidden-xs
+      = partial "images/home/gitlab-illustration.svg"
+    %h1.page-headline
+      TEST TEST TEST TEST
+    %h2.page-subtitle
+      GitLab unifies issues, code review, CI and CD into a single UI
+
+    .dev-cycle.hidden-xs.hidden-sm
+      - data.development_cycle.each_with_index do |item, index|
+        .step
+          = icon("home/icon-step-#{index + 1}")
+          .step-name-container
+            .step-name
+              #{item[:name]}
+          - if index < data.development_cycle.length - 1
+            .arrows
+              %i.fa.fa-angle-double-right
+
+    %a.btn.cta-btn.white{href: "/features"}
+      View Features
+    %a.btn.cta-btn.red{href: "/products"}
+      Explore Products
+
+= partial "includes/features/idea-to-production"
+= partial "includes/features/try-gitlab-ee"
+= partial "includes/organizations/grid"
+= partial "includes/testimonials/slider"
+
+.homepage-blog-section
+  .container
+    .row.post-list
+      - blog.articles[0..2].each do |article|
+        .col-sm-12.col-md-4.post-item
+          .article
+          - image_title = article.data.image_title ? article.data.image_title : '/images/default-blog-image.png'
+
+          %a.cover{ href: article.url, style: "background-image: url(#{image_title});" }
+            .overlay
+              %h2
+                = article.title

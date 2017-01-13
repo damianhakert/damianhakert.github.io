@@ -45,6 +45,10 @@ activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 9']
 end
 
+activate :i18n,
+  langs: [:en, :es],
+  path: '/:locale/'
+
 activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
 
 # Reload the browser automatically whenever files change
