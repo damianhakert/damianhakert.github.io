@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Miscellaneous"
+title: "Secret Santa"
 ---
 
 ### Secret Santa 2016
