@@ -5,7 +5,7 @@ author_twitter: juanpintoduran
 categories: release
 ---
 
-Later today, we will deploy version 8.16-RC2 on GitLab.com.
+Yesterday, we deployed version 8.16-RC2 on GitLab.com.
 
 This version contains a migration that will rename a small number of namespaces
 which were conflicting with our name restrictions (See [#8199](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8199) and [#8309](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8309)).
