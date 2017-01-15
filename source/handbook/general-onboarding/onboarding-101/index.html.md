@@ -116,7 +116,7 @@ respect the spaces between lines. Please don't use "tab" because it will break t
 
 #### Add Locally
 
-1. As part of your onboarding issue, you created an account on [GitLab.com](https://gitlab.com/). take note of your username and password, because you will need them throughout these steps.
+1. As part of your onboarding issue, you created an account on [GitLab.com](https://gitlab.com/). Take note of your username and password, because you will need them throughout these steps.
 1. You should have been granted access to the [www-gitlab-com
 project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
 1. You need to follow the [GitLab Workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/) to complete this task.
@@ -129,28 +129,22 @@ Note: in some of these steps, your
 require you to add your GitLab.com username and password.
 1. Clone the www-gitlab-com project through your shell, following the [command line commands
 documentation](http://doc.gitlab.com/ce/gitlab-basics/command-line-commands.html).
+1. Create and checkout a new branch for the changes you will be making.
 1. Find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/), change the picture's name to
-the following format: `yourname.jpg` or `yourname.png` and then follow the
-"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps. Picture Notes:
+the following format: `yourname.jpg` or `yourname.png` and then add it to the `source/images/team/` directory. Picture Notes:
    - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
-   - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
-1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
-1. In [GitLab.com](https://gitlab.com/), click on "Files".
-1. Find the dropdown menu at the top of your screen and find the branch
-that you previously created to add your picture (they are in alphabetical
-order). If you don't have a branch yet, follow the steps to [create a new
-branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
-![dropdown menu](/images/dropdown-branch-teampage.jpg)
-1. Information displayed on [Team page](https://about.gitlab.com/team/) is
-pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
-1. When you are in `team.yml`, click on “edit” on the top right side of
-your screen.
-1. Your information should already be added after the last person on the team page. Update the initials to be your `Firstname 'Nickname' Lastname`. Verify that your title is entered correctly. Add the file name of the picture that you uploaded previously. Enter your twitter and gitlab handle. Write a story about yourself.
+   - Any picture that you provide will be made black-and-white automatically after you add it.
+1. Add the picture so it is staged for commit.
+1. Information displayed on the [Team page](https://about.gitlab.com/team/) is
+pulled from `data/team.yml`.
+1. Your information should already be added after the last person on the team page. Update the initials to be your `Firstname 'Nickname' Lastname`. Verify that your title is entered correctly. Add the file name of the picture that you uploaded previously. Enter your twitter and GitLab handle. Write a story about yourself.
 Don't forget to use other team members' information as a reference and to
 respect the spaces between lines. Please don't use "tab" because it will break the page format.
-1. After you added your information, add a comment to your commit and click on “Commit Changes”.
-1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
+1. After you added your information and saved your changes, add the file to be staged for commit.
+1. To see your changes locally, follow the directions in `README.md`.
+1. After validating your changes, commit your changes with a comment and push your branch.
+1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created. Assign it to your manager for review.
 
 ## Reading the Handbook
 
