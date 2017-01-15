@@ -71,7 +71,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 - Use the `Mention` ZenDesk macro
 
-### Tickets that are out of scope from the channel they were submitted in
+### Others
 
 - EE Customer issues / GitHost customers -> Forward to support
 - 2FA reset queries -> Forward to support
@@ -85,6 +85,11 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 - Product Pitches -> TBD
 - Investment request/interest -> TBD
 - Spam -> Mark as spam
+
+### Notes / Remarks
+
+- When asking something in Slack that's relevant for a ticket, leave a link to the Slack message as a comment
+- Always be sure to check if an issue (bug or feature proposal) exists before opening one / asking a user to open it
 
 ## ZenDesk Workflow
 
