@@ -95,8 +95,8 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ### Suggested Views for ZenDesk
 
-- Group: Twitter (Status: New + Open)
-- Group: Facebook (Status: New + Open)
+- Group: Twitter, Channel: NOT Twitter DM, Status: New + Open
+- Group: Facebook, Status: New + Open
 
 ## Mentions
 
