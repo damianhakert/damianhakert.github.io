@@ -57,7 +57,7 @@ title: "Community Advocacy"
 - Link to the issue
 - Invite the community member to provide further feedback in the issue
 
-### General Questions / Issues (Bugs)
+### General Questions / Issues with .com
 
 - Gauge the complexity of the question
 - Search related issues / documentation
@@ -71,17 +71,13 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 - Use the `Mention` ZenDesk macro
 
-### Tickets in languages other than English
-
-- Submit the ticket as on-hold
-    - If you speak the language in question - answer it
-
 ### Tickets that are out of scope from the channel they were submitted in
 
 - EE Customer issues / GitHost customers -> Forward to support
 - 2FA reset queries -> Forward to support
-- User submitted feature request -> Open an issue and link back to the user
-- User submitted bug report -> Reproduce, then open an issue and link back to the user
+- User submitted feature request -> Open an issue and link it back to the user
+- User submitted bug report -> Reproduce, then open an issue link it back to the user
+- Non-English Tweets -> Submit the ticket as on-hold
 
 ### Special Types
 
@@ -226,7 +222,7 @@ and the question seems deserving of an answer (e.g. if it has lots of upvotes).
 
 Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Subreddit](https://www.reddit.com/r/gitlab/).
 
-### Youtube
+### YouTube
 
 _TODO: improve the process of responding to Youtube comments._
 
