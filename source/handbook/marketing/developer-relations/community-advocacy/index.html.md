@@ -196,6 +196,10 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 
 ### community@ email
 
+_TODO: improve the process of handling community emails - either handle it through ZenDesk exclusively or make ZenDesk track replies from the outside as well_
+
+Respond to email sent to our `community@` address.
+
 ### Facebook
 
 _TODO: improve the process of responding to Facebook comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
