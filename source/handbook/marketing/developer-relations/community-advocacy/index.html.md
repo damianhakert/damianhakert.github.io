@@ -81,7 +81,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ### Special Types
 
-- Event Sponsorship Requests -> TBD
+- Event Sponsorship Requests -> Forward to `[amanda@gitlab.com](mailto:amanda@gitlab.com)`
 - Product Pitches -> TBD
 - Investment request/interest -> TBD
 - Spam -> Mark as spam
