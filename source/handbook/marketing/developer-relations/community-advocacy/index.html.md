@@ -20,7 +20,7 @@ title: "Community Advocacy"
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Community Advocate Resources
 
 - Community Advocate Onboarding
-  - [Onboarding Checklist](/handbook/marketing/developer-relations/community-advocacy/onboarding/checklist)
+  - [Onboarding Checklist](/handbook/marketing/developer-relations/community-advocacy/onboarding/checklist/)
 
 ----
 
@@ -100,7 +100,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ## Mentions
 
-The [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel tracks mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
+The [#mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel tracks mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
 
 We currently track the following sources for GitLab mentions:
 
@@ -114,6 +114,8 @@ These mentions get piped to the `#mentions-of-gitlab` channel by [notify.ly](htt
 All comments on our [blog posts](/blog/) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
 
 ## Specific channels
+
+_TODO: improve the tooling for responding to social media channels. (See [marketing#724](https://gitlab.com/gitlab-com/marketing/issues/724))_
 
 Respond to the GitLab community across the following channels in a timely manner:
 
@@ -137,8 +139,6 @@ Respond to the GitLab community across the following channels in a timely manner
 Respond to GitLab mentions on HackerNews. These get piped into the `#mentions-of-gitlab` Slack channel.
 
 ### Disqus
-
-_TODO: improve the tooling for responding to social media channels. (See [marketing#724](https://gitlab.com/gitlab-com/marketing/issues/724))_
 
 All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new comment or reply to a comment creates a new ticket in ZenDesk.  
 Right now there is no way for us to directly reply to the comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on our team, or is a question or a problem) you need to click on the link to the comment and reply directly in the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus the ticket that was created for your reply.
@@ -191,25 +191,17 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 
 ### community@ email
 
-_TODO: improve the process of handling community emails - either handle it through ZenDesk exclusively or make ZenDesk track replies from the outside as well_
-
 Respond to email sent to our `community@` address.
 
 ### Facebook
-
-_TODO: improve the process of responding to Facebook comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
 
 ### GitLab Forum
 
-_TODO: improve the process of responding to forum questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
-
 Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from within the Forum environment.
 
 ### Stack Overflow
-
-_TODO: improve the process of responding to Stack Overflow questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
 The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab flow into Zendesk, but can only be responded to from within Stack Overflow.
 
@@ -222,8 +214,6 @@ Consider offering some of your Reputation using [bounties](http://stackoverflow.
 Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Subreddit](https://www.reddit.com/r/gitlab/).
 
 ### YouTube
-
-_TODO: improve the process of responding to Youtube comments._
 
 Repond to comments made on the [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
@@ -246,4 +236,4 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 ## Relevant Links
 
 - [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
-- [Support handbook](/handbook/support)
+- [Support handbook](/handbook/support/)
