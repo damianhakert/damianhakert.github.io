@@ -7,7 +7,7 @@ title: "Community Advocacy"
 
 - [**Public Issue Tracker**, as part of the Marketing team](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Support Issue Tracker**, issues filtered to *Community*](https://gitlab.com/gitlab-com/support/issues?label_name%5B%5D=Community+); please use this issue tracker for community related issues only.
-- [**Chat channel**](https://gitlab.slack.com/archives/community-advocacy); please use the `#community-advocacy` chat channel for questions that don't seem appropriate to use the issue tracker for.
+- [**Chat channel**](https://gitlab.slack.com/messages/community-advocacy); please use the `#community-advocacy` chat channel for questions that don't seem appropriate to use the issue tracker for.
 
 ## On this page
 {:.no_toc}
@@ -44,16 +44,16 @@ title: "Community Advocacy"
 - Search for an active issue that could be the cause of instability (deployment downtime, load spikes, ...)
     - [Sentry](https://sentry.gitlap.com/gitlab/)
     - [Infrastructure Issue Repository](https://gitlab.com/gitlab-com/infrastructure/issues/)
-    - `infrastructure` and `core` Slack channels
+    - [`infrastructure`](https://gitlab.slack.com/messages/infrastructure) and [`core`](https://gitlab.slack.com/messages/core) Slack channels
 - Determine if the user is still affected
 - Link to the relevant issue
-- (Optional) Forward to support (See [#Others](#others)) - support AT gitlab.com (be very forbearing about this!)
+- (Optional) Forward to support (See [#Others](#others)) - [support@gitlab.com](mailto:support@gitlab.com) (be very forbearing about this!)
 
 ### Feature Requests
 
 - Analyze the request
 - Open an issue for it
-- Thank the user for the contribution (See [our Social Media Guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/))
+- Thank the user for the contribution (See [our Social Media Guidelines](/handbook/marketing/social-media-guidelines/))
 - Link to the issue
 - Invite the community member to provide further feedback in the issue
 
@@ -63,7 +63,7 @@ title: "Community Advocacy"
 - Search related issues / documentation
     - [GitLab CE Issues Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues/)
     - [GitLab Documentation](http://docs.gitlab.com/)
-- (Optional) Forward to support (See [#Others](#others)) - support AT gitlab.com (be very forbearing about this!)
+- (Optional) Forward to support (See [#Others](#others)) - [support@gitlab.com](mailto:support@gitlab.com) (be very forbearing about this!)
 
 ### Mentions
 
@@ -109,9 +109,9 @@ We currently track the following sources for GitLab mentions:
 3. Hacker News
 4. Reddit
 
-These mentions get piped to the `mentions-of-gitlab` channel by [notify.ly](https://notify.ly/).
+These mentions get piped to the `#mentions-of-gitlab` channel by [notify.ly](https://notify.ly/).
 
-All comments on our [blog posts](https://about.gitlab.com/blog/) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
+All comments on our [blog posts](/blog/) and any mention of GitLab on [Lobsters](https://lobste.rs/) also gets funneled to this channel using [zapier](https://zapier.com/).
 
 ## Specific channels
 
@@ -149,10 +149,9 @@ Go through the tickets per-post, see if all comments have received responses, re
 
 Tweets that mention [@GitLab](https://twitter.com/GitLab), or [@GitLabStatus](https://twitter.com/GitLabStatus) will create a ticket in Zendesk, and show up in the "Twitter" view. All responses should be sent from Zendesk.
 
-If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
-from Zendesk also enables us to track our response times vs. [our internal SLA](/handbook/support/#sla).
+If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding from Zendesk also enables us to track our response times vs. [our internal SLA](/handbook/support/#sla).
 
-Reply to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), and the guidelines on [representing GitLab on Twitter](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) regardless of whether the tweet is of a technical nature or not. Follow up with the support team if the issue is too complex to handle.
+Reply to almost all tweets, following the [social media guidelines](/handbook/marketing/social-media-guidelines/), and the guidelines on [representing GitLab on Twitter](/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) regardless of whether the tweet is of a technical nature or not. Follow up with the support team if the issue is too complex to handle.
 
 #### General
 
