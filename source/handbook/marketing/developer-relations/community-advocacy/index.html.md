@@ -47,13 +47,13 @@ title: "Community Advocacy"
     - `infrastructure` and `core` Slack channels
 - Determine if the user is still affected
 - Link to the relevant issue
-- (Optional) Forward to support [See #Others](#others) - support AT gitlab.com (be very forbearing about this!)
+- (Optional) Forward to support (See [#Others](#others)) - support AT gitlab.com (be very forbearing about this!)
 
 ### Feature Requests
 
 - Analyze the request
 - Open an issue for it
-- Thank the user for the contribution
+- Thank the user for the contribution (See [our Social Media Guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/))
 - Link to the issue
 - Invite the community member to provide further feedback in the issue
 
@@ -63,7 +63,7 @@ title: "Community Advocacy"
 - Search related issues / documentation
     - [GitLab CE Issues Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues/)
     - [GitLab Documentation](http://docs.gitlab.com/)
-- (Optional) Forward to support [See #Others](#others) - support AT gitlab.com (be very forbearing about this!)
+- (Optional) Forward to support (See [#Others](#others)) - support AT gitlab.com (be very forbearing about this!)
 
 ### Mentions
 
