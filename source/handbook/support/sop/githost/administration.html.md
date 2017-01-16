@@ -22,3 +22,11 @@ You will need to request SSH access to the GitHost production box. For this, ple
 
 ### Documentation
 The latest GitHost Administration docs can be found [here](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md).
+
+### Purchases 
+
+When a customer purchases GitHost monthly and uses GitLab CE then the provisioning is handled by githost.io. 
+
+For customer who purchase GitHost and GitLab EE yearly then this needs to be handled by our sales team.
+
+If you encounter other requests such as return/recharge then  please coordinate with both Support and Sales.
