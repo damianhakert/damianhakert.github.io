@@ -2228,16 +2228,17 @@
   story:  |
           Joining January 9th
 
-- name: B.K.
-  locality:
-  country:
+- name: Ben Kochie
+  locality: Berlin
+  country: Germany
   role: <a href="https://about.gitlab.com/jobs/prometheus-lead/">Prometheus Lead</a>
   reports_to: VP of Engineering
-  picture: logo-extra-whitespace.png
+  picture: bjk.png
   twitter:
-  gitlab:
+  gitlab: bjk-gitlab
   story:  |
-          Joining January 9th
+          Originaly from Minnesota, Ben has been a Systems Engineer/SRE since running a tiny ISP in the late 1990s.
+          Now living in Berlin, Germany, he's a contributor to the Prometheus monitoring system.
 
 - name: A.N.
   locality:
