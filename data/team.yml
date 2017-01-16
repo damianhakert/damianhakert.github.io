@@ -759,6 +759,7 @@
   maintains:  |
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> expert</li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
+              <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
   story:  |
           DJ grew up on a farm in the Canadian Prairies where it is common to have to fix your own tools and equipment. This didn't change when computers became the tools, and he discovered the joy of development while pursuing a career in IT. He has been working as a developer at various sized companies since 2008 and is excited to be able to finally work in the open source community with GitLab.
 
@@ -1567,6 +1568,8 @@
   picture: jplum.jpg
   twitter: WarheadsSE
   gitlab: WarheadsSE
+  maintains:  |
+              <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
   story:  |
           From Pennsylvania Amish country comes an avid technologist, serial mentor and community evangelist. Jason can be seen attending, boothing, and speaking at as many FOSS conferences and Linux User Groups as he can manage. Previously working as a distribution manager for a thin client company, Jason brings his expertise in packaging for Linux along with a strong desire to produce tools for the community that has changed his life.
 
@@ -2113,6 +2116,8 @@
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
+  maintains: |
+             <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
   story:  |
           Joining January 2nd
 
