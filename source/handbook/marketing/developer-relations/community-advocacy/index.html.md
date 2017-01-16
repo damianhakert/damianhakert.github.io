@@ -100,7 +100,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ## Mentions
 
-We use the [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel to track mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
+The [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel tracks mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
 
 We currently track the following sources for GitLab mentions:
 
@@ -132,25 +132,23 @@ Respond to the GitLab community across the following channels in a timely manner
 - Comments on news stories in the media, and ....
 - .... more.
 
+### Hacker News
+
+Respond to GitLab mentions on HackerNews. These get piped into the `#mentions-of-gitlab` Slack channel.
+
 ### Disqus
 
-_TODO: improve the process of responding to blog comments, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
+_TODO: improve the tooling for responding to social media channels. (See [marketing#724](https://gitlab.com/gitlab-com/marketing/issues/724))_
 
-All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new
-comment or reply to a comment creates a new ticket in ZenDesk. As part of your daily routine, you should
-make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
-comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
-our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
-the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
-the ticket that was created for your reply.
+All the comments from our blog are handled by Disqus. Currently we have an integration in place with Zendesk, where every new comment or reply to a comment creates a new ticket in ZenDesk.  
+Right now there is no way for us to directly reply to the comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on our team, or is a question or a problem) you need to click on the link to the comment and reply directly in the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus the ticket that was created for your reply.
 
 Go through the tickets per-post, see if all comments have received responses, respond if any need responses, then mark all the relevant tickets as Solved.
 
 ### Twitter
 
-Tweets that mention [@GitLab](https://twitter.com/GitLab),
-or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in Zendesk,
-and show up in the "Twitter" view. All responses should be sent from Zendesk.
+Tweets that mention [@GitLab](https://twitter.com/GitLab), or [@GitLabStatus](https://twitter.com/GitLabStatus) will create a ticket in Zendesk, and show up in the "Twitter" view. All responses should be sent from Zendesk.
+
 If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
 from Zendesk also enables us to track our response times vs. [our internal SLA](/handbook/support/#sla).
 
@@ -159,8 +157,7 @@ Reply to almost all tweets, following the [social media guidelines](https://abou
 #### General
 
 - Tweets use short links which require you to visit that link to make sure you understand the context.
-- Clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
-handle requests for [GitLab.com](https://gitlab.com).
+- Clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only handle requests for [GitLab.com](https://gitlab.com).
 
 When resolving Twitter tickets you should:
 
@@ -171,8 +168,7 @@ When resolving Twitter tickets you should:
 
 #### Handles
 
-- The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability
-of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable.
+- The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable.
 - Tweets directed at [@GitLabStatus](https://twitter.com/GitLabStatus) can be answered from the [@GitLab](https://twitter.com/GitLab) account.
 - When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 - [@GitLabSupport](https://twitter.com/GitLabSupport) is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
@@ -210,22 +206,17 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 
 _TODO: improve the process of responding to forum questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
-Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
-within the Forum environment.
+Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from within the Forum environment.
 
 ### Stack Overflow
 
 _TODO: improve the process of responding to Stack Overflow questions, probably by disabling the integration with Zendesk and finding a better way to stay alerted._
 
-The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
-flow into Zendesk, but can only be responded to from within Stack Overflow.
+The [Stack Overflow tagged questions](https://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab flow into Zendesk, but can only be responded to from within Stack Overflow.
 
-After you create an account on [Stack Overflow](http://stackoverflow.com/) (if you don't already have one), you should start by 
-answering a few simple questions in an area you're familiar with (a language, web framework, development platform, API, etc.), 
-or in the GitLab tag(s) if you feel comfortable. The goal is to get enough ["Reputation"](http://stackoverflow.com/help/whats-reputation) and have access to a few more features.
+After you create an account on [Stack Overflow](http://stackoverflow.com/) (if you don't already have one), you should start by answering a few simple questions in an area you're familiar with (a language, web framework, development platform, API, etc.) or in the GitLab tag(s) if you feel comfortable. The goal is to get enough ["Reputation"](http://stackoverflow.com/help/whats-reputation) and have access to a few more features.
 
-Consider offering some of your Reputation using [bounties](http://stackoverflow.com/help/bounty) if a question is particularly advanced and you don't believe you can answer yourself, 
-and the question seems deserving of an answer (e.g. if it has lots of upvotes).
+Consider offering some of your Reputation using [bounties](http://stackoverflow.com/help/bounty) if a question is particularly advanced and you don't believe you can answer yourself, and the question seems deserving of an answer (e.g. if it has lots of upvotes).
 
 ### Reddit
 
