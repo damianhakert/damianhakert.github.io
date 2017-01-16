@@ -50,6 +50,11 @@
   apply: https://gitlab.workable.com/jobs/329033/candidates/new
   open: true
 
+- title: "Senior Backend Developer, Distributed Systems Specialist"
+  description: /jobs/specialist/distributed-systems/
+  apply: https://gitlab.workable.com/jobs/XXX/candidates/new
+  open: true
+
 - title: "Director of Customer Success"
   description: /jobs/director-customer-success
   apply: https://gitlab.workable.com/jobs/339588/candidates/new
