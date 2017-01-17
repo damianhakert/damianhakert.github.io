@@ -13,7 +13,7 @@ title: "Hiring"
 
 GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
-1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#CEO-interview-questions).
+1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#ceo-interview-questions).
 
 
 ## Equal Employment Opportunity
