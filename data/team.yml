@@ -2149,16 +2149,16 @@
   story:  |
           Ty is passionate about learning and development. In his last year at Brigham Young University, he's internalizing all he can - from frontend to backend web development, data warehousing to iOS/mobile development, business management to entrepreneurship. He's discovered his love for technology and development during the last 5-10 years and he feels great about his retirement from his former, more physically-demanding jobs: mover for a moving company, landscaper, and door-to-door salesman. Whenever he can get the chance, he'll be spending time with his wife and family and friends, and keeping up hobbies: playing the organ and piano, basketball, tennis, golf with his wife, mountain biking, and reading.
 
-- name: J.K.
-  locality:
-  country:
+- name: Jaroslava 'Jarka' Kadlecová
+  locality: Pilsen
+  country: Czech Republic
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  reports_to: Discussion Lead
+  picture: jarka.jpg
+  twitter: jajina_k
+  gitlab: jarka
   story:  |
-          Joining January 3rd
+          Although living in the city of beer where she was also born Jarka spent almost 4 years in Switzerland and still loves that country. She's had experience with different programming languages and started loving Ruby immediately after she tried it for the first time. In her free time she tries to do a lot of sports, loves hiking (especially in mountains), traveling around the world or reading books.
 
 
 - name: Xiaogang Wen 温小刚
