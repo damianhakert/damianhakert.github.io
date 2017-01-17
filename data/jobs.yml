@@ -37,7 +37,7 @@
 
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
-  apply: 
+  apply:
   open: false
 
 - title: "Community Advocate"
@@ -73,8 +73,8 @@
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
   salary: 83132
-  apply: https://gitlab.workable.com/jobs/181461/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Support Lead"
   description: /jobs/support-lead/
