@@ -11,6 +11,10 @@ For the workflow that applies to everyone please see [PROCESS.md](https://gitlab
 - TOC
 {:toc}
 
+## GitLab Flow
+
+Products at GitLab are built using the [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html).
+
 ## Basics
 
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues], and filter by the label for your team.
