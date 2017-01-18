@@ -50,7 +50,7 @@ If you have any questions please email events@gitlab.com.
 - We want to emphasize enterprise events but also remember our Community.
 
 ##### For GitLab Employees<a name="promotion"></a>
-- If there is an event you would like to attend, are attending, speaking or have proposed a talk and you would like support from GitLab to attend this event the process goes as follows:
+- If there is an event you would like to attend, are attending, speaking, or have proposed a talk and you would like support from GitLab to attend this event the process goes as follows:
   * Notify your manager of your desire to attend. If you would just like to attend and do not need any type of sponsorship or promotion from marketing you are all set once you get approval from your manager.
  * If you would like support from marketing in any way, after you speak to your manager, create an issue in the marketing project using the Events template. Fill out any relevant information you have. Someone from Field Marketing will be in touch about to discuss your request further within one week. We will try to support you attending the event in any way we can, but please note  Even if we are unable to sponsor the event you can likely still attend with your managers approval.
  * If your event is approved and sponsored, please note that there will be required follow up and tasks to be completed surrounding the event. We will want to know how the event went. Was it valuable?  Should we attend again? Specific questions will be address int he issue created.  We would also like a list of any contacts you made at the event. 

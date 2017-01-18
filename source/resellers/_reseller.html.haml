@@ -1,4 +1,4 @@
-%li.animated.reseller-item
+.animated.reseller-item{class: 'region' + '-' + reseller.region.gsub('-', ' region-').downcase}
   = image_tag reseller.image, class: "img-responsive center-block reseller-image"
   .reseller-content
     = markdown reseller.content

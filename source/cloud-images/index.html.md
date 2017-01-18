@@ -15,8 +15,8 @@ Create a clear process, which outlines ownership throughout each sub-flow, with 
 - Omnibus team - Packing and maintaining
 - Partner Marketing team - Announcements and promotions
 
-**Due to lack of available resources in the packaging team, Eliran Mesika, Director 
-of Strategic Partnerships, will be the temporary maintainer of the available cloud images. Once hiring 
+**Due to lack of available resources in the packaging team, Eliran Mesika, Director
+of Strategic Partnerships, will be the temporary maintainer of the available cloud images. Once hiring
 will complete for the packaging team they will reinstate their ownership as maintainers of the images.**
 
 ### Project Building Blocks
@@ -90,6 +90,15 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
     - `gitlab-ctl reconfigure`
   - [Create the new AMI from this instance](http://docs.aws.amazon.com/AWSToolkitVS/latest/UserGuide/tkv-create-ami-from-instance.html)
     - Make the AMI public, change the properties in the console when you right click on this AMI
+
+### AWS Marketplace Offering
+- We're already signed up as a seller so there's not need to sign up again.
+- To upload new products to AWS follow these steps:
+  - Use the [Self Service Listings (SSL)](https://aws.amazon.com/marketplace/management/products/?) tool in the [AWS Marketplace Management Portal](https://aws.amazon.com/marketplace/management/tour/) by navigating to the “Listings” tab.  Choose a pricing model (BYOL for us), complete the metadata including your [shared and scanned AMI](https://aws.amazon.com/marketplace/management/manage-products/?#/manage-amis.unshared)
+  - Submit to AWS Marketplace for review before publishing.
+  - Monitor the status of your submission by visiting the Self-Service Listings dashboard.
+  - Once the listing information has been provided (either through SSL or through email), and AMI ID have been received, the AWS operations team will begin processing the request. If they encounter any issues or when the product page is ready for review, they will contact you via the e-mail alias aws-marketplace-seller-ops@amazon.com.
+  - With any questions you can refer to the [Seller Guide[(http://awsmp-loadforms.s3.amazonaws.com/AWS_Marketplace_-_Seller_Guide.pdf)] as a reference and if you are unable to find an answer, you can [email](aws-marketplace-sellers@amazon.com) their support.
 
 ### Azure Image
 - Manage the account and details on the [publisher portal](https://publish.windowsazure.com/), choose 'Personal' account

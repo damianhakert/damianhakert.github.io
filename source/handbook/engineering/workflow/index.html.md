@@ -11,6 +11,10 @@ For the workflow that applies to everyone please see [PROCESS.md](https://gitlab
 - TOC
 {:toc}
 
+## GitLab Flow
+
+Products at GitLab are built using the [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html).
+
 ## Basics
 
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues], and filter by the label for your team.
@@ -214,7 +218,7 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 There is an informal scheduling committee that has a weekly meeting that
 discusses issues _around_ scheduling and how the process of scheduling issues
-can be improved. Actual scheduling, prioritization and others has to happen
+can be improved. Actual scheduling, prioritization, and others has to happen
 on GitLab.com and nowhere else.
 
 The meeting is open to anyone wanting to join. Ask in #scheduling to be added.

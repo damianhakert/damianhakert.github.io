@@ -12,13 +12,14 @@ title: "People Operations"
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
-- [Global Compensation Framework](/handbook/people-operations/global-compensation-framework/)
+- [Global Compensation Calculator](/handbook/people-operations/global-compensation-calculator/)
 - [Onboarding](/handbook/general-onboarding/)
 - [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
 - [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
+- [Functional Group Updates](/handbook/people-operations/functional-group-updates)
 
 ## On this page
 {:.no_toc}
@@ -48,7 +49,8 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 {: #addresses}
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
-- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](https://www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+- For the UK office, there is a Ltd registered address located in the "GitLab Ltd (UK) Address" note in the Shared vault on 1Password
 
 ## Regular compensation
 
@@ -88,7 +90,7 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
-b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages, and leave requests.
 
 This policy applies to all current employees and candidates for employment.
 
@@ -97,7 +99,7 @@ This policy applies to all current employees and candidates for employment.
 If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
-- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-framework/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
 {: #benefits-us}

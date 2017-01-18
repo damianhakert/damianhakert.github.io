@@ -1,5 +1,7 @@
 - country: Belgium
   employee_factor: 0.8
+- country: China
+  employee_factor: 0.55
 - country: India
   employee_factor: 0.6
 - country: Netherlands

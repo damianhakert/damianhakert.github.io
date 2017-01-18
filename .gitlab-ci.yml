@@ -21,7 +21,6 @@ lint:
   script:
     - bundle exec rake lint
   tags:
-    - kubernetes
     - gitlab-org
 
 .build_base: &build_base
@@ -31,7 +30,6 @@ lint:
     paths:
       - public/
   tags:
-    - kubernetes
     - gitlab-org
 
 build_branch:
@@ -95,13 +93,14 @@ review_stop:
 
 deploy:
   stage: deploy
+  cache: {}
   variables:
     GIT_STRATEGY: none
   dependencies:
     - build_master
   before_script: []
   script:
-    - rsync --delete -r public/ ~/public/
+    - rsync --delete -vr public/ ~/public/
   environment:
     name: production
     url: https://about.gitlab.com

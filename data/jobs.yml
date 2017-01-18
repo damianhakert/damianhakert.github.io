@@ -37,8 +37,8 @@
 
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
-  apply: https://gitlab.workable.com/jobs/198792/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Community Advocate"
   description: /jobs/community-advocate/
@@ -48,6 +48,11 @@
 - title: "Database Specialist"
   description: /jobs/specialist/database/
   apply: https://gitlab.workable.com/jobs/329033/candidates/new
+  open: true
+
+- title: "Senior Backend Developer, Distributed Systems Specialist"
+  description: /jobs/specialist/distributed-systems/
+  apply: https://gitlab.workable.com/jobs/XXX/candidates/new
   open: true
 
 - title: "Director of Customer Success"
@@ -68,7 +73,12 @@
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
   salary: 83132
-  apply: https://gitlab.workable.com/jobs/181461/candidates/new
+  apply: 
+  open: false
+
+- title: "Frontend Lead"
+  description: /jobs/frontend-lead/
+  apply: https://gitlab.workable.com/jobs/409394/candidates/new
   open: true
 
 - title: "Support Lead"
@@ -78,13 +88,15 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply: https://gitlab.workable.com/jobs/269007/candidates/new
-  open: true
+  salary: 117530
+  apply:
+  open: false
 
 - title: "Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
-  apply: https://gitlab.workable.com/jobs/339744/candidates/new
-  open: true
+  salary: 117530
+  apply:
+  open: false
 
 - title: "Production Engineer"
   description: /jobs/production-engineer/
@@ -116,7 +128,7 @@
 - title: "Success Engineer (APAC and Channel)"
   description: /jobs/Success-Engineer-APAC-and-Channel/
   apply: https://gitlab.workable.com/jobs/338848/candidates/new
-  open: true
+  open: false
 
 - title: "Build Engineer"
   description: /jobs/build-engineer
@@ -158,19 +170,19 @@
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
   apply:
-  open: false
+  open: true
 
-- title: "Regional Director Sales, US"
-  description: /jobs/regional_director_sales/regional-director-sales
-  apply: 
+- title: "Regional Sales Director"
+  description: /jobs/regional-sales-director
+  apply:
   open: false
 
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
-  apply: https://gitlab.workable.com/jobs/392010/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Performance Lead"
   description: /jobs/performance-lead/
   apply: https://gitlab.workable.com/jobs/398569/candidates/new
-  open: true
+  open: false

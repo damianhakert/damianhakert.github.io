@@ -18,7 +18,7 @@ title: Leadership
 1. We give feedback, lots of it, don't hold back on suggestions to improve.
 1. If you meet external people always ask what they think we should improve.
 1. As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
-1. We don't have project managers. Individual contributors need to manage themselves.
+1. We don't have project managers. Individual contributors need to manage themselves. Not everyone will be able to do this effectively and be fit for our organization. Making someone responsible for managing others will make the job of the people that can manage themselves worse. If you manage yourself you have a much greater freedom to make decisions, and those decisions are based on deep knowledge of the situation. We want to retain the people that can handle that responsibility and therefore we can't retain the ones that struggle. Assigning a project manager/coordinator/case manager/etc. to something is an indicator that something is wrong and we are picking the wrong solution.
 
 ## Management
 
@@ -33,12 +33,16 @@ title: Leadership
 1. Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 1. Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
+1. Do everything to unblock people. For example, if someone has a question that is keeping them from being productive, try to answer the question or find someone who can.
+1. Communicate in a professional manner as though your words will be shared widely (e.g. published in a newspaper).
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
+1. A tweet by [Sam Altman](https://twitter.com/sama/status/804138512878473220) combined the reply by [Paul Graham](https://twitter.com/paulg/status/804209365305659392) says it best: "People either get shit done or they don't. And it's easy to be tricked because they can be smart but never actually do anything.". Watch for results instead of articulate answers to questions, otherwise you'll take too much time to indentify underperformers.
+1. [Our summits](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/) are meant for informal communication and bonding accross the company. There is a limited time for business activities during the summit so all our regular meetings should happen outside of the summit. We want informal, cross team, open-ended meetings, that includes individual contributors, for example inviting everyone including sales to suggest currently missing functionality in GitLab. Formal, team restricted, structured meetings, where not everyone is welcome shouldn't happen, for example an executive team meeting to set the yearly budget. Never delay a decision until the summit, if anything use the summit as a deadline to get things done earlier.
 
 ## Grovo
 
-[Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
+[Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet, or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
 
 ### What is Microlearning?
 
@@ -60,15 +64,19 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 
 ## No matrix organization
 
-1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
+1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard to get right.
 1. We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
-1. The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
+1. The advantage of a functional structure is that you get better feedback and training since your boss understands your work better than a general manager.
 1. For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
+1. A functional organization structure mimics the top structure of our and many other organizations (Finance, Sales, Engineering, etc.).
 1. It reduces compensation costs, coordination costs, and office politics.
 1. The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
 1. To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
 1. Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best out of you.
 1. "Nuke all matrices. Nuke all dual reporting structures. And nuke as many shared services functions as you possibly can." in the great [guide to big companies from Marc Andreessen](http://pmarchive.com/guide_to_big_companies_part2.html) (the other guides are awesome too).
+1. On this page we recommend to read High Output Management and its author coined Grove's law: All large organizations with a common business purpose end up in a hybrid organizational form. We believe a dual reporting structure is inevitable, we just want to delay it as long as possible.
+1. We want to promote organic cross-functional collaboration by giving people stable natural counterparts. A sales region will consist of a Sales Development Represenative, [Account Executive (AE)](https://about.gitlab.com/jobs/account-executive/), and [Success Engineer (SE)](https://about.gitlab.com/jobs/success-engineer/). A strategic customer has an AE, [Account Manager (AM)](https://about.gitlab.com/jobs/account-manager/), and SE assigned. Every backend team of developers maps to a [Product Manager (PM)](https://about.gitlab.com/jobs/product-manager/) and eventually a mapping frontend team.
+1. Functional companies are easier when you focus on one product. Apple focusses on the iPhone and can have a [unitary/functional/integrated organizational form](https://stratechery.com/2016/apples-organizational-crossroads/). The advantage is that you can make one strong integrated product. But we can maintain a functional organization as long as we keep offering new functionality as features of GitLab instead of different products. The fact that we're in touch with the market by using our own product also helps.
 
 ## Articles
 

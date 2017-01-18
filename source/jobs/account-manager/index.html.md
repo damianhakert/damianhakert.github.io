@@ -28,3 +28,18 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Knowledge of Git and GitLab workflow preferred
 * Interest in GitLab, and open source software
 * You share our [values](/handbook/#values), and work in accordance with those values.
+
+Account Management
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with our CRO
+* Candidates will then be invited to schedule an interview with one of our Regional Directors of Sales
+* Finally, candidates will be scheduled for a 50min interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+Expect between 2-3 business between each step. Additional details about our process can be found on our [hiring page](/handbook/hiring).

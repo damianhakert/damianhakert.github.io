@@ -71,13 +71,14 @@ A few things are important in this section:
 
 #### Gifox (macOS)
 
-[Gifox](http://gifox.io/) is the absolute best option here, although a payed app, its reasonably priced ($2.99). It has support for all of the features, shortcuts and then some.
+[Gifox](http://gifox.io/) is the absolute best option here, although a paid app, its reasonably priced ($2.99). It has support for all of the features, shortcuts, and then some.
 
 Worthy of mentioning:
 
 - [Kap](https://getkap.co/) (free and open source!)
 - [Giphy capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) (free and a great option!)
 - [Licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
+- [ScreenToGif](http://www.screentogif.com/) (Windows, free and open source with powerful editor)
 
 #### FFCast + FFmpeg (Linux)
 
