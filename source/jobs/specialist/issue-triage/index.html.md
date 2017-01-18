@@ -14,7 +14,7 @@ title: "Issue Triage Specialist"
   customer issues are not addressed in a timely fashion
 * Identify patterns or common issues reported by community
 * Fixes community-reported bugs when possible (approximately 20% of the time)
-* Label `up-for-grabs` issues for potential developer candidates in agreement
+* Label `Accepting Merge Requests` issues for potential developer candidates in agreement
   with the Platform and/or Discussion leads
 * Develop tools to consolidate and reduce duplicate issues
 * Create/manage the moderation and terms of use policies
