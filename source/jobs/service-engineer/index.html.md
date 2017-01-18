@@ -93,7 +93,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Next, candidates will be invited to schedule a technical first interview with a Service Engineer
 * Candidates will then be invited to schedule a customer service interview with a Service Engineer
 * Candidates will be invited to schedule a third interview with our Interim Support Lead
-* Next, all candidates will meet with our VP of Engineering
+* Next, all candidates will have an additional technical interview with the VP of Engineering
 * Finally, candidates will interview with our CEO
 * Successful candidates will subsequently be made an offer via email
 
