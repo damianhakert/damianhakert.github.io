@@ -2111,18 +2111,18 @@
   story:  |
           Coming from a background in computer engineering, Sam is fascinated by all things from the metal to the screen. He's found a passion for the frontend where he can flex his first love for design and UX. He spends most of his time working with JavaScript, CSS and HTML. Sam also enjoys creating mobile application in Swift and experimenting with machine learning using Python. Away from the desk, Sam might be found hiking the Appalachian Mountains, tracking his rides on Strava, working out with friends, or meal prepping for the week.
 
-- name: P.C.
-  locality:
-  country:
+- name: Paweł Chojnacki
+  locality: Poznań
+  country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: pawel_chojnacki.jpg
+  twitter: pawelchcki
+  gitlab: pchojnacki
   maintains: |
              <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
   story:  |
-          Joining January 2nd
+          Paweł started programming computers when he first got his hands on C64 as a kid. When he's not developing software (preferably using functional paradigms), he can be seen writing Chef recipes and is always on a lookout for solutions to difficult problems. He likes to read about distributed systems and at one point even considered moving to the Paxos island. When away from keyboard he likes to spend time with his family and enjoys good sci-fi, also can be seen soldering things together.
 
 - name: Toon Claes
   locality: Herentals
