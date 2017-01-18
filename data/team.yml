@@ -1348,14 +1348,15 @@
   reports_to: CRO
   picture: francisaquino.jpg
   twitter: N/A
-  gitlab: superfrank316
+  gitlab: francisaquino
   maintains: |
+           <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/salesforce">Salesforce issue tracker</a> (internal)</li>
            <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/zuora">Zuora issue tracker</a> (internal)</li>
   story:  |
           Francis has years of experience building out sales processes for SaaS companies of all shapes and sizes.
           Asides from optimizing workflows and eliminating bottlenecks in Salesforce and other business systems, he enjoys the
           occasional music concert, destroying his opponents in table tennis, and playing "Dust in the Wind" on his acoustic guitar
-          ("You're my boy Blue!!). His pet peeves include inefficiency, slow walkers, and people who
+          ("You're my boy Blue!!"). His pet peeves include inefficiency, slow walkers, and people who
           continuously press the call button believing the elevator will come sooner.
 
 - name: Kris Touzel
