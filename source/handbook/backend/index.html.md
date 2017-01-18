@@ -5,16 +5,17 @@ title: "Backend Group"
 
 ## Teams
 
-There are three teams within the Backend group:
+There are a number of teams within the Backend group:
 
 * [CI](/handbook/backend#ci)
 * [Discussion](/handbook/backend#discussion)
 * [Platform](/handbook/backend#platform)
+* [Prometheus](/handbook/backend#prometheus)
 
-All three teams work in concert, but each has a different focus on what
-issues to work on for each release. The following information is not meant to
-be a set of hard-and-fast rules, but as a guideline as to what team decides can
-best improve certain areas of GitLab.
+Each team has a different focus on what issues to work on for each
+release. The following information is not meant to be a set of hard-and-fast
+rules, but as a guideline as to what team decides can best improve certain
+areas of GitLab.
 
 APIs should be shared responsibility between all teams within the
 Backend group.
@@ -89,6 +90,16 @@ the CI and Discussion Teams do not cover. For example:
     * Cycle analytics
   * Wiki
 
+### Prometheus Team
+{: #prometheus}
+
+[Prometheus](https://prometheus.io/) shipped with GitLab 8.16. The
+Prometheus Team is tasked with:
+
+* Delvering out-of-the-box monitoring and alerting features for applications, including GitLab
+* Improving [Prometheus open source project](https://github.com/prometheus) to support that goal
+* Helping other groups, such as infrastructure and UI/UX, instrument and gather data
+
 ### Mapping to Direction Issues
 {: #mapping-to-direction-issues}
 
@@ -106,4 +117,4 @@ multiple teams may be involved in each area:
 7. Review (Discussion)
 8. Staging (CI)
 9. Production (CI)
-10. Feedback (Platform)
+10. Feedback (Platform, Prometheus)

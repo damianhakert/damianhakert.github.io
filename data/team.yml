@@ -56,7 +56,7 @@
   locality: Amsterdam
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Edge Lead
+  reports_to: Gitaly Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -267,7 +267,7 @@
   locality: Hilversum
   country: The Netherlands
   role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: jnijhof.jpg
   twitter: jeroen_nijhof
   gitlab: jnijhof
@@ -307,11 +307,11 @@
   locality: Hilversum
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Infrastructure Director
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
-  specialty: Performance
+  specialty: Database
   maintains: |
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
@@ -597,8 +597,8 @@
 - name: Pablo Carranza
   locality: Zamora
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/production-lead/">Production Lead</a>
+  reports_to: Infrastructure Director
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
@@ -805,7 +805,7 @@
   locality: Gimo
   country: Sweden
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Edge Lead
+  reports_to: Gitaly Lead
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
@@ -1025,7 +1025,7 @@
   locality: Nashville, TN
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: northrup.png
   twitter: northrup
   gitlab: northrup
@@ -1039,7 +1039,7 @@
   locality: Astana
   country: Kazakhstan
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
@@ -1055,7 +1055,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Gitaly Lead
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
@@ -1157,7 +1157,7 @@
   locality: Austin, TX
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
@@ -1223,7 +1223,7 @@
   locality: Cairo
   country: Egypt
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Gitaly Lead
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
@@ -1643,7 +1643,7 @@
   locality: Washington, DC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/security-engineer/">Security Lead</a>
-  reports_to: VP of Engineering
+  reports_to: Infrastructure Director
   picture: brianneel.jpg
   twitter: b0bby_tables
   gitlab: briann
@@ -2205,7 +2205,7 @@
   locality: Florence
   country: Italy
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: daniele.jpg
   twitter: escociao
   gitlab: omame
@@ -2251,8 +2251,8 @@
 - name: A.N.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/performance-lead/">Performance Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/gitaly-lead/">Gitaly Lead</a>
+  reports_to: Infrastructure Director
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -2302,3 +2302,27 @@
   gitlab:
   story:  |
           Joining February 6th
+
+- name: "Ernst (Interim)"
+  placeholder: true
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Support Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Open Position
+
+- name: "Sid (Interim)"
+  placeholder: true
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/infrastructure-director/">Infrastructure Director</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Open Position
