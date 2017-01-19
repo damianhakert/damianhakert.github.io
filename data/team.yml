@@ -241,7 +241,9 @@
   twitter: emilylucie
   gitlab: emilykyle
   maintains:  |
+              <li>GitLab Summit Expert</li>
               <li><a href="https://gitlab.mybrightsites.com/">Swag Queen</a></li>
+              
   story: |
          After making it to round four of the Mars One selection process, Emily decided she would miss Mexican food too much on Mars,
          so she removed herself from the running. If the selection process taught her anything it was how critical collaboration is for getting things accomplished.
@@ -578,6 +580,8 @@
   reports_to: CEO
   picture: kirsten.jpg
   gitlab: kirstenabma
+  maintains:  |
+              <li>GitLab Summit Expert</li>
   story:  |
           After spending time planning a TEDx event of 500 people, Kirsten realised she loves working at start ups
           and is crazy about organizing events. If you need anything arranged, from plane tickets to meeting schedules
@@ -1090,6 +1094,8 @@
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
   gitlab: brittanyr
+  maintains:  |
+              <li>GitLab Summit Expert</li>
   story:  |
            Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake.
 
