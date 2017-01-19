@@ -13,8 +13,6 @@ across the company is through our functional group updates.
 
 You can watch the functional group update from our Product team below.
 
-<--- MORE ---> 
-
 ## Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UsQwW64Vy8A" frameborder="0" allowfullscreen></iframe>
