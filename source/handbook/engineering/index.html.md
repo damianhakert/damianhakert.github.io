@@ -17,9 +17,9 @@ title: "Engineering"
 - [Build]() TODO
 - [UX](/handbook/ux)
 - [Infrastructure](/handbook/infrastructure)
-  - [Security](/handbook/security/) TODO
-  - [Database](/handbook/database) TODO
-  - [Gitaly](/handbook/gitaly) TODO
+  - [Security](/handbook/security)
+  - [Database](/handbook/database)
+  - [Gitaly](/handbook/gitaly)
 
 ### Collaboration
 
