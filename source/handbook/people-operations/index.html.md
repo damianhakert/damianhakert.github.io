@@ -101,10 +101,22 @@ If you change your address, you should let GitLab know the new address within a 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
-### Administrative details of benefits for US-based employees
+### Promotions
+
+To promote one of your direct reports, a manager should follow the following steps:
+
+- Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance, not based on potential). If the criteria for promotion are not adequately described on the relevant job description page, then work on that first.
+- Manager must obtain agreement from their own manager(s), all the way through the chain of command to the respective executive team member.
+- Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator.
+- Once written agreement is reached on the promotion and changes (if any) in compensation, the manager informs the individual.
+- Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/sop/#processing-changes) in relevant administrative systems.
+- Promotions are then announced by the manager on the team call, including a link to the merge request where the individuals title is updated on the team page.
+- If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [dev server] to list and track progress on those topics.
+
+## Administrative details of benefits for US-based employees
 {: #benefits-us}
 
-#### 401k
+**401k**
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -119,7 +131,7 @@ after the 1st of the month after your hire date.
    1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
-### Using RingCentral
+## Using RingCentral
 {: #ringcentral}
 
 Our company and office phone lines are handled via RingCentral. The login credentials
