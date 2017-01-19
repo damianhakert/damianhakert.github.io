@@ -458,7 +458,8 @@ For every monthly release, there is a blog post announcing features. The blog po
 We want to help people understand exciting features (which are often new), and increase adoption. 
 Disruptive features may change workflows or even introduce unavoidable inconveniences. 
 We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-Smaller tweaks and bug fixes don't necessarily need to be mentioned, since we want to let the major features shine in the blog post.
+Smaller tweaks and bug fixes don't necessarily need to be mentioned, 
+but if interesting, can be included at the bottom of the post.
 
 # Links
 
