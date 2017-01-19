@@ -1,5 +1,18 @@
 @import "variables";
 
+.downloads,
+.downloads-ee {
+  font-size: 18px;
+
+  .footer {
+    margin-top: 100px;
+  }
+}
+
+h2 {
+  margin: 35px 0 20px;
+}
+
 p a {
   text-decoration: underline;
 }
@@ -24,14 +37,26 @@ p a {
   color: $color-white;
 }
 
-.other-downloads a {
-  color: rgba($color-white, .8);
+.other-downloads {
+  margin-top: 20px;
+
+  .other {
+    margin-bottom: 20px;
+
+    a {
+      font-weight: 800;
+      font-size: 22px;
+      color: $color-purple;
+    }
+  }
 }
 
 pre {
   background: $downloads-code-color;
   border: 0;
   color: $color-white;
+  font-size: 14px;
+  padding: 12px;
 }
 
 .simple-header {
@@ -40,17 +65,8 @@ pre {
 
 .tab-step {
   margin: 20px 0;
-  padding: 12px;
   border-radius: 5px;
   background-color: rgba($color-white, .05);
-
-  a {
-    color: $downloads-step-link-color;
-  }
-
-  p {
-    color: $downloads-step-color;
-  }
 }
 
 .newsletter-preamble {

@@ -117,10 +117,8 @@
                     sudo rcSuSEfirewall2 restart
 - name: raspberrypi2
   long_name: Raspberry PI 2 on Raspbian
-  download_command: |
-                    sudo curl -sS https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/script.deb.sh | sudo bash
-  install_commands: |
-                    sudo apt-get install gitlab-ce
+  download_command: sudo curl -sS https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/script.deb.sh | sudo bash
+  install_commands: sudo apt-get install gitlab-ce
   install_commands_manual: |
                     curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/debian/(wheezy|jessie)/gitlab-ce-XXX.deb/download
                     dpkg -i gitlab-ce-XXX.deb

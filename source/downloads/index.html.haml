@@ -1,48 +1,16 @@
 ---
 layout: default
-title: Download GitLab Community Edition (CE)
-purple_bg: true
+title: Install a GitLab Community Edition (CE) Omnibus package in 5 easy steps
 extra_css:
   - downloads.css
 ---
 
 .wrapper.container
   .row.graphic-menu
-    .col-md-3.hidden-sm.hidden-xs
-      = image_tag "/images/downloads/logo.svg", class: "img-responsive pack-fox"
-      %p.newsletter-preamble
-        Sign up for our monthly newsletter to stay up-to-date with new features, security updates
-        and product releases.
-      %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
-      %form#mktoForm_1070
-      :javascript
-        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070, function(form) {
-            form.onSuccess(function(values, followUpUrl) {
-
-              form.getFormElem().hide();
-              document.getElementById('confirmform').style.visibility = 'visible';
-
-              dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
-              return false;
-            });
-            function getgacid() {
-              try {
-                var tracker = ga.getAll()[0];
-                return tracker.get('clientId');
-              } catch (e) {
-                return 'n/a';
-              }
-            }
-            form.vals({
-              'gacid': getgacid()
-            });
-        });
-      #confirmform{style: "visibility:hidden;"}
-        %p Thanks for subscribing!
-    .col-md-9
+    .col-md-10.col-md-offset-1
       .installation-instructions
         %h2.heavy
-          Install a GitLab CE Omnibus package on
+          Step 1: Select Operating System
         .btn-group
           %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", type: "button"}
             Select Operating System
@@ -56,8 +24,12 @@ extra_css:
         - data.platforms.each do |platform|
           = partial "includes/downloads/platform", locals: { platform: platform, type: "ce" }
       .other-downloads
-        %h5
+        %h2.heavy
+          Other Installation Options
+        %h4.other
           %a{href: "/downloads-ee"} Download GitLab Enterprise Edition
-        %h5
-          %a{href: "https://packages.gitlab.com/gitlab/gitlab-ce"} Browse the packages
-      = partial "includes/downloads/other"
+        %h4
+          %a{href: "https://packages.gitlab.com/gitlab/gitlab-ce"} Browse all GitLab CE installation packages
+        %h4
+          %a{href: "https://docs.gitlab.com/ce/install/requirements.html"} GitLab CE Installation requirements
+        = partial "includes/downloads/other"
