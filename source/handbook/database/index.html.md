@@ -9,6 +9,6 @@ techniques including:
 
 * Sharding at the application-level or with tools such as [Citus Data](https://www.citusdata.com/)
 * Providing tools for the development team test migrations before they hit production
-* Creating tools for online migrations requiring little or no downtime
+* Creating tools to enable online migrations that require little or no downtime
 * Providing monitoring for slow queries
 * Tuning PostgreSQL and MySQL for optimal usage
