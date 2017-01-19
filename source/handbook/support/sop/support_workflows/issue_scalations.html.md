@@ -97,8 +97,8 @@ See [Information Gathering](#Information-Gathering) for *Application and environ
 
 | Service/Product       | Escalation Type                                                                                  | Escalation Point                                         |  Assignment      |
 |-----------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------------------- |
-| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | https://gitlab.com/gitlab-com/infrastructure/issues/new | Support Team Lead/Senior Service Engineer 
-| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | https://gitlab.com/gitlab-com/support/issues/new        | Infrastructure Lead/Senior Production Engineer
+| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | https://gitlab.com/gitlab-com/infrastructure/issues/new | Support Team Lead/Senior Service Engineer
+| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | https://gitlab.com/gitlab-com/support/issues/new        | Production Lead/Senior Production Engineer
 
 **See the [GitLab team page](https://about.gitlab.com/team/) for assignments**
 
