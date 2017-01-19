@@ -453,6 +453,13 @@ feature. Describe the pain points.
 
 * Point to the documentation and any other relevant links (previous posts, etc).
 
+## Writing release blog posts
+For every monthly release, there is a blog post announcing features. The blog post should contain anything _exciting_ or _disruptive_.
+We want to help people understand exciting features (which are often new), and increase adoption. 
+Disruptive features may change workflows or even introduce unavoidable inconveniences. 
+We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
+Smaller tweaks and bug fixes don't necessarily need to be mentioned, since we want to let the major features shine in the blog post.
+
 # Links
 
 - [Engineering Workflow](/handbook/engineering/workflow)
