@@ -2214,16 +2214,16 @@
           In his teenage years he replaced lego with pc components and suddenly his room became a messy computer lab.
           In his professional career he managed a diverse set of infrastructures, from just a bunch of nodes to multiple DCs in different continents.
 
-- name: J.L.
-  locality:
-  country:
+- name: Joshua Lambert
+  locality: Philadelphia
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager, Prometheus</a>
   reports_to: Head of Product
-  picture: logo-extra-whitespace.png
+  picture: joshua.png
   twitter:
-  gitlab:
+  gitlab: joshlambert
   story:  |
-          Joining January 9th
+          Josh's passion with computers started in elementary school when his parents brought an IBM PCjr home along with a book on BASIC. In his teenage years he spent time working on a variety of coding projects and assembling his own computers. He developed a love for product management 6 years ago, while working on a solution in the mobile productivity space. When not spending time with his family or working on technology, he tries to get out skiing and playing tennis. 
 
 - name: E.E.
   locality:
