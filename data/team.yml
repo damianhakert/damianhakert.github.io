@@ -267,7 +267,7 @@
   locality: Hilversum
   country: The Netherlands
   role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: jnijhof.jpg
   twitter: jeroen_nijhof
   gitlab: jnijhof
@@ -307,7 +307,7 @@
   locality: Hilversum
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
@@ -597,7 +597,7 @@
 - name: Pablo Carranza
   locality: Zamora
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/production-lead/">Production Lead</a>
   reports_to: VP of Engineering
   picture: pablo.jpg
   twitter: psczg
@@ -1025,7 +1025,7 @@
   locality: Nashville, TN
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: northrup.png
   twitter: northrup
   gitlab: northrup
@@ -1039,7 +1039,7 @@
   locality: Astana
   country: Kazakhstan
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
@@ -1055,7 +1055,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
@@ -1141,7 +1141,7 @@
   locality: Austin, TX
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
@@ -1207,7 +1207,7 @@
   locality: Cairo
   country: Egypt
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
@@ -2190,7 +2190,7 @@
   locality: Florence
   country: Italy
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: daniele.jpg
   twitter: escociao
   gitlab: omame
