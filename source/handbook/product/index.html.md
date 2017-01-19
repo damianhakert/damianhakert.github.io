@@ -43,7 +43,8 @@ GitLab is designed and developed in a unique way.
 
 The direction for the GitLab product is spelled out on the
 [Direction page](/direction). This document provides lessons and heuristics on
-how to design changes and new features.
+how to design changes and new features. Our iterative process is demonstrated in
+a [blog post](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/).
 
 ### TL;DR
 

@@ -21,7 +21,6 @@ lint:
   script:
     - bundle exec rake lint
   tags:
-    - kubernetes
     - gitlab-org
 
 .build_base: &build_base
@@ -31,7 +30,6 @@ lint:
     paths:
       - public/
   tags:
-    - kubernetes
     - gitlab-org
 
 build_branch:
@@ -58,10 +56,10 @@ review:
   variables:
     GIT_STRATEGY: none
   script:
-    - rsync -av --delete public ~/pages/$CI_BUILD_REF_NAME
+    - rsync -av --delete public ~/pages/$CI_BUILD_REF_SLUG
   environment:
     name: review/$CI_BUILD_REF_NAME
-    url: http://$CI_BUILD_REF_NAME.about.gitlab.com
+    url: http://$CI_BUILD_REF_SLUG.about.gitlab.com
     on_stop: review_stop
   only:
     - branches@gitlab-com/www-gitlab-com
@@ -80,7 +78,7 @@ review_stop:
   variables:
     GIT_STRATEGY: none
   script:
-    - rm -rf public ~/pages/$CI_BUILD_REF_NAME
+    - rm -rf public ~/pages/$CI_BUILD_REF_SLUG
   when: manual
   environment:
     name: review/$CI_BUILD_REF_NAME
@@ -95,13 +93,14 @@ review_stop:
 
 deploy:
   stage: deploy
+  cache: {}
   variables:
     GIT_STRATEGY: none
   dependencies:
     - build_master
   before_script: []
   script:
-    - rsync --delete -r public/ ~/public/
+    - rsync --delete -vr public/ ~/public/
   environment:
     name: production
     url: https://about.gitlab.com

@@ -34,14 +34,14 @@ $member-social-color: #ccc;
 
 $blog-color-text: #222;
 $blog-color-note: #666;
-$blog-color-heading: #333;
+$blog-color-heading: #fff;
 $blog-color-purple: rgb(107, 79, 187);
 $blog-color-mk-border: #ccc;
 $blog-color-date: #888;
 $blog-color-overlay-border: #eee;
 $blog-color-border-shadow: rgba(0, 0, 0, .1);
-$blog-color-image-from: rgba(255, 255, 255, .65);
-$blog-color-image-to: rgba(255, 255, 255, .95);
+$blog-color-image-from: rgba(0, 0, 0, 0);
+$blog-color-image-to: rgba(0, 0, 0, .8);
 $blog-color-ipanel-heading: rgba(221, 221, 221, .5);
 $blog-color-legacy-image-from: rgba(85, 68, 136, .8);
 $blog-color-legacy-image-to: rgba(72, 135, 197, .92);
@@ -123,6 +123,7 @@ $font-family-serif: "Roboto Slab", serif;
 $border-radius-large: 3px;
 
 $grid-float-breakpoint: 992px;
+$screen-sm-min: 768px;
 
 $navbar-default-bg: #fff;
 $navbar-default-toggle-icon-bar-bg: $color-primary;
@@ -142,6 +143,11 @@ $search-border-color: #bcbcbc;
 $reseller-divider-color: $navbar-default-border;
 $reseller-hero-bg-color: #35393d;
 $reseller-hero-content-color: #969696;
+$reseller-category-active-background-color: rgba(255, 255, 255, .4);
+
+
+
+$applications-highlight-color: #ffc600;
 
 $features-gradient-end: rgba(148, 149, 150, 1);
 $features-gradient-begin: rgba(0, 0, 0, .91);

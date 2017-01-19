@@ -147,9 +147,41 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 #### **Objectives**:
 - Illustrate successful and measurable improvements in the customer’s business   
 - Show other users how customers are using GitLab 
-- Align content so that GitLab solutions reflect the challenges our customers, prospects and the market requirements
+- Align content so that GitLab solutions reflect the challenges our customers, prospects, and the market requirements
 - Develop and grow organisational relationships: speak at events on our behalf, promote their business
 - Support our value proposition - Faster from idea to production
+
+#### **Creating the Customer Case Study**:
+
+**Explaining the Case Study process to a Customer & Creating the Case Study**:
+
+Below is an example email template that you can send customers to after the AE has introduced you to the customer. The email below will help the customer to get a better sense of what we are asking of them.
+
+>Hi X,
+
+>It's nice to e-meet you, we'd love to hear more about your journey to GitLab and potentially write a customer story on COMPANY NAME.
+
+>Here are the steps that we'd work with you on.
+>- 20-30 minute phone call to hear more about your industry, business, and team. (In the call, we would also like to hear more about your decision making process to first choose GitLab and then eventually purchase EE.)
+>- Review of the draft customer story
+>- Final review of the customer story Then once the customer story is agreed upon by you or someone on your team we will publish it on GitLab's channels.
+
+>Please let me know if you're open to kicking off the customer story process on X date
+
+####**Collecting Metrics**:
+Possible quantitative metrics that the customer can be asked to share with GitLab include:
+- Reduced cycle time
+- Number of deploys in a given time frame
+- Reduced number of bugs or Reverts
+- Recuced number of admin hours
+- Cost savings % through purchasing GitLab: Reduce the cost of managing a number of different people, projects, and platforms.
+- Reduction in internal support tickets requests: Reduction in the number of support tickets team submitting to fix challenges, compared to initial SCM tool
+
+The customer case study should then be written by Product Marketing team, and the draft sent to the customer for their input, and approval. 
+
+Other sections in the case study can be found on the customer's website or by searching the web - Sidebar summary, The Customer.
+
+Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website.
 
 #### **Case Study Format**:
 

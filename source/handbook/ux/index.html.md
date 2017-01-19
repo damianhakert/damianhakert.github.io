@@ -5,7 +5,7 @@ title: "UX Team"
 
 ## UX Guide
 
-The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our principles, approach and perspective to the experience of GitLab. Help keep this document up to date and correct by making [merge requests](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/).
+The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our principles, approach, and perspective to the experience of GitLab. Help keep this document up to date and correct by making [merge requests](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/).
 
 ## UX Workflow 
 

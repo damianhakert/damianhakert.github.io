@@ -41,11 +41,12 @@ retain a good amount of information by just reading and watching through, that i
 okay. But if you see a topic that is completely new to you, stop the video and try
 it out for yourself before continuing.
 
+1. [ ] Let your hiring manager know you're ready to be assigned a trainer.
 1. [ ] Just quickly check on your Zendesk account to make sure that is ready for you when you need it.
 1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
-1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/knowledge-base/gitlab_com/500_errors.html)
+1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/sop/gitlab_com/500_errors.html)
    1. [ ] Log into [Sentry](https://sentry.gitlap.com/gitlab/gitlabcom/) and
    choose **"Sign in with GitLab"**.
    1. [ ] View the [teams](https://sentry.gitlap.com/organizations/gitlab/teams/)
@@ -101,7 +102,7 @@ _Typically started in first week, completed by end of third week_
 You will keep one installation continually updated on Digital Ocean, just like many of our clients. But you need to choose where you would like to test other installations. TODO: We need to list some benefits of each choice here.
 
 1. [ ] Submit an issue on the [GitLab infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues/) titled 'Add <name> as a developer in Digital Ocean'.
-1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/knowledge-base/general/local_test_env.html)
+1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/sop/general/local_test_env.html)
 1. [ ] Choose your preferred test environment between Local VM's or Digital Ocean and put it in a comment below.
 
 Installation from source is not common but will give you a greater understanding of the components that we employ and how everything fits together.
@@ -151,7 +152,7 @@ _Typically started in first week, and completed by the end of the fourth week_
 
 Zendesk is our Support Centre and our main communication line with our customers. We communicate with customers through several other channels too, see the support handbook for the full list.
 
-1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled.
+1. [ ] Ask different people in your team if they would be willing to do a 45 minute screen share with you as they answer tickets on Zendesk, thinking out loud as much as they can and answering your questions. Continue with the rest of the list while you wait for these to get scheduled. Make comments on this issue noting who each Zendesk screen share was with
   1. [ ] call with ___
   1. [ ] call with ___
   1. [ ] call with ___
@@ -209,7 +210,7 @@ _Typically start this in week 2 or 3, complete by end of week 4._
 Look at the `GitLab Support` Google Calendar to find customer calls you can listen in on. Contact the person leading the call to check if it is okay for you to jump in on the call, and if they could stay on with you for a few minutes after the call, for you to ask them a few questions about things you didn't understand, and them to ask you a few questions to make sure you understood the items they want you to take away.
 
 1. [ ] Hiring Manager: make sure that the new team member has a "Pro" account within the GitLab team account on [Zoom.us](https://gitlab.zoom.us).
-1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call
+1. [ ] Start arranging to pair on calls with other Service Engineers. Aim to cover two of each type of call. Comment on this issue with the type of call you were in, who it was with, and the link to the relevant ticket (if one exists)
    1. [ ] [Learn about Cisco WebEx](https://about.gitlab.com/handbook/support/onboarding/#webex)
    1. [ ] Training calls
      1. [ ] call with ___

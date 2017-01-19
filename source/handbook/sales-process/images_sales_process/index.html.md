@@ -71,13 +71,13 @@ Opportunities will follow the following rules:
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
-1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
+1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased, or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Adding Products to an Opportunity <a name="products"></a>
 
 1. When creating an opportunity, you will be required to add in a product for the opportunity.
 1. Select the product the prospect is interested in.  The product you choose should match the plan you added in the Opportunity Name.
-    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.
+    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24, and 36 month product.
     * Please note that the discount (10% for 24 month pre-paid and 15% for 36 month pre-paid) has already been applied to the product amount when you select it. You may change the sales price of the pack if you are giving a further discount or if no discount at all.
 1. If selling more than one pack, please note the number of packs you are selling in the quantity field.
 1. Once you select a product you can edit the quantity and the sales price.
@@ -89,7 +89,7 @@ Opportunities will follow the following rules:
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
 1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
-1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
+1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance, and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 
@@ -123,7 +123,7 @@ Once the above has happened, please make sure the following actions are done:
 1. Make sure opportunity amount matches amount in Recurly
 1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
 1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us.
-1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
+1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24, or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. Create a task 30 days later, to check in with Account to make sure they are happy, address any questions they have and to explore any growth opportunity in the account.  Example: new divisions, more users on the existing team.
     * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
@@ -145,7 +145,7 @@ Once you close a deal that includes Premium Support, you need to:
 #### Credit Card orders via Recurly
 1. Order comes in via email from recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
-1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
+1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact, and opportunity for the name on the invoice.
 1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)
     * Add to subscribers group (to add subscribers, you need access)
       1. Click the green button to the right “Add members”
@@ -187,7 +187,7 @@ Once you close a deal that includes Premium Support, you need to:
     * Update subscription to start one year from current renewal time
 1. If standard subscriber, add to subscribers group
 1. License keys auto-generated
-1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
+1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact, and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 
 #### Renewals

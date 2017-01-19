@@ -22,6 +22,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Backend](/handbook/backend)
   * [Edge](/handbook/edge)
   * [UX](/handbook/ux)
+  * [Build](/handbook/build)
 * [Marketing](/handbook/marketing)
   * [Content Team](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
@@ -44,7 +45,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Making Gifs](/handbook/product/making-gifs)
   * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
-* [Miscellaneous](/handbook/miscellaneous)
+* [Secret Santa](/handbook/secret-santa)
 
 ----
 
@@ -72,11 +73,11 @@ public we can reduce the threshold to contribution and make collaboration easier
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
 Everything we do is public by default, for example, the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them.
-There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines).
+There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines) with the text 'not public by default are'.
 On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 1. **Efficiency**: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
-We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. Give short answers to verbal questions so the other party has to opportunity to ask more or move on.
+We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. Give short answers to verbal questions so the other party has to opportunity to ask more or move on. And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense.".
@@ -132,12 +133,13 @@ people. We try to hire people who think work is a great way to express themselve
 1. For each action or comment, it helps to ask yourself (i) does this help the company achieve its strategic goals? (ii) is this in the company's interest, and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
-1. If you fix something for GitLab.com or one of our users, make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the same default settings and setup our users would also have.
+1. If you fix something for GitLab.com or one of our users, make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the same default settings and setup our users would also have, if we deviate from it we should add it to the [settings page for GitLab.com](https://about.gitlab.com/gitlab-com/settings/).
 1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include "draft" in the titles of documents. Ensure everyone can read the current state. Nothing will ever be finished.
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
 1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook."
+1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook.".
+1. Also see our [leadership guidelines](https://about.gitlab.com/handbook/leadership/#guidelines).
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Handbook Usage
 {: #handbook-usage}
@@ -235,7 +237,7 @@ This also helps prevent spam from people outside GitLab requesting accessing to 
 **Video Chats**
 
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during
+1. Having pets, children, significant others, friends, and family visible during
 video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say "Hi".
 
@@ -267,7 +269,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions, submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned to an issue but don't have time to work on it, assign it to someone else. If nobody is assigned to an issue and it is not a priority, please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: Is there a team member waiting for the answer? What is the impact if you delay it? How many people does it affect, etc.? This is detailed in [Engineering Workflow](/handbook/engineering/workflow).
-1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). We do still use some private issue trackers on our internal dev.gitlab.org server, such as for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
+1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). Issue trackers that can be found on the relevant page in the handbook and in the projects under [the gitlab-com group](https://gitlab.com/gitlab-com/).
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
@@ -293,8 +295,8 @@ step, **re-assign** the issue to that person.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
 1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in one of these issues.
-1. It you notice that the tests for the master branch of GitLab CE are failing (red) or broken (green as a false positive), fixing this takes priority over everything else development related, since everything we do while test are broken may break existing functionality, or introduce new bugs and security issues. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, create an issue, post about it in `#development`, and `@mention` the Backend Leads and CTO in the issue and on Slack, so that they are aware of it, the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
-1. It you find or are alerted of a security issue, major or small, fixing this takes priority over everything else development related. Create an issue, post about it in `#development`, and `@mention` the Backend Leads and VP of Engineering in the issue and on Slack, so that they are aware of it. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, communicate this to them, so that the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
+1. If you notice that the tests for the master branch of GitLab CE are failing (red) or broken (green as a false positive), fixing this takes priority over everything else development related, since everything we do while test are broken may break existing functionality, or introduce new bugs and security issues. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, create an issue, post about it in `#development`, and `@mention` the Backend Leads and CTO in the issue and on Slack, so that they are aware of it, the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
+1. If you find or are alerted of a security issue, major or small, fixing this takes priority over everything else development related. Create an issue, post about it in `#development`, and `@mention` the Backend Leads and VP of Engineering in the issue and on Slack, so that they are aware of it. If the problem cannot be fixed by you within a few hours, because if it is too much work for one person and/or you have other priorities, communicate this to them, so that the problem can be properly investigated, and the resources can be assigned to fix it as quickly as possible.
 
 ### Team Call
 
@@ -310,12 +312,10 @@ step, **re-assign** the issue to that person.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if it is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
-1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, People Ops, Finance, Development, Front-end, and UX/UI. Please limit the updates to 10 minutes or less.
-   * We also encourage team members who are not the head of the department to give the functional group update. This will support professional development as well as give the organization a different view of what that department is working on.
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
-1. The sequence of asking people is in order of joining the company, as shown on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
+1. The sequence of asking people is in a random order where each team member is assigned a day. Since we are growing rapidly, team members share their weekend update every two weeks. Days are split into group A and group B, which alternates depending on the week. People Ops will denote on the agenda which group will share that day. New team members will share every week for the first three months on Wednesdays. If there are non-team page people in the call we end with those.
 1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. The last person wishes everyone a good day.
@@ -364,9 +364,12 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Video Calls
 
-1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer Zoom (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer [Zoom](https://gitlab.zoom.us/) (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
+   1. If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Ops as described [below specifically for Zoom](#zoom).
+   1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" source:domain`.
+   1. Note also that after a meeting ends, Zoom may take some to process the recording before it is actually available. The sync to Google Drive happens on the hour mark, so if the recording is not available, it may take another hour to be transferred.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
@@ -496,8 +499,9 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
-    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
-    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals and local travel while visiting may not be covered out of fairness to the people being visited.
+    *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
+    *  Holiday Party Budget: 50 USD per person. We encourage team members to self organize holiday parties with those close by.
+    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
@@ -510,7 +514,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. As part of onboarding you will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  For step by step instructions on creating, submitting, and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
     *  If you are an employee with a company credit card, your company credit card charges will automatically be fed to a new Expensify report each month. Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
    * **Expense Policy**
       * Max Expense Amount - 5,000 USD or 5,000 EUR
@@ -598,7 +602,7 @@ To claim the approved award, include a line item on your expense report or invoi
 
 Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
 When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
-If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
+If you need to sign, fill out, send, or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
 1. Names and email addresses of those who need to sign the document.
 1. Any contractual information that needs to be included in the document.
@@ -637,7 +641,7 @@ a while? Now you can have lunch together.
 
 Understanding that working remotely leads to mostly work-related conversations
 with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week**
-to having social calls with any GitLab employee - get to know who you work with,
+to having social calls with any teammate - get to know who you work with,
 talk about everyday things and share a virtual cuppa' coffee. We want you to make
 friends and build relationships with the people you work with to create a more comfortable,
 well-rounded environment. The Coffee Break calls are different to the
@@ -688,17 +692,32 @@ During a presentation or screen share, you might want to disable your notificati
 
 The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
-### Google Calendar Guest Modify Event Default
+### Google Calendar
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
+Add a filter to remove invites responses from your inbox with the following query:
+
+`*.ics subject:("invitation" OR "accepted" OR "rejected" OR "updated" OR "canceled event" OR "declined") when where calendar who organizer`
+
 ### Zoom
 
-To set up a Zoom meeting, sign up for a free [Basic account](https://zoom.us/pricing), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need to be able to organize calls longer than 40 minutes using Zoom, contact People Ops to be granted a [Pro account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro). By default, only Service Engineers and members of the Sales team are given Pro accounts during onboarding since their job routinely involves making video calls with (potential) customers.
+To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom.us/signup), and share the link for your "personal meeting room" with your participants. Note that on the Basic license, meetings are capped at 50 people, and meeting durations are capped at 40 minutes. If you need to be able to organize calls longer than 40 minutes using Zoom, contact People Ops to be granted a [Pro account](https://about.gitlab.com/handbook/people-operations/sop/#make-zoom-pro). By default, only Service Engineers and members of the Sales team are given Pro accounts during onboarding since their job routinely involves making video calls with (potential) customers.
 
-To record the meeting, simply click on record, which will save an .mp4, .mp3, and .txt files for chat, to your local hard drive.
+To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
+Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
-_Please add instructions on how to add the resulting video to our YouTube channel._
+### Google Cloud
+
+All users with a gitlab.com e-mail account have access to an internal Google
+Cloud project called `gitlab-internal`. To access this, login to the [Google
+Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
+
+Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
+remove any resources that you are not using, since the company is [billed
+monthly](https://cloud.google.com/pricing/). If you are unable to create a
+resource due to quota limits, file an issue on the [Infrastructure
+Tracker](https://gitlab.com/gitlab-com/infrastructure).
 
 ### Gmail
 
@@ -716,9 +735,6 @@ or merge request.
    as "Mentioned"
 1. Check "Also apply filter to matching conversations."
 1. Click "Create filter"
-
-If your username on dev.gitlab.org is different from your username on
-GitLab.com, you might want to create a similar filter for that username as well.
 
 #### Advance
 
@@ -816,7 +832,7 @@ If you are working on multiple GitLab instances and want to have a visual differ
 to be just `mary`.
 - **Note:** each GitLab account is tracked by an **userID**, which is a number stored in
 a database. If we change the username, the userID does not change. And all the
-permissions, issues, MRs and relevant stuff within GitLab are related to your
+permissions, issues, MRs, and relevant stuff within GitLab are related to your
 **userID**, not with your username.
 - **Note:** if you are not a GitLab Team member, the same process applies; except
 your e-mail ([STEP 2](#change-username-step-2)), which will be different
@@ -855,7 +871,7 @@ the same time.
 - Look for your username. This operation has to be done quickly, otherwise you are
 risking to loose your awesome new username to someone else quicker than you. We
 need to **swap** the usernames between both accounts, so you'll keep all your
-history, your privileges, issues and MRs assigned to you, etc.
+history, your privileges, issues, and MRs assigned to you, etc.
 - If you work with 2 monitors, open each browser on one monitor. If you don't,
 open them in parallel, so that you can keep an eye on both at the same time.
 - Rename your new username `mary` to something like `mary-1` and DO NOT click

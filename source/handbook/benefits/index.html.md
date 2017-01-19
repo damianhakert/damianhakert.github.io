@@ -71,7 +71,7 @@ enroll in optional plans and flexible spending accounts._
 
 TriNet partners with leading carriers, like Aetna, Florida Blue, Blue Shield of
 California and Kaiser, to offer a broad range of medical plans, including high
-deductible health plans, PPOs and HMOs. Medical plan options vary by state, and
+deductible health plans, PPOs, and HMOs. Medical plan options vary by state, and
 may also include regional carriers.
 
 #### Dental
@@ -89,7 +89,7 @@ you can choose the best plan and carrier for your individual vision needs.
 The Company pays 100% of premiums for medical, 100% of premiums for dental and
 100% of premiums for vision coverage for employee. In addition, the Company
 funds 50% of premiums for medical, 50% of premiums for dental and 50% of premiums
-for vision coverage for spouse, dependent and domestic partner. These contribution
+for vision coverage for spouse, dependent, and domestic partner. These contribution
 amounts are capped at:
 
 | Insurance                          | Company Contribution Cap |

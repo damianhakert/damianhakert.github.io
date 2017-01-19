@@ -1,5 +1,23 @@
+- name: Architect Group
+  image: /images/resellers/ArchitectGroup.svg
+  region: APAC
+  content: |
+    ArchitectGroup, Inc. is a leading solution provider of embedded and quality, validation, and verification drove solutions in Korea, servicing diverse industries and major companies.
+
+    소프트웨어 기반 기술 전문 컨설팅 업체로 시작한 아키텍트그룹은 각 기술 분야의 전문가(Technician)들로 구성되어 있으며, 고객의 비즈니스 환경을 이해하고 다음세대의 가치(Value)와 혁신(Innovation)을 위한 IT 인프라 구축과 기술 서비스를 제공하고 있습니다. 단순한 일회성 전략 컨설팅이 아닌 소프트웨어 기반 기술 전문 컨설팅 업체로서 기술 변화에 대한 정확한 혜안(慧眼)을 가지고, 주어진 환경(System)에서 높은 가치(Value)를 생산할 수 있는 구체적인 전략과 구현 기술을 갖고자 항상 노력하겠습니다.
+  email: GitLab@ArchitectGroup.com
+  contact:
+    - address: 서울, 대한민국
+      phone: +82 (02) 555-4847
+    - website: http://architectgroup.com/portfolio-item/gitlab/
+  social:
+    - type: facebook
+      url: https://www.facebook.com/openarchitect/
+    - type: youtube
+      url:  https://www.youtube.com/GoArchitectGroup/
 - name: Vertical Sysadmin
   image: /images/resellers/vsa_logo_blue.jpeg
+  region: NA
   content: |
     Vertical Sysadmin increases competence of the professionals supporting the IT fabric of modern civilization so that society lasts! We specialize in delivering effective training on excellent technologies.
   email: GitLab@VerticalSysadmin.com
@@ -18,9 +36,10 @@
       url: https://www.linkedin.com/company/6425144
 - name: ALMtoolbox
   image: /images/resellers/alm-toolbox-logo.png
+  region: NA-EMEA
   content: |
     ALMtoolbox provides services and add-on solutions focused on ALM, DevOps, SCM, IT and Continuous Integration for a variety of customers in many industries, including finance, IT, telecom, security, medical devices and more.  The company was founded in 2009 and has won 6 international awards for its contributions to the software community.
-    
+
     <p class="text-right">החברה מפתחת ומספקת מגוון פתרונות לבעיות נפוצות במחזור חיי הפיתוח, באמצעות מוצרי מדף, פיתוח מותאם, שירותי יעוץ ומכירת כלים. החברה נוסדה בשנת 2009 ולה נסיון רב בעבודה מול מאות לקוחות בארץ ובחו"ל, בתחומי בנקאות, טלקום, IT, בטחון, מכשור רפואי ועוד. במהלך השנים זכתה החברה ב- 6 פרסים בינ"ל על תרומתה לקהילת מפתחי התוכנה בעולם.</p>
   email: GitLab@almtoolbox.com
   contact:
@@ -42,6 +61,7 @@
       url: https://www.youtube.com/c/almtoolbox
 - name: LSD Information Technology
   image: /images/resellers/LSD_logoV2.png
+  region: EMEA
   content: |
     LSD has the core belief is that the only foundation of real business is service. LSD is able to provide the highest levels of service through our dedication to understanding, solving and meeting client requirements and challenges, while maintaining the highest levels of commitment to the promotion, training and use of OSS in Southern Africa. To enable us to consistently deliver on our core belief we put the time, effort & energy into our culture, so that we attract the rock stars of the open source world - people who are committed, excited and passionate about open source. We are also committed to giving back to the communities that have supported us, and work hard to be an active part of building a stable and professional open source community in South Africa.
   email: GitLab@LSD.co.za
@@ -62,6 +82,7 @@
       url: https://www.linkedin.com/company/516188?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A516188%2Cidx%3A3-1-3%2CtarId%3A1470297636693%2Ctas%3Alsd%20inf
 - name: Lyra Infosystems
   image: /images/resellers/lyra-logo.svg
+  region: APAC
   content: |
     Lyra is a recognized leader as Open Source Solution Enabler in Asia. We offer comprehensive suite of best-in-class technologies, solutions, support and services to software consuming organizations. Leading enterprises rely on our expertise to maximize their productivity and minimize risk by optimizing their SDLC processes. Our strategic consulting and services deliver high quality, on-demand solutions.
   email: GitLab@LyraInfo.com
@@ -70,7 +91,7 @@
       phone: +91 (80) 40408181
     - address: Gurugram/HR, India
       phone: +91 (124) 4206939
-    - address: Mumbai, MH, India
+    - address: Mumbai/MH, India
       phone: +91 (22) 66089618
     - address: Singapore
       phone: +65 6809 7539
@@ -100,6 +121,7 @@
 #    - website: http://blog.naver.com/mousoft
 - name: InTENSO
   image: /images/resellers/intenso-logo.svg
+  region: EMEA
   content: |
     IT Experts provides a wide range of IT solutions for more than 5 million people from 104 countries all over the world. We believe that these people trust us, not only for the reason that we create IT products or provide services, but we are also in the position to support the development of innovative business models, provide continuous growth and operational excellence.
 
@@ -123,6 +145,7 @@
       url: https://plus.google.com/+InTENSOpl-IT-Enterprise-Solutions/
 - name: Instruct
   image: /images/resellers/instruct-logo.png
+  region: LA
   content: |
     Instruct offers IT infrastructure solutions focused on automation, configuration management and agile principles. Our highly qualified team helps organizations improve their workflow when deploying applications and new services, enabling them to save time and reduce costs and errors. Our services include: DevOps consulting, Infrastructure automation, Continuous integration and delivery development.
 
@@ -143,6 +166,7 @@
       url: https://facebook.com/instructbr
 - name: Softmart
   image: /images/resellers/softmart-logo.svg
+  region: EMEA
   content: |
     Softmart provides professional services mostly in ALM and ITSM areas in Russia helping organizations to adopt Process management, Continuous Integration, Continuous Deployment, Change and Release Management best practices while approaching DevOps or ITIL targets.
 
@@ -160,6 +184,7 @@
       url: https://www.linkedin.com/company/softmart-ltd
 - name: C&S Information Technology
   image: /images/resellers/c-s-logo.svg
+  region: APAC
   content: |
     Shanghai C&S Information Technology Co.,LTD was founded on December 2010. We provide software system development , implementation, and maintenance service for enterprises in China and overseas. Our service purpose is customer first, we provide software information system and development services, and win a good reputation from customers.
 
@@ -174,6 +199,7 @@
       url: https://gitlab.com/u/SHCSINFO
 - name: Pivotal Cloud Foundry
   image: /images/resellers/pivotal-logo.svg
+  region: NA-EMEA-APAC
   content: |
     Pivotal transforms how the world builds software. We enable the leading companies in the world to transform with a modern approach focused on building—not buying—software. We overcome challenges associated with lengthy enterprise IT cycles by accelerating application delivery, coupled with good software practices that include git-based source code control (gitlab), test driven development and continuous integration and deployment. We develop better products, together, using a proven methodology and the most powerful continuous innovation platform. Pivotal is changing the world by building great software companies.
   email: isv@pivotal.io
@@ -186,8 +212,9 @@
       url: https://twitter.com/pivotalcf
 - name: Perforce
   image: /images/resellers/Perforce_Logo.png
+  region: NA-EMEA-APAC
   content: |
-    If you’re a Perforce user, or considering Perforce, and want the power of Helix for easier project management, simple DevOps integration, and greater security through narrow cloning, but are also committed to supporting various Git users, then you should consider GitSwarm, the Git management ecosystem that is enterprise ready out of the box. Empower your developers with intuitive, native workflows they’ll love while increasing project efficiency that your management team will covet. 
+    If you’re a Perforce user, or considering Perforce, and want the power of Helix for easier project management, simple DevOps integration, and greater security through narrow cloning, but are also committed to supporting various Git users, then you should consider GitSwarm, the Git management ecosystem that is enterprise ready out of the box. Empower your developers with intuitive, native workflows they’ll love while increasing project efficiency that your management team will covet.
   email: Sales@Perforce.com
   contact:
     - website: https://www.perforce.com/gitswarm
@@ -198,6 +225,7 @@
       url: https://www.linkedin.com/company/perforce-software
 - name: ReleaseTEAM
   image: /images/resellers/release-team-logo.png
+  region: NA
   content: |
     ReleaseTEAM is a veteran owned DevOps consulting firm. We help with Development and Deployment tool implementations, migrations, tool evaluations and software sales with tools from requirements to deployment. We have established best of breed partnerships that allow us to have a unique expertise in helping our clients with problems or assessing their environments to identifying areas for improvement.
   email: GitLab@ReleaseTEAM.com

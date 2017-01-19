@@ -35,6 +35,20 @@ The right candidate will play a critical role in the creation and execution of a
 * Have history of working with and driving revenue within NSF, DOE Labs, DoD and Intel
 * A security clearance is a plus
 
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with our CRO
+* Candidates will then be invited to schedule a second interview with our CRO
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+This process may be subject to slight variation. Expect 2-3 business days between each step. Additional details about our process can be found on our [hiring page](/handbook/hiring).
+
 Avoid the [confidence gap](http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/); you do not have to match all the listed requirements exactly to apply. Our hiring process is described in more detail in our [hiring handbook](https://about.gitlab.com/handbook/hiring/).
 
 Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/).

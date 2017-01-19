@@ -61,6 +61,8 @@ We would love to help but we want to make sure the content is radiated as wide a
 1. Our marketing department will work to publish the post.
 1. A great examples of this in action are the first two times we did this [https://about.gitlab.com/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/](https://news.ycombinator.com/item?id=12615723) and [https://news.ycombinator.com/item?id=12615723](https://news.ycombinator.com/item?id=12615723). Both got to nr. 1 on [Hacker News](https://news.ycombinator.com/).
 
+Alternatively we can also make it a YouTube live event, people can ask us questions in the chat during the event, and we can share the recording later.
+
 The EA should follow up to make sure the draft post is submitted.
 
 ## Email
@@ -69,7 +71,7 @@ The EA should follow up to make sure the draft post is submitted.
 * Labels: /archive, /respond or /urgent-important
 * Prepare draft responses
 * Standard reply for recruiters:
-“We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
+“We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](https://about.gitlab.com/jobs/#no-recruiters)”
 
 ## Scheduling
 {: #scheduling}

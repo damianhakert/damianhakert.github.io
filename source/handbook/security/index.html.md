@@ -57,6 +57,7 @@ title: Security Handbook
    visit can already be used to execute a [0-day attack]. We simulate phishing
    attacks by having an external service send emails to our company email
    addresses to ensure everyone is aware of the threat.
+1. If you get strange emails personally or other things related to security feel free to ask our security people for help, [they might be aiming for the company](https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b).
 1. The CEO will not send you an [email to wire cash]. Feel free to verify any
    unusual requests with a video call.
 1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
@@ -272,6 +273,8 @@ To enable TOTP for a saved account:
 Please refer to the [1Password blog] for more information on how TOTP works.
 
 [1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
+
+If scanning of QR code using the tranparent window with 1Password Mac app fails on a recent Mac OS, please consider to use 1Password iOS app which could do the same and support Touch ID to login.
 
 ### Example Usage<a name="1password-example-usage"></a>
 
