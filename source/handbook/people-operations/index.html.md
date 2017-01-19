@@ -106,12 +106,12 @@ If you change your address, you should let GitLab know the new address within a 
 To promote one of your direct reports, a manager should follow the following steps:
 
 - Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance, not based on potential). If the criteria for promotion are not adequately described on the relevant job description page, then work on that first.
-- Manager must obtain agreement from their own manager(s), all the way through the chain of command to the respective executive team member.
-- Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator.
+- Manager must obtain agreement from their own manager(s), all the way through the chain of command to the CEO.
+- Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator. Don't send the promotion-proposal to the CEO until this part is included.
 - Once written agreement is reached on the promotion and changes (if any) in compensation, the manager informs the individual.
 - Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/sop/#processing-changes) in relevant administrative systems.
-- Promotions are then announced by the manager on the team call, including a link to the merge request where the individuals title is updated on the team page.
-- If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [dev server] to list and track progress on those topics.
+- Promotions are then announced by the manager on the team call; where the manager describes how the individual met the promotion criteria and includes a link to the merge request where the individuals title is updated on the team page.
+- If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [GitLab Organization issue tracker](https://gitlab.com/gitlab-com/organization/) to list and track progress on those topics.
 
 ## Administrative details of benefits for US-based employees
 {: #benefits-us}
