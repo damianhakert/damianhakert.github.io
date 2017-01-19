@@ -28,7 +28,6 @@ title: "Sales Handbook"
 * [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
-* [Sales demo script](/handbook/sales/demo/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
 * [Demo: Idea to Production](/handbook/sales/idea-to-production-demo)
 
@@ -52,6 +51,18 @@ title: "Sales Handbook"
    * When done with a point mention the subject of the next item and hand over to the next person.
    * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
 1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the sales team agenda and the links from there.
+
+### Market segmentation
+Sales segments the market based on IT or [TEDD](https://discoverorg.com/discoverorg-sales-intelligence-platform/data-sets-for-marketing-sales-and-staffing/technology-engineering-design-and-development-tedd-dataset/) employees
+1. Strategic - 5000+ employees
+2. Large - 750 - 4999 TEDD employees
+3. Mid Market - 100 - 749 TEDD employees
+4. SMB - less than 100 TEDD employees
+
+We have two sales positions focused on selling into these markets.
+1. Sr. Account Executive for Strategic and Large Accounts
+2. Account Executive for Mid Market Accounts
+3. SMB is our transactional business, managed by the Business Development Team and processed through our web portal.
 
 ### GitLab Version Check
 
