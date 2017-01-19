@@ -597,7 +597,7 @@
 - name: Pablo Carranza
   locality: Zamora
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/production-lead/">Production Lead</a>
   reports_to: VP of Engineering
   picture: pablo.jpg
   twitter: psczg
