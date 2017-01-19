@@ -3,8 +3,8 @@ layout: job_page
 title: "Production Lead"
 ---
 
-The Production Lead reports to the VP of Engineering. Production engineers
-and performance specialists reports to the Production Lead.
+The Production Lead reports to the Infrastructure Director. Production engineers
+report to the Production Lead.
 
 ## Responsibilities
 
