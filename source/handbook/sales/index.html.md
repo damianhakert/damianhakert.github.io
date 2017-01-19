@@ -54,10 +54,10 @@ title: "Sales Handbook"
 
 ### Market segmentation
 Sales segments the market based on IT or [TEDD](https://discoverorg.com/discoverorg-sales-intelligence-platform/data-sets-for-marketing-sales-and-staffing/technology-engineering-design-and-development-tedd-dataset/) employees
-1. Strategic - 5000+ employees
-2. Large - 750 - 4999 TEDD employees
-3. Mid Market - 100 - 749 TEDD employees
-4. SMB - less than 100 TEDD employees
+1. Strategic: 5000+ employees
+2. Large: 750 - 4999 employees
+3. Mid Market: 100 - 749 employees
+4. SMB: less than 100 employees
 
 We have two sales positions focused on selling into these markets.
 1. Sr. Account Executive for Strategic and Large Accounts
