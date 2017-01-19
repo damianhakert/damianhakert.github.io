@@ -956,7 +956,9 @@
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
-  maintains: Community writers program
+  maintains: |
+              <li><a href="/handbook/marketing/blog/community-writers/">Community Writers Program</a> Lead</li>
+              <li><a href="/handbook/marketing/developer-relations/technical-writing/markdown-guide/">Markdown Kramdown</a> <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
