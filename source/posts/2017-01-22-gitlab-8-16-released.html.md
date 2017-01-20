@@ -1,12 +1,16 @@
 ---
 title: "GitLab 8.16 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+Last month we've showed you a glimpse of the future of development:
+in a few minutes from nothing to deploying to a Kubernetes cluster from a
+GitLab instance with auto-scaling. That seemed hard to do if you were not
+willing to set up your own Kubernetes cluster. With GitLab 8.16,
+you can do it _right now_ on Google Container Engine. Let me show you:
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
