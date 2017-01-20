@@ -105,7 +105,7 @@ body {
     text-align: center;
 
     > img {
-      margin: 0 11px 40px 11px;
+      margin: 0 11px 40px;
 
       @media (min-width: $screen-sm-min) {
         float: none;
@@ -141,6 +141,7 @@ body {
     font-size: 18px;
     font-weight: 300;
   }
+
   .features-description {
     margin-top: 40px;
   }

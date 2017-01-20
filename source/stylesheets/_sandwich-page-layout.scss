@@ -297,7 +297,8 @@
   margin-top: 40px;
   text-align: left;
 
-  .col-sm-2, .col-sm-10 {
+  .col-sm-2,
+  .col-sm-10 {
     float: left;
   }
 
@@ -341,6 +342,7 @@
   h4 {
     margin-top: 0;
   }
+
   @media(max-width: $screen-md-max) {
   }
 }
