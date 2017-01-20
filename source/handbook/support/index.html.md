@@ -180,7 +180,7 @@ the ["fix4all" rotation page](/handbook/engineering/fix4all).
 Every now and then, it may occur that we come close to breaching our SLAs.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several "Support Turbo" developers who are denoted on the [Team Page](https://about.gitlab.com/team/).
-Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
+Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person. Anyone within the support team can call turbos when there is a need for it. Turbos can be called by pinging them on slack either individually or with `@turbos`.
 
 The support team calls for help when necessary via Slack, but in case of doubt or
 conflicting priorities, the respective team lead or VP of Engineering needs to give the green light for the
@@ -197,6 +197,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
    - Do not [assign tickets](https://support.zendesk.com/hc/en-us/articles/203690956) to the generic agent account. Leave the assignee as the "group", otherwise these tickets will get lost.
+   - Please remember that people may pick up any ticket after you've replied. Adding any issues, docs, or follow-up expections for a reply as an internal comment would be really beneficial for the person picking it up after you.
 
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
