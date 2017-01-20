@@ -17,9 +17,77 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
-## feature 2
+## Time Tracking API
+
+## Time Tracking in CE
 
 > [Documentation link](link)
+
+### Removing your approval in EE merge requests
+GitLab EE already supports merge request approvals. As an approver, clicking approve means that you've committed to that action. But people tell us that there are many scenarios where they may want to undo approvals Perhaps an approver saw something in the code diff that they missed earlier. Or maybe another approver brings up another point of discussion, and so the approver wants to remove their approval in the mean time, and apply it back later. With 8.16, you can now do that. You simply click in the merge request widget to remove a previously made approval. As expected, system notes in the merge request thread are recorded and notification emails are sent for both approving and removing approvals.
+
+### Monitoring GitLab with Prometheus
+
+We have outlined a [bold vision](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/)
+for making world class monitoring easier for everyone, and with 8.16 we have
+taken our first step towards that goal. In this release we have included
+[Prometheus](https://prometheus.io) and it's
+[Node Exporter](https://github.com/prometheus/node_exporter) as part of our
+Omnibus package. This will provide high quality time-series monitoring of your
+GitLab server.
+
+Both Prometheus and Node exporter are off by default for this release, but we
+plan on having them on by default starting with GitLab version 9.0.
+To enable monitoring now, simply [enable the features](https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html) and reconfigure GitLab.
+
+## Allow to add deploy keys with write-access. [!5807]
+
+## Introduce a new `/merge` slash command for merge requests. [!7746]
+
+#### Streamlining project settings and navigation
+
+Here at GitLab we add features quickly. So every now and then we re-visit and streamline our settings and navigation to accommodate. In the screenshot of 8.15, you see that the project settings dropdown menu has many items. Furthermore, you may find it confusing that the menu itself is located far away from the rest of the tabbed navigation toward the center of the page. In the next few releases, we will be streamlining that navigation, and combining settings pages appropriately. With 8.16 we are just starting, by combining the `Members` and `Groups` menu items into just one, called `Members`. Navigating to that page will show the two previous pages combined into one. Similarly, we combined `Webhooks` and `Services` together into `Integrations`.
+
+## Record and show last used date of SSH Keys. [!8113]
+
+## More storage statistics
+
+#### GitLab Mattermost 3.6
+
+GitLab 8.16 includes [Mattermost 3.6](https://about.mattermost.com/mattermost-3-6), [an open source Slack-alternative](https://about.mattermost.com/) whose newest release offers improved multi-team deployment, an early version of emoji reactions, an improved command line interface and much more.
+
+This version includes [security updates](http://about.mattermost.com/security-updates/) and upgrade is recommended.
+
+## Amazing community contributions
+
+For 8.16, we merged 50 merge requests from the community, including new
+features, bug fixes, or even backstage improvements!
+
+The most noticeable contributed changes are as follows:
+
+- Allow to add deploy keys with write-access. [!5807]
+- Allow to use `+` symbol in snippet filenames. [!6644]
+- Order projects by latest activity in the "Go to a project" quick switcher. [!7737]
+- Introduce a new `/merge` slash command for merge requests. [!7746]
+- Add storage statistics for build artifacts, and LFS objects. [!7754]
+- Log LDAP blocking/unblocking events to application log. [!8042]
+- Allow to use ENV variables in the Redis config. [!8073]
+- Record and show last used date of SSH Keys. [!8113]
+- Add support for PlantUML diagrams in Asciidoc. [!8537]
+- Expire related caches after changing HEAD. [!8584]
+- Autoresize markdown preview. [!8607]
+
+[!5807]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5807
+[!6644]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6644
+[!7737]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7737
+[!7746]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7746
+[!7754]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754
+[!8042]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8042
+[!8073]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8073
+[!8113]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8113
+[!8537]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8537
+[!8584]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8584
+[!8607]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8607
 
 ## Omnibus GitLab package changes
 
@@ -40,20 +108,6 @@ is upgraded.
 > Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
 and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
 
-### Monitoring GitLab with Prometheus
-
-We have outlined a [bold vision](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/)
-for making world class monitoring easier for everyone, and with 8.16 we have
-taken our first step towards that goal. In this release we have included
-[Prometheus](https://prometheus.io) and it's
-[Node Exporter](https://github.com/prometheus/node_exporter) as part of our
-Omnibus package. This will provide high quality time-series monitoring of your
-GitLab server.
-
-Both Prometheus and Node exporter are off by default for this release, but we
-plan on having them on by default starting with GitLab version 9.0.
-To enable monitoring now, simply [enable the features](https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html) and reconfigure GitLab.
-
 ### Reduced package size
 
 When you download the omnibus-gitlab 8.16 package you might notice the reduced
@@ -70,13 +124,18 @@ This release has more improvements, including security fixes. Please check out
 
 [the changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
 
+## Performance Changes
+
+* Refactored note edit form to improve frontend performance on MR and Issues pages, especially pages with has a lot of discussions in it [8356](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8356)
+* Reduce DB-load for build-queues by storing last_update in Redis [8084](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8084)
+
 ## Upgrade barometer
 
+This release requires downtime.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
-
+This release migrates project related statistics to a separate table, removing
+existing columns in the process. This migration process requires downtime,
+and can take 10-15 minutes for large installations.
 
 ### Note
 
