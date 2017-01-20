@@ -7,7 +7,7 @@ image_title: '/images/blogimages/gitlab-tower-integration-puzzle.jpg'
 description: "GitLab users can now manage their accounts right within Tower – give it a try with 20% off."
 ---
 
-[Tower](http://www.git-tower.com), the popular desktop client for Mac and Windows, has launched integration with GitLab, making repository management and undoing mistakes a breeze, helping you and your team to work more efficiently. To celebrate, they're offering 20% off your order until February 15th.
+[Tower](http://www.git-tower.com), the popular Git desktop client for Mac and Windows, has launched integration with GitLab, making repository management and undoing mistakes a breeze, helping you and your team to work more efficiently. To celebrate, they're offering 20% off your order until February 15th.
 
 <!-- more -->
 
