@@ -21,6 +21,48 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
+## Omnibus GitLab package changes
+
+### PostgreSQL version upgrade
+
+As mentioned [in the 8.15 release post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/#postgresql-version-upgrade),
+omnibus-gitlab packages are equipped with `gitlab-ctl pg-upgrade` tool.
+This tool will upgrade the bundled PostgreSQL database version.
+
+Please plan the upgrade ahead of GitLab 9.0 release (scheduled for Mar. 22, 2017).
+
+The omnibus-gitlab packages for GitLab 9.0 will prevent upgrades until the database
+is upgraded.
+
+> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server)
+
+
+> Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
+and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
+
+### Monitoring GitLab with Prometheus
+
+We have outlined a [bold vision](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/)
+for making world class monitoring easier for everyone, and with 8.16 we have
+taken our first step towards that goal. In this release we have included
+[Prometheus](https://prometheus.io) and it's
+[Node Exporter](https://github.com/prometheus/node_exporter) as part of our
+Omnibus package. This will provide high quality time-series monitoring of your
+GitLab server.
+
+Both Prometheus and Node exporter are off by default for this release, but we
+plan on having them on by default starting with GitLab version 9.0.
+To enable monitoring now, simply [enable the features](https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html) and reconfigure GitLab.
+
+### Reduced package size
+
+When you download the omnibus-gitlab 8.16 package you might notice the reduced
+package size. Do not be alarmed, this is intentional.
+Even with the new addition of monitoring in the package, the size was reduced
+by almost 50MB!
+[We've been working](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1778)
+and will continue working on further size optimizations of the package.
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out
