@@ -252,6 +252,7 @@
 
   .features-description {
     .feature-contents {
+
       h4 {
         color: $color-primary-alt;
       }
@@ -296,13 +297,19 @@
   margin-top: 40px;
   text-align: left;
 
+  .col-sm-2, .col-sm-10 {
+    float: left;
+  }
+
   @media (min-width: $screen-md-min) {
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .feature-contents {
+    padding-left: 25px;
+
     h4 {
       font-weight: normal;
       color: $color-white;
@@ -331,30 +338,10 @@
     fill: $color-secondary-alt;
   }
 
-  @media (min-width: $screen-md-min) {
-    svg {
-      position: absolute;
-      top: 3px;
-      right: -20px;
-    }
+  h4 {
+    margin-top: 0;
   }
-
   @media(max-width: $screen-md-max) {
-
-    .col-md-4 {
-      margin-top: 20px;
-      padding-bottom: 35px;
-    }
-
-    .col-md-1 {
-      padding-bottom: 15px;
-    }
-
-    svg {
-      position: absolute;
-      left: 16px;
-      top: -18px;
-    }
   }
 }
 
@@ -376,11 +363,6 @@
     .slider-dots {
       margin-top: -25px;
     }
-  }
-
-
-  .feature-contents {
-    margin-top: 15px;
   }
 
   .gitlab-version-section {
