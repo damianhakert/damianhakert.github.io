@@ -1708,8 +1708,8 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative 
+  reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
   gitlab: darin
@@ -1786,8 +1786,8 @@
 - name: Brent Jensen
   locality: Springville, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead-outbound/">Business Development Team Lead - Outbound Team</a>
-  reports_to: BDR Manager
+  role: Sales Development Team Lead
+  reports_to: Regional Sales Director - US
   picture: Brent.jpg
   twitter: btwosockz
   gitlab: brentj
@@ -1831,8 +1831,8 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative
+  reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
   gitlab: Nrflynn
