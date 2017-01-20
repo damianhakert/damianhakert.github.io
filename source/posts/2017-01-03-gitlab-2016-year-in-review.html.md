@@ -165,7 +165,7 @@ GitLab 8.11 was probably the most exciting release of the year, bringing with it
 
 ### Issue Boards
 
-[Issue Boards](https://docs.gitlab.com/ce/user/project/issue_board.html) are another way of tracking project issues. Similar to existing kanban board software, issue boards integrate with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
+[Issue Boards](https://about.gitlab.com/solutions/issueboard/) are another way of tracking project issues. Similar to existing kanban board software, [issue boards integrate](https://docs.gitlab.com/ce/user/project/issue_board.html) with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
 
 ![Issue Boards](/images/8_11/issue_boards.gif)
 
@@ -193,9 +193,9 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ![Slash Commands](/images/8_11/slash-commands.gif)
 
-### Koding integration
+### Koding Integration
 
-8.11 introduces integration with [Koding](https://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser. Note that Koding integration isn't currently supported on GitLab.com, only self-hosted GitLab instances.
+8.11 introduces [integration](https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/) with [Koding](https://docs.gitlab.com/ce/user/project/koding.html), an online IDE. Koding allows users to develop and test your project without ever leaving the browser. Note that Koding integration isn't currently supported on GitLab.com, only self-hosted GitLab instances.
 
 ## September: 8.12
 
@@ -203,13 +203,13 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ### Cycle Analytics
 
-The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. See [our feature highlight](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
+The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. See [our feature highlight blog post](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
 ![Cycle Analytics](/images/8_12/cycle_analytics.png)
 
 ### Global Code Search (EE Starter)
 
-Code search was improved [Enterprise Edition Starter](https://about.gitlab.com/products/) in GitLab 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
+Code search was improved for [Enterprise Edition Starter](https://about.gitlab.com/products/) in GitLab 8.12 with the addition of Global Code Search. This allows users to search across all the repositories on an instance, and is especially useful for microservice-based architectures and for reusing code from existing projects.
 
 ### Merge Request Versions
 
@@ -249,7 +249,7 @@ We introduced [Chat Commands](https://docs.gitlab.com/ce/project_services/matter
 
 ### Review Apps
 
-A new addition to GitLab CI in this release was [Review Apps](https://about.gitlab.com/features/review-apps/). Review Apps can be used to [deploy merge requests from your GitLab instance to a dev or staging environment for testing](https://docs.gitlab.com/ce/ci/review_apps/index.html). At GitLab, we use these for testing [about.gitlab.com](https://about.gitlab.com) as well as [docs.gitlab.com](https://docs.gitlab.com).
+A new addition to GitLab CI in this release was [Review Apps](https://about.gitlab.com/features/review-apps/). Review Apps can be used to [deploy merge requests from your GitLab instance to a dev or staging environment for testing](https://docs.gitlab.com/ce/ci/review_apps/index.html). At GitLab, we use these for testing [about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com) as well as [docs.gitlab.com](https://gitlab.com/gitlab-com/gitlab-docs).
 
 For more information on Review Apps, see [our feature highlight blog post](https://about.gitlab.com/2016/11/22/introducing-review-apps/).
 
