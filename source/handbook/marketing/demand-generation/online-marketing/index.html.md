@@ -11,6 +11,7 @@ Welcome to the Online Marketing Handbook.
 * [Online Marketing Tools](#tools)
    * [Unbounce](#unbounce)
    * [Google Analytics](#ga)
+   * [Google Tag Manager](#gtm)
 
 ## URL Tagging<a name="urlTagging"></a>
 
@@ -38,10 +39,14 @@ We use a variety of tools to support the other team within the company.
 
 ### Unbounce<a name="unbounce"></a>
 
-Unbounce is for the creation of landing pages. The login information is in the marketing vault of 1Password. Currently, the only landing pages within Unbounce are for our PPC traffic. All webcast landing pages will be migrated to Unbounce, as well as landing pages for gated content (whitepapers, cheat sheets, etc.)
+[Unbounce](http://unbounce.com/) is for the creation of landing pages. The login information is in the marketing vault of 1Password. Currently, the only landing pages within Unbounce are for our PPC traffic. All webcast landing pages will be migrated to Unbounce, as well as landing pages for gated content (whitepapers, cheat sheets, etc.)
 
 Before any Unbounce landing pages are used, approval should be requested from the design team to make sure that the pages meet our brand standards.
 
 ### Google Analytics<a name="ga"></a>
 
-Google Analytics captures all the analytics for GitLab pages outside of the actual app on https://gitlab.com. If you need access to Google Analytics, you can request access from the [Online Marketing Manager](https://about.gitlab.com/jobs/online-marketing-manager/).
+[Google Analytics](https://www.google.com/analytics/) captures all the analytics for GitLab pages outside of the actual app on https://gitlab.com. If you need access to Google Analytics, you can request access from the [Online Marketing Manager](https://about.gitlab.com/jobs/online-marketing-manager/).
+
+### Google Tag Manager<a name="gtm"></a>
+
+[Google Tag Manager](https://www.google.com/analytics/tag-manager/) is used to manage the firing of the different JavaScript tags we deploy on our website. All marketing tags should be deployed through Google Tag Manager except in cases such as A/B testing software. If you need access to Google Tag Manager, you can request access from the [Online Marketing Manager](https://about.gitlab.com/jobs/online-marketing-manager/).
