@@ -39,6 +39,10 @@ body {
 }
 
 .gitlab-ee-standalone {
+  .page-container {
+    padding-top: 0;
+  }
+
   .landing-container {
     padding-top: 30px;
     background: url("/images/gitlab_ee/hero/ee-standalone-hero-2x.png") center center no-repeat;
@@ -99,15 +103,12 @@ body {
     text-align: center;
 
     > img {
-      float: left;
-      width: calc(50% - 40px);
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-bottom: 40px;
+      margin: 0 11px 40px 11px;
 
       @media (min-width: $screen-sm-min) {
         float: none;
-        width: 80px;
+        width: 170px;
+        height: 80px;
       }
     }
   }
@@ -134,10 +135,12 @@ body {
   }
 
   .section-description {
-    margin-bottom: 80px;
     color: $color-white;
     font-size: 18px;
     font-weight: 300;
+  }
+  .features-description {
+    margin-top: 40px;
   }
 }
 
