@@ -36,7 +36,7 @@ All of GitLab's blog posts begin as an issue in the [GitLab blog post project][b
 To become a community author:
 
 - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with "[up-for-grabs]"
-- Submit the first two paragraphs of the article or link to a relevant article you've written before.
+- Submit the first two paragraphs of an article or a link to a relevant article that you've written before.
 - Leave a comment "@marcia I would like to write this post, and I accept the terms on the [Community Writers Program](#)"
 
 If you don't see a topic that interests you, you can propose a new topic by
