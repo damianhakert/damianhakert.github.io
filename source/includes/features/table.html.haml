@@ -7,9 +7,9 @@
       %thead
         %tr
           %th
-          %th.ce-col Community Edition
-          %th.ee-col Enterprise Edition Starter
-          %th.eep-col Enterprise Edition Premium
+          %th.ce-col.text-center Community Edition
+          %th.ee-col.text-center Enterprise Edition Starter
+          %th.eep-col.text-center Enterprise Edition Premium
       %tbody.header.first
         - feature_block.features.each do |feature|
           %tr
@@ -17,11 +17,11 @@
               %a{href: feature.link}
                 = feature.description
             %td.ce-col.text-center
-              - if feature.in_ce
+              - if (feature.in_ce) || feature.only_in_ce
                 %i.fa.fa-check
             %td.ee-col.text-center
-              - if feature.in_ce || feature.in_ee
+              - if (feature.in_ce || feature.in_ee) || feature.only_in_ee
                 %i.fa.fa-check
             %td.eep-col.text-center
-              - if feature.in_ce || feature.in_ee || feature.in_eep
+              - if (feature.in_ce || feature.in_ee || feature.in_eep) || feature.only_in_eep
                 %i.fa.fa-check
