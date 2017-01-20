@@ -382,6 +382,18 @@ customer that documentation is lacking is not.
 - Help build a vision for GitLab and GitLab's features
 - Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
 
+### Responsibilities of the PM Enterprise Edition
+
+The Product Manager for Enterprise Edition is expected to, by order of importance:
+
+- be on top of critical issues affecting the business: everything related to licenses.
+- expend the Enterprise offering by providing features companies will want to buy
+- make sure all Editions have something new in every release
+- listen to customer feedback
+- proactively reach out to customers to validate features
+- be the go-to person to answer questions related to EE in the company
+- know the market.
+
 # Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous
@@ -455,10 +467,10 @@ feature. Describe the pain points.
 
 ## Writing release blog posts
 For every monthly release, there is a blog post announcing features. The blog post should contain anything _exciting_ or _disruptive_.
-We want to help people understand exciting features (which are often new), and increase adoption. 
-Disruptive features may change workflows or even introduce unavoidable inconveniences. 
+We want to help people understand exciting features (which are often new), and increase adoption.
+Disruptive features may change workflows or even introduce unavoidable inconveniences.
 We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-Smaller tweaks and bug fixes don't necessarily need to be mentioned, 
+Smaller tweaks and bug fixes don't necessarily need to be mentioned,
 but if interesting, can be included at the bottom of the post.
 
 # Links
