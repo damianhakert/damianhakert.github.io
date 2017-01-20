@@ -23,7 +23,13 @@
   apply:
   open: false
 
-- title: "Backend Developer"
+- title: "Backend Lead"
+  description: /jobs/backend-lead/
+  salary: 87337
+  apply: 
+  open: false
+
+- title: "Developer"
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
@@ -73,7 +79,7 @@
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
   salary: 83132
-  apply: 
+  apply:
   open: false
 
 - title: "Frontend Lead"
