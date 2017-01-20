@@ -1,12 +1,12 @@
 ---
 layout: markdown_page
-title: "OKR's and LatticeHQ"
+title: "OKRs and LatticeHQ"
 ---
 
 
-Our Objectives & Key Results (OKR's) are all to be found in [LatticeHQ](https://gitlab.latticehq.com).
+Our Objectives & Key Results (OKRs) are all to be found in [LatticeHQ](https://gitlab.latticehq.com).
 
-Use this page to find or add tips, tricks, and guidance on OKR's generally and on how to use LatticeHQ specifically.
+Use this page to find or add tips, tricks, and guidance on OKRs generally and on how to use LatticeHQ specifically.
 
 ### Child Goals vs. Key Results
 
