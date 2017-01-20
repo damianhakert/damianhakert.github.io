@@ -10,6 +10,7 @@ Welcome to the Online Marketing Handbook.
 * [Weekly Website Health Check](#healthCheck)
 * [Online Marketing Tools](#tools)
    * [Unbounce](#unbounce)
+   * [Google Analytics](#ga)
 
 ## URL Tagging<a name="urlTagging"></a>
 
@@ -40,3 +41,7 @@ We use a variety of tools to support the other team within the company.
 Unbounce is for the creation of landing pages. The login information is in the marketing vault of 1Password. Currently, the only landing pages within Unbounce are for our PPC traffic. All webcast landing pages will be migrated to Unbounce, as well as landing pages for gated content (whitepapers, cheat sheets, etc.)
 
 Before any Unbounce landing pages are used, approval should be requested from the design team to make sure that the pages meet our brand standards.
+
+### Google Analytics<a name="ga"></a>
+
+Google Analytics captures all the analytics for GitLab pages outside of the actual app on https://gitlab.com. If you need access to Google Analytics, you can request access from the [Online Marketing Manager](https://about.gitlab.com/jobs/online-marketing-manager/).
