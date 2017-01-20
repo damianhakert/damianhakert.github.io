@@ -17,20 +17,15 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## Time Tracking in CE and API
 
 > [Documentation link](link)
 
-## Time Tracking API
+## Removing your approval in EE merge requests
 
-## Time Tracking in CE
-
-> [Documentation link](link)
-
-### Removing your approval in EE merge requests
 GitLab EE already supports merge request approvals. As an approver, clicking approve means that you've committed to that action. But people tell us that there are many scenarios where they may want to undo approvals Perhaps an approver saw something in the code diff that they missed earlier. Or maybe another approver brings up another point of discussion, and so the approver wants to remove their approval in the mean time, and apply it back later. With 8.16, you can now do that. You simply click in the merge request widget to remove a previously made approval. As expected, system notes in the merge request thread are recorded and notification emails are sent for both approving and removing approvals.
 
-### Monitoring GitLab with Prometheus
+## Monitoring GitLab with Prometheus
 
 We have outlined a [bold vision](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/)
 for making world class monitoring easier for everyone, and with 8.16 we have
@@ -48,7 +43,7 @@ To enable monitoring now, simply [enable the features](https://docs.gitlab.com/o
 
 ## Introduce a new `/merge` slash command for merge requests. [!7746]
 
-#### Streamlining project settings and navigation
+## Streamlining project settings and navigation
 
 Here at GitLab we add features quickly. So every now and then we re-visit and streamline our settings and navigation to accommodate. In the screenshot of 8.15, you see that the project settings dropdown menu has many items. Furthermore, you may find it confusing that the menu itself is located far away from the rest of the tabbed navigation toward the center of the page. In the next few releases, we will be streamlining that navigation, and combining settings pages appropriately. With 8.16 we are just starting, by combining the `Members` and `Groups` menu items into just one, called `Members`. Navigating to that page will show the two previous pages combined into one. Similarly, we combined `Webhooks` and `Services` together into `Integrations`.
 
@@ -56,7 +51,7 @@ Here at GitLab we add features quickly. So every now and then we re-visit and st
 
 ## More storage statistics
 
-#### GitLab Mattermost 3.6
+## GitLab Mattermost 3.6
 
 GitLab 8.16 includes [Mattermost 3.6](https://about.mattermost.com/mattermost-3-6), [an open source Slack-alternative](https://about.mattermost.com/) whose newest release offers improved multi-team deployment, an early version of emoji reactions, an improved command line interface and much more.
 
