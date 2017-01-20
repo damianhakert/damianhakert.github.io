@@ -8,6 +8,8 @@ Welcome to the Online Marketing Handbook.
 
 * [URL Tagging](#urlTagging)
 * [Weekly Website Health Check](#healthCheck)
+* [Online Marketing Tools](#tools)
+   * [Unbounce](#unbounce)
 
 ## URL Tagging<a name="urlTagging"></a>
 
@@ -28,3 +30,13 @@ Issues to look for in each of these tools:
 * **Google Webmaster Tools**: Check the dashboard and messages for any important notifications regarding the website. Also check under `Search Traffic` > `Manual Actions` for any URLs that have been identified as spam or harmful content.
 * **Bing Webmaster Tools**: Check all the links under `Security`.
 * **Google Analytics**: Compare organic site traffic from the most previous week compared to the previous week and look for any large fluctuations.
+
+## Online Marketing Tools<a name="tools"></a>
+
+We use a variety of tools to support the other team within the company.
+
+### Unbounce<a name="unbounce"></a>
+
+Unbounce is for the creation of landing pages. The login information is in the marketing vault of 1Password. Currently, the only landing pages within Unbounce are for our PPC traffic. All webcast landing pages will be migrated to Unbounce, as well as landing pages for gated content (whitepapers, cheat sheets, etc.)
+
+Before any Unbounce landing pages are used, approval should be requested from the design team to make sure that the pages meet our brand standards.
