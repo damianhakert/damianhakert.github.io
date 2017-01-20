@@ -581,6 +581,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 
 1. If you refer a great candidate and they are hired, then you receive a $1,000 bonus
 once the new team member has been with the company for 3 months.
+1. We will double the incentive bonus for hires from underrepresented groups in the tech industry including women, racial and ethnic minorities, and veterans.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
