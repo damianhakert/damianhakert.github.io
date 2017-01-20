@@ -508,8 +508,8 @@
   gitlab: rymai
   maintains: |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="https://gitlab.com/help/user/project/slash_commands.md">Slash commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -706,7 +706,7 @@
 - name: Braden Coleman
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: Braden.jpg
   twitter: jannandbraden
@@ -729,7 +729,7 @@
 - name: Ryan Caplin
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: ryan.jpg
   twitter:
@@ -800,8 +800,9 @@
   twitter: timothyandrew
   gitlab: timothyandrew
   maintains:  |
+               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
                <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
-               <li>Branch permissions expert</li>
+               <li>Branch Permissions <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -1354,7 +1355,7 @@
 - name: Kris Touzel
   locality: Myrtle Beach, SC
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: kris.jpg
   twitter: kris_touzel
@@ -1439,7 +1440,7 @@
 - name: Dan Parris
   locality: Maryland
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: dan-picture.jpg
   twitter: _dparris
@@ -1531,7 +1532,7 @@
 - name: Kyla Gradin
   locality: Fargo, North Dakota
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: kyla.jpg
   twitter: KylaGradin
@@ -1708,8 +1709,8 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative 
+  reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
   gitlab: darin
@@ -1786,8 +1787,8 @@
 - name: Brent Jensen
   locality: Springville, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead-outbound/">Business Development Team Lead - Outbound Team</a>
-  reports_to: BDR Manager
+  role: Sales Development Team Lead
+  reports_to: Regional Sales Director - US
   picture: Brent.jpg
   twitter: btwosockz
   gitlab: brentj
@@ -1831,8 +1832,8 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative
+  reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
   gitlab: Nrflynn
