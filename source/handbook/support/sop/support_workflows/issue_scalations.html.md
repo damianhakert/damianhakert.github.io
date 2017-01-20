@@ -12,72 +12,95 @@ category: Support Workflows
 
 ----
 
-## Issue Escalations
+# Issue Escalations
 
-Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues. 
+Escalating GitLab issues correctly is an important part of providing quick and
+accurate customer support. The support team uses the processes below when
+dealing with GitLab customer issues.
 
-+ [Templates](#Templates)
-  + [Bug Report](#Bug-Report)
-  + [Feature Request](#Feature-Request)
++ [Issue Prioritization](#issue-prioritization)
 + [Functional escalation points](#Functional-escalation-points)
 + [Operational escalation points](#Operational-escalation-points)
    + [Notes](#Notes)
 + [Information Gathering](#Information-Gathering)
 
-## Templates
+When reporting a bug/regression or feature proposal, use the appropriate project
+issue template. For example, `gitlab-ce` project has 'Bug' and 'Feature Proposal'
+templates.
 
-
-### Bug Report
-
-```
-ZD: 
-
-## Summary
-
-## Reproduce
-
-## Expected
-
-## Actual
-
-## Application and environment information
-
-____________
-
-Related links:  
-
-```
-
-Required Tags: `bug`, `customer`, `customer+` for Premium subscribers.
-
-
-**Add any additional tags related to the issue reported**
+Always add labels to the issues. Use either `~bug` or `~feature proposal` and
+also add `~customer`. For certain premium subscribers, you may need to use
+`~customer+`. If there are one or more component labels that are appropriate,
+such as `~ldap`, add those, too.
 
 See [Information Gathering](#Information-Gathering) for *Application and environment information* section
 
-### Feature Request
+## Prioritization
 
+In general, the development team will prioritize all issues
+(not just customer requests) in the following order:
 
-```
-ZD:
+1. Regressions
+1. Bugs
+1. Direction/Vision
+1. Feature Proposal
 
-## Description
-Include problem, use cases, benefits, and/or goals
+### Regressions
 
-## Proposal
+A regression is something that used to work one way in the last release and
+then we made a **breaking change** and it no longer works the same way. We
+aim to fix regressions in patch releases, when possible. However, not all
+regressions are created equal - we will work to patch the high-impact ones
+first.
 
-____________
+For all regressions, add the `~regression` label. For high-impact regressions,
+also add `~"Next Patch Release"` and add the **current** development milestone.
+The **current** development milestone is the release coming up in the current
+month. This can be confusing because the regression may be for 8.15, and should
+be fixed in an 8.15 patch release. However, the developers are working in the
+8.16 milestone, so the regression should be assigned there for attention.
 
-Related links: 
-```
+### Bugs and Feature Proposals
 
-Required Tags: `feature proposal`, `customer`, `customer+` for Premium subscribers.
+By default, do not add any priority label to bugs and feature proposals. This
+will put the request in the 'backlog' at a normal priority level. This does not
+mean it will be ignored, but it means it is not high-impact.
 
-See [Information Gathering](#Information-Gathering) for *Application and environment information* section
+If the bug or feature proposal is particularly high impact, use the support
+priority labels to assign an initial priority. The labels are `~SP1`, `~SP2`,
+and `~SP3`, where `SP1` is the highest priority. These labels are applied
+in addition to the `~bug`, `~feature proposal` and `~customer` labels. Use
+priority labels sparingly - we have limited development resources.
+
+Before the next release, the scheduling team will review the support priorities
+and will choose the top few to mark as deliverable. Issues are not scheduled
+for a particular release unless the scheduling team adds them to a milestone
+*and* they are assigned to a developer. We aim to be realistic about scheduled
+deliverables and will avoid scheduling issues that cannot be delivered in a
+given release.
+
+> **Note about feature proposals:** GitLab has limited development resources.
+  Additionally, we must think about how widely applicable a feature may be to
+  other users. Requests that are very specific to one company's workflow are
+  likely to be rejected. Even if a feature seems widely applicable, we may
+  leave the feature proposal dormant for some time and see if other users
+  and customers chime in that they are also interested. Features that garner
+  interest from multiple organizations will be considered more rapidly. Of
+  course, there are always exceptions to these 'rules'. This note is meant to
+  set the expectation that feature proposals may not be implemented quickly.
+
+### General guidelines for choosing a priority label
+
+- **Urgency:** Does this break all GitLab functionally or just a small part?
+    SP1 (High) - A large part, or a fundamental part
+    SP2 (Medium)
+    SP3 (Low) - Only a small part
+- **Impact:** How many users does this impact?
+    SP1 (High) - Many users
+    SP2 (Medium)
+    SP3 (Low) - Limited number of users
 
 ## Functional escalation points
-
-
 
 | Service/Product  | Escalation Types                 | Escalation Point                                        | Assignment      |
 |------------------|--------------------------------|-----------------------------------------------------------|------------------
