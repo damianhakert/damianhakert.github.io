@@ -18,3 +18,7 @@ report to the Production Lead.
 * Provides necessary infrastructure (e.g. servers, databases, etc.) for company
 * Coordinates with the team and product managers about plan for the work in the upcoming week
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.
