@@ -67,25 +67,22 @@ TODO HOW TO USE
 [prom-docs]: https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html
 
 ## Time Tracking in CE and API
-TODO rewrite
 
-Time tracking was introduced in 8.14. Since its introduction, it has been used
-hundreds of thousands of times on issues and merge requests to record estimates
-and time spent. Due to the massive demand of the community, we have moved the
-current time tracking features to the Community Edition. You can read more about
-how time tracking works [in the documentation][time-tracking-docs].
+We [introduced][8.14-post] time tracking in GitLab 8.14 Enterprise Edition.
+Since its introduction, we've seen massive usage on GitLab.com; and many people
+argued that time tracking can also be essential for smaller teams and not just
+for enterprises. We heard you and have therefore decided to move time tracking
+to GitLab Community Edition with this release.
 
-On top of that, time tracking has now an API, which lets you achieve the same
-actions you can do with the user interface. Read the time tracking API
-documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
-and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
-to learn more.
+On top of that, time tracking has now a proper API, which lets you achieve the
+same actions you can do with the user interface. This means you can set
+estimates and record time spent on issues and merge requests.
 
-[time-tracking-docs]: https://docs.gitlab.com/ce/workflow/time_tracking.html
+[8.14-post]: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
->
-- [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
-- Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
+> [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
+
+> Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
   and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
 
 ## New issues search and filter interface
@@ -138,6 +135,22 @@ repository and more.
 Deploy keys with write access was contributed by Ali Ibrahim. Thanks Ali!
 
 [deploy-key-docs]: https://docs.gitlab.com/ce/ssh/README.html
+
+## Limit Shared Runner Usage (EE)
+
+Not only does GitLab CI scale up automatically based on demand,
+shared runners make it incredibly easy to offer CI to your entire organisation.
+In fact, it's so easy to offer CI services that we saw a need arise to be able
+to limit the usage of those shared resources.
+
+![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm1.png)
+
+With GitLab 8.16 Enterprise Edition you can limit build minutes of shared
+runners per group. Once surpassed, pipelines will no longer execute on shared
+runners. This will allow you to prevent over-usage of shared resources when
+using GitLab CI.
+
+![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm2.png)
 
 ## Introduce a new `/merge` slash command for merge requests
 
