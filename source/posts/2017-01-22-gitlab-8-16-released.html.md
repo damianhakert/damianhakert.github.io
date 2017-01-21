@@ -67,6 +67,7 @@ TODO HOW TO USE
 [prom-docs]: https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html
 
 ## Time Tracking in CE and API
+TODO rewrite
 
 Time tracking was introduced in 8.14. Since its introduction, it has been used
 hundreds of thousands of times on issues and merge requests to record estimates
@@ -154,11 +155,45 @@ GitLab has a large amount of slash commands, [view them all here][slash-commands
 
 ## Streamlining project settings and navigation
 
-Here at GitLab we add features quickly. So every now and then we re-visit and streamline our settings and navigation to accommodate. In the screenshot of 8.15, you see that the project settings dropdown menu has many items. Furthermore, you may find it confusing that the menu itself is located far away from the rest of the tabbed navigation toward the center of the page. In the next few releases, we will be streamlining that navigation, and combining settings pages appropriately. With 8.16 we are just starting, by combining the `Members` and `Groups` menu items into just one, called `Members`. Navigating to that page will show the two previous pages combined into one. Similarly, we combined `Webhooks` and `Services` together into `Integrations`.
+Here at GitLab we iterate quickly. So every now and then we re-visit and
+streamline our settings and navigation to accommodate.
 
-## Record and show last used date of SSH Keys. [!8113]
+In GitLab 8.15, the project settings dropdown menu had
+many items. Furthermore, it's confusing that the menu itself is
+located far away from the rest of the tabbed navigation toward the center of
+the page. In the next few releases, we will be streamlining that navigation,
+and combining settings pages appropriately.
 
-## More storage statistics
+![Improved settings navigation in GitLab 8.16](/images/8_16/settings_new.png)
+
+With 8.16 we are just starting, by combining the `Members` and `Groups` menu
+items into just one, called `Members`. Navigating to that page will show the
+two previous pages combined into one. Similarly, we combined `Webhooks` and
+`Services` together into `Integrations`.
+
+## Record and show last used date of SSH Keys
+
+If you have uploaded several SSH keys, it can be hard to tell which
+you've been using most recently.
+
+GitLab will now report when a SSH has been used last. Find this information
+in your profile, under keys: `/profile/keys`.
+
+Thanks Vincent Wong for contributing this useful feature!
+
+## Storage statistics
+
+Okay, we admit it, we do our best to make it easy to use a lot of disk space:
+You can use GitLab to store your build artifacts, your docker images,
+LFS objects, Git objects, and more.
+
+To make it a bit easier to see _where_ you are using all this disk space,
+GitLab will now report per project and group how much space is being used
+and by what (repository, artifacts (includes Docker images) or LFS).
+
+![See how storage is being used in GitLab 8.16](/images/8_16/storage_usage.png)
+
+Thanks to this month's MVP Markus Koller for contributing this feature!
 
 ## GitLab Mattermost 3.6
 
