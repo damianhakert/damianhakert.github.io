@@ -6,27 +6,36 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
+We’re on a mission to bring powerful tools to everyone. That means making them
+easy to use, easy to setup and easy to maintain. The first powerful tool we
+made accessible was Git, the second zero-setup continuous integration (CI) and
+last month we did our first steps into bringing the power of containers and
+Kubernetes to everyone. This month, we’re leaping into the new year with the
+introduction of the next step.
+
+With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
+more accessible by making it work on Google Cloud, we’re also leaping to the
+next step in idea to production: monitoring. From this release forward, we’ll
+be shipping the powerful monitoring tool Prometheus alongside GitLab.
+Deploying an application is just the start, you need feedback. With Prometheus
+we’ll make sure you get feedback from your systems, applications, users, and
+more, straight into GitLab.
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Markus Koller for his contribution of [more storage statistics](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754).
+Thanks Markus!
+
+<!--more-->
+
+## From idea to production in 10 minutes on Google Container Engine
+
 Last month we've showed you a glimpse of the future of development:
 in a few minutes from nothing to deploying to a Kubernetes cluster from a
 GitLab instance with auto-scaling. That seemed hard to do if you were not
 willing to set up your own Kubernetes cluster. With GitLab 8.16,
 you can do it _right now_ on Google Container Engine. Let me show you:
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
-
-<!--more-->
-
-## Time Tracking in CE and API
-
->
-- [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
-- Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
-  and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
-
-## Removing your approval in EE merge requests
-
-GitLab EE already supports merge request approvals. As an approver, clicking approve means that you've committed to that action. But people tell us that there are many scenarios where they may want to undo approvals Perhaps an approver saw something in the code diff that they missed earlier. Or maybe another approver brings up another point of discussion, and so the approver wants to remove their approval in the mean time, and apply it back later. With 8.16, you can now do that. You simply click in the merge request widget to remove a previously made approval. As expected, system notes in the merge request thread are recorded and notification emails are sent for both approving and removing approvals.
+TODO YOUTUBE VIDEO
 
 ## Monitoring GitLab with Prometheus
 
@@ -41,6 +50,28 @@ GitLab server.
 Both Prometheus and Node exporter are off by default for this release, but we
 plan on having them on by default starting with GitLab version 9.0.
 To enable monitoring now, simply [enable the features](https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html) and reconfigure GitLab.
+
+## Time Tracking in CE and API
+
+>
+- [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
+- Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
+  and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
+
+## New issues search and filter interface
+
+If you use issues, you probably have a lot of them. So we've had the ability to search
+and filter issues based on different attributes in GitLab. With 8.16, we've re-designed
+that interface to be more natural and intuitive, and modernized the look along the way.
+We've started out with issues, but we're planning to bring the new design to other parts
+of GitLab soon as well.
+
+
+## Removing your approval in EE merge requests
+
+GitLab EE already supports merge request approvals. As an approver, clicking approve means that you've committed to that action. But people tell us that there are many scenarios where they may want to undo approvals Perhaps an approver saw something in the code diff that they missed earlier. Or maybe another approver brings up another point of discussion, and so the approver wants to remove their approval in the mean time, and apply it back later. With 8.16, you can now do that. You simply click in the merge request widget to remove a previously made approval. As expected, system notes in the merge request thread are recorded and notification emails are sent for both approving and removing approvals.
+
+
 
 ## Allow to add deploy keys with write-access. [!5807]
 
