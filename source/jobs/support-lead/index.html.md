@@ -43,3 +43,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Candidates will be invited to schedule a third interview with our VP of Engineering
 * Finally, candidates will interview with our CEO
 * Successful candidates will subsequently be made an offer via email
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.
