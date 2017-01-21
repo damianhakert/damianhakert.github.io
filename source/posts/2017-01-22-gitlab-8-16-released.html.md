@@ -19,7 +19,10 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Time Tracking in CE and API
 
-> [Documentation link](link)
+>
+- [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
+- Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
+  and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
 
 ## Removing your approval in EE merge requests
 
