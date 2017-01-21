@@ -29,7 +29,7 @@ Thanks Markus!
 
 ## From idea to production in 10 minutes on Google Container Engine
 
-Last month we've showed you a glimpse of the future of development:
+[Last month][8.15-post] we've showed you a glimpse of the future of development:
 in a few minutes from nothing to deploying to a Kubernetes cluster from a
 GitLab instance with auto-scaling. That seemed hard to do if you were not
 willing to set up your own Kubernetes cluster. With GitLab 8.16,
@@ -37,21 +37,50 @@ you can do it _right now_ on Google Container Engine. Let me show you:
 
 TODO YOUTUBE VIDEO
 
+The video above is using a trial account on Google Cloud, and with a single
+preconfigured domain with static IP. You can do everything shown in the video
+right now [by signing up at Google Cloud][g-cloud] and simply following our
+[documentation on idea to production on Google Container Engine][i2p-gke].
+
+[8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
+[g-cloud]: https://cloud.google.com/
+[i2p-gke]: TODO
+
 ## Monitoring GitLab with Prometheus
 
-We have outlined a [bold vision](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/)
-for making world class monitoring easier for everyone, and with 8.16 we have
-taken our first step towards that goal. In this release we have included
-[Prometheus](https://prometheus.io) and it's
-[Node Exporter](https://github.com/prometheus/node_exporter) as part of our
-Omnibus package. This will provide high quality time-series monitoring of your
-GitLab server.
+We have outlined a [bold vision][prom-gitlab] for making world class monitoring
+easier for everyone, and with GitLab 8.16 we have taken our first step towards that goal. In this release we have included [Prometheus][prometheus] and it's
+[Node Exporter][node-exp] as part of our Omnibus package. This will provide
+high quality time-series monitoring of your GitLab server.
 
 Both Prometheus and Node exporter are off by default for this release, but we
 plan on having them on by default starting with GitLab version 9.0.
-To enable monitoring now, simply [enable the features](https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html) and reconfigure GitLab.
+To enable monitoring now, simply [enable the features][prom-docs] and
+reconfigure GitLab.
+
+Right now, Prometheus will just monitor the system GitLab is running on.
+TODO HOW TO USE
+
+[prom-gitlab]: https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/
+[prometheus]: https://prometheus.io
+[node-exp]: https://github.com/prometheus/node_exporter
+[prom-docs]: https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html
 
 ## Time Tracking in CE and API
+
+Time tracking was introduced in 8.14. Since its introduction, it has been used
+hundreds of thousands of times on issues and merge requests to record estimates
+and time spent. Due to the massive demand of the community, we have moved the
+current time tracking features to the Community Edition. You can read more about
+how time tracking works [in the documentation][time-tracking-docs].
+
+On top of that, time tracking has now an API, which lets you achieve the same
+actions you can do with the user interface. Read the time tracking API
+documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
+and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
+to learn more.
+
+[time-tracking-docs]: https://docs.gitlab.com/ce/workflow/time_tracking.html
 
 >
 - [Time tracking feature documentation](https://docs.gitlab.com/ce/workflow/time_tracking.html)
@@ -60,22 +89,68 @@ To enable monitoring now, simply [enable the features](https://docs.gitlab.com/o
 
 ## New issues search and filter interface
 
-If you use issues, you probably have a lot of them. So we've had the ability to search
-and filter issues based on different attributes in GitLab. With 8.16, we've re-designed
-that interface to be more natural and intuitive, and modernized the look along the way.
-We've started out with issues, but we're planning to bring the new design to other parts
-of GitLab soon as well.
+If you use issues, you probably have a lot of them.
+So we've had the ability to search and filter issues based on different
+attributes in GitLab. With 8.16, we've re-designed that interface to be more
+natural and intuitive, and modernized the look along the way.
+This will also allow us to expand search and filtering with more powerful
+features in the future.
 
+![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_1.png)
+
+We've started out with issues, but we're planning to bring the new design to
+other parts of GitLab soon as well.
+
+![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_2.png)
 
 ## Removing your approval in EE merge requests
 
-GitLab EE already supports merge request approvals. As an approver, clicking approve means that you've committed to that action. But people tell us that there are many scenarios where they may want to undo approvals Perhaps an approver saw something in the code diff that they missed earlier. Or maybe another approver brings up another point of discussion, and so the approver wants to remove their approval in the mean time, and apply it back later. With 8.16, you can now do that. You simply click in the merge request widget to remove a previously made approval. As expected, system notes in the merge request thread are recorded and notification emails are sent for both approving and removing approvals.
+In GitLab Enterprise Edition, you have been able to approve merge requests.
+As an approver, clicking approve means that you've committed to that action.
+But there are many scenarios where you may want to undo your approval.
 
+![Unapprove merge requests in GitLab 8.16](/images/8_16/approve_merge_request.png)
 
+Perhaps you saw something in the diff that you missed earlier.
+Or maybe another approver brings up another point of discussion,
+and so the approver wants to remove their approval in the mean time,
+and apply it back later.
 
-## Allow to add deploy keys with write-access. [!5807]
+![Unapprove merge requests in GitLab 8.16](/images/8_16/unapprove_merge_request.png)
 
-## Introduce a new `/merge` slash command for merge requests. [!7746]
+With GitLab 8.16, you can now do that. You simply click in the merge request
+widget to remove a previously made approval. As expected, system notes in the
+merge request thread are recorded and notification emails are sent for both
+approving and removing approvals.
+
+![Unapprove merge requests in GitLab 8.16](/images/8_16/email_unapprove_merge_request.png)
+
+## Allow to add deploy keys with write-access
+
+[Deploy keys][deploy-key-docs] are ideal for giving limited read access to your repository from external sources, for instance for deploys.
+
+We've added the ability to give deploy keys write access. This will allow the
+holder of the key to push to your repository, which can be useful for all sorts
+of things, such as setting a Git tag on deploys, pushing artifacts to the
+repository and more.
+
+Deploy keys with write access was contributed by Ali Ibrahim. Thanks Ali!
+
+[deploy-key-docs]: https://docs.gitlab.com/ce/ssh/README.html
+
+## Introduce a new `/merge` slash command for merge requests
+
+[Slash commands][slash-commands] are a very quick way of executing a number of operations on
+issues and merge requests in GitLab. Simply type one of the commands in
+the description or comment of an issue or merge request and the commands will
+be executed on submission.
+
+You can now even merge using a slash command. Type `/merge` and the merge
+request will be merged when it's ready, given you have permission to do so.
+
+GitLab has a large amount of slash commands, [view them all here][slash-commands].
+
+[slash-commands]: https://docs.gitlab.com/ee/user/project/slash_commands.html
 
 ## Streamlining project settings and navigation
 
