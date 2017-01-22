@@ -56,5 +56,6 @@ You are personally responsible for the tweets, likes, and replies you post on so
 - Always address the HN community as peers. Be sure to always be modest and grateful in responses.
 - If you comment yourself make sure it is interesting and relevant.
 - Unless the CEO approves it team members should never submit GitLab content to Hacker News. Submission gets more credibility if a non-GitLab Hacker News community member posts it, we should focus on making our posts interesting instead of on submitting it.
-- When submitting to Hacker News please add a ? to the url.
+- Don't make the first comment on a HN post about GitLab, wait for people to leave comments and ask questions.
+- When submitting to Hacker News please add a ? to the end of the url.
 - When submitting to Hacker news do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
