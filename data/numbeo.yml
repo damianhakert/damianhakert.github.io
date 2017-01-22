@@ -1,0 +1,1116 @@
+- country: Algeria
+  city: Algiers
+  rentIndex: 10.3
+- country: Angola
+  city: Luanda
+  rentIndex: 162.1
+- country: Argentina
+  city: Buenos Aires
+  rentIndex: 17.2
+- country: Armenia
+  city: Yerevan
+  rentIndex: 11.9
+- country: Australia
+  city: Hobart
+  rentIndex: 30.7
+- country: Australia
+  city: Cairns
+  rentIndex: 30.3
+- country: Australia
+  city: Gold Coast
+  rentIndex: 37.7
+- country: Australia
+  city: Adelaide
+  rentIndex: 35.5
+- country: Australia
+  city: Melbourne
+  rentIndex: 44.2
+- country: Australia
+  city: Canberra
+  rentIndex: 45.5
+- country: Australia
+  city: Brisbane
+  rentIndex: 47.7
+- country: Australia
+  city: Perth
+  rentIndex: 43.6
+- country: Australia
+  city: Sydney
+  rentIndex: 65.0
+- country: Austria
+  city: Graz
+  rentIndex: 21.4
+- country: Austria
+  city: Vienna
+  rentIndex: 33.1
+- country: Austria
+  city: Linz
+  rentIndex: 28.5
+- country: Azerbaijan
+  city: Baku
+  rentIndex: 11.9
+- country: Bahrain
+  city: Manama
+  rentIndex: 36.1
+- country: Bangladesh
+  city: Dhaka
+  rentIndex: 6.9
+- country: Belarus
+  city: Minsk
+  rentIndex: 13.4
+- country: Belgium
+  city: Brussels
+  rentIndex: 32.4
+- country: Bermuda
+  city: Hamilton
+  rentIndex: 115.9
+- country: Bosnia And Herzegovina
+  city: Sarajevo
+  rentIndex: 8.4
+- country: Brazil
+  city: Fortaleza
+  rentIndex: 10.8
+- country: Brazil
+  city: Natal
+  rentIndex: 11.8
+- country: Brazil
+  city: Curitiba
+  rentIndex: 13.0
+- country: Brazil
+  city: Belo Horizonte
+  rentIndex: 13.1
+- country: Brazil
+  city: Recife
+  rentIndex: 14.1
+- country: Brazil
+  city: Florianopolis
+  rentIndex: 14.3
+- country: Brazil
+  city: Porto Alegre
+  rentIndex: 13.6
+- country: Brazil
+  city: Brasilia
+  rentIndex: 17.5
+- country: Brazil
+  city: Campinas
+  rentIndex: 16.5
+- country: Brazil
+  city: Sao Paulo
+  rentIndex: 22.2
+- country: Brazil
+  city: Rio De Janeiro
+  rentIndex: 23.8
+- country: Brunei
+  city: Bandar Seri Begawan
+  rentIndex: 18.7
+- country: Bulgaria
+  city: Plovdiv
+  rentIndex: 7.2
+- country: Bulgaria
+  city: Varna
+  rentIndex: 7.8
+- country: Bulgaria
+  city: Sofia
+  rentIndex: 10.9
+- country: Cambodia
+  city: Phnom Penh
+  rentIndex: 21.7
+- country: Canada
+  city: Hamilton
+  rentIndex: 23.2
+- country: Canada
+  city: Kitchener
+  rentIndex: 25.6
+- country: Canada
+  city: Quebec city
+  rentIndex: 19.6
+- country: Canada
+  city: Windsor
+  rentIndex: 20.7
+- country: Canada
+  city: Montreal
+  rentIndex: 25.7
+- country: Canada
+  city: London
+  rentIndex: 23.8
+- country: Canada
+  city: Guelph
+  rentIndex: 28.3
+- country: Canada
+  city: Winnipeg
+  rentIndex: 27.0
+- country: Canada
+  city: Barrie
+  rentIndex: 27.6
+- country: Canada
+  city: Ottawa
+  rentIndex: 31.0
+- country: Canada
+  city: Halifax
+  rentIndex: 28.2
+- country: Canada
+  city: Victoria
+  rentIndex: 32.6
+- country: Canada
+  city: Mississauga
+  rentIndex: 35.9
+- country: Canada
+  city: Edmonton
+  rentIndex: 31.4
+- country: Canada
+  city: Toronto
+  rentIndex: 40.6
+- country: Canada
+  city: Calgary
+  rentIndex: 36.5
+- country: Canada
+  city: Vancouver
+  rentIndex: 46.6
+- country: Chile
+  city: Concepcion
+  rentIndex: 11.7
+- country: Chile
+  city: Santiago
+  rentIndex: 18.3
+- country: China
+  city: Shenzhen
+  rentIndex: 35.6
+- country: China
+  city: Shanghai
+  rentIndex: 37.3
+- country: China
+  city: Beijing
+  rentIndex: 43.1
+- country: Colombia
+  city: Cali
+  rentIndex: 7.5
+- country: Colombia
+  city: Medellin
+  rentIndex: 8.2
+- country: Colombia
+  city: Bogota
+  rentIndex: 14.5
+- country: Costa Rica
+  city: San Jose
+  rentIndex: 21.2
+- country: Croatia
+  city: Osijek
+  rentIndex: 7.1
+- country: Croatia
+  city: Zagreb
+  rentIndex: 13.1
+- country: Cyprus
+  city: Limassol
+  rentIndex: 16.9
+- country: Czech Republic
+  city: Olomouc
+  rentIndex: 11.0
+- country: Czech Republic
+  city: Brno
+  rentIndex: 14.6
+- country: Czech Republic
+  city: Prague
+  rentIndex: 19.4
+- country: Denmark
+  city: Aalborg
+  rentIndex: 22.5
+- country: Denmark
+  city: Arhus
+  rentIndex: 34.2
+- country: Denmark
+  city: Copenhagen
+  rentIndex: 44.1
+- country: Dominican Republic
+  city: Santo Domingo
+  rentIndex: 14.6
+- country: Ecuador
+  city: Quito
+  rentIndex: 15.6
+- country: Ecuador
+  city: Cuenca
+  rentIndex: 13.3
+- country: Ecuador
+  city: Guayaquil
+  rentIndex: 13.3
+- country: Egypt
+  city: Cairo
+  rentIndex: 9.3
+- country: El Salvador
+  city: San Salvador
+  rentIndex: 9.7
+- country: Estonia
+  city: Tartu
+  rentIndex: 12.7
+- country: Estonia
+  city: Tallinn
+  rentIndex: 16.6
+- country: Ethiopia
+  city: Addis Ababa
+  rentIndex: 23.0
+- country: Finland
+  city: Jyvaskyla
+  rentIndex: 23.9
+- country: Finland
+  city: Tampere
+  rentIndex: 24.7
+- country: Finland
+  city: Turku
+  rentIndex: 25.5
+- country: Finland
+  city: Helsinki
+  rentIndex: 37.6
+- country: France
+  city: Marseille
+  rentIndex: 22.6
+- country: France
+  city: Toulouse
+  rentIndex: 25.7
+- country: France
+  city: Paris
+  rentIndex: 46.8
+- country: Georgia
+  city: Tbilisi
+  rentIndex: 11.6
+- country: Germany
+  city: Nuremberg
+  rentIndex: 23.1
+- country: Germany
+  city: Bonn
+  rentIndex: 28.3
+- country: Germany
+  city: Frankfurt
+  rentIndex: 32.9
+- country: Germany
+  city: Hamburg
+  rentIndex: 34.2
+- country: Germany
+  city: Munich
+  rentIndex: 41.6
+- country: Ghana
+  city: Accra
+  rentIndex: 46.7
+- country: Greece
+  city: Chania
+  rentIndex: 8.4
+- country: Greece
+  city: Patras
+  rentIndex: 9.2
+- country: Greece
+  city: Thessaloniki
+  rentIndex: 10.3
+- country: Greece
+  city: Athens
+  rentIndex: 12.3
+- country: Guatemala
+  city: Guatemala city
+  rentIndex: 14.6
+- country: Hong Kong
+  city: Hong Kong
+  rentIndex: 82.3
+- country: Hungary
+  city: Debrecen
+  rentIndex: 9.9
+- country: Hungary
+  city: Budapest
+  rentIndex: 14.4
+- country: Iceland
+  city: Reykjavik
+  rentIndex: 46.0
+- country: India
+  city: Thiruvananthapuram
+  rentIndex: 4.5
+- country: India
+  city: Bhubaneswar
+  rentIndex: 4.2
+- country: India
+  city: Mangalore
+  rentIndex: 5.3
+- country: India
+  city: Kochi
+  rentIndex: 5.1
+- country: India
+  city: Visakhapatnam
+  rentIndex: 5.2
+- country: India
+  city: Coimbatore
+  rentIndex: 5.7
+- country: India
+  city: Ahmedabad
+  rentIndex: 5.2
+- country: India
+  city: Nasik
+  rentIndex: 5.6
+- country: India
+  city: Jaipur
+  rentIndex: 4.3
+- country: India
+  city: Hyderabad
+  rentIndex: 5.9
+- country: India
+  city: Bhopal
+  rentIndex: 4.5
+- country: India
+  city: Mysore
+  rentIndex: 4.5
+- country: India
+  city: Surat
+  rentIndex: 4.8
+- country: India
+  city: Lucknow (Lakhnau)
+  rentIndex: 5.0
+- country: India
+  city: Vadodara
+  rentIndex: 4.4
+- country: India
+  city: Ludhiana
+  rentIndex: 4.4
+- country: India
+  city: Chandigarh
+  rentIndex: 6.4
+- country: India
+  city: Kolkata
+  rentIndex: 6.4
+- country: India
+  city: Chennai
+  rentIndex: 7.1
+- country: India
+  city: Pune
+  rentIndex: 7.4
+- country: India
+  city: Goa
+  rentIndex: 7.9
+- country: India
+  city: Noida
+  rentIndex: 7.1
+- country: India
+  city: Bangalore
+  rentIndex: 8.7
+- country: India
+  city: Navi Mumbai
+  rentIndex: 9.5
+- country: India
+  city: Thane
+  rentIndex: 9.1
+- country: India
+  city: Delhi
+  rentIndex: 9.7
+- country: India
+  city: Gurgaon
+  rentIndex: 9.8
+- country: India
+  city: Mumbai
+  rentIndex: 20.8
+- country: Indonesia
+  city: Bandung
+  rentIndex: 7.5
+- country: Indonesia
+  city: Surabaya
+  rentIndex: 11.2
+- country: Indonesia
+  city: Jakarta
+  rentIndex: 25.7
+- country: Iran
+  city: Tehran
+  rentIndex: 22.4
+- country: Iraq
+  city: Irbil
+  rentIndex: 21.9
+- country: Ireland
+  city: Galway
+  rentIndex: 31.0
+- country: Ireland
+  city: Cork
+  rentIndex: 35.6
+- country: Ireland
+  city: Dublin
+  rentIndex: 50.9
+- country: Israel
+  city: Haifa
+  rentIndex: 21.3
+- country: Israel
+  city: Jerusalem
+  rentIndex: 30.4
+- country: Israel
+  city: Tel Aviv-yafo
+  rentIndex: 39.2
+- country: Italy
+  city: Turin
+  rentIndex: 21.2
+- country: Italy
+  city: Bologna
+  rentIndex: 23.7
+- country: Italy
+  city: Rome
+  rentIndex: 38.2
+- country: Italy
+  city: Milan
+  rentIndex: 39.7
+- country: Japan
+  city: Tokyo
+  rentIndex: 47.3
+- country: Jordan
+  city: Amman
+  rentIndex: 13.7
+- country: Kazakhstan
+  city: Almaty
+  rentIndex: 12.4
+- country: Kazakhstan
+  city: Astana
+  rentIndex: 16.2
+- country: Kenya
+  city: Nairobi
+  rentIndex: 18.7
+- country: Kuwait
+  city: Kuwait city
+  rentIndex: 39.2
+- country: Latvia
+  city: Riga
+  rentIndex: 13.4
+- country: Lebanon
+  city: Beirut
+  rentIndex: 40.6
+- country: Libya
+  city: Tripoli
+  rentIndex: 20.4
+- country: Lithuania
+  city: Kaunas
+  rentIndex: 9.9
+- country: Lithuania
+  city: Vilnius
+  rentIndex: 15.1
+- country: Macedonia
+  city: Skopje
+  rentIndex: 8.7
+- country: Malaysia
+  city: Johor Bahru
+  rentIndex: 12.4
+- country: Malaysia
+  city: Penang
+  rentIndex: 10.0
+- country: Malaysia
+  city: Kota Kinabalu
+  rentIndex: 8.2
+- country: Malaysia
+  city: Kuala Lumpur
+  rentIndex: 18.7
+- country: Maldives
+  city: Male
+  rentIndex: 32.9
+- country: Mexico
+  city: Guadalajara
+  rentIndex: 8.2
+- country: Mexico
+  city: Tijuana
+  rentIndex: 8.5
+- country: Mexico
+  city: Queretaro
+  rentIndex: 10.1
+- country: Mexico
+  city: Monterrey
+  rentIndex: 12.1
+- country: Mexico
+  city: Mexico city
+  rentIndex: 17.9
+- country: Moldova
+  city: Chisinau
+  rentIndex: 8.2
+- country: Montenegro
+  city: Podgorica
+  rentIndex: 12.7
+- country: Morocco
+  city: Rabat
+  rentIndex: 13.1
+- country: Morocco
+  city: Casablanca
+  rentIndex: 16.3
+- country: Namibia
+  city: Windhoek
+  rentIndex: 20.7
+- country: Nepal
+  city: Kathmandu
+  rentIndex: 4.7
+- country: Netherlands
+  city: Rotterdam
+  rentIndex: 29.2
+- country: Netherlands
+  city: Eindhoven
+  rentIndex: 31.1
+- country: Netherlands
+  city: Maastricht
+  rentIndex: 29.5
+- country: Netherlands
+  city: Utrecht
+  rentIndex: 34.9
+- country: Netherlands
+  city: Amsterdam
+  rentIndex: 51.2
+- country: New Zealand
+  city: Hamilton
+  rentIndex: 25.3
+- country: New Zealand
+  city: Christchurch
+  rentIndex: 33.1
+- country: New Zealand
+  city: Wellington
+  rentIndex: 37.3
+- country: New Zealand
+  city: Auckland
+  rentIndex: 45.0
+- country: Nigeria
+  city: Lagos
+  rentIndex: 21.2
+- country: Norway
+  city: Oslo
+  rentIndex: 46.0
+- country: Norway
+  city: Bergen
+  rentIndex: 44.4
+- country: Norway
+  city: Trondheim
+  rentIndex: 40.7
+- country: Norway
+  city: Tromso
+  rentIndex: 44.8
+- country: Oman
+  city: Muscat
+  rentIndex: 31.4
+- country: Pakistan
+  city: Karachi
+  rentIndex: 6.6
+- country: Pakistan
+  city: Lahore
+  rentIndex: 6.6
+- country: Pakistan
+  city: Islamabad
+  rentIndex: 9.0
+- country: Panama
+  city: Panama city
+  rentIndex: 38.3
+- country: Peru
+  city: Lima
+  rentIndex: 18.9
+- country: Philippines
+  city: Valenzuela
+  rentIndex: 3.5
+- country: Philippines
+  city: Davao
+  rentIndex: 6.1
+- country: Philippines
+  city: Cebu
+  rentIndex: 12.0
+- country: Philippines
+  city: Manila
+  rentIndex: 15.6
+- country: Philippines
+  city: Makati
+  rentIndex: 32.5
+- country: Poland
+  city: Lodz
+  rentIndex: 12.5
+- country: Poland
+  city: Gdynia
+  rentIndex: 12.4
+- country: Poland
+  city: Bydgoszcz
+  rentIndex: 11.3
+- country: Poland
+  city: Poznan
+  rentIndex: 13.7
+- country: Poland
+  city: Krakow (Cracow)
+  rentIndex: 16.0
+- country: Poland
+  city: Gdansk
+  rentIndex: 14.5
+- country: Poland
+  city: Wroclaw
+  rentIndex: 16.6
+- country: Poland
+  city: Warsaw
+  rentIndex: 19.3
+- country: Portugal
+  city: Porto
+  rentIndex: 16.3
+- country: Portugal
+  city: Lisbon
+  rentIndex: 21.9
+- country: Puerto Rico
+  city: San Juan
+  rentIndex: 25.6
+- country: Qatar
+  city: Doha
+  rentIndex: 71.1
+- country: Romania
+  city: Craiova
+  rentIndex: 5.8
+- country: Romania
+  city: Oradea
+  rentIndex: 6.1
+- country: Romania
+  city: Brasov
+  rentIndex: 8.3
+- country: Romania
+  city: Iasi
+  rentIndex: 9.9
+- country: Romania
+  city: Timisoara
+  rentIndex: 9.2
+- country: Romania
+  city: Constanta
+  rentIndex: 7.9
+- country: Romania
+  city: Cluj-napoca
+  rentIndex: 11.2
+- country: Romania
+  city: Bucharest
+  rentIndex: 12.3
+- country: Russia
+  city: Novosibirsk
+  rentIndex: 10.3
+- country: Russia
+  city: Kazan
+  rentIndex: 11.1
+- country: Russia
+  city: Yekaterinburg
+  rentIndex: 11.5
+- country: Russia
+  city: Saint Petersburg
+  rentIndex: 17.5
+- country: Russia
+  city: Moscow
+  rentIndex: 27.7
+- country: Saudi Arabia
+  city: Jeddah (Jiddah)
+  rentIndex: 14.8
+- country: Saudi Arabia
+  city: Al Khobar
+  rentIndex: 16.5
+- country: Saudi Arabia
+  city: Riyadh
+  rentIndex: 17.0
+- country: Serbia
+  city: Nis
+  rentIndex: 5.3
+- country: Serbia
+  city: Novi Sad
+  rentIndex: 6.2
+- country: Serbia
+  city: Belgrade
+  rentIndex: 10.3
+- country: Singapore
+  city: Singapore
+  rentIndex: 81.2
+- country: Slovakia
+  city: Kosice
+  rentIndex: 15.4
+- country: Slovakia
+  city: Bratislava
+  rentIndex: 20.8
+- country: South Africa
+  city: Durban
+  rentIndex: 14.0
+- country: South Africa
+  city: Port Elizabeth
+  rentIndex: 11.9
+- country: South Africa
+  city: Pretoria
+  rentIndex: 13.2
+- country: South Africa
+  city: Johannesburg
+  rentIndex: 17.5
+- country: South Africa
+  city: Cape Town
+  rentIndex: 21.6
+- country: South Korea
+  city: Busan
+  rentIndex: 20.7
+- country: Spain
+  city: Las Palmas
+  rentIndex: 15.6
+- country: Spain
+  city: Malaga
+  rentIndex: 17.8
+- country: Spain
+  city: Palma De Mallorca
+  rentIndex: 20.4
+- country: Spain
+  city: Madrid
+  rentIndex: 29.4
+- country: Spain
+  city: Bilbao
+  rentIndex: 27.0
+- country: Spain
+  city: Barcelona
+  rentIndex: 27.5
+- country: Sri Lanka
+  city: Colombo
+  rentIndex: 11.7
+- country: Sweden
+  city: Stockholm
+  rentIndex: 41.2
+- country: Switzerland
+  city: Bern
+  rentIndex: 49.4
+- country: Switzerland
+  city: Lausanne
+  rentIndex: 54.7
+- country: Switzerland
+  city: Basel
+  rentIndex: 49.5
+- country: Switzerland
+  city: Zurich
+  rentIndex: 67.4
+- country: Switzerland
+  city: Geneva
+  rentIndex: 79.6
+- country: Taiwan
+  city: Taipei
+  rentIndex: 21.5
+- country: Thailand
+  city: Pattaya
+  rentIndex: 17.6
+- country: Thailand
+  city: Phuket
+  rentIndex: 13.9
+- country: Thailand
+  city: Bangkok
+  rentIndex: 25.2
+- country: Turkey
+  city: Bursa
+  rentIndex: 7.4
+- country: Turkey
+  city: Antalya
+  rentIndex: 7.7
+- country: Turkey
+  city: Ankara
+  rentIndex: 9.2
+- country: Turkey
+  city: Izmir
+  rentIndex: 10.6
+- country: Turkey
+  city: Istanbul
+  rentIndex: 17.4
+- country: Ukraine
+  city: Lviv
+  rentIndex: 8.9
+- country: Ukraine
+  city: Kharkiv
+  rentIndex: 9.6
+- country: Ukraine
+  city: Odesa
+  rentIndex: 8.4
+- country: Ukraine
+  city: Kiev
+  rentIndex: 13.2
+- country: United Arab Emirates
+  city: Sharjah
+  rentIndex: 31.6
+- country: United Arab Emirates
+  city: Abu Dhabi
+  rentIndex: 70.6
+- country: United Arab Emirates
+  city: Dubai
+  rentIndex: 77.3
+- country: United Kingdom
+  city: Belfast
+  rentIndex: 23.9
+- country: United Kingdom
+  city: Derby
+  rentIndex: 22.2
+- country: United Kingdom
+  city: Leeds
+  rentIndex: 27.3
+- country: United Kingdom
+  city: Liverpool
+  rentIndex: 25.3
+- country: United Kingdom
+  city: Birmingham
+  rentIndex: 29.3
+- country: United Kingdom
+  city: Leicester
+  rentIndex: 23.0
+- country: United Kingdom
+  city: Glasgow
+  rentIndex: 28.3
+- country: United Kingdom
+  city: Manchester
+  rentIndex: 31.4
+- country: United Kingdom
+  city: Norwich
+  rentIndex: 27.6
+- country: United Kingdom
+  city: Edinburgh
+  rentIndex: 32.5
+- country: United Kingdom
+  city: Southampton
+  rentIndex: 32.3
+- country: United Kingdom
+  city: Exeter
+  rentIndex: 35.3
+- country: United Kingdom
+  city: Milton Keynes
+  rentIndex: 38.9
+- country: United Kingdom
+  city: Bristol
+  rentIndex: 38.9
+- country: United Kingdom
+  city: Oxford
+  rentIndex: 55.1
+- country: United Kingdom
+  city: London
+  rentIndex: 79.0
+- country: United States
+  city: Athens, GA
+  rentIndex: 23.3
+- country: United States
+  city: Tucson, AZ
+  rentIndex: 23.0
+- country: United States
+  city: Mobile, AL
+  rentIndex: 23.7
+- country: United States
+  city: Albuquerque, NM
+  rentIndex: 25.1
+- country: United States
+  city: Oklahoma City, OK
+  rentIndex: 29.4
+- country: United States
+  city: Fayetteville, AR
+  rentIndex: 20.2
+- country: United States
+  city: San Antonio, TX
+  rentIndex: 34.7
+- country: United States
+  city: Sioux Falls, SD
+  rentIndex: 27.8
+- country: United States
+  city: Omaha, NE
+  rentIndex: 31.5
+- country: United States
+  city: Bakersfield, CA
+  rentIndex: 26.5
+- country: United States
+  city: Salem, OR
+  rentIndex: 29.7
+- country: United States
+  city: Rochester, NY
+  rentIndex: 31.0
+- country: United States
+  city: Kansas City, MO
+  rentIndex: 30.4
+- country: United States
+  city: Pensacola, FL
+  rentIndex: 29.3
+- country: United States
+  city: Gainesville, FL
+  rentIndex: 28.2
+- country: United States
+  city: Tulsa, OK
+  rentIndex: 30.7
+- country: United States
+  city: Little Rock, AR
+  rentIndex: 26.5
+- country: United States
+  city: Saint Louis, MO
+  rentIndex: 28.7
+- country: United States
+  city: Salt Lake City, UT
+  rentIndex: 33.4
+- country: United States
+  city: Memphis, TN
+  rentIndex: 28.6
+- country: United States
+  city: Spokane, WA
+  rentIndex: 27.1
+- country: United States
+  city: Columbia, SC
+  rentIndex: 31.0
+- country: United States
+  city: Louisville, KY
+  rentIndex: 27.5
+- country: United States
+  city: Chattanooga, TN
+  rentIndex: 26.2
+- country: United States
+  city: Fort Myers, FL
+  rentIndex: 29.4
+- country: United States
+  city: Phoenix, AZ
+  rentIndex: 32.3
+- country: United States
+  city: Greenville, SC
+  rentIndex: 34.0
+- country: United States
+  city: Greensboro, NC
+  rentIndex: 26.8
+- country: United States
+  city: Indianapolis, IN
+  rentIndex: 30.2
+- country: United States
+  city: Cincinnati, OH
+  rentIndex: 32.3
+- country: United States
+  city: Raleigh, NC
+  rentIndex: 34.6
+- country: United States
+  city: Madison, WI
+  rentIndex: 37.9
+- country: United States
+  city: Jacksonville, FL
+  rentIndex: 33.4
+- country: United States
+  city: Columbus, OH
+  rentIndex: 35.0
+- country: United States
+  city: Milwaukee, WI
+  rentIndex: 33.3
+- country: United States
+  city: Newark, NJ
+  rentIndex: 35.4
+- country: United States
+  city: Detroit, MI
+  rentIndex: 32.0
+- country: United States
+  city: Saint Paul, MN
+  rentIndex: 33.7
+- country: United States
+  city: Tacoma, WA
+  rentIndex: 34.4
+- country: United States
+  city: Melbourne, FL
+  rentIndex: 30.0
+- country: United States
+  city: Cleveland, OH
+  rentIndex: 30.2
+- country: United States
+  city: Ann Arbor, MI
+  rentIndex: 41.9
+- country: United States
+  city: Des Moines, IA
+  rentIndex: 32.0
+- country: United States
+  city: Tampa, FL
+  rentIndex: 38.9
+- country: United States
+  city: Dallas, TX
+  rentIndex: 43.0
+- country: United States
+  city: Fort Worth, TX
+  rentIndex: 36.3
+- country: United States
+  city: Las Vegas, NV
+  rentIndex: 31.3
+- country: United States
+  city: Lexington, KY
+  rentIndex: 30.5
+- country: United States
+  city: Fresno, CA
+  rentIndex: 33.8
+- country: United States
+  city: Atlanta, GA
+  rentIndex: 41.1
+- country: United States
+  city: Nashville, TN
+  rentIndex: 44.5
+- country: United States
+  city: Orlando, FL
+  rentIndex: 39.0
+- country: United States
+  city: Charlotte, NC
+  rentIndex: 41.6
+- country: United States
+  city: Pittsburgh, PA
+  rentIndex: 37.2
+- country: United States
+  city: Houston, TX
+  rentIndex: 47.3
+- country: United States
+  city: New Orleans, LA
+  rentIndex: 39.8
+- country: United States
+  city: Austin, TX
+  rentIndex: 51.1
+- country: United States
+  city: Sacramento, CA
+  rentIndex: 38.6
+- country: United States
+  city: Saint Petersburg, FL
+  rentIndex: 39.0
+- country: United States
+  city: Minneapolis, MN
+  rentIndex: 42.0
+- country: United States
+  city: Baltimore, MD
+  rentIndex: 50.0
+- country: United States
+  city: Denver, CO
+  rentIndex: 53.5
+- country: United States
+  city: Portland, OR
+  rentIndex: 51.9
+- country: United States
+  city: Philadelphia, PA
+  rentIndex: 50.8
+- country: United States
+  city: Fort Lauderdale, FL
+  rentIndex: 59.2
+- country: United States
+  city: Fremont, CA
+  rentIndex: 69.5
+- country: United States
+  city: Anchorage, AK
+  rentIndex: 45.5
+- country: United States
+  city: Fairfax, VA
+  rentIndex: 56.9
+- country: United States
+  city: San Diego, CA
+  rentIndex: 61.0
+- country: United States
+  city: Miami, FL
+  rentIndex: 59.6
+- country: United States
+  city: Chicago, IL
+  rentIndex: 57.1
+- country: United States
+  city: Irvine, CA
+  rentIndex: 65.0
+- country: United States
+  city: Los Angeles, CA
+  rentIndex: 68.0
+- country: United States
+  city: Seattle, WA
+  rentIndex: 63.6
+- country: United States
+  city: Santa Cruz, CA
+  rentIndex: 64.7
+- country: United States
+  city: Boston, MA
+  rentIndex: 76.3
+- country: United States
+  city: Oakland, CA
+  rentIndex: 75.5
+- country: United States
+  city: Honolulu, HI
+  rentIndex: 67.3
+- country: United States
+  city: Washington, DC
+  rentIndex: 78.0
+- country: United States
+  city: New York, NY
+  rentIndex: 100.0
+- country: United States
+  city: San Francisco, CA
+  rentIndex: 126.3
+- country: Uruguay
+  city: Montevideo
+  rentIndex: 16.9
+- country: Uzbekistan
+  city: Tashkent
+  rentIndex: 13.1
+- country: Vietnam
+  city: Hanoi
+  rentIndex: 16.3
+- country: Vietnam
+  city: Ho Chi Minh city
+  rentIndex: 19.4

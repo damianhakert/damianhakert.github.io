@@ -9,11 +9,15 @@ Many of the examples describe development of an n-tier web app, but could equall
 
 ## Scope
 
-GitLab will cover the entire flow from idea to writing code, and then on through build, test, deployment, delivery, and monitoring. We don't want to be a PaaS company or monitoring company, but by integrating third parties, we can provide convenience and confidence to the developer in an integrated way.
+[GitLab's vision](/direction/#scope) covers the entire flow from idea to production. Many of these pieces will be provided directly by GitLab, others will be provided by bundling third-party solutions. [We don't want to own or manage the production infrastructure](https://about.gitlab.com/direction/#outside-our-scope), but we do want to help developers coordinate getting their code into production; providing convenience and confidence to the developer in an integrated way.
+
+![](handbook/sales/lifecycle.png)
+
+The CI/CD vision focuses on steps 6 through 9: Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
 
 ![](/images/direction/cicd/revised-gitlab-ci-scope.svg)
 
-This scope is compatible with the overall [direction](/direction/#scope), but focuses on CI, CD, and things that are currently beyond any definition of CD. One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
+One obvious question is, what's the difference between Deploy and Deliver? I'm a big believer in decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags takes it to another level, giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
 
 ## Pipelines
 
@@ -35,41 +39,43 @@ Example flow:
 
 ![](/images/direction/cicd/pipelines-goal.svg)
 
-1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+### Issues to support pipelines overall
+
+1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743) **DONE**
+1. [Run CI/CD on Merge Requests, not just branches](https://gitlab.com/gitlab-org/gitlab-ce/issues/15310), especially for fork-based flows
 2. Deploy pipelines
-    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
+    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
-    4. Show status of merge request beyond merge. (e.g. add staging and production deploys to MR activity stream)
-3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ce/issues/15655)
-    1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
-    2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
-    3. Link between project pipeline views
-    4. Consolidated view of entire pipeline across projects
-    5. Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline
+    4. [Show status of merge request beyond merge.](https://gitlab.com/gitlab-org/gitlab-ce/issues/19992) (e.g. add staging and production deploys to MR activity stream)
+3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ee/issues/933)
+  1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
+  2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
+  3. [Cross-project artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/14728)
+  4. [Link between project pipeline views](https://gitlab.com/gitlab-org/gitlab-ce/issues/22550)
+  5. [Consolidated view of entire pipeline across projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/22558)
+  6. [Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/22559)
 
 ## Stages
 
-### Code
-
-Code includes writing, storing, and collaborating on software (and other) projects. GitLab covers much of this today and partnerships with someone like [Koding](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759) can extend to cover the Online editor / IDE that has a preconfigured, collaborative, on-demand coding environment.
-
 ### Build
 
-GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts or "releases" from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
+GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
 
 Builds as first-class citizen (aka build artifacts):
 
-1. [Build history (of artifacts), a view of releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/17178)
-2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
-3. Rollback to previous build
-4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299)
+1. Build as separate entity from artifacts
+1. Build history
+1. Identify docker image as build for specific pipeline
+2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010) **DONE**
+3. Rollback to previous build **DONE**
+4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299) **DONE**
 
 ### Test
 
 1. [Integration with third-party services like CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-2. [Report more than just pass/fail, report improving, degrading, above/below threshold of change](https://gitlab.com/gitlab-org/gitlab-ce/issues/14178)
-3. [Detect unnecessary builds/tests and skip them (e.g. merge of an MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
+2. Report more than just pass/fail, report improving, degrading, above/below threshold of change
+3. [Detect unnecessary builds/tests and skip them (e.g. merge of a MR off master/head where no files have changed)](https://gitlab.com/gitlab-org/gitlab-ce/issues/8998)
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)
 6. [Provides examples and/or wizard to get started](https://gitlab.com/gitlab-org/gitlab-ce/issues/14266)
@@ -83,15 +89,15 @@ A key part of CD is being able to deploy. We currently have this ability via the
 2. Other services (e.g. TestFlight, Apple)
 3. [Deploys as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
     1. New command rather than `dpl` gem
-    2. Deploy history view
-    3. Rollback to previous deploy
-4. [Environments as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/17009)
-    1. List of environments
-    2. Current state and history of environments
+    2. Deploy history view **DONE**
+    3. Rollback to previous deploy **DONE**
+4. [Environments as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/17009) **DONE**
+    1. List of environments **DONE**
+    2. Current state and history of environments **DONE**
 5. Releases as first-class entry?
     1. Release = build + config, so this implies we'd manage config
-6. Deploy/Promote without rebuilding
-7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198)
+6. Deploy/Promote without rebuilding **DONE**
+7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge  request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198) **DONE**
 8. Support multiple rollout strategies
     1. Incremental deploys (make one, break one)
     2. Canary deploys (deploy to small % of production servers)
@@ -154,16 +160,6 @@ From [12 Factor](http://12factor.net/codebase), if there are multiple codebases,
     4. We can block deploys of one MR until upstream changes are deployed (to the same environment).
     5. This can work across projects so individual services get deployed in the right order.
 3. Coordinated deploy of all related apps to a new environment. e.g. autogenerate a "cloudformation" because we know how the projects relate to each other. This could, for example, be used by GitHost to spin up a new single-tenant instances of GitLab for a new customer.
-
-### Pages
-
-Pages is a great use of CI, but could be made even easier and more functional:
-
-1. Easy SSL cert creation and installation
-2. Easy Domain registration
-3. Staging and production
-4. Automatic CDN configuration (perhaps with CloudFlare)
-5. [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
 ## Example
 

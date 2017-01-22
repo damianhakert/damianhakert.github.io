@@ -1,7 +1,10 @@
 ---
 layout: markdown_page
 title: "Markdown Guide"
+description: "Read through our Markdown Kramdown Style Guide!"
 ---
+
+<br>
 
 #### Welcome to the Markdown Kramdown Style Guide for [about.GitLab.com]
 {:.no_toc}
@@ -42,6 +45,11 @@ This guide has been made to make it easier for everyone to use Kramdown features
 There are different possible syntaxes for most of the markups described below, but this guide is to be considered the
 standard for about.GitLab.com.
 
+### Blog
+
+For our [Blog], everything in this guide can be applied. Read through the [Blog Style Guidelines] and the
+[Professional Writing Techniques] for further information.
+
 ----
 
 ## Headings
@@ -75,18 +83,28 @@ standard for about.GitLab.com.
 
 Notes:
 
-- Usually we don't use `h1` headings, as they already are displayed on every page as titles.
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
+  > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
+- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
+  > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
+- For keeping the text clear and the markdown consistent, [jump a line](#jump-a-line) between any heading and its subsequent paragraph.
 
 ----
 
-## Paragraphs, breaks and horizontal lines
+## Paragraphs, breaks, and horizontal lines
 
 Regular paragraphs are obtained by just writing text lines. If you hit **enter** between two lines,
-both lines will be joined into a single paragraph.
+both lines will be joined into a single paragraph, which is called [wrapping text][wrap].
 But, if you leave a blank line between them, they will split into two paragraphs.
 
-### Regular paragraphs and automatic join
+### Wrapping Text
+
+We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces
+after the last word of the line broken within a paragraph, unless you want it to be intentionally
+broken with a `<br>`.
+
+#### Regular paragraphs and automatic join
 
 ```md
 This text is a paragraph.
@@ -109,10 +127,6 @@ This will be another paragraph, as it has a blank line above it.
 
 </div>
 </div>
-
-_**Note:** We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces after the last
-word of the line broken within a paragraph, unless you want it to be intentionally broken with a `<br>`._
-{: .note}
 
 ### Additional breaks
 
@@ -263,6 +277,7 @@ Also, it may cause repetition of the same link through the document.
 - Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
+- Check for broken links: <http://www.deadlinkchecker.com/>
 
 ----
 
@@ -274,13 +289,19 @@ some standards.
 
 Always use **3** blank spaces to indent a nested list (to create sub items).
 
-Tip: don't leave blank lines between the items, unless you have a reason to do so.
+Tip: don't leave blank lines **between the items**, unless you have a reason to do so.
+
+**Important:** always leave a blank line between the paragraph or heading and the subsequent list!
+If you don't, the list will not render.
+{:.alert .alert-info}
 
 ### Ordered lists
 
 Ordered lists are pretty easy to create. Couldn't be more intuitive:
 
 ```md
+Paragraph:
+
 1. Item one
    1. Sub item one
    2. Sub item two
@@ -295,6 +316,7 @@ Ordered lists are pretty easy to create. Couldn't be more intuitive:
 
 
 <div class="panel-body">
+Paragraph:
 
 1. Item one
    1. Sub item one
@@ -309,6 +331,8 @@ To be practical and avoid errors on the numbers, use "1" for all the items. The 
 in the correct order.
 
 ```md
+Paragraph:
+
 1. Item one
    1. Sub item one
    1. Sub item two
@@ -323,6 +347,7 @@ in the correct order.
 
 
 <div class="panel-body">
+Paragraph:
 
 1. Item one
    1. Sub item one
@@ -339,6 +364,8 @@ in the correct order.
 Unordered lists are very easy to create too:
 
 ```md
+Paragraph:
+
 - Item 1
 - Item 2
 - Item 3
@@ -354,6 +381,7 @@ Unordered lists are very easy to create too:
 
 
 <div class="panel-body">
+Paragraph:
 
 - Item 1
 - Item 2
@@ -449,16 +477,18 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 </div>
 </div>
 
-Notes:
+**Important notes:**
+{:#images-important-notes}
 
-- All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
+- {: #image-shadow} Apply [shadow](#shadow) to your images!
+- {: #image-requirements} All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
 and public domain images are permitted.
-- The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
+- {: #image-alt-text} The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
 It [must not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
 [visually impaired internauts][visually-impaired], for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
-- For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
+- {: #image-filename} For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
-- It's also recommendable adding an image title, as the "Hello World" exemplified above.
+- {: #image-title} It's also recommendable adding an image title, as the "Hello World" exemplified above.
 
 ----
 
@@ -536,7 +566,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 
 _**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
-worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
+worked on Mozilla Firefox for OS X, Android, and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
 {: .note}
@@ -644,7 +674,7 @@ the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attri
 Certain tools can help you to create your own complex table if you need merging lines or columns,
 and more advanced layouts. This is a [Table Generator] that perhaps can help you out.
 
-Note that the bars, spaces and dashes were used symmetrically above just for providing a nice
+Note that the bars, spaces, and dashes were used symmetrically above just for providing a nice
 view of the table markup. The symmetry is not required.
 
 Read through the [Kramdown syntax guide][kram-tables] on tables for further information.
@@ -665,7 +695,6 @@ This is an ``` `in-line` ``` code block.
 {: .panel-heading}
 
 <div class="panel-body">
-
 
 _In-line_
 
@@ -736,7 +765,6 @@ end
 </div>
 </div>
 
-
 ### Indented 
 
 Add 4 white spaces before every line:
@@ -775,8 +803,6 @@ _Indented Highlighted_
 
 </div>
 </div>
-
-
 
 ### Nested
 
@@ -1057,7 +1083,7 @@ See live examples [on this post][ssgs-post], where the icons are used to illustr
 
 -----
 
-## Classes, IDs and attributes
+## Classes, IDs, and attributes
 
 Defining CSS classes, and elements IDs and attributes with markdown is definitely something unusual (Kramdown magic!).
 
@@ -1134,6 +1160,130 @@ This is a [link][google-es]{:hreflang="es"} in Spanish.
 </div>
 </div>
 
+### Special classes
+
+#### Shadow
+
+The CSS class called `shadow` should be used when your image edges are not clearly defined.
+This happens when it has a white background or when it's a screenshot with text (for example,
+a screenshot of our user interface). For example, this image can be mistaken as part
+of the text:
+
+![text screenshot](/images/handbook/marketing/markdown-guide-image-plain-text.png)
+
+Now, if you apply the class `shadow` to the image, it's discretely highlighted from the text:
+
+![text screenshot with box shadow](/images/handbook/marketing/markdown-guide-image-plain-text.png){: .shadow}
+
+To do that, apply the class directly to the image by adding the markup `{: .shadow}` right after the image
+markup:
+
+```md
+![image alternative text](/path/to/image.png){: .shadow}
+```
+
+#### Note
+
+As [previously](#notes) explained, you can add the class `note` to paragraphs that
+you don't want to call attention to:
+
+**Note:** this is something I don't want to call attention to.
+{: .note}
+
+Markup:
+
+```md
+**Note:** this is something I don't want to call attention to.
+{: .note}
+```
+
+#### Colors
+
+Add a custom class to a heading or paragraph using the following special classes.
+
+**GitLab Orange**
+
+#### GitLab Orange Heading
+{:.gitlab-orange .no_toc}
+
+Markup:
+
+```
+### GitLab Orange Heading
+{: .gitlab-orange}
+```
+
+**GitLab Purple**
+
+#### GitLab Purple Heading
+{:.gitlab-purple .no_toc}
+
+Markup:
+
+```
+### GitLab Purple Heading
+{: .gitlab-purple}
+```
+
+#### Text Align
+
+By default, the text will always be aligned to the left. You have a few
+options to customize it with custom classes:
+
+- Center: `.text-center`
+- Right: `.text-right`
+- Justify: `.text-justify`
+
+For demonstrations purposes, they are aligned
+in an [alert box](#colorful-sections), but this can be
+applied to regular paragraphs and headings.
+
+**Align to the center**
+
+Center-aligned
+{: .alert .alert-info .text-center}
+
+Alert box markup:
+
+```md
+Center-aligned
+{: .alert .alert-info .text-center}
+```
+
+Paragraph markup:
+
+```md
+Center-aligned
+{: .text-center}
+```
+
+Heading markup:
+
+```md
+### Center-aligned
+{: .text-center}
+```
+
+**Align to the right**
+
+Right-aligned
+{: .alert .alert-info .text-right}
+
+```md
+Right-aligned
+{: .alert .alert-info .text-right}
+```
+
+**Justify**
+
+Justified
+{: .alert .alert-info .text-justify}
+
+```md
+Justified
+{: .alert .alert-info .text-justify}
+```
+
 ----
 
 ## Mix HTML + Markdown Markup
@@ -1189,6 +1339,7 @@ long paragraph. For single and short paragraphs, use alert boxes instead.
 
 When using panels, make sure to add the HTML parser markup to the beginning of your document's body:
 `{::options parse_block_html="true" /}`.
+{: #html-parser}
 
 Copy paste the following code according to what you want to present to the user
 and replace only the description. The available colors are:
@@ -1232,6 +1383,17 @@ And blue alert boxes render like:
 My important paragraph.
 {: .alert .alert-info}
 
+If you want the text inside the alert box to be blue as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-info {
+  color: rgb(49,112,143) !important;
+}
+</style>
+```
+
 ### Warnings
 
 Use the following code for warnings, like information that may have a different
@@ -1273,6 +1435,17 @@ And amber alert boxes render like:
 My warning paragraph.
 {: .alert .alert-warning}
 
+If you want the text inside the alert box to be amber as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-warning {
+  color: rgb(138,109,59) !important;
+}
+</style>
+```
+
 ### Danger
 
 Use the following code for crucial warnings, like commands that result to loss
@@ -1311,6 +1484,17 @@ And red alert boxes render like:
 
 My danger paragraph.
 {: .alert .alert-danger}
+
+If you want the text inside the alert box to be red as well, we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-danger {
+  color: rgb(169,68,66) !important;
+}
+</style>
+```
 
 ### Do's and Don'ts
 
@@ -1373,6 +1557,19 @@ or, if you chose an alert box:
 TO DO.
 {: .alert .alert-success}
 
+If you want the text inside the alert box to be green as well,
+we need to apply [custom styles](#styles)
+to the markdown document. They will override the existing ones.
+Add the following `style` tag to the end of your file.
+
+```css
+<style>
+.alert-green {
+  color: rgb(60,118,61) !important;
+}
+</style>
+```
+
 And for your "DON'TS" within red panels will look like:
 
 <div class="panel panel-danger">
@@ -1390,11 +1587,115 @@ or, if you chose a red alert box:
 NOT TO DO.
 {: .alert .alert-danger}
 
+### Custom alert panels and alert boxes
+
+All the previously mentioned alert boxes and panels are available by
+default by [Bootstrap]. If we want them in a different
+color, we need [custom styles](#styles). At about.GitLab.com, we
+can use the orange and the purple one, as follows.
+
+When using panels, don't forget to add to the beginning of your file the
+[HTML parser markup](#html-parser) to be able to mix HMTL + Markdown:
+`{::options parse_block_html="true" /}`.
+
+#### GitLab Orange Alert Panel
+
+<div class="panel panel-gitlab-orange">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+Text in markdown.
+</div>
+</div>
+
+Panel block markup:
+
+```html
+<div class="panel panel-gitlab-orange">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+
+Text in markdown.
+
+</div>
+</div>
+```
+
+#### GitLab Orange Alert Box
+
+My text in an orange box.
+{: .alert .alert-gitlab-orange}
+
+Box block markup:
+
+```md
+My text in an orange box.
+{: .alert .alert-gitlab-orange}
+```
+
+#### GitLab Purple Alert Panel
+
+<div class="panel panel-gitlab-purple">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+Text in markdown.
+</div>
+</div>
+
+Panel block markup:
+
+```html
+<div class="panel panel-gitlab-purple">
+**Heading**
+{: .panel-heading}
+<div class="panel-body">
+
+Text in markdown.
+
+</div>
+</div>
+```
+
+#### GitLab Purple Alert Box
+
+My text in an purple box.
+{: .alert .alert-gitlab-purple}
+
+Box block markup:
+
+```md
+My text in an purple box.
+{: .alert .alert-gitlab-purple}
+```
+
+### GitLab Webcast Alert Box 
+
+To be used in a CTA for webcast announcement in blog posts.
+You can use it for other purposes as well. Use it together with the [HMTL parser](#html-parser):
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+The webcast I want to announce - [Register here][webcast-link]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+
+[webcast-link]: #
+
+```md
+{::options parse_block_html="true" /}
+
+<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+The webcast I want to announce - [Register here][webcast-link]!
+&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
+```
+
 ----
 
 ## Styles
 
-To wrap up, guess what?
+Yes, guess what?
 
 This:
 
@@ -1446,7 +1747,7 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ## Embed documents
 
-It's easy to embed Google Docs, Sheets, Slides and pretty much everything that
+It's easy to embed Google Docs, Sheets, Slides, and pretty much everything that
 provides an iframe to use with. The only thing you need to do is use the
 following code inside your markdown file and replace the iframe from the document
 you want to embed:
@@ -1563,6 +1864,58 @@ with the rest of the handbook.
 
 ----
 
+## Embed Tweets
+
+To add tweets to markdown, copy both `<blockquote>` and `<script>` tags
+from the twitter post and paste it into your file. To make it look much
+nicer, wrap the script into a `div.center` (created for this specific purpose).
+
+**Important:** if you used the [HTML parser](#mix-html--markdown-markup) in your
+post or page, you'll need to set it to `false` before the `div`.
+{:.alert .alert-info}
+
+{::options parse_block_html="false" /}
+
+<div class="center">
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<br>
+
+Markup:
+
+```md
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+```
+
+For more than one Tweet, copy and paste all the code blocks from Twitter into one `div.center`:
+
+```md
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<!-- first tweet -->
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- second tweet -->
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+```
+
+
+----
+
 ## Markdown Editors
 
 Please use one of the following code editors to write in markdown, or another **code editor** of
@@ -1604,7 +1957,7 @@ or out of resources. It works from every major browser and saves automatically y
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
 - Do not leave blank spaces at the end of sentences.
-- Always leave a blank line between markups, except between list items. Example:
+- {:#jump-a-line} Always leave a blank line between markups, except between list items. Example:
 
         ---- (markup for horizontal line)
         <!-- blank line -->
@@ -1617,10 +1970,11 @@ they can render differently than the expected and can cause other issues.
         - Item 3
     {: .language-html}
 
-- Do not jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- As explained [above](#headings), do **not** jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
 - Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
 - If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
+- To add fancy emojis to your file, click `control+cmd+space` on your Mac and check the ⭐️ **magic**! ⭐️ Do not overuse them, please!
 - If you are confused about any markup that you've found in this file, you can check its [`raw` file] for reference,
 where you'll be able to see exactly how everything was written to produce the results you are seeing on this page.
 
@@ -1632,35 +1986,42 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 
 <!-- Identifiers, in alphabetical order -->
 
+[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [about.gitlab.com]: https://about.gitlab.com/
 [alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
+[blog]: /blog/
+[Blog Style Guidelines]: /handbook/marketing/blog/#styles-guidelines
+[bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
 [handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
-[kramdown]: http://kramdown.gettalong.org/
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
+[kramdown]: http://kramdown.gettalong.org/
 [Lightweight markup languages]: https://en.wikipedia.org/wiki/Lightweight_markup_language
-[mdn-video]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
+[mdn-video]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 [middleman]: https://middlemanapp.com/
-[mou]: http://25.io/mou/
 [mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
+[mou]: http://25.io/mou/
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
-[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
+[Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
+[SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
-[ssg]: https://www.staticgen.com/
-[ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
-[ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
+[ssg]: https://www.staticgen.com/
+[ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
+[ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [stackedit]: https://stackedit.io/
 [sublime]: https://www.sublimetext.com/3
 [table generator]: http://www.tablesgenerator.com/html_tables
 [visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
+[w3c]: https://www.w3.org/MarkUp/html-spec/html-spec_5.html#SEC5.4
+[wrap]: /2016/10/11/wrapping-text/#do-wrap-it

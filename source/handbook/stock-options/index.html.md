@@ -13,12 +13,26 @@ title: "Stock Options"
 
 ----
 
+## Stock option grant levels
+
+|Level|Number of Options|
+|----|----:|
+|(Senior) GitLab Fellow / Senior Director|15,000|
+|Principal &  Distinguished Engineer / Director|10,000|
+|(Senior) Staff Engineer / Senior Manager / Lead / Senior Account Executive|5,000|
+|Senior Engineer / Manager / Account Executive|2,500|
+|Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
+|Junior Engineer / Business Development Representative|1,500|
+
+We should update your stock option grant if you make a promotion.
+If we didn't please contact people operations.
+
 ## About Your Ownership in GitLab
 
 At GitLab we strongly believe in employee ownership in our Company.  We are in business
 to create value for our shareholders and we want our employees to benefit from that shared success.
 
-*In this [document](https://docs.google.com/document/d/1tS-HBzy9kYH1tIGPV3ivilyrmWAGPeqowV45m1zkxuQ/edit) (only accessible to GitLab team members),
+*In this [document](https://docs.google.com/document/d/1tS-HBzy9kYH1tIGPV3ivilyrmWAGPeqowV45m1zkxuQ/edit) (only accessible to GitLab team members and applicants),
 you can find some more details on the number of shares outstanding and the most recent valuations.*
 
 This guide is meant to help you understand the piece of GitLab that you’re going to own!
@@ -96,6 +110,19 @@ is worth $100m and it raises $25m, the company XYZ is now worth $125m. If you ow
 of $100m before, you now own 4% of $125m (20% of the company was sold, or, said differently,
 diluted you by 20%). The 5% stake was worth $5m before the fundraise and the 4% stake is now worth $5m.
 
+## Exercise Window After Termination
+
+Please note that until the [post IPO lockup period](http://www.investopedia.com/ask/answer/12/ipo-lockup-period.asp) has expired (or we are bought) company stock is not liquid. If your employment ends
+for whatever reason you have a 90 day window to exercise your options. During this window you have to come up with
+the exercise price and in some cases the tax on the gain in value of your stock options, which could be considerable.
+If the company stock is not liquid this money might be hard to come by. The 90 day window is an industry standard but
+there are [good arguments against it](https://zachholman.com/posts/fuck-your-90-day-exercise-window/). At GitLab the stock options are intended to commit our team members to get us to 
+a successful IPO. We want to motivate and reward our people for reaching that goal. Therefore we will consider exercise
+window extensions only on a case by case basis at our discretion. An example of a situation we'll consider is a valued
+team member quitting because of personal circumstances. In most cases there will be no extension and you will either have 
+to pay for shares and the taxes yourself or lose the options, even when you are fully vested. And of course [an IPO in 2020
+is our public ambition](https://about.gitlab.com/strategy/) but neither timing or if it happens at all is guaranteed.
+
 ## Exercising Your Options
 
 "Exercising your options" means buying the stock guaranteed by your options. You pay
@@ -116,6 +143,7 @@ lots of risks so be aware and informed of the risks. Please read this [quora thr
 
 ## How to Exercise Your Stock Options<a name="how-to-exercise"></a>
 
+Options are approved by the Board of Directors at regularly scheduled quarterly board meetings. After your grant has been approved by the Board you will receive a grant notice by email from eShares containing information relevant to the grant including the number of shares, exercise price, vesting period and other key terms.
 
 There are two methods to exercise your shares:
 
@@ -128,10 +156,29 @@ There are two methods to exercise your shares:
    - Click on "View" (right hand side of screen)
    - Click on "Attachments and Notes"
    - Click on "Form of Exercise Agreement"
-   - Complete the form, sign and return as PDF to the CFO
+   - Complete the form, sign, and return as PDF to the CFO
    - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
-Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
+Note for US residents: whichever method you choose, be sure to download the 83-b election form provided by eShares and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
+
+You will most likely want to include the following letter when sending in the 83-b election to the IRS.
+
+>
+><<Date Filed>>
+>
+>Department of the Treasury
+>
+><<Address provided from eShares 83-b instructions>>
+>
+>To whom it may concern:
+>
+>Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.
+>
+>Yours Truly,
+>
+>//signature
+
+
 
 
 ## Option Expiration
@@ -181,16 +228,14 @@ NSOs are treated much less favorably under tax law because they can be given to 
 don’t work at GitLab. This complicates the tax law and is beyond the current scope of this
 document.
 
-For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that
-only the difference between the exercise price and the fair market value is considered taxable.  So if
-you exercise early there is no difference between the two and therefore no taxable gain.
-Again, the decision to exercise early should be done in consultation with your tax advisor.
+For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that only the difference between the exercise price and the fair market value is considered taxable. So if you exercise early there is no difference between the two and therefore no taxable gain. With respect to tax reporting, you report the difference between fair market value at exercise and the exercise price. So if there is no difference between the two, nothing needs to be reported. Once you have exercised options, then you will need to speak with your tax advisor about how to report them for the purposes of Dutch wealth tax. Again the Company is not in a position to offer tax or legal advice around early exercising or tax reporting, so check with your own tax and financial advisors.
 
 Anyone is always welcome to ask our CFO any questions they have about their options,
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
  also consult a lawyer before making important financial decisions, especially regarding
  their equity because there are complex legal and tax requirements that may apply.
 
+
 ## References
 
-Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is grealy appreciated but GitLab Inc. does not endorse it, any advise is his.
+Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is greatly appreciated but GitLab Inc. does not endorse it, any advise is his.

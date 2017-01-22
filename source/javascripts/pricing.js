@@ -1,31 +1,18 @@
 $(function () {
-  $.fn.equalHeights = function() {
-    var maxHeight = 0,
-    $this = $(this);
+  $('.featured-item-expand').on('click', function(e) {
+    var listExpander = $(this);
+        targetFeatureList = $($(this).attr('href'));
 
-    $this.each( function() {
-      var height = $(this).innerHeight();
+    if (!targetFeatureList.is(':visible')) {
+      targetFeatureList.addClass('list-expanded');
+      listExpander.addClass('chevron-up');
+    } else {
+      targetFeatureList.removeClass('list-expanded');
+      listExpander.removeClass('chevron-up');
+    }
 
-      if (height > maxHeight) {
-        maxHeight = height;
-      }
-    });
-
-    return $this.css('height', maxHeight);
-  };
-
-  setTimeout(function () {
-    $('[data-equal]').each(function(){
-      var $this = $(this),
-      target = $this.data('equal');
-
-      if ($(window).width() > 992) {
-        $this.find(target).equalHeights();
-      } else {
-        $this.find(target).css('height', '');
-      }
-    });
-  }, 500);
+    e.preventDefault();
+  });
 
   $('.js-faq-question').on('click', function (e) {
     e.preventDefault();

@@ -1,0 +1,126 @@
+$org-chart-text-color: #5c5d5e;
+$org-chart-text-color-muted: #777;
+$org-chart-line-color: #c9c9c9;
+$org-chart-profile-bg: #fff;
+$org-chart-profile-border: #efefef;
+$org-chart-container-bg: #f9f9f9;
+$ps-rail-default-opacity: .8;
+
+@import "vendor/perfect-scrollbar/perfect-scrollbar";
+
+.org-chart-container {
+  background: $org-chart-container-bg;
+  position: relative;
+  overflow-x: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: $org-chart-text-color;
+  font-size: 10px;
+  margin-left: -28px;
+  margin-right: -28px;
+  margin-bottom: -28px;
+}
+
+.employee-profile {
+  position: relative;
+  display: inline-block;
+  background: $org-chart-profile-bg;
+  border: 1px solid $org-chart-profile-border;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  z-index: 100;
+
+  .employee-name {
+    display: block;
+  }
+
+  .employee-title {
+    display: block;
+    color: $org-chart-text-color-muted;
+    font-style: italic;
+  }
+}
+
+.tree {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+
+  ul {
+    display: table-row;
+  }
+
+  li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .node {
+    position: relative;
+    width: 100%;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      display: block;
+      border-right: 2px solid $org-chart-line-color;
+      border-top: 2px solid $org-chart-line-color;
+      width: 50%;
+      height: 100%;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: "";
+      display: block;
+      border-top: 2px solid $org-chart-line-color;
+      width: 50%;
+      height: 100%;
+    }
+
+    &:last-child::before,
+    &:last-child::after, {
+      height: 50%;
+    }
+
+    &.root-node::before {
+      top: 50%;
+      height: 50%;
+    }
+  }
+
+  li:first-child > .node {
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      border-left: 2px solid $org-chart-line-color;
+      border-top-left-radius: 5px;
+    }
+  }
+
+  li:last-child > .node {
+    &::after {
+      display: none;
+    }
+
+    &::before {
+      border-top-right-radius: 5px;
+    }
+  }
+
+  li:only-child > .node {
+    &::before {
+      display: block;
+      border-radius: 0;
+      border-top: 0;
+    }
+  }
+}

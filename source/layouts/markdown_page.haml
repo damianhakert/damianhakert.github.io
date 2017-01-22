@@ -1,5 +1,5 @@
 !!! 5
-%html
+%html{lang: "en"}
   %head
     = partial "includes/layout/head"
   %body{data: {spy: "scroll", target: ".qnav"}}
@@ -11,5 +11,7 @@
         %ol.breadcrumb
           %li You are here:
           = breadcrumbs(current_page)
+        - if current_page.request_path.start_with?('handbook')
+          = partial "includes/layout/handbook_search.html.haml"
         = yield
     = partial "includes/layout/footer"

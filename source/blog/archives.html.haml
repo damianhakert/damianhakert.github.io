@@ -3,12 +3,16 @@ layout: default
 title: Blog archives
 ---
 
-.blog-index.blog-entry
-  %ul.post-list
-    - blog.articles.each do |post|
-      %li.post-list-item
-        = link_to post.url do
-          = post.title
-        - if post.date
-          %time
-            = post.date.to_time.strftime '%b %e, %Y'
+.blog.archives
+  .wrapper
+    = partial "includes/newsletter-signup.html"
+    .section
+      %ul
+        - blog.articles.each do |post|
+          %li
+            = link_to post.url do
+              = post.title
+            - if post.date
+              %time
+                = post.date.to_time.strftime '%b %e, %Y'
+    = partial "includes/newsletter-signup.html"

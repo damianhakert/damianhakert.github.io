@@ -1,0 +1,136 @@
+- current_page.data.extra_css ||= []
+- current_page.data.extra_css |= ['salary-calculator.css']
+
+- current_page.data.extra_js ||= []
+- current_page.data.extra_js |= ['salary-calculator.js']
+
+- job= data.jobs.select{|p| p.title.downcase == title.downcase }
+- if job.length == 1 and job[0].salary
+  .salary-container.col-xs-12{data: {salary: job[0].salary}}
+    %h2#compensation Compensation
+    .col-sm-8
+      .col-sm-6
+        .dropdown.level
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            %span.label Level
+            %span.title{'data-selected' => '1.0'} Intermediate
+            %span.subtitle 1.0
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+            %li
+              %span.key Junior
+              %span.value 0.8
+            %li
+              %span.key Intermediate
+              %span.value 1.0
+            %li
+              %span.key Senior
+              %span.value 1.2
+            %li
+              %span.key Lead
+              %span.value 1.4
+      .col-sm-6
+        .dropdown.experience
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            %span.label Experience
+            %span.title{data: { 'selected' => '0.8 to 1.2', 'min' => '0.8', 'max' => '1.2'} } Experience range
+            %span.subtitle 0.8 to 1.2
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+            %li
+              %span.key Experience range
+              %span.value{'data': {'min': '0.8', 'max': '1.2'}} 0.8 to 1.2
+            %li
+              %span.key Little experience
+              %span.value{'data': {'min': '0.8', 'max': '0.9'}} 0.8 to 0.9
+            %li
+              %span.key Below average experience
+              %span.value{'data': {'min': '0.9', 'max': '1.0'}} 0.9 to 1.0
+            %li
+              %span.key Above average experience
+              %span.value{'data': {'min': '1.0', 'max': '1.1'}} 1.0 to 1.1
+            %li
+              %span.key A lot of experience
+              %span.value{'data': {'min': '1.1', 'max': '1.2'}} 1.1 to 1.2
+      .col-sm-6
+        .dropdown.country
+          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            %span.label Country
+            %span.title --
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+            %li.filter-container
+              %input.filter-input.js-country-filter{ type: 'search', placeholder: 'Search country'}
+              %i.fa.fa-search
+            - data.numbeo.uniq(&:country).sort_by(&:country).each do |p|
+              %li
+                %span.key= p.country
+      .col-sm-6
+        .dropdown.city
+          %button.dropdown-menu-toggle.disabled.btn{type: 'button', 'data-toggle' => 'dropdown'}
+            %span.label City
+            %span.title --
+            %span.subtitle
+            %i.fa.fa-chevron-down
+          %ul.dropdown-menu.dropdown-scroll
+            %li.filter-container
+              %input.filter-input.js-city-filter{ type: 'search', placeholder: 'Search city'}
+              %i.fa.fa-search
+            - data.numbeo.sort_by(&:city).each do |p|
+              %li.hidden{'data-country' => p.country}
+                %span.key= p.city
+                %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
+    .col-sm-4
+      .compensation
+        .title Annual Compensation
+        .amount --
+    .col-sm-12.formula-container
+      %h4 How did we calculate your compensation?
+      .formula
+        .variable-group
+          .variable.benchmark
+            %span.name NYC benchmark
+            %span.value= "$#{number_with_delimiter(job[0].salary, :delimiter => ',')}"
+        .symbol.multiplication x
+        .variable-group
+          .symbol (
+          .variable.rentIndex
+            %span.name Rent Index
+            %span.value --
+          .symbol +
+          .variable.marketAdjustment
+            %span.name Hot Market Adjustment
+            %span.value --
+          .symbol +
+          .constant 0.25
+          .symbol )
+        .symbol.multiplication x
+        .variable-group
+          .variable.level
+            %span.name Level
+            %span.value 1.0
+        .symbol.multiplication x
+        .variable-group
+          .variable.experience
+            %span.name Experience
+            %span.value 0.8 to 1.2
+        .symbol.multiplication x
+        .variable-group
+          .variable.contractType
+            %span.name Contract Type
+            %span.value --
+      .explanation
+      Find out
+      = succeed '.' do
+        %a{href: '/handbook/people-operations/global-compensation-calculator#compensation-calculator'} how our calculator works
+      You are also eligible for
+      %a{href: '/handbook/stock-options/'} stock options
+      and
+      = succeed '.' do
+        %a{href: '/handbook/benefits/'} other benefits
+      %span.contract-type-container.hidden
+        Based on the information provided, we expect you will be
+        %span.grammer a
+        %strong.contract-type contractor
+        at GitLab
+        %span.company-type BV.

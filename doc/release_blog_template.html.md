@@ -1,5 +1,5 @@
 ---
-title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
 author: ADD_YOUR_FULL_NAME
 author_twitter: TWITTER_USERNAME
@@ -23,8 +23,10 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out
+[the changelog] to see all the named changes.
 
+[the changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
 
 ## Upgrade barometer
 
@@ -34,7 +36,9 @@ This release has more improvements, including security fixes. Please check out [
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
 
-*Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
+### Note
+
+We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
@@ -42,7 +46,7 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
-- - -
+----
 
 ## Installation
 
@@ -63,4 +67,4 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
-- - -
+----

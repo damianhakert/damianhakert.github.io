@@ -1,0 +1,10 @@
+- name: idea
+- name: issue
+- name: plan
+- name: code
+- name: commit
+- name: test
+- name: review
+- name: staging
+- name: production
+- name: feedback

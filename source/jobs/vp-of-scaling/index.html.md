@@ -13,8 +13,9 @@ title: "Vice President of Scaling"
 
 ### Current specific responsibilities
 
-Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) 
-until handoff to the [VP or Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/).
+- Transitioning the People Ops team to the [Senior Director of People Operations](/jobs/senior-director-of-people-operations)
+- Interim [Support Lead](/jobs/support-lead)
+- Scaling up organizational structure internationally (in collaboration with CFO, Sr. Dir of People Ops)
 
 ## Requirements
 

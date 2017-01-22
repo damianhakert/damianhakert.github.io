@@ -32,3 +32,9 @@ This means you get a lot of freedom, independence and responsibilities.
 * Have an understanding of good UX
 * Experience with HTML / CSS won't hurt.
 * You share our [values](/handbook/#values), and work in accordance with those values.
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)
+- [Product Handbook](/handbook/product)

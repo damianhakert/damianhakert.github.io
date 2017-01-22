@@ -7,18 +7,21 @@
       %thead
         %tr
           %th
-          %th.ce-col Community Edition
-          %th.ee-col Enterprise Edition
+          %th.ce-col.text-center Community Edition
+          %th.ee-col.text-center Enterprise Edition Starter
+          %th.eep-col.text-center Enterprise Edition Premium
       %tbody.header.first
         - feature_block.features.each do |feature|
           %tr
             %td
               %a{href: feature.link}
                 = feature.description
-            %td.ce-col
-              - if feature.in_ce
+            %td.ce-col.text-center
+              - if (feature.in_ce) || feature.only_in_ce
                 %i.fa.fa-check
-                %span.print *
-            %td.ee-col
-              %i.fa.fa-check
-              %span.print *
+            %td.ee-col.text-center
+              - if (feature.in_ce || feature.in_ee) || feature.only_in_ee
+                %i.fa.fa-check
+            %td.eep-col.text-center
+              - if (feature.in_ce || feature.in_ee || feature.in_eep) || feature.only_in_eep
+                %i.fa.fa-check

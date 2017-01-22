@@ -4,6 +4,7 @@ exclude:
   - "./build/**"
   - "./public/**"
   - "./vendor/**"
+  - "./source/stylesheets/highlight.css.erb"
 
 linters:
   BorderZero:
@@ -13,7 +14,7 @@ linters:
   DuplicateProperty:
     severity: error
   EmptyLineBetweenBlocks:
-    enabled: false
+    enabled: true
   EmptyRule:
     severity: error
   Indentation:

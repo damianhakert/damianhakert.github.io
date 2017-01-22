@@ -1,0 +1,14 @@
+- country: Belgium
+  employee_factor: 0.8
+- country: China
+  employee_factor: 0.55
+- country: India
+  employee_factor: 0.75
+- country: Netherlands
+  employee_factor: 0.8
+- country: United Kingdom
+  employee_factor: 0.85
+- country: United States
+  employee_factor: 1
+- country: '*'
+  contractor_factor: 1.17

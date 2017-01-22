@@ -3,6 +3,8 @@ layout: job_page
 title: "Product Manager"
 ---
 
+## Role
+
 We're looking for product managers that can help us work on the future of
 developer tools. Specifically we're looking for independent people that are
 interested in building solutions for (very) large teams and organizations.
@@ -28,15 +30,58 @@ to get started.
 - Finding the weak spots of GitLab and executing plans to improve them
 - Work together with other stakeholders on scheduling and executing releases
 
+## You are _not_ responsible for
+
+- Shipping in time. As a PM you are part of a team that delivers a change,
+the team is responsible for shipping in time, not you.
+- A team of engineers. PMs at GitLab do not manage people, they manage the
+_product_. You'll be required to take the lead in decisions about the product,
+but it's not your role to manage the people that build the product.
+- Capacity and availability planning. You will work together with engineering
+managers on schedules and planning: you prioritize, the engineering managers
+determine how much can be scheduled.
+
 ## Requirements
 
 - Experience in product management
 - Strong understanding of Git and Git workflows
 - Knowledge of the developer tool space
-- Strong technically. You understand how software is built, packaged and deployed
+- Strong technically. You understand how software is built, packaged and deployed.
 - Passion for design and usability
 - Highly independent and pragmatic
 - You are living wherever you want
 - You share our [values](/handbook/#values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects
+
+## Senior Product Manager
+
+A senior product manager is an experienced product manager that:
+
+1. Consistently displays the ability to ship changes in small iterations
+1. Regularly Proposes and leads new features
+1. Is able to distill proposals and requests from the community and customers to changes in GitLab
+1. Makes significant contributions to product marketing and makes sure this is up to date
+1. Shows deep understanding of their area and has a vision of where to go next
+1. Work independently and pro-actively
+1. Excites others with their work
+
+## Relevant links
+
+- [Product Handbook](/handbook/product)
+- [Engineering Workflow](/handbook/engineering/workflow)
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with a VP of Product
+* Candidates will then be invited to schedule a second interview with the Head of Product
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

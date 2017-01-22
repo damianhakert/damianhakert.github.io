@@ -1,6 +1,7 @@
-require 'generators/direction.rb'
-require 'generators/release_list.rb'
-require 'extensions/breadcrumbs.rb'
+require 'generators/direction'
+require 'generators/release_list'
+require 'generators/org_chart'
+require 'extensions/breadcrumbs'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -27,6 +28,8 @@ activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
+  # Allow draft posts to appear on all branches except master (for Review Apps)
+  blog.publish_future_dated = true if ENV['CI_BUILD_REF_NAME'].to_s != 'master'
 
   blog.summary_separator = /<!--\s*more\s*-->/
 
@@ -45,8 +48,10 @@ end
 activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
+unless ENV['ENABLE_LIVERELOAD'] != '1'
+  configure :development do
+    activate :livereload
+  end
 end
 
 ##
@@ -56,8 +61,10 @@ helpers do
   def icon(icon, cssclass = "", attrs = {})
     width = attrs[:width] || 76
     height = attrs[:height] || 76
+    viewbox_width = attrs[:viewbox_width] || width
+    viewbox_height = attrs[:viewbox_height] || height
     label = attrs[:label] || ""
-    content_tag :svg, viewbox: "0 0 76 76", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
+    content_tag :svg, viewbox: "0 0 #{viewbox_width} #{viewbox_height}", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
       partial "includes/icons/#{icon}.svg"
     end
   end
@@ -88,6 +95,16 @@ helpers do
     end
   end
 
+  def salary_avail
+    data.jobs.select(&:salary).sort_by(&:title)
+  end
+
+  def salary_for_current_job
+    salary_avail.detect do |job|
+      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+    end
+  end
+
   def font_url(current_page)
     fonts = ["Source+Sans+Pro:300,400,600"]
 
@@ -98,6 +115,13 @@ helpers do
 
     "//fonts.googleapis.com/css?family=#{fonts}"
   end
+
+  def highlight_active_nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(link_text, url, options)
+  end
+
 end
 
 # Build-specific configuration
@@ -107,20 +131,29 @@ configure :build do
   activate :minify_javascript
   activate :minify_html
 
-  ## Direction page
-  if PRIVATE_TOKEN
-    proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
+  # Populate the direction and release list pages only on master.
+  # That will help shave off some time of the build times on branches.
+  if ENV['CI_BUILD_REF_NAME'] == 'master'
+    ## Direction page
+    if PRIVATE_TOKEN
+      proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
+    end
+
+    ## Release list page
+    releases = ReleaseList.new
+    proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.generate }, ignore: true
   end
 
-  ## Releast list page
-  releases = ReleaseList.new
-  proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
 end
+
+org_chart = OrgChart.new
+proxy "/team/structure/index.html", "/team/structure/template.html", locals: { team_data_tree: org_chart.team_data_tree }, ignore: true
 
 page '/404.html', directory_index: false
 
 ignore '/direction/template.html'
 ignore '/includes/*'
 ignore '/release-list/template.html'
+ignore '/team/structure/org-chart/template.html'
 ignore '/source/stylesheets/highlight.css'
 ignore '/category.html'

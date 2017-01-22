@@ -62,7 +62,7 @@ Issues that are planned for a specific release are assigned to a milestone, such
 
 ## What’s being included in the upcoming release?
 
-If you want to see what has been happening during the development of the next release, look at the CHANGELOG for a particular project, such as [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG).
+If you want to see what has been happening during the development of the next release, look at the CHANGELOG for a particular project, such as [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md).
 
 The CHANGELOG gets updated throughout the month as new merge requests get merged and new features become available in that release. From a few days before the 22nd, you'll have a more clear idea of what the next release will include.
 
