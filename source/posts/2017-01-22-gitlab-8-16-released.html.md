@@ -68,7 +68,7 @@ use your private Docker registry and set up certificates using Let's Encrypt:
 </figure>
 
 As our engineers were able to ship this during our summit,
-Sid couldn't hold his happiness and danced out of excitement (don't disappoint internet, we need a gif out of this):
+Sid couldn't hold his happiness and danced out of excitement:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
@@ -85,6 +85,8 @@ For deploying to Kubernetes, [see our documentation on auto deploy](https://docs
 [8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 [g-cloud]: https://cloud.google.com/
 [i2p-gke]: https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/blob/master/README.md
+[sid-challenge]: https://www.youtube.com/watch?v=xGxLi3PtxHM&feature=youtu.be&t=2688
+
 ## Monitoring GitLab with Prometheus
 
 We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
