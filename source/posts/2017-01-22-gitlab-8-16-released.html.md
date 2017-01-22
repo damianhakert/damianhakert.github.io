@@ -64,7 +64,7 @@ TODO HOW TO USE
 [prom-gitlab]: https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/
 [prometheus]: https://prometheus.io
 [node-exp]: https://github.com/prometheus/node_exporter
-[prom-docs]: https://docs.gitlab.com/omnibus/gitlab-prometheus/README.html
+[prom-docs]: https://docs.gitlab.com/ce/administration/monitoring/performance/prometheus.html
 
 ## Time Tracking in CE and API
 
