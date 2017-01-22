@@ -70,6 +70,8 @@ use your private Docker registry and set up certificates using Let's Encrypt:
 As our engineers were able to ship this during our summit,
 Sid couldn't hold his happiness and danced out of excitement:
 
+_At time of publishing, the video below is still processing. Check back in an hour!_
+
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
