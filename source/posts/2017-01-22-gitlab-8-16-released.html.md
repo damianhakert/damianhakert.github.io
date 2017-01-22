@@ -51,15 +51,14 @@ right now [by signing up at Google Cloud][g-cloud] and simply following our
 We have outlined a [bold vision][prom-gitlab] for making world class monitoring
 easier for everyone, and with GitLab 8.16 we have taken our first step towards that goal. In this release we have included [Prometheus][prometheus] and it's
 [Node Exporter][node-exp] as part of our Omnibus package. This will provide
-high quality time-series monitoring of your GitLab server.
+high quality time-series monitoring of your GitLab server's resources.
 
 Both Prometheus and Node exporter are off by default for this release, but we
 plan on having them on by default starting with GitLab version 9.0.
 To enable monitoring now, simply [enable the features][prom-docs] and
 reconfigure GitLab.
 
-Right now, Prometheus will just monitor the system GitLab is running on.
-TODO HOW TO USE
+After you have enabled Prometheus you can visit `<your_domain_name>:9090` to access the Prometheus console, or connect a compatible dashboard tool like Grafana.
 
 [prom-gitlab]: https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/
 [prometheus]: https://prometheus.io
