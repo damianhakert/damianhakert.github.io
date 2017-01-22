@@ -16,7 +16,7 @@ introduction of the next step.
 With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
 more accessible by making it work on Google Cloud, we’re also leaping to the
 next step in idea to production: monitoring. From this release forward, we’ll
-be shipping the powerful monitoring tool [Prometheus](https://prometheus.io/)
+be shipping the powerful monitoring tool [Prometheus](https://prometheus.io/).
 
 We found that if you deploy an application, you can't do so in a black hole.
 You need to get feedback about the effects of the deployment. You can use this
