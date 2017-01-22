@@ -8,7 +8,7 @@ description: GitLab 8.16 Released with Time Tracking coming to Community Edition
 ---
 
 We’re on a mission to [make sure everyone can contribute](https://about.gitlab.com/strategy/#mission). That means making [the tools in GitLab](https://about.gitlab.com/direction/#scope)
-easy to use, easy to setup and easy to maintain. Along the way some of the major steps the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
+easy to use, easy to setup and easy to maintain. Along the way some of the major steps were the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
 introduction of the next step.
 
 <!--more-->
@@ -17,7 +17,11 @@ With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
 more accessible by making it work on Google Cloud, we’re also leaping to the
 next step in idea to production: monitoring. From this release forward, we’ll
 be shipping the powerful monitoring tool [Prometheus](https://prometheus.io/)
-We found that if you deploying an application you can't do so in a black hole. You need to get feedback about the effects of the deployment. You can use this to revert deployments that cause problems and to get idea's about future improvements. Adding Prometheus is the first step to make sure you get feedback about system, application, and business metrics as an integrated part of deployments done with GitLab.
+
+We found that if you deploy an application, you can't do so in a black hole.
+You need to get feedback about the effects of the deployment. You can use this
+feedback to revert deployments that cause problems and to get ideas about
+future improvements. Adding Prometheus is the first step to make sure you get feedback about system, application, and business metrics as an integrated part of deployments done with GitLab.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 [Markus Koller](https://gitlab.com/toupeira) for his contribution of
@@ -25,7 +29,7 @@ This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Thanks Markus!
 
 
-## From idea to production in 10 minutes on Google Container Engine
+## From idea to production in 23 minutes on Google Container Engine
 
 [Last month][8.15-post] we've showed you a glimpse of the future of development:
 in a few minutes from nothing to deploying to a Kubernetes cluster from a
@@ -38,16 +42,20 @@ you can do it _right now_ on Google Container Engine. Let me show you:
 </figure>
 
 The video above is using a trial account on Google Cloud, and with a single
-preconfigured domain with static IP. You can do everything shown in the video
+preconfigured domain with static IP. This means you'll install GitLab,
+with its auto-scaling CI, Mattermost and be able to deploy apps using auto
+deploy, all on your own Kubernetes cluster.
+
+You can do everything shown in the video
 right now [by signing up at Google Cloud][g-cloud] and simply following our
 [documentation on idea to production on Google Container Engine][i2p-gke].
 
 To be able to deploy flawlessly from GitLab to Kubernetes, we've created a
-project that implements auto-deploy. [You can find it here][auto-deploy-k8s].
+project that implements auto deploy. [You can find it here][auto-deploy-k8s].
 
 [8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 [g-cloud]: https://cloud.google.com/
-[i2p-gke]: TODO
+[i2p-gke]: https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/blob/master/README.md
 [auto-deploy-k8s]: https://gitlab.com/gitlab-examples/kubernetes-deploy
 
 ## Monitoring GitLab with Prometheus
@@ -135,7 +143,7 @@ approving and removing approvals.
 Updated approvals are available in GitLab Enterprise Edition Starter, Premium
 and on GitLab.com.
 
-## Allow to add deploy keys with write-access
+## Deploy keys with write-access
 
 [Deploy keys][deploy-key-docs] are ideal for giving limited read access to your repository from external sources, for instance for deploys.
 
@@ -143,6 +151,8 @@ We've added the ability to give deploy keys write access. This will allow the
 holder of the key to push to your repository, which can be useful for all sorts
 of things, such as setting a Git tag on deploys, pushing artifacts to the
 repository and more.
+
+By default, deploy keys are read-only and your existing keys are not changed.
 
 Deploy keys with write access was contributed by [Ali Ibrahim](https://gitlab.com/aliibrahim). Thanks Ali!
 
@@ -218,11 +228,11 @@ and by what (repository, artifacts (includes Docker images) or LFS).
 
 ![See how storage is being used in GitLab 8.16](/images/8_16/storage_usage.png){: .shadow}
 
-Thanks to this month's MVP Markus Koller for contributing this feature!
+Thanks to this month's MVP [Markus Koller](https://gitlab.com/toupeira) for contributing this feature!
 
 ## GitLab Runner
 
-We are also releasing GitLab Runner 1.10 today. Most interesting changes:
+We are also releasing GitLab Runner 1.10 today. The most interesting changes:
 
 - Add termination grace period for Kubernetes executor [!383](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/383)
 - Add configuration options for Kubernetss resource requests [!391](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/391)
@@ -248,7 +258,7 @@ This version includes [security updates](http://about.mattermost.com/security-up
 For 8.16, we merged 50 merge requests from the community, including new
 features, bug fixes, or even backstage improvements!
 
-The most noticeable contributed changes are as follows:
+The most noticeable contributed changes are as follows (some were highlighted above):
 
 - Allow to add deploy keys with write-access. [!5807]
 - Allow to use `+` symbol in snippet filenames. [!6644]
@@ -345,11 +355,11 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
+The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition Starter and Premium.
+For a complete overview please have a look at [all GitLabs products](https://about.gitlab.com/products/).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription](https://about.gitlab.com/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
