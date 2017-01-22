@@ -1,9 +1,10 @@
 ---
-title: "GitLab 8.16 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-categories:
+title: "GitLab 8.16 Released with Auto deploy on Google Container Engine and Monitoring with Prometheus"
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: '/images/8_16/pic.jpg'
+description: GitLab 8.16 Released with Time Tracking coming to Community Edition and new API, Deploy Keys with write-access, and monitoring with Prometheus
 ---
 
 We’re on a mission to bring powerful tools to everyone. That means making them
@@ -12,6 +13,8 @@ made accessible was Git, the second zero-setup continuous integration (CI) and
 last month we did our first steps into bringing the power of containers and
 Kubernetes to everyone. This month, we’re leaping into the new year with the
 introduction of the next step.
+
+<!--more-->
 
 With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
 more accessible by making it work on Google Cloud, we’re also leaping to the
@@ -22,10 +25,10 @@ we’ll make sure you get feedback from your systems, applications, users, and
 more, straight into GitLab.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Markus Koller for his contribution of [more storage statistics](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754).
+[Markus Koller](https://gitlab.com/toupeira) for his contribution of
+[more storage statistics](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754).
 Thanks Markus!
 
-<!--more-->
 
 ## From idea to production in 10 minutes on Google Container Engine
 
@@ -42,9 +45,13 @@ preconfigured domain with static IP. You can do everything shown in the video
 right now [by signing up at Google Cloud][g-cloud] and simply following our
 [documentation on idea to production on Google Container Engine][i2p-gke].
 
+To be able to deploy flawlessly from GitLab to Kubernetes, we've created a
+project that implements auto-deploy. [You can find it here][auto-deploy-k8s].
+
 [8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 [g-cloud]: https://cloud.google.com/
 [i2p-gke]: TODO
+[auto-deploy-k8s]: https://gitlab.com/gitlab-examples/kubernetes-deploy
 
 ## Monitoring GitLab with Prometheus
 
@@ -93,34 +100,37 @@ natural and intuitive, and modernized the look along the way.
 This will also allow us to expand search and filtering with more powerful
 features in the future.
 
-![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_1.png)
+![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_1.png){: .shadow}
 
 We've started out with issues, but we're planning to bring the new design to
 other parts of GitLab soon as well.
 
-![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_2.png)
+![Improved issue search and filters in GitLab 8.16](/images/8_16/issues_search_2.png){: .shadow}
 
 ## Removing your approval in EE merge requests
 
-In GitLab Enterprise Edition, you have been able to approve merge requests.
-As an approver, clicking approve means that you've committed to that action.
-But there are many scenarios where you may want to undo your approval.
+In GitLab Enterprise Edition Starter, you have been able to approve merge
+requests. As an approver, clicking approve means that you've committed to that
+action. But there are many scenarios where you may want to undo your approval.
 
-![Unapprove merge requests in GitLab 8.16](/images/8_16/approve_merge_request.png)
+![Unapprove merge requests in GitLab 8.16](/images/8_16/approve_merge_request.png){: .shadow}
 
 Perhaps you saw something in the diff that you missed earlier.
 Or maybe another approver brings up another point of discussion,
 and so the approver wants to remove their approval in the mean time,
 and apply it back later.
 
-![Unapprove merge requests in GitLab 8.16](/images/8_16/unapprove_merge_request.png)
+![Unapprove merge requests in GitLab 8.16](/images/8_16/unapprove_merge_request.png){: .shadow}
 
-With GitLab 8.16, you can now do that. You simply click in the merge request
+With GitLab 8.16 EE, you can now do that. You simply click in the merge request
 widget to remove a previously made approval. As expected, system notes in the
 merge request thread are recorded and notification emails are sent for both
 approving and removing approvals.
 
-![Unapprove merge requests in GitLab 8.16](/images/8_16/email_unapprove_merge_request.png)
+![Unapprove merge requests in GitLab 8.16](/images/8_16/email_unapprove_merge_request.png){: .shadow}
+
+Updated approvals are available in GitLab Enterprise Edition Starter, Premium
+and on GitLab.com.
 
 ## Allow to add deploy keys with write-access
 
@@ -131,25 +141,25 @@ holder of the key to push to your repository, which can be useful for all sorts
 of things, such as setting a Git tag on deploys, pushing artifacts to the
 repository and more.
 
-Deploy keys with write access was contributed by Ali Ibrahim. Thanks Ali!
+Deploy keys with write access was contributed by [Ali Ibrahim](https://gitlab.com/aliibrahim). Thanks Ali!
 
 [deploy-key-docs]: https://docs.gitlab.com/ce/ssh/README.html
 
-## Limit Shared Runner Usage (EE)
+## Limit Shared Runner Usage (EE Starter, Premium)
 
 Not only does GitLab CI scale up automatically based on demand,
 shared runners make it incredibly easy to offer CI to your entire organisation.
 In fact, it's so easy to offer CI services that we saw a need arise to be able
 to limit the usage of those shared resources.
 
-![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm1.png)
+![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm1.png){: .shadow}
 
 With GitLab 8.16 Enterprise Edition you can limit build minutes of shared
 runners per group. Once surpassed, pipelines will no longer execute on shared
 runners. This will allow you to prevent over-usage of shared resources when
 using GitLab CI.
 
-![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm2.png)
+![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm2.png){: .shadow}
 
 ## Introduce a new `/merge` slash command for merge requests
 
@@ -191,7 +201,7 @@ you've been using most recently.
 GitLab will now report when a SSH has been used last. Find this information
 in your profile, under keys: `/profile/keys`.
 
-Thanks Vincent Wong for contributing this useful feature!
+Thanks [Vincent Wong(]https://gitlab.com/wingyu) for contributing this useful feature!
 
 ## Storage statistics
 
@@ -203,9 +213,26 @@ To make it a bit easier to see _where_ you are using all this disk space,
 GitLab will now report per project and group how much space is being used
 and by what (repository, artifacts (includes Docker images) or LFS).
 
-![See how storage is being used in GitLab 8.16](/images/8_16/storage_usage.png)
+![See how storage is being used in GitLab 8.16](/images/8_16/storage_usage.png){: .shadow}
 
 Thanks to this month's MVP Markus Koller for contributing this feature!
+
+## GitLab Runner
+
+We are also releasing GitLab Runner 1.10 today. Most interesting changes:
+
+- Add termination grace period for Kubernetes executor [!383](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/383)
+- Add configuration options for Kubernetss resource requests [!391](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/391)
+- Add poll interval and timeout parameters for Kubernetes executor [!384](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/384)
+- Pass ImagePullSecrets for Kubernetes executor [!449](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/449)
+- Add Namespace overwrite possibility for Kubernetes executor [!444](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/444)
+- Add support for GIT_SUBMODULE_STRATEGY [!443](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/443)
+- Add Prometheus metric that counts number of catched errors [!439](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/439)
+- Update Docker Machine in official Runner images to v0.9.0 [!454](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/454)
+- Add '--run-tagged-only' cli option for runners [!438](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/438)
+- Add armv6l to the ARM replacements list for docker executor helper image [!446](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/446)
+
+To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/v1.10.0/CHANGELOG.md).
 
 ## GitLab Mattermost 3.6
 
