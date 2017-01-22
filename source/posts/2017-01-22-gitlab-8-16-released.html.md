@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.16 Released with Auto deploy on Google Container Engine and Monitoring with Prometheus"
+title: "GitLab 8.16 Released with auto deploy on Google Container Engine and Prometheus monitoring as part of GitLab"
 categories: release
 author: Job van der Voort
 author_twitter: Jobvo
@@ -28,31 +28,31 @@ This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 [more storage statistics](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754).
 Thanks Markus!
 
-
 ## From Cancun to Production on Google Container Engine (GKE)
 
-Every nine months, most of GitLab comes together somewhere in the world.
+Every nine months all GitLab team members and their significant others are invited to [our summit](https://gitlab.com/summits/Summit-2017/).
 This gives us the opportunity to bond in person and to share our ideas
-and ambitions in an informal way. We've just returned from our summit in Cancun,
+and ambitions in an informal way. We've just returned from our summit in Cancun Mexico,
 where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/xGxLi3PtxHM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+This was an internal presentation meant for our team members. We share it because transparency is [one of our values](https://about.gitlab.com/handbook/#values). It is not a formal announcement, for example we're still evaluating the subscription plans for GitLab.com.
+
 If you don't have the time to see the full video, have a look at
 [44:48][sid-challenge], where Sid gives a challenge to the present team:
 
-> Present Idea to Production on stage, working on Google Container Engine, during the summit and I will dance the Sid Shuffle on stage out of happiness
+> If you are the first one to present the idea to production demo working on Google Container Engine (GKE) on stage during the Summit, I will dance the Sid Shuffle from Ice Age 4 on stage out of pure happiness.
 
 If you're not familiar with the Sid shuffle, hold your breath. But first the
 context of the challenge:
 
 [Last month][8.15-post] we've showed you a glimpse of the future of development:
-in a few minutes from nothing to deploying an app to a Kubernetes cluster from a
+in a few minutes from a container scheduler without GitLab to deploying an app to a Kubernetes cluster from a
 GitLab instance with auto-scaling CI. This powerful flow was only available
-for people using Kubernetes in combination with Openshift, and we felt
-that we needed to make the step even lower.
+for people using Kubernetes in combination with Openshift, and [people asked](https://gitlab.com/gitlab-org/gitlab-ce/issues/25292) how they could replicate it.
 
 Google Container Engine is a part of Google Cloud and can be used by anyone,
 getting it to work there is a big win for everyone. Motivated by both the
@@ -68,7 +68,7 @@ use your private Docker registry and set up certificates using Let's Encrypt:
 </figure>
 
 As our engineers were able to ship this during our summit,
-Sid couldn't hold his happiness and danced out of excitement (don't disappoint internet, we need a gif out of this):
+Sid couldn't hold his happiness and danced out of excitement:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
@@ -85,6 +85,9 @@ For deploying to Kubernetes, [see our documentation on auto deploy](https://docs
 [8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 [g-cloud]: https://cloud.google.com/
 [i2p-gke]: https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/blob/master/README.md
+
+We're working to make it even easier for [everyone to replicate idea to production](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986).
+
 ## Monitoring GitLab with Prometheus
 
 We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
