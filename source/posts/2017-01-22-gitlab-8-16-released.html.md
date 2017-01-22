@@ -64,7 +64,7 @@ reconfigure GitLab.
 
 After you have enabled Prometheus you can visit `<your_domain_name>:9090` to access the Prometheus console, or connect a compatible dashboard tool like Grafana.
 
-In the coming months we'll be adding more features to GitLab such as the ability to see a in the merge request view of how your deployment affected system or application metrics.
+In the coming months we'll be adding [more charts to the environments pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/26905). Another big milestone will be to see how your deployment affected system or application metrics on the merge request page.
 
 [prom-gitlab]: https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/
 [prometheus]: https://prometheus.io
