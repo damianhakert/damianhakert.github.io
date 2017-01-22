@@ -7,9 +7,16 @@ image_title: '/images/8_16/pic.jpg'
 description: GitLab 8.16 Released with Time Tracking coming to Community Edition and new API, Deploy Keys with write-access, and monitoring with Prometheus
 ---
 
-We’re on a mission to [make sure everyone can contribute](https://about.gitlab.com/strategy/#mission). That means making [the tools in GitLab](https://about.gitlab.com/direction/#scope)
-easy to use, easy to setup and easy to maintain. Along the way some of the major steps the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
+We’re on a mission to [make sure everyone can contribute][contribute]. That
+means making [the tools in GitLab][scope] easy to use, easy to setup and easy
+to maintain.
+Along the way, some of the major steps were the introduction of zero-setup
+continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15][8-15] last month. This month, we’re leaping into the new year with the
 introduction of the next step.
+
+[contribute]: https://about.gitlab.com/strategy/#mission
+[scope]: https://about.gitlab.com/direction/#scope
+[8-15]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 
 <!--more-->
 
@@ -25,7 +32,21 @@ This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Thanks Markus!
 
 
-## From idea to production in 10 minutes on Google Container Engine
+## Our vision
+
+Every nine months, most of GitLab comes together somewhere in the world.
+This gives us the opportunity to bond in person and to share our ideas
+and ambitions in an informal way. We've just returned from our summit in Cancun,
+where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/xGxLi3PtxHM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+If you don't have the time to see the full video, have a look at
+[44:48][sid-challenge], where Sid gives a challenge to the present team:
+
+
 
 [Last month][8.15-post] we've showed you a glimpse of the future of development:
 in a few minutes from nothing to deploying to a Kubernetes cluster from a
@@ -49,6 +70,7 @@ project that implements auto-deploy. [You can find it here][auto-deploy-k8s].
 [g-cloud]: https://cloud.google.com/
 [i2p-gke]: TODO
 [auto-deploy-k8s]: https://gitlab.com/gitlab-examples/kubernetes-deploy
+[sid-challenge]: https://youtu.be/xGxLi3PtxHM?t=2688
 
 ## Monitoring GitLab with Prometheus
 
