@@ -67,14 +67,11 @@ use your private Docker registry and set up certificates using Let's Encrypt:
   <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-As our engineers were able to ship this during our summit,
-Sid couldn't hold his happiness and danced out of excitement:
+Below is a less polished video of this same demo being given during the summit and Sid being happy and dancing out of excitement. If you want to skip the demo please go to [28:29](https://www.youtube.com/watch?v=39chczWRKws#t=28m29s).
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-If you want to skip straight to Sid being happy please skip to [28:29](https://www.youtube.com/watch?v=39chczWRKws#t=28m29s).
 
 ### Details on deploying to GKE
 
