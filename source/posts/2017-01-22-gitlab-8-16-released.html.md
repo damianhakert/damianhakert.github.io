@@ -29,35 +29,62 @@ This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Thanks Markus!
 
 
-## From idea to production in 23 minutes on Google Container Engine
+## From Cancun to Production on Google Container Engine (GKE)
+
+Every nine months, most of GitLab comes together somewhere in the world.
+This gives us the opportunity to bond in person and to share our ideas
+and ambitions in an informal way. We've just returned from our summit in Cancun,
+where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/xGxLi3PtxHM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+If you don't have the time to see the full video, have a look at
+[44:48][sid-challenge], where Sid gives a challenge to the present team:
+
+> Present Idea to Production on stage, working on Google Container Engine, during the summit and I will dance the Sid Shuffle on stage out of happiness
+
+If you're not familiar with the Sid shuffle, hold your breath. But first the
+context of the challenge:
 
 [Last month][8.15-post] we've showed you a glimpse of the future of development:
-in a few minutes from nothing to deploying to a Kubernetes cluster from a
-GitLab instance with auto-scaling. That seemed hard to do if you were not
-willing to set up your own Kubernetes cluster. With GitLab 8.16,
-you can do it _right now_ on Google Container Engine. Let me show you:
+in a few minutes from nothing to deploying an app to a Kubernetes cluster from a
+GitLab instance with auto-scaling CI. This powerful flow was only available
+for people using Kubernetes in combination with Openshift, and we felt
+that we needed to make the step even lower.
+
+Google Container Engine is a part of Google Cloud and can be used by anyone,
+getting it to work there is a big win for everyone. Motivated by both the
+potential for developers around the world and that of seeing Sid dancing,
+GitLab's engineers worked hard to make it happen.
+
+You can deploy GitLab 8.16 straight to Google Container Engine, it will have
+auto-scaling CI, auto deploy to your own Kubernetes cluster, Mattermost,
+use your private Docker registry and set up certificates using Let's Encrypt:
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-The video above is using a trial account on Google Cloud, and with a single
-preconfigured domain with static IP. This means you'll install GitLab,
-with its auto-scaling CI, Mattermost and be able to deploy apps using auto
-deploy, all on your own Kubernetes cluster.
+As our engineers were able to ship this during our summit,
+Sid couldn't hold his happiness and danced out of excitement (don't disappoint internet, we need a gif out of this):
 
-You can do everything shown in the video
+<figure class="video_container">
+  <iframe src="TODO" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Details on deploying to GKE
+
+You can do everything shown in the _second_ video
 right now [by signing up at Google Cloud][g-cloud] and simply following our
 [documentation on idea to production on Google Container Engine][i2p-gke].
 
-To be able to deploy flawlessly from GitLab to Kubernetes, we've created a
-project that implements auto deploy. [You can find it here][auto-deploy-k8s].
+For deploying to Kubernetes, [see our documentation on auto deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html).
 
 [8.15-post]: https://about.gitlab.com/2016/12/22/gitlab-8-15-released/
 [g-cloud]: https://cloud.google.com/
 [i2p-gke]: https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/blob/master/README.md
-[auto-deploy-k8s]: https://gitlab.com/gitlab-examples/kubernetes-deploy
-
 ## Monitoring GitLab with Prometheus
 
 We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
