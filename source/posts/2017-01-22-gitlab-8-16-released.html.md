@@ -266,7 +266,7 @@ Thanks to this month's MVP [Markus Koller](https://gitlab.com/toupeira) for cont
 We are also releasing GitLab Runner 1.10 today. The most interesting changes:
 
 - Add termination grace period for Kubernetes executor [!383](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/383)
-- Add configuration options for Kubernetss resource requests [!391](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/391)
+- Add configuration options for Kubernetes resource requests [!391](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/391)
 - Add poll interval and timeout parameters for Kubernetes executor [!384](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/384)
 - Pass ImagePullSecrets for Kubernetes executor [!449](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/449)
 - Add Namespace overwrite possibility for Kubernetes executor [!444](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/444)
