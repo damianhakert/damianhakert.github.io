@@ -245,7 +245,7 @@ you've been using most recently.
 GitLab will now report when a SSH has been used last. Find this information
 in your profile, under keys: `/profile/keys`.
 
-Thanks [Vincent Wong(]https://gitlab.com/wingyu) for contributing this useful feature!
+Thanks [Vincent Wong](https://gitlab.com/wingyu) for contributing this useful feature!
 
 ## Storage statistics
 
