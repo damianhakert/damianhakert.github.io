@@ -1,25 +1,20 @@
 ---
-title: "GitLab 8.16 Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.16 Released with Auto deploy on Google Container Engine and Monitoring with Prometheus"
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-We’re on a mission to bring powerful tools to everyone. That means making them
-easy to use, easy to setup and easy to maintain. The first powerful tool we
-made accessible was Git, the second zero-setup continuous integration (CI) and
-last month we did our first steps into bringing the power of containers and
-Kubernetes to everyone. This month, we’re leaping into the new year with the
+We’re on a mission to [make sure everyone can contribute](https://about.gitlab.com/strategy/#mission). That means making [the tools in GitLab](https://about.gitlab.com/direction/#scope)
+easy to use, easy to setup and easy to maintain. Along the way some of the major steps the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
 introduction of the next step.
 
 With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
 more accessible by making it work on Google Cloud, we’re also leaping to the
 next step in idea to production: monitoring. From this release forward, we’ll
-be shipping the powerful monitoring tool Prometheus alongside GitLab.
-Deploying an application is just the start, you need feedback. With Prometheus
-we’ll make sure you get feedback from your systems, applications, users, and
-more, straight into GitLab.
+be shipping the powerful monitoring tool [Prometheus](https://prometheus.io/)
+We found that if you deploying an application you can't do so in a black hole. You need to get feedback about the effects of the deployment. You can use this to revert deployments that cause problems and to get idea's about future improvements. Adding Prometheus is the first step to make sure you get feedback about system, application, and business metrics as an integrated part of deployments done with GitLab.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Markus Koller for his contribution of [more storage statistics](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7754).
@@ -48,17 +43,19 @@ right now [by signing up at Google Cloud][g-cloud] and simply following our
 
 ## Monitoring GitLab with Prometheus
 
-We have outlined a [bold vision][prom-gitlab] for making world class monitoring
+We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
 easier for everyone, and with GitLab 8.16 we have taken our first step towards that goal. In this release we have included [Prometheus][prometheus] and it's
 [Node Exporter][node-exp] as part of our Omnibus package. This will provide
 high quality time-series monitoring of your GitLab server's resources.
 
 Both Prometheus and Node exporter are off by default for this release, but we
-plan on having them on by default starting with GitLab version 9.0.
+plan on having them on by default starting with GitLab version 9.0 that is scheduled for March 22.
 To enable monitoring now, simply [enable the features][prom-docs] and
 reconfigure GitLab.
 
 After you have enabled Prometheus you can visit `<your_domain_name>:9090` to access the Prometheus console, or connect a compatible dashboard tool like Grafana.
+
+In the coming months we'll be adding more features to GitLab such as the ability to see a in the merge request view of how your deployment affected system or application metrics.
 
 [prom-gitlab]: https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/
 [prometheus]: https://prometheus.io
@@ -83,6 +80,10 @@ estimates and record time spent on issues and merge requests.
 
 > Time tracking API documentation for [merge requests](https://docs.gitlab.com/ce/api/merge_requests.html#set-a-time-estimate-for-a-merge-request)
   and [issues](https://docs.gitlab.com/ce/api/issues.html#set-a-time-estimate-for-an-issue)
+
+## GitLab Pages in 8.17
+
+We [promised to bring GitLab Pages to CE](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) and [started to work on this](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8463). We expect to ship this next month in GitLab 8.17.
 
 ## New issues search and filter interface
 
