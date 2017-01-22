@@ -38,7 +38,9 @@ GitLab instance with auto-scaling. That seemed hard to do if you were not
 willing to set up your own Kubernetes cluster. With GitLab 8.16,
 you can do it _right now_ on Google Container Engine. Let me show you:
 
-TODO YOUTUBE VIDEO
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 The video above is using a trial account on Google Cloud, and with a single
 preconfigured domain with static IP. You can do everything shown in the video
