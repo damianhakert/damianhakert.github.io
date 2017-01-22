@@ -88,6 +88,8 @@ For deploying to Kubernetes, [see our documentation on auto deploy](https://docs
 
 We're working to make it even easier for [everyone to replicate idea to production](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986).
 
+[sid-challenge]: https://www.youtube.com/watch?v=xGxLi3PtxHM&feature=youtu.be&t=2688
+
 ## Monitoring GitLab with Prometheus
 
 We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
