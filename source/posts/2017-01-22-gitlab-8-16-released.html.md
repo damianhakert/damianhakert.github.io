@@ -71,7 +71,7 @@ As our engineers were able to ship this during our summit,
 Sid couldn't hold his happiness and danced out of excitement (don't disappoint internet, we need a gif out of this):
 
 <figure class="video_container">
-  <iframe src="TODO" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ### Details on deploying to GKE
