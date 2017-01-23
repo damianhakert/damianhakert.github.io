@@ -5,17 +5,19 @@ author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/8_16/pic.jpg'
 description: GitLab 8.16 Released with Time Tracking coming to Community Edition and new API, Deploy Keys with write-access, and monitoring with Prometheus
+cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
+cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html?utm_medium=blog&utm_source=blog&utm_campaign=816+release+webcast&utm_content=register+now+button
 ---
 
 We’re on a mission to [make sure everyone can contribute](https://about.gitlab.com/strategy/#mission). That means making [the tools in GitLab](https://about.gitlab.com/direction/#scope)
-easy to use, easy to setup and easy to maintain. Along the way some of the major steps were the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
+easy to use, easy to set up and easy to maintain. Along the way some of the major steps were the introduction of zero-setup continuous integration (CI), and auto deploy on Kubernetes in [GitLab 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/) last month. This month, we’re leaping into the new year with the
 introduction of the next step.
 
 <!--more-->
 
 With GitLab 8.16 we’re not only making idea to production on Kubernetes _much_
 more accessible by making it work on Google Cloud, we’re also leaping to the
-next step in idea to production: monitoring. From this release forward, we’ll
+next step in idea to production: monitoring. From this release onwards, we’ll
 be shipping the powerful monitoring tool [Prometheus](https://prometheus.io/).
 
 We found that if you deploy an application, you can't do so in a black hole.
@@ -32,7 +34,7 @@ Thanks Markus!
 
 Every nine months all GitLab team members and their significant others are invited to [our summit](https://gitlab.com/summits/Summit-2017/).
 This gives us the opportunity to bond in person and to share our ideas
-and ambitions in an informal way. We've just returned from our summit in Cancun Mexico,
+and ambitions in an informal way. We've just returned from our summit in Cancún, Mexico,
 where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
 
 <figure class="video_container">
@@ -41,20 +43,20 @@ where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
 
 This was an internal presentation meant for our team members. We share it because transparency is [one of our values](https://about.gitlab.com/handbook/#values). It is not a formal announcement, for example we're still evaluating the subscription plans for GitLab.com.
 
-If you don't have the time to see the full video, have a look at
+If you don't have the time to watch the full video, have a look at
 [44:48][sid-challenge], where Sid gives a challenge to the present team:
 
-> If you are the first one to present the idea to production demo working on Google Container Engine (GKE) on stage during the Summit, I will dance the Sid Shuffle from Ice Age 4 on stage out of pure happiness.
+> If you are the first one to present the idea to production demo working on Google Container Engine (GKE) on stage during the Summit, I will dance the Sid Shuffle from *Ice Age 4* on stage out of pure happiness.
 
-If you're not familiar with the Sid shuffle, hold your breath. But first the
+If you're not familiar with the Sid shuffle, hold your breath. But first, the
 context of the challenge:
 
-[Last month][8.15-post] we've showed you a glimpse of the future of development:
+[Last month][8.15-post] we showed you a glimpse of the future of development:
 in a few minutes from a container scheduler without GitLab to deploying an app to a Kubernetes cluster from a
 GitLab instance with auto-scaling CI. This powerful flow was only available
 for people using Kubernetes in combination with Openshift, and [people asked](https://gitlab.com/gitlab-org/gitlab-ce/issues/25292) how they could replicate it.
 
-Google Container Engine is a part of Google Cloud and can be used by anyone,
+Google Container Engine is a part of Google Cloud and can be used by anyone –
 getting it to work there is a big win for everyone. Motivated by both the
 potential for developers around the world and that of seeing Sid dancing,
 GitLab's engineers worked hard to make it happen.
@@ -91,17 +93,17 @@ We're working to make it even easier for [everyone to replicate idea to producti
 
 ## Monitoring GitLab with Prometheus
 
-We have outlined an [extensive vision][prom-gitlab] for making world class monitoring
-easier for everyone, and with GitLab 8.16 we have taken our first step towards that goal. In this release we have included [Prometheus][prometheus] and it's
+We have outlined an [extensive vision][prom-gitlab] for making world-class monitoring
+easier for everyone, and with GitLab 8.16 we have taken our first step towards that goal. In this release we have included [Prometheus][prometheus] and its
 [Node Exporter][node-exp] as part of our Omnibus package. This will provide
-high quality time-series monitoring of your GitLab server's resources.
+high-quality, time-series monitoring of your GitLab server's resources.
 
 Both Prometheus and Node exporter are off by default for this release, but we
-plan on having them on by default starting with GitLab version 9.0 that is scheduled for March 22.
+plan on having them on by default, starting with GitLab version 9.0 that is scheduled for March 22.
 To enable monitoring now, simply [enable the features][prom-docs] and
 reconfigure GitLab.
 
-After you have enabled Prometheus you can visit `<your_domain_name>:9090` to access the Prometheus console, or connect a compatible dashboard tool like Grafana.
+After you have enabled Prometheus you can visit `<your_domain_name>:9090` to access the Prometheus console, or connect a compatible dashboard tool such as Grafana.
 
 In the coming months we'll be adding [more charts to the environments pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/26905), for example to see how [a deployment affected memory usage](https://gitlab.com/gitlab-org/gitlab-ce/issues/26944).
 
@@ -137,7 +139,7 @@ We [promised to bring GitLab Pages to CE](https://about.gitlab.com/2016/12/24/we
 
 If you use issues, you probably have a lot of them.
 So we've had the ability to search and filter issues based on different
-attributes in GitLab. With 8.16, we've re-designed that interface to be more
+attributes in GitLab. With 8.16, we've redesigned that interface to be more
 natural and intuitive, and modernized the look along the way.
 This will also allow us to expand search and filtering with more powerful
 features in the future.
@@ -159,8 +161,8 @@ action. But there are many scenarios where you may want to undo your approval.
 
 Perhaps you saw something in the diff that you missed earlier.
 Or maybe another approver brings up another point of discussion,
-and so the approver wants to remove their approval in the mean time,
-and apply it back later.
+and so the approver wants to remove their approval in the meantime,
+and reapply it later.
 
 ![Unapprove merge requests in GitLab 8.16](/images/8_16/unapprove_merge_request.png){: .shadow}
 
@@ -174,7 +176,7 @@ approving and removing approvals.
 Updated approvals are available in GitLab Enterprise Edition Starter, Premium
 and on GitLab.com.
 
-## Deploy keys with write-access
+## Deploy keys with write access
 
 [Deploy keys][deploy-key-docs] are ideal for giving limited read access to your repository from external sources, for instance for deploys.
 
@@ -215,13 +217,13 @@ be executed on submission.
 You can now even merge using a slash command. Type `/merge` and the merge
 request will be merged when it's ready, given you have permission to do so.
 
-GitLab has a large amount of slash commands, [view them all here][slash-commands].
+GitLab has a large number of slash commands, [view them all here][slash-commands].
 
 [slash-commands]: https://docs.gitlab.com/ee/user/project/slash_commands.html
 
 ## Streamlining project settings and navigation
 
-Here at GitLab we iterate quickly. So every now and then we re-visit and
+Here at GitLab we iterate quickly. So every now and then we revisit and
 streamline our settings and navigation to accommodate.
 
 In GitLab 8.15, the project settings dropdown menu had
@@ -386,7 +388,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition Starter and Premium.
+The mentioned EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition Starter and Premium.
 For a complete overview please have a look at [all GitLabs products](https://about.gitlab.com/products/).
 
 Access to GitLab Enterprise Edition is included with a
