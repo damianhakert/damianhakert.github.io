@@ -14,7 +14,7 @@ category: Support Workflows
 
 ## Issue Escalations
 
-Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues. 
+Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues.
 
 + [Templates](#Templates)
   + [Bug Report](#Bug-Report)
@@ -30,7 +30,7 @@ Escalating GitLab issues correctly is an important part of providing quick and a
 ### Bug Report
 
 ```
-ZD: 
+ZD:
 
 ## Summary
 
@@ -68,7 +68,7 @@ Include problem, use cases, benefits, and/or goals
 
 ____________
 
-Related links: 
+Related links:
 ```
 
 Required Tags: `feature proposal`, `customer`, `customer+` for Premium subscribers.
@@ -112,12 +112,12 @@ See [Information Gathering](#Information-Gathering) for *Application and environ
 #### GitHost.io
 
 + GitHost project: https://dev.gitlab.org/gitlab/GitHost
-+ GitHost service: <http://githost.io> 
++ GitHost service: <http://githost.io>
 
 
 #### Omnibus GitLab
 
-+ Related to Omnibus GitLab packaging only. 
++ Related to Omnibus GitLab packaging only.
 + GitLab omnibus release packages: https://packages.gitlab.com/gitlab
 
 
@@ -137,11 +137,11 @@ See [Information Gathering](#Information-Gathering) for *Application and environ
     +  **Description** *"Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP requests such as file downloads, file uploads, Git push/pull and Git archive downloads."*
 
 
-#### GitLab Infrastructure 
+#### GitLab Infrastructure
 
-+ Information on GitLab Infrastructure 
++ Information on GitLab Infrastructure
     + Slack: https://gitlab.slack.com/archives/infrastructure
-    + https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/ (Probably outdated) 
+    + https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/ (Probably outdated)
 
 ## Information Gathering
 
