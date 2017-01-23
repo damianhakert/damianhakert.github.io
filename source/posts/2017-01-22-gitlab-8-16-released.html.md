@@ -396,4 +396,7 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our upcoming webcast about &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab 8.16</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+&nbsp;&nbsp;on January 26. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html?utm_medium=blog&utm_source=blog&utm_campaign=816+release+webcast&utm_content=register+now+button">Register here</a>!</p>
+
 ----
