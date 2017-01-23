@@ -41,14 +41,14 @@ sure to mention someone in the other group(s) as you soon as you start working o
 This allows others to give you early feedback, which should save you time in the
 long run.
 2. Security: If a frontend developer needs to touch controller code, a
-backend developer/miniboss/endboss should do a thorough review.
+backend developer / reviewer / maintainer should do a thorough review.
 3. Big features/moonshots: If we do something ambitious where there are
 no previous examples and requires a high degree of complexity in both
 frontend and backend, form a team upfront that has UX designers, frontend, and
 backend engineers.
-4. Final review: A final review of a merge request should be made by an endboss.
-If it is mainly frontend code it should be reviewed by a frontend endboss, and if it is mainly backend code it should be
-reviewed by a backend endboss.
+4. Final review: A final review of a merge request should be made by a maintainer.
+If it is mainly frontend code it should be reviewed by a frontend maintainer, and if it is mainly backend code it should be
+reviewed by a backend maintainer.
 
 ## Developers on Support Team Rotation
 

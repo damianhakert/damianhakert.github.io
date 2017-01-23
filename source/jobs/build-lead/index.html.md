@@ -19,3 +19,6 @@ report to the Build Lead.
 * Ensures that product features are supported within the supported packages
 * Ensures the quality of implementation
 * Ensures the simplicity of added features
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

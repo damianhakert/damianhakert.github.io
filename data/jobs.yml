@@ -23,11 +23,35 @@
   apply:
   open: false
 
-- title: "Backend Developer"
+- title: "Backend Lead"
+  description: /jobs/backend-lead/
+  salary: 87337
+  apply:
+  open: false
+
+- title: "Build Lead"
+  description: /jobs/build-lead/
+  salary: 87337
+  apply:
+  open: false
+
+- title: "CI Lead"
+  description: /jobs/ci-lead/
+  salary: 87337
+  apply:
+  open: false
+
+- title: "Developer"
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
+
+- title: "Edge Lead"
+  description: /jobs/edge-lead/
+  salary: 87337
+  apply:
+  open: false
 
 - title: "Senior Backend Developer, CI/CD Pipelines"
   description: /jobs/developer-ci/
@@ -47,12 +71,13 @@
 
 - title: "Database Specialist"
   description: /jobs/specialist/database/
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/329033/candidates/new
   open: true
 
 - title: "Senior Backend Developer, Distributed Systems Specialist"
   description: /jobs/specialist/distributed-systems/
-  apply: https://gitlab.workable.com/jobs/XXX/candidates/new
+  apply: https://gitlab.workable.com/jobs/413524/candidates/new
   open: true
 
 - title: "Director of Customer Success"
@@ -73,7 +98,7 @@
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
   salary: 83132
-  apply: 
+  apply:
   open: false
 
 - title: "Frontend Lead"
@@ -81,8 +106,15 @@
   apply: https://gitlab.workable.com/jobs/409394/candidates/new
   open: true
 
+- title: "Issue Triage Specialist"
+  description: /jobs/specialist/issue-triage
+  salary: 87337
+  apply:
+  open: false
+
 - title: "Support Lead"
   description: /jobs/support-lead/
+  salary: 75500
   apply: https://gitlab.workable.com/jobs/340051/candidates/new
   open: true
 
@@ -104,6 +136,12 @@
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
   open: true
 
+- title: "Production Lead"
+  description: /jobs/production-lead/
+  salary: 110295
+  apply:
+  open: false
+
 - title: "Director of Sales Operations"
   description: /jobs/director-sales-operations/
   apply:
@@ -111,6 +149,7 @@
 
 - title: "Security Engineer"
   description: /jobs/security-engineer/
+  salary: 87337
   apply:
   open: false
 
