@@ -61,7 +61,7 @@ These are the members of your team that are most likely to interact with us. We 
 - [ ] Partner email address added to partner newsletter mail list @scornille
 
 ### Training
-- [ ] Partner read [Reseller Handbook](https://about.gitlab.com/handbook/resellers/). Especially familiarize yourself with the Order Processing & [Marketing Fund](https://about.gitlab.com/handbook/resellers/#marketing) allocation sections. 
+- [ ] Partner read [Reseller Handbook](https://about.gitlab.com/handbook/resellers/). Especially familiarize yourself with the Order Processing & [Marketing Fund](https://about.gitlab.com/handbook/resellers/#marketing) allocation sections.
 
 ### Lead Management
 - [ ] mailtosfdc set up for partner team members @malessio . (This will enable easy lead activity tracking. See [reseller handbook](https://about.gitlab.com/handbook/resellers/)   
@@ -105,7 +105,7 @@ Within 3 weeks of signing:
 - [ ] Reseller added to about.gitlab.com/resellers @malessio   
 
 ### Lead Management
-- [ ] Campaign for reseller introduction to all names in region @joelucas  
+- [ ] Campaign for reseller introduction to all names in region  
 
 Within 1 Month of Signing
 ======================
@@ -129,7 +129,7 @@ Within 60 days of signing:
 =====================
 ### Press Release
 - [ ] Press release localised `partner`
-- [ ] Press release placed in local publications `partner` 
+- [ ] Press release placed in local publications `partner`
 
 Within 90 days of signing:
 =====================

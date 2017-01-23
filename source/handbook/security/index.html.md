@@ -35,8 +35,16 @@ title: Security Handbook
 1. Do not allow your web browser (e.g. Chrome, Safari) to store passwords when prompted. This presents an unnecessary risk and is redundant as 1Password should serve as the sole password management application.
 1. Enable two-factor authentication (2FA) with [1Password TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
-1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may
-   use [FileVault] (for details, refer to [Apple Support](https://support.apple.com/en-in/HT204837)) and GNU/Linux users may use LUKS (for basic idea, refer to the [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Dm-crypt) for this.<a name="encrypt-home-folder"></a>
+1. Use **Full-Disk Encryption** on your work computer and phone. Mac users may<a name="encrypt-home-folder"></a>
+   use [FileVault] (for details, refer to [Apple Support](https://support.apple.com/en-in/HT204837))
+   and GNU/Linux users may use LUKS (for the basic idea, refer to the
+   [Arch Linux Wiki](https://wiki.archlinux.org/index.php/Dm-crypt)).
+   Closing the lid of your laptop, and thus suspending it to RAM, does NOT
+   protect you, even if your hard drive is encrypted. Power off your computer
+   completely (don’t just suspend it) when you think it’s at risk of falling
+   into someone else’s hands, like right before going through customs when
+   entering a new country. This defends against memory-based attacks. Read more
+   on the matter in [this article](https://theintercept.com/2015/04/27/encrypting-laptop-like-mean/).
 1. Set up a screen saver with **password lock** on your laptop. The timeout
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,

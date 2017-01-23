@@ -56,7 +56,7 @@
   locality: Amsterdam
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Edge Lead
+  reports_to: Gitaly Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -236,12 +236,14 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/field-marketing-manager/">Field Marketing Manager</a>
-  reports_to: Director of Demand Generation
+  reports_to: Interim VP of Marketing
   picture: emilykyle.jpg
   twitter: emilylucie
   gitlab: emilykyle
   maintains:  |
+              <li>GitLab Summit Expert</li>
               <li><a href="https://gitlab.mybrightsites.com/">Swag Queen</a></li>
+
   story: |
          After making it to round four of the Mars One selection process, Emily decided she would miss Mexican food too much on Mars,
          so she removed herself from the running. If the selection process taught her anything it was how critical collaboration is for getting things accomplished.
@@ -267,7 +269,7 @@
   locality: Hilversum
   country: The Netherlands
   role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: jnijhof.jpg
   twitter: jeroen_nijhof
   gitlab: jnijhof
@@ -286,7 +288,7 @@
 - name: Drew Blessing
   locality: Kearney, NE
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Staff Service Engineer</a>
   reports_to: Support Lead
   picture: drew.jpg
   twitter: drewblessing
@@ -307,11 +309,11 @@
   locality: Hilversum
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Infrastructure Director
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
-  specialty: Performance
+  specialty: Database
   maintains: |
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
@@ -506,8 +508,8 @@
   gitlab: rymai
   maintains: |
               <li>Backend merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="https://gitlab.com/help/user/project/slash_commands.md">Slash commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -578,6 +580,8 @@
   reports_to: CEO
   picture: kirsten.jpg
   gitlab: kirstenabma
+  maintains:  |
+              <li>GitLab Summit Expert</li>
   story:  |
           After spending time planning a TEDx event of 500 people, Kirsten realised she loves working at start ups
           and is crazy about organizing events. If you need anything arranged, from plane tickets to meeting schedules
@@ -597,8 +601,8 @@
 - name: Pablo Carranza
   locality: Zamora
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/production-lead/">Production Lead</a>
+  reports_to: Infrastructure Director
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
@@ -681,7 +685,7 @@
   locality: Lehi, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/online-marketing-manager/">Online Marketing Manager</a>
-  reports_to: Director of Demand Generation
+  reports_to: Interim VP of Marketing
   picture: mitchell.jpg
   twitter: mitchellbwright
   gitlab: mitchellwright
@@ -702,7 +706,7 @@
 - name: Braden Coleman
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: Braden.jpg
   twitter: jannandbraden
@@ -725,7 +729,7 @@
 - name: Ryan Caplin
   locality: Provo, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: ryan.jpg
   twitter:
@@ -796,8 +800,9 @@
   twitter: timothyandrew
   gitlab: timothyandrew
   maintains:  |
+               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
                <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
-               <li>Branch permissions expert</li>
+               <li>Branch Permissions <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -805,7 +810,7 @@
   locality: Gimo
   country: Sweden
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Edge Lead
+  reports_to: Gitaly Lead
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
@@ -907,7 +912,7 @@
   locality: Pleasant Grove, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/demand-generation-specialist/">Demand Generation Specialist</a>
-  reports_to: Director of Demand Generation
+  reports_to: Interim VP of Marketing
   picture: colton.jpg
   twitter: ctaylor021
   gitlab: cdtaylor
@@ -952,7 +957,9 @@
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
-  maintains: Community writers program
+  maintains: |
+              <li><a href="/handbook/marketing/blog/community-writers/">Community Writers Program</a> Lead</li>
+              <li><a href="/handbook/marketing/developer-relations/technical-writing/markdown-guide/">Markdown Kramdown</a> <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
@@ -1025,7 +1032,7 @@
   locality: Nashville, TN
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: northrup.png
   twitter: northrup
   gitlab: northrup
@@ -1039,7 +1046,7 @@
   locality: Astana
   country: Kazakhstan
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: marat.png
   twitter: maratkalibek
   gitlab: maratkalibek
@@ -1055,7 +1062,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Gitaly Lead
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
@@ -1090,6 +1097,8 @@
   picture: brittanyrohde.jpg
   twitter: brittany_rohde
   gitlab: brittanyr
+  maintains:  |
+              <li>GitLab Summit Expert</li>
   story:  |
            Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake.
 
@@ -1122,22 +1131,6 @@
           as a freelance product designer. Outside of work, she loves reading (Chinese chivalry novels,
           design, business, and inspirational), travel, and food. She’s also a cat lover.
 
-- name: Joe Lucas
-  locality: Murrells Inlet, SC
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/director-demand-generation/">Director of Demand Generation</a>
-  reports_to: Interim VP of Marketing
-  picture: JoeLucas.jpg
-  twitter: joelucas
-  gitlab: joelucas
-  story:  |
-          Joe is passionate about demand gen, marketing automation, and technology
-          in general.  His background is in analytics and web development and he
-          brings a similar mindset to marketing.  Prior to joining GitLab, Joe has
-          worked at InsideView, InboundWriter, Eightfold Logic, and ClickTracks.
-          When he's not working you can usually find Joe riding his motorcycle and
-          enjoying all that the beautiful South Carolina coast has to offer.
-
 - name: Tiago Botelho
   locality: Coimbra
   country: Portugal
@@ -1157,7 +1150,7 @@
   locality: Austin, TX
   country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: alex.jpg
   twitter: purrdeta
   gitlab: ahanselka
@@ -1211,7 +1204,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/bdr-manager/">BDR Manager</a>
-  reports_to: Director of Demand Generation
+  reports_to: Interim VP of Marketing
   picture: chet.jpg
   twitter: chetbackman
   gitlab: chetbackman
@@ -1223,7 +1216,7 @@
   locality: Cairo
   country: Egypt
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Gitaly Lead
   picture: ahmad.jpg
   twitter: ahmadsherif
   gitlab: ahmadsherif
@@ -1323,7 +1316,7 @@
   locality: Spokane, WA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/marketing-operations-manager/">Marketing Operations Manager</a>
-  reports_to: Director of Demand Generation
+  reports_to: Interim VP of Marketing
   picture: jennifer.jpg
   twitter: JJCordz
   gitlab: jjcordz
@@ -1362,7 +1355,7 @@
 - name: Kris Touzel
   locality: Myrtle Beach, SC
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: kris.jpg
   twitter: kris_touzel
@@ -1447,7 +1440,7 @@
 - name: Dan Parris
   locality: Maryland
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: dan-picture.jpg
   twitter: _dparris
@@ -1539,7 +1532,7 @@
 - name: Kyla Gradin
   locality: Fargo, North Dakota
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative - Inbound</a>
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
   picture: kyla.jpg
   twitter: KylaGradin
@@ -1613,6 +1606,7 @@
   twitter: niedzielskiadam
   gitlab: adamniedzielski
   maintains:  |
+              <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Adam is a programmer that loves teaching people how to write code
@@ -1643,7 +1637,7 @@
   locality: Washington, DC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/security-engineer/">Security Lead</a>
-  reports_to: VP of Engineering
+  reports_to: Infrastructure Director
   picture: brianneel.jpg
   twitter: b0bby_tables
   gitlab: briann
@@ -1715,8 +1709,8 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative 
+  reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
   gitlab: darin
@@ -1793,8 +1787,8 @@
 - name: Brent Jensen
   locality: Springville, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead-outbound/">Business Development Team Lead - Outbound Team</a>
-  reports_to: BDR Manager
+  role: Sales Development Team Lead
+  reports_to: Regional Sales Director - US
   picture: Brent.jpg
   twitter: btwosockz
   gitlab: brentj
@@ -1838,8 +1832,8 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: Sales Development Representative
+  reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
   gitlab: Nrflynn
@@ -2067,22 +2061,24 @@
   story:  |
           Joining November 28th
 
-- name: C.D.
-  locality:
-  country:
+- name: Courtney Davis
+  locality: Honolulu, HI
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: BDR Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: courtdavis.jpg
+  twitter: courtneydavis19
+  gitlab: courtdavis19
   story:  |
-          Joining December 1st
+          A Mid-Missouri native currently residing in the great Aloha State.
+          Prior to joining GitLab, Courtney worked in Business Development and Project Management for a mortgage company.
+          When she’s not at work she can be found free diving on the North Shore, dabbling in photography, ridge hiking, and traveling as much as possible.
 
 - name: J.A.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
-  reports_to: Reginoal Sales Director - US
+  reports_to: Regional Sales Director - US
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -2111,18 +2107,18 @@
   story:  |
           Coming from a background in computer engineering, Sam is fascinated by all things from the metal to the screen. He's found a passion for the frontend where he can flex his first love for design and UX. He spends most of his time working with JavaScript, CSS and HTML. Sam also enjoys creating mobile application in Swift and experimenting with machine learning using Python. Away from the desk, Sam might be found hiking the Appalachian Mountains, tracking his rides on Strava, working out with friends, or meal prepping for the week.
 
-- name: P.C.
-  locality:
-  country:
+- name: Paweł Chojnacki
+  locality: Poznań
+  country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: pawel_chojnacki.jpg
+  twitter: pawelchcki
+  gitlab: pchojnacki
   maintains: |
              <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
   story:  |
-          Joining January 2nd
+          Paweł started programming computers when he first got his hands on C64 as a kid. When he's not developing software (preferably using functional paradigms), he can be seen writing Chef recipes and is always on a lookout for solutions to difficult problems. He likes to read about distributed systems and at one point even considered moving to the Paxos island. When away from keyboard he likes to spend time with his family and enjoys good sci-fi, also can be seen soldering things together.
 
 - name: Toon Claes
   locality: Herentals
@@ -2205,7 +2201,7 @@
   locality: Florence
   country: Italy
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Production Lead
   picture: daniele.jpg
   twitter: escociao
   gitlab: omame
@@ -2214,16 +2210,16 @@
           In his teenage years he replaced lego with pc components and suddenly his room became a messy computer lab.
           In his professional career he managed a diverse set of infrastructures, from just a bunch of nodes to multiple DCs in different continents.
 
-- name: J.L.
-  locality:
-  country:
+- name: Joshua Lambert
+  locality: Philadelphia
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager, Prometheus</a>
   reports_to: Head of Product
-  picture: logo-extra-whitespace.png
+  picture: joshua.png
   twitter:
-  gitlab:
+  gitlab: joshlambert
   story:  |
-          Joining January 9th
+          Josh's passion with computers started in elementary school when his parents brought an IBM PCjr home along with a book on BASIC. In his teenage years he spent time working on a variety of coding projects and assembling his own computers. He developed a love for product management 6 years ago, while working on a solution in the mobile productivity space. When not spending time with his family or working on technology, he tries to get out skiing and playing tennis.
 
 - name: E.E.
   locality:
@@ -2251,8 +2247,8 @@
 - name: A.N.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/performance-lead/">Performance Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/gitaly-lead/">Gitaly Lead</a>
+  reports_to: Infrastructure Director
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -2302,3 +2298,27 @@
   gitlab:
   story:  |
           Joining February 6th
+
+- name: "Ernst (Interim)"
+  placeholder: true
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Open Position
+
+- name: "Sid (Interim)"
+  placeholder: true
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/infrastructure-director/">Infrastructure Director</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Open Position

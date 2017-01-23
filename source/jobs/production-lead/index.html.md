@@ -1,10 +1,10 @@
 ---
 layout: job_page
-title: "Infrastructure Lead"
+title: "Production Lead"
 ---
 
-The Infrastructure Lead reports to the VP of Engineering. Production engineers
-and performance specialists reports to the Infrastructure Lead.
+The Production Lead reports to the Infrastructure Director. Production engineers
+report to the Production Lead.
 
 ## Responsibilities
 

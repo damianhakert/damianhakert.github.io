@@ -11,12 +11,15 @@ title: "Engineering"
 ## Engineering Groups
 
 - [Support](/handbook/support)
-- [Infrastructure](/handbook/infrastructure)
 - [Backend](/handbook/backend)
 - [Edge](/handbook/edge)
 - [Frontend]() TODO
-- [Packaging]() TODO
+- [Build]() TODO
 - [UX](/handbook/ux)
+- [Infrastructure](/handbook/infrastructure)
+  - [Security](/handbook/security)
+  - [Database](/handbook/database)
+  - [Gitaly](/handbook/gitaly)
 
 ### Collaboration
 
