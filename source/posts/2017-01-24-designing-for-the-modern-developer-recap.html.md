@@ -3,7 +3,7 @@ title: "Designing for the Modern Developer"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
 categories: webcast
-image_title: '/images/blogimages/infrastructure.jpeg'
+image_title: '/images/blogimages/designing-for-the-modern-developer.jpg'
 description: "Recap and recording from our recent webcast featuring the GitLab user experience (UX) team"
 ---
 
@@ -47,5 +47,6 @@ We also build things that we ourselves don’t currently need.
 >  You can learn more about this in our recent [blog post](https://about.gitlab.com/2017/01/09/the-importance-of-ux-personas/), and help us out by taking our ongoing [survey](https://www.surveymonkey.co.uk/r/GitLab)!
 
 
+Image: "[sampa](https://www.flickr.com/photos/hernaniarruda/16024464453/in/photolist-qq2yZT-sgt2yF-7kjkZG-bpqhWW-qK4vh3-h5B9UC-oMCrUi-9gJKpU-qWQeTi-efnWXn-pUhcrR-8fm1cc-psKrue-pPHawe-oLfbtH-aE5xLy-ovkdF6-9J1mSD-qGZKyD-ps6b83-iDk8ZW-r1Eduf-pxdXhK-8ffsfR-tR6G7-9ULyyQ-9sWDsM-sUBfz-pJ3tgC-e1Zp8e-9nvpUp-8uWnRL-dFpn8i-qLHf7Q-dtGP2q-piCCWY-sUBp9-pMA9nZ-opiyKu-5AQt2T-h2GewF-iQ8pKS-pt4Ah9-ibqdjv-rdM7zG-fsnLCo-HPffno-oriCvu-6ogK2M-gUBxEg)" by [Hernani Arruda Monteiro da Silva](https://www.flickr.com/photos/hernaniarruda/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
 
 
