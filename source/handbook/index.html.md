@@ -713,6 +713,10 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
+Consider installing the [Zoom Scheduler](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle) Chrome Extension to make it easy to attach a Zoom meeting to a Google calendar event.
+This extension adds a 'Make it a Zoom meeting' button in Google Calendar.
+This helps to prevent a situation where a calendar event has both a Zoom meeting and a Hangouts meeting: this is confusing and some people will end up in Hangouts, others in Zoom.
+
 ### Google Cloud
 
 All users with a gitlab.com e-mail account have access to an internal Google
