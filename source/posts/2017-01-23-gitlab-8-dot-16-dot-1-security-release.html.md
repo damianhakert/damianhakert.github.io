@@ -20,7 +20,7 @@ would not otherwise be able to view, which would "subscribe" them to the
 notifications for that resource and allow them to receive future updates about
 it, which may contain sensitive information. See
 [#26249](https://gitlab.com/gitlab-org/gitlab-ce/issues/26249) and
-[#26259](https://gitlab.com/gitlab-org/gitlab-ce/issues/26250) for more details.
+[#26250](https://gitlab.com/gitlab-org/gitlab-ce/issues/26250) for more details.
 
 ## Prevent users from deleting system deploy keys via the project deploy key API
 
