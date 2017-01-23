@@ -76,7 +76,7 @@ Required Tags: `feature proposal`, `customer`, `customer+` for Premium subscribe
 See [Information Gathering](#Information-Gathering) for *Application and environment information* section
 
 
-**Important Note** : Make sure you first check with the customer before using any image in an issue which is provided by the customer.
+**Important Note** : If an image is required for the issue. Try to produce your own test image for that. If you are unable to reproduce the issue and using the image provided by the customer make sure you first check with the customer if it includes any sensitive information like names, group names, user names, or code before using the image in an issue.
 
 ## Functional escalation points
 
