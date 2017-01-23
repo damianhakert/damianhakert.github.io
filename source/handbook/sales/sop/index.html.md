@@ -38,10 +38,16 @@ Processes for Sales.
 1. Standard Record Type should be used for all non-reseller partner accounts.
 1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
-1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form.
+1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form. This field is calculed from the Shipping Country.
  * NL
  * US
-1. Sales rep will choose the Entity from the Dropdown
+ * UK
+1. The entity field will be populated via the following rules:
+ * Non-reseller accounts in the UK will be billed from the UK entity.
+ * Non-reseller accounts in the Netherlands will be billed from the BV (NL) entity.
+ * All non-reseller accounts outside of the UK and the Netherlands will be billed from the US entity.
+ * Reseller accounts outside of the US will be billed from the BV (NL) entity.
+ * Reseller accounts in the US will be billed from the US entity.
 
 #### Step 2 - Contacts
 
