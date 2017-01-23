@@ -171,8 +171,7 @@ or be in complete control over the change management within their organization.
 Finally, this edition is for corporations with various compliances and
 certifications.
 
-For each edition, we should be able to address at least one, if not two,
-of these questions:
+For each edition, we should be able to address these questions:
 
 * can this edition allow the team to be X times more productive than with the
 edition below it?
