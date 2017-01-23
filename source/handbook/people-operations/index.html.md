@@ -43,7 +43,7 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 ## Letter of Employmnet and Reference Request Policy
 
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. 
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share.
 
 Team members are not authorized by the company to speak on its behalf to complete reference requests for team members no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
 
@@ -135,6 +135,29 @@ the current settings which show all the people and numbers that are alerted when
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
 
+## Mental Health Awareness
+
+1. At GitLab we strive to create a Stigma-Free Workplace. In accordance with the National Mental Health Association and the National Council for Behavioral Health we would like to:
+  * Educate employees about the signs and symptoms of mental health disorders.
+  * Encourage employees to talk about stress, workload, family commitments, and other issues.
+  * Communicate that mental illnesses are real, common, and treatable.
+  * Discourage stigmatizing language, including hurtful labels such as “crazy,” “loony” or “nuts.”
+  * Help employees transition back to work after they take leave.
+  * Consult with your employee assistance program.
+
+1. What are we doing to get there?
+  * Per an open [issue](https://gitlab.com/gitlab-com/peopleops/issues/138), People Operations will be developing training for managers on this topic.
+  * GitLab would also like to encourage team members to take their [time off](https://about.gitlab.com/handbook/#paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
+  * In addition to our current EAP programs available for employees, we encourage team members to take a look at (Working Through It)(http://www.workplacestrategiesformentalhealth.com/wti/Home.aspx) for insight into reclaiming well-being at work, off work, and return to work.
+  * We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive.
+    * For example, Finding the right words:
+      * "How can we help you do your job?"
+      * "You’re not your usual self."
+      * "Do you want to talk about it?"
+      * "It's always OK to ask for help."
+      * "It’s hard for me to understand exactly what you’re going through, but I can see that it’s distressing for you."
+
+Any questions or concerns? Please feel free to speak with anyone in People Ops!  
 
 ## Dutch work permits
 
