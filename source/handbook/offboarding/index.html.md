@@ -176,8 +176,10 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR SALES AND FINANCE ONLY
 
-1. [ ] Finance: Remove from Comerica (as user or viewer only if in Finance)
-1. [ ] Finance: Remove from [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
+1. [ ] Finance: Remove from Comerica.
+1. [ ] Finance: Mark as "Inactive" within NetSuite and restrict user access.
+1. [ ] Finance: Remove from Zuora, if applicable.
+1. [ ] Finance: Remove from Stripe, if applicable.
 1. [ ] Hiring Manager: Remove from sales meeting.
 1. [ ] Hiring Manager: Remove from [Recurly](https://app.recurly.com/login)
 1. [ ] People Ops: remove team member's Zoom account.
