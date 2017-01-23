@@ -107,6 +107,13 @@ user friendly way.
 
 [Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
 
+## Time Tracking
+Time Tracking in GitLab Enterprise Edition lets your team add estimates and record
+time spent on issues and merge requests. There is no need to use external tools
+anymore.
+
+[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
+
 ### Continuous Integration
 
 GitHub integrates with popular, external CI platforms.

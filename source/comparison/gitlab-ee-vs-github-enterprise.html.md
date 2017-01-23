@@ -128,13 +128,6 @@ other non-text files.
 
 [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
 
-## Time Tracking
-Time Tracking in GitLab Enterprise Edition lets your team add estimates and record
-time spent on issues and merge requests. There is no need to use external tools
-anymore.
-
-[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
-
 ### Monitoring built-in
 GitLab ships with an open source monitoring solution, Prometheus, which offers
 world-class monitoring of the GitLab server's resources.
