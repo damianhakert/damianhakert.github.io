@@ -9,7 +9,7 @@ San Francisco (Jan 17, 2017) – GitLab announced a new partnership today with [
 
 For Eliran Mesika, the Director of Strategic Partnerships at GitLab, the partnership with Rollbar is a "great tool for error detection and analysis, and will add a lot of insight for GitLab users, connecting error data to code".
 
-Rollbar joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please [visit our application page](https://about.gitlab.com/applications/). For a limited time, GitLab users who sign up to Rollbar can get 100,000 errors monitored for [free](https://rollbar.com/gitlabs).
+Rollbar joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please [visit our application page](https://about.gitlab.com/applications/). For a limited time, GitLab users who sign up to Rollbar can get 100,000 errors monitored for [free](https://rollbar.com/gitlab).
 
 About GitLab’s Global Partner Program
  
