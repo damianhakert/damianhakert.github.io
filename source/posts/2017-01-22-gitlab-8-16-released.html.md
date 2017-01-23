@@ -191,21 +191,23 @@ Deploy keys with write access was contributed by [Ali Ibrahim](https://gitlab.co
 
 [deploy-key-docs]: https://docs.gitlab.com/ce/ssh/README.html
 
-## Limit Shared Runner Usage (EE Starter, Premium)
+## Limit Shared Runner Usage (EE Starter/Premium)
 
 Not only does GitLab CI scale up automatically based on demand,
-shared runners make it incredibly easy to offer CI to your entire organisation.
+shared Runners make it incredibly easy to offer CI to your entire organisation.
 In fact, it's so easy to offer CI services that we saw a need arise to be able
 to limit the usage of those shared resources.
 
 ![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm1.png){: .shadow}
 
 With GitLab 8.16 Enterprise Edition you can limit build minutes of shared
-runners per group. Once surpassed, pipelines will no longer execute on shared
-runners. This will allow you to prevent over-usage of shared resources when
+Runners per group. Once surpassed, pipelines will no longer execute on shared
+Runners. This will allow you to prevent over-usage of shared resources when
 using GitLab CI.
 
 ![Limit build minutes usage in GitLab 8.16 EE](/images/8_16/bm2.png){: .shadow}
+
+> [Read more about the Shared Runners build minutes quota](https://docs.gitlab.com/ee/user/admin_area/settings/continuous_integration.html#shared-runners-build-minutes-quota)
 
 ## Introduce a new `/merge` slash command for merge requests
 
