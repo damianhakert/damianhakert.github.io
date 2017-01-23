@@ -3,6 +3,9 @@
   - description: Edit files, directories and create merge requests straight from the web interface
     link: https://docs.gitlab.com/ce/workflow/web_editor.html
     in_ce: true
+  - description: Time Tracking
+    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
+    in_ce: true
   - description: Cycle Analytics
     link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
     in_ce: true
@@ -15,9 +18,6 @@
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: https://docs.gitlab.com/ee/pages/README.html
     in_ee: true
-  - description: Time Tracking
-    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
-    in_eep: true
 
 - title: Extended authentication and authorization integration
   features:
