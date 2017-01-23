@@ -239,9 +239,9 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 > [GitLab 8.14 Release Post](https://about.gitlab.com/2016/11/22/gitlab-8-14-released/)
 
-### Time Tracking Beta (EE Premium)
+### Time Tracking Beta
 
-With the introduction of the Time Tracking Beta (available in [Enterprise Edition Premium](https://about.gitlab.com/products/)), companies that need time tracking tools can use them right from within GitLab. 
+With the introduction of the Time Tracking Beta, companies that need time tracking tools can use them right from within GitLab. 
 
 ![Time Tracking](/images/8_14/time.gif)
 
