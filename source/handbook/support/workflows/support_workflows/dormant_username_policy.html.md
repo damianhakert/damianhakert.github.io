@@ -61,9 +61,17 @@ If the username owners makes no response follow these steps:
 1. Apply the **“Account::Dormant Username::Successful Username Request”** Macro to the **username requesters ticket** and mark the ticket as **Solved**. 
 2. Mark the **username owners ticket** as **Solved**
 
+
 ##### Username is not available 
 
 1. Apply **"Account::Dormant Username::Failed Username Request"** Macro and mark ticket as **Solved**
+
+
+##### FAQs
+
+1. Does a login in response to dormant request mean that the account is active? No, the user has to explicitly reply to the dormant request saying "I want to keep my username". If the user hasn't responded and has just logged in, send a final message saying something like, "I see you logged in at X, but you need to let us know here if you want to keep your username".
+1. What constitutes data in the account? A group, a project, etc. means data. Even if the project or group is empty.
+
 
 __________________
 
