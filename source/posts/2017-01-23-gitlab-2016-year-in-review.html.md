@@ -5,6 +5,8 @@ author_twitter: connorjshea
 categories: GitLab
 image_title: 
 description: 
+cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
+cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html?utm_medium=blog&utm_source=blog&utm_campaign=816+release+webcast&utm_content=register+now+button
 ---
 
 At GitLab, we believe the best approach to software delivery is to ship quicky and often.
@@ -113,7 +115,7 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 ### File Locking (EE Premium)
 
-[File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that can be used to prevent binary files from being overridden. This is useful for many use cases, like game development with models, art assets, and sound files or on a website when editing a graphic. 
+[File Locking](https://docs.gitlab.com/ee/user/project/file_lock.html) is an EE Premium feature that can be used to prevent binary files from being overridden. This is useful for many use cases, like game development with models, art assets, and sound files or on a website when editing a graphic. File Locking also works for non-binary files.
 
 ### Environments
 
@@ -257,7 +259,7 @@ For more information on Review Apps, see [our feature highlight blog post](https
 
 > [GitLab 8.15 Release Post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/)
 
-Rounding off the year with GitLab 8.15, we finished the base of our idea-to-production toolset. Moving on to 2017, we'll be building on our current product to make it easier to use and more powerful.
+Rounding off the year with GitLab 8.15, we finished the base of our [idea-to-production](https://about.gitlab.com/2016/09/13/gitlab-master-plan/) toolset. Moving on to 2017, we'll build on our current product to make it easier to use and more powerful.
 
 ### Auto Deploy
 
