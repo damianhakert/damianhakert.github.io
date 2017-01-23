@@ -4,7 +4,7 @@ author: Connor Shea
 author_twitter: connorjshea
 categories: GitLab
 image_title: /images/2016-year-in-review/gitlab-2016-in-review-cover.png
-description: 
+description: We’re proud to announce that we closed 2016 with the entire idea-to-production workflow, as promised! These are the highlights!
 cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
 cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html?utm_medium=blog&utm_source=blog&utm_campaign=816+release+webcast&utm_content=register+now+button
 ---
