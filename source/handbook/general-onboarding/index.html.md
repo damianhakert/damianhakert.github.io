@@ -152,6 +152,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
 1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops (Recruiter): [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
+1. [ ] Finance: Add new team member to NetSuite. If new team member is an employee, create both a Vendor and Employee record within NetSuite. For contractors, only a Vendor record is required. Be sure to add the team member's email address and department to appropriate fields within these records.
 1. [ ] People Ops (Recruiter): Add new team member to the info sheets of the next Summit if applies.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops (Recruiter): [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
@@ -240,7 +241,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Finance: Add team member to Comerica (as user), if approved by Controller. Required information includes email address and phone number.
 1. [ ] New team member: Leave a comment in this issue with your phone number and GitLab email address. This is required for you to be added to Comerica. 
-1. [ ] Finance: Add to [NetSuite users](https://about.gitlab.com/handbook/hiring/) (finance only)
+1. [ ] Finance: Add to [NetSuite users] and define role (AP clerk, AR clerk, etc.)
 1. [ ] Finance: Order company credit card (for all sales team members who are employees)
 1. [ ] People Ops (Recruiter): If credit card holder, add to expense report calendar reminder
 1. [ ] Hiring Manager: Create Issue for [Sales Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/).  Naming convention for issue is "New hires name - Sales Bootcamp".  Due date is 30 days after start date.
