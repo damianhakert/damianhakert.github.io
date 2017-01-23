@@ -3,13 +3,13 @@ layout: markdown_page
 title: "GitLab adds Rollbar to Global Partnership Program"
 ---
 
-San Francisco (Jan 17, 2017) – GitLab announced a new partnership today with [Rollbar](https://rollbar.com/), a leader in providing real-time error monitoring for web and mobile software applications. The partnership combines GitLab and Rollbar’s capabilities to allow developers to choose from even more tools to support an integrated software development lifecycle.
+San Francisco (Jan 19, 2017) – GitLab announced a new partnership today with [Rollbar](https://rollbar.com/), a leader in providing real-time error monitoring for web and mobile software applications. The partnership combines GitLab and Rollbar’s capabilities to allow developers to choose from even more tools to support an integrated software development lifecycle.
 
 “We want to help developers build and maintain software, quickly and painlessly,” said Brian Rue, CEO and co-founder of Rollbar. "We've built a deep integration between our two platforms in order to speed up error detection and resolution times for our many joint customers. We're excited to partner with GitLab and integrate Rollbar into GitLab's existing and future products.
 
 For Eliran Mesika, the Director of Strategic Partnerships at GitLab, the partnership with Rollbar is a "great tool for error detection and analysis, and will add a lot of insight for GitLab users, connecting error data to code".
 
-Rollbar joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please [visit our application page](https://about.gitlab.com/applications/). For a limited time, GitLab users who sign up to Rollbar can get 100,000 errors monitored for [free](https://rollbar.com/gitlab).
+Rollbar joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please [visit our application page](https://about.gitlab.com/applications/). For a limited time, GitLab users who sign up to Rollbar can get 100,000 errors monitored for [free](rollbar.com/gitlab2017/).
 
 About GitLab’s Global Partner Program
  
