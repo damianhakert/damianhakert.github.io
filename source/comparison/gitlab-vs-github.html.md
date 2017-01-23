@@ -117,5 +117,18 @@ if you choose to.
 
 [Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
 
+### Docker Registry support
+
+GitLab Container Registry is a secure and private registry for Docker images. It
+allows for easy upload and download of images from GitLab CI. It is fully
+integrated with Git repository management.
+
+[Documentation on Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html)
+
+### New features every month
+
+GitLab is updated very often. The schedule is predictable with a monthly release
+cycle.
+
 ### Don't take our word for it.
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
