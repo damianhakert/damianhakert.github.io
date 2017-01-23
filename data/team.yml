@@ -2255,13 +2255,13 @@
           Joining January 9th
 
 - name: Mike Bartlett
-  locality:London
-  country:U.K.
+  locality: London
+  country: U.K.
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
   reports_to: VP of Product
   picture: mikebartlett.png
-  twitter:mydigitalself
-  gitlab:mydigitalself
+  twitter: mydigitalself
+  gitlab: mydigitalself
   story:  |
           Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400. 
           He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff, 
