@@ -241,7 +241,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Finance: Add team member to Comerica (as user), if approved by Controller. Required information includes email address and phone number.
 1. [ ] New team member: Leave a comment in this issue with your phone number and GitLab email address. This is required for you to be added to Comerica. 
-1. [ ] Finance: Add to [NetSuite users] and define role (AP clerk, AR clerk, etc.)
+1. [ ] Finance: Add to NetSuite and define role (AP clerk, AR clerk, etc.)
+1. [ ] Finance: Add to Zuora, if applicable.
+1. [ ] Finance: Add to Stripe, if applicable.
 1. [ ] Finance: Order company credit card (for all sales team members who are employees)
 1. [ ] People Ops (Recruiter): If credit card holder, add to expense report calendar reminder
 1. [ ] Hiring Manager: Create Issue for [Sales Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/).  Naming convention for issue is "New hires name - Sales Bootcamp".  Due date is 30 days after start date.
