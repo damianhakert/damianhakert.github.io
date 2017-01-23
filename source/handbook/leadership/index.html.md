@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Leadership
+title: "Leadership"
 ---
 
 ## Leadership
