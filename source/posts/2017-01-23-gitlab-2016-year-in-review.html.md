@@ -16,7 +16,7 @@ are able to ship new improvements and features every month!
 
 So it should come as no surprise that in 2016, we shipped 12 new versions of GitLab!
 Included in those releases were major new features like [Issue Boards] and
-[Cycle Analytics], and the completion of our idea-to-production vision.
+[Cycle Analytics], and the completion of our idea-to-production [vision](/2016/09/13/gitlab-master-plan/#vision).
 
 <!-- more -->
 
