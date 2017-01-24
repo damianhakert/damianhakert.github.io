@@ -112,8 +112,8 @@
 
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
-  apply:
-  open: false
+  apply:https://gitlab.workable.com/backend/jobs/392010/candidates/new
+  open: true
 
 - title: "Junior Designer"
   description: /jobs/junior-designer/
