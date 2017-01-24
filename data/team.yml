@@ -1560,6 +1560,8 @@
   picture: jamesedwardsjones.jpg
   twitter: jamedjo
   gitlab: jamedjo
+  maintains:  |
+              <li>Backend merge request reviewer</li>
   story:  |
           James has been developing games and websites since childhood and studied Computer Science at university.
           He taught on a coding bootcamp in London, gaining a deeper understanding of the Ruby language to help answer unusual questions.
