@@ -247,7 +247,7 @@ Building on [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/
 
 ### Time Tracking Beta
 
-With the introduction of the Time Tracking Beta, companies that need time tracking tools can use them right from within GitLab.
+With the introduction of the [Time Tracking Beta](https://docs.gitlab.com/ce/workflow/time_tracking.html), companies that need time tracking tools can use them right from within GitLab.
 
 ![Time Tracking](/images/8_14/time.gif)
 
