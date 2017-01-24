@@ -8,7 +8,9 @@ for getting hired is high, our interview process is imperfect and later on we ma
 
 When it becomes clear to a manager that an individual isn't accomplishing
 enough or working well with others, here are guidelines for how to handle
-underperformance. Note that someone may be terminated without undertaking these steps if the damage caused by their actions is irreparable or goes against our core values and expected code of conduct. Please work with People Operations on all cases of underperformance to protect the organization and equally consider the side of the individual involved.
+underperformance.
+
+ Managers need to recognize poor performance and address it through PIPs. However, there are certain performance issues that need to be addressed and dealt with that will not follow the PIP process. Someone may be terminated without undertaking these steps if the damage caused by their actions is irreparable or goes against our core values and expected code of conduct. Please work with People Operations on all cases of underperformance to protect the organization and equally consider the side of the individual involved.
 
 1) Manager communicates to direct report during one-on-one that team member
 needs to improve. If there are extenuating circumstances some leeway may be
