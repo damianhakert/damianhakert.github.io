@@ -130,7 +130,10 @@ For more information, see [our blog post on Environments and Deployments](https:
 
 ### Priority Labels
 
-[Priority Labels](https://docs.gitlab.com/ce/user/project/labels.html#prioritize-labels)
+With GitLab 8.9, labels can be starred and added to a priority list.
+[Prioritized labels](https://docs.gitlab.com/ce/user/project/labels.html#prioritize-labels)
+are like any other label, but sorted by priority. This allows you to easily
+sort issues and merge requests by priority.
 
 ![Priority Labels](/images/8_9/plabels2.png)
 
