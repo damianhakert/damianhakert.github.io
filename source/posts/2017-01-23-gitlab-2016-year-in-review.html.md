@@ -24,11 +24,11 @@ For a visual of how far we’ve come, take a look at these two screenshots.
 
 An issue for GitLab Community Edition on January 22, 2016 (8.4):
 
-![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png){:.shadow}
+![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png)
 
 An issue for GitLab Community Edition on January 3, 2017 (8.15):
 
-![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png){:.shadow}
+![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png)
 
 ## January: 8.4
 
@@ -161,9 +161,11 @@ Our branch protection feature was improved with [Wildcard Branch Protection](htt
 
 ### Manual actions for CI
 
-[Manual actions](https://docs.gitlab.com/ce/ci/environments.html#manually-deploying-to-environments) were introduced for CI. This addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion.
+[Manual actions](https://docs.gitlab.com/ce/ci/environments.html#manually-deploying-to-environments) were introduced for CI. This addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion. 
 
 ![Manual Actions for CI](/images/8_10/ci_manual1.png){:.shadow}
+
+For more information, read the post "[Continuous Integration, Continuous Delivery, and Continuous Deployment with GitLab](/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/)".
 
 ## August: 8.11
 
@@ -211,7 +213,9 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ### Cycle Analytics
 
-The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. See [our feature highlight blog post](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
+The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. Cycle Analytics is the last step of the [GitLab Workflow](/2016/10/25/gitlab-workflow-an-overview/).
+
+See [our feature highlight blog post](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
 ![Cycle Analytics](/images/8_12/cycle_analytics.png){:.shadow}
 
