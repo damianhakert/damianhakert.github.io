@@ -31,40 +31,115 @@ We're still working to improve this demo further, please see [all open idea-to-p
 
 ## Preparation
 
-> * You need a working OpenShift Origin installation
->   * Our installation runs OpenShift Master v1.3.1 and Kubernetes Master v1.3.0+52492b4
-> * Login to OpenShift
->   * URL: [https://openshift.tanukionline.com:8443/console/](https://openshift.tanukionline.com:8443/console/)
->   * Username: gitlab-user
->   * Password: <from 1password>
-> * Delete previous Openshift projects using OpenShift web interface unless they have someone else their name.
+> * You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
+> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed .
+> * Login to Google Cloud Platform
+>   * URL: [https://console.cloud.google.com/start](https://console.cloud.google.com/start)
+> * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
+> * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 > * Go to 'Displays' settings, Resulution: Scaled, Larger text
-> * Open the [yaml template](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) in advance.
 > * Open this page on an Ipad that has screen lock disabled.
+> * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` clone.
+>   * Before the demo, run `gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
 
 ## Install GitLab itself
 
-The first step is to install GitLab itself. Today I'm going to use RedHat's Openshift, which is a Kubernetes platform that you can host yourself or use as a SaaS. We’re going to install everything from scratch and we’ll start by opening the Openshift web UI. Here we’ll create a new project named `gitlab`.
+The first step is to install GitLab itself. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google. We’re going to install everything from scratch and we’ll start by opening the Google Cloud Platform console UI.
 
-> * Open Openshift web UI and log in to [Openshift Origin](https://openshift.tanukionline.com:8443).
-> * Click New Project
-> Name it `firstname-gitlab` if running multiple demos
-> Create it
+> * Open [Google Cloud Platform console UI](https://console.cloud.google.com/start), your Google Account credentails should have you automatically logged in.
 
-And then we import an OpenShift template for a complete GitLab installation. We have to set a couple hostnames.
+We will start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
 
-> * Click on Import YAML/JSON
-> * Open in a browser: [YAML template in Omnibus repo](https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json) which is also linked from [our installation page](https://about.gitlab.com/installation/).
-> * Copy content of idea-2-prod-template.json
-> * Click Create, leave `Process the template` selected, click Continue
-> * Press button
-> * Continue to overview
+> * Navigate to `Container Engine` using the menu in the upper left.
+> * Click `Create cluster`, this will open a series of dialogs to complete.
 
-Boom, we’ve got a shiny new GitLab installation with several containers. They are running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, and GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes. It will take a few minutes for GitLab Rails to configure itself so it’s a good time to describe what we’re covering today.
+We will name this cluser "i2p-demo-user", have it created in the us-central zone, and make sure the machine type has at least 2 cpu for performance reasons.
+
+> * Name the cluster `i2p-demo-user`, where `user` is your name.
+> * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
+> * Change the number of vCPU in Machine type to `2 vCPU`.
+> * Click the `Create`  button at the bottom of the page.
+
+At this point, we will reserve an external IP address for the demo, so that we can use a domain name and Let's Encrypt for SSL.
+
+> * Navigate to `Networking` using the menu in the upper left.
+> * Select `External IP addresses` from the menu on the left.
+> * Click `Reserve static address` at the top of the page.
+> * Set the name to match the name used for the cluster (`i2p-demo-user`).
+> * Set the Region to `us-central1` to match the Zone where you made the cluster.
+> * Click the `Reserve` button at the bottom of the page.
+
+This will take just a moment while the system allocates the address.
+
+We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
+
+> * Copy the External Address from the list, from the line containing the name you used.
+> * Click `Cloud DNS` from the menu on the left.
+> * Click on the Zone that has the name of the domain to be used for the demo.
+> * Click on the `Add Record Set` button at the top of the page
+> * Set the DNS Name to `*`
+> * Set the IPv4 Address to the clipboard contents (the External Address you just copied)
+> * Click the `Create` button at the bottom of the page.
+
+Now that we have created the cluster and configured a world-reachable domain, we can go back and check on our cluster.
+
+> * Navigate to `Container Engine` from the menu in the top left.
+> * Confirm a green checkmark. This tells us the cluster is ready to be used.
+
+Good, our cluster is ready for us to use. Let us connect to it.
+
+> * Click on your cluster name from the list.
+> * Click on `Connect to the cluster` (this will open a dialog)
+
+We'll use the these commands, provided automatically by GKE to configure our access. These allow us to connect to and configure the cluster with the `kubectl` utility.
+
+> * Click the `copy` icon to the right of the `gcloud container ...` entry. It looks like two overlapping white boxes.
+> * Switch to the Terminal window, paste this command in, run it.
+
+Now that we have our access to the cluster configured, we're ready to generate our configuration. To do this, we'll need three (3) pieces of information:
+
+* The External Address we just configured, which will be `GITLAB_GKE_IP`
+* The domain for access, which will be `GITLAB_GKE_DOMAIN`
+* An email address to use with Let's Encrypt, which will be `GITLAB_LEGO_EMAIL`
+
+Let's go ahead and generate this now
+
+> * Stay in the Terminal window
+> * Compse the following, filling in your values from the previous steps:
+>   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=sid@gitlab.com bash generate.bash`
+> * You will see the output similar to
+>   * `Using gitlab-make-sid-dance-com.yml`
+
+Okay, now we have a configuration file that is ready to deploy! The `generate` script has filled in all the necessary information to the deployment file for us, and now we can deploy the entire installation with a simple command.
+
+> * From the Terminal window, run the following, changing the yml file name to match the name of the one that was just created for you
+>   * `kubectl create -f gitlab-make-sid-dance-com.yml`
+
+The `kubectl` command has now connected to our cluster on GKE and is deploying as we speak. Let's go take a look at the progress.
+
+> * From Terminal, run
+>   * `kubectl proxy`
+> * Go to Chrome, to the tab with Container Engine open.
+> * Click the small blue link to [http://localhost:8001/ui](http://localhost:8001/ui)
+
+Here is the Kubernetes dashboard. We will watch the status of deployment from Workloads page.
+
+> * First, change the `Namespace`  on the left. Change it from `default` to `All Namespaces`
+> * Click on `Workloads` on the left.
+
+We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
+
+> * Open a new Chrome tab and navigate to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
+
+While the system is deploying, it is expected that we will see a 503 message from the load balancer until GitLab has been fully started.
+
+> *Note:* You can expect that you will see a 503 message for a short period as everything comes online. Feel free to refresh the page and / or switch between the Kubernetes dashboard and the gitlab page.
+
+Boom, we’ve got a shiny new GitLab installation with several containers. They are running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, integrated Docker Registry, and GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes.
 
 In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
 
