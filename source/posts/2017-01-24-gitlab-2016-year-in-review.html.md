@@ -235,7 +235,7 @@ With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requ
 
 ### Multiple Issue Boards (EE Starter)
 
-Issue Boards were improved for [EE Starter](https://about.gitlab.com/products/) users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
+Issue Boards were improved for [EE Starter](https://about.gitlab.com/products/) users by allowing [more than one issue board](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
 
 ![Multiple Issue Boards](/images/8_13/m_ib.gif){:.shadow}
 
