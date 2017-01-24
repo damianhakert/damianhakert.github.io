@@ -254,6 +254,10 @@
   }
 }
 
+.featured-event-image {
+  min-height: 300px;
+}
+
 .clear-floats {
   clear: both;
 }
@@ -290,16 +294,15 @@
       padding: $padding-base-vertical $padding-base-horizontal;
       line-height: $line-height-base;
       text-decoration: none;
-      color: $pagination-color;
-      background-color: $pagination-bg;
+      color: $color-primary;
       margin-left: -1px;
       cursor: pointer;
     }
 
     &[active="true"] {
       span {
-        color: $color-dark;
         cursor: default;
+        text-decoration: underline;
       }
     }
   }
@@ -381,7 +384,6 @@
     }
 
     .featured-event-description {
-      text-align: center;
       margin-bottom: 45px;
     }
   }
@@ -399,6 +401,10 @@
 
   .event-list {
     width: 90%;
+
+    li:not(:first-child) {
+      margin-top: 20px;
+    }
   }
 
   .event-recap {

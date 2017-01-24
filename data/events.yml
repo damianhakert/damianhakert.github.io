@@ -1,192 +1,67 @@
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
+- topic: GitLab Meetup SF
+  type: Git Users
+  date: Feb. 23, 2017
   description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
+               Come hang out with the Bay Area GitLab staff and hear Sid give a brief rundown of the Complete Development Lifecycle with GitLab. Refreshments will be provided
+
   location: San Francisco, CA USA
-  social_tags: Git,Conference,VersionControl,Presenter
+  social_tags: GitLabSF, FromIdeaToProduction
   event_url: https://about.gitlab.com
 
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 2 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
+- topic: Git Merge 2017
+  type: Git Developers
+  date: Feb. 2-3 2017
   description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
+               Git Merge is the leading Git-focused conference. Providing a space for git workshops, discussion and case studies from the world’s leading git minds. Four GitLab team members (Sid, Marin, Jacob, Christian) will be attending and participating in the discussions on the future of git and best practices.
+
+  location: Brussels, Belgium
+  social_tags: Git,GitMerge2017
+  event_url: http://git-merge.com/
+
+- topic: Dublin Tech Summit
+  type: Enterprise
+  date: Feb. 15-16, 2017
+  description: |
+               Global leaders in technology and innovation will convene in Dublin to discuss global trends and trends shaping the future of technology.
+  location: Dublin, Ireland
+  social_tags: DublinTechSummit2017, GitLabDoesDublin
+  event_url: http://dublintechsummit.com/
+
+- topic: Cloud Expo Europe
+  type: DevOps, Containers
+  date: March 15-16
+  description: |
+               Come to see Richard Pidgeon and Sean Packhan speak on the DevOps stage at the leading cloud event in the world.
+  location: London, England
+  social_tags: GitLabforDevOps
+  event_url: http://www.cloudexpoeurope.com/why-exhibit/devops-live-jxco
+
+
+- topic: OSCON Austin 2017
+  type: Open Source, Dev
+  date: May 8-11, 2017
+  description: |
+               Get completely immersed in the world of Open Source. Join us and the rest of the Open Source community to discuss best practices, innovation, and connecting people with being open. Learn how we at GitLab fully embrace an open source culture and our tips for a complete open source dev lifecycle.
   location: Austin, TX USA
-  social_tags: Git,Conference,VersionControl,Presenter
-  event_url: https://about.gitlab.com
+  social_tags: OSCONAustin2017, DevLifeCycle
+  event_url: http://conferences.oreilly.com/oscon/oscon-tx
 
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
+
+- topic: Open Source Summit North America
+  type: Open Source, Dev
+  date: Sept. 11-13 2017
   description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Barcelona, Spain
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
+               LinuxCon, ContainerCon, and CouldOpen all under one roof this year. Meet us at the Open Source Summit and share your collaboration stories.
+  location: Los Angeles, CA USA
+  social_tags: OpenSourceSummit2017
+  event_url: http://events.linuxfoundation.org/events/open-source-summit-north-america
 
-
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 2 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
+- topic: WebSummit Lisbon
+  type: Enterprise
+  date: Nov 6-9 2017
   description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Mexico City, Mexico
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
+               Over 50,000 tech leaders converge in Lisbon to meet and discuss the technologies that connect us all.
 
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Lima, Peru
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: San Francisco, CA USA
-  social_tags: Git,Conference,VersionControl,Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 3 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Austin, TX USA
-  social_tags: Git,Conference,VersionControl,Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Barcelona, Spain
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 3 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Mexico City, Mexico
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Lima, Peru
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: San Francisco, CA USA
-  social_tags: Git,Conference,VersionControl,Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 3 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Austin, TX USA
-  social_tags: Git,Conference,VersionControl,Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Barcelona, Spain
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Another Event Name Goes Here That's also really LOOONG!
-  type: GitLab HQ 4 #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Mexico City, Mexico
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
-
-- topic: Event Name Goes Here It Might be Really Really Long Like This
-  type: GitLab HQ #Not sure how the event types are gonna be
-  date: Sept. 1-4 2016
-  description: |
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco
-               laboris nisi ut aliquip ex ea commodo consequat.
-  location: Lima, Peru
-  social_tags: Git, Conference, VersionControl, Presenter
-  event_url: https://about.gitlab.com
+  location: Lisbon, Portugal
+  social_tags: WebSummit2017
+  event_url: https://websummit.com/

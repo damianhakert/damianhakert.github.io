@@ -18,7 +18,7 @@ extra_font:
     Tagline about events goes here
   .row.featured-event-container
     .col-md-6
-      .image-card
+      .image-card.featured-event-image
         = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
     .col-md-6
       %h2.featured-event-title
@@ -63,6 +63,36 @@ extra_font:
           %ul.dropdown-menu.dropdown-scroll
   .row
     %ul.event-list{role: "navigation"}
+      - data.events.each do |event|
+        %li
+          .event-headers
+            %h2.event-topic
+              = event.topic
+            %h4.event-type.visible-xs-block
+              = event.type
+            %h2.event-date
+              = event.date
+            %h4.event-location.visible-xs-block
+              = event.location
+            .clear-floats
+          .event-subheaders.hidden-xs
+            %h4.event-type
+              = event.type
+            %h4.event-location
+              = event.location
+            .clear-floats
+          %div
+            %p.event-description
+              = event.description
+          .social-tags.visible-xs-block
+            %span.social-tag
+          .event-buttons
+            -# Social buttons
+            .buttons
+              %a.btn.featured-item-button-events{href:event.event_url}
+                Join Us!
+            .clear-floats
+          .social-tags.hidden-xs
     .center-horizontal
       %nav
         %ul.pagination
@@ -115,35 +145,3 @@ extra_font:
         Optional tagline about the scholarship can go right here
       %button.btn.btn-lg.btn-red{type:"button"}
         Learn More
-%script{type:"text/events-templates", id:"events-list-template"}
-  %li
-    .event-headers
-      -# The event title and dates
-      %h2.event-topic
-
-      %h4.event-type.visible-xs-block
-
-      %h2.event-date
-
-      %h4.event-location.visible-xs-block
-
-      .clear-floats
-    .event-subheaders.hidden-xs
-
-      %h4.event-type
-
-      %h4.event-location
-
-      .clear-floats
-    %div
-      %p.event-description
-
-    .social-tags.visible-xs-block
-      %span.social-tag
-    .event-buttons
-      -# Social buttons
-      .buttons
-        %a.btn.featured-item-button-events
-          Join Us!
-      .clear-floats
-    .social-tags.hidden-xs

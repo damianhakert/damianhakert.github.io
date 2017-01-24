@@ -109,6 +109,7 @@
 
   this.EventsHandler = (function() {
     function EventsHandler() {
+      this.eventListDOM = $('.event-list li');
       this.render();
       this.currentPage = 1;
     }
@@ -144,7 +145,7 @@
 
     EventsHandler.prototype.renderEventList = function(options) {
       var $eventsList = $('.event-list');
-      var eventsToPopulate = typeof options !== 'undefined' ? options.filteredData : this.data.events;
+      var eventsToPopulate = this.eventListDOM;
       if(this.currentPage < 1) {
         this.currentPage = 1;
         return;
@@ -152,15 +153,10 @@
         this.currentPage = this.getTotalPages(eventsToPopulate.length);
         return;
       }
-      if(typeof options !== 'undefined') {
-        $eventsList.empty();
-      }
-      //The template for the event list
-      var $templateEventListElement = $('#events-list-template').html();
-      $templateEventListElement = $($templateEventListElement);
-      var eventListArray = [];
-      //Unbind all events from the list elements
 
+      $eventsList.empty();
+
+      var eventListArray = [];
       $('.pagination li span').off('click');
       if(eventsToPopulate.length > DESIRED_ELEMENTS_PER_PAGE) {
         document.querySelector('.pagination').innerHTML =
@@ -181,26 +177,12 @@
       i < (this.currentPage * DESIRED_ELEMENTS_PER_PAGE); i += 1) {
         var element = eventsToPopulate[i];
         if(element) {
-          var $tempTemplate = $templateEventListElement.clone()
-          $($tempTemplate).find('.event-topic').append(
-            '<span class="fa fa-chevron-up" aria-hidden="true"></span>' +
-            element.topic);
-          $($tempTemplate).find('.event-date').text(element.date);
-          $($tempTemplate).find('.event-type').text(element.type);
-          $($tempTemplate).find('.event-location').text(element.location);
-          $($tempTemplate).find('.event-description').text(element.description);
-          $($tempTemplate).find('.event-description').addClass('hide-description');
-          $($tempTemplate).find('.featured-item-button-events').attr("href", element.event_url);
-          //Separate the social tags
-          var socialTags = element.social_tags.trim().split(',');
-          socialTags.forEach(function(tag) {
-            $($tempTemplate).find('.social-tags').append('<span class="social-tag">#'+tag+'</span>');
-          });
-          eventListArray.push($tempTemplate);
+          eventListArray.push(eventsToPopulate[i]);
         } else {
-          i = (this.currentPage * DESIRED_ELEMENTS_PER_PAGE) + 1;
+          break;
         }
       }
+
       $eventsList.append(eventListArray).hide().fadeIn();
       $('.event-list .event-headers span').off('click').on('click', function(event) {
         var currentArrow = $(event.currentTarget).parent();
@@ -311,12 +293,6 @@
       $('#event-location .dropdown-title').text('Event Location');
       $('#event-topics .dropdown-title').text('Event Topic');
       this.bindEvents();
-    }
-
-    EventsHandler.prototype.filterTest = function() {
-      var filters = this.getFilterValues();
-      var filteredData = this.data.events.filter(filterEvents,filters);
-      this.renderEventList({renderFilteredData: true, filteredData: filteredData});
     }
 
     EventsHandler.prototype.getFilterValues = function() {
