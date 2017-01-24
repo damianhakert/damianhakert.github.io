@@ -87,7 +87,7 @@ introduced, providing users with a quick way to fill in LICENSE files for new pr
 
 ### Due Dates
 
-Due dates were added for issues. They can be used to keep track of deadlines and make sure features are shipped on time.
+[Due dates](https://docs.gitlab.com/ce/user/project/issues/due_dates.html) were added for issues. They can be used to keep track of deadlines and make sure features are shipped on time.
 
 ### Cherry Picking
 
