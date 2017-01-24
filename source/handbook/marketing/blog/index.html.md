@@ -500,6 +500,8 @@ author_twitter: userID
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post" # included in August, 2016
+cta_button_text: 'Optional: include a CTA to register for/visit <strong>an event</strong> live!'
+cta_button_link: 'Optional link to event or blog post - must NOT be a tracking link'
 ---
 ```
 
