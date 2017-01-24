@@ -61,7 +61,7 @@ contains useful information about the responsibilities and tasks performed
 by a release manager.
 
 Because of the volume of work required to get a release out the door, there
-will be two primary release managers to work around the clock:
+will be two primary release managers:
 
 1. One in the America time zones
 2. One in Europe/Middle East/Africa (EMEA) or Asia Pacific (APAC)
