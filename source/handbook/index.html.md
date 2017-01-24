@@ -720,6 +720,12 @@ Setting the topic of the meeting is important, otherwise all meetings will be re
 
 Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
 
+Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
+remove any resources that you are not using, since the company is [billed
+monthly](https://cloud.google.com/pricing/). If you are unable to create a
+resource due to quota limits, file an issue on the [Infrastructure
+Tracker](https://gitlab.com/gitlab-com/infrastructure).
+
 ### Gmail
 
 #### Filters
