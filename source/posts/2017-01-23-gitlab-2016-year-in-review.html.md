@@ -91,7 +91,7 @@ introduced, providing users with a quick way to fill in LICENSE files for new pr
 
 ### Cherry Picking
 
-[Cherry picking](https://docs.gitlab.com/ce/user/project/merge_requests/cherry_pick_changes.html) is [a feature in git](https://git-scm.com/docs/git-cherry-pick) that takes individual commits or sets of commits from one branch and adds them to another. It’s most commonly used to backport bug fixes or security patches from the `master` branch to older, stable branches. GitLab 8.7 added cherry picking to the user interface and lets users do more of their work without switching to the command line.
+[Cherry picking](https://docs.gitlab.com/ce/user/project/merge_requests/cherry_pick_changes.html) is [a feature in Git](https://git-scm.com/docs/git-cherry-pick) that takes individual commits or sets of commits from one branch and adds them to another. It’s most commonly used to backport bug fixes or security patches from the default branch to older, stable branches. GitLab 8.7 added cherry picking to the user interface and lets users do more of their work without switching to the command line.
 
 ## May: 8.8
 
