@@ -3,16 +3,16 @@
   manager_americas:
     - Felipe Artur
   manager_apac_emea:
-    - Nur Rony
+    - Timothy Andrew
 - version: "9.0"
   date: March 22nd, 2017
   manager_americas:
     - David Mountney
   manager_apac_emea:
-    - Timothy Andrew
+    - Nur Rony
   trainees:
     - Jeanine Adkisson
-    - Nur Rony
+    - Timothy Andrew
 - version: "8.17"
   date: February 22nd, 2017
   manager_americas:
@@ -21,7 +21,7 @@
     - James Lopez
   trainees:
     - Felipe Artur
-    - Timothy Andrew
+    - Nur Rony
 - version: "8.16"
   date: January 22nd, 2017
   manager_americas:
