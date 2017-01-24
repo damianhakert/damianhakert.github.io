@@ -10,7 +10,7 @@ cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebtermin
 twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
-At GitLab, we believe the best approach to software delivery is to ship quicky and often.
+At GitLab, we believe the best approach to software delivery is to ship quickly and often.
 By building a team and a [company culture](/culture/) that values iteration over perfection, we
 are able to ship new improvements and features every month!
 
