@@ -82,7 +82,8 @@ Confidential issues are issues visible only to members of a project with suffici
 
 ### License Templates
 
-[License templates](https://docs.gitlab.com/ce/api/templates/licenses.html) were introduced, providing users with a quick way to fill in LICENSE files for new projects.
+[License templates](https://docs.gitlab.com/ce/user/project/repository/web_editor.html#template-dropdowns) were
+introduced, providing users with a quick way to fill in LICENSE files for new projects.
 
 ### Due Dates
 
