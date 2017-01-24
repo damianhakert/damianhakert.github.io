@@ -34,7 +34,7 @@ suppress_header: true
           - data.release_managers.each do |rm|
             - release_date = Date.parse(rm.date)
             - remaining_days = (release_date - Date.today).to_i
-            - upcoming = remaining_days > 0 && remaining_days < 31
+            - upcoming = remaining_days > 0 && remaining_days <= 31
             %tr{class: ("upcoming-release-manager" if upcoming)}
               %td
                 = rm.version
