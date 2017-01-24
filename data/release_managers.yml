@@ -1,0 +1,93 @@
+- version: "9.1"
+  date: April 22nd, 2017
+  manager_americas:
+    - Felipe Artur
+  manager_apac_emea:
+    - Nur Rony
+- version: "9.0"
+  date: March 22nd, 2017
+  manager_americas:
+    - David Mountney
+  manager_apac_emea:
+    - Timothy Andrew
+  trainees:
+    - Jeanine Adkisson
+    - Nur Rony
+- version: "8.17"
+  date: February 22nd, 2017
+  manager_americas:
+    - Rubén Dávila Santos
+  manager_apac_emea:
+    - James Lopez
+  trainees:
+    - Felipe Artur
+    - Timothy Andrew
+- version: "8.16"
+  date: January 22nd, 2017
+  manager_americas:
+    - Douglas Alexandre
+  manager_apac_emea:
+    - Rémy Coutable
+    - James Lopez
+  trainees:
+    - David Mountney
+- version: "8.15"
+  date: December 22nd, 2016
+  manager_americas:
+    - Douglas Alexandre
+  manager_apac_emea:
+    - James Lopez
+- version: "8.14"
+  date: November 22nd, 2016
+  manager_americas:
+    - Alejandro Rodríguez
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.13"
+  date: October 22nd, 2016
+  manager_americas:
+    - Alejandro Rodríguez
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.12"
+  date: September 22nd, 2016
+  manager_americas:
+    - Rubén Dávila Santos
+  manager_apac_emea:
+    - Yorick Peterse
+- version: "8.11"
+  date: August 22nd, 2016
+  manager_americas:
+    - Rubén Dávila Santos
+  manager_apac_emea:
+    - Yorick Peterse
+- version: "8.10"
+  date: July 22nd, 2016
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.9"
+  date: June 22nd, 2016
+  manager_americas:
+    - Robert Speicher
+- version: "8.8"
+  date: May 22nd, 2016
+  manager_americas:
+    - Robert Speicher
+- version: "8.7"
+  date: April 22nd, 2016
+  manager_americas:
+    - Robert Speicher
+  manager_apac_emea:
+    - Yorick Peterse
+- version: "8.6"
+  date: April 22nd, 2016
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.5"
+  date: March 22nd, 2016
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.4"
+  date: February 22nd, 2016
+  manager_americas:
+    - Robert Speicher
