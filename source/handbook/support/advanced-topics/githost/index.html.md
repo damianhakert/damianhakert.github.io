@@ -27,6 +27,9 @@ any order you prefer.
    1. [ ] What services are not available through GitHost?
    1. [ ] What kind of migration services do we offer?
    1. [ ] What kind of support we offer to GitHost users?
+   1. [ ] Where can I find the source code to the GitHost application?
+   1. [ ] How do I login to the Rails console of the GitHost server?
+   1. [ ] How does the GitHost start its processes at boot?
 
 ### Stage 2:
 
@@ -43,10 +46,11 @@ Remember to contribute to any documentation that needs updating
 
 1. [ ] Ask an admin to create a test CE instance for you and give you the instance ID and IP address
 1. [ ] Ask an admin to give you SSH access to the GitHost production server
-1. [ ] Upgrade your CE GitHost instance to EE
+1. [ ] Upgrade your CE GitHost instance to EE (someone can upgrade an instance from CE to EE on the instance itself, but GitHost 'metadata' would not be properly updated without SSH access)
 1. [ ] Migrate to a test instance from your local or DO testing environment
 1. [ ] Migrate to a test instance from a source installation
 1. [ ] Change the region for your test instance
+
 
 ### Stage 3: Tickets
 
