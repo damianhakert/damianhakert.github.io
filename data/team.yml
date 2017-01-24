@@ -361,6 +361,7 @@
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/license-app">license-app</a> (internal)</li>
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/payment_app">Zuora Payment App</a> (internal)</li>
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
+             <li>Backend merge request reviewer</li>
              <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://docs.gitlab.com/ee/workflow/time_tracking.html">Time Tracking <a href="/jobs/expert/">expert</a></li>
@@ -549,6 +550,7 @@
   gitlab: jameslopez
   maintains: |
              <li>GitHost maintainer</li>
+             <li>Backend merge request reviewer</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
@@ -805,6 +807,7 @@
   twitter: timothyandrew
   gitlab: timothyandrew
   maintains:  |
+               <li>Backend merge request reviewer</li>
                <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
                <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
                <li>Branch Permissions <a href="/jobs/expert/">Expert</a></li>
