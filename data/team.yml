@@ -1521,8 +1521,8 @@
 - name: Elsje Smart
   locality: Marazion
   country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative-outbound/">Business Development Representative - Outbound</a>
-  reports_to: Business Development Team Lead - Outbound Team
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: BDR Manager
   picture: elsje.jpg
   twitter:
   gitlab: elsje
