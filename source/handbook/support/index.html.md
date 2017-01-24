@@ -33,38 +33,24 @@ title: Support
 
 ## <i class="fa fa-question-circle fa-fw icon-color font-awesome" aria-hidden="true"></i>  Support Direction
 
-The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
-in order to meet our strategic objective, the following topics are being addressed by the team:
-(also see the related [direction issue](https://gitlab.com/gitlab-com/support/issues/40))
+The overall direction for Support in 2017 is set by our overall [strategic objectives](/strategy), with a particular emphasis on continued improvement of (Premium) Customer satisfaction with Support. As can also be inferred from our [publicly visible in our Lattice goal tree](https://gitlab.latticehq.com/public/goals), the effort focuses on the following elements.
 
-**Increase Capacity**
+**Triaging Support Effort**
 
-By hiring more service engineers, adding [Support Turbos](#support-turbo) when needed, and
-making sure that the newly hired service engineers have training materials and pathway readily
-available and defined when they join. We'll also aim to do a better job acknowledging and incentivizing
-the rest of the community in their role of supporting the community at large through contributions to
-documentation and participation in social channels.
+By triaging support effort through internal SLAs and integration of SalesForce, Zuora, and Zendesk, the team can improve the support experience
+for Premium customers while still addressing the questions of _all_ subscribers.
 
-**Trend discovery**
+**Increase Capacity & Develop Experts**
 
-By gathering all our support channels in a central location, Zendesk, we'll be able to tag tickets
-with relevant keywords, and gather data on channel load, agent load, and topic trends. Likewise,
-through implementation of Swiftype on the [documentation](https://doc.gitlab.com/) server, we'll
-get a better handle on what people are looking for and/or not finding.
+In 2016 we expanded the support team significantly, and this trend will continue in 2017. Along the way, the team developed internal training tools / pathways to assist in rapid, robust, self-guided training for everyone on the Support Team. As GitLab -- the product -- continues to expand, so will the knowledge and skill base of each Service Engineer individually and as a team to continue to provide an excellent customer experience.
 
-**Empower Users**
+Know someone who might be a great fit for our team? Please refer them to the [Service Engineer job description](/jobs/service-engineer).
 
-By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
-making documentation easy to find and easy to search, and constantly contributing to further documentation
-with the trend discovery showing where the need is greatest, we can help the community become
-as self sufficient as possible and empower users to problem-solve. A seamless interface between the support team and developers closes the
-feedback loop of user experience back to development, and provides 'network' support for the Service Engineers
-for tough issues.
+**Actionable Analytics**
 
-**Improve Customer Experience**
+Better reporting on ticket metrics (topic, response times, product it relates to, etc.) will help guide the Support Team's priorities in terms of adding to the greatest documentation needs, bug fixes, and support processes.
 
-By triaging support effort through internal SLAs, the team can improve the support experience
-for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+
 
 ## Service and support we provide
 
@@ -77,7 +63,8 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 | SLA | Channel                | Response Time                          |
 |-----|----------------------------|----------------------------------------|
-| 1   | [Emergencies](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 1   | [Emergencies (Premium Customers only)](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 1   | [Premium Customer - Regular Tickets](/handbook/support/channels/#emergency-tickets)                | 4 hrs (business)                             |
 | 2   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
 | 3   | [Disqus](/handbook/marketing/developer-relations/community-advocacy/#disqus)  and [Twitter](/handbook/marketing/developer-relations/community-advocacy/#twitter)         | 1 business day                         |
 | 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
