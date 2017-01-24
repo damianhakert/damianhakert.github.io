@@ -84,6 +84,7 @@ Also included in February's release was an alpha version of GitLab Geo. GitLab G
 
 [License templates](https://docs.gitlab.com/ce/user/project/repository/web_editor.html#template-dropdowns) were
 introduced, providing users with a quick way to fill in LICENSE files for new projects.
+License templates can also be added [using the API](https://docs.gitlab.com/ce/api/templates/licenses.html).
 
 ### Due Dates
 
@@ -109,7 +110,7 @@ Read [the full blog post](https://about.gitlab.com/2016/05/23/gitlab-container-r
 
 ### `.gitignore` templates
 
-Following the introduction of License templates in 8.7, 8.8 provides [`.gitignore` templates](https://docs.gitlab.com/ce/api/templates/gitignores.html) as well. [`.gitignore` files](https://git-scm.com/docs/gitignore) tell git not to track certain directories or kinds of files to help keep the repository clean. We provide templates for various languages and frameworks to prevent users from committing secrets or large log files to the repository.
+Following the introduction of License templates in 8.7, 8.8 provides [`.gitignore` templates](https://docs.gitlab.com/ce/user/project/repository/web_editor.html#template-dropdowns) as well. [`.gitignore` files](https://git-scm.com/docs/gitignore) tell git not to track certain directories or kinds of files to help keep the repository clean. We provide templates for various languages and frameworks to prevent users from committing secrets or large log files to the repository. `.gitignore` templates can also be added [using the API](https://docs.gitlab.com/ce/api/templates/gitignores.html).
 
 ## June: 8.9
 
