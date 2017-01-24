@@ -11,11 +11,11 @@ twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
 At GitLab, we believe the best approach to software delivery is to ship quicky and often.
-By building a team and a company culture that values iteration over perfection, we 
+By building a team and a company culture that values iteration over perfection, we
 are able to ship new improvements and features every month!
 
-So it should come as no surprise that in 2016, we shipped 12 new versions of GitLab! 
-Included in those releases were major new features like Issue Boards and Cycle Analytics, 
+So it should come as no surprise that in 2016, we shipped 12 new versions of GitLab!
+Included in those releases were major new features like Issue Boards and Cycle Analytics,
 and the completion of our idea-to-production vision.
 
 <!-- more -->
@@ -242,7 +242,7 @@ Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Res
 
 ### Time Tracking Beta
 
-With the introduction of the Time Tracking Beta, companies that need time tracking tools can use them right from within GitLab. 
+With the introduction of the Time Tracking Beta, companies that need time tracking tools can use them right from within GitLab.
 
 ![Time Tracking](/images/8_14/time.gif)
 
@@ -256,7 +256,7 @@ A new addition to GitLab CI in this release was [Review Apps](https://about.gitl
 
 For more information on Review Apps, see [our feature highlight blog post](https://about.gitlab.com/2016/11/22/introducing-review-apps/).
 
-## December: 8.15 
+## December: 8.15
 
 > [GitLab 8.15 Release Post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/)
 
@@ -280,6 +280,6 @@ LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians
 
 ## Looking forward
 
-As always, if you found this post interesting and want to contribute to the project, we’d be happy to have you! Take a look around the [Accepting Merge Requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Accepting+Merge+Requests) label in the GitLab CE project, and download the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit) to get started. If you have any questions feel free to reach out on Twitter, in the GDK issue tracker, or in our IRC channel. 
+As always, if you found this post interesting and want to contribute to the project, we’d be happy to have you! Take a look around the [Accepting Merge Requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Accepting+Merge+Requests) label in the GitLab CE project, and download the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit) to get started. If you have any questions feel free to reach out on Twitter, in the GDK issue tracker, or in our IRC channel.
 
-What improvements do you want to see this year? 
+What improvements do you want to see this year?
