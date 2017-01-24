@@ -17,11 +17,11 @@ This demonstration is designed to highlight GitLab’s open set of tools for the
 
 ![](handbook/sales/steps.png)
 
-## Links
-{:.no_toc}
-
-- [Everyone can replicate idea to production](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986)
-- [All open issues](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production)
+We want to to make sure [everyone can replicate this demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986).
+We're changing this page to make it work with Google Container Engine (GKE) and plain Kubernetes installations instead of OpenShift.
+For now the information on how to deploy this yourself can be found in the [readme of the kubernetes-gitlab-demo repository](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/blob/master/README.md).
+If you encounter issues replicating this demo on GKE or on your own Kubernetes cluster please open [an issue in that repository](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo/issues).
+We're still working to improve this demo further, please see [all open idea-to-production issues](https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=idea-to-production).
 
 ## Table of Contents
 {:.no_toc}
