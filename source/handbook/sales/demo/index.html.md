@@ -37,7 +37,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * URL: [https://console.cloud.google.com/start](https://console.cloud.google.com/start)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
-> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for tanukionline, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
+> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
@@ -149,8 +149,7 @@ Developers want to work on creating a great product, not on learning and maintai
 
 If there is more time talk about what a review app is and what cycle analytics are.
 
-> * Wait for gitlab pod to go from light blue to full blue
-> Click the [GitLab link](http://gitlab.tanukionline.com)
+> * Wait for gitlab pod to go to green, then switch to your tab with the GitLab deployment open
 
 ## Setup a project in GitLab
 
@@ -165,60 +164,35 @@ We now create a group for our company; let’s name it `tanuki`.
 
 > * Create a group called `tanuki` and make it public
 
-Then let’s now create a new project to start off with.
+Then let’s now create a new project to start off with, importing a tiny Ruby application for demonstration.
 
-> * Create a project called `firstname-www` under the `tanuki` group and make it public
+> * Create a project called `simple-app` under the `tanuki` group and make it public
+> * Import `simple-app` from [https://gitlab.com/pchojnacki/simple-app.git](https://gitlab.com/pchojnacki/simple-app.git)
 
-### Configure the project
-
-Great, we have a new project let's configure it. We’ll use the built-in GitLab editor to add it.
-
-> * Click add readme (changing that to + in TODO: [Create new arbitrary file in new project](https://gitlab.com/gitlab-org/gitlab-ce/issues/23310)) or make irrelevant with TODO: [Auto deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)
-> * Name the file `index.html`
-> * Type `Hello World` as the contents
-> * Click Submit
-
-Of course this is just a static file and not an application yet, but since we’re using OpenShift it’s really easy to use Docker. GitLab offers a set of `Dockerfile` templates that we can use. Let’s add a new Dockerfile and choose the template for Apache’s httpd server.
-
-> * Click back to the files tab
-> * Add a file + icon, New file
-> * Filename to `Dockerfile` TODO: [Make sure this dropdown looks properly positioned even though my scaled resolution is larger text](https://gitlab.com/gitlab-org/gitlab-ce/issues/23962)
-> * template HTTPd TODO: [Add multiple templates, not just HTTPd](https://gitlab.com/gitlab-org/gitlab-ce/issues/23963)
-> * Commit changes on master
-
-### Add Openshift credentials to CI
+### Add Kubernetes credentials to CI
 
 We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
-The next step is to configure CI, but first we have to set up some project variables that CI needs in order to create deployments in our OpenShift environment. We can find our Access Token in Openshift.
+The next step is to configure CI, but first we have to set the Kubernetes  CI needs in order to create deployments in our Kubernetes environment. We can find our Access Token in Kubernetes Dashboard.
 
-> * Go to [Openshift](https://openshift.tanukionline.com:8443/console/command-line) or `Help > Command Line Tools > .. click to show token…`
-> * Copy token
-
-We will now copy this token and go back to GitLab where we will use this token as a environmental variable which will be automatically passed to our CI/CD pipeline jobs.
-
-> * Go to GitLab
-> * Settings > Variables
-> * Key: OPENSHIFT_TOKEN
-> * Value: paste token
-> * Add new variable
-
-We also need to set our server and our domain.
-
-> * Repeat for:
->   * Key: OPENSHIFT_SERVER
->   * Value: https://openshift.tanukionline.com:8443
-> * and repeat for:
->   * Key: OPENSHIFT_DOMAIN
->   * Value: tanukionline.com
+> * Go to Project
+> * Go to Settings > Services
+> * Go to Kubernetes
+> * Go back to [Kubernetes Dashboard]()
+> * Navigate to Secrets > Config on the left.
+> * Click on `default-token-xxx` for the `default` namespace
+> * Copy token to `Service token` in GitLab
+> * Copy ca.crt to `Custom CA bundle` in GitLab
+> * Go to Container Engine
+> * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
 
 ### Setup GitLab CI
 
 Now we’re ready to configure GitLab CI. Luckily GitLab also provides a bunch of templates to get us started. Back to the project, let’s click `Setup CI` and choose the OpenShift template.
 
 > * Go to Project, Click Setup CI
-> * Choose OpenShift template
+> * Choose Kubernetes template
 > * Commit
 
 Great, that completes our setup.
