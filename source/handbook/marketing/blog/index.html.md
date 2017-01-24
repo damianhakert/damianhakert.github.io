@@ -19,7 +19,7 @@ title: "Blog Handbook"
 ## GitLab Blog
 {: #blog}
 
-Our [Blog] is managed by the Content Team.
+Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
@@ -500,12 +500,10 @@ author_twitter: userID
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post" # included in August, 2016
-cta_button_text: 'Optional: include a CTA to register for/visit <strong>an event</strong> live!'
-cta_button_link: 'Optional link to event or blog post - must NOT be a tracking link'
 ---
 ```
 
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image` and `description`!
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image` and `description` + CTA!
 {: .alert .alert-warning .ambar}
 
 ```yaml
@@ -516,9 +514,13 @@ author_twitter: userID
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post"
-twitter_image: '/images/tweets/post-screenshot-image.png'
+twitter_image: '/images/tweets/post-screenshot-image.png' # optional
+cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
+cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
 ---
 ```
+
+The following sections describe each entry of the frontmatter.
 
 #### Title
 
@@ -629,6 +631,34 @@ The standard procedure for this image is:
 **If your post is called `2016-05-20-hello-world.html.md`, the `twitter_image` should be named `hello-world.png`.
 
 For further information, read the Social Media Sharing section at the [Social Marketing Handbook].
+
+#### Call To Action (CTA)
+{: #cta}
+
+There are two new possible entries in the frontmatter:
+
+```yaml
+cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!'
+cta_button_link: 'https://page.gitlab.com/xxx.html'
+```
+
+The first entry is text, referring to the link added to the second one. Therefore,
+always use them together.
+
+The examples above link to a release webcast, but you can add any pair of text
+and link to this CTA. Use it wisely.
+
+**Do not** include any [UTM parameters] to the link. Always wrap their values with quotes.
+{:.alert .alert-warning}
+
+The final result is a red button over the cover image of the post.
+
+![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
+
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+
+This option was introduced in January/2017.
+{:.note}
 
 #### Comments
 
@@ -938,6 +968,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [twitter card validator]: https://cards-dev.twitter.com/validator
 [twitter cards]: https://dev.twitter.com/cards/overview
 [unsplash]: https://unsplash.com/
+[UTM parameters]: http://www.annielytics.com/blog/analytics/how-to-trash-your-google-analytics-account-with-campaign-tagging/
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
