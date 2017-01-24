@@ -191,7 +191,7 @@ With [Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_reque
 
 ### Pipeline Graphs
 
-Pipeline Graphs are an awesome visual representation of a project's Pipeline, they help users understand the way their pipelines are run.
+[Pipeline Graphs](https://docs.gitlab.com/ce/ci/pipelines.html) are an awesome visual representation of a project's Pipeline, they help users understand the way their pipelines are run.
 
 ![Pipeline Graph](/images/8_11/pipeline_graph2.png)
 
