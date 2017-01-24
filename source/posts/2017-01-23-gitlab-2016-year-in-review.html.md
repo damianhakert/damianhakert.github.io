@@ -237,7 +237,7 @@ Issue Boards were improved for [EE Starter](https://about.gitlab.com/products/) 
 
 ### Merge Conflict Editor
 
-Building on Merge Conflict Resolution introduced in 8.11, the Merge Conflict Resolution tool gained an Editor. This allows more complex merge conflicts, which require the user to manually modify a file in order to resolve a conflict, to be solved right form the GitLab interface.
+Building on [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html) introduced in 8.11, the Merge Conflict Resolution tool gained an Editor. This allows more complex merge conflicts, which require the user to manually modify a file in order to resolve a conflict, to be solved right form the GitLab interface.
 
 ![Merge Conflict Editor](/images/8_13/inlinemergeconflictresolution.gif)
 
