@@ -21,7 +21,7 @@ All feedback belongs under either GitLab CE or EE.
 
 1. If it’s limited to GitLab EE features, go to the [EE issues].
 2. Otherwise, bring it to the [CE issue tracker]
-3. In doubt, also bring it to the CE issue tracker
+3. If in doubt, bring it to the CE issue tracker. One issue is better than none.
 
 ## 2. Avoid duplication
 
@@ -32,7 +32,7 @@ All feedback belongs under either GitLab CE or EE.
 ## 3. Log feedback
 
 1. Write down what the feedback is that you’ve got. In a new issue, this is in the description, in an existing, in a comment.
-2. Emit or anonymize sensitive information like customer names and log data
+2. Omit or anonymize sensitive information like customer names and log data
 3. Don’t make the issue confidential unless strictly necessary (it almost never is)
 
 ## 4. Link it
@@ -46,11 +46,12 @@ Also do this for existing issues if they are not labeled correctly yet.
 
 1. Label your issue `feature proposal`, `bug` or `regression` if it’s one of these.
 2. Label your issue `customer` or `customer+` if it’s feedback from customers or premium (or very large) customers
+3. For the full flow, please see [the full guide on labelling](https://about.gitlab.com/handbook/engineering/workflow/#labelling-issues)
 
 ## 6. Mention people
 
 Mention people that are able to do something with this feedback. This is hard to determine in some cases, so use the rule: one is better than none.
 
-- *For bugs* mention an engineering lead or engineer that knows about this particular part. You can search on the team page for who knows about what.
+- *For bugs* mention an engineering lead or engineer that knows about this particular part. You can search on the [team page](/team) for who knows about what.
 - *For feature proposals* mention a product manager. Search for product manager on the team page for the responsible for a particular area. There’s only a handful, so this should be easy.
 - *For others or unknowns* mention any of the above and they’ll figure it out.
