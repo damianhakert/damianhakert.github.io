@@ -14,7 +14,7 @@ UX Lead Allison Whilden and UX Researcher Sarah O'Donnell chat about how the tea
 Watch the recording and get the highlights below. 
 
 <figure class="video_container">
-<iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe src="https://www.youtube.com/watch?v=nnL48m0m4qo&feature=youtu.be" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Highlights 
@@ -44,7 +44,9 @@ We also build things that we ourselves don’t currently need.
 
 >  We want to build an understanding of who our users are and how they work. While we get a lot of great feedback from the community that is really helpful, we aren't always sure we are capturing the full range of our target users. We're developing personas that will allow us to relate to different types of users and subsequently predict their behavior. This is essential for our key challenge of creating a unified experience for teams big and small, so they can stay focused on their own goals. 
 >  
->  You can learn more about this in our recent [blog post](https://about.gitlab.com/2017/01/09/the-importance-of-ux-personas/), and help us out by taking our ongoing [survey](https://www.surveymonkey.co.uk/r/GitLab)!
+
+
+You can learn more about this in our recent [blog post](https://about.gitlab.com/2017/01/09/the-importance-of-ux-personas/), and help us out by taking our ongoing [survey](https://www.surveymonkey.co.uk/r/GitLab)!
 
 
 Image: "[sampa](https://www.flickr.com/photos/hernaniarruda/16024464453/in/photolist-qq2yZT-sgt2yF-7kjkZG-bpqhWW-qK4vh3-h5B9UC-oMCrUi-9gJKpU-qWQeTi-efnWXn-pUhcrR-8fm1cc-psKrue-pPHawe-oLfbtH-aE5xLy-ovkdF6-9J1mSD-qGZKyD-ps6b83-iDk8ZW-r1Eduf-pxdXhK-8ffsfR-tR6G7-9ULyyQ-9sWDsM-sUBfz-pJ3tgC-e1Zp8e-9nvpUp-8uWnRL-dFpn8i-qLHf7Q-dtGP2q-piCCWY-sUBp9-pMA9nZ-opiyKu-5AQt2T-h2GewF-iQ8pKS-pt4Ah9-ibqdjv-rdM7zG-fsnLCo-HPffno-oriCvu-6ogK2M-gUBxEg)" by [Hernani Arruda Monteiro da Silva](https://www.flickr.com/photos/hernaniarruda/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
