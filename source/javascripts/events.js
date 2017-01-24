@@ -54,64 +54,12 @@
     $title.text(newTitle);
   }
 
-  //TODO: Improve this
-  var filterEvents = function(el) {
-    if(this.location !== 'Event Location'
-       && this.type !== 'Event Type'
-       && this.topic !== 'Event Topic') {
-      if(this.location === el.location
-        && this.type === el.type
-        && this.topic === el.topic){
-        return true;
-      }
-    } else if(this.location === 'Event Location'
-              && this.type !== 'Event Type'
-              && this.topic !== 'Event Topic') {
-      if(this.type === el.type && this.topic === el.topic) {
-        return true;
-      }
-    } else if(this.location !== 'Event Location'
-              && this.type === 'Event Type'
-              && this.topic !== 'Event Topic') {
-      if(this.location === el.location && this.topic === el.topic) {
-        return true;
-      }
-    } else if(this.location !== 'Event Location'
-              && this.type !== 'Event Type'
-              && this.topic === 'Event Topic') {
-        if(this.location === el.location && this.type === el.type) {
-          return true;
-        }
-    } else if(this.location !== 'Event Location'
-              && this.type === 'Event Type'
-              && this.topic === 'Event Topic') {
-        if(this.location === el.location) {
-          return true;
-        }
-    } else if(this.location === 'Event Location'
-              && this.type !== 'Event Type'
-              && this.topic === 'Event Topic') {
-        if(this.type === el.type) {
-          return true;
-        }
-    } else if(this.location === 'Event Location'
-              && this.type === 'Event Type'
-              && this.topic !== 'Event Topic') {
-        if(this.topic === el.topic) {
-          return true;
-        }
-    } else {
-      return true;
-    }
-  }
-
   const DESIRED_ELEMENTS_PER_PAGE = 3;
 
   this.EventsHandler = (function() {
     function EventsHandler() {
       this.eventListDOM = $('.event-list li');
       this.render();
-      this.currentPage = 1;
     }
 
     EventsHandler.prototype.bindEvents = function() {
@@ -131,21 +79,9 @@
 
     }
 
-    //Render functions
-    EventsHandler.prototype.getData = function() {
-      var deferred = jQuery.Deferred();
-
-      $.get('/events/data.json').then(function(data) {
-        this.data = data;
-        deferred.resolve();
-      }.bind(this));
-
-      return deferred.promise();
-    }
-
     EventsHandler.prototype.renderEventList = function(options) {
       var $eventsList = $('.event-list');
-      var eventsToPopulate = this.eventListDOM;
+      var eventsToPopulate = options.renderFilteredData ? options.filteredData : this.eventListDOM;
       if(this.currentPage < 1) {
         this.currentPage = 1;
         return;
@@ -195,23 +131,57 @@
           $($parentElement).find('.event-description').fadeIn();
         }
       });
-      if(typeof options === 'undefined') {
-        //Populate the dropdowns
-        this.populateDropdowns();
+      //Populate dropdowns based on the current data shown
+      if(options.renderFilteredData){
+        this.populateDropdowns(options.filteredData, false);
       }
+      else {
+        this.populateDropdowns(this.eventListDOM, true);
+      }
+
+    }
+
+    EventsHandler.prototype.filterData = function() {
+      var filters = this.getFilterValues();
+      filters.topic = filters.topic.toLowerCase();
+      filters.type = filters.type.toLowerCase();
+      filters.location = filters.location.toLowerCase();
+      var filteredData = this.eventListDOM.filter(function (index) {
+        var eventTopic = $(this).find('.event-topic').first().text().trim().toLowerCase();
+        var eventType = $(this).find('.event-type').first().text().trim().toLowerCase();
+        var eventLocation = $(this).find('.event-location').first().text().trim().toLowerCase();
+        if(filters.topic === 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
+          return true;
+        } else if (filters.topic !== 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
+          return eventTopic === filters.topic;
+        } else if (filters.topic === 'event topic' && filters.type !== 'event type' && filters.location === 'event location') {
+          return eventType === filters.type;
+        } else if (filters.topic === 'event topic' && filters.type === 'event type' && filters.location !== 'event location') {
+          return eventLocation === filters.location;
+        } else if (filters.topic !== 'event topic' && filters.type !== 'event type' && filters.location === 'event location'){
+          return eventTopic === filters.topic && eventType === filters.type;
+        } else if (filters.topic !== 'event topic' && filters.type === 'event type' && filters.location !== 'event location'){
+          return eventTopic === filters.topic && eventLocation === filters.location;
+        } else if (filters.topic === 'event topic' && filters.type !== 'event type' && filters.location !== 'event location'){
+          return eventType === filters.type && eventLocation === filters.location;
+        } else if (filters.topic !== 'event topic' && filters.type !== 'event type' && filters.location !== 'event location'){
+          return eventTopic === filters.topic && eventType === filters.type && eventLocation === filters.location;
+        } else {
+          return true;
+        }
+      });
+      return filteredData;
     }
 
     EventsHandler.prototype.render = function(event) {
       function renderData(shouldWeFilter, pageNumber) {
         if(shouldWeFilter && !pageNumber) {
-          var filters = this.getFilterValues();
-          var filteredData = this.data.events.filter(filterEvents,filters);
+          var filteredData = this.filterData.call(this);
           this.currentPage = 1;
           this.renderEventList({renderFilteredData: true, filteredData: filteredData});
         }
         else if(shouldWeFilter && pageNumber){
-          var filters = this.getFilterValues();
-          var filteredData = this.data.events.filter(filterEvents,filters);
+          var filteredData = this.filterData.call(this);
           var newPageNumber;
           if(pageNumber.text().toLowerCase() === 'next'){
             newPageNumber = this.currentPage += 1;
@@ -227,10 +197,11 @@
           this.currentPage = newPageNumber;
           this.renderEventList({renderFilteredData: true, filteredData: filteredData});
         } else {
-          this.renderEventList();
+          this.currentPage = 1;
+          this.renderEventList({renderFilteredData: false});
         }
       }
-      if(this.data && typeof event !== 'undefined') {
+      if(typeof event !== 'undefined') {
         var $callingElement = $(event.currentTarget);
         var classCallingElement = $callingElement.parent()[0].className;
         if(classCallingElement.indexOf('dropdown-menu') != -1) {
@@ -238,60 +209,70 @@
         } else {
           renderData.call(this, true, $callingElement);
         }
-      } else {
-        $.when(this.getData()).then(function() {
-          renderData.call(this);
-        }.bind(this));
+      }
+      else {
+        renderData.call(this, false);
       }
     }
 
-    EventsHandler.prototype.populateDropdowns = function() {
+    EventsHandler.prototype.updateDropdownData = function(currentlyDisplayedData, firstExecution) {
+      var dropdownData = {
+        types: ['Event Type'],
+        locations: ['Event Location'],
+        topics: ['Event Topic']
+      };
+      currentlyDisplayedData.map(function(event){
+        var eventTopic = $(this).find('.event-topic').first().text().trim();
+        var eventType = $(this).find('.event-type').first().text().trim();
+        var eventLocation = $(this).find('.event-location').first().text().trim();
+        dropdownData.types.push(eventType);
+        dropdownData.locations.push(eventLocation);
+        dropdownData.topics.push(eventTopic);
+      });
+      dropdownData.types = filterDuplicatesArray(dropdownData.types);
+      dropdownData.locations = filterDuplicatesArray(dropdownData.locations);
+      dropdownData.topics = filterDuplicatesArray(dropdownData.topics);
+      return dropdownData;
+    }
+
+    EventsHandler.prototype.populateDropdowns = function(currentlyDisplayedData, firstExecution) {
       var eventTypesDisplayArray = [];
       var eventTopicsDisplayArray = [];
       var eventLocationDisplayArray = [];
+      var filterValues = this.getFilterValues();
+      var currentDropdownData = this.updateDropdownData(currentlyDisplayedData);
       //Populate the dropdowns
       var $eventTypeDropdown = $('#event-types ul');
       var $eventTopicDropdown = $('#event-topics ul');
       var $eventLocationDropdown = $('#event-location ul');
       //The template for the dropdown list
-      var $templateEventListDropdownElement = $('<li></li>');
-      eventTypes = this.data.events.map(function(el){
-        return el.type;
+      $eventTypeDropdown.empty();
+      currentDropdownData.types.forEach(function(type) {
+        $eventTypeDropdown.append('<li><span class="value">'+type+'</span></li>');
       });
-      eventTypes.unshift('Event Type');
-      eventTypes = filterDuplicatesArray(eventTypes);
-      eventTopics = this.data.events.map(function(el){
-        return el.topic;
+      $eventTopicDropdown.empty();
+      currentDropdownData.topics.forEach(function(topic) {
+        $eventTopicDropdown.append('<li><span class="value">'+topic+'</span></li>');
       });
-      eventTopics.unshift('Event Topic');
-      eventTopics = filterDuplicatesArray(eventTopics);
-      var eventLocations = this.data.events.map(function(el){
-        return el.location;
-      });
-      eventLocations.unshift('Event Topic');
-      eventLocations = filterDuplicatesArray(eventLocations);
-      eventTypes.forEach(function(type) {
-        var $tempDropdownEl = $templateEventListDropdownElement.clone();
-        $($tempDropdownEl).append('<span class="value">'+type+'</span>');
-        eventTypesDisplayArray.push($tempDropdownEl)
-      });
-      eventTopics.forEach(function(topic) {
-        var $tempDropdownEl = $templateEventListDropdownElement.clone();
-        $($tempDropdownEl).append('<span class="value">'+topic+'</span>');
-        eventTopicsDisplayArray.push($tempDropdownEl)
-      });
-      eventLocations.forEach(function(location) {
-        var $tempDropdownEl = $templateEventListDropdownElement.clone();
-        $($tempDropdownEl).append('<span class="value">'+location+'</span>');
-        eventLocationDisplayArray.push($tempDropdownEl)
+      $eventLocationDropdown.empty();
+      currentDropdownData.locations.forEach(function(location) {
+        $eventLocationDropdown.append('<li><span class="value">'+location+'</span></li>');
       });
       $eventTypeDropdown.append(eventTypesDisplayArray);
       $eventTopicDropdown.append(eventTopicsDisplayArray);
       $eventLocationDropdown.append(eventLocationDisplayArray);
       //Set title to the first element of the array
-      $('#event-types .dropdown-title').text('Event Type');
-      $('#event-location .dropdown-title').text('Event Location');
-      $('#event-topics .dropdown-title').text('Event Topic');
+      if(firstExecution) {
+        $('#event-types .dropdown-title').text('Event Type');
+        $('#event-location .dropdown-title').text('Event Location');
+        $('#event-topics .dropdown-title').text('Event Topic');
+      }
+      else {
+        $('#event-types .dropdown-title').text(filterValues.type);
+        $('#event-location .dropdown-title').text(filterValues.location);
+        $('#event-topics .dropdown-title').text(filterValues.topic);
+      }
+
       this.bindEvents();
     }
 

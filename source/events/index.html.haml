@@ -67,6 +67,7 @@ extra_font:
         %li
           .event-headers
             %h2.event-topic
+              %span.fa.fa-chevron-up
               = event.topic
             %h4.event-type.visible-xs-block
               = event.type
@@ -121,19 +122,16 @@ extra_font:
   .row.event-recap
     .col-md-4.image-card-container
       .image-card
-        -# placeholders!
         = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
         .image-card-text
           Event recap title goes here
     .col-md-4.image-card-container
       .image-card
-        -# placeholders!
         = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 2"
         .image-card-text
           Event recap title goes here
     .col-md-4.image-card-container
       .image-card
-        -# placeholders!
         = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 3"
         .image-card-text
           Event recap title goes here
