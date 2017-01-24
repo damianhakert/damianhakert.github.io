@@ -80,14 +80,34 @@
   manager_apac_emea:
     - Yorick Peterse
 - version: "8.6"
-  date: April 22nd, 2016
-  manager_apac_emea:
-    - Rémy Coutable
-- version: "8.5"
   date: March 22nd, 2016
   manager_apac_emea:
     - Rémy Coutable
-- version: "8.4"
+- version: "8.5"
   date: February 22nd, 2016
+  manager_apac_emea:
+    - Rémy Coutable
+- version: "8.4"
+  date: January 22nd, 2016
+  manager_americas:
+    - Robert Speicher
+- version: "8.3"
+  date: December 22nd, 2015
+  manager_americas:
+    - Robert Speicher
+- version: "8.2"
+  date: November 22nd, 2015
+  manager_americas:
+    - Robert Speicher
+- version: "8.1"
+  date: October 22nd, 2015
+  manager_americas:
+    - Robert Speicher
+- version: "8.0"
+  date: September 22nd, 2015
+  manager_americas:
+    - Robert Speicher
+- version: "7.14"
+  date: August 22nd, 2015
   manager_americas:
     - Robert Speicher
