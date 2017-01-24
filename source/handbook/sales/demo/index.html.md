@@ -33,6 +33,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 
 > * You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
 > * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed .
+>   * Run `gcloud components install kubectl`
 > * Login to Google Cloud Platform
 >   * URL: [https://console.cloud.google.com/start](https://console.cloud.google.com/start)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
@@ -43,7 +44,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
 > * Go to 'Displays' settings, Resulution: Scaled, Larger text
 > * Open this page on an Ipad that has screen lock disabled.
-> * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` clone.
+> * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` directory you have just cloned.
 >   * Before the demo, run `gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
 
 ## Install GitLab itself
@@ -54,26 +55,26 @@ The first step is to install GitLab itself. Today I'm going to use Google Cloud 
 
 We will start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
 
-> * Navigate to `Container Engine` using the menu in the upper left.
+> * Navigate to [Container Engine](https://console.cloud.google.com/kubernetes/list)
 > * Click `Create cluster`, this will open a series of dialogs to complete.
 
-We will name this cluser "i2p-demo-user", have it created in the us-central zone, and make sure the machine type has at least 2 cpu for performance reasons.
+We will name this cluser "make-sid-dance", have it created in the us-central zone, and make sure the machine type has at least 2 cpu for performance reasons.
 
-> * Name the cluster `i2p-demo-user`, where `user` is your name.
+> * Name the cluster `make-sid-dance`
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
 > * Change the number of vCPU in Machine type to `2 vCPU`.
 > * Click the `Create`  button at the bottom of the page.
 
 At this point, we will reserve an external IP address for the demo, so that we can use a domain name and Let's Encrypt for SSL.
 
-> * Navigate to `Networking` using the menu in the upper left.
+> * Navigate to [Networking](https://console.cloud.google.com/networking/addresses/list)
 > * Select `External IP addresses` from the menu on the left.
 > * Click `Reserve static address` at the top of the page.
-> * Set the name to match the name used for the cluster (`i2p-demo-user`).
+> * Set the name to match the name used for the cluster (`make-sid-dance`).
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
 > * Click the `Reserve` button at the bottom of the page.
 
-This will take just a moment while the system allocates the address.
+This may take just a moment while the system allocates the address.
 
 We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
 
@@ -87,7 +88,7 @@ We'll now create a wildcard DNS entry for our demonstration domain, pointing to 
 
 Now that we have created the cluster and configured a world-reachable domain, we can go back and check on our cluster.
 
-> * Navigate to `Container Engine` from the menu in the top left.
+> * Navigate to [Container Engine](https://console.cloud.google.com/kubernetes/list)
 > * Confirm a green checkmark. This tells us the cluster is ready to be used.
 
 Good, our cluster is ready for us to use. Let us connect to it.
@@ -110,7 +111,7 @@ Let's go ahead and generate this now
 
 > * Stay in the Terminal window
 > * Compse the following, filling in your values from the previous steps:
->   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=sid@gitlab.com bash generate.bash`
+>   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@example.com bash generate.bash`
 > * You will see the output similar to
 >   * `Using gitlab-make-sid-dance-com.yml`
 
@@ -123,12 +124,11 @@ The `kubectl` command has now connected to our cluster on GKE and is deploying a
 
 > * From Terminal, run
 >   * `kubectl proxy`
-> * Go to Chrome, to the tab with Container Engine open.
-> * Click the small blue link to [http://localhost:8001/ui](http://localhost:8001/ui)
+> * Go the the Kubernetes Dashboard at [http://localhost:8001/ui](http://localhost:8001/ui)
 
 Here is the Kubernetes dashboard. We will watch the status of deployment from Workloads page.
 
-> * First, change the `Namespace`  on the left. Change it from `default` to `All Namespaces`
+> * First, change the `Namespace` drop-down on the left. Change it from `default` to `All Namespaces`
 > * Click on `Workloads` on the left.
 
 We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
@@ -157,8 +157,8 @@ If there is more time talk about what a review app is and what cycle analytics a
 
 Now that we've got GitLab running, let's set up an account.
 
-> * Change password for root user, but do *not* log in as root
-> * Create new user with your name and email address
+> * Change password for root user
+> * Login as root user
 
 We now create a group for our company; let’s name it `tanuki`.
 
@@ -166,8 +166,9 @@ We now create a group for our company; let’s name it `tanuki`.
 
 Then let’s now create a new project to start off with, importing a tiny Ruby application for demonstration.
 
-> * Create a project called `simple-app` under the `tanuki` group and make it public
+> * Create a project under the `tanuki` group
 > * Import `simple-app` from [https://gitlab.com/pchojnacki/simple-app.git](https://gitlab.com/pchojnacki/simple-app.git)
+> * Make it public
 
 ### Add Kubernetes credentials to CI
 
@@ -179,20 +180,27 @@ The next step is to configure CI, but first we have to set the Kubernetes  CI ne
 > * Go to Project
 > * Go to Settings > Services
 > * Go to Kubernetes
-> * Go back to [Kubernetes Dashboard]()
+> * Go back to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
 > * Navigate to Secrets > Config on the left.
 > * Click on `default-token-xxx` for the `default` namespace
-> * Copy token to `Service token` in GitLab
-> * Copy ca.crt to `Custom CA bundle` in GitLab
-> * Go to Container Engine
+> * Copy token (last item) to `Service token` in GitLab
+> * Copy ca.crt (first item, including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
+> * Go to Container Engine tab
 > * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
+> * Check the Active checkbox
+> * Click Save Settings
+> * Click Cancel to return to the previous page
 
-### Setup GitLab CI
 
-Now we’re ready to configure GitLab CI. Luckily GitLab also provides a bunch of templates to get us started. Back to the project, let’s click `Setup CI` and choose the OpenShift template.
+### Setup GitLab Auto-Deploy
 
-> * Go to Project, Click Setup CI
+Now we’re ready to configure GitLab Auto Deploy. Luckily GitLab also provides a few templates to get us started. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template.
+
+> * Go to Project, Click `Set up auto deploy`
 > * Choose Kubernetes template
+> * Edit the template
+>   * Change `KUBE_DOMAIN` from `domain.example.com` to `make-sid-dance.com`
+> * Change Target Branch to `master`
 > * Commit
 
 Great, that completes our setup.
@@ -201,8 +209,8 @@ Great, that completes our setup.
 
 Let’s go to our Mattermost client. We can get there from our OpenShift dashboard. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
-> * Go to OpenShift and select the GitLab project [https://openshift.tanukionline.com:8443/console/project/gitlab/overview](https://openshift.tanukionline.com:8443/console/project/gitlab/overview)
-> * Click [Mattermost URL](http://mattermost.tanukionline.com) (second application, top right)
+> * Go to the deployed Mattermost
+> * Click [Mattermost URL](http://mattermost.make-sid-dance.com) (second application, top right)
 > * Sign up with GitLab
 > * Authorize
 
@@ -214,7 +222,7 @@ TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org
 
 And create a channel for our project.
 
-> * Create a new channel by clicking the + icon in the sidebar: firstname-www. Press 'Create new channel'
+> * Create a new channel by clicking the + icon in the sidebar: simple-app. Press 'Create new channel'
 
 This channel is where the team would discuss the project and come up with great ideas for such as “Let’s improve the homepage!”.
 
