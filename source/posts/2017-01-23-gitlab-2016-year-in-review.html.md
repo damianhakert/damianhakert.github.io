@@ -159,9 +159,9 @@ Our branch protection feature was improved with [Wildcard Branch Protection](htt
 
 ![Wildcard Branch Protection](/images/8_10/wc1.png)
 
-### Manual Actions for CI
+### Manual actions for CI
 
-Manual Actions were introduced for CI, this addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion.
+[Manual actions](https://docs.gitlab.com/ce/ci/environments.html#manually-deploying-to-environments) were introduced for CI. This addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion.
 
 ![Manual Actions for CI](/images/8_10/ci_manual1.png)
 
