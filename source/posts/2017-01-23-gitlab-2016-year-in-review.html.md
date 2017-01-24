@@ -70,7 +70,7 @@ Also included in February's release was an alpha version of GitLab Geo. GitLab G
 
 ### Confidential Issues
 
-Confidential issues are issues visible only to members of a project with sufficient permissions. Confidential issues can be used by open source projects and companies alike to keep security vulnerabilities private or prevent surprises from leaking out.
+[Confidential issues](https://docs.gitlab.com/ce/user/project/issues/confidential_issues.html) are issues visible only to members of a project with sufficient permissions. Confidential issues can be used by open source projects and companies alike to keep security vulnerabilities private or prevent surprises from leaking out.
 
 ### Subscribing to Labels
 
