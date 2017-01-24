@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
 At GitLab, we believe the best approach to software delivery is to ship quicky and often.
-By building a team and a company culture that values iteration over perfection, we
+By building a team and a [company culture](/culture/) that values iteration over perfection, we
 are able to ship new improvements and features every month!
 
 So it should come as no surprise that in 2016, we shipped 12 new versions of GitLab!
