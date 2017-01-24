@@ -145,7 +145,7 @@ With 8.9 we replaced the often-confusing sidebar paradigm with a new tabbed head
 
 ### Universal Two Factor (U2F)
 
-Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs.gitlab.com/ce/profile/two_factor_authentication.html) that uses physical keys (usually via USB) for authentication. GitLab 8.9 added support for the U2F device standard.
+Universal Two Factor (U2F) is a form of [Two-Factor Authentication](https://docs.gitlab.com/ce/user/profile/account/two_factor_authentication.html) that uses physical keys (usually via USB) for authentication. GitLab 8.9 added support for the U2F device standard.
 
 See [our blog post](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) for more information.
 
