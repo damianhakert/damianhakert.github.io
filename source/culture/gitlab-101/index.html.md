@@ -6,7 +6,7 @@ title: "GitLab 101"
 
 During the monthly GitLab 101 call with new hires and the CEO where we talk about the following topics. This is a zoom call (please make sure there is no Google Hangout link in the invite). The agenda is below, urls are expanded so you can click on them when we paste this in the calendar invite:
 
-1. Overview of the GitLab history [https://about.gitlab.com/about/](https://about.gitlab.com/about/)
+1. Overview of the GitLab history [https://about.gitlab.com/about/#a-brief-history-of-gitlab](https://about.gitlab.com/about/#a-brief-history-of-gitlab)
 1. Our values [https://about.gitlab.com/handbook/#values](https://about.gitlab.com/handbook/#values)
 1. Everyone introduces themselves using the order in the calendar invite. What do you do at GitLab? Why did you join GitLab? What do you enjoy in your private life (quirky details are encouraged, also feel free to introduce your significant other and/or pets)? Did you already have 10 virtual coffee breaks? If you already had 10 are you open to more?
 1. Team structure [https://about.gitlab.com/team/structure/](https://about.gitlab.com/team/structure/)
