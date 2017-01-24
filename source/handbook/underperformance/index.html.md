@@ -3,20 +3,22 @@ layout: markdown_page
 title: "Underperformance"
 ---
 
-At GitLab, we strive to hire smart people who can get things done. Though the bar
-for getting hired is high, our interview process is imperfect and later on we may find that someone is not living up to expectations. We want people to be successful and give every opportunity for each individual to work effectively but at the same time, we need to balance the company’s needs and move quickly to manage areas of underperformance.
+At GitLab, we strive to hire smart people who can get things done. Though the bar for getting hired is high, our interview process is imperfect and later on we may find
+that someone is underperforming. We want people to be successful and should give every opportunity for individuals to work effectively but at the
+same time, we need to balance the company’s needs and move quickly to manage areas of underperformance.
 
-When it becomes clear to a manager that an individual isn't accomplishing
-enough or working well with others, here are guidelines for how to handle
-underperformance.
+There will be situations when People Ops determines a course of action including a greater sense of urgency. This means that someone can be terminated without undertaking the following
+perscribed steps. Such situations include, but are not be limited to, when damage caused by someone's actions is irreparable or violates our values and expected code of
+conduct or is unethical. 
 
- Managers need to recognize poor performance and address it through PIPs. However, there are certain performance issues that need to be addressed and dealt with that will not follow the PIP process. Someone may be terminated without undertaking these steps if the damage caused by their actions is irreparable or goes against our core values and expected code of conduct. Please work with People Operations on all cases of underperformance to protect the organization and equally consider the side of the individual involved.
+Managers should follow these guidelines when underperformance is recognized. Please reach out to People Operations with any concerns related to underperformance to protect the organization
+and equally consider the individual(s) involved.
 
-1) Manager communicates to direct report during one-on-one that team member
-needs to improve. If there are extenuating circumstances some leeway may be
-granted depending on the situation.  This is an area where People Operations can provide a sounding board / voice of reason.
+1) Managers should first address areas of poor performance or behavior related concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team member.
+Helping team members understand clearly how their performance is not meeting standards quickly is very important to foster immediate improvement and continued success.
+If there are extenuating circumstances some leeway may be granted depending on the situation. This is an area where People Operations can provide a sounding board or voice of reason.
 
-2) If the lack of performance persists, the manager moves to documenting clear expectations for improvement in a performance improvement plan (PIP). The intention of a PIP is to support the individual in any way required to make their time at GitLab a positive experience but also to make clear that immediate and sustained improvement
+2) Should underperformance continues after initial coaching, managers should move directly to documenting clear expectations for improvement in a Performance Improvement Plan (PIP). The intention of a PIP is to support the individual in any way required to make their time at GitLab a positive experience but also to make clear that immediate and sustained improvement
 is required. The Society for Human Resources Management (SHRM) has a [helpful guide](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) to review when
 you this step is needed to push past the current performance issues.
 
