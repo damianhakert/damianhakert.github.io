@@ -17,6 +17,8 @@ With GitLab 8.16 you can deploy GitLab straight to Google Container Engine (GKE)
   <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+For further instructions, please take a look at the [project](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo).
+
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">For more about our latest release, catch our upcoming webcast about &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab 8.16</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 &nbsp;&nbsp;on January 26. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html">Register here</a>!</p>
 
