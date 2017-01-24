@@ -6,7 +6,7 @@ categories: GitLab
 image_title: /images/2016-year-in-review/gitlab-2016-in-review-cover.png
 description: We’re proud to announce that we closed 2016 with the entire idea-to-production workflow, as promised! These are the highlights
 cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
-cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html?utm_medium=blog&utm_source=blog&utm_campaign=816+release+webcast&utm_content=register+now+button
+cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html
 twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
@@ -282,4 +282,7 @@ LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians
 
 As always, if you found this post interesting and want to contribute to the project, we’d be happy to have you! Take a look around the [Accepting Merge Requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=Accepting+Merge+Requests) label in the GitLab CE project, and download the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit) to get started. If you have any questions feel free to reach out on Twitter, in the GDK issue tracker, or in our IRC channel. 
 
-What improvements do you want to see this year? 
+What improvements do you want to see this year?
+
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our upcoming webcast about &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab 8.16</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+&nbsp;&nbsp;on January 26. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html">Register here</a>!</p>
