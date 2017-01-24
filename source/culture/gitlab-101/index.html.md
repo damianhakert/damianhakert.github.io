@@ -9,9 +9,9 @@ During the monthly GitLab 101 call with new hires and the CEO where we talk abou
 1. Overview of the GitLab history [https://about.gitlab.com/about/]](https://about.gitlab.com/about/)
 1. Our values [https://about.gitlab.com/handbook/#values](https://about.gitlab.com/handbook/#values)
 1. Everyone introduces themselves using the order in the calendar invite. What do you do at GitLab? Why did you join GitLab? What do you enjoy in your private life (quirky details are encouraged, also feel free to introduce your significant other and/or pets)? Did you already have 10 virtual coffee breaks? If you already had 10 are you open to more?
-1. Team structure [https://about.gitlab.com/team/structure/org-chart/](https://about.gitlab.com/team/structure/org-chart/)
+1. Team structure [https://about.gitlab.com/team/structure/](https://about.gitlab.com/team/structure/)
 1. How we work [https://about.gitlab.com/handbook/#general-guidelines](https://about.gitlab.com/handbook/#general-guidelines)
-1. Q&A, which results in the FAQ below, this is done by a people ops person that joins the call.
+1. Q&A, which results in the FAQ on [https://about.gitlab.com/culture/gitlab-101/](https://about.gitlab.com/culture/gitlab-101/), this is done by a people ops person that joins the call.
 
 ### Frequently Asked Questions about the GitLab Culture
 
