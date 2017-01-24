@@ -24,11 +24,11 @@ For a visual of how far we’ve come, take a look at these two screenshots.
 
 An issue for GitLab Community Edition on January 22, 2016 (8.4):
 
-![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png)
+![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png){:.shadow}
 
 An issue for GitLab Community Edition on January 3, 2017 (8.15):
 
-![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png)
+![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png){:.shadow}
 
 ## January: 8.4
 
@@ -124,7 +124,7 @@ Following the introduction of License templates in 8.7, 8.8 provides [`.gitignor
 
 With GitLab 8.9 you can now define [Environments](https://docs.gitlab.com/ce/ci/environments.html). Environments allow you to track deployments and quickly understand things like "what's running in staging?"
 
-![Environments](/images/8_9/environments.png)
+![Environments](/images/8_9/environments.png){:.shadow}
 
 For more information, see [our blog post on Environments and Deployments](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/).
 
@@ -135,13 +135,13 @@ With GitLab 8.9, labels can be starred and added to a priority list.
 are like any other label, but sorted by priority. This allows you to easily
 sort issues and merge requests by priority.
 
-![Priority Labels](/images/8_9/plabels2.png)
+![Priority Labels](/images/8_9/plabels2.png){:.shadow}
 
 ### Redesigned Navigation
 
 With 8.9 we replaced the often-confusing sidebar paradigm with a new tabbed header. We've been really happy with this change, and think it was a huge improvement over our past iterations.
 
-![Redesigned Navigation](/images/8_9/look3.png)
+![Redesigned Navigation](/images/8_9/look3.png){:.shadow}
 
 ### Universal Two Factor (U2F)
 
@@ -157,13 +157,13 @@ See [our blog post](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-
 
 Our branch protection feature was improved with [Wildcard Branch Protection](https://docs.gitlab.com/ce/user/project/protected_branches.html), allowing repositories to protect branches based on their names, for example `release-*` protects any branch which starts with `release-`.
 
-![Wildcard Branch Protection](/images/8_10/wc1.png)
+![Wildcard Branch Protection](/images/8_10/wc1.png){:.shadow}
 
 ### Manual actions for CI
 
 [Manual actions](https://docs.gitlab.com/ce/ci/environments.html#manually-deploying-to-environments) were introduced for CI. This addition allows users to maintain fine-grained control over how they handle things like deployments to staging or production, rather than deploying automatically upon a pipeline's completion.
 
-![Manual Actions for CI](/images/8_10/ci_manual1.png)
+![Manual Actions for CI](/images/8_10/ci_manual1.png){:.shadow}
 
 ## August: 8.11
 
@@ -175,31 +175,31 @@ GitLab 8.11 was probably the most exciting release of the year, bringing with it
 
 [Issue Boards](https://about.gitlab.com/solutions/issueboard/) are another way of tracking project issues. Similar to existing kanban board software, [issue boards integrate](https://docs.gitlab.com/ce/user/project/issue_board.html) with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
 
-![Issue Boards](/images/8_11/issue_boards.gif)
+![Issue Boards](/images/8_11/issue_boards.gif){:.shadow}
 
 ### Merge Conflict Resolution
 
 Merge conflicts frequently happen in large projects with lots of developers. They cause friction and slow down the pace of development, which is why we introduced [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html) into the GitLab web interface. With Merge Conflict Resolution, users can resolve simple conflicts right from GitLab.
 
-![Merge Conflict Resolution](/images/8_11/resolve_mc.gif)
+![Merge Conflict Resolution](/images/8_11/resolve_mc.gif){:.shadow}
 
 ### Merge Request Discussion Resolution
 
 With [Discussion Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html), each comment and discussion on merge request diffs can be resolved. Longer threads can be resolved all at once or just comment-by-comment. Discussion resolution can help prevent feedback from slipping through the cracks on larger merge requests.
 
-![Resolve Discussions](/images/8_11/resolve_discussion.png)
+![Resolve Discussions](/images/8_11/resolve_discussion.png){:.shadow}
 
 ### Pipeline Graphs
 
 [Pipeline Graphs](https://docs.gitlab.com/ce/ci/pipelines.html) are an awesome visual representation of a project's Pipeline, they help users understand the way their pipelines are run.
 
-![Pipeline Graph](/images/8_11/pipeline_graph2.png)
+![Pipeline Graph](/images/8_11/pipeline_graph2.png){:.shadow}
 
 ### Slash Commands
 
 With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/slash_commands.html), comments can be used to modify the status, author, assignee, due date, milestone, and labels of a merge request or issue, among other things. This feature gives users more power over their issues and merge requests without ever leaving the keyboard or needing to memorize keyboard shortcuts.
 
-![Slash Commands](/images/8_11/slash-commands.gif)
+![Slash Commands](/images/8_11/slash-commands.gif){:.shadow}
 
 ### Koding Integration
 
@@ -213,7 +213,7 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. See [our feature highlight blog post](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
-![Cycle Analytics](/images/8_12/cycle_analytics.png)
+![Cycle Analytics](/images/8_12/cycle_analytics.png){:.shadow}
 
 ### Global Code Search (EE Starter)
 
@@ -223,7 +223,7 @@ Code search was improved for [Enterprise Edition Starter](https://about.gitlab.c
 
 With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requests/versions.html) you can view previous states of a merge request: compare between a previous commit and the target branch or even between versions, showing you what has changed between certain commits.
 
-![Merge Request Versions](/images/8_12/mr_versions.png)
+![Merge Request Versions](/images/8_12/mr_versions.png){:.shadow}
 
 ## October: 8.13
 
@@ -233,13 +233,13 @@ With [Merge Request Versions](https://docs.gitlab.com/ce/user/project/merge_requ
 
 Issue Boards were improved for [EE Starter](https://about.gitlab.com/products/) users by allowing more than one issue board for a given project. This is great for large projects with more than one team, or in situations where a repository is used to host the code of multiple products.
 
-![Multiple Issue Boards](/images/8_13/m_ib.gif)
+![Multiple Issue Boards](/images/8_13/m_ib.gif){:.shadow}
 
 ### Merge Conflict Editor
 
 Building on [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html) introduced in 8.11, the Merge Conflict Resolution tool gained an Editor. This allows more complex merge conflicts, which require the user to manually modify a file in order to resolve a conflict, to be solved right form the GitLab interface.
 
-![Merge Conflict Editor](/images/8_13/inlinemergeconflictresolution.gif)
+![Merge Conflict Editor](/images/8_13/inlinemergeconflictresolution.gif){:.shadow}
 
 ## November: 8.14
 
@@ -249,7 +249,7 @@ Building on [Merge Conflict Resolution](https://docs.gitlab.com/ce/user/project/
 
 With the introduction of the [Time Tracking Beta](https://docs.gitlab.com/ce/workflow/time_tracking.html), companies that need time tracking tools can use them right from within GitLab.
 
-![Time Tracking](/images/8_14/time.gif)
+![Time Tracking](/images/8_14/time.gif){:.shadow}
 
 ### Chat Commands
 
@@ -275,13 +275,13 @@ Rounding off the year with GitLab 8.15, we finished the base of our [idea-to-pro
 
 The addition of the [Web Terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals) brings more power to the GitLab web interface. If you deploy to your environments with the help of a deployment service (e.g. Kubernetes), GitLab can open a terminal session to your environment and let you debug on your staging or – if you so dare – production site.
 
-![Web Terminal](/images/8_15/terminal_gif.gif)
+![Web Terminal](/images/8_15/terminal_gif.gif){:.shadow}
 
 ### LaTeX Support
 
 [LaTeX support](https://docs.gitlab.com/ce/user/markdown.html#math) was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. LaTeX support was contributed by the community.
 
-![LaTeX math in a comment](/images/8_15/math.png)
+![LaTeX math in a comment](/images/8_15/math.png){:.shadow}
 
 ## Looking forward
 
