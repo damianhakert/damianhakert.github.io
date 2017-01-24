@@ -279,7 +279,7 @@ The addition of the [Web Terminal](https://docs.gitlab.com/ce/ci/environments.ht
 
 ### LaTeX Support
 
-LaTeX support was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. LaTeX support was contributed by the community.
+[LaTeX support](https://docs.gitlab.com/ce/user/markdown.html#math) was added in 8.15 to improve GitLab for scientists, mathematicians, and anyone else who wanted to use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) in their issues or merge requests. LaTeX support was contributed by the community.
 
 ![LaTeX math in a comment](/images/8_15/math.png)
 
