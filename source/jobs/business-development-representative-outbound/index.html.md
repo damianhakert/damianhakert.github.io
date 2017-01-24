@@ -22,6 +22,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 * Experience with CRM and/or marketing automation software is highly preferred
 * An understanding of B2B software, Open Source software, and the developer product space
 * Articulate, confident, and reliable
+* Affinity with software and the software development process.
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * You are obsessed with making customers happy.
 * Passionate about technology and learning more about GitLab

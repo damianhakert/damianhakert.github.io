@@ -5,6 +5,7 @@ title: Blog archives
 
 .blog.archives
   .wrapper
+    = partial "includes/newsletter-signup.html"
     .section
       %ul
         - blog.articles.each do |post|
@@ -14,3 +15,4 @@ title: Blog archives
             - if post.date
               %time
                 = post.date.to_time.strftime '%b %e, %Y'
+    = partial "includes/newsletter-signup.html"

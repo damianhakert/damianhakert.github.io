@@ -48,11 +48,11 @@ We want to achieve our goals in the following order:
 
 1. In 2015 we became the most popular on-premises software development lifecycle solution, and we want to continue that.
 
-2. We want to become the most revenue generating on-premises software development lifecycle solution.
+2. We want to become the most revenue generating on-premises software development lifecycle solution before our IPO.
 
-3. After on-premises, we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones).
+3. Around our IPO we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones).
 
-4. After private repositories, we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories. Having people on our SaaS helps drive awareness and familiarity with GitLab.
+4. After our IPO we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories. Having people on our SaaS helps drive awareness and familiarity with GitLab.
 
 5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this, we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it.
 

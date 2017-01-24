@@ -7,7 +7,6 @@ class OrgChart
     @team = YAML.load_file('data/team.yml')
     @title_to_person_map = {}
 
-    add_manual_entries
     normalize_reports_to_field
     build_json_data
   end
@@ -61,12 +60,6 @@ class OrgChart
 
   def strip_tags(str)
     str.gsub(%r{</?[^>]*>}, '')
-  end
-
-  def add_manual_entries
-    # Ernst is a unique case where his title is VP of Scaling, but
-    # he is interim Support Lead
-    @team << { 'name' => 'Ernst (Interim)', 'role' => 'Support Lead', 'reports_to' => 'VP of Engineering' }
   end
 
   def normalize_role(role)

@@ -184,8 +184,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible (issues and email instead of
-chat). Issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
+1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk). To use email instead of chat it is OK to send _internal_ email that contain only a short message, similar as you would use it in chat. Save time by not including a salutation like 'Hi Emma,' and first write the subject the email which you copy paste into the body. You are not expected to be available all the time, it is perfectly fine to wait with responding to emails and chat mentions until your planned work hours.
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -284,8 +283,8 @@ step, **re-assign** the issue to that person.
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
-    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
-    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
+    1. All other merge requests should be assigned for review to either a merge request reviewer or maintainer. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a reviewer, they will assign it to a maintainer who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
 1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
@@ -341,6 +340,9 @@ some discussion in a [meta issue on the GitLab.com CE
 tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&label_name=meta)
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
+
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
 
 ### Random Chat and Room
 {: #random-room}
@@ -413,7 +415,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.md) for more information when writing documentation.
-1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
+1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`
+2. We segment our customers/prospects into 4 segments [Strategic, Large, Mid-Market and Small Medium Business (SMB)](https://about.gitlab.com/handbook/sales/#market-segmentation).
 
 ### Beamy Guidelines
 
@@ -580,6 +583,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 
 1. If you refer a great candidate and they are hired, then you receive a $1,000 bonus
 once the new team member has been with the company for 3 months.
+1. Until further notice, we will double the incentive bonus for hires from underrepresented groups in the tech industry and at GitLab including women, racial and ethnic minorities, and veterans.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
@@ -685,6 +689,11 @@ With a right click you can switch from push to talk to push to mute.
 Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
+
+#### Shush alternative for Linux
+
+If you use Linux (eg; [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) then you can create system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org/main/index.php/Main_Page) system for sounds (most popular Linux distributions use ALSA). All you need to do is go to your desktop environment's _Keyboard Settings_ and create a custom shortcut with command `amixer set Capture toggle` and assign a key combination of your choice (eg; `Pause Break` key). Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application. Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
 
 ### Disabling OS X Notification Center
 

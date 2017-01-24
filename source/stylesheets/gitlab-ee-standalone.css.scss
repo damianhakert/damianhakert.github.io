@@ -1,0 +1,177 @@
+@import "vendor/bootstrap/bootstrap/variables";
+@import "variables";
+@import "sandwich-page-layout";
+
+body {
+  background-color: $color-white;
+}
+
+.qnav {
+  background: $color-primary;
+  position: fixed;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  min-height: 0;
+  z-index: 100;
+  transition: all .5s ease;
+}
+
+.qnav2 {
+  background: $color-primary-alt;
+}
+
+.nav-justified > li {
+  > a {
+    color: $color-white;
+    border-radius: 0;
+  }
+
+  > a:hover,
+  &.active > a,
+  &.active > a:hover {
+    background: $color-primary;
+  }
+}
+
+.featurenav {
+  width: 350px;
+}
+
+.gitlab-ee-standalone {
+  .page-container {
+    padding-top: 0;
+  }
+
+  .landing-container {
+    padding-top: 30px;
+    background: url("/images/gitlab_ee/hero/ee-standalone-hero.png") center center no-repeat;
+    background-size: cover;
+    background-color: $landing-community-bg;
+
+    @media (min-width: $screen-sm-min) {
+      padding-top: 120px;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      padding-top: 100px;
+    }
+
+    &::after {
+      background-image: $ee-standalone-hero-background-gradient;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .gitlab-ee-hero {
+    margin: 60px auto;
+  }
+
+  .contact-sales {
+    padding-top: 80px;
+    border-bottom: 1px solid $border-color;
+
+    .btn {
+      width: auto;
+
+      &:first-child {
+        margin-right: 10px;
+      }
+
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .top-reasons {
+    padding-top: 80px;
+    text-align: center;
+
+    .media {
+      @media(max-width: $screen-sm-max) {
+        text-align: left;
+      }
+    }
+  }
+
+  .orgs-row {
+    margin-top: 40px;
+    text-align: center;
+
+    > img {
+      margin: 0 11px 40px;
+
+      @media (min-width: $screen-sm-min) {
+        float: none;
+        width: 170px;
+        height: 80px;
+      }
+    }
+  }
+}
+
+.os-principles {
+  .titles {
+    h1 {
+      margin-top: 95px;
+    }
+
+    h2 {
+      color: $color-gray;
+      font-size: 24px;
+    }
+  }
+}
+
+.larger-teams {
+  .titles {
+    h3 {
+      margin-top: 95px;
+    }
+  }
+
+  .section-description {
+    color: $color-white;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .features-description {
+    margin-top: 40px;
+  }
+}
+
+.feature-tree-row {
+  @media (min-width: $screen-md-min) {
+    display: flex;
+  }
+
+  &:not(:last-child) {
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.feature-tree-text-wrap {
+  align-self: center;
+}
+
+.feature-tree-description {
+  font-size: 16px;
+}
+
+.top-reasons {
+  .titles {
+    h2 {
+      margin-bottom: 40px;
+      color: $color-primary-alt;
+    }
+  }
+}

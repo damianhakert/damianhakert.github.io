@@ -214,14 +214,22 @@ We have much more requests for great features than we have capacity to work on.
 There is a good chance we’ll not be able to work on something.
 Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
 
-### Scheduling Committee
+### Scheduling issues into a milestone
 
-There is an informal scheduling committee that has a weekly meeting that
-discusses issues _around_ scheduling and how the process of scheduling issues
-can be improved. Actual scheduling, prioritization, and others has to happen
-on GitLab.com and nowhere else.
+Towards the end of a milestone, engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
+* Engineering leads are responsbile for resource planning and allocation.
+* Engineering leads are responsible for prioritizing bugs and tech debt.
+* Product managers are responsbile for prioritizing features, with feedback from all relevant stakeholders.
+* Based on the above, engineering leads and product managers collaborate and establish scope for the following milestone, by the **19th** of the month.
+* The in scope issues are labeled `Deliverable`.
+* The entire process happens asynchronously, and is mediated through individual issues themselves.
+* The list of `Deliverable` in scope issues are documented in a dedicated milestone issue, with the **19th** being the scheduling deadline.
 
+### Process improvement
+
+There is an informal scheduling process improvement meeting that discusses the process outlined above.
+The purpose of the meeting is to improve the process itself, and not to do any actual prioritizing or scheduling.
 The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
 
-- [Scheduling committee agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
+- [Scheduling process improvement agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
 - Slack channel: `#scheduling`

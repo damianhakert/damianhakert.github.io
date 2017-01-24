@@ -42,21 +42,12 @@ that are added during the year you pay half price when you renew.
 
 ### The True-Up model seems complicated, can you illustrate?
 
-Under the true-up model you pay 50% of the annual cost of a license upon your renewal for the historical maximum number of users added during the year
-and you renew for that same amount of users or higher. Example, if you have 100 active users today, you should purchase a 100 user subscription.
-Suppose that when you renew next year you have added 300 users during the year (200 additonal users). When you renew you pay for the maximum user 
-count, 300, and you also pay half a year for the additional 200 users that you added during the year. For Customers that have pre-paid all Fees 
-for multi-year subscriptions, on each anniversary of the Effective Date during the term of this a new license key will be provided, and a True-Up 
-will be conducted. All additional users purchased shall be co-terminated through the end of the original Subscription period and a new license key 
-will be issued.
-
-Example
-* Original 100 seats @ $39 = $3900
-* Upon renewal additional 200 users added for a total of 300 users.  300 users x $39 = $11,700 + 200 additional users x $19.50 ($39/2) = $3,900 for a total amount at renewal of $15,600
-
-Example for prepaid multi-year deal
-* Original 100 seats @ $39 for 3 years = $11,700
-* Upon first annual anniversary additional 200 users added for a total of 300 users.  200 additional users x $19.50 ($39/2) for year 1 = $3,900 plus 200 additional users x $39 for year 2 and year 3 = $19,500 to be paid at first anniversary of license effective date.
+Under the true-up model you pay 100% of the annual cost of a license upon your renewal for the historical maximum number of users added during the year.
+Example, if you have 100 active users today, you should purchase a 100 user subscription.
+Suppose that when you renew next year you have added 300 users during the year (200 additonal users). When you renew you pay for the additional users (200),
+and the users you need for the upcoming year. For Customers that have pre-paid all Fees for multi-year subscriptions, on each anniversary of the Effective 
+Date during the term of this a new license key will be provided, and a True-Up will be conducted. All additional users purchased shall be co-terminated through 
+the end of the original Subscription period and a new license key will be issued.
 
 ### Do students have to pay or do they receive a discount?
 

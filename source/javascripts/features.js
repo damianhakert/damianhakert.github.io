@@ -132,11 +132,21 @@
   var $slider4 = $('#feature-gallery-slider-4');
   var $sliderNavElement4 = $('.slider-nav-4');
 
-  var slickHandler = new SlickHandler($slider, $sliderNavElement);
-  var slickHandler1 = new SlickHandler($slider1, $sliderNavElement1, {isAlt: true});
-  var slickHandler2 = new SlickHandler($slider2, $sliderNavElement2);
-  var slickHandler3 = new SlickHandler($slider3, $sliderNavElement3, {isAlt: true});
-  var slickHandler4 = new SlickHandler($slider4, $sliderNavElement4);
+  var slickHandler  = new SlickHandler($slider, $sliderNavElement, {
+    isAlt: $slider.closest('.feature-gallery').hasClass('feature-gallery-alt')
+  });
+  var slickHandler1 = new SlickHandler($slider1, $sliderNavElement1, {
+    isAlt: $slider1.closest('.feature-gallery').hasClass('feature-gallery-alt')
+  });
+  if ($slider2.length) {
+    var slickHandler2 = new SlickHandler($slider2, $sliderNavElement2);
+  }
+  if ($slider3.length) {
+    var slickHandler3 = new SlickHandler($slider3, $sliderNavElement3, {isAlt: true});
+  }
+  if ($slider4.length) {
+    var slickHandler4 = new SlickHandler($slider4, $sliderNavElement4);
+  }
 
   var $videoButton = $(".video-button");
   var $videoContainer = $('.video-container');
