@@ -1286,9 +1286,9 @@
 - name: Régis Freyd
   locality: Montréal
   country: Canada
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> Enterprise Edition
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a> Edge
   reports_to: VP of Product
-  picture: regis.jpg
+  picture: regis.png
   twitter: djaiss
   gitlab: regisF
   story:  |
