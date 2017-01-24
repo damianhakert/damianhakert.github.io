@@ -716,11 +716,9 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
-### Google Cloud
+### Google Cloud Platform
 
-All users with a gitlab.com e-mail account have access to an internal Google
-Cloud project called `gitlab-internal`. To access this, login to the [Google
-Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
+Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
 
 Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
 remove any resources that you are not using, since the company is [billed
