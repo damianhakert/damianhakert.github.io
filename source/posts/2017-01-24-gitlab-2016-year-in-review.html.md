@@ -141,7 +141,7 @@ sort issues and merge requests by priority.
 
 With 8.9 we replaced the often-confusing sidebar paradigm with a new tabbed header. We've been really happy with this change, and think it was a huge improvement over our past iterations.
 
-![Redesigned Navigation](/images/8_9/look3.png){:.shadow}
+![Redesigned Navigation](/images/8_9/look3.png)
 
 ### Universal Two Factor (U2F)
 
