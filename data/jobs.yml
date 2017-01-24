@@ -35,6 +35,12 @@
   apply:
   open: false
 
+- title: "Senior Backend Developer"
+  description: /jobs/senior-developer/
+  salary:
+  apply: https://gitlab.workable.com/jobs/416220
+  open: true
+
 - title: "CI Lead"
   description: /jobs/ci-lead/
   salary: 87337
@@ -45,7 +51,7 @@
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
-  open: true
+  open: false
 
 - title: "Edge Lead"
   description: /jobs/edge-lead/
