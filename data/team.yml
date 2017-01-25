@@ -117,8 +117,8 @@
           I have a very strong desire to improve the world by making all things easier.
 
 - name: Douwe Maan
-  locality: Utrecht
-  country: The Netherlands
+  locality: Mexico City
+  country: Mexico
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Platform Lead</a>
   reports_to: VP of Engineering
   picture: douwe.jpg
@@ -131,7 +131,7 @@
               <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douwe caught the programming virus at the age of 9, got his first freelance job 2 years later, and has spent the years that followed gaining experience with a wide range of technologies&mdash;both by himself and as lead developer at two startups.
-          Some 4 years ago, he found Ruby and fell in love with the language and the open-source community surrounding it, making him a perfect fit for GitLab.
+          Around 2011, he found Ruby and fell in love with the language and the open-source community surrounding it, making him a perfect fit for GitLab.
 
 - name: Paul Machle
   locality: San Francisco, CA
