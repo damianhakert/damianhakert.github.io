@@ -34,23 +34,3 @@
     margin-top: 50px;
   }
 }
-
-.dark-background-link {
-  color: $color-white;
-  text-decoration: underline;
-  font-size: 18px;
-
-  &:hover {
-    color: $color-secondary-alt;
-  }
-}
-
-.white-background-link {
-  color: $color-primary-alt;
-  text-decoration: underline;
-  font-size: 18px;
-
-  &:hover {
-    color: $color-secondary;
-  }
-}
