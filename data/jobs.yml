@@ -43,8 +43,8 @@
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
 
-- title: "CI Lead"
-  description: /jobs/ci-lead/
+- title: "CI/CD Lead"
+  description: /jobs/ci-cd-lead/
   salary: 87337
   apply:
   open: false
@@ -233,4 +233,3 @@
   open: true
 
   # Ordered alphabetically **by job description URL**
-  

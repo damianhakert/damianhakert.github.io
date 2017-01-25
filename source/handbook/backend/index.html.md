@@ -7,7 +7,7 @@ title: "Backend Group"
 
 There are a number of teams within the Backend group:
 
-* [CI](/handbook/backend#ci)
+* [CI/CD](/handbook/backend#cicd)
 * [Discussion](/handbook/backend#discussion)
 * [Platform](/handbook/backend#platform)
 * [Prometheus](/handbook/backend#prometheus)
@@ -23,14 +23,14 @@ Backend group.
 There is a backend group call every Tuesday, before the team call. You should
 have been invited when you joined; if not, ask your team lead!
 
-### CI Team
-{: #ci}
+### CI/CD Team
+{: #cicd}
 
-The CI Team is focused on all the functionality with respect to
+The CI/CD Team is focused on all the functionality with respect to
 Continuous Integration and Deployments. For example, this includes:
 
   * Builds
-  * CI Runner
+  * Runner
   * Container Registry
   * Pipelines
   * Deployments
@@ -113,8 +113,8 @@ multiple teams may be involved in each area:
 3. Plan (Discussion)
 4. Code (Platform)
 5. Commit (Platform)
-6. Test (CI)
+6. Test (CI/CD)
 7. Review (Discussion)
-8. Staging (CI)
-9. Production (CI)
+8. Staging (CI/CD)
+9. Production (CI/D)
 10. Feedback (Platform, Prometheus)
