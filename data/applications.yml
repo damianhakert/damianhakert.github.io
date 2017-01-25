@@ -393,7 +393,7 @@
         - url: http://git-scm.com/downloads/guis
           title: http://git-scm.com/downloads/guis
     - title: Git Tower
-      content: Easy version control in a beautiful, efficient, and powerful app for Mac OS X.
+      content: Easy version control in a beautiful, efficient, and powerful app for Windows and macOS.
       links:
         - url: http://www.git-tower.com/
           title: www.git-tower.com
