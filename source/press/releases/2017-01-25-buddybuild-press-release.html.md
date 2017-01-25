@@ -1,14 +1,14 @@
 ---
 layout: markdown_page
-title: "GitLab adds buddybuild to Global Partnership Program"
+title: "GitLab adds Buddybuild to Global Partnership Program"
 ---
 
-GitLab announced a new partnership today with buddybuild ([www.buddybuild.com]()), a leader in continuous integration, continuous deployment, and user feedback for iOS and Android development teams. The partnership combines GitLab and buddybuild’s capabilities to allow developers to choose from even more tools to support an integrated software development lifecycle.
+GitLab announced a new partnership today with Buddybuild ([www.buddybuild.com]()), a leader in continuous integration, continuous deployment, and user feedback for iOS and Android development teams. The partnership combines GitLab and Buddybuild’s capabilities to allow developers to choose from even more tools to support an integrated software development lifecycle.
 
-“Historically, setting up and maintaining a CI/CD system for mobile apps has been a frustrating and time consuming experience.” said Dennis Pilarinos, CEO and founder of buddybuild. “buddybuild is a CI/CD solution built specifically for mobile development teams. Gone are the days of the kludgy build scripts required to retrofit web infrastructure. Now, teams using GitLab and buddybuild can spend their time focused on building apps that their users love.”
+“Historically, setting up and maintaining a CI/CD system for mobile apps has been a frustrating and time consuming experience.” said Dennis Pilarinos, CEO and founder of Buddybuild. “Buddybuild is a CI/CD solution built specifically for mobile development teams. Gone are the days of the kludgy build scripts required to retrofit web infrastructure. Now, teams using GitLab and Buddybuild can spend their time focused on building apps that their users love.”
 
-For Eliran Mesika, the Director of Strategic Partnerships at GitLab, the partnership with buddybuild “provides a fantastic user flow that streamlines the development process through testing on mobile devices, what was usually a cumbersome process, seamlessly from your repo on GitLab to your continuous development & testing environment on buddybuild”.
-buddybuild joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please visit our [application page](https://about.gitlab.com/applications/). For more information about buddybuild, please visit their [website](https://www.buddybuild.com/).
+For Eliran Mesika, the Director of Strategic Partnerships at GitLab, the partnership with Buddybuild “provides a fantastic user flow that streamlines the development process through testing on mobile devices, what was usually a cumbersome process, seamlessly from your repo on GitLab to your continuous development & testing environment on Buddybuild”.
+Buddybuild joins a growing community of GitLab partners, around the world. For a complete list of GitLab partners, please visit our [application page](https://about.gitlab.com/applications/). For more information about Buddybuild, please visit their [website](https://www.buddybuild.com/).
 
 About GitLab’s Global Partner Program
 
