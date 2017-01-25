@@ -227,6 +227,11 @@
   apply:
   open: false
 
+- title: "VP of Engineering"
+  description: /jobs/vp-of-engineering/
+  apply: https://gitlab.workable.com/backend/jobs/417299/candidates/new
+  open: true
+
 - title: "VP of Marketing"
   description: /jobs/vp-of-marketing/
   apply:
