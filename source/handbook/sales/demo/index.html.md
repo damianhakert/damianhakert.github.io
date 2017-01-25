@@ -357,7 +357,7 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 ### Review apps
 
-But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our OpenShift cluster in a special app called a Review App, created just for this branch. If we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
+But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our Kubernetes cluster in a special app called a Review App, created just for this branch. If we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
 
 > * Click on external link to review app (if it is not updated, go to the review app deployment history, find the second-last item and re-deploy.
 
