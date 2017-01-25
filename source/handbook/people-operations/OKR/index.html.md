@@ -14,4 +14,4 @@ The key difference between Key Results and Child Goals is ownership: you will ow
 
 ### Changing your Name in Lattice
 
-Some employee's do not go by their legal first names. As Lattice defaults to pulling this data from BambooHR, the name field may need to be updated. You can do that here: https://gitlab.latticehq.com/settings/user
+Some employees do not go by their legal first names. As Lattice defaults to pulling this data from BambooHR, the name field may need to be updated. You can do that here: https://gitlab.latticehq.com/settings/user
