@@ -5,6 +5,7 @@ title: "Executive Assistant"
 
 ## Responsibilities
 
+* The EA is an assistant to the entire executive team
 * Handle email in executive's name including triage.
 * Schedule meetings if Calendly doesn't work.
 * Prepare draft responses to emails based on experience or verbal instructions.

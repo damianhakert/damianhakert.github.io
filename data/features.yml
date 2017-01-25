@@ -3,6 +3,9 @@
   - description: Edit files, directories and create merge requests straight from the web interface
     link: https://docs.gitlab.com/ce/workflow/web_editor.html
     in_ce: true
+  - description: Time Tracking
+    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
+    in_ce: true
   - description: Cycle Analytics
     link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
     in_ce: true
@@ -15,9 +18,6 @@
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: https://docs.gitlab.com/ee/pages/README.html
     in_ee: true
-  - description: Time Tracking
-    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
-    in_eep: true
 
 - title: Extended authentication and authorization integration
   features:
@@ -221,3 +221,24 @@
   - description: Review Apps
     in_ce: true
     link: https://about.gitlab.com/features/review-apps/
+
+- title: Support SLA
+  features:
+  - description: Community and support forums only
+    only_in_ce: true
+    link: https://about.gitlab.com/support/
+  - description: Next business day support
+    only_in_ee: true
+    link: https://about.gitlab.com/support/
+  - description: 4-hour non-emergency response time                                           
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: 24/7 emergency support with 30-minute response time
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: Live upgrade assistance
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: Access to GitLab's internal chat channel for support
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support

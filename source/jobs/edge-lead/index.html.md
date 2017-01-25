@@ -23,9 +23,13 @@ The Edge Lead reports to the VP of Engineering.
 * Is available for 1:1's on demand of the report
 * Uses the contributor analytics to ensure that anyone who is stuck is helped
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
-* Defines best practices and coding standards for backend team
+* Defines best practices and coding standards for backend group
 
 ## Relevant links
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

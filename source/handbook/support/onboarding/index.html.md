@@ -38,7 +38,7 @@ We use Zendesk to handle tickets, and we will sometimes schedule calls. That is 
 
 ### Zendesk
 
-For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/knowledge-base/zendesk/).
+For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/workflows/zendesk/).
 
 ### Zoom
 

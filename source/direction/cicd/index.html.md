@@ -97,7 +97,7 @@ A key part of CD is being able to deploy. We currently have this ability via the
 5. Releases as first-class entry?
     1. Release = build + config, so this implies we'd manage config
 6. Deploy/Promote without rebuilding **DONE**
-7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198)
+7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge  request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198) **DONE**
 8. Support multiple rollout strategies
     1. Incremental deploys (make one, break one)
     2. Canary deploys (deploy to small % of production servers)

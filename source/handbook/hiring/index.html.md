@@ -13,7 +13,7 @@ title: "Hiring"
 
 GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
-1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#CEO-interview-questions).
+1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#ceo-interview-questions).
 
 
 ## Equal Employment Opportunity
@@ -36,7 +36,7 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 The CEO must authorize any new job positions/searches.
 
 1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
-1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist to create an accurate job description for the website including location or timezone specification if required.
+1. If a job description does not already exist, the hiring manager will work with the PeopleOps Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
@@ -53,7 +53,7 @@ The CEO must authorize any new job positions/searches.
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
 1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
-1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-framework/#compensation-committee) for approval.
+1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
 2. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
@@ -61,7 +61,7 @@ The CEO must authorize any new job positions/searches.
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
- 1. All job openings must be posted on our careers page for at least 5 business days; this includes all new positions and promotions. 
+ 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and promotions.
 
 
 ## Publicize the job
@@ -103,7 +103,7 @@ The recruiting team will **always** publicize the job through the following mean
 
 **Compensation is discussed at start and end but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager or recruiter (based on what had been approved by the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the recruiter can send a note to the candidate explaining that salary expectations are too far apart. If expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions and keeps the process flowing smoothly.
 
-**The CEO authorizes all offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable and informs the CEO on its details depending on what is applicable. This may change if/when we have a [global compensation framework](/handbook/people-operations/global-compensation-framework) fully in place.
+**The CEO authorizes all offers.** <a name="offer-authorization"></a>The hiring manager proposes a suggestion for an offer (including bonus structure if applicable, etc., using the [global compensation framework](/handbook/people-operations/global-compensation-calculator)) as an internal comment in Workable and informs the CEO on its details depending on what is applicable.
 
 Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
@@ -181,7 +181,7 @@ both will have to make the decision if you want to work with this person.
 This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences). For example, if there is a gap in employment history on a CV, you can ask the candidate what they did during that time to keep their skills current. You may not ask why they were absent from work as it may be related to a medical or family issue which is protected information.   
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)(please note this document is internal to GitLab while we edit it to make it fit for general audiences). For example, if there is a gap in employment history on a CV, you can ask the candidate what they did during that time to keep their skills current. You may not ask why they were absent from work as it may be related to a medical or family issue which is protected information.
 
 ### Before the interview
 
@@ -275,7 +275,7 @@ Offers made to new team members should be documented in Workable through the ema
       - is it clear how many (if any) stock options this person should receive?
       - is all necessary information (start date, salary, location, etc.) clearly available and agreed to?
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
-   1. has the contract reviewed and approved by another member of PeopleOps as a quality check. The Global Recruiter who did not create the contract will conduct the quality check. Backups for approval are the People Ops Generalist, then the People Ops Specialist, and lastly the Sr. Director of People Operations. 
+   1. has the contract reviewed and approved by another member of PeopleOps as a quality check. The Global Recruiter who did not create the contract will conduct the quality check. Backups for approval are the People Ops Generalist, then the People Ops Specialist, and lastly the Sr. Director of People Operations.
    1. stages the contract in HelloSign and emails offer to the signing parties, cc PeopleOps
 1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](/handbook/general-onboarding/).

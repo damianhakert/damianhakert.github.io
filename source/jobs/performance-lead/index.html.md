@@ -28,3 +28,7 @@ will report to the Backend Director.
 - You share our [values](/handbook/#values), and work in accordance with those values
 - [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 - A customer scenario interview is part of the hiring process for this position.
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

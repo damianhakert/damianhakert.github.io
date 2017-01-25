@@ -1,0 +1,50 @@
+%section.os-principles.feature-gallery.feature-gallery-alt.text-center.page-container#os-principles
+  .container
+    .titles
+      %h1 Open source principles meet enterprise software.
+      .row
+        .col-md-8.col-md-offset-2
+          %h2 Building on our open source product, GitLab Enterprise Edition offers the additional authentication, user management, and workflow features that your team needs.
+      %h3 Work better together
+      %h4 Let developers contribute ideas and work in parallel with built-in issue trackers, merge requests (MR), and powerful diff tools.
+    .feature-gallery-slick-container
+      #feature-gallery-slider.main-slider-size
+        = image_tag "/images/gitlab_ee/screenshots/01-issue-weights.png", class: "img-responsive"
+        = image_tag "/images/gitlab_ee/screenshots/02-time-tracking.png", class: "img-responsive"
+        = image_tag "/images/gitlab_ee/screenshots/03-merge-request-approvals.png", class: "img-responsive"
+      .row.slider-dots.slider-nav
+        .col-md-4.feature-slider-dot-content{index:"0"}
+          %div
+            %h4 Issue weights
+            %p Communicate an issue’s complexity or value to your team.
+        .col-md-4.feature-slider-dot-content{index:"1"}
+          %div
+            %h4
+              = link_to "Time tracking", "/features/time-tracking/"
+            %p Manage your projects effectively by tracking estimated and actual time spent.
+        .col-md-4.feature-slider-dot-content{index:"2"}
+          %div
+            %h4
+              Merge request approvals
+            %p Keep code quality high and set a number of required approvals before code can be merged.
+    .row.features-description
+      .col-md-4.clearfix
+        .col-xs-2
+          = icon "gitlab-ee/icons/4-issue-board-icon", "media-object"
+        .col-xs-10.feature-contents
+          %h4
+            = link_to "Issue Boards", "/solutions/issueboard/"
+          %p Plan, organize and visualize your release with multiple issue boards per project.
+      .col-md-4.clearfix
+        .col-xs-2
+          = icon "gitlab-ee/icons/5-file-lock-icon", "media-object"
+        .col-xs-10.feature-contents
+          %h4
+            = link_to "File locking", "/features/file-locking/"
+          %p Lock any ﬁle or directory to avoid merge conflicts and better manage your text and binary files.
+      .col-md-4.clearfix
+        .col-xs-2
+          = icon "gitlab-ee/icons/6-search-icon", "media-object"
+        .col-xs-10.feature-contents
+          %h4 Global code search
+          %p Increase discovery and code reuse. Search through all code on the server.

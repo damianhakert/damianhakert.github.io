@@ -24,7 +24,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding)
    - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [Support Policies](/handbook/support/policies)
-- [Knowledge Base](/handbook/support/knowledge-base)
+- [Support Workflows](/handbook/support/workflows/)
 - [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
 - [Advanced Topics](/handbook/support/advanced-topics)
@@ -86,6 +86,8 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
+
+The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/knowledge-base/zendesk/setting_ticket_priority.html)
 
 ## Tiered Support
 
@@ -154,7 +156,7 @@ create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/knowledge-base/zendesk/zendesk_admin.html) page.
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/workflows/zendesk/zendesk_admin.html) page.
 
 ## How we're doing
 
@@ -178,7 +180,7 @@ the ["fix4all" rotation page](/handbook/engineering/fix4all).
 Every now and then, it may occur that we come close to breaching our SLAs.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several "Support Turbo" developers who are denoted on the [Team Page](https://about.gitlab.com/team/).
-Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
+Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person. Anyone within the support team can call turbos when there is a need for it. Turbos can be called by pinging them on slack either individually or with `@turbos`.
 
 The support team calls for help when necessary via Slack, but in case of doubt or
 conflicting priorities, the respective team lead or VP of Engineering needs to give the green light for the
@@ -195,11 +197,12 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
    - Do not [assign tickets](https://support.zendesk.com/hc/en-us/articles/203690956) to the generic agent account. Leave the assignee as the "group", otherwise these tickets will get lost.
+   - Please remember that people may pick up any ticket after you've replied. Adding any issues, docs, or follow-up expections for a reply as an internal comment would be really beneficial for the person picking it up after you.
 
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found on the [support knowledge base](https://about.gitlab.com/handbook/support/knowledge-base/general/customer_calls.html).
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/workflows/general/customer_calls.html).
 
 #### Implementation Support
 
@@ -248,11 +251,9 @@ We offer "implementation support" for new EE customers. This is similar to live 
 
 ## Dedicated Service Engineers
 
-We no longer offer Dedicate Service Engineers for Premium support, but we _do_ offer them for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk.
+We no longer offer Dedicated Service Engineers for Premium support, but we _do_ offer them for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk.
 
-- The sales team requests a Dedicated Service Engineer (DSE) by creating a confidential issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues/new), using the ["Dedicated Service Engineer" issue template](https://gitlab.com/gitlab-com/support/raw/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) (available as a template upon creating a new issue in the Support issue tracker) as soon as it is clear that a dedicated service engineer will be needed (this can be _before_ the deal is closed). The issue should be assigned to the Support Lead. Please include details that are requested in the template such as reseller timezone, language, specific needs, etc. to make it easier to assign an appropriate SE to the account.
-   - Once agreement is reached on who the DSE should be, following a workflow that is similar to how people are added to email forwarding aliases, or vaults in 1Password, in the [Dedicated Service Engineers google doc](https://docs.google.com/spreadsheets/d/1fCQ3yTbu6y2uKMM4IIEljzAZgHX2FFeG2y9XwWy7G-g/edit#gid=0), write in the resller name and chosen DSE using the "suggesting" mode. Any of the Service Engineers with admin access in Zendesk can then [create the trigger](/handbook/support/knowledge-base/zendesk/create_dse_trigger.html), and "accept" the suggestion. Having the google sheet allows for greater visibility within the organization since not everyone knows their way around Zendesk or SalesForce.
-   - Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
+- Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
 - To make sure that the resellers are served well, even when their dedicated SE is not directly
 available, there is a view in Zendesk to display all "dedicated" tickets so
 that other Service Engineers can see them and jump in to avoid an SLA breach.

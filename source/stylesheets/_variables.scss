@@ -57,6 +57,11 @@ $blog-table-background: #faf9f9;
 $blog-table-background-hover: #f4f8fe;
 $blog-table-border: #efeff1;
 
+$release-manager-list-bg: #403366;
+$release-manager-table-border: #584985;
+$release-manager-table-header-color: #9583c9;
+$release-manager-current-table-data-color: #ff9;
+
 $mvp-list-bg: #403366;
 $mvp-table-border: #584985;
 $mvp-table-header-color: #9583c9;
@@ -143,6 +148,9 @@ $search-border-color: #bcbcbc;
 $reseller-divider-color: $navbar-default-border;
 $reseller-hero-bg-color: #35393d;
 $reseller-hero-content-color: #969696;
+$reseller-category-active-background-color: rgba(255, 255, 255, .4);
+
+
 
 $applications-highlight-color: #ffc600;
 
@@ -159,3 +167,7 @@ $features-gallery-background-gradient-begin: #6b4fbb;
 $features-gallery-background-gradient-middle: #5942a0;
 $features-gallery-background-gradient-end: #42327a;
 $features-gallery-alt-description-black: rgba(0, 0, 0, .7);
+
+$ee-standalone-primary-background-gradient: linear-gradient(to right, $color-primary-alt 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
+$ee-standalone-hero-background-top: rgba(52, 55, 60, .85);
+$ee-standalone-hero-background-gradient: linear-gradient(to bottom, $ee-standalone-hero-background-top, $landing-community-bg 85%);

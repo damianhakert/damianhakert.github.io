@@ -60,10 +60,9 @@ and complete all the tests.
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Review [Idea to Production Video](https://about.gitlab.com/handbook/sales/idea-to-production-demo/) and record your own presentation of Idea to Production and send to manager
+* [ ] Review [our demo](https://about.gitlab.com/handbook/sales/demo/) and record your own presentation of Idea to Production and send to manager
 * [ ] Record sales demo, using Zoom.
   * [ ] Scenario: A 500 seat organization that uses Jira, BitBucket, and GitLab CE for various teams.
-  * [ ] While preparing refer to the [Sales Demo Script](https://about.gitlab.com/handbook/sales/demo/).
   * [ ] Send your recording to your manager and **Chad Malchow**.
 
 ## Week 4
@@ -77,7 +76,7 @@ and complete all the tests.
 * [ ] Familiarize yourself with our
     [Lead Qualification Process](https://about.gitlab.com/handbook/marketing/demand-generation/demand-generation/#leadQual)
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/).
-    * [ ] Change you password when you are promoted to via email.    
+    * [ ] Change you password when you are promoted to via email.
 * [ ] Familiarize yourself with these business critical Salesforce reports and views.
   * [ ] [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz):<br>
     Identify expansion opportunities, see who you have neglected

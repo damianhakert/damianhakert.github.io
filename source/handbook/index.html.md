@@ -45,7 +45,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Making Gifs](/handbook/product/making-gifs)
   * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
-* [Miscellaneous](/handbook/miscellaneous)
+* [Secret Santa](/handbook/secret-santa)
 
 ----
 
@@ -184,8 +184,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible (issues and email instead of
-chat). Issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
+1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk). To use email instead of chat it is OK to send _internal_ email that contain only a short message, similar as you would use it in chat. Save time by not including a salutation like 'Hi Emma,' and first write the subject the email which you copy paste into the body. You are not expected to be available all the time, it is perfectly fine to wait with responding to emails and chat mentions until your planned work hours.
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -284,8 +283,8 @@ step, **re-assign** the issue to that person.
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
-    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
-    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
+    1. All other merge requests should be assigned for review to either a merge request reviewer or maintainer. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a reviewer, they will assign it to a maintainer who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
 1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
@@ -315,7 +314,7 @@ step, **re-assign** the issue to that person.
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The team agenda lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "That's all". It is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
-1. The sequence of asking people is in a random order where each team member is assigned a day. Since we are growing rapidly, team members share their weekend update every two weeks. Days are split into group A and group B, which alternates depending on the week. People Ops will denote on the agenda which group will share that day. If there are non-team page people in the call we end with those. 
+1. The sequence of asking people is in a random order where each team member is assigned a day. Since we are growing rapidly, team members share their weekend update every two weeks. Days are split into group A and group B, which alternates depending on the week. People Ops will denote on the agenda which group will share that day. New team members will share every week for the first three months on Wednesdays. If there are non-team page people in the call we end with those.
 1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. The last person wishes everyone a good day.
@@ -341,6 +340,9 @@ some discussion in a [meta issue on the GitLab.com CE
 tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&label_name=meta)
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
+
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
 
 ### Random Chat and Room
 {: #random-room}
@@ -368,7 +370,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
    1. If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Ops as described [below specifically for Zoom](#zoom).
-   1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" search:domain`.
+   1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" source:domain`.
    1. Note also that after a meeting ends, Zoom may take some to process the recording before it is actually available. The sync to Google Drive happens on the hour mark, so if the recording is not available, it may take another hour to be transferred.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
@@ -413,7 +415,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.md) for more information when writing documentation.
-1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
+1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`
+2. We segment our customers/prospects into 4 segments [Strategic, Large, Mid-Market and Small Medium Business (SMB)](https://about.gitlab.com/handbook/sales/#market-segmentation).
 
 ### Beamy Guidelines
 
@@ -500,7 +503,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Work-related online courses
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
     *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
-    *  Holiday Party Budget: 50 USD per person. We encourage team members to self organize holiday parties with those close by. 
+    *  Holiday Party Budget: 50 USD per person. We encourage team members to self organize holiday parties with those close by.
     *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
@@ -580,6 +583,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 
 1. If you refer a great candidate and they are hired, then you receive a $1,000 bonus
 once the new team member has been with the company for 3 months.
+1. Until further notice, we will double the incentive bonus for hires from underrepresented groups in the tech industry and at GitLab including women, racial and ethnic minorities, and veterans.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
@@ -641,7 +645,7 @@ a while? Now you can have lunch together.
 
 Understanding that working remotely leads to mostly work-related conversations
 with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week**
-to having social calls with any GitLab employee - get to know who you work with,
+to having social calls with any teammate - get to know who you work with,
 talk about everyday things and share a virtual cuppa' coffee. We want you to make
 friends and build relationships with the people you work with to create a more comfortable,
 well-rounded environment. The Coffee Break calls are different to the
@@ -686,6 +690,11 @@ Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joini
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
+#### Shush alternative for Linux
+
+If you use Linux (eg; [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) then you can create system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org/main/index.php/Main_Page) system for sounds (most popular Linux distributions use ALSA). All you need to do is go to your desktop environment's _Keyboard Settings_ and create a custom shortcut with command `amixer set Capture toggle` and assign a key combination of your choice (eg; `Pause Break` key). Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application. Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
+
 ### Disabling OS X Notification Center
 
 During a presentation or screen share, you might want to disable your notifications on OS X to prevent distractions or possible embarrassment.
@@ -706,6 +715,16 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
+
+### Google Cloud Platform
+
+Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
+
+Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
+remove any resources that you are not using, since the company is [billed
+monthly](https://cloud.google.com/pricing/). If you are unable to create a
+resource due to quota limits, file an issue on the [Infrastructure
+Tracker](https://gitlab.com/gitlab-com/infrastructure).
 
 ### Gmail
 

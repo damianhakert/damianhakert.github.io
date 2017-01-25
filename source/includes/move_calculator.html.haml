@@ -99,6 +99,10 @@
           %span.name New Rent Index
           %span.value --
         .symbol +
+        .variable.newMarketAdjustment
+          %span.name New Hot Market Adjustment
+          %span.value --
+        .symbol +
         .constant 0.25
         .symbol )
       .symbol.division /
@@ -106,6 +110,10 @@
         .symbol (
         .variable.currentRentIndex
           %span.name Current Rent Index
+          %span.value --
+        .symbol +
+        .variable.currentMarketAdjustment
+          %span.name Current Hot Market Adjustment
           %span.value --
         .symbol +
         .constant 0.25
@@ -124,7 +132,7 @@
     .explanation
     Find out
     = succeed '.' do
-      %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+      %a{href: '/handbook/people-operations/global-compensation-calculator#compensation-calculator'} how our calculator works
     You are also eligible for
     %a{href: '/handbook/stock-options/'} stock options
     and
