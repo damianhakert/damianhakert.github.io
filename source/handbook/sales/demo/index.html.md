@@ -55,12 +55,12 @@ The first step is to install GitLab itself. Today I'm going to use Google Cloud 
 
 > * Open [Google Cloud Platform](https://console.cloud.google.com/kubernetes), your Google Account credentials should have you automatically logged in.
 
-We will start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
+We'll start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
 
 > * Make sure `gitlab-internal` project is selected; otherwise pick it from the drop-down.
 > * Click `Create cluster`, this will open a series of dialogs to complete.
 
-We will name this cluster `make-sid-dance`, have it created in the us-central zone, and make sure the machine type has at least 2 virtual CPUs for performance reasons.
+We'll name this cluster `make-sid-dance` and have it created in the us-central zone. I’ll leave it at 3 nodes, but bump of the machine type to have 2 virtual CPUs for performance reasons.
 
 > * Name the cluster after your domain name (e.g. `make-sid-dance`)
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
@@ -158,17 +158,16 @@ Boom, we’ve got a shiny new GitLab installation!
 
 ### Create a user and a project
 
-Now that we've got GitLab running, let's set up an account.
+First things first, we need to secure the root account with a new password. And then create a new user for myself.
 
-> * Change password for root user
+> * Set password for root user
 > * Create a user with your name and email address (no verification sent)
-> * Login as your user
 
 We now create a group for our company; let’s name it `tanuki`.
 
 > * Create a group called `tanuki` and make it public
 
-Then let’s now create a new project to start off with, importing a tiny Ruby application for demonstration.
+Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
 > * Create a project under the `tanuki` group
 > * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git)
@@ -179,10 +178,9 @@ Then let’s now create a new project to start off with, importing a tiny Ruby a
 We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
 ](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
 
-The next step is to configure CI, but first we have to set the Kubernetes  CI needs in order to create deployments in our Kubernetes environment. We can find our Access Token in Kubernetes Dashboard.
+Now I’ve got to tell the project about the Kubernetes service. We can find our Access Token and Cert in Kubernetes Dashboard.
 
-> * Go to Project
-> * Go to Settings > Integrations
+> * Go to Project Settings > Integrations
 > * Scroll to Project Services
 > * Select Kubernetes
 > * Go back to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
@@ -190,16 +188,21 @@ The next step is to configure CI, but first we have to set the Kubernetes  CI ne
 > * Click on `default-token-xxx` for the `default` namespace
 > * Copy token (last item) to `Service token` in GitLab
 > * Copy ca.crt (first item, including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
+
+And we need the IP address for the cluster. This is different from the IP address of your GitLab instance.
+
 > * Go to Container Engine tab
 > * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
+
+Let's activate it and save the settings. And then let's test the settings just to make sure.
+
 > * Check the Active checkbox
 > * Click Save Settings
-> * Click Cancel to return to the previous page
-
+> * Click Test Settings
 
 ### Setup GitLab Auto-Deploy
 
-Now we’re ready to configure GitLab Auto Deploy. Luckily GitLab also provides a few templates to get us started. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template.
+Great, now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
 > * Go to Project, Click `Set up auto deploy`
 > * Choose Kubernetes template
