@@ -1,0 +1,51 @@
+---
+layout: default
+title: Release Managers
+purple_bg: true
+extra_css:
+  - release_manager.css
+suppress_header: true
+---
+
+.wrapper
+  .container
+    .title
+      GitLab Release Managers
+    .release-manager-badge
+    .description
+      We salute upcoming and past release managers for
+      <a href="https://about.gitlab.com/2015/06/25/release-manager-the-invisible-hero/">helping deliver
+      GitLab every month on the 22nd.</a> The release train always arrives on time!
+    .release-manager-list
+      %table.table
+        %thead
+          %tr
+            %th
+              Version
+            %th
+              Release date
+            %th
+              Americas
+            %th
+              APAC/EMEA
+            %th
+              Trainees
+        %tbody
+          - data.release_managers.each do |rm|
+            - release_date = Date.parse(rm.date)
+            - remaining_days = (release_date - Date.today).to_i
+            - upcoming = remaining_days >= 0 && remaining_days <= 31
+            %tr{class: ("upcoming-release-manager" if upcoming)}
+              %td
+                = rm.version
+              %td
+                = rm.date
+              %td
+                - if rm.manager_americas
+                  = rm.manager_americas.join(", ")
+              %td
+                - if rm.manager_apac_emea
+                  = rm.manager_apac_emea.join(", ")
+              %td
+                - if rm.trainees
+                  = rm.trainees.join(", ")

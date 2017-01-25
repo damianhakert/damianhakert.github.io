@@ -283,8 +283,8 @@ step, **re-assign** the issue to that person.
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
-    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
-    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
+    1. All other merge requests should be assigned for review to either a merge request reviewer or maintainer. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a reviewer, they will assign it to a maintainer who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
 1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
@@ -340,6 +340,9 @@ some discussion in a [meta issue on the GitLab.com CE
 tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&label_name=meta)
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
+
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
 
 ### Random Chat and Room
 {: #random-room}
@@ -713,11 +716,9 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
-### Google Cloud
+### Google Cloud Platform
 
-All users with a gitlab.com e-mail account have access to an internal Google
-Cloud project called `gitlab-internal`. To access this, login to the [Google
-Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
+Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
 
 Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
 remove any resources that you are not using, since the company is [billed

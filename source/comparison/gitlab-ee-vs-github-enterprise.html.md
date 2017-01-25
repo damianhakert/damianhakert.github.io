@@ -25,6 +25,10 @@ Before merging one branch in the other, GitLab can rebase it automatically.
 
 [See how to prevent merge commits](https://about.gitlab.com/2014/12/22/gitlab-7-6-and-ci-5-3-released/)
 
+### File Locking
+GitLab EE provides an easy mechanism to lock files, preventing everyone from
+modifying a specific file or an entire directory.
+
 ### Access to the server
 You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself.
 
@@ -124,12 +128,11 @@ other non-text files.
 
 [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
 
-## Time Tracking
-Time Tracking in GitLab Enterprise Edition lets your team add estimates and record
-time spent on issues and merge requests. There is no need to use external tools
-anymore.
+### Monitoring built-in
+GitLab ships with an open source monitoring solution, Prometheus, which offers
+world-class monitoring of the GitLab server's resources.
 
-[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
+[Documentation about Monitoring](http://docs.gitlab.com/runner/monitoring/README.html)
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
