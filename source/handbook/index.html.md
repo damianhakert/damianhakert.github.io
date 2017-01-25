@@ -569,10 +569,11 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
-   should be tied to our [values](#values).
+   should be tied to your performance.
    * The manager should send a brief email that explains the bonus (same as the team call blurb) and states the amount to People Ops and our Controller who will [process](/handbook/people-ops/#using-trinet) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
+   * For values based bonuses please see [Tinggly](https://about.gitlab.com/handbook/#tinggly).
 1. If you think you are meeting the requirements for another title, want to change
-jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager. If you feel uncomfortable speaking with your manager, you can also contact People Ops.
 
 ### Referral Bonuses
 
@@ -600,6 +601,34 @@ GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) wi
 As an example, the first grant was handed to a team member who will be traveling to 6 team members in different countries during 6 months, and this team member will receive the maximum grant of $2,000.
 
 To claim the approved award, include a line item on your expense report or invoice with the approval email as the receipt. The entire award can be claimed from the first month of travel to up to 3 months after the travel is completed.
+
+### Tinggly
+
+[Tinggly](https://www.tinggly.com/) is a gift platform that contains hundreds of experiences. One gift buys an entire collection of experiences for the recipient to choose from, and is hand delivered in a cool package. They are available in around 100 countries across the globe, and valid for 24 months after purchase.
+
+1. What are the different levels of experiences, and how are they awarded?
+  * Essential Collection (Valued at $79 USD): Peer nominating a peer. Limited to six per year per team member.
+  * Premium Collection (Valued at $119 USD): Manager nominating a direct report.
+  * Ultimate Collection (Valued at $279 USD): Selected as the [Most Valuable Team Member](https://about.gitlab.com/handbook/#most-valuable-team-member).
+  * Bucket List (Prices Vary): Bucket List items can be recommended by managers for their team members for extraordinary performance and alignment with our [values](https://about.gitlab.com/handbook/#values). The gift must be approved by the Sr. Director of People Operations and the CEO.
+1. To recommend a peer or direct report, please email People Ops with the request. People Ops will ensure that the gift is approved by the appropriate managers, and then [place the order](https://about.gitlab.com/handbook/people-operations/sop/#process-tinggly) for the new team member to receive their box.
+1. Director level and above are exempt from being awarded. 
+1. TODO Add Box description.
+1. What are some pointers for nominating a peer?
+  * Tinggly is a great tool to be able to nominate a colleague, perhaps outside of your team, for exemplifying GitLab's values. Please do not nominate someone for doing their job, but instead look at how they go above and beyond to make GitLab a better place to work!
+  * Example of what it can't be: "Someone in People Ops ordered business cards for me, so I would like to nominate them for a peer Tinggly award." As awesome as business cards are, ordering them is part of the onboarding process, so that task is part of People Ops day to day job.
+  * Example of what it can be: "A team member outside my team went above and beyond helping to train me on git over a few weeks, so that I can be more productive in my workflow." This team member should be rewarded for collaboration with a Tinggly Peer Experience.
+
+#### Most Valuable Team Member
+
+1. A Most Valuable Team Member (MVTM), exemplifies the [GitLab Values](https://about.gitlab.com/handbook/#values) in an extraordinary way.  
+1. Every month People Ops will release a recognition survey to reward the MVTM.
+  * The survey will be released on the 5th of each month and voting will close on the 10th. The award will be given on the 15th, or next business day if on a weekend. The People Ops Specialist will tally the submissions. Majority wins the award. The People Ops Generalist will verify the votes.
+  * Each survey will focus on one of our values. For example, in March we will ask you to nominate a team member who exemplifies Results, in April, Transparency, etc. Each survey will specify which value the team is nominating others for.
+  * The award will be announced on the [Team Call](https://about.gitlab.com/handbook/#team-call) to recognize the team member, and posted on the culture page.
+1. A team member is only awarded MVTM once per calendar year.
+1. The award given will be an experience from the [Tinggly Ultimate Collection](https://www.tinggly.com/collections/ultimate).
+1. Takeaway from the award: Behaviors awarded are likely to be repeated.
 
 ## <i class="fa fa-gavel fa-fw icon-color font-awesome" aria-hidden="true"></i> Signing Legal Documents
 {: #signing-legal-documents}
