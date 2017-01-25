@@ -1580,18 +1580,6 @@
   story:  |
           From Pennsylvania Amish country comes an avid technologist, serial mentor and community evangelist. Jason can be seen attending, boothing, and speaking at as many FOSS conferences and Linux User Groups as he can manage. Previously working as a distribution manager for a thin client company, Jason brings his expertise in packaging for Linux along with a strong desire to produce tools for the community that has changed his life.
 
-- name: Matt Lee
-  locality: Boston
-  country: USA
-  role: Developer
-  reports_to: Edge Lead
-  picture: mattl.jpg
-  twitter: mattl
-  gitlab: mattl
-  specialty: <a href="https://about.gitlab.com/jobs/specialist/issue-triage/">Issue Triage</a>
-  story:  |
-          Matt has been a fan of free software since a young age after reading Steven Levy's "Hackers". He previously worked at the Free Software Foundation and Creative Commons, and is the maintainer of the GNU FM and GNU social projects. He moved from the UK to the US in 2008 to complete work on his short film, <a href="https://www.gnu.org/fry/">Happy Birthday to GNU</a>.
-
 - name: Emily von Hoffmann
   locality: Durham, N.C.
   country: USA
