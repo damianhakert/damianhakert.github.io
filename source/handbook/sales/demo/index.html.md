@@ -211,8 +211,6 @@ Great, now we’re ready to configure GitLab Auto Deploy. Back to the project, l
 > * Change Target Branch to `master`
 > * Commit
 
-Great, that completes our setup.
-
 ## Idea (Chat)
 
 Let’s go to our Mattermost client. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
@@ -228,30 +226,28 @@ TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org
 
 > * Create a new team: tanuki. Press Next. Press Finish.
 
-And create a channel for our project.
-
-> * Create a new channel by clicking the + icon in the sidebar: simple-app. Press 'Create new channel'
-
-This channel is where the team would discuss the project and come up with great ideas for such as “Let’s improve the homepage!”.
-
-> * Type: Let's improve the homepage!
-
-When a great idea does come along, it would be such a waste to let it die in a chat room.
-
 ### Setup Mattermost Command
 
 Now, let's get our project connected to the built-in Mattermost. We'll be able create and manage issues, as well as manage deployment right from chat!
 
-> * Go to Project
-> * Go to Settings > Integrations
+> * Go to Project Settings > Integrations
 > * Scroll to Project Services
 > * Select Mattermost Command
 
 As you can see, integrating a project with Mattermost is as simple as clicking a button.
 
 > * Click Add to Mattermost
-> *
-+++ PLEASE FILL+++
+> * +++ PLEASE FILL+++
+
+Now, back to Mattermost, we'll create a channel for our project.
+
+> * Create a new channel by clicking the + icon in the sidebar: simple-app. Press 'Create new channel'
+
+This channel is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
+
+> * Type: Let's improve the homepage!
+
+When a great idea does come along, it would be such a waste to let it die in a chat room so let's create an issue, right from chat.
 
 > ```
 > /minimal-ruby-app issue new Make homepage more descriptive
@@ -261,7 +257,7 @@ As you can see, integrating a project with Mattermost is as simple as clicking a
 
 ## Issue (Tracker)
 
-Great, now that we have it, we can click through to the new issue. We've got our first issue on our new project.
+Great, now we can click through to see our first issue on our new project.
 
 > * Click on the link that starts with #1
 
@@ -276,7 +272,7 @@ I'll just add the default "To Do" and "Doing" columns.
 
 > * Add default lists
 
-There. Now we can just drag the new issue from the backlog into the To Do column to indicate that it should be worked on this sprint. I’ll switch hats now, and as a developer, let’s go ahead and move it to Doing, because we want to resolve this issue right now.
+There. Now we can just drag the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
 
 > * Drag issue from To Do to Doing
 
@@ -284,7 +280,7 @@ There. Now we can just drag the new issue from the backlog into the To Do column
 
 TODO: [Demo with a rails application instead of a static website](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
 
-Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
+Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides web terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
 TODO: [After using the new branch button in an issue I want to press a terminal button](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)
 
@@ -292,24 +288,29 @@ TODO: [After using the new branch button in an issue I want to press a terminal 
 > * Go to Environments
 > * Click Terminal button (on the right)
 
-Let's edit the index.html file.
+Let's edit the server.rb file.
 
-> * `vi htdocs/index.html`
+> * `vi server.rb`
 > * i (to insert)
 > * Update text to `Updated Hello World`
 > * esc (to go back to normal mode)
 > * ZZ (to save and close)
 
-Now we’ve saved the changes, we can view the web page live to see how we like them.
+Now we’ve saved the changes, let's restart the server.
 
+> * killall ruby
+
+And now we can view the web page live to see how we like the changes.
+
+> * Go back
 > * Click external URL link on top right (3rd from right)
 
 ## Commit (Repo)
 
-That looks pretty good for now. But we didn't commit anything so this will be lost the next time we deploy. So let’s move on to committing changes into source control by using the web editor. I’m just going to add a header to it.
+That looks pretty good for now. But we didn't commit anything so this change will be lost the next time we deploy. So let’s move on to committing changes into source control by using the web editor. I’m just going to add a header to it.
 
 > * Go to Repository
-> * Go to index.html
+> * Go to `server.rb`
 > * Click Edit button
 > * Replace `<h1>Idea to Production demo</h1>`
 > DON'T COMMIT
@@ -317,37 +318,34 @@ That looks pretty good for now. But we didn't commit anything so this will be lo
 Now instead of committing directly to `master`, I’m going to create a new branch, named with the issue number.
 
 > * Set target branch to `1-homepage` (no longer than 24 characters)
-
-And it gives me an option to create a Merge Request for us, how nice of it. Let's go ahead and do that.
-
 > * Leave start a new merge request checked
 > * Commit
 
-We’re now asked to create the merge request. GitLab knows by the branch name that it closes issue #1 and adds that message automatically. Let's hit submit.
+And now it gives me an option to create a Merge Request, how nice of it. Let's go ahead and do that. GitLab knows by the branch name that it closes issue #1 and adds that message automatically so we don't have to do anything except hit submit.
 
 > * Submit new merge request
 > * If popup asks to show notifications, click Allow.
 
 ## Test (CI)
 
-As soon as the Merge Request is created, we see it kicking off the CI/CD Pipeline that will test our contributed code.
+As soon as the Merge Request is created, we see it kicked off the CI/CD Pipeline that will test our contributed code.
 
 > * Click on Pipelines
 > * Click on first pipeline
 
-Here we see a simple pipeline that contains 3 stages for build, test, and staging.
+Here we see a simple pipeline that contains ~~3 stages for build, test, and staging~~ 2 stages for build and deploy...
 
-### Test Stage
+### ~~Test Stage~~
 
-There are 2 parallel tests. Let's click through one of them and see the build log.
+~~There are 2 parallel tests. Let's click through one of them and see the build log.~~
 
-> * Click on `test1`
+~~> * Click on `test1`~~
 
-### OpenShift progress
+### Runner progress
 
-While it’s running, we can head back to OpenShift to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed.
+While it’s running, we can head back to our Kubernetes console to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed.
 
-> * Go to OpenShift, GitLab project
+> * Go to Kubernetes, GitLab namespace
 > * Show runner pods
 
 ## Review (MR)
