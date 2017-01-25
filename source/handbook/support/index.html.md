@@ -24,7 +24,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding)
    - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [Support Policies](/handbook/support/policies)
-- [Support Standard Operating Procedures (SOPs)](/handbook/support/sop)
+- [Support Workflows](/handbook/support/workflows/)
 - [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
 - [Advanced Topics](/handbook/support/advanced-topics)
@@ -156,7 +156,7 @@ create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/sop/zendesk/zendesk_admin.html) page.
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/workflows/zendesk/zendesk_admin.html) page.
 
 ## How we're doing
 
@@ -202,7 +202,7 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/sop/general/customer_calls.html).
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/workflows/general/customer_calls.html).
 
 #### Implementation Support
 

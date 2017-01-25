@@ -15,6 +15,24 @@ Easy-to-set up, performant, stable and elegant continuous integration with every
 
 [Learn about the benefits of our CI tool](https://docs.gitlab.com/ce/ci/)
 
+### Docker Registry support
+
+GitLab Container Registry is a secure and private registry for Docker images. It
+allows for easy upload and download of images from GitLab CI. It is fully
+integrated with Git repository management.
+
+[Documentation on Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html)
+
+### Lock Files
+File locking in GitLab Enterprise Edition allows you to lock any file or
+directory. This ensures that no one will work on or overwrite work that
+can't be merged easily, for instance when working with art assets or
+other non-text files.
+
+[File locking is available as an Enterprise Edition Product](https://about.gitlab.com/pricing/).
+
+[Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
+
 ### More value with everything you need in one solution
 To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo.
 
@@ -46,3 +64,9 @@ manage and scale the software.
 GitLab can be easily configured through ENV variables and YAML files.
 This makes maintaining, upgrading and deploying GitLab easy to automate.
 BitBucket Server requires extensive manual configuration.
+
+### Training
+GitLab offers training workshops to help organizations implement Git and GitLab
+quickly.
+
+[GitLab Training homepage](https://about.gitlab.com/training/)

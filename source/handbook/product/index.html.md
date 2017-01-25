@@ -37,6 +37,23 @@ complete toolset.
 1. Make our product more interesting for our customers through Products and
 EE exclusive features.
 
+## Scope of responsibilities
+
+The product team is responsible for iteration on most of GitLab's products and
+projects:
+
+- GitLab CE and EE
+- GitLab.com
+- about.gitlab.com
+- customers.gitlab.com
+- version.gitlab.com
+- license.gitlab.com
+
+This includes new features, major changes, performance and stability.
+
+Bugs and regressions are typically handled without any product involvement,
+but if uncaught by engineering should be treated like any of the above.
+
 ## Product at GitLab
 
 GitLab is designed and developed in a unique way.
@@ -455,10 +472,10 @@ feature. Describe the pain points.
 
 ## Writing release blog posts
 For every monthly release, there is a blog post announcing features. The blog post should contain anything _exciting_ or _disruptive_.
-We want to help people understand exciting features (which are often new), and increase adoption. 
-Disruptive features may change workflows or even introduce unavoidable inconveniences. 
+We want to help people understand exciting features (which are often new), and increase adoption.
+Disruptive features may change workflows or even introduce unavoidable inconveniences.
 We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-Smaller tweaks and bug fixes don't necessarily need to be mentioned, 
+Smaller tweaks and bug fixes don't necessarily need to be mentioned,
 but if interesting, can be included at the bottom of the post.
 
 # Links
