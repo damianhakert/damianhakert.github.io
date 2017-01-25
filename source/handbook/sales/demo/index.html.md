@@ -134,7 +134,7 @@ Here is the Kubernetes dashboard. We will watch the status of deployment from th
 
 We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates the requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
 
-> * Open a new Chrome tab and navigate to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
+> * Open a new Chrome tab and go to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
 
 While the system is deploying, it is expected that we will see a 503 message from the load balancer until GitLab has been fully started.
 
@@ -180,8 +180,9 @@ We can simplify this with TODO: [use the internal routing name for kubernetes in
 The next step is to configure CI, but first we have to set the Kubernetes  CI needs in order to create deployments in our Kubernetes environment. We can find our Access Token in Kubernetes Dashboard.
 
 > * Go to Project
-> * Go to Settings > Services
-> * Go to Kubernetes
+> * Go to Settings > Integrations
+> * Scroll to Project Services
+> * Select Kubernetes
 > * Go back to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
 > * Navigate to Secrets > Config on the left.
 > * Click on `default-token-xxx` for the `default` namespace
@@ -209,10 +210,10 @@ Great, that completes our setup.
 
 ## Idea (Chat)
 
-Let’s go to our Mattermost client. We can get there from our OpenShift dashboard. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
+Let’s go to our Mattermost client. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
 > * Go to the deployed Mattermost
-> * Click [Mattermost URL](http://mattermost.make-sid-dance.com) (second application, top right)
+> * Click [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
 > * Sign up with GitLab
 > * Authorize
 
@@ -230,10 +231,25 @@ This channel is where the team would discuss the project and come up with great 
 
 > * Type: Let's improve the homepage!
 
-When a great idea does come along, it would be such a waste to let it die in a chat room. Let's act on it, and turn it into a new issue, right from the chat interface.
+When a great idea does come along, it would be such a waste to let it die in a chat room.
+
+### Setup Mattermost Command
+
+Now, let's get our project connected to the built-in Mattermost. We'll be able create and manage issues, as well as manage deployment right from chat!
+
+> * Go to Project
+> * Go to Settings > Integrations
+> * Scroll to Project Services
+> * Select Mattermost Command
+
+As you can see, integrating a project with Mattermost is as simple as clicking a button.
+
+> * Click Add to Mattermost
+> *
++++ PLEASE FILL+++
 
 > ```
-> /issue create Make homepage more descriptive
+> /minimal-ruby-app issue new Make homepage more descriptive
 > SHIFT ENTER
 > Currently it is just Hello World.
 > ```
