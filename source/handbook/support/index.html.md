@@ -42,7 +42,7 @@ for Premium customers while still addressing the questions of _all_ subscribers.
 
 **Increase Capacity & Develop Experts**
 
-In 2016 we expanded the support team significantly, and this trend will continue in 2017. Along the way, the team developed internal training tools / pathways to assist in rapid, robust, self-guided training for everyone on the Support Team. As GitLab -- the product -- continues to expand, so will the knowledge and skill base of each Service Engineer individually and as a team to continue to provide an excellent customer experience.
+In 2016 we expanded the support team significantly, and this trend will continue in 2017. Along the way, the Support team developed internal training tools to assist in rapid, robust, self-guided training for any team member. As GitLab -- the product -- continues to expand, so will the skill and knowledge of all Service Engineers to be able to continue providing an excellent customer support experience.
 
 Know someone who might be a great fit for our team? Please refer them to the [Service Engineer job description](/jobs/service-engineer).
 
