@@ -170,7 +170,7 @@ We now create a group for our company; let’s name it `tanuki`.
 Then let’s now create a new project to start off with, importing a tiny Ruby application for demonstration.
 
 > * Create a project under the `tanuki` group
-> * Import `simple-app` from [https://gitlab.com/gitlab-examples/simple-app.git](https://gitlab.com/gitlab-examples/simple-app.git)
+> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git)
 > * Make it public
 
 ### Add Kubernetes credentials to CI
