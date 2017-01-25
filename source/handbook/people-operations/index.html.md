@@ -42,7 +42,7 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
-## Letter of Employmnet and Reference Request Policy
+## Letter of Employment and Reference Request Policy
 
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.  
 
@@ -60,8 +60,11 @@ Team members are not authorized by the company to speak on its behalf to complet
 1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the
 25th of every month, and can see their pay slip in their personal portal on
 [HR Savvy's system](https://hr-savvy.nmbrs.nl/) towards the end of the month.
+1. Employees of our Dutch entity who are based in Belgium will get their salary wired  around the last day of each month and will receive their pay slip in their personal portal on [Boekfisk's system](http://www.boekfisk.be/)
+1. Employees of our Dutch entity based in India that are employed through GitLab's co-employer [Lyra](http://lyrainfo.com/) will get their salary wired around the last day of the month. Lyra will send pay slips electronically but will be switching to a HR portal very soon so that pay slips and tax declaration forms can be accessed directly.
 1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly
 through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Employees of our UK entity (GitLab Ltd) will get their salary wired on the last day of every month, and can see their pay slip via their personal portal on [Vistra's system](https://www.vistra.com/) towards the end of the month.
 1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
    - For 'fixed fee' contracts, it is OK to send the invoice before the time period
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
@@ -99,7 +102,9 @@ This policy applies to all current employees and candidates for employment.
 
 ### Relocation
 
-If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
+If your permanent address is changing, you should let GitLab know the new address within a month.  The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
+
+If you are going to be traveling and spending longer than three months in one location this will be considered as a relocation and change of permanent address.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
