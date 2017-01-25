@@ -39,39 +39,40 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318](https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
-> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
+> * This script assumes the `make-sid-dance.com` domain, but you should buy a new domain for your demo and substitute throughout the script. Also, put your domain [under Google DNS control](https://console.cloud.google.com/networking/dns/zones/~new).
+> * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain (e.g. make-sid-dance), and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
-> * Go to 'Displays' settings, Resulution: Scaled, Larger text
-> * Open this page on an Ipad that has screen lock disabled.
+> * Go to 'Displays' settings, Resolution: Scaled, Larger text
+> * Open this page on an iPad that has screen lock disabled.
 > * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` directory you have just cloned.
->   * Before the demo, run `gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
+> * Before the demo, run `gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
 
 ## Install GitLab itself
 
 The first step is to install GitLab itself. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google. We’re going to install everything from scratch and we’ll start by opening the Google Cloud Platform console UI.
 
-> * Open [Google Cloud Platform console UI](https://console.cloud.google.com/start), your Google Account credentails should have you automatically logged in.
+> * Open [Google Cloud Platform](https://console.cloud.google.com/kubernetes), your Google Account credentials should have you automatically logged in.
 
 We will start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
 
-> * Navigate to [Container Engine](https://console.cloud.google.com/kubernetes/list)
+> * Make sure `gitlab-internal` project is selected; otherwise pick it from the drop-down.
 > * Click `Create cluster`, this will open a series of dialogs to complete.
 
-We will name this cluser "make-sid-dance", have it created in the us-central zone, and make sure the machine type has at least 2 cpu for performance reasons.
+We will name this cluser "make-sid-dance", have it created in the us-central zone, and make sure the machine type has at least 2 virtual CPUs for performance reasons.
 
-> * Name the cluster `make-sid-dance`
+> * Name the cluster after your domain name (e.g. `make-sid-dance`)
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
 > * Change the number of vCPU in Machine type to `2 vCPU`.
-> * Click the `Create`  button at the bottom of the page.
+> * Click the `Create` button at the bottom of the page.
 
 At this point, we will reserve an external IP address for the demo, so that we can use a domain name and Let's Encrypt for SSL.
 
 > * Navigate to [Networking](https://console.cloud.google.com/networking/addresses/list)
 > * Select `External IP addresses` from the menu on the left.
 > * Click `Reserve static address` at the top of the page.
-> * Set the name to match the name used for the cluster (`make-sid-dance`).
+> * Set the name to match the name used for the cluster (e.g. `make-sid-dance`).
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
 > * Click the `Reserve` button at the bottom of the page.
 
@@ -81,21 +82,20 @@ We'll now create a wildcard DNS entry for our demonstration domain, pointing to 
 
 > * Copy the External Address from the list, from the line containing the name you used.
 > * Click `Cloud DNS` from the menu on the left.
-> * Click on the Zone that has the name of the domain to be used for the demo.
+> * Click on the Zone that has the name of the domain to be used for the demo. (e.g. `make-sid-dance-com`)
 > * Click on the `Add Record Set` button at the top of the page
 > * Set the DNS Name to `*`
 > * Set the IPv4 Address to the clipboard contents (the External Address you just copied)
 > * Click the `Create` button at the bottom of the page.
 
-Now that we have created the cluster and configured a world-reachable domain, we can go back and check on our cluster.
+Now that we have created the cluster and configured a domain, we can go back and check on our cluster.
 
 > * Navigate to [Container Engine](https://console.cloud.google.com/kubernetes/list)
 > * Confirm a green checkmark. This tells us the cluster is ready to be used.
 
-Good, our cluster is ready for us to use. Let us connect to it.
+Good, our cluster is ready for us to use. Let's connect to it.
 
-> * Click on your cluster name from the list.
-> * Click on `Connect to the cluster` (this will open a dialog)
+> * Click on the `Connect` button for your cluster. (This will open a dialog.)
 
 We'll use the these commands, provided automatically by GKE to configure our access. These allow us to connect to and configure the cluster with the `kubectl` utility.
 
@@ -111,8 +111,8 @@ Now that we have our access to the cluster configured, we're ready to generate o
 Let's go ahead and generate this now
 
 > * Stay in the Terminal window
-> * Compse the following, filling in your values from the previous steps:
->   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@example.com bash generate.bash`
+> * Compose the following, filling in your values from the previous steps:
+>   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@make-sid-dance.com bash generate.bash`
 > * You will see the output similar to
 >   * `Using gitlab-make-sid-dance-com.yml`
 
@@ -127,12 +127,12 @@ The `kubectl` command has now connected to our cluster on GKE and is deploying a
 >   * `kubectl proxy`
 > * Go the the Kubernetes Dashboard at [http://localhost:8001/ui](http://localhost:8001/ui)
 
-Here is the Kubernetes dashboard. We will watch the status of deployment from Workloads page.
+Here is the Kubernetes dashboard. We will watch the status of deployment from the Workloads page.
 
 > * First, change the `Namespace` drop-down on the left. Change it from `default` to `All Namespaces`
 > * Click on `Workloads` on the left.
 
-We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
+We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates the requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
 
 > * Open a new Chrome tab and navigate to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
 
