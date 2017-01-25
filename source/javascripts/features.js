@@ -64,7 +64,7 @@
     }
 
     SlickHandler.prototype.bindEvents = function() {
-      this.customDots.off('click').on('click', this.changePage.bind(this));
+      this.customDots.off('mouseenter').on('mouseenter', this.changePage.bind(this));
       this.slickElement.on("breakpoint", this.removeDesktopElements.bind(this));
       this.slickElement.on("swipe", this.syncSliders.bind(this));
       this.slickElement.on("destroy", this.reInitSliders.bind(this));
