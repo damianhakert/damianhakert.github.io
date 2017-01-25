@@ -43,7 +43,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * Disable desktop notifications (on a Mac, top-right corner, option click)
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
 > * Consider just sharing web browser window so the audience isn’t distracted by notes or other windows.
-> * Go to 'Displays' settings, Resulution: Scaled, Larger text
+> * Go to 'Displays' settings, Resolution: Scaled, Larger text
 > * Open this page on an Ipad that has screen lock disabled.
 > * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` directory you have just cloned.
 >   * Before the demo, run `gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
@@ -134,7 +134,7 @@ Here is the Kubernetes dashboard. We will watch the status of deployment from Wo
 
 We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
 
-> * Open a new Chrome tab and navigate to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
+> * Open a new Chrome tab and go to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
 
 While the system is deploying, it is expected that we will see a 503 message from the load balancer until GitLab has been fully started.
 
