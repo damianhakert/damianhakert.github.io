@@ -116,5 +116,5 @@ multiple teams may be involved in each area:
 6. Test (CI/CD)
 7. Review (Discussion)
 8. Staging (CI/CD)
-9. Production (CI/D)
+9. Production (CI/CD)
 10. Feedback (Platform, Prometheus)
