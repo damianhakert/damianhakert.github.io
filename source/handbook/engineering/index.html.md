@@ -54,6 +54,32 @@ reviewed by a backend maintainer.
 
 See [the fix4all description](/handbook/engineering/fix4all/).
 
+## Release Managers
+
+The [release-tools repository](https://gitlab.com/gitlab-org/release-tools/tree/master)
+contains useful information about the responsibilities and tasks performed
+by a release manager.
+
+Because of the volume of work required to get a release out the door, there
+will be two primary release managers:
+
+1. One in the America time zones
+2. One in Europe/Middle East/Africa (EMEA) or Asia Pacific (APAC)
+
+Trained release managers, one in Americas and one on EMEA/APAC, will
+ultimately be in charge of making sure the RCs get created and deployed.
+
+* These release managers need to be very vocal if they need help or something
+is blocking the release candidate (RC)
+
+* Trainee release managers will do most of the hands-on work
+(e.g. cherry-picking, creating RCs, deploying, etc.).
+
+* Trainers should allow trainees to do the work, but like a pilot of an
+airplane they can take over when time becomes critical.
+
+Here is the [upcoming and current list of release managers](/release-managers/).
+
 ## Resources for Engineering
 
 - [Developer onboarding](/handbook/developer-onboarding)
