@@ -160,7 +160,8 @@ If there is more time talk about what a review app is and what cycle analytics a
 Now that we've got GitLab running, let's set up an account.
 
 > * Change password for root user
-> * Login as root user
+> * Create a user with your name and email address (no verification sent)
+> * Login as your user
 
 We now create a group for our company; let’s name it `tanuki`.
 
