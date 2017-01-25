@@ -18,7 +18,7 @@ set the on-call schedules, and to route notifications to the correct on-call her
 ## Expectations for On-Call
 
 - If you are on call, then you are expected to be available and ready to respond to PagerDuty pings as soon as possible, but certainly within any response times set by our [Service Level Agreements](https://about.gitlab.com/handbook/support/#sla) in the case of Customer Emergencies. This may require bringing a laptop and reliable internet connection with you if you have plans outside of your work space while being on call, as an example.
-- We only have 1 person at any time doing on call, we avoid having fall backs because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
+- We only have 1 person at any time doing on call, we avoid having fallbacks because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
 - As noted in the [main handbook](https://about.gitlab.com/handbook/#paid-time-off), after being on call take time off. Being available for issues and outages will wear you off even if you had no pages, and resting is critical for proper functioning. Just let your team know.
 
 ### Swapping On-Call Duty
@@ -41,7 +41,7 @@ you can also do a direct swap with a team member, and there is no need to mark t
 ## Customer Emergency On-Call Rotation
 
 - We do 7 days of 8 hour shifts in a follow-the-sun style, based on your location.
-- After a further 10 minutes, if the alert has not been acknowledged, management is alerted.
+- After 10 minutes, if the alert has not been acknowledged, management is alerted. After a further 5 minutes _everyone_ on the customer on-call rotation is alerted.
 - You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty.
 - After each shift, _if_ there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 
