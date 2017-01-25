@@ -41,7 +41,7 @@ you can also do a direct swap with a team member, and there is no need to mark t
 ## Customer Emergency On-Call Rotation
 
 - We do 7 days of 8 hour shifts in a follow-the-sun style, based on your location.
-- After 10 minutes, if the alert has not been acknowledged, management is alerted. After a further 5 minutes _everyone_ on the customer on-call rotation is alerted.
+- After 10 minutes, if the alert has not been acknowledged, _everyone_ on the customer on-call rotation is alerted. After a further 5 minutes, management is alerted. 
 - You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty.
 - After each shift, _if_ there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 
