@@ -60,7 +60,7 @@ We will start with creating a new cluster. To do this, we will navigate to the C
 > * Make sure `gitlab-internal` project is selected; otherwise pick it from the drop-down.
 > * Click `Create cluster`, this will open a series of dialogs to complete.
 
-We will name this cluser "make-sid-dance", have it created in the us-central zone, and make sure the machine type has at least 2 virtual CPUs for performance reasons.
+We will name this cluster `make-sid-dance`, have it created in the us-central zone, and make sure the machine type has at least 2 virtual CPUs for performance reasons.
 
 > * Name the cluster after your domain name (e.g. `make-sid-dance`)
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
@@ -132,7 +132,9 @@ Here is the Kubernetes dashboard. We will watch the status of deployment from th
 > * First, change the `Namespace` drop-down on the left. Change it from `default` to `All Namespaces`
 > * Click on `Workloads` on the left.
 
-We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates the requested resources and starts up the various containers. In the mean time, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
+We'll watch here for all items to have a green checkmark showing that they have completed. This process can take a few minutes as GKE allocates resources and starts up the various containers. You can see here there are several containers. The main GitLab container has the Rails app, but also Mattermost for Chat, the integrated Docker Registry, and Prometheus for monitoring. Then there's separate containers for Postgres and Redis and the autoscaling GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes.
+
+While this is spinning up, we'll go ahead and open a new tab to the URL that GitLab CE will be accessible on.
 
 > * Open a new Chrome tab and go to [https://gitlab.make-sid-dance.com](https://gitlab.make-sid-dance.com), adjusting the URL to the domain you used for this demo.
 
@@ -140,17 +142,17 @@ While the system is deploying, it is expected that we will see a 503 message fro
 
 > *Note:* You can expect that you will see a 503 message for a short period as everything comes online. Feel free to refresh the page and / or switch between the Kubernetes dashboard and the gitlab page.
 
-Boom, we’ve got a shiny new GitLab installation with several containers. They are running the GitLab Rails app, Mattermost for Chat, Postgres, Redis, integrated Docker Registry, and GitLab Runner for CI and CD. This is everything you need for the application development lifecycle on Kubernetes.
+While we're waiting: In the rest of the demo, I’ll take you through everything you need to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control, merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, deploying to production directly from chat, cycle analytics to measure how fast you’re going from idea to production, and lastly, Prometheus monitoring of your GitLab instance. With GitLab, everything is integrated out of the box.
 
-In the rest of the demo, I’ll take you through everything you need to have to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control and merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, and closing the loop by deploying to production directly from chat, and lastly cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
+What takes 10 minutes in this demo will take days if you're not using GitLab and have to integrate different tools. Not only is GitLab faster to set up, but it is also more convenient to have everything in one interface. Developers want to work on creating a great product, not on learning and maintaining the integrations between theirs tools.
 
-What takes 20 minutes in this demo will take days if you're not using GitLab and have to integrate different tools.
-Not only is GitLab faster to set up but it is also more convenient to have everything in one interface.
-Developers want to work on creating a great product, not on learning and maintaining the integrations between theirs tools.
-
-If there is more time talk about what a review app is and what cycle analytics are.
+*If there is more time talk about what a review app is and what cycle analytics are.*
 
 > * Wait for gitlab pod to go to green, then switch to your tab with the GitLab deployment open
+
+Looks like our deployment and all pods are green. Let's check our GitLab deployment...
+
+Boom, we’ve got a shiny new GitLab installation!
 
 ## Setup a project in GitLab
 
