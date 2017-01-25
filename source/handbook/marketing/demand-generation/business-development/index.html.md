@@ -99,12 +99,12 @@ The SDR's will be measured on the following:
   - how the organization is set up - who are the other teams that we can expand into
   - Purchasing process - do they have a procurement team, do/can they use a fulfillment agency
 - % of named accounts contacted
-- # of contacts with activity (email and/or calls)
-- # of emails sent
-- # of calls made
-- # of connects (calls between SDR and prospect)
-- # of sales appointments (calls between prospect, AE and SDR to explore if there is an opportunity)
-- # of opportunities created
+- Number of contacts with activity (email and/or calls)
+- Number of emails sent
+- Number of calls made
+- Number of connects (calls between SDR and prospect)
+- Number of sales appointments (calls between prospect, AE and SDR to explore if there is an opportunity)
+- Number of opportunities created
 - Pipleine of SDR sourced opportunites 
 - ACV won from opportunities SDR sources
 
