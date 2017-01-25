@@ -36,6 +36,8 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * Run `gcloud components install kubectl`
 > * Login to Google Cloud Platform
 >   * URL: [https://console.cloud.google.com/start](https://console.cloud.google.com/start)
+> * GitLab employees should use the `gitlab-internal` project. Others should select or create a project to work in.
+>   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318](https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain, and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
