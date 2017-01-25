@@ -141,11 +141,11 @@
   apply:
   open: false
 
-- title: "Product Manager: CI/CD Pipelines"
+- title: "Senior Product Manager: CI/CD Pipelines"
   description: /jobs/product-manager-ci
   salary: 117530
-  apply:
-  open: false
+  apply: https://gitlab.workable.com/jobs/339744
+  open: true
 
 - title: "Production Engineer"
   description: /jobs/production-engineer/
@@ -238,4 +238,3 @@
   open: true
 
   # Ordered alphabetically **by job description URL**
-  
