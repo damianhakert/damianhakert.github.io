@@ -42,14 +42,14 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 #### Compensation and Title Changes
 
-Any change to compensation or title requested by a manager must be approved by processing it in BambooHR. The Manager (Reports To) should initiate the change by logging into BambooHR to complete the approval workflow.  Once initiated, the workflow will push the transaction to the Manager's Manager, the CEO and then, the People Operations Administrator for processing.
+Any change to compensation or title requested by a manager must be approved by processing it in BambooHR. The Manager (Reports To) should initiate the change by logging into BambooHR to complete the approval workflow.  Once initiated, the workflow will push the transaction to the Manager's Manager, the People Ops Business Partner, the CEO, and the People Operations Administrator for processing.
 
 If you have any questions throughout this process, please feel free to contact People Ops. People Ops will confirm the change as the last step in the approval process. This ensures that further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
 
-If you feel your title is not aligned with your skill level or you are interested in the career ladder ahead, you should discuss your personal professional development plan with your manager or People Operations Generalist.
+If you feel your title is not aligned with your skill level or you are interested in the career ladder ahead, you should discuss your personal professional development plan with your manager or the People Operations Generalist.
 
 ##### Process for Compensation and Title Change in BambooHR
 
@@ -60,7 +60,7 @@ Manager (Reports To):
 1. In the top right hand corner, click Request a Change.
 1. Select which type of change you are requesting. If you are only looking to change compensation, then select Compensation. If this is a promotion that includes a title change and a compensation change, select Promotion. To only change the title, select Job Information.
 1. Enter in all applicable fields in the form, and then submit.
-1. If there was a title change associated with the request, complete a merge request to change the title on the Team Page, and cc Brittany.
+1. If there was a title change associated with the request, People Ops will complete a merge request to change the title on the Team Page.
 
 ##### Process for Recommending a Team Member for a Bonus in BambooHR
 
