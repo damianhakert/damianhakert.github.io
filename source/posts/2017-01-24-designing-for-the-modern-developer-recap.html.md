@@ -14,7 +14,7 @@ UX Lead Allison Whilden and UX Researcher Sarah O'Donnell chat about how the tea
 Watch the recording and get the highlights below. 
 
 <figure class="video_container">
-<iframe src="https://www.youtube.com/watch?v=nnL48m0m4qo&feature=youtu.be" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe src="https://www.youtube.com/embed/nnL48m0m4qo" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Highlights 
