@@ -35,7 +35,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed .
 >   * Run `gcloud components install kubectl`
 > * Login to Google Cloud Platform
->   * URL: [https://console.cloud.google.com/start](https://console.cloud.google.com/start)
+>   * URL: [https://console.cloud.google.com/kubernetes](https://console.cloud.google.com/kubernetes)
 > * GitLab employees should use the `gitlab-internal` project. Others should select or create a project to work in.
 >   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318](https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
