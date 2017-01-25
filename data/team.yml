@@ -107,6 +107,7 @@
   gitlab: vsizov
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ee/">GitLab EE</a></li>
+              <li>Backend merge request reviewer</li>
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="http://doc.gitlab.com/ee/integration/elasticsearch.html">Elasticsearch</a> <a href="/jobs/expert/">expert</a></li>
               <li>git hooks <a href="/jobs/expert/">expert</a></li>
@@ -753,6 +754,7 @@
   twitter: FelipeArtur
   gitlab: felipe_artur
   maintains: |
+             <li>Backend merge request reviewer</li>
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://docs.gitlab.com/ce/user/permissions.html#project-features">Project feature visibility</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
@@ -1619,6 +1621,7 @@
   twitter: niedzielskiadam
   gitlab: adamniedzielski
   maintains:  |
+              <li>Backend merge request reviewer</li>
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
