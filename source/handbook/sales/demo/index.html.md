@@ -309,6 +309,7 @@ TODO: [After using the new branch button in an issue I want to press a terminal 
 
 Let's edit the server.rb file.
 
+> * `ls`
 > * `vi server.rb`
 > * i (to insert)
 > * Update text to `Updated Hello World`
@@ -362,9 +363,13 @@ Here we see a simple pipeline that contains ~~3 stages for build, test, and stag
 
 ### Runner progress
 
+*Optional if CI/CD is taking a while*
+
 While it’s running, we can head back to our Kubernetes console to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed. It even creates a namespace for the project, providing isolation.
 
 > * Go to Kubernetes
+> * Change Namespace to `default`
+> * Click on Pods
 > * Change the Namespace drop-down to `minimal-ruby-app`
 > * Click on Pods
 
@@ -374,6 +379,8 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 > * Go back to the Merge Request and go to the tab Changes
 > * Click on a change line to show ability to comment
+> * Comment "Looks good", Submit
+> * Go to Discussion tab to see comment
 
 ### Review apps
 
@@ -383,7 +390,7 @@ But I don’t just want to trust reading the code, I want to see it live in a pr
 
 ### Merge to `master`
 
-This is what we just created, automatically deploy to Kubernetes to make our review easier. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
+This is what we just created, automatically deployed to Kubernetes to make our review easier. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
 
 > * Click Accept Merge Request (no need to click remove source branch)
 
