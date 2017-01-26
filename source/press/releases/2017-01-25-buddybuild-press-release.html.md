@@ -12,4 +12,4 @@ Buddybuild joins a growing community of GitLab partners, around the world. For a
 
 About GitLab’s Global Partner Program
 
-We're open to integrations with companies and tools that are interested in harnessing GitLab's platform capabilities, user flows and data with their products. For information on joining the partner team at GitLab, please contact Eliran Mesika, our Director of Strategic Partnerships and visit our partner page.
+We're open to integrations with companies and tools that are interested in harnessing GitLab's platform capabilities, user flows and data with their products. For information on joining the partner team at GitLab, please contact Eliran Mesika, our Director of Strategic Partnerships and visit our [partner page](https://about.gitlab.com/applications/).
