@@ -340,6 +340,35 @@ To promote a major new feature internally, you can ask to host a GitLab
 University, a company wide demo session. This is a great opportunity to make
 sure every one is on the same page.
 
+### Major feature rollout
+
+Major features deserve proper attention from product and marketing. With a
+proper rollout, we'll have ample marketing opportunities ahead, during and after
+the release. We'll also be able to receive more feedback.
+
+Here is the ideal rollout schedule:
+
+1. Feature is drafted in an issue
+2. Feature is planned in an upcoming release
+3. A feature proposal blog post is made, where we'll describe
+	* What we are planning on doing,
+	* How you'll be able to buy it (CE or EE Editions),
+	* Link to the issue,
+	* When it'll be available, if possible,
+	* Anything else that is interesting to share in order to fuel the discussion.
+4. Feature is implemented, documentation is written.
+5. Feature should appear on the website
+	* For very significant features: Feature page on the website is made and
+  pushed, with the mention "Available from X.X"
+	* For other features: Feature should be listed on some page (/comparison,
+    Enterprise page, /features page).
+6. Feature is launched with the release
+	* "Available from X.X" is removed
+	* Documentation and other resources are linked
+	* Pricing page is updated if needed
+7. Feature is highlighted in a blog post
+	* This post is linked from the feature page on the website (if applicable)
+
 ### How and when to reject a feature request
 
 Rejecting a feature request or a merge request is not an easy thing. People can
