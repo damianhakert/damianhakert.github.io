@@ -414,9 +414,8 @@ Going back to the merge request, we now see another status showing that this cod
 Let’s ship these changes to production! There's this thing called ChatOps that encourages us to do these kinds of things in a common chat room, so everyone can see important changes. So let's go back to our chat room, and tell GitLab to deploy whatever’s on staging to production.
 
 > * Go to Mattermost
-> * Type `/deploy staging to production`
+> * Type `/minimal-ruby-app deploy staging to production`
 > * Click on the link
-> * enable auto scroll TODO: [enable auto scroll automaticall](https://gitlab.com/gitlab-org/gitlab-ce/issues/19620)
 > * wait until it is done
 
 Great, here we see the deploy to production happening live. As an alternative to Chatops we could have also triggered the deployment from the GitLab interface.
@@ -429,7 +428,7 @@ Now that it is done let’s go back to Environments.
 
 Ok great, we now see the production environment shows up, and we see the deploy happened less than a minute ago.
 
-> * Click production link
+> * Click production link (1st on right, beside `production`)
 
 There we go! We've got our new text in it; all the way from idea to production!
 
