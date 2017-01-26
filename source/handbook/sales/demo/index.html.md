@@ -175,34 +175,67 @@ Now let’s create a new project, starting from a really simple example app just
 
 ### Add Kubernetes credentials to CI
 
-We can simplify this with TODO: [use the internal routing name for kubernetes in the openshift CI template for i2p demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/23445) and TODO: [having trouble auto-discovering subdomain in OpenShift for idea to production demo
-](https://gitlab.com/gitlab-org/gitlab-ce/issues/23446).*
-
-Now I’ve got to tell the project about the Kubernetes service. We can find our Access Token and Cert in Kubernetes Dashboard.
+Now I’ve got to tell the project about the Kubernetes service.
 
 > * Go to Project Settings > Integrations
 > * Scroll to Project Services
 > * Select Kubernetes
-> * Go back to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
+
+First I need to activate it, and get IP address for the cluster from GKE.
+
+> * Go to GCP, [Container Engine tab](https://console.cloud.google.com/kubernetes/list)
+> * Click on cluster
+> * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
+
+Then I grab an Access Token and Cert from the Kubernetes Dashboard.
+
+> * Go to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
 > * Navigate to Secrets > Config on the left.
 > * Click on `default-token-xxx` for the `default` namespace
 > * Copy token (last item) to `Service token` in GitLab
 > * Copy ca.crt (first item, including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
 
-And we need the IP address for the cluster. This is different from the IP address of your GitLab instance.
+Now let's save the settings. And then let's test the settings just to make sure.
 
-> * Go to Container Engine tab
-> * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
-
-Let's activate it and save the settings. And then let's test the settings just to make sure.
-
-> * Check the Active checkbox
 > * Click Save Settings
 > * Click Test Settings
+> * *Click Cancel to return to integrations list TODO: https://gitlab.com/gitlab-org/gitlab-ce/issues/27301*
+
+### Setup Mattermost Command
+
+TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
+
+While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
+
+> * Go to Project Settings > Integrations
+> * Scroll to Project Services
+> * Select Mattermost Command
+> * Click Add to Mattermost
+
+Immediately, GitLab reaches out to Mattermost and asks me to create a team.
+
+> * Click the `join a team` link
+> * Click GitLab
+
+Let's call the team `tanuki`.
+
+> * Click `create a new team`
+> * Fill in `tanuki`
+> * Press Next
+> * Press Finish
+
+And let's go back to GitLab, and try connecting again.
+
+> * Go back to GitLab
+> * Refresh (or Click Go Back)
+
+Great. The defaults looks pretty good, so let's go with them.
+
+> * Click Install
 
 ### Setup GitLab Auto-Deploy
 
-Great, now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
+Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
 > * Go to Project, Click `Set up auto deploy`
 > * Choose Kubernetes template
@@ -211,72 +244,28 @@ Great, now we’re ready to configure GitLab Auto Deploy. Back to the project, l
 > * Change Target Branch to `master`
 > * Commit
 
+Great, that completes our setup.
+
 ## Idea (Chat)
 
-
-Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
-
-TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
-
-
-### Setup Mattermost Command
-
-Now, let's get our project connected to the built-in Mattermost. We'll be able create and manage issues, as well as manage deployment right from chat!
-
-> * Go to Project Settings > Integrations
-> * Scroll to Project Services
-> * Select Mattermost Command
-
-As you can see, integrating a project with the built-in Mattermost is as simple as clicking a button.
-
-> * Click Add to Mattermost
-
-Immediately, GitLab reaches out to Mattermost, identifies me with single-sign-on, and notices that I am not a part of any team. It asks me to connect to the deployed Mattermost and create a team.
-
-> * Click the `join a team` link
-
-Mattermost recognizes we don't have any teams yet, so we'll make one. Let's call it tanuki.
-
-> * Click `create a new team`
-> * Fill in `tanuki`
-> * Press Next
-> * Press Finish
-
-And now we have a team called tanuki. Let's go back to GitLab, and try connecting Mattermost to our project again.
-
-> * Go back to GitLab
-> * Click Go Back
-> * Check the Active checkbox
-> * Click Add to Mattermost
-
-GitLab will now ask me what team I want to be able to access this command, and what I want the trigger word to be. Let's use tanuki and the project name, which are already filled in for us by default.
-
-> * Click Install
-
-And viola! We have Mattermost command integration with our project. Let's go try it out.
+Let's go back to our Mattermost client. Chat is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
 
 > * Go to Mattermost [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
+> * Skip tutorial
+> * Type: Let's improve the homepage!
 
-We can access the command just like any other Mattermost command, including tab completion. Let us look at the help for the command. 
+When a great idea comes along, it's such a waste to let it die in a chat room so wouldn't it be great if we could create an issue for the project, right from chat? Well, with the GitLab chat command integration, we can do exactly that. Let's see how it works.
 
 > * Type: `/minimal-ruby-app help`
 
-Upon first use, the command will ask you to connect your GitLab account, which is as simple as clicking the provided link in the response.
+On first use, the command will ask you to connect your GitLab account, which is as simple as clicking the provided link in the response.
 
 > * Click connect your GitLab account
 > * Click Authorize
 > * Go to Mattermost
-> * Type: `/simple-app help`
+> * Type: `/minimal-ruby-app help`
 
-Great. Now we're ready to roll.
-
-### Using Mattermost
-
-Chat is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
-
-> * Type: Let's improve the homepage!
-
-When a great idea does come along, it would be such a waste to let it die in a chat room so let's create an issue, right from chat.
+Great. Now we can see what commands are available. Let's go ahead and create that issue.
 
 > ```
 > /minimal-ruby-app issue new Make homepage more descriptive
