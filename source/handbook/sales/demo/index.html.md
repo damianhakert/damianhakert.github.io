@@ -6,16 +6,16 @@ title: "Demo"
 ## Video
 {:.no_toc}
 
+The video below has three parts: creating a Kubernetes cluster, installing GitLab on it, and going thought the software development lifecycle. Skip to [15:41](http://www.youtube.com/watch?v=-3A8mdJl_icM#t=15m41s) to see the software development lifecycle part. Our goal is to reduce its length to 12 minutes, less than 5 minutes for each part.
+
 <iframe width="640" height="389" src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
+This demonstration is designed to highlight [GitLab’s open set of tools for the software development lifecycle](https://about.gitlab.com/direction/#scope), from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
-
-![](handbook/sales/steps.png)
 
 We want to to make sure [everyone can replicate this demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986).
 We're changing this page to make it work with Google Container Engine (GKE) and plain Kubernetes installations instead of OpenShift.
