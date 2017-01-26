@@ -35,6 +35,8 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $10,000.
 1. [Paid time off policy](https://about.gitlab.com/handbook/#paid-time-off).
+1. GitLab Summit
+   * Every six to nine months team members gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information about the past summits check out our [culture page](https://about.gitlab.com/culture/). 
 1. [Further incentives](https://about.gitlab.com/handbook/#incentives), such as
    - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
    - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)

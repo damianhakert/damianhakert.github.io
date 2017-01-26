@@ -1,0 +1,27 @@
+%section.productive-teams.feature-gallery.page-container
+  .container
+    .titles.text-center
+      %h3 Make everyone on your team productive
+      %h4 Regardless of location or timezone, you can ensure your full team can be just as productive as if they were in the same office.
+    .feature-tree
+      .feature-tree-row.row
+        .feature-tree-image-wrap.col-md-6.col-md-offset-1
+          %img.img-responsive{src: "/images/gitlab_ee/screenshots/04-gitlab-geo.png", :alt => "Feature Tree Image"}
+        .feature-tree-text-wrap.col-md-4
+          %h3.feature-tree-title
+            GitLab Geo
+          %p.feature-tree-description Reduce the time it takes your distributed team to clone and fetch large repos by creating read-only mirrors of your GitLab instance.
+          %a{href:"/features/gitlab-geo/", class: "dark-background-link"}
+            Learn more...
+      .feature-tree-row.row
+        .feature-tree-image-wrap.col-md-6.col-md-offset-1.col-md-push-4
+          %img.img-responsive{src: "/images/gitlab_ee/screenshots/05-external-repo-mirroring.png", :alt => "Feature Tree Image"}
+        .feature-tree-text-wrap.col-md-4.col-md-pull-6
+          %h3.feature-tree-title External repository mirroring
+          %p.feature-tree-description Keep all of your development in GitLab then sync and push changes to a remote repository to maintain an update-to-date mirror.
+      .feature-tree-row.row
+        .feature-tree-image-wrap.col-md-6.col-md-offset-1
+          %img.img-responsive{src: "/images/gitlab_ee/screenshots/06-external-users.png", :alt => "Feature Tree Image"}
+        .feature-tree-text-wrap.col-md-4
+          %h3.feature-tree-title External users
+          %p.feature-tree-description Invite external contributors to work on your projects while still limiting their access and permissions.

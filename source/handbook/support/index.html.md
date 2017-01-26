@@ -24,7 +24,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding)
    - [Onboarding Checklist](/handbook/support/onboarding/checklist)
 - [Support Policies](/handbook/support/policies)
-- [Support Standard Operating Procedures (SOPs)](/handbook/support/sop)
+- [Support Workflows](/handbook/support/workflows/)
 - [Support Channels](/handbook/support/channels)
 - [On-Call](/handbook/on-call/)
 - [Advanced Topics](/handbook/support/advanced-topics)
@@ -33,38 +33,24 @@ title: Support
 
 ## <i class="fa fa-question-circle fa-fw icon-color font-awesome" aria-hidden="true"></i>  Support Direction
 
-The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
-in order to meet our strategic objective, the following topics are being addressed by the team:
-(also see the related [direction issue](https://gitlab.com/gitlab-com/support/issues/40))
+The overall direction for Support in 2017 is set by our overall [strategic objectives](/strategy), with a particular emphasis on continued improvement of (Premium) Customer satisfaction with Support. As can also be inferred from our [publicly visible in our Lattice goal tree](https://gitlab.latticehq.com/public/goals), the effort focuses on the following elements.
 
-**Increase Capacity**
+**Triaging Support Effort**
 
-By hiring more service engineers, adding [Support Turbos](#support-turbo) when needed, and
-making sure that the newly hired service engineers have training materials and pathway readily
-available and defined when they join. We'll also aim to do a better job acknowledging and incentivizing
-the rest of the community in their role of supporting the community at large through contributions to
-documentation and participation in social channels.
+By triaging support effort through internal SLAs and integration of SalesForce, Zuora, and Zendesk, the team can improve the support experience
+for Premium customers while still addressing the questions of _all_ subscribers.
 
-**Trend discovery**
+**Increase Capacity & Develop Experts**
 
-By gathering all our support channels in a central location, Zendesk, we'll be able to tag tickets
-with relevant keywords, and gather data on channel load, agent load, and topic trends. Likewise,
-through implementation of Swiftype on the [documentation](https://doc.gitlab.com/) server, we'll
-get a better handle on what people are looking for and/or not finding.
+In 2016 we expanded the support team significantly, and this trend will continue in 2017. Along the way, the Support team developed internal training tools to assist in rapid, robust, self-guided training for any team member. As GitLab -- the product -- continues to expand, so will the skill and knowledge of all Service Engineers to be able to continue providing an excellent customer support experience.
 
-**Empower Users**
+Know someone who might be a great fit for our team? Please refer them to the [Service Engineer job description](/jobs/service-engineer).
 
-By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
-making documentation easy to find and easy to search, and constantly contributing to further documentation
-with the trend discovery showing where the need is greatest, we can help the community become
-as self sufficient as possible and empower users to problem-solve. A seamless interface between the support team and developers closes the
-feedback loop of user experience back to development, and provides 'network' support for the Service Engineers
-for tough issues.
+**Actionable Analytics**
 
-**Improve Customer Experience**
+Better reporting on ticket metrics (topic, response times, product it relates to, etc.) will help guide the Support Team's priorities in terms of adding to the greatest documentation needs, bug fixes, and support processes.
 
-By triaging support effort through internal SLAs, the team can improve the support experience
-for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+
 
 ## Service and support we provide
 
@@ -77,15 +63,16 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 | SLA | Channel                | Response Time                          |
 |-----|----------------------------|----------------------------------------|
-| 1   | [Emergencies](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
-| 2   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
-| 3   | [Disqus](/handbook/marketing/developer-relations/community-advocacy/#disqus)  and [Twitter](/handbook/marketing/developer-relations/community-advocacy/#twitter)         | 1 business day                         |
-| 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
+| 1   | [Emergencies (Premium Customers only)](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 2   | [Premium Customer - Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets)                | 4 hrs (business)                             |
+| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
 
 **Response time indicates the first reply time.**
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
+
+The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/knowledge-base/zendesk/setting_ticket_priority.html)
 
 ## Tiered Support
 
@@ -154,7 +141,7 @@ create a quick internal note describing why you are escalating.
 
 ### Zendesk SLA settings and Breach alerts
 
-SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/sop/zendesk/zendesk_admin.html) page.
+SLAs are set as Business Rules within Zendesk. For more information, please refer to the specific [Zendesk](/handbook/support/workflows/zendesk/zendesk_admin.html) page.
 
 ## How we're doing
 
@@ -178,7 +165,7 @@ the ["fix4all" rotation page](/handbook/engineering/fix4all).
 Every now and then, it may occur that we come close to breaching our SLAs.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several "Support Turbo" developers who are denoted on the [Team Page](https://about.gitlab.com/team/).
-Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person.
+Support Turbos are separate from the ["fix4all" rotation](/handbook/engineering/fix4all), in that Turbos are on an as-needed basis while the fix4all rotation is a week-long commitment per person. Anyone within the support team can call turbos when there is a need for it. Turbos can be called by pinging them on slack either individually or with `@turbos`.
 
 The support team calls for help when necessary via Slack, but in case of doubt or
 conflicting priorities, the respective team lead or VP of Engineering needs to give the green light for the
@@ -195,11 +182,12 @@ Further guidelines when rolling up your sleeves to do Turbo work:
 - Since Turbos log in using a generic agent, there are some special considerations:
    - Pro-actively sign the tickets with their name, or leave an internal note so that the rest of the team knows which individual provided a response. This is helpful to be able to reach out and gain context, etc.
    - Do not [assign tickets](https://support.zendesk.com/hc/en-us/articles/203690956) to the generic agent account. Leave the assignee as the "group", otherwise these tickets will get lost.
+   - Please remember that people may pick up any ticket after you've replied. Adding any issues, docs, or follow-up expections for a reply as an internal comment would be really beneficial for the person picking it up after you.
 
 
 ## Calls, Trainings, Implementation Support, and Live Upgrade Assistance
 
-As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/sop/general/customer_calls.html).
+As described in more detail in the [support listings](https://about.gitlab.com/support/) as well as the [support onboarding page](/handbook/support/onboarding/), we offer services beyond simply responding to tickets. More information on scheduling customer calls can be found in the [support standard operating procedures](https://about.gitlab.com/handbook/support/workflows/general/customer_calls.html).
 
 #### Implementation Support
 

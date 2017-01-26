@@ -323,8 +323,10 @@
 
       var currentRentIndex = this.calculateRentIndex(input.currentCity, input.currentCountry);
       var currentContract = this.calculateContractFactor(input.currentCountry);
+      var currentMarketAdjustment = this.calculateMarketAdjustment(input.currentCity, input.currentCountry);
       var newRentIndex = this.calculateRentIndex(input.newCity, input.newCountry);
       var newContract = this.calculateContractFactor(input.newCountry);
+      var newMarketAdjustment = this.calculateMarketAdjustment(input.newCity, input.newCountry);
 
       if (!currentRentIndex ||
           !newRentIndex) {
@@ -332,7 +334,15 @@
         return this.renderInvalidCompensation();
       }
 
-      var newSalary = this.calculateCompensation(salary, currentRentIndex, newRentIndex, currentContract.factor, newContract.factor);
+      var newSalary = this.calculateCompensation({
+        salary: salary,
+        currentRentIndex: currentRentIndex,
+        currentContractTypeFactor: currentContract.factor,
+        currentMarketAdjustment: currentMarketAdjustment,
+        newRentIndex: newRentIndex,
+        newContractTypeFactor: newContract.factor,
+        newMarketAdjustment: newMarketAdjustment
+      });
       $(compensationAmount).text(this.formatAmount(newSalary) + ' USD');
     }
 
@@ -361,20 +371,31 @@
       var newRentIndex = this.calculateRentIndex(values.newCity, values.newCountry);
       var salary = values.salary;
       var currentContract, newContract;
+      var currentMarketAdjustment, newMarketAdjustment;
 
       if (values.currentCountry) {
         currentContract = this.calculateContractFactor(values.currentCountry);
+
+        if (values.currentCity) {
+          currentMarketAdjustment = this.calculateMarketAdjustment(values.currentCity, values.currentCountry);
+        }
       }
 
       if (values.newCountry) {
         newContract = this.calculateContractFactor(values.newCountry);
+
+        if (values.newCity) {
+          newMarketAdjustment = this.calculateMarketAdjustment(values.newCity, values.newCountry);
+        }
       }
 
       $('.formula .currentSalary .value').text(salary.length ? this.formatAmount(salary) : '$ ' + defaultValue);
       $('.formula .currentRentIndex .value').text(currentRentIndex ? currentRentIndex : defaultValue);
+      $('.formula .currentMarketAdjustment .value').text(currentMarketAdjustment ? currentMarketAdjustment : defaultValue);
       $('.formula .newRentIndex .value').text(newRentIndex ? newRentIndex : defaultValue);
       $('.formula .currentContractTypeFactor .value').text(currentContract && currentContract.hasOwnProperty('factor') ? currentContract.factor.toFixed(2) : defaultValue);
       $('.formula .newContractTypeFactor .value').text(newContract && newContract.hasOwnProperty('factor') ? newContract.factor.toFixed(2) : defaultValue);
+      $('.formula .newMarketAdjustment .value').text(newMarketAdjustment ? newMarketAdjustment : defaultValue);
     }
 
     MoveCalculator.prototype.renderInvalidCompensation = function() {
@@ -433,8 +454,18 @@
       return contract;
     }
 
-    MoveCalculator.prototype.calculateCompensation = function(salary, currentRentIndex, newRentIndex, currentContractTypeFactor, newContractTypeFactor) {
-      return Math.round(salary * (newRentIndex + 0.25) / (currentRentIndex + 0.25) * (newContractTypeFactor / currentContractTypeFactor));
+    MoveCalculator.prototype.calculateMarketAdjustment = function(city, country) {
+      if (this.data && this.data.numbeo) {
+        var locationData = this.data.marketAdjustments.find(function(o) {
+          return o.country === country && o.city === city;
+        });
+
+        return locationData ? parseFloat((locationData.hotmarket * 0.01).toFixed(2)) : 0;
+      }
+    };
+
+    MoveCalculator.prototype.calculateCompensation = function(inputs) {
+      return Math.round(inputs.salary * (inputs.newRentIndex + inputs.newMarketAdjustment + 0.25) / (inputs.currentRentIndex + inputs.currentMarketAdjustment + 0.25) * (inputs.newContractTypeFactor / inputs.currentContractTypeFactor));
     };
 
     MoveCalculator.prototype.formatAmount = function(amount) {
