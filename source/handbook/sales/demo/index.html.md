@@ -158,7 +158,7 @@ Boom, we’ve got a shiny new GitLab installation!
 
 ### Create a user and a project
 
-First things first, we need to secure the root account with a new password. And then create a new user for myself.
+First things first, we need to secure the root account with a new password. Then create a new user for myself.
 
 > * Set password for root user
 > * Create a user with your name and email address (no verification sent)
@@ -213,18 +213,11 @@ Great, now we’re ready to configure GitLab Auto Deploy. Back to the project, l
 
 ## Idea (Chat)
 
-Let’s go to our Mattermost client. Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
-> * Go to the deployed Mattermost
-> * Click [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
-> * Sign up with GitLab
-> * Authorize
-
-Let’s create a new team.
+Mattermost is an open source Slack alternative that comes bundled with GitLab. Because of the tight integration, I can use GitLab single-sign-on and it’ll know who I am.
 
 TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
 
-> * Create a new team: tanuki. Press Next. Press Finish.
 
 ### Setup Mattermost Command
 
@@ -234,16 +227,52 @@ Now, let's get our project connected to the built-in Mattermost. We'll be able c
 > * Scroll to Project Services
 > * Select Mattermost Command
 
-As you can see, integrating a project with Mattermost is as simple as clicking a button.
+As you can see, integrating a project with the built-in Mattermost is as simple as clicking a button.
 
 > * Click Add to Mattermost
-> * +++ PLEASE FILL+++
 
-Now, back to Mattermost, we'll create a channel for our project.
+Immediately, GitLab reaches out to Mattermost, identifies me with single-sign-on, and notices that I am not a part of any team. It asks me to connect to the deployed Mattermost and create a team.
 
-> * Create a new channel by clicking the + icon in the sidebar: simple-app. Press 'Create new channel'
+> * Click the `join a team` link
 
-This channel is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
+Mattermost recognizes we don't have any teams yet, so we'll make one. Let's call it tanuki.
+
+> * Click `create a new team`
+> * Fill in `tanuki`
+> * Press Next
+> * Press Finish
+
+And now we have a team called tanuki. Let's go back to GitLab, and try connecting Mattermost to our project again.
+
+> * Go back to GitLab
+> * Click Go Back
+> * Check the Active checkbox
+> * Click Add to Mattermost
+
+GitLab will now ask me what team I want to be able to access this command, and what I want the trigger word to be. Let's use tanuki and the project name, which are already filled in for us by default.
+
+> * Click Install
+
+And viola! We have Mattermost command integration with our project. Let's go try it out.
+
+> * Go to Mattermost [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
+
+We can access the command just like any other Mattermost command, including tab completion. Let us look at the help for the command. 
+
+> * Type: `/minimal-ruby-app help`
+
+Upon first use, the command will ask you to connect your GitLab account, which is as simple as clicking the provided link in the response.
+
+> * Click connect your GitLab account
+> * Click Authorize
+> * Go to Mattermost
+> * Type: `/simple-app help`
+
+Great. Now we're ready to roll.
+
+### Using Mattermost
+
+Chat is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
 
 > * Type: Let's improve the homepage!
 
@@ -265,7 +294,7 @@ Great, now we can click through to see our first issue on our new project.
 
 Inspiration is perishable, so let's pick this one up right away. As a team lead or manager, I'd go to the Issue Board.
 
-> Go to Issues, Issue Board
+> Go to Issues > Board
 
 Since this is our first time, we have to add a couple columns here to match our workflow.
 I'll just add the default "To Do" and "Doing" columns.
@@ -274,7 +303,7 @@ I'll just add the default "To Do" and "Doing" columns.
 
 There. Now we can just drag the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
 
-> * Drag issue from To Do to Doing
+> * Drag issue from Backlog to Doing
 
 ## Code (Terminal)
 
@@ -286,7 +315,8 @@ TODO: [After using the new branch button in an issue I want to press a terminal 
 
 > * Go to Pipelines
 > * Go to Environments
-> * Click Terminal button (on the right)
+> * Click Staging
+> * Click Terminal button (on the upper right, 1st on right)
 
 Let's edit the server.rb file.
 
@@ -303,7 +333,7 @@ Now we’ve saved the changes, let's restart the server.
 And now we can view the web page live to see how we like the changes.
 
 > * Go back
-> * Click external URL link on top right (3rd from right)
+> * Click external URL link on top right (2nd from right)
 
 ## Commit (Repo)
 
@@ -312,7 +342,7 @@ That looks pretty good for now. But we didn't commit anything so this change wil
 > * Go to Repository
 > * Go to `server.rb`
 > * Click Edit button
-> * Replace `<h1>Idea to Production demo</h1>`
+> * Add `Updated ` in front of  `Hello, world!`
 > DON'T COMMIT
 
 Now instead of committing directly to `master`, I’m going to create a new branch, named with the issue number.
@@ -331,9 +361,9 @@ And now it gives me an option to create a Merge Request, how nice of it. Let's g
 As soon as the Merge Request is created, we see it kicked off the CI/CD Pipeline that will test our contributed code.
 
 > * Click on Pipelines
-> * Click on first pipeline
+> * Click on first (top) pipeline's status.
 
-Here we see a simple pipeline that contains ~~3 stages for build, test, and staging~~ 2 stages for build and deploy...
+Here we see a simple pipeline that contains ~~3 stages for build, test, and staging~~ 2 stages for build and review...
 
 ### ~~Test Stage~~
 
@@ -343,10 +373,11 @@ Here we see a simple pipeline that contains ~~3 stages for build, test, and stag
 
 ### Runner progress
 
-While it’s running, we can head back to our Kubernetes console to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed.
+While it’s running, we can head back to our Kubernetes console to see that our GitLab Runner is working directly with Kubernetes to spawn new containers for each job, as they are needed. It even creates a namespace for the project, providing isolation.
 
-> * Go to Kubernetes, GitLab namespace
-> * Show runner pods
+> * Go to Kubernetes
+> * Change the Namespace drop-down to `minimal-ruby-app`
+> * Click on Pods
 
 ## Review (MR)
 
@@ -357,7 +388,7 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 ### Review apps
 
-But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our Kubernetes cluster in a special app called a Review App, created just for this branch. If we go back to the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
+But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our Kubernetes cluster in a special app called a Review App, created just for this branch. Right from the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
 
 > * Click on external link to review app (if it is not updated, go to the review app deployment history, find the second-last item and re-deploy.
 
