@@ -161,6 +161,10 @@
   picture: Dinkum.jpg
   human: sarah
   story:  Dinkum loves locusts and worms, she's less keen on salad. When she's not napping, she enjoys sprinting around the house and hiding in really awkward places.
+- name: Thingie
+  picture: thingie-ribon.jpg
+  human: bjk
+  story: Thingie is an old Minnesota barn cat. He loves to be on camera.
 
 - name: You?
   picture: ../logo-extra-whitespace.png
