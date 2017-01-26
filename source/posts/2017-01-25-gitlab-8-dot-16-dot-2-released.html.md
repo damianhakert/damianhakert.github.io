@@ -10,7 +10,7 @@ Enterprise Edition (EE).
 
 These versions resolve a number of regressions and bugs in the [recent 8.16
 release](/2017/01/22/gitlab-8-16-released) and include some backported bug fixes
-for the [8.14 release](/2016/11/22/gitlab-8-14-released)
+for the [8.14 release](/2016/11/22/gitlab-8-14-released).
 
 Please read on for more details.
 
