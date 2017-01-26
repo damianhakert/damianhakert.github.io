@@ -86,7 +86,7 @@ The goal of our release checklist is to highlight what should be completed with 
 ### Major feature rollout
 
 Some features deserve more attention than others. We have a dedicated process to
-roll major features out, [described in the Product handbook]((/handbook/product/)).
+roll major features out, [described in the Product handbook](/handbook/product/).
 
 ## Sales Enablement<a name="sales-enablement"></a>
 
