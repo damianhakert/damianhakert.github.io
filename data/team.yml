@@ -2259,16 +2259,16 @@
   story:  |
           Joining January 9th
 
-- name: T.P.
-  locality:
-  country:
+- name: Tim Peix
+  locality: Edinburgh, Scotland
+  country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/content-designer/">Content Designer</a>
   reports_to: Interim VP of Marketing
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: timpeix.png
+  twitter: timpeix
+  gitlab: timpeix
   story:  |
-          Joining January 11th
+          Tim has worked in the fields of app design, game design and interactive storytelling for numerous agencies, start-ups and companies. From 2014 to 2016 he was Design Teaching Assistant at Weißensee School of Art Berlin where he taught interaction design, digital media and app prototyping. Tim studied Visual Communication at Weißensee School of Art Berlin and Animation at University of the West of England in Bristol. Tim grew up in Germany and has lived in the United Kingdom before as a volunteer in a caring home and as a design student. He likes to spend his free time skiing, doing road trips and playing Cards Against Humanity with his friends.
 
 - name: S.K.
   locality:
