@@ -152,6 +152,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
 1. [ ] People Ops (Specialist): Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
+1. [ ] New team member: Complete your Slack profile with your job title (under *What I do*) and your job description URL.
 
 ### WITHIN FIRST WEEK OF STARTING
 
