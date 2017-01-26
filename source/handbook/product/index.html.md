@@ -353,7 +353,7 @@ who is responsible for it.
 2. Feature is planned in an upcoming release (PM)
 3. A feature proposal blog post is made (PM or Dev), where we'll describe
 	* What we are planning on doing,
-	* How you'll be able to buy it (CE or EE Editions),
+	* How you'll be able to buy it: CE or any EE Editions,
 	* Link to the issue,
 	* When it'll be available, if possible,
 	* Anything else that is interesting to share in order to fuel the discussion.
