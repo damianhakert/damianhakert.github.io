@@ -1258,17 +1258,6 @@
   story:  |
           Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events.
 
-- name: Dan Leonte
-  locality: Arlon
-  country: Belgium
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
-  reports_to: Regional Sales Director - EMEA
-  picture: dan.jpg
-  twitter:
-  gitlab: dan.gitlab
-  story:  |
-          Dan is passionate about helping people become more effective in their activity by introducing to them one of the best and easy to use tool in the market for version control.
-
 - name: Nicholas 'Nick' Thomas
   locality: York
   country: United Kingdom
