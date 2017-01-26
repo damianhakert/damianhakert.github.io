@@ -101,7 +101,13 @@ If you change your address, you should let GitLab know the new address within a 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
-### Promotions
+### Title Changes
+
+At GitLab, we encourage team members to take control of their own career ladders and career advancement. In all processes of title changes, the team member will speak with their manager about the change. Come prepared with an explanation of how you believe you meet the proposed level and can satisfy the business need.
+
+As a manager, please follow the following processes, and do not make promises to the team member before the approvals are completed.
+
+#### Promotions
 
 To promote one of your direct reports, a manager should follow the following steps:
 
@@ -112,6 +118,40 @@ To promote one of your direct reports, a manager should follow the following ste
 - Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/sop/#processing-changes) in relevant administrative systems.
 - Promotions are then announced by the manager on the team call; where the manager describes how the individual met the promotion criteria and includes a link to the merge request where the individuals title is updated on the team page.
 - If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [GitLab Organization issue tracker](https://gitlab.com/gitlab-com/organization/) to list and track progress on those topics.
+
+#### Demotions
+
+To demote one of your direct reports, a manager should follow the following steps:
+
+- The manager should discuss any performance issues or possible demotions with the People Ops Business Partner in their scheduled meetings.
+- To initiate the process, the manager must obtain agreement from two levels of management.
+- Proposed changes to a current job description or a new job description should be delivered with request for approval by the second level manager and the People Ops Business Partner.
+- Demotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator.
+- Once written agreement is reached on the demotion and changes (if any) in compensation, send the agreement to the CEO for final approval.
+- Once approved, the manager informs the individual. Please cc People Ops once the individual has been informed, to [processes the changes](/handbook/people-operations/sop/#processing-changes) in the relevant administrative systems.
+- Changes in title are announced on the team call.
+- The manager will initiate any necessary onboarding or offboarding.
+
+#### Department Transfers
+
+If you are interested in a position, regardless of level, outside your department or general career progression, you can apply for a transfer.
+
+- If you are interested in a transfer, first discuss this with your manager so that everyone is aware of the situation.
+- Transfers must go through the application process for the new position by applying on the [Jobs page](http://about.gitlab.com/jobs). The team member will go through the entire interview process outlined on the job description. Any questions about the role or the process? Please reach out to People Ops to discuss.
+- People Ops will ensure that, if applicable, the position has been posted for at least five business days before an offer is made.
+- [Compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels) may be reviewed during the hiring process to reflect the new level and position.
+- A new [contract](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements) will be sent out following the hiring process.
+- If the team member is transferred, the new manager will announce on the team call and begin any additional onboarding or offboarding necessary.
+
+##### Internal Department Transfers
+
+If you are interested in another position within your department and the hiring manager is also your manager, then the interview process is not necessary.
+
+- Present your proposition to your manager.
+- The manager will asses the function requirements; each level should be defined in the job description.
+- If approved, your manager will need to obtain approval from their manager, through the chain of command to the CEO.
+- [Compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels) will be reevaluated to ensure it adheres to the compensation calculator. Don't send the proposal to the CEO until this part is included.
+- If the team member is transferred, the manager will announce on the team call and begin any additional onboarding or offboarding necessary.
 
 ## Administrative details of benefits for US-based employees
 {: #benefits-us}
