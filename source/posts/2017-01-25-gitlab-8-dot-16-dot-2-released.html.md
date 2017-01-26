@@ -1,19 +1,22 @@
 ---
-title: "GitLab 8.16.2 released"
+title: "GitLab 8.16.2 and 8.14.8 released"
 author: DJ Mountney
 author_twitter: twk3
 categories: release
 ---
 
-Today we are releasing version 8.16.2 for GitLab Community Edition (CE) and
+Today we are releasing version 8.16.2 and 8.14.8 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
-This version resolves a number of regressions and bugs in the [recent 8.16
-release](/2017/01/22/gitlab-8-16-released).
+These versions resolve a number of regressions and bugs in the [recent 8.16
+release](/2017/01/22/gitlab-8-16-released) and include some backported bug fixes
+for the [8.14 release](/2016/11/22/gitlab-8-14-released)
 
 Please read on for more details.
 
 <!-- more -->
+
+## 8.16.2 Fixes and Improvements
 
 - **CE/EE:** Added current user filter to assignee dropdown ([!8653])
 - **CE/EE:** Fix errors with the Mattermost Notification Service ([!8654])
@@ -61,10 +64,27 @@ Please read on for more details.
 [!1105]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1105
 [!1106]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1106
 
+## 8.14.8 Fixes and Improvements
+
+- **CE/EE:** Accept environment variables from the `pre-receive` script ([!7967])
+- **CE/EE:** Speed up group milestone index by passing group_id to IssuesFinder ([!8363])
+- **CE/EE:** Memoize Milestoneish#issues_visible_to_user to reduce lookups ([!8146])
+- **CE/EE:** Bump gitlab-shell to 4.1.1 ([!8143])
+- **CE/EE:** Ensure issuable state changes only fire webhooks once ([!8101])
+- **CE/EE:** Fix N+1 queries on milestone show pages ([!8185])
+- **CE/EE:** Reject blank environment variables in Gitlab::Git::RevList ([!8189])
+
+[!7967]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7967
+[!8363]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8363
+[!8146]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8146
+[!8143]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8143
+[!8101]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8101
+[!8185]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8185
+[!8189]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8189
 
 ## Upgrade barometer
 
-This version has no migrations and should not require any downtime.
+These versions have no migrations and should not require any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
