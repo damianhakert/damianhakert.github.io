@@ -86,7 +86,8 @@ extra_font:
             %p.event-description
               = event.description
           .social-tags.visible-xs-block
-            %span.social-tag
+            - event.social_tags.split(',').each do |tag|
+              %span.social-tag= "##{tag}"
           .event-buttons
             -# Social buttons
             .buttons
@@ -94,6 +95,8 @@ extra_font:
                 Join Us!
             .clear-floats
           .social-tags.hidden-xs
+            - event.social_tags.split(',').each do |tag|
+              %span.social-tag= "##{tag}"
     .center-horizontal
       %nav
         %ul.pagination
