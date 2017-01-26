@@ -4,9 +4,7 @@ author: Tobias Günther
 author_twitter: gittower
 categories: tutorial
 description: "Managing large files efficiently with Git LFS"
-
-cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
-cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html
+image_title: '/images/blogimages/gitlab-blog-cover.png'
 ---
 
 It happens with the best of intentions: your design team adds their large graphic files to your project repository - and you see it grow and grow until it's a multi-gigabyte clump...
@@ -17,47 +15,43 @@ Working with large binary files in Git can indeed be tricky.
 Every time a tiny change in a 100 MB Photoshop file is committed, your repository grows by another 100 MB.
 This quickly adds up and makes your repository almost unusable due to its enormous size.
 
-But of course, _not_ using version control for your design / concept / movie / audio / &lt;other-large-file-use-case&gt; work _cannot_ be the solution.
+But of course, _not_ using version control for your design / concept / movie / audio / executables / &lt;other-large-file-use-case&gt; work _cannot_ be the solution.
 The general benefits of version control still apply and should be reaped in all kinds of projects.
 
 Luckily, there's a Git extension that makes working with large files a lot more efficient: say hello to "Large File Storage" (or simply "LFS" if you prefer nicknames).
 
-
 ## Without LFS: Bloated Repositories
 
-Before we look at how exactly LFS works its wonders, we'll take another, closer look at the actual problem.
-Let's take a simple website project as an example:
+Before we look at how exactly LFS works its wonders, we'll take a closer look at the actual problem.
+Let's consider a simple website project as an example:
 
-![A simple project setup](/images/blogimages/getting-started-with-git-lfs-tutorial/project-setup-without-big-files.png)
+![A simple project setup](/images/blogimages/getting-started-with-git-lfs-tutorial/project-setup-without-big-files.png){:.shadow}
 
 Nothing special: some HTML, CSS, and JS files and a couple of small image assets.
 However, until now, we haven't included our design assets (Photoshop, Sketch, etc.).
 It makes a lot of sense to put your design assets under version control, too.
 
-![Big binary files in a project](/images/blogimages/getting-started-with-git-lfs-tutorial/project-setup-with-big-files.png)
+![Big binary files in a project](/images/blogimages/getting-started-with-git-lfs-tutorial/project-setup-with-big-files.png){:.shadow}
 
 However, here's the catch: each time our designer makes a change (no matter how small) to this new Photoshop file, she will commit another 100 MB to the repository.
 Very quickly, the repository will weigh tons of megabytes and soon gigabytes - which makes cloning and managing it very tedious.
+{: .alert .alert-info}
 
 Although I only talked about "design" files, this is really a problem with all "large" files:
-movies, audio recordings, datasets, ...
-
+movies, audio recordings, datasets, etc.
 
 ## With LFS: Efficient Large File Handling
 
 Of course, LFS cannot simply "magic away" all that large data: it accrues with every change and has to be saved.
 However, it shifts that burden to the remote server - allowing the _local_ repository to stay relatively lean!
 
-To make this possible, LFS uses a simple trick: __it does not keep all of a file's versions in the local repository__.
+To make this possible, LFS uses a simple trick: **it does not keep all of a file's versions in the local repository**.
 Instead, it provides only the files that are necessary in the checked out revision, on demand.
 
 But this poses an interesting question: if those huge files themselves are _not_ present in your local repository... what _is_ present instead?
-LFS saves lightweight _pointers_ in place of real file data. When you check out a revision with such a pointer, LFS simply looks up the original file (possibly on the server if it's not in its own, special cache) and downloads it for you.
+[LFS saves lightweight pointers](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post) in place of real file data. When you check out a revision with such a pointer, LFS simply looks up the original file (possibly on the server if it's not in its own, special cache) and downloads it for you.
 
 Thereby, you end up with only the files you really want - not a whole bunch of superfluous data that you might never need.
-
-If you want to learn more about LFS's pointers and object stores, have a look at the chapter ["Handling Large Files with LFS" in our free online book](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
-
 
 ## Installing LFS
 
@@ -98,7 +92,7 @@ So let's return to our "big Photoshop file" example. We can instruct LFS to take
 git lfs track "design-resources/design.psd"
 ```
 
-At first glance, the command didn't seem to have much effect. However, you'll notice that a new file has been created in the project's root folder: ".gitattributes" collects all file patterns that we choose to track via LFS. Let's take a look at its contents:
+At first glance, the command didn't seem to have much effect. However, you'll notice that a new file in the project's root folder has been created (or changed, if it already existed): `.gitattributes` collects all file patterns that we choose to track via LFS. Let's take a look at its contents:
 
 ```
 cat .gitattributes 
@@ -125,7 +119,6 @@ git lfs track "*.indd"
 
 This command will instruct LFS to track all _InDesign_ files - existing ones and future ones.
 
-
 ## Getting an Overview of Tracked Files
 
 At some point, you might want to know which files exactly are tracked by LFS at the moment. 
@@ -144,10 +137,10 @@ Remember that LFS does _not_ change the laws of nature: things that were committ
 It's very hard (and dangerous) to change a project's commit history.
 
 This means that you should tell LFS to track a file _before_ it's committed to the repository.
+{: .alert .alert-info}
 Otherwise, it has become part of your project's history - including all of its megabytes and gigabytes...
 
 The ideal moment to configure which file patterns you want to track is right when initializing a repository (just like with [ignoring files](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/starting-with-an-unversioned-project?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post#chapter_ignoring+files)).
-
 
 ## Using LFS in a GUI
 
@@ -157,6 +150,7 @@ Since Tower comes with built-in support for Git LFS, there is nothing to install
 
 ![Using Tower to be more productive with Git and Git LFS](/images/blogimages/getting-started-with-git-lfs-tutorial/tower-lfs.gif)
 
+Additionally, Tower provides a direct [integration with GitLab](https://about.gitlab.com/2017/01/20/gitlab-tower-integration-coupon-code/)! After connecting your GitLab account in Tower, you can clone and create repositories with just a single click.
 
 ## Working with Git
 
@@ -166,4 +160,9 @@ Apart from the commands we've discussed, there's nothing to watch out for.
 LFS will provide the files you need, _when_ you need them.
 
 In case you're looking for more information about LFS, have a look at our free [online book](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post). 
-For general tips & tricks about Git, the [GitLab blog(https://about.gitlab.com/2016/12/08/git-tips-and-tricks/) and our [video series](https://www.git-tower.com/learn/git/videos?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post) offer lots of inspiration.
+For general insights about Git, take a look at the [Git Tips & Tricks](/2016/12/08/git-tips-and-tricks/) blog post and our [video series](https://www.git-tower.com/learn/git/videos?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
+
+## About Guest Author
+
+This is a [guest post](/handbook/marketing/blog/#guest-posts) 
+written by [Tobias Günther](https://twitter.com/gittower), who is part of the team behind the [Tower Git client](https://www.git-tower.com/?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
