@@ -6,16 +6,16 @@ title: "Demo"
 ## Video
 {:.no_toc}
 
-The video below has three parts: creating a Kubernetes cluster, installing GitLab on it, and going thought the software development lifecycle. Skip to [15:41](http://www.youtube.com/watch?v=-3A8mdJl_icM#t=15m41s) to see the software development lifecycle part. Our goal is to reduce its length to 12 minutes, less than 5 minutes for each part.
-
 <iframe width="640" height="389" src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen></iframe>
 
 ## Overview
 {:.no_toc}
 
-This demonstration is designed to highlight [GitLab’s open set of tools for the software development lifecycle](https://about.gitlab.com/direction/#scope), from idea to production, through chat, issues, planning, merge request, CI, and CD.
+This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
+
+![](handbook/sales/steps.png)
 
 We want to to make sure [everyone can replicate this demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/25986).
 We've changed this page to make it work with Google Container Engine (GKE) instead of OpenShift.
@@ -142,7 +142,7 @@ While the system is deploying, it is expected that we will see a 503 message fro
 
 > *Note:* You can expect that you will see a 503 message for a short period as everything comes online. Feel free to refresh the page and / or switch between the Kubernetes dashboard and the gitlab page.
 
-While we're waiting: In the rest of the demo, I’ll take you through everything you need to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control, merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, deploying to production directly from chat, and lastly, cycle analytics to measure how fast you’re going from idea to production. With GitLab, everything is integrated out of the box.
+While we're waiting: In the rest of the demo, I’ll take you through everything you need to take ideas to production, including chat with Mattermost, issues and issue tracking, planning with issue boards, coding with terminal access, committing with git version control, merge requests for code review, testing with continuous integration, getting peer reviews with live review apps, continuous delivery to staging, deploying to production directly from chat, cycle analytics to measure how fast you’re going from idea to production, and lastly, Prometheus monitoring of your GitLab instance. With GitLab, everything is integrated out of the box.
 
 What takes 10 minutes in this demo will take days if you're not using GitLab and have to integrate different tools. Not only is GitLab faster to set up, but it is also more convenient to have everything in one interface. Developers want to work on creating a great product, not on learning and maintaining the integrations between theirs tools.
 
@@ -437,6 +437,23 @@ One final thing. The cycle time of getting from idea to production is very impor
 Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. So far, we're doing amazingly well, by completing a release cycle in minutes.
 
 This is great for team managers and high level managers looking to better understand their company's release cycle time, which is key to staying competitive and responding to customers.
+
+### Prometheus Monitoring
+
+Now, let’s try out Prometheus, which is monitoring the GitLab instance itself.
+
+For security, this install doesn’t have its Prometheus ports exposed, so I need to port-forward them to my localhost.
+
+> * `kubectl -n gitlab get pods -l name=gitlab -o name | sed 's/^.*\///' | xargs -I{} kubectl port-forward -n gitlab {} 9090:9090`
+
+Now let’s look at a couple simple queries. Here’s our CPU usage:
+
+> * Copy `1 - rate(node_cpu{mode="idle"}[5m])` into the Expression bar; hit enter.
+> * Click Graph
+
+And then memory usage:
+
+> * Copy `(1 - ((node_memory_MemFree + node_memory_Cached) / node_memory_MemTotal)) * 100` into the Expression Bar; hit enter.
 
 ## Conclusion
 
