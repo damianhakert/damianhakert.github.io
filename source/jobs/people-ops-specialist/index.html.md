@@ -5,17 +5,16 @@ title: "People Operations Specialist"
 
 ## Responsibilities
 
-- Responsible for the day to day administration of People Operations, and assisting team members with their People Operations questions.
-- Assist the Sr. Director of People Operations to develop the strategic direction for People Ops, and implement the functional steps to achieve those goals.
+- Responsible for the day to day administration of People Operations and assisting team members with their People Operations questions.
+- Assist the Sr. Director of People Operations with the implementation of programs aligned with the strategic direction of the organization.
 - Develop and implement HR policies, from recruitment and pay, to diversity and employee relations.
 - Coordinate with our payroll and benefits providers, and using our People Ops Information System and ATS; currently BambooHR and Workable.
-- Implement and manage global benefits programs. 
 - Create People Operations processes and strategies following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
 - Keep it efficient and DRY.
 - Provide assistance to the team with miscellaneous support tasks.
-- Suggest and implement improvements to People Operations.
+- Suggest and implement improvements to People Operations policies, processes and procedures.
 - Help write job descriptions and promotion criteria.
-- Manage the HRIS system, ensuring Data Integrity.
+- Maintain our HRIS system, ensuring Data Integrity and alignment with all ancillary systems, such as Grovo, Lattice and Finance.
 - Where applicable, work with the Sr. Director of People Operations on compensation strategies and principles. 
 
 ## Requirements
