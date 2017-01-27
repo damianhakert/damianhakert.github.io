@@ -18,6 +18,33 @@ mergeable file format and distributed version control. The vision of GitLab is
 that **everyone can contribute** on all digital content so people can
 cooperate effectively and achieve better results, faster.
 
+## 2017 Strategy
+
+Some key achievements for 2017, elaborated by quarter.
+
+1. Everyone can use idea to production
+  1. (DONE) Q1: Make it work on Google Cloud
+  1. Q2: Support app + database deployments
+  1. Q3: Support large scale projects
+  1. Q4: Multi-project support
+2. Monitoring and Feedback
+  1. (DONE) Q1: Ship prometheus with GitLab
+  1. Q1: Integrate with GitLab
+  1. Q2: ?
+3. GitLab is made for enterprise projects
+  1. Q1: Ship nested groups
+  1. Q2: Support Android repositories
+  1. Q2: ? Muti-project pipelines
+  1. Q2: Group level issues support (boards)
+4. Building, deploying and monitoring with GitLab is easy
+  1. Q1: Successfully introduce easier, more powerful filtering
+  1. Q1: Make auto deploy easier to discover and use
+  1. Q2: Modernize the navigation
+5. GitLab.com is the best SaaS to host your code and run CI/CD
+  1. Q1: Introduce plans and in-UI subscriptions
+  1. Q2: Tier-exclusive features
+  1. Q2-3: Silver plan
+
 ## Product Strategy
 
 Today you can create an entire product successfully in GitLab, from idea to production. But you still need domain-specific knowledge to be able to set this up and then maintain, monitor and scale this application.
