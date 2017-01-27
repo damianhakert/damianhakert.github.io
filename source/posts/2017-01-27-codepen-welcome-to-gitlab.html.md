@@ -38,7 +38,6 @@ we've gathered some highlights in the following section.
 Source: [Codepen Podcast - 114 - GitLab](https://blog.codepen.io/2017/01/24/114-gitlab/)
 {:.note}
 
-
 ## Highlights
 
 {::options parse_block_html="true" /}
@@ -119,7 +118,6 @@ With GitLab Importer, it's just import your projects from GitHub directly from t
 pushing a button.
 
 > _Choose the repos you want, and click "import", "import", "import"..._
-
 </div>
 </div>
 
