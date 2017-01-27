@@ -5,8 +5,6 @@ author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/8_16/pic.jpg'
 description: GitLab 8.16 Released with Time Tracking coming to Community Edition and new API, Deploy Keys with write-access, and monitoring with Prometheus
-cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
-cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html
 ---
 
 We’re on a mission to [make sure everyone can contribute](https://about.gitlab.com/strategy/#mission). That means making [the tools in GitLab](https://about.gitlab.com/direction/#scope)
@@ -397,8 +395,5 @@ Access to GitLab Enterprise Edition is included with a
 [subscription](https://about.gitlab.com/products/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
-
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our upcoming webcast about &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>GitLab 8.16</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
-&nbsp;&nbsp;on January 26. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html">Register here</a>!</p>
 
 ----
