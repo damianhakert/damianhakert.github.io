@@ -18,7 +18,7 @@ Their community's work is involving - we can pass hours trying pens like these:
 <p data-height="300" data-theme-id="23203" data-slug-hash="dNVaae" data-default-tab="js,result" data-user="virtuacreative" data-embed-version="2" data-pen-title="Spock! Paper Scissors" class="codepen">See the Pen <a href="http://codepen.io/virtuacreative/pen/dNVaae/">Spock! Paper Scissors</a> by Virtua Creative (<a href="http://codepen.io/virtuacreative">@virtuacreative</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-When I heard that they had switched to GitLab, it was a blast! Yaaay! **Welcome Codepen!** <i class="fa fa-codepen" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-gitlab" aria-hidden="true"></i>
+When I heard that they had switched to GitLab, I had a blast! Yaaay! **Welcome Codepen!** <i class="fa fa-codepen" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-gitlab" aria-hidden="true"></i>
 
 They're very cool folks, only [eight of them][team]
 make such an awesome product! They're also remote-only, like us.
