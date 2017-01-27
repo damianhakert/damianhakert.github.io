@@ -1,13 +1,3 @@
-- topic: GitLab Meetup SF
-  type: Git Users
-  date: Feb. 23, 2017
-  description: |
-               Come hang out with the Bay Area GitLab staff and hear Sid give a brief rundown of the Complete Development Lifecycle with GitLab. Refreshments will be provided
-
-  location: San Francisco, CA USA
-  social_tags: GitLabSF, FromIdeaToProduction
-  event_url: https://about.gitlab.com
-
 - topic: Git Merge 2017
   type: Git Developers
   date: Feb. 2-3 2017
