@@ -98,11 +98,16 @@ Make sure to include in the description
 “Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
 -
 You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
+Phone number CEO:
+Phone number other participant(s):
 (Calls in the hiring process also have: “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”)
 
 * Meetings at the office: 
 
 Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
+-
+Phone number CEO:
+Phone number other participant(s):
 -
 Accessing the GitLab office building
 Enter the building through the double doors between the two Mike's Bikes locations.
@@ -111,11 +116,12 @@ Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strang
 Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).
 More details are on our visiting page: https://about.gitlab.com/visiting/ 
 
+
 For all external meetings include [visiting info](https://about.gitlab.com/visiting) (for in-person meetings), our [primer page](https://about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 * Sales meetings are important, in case the CEO can help the process, feel free to include him in the meeting
-* Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call, or suggest a meeting at the GitLab office, and if the other party presses to meet at their location, the CEO will travel for a meeting
+* Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call, or suggest a meeting at the GitLab office. If the other party presses to meet at their location, confirm with the CEO if that works for him. If he has approved the request, the CEO will travel for a meeting.
 
 ## Hiring process
 {: #hiring-process}
