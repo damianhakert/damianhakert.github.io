@@ -60,6 +60,12 @@
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
 
+- title: "Backend Developer, Edge"
+  description: /jobs/developer-edge/
+  salary: 87337
+  apply: TODO
+  open: true
+
 - title: "Senior Backend Developer, CI/CD Pipelines"
   description: /jobs/developer-ci/
   salary: 87337
