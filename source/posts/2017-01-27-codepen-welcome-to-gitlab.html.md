@@ -21,7 +21,7 @@ Their community's work is involving - we can pass hours trying pens like these:
 When I heard that they had switched to GitLab, I had a blast! Yaaay! **Welcome Codepen!** <i class="fa fa-codepen" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-gitlab" aria-hidden="true"></i>
 
 They're very cool folks, only [eight of them][team]
-make such an awesome product! They're also remote-only, like us.
+making such an awesome product! They're also remote-only, like us.
 
 Listen to their podcast episode, which details why and how this move went. If you'd rather read,
 we've gathered some highlights in the following section.
@@ -66,7 +66,7 @@ They have their own private network space, in which they run GitLab.
 ### <i class="fa fa-code fa-fw" aria-hidden="true"></i> Open Source
 {: .panel-heading}
 <div class="panel-body">
-They support open source projects and are happy with our free and opens source product, GitLab CE.
+They support open source projects and are happy with our free and open source product, GitLab CE.
 </div>
 </div>
 
@@ -104,7 +104,7 @@ platform, tied together with their code.
 
 They called it "grown up project management"! :D
 
-They mentioned how cool is, from the Issue Tracker commenting system, perform a slash command
+They mentioned how cool is it, from the Issue Tracker commenting system, perform a slash command
 to add how long it's gonna take to complete the implementation of a feature.
 
 It is important for project planning and management to have everything integrated.
