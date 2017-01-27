@@ -1,6 +1,7 @@
 ---
 layout: markdown_page
 title: "People Operations"
+---
 
 ## Communication
 
