@@ -158,6 +158,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Hiring Manager: Remove team member as a member from the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
 1. [ ] People Ops: remove team member's Zoom account.
 1. [ ] Hiring Manager: Remove team member from https://timezone.io/team/gitlab-support
+1. [ ] Hiring Manager: Downgrade GitHost.io account to user privileges - [Set `user_type` to `0`](https://dev.gitlab.org/gitlab/GitHost#create-a-new-admin-user) 
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
