@@ -66,6 +66,8 @@
                     sudo systemctl enable postfix
                     sudo systemctl start postfix
   firewall_open: |
+  firewall_open: |
+                    # If you have firewall enabled, run the following
                     sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
 - name: opensuse421
