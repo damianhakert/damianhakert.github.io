@@ -380,6 +380,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer [Zoom](https://gitlab.zoom.us/) (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. Google Calendar also has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a videocall to the invite
 1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
    1. If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Ops as described [below specifically for Zoom](#zoom).
    1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" source:domain`.
