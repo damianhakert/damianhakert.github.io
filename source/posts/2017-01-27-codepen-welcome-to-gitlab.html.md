@@ -3,7 +3,7 @@ title: "CodePen, welcome to GitLab!"
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: customer stories
-image_title: 
+image_title: '/images/blogimages/codepen-welcome-to-gitlab-cover.png'
 description: "Yes, it's worth it - CodePen has moved to GitLab!"
 ---
 
@@ -12,6 +12,8 @@ We were so glad to hear that [CodePen] switched to GitLab!
 Read through the ins and outs of their move! 😃
 
 <!-- more -->
+
+----
 
 Particularly, I'm a big fan of CodePen. Their product is awesome: it's
 intuitive, beautiful, works like a charm, and it's really easy to use.
@@ -166,8 +168,14 @@ At 33:44 they also mention burndown charts, and there is [an issue][burndown] wi
 CodePen is using [GitLab EE Starter][ee], self-hosted on AWS together with all their
 structure.
 
+----
+
+Cover image: screenshot of [About CodePen][about].
+{:.note}
+
 <!-- identifiers -->
 
+[about]: http://codepen.io/about/
 [boards]: /solutions/issueboard/#step-6
 [burndown]: https://gitlab.com/gitlab-org/gitlab-ee/issues/91
 [ce]: /products/ "GitLab Community Edition"
