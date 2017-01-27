@@ -442,7 +442,7 @@ This is great for team managers and high level managers looking to better unders
 
 Now, let’s try out Prometheus, which is monitoring the GitLab instance itself.
 
-> * Visit `prometheus.make-sid-dance.com`
+> * Visit [https://prometheus.make-sid-dance.com](https://prometheus.make-sid-dance.com)
 
 Now let’s look at a couple simple queries. Here’s our CPU usage:
 
