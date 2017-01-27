@@ -442,9 +442,7 @@ This is great for team managers and high level managers looking to better unders
 
 Now, let’s try out Prometheus, which is monitoring the GitLab instance itself.
 
-For security, this install doesn’t have its Prometheus ports exposed, so I need to port-forward them to my localhost.
-
-> * `kubectl -n gitlab get pods -l name=gitlab -o name | sed 's/^.*\///' | xargs -I{} kubectl port-forward -n gitlab {} 9090:9090`
+> * Visit `prometheus.make-sid-dance.com`
 
 Now let’s look at a couple simple queries. Here’s our CPU usage:
 
