@@ -1,8 +1,6 @@
 ---
 layout: markdown_page
 title: "People Operations"
----
-
 
 ## Communication
 
@@ -44,7 +42,7 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 ## Letter of Employmnet and Reference Request Policy
 
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.  
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.
 
 Team members are not authorized by the company to speak on its behalf to complete reference requests for team members no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
 
@@ -158,7 +156,7 @@ number is dialed.
       * "It's always OK to ask for help."
       * "It’s hard for me to understand exactly what you’re going through, but I can see that it’s distressing for you."
 
-Any questions or concerns? Please feel free to speak with anyone in People Ops!  
+Any questions or concerns? Please feel free to speak with anyone in People Ops!
 
 ## Dutch work permits
 
