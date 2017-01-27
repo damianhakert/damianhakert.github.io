@@ -516,7 +516,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
     *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
     *  Holiday Party Budget: 50 USD per person. We encourage team members to self organize holiday parties with those close by.
-    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
+    *  {: #travel-to-visit-team-members} Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
@@ -539,7 +539,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 {: #paid-time-off}
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
-1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
+1. {: #working-hours}Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
 1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. Encourage your co-workers to take time out when you become aware that they are working long hours over a sustained period.
 1. We have an "unlimited" time off policy. This means that:
