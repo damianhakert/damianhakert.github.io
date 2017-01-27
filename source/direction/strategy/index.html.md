@@ -33,6 +33,7 @@ Some key achievements for 2017, elaborated by quarter.
   1. Q2: ?
 3. GitLab is made for enterprise projects
   1. Q1: Ship nested groups
+  1. Q1: License Finder
   1. Q2: Support Android repositories
   1. Q2: ? Muti-project pipelines
   1. Q2: Group level issues support (boards)
@@ -43,6 +44,7 @@ Some key achievements for 2017, elaborated by quarter.
 5. GitLab.com is the best SaaS to host your code and run CI/CD
   1. Q1: Introduce plans and in-UI subscriptions
   1. Q2: Tier-exclusive features
+  1. Q3: LDAP support
   1. Q2-3: Silver plan
 
 ## Product Strategy
