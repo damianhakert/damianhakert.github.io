@@ -35,8 +35,8 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * Run `gcloud components install kubectl`
 > * Login to Google Cloud Platform
 >   * URL: [https://console.cloud.google.com/kubernetes](https://console.cloud.google.com/kubernetes)
-> * GitLab employees should use the `gitlab-internal` project. Others should select or create a project to work in.
->   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318](https://console.cloud.google.com/kubernetes/list?project=gitlab-internal-153318)
+> * GitLab employees should use the `gitlab-demos` project. Others should select or create a project to work in.
+>   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-demos](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
 > * This script assumes the `make-sid-dance.com` domain, but you should buy a new domain for your demo and substitute throughout the script. Also, put your domain [under Google DNS control](https://console.cloud.google.com/networking/dns/zones/~new).
@@ -57,7 +57,7 @@ The first step is to install GitLab itself. Today I'm going to use Google Cloud 
 
 We'll start with creating a new cluster. To do this, we will navigate to the Container Engine and create a new cluster.
 
-> * Make sure `gitlab-internal` project is selected; otherwise pick it from the drop-down.
+> * Make sure `gitlab-demos` project is selected; otherwise pick it from the drop-down.
 > * Click `Create cluster`, this will open a series of dialogs to complete.
 
 We'll name this cluster `make-sid-dance` and have it created in the us-central zone. I’ll leave it at 3 nodes, but bump of the machine type to have 2 virtual CPUs for performance reasons.
