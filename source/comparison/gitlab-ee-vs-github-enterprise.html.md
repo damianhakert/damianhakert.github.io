@@ -67,7 +67,7 @@ Sync groups, manage SSH-keys, manage permissions, authentication and more. You c
 [More information about AD / LDAP integration](http://doc.gitlab.com/ee/integration/ldap.html)
 
 ### Multiple approvals in code review
-To ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it.
+To ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it. You can undo an approval by removing it after the fact.
 
 [Approvals Documentation](http://doc.gitlab.com/ee/workflow/merge_request_approvals.html)
 
