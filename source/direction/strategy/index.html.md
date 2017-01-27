@@ -24,9 +24,9 @@ Some key achievements for 2017, elaborated by quarter.
 
 1. Everyone can use idea to production
   1. (DONE) Q1: Make it work on Google Cloud
-  1. Q2: Support app + database deployments
-  1. Q3: Support large scale projects
-  1. Q4: Multi-project support
+  1. Q1: Support app + database deployments
+  1. Q2: Support large scale projects
+  1. Q3: Multi-project support
 2. Monitoring and Feedback
   1. (DONE) Q1: Ship prometheus with GitLab
   1. Q1: Integrate with GitLab
