@@ -12,19 +12,22 @@ extra_css:
       .col-sm-12.col-md-12
         %h1 Update GitLab Community Edition
 .wrapper.container
-  .row.graphic-menu
+  .row
     .col-md-12
-      .row
+      .row.margin-top.margin-bottom
         .heavy.col-md-4
           Have an Omnibus package?
           %h5.title Used our package server on Ubuntu / Debian?
           %p.answer
-            sudo apt-get update
-            %br/
-            sudo apt-get install gitlab-ce
+            %code
+              sudo apt-get update
+            %br
+            %code
+              sudo apt-get install gitlab-ce
           %h5.title Used our package server on CentOS?
           %p.answer
-            sudo yum install gitlab-ce
+            %code
+              sudo yum install gitlab-ce
           %h5.title Want to upgrade from a manually downloaded Omnibus package to package server?
           %p.answer
             %a.view-docs{href: "/upgrade-to-package-repository"} View our documentation on upgrading to the package repository
@@ -38,32 +41,35 @@ extra_css:
           %p.answer
             %a.view-docs{href: "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation"} View documentation here
           %h5.title Want to stay on source?
-          %h5
-          %p.question Patch update?
-          %a.answer{href: "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/patch_versions.md"} Universal update guide for patch versions
-          %h5
-          %p.question Major/minor update?
-          %a.answer{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/update"} View all incremental updates
+          %p.answer 
+            For patch updates visit our 
+            %a.view-docs{href: "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/patch_versions.md"} universal update guide for patch versions
+            %br 
+            %br
+            For a major/minor update
+            %a.view-docs{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/update"} view all incremental updates
         .col-md-4
           .heavy
             Bitnami or other?
-            %p.title Backup and restore to an Omnibus package
-          %a.view-docs{href: "http://doc.gitlab.com/ce/raketasks/backup_restore.html"} View backup and restore page
-  #ee.row.graphic-menu
-    .heavy{style: "font-size: 45px; text-align: center; margin-top: 0px;"} Upgrading (to) GitLab Enterprise Edition
-    .heavy{style: "text-align: center; margin-top: 26px;"}
-      %h5.title{style: "margin-bottom: 0;"}
+            %p.title Want to backup and restore to an Omnibus package?
+            %p.answer
+              %a.view-docs{href: "http://doc.gitlab.com/ce/raketasks/backup_restore.html"} View backup and restore page
+  #ee.row.center.margin-bottom
+    .heavy 
+      Upgrading (to) GitLab Enterprise Edition
+      %h5.title
         Already using an Omnibus package?
       %p.answer
         Upgrade using the Omnibus package
         = succeed "," do
           %a.answer{href: "http://doc.gitlab.com/omnibus/#updating"} upgrade documentation
         %a.answer{href: "https://packages.gitlab.com/gitlab/gitlab-ee"} Enterprise Edition package
-      %h5.title{style: "margin-bottom: 0;"}
+      %h5.title
         Want to upgrade your source installation to Enterprise Edition?
-      %a.answer{href: "https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc/update/"}
-        See the CE to EE upgrade documentation
-      %h5.title{style: "margin-bottom: 0;"}
+      %p.answer
+        %a.answer{href: "https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc/update/"}
+          See the CE to EE upgrade documentation
+      %h5.title
         Set up your new integrations with Jira and Jenkins
       %p.answer
         %a.answer{href: "https://docs.gitlab.com/ee/project_services/jira.html"} Jira integration documentation
