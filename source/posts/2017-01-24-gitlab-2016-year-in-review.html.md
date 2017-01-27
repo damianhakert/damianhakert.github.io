@@ -5,8 +5,6 @@ author_twitter: connorjshea
 categories: GitLab
 image_title: '/images/blogimages/2016-year-in-review/gitlab-2016-in-review-cover.png'
 description: 'We’re proud to announce that we closed 2016 with the entire idea-to-production workflow, as promised! These are the highlights!'
-cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
-cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html
 twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
@@ -294,13 +292,6 @@ As always, if you found this post interesting and want to contribute to the proj
 What improvements do you want to see this year?
 
 {::options parse_block_html="true" /}
-
-Catch our upcoming webcast about
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-**GitLab 8.16**
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-on January 26. [Register here!](https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html)
-{: .alert .alert-webcast}
 
 <!-- Links -->
 
