@@ -124,7 +124,7 @@ pushing a button.
 </div>
 
 <div class="panel panel-gitlab-purple">
-### <i class="fa fa-check-square-o fa-fw" aria-hidden="true"></i> Takeaway
+### <i class="fa fa-check-square-o fa-fw" aria-hidden="true"></i> Bottom Line
 {: .panel-heading}
 <div class="panel-body">
 They don't need GitHub, Trello, and Codeship to go from idea to production anymore; they have GitLab
