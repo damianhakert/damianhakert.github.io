@@ -770,6 +770,7 @@
   twitter: twk3
   gitlab: twk3
   maintains:  |
+              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> expert</li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
               <li><a href="https://docs.gitlab.com/ce/project_services/kubernetes.html">Kubernetes <a href="/jobs/expert/">expert</a></li>
