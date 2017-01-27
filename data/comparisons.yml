@@ -1,20 +1,125 @@
-gitlab_vs_github:
-  title: 'GitLab vs. GitHub'
-  competitor_name: 'GitHub'
+gitlab_self_hosted_vs_github:
+  title: 'GitLab Self-hosted vs. GitHub.com'
+  competitor_one_name: 'GitLab Self-hosted'
+  competitor_two_name: 'GitHub.com'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
       competitor: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
       competitor: false
-gitlab_vs_bitbucket:
-  title: 'GitLab vs. Bitbucket'
-  competitor_name: 'Bitbucket'
+
+gitlab_ee_vs_github_enterprise:
+  title: 'GitLab EE vs. GitHub Enterprise'
+  competitor_one_name: 'GitLab EE'
+  competitor_two_name: 'GitHub Enterprise'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
       competitor: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_vs_github:
+  title: 'GitLab.com vs. GitHub.com'
+  competitor_one_name: 'GitLab.com'
+  competitor_two_name: 'GitHub.com'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_ce_ee_vs_bitbucket_server:
+  title: 'GitLab CE/EE vs. Bitbucket Server'
+  competitor_one_name: 'GitLab CE/EE'
+  competitor_two_name: 'Bitbucket Server'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_com_vs_bitbucket_org:
+  title: 'GitLab.com vs. Bitbucket.org'
+  competitor_one_name: 'GitLab.com'
+  competitor_two_name: 'Bitbucket.org'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_ce_ee_vs_saas:
+  title: 'GitLab CE/EE vs. SaaS'
+  competitor_one_name: 'GitLab CE/EE'
+  competitor_two_name: 'SaaS'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_ce_vs_gitlab_ee:
+  title: 'GitLab CE vs. GitLab EE'
+  competitor_one_name: 'GitLab CE'
+  competitor_two_name: 'GitLab EE'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_vs_svn:
+  title: 'GitLab vs. SVN'
+  competitor_one_name: 'GitLab'
+  competitor_two_name: 'SVN'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: false
+
+gitlab_vs_gitswarm:
+  title: 'GitLab vs. GitSwarm'
+  competitor_one_name: 'GitLab'
+  competitor_two_name: 'GitSwarm'
+  features:
+    - title: 'Feature 1'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
+      competitor: true
+    - title: 'Feature 2'
+      description: 'Lorem ipsum dolor sit amet.'
+      gitlab: true
       competitor: false
