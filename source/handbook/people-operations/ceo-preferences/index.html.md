@@ -95,7 +95,7 @@ The EA should follow up to make sure the draft post is submitted.
 Make sure to include in the description
 * (Video)calls
 
-“Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
 -
 You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
 Phone number CEO:
