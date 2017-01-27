@@ -144,13 +144,13 @@ structure. <!-- to be confirmed!! -->
 
 <style>
 h3 {
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-	font-size: 20px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 20px !important;
 }
 .shadow {
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-    margin-bottom: 20px;
-    margin-top: 20px; }
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+  margin-top: 20px; }
 }
 </style>
