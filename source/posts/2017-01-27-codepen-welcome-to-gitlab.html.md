@@ -7,7 +7,7 @@ image_title:
 description: "Yes, it's worth it - CodePen has moved to GitLab!"
 ---
 
-We were so glad to hear that [CodePen] switched from GitHub to GitLab!
+We were so glad to hear that [CodePen] switched to GitLab!
 
 Read through the ins and outs of their move! 😃
 
@@ -144,7 +144,7 @@ to add how long it's gonna take to complete the implementation of a feature.
 With [GitLab Importer][importer], you can just import your projects from GitHub directly
 from the UI, which means pushing a button.
 
-> 31:45. _It's just a button, essentially. You just have to give access to your GitHub account VAR keys, and once you've done that, then GitLab will actually pull in all of your repos, and say "which ones do you wanna import?" and you just go "import", "import", "import"..._
+> 31:45. _It's just a button, essentially. You just have to give access to your GitHub account via keys, and once you've done that, then GitLab will actually pull in all of your repos, and say "which ones do you wanna import?" and you just go "import", "import", "import"..._
 </div>
 </div>
 
