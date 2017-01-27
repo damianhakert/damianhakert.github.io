@@ -1,32 +1,13 @@
+---
+layout: comparison_page
+trial_bar: true
+title: GitLab compared to other tools
+suppress_header: true
+image_title: '/images/comparison/title_image.png'
+extra_css:
+  - compared.css
+---
+
 %h2 Overview
 
 Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab. If you find something that is invalid, biased, missing, or out of date in the comparisons, please [open a merge request for this website](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests) to correct it. As with all the pages on this website you can find where this page lives in the repository via the link in the footer.
-
-- data.comparisons.each do |comparison_block|
-  .panel.panel-success
-    .panel-heading
-      %h2.panel-title
-        = comparison_block.title
-    %table.table.compare-table
-      %colgroup
-        %col{:width => "52%"}
-        %col{:width => "24%"}
-        %col{:width => "24%"}
-      %thead
-        %tr
-          %th.blank-header
-          %th.ce-col.text-center GitLab
-          %th.ee-col.text-center
-            = comparison_block.competitor_name
-      %tbody.header.first
-        - comparison_block.features.each do |feature|
-          %tr
-            %td
-              = feature.description
-            %td.ce-col.text-center
-              %i.fa.fa-check
-            %td.ee-col.text-center
-              - if (feature.competitor)
-                %i.fa.fa-check
-              - if (!feature.competitor)
-                %i.fa.fa-cross

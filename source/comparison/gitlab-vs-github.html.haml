@@ -1,0 +1,41 @@
+---
+layout: comparison_page
+suppress_header: true
+title: GitLab compared to other tools
+image_title: '/images/comparison/title_image.png'
+extra_css:
+  - compared.css
+---
+
+%h2 GitLab vs. GitHub
+
+- data.comparisons.gitlab_vs_github do |comparison_block|
+  .panel.panel-success
+    .panel-heading
+      %h2.panel-title
+        = comparison_block.title
+    %table.table.compare-table
+      %colgroup
+        %col{:width => "52%"}
+        %col{:width => "24%"}
+        %col{:width => "24%"}
+      %thead
+        %tr
+          %th.blank-header
+          %th.ce-col.text-center GitLab
+          %th.ee-col.text-center
+            = comparison_block.competitor_name
+      %tbody.header.first
+        - comparison_block.features.each do |feature|
+          %tr
+            %td
+              = feature.title
+              %br
+              = feature.description
+            %td.ce-col.text-center
+              %i.fa.fa-check
+            %td.ee-col.text-center
+              - if (feature.competitor)
+                %i.fa.fa-check
+              - if (!feature.competitor)
+                %i.fa.fa-cross

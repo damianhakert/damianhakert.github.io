@@ -1,5 +1,5 @@
-
-- title: 'GitLab vs. GitHub'
+gitlab_vs_github:
+  title: 'GitLab vs. GitHub'
   competitor_name: 'GitHub'
   features:
     - title: 'Feature 1'
@@ -8,7 +8,8 @@
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
       competitor: false
-- title: 'GitLab vs. Bitbucket'
+gitlab_vs_bitbucket:
+  title: 'GitLab vs. Bitbucket'
   competitor_name: 'Bitbucket'
   features:
     - title: 'Feature 1'
