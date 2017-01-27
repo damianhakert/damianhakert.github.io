@@ -824,6 +824,21 @@ what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
 will yield the offender so this process can be killed. It might be wise to alias
 this command in your `.bash_profile` or equivalent for your shell.
 
+### Shell aliases
+
+Use command aliases in your shell to speed up your workflow. Take a look at [these aliases](https://gitlab.com/sytses/dotfiles/blob/master/zsh/aliases.zsh) and others in [Sid's dotfiles project](https://gitlab.com/sytses/dotfiles/tree/master). For example, by adding the following to your `.bash_profile` or equivalent for your shell, you can just type <kbd>s</kbd> to checkout the `master` branch of this website, pull the latest changes, and open the repository in Sublime Text:
+
+```sh
+alias gco='git checkout'
+alias gl='git pull --prune'
+alias gca='git commit -a'
+alias gp='git push origin HEAD'
+alias www='cd ~/Dropbox/Repos/www-gitlab-com/source'
+alias s='www;subl .;gco master;gl'
+```
+
+After editing, you can just type <kbd>gca</kbd> to commit all of your changes, followed by <kbd>gp</kbd> to push them to the remote branch.
+
 ### MobileDay
 
 If you install [MobileDay (Free)](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
