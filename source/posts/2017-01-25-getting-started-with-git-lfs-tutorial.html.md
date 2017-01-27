@@ -1,10 +1,10 @@
 ---
 title: "Getting Started with Git LFS"
 author: Tobias Günther
-author_twitter: gittower
+author_twitter: gntr
 categories: tutorial
 description: "Managing large files efficiently with Git LFS"
-image_title: '/images/blogimages/gitlab-blog-cover.png'
+image_title: '/images/blogimages/getting-started-with-git-lfs-tutorial/lfs-website.png'
 ---
 
 It happens with the best of intentions: your design team adds their large graphic files to your project repository - and you see it grow and grow until it's a multi-gigabyte clump...
@@ -18,7 +18,7 @@ This quickly adds up and makes your repository almost unusable due to its enormo
 But of course, _not_ using version control for your design / concept / movie / audio / executables / &lt;other-large-file-use-case&gt; work _cannot_ be the solution.
 The general benefits of version control still apply and should be reaped in all kinds of projects.
 
-Luckily, there's a Git extension that makes working with large files a lot more efficient: say hello to "Large File Storage" (or simply "LFS" if you prefer nicknames).
+Luckily, there's a Git extension that makes working with large files a lot more efficient: say hello to "[Large File Storage](https://git-lfs.github.com/)" (or simply "LFS" if you prefer nicknames).
 
 ## Without LFS: Bloated Repositories
 
@@ -67,10 +67,11 @@ Your administrator only need to [enable the LFS option](https://docs.gitlab.com/
 #### Local Machine
 
 Your local Git installation also needs to support LFS. 
-If you're using [Tower](https://www.git-tower.com/?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post), our Git desktop client, you don't have to install anything: Tower supports the Git Large File System out of the box.
+If you're using [Tower](https://www.git-tower.com/?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post), a Git desktop client, you don't have to install anything: Tower supports the Git Large File System out of the box.
 
 If you're using Git on the command line, there are different installation options available to you:
 
+- Binary Packages: Up-to-date [binary packages](https://github.com/git-lfs/git-lfs/releases) are available for Windows, Mac, Linux, and FreeBSD.
 - Linux: Packages for Debian and RPM are available from [PackageCloud](https://packagecloud.io/github/git-lfs/install).
 - macOS: You can use [Homebrew](https://github.com/Homebrew/brew) via "brew install git-lfs" or [MacPorts](https://www.macports.org) via "port install git-lfs".
 - Windows: You can use the [Chocolatey](https://chocolatey.org/) package manager via "choco install git-lfs".
@@ -100,7 +101,7 @@ design-resources/design.psd filter=lfs diff=lfs merge=lfs -text
 ```
 
 Perfect! From now on, LFS will handle this file. We can now go ahead and add it to the repository in the way we're used to. 
-Notice that any changes to ".gitattributes" also have to be committed to the repository, just like other modifications:
+Notice that any changes to `.gitattributes` also have to be committed to the repository, just like other modifications:
 
 ```
 git add .gitattributes
@@ -110,21 +111,26 @@ git commit -m "Add design file"
 
 ## Tracking File Patterns
 
-Adding a specific, single file like this is all well and good... but what if you want to track, for example, _every_ ".indd" file in our project? 
-Please relax: you don't have to add each file manually! LFS allows you to define file patterns, much like when ignoring files:
+Adding a specific, single file like this is all well and good... but what if you want to track, for example, _every_ `.indd` file in our project? 
+Please relax: you don't have to add each file manually! LFS allows you to define file patterns, much like when ignoring files.
+The following command, for example, will instruct LFS to track all _InDesign_ files - existing ones and future ones:
 
 ```
 git lfs track "*.indd"
 ```
 
-This command will instruct LFS to track all _InDesign_ files - existing ones and future ones.
+You could also tell LFS to track the contents of a whole directory:
+
+```
+git lfs track "design-assets/*"
+```
 
 ## Getting an Overview of Tracked Files
 
 At some point, you might want to know which files exactly are tracked by LFS at the moment. 
-You could simply take a look at the ".gitattributes" file. However, these are not _actual_ files, but only rules and therefore highly "theoretical": individual files might have slipped through, e.g. due to typos or overly restrictive rules. 
+You could simply take a look at the `.gitattributes` file. However, these are not _actual_ files, but only rules and therefore highly "theoretical": individual files might have slipped through, e.g. due to typos or overly restrictive rules. 
 
-To see a list of the _actual_ files that you're currently tracking, simply use the "lfs ls-files" command:
+To see a list of the _actual_ files that you're currently tracking, simply use the `git lfs ls-files` command:
 		
 ```
 git lfs ls-files
@@ -138,6 +144,7 @@ It's very hard (and dangerous) to change a project's commit history.
 
 This means that you should tell LFS to track a file _before_ it's committed to the repository.
 {: .alert .alert-info}
+
 Otherwise, it has become part of your project's history - including all of its megabytes and gigabytes...
 
 The ideal moment to configure which file patterns you want to track is right when initializing a repository (just like with [ignoring files](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/starting-with-an-unversioned-project?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post#chapter_ignoring+files)).
@@ -159,10 +166,13 @@ Apart from the commands we've discussed, there's nothing to watch out for.
 
 LFS will provide the files you need, _when_ you need them.
 
-In case you're looking for more information about LFS, have a look at our free [online book](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post). 
-For general insights about Git, take a look at the [Git Tips & Tricks](/2016/12/08/git-tips-and-tricks/) blog post and our [video series](https://www.git-tower.com/learn/git/videos?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
+In case you're looking for more information about LFS, have a look at this free [online book](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post). 
+For general insights about Git, take a look at the [Git Tips & Tricks](/2016/12/08/git-tips-and-tricks/) blog post and Tower's [video series](https://www.git-tower.com/learn/git/videos?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
 
 ## About Guest Author
 
 This is a [guest post](/handbook/marketing/blog/#guest-posts) 
-written by [Tobias Günther](https://twitter.com/gittower), who is part of the team behind the [Tower Git client](https://www.git-tower.com/?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
+written by [Tobias Günther](https://twitter.com/gntr), who is part of the team behind the [Tower Git client](https://www.git-tower.com/?utm_source=gitlab-blog&utm_campaign=GitLab%20LFS&utm_medium=guest-post).
+
+Cover image: screenshot of [Git LFS](https://git-lfs.github.com/)
+{:.note}
