@@ -1496,6 +1496,8 @@
   picture: filipa.png
   twitter: FilipaLacerda
   gitlab: filipa
+  maintains: |
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
   story:  |
           Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
 
