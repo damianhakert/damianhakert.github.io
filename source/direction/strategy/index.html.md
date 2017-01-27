@@ -22,11 +22,10 @@ cooperate effectively and achieve better results, faster.
 
 Some key achievements for 2017, elaborated by quarter.
 
-1. Everyone can use idea to production
+1. GitLab is where you collaborate on and deploy Cloud Native applications
   1. (DONE) Q1: Make it work on Google Cloud
   1. Q1: Support app + database deployments
   1. Q2: Support large scale projects
-  1. Q3: Multi-project support
 2. Monitoring and Feedback
   1. (DONE) Q1: Ship prometheus with GitLab
   1. Q1: Integrate with GitLab
@@ -44,8 +43,6 @@ Some key achievements for 2017, elaborated by quarter.
 5. GitLab.com is the best SaaS to host your code and run CI/CD
   1. Q1: Introduce plans and in-UI subscriptions
   1. Q2: Tier-exclusive features
-  1. Q3: LDAP support
-  1. Q2-3: Silver plan
 
 ## Product Strategy
 
