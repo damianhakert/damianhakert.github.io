@@ -22,13 +22,14 @@ You can move your existing projects from GitLab.com to your new GitHost.io insta
 
 - On GitLab.com, go to your [Applications page](https://gitlab.com/profile/applications) to add a New Application.
 - Provide the required details:
-  - Name: This can be anything. Consider something like "<Organization>'s GitLab" or "<Your Name>'s GitLab" or something else descriptive.
+  - Name: This can be anything. Consider something like "MyOrganization's GitLab" or "YourName's GitLab" or something else descriptive.
   - Redirect URI:
     ```
     http://your-instance.githost.io/import/gitlab/callback
     http://your-instance.githost.io/users/auth/gitlab/callback
     ```
     The first link is required for the importer and second for the authorization.
+  - Select the scopes to use (if any)
 - Click 'Submit'
 - You should now see a Client ID and Client Secret near the top of the page (see screenshot). Keep this page open as you continue this process.
   ![Application id and Secret](img/index_created_secrets.png)
@@ -41,7 +42,15 @@ You can move your existing projects from GitLab.com to your new GitHost.io insta
   ![Add GitLab as an OmniAuth provider](img/index_gitlab_omniauth.png)
 - Add the Application ID and Client Secret to this instance:
   ![Add Application ID and Secret key to GitHost](img/index_githost_secrets.png)
+- Select 'Activate'
 - Click 'Save Configuration'
+- If you have any arguments, such as 'scope':
+  - Click on 'Edit' in the GitLab box
+  - Add the 'Arguments':
+  ```
+  { scope: 'api' }
+  ```
+  - Click 'Save Configuration'
 - You'll now be on the 'Details' page again.  On the left, under 'Actions',
   click on 'Reconfigure'.
 
