@@ -40,6 +40,7 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "author: "
+    post.puts "author_gitlab: "
     post.puts "author_twitter: "
     post.puts "categories: "
     post.puts "image_title: "
