@@ -43,24 +43,21 @@ extra_font:
       Tagline about upcoming events goes here
   .row
     .container.filters-container
-      .col-md-4
-        .dropdown#event-types
-          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            .dropdown-title
-            %i.fa.fa-chevron-down
-          %ul.dropdown-menu.dropdown-scroll
-      .col-md-4
-        .dropdown.level#event-topics
-          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            .dropdown-title
-            %i.fa.fa-chevron-down
-          %ul.dropdown-menu.dropdown-scroll
-      .col-md-4
-        .dropdown.level#event-location
-          %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
-            .dropdown-title
-            %i.fa.fa-chevron-down
-          %ul.dropdown-menu.dropdown-scroll
+      .dropdown#event-types
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+      .dropdown.level#event-topics
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+      .dropdown.level#event-location
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
   .row
     %ul.event-list{role: "navigation"}
       - data.events.each do |event|
@@ -93,10 +90,10 @@ extra_font:
             .buttons
               %a.btn.featured-item-button-events{href:event.event_url}
                 Join Us!
+            .social-tags.hidden-xs
+              - event.social_tags.split(',').each do |tag|
+                %span.social-tag= "##{tag}"
             .clear-floats
-          .social-tags.hidden-xs
-            - event.social_tags.split(',').each do |tag|
-              %span.social-tag= "##{tag}"
     .center-horizontal
       %nav
         %ul.pagination

@@ -152,19 +152,19 @@
         var eventLocation = $(this).find('.event-location').first().text().trim().toLowerCase();
         if(filters.topic === 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
           return true;
-        } else if (filters.topic !== 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
+        } else if (filters.topic !== 'any event topic' && filters.type === 'any event type' && filters.location === 'any event location') {
           return eventTopic === filters.topic;
-        } else if (filters.topic === 'event topic' && filters.type !== 'event type' && filters.location === 'event location') {
+        } else if (filters.topic === 'any event topic' && filters.type !== 'any event type' && filters.location === 'any event location') {
           return eventType === filters.type;
-        } else if (filters.topic === 'event topic' && filters.type === 'event type' && filters.location !== 'event location') {
+        } else if (filters.topic === 'any event topic' && filters.type === 'any event type' && filters.location !== 'any event location') {
           return eventLocation === filters.location;
-        } else if (filters.topic !== 'event topic' && filters.type !== 'event type' && filters.location === 'event location'){
+        } else if (filters.topic !== 'any event topic' && filters.type !== 'any event type' && filters.location === 'any event location'){
           return eventTopic === filters.topic && eventType === filters.type;
-        } else if (filters.topic !== 'event topic' && filters.type === 'event type' && filters.location !== 'event location'){
+        } else if (filters.topic !== 'any event topic' && filters.type === 'any event type' && filters.location !== 'any event location'){
           return eventTopic === filters.topic && eventLocation === filters.location;
-        } else if (filters.topic === 'event topic' && filters.type !== 'event type' && filters.location !== 'event location'){
+        } else if (filters.topic === 'any event topic' && filters.type !== 'any event type' && filters.location !== 'any event location'){
           return eventType === filters.type && eventLocation === filters.location;
-        } else if (filters.topic !== 'event topic' && filters.type !== 'event type' && filters.location !== 'event location'){
+        } else if (filters.topic !== 'any event topic' && filters.type !== 'any event type' && filters.location !== 'any event location'){
           return eventTopic === filters.topic && eventType === filters.type && eventLocation === filters.location;
         } else {
           return true;
@@ -217,9 +217,9 @@
 
     EventsHandler.prototype.updateDropdownData = function(currentlyDisplayedData, firstExecution) {
       var dropdownData = {
-        types: ['Event Type'],
-        locations: ['Event Location'],
-        topics: ['Event Topic']
+        types: ['Any Event Type'],
+        locations: ['Any Event Location'],
+        topics: ['Any Event Topic']
       };
       currentlyDisplayedData.map(function(event){
         var eventTopic = $(this).find('.event-topic').first().text().trim();
@@ -263,9 +263,9 @@
       $eventLocationDropdown.append(eventLocationDisplayArray);
       //Set title to the first element of the array
       if(firstExecution) {
-        $('#event-types .dropdown-title').text('Event Type');
-        $('#event-location .dropdown-title').text('Event Location');
-        $('#event-topics .dropdown-title').text('Event Topic');
+        $('#event-types .dropdown-title').text('Any Event Type');
+        $('#event-location .dropdown-title').text('Any Event Location');
+        $('#event-topics .dropdown-title').text('Any Event Topic');
       }
       else {
         $('#event-types .dropdown-title').text(filterValues.type);
