@@ -1,6 +1,6 @@
 ---
 title: "Why We Use Personas in Product Development"
-author: Sarah O’Donnell
+author: "Sarah O’Donnell"
 author_twitter: saraheod
 author_gitlab: sarahod
 categories: technical overview
@@ -43,10 +43,12 @@ The qualitative data from this survey will be analyzed and categorized by coding
 
 Because it has some limitations, we interpret survey data alongside user interviews and web analytics. This helps us compare findings and make the strongest conclusions possible. We're looking forward to learning about how you use GitLab!
 
-
 _Tweet [@GitLab](https://twitter.com/gitlab) and check out our [job openings](https://about.gitlab.com/jobs/)._
 
-Image: "[Curves](https://www.flickr.com/photos/sidneiensis/14109676698/in/photolist-nuPMiU-ryzBme-aBf95E-bhuWaX-dWMhVA-9hrsBU-cwgKsS-dWFxBg-6HobWf-9s5y2P-fuV8He-eAEQoD-fvRBo6-ftDY1D-97v8g5-MxynM-3fawkY-nuJMy8-97s9px-fuVaex-qYfefX-bAojmQ-fyrNcH-aCR5c2-7XA7iP-cyqD8N-49HGS-8oVQhu-pt2tn1-74753h-2zT9w3-7PqwNc-7476K7-dN1rGL-fsXKRX-kUua-746WoE-8fabaP-oJPHDc-a6TGaF-eDSoXL-5bJjta-g6njp8-ftDXdV-8XKrHW-g2H8EV-dMUTPp-9s5xpn-ftd733-brt87D)" by [Jason Tong](https://www.flickr.com/photos/sidneiensis/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
+----
+
+Cover image: [Curves](https://www.flickr.com/photos/sidneiensis/14109676698), by [Jason Tong](https://www.flickr.com/photos/sidneiensis/). Licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
+{:.note}
 
 <!-- Identifiers, in alphabetical order -->
 
