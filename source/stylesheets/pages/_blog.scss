@@ -115,6 +115,36 @@
       a {
         color: $blog-color-purple;
         font-weight: 600;
+
+        &:hover {
+            color: $link-color;
+            text-decoration: none;
+          }
+
+      }
+
+      .author-gitlab {
+        i {
+          color: $color-secondary;
+          text-decoration: none;
+        
+          &:hover {
+            color: $color-secondary-alt;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .author-twitter {
+        i {
+          color: $link-color;
+          text-decoration: none;
+        
+          &:hover {
+            color: $blog-color-note;
+            text-decoration: none;
+          }
+        }
       }
     }
 
@@ -186,7 +216,7 @@
     .browse:hover {
       background-color: $blog-color-purple;
       border: 1px solid $blog-color-purple;
-      color: $color-white;
+      color: $color-white !important;
     }
 
     @media only screen and (max-width : 768px) {

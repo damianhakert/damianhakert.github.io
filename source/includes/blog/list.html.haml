@@ -10,10 +10,18 @@
               %h2
                 = article.title
           .author
-            - if article.data.author_twitter
-              = link_to(article.data.author, "https://twitter.com/#{article.data.author_twitter}")
-            - else
+            %strong
               = article.data.author
+              - if article.data.author_gitlab
+                %span -
+                = link_to "https://gitlab.com/#{article.data.author_gitlab}" do
+                  %spam.author-gitlab
+                    %i.fa.fa-gitlab
+              - if article.data.author_twitter
+                %span -
+                = link_to "https://twitter.com/#{article.data.author_twitter}" do
+                  %spam.author-twitter
+                    %i.fa.fa-twitter
           .date
             = article.date.to_time.strftime '%b %e, %Y'
           .summary
