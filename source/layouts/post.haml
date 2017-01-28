@@ -20,10 +20,14 @@
                 = current_article.data.author
                 - if current_article.data.author_gitlab
                   = link_to "https://gitlab.com/#{current_article.data.author_gitlab}" do
-                    %i.fa.gitlab
+                    %span -
+                    %spam.author-gitlab
+                      %i.fa.fa-gitlab
                 - if current_article.data.author_twitter
                   = link_to "https://twitter.com/#{current_article.data.author_twitter}" do
-                    %i.fa.twitter
+                    %span -
+                    %spam.author-twitter
+                      %i.fa.fa-twitter
               %h1
                 = current_article.title
               - if current_article.data.description

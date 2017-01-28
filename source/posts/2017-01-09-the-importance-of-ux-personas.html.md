@@ -2,6 +2,7 @@
 title: "Why We Use Personas in Product Development"
 author: Sarah O’Donnell
 author_twitter: saraheod
+author_gitlab: sarahod
 categories: technical overview
 image_title: '/images/blogimages/the-importance-of-ux-personas.jpg'
 description: 'Our User Experience (UX) Researcher explains what personas are and how they change the way teams work'

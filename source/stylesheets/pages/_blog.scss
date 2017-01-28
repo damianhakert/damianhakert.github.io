@@ -309,7 +309,33 @@
 
       a {
         color: $blog-color-heading;
-        text-decoration: underline;
+        text-decoration: none;
+      
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-gitlab {
+      i {
+        color: $color-secondary-alt;
+      
+        &:hover{
+          color: $color-secondary;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-twitter {
+      i {
+        color: $link-color;
+      
+        &:hover{
+          color: $blog-color-heading;
+          text-decoration: none;
+        }
       }
     }
 
