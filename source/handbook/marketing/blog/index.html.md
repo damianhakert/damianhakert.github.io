@@ -504,7 +504,8 @@ description: "Short description for the blog post" # included in August, 2016
 ---
 ```
 
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `author_gitlab`, `twitter_image` and `description`!
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image`, `description`, CTA buttons, and `author_gitlab`!
+{: .alert .alert-warning .ambar}
 
 ```yaml
 ---
