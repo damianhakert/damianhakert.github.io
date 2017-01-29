@@ -110,37 +110,32 @@
       a {
         color: $blog-color-purple;
         font-weight: 600;
-
-        &:hover {
-          color: $link-color;
-          text-decoration: none;
-        }
+      &:hover {
+        color: $link-color;
+        text-decoration: none;
       }
+    }
 
       .author-gitlab {
         i {
           color: $color-secondary;
           text-decoration: none;
-        
           &:hover {
             color: $color-secondary-alt;
             text-decoration: none;
           }
         }
-      }
 
       .author-twitter {
         i {
           color: $link-color;
           text-decoration: none;
-        
           &:hover {
             color: $blog-color-note;
             text-decoration: none;
           }
         }
       }
-    }
 
     .cover {
       text-decoration: none;
