@@ -41,13 +41,13 @@ Does your quality management system (QMS) include coverage for software applicat
    - YES
 
 1. Is quality management system (QMS) content published and communicated to all relevant employees?
-   - YES.  
+   - YES.
 
 1. Is quality management system (QMS) content reviewed and updated (if appropriate) at least once per year?
    - It is considered a constant Work In Progress; and updated almost daily in small increments.
 
 1. Is there defined management oversight who is responsible for application quality and security reporting & signoff?
-   - YES. See our [team page](https://about.gitlab.com/team/)  (search for "Merge request endboss"). Also see [code review guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) which mentions the endbosses, and stresses team-wide code review.
+   - YES. See our [team page](https://about.gitlab.com/team/)  (search for "maintainer"). Also see [code review guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) which mentions the endbosses, and stresses team-wide code review.
 
 1. Is access to and maintenance of applications, systems, network components (including routers, databases, firewalls, voice communications servers, voice recording servers, etc), operating systems, virtualization components, hypervisors, or other information objects restricted to authorized personnel only?
    - YES
@@ -114,7 +114,7 @@ Does your quality management system (QMS) include coverage for software applicat
 
 ### Software Development Life Cycle (SDLC)<a name="sdlc"></a>
 
-1. Are there documented processes, procedures, standards and templates used in your SDLC process?  
+1. Are there documented processes, procedures, standards and templates used in your SDLC process?
    - YES. See our [Contributing guidelines](https://about.gitlab.com/contributing/), and related documentation on [code review](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) and [development processes](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development).
 
 1. Do the materials above  include references to application security best-practices and principles being followed?
@@ -156,7 +156,7 @@ Does your quality management system (QMS) include coverage for software applicat
 ### Training<a name="training"></a>
 
 1. Is Internal company training available & performed commensurate with personnel roles and responsibilities?
-   - YES; peer-to-peer training is commonplace. 
+   - YES; peer-to-peer training is commonplace.
 
 1. Does training include security awareness?
    - YES; as applicable for the role.
@@ -190,7 +190,7 @@ Does your quality management system (QMS) include coverage for software applicat
    - YES.
 
 1. Do you provide dedicated security patches for software versions that are released and supported in the field? How?
-   - YES, for the latest release and the three prior monthly releases, when applicable.
+   - YES, for the latest release and the two prior monthly releases, when applicable.
 
 1. Is there proactive notification provided to customers and software partners (PTC)?  How?
    - YES. Notifications in the "version check" image, blog posts, tweets, and a mailing list just for security fixes.

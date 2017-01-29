@@ -79,6 +79,10 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["CI"] %>
 
+### CD
+
+<%= wishlist["deploy"] %>
+
 ### Code Review
 
 [Code review meta issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19049)
@@ -105,10 +109,6 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["moderation"] %>
 
-### Monitoring
-
-<%= wishlist["monitoring"] %>
-
 ### Open Source Projects
 
 [Features for open source projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938)
@@ -122,6 +122,10 @@ We very much welcome contributions that implement any of these things.
 ### Performance
 
 <%= wishlist["Performance"] %>
+
+### Prometheus Monitoring
+
+<%= wishlist["prometheus"] %>
 
 ### Usability
 
@@ -155,20 +159,20 @@ We very much welcome contributions that implement any of these things.
 ## Scope <a name="scope"></a>
 
 [Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
-To achieve this we plan to ship the following stack of tools in our Omnibus package:
+To achieve this we ship the following features in our Omnibus package:
 
-1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) and Mattermost Chat Command ships with GitLab.
-1. **Issue** (Tracker) => GitLab Issues ships with GitLab.
-1. **Plan** (Board) => [GitLab Issue Boards](https://about.gitlab.com/solutions/issueboard/) ships with GitLab.
-1. **Code** (IDE) => Online file editor ships with GitLab, we plan to ship [Online terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864), and are thinking about [syncing files for a local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
-1. **Commit** (Repo) => GitLab Repositories ships with GitLab.
-1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
-1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/) ship with GitLab.
-1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) ships with GitLab, and we are thinking about [Smart Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/24197) and [Auto Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580).
-1. **Production** (Chatops) => Mattermost Command ships with GitLab, and we plan to ship [Slack](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412).
-1. **Feedback** (Cycle Analytics) => Cycle Analytics ships with GitLab, and we plan to ship [Monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841) with [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481).
+1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/)
+1. **Issue** (Tracker) => Issue Tracker
+1. **Plan** (Board) => [Issue Boards](https://about.gitlab.com/solutions/issueboard/)
+1. **Code** (IDE) => [Web editor](https://docs.gitlab.com/ce/user/project/repository/web_editor.html) and [web terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals)
+1. **Commit** (Repo) => GitLab Repositories
+1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/)
+1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/)
+1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) and [auto deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
+1. **Production** (Chatops) => [Mattermost slash commands](https://docs.gitlab.com/ee/project_services/mattermost_slash_commands.html) and [Slack slash commands](https://docs.gitlab.com/ce/project_services/slack_slash_commands.html)
+1. **Feedback** (Monitoring) => [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/) and [Prometheus](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/).
 
-Also see our video [In 13 minutes from Kubernetes to a complete application development tool](https://about.gitlab.com/2016/11/14/idea-to-production/).
+Also see our [demo](https://about.gitlab.com/handbook/sales/demo/) and our [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
 
 ### Outside our scope
 
@@ -215,7 +219,7 @@ continuous delivery of software.
 
 We prefer to offer an integrated set of tools instead of a network of services or offering plugins for the following reasons:
 
-1. We think an integrated set of tools provides a better user experience that a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
+1. We think an integrated set of tools provides a better user experience than a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that that we can combine great open source products.
 1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/comparison/). We'll focus on making all the parts work well together to create a better user experience.
 1. Because GitLab is open source the enhancements can become [part of

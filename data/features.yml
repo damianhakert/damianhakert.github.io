@@ -3,6 +3,9 @@
   - description: Edit files, directories and create merge requests straight from the web interface
     link: https://docs.gitlab.com/ce/workflow/web_editor.html
     in_ce: true
+  - description: Time Tracking
+    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
+    in_ce: true
   - description: Cycle Analytics
     link: https://docs.gitlab.com/ce/user/project/cycle_analytics.html
     in_ce: true
@@ -15,9 +18,6 @@
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: https://docs.gitlab.com/ee/pages/README.html
     in_ee: true
-  - description: Time Tracking
-    link: https://docs.gitlab.com/ee/workflow/time_tracking.html
-    in_eep: true
 
 - title: Extended authentication and authorization integration
   features:
@@ -76,9 +76,14 @@
   - description: Merge conflict resolution
     link: https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
     in_ce: true
-  - description: Issue Board
+  - description: Issue board
     link: https://docs.gitlab.com/ce/user/project/issue_board.html
     in_ce: true
+  - description: Multiple issue boards
+    link: https://docs.gitlab.com/ee/user/project/issue_board.html
+    in_ce: false
+    in_ee: true
+    in_eep: true
   - description: Resolve discussion in merge requests
     link: https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html
     in_ce: true
@@ -109,9 +114,10 @@
   - description: Lock project membership to the members of a group
     link: https://docs.gitlab.com/ee/workflow/groups.html
     in_ee: true
-  - description: Approve Merge Requests
+  - description: Merge requests approvals
     link: https://docs.gitlab.com/ee/workflow/merge_request_approvals.html
     in_ee: true
+    in_eep: true
   - description: Mirror External Repositories
     link: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
     in_ee: true
@@ -221,3 +227,24 @@
   - description: Review Apps
     in_ce: true
     link: https://about.gitlab.com/features/review-apps/
+
+- title: Support SLA
+  features:
+  - description: Community and support forums only
+    only_in_ce: true
+    link: https://about.gitlab.com/support/
+  - description: Next business day support
+    only_in_ee: true
+    link: https://about.gitlab.com/support/
+  - description: 4-hour non-emergency response time                                           
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: 24/7 emergency support with 30-minute response time
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: Live upgrade assistance
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: Access to GitLab's internal chat channel for support
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support

@@ -14,7 +14,7 @@ title: "Issue Triage Specialist"
   customer issues are not addressed in a timely fashion
 * Identify patterns or common issues reported by community
 * Fixes community-reported bugs when possible (approximately 20% of the time)
-* Label `up-for-grabs` issues for potential developer candidates in agreement
+* Label `Accepting Merge Requests` issues for potential developer candidates in agreement
   with the Platform and/or Discussion leads
 * Develop tools to consolidate and reduce duplicate issues
 * Create/manage the moderation and terms of use policies
@@ -22,3 +22,17 @@ title: "Issue Triage Specialist"
 * Documents answers and improves existing documentation
 * Write blog posts relevant to the community
 * Establish and report metrics on a regular basis, including recommendations and insights
+
+## Requirements for Applicants
+
+* Good knowledge of Unix and Unix-based Operating Systems
+* Vast experience with Ruby on Rails applications and Git
+* Affinity for providing Community Support
+* Excellent spoken and written English
+* A willingness to carry out all work out in the open
+* You share our [values](/handbook/#values), and work in accordance with those values
+* A technical interview is part of the hiring process for this position
+
+## Further information
+
+Please see the [Issue Triage Specialist resources pages](/handbook/edge/issue-triage) for further information about the role.

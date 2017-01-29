@@ -38,7 +38,7 @@ We use Zendesk to handle tickets, and we will sometimes schedule calls. That is 
 
 ### Zendesk
 
-For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/knowledge-base/zendesk/).
+For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/workflows/zendesk/).
 
 ### Zoom
 
@@ -199,6 +199,7 @@ add tags to it. Currently, the tags that are to be used are:
 - Importing
 - SSL
 - UX/UI
+- release-quality
 
 Tagging tickets will allow us to better capture what topics need to be documented in more detail,
 and/or which areas of the product development can use some attention to prevent creating more requests for support.
