@@ -44,7 +44,7 @@ title: "Community Advocacy"
 - Search for an active issue that could be the cause of instability (deployment downtime, load spikes, ...)
     - [Sentry](https://sentry.gitlap.com/gitlab/)
     - [Infrastructure Issue Repository](https://gitlab.com/gitlab-com/infrastructure/issues/)
-    - [`infrastructure`](https://gitlab.slack.com/messages/infrastructure) and [`core`](https://gitlab.slack.com/messages/core) Slack channels
+    - [`infrastructure`](https://gitlab.slack.com/messages/infrastructure) and [`core`](https://gitlab.slack.com/messages/core) chat channels
 - Determine if the user is still affected
 - Link to the relevant issue
 - (Optional) Forward to support (See [#Others](#others)) - [support@gitlab.com](mailto:support@gitlab.com) (be very forbearing about this!)
@@ -88,7 +88,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ### Notes / Remarks
 
-- When asking something in Slack that's relevant for a ticket, leave a link to the Slack message as a comment
+- When asking something in chat that's relevant for a ticket, leave a link to the chat message as a comment
 - Always be sure to check if an issue (bug or feature proposal) exists before opening one / asking a user to open it
 
 ## ZenDesk Workflow
@@ -100,7 +100,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 ## Mentions
 
-The [#mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel tracks mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
+The [#mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) chat channel tracks mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
 
 We currently track the following sources for GitLab mentions:
 
@@ -136,7 +136,7 @@ Respond to the GitLab community across the following channels in a timely manner
 
 ### Hacker News
 
-Respond to GitLab mentions on HackerNews. These get piped into the `#mentions-of-gitlab` Slack channel.
+Respond to GitLab mentions on HackerNews. These get piped into the `#mentions-of-gitlab` chat channel.
 
 ### Disqus
 
@@ -162,7 +162,7 @@ When resolving Twitter tickets you should:
 
 1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
-1. Assign the ticket to yourself or ask in the appropriate Slack channel if you don't know how to answer it
+1. Assign the ticket to yourself or ask in the appropriate chat channel if you don't know how to answer it
 1. Not cross assign tickets
 
 #### Handles
