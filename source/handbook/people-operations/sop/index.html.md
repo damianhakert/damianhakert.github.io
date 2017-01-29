@@ -132,6 +132,7 @@ Jobs Tab
    * Location - Which entity the new team member is contracted through.
    * Division - Enter the appropriate division from the dropdown.
    * Department - Leave blank for now. This will become relevant as we scale.
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table. 
 1. Employment Status
    * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
 

@@ -2047,15 +2047,15 @@
           Ever since Harish rediscovered his childhood joy of programming, he has spent most of his time either on the computer writing code or learning new ways to code.  He loves spending the rest of his time with his lovely wife and two kids, or hanging out with friends in Jacksonville, Florida.  He also enjoys exercising and you will usually find him beginning each day with a trip to the gym.
 
 - name: Tim Anglade
-  locality:
-  country:
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/vp-of-marketing/">Interim VP of Marketing</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: timanglade.png
+  twitter: timanglade
+  gitlab: timanglade
   story:  |
-          Joining November 28th
+          Helping Marketing for a little bit. EIR at Scale Venture Partners, Senior Technical Advisor on the TV show Silicon Valley. Formerly: VP Product at Realm, Head of Developer Programs at Apigee, Lecturer in Computer Science & Management at the Université of Paris Est.
 
 - name: Courtney Davis
   locality: Honolulu, HI
@@ -2251,16 +2251,19 @@
   story:  |
           Joining January 9th
 
-- name: M.B.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+- name: Mike Bartlett
+  locality: London
+  country: U.K.
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
   reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: mikebartlett.jpg
+  twitter: mydigitalself
+  gitlab: mydigitalself
   story:  |
-          Joining January 9th
+          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400. 
+          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff, 
+          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter. 
+          He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
 - name: Tim Peix
   locality: Edinburgh, Scotland
