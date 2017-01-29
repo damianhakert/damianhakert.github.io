@@ -14,11 +14,11 @@ release](/2017/01/22/gitlab-8-16-released).
 Please read on for more details.
 
 <!-- more -->
-UPDATE (2019-01-28): We've bumped the 8.16.3 Omnibus package version to fix a problem with
+UPDATE (2017-01-28): We've bumped the 8.16.3 Omnibus package version to fix a problem with
 [bundler complaining about "Your home directory is not set properly"](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1913).
 For CE, you should check that version `8.16.3-ce.1` is installed instead of `8.16.3-ce.0`.
 For EE, you should check that version `8.16.3-ee.1` is installed instead of `8.16.3-ee.0`.
-You can upgrade from the .0 to .1 Omnibus version without any issues.
+You should be able to upgrade from the .0 to .1 Omnibus version without any issues.
 
 - **CE/EE:** Fixed label select toggle not updating correctly. ([!8601])
 - **CE/EE:** Fix autocomplete initial undefined state (loading). ([!8667])
