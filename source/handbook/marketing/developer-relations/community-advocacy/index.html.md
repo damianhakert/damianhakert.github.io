@@ -183,7 +183,7 @@ When resolving Twitter tickets you should:
 
 #### Usage of likes
 
-Use "Likes" on Twitter for positivity RE: GitLab (the product) since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
+Use "Likes" on Twitter for promoting positive feedback about our product since we direct users there when we want to show that people really love the product. Avoid using it for anything else.
 
 ### Mailing list
 
