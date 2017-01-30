@@ -24,7 +24,7 @@ title: "Stock Options"
 |Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
 |Junior Engineer / Business Development Representative|1,500|
 
-We should update your stock option grant if you make a promotion.
+If you make a promotion, we should update your stock option grant by the difference in number of options between your old level and new level. 
 If we didn't please contact people operations.
 
 ## About Your Ownership in GitLab
@@ -116,10 +116,10 @@ Please note that until the [post IPO lockup period](http://www.investopedia.com/
 for whatever reason you have a 90 day window to exercise your options. During this window you have to come up with
 the exercise price and in some cases the tax on the gain in value of your stock options, which could be considerable.
 If the company stock is not liquid this money might be hard to come by. The 90 day window is an industry standard but
-there are [good arguments against it](https://zachholman.com/posts/fuck-your-90-day-exercise-window/). At GitLab the stock options are intended to commit our team members to get us to 
+there are [good arguments against it](https://zachholman.com/posts/fuck-your-90-day-exercise-window/). At GitLab the stock options are intended to commit our team members to get us to
 a successful IPO. We want to motivate and reward our people for reaching that goal. Therefore we will consider exercise
 window extensions only on a case by case basis at our discretion. An example of a situation we'll consider is a valued
-team member quitting because of personal circumstances. In most cases there will be no extension and you will either have 
+team member quitting because of personal circumstances. In most cases there will be no extension and you will either have
 to pay for shares and the taxes yourself or lose the options, even when you are fully vested. And of course [an IPO in 2020
 is our public ambition](https://about.gitlab.com/strategy/) but neither timing or if it happens at all is guaranteed.
 
