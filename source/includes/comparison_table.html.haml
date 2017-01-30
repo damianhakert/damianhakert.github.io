@@ -4,18 +4,19 @@
       = comparison_block.title
   %table.table.compare-table
     %colgroup
-      %col{:width => "52%"}
-      %col{:width => "24%"}
-      %col{:width => "24%"}
+      %col{:width => "80%"}
+      %col{:width => "10%"}
+      %col{:width => "10%"}
     %thead
       %tr
-        %th.blank-header
-        %th.ce-col.text-center
+        %th.text-left
+          Features
+        %th.text-center
           - if (comparison_block.competitor_one.logo != "null")
             %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}" }
           - else 
             = comparison_block.competitor_one.name
-        %th.ee-col.text-center
+        %th.text-center
           - if (comparison_block.competitor_two.logo != "null")
             %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}" }
           - else
@@ -27,14 +28,14 @@
             %strong= feature.title
             %br
             = feature.description
-          %td.ce-col.text-center
+          %td.text-center
             - if (feature.competitor_one == "sortof")
               %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of" }
             - if (feature.competitor_one == true)
               %img{ src: "/images/comparison/yes-icon.svg", alt: "true" }
             - if (feature.competitor_one == false)
               %img{ src: "/images/comparison/no-icon.svg", alt: "false" }
-          %td.ee-col.text-center
+          %td.text-center
             - if (feature.competitor_two == "sortof")
               %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of" }
             - if (feature.competitor_two == true)
