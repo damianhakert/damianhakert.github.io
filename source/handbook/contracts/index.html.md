@@ -49,6 +49,9 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
 - [GitLab Ltd, employee contract with PIAA and Joint NIC agreements](https://docs.google.com/document/d/1H8BhvyrBTPuQ4_QGo08wIio38XISndqlONi9eqjdj2Y/edit#heading=h.bfk8qrda3d2r)
 
+GitLab is working in partnership with [Lyra Infosystems](http://lyrainfo.com/) for employing team members located in India. For further information about the employment agreements please contact People Operations at GitLab or HR at Lyra.
+
+
 ## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
 
 Core team members are an important part of the GitLab community. In order for these individuals to be able to participate in confidential GitLab communications we ask core team members to sign a [Non-Disclosure Agreement](https://docs.google.com/a/gitlab.com/document/d/18nYA_UoTqLY_L-rW5qGJxLJfxDGwK5v_NXZVg1hoQzM/edit?usp=sharing). This document is reviewed and signed by the CFO.
