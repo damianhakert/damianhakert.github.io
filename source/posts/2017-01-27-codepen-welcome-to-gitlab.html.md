@@ -29,10 +29,10 @@ When I heard that they had switched to GitLab, I was thrilled! Yaaay!
 &nbsp;<i class="fa fa-gitlab" aria-hidden="true"></i>
 
 They're very cool folks, and their [team][team] is making such an
-awesome product! They're also [remote only], like us.
+awesome product! They're also [remote only](https://www.remoteonly.org/), like us.
 
 Listen to their podcast, which details why they moved and how it
-went. If you'd rather read, we've included some of highlights below.
+went. If you'd rather read, we've included some of the highlights below.
 
 ## Listen Now
 
