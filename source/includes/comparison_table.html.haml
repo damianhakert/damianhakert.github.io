@@ -1,0 +1,31 @@
+.panel.panel-success
+  .panel-heading
+    %h2.panel-title
+      = comparison_block.title
+  %table.table.compare-table
+    %colgroup
+      %col{:width => "52%"}
+      %col{:width => "24%"}
+      %col{:width => "24%"}
+    %thead
+      %tr
+        %th.blank-header
+        %th.ce-col.text-center
+          %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}" }
+        %th.ee-col.text-center
+          %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}" }
+    %tbody.header.first
+      - comparison_block.features.each do |feature|
+        %tr
+          %td
+            %strong= feature.title
+            %br
+            = feature.description
+          %td.ce-col.text-center
+            - if (feature.competitor_one)
+              %i.fa.fa-check
+          %td.ee-col.text-center
+            - if (feature.competitor_two)
+              %i.fa.fa-check
+            - if (!feature.competitor_two)
+              %i.fa.fa-times
