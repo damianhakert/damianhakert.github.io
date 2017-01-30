@@ -41,15 +41,15 @@ Business Development Handbook
 
 Welcome to GitLab and congratulations on landing a job with the best open source tech company, GitLab. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson.
 
-Our team consists of two functions, Business Development Representative (BDR) and Sales Development Representative (SDR).  BDR focuses on qualifying inbound leads and SDR focuses on generating demand via outbound efforts.  
+As a BDR your focus will be on qualifying inbound leads and SDR focuses on generating demand via outbound efforts.  
 
 On this team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
-Being a BDR/SDR can come with what seems as long days, hard work, frustration, and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
+Being a BDR can come with what seems as long days, hard work, frustration, and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role<a name="Role"></a>
 
-As a BDR and SDR, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
+As a BDR, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
 
 As you gain knowledge, you will be able to aid these key players in solving problems within the developer lifecycle. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
@@ -79,44 +79,6 @@ Each Business Development Rep (BDR) will be placed into the Marketo Queue and wi
   - Inbound lead from Large/Strategic account list should be converted as a contact, with no opportunity, and the contact owner will be the SDR on the account.
     - If no SDR is assigned, assign to Account Executive (AE) on the account
     - If no AE, BDR should ask Regional Director for guidance, using the chatter function in salesforce.com
-
-#### Outbound Process<a name="Outbound"></a>
-
-As a Sales Development Rep (SDR) you will be aligned with Account Executives and be assigned a list of 50-100 targeted accounts to work on a quarterly basis.
-The accounts assigned to you will be determined by the Regional Director that you will be supporting their team on pipeline growth.
-
-Criteria for those accounts:
-
-- [Strategic or Large Accounts](https://about.gitlab.com/handbook/sales/#market-segmentation)
-- [Salesforce.com Report](https://na34.salesforce.com/00O61000003iQaf)
-
-The SDR's will be measured on the following:
-
-- # of contacts added to named account
-- Account Mapping
-  - roles idenitifed for each contact
-  - software development tools beign used
-  - how the organization is set up - who are the other teams that we can expand into
-  - Purchasing process - do they have a procurement team, do/can they use a fulfillment agency
-- % of named accounts contacted
-- Number of contacts with activity (email and/or calls)
-- Number of emails sent
-- Number of calls made
-- Number of connects (calls between SDR and prospect)
-- Number of sales appointments (calls between prospect, AE and SDR to explore if there is an opportunity)
-- Number of opportunities created
-- Pipleine of SDR sourced opportunites 
-- ACV won from opportunities SDR sources
-
-Criteria to have a Sales Appointment
-- Problem(s) they would like to solve
-- Can we solve this problem
-- Why they want to solve them
-- How are they solving them today (tools they are using)
-- Dissatisfaction of tools they are usign today
-- What do they know about GitLab and the platform today?
-- How large is the team they are looking to purchase GitLab for?
-- What would they like to get out of the call with the salesperson?
 
 Help Marketing create campaigns focusing on:
 
