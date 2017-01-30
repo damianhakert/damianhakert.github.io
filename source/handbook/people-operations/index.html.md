@@ -188,11 +188,31 @@ you to provide information about your financial status, usually in the form of a
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
 
-## Involuntary Terminations
+## Terminations
+
+### Voluntary Terminations
+
+A voluntary termination occurs when a team member informs his or her manager of a resignation, or when an employee is absent from work for three consecutive workdays and fails to contact his or her supervisor (job abandonment).
+
+If you are a current team member and you are thinking about resigning from GitLab, we encourage you to speak with your manager, People Ops, or another trusted team member to discuss your reasons for wanting to leave. At GitLab we want to ensure that all issues team members are facing are discussed and resolved to result in a great work environment.
+
+If resignation is the only solution after you have discussed your concerns, then please follow these procedures.
+
+#### Procedures
+
+1. Team members are requested to provide an agreed upon notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads.
+1. The team member should provide a written resignation letter or notification to his or her manager.
+1. Upon receipt of the resignation, the manager will notify People Ops by sending a copy of the resignation letter.
+1. People Ops will send an email with the following information to the team member:
+  * [Process](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for returning all company property. 
+  * A review of the team member's post-termination benefits status, if applicable.
+  * An exit interview. The exit interview provides team members with the opportunity to freely express views about working at GitLab. All comments from the exit interview will be kept confidential. People Ops will compile data from exit interviews to determine if feedback to the head of the employee’s department or other members of management is necessary.
+
+### Involuntary Terminations
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
-### Overall process
+#### Overall process
 
 Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
 
@@ -206,7 +226,7 @@ Ideally, the manager and the team member have walked through the guidelines on [
 1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
 
 
-### Points to cover during the offboarding call, with sample wording
+#### Points to cover during the offboarding call, with sample wording
 {: #offboarding-points}
 
 The following points need to be covered for any team member:
