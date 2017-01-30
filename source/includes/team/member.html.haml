@@ -1,11 +1,17 @@
 .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12
-  .member{class: ("pet" if is_pet)}
-    .card{id: member.twitter}
+  - anchor = member.twitter || member.gitlab
+  .member{class: ("pet" if is_pet), id: anchor}
+    .card
       .front
         - if is_pet
           = image_tag "/images/team/pets/#{member.picture}", alt: member.name, width: 200, height: 200
         - else
-          = image_tag "/images/team/#{member.picture}", alt: member.name, width: 200, height: 200
+          - photo = image_tag "/images/team/#{member.picture}", alt: member.name, width: 200, height: 200
+          - if anchor
+            = link_to photo, "##{anchor}"
+          - else
+            = photo
+
         %h3
           = member.name
         %h4
