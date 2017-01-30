@@ -1,125 +1,161 @@
 gitlab_self_hosted_vs_github:
   title: 'GitLab Self-hosted vs. GitHub.com'
-  competitor_one_name: 'GitLab Self-hosted'
-  competitor_two_name: 'GitHub.com'
+  competitor_one:
+    name: 'GitLab Self-hosted'
+    logo: '/images/comparison/gitlab-logo.svg'
+  competitor_two:
+    name: 'GitHub.com'
+    logo: '/images/comparison/github-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_ee_vs_github_enterprise:
   title: 'GitLab EE vs. GitHub Enterprise'
-  competitor_one_name: 'GitLab EE'
-  competitor_two_name: 'GitHub Enterprise'
+  competitor_one:
+    name: 'GitLab EE'
+    logo: '/images/comparison/ee-gitlab-logo.svg'
+  competitor_two:
+    name: 'GitHub Enterprise'
+    logo: '/images/comparison/github-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_vs_github:
   title: 'GitLab.com vs. GitHub.com'
-  competitor_one_name: 'GitLab.com'
-  competitor_two_name: 'GitHub.com'
+  competitor_one:
+    name: 'GitLab.com'
+    logo: '/images/comparison/gitlab-logo.svg'
+  competitor_two:
+    name: 'GitHub.com'
+    logo: '/images/comparison/github-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_ce_ee_vs_bitbucket_server:
   title: 'GitLab CE/EE vs. Bitbucket Server'
-  competitor_one_name: 'GitLab CE/EE'
-  competitor_two_name: 'Bitbucket Server'
+  competitor_one:
+    name: 'GitLab CE/EE'
+    logo: '/images/comparison/ce-ee-gitlab-logo.svg'
+  competitor_two:
+    name: 'Bitbucket Server'
+    logo: '/images/comparison/bitbucket-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_com_vs_bitbucket_org:
   title: 'GitLab.com vs. Bitbucket.org'
-  competitor_one_name: 'GitLab.com'
-  competitor_two_name: 'Bitbucket.org'
+  competitor_one:
+    name: 'GitLab.com'
+    logo: '/images/comparison/gitlab-logo.svg'
+  competitor_two:
+    name: 'Bitbucket.org'
+    logo: '/images/comparison/bitbucket-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_ce_ee_vs_saas:
   title: 'GitLab CE/EE vs. SaaS'
-  competitor_one_name: 'GitLab CE/EE'
-  competitor_two_name: 'SaaS'
+  competitor_one:
+    name: 'GitLab CE/EE'
+    logo: '/images/comparison/ce-ee-gitlab-logo.svg'
+  competitor_two:
+    name: 'SaaS'
+    logo: null
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_ce_vs_gitlab_ee:
   title: 'GitLab CE vs. GitLab EE'
-  competitor_one_name: 'GitLab CE'
-  competitor_two_name: 'GitLab EE'
+  competitor_one:
+    name: 'GitLab CE'
+    logo: '/images/comparison/ce-gitlab-logo.svg'
+  competitor_two:
+    name: 'GitLab EE'
+    logo: '/images/comparison/ee-gitlab-logo.svg'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_vs_svn:
   title: 'GitLab vs. SVN'
-  competitor_one_name: 'GitLab'
-  competitor_two_name: 'SVN'
+  competitor_one:
+    name: 'GitLab'
+    logo: '/images/comparison/gitlab-logo.svg'
+  competitor_two:
+    name: 'SVN'
+    logo: null
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
 
 gitlab_vs_gitswarm:
   title: 'GitLab vs. GitSwarm'
-  competitor_one_name: 'GitLab'
-  competitor_two_name: 'GitSwarm'
+  competitor_one:
+    name: 'GitLab'
+    logo: '/images/comparison/gitlab-logo.svg'
+  competitor_two:
+    name: 'GitSwarm'
+    logo: null
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: true
+      competitor_one: true
+      competitor_two: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      gitlab: true
-      competitor: false
+      competitor_one: true
+      competitor_two: false
