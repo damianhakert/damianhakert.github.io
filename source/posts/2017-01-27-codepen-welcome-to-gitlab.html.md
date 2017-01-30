@@ -158,7 +158,7 @@ There's one thing they are missing: squash-merge. Good news for y'all: we have s
 
 At 33:44 they also mention burndown charts, and there is [an issue][burndown] for that with a lot of traction. 
 
-> 34:03. _My final feeling about GitLab is like, it's both incredibly impressive work. Like, holy crap, this is really good software! High five team!_ 🙌
+> 34:03. _My final feeling about GitLab is it's incredibly impressive work. Like, holy crap, this is really good software! High five team!_ 🙌
 
 </div>
 </div>
