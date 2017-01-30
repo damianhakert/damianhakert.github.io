@@ -2260,9 +2260,9 @@
   twitter: mydigitalself
   gitlab: mydigitalself
   story:  |
-          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400. 
-          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff, 
-          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter. 
+          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400.
+          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff,
+          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
           He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
 - name: Tim Peix
@@ -2275,6 +2275,17 @@
   gitlab: timpeix
   story:  |
           Tim has worked in the fields of app design, game design and interactive storytelling for numerous agencies, start-ups and companies. From 2014 to 2016 he was Design Teaching Assistant at Weißensee School of Art Berlin where he taught interaction design, digital media and app prototyping. Tim studied Visual Communication at Weißensee School of Art Berlin and Animation at University of the West of England in Bristol. Tim grew up in Germany and has lived in the United Kingdom before as a volunteer in a caring home and as a design student. He likes to spend his free time skiing, doing road trips and playing Cards Against Humanity with his friends.
+
+- name: P.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 1st
 
 - name: S.K.
   locality:
