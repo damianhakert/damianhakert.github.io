@@ -94,28 +94,25 @@ The EA should follow up to make sure the draft post is submitted.
 
 Make sure to include in the description
 * (Video)calls
-
-Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
--
-You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
-Phone number CEO:
-Phone number other participant(s):
+<br>
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer<br>
+You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.<br>
+Phone number CEO:<br>
+Phone number other participant(s):<br>
 (Calls in the hiring process also have: “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”)
-
+<br>
 * Meetings at the office:
-
-Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
--
-Phone number CEO:
-Phone number other participant(s):
--
-Accessing the GitLab office building
-Enter the building through the double doors between the two Mike's Bikes locations.
-On the intercom press the call button then press '206' (for GitLab) to have us buzz you in.
-Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strangely the elevator will show 3 when you stop at 2).
-Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).
-More details are on our visiting page: https://about.gitlab.com/visiting/
-
+<br>
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer<br>
+Phone number CEO: <br>
+Phone number other participant(s):<br>
+Accessing the GitLab office building<br>
+Enter the building through the double doors between the two Mike's Bikes locations.<br>
+On the intercom press the call button then press '206' (for GitLab) to have us buzz you in.<br>
+Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strangely the elevator will show 3 when you stop at 2).<br>
+Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).<br>
+More details are on our visiting page: https://about.gitlab.com/visiting/<br>
+<br>
 
 For all external meetings include [visiting info](https://about.gitlab.com/visiting) (for in-person meetings), our [primer page](https://about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
