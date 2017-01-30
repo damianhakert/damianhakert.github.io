@@ -630,6 +630,22 @@ To claim the approved award, include a line item on your expense report or invoi
 1. The award given will be an experience from the [Tinggly Ultimate Collection](https://www.tinggly.com/collections/ultimate).
 1. Takeaway from the award: Behaviors awarded are likely to be repeated.
 
+#### GitLab Anniversaries 
+
+To celebrate a GitLab hire date anniversary, People Ops will send a shout out on the `general` channel on Slack. Team members will also be sent a Tinggly package to enjoy an experience. 
+
+Gifts are sent based on the number of years the team member has worked at GitLab: 
+ * 1 - 2 years: Essential Collection 
+ * 3 - 4 years: Premium Collection
+ * 5 years: Bucket List experience valued under USD $1,000
+ * 6 - 9 years: Ultimate Collection
+ * 10 years: Bucket List experience valued under USD $2,000
+ * 11 - 14 years: Ultimate Collection
+ * 15 years: Bucket List experience valued under USD $3,000
+ * 16 - 19 years: Bucket List experience valued under USD $1,000
+ * 20 years: Bucket List experience valued under USD $5,000
+
+
 ## <i class="fa fa-gavel fa-fw icon-color font-awesome" aria-hidden="true"></i> Signing Legal Documents
 {: #signing-legal-documents}
 
