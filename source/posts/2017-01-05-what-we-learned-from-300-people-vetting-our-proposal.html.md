@@ -27,5 +27,3 @@ To solve this we are taking a step back and using a boring solution. We asked ou
 Gitaly will serve as the single interface for all our Git access throughout our stack. It will also be used to improve our monitoring of Git resource usage to make better decisions, currently we are [only sampling processes](https://gitlab.com/gitlab-org/gitlab-monitor/blob/v0.0.25/lib/gitlab_monitor/git.rb#L87). 
 
 We would like to thank our community, customers, team and board for all their great support, you all make GitLab an incredible product.
-
-If you have any questions please leave a comment, and if you would like to find out more about how we do monitoring at GitLab as well as stay up-to-date on other news, subscribe to our newsletter to not miss a thing.
