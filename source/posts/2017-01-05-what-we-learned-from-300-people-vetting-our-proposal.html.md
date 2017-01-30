@@ -21,7 +21,7 @@ Git is read heavy, Looking at our Git Read/WrIte performance chart below you can
 
 To solve this we are taking a step back and using a boring solution. We asked ourselves how can we avoid doing these heavy IO operations so we don't have to build a CephOS cluster? 
 
-1. As a quick fix we are spreading all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropping CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack. 
+1. As a quick fix we spread all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropped CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack. 
 2. We created [Gitaly](https://gitlab.com/gitlab-org/gitaly) so that we can stop relying on NFS for horizontal scaling and speed up Git access through caching.
 
 Gitaly will serve as the single interface for all our Git access throughout our stack. It will also be used to improve our monitoring of Git resource usage to make better decisions, currently we are [only sampling processes](https://gitlab.com/gitlab-org/gitlab-monitor/blob/v0.0.25/lib/gitlab_monitor/git.rb#L87). 
