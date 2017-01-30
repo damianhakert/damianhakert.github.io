@@ -77,6 +77,9 @@ extra_font:
                 per user
                 %br
                 per month
+              %h4.featured-item-headline-smaller
+                &nbsp;
+                %br
                 paid annually at $39
             = link_to "View More ", "#enterprise-edition-starter", class: "featured-item-expand"
             %ul#enterprise-edition-starter.featured-item-list.list-unstyled
@@ -101,8 +104,8 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "#compare-options"
             .edition-actions
-              = link_to "Free Trial", "https://about.gitlab.com/free-trial/", class: "featured-item-button"
-              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe58bdf4e00158d696fff06a41", class: "featured-item-link"
+              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fe58bdf4e00158d696fff06a41", class: "featured-item-button"
+              = link_to "Free Trial", "https://about.gitlab.com/free-trial/", class: "featured-item-link"
       .col-md-2
         .featured-item
           .edition-name.edition-enterprise
@@ -117,6 +120,9 @@ extra_font:
                 per user
                 %br
                 per month
+              %h4.featured-item-headline-smaller
+                &nbsp;
+                %br
                 paid annually at $199
             = link_to "View More ", "#enterprise-edition-premium", class: "featured-item-expand"
             %ul#enterprise-edition-premium.featured-item-list.list-unstyled
@@ -141,8 +147,8 @@ extra_font:
               %li.item-description
                 = link_to "Learn more...", "#compare-options"
             .edition-actions
-              = link_to "Contact Us", "https://about.gitlab.com/sales/", class: "featured-item-button"
-              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fd58c4fff70158d6989f6f2a3d", class: "featured-item-link"
+              = link_to "Buy Now", "https://customers.gitlab.com/subscriptions/new?plan_id=2c92a0fd58c4fff70158d6989f6f2a3d", class: "featured-item-button"
+              = link_to "Contact Us", "https://about.gitlab.com/sales/", class: "featured-item-link"
       .col-md-6.pricing-category-ruler.mobile-only
         %span.ruler
         %span.label WE HOST IT
@@ -190,11 +196,17 @@ extra_font:
             %p.edition-description
               Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades.
             .edition-pricing
-              .pricing-term STARTS AT
+              .pricing-term
               %h2.featured-item-headline
-                $35
+                $35.00
               %h3.featured-item-headline-small
-                per month
+                per
+                %br
+                month
+              %h4.featured-item-headline-smaller
+                &nbsp;
+                %br
+                &nbsp;
                 %br
                 EE license not included
             = link_to "View More ", "#gitlab-hosted", class: "featured-item-expand"

@@ -143,7 +143,7 @@
 
   // Tablet & Mobile
   @media (min-width: $screen-md-min) {
-    min-height: 695px;
+    min-height: 715px;
   }
 
   .edition-name {
@@ -240,6 +240,7 @@
     }
   }
 
+
   .edition-pricing {
     position: relative;
     overflow: auto;
@@ -279,13 +280,14 @@
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 38px;
+        padding-left: 8px;
       }
 
       // Large Desktop
       @media (min-width: $screen-lg-min) {
         margin-top: 8%;
-        font-size: 48px;
-        padding-left: 8px;
+        font-size: 40px;
+        padding-left: 6px;
       }
     }
 
@@ -305,15 +307,23 @@
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 40px;
-        font-size: 16px;
+        font-size: 14px;
+        padding-left: 8px;
       }
 
       // Large Desktop
       @media (min-width: $screen-lg-min) {
         font-size: 15px;
         margin-top: 12%;
-        padding-left: 12px;
+        padding-left: 20px;
       }
+    }
+
+    .featured-item-headline-smaller {
+      font-size: 14px;
+      text-decoration: none;
+      color: $color-primary-alt;
+      margin-bottom: -10px;
     }
   }
 
