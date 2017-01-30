@@ -1,0 +1,75 @@
+---
+layout: false
+---
+%html
+  %head
+    %link{ rel: "stylesheet", href: font_url(current_page) }
+    %link{ rel: "stylesheet", href: "../../stylesheets/styles.css" }
+    %link{ rel: "stylesheet", href: "../../stylesheets/compared.css" }
+    %link{ rel: "stylesheet", href: "../../stylesheets/compare-pdf.css" }
+  %body
+    %header{ style: "background-image: url(../../images/comparison/title_image.png)" }
+      .inner-header-content.clearfix
+        .pull-left
+          %h1
+            GitLab vs. GitHub
+          %h2
+            GitLab compared to other tools
+        %img.pull-right{ src: "../../images/wordmark.png", width: 150 }
+    .comparison-container.full-post
+      .top-content
+        :markdown
+          ## GitLab is the next-generation development toolset that covers 100% of your software development lifecycle.
+
+          GitLab unifies chat, issues, code review, CI, CD, and cycle analytics into a single UI.
+          Unlike other source code management tools that only support a portion of your development lifecycle,
+          GitLab delivers a unified experience for every step of the development lifecycle providing the most efficient approach to so ware delivery.
+          So no matter what line of business you’re in, GitLab gives you the edge to compete, innovate, and win.
+      .blog-entry.clearfix
+        .comparison-page-content.clearfix
+          = partial "../gitlab-ce-ee-vs-bitbucket-server"
+    :javascript
+      var split = [];
+      var grid = [];
+      var compareContent = document.querySelector('.comparison-page-content');
+      var els = compareContent.querySelectorAll('h3');
+      var clearfix = document.createElement('div');
+
+      for (var i = 0; i < els.length; i++) {
+        var el = els[i];
+        var nextChild = el.nextSibling;
+        var innerGrid = [el];
+
+        while (nextChild !== null && nextChild.tagName !== 'H3') {
+          if (nextChild !== null) {
+            innerGrid.push(nextChild);
+          }
+
+          nextChild = nextChild.nextSibling;
+        }
+
+        grid.push(innerGrid);
+      }
+
+      compareContent.innerHTML = '';
+      split.push(grid.slice(0, Math.floor(grid.length / 2)));
+      split.push(grid.slice(Math.floor(grid.length / 2)));
+
+      for (var i = 0; i < split.length; i++) {
+        var col = split[i];
+        var colDiv = document.createElement('div');
+        colDiv.className = 'compare-col';
+
+        for (var a = 0; a < col.length; a++) {
+          var grid = col[a];
+          var div = document.createElement('div');
+
+          for (var b = 0; b < grid.length; b++) {
+            div.appendChild(grid[b]);
+          }
+
+          colDiv.appendChild(div);
+        }
+
+        compareContent.appendChild(colDiv);
+      }
