@@ -11,9 +11,15 @@
       %tr
         %th.blank-header
         %th.ce-col.text-center
-          %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}" }
+          - if (comparison_block.competitor_one.logo != "null")
+            %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}" }
+          - else 
+            = comparison_block.competitor_one.name
         %th.ee-col.text-center
-          %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}" }
+          - if (comparison_block.competitor_two.logo != "null")
+            %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}" }
+          - else
+            = comparison_block.competitor_two.name
     %tbody.header.first
       - comparison_block.features.each do |feature|
         %tr
