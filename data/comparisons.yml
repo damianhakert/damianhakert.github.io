@@ -1,5 +1,6 @@
 gitlab_self_hosted_vs_github:
   title: 'GitLab Self-hosted vs. GitHub.com'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab Self-hosted'
     logo: '/images/comparison/gitlab-logo.svg'
@@ -18,6 +19,7 @@ gitlab_self_hosted_vs_github:
 
 gitlab_ee_vs_github_enterprise:
   title: 'GitLab EE vs. GitHub Enterprise'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab EE'
     logo: '/images/comparison/ee-gitlab-logo.svg'
@@ -36,6 +38,7 @@ gitlab_ee_vs_github_enterprise:
 
 gitlab_vs_github:
   title: 'GitLab.com vs. GitHub.com'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab.com'
     logo: '/images/comparison/gitlab-logo.svg'
@@ -54,6 +57,7 @@ gitlab_vs_github:
 
 gitlab_ce_ee_vs_bitbucket_server:
   title: 'GitLab CE/EE vs. Bitbucket Server'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab CE/EE'
     logo: '/images/comparison/ce-ee-gitlab-logo.svg'
@@ -72,6 +76,7 @@ gitlab_ce_ee_vs_bitbucket_server:
 
 gitlab_com_vs_bitbucket_org:
   title: 'GitLab.com vs. Bitbucket.org'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab.com'
     logo: '/images/comparison/gitlab-logo.svg'
@@ -90,6 +95,7 @@ gitlab_com_vs_bitbucket_org:
 
 gitlab_ce_ee_vs_saas:
   title: 'GitLab CE/EE vs. SaaS'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab CE/EE'
     logo: '/images/comparison/ce-ee-gitlab-logo.svg'
@@ -108,6 +114,7 @@ gitlab_ce_ee_vs_saas:
 
 gitlab_ce_vs_gitlab_ee:
   title: 'GitLab CE vs. GitLab EE'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab CE'
     logo: '/images/comparison/ce-gitlab-logo.svg'
@@ -126,6 +133,7 @@ gitlab_ce_vs_gitlab_ee:
 
 gitlab_vs_svn:
   title: 'GitLab vs. SVN'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab'
     logo: '/images/comparison/gitlab-logo.svg'
@@ -144,6 +152,7 @@ gitlab_vs_svn:
 
 gitlab_vs_gitswarm:
   title: 'GitLab vs. GitSwarm'
+  last_updated: 'January 30, 2017'
   competitor_one:
     name: 'GitLab'
     logo: '/images/comparison/gitlab-logo.svg'

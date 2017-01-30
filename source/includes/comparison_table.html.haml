@@ -41,3 +41,7 @@
               %img{ src: "/images/comparison/yes-icon.svg", alt: "true" }
             - if (feature.competitor_two == false)
               %img{ src: "/images/comparison/no-icon.svg", alt: "false" }
+
+%p
+  Last updated:
+  = comparison_block.last_updated
