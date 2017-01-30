@@ -129,6 +129,17 @@ work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
 
+##### Encouraging behavior
+
+Convention also implies that we're encouraging our customers to do things
+in a certain way. A very concrete example of this is the ability to disable
+pipelines.We believe that our integrated solution will give a superior user
+experience and we're motivated to encourage behavior. For this reason, adding a
+configuration to be able to disable this permanently (be that in template or
+instance-wide), is something that should be avoided.
+
+Encourage favorable behaviors by limiting configuration.
+
 #### Be Ambitious
 
 Many crazy, over-ambitious ideas just sound like they are impossible
