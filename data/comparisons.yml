@@ -14,7 +14,7 @@ gitlab_self_hosted_vs_github:
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
       competitor_one: true
-      competitor_two: false
+      competitor_two: "sortof"
 
 gitlab_ee_vs_github_enterprise:
   title: 'GitLab EE vs. GitHub Enterprise'
@@ -95,7 +95,7 @@ gitlab_ce_ee_vs_saas:
     logo: '/images/comparison/ce-ee-gitlab-logo.svg'
   competitor_two:
     name: 'SaaS'
-    logo: null
+    logo: 'null'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
@@ -131,7 +131,7 @@ gitlab_vs_svn:
     logo: '/images/comparison/gitlab-logo.svg'
   competitor_two:
     name: 'SVN'
-    logo: null
+    logo: 'null'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
@@ -149,7 +149,7 @@ gitlab_vs_gitswarm:
     logo: '/images/comparison/gitlab-logo.svg'
   competitor_two:
     name: 'GitSwarm'
-    logo: null
+    logo: 'null'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
