@@ -1,5 +1,10 @@
 # Ordered alphabetically **by job description URL**
 
+- title: "Executive Assistant"
+  description: /jobs/executive-assistant/
+  apply: 
+  open: true
+
 - title: "Account Executive - Sales"
   description: /jobs/account-executive/
   apply: https://gitlab.workable.com/jobs/88120/candidates/new
