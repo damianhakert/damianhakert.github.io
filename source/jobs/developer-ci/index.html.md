@@ -52,3 +52,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Successful candidates will subsequently be made an offer via email
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
+
+
+
+**NOTE** In the compensation calculator below, fill in "Senior" in the `Level` field for this role.

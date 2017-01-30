@@ -61,8 +61,10 @@ helpers do
   def icon(icon, cssclass = "", attrs = {})
     width = attrs[:width] || 76
     height = attrs[:height] || 76
+    viewbox_width = attrs[:viewbox_width] || width
+    viewbox_height = attrs[:viewbox_height] || height
     label = attrs[:label] || ""
-    content_tag :svg, viewbox: "0 0 76 76", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
+    content_tag :svg, viewbox: "0 0 #{viewbox_width} #{viewbox_height}", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
       partial "includes/icons/#{icon}.svg"
     end
   end

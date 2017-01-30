@@ -52,6 +52,10 @@ People Ops is responsible for seeing the change through to completion. Once comp
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
 
+### Auditing Changes 
+
+Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet. 
+
 ### Process for Monthly Payroll Approval (UK, Belgium & India)
 
 Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
@@ -128,6 +132,7 @@ Jobs Tab
    * Location - Which entity the new team member is contracted through.
    * Division - Enter the appropriate division from the dropdown.
    * Department - Leave blank for now. This will become relevant as we scale.
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table. 
 1. Employment Status
    * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
 

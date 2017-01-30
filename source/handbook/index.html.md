@@ -2,6 +2,10 @@
 layout: markdown_page
 title: Team Handbook
 twitter_image: '/images/tweets/handbook-gitlab.png'
+extra_js:
+  - libs/moment.min.js
+  - libs/moment-timezone-with-data.min.js
+  - team-call.js
 ---
 
 ## Welcome to the GitLab Handbook
@@ -184,8 +188,7 @@ When commenting on posts please keep in mind: "Don't argue but represent."
 
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible (issues and email instead of
-chat). Issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d).
+1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk). To use email instead of chat it is OK to send _internal_ email that contain only a short message, similar as you would use it in chat. Save time by not including a salutation like 'Hi Emma,' and first write the subject the email which you copy paste into the body. You are not expected to be available all the time, it is perfectly fine to wait with responding to emails and chat mentions until your planned work hours.
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -284,8 +287,8 @@ step, **re-assign** the issue to that person.
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
-    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
-    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
+    1. All other merge requests should be assigned for review to either a merge request reviewer or maintainer. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a reviewer, they will assign it to a maintainer who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
 1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
@@ -300,8 +303,16 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
-1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
+1. Schedule
+   * PST: <span id="main-PST"></span>
+   * UTC: <span id="main-UTC"></span>
+   * <span id="main-abbr"></span>: <span id="main-USER"></span>
+1. APAC schedule
+   * PST: <span id="apac-PST"></span>
+   * UTC: <span id="apac-UTC"></span>
+   * <span id="apac-abbr"></span>: <span id="apac-USER"></span>
+1. Everyone at GitLab is invited to the team call.
+1. We also have a team call for team members in the APAC region to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "GitLab Team Call", which is accessible to all users with a GitLab.com e-mail account.
@@ -342,6 +353,9 @@ tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&l
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
 
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
+
 ### Random Chat and Room
 {: #random-room}
 
@@ -366,6 +380,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer [Zoom](https://gitlab.zoom.us/) (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. Google Calendar also has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a videocall to the invite
 1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
    1. If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Ops as described [below specifically for Zoom](#zoom).
    1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" source:domain`.
@@ -413,7 +428,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://docs.gitlab.com/ce/development/doc_styleguide.md) for more information when writing documentation.
-1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`.
+1. Do not use acronyms when you can avoid it as you can't assume people know what you are talking about. Example: instead of `MR`, write `merge request`
+2. We segment our customers/prospects into 4 segments [Strategic, Large, Mid-Market and Small Medium Business (SMB)](https://about.gitlab.com/handbook/sales/#market-segmentation).
 
 ### Beamy Guidelines
 
@@ -580,6 +596,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 
 1. If you refer a great candidate and they are hired, then you receive a $1,000 bonus
 once the new team member has been with the company for 3 months.
+1. Until further notice, we will double the incentive bonus for hires from underrepresented groups in the tech industry and at GitLab including women, racial and ethnic minorities, and veterans.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
@@ -686,6 +703,11 @@ Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joini
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
+#### Shush alternative for Linux
+
+If you use Linux (eg; [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) then you can create system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org/main/index.php/Main_Page) system for sounds (most popular Linux distributions use ALSA). All you need to do is go to your desktop environment's _Keyboard Settings_ and create a custom shortcut with command `amixer set Capture toggle` and assign a key combination of your choice (eg; `Pause Break` key). Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application. Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
+
 ### Disabling OS X Notification Center
 
 During a presentation or screen share, you might want to disable your notifications on OS X to prevent distractions or possible embarrassment.
@@ -707,11 +729,9 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
-### Google Cloud
+### Google Cloud Platform
 
-All users with a gitlab.com e-mail account have access to an internal Google
-Cloud project called `gitlab-internal`. To access this, login to the [Google
-Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
+Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
 
 Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
 remove any resources that you are not using, since the company is [billed
@@ -803,6 +823,21 @@ Unicorn terminates because port 3000 is already in use, you will have to check
 what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
 will yield the offender so this process can be killed. It might be wise to alias
 this command in your `.bash_profile` or equivalent for your shell.
+
+### Shell aliases
+
+Use command aliases in your shell to speed up your workflow. Take a look at [these aliases](https://gitlab.com/sytses/dotfiles/blob/master/zsh/aliases.zsh) and others in [Sid's dotfiles project](https://gitlab.com/sytses/dotfiles/tree/master). For example, by adding the following to your `.bash_profile` or equivalent for your shell, you can just type <kbd>s</kbd> to checkout the `master` branch of this website, pull the latest changes, and open the repository in Sublime Text:
+
+```sh
+alias gco='git checkout'
+alias gl='git pull --prune'
+alias gca='git commit -a'
+alias gp='git push origin HEAD'
+alias www='cd ~/Dropbox/Repos/www-gitlab-com/source'
+alias s='www;subl .;gco master;gl'
+```
+
+After editing, you can just type <kbd>gca</kbd> to commit all of your changes, followed by <kbd>gp</kbd> to push them to the remote branch.
 
 ### MobileDay
 

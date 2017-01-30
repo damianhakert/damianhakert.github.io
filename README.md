@@ -10,10 +10,10 @@ bundle install
 bundle exec middleman
 ```
 
-Once the Middleman server is running, you can visit `http://localhost:4567/` in
-your browser to see a live, local preview of the site. Any changes to files in
-the `source` directory will be detected automatically, and your browser will
-even reload the page if necessary.
+Once the Middleman server is running, you can visit
+[http://localhost:4567](http://localhost:4567) in your browser to see a live,
+local preview of the site. Any changes to files in the `source` directory will
+be detected automatically, and your browser will even reload the page if necessary.
 
 PDF files are not available in development mode. See below for more information.
 
@@ -263,6 +263,11 @@ follow the steps below:
 [press category]: https://about.gitlab.com/blog/categories/press
 [blog archives]: https://about.gitlab.com/blog/archives.html
 [md]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide
+
+### Update the features comparison page (under `/features`)
+
+The feature page grabs its content automatically from the file
+`/data/features.yml`. 
 
 ### Update the release list page (under `/release-list`)
 

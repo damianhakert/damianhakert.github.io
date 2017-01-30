@@ -51,18 +51,23 @@ If you have any questions please email events@gitlab.com.
 
 ##### For GitLab Employees<a name="promotion"></a>
 - If there is an event you would like to attend, are attending, speaking, or have proposed a talk and you would like support from GitLab to attend this event the process goes as follows:
-  * Notify your manager of your desire to attend. If you would just like to attend and do not need any type of sponsorship or promotion from marketing you are all set once you get approval from your manager.
- * If you would like support from marketing in any way, after you speak to your manager, create an issue in the marketing project using the Events template. Fill out any relevant information you have. Someone from Field Marketing will be in touch about to discuss your request further within one week. We will try to support you attending the event in any way we can, but please note  Even if we are unable to sponsor the event you can likely still attend with your managers approval.
- * If your event is approved and sponsored, please note that there will be required follow up and tasks to be completed surrounding the event. We will want to know how the event went. Was it valuable?  Should we attend again? Specific questions will be address int he issue created.  We would also like a list of any contacts you made at the event. 
-- Tips on getting your event presence sponsored: 
-  * we are way more likely to sponsor an event if you have solidified a speaking spot. So, if there is something you really want to attend propose a talk.
-  * We want to hear how the company as a whole will benefit from this event. Tell us what potential growth opportunities can be gained from investing in this event. 
-- How we decide who attends which events? 
+ 1. Contact your manager for approval to attend/ speak. 
+ 1. After getting approval from your manager, please *only request* event support if your engagement fits the following criteria:
+		1. The event will further business aims of GitLab (see event goals). Tell us what potential growth opportunities can be gained from investing in this event. 
+	    2. The event has an audience of **250+ people** (the exception being meetups- see below for more info on meetups)
+	    3. The event is a more than a month away. 
+1. If your event fits the criteria above and you would like support from marketing, create an issue in the [marketing project](https://gitlab.com/gitlab-com/marketing/issues) using the Events template. 
+1. Fill out any relevant information you have. Someone from Marketing will be in touch about to discuss your request further within one week. 
+ 1. If your event is approved and sponsored, GitLab will promote your presence at the event and you will be asked follow up on the event. We will need to know how the event went. Was it valuable?  Should we attend again? Specific questions will be address in the issue created.  We would also like a list of any contacts you made at the event. 
+- Please note, even if we are unable to sponsor the event you can likely still attend with your managers approval.
+
+##### How we decide who attends which events? 
  * Determine how many staffers we need and if the event is more enterprise focused or community. Enterprise- we try to send more marketing/ sales. Community- send more developers and dev advocates.  
  * See who is in the area who might be a good fit for the target audience.
- * also, lean towards those who might be thought leaders, specialists, or more social in that specific sector. 
+ * We lean towards those who might be thought leaders, specialists, or more social in that specific sector. 
 - Calls for papers are posted in the CFP Channel on Slack. Follow channel for updates on speaking opportunities. 
-- If you do not have any GitLab swag and are going to an event, notify the Field Marketing Manager as soon as possible so we can try and get you a GitLab shirt to wear. We generally need about a month of lead time to get anything more than stickers to you. 
+- If you do not have any GitLab swag and are going to an event, notify the Field Marketing Manager as soon as possible so we can try and get you a GitLab shirt to wear. We generally need about a month of lead time to get anything, even stickers. 
+
 
 #### Pre-Event<a name="promotion"></a>
 ##### Promoting Events<a name="promotion"></a>

@@ -9,10 +9,10 @@ San Francisco (December 8th, 2016) – GitLab today announced a partnership with
 
 “Lyra’s expertise in the development tool space, coupled with their long history with Open Source solutions made them an ideal choice for this region.  Their professionalism and depth of service will be appreciated by our customers throughout India and SE Asia” - Michael Alessio, Director Sales, Global Alliances & APAC
 
-Lyra Infosystems joins a growing community of GitLab partners, around the world. For a complete list of GitLab resellers, please visit our [resellers page](https://about.gitlab.com/resellers/). For more information about Lyra Infosystems, please visit their [website](http://lyrainfo.com/).
+Lyra Infosystems joins a growing community of GitLab resellers, around the world. For a complete list of GitLab resellers, please visit our [resellers page](https://about.gitlab.com/resellers/). For more information about Lyra Infosystems, please visit their [website](http://lyrainfo.com/).
 
-About GitLab’s Global Partner Program
+About GitLab’s Global Reseller Program
 
-At GitLab we pride ourselves on our global diversity, and GitLab's reseller program aims to expand upon that by helping to provide a local community for GitLab in regions around the world. The advantages to our users to having local representation is huge; with culturally contexted sales, support and services provided by our partners' local teams. The teams at our partners are trained and supported by us, so our users around the globe will be able to get the best service possible.
+At GitLab we pride ourselves on our global diversity, and GitLab's reseller program aims to expand upon that by helping to provide a local community for GitLab in regions around the world. The advantages to our users to having local representation is huge; with culturally contexted sales, support and services provided by our resellers' local teams. The teams at our resellers are trained and supported by us, so our users around the globe will be able to get the best service possible.
 
-For information on joining the partner team at GitLab, please [contact our sales team](Sales@GitLab.com).
+For information on joining the reseller team at GitLab, please [contact our sales team](Sales@GitLab.com).

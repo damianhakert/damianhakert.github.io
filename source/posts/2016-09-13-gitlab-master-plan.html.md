@@ -21,7 +21,7 @@ With the help of our investors, we’re moving full speed ahead to bring you iss
 
 <div class="panel panel-gitlab-purple">
 **GitLab Vision**
-{: .panel-heading}
+{: .panel-heading #vision}
 <div class="panel-body">
 The vision of GitLab is to allow everyone to collaborate on all digital content so people can cooperate effectively and achieve better results, faster. We can do this by providing an integrated set of tools that allows you to go faster from idea to production.
 </div>
