@@ -38,11 +38,8 @@ title: "Executive Assistant"
 * Ability to take self-initiative and be proactive
 * Ability to work in a high pressure environment
 * Ability to recognize and appropriately handle highly sensitive and confidential material and information
-
-## Preferred experience
-* Experience with Google Suite & Drive
 * Easy adoption of technical tools such as a terminal and text editor
-* Experience in working remotely
+* Preferably experience in working remotely
 
 ## A day in the life of…
 
