@@ -48,6 +48,7 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
 - [GitLab Ltd, employee contract with PIAA and Joint NIC agreements](https://docs.google.com/document/d/1H8BhvyrBTPuQ4_QGo08wIio38XISndqlONi9eqjdj2Y/edit#heading=h.bfk8qrda3d2r)
+ - [GitLab BV Belgium, employee contract](https://docs.google.com/document/d/1eLTL6vgVluDUNpOnYtsjfB7wZcGm6TliGZrGByjon0M/edit)
 
 ## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
 
