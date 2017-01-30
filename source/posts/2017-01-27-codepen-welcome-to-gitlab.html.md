@@ -15,24 +15,24 @@ Read through the ins and outs of their move! 😃
 
 ----
 
-Particularly, I'm a big fan of CodePen. Their product is awesome: it's
+I'm a big fan of CodePen. Their product is awesome: it's
 intuitive, beautiful, works like a charm, and it's really easy to use.
-Their community's work is involving - we can pass hours playing around
+Their community's work is evolving – we could spend hours playing around
 with pens like this, [created][pen] by [Jase Smith]:
 
 <p data-height="300" data-theme-id="23203" data-slug-hash="dNVaae" data-default-tab="js,result" data-user="virtuacreative" data-embed-version="2" data-pen-title="Spock! Paper Scissors" class="codepen">See the Pen <a href="http://codepen.io/virtuacreative/pen/dNVaae/">Spock! Paper Scissors</a> by Virtua Creative (<a href="http://codepen.io/virtuacreative">@virtuacreative</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-When I heard that they had switched to GitLab, I had a blast! Yaaay!
+When I heard that they had switched to GitLab, I was thrilled! Yaaay!
 &nbsp;<i class="fa fa-codepen" aria-hidden="true"></i>
 &nbsp;**CodePen, welcome to GitLab!** 
 &nbsp;<i class="fa fa-gitlab" aria-hidden="true"></i>
 
 They're very cool folks, and their [team][team] is making such an
-awesome product! They're also [remote-only], like us.
+awesome product! They're also [remote only], like us.
 
-Listen to their podcast episode, which details why and how this
-move went. If you'd rather read, we have some highlights down below.
+Listen to their podcast, which details why they moved and how it
+went. If you'd rather read, we've included some of highlights below.
 
 ## Listen Now
 
@@ -56,8 +56,8 @@ Source: [Codepen Radio - 114 - GitLab](https://blog.codepen.io/2017/01/24/114-gi
 <div class="panel-body">
 5:18. The first thing they talked about is "control". 
 
-7:45. They can't rely in a third-party service to deploy
-their code. Whenever there's a downtime, there's nothing they can do about it. With a self-hosted GitLab instance,
+7:45. They can't rely on a third-party service to deploy
+their code. Whenever there's downtime, there's nothing they can do about it. With a self-hosted GitLab instance,
 they have the ability to exercise control over their server and everything else.
 </div>
 </div>
@@ -66,10 +66,10 @@ they have the ability to exercise control over their server and everything else.
 ### <i class="fa fa-lock fa-fw" aria-hidden="true"></i> Security
 {: .panel-heading}
 <div class="panel-body">
-10:00. Because it's self-hosted, they feel much more protected from hacker attacks, and system breaches.
-They have their own private network space, in which they run GitLab. 
+10:00. Because it's self-hosted, they feel much more protected from hacker attacks and system breaches.
+They have their own private network space in which they run GitLab. 
 
-> 12.35. _We have control, he have code in our own network, we have higher security._
+> 12.35. _We have control, we have code in our own network, we have higher security._
 </div>
 </div>
 
@@ -77,11 +77,11 @@ They have their own private network space, in which they run GitLab.
 ### <i class="fa fa-code fa-fw" aria-hidden="true"></i> Open source &amp; Cost
 {: .panel-heading}
 <div class="panel-body">
-> 13:00. _The open source version of GitLab [[CE]] is 100% free. You can install it in your own server._
+> 13:00. _The open source version of GitLab [[CE]] is 100% free. You can install it on your own server._
 
 They decided to go for [GitLab EE Starter][ee] for having certain great features available only on EE, such as [Multiple Issue Boards][boards], and [fast-forward merge][ff].
 
-> 14:26. _It's not terribly expensive [GitLab EE], and we're also supporting open source development._
+> 14:26. _[GitLab EE] is not terribly expensive, and we're also supporting open source development._
 </div>
 </div>
 
@@ -89,18 +89,18 @@ They decided to go for [GitLab EE Starter][ee] for having certain great features
 ### <i class="fa fa-refresh fa-fw" aria-hidden="true"></i> Continuous Integration and Continuous Deployment
 {: .panel-heading}
 <div class="panel-body">
-15:40. They finally don't need to rely on third-party services to apply Continuous Integration to test and
-deploy their code. [GitLab CI][ci] does this job, and it's built-in GitLab.
+15:40. Finally, they don't need to rely on third-party services to apply Continuous Integration to test and
+deploy their code. [GitLab CI][ci] does this job, and it's built-in in GitLab.
 
 > 16:34. _Because this [CI] runs internally, and because we have access to our own VPC and resources inside of it, like Docker stuff, and AWS EFS stuff, we can actually take a step further and not just test our stuff, but grab it and deploy it._
 
-> 16:58. _In our case, they [GitLab] give you tools to make [Continuous Integration, Continuous Testing, and Continuous Deployment][ci-cd] really really simple. And that, to me, is the biggest sell of them all. That's simply not available on GitHub._
+> 16:58. _In our case, [GitLab] give you tools to make [Continuous Integration, Continuous Testing and Continuous Deployment][ci-cd] really, really simple. And that, to me, is the biggest sell of them all. That's simply not available on GitHub._
 
 They also enjoy not having to deploy from the command line, as it was impossible to track.
 
 17:15. They love our [Pipelines][pipes], where the entire team can see what's going on and who's doing what. The steps are visible. 
 
-> 17:27. _It's very clear, in GitLab, weather a build on staging has actually been pushed to production. So, if I'm going to deploy something to production, I can very easily see who has moved that into master, since the last production deploy._
+> 17:27. _It's very clear, in GitLab, whether a build on staging has actually been pushed to production. So, if I'm going to deploy something to production, I can very easily see who has moved that into master since the last production deploy._
 
 They also love the [rollback] button: no pain, all gain. Now it's easy to roll back changes.
 
@@ -112,9 +112,9 @@ They also love the [rollback] button: no pain, all gain. Now it's easy to roll b
 ### <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i> Their impression
 {: .panel-heading}
 <div class="panel-body">
-23:20. Overall, GitLab brought them speed, security, and agility.
+23:20. Overall, GitLab brought them speed, security and agility.
 
-> 23:37. _Whatever we wanna do, we can do, and we're not bound by someone else's Continuous Deployment setup._
+> 23:37. _Whatever we want to do, we can do, and we're not bound by someone else's Continuous Deployment setup._
 </div>
 </div>
 
@@ -126,12 +126,12 @@ They also love the [rollback] button: no pain, all gain. Now it's easy to roll b
 
 26:40. They appreciate having the [Issue Boards], [Todos], and [Time Tracking][tt] in one single platform, tied together with their code.
 
-> 28:07. _Let's start looking at all of the things that are required to go into a feature and all, and assign them priorities, and people, and milestones, and time estimates, and stuff, and it feels like a really grown up management of a thing, and it's pretty interesting!_
+> 28:07. _Let's start looking at all of the things that are required to go into a feature and all, and assign them priorities, and people, and milestones, and time estimates, and stuff, and it feels like a really grown-up management of a thing, and it's pretty interesting!_
 
-29:10. They mentioned how cool is it, from an issue comment, to perform a [slash command][slash]
-to add how long it's gonna take to complete the implementation of a feature.
+29:10. They mentioned how cool it is to perform a [slash command][slash]
+to add how long it's going to take to complete the implementation of a feature, right from an issue comment.
 
-> 29:50. _We are, as a group, sick of not having an understanding of how long it's gonna take to complete a feature or whatever. If we do this [[Time Tracking][tt]], we'll know, or we'll be a lot closer to! And further, we're gonna be more accurate on what those time estimates are gonna be, and we can plan around that, and not feel so wishy-whashy about these big important things that we're doing. So we get that! That comes in the GitLab package as well, so it's kinda like we replaced GitHub, and Codeship, and Trello with one open source tool! This feels kinda cool!_
+> 29:50. _We are, as a group, sick of not having an understanding of how long it's going to take to complete a feature or whatever. If we use [[Time Tracking][tt]], we'll know, or we'll be a lot closer to it! And further, we're going to be more accurate on what those time estimates are going to be, and we can plan around that, and not feel so wishy-washy about these big important things that we're doing. So we get that! That comes in the GitLab package as well, so it's kind of like we replaced GitHub, Codeship and Trello with one open source tool! This feels kind of cool!_
 </div>
 </div>
 
@@ -139,14 +139,14 @@ to add how long it's gonna take to complete the implementation of a feature.
 ### <i class="fa fa-heartbeat fa-fw" aria-hidden="true"></i> The transition
 {: .panel-heading}
 <div class="panel-body">
-30.45. They feel they made a mistake by not using the importer tool to import their projects, they simply pushed to GitLab like a separate remote. By doing so, they left some issues and wikis behind. They had to manually transfer them.
+30.45. They feel they made a mistake by not using the importer tool to import their projects: they simply pushed to GitLab like a separate remote. By doing so, they left some issues and wikis behind and had to transfer them manually.
 
 > 31:24. _This is biggest warning I have for everyone: read the [documentation][docs]!_
 
 With [GitLab Importer][importer], you can just import your projects from GitHub directly
 from the UI, which means pushing a button.
 
-> 31:45. _It's just a button, essentially. You just have to give access to your GitHub account via keys, and once you've done that, then GitLab will actually pull in all of your repos, and say "which ones do you wanna import?" and you just go "import", "import", "import"..._
+> 31:45. _It's just a button, essentially. You just have to give access to your GitHub account via keys, and once you've done that, GitLab will actually pull in all of your repos, and say "Which ones do you want to import?" and you just go "import", "import", "import"..._
 </div>
 </div>
 
@@ -154,9 +154,9 @@ from the UI, which means pushing a button.
 ### <i class="fa fa-check-square-o fa-fw" aria-hidden="true"></i> Bottom Line
 {: .panel-heading}
 <div class="panel-body">
-There's one thing they are missing: squash-merge. Good news for ya'll: we have something like that [coming][squash] soon!
+There's one thing they are missing: squash-merge. Good news for y'all: we have something like that [coming][squash] soon!
 
-At 33:44 they also mention burndown charts, and there is [an issue][burndown] with a lot of traction. 
+At 33:44 they also mention burndown charts, and there is [an issue][burndown] for that with a lot of traction. 
 
 > 34:03. _My final feeling about GitLab is like, it's both incredibly impressive work. Like, holy crap, this is really good software! High five team!_ 🙌
 
