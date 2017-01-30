@@ -1,13 +1,22 @@
 @import "variables";
 
-.graphic-menu {
-  margin-bottom: 70px;
+.update {
+  .center {
+    text-align: center;
+  }
+
+  .margin-top {
+    margin-top: 48px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 48px;
+  }
 }
 
 .heavy {
   font-size: 30px;
   color: $color-secondary-alt;
-  margin-top: 45px;
 }
 
 .heavy-middle {
@@ -15,22 +24,11 @@
   color: $color-secondary-alt;
   border-left: 2px solid $color-white-alt;
   border-right: 2px solid $color-white-alt;
-  padding: 30px;
-  margin-top: 18px;
-
-  h5:nth-child(3) {
-    margin-top: 37px;
-  }
 }
 
 .title {
   font-size: 24px;
   color: $color-white-alt;
-}
-
-.view-docs {
-  color: $color-white;
-  text-decoration: underline;
 }
 
 .question {
@@ -41,9 +39,21 @@
 .answer {
   font-size: 18px;
   color: $color-white;
-  text-decoration: underline;
-  padding-top: 4px;
-  padding-bottom: 29px;
+  margin: 0;
+  padding-bottom: 32px;
+
+  code {
+    font-size: 13px;
+  }
+
+  a {
+    color: $color-white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .row div:nth-child(2) h5:nth-child(5) {
