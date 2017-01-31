@@ -4,6 +4,7 @@ author: Dave Wentzel
 author_twitter:
 categories: tutorial
 image_title: '/images/blogimages/gitlab-azure/gitlab-on-azure-cover.jpg'
+guest: true
 ---
 
 GitLab is a scalable, self-hosted Git repository "ecosystem". It is available as
