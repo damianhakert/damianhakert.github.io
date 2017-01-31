@@ -137,4 +137,4 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 ## Relevant Links
 
 - [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
-- [Support handbook](/handbook/support), with specific link to how to work in [Zendesk (for Twitter)](/handbook/support/sop/zendesk/).
+- [Support handbook](/handbook/support), with specific link to how to work in [Zendesk (for Twitter)](/handbook/support/workflows/zendesk/).

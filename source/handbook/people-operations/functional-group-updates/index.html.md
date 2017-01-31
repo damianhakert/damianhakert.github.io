@@ -29,14 +29,14 @@ Week 1:
 
 - Monday Discussion Sean
 - Tuesday Product Job
-- Wednesday   General Sid
+- Wednesday   PeopleOps Joan
 - Thursday    Sales   Chad
 
 Week 2:
 
 - Monday  Backend Douwe
 - Tuesday Infrastructure  Pablo
-- Wednesday   Peopleops   Joan
+- Wednesday   General Sid
 - Thursday    Finance Paul
 
 Week 3:
@@ -51,7 +51,7 @@ Week 4:
 - Monday  Frontend    Jacob Schatz
 - Tuesday Alliances Michael
 - Wednesday Prometheus Ben
-- Thusday Engineering Stan
+- Thursday Engineering Stan
 
 Week 5:
 

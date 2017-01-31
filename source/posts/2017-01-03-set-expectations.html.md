@@ -83,7 +83,7 @@ For remote teams, such as our own, I’d add another expectation:
 This means sometimes you’ll have to ask someone else if Jane is absent or
 send her another message on chat if she doesn’t reply within a reasonable
 time.
-From personal experience, being a little more pushy and impatient that you’d be
+From personal experience, being a little more pushy and impatient than you’d be
 in everyday life is enormously beneficial to this end.
 
 Over-communicating is a small cost to pay for the freedom of working remotely.

@@ -41,18 +41,44 @@ sure to mention someone in the other group(s) as you soon as you start working o
 This allows others to give you early feedback, which should save you time in the
 long run.
 2. Security: If a frontend developer needs to touch controller code, a
-backend developer/miniboss/endboss should do a thorough review.
+backend developer / reviewer / maintainer should do a thorough review.
 3. Big features/moonshots: If we do something ambitious where there are
 no previous examples and requires a high degree of complexity in both
 frontend and backend, form a team upfront that has UX designers, frontend, and
 backend engineers.
-4. Final review: A final review of a merge request should be made by an endboss.
-If it is mainly frontend code it should be reviewed by a frontend endboss, and if it is mainly backend code it should be
-reviewed by a backend endboss.
+4. Final review: A final review of a merge request should be made by a maintainer.
+If it is mainly frontend code it should be reviewed by a frontend maintainer, and if it is mainly backend code it should be
+reviewed by a backend maintainer.
 
 ## Developers on Support Team Rotation
 
 See [the fix4all description](/handbook/engineering/fix4all/).
+
+## Release Managers
+
+The [release-tools repository](https://gitlab.com/gitlab-org/release-tools/tree/master)
+contains useful information about the responsibilities and tasks performed
+by a release manager.
+
+Because of the volume of work required to get a release out the door, there
+will be two primary release managers:
+
+1. One in the America time zones
+2. One in Europe/Middle East/Africa (EMEA) or Asia Pacific (APAC)
+
+Trained release managers, one in Americas and one on EMEA/APAC, will
+ultimately be in charge of making sure the RCs get created and deployed.
+
+* These release managers need to be very vocal if they need help or something
+is blocking the release candidate (RC)
+
+* Trainee release managers will do most of the hands-on work
+(e.g. cherry-picking, creating RCs, deploying, etc.).
+
+* Trainers should allow trainees to do the work, but like a pilot of an
+airplane they can take over when time becomes critical.
+
+Here is the [upcoming and current list of release managers](/release-managers/).
 
 ## Resources for Engineering
 

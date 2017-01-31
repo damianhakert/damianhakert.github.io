@@ -18,6 +18,7 @@ set the on-call schedules, and to route notifications to the correct on-call her
 ## Expectations for On-Call
 
 - If you are on call, then you are expected to be available and ready to respond to PagerDuty pings as soon as possible, but certainly within any response times set by our [Service Level Agreements](https://about.gitlab.com/handbook/support/#sla) in the case of Customer Emergencies. This may require bringing a laptop and reliable internet connection with you if you have plans outside of your work space while being on call, as an example.
+- We only have 1 person at any time doing on call, we avoid having fallbacks because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
 - As noted in the [main handbook](https://about.gitlab.com/handbook/#paid-time-off), after being on call take time off. Being available for issues and outages will wear you off even if you had no pages, and resting is critical for proper functioning. Just let your team know.
 
 ### Swapping On-Call Duty
@@ -40,11 +41,9 @@ you can also do a direct swap with a team member, and there is no need to mark t
 ## Customer Emergency On-Call Rotation
 
 - We do 7 days of 8 hour shifts in a follow-the-sun style, based on your location.
-- There is one [fallback schedule](https://gitlab.pagerduty.com/schedules#P0OX3V3); the person in fallback on-call is pinged 10 minutes after the initial ping. (Also see [first response schedule](https://gitlab.pagerduty.com/schedules#PIQ317K)).
-- After a further 10 minutes, if the alert has not been acknowledged, management is alerted.
-- You can view this [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty.
+- After 10 minutes, if the alert has not been acknowledged, _everyone_ on the customer on-call rotation is alerted. After a further 5 minutes, management is alerted. 
+- You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty.
 - After each shift, _if_ there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
-- If you are on the fallback schedule, you are expected to respond if PagerDuty pings you, if possible, since it means that all of our response layers before yours were unable to get to PagerDuty quickly enough to acknowledge the emergency. However, if you are on a fallback schedule, then you do not need to adapt your plans as would be expected if you are on the main schedule.
 
 
 ## Production Team On-Call Rotation
@@ -52,7 +51,6 @@ you can also do a direct swap with a team member, and there is no need to mark t
 - We do 7 days of 12 hours shifts in a follow-the-sun style, based on your location.
 - After each shift the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 - If nothing happened, consider sending an email to just let the next on-call be aware that nothing has happened.
-- We only have 1 person at any time doing on call, we avoid having fall backs because that leads to ignore pages because "the next fallback will pick it up", we take on call seriously.
 - We track metrics on uptime first, then on time to fix (TTF). We do so to understand where the pain is, and how much time are we investing in fixing a problem and use those metrics to drive automation priorities.
 - Escalation will page everyone on the on call rotation in 15 minutes, and if that fails it will page up in the management chain.
 - When being on call prioritize work that will make the on call better (that includes building projects, systems, adding metrics, removing noisy alerts). We strive to have nothing to do when on call and to have meaningful alerts and pages. The only way that this will happen is by investing time in automating ourselves out a job.

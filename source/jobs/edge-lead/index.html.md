@@ -29,3 +29,7 @@ The Edge Lead reports to the VP of Engineering.
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

@@ -24,3 +24,6 @@ title: "Backend Lead"
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

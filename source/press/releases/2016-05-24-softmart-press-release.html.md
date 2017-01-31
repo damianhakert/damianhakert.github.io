@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "GitLab adds SoftMart, Ltd. to Global Partnership Program"
+title: "GitLab adds SoftMart, Ltd. to Global Reseller Program"
 ---
  
  San Francisco (May 24th, 2016) – Today, GitLab announced a partnership with SoftMart, Ltd., a leading authority on application lifecycle management, 
@@ -16,4 +16,4 @@ Process and change visibility have become affordable to almost everyone looking 
 spread across the world, so we can appreciate the advantages that having local representation provides, such as, culturally contexted sales and 
 support/services in local languages,” says Michael Alessio, GitLab’s Director of Global Alliances.  
 
-SoftMart, Ltd. joins a growing community of GitLab partners, around the world. For a complete list of GitLab resellers, please visit [our resellers page](https://about.gitlab.com/resellers/). 
+SoftMart, Ltd. joins a growing community of GitLab resellerss, around the world. For a complete list of GitLab resellers, please visit [our resellers page](https://about.gitlab.com/resellers/). 

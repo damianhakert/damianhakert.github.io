@@ -82,26 +82,46 @@ The EA should follow up to make sure the draft post is submitted.
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
 * Schedule calls in European timezones in the am Pacific (Daylight) Time and US time zones in the pm Pacific (Daylight) Time.
-    * MTG |  for meetings in person, either at the "office" or another location
-    * INTERVIEW |  for interviews (looping in our PR partner)
-    Make sure to block 10 min before for preparations and 10 min after for notes for Sid and send out https://about.gitlab.com/primer/ for background information for the interviewer.
-    * CALL | for phone calls
-    * VIDEOCALL | for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom. Make sure to take out the Google Hangout link when you switch to Zoom.
-    add message:
-    “Please use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
-	    * Calls in the hiring process also have:
-	    “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”
 
-* Make sure to add any relevant details in the invite.
-* Examples for scheduling:
-“CALL | Kirsten Abma for Executive Assistant”
-“INTERVIEW | Kirsten Abma (TechCrunch)”
-“MTG | Bruce Armstrong (Khosla) & Sid Sijbrandij (GitLab) @ [office/location]”
-Or for example “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
+### Formats for invites
+* MTG for meetings in person, either at the "office" or another location.
+    Example: MTG | Bruce Armstrong (Khosla) & Sid Sijbrandij (GitLab) @ [office/location]” or “Dinner/Lunch @ Bar Agricole - Kirsten Abma & Sid Sijbrandij”
+* INTERVIEW for interviews (looping in our PR partner)
+    Example: “INTERVIEW | Kirsten Abma (TechCrunch)” Make sure to block 10 min before for preparations and 10 min after for notes for Sid
+* CALL for phone calls
+* VIDEOCALL for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom. Make sure to take out the Google Hangout link when you switch to Zoom.
+    Example: “(VIDEO)CALL | Kirsten Abma for Executive Assistant”
 
-For all external meetings include [visiting info](about.gitlab.com/visiting) (for in-person meetings), our [primer page](about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
+Make sure to include in the description
+* (Video)calls
+
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
+-
+You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
+Phone number CEO:
+Phone number other participant(s):
+(Calls in the hiring process also have: “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”)
+
+* Meetings at the office:
+
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
+-
+Phone number CEO:
+Phone number other participant(s):
+-
+Accessing the GitLab office building
+Enter the building through the double doors between the two Mike's Bikes locations.
+On the intercom press the call button then press '206' (for GitLab) to have us buzz you in.
+Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strangely the elevator will show 3 when you stop at 2).
+Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).
+More details are on our visiting page: https://about.gitlab.com/visiting/
+
+
+For all external meetings include [visiting info](https://about.gitlab.com/visiting) (for in-person meetings), our [primer page](https://about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
 For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
+* Sales meetings are important, in case the CEO can help the process, feel free to include him in the meeting
+* Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call or  a meeting at the GitLab office. If the other party presses to meet at their location, confirm if that is OK before accepting.
 
 ## Hiring process
 {: #hiring-process}

@@ -4,12 +4,14 @@ title: "GitLab 101"
 ---
 ### GitLab 101
 
-During the monthly GitLab 101 call with new hires we talk about the following topis:
-- Overview of the GitLab [history](https://about.gitlab.com/about/)
-- Our [values](https://about.gitlab.com/handbook/#values) 
-- Team structure [overview](https://about.gitlab.com/team/structure/org-chart/)
-- [How we work](https://about.gitlab.com/handbook/#general-guidelines)
-- Q&A, which results in the FAQ below
+During the monthly GitLab 101 call with new hires and the CEO where we talk about the following topics. This is a zoom call (please make sure there is no Google Hangout link in the invite). The agenda is below, urls are expanded so you can click on them when we paste this in the calendar invite:
+
+1. Overview of the GitLab history [https://about.gitlab.com/about/#a-brief-history-of-gitlab](https://about.gitlab.com/about/#a-brief-history-of-gitlab)
+1. Our values [https://about.gitlab.com/handbook/#values](https://about.gitlab.com/handbook/#values)
+1. Everyone introduces themselves using the order in the calendar invite. What do you do at GitLab? Why did you join GitLab? What do you enjoy in your private life (quirky details are encouraged, also feel free to introduce your significant other and/or pets)? Did you already have 10 virtual coffee breaks? If you already had 10 are you open to more?
+1. Team structure [https://about.gitlab.com/team/structure/](https://about.gitlab.com/team/structure/)
+1. How we work [https://about.gitlab.com/handbook/#general-guidelines](https://about.gitlab.com/handbook/#general-guidelines)
+1. Q&A, which results in the FAQ on [https://about.gitlab.com/culture/gitlab-101/](https://about.gitlab.com/culture/gitlab-101/), this is done by a people-ops person that also joins the call.
 
 ### Frequently Asked Questions about the GitLab Culture
 

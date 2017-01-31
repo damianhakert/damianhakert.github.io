@@ -3,6 +3,9 @@ layout: markdown_page
 title: "GitLab Direction"
 ---
 
+- TOC
+{:toc}
+
 This page describes the direction and roadmap for GitLab. It's organized from
 the short to the long term.
 
@@ -58,16 +61,6 @@ only reflects current [milestones](https://gitlab.com/groups/gitlab-org/mileston
 
 [every single month on the 22nd]: /2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab
 
-## Future Premium Features
-
-Below is the list of premium features we are working on. These features will be available
-for GitLab Enterprise Edition Premium. The higher the item on the list, the sooner we expect
-to ship it.
-
-* [GitLab Geo Disaster Recovery](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
-* [Time Tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/1293)
-* [License Finder](https://gitlab.com/gitlab-org/gitlab-ee/issues/1125)
-
 ## Wishlist <a name="wishlist"></a>
 
 Below are features we'd really like to see in GitLab.
@@ -78,6 +71,10 @@ We very much welcome contributions that implement any of these things.
 ### CI
 
 <%= wishlist["CI"] %>
+
+### CD
+
+<%= wishlist["deploy"] %>
 
 ### Code Review
 
@@ -105,10 +102,6 @@ We very much welcome contributions that implement any of these things.
 
 <%= wishlist["moderation"] %>
 
-### Monitoring
-
-<%= wishlist["monitoring"] %>
-
 ### Open Source Projects
 
 [Features for open source projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938)
@@ -122,6 +115,10 @@ We very much welcome contributions that implement any of these things.
 ### Performance
 
 <%= wishlist["Performance"] %>
+
+### Prometheus Monitoring
+
+<%= wishlist["prometheus"] %>
 
 ### Usability
 
@@ -148,27 +145,27 @@ We very much welcome contributions that implement any of these things.
 - [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
 <%= wishlist["moonshots"] %>
 
-### New Premium Features
+### Premium Features
 
-<%= wishlist["ee product"] %>
+<%= wishlist["EE Premium"] %>
 
 ## Scope <a name="scope"></a>
 
 [Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
-To achieve this we plan to ship the following stack of tools in our Omnibus package:
+To achieve this we ship the following features in our Omnibus package:
 
-1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) and Mattermost Chat Command ships with GitLab.
-1. **Issue** (Tracker) => GitLab Issues ships with GitLab.
-1. **Plan** (Board) => [GitLab Issue Boards](https://about.gitlab.com/solutions/issueboard/) ships with GitLab.
-1. **Code** (IDE) => Online file editor ships with GitLab, we plan to ship [Online terminal](https://gitlab.com/gitlab-org/gitlab-ce/issues/22864), and are thinking about [syncing files for a local editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/22876).
-1. **Commit** (Repo) => GitLab Repositories ships with GitLab.
-1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
-1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/) ship with GitLab.
-1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) ships with GitLab, and we are thinking about [Smart Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/24197) and [Auto Deploys](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580).
-1. **Production** (Chatops) => Mattermost Command ships with GitLab, and we plan to ship [Slack](https://gitlab.com/gitlab-org/gitlab-ce/issues/22182) and [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412).
-1. **Feedback** (Cycle Analytics) => Cycle Analytics ships with GitLab, and we plan to ship [Monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/23841) with [Prometheus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1481).
+1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/)
+1. **Issue** (Tracker) => Issue Tracker
+1. **Plan** (Board) => [Issue Boards](https://about.gitlab.com/solutions/issueboard/)
+1. **Code** (IDE) => [Web editor](https://docs.gitlab.com/ce/user/project/repository/web_editor.html) and [web terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals)
+1. **Commit** (Repo) => GitLab Repositories
+1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/)
+1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/)
+1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) and [auto deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
+1. **Production** (Chatops) => [Mattermost slash commands](https://docs.gitlab.com/ee/project_services/mattermost_slash_commands.html) and [Slack slash commands](https://docs.gitlab.com/ce/project_services/slack_slash_commands.html)
+1. **Feedback** (Monitoring) => [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/) and [Prometheus](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/).
 
-Also see our video [In 13 minutes from Kubernetes to a complete application development tool](https://about.gitlab.com/2016/11/14/idea-to-production/).
+Also see our [demo](https://about.gitlab.com/handbook/sales/demo/) and our [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
 
 ### Outside our scope
 
@@ -215,7 +212,7 @@ continuous delivery of software.
 
 We prefer to offer an integrated set of tools instead of a network of services or offering plugins for the following reasons:
 
-1. We think an integrated set of tools provides a better user experience that a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
+1. We think an integrated set of tools provides a better user experience than a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that that we can combine great open source products.
 1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/comparison/). We'll focus on making all the parts work well together to create a better user experience.
 1. Because GitLab is open source the enhancements can become [part of
@@ -226,3 +223,190 @@ ensures GitLab can continue to evolve with its additions instead of being bound
 to an API that is hard to change and that resists refactoring. Refactoring is essential to maintaining a codebase that is easy to contribute to.
 1. Many people use GitLab on-premises, for such situations it is much easier to install one tool than installing and integrating many tools.
 1. GitLab is used by many large organizations with complex purchasing processes, having to buy only one subscription simplifies their purchasing.
+
+## 2017 Strategy
+
+Some key achievements for Q1, Q2 for 2017.
+
+### 1. Cloud Native and Container Schedulers
+1. (DONE) Q1: Make it work on Google Cloud
+1. Q1: Support app + database deployments
+1. Q2: Support large scale projects
+
+### 2. Monitoring and Feedback
+1. (DONE) Q1: Ship prometheus with GitLab
+1. Q1: Monitoring of Customer Auto Deployed Apps on Kubernetes.
+1. Q2: Support for non-Auto Deployed (Manually?) Apps on Kubernetes
+
+### 3. Made for enterprise
+1. Q1: Ship nested groups
+1. Q1: EE Premium: License Finder
+1. Q2: Support Android repositories
+1. Q2: Cross-project pipelines
+1. Q2: Group level issues support (boards)
+1. Q2: EE Premium: Reporting
+1. Q3: EE Premium: Geo Disaster Recovery (GA)
+
+### 4. Easy building, deploying, and monitoring
+1. Q1: Successfully introduce easier, more powerful filtering
+1. Q1: Make auto deploy easier to discover and use
+1. Q2: Deploy boards
+1. Q2: Modernize the navigation
+1. Q2: Bring real time to GitLab
+
+### 5. GitLab.com as powerful SaaS
+1. Q1: Introduce plans and in-UI subscriptions
+1. Q2: Tier-exclusive features
+
+## General Product Strategy
+
+Today you can create an entire product successfully in GitLab, from idea to production. But you still need domain-specific knowledge to be able to set this up and then maintain, monitor and scale this application.
+
+GitLab provides an [_integrated toolset_](#integrated-toolset) for [_teams of any size_](#teams-of-any-size) with [_any kind of projects_](#any-project) to move faster from idea to production, while giving you [_actionable feedback_](#actionable-feedback), and making shipping products _simple_.
+
+GitLab's toolset is opinionated, but still allows you to use other tools if you
+like to do so. GitLab plays well with others.
+
+### Integrated Toolset
+
+GitLab is an integrated set of tools for conversational development. This offers a superior user experience and lowers the threshold between each step in going from idea to production.
+
+#### Conversational Development
+
+Conversational development carries a conversation across functional groups through the software development lifecycle, involving gatekeepers at every step. By providing relevant context, a feature that is only possible with an integrated solution like GitLab, we can reduce cycle time, making it easier to diagnose problems and make decisions.
+
+Concretely, conversational development in GitLab means that a change can be easily followed from inception to the changes it made in performance and business metrics and feeding this information back to _all_ stakeholders _immediately_.
+
+Effectively, this allows cross-functional teams to collaborate effectively.
+
+#### Idea to Production
+
+GitLab contains all tools needed to bring any project from the ideation stage
+up to running in production and giving feedback. This includes repositories,
+issue tracking, CI, CD, monitoring, chat and more. GitLab focuses on lowering the threshold between each step, so that working on a project means focusing
+on collaboration and not on learning new tools.
+
+#### External Integrations
+
+GitLab plays well with others. To allow everyone to contribute, it's important
+that there is only one place where you'll have to look, even if you need to
+use external tools that are not part of GitLab. For this reason, GitLab plays
+well with others: Providing APIs for nearly everything you can do within GitLab
+and powerful, simple authentication and authorization tools for external
+integrations.
+
+GitLab ships with built-in integrations to many popular applications.
+
+### Any Project
+
+GitLab is the tool for anyone working on software in any form.
+
+#### Multi-repository projects
+
+Software projects are often more than single repositories. GitLab will evolve from being focused around single repositories towards being able to accommodate software projects that consist of multiple repositories.
+
+- [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
+
+#### From scratch or legacy
+
+Starting a project from scratch makes it easy to do everything through GitLab and well integrated. But existing / migrated / legacy projects should benefit from the same features that GitLab offers. GitLab will offer the tools to help you integrate, setup and improve your projects with the tools we have at offer. A concrete example is setting up review apps: everyone would benefit from this. GitLab will give you all the handles to set this up. It should not be required to dive deep in the documentation to discover features like this.
+
+- [Auto Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/23580)
+
+#### Beyond code
+
+Going from idea to production is not a matter of just code anymore. Modern products work with elaborate mockups and designs both in ideation, but also in production. Whether you’re working on assets in a game or working on the design of a new website, GitLab will allow you to collaborate on your work as a programmer would on their code.
+
+- [Comment on images](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+
+### Actionable Feedback
+
+Deployments should never be fire and forget. GitLab will give you immediate feedback on every deployment on any scale. This means that GitLab can tell you whether performance has improved on the application level, but also whether business metrics have changed.
+
+Concretely, we can split up monitoring and feedback efforts within GitLab in three distinct areas: execution (cycle analytics), business and system feedback.
+
+#### Business feedback
+
+With the power of monitoring and an integrated approach, we have the ability to do amazing things within GitLab. GitLab will be able to automatically test commits and versions through feature flags and A/B testing.
+
+Business feedback exists on different levels:
+
+* Short term: how does a certain change perform? Choose A/B based on data.
+* Medium term: did a particular new feature change conversions, engagement
+* Long term: how do larger efforts relate to changes in conversations, engagement, revenue
+
+- [A/B Testing of branches](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+
+#### System feedback
+
+We can now go beyond CI and CD. GitLab will able to tell you whether a change
+improved performance or stability. Because it will have access to both
+historical data on performance and code, it can show you the impact of any
+particular change at any time.
+
+System feedback happens over different time windows:
+
+* Immediate: see whether changes influence availability and alert if they do
+* Short-medium term: see whether changes influence system metrics and performance
+* Medium-Long term: did a particular effort influence system status
+
+- Implemented: [Performance Monitoring](https://docs.gitlab.com/ee/administration/monitoring/performance/introduction.html)
+- [Status monitoring and feedback](https://gitlab.com/gitlab-org/gitlab-ce/issues/25555)
+- [Feature monitoring](https://gitlab.com/gitlab-org/gitlab-ce/issues/24254)
+
+#### Execution Feedback & Cycle Analytics
+
+GitLab is able to speed up cycle time for any project.
+To provide feedback on cycle time GitLab will continue to expand cycle
+analytics so that it not only shows you what is slow, it’ll help you speed up
+with concrete, clickable suggestions.
+
+- [Cycle Speed Suggestions](https://gitlab.com/gitlab-org/gitlab-ce/issues/25281)
+
+### Teams of any Size
+
+GitLab is built to work for teams of any size. By yourself, it gets out of
+your way and lets you quickly push you work and track your progress.
+
+With a small team, you can easily communicate and quickly move through the
+otherwise time-intensive steps of bringing a creation to production, with
+infrastructure as code, a flexible issue tracker and very permissive defaults.
+
+Large teams of thousands of collaborators working on complex projects can easily
+manage permissions. Automatic and batch actions for getting rolling quickly,
+up to fine-grained overrides to give certain users specific actions, temporary
+if needed.
+
+Teams working with external collaborators will find it easy and safe to allow
+collaborators to work together with them in the same place as the rest of their
+work, while securing what is not to be shared.
+
+Open source initiatives can use GitLab to effectively collaborate with a
+community, while having the moderation tools to keep the project clean and
+focused.
+
+### Vision for the Enterprise Editions
+
+![](ee-versions.png)
+
+GitLab comes in 4 editions:
+
+* **Community Edition**: aimed at solo developers as well as a small team of
+developers. All the Enterprise Editions are based on CE. Our objective is that
+our Idea to production vision is achievable with our free version.
+* **Enterprise Edition Starter**: aimed towards teams of developers (100 or more
+users). It includes enterprise features that you are more likely to find in
+large organizations. It also includes features for managers of these teams, like
+reporting, or group management functionalities.
+* **Enterprise Edition Premium**: aimed towards large organizations (750+ users)
+or geographically distributed teams. This edition contains features for
+instance administrators, managers of very large teams that want to take actions
+across different teams, and people other than developers who actively
+participate in the life of a software, like QA testers or support agents. It
+also contains features that help teams that are not in the same physical
+locations.
+* **Enterprise Edition Ultimate**: aimed towards very large organizations (5000+
+users). This edition bundles tools that help to work without any interruption,
+or be in complete control over the change management within their organization.
+Finally, this edition is for corporations with various compliances and
+certifications.

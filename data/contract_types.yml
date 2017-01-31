@@ -3,7 +3,7 @@
 - country: China
   employee_factor: 0.55
 - country: India
-  employee_factor: 0.6
+  employee_factor: 0.75
 - country: Netherlands
   employee_factor: 0.8
 - country: United Kingdom

@@ -37,6 +37,23 @@ complete toolset.
 1. Make our product more interesting for our customers through Products and
 EE exclusive features.
 
+## Scope of responsibilities
+
+The product team is responsible for iteration on most of GitLab's products and
+projects:
+
+- GitLab CE and EE
+- GitLab.com
+- about.gitlab.com
+- customers.gitlab.com
+- version.gitlab.com
+- license.gitlab.com
+
+This includes new features, major changes, performance and stability.
+
+Bugs and regressions are typically handled without any product involvement,
+but if uncaught by engineering should be treated like any of the above.
+
 ## Product at GitLab
 
 GitLab is designed and developed in a unique way.
@@ -111,6 +128,17 @@ Sometimes configuration is inevitable or preferable. GitLab should
 work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
+
+##### Encouraging behavior
+
+Convention also implies that we're encouraging our customers to do things
+in a certain way. A very concrete example of this is the ability to disable
+pipelines.We believe that our integrated solution will give a superior user
+experience and we're motivated to encourage behavior. For this reason, adding a
+configuration to be able to disable this permanently (be that in template or
+instance-wide), is something that should be avoided.
+
+Encourage favorable behaviors by limiting configuration.
 
 #### Be Ambitious
 
@@ -323,6 +351,36 @@ To promote a major new feature internally, you can ask to host a GitLab
 University, a company wide demo session. This is a great opportunity to make
 sure every one is on the same page.
 
+### Major feature rollout
+
+Major features deserve proper attention from product and marketing. With a
+proper rollout, we'll have ample marketing opportunities and receive more
+feedback ahead, during and after the release.
+
+Here is the ideal rollout schedule. For each step, there is the indication about
+who is responsible for it.
+
+1. Feature is drafted in an issue (PM)
+2. Feature is planned in an upcoming release (PM)
+3. A feature proposal blog post is made (PM or Dev), where we'll describe
+	* What we are planning on doing,
+	* How you'll be able to buy it: CE or any EE Editions,
+	* Link to the issue,
+	* When it'll be available, if possible,
+	* Anything else that is interesting to share in order to fuel the discussion.
+4. Feature is implemented, documentation is written (Dev).
+5. Feature should appear on the website (Marketing)
+	* For very significant features: Feature page on the website is made and
+  pushed, with the mention "Available from X.X"
+	* For other features: Feature should be listed on some page (/comparison,
+    Enterprise page, /features page).
+6. Feature is launched with the release (Marketing)
+	* "Available from X.X" is removed
+	* Documentation and other resources are linked
+	* Pricing page is updated if needed
+7. Feature is highlighted in a blog post (Marketing)
+	* This post is linked from the feature page on the website (if applicable)
+
 ### How and when to reject a feature request
 
 Rejecting a feature request or a merge request is not an easy thing. People can
@@ -387,22 +445,21 @@ customer that documentation is lacking is not.
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-# EE only and Products
+# Enterprise Edition Tiers
 
-Products are large additions to GitLab that we sell separate to GitLab
-Enterprise Edition customers.
+There are two EE tiers: Starter and Premium.
 
-EE only features are exclusive to GitLab Enterprise Edition, but don't
-require any additional purchases besides GitLab EE.
+EE Starter features are more relevant for organizations that have more than
+**100** potential users.
 
-## EE only or Premium?
+EE Premium features are more relevant for organizations that have more than **750**
+potential users.
+
+## Starter or Premium?
 
 Deciding on whether something should be a Premium feature or just a EE-only
 feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
-
-Premium features replace other products in organisations. E.g. license checker
-replaces BlackDuck, time tracking replaces time tracking software.
 
 ## Talking about EE only decisions
 
@@ -455,10 +512,10 @@ feature. Describe the pain points.
 
 ## Writing release blog posts
 For every monthly release, there is a blog post announcing features. The blog post should contain anything _exciting_ or _disruptive_.
-We want to help people understand exciting features (which are often new), and increase adoption. 
-Disruptive features may change workflows or even introduce unavoidable inconveniences. 
+We want to help people understand exciting features (which are often new), and increase adoption.
+Disruptive features may change workflows or even introduce unavoidable inconveniences.
 We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
-Smaller tweaks and bug fixes don't necessarily need to be mentioned, 
+Smaller tweaks and bug fixes don't necessarily need to be mentioned,
 but if interesting, can be included at the bottom of the post.
 
 # Links

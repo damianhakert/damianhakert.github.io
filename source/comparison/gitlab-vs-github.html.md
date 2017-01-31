@@ -107,6 +107,13 @@ user friendly way.
 
 [Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
 
+## Time Tracking
+Time Tracking in GitLab Enterprise Edition lets your team add estimates and record
+time spent on issues and merge requests. There is no need to use external tools
+anymore.
+
+[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
+
 ### Continuous Integration
 
 GitHub integrates with popular, external CI platforms.
@@ -116,6 +123,19 @@ with everything in the product and just works. You can also decide to use extern
 if you choose to.
 
 [Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
+
+### Docker Registry support
+
+GitLab Container Registry is a secure and private registry for Docker images. It
+allows for easy upload and download of images from GitLab CI. It is fully
+integrated with Git repository management.
+
+[Documentation on Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html)
+
+### New features every month
+
+GitLab is updated very often. The schedule is predictable with a monthly release
+cycle.
 
 ### Don't take our word for it.
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
