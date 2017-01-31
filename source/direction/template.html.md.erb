@@ -61,14 +61,52 @@ only reflects current [milestones](https://gitlab.com/groups/gitlab-org/mileston
 
 [every single month on the 22nd]: /2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab
 
-## Wishlist <a name="wishlist"></a>
+## 2017 Goals
 
-Below are features we'd really like to see in GitLab. This list is not
-prioritized. We invite everyone to join the discussion by clicking the wishlist
+Some key achievements for Q1, Q2 for 2017.
+
+### 1. Cloud Native and Container Schedulers
+1. (DONE) Q1: Make it work on Google Cloud
+1. Q1: Support app + database deployments
+1. Q2: Support large scale projects
+
+### 2. Monitoring and Feedback
+1. (DONE) Q1: Ship prometheus with GitLab
+1. Q1: Monitoring of Customer Auto Deployed Apps on Kubernetes.
+1. Q2: Support for non-Auto Deployed (Manually?) Apps on Kubernetes
+
+### 3. Made for enterprise
+1. Q1: Ship nested groups
+1. Q1: EE Premium: License Finder
+1. Q2: Support Android repositories
+1. Q2: Cross-project pipelines
+1. Q2: Group level issues support (boards)
+1. Q2: EE Premium: Reporting
+1. Q3: EE Premium: Geo Disaster Recovery (GA)
+
+### 4. Easy building, deploying, and monitoring
+1. Q1: Successfully introduce easier, more powerful filtering
+1. Q1: Make auto deploy easier to discover and use
+1. Q2: Deploy boards
+1. Q2: Modernize the navigation
+1. Q2: Bring real time to GitLab
+
+### 5. GitLab.com as powerful SaaS
+1. Q1: Introduce plans and in-UI subscriptions
+1. Q2: Tier-exclusive features
+
+## Direction <a name="direction"></a>
+
+Below are features that represent the direction we see GitLab going in. This list is not
+prioritized. We invite everyone to join the discussion by clicking the direction
 items that are of interest to you. Feel free to comment, vote up or down any issue
 or just follow the conversation. For GitLab sales, please add a link to the
 account in Salesforce.com that has expressed interest in a wishlist feature. We
 very much welcome contributions that implement any of these things.
+
+### Chat Commands
+
+<%= wishlist["chat commands"] %>
 
 ### CI
 
@@ -142,7 +180,9 @@ very much welcome contributions that implement any of these things.
 
 <%= wishlist["wiki"] %>
 
-### Moonshots
+## Moonshots
+
+Moonshots are big hairy audacious goals that may take a long time to deliver.
 
 - [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
 <%= wishlist["moonshots"] %>
@@ -216,40 +256,6 @@ ensures GitLab can continue to evolve with its additions instead of being bound
 to an API that is hard to change and that resists refactoring. Refactoring is essential to maintaining a codebase that is easy to contribute to.
 1. Many people use GitLab on-premises, for such situations it is much easier to install one tool than installing and integrating many tools.
 1. GitLab is used by many large organizations with complex purchasing processes, having to buy only one subscription simplifies their purchasing.
-
-## 2017 Strategy
-
-Some key achievements for Q1, Q2 for 2017.
-
-### 1. Cloud Native and Container Schedulers
-1. (DONE) Q1: Make it work on Google Cloud
-1. Q1: Support app + database deployments
-1. Q2: Support large scale projects
-
-### 2. Monitoring and Feedback
-1. (DONE) Q1: Ship prometheus with GitLab
-1. Q1: Monitoring of Customer Auto Deployed Apps on Kubernetes.
-1. Q2: Support for non-Auto Deployed (Manually?) Apps on Kubernetes
-
-### 3. Made for enterprise
-1. Q1: Ship nested groups
-1. Q1: EE Premium: License Finder
-1. Q2: Support Android repositories
-1. Q2: Cross-project pipelines
-1. Q2: Group level issues support (boards)
-1. Q2: EE Premium: Reporting
-1. Q3: EE Premium: Geo Disaster Recovery (GA)
-
-### 4. Easy building, deploying, and monitoring
-1. Q1: Successfully introduce easier, more powerful filtering
-1. Q1: Make auto deploy easier to discover and use
-1. Q2: Deploy boards
-1. Q2: Modernize the navigation
-1. Q2: Bring real time to GitLab
-
-### 5. GitLab.com as powerful SaaS
-1. Q1: Introduce plans and in-UI subscriptions
-1. Q2: Tier-exclusive features
 
 ## General Product Strategy
 
@@ -378,7 +384,7 @@ Open source initiatives can use GitLab to effectively collaborate with a
 community, while having the moderation tools to keep the project clean and
 focused.
 
-### Vision for the Enterprise Editions
+### Enterprise Editions
 
 ![](ee-versions.png)
 
