@@ -680,7 +680,7 @@ This option was introduced in January/2017.
 
 #### Guest
 
-The variable `guest` indicates whether the author is a guest (anyone who's not a GitLab Team member), and should be only included in the frontmatter when that's the case. Technically, it's a conditional variable (`true` or `false`) to link the author's name their profile in the [Team](/team/) page.
+The variable `guest` indicates whether the author is a guest (anyone who's not a GitLab Team member). It should be only included in the frontmatter when that's the case. Technically, it's a conditional variable (`true` or `false`) to link the author's name their profile in the [Team](/team/) page.
 
 For Community Posts, Guest Posts, Partner Posts, and Crossposts, it must be present:
 
@@ -688,7 +688,7 @@ For Community Posts, Guest Posts, Partner Posts, and Crossposts, it must be pres
 guest: true
 ```
 
-For Team Posts, please do not add it at all (instead of setting it to `false).
+For Team Posts, please do not add it at all (instead of setting it to `false`).
 
 Introduced in January, 2017.
 {:.note}
