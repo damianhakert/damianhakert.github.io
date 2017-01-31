@@ -290,7 +290,7 @@
         margin-top: 8%;
         font-size: 40px;
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 0px;
       }
     }
 
@@ -311,7 +311,7 @@
         margin-top: 15%;
         min-height: 40px;
         font-size: 14px;
-        padding-left: 5px;
+        padding-left: 0;
         padding-right: 0;
       }
 
@@ -319,7 +319,7 @@
       @media (min-width: $screen-lg-min) {
         font-size: 15px;
         margin-top: 12%;
-        padding-left: 18px;
+        padding-left: 5px;
       }
     }
 
