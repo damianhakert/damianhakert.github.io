@@ -11,11 +11,15 @@
                 = article.title
           .author
             %strong
+              - guest = article.data.author_guest
               - anchor = article.data.author_twitter || article.data.author_gitlab
-              - if anchor
-                = link_to article.data.author, "/team/##{anchor}"
-              - else
+              - if guest
                 = article.data.author
+              - else
+                - if anchor
+                  = link_to article.data.author, "/team/##{anchor}"
+                - else
+                  = article.data.author
               - if article.data.author_gitlab
                 %span &nbsp;
                 = link_to "https://gitlab.com/#{article.data.author_gitlab}" do
