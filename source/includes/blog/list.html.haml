@@ -20,7 +20,7 @@
               - if article.data.author_twitter
                 %span -
                 = link_to "https://twitter.com/#{article.data.author_twitter}" do
-                  %spam.author-twitter
+                  %span.author-twitter
                     %i.fa.fa-twitter
           .date
             = article.date.to_time.strftime '%b %e, %Y'
