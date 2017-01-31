@@ -17,7 +17,7 @@
                 = current_article.date.to_time.strftime '%b %e, %Y'
               %span -
               %span.author
-                - guest = current_article.data.author_guest
+                - guest = current_article.data.guest
                 - anchor = current_article.data.author_twitter || current_article.data.author_gitlab
                 - if guest
                   = current_article.data.author

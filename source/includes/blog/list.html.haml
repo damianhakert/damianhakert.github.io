@@ -11,7 +11,7 @@
                 = article.title
           .author
             %strong
-              - guest = article.data.author_guest
+              - guest = article.data.guest
               - anchor = article.data.author_twitter || article.data.author_gitlab
               - if guest
                 = article.data.author
