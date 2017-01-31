@@ -313,6 +313,24 @@ When you don't have specific tasks assigned, you should work on issues that are
 labeled `Product work`, in both EE and CE projects. These are issues that need
 our attention the most.
 
+#### Scheduling timeline throughout a milestone
+
+Issues are scheduled into a milestone, worked on by engineering and design, and then shipped to production. Follow these overlapping representative timelines of the 9.0. and 9.1 releases in 2017.
+
+9.0 timeline
+* 2017-02-04: 9.0 scope established | In scope issues marked with 9.0 milestone
+* 2017-02-07: 9.0 release post created (WIP merge request)
+* 2017-03-07: Complete 9.0 issues merged into master | Incomplete 9.0 issues de-scoped
+* 2017-03-15: 9.0 release post first draft complete (WIP merge request)
+* 2017-03-22: 9.0 shipped to production | 9.0 release post published
+
+9.1 timeline
+* 2017-03-04: 9.1 scope established | In scope issues marked with 9.1 milestone
+* 2017-03-07: 9.1 release post created (WIP merge request)
+* 2017-04-07: Complete 9.1 issues merged into master | Incomplete 9.1 issues de-scoped
+* 2017-04-15: 9.1 release post first draft complete (WIP merge request)
+* 2017-04-22: 9.1 shipped to production | 9.1 release post published
+
 ### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
