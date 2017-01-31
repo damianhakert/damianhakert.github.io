@@ -267,7 +267,7 @@ follow the steps below:
 ### Update the features comparison page (under `/features`)
 
 The feature page grabs its content automatically from the file
-`/data/features.yml`. 
+`/data/features.yml`.
 
 ### Update the release list page (under `/release-list`)
 
@@ -402,8 +402,7 @@ To test out the site, you must run another Web server from the
 `public` directory:
 
 ```
-cd public
-python -m SimpleHTTPServer 8000
+(cd public; python -m SimpleHTTPServer 8000)
 ```
 
 This will start a Web server on port 8000 (you may omit the port number). You can preview the site
