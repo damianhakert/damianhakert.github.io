@@ -133,7 +133,7 @@ configure :build do
 
   # Populate the direction and release list pages only on master.
   # That will help shave off some time of the build times on branches.
-  if ENV['CI_BUILD_REF_NAME'] == 'master'
+  if ENV['CI_BUILD_REF_NAME'] == 'master' || !ENV.key('CI_BUILD_REF_NAME')
     ## Direction page
     if PRIVATE_TOKEN
       proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true
