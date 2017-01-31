@@ -223,8 +223,8 @@
 - title: "Issue Triage Specialist"
   description: /jobs/specialist/issue-triage
   salary: 87337
-  apply:
-  open: false
+  apply: TODO
+  open: true
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
