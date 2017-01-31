@@ -2,9 +2,11 @@
 title: "Getting Started with Git LFS"
 author: Tobias Günther
 author_twitter: gntr
+author_gitlab: tobidobi
 categories: tutorial
 description: "Managing large files efficiently with Git LFS"
 image_title: '/images/blogimages/getting-started-with-git-lfs-tutorial/lfs-website.png'
+guest: true
 ---
 
 It happens with the best of intentions: your design team adds their large graphic files to your project repository - and you see it grow and grow until it's a multi-gigabyte clump...
