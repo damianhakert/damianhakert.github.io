@@ -2,7 +2,7 @@
 title: "'GitLab is a Slam Dunk': One Team Lead Weighs His Options"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/default-blog-image.png'
 description: "Developer Warren Postma shares his opinions on VCS, after years of trying out all the alternatives."
 twitter_image: '/images/tweets/why-bare-metal.png'
