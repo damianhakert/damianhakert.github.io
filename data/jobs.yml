@@ -206,8 +206,8 @@
 - title: "Support Lead"
   description: /jobs/support-lead/
   salary: 75500
-  apply: https://gitlab.workable.com/jobs/340051/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Database Specialist"
   description: /jobs/specialist/database/
