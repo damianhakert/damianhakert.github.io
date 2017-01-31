@@ -31,9 +31,9 @@ We assume you're familiar with SSL/TLS, DNS, GitLab Pages, and CloudFlare.
 
 With [GitLab Pages], you can [deploy a static website][pages-setup-post] with custom domains/subdomains and SSL/TLS support.
 
-This tutorial responds to the issue "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)", and other cases where GitLab users asked specifically how do to add a CloudFlare certificate to GitLab Pages. 😉 We won't cover anything apart from this.
+This tutorial responds to the issue "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)", and other cases where GitLab users asked specifically how do to add a CloudFlare certificate to GitLab Pages. 😉 Anything else is out of the scope of this post.
 
-If you don't know how to setup your GitLab Pages site:
+If you don't know how to setup your GitLab Pages site, or why should you care about SSL/TLS:
 
 - Take a look at the [GitLab Pages] overview
 - Read the step-by-step tutorial [Hosting on GitLab.com with GitLab Pages][pages-setup-post]
@@ -42,6 +42,7 @@ If you don't know how to setup your GitLab Pages site:
   - [SSGs Part 2: Modern Static Site Generators][ssg-2]
   - [SSGs Part 3: Build any SSG site with GitLab Pages][ssg-3]
 - Read the [documentation on GitLab Pages][pages-docs]
+- Read an [overview on the importance of HTTPS][post-startssl]
 
 ## Step-by-Step Quick Guide
 
@@ -73,7 +74,7 @@ If you'd already set this up, just jump into the second step.
 
 1. Your certificate and private key have been generated. Leave the tab and the modal window opened:
 
-    ![modal with certificate](#){:.shadow}
+    ![modal with certificate](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/modal-window.png){:.shadow}
 
 ### STEP 3. Add the Custom (sub)domain and the Certificate to your GitLab Pages Project
 
@@ -152,6 +153,7 @@ Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 [pages-docs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
 [pages-setup-domains]: /2016/04/07/gitlab-pages-setup/#custom-domains
 [pages-setup-post]: /2016/04/07/gitlab-pages-setup/
+[post-startssl]: /2016/06/24/secure-gitlab-pages-with-startssl/#https-a-quick-overview
 [root]: https://support.cloudflare.com/hc/en-us/articles/218689638
 [ssg-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [ssg-2]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
