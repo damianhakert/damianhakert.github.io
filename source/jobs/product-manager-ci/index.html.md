@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Product Manager, CI/CD Pipelines"
+title: "Senior Product Manager, CI/CD Pipelines"
 ---
 
 We're looking for product managers that can help us work on the future of

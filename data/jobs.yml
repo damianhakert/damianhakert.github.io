@@ -2,7 +2,7 @@
 
 - title: "Executive Assistant"
   description: /jobs/executive-assistant/
-  apply: 
+  apply:
   open: true
 
 - title: "Account Executive - Sales"
@@ -146,7 +146,7 @@
   apply:
   open: false
 
-- title: "Senior Product Manager: CI/CD Pipelines"
+- title: "Senior Product Manager, CI/CD Pipelines"
   description: /jobs/product-manager-ci
   salary: 117530
   apply: https://gitlab.workable.com/jobs/339744
