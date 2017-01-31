@@ -1,170 +1,418 @@
 gitlab_self_hosted_vs_github:
   title: 'GitLab Self-hosted vs. GitHub.com'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab Self-hosted'
-    logo: '/images/comparison/gitlab-logo.svg'
-  competitor_two:
-    name: 'GitHub.com'
-    logo: '/images/comparison/github-logo.svg'
+  competitor_one_name: 'GitLab Self-hosted'
+  competitor_two_name: 'GitHub.com'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: "sortof"
+    - title: 'Faster from Idea to Production'
+      description: 'GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform. You can read more about our vision.'
+      documentation_link: 
+      gitlab: true
+      competitor: false
+    - title: 'Multiple authentication Levels'
+      description: 'Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.'
+      documentation_link: [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
+      gitlab: true
+      competitor: false
+    - title: 'Innersourcing'
+      description: 'Internal projects in GitLab allow you to promote innersourcing of your internal repositories.'
+      documentation_link: [Find out more about innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
+      gitlab: true
+      competitor: false
+    - title: 'Innersourcing'
+      description: 'Internal projects in GitLab allow you to promote innersourcing of your internal repositories.'
+      documentation_link: [Find out more about innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
+      gitlab: true
+      competitor: false
+    - title: 'Work-in-Progress Protection'
+      description: 'Simply add 'WIP' to the title of a merge request to prevent anyone from merging it. This gives you all the code review power of merge requests, while protecting unfinished work.'
+      documentation_link: [WIP Merge documentation](http://doc.gitlab.com/ce/workflow/wip_merge_requests.html)
+      gitlab: true
+      competitor: false
+    - title: 'Large open source projects'
+      description: 'GitLab is meant to be the best place for any software project. The team behind GitLab is addressing issues that maintainers and contributors to large open source projects are facing, to make it easier to do both.'
+      documentation_link: [Making GitLab better for large open source projects](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/)
+      gitlab: true
+      competitor: false
+    - title: 'Powerful Issue Tracker'
+      description: 'Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.'
+      documentation_link:
+      gitlab: true
+      competitor: true
+    - title: 'Due date'
+      description: 'In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Move issues between projects'
+      description: 'You can move issues between projects in GitLab. All links, history and comments will be copied and the original issue will reference the newly moved issue. This makes working with multiple issue trackers much easier.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Group-level milestones'
+      description: 'View all the issues for the milestone you’re currently working on across multiple projects.'
+      documentation_link: [Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
+      gitlab: true
+      competitor: false
+    - title: 'Create new branches from Issues'
+      description: 'In GitLab, you can quickly create a new branch from an issue on the issue tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue.'
+      documentation_link: [See how in our documentation](http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create%20a%20new%20branch%20from%20an%20issue)
+      gitlab: true
+      competitor: false
+    - title: 'Search through commit messages'
+      description: 'GitLab not only allows you to search through code, but also searches through your commit messages.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Assign multiple people to an issue / MR'
+      description: 'GitHub allows you to assign multiple people to an issue or pull request. GitLab doesn't allow you to do this, but allows for approvals in merge requests, which offsets this there. For issues, GitLab does not have an equivalent feature, but a feature request has been submitted for this.'
+      documentation_link: [GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
+      gitlab: false
+      competitor: true
+    - title: 'Drag and drop tasks'
+      description: 'You can change the order of tasks in markdown on GitHub. GitLab does not have this ability, but is considering implementing it.'
+      documentation_link: [See the GitLab issue to implement this](https://gitlab.com/gitlab-org/gitlab-ce/issues/18003)
+      gitlab: false
+      competitor: true
+    - title: 'Allow edits from upstream maintainers in branch'
+      description: 'In GitHub, when a user opens a pull request from a fork, they are given the option that allows the upstream repository contributors to collaborate with them on their new branch. GitLab allows you to restrict pushes very carefully, but does not have this option.'
+      documentation_link: [GitLab issue to implement the same feature](https://gitlab.com/gitlab-org/gitlab-ce/issues/21975)
+      gitlab: false
+      competitor: true
+    - title: 'Cycle Analytics'
+      description: 'GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production.'
+      documentation_link: [Feature Highlight: Cycle Analytics](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/)
+      gitlab: true
+      competitor: false
+    - title: 'Slash commands'
+      description: 'In GitLab, you can pilot almost everything that affects an issue or a merge request with slash commands.'
+      documentation_link: [Documentation about slash commands](https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab%20slash%20commands)
+      gitlab: true
+      competitor: false
+    - title: 'Issue board'
+      description: 'GitHub has Projects, which are not tight to labels in any way, making it hard to automatize flows. GitLab has Issue boards. Each list of an issue board is based on a label that exists in your issue tracker. The Issue Board will therefore match the state of your issue tracker in a user friendly way.'
+      documentation_link: [Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)
+      gitlab: true
+      competitor: sortof
+    - title: 'Time tracking'
+      description: 'Time Tracking in GitLab Enterprise Edition lets your team add estimates and record time spent on issues and merge requests. There is no need to use external tools anymore.'
+      documentation_link: [Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)
+      gitlab: true
+      competitor: false
+    - title: 'Continuous Integration'
+      description: 'GitHub integrates with popular, external CI platforms. GitLab provides a continuous integration service, built-in, for free. It's tightly integrated with everything in the product and just works. You can also decide to use external CI solutions if you choose to.'
+      documentation_link: [Documentation on CI](https://docs.gitlab.com/ce/ci/quick_start/README.html)
+      gitlab: true
+      competitor: false
+    - title: 'Docker Registry support'
+      description: 'GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management.'
+      documentation_link: [Documentation on Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html)
+      gitlab: true
+      competitor: false
 
 gitlab_ee_vs_github_enterprise:
-  title: 'GitLab EE vs. GitHub Enterprise'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab EE'
-    logo: '/images/comparison/ee-gitlab-logo.svg'
-  competitor_two:
-    name: 'GitHub Enterprise'
-    logo: '/images/comparison/github-logo.svg'
+  title: 'GitLab Entreprise Edition vs. GitHub Enterprise'
+  competitor_one_name: 'GitLab Enterprise Edition'
+  competitor_two_name: 'GitHub Enterprise'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'GitLab handles huge repositories well'
+      description: 'Big repository? Huge (>5GB) binary files? No problem. GitLab is built to handle very large repositories, and Git Annex and LFS are both supported.'
+      documentation_link: [Using Git Annex with GitLab](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/)
+      gitlab: true
+      competitor: false
+    - title: 'File Locking'
+      description: 'GitLab EE provides an easy mechanism to lock files, preventing everyone from modifying a specific file or an entire directory.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Access to the server'
+      description: 'You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself.'
+      documentation_link: [Learn more about logging](http://doc.gitlab.com/ce/logs/logs.html)
+      gitlab: true
+      competitor: false
+    - title: 'Runs on metal'
+      description: 'You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Run more users on a single server'
+      description: 'A single machine server handles thousands of users and repositories.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'HA setups'
+      description: 'GitLab offers multiple highly availabiliy (HA) solutions, making it possible to failover easily.'
+      documentation_link: [More information about active servers](https://about.gitlab.com/high-availability/)
+      gitlab: true
+      competitor: false
+    - title: 'Run your own software on your instance'
+      description: 'You are free to run your own software on the instance that GitLab is running on. Have your own intrusion detection system? No problem.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Use your configuration management software'
+      description: 'Use configuration management software of your choice to manage GitLab. Puppet, Chef, Ansible—it all works.'
+      documentation_link: [Read about configuration management here](https://about.gitlab.com/installation/)
+      gitlab: true
+      competitor: false
+    - title: 'Use standard Unix tools for maintenance and monitoring'
+      description: 'Use the tools you know for monitoring and maintenance, whether they're standard or your own. GitLab doesn't restrict you.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Built-in Continuous Integration tool'
+      description: 'Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.'
+      documentation_link: [Learn about the benefits of our CI tool](http://doc.gitlab.com/ci/)
+      gitlab: true
+      competitor: false
+    - title: 'Powerful AD / LDAP integration'
+      description: 'Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration.'
+      documentation_link: [More information about AD / LDAP integration](http://doc.gitlab.com/ee/integration/ldap.html)
+      gitlab: true
+      competitor: sortof
+    - title: 'Multiple approvals in code review'
+      description: 'To ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it. You can undo an approval by removing it after the fact.'
+      documentation_link: [Approvals Documentation](http://doc.gitlab.com/ee/workflow/merge_request_approvals.html)
+      gitlab: true
+      competitor: false
+    - title: 'Ease of Migration'
+      description: 'Easily migrate all repos and merge request data from your previous provider.'
+      documentation_link:
+      gitlab: true
+      competitor: sortof
+    - title: 'Issue Weights'
+      description: 'Manage issues using Agile practices by setting the weight of an issue.'
+      documentation_link: [Issue Weights Documentation](http://doc.gitlab.com/ee/workflow/issue_weight.html)
+      gitlab: true
+      competitor: false
+    - title: 'Custom Push Rules (pre-received hooks)'
+      description: 'GitHub allows site administrators to create pre-received hooks at a global or project level. GitLab also allows the creation of those hooks at a project or global level, but they can be set by either the project owner or an administrator, and provides a simple user interface to define those push rules.'
+      documentation_link: [Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+      gitlab: true
+      competitor: sortof
+    - title: 'Prevent committing secrets in the repositories'
+      description: 'GitLab provides a way to avoid committing sensitive files to your repositories automatically.'
+      documentation_link: [Documentation](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)
+      gitlab: true
+      competitor: false
+    - title: 'Ability to set a project size'
+      description: 'GitLab allows to set a project size limit at a global, group and project level.'
+      documentation_link: [Documentation on account and limit settings](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html)
+      gitlab: true
+      competitor: false
+    - title: 'Merge Request Issue Templates'
+      description: 'Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize.'
+      documentation_link: [Templates for Issues and Merge Requests Documentation](http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html)
+      gitlab: true
+      competitor: false
+    - title: 'Geographic Replication with GitLab Geo'
+      description: 'GitLab Enterprise Edition can have a geographically replicated instance, so your remote teams don't have to wait for long downloads when cloning or pulling from repositories.'
+      documentation_link: [Read the Geo docs for more information](http://docs.gitlab.com/ee/gitlab-geo/README.html)
+      gitlab: true
+      competitor: false
+    - title: 'Lock Files'
+      description: 'File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files.'
+      documentation_link: [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File%20Lock)
+      gitlab: true
+      competitor: false
+    - title: 'Monitoring built-in'
+      description: 'GitLab ships with an open source monitoring solution, Prometheus, which offers world-class monitoring of the GitLab server's resources.'
+      documentation_link: [Documentation about Monitoring](http://docs.gitlab.com/runner/monitoring/README.html)
+      gitlab: true
+      competitor: false
+    - title: 'Access to and possibility to modify the source code of GitLab'
+      description: 'The Ruby code in GitHub Enterprise is obfuscated. GitLab Enterprise Edition has a publicly readable source code and you have the right to modify the code.'
+      documentation_link: [Read the GitLab Enterprise Edition license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE)
+      gitlab: true
+      competitor: false
 
-gitlab_vs_github:
+gitlabcom_vs_githubcom:
   title: 'GitLab.com vs. GitHub.com'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab.com'
-    logo: '/images/comparison/gitlab-logo.svg'
-  competitor_two:
-    name: 'GitHub.com'
-    logo: '/images/comparison/github-logo.svg'
+  competitor_one_name: 'GitLab.com'
+  competitor_two_name: 'GitHub.com'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'Unlimited public private repositories and unlimited collaborators for free'
+      description: 'No matter the type of project or how many people you collaborate with, you can use GitLab.com for free. That means free public projects, free private projects and as many people on those as you need.'
+      gitlab: true
+      competitor: false
+    - title: 'GitLab.com runs GitLab Enterprise Edition with all its features'
+      description: 'All the features from GitLab Enterprise Edition run on GitLab.com. This means you can use Push Rules, Merge Request Approvals and even File Locking on GitLab.com.'
+      gitlab: true
+      competitor: true
+    - title: 'Free CI with Shared or Own Runner'
+      description: 'GitLab.com has shared runners that allow you to use GitLab CI completely free. Alternatively, you can set up your own Runner for faster build processing or special requirements.'
+      gitlab: true
+      competitor: false
+    - title: 'GitHub.com has faster pageloads than GitLab.com'
+      description: 'Improving this is a work in progress.'
+      documentation_link: [Issue](https://gitlab.com/gitlab-com/operations/issues/42/)
+      gitlab: false
+      competitor: true
 
 gitlab_ce_ee_vs_bitbucket_server:
   title: 'GitLab CE/EE vs. Bitbucket Server'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab CE/EE'
-    logo: '/images/comparison/ce-ee-gitlab-logo.svg'
-  competitor_two:
-    name: 'Bitbucket Server'
-    logo: '/images/comparison/bitbucket-logo.svg'
+  competitor_one_name: 'GitLab CE/EE'
+  competitor_two_name: 'Bitbucket Server'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'Built-in Continuous Integration tool'
+      description: 'Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.'
+      documentation_link: [Learn about the benefits of our CI tool](https://docs.gitlab.com/ce/ci/)
+      gitlab: true
+      competitor: false
+    - title: 'Docker Registry support'
+      description: 'GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management.'
+      documentation_link: [Documentation on Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html)
+      gitlab: true
+      competitor: false
+    - title: 'Lock Files'
+      description: 'File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files.'
+      documentation_link: [Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File%20Lock)
+      gitlab: true
+      competitor: false
+    - title: 'More value with everything you need in one solution'
+      description: 'To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Great user interface'
+      description: 'GitLab has a really nice user interface that your team will love, and also enjoy working with.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Integrated issue tracking'
+      description: 'GitLab includes an issue tracker which you can link to any merge request.'
+      documentation_link: [Issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+      gitlab: true
+      competitor: false
+    - title: 'Better activity feed and visualization'
+      description: 'Collaborative activity feed to help everyone understand what is happening in a project and graphical view of the commit history.'
+      documentation_link: [See Our Activity Feed](https://gitlab.com/gitlab-org/gitlab-ce/activity)
+      gitlab: true
+      competitor: false
+    - title: 'Full, powerful search'
+      description: 'Search through all your code, issues, wikis, commits, groups and projects. Built into GitLab.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'No need to manage licenses'
+      description: ''
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'No need to manage licenses'
+      description: 'GitLab EE needs a license, but doesn't require any validation or separate licenses for separate servers. With BitBucket Server (Data Center), licenses are linked to servers, requiring management of licenses over servers. You can deploy 100 instances of GitLab EE for the same price as a single instance. You only pay for the total amount of users, not for how you choose to manage and scale the software.'
+      documentation_link:
+      gitlab: true
+      competitor: false
+    - title: 'Easy configuration'
+      description: 'GitLab can be easily configured through ENV variables and YAML files. This makes maintaining, upgrading and deploying GitLab easy to automate. BitBucket Server requires extensive manual configuration.'
+      documentation_link:
+      gitlab: true
+      competitor: false
 
 gitlab_com_vs_bitbucket_org:
   title: 'GitLab.com vs. Bitbucket.org'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab.com'
-    logo: '/images/comparison/gitlab-logo.svg'
-  competitor_two:
-    name: 'Bitbucket.org'
-    logo: '/images/comparison/bitbucket-logo.svg'
+  competitor_one_name: 'GitLab.com'
+  competitor_two_name: 'Bitbucket.org'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'Unlimited collaborators'
+      description: 'With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories.'
+      gitlab: true
+      competitor: true
+    - title: 'New features every month'
+      description: 'GitLab is updated very often. The schedule is predictable with a monthly release cycle.'
+      gitlab: true
+      competitor: false
 
 gitlab_ce_ee_vs_saas:
   title: 'GitLab CE/EE vs. SaaS'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab CE/EE'
-    logo: '/images/comparison/ce-ee-gitlab-logo.svg'
-  competitor_two:
-    name: 'SaaS'
-    logo: 'null'
+  competitor_one_name: 'GitLab CE/EE'
+  competitor_two_name: 'SaaS'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'Containment'
+      description: 'Containing your company's IP behind the company's firewall gives you protection from unauthorized access. Learn from the lessons of Code Space'
+      documentation_link: [Lessons from Code Space](http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html)
+      gitlab: true
+      competitor: false
+    - title: 'Integrations'
+      description: 'Integrating with Authentication and Authorization (LDAP / AD), issue tracking, CI, deployment and other tools such as ALM, PLM, Agile and Automation tools.'
+      documentation_link: []()
+      gitlab: true
+      competitor: false
+    - title: 'Control'
+      description: 'Take control of maintenance downtime, don't be at the mercy of your hosting provider. Control how and where your code is backed up and stored.'
+      documentation_link: []()
+      gitlab: true
+      competitor: false
+    - title: 'Choice and Flexibility'
+      description: 'GitLab CE/EE can be installed on physical servers, virtualized servers (dedicated or shared), purpose-built appliances and virtualized appliances. These aren’t available with hosted solutions. Likewise, most on-premises servers can be deployed on a variety of operating systems and there’s more choice of on-premises solutions in general.'
+      documentation_link: []()
+      gitlab: true
+      competitor: false
+    - title: 'Retrieval'
+      description: 'Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with GitLab CE/EE.'
+      documentation_link: []()
+      gitlab: true
+      competitor: false
+    - title: 'In good company'
+      description: 'GitLab is the most adopted on-premises solution for developer collaboration, deployed at over 100,000 organizations worldwide.'
+      documentation_link: []()
+      gitlab: true
+      competitor: false
 
 gitlab_ce_vs_gitlab_ee:
   title: 'GitLab CE vs. GitLab EE'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab CE'
-    logo: '/images/comparison/ce-gitlab-logo.svg'
-  competitor_two:
-    name: 'GitLab EE'
-    logo: '/images/comparison/ee-gitlab-logo.svg'
+  competitor_one_name: 'GitLab CE'
+  competitor_two_name: 'GitLab EE'
   features:
     - title: 'Feature 1'
       description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
+      gitlab: true
+      competitor: true
     - title: 'Feature 2'
       description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+      gitlab: true
+      competitor: false
 
 gitlab_vs_svn:
   title: 'GitLab vs. SVN'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab'
-    logo: '/images/comparison/gitlab-logo.svg'
-  competitor_two:
-    name: 'SVN'
-    logo: 'null'
+  competitor_one_name: 'GitLab'
+  competitor_two_name: 'SVN'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: 'Distributed'
+      description: 'Git, on which GitLab is built, is fully distributed. Every user has a complete copy of the repository, allowing for much faster access to history, easier branching and an overall better experience.'
+      gitlab: true
+      competitor: false
+    - title: 'Access Control'
+      description: 'For someone to commit to a local respository, no access has to be given in Git. At the same time, the owner of the canonical repository has the ability to restrict pushes to the repository or certain branches.'
+      gitlab: true
+      competitor: false
+    - title: 'Powerful Branching'
+      description: 'A branch in Git contains the entire history that preceeds it. It's also created or moved towards instantly and easily shared.'
+      gitlab: true
+      competitor: false
+    - title: 'Speed'
+      description: 'Git is really fast. Performing a diff, viewing history, committing and merging changes, obtaining any revision and any form of branching is much faster in Git than SVN.'
+      gitlab: true
+      competitor: false
+    - title: 'Size Requirements'
+      description: 'A single repository in Git is typically a number of times smaller than the same repository in SVN.'
+      gitlab: true
+      competitor: false
 
 gitlab_vs_gitswarm:
   title: 'GitLab vs. GitSwarm'
-  last_updated: 'January 30, 2017'
-  competitor_one:
-    name: 'GitLab'
-    logo: '/images/comparison/gitlab-logo.svg'
-  competitor_two:
-    name: 'GitSwarm'
-    logo: 'null'
+  competitor_one_name: 'GitLab'
+  competitor_two_name: 'GitSwarm'
   features:
-    - title: 'Feature 1'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: true
-    - title: 'Feature 2'
-      description: 'Lorem ipsum dolor sit amet.'
-      competitor_one: true
-      competitor_two: false
+    - title: ''
+      description: ''
+      gitlab: true
+      competitor: false
+    - title: ''
+      description: ''
+      gitlab: true
+      competitor: false
+    - title: ''
+      description: ''
+      gitlab: true
+      competitor: false
