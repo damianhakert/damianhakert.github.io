@@ -504,7 +504,7 @@ description: "Short description for the blog post" # included in August, 2016
 ---
 ```
 
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image`, `description`, CTA buttons, and `author_gitlab`!
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image`, `description`, CTA buttons, `author_gitlab`, and `guest`!
 {: .alert .alert-warning .ambar}
 
 ```yaml
@@ -519,6 +519,7 @@ description: "Short description for the blog post"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
+guest: true # required when the author is not a GitLab Team Member
 ---
 ```
 
@@ -675,6 +676,21 @@ The final result is a red button over the cover image of the post.
 The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
 
 This option was introduced in January/2017.
+{:.note}
+
+#### Guest
+
+The variable `guest` indicates whether the author is a guest (anyone who's not a GitLab Team member), and should be only included in the frontmatter when that's the case. Technically, it's a conditional variable (`true` or `false`) to link the author's name their profile in the [Team](/team/) page.
+
+For Community Posts, Guest Posts, Partner Posts, and Crossposts, it must be present:
+
+```yaml
+guest: true
+```
+
+For Team Posts, please do not add it at all (instead of setting it to `false).
+
+Introduced in January, 2017.
 {:.note}
 
 #### Comments
