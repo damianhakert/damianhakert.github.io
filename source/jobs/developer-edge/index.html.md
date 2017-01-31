@@ -7,11 +7,15 @@ Edge Backend Developers are primarily tasked with improving the productivity of
 the GitLab developers (from both GitLab Inc and the rest of the community), and
 making the GitLab project maintainable in the long-term.
 
-See the description on the [Edge team](/handbook/edge) for more details. Edge
+See the description of the [Edge team](/handbook/edge) for more details. Edge
 Backend Developers report to the [Edge Lead](/jobs/edge-lead/).
 
 We are currently looking for [backstage specialists](/jobs/specialist/backstage),
-or developers with strong interest in the backstage speciality.
+or developers with strong interest in this speciality. The position
+also involves working with the community as
+[merge request coach](/jobs/merge-request-coach), and working together with our
+[issue triage specialists](/jobs/specialist/issue-triage) to respond and address
+issues from the community.
 
 ## Responsibilities
 
