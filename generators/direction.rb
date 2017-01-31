@@ -94,7 +94,9 @@ def generate_direction
         direction_output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
 
         issues.each do |issue|
-          direction_output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["id"]})\n"
+          direction_output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["id"]})"
+          direction_output << ' <kbd>EE Premium</kbd>' if(issue["labels"].include? "EE Premium")
+          direction_output << "\n"
           $stdout.flush
         end
 
@@ -121,7 +123,9 @@ def label_list(label,not_label=nil)
   edition.each do |project|
     issues = project.wishlist_issues(label, not_label)
     issues.each do |issue|
-      output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["iid"]})\n"
+      output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["iid"]})"
+      output << ' <kbd>EE Premium</kbd>' if(issue["labels"].include? "EE Premium")
+      output << "\n"
       $stdout.flush
     end
   end
@@ -133,7 +137,7 @@ def generate_wishlist
   print "Generating wishlist..."
   wishlist_output = {}
 
-  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product","Prometheus","deploy"].each do |label|
+  ["code review","container registry","deploy","EE Premium","issues","pages","major wins","moonshots","performance","Prometheus","usability","vcs for everything"].each do |label|
     wishlist_output[label] = label_list(label)
   end
   wishlist_output["CI"] = label_list("CI",["pages","deploy","container registry"])
