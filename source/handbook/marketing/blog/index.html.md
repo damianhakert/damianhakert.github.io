@@ -496,8 +496,8 @@ sure to provide the correct information, and do not add nor remove anything from
 ---
 title: "This is the post title"
 author: Firstname Lastname
-author_gitlab: GitLab.com userID # included in January, 2017
-author_twitter: userID
+author_gitlab: GitLab.com username # included in January, 2017
+author_twitter: Twitter username
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post" # included in August, 2016
@@ -511,8 +511,8 @@ description: "Short description for the blog post" # included in August, 2016
 ---
 title: "This is the post title"
 author: Firstname Lastname
-author_gitlab: GitLab.com userID
-author_twitter: userID
+author_gitlab: GitLab.com username
+author_twitter: Twitter username
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post"
