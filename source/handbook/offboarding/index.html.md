@@ -50,6 +50,7 @@ When it is time for offboarding, create issue for former team member on the dev 
    1. [ ] PeopleOps: Remove former team member from the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
    1. [ ] Hiring Manager: Remove team member from team meeting invitations.
    1. [ ] Hiring Manager: Cancel weekly 1:1 meetings with new team member.
+   1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), banking information, ethnicity and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 1. [ ] People Ops: If there is one, remove team member's pet from [team pets page](https://about.gitlab.com/team-pets). Don't forget to remove the picture.
 1. [ ] People Ops: Remove mentions of the team member from our documentation and handbook by doing a text search for their `username` and `first_name` in the `www-gitlab-com` and `gitlab-ce` repositories
@@ -82,8 +83,8 @@ welcome email to the employee at their work email on their first date of hire.
 
 #### For GitLab BV employees only
 
-1. [x] _not relevant_ New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
-This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
+1. [x] _not relevant_ People Ops: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLSekAouLh-DQsDXVho4TYL62CsBK8Pj0NhfI--npa3L1nF8IqA/viewform) using the data the team member entered into BambooHR and send the HR Savvy.
+This info is needed to get the team member's profile ready with Savvy HR in order to get pay slips and other information. People Ops will file in BambooHR.
 
 #### All team members
 
@@ -93,14 +94,12 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [x] _not relevant_ New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
-   1. [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
-   1. [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
+   1. [ ] People Ops: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
+   1. [ ] Hiring Manager: coordinate or actively change sensitive shared passwords. In particular:
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
-      1. [ ] team call recordings password (i.e. Zoom login)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
-1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 1. [ ] Twitter/TweetDeck
    1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
