@@ -5,7 +5,7 @@ author_twitter: XMDRamos
 author_gitlab: marcia
 categories: tutorial
 image_title: 
-description: "How to setup GitLab Pages with a CloudFlare SSL/TLS Certificate"
+description: "How to setup GitLab Pages with a CloudFlare SSL/TLS Certificate for your (sub)domain"
 ---
 
 [CloudFlare SSL/TLS certificates][cert] are free to use. If you want your [GitLab Pages] site to work with them, it's as simple as it could be. There's just a **trick** that perhaps you don't know about (yet)!
