@@ -11,7 +11,11 @@
                 = article.title
           .author
             %strong
-              = article.data.author
+              - anchor = article.data.author_twitter || article.data.author_gitlab
+              - if anchor
+                = link_to article.data.author, "/team/##{anchor}"
+              - else
+                = article.data.author
               - if article.data.author_gitlab
                 %span -
                 = link_to "https://gitlab.com/#{article.data.author_gitlab}" do
