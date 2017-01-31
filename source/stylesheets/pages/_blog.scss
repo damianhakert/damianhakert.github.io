@@ -121,11 +121,11 @@
 
     .author-gitlab {
       i {
-        color: $color-secondary;
+        color: $color-gray;
         text-decoration: none;
 
         &:hover {
-          color: $color-secondary-alt;
+          color: $color-secondary;
           text-decoration: none;
         }
       }
@@ -133,11 +133,11 @@
 
     .author-twitter {
       i {
-        color: $link-color;
+        color: $color-gray;
         text-decoration: none;
 
         &:hover {
-          color: $blog-color-note;
+          color: $link-color;
           text-decoration: none;
         }
       }
@@ -337,16 +337,18 @@
       a {
         color: $blog-color-heading;
         text-decoration: none;
+        font-weight: 600;
 
         &:hover {
           text-decoration: none;
+          color: $blog-color-purple;
         }
       }
     }
 
     .author-gitlab {
       i {
-        color: $color-secondary-alt;
+        color: $color-white;
 
         &:hover {
           color: $color-secondary;
@@ -357,10 +359,10 @@
 
     .author-twitter {
       i {
-        color: $link-color;
+        color: $color-white;
 
         &:hover {
-          color: $blog-color-heading;
+          color: $link-color;
           text-decoration: none;
         }
       }
