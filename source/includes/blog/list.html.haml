@@ -17,12 +17,12 @@
               - else
                 = article.data.author
               - if article.data.author_gitlab
-                %span -
+                %span &nbsp;
                 = link_to "https://gitlab.com/#{article.data.author_gitlab}" do
                   %spam.author-gitlab
                     %i.fa.fa-gitlab
               - if article.data.author_twitter
-                %span -
+                %span &nbsp;
                 = link_to "https://twitter.com/#{article.data.author_twitter}" do
                   %span.author-twitter
                     %i.fa.fa-twitter
