@@ -2298,6 +2298,17 @@
   story:  |
           Joining February 6th
 
+- name: S.G.
+  locality:
+  country:
+  role: <a https://about.gitlab.com/jobs/business-development-representative-outbound/">Sales Development Rep</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th
+
 - name: "Ernst (Interim)"
   placeholder: true
   locality:
