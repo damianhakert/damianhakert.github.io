@@ -31,6 +31,8 @@ We assume you're familiar with SSL/TLS, DNS, GitLab Pages, and CloudFlare.
 
 With [GitLab Pages], you can [deploy a static website][pages-setup-post] with custom domains/subdomains and SSL/TLS support.
 
+This tutorial responds to the issue "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)", and other cases where GitLab users asked specifically how do to add a CloudFlare certificate to GitLab Pages. 😉 We won't cover anything apart from this.
+
 If you don't know how to setup your GitLab Pages site:
 
 - Take a look at the [GitLab Pages] overview
@@ -55,6 +57,8 @@ DNS record ([`CNAME`][cname] or [`A`][a]) pointing your subdomain (`CNAME`) or r
 The image below shows both `CNAME` and `A` records (for this demo purposes), but of course, you will only need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
 
 ![cloud-dns](https://gitlab.com/pages/pages.gitlab.io/uploads/cd7fe97c41a9415755ccded9542c904f/cloud-dns.png){:.shadow}
+
+If you'd already set this up, just jump into the second step.
 
 ### STEP 2. Generate your Certificate
 
@@ -134,24 +138,22 @@ It works fine with the encryption set to _"Full"_ or _"Full (strict)"_ on CloudF
 
 That's it, now your site runs on `https` with a custom domain and a free CloudFlare certificate, valid up to 15 years!
 
-This tutorial responds the issue "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)", and other cases where GitLab users ask how do to this. 😉
-
 Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 
 <!-- identifiers -->
 
+[@GitLab]: https://twitter.com/gitlab
+[a]: https://support.dnsimple.com/articles/a-record/
+[cert]: https://www.cloudflare.com/ssl/
+[cloudflare]: https://www.cloudflare.com
+[cname]: https://en.wikipedia.org/wiki/CNAME_record
+[GitLab Pages]: https://pages.gitlab.io
+[Jekyll]: https://jekyllrb.com/
+[pages-docs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
 [pages-setup-domains]: /2016/04/07/gitlab-pages-setup/#custom-domains
 [pages-setup-post]: /2016/04/07/gitlab-pages-setup/
-[GitLab Pages]: https://pages.gitlab.io
-[pages-docs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
-[@GitLab]: https://twitter.com/gitlab
-[static site]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
-[cloudflare]: https://www.cloudflare.com
-[a]: https://support.dnsimple.com/articles/a-record/
-[cname]: https://en.wikipedia.org/wiki/CNAME_record
+[root]: https://support.cloudflare.com/hc/en-us/articles/218689638
 [ssg-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [ssg-2]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssg-3]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
-[root]: https://support.cloudflare.com/hc/en-us/articles/218689638
-[Jekyll]: https://jekyllrb.com/
-[cert]: https://www.cloudflare.com/ssl/
+[static site]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
