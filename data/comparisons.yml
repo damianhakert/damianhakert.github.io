@@ -97,7 +97,7 @@ gitlab_self_hosted_vs_github:
       description: "GitHub has Projects, which are not tight to labels in any way, making it hard to automatize flows. GitLab has Issue boards. Each list of an issue board is based on a label that exists in your issue tracker. The Issue Board will therefore match the state of your issue tracker in a user friendly way."
       documentation_link: "[Feature highlight: Issue Boards](https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/)"
       competitor_one: true
-      competitor: 'sortof'
+      competitor_two: 'sortof'
     - title: "Time tracking"
       description: "Time Tracking in GitLab Enterprise Edition lets your team add estimates and record time spent on issues and merge requests. There is no need to use external tools anymore."
       documentation_link: "[Time Tracking is available as an Enterprise Edition Product](https://about.gitlab.com/features/time-tracking/)"
@@ -115,7 +115,7 @@ gitlab_self_hosted_vs_github:
       competitor_two: false
 
 gitlab_ee_vs_github_enterprise:
-  title: "GitLab Entreprise Edition vs. GitHub Enterprise"
+  title: "GitLab Enterprise Edition vs. GitHub Enterprise"
   competitor_one:
     name: 'GitLab Enterprise Edition'
     logo: '/images/comparison/ee-gitlab-logo.svg'
@@ -178,7 +178,7 @@ gitlab_ee_vs_github_enterprise:
       description: "Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration."
       documentation_link: "[More information about AD / LDAP integration](http://doc.gitlab.com/ee/integration/ldap.html)"
       competitor_one: true
-      competitor: 'sortof'
+      competitor_two: 'sortof'
     - title: "Multiple approvals in code review"
       description: "To ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it. You can undo an approval by removing it after the fact."
       documentation_link: "[Approvals Documentation](http://doc.gitlab.com/ee/workflow/merge_request_approvals.html)"
@@ -188,7 +188,7 @@ gitlab_ee_vs_github_enterprise:
       description: "Easily migrate all repos and merge request data from your previous provider."
       documentation_link: ""
       competitor_one: true
-      competitor: 'sortof'
+      competitor_two: 'sortof'
     - title: "Issue Weights"
       description: "Manage issues using Agile practices by setting the weight of an issue."
       documentation_link: "[Issue Weights Documentation](http://doc.gitlab.com/ee/workflow/issue_weight.html)"
@@ -198,7 +198,7 @@ gitlab_ee_vs_github_enterprise:
       description: "GitHub allows site administrators to create pre-received hooks at a global or project level. GitLab also allows the creation of those hooks at a project or global level, but they can be set by either the project owner or an administrator, and provides a simple user interface to define those push rules."
       documentation_link: "[Documentation on push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)"
       competitor_one: true
-      competitor: 'sortof'
+      competitor_two: 'sortof'
     - title: "Prevent committing secrets in the repositories"
       description: "GitLab provides a way to avoid committing sensitive files to your repositories automatically."
       documentation_link: "[Documentation](https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository)"
