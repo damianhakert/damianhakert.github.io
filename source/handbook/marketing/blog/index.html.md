@@ -496,7 +496,7 @@ sure to provide the correct information, and do not add nor remove anything from
 ---
 title: "This is the post title"
 author: Firstname Lastname
-author_gitlab: GitLab.com username # included in January, 2017
+author_gitlab: GitLab.com username # included in February, 2017
 author_twitter: Twitter username
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
@@ -690,7 +690,7 @@ guest: true
 
 For Team Posts, please do not add it at all (instead of setting it to `false`).
 
-Introduced in January, 2017.
+Introduced in February, 2017.
 {:.note}
 
 #### Comments
