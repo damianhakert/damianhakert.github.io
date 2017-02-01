@@ -72,7 +72,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
-The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/knowledge-base/zendesk/setting_ticket_priority.html)
+The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/workflows/zendesk/setting_ticket_priority.html)
 
 ## Tiered Support
 
