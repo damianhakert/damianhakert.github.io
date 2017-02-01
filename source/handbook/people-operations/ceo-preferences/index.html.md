@@ -81,7 +81,7 @@ The EA should follow up to make sure the draft post is submitted.
 * The [agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
-* Schedule calls in European timezones in the morning(am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time.
+* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time.
 
 ### Formats for invites
 * MTG for meetings in person, either at the "office" or another location.
