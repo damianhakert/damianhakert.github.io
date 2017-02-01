@@ -52,7 +52,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     kramdown (1.13.0)
-    libv8 (3.16.14.17)
+    libv8 (5.0.71.48.3)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -104,6 +104,8 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 2.0)
     mini_portile2 (2.1.0)
+    mini_racer (0.1.4)
+      libv8 (~> 5.0, < 5.1.11)
     minitest (5.9.1)
     multi_xml (0.5.5)
     nokogiri (1.6.8.1)
@@ -123,7 +125,6 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    ref (2.0.0)
     rouge (2.0.7)
     sass (3.4.22)
     scss_lint (0.50.3)
@@ -131,9 +132,6 @@ GEM
       sass (~> 3.4.20)
     servolux (0.12.0)
     stringex (2.6.1)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -157,13 +155,13 @@ DEPENDENCIES
   middleman-livereload
   middleman-minify-html
   middleman-syntax
+  mini_racer
   nokogiri
   scss_lint
   stringex
-  therubyracer
   tzinfo-data
   wdm (~> 0.1.0)
   yaml-lint
 
 BUNDLED WITH
-   1.13.6
+   1.13.7

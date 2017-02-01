@@ -23,7 +23,7 @@ gem 'nokogiri'
 # http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows#comment7926287_6356450
 # ... looks like it is not needed when we are not deploying.
 # So, Windows users can safely comment this gem to run `bundle install`, then `bundle exec middleman`
-gem 'therubyracer'
+gem 'mini_racer'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
