@@ -2,6 +2,7 @@
 title: "CodePen, welcome to GitLab!"
 author: Marcia Ramos
 author_twitter: XMDRamos
+author_gitlab: marcia
 categories: customer stories
 image_title: '/images/blogimages/codepen-welcome-to-gitlab-cover.png'
 description: "Yes, it's worth it - CodePen has moved to GitLab!"

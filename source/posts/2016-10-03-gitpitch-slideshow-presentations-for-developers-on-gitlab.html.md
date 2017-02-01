@@ -6,6 +6,7 @@ categories: integration
 image_title: '/images/blogimages/gitpitch-slideshow-presentations-for-developers-on-gitlab/cover.png'
 description: "Learn how PITCHME.md can help you present your ideas and code to any audience."
 twitter_image: '/images/tweets/gitpitch-slideshow-presentations-for-developers-on-gitlab.png'
+guest: true
 ---
 
 Today I would like to introduce [GitPitch](https://gitpitch.com), a slideshow presentation service for developers on [GitLab](https://about.gitlab.com).

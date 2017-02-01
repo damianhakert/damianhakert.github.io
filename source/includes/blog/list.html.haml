@@ -10,10 +10,26 @@
               %h2
                 = article.title
           .author
-            - if article.data.author_twitter
-              = link_to(article.data.author, "https://twitter.com/#{article.data.author_twitter}")
-            - else
-              = article.data.author
+            %strong
+              - guest = article.data.guest
+              - anchor = article.data.author_twitter || article.data.author_gitlab
+              - if guest
+                = article.data.author
+              - else
+                - if anchor
+                  = link_to article.data.author, "/team/##{anchor}"
+                - else
+                  = article.data.author
+              - if article.data.author_gitlab
+                %span &nbsp;
+                = link_to "https://gitlab.com/#{article.data.author_gitlab}" do
+                  %spam.author-gitlab
+                    %i.fa.fa-gitlab
+              - if article.data.author_twitter
+                %span &nbsp;
+                = link_to "https://twitter.com/#{article.data.author_twitter}" do
+                  %span.author-twitter
+                    %i.fa.fa-twitter
           .date
             = article.date.to_time.strftime '%b %e, %Y'
           .summary

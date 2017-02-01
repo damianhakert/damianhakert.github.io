@@ -2,7 +2,7 @@
 title: "How to Build a Strong Developer Community"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/default-blog-image.png'
 description: Our developer advocate Amanda Folson shares some community building tips with Jasmine Anteunis, co-founder of startup Recast.ai
 ---
