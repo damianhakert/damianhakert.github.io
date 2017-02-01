@@ -183,7 +183,7 @@ in question.
 {: #tags}
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
-add tags to it. For a list of current tags, what they mean, and how to add tags, see the [tags workflow](/handbook/support/workflows/support_workflows/tagging-tickets.md).
+add tags to it. For a list of current tags, what they mean, and how to add tags, see the [tags workflow](/handbook/support/workflows/support_workflows/tagging-tickets.html).
 
 
 ### After the first response
