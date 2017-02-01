@@ -107,5 +107,4 @@ deploy:
   tags:
     - deploy
   only:
-    - master@gitlab/www-gitlab-com
     - master@gitlab-com/www-gitlab-com
