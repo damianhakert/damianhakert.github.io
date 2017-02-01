@@ -318,11 +318,11 @@ our attention the most.
 Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production. 
 Follow this timeline for the release that will be shipped in Month `M`.
 
-* Month `M-1`, 4th: Release scope established | In scope issues marked with the milestone
+* Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
 * Month `M-1`, 7th: Release post created (WIP merge request)
-* Month `M`, 7th: Complete issues merged into master | Incomplete issues de-scoped, milestone removed from them
+* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them
 * Month `M`, 15th: Release post first draft complete (WIP merge request)
-* Month `M`, 22nd: Release shipped to production | Release post published
+* Month `M`, 22nd: Release shipped to production \| Release post published
 
 With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd, 
 the scope for the following release has already been established earlier in that same month.
