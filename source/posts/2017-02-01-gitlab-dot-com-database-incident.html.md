@@ -107,3 +107,5 @@ We’re working on recovering right now by using a backup of the database from a
 Below a graph showing the time of deletion and subsequent copying in of data.
 
 ![](db_incident/delete.png)
+
+[Also, we'd like to thank the amazing support we've received on Twitter and elsewhere through #hugops](https://twitter.com/i/moments/826818668948549632)
