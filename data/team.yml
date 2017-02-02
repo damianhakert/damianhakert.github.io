@@ -35,6 +35,7 @@
   locality: San Francisco, CA
   country: USA
   role: Board of Directors
+  reports_to: Khosla Ventures
   twitter: khoslaventures
   picture: logo-extra-whitespace.png
   story:  |
@@ -44,6 +45,7 @@
   locality: San Francisco, CA
   country: USA
   role: Board of Directors
+  reports_to: August Capital
   twitter: VilliSpeaks
   gitlab: Villi 
   picture: logo-extra-whitespace.png
