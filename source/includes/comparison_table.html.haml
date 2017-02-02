@@ -1,47 +1,73 @@
-.panel.panel-success
-  .panel-heading
-    %h2.panel-title
-      = comparison_block.title
-  %table.table.compare-table
-    %colgroup
-      %col{:width => "80%"}
-      %col{:width => "10%"}
-      %col{:width => "10%"}
-    %thead
+.container.dropdown.text-center
+  .row
+    .col-sm-12
+      .dropdown.level
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span
+            = comparison_block.title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu
+          %li
+            = highlight_active_nav_link("GitLab Self-hosted vs. GitHub.com", "/comparison/gitlab-self-hosted-vs-github.html")
+          %li
+            = highlight_active_nav_link("GitLab EE vs. GitHub Enterprise", "/comparison/gitlab-ee-vs-github-enterprise.html")
+          %li
+            = highlight_active_nav_link("GitLab.com vs. GitHub.com", "/comparison/gitlab-vs-github.html")
+          %li
+            = highlight_active_nav_link("GitLab CE/EE vs. Bitbucket Server", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html")
+          %li
+            = highlight_active_nav_link("GitLab.com vs. Bitbucket.org", "/comparison/gitlab-com-vs-bitbucket-org.html")
+          %li
+            = highlight_active_nav_link("GitLab CE/EE vs. SaaS", "/comparison/gitlab-ce-ee-vs-saas.html")
+          %li
+            = highlight_active_nav_link("GitLab CE vs. GitLab EE", "/comparison/gitlab-ce-vs-gitlab-ee.html")
+          %li
+            = highlight_active_nav_link("GitLab vs. SVN", "/comparison/gitlab-vs-svn.html")
+          %li
+            = highlight_active_nav_link("GitLab vs. GitSwarm", "/comparison/gitlab-vs-gitswarm.html")
+%h1.titles-comparison-companies.text-center
+  = comparison_block.title
+%table.table.compare-table.comparing-gitlab
+  %colgroup
+    %col{:width => "80%"}
+    %col{:width => "10%"}
+    %col{:width => "10%"}
+  %thead
+    %tr
+      %th.text-left.table-title
+        FEATURES
+      %th.text-center
+        - if (comparison_block.competitor_one.logo != "null")
+          %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}", class: "logo" }
+        - else
+          = comparison_block.competitor_one.name
+      %th.text-center
+        - if (comparison_block.competitor_two.logo != "null")
+          %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}", class: "logo" }
+        - else
+          = comparison_block.competitor_two.name
+  %tbody.header.first
+    - comparison_block.features.each do |feature|
       %tr
-        %th.text-left
-          Features
-        %th.text-center
-          - if (comparison_block.competitor_one.logo != "null")
-            %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}" }
-          - else 
-            = comparison_block.competitor_one.name
-        %th.text-center
-          - if (comparison_block.competitor_two.logo != "null")
-            %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}" }
-          - else
-            = comparison_block.competitor_two.name
-    %tbody.header.first
-      - comparison_block.features.each do |feature|
-        %tr
-          %td
+        %td.feature-in-list
+          %p.feature-in-list-title
             %strong= feature.title
-            %br
+          %p
             = feature.description
-          %td.text-center
-            - if (feature.competitor_one == "sortof")
-              %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of" }
-            - if (feature.competitor_one == true)
-              %img{ src: "/images/comparison/yes-icon.svg", alt: "true" }
-            - if (feature.competitor_one == false)
-              %img{ src: "/images/comparison/no-icon.svg", alt: "false" }
-          %td.text-center
-            - if (feature.competitor_two == "sortof")
-              %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of" }
-            - if (feature.competitor_two == true)
-              %img{ src: "/images/comparison/yes-icon.svg", alt: "true" }
-            - if (feature.competitor_two == false)
-              %img{ src: "/images/comparison/no-icon.svg", alt: "false" }
+        %td.text-center
+          - if (feature.competitor_one == "sortof")
+            %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of", class: "check" }
+          - if (feature.competitor_one == true)
+            %img{ src: "/images/comparison/yes-icon.svg", alt: "true", class: "check" }
+          - if (feature.competitor_one == false)
+            %img{ src: "/images/comparison/no-icon.svg", alt: "false", class: "check" }
+        %td.text-center
+          - if (feature.competitor_two == "sortof")
+            %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of", class: "check" }
+          - if (feature.competitor_two == true)
+            %img{ src: "/images/comparison/yes-icon.svg", alt: "true", class: "check" }
+          - if (feature.competitor_two == false)
+            %img{ src: "/images/comparison/no-icon.svg", alt: "false", class: "check" }
 
 %p
   Last updated:
