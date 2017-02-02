@@ -4,7 +4,7 @@ author: Rebecca Dodd
 author_twitter: Reberoodle
 categories: release
 image_title: '/images/blogimages/8-16-webcast-recap.png'
-description: "Auto Deploy on GKE, Web Terminal, Monitoring with Prometheus and we Brought Time Tracking to CE!"
+description: "Auto Deploy on GKE, Web Terminal, Monitoring with Prometheus Plus Time Tracking Comes to CE!"
 ---
 
 In this webcast, our Head of Product [Mark Pundsack](https://gitlab.com/markpundsack) and Product Manager [Régis Freyd](https://gitlab.com/regisf) show us what's new in our latest release, demo auto deploy, web terminal and monitoring, let us in on what's next for GitLab, and take your questions.
@@ -14,7 +14,7 @@ In this webcast, our Head of Product [Mark Pundsack](https://gitlab.com/markpund
 With GitLab 8.15 and 8.16 we brought you auto deploy with Kubernetes using Google Container Engine, introduced our popular Time Tracking tool to the Community Edition, made it easier to fix bugs right within our UI with the Web Terminal, released monitoring functionality with Prometheus and added Merge Request Approvals to our Enterprise Edition. You can watch the recording of our release webcast and check out the highlights below.
 
 <figure class="video_container">
-<iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe src="https://www.youtube.com/watch?v=iYPhXm8RlxI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Highlights
@@ -22,7 +22,7 @@ With GitLab 8.15 and 8.16 we brought you auto deploy with Kubernetes using Googl
 ### [01:37] Introduction to Git and GitLab
 ### [03:53] GitLab's Idea to Production Vision
 
-At the end of 2016 we completed our vision of [Idea to Production](https://about.gitlab.com/handbook/sales/demo/) and with the release of [GitLab 8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/), we took the first step toward our new goal of making world-class monitoring easier for everyone by bundling in Prometheus and its Node Exporter with our Omnibus package.
+> At the end of 2016 we completed our vision of [Idea to Production](https://about.gitlab.com/handbook/sales/demo/) and with the release of [GitLab 8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/), we took the first step toward our new goal of making world-class monitoring easier for everyone by bundling in Prometheus and its Node Exporter with our Omnibus package.
 
 ### [06:05] Auto Deploy
 
