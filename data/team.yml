@@ -31,6 +31,25 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  twitter: khoslaventures
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
+
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  twitter: VilliSpeaks
+  gitlab: Villi 
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
+
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
