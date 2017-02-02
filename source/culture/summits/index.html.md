@@ -1,3 +1,8 @@
+---
+layout: markdown_page
+title: "GitLab Summits"
+---
+
 ### What, where, and when:
 
 We try to get together every 9 months or so to all get some face time together,build community, and get some work done! Since our team lives everywhere on the globe, we try to plan a different location for each summit
