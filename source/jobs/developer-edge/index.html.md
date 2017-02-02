@@ -97,6 +97,7 @@ The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
 - [Engineering Workflow](/handbook/engineering/workflow)
 - [Edge Team](/handbook/edge)
 - [Backstage speciality](/jobs/specialist/backstage)
+- [Issue Triage speciality](/jobs/specialist/issue-triage)
 
 ## Hiring Process
 
@@ -115,7 +116,7 @@ Applicants for this position can expect the hiring process to follow the order b
   interview with the Edge Lead.
 * Candidates will then be invited to schedule a 45-minute technical interview
   with a Senior Developer.
-* Candidates will be invited to schedule a interview with our VP of Engineering.
+* Candidates will be invited to schedule an interview with our VP of Engineering.
 * Finally, candidates will have an interview with our CEO.
 * Successful candidates will subsequently be made an offer via email.
 
