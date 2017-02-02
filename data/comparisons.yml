@@ -386,6 +386,41 @@ gitlab_ce_ee_vs_saas:
 
 gitlab_ce_vs_gitlab_ee:
   title: "GitLab CE vs. GitLab EE"
+  description: "GitLab Community Edition is great for personal projects or small teams with minimal user management and workflow control needs. GitLab Enterprise Edition offers ALL the benefits of Community Edition, with added support for large companies which often have distributed teams who need advanced workflow controls and security for their professional projects, High Availability, and Premium Support."
+  competitor_one:
+    name: 'GitLab CE'
+    logo: '/images/comparison/ce-gitlab-logo.svg'
+  competitor_two:
+    name: 'GitLab EE'
+    logo: '/images/comparison/ee-gitlab-logo.svg'
+  features:
+    - title: "Protect your code"
+      description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab Enterprise Edition Premium, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
+      competitor_one: false
+      competitor_two: true
+    - title: "Avoid Downtime"
+      description: "For mission critical releases, you cannot afford downtime. With GitLab Enterprise Edition, a Service Engineer will guide you and help you identify your specific HA needs, and map out an appropriate architecture."
+      competitor_one: false
+      competitor_two: true
+    - title: "Advanced Support"
+      description: "While the best tools are intuitive, there will be a time when you'll need to troubleshoot. GitLab Enterprise Edition gives your team a single point of contact for all of your onboarding, training, upgrading, and troubleshooting needs. Purchasing Enterprise Edition means that support is there 24/7, with live upgrade assistance so you can release code faster."
+      competitor_one: false
+      competitor_two: true
+    - title: "Admin Control"
+      description: "To maintain the integrity of your code, GitLab Enterprise Edition gives admins the ability to view any modifications made within the GitLab server in an advanced audit log system, so you can control, analyze and track every change."
+      competitor_one: false
+      competitor_two: true
+    - title: "Admin Control"
+      description: "GitLab Enterprise Edition gives your Admin’s the ability to automatically sync groups and manage SSH-keys, permissions, and authentication, so you can focus on building your product, not configuring your tools"
+      competitor_one: false
+      competitor_two: true
+    - title: "Merge Request Approval"
+      description: "When a project requires multiple sign-offs, GitLab Enterprise Edition enables you to make sure every merge request is approved by one or more people. Merge request approvals allow you to set the number of necessary approvals and predefine a list of approvers that will need to approve every merge request in a project, and in-turn improve your code’s quality.
+      competitor_one: false
+      competitor_two: true
+
+gitlab_ees_vs_gitlab_eep:
+  title: "GitLab EES vs. GitLab EEP"
   competitor_one:
     name: 'GitLab CE'
     logo: '/images/comparison/ce-gitlab-logo.svg'
