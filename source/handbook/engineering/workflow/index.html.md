@@ -216,14 +216,14 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ### Scheduling issues into a milestone
 
-Towards the end of a milestone, engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
+Engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
 * Engineering leads are responsbile for resource planning and allocation.
 * Engineering leads are responsible for prioritizing bugs and tech debt.
 * Product managers are responsbile for prioritizing features, with feedback from all relevant stakeholders.
-* Based on the above, engineering leads and product managers collaborate and establish scope for the following milestone, by the **19th** of the month.
-* The in scope issues are labeled `Deliverable`.
+* Based on the above, engineering leads and product managers collaborate and establish scope by the **4th** of a month, for the release in the subsequent month,
+according to the [scheduling timeline](https://about.gitlab.com/handbook/product/#scheduling-timeline-throughout-a-milestone).
 * The entire process happens asynchronously, and is mediated through individual issues themselves.
-* The list of `Deliverable` in scope issues are documented in a dedicated milestone issue, with the **19th** being the scheduling deadline.
+
 
 ### Process improvement
 

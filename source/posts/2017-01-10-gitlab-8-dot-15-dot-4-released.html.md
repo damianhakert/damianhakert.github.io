@@ -2,6 +2,7 @@
 title: "GitLab 8.15.4, 8.14.6, and 8.13.11 Released"
 author: Douglas Barbosa Alexandre
 author_twitter: dbalexandre
+author_gitlab: dbalexandre
 categories: release
 ---
 

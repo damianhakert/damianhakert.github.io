@@ -2,6 +2,7 @@
 title: "Tower Launches GitLab Integration"
 author: Rebecca Dodd
 author_twitter: Reberoodle
+author_gitlab: rebecca
 categories: integration
 image_title: '/images/blogimages/gitlab-tower-integration-puzzle.jpg'
 description: "GitLab users can now manage their accounts right within Tower – give it a try with 20% off."

@@ -2,6 +2,7 @@
 title: "GitLab 8.16.1, 8.15.5, 8.14.7, and 8.13.12 Security Release"
 author: Robert Speicher
 author_twitter: rspeicher
+author_gitlab: rspeicher
 categories: release
 ---
 

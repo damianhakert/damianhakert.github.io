@@ -2,7 +2,9 @@
 title: "GitLab 8.16.3 released"
 author: Robert Speicher
 author_twitter: rspeicher
+author_gitlab: rspeicher
 categories: release
+guest: false
 ---
 
 Today we're releasing version 8.16.3 for GitLab Community Edition (CE) and
