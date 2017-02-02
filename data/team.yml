@@ -1783,7 +1783,7 @@
 - name: Brent Jensen
   locality: Springville, UT
   country: USA
-  role: Sales Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/sales-development-team-lead/">Sales Development Team Lead</a>
   reports_to: Regional Sales Director - US
   picture: Brent.jpg
   twitter: btwosockz
@@ -2260,9 +2260,9 @@
   twitter: mydigitalself
   gitlab: mydigitalself
   story:  |
-          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400. 
-          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff, 
-          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter. 
+          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400.
+          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff,
+          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
           He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
 - name: Tim Peix
