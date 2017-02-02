@@ -3,6 +3,97 @@
 
 $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
 
+.comparison-header {
+  background: url("/images/comparison/gitlab-icon-illustration.svg");
+  //background: url("/images/feature_page/lines.png") center right no-repeat;
+  background: linear-gradient(to left, $color-primary, $color-primary-alt 50%);
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+p {
+  color: $color-gray;
+}
+
+.open-core {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid $navbar-default-border;
+
+  h2,
+  h3 {
+    color: $color-primary;
+  }
+
+  h4 {
+    color: $color-gray-light;
+    padding: 0 160px 10px;
+    line-height: 25px;
+
+    @media (max-width: $screen-md-max) {
+      padding: 0 40px 10px;
+    }
+  }
+
+  .left-columns {
+    padding-right: 30px;
+
+    @media (max-width: $screen-md-min) {
+      padding: 0 15px 0 15px;
+    }
+  }
+
+  .right-columns {
+    padding-left: 30px;
+
+    @media (max-width: $screen-md-min) {
+      padding: 0 15px 0 15px;
+    }
+  }
+}
+
+.dropdown {
+  color: $color-gray;
+  width: 263px;
+  margin-bottom: 40px;
+
+  .dropdown-menu-toggle.btn {
+    width: 267px;
+    padding-right: 25px;
+  }
+
+  .dropdown-menu {
+    background-color: $color-white;
+    padding-top: 0;
+
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+
+    a {
+      font-size: 14px;
+      color: $color-gray;
+
+      &.active {
+        font-weight: bold;
+        color: $color-primary;
+      }
+
+      &.hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.titles-comparison-companies {
+  font-size: 46px;
+  color: $color-primary;
+  font-weight: 300;
+  padding-bottom: 80px;
+}
+
 .comparison {
   background: $color-white;
 
@@ -20,7 +111,46 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
   }
 
   .comparison-container {
-    padding: 40px;
+    padding: 10px 0 40px;
+  }
+
+  .comparison-table {
+    padding: 30px 0 8px 0;
+
+    thead {
+      font-size: 20px;
+      padding-bottom: 5px;
+
+      th {
+        padding: 0 0 5px 0;
+      }
+
+      .table-title {
+        font-size: 16px;
+        color: $color-gray;
+      }
+    }
+
+    .feature-in-list {
+      padding: 10px 30px 10px 0;
+      color: $color-gray;
+
+      .feature-in-list-title {
+        color: $color-primary;
+        font-size: 16px;
+        padding-bottom: 4px;
+      }
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .check {
+      height: 80px;
+      padding: 25px 0;
+    }
+
   }
 
   .comparison-page-content {
@@ -28,7 +158,7 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
     h3,
     h4 {
       font-weight: bold;
-      margin: 30px 0 5px;
+      margin: 30px 0 0;
     }
 
     h2 {
@@ -58,11 +188,7 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
 
     p {
       margin: 0;
-      color: $blog-text-color;
-    }
-
-    a {
-      color: $color-primary-alt;
+      color: $color-gray;
     }
 
     // spacing after breakpoint
@@ -81,24 +207,24 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
     }
   }
 
-  .comparison-tree-nav {
-    padding-left: 0;
-
-    li {
-      margin-bottom: 10px;
-      list-style: none;
-    }
-
-    a {
-      font-size: 14px;
-      color: $color-gray;
-
-      &.active {
-        font-weight: bold;
-        color: $color-primary;
-      }
-    }
-  }
+  // .comparison-tree-nav {
+  //   padding-left: 0;
+  //
+  //   li {
+  //     margin-bottom: 10px;
+  //     list-style: none;
+  //   }
+  //
+  //   a {
+  //     font-size: 14px;
+  //     color: $color-gray;
+  //
+  //     &.active {
+  //       font-weight: bold;
+  //       color: $color-primary;
+  //     }
+  //   }
+  // }
 
   // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
   @media (min-width: 768px) {
@@ -126,4 +252,8 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
       }
     }
   }
+}
+
+.footer {
+  margin-top: 0;
 }

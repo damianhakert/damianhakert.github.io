@@ -356,6 +356,7 @@ gitlab_ce_ee_vs_saas:
   competitor_two:
     name: 'SaaS'
     logo: 'null'
+  last_updated: 'January 31, 2017'
   features:
     - title: "Containment"
       description: "Containing your company's IP behind the company's firewall gives you protection from unauthorized access. Learn from the lessons of Code Space"
