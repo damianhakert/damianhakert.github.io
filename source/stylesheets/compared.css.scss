@@ -8,9 +8,9 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
 .comparison-header {
   background: url("/images/comparison/gitlab-icon-illustration.svg") no-repeat, linear-gradient(to right, $color-primary-alt, $color-primary-medium 40%, $color-primary);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 p {
