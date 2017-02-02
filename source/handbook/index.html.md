@@ -46,6 +46,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Security](/handbook/security)
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
+  * [Life streaming](/handbook/product/live-streaming)
   * [Making Gifs](/handbook/product/making-gifs)
   * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
@@ -391,6 +392,11 @@ doesn't unnecessarily appear on other people's calendars.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
+
+### Live streaming
+
+1. Please use Youtube Live, preferably by using the GitLab Youtube channel itself if it is for important events/streams.
+1. See the following [guide](/handbook/product/live-streaming) for specifics on software, installation and usage.
 
 ### User Communication Guidelines
 
