@@ -25,6 +25,33 @@ practices like TDD or continous integration (to start with).
 * Plan the growth of GitLab's infrastructure.
 * Ship every solution into the GitLab-CE and EE package as a default.
 
+### Junior Production Engineer
+* Provide emergency response either by being on-call or by reacting to root causes according to monitoring.
+* Deliver production solutions that scale, automating themselves out of a job.
+* Improve documentation all around, either in application documentation, or in runbooks
+* Improve the performance of the system by either making better use of resources or by reducing the latency.
+* Share the learnings publicly, either by creating issues that provide context for anyone to understand it or by writing blog posts.
+* Update GitLab default values so there is no need for configuration by customers.
+
+### Intermediate Production Engineer 
+* Improve monitoring and alerting to increase the signal to noise ratio: explain the why, don’t stop with the what.
+* Learn and understand how systems behave in production.
+* Actively look for opportunities to improve the availability and performance of the system by applying the learnings from monitoring and observation, and proposing ideas and solutions within the infrastructure team.
+* Plan, design and execute solutions within the production engineering team to reach specific goals.
+* Plan and execute configuration change operations both at the application and the infrastructure level.
+
+### Senior Production Engineer 
+
+* Influence the product architecture from the availability, reliability, performance and availability perspective .
+* Lead Production Engineers and Junior Production Engineers by setting the example.
+* Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
+* Set the necessary goals and SLO (Service Level Objective) that will guide the infrastructure team to build a better product, easy to run in production and self healing.
+* Perform blameless post-mortems on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
+* Measure the risk of introduced features to plan ahead and improve the infrastructure or automation to reach the SLO.
+
+### Staff Production Engineer 
+* TODO 
+
 ## You may be a fit to this role if you:
 
 * Think about systems - edge cases, failure modes, behaviors, specific implementations.
