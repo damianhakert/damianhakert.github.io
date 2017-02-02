@@ -7,7 +7,7 @@ image_title: '/images/blogimages/8-16-webcast-recap.png'
 description: "Auto Deploy on GKE, Web Terminal, Monitoring with Prometheus and we Brought Time Tracking to CE!"
 ---
 
-In this webcast, our Head of Product Mark Pundsack and Product Manager Régis Freyd show us what's new in our latest release, demo auto deploy, web terminal and monitoring, let us in on what's next for GitLab, and take your questions.
+In this webcast, our Head of Product [Mark Pundsack](https://gitlab.com/markpundsack) and Product Manager [Régis Freyd](https://gitlab.com/regisf) show us what's new in our latest release, demo auto deploy, web terminal and monitoring, let us in on what's next for GitLab, and take your questions.
 
 <!-- more -->
 
