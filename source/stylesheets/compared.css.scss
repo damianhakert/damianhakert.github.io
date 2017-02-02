@@ -4,9 +4,9 @@
 $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
 
 .comparison-header {
-  background: url("/images/comparison/gitlab-icon-illustration.svg");
-  //background: url("/images/feature_page/lines.png") center right no-repeat;
-  background: linear-gradient(to left, $color-primary, $color-primary-alt 50%);
+  background: url("/images/comparison/gitlab-icon-illustration.svg") no-repeat, linear-gradient(to right, $color-primary-alt, $color-primary-medium 40%, $color-primary), ;
+  background-position: center;
+  background-size: cover;
   padding-top: 70px;
   padding-bottom: 50px;
 }
@@ -58,7 +58,7 @@ p {
   margin-bottom: 40px;
 
   .dropdown-menu-toggle.btn {
-    width: 267px;
+    width: 263px;
     padding-right: 25px;
   }
 
@@ -69,11 +69,20 @@ p {
     li {
       margin-bottom: 10px;
       list-style: none;
+
+      a {
+        color: $color-gray;
+
+        &.hover {
+          color: $color-primary;
+        }
+      }
     }
 
     a {
       font-size: 14px;
       color: $color-gray;
+      outline-color: $color-primary;
 
       &.active {
         font-weight: bold;
@@ -83,9 +92,14 @@ p {
       &.hover {
         color: $color-primary;
       }
+
+      &.focus {
+        color: $color-primary;
+      }
     }
   }
 }
+
 
 .titles-comparison-companies {
   font-size: 46px;
@@ -112,6 +126,25 @@ p {
 
   .comparison-container {
     padding: 10px 0 40px;
+  }
+
+  .table-responsive {
+    @media (max-width: $screen-md-min) {
+      // Tighten up spacing
+      > table {
+        // Ensure the content doesn't wrap
+        > thead,
+        > tbody,
+        > tfoot {
+          > tr {
+            > th,
+            > td {
+              white-space: normal;
+            }
+          }
+        }
+      }
+    }
   }
 
   .comparison-table {
@@ -150,7 +183,6 @@ p {
       height: 80px;
       padding: 25px 0;
     }
-
   }
 
   .comparison-page-content {
@@ -207,25 +239,6 @@ p {
     }
   }
 
-  // .comparison-tree-nav {
-  //   padding-left: 0;
-  //
-  //   li {
-  //     margin-bottom: 10px;
-  //     list-style: none;
-  //   }
-  //
-  //   a {
-  //     font-size: 14px;
-  //     color: $color-gray;
-  //
-  //     &.active {
-  //       font-weight: bold;
-  //       color: $color-primary;
-  //     }
-  //   }
-  // }
-
   // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
   @media (min-width: 768px) {
     html,
@@ -251,6 +264,16 @@ p {
         height: 411px;
       }
     }
+  }
+}
+
+.last-updated-section {
+  border-top: 1px solid $navbar-default-border;
+  margin-left: -15px;
+  padding: 10px 0 30px 0;
+
+  @media (max-width: $screen-md-min) {
+    margin-left: 0;
   }
 }
 
