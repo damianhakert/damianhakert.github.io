@@ -7,11 +7,11 @@ image_title: '/images/blogimages/8-16-webcast-recap.png'
 description: "Auto Deploy on GKE, Web Terminal, Monitoring with Prometheus and we Brought Time Tracking to CE!"
 ---
 
-With GitLab 8.15 and 8.16 we brought you auto deploy with Kubernetes using Google Container Engine, introduced our popular Time Tracking tool to the Community Edition, made it easier to fix bugs right within our UI with the Web Terminal, released monitoring functionality with Prometheus and added Merge Request Approvals to our Enterprise Edition. In this webcast, our Head of Product Mark Pundsack and Product Manager Régis Freyd show us what's new in our latest release, demo auto deploy, web terminal and monitoring, let us in on what's next for GitLab, and take your questions.
+In this webcast, our Head of Product Mark Pundsack and Product Manager Régis Freyd show us what's new in our latest release, demo auto deploy, web terminal and monitoring, let us in on what's next for GitLab, and take your questions.
 
 <!-- more -->
 
-You can watch the recording and check out the highlights below.
+With GitLab 8.15 and 8.16 we brought you auto deploy with Kubernetes using Google Container Engine, introduced our popular Time Tracking tool to the Community Edition, made it easier to fix bugs right within our UI with the Web Terminal, released monitoring functionality with Prometheus and added Merge Request Approvals to our Enterprise Edition. You can watch the recording of our release webcast and check out the highlights below.
 
 <figure class="video_container">
 <iframe src="https://www.youtube.com/embed/CteZol_7pxo" frameborder="0" allowfullscreen="true"> </iframe>
