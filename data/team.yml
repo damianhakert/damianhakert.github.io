@@ -2217,16 +2217,18 @@
   story:  |
           Josh's passion with computers started in elementary school when his parents brought an IBM PCjr home along with a book on BASIC. In his teenage years he spent time working on a variety of coding projects and assembling his own computers. He developed a love for product management 6 years ago, while working on a solution in the mobile productivity space. When not spending time with his family or working on technology, he tries to get out skiing and playing tennis.
 
-- name: E.E.
-  locality:
-  country:
+- name: Eric Eastwood
+  locality: Twin Cities, Minnesota
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: eric.png
+  twitter: MadLittleMods
+  gitlab: madlittlemods
   story:  |
-          Joining January 9th
+          Eric loves building projects with the web-stack whether it be a playground for his PostCSS plugin or slapping a UI on top of a Unity 3D game.
+          Prior to working at GitLab, he worked at Gitter transforming the way developers communicate about their open source projects.
+          In his spare time, he enjoys flipping hardware bits on a FPGA and exploring new ways to improve the developer experience.
 
 - name: Ben Kochie
   locality: Berlin
