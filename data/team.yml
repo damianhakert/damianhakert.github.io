@@ -2167,16 +2167,16 @@
   story:  |
           Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods.
 
-- name: M.R.
-  locality:
-  country:
+- name:  Mark Rogge
+  locality: Sunny San Diego California 
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture:  markorogge.jpg
   twitter:
   gitlab:
-  story:  |
-          Joining January 3rd
+  story:    A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.  
+           
 
 - name: Oswaldo Ferreira
   locality: Campos, RJ
