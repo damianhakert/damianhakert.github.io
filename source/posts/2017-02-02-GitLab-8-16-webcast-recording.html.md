@@ -14,7 +14,7 @@ In this webcast, our Head of Product [Mark Pundsack](https://gitlab.com/markpund
 With GitLab 8.15 and 8.16 we brought you auto deploy with Kubernetes using Google Container Engine, introduced our popular Time Tracking tool to the Community Edition, made it easier to fix bugs right within our UI with the Web Terminal, released monitoring functionality with Prometheus and added Merge Request Approvals to our Enterprise Edition. You can watch the recording of our release webcast and check out the highlights below.
 
 <figure class="video_container">
-<iframe src="https://www.youtube.com/watch?v=iYPhXm8RlxI" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe src="https://www.youtube.com/embed/iYPhXm8RlxI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Highlights
