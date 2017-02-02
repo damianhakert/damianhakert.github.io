@@ -415,7 +415,7 @@ gitlab_ce_vs_gitlab_ee:
       competitor_one: false
       competitor_two: true
     - title: "Merge Request Approval"
-      description: "When a project requires multiple sign-offs, GitLab Enterprise Edition enables you to make sure every merge request is approved by one or more people. Merge request approvals allow you to set the number of necessary approvals and predefine a list of approvers that will need to approve every merge request in a project, and in-turn improve your code’s quality.
+      description: "When a project requires multiple sign-offs, GitLab Enterprise Edition enables you to make sure every merge request is approved by one or more people. Merge request approvals allow you to set the number of necessary approvals and predefine a list of approvers that will need to approve every merge request in a project, and in-turn improve your code’s quality."
       competitor_one: false
       competitor_two: true
 
