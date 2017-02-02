@@ -23,11 +23,6 @@ gitlab_self_hosted_vs_github:
       documentation_link: "[Find out more about innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)"
       competitor_one: true
       competitor_two: false
-    - title: "Innersourcing"
-      description: "Internal projects in GitLab allow you to promote innersourcing of your internal repositories."
-      documentation_link: "[Find out more about innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)"
-      competitor_one: true
-      competitor_two: false
     - title: "Work-in-Progress Protection"
       description: "Simply add 'WIP' to the title of a merge request to prevent anyone from merging it. This gives you all the code review power of merge requests, while protecting unfinished work."
       documentation_link: "[WIP Merge documentation](http://doc.gitlab.com/ce/workflow/wip_merge_requests.html)"
@@ -115,7 +110,7 @@ gitlab_self_hosted_vs_github:
       competitor_two: false
 
 gitlab_ee_vs_github_enterprise:
-  title: "GitLab Enterprise Edition vs. GitHub Enterprise"
+  title: "GitLab EE vs. GitHub Enterprise"
   competitor_one:
     name: 'GitLab Enterprise Edition'
     logo: '/images/comparison/ee-gitlab-logo.svg'
