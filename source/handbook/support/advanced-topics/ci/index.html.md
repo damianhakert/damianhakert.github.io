@@ -28,7 +28,8 @@ routing non-technical Gitlab CI questions to you
 
 ### Stage 2: Basic CI
 
-1. [ ] Read the [.gitlab-ci.yml docs] (https://docs.gitlab.com/ee/ci/yaml/README.html)
+1. [ ] Read the Table Of Contents for the [.gitlab-ci.yml docs] (https://docs.gitlab.com/ee/ci/yaml/README.html)
+   and make sure you know the meaning of every heading.
 1. [ ] Setup a repository on GitLab.com and create a .gitlab-ci.yml file to
    get a pipeline running using the free shared runners on GitLab.com this can
    be a basic toy project.

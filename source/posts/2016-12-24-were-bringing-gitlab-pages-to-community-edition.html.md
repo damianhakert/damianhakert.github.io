@@ -7,7 +7,7 @@ image_title: '/images/pages_gift.jpg'
 description: "We're bringing GitLab Pages from GitLab Enterprise Edition to the open source Community Edition. GitLab Pages allows you to host static sites straight from GitLab, using any static site generator."
 ---
 
-The wider community asked us open source GitLab pages.
+The wider community asked us to open-source GitLab pages.
 Inspired by the holiday-spirit we're happy to bring GitLab Pages to the Community Edition (CE) of GitLab.
 
 <!-- more -->

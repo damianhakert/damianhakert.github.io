@@ -27,7 +27,7 @@ Of course, nothing beats getting to know your team in person, which is why we ge
 
 ## Secret Santa
 
-Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/miscellaneous/). Because it’s a bit much to expect Santa to deliver to 33 different countries before he even starts his Christmas rounds, we’ll be shipping to our recipients directly or exchanging gifts at the Cancun Summit. Watch this space for the highlights!
+Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/secret-santa/). Because it’s a bit much to expect Santa to deliver to 33 different countries before he even starts his Christmas rounds, we’ll be shipping to our recipients directly or exchanging gifts at the Cancun Summit. Watch this space for the highlights!
 
 ## Meet-ups
 

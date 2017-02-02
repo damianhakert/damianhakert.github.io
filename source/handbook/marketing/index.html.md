@@ -217,7 +217,7 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Joe][joe]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Vacant][Vacant]{:.btn .btn-orange}
 
 ### Business Development
 {: .no_toc}
@@ -796,7 +796,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
 [ivan]: https://gitlab.com/u/inem
-[joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
 [kris]: https://gitlab.com/u/Touzel2
 [luke]: https://gitlab.com/u/lukebabb

@@ -107,6 +107,30 @@ iframe[name='google_conversion_frame'] {
   }
 }
 
+.dark-background-link {
+  color: $color-white;
+  text-decoration: underline;
+  font-size: 18px;
+  transition-duration: .2s;
+
+  &:hover,
+  &:visited {
+    color: $color-secondary-alt;
+  }
+}
+
+.white-background-link {
+  color: $color-primary-alt;
+  text-decoration: underline;
+  font-size: 18px;
+  transition-duration: .2s;
+
+  &:hover,
+  &:visited {
+    color: $color-secondary;
+  }
+}
+
 .panel-purple {
   border-color: $color-primary;
 

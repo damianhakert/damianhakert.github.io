@@ -186,3 +186,4 @@ Current state
    - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
    - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
 5. Edit the landing page to have the appropriate webcast description, date, and time.
+6. In On24, go to the `Console Builder` tab and edit the console to be GitLab branded and have all the requested widgets.

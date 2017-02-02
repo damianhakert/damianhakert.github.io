@@ -13,3 +13,7 @@ extra_css:
 
 ### Unlimited collaborators
 With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories.
+
+### New features every month
+GitLab is updated very often. The schedule is predictable with a monthly release
+cycle.

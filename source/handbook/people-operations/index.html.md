@@ -12,7 +12,7 @@ title: "People Operations"
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
-- [Global Compensation Framework](/handbook/people-operations/global-compensation-framework/)
+- [Global Compensation Calculator](/handbook/people-operations/global-compensation-calculator/)
 - [Onboarding](/handbook/general-onboarding/)
 - [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
@@ -41,15 +41,17 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
-## Letter of Employment
+## Letter of Employmnet and Reference Request Policy
 
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.
+
+Team members are not authorized by the company to speak on its behalf to complete reference requests for team members no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
 
 ## Office addresses
 {: #addresses}
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
-- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](https://www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
 - For the UK office, there is a Ltd registered address located in the "GitLab Ltd (UK) Address" note in the Shared vault on 1Password
 
 ## Regular compensation
@@ -99,7 +101,7 @@ This policy applies to all current employees and candidates for employment.
 If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
-- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-framework/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
 ### Administrative details of benefits for US-based employees
 {: #benefits-us}
@@ -133,6 +135,29 @@ the current settings which show all the people and numbers that are alerted when
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
 
+## Mental Health Awareness
+
+1. At GitLab we strive to create a Stigma-Free Workplace. In accordance with the National Mental Health Association and the National Council for Behavioral Health we would like to:
+  * Educate employees about the signs and symptoms of mental health disorders.
+  * Encourage employees to talk about stress, workload, family commitments, and other issues.
+  * Communicate that mental illnesses are real, common, and treatable.
+  * Discourage stigmatizing language, including hurtful labels such as “crazy,” “loony” or “nuts.”
+  * Help employees transition back to work after they take leave.
+  * Consult with your employee assistance program.
+
+1. What are we doing to get there?
+  * Per an open [issue](https://gitlab.com/gitlab-com/peopleops/issues/138), People Operations will be developing training for managers on this topic.
+  * GitLab would also like to encourage team members to take their [time off](https://about.gitlab.com/handbook/#paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
+  * In addition to our current EAP programs available for employees, we encourage team members to take a look at (Working Through It)(http://www.workplacestrategiesformentalhealth.com/wti/Home.aspx) for insight into reclaiming well-being at work, off work, and return to work.
+  * We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive.
+    * For example, Finding the right words:
+      * "How can we help you do your job?"
+      * "You’re not your usual self."
+      * "Do you want to talk about it?"
+      * "It's always OK to ask for help."
+      * "It’s hard for me to understand exactly what you’re going through, but I can see that it’s distressing for you."
+
+Any questions or concerns? Please feel free to speak with anyone in People Ops!
 
 ## Dutch work permits
 

@@ -6,6 +6,7 @@ categories: technical overview
 image_title: '/images/community/love-the-sun-gitlab.jpg'
 description: "Migrating from GitHub to GitLab and setting up your own GitLab instance"
 twitter_image: '/images/tweets/moving-to-gitlab-yes-its-worth-it.png'
+guest: true
 ---
 
 **Note:** This post is a customer story on the benefits of migrating from GitHub to GitLab, by Fabio Akita, a Brazilian Rubyist.
