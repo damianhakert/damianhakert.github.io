@@ -2,12 +2,9 @@
 layout: markdown_page
 title: "Online Marketing"
 ---
-Welcome to the Online Marketing Handbook.
+This is meant to be a crash course in Google Analytics. It is meant to help you get up and running your basic understanding of Google Analytics so that you can answer some simple and commong questions regarding our website traffic.
 
 ----
-
-## On this page
-{:.no_toc}
 
 - TOC
 {:toc}
