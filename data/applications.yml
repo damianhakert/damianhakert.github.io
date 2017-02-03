@@ -28,12 +28,18 @@
       links:
         - url: http://www.somerobots.com/
           title: somerobots.com
-    - title: Octotree Chrome Extension
+    - title: Octotree Browser Extension
       content: "Octotree adds a sidebar to GitLab with all files of the project
       you're looking at. Highly recommended."
       links:
         - url: https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related
           title: Octotree on the Chrome Web Store
+        - url: https://addons.mozilla.org/en-US/firefox/addon/octotree/
+          title: Octotree on Mozilla Add-ons Store
+        - url: https://addons.opera.com/en/extensions/details/octotree/
+          title: Octotree on Opera Add-ons Store
+        - url: https://github.com/buunguyen/octotree#install-on-safari
+          title: Install Octotree on Safari          
     - title: Git2Go
       content: The Git client for iPhone and iPad you always wanted
       links:
