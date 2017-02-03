@@ -128,34 +128,7 @@ p {
       border-bottom: 1px solid $navbar-default-border;
     }
   }
-
   // scss-lint:enable SelectorDepth
-  // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
-  @media (min-width: 768px) {
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      padding-top: 51px;
-
-      .page-wrap {
-        min-height: 100%;
-        position: relative;
-      }
-
-      .footer-container {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 411px;
-      }
-    }
-  }
 }
 
 .comparison-page-content {
