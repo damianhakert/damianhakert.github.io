@@ -52,8 +52,8 @@ gitlab_self_hosted_vs_github:
       competitor_two: true
     - title: "Due date"
       description: "In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline."
-      link_description:
-      link:
+      link_description: "Due dates documentation"
+      link: https://docs.gitlab.com/ce/user/project/issues/due_dates.html
       competitor_one: true
       competitor_two: false
     - title: "Move issues between projects"
