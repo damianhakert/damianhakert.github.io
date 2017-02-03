@@ -104,6 +104,7 @@ p {
   // scss-lint:disable SelectorDepth
   .table-responsive {
     border: 0;
+
     @media (max-width: $screen-sm-max) {
       // Tighten up spacing
       > table {
@@ -221,13 +222,17 @@ p {
 
     th {
       padding: 0 0 20px;
+      font-weight: 400;
       border-width: 1px;
     }
 
     .table-title {
       font-size: 18px;
-      font-weight: 500;
       color: $color-gray;
+    }
+
+    .table-title-logo {
+      color: $blog-text-color;
     }
   }
 
@@ -252,7 +257,7 @@ p {
     width: auto;
 
     @media (max-width: $screen-sm-max) {
-      height: 26px
+      height: 26px;
     }
   }
 
@@ -269,12 +274,9 @@ p {
   }
 }
 
-.last-updated-section {
-  padding: 10px 0 30px;
-
-  @media (max-width: $screen-sm-max) {
-    margin-left: 0;
-  }
+.last-updated-section p {
+  color: $blueish-gray;
+  padding-bottom: 30px;
 }
 
 .footer {
