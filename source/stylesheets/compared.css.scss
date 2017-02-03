@@ -8,7 +8,7 @@ $comparison-title-image-bg-color: rgba(85, 68, 136, .1);
 .comparison-header {
   background: url("/images/comparison/gitlab-icon-illustration.svg") no-repeat, linear-gradient(to right, $color-primary-alt, $color-primary-medium 40%, $color-primary);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   padding-top: 70px;
   padding-bottom: 40px;
 }
@@ -27,6 +27,10 @@ p {
     color: $color-primary;
   }
 
+  h3 {
+    margin-bottom: 5px;
+  }
+
   h4 {
     color: $color-gray-light;
     padding: 0 160px 10px;
@@ -37,66 +41,24 @@ p {
     }
   }
 
-  .left-columns {
-    padding-right: 30px;
-
-    @media (max-width: $screen-sm-max) {
-      padding: 0 15px;
-    }
-  }
-
-  .right-columns {
-    padding-left: 30px;
-
-    @media (max-width: $screen-sm-max) {
-      padding: 0 15px;
-    }
+  p {
+    font-size: 16px;
   }
 }
 
 .dropdown {
-  color: $color-gray;
-  width: 263px;
-  margin-bottom: 40px;
+  max-width: 290px;
 
-  .dropdown-menu-toggle.btn {
-    width: 263px;
-    padding-right: 25px;
+  .dropdown-menu-toggle {
+    width: 100%;
   }
 
   .dropdown-menu {
     background-color: $color-white;
-    padding-top: 0;
 
     li {
-      margin-bottom: 10px;
-      list-style: none;
-
       a {
         color: $color-gray;
-
-        &.hover {
-          color: $color-primary;
-        }
-      }
-    }
-
-    a {
-      font-size: 14px;
-      color: $color-gray;
-      outline-color: $color-primary;
-
-      &.active {
-        font-weight: bold;
-        color: $color-primary;
-      }
-
-      &.hover {
-        color: $color-primary;
-      }
-
-      &.focus {
-        color: $color-primary;
       }
     }
   }
@@ -104,10 +66,13 @@ p {
 
 
 .titles-comparison-companies {
-  font-size: 46px;
   color: $color-primary;
   font-weight: 300;
-  padding-bottom: 80px;
+  padding: 40px 0 80px;
+
+  @media (max-width: $screen-xs-max) {
+    padding: 20px 0 40px;
+  }
 }
 
 .comparison {
@@ -130,15 +95,15 @@ p {
     padding: 10px 0 40px;
   }
 
-
-//We need to be able to take out this class completely - the .table-responsive.
-//This will remove the table as the screen shrinks down to mobile.
-//You'll notice I'm only keeping the white-space: normal because it slightly helps the spacing
-//when you shrink down to mobile-sized screens. When the screen is this size, it automatically turns on.
-//I think any table used throughout the site inherits from .table-responsive
+// We need to be able to take out this class completely - the .table-responsive.
+// This will remove the table as the screen shrinks down to mobile.
+// You'll notice I'm only keeping the white-space: normal because it slightly helps the spacing
+// when you shrink down to mobile-sized screens. When the screen is this size, it automatically turns on.
+// I think any table used throughout the site inherits from .table-responsive
 
   // scss-lint:disable SelectorDepth
   .table-responsive {
+    border: 0;
     @media (max-width: $screen-sm-max) {
       // Tighten up spacing
       > table {
@@ -164,102 +129,6 @@ p {
   }
 
   // scss-lint:enable SelectorDepth
-
-  .comparison-table {
-    padding: 30px 0 8px;
-
-    thead {
-      font-size: 20px;
-      padding-bottom: 5px;
-
-      th {
-        padding: 0 0 20px;
-      }
-
-      .table-title {
-        font-size: 18px;
-        font-weight: 500;
-        color: $color-gray;
-      }
-    }
-
-    .feature-in-list {
-      padding: 20px 30px 20px 0;
-      color: $color-gray;
-
-      .feature-in-list-title {
-        color: $color-primary;
-        font-size: 20px;
-        font-weight: 500;
-        padding-bottom: 4px;
-      }
-    }
-
-    .logo {
-      height: 60px;
-    }
-
-    .check {
-      height: 80px;
-      padding: 25px 0;
-    }
-  }
-
-  .comparison-page-content {
-    h2,
-    h3,
-    h4 {
-      font-weight: bold;
-      margin: 30px 0 0;
-    }
-
-    h2 {
-      // used as top-of-page title ref only
-      font-size: 14px;
-      color: $color-gray;
-      margin: 0 0 20px;
-      text-transform: uppercase;
-
-    }
-
-    h3 {
-      font-size: 18px;
-
-      a {
-        font-weight: 600;
-      }
-    }
-
-    h4 {
-      font-size: 16px;
-    }
-
-    li {
-      margin: 10px;
-    }
-
-    p {
-      font-size: 16px;
-      margin: 0;
-      color: $color-gray;
-    }
-
-    // spacing after breakpoint
-    @media (max-width: $screen-xs-max) {
-      h2 {
-        margin: 40px 0 10px;
-      }
-
-      h3 {
-        margin-top: 10px;
-      }
-
-      .color-bg {
-        padding-top: 100px;
-      }
-    }
-  }
-
   // ensures that on pages with short content, footer stays fixed to the bottom of the viewport
   @media (min-width: 768px) {
     html,
@@ -283,6 +152,118 @@ p {
         left: 0;
         right: 0;
         height: 411px;
+      }
+    }
+  }
+}
+
+.comparison-page-content {
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+    margin: 30px 0 0;
+  }
+
+  h2 {
+    // used as top-of-page title ref only
+    font-size: 14px;
+    color: $color-gray;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 18px;
+
+    a {
+      font-weight: 600;
+    }
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  li {
+    margin: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+    color: $color-gray;
+  }
+
+  // spacing after breakpoint
+  @media (max-width: $screen-xs-max) {
+    h2 {
+      margin: 40px 0 10px;
+    }
+
+    h3 {
+      margin-top: 10px;
+    }
+
+    .color-bg {
+      padding-top: 100px;
+    }
+  }
+}
+
+
+.comparison-table {
+  padding: 30px 0 8px;
+
+  thead {
+    font-size: 20px;
+    padding-bottom: 5px;
+
+    th {
+      padding: 0 0 20px;
+      border-width: 1px;
+    }
+
+    .table-title {
+      font-size: 18px;
+      font-weight: 500;
+      color: $color-gray;
+    }
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  .feature-in-list {
+    padding: 20px 30px 20px 0;
+    color: $color-gray;
+
+    .feature-in-list-title {
+      color: $color-primary;
+      font-size: 20px;
+      font-weight: 500;
+      padding-bottom: 4px;
+    }
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+
+    @media (max-width: $screen-sm-max) {
+      height: 26px
+    }
+  }
+
+  .check-container {
+    svg {
+      height: 30px;
+      width: 30px;
+
+      @media (max-width: $screen-sm-max) {
+        height: 22px;
+        width: 22px;
       }
     }
   }

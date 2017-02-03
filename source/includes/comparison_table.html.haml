@@ -56,20 +56,20 @@
             = feature.description
           %p
             = feature.documentation_link
-        %td.text-center
+        %td.check-container.text-center
           - if (feature.competitor_one == "sortof")
-            %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of", class: "check" }
+            = partial "includes/icons/comparison/maybe-icon.svg"
           - if (feature.competitor_one == true)
-            %img{ src: "/images/comparison/yes-icon.svg", alt: "true", class: "check" }
+            = partial "includes/icons/comparison/yes-icon.svg"
           - if (feature.competitor_one == false)
-            %img{ src: "/images/comparison/no-icon.svg", alt: "false", class: "check" }
-        %td.text-center
+            = partial "includes/icons/comparison/no-icon.svg"
+        %td.check-container.text-center
           - if (feature.competitor_two == "sortof")
-            %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of", class: "check" }
+            = partial "includes/icons/comparison/maybe-icon.svg"
           - if (feature.competitor_two == true)
-            %img{ src: "/images/comparison/yes-icon.svg", alt: "true", class: "check" }
+            = partial "includes/icons/comparison/yes-icon.svg"
           - if (feature.competitor_two == false)
-            %img{ src: "/images/comparison/no-icon.svg", alt: "false", class: "check" }
+            = partial "includes/icons/comparison/no-icon.svg"
 
 .container.last-updated-section
   %p
