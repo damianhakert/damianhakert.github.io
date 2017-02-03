@@ -23,7 +23,7 @@ gitlab_self_hosted_vs_github:
     - title: "Multiple authentication Levels"
       description: "Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker."
       link_description: "See the various authentication levels"
-      link: http://doc.gitlab.com/ce/permissions/permissions.html
+      link: https://docs.gitlab.com/ce/user/permissions.html
       competitor_one: true
       competitor_two: false
     - title: "Innersourcing"
@@ -35,7 +35,7 @@ gitlab_self_hosted_vs_github:
     - title: "Work-in-Progress Protection"
       description: "Simply add 'WIP' to the title of a merge request to prevent anyone from merging it. This gives you all the code review power of merge requests, while protecting unfinished work."
       link_description: "WIP Merge documentation"
-      link: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
+      link: https://docs.gitlab.com/ce/user/project/wip_merge_requests.html
       competitor_one: true
       competitor_two: false
     - title: "Large open source projects"
@@ -71,7 +71,7 @@ gitlab_self_hosted_vs_github:
     - title: "Create new branches from Issues"
       description: "In GitLab, you can quickly create a new branch from an issue on the issue tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue."
       link_description: "See how in our documentation"
-      link: http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create%20a%20new%20branch%20from%20an%20issue
+      link: https://docs.gitlab.com/ce/user/project/repository/web_editor.html#create-a-new-branch-from-an-issue
       competitor_one: true
       competitor_two: false
     - title: "Assign multiple people to an issue / MR"
@@ -101,7 +101,7 @@ gitlab_self_hosted_vs_github:
     - title: "Slash commands"
       description: "GitLab provides a convenient way to change meta data of an issue or merge request withouth leaving the comment field with slash commands."
       link_description: "Documentation about slash commands"
-      link: https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab%20slash%20commands
+      link: https://docs.gitlab.com/ce/user/project/slash_commands.html
       competitor_one: true
       competitor_two: false
     - title: "Issue board"
@@ -148,7 +148,7 @@ gitlab_ee_vs_github_enterprise:
     - title: "Access to the server"
       description: "You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself."
       link_description: "Learn more about logging"
-      link: http://doc.gitlab.com/ce/logs/logs.html
+      link: https://docs.gitlab.com/ce/administration/logs.html
       competitor_one: true
       competitor_two: false
     - title: "Runs on metal"
@@ -184,19 +184,19 @@ gitlab_ee_vs_github_enterprise:
     - title: "Built-in Continuous Integration tool"
       description: "Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation."
       link_description: "Learn about the benefits of our CI tool"
-      link: http://doc.gitlab.com/ci/
+      link: https://docs.gitlab.com/ci/
       competitor_one: true
       competitor_two: false
     - title: "Powerful AD / LDAP integration"
       description: "Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration."
       link_description: "More information about AD / LDAP integration"
-      link: http://doc.gitlab.com/ee/integration/ldap.html
+      link: https://docs.gitlab.com/ee/administration/auth/ldap.html
       competitor_one: true
       competitor_two: 'sortof'
     - title: "Multiple approvals in code review"
       description: "To ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it. You can undo an approval by removing it after the fact."
       link_description: "Approvals Documentation"
-      link: http://doc.gitlab.com/ee/workflow/merge_request_approvals.html
+      link: https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html
       competitor_one: true
       competitor_two: false
     - title: "Ease of Migration"
@@ -208,7 +208,7 @@ gitlab_ee_vs_github_enterprise:
     - title: "Issue Weights"
       description: "Manage issues using Agile practices by setting the weight of an issue."
       link_description: "Issue Weights Documentation"
-      link: http://doc.gitlab.com/ee/workflow/issue_weight.html
+      link: https://docs.gitlab.com/ee/workflow/issue_weight.html
       competitor_one: true
       competitor_two: false
     - title: "Custom Push Rules (pre-received hooks)"
@@ -232,25 +232,25 @@ gitlab_ee_vs_github_enterprise:
     - title: "Merge Request Issue Templates"
       description: "Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize. While GitHub only allows one template, GitLab allows multiple templates."
       link_description: "Templates for Issues and Merge Requests Documentation"
-      link: http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html
+      link: https://docs.gitlab.com/ee/customization/issue_and_merge_request_template.html
       competitor_one: true
       competitor_two: sortof
     - title: "Geographic Replication with GitLab Geo"
       description: "GitLab Enterprise Edition can have a geographically replicated instance, so your remote teams don't have to wait for long downloads when cloning or pulling from repositories."
       link_description: "Read the Geo docs for more information"
-      link: http://docs.gitlab.com/ee/gitlab-geo/README.html
+      link: http://docs.gitlab.com/ee/gitlab-geo/
       competitor_one: true
       competitor_two: false
     - title: "Lock Files"
       description: "File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files."
       link_description: "Read the File Locking documentation"
-      link: http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File%20Lock
+      link: http://docs.gitlab.com/ee/user/project/file_lock.html
       competitor_one: true
       competitor_two: false
     - title: "Monitoring built-in"
       description: "GitLab ships with an open source monitoring solution, Prometheus, which offers world-class monitoring of the GitLab server's resources."
       link_description: "Documentation about Monitoring"
-      link: http://docs.gitlab.com/runner/monitoring/README.html
+      link: http://docs.gitlab.com/runner/monitoring/
       competitor_one: true
       competitor_two: false
     - title: "Access to and possibility to modify the source code of GitLab"
@@ -320,7 +320,7 @@ gitlab_ce_ee_vs_bitbucket_server:
     - title: "Lock Files"
       description: "File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files."
       link_description: "Read the File Locking documentation"
-      link: http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File%20Lock
+      link: http://docs.gitlab.com/ee/user/project/file_lock.html
       competitor_one: true
       competitor_two: false
     - title: "More value with everything you need in one solution"
