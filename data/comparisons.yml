@@ -68,12 +68,6 @@ gitlab_self_hosted_vs_github:
       link: http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create%20a%20new%20branch%20from%20an%20issue
       competitor_one: true
       competitor_two: false
-    - title: "Search through commit messages"
-      description: "GitLab not only allows you to search through code, but also searches through your commit messages."
-      link_description:
-      link:
-      competitor_one: true
-      competitor_two: false
     - title: "Assign multiple people to an issue / MR"
       description: "GitHub allows you to assign multiple people to an issue or pull request. GitLab doesn't allow you to do this, but allows for approvals in merge requests, which offsets this there. For issues, GitLab does not have an equivalent feature, but a feature request has been submitted for this."
       link_description: "GitLab issue to implement multiple assignees"
@@ -99,7 +93,7 @@ gitlab_self_hosted_vs_github:
       competitor_one: true
       competitor_two: false
     - title: "Slash commands"
-      description: "In GitLab, you can pilot almost everything that affects an issue or a merge request with slash commands."
+      description: "GitLab provides a convenient way to change meta data of an issue or merge request withouth leaving the comment field with slash commands."
       link_description: "Documentation about slash commands"
       link: https://docs.gitlab.com/ce/user/project/slash_commands.html#sts=GitLab%20slash%20commands
       competitor_one: true
@@ -122,7 +116,7 @@ gitlab_self_hosted_vs_github:
       link: https://docs.gitlab.com/ce/ci/quick_start/README.html
       competitor_one: true
       competitor_two: false
-    - title: "Docker Registry support"
+    - title: "Built-in Docker Registry"
       description: "GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management."
       link_description: "Documentation on Container Registry"
       link: https://docs.gitlab.com/ce/user/project/container_registry.html
@@ -159,12 +153,6 @@ gitlab_ee_vs_github_enterprise:
       competitor_two: false
     - title: "Runs on metal"
       description: "You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like."
-      link_description: ""
-      link:
-      competitor_one: true
-      competitor_two: false
-    - title: "Run more users on a single server"
-      description: "A single machine server handles thousands of users and repositories."
       link_description: ""
       link:
       competitor_one: true
@@ -242,11 +230,11 @@ gitlab_ee_vs_github_enterprise:
       competitor_one: true
       competitor_two: false
     - title: "Merge Request Issue Templates"
-      description: "Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize."
+      description: "Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize. While GitHub only allows one template, GitLab allows multiple templates."
       link_description: "Templates for Issues and Merge Requests Documentation"
       link: http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html
       competitor_one: true
-      competitor_two: false
+      competitor_two: sortof
     - title: "Geographic Replication with GitLab Geo"
       description: "GitLab Enterprise Edition can have a geographically replicated instance, so your remote teams don't have to wait for long downloads when cloning or pulling from repositories."
       link_description: "Read the Geo docs for more information"
@@ -300,8 +288,8 @@ gitlabcom_vs_githubcom:
       link:
       competitor_one: true
       competitor_two: false
-    - title: "GitHub.com has faster pageloads than GitLab.com"
-      description: "Improving this is a work in progress."
+    - title: "Fast page load"
+      description: "GitHub.com has faster pageloads than GitLab.com right now, we're actively working on improving this. Self-hosted instances of GitLab CE/EE will be performant up to thousands of users."
       link_description: "Read more"
       link: https://gitlab.com/gitlab-com/operations/issues/42/
       competitor_one: false
@@ -395,7 +383,7 @@ gitlab_com_vs_bitbucket_org:
       competitor_one: true
       competitor_two: true
     - title: "New features every month"
-      description: "GitLab is updated very often. The schedule is predictable with a monthly release cycle."
+      description: "GitLab is updated with new features and improvements every month on the 22nd."
       link_description: ""
       link:
       competitor_one: true
