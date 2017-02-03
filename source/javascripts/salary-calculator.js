@@ -1,4 +1,16 @@
 (function () {
+  var paramsFetcher = function() {
+    var regex = /[?&]([^=#]+)=([^&#]*)/g;
+    var params = {};
+    var match = '';
+
+    while(match = regex.exec(window.location.href)) {
+      params[match[1]] = match[2];
+    }
+
+    return (Object.keys(params).length > 0) ? params : null;
+  };
+
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
@@ -49,8 +61,10 @@
   }
 
   this.SalaryCalculator = (function() {
-    function SalaryCalculator() {
+    function SalaryCalculator(params) {
       this.bindEvents();
+      this.params = params || {};
+      console.log(this.params)
     }
 
     SalaryCalculator.prototype.bindEvents = function() {
@@ -395,5 +409,11 @@
     return SalaryCalculator;
   })();
 
-  new SalaryCalculator();
+  var params = paramsFetcher();
+
+  if (params) {
+    new SalaryCalculator(params);
+  } else {
+    new SalaryCalculator(false);
+  }
 })();
