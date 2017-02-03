@@ -1,4 +1,4 @@
-
+//scss-lint:disable NestingDepth,ImportantRule
 // blog general
 
 .blog {
@@ -13,16 +13,14 @@
   h2,
   h3,
   h4 {
-    margin-top: 20px 0 14px;
+    margin: 20px 0 14px;
+    font-weight: 600;
   }
 
   .wrapper {
     max-width: 1050px;
     margin: 0 auto;
-  }
-
-  .alert-webcast {
-    text-align: left;
+    clear: both;
   }
 
   .callout {
@@ -32,6 +30,10 @@
 
     a {
       color: $color-white;
+
+      &.contact {
+        color: $blog-color-purple;
+      }
     }
 
     h3 {
@@ -61,16 +63,24 @@
 
   .sticky-banner {
     height: inherit;
-    padding: 6px 15px 4px;
+    padding: 6px 0 4px;
 
     .sticky-banner-content {
-      width: 740px;
+      max-width: 1050px;
+      padding: 0 75px;
       margin: 0 auto;
-      max-width: inherit;
+    }
+
+    .sticky-banner-text {
+      display: inline-block;
+      float: left;
     }
 
     .action {
       padding-top: 11px;
+      display: inline-block;
+      float: right;
+      flex: 0;
     }
   }
 
@@ -80,29 +90,13 @@
       clear: both;
     }
 
-    @media only screen and (max-width : 768px) {
-      .section {
-        margin: 0 0 10px;
-        clear: both;
-      }
-    }
-
     .panel {
       box-shadow: 0 3px 3px $blog-color-border-shadow;
+      margin: 0 10px;
     }
 
-    // scss-lint:disable VendorPrefix
     .articles {
       width: 100%;
-      -webkit-column-count: 2;
-      -webkit-column-gap: 25px;
-      -webkit-column-fill: balance;
-      -moz-column-count: 2;
-      -moz-column-gap: 25px;
-      -moz-column-fill: balance;
-      column-count: 2;
-      column-gap: 25px;
-      column-fill: balance;
     }
 
     .article {
@@ -110,23 +104,44 @@
       background: $color-white;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
       padding: 25px;
-      -webkit-column-break-inside: avoid;
-      -moz-column-break-inside: avoid;
-      column-break-inside: avoid;
-      margin-bottom: 25px;
+      margin: 0 10px 25px;
+      float: left;
+      width: calc(50% - 20px);
 
       a {
         color: $blog-color-purple;
+        font-weight: 600;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
       }
     }
 
-    @media only screen and (max-width : 768px) {
-      .article {
-        padding: 10px;
-        margin-bottom: 15px;
+    .author-gitlab {
+      i {
+        color: $color-gray;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-secondary;
+          text-decoration: none;
+        }
       }
     }
-    // scss-lint:enable VendorPrefix
+
+    .author-twitter {
+      i {
+        color: $color-gray;
+        text-decoration: none;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
+      }
+    }
 
     .cover {
       text-decoration: none;
@@ -138,24 +153,24 @@
       background-size: cover;
       position: relative;
       margin-bottom: 12px;
+
+      h2 {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: $blog-color-heading;
+        vertical-align: middle;
+        font-weight: 600;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
 
     .overlay {
       background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
       display: block;
       height: 100%;
-    }
-
-    h2 {
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-      color: $blog-color-heading;
-      vertical-align: middle;
-      font-weight: 600;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
     }
 
     .author {
@@ -196,38 +211,47 @@
     .browse:hover {
       background-color: $blog-color-purple;
       border: 1px solid $blog-color-purple;
-      color: $color-white;
+      color: $color-white !important;
     }
 
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 768px) {
+      .section {
+        margin: 0 0 10px;
+        clear: both;
+      }
 
-      // scss-lint:disable VendorPrefix
+      .panel {
+        margin: 0 0 15px;
+      }
+
       .articles {
         width: 100%;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
       }
-      // scss-lint:enable VendorPrefix
 
       .article {
         float: none;
         width: 100%;
         height: inherit;
+        margin: 0 0 15px;
+        padding: 10px;
       }
     }
   }
 
   &.article {
     .wrapper {
-      max-width: 890px;
-      padding: 75px;
+      padding: 50px 75px;
       box-shadow: 0 3px 3px $blog-color-border-shadow;
     }
 
     .header {
       box-shadow: none;
-      padding: 120px 75px;
+      padding: 150px 75px 50px;
+      color: $blog-color-heading;
+
+      .btn {
+        margin-top: 15px;
+      }
     }
 
     .body {
@@ -236,6 +260,18 @@
 
       strong {
         letter-spacing: -.05em;
+      }
+
+      p:not(.panel-heading) {
+        margin: 20px 0;
+      }
+
+      ul {
+        margin-bottom: 0;
+      }
+
+      ol {
+        margin-bottom: 32px;
       }
     }
 
@@ -264,45 +300,77 @@
       margin-top: 0;
     }
 
-    .header a,
     .body a,
     .newsletter a {
       color: $blog-color-purple;
-    }
-
-    .body p,
-    .body ul,
-    .body ol {
-      margin-bottom: 32px;
+      font-weight: 600;
     }
 
     .cover {
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
+      height: 450px;
+      position: relative;
     }
 
     .overlay {
-      background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
-      border-bottom: 1px solid $blog-color-overlay-border;
+      background: linear-gradient(to bottom, $blog-color-image-from, $blog-color-image-to);
+      position: absolute;
+      width: 100%;
+      bottom: 0;
     }
 
     h1 {
-      font-size: 52px;
+      font-size: 34px;
       font-weight: 600;
+      margin: 15px 0 10px;
       clear: both;
-      margin-top: 20px;
     }
 
     .author,
     .date {
-      font-size: 18px;
+      font-size: 17px;
+      font-weight: 600;
       display: inline-block;
+
+      a {
+        color: $blog-color-heading;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          text-decoration: none;
+          color: $blog-color-purple;
+        }
+      }
+    }
+
+    .author-gitlab {
+      i {
+        color: $color-white;
+
+        &:hover {
+          color: $color-secondary;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-twitter {
+      i {
+        color: $color-white;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
+      }
     }
 
     .description {
-      margin: 35px 0 0;
-      font-size: 24px;
+      font-size: 20px;
+      margin-bottom: 0;
     }
 
     .alert {
@@ -329,21 +397,14 @@
         padding: 30px 10px;
       }
 
-      .cover {
-        height: inherit;
-      }
-
       .content {
         font-size: 18px;
-      }
-
-      h1 {
-        font-size: 38px;
       }
     }
   }
 
   &.archives {
+    padding-top: 20px;
     font-size: 18px;
 
     .wrapper {
@@ -383,21 +444,6 @@
       float: right;
       color: $blog-color-date;
     }
-  }
-
-  .panel,
-  .panel-default {
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .panel-heading {
-    padding: 15px;
-    background-color: $blog-color-ipanel-heading;
-    border-radius: 0;
-    border: 0;
-    line-height: 27px;
   }
 }
 
@@ -530,6 +576,7 @@
   .author {
     display: inline;
     font-weight: 600;
+
     a {
       font-weight: 600;
       line-height: normal;
@@ -640,4 +687,14 @@
   text-align: center;
   height: 500px;
   background: linear-gradient(-225deg, $blog-color-legacy-image-from 0%, $blog-color-legacy-image-to, 100%);
+
+  h1 {
+    color: $color-white;
+  }
 }
+
+pre {
+  border-radius: 0;
+}
+
+//scss-lint:enable all

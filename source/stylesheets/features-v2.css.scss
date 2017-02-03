@@ -1,0 +1,36 @@
+@import "vendor/bootstrap/bootstrap/variables";
+@import "variables";
+@import "sandwich-page-layout";
+
+.landing-container {
+  background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.video-button {
+  width: 190px;
+  line-height: 60px;
+
+  span {
+    margin-right: 3px;
+  }
+}
+
+.video-container {
+  box-shadow: 0 0 5 3 $features-semi-transparent-black;
+  width: 60vw;
+  height: 34vw;
+  display: none;
+}
+
+@media(max-width: $screen-xs-max) {
+  .video-button {
+    margin-top: 50px;
+  }
+
+  .video-container {
+    width: 380px;
+    height: 260px;
+    margin-top: 50px;
+  }
+}

@@ -83,18 +83,28 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 
 Notes:
 
-- Usually we don't use `h1` headings, as they already are displayed on every page as titles.
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
+  > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
+- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
+  > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
+- For keeping the text clear and the markdown consistent, [jump a line](#jump-a-line) between any heading and its subsequent paragraph.
 
 ----
 
-## Paragraphs, breaks and horizontal lines
+## Paragraphs, breaks, and horizontal lines
 
 Regular paragraphs are obtained by just writing text lines. If you hit **enter** between two lines,
-both lines will be joined into a single paragraph.
+both lines will be joined into a single paragraph, which is called [wrapping text][wrap].
 But, if you leave a blank line between them, they will split into two paragraphs.
 
-### Regular paragraphs and automatic join
+### Wrapping Text
+
+We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces
+after the last word of the line broken within a paragraph, unless you want it to be intentionally
+broken with a `<br>`.
+
+#### Regular paragraphs and automatic join
 
 ```md
 This text is a paragraph.
@@ -117,10 +127,6 @@ This will be another paragraph, as it has a blank line above it.
 
 </div>
 </div>
-
-_**Note:** We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces after the last
-word of the line broken within a paragraph, unless you want it to be intentionally broken with a `<br>`._
-{: .note}
 
 ### Additional breaks
 
@@ -560,7 +566,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 
 _**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
-worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
+worked on Mozilla Firefox for OS X, Android, and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
 {: .note}
@@ -668,7 +674,7 @@ the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attri
 Certain tools can help you to create your own complex table if you need merging lines or columns,
 and more advanced layouts. This is a [Table Generator] that perhaps can help you out.
 
-Note that the bars, spaces and dashes were used symmetrically above just for providing a nice
+Note that the bars, spaces, and dashes were used symmetrically above just for providing a nice
 view of the table markup. The symmetry is not required.
 
 Read through the [Kramdown syntax guide][kram-tables] on tables for further information.
@@ -1077,7 +1083,7 @@ See live examples [on this post][ssgs-post], where the icons are used to illustr
 
 -----
 
-## Classes, IDs and attributes
+## Classes, IDs, and attributes
 
 Defining CSS classes, and elements IDs and attributes with markdown is definitely something unusual (Kramdown magic!).
 
@@ -1741,7 +1747,7 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ## Embed documents
 
-It's easy to embed Google Docs, Sheets, Slides and pretty much everything that
+It's easy to embed Google Docs, Sheets, Slides, and pretty much everything that
 provides an iframe to use with. The only thing you need to do is use the
 following code inside your markdown file and replace the iframe from the document
 you want to embed:
@@ -1951,7 +1957,7 @@ or out of resources. It works from every major browser and saves automatically y
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
 - Do not leave blank spaces at the end of sentences.
-- Always leave a blank line between markups, except between list items. Example:
+- {:#jump-a-line} Always leave a blank line between markups, except between list items. Example:
 
         ---- (markup for horizontal line)
         <!-- blank line -->
@@ -1964,7 +1970,7 @@ they can render differently than the expected and can cause other issues.
         - Item 3
     {: .language-html}
 
-- Do not jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- As explained [above](#headings), do **not** jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
 - Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
 - If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
@@ -2003,6 +2009,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
+[SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
@@ -2016,3 +2023,5 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
+[w3c]: https://www.w3.org/MarkUp/html-spec/html-spec_5.html#SEC5.4
+[wrap]: /2016/10/11/wrapping-text/#do-wrap-it

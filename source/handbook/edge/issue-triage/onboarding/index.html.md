@@ -128,7 +128,7 @@ Diagnosing issues facing GitLab.com users is aided greatly by a good knowledge o
 - [ ] Complete the [Service Engineer onboarding Checklist](https://about.gitlab.com/handbook/support/onboarding/checklist/) to gain knowledge of the products from installation to general and more advanced usage
 - [ ] Complete the [Service Engineer steps to get your own environment](https://about.gitlab.com/handbook/support/onboarding/checklist/) in which to replicate issues and manage your own instance just like our customers do
 - [ ] Dig in to [the GitLab knowledge base](https://docs.gitlab.com) and understand where to dig for more information regarding features and the API
-- [ ] Gain familiarity with [Sentry](https://sentry.gitlap.com) and [Kibana](https://log.gitlap.com) for diagnosing production facing issues on GitLab.com
+- [ ] Gain familiarity with [Sentry](https://sentry.gitlap.com), and [Kibana](https://log.gitlap.com) via [the runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/kibana.md) for diagnosing production facing issues on GitLab.com
 
 ----
 

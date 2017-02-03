@@ -6,7 +6,7 @@
 .move-container.col-xs-12
   %h2#move Move
   .col-sm-12
-    %h4.title Current Contract
+    %h4.title Current Location
     .col-sm-4
       .dropdown.current-country
         %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
@@ -39,9 +39,15 @@
       .form-group.input-container.current-salary
         %label.input-label{ for: 'current-salary' } Current Compensation
         %span.input-prefix $
-        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "6" }
+        %input#current-salary.form-control.input-sm.input-field{ placeholder: 'Enter your compensation', maxlength: "10" }
+        %span.input-suffix USD
+    %h5.current-contract.hidden
+      Contract type:
+      %span.contract-type --
+      at GitLab
+      %span.company-type BV.
   .col-sm-12
-    %h4.title New Contract
+    %h4.title New Location
     .col-sm-4
       .dropdown.new-country
         %button.dropdown-menu-toggle.btn{ type: 'button', 'data-toggle' => 'dropdown' }
@@ -74,18 +80,27 @@
       .compensation
         .title New Compensation
         .amount --
+    %h5.new-contract.hidden
+      Contract type:
+      %span.contract-type --
+      at GitLab
+      %span.company-type BV.
   .col-sm-12.formula-container
     %h4 How did we calculate your compensation?
     .formula
       .variable-group
         .variable.currentSalary
           %span.name Current Salary
-          %span.value $
+          %span.value $ --
       .symbol.multiplication x
       .variable-group
         .symbol (
         .variable.newRentIndex
           %span.name New Rent Index
+          %span.value --
+        .symbol +
+        .variable.newMarketAdjustment
+          %span.name New Hot Market Adjustment
           %span.value --
         .symbol +
         .constant 0.25
@@ -95,6 +110,10 @@
         .symbol (
         .variable.currentRentIndex
           %span.name Current Rent Index
+          %span.value --
+        .symbol +
+        .variable.currentMarketAdjustment
+          %span.name Current Hot Market Adjustment
           %span.value --
         .symbol +
         .constant 0.25
@@ -113,15 +132,9 @@
     .explanation
     Find out
     = succeed '.' do
-      %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+      %a{href: '/handbook/people-operations/global-compensation-calculator#compensation-calculator'} how our calculator works
     You are also eligible for
     %a{href: '/handbook/stock-options/'} stock options
     and
     = succeed '.' do
       %a{href: '/handbook/benefits/'} other benefits
-    %span.contract-type-container.hidden
-      Based on the information provided, we expect you will be
-      %span.grammer a
-      %strong.contract-type contractor
-      at GitLab
-      %span.company-type BV.

@@ -31,7 +31,7 @@ For example, our developers push code to [GitLab CE][ce-repo]
 and [GitLab EE][ee-repo] every day, multiple times per day.
 For every commit, we use [GitLab CI] to **test and build** our software. We run unit tests to make sure
 some change didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
-making it easier to identify where the error is, when a test happens to fail.
+making it easier to identify where the error is when a test happens to fail.
 But we **do not deploy to production often**, making both GitLab CE and EE cases
 of **Continuous Integration** only.
 
@@ -137,7 +137,7 @@ these branches deploy to a staging environment. Production is only affected by t
 For this particular case, Mark used [Docker Cloud] to deploy his app, but you are free to use your creativity to
 optimize your software development process with GitLab and its built-in development tools.
 
-Check it out, it's awesome!
+Check it out; it's awesome!
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/pY4IbEXxxGY" frameborder="0" allowfullscreen="true"> </iframe>
@@ -156,7 +156,7 @@ built, and deployed. If you prefer having the human decision before deploying to
 allows you to do that with [Manual Actions][manual]. If you want a fully-automated process, with GitLab you
 can do that too. Whatever strategy your company chooses, GitLab does the job, and does it well!
 
-Our development team works hard to offer the best solution on modern software development tools and techniques. We ship a new
+Our development team works hard to offer the best solution for modern software development tools and techniques. We ship a new
 version once a month, every 22nd, with more features and improvements, for making development faster and better.
 
 GitLab is unique: we go [from idea to production][direction] using one single interface that integrates all the tools we need!

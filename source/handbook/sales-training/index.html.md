@@ -497,7 +497,7 @@ What could be simpler than that!
 
 You hear it all the time – if your price is higher than your competition you’re told to “build value." You’re instructed to stress the quality, the warranty, the features, etc. But your prospects have heard all that before, haven’t they? Want a better way?
 
-Let’s face it – prospects will often buy from people they like, know or trust. Your enthusiasm for your product or service is also a big factor in getting your prospects to place an order with you as well. Knowing this, I’ve often used the following script to not only build value in my product or service, but also to build value in myself. Here’s what to say:
+Let’s face it – prospects will often buy from people they like, know, or trust. Your enthusiasm for your product or service is also a big factor in getting your prospects to place an order with you as well. Knowing this, I’ve often used the following script to not only build value in my product or service, but also to build value in myself. Here’s what to say:
 
 If your prospects says, “I can get cheaper," or “Well the XYZ company has something similar or for less money," or anything like that, say:
 
@@ -507,7 +507,7 @@ If your prospects says, “I can get cheaper," or “Well the XYZ company has so
 
 “If there was a better product or company for you to be doing business with I’d be there and we’d be talking about that. But there isn’t.
 
-“Bottom line – if you want the best overall value, results and experience, then do what I do did – choose GitLab – You’ll always be glad you did. Now, do you want to start with the X size order or would the Y size order be better?"
+“Bottom line – if you want the best overall value, results, and experience, then do what I do did – choose GitLab – You’ll always be glad you did. Now, do you want to start with the X size order or would the Y size order be better?"
 
 This technique builds value in the most important part of any sales transaction — you and your belief in your product or service. Use it each time you get the price/competition objection and watch your sales and confidence growth.
 
@@ -626,7 +626,7 @@ Answer is “This tool would help us do X faster.”.  Read the article to gain 
 
 Leslie Ye wrote an aticle on [11 Sales Negotiation Mistakes You Might Be Making](http://blog.hubspot.com/sales/sales-negotiation-mistakes?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36093761#sm.00000thjdio2kmcx3y923dyo5fe5u)
 
-Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with point 4, 5 and 10 resonating with me.
+Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with point 4, 5, and 10 resonating with me.
 
 1. Treating negotiation as a zero-sum game
 2. Not knowing why the prospect would buy

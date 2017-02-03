@@ -60,10 +60,20 @@ extra_css:
           %h2 Team Calls
           .tabbed-text
             Since we all work remotely at GitLab, we use team video calls regularly (with more than 50 people on most days!).
-            Mostly only our CEO and 
+            Mostly only our CEO and
             %a{href: "/team-pets"}Suzy
             are in the Francisco office.
         .col-md-4.hidden-sm.hidden-xs
           = image_tag "/images/teamcall.png"
         .col-xs-6.col-md-1
       %hr.divider/
+      .row.access
+        .col-xs-6.col-md-1
+        .col-xs-6.col-md-4.txt-middle.hidden-sm.hidden-xs
+          = image_tag "/images/primer.png"
+        .col-md-1.hidden-sm.hidden-xs
+        .col-xs-12.col-md-6
+          %h2 Questions from visitors
+          %ul
+            %li Most visitors have questions about our #{link_to "team size and distribution", "https://about.gitlab.com/team"}, how people are #{link_to 'spread among divisions', "https://about.gitlab.com/team/structure/"}, our #{link_to "strategy", "https://about.gitlab.com/strategy/"}, and other things for which it helps to have a quick walk through through our #{link_to "handbook", "https://about.gitlab.com/handbook"} and general pages mentioned on our #{link_to "Primer page", "https://about.gitlab.com/primer"}
+        %hr.divider/

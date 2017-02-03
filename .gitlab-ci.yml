@@ -1,4 +1,7 @@
-image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
+image: dev.gitlab.org:5005/gitlab/gitlab-build-images:www-gitlab-com
+
+variables:
+  GIT_DEPTH: "4"
 
 before_script:
   - bundle install --jobs 4 --path vendor
@@ -6,6 +9,7 @@ before_script:
 cache:
   key: "website"
   paths:
+    - public
     - vendor
 
 stages:
@@ -17,29 +21,45 @@ lint:
   script:
     - bundle exec rake lint
   tags:
-    - docker
+    - gitlab-org
 
-build:
+.build_base: &build_base
   stage: build
-  script:
-    - bundle exec rake build pdfs
-  tags:
-    - docker
   artifacts:
-    expire_in: 31 days
+    expire_in: 7 days
     paths:
       - public/
+  tags:
+    - gitlab-org
+
+build_branch:
+  <<: *build_base
+  script:
+    - bundle exec rake build
+  except:
+    - master
+
+build_master:
+  <<: *build_base
+  script:
+    - bundle exec rake build pdfs
+  only:
+    - master
 
 review:
   stage: deploy
   allow_failure: true
   before_script: []
   cache: {}
+  dependencies:
+    - build_branch
+  variables:
+    GIT_STRATEGY: none
   script:
-    - rsync -av --delete public ~/pages/$CI_BUILD_REF_NAME
+    - rsync -av --delete public ~/pages/$CI_BUILD_REF_SLUG
   environment:
     name: review/$CI_BUILD_REF_NAME
-    url: http://$CI_BUILD_REF_NAME.about.gitlab.com
+    url: http://$CI_BUILD_REF_SLUG.about.gitlab.com
     on_stop: review_stop
   only:
     - branches@gitlab-com/www-gitlab-com
@@ -54,10 +74,11 @@ review_stop:
   before_script: []
   artifacts: {}
   cache: {}
+  dependencies: []
   variables:
     GIT_STRATEGY: none
   script:
-    - rm -rf public ~/pages/$CI_BUILD_REF_NAME
+    - rm -rf public ~/pages/$CI_BUILD_REF_SLUG
   when: manual
   environment:
     name: review/$CI_BUILD_REF_NAME
@@ -72,13 +93,14 @@ review_stop:
 
 deploy:
   stage: deploy
+  cache: {}
   variables:
     GIT_STRATEGY: none
   dependencies:
-    - build
+    - build_master
   before_script: []
   script:
-    - rsync --delete -r public/ ~/public/
+    - rsync --delete -vr public/ ~/public/
   environment:
     name: production
     url: https://about.gitlab.com

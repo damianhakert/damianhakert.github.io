@@ -159,16 +159,6 @@ to ask on the support and/or general chat channel with the ticket's link.
 
 Every now and then, a GitLab team member will forward a question from a customer, prospective customer, user, etc. Always reply directly to the original requester, keeping the person who forwarded it in the cc.
 
-## Customer Training ?
-
-Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
-questions from potential customers. The materials for the customer training should be kept up to date
-[here](https://gitlab.com/gitlab-org/University/tree/master/training).
-Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
-If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
-or easy escalation when needed.
-
 ### Vacation
 
 You are encouraged to take as many vacations days as you need, as per our [handbook](/handbook). There

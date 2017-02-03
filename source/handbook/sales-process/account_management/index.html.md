@@ -97,7 +97,7 @@ puts the sales team in the cc to avoid creating duplicate tickets for the Suppor
 ## Creating an Issue for feature requests
 
 1. Create an issue on the [public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) and mention someone (Dimitriy, Sytse, Job).
-1. Do not mention customer name but confirm if large, medium or small and include URL to Saleforce account.
+1. Do not mention customer name but confirm if large, medium, or small, and include URL to Saleforce account.
 
 ## Federal agency templates and certificates 
 

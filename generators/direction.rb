@@ -50,11 +50,19 @@ class GitLabProject
      @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
    end
 
-   def wishlist_issues(label,not_label=nil)
-     result = @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc")
+   def all_direction_issues
+     @direction_issues ||= @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc")
      #result << @instance.call("/projects/#{@id}/issues", "?labels=direction&state=opened&per_page=100&sort=asc&page=2")
-     result = result.select { |issue| issue["labels"].include? label }
-     result = result.reject { |issue| issue["labels"].include? not_label } if (not_label)
+   end
+
+   def coming_soon_issues
+     result = all_direction_issues.select { |issue| issue["labels"].include? "coming soon" }
+   end
+
+   def wishlist_issues(label,not_label=nil)
+     result = all_direction_issues.select { |issue| issue["labels"].include? label }
+     result = result.reject { |issue| (issue["labels"].include? "coming soon")}
+     result = result.select { |issue| (issue["labels"] & not_label).empty? } if (not_label)
      result = result.select { |issue| issue["milestone"].nil? || issue["milestone"]["title"] == "Backlog" }
    end
 
@@ -73,6 +81,14 @@ class GitLabProject
    def endpoint
      @instance.endpoint
    end
+end
+
+def issue_bullet(project,issue)
+  output = "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["iid"]})"
+  output << ' <kbd>EE Starter</kbd>' if(issue["labels"].include? "EE Starter")
+  output << ' <kbd>EE Premium</kbd>' if(issue["labels"].include? "EE Premium")
+  output << "\n"
+  output
 end
 
 def generate_direction
@@ -94,12 +110,21 @@ def generate_direction
         direction_output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
 
         issues.each do |issue|
-          direction_output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["id"]})\n"
-          $stdout.flush
+          direction_output << issue_bullet(project,issue)
         end
 
         direction_output << "\n"
       end
+    end
+    issues = project.coming_soon_issues
+    if(issues)
+      direction_output << "### [Coming Soon](#{project.web_url}/issues?label_name[]=coming%20soon)\n\n"
+
+      issues.each do |issue|
+        direction_output << issue_bullet(project,issue)
+      end
+
+      direction_output << "\n"
     end
   end
   print "\n"
@@ -121,8 +146,7 @@ def label_list(label,not_label=nil)
   edition.each do |project|
     issues = project.wishlist_issues(label, not_label)
     issues.each do |issue|
-      output << "- [#{issue["title"]}](#{project.web_url}/issues/#{issue["iid"]})\n"
-      $stdout.flush
+      output << issue_bullet(project,issue)
     end
   end
   output = "No current issues\n" if (output.empty?)
@@ -133,10 +157,10 @@ def generate_wishlist
   print "Generating wishlist..."
   wishlist_output = {}
 
-  ["pages","container registry","Performance","moonshots","issues","major wins","usability","code review","vcs for everything","ee product"].each do |label|
+  ["chat commands", "code review","container registry","deploy","EE Premium","issues","pages","major wins","moonshots","performance","Prometheus","usability","vcs for everything"].each do |label|
     wishlist_output[label] = label_list(label)
   end
-  wishlist_output["CI"] = label_list("CI","pages")
+  wishlist_output["CI"] = label_list("CI",["pages","deploy","container registry", "chat commands"])
   print "\n"
 
   wishlist_output
