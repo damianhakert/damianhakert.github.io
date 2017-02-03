@@ -1,6 +1,6 @@
 .container.dropdown.text-center
-  .row
-    .col-sm-12
+  .row#dropdown
+    .col-md-12.dropdown-section
       .dropdown.level
         %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
           %span
@@ -8,26 +8,26 @@
           %i.fa.fa-chevron-down
         %ul.dropdown-menu
           %li
-            = highlight_active_nav_link("GitLab Self-hosted vs. GitHub.com", "/comparison/gitlab-self-hosted-vs-github.html")
+            = highlight_active_nav_link("GitLab Self-hosted vs. GitHub.com", "/comparison/gitlab-self-hosted-vs-github.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab EE vs. GitHub Enterprise", "/comparison/gitlab-ee-vs-github-enterprise.html")
+            = highlight_active_nav_link("GitLab EE vs. GitHub Enterprise", "/comparison/gitlab-ee-vs-github-enterprise.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab.com vs. GitHub.com", "/comparison/gitlab-vs-github.html")
+            = highlight_active_nav_link("GitLab.com vs. GitHub.com", "/comparison/gitlab-vs-github.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab CE/EE vs. Bitbucket Server", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html")
+            = highlight_active_nav_link("GitLab CE/EE vs. Bitbucket Server", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab.com vs. Bitbucket.org", "/comparison/gitlab-com-vs-bitbucket-org.html")
+            = highlight_active_nav_link("GitLab.com vs. Bitbucket.org", "/comparison/gitlab-com-vs-bitbucket-org.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab CE/EE vs. SaaS", "/comparison/gitlab-ce-ee-vs-saas.html")
+            = highlight_active_nav_link("GitLab CE/EE vs. SaaS", "/comparison/gitlab-ce-ee-vs-saas.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab CE vs. GitLab EE", "/comparison/gitlab-ce-vs-gitlab-ee.html")
+            = highlight_active_nav_link("GitLab CE vs. GitLab EE", "/comparison/gitlab-ce-vs-gitlab-ee.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab vs. SVN", "/comparison/gitlab-vs-svn.html")
+            = highlight_active_nav_link("GitLab vs. SVN", "/comparison/gitlab-vs-svn.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab vs. GitSwarm", "/comparison/gitlab-vs-gitswarm.html")
+            = highlight_active_nav_link("GitLab vs. GitSwarm", "/comparison/gitlab-vs-gitswarm.html#dropdown")
 %h1.titles-comparison-companies.text-center
   = comparison_block.title
-%table.table.compare-table.comparing-gitlab
+%table.compare-table.comparing-gitlab
   %colgroup
     %col{:width => "80%"}
     %col{:width => "10%"}
@@ -54,6 +54,7 @@
             %strong= feature.title
           %p
             = feature.description
+            = feature.documentation_link
         %td.text-center
           - if (feature.competitor_one == "sortof")
             %img{ src: "/images/comparison/maybe-icon.svg", alt: "sort of", class: "check" }
