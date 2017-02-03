@@ -173,22 +173,24 @@ p {
       padding-bottom: 5px;
 
       th {
-        padding: 0 0 5px;
+        padding: 0 0 20px;
       }
 
       .table-title {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 500;
         color: $color-gray;
       }
     }
 
     .feature-in-list {
-      padding: 10px 30px 10px 0;
+      padding: 20px 30px 20px 0;
       color: $color-gray;
 
       .feature-in-list-title {
         color: $color-primary;
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 500;
         padding-bottom: 4px;
       }
     }
@@ -237,6 +239,7 @@ p {
     }
 
     p {
+      font-size: 16px;
       margin: 0;
       color: $color-gray;
     }
