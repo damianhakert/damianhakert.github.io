@@ -522,6 +522,7 @@ iframe {
 .sticky-banner {
   display: none;
   position: fixed;
+  z-index: 1001;
   bottom: 0;
   width: 100vw;
   height: 70px;

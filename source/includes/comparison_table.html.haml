@@ -41,7 +41,7 @@
           %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}", class: "logo" }
         - else
           = comparison_block.competitor_one.name
-      %th.text-center
+      %th.text-center.table-title-logo
         - if (comparison_block.competitor_two.logo != "null")
           %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}", class: "logo" }
         - else
@@ -71,7 +71,7 @@
           - if (feature.competitor_two == false)
             = partial "includes/icons/comparison/no-icon.svg"
 
-.container.last-updated-section
+.last-updated-section
   %p
     Last updated:
     = comparison_block.last_updated
