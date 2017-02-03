@@ -2,12 +2,12 @@
 
 - title: "Executive Assistant"
   description: /jobs/executive-assistant/
-  apply: https://gitlab.workable.com/jobs/421022
+  apply: https://gitlab.workable.com/jobs/421022/candidates/new
   open: true
 
 - title: "Account Executive - Sales"
   description: /jobs/account-executive/
-  apply: 
+  apply:
   open: false
 
 - title: "Account Manager - Customer Success"
@@ -27,7 +27,7 @@
   open: false
 
 - title: "Build Engineer"
-  description: /jobs/build-engineer
+  description: /jobs/build-engineer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
@@ -78,7 +78,7 @@
   open: true
 
 - title: "Director of Customer Success"
-  description: /jobs/director-customer-success
+  description: /jobs/director-customer-success/
   apply: https://gitlab.workable.com/jobs/339588/candidates/new
   open: true
 
@@ -93,7 +93,7 @@
   open: true
 
 - title: "Director of Global Account Management"
-  description: /jobs/director-global-account-management
+  description: /jobs/director-global-account-management/
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
   open: true
 
@@ -147,15 +147,15 @@
   open: false
 
 - title: "Product Manager"
-  description: /jobs/product-manager
+  description: /jobs/product-manager/
   salary: 117530
   apply:
   open: false
 
 - title: "Senior Product Manager, CI/CD Pipelines"
-  description: /jobs/product-manager-ci
+  description: /jobs/product-manager-ci/
   salary: 117530
-  apply: https://gitlab.workable.com/jobs/339744
+  apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
 - title: "Production Engineer"
@@ -181,7 +181,7 @@
   open: true
 
 - title: "Regional Sales Director"
-  description: /jobs/regional-sales-director
+  description: /jobs/regional-sales-director/
   apply:
   open: false
 
@@ -227,7 +227,7 @@
   open: true
 
 - title: "Issue Triage Specialist"
-  description: /jobs/specialist/issue-triage
+  description: /jobs/specialist/issue-triage/
   salary: 87337
   apply:
   open: false
