@@ -55,7 +55,7 @@
           %p
             = feature.description
           %p
-            = feature.documentation_link
+            = link_to feature.link_description, feature.link
         %td.check-container.text-center
           - if (feature.competitor_one == "sortof")
             = partial "includes/icons/comparison/maybe-icon.svg"
