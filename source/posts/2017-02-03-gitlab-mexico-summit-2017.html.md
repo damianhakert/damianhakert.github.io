@@ -3,7 +3,7 @@ title: "GitLab Mexico Summit 2017"
 author: Kirsten Abma
 author_gitlab: kirstenabma
 categories: inside GitLab
-image_title: '/images/blogimages/gitlab-mexico-summit-2017/cancun-2017-cover.png'
+image_title: '/images/blogimages/gitlab-mexico-summit-2017/akumal.jpg'
 description: 'The largest remote-only organization in the world takes over Cancun for a week full of joy!'
 ---
 
