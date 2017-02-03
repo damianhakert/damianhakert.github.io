@@ -40,7 +40,7 @@ p {
   .left-columns {
     padding-right: 30px;
 
-    @media (max-width: $screen-md-min) {
+    @media (max-width: $screen-sm-max) {
       padding: 0 15px;
     }
   }
@@ -48,7 +48,7 @@ p {
   .right-columns {
     padding-left: 30px;
 
-    @media (max-width: $screen-md-min) {
+    @media (max-width: $screen-sm-max) {
       padding: 0 15px;
     }
   }
@@ -130,9 +130,16 @@ p {
     padding: 10px 0 40px;
   }
 
+
+//We need to be able to take out this class completely - the .table-responsive.
+//This will remove the table as the screen shrinks down to mobile.
+//You'll notice I'm only keeping the white-space: normal because it slightly helps the spacing
+//when you shrink down to mobile-sized screens. When the screen is this size, it automatically turns on.
+//I think any table used throughout the site inherits from .table-responsive
+
   // scss-lint:disable SelectorDepth
   .table-responsive {
-    @media (max-width: $screen-md-min) {
+    @media (max-width: $screen-sm-max) {
       // Tighten up spacing
       > table {
         // Ensure the content doesn't wrap
@@ -147,6 +154,15 @@ p {
       }
     }
   }
+
+  .compare-table {
+    white-space: normal;
+
+    td:nth-last-child(-n+3) {
+      border-bottom: 1px solid $navbar-default-border;
+    }
+  }
+
   // scss-lint:enable SelectorDepth
 
   .comparison-table {
@@ -270,11 +286,9 @@ p {
 }
 
 .last-updated-section {
-  border-top: 1px solid $navbar-default-border;
-  margin-left: -15px;
   padding: 10px 0 30px;
 
-  @media (max-width: $screen-md-min) {
+  @media (max-width: $screen-sm-max) {
     margin-left: 0;
   }
 }
