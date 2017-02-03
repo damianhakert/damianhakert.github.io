@@ -36,7 +36,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
            the lump sum would be $10,000.
 1. [Paid time off policy](https://about.gitlab.com/handbook/#paid-time-off).
 1. GitLab Summit
-   * Every six to nine months team members gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information about the past summits check out our [culture page](https://about.gitlab.com/culture/). 
+   * Every six to nine months team members gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information about the past summits check out our [culture page](https://about.gitlab.com/culture/).
 1. [Further incentives](https://about.gitlab.com/handbook/#incentives), such as
    - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
    - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)
@@ -76,6 +76,16 @@ California and Kaiser, to offer a broad range of medical plans, including high
 deductible health plans, PPOs, and HMOs. Medical plan options vary by state, and
 may also include regional carriers.
 
+##### Transgender Medical Services
+
+Recently, the [United States Department of Health and Human Services](https://www.hhs.gov/) released a [mandate on transgender non-discrimination](http://www.transgendermandate.org/). As part of this mandate, medical carriers were given time to review their current policies and update to reflect the mandate. Expanded language for coverage should be visible in the 2017-10-01 renewal for TriNet’s plans.
+
+Because there is a wide range of services, treatment, and goals for transgender patients, employees are encouraged to contact their carrier directly to have these discussions.
+
+##### Pregnancy & Maternity Care
+
+With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected through TriNet, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. Please contact TriNet at +1 800 638 0461 with any questions about your plan. 
+
 #### Dental
 
 TriNet's four dental carriers -Delta Dental, Aetna, Guardian Dental, and MetLife-
@@ -112,8 +122,6 @@ amounts are capped at:
 ---
 
 You are responsible for the remainder of the premium cost, if any.
-
-
 
 ### Basic Life Insurance and AD&D
 {: #basic-life-ins}
