@@ -57,7 +57,7 @@ We frequently hire people from the community who have shown through contribution
 they have the skills that we are looking for, even if they didn’t have much previous experience
 with those technologies, and we would gladly review those contributions.
 
-### Junior Developers
+## Junior Developers
 
 Junior Developers share the same responsibilities outlined above, but typically
 join with less or alternate experience in one of the key areas of Developer
