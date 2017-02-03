@@ -14,6 +14,12 @@ gitlab_self_hosted_vs_github:
       link: https://about.gitlab.com/direction/#vision
       competitor_one: true
       competitor_two: sortof
+    - title: "Built-in Continuous Integration"
+      description: "GitHub integrates with popular, external CI platforms. GitLab provides a continuous integration service, built-in, for free. It's tightly integrated with everything in the product and just works. You can also decide to use external CI solutions if you choose to."
+      link_description: "Documentation on CI"
+      link: https://docs.gitlab.com/ce/ci/quick_start/README.html
+      competitor_one: true
+      competitor_two: false
     - title: "Multiple authentication Levels"
       description: "Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker."
       link_description: "See the various authentication levels"
@@ -108,12 +114,6 @@ gitlab_self_hosted_vs_github:
       description: "Time Tracking in GitLab Enterprise Edition lets your team add estimates and record time spent on issues and merge requests. There is no need to use external tools anymore."
       link_description: "Check the Time tracking feature"
       link: https://about.gitlab.com/features/time-tracking/
-      competitor_one: true
-      competitor_two: false
-    - title: "Continuous Integration"
-      description: "GitHub integrates with popular, external CI platforms. GitLab provides a continuous integration service, built-in, for free. It's tightly integrated with everything in the product and just works. You can also decide to use external CI solutions if you choose to."
-      link_description: "Documentation on CI"
-      link: https://docs.gitlab.com/ce/ci/quick_start/README.html
       competitor_one: true
       competitor_two: false
     - title: "Built-in Docker Registry"
@@ -447,7 +447,7 @@ gitlab_ce_vs_gitlab_ee:
     logo: '/images/comparison/ee-gitlab-logo.svg'
   last_updated: 'January 31, 2017'
   features:
-    - title: "Protect your code"
+    - title: "File Locking"
       description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab Enterprise Edition Premium, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
       link_description: ""
       link:
@@ -465,14 +465,14 @@ gitlab_ce_vs_gitlab_ee:
       link:
       competitor_one: false
       competitor_two: true
-    - title: "Admin Control"
+    - title: "Advanced audit logs"
       description: "To maintain the integrity of your code, GitLab Enterprise Edition gives admins the ability to view any modifications made within the GitLab server in an advanced audit log system, so you can control, analyze and track every change."
       link_description: ""
       link:
       competitor_one: false
       competitor_two: true
     - title: "Admin Control"
-      description: "GitLab Enterprise Edition gives your Admin’s the ability to automatically sync groups and manage SSH-keys, permissions, and authentication, so you can focus on building your product, not configuring your tools"
+      description: "GitLab Enterprise Edition gives your Admin’s the ability to automatically sync groups and manage SSH-keys, permissions, and authentication, so you can focus on building your product, not configuring your tools."
       link_description: ""
       link:
       competitor_one: false
