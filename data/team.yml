@@ -31,6 +31,27 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: Khosla Ventures
+  twitter: khoslaventures
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
+
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: August Capital
+  twitter: VilliSpeaks
+  gitlab: Villi 
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
+
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
@@ -1783,7 +1804,7 @@
 - name: Brent Jensen
   locality: Springville, UT
   country: USA
-  role: Sales Development Team Lead
+  role: <a href="https://about.gitlab.com/jobs/sales-development-team-lead/">Sales Development Team Lead</a>
   reports_to: Regional Sales Director - US
   picture: Brent.jpg
   twitter: btwosockz
@@ -2167,16 +2188,16 @@
   story:  |
           Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods.
 
-- name: M.R.
-  locality:
-  country:
+- name:  Mark Rogge
+  locality: Sunny San Diego California 
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: markorogge.jpg
   twitter:
   gitlab:
-  story:  |
-          Joining January 3rd
+  story:    A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.  
+           
 
 - name: Oswaldo Ferreira
   locality: Campos, RJ
@@ -2217,16 +2238,18 @@
   story:  |
           Josh's passion with computers started in elementary school when his parents brought an IBM PCjr home along with a book on BASIC. In his teenage years he spent time working on a variety of coding projects and assembling his own computers. He developed a love for product management 6 years ago, while working on a solution in the mobile productivity space. When not spending time with his family or working on technology, he tries to get out skiing and playing tennis.
 
-- name: E.E.
-  locality:
-  country:
+- name: Eric Eastwood
+  locality: Twin Cities, Minnesota
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: eric.png
+  twitter: MadLittleMods
+  gitlab: madlittlemods
   story:  |
-          Joining January 9th
+          Eric loves building projects with the web-stack whether it be a playground for his PostCSS plugin or slapping a UI on top of a Unity 3D game.
+          Prior to working at GitLab, he worked at Gitter transforming the way developers communicate about their open source projects.
+          In his spare time, he enjoys flipping hardware bits on a FPGA and exploring new ways to improve the developer experience.
 
 - name: Ben Kochie
   locality: Berlin
@@ -2251,16 +2274,19 @@
   story:  |
           Joining January 9th
 
-- name: M.B.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+- name: Mike Bartlett
+  locality: London
+  country: U.K.
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Senior Product Manager</a>
   reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: mikebartlett.jpg
+  twitter: mydigitalself
+  gitlab: mydigitalself
   story:  |
-          Joining January 9th
+          Mike started programming on a ZX Spectrum when he was just knee-high to an AS/400.
+          He then fell into the darkside of product management, where he was lucky enough to ship some awesome stuff,
+          including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
+          He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
 - name: Tim Peix
   locality: Edinburgh, Scotland
@@ -2273,11 +2299,33 @@
   story:  |
           Tim has worked in the fields of app design, game design and interactive storytelling for numerous agencies, start-ups and companies. From 2014 to 2016 he was Design Teaching Assistant at Weißensee School of Art Berlin where he taught interaction design, digital media and app prototyping. Tim studied Visual Communication at Weißensee School of Art Berlin and Animation at University of the West of England in Bristol. Tim grew up in Germany and has lived in the United Kingdom before as a volunteer in a caring home and as a design student. He likes to spend his free time skiing, doing road trips and playing Cards Against Humanity with his friends.
 
+- name: P.C.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 1st
+
 - name: S.K.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th
+
+- name: S.G.
+  locality:
+  country:
+  role: <a https://about.gitlab.com/jobs/business-development-representative-outbound/">Sales Development Rep</a>
+  reports_to: Regional Director of Sales
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

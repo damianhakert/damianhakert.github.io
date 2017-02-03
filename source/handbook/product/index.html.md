@@ -129,6 +129,17 @@ work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
 
+##### Encouraging behavior
+
+Convention also implies that we're encouraging our customers to do things
+in a certain way. A very concrete example of this is the ability to disable
+pipelines.We believe that our integrated solution will give a superior user
+experience and we're motivated to encourage behavior. For this reason, adding a
+configuration to be able to disable this permanently (be that in template or
+instance-wide), is something that should be avoided.
+
+Encourage favorable behaviors by limiting configuration.
+
 #### Be Ambitious
 
 Many crazy, over-ambitious ideas just sound like they are impossible
@@ -302,6 +313,20 @@ When you don't have specific tasks assigned, you should work on issues that are
 labeled `Product work`, in both EE and CE projects. These are issues that need
 our attention the most.
 
+#### Scheduling timeline throughout a milestone
+
+Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production. 
+Follow this timeline for the release that will be shipped in Month `M`.
+
+* Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
+* Month `M-1`, 7th: Release post created (WIP merge request)
+* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them
+* Month `M`, 15th: Release post first draft complete (WIP merge request)
+* Month `M`, 22nd: Release shipped to production \| Release post published
+
+With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd, 
+the scope for the following release has already been established earlier in that same month.
+
 ### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
@@ -434,22 +459,21 @@ customer that documentation is lacking is not.
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-# EE only and Products
+# Enterprise Edition Tiers
 
-Products are large additions to GitLab that we sell separate to GitLab
-Enterprise Edition customers.
+There are two EE tiers: Starter and Premium.
 
-EE only features are exclusive to GitLab Enterprise Edition, but don't
-require any additional purchases besides GitLab EE.
+EE Starter features are more relevant for organizations that have more than
+**100** potential users.
 
-## EE only or Premium?
+EE Premium features are more relevant for organizations that have more than **750**
+potential users.
+
+## Starter or Premium?
 
 Deciding on whether something should be a Premium feature or just a EE-only
 feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
-
-Premium features replace other products in organisations. E.g. license checker
-replaces BlackDuck, time tracking replaces time tracking software.
 
 ## Talking about EE only decisions
 

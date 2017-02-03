@@ -19,6 +19,7 @@ title: Leadership
 1. If you meet external people always ask what they think we should improve.
 1. As [Paul graham said](https://twitter.com/paulg/status/802102152319606784): strive to make the organization simpler.
 1. We don't have project managers. Individual contributors need to manage themselves. Not everyone will be able to do this effectively and be fit for our organization. Making someone responsible for managing others will make the job of the people that can manage themselves worse. If you manage yourself you have a much greater freedom to make decisions, and those decisions are based on deep knowledge of the situation. We want to retain the people that can handle that responsibility and therefore we can't retain the ones that struggle. Assigning a project manager/coordinator/case manager/etc. to something is an indicator that something is wrong and we are picking the wrong solution.
+1. Saying something to the effect of 'as you might have heard' or 'as you might know' is toxic. The people that know don't need it to be said. The people that don't know feel like the missed something and will be afraid to ask about the context since they don't want to look like they are out of the loop.
 
 ## Management
 

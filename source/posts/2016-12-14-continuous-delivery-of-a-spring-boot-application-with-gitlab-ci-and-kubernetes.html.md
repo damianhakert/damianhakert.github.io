@@ -5,6 +5,7 @@ author_twitter: marco_lenzo
 categories: GitLab CI
 image_title: '/images/unsplash/dew-leaf.jpg'
 description: "Create a Continuous Delivery pipeline to deploy a Spring Boot app with GitLab CI and Kubernetes to Google Cloud Container Engine"
+guest: true
 ---
 
 [Continuous Integration, Continuous Deployment and Continuous Delivery](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) are increasingly popular topics among modern development teams. Together they enable a team to build, test and deploy the code at any commit. The main benefit of these approaches is the ability to release more quality code more frequently through the means of automated pipelines. The tough part is building such pipelines. There is a myriad of tools available which we would need to choose, learn, install, integrate, and maintain. 
