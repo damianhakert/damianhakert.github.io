@@ -457,6 +457,7 @@ gitlab_ce_vs_gitlab_ee:
   competitor_two:
     name: 'GitLab EE'
     logo: '/images/comparison/ee-gitlab-logo.svg'
+  last_updated: 'January 31, 2017'
   features:
     - title: "Protect your code"
       description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab Enterprise Edition Premium, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
@@ -579,6 +580,6 @@ gitlab_vs_gitswarm:
     - title: ""
       description: ""
       link_description: ""
-      link: 
+      link:
       competitor_one: true
       competitor_two: false
