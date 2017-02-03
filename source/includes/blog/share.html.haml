@@ -12,6 +12,12 @@
     %i.fa.fa-twitter
     %span.sr-only
       Share on Twitter
+  %a.share-btn.share-btn-linkedin{ href: "https://www.linkedin.com/shareArticle?mini=true&url=#{url}&title=#{current_page.data.title}&summary=&source=",
+    target: "_blank",
+    onclick: "openSocialLink(this, 500, 400); return false;" }
+    %i.fa.fa-linkedin
+    %span.sr-only
+      Share on LinkedIn
   %a.share-btn.share-btn-google{ href: "https://plusone.google.com/_/+1/confirm?hl=en&url=#{url}",
     target: "_blank",
     onclick: "openSocialLink(this, 500, 400); return false;" }
