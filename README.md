@@ -264,10 +264,15 @@ follow the steps below:
 [blog archives]: https://about.gitlab.com/blog/archives.html
 [md]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide
 
-### Update the features comparison page (under `/features`)
+### Update the features page (under `/features`)
 
 The feature page grabs its content automatically from the file
 `/data/features.yml`.
+
+### Update the comparison page (under `/comparison`)
+
+The comparison page grabs its content automatically from the file
+`/data/comparisons.yml`.
 
 ### Update the release list page (under `/release-list`)
 
