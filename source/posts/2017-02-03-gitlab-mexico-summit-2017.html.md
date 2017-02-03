@@ -32,13 +32,19 @@ by our main man, [Sid], who immediately got the team spirit going by
 challenging the team to make the Idea to Production demo work on
 Google Container Engine.
 
-[ADD KEYNOTE VIDEO?]
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/xGxLi3PtxHM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 If the team managed to show this fully functioning, he would do the
 Sid shuffle from Ice Age 4. Needless to say our team didn't disappoint,
 and neither did Sid. 
 
-[ADD SID SHUFFLE VIDEO?]
+The video is not the best we've posted but we don't want you to miss out on the Sid Shuffle. If you want to skip the live demo our team did, please go to [28:29](https://www.youtube.com/watch?v=39chczWRKws#t=28m29s).
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## So Much Awesomeness
 
