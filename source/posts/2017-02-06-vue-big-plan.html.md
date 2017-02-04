@@ -1,5 +1,5 @@
 ---
-title: "Our Big Frontend Plan"
+title: "Our Big Frontend Plan Revealed"
 author: Jacob Schatz
 author_twitter: jakecodes
 author_gitlab: jschatz1
