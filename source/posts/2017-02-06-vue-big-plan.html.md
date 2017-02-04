@@ -3,7 +3,7 @@ title: "Our Big Frontend Plan"
 author: Jacob Schatz
 author_twitter: jakecodes
 author_gitlab: jschatz1
-categories: development
+categories: GitLab
 description: "Our long term plan to make GitLab as fast and performant as possible with Vue and Webpack"
 image_title: '/images/blogimages/vue-big-plan-cover.png'
 ---
