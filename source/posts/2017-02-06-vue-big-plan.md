@@ -5,7 +5,7 @@ author_twitter: jakecodes
 author_gitlab: jschatz1
 categories: development
 description: ""
-image_title: '/images/blogimages/glwpvuelogo.png'
+image_title: '/images/blogimages/vue-big-plan-cover.png'
 guest: false
 ---
 
