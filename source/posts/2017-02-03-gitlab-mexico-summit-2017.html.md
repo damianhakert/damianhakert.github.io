@@ -9,13 +9,26 @@ description: 'The largest remote-only organization in the world takes over Cancu
 
 If it were appropriate to start a blog post with with every emoji
 that expresses extreme delight we would. In lieu of that we will
-just say the GitLab Summit in Mexico was beyond excellent. 🎉 A little background for the folks at home. As a fully remote company, with people in 35 different countries, most of the team never gets to meet eachother in person. To remedy that and so that everyone gets a chance for some face time and to meet his/ her team we try to do a team summit every 9 months. This allows us to get to know the group better and have a unique oportinty to collaborate with our own teams and others we may never work with normally. By teh end of the week we all have a better understanding of what everyone does, who we can go to with questions on specific topics and how we all can work together as a team.  
+just say the GitLab Summit in Mexico was beyond excellent. 🎉  
 
 Six months of planning culminated in 201 GitLabbers taking over
 one Cancun resort for a long week of meetings, activities, hard work,
 and fun. 
 
 <!-- more -->
+
+## A Little Background for the Folks at Home
+
+As a fully remote company, with people in 35 different countries,
+most of the team never gets to meet each other in person.
+To remedy that and so that everyone gets a
+chance for some face-to-face time and to meet his/her team, we do a [team
+summit] every 9 months. This allows us to get to know the group better
+and have a unique opportunity to collaborate with our own teams and
+others we may never work with normally. By the end of the week we
+all have a better understanding of what everyone does, who we can
+go to with questions on specific topics and how we all can work
+together as a team.
 
 ## We Took Cancun by Storm
 
@@ -156,9 +169,14 @@ It made us so excited for 2017, knowing how much enthusiasm we are going
 to bring and the potential we have to continue to build an excellent company
 and product.
 
+How about joining us in the next GitLab Summit? Check our opening [jobs]
+and apply right now!
+
 <!-- identifiers -->
 
+[jobs]: /jobs/
 [sid]: /team/#sytses
+[team summit]: https://about.gitlab.com/culture/#summits
 
 <!-- custom styles -->
 
