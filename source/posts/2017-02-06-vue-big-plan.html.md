@@ -27,6 +27,7 @@ The plan below is a work in progress and very ambitious, but I believe that it w
 When I started at GitLab, our stack was (oversimplifying here) Rails with jQuery. It hasn't changed much big picture wise except for Vue. Smaller picture, we've added many linters, better code coverage, and many other great things.
 
 ### 1. Rewrite only what you need to
+
 We are not rewriting GitLab's frontend entirely in Vue. That would be a very bad idea. It's not a bad idea for everyone, but is a bad idea for a startup. It would cost a tremendous amount of time and money. The existing jQuery code (although some say is uncool) has been tested and works very well. There is no need to rewrite functionality that works well, unless there is going to be a major gain. 
 
 We also aren't writing every new thing in Vue. You do not need to do this either. But, it would be hard to find some part of the UI that would not benefit from even the simplest parts of Vue. 
@@ -42,6 +43,7 @@ Examples of this are:
 As you can see, we won't just slap Vue on everything.
 
 ### 2. Add in Webpack
+
 Rails has this awesome system of grabbing your Ruby libraries and bundling them into your app. `bundle install` will install all the stuff you need from your `Gemfile`. So why does frontend have to stick all their libraries in the `vendor` directory? Are we not on point enough to have our own library delivery system?
 
 By [introducing Webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
@@ -74,9 +76,11 @@ By [introducing Webpack into the equation (merged and ready for action!)](https:
 Currently we use TurboLinks in GitLab.
 
 #### What Does Turbolinks Achieve?
+
 With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded once, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many. When you start introducing slightly more complex Javascript it becomes a pain.
 
 #### The problem we need to solve
+
 When your JS is loaded once for multiple pages, events become a major problem. If you are using `gem 'jquery-turbolinks'` as we are, then the `$` `ready` function will fire on every page load even though the page isn't loading in the traditional sense. It's kind of a pain in the butt to write page specific Javascript without including it for the whole app. We do it and it's fine, but, why? There really isn't a reason for a lot of our JS that needs to be included on every page. 
 
 Any external links do load faster so we need to be careful about performance. 
@@ -111,6 +115,7 @@ There are a few remedies to this problem. Some are good and some are bad.
 I am opting for option 4, in order to make our development lives easier and get multiple performance gains. 
 
 #### The Bonus
+
 After we remove Turbolinks we can do something really cool. We can have each page live on it's own. Then certain pages can be their own Vue apps. For example we can make the file browser its own Vue application. The merge request page can be it's own application. The code for the file viewer won't need to be loaded on any other page and the same goes for other pages. This is not anything new, this is just basic web development. This is also not a new paradigm, and we would not be the first. 
 
 There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also highest chance of making a janky website. For example, the profile page could be potentially very light and there would be no reason that if someone is linked directly to the profile page it should load every single piece of Javascript in our project.
