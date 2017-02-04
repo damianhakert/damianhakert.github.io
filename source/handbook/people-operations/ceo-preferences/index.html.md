@@ -81,7 +81,7 @@ The EA should follow up to make sure the draft post is submitted.
 * The [agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
-* Schedule calls in European timezones in the am Pacific (Daylight) Time and US time zones in the pm Pacific (Daylight) Time.
+* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time.
 
 ### Formats for invites
 * MTG for meetings in person, either at the "office" or another location.
@@ -89,37 +89,35 @@ The EA should follow up to make sure the draft post is submitted.
 * INTERVIEW for interviews (looping in our PR partner)
     Example: “INTERVIEW | Kirsten Abma (TechCrunch)” Make sure to block 10 min before for preparations and 10 min after for notes for Sid
 * CALL for phone calls
-* VIDEOCALL for video conference calls using Google Hangout. In case it's a larger list of attendees or when we want to record the call we schedule with Zoom. Make sure to take out the Google Hangout link when you switch to Zoom.
+* VIDEOCALL for video conference calls using Zoom. Using the [Zoom plugin for Google Calendar](https://about.gitlab.com/handbook/#video-calls) you can easily get the info you need in the invite.
     Example: “(VIDEO)CALL | Kirsten Abma for Executive Assistant”
 
 Make sure to include in the description
 * (Video)calls
+<br>
+Please read our primer as preparation for this meeting: https://about.gitlab.com/primer 
+(Calls in the hiring process also have: Please fill out this form to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
+Phone number participant:
+<br>
+By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/#video-calls) it will add the details how to join the Zoom call automatically.
 
-Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
--
-You can use the link in this invite to join the Google Hangout **OR** Zoom. It will prompt a request for access.
-Phone number CEO:
-Phone number other participant(s):
-(Calls in the hiring process also have: “Please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to discuss during the call”)
-
+<br>
 * Meetings at the office:
+<br>
+Please read our primer as preparation for the meeting: https://about.gitlab.com/primer<br>
+Phone number CEO: <br>
+Phone number other participant(s):<br>
+Accessing the GitLab office building<br>
+Enter the building through the double doors between the two Mike's Bikes locations.<br>
+On the intercom press the call button then press '206' (for GitLab) to have us buzz you in.<br>
+Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strangely the elevator will show 3 when you stop at 2).<br>
+Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).<br>
+More details are on our visiting page: https://about.gitlab.com/visiting/<br>
+<br>
 
-Please read our primer as preparation for the meeting: https://about.gitlab.com/primer
--
-Phone number CEO:
-Phone number other participant(s):
--
-Accessing the GitLab office building
-Enter the building through the double doors between the two Mike's Bikes locations.
-On the intercom press the call button then press '206' (for GitLab) to have us buzz you in.
-Proceed to the elevator at the rear of the foyer and go to the 2nd floor (strangely the elevator will show 3 when you stop at 2).
-Exit the elevator and proceed to the right. The unit is the last door on the right at the end of the hall (2F).
-More details are on our visiting page: https://about.gitlab.com/visiting/
-
-
-For all external meetings include [visiting info](https://about.gitlab.com/visiting) (for in-person meetings), our [primer page](https://about.gitlab.com/primer), phone numbers, and where to find the Hangout URL. Make sure to add both a video call link (Hangout or Zoom) and physical phone numbers.
-For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
-Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
+* For all external meetings include [visiting info](https://about.gitlab.com/visiting) (for in-person meetings) and our [primer page](https://about.gitlab.com/primer). Make sure to add both a Zoom link and physical phone numbers.
+* For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
+* Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 * Sales meetings are important, in case the CEO can help the process, feel free to include him in the meeting
 * Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call or  a meeting at the GitLab office. If the other party presses to meet at their location, confirm if that is OK before accepting.
 
@@ -129,16 +127,16 @@ Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/
 * Hiring managers will tag EA to schedule a call for the applicant with Sid
 * Template email with wording to schedule “Kirsten schedule Sid”
 * Add date/time and make sure to include timezones
-* Add responses of [form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) to our ATS; [Workable](https://gitlab.workable.com/backend)
+* Add responses of the [form](https://docs.google.com/a/gitlab.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) you sent out with the invite to our ATS; [Workable](https://gitlab.workable.com/backend)
 
 ## Travel
 {: #travel}
 
-EA does research for the best option for a flight and propose this to Sid before booking.
+EA does research for the best option for a flight and propose this to the CEO before booking.
 Current preferences for flights are:
 * Aisle seat
 * Check a bag for all trips longer than one night
-* Frequent Flyer details of all (previously flown) airlines are in EA vault of 1Password
+* Frequent Flyer details of all (previously flown) airlines are in EA vault of 1Password as well as important passport/visa info
 
 ## Mail
 {: #mail}
@@ -150,6 +148,6 @@ Current preferences for flights are:
 ## Expensify
 {: #expensify}
 
-* When you’re logged in, you can find wingman account access for Sid in the top right corner menu.
-* Check Sids email, using the search bar in the top, to find any receipts for the postings in the current expense report.
-* Write down what receipts are missing and email to request them
+* When you’re logged in, you can find wingman account access for other team members in the top right corner menu.
+* Check their email (if you have access), using the search bar in the top, to find any receipts for the postings in the current expense report.
+* And/or write down what receipts are missing and email to request them if needed

@@ -2,7 +2,7 @@
 title: "Track your time in the same tool you do your work"
 author: Regis Freyd
 author_twitter: djaiss
-categories: feature
+categories: GitLab EE
 image_title: '/images/default-blog-image.png'
 description: "Announcing Time Tracking in GitLab"
 ---

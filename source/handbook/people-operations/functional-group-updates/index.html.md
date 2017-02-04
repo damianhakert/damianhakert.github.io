@@ -9,6 +9,7 @@ Functional Group Updates are regular updates from a group at GitLab.
 
 1. We'll use Zoom for now, will switch to YouTube Live later.
 1. Presentations are optional, if you use them please ensure everyone with the url can access (inside and outside GitLab).
+2. The host should put a link to their presentation in the meeting invitation so that we can read it beforehand (and after if we missed it) just like we do with the agenda in the team call.
 1. All calls except sales and finance are public unless mentioned otherwise, in the future all calls will be public.
 1. Right now everyone at GitLab the company is invited to each call, we'll invite the wider community later.
 1. Attendence is optional.

@@ -2,6 +2,7 @@
 title: "Designing for the Modern Developer" 
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
+author_gitlab: evhoffmann
 categories: webcast
 image_title: '/images/blogimages/designing-for-the-modern-developer.jpg'
 description: "Recap and recording from our recent webcast featuring the GitLab user experience (UX) team"
