@@ -14,7 +14,7 @@ The Frontend at GitLab is getting better and better every day. Today we did 2 bi
 
 # Our Big Frontend Plan
 
-Vue is awesome. [I wrote an article](https://about.gitlab.com/2016/10/20/why-we-chose-vue/) a while ago that showed GitLab's love for Vue. Today's article is a way to show our plan over the long term to make GitLab as fast and performant as possible with Vue and Webpack. We want to make GitLab the easiest to develop for Frontend Developers. 
+Vue is awesome. I wrote an article a while ago that showed [GitLab's love for Vue](https://about.gitlab.com/2016/10/20/why-we-chose-vue/). Today's article is a way to show our plan over the long term to make GitLab as fast and performant as possible with Vue and Webpack. We want to make GitLab the easiest to develop for Frontend Developers. 
 
 One of the lessons I live by is "It's not *always* about the tools you use, but **how** you use them."  Saying "we chose Vue", does not imply success. This also means that we could be using Angular or React and have just as awesome of a product. Vue is simply the way there.
 
