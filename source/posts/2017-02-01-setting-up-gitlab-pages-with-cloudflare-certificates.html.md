@@ -44,6 +44,8 @@ If you don't know how to setup your GitLab Pages site, or why should you care ab
 - Read the [documentation on GitLab Pages][pages-docs]
 - Read an [overview on the importance of HTTPS][post-startssl]
 
+In case you don't know about it yet, we're bringing [GitLab Pages into GitLab Community Edition][pages-ce].
+
 ## Step-by-Step Quick Guide
 
 To create this step-by-step guide, I'll use my subdomain `https://cloudflare.marcia.ml` as an alias for the website originally deployed to <https://gitlab-tests.gitlab.io/jekyll>.
@@ -150,6 +152,7 @@ Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 [cname]: https://en.wikipedia.org/wiki/CNAME_record
 [GitLab Pages]: https://pages.gitlab.io
 [Jekyll]: https://jekyllrb.com/
+[pages-ce]: /2016/12/24/were-bringing-gitlab-pages-to-community-edition/
 [pages-docs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
 [pages-setup-domains]: /2016/04/07/gitlab-pages-setup/#custom-domains
 [pages-setup-post]: /2016/04/07/gitlab-pages-setup/
