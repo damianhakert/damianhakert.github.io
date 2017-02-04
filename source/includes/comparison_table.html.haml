@@ -1,0 +1,81 @@
+.container.dropdown.text-center
+  .row#dropdown
+    .col-md-12.dropdown-section
+      .dropdown.level
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          %span
+            = comparison_block.title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu
+          %li
+            = highlight_active_nav_link("GitLab Self-hosted vs. GitHub.com", "/comparison/gitlab-self-hosted-vs-github.html#dropdown")
+          %li
+            = highlight_active_nav_link("Bitbucket Server vs. GitLab CE/EE", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html#dropdown")
+          %li
+            = highlight_active_nav_link("Bitbucket.org vs. GitLab.com", "/comparison/gitlab-com-vs-bitbucket-org.html#dropdown")
+          %li
+            = highlight_active_nav_link("GitHub Enterprise vs. GitLab EE", "/comparison/gitlab-ee-vs-github-enterprise.html#dropdown")
+          %li
+            = highlight_active_nav_link("GitLab CE vs. GitLab EE", "/comparison/gitlab-ce-vs-gitlab-ee.html#dropdown")
+          %li
+            = highlight_active_nav_link("GitHub.com vs. GitLab.com", "/comparison/gitlab-vs-github.html#dropdown")
+          %li
+            = highlight_active_nav_link("SaaS vs. GitLab CE/EE", "/comparison/gitlab-ce-ee-vs-saas.html#dropdown")
+          %li
+            = highlight_active_nav_link("SVN vs. GitLab", "/comparison/gitlab-vs-svn.html#dropdown")
+%h1.titles-comparison-companies.text-center
+  = comparison_block.title
+%table.compare-table.comparing-gitlab
+  %colgroup
+    %col{:width => "80%"}
+    %col{:width => "10%"}
+    %col{:width => "10%"}
+  %thead
+    %tr
+      %th.text-left.table-title
+        FEATURES
+      %th.text-center
+        - if (comparison_block.competitor_one.logo != "null")
+          %img{ src: "#{comparison_block.competitor_one.logo}", alt: "#{comparison_block.competitor_one.name}", class: "logo" }
+        - else
+          = comparison_block.competitor_one.name
+      %th.text-center.table-title-logo
+        - if (comparison_block.competitor_two.logo != "null")
+          %img{ src: "#{comparison_block.competitor_two.logo}", alt: "#{comparison_block.competitor_two.name}", class: "logo" }
+        - else
+          = comparison_block.competitor_two.name
+  %tbody.header.first
+    - comparison_block.features.each do |feature|
+      %tr
+        %td.feature-in-list
+          %p.feature-in-list-title
+            %strong= feature.title
+          %p
+            = feature.description
+          %p
+            = link_to feature.link_description, feature.link
+        %td.check-container.text-center
+          - if (feature.competitor_one == "sortof")
+            = partial "includes/icons/comparison/maybe-icon.svg"
+          - if (feature.competitor_one == true)
+            = partial "includes/icons/comparison/yes-icon.svg"
+          - if (feature.competitor_one == false)
+            = partial "includes/icons/comparison/no-icon.svg"
+        %td.check-container.text-center
+          - if (feature.competitor_two == "sortof")
+            = partial "includes/icons/comparison/maybe-icon.svg"
+          - if (feature.competitor_two == true)
+            = partial "includes/icons/comparison/yes-icon.svg"
+          - if (feature.competitor_two == false)
+            = partial "includes/icons/comparison/no-icon.svg"
+
+.last-updated-section
+  %p
+    Last updated:
+    = comparison_block.last_updated
+  %p
+    Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the
+    comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab.
+    If you find something that is invalid, biased, missing, or out of date in the comparisons, please open a merge request
+    for this website to correct it. As with all the pages on this website you can find where this page lives in the
+    repository via the link in the footer.
