@@ -8,11 +8,17 @@ image_title: '/images/unsplash/lock.jpg'
 description: "How to setup GitLab Pages with a CloudFlare SSL/TLS Certificate for your (sub)domain"
 ---
 
-[CloudFlare SSL/TLS certificates][cert] are free to use. If you want your [GitLab Pages] site to work with them, it's as simple as it could be. There's just a **trick** that perhaps you don't know about (yet)!
+[CloudFlare SSL/TLS certificates][cert] are free to use.
+If you want your [GitLab Pages] site to work with them,
+it's as simple as it could be. There's just a **trick**
+that perhaps you don't know about (yet)!
 
-I'll go straight to the point in this tutorial, to show you how to add a custom (sub)domain with a certificate issued by [CloudFlare] to your [GitLab Pages] project.
+I'll go straight to the point in this tutorial, to show
+you how to add a custom (sub)domain with a certificate
+issued by [CloudFlare] to your [GitLab Pages] project.
 
-We assume you're familiar with SSL/TLS, DNS, GitLab Pages, and CloudFlare.
+We assume you're familiar with SSL/TLS, DNS, GitLab Pages,
+and CloudFlare.
 {:.note}
 
 <!-- more -->
@@ -29,11 +35,17 @@ We assume you're familiar with SSL/TLS, DNS, GitLab Pages, and CloudFlare.
 
 ## Introduction
 
-With [GitLab Pages], you can [deploy a static website][pages-setup-post] with custom domains/subdomains and SSL/TLS support.
+With [GitLab Pages], you can [deploy a static website][pages-setup-post]
+with custom domains/subdomains and SSL/TLS support.
 
-This tutorial responds to the issue "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)", and other cases where GitLab users asked specifically how do to add a CloudFlare certificate to GitLab Pages. 😉 Anything else is out of the scope of this post.
+This tutorial responds to the issue
+"[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)",
+and other cases where GitLab users asked specifically how do
+to add a CloudFlare certificate to GitLab Pages. 😉 Anything else
+is out of the scope of this post.
 
-If you don't know how to setup your GitLab Pages site, or why should you care about SSL/TLS:
+If you don't know how to setup your GitLab Pages site, or why
+should you care about SSL/TLS:
 
 - Take a look at the [GitLab Pages] overview
 - Read the step-by-step tutorial [Hosting on GitLab.com with GitLab Pages][pages-setup-post]
@@ -48,16 +60,23 @@ In case you don't know about it yet, we're bringing [GitLab Pages into GitLab Co
 
 ## Step-by-Step Quick Guide
 
-To create this step-by-step guide, I'll use my subdomain `https://cloudflare.marcia.ml` as an alias for the website originally deployed to <https://gitlab-tests.gitlab.io/jekyll>.
+To create this step-by-step guide, I'll use my subdomain
+`https://cloudflare.marcia.ml` as an alias for the website
+originally deployed to <https://gitlab-tests.gitlab.io/jekyll>.
 
-The codebase is a simple [Jekyll] site built with its default theme, available at <https://gitlab.com/gitlab-tests/jekyll>.
+The codebase is a simple [Jekyll] site built with its default
+theme, available at <https://gitlab.com/gitlab-tests/jekyll>.
 
 ### STEP 1. DNS Record
 
 On CloudFlare, navigate to the tab **DNS** and create a new
-DNS record ([`CNAME`][cname] or [`A`][a]) pointing your subdomain (`CNAME`) or root domain (`A`) [to your GitLab Pages site][pages-setup-domains].
+DNS record ([`CNAME`][cname] or [`A`][a]) pointing your
+subdomain (`CNAME`) or root domain (`A`)
+[to your GitLab Pages site][pages-setup-domains].
 
-The image below shows both `CNAME` and `A` records (for this demo purposes), but of course, you will only need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
+The image below shows both `CNAME` and `A` records
+(for this demo purposes), but of course, you will only
+need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
 
 ![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.png){:.shadow}
 
@@ -84,13 +103,17 @@ From a new tab, go to GitLab, and navigate to your project's **Settings** > **Pa
 
 ![configure GitLab Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/configure-gitlab-pages.png){:.shadow}
 
-Copy the PEM certificate and the private key from the tab you've left opened on CloudFlare, and paste it into their respective fields in GitLab:
+Copy the PEM certificate and the private key from the tab you've
+left opened on CloudFlare, and paste it into their respective fields in GitLab:
 
 ![Add PEM certificate to Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/add-certificate-to-pages.png){:.shadow}
 
 ### STEP 4. The Trick
 
-CloudFlare doesn't combine both PEM and root certificates in one. So, we need to copy the root certificate (aka "intermediate") **[CloudFlare Origin CA — RSA Root][root]** from the code block below, and **paste it below your PEM** certificated just added to GitLab:
+CloudFlare doesn't combine both PEM and root certificates in one.
+So, we need to copy the root certificate (aka "intermediate")
+**[CloudFlare Origin CA — RSA Root][root]** from the code block
+below, and **paste it below your PEM** certificated just added to GitLab:
 
 Copy CloudFlare's Origin CA — RSA Root:
 
@@ -121,7 +144,9 @@ Fu6q54beR89jDc+oABmOgg==
 -----END CERTIFICATE-----
 ```
 
-Paste it below your PEM certificate (jump a line between the last row of your cert `-----END CERTIFICATE-----` and the first row of the intermediate cert `-----BEGIN CERTIFICATE-----`):
+Paste it below your PEM certificate (jump a line between the
+last row of your cert `-----END CERTIFICATE-----` and the
+first row of the intermediate cert `-----BEGIN CERTIFICATE-----`):
 
 ![Add intermediate certificate](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/add-intermediate-certificate.png){:.shadow}
 
@@ -139,7 +164,8 @@ It works fine with the encryption set to _"Full"_ or _"Full (strict)"_ on CloudF
 
 ## Wrap Up
 
-That's it, now your site runs on `https` with a custom domain and a free CloudFlare certificate, valid up to 15 years!
+That's it, now your site runs on `https` with a custom domain
+and a free CloudFlare certificate, valid up to 15 years!
 
 Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 
