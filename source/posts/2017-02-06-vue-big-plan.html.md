@@ -72,8 +72,9 @@ By [introducing Webpack into the equation (merged and ready for action!)](https:
 > * Runtime only build: since it doesn't include the compiler, you need to either pre-compiled templates in a compile step, or manually written render functions...
 
 
-### 3. [Remove Turbolinks](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8570) (Merged 02/03/2017!)
-Currently we use TurboLinks in GitLab.
+### 3. Remove Turbolinks
+
+Currently we use TurboLinks in GitLab, but we've [removed them](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8570) with the linked merge request, merged on 2017/02/03.
 
 #### What Does Turbolinks Achieve?
 
