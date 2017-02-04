@@ -4,7 +4,7 @@ author: Marcia Ramos
 author_twitter: XMDRamos
 author_gitlab: marcia
 categories: tutorial
-image_title: 
+image_title: '/images/unsplash/lock.jpg'
 description: "How to setup GitLab Pages with a CloudFlare SSL/TLS Certificate for your (sub)domain"
 ---
 
@@ -44,7 +44,7 @@ If you don't know how to setup your GitLab Pages site, or why should you care ab
 - Read the [documentation on GitLab Pages][pages-docs]
 - Read an [overview on the importance of HTTPS][post-startssl]
 
-In case you don't know about it yet, we're bringing [GitLab Pages into GitLab Community Edition][pages-ce].
+In case you don't know about it yet, we're bringing [GitLab Pages into GitLab Community Edition][pages-ce]! 🎉
 
 ## Step-by-Step Quick Guide
 
@@ -59,7 +59,7 @@ DNS record ([`CNAME`][cname] or [`A`][a]) pointing your subdomain (`CNAME`) or r
 
 The image below shows both `CNAME` and `A` records (for this demo purposes), but of course, you will only need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
 
-![cloud-dns](https://gitlab.com/pages/pages.gitlab.io/uploads/cd7fe97c41a9415755ccded9542c904f/cloud-dns.png){:.shadow}
+![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.png){:.shadow}
 
 If you'd already set this up, just jump into the second step.
 
@@ -68,11 +68,11 @@ If you'd already set this up, just jump into the second step.
 1. Navigate to the tab **Cripto**.
 1. Generate your Certificate
 
-    ![Screen_Shot_2016-12-21_at_13.04.29](https://gitlab.com/pages/pages.gitlab.io/uploads/800803e9444a957f02be02246a59a3b6/Screen_Shot_2016-12-21_at_13.04.29.png){:.shadow}
+    ![generate certificate](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/generate-certificate.png){:.shadow}
 
 1. Choose the domain, subdomain, or wildcard to apply the cert to, then click **Next**:
 
-    ![choose-domain](https://gitlab.com/pages/pages.gitlab.io/uploads/576f07d8185e5f545e1ff460f3b04d38/choose-domain.png){:.shadow}
+    ![choose-domain](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/certificate-setup.png){:.shadow}
 
 1. Your certificate and private key have been generated. Leave the tab and the modal window opened:
 
@@ -82,11 +82,11 @@ If you'd already set this up, just jump into the second step.
 
 From a new tab, go to GitLab, and navigate to your project's **Settings** > **Pages** > **+ New Domain**:
 
-![Screen_Shot_2016-12-21_at_13.10.39](https://gitlab.com/pages/pages.gitlab.io/uploads/c1e6e3a119c6d4a167e322ff5d93e76e/Screen_Shot_2016-12-21_at_13.10.39.png)
+![configure GitLab Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/configure-gitlab-pages.png){:.shadow}
 
 Copy the PEM certificate and the private key from the tab you've left opened on CloudFlare, and paste it into their respective fields in GitLab:
 
-![pages-add-cert](https://gitlab.com/pages/pages.gitlab.io/uploads/065aaf9a8aa2d090417a03f20beb4bf9/pages-add-cert.png){:.shadow}
+![Add PEM certificate to Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/add-certificate-to-pages.png){:.shadow}
 
 ### STEP 4. The Trick
 
@@ -123,7 +123,7 @@ Fu6q54beR89jDc+oABmOgg==
 
 Paste it below your PEM certificate (jump a line between the last row of your cert `-----END CERTIFICATE-----` and the first row of the intermediate cert `-----BEGIN CERTIFICATE-----`):
 
-![intermediate-cert](https://gitlab.com/pages/pages.gitlab.io/uploads/fde058e549c514df193ca93bce0ca63f/intermediate-cert.png){:.shadow}
+![Add intermediate certificate](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/add-intermediate-certificate.png){:.shadow}
 
 
 ### STEP 5. Apply the Changes
@@ -131,11 +131,11 @@ Paste it below your PEM certificate (jump a line between the last row of your ce
 1. Click **Create New Domain**.
 1. Ta-da! 🎉
 
-    ![Screen_Shot_2016-12-21_at_13.52.02](https://gitlab.com/pages/pages.gitlab.io/uploads/947ce745bedd3c38a0f0d902bd69f43e/Screen_Shot_2016-12-21_at_13.52.02.png){:.shadow}
+    ![Screen_Shot_2016-12-21_at_13.52.02](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/certificate-added.png){:.shadow}
 
 It works fine with the encryption set to _"Full"_ or _"Full (strict)"_ on CloudFlare:
 
-![Screen_Shot_2016-12-21_at_13.53.59](https://gitlab.com/pages/pages.gitlab.io/uploads/a4adf03e15cff0b6c662e0efcfd1bd73/Screen_Shot_2016-12-21_at_13.53.59.png){:.shadow}
+![Set Cloudflare SSL to full strict](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-settings-ssl-strict.png){:.shadow}
 
 ## Wrap Up
 
@@ -143,13 +143,20 @@ That's it, now your site runs on `https` with a custom domain and a free CloudFl
 
 Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 
+----
+
+[Cover image] by [Rita Morais], licensed under [CC0 1.0][cc].
+{:.note}
+
 <!-- identifiers -->
 
 [@GitLab]: https://twitter.com/gitlab
 [a]: https://support.dnsimple.com/articles/a-record/
+[cc]: https://unsplash.com/license
 [cert]: https://www.cloudflare.com/ssl/
 [cloudflare]: https://www.cloudflare.com
 [cname]: https://en.wikipedia.org/wiki/CNAME_record
+[Cover image]: https://unsplash.com/collections/427463/locks?photo=q6vBEPqsojc
 [GitLab Pages]: https://pages.gitlab.io
 [Jekyll]: https://jekyllrb.com/
 [pages-ce]: /2016/12/24/were-bringing-gitlab-pages-to-community-edition/
@@ -157,6 +164,7 @@ Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 [pages-setup-domains]: /2016/04/07/gitlab-pages-setup/#custom-domains
 [pages-setup-post]: /2016/04/07/gitlab-pages-setup/
 [post-startssl]: /2016/06/24/secure-gitlab-pages-with-startssl/#https-a-quick-overview
+[Rita Morais]: https://unsplash.com/@moraisr
 [root]: https://support.cloudflare.com/hc/en-us/articles/218689638
 [ssg-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [ssg-2]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
