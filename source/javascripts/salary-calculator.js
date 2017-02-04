@@ -11,6 +11,35 @@
     return (Object.keys(params).length > 0) ? params : null;
   };
 
+  var paramsParser = function(params) {
+    var validParams = {};
+
+    Object.keys(params).forEach(function(param) {
+      if (param === "city") {
+        var cityState = params[param];
+        if (cityState.indexOf("_") >= 0) {
+          var state = ", " + cityState.split("_")[1];
+          var city = cityState.split("_")[0];
+          validParams[param] = city.split("-").join(" ") + state;
+        } else {
+          validParams[param] = cityState.split("-").join(" ");
+        }
+      } else if (param === "country") {
+        var state = params[param];
+        validParams[param] = state.split("-").join(" ");
+      } else if (param === "exp_min") {
+        validParams["experience"] = {};
+        validParams["experience"]["min"] = parseFloat(params[param]);
+      } else if (param === "exp_max") {
+        validParams["experience"]["max"] = parseFloat(params[param]);
+      } else {
+        validParams[param] = params[param];
+      }
+    });
+
+    return validParams;
+  };
+
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
@@ -63,7 +92,15 @@
   this.SalaryCalculator = (function() {
     function SalaryCalculator(params) {
       this.bindEvents();
-      this.params = params || {};
+
+      // will check later is params are null to go to default behavior
+      // otherwise use inbound parsed params
+      this.params = params;
+
+      /**
+        console logging for current debugging
+        will remove at later date
+      */
       console.log(this.params)
     }
 
@@ -409,11 +446,12 @@
     return SalaryCalculator;
   })();
 
-  var params = paramsFetcher();
+  var urlParams = paramsFetcher();
+  var parsedParams = paramsParser(urlParams);
 
-  if (params) {
-    new SalaryCalculator(params);
+  if (parsedParams) {
+    new SalaryCalculator(parsedParams);
   } else {
-    new SalaryCalculator(false);
+    new SalaryCalculator(null);
   }
 })();
