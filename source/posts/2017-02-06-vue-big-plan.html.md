@@ -83,7 +83,7 @@ Any external links do load faster so we need to be careful about performance.
 
 If you aren't careful, your events will get loaded multiple times and thus fire multiple times. For example, the following code:
 
-```
+```js
 $(function(){
   $(document).on('click','.some-element', function(){
     console.log('Click loaded');
@@ -98,7 +98,7 @@ There are a few remedies to this problem. Some are good and some are bad.
 1. Don't create events in `$` `ready` callbacks.
 2. Use the following stinky solution:
 
-    ```
+    ```js
     $(document)
     .off('click', '.some-element')
     .on('click'...
