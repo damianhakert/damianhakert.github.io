@@ -122,7 +122,7 @@ words how much fun this week was.
     <div class="item">
       <img src="/images/blogimages/gitlab-mexico-summit-2017/poker-chips.jpg" alt="Casino Night - Poker Chips">
       <div class="carousel-caption">
-        Casino Night - Poker Chips
+        Casino Night Swag - Poker Chips
       </div>
     </div>
   </div>
