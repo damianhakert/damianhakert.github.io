@@ -16,7 +16,7 @@ The Frontend at GitLab is getting better and better every day. Today we did 2 bi
 
 [Vue](https://vuejs.org/) is awesome. I wrote an article a while ago that showed [GitLab's love for Vue](https://about.gitlab.com/2016/10/20/why-we-chose-vue/). Today's article is a way to show our plan over the long term to make GitLab as fast and performant as possible with Vue and Webpack. We want to make GitLab the easiest to develop for Frontend Developers. 
 
-One of the lessons I live by is "It's not *always* about the tools you use, but **how** you use them."  Saying "we chose Vue", does not imply success. This also means that we could be using Angular or React and have just as awesome of a product. Vue is simply the way there.
+One of the lessons I live by is "It's not _always_ about the tools you use, but **how** you use them."  Saying "we chose Vue", does not imply success. This also means that we could be using Angular or React and have just as awesome of a product. Vue is simply the way there.
 
 How do we plan to use Vue over the long run to make GitLab better, faster, easier and more awesome?
 
@@ -67,9 +67,9 @@ By [introducing Webpack into the equation (merged and ready for action!)](https:
 
 > There will be two different builds:
 > 
-> * Standalone build: includes both the compiler and the runtime. ...
+> - Standalone build: includes both the compiler and the runtime. ...
 > 
-> * Runtime only build: since it doesn't include the compiler, you need to either pre-compiled templates in a compile step, or manually written render functions...
+> - Runtime only build: since it doesn't include the compiler, you need to either pre-compiled templates in a compile step, or manually written render functions...
 
 
 ### 3. Remove Turbolinks
