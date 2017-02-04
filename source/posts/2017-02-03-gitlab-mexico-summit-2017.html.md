@@ -9,7 +9,7 @@ description: 'The largest remote-only organization in the world takes over Cancu
 
 If it were appropriate to start a blog post with with every emoji
 that expresses extreme delight we would. In lieu of that we will
-just say the GitLab Summit in Mexico was beyond excellent. 🎉
+just say the GitLab Summit in Mexico was beyond excellent. 🎉 A little background for the folks at home. As a fully remote company, with people in 35 different countries, most of the team never gets to meet eachother in person. To remedy that and so that everyone gets a chance for some face time and to meet his/ her team we try to do a team summit every 9 months. This allows us to get to know the group better and have a unique oportinty to collaborate with our own teams and others we may never work with normally. By teh end of the week we all have a better understanding of what everyone does, who we can go to with questions on specific topics and how we all can work together as a team.  
 
 Six months of planning culminated in 201 GitLabbers taking over
 one Cancun resort for a long week of meetings, activities, hard work,
@@ -43,6 +43,8 @@ Sid shuffle from Ice Age 4. Needless to say our team didn't disappoint,
 and neither did Sid.
 
 <!-- I2P + shuffle -->
+
+The video is not the best we've posted but we don't want you to miss out on the Sid Shuffle. If you want to skip the live demo our team did, please go to [28:29](https://www.youtube.com/watch?v=39chczWRKws#t=28m29s).
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/39chczWRKws" frameborder="0" allowfullscreen="true"> </iframe>
