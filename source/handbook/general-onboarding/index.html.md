@@ -234,6 +234,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
 1. [ ] New team member: (for Designers) Get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+1. [ ] New team member: (for Frontend Developers) If you do not have access to Windows on your computer, please download a [Windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). We recommend using [VMWare Fusion](http://www.vmware.com/products/fusion.html) or [Parallels Desktop](http://www.parallels.com/products/desktop/) for Window virtualization. You may expense the purchase to GitLab or ask PeopleOps to get you a copy.
 1. [ ] New team member: Join the `#interaction` channel on Slack.
 1. [ ] People Ops (Recruiter): (for Designers) provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops (Recruiter): (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
