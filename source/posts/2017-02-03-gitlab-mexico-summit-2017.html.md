@@ -9,11 +9,11 @@ description: 'The largest remote-only organization in the world takes over Cancu
 
 If it were appropriate to start a blog post with with every emoji
 that expresses extreme delight we would. In lieu of that we will
-just say the GitLab Summit in Mexico was beyond excellent. 🎉  
+just say the GitLab Summit in Mexico was beyond excellent. 🎉
 
 Six months of planning culminated in 201 GitLabbers taking over
 one Cancun resort for a long week of meetings, activities, hard work,
-and fun. 
+and fun.
 
 <!-- more -->
 
@@ -68,7 +68,7 @@ The video is not the best we've posted but we don't want you to miss out on the 
 We broke into smaller groups for a competitive scavenger hunt and
 enjoyed the fruits of our labor with a happy hour afterwards.
 
-We could make this blogpost 5 pages long explaining how beautiful
+We could make this blog post 5 pages long explaining how beautiful
 our trip to Akumal beach was, where we got to snorkel with sea turtles,
 how impressive the Maya ruins of Chichen Itza were after so many years,
 the adrenaline rush the zipline gave us, or how much money we made at
@@ -186,8 +186,5 @@ and apply right now!
 	}
 	.blog.article .body ol {
 		margin-bottom: 10px !important;
-	}
-	figcaption {
-		text-decoration: italic;
 	}
 </style>
