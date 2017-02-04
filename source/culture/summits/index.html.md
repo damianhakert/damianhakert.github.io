@@ -46,7 +46,7 @@ TBC
 
 ### Health and safety
 * Use fistbumps instead of handshaking to avoid getting sick
-* Summit attendees need to be 18 years or older, we don't advise people to bring children
+* Summit attendees need to be 18 years or older, children are not allowed to join
 * We don't accept any form of (sexual) harassment
 * We don't accept unbecoming behaviour from our team members nor their SOs (for example: don't get drunk, or do drugs or peer pressure people)
 * When there is unbecoming behaviour bring people to their room (if people do get drunk bring them to their room)
