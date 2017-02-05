@@ -36,7 +36,7 @@ Examples of this are:
 
 1. The issue page (which shows an individual issue), has a lot of jQuery on it. We won't rewrite now, because it works well. We will rewrite small parts in Vue once we make certain features more real-time. We are currently making the title and description real time. 
 
-1. The Issue Boards, which Phil wrote, was a perfect candidate for Vue. It was a brand new feature and had lots of reactive parts.
+1. The [Issue Boards](http://gitlab.com/gitlab-org/gitlab-ce/boards), which [Phil](https://twitter.com/iamphill) wrote, was a perfect candidate for Vue. It was a brand new feature and had lots of reactive parts.
 
 1. The current issue page loads all comments at once and adds lots of event listeners to the page. This page could benefit from Vue for performance reasons. We could make the comment section a Vue app and make the comments a component with the emoji picker as components as well, etc. While we're in there we'll amp up the UX by allowing you to see the comment you linked to immediately without waiting. There are better ways to show massive amounts of comments so we have to potentially rethink that.
 
@@ -50,41 +50,41 @@ By [introducing Webpack into the equation (merged and ready for action!)](https:
 
 1. Javascript libraries aren't being bundled directly with the GitLab source code.
 2. We can slim down the Vue source because we can precompile templates.
-  1. When code is shared between files we can make sure we don't load lodash twice, for example. If both files load lodash, we should only load the code for lodash 1 time.
+  1. When code is shared between files we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once.
 3. We can add [hot module reloading](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html) to make our development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
 4. We can have our own module system. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
 5. SVGs are going to be huge (yuuugge!).
-  1. Webpack precompiles SVGs.
+  1. [Webpack](https://webpack.js.org/) precompiles SVGs.
   1. Right now, SVGs live in a specific directory in Rails. We use Rails helpers to pull in SVGs. With Webpack we can pull in SVGs one at a time because Webpack precompiles assets.
   1. We won't have to fetch SVGs with an HTTP request.
   1. We don't have to do tricky HTML hidden elements which is technical debt.
   1. We don't have to mess around with SVGs in CSS. You cannot change the color of SVGs in CSS.
 6. We'll increase developer workflow by using more native libraries. You can do this through Ruby but we can let the Frontend library deal with our CSS problems. 
 7. We can use a `vendor` file. You put all your common libraries in a separate file named `vendor`. Then your server just downloads all the files once. Your external libraries change very infrequently, so you shouldn't have to reload them all the time. 
-8. With Webpack deferred modules you can load just the js you need to boot. Then you do a `require ensured`. With this Webpack will do a quick call to the server and request the exact JS you need. It keeps the size of the file really small.
+8. With Webpack deferred modules you can load just the JS you need to boot. Then you do a `require ensured`. With this Webpack will do a quick call to the server and request the exact JS you need. It keeps the size of the file really small.
 
-[Regarding point 2 above:](https://github.com/vuejs/vue/issues/2873) Evan You says: 
+Regarding point 2 above, [Evan You says](https://github.com/vuejs/vue/issues/2873):
 
 > There will be two different builds:
 > 
 > - Standalone build: includes both the compiler and the runtime. ...
 > 
-> - Runtime only build: since it doesn't include the compiler, you need to either pre-compiled templates in a compile step, or manually written render functions...
+> - Runtime only build: since it doesn't include the compiler, you need to either pre-compiled templates in a compile step, or manually written render functions.
 
 
 ### 3. Remove Turbolinks
 
-Currently we use TurboLinks in GitLab, but we've [removed them](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8570) with the linked merge request, merged on 2017/02/03.
+We used [TurboLinks](https://github.com/turbolinks/turbolinks) in GitLab, but we've recently removed it with the linked merge request, merged on 2017/02/03.
 
 #### What Does Turbolinks Achieve?
 
-With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded once, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many. When you start introducing slightly more complex Javascript it becomes a pain.
+With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead, Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded one time, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many projects. When you start introducing slightly more complex Javascript it becomes a pain.
 
 #### The problem we need to solve
 
-When your JS is loaded once for multiple pages, events become a major problem. If you are using `gem 'jquery-turbolinks'` as we are, then the `$` `ready` function will fire on every page load even though the page isn't loading in the traditional sense. It's kind of a pain in the butt to write page specific Javascript without including it for the whole app. We do it and it's fine, but, why? There really isn't a reason for a lot of our JS that needs to be included on every page. 
+When your JS is loaded one time for multiple pages, events become a major problem. If you are using `gem 'jquery-turbolinks'` as we are, then the `$` `ready` function will fire on every page load even though the page isn't loading in the traditional sense. It's painful to write page specific Javascript without including it for the whole app. We do it and it's fine, but, why? There really isn't a reason for a lot of our JS that needs to be included on every page. 
 
-Any external links do load faster so we need to be careful about performance. 
+Any external links do load faster so, we need to be careful about performance. 
 
 If you aren't careful, your events will get loaded multiple times and thus fire multiple times. For example, the following code:
 
@@ -95,7 +95,7 @@ $(function(){
   }
 });
 ```
-Then that click event will get loaded on every page and thus fire multiple times every time `.some-element` is clicked. 
+That click event will be loaded on every page and thus fire multiple times every time `.some-element` is clicked. 
 
 #### The Solutions
 There are a few remedies to this problem. Some are good and some are bad. 
@@ -111,12 +111,15 @@ There are a few remedies to this problem. Some are good and some are bad.
      
      I call this the `die live` method. Old jQuery code people use to write `die().live()` everywhere. That's the old school jQuery `off().on()`.
 3. Write an event manager to be a delegate for all added events. 
-4. Remove Turbolinks and make sure you load only the code you need on each page. 
+4. [Remove Turbolinks](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8570) and make sure you load only the code you need on each page. 
 
 I am opting for option 4, in order to make our development lives easier and get multiple performance gains. 
 
 #### The Bonus
 
-After we remove Turbolinks we can do something really cool. We can have each page live on it's own. Then certain pages can be their own Vue apps. For example we can make the file browser its own Vue application. The merge request page can be it's own application. The code for the file viewer won't need to be loaded on any other page and the same goes for other pages. This is not anything new, this is just basic web development. This is also not a new paradigm, and we would not be the first. 
+After we remove Turbolinks we can do something really cool. We can have each page live on it's own. Then certain pages can be their own Vue apps. For example we can make the file browser its own Vue application. The merge request page can be its own application. The code for the file viewer won't need to be loaded on any other page and the same goes for other pages. This is not anything new, this is just basic web development. This is also not a new paradigm, and we would not be the first. 
 
-There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also highest chance of making a janky website. For example, the profile page could be potentially very light and there would be no reason that if someone is linked directly to the profile page it should load every single piece of Javascript in our project.
+There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also, there's a higher chance of making GitLab a janky app. For example, the profile page could be potentially very light, and there would be no reason for that if someone is linked directly to the profile page: it should load every single piece of Javascript in our project.
+
+Questions, suggestions, ideas? Please leave a comment
+below or tweet at us [@GitLab](https://twitter.com/gitlab)!
