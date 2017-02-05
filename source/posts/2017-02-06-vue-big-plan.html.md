@@ -20,7 +20,7 @@ One of the lessons I live by is "It's not _always_ about the tools you use, but 
 
 How do we plan to use Vue over the long run to make GitLab better, faster, easier and more awesome?
 
-The plan below is a work in progress and very ambitious, but I believe that it will result in a much better frontend for development and performance. This document is also a reference to myself, of the things we plan to do here at GitLab's Frontend.
+The plan below is a work in progress and very ambitious, but I believe that it will result in a much better frontend for development and performance. This document is also a reference to myself of the things we plan to do here at GitLab's Frontend.
 
 ## A Healthier Frontend
 
@@ -28,7 +28,7 @@ When I started at GitLab, our stack was (oversimplifying here) Rails with jQuery
 
 ### 1. Rewrite only what you need to
 
-We are not rewriting GitLab's frontend entirely in Vue. That would be a very bad idea. It's not a bad idea for everyone, but is a bad idea for a startup. It would cost a tremendous amount of time and money. The existing jQuery code (although some say is uncool) has been tested and works very well. There is no need to rewrite functionality that works well, unless there is going to be a major gain. 
+We are not rewriting GitLab's frontend entirely in Vue. That would be a very bad idea. It's not a bad idea for everyone, but it's a bad idea for a startup. It would cost a tremendous amount of time and money. The existing jQuery code (although some say is uncool) has been tested and works very well. There is no need to rewrite functionality that works well, unless there is going to be a major gain. 
 
 We also aren't writing every new thing in Vue. You do not need to do this either. But, it would be hard to find some part of the UI that would not benefit from even the simplest parts of Vue. 
 
@@ -38,19 +38,19 @@ Examples of this are:
 
 1. The [Issue Boards](http://gitlab.com/gitlab-org/gitlab-ce/boards), which [Phil](https://twitter.com/iamphill) wrote, was a perfect candidate for Vue. It was a brand new feature and had lots of reactive parts.
 
-1. The current issue page loads all comments at once and adds lots of event listeners to the page. This page could benefit from Vue for performance reasons. We could make the comment section a Vue app and make the comments a component with the emoji picker as components as well, etc. While we're in there we'll amp up the UX by allowing you to see the comment you linked to immediately without waiting. There are better ways to show massive amounts of comments so we have to potentially rethink that.
+1. The current issue page loads all comments at once and adds lots of event listeners to the page. This page could benefit from Vue for performance reasons. We could make the comment section a Vue app and make the comments a component with the emoji picker as components as well, etc. While we're in there, we'll amp up the UX by allowing you to see the comment you linked to immediately without waiting. There are better ways to show massive amounts of comments so we have to potentially rethink that.
 
 As you can see, we won't just slap Vue on everything.
 
 ### 2. Add in Webpack
 
-Rails has this awesome system of grabbing your Ruby libraries and bundling them into your app. `bundle install` will install all the stuff you need from your `Gemfile`. So why does frontend have to stick all their libraries in the `vendor` directory? Are we not on point enough to have our own library delivery system?
+Rails has this awesome system of grabbing your Ruby libraries and bundling them into your app. `bundle install` will install all the stuff you need from your `Gemfile`. So why does Frontend have to stick all their libraries in the `vendor` directory? Are we not on point enough to have our own library delivery system?
 
 By [introducing Webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
 
 1. Javascript libraries aren't being bundled directly with the GitLab source code.
 2. We can slim down the Vue source because we can precompile templates.
-  1. When code is shared between files we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once.
+  1. When code is shared between files, we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once.
 3. We can add [hot module reloading](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html) to make our development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
 4. We can have our own module system. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
 5. SVGs are going to be huge (yuuugge!).
@@ -78,7 +78,7 @@ We used [TurboLinks](https://github.com/turbolinks/turbolinks) in GitLab, but we
 
 #### What Does Turbolinks Achieve?
 
-With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead, Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded one time, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many projects. When you start introducing slightly more complex Javascript it becomes a pain.
+With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead, Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded one time, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab, our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many projects. When you start introducing slightly more complex Javascript it becomes a pain.
 
 #### The problem we need to solve
 
@@ -119,7 +119,7 @@ I am opting for option 4, in order to make our development lives easier and get 
 
 After we remove Turbolinks we can do something really cool. We can have each page live on it's own. Then certain pages can be their own Vue apps. For example we can make the file browser its own Vue application. The merge request page can be its own application. The code for the file viewer won't need to be loaded on any other page and the same goes for other pages. This is not anything new, this is just basic web development. This is also not a new paradigm, and we would not be the first. 
 
-There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also, there's a higher chance of making GitLab a janky app. For example, the profile page could be potentially very light, and there would be no reason for that if someone is linked directly to the profile page: it should load every single piece of Javascript in our project.
+There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also, there's a higher chance of making GitLab a janky app. For example, the profile page could be potentially very light, and there would be no reason for that if someone is linked directly to the profile page; it should load every single piece of Javascript in our project.
 
 Questions, suggestions, ideas? Please leave a comment
 below or tweet at us [@GitLab](https://twitter.com/gitlab)!
