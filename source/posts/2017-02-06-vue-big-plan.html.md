@@ -4,11 +4,11 @@ author: Jacob Schatz
 author_twitter: jakecodes
 author_gitlab: jschatz1
 categories: GitLab
-description: "Our long term plan to make GitLab as fast and performant as possible with Vue and Webpack"
+description: "Our long term plan to make GitLab as fast and performant as possible with Vue and Webpack."
 image_title: '/images/blogimages/vue-big-plan-cover.png'
 ---
 
-The Frontend at GitLab is getting better and better every day. Today we did 2 big things, and I'd like to share them with you and our big plans for the future.
+The Frontend at GitLab is getting better and better every day. Today we did two big things, and I'd like to share them with you and our big plans for the future.
 
 <!--more-->
 
