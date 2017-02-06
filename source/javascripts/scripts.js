@@ -127,6 +127,10 @@ $(function() {
   var $stickyBanner = $('.js-sticky-banner'),
       $tryGitlabEnterprise = $('.js-try-gitlab-ee');
 
+  if ($stickyBanner.length) {
+    $('body').addClass('has-sticky-banner');
+  }
+
   $(window).on('scroll', function() {
     if ($tryGitlabEnterprise.length) {
       var tryOnScreen = isElementOnScreen($tryGitlabEnterprise, ($(window).scrollTop() - 50));

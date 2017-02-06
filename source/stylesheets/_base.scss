@@ -1,6 +1,12 @@
 body {
   padding-top: 50px;
 
+  &.has-sticky-banner {
+    @media (min-width: $screen-sm-min) {
+      padding-bottom: 75px;
+    }
+  }
+
   &.purple-bg {
     background-color: $color-primary;
     color: $color-white;
