@@ -17,7 +17,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ----
 
-## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Other Main Pages in Handbook
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Team pages in the Handbook
 {: .no_toc}
 
 * [Engineering](/handbook/engineering)
@@ -53,7 +53,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ----
 
-## This page
+## Company pages
 {: .no_toc}
 
 - TOC
