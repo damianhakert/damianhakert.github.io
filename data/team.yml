@@ -680,7 +680,7 @@
 - name: Zeger-Jan 'ZJ' van de Weg
   locality: Zeist
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Junior Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: CI Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
@@ -690,7 +690,7 @@
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html">Chat Commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
-          Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
+          Zeger-Jan is a husband, and father of an awesome son. In his spare time he spends time with his family,
           plays board games (he hates not winning) and watch TV shows. Two years ago, Douwe introduced him to Ruby and Zeger-Jan instantly fell in love with the elegant syntax and the expressiveness.
           Later he picked up Elixir and when there is time left, he spends this time fiddling with his Raspberry Pi's and ArchLinux.
 
