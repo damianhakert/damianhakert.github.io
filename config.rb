@@ -122,6 +122,10 @@ helpers do
     options[:class] << " active" if url == current_page.url
     link_to(link_text, url, options)
   end
+
+  def full_url(current_page)
+    "#{data.site.url}#{current_page.url}"
+  end
 end
 
 # Build-specific configuration
