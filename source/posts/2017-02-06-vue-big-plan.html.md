@@ -49,6 +49,12 @@ Examples of this are:
 
 1. The current issue page loads all comments at once and adds lots of event listeners to the page. This page could benefit from Vue for performance reasons. We could make the comment section a Vue app and make the comments a component with the emoji picker as components as well, etc. While we're in there, we'll amp up the UX by allowing you to see the comment you linked to immediately without waiting. There are better ways to show massive amounts of comments so we have to potentially rethink that.
 
+1. The pipelines page rewritten in vue for the arrival of real time updating. 
+
+1. The environments was written in Vue. 
+
+1. There are many other places where we will be using Vue in the future and where we are already using Vue. Too many to list here. 
+
 As you can see, we won't just slap Vue on everything.
 
 ### 2. Add in Webpack
@@ -57,9 +63,9 @@ Rails has this awesome system of grabbing your Ruby libraries and bundling them 
 
 By [introducing Webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
 
-1. Javascript libraries aren't being bundled directly with the GitLab source code.
+1. Javascript libraries aren't being bundled directly with the GitLab source code or included within gem wrappers. e.g. `jquery-ui` or `bootstrap-rails` are included as a ruby gem and we are at the mercy of the gem maintainer to keep the Javascript library up to date.
 2. We can slim down the our Vue bundles because we can precompile templates.
-  1. When code is shared between files, we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once.
+  1. When code is shared between files, we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once. Not only will lodash not be included twice, but with [tree shaking](https://webpack.js.org/guides/tree-shaking/) only the components of lodash that we use will be included rather than the whole library.
 3. We can add [hot module reloading](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html) to make our development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
 4. We can have our own module system. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
 5. SVGs are going to be huge (yuuugge!).
