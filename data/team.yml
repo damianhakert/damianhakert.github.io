@@ -687,7 +687,6 @@
   gitlab: zj
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
-              <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html">Chat Commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Zeger-Jan is a husband, and father of an awesome son. In his spare time he spends time with his family,
