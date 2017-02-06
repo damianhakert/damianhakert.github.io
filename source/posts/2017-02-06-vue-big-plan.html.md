@@ -4,7 +4,7 @@ author: Jacob Schatz
 author_twitter: jakecodes
 author_gitlab: jschatz1
 categories: GitLab
-description: "Our long term plan to make GitLab as fast and performant as possible with Vue and Webpack."
+description: "Our long term plan to make GitLab as fast and performant as possible with Vue and webpack."
 image_title: '/images/blogimages/vue-big-plan-cover.png'
 ---
 
@@ -23,7 +23,7 @@ The Frontend at GitLab is getting better and better every day. Today we did two 
 
 ## Our Big Frontend Plan
 
-[Vue](https://vuejs.org/) is awesome. I wrote an article a while ago that showed [GitLab's love for Vue](https://about.gitlab.com/2016/10/20/why-we-chose-vue/). Today's article is a way to show our plan over the long term to make GitLab as fast and performant as possible with Vue and Webpack. We want to make GitLab the easiest to develop for Frontend Developers. 
+[Vue](https://vuejs.org/) is awesome. I wrote an article a while ago that showed [GitLab's love for Vue](https://about.gitlab.com/2016/10/20/why-we-chose-vue/). Today's article is a way to show our plan over the long term to make GitLab as fast and performant as possible with Vue and webpack. We want to make GitLab the easiest to develop for Frontend Developers. 
 
 One of the lessons I live by is "It's not _always_ about the tools you use, but **how** you use them."  Saying "we chose Vue", does not imply success. This also means that we could be using Angular or React and have just as awesome of a product. Vue is simply the way there.
 
@@ -57,26 +57,28 @@ Examples of this are:
 
 As you can see, we won't just slap Vue on everything.
 
-### 2. Add in Webpack
+### 2. Add in webpack
 
 Rails has this awesome system of grabbing your Ruby libraries and bundling them into your app. `bundle install` will install all the stuff you need from your `Gemfile`. So why does Frontend have to stick all their libraries in the `vendor` directory? Are we not on point enough to have our own library delivery system? The javascript ecosystem has matured since the asset pipeline first arrived, and we now have `npm install` and advanced code bundling tools that we can take advantage of.
 
-By [introducing Webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
+By [introducing webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
 
 1. Javascript libraries aren't being bundled directly with the GitLab source code or included within gem wrappers. e.g. `jquery-ui` or `bootstrap-rails` are included as a ruby gem and we are at the mercy of the gem maintainer to keep the Javascript library up to date.
 2. We can slim down the our Vue bundles because we can precompile templates.
   1. When code is shared between files, we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once. Not only will lodash not be included twice, but with [tree shaking](https://webpack.js.org/guides/tree-shaking/) only the components of lodash that we use will be included rather than the whole library.
-3. We can add [hot module reloading](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html) to make our development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
-4. We can have our own module system. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
-5. SVGs are going to be huge (yuuugge!).
-  1. [Webpack](https://webpack.js.org/) precompiles SVGs.
-  1. Right now, SVGs live in a specific directory in Rails. We use Rails helpers to pull in SVGs. With Webpack we can pull in SVGs one at a time because Webpack precompiles assets.
+3. We can add [hot module replacement](https://webpack.js.org/concepts/hot-module-replacement/) to make our development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
+4. We can now manage our dependencies properly. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
+5. SVGs are going to be huge.
+  1. [webpack](https://webpack.js.org/) bundles SVGs directly into our Javascript.
+  1. Right now, SVGs live in a specific directory in Rails. We use Rails helpers to pull in SVGs. With webpack we can pull in SVGs one at a time because webpack precompiles assets.
   1. We won't have to fetch SVGs with an HTTP request.
   1. We don't have to do tricky HTML hidden elements which is technical debt.
   1. We don't have to mess around with SVGs in CSS. You cannot change the color of SVGs in CSS.
-6. We'll increase developer workflow by using more native libraries. You can do this through Ruby but we can let the Frontend library deal with our CSS problems. 
-7. We can use a `vendor` file. You put all your common libraries in a separate file named `vendor`. Then your server just downloads all the files once. Your external libraries change very infrequently, so you shouldn't have to reload them all the time. 
-8. With Webpack deferred modules you can load just the JS you need to boot. Then you do a `require ensured`. With this, Webpack will do a quick call to the server and request the exact JS you need. It keeps the size of the file really small.
+6. We use a lot of Ruby to solve Javascript and CSS problems. Now we can solve those problems on our own using only frontend tools.
+7. We can use a `vendor` file. You put all your common libraries in a separate file named `vendor`. Then your server just downloads all the files once. Your external libraries change very infrequently, so you shouldn't have to reload them all the time. Using webpack's CommonsChunkPlugin (https://webpack.js.org/plugins/commons-chunk-plugin/) we split all of our common vendor libraries into their own separate file. Since these change very infrequently, they can stay cached for a much longer period of time.
+
+8. With webpack deferred modules you can load just the JS you need to boot. Then you do a `require ensured`. With this, webpack will do a quick call to the server and request the exact JS you need. It keeps the size of the file really small.
+9. We can properly manage our global scope. We can now do a `import x from y` instead of having a script put something on a `window.gl`. Without needing to pollute the global scope. 
 
 Regarding point 2 above, [Evan You says](https://github.com/vuejs/vue/issues/2873):
 
