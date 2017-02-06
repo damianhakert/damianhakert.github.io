@@ -64,7 +64,6 @@ Rails has this awesome system of grabbing your Ruby libraries and bundling them 
 By [introducing webpack into the equation (merged and ready for action!)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7288) we gain multiple benefits. 
 
 1. Javascript libraries aren't being bundled directly with the GitLab source code or included within gem wrappers. e.g. `jquery-ui` or `bootstrap-rails` are included as a ruby gem and we are at the mercy of the gem maintainer to keep the Javascript library up to date.
-1. We can slim down the our Vue bundles because we can precompile templates. 
 1. When code is shared between files, we can make sure we don't load [lodash](https://lodash.com/) twice, for example. If both files load lodash, we should only load the code for lodash once. Not only will lodash not be included twice, but with [tree shaking](https://webpack.js.org/guides/tree-shaking/) only the components of lodash that we use will be included rather than the whole library.
 1. We can add [hot module replacement](https://webpack.js.org/concepts/hot-module-replacement/) to make our Vue development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
 1. We can now manage our dependencies properly. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
@@ -76,11 +75,9 @@ By [introducing webpack into the equation (merged and ready for action!)](https:
   1. We don't have to mess around with SVGs in CSS. You cannot change the color of SVGs in CSS.
 1. We use a lot of Ruby to solve Javascript and CSS problems. Now we can solve those problems on our own using only frontend tools.
 1. Using webpack's [CommonsChunkPlugin](https://webpack.js.org/plugins/commons-chunk-plugin/) we split all of our common vendor libraries into their own separate file. Since these change very infrequently, they can stay cached for a much longer period of time.
-1. With webpack's [code splitting](https://webpack.js.org/guides/code-splitting/) feature you can load just the JS you need to boot. Then you do a `require.ensure`. With this, we can tell webpack to request only exact JS you need. It keeps the size of the file really small. For example if you have `modal.js` for modals. If someone never uses the modals the code never loads. As soon as someone opens a modal, the JS gets loaded on demand.
-also require ensured should be require.ensure(); or System.import();
+1. With webpack's [code splitting](https://webpack.js.org/guides/code-splitting/) feature you can load just the JS you need to boot. Then you do a `require.ensure()` or `System.import(). With this, we can tell webpack to request only exact JS you need. It keeps the size of the file really small. For example if you have `modal.js` for modals. If someone never uses the modals the code never loads. As soon as someone opens a modal, the JS gets loaded on demand.
 1. We can now properly manage our global scope. We can now do a `import x from y` instead of having our scripts pollute the global scope and pass classes around on `window.gl.lol`.
-
-Regarding point 2 above, [Evan You says](https://github.com/vuejs/vue/issues/2873):
+1. We can slim down the our Vue bundles because we can precompile templates and omiting the template compiler from our production code. [Evan You](https://twitter.com/youyuxi)(the creator of VueJS) [says](https://github.com/vuejs/vue/issues/2873):
 
 > There will be two different builds:
 > 
