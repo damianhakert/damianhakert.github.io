@@ -77,8 +77,9 @@ By [introducing webpack into the equation (merged and ready for action!)](https:
 6. We use a lot of Ruby to solve Javascript and CSS problems. Now we can solve those problems on our own using only frontend tools.
 7. We can use a `vendor` file. You put all your common libraries in a separate file named `vendor`. Then your server just downloads all the files once. Your external libraries change very infrequently, so you shouldn't have to reload them all the time. Using webpack's CommonsChunkPlugin (https://webpack.js.org/plugins/commons-chunk-plugin/) we split all of our common vendor libraries into their own separate file. Since these change very infrequently, they can stay cached for a much longer period of time.
 
-8. With webpack deferred modules you can load just the JS you need to boot. Then you do a `require ensured`. With this, webpack will do a quick call to the server and request the exact JS you need. It keeps the size of the file really small.
-9. We can properly manage our global scope. We can now do a `import x from y` instead of having a script put something on a `window.gl`. Without needing to pollute the global scope. 
+8. With webpack's [code splitting](https://webpack.js.org/guides/code-splitting/) feature you can load just the JS you need to boot. Then you do a `require.ensure`. With this, we can tell webpack to request only exact JS you need. It keeps the size of the file really small. For example if you have `modal.js` for modals. If someone never uses the modals the code never loads. As soon as someone opens a modal, the JS gets loaded on demand.
+also require ensured should be require.ensure(); or System.import();
+9. We can now properly manage our global scope. We can now do a `import x from y` instead of having our scripts pollute the global scope and pass classes around on `window.gl.lol`.
 
 Regarding point 2 above, [Evan You says](https://github.com/vuejs/vue/issues/2873):
 
@@ -96,6 +97,7 @@ We used [TurboLinks](https://github.com/turbolinks/turbolinks) in GitLab, but we
 #### What Does Turbolinks Achieve?
 
 With TurboLinks, clicking a link won't navigate to a new page in the default browser `GET` request way. Instead, Turbolinks will replace the `body` tag of your app with the new content. All your Javascript is loaded one time, when using the asset pipeline. This usually only loads some small HTML and JavaScript. On GitLab, our pages would load an average of 20kb on each page load versus the full JavaScript file size of 800kb+. Turbolinks is a great solution for many projects. When you start introducing slightly more complex Javascript it becomes a pain.
+We did speed tests on pages with Turbolinks and without Turbolinks and we found that the pages without Turbolinks performed better. We discovered that Turbolinks works well when you don't have a lot of event listeners to manage. To add to this, we will be able to make our pages even faster in the future because we will divide the Javascript up between pages better with the help of webpack. We were previously writing a lot of extra code to handle all of Turbolink's problems and we can remove that code now.
 
 #### The problem we need to solve
 
