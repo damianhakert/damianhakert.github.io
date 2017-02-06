@@ -2332,18 +2332,6 @@
   story:  |
           Joining February 6th
 
-- name: "Ernst (Interim)"
-  placeholder: true
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
-  reports_to: VP of Engineering
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Open Position
-
 - name: "Sid (Interim)"
   placeholder: true
   locality:
