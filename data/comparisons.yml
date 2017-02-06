@@ -336,34 +336,46 @@ gitlab_ce_ee_vs_bitbucket_server:
     logo: '/images/comparison/bitbucket-logo.svg'
   last_updated: 'January 31, 2017'
   features:
-    - title: "Built-in Continuous Integration tool"
-      description: "Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation."
+    - title: "Accelerate software delivery with built-in CI"
+      description: "Bitbucket requires the integration of Bamboo, a stand alone application at an additional cost, while GitLab’s own built-in CI offers an easy to setup and stable built-in continuous integration for GitLab so you can automate testing and deployment in a single platform."
       link_description: "Learn about the benefits of our CI tool"
       link: https://docs.gitlab.com/ce/ci/
+      category: "Accelerate software delivery"
+      competitor_one: true
+      competitor_two: false
+    - title: "Accelerate software delivery with an integrated solution"
+      description: "Atlassian has a suite of products which cover the entire software development lifecycle. But, the reality is that these products were all purchased and re-engineered to fit into their product line which has led to the products all having slightly different installation steps, and multiple log-ins. This slows down the speed with which you can deliver software. GitLab has a tightly integrated solution that covers the entire development lifecycle in a single UI. But, if you prefer to keep your current tools, GitLab also seamlessly integrates with key tools like Slack, Hipchat, LDAP, JIRA, and Jenkins."
+      link_description: ""
+      link:
+      category: "Accelerate software delivery"
       competitor_one: true
       competitor_two: false
     - title: "Docker Registry support"
-      description: "GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management."
+      description: "GitLab is the only company to have a fully integrated secure and private Container Registry, making it easy for developers to rapidly code, test, and deploy Docker container images using GitLab CI and other Docker-compatible tooling."
       link_description: "Documentation on Container Registry"
       link: https://docs.gitlab.com/ce/user/project/container_registry.html
+      category: "Accelerate software delivery"
       competitor_one: true
       competitor_two: false
-    - title: "Lock Files"
-      description: "File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files."
+    - title: "Secure your files with file locking"
+      description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
       link_description: "Read the File Locking documentation"
       link: http://docs.gitlab.com/ee/user/project/file_lock.html
+      category: "Protect your code"
       competitor_one: true
       competitor_two: false
-    - title: "More value with everything you need in one solution"
-      description: "To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo."
+    - title: "Intuitive UI for ease of use"
+      description: "While Bitbucket has multiple multiple interfaces made up of disparate products which they have bought and stitched together, GitLab was built as a single UI, that your team will love, and also enjoy working with."
       link_description: ""
       link:
+      Category: "Ease of use"
       competitor_one: true
       competitor_two: false
-    - title: "Great user interface"
-      description: "GitLab has a really nice user interface that your team will love, and also enjoy working with."
+    - title: "Easy configuration"
+      description: "GitLab can be easily configured through ENV variables and YAML files. This makes maintaining, upgrading and deploying GitLab easy to automate. BitBucket Server requires extensive manual configuration."
       link_description: ""
       link:
+      category: "Ease of use"
       competitor_one: true
       competitor_two: false
     - title: "Integrated issue tracking"
@@ -384,18 +396,21 @@ gitlab_ce_ee_vs_bitbucket_server:
       link:
       competitor_one: true
       competitor_two: false
-    - title: "No need to manage licenses"
-      description: "GitLab EE needs a license, but doesn't require any validation or separate licenses for separate servers. With BitBucket Server (Data Center), licenses are linked to servers, requiring management of licenses over servers. You can deploy 100 instances of GitLab EE for the same price as a single instance. You only pay for the total amount of users, not for how you choose to manage and scale the software."
+    - title: "Simple licensing management"
+      description: "Bitbucket requires multiple licences, with eeach license linked to a different server. GitLab has simple license management, and doesn't require any validation or separate licenses for separate servers. You only pay for the total amount of users, as your team grows you can add new users, if someone leaves the team, simply block the user and transfer the license."
       link_description: ""
       link:
+      category: "Reduce Costs"
       competitor_one: true
       competitor_two: false
-    - title: "Easy configuration"
-      description: "GitLab can be easily configured through ENV variables and YAML files. This makes maintaining, upgrading and deploying GitLab easy to automate. BitBucket Server requires extensive manual configuration."
+    - title: "Reduce costs with an integrated solution"
+      description: "Purchasing all the licences from Atlassian to complete the software development lifecycle (Confluence, Bitbucket, JIRA, Bamboo) pushes up its cost expodentially, while GitLab is the most affordable integrated software development solution on the market."
       link_description: ""
       link:
+      category: "Reduce Costs"
       competitor_one: true
       competitor_two: false
+
 
 gitlab_com_vs_bitbucket_org:
   title: "GitLab.com vs. Bitbucket.org"
