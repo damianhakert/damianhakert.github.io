@@ -14,9 +14,9 @@ The Frontend at GitLab is getting better and better every day. Today we did two 
 
 <blockquote style="color: red">
 <ul>
-  <li>Please update your GDK.</li>
-  <li>Please see the <a href='https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/update-gdk.md'>documentation</a> for instructions on updating.</li>
-  <li>Please see our <a href='https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/howto/troubleshooting.md#webpack'>troubleshooting guide</a> for any issues.</li>
+  <li>If you use the GDK, then make sure you update it! If you have no idea what I am talking about, then just keep reading.</li>
+  <li>Please see the <a href='https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/update-gdk.md'>documentation</a> for instructions on updating your GDK.</li>
+  <li>Please see our <a href='https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/howto/troubleshooting.md#webpack'>troubleshooting guide</a> for any issues when updating your GDK.</li>
   <li>Feel free to <a href='https://gitlab.com/gitlab-org/gitlab-ce/issues/new'>report</a> any additional issues you find.</li>
 </ul>
 </blockquote>
