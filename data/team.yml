@@ -2091,16 +2091,16 @@
           Prior to joining GitLab, Courtney worked in Business Development and Project Management for a mortgage company.
           When she’s not at work she can be found free diving on the North Shore, dabbling in photography, ridge hiking, and traveling as much as possible.
 
-- name: J.A.
-  locality:
-  country:
+- name: Jim Ash
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
   reports_to: Regional Sales Director - US
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jimash.jpg
+  twitter: jashsf
+  gitlab: jimash
   story:  |
-          Joining December 12th
+          Jim has spent many years in high technology sales and joins us most recently form Koding, a GitLab partner. Jim enjoys time with his family, Darlene, Jordan and Juno in San Francisco and Tahoe on the weekends.
 
 - name: Collen Kriel
   locality: Kampot
