@@ -8,20 +8,38 @@ gitlab_self_hosted_vs_github:
     logo: '/images/comparison/github-logo.svg'
   last_updated: 'January 31, 2017'
   features:
-    - title: "Faster from Idea to Production"
-      description: "GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform."
+    - title: "Accelerate software delivery with an integrated solution"
+      description: "GitHub requires the integration of multiple 3rd party tools to complete the software development lifecycle. The complex integration of other tools slows down the speed with which you can deliver software. GitLab has a different approach to code development and deployment, delivering a completely integrated and seamless solution that covers the entire development lifecycle."
       link_description: "Learn more about our vision"
       link: https://about.gitlab.com/direction/#vision
       competitor_one: true
       competitor_two: sortof
+    - title: "Reduce context switching with an integrated solution"
+      description: "GitHub requires context switching between multiple 3rd party products for different tasks, while GitLab’s own built-in CI offers built-in continuous integration for GitLab so you can automate testing and deployment in a single platform."
+      link_description:
+      link:
+      competitor_one: true
+      competitor_two: false
     - title: "Built-in Continuous Integration"
-      description: "GitHub integrates with popular, external CI platforms. GitLab provides a continuous integration service, built-in, for free. It's tightly integrated with everything in the product and just works. You can also decide to use external CI solutions if you choose to."
+      description: "GitHub requires context switching between multiple 3rd party products for different tasks including CI, while GitLab’s own built-in CI ensures you can automate testing and deployment in a single platform. GitLab provides a continuous integration service, built-in, for free. It's tightly integrated with everything in the product and just works. You can also decide to use external CI solutions if you choose to."
       link_description: "Documentation on CI"
       link: https://docs.gitlab.com/ce/ci/quick_start/README.html
       competitor_one: true
       competitor_two: false
-    - title: "Multiple authentication Levels"
-      description: "Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker."
+    - title: "Quickly and reliably scale with HA support"
+      description: "For mission critical releases, you cannot afford downtime. GitHub bundles everything (app server, database etc) into a virtual appliance, while GitLab offers support for HA. GitHub also requires you to shut down your server for back-ups preventing the delivery of code, while with GitLab, you can work in readonly mode during backups."
+      link_description: "GitLab High Availability"
+      link: https://about.gitlab.com/high-availability/
+      competitor_one: true
+      competitor_two: false
+    - title: "Built for on-premise deployment"
+      description: "GitHub was not originally built for on-premise deployment like GitLab. With GitLab,  it is possible to split the application server, file system and database onto different hardware and use a load balancer which allows for higher availability levels where thousands of users can use what appears as a single system."
+      link_description: "Why deploy on-premises in the SaaS era"
+      link: https://about.gitlab.com/2015/02/12/why-ship-on-premises-in-the-saas-era/
+      competitor_one: true
+      competitor_two: false
+    - title: "Protect your code with multiple authentication Levels"
+      description: "While GitHub gives you the ability to set read/write access to a repository, this means that people who only need access to the issue tracker, now have access to the source code too. GitLab gives you the ability to set permissions according to people's role, so you can protect your source code."
       link_description: "See the various authentication levels"
       link: https://docs.gitlab.com/ce/user/permissions.html
       competitor_one: true
@@ -92,10 +110,16 @@ gitlab_self_hosted_vs_github:
       link: https://gitlab.com/gitlab-org/gitlab-ce/issues/21975
       competitor_one: false
       competitor_two: true
-    - title: "Cycle Analytics"
-      description: "GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production."
+    - title: "Review performance with built-in Cycle Analytics"
+      description: "Team want to improve their each stage of their workflow, but are faced with no way to measure this with GitHub with it’s 3rd party integrations. GitLab can provide this data because it has all the tools built-in to a single solution. Cycle Analytics provides a dashboard which lets teams measure and records the median time it takes the team to complete each stage in their workflow from idea to production, and provides insights into areas for improvement."
       link_description: "Feature Highlight: Cycle Analytics"
       link: https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/
+      competitor_one: true
+      competitor_two: false
+    - title: "Review individual performance with built-in Contributor Analytics"
+      description: "GitLab supports contribution analytics, so you are able to view the activity of issues, merge requests and push events of your organization and each team member, giving you more transparency into the productivity of your team."
+      link_description: "Contributor Analytics (EE only)"
+      link: https://gitlab.com/help/analytics/contribution_analytics.md
       competitor_one: true
       competitor_two: false
     - title: "Slash commands"
@@ -116,9 +140,14 @@ gitlab_self_hosted_vs_github:
       link: https://about.gitlab.com/features/time-tracking/
       competitor_one: true
       competitor_two: false
-    - title: "Built-in Docker Registry"
-      description: "GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management."
+    - title: "Accelerate software delivery with GitLab's built-in Docker Registry"
+      description: "GitLab is the only company to have a fully integrated Container Registry, making it easy for developers to securely and rapidly code, test, and deploy Docker container images using GitLab CI and other Docker-compatible tooling. It allows for easy upload and download of images from GitLab CI, and is fully integrated with Git repository management."
       link_description: "Documentation on Container Registry"
+      link: https://docs.gitlab.com/ce/user/project/container_registry.html
+      competitor_one: true
+      competitor_two: false
+    - title: "Reduce costs and licencing complexity"
+      description: "GitHub requires integration with multiple products, each with different billing cycles and additional costs. GitHub has complex licensing rules, whereas GitLab has the simplest licence management. GitLab is simply the most comprehensive and affordable software development solution on the market."
       link: https://docs.gitlab.com/ce/user/project/container_registry.html
       competitor_one: true
       competitor_two: false
