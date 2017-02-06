@@ -41,7 +41,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
    - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
    - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)
    - [Referral Bonuses](https://about.gitlab.com/handbook/#referral-bonuses)
-   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/#work-remotely-travel-grant)
+   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/#travel-grant)
 
 
 ## Specific to employees based in the Netherlands
