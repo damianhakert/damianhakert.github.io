@@ -5,15 +5,15 @@ author_twitter: XMDRamos
 author_gitlab: marcia
 categories: tutorial
 image_title: '/images/unsplash/lock.jpg'
-description: "How to setup GitLab Pages with a CloudFlare SSL/TLS Certificate for your (sub)domain"
+description: "How to set up GitLab Pages with a CloudFlare SSL/TLS Certificate for your (sub)domain"
 ---
 
 [CloudFlare SSL/TLS certificates][cert] are free to use.
 If you want your [GitLab Pages] site to work with them,
-it's as simple as it could be. There's just a **trick**
-that perhaps you don't know about (yet)!
+it's as simple as could be. There's just a **trick**
+you might not know about (yet)!
 
-I'll go straight to the point in this tutorial, to show
+I'll get straight to the point in this tutorial to show
 you how to add a custom (sub)domain with a certificate
 issued by [CloudFlare] to your [GitLab Pages] project.
 
@@ -40,12 +40,12 @@ with custom domains/subdomains and SSL/TLS support.
 
 This tutorial responds to the issue
 "[Support CloudFlare CA please!](https://gitlab.com/pages/pages.gitlab.io/issues/29)",
-and other cases where GitLab users asked specifically how do
+and other cases where GitLab users asked specifically how
 to add a CloudFlare certificate to GitLab Pages. 😉 Anything else
-is out of the scope of this post.
+is outside the scope of this post.
 
-If you don't know how to setup your GitLab Pages site, or why
-should you care about SSL/TLS:
+If you don't know how to set up your GitLab Pages site, or why you
+should care about SSL/TLS:
 
 - Take a look at the [GitLab Pages] overview
 - Read the step-by-step tutorial [Hosting on GitLab.com with GitLab Pages][pages-setup-post]
@@ -56,7 +56,7 @@ should you care about SSL/TLS:
 - Read the [documentation on GitLab Pages][pages-docs]
 - Read an [overview on the importance of HTTPS][post-startssl]
 
-In case you don't know about it yet, we're bringing [GitLab Pages into GitLab Community Edition][pages-ce]! 🎉
+In case you don't know about it yet, we're bringing [GitLab Pages to GitLab Community Edition][pages-ce]! 🎉
 
 ## Step-by-Step Quick Guide
 
@@ -75,12 +75,12 @@ subdomain (`CNAME`) or root domain (`A`)
 [to your GitLab Pages site][pages-setup-domains].
 
 The image below shows both `CNAME` and `A` records
-(for this demo purposes), but of course, you will only
+(for the purposes of this demo), but of course, you will only
 need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
 
 ![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.png){:.shadow}
 
-If you'd already set this up, just jump into the second step.
+If you'd already set this up, just jump to the second step.
 
 ### STEP 2. Generate your Certificate
 
@@ -93,7 +93,7 @@ If you'd already set this up, just jump into the second step.
 
     ![choose-domain](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/certificate-setup.png){:.shadow}
 
-1. Your certificate and private key have been generated. Leave the tab and the modal window opened:
+1. Your certificate and private key have been generated. Leave the tab and the modal window open:
 
     ![modal with certificate](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/modal-window.png){:.shadow}
 
@@ -104,16 +104,16 @@ From a new tab, go to GitLab, and navigate to your project's **Settings** > **Pa
 ![configure GitLab Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/configure-gitlab-pages.png){:.shadow}
 
 Copy the PEM certificate and the private key from the tab you've
-left opened on CloudFlare, and paste it into their respective fields in GitLab:
+left open on CloudFlare, and paste it into their respective fields in GitLab:
 
 ![Add PEM certificate to Pages](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/add-certificate-to-pages.png){:.shadow}
 
 ### STEP 4. The Trick
 
-CloudFlare doesn't combine both PEM and root certificates in one.
-So, we need to copy the root certificate (aka "intermediate")
+CloudFlare doesn't combine both PEM and root certificates in one,
+so we need to copy the root certificate (aka "intermediate")
 **[CloudFlare Origin CA — RSA Root][root]** from the code block
-below, and **paste it below your PEM** certificated just added to GitLab:
+below, and **paste it below your PEM** certificate just added to GitLab:
 
 Copy CloudFlare's Origin CA — RSA Root:
 
