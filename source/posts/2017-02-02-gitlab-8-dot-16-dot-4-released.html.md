@@ -1,6 +1,7 @@
 ---
 title: "GitLab 8.16.4 released"
 author: Robert Speicher
+author_gitlab: rspeicher 
 author_twitter: rspeicher
 categories: release
 ---
