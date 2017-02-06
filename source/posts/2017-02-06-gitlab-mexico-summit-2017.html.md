@@ -102,9 +102,9 @@ words how much fun this week was.
       </div>
     </div>
     <div class="item">
-      <img src="/images/blogimages/gitlab-mexico-summit-2017/chichen-itza.jpg" alt="Maya Ruins - Chichen Itza">
+      <img src="/images/blogimages/gitlab-mexico-summit-2017/chichen-itza.jpg" alt="Maya Ruins - Chichén Itzá">
       <div class="carousel-caption">
-        Maya Ruins - Chichen Itza
+        Maya Ruins - Chichén Itzá
       </div>
     </div>
     <div class="item">
