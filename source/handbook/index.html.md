@@ -988,8 +988,7 @@ linking your account to Git.
 
 ### 5. Clone the source of the website and install its dependencies
 
-1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
-   to clone the website.
+1. If you set up SSH keys previously, in terminal execute: `git clone git@gitlab.com:gitlab-com/www-gitlab-com.git` to clone the website. If you prefer using https, then execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`, but note that if you've activated 2FA on your GitLab.com account, you'll need to take some additional steps to set up [personal access tokens](https://gitlab.com/profile/personal_access_tokens). If you ever want to switch between SSH and https, execute `git remote remove origin`, followed by `git remote add origin [..]` where the `[..]` is the part that starts with `git@` for SSH, or with `https:` for https.
 1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
 1. Execute: `bundle install` to install all gem dependencies.
 
