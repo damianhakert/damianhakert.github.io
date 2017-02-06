@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Local - Testing Environment
+title: Testing Environment
 category: General
 ---
 
@@ -12,7 +12,23 @@ category: General
 
 ----
 
-## Initial setup
+
+## Testing Environment License
+
+For a test license you can log into the license app with your GitLab login. You can use one of the [shared licenses](httpe://license.gitlab.com/licenses/1449) or if you need special add-ons, such as geo, you can generate a new one.
+
+Please keep in mind *you can't generate licenses for customers* only for testing
+purposes. To generate a new license, log in to the license app and click on the
+'New License' green button on the right side of the screen. Click on "You can also manually create a license
+without a Zuora subscription" at the bottom of the screen and fill out all non-optional
+fields.
+
+## Digital Ocean and Docker Testing Environment
+
+For a Digital Ocean and Docker testing environment [follow this guide](https://docs.gitlab.com/ce/install/digitaloceandocker.html).
+
+
+## VMWare Testing Environment
 
 This guide involves configuring and setting up VMWare and Docker locally and assumes you're using Mac OS X.
 
