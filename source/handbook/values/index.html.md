@@ -3,18 +3,7 @@ layout: markdown_page
 title: "GitLab Values"
 ---
 
-----
-
-## This page
-{: .no_toc}
-
-- TOC
-{:toc .toc-list-icons}
-
-----
-
-## <i class="fa fa-heart-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Values
-{: #values}
+## Welcome to our Values page
 
 We value results, transparency, sharing, freedom, efficiency, frugality,
 collaboration, directness, kindness, diversity, boring solutions, and quirkiness:
