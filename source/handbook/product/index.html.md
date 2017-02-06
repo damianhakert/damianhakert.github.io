@@ -319,8 +319,7 @@ Issues are scheduled into a milestone (the upcoming release), worked on by engin
 Follow this timeline for the release that will be shipped in Month `M`.
 
 * Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
-* Month `M-1`, 7th: Release post created (WIP merge request)
-* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them
+* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them | Release post created (WIP merge request)
 * Month `M`, 15th: Release post first draft complete (WIP merge request)
 * Month `M`, 22nd: Release shipped to production \| Release post published
 
