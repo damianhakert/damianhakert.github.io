@@ -483,6 +483,18 @@ gitlab_ce_vs_gitlab_ee:
       link:
       competitor_one: false
       competitor_two: true
+    - title: "LDAP group sync"
+      description: "GitLab Enterprise Edition gives your Admin’s the ability to automatically sync groups and manage SSH-keys, permissions, and authentication, so you can focus on building your product, not configuring your tools."
+      link_description: ""
+      link:
+      competitor_one: false
+      competitor_two: true
+    - title: "Multiple Issue Boards"
+      description: "Large companies often have hundreds of different projects, all with different moving parts at the same time. GitLab Enterprise Edition allows for multiple issue boards for a single project so you can to plan, organize, and visualize a workflow for a feature or product release. Multiple issue boards are particularly useful for large projects with more than one team or in situations where a repository is used to host the code of multiple products."
+      link_description: "Multiple Issue Boards"
+      link: https://docs.gitlab.com/ee/user/project/issue_board.html
+      competitor_one: false
+      competitor_two: true
 
 gitlab_ees_vs_gitlab_eep:
   title: "GitLab EES vs. GitLab EEP"
