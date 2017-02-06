@@ -139,9 +139,9 @@ gitlab_ee_vs_github_enterprise:
       link: https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/
       competitor_one: true
       competitor_two: false
-    - title: "File Locking"
-      description: "GitLab EE provides an easy mechanism to lock files, preventing everyone from modifying a specific file or an entire directory."
-      link_description: ""
+    - title: "GitLab handles huge repositories well"
+      description: "GitHub requires the integration of multiple 3rd party tools to complete the software development lifecycle. The complex integration of other tools slows down the speed with which you can deliver software. GitLab has a completely integrated solution that covers the entire development lifecycle."
+      link_description:
       link:
       competitor_one: true
       competitor_two: false
@@ -158,9 +158,15 @@ gitlab_ee_vs_github_enterprise:
       competitor_one: true
       competitor_two: false
     - title: "HA setups"
-      description: "GitLab offers multiple highly availabiliy (HA) solutions, making it possible to failover easily."
+      description: "For mission critical releases, you cannot afford downtime. GitHub bundles everything (app server, database etc) into a virtual appliance, while GitLab offers support for HA. GitHub also requires you to shut down your server for back-ups preventing the delivery of code, while with GitLab, you can work in readonly mode during backups."
       link_description: "More information about active servers"
       link: https://about.gitlab.com/high-availability/
+      competitor_one: true
+      competitor_two: false
+    - title: "Protect your code with role permissions"
+      description: "While GitHub gives you the ability to set read/write access to a repository, this means that people who only need access to the issue tracker, now have access to the source code too. GitLab gives you the ability to set permissions according to people's role, so you can protect your source code."
+      link_description: "Keeping your code protected"
+      link: https://about.gitlab.com/2014/11/26/keeping-your-code-protected/
       competitor_one: true
       competitor_two: false
     - title: "Run your own software on your instance"
@@ -170,7 +176,7 @@ gitlab_ee_vs_github_enterprise:
       competitor_one: true
       competitor_two: false
     - title: "Use your configuration management software"
-      description: "Use configuration management software of your choice to manage GitLab. Puppet, Chef, Ansible—it all works."
+      description: "GitHub requires the complex configuration of integration tools, from CI to chat apps. With GitLab, you can use your choice of configuration management software, from Puppet, Chef, Ansible for quick and straightforward implementation."
       link_description: "Read about configuration management here"
       link: https://about.gitlab.com/installation/
       competitor_one: true
@@ -182,7 +188,7 @@ gitlab_ee_vs_github_enterprise:
       competitor_one: true
       competitor_two: false
     - title: "Built-in Continuous Integration tool"
-      description: "Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation."
+      description: "GitHub requires context switching between multiple 3rd party products for different tasks, while GitLab’s own built-in CI is easy to setup and is stable, so you can automate testing and deployment in a single platform."
       link_description: "Learn about the benefits of our CI tool"
       link: https://docs.gitlab.com/ci/
       competitor_one: true
@@ -236,13 +242,13 @@ gitlab_ee_vs_github_enterprise:
       competitor_one: true
       competitor_two: sortof
     - title: "Geographic Replication with GitLab Geo"
-      description: "GitLab Enterprise Edition can have a geographically replicated instance, so your remote teams don't have to wait for long downloads when cloning or pulling from repositories."
+      description: "To improve collaboration, remote teams need the ability to be able to seamlessly work across geographical boundaries. GitLab Geo creates read only mirrors of your GitLab instance so your remote employees can clone and fetch large repos quickly, while GitHub has no similar feature."
       link_description: "Read the Geo docs for more information"
       link: http://docs.gitlab.com/ee/gitlab-geo/
       competitor_one: true
       competitor_two: false
     - title: "Lock Files"
-      description: "File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files."
+      description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
       link_description: "Read the File Locking documentation"
       link: http://docs.gitlab.com/ee/user/project/file_lock.html
       competitor_one: true
@@ -253,12 +259,37 @@ gitlab_ee_vs_github_enterprise:
       link: http://docs.gitlab.com/runner/monitoring/
       competitor_one: true
       competitor_two: false
-    - title: "Access to and possibility to modify the source code of GitLab"
-      description: "The Ruby code in GitHub Enterprise is obfuscated. GitLab Enterprise Edition has a publicly readable source code and you have the right to modify the code."
-      link_description: "Read the GitLab Enterprise Edition license"
+    - title: "Access to and possibility to modify your source code"
+      description: "GitLab Enterprise Edition is publically readable, meaning you can scan or modify the code to meet your security and development needs. The Ruby code in GitHub is proprietary, meaning you cannot edit or view the source code."
+      link_description: "Read the GitLab Enterprise Edition license."
       link: https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE
       competitor_one: true
       competitor_two: false
+    - title: "Reduce costs with simple licence management"
+      description: "GitHub requires integration with multiple products, each with different billing cycles.GitHub also has complex licensing rules, whereas GitLab has the simplest licence management, and is simply the most comprehensive and affordable software development solution on the market."
+      link description: 
+      link: 
+      competitor_one: true
+      competitor_two: false
+    - title: "Reduce 3rd party maintenance with an integrated solution"
+      description: "GitHub’s 3rd party integrations mean that if something breaks, you will need to contact both vendors to address the problem, resulting in longer wait times. With an integrated solution, GitLab’s rapid response time to issues, means that you can be back up and running in no time."
+      link description: 
+      link: 
+      competitor_one: true
+      competitor_two: false
+    - title: "Omnibus Installation to get up and running quicker"
+      description: "An installation of GitHub requires the implementation of multiple products, each with their own complexities. GitLab has an omnibus package which spans the entire software supply chain, and has all dependencies built in for a simple and straightforward installation and configuration."
+      link description: 
+      link: 
+      competitor_one: true
+      competitor_two: false
+    - title: "Review your teams performance with Cycle Analytics"
+      description: "Team want to improve their each stage of their workflow, but are faced with no way to measure this with GitHub with it’s 3rd party integrations. With built in Cycle Analytics, GitLab records the median time it takes the team to complete each stage in their workflow from idea to production, and provides insights into areas for improvement."
+      link description: 
+      link: 
+      competitor_one: true
+      competitor_two: false
+
 
 gitlabcom_vs_githubcom:
   title: "GitLab.com vs. GitHub.com"
