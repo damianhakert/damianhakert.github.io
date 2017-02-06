@@ -483,24 +483,72 @@ gitlab_ce_vs_gitlab_ee:
       link:
       competitor_one: false
       competitor_two: true
+    - title: "Improve collaboration with GitLab Geo"
+      description: "When development teams are spread across two or more teams geographical locations, but their GitLab instance is in a single location, fetching and cloning large repositories can take a long time. Built for distributed teams, GitLab Geo allows for read-only mirrors of your GitLab instance, reducing the time it takes to clone and fetch large repos and improving your collaboration process."
+      link_description: ""
+      link:
+      competitor_one: false
+      competitor_two: true
+    - title: "Improve collaboration with multiple Issue Boards"
+      description: "Large companies often have hundreds of different projects, all with different moving parts at the same time. GitLab Enterprise Edition allows for multiple issue boards for a single project so you can to plan, organize, and visualize a workflow for a feature or product release. Multiple issue boards are particularly useful for large projects with more than one team or in situations where a repository is used to host the code of multiple products."
+      link_description: ""
+      link:
+      competitor_one: false
+      competitor_two: true
 
 gitlab_ees_vs_gitlab_eep:
   title: "GitLab EES vs. GitLab EEP"
+  Description: "Enterprise Edition Starter is great for co-located teams who need security and workflow controls for their professional projects, while Enterprise Edition Premium is ideal for large companies with distributed teams who need advanced workflow controls, High Availability, and Premium Support.GitLab Enterprise Edition Premium offers all the benefits of Enterprise Edition Starter, and:"
   competitor_one:
-    name: 'GitLab CE'
+    name: 'GitLab EES'
     logo: '/images/comparison/ce-gitlab-logo.svg'
   competitor_two:
-    name: 'GitLab EE'
+    name: 'GitLab EEP'
     logo: '/images/comparison/ee-gitlab-logo.svg'
   features:
-    - title: "Feature 1"
-      description: "Lorem ipsum dolor sit amet."
-      competitor_one: true
-      competitor_two: true
-    - title: "Feature 2"
-      description: "Lorem ipsum dolor sit amet."
-      competitor_one: true
-      competitor_two: false
+    - title: "Protect your files with file locking"
+      description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab Enterprise Edition Premium, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
+      link_description: "File Locking"
+      link: https://about.gitlab.com/features/file-locking/
+      competitor_one: false
+      competitor_two: true 
+    - title: "Reduce downtime with premium support"
+      description: "For mission critical releases, you cannot afford downtime. Enterprise Edition Premium provides 4-hour support response time, and 24x7 emergency support, so you can get the support you need, wherever, whenever."
+      link_description: "Premium Support"
+      link: https://about.gitlab.com/features/premium-support/
+      competitor_one: false
+      competitor_two: true 
+    - title: "Get up and running fast with dedictaed training"
+      description: "To get up to speed quickly with new tools, especially when members of your team are new to Git, Enterprise Edition Premium helps ease this transition by giving your team a single point of contact for all of your onboarding, training, upgrading, and troubleshooting needs."
+      link_description: "Premium Support"
+      link: https://about.gitlab.com/features/premium-support/
+      competitor_one: false
+      competitor_two: true 
+    - title: "Dedicated High Availability support"
+      description: "To avoid downtime, GitLab Enterprise Edition Premium offers support for High Availability (HA). A Service Engineer will help you identify your specific HA needs and map out an architecture."
+      link_description: "GitLab High availability"
+      link: https://about.gitlab.com/high-availability/
+      competitor_one: false
+      competitor_two: true 
+    - title: "Live upgrade assistance"
+      description: "To ensure that your team remains productive during scheduled upgrades, GitLab Enterprise Edition offers live upgrade assistance. A dedicated GitLab Service Engineer will join a live screen share to help you through the process to ensure there aren't any surprises."
+      link_description: "Premium Support"
+      link: https://about.gitlab.com/features/premium-support/
+      competitor_one: false
+      competitor_two: true 
+    - title: "Admin control with Pivotal Tile"
+      description: "As enterprise developers want their development toolkit to be more customizable, more integrated, and more secure. With GitLab Enterprise Edition Premium, developers will be able to easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry."
+      link_description: "Pivotal Cloud Foundry Tile for GitLab EE"
+      link: https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/ 
+      competitor_one: false
+      competitor_two: true 
+    - title: "Improved distributed collaboration with GitLab Geo"
+      description: "When development teams are spread across two or more teams geographical locations, but their GitLab instance is in a single location, fetching and cloning large repositories can take a long time. Built for distributed teams, GitLab Geo allows for read-only mirrors of your GitLab instance, reducing the time it takes to clone and fetch large repos and improving your collaboration process."
+      link_description: "GitLab Geo"
+      link: https://about.gitlab.com/features/gitlab-geo/
+      competitor_one: false
+      competitor_two: true 
+
 
 gitlab_vs_svn:
   title: "GitLab vs. SVN"
