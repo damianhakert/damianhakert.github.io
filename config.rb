@@ -122,7 +122,6 @@ helpers do
     options[:class] << " active" if url == current_page.url
     link_to(link_text, url, options)
   end
-
 end
 
 # Build-specific configuration
