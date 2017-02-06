@@ -92,10 +92,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > that you join, please make sure that you connect at least 10 minutes
     > before the call and make sure that your camera and microphone are working
     > properly. We'd like you to introduce yourself to the team (±1 minute), so please
-    > prepare some talking points for yourself. Some tips to help you out here:
+    > prepare some talking points for yourself. Please make sure to
     > tell us about where you were before GitLab, why you wanted to join our
-    > team, just a little something about your background and of course
-    > something on what you like to do in your spare time.
+    > team, and what you like to do in your spare time.
 
     > Please let People Ops (cced here) know if there are any necessary supplies
     > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter.
