@@ -65,7 +65,7 @@ By [introducing webpack into the equation (merged and ready for action!)](https:
 
 1. Javascript libraries aren't being bundled directly with the GitLab source code or included within gem wrappers. e.g. `jquery-ui` or `bootstrap-rails` are included as a ruby gem and we are at the mercy of the gem maintainer to keep the Javascript library up to date.
 1. We can slim down the our Vue bundles because we can precompile templates. 
-1. When code is shared between files, we can make sure we don't load [Lodash](https://lodash.com/) twice, for example. If both files load Lodash, we should only load the code for Lodash once. Not only will lodash not be included twice, but with [tree shaking](https://webpack.js.org/guides/tree-shaking/) only the components of lodash that we use will be included rather than the whole library.
+1. When code is shared between files, we can make sure we don't load [lodash](https://lodash.com/) twice, for example. If both files load lodash, we should only load the code for lodash once. Not only will lodash not be included twice, but with [tree shaking](https://webpack.js.org/guides/tree-shaking/) only the components of lodash that we use will be included rather than the whole library.
 1. We can add [hot module replacement](https://webpack.js.org/concepts/hot-module-replacement/) to make our Vue development quicker. This is a development bonus, as our current development takes loads of time to refresh the page while developing GitLab. Spicy!
 1. We can now manage our dependencies properly. This should help a lot of frontenders to contribute to GitLab. Devs won't need to figure out the whole Rails Javascript situation in order to contribute. We can also dictate manually what we want to include. 
 1. SVGs are going to be huge.
@@ -91,7 +91,7 @@ Regarding point 2 above, [Evan You says](https://github.com/vuejs/vue/issues/287
 
 ### 3. Remove Turbolinks
 
-We used [TurboLinks](https://github.com/turbolinks/turbolinks) in GitLab, but we've recently removed it with the linked merge request, merged on 2017/02/03.
+We used [TurboLinks](https://github.com/turbolinks/turbolinks) in GitLab, but we've recently [removed it](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8570) with the linked merge request, merged on 2017/02/03.
 
 #### What Does Turbolinks Achieve?
 
