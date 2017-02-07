@@ -324,6 +324,23 @@ The feature page grabs its content automatically from the file
 The comparison page grabs its content automatically from the file
 `/data/comparisons.yml`.
 
+When adding a new comparison, make sure that you follow the structure below:
+
+```
+- title: ""
+  description: ""
+  link_description: ""
+  link:
+  competitor_one: true
+  competitor_two: false
+```
+
+Title and description fields are mandatory.
+
+`competitor_one` is always GitLab,
+`competitor_two` is the competitor we are compared against. Values for these two
+fields are `true|false|sortof`.
+
 ### Update the release list page (under `/release-list`)
 
 The release list page grabs its content automatically by crawling the blog and
