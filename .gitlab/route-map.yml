@@ -8,3 +8,4 @@
 
 # Other files
 - source: /source\/(.*)/ # source/images/blogimages/around-the-world-in-6-releases-cover.png
+  public: '\1' # images/blogimages/around-the-world-in-6-releases-cover.png
