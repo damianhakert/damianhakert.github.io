@@ -98,6 +98,12 @@ h4 {
     border-radius: 150px;
     filter: grayscale(100%);
   }
+
+  &:target {
+    img {
+      filter: none;
+    }
+  }
 }
 
 .bio {

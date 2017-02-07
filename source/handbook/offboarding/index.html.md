@@ -5,7 +5,7 @@ title: "GitLab Offboarding"
 
 Before starting an offboarding issue, make sure that the team member's resignation or termination has been discussed and cleared with _at least_ the member of the executive team to whom the team member (in)directly reports. For [involuntary terminations](/handbook/people-operations/#involuntary-terminations), make yourself familiar with the guidelines in the People Operations handbook.
 
-When it is time for offboarding, create issue for former team member on the dev server in the [organization issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
+When it is time for offboarding, create issue for former team member on the dev server in the [organization issue tracker](https://gitlab.com/gitlab-com/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
 
 
 ```
@@ -117,7 +117,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Remove team member from the info sheets of the next Summit if applicable.
 1. [x] _not relevant_ New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: Remove team members profile from [Egencia](https://about.gitlab.com/handbook/people-operations/#add-egencia).
-1. [x] _not relevant_ New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. You can also schedule more calls, or ask for help on the #questions channel in slack.
+1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/onboarding-101/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).

@@ -4,9 +4,14 @@
       %h2.panel-title
         = feature_block.title
     %table.table.compare-table
+      %colgroup
+        %col{:width => "51%"}
+        %col{:width => "14%"}
+        %col{:width => "17%"}
+        %col{:width => "18%"}
       %thead
         %tr
-          %th
+          %th.blank-header
           %th.ce-col.text-center Community Edition
           %th.ee-col.text-center Enterprise Edition Starter
           %th.eep-col.text-center Enterprise Edition Premium

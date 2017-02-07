@@ -1,3 +1,4 @@
+//scss-lint:disable NestingDepth,ImportantRule
 // blog general
 
 .blog {
@@ -20,10 +21,6 @@
     max-width: 1050px;
     margin: 0 auto;
     clear: both;
-  }
-
-  .alert-webcast {
-    text-align: left;
   }
 
   .callout {
@@ -114,6 +111,35 @@
       a {
         color: $blog-color-purple;
         font-weight: 600;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-gitlab {
+      i {
+        color: $color-gray;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-secondary;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-twitter {
+      i {
+        color: $color-gray;
+        text-decoration: none;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
       }
     }
 
@@ -185,7 +211,7 @@
     .browse:hover {
       background-color: $blog-color-purple;
       border: 1px solid $blog-color-purple;
-      color: $color-white;
+      color: $color-white !important;
     }
 
     @media only screen and (max-width : 768px) {
@@ -255,7 +281,7 @@
     }
 
     .social {
-      width: 144px;
+      width: 152px;
       margin: 0 auto;
     }
 
@@ -290,7 +316,6 @@
 
     .overlay {
       background: linear-gradient(to bottom, $blog-color-image-from, $blog-color-image-to);
-      border-bottom: 1px solid $blog-color-overlay-border;
       position: absolute;
       width: 100%;
       bottom: 0;
@@ -311,7 +336,35 @@
 
       a {
         color: $blog-color-heading;
-        text-decoration: underline;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          text-decoration: none;
+          color: $blog-color-purple;
+        }
+      }
+    }
+
+    .author-gitlab {
+      i {
+        color: $color-white;
+
+        &:hover {
+          color: $color-secondary;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .author-twitter {
+      i {
+        color: $color-white;
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
       }
     }
 
@@ -351,6 +404,7 @@
   }
 
   &.archives {
+    padding-top: 20px;
     font-size: 18px;
 
     .wrapper {
@@ -642,3 +696,5 @@
 pre {
   border-radius: 0;
 }
+
+//scss-lint:enable all

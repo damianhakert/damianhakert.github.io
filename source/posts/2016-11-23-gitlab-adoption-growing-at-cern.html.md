@@ -2,7 +2,7 @@
 title: "GitLab adoption growing at CERN"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/blogimages/cern.jpg'
 description: CERN, the European Organization for Nuclear Research, is increasingly using GitLab to host software projects and code for configuration management.
 ---

@@ -2,6 +2,10 @@
 layout: markdown_page
 title: Team Handbook
 twitter_image: '/images/tweets/handbook-gitlab.png'
+extra_js:
+  - libs/moment.min.js
+  - libs/moment-timezone-with-data.min.js
+  - team-call.js
 ---
 
 ## Welcome to the GitLab Handbook
@@ -13,9 +17,11 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ----
 
-## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Other Main Pages in Handbook
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Pages in the Handbook
 {: .no_toc}
 
+* [General](/handbook)
+  * [Values](/handbook/values)
 * [Engineering](/handbook/engineering)
   * [Support](/handbook/support)
   * [Infrastructure](/handbook/infrastructure)
@@ -49,63 +55,13 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ----
 
-## This page
+## Company pages
 {: .no_toc}
 
 - TOC
 {:toc .toc-list-icons}
 
 ----
-
-## <i class="fa fa-heart-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Values
-{: #values}
-
-We value results, transparency, sharing, freedom, efficiency, frugality,
-collaboration, directness, kindness, diversity, boring solutions, and quirkiness:
-
-1. **Results**: We care about what you achieve; the code you shipped, the user you
-made happy, and the team member you helped. Do not compete by proclaiming how many
-hours you worked yesterday because we don't want someone who took the afternoon
-off to feel like they did something wrong. Instead, celebrate the achievements of
-yourself and your teammates. We want people to have the desire to ship.
-1. **Transparency**: Be open about as many things as possible. By making information
-public we can reduce the threshold to contribution and make collaboration easier.
-An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
-that also contains this [company handbook](https://about.gitlab.com/handbook/).
-Everything we do is public by default, for example, the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them.
-There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines) with the text 'not public by default are'.
-On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
-1. **Efficiency**: We care about working on the right things, not doing more than needed,
-and not duplicating work. This enables us to achieve more progress which makes our work more fulfilling.
-We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. Give short answers to verbal questions so the other party has to opportunity to ask more or move on. And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
-1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
-and invention. There are no extra points for growing headcount, budget size or
-fixed expense.".
-1. **Collaboration**: Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
-help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
-1. **Directness**<a name="directness"></a>: We try to channel our inner Ben Horowitz by being [both straightforward
-and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed, we [disagree and commit](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
-1. **Kindness**<a name="kindness"></a>: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
-Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/#Principle-100).
-We're all for accurate assessment but we think it must be done in a kind way.
-Give as much positive feedback as you can and do it in a public way. Give negative
-feedback in the smallest setting possible, one-on-one video calls are preferred.
-Clearly make negative feedback about the work itself, not the person. When giving
-feedback always provide at least one clear and recent example. If a person is
-going through a hard time in their personal life, then take that into account. An example of
-giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
-1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
-1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
-can always make it more complex later if that is needed. The speed of innovation
-for our organization and product is constrained by the total complexity we have added
-so far, so every little reduction in complexity helps.
-Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
-1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
-Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
-of our time talking about what we did in our private lives, from fire-throwing to
-knitting. Open source is a great way to interact with interesting
-people. We try to hire people who think work is a great way to express themselves.
 
 ## <i class="fa fa-globe fa-fw icon-color font-awesome" aria-hidden="true"></i> General Guidelines
 {: #general-guidelines}
@@ -121,7 +77,11 @@ people. We try to hire people who think work is a great way to express themselve
 1. Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (As inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules).)
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
-1. Most things are **public** unless there is a reason not to; not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
+1. Most things are **public** unless there is a reason not to. Not public by default are:
+   - financial and legal information
+   - individual job applications / compensation / feedback
+   - partnerships with other companies
+   - customer information in issues: if an issue needs to contain _any_ specific information about a customer, including but not limited to company name, employee names, number of users, the issue should be made confidential.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
@@ -283,8 +243,8 @@ step, **re-assign** the issue to that person.
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. If a merge request fixes a UX issue, it should be assigned to a UX Designer for review.
-    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
-    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
+    1. All other merge requests should be assigned for review to either a merge request reviewer or maintainer. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a reviewer, they will assign it to a maintainer who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies that the main body of work has been completed.
 1. If a discussion has been addressed, select the "Resolve discussion" button beneath it to mark it resolved.  If someone disagrees, they can click "Unresolve discussion" and explain what is still missing.
 1. When a merge request is done, set its milestone to the version it should be included in.
@@ -299,8 +259,16 @@ step, **re-assign** the issue to that person.
 
 ### Team Call
 
-1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time). Everyone at GitLab is invited to this call.
-1. We also have a team call for team members in the APAC region on Mondays from 6:30pm to 7:00pm Pacific Time (mostly 8:00am Tuesday in APAC), to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
+1. Schedule
+   * PST: <span id="main-PST"></span>
+   * UTC: <span id="main-UTC"></span>
+   * <span id="main-abbr"></span>: <span id="main-USER"></span>
+1. APAC schedule
+   * PST: <span id="apac-PST"></span>
+   * UTC: <span id="apac-UTC"></span>
+   * <span id="apac-abbr"></span>: <span id="apac-USER"></span>
+1. Everyone at GitLab is invited to the team call.
+1. We also have a team call for team members in the APAC region to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
 1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "GitLab Team Call", which is accessible to all users with a GitLab.com e-mail account.
@@ -341,6 +309,9 @@ tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&l
 on what should be prioritized for each release. The purpose of this kickoff is
 to get everyone on the same page and to invite comments.
 
+We will post the recordings of the kickoff and retrospective to YouTube and
+share the notes publicly.
+
 ### Random Chat and Room
 {: #random-room}
 
@@ -365,6 +336,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 1. For smaller meetings we use Google Hangouts or [Appear.in](https://appear.in/), for larger meetings we prefer [Zoom](https://gitlab.zoom.us/) (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. Google Calendar also has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a videocall to the invite
 1. For meetings that are scheduled with Zoom, make sure to take out the Google Hangout link to avoid confusion.
    1. If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Ops as described [below specifically for Zoom](#zoom).
    1. Note that if you select to record meetings to the cloud (setting within Zoom), they will be automatically placed in the GitLab Videos folder in Google Drive; on an hourly basis. You can find these videos in Google Drive by entering in the search bar: `title:"GitLab Videos" source:domain`.
@@ -501,7 +473,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
     *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
     *  Holiday Party Budget: 50 USD per person. We encourage team members to self organize holiday parties with those close by.
-    *  Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
+    *  {: #travel-to-visit-team-members} Travel to visit team members, including flights, trains, and transportation to/from the airport. Reimbursement requires prior approval from your manager. Lodging, meals, and local travel while visiting may not be covered out of fairness to the people being visited.
         * It may be acceptable to cover some meals, where there are either a large number of team members present or the purpose is work-related.
         * Your manager and the VP of your department will be able to provide guidance on specific cases.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
@@ -524,7 +496,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 {: #paid-time-off}
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
-1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
+1. {: #working-hours}Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
 1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. Encourage your co-workers to take time out when you become aware that they are working long hours over a sustained period.
 1. We have an "unlimited" time off policy. This means that:
@@ -713,11 +685,9 @@ To set up a Zoom meeting, sign up for a free [basic account](https://gitlab.zoom
 To record the meeting set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording). You can also configure Zoom to save to the cloud automatically. Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name; a folder will be created with the name of the recording on Google Drive.
 
-### Google Cloud
+### Google Cloud Platform
 
-All users with a gitlab.com e-mail account have access to an internal Google
-Cloud project called `gitlab-internal`. To access this, login to the [Google
-Cloud Console](https://console.cloud.google.com/home/dashboard?project=gitlab-internal-153318).
+Please see the secure note with the name 'Google Cloud Platform' in the shared vault in 1password for the credentials.
 
 Once in the console, you can spin up VM instances, Kubernetes clusters, etc. Please
 remove any resources that you are not using, since the company is [billed
@@ -809,6 +779,21 @@ Unicorn terminates because port 3000 is already in use, you will have to check
 what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
 will yield the offender so this process can be killed. It might be wise to alias
 this command in your `.bash_profile` or equivalent for your shell.
+
+### Shell aliases
+
+Use command aliases in your shell to speed up your workflow. Take a look at [these aliases](https://gitlab.com/sytses/dotfiles/blob/master/zsh/aliases.zsh) and others in [Sid's dotfiles project](https://gitlab.com/sytses/dotfiles/tree/master). For example, by adding the following to your `.bash_profile` or equivalent for your shell, you can just type <kbd>s</kbd> to checkout the `master` branch of this website, pull the latest changes, and open the repository in Sublime Text:
+
+```sh
+alias gco='git checkout'
+alias gl='git pull --prune'
+alias gca='git commit -a'
+alias gp='git push origin HEAD'
+alias www='cd ~/Dropbox/Repos/www-gitlab-com/source'
+alias s='www;subl .;gco master;gl'
+```
+
+After editing, you can just type <kbd>gca</kbd> to commit all of your changes, followed by <kbd>gp</kbd> to push them to the remote branch.
 
 ### MobileDay
 
@@ -956,8 +941,7 @@ linking your account to Git.
 
 ### 5. Clone the source of the website and install its dependencies
 
-1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
-   to clone the website.
+1. If you set up SSH keys previously, in terminal execute: `git clone git@gitlab.com:gitlab-com/www-gitlab-com.git` to clone the website. If you prefer using https, then execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`, but note that if you've activated 2FA on your GitLab.com account, you'll need to take some additional steps to set up [personal access tokens](https://gitlab.com/profile/personal_access_tokens). If you ever want to switch between SSH and https, execute `git remote remove origin`, followed by `git remote add origin [..]` where the `[..]` is the part that starts with `git@` for SSH, or with `https:` for https.
 1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
 1. Execute: `bundle install` to install all gem dependencies.
 

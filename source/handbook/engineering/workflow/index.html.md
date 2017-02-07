@@ -84,7 +84,7 @@ Most issues will have labels for at least one of the following:
 - Team (`CI`, `Discussion`, `Edge`, `Frontend`, `Platform`, etc.)
 - Subject (`wiki`, `container registry`, etc.)
 - Type (`feature proposal`, `bug`, `customer`, etc.)
-- Priority (`P1`, `P2`, `P3`)
+- Priority (`Deliverable`, `Stretch`)
 
 If you come across an issue that has none of these, you can _always_ add the team and type, and often also the subject.
 
@@ -98,7 +98,7 @@ All labels, their meaning and priority are defined on the
 Team labels specify what team is responsible for this issue.
 Assigning a team label makes sure issues get the attention of the appropriate people.
 
-The current team labels are `CI`, `Discussion`, `Documentation`, `Edge`, `Frontend`, `Packaging`, `Performance`, `Platform`, `Release`, and `UX`.
+The current team labels are `CI`, `Discussion`, `Documentation`, `Edge`, `Frontend`, `Packaging`, `Platform`, `Prometheus`, `Release`, and `UX`.
 The descriptions on the [labels page][labels-page] explain what falls under the responsibility of each team.
 
 Team labels are always colored aqua, and are capitalized so that they show up as the first label for any issue.
@@ -128,8 +128,8 @@ The descriptions on the [labels page][labels-page] explain what falls under each
 
 Priority labels help us clearly communicate expectations of the work for the release. There are two levels of priority labels:
 
-- `Deliverable`: Issues that are expected to be delivered in this milestone. 
-- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release. 
+- `Deliverable`: Issues that are expected to be delivered in this milestone.
+- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
 
 Work with your lead if you feel that there are too many `Deliverable` issues scheduled for the current release.
 
@@ -216,14 +216,14 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ### Scheduling issues into a milestone
 
-Towards the end of a milestone, engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
+Engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
 * Engineering leads are responsbile for resource planning and allocation.
 * Engineering leads are responsible for prioritizing bugs and tech debt.
 * Product managers are responsbile for prioritizing features, with feedback from all relevant stakeholders.
-* Based on the above, engineering leads and product managers collaborate and establish scope for the following milestone, by the **19th** of the month.
-* The in scope issues are labeled `Deliverable`.
+* Based on the above, engineering leads and product managers collaborate and establish scope by the **4th** of a month, for the release in the subsequent month,
+according to the [scheduling timeline](https://about.gitlab.com/handbook/product/#scheduling-timeline-throughout-a-milestone).
 * The entire process happens asynchronously, and is mediated through individual issues themselves.
-* The list of `Deliverable` in scope issues are documented in a dedicated milestone issue, with the **19th** being the scheduling deadline.
+
 
 ### Process improvement
 

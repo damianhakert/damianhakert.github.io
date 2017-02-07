@@ -76,9 +76,14 @@
   - description: Merge conflict resolution
     link: https://docs.gitlab.com/ce/user/project/merge_requests/resolve_conflicts.html
     in_ce: true
-  - description: Issue Board
+  - description: Issue board
     link: https://docs.gitlab.com/ce/user/project/issue_board.html
     in_ce: true
+  - description: Multiple issue boards
+    link: https://docs.gitlab.com/ee/user/project/issue_board.html
+    in_ce: false
+    in_ee: true
+    in_eep: true
   - description: Resolve discussion in merge requests
     link: https://docs.gitlab.com/ce/user/project/merge_requests/merge_request_discussion_resolution.html
     in_ce: true
@@ -109,9 +114,10 @@
   - description: Lock project membership to the members of a group
     link: https://docs.gitlab.com/ee/workflow/groups.html
     in_ee: true
-  - description: Approve Merge Requests
+  - description: Merge requests approvals
     link: https://docs.gitlab.com/ee/workflow/merge_request_approvals.html
     in_ee: true
+    in_eep: true
   - description: Mirror External Repositories
     link: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
     in_ee: true

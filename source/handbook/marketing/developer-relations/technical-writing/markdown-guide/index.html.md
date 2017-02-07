@@ -1937,7 +1937,7 @@ _Regular Code Editors_
 
 _Markdown editors (type and preview simultaneously)_
 
-- Markdown editor for Mac: [Mou]
+- Markdown editors for Mac: [Mou], [iA Writer]
 - In-browser markdown editor: [StackEdit]
 
 If you're not used to writing markdown, those editors can be helpful. Check a screenshot below of a
@@ -1997,6 +1997,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [font awesome]: http://fontawesome.io/icons/
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
 [handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[iA Writer]: https://ia.net/writer/
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
 [kramdown]: http://kramdown.gettalong.org/

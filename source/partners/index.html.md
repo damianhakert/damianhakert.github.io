@@ -12,9 +12,11 @@ GitLab is an open product with a Community Edition product that is fully open-so
 
 If you want to integrate with GitLab there are three possible paths you can take:
 
-	1. Utilizing webhooks - If you want to reflect information from GitLab or initiate an action based on a specific activity that occurred on GitLab you can utilize the existing infrastructure of our webhooks. To read about setting up webhooks on GitLab visit this [page](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
-	2. API integration - If you're seeking a richer integration with GitLab, the next best option is to utilize our ever expanding [API](https://docs.gitlab.com/ce/api/). The API contains pretty much anything you'll need, however if there's an API call that is missing we'd be happy to explore it and develop it.
-	3. Project Services - Project services give you the option to build your product into GitLab itself. This is the most advanced and complex method of integration but is by far the richest. It requires you to add your integration to GitLab's code base as a standard contribution. You can see the list of project services [available](http://docs.gitlab.com/ee/project_services/project_services.html), and look into this [example](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4930/diffs). If you're thinking of creating a project service, the steps to follow are similar to any [contribution](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) to the GitLab codebase.
+1. Utilizing webhooks - If you want to reflect information from GitLab or initiate an action based on a specific activity that occurred on GitLab you can utilize the existing infrastructure of our webhooks. To read about setting up webhooks on GitLab visit this [page](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
+
+2. API integration - If you're seeking a richer integration with GitLab, the next best option is to utilize our ever expanding [API](https://docs.gitlab.com/ce/api/). The API contains pretty much anything you'll need, however if there's an API call that is missing we'd be happy to explore it and develop it.
+
+3. Project Services - Project services give you the option to build your product into GitLab itself. This is the most advanced and complex method of integration but is by far the richest. It requires you to add your integration to GitLab's code base as a standard contribution. You can see the list of project services [available](http://docs.gitlab.com/ee/project_services/project_services.html), and look into this [example](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4930/diffs). If you're thinking of creating a project service, the steps to follow are similar to any [contribution](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) to the GitLab codebase.
 
 ### Getting Your App Listed
 

@@ -6,6 +6,7 @@ categories: tutorial
 image_title: '/images/unsplash/ios-development.jpg'
 twitter_image: '/images/tweets/setting-up-gitlab-ci-for-ios-projects.png'
 description: "Learn how to set up GitLab CI for your iOS projects."
+guest: true
 ---
 
 In this post I'll show you how to set up GitLab CI for your iOS projects, 

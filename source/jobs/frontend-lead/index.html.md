@@ -28,6 +28,7 @@ title: "Frontend Lead"
 * Self-motivated and strong organizational skills
 * Strong understanding of CSS
 * Expert knowledge of JavaScript
+* Passionate about testing and design principles
 * Basic knowledge of Vue.js is a plus but not a requirement
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
