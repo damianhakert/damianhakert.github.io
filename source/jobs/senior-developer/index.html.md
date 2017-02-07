@@ -10,7 +10,6 @@ Most backend developers work on all aspects of GitLab, building features, fixing
 Some developers [specialize](/jobs/specialist) and focus on a specific area, such as packaging, performance or GitLab CI.
 Developers can specialize immediately after joining, or after some time, when they have gained familiarity with many areas of GitLab and find one they would like to focus on.
 
-We are currently only hiring Senior Backend Developers
 
 ## Responsibilities
 
@@ -29,6 +28,7 @@ We are currently only hiring Senior Backend Developers
 * You are passionate about open source
 * You have worked on a production-level Ruby application, preferably using Rails. (This is a [strict requirement](#ruby-experience))
 * You know how to write your own Ruby gem using TDD techniques
+* You are a senior developer
 * Strong written communication skills
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
