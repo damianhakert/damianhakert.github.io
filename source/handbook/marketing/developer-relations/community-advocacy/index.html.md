@@ -78,6 +78,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 - User submitted feature request -> Open an issue and link it back to the user
 - User submitted bug report -> Reproduce, then open an issue link it back to the user
 - Non-English Tweets -> Submit the ticket as on-hold
+- Any kind of political questions / remark (even if they're just asking if we're politically neutral or not) -> Do not respond (They tend not to be productive.)
 
 ### Special Types
 
