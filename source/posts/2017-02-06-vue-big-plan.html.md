@@ -135,7 +135,7 @@ After we remove Turbolinks we can do something really cool. We can have each pag
 ## Conclusion
 There is the argument for making the whole site a single page application, but I think this would just be the hardest to maintain and has zero benefits for the performance and the user. Also, there's a higher chance of making GitLab a janky app. For example, the profile page could be potentially very light, and there would be no reason for that if someone is linked directly to the profile page; it should load every single piece of Javascript in our project.
 
-This is just one small step for GitLab and one giant leap for the frontend team. In the future you will many new cool things coming from our team. This move was one step in that direction.
+This is just one small step for GitLab and one giant leap for the frontend team. In the future you will see many new cool things coming from our team. This move was one step in that direction.
 
 Questions, suggestions, ideas? Please leave a comment
 below or tweet at us [@GitLab](https://twitter.com/gitlab)!
