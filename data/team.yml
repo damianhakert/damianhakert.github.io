@@ -2240,6 +2240,17 @@
   story:  |
           Joining February 6th
 
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 13th
+
 - name: "Sid (Interim)"
   placeholder: true
   locality:
