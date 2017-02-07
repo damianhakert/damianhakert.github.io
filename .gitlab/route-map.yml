@@ -7,7 +7,8 @@
   public: '\1' # index.html
 
 # Generators
-- source: /source\/(.*)\/template\..*/ # source/direction/template.html.md.erb => direction
+- source: /source\/(.*)\/template\..*/ # source/direction/template.html.md.erb
+  public: '\1/' # direction/
 
 # Other files
 - source: /source\/(.*)/ # source/images/blogimages/around-the-world-in-6-releases-cover.png
