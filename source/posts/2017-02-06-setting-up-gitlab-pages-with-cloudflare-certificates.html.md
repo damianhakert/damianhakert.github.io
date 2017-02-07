@@ -76,6 +76,9 @@ need one of them. For this example, I used the `CNAME` record pointing `gitlab-t
 
 ![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.png){:.shadow}
 
+For projects on GitLab.com, the DNS `A` record should point your custom
+domain to [GitLab Pages][pages-ip]' server IP address `104.208.235.32`.
+
 If you'd already set this up, just jump to the second step.
 
 ### STEP 2. Generate your Certificate
@@ -183,6 +186,7 @@ Comments, questions, suggestions? Please comment below or tweet [@GitLab]! 😀
 [Jekyll]: https://jekyllrb.com/
 [pages-ce]: /2016/12/24/were-bringing-gitlab-pages-to-community-edition/
 [pages-docs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
+[pages-ip]: /gitlab-com/settings/#gitlab-pages
 [pages-setup-domains]: /2016/04/07/gitlab-pages-setup/#custom-domains
 [pages-setup-post]: /2016/04/07/gitlab-pages-setup/
 [post-startssl]: /2016/06/24/secure-gitlab-pages-with-startssl/#https-a-quick-overview
