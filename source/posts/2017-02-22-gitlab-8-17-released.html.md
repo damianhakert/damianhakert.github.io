@@ -20,9 +20,13 @@ With 8.17, you can now squash and merge with a single click, by simply selecting
 ![Squash and merge in GitLab 8.17](/images/8_17/squash_edit_form.png){: .shadow}
 
 
-## Feature abc
+## Streamlining project settings and navigation
 
-Feature description
+We are continuing to streamline the project settings and navigation, which we [first started in 8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/).
+We've combined the existing `Runners`, `Variables`, `Triggers`, and `CI/CD Pipelines` menu items into one simply called `CI/CD Pipelines`.
+Navigating to `CI/CD Pipelines` will show you one page with all the settings that were previously spread across the 4 original pages.
+
+![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
 
 
 ## Feature def
