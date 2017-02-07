@@ -644,21 +644,6 @@
           and automating everything. Because doing the same thing thrice is just boring. In his free time he takes care
           of his family and enjoys riding in 2 wheels, with or without engine.
 
-- name: Ivan Nemytchenko
-  locality: Belgrade
-  country: Serbia
-  role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: Interim VP of Marketing
-  picture: ivan.jpg
-  twitter: inemation
-  gitlab: inem
-  story:  |
-          Rubyist since 2006, IT events addict since 2008, speaker since 2010, Lean Poker facilitator since 2015.
-          Co-founded two IT-agencies, co-organized two conferences, brewed 50 liters of mulled wine for an afterparty.
-          Has too many interests and produces more ideas than anybody could consume.
-          In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter,
-          and travels across nearby countries (after Russia, all European countries seem to be nearby ;)
-
 - name: Alfredo Sumaran
   locality: Lima
   country: Peru
@@ -719,17 +704,6 @@
   gitlab: mitchellwright
   story:  |
           Mitchell is a technical marketer that began his career consulting with B2C companies on their online presence. He has since shifted to helping B2B companies drive demand for their products through digital marketing. He enjoys playing volleyball, ultimate frisbee, and trying new restaurants with his wife.
-
-- name: Felipe Cabargas
-  locality: Santiago
-  country: Chile
-  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: Interim VP of Marketing
-  picture: felipe.jpg
-  twitter: juanpintoduran
-  gitlab: cabargas
-  story:  |
-          Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
 - name: Amanda Folson
   locality: Alameda, CA

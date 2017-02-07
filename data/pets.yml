@@ -42,18 +42,10 @@
   picture: pacho.jpg
   human: pablo
   story: Indoor catch ball enthusiast. Preferably XL sized balls.
-- name: Zayats!
-  picture: zayats.jpg
-  human: ivan
-  story: Surprisingly smart and constantly hungry. Takes care of your wires. Exclamation mark is necessary.
 - name: Lincoln and Mona
   picture: lincolnmona.jpg
   human: emily
   story: Silly, doodle duo who dream of being in the next muppet movie.
-- name: Guri
-  picture: guri.jpg
-  human: felipe
-  story: New charger? Let him handle that. Professional cushion thief.
 - name: Tiger
   picture: tiger.jpg
   human: michael
@@ -69,7 +61,7 @@
 - name: Cowboy Jake & Lucy Lulu
   picture: jakeandlucy.jpg
   human: brittany
-  story: Cowboy Jake loves to to cuddle, bark at stuff, but mostly swim. Lucy Lulu loves to lay on the couch, watch TV, and bug Cowboy Jake. 
+  story: Cowboy Jake loves to to cuddle, bark at stuff, but mostly swim. Lucy Lulu loves to lay on the couch, watch TV, and bug Cowboy Jake.
 - name: Roshi
   picture: roshi.jpg
   human: jared
