@@ -97,6 +97,10 @@ The recruiting team will **always** publicize the job through the following mean
 
 **Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next." Some brief feedback from the previous stage can also be included to help the candidate gauge their progress.
 
+**Inform applicants that they can stop the interview process at any point.** If the applicant wants to stop the interview, they should notify you with a short description on possible reasons.
+Inform the applicant that they might need to go through some steps again or from the beginning if the hiring situation
+has changed. Inform the candidate that we can also re-evaluate interrupted application for a different position or level if they can sufficiently prove that their skill set has changed.
+
 **The process can differ from team to team and from position to position.** If an applicant submits a resume to a particular position and is later moved into an open application, send a short update notifying them that their process may be slightly different or delayed.
 
 **Send Calendly link of the next person in the process.** If you have decided to move the applicant on in the process, save time by sending the next interviewer's Calendly link to the applicant. This saves the time it would otherwise take the next interviewer to send the link.
