@@ -629,6 +629,10 @@ A lot of tools we use are described in the rest of the handbook (GitLab, Google
 Docs, Google Hangouts, 1Password, etc.). This section is for tools that don't
 fit anywhere else.
 
+### Google Slides templates
+
+Use these [GitLab branded slide templates](https://drive.google.com/drive/folders/0B6i7Xg1yiB8teTdIT21pWHYwYms?usp=sharing) when creating slide decks for internal or external use.
+
 ### Calendly
 
 [Calendly](https://calendly.com/) connects to your Google calendar so people can book a time with you without having a Google Account.
