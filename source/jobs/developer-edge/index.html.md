@@ -34,7 +34,7 @@ issues from the community.
 
 * You can reason about software, algorithms, and performance from a high level.
 * You are passionate about open source.
-* You have strong programing skills - Ruby and Rails.
+* You have strong programming skills - Ruby and Rails.
 * You know how to write your own Ruby gem using TDD techniques.
 * You have worked on a production-level Ruby application, preferably using Rails.
   This is a [strict requirement](#ruby-experience).
