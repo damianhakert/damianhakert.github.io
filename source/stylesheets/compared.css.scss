@@ -51,13 +51,13 @@ p {
 
   .dropdown-menu-toggle {
     width: 100%;
-    border: 1px solid $color-gray-light;
+    border-color: $color-gray-light;
     text-align: center;
   }
 
   .dropdown-menu {
+    width: 100%;
     background-color: $color-white;
-    padding: 5px 30px;
 
     li {
       a {
@@ -66,15 +66,6 @@ p {
     }
   }
 }
-
-@media (max-width: 400px) {
-  .dropdown {
-    .dropdown-menu {
-      padding: 5px 0;
-    }
-  }
-}
-
 
 .titles-comparison-companies {
   color: $color-primary;
