@@ -47,13 +47,16 @@ p {
 }
 
 .dropdown {
-  max-width: 290px;
+  max-width: 350px;
 
   .dropdown-menu-toggle {
     width: 100%;
+    border-color: $color-gray-light;
+    text-align: center;
   }
 
   .dropdown-menu {
+    width: 100%;
     background-color: $color-white;
 
     li {
@@ -63,7 +66,6 @@ p {
     }
   }
 }
-
 
 .titles-comparison-companies {
   color: $color-primary;

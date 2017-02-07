@@ -12,6 +12,12 @@
         .container
           %h1.page-headline
             GitLab compared to other tools
+
+      .comparison-container.full-post
+        .container.comparison-table
+          .comparison-page-content.col-sm-12
+            = yield
+
       .container
         .open-core
           %h2.text-center
@@ -47,12 +53,6 @@
               %p
                 GitLab is built by hundreds of people every month. Customers, users and GitLab, Inc. all contribute to every release. this leads to features that organizations actually need, such as easy, yet powerful user management.
             .col-md-6
-
-
-      .comparison-container.full-post
-        .container.comparison-table
-          .comparison-page-content.col-sm-12
-            = yield
 
       .content-container.explore-gitlab-products.text-center
         .container
