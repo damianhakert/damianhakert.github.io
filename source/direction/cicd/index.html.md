@@ -3,15 +3,17 @@ layout: markdown_page
 title: "GitLab CI/CD Vision"
 ---
 
+## Notice
+
+*This page is deprecated and its content is being moved elsewhere. Much of it is in [direction](/direction/) page.*
+
 ## Preamble
 
 Many of the examples describe development of an n-tier web app, but could equally be applied to an iOS app, Ruby gem, static website, or other type of project.
 
 ## Scope
 
-[GitLab's vision](/direction/#scope) covers the entire flow from idea to production. Many of these pieces will be provided directly by GitLab, others will be provided by bundling third-party solutions. [We don't want to own or manage the production infrastructure](https://about.gitlab.com/direction/#outside-our-scope), but we do want to help developers coordinate getting their code into production; providing convenience and confidence to the developer in an integrated way.
-
-![](handbook/sales/lifecycle.png)
+[GitLab's vision](/direction/#scope) covers the entire flow from idea to production. We want to help developers coordinate getting their code into production; providing convenience and confidence to the developer in an integrated way.
 
 The CI/CD vision focuses on steps 6 through 9: Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
 
@@ -107,33 +109,7 @@ A key part of CD is being able to deploy. We currently have this ability via the
 
 ### Deliver
 
-Developer tools have an opportunity not only to provide great functionality, but to promote best practices. One such best practice is to put new features through ever-increasing exposure.
-
-[Feature flags](http://martinfowler.com/bliki/FeatureToggle.html) allow developers to decouple deployment from delivery. Code can be put into production while the feature is still turned off. Features can then be rolled out to internal users, beta users, a percentage of production users, and then to everyone in ever-increases spheres. Not only does this help facilitate healthy real-world testing, it helps stay true to the premise of continuous integration which is that everything is checked into `master` often and deployed. This reduces risk.
-
-Developers can do this today themselves without our help. But let's not just support this flow, but encourage it, and add value to it. I imagine the Features list to not just show me an on/off for each feature, but which stage that feature is in. e.g. off/alpha/beta/ga. And when moving a feature from one stage to another, I imagine something that *feels* like I’m moving it to the next stage. e.g. Showing a grid of groups that I can enable the feature for, with the groups sorted by stage (or size as a proxy).
-
-I’d like to visually see, at a glance, which features are in private beta, for example. If a product manager tries to turn a feature on for GA, they’ll be non-invasively reminded that they should consider going through private beta first. Heck, even the choice of rollout percentages could be handled this way. e.g. 1%, 5%, 25%, 100% show up as selectable items in columns, giving a reminder of the company policy on rollouts.
-
-If done right, it’ll encourage a good rollout process, and make it trivially easy for users to follow the flow, every time.
-
-My ideal rollout is something like:
-
-1. Dev team that created it ->  
-2. internal alpha (all employees minus those giving customer-facing demos) ->  
-3. select beta (~200 people that signed up for this specific feature) ->  
-4. private beta (~1000 people that signed up for general beta) ->  
-5. public beta ->  
-6. 10% rollout ->
-7. GA
-
-![](/images/direction/cicd/user-flags.png)
-
-1. Integrate Feature Flags in an extensible way (so people can implement it however they want, but use a consistent interface for administration)
-2. Create, view, and toggle feature flags in each environment
-3. Display diffs between environments
-4. Tie feature flags related to merge requests
-5. On merge request view, show events for toggles of related feature flags in each environment
+*Content moved to [gitlab-ee#779](https://gitlab.com/gitlab-org/gitlab-ee/issues/779).*
 
 ### Monitor
 

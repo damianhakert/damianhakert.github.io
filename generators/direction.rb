@@ -107,7 +107,7 @@ def generate_direction
       if ms["due_date"] && Date.parse(ms["due_date"]) >= Date.today
 
         issues = project.milestone_direction_issues(ms["title"])
-        direction_output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
+        direction_output << "#### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
 
         issues.each do |issue|
           direction_output << issue_bullet(project,issue)
@@ -118,7 +118,7 @@ def generate_direction
     end
     issues = project.coming_soon_issues
     if(issues)
-      direction_output << "### [Coming Soon](#{project.web_url}/issues?label_name[]=coming%20soon)\n\n"
+      direction_output << "#### [Coming Soon](#{project.web_url}/issues?label_name[]=coming%20soon)\n\n"
 
       issues.each do |issue|
         direction_output << issue_bullet(project,issue)
