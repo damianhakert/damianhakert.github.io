@@ -6,5 +6,8 @@
 - source: /source\/(.+?\.html).*/ # source/index.html.haml
   public: '\1' # index.html
 
+# Generators
+- source: /source\/(.*)\/template\..*/ # source/direction/template.html.md.erb => direction
+
 # Other files
 - source: /source\/(.*)/ # source/images/blogimages/around-the-world-in-6-releases-cover.png
