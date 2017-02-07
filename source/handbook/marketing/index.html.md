@@ -227,11 +227,7 @@ What is BD (to be included).
 [Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv .extra-space}
 [Handbook][Business Development]{:.btn .btn-purple .extra-space}
 <br>
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Dan][dan]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Kris][kris]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
 ### Field Marketing
