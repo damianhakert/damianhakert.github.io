@@ -731,18 +731,6 @@
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
-- name: Braden Coleman
-  locality: Provo, UT
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: BDR Manager
-  picture: Braden.jpg
-  twitter: jannandbraden
-  gitlab: bradenC
-  story:  |
-          Braden is passionate about software and marketing. He is currently studying at BYU and is an avid supporter of their athletics. When he’s not buried in marketing projects or the school’s library he can be found adventuring in the great outdoors with his wife and son.
-
-
 - name: Amanda Folson
   locality: Alameda, CA
   country: USA
@@ -939,20 +927,6 @@
           people write code. Despite dabbling with other editors, he's been unable to
           break his Emacs habit. He lives in Scotland, and spends his free time playing
           sports, overthinking films, and failing to maintain his garden.
-
-- name: Colton Taylor
-  locality: Pleasant Grove, UT
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/demand-generation-specialist/">Demand Generation Specialist</a>
-  reports_to: Interim VP of Marketing
-  picture: colton.jpg
-  twitter: ctaylor021
-  gitlab: cdtaylor
-  story:  |
-          Colton is passionate about demand generation, business development, and marketing automation.
-          With a particular interest in innovative technologies, he found a great match at GitLab.
-          When not at work, Colton enjoys basketball, football, golf, and action sports.
-          He and his wife love being outdoors with their dog, as well as traveling often.
 
 - name: Mark Fletcher
   locality: Burton upon Trent
