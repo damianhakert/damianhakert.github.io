@@ -54,8 +54,7 @@ title: "Community Advocacy"
 - Analyze the request
 - Open an issue for it
 - Thank the user for the contribution (See [our Social Media Guidelines](/handbook/marketing/social-media-guidelines/))
-- Link to the issue
-- Invite the community member to provide further feedback in the issue
+- Link back to the the community member to provide further feedback in the issue
 
 ### General Questions / Issues with .com
 
@@ -64,6 +63,16 @@ title: "Community Advocacy"
     - [GitLab CE Issues Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues/)
     - [GitLab Documentation](http://docs.gitlab.com/)
 - (Optional) Forward to support (See [#Others](#others)) - [support@gitlab.com](mailto:support@gitlab.com) (be very forbearing about this!)
+
+
+### Bug Reports
+
+- Reproduce the bug
+- Open an issue
+    - [GitLab CE Issues Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues/)
+    - Label the issue
+- Link back to the community member
+- (Optional) Link in the appropriate chat channel
 
 ### Mentions
 
@@ -75,8 +84,6 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 
 - EE Customer issues / GitHost customers -> Forward to support
 - 2FA reset queries -> Forward to support
-- User submitted feature request -> Open an issue and link it back to the user
-- User submitted bug report -> Reproduce, then open an issue link it back to the user
 - Non-English Tweets -> Submit the ticket as on-hold
 - Any kind of political questions / remark (even if they're just asking if we're politically neutral or not) -> Do not respond (They tend not to be productive.)
 
