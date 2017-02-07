@@ -11,7 +11,23 @@
     return (Object.keys(params).length > 0) ? params : null;
   };
 
+  var experienceKey = {
+    0: { min: 0.8, max: 1.2, text: 'Experience range' },
+    1: { min: 0.8, max: 0.9, text: 'Little experience' },
+    2: { min: 0.9, max: 1.0, text: 'Below average experience' },
+    3: { min: 1.0, max: 1.1, text: 'Above average experience' },
+    4: { min: 1.1, max: 1.2, text: 'A lot of experience' }
+  };
+
+  var levelKey = {
+    Junior: 0.8,
+    Intermediate: 1.0,
+    Senior: 1.2,
+    Lead: 1.4
+  };
+
   var paramsParser = function(params) {
+    if (!params) return null;
     var validParams = {};
 
     Object.keys(params).forEach(function(param) {
@@ -27,17 +43,16 @@
       } else if (param === "country") {
         var state = params[param];
         validParams[param] = state.split("-").join(" ");
-      } else if (param === "exp_min") {
-        validParams["experience"] = {};
-        validParams["experience"]["min"] = parseFloat(params[param]);
-      } else if (param === "exp_max") {
-        validParams["experience"]["max"] = parseFloat(params[param]);
-      } else {
-        validParams[param] = params[param];
+      } else if (param === "experience") {
+        validParams["experience"] = experienceKey[parseFloat(params[param])];
+      } else if (param === "level") {
+        validParams['level'] = levelKey[params[param]];
       }
     });
 
-    return validParams;
+    validParams['salary'] = parseFloat($('.salary-container').data('salary'));
+
+    return Object.keys(validParams).length > 4 ? validParams : null;
   };
 
   var salaryContainer = '.salary-container';
@@ -53,6 +68,7 @@
     var $selected = $(e.currentTarget);
 
     if ($selected.hasClass('filter-container')) {
+      debugger;
       return;
     }
 
@@ -97,11 +113,9 @@
       // otherwise use inbound parsed params
       this.params = params;
 
-      /**
-        console logging for current debugging
-        will remove at later date
-      */
-      console.log(this.params)
+      if (this.params) {
+        this.setElementValues();
+      }
     }
 
     SalaryCalculator.prototype.bindEvents = function() {
@@ -288,8 +302,10 @@
       return deferred.promise();
     }
 
-    SalaryCalculator.prototype.render = function() {
-      var input = this.getElementValues();
+    SalaryCalculator.prototype.render = function(params) {
+      // if params is an event then make params false so that values equals what it should
+      if (params && params.type) params = false;
+      var input = params || this.getElementValues();
 
       function renderData() {
         if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
@@ -297,8 +313,8 @@
         } else {
           this.renderInvalidCompensation();
         }
-        this.renderFormula();
-        this.renderContractType();
+        this.renderFormula(input);
+        this.renderContractType(input);
       }
 
       if (this.data) {
@@ -329,6 +345,9 @@
 
       var min = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.max);
+
+      console.log("INPUT", input, min, max);
+
       $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
 
@@ -350,8 +369,10 @@
       $container.removeClass('hidden');
     }
 
-    SalaryCalculator.prototype.renderFormula = function() {
-      var values = this.getElementValues();
+    SalaryCalculator.prototype.renderFormula = function(params) {
+      // if params is an event then make params false so that values equals what it should
+      if (params && params.type) params = false;
+      var values = params || this.getElementValues();
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var marketAdjustment = this.calculateMarketAdjustment(values.city, values.country);
       var contract = this.calculateContractFactor(values.country);
@@ -382,6 +403,27 @@
           max: $(salaryContainer + ' .experience .title').data('max') || ''
         }
       };
+    }
+
+    SalaryCalculator.prototype.setElementValues = function() {
+      var params = this.params;
+
+      $(salaryContainer + ' .country .title').text(params.country || '--');
+      $(salaryContainer + ' .country .title').data().selected = params.country;
+      $(salaryContainer + ' .city .title').text(params.city || '--');
+      $(salaryContainer + ' .city .title').data().selected = params.city;
+      $(salaryContainer + ' .city .dropdown-menu-toggle').removeClass('disabled');
+
+      var dataSelected = (params.experience.min === 1.0 ? "1.0" : params.experience.min) + " to " + params.experience.max;
+      $(salaryContainer + ' .experience .title').text(params.experience.text);
+      $(salaryContainer + ' .experience .subtitle').text(dataSelected);
+      $(salaryContainer + ' .experience .title').data('min', params.experience.min);
+      $(salaryContainer + ' .experience .title').data('max', params.experience.max);
+      $(salaryContainer + ' .experience .title').data('selected', dataSelected);
+
+      $(salaryContainer).data('salary', params.salary)
+
+      $(salaryContainer + ' .level .title').data('selected', params.level);
     }
 
     SalaryCalculator.prototype.calculateRentIndex = function(city, country) {
@@ -436,10 +478,12 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, marketAdjustment, levelIndex, contractType, experienceFactor) {
+      console.log(Array.from(arguments));
       return Math.round(benchmark * (rentIndex + marketAdjustment + 0.25) * levelIndex * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
+      console.log(amount);
       return '$' + amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
@@ -450,8 +494,10 @@
   var parsedParams = paramsParser(urlParams);
 
   if (parsedParams) {
-    new SalaryCalculator(parsedParams);
+    var sc = new SalaryCalculator(parsedParams);
+    sc.render(parsedParams);
   } else {
+    console.log("WOWOWOW");
     new SalaryCalculator(null);
   }
 })();
