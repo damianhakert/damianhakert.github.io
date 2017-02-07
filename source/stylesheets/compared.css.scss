@@ -47,19 +47,30 @@ p {
 }
 
 .dropdown {
-  max-width: 290px;
+  max-width: 350px;
 
   .dropdown-menu-toggle {
     width: 100%;
+    border: 1px solid #bdbdbd;
+    text-align: center;
   }
 
   .dropdown-menu {
     background-color: $color-white;
+    padding: 5px 30px;
 
     li {
       a {
         color: $color-gray;
       }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .dropdown {
+    .dropdown-menu {
+      padding: 5px 0;
     }
   }
 }
