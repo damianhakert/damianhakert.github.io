@@ -46,7 +46,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Security](/handbook/security)
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
-  * [Life streaming](/handbook/product/live-streaming)
+  * [Live streaming](/handbook/product/live-streaming)
   * [Making Gifs](/handbook/product/making-gifs)
   * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
@@ -794,7 +794,7 @@ Potential problem 2: the video showed up as listed by default
 
 Go to [My live events on YouTube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our YouTube channel).
 
-Go to => life streaming => events and create a new one with the attributes:
+Go to => live streaming => events and create a new one with the attributes:
 
 - type => quick (using Google Hangouts on Air)
 - advanced: promotions: disable both checkboxes
