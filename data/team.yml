@@ -1837,21 +1837,6 @@
           and lurking on IRC. On her spare time, she enjoys photography, traveling,
           and gardening.
 
-- name: Stephane Cornille
-  locality: Buenos Aires
-  country: Argentina
-  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager-partner/">Product Marketing Manager - Partner and Channel Specialist</a>
-  reports_to: Director of Product Marketing
-  picture: stephanecornille.jpg
-  twitter:
-  gitlab: scornille
-  story:  |
-          Futurist and astronaut-in-waiting, Stephane hails from the Land of the
-          Long White Cloud, aka New Zealand. Stephane is open-minded challenger
-          with expertise leading global marketing launches, and managing product
-          life cycles. When he is not working, he is exploring abandoned places,
-          gardening or learning about space.
-
 - name: Jeanine Adkisson
   locality: Oakland, CA
   country: USA
@@ -1978,17 +1963,6 @@
   gitlab: balasankarc
   story:  |
           Balu is from Kerala, southern most part of India and is passionate about anything related to Freedom and Privacy. He has been contributing to different Free Software and language computing communities for quite some time, especially in Packaging (he is currently a Debian Maintainer), Software Development, Localization, and Evangelism. Other than a computer geek, he is mainly a procaffinator and a bibliophile. He enjoys reading (and sometimes even writing) poetry too.
-
-- name: Krys Lambiase
-  locality: San Antonio, TX
-  country: United States
-  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Product Marketing Manager - Enterprise Specialist</a>
-  reports_to: Director of Product Marketing
-  picture: krys-lambiase.jpg
-  twitter: lambo_tech
-  gitlab: krysl
-  story:  |
-          Krys is from San Antonio, TX.  He has worked in the IT industry for over 8 years and has a passion for creative writing and product marketing.  Krys enjoys enabling people to learn new things and helping them along their career path.  In his free time he enjoys running and playing video games.
 
 - name: Matija Čupić
   locality: Belgrade
