@@ -246,6 +246,11 @@ Enterprise Edition (EE), although this can easily be changed later.
 3. You should clearly state what the current pain point is, what we are trying
 to solve, what the benefits will be, what it should do, how to accomplish that
 and the next steps.
+4. The issue's body should be written in a clear way, without ambiguity.
+4. If the body of the issue contains too many paragraphs, it can surely be
+rewritten to be shorter.
+4. Do not use acronyms or abbreviations. Everyone should be able to jump on the
+issue and participate without needing a glossary.
 4. Choose which labels are relevant to the issue. If you are unsure about what
 certain labels are for, head up to the Labels page ([CE](https://gitlab.com/gitlab-org/gitlab-ce/labels)
 or [EE](https://gitlab.com/gitlab-org/gitlab-ee/labels)) and read the
@@ -315,7 +320,7 @@ our attention the most.
 
 #### Scheduling timeline throughout a milestone
 
-Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production. 
+Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production.
 Follow this timeline for the release that will be shipped in Month `M`.
 
 * Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
@@ -323,8 +328,31 @@ Follow this timeline for the release that will be shipped in Month `M`.
 * Month `M`, 15th: Release post first draft complete (WIP merge request)
 * Month `M`, 22nd: Release shipped to production \| Release post published
 
-With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd, 
+With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd,
 the scope for the following release has already been established earlier in that same month.
+
+#### Content of a MVP
+
+We only ship in a Minimally Viable Product mode. Here are some guidelines about
+it:
+
+* Are you sure this issue is the smallest iteration we can do about the problem
+this issue will solve?
+* The issue that describes the change should be as concise a possible, while
+providing enough information to understand
+    * the context,
+    * what we want to achieve,
+    * who is it for,
+    * what are the use cases.
+* The MVP should be achievable in one iteration.
+* If relevant, check if we can measure the usage of the feature by modifying the
+usage ping.
+* If the issue generates a lot of discussion, make sure that the body of the
+issue always reflects the latest decisions at any given moment.
+* It's ok to change the body of the issue without keeping an history or the
+previous content, as long as it reflects the latest decisions.
+* Documentation should always part of the MVP. It's not shipped until it's
+documented, no matter what the change is.
 
 ### Where should you look when you need help?
 
