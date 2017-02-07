@@ -37,7 +37,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-1. [ ] People Ops (Recruiter): Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @brittany, @nvatalidis, and @sasha.
+1. [ ] People Ops (Recruiter): Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://gitlab.com/gitlab-com/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @brittany, @nvatalidis, and @sasha.
 1. [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group, try to pair engineering and non-engineering if possible)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 1. [ ] People Ops (Recruiter): Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. Check with the new team member if they will need help setting up their SSH key and installing a Shell ready for using Git locally. You may need to setup an additional meeting for this step. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
@@ -92,10 +92,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > that you join, please make sure that you connect at least 10 minutes
     > before the call and make sure that your camera and microphone are working
     > properly. We'd like you to introduce yourself to the team (±1 minute), so please
-    > prepare some talking points for yourself. Some tips to help you out here:
+    > prepare some talking points for yourself. Please make sure to
     > tell us about where you were before GitLab, why you wanted to join our
-    > team, just a little something about your background and of course
-    > something on what you like to do in your spare time.
+    > team, and what you like to do in your spare time.
 
     > Please let People Ops (cced here) know if there are any necessary supplies
     > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter.
@@ -234,6 +233,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
 1. [ ] New team member: (for Designers) Get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+1. [ ] New team member: (for Frontend Developers) If you do not have access to Windows on your computer, please download a [Windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). We recommend using [VMWare Fusion](http://www.vmware.com/products/fusion.html) or [Parallels Desktop](http://www.parallels.com/products/desktop/) for Window virtualization. You may expense the purchase to GitLab or ask PeopleOps to get you a copy.
 1. [ ] New team member: Join the `#interaction` channel on Slack.
 1. [ ] People Ops (Recruiter): (for Designers) provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops (Recruiter): (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.

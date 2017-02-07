@@ -194,7 +194,7 @@ The most common Issues are created in the following projects:
 * Add issues in the correct Issue Tracker:
   1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
   1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-  1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
+  1. Issues related to the organization: Use [GitLab Organization](https://gitlab.com/gitlab-com/organization) consider making them confidential
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 #### Learn how to use Git Locally
