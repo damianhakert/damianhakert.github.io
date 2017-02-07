@@ -346,7 +346,6 @@
       var min = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.max);
 
-      console.log("INPUT", input, min, max);
 
       $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
     }
@@ -478,12 +477,10 @@
     }
 
     SalaryCalculator.prototype.calculateCompensation = function(benchmark, rentIndex, marketAdjustment, levelIndex, contractType, experienceFactor) {
-      console.log(Array.from(arguments));
       return Math.round(benchmark * (rentIndex + marketAdjustment + 0.25) * levelIndex * contractType * experienceFactor);
     };
 
     SalaryCalculator.prototype.formatAmount = function(amount) {
-      console.log(amount);
       return '$' + amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
@@ -497,7 +494,6 @@
     var sc = new SalaryCalculator(parsedParams);
     sc.render(parsedParams);
   } else {
-    console.log("WOWOWOW");
     new SalaryCalculator(null);
   }
 })();
