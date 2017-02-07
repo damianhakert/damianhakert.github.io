@@ -1794,7 +1794,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 #### Google Slides
 
-Let's exemplify with this [GitLab deck template](https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing). Follow the steps [above](#embed-documents) to find the iframe:
+Let's exemplify with this [GitLab deck template]. Follow the steps [above](#embed-documents) to find the iframe:
 
 ![Google Slides - Embed iframe](/images/markdown-guide/embed-google-slides.png)
 
@@ -1995,6 +1995,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
+[GitLab deck template]: https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
 [handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
 [iA Writer]: https://ia.net/writer/
@@ -2011,7 +2012,6 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
 [SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
-[simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
