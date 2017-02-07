@@ -58,7 +58,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
    1. [ ] People Ops (Recruiter): Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR.
    1. [ ] People Ops (Specialist): Find the profile on BambooHR and enable "self-service".
-   1. [ ] People Ops (Specialist): In BambooHR, input [relevant data](https://about.gitlab.com/handbook/people-operations/sop/#adding-a-new-team-member-to-bamboohr) into the team members profile. Be sure to add the personal and work email address before saving the newly entered information.
+   1. [ ] People Ops (Specialist): In BambooHR, input [relevant data](https://about.gitlab.com/handbook/people-operations/sop/#adding-a-new-team-member-to-bamboohr) into the GitLabbers profile. Be sure to add the personal and work email address before saving the newly entered information.
    1. [ ] People Ops (Specialist): file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. For GitLab Inc. contractor agreements, also file the W9. If the contract has any exceptions to the IP agreement, check the applicable box under the Jobs tab.
    1. [ ] People Ops (Specialist): file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
    1. [ ] People Ops (Specialist): list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
@@ -68,9 +68,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): Give team member access to the GitLab availability calendar
    1. [ ] People Ops (Specialist): Add team member's birthday and work anniversary to the GitLab Birthdays calendar. Also, share this calendar with the new team member.
    1. [ ] People Ops (Recruiter): Add new team member to the next monthly [GitLab 101 call](https://about.gitlab.com/culture/gitlab-101/)
-   1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
+   1. [ ] People Ops (Recruiter): Invite to team meeting, and re-arrange the days on which GitLabbers speak in the Team Call Agenda.
    1. [ ] People Ops (Recruiter): If applicable, invite the new team member to the APAC team call.
-   1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
+   1. [ ] People Ops (Recruiter): Add entry to Team Call agenda to introduce the new team member, and make sure to include the new GitLabbers NAME as well as TITLE in the agenda item.
    1. [ ] People Ops (Recruiter): If in a technical role, add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
    1. [ ] Hiring Manager: Add team member to weekly team meetings.
    1. [ ] Hiring Manager: Schedule weekly 1:1 meetings with new team member.
@@ -118,7 +118,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] People Ops (Specialist): complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
-1. [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form. (TriNet takes 24-48 hours to process new team members)
+1. [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form. (TriNet takes 24-48 hours to process new GitLabbers)
 1. [ ] People Ops (Specialist): complete the employer portion of the I9 in TriNet within three days of hire
 1. [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 
@@ -133,7 +133,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1.[ ] New Team Member: once you have received the payroll form please fill in the missing details and sign. This form will then be sent electronically to GitLab's payroll provider Vistra. If you have a P45 from your previous company please post this to Vistra at the address at the bottom of the payroll form. If you don't have a P45 then you must complete the New Starter Checklist and post this to Vistra.
 1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents
 
-#### All team members
+#### All GitLabbers
 
 1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.
 1. [ ] New team member: Enable 2FA on your GitLab email account (this should have been an option to do when you first received the invitation to the account).
@@ -149,7 +149,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
-1. [ ] People Ops (Specialist): Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
+1. [ ] People Ops (Specialist): Invite GitLabbers' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
@@ -172,7 +172,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
-1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of team members and our brains are comfortable with recognizing people, let's use them).
+1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of GitLabbers and our brains are comfortable with recognizing people, let's use them).
 1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/onboarding-101/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the "New Hire Tweets" Google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
@@ -183,16 +183,16 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 1. [ ] New team member: Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your Google Calendar (tied to your GitLab Google account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [ ] New team member: Take a look at the "Reference Customers" Google doc to familiarize yourself with which customer information should be kept confidential within the company. You can find it by logging into your Google Drive account and searching for "Reference Customers".
-1. [ ] Hiring Manager: Set new team members' project-level permissions as-needed.
+1. [ ] Hiring Manager: Set new GitLabbers' project-level permissions as-needed.
 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
 1. [ ] Hiring Manager: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
-1. [ ] Hiring Manager: Add team members' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+1. [ ] Hiring Manager: Add GitLabbers' GitHub.com account to the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Hiring Manager: Add team member to the backend group call (if applicable)
-1. [ ] For Production team members: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
-1. [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
+1. [ ] For Production GitLabbers: Hiring manager: add the [infrastructure onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
+1. [ ] For Developer GitLabbers: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Provide access to PagerDuty if applicable.
 1. [ ] Hiring Manager (For Build Engineers): Add new team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
 
