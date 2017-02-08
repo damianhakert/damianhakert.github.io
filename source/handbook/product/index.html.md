@@ -95,6 +95,11 @@ actual users. This is a much more informative mechanism than the intuition
 of a product person (though note that this doesn't mean we should just build
 whatever feedback tells us).
 
+Despite its minimal form, the change
+* always requires documentation,
+* has to have its usage tracked from day 1, if the feature has a meaningful
+impact.
+
 ![](/handbook/product/p1.png)
 
 #### Convention over Configuration
