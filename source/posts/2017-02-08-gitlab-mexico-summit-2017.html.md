@@ -169,6 +169,11 @@ It made us so excited for 2017, knowing how much enthusiasm we are going
 to bring and the potential we have to continue to build an excellent company
 and product.
 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/XDfTj8iv9qw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 How about joining us at the next GitLab Summit? Check out our [job openings]
 and apply right now!
 
