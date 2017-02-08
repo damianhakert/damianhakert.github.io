@@ -7,6 +7,11 @@ title: "UX Team"
 
 The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our principles, approach, and perspective to the experience of GitLab. Help keep this document up to date and correct by making [merge requests](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/).
 
+## UX Personas
+
+View the [personas](/handbook/ux/personas) that help us define and understand our customers.
+
+
 ## UX Strategy
 
 Please see the [2017 UX Strategy](/handbook/ux/strategy) to view the evolving UX vision for GitLab.
