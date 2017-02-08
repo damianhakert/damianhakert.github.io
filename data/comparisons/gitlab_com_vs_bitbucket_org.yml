@@ -5,7 +5,7 @@ competitor_one:
 competitor_two:
   name: 'Bitbucket.org'
   logo: '/images/comparison/bitbucket-logo.svg'
-last_updated: 'January 31, 2017'
+last_updated: 'February 08, 2017'
 features:
   - title: "Unlimited collaborators"
     description: "With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories."
@@ -18,7 +18,7 @@ features:
     link_description: ""
     link:
     competitor_one: true
-    competitor_two: false
+    competitor_two: sortof
   - title: "Fast page load"
     description: "Bitbucket.org has faster pageloads than GitLab.com right now, we're actively working on improving this. Self-hosted instances of GitLab CE/EE will be performant up to thousands of users."
     link_description: "Read more"
@@ -43,18 +43,36 @@ features:
     link: https://docs.gitlab.com/ce/user/project/wip_merge_requests.html
     competitor_one: true
     competitor_two: false
+  - title: "Commit graph and reporting tools"
+    description: "GitLab provides commit graphs and reporting tools about collaborators' work. Bitbucket does not have that."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Email notifications and todos"
+    description: "GitLab provides advanced notification mechanisms to let developers know what happens in the project."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Ability to block certain filetypes to be pushed"
+    description: "GitLab allows you to define rules to prevent certain filetypes to be pushed. Bitbucket requires a paid plugin to achieve this functionality."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
   - title: "The best place for large open source projects"
-    description: "GitLab is meant to be the best place for any software project. The team behind GitLab is addressing issues that maintainers and contributors to large open source projects are facing, to make it easier to do both. Bitbucket is not made for that."
+    description: "GitLab is meant to be the best place for any software project. The team behind GitLab is addressing issues that maintainers and contributors to large open source projects are facing, to make it easier to do both. Bitbucket hasn't made significant steps to reach this stage."
     link_description: "Making GitLab better for large open source projects"
     link: https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/
     competitor_one: sortof
-    competitor_two: true
+    competitor_two: false
   - title: "Powerful Issue Tracker"
     description: "Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects. Bitbucket does not have issues."
     link_description:
     link:
     competitor_one: true
-    competitor_two: true
+    competitor_two: false
   - title: "Due date"
     description: "In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline. Bitbucket does not have issues."
     link_description: "Due dates documentation"
@@ -68,23 +86,17 @@ features:
     competitor_one: true
     competitor_two: false
   - title: "Group-level milestones"
-    description: "View all the issues for the milestone you’re currently working on across multiple projects."
+    description: "View all the issues for the milestone you’re currently working on across multiple projects. Bitbucket does not have milestones."
     link_description: "Example milestone for GitLab 8.2 (need to be logged in)"
     link: https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2
     competitor_one: true
     competitor_two: false
   - title: "Create new branches from Issues"
-    description: "In GitLab, you can quickly create a new branch from an issue on the issue tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue."
+    description: "In GitLab, you can quickly create a new branch from an issue on the issue tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue. Bitbucket does not have issues."
     link_description: "See how in our documentation"
     link: https://docs.gitlab.com/ce/user/project/repository/web_editor.html#create-a-new-branch-from-an-issue
     competitor_one: true
     competitor_two: false
-  - title: "Assign multiple people to an issue / MR"
-    description: "GitHub allows you to assign multiple people to an issue or pull request. GitLab doesn't allow you to do this, but allows for approvals in merge requests, which offsets this there. For issues, GitLab does not have an equivalent feature, but a feature request has been submitted for this."
-    link_description: "GitLab issue to implement multiple assignees"
-    link: https://gitlab.com/gitlab-org/gitlab-ce/issues/13386
-    competitor_one: false
-    competitor_two: true
   - title: "Cycle Analytics"
     description: "GitLab provides a dashboard that lets teams measure the time it takes to go from an idea to production. GitLab can provide this data because it has all the tools built-in: from the idea, to the CI, to code review, to deploy to production. Bitbucket can't provide this data."
     link_description: "Feature Highlight: Cycle Analytics"
@@ -98,7 +110,7 @@ features:
     competitor_one: true
     competitor_two: false
   - title: "Issue board"
-    description: "Bitbucket has bought Trello, but is not integrated with it. GitLab has built-in Issue boards, integrated with the rest of the tools."
+    description: "Bitbucket has acquired Trello, but is not integrated with it. GitLab has built-in Issue boards, integrated with the rest of the tools."
     link_description: "Feature highlight: Issue Boards"
     link: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
     competitor_one: true
