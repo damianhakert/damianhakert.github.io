@@ -94,6 +94,6 @@ it to the customer.
 
 
 ### Final Stage
-- [ ] Ask Ernst to look over this list.
+- [ ] Ask Lee and Drew to look over this list.
 - [ ] Send a MR to declare yourself a **GitHost Expert** on the team page
 ```

@@ -76,7 +76,7 @@ Within 2 weeks of signing:
 - [ ] Partner sent Partner Swag Box so they have SWAG for their prospects @EmilyKyle
 
 ### Training
-- [ ] Partner technical team training coordinated (or scheduled) by @ernstvn
+- [ ] Partner technical team training coordinated (or scheduled) by @lbot
 
 ### Partner Landing Page
 - [ ] partner.com/GitLab landing page set up per guidelines in the [Resellers Handbook](/handbook/resellers/#landing-page) `partner`

@@ -51,7 +51,7 @@ etc. Paste the links here.
 
 1. [ ] Look for 10 old API tickets and read through them to understand what the
 issue was and how it was addressed. Paste the links here.
-   
+
    1. [ ] __
    1. [ ] __
    1. [ ] __
@@ -108,6 +108,6 @@ APIs of your choice. Put it on your GitLab.com account and link it here.
 
 ### Final Stage
 
-- [ ] Ask Ernst and Gabriel to look over this list, send a MR to delete this line after they both satisfied with the list
+- [ ] Ask Lee to look over this list, send a MR to delete this line after they both satisfied with the list
 - [ ] Send a MR to declare yourself a **GitLab API Expert** on the team page
 ```
