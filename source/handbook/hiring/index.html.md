@@ -71,7 +71,7 @@ The hiring manager should always ask the team for passive referrals for open pos
 The recruiting team will **always** publicize the job through the following means:
 
 1. Announce it on team call and on the #general chat channel.
-1. Tweet the new job posting.
+1. Tweet the new job post with the help of the content marketing manager and team.
 1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
 1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
