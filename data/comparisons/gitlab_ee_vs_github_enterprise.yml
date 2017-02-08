@@ -73,6 +73,12 @@ features:
     link:
     competitor_one: true
     competitor_two: sortof
+  - title: "Chat integration"
+    description: "GitLab ships with Mattermost, an open-source Slack alternative. GitHub requires the installation or the purchase of an external tool."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
   - title: "Issue Weights"
     description: "GitLab lest you manage issues using Agile practices by setting the weight of an issue."
     link_description: "Issue Weights Documentation"

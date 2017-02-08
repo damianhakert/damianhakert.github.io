@@ -5,7 +5,7 @@ competitor_one:
 competitor_two:
   name: 'Bitbucket Server'
   logo: '/images/comparison/bitbucket-logo.svg'
-last_updated: 'January 31, 2017'
+last_updated: 'February 08, 2017'
 features:
   - title: "Built-in Continuous Integration tool"
     description: "Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation."
@@ -61,7 +61,7 @@ features:
     link:
     competitor_one: true
     competitor_two: false
-  - title: "No need to manage licenses"
+  - title: "No need to manage multiple licenses"
     description: "GitLab EE needs a license, but doesn't require any validation or separate licenses for separate servers. With Bitbucket Server (Data Center), licenses are linked to servers, requiring management of licenses over servers. You can deploy 100 instances of GitLab EE for the same price as a single instance. You only pay for the total amount of users, not for how you choose to manage and scale the software."
     link_description: ""
     link:
@@ -133,22 +133,46 @@ features:
     link: http://docs.gitlab.com/ee/gitlab-geo/
     competitor_one: true
     competitor_two: false
-  - title: "Lock Files"
-    description: "Working with multiple people on the same file can be a risk. Conflicts when merging a non-text file are hard to overcome and will require a lot of manual work to resolve. With GitLab, File Locking helps you avoid merge conflicts and better manage your binary files by preventing everyone, except you, from modifying a specific file or entire directory."
-    link_description: "Read the File Locking documentation"
-    link: http://docs.gitlab.com/ee/user/project/file_lock.html
-    competitor_one: true
-    competitor_two: false
   - title: "Monitoring built-in"
     description: "GitLab ships with an open source monitoring solution, Prometheus, which offers world-class monitoring of the GitLab server's resources."
     link_description: "Documentation about Monitoring"
     link: http://docs.gitlab.com/runner/monitoring/
     competitor_one: true
     competitor_two: false
+  - title: "Chat integration"
+    description: "GitLab ships with Mattermost, an open-source Slack alternative. Bitbucket sort of integrates with 3rd party chat software, but it's not bundled with anything."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Commit graph and reporting tools"
+    description: "GitLab provides commit graphs and reporting tools about collaborators' work. Bitbucket requires a paid plugin to provide this functionality."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
   - title: "Access to and possibility to modify your source code"
     description: "GitLab Enterprise Edition is publically readable, meaning you can scan or modify the code to meet your security and development needs. Code in Bitbucket is proprietary, meaning you cannot edit or view the source code."
     link_description: "Read the GitLab Enterprise Edition license."
     link: https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE
+    competitor_one: true
+    competitor_two: false
+  - title: "Ability to block certain filetypes to be pushed"
+    description: "GitLab allows you to define rules to prevent certain filetypes to be pushed. Bitbucket requires a paid plugin to achieve this functionality."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Message banner on all pages"
+    description: "GitLab allows administrators to write message banners that appear on all pages. Bitbucket doesn't allow this."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Email notifications and todos"
+    description: "GitLab provides advanced notification mechanisms to let developers know what happens in the project. Bitbucket requires a plugin to achieve this."
+    link_description:
+    link:
     competitor_one: true
     competitor_two: false
   - title: "Reduce costs with simple licence management"
