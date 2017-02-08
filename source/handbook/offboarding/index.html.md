@@ -162,7 +162,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
 1. [x] _not relevant_ New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
-1. [x] _not relevant_ New team member: Join the `#interaction` channel on Slack.
+1. [x] _not relevant_ New team member: Join the [#ux](https://gitlab.slack.com/messages/ux/) channel on Slack.
 1. [ ] People Ops: cancel [SketchApp](http://www.sketchapp.com/) license (?).
 1. [ ] People Ops: (for Designers only, not UX Designers) remove access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault.
 1. [ ] Hiring Manager: (for UX Designers) Remove former team member's `Master` access to the [gitlab-design](https://gitlab.com/gitlab-org/gitlab-design) project on GitLab.com.
