@@ -108,13 +108,60 @@ very much welcome contributions that implement any of these things.
 
 <%= wishlist["chat commands"] %>
 
-### CI
+### CI / CD
+
+We want to help developers get their code into production; providing convenience and confidence to the developer in an integrated way. CI/CD focuses on steps 6 through 9 of our [scope](#scope): Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
+
+![GitLab CI/CD Scope](/images/direction/cicd/revised-gitlab-ci-scope.svg)
+
+Many of the issues describe development of an n-tier web app, but could equally be applied to an iOS app, Ruby gem, static website, or other type of project.
+
+See a slightly more complete rendering of an [example pipeline](complex-pipeline.svg).
+{: .note}
+
+<!--{: #sample .alert .alert-info}-->
+
+#### Pipelines
+
+<%= wishlist["pipeline"] %>
+
+#### Build
+
+GitLab CI provides an explicit `build` stage and the concept of build artifacts, but we might need to separate out the build artifacts from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
+
+* Build as first-class citizen, separate entity from artifacts
+* Build history
+* Identify docker image as build for specific pipeline
+* Releases as first-class entry?
+  * Release = build + config, so this implies we'd manage config
+<%= wishlist["ci-build"] %>
+
+#### Test
+
+* Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time
+<%= wishlist["test"] %>
+
+#### Deploy
+
+A key part of CD is being able to deploy. We currently have this ability via scripts in the `deploy` stage in `.gitlab-ci.yml`. We will go further.
+
+* Other services (e.g. TestFlight, Apple)
+<%= wishlist["deploy"] %>
+
+#### Deliver
+
+What's the difference between Deploy and Deliver? There's a big benefit to decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags take it to another level, giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
+
+<%= wishlist["deliver"] %>
+
+#### Monitor
+
+See [Prometheus Monitoring](#prometheus-monitoring).
+{: .note}
+
+#### Misc
 
 <%= wishlist["CI"] %>
-
-### CD
-
-<%= wishlist["deploy"] %>
 
 ### Code Review
 
@@ -189,16 +236,16 @@ Moonshots are big hairy audacious goals that may take a long time to deliver.
 
 ## Premium Features
 
-Premium features will only be available to EE Premium subscribers. These issues appear
+Premium features will only be available to EE Premium subscribers. These issues appear in [direction](#direction) above, but are collected hear for convenience.
 
 <%= wishlist["EE Premium"] %>
 
-## Scope <a name="scope"></a>
+## Scope
 
 [Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we ship the following features in our Omnibus package:
 
-![](handbook/sales/lifecycle.png)
+![Lifecycle](handbook/sales/lifecycle.png)
 
 1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/)
 1. **Issue** (Tracker) => Issue Tracker
@@ -394,7 +441,7 @@ focused.
 
 ### Enterprise Editions
 
-![](ee-versions.png)
+![EE Versions](ee-versions.png)
 
 GitLab comes in 4 editions:
 

@@ -157,10 +157,10 @@ def generate_wishlist
   print "Generating wishlist..."
   wishlist_output = {}
 
-  ["chat commands", "code review","container registry","deploy","EE Premium","issues","pages","major wins","moonshots","performance","Prometheus","usability","vcs for everything"].each do |label|
+  ["chat commands", "ci-build", "code review", "container registry", "deploy", "deliver", "EE Premium", "issues", "pages", "pipeline", "major wins", "moonshots", "performance", "Prometheus", "test", "usability", "vcs for everything"].each do |label|
     wishlist_output[label] = label_list(label)
   end
-  wishlist_output["CI"] = label_list("CI",["pages","deploy","container registry", "chat commands"])
+  wishlist_output["CI"] = label_list("CI",["ci-build", "deploy", "deliver", "pages", "pipeline", "test", "container registry", "chat commands"])
   print "\n"
 
   wishlist_output
