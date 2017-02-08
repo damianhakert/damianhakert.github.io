@@ -37,15 +37,21 @@
   salary: 87337
   apply:
   open: false
-
+  
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
   apply:
   open: false
-
+  
 - title: "Sales Development Representative"
   description: /jobs/business-development-representative-outbound/
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+
+- title: "Senior Backend Developer"
+  description: /jobs/senior-developer/
+  salary:
+  apply: https://gitlab.workable.com/jobs/416220
   open: true
 
 - title: "CI Lead"
@@ -63,7 +69,7 @@
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
-  open: true
+  open: false
 
 - title: "Backend Developer, Edge"
   description: /jobs/developer-edge/
