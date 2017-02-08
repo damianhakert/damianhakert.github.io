@@ -45,7 +45,7 @@ Week 3:
 - Monday  UX   Allison
 - Tuesday CI  Kamil
 - Wednesday   Build   Marin
-- Thursday Support Ernst
+- Thursday Support Lee
 
 Week 4:
 
