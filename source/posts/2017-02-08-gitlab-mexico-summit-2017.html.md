@@ -181,7 +181,7 @@ and apply right now!
 
 [job openings]: /jobs/
 [sid]: /team/#sytses
-[team summit]: https://about.gitlab.com/culture/#summits
+[team summit]: /culture/summits/
 
 <!-- custom styles -->
 
