@@ -95,10 +95,10 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [x] _not relevant_ New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
-   1. [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
-   1. [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
+   1. [ ] People Ops: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
+   1. [ ] People Ops: coordinate or actively change sensitive shared passwords. In particular:
+      1. [ ] People Ops: Ping admins of deparment systems to see if the individuals had access. 
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
-      1. [ ] team call recordings password (i.e. Zoom login)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
