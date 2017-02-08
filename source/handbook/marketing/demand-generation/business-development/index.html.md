@@ -284,7 +284,7 @@ Helpful [Tutorials](https://drive.google.com/open?id=0B1W9hTDXggO1NGJwMS12R09lak
 
 #### Coined Terms
 
- - #BDRing - Doing your job...Kris Touzel
+ - #BDRing - Doing your job 
  - #SQLing - Winning at your job...Ryan Caplin
  - #BDR - Boss Destroying Revenue
 

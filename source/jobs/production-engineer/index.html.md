@@ -28,10 +28,10 @@ practices like TDD or continous integration (to start with).
 ## You may be a fit to this role if you:
 
 * Think about systems - edge cases, failure modes, behaviors, specific implementations.
-* Know your way around linux and the Unix Shell.
+* Know your way around Linux and the Unix Shell.
 * Have an interest in distributed systems and a solid understanding of how modern web stacks are built, and why.
 * Know what is the use of config management systems like Chef (the one we use)
-* Have strong programing skills - Ruby and/or Go (for operations and infrastructure projects respectively)
+* Have strong programming skills - Ruby and/or Go (for operations and infrastructure projects respectively)
 * Hold yourself to a high bar when working in production environments.
 * Have an urge to collaborate and communicate asynchronously.
 * Have an urge to document all the things so you don't need to learn the same thing twice.
@@ -53,6 +53,55 @@ practices like TDD or continous integration (to start with).
 * Helping release managers deploying and troubleshooting new versions of GitLab-EE.
 * Helping the build team to ship complex pieces of infrastructure in a way that just work out of the box.
 * Whatever is on the [infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues) and you feel passionate about.
+
+## Leveling
+
+### Junior Production Engineer
+
+* Provides emergency response either by being on-call or by reacting to symptoms according to monitoring.
+* Delivers production solutions that scale, identifying automation points, and proposing ideas on how to improve efficiency.
+* Improves documentation all around, either in application documentation, or in runbooks, explaining the why, not stopping with the what.
+* Improves the performance of the system by either making better use of resources, distributing load or reducing the latency.
+* Shares the learnings publicly, either by creating issues that provide context for anyone to understand it or by writing blog posts.
+* Updates GitLab default values so there is no need for configuration by customers.
+* Improves monitoring and alerting fighting alert spam.
+
+### Production Engineer
+
+* Proposes ideas and solutions within the infrastructure team to reduce the workload by automation.
+* Plan, design and execute solutions within infrastructure team to reach specific goals agreed within the team.
+* Plan and execute configuration change operations both at the application and the infrastructure level.
+* Actively looks for opportunities to improve the availability and performance of the system by applying the learnings from monitoring and observation
+
+### Senior Production Engineer
+
+Are experienced production engineers who meet the following criteria
+
+* Lead Production Engineers and Junior Production Engineers by setting the example.
+* Identifies changes for the product architecture from the reliability, performance and availability perspective with a data driven approach.
+* Know a domain really well and radiate that knowledge
+* Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
+* Perform blameless post-mortems on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
+* Show ownership of a major part of the infrastructure.
+* Identify parts of the system that do not scale, provides immediate paliative measures and drives long term resolution of these incidents.
+* Identify the SLI (Service Level Indicators) that will align the team to meet the availability and latency objectives.
+
+### Staff Production Engineer
+
+Senior Production Engineers who meet the following criteria:
+
+1. Technical Skills
+  * Identifies significant projects that result in substantial cost savings or revenue
+  * Able to create innovative solutions that push GitLab's technical abilities ahead of the curve
+2. Leadership
+	* Proposes and drives architectural changes that affects the whole company solve scaling and performance problems
+	* Set the necessary goals and SLO (Service Level Objectives) that will guide the infrastructure team to build a better product
+3. Communication
+  * Writes in-depth documentation that shares knowledge and radiates GitLab technical strengths
+4. Production, Scalability & Automation
+	* Strives for automation either by coding it or by leading and influencing developers to build systems that are easy to run in production.
+	* Measure the risk of introduced features to plan ahead and improve the infrastructure.
+
 
 ## Hiring Process
 

@@ -14,6 +14,11 @@ Welcome to the Online Marketing Handbook.
 
 ----
 
+## Other Important Pages
+* [Google Analytics Crash Course](/handbook/marketing/demand-generation/online-marketing/ga-training)
+
+----
+
 ## URL Tagging
 
 All marketing campaigns that are promoted on external sites and through email should use URL tagging to increase the data cleanliness in Google Analytics. For a primer course, please see the [training video](https://drive.google.com/a/gitlab.com/file/d/0B1_ZzeTfG3XYNWVqOC11NWpKWjA/view?usp=sharing). This explains the why and how of URL tagging.

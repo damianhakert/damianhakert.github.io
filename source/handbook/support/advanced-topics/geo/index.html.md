@@ -37,9 +37,7 @@ to install Geo on two VM's
 the [GitLab Geo Disaster Recovery Instructions](https://gitlab.com/help/gitlab-geo/disaster-recovery.md)
    1. [ ] Connect a local repo to this new primary and make sure you can push and pull
 1. [ ] Custom ports for SSH and HTTP
-1. [ ] Certificates
-   1. [ ] Custom CA, same self signed certificate on both servers
-   1. [ ] Custom certificates for each server, from the same custom CA
+1. [ ] Set up custom certificates / [self signed](http://docs.gitlab.com/omnibus/common_installation_problems/README.html#using-self-signed-certificate-or-custom-certificate-authorities)
 1. [ ] HTTP/HTTPS Test to make sure Geo is working after each step
    1. [ ] Start with HTTP on both servers and change to the following:
    1. [ ] Primary use HTTP, secondary HTTPS
@@ -55,32 +53,20 @@ the [GitLab Geo Disaster Recovery Instructions](https://gitlab.com/help/gitlab-g
 
 ### Stage 3: Tickets
 
-- [ ] **Done with Stage 3**
-
-1. [ ] Answer 20 Geo tickets and paste the links here. Even if a ticket seems
+- [ ] Contribute valuable responses on at least 5 Geo tickets. Even if a ticket seems
 too advanced for you to answer. Find the answers from an expert and relay it to
 the customer.
 
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
-  1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
+   1. [ ] __
 
 ### Stage 4: Pair on Customer Calls
 
@@ -90,19 +76,19 @@ the customer.
 be asking questions about it.
    1. [ ] call with ___
    1. [ ] call with ___
+   1. [ ] call with ___
 1. [ ] Installation calls where we help a client install Geo
    1. [ ] call with ___
-  1. [ ] call with ___
-1. [ ] Diagnosis calls, where something is wrong with Geo for a customer
-  1. [ ] call with ___
-  1. [ ] call with ___
+   1. [ ] call with ___
+   1. [ ] call with ___
 
 ### Stage 5: Quiz?
 
-- [ ] **Done with Stage 5**
+- [ ] Need link to Quiz here
+- [ ] Quiz answers were checked by Gabriel, and he said you passed
 
 ### Final Stage
 
-- [ ] Ask Ernst and Gabriel to look over this list, send a MR to delete this line after they both satisfied with the list
+- [ ] Your Manager needs to check this box to acknowledge that you finished
 - [ ] Send a MR to declare yourself a **Geo Expert** on the team page
 ```

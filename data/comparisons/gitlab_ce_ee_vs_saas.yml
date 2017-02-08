@@ -1,0 +1,45 @@
+title: "GitLab CE/EE vs. SaaS"
+competitor_one:
+  name: 'GitLab CE/EE'
+  logo: '/images/comparison/ce-ee-gitlab-logo.svg'
+competitor_two:
+  name: 'SaaS'
+  logo: 'null'
+last_updated: 'January 31, 2017'
+features:
+  - title: "Containment"
+    description: "Containing your company's IP behind the company's firewall gives you protection from unauthorized access. Learn from the lessons of Code Space"
+    link_description: "Lessons from Code Space"
+    link: http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html
+    competitor_one: true
+    competitor_two: false
+  - title: "Integrations"
+    description: "Integrating with Authentication and Authorization (LDAP / AD), issue tracking, CI, deployment and other tools such as ALM, PLM, Agile and Automation tools."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Control"
+    description: "Take control of maintenance downtime, don't be at the mercy of your hosting provider. Control how and where your code is backed up and stored."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Choice and Flexibility"
+    description: "GitLab CE/EE can be installed on physical servers, virtualized servers (dedicated or shared), purpose-built appliances and virtualized appliances. These aren’t available with hosted solutions. Likewise, most on-premises servers can be deployed on a variety of operating systems and there’s more choice of on-premises solutions in general."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Retrieval"
+    description: "Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with GitLab CE/EE."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "In good company"
+    description: "GitLab is the most adopted on-premises solution for developer collaboration, deployed at over 100,000 organizations worldwide."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false

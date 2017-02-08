@@ -4,6 +4,7 @@ author: Jason Chen
 author_twitter: jhchen
 categories: inside GitLab
 image_title: '/images/team_gitlab.png'
+guest: true
 ---
 
 Please note that while we think of ourselves as an open source company it would be more accurate to call it an open core company since we ship both the open source GitLab Community Edition and the close source GitLab Enterprise Edition. Thanks to paxcoder for [pointing this out on Hacker News](https://news.ycombinator.com/item?id=12129626).

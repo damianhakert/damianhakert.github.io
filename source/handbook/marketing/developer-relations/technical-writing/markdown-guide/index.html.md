@@ -83,7 +83,7 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 
 Notes:
 
-- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page.
   > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
 - Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
   > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
@@ -765,7 +765,7 @@ end
 </div>
 </div>
 
-### Indented 
+### Indented
 
 Add 4 white spaces before every line:
 
@@ -1670,7 +1670,7 @@ My text in an purple box.
 {: .alert .alert-gitlab-purple}
 ```
 
-### GitLab Webcast Alert Box 
+### GitLab Webcast Alert Box
 
 To be used in a CTA for webcast announcement in blog posts.
 You can use it for other purposes as well. Use it together with the [HMTL parser](#html-parser):
@@ -1794,7 +1794,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 #### Google Slides
 
-Let's exemplify with this [simple presentation]. Follow the steps [above](#embed-documents) to find the iframe:
+Let's exemplify with this [GitLab deck template]. Follow the steps [above](#embed-documents) to find the iframe:
 
 ![Google Slides - Embed iframe](/images/markdown-guide/embed-google-slides.png)
 
@@ -1802,7 +1802,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 ```html
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 ```
 
@@ -1810,7 +1810,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 {: .no_toc}
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 <br>
@@ -1937,7 +1937,7 @@ _Regular Code Editors_
 
 _Markdown editors (type and preview simultaneously)_
 
-- Markdown editor for Mac: [Mou]
+- Markdown editors for Mac: [Mou], [iA Writer]
 - In-browser markdown editor: [StackEdit]
 
 If you're not used to writing markdown, those editors can be helpful. Check a screenshot below of a
@@ -1995,8 +1995,10 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
+[GitLab deck template]: https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
 [handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[iA Writer]: https://ia.net/writer/
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
 [kramdown]: http://kramdown.gettalong.org/
@@ -2010,7 +2012,6 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
 [SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
-[simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
