@@ -22,15 +22,27 @@ Here are some impressions from our [first Summit](https://about.gitlab.com/2015/
 In May 2016, with a team existing of 85 people, met up in Austin,TX to see if they are (still) as awesome as seen on Google Hangout.
 Here is some footage that our team put together to show how much fun we had.
 
+
 <figure class="video_container">
   <iframe src="https://player.vimeo.com/video/175270564" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+
+
 #### Summit in Cancun, Mexico
 
-TBC
+In January 2017 we all got together in Cancun, Mexico. By then we had rougly 150 team members and 50 significant others fly out from 35 different countries.
+
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/watch?v=XDfTj8iv9qw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
+
 
 ### General information
+
 
 * Significant Others (SOs for short) are very welcome, one per team member
 * You are responsible for the SO you invite
@@ -40,7 +52,9 @@ TBC
 
 <br>
 
-* The goal of our summits is to get to know each other outside of work. To help get this kickstarted, always wear you name tag, to all events, and all days. Try to eat with different people every time.
+The goal of our summits is to get to know each other outside of work. 
+To help get this kickstarted, always wear you name tag, to all events, and all days. Try to join different people every time we sit down for a meal.
+
 * email/file templates for project page
 * Audience is team members, applicants, SO's, partner companies, and wider community
 
@@ -53,10 +67,12 @@ TBC
 * Don't use the pool or go swimming after midnight
 * Be respectful of other hotel guests (for example: don't talk on your floor when going back at night or keeping your volume down on places such as the restaurant or bar)
 
+
 ### Important basics for every summit
 * Great wifi, need more serious tech for main room (5Ghz, multiple points)
 * A large meeting room to join each other for work hours and presentations
 * Label your charger with your name for easy return to owner in case you loose it
+
 
 ### Presentations
 Make sure to get an overview about a month before the summit of:
