@@ -174,6 +174,10 @@ A core value of GitLab is documentation. Therefore, everything that we do, we ha
 
 If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
 
+### 60-day Onboarding Survey
+
+To help PeopleOps understand your experience and improve the onboarding process, please complete the 60-day [onboarding survey] (https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLSdU8qxThxRu3tdrExFGBJ1GlyucCoJj2kDpcvOlM4AiRGOavQ/viewform) after you have been working for GitLab for more than 2 months! PeopleOps will send monthly reminders to team members to complete the survey!
+
 #### Becoming Familiar with Projects on GitLab.com
 
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Once you feel comfortable with GitLab, take a moment to familiarize yourself with:
