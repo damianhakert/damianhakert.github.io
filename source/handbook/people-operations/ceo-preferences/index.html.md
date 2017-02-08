@@ -96,7 +96,7 @@ Make sure to include in the description
 * (Video)calls
 <br>
 Please read our primer as preparation for this meeting: https://about.gitlab.com/primer 
-(Calls in the hiring process also have: Please fill out this form to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
+(Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
 By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/#video-calls) it will add the details how to join the Zoom call automatically.
