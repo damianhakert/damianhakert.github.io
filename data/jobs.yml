@@ -12,8 +12,8 @@
 
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
-  apply: https://gitlab.workable.com/jobs/242362/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Accounting Manager"
   description: /jobs/accounting-manager/
@@ -37,12 +37,12 @@
   salary: 87337
   apply:
   open: false
-  
+
 - title: "Business Development Representative - Inbound"
   description: /jobs/business-development-representative/
   apply:
   open: false
-  
+
 - title: "Sales Development Representative"
   description: /jobs/business-development-representative-outbound/
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
