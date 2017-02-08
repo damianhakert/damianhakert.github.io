@@ -33,7 +33,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 ## Preparation
 
 > * You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
-> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed.
+> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed. TODO: [Make demo use raw Kubernetes instead of Google Cloud SDK](https://gitlab.com/gitlab-org/gitlab-ce/issues/27330)
 >   * Run `gcloud components install kubectl`
 > * Login to [Google Cloud Platform](https://console.cloud.google.com/kubernetes).
 > * GitLab employees should use the `gitlab-demos` project. Others should select or create a project to work in.
@@ -157,7 +157,7 @@ We now create a group for our company; let’s name it `tanuki`.
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
 > * Create a project under the `tanuki` group
-> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git)
+> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)
 > * Make it public
 
 ### Add Kubernetes credentials to CI
