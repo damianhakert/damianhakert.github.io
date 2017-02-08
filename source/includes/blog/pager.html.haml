@@ -7,7 +7,11 @@
       %ul.pager
         - if prev_article
           %li.pull-left
-            = link_to "Previous", prev_article.url, title: prev_article.title
+            = link_to prev_article.url, title: prev_article.title do
+              %i.fa.fa-chevron-left
+              Previous
         - if next_article
           %li.pull-right
-            = link_to "Next", next_article.url, title: next_article.title
+            = link_to next_article.url, title: next_article.title do
+              Next
+              %i.fa.fa-chevron-right

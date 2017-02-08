@@ -448,6 +448,19 @@
 
   .pager {
     margin-top: 15px;
+
+    .fa {
+      position: relative;
+      top: 1px;
+
+      &.fa-chevron-left {
+        margin-right: 5px;
+      }
+
+      &.fa-chevron-right {
+        margin-left: 5px;
+      }
+    }
   }
 }
 
