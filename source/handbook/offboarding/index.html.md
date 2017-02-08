@@ -22,8 +22,10 @@ When it is time for offboarding, create issue for former team member on the dev 
 1. [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION.
 1. [x] _not relevant_ People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
-   1. [ ] People Ops: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then:
-   1. [ ] People Ops: switch off 2FA for the account, reset the password, log on, and set email to forward to the manager. Also change the phone number and alternative email (typically personal email address) that are associated with the account. Switch 2FA back on and save login credentials in 1password (PeopleOps vault). When asked for a phone number use your own, this is only for the purposes of turning 2FA back on.
+   1. [ ] People Ops: Switch off 2FA for the account, reset the password, and add the new credentials to the People Ops vault in 1Password. 
+   1. [ ] People Ops: Change the phone number and alternative email (typically personal email address) that are associated with the account.
+   1. [ ] People Ops: Check with the former team member's manager if they want the former team member's email forwarded to them. If yes, then login to the team member's account and set email to forward to the manager. Note: The account cannot be suspended if emails need to be forwarded. If no, then suspend the account. 
+   1. [ ] People Ops: Switch 2FA back on. When asked for a phone number use your own, this is only for the purposes of turning 2FA back on.
    1. [ ] People Ops: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
