@@ -16,7 +16,7 @@ In October 2016 we were at OSCON London when the IO operations for GitLab.com we
 
 Originally I wrote this post as a summary of the reasons why we are no longer going to leave the cloud, but Sid thought it best to let the community feedback tell the story. So I have summarized some public comments from either side of the debate. In addition to the public feedback, we received hundreds of private tweets, emails and calls and would like to thank everyone who reached out to us and shared your thoughts and advice.
 
-## Let's begin on the topic of cost 
+## Let's Begin on the Topic of Cost 
 
 [Geraint on the GitLab blog: Going bare metal](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/#comment-2999631471) 
 > When I was at Koding we made a similar move from AWS to bare metal. The costs were amazing. Something like $20k a month for what in AWS would cost $200k. I have been saying for a very long time that once you hit a certain scale AWS no longer makes sense. 
@@ -45,7 +45,7 @@ It's not just the cost of owning and renewing the hardware, it's everything else
 [manacit on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13154057 )
 > I think they are going to underestimate the cost to GitLab in the long run. When they need to pay for someone to be a 30 minute drive from their DC 24/7/365 after the first outage, when they realize how much spare hardware they are going to want around, etc.
 
-## What about performance?
+## What About Performance?
 
 [mritun on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13155809)
 > A cloud service providers' biggest responsibilities to its customers are security, durability, availability and performance -- in that order. You guys are vastly underestimating the complexity involved in getting first 3 right.
@@ -89,7 +89,7 @@ I would optimise the hell out of my stack before I commit to a change like this 
 [londons_explore on Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12942349)
 > In large systems design, you should always design for a large variation in individual systems performance. You should be able to meet customers expectations if any machine drops to 1% performance at anytime. Here they are blaming the cloud for the variation, but at big enough sizes they'll see the same on real hardware. Real hardware gets thermally throttled when heatsinks go bad, has io failures which cause dramatic performance drops, CPU's failing leaving only one core out of 32 operational, or ECC memory controllers that have to correct and reread every byte of memory.
 
-## Advice on our storage proposals
+## Advice on our Storage Proposals
 
 [Spooky23 on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153860)
 > **Don't f*ck with storage.** 32 file servers for 96TB? Same question as with networking re:ceph. What are your failure domains? How much does it cost to maintain the FTEs who can run this thing? 
@@ -105,7 +105,7 @@ I would optimise the hell out of my stack before I commit to a change like this 
 [skuhn on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153419)
 >Stock spares, maybe 2-3% of your total drives deployed, but at least 5-6 drives per site. You don't want to get caught out if there is a supply shortage when you need it most. Your business depends on ready access to considerable quantities of storage.
 
-## and our choice of 8TB drives
+## and our Choice of 8TB Drives
 
 [lykron on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153196)
 > If you are looking for performance, do not get the 8TB drives. In my experience, drives above 5TB do not have good response times. I don't have hard numbers, but I built a 10 disk RAID6 array with 5TB disks and 2TB disks and the 2TB disks were a lot more responsive.
@@ -116,7 +116,7 @@ I would optimise the hell out of my stack before I commit to a change like this 
 [lykron on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153653)
 > If you are talking physically, 2TB/8TB would theoretically be faster than a 2TB/2TB disk if the performance attributes were the same. But a 2TB HDD will have a faster average seek time than an 8TB HDD due to physical design. Any performance gains of only partially filling a drive would probably be offset by the slower overall drive... The amount of data has no effect when compared to the physical attributes of the drive. More platters will increase the response time.
 
-##  Feedback on our network proprosals
+##  Feedback on our Network Proprosals
 
 [Spooky23 on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153860)
 > **Don't f*ck with networking.** Do you have experience operating same or similar workloads on your super micro SDN? Will the CEO of your super micro VAR pickup his phone at 2AM when you call?
@@ -139,7 +139,7 @@ I would optimise the hell out of my stack before I commit to a change like this 
 > Don't fall into the trap of extending VLANs everywhere. You should definitely be routing (not switching) between different routers. 
 "Should we have a separate network for Ceph traffic?" Yes, if you want your Ceph cluster to remain usable during rebuilds. Ceph will peg the internal network during any sort of rebuild event.
 
-## What did the community have to say about Ceph?
+## What did the Community Have to Say About Ceph?
 
 
 [Chris on the GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047381500)
@@ -191,7 +191,7 @@ Be very very careful about Ceph hype – late2part
 [Rapzid on Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12946174)
 > If you're using CephFS and everyone else wants to be using other Cloud storage solutions, that would actually put you at a disconnect with your users and leave room for a competitor with the tools and experience to scale out on Cloud storage to come in offering support. I would at least consider all the opinions in this thread and maybe reach out to that Minqi Pan fellow from Alibaba with questions..
 
-## How would moving to metal affect the GitLab team?
+## How Would Moving to Metal Affect the GitLab Team?
 
 [ninjakeyboard on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153779)
 > Your core competency is code, not infrastructure, so striking out to build all of these new capabilities in your team and organization will come at a cost that you can not predict. Looking at total cost of ownership of cloud vs steel isn't as simple as comparing the hosting costs, hardware and facilities.
@@ -206,7 +206,7 @@ Your core competency is code, not infrastructure – ninjakeyboard
 [thebyrd on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153644)
 > I think you're under estimating the number of people required to run your own infrastructure. You need people who can configure networking gear, people swapping out failed NICs/Drives at the datacenter, someone managing vendor relationships, and people doing capacity planning.
 
-## Let’s just abandon x86 all together
+## Let’s Just Abandon x86 Altogether
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
 Why bind yourself to Intel servers? – MBH
@@ -217,12 +217,12 @@ Why bind yourself to Intel servers? – MBH
 > 
 > POWER8 CPUs have a different architecture than Intel: PPC64, so you may need to recompile some things, or have some Intel systems for workloads that can only run on x86_64.
 
-## We all have an opinion
+## We All Have an Opinion
 
 [davidbrent on on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13154202)
 > I've only ever built desktop machines, and this top comment drew a surprising parallel to most help me with my desktop build type posts. Granted, I'm sure as you dig deeper, the reasoning may be much different, but myself being ignorant about a proper server build, it was somehow reassuring to see power and cooling at the top!
 
-## We are taking a step back and using a boring solution
+## We are Taking a Step Back and Using a Boring Solution
 
 We want to scale intelligently and build great software; we don’t want to be an infrastructure company. We are embracing and are excited about solving the challenge of scaling GitLab.com on the cloud, because solving it for us also solved it for the largest enterprises in the world using GitLab on premise.
 
@@ -230,7 +230,7 @@ Most of the scaling headaches have occurred because Git is read-heavy: looking a
 
 ![An average of 300 Reads to 10 writes](/images/blogimages/why-we-are-not-leaving-the-cloud-chart.png)
 
-## How are we going to get back to basics?
+## How are we Going to Get Back to Basics?
 
 1. We spread all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropped CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack. 
 2. We created [Gitaly](https://gitlab.com/gitlab-org/gitaly) so that we can stop relying on NFS for horizontal scaling and speed up Git access through caching.
