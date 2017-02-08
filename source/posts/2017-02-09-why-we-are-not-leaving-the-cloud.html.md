@@ -4,17 +4,17 @@ author: Sean Packham
 author_twitter: SeanPackham
 categories: GitLab
 image_title:
-description: "What we learned from our community vetting our proposal to leave the cloud"
+description: "What we learned from our community vetting our proposal to leave the cloud."
 ---
 
-Towards the end of 2016 we [shared how challenging](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) it is to run CephFS in the cloud because of heavy IO strain on GitLab.com. We even made some bold statements like “How we knew it was time to leave the cloud and go bare metal”... but we were wrong! Read on to find out why we are not leaving the cloud, as usual it starts with great support from our amazing community, there is even a bold comment pitching we ditch x86 and move to PowerPC.
+Towards the end of 2016 we [shared how challenging](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) it is to run CephFS in the cloud because of heavy IO strain on GitLab.com. We even made some bold statements like “How we knew it was time to leave the cloud and go bare metal”... but we were wrong! Read on to find out why we are not leaving the cloud – as usual it starts with great support from our amazing community. There is even a bold comment pitching we ditch x86 and move to PowerPC.
 
 
 <!-- more -->
 
-In October 2016 we were at OSCON London when the IO operations for GitLab.com went through the roof, as well as the bill. When it rains it pours and the throttling breaks were slammed hard bringing GitLab.com down. I remember the frustration in the team, we [shared our desire to leave the cloud](https://news.ycombinator.com/item?id=12939856) and [our hardware proposal](https://news.ycombinator.com/item?id=13153031) with the community and got great feedback on all the messy details of managing your own infrastructure. 
+In October 2016 we were at OSCON London when the IO operations for GitLab.com went through the roof, as did the bill. When it rains, it pours, and the throttling brakes were slammed hard, bringing GitLab.com down. I remember the frustration of the team, and we [shared our desire to leave the cloud](https://news.ycombinator.com/item?id=12939856) and [our hardware proposal](https://news.ycombinator.com/item?id=13153031) with the community and got great feedback on all the messy details of managing your own infrastructure. 
 
-Originally I wrote this post as summary of reasons on why we were no longer going to leave the cloud, but Sid thought it would be best to let the community feedback tell the story. So I have summarized some public comments from either side of the debate. In addition to the public feedback we received hundreds of private tweets, emails and calls and would like to thank everyone who reached out to us and shared your thoughts and advice.
+Originally I wrote this post as a summary of the reasons why we are no longer going to leave the cloud, but Sid thought it best to let the community feedback tell the story. So I have summarized some public comments from either side of the debate. In addition to the public feedback, we received hundreds of private tweets, emails and calls and would like to thank everyone who reached out to us and shared your thoughts and advice.
 
 ## Let's begin on the topic of cost 
 
@@ -25,7 +25,7 @@ Originally I wrote this post as summary of reasons on why we were no longer goin
 > We had 140 servers hosted in New York City for 10 years or so, and hosting only was going up and up, and contracts didn't give us flexibility to add cabinets when we needed. We basically had to cancel the previous contract, make a new one, pay for the upgrade, pay for the cabinet setup, etc... At some point, when we had financial trouble paying $14K/month for hosting, we decided to move all our servers from NYC to Tallinn, Estonia, where we built our own a small scale datacenter. As a result, we were able to cut hosting fees x10.
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-It's not just the cost of owning and renewing the hardware, it's everything else that comes with it - daenney
+It's not just the cost of owning and renewing the hardware, it's everything else that comes with it – daenney
 </div>
 
 [daenney on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153296)
@@ -45,7 +45,7 @@ It's not just the cost of owning and renewing the hardware, it's everything else
 [manacit on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13154057 )
 > I think they are going to underestimate the cost to GitLab in the long run. When they need to pay for someone to be a 30 minute drive from their DC 24/7/365 after the first outage, when they realize how much spare hardware they are going to want around, etc.
 
-## What about performance
+## What about performance?
 
 [mritun on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13155809)
 > A cloud service providers' biggest responsibilities to its customers are security, durability, availability and performance -- in that order. You guys are vastly underestimating the complexity involved in getting first 3 right.
@@ -57,7 +57,7 @@ It's not just the cost of owning and renewing the hardware, it's everything else
 > Even the very best of virtualization on shared resources still kills 20-30% of performance.
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-A company rolling their own system doesn't have to share, and they can optimise specifically for their own requirements. - taneq
+A company rolling their own system doesn't have to share, and they can optimise specifically for their own requirements – taneq
 </div>
 
 [taneq on Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12940925)
@@ -80,7 +80,7 @@ A company rolling their own system doesn't have to share, and they can optimise 
 I learned a lot when I was first moving to the cloud from Adrian Cockroft. He has a ton of material out there from Netflix's move to the cloud. I recommend googling around for his conference talks. 
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-I would optimise the hell out of my stack before commit to a change like this - StreamBright
+I would optimise the hell out of my stack before I commit to a change like this – StreamBright
 </div>
 
 [StreamBright on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153866)
@@ -94,7 +94,7 @@ I would optimise the hell out of my stack before commit to a change like this - 
 [Spooky23 on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153860)
 > **Don't f*ck with storage.** 32 file servers for 96TB? Same question as with networking re:ceph. What are your failure domains? How much does it cost to maintain the FTEs who can run this thing? 
 
-*Spooky23 did caveat his comment with "I'm a cranky old person now" ;)*
+*Spooky23 did leave a caveat to his comment: "I'm a cranky old person now" ;)*
 
 [Nicholas on the GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047537669)
 > I think there might be a pretty big IOPS drop when you switch over to this hardware. You're looking at having approximately 60 7200 RPM drives in this CephFS cluster. Doing the math, if you assume each of those drives can do 100 read and 100 write IOPS, and that you are doing 3x replication on write (plus journal writes), you're not going to get anywhere near the numbers that you want.
@@ -103,7 +103,7 @@ I would optimise the hell out of my stack before commit to a change like this - 
 >I would think that GitLab's workload is mostly random, which would pose a problem for larger drives. The SSDs are a great idea, but I've only seen 8TB drives used when there are 2 to 3 tiers; with 8TB drives being all the way on the bottom. I'm not sure how effective having a single SSD as a cache drive for 24TBs of 8TB disks will be.
 
 [skuhn on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153419)
-Stock spares, maybe 2-3% of your total drives deployed, but at least 5-6 drives per site. You don't want to get caught out if there is a supply shortage when you need it most. Your business depends on ready access to considerable quantities of storage.
+>Stock spares, maybe 2-3% of your total drives deployed, but at least 5-6 drives per site. You don't want to get caught out if there is a supply shortage when you need it most. Your business depends on ready access to considerable quantities of storage.
 
 ## and our choice of 8TB drives
 
@@ -156,12 +156,12 @@ If you're going to give it a try, make sure you're using a recent-ish kernel suc
 > *"We are attempting to build a fault-tolerant and performant CephFS cluster"* Ohhh boy. I hope this works, and look forward to hearing updates.
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this..." videos - mritun
+I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this... " videos – mritun
 </div>
 
 [mritun on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153658)
 > From CephFS website: *"Important: CephFS currently lacks a robust ‘fsck’ check and repair function. Please use caution when storing important data as the disaster recovery tools are still under development. For more information about using CephFS today, see CephFS for early adopters."*
-I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this..." videos.
+I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this... " videos.
 
 [Nicholas on the GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047478761)
 > You need to make sure that there is not an architecture that you can build that absolves you of having to run a CephFS cluster. CephFS is cool, but it is a single point of failure right now, and comes with a ton of caveats. Performance and stability will be much improved if you remove the layer of abstraction it creates and write your app to handle some sort of distributed storage system.
@@ -176,7 +176,7 @@ When you run dozens-to-hundreds of servers with many SSDs in them that are doing
 > Also look at how much data you intend to write to the cluster - the CEPH servers are going to write everything to their SSD journals - definitely check on the endurance of your SSDs and make sure that you're comfortable with the projected lifetime.
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-Be very very careful about Ceph hype - late2part
+Be very very careful about Ceph hype – late2part
 </div>
 
 [late2part on the GitLab blog: Proposed server purchase](https://news.ycombinator.com/item?id=13154620)
@@ -194,10 +194,10 @@ Be very very careful about Ceph hype - late2part
 ## How would moving to metal affect the GitLab team?
 
 [ninjakeyboard on Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153779)
-Your core competency is code, not infrastructure, so striking out to build all of these new capabilities in your team and organization will come at a cost that you can not predict. Looking at total cost of ownership of cloud vs steel isn't as simple as comparing the hosting costs, hardware and facilities.
+> Your core competency is code, not infrastructure, so striking out to build all of these new capabilities in your team and organization will come at a cost that you can not predict. Looking at total cost of ownership of cloud vs steel isn't as simple as comparing the hosting costs, hardware and facilities.
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-Your core competency is code, not infrastructure - ninjakeyboard
+Your core competency is code, not infrastructure – ninjakeyboard
 </div>
 
 [l1x on the GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047353138)
@@ -209,7 +209,7 @@ Your core competency is code, not infrastructure - ninjakeyboard
 ## Let’s just abandon x86 all together
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-Why bind yourself to Intel servers? - MBH
+Why bind yourself to Intel servers? – MBH
 </div>
 
 [MBH on the GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3053432409)
@@ -224,9 +224,9 @@ Why bind yourself to Intel servers? - MBH
 
 ## We are taking a step back and using a boring solution
 
-We want to scale intelligently and build great software, we don’t want to be an infrastructure company. We are ebracing and are excited about solving the challenge of scaling GitLab.com on the cloud, because solving it for us also solved if for the largest enterprises in the world using GitLab on premise.
+We want to scale intelligently and build great software; we don’t want to be an infrastructure company. We are embracing and are excited about solving the challenge of scaling GitLab.com on the cloud, because solving it for us also solved it for the largest enterprises in the world using GitLab on premise.
 
-Most of the scaling headaches have occurred because Git is read-heavy: looking at our Git Read/Write performance chart below you can see for about every 300 reads we get 10 writes. We tried to solve this by running CephFS in the cloud but and it goes against our value of using the simplest, most  [boring solution](https://about.gitlab.com/handbook/#values) for a problem.
+Most of the scaling headaches have occurred because Git is read-heavy: looking at our Git Read/Write performance chart below, you can see that for about every 300 reads we get 10 writes. We tried to solve this by running CephFS in the cloud but and it goes against our value of using the simplest, most  [boring solution](https://about.gitlab.com/handbook/#values) for a problem.
 
 ![An average of 300 Reads to 10 writes](/images/blogimages/why-we-are-not-leaving-the-cloud-chart.png)
 
@@ -235,6 +235,6 @@ Most of the scaling headaches have occurred because Git is read-heavy: looking a
 1. We spread all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropped CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack. 
 2. We created [Gitaly](https://gitlab.com/gitlab-org/gitaly) so that we can stop relying on NFS for horizontal scaling and speed up Git access through caching.
 
-[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. It will also be used to improve our monitoring of Git resource usage to make better decisions, currently we are only sampling processes. We would love if the community would challenge our use of Gitaly with the same passion they challenged us before. What do you think of the software architecture? Can a caching layer like this scale? What alarm bells are set off? We can’t wait to hear your feedback!
+[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. It will also be used to improve our monitoring of Git resource usage to make better decisions; currently we are only sampling processes. We would love if the community would challenge our use of Gitaly with the same passion they challenged us before. What do you think of the software architecture? Can a caching layer like this scale? What alarm bells are set off? We can’t wait to hear your feedback!
 
 We would like to thank our community, customers, team and board for all their great support – you all make GitLab an incredible product.
