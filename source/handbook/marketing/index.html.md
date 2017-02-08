@@ -324,7 +324,6 @@ What is Dev. Adv. (to be included).
 [Job Description](/jobs/developer-advocate){:.btn .btn-purple-inv}
 [Handbook][Developer Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Amanda][amanda]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Ivan][ivan]{:.btn .btn-orange}
 
 ### Community Advocacy
 {: .no_toc}
@@ -335,7 +334,6 @@ What is Comm. Adv. (to be included).
 [Handbook][Community Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Matija][cmattrex]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Connor][connorshea]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Felipe][cabargas]{:.btn .btn-orange}
 
 ### Technical Writing
 {: .no_toc}
