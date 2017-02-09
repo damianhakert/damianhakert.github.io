@@ -145,6 +145,12 @@ instance-wide), is something that should be avoided.
 
 Encourage favorable behaviors by limiting configuration.
 
+##### Default to ON
+
+In addition to encouraging behavior by limiting the ability to toggle features,
+when introducing new features default to turning things ON if they are
+configurable at all.
+
 #### Be Ambitious
 
 Many crazy, over-ambitious ideas just sound like they are impossible
