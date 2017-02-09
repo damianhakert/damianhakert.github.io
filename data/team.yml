@@ -590,7 +590,7 @@
 - name: Timo Schuit
   locality: Hamburg
   country: Germany
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Manager EMEA</a>
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager EMEA</a>
   reports_to: Regional Sales Director - EMEA
   picture: timo.jpg
   twitter: timouit
@@ -2062,7 +2062,7 @@
 - name:  Mark Rogge
   locality: Sunny San Diego California
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
+  role: <a href="https://about.gitlab.com/jobs/regional-sales-director">Regional Director of Sales</a>
   reports_to: CRO
   picture: markorogge.jpg
   twitter:
@@ -2229,7 +2229,7 @@
   placeholder: true
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/infrastructure-director/">Infrastructure Director</a>
+  role: <a href="https://about.gitlab.com/jobs/director-infrastructure/">Infrastructure Director</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   twitter:
