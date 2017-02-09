@@ -2,7 +2,7 @@
 title: "Data Startup Cognitive Logic Talks Migrating to GitLab"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/team_gitlab.png'
 ---
 

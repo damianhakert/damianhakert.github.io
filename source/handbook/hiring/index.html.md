@@ -72,7 +72,7 @@ The hiring manager should always ask the team for passive referrals for open pos
 The recruiting team will **always** publicize the job through the following means:
 
 1. Announce it on team call and on the #general chat channel.
-1. Tweet the new job posting.
+1. Tweet the new job post with the help of the content marketing manager and team.
 1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
 1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
@@ -240,14 +240,25 @@ Always leave feedback, this will help everyone to understand what happened and h
 One way of writing the feedback is as follows:
 
 > Vote: Inclined, Semi-Inclined or Not Inclined to Hire
-> Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
-> Pros: What is good and where did you hear it during the interview?
-> Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
-> Interview notes: What questions were asked and what story did you got back? Ex.
+
+> Score: Rate a candidate as 1-5 out of 5
+
+>  Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
+Pros: What is good and where did you hear it during the interview?
+Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
+Interview notes: What questions were asked and what story did you got back? Ex.
 >   Tell me about a time when you did X
 >   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
-The vote is critical as it is telling the rest of the hiring team your opinion on this hire.
+The vote and score are critical as they tell the rest of the hiring team your opinion on this hire.
+
+Scoring can be defined as follows: 
+
+5 - Certainly would hire (meets all requirements, aligns with values, no flags)
+4 - Likely to hire (meets most requirements, aligns with values)
+3 - Neutral (may meet some requirements, has some yellow flags)
+2 - Not likely to hire (meets few requirements, has many yellow flags, may not align with values well)
+1 - Would not hire (does not meet requirements, red flags, not aligned with values)
 
 ## CEO Interview Questions
 

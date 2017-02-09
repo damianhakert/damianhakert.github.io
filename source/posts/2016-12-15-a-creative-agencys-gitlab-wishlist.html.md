@@ -2,7 +2,7 @@
 title: "A creative agency's GitLab wishlist"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
-categories: user stories
+categories: customer stories
 image_title: '/images/blogimages/a-creative-agencys-gitlab-wishlist.jpg'
 description: "A Lukkien developer shares his team's challenges with Git and GitLab for their UX designs, and requests a few tweaks they'd find useful."
 twitter_image: '/images/tweets/default-blog-image.png'

@@ -2,6 +2,7 @@
 title: "GitLab 8.16.2 and 8.14.8 released"
 author: DJ Mountney
 author_twitter: twk3
+author_gitlab: twk3
 categories: release
 ---
 

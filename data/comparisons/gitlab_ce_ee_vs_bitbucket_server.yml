@@ -1,0 +1,207 @@
+title: "GitLab CE/EE vs. Bitbucket Server"
+competitor_one:
+  name: 'GitLab CE/EE'
+  logo: '/images/comparison/ce-ee-gitlab-logo.svg'
+competitor_two:
+  name: 'Bitbucket Server'
+  logo: '/images/comparison/bitbucket-logo.svg'
+last_updated: 'February 08, 2017'
+features:
+  - title: "Built-in Continuous Integration tool"
+    description: "Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation."
+    link_description: "Learn about the benefits of our CI tool"
+    link: https://docs.gitlab.com/ce/ci/
+    competitor_one: true
+    competitor_two: false
+  - title: "Docker Registry support"
+    description: "GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management."
+    link_description: "Documentation on Container Registry"
+    link: https://docs.gitlab.com/ce/user/project/container_registry.html
+    competitor_one: true
+    competitor_two: false
+  - title: "Lock Files"
+    description: "File locking in GitLab Enterprise Edition allows you to lock any file or directory. This ensures that no one will work on or overwrite work that can't be merged easily, for instance when working with art assets or other non-text files."
+    link_description: "Read the File Locking documentation"
+    link: http://docs.gitlab.com/ee/user/project/file_lock.html
+    competitor_one: true
+    competitor_two: false
+  - title: "More value with everything you need in one solution"
+    description: "To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo, at a much higher cost."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Great user interface"
+    description: "GitLab has a really nice user interface that your team will love, and also enjoy working with. Bitbucket is not known for this."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Integrated issue tracking"
+    description: "GitLab includes an issue tracker which you can link to any merge request. Bitbucket doesn't have that."
+    link_description: "Issue tracker"
+    link: https://gitlab.com/gitlab-org/gitlab-ce/issues
+    competitor_one: true
+    competitor_two: false
+  - title: "Better activity feed and visualization"
+    description: "Collaborative activity feed to help everyone understand what is happening in a project and graphical view of the commit history."
+    link_description: "See Our Activity Feed"
+    link: https://gitlab.com/gitlab-org/gitlab-ce/activity
+    competitor_one: true
+    competitor_two: false
+  - title: "Search files with fuzzy file finder"
+    description: "GitLab provides a way to search a file in your repository in one keystroke. Bitbucket makes you browse a file tree."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Full, powerful search"
+    description: "Search through all your code, issues, wikis, commits and commits messages, groups and projects. Built into GitLab."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "No need to manage multiple licenses"
+    description: "GitLab EE needs a license, but doesn't require any validation or separate licenses for separate servers. With Bitbucket Server (Data Center), licenses are linked to servers, requiring management of licenses over servers. You can deploy 100 instances of GitLab EE for the same price as a single instance. You only pay for the total amount of users, not for how you choose to manage and scale the software."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Easy configuration"
+    description: "GitLab can be easily configured through ENV variables and YAML files. This makes maintaining, upgrading and deploying GitLab easy to automate. Bitbucket Server requires extensive manual configuration."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "One integrated tool"
+    description: "Bitbucket requires the integration of multiple 3rd party tools to complete the software development lifecycle. GitLab has a completely integrated solution that covers the entire development lifecycle."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Runs on metal"
+    description: "GitLab can run on metal, if you choose to. So does Bitbucket."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: true
+  - title: "HA setups"
+    description: "For mission critical releases, you cannot afford downtime. GitLab offers support for HA, as well as Bitbucket."
+    link_description: "More information about active servers"
+    link: https://about.gitlab.com/high-availability/
+    competitor_one: true
+    competitor_two: true
+  - title: "Multiple approvals in code review"
+    description: "In GitLab, to ensure strict code review, you can require a specific number of approvals on a merge request by different users before being able to merge it. You can undo an approval by removing it after the fact."
+    link_description: "Approvals Documentation"
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html
+    competitor_one: true
+    competitor_two: false
+  - title: "Ease of Migration"
+    description: "GitLab lets you easily migrate all repos and merge request data from your previous provider."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: sortof
+  - title: "Issue Weights"
+    description: "GitLab lest you manage issues using Agile practices by setting the weight of an issue. Bitbucket does not have issues."
+    link_description: "Issue Weights Documentation"
+    link: https://docs.gitlab.com/ee/workflow/issue_weight.html
+    competitor_one: true
+    competitor_two: false
+  - title: "Prevent committing secrets in the repositories"
+    description: "GitLab provides a way to avoid committing sensitive files to your repositories automatically."
+    link_description: "Documentation"
+    link: https://docs.gitlab.com/ee/push_rules/push_rules.html#prevent-pushing-secrets-to-the-repository
+    competitor_one: true
+    competitor_two: false
+  - title: "Ability to set a project size"
+    description: "GitLab allows to set a project size limit at a global, group and project level."
+    link_description: "Documentation on account and limit settings"
+    link: https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html
+    competitor_one: true
+    competitor_two: false
+  - title: "Multiple issues and merge request templates"
+    description: "With GitLab, you can create multiple templates for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize. Bitbucket does not have issues."
+    link_description: "Templates for Issues and Merge Requests Documentation"
+    link: https://docs.gitlab.com/ee/customization/issue_and_merge_request_template.html
+    competitor_one: true
+    competitor_two: sortof
+  - title: "Geographic Replication with GitLab Geo"
+    description: "To improve collaboration, remote teams need the ability to be able to seamlessly work across geographical boundaries. GitLab Geo creates read only mirrors of your GitLab instance so your remote employees can clone and fetch large repos quickly, while Bitbucket has no similar feature."
+    link_description: "Read the Geo docs for more information"
+    link: http://docs.gitlab.com/ee/gitlab-geo/
+    competitor_one: true
+    competitor_two: false
+  - title: "Monitoring built-in"
+    description: "GitLab ships with an open source monitoring solution, Prometheus, which offers world-class monitoring of the GitLab server's resources."
+    link_description: "Documentation about Monitoring"
+    link: http://docs.gitlab.com/runner/monitoring/
+    competitor_one: true
+    competitor_two: false
+  - title: "Chat integration"
+    description: "GitLab ships with Mattermost, an open-source Slack alternative. Bitbucket sort of integrates with 3rd party chat software, but it's not bundled with anything."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Commit graph and reporting tools"
+    description: "GitLab provides commit graphs and reporting tools about collaborators' work. Bitbucket requires a paid plugin to provide this functionality."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Access to and possibility to modify your source code"
+    description: "GitLab Enterprise Edition is publically readable, meaning you can scan or modify the code to meet your security and development needs. Code in Bitbucket is proprietary, meaning you cannot edit or view the source code."
+    link_description: "Read the GitLab Enterprise Edition license."
+    link: https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE
+    competitor_one: true
+    competitor_two: false
+  - title: "Ability to block certain filetypes to be pushed"
+    description: "GitLab allows you to define rules to prevent certain filetypes to be pushed. Bitbucket requires a paid plugin to achieve this functionality."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Message banner on all pages"
+    description: "GitLab allows administrators to write message banners that appear on all pages. Bitbucket doesn't allow this."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Email notifications and todos"
+    description: "GitLab provides advanced notification mechanisms to let developers know what happens in the project. Bitbucket requires a plugin to achieve this."
+    link_description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Reduce costs with simple licence management"
+    description: "Bitbucket requires integration with multiple products, each with different billing cycles. Bitbucket also has complex licensing rules, whereas GitLab has the simplest licence management, and is simply the most comprehensive and affordable software development solution on the market."
+    link description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Reduce 3rd party maintenance with an integrated solution"
+    description: "Bitbucket 3rd party integrations mean that if something breaks, you will need to contact both vendors to address the problem, resulting in longer wait times. With an integrated solution, GitLab’s rapid response time to issues, means that you can be back up and running in no time."
+    link description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Omnibus Installation to get up and running quicker"
+    description: "An installation of Bitbucket requires the implementation of multiple products, each with their own complexities. GitLab has an omnibus package which spans the entire software supply chain, and has all dependencies built in for a simple and straightforward installation and configuration."
+    link description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "Review your teams performance with Cycle Analytics"
+    description: "Team want to improve their each stage of their workflow, but are faced with no way to measure this with GitHub with it’s 3rd party integrations. With built in Cycle Analytics, GitLab records the median time it takes the team to complete each stage in their workflow from idea to production, and provides insights into areas for improvement."
+    link description:
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: "New features every month"
+    description: "GitLab is updated with new features and improvements every month on the 22nd."
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false

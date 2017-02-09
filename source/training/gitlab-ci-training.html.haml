@@ -1,0 +1,54 @@
+---
+layout: default
+title: GitLab CI Training
+suppress_header: true
+extra_css:
+  - training.css
+---
+.wrapper
+  .training-picture-container
+    .training-overlay
+      .training-content
+        %h1.text-center
+          GitLab CI Training
+
+        %h3.text-center
+          Training Resources
+        %h3
+          %a{href:"https://gitlab-org.gitlab.io/ci-training-slides/#/"}GitLab CI Training Slidedeck
+          hosted in the corresponding
+          %a{href:"https://gitlab.com/gitlab-org/ci-training-slides"}training project.
+
+        %h3
+          %a{href:"https://gitlab-org.gitlab.io/ci-training-sample/"}Training sample
+          hosted at
+          %a{href:"https://gitlab.com/gitlab-org/ci-training-sample"}the training sample project.
+
+        %br/
+  .centered-form.training-form
+    %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %form#mktoForm_1068
+    :javascript
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1068, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
+            return false;
+          });
+          function getgacid() {
+            try {
+              var tracker = ga.getAll()[0];
+              return tracker.get('clientId');
+            } catch (e) {
+              return 'n/a';
+            }
+          }
+          form.vals({
+            'gacid': getgacid()
+          });
+      });
+    #confirmform{style: "visibility:hidden;"}
+      %p Submission received! We'll be in touch shortly.
