@@ -141,7 +141,7 @@ To Terminate a Team Member from BambooHR:
 1. Select Terminate Employee. 
 1. Enter the Effective Date of the termination.
 1. Select Voluntary or Involuntary. 
-1. Enter the termination reason adn if eligible for rehire. 
+1. Enter the termination reason and if eligible for rehire. 
 
 ### Settings in BambooHR
 
