@@ -114,6 +114,8 @@ If you have completed your portion of the hiring process and would like to stop 
 
 ### Typical process
 
+An applicant should expect to wait 2-3 business days between each step of the process. An applicant, at any time, is welcome to contact the recruiter they are working with for an update on their candidacy.
+
 1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel they must be added to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
 1. Recruiting team does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting-applicants). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
 1. **Pre-screening Questionnaire** Applicants will be sent a pre-screening questionnaire relating to the position by either the recruiting team or the hiring manager to complete and return to the sender. Responses will be added to the candidate's Workable profile.
@@ -252,7 +254,7 @@ Interview notes: What questions were asked and what story did you got back? Ex.
 
 The vote and score are critical as they tell the rest of the hiring team your opinion on this hire.
 
-Scoring can be defined as follows: 
+Scoring can be defined as follows:
 
 5 - Certainly would hire (meets all requirements, aligns with values, no flags)
 4 - Likely to hire (meets most requirements, aligns with values)
