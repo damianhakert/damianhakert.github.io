@@ -192,17 +192,15 @@ this seem to vary a bit between mortgage providers.
 
 ### Voluntary Terminations
 
-A voluntary termination occurs when a team member informs his or her manager of a resignation, or when an employee is absent from work for three consecutive workdays and fails to contact his or her supervisor (job abandonment).
+A voluntary termination occurs when a team member informs his or her manager of their intent to resign their position. If you're reasons for considering resigning from GitLab are related to an issue that may be resolved, we encourage you to speak with your manager, someone in People Ops, or another trusted team member. We would like a chance to resolve any concerns that may cause a team member to want to leave well before the decision is made.
 
-If you are a current team member and you are thinking about resigning from GitLab, we encourage you to speak with your manager, People Ops, or another trusted team member to discuss your reasons for wanting to leave. At GitLab we want to ensure that all issues team members are facing are discussed and resolved to result in a great work environment.
-
-If resignation is the only solution after you have discussed your concerns, then please follow these procedures.
+Please follow these procedures if your decision is to leave GitLab.
 
 #### Procedures
 
-1. Team members are requested to provide an agreed upon notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads.
-1. The team member should provide a written resignation letter or notification to his or her manager.
-1. Upon receipt of the resignation, the manager will notify People Ops by sending a copy of the resignation letter.
+1. Team members are requested to provide a minimum of two weeks notice of their intention to separate from the company to allow time to transfer ongoing workloads.
+1. The team member are encouraged to speak to their manager first and to follow up with a written resignation.
+1. Upon receipt, the manager should notify People Ops immediately by forwarding the resignation details and notice provided by the team member.
 1. People Ops will send an email with the following information to the team member:
   * [Process](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for returning all company property. 
   * A review of the team member's post-termination benefits status, if applicable.
@@ -216,14 +214,14 @@ Involuntary termination of any team member is never easy. We've created some gui
 
 Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
 
-1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
-1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
-1. Manager and People Ops: Decide who will handle which part of the conversation, and if desired, practice it. It is strongly advised to have someone from People Ops on the call when the bad news is delivered.
+1. Manager: Reach out to the People Operations Generalist or Sr. Director of People Ops for assistance. We should already be aware of any performance issues already but will review the details in order to prepare for the termination.
+1. Manager and People Ops: Discuss best mode of communicating the news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
+1. Manager and People Ops: Discuss how the termination conversation will be handled. Someone from People Ops must be present at the time of termination. This will prevent miscommunications and risk of additional liability to the company. 
 1. Manager and People Ops: Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later (see the [offboarding checklist](/handbook/offboarding)). Make sure someone with the necessary admin privileges is on hand (in the private chat-channel) to assist with those sensitive offboarding steps that should occur relatively quickly. Do not create the offboarding issue until _after_ the call, since even confidential issues are still visible to anyone in the team.
-1. Manager: Set up a call with the team member in question. Make a separate private calendar event to invite the People Ops representative.
-1. On the call: deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. A sample leading sentence can be "Thanks for joining the call ___ . Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to let you go and end your employment / contract with GitLab." At this point, hand over the call to People Ops to continue. People Ops explains what led to this decision and points to the process that was followed to reach this decision. People Ops to make it clear that the decision is final, but also to genuinely listen to their side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
-1. People Ops: Make sure to communicate the [practical points](#offboarding-points) from the termination memo outlined below.
-1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
+1. Manager: Set up a meeting with the team member and the People Ops Generalist or Director on the day of the termination. If you believe a separate invite to the People Ops attendee is more discreet, send a separate invite to each participant.
+1. On the call: The manager should deliver the bad news kindly but directly, being careful not to prolong sharing the inevitable news. A sample leading sentence might be "Thank you NAME for joining the call. Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to end your employment / contract with GitLab today." Provide the team member a basic understanding of what has caused the decision. If they were on a PIP and were not successful, let them know that is the reason they are being let go. After a brief explanation for the termination and an opportunity for the individual to ask questions, you can hand over the call to People Ops to listen to any concerns and confirm the decision is final.
+1. People Ops: During the call communicate the [practical points](#offboarding-points) from the termination memo outlined below.
+1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding).
 
 
 #### Points to cover during the offboarding call, with sample wording
@@ -231,18 +229,18 @@ Ideally, the manager and the team member have walked through the guidelines on [
 
 The following points need to be covered for any team member:
 
-1. Final Pay: "your final check (or invoice period) is for the pay period of X and includes X days of pay”.
-1. Company Property: “please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone”.
-1. Business Expenses: “please create your final expense report to Expensify (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner”.
-1. Confidentiality and Non-Disclosure: “we know you are a professional, please keep in mind the agreement you signed when you were hired”.
+1. Final Pay: "Your final check (or invoice period) is for the pay period of X and includes X days of pay.”
+1. Company Property: “Please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone.”
+1. Business Expenses: “You should create your final expense report in Expensify (for employees) OR, file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner.”
+1. Confidentiality and Non-Disclosure: “We expect that you will be professional, please keep in mind the agreement you signed when you were hired.”
 
 The following points need to be covered for US-based employees:
 
-1. COBRA: “your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (TriNet) has been notified and the carrier will send out the paperwork to your home address on file”.
+1. COBRA: “Your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (TriNet) has been notified and the carrier will send out the paperwork to your home address on file”.
 1. PPACA: "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
-1. HIPAA: " under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.
-1. Unemployment insurance: "it is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
-1. Please remember to keep TriNet informed if you move I want to be sure your W-2 gets to you at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason)
+1. HIPAA: "Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.
+1. Unemployment insurance: "It is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
+1. Please remember to keep TriNet informed if you move. We want to be sure you receive applicable tax documents at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions you might think of." (consider inviting them to contact you at anytime for any reason)
 
 ### Sample termination memo
 
