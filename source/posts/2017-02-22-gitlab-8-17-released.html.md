@@ -28,3 +28,11 @@ We've combined the existing `Runners`, `Variables`, `Triggers`, and `CI/CD Pipel
 Navigating to `CI/CD Pipelines` will show you one page with all the settings that were previously spread across the 4 original pages.
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
+
+## Audit Users (EE Only)
+
+GitLab Enterprise Edition features a new capability to create users with an `Audit` role. This role allows the user read-only access to all projects, groups and users.
+
+## Impersonation Tokens
+
+Administrators can now retrieve an Impersonation Token for any user, which allows API-based applications to authenticate as other users without needing to go through the cumbersome oAuth process.
