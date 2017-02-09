@@ -452,7 +452,7 @@
   locality: Montpellier
   country: France
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: Interim VP of Marketing
+  reports_to: Technical Writing Lead
   picture: axil.jpg
   twitter: _axil
   gitlab: axil
@@ -933,7 +933,7 @@
   locality: Quatro Barras
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
-  reports_to: Interim VP of Marketing
+  reports_to: Technical Writing Lead
   picture: marcia.jpg
   twitter: XMDRamos
   gitlab: marcia
@@ -1383,8 +1383,8 @@
 - name: Sean Packham
   locality: London
   country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Technical Writer</a>
-  reports_to: Interim VP of Marketing
+  role: <a href="https://about.gitlab.com/jobs/technical-writing-lead/">Technical Writing Lead</a>
+  reports_to: VP of Product
   picture: seanpackham.jpg
   twitter: SeanPackham
   gitlab: SeanPackham
