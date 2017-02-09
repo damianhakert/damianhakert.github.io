@@ -6,6 +6,7 @@ categories: tutorial
 author: Guest author André Miranda
 author_twitter: EuAndreh
 image_title: '/images/unsplash/altssh.jpg'
+guest: true
 ---
 
 In this post we will talk about HTTPS and how to add it to your GitLab Pages site

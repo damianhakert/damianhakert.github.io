@@ -6,6 +6,7 @@ categories: GitLab CI
 image_title: '/images/blogimages/setting-up-gitlab-ci-for-android-projects/banner.jpg'
 twitter_image: '/images/tweets/setting-up-gitlab-ci-for-android-projects.png'
 description: "Learn how to set up GitLab CI for your Android projects."
+guest: true
 ---
 
 Have you ever accidentally checked in a typo that broke your Android build or unknowingly broke an important use case with a new change? Continuous Integration is a way to avoid these headaches, allowing you to confirm that changes to your app compile, and your tests pass before they're merged in.

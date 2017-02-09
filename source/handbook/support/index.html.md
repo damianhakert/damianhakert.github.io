@@ -33,38 +33,24 @@ title: Support
 
 ## <i class="fa fa-question-circle fa-fw icon-color font-awesome" aria-hidden="true"></i>  Support Direction
 
-The overall direction for Support in 2016 is set by our operations [strategy](/strategy), and
-in order to meet our strategic objective, the following topics are being addressed by the team:
-(also see the related [direction issue](https://gitlab.com/gitlab-com/support/issues/40))
+The overall direction for Support in 2017 is set by our overall [strategic objectives](/strategy), with a particular emphasis on continued improvement of (Premium) Customer satisfaction with Support. As can also be inferred from our [publicly visible in our Lattice goal tree](https://gitlab.latticehq.com/public/goals), the effort focuses on the following elements.
 
-**Increase Capacity**
+**Triaging Support Effort**
 
-By hiring more service engineers, adding [Support Turbos](#support-turbo) when needed, and
-making sure that the newly hired service engineers have training materials and pathway readily
-available and defined when they join. We'll also aim to do a better job acknowledging and incentivizing
-the rest of the community in their role of supporting the community at large through contributions to
-documentation and participation in social channels.
+By triaging support effort through internal SLAs and integration of SalesForce, Zuora, and Zendesk, the team can improve the support experience
+for Premium customers while still addressing the questions of _all_ subscribers.
 
-**Trend discovery**
+**Increase Capacity & Develop Experts**
 
-By gathering all our support channels in a central location, Zendesk, we'll be able to tag tickets
-with relevant keywords, and gather data on channel load, agent load, and topic trends. Likewise,
-through implementation of Swiftype on the [documentation](https://doc.gitlab.com/) server, we'll
-get a better handle on what people are looking for and/or not finding.
+In 2016 we expanded the support team significantly, and this trend will continue in 2017. Along the way, the Support team developed internal training tools to assist in rapid, robust, self-guided training for any team member. As GitLab -- the product -- continues to expand, so will the skill and knowledge of all Service Engineers to be able to continue providing an excellent customer support experience.
 
-**Empower Users**
+Know someone who might be a great fit for our team? Please refer them to the [Service Engineer job description](/jobs/service-engineer).
 
-By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
-making documentation easy to find and easy to search, and constantly contributing to further documentation
-with the trend discovery showing where the need is greatest, we can help the community become
-as self sufficient as possible and empower users to problem-solve. A seamless interface between the support team and developers closes the
-feedback loop of user experience back to development, and provides 'network' support for the Service Engineers
-for tough issues.
+**Actionable Analytics**
 
-**Improve Customer Experience**
+Better reporting on ticket metrics (topic, response times, product it relates to, etc.) will help guide the Support Team's priorities in terms of adding to the greatest documentation needs, bug fixes, and support processes.
 
-By triaging support effort through internal SLAs, the team can improve the support experience
-for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+
 
 ## Service and support we provide
 
@@ -77,17 +63,16 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 | SLA | Channel                | Response Time                          |
 |-----|----------------------------|----------------------------------------|
-| 1   | [Emergencies](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
-| 2   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
-| 3   | [Disqus](/handbook/marketing/developer-relations/community-advocacy/#disqus)  and [Twitter](/handbook/marketing/developer-relations/community-advocacy/#twitter)         | 1 business day                         |
-| 4   | Posted Issues & Other      | Two weeks but not sooner than two days |
+| 1   | [Emergencies (Premium Customers only)](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
+| 2   | [Premium Customer - Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets)                | 4 hrs (business)                             |
+| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
 
 **Response time indicates the first reply time.**
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
-The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/knowledge-base/zendesk/setting_ticket_priority.html)
+The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/workflows/zendesk/setting_ticket_priority.html)
 
 ## Tiered Support
 
@@ -104,6 +89,35 @@ Service Engineers should work on tickets within their assigned support tier as a
 1. Other open tickets
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+
+### Hot Queue: How GitLab manages ticket assignments
+
+Support teams often use an "assignment" model, where an agent is assigned a ticket and sees the ticket through to completion. If they are stuck, they can re-assign this ticket to another agent to pick up and try and complete. At GitLab however, we're taking advantage of our global support team and using a system dubbed "Hot Queuing". This system means that we all work from one global queue and it's expected that multiple agents will be working together on most issues. This allows us to do the following:
+
++ Keep tickets moving forward 24/7.
++ Exposes the team to more issues so more learning is happening.
++ Provide faster response to customers since tickets are not hidden away in an agent's personal queue and "bound" to an agent's workday.
++ Everyone has an accurate global representation of the support load.
+
+#### When should tickets be assigned?
+
+There are times in the support process that an agent will want to assign the ticket to themselves:
+
++ If they are going to take the ticket to a call/screenshare, take it out of the queue by assigning the ticket to yourself. After the call, if the ticket is still on-going, feel free to unassign yourself so that everyone can continue to move it forward.
++ If you are commited to solving the problem strategically. There are times where we want this, and agents have full discretion to choose that, but it should be few and far between. 
+
+#### What if I can't answer a ticket?
+
+If you see a ticket in the queue that you are not able to answer, you should:
+
++ Make an internal note with your gut feelings as to where the issue might be.
++ CC yourself so you can follow along as the ticket progresses.
++ If you know that agents will need logs or version information, feel free to start with a simple response asking for such.
++ Consider escalating the ticket to Tier 2 (see below)
+
+With the hot queue, we all work together and no one should be scared to start a ticket.
+
+
 
 ### Tier 1 Support
 

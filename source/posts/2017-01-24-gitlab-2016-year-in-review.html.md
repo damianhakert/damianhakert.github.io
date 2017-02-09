@@ -2,11 +2,10 @@
 title: "GitLab 2016 Year In Review"
 author: Connor Shea
 author_twitter: connorjshea
+author_gitlab: connorshea
 categories: GitLab
-image_title: '/images/2016-year-in-review/gitlab-2016-in-review-cover.png'
+image_title: '/images/blogimages/2016-year-in-review/gitlab-2016-in-review-cover.png'
 description: 'We’re proud to announce that we closed 2016 with the entire idea-to-production workflow, as promised! These are the highlights!'
-cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
-cta_button_link: https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html
 twitter_image: '/images/tweets/gitlab-2016-year-in-review.png'
 ---
 
@@ -24,11 +23,11 @@ For a visual of how far we’ve come, take a look at these two screenshots.
 
 An issue for GitLab Community Edition on January 22, 2016 (8.4):
 
-![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/2016-year-in-review/gitlab-8-4.png)
+![Screenshot of an issue from GitLab 8.4 on January 22, 2016](/images/blogimages/2016-year-in-review/gitlab-8-4.png)
 
 An issue for GitLab Community Edition on January 3, 2017 (8.15):
 
-![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/2016-year-in-review/gitlab-8-15.png)
+![Screenshot of an issue from GitLab 8.15 on January 3, 2017](/images/blogimages/2016-year-in-review/gitlab-8-15.png)
 
 ## January: 8.4
 
@@ -294,13 +293,6 @@ As always, if you found this post interesting and want to contribute to the proj
 What improvements do you want to see this year?
 
 {::options parse_block_html="true" /}
-
-Catch our upcoming webcast about
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-**GitLab 8.16**
-&nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
-on January 26. [Register here!](https://page.gitlab.com/20170126_autodeploy_autodeploywebterminal.html)
-{: .alert .alert-webcast}
 
 <!-- Links -->
 
