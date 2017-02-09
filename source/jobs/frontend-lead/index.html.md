@@ -23,7 +23,7 @@ title: "Frontend Lead"
 
 ## Requirements for Applicants
 
-* Experience leading, mentoring, and training teams of frontend engineers
+* At least 1 year of experience leading, mentoring, and training teams of frontend engineers
 * Experience working on a production-level JavaScript applications
 * Self-motivated and strong organizational skills
 * Strong understanding of CSS
