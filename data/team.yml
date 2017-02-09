@@ -47,7 +47,7 @@
   role: Board of Directors
   reports_to: August Capital
   twitter: VilliSpeaks
-  gitlab: Villi 
+  gitlab: Villi
   picture: logo-extra-whitespace.png
   story:  |
           To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
@@ -184,7 +184,7 @@
           He's focusing lately on security principles of mobile platforms and the "container revolution". In his spare time he likes to run, cycle and play good games, although not all at the same time.
 
 - name: Josh Wrede
-  locality: San Francisco, CA
+  locality: Denver, CO
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
   reports_to: Regional Sales Director - US
@@ -249,9 +249,9 @@
   twitter: ernstvannierop
   gitlab: ernstvn
   maintains:  |
-              <li>Interim <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a></li>
+              <li>Maintainer of the <a href="https://about.gitlab.com/handbook/people-operations/global-compensation-calculator/"> Global Compensation Calculator</a></li>
   story:  |
-          Ernst comes from a physics and engineering background, and was most recently the VP of Engineering at C12 Energy helping to clean up part of our energy infrastructure.
+          Ernst comes from a physics and engineering background, and was previously the VP of Engineering at C12 Energy helping to clean up part of our energy infrastructure.
           He enjoys tackling a wide variety of challenges, including the technical, people, and organizational aspects of cool growing companies.
           In his spare time, Ernst likes to think that he flies gliders, travels, and goes scuba diving, but actually he's having a great time playing with his kids and golden retrievers.
 
@@ -644,21 +644,6 @@
           and automating everything. Because doing the same thing thrice is just boring. In his free time he takes care
           of his family and enjoys riding in 2 wheels, with or without engine.
 
-- name: Ivan Nemytchenko
-  locality: Belgrade
-  country: Serbia
-  role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
-  reports_to: Interim VP of Marketing
-  picture: ivan.jpg
-  twitter: inemation
-  gitlab: inem
-  story:  |
-          Rubyist since 2006, IT events addict since 2008, speaker since 2010, Lean Poker facilitator since 2015.
-          Co-founded two IT-agencies, co-organized two conferences, brewed 50 liters of mulled wine for an afterparty.
-          Has too many interests and produces more ideas than anybody could consume.
-          In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter,
-          and travels across nearby countries (after Russia, all European countries seem to be nearby ;)
-
 - name: Alfredo Sumaran
   locality: Lima
   country: Peru
@@ -680,17 +665,16 @@
 - name: Zeger-Jan 'ZJ' van de Weg
   locality: Zeist
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Junior Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: CI Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
-              <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html">Chat Commands</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
-          Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
+          Zeger-Jan is a husband, and father of an awesome son. In his spare time he spends time with his family,
           plays board games (he hates not winning) and watch TV shows. Two years ago, Douwe introduced him to Ruby and Zeger-Jan instantly fell in love with the elegant syntax and the expressiveness.
           Later he picked up Elixir and when there is time left, he spends this time fiddling with his Raspberry Pi's and ArchLinux.
 
@@ -720,29 +704,6 @@
   gitlab: mitchellwright
   story:  |
           Mitchell is a technical marketer that began his career consulting with B2C companies on their online presence. He has since shifted to helping B2B companies drive demand for their products through digital marketing. He enjoys playing volleyball, ultimate frisbee, and trying new restaurants with his wife.
-
-- name: Felipe Cabargas
-  locality: Santiago
-  country: Chile
-  role: <a href="https://about.gitlab.com/jobs/community-advocate/">Community Advocate</a>
-  reports_to: Interim VP of Marketing
-  picture: felipe.jpg
-  twitter: juanpintoduran
-  gitlab: cabargas
-  story:  |
-          Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
-
-- name: Braden Coleman
-  locality: Provo, UT
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: BDR Manager
-  picture: Braden.jpg
-  twitter: jannandbraden
-  gitlab: bradenC
-  story:  |
-          Braden is passionate about software and marketing. He is currently studying at BYU and is an avid supporter of their athletics. When he’s not buried in marketing projects or the school’s library he can be found adventuring in the great outdoors with his wife and son.
-
 
 - name: Amanda Folson
   locality: Alameda, CA
@@ -940,20 +901,6 @@
           people write code. Despite dabbling with other editors, he's been unable to
           break his Emacs habit. He lives in Scotland, and spends his free time playing
           sports, overthinking films, and failing to maintain his garden.
-
-- name: Colton Taylor
-  locality: Pleasant Grove, UT
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/demand-generation-specialist/">Demand Generation Specialist</a>
-  reports_to: Interim VP of Marketing
-  picture: colton.jpg
-  twitter: ctaylor021
-  gitlab: cdtaylor
-  story:  |
-          Colton is passionate about demand generation, business development, and marketing automation.
-          With a particular interest in innovative technologies, he found a great match at GitLab.
-          When not at work, Colton enjoys basketball, football, golf, and action sports.
-          He and his wife love being outdoors with their dog, as well as traveling often.
 
 - name: Mark Fletcher
   locality: Burton upon Trent
@@ -1246,7 +1193,6 @@
   story:  |
           Chet has been in tech sales for the past three years and has grown passionate about performance, user experience, and business development. Originally from Idaho (no he didn't live on a farm...) Chet loves hunting, fishing, and spending time in the outdoors as well as traveling and trying out new restaurants with his wife.
 
-
 - name: Ahmad Sherif
   locality: Cairo
   country: Egypt
@@ -1376,17 +1322,6 @@
           ("You're my boy Blue!!"). His pet peeves include inefficiency, slow walkers, and people who
           continuously press the call button believing the elevator will come sooner.
 
-- name: Kris Touzel
-  locality: Myrtle Beach, SC
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: BDR Manager
-  picture: kris.jpg
-  twitter: kris_touzel
-  gitlab: Touzel2
-  story:  |
-          Prior to joining GitLab, Kris was a civil engineering designer. When he is not at work he is enjoying the outdoors, surfing, kayaking, camping, and attending NASCAR races.
-
 - name: Erica Lindberg
   locality: Boulder, CO
   country: USA
@@ -1460,17 +1395,6 @@
           design, 2D and multiplayer game development at his past university.
           When Sean is not sharing the wonders of GitLab with others he can
           be found playing and coding games or exploring London.
-
-- name: Dan Parris
-  locality: Maryland
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: BDR Manager
-  picture: dan-picture.jpg
-  twitter: _dparris
-  gitlab: dparris
-  story:  |
-          Dan is passionate about people, using technology to solve problems, and enjoys finding new ways to help teams work better together. Before joining GitLab, he was involved with web development, and starting businesses. He's excited to contribute on the business development team, and when not at work, he enjoys being outdoors, playing sports, and traveling.
 
 - name: Abby Matthews
   locality: London
@@ -1665,22 +1589,6 @@
           code. An avid motorcyclist and ice hockey player, Brian also sometimes enjoys standing in a cold
           mountain stream and wondering where all the fish went.
 
-- name: David França
-  locality: Worthing
-  country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/junior-designer/">Junior Designer</a>
-  reports_to: Designer
-  picture: david.png
-  twitter: davidjnf
-  gitlab: dfranca
-  story:  |
-          David is a Portuguese Designer, currently living in the UK. He's
-          passionate about all things art, design or tech related. Before joining
-          GitLab he worked as a freelance Designer on projects ranging from print
-          to digital. When he's not working, he can be found taking a walk along
-          the beach with his beautiful, soon to be wife, or being a humble servant
-          to his two cats. He also has a soft spot for mid-century furniture.
-
 - name: Clement Ho
   locality: Austin, TX
   country: USA
@@ -1737,8 +1645,8 @@
 - name: Lee Matos
   locality: New York City
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
+  reports_to: VP of Engineering
   picture: leematos.jpg
   twitter: leematos
   gitlab: lbot
@@ -1876,21 +1784,6 @@
           and lurking on IRC. On her spare time, she enjoys photography, traveling,
           and gardening.
 
-- name: Stephane Cornille
-  locality: Buenos Aires
-  country: Argentina
-  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager-partner/">Product Marketing Manager - Partner and Channel Specialist</a>
-  reports_to: Director of Product Marketing
-  picture: stephanecornille.jpg
-  twitter:
-  gitlab: scornille
-  story:  |
-          Futurist and astronaut-in-waiting, Stephane hails from the Land of the
-          Long White Cloud, aka New Zealand. Stephane is open-minded challenger
-          with expertise leading global marketing launches, and managing product
-          life cycles. When he is not working, he is exploring abandoned places,
-          gardening or learning about space.
-
 - name: Jeanine Adkisson
   locality: Oakland, CA
   country: USA
@@ -2018,17 +1911,6 @@
   story:  |
           Balu is from Kerala, southern most part of India and is passionate about anything related to Freedom and Privacy. He has been contributing to different Free Software and language computing communities for quite some time, especially in Packaging (he is currently a Debian Maintainer), Software Development, Localization, and Evangelism. Other than a computer geek, he is mainly a procaffinator and a bibliophile. He enjoys reading (and sometimes even writing) poetry too.
 
-- name: Krys Lambiase
-  locality: San Antonio, TX
-  country: United States
-  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Product Marketing Manager - Enterprise Specialist</a>
-  reports_to: Director of Product Marketing
-  picture: krys-lambiase.jpg
-  twitter: lambo_tech
-  gitlab: krysl
-  story:  |
-          Krys is from San Antonio, TX.  He has worked in the IT industry for over 8 years and has a passion for creative writing and product marketing.  Krys enjoys enabling people to learn new things and helping them along their career path.  In his free time he enjoys running and playing video games.
-
 - name: Matija Čupić
   locality: Belgrade
   country: Serbia
@@ -2091,16 +1973,16 @@
           Prior to joining GitLab, Courtney worked in Business Development and Project Management for a mortgage company.
           When she’s not at work she can be found free diving on the North Shore, dabbling in photography, ridge hiking, and traveling as much as possible.
 
-- name: J.A.
-  locality:
-  country:
+- name: Jim Ash
+  locality: San Francisco, CA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Account Executive</a>
   reports_to: Regional Sales Director - US
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jimash.jpg
+  twitter: jashsf
+  gitlab: jimash
   story:  |
-          Joining December 12th
+          Jim has spent many years in high technology sales and joins us most recently form Koding, a GitLab partner. Jim enjoys time with his family, Darlene, Jordan and Juno in San Francisco and Tahoe on the weekends.
 
 - name: Collen Kriel
   locality: Kampot
@@ -2154,17 +2036,6 @@
           Most of the time Toon lives inside Emacs typing code on one of his
           mechanical ergonomic keyboards.
 
-- name: Ty Ravsten
-  locality: Provo, UT
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/marketing-frontend-engineer/">Junior Marketing Frontend Engineer</a>
-  reports_to: Designer
-  picture: Ty_Ravsten.jpg
-  twitter:
-  gitlab: ty@gitlab.com
-  story:  |
-          Ty is passionate about learning and development. In his last year at Brigham Young University, he's internalizing all he can - from frontend to backend web development, data warehousing to iOS/mobile development, business management to entrepreneurship. He's discovered his love for technology and development during the last 5-10 years and he feels great about his retirement from his former, more physically-demanding jobs: mover for a moving company, landscaper, and door-to-door salesman. Whenever he can get the chance, he'll be spending time with his wife and family and friends, and keeping up hobbies: playing the organ and piano, basketball, tennis, golf with his wife, mountain biking, and reading.
-
 - name: Jaroslava 'Jarka' Kadlecová
   locality: Pilsen
   country: Czech Republic
@@ -2189,15 +2060,15 @@
           Xiaogang is based in Beijing, China where he has been living for more than 20 years. His whole career has been dedicated to software tooling, with various roles, from SCM support specialist to solution architect. Xiaogang has deep experience on software build acceleration and software production automation. He loves traveling, especially around places steeped in history, and enjoys a variety of foods.
 
 - name:  Mark Rogge
-  locality: Sunny San Diego California 
+  locality: Sunny San Diego California
   country: USA
   role: <a href="https://about.gitlab.com/jobs/regional_director_sales/regional-director-sales/">Regional Director of Sales</a>
   reports_to: CRO
   picture: markorogge.jpg
   twitter:
   gitlab:
-  story:    A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.  
-           
+  story:    A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.
+
 
 - name: Oswaldo Ferreira
   locality: Campos, RJ
@@ -2288,17 +2159,6 @@
           including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
           He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
-- name: Tim Peix
-  locality: Edinburgh, Scotland
-  country: United Kingdom
-  role: <a href="https://about.gitlab.com/jobs/content-designer/">Content Designer</a>
-  reports_to: Interim VP of Marketing
-  picture: timpeix.jpg
-  twitter: timpeix
-  gitlab: timpeix
-  story:  |
-          Tim has worked in the fields of app design, game design and interactive storytelling for numerous agencies, start-ups and companies. From 2014 to 2016 he was Design Teaching Assistant at Weißensee School of Art Berlin where he taught interaction design, digital media and app prototyping. Tim studied Visual Communication at Weißensee School of Art Berlin and Animation at University of the West of England in Bristol. Tim grew up in Germany and has lived in the United Kingdom before as a volunteer in a caring home and as a design student. He likes to spend his free time skiing, doing road trips and playing Cards Against Humanity with his friends.
-
 - name: P.C.
   locality:
   country:
@@ -2332,17 +2192,38 @@
   story:  |
           Joining February 6th
 
-- name: "Ernst (Interim)"
-  placeholder: true
+- name: T.P.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
-  reports_to: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Open Position
+          Joining February 6th
+
+- name: A.J.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 6th
+
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 13th
 
 - name: "Sid (Interim)"
   placeholder: true

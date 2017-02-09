@@ -1,3 +1,10 @@
+function openSocialLink(link, width, height) {
+  var left = (window.innerWidth / 2) - (width / 2);
+  var top = (window.innerHeight / 2) - (height / 2);
+
+  window.open(link.href, 'targetWindow', 'menubar=no,status=no,resizable=no,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left);
+}
+
 function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1);
   var sURLVariables = sPageURL.split('&');

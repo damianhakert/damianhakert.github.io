@@ -33,7 +33,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 ## Preparation
 
 > * You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
-> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed.
+> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed. TODO: [Make demo use raw Kubernetes instead of Google Cloud SDK](https://gitlab.com/gitlab-org/gitlab-ce/issues/27330)
 >   * Run `gcloud components install kubectl`
 > * Login to [Google Cloud Platform](https://console.cloud.google.com/kubernetes).
 > * GitLab employees should use the `gitlab-demos` project. Others should select or create a project to work in.
@@ -157,7 +157,7 @@ We now create a group for our company; let’s name it `tanuki`.
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
 > * Create a project under the `tanuki` group
-> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git)
+> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)
 > * Make it public
 
 ### Add Kubernetes credentials to CI
@@ -190,7 +190,8 @@ Now let's save the settings. And then let's test the settings just to make sure.
 
 ### Setup Mattermost Command
 
-TODO: [Automate the setup of the team and channel](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964)
+TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
+Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)
 
 While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
 
@@ -223,6 +224,8 @@ Great. The defaults looks pretty good, so let's go with them.
 ### Setup GitLab Auto-Deploy
 
 Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
+
+TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)
 
 > * Go to Project, Click `Set up auto deploy`
 > * Choose Kubernetes template
@@ -283,11 +286,11 @@ There. Now we can just drag the new issue from the backlog into the Doing column
 
 ## Code (Terminal)
 
-TODO: [Demo with a rails application instead of a static website](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
+TODO: [Split containers: separate dev / prod containers](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides web terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
-TODO: [After using the new branch button in an issue I want to press a terminal button](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)
+TODO: [Create terminal button in new branch view](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)
 
 > * Go to Pipelines
 > * Go to Environments
@@ -309,7 +312,7 @@ Now we’ve saved the changes, let's restart the server.
 
 And now we can view the web page live to see how we like the changes.
 
-> * Go back
+> * Go back TODO: [Add environment URL link to terminal page](https://gitlab.com/gitlab-org/gitlab-ce/issues/27336)
 > * Click external URL link on top right (2nd from right)
 
 ## Commit (Repo)

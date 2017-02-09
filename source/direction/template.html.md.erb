@@ -95,7 +95,7 @@ Some key achievements for Q1, Q2 for 2017.
 1. Q1: Introduce plans and in-UI subscriptions
 1. Q2: Tier-exclusive features
 
-## Direction <a name="direction"></a>
+## Direction
 
 Below are features that represent the direction we see GitLab going in. This list is not
 prioritized. We invite everyone to join the discussion by clicking the direction
@@ -108,13 +108,60 @@ very much welcome contributions that implement any of these things.
 
 <%= wishlist["chat commands"] %>
 
-### CI
+### CI / CD
+
+We want to help developers get their code into production; providing convenience and confidence to the developer in an integrated way. CI/CD focuses on steps 6 through 9 of our [scope](#scope): Test (CI), part of Review (MR), Staging (CD), and part of Production (Chatops). When viewed through the CI/CD lens, we can group the scope into CI, CD, and things that are currently beyond any definition of CD.
+
+![GitLab CI/CD Scope](/images/direction/cicd/revised-gitlab-ci-scope.svg)
+
+Many of the issues describe development of an n-tier web app, but could equally be applied to an iOS app, Ruby gem, static website, or other type of project.
+
+See a slightly more complete rendering of an [example pipeline](complex-pipeline.svg).
+{: .note}
+
+<!--{: #sample .alert .alert-info}-->
+
+#### Pipelines
+
+<%= wishlist["pipeline"] %>
+
+#### Build
+
+GitLab CI provides an explicit `build` stage and the concept of build artifacts, but we might need to separate out the build artifacts from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
+
+* Build as first-class citizen, separate entity from artifacts
+* Build history
+* Identify docker image as build for specific pipeline
+* Releases as first-class entry?
+  * Release = build + config, so this implies we'd manage config
+<%= wishlist["ci-build"] %>
+
+#### Test
+
+* Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time
+<%= wishlist["test"] %>
+
+#### Deploy
+
+A key part of CD is being able to deploy. We currently have this ability via scripts in the `deploy` stage in `.gitlab-ci.yml`. We will go further.
+
+* Other services (e.g. TestFlight, Apple)
+<%= wishlist["deploy"] %>
+
+#### Deliver
+
+What's the difference between Deploy and Deliver? There's a big benefit to decoupling deployment of code from delivery of a feature, mostly using feature flags. Continuous integration helps improve the speed of development, but feature flags take it to another level, giving you the confidence to integrate code even more often while providing a gradual and granular method for delivery.
+
+<%= wishlist["deliver"] %>
+
+#### Monitor
+
+See [Prometheus Monitoring](#prometheus-monitoring).
+{: .note}
+
+#### Misc
 
 <%= wishlist["CI"] %>
-
-### CD
-
-<%= wishlist["deploy"] %>
 
 ### Code Review
 
@@ -187,10 +234,18 @@ Moonshots are big hairy audacious goals that may take a long time to deliver.
 - [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
 <%= wishlist["moonshots"] %>
 
-## Scope <a name="scope"></a>
+## Premium Features
+
+Premium features will only be available to EE Premium subscribers. These issues appear in [direction](#direction) above, but are collected hear for convenience.
+
+<%= wishlist["EE Premium"] %>
+
+## Scope
 
 [Our vision](#vision) is an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we ship the following features in our Omnibus package:
+
+![Lifecycle](handbook/sales/lifecycle.png)
 
 1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/)
 1. **Issue** (Tracker) => Issue Tracker
@@ -198,12 +253,12 @@ To achieve this we ship the following features in our Omnibus package:
 1. **Code** (IDE) => [Web editor](https://docs.gitlab.com/ce/user/project/repository/web_editor.html) and [web terminal](https://docs.gitlab.com/ce/ci/environments.html#web-terminals)
 1. **Commit** (Repo) => GitLab Repositories
 1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/) and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/)
-1. **Review** (MR) => GitLab Merge Requests and [Review Apps](https://about.gitlab.com/features/review-apps/)
+1. **Review** (MR) => GitLab [Merge Requests](https://docs.gitlab.com/ce/user/project/merge_requests.html) and [Review Apps](https://about.gitlab.com/features/review-apps/)
 1. **Staging** (CD) => [GitLab Deploy](https://docs.gitlab.com/ce/ci/environments.html) and [auto deploy](https://docs.gitlab.com/ce/ci/autodeploy/index.html)
 1. **Production** (Chatops) => [Mattermost slash commands](https://docs.gitlab.com/ee/project_services/mattermost_slash_commands.html) and [Slack slash commands](https://docs.gitlab.com/ce/project_services/slack_slash_commands.html)
 1. **Feedback** (Monitoring) => [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/) and [Prometheus](https://about.gitlab.com/2017/01/05/prometheus-and-gitlab/).
 
-Also see our [demo](https://about.gitlab.com/handbook/sales/demo/) and our [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
+Also see our [demo](/handbook/sales/demo/) and our [vision for CI and CD](cicd/).
 
 ### Outside our scope
 
@@ -386,7 +441,7 @@ focused.
 
 ### Enterprise Editions
 
-![](ee-versions.png)
+![EE Versions](ee-versions.png)
 
 GitLab comes in 4 editions:
 

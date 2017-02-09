@@ -91,7 +91,8 @@ helpers do
 
   def job_for_current_page
     open_jobs.detect do |job|
-      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+      job_desc = job.description.sub(%r{\A/}, '').split('/')
+      File.join(job_desc) == File.dirname(current_page.request_path)
     end
   end
 
@@ -122,6 +123,9 @@ helpers do
     link_to(link_text, url, options)
   end
 
+  def full_url(current_page)
+    "#{data.site.url}#{current_page.url}"
+  end
 end
 
 # Build-specific configuration

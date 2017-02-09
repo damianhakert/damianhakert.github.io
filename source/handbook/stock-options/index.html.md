@@ -123,6 +123,10 @@ team member quitting because of personal circumstances. In most cases there will
 to pay for shares and the taxes yourself or lose the options, even when you are fully vested. And of course [an IPO in 2020
 is our public ambition](https://about.gitlab.com/strategy/) but neither timing or if it happens at all is guaranteed.
 
+## Administration
+
+We use eShares to administer our stock option program.  You will receive a grant notice to your GitLab email address.  Clicking through that email will enable you to set up a user account at eShares.  You can find all of the terms and conditions of the stock program as well as your specific grant within the eShares system.  As a helpful hint we suggest that you add a second, permanent email address to your profile.  This can be added by clicking on your name in the upper right hand corner and selecting "update profile".
+
 ## Exercising Your Options
 
 "Exercising your options" means buying the stock guaranteed by your options. You pay

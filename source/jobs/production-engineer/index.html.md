@@ -28,10 +28,10 @@ practices like TDD or continous integration (to start with).
 ## You may be a fit to this role if you:
 
 * Think about systems - edge cases, failure modes, behaviors, specific implementations.
-* Know your way around linux and the Unix Shell.
+* Know your way around Linux and the Unix Shell.
 * Have an interest in distributed systems and a solid understanding of how modern web stacks are built, and why.
 * Know what is the use of config management systems like Chef (the one we use)
-* Have strong programing skills - Ruby and/or Go (for operations and infrastructure projects respectively)
+* Have strong programming skills - Ruby and/or Go (for operations and infrastructure projects respectively)
 * Hold yourself to a high bar when working in production environments.
 * Have an urge to collaborate and communicate asynchronously.
 * Have an urge to document all the things so you don't need to learn the same thing twice.
@@ -98,7 +98,7 @@ Senior Production Engineers who meet the following criteria:
 	* Set the necessary goals and SLO (Service Level Objectives) that will guide the infrastructure team to build a better product
 3. Communication
   * Writes in-depth documentation that shares knowledge and radiates GitLab technical strengths
-4. Production, Scalability & automation
+4. Production, Scalability & Automation
 	* Strives for automation either by coding it or by leading and influencing developers to build systems that are easy to run in production.
 	* Measure the risk of introduced features to plan ahead and improve the infrastructure.
 
