@@ -14,7 +14,7 @@ GitLab Inc. has 4 product offerings:
 1. [GitLab Community Edition (CE)](https://about.gitlab.com/features/#community) - free, self hosted application, support from [Community](https://about.gitlab.com/getting-help/)
 1. [GitLab Enterprise Edition (EE)](https://about.gitlab.com/pricing/) - paid, self hosted application, comes with additional features and support
 1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
-1. [GitHost.io](https://about.gitlab.com/githost-io/) - a private single-tenant GitLab instance run by us
+1. [GitHost.io](https://githost.io/) - a private single-tenant GitLab instance run by us
 
 GitLab Inc. also offers:
 

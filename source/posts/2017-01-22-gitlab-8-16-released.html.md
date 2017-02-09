@@ -3,6 +3,7 @@ title: "GitLab 8.16 Released with auto deploy on Google Container Engine and Pro
 categories: release
 author: Job van der Voort
 author_twitter: Jobvo
+author_gitlab: JobV
 image_title: '/images/8_16/pic.jpg'
 description: GitLab 8.16 Released with Time Tracking coming to Community Edition and new API, Deploy Keys with write-access, and monitoring with Prometheus
 ---

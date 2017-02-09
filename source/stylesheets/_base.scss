@@ -503,6 +503,16 @@ iframe {
   }
 }
 
+.explore-gitlab-products {
+  border-top: 1px solid $navbar-default-border;
+  background-color: $body-bg;
+  padding-bottom: 100px;
+
+  .page-headline {
+    color: $color-primary;
+  }
+}
+
 // scss-lint:disable SelectorFormat
 .a2a_default_style {
   margin-top: 10px;

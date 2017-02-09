@@ -236,15 +236,12 @@
   - description: Next business day support
     only_in_ee: true
     link: https://about.gitlab.com/support/
-  - description: 4-hour non-emergency response time                                           
+  - description: 4-hour non-emergency response time
     only_in_eep: true
     link: https://about.gitlab.com/features/premium-support
   - description: 24/7 emergency support with 30-minute response time
     only_in_eep: true
     link: https://about.gitlab.com/features/premium-support
   - description: Live upgrade assistance
-    only_in_eep: true
-    link: https://about.gitlab.com/features/premium-support
-  - description: Access to GitLab's internal chat channel for support
     only_in_eep: true
     link: https://about.gitlab.com/features/premium-support

@@ -5,7 +5,7 @@ title: "People Operations"
 
 ## Communication
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to GitLabbers at GitLab)
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 - [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
@@ -20,6 +20,7 @@ title: "People Operations"
 - [Travel](/handbook/travel/)
 - [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
 - [Functional Group Updates](/handbook/people-operations/functional-group-updates)
+- [OKRs and LatticeHQ](/handbook/people-operations/OKR/)
 
 ## On this page
 {:.no_toc}
@@ -36,7 +37,7 @@ In general, the People Operations team and processes are here as a service to th
 ## Team Directory
 {: #directory}
 
-The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
+The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all GitLabbers. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
@@ -45,7 +46,7 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.
 
-Team members are not authorized by the company to speak on its behalf to complete reference requests for team members no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
+GitLabbers are not authorized by the company to speak on its behalf to complete reference requests for GitLabbers no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
 
 ## Office addresses
 {: #addresses}
@@ -74,16 +75,16 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
 ### Sick time - taking and reporting
 {: #sick-time}
 
-In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
+In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all GitLabbers.
 
-**All team members**
+**All GitLabbers**
 
 - If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick leave when you need it. Sick leave is meant to be used when you are ill, or to care for family members including your parent(s), child(ren), spouse, registered domestic partner, grandparent(s), grandchild(ren), and sibling(s).
 - You do need to report when you take sick leave, either by emailing your manager and People Ops, or by using the "Request time off" function in BambooHR. This way, it can be tracked in BambooHR and related payroll systems.
 - If you need sick leave for more than 8 consecutive calendar days, notify your manager and People Ops to accommodate an extended leave request. What can (or must) be accommodated varies from location to location: GitLab will comply with the applicable laws in your specific location.
 - Upon request, you should be able to provide proper documentation of the reason for your sick leave (doctor's note).
 
-**Details for specific groups of team members**
+**Details for specific groups of GitLabbers**
 
 - Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
 - Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements).
@@ -101,12 +102,64 @@ This policy applies to all current employees and candidates for employment.
 If you change your address, you should let GitLab know the new address within a month. The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
-- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
+- If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
 
-### Administrative details of benefits for US-based employees
+### Title Changes
+
+At GitLab, we encourage team members to take control of their own career ladders and career advancement. In all processes of title changes, the team member will speak with their manager about the change. Come prepared with an explanation of how you believe you meet the proposed level and can satisfy the business need.
+
+As a manager, please follow the following processes, and do not make promises to the team member before the approvals are completed.
+
+#### Promotions
+
+To promote one of your direct reports, a manager should follow the following steps:
+
+- Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance, not based on potential). If the criteria for promotion are not adequately described on the relevant job description page, then work on that first.
+- Manager must obtain agreement from their own manager(s), all the way through the chain of command to the CEO.
+- Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator. Don't send the promotion-proposal to the CEO until this part is included.
+- Once written agreement is reached on the promotion and changes (if any) in compensation, the manager informs the individual.
+- Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/sop/#processing-changes) in relevant administrative systems.
+- Promotions are then announced by the manager on the team call; where the manager describes how the individual met the promotion criteria and includes a link to the merge request where the individuals title is updated on the team page.
+- If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [GitLab Organization issue tracker](https://gitlab.com/gitlab-com/organization/) to list and track progress on those topics.
+
+#### Demotions
+
+To demote one of your direct reports, a manager should follow the following steps:
+
+- The manager should discuss any performance issues or possible demotions with the People Ops Business Partner in their scheduled meetings.
+- To initiate the process, the manager must obtain agreement from two levels of management.
+- Proposed changes to a current job description or a new job description should be delivered with request for approval by the second level manager and the People Ops Business Partner.
+- Demotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator.
+- Once written agreement is reached on the demotion and changes (if any) in compensation, send the agreement to the CEO for final approval.
+- Once approved, the manager informs the individual. Please cc People Ops once the individual has been informed, to [processes the changes](/handbook/people-operations/sop/#processing-changes) in the relevant administrative systems.
+- Changes in title are announced on the team call.
+- The manager will initiate any necessary onboarding or offboarding.
+
+#### Department Transfers
+
+If you are interested in a position, regardless of level, outside your department or general career progression, you can apply for a transfer.
+
+- If you are interested in a transfer, first discuss this with your manager so that everyone is aware of the situation.
+- Transfers must go through the application process for the new position by applying on the [Jobs page](http://about.gitlab.com/jobs). The team member will go through the entire interview process outlined on the job description. Any questions about the role or the process? Please reach out to People Ops to discuss.
+- People Ops will ensure that, if applicable, the position has been posted for at least five business days before an offer is made.
+- [Compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels) may be reviewed during the hiring process to reflect the new level and position.
+- A new [contract](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements) will be sent out following the hiring process.
+- If the team member is transferred, the new manager will announce on the team call and begin any additional onboarding or offboarding necessary.
+
+##### Internal Department Transfers
+
+If you are interested in another position within your department and the hiring manager is also your manager, then the interview process is not necessary.
+
+- Present your proposition to your manager.
+- The manager will asses the function requirements; each level should be defined in the job description.
+- If approved, your manager will need to obtain approval from their manager, through the chain of command to the CEO.
+- [Compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels) will be reevaluated to ensure it adheres to the compensation calculator. Don't send the proposal to the CEO until this part is included.
+- If the team member is transferred, the manager will announce on the team call and begin any additional onboarding or offboarding necessary.
+
+## Administrative details of benefits for US-based employees
 {: #benefits-us}
 
-#### 401k
+**401k**
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -121,7 +174,7 @@ after the 1st of the month after your hire date.
    1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
-### Using RingCentral
+## Using RingCentral
 {: #ringcentral}
 
 Our company and office phone lines are handled via RingCentral. The login credentials
@@ -147,8 +200,8 @@ number is dialed.
 
 1. What are we doing to get there?
   * Per an open [issue](https://gitlab.com/gitlab-com/peopleops/issues/138), People Operations will be developing training for managers on this topic.
-  * GitLab would also like to encourage team members to take their [time off](https://about.gitlab.com/handbook/#paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
-  * In addition to our current EAP programs available for employees, we encourage team members to take a look at (Working Through It)(http://www.workplacestrategiesformentalhealth.com/wti/Home.aspx) for insight into reclaiming well-being at work, off work, and return to work.
+  * GitLab would also like to encourage GitLabbers to take their [time off](https://about.gitlab.com/handbook/#paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
+  * In addition to our current EAP programs available for employees, we encourage GitLabbers to take a look at (Working Through It)(http://www.workplacestrategiesformentalhealth.com/wti/Home.aspx) for insight into reclaiming well-being at work, off work, and return to work.
   * We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive.
     * For example, Finding the right words:
       * "How can we help you do your job?"
@@ -161,7 +214,7 @@ Any questions or concerns? Please feel free to speak with anyone in People Ops!
 
 ## Dutch work permits
 
-Some of our GitLab team members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/EN/business/employer/highly-skilled-migrants/Pages/default.aspx) category of the Immigration and Naturalization Service (IND).
+Some of our GitLabbers in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/EN/business/employer/highly-skilled-migrants/Pages/default.aspx) category of the Immigration and Naturalization Service (IND).
 
 - GitLab is a recognized organization ("erkend referrent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones.
 - Work permits must be renewed at the end of each contract period, but at minimum once every 5 years.

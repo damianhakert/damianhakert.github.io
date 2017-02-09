@@ -2,6 +2,7 @@
 title: "Functional Group Update: Product"
 author: Erica Lindberg
 author_twitter: EricaLindberg_
+author_gitlab: erica
 categories: gitlab
 image_title:
 description: 'Watch the recording from our Product team update.'

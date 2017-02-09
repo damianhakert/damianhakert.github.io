@@ -30,9 +30,9 @@ That is perfectly fine. It is more important to give something awesome than to s
 
 You don't have to, there is an Amazon, or something like it in most countries. Let them do the heavy lifting! If you can't come up with a solution, please ask @zj on Slack.
 
-> Shipping my trebuchet will be expensive, can I take it with me to Mexico (summit) and give it there?
+> Shipping my trebuchet will be expensive, can I take it with me to the next summit and give it there?
 
-For a full size trebuchet I'll make an exception, other than that, please do not bring your gift to Mexico. This means a couple of things:
+For a full size trebuchet I'll make an exception, other than that, please do not bring your gift to the next summit. This means a couple of things:
 1. The other participant has to have some spare room in their suitcase
 1. Some people will already have a gift, I wouldn't be able to handle the suspense!
 1. No clue, just ship it!

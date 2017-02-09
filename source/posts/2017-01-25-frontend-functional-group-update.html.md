@@ -2,6 +2,7 @@
 title: "Frontend functional group update"
 author: Sean Packham
 author_twitter: SeanPackham
+author_gitlab: SeanPackham
 categories: gitlab
 image_title:
 description: 'Watch the recording from our Frontend team update.'

@@ -95,6 +95,11 @@ actual users. This is a much more informative mechanism than the intuition
 of a product person (though note that this doesn't mean we should just build
 whatever feedback tells us).
 
+Despite its minimal form, the change
+* always requires documentation,
+* has to have its usage tracked from day 1, if the feature has a meaningful
+impact.
+
 ![](/handbook/product/p1.png)
 
 #### Convention over Configuration
@@ -139,6 +144,12 @@ configuration to be able to disable this permanently (be that in template or
 instance-wide), is something that should be avoided.
 
 Encourage favorable behaviors by limiting configuration.
+
+##### Default to ON
+
+In addition to encouraging behavior by limiting the ability to toggle features,
+when introducing new features default to turning things ON if they are
+configurable at all.
 
 #### Be Ambitious
 
@@ -313,6 +324,19 @@ When you don't have specific tasks assigned, you should work on issues that are
 labeled `Product work`, in both EE and CE projects. These are issues that need
 our attention the most.
 
+#### Scheduling timeline throughout a milestone
+
+Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production.
+Follow this timeline for the release that will be shipped in Month `M`.
+
+* Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
+* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them | Release post created (WIP merge request)
+* Month `M`, 15th: Release post first draft complete (WIP merge request)
+* Month `M`, 22nd: Release shipped to production \| Release post published
+
+With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd,
+the scope for the following release has already been established earlier in that same month.
+
 ### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
@@ -439,6 +463,37 @@ customer that documentation is lacking is not.
 - Excite and market new features and changes internally and externally
 - Help build a vision for GitLab and GitLab's features
 - Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
+- Have regular meetings (at least one a week) with customers
+
+### Customer meetings
+
+It's important to get direct feedback from our customers on things we've
+built, are building or should be building.
+
+As a PM you should have regular meetings with customers that are using the
+things you've been working on and with customers that are not - in order
+to get an idea of why they're not switching to our solution.
+
+#### Set up a meeting
+
+To setup a customer meeting, identify what you're interested in discovering
+and prepare appropriately.
+
+You can find information about how customers are using GitLab through sales
+and version.gitlab.com. Sales and support should also be able to bring you
+into contact with a customer.
+
+There is no formal internal process to schedule a customer meeting,
+if that need arises, we can formulate one.
+
+#### During and after
+
+During the meeting, spend most of your time listening and obtaining information.
+It's not your job to sell GitLab, but it should be obvious when it's the time
+to tell more about our products.
+
+After the meeting, make sure all your notes and feedback lands in issues.
+
 
 # Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 

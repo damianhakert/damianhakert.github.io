@@ -90,6 +90,35 @@ Service Engineers should work on tickets within their assigned support tier as a
 
 When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
 
+### Hot Queue: How GitLab manages ticket assignments
+
+Support teams often use an "assignment" model, where an agent is assigned a ticket and sees the ticket through to completion. If they are stuck, they can re-assign this ticket to another agent to pick up and try and complete. At GitLab however, we're taking advantage of our global support team and using a system dubbed "Hot Queuing". This system means that we all work from one global queue and it's expected that multiple agents will be working together on most issues. This allows us to do the following:
+
++ Keep tickets moving forward 24/7.
++ Exposes the team to more issues so more learning is happening.
++ Provide faster response to customers since tickets are not hidden away in an agent's personal queue and "bound" to an agent's workday.
++ Everyone has an accurate global representation of the support load.
+
+#### When should tickets be assigned?
+
+There are times in the support process that an agent will want to assign the ticket to themselves:
+
++ If they are going to take the ticket to a call/screenshare, take it out of the queue by assigning the ticket to yourself. After the call, if the ticket is still on-going, feel free to unassign yourself so that everyone can continue to move it forward.
++ If you are commited to solving the problem strategically. There are times where we want this, and agents have full discretion to choose that, but it should be few and far between. 
+
+#### What if I can't answer a ticket?
+
+If you see a ticket in the queue that you are not able to answer, you should:
+
++ Make an internal note with your gut feelings as to where the issue might be.
++ CC yourself so you can follow along as the ticket progresses.
++ If you know that agents will need logs or version information, feel free to start with a simple response asking for such.
++ Consider escalating the ticket to Tier 2 (see below)
+
+With the hot queue, we all work together and no one should be scared to start a ticket.
+
+
+
 ### Tier 1 Support
 
 + Provide a resolution to the customer, resolved at first point of contact (FPOC).

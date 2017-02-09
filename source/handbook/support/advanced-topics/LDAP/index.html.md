@@ -33,7 +33,7 @@ routing less-technical LDAP questions to you
  * [ ] Install the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
  * [ ] Add [OpenLDAP](https://gitlab.com/gitlab-org/gitlab-development-kit/tree/master/gitlab-openldap) to your GDK installation.
  * [ ] Try Group sync in the GDK environment. If you don't succeed, contact an LDAP expert, then contribute to documentation on this.
- 
+
  ### Stage 3: Tickets
 
 - [ ] **Done with Stage 3**
@@ -80,7 +80,7 @@ the customer.
 
 ### Final Stage
 
-- [ ] Ask Ernst and Drew to look over this list, send a MR to delete this line after they both satisfied with the list
+- [ ] Ask Lee and Drew to look over this list, send a MR to delete this line after they both satisfied with the list
 - [ ] Send a MR to declare yourself a **LDAP Expert** on the team page
- 
+
  ```
