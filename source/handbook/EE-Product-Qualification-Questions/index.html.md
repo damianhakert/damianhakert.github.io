@@ -89,6 +89,17 @@ We need have a library of questions we need to ask in the buying process to help
   - How often would you say your team searches through code, and how efficient is the process at the moment?
   - Would if be helpful if we could reduce the time it takes to search through all your data in your instance?
   - How much time would be saved if your team could find the information in seconds?
+* Global Code Search
+  - How do developers currently find code from different teams that might be useful for their project eg: a plugin?
+  - How do you ensure developers don't reinvent the wheel?
+  - Are you looking to enable innersourcing?
+* Prevent committing secrets
+  - Are you currently able to stop developers accidentally putting a secret such as login credentials into a repository?
+  - What are the risks if they do?
+* Branch Permissions for users
+  - How do you currently manage branch permissions?
+  - Are pushes and merges from certain users problematic?
+  - Would you like the ability to restict push and merge access to certain users?
 * Geo (GitLab Product)
   - Where are your developers located? (Implication question)
   - What are your DR requirements? (Problem question)
