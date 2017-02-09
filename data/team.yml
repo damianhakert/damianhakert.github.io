@@ -765,6 +765,7 @@
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: annabel.png
+  twitter: annabeldunstone
   gitlab: annabeldunstone
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
