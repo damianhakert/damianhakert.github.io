@@ -16,7 +16,7 @@ conduct or is unethical.
 Managers should follow these guidelines when underperformance is recognized. Please reach out to People Operations with any concerns related to underperformance to protect the organization
 and equally consider the individual(s) involved.
 
-## The Performance Improvement Plan (PIP)
+### The Performance Improvement Plan (PIP)
 
 It is important to remember that the root cause of issues can be a variety of things, PIPs are not intended to be a negative document. They are an opportunity for the manager and their team member to work together to get the individual back on track. We have an example of this to share here, it is anonymized in line with keeping job feedback private as per the [General Guidelines](https://about.gitlab.com/handbook/#sts=General Guidelines);
 
@@ -29,7 +29,7 @@ It is important to remember that the root cause of issues can be a variety of th
 
 "For me as a manager, I want to be honest and open with people. I never feel good about telling people they are not meeting the standard. At the same time I really want people to improve. With the PIP we were able to clearly talk about the work that needed to be done to, make them improve and get them where we needed them to be. In this case, the underperformance was not a lack of skills. We merely needed to redirect their focus".
 
-## The PIP Process
+### The PIP Process
 
 1) Managers should first address areas of poor performance or behavior related concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team member.
 Helping GitLabbers understand clearly how their performance is not meeting standards quickly is very important to foster immediate improvement and continued success.
