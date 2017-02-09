@@ -142,19 +142,18 @@ Before the CEO has the final call with the applicant the hiring manager will wri
 
 1. At any time during the hiring process the applicant can be rejected.
 1. The applicant should always be notified of this. The recruiting team is primarily
-responsible for this.
+responsible for declining candidates.
 1. If the applicant asks for further feedback only offer frank feedback. This
 is hard, but it is part of our [company values](/handbook/#values).
     * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
-    * Feedback and rejection should not be based on soft skills.
+    * Feedback and rejection should always be based on the job requirements.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
 1. If people argue with the feedback that we provided:
     * Do not argue with or acknowledge the validity of the contents of the feedback.
     * Share their feedback with the people involved in the interviews and the decision.
     * Template text: "I've shared your feedback with the people involved in the interviews and the decision. We do not expect to revert the decision based on your feedback. In our hiring process we tend to error on being too cautious. We rather reject someone by mistake than hire someone by mistake, since a wrong hire is much more disruptive. Organizations can reject people with great potential http://thehustle.co/whatsapp-founder-got-rejected-by-both-twitter-and-facebook-before-19-billion-buyout so please don't be discouraged from seeking a great job."
-1. TODO: The recruiting team will send out an inquiry to all candidates to gather feedback after they have exited the hiring process. The feedback survey should be sent out within 2 days after the applicant has been
-notified of the rejection or hire.
+1. The recruiting team will send out an inquiry to all candidates to gather feedback after they have exited the hiring process. The feedback survey should be sent out within 2 days after the applicant has been notified of the rejection or hire.
    * People Ops will review all feedback and use it to improve the hiring process.
 
 ## Screening Call
