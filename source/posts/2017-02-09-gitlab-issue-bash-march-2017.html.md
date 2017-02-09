@@ -8,9 +8,9 @@ image_title: '/images/blogimages/gitlab-issue-bash-march-2017-cover.png'
 description: "We're on a mission to blitz GitLab's open issues and we need your help!"
 ---
 
-There are currently over XXXX open issues on GitLab CE,
-and we need your help to sort them out! We have over XXXX
-GitLab contributors, and we want everyone to be able to
+There are currently over 6000 open issues on GitLab CE,
+and we need your help to sort them out! We have over 1500
+[GitLab contributors](http://contributors.gitlab.com/contributors/), and we want everyone to be able to
 find issues to work on.
 
 Of course, the best contributors will be prized with XXXX,
@@ -18,8 +18,7 @@ and we'll promise to give some awesome swag away! 🙌
 
 <!-- more -->
 
-Our last Issue Bash helped us to **kill xxx bugs**,
-and **solve other xxx issues**.
+Our last Issue Bash helped us to close over 100 issues and lots of improvements to the categorization of existing issues were made.
 {:.alert .alert-info .text-center}
 
 ## When Is It Going to Happen?
@@ -44,7 +43,7 @@ members are definitely welcome and prize-worthy!
 
 ## How to Get Involved?
 
-There are mainly three things we need from our task force:
+There are mainly four things we need from our task force:
 
 - Track issues that can be easily closed
 - Categorize issues
@@ -59,5 +58,5 @@ Prizes will be drawn at random.
 
 ## Questions? More info?
 
-GitLab team members [@markgenfletcher](https://gitlab.com/markglenfletcher), [@ClemMakesApps](https://gitlab.com/ClemMakesApps), and [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
+GitLab team members [@markglenfletcher](https://gitlab.com/markglenfletcher), [@ClemMakesApps](https://gitlab.com/ClemMakesApps), and [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
 	
