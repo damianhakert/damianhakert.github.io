@@ -64,6 +64,7 @@ header {
 
   h3 {
     padding-top: 0;
+    margin-top: 0;
     margin-bottom: 0;
     color: $color-primary;
     font-size: 16px;
@@ -71,11 +72,8 @@ header {
   }
 
   p {
+    margin-bottom: 15px;
     font-size: 14px;
-
-    &:not(:last-child) {
-      margin-bottom: 5px;
-    }
   }
 
   a {
