@@ -31,6 +31,7 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
  or suggestions to do better please [contact People Ops](/handbook/people-operations/#reach-peopleops).
 
 ## Vacancy Creation Process
+
 If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us.
 
 The CEO must authorize any new job positions/searches.
@@ -42,7 +43,7 @@ The CEO must authorize any new job positions/searches.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
 
-            ```yaml
+            ```
             - title: "Chief Happiness Officer"
               description: /jobs/chief-happiness-officer/
               apply: https://gitlab.workable.com/jobs/12345/candidates/new
@@ -54,14 +55,14 @@ The CEO must authorize any new job positions/searches.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
 1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
 1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
-2. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
+1. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
- 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and promotions.
+ 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the `#general` chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
+ 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and [promotions](/handbook/people-operations/#promotions).
 
 
 ## Publicize the job
@@ -88,7 +89,8 @@ The recruiting team will **always** publicize the job through the following mean
 1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
 ### Sourcing for Open Positions
-*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
+
+On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
 
 
 ## Hiring Process

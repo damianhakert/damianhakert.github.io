@@ -42,7 +42,6 @@ title: Leadership
 1. [Our summits](https://about.gitlab.com/culture/summits) are meant for informal communication and bonding across the company. There is a limited time for business activities during the summit so all our regular meetings should happen outside of the summit. We want informal, cross team, open-ended meetings, that includes individual contributors, for example inviting everyone including sales to suggest currently missing functionality in GitLab. Formal, team restricted, structured meetings, where not everyone is welcome shouldn't happen, for example an executive team meeting to set the yearly budget. Never delay a decision until the summit, if anything use the summit as a deadline to get things done earlier.
 1. At GitLab decision making is based on an informed and knowledgeable hierarchy. Not on consensus or democracy. Voting on material decisions shows a lack of informed leadership.
 
-
 ## Grovo
 
 [Grovo](https://www.grovo.com/) is a Learning Management System (LMS) that delivers, short, engaging learning tracks which are groups of video lessons and quizzes focused on a skill. Finishing the lessons and quizzes in a learning track earns you points and certifications. Whether you're on your desktop, laptop, tablet, or phone, you can pick up where you left off at any time. A big part of how this learning is delivered is by using a method called Microlearning.
