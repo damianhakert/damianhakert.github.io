@@ -1,5 +1,5 @@
 ---
-title: "GitLab Issue Bash - March 2017"
+title: "Join GitLab's March Issue Bash"
 author: Marcia Ramos
 author_gitlab: marcia
 author_twitter: XMDRamos
@@ -13,15 +13,15 @@ and we need your help to sort them out! We have over 1500
 [GitLab contributors](http://contributors.gitlab.com/contributors/),
 and we want everyone to be able to find issues to work on.
 
-Of course, the best contributors will be prized with awesome swag! 🙌
+Of course, some lucky contributors will be rewarded with awesome swag! 🙌
 
 <!-- more -->
 
-Our last Issue Bash helped us to close over 100 issues and lots of
-improvements to the categorization of existing issues were made.
+Our last Issue Bash helped us to close over 100 issues and make lots of
+improvements to the categorization of existing issues.
 {:.alert .alert-info .text-center}
 
-## When Is It Going to Happen?
+## When is it Going to Happen?
 
 We'll kick it off at 00:01 UTC on Saturday, **March 4th**
 and will keep it up until 23:59 UTC on Sunday, **March 5th**.
@@ -38,10 +38,10 @@ and will keep it up until 23:59 UTC on Sunday, **March 5th**.
 {: .alert .alert-webcast}
 
 This is your chance to get involved! Most of the tasks don't require
-technical expertize, therefore, non-technical community
-members are definitely welcome and prize-worthy!
+technical expertise, therefore, non-technical community
+members are definitely welcome and prize worthy!
 
-## How to Get Involved?
+## How do You Get Involved?
 
 There are mainly four things we need from our task force:
 
@@ -58,13 +58,13 @@ We have some awesome swag ready for you:
 
 - Five T-shirts
 - Four pajama pants
-- Three moleskin notebooks
+- Three Moleskine notebooks
 - Two [PocketCHIPs](https://getchip.com/pages/pocketchip)
-- One messenger bag (filled with all the stuff just listed)!
+- One messenger bag (filled with all the stuff listed above!)
 
 ![GitLab Issue Bash - Prizes](/images/blogimages/gitlab-issue-bash-march-2017-prizes.png)
 
-If we get twice as much issues solved than
+If we get twice as many issues solved than we did in
 the last Issue Bash (>= 200), we'll give away a **mystery prize** as well! 🎉
 
 Users making any contributions to the project that fall into the above categories,
