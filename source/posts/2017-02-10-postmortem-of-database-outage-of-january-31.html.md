@@ -446,7 +446,19 @@ The person that gave the unfortunate command to delete our primary database was 
 
 There was [a lot of #HugOps love](https://twitter.com/i/moments/826818668948549632). Kiru [tweeted a #JeSuisTeamMember1 picture](https://twitter.com/karmukis/status/826875580465414145).
 
-TODO Kirsten
+The support our engineers received from our community was fantastic, people were appreciative of our [transparency](https://about.gitlab.com/handbook/values/) in working on the solution. Even teams from other companies, who had been in that situation themselves, showed their support. The Cole Fresh team brought cookies to our HQ in San Francisco with a card saying:
+"Hey Gitlab, We thought you could use a chance to destress a little. Don't sweat it we're rooting for you. We've all been there before and we have a lot of faith in you to work it out. You got THIS! From Dan, and the Colefresh Team and a huge thank you to the group" 
+
+![Colefresh cookies](/images/blogimages/colefresh-cookies.jpg)
+
+A group from Google came to our HQ and got our engineers $300 to spend on something to make them feel better after all of this was over. 
+
+![Google gift card](/images/blogimages/google-gift.jpg)
+
+The engineers involved have agreed that this extremely generous gift will be spent on sponsoring Rails Girls events.
+At GitLab we're very proud of this initiative and will get the engineers involved matching swag for their next livestream event and will enjoy some team bonding fun soon.
+
+Needless to say, some special thank you swag is on it's way to these amazing people that took the time to come to our office and try to help us feel a bit better.
 
 At GitLab we think that the people making the most mistakes frequently correlate with the people doing the most work. I certainly make a lot of mistakes every day. It is important not to double down on them but to acknowledge them and learn from it.
 
