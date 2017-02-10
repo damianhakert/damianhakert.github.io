@@ -1,5 +1,5 @@
 ---
-title: "Inside a UX Brainstorm with the Four-Step Sketch"
+title: "Inside Our UX Brainstorm with the Four-Step Sketch"
 author: Taurie Davis
 author_gitlab: tauriedavis
 author_twitter: tauried
