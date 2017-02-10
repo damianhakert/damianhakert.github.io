@@ -24,7 +24,7 @@ With 8.17, you now add issues through a dedicated modal window.
 Click the `Add issues` button at the top-right, and you get an expansive modal to search and filter for issues you care about.
 Select one or many issues, and even choose the list where you want to put them in before adding them to the board, saving just a few more clicks and drags.
 To remove an issue from your board, select it to bring up the sidebar, and hit `Remove from board`.
-[Learn more](https://docs.gitlab.com/ee/user/project/issue_board.html).
+[Learn more](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 
 ![Add issues modal in board in GitLab 8.17](/images/8_17/board_modal.png){: .shadow}
