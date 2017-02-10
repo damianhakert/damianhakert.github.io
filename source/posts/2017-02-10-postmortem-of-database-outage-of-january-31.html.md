@@ -347,19 +347,19 @@ GitLab.com.
 We are currently working on fixing and improving our various recovery
 procedures. Work is split across the following issues:
 
-* [Update PS1 across all hosts to more clearly differentiate between hosts and environments (#1094)](https://gitlab.com/gitlab-com/infrastructure/issues/1094)
-* [Prometheus monitoring for backups (#1095)](https://gitlab.com/gitlab-com/infrastructure/issues/1095)
-* [Set PostgreSQL's max_connections to a sane value (#1096)](https://gitlab.com/gitlab-com/infrastructure/issues/1096)
-* [Investigate Point in time recovery & continuous archiving for PostgreSQL (#1097)](https://gitlab.com/gitlab-com/infrastructure/issues/1097)
-* [Hourly LVM snapshots of the production databases (#1098)](https://gitlab.com/gitlab-com/infrastructure/issues/1098)
-* [Azure disk snapshots of production databases (#1099)](https://gitlab.com/gitlab-com/infrastructure/issues/1099)
-* [Move staging to the ARM environment (#1100)](https://gitlab.com/gitlab-com/infrastructure/issues/1100)
-* [Recover production replica(s) (#1101)](https://gitlab.com/gitlab-com/infrastructure/issues/1101)
-* [Automated testing of recovering PostgreSQL database backups (#1102)](https://gitlab.com/gitlab-com/infrastructure/issues/1102)
-* [Improve PostgreSQL replication documentation/runbooks (#1103)](https://gitlab.com/gitlab-com/infrastructure/issues/1103)
-* [Investigate pgbarman for creating PostgreSQL backups (#1105)](https://gitlab.com/gitlab-com/infrastructure/issues/1105)
-* [Investigate using WAL-E as a means of Database Backup and Realtime Replication (#494)](https://gitlab.com/gitlab-com/infrastructure/issues/494)
-* [Build Streaming Database Restore](https://gitlab.com/gitlab-com/infrastructure/issues/1152)
+1. [Update PS1 across all hosts to more clearly differentiate between hosts and environments (#1094)](https://gitlab.com/gitlab-com/infrastructure/issues/1094)
+1. [Prometheus monitoring for backups (#1095)](https://gitlab.com/gitlab-com/infrastructure/issues/1095)
+1. [Set PostgreSQL's max_connections to a sane value (#1096)](https://gitlab.com/gitlab-com/infrastructure/issues/1096)
+1. [Investigate Point in time recovery & continuous archiving for PostgreSQL (#1097)](https://gitlab.com/gitlab-com/infrastructure/issues/1097)
+1. [Hourly LVM snapshots of the production databases (#1098)](https://gitlab.com/gitlab-com/infrastructure/issues/1098)
+1. [Azure disk snapshots of production databases (#1099)](https://gitlab.com/gitlab-com/infrastructure/issues/1099)
+1. [Move staging to the ARM environment (#1100)](https://gitlab.com/gitlab-com/infrastructure/issues/1100)
+1. [Recover production replica(s) (#1101)](https://gitlab.com/gitlab-com/infrastructure/issues/1101)
+1. [Automated testing of recovering PostgreSQL database backups (#1102)](https://gitlab.com/gitlab-com/infrastructure/issues/1102)
+1. [Improve PostgreSQL replication documentation/runbooks (#1103)](https://gitlab.com/gitlab-com/infrastructure/issues/1103)
+1. [Investigate pgbarman for creating PostgreSQL backups (#1105)](https://gitlab.com/gitlab-com/infrastructure/issues/1105)
+1. [Investigate using WAL-E as a means of Database Backup and Realtime Replication (#494)](https://gitlab.com/gitlab-com/infrastructure/issues/494)
+1. [Build Streaming Database Restore](https://gitlab.com/gitlab-com/infrastructure/issues/1152)
 
 We are also working on setting up multiple secondaries and balancing the load
 amongst these hosts. More information on this can be found at:
@@ -430,7 +430,7 @@ force pushing to the target branch.
 ### I created a project after 17:20 UTC and it shows up, but my issues are gone.  What happened?
 
 Project details are stored in the database. This meant that this data was lost
-for projects created after 17:20. We ran a procedure to restore to restore these
+for projects created after 17:20. We ran a procedure to restore these
 projects based on their Git repositories that were still stored in our NFS
 cluster. This procedure however was only able to restore projects in their most
 basic form, without associated data such as issues and merge requests.
