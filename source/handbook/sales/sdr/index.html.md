@@ -80,3 +80,50 @@ A good portions  of your job requires you to work with assigned AE’s. This is 
  * What do they know about GitLab and the platform today?
  * How large is the team they are looking to purchase GitLab for?
  * What would they like to get out of the call with the salesperson?
+
+## Ramping for new hires
+
+Month 1:
+ 
+ * Daily/Weekly/Monthly Activity [40/200/600]
+ * Daily/Weekly/Monthly Emails [20/100/400]
+ * Daily/Weekly/Monthly Calls [10/50/200]
+ * % of named accounts contacted (monthly) [25%]
+ * Average # of contacts per named account contacted (monthly) [5]
+ * Decision Makers confirmed/added (weekly) - persons they identify in their research and calls not from discover.org.  Who makes the decision for software development tools (i.e. purchased GitHub, Jenkins, JIRA) [1]
+ * Connects (weekly/monthly) - calls SDR’s are having [5/15]
+ * Sales Appointments (weekly/monthly) - calls SDR’s and AE’s are having with prospect (influencer or Decision Maker) [3]
+ * % of named accounts with sales appointment
+ * Opportunities created (weekly/monthly) [1] -If the SDR starts on or before halfway through a month. If the SDR start after halfway through the month they carry a SQL quota of 0 for that month.
+ * % of named accounts with an opportunity
+ * ACV won from sourced opportunities (monthly/quarterly) [$0]
+
+Month 2:
+ 
+ * Daily/Weekly/Monthly Activity [60/300/1200]
+ * Daily/Weekly/Monthly Emails [40/200/800]
+ * Daily/Weekly/Monthly Calls [20/100/400]
+ * % of named accounts contacted (monthly) [50%]
+ * Average # of contacts per named account contacted (monthly) [10]
+ * Decision Makers confirmed/added (weekly) - persons they identify in their research and calls not from discover.org.  Who makes the decision for software development tools (i.e. purchased GitHub, Jenkins, JIRA) [3]
+ * Connects (weekly/monthly) - calls SDR’s are having [10/40]
+ * Sales Appointments (weekly/monthly) - calls SDR’s and AE’s are having with prospect (influencer or Decision Maker) [3/12]
+ * % of named accounts with sales appointment
+ * Opportunities created (weekly/monthly) [1/4] 
+ * % of named accounts with an opportunity
+ * ACV won from sourced opportunities (monthly/quarterly) [$0] 
+
+Month 3+:
+
+ * Daily/Weekly/Monthly Activity [90/450/1800]
+ * Daily/Weekly/Monthly Emails [60/300/1200]
+ * Daily/Weekly/Monthly Calls [30/150/600]
+ * % of named accounts contacted (monthly) [75%]
+ * Average # of contacts per named account contacted (monthly) [15]
+ * Decision Makers confirmed/added (weekly) - persons they identify in their research and calls not from discover.org.  Who makes the decision for software development tools (i.e. purchased GitHub, Jenkins, JIRA) [4]
+ * Connects (weekly/monthly) - calls SDR’s are having [15/60]
+ * Sales Appointments (weekly/monthly) - calls SDR’s and AE’s are having with prospect (influencer or Decision Maker) [5/20]
+ * % of named accounts with sales appointment
+ * Opportunities created (weekly/monthly) [2.5/8]
+ * % of named accounts with an opportunity
+ * ACV won from sourced opportunities (monthly) [$80,000] 
