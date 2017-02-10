@@ -9,11 +9,11 @@ description: "Postmortem analysis of database outage of January 31 2017 with the
 
 On January 31st 2017, we experienced a major service outage for one of our products, the online service GitLab.com. The outage was caused by an accidental removal of data from our primary database server.
 
-This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data, that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 new user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were affected neither by the outage, nor the data loss.
+This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 new user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were not affected by the outage, or the data loss.
 
-Losing production data is unacceptable. To ensure this does not happen again we're working on multiple improvements to its operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
+Losing production data is unacceptable. To ensure this does not happen again we're working on multiple improvements to our operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
 
-To the GitLab.com users whose data we lost and to the people affected by the outage: we're sorry. I apologize personally, and as GitLab's CEO, and on behalf of everyone at GitLab.
+To the GitLab.com users whose data we lost and to the people affected by the outage: we're sorry. I apologize personally, as GitLab's CEO, and on behalf of everyone at GitLab.
 
 ## Database Setup
 
@@ -26,7 +26,7 @@ is `db1.cluster.gitlab.com`, while the secondary's hostname is
 In the past we've had various other issues with this particular setup due to
 `db1.cluster.gitlab.com` being a single point of failure. For example:
 
-* [A database outage on November 28th, 2016 because project_authorizations had too much bloat](https://gitlab.com/gitlab-com/infrastructure/issues/791)
+* [A database outage on November 28th, 2016 due to project_authorizations having too much bloat](https://gitlab.com/gitlab-com/infrastructure/issues/791)
 * [CI distributed heavy polling and exclusive row locking for seconds takes GitLab.com down](https://gitlab.com/gitlab-com/infrastructure/issues/514)
 * [Scary DB spikes](https://gitlab.com/gitlab-com/infrastructure/issues/364)
 
@@ -34,35 +34,34 @@ In the past we've had various other issues with this particular setup due to
 
 On January 31st an engineer started setting up multiple PostgreSQL servers in
 our staging environment. The plan was to try out
-[pgpool-II](http://www.pgpool.net/mediawiki/index.php/Main_Page) and see if this
-could reduce the load on our database by load balancing queries amongst the
-available hosts. The tracking issue for this is
+[pgpool-II](http://www.pgpool.net/mediawiki/index.php/Main_Page) to see if it
+would reduce the load on our database by load balancing queries between the
+available hosts. Here is the issue for that plan:
 [infrastructure#259](https://gitlab.com/gitlab-com/infrastructure/issues/259).
 
-**± 17:20 UTC:** prior to starting this work the engineer takes an LVM snapshot
-of the production database and loads this into the staging environment. This was
+**± 17:20 UTC:** prior to starting this work, our engineer took an LVM snapshot
+of the production database and loaded this into the staging environment. This was
 necessary to ensure the staging database was up to date, allowing for more
 accurate load testing. This procedure normally happens automatically once every
-24 hours (at 01:00 UTC), but the engineer wanted a more up to date copy of the
+24 hours (at 01:00 UTC), but they wanted a more up to date copy of the
 database.
 
 **± 19:00 UTC:** GitLab.com starts experiencing an increase in database load due
-to what we suspected was spam. In the week leading up to this day GitLab.com had
-been suffering from similar problems, but not this severe. One of the problems
+to what we suspect was spam. In the week leading up to this event GitLab.com had
+been experiencing from similar problems, but not this severe. One of the problems
 this load caused was that many users were not able to post comments on issues
 and merge requests. Getting the load under control took several hours.
 
-Later we would find out that part of the load was caused by a background job
+We would later find out that part of the load was caused by a background job
 trying to remove a GitLab employee and their associated data. This was the
-result of their account being flagged for abuse and scheduled for removal by
-accident. More information regarding this particular problem can be found in the
+result of their account being flagged for abuse and accidentally scheduled for removal. More information regarding this particular problem can be found in the
 issue ["Removal of users by spam should not hard
 delete"](https://gitlab.com/gitlab-org/gitlab-ce/issues/27581).
 
-**± 23:00 UTC:** Due to the increase of load our PostgreSQL secondary's
+**± 23:00 UTC:** Due to the increased load, our PostgreSQL secondary's
 replication process started to lag behind. The replication failed as WAL
 segments needed by the secondary were already removed from the primary. As
-GitLab.com was not using WAL archiving the secondary had to be re-synchronised
+GitLab.com was not using WAL archiving, the secondary had to be re-synchronised
 manually. This involves removing the
 existing data directory on the secondary, and running
 [pg_basebackup](https://www.postgresql.org/docs/9.6/static/app-pgbasebackup.html)
@@ -75,10 +74,10 @@ meaningful output; despite the `--verbose` option being set. After a few tries
 enough available replication connections (as controlled by the `max_wal_senders`
 option).
 
-To resolve this the engineers decided to (at least for the time being) increase
+To resolve this our engineers decided to temporarily increase
 `max_wal_senders` from the default value of `3` to `32`. When applying the
-settings PostgreSQL refused to restart, claiming too many semaphores were being
-created. This can happen when for example `max_connections` is set too high. In
+settings, PostgreSQL refused to restart, claiming too many semaphores were being
+created. This can happen when, for example, `max_connections` is set too high. In
 our case this was set to `8000`. Such a value is way too high, yet it had been
 applied almost a year ago and was working fine until that point. To resolve this
 the setting's value was reduced to `2000`, resulting in PostgreSQL restarting
@@ -190,7 +189,7 @@ recovery. At the time of the outage we had two snapshots available:
 
 1. A snapshot created for our staging environment every 24 hours, almost 24
    hours before the outage happened.
-1. A snapshot created manually by one of our engineers roughly 6 hours before
+1. A snapshot created manually by one of the engineers roughly 6 hours before
    the outage.
 
 When we generate a snapshot the following steps are taken:
