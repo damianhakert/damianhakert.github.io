@@ -454,12 +454,45 @@ Coincidentally team-member-1 just qualified for a promotion to senior developer.
 
 When we promote people at GitLab or give a bonus we share the reasons for that with the whole company. With the permission of team-member-1 this blog post is both the internal and external announcement of that promotion.
 
-TODO add rationale
+With a promotion we also give a set of reasons. The text below is from an email sent from team-member-1's boss before the outage. We redacted these a bit to make it less obvious who team-member-1 is. We know people can find out but kindly ask you not to post it. The person in question doesn't mind but we want to default to anonymity in all future postmortems.
 
+I think that it's time to promote this person to a senior developer position, the reasoning is as follows: following what is expected out of a senior developer in the job description located at [https://about.gitlab.com/jobs/developer/](https://about.gitlab.com/jobs/developer/)
 
+Senior Developers are experienced developers who meet the following criteria:
 
+1. Technical Skills
 
+   - Are able to write modular, well-tested, and maintainable code => I think this is out of the question here and we have enough samples.
+   - Know a domain really well and radiate that knowledge - She already got a bonus for how she shares her knowledge, she is always raising the bar here.
+   - Contribute to one or more complementary projects - Her contributions are numerous to all the GitLab ecosystem, including building the whole performance monitoring metrics system that we use to understand why GitLab is slow. Including projects like allocations that is used to track low level ruby metrics.
 
+1. Leadership
 
+   - Begins to show architectural perspective - She is involved in Gitaly since before it had this name, and architectural paradigm change that will affect GitLab profoundly. She is also heavily involved in whatever goes near the database.
+   - Proposing new ideas, performing feasibility analyses and scoping the work - This is what she is doing all the time, all of GitLab development community values her input and her opinion is highly valued.
 
+1. Code quality
 
+   - Leaves code in substantially better shape than before - Agreed, she does this. Refer to the links provided at the bottom
+   - Fixes bugs/regressions quickly - She has even performed there operations in production itself providing hotfixes.
+   - Monitors overall code quality/build failures - LINK_REDACTED
+   - Creates test plans - LINK_REDACTED
+
+1. Communication
+
+   - Provides thorough and timely code feedback for peers - Refer to code quality section.
+   - Able to communicate clearly on technical topics - She created our performance and sidekiq style guidelines. Both these samples are pushing for improving the quality of GitLab as a whole, way beyond the scope of a single MR.
+   - Keeps issues up-to-date with progress - She is a bar raiser here, check any of her issues, they are up to date all the time.
+   - Helps guide other merge requests to completion - She does this leading to a successful merge and has the capacity to reject MRs depending on how they will impact GitLab (another sample on pushing back can be found here).
+   - Helps with recruiting - She is currently helping me to find a database specialist by reviewing job applications performing the initial filter.
+
+1. Performance & Scalability
+
+   - Excellent at writing production-ready code with little assistance - She has been leading the performance effort for the last year, I think this is out of the question - She owned moving to PostgreSQL 9.6 on her own, a massive undertaking that was performed without a single glitch.
+   - Able to write complex code that can scale with a significant number of users - Same thing as before, she is the one paving the path for the rest of GitLab in this area. Definitely a bar riser.
+
+A final sample can be found here where one of our backend leads asks this person for support on how to perform a large migration without causing downtime.
+
+These samples are just the tipping point the work that this person has been performing for quite a while already. This work got us to the situation where we can deploy the application with minimum downtime, even adding automation to detect when a migration will force us to cause downtime, removing human judgment from the equation.
+
+His work is constantly impacting all the company in both depth and breath, I can find lots of samples on any of the items that are included in the job description, I can even find samples that match to the staff developer. Therefore I think that she has been behaving as a Senior Developer, and I ask that this behavior gets recognized and formalized by GitLab.
