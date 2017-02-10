@@ -11,9 +11,9 @@ On January 31st 2017, we experienced a major service outage for one of our produ
 
 This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data, that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 new user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. The more than 100,000 organizations that are GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were affected neither by the outage, nor the data loss.
 
-We consider losing production data unacceptable. To ensure this does not happen again, GitLab is working on multiple improvements to its operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
+Losing production data is unacceptable. To ensure this does not happen again we're working on multiple improvements to its operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
 
-As our CEO I apologize to the GitLab.com users affected by the outage, and the users who lost some of their data.
+To the GitLab.com users whose data we lost and to the people affected by the outage: we're sorry. I apologize personally, and as GitLab's CEO, and on behalf of everyone at GitLab.
 
 ## Database Setup
 
@@ -397,6 +397,8 @@ dashboard is still in the early stages, we aim to add more data over time.
 Finally, we're looking into improving our abuse reporting and response system.
 More information regarding this can be found in the issue
 ["Removal of users by spam should not hard delete"](https://gitlab.com/gitlab-org/gitlab-ce/issues/27581).
+
+If you think there are additional measures we can take to prevent incidents like this please let us know in the comments.
 
 ## Troubleshooting FAQ
 
