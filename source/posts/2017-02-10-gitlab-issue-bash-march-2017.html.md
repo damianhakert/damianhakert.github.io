@@ -48,7 +48,7 @@ There are four main things we need from our task force:
 - Track issues that can be easily closed
 - Categorize issues
 - Fix known bugs and pain points
-- Shipping existing feature proposals
+- Ship existing feature proposals
 
 Check out the [Issue Bash Proposal](https://gitlab.com/gitlab-org/gitlab-ce/issues/27272) to find out how to get started.
 
