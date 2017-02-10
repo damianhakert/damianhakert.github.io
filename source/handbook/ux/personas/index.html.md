@@ -4,11 +4,16 @@ title: "UX Personas"
 ---
 
 ## UX Personas
+* [Steven Lyons](http://localhost:4567/handbook/ux/personas#steven-lyons)
+* [James Mackey](http://localhost:4567/handbook/ux/personas#james-mackey)
+* [Harry Robinson](http://localhost:4567/handbook/ux/personas#harry-robinson)
+
+<hr>
 
 ### Steven Lyons
 Small to medium size organisations using GitLab CE
 
-#### Demographics
+#### Demographics 
 
 ##### Age
 32 years old
@@ -78,8 +83,7 @@ GitLab’s interface initially attracted Steven when he was comparing version co
 <hr>
 
 ### James Mackey
-Medium to large size organisations using CE or EE
-Small organisations using EE
+Medium to large size organisations using CE or EE, Small organisations using EE
 
 #### Demographics
 
@@ -136,3 +140,50 @@ James and his team use CI quite heavily for several projects. Whilst they’ve w
 * To use GitLab EE primarily for code hosting, merge requests, continuous integration and issue management. Steven and his team want to be able to understand and use these particular features easily.
 * To able to share one instance of GitLab EE with multiple teams across the business. Advanced user management, the ability to separate permissions on different parts of the source code, etc are important to Steven.
 
+<hr>
+
+### Harry Robinson
+Using GitLab.com for personal/hobby projects, Would like to use GitLab at work, Working for a medium to large size organisation   
+
+#### Demographics
+
+##### Age
+26 years old
+
+##### Location
+UK
+
+##### Education
+Self taught
+
+##### Occupation
+Junior web-developer
+
+##### Programming experience
+6 years
+
+##### Frequently used programming languages
+JavaScript and SQL
+
+##### Hobbies / interests
+Web development, mobile development, UX, open source, gaming and travel.
+
+#### Motivations
+Harry has been using GitLab.com for around a year. He roughly spends 8 hours every week programming, of that, 2 hours is spent contributing to open source projects. Harry contributes to open source projects to gain programming experience and to give back to the community. He likes GitLab.com for its free private repositories and range of features which provide him with everything he needs for his personal projects. Harry is also a massive fan of GitLab’s values and the fact that it isn’t a “behemoth of a company”.  He explains that “displaying every single thing (doc, culture, assumptions, development...) in the open gives me greater confidence to choose Gitlab personally and to recommend it at work.”  He’s also an avid reader of GitLab’s blog.
+
+Harry works for a software development company which currently hires around 500 people. Harry would love to use GitLab at work but the company has used GitHub Enterprise for a number of years. He describes management at his company as “old fashioned” and explains that it’s “less of a technical issue and more of a cultural issue” to convince upper management to move to GitLab. Harry is also relatively new to the company so he’s apprehensive about pushing too hard to change version control platforms.
+
+#### Frustrations
+##### Unable to use GitLab at work
+Harry wants to use GitLab at work but isn’t sure how to approach the subject with management. In his current role, he doesn’t feel that he has the authority to request GitLab.
+
+##### Performance
+GitLab.com is frequently slow and unavailable. Harry has also heard that GitLab is a “memory hog”  which has deterred him from running GitLab on his own machine for just hobby / personal projects.
+
+##### UX/UI
+Harry has an interest in UX and therefore has strong opinions about how GitLab should look and feel. He feels the interface is cluttered, “it has too many links/buttons” and the navigation “feels a bit weird sometimes. I get lost if I don’t pay attention.” As Harry also enjoys contributing to open-source projects, it’s important to him that GitLab is well designed for public repositories, he doesn’t feel that GitLab currently achieves this.
+
+#### Goals 
+* To develop his programming experience and to learn from other developers.
+* To contribute to both his own and other open source projects.
+* To use a fast and intuitive version control platform.
