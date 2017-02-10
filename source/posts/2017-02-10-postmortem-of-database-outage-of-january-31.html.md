@@ -4,31 +4,14 @@ author: GitLab
 author_twitter: sytses
 categories:
 image_title:
-description:
+description: "Postmortem analysis of database outage of January 31 2017 with the lessons we learned."
 ---
 
-On January 31st 2017, we experienced a major service outage for one of our
-products, the online service GitLab.com.
+On January 31st 2017, we experienced a major service outage for one of our products, the online service GitLab.com. The outage was caused by the database data of our primary database server being removed by accident.
 
-GitLab customers (who all use GitLab Enterprise Edition or GitHost), as well as
-the millions of users using self-hosted GitLab Community Edition, were never at
-any risk of data loss, and never incurred any downtime. The outage only affected
-users who rely on the GitLab.com service, and was caused by the database data of
-our primary database server being removed by accident.
+This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data, that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were affected neither by the outage, nor the data loss.
 
-We have concluded the investigation and despite our best efforts, we're unable
-to recover some of the data created on the service between January 31 at 17:20
-UTC and 00:00 UTC. No code repositories, files or wikis were lost. The data lost
-includes some of the projects, issues, comments & snippets, from free users of
-GitLab.com. While the amount of data lost is hard to estimate, our best guess is
-5,000 projects, 5,000 comments and roughly 700 users.
-
-We consider losing production data unacceptable. To ensure this does not happen
-again, GitLab is working on 14 improvements to its operations & recovery
-procedures for GitLab.com.
-
-In this article we'll look at what went wrong, what we did to recover, and what
-we'll do to prevent this from happening in the future.
+We consider losing production data unacceptable. To ensure this does not happen again, GitLab is working on 14 improvements to its operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
 
 ## Database Setup
 
