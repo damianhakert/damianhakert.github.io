@@ -4,7 +4,7 @@ author: GitLab
 author_twitter: sytses
 categories:
 image_title:
-description: "Postmortem analysis of database outage of January 31 2017 with the lessons we learned."
+description: "Postmortem on the database outage of January 31 2017 with the lessons we learned."
 ---
 
 On January 31st 2017, we experienced a major service outage for one of our products, the online service GitLab.com. The outage was caused by an accidental removal of data from our primary database server.
