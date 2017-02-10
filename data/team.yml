@@ -2160,16 +2160,16 @@
           including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
           He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
-- name: P.C.
-  locality:
-  country:
+- name: Peter McCracken
+  locality: Boston
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: peter_mccracken.jpg
   twitter:
-  gitlab:
+  gitlab: peterm
   story:  |
-          Joining February 1st
+	  Peter is originally from Foxborough, Massachusetts. He is a major Boston sports fan and in his free time he loves to work on his golf game, play hockey and go hiking with friends. When he’s not golfing he loves traveling to new places and taking in the local culture.
 
 - name: S.K.
   locality:
