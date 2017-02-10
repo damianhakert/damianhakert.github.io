@@ -437,3 +437,27 @@ for projects created after 17:20. We ran a procedure to restore these
 projects based on their Git repositories that were still stored in our NFS
 cluster. This procedure however was only able to restore projects in their most
 basic form, without associated data such as issues and merge requests.
+
+## How is team-member-1 doing?
+
+The person that gave the unfortunate command to delete our primary database was not only on our minds but also of other people.
+
+There was [a lot of #HugOps love](https://twitter.com/i/moments/826818668948549632). Kiru [tweeted a #JeSuisTeamMember1 picture](https://twitter.com/karmukis/status/826875580465414145).
+
+TODO Kirsten
+
+At GitLab we think that the people making the most mistakes frequently correlate with the people doing the most work. I certainly make a lot of mistakes every day. It is important not to double down on them but to acknowledge them and learn from it.
+
+Coincidentally team-member-1 just qualified for a promotion to senior developer. The outage did not change that decision.
+
+When we promote people at GitLab or give a bonus we share the reasons for that with the whole company. With the permission of team-member-1 this blog post is both the internal and external announcement of that promotion.
+
+TODO add rationale
+
+
+
+
+
+
+
+
