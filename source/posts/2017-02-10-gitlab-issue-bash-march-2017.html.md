@@ -64,7 +64,7 @@ We have some awesome swag ready for you:
 
 ![GitLab Issue Bash - Prizes](/images/blogimages/gitlab-issue-bash-march-2017-prizes.png)
 
-If we get solve twice as many issues as we did in
+If we solve twice as many issues as we did in
 the last Issue Bash (> 200), we'll give away a **mystery prize** as well! 🎉
 
 Users making any contributions to the project that fall into the above categories,
