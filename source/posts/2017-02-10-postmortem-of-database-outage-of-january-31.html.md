@@ -390,8 +390,16 @@ ownership of these procedures. The issue for this is
 ["Disaster recovery for everything that is not the database"](https://gitlab.com/gitlab-com/infrastructure/issues/1161).
 
 Monitoring wise we also started working on a public backup monitoring dashboard,
-which can be found at <http://monitor.gitlab.net/dashboard/db/backups>. This
-dashboard is still in the early stages, we aim to add more data over time.
+which can be found at <http://monitor.gitlab.net/dashboard/db/backups>.
+Currently this dashboard only contains data of our `pg_dump` backup procedure,
+but we aim to add more data over time.
+
+One might notice that at the moment our `pg_dump` backups are 3 days old.  We
+perform these backups on a secondary as `pg_dump` can put quite a bit of
+pressure on a database. Since we are in the process of rebuilding our
+secondaries the `pg_dump` backup procedure is suspended for the time being. Fear
+not however, as LVM snapshots are now taken every hour instead of once per 24
+hours. Enabling Azure disk snapshots is something we're still looking into.
 
 Finally, we're looking into improving our abuse reporting and response system.
 More information regarding this can be found in the issue
