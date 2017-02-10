@@ -48,7 +48,7 @@ database.
 
 **± 19:00 UTC:** GitLab.com starts experiencing an increase in database load due
 to what we suspect was spam. In the week leading up to this event GitLab.com had
-been experiencing from similar problems, but not this severe. One of the problems
+been experiencing similar problems, but not this severe. One of the problems
 this load caused was that many users were not able to post comments on issues
 and merge requests. Getting the load under control took several hours.
 
