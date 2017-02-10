@@ -10,15 +10,15 @@ description: "We're on a mission to blitz GitLab's open issues and we need your 
 
 There are currently over 6000 open issues on GitLab CE,
 and we need your help to sort them out! We have over 1500
-[GitLab contributors](http://contributors.gitlab.com/contributors/), and we want everyone to be able to
-find issues to work on.
+[GitLab contributors](http://contributors.gitlab.com/contributors/),
+and we want everyone to be able to find issues to work on.
 
-Of course, the best contributors will be prized with XXXX,
-and we'll promise to give some awesome swag away! 🙌
+Of course, the best contributors will be prized with awesome swag! 🙌
 
 <!-- more -->
 
-Our last Issue Bash helped us to close over 100 issues and lots of improvements to the categorization of existing issues were made.
+Our last Issue Bash helped us to close over 100 issues and lots of
+improvements to the categorization of existing issues were made.
 {:.alert .alert-info .text-center}
 
 ## When Is It Going to Happen?
@@ -52,11 +52,26 @@ There are mainly four things we need from our task force:
 
 Check out the [Issue Bash Proposal](https://gitlab.com/gitlab-org/gitlab-ce/issues/27272) to find out how to get started.
 
-To be considered for a prize you need at least one contribution
-accepted by the time GitLab x.xx releases on XXXX 22nd.
-Prizes will be drawn at random.
+## Prizes
+
+We have some awesome swag ready for you: 
+
+- Five T-shirts
+- Four pajama pants
+- Three moleskin notebooks
+- Two [pocket chips](https://getchip.com/pages/pocketchip)
+- One messenger bag (filled with all the stuff just listed)!
+
+If we get twice as much issues solved than
+the last Issue Bash (>= 200), we'll give away a **mystery prize** as well! 🎉
+
+Users making any contributions to the project that fall into the above categories,
+between the start and end times of the event, will be entered into the random draw
+to win a prize. The contributions will be collated after the end of the event and
+prize winners, drawn at random, will be contacted in the weeks that follow.
+
+
 
 ## Questions? More info?
 
 GitLab team members [@markglenfletcher](https://gitlab.com/markglenfletcher), [@ClemMakesApps](https://gitlab.com/ClemMakesApps), and [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
-	
