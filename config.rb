@@ -156,7 +156,7 @@ proxy "/team/structure/index.html", "/team/structure/template.html", locals: { t
 # Proxy comparison PDF pages
 data.comparisons.each do |key, comparison|
   file_name = key.dup.gsub(/_/, '-')
-  proxy "/comparison/pdfs/#{file_name}.html", "/comparison/pdfs/template.html", locals: { comparison_data: comparison }, ignore: true
+  proxy "/comparison/pdfs/#{file_name}.html", "/comparison/pdfs/template.html", locals: { comparison_block: comparison }, ignore: true
 end
 
 page '/404.html', directory_index: false

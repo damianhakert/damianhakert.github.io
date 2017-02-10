@@ -8,5 +8,5 @@ for filename in public/comparison/pdfs/*.html; do
   # remove the HTML file
   # rm $filename
 
-  echo "✅  PDF for $filename generated!"
+  echo "✅  PDF pdffilename generated!"
 done

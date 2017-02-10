@@ -27,8 +27,12 @@ header {
       font-size: 18px;
     }
 
-    img {
+    svg {
       margin-top: 12px;
+    }
+
+    .wordmark {
+      fill: $color-white;
     }
   }
 }
@@ -54,37 +58,11 @@ header {
   padding: 0 60px;
 }
 
-.comparison-page-content {
-  margin-left: -15px;
-  margin-right: -15px;
-
-  h2 {
-    display: none;
+.comparing-gitlab {
+  th {
+    svg {
+      height: 50px;
+      width: auto;
+    }
   }
-
-  h3 {
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: $color-primary;
-    font-size: 16px;
-    font-weight: 600;
-  }
-
-  p {
-    margin-bottom: 15px;
-    font-size: 14px;
-  }
-
-  a {
-    color: $color-dark;
-    text-decoration: underline;
-  }
-}
-
-.compare-col {
-  float: left;
-  width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
