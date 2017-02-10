@@ -59,7 +59,7 @@ We have some awesome swag ready for you:
 - Five T-shirts
 - Four pajama pants
 - Three moleskin notebooks
-- Two [pocket chips](https://getchip.com/pages/pocketchip)
+- Two [PocketCHIPs](https://getchip.com/pages/pocketchip)
 - One messenger bag (filled with all the stuff just listed)!
 
 ![GitLab Issue Bash - Prizes](/images/blogimages/gitlab-issue-bash-march-2017-prizes.png)
