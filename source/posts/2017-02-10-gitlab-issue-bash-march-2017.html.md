@@ -62,6 +62,8 @@ We have some awesome swag ready for you:
 - Two [pocket chips](https://getchip.com/pages/pocketchip)
 - One messenger bag (filled with all the stuff just listed)!
 
+![GitLab Issue Bash - Prizes](/images/blogimages/gitlab-issue-bash-march-2017-prizes.png)
+
 If we get twice as much issues solved than
 the last Issue Bash (>= 200), we'll give away a **mystery prize** as well! 🎉
 
@@ -69,8 +71,6 @@ Users making any contributions to the project that fall into the above categorie
 between the start and end times of the event, will be entered into the random draw
 to win a prize. The contributions will be collated after the end of the event and
 prize winners, drawn at random, will be contacted in the weeks that follow.
-
-
 
 ## Questions? More info?
 
