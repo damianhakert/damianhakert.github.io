@@ -453,7 +453,7 @@ The support our engineers received from our community was fantastic, people were
 
 A group from Google came to our HQ and got our engineers $300 to spend on something to make them feel better after all of this was over. 
 
-![Google gift card](/images/blogimages/google-gift.jpg)
+![Google gift card](/images/blogimages/google-gift.JPG)
 
 The engineers involved have agreed that this extremely generous gift will be spent on sponsoring Rails Girls events.
 At GitLab we're very proud of this initiative and will get the engineers involved matching swag for their next livestream event and will make sure they enjoy some team bonding fun soon.
