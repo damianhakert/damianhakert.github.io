@@ -7,12 +7,12 @@ competitor_two:
   logo: '/images/comparison/github-logo.svg'
 last_updated: 'February 07, 2017'
 features:
-  - title: "Faster from Idea to Production"
-    description: "GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform."
-    link_description: "Learn more about our vision"
-    link: https://about.gitlab.com/direction/#vision
+  - title: "Free for private projects"
+    description: "GitLab is free for unlimited private projects. GitHub doesn't provide private projects for free."
+    link_description:
+    link:
     competitor_one: true
-    competitor_two: sortof
+    competitor_two: false
   - title: "Built-in Continuous Integration and Continuous Deployment"
     description: "GitLab has built-in CI/CD, for free. GitHub has 3rd party CI/CD, which depends on GitHub, that are expensive if your projects are private."
     link_description: "Documentation on CI"
@@ -21,12 +21,6 @@ features:
     competitor_two: false
   - title: "CI/CD best practices"
     description: "Everyone in your organization with GitLab is able to setup and manage CI/CD. GitHub and its external CI/CD encourages this knowledge to be restricted to a bunch of devops."
-    link_description:
-    link:
-    competitor_one: true
-    competitor_two: false
-  - title: "Free for private projects"
-    description: "GitLab is free for unlimited private projects. GitHub doesn't provide private projects for free."
     link_description:
     link:
     competitor_one: true
@@ -55,6 +49,12 @@ features:
     link: https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/
     competitor_one: true
     competitor_two: false
+  - title: "Faster from Idea to Production"
+    description: "GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform."
+    link_description: "Learn more about our vision"
+    link: https://about.gitlab.com/direction/#vision
+    competitor_one: true
+    competitor_two: sortof
   - title: "Work-in-Progress Protection"
     description: "Simply add 'WIP' to the title of a merge request to prevent anyone from merging it. This gives you all the code review power of merge requests, while protecting unfinished work."
     link_description: "WIP Merge documentation"
