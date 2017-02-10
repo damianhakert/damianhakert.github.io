@@ -116,10 +116,10 @@ Applicants for this position can expect the hiring process to follow the order b
   review / coach a GitLab merge request (both in a fork of GitLab CE).
 * Selected candidates will be invited to schedule a 30-minute
   [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
-* Next, candidates will be invited to schedule a 30-minute soft-skills
-  interview with the Edge Lead.
-* Candidates will then be invited to schedule a 45-minute technical interview
-  with a Senior Developer.
+* Next, candidates will be invited to schedule a 45-minute behavioral interview
+  with the Edge Lead.
+* Candidates will then be invited to schedule a
+  [technical interview](/jobs/#technical-interview) with a Senior Developer.
 * Candidates will be invited to schedule an interview with our VP of Engineering.
 * Finally, candidates will have an interview with our CEO.
 * Successful candidates will subsequently be made an offer via email.
