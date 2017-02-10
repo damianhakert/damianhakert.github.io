@@ -1,18 +1,18 @@
 ---
-title: "Facilitating Ideation with the Four-Step Sketch"
+title: "Inside a UX Brainstorm with the Four-Step Sketch"
 author: Taurie Davis
 author_gitlab: tauriedavis
 author_twitter: tauried
 categories: inside GitLab
 image_title: /images/blogimages/facilitating-ideation-how-our-ux-team-used-the-four-step-sketch/facilitating-ideas--overview.jpg
-description: "During our recent Summit, the UX team tried out the Google Ventures Design Sprint process to tackle some larger features on our todo list."
+description: "During our recent Summit, the UX team customized the Google Ventures Design Sprint process to tackle some larger features on our todo list."
 ---
 
-Prior to [meeting in Cancún](https://about.gitlab.com/2017/02/08/gitlab-mexico-summit-2017/), we chose the idea of a [smart project dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/22551) as one of the features to focus on during the precious, in-person brainstorming time our Summit provides. In this post, I'll share a peek inside our process. 
+Prior to [meeting in Cancún](https://about.gitlab.com/2017/02/08/gitlab-mexico-summit-2017/), we decided to focus on the idea of a [smart project dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/22551) during the precious, in-person brainstorming time our Summit provides.
 
 <!-- more -->
 
-In one two-hour workshop, we took an expedited approach to the [Google Ventures Design Sprint](http://www.gv.com/sprint/) process. Their method is focused on answering critical questions through design over the course of five days. Customizing the exercise for our finite time together, we used portions of their checklist from [Day 2](https://library.gv.com/sprint-week-tuesday-d22b30f905c3).
+In one two-hour workshop, we took an expedited approach to the [Google Ventures Design Sprint](http://www.gv.com/sprint/) process. Their method is focused on answering critical questions through design over the course of five days. Customizing the exercise for our finite time together, we used portions of their checklist from [Day 2](https://library.gv.com/sprint-week-tuesday-d22b30f905c3). In this post, I'll share how we set ourselves up for a productive session. 
 
 
 ### The Problem
