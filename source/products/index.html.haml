@@ -239,3 +239,12 @@ extra_font:
       - size = (data.pricing.questions.size / Float(2)).ceil
       - data.pricing.questions.each_slice(size).to_a.each do |group|
         = partial "question-group", locals: { group: group }
+
+.content-container.animated
+  .container
+    %h2.faq-title.light.text-center
+      Compare GitLab to other tools
+    %h3.faq-subtitle.light.text-center
+      We've prepared handy comparison tables
+      %a{href: "/comparison"}
+        for you.
