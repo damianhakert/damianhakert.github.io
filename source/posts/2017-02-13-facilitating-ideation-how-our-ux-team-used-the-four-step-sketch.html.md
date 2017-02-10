@@ -54,4 +54,4 @@ We naturally began discussing all the solutions and adding sticky notes to the w
 
 At the end of our workshop we had generated a number of ideas for the new project dashboard. The Four-Step Sketch was great for opening our minds and allowing us to develop and communicate solutions. You can [view all of our sketches](https://drive.google.com/drive/folders/0B-PqsmU0p5QVMFZCNm4yRFhBblU?usp=sharing), and [contribute to the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/27112) as we continue to flesh out details surrounding the new dashboard.
 
-*We want to hear from you! How does your team work together through the ideation phase?*
+*How does your team work together through the ideation phase? Get in touch: taurie@gitlab.com*
