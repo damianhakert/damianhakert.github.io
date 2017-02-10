@@ -38,9 +38,19 @@ $(function() {
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
       $tables = $('table'),
+      $testimonialsSlider = $('#js-testimonials-slider'),
       internalNavigationEvent = 'onpopstate' in window ? 'popstate' : 'hashchange';
 
   $("input").not("[type=submit]").jqBootstrapValidation();
+
+  if ($testimonialsSlider.length) {
+    $testimonialsSlider.slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true
+    });
+  }
 
   if (getUrlParameter('s') == 'ph' && $ci.length) {
     $ci.append('<br><br>Hello, Product Hunters!<br><br> Get 75% off a GitLab.com bronze subscription forever! <br> Use the code: producthunt75');
