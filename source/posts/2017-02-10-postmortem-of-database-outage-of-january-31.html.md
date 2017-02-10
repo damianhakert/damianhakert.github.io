@@ -9,11 +9,11 @@ description: "Postmortem analysis of database outage of January 31 2017 with the
 
 On January 31st 2017, we experienced a major service outage for one of our products, the online service GitLab.com. The outage was caused by the database data of our primary database server being removed by accident.
 
-This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data, that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. The more than 100,000 organizations that are GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were affected neither by the outage, nor the data loss.
+This incident caused the GitLab.com service to be unavailable for many hours. We also lost some production data, that we were eventually unable to recover. Specifically, we lost modifications to database data such as projects, comments, user accounts, issues and snippets, that took place between 17:20 and 00:00 UTC on January 31. Our best estimate is that it affected roughly 5,000 projects, 5,000 comments and 700 new user accounts. Code repositories or wikis hosted on GitLab.com were unavailable during the outage, but were not affected by the data loss. The more than 100,000 organizations that are GitLab Enterprise customers, GitHost customers, and self-hosted GitLab CE users were affected neither by the outage, nor the data loss.
 
 We consider losing production data unacceptable. To ensure this does not happen again, GitLab is working on multiple improvements to its operations & recovery procedures for GitLab.com. In this article we'll look at what went wrong, what we did to recover, and what we'll do to prevent this from happening in the future.
 
-As our CEO I apologize to the 700 affected users for losing their data.
+As our CEO I apologize to the affected users for losing their data.
 
 ## Database Setup
 
@@ -362,6 +362,7 @@ procedures. Work is split across the following issues:
 1. [Investigate pgbarman for creating PostgreSQL backups (#1105)](https://gitlab.com/gitlab-com/infrastructure/issues/1105)
 1. [Investigate using WAL-E as a means of Database Backup and Realtime Replication (#494)](https://gitlab.com/gitlab-com/infrastructure/issues/494)
 1. [Build Streaming Database Restore](https://gitlab.com/gitlab-com/infrastructure/issues/1152)
+1. [Assign an owner for data durability](https://gitlab.com/gitlab-com/infrastructure/issues/1163)
 
 We are also working on setting up multiple secondaries and balancing the load
 amongst these hosts. More information on this can be found at:
