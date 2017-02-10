@@ -2013,7 +2013,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Redcarpet]: http://git.io/ld_NVQ
 [SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
-[slideshare-ivan] : http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
+[slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
 [ssg]: https://www.staticgen.com/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
