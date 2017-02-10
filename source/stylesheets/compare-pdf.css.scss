@@ -58,11 +58,15 @@ header {
   padding: 0 60px;
 }
 
-.comparing-gitlab {
-  th {
+.comparison-table {
+  padding-top: 0;
+
+  tr:first-child td {
+    border-top: 0;
+
     svg {
       height: 50px;
-      width: auto;
+      width: 100px;
     }
   }
 }

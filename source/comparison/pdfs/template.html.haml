@@ -32,21 +32,20 @@ layout: false
               %col{:width => "80%"}
               %col{:width => "10%"}
               %col{:width => "10%"}
-            %thead
+            %tbody.header.first
               %tr
-                %th.text-left.table-title
+                %td.text-left.table-title
                   FEATURES
-                %th.text-center
+                %td.text-center
                   - if (comparison_block.competitor_one.logo != "null")
                     = partial "../..#{comparison_block.competitor_one.logo}"
                   - else
                     = comparison_block.competitor_one.name
-                %th.text-center.table-title-logo
+                %td.text-center.table-title-logo
                   - if (comparison_block.competitor_two.logo != "null")
                     = partial "../..#{comparison_block.competitor_two.logo}"
                   - else
                     = comparison_block.competitor_two.name
-            %tbody.header.first
               - comparison_block.features.each do |feature|
                 %tr
                   %td.feature-in-list
