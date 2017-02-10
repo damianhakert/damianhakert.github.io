@@ -54,7 +54,7 @@
     $title.text(newTitle);
   }
 
-  const DESIRED_ELEMENTS_PER_PAGE = 3;
+  const DESIRED_ELEMENTS_PER_PAGE = 5;
 
   this.EventsHandler = (function() {
     function EventsHandler() {

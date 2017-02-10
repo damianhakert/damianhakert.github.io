@@ -25,7 +25,7 @@
 
 .page-headline {
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .featured-event-container {
@@ -212,7 +212,7 @@
     margin-top: 10px;
   }
 
-  button {
+  a {
     margin-top: 25px;
     margin-bottom: 35px;
     min-width: 200px;
@@ -268,6 +268,17 @@
     transform: translate(-50%, -50%);
     font-size: 18px;
     font-weight: 400;
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover,
+      &:visited {
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
   }
 }
 

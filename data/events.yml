@@ -1,13 +1,3 @@
-- topic: Git Merge 2017
-  type: Git Developers
-  date: Feb. 2-3 2017
-  description: |
-               Git Merge is the leading Git-focused conference. Providing a space for git workshops, discussion and case studies from the world’s leading git minds. Four GitLab team members (Sid, Marin, Jacob, Christian) will be attending and participating in the discussions on the future of git and best practices.
-
-  location: Brussels, Belgium
-  social_tags: Git,GitMerge2017
-  event_url: http://git-merge.com/
-
 - topic: Dublin Tech Summit
   type: Enterprise
   date: Feb. 15-16, 2017

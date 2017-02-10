@@ -12,35 +12,13 @@ extra_font:
 
 .page-container.event-headline-container.text-center.animated
   .container
-  %h1.page-headline
-    Lorem Ipsum Event Headline goes here
-  %h3.subheader
-    Tagline about events goes here
-  .row.featured-event-container
-    .col-md-6
-      .image-card.featured-event-image
-        = image_tag "/images/blogimages/gitlab-workflow-an-overview/idea-to-production-cover.jpg", alt: "event 1"
-    .col-md-6
-      %h2.featured-event-title
-        Gitlab World Tour - London
-      .featured-event-description
-        %p
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
-      .feature-event-button
-        %button.btn.btn-large.btn-yellow{type:"button"}
-          CTA
+    .col-md-8.col-md-offset-2
+      %h1.page-headline
+        GitLab Events
+      %h3.subheader
+        Learn more about software excellence with GitLab. 
+        We will be attending, hosting, and running numerous events in 2017, and cannot wait to see you there
 .page-container.upcoming-events.text-center.animated
-  .container
-    %h1.page-headline
-      Upcoming Events
-    %h3.subheader
-      Tagline about upcoming events goes here
   .row
     .container.filters-container
       .dropdown#event-types
@@ -112,7 +90,7 @@ extra_font:
           Know about a rad event we should be at?
         %h2
           Again, drop us a line -- we'd love to be there with you
-        %button.btn.btn-lg.btn-red{type:"button"}
+        %a.btn.btn-lg.btn-red{type:"button", href:"https://twitter.com/gitlab"}
           Drop It Like It's Hot
 .page-container.missed-events.text-center.animated
   %h1
@@ -122,24 +100,25 @@ extra_font:
   .row.event-recap
     .col-md-4.image-card-container
       .image-card
-        = image_tag "/images/events/idea-to-production-cover.jpg", alt: "event 1"
+        = image_tag "/images/events/idea-to-production.png", alt: "event 1"
         .image-card-text
-          Idea to Production
+          %a{href: "https://www.youtube.com/watch?v=ZRcWCWatdas"}
+            Idea to Production
     .col-md-4.image-card-container
       .image-card
         = image_tag "/images/events/mexico-summit-cover.png", alt: "event 2"
         .image-card-text
-          Mexico Summit 2017
+          %a{href: "https://www.youtube.com/watch?v=XDfTj8iv9qw"}
+            Mexico Summit 2017
     .col-md-4.image-card-container
       .image-card
         = image_tag "/images/events/8-16-recap-cover.png", alt: "event 3"
         .image-card-text
-          8.16 Webcast
+          %a{href: "https://www.youtube.com/watch?v=iYPhXm8RlxI"}
+            8.16 Webcast
   .row.rad-event-container
     .rad-event.rad-event-alt
       %h1
         Gitlab Diversity Scholarship
-      %h2
-        Optional tagline about the scholarship can go right here
-      %button.btn.btn-lg.btn-red{type:"button"}
+      %a.btn.btn-lg.btn-red{type:"button", href: " https://about.gitlab.com/2016/03/24/sponsorship-update/"}
         Learn More
