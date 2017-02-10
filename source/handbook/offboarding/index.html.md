@@ -142,7 +142,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [x] _not relevant_ For Developer GitLabbers: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 1. [ ] Hiring Manager: Remove access to PagerDuty if applicable.
 1. [ ] Hiring Manager (For Build Engineers): Remove team member as a member to the GitLab Dev Digital Ocean account https://cloud.digitalocean.com/settings/team
-1. [ ] Remove any development droplets. Send a merge request to remove https://gitlab.com/gitlab-com/environments/tree/master/env-dev/name-surname.tf.
+1. [ ] People Ops: Remove any development VMs. Send a merge request to [the environments repo](https://gitlab.com/gitlab-com/environments) to remove `env-dev/name-surname.tf`. Follow the instructions [here](https://gitlab.com/gitlab-com/environments/tree/master/#how-do-i-delete-an-instance-i-dont-need-anymore).
 
 #### FOR SERVICE ENGINEERING ONLY
 
@@ -162,7 +162,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] Hiring Manager: Remove team member as a member from the GitLab Dev DigitalOcean account https://cloud.digitalocean.com/settings/team
 1. [ ] People Ops: remove team member's Zoom account.
 1. [ ] Hiring Manager: Remove team member from https://timezone.io/team/gitlab-support
-1. [ ] Remove any development droplets. Send a merge request to remove https://gitlab.com/gitlab-com/environments/tree/master/env-dev/name-surname.tf.
+1. [ ] People Ops: Remove any development VMs. Send a merge request to [the environments repo](https://gitlab.com/gitlab-com/environments) to remove `env-dev/name-surname.tf`. Follow the instructions [here](https://gitlab.com/gitlab-com/environments/tree/master/#how-do-i-delete-an-instance-i-dont-need-anymore).
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
