@@ -16,6 +16,11 @@ stages:
   - build
   - deploy
 
+crlf:
+  stage: build
+  script:
+    - ! find . -name "*.md" -not -type d -exec file "{}" ";" | grep CRLF
+
 lint:
   stage: build
   script:
