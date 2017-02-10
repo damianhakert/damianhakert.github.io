@@ -1,29 +1,25 @@
 ---
-title: "Inside Our UX Brainstorm with the Four-Step Sketch"
+title: "Facilitating Ideation: How our UX team used the Four-Step Sketch"
 author: Taurie Davis
 author_gitlab: tauriedavis
 author_twitter: tauried
 categories: inside GitLab
 image_title: /images/blogimages/facilitating-ideation-how-our-ux-team-used-the-four-step-sketch/facilitating-ideas--overview.jpg
-description: "During our recent Summit, the UX team customized the Google Ventures Design Sprint process to tackle some larger features on our todo list."
 ---
 
-Prior to [meeting in Cancún](https://about.gitlab.com/2017/02/08/gitlab-mexico-summit-2017/), we decided to focus on the idea of a [smart project dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/22551) during the precious, in-person brainstorming time our Summit provides.
+Last month 150 GitLab members and their SO's traveled from over 30 countries to meet in Cancun, Mexico for [our summit](https://gitlab.com/summits/Summit-2017/) that takes place every nine months. During this time, the UX team took advantage of the time spent together by creating workshops that dived into some larger features we thought would benefit from discussing, brainstorming, and sketching.
 
-<!-- more -->
-
-In one two-hour workshop, we took an expedited approach to the [Google Ventures Design Sprint](http://www.gv.com/sprint/) process. Their method is focused on answering critical questions through design over the course of five days. Customizing the exercise for our finite time together, we used portions of their checklist from [Day 2](https://library.gv.com/sprint-week-tuesday-d22b30f905c3). In this post, I'll share how we set ourselves up for a productive session. 
-
+During one of our two hour workshops, we took an expedited approach to the [Google Ventures Design Sprint](http://www.gv.com/sprint/) process. Their method is focused on answering critical questions through design over the course of five days. In order to create a productive workshop, we used portions of their checklist from [Day 2](https://library.gv.com/sprint-week-tuesday-d22b30f905c3) that fit within our two hour time frame.
 
 ### The Problem
 
-One of the primary goals was to create a tool that reflects the status of a project as it evolves through each step of the [idea-to-production](https://about.gitlab.com/2016/11/14/idea-to-production/) lifecycle. Before getting started, we established some basic details regarding the feature that would help provide a structure for discussion:
+Prior to meeting in Cancun, we chose the idea of a [smart project dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/22551) as one of the features to focus on during our summit. We worked out some basic details regarding the feature that would help provide a structure for discussion:
 
 - Content would be customized to the project, but every user would see the same information.
 - As someone unfamiliar with the project, I can, at a glance, understand the overall status of the project.
-- As someone familiar with the project, I can understand the status of the areas I care about. It is also clear which items needs my attention.
+- As someone familiar with the project, I can understand the status of the areas I care about. It is also clear what work needs my attention.
 
-These guidelines allowed us to explore what it could mean to transform the project dashboard. 
+We used these as guidelines to start our exploration into what it could mean to transform the project dashboard. One of the primary goals was to create a tool that reflects the status of a project as it evolves through each step of the [idea-to-production](https://about.gitlab.com/2016/11/14/idea-to-production/) lifecycle.
 
 ### The Process
 
@@ -40,7 +36,7 @@ After gathering our thoughts, we went straight into the rapid iterative sketchin
 
 ![crazyeights](/images/blogimages/facilitating-ideation-how-our-ux-team-used-the-four-step-sketch/facilitating-ideas--crazyeights.jpg){: .shadow}
 
-After thinking about the problem and potential solutions individually, we began solution-sketching through storyboards. This gave us the chance to further develop the details of a solution we chose through the crazy 8s. We started with a blank sheet of paper, placed three sticky notes on the page to represent three frames, and spent twenty minutes sketching more detailed wireframes. In the surrounding white space, we named our storyboard and wrote a brief explanation of the idea in order to ensure that the frame was understandable without verbal explanation. This helped us prepare for the next step, our silent critique.
+Now that we had taken the time to think about the problem and individually craft multiple possible solutions, we began solution sketching through storyboards. This gave us the chance to further develop the details of a solution we chose through the crazy 8s. We started with a blank sheet of paper, placed three sticky notes on the page to represent three frames, and spent twenty minutes sketching more detailed wireframes. In the surrounding white space, we named our storyboard and wrote a brief explanation of the idea in order to ensure that the frame was understandable without verbal explanation. This helped us prepare for the next step, our silent critique.
 
 ![storyboards](/images/blogimages/facilitating-ideation-how-our-ux-team-used-the-four-step-sketch/facilitating-ideas--storyboard.jpg){: .shadow}
 
@@ -52,6 +48,6 @@ We naturally began discussing all the solutions and adding sticky notes to the w
 
 ### Next Steps
 
-At the end of our workshop we had generated a number of ideas for the new project dashboard. The Four-Step Sketch was great for opening our minds and allowing us to develop and communicate solutions. You can [view all of our sketches](https://drive.google.com/drive/folders/0B-PqsmU0p5QVMFZCNm4yRFhBblU?usp=sharing), and [contribute to the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/27112) as we continue to flesh out details surrounding the new dashboard.
+At the end of our workshop we had generated a number of ideas for the new project dashboard. The Four-Step Sketch was great for getting our minds open to the creative process and allowed us to develop and communicate varied solutions. You can [view all our sketches](https://drive.google.com/drive/folders/0B-PqsmU0p5QVMFZCNm4yRFhBblU?usp=sharing), as well as [contribute to the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/27112) as we continue to flush out details surrounding the new dashboard.
 
-*How does your team work together through the ideation phase? Get in touch: taurie@gitlab.com*
+*We want to hear from you! How does your team work together through the ideation phase?*
