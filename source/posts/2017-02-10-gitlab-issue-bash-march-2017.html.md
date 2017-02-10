@@ -43,7 +43,7 @@ members are definitely welcome and prize worthy!
 
 ## How do You Get Involved?
 
-There are mainly four things we need from our task force:
+There are four main things we need from our task force:
 
 - Track issues that can be easily closed
 - Categorize issues
@@ -57,15 +57,15 @@ Check out the [Issue Bash Proposal](https://gitlab.com/gitlab-org/gitlab-ce/issu
 We have some awesome swag ready for you: 
 
 - Five T-shirts
-- Four pajama pants
+- Four pairs of pajama pants
 - Three Moleskine notebooks
 - Two [PocketCHIPs](https://getchip.com/pages/pocketchip)
 - One messenger bag (filled with all the stuff listed above!)
 
 ![GitLab Issue Bash - Prizes](/images/blogimages/gitlab-issue-bash-march-2017-prizes.png)
 
-If we get twice as many issues solved than we did in
-the last Issue Bash (>= 200), we'll give away a **mystery prize** as well! 🎉
+If we get solve twice as many issues as we did in
+the last Issue Bash (> 200), we'll give away a **mystery prize** as well! 🎉
 
 Users making any contributions to the project that fall into the above categories,
 between the start and end times of the event, will be entered into the random draw
