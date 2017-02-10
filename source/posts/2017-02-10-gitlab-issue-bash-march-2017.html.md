@@ -74,4 +74,4 @@ prize winners, drawn at random, will be contacted in the weeks that follow.
 
 ## Questions? More info?
 
-GitLab team members [@markglenfletcher](https://gitlab.com/markglenfletcher), [@ClemMakesApps](https://gitlab.com/ClemMakesApps), and [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
+[GitLab team](/team/) members [@markglenfletcher](https://gitlab.com/markglenfletcher), [@ClemMakesApps](https://gitlab.com/ClemMakesApps), and the [core team](/core-team/) member [@haynes](https://gitlab.com/haynes) will be on hand to answer questions and close issues.
