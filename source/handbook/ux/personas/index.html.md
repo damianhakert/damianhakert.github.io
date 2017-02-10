@@ -75,3 +75,64 @@ GitLab’s interface initially attracted Steven when he was comparing version co
 * To use a feature rich version control platform that covers all stages of the development lifecycle, in order to reduce dependencies on other tools.
 * To use an intuitive and stable product, so he can spend more time on his core job responsibilities and less time bug-fixing, guiding colleagues, etc.
 
+<hr>
+
+### James Mackey
+Medium to large size organisations using CE or EE
+Small organisations using EE
+
+#### Demographics
+
+##### Age
+36 years old
+
+##### Location
+US
+
+##### Education
+Masters degree in Computer Science
+
+##### Occupation
+Full-stack web developer
+
+##### Programming experience
+Over 10 years
+
+##### Frequently used programming languages
+JavaScript, SQL, Node.js, Java, PHP, Python
+
+##### Hobbies / interests
+DevOps, open source, web development, science, automation and electronics.
+
+#### Motivations
+James works for a research company which currently hires around 800 staff. He began using GitLab.com back in 2013 for his own open source, hobby projects and loved “the simplicity of installation, administration and use”. After using GitLab for over a year, he began to wonder about using it at work. James explains:
+
+>
+“We first installed the CE edition...on a staging server for a PoC and asked a beta team to use it, specifically for the Merge Request features. Soon other teams began asking us to be beta users too, because the team that was already using GitLab was really enjoying it.”
+>
+
+James and his colleagues also reviewed competitor products including GitHub Enterprise, but they found it “less innovative and with considerable costs...GitLab had the features we wanted at a much lower cost per head than GitHub”.
+
+The company James works for provides employees with a discretionary budget to spend how they want on software, so James and his team decided to upgrade to EE. 
+
+James feels partially responsible for his organisation’s decision to start using GitLab.
+
+>
+“It's still up to the teams themselves [to decide] which tools to use. We just had a great experience moving our daily development to GitLab, so other teams have followed the path or are thinking about switching.”
+>
+
+#### Frustrations
+##### Third Party Integration
+Some of GitLab EE’s features are too basic, in particular, issues boards which do not have the level of reporting that James and his team need. Subsequently, they still need to use GitLab EE in conjunction with other tools, such as JIRA. Whilst James feels it isn’t essential for GitLab to meet all his needs (his company are happy for him to use, and pay for, multiple tools), he sometimes isn’t sure what is/isn’t possible with plugins and what level of custom development he and his team will need to do.
+
+##### UX/UI
+James and his team use CI quite heavily for several projects. Whilst they’ve welcomed improvements to the builds and pipelines interface, they still have some difficulty following build process on the different tabs under Pipelines. Some confusion has arisen from not knowing where to find different pieces of information or how to get to the next stages logs from the current stage’s log output screen. They feel more intuitive linking and flow may alleviate the problem. Generally, they feel GitLab’s navigation needs to reviewed and optimised.
+
+##### Permissions
+“There is no granular control over user or group permissions. The permissions for a project are too tightly coupled to the permissions for Gitlab CI/build pipelines.”
+
+#### Goals 
+* To be able to integrate third party tools easily with GitLab EE and to create custom integrations and patches where needed.
+* To use GitLab EE primarily for code hosting, merge requests, continuous integration and issue management. Steven and his team want to be able to understand and use these particular features easily.
+* To able to share one instance of GitLab EE with multiple teams across the business. Advanced user management, the ability to separate permissions on different parts of the source code, etc are important to Steven.
+
