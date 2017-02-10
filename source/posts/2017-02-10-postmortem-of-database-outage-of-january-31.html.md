@@ -1,7 +1,7 @@
 ---
-title: "Database Post-mortem January 31st/February 1st"
+title: "Postmortem of database outage of January 31"
 author: GitLab
-author_twitter: gitlab
+author_twitter: sytses
 categories:
 image_title:
 description:
