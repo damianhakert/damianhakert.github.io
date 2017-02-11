@@ -97,7 +97,7 @@ The recruiting team will **always** publicize the job through the following mean
 
 **Remember to inform applicants about what stage they are in.** So, for example, if in the hiring process for the particular position / team you've agreed that there will be four stages, be sure to inform the applicant of where they are in the process during each call / stage: "You are in stage X and will be moving to stage Y next." Some brief feedback from the previous stage can also be included to help the candidate gauge their progress.
 
-**Inform applicants that they can stop the interview process at any point.** If the applicant wants to stop the interview, they should notify you with a short description on possible reasons.
+**Inform applicants that they can stop the interview process at any point.**
 Inform the applicant that they might need to go through some steps again or from the beginning if the hiring situation
 has changed. Inform the candidate that we can also re-evaluate interrupted application for a different position or level if they can sufficiently prove that their skill set has changed.
 
