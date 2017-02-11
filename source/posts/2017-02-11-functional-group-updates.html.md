@@ -17,3 +17,37 @@ The format of these calls is simple and short where they can either give a prese
 All of the updates are recorded using [Zoom](https://zoom.us) at the time of the call. All the recordings will be uploaded to our Youtube account and made public, with the exception of the Sales and Finance updates.
 
 Below are the recordings of the updates of this week and the week before. We aim to post a blog every week with the latest updates.
+
+Discussion team
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/8tjVmEe5urI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Product team
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/BysM79IjVzY" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+PeopleOps team
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/kwWLUx0n3MQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Infrastructure team
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/I3E24RT1Ajc" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+UX team
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/cn3Ho8ez110" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
+Interested in helping out one of our many Functional Groups? How about joining one of these teams! Check out our [job openings](https://about.gitlab.com/jobs)
+and apply right now!
