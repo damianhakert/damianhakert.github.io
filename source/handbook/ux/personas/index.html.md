@@ -15,26 +15,13 @@ Small to medium size organisations using GitLab CE
 
 #### Demographics 
 
-##### Age
-32 years old
-
-##### Location
-Germany
-
-##### Education
-Bachelor of Science in Computer Science
-
-##### Occupation
-Full-stack web developer
-
-##### Programming experience
-Over 10 years
-
-##### Frequently used programming languages
-JavaScript, SQL, PHP
-
-##### Hobbies / interests
-Functional programming, open source, gaming, web development and web security.
+- **Age**<br>32 years old
+- **Location**<br>Germany
+- **Education**<br>Bachelor of Science in Computer Science
+- **Occupation**<br>Full-stack web developer
+- **Programming experience**<br>Over 10 years
+- **Frequently used programming languages**<br>JavaScript, SQL, PHP
+- **Hobbies / interests**<br>Functional programming, open source, gaming, web development and web security.
 
 #### Motivations
 Steven works for a software development company which currently hires around 80 people. When Steven first joined the company, the engineering team were using Subversion (SVN) as their primary form of source control. However, Steven felt SVN was not flexible enough to work with many feature branches and noticed that developers with less experience of source control struggled with the central-repository nature of SVN. Armed with a wishlist of features, Steven began comparing source control tools. A search for “self-hosted Git server repository management” returned GitLab. In his own words, Steven explains why he wanted the engineering team to start using GitLab:
@@ -87,26 +74,13 @@ Medium to large size organisations using CE or EE, Small organisations using EE
 
 #### Demographics
 
-##### Age
-36 years old
-
-##### Location
-US
-
-##### Education
-Masters degree in Computer Science
-
-##### Occupation
-Full-stack web developer
-
-##### Programming experience
-Over 10 years
-
-##### Frequently used programming languages
-JavaScript, SQL, Node.js, Java, PHP, Python
-
-##### Hobbies / interests
-DevOps, open source, web development, science, automation and electronics.
+- **Age**<br>36 years old
+- **Location**<br>US
+- **Education**<br>Masters degree in Computer Science
+- **Occupation**<br>Full-stack web developer
+- **Programming experience**<br>Over 10 years
+- **Frequently used programming languages**<br>JavaScript, SQL, Node.js, Java, PHP, Python
+- **Hobbies / interests**<br>DevOps, open source, web development, science, automation and electronics.
 
 #### Motivations
 James works for a research company which currently hires around 800 staff. He began using GitLab.com back in 2013 for his own open source, hobby projects and loved “the simplicity of installation, administration and use”. After using GitLab for over a year, he began to wonder about using it at work. James explains:
@@ -147,26 +121,13 @@ Using GitLab.com for personal/hobby projects, Would like to use GitLab at work, 
 
 #### Demographics
 
-##### Age
-26 years old
-
-##### Location
-UK
-
-##### Education
-Self taught
-
-##### Occupation
-Junior web-developer
-
-##### Programming experience
-6 years
-
-##### Frequently used programming languages
-JavaScript and SQL
-
-##### Hobbies / interests
-Web development, mobile development, UX, open source, gaming and travel.
+- **Age**<br>26 years old
+- **Location**<br>UK
+- **Education**<br>Self taught
+- **Occupation**<br>Junior web-developer
+- **Programming experience**<br>6 years
+- **Frequently used programming languages**<br>JavaScript and SQL
+- **Hobbies / interests**<br>Web development, mobile development, UX, open source, gaming and travel.
 
 #### Motivations
 Harry has been using GitLab.com for around a year. He roughly spends 8 hours every week programming, of that, 2 hours is spent contributing to open source projects. Harry contributes to open source projects to gain programming experience and to give back to the community. He likes GitLab.com for its free private repositories and range of features which provide him with everything he needs for his personal projects. Harry is also a massive fan of GitLab’s values and the fact that it isn’t a “behemoth of a company”.  He explains that “displaying every single thing (doc, culture, assumptions, development...) in the open gives me greater confidence to choose Gitlab personally and to recommend it at work.”  He’s also an avid reader of GitLab’s blog.
