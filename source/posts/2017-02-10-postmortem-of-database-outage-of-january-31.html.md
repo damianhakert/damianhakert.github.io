@@ -231,7 +231,7 @@ In both cases the amount of data to copy would be roughly the same. Since
 copying over and restoring the data directory would be easier we decided to go
 with this solution.
 
-Copying the data from the staging to the production host took around 18 hours. These disks are network disks and are throttled to a really low number (around 6Mbps), there is no way to move from cheap storage to premium, so this was the performance we would get out of it. There was no network or processor bottleneck, the bottleneck was in the drives.
+Copying the data from the staging to the production host took around 18 hours. These disks are network disks and are throttled to a really low number (around 60Mbps), there is no way to move from cheap storage to premium, so this was the performance we would get out of it. There was no network or processor bottleneck, the bottleneck was in the drives.
 Once copied we were able to restore the database (including webhooks) to the
 state it was at January 31st, 17:20 UTC.
 
