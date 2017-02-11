@@ -39,3 +39,19 @@ title: "GitLab General Guidelines"
 1. Respect the **privacy** of our users and your fellow GitLabbers. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of GitLabbers) is a fireable offense.
 1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook.".
 1. Also see our [leadership guidelines](https://about.gitlab.com/handbook/leadership/#guidelines).
+
+## On-Call Rotation and Scheduling
+
+We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
+respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
+and how to swap duty in the [On-Call](https://about.gitlab.com/handbook/on-call/) page.
+
+## Intellectual Property
+
+1. Take proper care of any **confidential** information you get from our customers.
+1. If you copy code always **check** the license and attribute when needed or appropriate.
+1. Check community **contributions** and do not merge it when there can be doubt about the ownership.
+1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
+1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
+intellectual property violations
+1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit) and/or [GitLab B.V. NDA and IP Agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#).
