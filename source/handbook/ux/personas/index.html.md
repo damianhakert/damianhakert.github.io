@@ -4,14 +4,20 @@ title: "UX Personas"
 ---
 
 ## UX Personas
-* [Steven Lyons](http://localhost:4567/handbook/ux/personas#steven-lyons)
-* [James Mackey](http://localhost:4567/handbook/ux/personas#james-mackey)
-* [Harry Robinson](http://localhost:4567/handbook/ux/personas#harry-robinson)
+* [Steven Lyons](/handbook/ux/personas#steven-lyons)
+    - Small to medium size organisations using GitLab CE
+* [James Mackey](/handbook/ux/personas#james-mackey)
+    - Medium to large size organisations using CE or EE
+    - Small organisations using EE
+* [Harry Robinson](/handbook/ux/personas#harry-robinson)
+    - Using GitLab.com for personal/hobby projects
+    - Would like to use GitLab at work
+    - Working for a medium to large size organisation  
 
 <hr>
 
 ### Steven Lyons
-Small to medium size organisations using GitLab CE
+- Small to medium size organisations using GitLab CE
 
 #### Demographics 
 
@@ -57,7 +63,9 @@ Steven’s company want GitLab to be able to do everything. There isn’t a larg
 Steven often has to calm down his colleagues, when a release contains regressions or new bugs. As he puts it “every new version adds something awesome, but breaks something”. He feels that “old issues for "minor" annoyances get quickly buried in the mass of open issues and linger for a very long time. More generally, I have the feeling that GitLab focus on adding new functionalities, but overlook a bunch of annoying minor regressions or introduced bugs.” Due to limited resource and expertise within the team, not only is it difficult to remain up-to-date with the frequent release cycle, it’s also counterproductive to fix workflows every month.
 
 ##### Uses too much RAM and CPU
+>
 “Memory usages mean that if we host it from a cloud based host like AWS, we spend almost as much on the instance as what we would pay GitHub”
+>
 
 ##### UI/UX
 GitLab’s interface initially attracted Steven when he was comparing version control software. He thought it would help his less technical colleagues to adapt to using Git and perhaps, GitLab could be rolled out to other areas of the business, beyond engineering. However, using GitLab’s interface daily has left him frustrated at the lack of personalisation / control over his user experience. He’s also regularly lost in a maze of navigation. Whilst he acknowledges that GitLab listens to its users and that the interface is improving, he becomes annoyed when the changes are too progressive. “Too frequent UI changes. Most of them tend to turn out great after a few cycles of fixes, but the frequency is still far too high for me to feel comfortable to always stay on the current release.”
@@ -70,7 +78,8 @@ GitLab’s interface initially attracted Steven when he was comparing version co
 <hr>
 
 ### James Mackey
-Medium to large size organisations using CE or EE, Small organisations using EE
+- Medium to large size organisations using CE or EE
+- Small organisations using EE
 
 #### Demographics
 
@@ -107,7 +116,9 @@ Some of GitLab EE’s features are too basic, in particular, issues boards which
 James and his team use CI quite heavily for several projects. Whilst they’ve welcomed improvements to the builds and pipelines interface, they still have some difficulty following build process on the different tabs under Pipelines. Some confusion has arisen from not knowing where to find different pieces of information or how to get to the next stages logs from the current stage’s log output screen. They feel more intuitive linking and flow may alleviate the problem. Generally, they feel GitLab’s navigation needs to reviewed and optimised.
 
 ##### Permissions
+>
 “There is no granular control over user or group permissions. The permissions for a project are too tightly coupled to the permissions for Gitlab CI/build pipelines.”
+>
 
 #### Goals 
 * To be able to integrate third party tools easily with GitLab EE and to create custom integrations and patches where needed.
@@ -117,7 +128,9 @@ James and his team use CI quite heavily for several projects. Whilst they’ve w
 <hr>
 
 ### Harry Robinson
-Using GitLab.com for personal/hobby projects, Would like to use GitLab at work, Working for a medium to large size organisation   
+- Using GitLab.com for personal/hobby projects
+- Would like to use GitLab at work
+- Working for a medium to large size organisation   
 
 #### Demographics
 
