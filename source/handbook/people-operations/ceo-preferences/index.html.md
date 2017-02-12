@@ -95,7 +95,7 @@ The EA should follow up to make sure the draft post is submitted.
 Make sure to include in the description
 * (Video)calls
 <br>
-Please read our primer as preparation for this meeting: https://about.gitlab.com/primer 
+Please read our primer as preparation for this meeting: https://about.gitlab.com/primer
 (Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
@@ -119,6 +119,7 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 * For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 * Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 * Sales meetings are important, in case the CEO can help the process, feel free to include him in the meeting
+* Make sure to include background info what the call will be about to the invite. For example adding the relevant email thread in the notes of the invite
 * Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call or  a meeting at the GitLab office. If the other party presses to meet at their location, confirm if that is OK before accepting.
 
 ## Hiring process
