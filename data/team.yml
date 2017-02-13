@@ -2226,6 +2226,17 @@
   story:  |
           Joining February 13th
 
+- name: J.M.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 15th
+
 - name: B.V.
   locality:
   country:
@@ -2236,6 +2247,17 @@
   gitlab:
   story:  |
           Joining March 6th
+
+- name: A.O.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 13th
 
 - name: "Sid (Interim)"
   placeholder: true
