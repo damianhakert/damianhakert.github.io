@@ -16,7 +16,7 @@ Many items further down this page are a guideline for our [Executive Assistants]
 ## Flaws
 {: #flaws}
 
-Transparency and directness are part of our [values](https://about.gitlab.com/handbook/#values) and I want to live them by sharing the flaws I know I have.
+Transparency and directness are part of our [values](https://about.gitlab.com/handbook/values) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
 They are listed here for two reasons.
 The fist one is so that people know it is not them but my fault.
@@ -89,7 +89,7 @@ The EA should follow up to make sure the draft post is submitted.
 * INTERVIEW for interviews (looping in our PR partner)
     Example: “INTERVIEW | Kirsten Abma (TechCrunch)” Make sure to block 10 min before for preparations and 10 min after for notes for Sid
 * CALL for phone calls
-* VIDEOCALL for video conference calls using Zoom. Using the [Zoom plugin for Google Calendar](https://about.gitlab.com/handbook/#video-calls) you can easily get the info you need in the invite.
+* VIDEOCALL for video conference calls using Zoom. Using the [Zoom plugin for Google Calendar](https://about.gitlab.com/handbook/communication/#video-calls) you can easily get the info you need in the invite.
     Example: “(VIDEO)CALL | Kirsten Abma for Executive Assistant”
 
 Make sure to include in the description
@@ -99,7 +99,7 @@ Please read our primer as preparation for this meeting: https://about.gitlab.com
 (Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
-By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/#video-calls) it will add the details how to join the Zoom call automatically.
+By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically.
 
 <br>
 * Meetings at the office:

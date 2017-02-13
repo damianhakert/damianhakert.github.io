@@ -28,5 +28,5 @@ title: "People Operations Specialist"
 - Willing to work with git and GitLab whenever possible
 - Willing to make People Operations as open and transparent as possible
 - Wanting to work for a fast moving startup
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 - The ability to work in a fast paced environment with strong attention to detail is essential.

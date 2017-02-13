@@ -31,7 +31,7 @@ Developers can specialize immediately after joining, or after some time, when th
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ### Ruby experience
@@ -128,7 +128,7 @@ example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 

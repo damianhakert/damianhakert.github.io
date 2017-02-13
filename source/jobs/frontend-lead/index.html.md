@@ -33,7 +33,7 @@ title: "Frontend Lead"
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Knowledge of Ruby on Rails is a plus
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 ## Relevant links
 

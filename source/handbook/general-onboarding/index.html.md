@@ -36,7 +36,7 @@ Throughout your first few days at GitLab it is important to focus on the onboard
 
 #### Getting Started
 
-* Review our [Team Call Section](/handbook/#team-call) for the daily call. In the calendar invite is a link to the Team Call agenda. This holds what we will be talking about that day, as well as the order of Team Monday-Thursday at the top of that page. If you are curious when you will get to share what you have been up to, you can look there.
+* Review our [Team Call Section](/hanbook/communication/#team-call) for the daily call. In the calendar invite is a link to the Team Call agenda. This holds what we will be talking about that day, as well as the order of Team Monday-Thursday at the top of that page. If you are curious when you will get to share what you have been up to, you can look there.
 
 * Connect with GitLab's social media sites:
   1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
@@ -50,7 +50,7 @@ Throughout your first few days at GitLab it is important to focus on the onboard
 
 ### The Onboarding Issue
 
-In the onboarding issue, we ask you to complete a variety of tasks. Here are some [tips](https://about.gitlab.com/handbook/#tools) on items like gmail, zoom, calendly, etc. The onboarding issue can be seen at the bottom of this page.
+In the onboarding issue, we ask you to complete a variety of tasks. Here are some [tips](https://about.gitlab.com/handbook/tools-and-tips) on items like gmail, zoom, calendly, etc. The onboarding issue can be seen at the bottom of this page.
 
 #### 1Password
 
@@ -68,11 +68,11 @@ The information from BambooHR is used to feed other systems, so it is important 
 
 ##### GitLab.com vs Dev.GitLab.org
 
-Your onboarding issue was created on the dev server, which is only viewable to team members. Per the [gitlab workflow](https://about.gitlab.com/handbook/#gitlab-workflow) point 9, everything that can be public should be out in the open. GitLab.com is viewable to anyone with an account. We ask you to set up your GitLab.com account with your GitLab email for additional security.
+Your onboarding issue was created on the dev server, which is only viewable to team members. Per the [gitlab workflow](https://about.gitlab.com/handbook/communication/#gitlab-workflow) point 9, everything that can be public should be out in the open. GitLab.com is viewable to anyone with an account. We ask you to set up your GitLab.com account with your GitLab email for additional security.
 
 ##### Calendly
 
-Calendly is a calendar tool that allows individuals to select open meeting slots in order to speak with others at the company. (Great for also setting up coffee breaks!) All team members add Calendly to their Slack profile as a part of onboarding, so if you ever need or want to speak with another team member, you can schedule the meeting yourself. When you are setting up Calendly, there is no specific GitLab account. With the free version you will only be allowed one meeting time, but if you need to upgrade to a Pro account, you can do so and expense it per [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
+Calendly is a calendar tool that allows individuals to select open meeting slots in order to speak with others at the company. (Great for also setting up coffee breaks!) All team members add Calendly to their Slack profile as a part of onboarding, so if you ever need or want to speak with another team member, you can schedule the meeting yourself. When you are setting up Calendly, there is no specific GitLab account. With the free version you will only be allowed one meeting time, but if you need to upgrade to a Pro account, you can do so and expense it per [spending company money](https://about.gitlab.com/handbook/spending-company-money).
 
 ##### Egencia
 
@@ -158,17 +158,17 @@ A core value of GitLab is documentation. Therefore, everything that we do, we ha
 
 1. Read [about](https://about.gitlab.com/about/) the company, and [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/). It is important to understand our [culture](/culture), and how the organization was started. If you have any questions about company products you can always check out our [features](https://about.gitlab.com/features/#compare) and [products](https://about.gitlab.com/products/).
 1. Tackle the main page of the [handbook](/handbook/). You can use this link and read through the entire page to ensure that you do not miss anything! Here are some highlights that are important for new hires to pay attention to:
-  * Make sure to read over our [values](https://about.gitlab.com/handbook/#values) and [general guidelines](https://about.gitlab.com/handbook/#general-guidelines) to answer any questions you might have about what to do and when.
-  * If you have questions about what is in the handbook check out the [handbook usage](https://about.gitlab.com/handbook/#handbook-usage) as well as your own department's sub-page of the handbook (which can be found at the top of the handbook).
-  * [Communication](https://about.gitlab.com/handbook/#communication) is extremely important within a remote only organization. Read through the guidelines to understand how we make [working remotely](https://about.gitlab.com/handbook/#working-remotely) successful.
-  * Don't forget to comply with the contract you signed, and make sure you understand [Intellectual Property](https://about.gitlab.com/handbook/#intellectual-property).
+  * Make sure to read over our [values](https://about.gitlab.com/handbook/values) and [general guidelines](https://about.gitlab.com/handbook/general-guidelines) to answer any questions you might have about what to do and when.
+  * If you have questions about what is in the handbook check out the [handbook usage](https://about.gitlab.com/handbook/handbook-usage) as well as your own department's sub-page of the handbook (which can be found at the top of the handbook).
+  * [Communication](https://about.gitlab.com/handbook/communication) is extremely important within a remote only organization. Read through the guidelines to understand how we make [working remotely](https://about.gitlab.com/handbook/working-remotely) successful.
+  * Don't forget to comply with the contract you signed, and make sure you understand [Intellectual Property](https://about.gitlab.com/handbook/general-guidelines/#intellectual-property).
 1. Since we are a global organization understand your benefits might be different than other team members at the company based on which [contract](https://about.gitlab.com/handbook/contracts/) you signed. It is important to understand **your** [benefits](https://about.gitlab.com/handbook/benefits/). If you have questions please reach out to People Ops.
   * Notable Benefits that apply to all team members:
-    1. [Unlimited Time Off Policy](https://about.gitlab.com/handbook/#paid-time-off): GitLab truly does value a work-life balance, and encourages team members to have a flexible schedule and take vacations. If you feel uncomfortable about taking time off, or are not sure how much time to take off throughout the year, feel free to speak with your manager or People Operations. We will be happy to reinforce this policy! Please note the additional steps that might need to be taken if you are scheduled for [on call](https://about.gitlab.com/handbook/#on-call).
+    1. [Unlimited Time Off Policy](https://about.gitlab.com/handbook/paid-time-off): GitLab truly does value a work-life balance, and encourages team members to have a flexible schedule and take vacations. If you feel uncomfortable about taking time off, or are not sure how much time to take off throughout the year, feel free to speak with your manager or People Operations. We will be happy to reinforce this policy! Please note the additional steps that might need to be taken if you are scheduled for [on call](https://about.gitlab.com/handbook/on-call).
     1. Check out [People Operations](https://about.gitlab.com/handbook/people-operations/) to learn more about our [policies](https://about.gitlab.com/handbook/people-operations/#policies).
-    1. As part of onboarding, you received an email asking if you needed any equipment. Throughout your time at GitLab you might need additional equipment, would like to learn how to code, or want to visit a team member! Make sure you know what you can [spend company money](https://about.gitlab.com/handbook/#spending-company-money) on.
-    1. The handbook also describes [incentives](https://about.gitlab.com/handbook/#incentives) such as sales, dinners, or bonuses, that can apply to all GitLab team members. Know any great talent to refer?
-1. Even if you come from a technical background, it is important to understand the [proper workflow](https://about.gitlab.com/handbook/#gitlab-workflow) since this is how we are all able to operate remotely in a successful way. If you come from a non-technical background, and would like more clarification on what this workflow means, feel free to ask People Ops, your manager, or anyone else at the company.
+    1. As part of onboarding, you received an email asking if you needed any equipment. Throughout your time at GitLab you might need additional equipment, would like to learn how to code, or want to visit a team member! Make sure you know what you can [spend company money](https://about.gitlab.com/handbook/spending-company-money) on.
+    1. The handbook also describes [incentives](https://about.gitlab.com/handbook/incentives) such as sales, dinners, or bonuses, that can apply to all GitLab team members. Know any great talent to refer?
+1. Even if you come from a technical background, it is important to understand the [proper workflow](https://about.gitlab.com/handbook/communication/#gitlab-workflow) since this is how we are all able to operate remotely in a successful way. If you come from a non-technical background, and would like more clarification on what this workflow means, feel free to ask People Ops, your manager, or anyone else at the company.
 
 #### Learning Git and GitLab
 
@@ -203,7 +203,7 @@ The most common Issues are created in the following projects:
 
 ##### Learn how to use Git Locally
 
-Learn how to [get started with git](https://about.gitlab.com/handbook/#starting-with-git). It is important for all team members to understand how to work on the Web UI and locally. The rest of the team is happy to assist in teaching you git.
+Learn how to [get started with git](https://about.gitlab.com/handbook/git-page-update). It is important for all team members to understand how to work on the Web UI and locally. The rest of the team is happy to assist in teaching you git.
 
 ### Questions?
 
@@ -283,7 +283,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > team, and what you like to do in your spare time.
 
     > Please let People Ops (cced here) know if there are any necessary supplies
-    > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter.
+    > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/spending-company-money) in this matter.
 
     > Here is $50 in swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
@@ -336,12 +336,12 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
 1. [ ] People Ops (Specialist): Invite GitLabbers' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
+1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
 
 1. [ ] People Ops (Recruiter): remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
-1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/sop/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
+1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/sop/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/communication/#beamy-guidelines).
 1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/people-operations/sop/#b-cards) for new team member.
 1. [ ] People Ops (Recruiter): Add team member to [Expensify](https://www.expensify.com/signin) (if employee). See SOP for more [instructions](https://about.gitlab.com/handbook/people-operations/sop/#add-expensify).
 1. [ ] People Ops (Recruiter): Add new team member to the info sheets of the next Summit if applies.

@@ -22,4 +22,4 @@ As the Director of Product Marketing, you will be responsible for managing and b
 * 3-5 years of experience in developer product marketing.
 * Able to coordinate across many teams and perform in fast-moving startup environment.
 * Excellent spoken and written English
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.

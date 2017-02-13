@@ -1997,7 +1997,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [font awesome]: http://fontawesome.io/icons/
 [GitLab deck template]: https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
-[handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[handbook-writing]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 [iA Writer]: https://ia.net/writer/
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
