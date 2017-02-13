@@ -37,7 +37,7 @@ routing non-technical Gitlab CI questions to you
    available, the next step will solve this.
 1. [ ] Install a Runner following the [Setup Instructions](https://docs.gitlab.com/runner/install/)
 1. [ ] Read about the different [Executors] (https://docs.gitlab.com/runner/executors/)
-1. [ ] Register that runner as a [Specific Runner] (https://docs.gitlab.com/ee/ci/runners/README.html#registering-a-specific-runner)
+1. [ ] Register that runner as a [Specific Runner] (https://docs.gitlab.com/ee/ci/runners/#registering-a-specific-runner)
    on your project
 1. [ ] Create an example project on your GitLab instance.
 1. [ ] Register a shared runner on your GitLab instance and make sure it can
