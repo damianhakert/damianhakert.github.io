@@ -18,7 +18,7 @@ and equally consider the individual(s) involved.
 
 ### The Performance Improvement Plan (PIP)
 
-It is important to remember that the root cause of issues can be a variety of things, PIPs are not intended to be a negative document. They are an opportunity for the manager and their team member to work together to get the individual back on track. We have an example of this to share here, it is anonymized in line with keeping job feedback private as per the [General Guidelines](https://about.gitlab.com/handbook/#sts=General Guidelines);
+It is important to remember that the root cause of issues can be a variety of things, PIPs are not intended to be a negative document. They are an opportunity for the manager and their team member to work together to get the individual back on track. We have an example of this to share here, it is anonymized in line with keeping job feedback private as per the [General Guidelines](https://about.gitlab.com/handbook/general-guidelines);
 
 **GitLabber:**
 

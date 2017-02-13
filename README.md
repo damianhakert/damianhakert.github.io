@@ -308,7 +308,7 @@ follow the steps below:
    review.
 
 [frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
-[Writing Style Guidelines]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[Writing Style Guidelines]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 [press releases]: https://about.gitlab.com/press/releases/
 [press category]: https://about.gitlab.com/blog/categories/press
 [blog archives]: https://about.gitlab.com/blog/archives.html

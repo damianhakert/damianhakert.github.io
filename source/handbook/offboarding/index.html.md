@@ -104,7 +104,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
-1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
+1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 1. [ ] Twitter/TweetDeck
    1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
    1. [ ] People Ops: Remove access from Tweetdeck for [at]GitHostIO (if applicable).
@@ -120,7 +120,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] People Ops: Remove team member from the info sheets of the next Summit if applicable.
 1. [x] _not relevant_ New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: Remove GitLabbers profile from [Egencia](https://about.gitlab.com/handbook/people-operations/#add-egencia).
-1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
+1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).

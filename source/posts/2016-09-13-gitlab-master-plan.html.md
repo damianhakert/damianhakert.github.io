@@ -95,7 +95,7 @@ Want to help GitLab grow? *[We're looking for people to work with us!][careers]*
 [clear-direction]: https://about.gitlab.com/direction/
 [creative-commons]: https://creativecommons.org/licenses/by-sa/4.0/
 [event-recap]: https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/
-[handbook-values]: https://about.gitlab.com/handbook/#values
+[handbook-values]: https://about.gitlab.com/handbook/values
 [idc-study]: https://www.infoq.com/news/2014/01/IDC-software-developers
 [idea-production]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/#from-idea-to-production-with-gitlab
 [issue-boards-post]: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/

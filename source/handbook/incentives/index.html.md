@@ -40,7 +40,7 @@ also be fantastic additions to our [Team](https://about.gitlab.com/team/) and wh
 may be interested in one of the current [Job Openings](https://about.gitlab.com/jobs/).
 To help us grow the team with exceptional people, we have referral bonuses that work as follows:
 
-1. We want to encourage and support [diversity](https://about.gitlab.com/handbook/#values) on our team and in our hiring practices, so we will offer a $2000 referral bonus for hires from [underrepresented groups in the tech industry](http://seldo.com/weblog/2014/06/25/a_comparison_of_diversity_at_three_major_tech_companies) for engineering roles at GitLab. This underrepresented group is defined as: women, African-Americans, Hispanic-Americans/Latinos, and veterans.
+1. We want to encourage and support [diversity](https://about.gitlab.com/handbook/values) on our team and in our hiring practices, so we will offer a $2000 referral bonus for hires from [underrepresented groups in the tech industry](http://seldo.com/weblog/2014/06/25/a_comparison_of_diversity_at_three_major_tech_companies) for engineering roles at GitLab. This underrepresented group is defined as: women, African-Americans, Hispanic-Americans/Latinos, and veterans.
 1. Any great candidate that is referred and hired will earn a GitLab employee a $1,000 bonus
 once the new team member has been with the company for 3 months.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.

@@ -31,6 +31,6 @@ to having social calls with any teammate - get to know who you work with,
 talk about everyday things and share a virtual cuppa' coffee. We want you to make
 friends and build relationships with the people you work with to create a more comfortable,
 well-rounded environment. The Coffee Break calls are different to the
-[Random Room](#random-room) video chat, they are meant for give you the option
+[Random Room](/handbook/communication/#random-room) video chat, they are meant for give you the option
 to have 1x1 calls with specific teammates you wish to speak with and is not a
 random, open-for-all channel but a conversation between two teammates.

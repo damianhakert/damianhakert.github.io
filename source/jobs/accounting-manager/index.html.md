@@ -29,4 +29,4 @@ GitLab is adding the next essential member who can help drive operational improv
 * International experience preferred.
 * Detail-oriented, self-directed and able to effectively complete tasks with minimal supervision
 * Proficiency with GitLab
-- You share our [values](/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/values), and work in accordance with those values.

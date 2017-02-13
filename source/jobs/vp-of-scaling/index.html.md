@@ -25,4 +25,4 @@ title: "Vice President of Scaling"
 - Ability to manage competing company and team priorities in collaborative and cross-disciplinary way.
 - Ability to work well with colleagues both in and outside of the organization, with good judgement, discretion, and tact.
 - Ability to work independently and to undertake supervisory responsibilities as needed.
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
