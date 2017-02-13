@@ -7,17 +7,18 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/tshirts.jpg'
 ---
 
-We're delighted to announce [GitLab Swag Shop](https://gitlab.mybrightsites.com) is now opened!
+We're delighted to announce [GitLab Swag Shop](https://get.printfection.com/sjzyy/8688085589) is now opened!
 We're starting with essentials: Some nifty t-shirts and stickers.
-New items are discussed in the [swag suggestions issue tracker](https://gitlab.com/gitlab_swag/swag_suggestions/issues), feel free to join the conversation or suggest cool items.
+
+Up-to-date information about GitLab Swag
+can be found in our [Field Marketing Handbook](/handbook/marketing/demand-generation/field-marketing/#swag).
+
+Follow [@GitLab](https://twitter.com/gitlab/) on Twitter to stay tunned for updates and promotions!
 
 <!-- more -->
 
 We know there's lots of love for GitLab, and we're delighted to hear
 so many of you want to share your enthusiasm.
-
-Make sure you [sign up to our newsletter](https://about.gitlab.com/contact/#newsletter)
-to find out about new items for sale, and get special discount codes!
 
 ## Swag Portrait Contest Winners
 
