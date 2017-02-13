@@ -3,16 +3,34 @@ layout: markdown_page
 title: "GitLab Values"
 ---
 
-## Welcome to our Values page
+## Summary
 
-We value results, transparency, sharing, freedom, efficiency, frugality,
-collaboration, directness, kindness, diversity, boring solutions, and quirkiness:
+Our five values are results, efficiency, transparency, kindness, and diversity.
+We want to get results because it enables us to do everything else.
+We get results by being efficient with each-others time and with company money.
+We communicate transparent both inside and outside the company.
+We value kindness in our fellow team members.
+And our team members are a set of diverse people.
 
-1. **Results**: We care about what you achieve; the code you shipped, the user you
-made happy, and the team member you helped. Do not compete by proclaiming how many
-hours you worked yesterday because we don't want someone who took the afternoon
+## Results
+
+1. **Do what you promised** We do what we promised to each-other, customers, users, and investors.
+1. **Measure results not hours** We care about what you achieve; the code you shipped, the user you made happy, and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead, celebrate the achievements of
-yourself and your teammates. We want people to have the desire to ship.
+yourself and your teammates.
+
+## Efficiency
+
+How: Efficiency, Iteration, Frugality, Boring solutions, ConvDev
+
+Communicate (fear of conflict, lack of commitment): Transparency, Directness (being transparent with each-other), disagree and commit
+
+Value (absence of trust): Collaboration, Kindness:
+
+Who: Diversity, Quirkiness
+
+
+
 1. **Transparency**: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
@@ -37,7 +55,7 @@ feedback in the smallest setting possible, one-on-one video calls are preferred.
 Clearly make negative feedback about the work itself, not the person. When giving
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
-giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
+giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
 1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
@@ -46,7 +64,18 @@ so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/hanbook/communication/#team-call) where we spend most
+is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
 of our time talking about what we did in our private lives, from fire-throwing to
 knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
+
+## Five dysfunctions
+
+Our values help us to prevent the [five dysfunctions](https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team#Summary)
+
+1. Absence of trust (unwilling to be vulnerable within the group) => prevented by kindness
+1. Fear of conflict (seeking artificial harmony over constructive passionate debate) => prevented by transparency, specifically directness
+1. Lack of commitment (feigning buy-in for group decisions creates ambiguity throughout the organization) => prevented by transparency, specifically directness
+1. Avoidance of accountability (ducking the responsibility to call peers on counterproductive behavior which sets low standards) => prevented by results and transparency
+1. Inattention to results (focusing on personal success, status and ego before team success) => prevented by results
+
