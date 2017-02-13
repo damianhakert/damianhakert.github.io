@@ -136,6 +136,13 @@ Jobs Tab
 1. Employment Status
    * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
 
+To Terminate a Team Member from BambooHR: 
+1. Click on the gear icon in BambooHR at the top right of the screen. 
+1. Select Terminate Employee. 
+1. Enter the Effective Date of the termination.
+1. Select Voluntary or Involuntary. 
+1. Enter the termination reason and if eligible for rehire. 
+
 ### Settings in BambooHR
 
 Changing a Format (Example: Date)

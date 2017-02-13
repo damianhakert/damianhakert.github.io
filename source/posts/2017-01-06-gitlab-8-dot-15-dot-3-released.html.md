@@ -2,6 +2,7 @@
 title: "GitLab 8.15.3 released"
 author: Douglas Barbosa Alexandre
 author_twitter: dbalexandre
+author_gitlab: dbalexandre
 categories: release
 ---
 

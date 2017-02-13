@@ -50,7 +50,7 @@
       links:
         - url: http://branchesapp.co
           title: branchesapp.co
-- title: Command Line Interface (CLI) Clients
+- title: CLI Clients
   id: cli-clients
   applications:
     - title: Narkoz's Ruby wrapper & CLI
@@ -425,8 +425,8 @@
       links:
         - url: https://plugins.jetbrains.com/plugin/7319?pr=phpStorm
           title: Plugin on the Jetbrains site
-- title: Performance measurement
-  id: performance-measurement
+- title: Performance Measurements
+  id: performance-measurements
   applications:
     - title: AppSignal
       content: 'AppSignal <a href="http://blog.appsignal.com/blog/2015/01/20/gitlab-integration.html">support GitLab</a> and can monitor both Rails and Sidekiq.'
@@ -453,15 +453,15 @@
         - url: https://blackfire.io/docs/integrations/gitlab
           title: Gitlab integration documentation
 
-- title: Login with your GitLab.com account
-  id: login-with-gitlab
+- title: Login
+  id: login
   applications:
     - title: OAuth2 service provider
       content: Using the OAuth2 service provider to sign into other services.
       links:
         - url: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/oauth_provider.md
           title: GitLab as OAuth2 authentication service provider
-- title: Scrum boards
+- title: Scrum Boards
   id: scrum-boards
   applications:
     - title: Taiga.io
@@ -509,7 +509,7 @@
         - url: https://www.penflip.com/
           title: penflip.com
 - title: GitLab Runners
-  id: runners
+  id: gitlab-runners
   applications:
     - title: Official GitLab Runner
       content: Written in Go, supported on multiple operating systems and includes Docker support.

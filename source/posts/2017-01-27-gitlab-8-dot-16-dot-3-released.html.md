@@ -2,7 +2,9 @@
 title: "GitLab 8.16.3 released"
 author: Robert Speicher
 author_twitter: rspeicher
+author_gitlab: rspeicher
 categories: release
+guest: false
 ---
 
 Today we're releasing version 8.16.3 for GitLab Community Edition (CE) and
@@ -14,6 +16,12 @@ release](/2017/01/22/gitlab-8-16-released).
 Please read on for more details.
 
 <!-- more -->
+UPDATE (2017-01-28): We've bumped the 8.16.3 Omnibus package version to fix a problem with
+[bundler complaining about "Your home directory is not set properly"](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1913).
+For CE, you should check that version `8.16.3-ce.1` is installed instead of `8.16.3-ce.0`.
+For EE, you should check that version `8.16.3-ee.1` is installed instead of `8.16.3-ee.0`.
+If you are upgrading from .0 to .1 and the install fails, you may have to skip the backup step
+[as described here](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1913#note_22301050).
 
 - **CE/EE:** Fixed label select toggle not updating correctly. ([!8601])
 - **CE/EE:** Fix autocomplete initial undefined state (loading). ([!8667])

@@ -3,6 +3,7 @@ title: "Video Tutorial: Idea to Production on Google Container Engine (GKE)"
 categories: tutorial
 author: Sean Packham
 author_twitter: SeanPackham
+author_gitlab: SeanPackham
 image_title: '/images/blogimages/idea-to-production-gke.jpg'
 description:
 cta_button_text: Watch the <strong>8.16 release webcast</strong> live!
