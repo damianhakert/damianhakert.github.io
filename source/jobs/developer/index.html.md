@@ -152,4 +152,4 @@ Applicants for this position can expect the hiring process to follow the order b
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
 
-Globally, xx % of people live in metro areas with a rent index greater than yy, while at GitLab, this is zz % of our Developers. Therefore, we are now focusing on finding the best of the best in metro areas with a **rent index lower than yy** to add to our [diverse workforce](/handbook/values) while staying [frugal](/handbook/values). Please bear this in mind when using the compensation calculator below.
+Globally, xx % of people live in metro areas with a rent index greater than yy, while at GitLab, this is zz % of our Developers. Therefore, we are now focusing on only hiring in metro areas with a **rent index lower than yy** to add to our [diverse workforce](/handbook/values) while staying [frugal](/handbook/values). Please bear this in mind when using the compensation calculator below.
