@@ -1137,6 +1137,7 @@
   gitlab: ahanselka
   maintains: |
               <li>On-call hero!</li>
+              <li>Data Durability Enforcer</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
