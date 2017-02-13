@@ -263,7 +263,7 @@ Sending leads to the right person
 
 - [APAC](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
 - [EMEA](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [North America](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
+- [North America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
 - [South America](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
    - Note: BDRs do not set up meetings for resellers.
 
