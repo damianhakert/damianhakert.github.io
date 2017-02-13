@@ -23,7 +23,11 @@
     Junior: 0.8,
     Intermediate: 1.0,
     Senior: 1.2,
-    Lead: 1.4
+    Lead: 1.4,
+    0.8: 'Junior',
+    1.0: 'Intermediate',
+    1.2: 'Senior',
+    1.4: 'Lead'
   };
 
   var paramsParser = function(params) {
@@ -68,7 +72,6 @@
     var $selected = $(e.currentTarget);
 
     if ($selected.hasClass('filter-container')) {
-      debugger;
       return;
     }
 
@@ -114,7 +117,7 @@
       this.params = params;
 
       if (this.params) {
-        this.setElementValues();
+        this.render(this.params);
       }
     }
 
@@ -322,6 +325,7 @@
       } else {
         $.when(this.getData()).then(function() {
             renderData.call(this);
+            if (this.params) this.setElementValues();
           }.bind(this),
           this.renderInvalidCompensation.bind(this));
       }
@@ -411,6 +415,12 @@
       $(salaryContainer + ' .country .title').data().selected = params.country;
       $(salaryContainer + ' .city .title').text(params.city || '--');
       $(salaryContainer + ' .city .title').data().selected = params.city;
+
+      var city = this.data.numbeo.find(function(data) {
+        return data.city === params.city
+      });
+
+      $(salaryContainer + ' .city .subtitle').text(parseFloat((city.rentIndex * 0.01).toFixed(2)));
       $(salaryContainer + ' .city .dropdown-menu-toggle').removeClass('disabled');
 
       var dataSelected = (params.experience.min === 1.0 ? "1.0" : params.experience.min) + " to " + params.experience.max;
@@ -423,6 +433,8 @@
       $(salaryContainer).data('salary', params.salary)
 
       $(salaryContainer + ' .level .title').data('selected', params.level);
+      $(salaryContainer + ' .level .subtitle').text(params.level);
+      $(salaryContainer + ' .level .title').text(levelKey[params.level]);
     }
 
     SalaryCalculator.prototype.calculateRentIndex = function(city, country) {
@@ -491,8 +503,7 @@
   var parsedParams = paramsParser(urlParams);
 
   if (parsedParams) {
-    var sc = new SalaryCalculator(parsedParams);
-    sc.render(parsedParams);
+    new SalaryCalculator(parsedParams);
   } else {
     new SalaryCalculator(null);
   }
