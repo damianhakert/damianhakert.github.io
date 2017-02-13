@@ -1,6 +1,6 @@
 # www-gitlab-com
 
-This is the source for the https://about.gitlab.com/ site.
+This is the source for the https://about.gitlab.com/ site. For a guide on how to start editing the website using git, see the [handbook page on that topic](https://about.gitlab.com/handbook/git-page-update).
 
 ## Local development
 
@@ -126,7 +126,7 @@ instructions.
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
 update the placeholder with your initials).
 
-Images should be uploaded to [`source/images/team`](./source/images/team).
+Images should be square, and should be uploaded to [`source/images/team`](./source/images/team).
 
 ### Adding a pet to the team pets page
 
