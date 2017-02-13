@@ -71,7 +71,7 @@ title: Security Handbook
 1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
    keep your personal passwords, please copy/move them to [your personal local vault or your separate individual account](#1password-private-use).
 1. We will configure applications of which we store the passwords in 1Password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
-1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
+1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/tools-and-tips/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
 
 [1Password]: https://1password.com
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
