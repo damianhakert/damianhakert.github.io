@@ -1,56 +1,229 @@
 @import "variables";
 
-p {
-  font-size: 17px;
-  font-weight: 200;
+.application-container {
+  width: 100%;
+  padding: 67px;
+  background: linear-gradient(to right,
+    $features-gallery-background-gradient-end 0%,
+    $features-gallery-background-gradient-middle 40%,
+    $features-gallery-background-gradient-begin 100%);
+  text-align: center;
+
+  h1 {
+    color: $color-white;
+    font-weight: 100;
+    padding-bottom: 30px;
+  }
+
+  p {
+    color: $color-gray-light;
+    font-size: 22px;
+    font-weight: lighter;
+  }
 }
 
-h2 {
+.search-container {
+  width: 100%;
+  position: relative;
+  background-color: $color-gray-extra-light;
+  border-top: 1px solid $color-gray-light;
+  border-bottom: 1px solid $color-gray-light;
+
+  .container {
+    position: relative;
+    display: flex;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    background-color: transparent;
+    border: 0;
+    font-weight: 100;
+    font-size: 22px;
+    flex-grow: 1;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .search-apps-container-icon {
+    color: $search-border-color;
+    cursor: pointer;
+    align-self: center;
+  }
+}
+
+// scss-lint:disable all
+.selected-suggestion {
+  background: $dropdown-hover-color !important;
+}
+// scss-lint:enable all
+
+.suggestions {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: $applications-search-box-shadow-color 0 2px 4px;
+  background: $color-white;
+
+  li {
+    color: $color-gray;
+    font-size: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+    transition: background .2s;
+    text-transform: capitalize;
+
+    &:hover {
+      background: $dropdown-hover-color;
+      cursor: pointer;
+    }
+  }
+
+  .container {
+    display: block;
+  }
+}
+
+.hl {
+  background: $color-secondary-alt;
+}
+
+.categories-header,
+.category-title {
+  color: $color-primary;
   text-align: center;
-  margin-top: 76px;
-  padding: 14px;
-  color: $applications-title-color;
-  border-bottom: solid 4px $color-secondary-alt;
+}
+
+.categories-header {
+  padding: 50px 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.category-title {
+  font-size: 30px;
+  padding: 50px;
+}
+
+.app-categories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.app-category {
+  padding: 35px;
+  margin-left: 38px;
+
+  svg,
+  .category-name {
+    display: inline-block;
+  }
+
+  svg {
+    fill: $color-red;
+  }
+
+  .category-name {
+    width: 61px;
+    padding-left: 15px;
+    height: auto;
+    vertical-align: middle;
+    color: $blog-color-text;
+  }
+
+  > a {
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin-left: 0;
+
+    svg,
+    .category-name {
+      display: block;
+    }
+
+    svg {
+      margin-left: 6px;
+    }
+
+    .category-name {
+      padding: 0;
+      width: 88px;
+      text-align: center;
+    }
+  }
 }
 
 hr {
-  margin: 20px 0;
+  border-color: $color-gray-extra-light;
 }
 
-.application-container {
-  position: relative;
-  width: 100%;
-  height: 125px;
-  overflow: hidden;
-  background: $color-primary;
-  background-size: cover;
+.category-applications {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &::after {
+    content: "";
+    width: 300px;
+  }
 }
 
-.application-overlay {
-  background: rgba($color-primary, .62);
-  height: 500px;
-}
-
-.application-content {
-  padding-top: 25px;
+.application {
+  width: 300px;
   text-align: center;
-  color: $color-white;
-  width: 50%;
-  margin-left: 25%;
-}
+  padding: 30px;
 
-.container-text {
-  padding: 2%;
-}
+  .app-title {
+    font-size: 22px;
+  }
 
-.row {
-  padding-top: 15px;
-}
+  .app-content {
+    font-size: 16px;
+    font-weight: 300;
+    color: $color-gray;
 
-.app {
-  margin-bottom: 15px;
-  box-shadow: 0 3px 4px $applications-app-shadow-color;
-  padding: 10px;
-  min-height: 175px;
-  background-color: $color-white;
+    a {
+      color: $color-primary-alt;
+      text-decoration: underline;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .link {
+    font-size: 20px;
+    color: $color-secondary;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+  }
 }

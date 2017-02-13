@@ -25,9 +25,10 @@
 
   = yield
 
-  - if job = job_for_current_page
+  - if job = salary_for_current_job
     = partial "includes/salary_calculator", locals: {title: job.title}
 
+  - if job = job_for_current_page
     :markdown
       ## Apply
 

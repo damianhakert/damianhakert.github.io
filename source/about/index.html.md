@@ -14,7 +14,7 @@ GitLab Inc. has 4 product offerings:
 1. [GitLab Community Edition (CE)](https://about.gitlab.com/features/#community) - free, self hosted application, support from [Community](https://about.gitlab.com/getting-help/)
 1. [GitLab Enterprise Edition (EE)](https://about.gitlab.com/pricing/) - paid, self hosted application, comes with additional features and support
 1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
-1. [GitHost.io](https://about.gitlab.com/githost-io/) - a private single-tenant GitLab instance run by us
+1. [GitHost.io](https://githost.io/) - a private single-tenant GitLab instance run by us
 
 GitLab Inc. also offers:
 
@@ -60,9 +60,13 @@ The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, D
 
 In the very start of 2015, almost the entire GitLab team flew over to Silicon
 Valley to [participate in Y Combinator].
+We graduated in March of 2015 and had 9 people on our team.
 
-At this point, over 1000 people worldwide have [contributed to GitLab] and more
-than 100,000 organizations are using GitLab.
+### _2016: Growth_
+
+In 2016 the number of [people that contributed to GitLab] grew to more than 1000.
+More than 100,000 organizations and millions of users are using GitLab.
+Our team grew to more than 140 people.
 
 ## Vision
 
@@ -108,6 +112,10 @@ We promise that:
 When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
 If the answer is yes the feature is likely to be exclusive to EE.
 We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 users.
+
+### What features are EE Premium
+
+[See the definition of EE Premium features in our product handbook](/handbook/product/#ee-only-or-premium).
 
 ### Why release simultaneously in both
 

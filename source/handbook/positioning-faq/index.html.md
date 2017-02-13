@@ -37,12 +37,12 @@ title: "GitLab Positioning FAQ"
         - Job’s blog post on the topic is a great read, https://about.gitlab.com/2015/04/15/bitbucket-vs-gitlab-com/
 * I use or am looking at GitSwarm from Perforce.  Do I need GitLab too?  Am I missing anything by not working directly with GitLab?
     1. GitSwarm is built on GitLab CE or EE.
-    1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security and file management performance from Perforce.
+    1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security, and file management performance from Perforce.
     1. We’re happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/gitswarm.
     1. How should GitLab account executives engage prospects that are currently using or evaluating GitSwarm?
         - If the prospect is already using GitSwarm CE, the GitLab channel representative should work with the Perforce account executive to focus on the benefits of upgrading the customer to GitSwarm EE.
         - Perforce customers can pay via a perpetual license fee up-front with an annual Support and Maintenance fee or they can purchase via an annual subscription fee.
-        - GitLab’s new LFS feature addresses the need to provide storage for large binary files, which is a need of many Perforce clients leveraging Git. This is a must-have feature for companies in the video, hardware and gaming space.
+        - GitLab’s new LFS feature addresses the need to provide storage for large binary files, which is a need of many Perforce clients leveraging Git. This is a must-have feature for companies in the video, hardware, and gaming space.
         - GitLab has partnered with Perforce as a reseller.
         - GitLab channel managers should be proactive in identifying companies that are using Perforce Helix and work with Perforce account executives in developing a plan to move them to using GitSwarm EE (or at a minimum GitSwarm CE).
         - Many long-term Perforce customers are in the process of evaluating Git solutions for certain user segments within their organizations and this is good time to support Perforce in proactively building a relationship during the early evaluation stages.
@@ -73,7 +73,7 @@ title: "GitLab Positioning FAQ"
     1. Active StackOverflow community for free users.
 * Do you offer a solution for migrating data from GitHub, Bitbucket, SVN to GitLab?
     1. Import from Bitbucket, GitHub, anywhere
-    1. Want to start using GitLab? You can easily import your repositories from Bitbucket, GitHub, Gitorious or anywhere else, all in batch!
+    1. Want to start using GitLab? You can easily import your repositories from Bitbucket, GitHub, Gitorious, or anywhere else, all in batch!
     1. Migrating SVN to GitLab
         - http://doc.gitlab.com/ce/workflow/importing/migrating_from_svn.html
         - SVN stands for Subversion and is a version control system (VCS). Git is a distributed version control system.

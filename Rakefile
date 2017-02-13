@@ -40,6 +40,7 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "author: "
+    post.puts "author_gitlab: "
     post.puts "author_twitter: "
     post.puts "categories: "
     post.puts "image_title: "
@@ -130,7 +131,7 @@ end
 
 desc 'Build the site in public/ (for deployment)'
 task :build do
-  build_cmd = %W(middleman build --verbose)
+  build_cmd = %W(middleman build)
   if !system(*build_cmd)
     raise "command failed: #{build_cmd.join(' ')}"
   end

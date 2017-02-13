@@ -28,13 +28,15 @@ to revise, refine, and publish your post to share with our community.
 
 1. Choose a topic
 2. Start writing
-3. Get paid
+3. Receive feedback
+4. Get published
+5. Get paid
 
 All of GitLab's blog posts begin as an issue in the [GitLab blog post project][blog-project].
 To become a community author:
 
 - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> [labeled](#labels) with "[up-for-grabs]"
-- Submit an the first two paragraphs of the article or link to a relevant article you've written before.
+- Submit the first two paragraphs of an article or a link to a relevant article that you've written before.
 - Leave a comment "@marcia I would like to write this post, and I accept the terms on the [Community Writers Program](#)"
 
 If you don't see a topic that interests you, you can propose a new topic by
@@ -54,13 +56,22 @@ When your post gets published, send us an invoice. GitLab will pay you in
 American Dollars (USD) from a bank account in the USA, via wired transfer
 to your bank account.
 
+## Requirements
+
+- Good written English
+- Some previous experience in writing tutorials or technical overviews
+- Some background on the subject you're willing to write about
+- Be familiar with GitLab
+
 ## Notes
 
 - If you want to write about your own product (or the product you represent), and how it integrates with GitLab, we'll be happy to have you as a [Guest Writer](../#guest-posts). The Community Writers Program won't apply for these cases.
-- You are encouraged to write more than one post. If you succeed on the first process, we'll be glad to have you writing for us regularly. The process for writing more than one post is exactly the same for writing the first one. Please, pick up an issue at a time.
+- You are encouraged to write more than one post. If you succeed on the first process, we'll invite you to write for us regularly. The process for writing more than one post is exactly the same for writing the first one. Please, pick up an issue at a time.
 - Your post must be original, comprehensible, technical, and unprecedented.
 
 ## Learn More
+
+We have some standards and guidelines that need to be respected. Please make sure you're familiar with and accept them:
 
 - [Publishing Process for Community Writers][publishing-process]
 - [Blog Style Guidelines][blog-style]

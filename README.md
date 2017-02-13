@@ -10,10 +10,10 @@ bundle install
 bundle exec middleman
 ```
 
-Once the Middleman server is running, you can visit `http://localhost:4567/` in
-your browser to see a live, local preview of the site. Any changes to files in
-the `source` directory will be detected automatically, and your browser will
-even reload the page if necessary.
+Once the Middleman server is running, you can visit
+[http://localhost:4567](http://localhost:4567) in your browser to see a live,
+local preview of the site. Any changes to files in the `source` directory will
+be detected automatically, and your browser will even reload the page if necessary.
 
 PDF files are not available in development mode. See below for more information.
 
@@ -133,6 +133,56 @@ Images should be uploaded to [`source/images/team`](./source/images/team).
 Edit [`data/pets.yml`](./data/pets.yml) and add a new entry.
 
 Images should be uploaded to [`source/images/team/pets`](./source/images/team/pets).
+
+### Adding an application to the applications page
+
+#### Adding a new application
+
+Edit [`data/applications.yml`](./data/applications.yml) and add a new entry within
+the correct categories `applications` list.
+
+Please  add a `.png` image to [`source/images/applications/apps`](./source/images/applications/apps),
+the name of the image should be the same as the title, but with underscores instead of spaces.
+
+Example:
+
+```yaml
+...
+  - title: My new application
+    content: My new application description.
+    links:
+      - url: https://my-new-application.io
+        title: my-new-application.io
+      - ...
+...
+```
+
+The image should be located in `source/images/applications/apps/my_new_application.png`.
+
+The application `content` string will be truncated to 100 characters. Please do not include any HTML tags.
+
+The application `links` list will be truncated to 3 links.
+
+#### Adding a new category
+
+If you **need** to create a new category, you can do so.
+
+Please  add an `.svg` image to [`source/images/applications/categories`](./source/images/applications/categories),
+the name of the image should be the same as the category id, but with underscores instead of hyphens.
+
+Example:
+
+```yaml
+...
+- title: My new category
+  id: my-new-category
+  applications:
+    - ...
+    - ...
+...
+```
+
+The image should be located in `source/images/applications/categories/my_new_category.svg`.
 
 ### Updating the promotion link
 
@@ -264,6 +314,33 @@ follow the steps below:
 [blog archives]: https://about.gitlab.com/blog/archives.html
 [md]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide
 
+### Update the features page (under `/features`)
+
+The feature page grabs its content automatically from the file
+`/data/features.yml`.
+
+### Update the comparison page (under `/comparison`)
+
+The comparison page grabs its content automatically from the file
+`/data/comparisons.yml`.
+
+When adding a new comparison, make sure that you follow the structure below:
+
+```
+- title: ""
+  description: ""
+  link_description: ""
+  link:
+  competitor_one: true
+  competitor_two: false
+```
+
+Title and description fields are mandatory.
+
+`competitor_one` is always GitLab,
+`competitor_two` is the competitor we are compared against. Values for these two
+fields are `true|false|sortof`.
+
 ### Update the release list page (under `/release-list`)
 
 The release list page grabs its content automatically by crawling the blog and
@@ -368,7 +445,7 @@ website, you have to:
 
 ## Custom Generators
 
-There are a few custom, static generators specified in config.rb. For
+There are a few custom, static generators specified in `config.rb`. For
 example, there are generators that produce the direction issue list,
 release list, and organization chart dynamically.
 
@@ -397,8 +474,7 @@ To test out the site, you must run another Web server from the
 `public` directory:
 
 ```
-cd public
-python -m SimpleHTTPServer 8000
+(cd public; python -m SimpleHTTPServer 8000)
 ```
 
 This will start a Web server on port 8000 (you may omit the port number). You can preview the site
@@ -430,10 +506,9 @@ Beware that:
   deploy a Review App (hence MRs from contributors). For that case, you should
   have at least Developer access to the `www-gitlab-com` project or
   `gitlab-com` group.
-- Branches containing a slash (`/`) or other special characters in their name
-  will not deploy a Review App. Prefer to use dashes (`-`) or underscores (`_`).
-  For more information on that matter check the discussion in this
-  [issue in the CE tracker][ce-22849].
+- The generation of the direction, wishlist and release list pages is omitted
+  in branches and is run only on master. This helps to shave off some time from
+  the build process. That means you won't be able to preview these pages with
+  Review Apps.
 
-[ce-22849]: https://gitlab.com/gitlab-org/gitlab-ce/issues/22849
 [review apps]: https://docs.gitlab.com/ce/ci/review_apps/

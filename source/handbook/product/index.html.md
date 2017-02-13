@@ -5,6 +5,9 @@ title: Product
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome. Infographics from [xkcd](https://www.xkcd.com)._
 
+The document below talks about _how_ we do product at GitLab, not about _what_.
+For the _what_, see [Product Strategy](/direction/strategy).
+
 **Table of contents**
 
 - TOC
@@ -34,13 +37,31 @@ complete toolset.
 1. Make our product more interesting for our customers through Products and
 EE exclusive features.
 
+## Scope of responsibilities
+
+The product team is responsible for iteration on most of GitLab's products and
+projects:
+
+- GitLab CE and EE
+- GitLab.com
+- about.gitlab.com
+- customers.gitlab.com
+- version.gitlab.com
+- license.gitlab.com
+
+This includes new features, major changes, performance and stability.
+
+Bugs and regressions are typically handled without any product involvement,
+but if uncaught by engineering should be treated like any of the above.
+
 ## Product at GitLab
 
 GitLab is designed and developed in a unique way.
 
 The direction for the GitLab product is spelled out on the
 [Direction page](/direction). This document provides lessons and heuristics on
-how to design changes and new features.
+how to design changes and new features. Our iterative process is demonstrated in
+a [blog post](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/).
 
 ### TL;DR
 
@@ -73,6 +94,11 @@ to the last 20% of the market, a minimally viable solution is _good enough_ for 
 actual users. This is a much more informative mechanism than the intuition
 of a product person (though note that this doesn't mean we should just build
 whatever feedback tells us).
+
+Despite its minimal form, the change
+* always requires documentation,
+* has to have its usage tracked from day 1, if the feature has a meaningful
+impact.
 
 ![](/handbook/product/p1.png)
 
@@ -107,6 +133,23 @@ Sometimes configuration is inevitable or preferable. GitLab should
 work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
+
+##### Encouraging behavior
+
+Convention also implies that we're encouraging our customers to do things
+in a certain way. A very concrete example of this is the ability to disable
+pipelines.We believe that our integrated solution will give a superior user
+experience and we're motivated to encourage behavior. For this reason, adding a
+configuration to be able to disable this permanently (be that in template or
+instance-wide), is something that should be avoided.
+
+Encourage favorable behaviors by limiting configuration.
+
+##### Default to ON
+
+In addition to encouraging behavior by limiting the ability to toggle features,
+when introducing new features default to turning things ON if they are
+configurable at all.
 
 #### Be Ambitious
 
@@ -281,6 +324,19 @@ When you don't have specific tasks assigned, you should work on issues that are
 labeled `Product work`, in both EE and CE projects. These are issues that need
 our attention the most.
 
+#### Scheduling timeline throughout a milestone
+
+Issues are scheduled into a milestone (the upcoming release), worked on by engineering and design, and then shipped to production.
+Follow this timeline for the release that will be shipped in Month `M`.
+
+* Month `M-1`, 4th: Release scope established \| In scope issues marked with the milestone
+* Month `M`, 7th: Complete issues merged into master \| Incomplete issues de-scoped, milestone removed from them | Release post created (WIP merge request)
+* Month `M`, 15th: Release post first draft complete (WIP merge request)
+* Month `M`, 22nd: Release shipped to production \| Release post published
+
+With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd,
+the scope for the following release has already been established earlier in that same month.
+
 ### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
@@ -318,6 +374,36 @@ the different teams,
 To promote a major new feature internally, you can ask to host a GitLab
 University, a company wide demo session. This is a great opportunity to make
 sure every one is on the same page.
+
+### Major feature rollout
+
+Major features deserve proper attention from product and marketing. With a
+proper rollout, we'll have ample marketing opportunities and receive more
+feedback ahead, during and after the release.
+
+Here is the ideal rollout schedule. For each step, there is the indication about
+who is responsible for it.
+
+1. Feature is drafted in an issue (PM)
+2. Feature is planned in an upcoming release (PM)
+3. A feature proposal blog post is made (PM or Dev), where we'll describe
+	* What we are planning on doing,
+	* How you'll be able to buy it: CE or any EE Editions,
+	* Link to the issue,
+	* When it'll be available, if possible,
+	* Anything else that is interesting to share in order to fuel the discussion.
+4. Feature is implemented, documentation is written (Dev).
+5. Feature should appear on the website (Marketing)
+	* For very significant features: Feature page on the website is made and
+  pushed, with the mention "Available from X.X"
+	* For other features: Feature should be listed on some page (/comparison,
+    Enterprise page, /features page).
+6. Feature is launched with the release (Marketing)
+	* "Available from X.X" is removed
+	* Documentation and other resources are linked
+	* Pricing page is updated if needed
+7. Feature is highlighted in a blog post (Marketing)
+	* This post is linked from the feature page on the website (if applicable)
 
 ### How and when to reject a feature request
 
@@ -377,30 +463,58 @@ customer that documentation is lacking is not.
 - Excite and market new features and changes internally and externally
 - Help build a vision for GitLab and GitLab's features
 - Deeply understand whatever it is you're working on. You should be spending a lot of time learning about your subject matters.
+- Have regular meetings (at least one a week) with customers
+
+### Customer meetings
+
+It's important to get direct feedback from our customers on things we've
+built, are building or should be building.
+
+As a PM you should have regular meetings with customers that are using the
+things you've been working on and with customers that are not - in order
+to get an idea of why they're not switching to our solution.
+
+#### Set up a meeting
+
+To setup a customer meeting, identify what you're interested in discovering
+and prepare appropriately.
+
+You can find information about how customers are using GitLab through sales
+and version.gitlab.com. Sales and support should also be able to bring you
+into contact with a customer.
+
+There is no formal internal process to schedule a customer meeting,
+if that need arises, we can formulate one.
+
+#### During and after
+
+During the meeting, spend most of your time listening and obtaining information.
+It's not your job to sell GitLab, but it should be obvious when it's the time
+to tell more about our products.
+
+After the meeting, make sure all your notes and feedback lands in issues.
+
 
 # Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous
 Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
-# EE only and Products
+# Enterprise Edition Tiers
 
-Products are large additions to GitLab that we sell separate to GitLab
-Enterprise Edition customers.
+There are two EE tiers: Starter and Premium.
 
-EE only features are exclusive to GitLab Enterprise Edition, but don't
-require any additional purchases besides GitLab EE.
+EE Starter features are more relevant for organizations that have more than
+**100** potential users.
 
-## EE only or Product?
+EE Premium features are more relevant for organizations that have more than **750**
+potential users.
 
-Deciding on whether something should be a Product or just a EE-only
-feature can be tough. In doubt, make it a product, that's a reversible
+## Starter or Premium?
+
+Deciding on whether something should be a Premium feature or just a EE-only
+feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
-
-Also consider:
-
-- Can we charge $99 for it? The pricing should hurt, we'll improve it over time.
-- Does it have an alternative in the marketplace?
 
 ## Talking about EE only decisions
 
@@ -450,6 +564,14 @@ feature. Describe the pain points.
 > Just check the checkbox and GitLab will prevent common unsafe files such as .pem and .key from being committed.
 
 * Point to the documentation and any other relevant links (previous posts, etc).
+
+## Writing release blog posts
+For every monthly release, there is a blog post announcing features. The blog post should contain anything _exciting_ or _disruptive_.
+We want to help people understand exciting features (which are often new), and increase adoption.
+Disruptive features may change workflows or even introduce unavoidable inconveniences.
+We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
+Smaller tweaks and bug fixes don't necessarily need to be mentioned,
+but if interesting, can be included at the bottom of the post.
 
 # Links
 

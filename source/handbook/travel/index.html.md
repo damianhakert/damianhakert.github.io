@@ -90,6 +90,8 @@ you have the possibility to "continue to checkout" or "add more items to this tr
 such as another flight, a hotel reservation or booking a car.
 1. Select "continue to checkout" if you just want to book the flight.
 
+Note: Once a flight is booked, re-routing is at person’s own cost unless requested by the company or force majeure (in the latter case often the airline will cover the difference). 
+
 #### Checkout flight only
 
 1. Enter your passport information in the "Secure flight" window. This will be

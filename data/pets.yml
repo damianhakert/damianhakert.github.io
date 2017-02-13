@@ -17,10 +17,6 @@
   human: haydn
   story: |
          Lick Bull Terrier. So cute. Keeps <a href="http://everybodylovessadie.blogspot.com/">her own blog</a>.
-- name: Ramona
-  picture: ramona.jpg
-  human: patricio
-  story: Loves the beach.
 - name: Humpf
   picture: humpf.jpg
   story: Well-trained black lab with a love for carrots and naps.
@@ -46,18 +42,10 @@
   picture: pacho.jpg
   human: pablo
   story: Indoor catch ball enthusiast. Preferably XL sized balls.
-- name: Zayats!
-  picture: zayats.jpg
-  human: ivan
-  story: Surprisingly smart and constantly hungry. Takes care of your wires. Exclamation mark is necessary.
 - name: Lincoln and Mona
   picture: lincolnmona.jpg
   human: emily
   story: Silly, doodle duo who dream of being in the next muppet movie.
-- name: Guri
-  picture: guri.jpg
-  human: felipe
-  story: New charger? Let him handle that. Professional cushion thief.
 - name: Tiger
   picture: tiger.jpg
   human: michael
@@ -70,10 +58,10 @@
   picture: moka.jpg
   human: alejandro
   story: Moka likes to sleep and to not be bothered while she's sleeping.
-- name: Cowboy Jake
-  picture: IMG_4530.JPG
+- name: Cowboy Jake & Lucy Lulu
+  picture: jakeandlucy.jpg
   human: brittany
-  story: I love to to cuddle, and bark at stuff, but mostly swim.
+  story: Cowboy Jake loves to to cuddle, bark at stuff, but mostly swim. Lucy Lulu loves to lay on the couch, watch TV, and bug Cowboy Jake.
 - name: Roshi
   picture: roshi.jpg
   human: jared
@@ -165,7 +153,15 @@
   picture: Dinkum.jpg
   human: sarah
   story:  Dinkum loves locusts and worms, she's less keen on salad. When she's not napping, she enjoys sprinting around the house and hiding in really awkward places.
-  
+- name: Thingie
+  picture: thingie-ribon.jpg
+  human: bjk
+  story: Thingie is an old Minnesota barn cat. He loves to be on camera.
+- name: Franklin
+  picture: franklin.jpg
+  human: sam
+  story: Franklin loves doing puppy things such as nibbling on your feet and sleeping the day away. Despit his small stature, he has big dreams of becoming an Olympic dogalete in long jump.
+
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |

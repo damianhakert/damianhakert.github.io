@@ -1,0 +1,12 @@
+---
+layout: comparison_page
+trial_bar: true
+title: GitLab compared to other tools
+suppress_header: true
+image_title: '/images/comparison/title_image.png'
+extra_css:
+  - compared.css
+---
+
+- data.comparisons.gitlab_self_hosted_vs_github do |comparison_block|
+  = partial "includes/comparison_table", locals: { comparison_block: comparison_block }

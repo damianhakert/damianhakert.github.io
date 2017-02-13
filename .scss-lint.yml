@@ -14,7 +14,7 @@ linters:
   DuplicateProperty:
     severity: error
   EmptyLineBetweenBlocks:
-    enabled: false
+    enabled: true
   EmptyRule:
     severity: error
   Indentation:

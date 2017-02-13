@@ -19,7 +19,6 @@ For more information about People Operations Policies please see [People Operati
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 #### Using HelloSign
-<a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -40,7 +39,7 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 #### Letter of Adjustment
 
-When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable. 
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable.
 
 ### Processing changes
 
@@ -48,10 +47,18 @@ Any changes to a team member’s status, classification, promotion/demotion, pay
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
 the changes in BambooHR under the relevant section on the Jobs tab in the member’s profile; and then file the email in the Contracts and Changes folder in the Document tab.
 
-Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
-is responsible for seeing the change through to completion. Once completed, People Ops
+Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. If the team member is located in the UK, Belgium or India an email with the change will need to be sent to the payroll provider/co-employer.  
+People Ops is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
+
+### Auditing Changes 
+
+Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet. 
+
+### Process for Monthly Payroll Approval (UK, Belgium & India)
+
+Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
 
 ### Using BambooHR
 
@@ -72,6 +79,69 @@ is preferred, so as not to burden the team),
 test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
+
+### Adding a New Team Member to BambooHR
+
+As part of [onboarding](https://about.gitlab.com/handbook/general-onboarding/), the People Ops Specialist will process new hires in BambooHR. Aside from the steps listed in the onboarding issue, this is a description of how to add the proper information into BambooHR.
+
+Personal Tab
+
+1. Verify the team member was given an Employee ID number.
+1. Enter the appropriate Country.
+1. Region: Should either be Americas, EMEA, or JAPAC.
+1. Enter the team member's time zone.
+1. Verify the work email is entered.
+
+Jobs Tab
+
+1. Hire Date - This will automatically populate with the day that the profile was transferred from Workable. Make sure to enter in the correct date.
+1. Role
+   * Leader - if director or above
+   * Manager - if has any direct reports
+   * Individual Contributor - all others
+1. FLSA Code - This will either be exempt or non-exempt depending on how the role is classified. If there are questions on the classification, please ask the People Ops Specialist.
+1. Reports to EID - Direct Manager's employee ID number.
+1. Cost Center - Leave blank for now. This will become relevant as we scale.
+1. Exec Name - Executive in the team member's reporting chain who reports to the CEO.
+1. Payroll Type
+   * Employee - paid through Payroll
+   * Contractor - IND - Independent Contractor agreement
+   * Contractor - C2C - Contractor Company agreement
+1. Exception to IP Agreement - If they answered Yes, on the IP agreement in the contract.
+1. Compensation Table
+   * Effective Date - Hire Date
+   * Pay Rate - Entered as if it were a payroll amount. For example, a US employee would be entered as their yearly amount divided by 24 payrolls in a year. A contractor would have their monthly contract amount listed.
+   * Pay Per - Leave blank unless for an hourly employee
+   * Pay Type - Use either Salary, Hourly, or Contract.
+   * Pay Period - Select the pay period. Currently we have twice a month for the US, and monthly for all others.
+   * Change Reason - New Hire
+   * Comment - Please add any comments that are relevant from the contract terms.
+1. Pay Frequency (Note: Pay Frequency times pay rate should equal annual compensation)
+   * 12 for contractors, GitLab LTD, and LYRA
+   * 12.96 for GitLab B.V. employees in the Netherlands
+   * 13.92 for GitLab B.V. employees in Belgium
+   * 24 for GitLab Inc. employees
+1. On Target Earnings
+   * If the new team member is on a commission or quarterly bonus plan according to their contract, please add the details into this table.
+1. Currency Conversion
+   * Every January and July the People Ops specialist will conduct a currency conversion for all team members.
+   * Using either January 1 or July 1 as the currency conversion effective date, use Oanda for the currency conversion factor.
+   * Enter the Local Annual Salary, and the converted salary in USD.
+1. Job information
+   * Effective Date - Hire Date
+   * Location - Which entity the new team member is contracted through.
+   * Division - Enter the appropriate division from the dropdown.
+   * Department - Leave blank for now. This will become relevant as we scale.
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table. 
+1. Employment Status
+   * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
+
+To Terminate a Team Member from BambooHR: 
+1. Click on the gear icon in BambooHR at the top right of the screen. 
+1. Select Terminate Employee. 
+1. Enter the Effective Date of the termination.
+1. Select Voluntary or Involuntary. 
+1. Enter the termination reason and if eligible for rehire. 
 
 ### Settings in BambooHR
 
@@ -97,7 +167,6 @@ Add a New Division
 1. Add new division
 
 ### Process Referral Bonus
-<a name="referral-bonus"></a>
 
 If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
@@ -190,6 +259,8 @@ section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
 To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
+- **Ordering Equipment**
+PeopleOps will order required equipment. New employee should send links to items they would like to have and PeopleOps will order it and have it shipped to their address. To order notebooks, PeopleOps has a contact at Apple, so if a new employee is considering buying and expensing a macbook, first reach out to PeopleOps for the Apple contact info.
 - **Order business cards**
 Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields.
 Log in with your specific credentials to [MOO](https://www.moo.com/m4b/account/login). Select Create New Packs. Create a blank pack, then go to GitLab packs and select the newly created default. Edit the Title to be the team member's name. Click on the preview to edit the name, job title, email, phone number, twitter handle, and location. Once you have made sure all of the information is correct on the business card you can select how many cards you would like to order (standard is 50) and add the cards to the cart. When you are checking out, update which shipping center you would like the cards sent from at the top right by selecting the proper flag. Enter in the team member's shipping address. Place the order with the applicable shipping and billing addresses.
@@ -203,6 +274,8 @@ Add the team member's name to the proper Google sheet to make sure they enter fl
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+- **Upgrade team member's Zoom account to Pro**<a name="make-zoom-pro"></a>
+Log in to [Zoom](https://gitlab.zoom.us) with the generic admin credentials stored in 1Password. Find the user in the "User Management" tab, and click "edit", then select "Pro" (the default is Basic). If the user does not yet appear in Zoom, add them through the "Add Users" button at the top of the User Management tab. A Pro account allows the individual to have calls longer than 30 minutes. If we've run out of Pro licenses, send an email to our account manager at Zoom, as listed in a shared note on 1Password.
 
 ### Using TriNet
 
@@ -261,7 +334,7 @@ Select next or save (if you select save, it will hold your information)
     * Workers compensation- select unknown and it will default to our principle class code for our industry
 Window: Describe employees job duties - simple description
 
-After submission -  you will receive a prompt for final submission, select and submit.
+After submission -  you will receive a prompt for final submission, select, and submit.
 
 Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue.
 
@@ -269,8 +342,31 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
+#### Adding a Trusted Advisor to TriNet
+
+A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system.
+
+1. Add to the TriNet Platform
+    1. From TriNet Passport homepage, click on the tab My Company
+    1. Select My Workplace, Trusted Advisor Setup
+    1. Complete the information in the online form
+    1. Click Submit
+1. Assign the Role of Trusted Advisor
+    1. From TriNet Passport homepage, click Find
+    1. Select Find Person by Name
+    1. Type in the person’s name
+    1. Click search
+    1. Once the name appears, click on it
+    1. From the options to the left, select Assign Roles
+    1. Click on Add
+    1. From the drop down select the access role desired
+    1. Click Add
+
+You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system.
+
+
 #### Making changes in TriNet
-<a name="changes-trinet"></a>
+{: #changes-trinet}
 
 ##### Add a New Location
 
@@ -279,7 +375,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Find Location.
 1. When search field appears, leave blank and click Search.
 1. Click on Add location.
-1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
+1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state, and zip.
 1. Click Add.
 
 ##### Transfer Employee to Different Location
@@ -332,6 +428,18 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Save when done.
 Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
+## Visa Processing
+
+To transfer an H1B Visa, GitLab needs to initiate the transfer before the team member can start work. In the past we have used Immigration Law Group as our legal counsel to help us through these steps.
+
+1. People Ops should reach out to legal counsel to start the process.
+1. Legal Counsel will reach out to the new team member and their manager to gather all information in regards to the transfer itself and the position.
+1. If there is a need for a rush in processing the H1B (plans for travel outside the US, for example) then you can file the transfer under premium processing, if approved by the CEO.
+1. Once the documents have been prepared by the law group, they will be sent to the CFO for wet signatures, and then returned to the law group.
+1. Once the law group receives the signed forms, they can file the transfer with USCIS. Note: Until we receive confirmation that the transfer paperwork has been received by USCIS, the new team member cannot start work at GitLab.
+1. Confirm to legal counsel when the new team member starts work at GitLab.
+1. File all documentation in BambooHR surrounding the transfer.
+
 ## Offboarding
 
 - **Remove a team member from Sundial**<a name="sundial-removal"></a>
@@ -341,7 +449,7 @@ Note: Make sure to file all appropriate documentation in BambooHR. Also, if the 
 1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Returning property to GitLab
-<a name="returning-property"></a>
+{: #returning-property}
 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
 

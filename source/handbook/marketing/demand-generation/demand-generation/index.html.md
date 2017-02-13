@@ -110,7 +110,8 @@ On the GitLab issue, make sure to:
 1. BDR checks AE availability and send invite to prospect(s) and AE with invite naming convention of Meeting Invite Naming Convention: Gitlab Discovery Call - with call in details and agenda of meeting (from summary email and notes)
 1. BDR emails prospect, cc'ing AE. Email consists of a summary of the lead qual data captured above (current state, problems to solve, what they would like to learn and desired state).  This email also introduces the AE and confirms the meeting day with the prospect and informs them that a meeting invite will be sent shortly.
 1. BDR converts lead to opportunity.  BDR adds into revenue into the amount field, within the opportunity object, based on the lead criteria uncovered of number of seats and/or products interested in purchasing now.
-3. BDR joins Discovery call and provides warm handoff
+1. If technical resources will be needed for any calls, AE will be responsible for inviting necessary resources.  Typically, the frst call, which isi Discovery, should not contain technical discussion or resources as we are gathering information from prospect to present information at a later date.
+1. BDR joins Discovery call and provides warm handoff
 
 ## Nurture campaign process<a name="nurture"></a>
 
@@ -185,3 +186,4 @@ Current state
    - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
    - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
 5. Edit the landing page to have the appropriate webcast description, date, and time.
+6. In On24, go to the `Console Builder` tab and edit the console to be GitLab branded and have all the requested widgets.

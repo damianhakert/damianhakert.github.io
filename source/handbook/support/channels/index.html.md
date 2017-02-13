@@ -88,7 +88,7 @@ upon completion. Remember that all researchers should receive feedback as with r
 and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
 Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
 
-After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812).
+After a report has been closed as resolved or informative it can be publicly disclosed.
 This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 

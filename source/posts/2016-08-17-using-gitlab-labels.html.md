@@ -6,6 +6,7 @@ categories: GitLab
 image_title: '/images/blogimages/using-gitlab-labels/gitlab-labels-cover.jpg'
 description: 'Learn how Brian uses GitLab Labels for his workflow'
 twitter_image: '/images/tweets/using-gitlab-labels.png'
+guest: true
 ---
 
 This post is a customer story on how using **GitLab Labels** can help you (a lot) to

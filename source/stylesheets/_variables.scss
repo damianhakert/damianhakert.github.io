@@ -18,9 +18,12 @@ $color-primary-alt: #6b4fbb;
 $color-secondary: #e14329;
 $color-secondary-alt: #fba225;
 
+$color-primary-medium: #503991;
+
 $divider-color: #d3d3d3;
 
 $link-color: #55acee;
+$link-code-color: rgb(55, 119, 176);
 
 $border-color: #dfdfdf;
 
@@ -32,14 +35,15 @@ $member-shadow-color: #ccc;
 $member-social-color: #ccc;
 
 $blog-color-text: #222;
-$blog-color-heading: #333;
-$blog-color-purple: #548;
+$blog-color-note: #666;
+$blog-color-heading: #fff;
+$blog-color-purple: rgb(107, 79, 187);
 $blog-color-mk-border: #ccc;
 $blog-color-date: #888;
 $blog-color-overlay-border: #eee;
 $blog-color-border-shadow: rgba(0, 0, 0, .1);
-$blog-color-image-from: rgba(255, 255, 255, .6);
-$blog-color-image-to: rgba(255, 255, 255, .6);
+$blog-color-image-from: rgba(0, 0, 0, 0);
+$blog-color-image-to: rgba(0, 0, 0, .8);
 $blog-color-ipanel-heading: rgba(221, 221, 221, .5);
 $blog-color-legacy-image-from: rgba(85, 68, 136, .8);
 $blog-color-legacy-image-to: rgba(72, 135, 197, .92);
@@ -54,6 +58,11 @@ $blog-divider-color: #128bee;
 $blog-table-background: #faf9f9;
 $blog-table-background-hover: #f4f8fe;
 $blog-table-border: #efeff1;
+
+$release-manager-list-bg: #403366;
+$release-manager-table-border: #584985;
+$release-manager-table-header-color: #9583c9;
+$release-manager-current-table-data-color: #ff9;
 
 $mvp-list-bg: #403366;
 $mvp-table-border: #584985;
@@ -120,9 +129,11 @@ $font-family-serif: "Roboto Slab", serif;
 
 $border-radius-large: 3px;
 
+$grid-float-breakpoint: 992px;
+$screen-sm-min: 768px;
+
 $navbar-default-bg: #fff;
 $navbar-default-toggle-icon-bar-bg: $color-primary;
-
 $navbar-default-link-color: #8c929d;
 $navbar-default-link-hover-color: $color-primary;
 $navbar-default-link-active-color: $color-primary;
@@ -134,7 +145,34 @@ $dropdown-link-color: #fff;
 $dropdown-link-hover-color: #18be97;
 
 $search-input-font-color: #333;
+$search-border-color: #bcbcbc;
 
 $reseller-divider-color: $navbar-default-border;
 $reseller-hero-bg-color: #35393d;
 $reseller-hero-content-color: #969696;
+$reseller-category-active-background-color: rgba(255, 255, 255, .4);
+
+$applications-search-box-shadow-color: rgba($color-dark, .5);
+
+$features-gradient-end: rgba(148, 149, 150, 1);
+$features-gradient-begin: rgba(0, 0, 0, .91);
+$features-semi-transparent-white: rgba(255, 255, 255, .15);
+$features-semi-transparent-gray: rgba(180, 180, 180, .15);
+$features-semi-transparent-gray-link: rgba(180, 180, 180, .50);
+$features-semi-transparent-black: rgba(12, 12, 12, .47);
+$features-semi-transparent-purple: rgba(107, 79, 187, .50);
+$features-barely-transparent-white: rgba(255, 255, 255, .5);
+$features-gray-light-barely-transparent: rgba(170, 170, 170, .5);
+$features-gallery-background-gradient-begin: #6b4fbb;
+$features-gallery-background-gradient-middle: #5942a0;
+$features-gallery-background-gradient-end: #42327a;
+$features-gallery-alt-description-black: rgba(0, 0, 0, .7);
+
+$ee-standalone-primary-background-gradient: linear-gradient(to right, $color-primary-alt 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
+$ee-standalone-hero-background-top: rgba(52, 55, 60, .85);
+$ee-standalone-hero-background-gradient: linear-gradient(to bottom, $ee-standalone-hero-background-top, $landing-community-bg 85%);
+
+$facebook-bg: #3b5998;
+$twitter-bg: #55acee;
+$google-bg: #dd4b39;
+$linkedin-bg: #007bb5;

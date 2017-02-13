@@ -24,7 +24,7 @@ title: "Stock Options"
 |Intermediate Engineer / Junior Account Executive / other individual contributors|2,000|
 |Junior Engineer / Business Development Representative|1,500|
 
-We should update your stock option grant if you make a promotion.
+If you make a promotion, we should update your stock option grant by the difference in number of options between your old level and new level. 
 If we didn't please contact people operations.
 
 ## About Your Ownership in GitLab
@@ -110,6 +110,23 @@ is worth $100m and it raises $25m, the company XYZ is now worth $125m. If you ow
 of $100m before, you now own 4% of $125m (20% of the company was sold, or, said differently,
 diluted you by 20%). The 5% stake was worth $5m before the fundraise and the 4% stake is now worth $5m.
 
+## Exercise Window After Termination
+
+Please note that until the [post IPO lockup period](http://www.investopedia.com/ask/answer/12/ipo-lockup-period.asp) has expired (or we are bought) company stock is not liquid. If your employment ends
+for whatever reason you have a 90 day window to exercise your options. During this window you have to come up with
+the exercise price and in some cases the tax on the gain in value of your stock options, which could be considerable.
+If the company stock is not liquid this money might be hard to come by. The 90 day window is an industry standard but
+there are [good arguments against it](https://zachholman.com/posts/fuck-your-90-day-exercise-window/). At GitLab the stock options are intended to commit our team members to get us to
+a successful IPO. We want to motivate and reward our people for reaching that goal. Therefore we will consider exercise
+window extensions only on a case by case basis at our discretion. An example of a situation we'll consider is a valued
+team member quitting because of personal circumstances. In most cases there will be no extension and you will either have
+to pay for shares and the taxes yourself or lose the options, even when you are fully vested. And of course [an IPO in 2020
+is our public ambition](https://about.gitlab.com/strategy/) but neither timing or if it happens at all is guaranteed.
+
+## Administration
+
+We use eShares to administer our stock option program.  You will receive a grant notice to your GitLab email address.  Clicking through that email will enable you to set up a user account at eShares.  You can find all of the terms and conditions of the stock program as well as your specific grant within the eShares system.  As a helpful hint we suggest that you add a second, permanent email address to your profile.  This can be added by clicking on your name in the upper right hand corner and selecting "update profile".
+
 ## Exercising Your Options
 
 "Exercising your options" means buying the stock guaranteed by your options. You pay
@@ -143,7 +160,7 @@ There are two methods to exercise your shares:
    - Click on "View" (right hand side of screen)
    - Click on "Attachments and Notes"
    - Click on "Form of Exercise Agreement"
-   - Complete the form, sign and return as PDF to the CFO
+   - Complete the form, sign, and return as PDF to the CFO
    - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
 Note for US residents: whichever method you choose, be sure to download the 83-b election form provided by eShares and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.

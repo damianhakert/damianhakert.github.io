@@ -22,7 +22,7 @@ The following questions can be used to help develop the opportunity and advance 
         - Deployment
         - Project Management/Agile Tools
     * What performance issues are you experiencing in any of these areas (stack above)?
-    * Where is this interest/initiative coming from?  (At the top or only this lead - is it company, unit or personal interest.  The higher the initiative, the more likely to close and quickly)
+    * Where is this interest/initiative coming from?  (At the top or only this lead - is it company, unit, or personal interest.  The higher the initiative, the more likely to close and quickly)
     * What is the timing to purchase?
     * What are the requirements you have for this project?
         - What does success look like?
