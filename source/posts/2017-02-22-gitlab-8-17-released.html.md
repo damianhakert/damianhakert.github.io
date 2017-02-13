@@ -60,3 +60,7 @@ GitLab Enterprise Edition features a new capability to create users with an `Aud
 ## Impersonation Tokens
 
 Administrators can now retrieve an Impersonation Token for any user, which allows API-based applications to authenticate as other users without needing to go through the cumbersome oAuth process.
+
+## Monitoring Gitab with Prometheus
+
+Three new exporters have been added to the Omnibus package adding support for monitoring Redis, Postgres, and GitLab service metrics including SSH push/pull timings. Prometheus and all exporters [can be enabled](https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html) by editing `gitlab.rb`, and will be enabled by default in 9.0.
