@@ -151,3 +151,5 @@ Applicants for this position can expect the hiring process to follow the order b
 
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
+
+When using the compensation calculator below, please be aware that we want a [diverse workforce](/handbook/values) and we are [frugal](/handbook/values). For this role we already have a strong team and we are now focusing on finding the best of the best in metro areas with a **rent index lower than 0.5**. Candidates from those areas are preferred, but we will still consider star performers from higher cost areas as well.
