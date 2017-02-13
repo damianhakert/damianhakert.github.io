@@ -8,17 +8,9 @@ extra_js:
   - team-call.js
 ---
 
-## Welcome to the GitLab Handbook
-{: .no_toc}
 
 The GitLab team handbook is the central repository for how we run the company. As part of our dedication to being as open and transparent as possible, the handbook is open to the world, and we welcome feedback<a name="feedback"></a>. Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
-{: .note}
-
-----
-
-## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Pages in the Handbook
-{: .no_toc}
 
 * [General](/handbook)
   * [Values](/handbook/values)
