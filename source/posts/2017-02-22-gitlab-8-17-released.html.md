@@ -17,10 +17,10 @@ _Job writes about the MVP here_
 
 ## Easily search and add issues to board
 
-Prior to 8.17, the Backlog list in the issue board contained issues that you had not yet added to your workflow (the "main" area of the board). 
+Prior to 8.17, the Backlog list in the issue board contained issues that you had not yet added to your workflow (the "main" area of the board).
 Finding issues to add was somewhat difficult given that small area, and you could only add them one by one.
 Most of the time, you didn't even need to see the Backlog list at all, and it was just hanging around taking up valuable screen real estate.
-With 8.17, you now add issues through a dedicated modal window. 
+With 8.17, you now add issues through a dedicated modal window.
 Click the `Add issues` button at the top-right, and you get an expansive modal to search and filter for issues you care about.
 Select one or many issues, and even choose the list where you want to put them in before adding them to the board, saving just a few more clicks and drags.
 To remove an issue from your board, select it to bring up the sidebar, and hit `Remove from board`.
@@ -56,10 +56,6 @@ GitLab Enterprise Edition features a new capability to create users with an `Aud
 ## Configureable mirror synchronisation time (EE only)
 
 [Repository mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) is a great feature in GitLab Enterprise Edition that allows you to synchronise remote repositories with your repository on GitLab. Previously, synchronisation happened every hour; you can now [adjust this](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#adjusting-synchronization-times) for more fine-grained synchronisation windows.
-
-## Impersonation Tokens
-
-Administrators can now retrieve an Impersonation Token for any user, which allows API-based applications to authenticate as other users without needing to go through the cumbersome oAuth process.
 
 ## Monitoring Gitab with Prometheus
 
