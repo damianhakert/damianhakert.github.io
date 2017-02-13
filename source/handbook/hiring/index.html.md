@@ -18,7 +18,7 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
 
 ## Equal Employment Opportunity
 
- Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
+ Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/values) and
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
  national origin, age, disability, or genetics. One example of how put this into practice
@@ -67,7 +67,7 @@ The CEO must authorize any new job positions/searches.
 
 ## Publicize the job
 
-The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/#referral-bonuses)
+The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/incentives/#referral-bonuses)
 
 The recruiting team will **always** publicize the job through the following means:
 
@@ -144,7 +144,7 @@ Before the CEO has the final call with the applicant the hiring manager will wri
 1. The applicant should always be notified of this. The recruiting team is primarily
 responsible for declining candidates.
 1. If the applicant asks for further feedback only offer frank feedback. This
-is hard, but it is part of our [company values](/handbook/#values).
+is hard, but it is part of our [company values](/handbook/values).
     * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
     * Feedback and rejection should always be based on the job requirements.

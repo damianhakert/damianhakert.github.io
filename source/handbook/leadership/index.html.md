@@ -6,7 +6,7 @@ title: "Leadership"
 ## Leadership
 
 1. Leadership at GitLab applies to everyone, whether an individual contributor or a manager.
-1. Everyone that joins GitLab should consider themselves to be an ambassador of our [values](https://about.gitlab.com/handbook/#values) and a protector of our [culture](https://about.gitlab.com/culture/).
+1. Everyone that joins GitLab should consider themselves to be an ambassador of our [values](https://about.gitlab.com/handbook/values) and a protector of our [culture](https://about.gitlab.com/culture/).
 1. As a leader, GitLabbers will follow your behavior, always do the right thing.
 1. Behavior should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
 1. In tough times people will put in their best efforts when they do it for each other.
@@ -27,9 +27,9 @@ title: "Leadership"
 1. A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
 1. If you praise someone try to do it in front of an audience, if you give suggestions to improve do it 1 on 1.
 1. As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to know where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relationship is probably going downhill).
-1. When performance or behavior is below par or not in line with our [values]((https://about.gitlab.com/handbook/#values) we normally put someone on a [performance improvement plan (PIP)](https://about.gitlab.com/handbook/underperformance/). However there are some exceptions to following the PIP process but in all cases managers should speak to the people operations generalist or senior director of people operations early on to evaluate the best solution.
+1. When performance or behavior is below par or not in line with our [values]((https://about.gitlab.com/handbook/values) we normally put someone on a [performance improvement plan (PIP)](https://about.gitlab.com/handbook/underperformance/). However there are some exceptions to following the PIP process but in all cases managers should speak to the people operations generalist or senior director of people operations early on to evaluate the best solution.
 1. When someone says they are considering quitting drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
-1. In addition to announcing new team member arrivals, departures are also announced in the #general chat channel (once the Google Slack accounts are blocked, see the [offboarding checklist](https://about.gitlab.com/handbook/offboarding/) for details). We must respect the privacy of the individual concerned. If you are asked why someone has left or is leaving, please refer that person to the [general guidelines](https://about.gitlab.com/handbook/#general-guidelines) section of the handbook where we describe what can and cannot be shared.
+1. In addition to announcing new team member arrivals, departures are also announced in the #general chat channel (once the Google Slack accounts are blocked, see the [offboarding checklist](https://about.gitlab.com/handbook/offboarding/) for details). We must respect the privacy of the individual concerned. If you are asked why someone has left or is leaving, please refer that person to the [general guidelines](https://about.gitlab.com/handbook/general-guidelines) section of the handbook where we describe what can and cannot be shared.
 1. People should not be given a raise or a title because they ask for it or threaten to quit. We should pro-actively give raises and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
 1. Don't refer to GitLabbers [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that, this builds a stronger team. But _families_ and _teams_ are different. _Families_ come together for the relationship and do what is critical to retain it. _Teams_ are assembled for the task and do what is required to complete it. Don't put the relationship above the task. Besides, families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 1. Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
@@ -95,7 +95,7 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 
 ## Books
 
-Note: Books in this section [can be expensed](https://about.gitlab.com/handbook/#spending-company-money).
+Note: Books in this section [can be expensed](https://about.gitlab.com/handbook/spending-company-money).
 1. High Output Management 1. Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
 1. The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers 1. Ben Horowitz
 1. [The score takes care of itself 1. Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)

@@ -78,7 +78,7 @@ canonical reference, but here's a quick-start guide:
 * Look for Tier 1 and Tier 2 tickets that aren't currently being worked on
   (ZenDesk will show you if other people are currently looking at a ticket).
 * Keep GitLab's
-  [user communication guidelines](https://about.gitlab.com/handbook/#user-communication-guidelines)
+  [user communication guidelines](https://about.gitlab.com/handbook/communication/#user-communication-guidelines)
   in mind at all times.
 * When replying, set the ticket status to 'Pending' (awaiting response from
   customer) or 'Solved' (no reply expected).

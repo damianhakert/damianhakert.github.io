@@ -20,7 +20,7 @@ New team hire contracts are found on the [Contracts](https://about.gitlab.com/ha
 
 #### Using HelloSign
 
-When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
+When we need [contracts to be signed](https://about.gitlab.com/handbook/signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
 
 1. Choose who needs to sign. (just me, me & others, or just others)
@@ -168,7 +168,7 @@ Add a New Division
 
 ### Process Referral Bonus
 
-If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
+If applicable, People Ops will process a [referral bonus](/handbook/incentives/#referral-bonuses).
 
 #### Document a future bonus in BambooHR
 

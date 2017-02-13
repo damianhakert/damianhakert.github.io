@@ -109,7 +109,7 @@ the relevant GitLab issue tracker.
 ## Follow up on issues posted on GitLab issue tracker
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
-Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
+Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/communication/#gitlab-workflow).
 
 ## GitLab.com Support Tracker
 

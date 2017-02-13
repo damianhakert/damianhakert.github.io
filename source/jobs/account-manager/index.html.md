@@ -27,7 +27,7 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Motivated, self-directed and results oriented
 * Knowledge of Git and GitLab workflow preferred
 * Interest in GitLab, and open source software
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 Account Management
 

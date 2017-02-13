@@ -82,7 +82,7 @@ Please see our [press page](https://about.gitlab.com/press/) to download the log
 
 ## Values
 
-Please see the [values section in our handbook](https://about.gitlab.com/handbook/#values).
+Please see the [values section in our handbook](https://about.gitlab.com/handbook/values).
 
 ## Our stewardship of GitLab CE<a name="stewardship"></a><a name="our-stewardship-of-gitlab-ce"></a>
 

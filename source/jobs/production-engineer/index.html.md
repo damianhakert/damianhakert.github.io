@@ -38,7 +38,7 @@ practices like TDD or continous integration (to start with).
 * Have a proactive, go-for-it attitude. When you see something broken, you can't help
   but fix it.
 * Have an urge for delivering quickly and iterating fast.
-* Share our [values](/handbook/#values), and work in accordance with those
+* Share our [values](/handbook/values), and work in accordance with those
   values.
 
 ## Projects you could work on:

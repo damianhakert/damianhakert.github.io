@@ -20,7 +20,7 @@ title: "People Operations"
 - [Travel](/handbook/travel/)
 - [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
 - [Functional Group Updates](/handbook/people-operations/functional-group-updates)
-- [OKRs and LatticeHQ](/handbook/people-operations/OKR/)
+- [OKRs and LatticeHQ](/handbook/people-operations/okr/)
 
 ## On this page
 {:.no_toc}
@@ -75,7 +75,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
 ### Sick time - taking and reporting
 {: #sick-time}
 
-In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all GitLabbers.
+In keeping with our [values](/handbook/values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all GitLabbers.
 
 **All GitLabbers**
 
@@ -200,7 +200,7 @@ number is dialed.
 
 1. What are we doing to get there?
   * Per an open [issue](https://gitlab.com/gitlab-com/peopleops/issues/138), People Operations will be developing training for managers on this topic.
-  * GitLab would also like to encourage GitLabbers to take their [time off](https://about.gitlab.com/handbook/#paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
+  * GitLab would also like to encourage GitLabbers to take their [time off](https://about.gitlab.com/handbook/paid-time-off) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
   * In addition to our current EAP programs available for employees, we encourage GitLabbers to take a look at (Working Through It)(http://www.workplacestrategiesformentalhealth.com/wti/Home.aspx) for insight into reclaiming well-being at work, off work, and return to work.
   * We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive.
     * For example, Finding the right words:
