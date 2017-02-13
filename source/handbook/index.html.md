@@ -12,7 +12,7 @@ extra_js:
 The GitLab team handbook is the central repository for how we run the company. As part of our dedication to being as open and transparent as possible, the handbook is open to the world, and we welcome feedback<a name="feedback"></a>. Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
 
-* [General](/handbook)
+* General
   * [Values](/handbook/values)
   * [General Guidelines](/handbook/general-guidelines)
   * [Handbook Usage](/handbook/handbook-usage)
