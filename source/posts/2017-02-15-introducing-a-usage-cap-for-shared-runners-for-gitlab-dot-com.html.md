@@ -19,12 +19,13 @@ are exceeding this have already been contacted.
 
 [credits-do]: https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
 
-## Build minutes
+## Capping Private Build minutes
 
 We’ll be capping the amount of free build minutes available per group at
-2000 minutes. This will affect less than 3% of all groups using CI on
+2000 minutes. Please note this limit only applies to private projects.
+This will affect less than 3% of all groups using CI on
 GitLab.com. 2000 build minutes means you can run a build of 10 minutes
-five times a day, every work day. It's also ten to twenty times more _per group_, than what our competitors offer for free in total*.
+five times a day, every work day. 
 
 With free GitLab CI on GitLab.com you'll get unlimited number of builds, with
 unlimited parallelism on unlimited groups with unlimited number of
@@ -40,11 +41,13 @@ time on GitLab.com.
 
 ## Unlimited Build Minutes Plan
 
-If you want more than 1000 build minutes per p
+If you want more than 2000 build minutes per month, you will need to subscribe to our [Unlimited CI plan][unlimited-plan].
 
-We’re also thinking about introducing paid Runners with a specific purpose,
-such as Runners running on Apple hardware to test your iOS and macOS projects
-and Runners with more memory, CPU cores, etc.
+At $99 per month, this plan is still fair less expensive than any competing plan we are aware of and has no restrictions on the number of parallel builds or total builds. You can apply this plan to any group on GitLab.com.
+
+We're currently working on creating more plans for the future, depending on the amount of CI you use.
+
+[unlimited-plan]: https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
 
 ## Alternatives
 
@@ -54,7 +57,4 @@ As said, you still have and will always have the option to bring your own Runner
 
 ## Timeline
 
-Right now, we’re working on the code that will allow us (and you, it’ll
-come with GitLab) to visualize and restrict build minutes.
-We're expecting to roll out this change in the first quarter of next year.
-As always, we’ll make sure to note any changes in our blog.
+The plans are available to purchase now and the CI limits will be activated on at the end of February.
