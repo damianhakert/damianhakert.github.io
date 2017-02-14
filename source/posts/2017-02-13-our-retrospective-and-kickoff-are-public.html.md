@@ -49,3 +49,7 @@ see your face in the calls!
 [retrospective notes]: https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing
 [kickoff notes]: https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing
 [retro-kickoff-call]: https://gitlab.zoom.us/j/918821206
+
+_[Cover image](https://unsplash.com/photos/jdD8gXaTZsc) by
+[William Stitt](https://unsplash.com/@willpower), licensed by [CC0 1.0](https://unsplash.com/license)._
+{:.note}
