@@ -43,7 +43,7 @@ The next retrospective and kickoff call recordings will be available on the
 [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
 We look forward to reading all your comments on these documents and to
-see your face in the calls!
+seeing your face in the calls!
 
 [gitlab-master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/#we--our-community
 [retrospective notes]: https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing
