@@ -25,6 +25,11 @@
             = highlight_active_nav_link("GitLab vs. SVN", "/comparison/gitlab-vs-svn.html#dropdown")
 %h1.titles-comparison-companies.text-center
   = comparison_block.title
+- if (comparison_block.feature_page != "null")
+  %h3.text-center
+    = comparison_block.feature_page
+    = link_to comparison_block.feature_page_link_description, comparison_block.feature_page_link
+    = comparison_block.feature_page_link_description_2
 %table.compare-table.comparing-gitlab
   %colgroup
     %col{:width => "80%"}
