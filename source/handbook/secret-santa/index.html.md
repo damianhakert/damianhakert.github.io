@@ -3,6 +3,21 @@ layout: markdown_page
 title: "Secret Santa"
 ---
 
+### Secret Santa 2017
+
+We will be organizing another Secret Santa in 2017!
+
+Rules/guidelines:
+- Wait for the email to tell you who you'll have to ship a present to. You will also receive an email from People Ops confirming that you have signed up with a link to this page.
+- Fill out your address and wish list using the link provided in the email.
+- Get that person a gift and ship this gift to him/her before Christmas.
+- The budget is € 20 for the gift (excluding shipping), paid out of pocket.
+- You'll post a picture of your gift in #secret-santa, to thank your Secret Santa, and let them know that the gift has been received!
+- Perfectly content, you wait until next year to participate again... :)
+- If you have not received your gift by January 15th, or are unsure if your match received the gift you sent, please reach out to People Ops to act as one of Santa's Elves.
+
+Note: By participating in Secret Santa you grant your match access to your address via People Ops.
+
 ### Secret Santa 2016
 
 This year a Secret Santa will be organized. This is an event where participants exchange gifts with another participant. Participants only know to whom they have to send a gift. Because this event takes place around Christmas, and as each participant has no clue who will send them a gift this is called 'Secret Santa'.
