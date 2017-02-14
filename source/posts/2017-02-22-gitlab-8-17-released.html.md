@@ -49,6 +49,16 @@ Navigating to `CI/CD Pipelines` will show you one page with all the settings tha
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
 
+## Redesigned Slack and Mattermost issue messages
+
+The ChatOps message replies for Slack and Mattermost have been redesigned, offering a cleaner interface with additional detail when working with Issues. Replies will now include assignee, status, and more!
+
+![Slack Issue Show](/images/8_17/slack_issue_show.png){: .shadow}
+
+## Improving terminology within CI/CD
+
+We have clarified the terminology used to discuss parts of CI/CD, replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring to the entire pipeline, and `Job` will be used for a specific action or build.
+
 ## Audit Users (EE only)
 
 GitLab Enterprise Edition features a new capability to create users with an `Audit` role. This role allows the user read-only access to all projects, groups and users.
@@ -59,4 +69,4 @@ GitLab Enterprise Edition features a new capability to create users with an `Aud
 
 ## Monitoring Gitab with Prometheus
 
-Three new exporters have been added to the Omnibus package adding support for monitoring Redis, Postgres, and GitLab service metrics including SSH push/pull timings. Prometheus and all exporters [can be enabled](https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html) by editing `gitlab.rb`, and will be enabled by default in 9.0.
+Three new exporters have been added to the Omnibus package adding support for monitoring Redis, Postgres, and GitLab service metrics. Prometheus and all exporters [can be enabled](https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html) by editing `gitlab.rb`, and will be enabled by default in 9.0.
