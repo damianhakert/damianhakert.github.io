@@ -388,11 +388,21 @@
           return level !== null;
         });
 
+      var city = function() {
+        var parseCity = input.city.split(", ").join("_");
+        return parseCity.split(" ").join("-");
+      }
+
+      var country = function() {
+        var parseCountry = input.country.split(", ").join("_");
+        return parseCountry.split(" ").join("-");
+      }
+
       var link = rootUrl()
         + '?city='
-        + input.city
+        + city()
         + '&country='
-        + input.country
+        + country()
         + '&experience='
         + experienceIndex
         + '&level='
