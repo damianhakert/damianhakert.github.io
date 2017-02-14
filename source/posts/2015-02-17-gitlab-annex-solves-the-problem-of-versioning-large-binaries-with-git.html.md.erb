@@ -8,6 +8,15 @@ author_twitter: sytses
 author_gitlab: sytses
 ---
 
+<i class="fa fa-exclamation-triangle gitlab-orange" aria-hidden="true"></i>
+<span class="red">**WARNING**</span>
+<i class="fa fa-exclamation-triangle gitlab-orange" aria-hidden="true"></i>
+**git-annex** support on GitLab EE will be **deprecated** from GitLab 8.17 on (2017/02/22), and will be [**permanently removed**](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) in GitLab 9.0 (2017/03/22). There's nothing to worry about, just read through the
+migration guide [from git-annex to git-lfs](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git-annex_to_git-lfs.html).
+<span class="note">Updated on 2017/02/22.</span>
+{:.alert .alert-warning .black}
+
+
 The biggest limitation of git compared to some older centralized version control systems has been the maximum size of the repositories.
 The general recommendation is to not have git repositories larger than 1GB to preserve performance.
 Although GitLab has no limit (some repositories in GitLab are over 50GB!) we subscribe to the advice to keep repositories as small as you can.
@@ -76,10 +85,25 @@ We look forward to feedback and enhancements from the rest of the community.
 For example, it would be nice if the GitLab UI shows the file size of the large file instead of the symlink.
 But let's first celebrate this milestone, being able to easily version control your large files!
 
-## Update
+## Updates
 
-We made a video of [Dmitriy](/team/#dzaporozhets), CTO of GitLab, explaining how git-annex integrates with GitLab Enterprise Edition. The video is raw and unedited.
+### Documentation:
+
+- [git-annex - GitLab EE](https://docs.gitlab.com/ee/workflow/git_annex.html)
+- [Downgrading from GitLab EE to CE](http://docs.gitlab.com/ee/downgrade_ee_to_ce/README.html)
+
+### Video - How git-annex integrates with GitLab
+
+- We made a video of [Dmitriy](/team/#dzaporozhets), CTO of GitLab, explaining how git-annex integrates with GitLab Enterprise Edition. The video is raw and unedited.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/6PhmANuSVGE" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+
+<!-- custom classes -->
+
+<style>
+  .red { color: red !important; }
+  .black { color: black !important; }
+</style>
+
