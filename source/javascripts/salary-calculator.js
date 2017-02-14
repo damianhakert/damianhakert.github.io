@@ -356,11 +356,11 @@
 
       if (calculatedTrue) {
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
-        this.renderCompensationUrl(input);
+        this.renderCompensationUrl(input, { min: min, max: max });
       }
     }
 
-    SalaryCalculator.prototype.renderCompensationUrl = function(input) {
+    SalaryCalculator.prototype.renderCompensationUrl = function(input, salary) {
       var rootUrl = function() {
         var url = window.location.href;
         if (url.indexOf('?') >= 0) {
@@ -407,6 +407,10 @@
         + experienceIndex
         + '&level='
         + levelNumber
+        + '&low='
+        + salary.min
+        + '&high='
+        + salary.max
 
       $('.generate-url')
         .html(
