@@ -1,17 +1,1 @@
-Hello!
-
-Thank you for purchasing a GitLab Premium Technical Support subscription!
-
-Please submit your support questions through the web portal at
-
-https://support.gitlab.com/
-
-
-At any time you can find more information about Gitlab Support at
-
-https://about.gitlab.com/support/
-
-
-Thank you,
-
-The GitLab Team
+This message has been deprecated, the content has been moved to https://about.gitlab.com/handbook/customer-success/premium_support_on-boarding .
