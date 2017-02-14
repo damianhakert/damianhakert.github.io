@@ -4,19 +4,19 @@ title: "UX Personas"
 ---
 
 ## UX Personas
-* [Steven Lyons](/handbook/ux/personas#steven-lyons)
+* [Nazim Ramesh](/handbook/ux/personas#nazim-ramesh)
     - Small to medium size organisations using GitLab CE
 * [James Mackey](/handbook/ux/personas#james-mackey)
     - Medium to large size organisations using CE or EE
     - Small organisations using EE
-* [Harry Robinson](/handbook/ux/personas#harry-robinson)
+* [Karolina Plaskaty](/handbook/ux/personas#karolina-plaskaty)
     - Using GitLab.com for personal/hobby projects
     - Would like to use GitLab at work
     - Working for a medium to large size organisation  
 
 <hr>
 
-### Steven Lyons
+### Nazim Ramesh
 - Small to medium size organisations using GitLab CE
 
 #### Demographics 
@@ -127,7 +127,7 @@ James and his team use CI quite heavily for several projects. Whilst they’ve w
 
 <hr>
 
-### Harry Robinson
+### Karolina Plaskaty
 - Using GitLab.com for personal/hobby projects
 - Would like to use GitLab at work
 - Working for a medium to large size organisation   
