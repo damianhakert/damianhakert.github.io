@@ -11,6 +11,10 @@ The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our p
 
 Please see the [2017 UX Strategy](/handbook/ux/strategy) to view the evolving UX vision for GitLab.
 
+## Research Plan
+
+Check out the [research plan](/handbook/ux/research-plan) to see research that is on going, on deck, and what we have learned so far.
+
 ## UX Workflow 
 
 ### Designer
