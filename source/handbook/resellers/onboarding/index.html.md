@@ -56,6 +56,7 @@ These are the members of your team that are most likely to interact with us. We 
    - GitLab.com username (if any)
 - [ ] Partner team members added to SFDC @malessio
 - [ ] Partner account enabled in SFDC @malessio
+- [ ] Partner reports set up in SFDC @mlessio
 - [ ] Partner Demo License set up in Zuora @malessio
 - [ ] Partner announced during team call @malessio
 - [ ] Partner email address added to partner newsletter mail list @scornille
