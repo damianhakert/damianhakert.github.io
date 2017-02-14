@@ -1,4 +1,6 @@
 (function () {
+  $('.formula').after('<div class="generate-url"></div>')
+
   var paramsFetcher = function() {
     var regex = /[?&]([^=#]+)=([^&#]*)/g;
     var params = {};
@@ -25,7 +27,7 @@
     Senior: 1.2,
     Lead: 1.4,
     0.8: 'Junior',
-    1.0: 'Intermediate',
+    1: 'Intermediate',
     1.2: 'Senior',
     1.4: 'Lead'
   };
@@ -350,8 +352,67 @@
       var min = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.max);
 
+      var calculatedTrue = min && max;
 
-      $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
+      if (calculatedTrue) {
+        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
+        this.renderCompensationUrl(input);
+      }
+    }
+
+    SalaryCalculator.prototype.renderCompensationUrl = function(input) {
+      var rootUrl = function() {
+        var url = window.location.href;
+        if (url.indexOf('?') >= 0) {
+          url = url.split("?")[0];
+        }
+        return url;
+      }
+
+      var experienceIndex;
+
+      // keys on experienceKey to match
+      [0, 1, 2, 3, 4].forEach(function(idx) {
+        var min = (parseFloat(input.experience.min) === experienceKey[idx].min);
+        var max = (parseFloat(input.experience.max) === experienceKey[idx].max);
+        if (min && max) experienceIndex = idx;
+      });
+
+      // keys on levelKey to match
+      var levelNumber = [0.8, 1.0, 1.2, 1.4]
+        .map(function(key) {
+          var valid = (parseFloat(input.level) === parseFloat(key));
+          if (valid) return levelKey[parseFloat(key)];
+          return null;
+        })
+        .find(function(level) {
+          return level !== null;
+        });
+
+      var link = rootUrl()
+      + '?city='
+      + input.city
+      + '&country='
+      + input.country
+      + '&experience='
+      + experienceIndex
+      + '&level='
+      + levelNumber
+
+      $('.generate-url')
+        .html(
+          '<div>'
+          + '<h4>'
+          + 'Compensation URL:'
+          + '</h4>'
+          + '<a href="'
+          + link
+          + '">'
+          + link
+          + '</a>'
+          + '</div>'
+          + '<br>'
+        );
     }
 
     SalaryCalculator.prototype.renderContractType = function() {
