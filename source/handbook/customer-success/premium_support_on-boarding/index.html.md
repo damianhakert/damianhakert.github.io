@@ -12,16 +12,5 @@ After purchase of a Premium Support subscription is completed, the following ste
    - Domain name where email requests will come from is required for proper Zendesk routing
 - Sales sends the customer an email message with the [text contained here](premium_support_message.txt) so the customer knows what to expect.
 - Sales opens a [confidential issue in the support project](https://gitlab.com/gitlab-com/support/issues)
-   - Apply the ["Premium support account"](https://gitlab.com/gitlab-com/support/blob/master/.gitlab/issue_templates/Premium%20support%20account.md) issue template
+   - Apply the ["Premium support onboarding"](https://gitlab.com/gitlab-com/support/blob/master/.gitlab/issue_templates/Premium%20support%20onboarding.md) issue template, and follow the steps outlined in the template.
    - Assign the issue to the "Support Lead"
-- Sales notifies the designated Support person who processes the issue.
-- Support assigns an Service Engineer based on a number of factors
-   - Location
-   - Availability
-   - SLA
-- Assigned support engineer contacts customer and provides the following via email / telephone as appropriate:
-   - Personalized introduction
-   - Contact information for support subscribers
-   - Information on 24x7 emergency support
-   - Scheduling for two training workshops
-   - Discussion (and possible scheduling) of live upgrade assistance
