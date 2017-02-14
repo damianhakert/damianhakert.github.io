@@ -52,9 +52,9 @@ People Ops is responsible for seeing the change through to completion. Once comp
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
 
-### Auditing Changes 
+### Auditing Changes
 
-Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet. 
+Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet.
 
 ### Process for Monthly Payroll Approval (UK, Belgium & India)
 
@@ -132,16 +132,16 @@ Jobs Tab
    * Location - Which entity the new team member is contracted through.
    * Division - Enter the appropriate division from the dropdown.
    * Department - Leave blank for now. This will become relevant as we scale.
-   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table. 
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table.
 1. Employment Status
    * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
 
-To Terminate a Team Member from BambooHR: 
-1. Click on the gear icon in BambooHR at the top right of the screen. 
-1. Select Terminate Employee. 
+To Terminate a Team Member from BambooHR:
+1. Click on the gear icon in BambooHR at the top right of the screen.
+1. Select Terminate Employee.
 1. Enter the Effective Date of the termination.
-1. Select Voluntary or Involuntary. 
-1. Enter the termination reason and if eligible for rehire. 
+1. Select Voluntary or Involuntary.
+1. Enter the termination reason and if eligible for rehire.
 
 ### Settings in BambooHR
 
@@ -364,6 +364,13 @@ A trusted advisor is a team member in People Ops who is granted access to TriNet
 
 You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system.
 
+#### Entering an Extended Leave in TriNet
+
+1. Once the Extended Leave Request form has been submitted and approved by People Ops, it will then be entered into TriNet.
+1. Go to Passport under Find > Find Person by Name > Pull the employee up > Extended Leave Request.
+1. Enter all applicable information.
+1. Once the leave is in TriNet it takes the LOA department about 5 business days to process the request. They will send out information to the employee directly on what their leave means to them and how to file for any short term and/or state disability that may apply.
+  * Short Term Disability is processed through Aetna. The employee would call Aetna to file a claim. Phone number and plan number can be found in the People Ops 1Password vault to be shared with the employee.
 
 #### Making changes in TriNet
 {: #changes-trinet}

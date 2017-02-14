@@ -89,6 +89,19 @@ In keeping with our [values](/handbook/values) of freedom, efficiency, transpare
 - Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
 - Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://about.gitlab.com/handbook/contracts/#employee-contractor-agreements).
 
+### Leave Policy
+
+#### United States Leave Policy:
+
+Extended Leave Regulations:  
+
+* Based on the Family and Medical Leave Act, or [FMLA](https://www.dol.gov/whd/fmla/), US Employees are "eligible to take job-protected leave for specified family and medical reasons with continuation of group health insurance coverage under the same terms and conditions as if the employee had not taken leave." For more information on what defines an eligible employee and medical reason please visit the [Electronic Code of Federal Regulation](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&sid=d178a2522c85f1f401ed3f3740984fed&rgn=div5&view=text&node=29:3.1.1.3.54&idno=29#sp29.3.825.b) for the most up to date data.
+* US Employees are also eligible to take Short-Term Disability based on the benefits plan through TriNet for qualifying events.   
+
+To Apply For Extended Leave:
+
+* Fill out the [Extended Leave Request Form](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPdzhITFI2VDR2TVAxS2N6ZUlkVzZveTBWSkVR/view?usp=sharing) and send to People Ops. Once submitted, People Ops will review and submit to [TriNet](https://about.gitlab.com/handbook/people-operations/sop/#entering-an-extended-leave-in-triNet). 
+
 ### Hiring Significant Other or Family Members
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:
