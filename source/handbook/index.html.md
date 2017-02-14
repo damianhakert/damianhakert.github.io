@@ -13,7 +13,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [General Guidelines](/handbook/general-guidelines)
   * [Handbook Usage](/handbook/handbook-usage)
   * [Communication](/handbook/communication)
-  * [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money)
+  * [Spending Company Money](/handbook/spending-company-money)
   * [Paid time off](/handbook/paid-time-off)
   * [Incentives](/handbook/incentives)
   * [Signing legal documents](/handbook/signing-legal-documents)
