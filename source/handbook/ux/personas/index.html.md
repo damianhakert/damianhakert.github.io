@@ -19,6 +19,8 @@ title: "UX Personas"
 ### Nazim Ramesh
 - Small to medium size organisations using GitLab CE
 
+<img src="/handbook/ux/personas/images/steven-lyons.png" width="300px">
+
 #### Demographics 
 
 - **Age**<br>32 years old
@@ -81,6 +83,8 @@ GitLab’s interface initially attracted Steven when he was comparing version co
 - Medium to large size organisations using CE or EE
 - Small organisations using EE
 
+<img src="/handbook/ux/personas/images/james-mackey.png" width="300px">
+
 #### Demographics
 
 - **Age**<br>36 years old
@@ -131,6 +135,8 @@ James and his team use CI quite heavily for several projects. Whilst they’ve w
 - Using GitLab.com for personal/hobby projects
 - Would like to use GitLab at work
 - Working for a medium to large size organisation   
+
+<img src="/handbook/ux/personas/images/harry-robison.png" width="300px">
 
 #### Demographics
 
