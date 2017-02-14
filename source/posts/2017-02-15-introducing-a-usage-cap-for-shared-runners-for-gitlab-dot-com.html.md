@@ -25,7 +25,7 @@ We’ll be capping the amount of free build minutes available per group at
 2000 minutes. Please note this limit only applies to private projects.
 This will affect less than 3% of all groups using CI on
 GitLab.com. 2000 build minutes means you can run a build of 10 minutes
-five times a day, every work day. 
+five times a day, every work day.
 
 With free GitLab CI on GitLab.com you'll get unlimited number of builds, with
 unlimited parallelism on unlimited groups with unlimited number of
@@ -57,4 +57,4 @@ As said, you still have and will always have the option to bring your own Runner
 
 ## Timeline
 
-The plans are available to purchase now and the CI limits will be activated on at the end of February.
+The plans are available to purchase now and the CI limits will be activated at the end of February.
