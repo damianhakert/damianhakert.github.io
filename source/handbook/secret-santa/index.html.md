@@ -7,12 +7,13 @@ title: "Secret Santa"
 
 We will be organizing another Secret Santa in 2017!
 
-Rules/guidelines:
-- Wait for the email to tell you who you'll have to ship a present to. You will also receive an email from People Ops confirming that you have signed up with a link to this page.
-- Fill out your address and wish list using the link provided in the email.
-- Get that person a gift and ship this gift to him/her before Christmas.
-- The budget is € 20 for the gift (excluding shipping), paid out of pocket.
-- You'll post a picture of your gift in #secret-santa, to thank your Secret Santa, and let them know that the gift has been received!
+How does this work?:
+- You'll receive an email to enroll in secret santa, list your wishes, enter your address, and then find out who you will ship a present to.
+  * You will receive a confirmation email when you've enrolled.
+- Get a present, and ship it!
+  * The budget is € 20 for the gift (excluding shipping), paid out of pocket.
+- Wait for your present to arrive.
+- Finally! It arrived! Unpack it, take a picture, and thank santa in the #secret-santa channel on Slack to let them know that the gift has been received!
 - Perfectly content, you wait until next year to participate again... :)
 - If you have not received your gift by January 15th, or are unsure if your match received the gift you sent, please reach out to People Ops to act as one of Santa's Elves.
 
