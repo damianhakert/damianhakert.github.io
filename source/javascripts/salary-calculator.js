@@ -370,7 +370,6 @@
       }
 
       var experienceIndex;
-
       // keys on experienceKey to match
       [0, 1, 2, 3, 4].forEach(function(idx) {
         var min = (parseFloat(input.experience.min) === experienceKey[idx].min);
@@ -390,14 +389,14 @@
         });
 
       var link = rootUrl()
-      + '?city='
-      + input.city
-      + '&country='
-      + input.country
-      + '&experience='
-      + experienceIndex
-      + '&level='
-      + levelNumber
+        + '?city='
+        + input.city
+        + '&country='
+        + input.country
+        + '&experience='
+        + experienceIndex
+        + '&level='
+        + levelNumber
 
       $('.generate-url')
         .html(
