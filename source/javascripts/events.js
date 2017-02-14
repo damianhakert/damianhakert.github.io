@@ -98,12 +98,19 @@
         document.querySelector('.pagination').innerHTML =
         getItems(this.getTotalPages(eventsToPopulate.length), this.currentPage)
         .map(function(e, i) {
-          return('<li seperator="'+e.seperator+'" active="'+e.active+'" disabled="'+e.disabled+'">'
-          + '<span>'+e.title+'</span>'
-          + '</li>');
+          var activeElement;
+          if(e.active) {
+            activeElement = '<li seperator="'+e.seperator+'" class="active" disabled="'+e.disabled+'">'
+                            + '<span>'+e.title+'</span>'
+                            + '</li>';
+          } else {
+            activeElement = '<li seperator="'+e.seperator+'" disabled="'+e.disabled+'">'
+                            + '<span>'+e.title+'</span>'
+                            + '</li>';
+          }
+          return activeElement;
         }).join('');
-        $('.pagination li[active="false"] span').on('click', this.render.bind(this));
-        $('.pagination li[active="undefined"] span').on('click', this.render.bind(this));
+        $('.pagination li:not(.active) span').on('click', this.render.bind(this));
       } else {
         document.querySelector('.pagination').innerHTML = '';
       }
@@ -120,17 +127,7 @@
       }
 
       $eventsList.append(eventListArray).hide().fadeIn();
-      $('.event-list .event-headers span').off('click').on('click', function(event) {
-        var currentArrow = $(event.currentTarget).parent();
-        $parentElement = $(currentArrow).parent().parent();
-        if(currentArrow.hasClass('is-open')) {
-          currentArrow.removeClass('is-open');
-          $($parentElement).find('.event-description').hide();
-        } else {
-          currentArrow.addClass('is-open');
-          $($parentElement).find('.event-description').fadeIn();
-        }
-      });
+      $('.event-list .event-headers .event-topic').off('click').on('click', this.displayEventDescription);
       //Populate dropdowns based on the current data shown
       if(options.renderFilteredData){
         this.populateDropdowns(options.filteredData, false);
@@ -141,39 +138,56 @@
 
     }
 
+    EventsHandler.prototype.displayEventDescription  = function(e) {
+      var currentArrow = $(e.currentTarget);
+      $parentElement = $(currentArrow).parent().parent();
+      if(currentArrow.hasClass('is-open')) {
+        currentArrow.removeClass('is-open');
+        $($parentElement).find('.event-description').hide();
+      } else {
+        currentArrow.addClass('is-open');
+        $($parentElement).find('.event-description').fadeIn();
+      }
+    }
+
     EventsHandler.prototype.filterData = function() {
       var filters = this.getFilterValues();
       filters.topic = filters.topic.toLowerCase();
       filters.type = filters.type.toLowerCase();
       filters.location = filters.location.toLowerCase();
       var filteredData = this.eventListDOM.filter(function (index) {
+        if(filters.topic === 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
+          return true;
+        }
+
         var eventTopic = $(this).find('.event-topic').first().text().trim().toLowerCase();
         var eventType = $(this).find('.event-type').first().text().trim().toLowerCase();
         var eventLocation = $(this).find('.event-location').first().text().trim().toLowerCase();
-        if(filters.topic === 'event topic' && filters.type === 'event type' && filters.location === 'event location') {
-          return true;
-        } else if (filters.topic !== 'any event topic' && filters.type === 'any event type' && filters.location === 'any event location') {
-          return eventTopic === filters.topic;
-        } else if (filters.topic === 'any event topic' && filters.type !== 'any event type' && filters.location === 'any event location') {
-          return eventType === filters.type;
-        } else if (filters.topic === 'any event topic' && filters.type === 'any event type' && filters.location !== 'any event location') {
-          return eventLocation === filters.location;
-        } else if (filters.topic !== 'any event topic' && filters.type !== 'any event type' && filters.location === 'any event location'){
-          return eventTopic === filters.topic && eventType === filters.type;
-        } else if (filters.topic !== 'any event topic' && filters.type === 'any event type' && filters.location !== 'any event location'){
-          return eventTopic === filters.topic && eventLocation === filters.location;
-        } else if (filters.topic === 'any event topic' && filters.type !== 'any event type' && filters.location !== 'any event location'){
-          return eventType === filters.type && eventLocation === filters.location;
-        } else if (filters.topic !== 'any event topic' && filters.type !== 'any event type' && filters.location !== 'any event location'){
-          return eventTopic === filters.topic && eventType === filters.type && eventLocation === filters.location;
-        } else {
-          return true;
+
+        var filterByTopic = filters.topic !== 'any event topic';
+        var filterByType = filters.type !== 'any event type';
+        var filterByLocation = filters.location !== 'any event location';
+
+        var include = true;
+
+        if (filterByTopic) {
+          include = (eventTopic === filters.topic) ? include : false;
         }
+
+        if (filterByType) {
+          include = (eventType === filters.type) ? include : false;
+        }
+
+        if (filterByLocation) {
+          include = (eventLocation === filters.location) ? include : false;
+        }
+
+        return include;
       });
       return filteredData;
     }
 
-    EventsHandler.prototype.render = function(event) {
+    EventsHandler.prototype.render = function(e) {
       function renderData(shouldWeFilter, pageNumber) {
         if(shouldWeFilter && !pageNumber) {
           var filteredData = this.filterData.call(this);
@@ -201,8 +215,8 @@
           this.renderEventList({renderFilteredData: false});
         }
       }
-      if(typeof event !== 'undefined') {
-        var $callingElement = $(event.currentTarget);
+      if(typeof e !== 'undefined') {
+        var $callingElement = $(e.currentTarget);
         var classCallingElement = $callingElement.parent()[0].className;
         if(classCallingElement.indexOf('dropdown-menu') != -1) {
           renderData.call(this, true);

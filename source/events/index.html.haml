@@ -12,12 +12,13 @@ extra_font:
 
 .page-container.event-headline-container.text-center.animated
   .container
-    .col-md-8.col-md-offset-2
-      %h1.page-headline
-        GitLab Events
-      %h3.subheader
-        Learn more about software excellence with GitLab. 
-        We will be attending, hosting, and running numerous events in 2017, and cannot wait to see you there
+    .row
+      .col-md-8.col-md-offset-2
+        %h1.page-headline
+          GitLab Events
+        %h3.subheader
+          Learn more about software excellence with GitLab. 
+          We will be attending, hosting, and running numerous events in 2017, and cannot wait to see you there
 .page-container.upcoming-events.text-center.animated
   .row
     .container.filters-container
@@ -50,13 +51,13 @@ extra_font:
               = event.date
             %h4.event-location.visible-xs-block
               = event.location
-            .clear-floats
+            .clearfix
           .event-subheaders.hidden-xs
             %h4.event-type
               = event.type
             %h4.event-location
               = event.location
-            .clear-floats
+            .clearfix
           %div
             %p.event-description
               = event.description
@@ -66,12 +67,12 @@ extra_font:
           .event-buttons
             -# Social buttons
             .buttons
-              %a.btn.featured-item-button-events{href:event.event_url}
+              %a.btn.cta-btn.white-with-border{href:event.event_url}
                 Join Us!
             .social-tags.hidden-xs
               - event.social_tags.split(',').each do |tag|
                 %span.social-tag= "##{tag}"
-            .clear-floats
+            .clearfix
     .center-horizontal
       %nav
         %ul.pagination

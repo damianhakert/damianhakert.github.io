@@ -28,22 +28,6 @@
   }
 }
 
-.btn-yellow {
-  color: $color-secondary-alt;
-  background-color: $color-primary-alt;
-  border-color: $color-secondary-alt;
-  transition: all .2s;
-  font-weight: 600;
-  padding-left: 40px;
-  padding-right: 40px;
-
-  &:hover {
-    color: $color-primary-alt;
-    background-color: $color-secondary-alt;
-    border-color: $color-secondary-alt;
-  }
-}
-
 .btn-red {
   color: $color-white;
   background-color: $color-secondary;
@@ -69,34 +53,6 @@
     color: $color-secondary;
     background-color: darken($color-white, 10%);
     border-color: darken($color-white, 10%);
-  }
-}
-
-
-.featured-item-button-events {
-  color: $color-secondary;
-  border: 1px solid $color-secondary;
-  background-color: $color-white;
-  transition: all .2s;
-  font-weight: 600;
-  font-size: 16px;
-
-  @media(min-width: 360px) {
-    min-width: 160px;
-    line-height: 40px;
-  }
-
-  @media(min-width: 768px) {
-    min-width: 120px;
-    line-height: 25px;
-  }
-
-  &:hover,
-  &:focus {
-    color: $color-white;
-    background-color: $color-secondary;
-    text-decoration: none;
-    outline: 0;
   }
 }
 
@@ -165,6 +121,19 @@
 
     &:hover {
       background-color: darken($color-white, 5%);
+    }
+  }
+
+  &.white-with-border {
+    background-color: $color-white;
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-secondary;
+      text-decoration: none;
+      outline: 0;
     }
   }
 

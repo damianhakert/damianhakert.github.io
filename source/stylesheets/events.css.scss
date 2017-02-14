@@ -51,10 +51,6 @@
   font-size: 16px;
   text-align: left;
   margin-top: 30px;
-
-  .btn-yellow {
-    line-height: 25px;
-  }
 }
 
 
@@ -126,6 +122,7 @@
   margin-bottom: 10px;
   display: inline;
   line-height: 1;
+  cursor: pointer;
 
   .fa {
     color: $color-primary;
@@ -256,8 +253,8 @@
 
   img {
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 150%;
+    min-height: 105%;
   }
 
   .image-card-text {
@@ -326,7 +323,7 @@
       cursor: pointer;
     }
 
-    &[active="true"] {
+    &.active {
       span {
         cursor: default;
         text-decoration: underline;
@@ -407,6 +404,18 @@
   .btn.dropdown-menu-toggle {
     width: 75%;
   }
+
+  .image-card-container:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .image-card {
+    img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
 }
 
 @media (max-width: $screen-xs-max) {
@@ -421,17 +430,6 @@
 
     .featured-event-description {
       margin-bottom: 45px;
-    }
-  }
-
-  .feature-event-button {
-    text-align: center;
-
-    .btn-yellow {
-      line-height: 35px;
-      padding-right: 60px;
-      padding-left: 60px;
-      margin-bottom: 35px;
     }
   }
 
@@ -493,10 +491,6 @@
 
   .missed-events {
     padding-bottom: 50px;
-  }
-
-  .image-card-container:not(:last-child) {
-    margin-bottom: 35px;
   }
 
   .filters-container {
