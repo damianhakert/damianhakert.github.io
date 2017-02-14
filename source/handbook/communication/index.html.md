@@ -1,6 +1,10 @@
 ---
 layout: markdown_page
 title: "GitLab Communication"
+extra_js:
+  - libs/moment.min.js
+  - libs/moment-timezone-with-data.min.js
+  - team-call.js
 ---
 
 ## Welcome to our Communication Page
