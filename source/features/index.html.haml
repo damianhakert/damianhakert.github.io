@@ -7,6 +7,15 @@ extra_js:
   - libs/slick.min.js
   - features.js
 ---
+
+%nav#qnav.qnav.hidden-xs{role: "navigation"}
+  .container-fluid.featurenav
+    %ul.nav.nav-pills.nav-justified
+      %li
+        = link_to "Community Edition", "/features", :class => "selected"
+      %li
+        = link_to "Enterprise Edition", "/gitlab-ee"
+
 .page-container.landing-container.text-center
   %div
     %h1.page-headline

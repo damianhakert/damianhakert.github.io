@@ -5,6 +5,7 @@
 .landing-container {
   background: url("/images/feature_page/hero-background-overlay-features-page-v2.jpg") center center no-repeat;
   background-size: cover;
+  padding-top: 100px;
 }
 
 .video-button {
@@ -25,6 +26,38 @@
 
 .compare-other-tools {
   margin-top: 20px;
+}
+
+.qnav {
+  background: $color-primary-alt;
+  position: fixed;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  min-height: 0;
+  z-index: 100;
+  transition: all .5s ease;
+}
+
+.featurenav {
+  width: 350px;
+}
+
+.nav-justified > li {
+  > a {
+    color: $color-white;
+    border-radius: 0;
+  }
+
+  > a:hover,
+  &.active > a,
+  &.active > a:hover {
+    background: $color-primary;
+  }
+
+  > a.selected {
+    background: $color-primary;
+  }
 }
 
 @media(max-width: $screen-xs-max) {
