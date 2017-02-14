@@ -223,7 +223,7 @@ We will endeavor to provide funds to support up one event per reseller per quart
 
 Please submit your application for event support [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
-Please submit your application for event support in a new issue in the [reseller page of gitlab.com](https://gitlab.com/gitlab-com/resellers/issues). When it allowes you to select a tempate, choose the reseller template and fill in responses to the categories. All the relevant GitLab parties will be notified once you submit your issue and will be in touch shortly. You will be able to track the progress of your submission in the issue.
+Please submit your application for event support in a new issue in the [reseller page of gitlab.com](https://gitlab.com/gitlab-com/resellers/issues). When it allows you to select a template, choose the reseller template and fill in responses to the categories. All the relevant GitLab parties will be notified once you submit your issue and will be in touch shortly. You will be able to track the progress of your submission in the issue.
 
 
 ### Online Marketing Support Requests
@@ -231,6 +231,7 @@ Please submit your application for event support in a new issue in the [reseller
 GitLab may, at our discretion, also assist you with your advertising campaigns by providing online marketing support in your region. When requesting assistance, be as complete as you can in describing what you need, who the audience is, channels, and the expected ROI. Please apply [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
 ### Swag Requests
+
 Please submit your application for GitLab branded swag [here](https://docs.google.com/forms/d/1x2qP8EyEu2Y_XmIt7txudUYh-PP_Tst6hRuNq3a7Ruc/edit?usp=sharing)
 We have been known to co-fund co-branded or locally produced SWAG. Send submit your idea [here](https://gitlab.com/gitlab-com/resellers/issues/new) and chose the reseller template.
 
@@ -239,7 +240,7 @@ We have been known to co-fund co-branded or locally produced SWAG. Send submit y
 While we do not require them to, we do expect that your customers will, for the most part, contact you if they need help.
 It is in both of our best interest that they do so, as the more touch points you have with them, the more likely you are to further develop business with them.
 We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you will need to escalate some issues to our support staff.
-To facilitate this, you will be assigned a [Dedicated Service Engineer (DSE)](https://about.gitlab.com/handbook/support/#dedicated-service-engineers) to help your staff troubleshoot and resolve any issues that your customers may encounter.
+To facilitate this, you will be assigned a [Dedicated Service Engineer (DSE)](https://about.gitlab.com/handbook/support/#dedicated-service-engineers) to help your staff troubleshoot and resolve any issues that your customers may encounter. Your contact at GitLab can use the [Dedicated Service Engineer issue template](https://gitlab.com/gitlab-com/support/blob/master/.gitlab/issue_templates/Dedicated%20service%20engineer.md) to start the process of finding a suitable DSE.
 We will make every attempt to assign you a DSE that is in your time zone and if possible, having appropriate language skills.
 
 You may contact your DSE at the email address in the README file of the [resellers project](https://gitlab.com/gitlab-com/resellers/).
