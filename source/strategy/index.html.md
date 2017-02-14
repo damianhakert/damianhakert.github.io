@@ -54,7 +54,7 @@ We want to achieve our goals in the following order:
 
 4. After our IPO we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories. Having people on our SaaS helps drive awareness and familiarity with GitLab.
 
-5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this, we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it.
+5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this, we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it better.
 
 While we achieve our goals one by one, this doesn't mean we will focus on only one goal at a time. Simultaneously, we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [products](https://about.gitlab.com/pricing/#gitlab-ee), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
