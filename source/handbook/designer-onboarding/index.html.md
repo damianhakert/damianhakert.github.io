@@ -36,16 +36,16 @@ As you may already know, at GitLab we work in the open, and a large part of that
 - [Design handbook](/handbook/marketing/design)
 - [Brand Guidelines](/handbook/marketing/design/brand-guidelines)
 - [Marketing handbook](/handbook/marketing/)
-- [GitLab's Values](/handbook/#values)
-- [General Guidelines](/handbook/#general-guidelines)
-- [GitLab Workflow](/handbook/#gitlab-workflow)
+- [GitLab's Values](/handbook/values)
+- [General Guidelines](/handbook/general-guidelines)
+- [GitLab Workflow](/handbook/communication/#gitlab-workflow)
 
 ## Design tools
 
 Every (marketing) designer receives licenses for [Adobe CC](http://www.adobe.com/creativecloud.html) and [Sketch](https://www.sketchapp.com/).
 
 ## Gathering Feedback
-As Design can be subjective, discussion can heat up. Always try to be [direct](/handbook/#directness), but [kind](/handbook/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Try to come up with a solution instead of discussing endlessly. If you think additional perspective is needed mention a fellow designer in the issue.
+As Design can be subjective, discussion can heat up. Always try to be [direct](/handbook/values/#directness), but [kind](/handbook/values/#kindness). Try to give your best reasoning for your choices and evaluate everyone's opinions. Try to come up with a solution instead of discussing endlessly. If you think additional perspective is needed mention a fellow designer in the issue.
 
 
 ## Marketing OKRs

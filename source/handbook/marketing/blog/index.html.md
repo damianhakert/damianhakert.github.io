@@ -722,7 +722,7 @@ good to start writing.
 
 ### Writing Style
 
-At GitLab, we use [American English](/handbook/#american-english) as the standard written language.
+At GitLab, we use [American English](/handbook/communication/#american-english) as the standard written language.
 
 GitLab content primarily follows [AP Style],
 which is searchable online. Any questions that cannot be answered

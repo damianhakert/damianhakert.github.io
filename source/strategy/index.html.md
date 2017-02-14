@@ -28,7 +28,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit), and a dedicated [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
-4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
+4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/values).
 
 ## Goals
 
@@ -72,7 +72,7 @@ We realize our competitors have started earlier and have more capital. Because w
 
 4. First time right: last to market so we get it right the first time, a fast follower with taste.
 
-5. Values: make decisions based on [our values](https://about.gitlab.com/handbook/#values), even if it is inconvenient.
+5. Values: make decisions based on [our values](https://about.gitlab.com/handbook/values), even if it is inconvenient.
 
 6. Free SaaS: to make GitLab.com the most popular SaaS in 2020 it should be largely free.
 
@@ -107,4 +107,4 @@ Our quarterly Objectives and Key Results are [publicly visible in our Lattice go
 
 ## Why public
 
-Our strategy is completely public because transparency is one of our [values](/handbook#values). We're not afraid of sharing it because as Peter Drucker said: "Strategy is a commodity, execution is an art.".
+Our strategy is completely public because transparency is one of our [values](/handbook/values). We're not afraid of sharing it because as Peter Drucker said: "Strategy is a commodity, execution is an art.".

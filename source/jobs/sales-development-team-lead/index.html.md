@@ -33,4 +33,4 @@ You have experience in sales or business development helping people get started 
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Passionate about technology and learning more about GitLab
 * Be ready to learn how to use GitLab and Git
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.

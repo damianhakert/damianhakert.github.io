@@ -1086,7 +1086,7 @@
 - name: Chris Peressini
   locality: Madrid
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
   reports_to: UX Lead
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
@@ -1137,6 +1137,7 @@
   gitlab: ahanselka
   maintains: |
               <li>On-call hero!</li>
+              <li>Data Durability Enforcer</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1374,6 +1375,7 @@
   gitlab: dewetblomerus
   maintains:  |
               <li>On-call hero!</li>
+              <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           De Wet is a software developer and mentor. He is passionate about problem-solving with code
           and helping someone without making them feel stupid. Prior to joining the GitLab team, he founded
@@ -2226,6 +2228,17 @@
   story:  |
           Joining February 13th
 
+- name: J.M.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining February 15th
+
 - name: B.V.
   locality:
   country:
@@ -2236,6 +2249,17 @@
   gitlab:
   story:  |
           Joining March 6th
+
+- name: A.O.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 13th
 
 - name: "Sid (Interim)"
   placeholder: true
