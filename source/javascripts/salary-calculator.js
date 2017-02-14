@@ -398,34 +398,14 @@
         return parseCountry.split(" ").join("-");
       }
 
-      var link = rootUrl()
-        + '?city='
-        + city()
-        + '&country='
-        + country()
-        + '&experience='
-        + experienceIndex
-        + '&level='
-        + levelNumber
-        + '&low='
-        + salary.min
-        + '&high='
-        + salary.max
+      var link = rootUrl() + '?city=' + city() + '&country=' + country()
+        + '&experience=' + experienceIndex + '&level=' + levelNumber
+        + '&low=' + salary.min + '&high=' + salary.max
 
-      $('.generate-url')
-        .html(
-          '<div>'
-          + '<h4>'
-          + 'Compensation URL:'
-          + '</h4>'
-          + '<a href="'
-          + link
-          + '">'
-          + link
-          + '</a>'
-          + '</div>'
-          + '<br>'
-        );
+      $('.generate-url').html(
+        '<div>' + '<h4>' + 'Compensation URL:' + '</h4>' + '<a href="'
+        + link + '">' + link + '</a>' + '</div>' + '<br>'
+      );
     }
 
     SalaryCalculator.prototype.renderContractType = function() {
