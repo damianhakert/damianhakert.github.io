@@ -25,7 +25,7 @@ to comment on them. If you're interested, you can even join the
 ## The Kickoff Meeting
 
 Before working on the next release we have a
-kickoff call (usually on the 8th of each month) to explain what we expect to ship in the next release. The
+kickoff call (on the first working day after the 7th) to explain what we expect to ship in the next release. The
 [kickoff notes] are public and you are invited to comment on them.
 If you're interested, you can even join the [kickoff call][retro-kickoff-call],
 on the 23rd of every month at 6pm CET / 9am PST (unless it's on a weekend, then it's the first working day of the week after).
