@@ -9,7 +9,7 @@ description: "GitLab's release retrospectives and kickoffs are now open to our c
 ---
 
 As stated in the [GitLab Master Plan][gitlab-master-plan], we strive to maintain
-a high level of [transparency]((https://about.gitlab.com/handbook/values/)). That's why today we are making our release retrospective and kickoff notes and
+a high level of [transparency](/handbook/values/). That's why today we are making our release retrospective and kickoff notes and
 calls public.
 
 <!-- more -->
@@ -45,11 +45,15 @@ The next retrospective and kickoff call recordings will be available on the
 We look forward to reading all your comments on these documents and to
 seeing your face in the calls!
 
-[gitlab-master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/#we--our-community
-[retrospective notes]: https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing
-[kickoff notes]: https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing
-[retro-kickoff-call]: https://gitlab.zoom.us/j/918821206
+----
 
 _[Cover image](https://unsplash.com/photos/jdD8gXaTZsc) by
 [William Stitt](https://unsplash.com/@willpower), licensed by [CC0 1.0](https://unsplash.com/license)._
 {:.note}
+
+<!-- identifiers -->
+
+[gitlab-master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/#we--our-community
+[retrospective notes]: https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing
+[kickoff notes]: https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing
+[retro-kickoff-call]: https://gitlab.zoom.us/j/918821206
