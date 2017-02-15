@@ -53,8 +53,19 @@ script injection should a user click on a direct link to the SVG file. See
 ## Mattermost security update
 
 Mattermost has not yet released full details, however a high severity security
-release was published and Mattermost has advised all users to upgrade
-immediately. See their [release notes] for more.
+release (3.6.2) was recently published and Mattermost has advised all users to
+upgrade immediately. See their [release notes] for more.
+
+Note: GitLab 8.15 and 8.14 Omnibus packages include Mattermost 3.5.x, while 8.16
+includes Mattermost 3.6.x. Mattermost normally only provides security updates to
+the most recent version (3.6.x). At GitLab's request Mattermost is releasing a
+backport to version 3.5, however it is not yet available at the time of this release.
+
+When Mattermost releases version 3.5.2 including this most recent security fix
+GitLab will provide updated Omnibus packages for GitLab versions 8.15 and 8.14.
+In the meantime it is recommended that any GitLab 8.15 or earlier Omnibus users
+with Mattermost enabled either upgrade to GitLab 8.16.5, disable Mattermost, or
+migrate to a non-Omnibus Mattermost version 3.6.2.
 
 [#1951]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1951
 [release notes]: https://docs.mattermost.com/administration/changelog.html?highlight=changelog#notes-on-patch-release
@@ -74,7 +85,7 @@ assigned to the wrong project. See [#27659] for more details.
 ### Versions affected
 
 - Cross-site scripting: 7.12.0 through 8.16.4
-- Mattermost: 8.15.0 through 8.16.4
+- Mattermost: 8.14.0 through 8.16.4
 - Project import: 8.15.0 through 8.16.4
 
 We recommend that all installations running a version mentioned above be
