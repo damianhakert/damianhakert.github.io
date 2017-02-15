@@ -2206,16 +2206,16 @@
   story:  |
           Joining February 6th
 
-- name: A.J.
-  locality:
-  country:
+- name: Adam Johnson
+  locality: Golden, Colorado
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: adamjohnson.jpg
+  twitter: adam31johnson
+  gitlab: adamjohnson
+  story:  A passionate agilist after years of living in a waterfall world, Adam's professional passion is selling in to and collaborating with Senior Leadership at Enterprise organizations. His goal is simple - focus on making their teams and company more effective, while empowering them to make and meet their commitments to the business. Outside of work Adam is a family man. He enjoys all things outdoors including big mountain skiing, hiking, camping, and anything else that the 300+ days of sunshine brings to Colorado.
+          
 
 - name: M.B.
   locality:
