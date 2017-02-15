@@ -8,7 +8,7 @@ image_title: '/images/8_17/pic.jpg'
 description: "GitLab 8.17 released with xyz and abc features"
 ---
 
-_Job writes introductory paragrahs here_
+_Job writes introductory paragraphs here_
 
 <!-- more -->
 
@@ -64,6 +64,12 @@ Navigating to `CI/CD Pipelines` will show you one page with all the settings tha
 [8.16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
+
+## Additional details included in Merge Request workflow
+
+We have made improvements to the look and feel of the Merge Request workflow, as well as included additional details on the CI/CD Pipeline status. You are now able to easily and quickly review the progress of the entire Pipeline, directly from the Merge Request page.
+
+![Merge Request Pipeline Minigraph](/images/8_17/merge_request_minigraph.png){: .shadow}
 
 ## Redesigned Slack and Mattermost Issue Messages
 
