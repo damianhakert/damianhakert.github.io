@@ -95,8 +95,8 @@
 
 - title: "Director Federal Sales"
   description: /jobs/director-federal-sales/
-  apply: https://gitlab.workable.com/jobs/315093/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Global Account Management"
   description: /jobs/director-global-account-management/
