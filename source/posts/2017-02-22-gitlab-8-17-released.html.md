@@ -81,7 +81,7 @@ The ChatOps message replies for Slack and Mattermost have been redesigned, offer
 
 We have clarified the terminology used to discuss parts of CI/CD, replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring to the entire pipeline, and `Job` will be used for a specific action or build.
 
-## Upcoming changes to defaults in `gitlab-ci.yml`
+## Upcoming changes to defaults in gitlab-ci.yml
 
 As part of our 9.0 release, we will be changing the default behavior of two flags in `gitlab-ci.yml` to provide an improved standard experience.
 
