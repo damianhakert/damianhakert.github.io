@@ -20,7 +20,7 @@ Products at GitLab are built using the [GitLab Flow](http://doc.gitlab.com/ee/wo
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues], and filter by the label for your team.
 1. If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
 1. You are responsible for the issue that you're assigned to. This means it has
-  to ship with the milestone it's associater with. If you are not able to do
+  to ship with the milestone it's associated with. If you are not able to do
   this, you have to communicate it early to your manager. In teams, the team is
   responsible for this (see below).
 1. You (and your team, if applicable) are responsible for:

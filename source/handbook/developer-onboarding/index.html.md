@@ -52,7 +52,7 @@ to ensure that your merge requests [apply cleanly to GitLab EE][ce-ee-docs].
 Please consult [Limit conflicts with EE when developing on CE][ce-ee-docs] for
 more details.
 
-As of version 7.11, it requires a license key to be used. To be able to run your
+GitLab EE requires a license key to be used. To be able to run your
 own instances for development you can use one of the shared licenses (like <https://license.gitlab.com/licenses/1449>) or you
 can clone <https://dev.gitlab.org/gitlab/license-app> and generate your own
 licenses.
