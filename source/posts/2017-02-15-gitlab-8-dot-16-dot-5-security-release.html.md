@@ -24,7 +24,7 @@ Please read on for more details.
 A customer security audit discovered an XSS vulnerability in project README
 files using the AsciiDoc format. The Ruby gem that converts AsciiDoc to HTML did
 not properly filter dangerous code and was therefore vulnerable to persistent
-script injection.
+script injection. See [#27024] for more details.
 
 [#27024]: https://gitlab.com/gitlab-org/gitlab-ce/issues/27024
 
