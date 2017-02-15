@@ -370,7 +370,7 @@ Yes, you can use any [Static Site Generator][SSGs] available.
 ### Can I use free SSL/TLS digital certificates?
 {: .no_toc}
 
-Yes, absolutely! Need a suggestion? Try [StartSSL] or [Let's Encrypt][lets-encrypt].
+Yes, absolutely! Need a suggestion? Try [Let's Encrypt][lets-encrypt] or [CloudFlare].
 
 ### Can I contribute to the themes?
 {: .no_toc}
@@ -452,6 +452,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 
 [Brunch]: http://brunch.io/
 [Bundler]: http://bundler.io/
+[CloudFlare]: /2017/02/07/setting-up-gitlab-pages-with-cloudflare-certificates/
 [Coffee Script]: http://coffeescript.org/
 [dns-A]: https://support.dnsimple.com/articles/a-record/
 [dns-cname]: https://en.wikipedia.org/wiki/CNAME_record
@@ -468,7 +469,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [Jekyll Documentation]: http://jekyllrb.com/docs/home/
 [Jekyll Plugin]: https://jekyllrb.com/docs/plugins/
 [Lektor]: https://www.getlektor.com/
-[lets-encrypt]: https://letsencrypt.org/
+[lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Metalsmith]: http://www.metalsmith.io/
