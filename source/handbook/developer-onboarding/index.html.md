@@ -141,9 +141,12 @@ Smaller merge requests are more likely to receive good feedback and will get
 merged sooner.
 
 Unless the change is very minor, or is fixing a bug that was introduced in the
-same version, add an entry to `CHANGELOG` (or `CHANGELOG-EE` when applicable).
+same version, create a changelog entry using the
+[`bin/changelog` script][changelog-script].
 Do not include your name in the entry as we only do that to give recognition to
 volunteer contributors.
+
+[changelog-script]: https://docs.gitlab.com/ce/development/changelog.html
 
 ### Ensure that your changes apply cleanly to GitLab EE
 
