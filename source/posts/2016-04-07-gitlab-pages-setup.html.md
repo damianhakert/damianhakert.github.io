@@ -3,7 +3,8 @@ title: "Hosting on GitLab.com with GitLab Pages"
 date: 2016-04-07 10:00:00
 categories: tutorial
 author: Marcia Ramos
-author_twitter: virtuacreative
+author_gitlab: marcia
+author_twitter: XMDRamos
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
 twitter_image: '/images/tweets/gitlab-pages-setup.png'
 description: "Learn how to host your website on GitLab.com with GitLab Pages"
@@ -407,10 +408,11 @@ We're looking forward to seeing your sites!
 ## About guest author Marcia Ramos
 {: .no_toc}
 
-[Marcia] is a back-end developer specialized in WordPress and Jekyll sites at [Virtua Creative],
-though she does some front-end too. Her daily work is based on version-controlled systems for almost 15 years.
+[Marcia] is a backend web developer specialized in WordPress and Jekyll sites at [Virtua Creative],
+though she does some frontend too. Her daily work is based on version-controlled systems for almost 15 years.
 She is driven by her thirst for knowledge and her eagerness to continuously expand her horizons.
 When she is not coding, she is writing articles, studying, teaching or contributing to open source projects here and there.
+Update: she's joined the [GitLab Team] in May, 2016. 
 
 [doc-artifacts]: http://doc.gitlab.com/ee/ci/yaml/README.html#artifacts
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
@@ -447,6 +449,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [gitlab83]: https://about.gitlab.com/2015/12/22/gitlab-8-3-released
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [gitlab-ee]: https://about.gitlab.com/features/#enterprise
+[GitLab Team]: /team/#XMDRamos
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up, it's free!"
 [twitter]: https://twitter.com/gitlab
 
@@ -485,7 +488,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [StartSSL]: https://startssl.com/
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
-[Marcia]: https://gitlab.com/u/virtuacreative
+[Marcia]: https://gitlab.com/u/marcia
 [Virtua Creative]: https://virtuacreative.com.br/en/
 
 [ci-examples]: https://gitlab.com/groups/pages
