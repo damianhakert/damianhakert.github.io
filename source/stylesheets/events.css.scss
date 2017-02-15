@@ -387,6 +387,16 @@
 
 //Media Queries
 
+@media (max-width: $screen-md-max) {
+  .image-card {
+    img {
+      flex-shrink: 0;
+      min-width: 165%;
+      min-height: 105%;
+    }
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .rad-event {
     width: 80%;

@@ -237,12 +237,15 @@
       };
       currentlyDisplayedData.map(function(event){
         var eventTopic = $(this).find('.event-topic').first().text().trim();
-        var eventType = $(this).find('.event-type').first().text().trim();
         var eventLocation = $(this).find('.event-location').first().text().trim();
-        dropdownData.types.push(eventType);
+        
         dropdownData.locations.push(eventLocation);
         dropdownData.topics.push(eventTopic);
       });
+      this.eventListDOM.map(function (event){
+        var eventType = $(this).find('.event-type').first().text().trim();
+        dropdownData.types.push(eventType);
+      }); 
       dropdownData.types = filterDuplicatesArray(dropdownData.types);
       dropdownData.locations = filterDuplicatesArray(dropdownData.locations);
       dropdownData.topics = filterDuplicatesArray(dropdownData.topics);
@@ -254,7 +257,7 @@
       var eventTopicsDisplayArray = [];
       var eventLocationDisplayArray = [];
       var filterValues = this.getFilterValues();
-      var currentDropdownData = this.updateDropdownData(currentlyDisplayedData);
+      var currentDropdownData = this.updateDropdownData.call(this, currentlyDisplayedData);
       //Populate the dropdowns
       var $eventTypeDropdown = $('#event-types ul');
       var $eventTopicDropdown = $('#event-topics ul');
