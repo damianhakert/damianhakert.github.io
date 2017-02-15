@@ -1,4 +1,5 @@
 title: "SaaS vs. GitLab CE/EE"
+pdf: gitlab-ce-ee-vs-sass.pdf
 competitor_one:
   name: 'GitLab CE/EE'
   logo: '/images/comparison/ce-ee-gitlab-logo.svg'

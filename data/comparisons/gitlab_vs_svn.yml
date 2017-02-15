@@ -1,4 +1,5 @@
 title: "SVN vs. GitLab"
+pdf: gitlab-vs-svn.pdf
 competitor_one:
   name: 'GitLab'
   logo: '/images/comparison/gitlab-logo.svg'

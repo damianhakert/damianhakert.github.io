@@ -84,3 +84,5 @@
     If you find something that is invalid, biased, missing, or out of date in the comparisons, please open a merge request
     for this website to correct it. As with all the pages on this website you can find where this page lives in the
     repository via the link in the footer.
+.text-center
+  = link_to "Download as PDF", "/comparison/pdfs/#{comparison_block.pdf}", class: "btn cta-btn red", download: "Comparison PDF", target: "_blank"
