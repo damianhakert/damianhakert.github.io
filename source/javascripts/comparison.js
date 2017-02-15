@@ -1,7 +1,9 @@
 $(function() {
   var $compareTable = $('.compare-table');
+  var $tableHolder = $compareTable.closest('.table-responsive');
   var $compareTableTds = $('td', $compareTable);
   var $thead = $('thead', $compareTable);
+  var $th = $thead.find('th');
   var $nav = $('.navbar-default');
 
   $thead.affix({
@@ -11,16 +13,20 @@ $(function() {
       },
     },
   }).on('affixed.bs.affix', function() {
-    $thead.find('th').each(function(i) {
+    $th.each(function(i) {
       var $th = $(this);
       $th.width($compareTableTds.eq(i).outerWidth());
-    }).closest('.table-responsive').css({
+    });
+
+    $tableHolder.css({
       paddingTop: $thead.outerHeight(),
     });
   }).on('affixed-top.bs.affix', function() {
-    $thead.find('th').css({
+    $th.css({
       width: '',
-    }).closest('.table-responsive').css({
+    });
+
+    $tableHolder.css({
       paddingTop: '',
     });
   });
