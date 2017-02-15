@@ -1637,7 +1637,7 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
@@ -1760,7 +1760,7 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
