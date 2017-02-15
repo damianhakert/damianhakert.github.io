@@ -41,13 +41,13 @@ details.
 
 ## Persistent XSS vulnerability in SVG support
 
-A user who has requested to remain anonymous reported via [HackerOne] an XSS
-vulnerability in GitLab's SVG support. SVG files that were displayed inline in
-user comments were properly filtered for dangerous code, however direct links to
-these files were not being filtered and were therefore vulnerable to persistent
-script injection should a user click on a direct link to the SVG file. See
-[#27471] for more details.
+[dawnarrow] reported via [HackerOne] an XSS vulnerability in GitLab's SVG support.
+SVG files that were displayed inline in user comments were properly filtered for
+dangerous code, however direct links to these files were not being filtered and
+were therefore vulnerable to persistent script injection should a user click on
+a direct link to the SVG file. See [#27471] for more details.
 
+[dawnarrow]: https://hackerone.com/dawnarrow
 [#27471]: https://gitlab.com/gitlab-org/gitlab-ce/issues/27471
 
 ## Mattermost security update
