@@ -31,27 +31,6 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
-- name: Bruce Armstrong
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: Khosla Ventures
-  twitter: khoslaventures
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
-
-- name: Villi Iltchev
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: August Capital
-  twitter: VilliSpeaks
-  gitlab: Villi
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
-
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
@@ -307,6 +286,16 @@
           Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
           At GitLab he really enjoys the combination of operations and development.
           In his spare time he really likes to work on his small electronics projects based on arduino and pi.
+
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: Khosla Ventures
+  twitter: khoslaventures
+  picture: bruce.jpg
+  story:  |
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
 
 - name: Drew Blessing
   locality: Kearney, NE
@@ -1423,6 +1412,17 @@
               <li>On-call hero!</li>
   story:  |
           Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
+
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: August Capital
+  twitter: VilliSpeaks
+  gitlab: Villi
+  picture: villi.jpg
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
 
 - name: Pedro Moreira da Silva
   locality: Lisbon
