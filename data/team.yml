@@ -319,8 +319,7 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitLab Hosted (GitHost)</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -571,8 +570,8 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li>GitHost maintainer</li>
              <li>Backend merge request reviewer</li>
+             <li>GitLab Hosted (GitHost) reviewer</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
