@@ -316,12 +316,12 @@ At the bottom of the screen, select next
     * Job Code - no need to enter anything here
     * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
     * Supervisor - drop down menu of names
-    * Compensation Basis
+    * Compensation Basis (Make sure to verify that hourly employees are non-exempt and annual employees are exempt)
     * Compensation Rate
     * Departments
     * Work Location - drop down menu
     * Pay Group - only one option
-    * Employee ID - not necessary
+    * Alternate Employee ID - found in BambooHR
     * Work email
     * Grouping A/level - not necessary
     * Grouping B/sponsor- not necessary
