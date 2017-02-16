@@ -29,6 +29,8 @@ _Job writes about the MVP here_
 Prior to 8.17, the Backlog list in the [Issue Board][board] contained issues that you had not yet added to your workflow (the "main" area of the board).
 Finding issues to add was somewhat difficult given that small area, and you could only add them one by one.
 Most of the time, you didn't even need to see the Backlog list at all, and it was just hanging around taking up valuable screen real estate.
+
+
 With 8.17, you now add issues through a dedicated modal window.
 Click the `Add issues` button at the top-right, and you get an expansive modal to search and filter for issues you care about.
 Select one or many issues, and even choose the list where you want to put them in before adding them to the board, saving just a few more clicks and drags.
@@ -46,8 +48,8 @@ To remove an issue from your board, select it to bring up the sidebar, and hit `
 
 To improve code collaboration, we suggest teams share their merge requests as soon as possible in [WIP form][wip].
 This naturally results in many commits as the merge request evolves.
-Developers will then often squash the commits manually on their local machine before merging into the target branch.
-With 8.17, you can now squash and merge with a single click in GitLab itself, by simply selecting the option in the merge request.
+With 8.17, you can now squash your commits together into a single commit, as part of merging, giving you a much cleaner Git history.
+Simply select the option in the merge request itself.
 [Learn more][squash-doc].
 
 [wip]: https://docs.gitlab.com/ce/user/project/merge_requests/work_in_progress_merge_requests.html
