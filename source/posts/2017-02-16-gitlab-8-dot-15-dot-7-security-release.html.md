@@ -26,8 +26,9 @@ release was published and Mattermost has advised all users to upgrade immediatel
 A patch for Mattermost 3.6, shipped with Omnibus versions of GitLab 8.16, was 
 released with GitLab 8.16.5 on February 14, 2017. A matching patch for Mattermost 
 3.5, shipped with GitLab Omnibus versions 8.15 and 8.14, has now been made available. 
-https://docs.mattermost.com/administration/changelog.html?highlight=changelog#notes-on-patch-release
-[#1951]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1951
+See the Mattermost [release notes] for more information.
+
+[release notes]: https://docs.mattermost.com/administration/changelog.html?highlight=changelog#notes-on-patch-release
 
 ### Versions affected
 
