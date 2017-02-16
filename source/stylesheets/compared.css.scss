@@ -259,6 +259,10 @@ p {
 .last-updated-section p {
   color: $blueish-gray;
   padding-bottom: 30px;
+
+  &:first-child {
+    line-height: 42px;
+  }
 }
 
 .footer {
