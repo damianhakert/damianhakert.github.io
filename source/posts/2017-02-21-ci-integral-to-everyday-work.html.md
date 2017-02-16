@@ -4,7 +4,7 @@ author: Rebecca Dodd
 author_twitter:
 author_gitlab: rebecca
 categories: concepts
-image_title: '/images/blogimages/post-cover-image.jpg'
+image_title: '/images/blogimages/ci-nice-to-have-post.png'
 description: “77% of developers say Continuous Integration is integral to everyday work – we break down what that means.”
 cta_button_text: 'Join our <strong>Continuous Everything</strong> webcast live!'
 cta_button_link: 'https://page.gitlab.com/20170301_continuouseverything.html'
