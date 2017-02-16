@@ -92,7 +92,13 @@ As part of our 9.0 release, we will be changing the default behavior of two flag
 
 ## Audit Users (EE only)
 
-GitLab Enterprise Edition features a new capability to create users with an `Audit` role. This role allows the user read-only access to all projects, groups and users.
+Many large or regulated organizations require oversight across the entire development environment. GitLab Enterprise Edition now features a great new capability to assign an `Audit` role to a user. This role allows the user read-only access to all projects, groups, users and other resources.
+
+Unlike the `Administrator` role, Audit users don't have the ability to modify projects settings or access the Admin Area, making it the perfect solution to provide powerful, read-only access across the entire GitLab instance.
+
+[Find out more](audit-docs) about how this role works and the capabilities it allows.
+
+[audit-docs]: https://docs.gitlab.com/ee/administration/auditor_users.html
 
 ## Configurable Mirror Synchronization Time (EE only)
 
