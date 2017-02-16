@@ -11,7 +11,7 @@ title: "Hiring"
 
 ## Hiring Introduction
 
-GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
+GitLab is committed to hiring the best talent through an open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
 1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#ceo-interview-questions).
 
@@ -37,7 +37,7 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 The CEO must authorize any new job positions/searches.
 
 1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
-1. If a job description does not already exist, the hiring manager will work with the PeopleOps Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
+1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
@@ -46,6 +46,7 @@ The CEO must authorize any new job positions/searches.
             ```
             - title: "Chief Happiness Officer"
               description: /jobs/chief-happiness-officer/
+              salary:
               apply: https://gitlab.workable.com/jobs/12345/candidates/new
               open: true
             ```
@@ -53,8 +54,10 @@ The CEO must authorize any new job positions/searches.
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
-1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
-1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
+1. People Ops Generalist pings the  VP of Scaling (for now) and People Ops Specialist to propose an appropriate NYC benchmark compensation for the role, and they submit the proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
+   - For any position, filling in the NYC benchmark salary in the `jobs.yml` file will automatically cause the [Compensation Calculator](/handbook/people-operations/global-compensation-calculator) to show at the bottom of the job description page.
+   - For some positions, it may be possible or desirable to exclusively seek candidates outside of higher cost regions. This is a role by role decision between the Hiring Manager and People Operations. _If_ it is decided to seek candidates outside of higher cost regions, then that needs to be explicitly communicated on the job description page in order to set fair expectations for candidates and recruiters alike. Sample text to consider placing on the job description page: "Globally, xx % of people live in metro areas with a rent index greater than yy, while at GitLab, this is zz % of people in this role currently. Therefore, we are now focusing on only hiring in metro areas with a **rent index lower than yy** to add to our [diverse workforce](/handbook/values) while staying [frugal](/handbook/values). Please bear this in mind when using the compensation calculator below." (obviously, fill in the missing numbers).
+1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role, and details on compensation as applicable.
 1. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
@@ -76,7 +79,7 @@ The recruiting team will **always** publicize the job through the following mean
 1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
 1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
-**Note** recruiting team will advertise the job through the following sites:
+**Note**: The recruiting team will advertise the job through the following sites:
 
 1. [PowerToFly](https://www.powertofly.com) Helping us connect with 100k+ women in tech
 1. [Hacker News Who's Hiring](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
