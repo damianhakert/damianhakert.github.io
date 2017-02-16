@@ -81,14 +81,22 @@ The ChatOps message replies for Slack and Mattermost have been redesigned, offer
 
 ## Improving terminology within CI/CD
 
-We have clarified the terminology used to discuss parts of CI/CD, replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring to the entire pipeline, and `Job` will be used for a specific action or build.
+We have clarified the terminology used to discuss parts of [CI/CD][cicd], replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring to the entire pipeline, and `Job` will be used for a specific action or build.
+
+[cicd]: http://docs.gitlab.com/ce/ci/README.html
 
 ## Upcoming changes to defaults in gitlab-ci.yml
 
-As part of our 9.0 release, we will be changing the default behavior of two flags in `gitlab-ci.yml` to provide an improved standard experience.
+As part of our 9.0 release, we will be changing the default behavior of two flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
 
-* The `cache:key` directive will now default to a constant string. This means that the cache will now be shared across branches and stages, reducing build time making more efficient use of Runners. Note a cache is never shared across projects.
-* The `artifacts:expire_in` default will be able to be controlled by the GitLab administrator. This will allow administrators to reduce storage usage by reclaiming artifacts that do not need to be stored indefinitely. Set this value to your desired duration if an artifact is required to persist for a specific time.
+* The [cache:key][cache-key] directive will now default to a constant string. This means that the cache will now be shared across branches and stages, reducing build time making more efficient use of Runners. Note a cache is never shared across projects.
+* The [artifacts:expire_in][artifacts-expire-in] default will be able to be controlled by the GitLab administrator. This will allow administrators to reduce storage usage by reclaiming artifacts that do not need to be stored indefinitely. Set this value to your desired duration if an artifact is required to persist for a specific time.
+
+[gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
+
+[cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
+
+[artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
 
 ## Audit Users (EE only)
 
