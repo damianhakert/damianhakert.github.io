@@ -117,7 +117,7 @@ Unlike the `Administrator` role, Audit users don't have the ability to modify pr
 
 ## Monitoring GitLab with Prometheus
 
-With 8.17 we are continuing to build upon our Prometheus integration initially [released in 8.16][prom-8-16]. Three new exporters have been added to the Omnibus package, providing insight into Redis, Postgres, and GitLab service metrics. Administrators will now be able to track the performance of Git, Sidekiq jobs, and important database metrics. It is now easier than ever to ensure GitLab is feeling good and snappy!
+With 8.17 we are continuing to build upon our Prometheus integration initially [released in 8.16][prom-8-16]. Three new exporters have been added to the Omnibus package providing insight into Redis, Postgres, and GitLab service metrics. Administrators will now be able to track the performance of Git, Sidekiq jobs, and important database metrics. It is now easier than ever to ensure GitLab is feeling good and snappy!
 
 Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, and will be enabled by default in 9.0.
 
