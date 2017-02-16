@@ -5,7 +5,7 @@ author_twitter:
 author_gitlab: rebecca
 categories: concepts
 image_title: '/images/blogimages/ci-nice-to-have-post.png'
-description: “77% of developers say Continuous Integration is integral to everyday work – we break down what that means.”
+description: 77% of developers say Continuous Integration is integral to everyday work – we break down what that means.
 cta_button_text: 'Join our <strong>Continuous Everything</strong> webcast live!'
 cta_button_link: 'https://page.gitlab.com/20170301_continuouseverything.html'
 ---
@@ -20,9 +20,9 @@ Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016
 
 One of the key takeaways from the survey is that Continuous Integration now plays a big part in daily work, and is becoming more and more important to delivering great features frequently. CI frees up time that would otherwise be spent on finding and fixing errors, and it decreases the chance of shipping code that isn’t ready.
 
-## CI is Used by More Than Half of Developers, More Than 75 Percent of the Time
+## CI is Used by More Than Half of Developers 
 
-More than 20 percent use it nearly 100 percent of the time, with only 4 percent not using CI at all. The trend is clear: CI is becoming increasingly important.
+And those developers are using it more than 75 percent of the time. More than 20 percent use it nearly 100 percent of the time, with only 4 percent not using CI at all. The trend is clear: CI is becoming increasingly important.
 
 ## CI Makes Best Use of Your Team’s Time
 
