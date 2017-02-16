@@ -2215,7 +2215,7 @@
   twitter: adam31johnson
   gitlab: adamjohnson
   story:  A passionate agilist after years of living in a waterfall world, Adam's professional passion is selling in to and collaborating with Senior Leadership at Enterprise organizations. His goal is simple - focus on making their teams and company more effective, while empowering them to make and meet their commitments to the business. Outside of work Adam is a family man. He enjoys all things outdoors including big mountain skiing, hiking, camping, and anything else that the 300+ days of sunshine brings to Colorado.
-          
+
 
 - name: M.B.
   locality:
@@ -2239,6 +2239,17 @@
   story:  |
           Joining February 15th
 
+- name: A.O.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 1st
+
 - name: B.V.
   locality:
   country:
@@ -2250,16 +2261,16 @@
   story:  |
           Joining March 6th
 
-- name: A.O.
+- name: P.A.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: Regional Sales Director - US
+  role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
+  reports_to: CRO
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining March 13th
+          Joining March 15th
 
 - name: "Sid (Interim)"
   placeholder: true
