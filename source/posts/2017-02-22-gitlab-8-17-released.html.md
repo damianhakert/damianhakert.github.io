@@ -89,8 +89,8 @@ We have clarified the terminology used to discuss parts of [CI/CD][cicd], replac
 
 As part of our 9.0 release, we will be changing the default behavior of two flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
 
-* The [cache:key][cache-key] directive will now default to a constant string. This means that the cache will now be shared across branches and stages, reducing build time making more efficient use of Runners. Note a cache is never shared across projects.
-* The [artifacts:expire_in][artifacts-expire-in] default will be able to be controlled by the GitLab administrator. This will allow administrators to reduce storage usage by reclaiming artifacts that do not need to be stored indefinitely. Set this value to your desired duration if an artifact is required to persist for a specific time.
+* The [cache:key][cache-key] directive will default to a constant string. This means that the cache will now be shared across branches and stages, reducing build time making more efficient use of Runners. Note a cache is never shared across projects.
+* The [artifacts:expire_in][artifacts-expire-in] default will be able to be controlled by the GitLab administrator. Previously unless a specific duration was set, artifacts would never expire. By enabling control over the default value, administrators can more easily manage artifacts that do not need to be stored indefinitely. Developers should set this value to their desired duration if an artifact should persist for a specific time.
 
 [gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
 
@@ -117,6 +117,10 @@ Unlike the `Administrator` role, Audit users don't have the ability to modify pr
 
 ## Monitoring GitLab with Prometheus
 
-Three new exporters have been added to the Omnibus package adding support for monitoring Redis, Postgres, and GitLab service metrics. Prometheus and all exporters [can be enabled][prom-doc] by editing `gitlab.rb`, and will be enabled by default in 9.0.
+With 8.17 we are continuing to build upon our Prometheus integration initially [released in 8.16][prom-8-16]. Three new exporters have been added to the Omnibus package, providing insight into Redis, Postgres, and GitLab service metrics. Administrators will now be able to track the performance of Git, Sidekiq jobs, and important database metrics. It is now easier than ever to ensure GitLab is feeling good and snappy!
+
+Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, and will be enabled by default in 9.0.
+
+[prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 
 [prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
