@@ -5,7 +5,6 @@ author: Sid Sijbrandij
 author_twitter: sytses
 image_title: '/images/blogimages/gitlab-master-plan-cover.png'
 description: "GitLab announces $20M in Series B funding, and its Master Plan to build an integrated toolset for the modern developer!"
-ee_cta: true
 ---
 
 {::options parse_block_html="true" /}
