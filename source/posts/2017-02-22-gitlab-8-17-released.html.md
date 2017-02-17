@@ -75,9 +75,13 @@ We have made improvements to the look and feel of the Merge Request workflow, as
 
 ## Redesigned Slack and Mattermost Issue Messages
 
-The ChatOps message replies for Slack and Mattermost have been redesigned, offering a cleaner interface with additional detail when working with Issues. Replies will now include assignee, status, and more!
+The ChatOps message replies for [Slack][slack-chatops] and [Mattermost][mattermost-chatops] have been improved. GitLab's replies will now include additional details like assignee, current status, and more all presented in a cleaner interface. Searching GitLab or creating a new issue all within the context of the channel you are working in has never been easier or prettier!
 
 ![Slack Issue Show](/images/8_17/slack_issue_show.png){: .shadow}
+
+[slack-chatops]: https://docs.gitlab.com/ce/user/project/integrations/slack_slash_commands.html
+
+[mattermost-chatops]: https://docs.gitlab.com/ce/user/project/integrations/mattermost_slash_commands.html
 
 ## Improving terminology within CI/CD
 
