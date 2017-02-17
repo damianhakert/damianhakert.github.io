@@ -18,7 +18,7 @@ Escalating GitLab issues correctly is an important part of providing quick and a
 
 In general, the product and development team will prioritize all issues
 (not just customer requests) as described elsewhere in the handbook, specifically for
-[the product managers](/handbook/product/product-areas/#Prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
+[the product managers](/handbook/product/product-areas/#prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
 
 1. Regressions
 1. Bugs
@@ -39,7 +39,7 @@ templates.
 Always. Use either `~bug` or `~feature proposal` and
 also add `~customer`. For certain premium subscribers, you may need to use
 `~customer+`. If there are one or more component labels that are appropriate,
-such as `~ldap`, add those, too. Consider adding [Support Priority labels](#Support-Priority-labels) ( `~SP1`, `~SP2`, `~SP3`) when appropriate.
+such as `~ldap`, add those, too. Add [Support Priority labels](#support-priority-labels) ( `~SP1`, `~SP2`, `~SP3`) to indicate perceived priority inside the Support Team.
 
 #### Maintain confidentiality
 
@@ -57,33 +57,21 @@ ________________________
 
 ### Regressions
 
-We aim to fix [regressions](/handbook/what-is/#regression) in patch releases, when possible. However, not all regressions are created equal - we will work to patch the high-impact ones first.
+We aim to fix [regressions](/handbook/glossary/#regression) in patch releases, when possible. However, not all regressions are created equal - we will work to patch the high-impact ones first.
 
 For all regressions, add the `~regression` label. For high-impact regressions,
-also add `~"Next Patch Release"` and add the **current** development milestone.
-The **current** development milestone is the release coming up in the current
-month. This can be confusing because the regression may be for 8.15, and should
-be fixed in an 8.15 patch release. However, the developers are working in the
-8.16 milestone, so the regression should be assigned there for attention.
+also add `~"Next Patch Release"` and add the **current** _development month_ milestone.
+Development months run from the 7th to the 6th and the **current** _development month_ milestone is typically
+one milestone _ahead_ of the _release month_ milestone for the current
+month's release. This can be confusing because the regression may be for 8.15, and should
+be fixed in an 8.15 patch release. However, the developers are working on the release of the feature-frozen
+8.16 milestone, and on the newest release in milestone 9.0, so the regression should be assigned there (9.0) for attention.
 
 ### Bugs and Feature Proposals
 
-By default, do not add any priority label to bugs and feature proposals. This
-will put the request in the 'backlog' at a normal priority level. This does not
-mean it will be ignored, but it means it is not high-impact.
-
-If the bug or feature proposal is particularly high impact, use the [Support Priority labels](#Support-Priority-labels)
-to assign an initial priority. The labels are `~SP1`, `~SP2`,
-and `~SP3`, where `SP1` is the highest priority. These labels are applied
-in addition to the `~bug`, `~feature proposal` and `~customer` labels. Use
-priority labels sparingly - we have limited development resources.
-
-Before the next release, the scheduling team will review the support priorities
-and will choose the top few to mark as deliverable. Issues are not scheduled
-for a particular release unless the scheduling team adds them to a milestone
-*and* they are assigned to a developer. We aim to be realistic about scheduled
-deliverables and will avoid scheduling issues that cannot be delivered in a
-given release.
+By default, add an appropriate [support priority label](#support-priority-labels) to bugs and feature proposals. The labels are `~SP1`, `~SP2`, and `~SP3`, where `SP1` is the highest priority.
+These labels are applied in addition to the `~bug`, `~feature proposal` and `~customer` labels. Use
+priority labels in accordance with the urgency / impact matrix below.
 
 > **Note about feature proposals:** GitLab has limited development resources.
   Additionally, we must think about how widely applicable a feature may be to
@@ -100,20 +88,27 @@ given release.
 Use the following as a guideline to determine which Support Priority label to use (if any) for bugs and feature proposals.
 
 - **Urgency:** _For example: Does this break all GitLab functionally or just a small part?_
-  - U3 - A large part, or a fundamental part
+  - U1 - A large part, or a fundamental part
   - U2
-  - U1 - Only a small part
+  - U3 - Only a small part
 - **Impact:** _For example: How many users does this impact?_
-  - I3 - Many users
+  - I1 - Many users
   - I2
-  - I1 - Limited number of users
+  - I3 - Limited number of users
 
-| **Urgency \ Impact**          | **I1 - Low**  | **I2 - Medium**  | **I3 - High**  |
+| **Urgency \ Impact**          | **I1 - High** | **I2 - Medium**  | **I3 - Low**   |
 |-------------------------------|---------------|------------------|----------------|
-| **U1 - Low**                  | `SP1`         | `SP1`            | `SP2`          |
+| **U1 - High**                 | `SP1`         | `SP1`            | `SP2`          |
 | **U2 - Medium**               | `SP1`         | `SP2`            | `SP3`          |
-| **U3 - High**                 | `SP2`         | `SP3`            | `SP3`          |
+| **U3 - Low**                  | `SP2`         | `SP3`            | `SP3`          |
 
+### Escalating from the Support Team to the Development Team
+
+For issues (regressions, bugs, etc.) with an `SP1` or `SP2` label, tag the appropriate Product and/or Development Lead to make them aware and to allow them to comment in the issue as to when or how they see it getting scheduled. Having the team leads comment in the issues will help customers understand the context around why / when their issues are being resolved, and it provides direct feedback from customers to the Product team.
+
+On the last Tuesday of each month, the Support Team reviews the `SP` labeled issues (especially `SP1` and `SP2`), discussed priorities, and chooses the top few to present to the product and development team for potential deliverables in the next release.
+
+Issues are not scheduled for a particular release unless the team leads add them to a release milestone *and* they are assigned to a developer. We aim to be realistic about scheduled deliverables and will avoid scheduling issues that cannot be delivered in a given release.
 
 
 ## Functional escalation points
@@ -143,41 +138,27 @@ Use the following as a guideline to determine which Support Priority label to us
 
 ### Notes
 
-#### GitLab EE
-
-+ **Used for EE Only features.** Check https://about.gitlab.com/features/#compare
-
-
 #### GitHost.io
 
-+ GitHost project: https://dev.gitlab.org/gitlab/GitHost
-+ GitHost service: <http://githost.io>
-
++ GitHost [project](https://dev.gitlab.org/gitlab/GitHost)
++ GitHost [service](http://githost.io)
 
 #### Omnibus GitLab
 
 + Related to Omnibus GitLab packaging only.
-+ GitLab omnibus release packages: https://packages.gitlab.com/gitlab
-
-
++ GitLab [omnibus release packages](https://packages.gitlab.com/gitlab)
 
 #### GitLab Runner
 
-
-+ Information on GitLab Runner
-    + https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features
-    +  http://docs.gitlab.com/ce/ci/runners/README.html
-
+- Information on [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features)
+- [Runner documentation](http://docs.gitlab.com/ce/ci/runners/README.html)
 
 #### GitLab Workhorse
 
-+ Information on GitLab Workhorse
-    + https://about.gitlab.com/2016/04/12/a-brief-history-of-gitlab-workhorse/
-    +  **Description** *"Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP requests such as file downloads, file uploads, Git push/pull and Git archive downloads."*
-
+- Information on [GitLab Workhorse](https://about.gitlab.com/2016/04/12/a-brief-history-of-gitlab-workhorse/)
+- **Description** *"Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP requests such as file downloads, file uploads, Git push/pull and Git archive downloads."*
 
 #### GitLab Infrastructure
 
-+ Information on GitLab Infrastructure
-    + Slack: https://gitlab.slack.com/archives/infrastructure
-    + https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/ (Probably outdated)
+- Reach the infra team on [Slack](https://gitlab.slack.com/archives/infrastructure)
+- Old blog post on [infrastructure](https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/)
