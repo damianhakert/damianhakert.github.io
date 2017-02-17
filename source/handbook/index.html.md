@@ -2,10 +2,6 @@
 layout: markdown_page
 title: Team Handbook
 twitter_image: '/images/tweets/handbook-gitlab.png'
-extra_js:
-  - libs/moment.min.js
-  - libs/moment-timezone-with-data.min.js
-  - team-call.js
 ---
 
 
@@ -17,7 +13,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [General Guidelines](/handbook/general-guidelines)
   * [Handbook Usage](/handbook/handbook-usage)
   * [Communication](/handbook/communication)
-  * [Spending Company Money](handbook/spending-company-money)
+  * [Spending Company Money](/handbook/spending-company-money)
   * [Paid time off](/handbook/paid-time-off)
   * [Incentives](/handbook/incentives)
   * [Signing legal documents](/handbook/signing-legal-documents)

@@ -3,8 +3,6 @@ layout: markdown_page
 title: "GitLab Handbook Usage"
 ---
 
-## Welcome to our Handbook Usage page
-
 At GitLab our handbook is extensive and keeping it relevant is an important part of everyone's job. The reasons for having a handbook are:
 
 1. Reading is much faster than listening.

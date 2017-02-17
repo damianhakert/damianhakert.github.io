@@ -36,7 +36,7 @@ Throughout your first few days at GitLab it is important to focus on the onboard
 
 #### Getting Started
 
-* Review our [Team Call Section](/hanbook/communication/#team-call) for the daily call. In the calendar invite is a link to the Team Call agenda. This holds what we will be talking about that day, as well as the order of Team Monday-Thursday at the top of that page. If you are curious when you will get to share what you have been up to, you can look there.
+* Prepare for your first [Team Call](https://about.gitlab.com/handbook/communication/#team-call). In the calendar invite is a link to the Team Call agenda. This holds what we will be talking about that day, as well as the order of Team Monday-Thursday at the top of that page. If you are curious when you will get to share what you have been up to, you can look there.
 
 * Connect with GitLab's social media sites:
   1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
@@ -154,10 +154,10 @@ respect the spaces between lines. Please don't use "tab" because it will break t
 
 ### Reading the Handbook
 
-A core value of GitLab is documentation. Therefore, everything that we do, we have documented on about.gitLab.com. This can make the handbook seem huge! Don't let it scare you. To simplify navigating the handbook here are some suggested steps. Feel free to take a wrong turn at any time to learn more about whatever you are interested in.
+A core value of GitLab is documentation. Therefore, everything that we do, we have documented on about.gitlab.com. This can make the handbook seem huge! Don't let it scare you. To simplify navigating the handbook here are some suggested steps. Feel free to take a wrong turn at any time to learn more about whatever you are interested in.
 
 1. Read [about](https://about.gitlab.com/about/) the company, and [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/). It is important to understand our [culture](/culture), and how the organization was started. If you have any questions about company products you can always check out our [features](https://about.gitlab.com/features/#compare) and [products](https://about.gitlab.com/products/).
-1. Tackle the main page of the [handbook](/handbook/). You can use this link and read through the entire page to ensure that you do not miss anything! Here are some highlights that are important for new hires to pay attention to:
+1. Tackle general section of the [handbook](/handbook/). Here are some highlights that are important for new hires to pay attention to:
   * Make sure to read over our [values](https://about.gitlab.com/handbook/values) and [general guidelines](https://about.gitlab.com/handbook/general-guidelines) to answer any questions you might have about what to do and when.
   * If you have questions about what is in the handbook check out the [handbook usage](https://about.gitlab.com/handbook/handbook-usage) as well as your own department's sub-page of the handbook (which can be found at the top of the handbook).
   * [Communication](https://about.gitlab.com/handbook/communication) is extremely important within a remote only organization. Read through the guidelines to understand how we make [working remotely](https://about.gitlab.com/handbook/working-remotely) successful.
@@ -272,7 +272,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > please let me know if that is not the case.
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link]. Check out [Onboarding](https://about.gitlab.com/handbook/general-onboarding/) for everything you need to know throughout the onboarding process. You might have received invitations to create accounts for Slack, BambooHR, and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
+    > [Insert link]. Check out Onboarding (https://about.gitlab.com/handbook/general-onboarding/) for everything you need to know throughout the onboarding process. You might have received invitations to create accounts for Slack, BambooHR, and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
@@ -283,13 +283,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > team, and what you like to do in your spare time.
 
     > Please let People Ops (cced here) know if there are any necessary supplies
-    > or   equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/spending-company-money) in this matter.
+    > or equipment that you need. You can also reference the company handbook (https://about.gitlab.com/handbook/spending-company-money) in this matter.
 
-    > Here is $50 in swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
-    >
-    > Swag codes: [Enter 2 swag codes]
-    >
-    > Free shipping: [Enter free shipping code]
+    > Here is a swag code [Enter Code] you can use in our swag store [enter store link] to celebrate your arrival!
 
 1. [ ] People Ops (Recruiter): Inform the hiring manager about the hire by announcing in general chat channel 'X has joined GitLab as (title)!'
 1. [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
@@ -304,6 +300,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 1. [ ] People Ops (Specialist): complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
+1. [ ] People Ops (Specialist): If new team member is an hourly employee, create a timesheet, share with Finance and the new team member. Also, send an email to Finance to let them know that an hourly employee has started. 
 1. [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form. (TriNet takes 24-48 hours to process new GitLabbers)
 1. [ ] People Ops (Specialist): complete the employer portion of the I9 in TriNet within three days of hire
 1. [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
@@ -317,7 +314,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 1. [ ] People Ops (Specialist): using the template, send new team member the UK payroll form and New Starter Checklist (only if the new team member does not have a P45) to complete (this can be found in the Google Drive/UK Documents folder). Fill in as much information as possible from BambooHR and stage in HelloSign for signature. Cc People Ops and Vistra (email address is located on the Payroll form)
 1.[ ] New Team Member: once you have received the payroll form please fill in the missing details and sign. This form will then be sent electronically to GitLab's payroll provider Vistra. If you have a P45 from your previous company please post this to Vistra at the address at the bottom of the payroll form. If you don't have a P45 then you must complete the New Starter Checklist and post this to Vistra.
-1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents. 
+1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents.
 
 #### All GitLabbers
 
@@ -359,6 +356,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
    1. [ ] call with ___
    1. [ ] call with ___
 1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of GitLabbers and our brains are comfortable with recognizing people, let's use them).
+1, [ ] New team member: Download Git https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
 1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the "New Hire Tweets" Google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
@@ -367,6 +365,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 1. [ ] New team member: Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [ ] New team member: Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [ ] New team member: Reach out to your onboarding buddy, or any other GitLabber to show you how to do some advanced git tasks locally. For example, configure and/or solve a merge conflict. 
 1. [ ] New team member: Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your Google Calendar (tied to your GitLab Google account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [ ] New team member: Take a look at the "Reference Customers" Google doc to familiarize yourself with which customer information should be kept confidential within the company. You can find it by logging into your Google Drive account and searching for "Reference Customers".
 1. [ ] Hiring Manager: Set new GitLabbers' project-level permissions as-needed.

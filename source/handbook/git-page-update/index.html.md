@@ -3,7 +3,11 @@ layout: markdown_page
 title: "Updating this website using Git"
 ---
 
-## Welcome to Updating this website using Git
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
