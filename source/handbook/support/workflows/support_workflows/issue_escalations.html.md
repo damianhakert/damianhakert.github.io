@@ -24,15 +24,16 @@ Escalating GitLab issues correctly is an important part of providing quick and a
 
 ## Issue Prioritization
 
-In general, the development team will prioritize all issues
-(not just customer requests) in the following order:
+In general, the product and development team will prioritize all issues
+(not just customer requests) as described elswhere in the handbook, specifically for
+[product](/handbook/product/product-areas/#Prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
 
 1. Regressions
 1. Bugs
-1. Direction/Vision
-1. Feature Proposal
+1. Product Direction / Vision
+1. New Feature Proposal
 
-The support team plays a role in communicating the impact to customers of regressions, bugs, and feature requests. By using issue templates and then using the appropriate labels on those issues, the team can communicate _within the support team_ about which customer-affecting issues are high priority, and also show this to the team at large.
+The Support Team plays a role in communicating the impact to customers of regressions, bugs, and feature requests. By using issue templates and then using the appropriate labels on those issues, the team can communicate _within the support team_ about which customer-affecting issues are high priority, and also show this to the team at large. By then participating in the scheduling effort for each release, the Support Team represents the voice of the customer in product development.
 
 When reporting a bug/regression or feature proposal, use the appropriate project
 issue **template**. For example, `gitlab-ce` project has 'Bug' and 'Feature Proposal'
@@ -41,17 +42,13 @@ templates.
 Always add **labels** to the issues. Use either `~bug` or `~feature proposal` and
 also add `~customer`. For certain premium subscribers, you may need to use
 `~customer+`. If there are one or more component labels that are appropriate,
-such as `~ldap`, add those, too.
+such as `~ldap`, add those, too. Consider adding [Support Priority labels](#Support-Priority-labels) ( `~SP1`, `~SP2`, `~SP3`) when appropriate.
 
-See [Information Gathering](#Information-Gathering) for *Application and environment information* section
+See [Information Gathering](#Information-Gathering) for *Application and environment information* section.
 
-### Regressions
+### Regression
 
-A regression is something that used to work one way in the last release and
-then we made a **breaking change** and it no longer works the same way. We
-aim to fix regressions in patch releases, when possible. However, not all
-regressions are created equal - we will work to patch the high-impact ones
-first.
+We aim to fix [regressions](/handbook/what-is/#regression) in patch releases, when possible. However, not all regressions are created equal - we will work to patch the high-impact ones first.
 
 For all regressions, add the `~regression` label. For high-impact regressions,
 also add `~"Next Patch Release"` and add the **current** development milestone.
@@ -66,8 +63,8 @@ By default, do not add any priority label to bugs and feature proposals. This
 will put the request in the 'backlog' at a normal priority level. This does not
 mean it will be ignored, but it means it is not high-impact.
 
-If the bug or feature proposal is particularly high impact, use the support
-priority labels to assign an initial priority. The labels are `~SP1`, `~SP2`,
+If the bug or feature proposal is particularly high impact, use the [Support Priority labels](#Support-Priority-labels)
+to assign an initial priority. The labels are `~SP1`, `~SP2`,
 and `~SP3`, where `SP1` is the highest priority. These labels are applied
 in addition to the `~bug`, `~feature proposal` and `~customer` labels. Use
 priority labels sparingly - we have limited development resources.
@@ -89,17 +86,24 @@ given release.
   course, there are always exceptions to these 'rules'. This note is meant to
   set the expectation that feature proposals may not be implemented quickly.
 
-### Guidelines for choosing a priority label
+### Support Priority labels
 
-- **Urgency:** Does this break all GitLab functionally or just a small part?
-    SP1 (High) - A large part, or a fundamental part
-    SP2 (Medium)
-    SP3 (Low) - Only a small part
-- **Impact:** How many users does this impact?
-    SP1 (High) - Many users
-    SP2 (Medium)
-    SP3 (Low) - Limited number of users
+Use the following as a guideline to determine which Support Priority label to use (if any) for bugs and feature proposals.
 
+- **Urgency:** _For example: Does this break all GitLab functionally or just a small part?_
+    U3 - A large part, or a fundamental part
+    U2
+    U1 - Only a small part
+- **Impact:** _For example: How many users does this impact?_
+    I3 - Many users
+    I2
+    I1 - Limited number of users
+
+| Urgency \ Impact | I1  | I2  | I3  |
+|------------------|-----|-----|-----|
+| U1               | SP1 | SP1 | SP2 |
+| U2               | SP1 | SP2 | SP3 |
+| U3               | SP2 | SP3 | SP3 |
 
 ### Maintain confidentiality
 
