@@ -355,6 +355,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
    1. [ ] call with ___
    1. [ ] call with ___
 1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of GitLabbers and our brains are comfortable with recognizing people, let's use them).
+1, [ ] New team member: Download Git https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
 1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the "New Hire Tweets" Google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
@@ -363,6 +364,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 1. [ ] New team member: Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [ ] New team member: Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [ ] New team member: Reach out to your onboarding buddy, or any other GitLabber to show you how to do some advanced git tasks locally. For example, configure and/or solve a merge conflict. 
 1. [ ] New team member: Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your Google Calendar (tied to your GitLab Google account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [ ] New team member: Take a look at the "Reference Customers" Google doc to familiarize yourself with which customer information should be kept confidential within the company. You can find it by logging into your Google Drive account and searching for "Reference Customers".
 1. [ ] Hiring Manager: Set new GitLabbers' project-level permissions as-needed.
