@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Spending Company Money"
 ---
 
-## Welcome to our Spending Company Money page
-
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect GitLabbers to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.

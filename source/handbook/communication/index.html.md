@@ -7,8 +7,6 @@ extra_js:
   - team-call.js
 ---
 
-## Welcome to our Communication Page
-
 We're a **distributed**, **remote-only** company where people work remotely without missing out.
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
