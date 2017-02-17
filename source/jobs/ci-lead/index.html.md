@@ -19,3 +19,7 @@ CI Lead.
 * Does weekly stand-up with a team and product managers to talk about plan for the work in the upcoming week
 * Coordinates a deployment of CI related services with infrastructure team
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

@@ -1,13 +1,14 @@
 ---
-title: "Tower Launches GitLab Integration"
+title: "Tower Launches GitLab Integration on Windows"
 author: Rebecca Dodd
 author_twitter: Reberoodle
+author_gitlab: rebecca
 categories: integration
 image_title: '/images/blogimages/gitlab-tower-integration-puzzle.jpg'
-description: "GitLab users can now manage their accounts right within Tower – give it a try with 20% off."
+description: "Windows users can now manage their GitLab accounts right within Tower – give it a try with 20% off."
 ---
 
-[Tower](http://www.git-tower.com), the popular Git desktop client for Mac and Windows, has launched integration with GitLab, making repository management and undoing mistakes a breeze, helping you and your team to work more efficiently. To celebrate, they're offering 20% off your order until February 15th.
+[Tower](http://www.git-tower.com), the popular Git desktop client for Mac, has now launched integration with GitLab for Windows, making repository management and undoing mistakes a breeze, helping you and your team to work more efficiently. To celebrate, they're offering 20% off your order until February 15th.
 
 <!-- more -->
 
@@ -19,7 +20,7 @@ Here are some of the great ways this tight integration can help you:
 
 ### Services Manager
 
-Manage your GitLab account right within Tower, and you can clone repositories with a single click – avoiding the hassle of usernames, passwords and authentication tokens.
+Manage your GitLab account right within Tower on Windows, and you can clone repositories with a single click – avoiding the hassle of usernames, passwords and authentication tokens.
 
 ### Productivity Boosters
 

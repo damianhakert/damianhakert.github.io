@@ -7,6 +7,7 @@ image_title: '/images/blogimages/applying-gitlab-labels-automatically-cover.jpg'
 description: "Learn how to use GitLab Webhooks to apply labels automatically to MRs."
 twitter_image: '/images/tweets/applying-gitlab-labels-automatically.png'
 date: 2016-08-19 11:00
+guest: true
 ---
 
 This is a customer story on how Brian uses [GitLab Webhooks][doc-webhooks]

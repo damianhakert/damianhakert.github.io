@@ -7,6 +7,7 @@ categories: technical overview
 author: Noah Zoschke
 author_twitter: nzoschke
 image_title: '/images/unsplash/gitlab-convox-cover.jpg'
+guest: true
 ---
 
 [Convox](https://convox.com/) is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.

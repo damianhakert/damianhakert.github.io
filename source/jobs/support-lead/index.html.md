@@ -28,7 +28,7 @@ The majority of our current customer base is in the Americas, and the Support Le
 - Vast experience with Ruby on Rails Applications and git
 - Affinity for (and experience with) providing customer support
 - Excellent spoken and written English
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 - [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 - A customer scenario interview is part of the hiring process for this position.
 
@@ -43,3 +43,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Candidates will be invited to schedule a third interview with our VP of Engineering
 * Finally, candidates will interview with our CEO
 * Successful candidates will subsequently be made an offer via email
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

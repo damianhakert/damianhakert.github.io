@@ -38,7 +38,7 @@ We use Zendesk to handle tickets, and we will sometimes schedule calls. That is 
 
 ### Zendesk
 
-For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/sop/zendesk/).
+For more detail on Zendesk, see the [Zendesk specific page](/handbook/support/workflows/zendesk/).
 
 ### Zoom
 
@@ -183,31 +183,8 @@ in question.
 {: #tags}
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
-add tags to it. Currently, the tags that are to be used are:
+add tags to it. For a list of current tags, what they mean, and how to add tags, see the [tags workflow](/handbook/support/workflows/support_workflows/tagging-tickets.html).
 
-- bug
-- feature proposal
-- call - if the problem results in a screen share
-- documentation (if it requires further documentation)
-- LDAP
-- CI
-- Docker
-- JIRA
-- Jenkins
-- SAML
-- Kerberos
-- Importing
-- SSL
-- UX/UI
-
-Tagging tickets will allow us to better capture what topics need to be documented in more detail,
-and/or which areas of the product development can use some attention to prevent creating more requests for support.
-
-#### Adding tags
-
-The above tags can be added to tickets using the [Tag Locker](https://www.zendesk.com/apps/tag-locker/) app. Tag Locker can be found on the right side when viewing a ticket. Click the menu button or search for a tag and click the tag text. 
-
-![Tag Locker](/images/support/tag_locker.png)
 
 ### After the first response
 {: #first-response}

@@ -10,7 +10,7 @@ Go to the [Handbook](/handbook/)
 - **Respond to mentions.** Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you.
 - **Respond quickly.** The urgency to respond depends on the medium. On Hacker News we need to respond within an hour or so, responses after an item is no longer on the homepage are much less valuable.
 - **Everyone in the team helps.** Responding to social media is a task of all of us. Every team member is expected to contribute, especially if you have a leadership position.
-- **Delegate to the experts.** Nobody knows everything. Send the most relevant team member that is available a link over chat so they can respond. Make sure they can follow up quicky or find someone else.
+- **Delegate to the experts.** Nobody knows everything. Send the most relevant team member that is available a link over chat so they can respond. Make sure they can follow up quickly or find someone else.
 - **Answer yourself.**  We should be personable and human. So if something is delegated to you don't answer the question and have someone else post it. Engage yourself. Make or create an account for the service if needed.
 - **Continue the conversation by providing meaningful responses instead of just upvoting or saying a one word “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You can even provide people with links to non-GitLab things such as Git guides or DevOps guides. There is always a feature to mention or gratitude to express 'Thanks you so much for spreading the word about GitLab.'. For an example see the first three responses to [a HN post where the first three comments where positive but no questions](https://news.ycombinator.com/item?id=12052695). Or see [this response](https://twitter.com/sytses/status/762578230197022720) that links to the actual issue and therefore a reply that the original 'thank you' didn't get.
 - **Stay positive.** Don't feel the need to defend GitLab when someone says something negative (see "Assume good faith" below). Negative feedback is a great chance to learn or consider something new, so thank them for their feedback, document it in the issue tracker (add a comment to the issue if one is already open), and invite them to leave more comments if they wish.
@@ -21,7 +21,7 @@ Go to the [Handbook](/handbook/)
 - **You’re allowed to disagree with people.** Try to inform the person (respectfully) why they might be misguided and provide any links they may need to make a more informed decision. Don’t say “you’re wrong” or “that’s stupid.” Instead try to say “I disagree because…” or “I don’t think that’s accurate because…”
 - **Replies are not endorsements.** Just because you’re replying and not publicly disagreeing doesn’t mean you agree with the statement.
 - **Always seek feedback.** If someone has something negative to say, ask them how we could make it better. If they can provide examples that’s even better. As [said on HN](https://news.ycombinator.com/item?id=12235172): "the responsiveness and agreeableness to look into issues and invite people to be a part of the solution they seek out are phenomenal habits".
-- **Open issues!** If someone has a point they’d like to discuss, feel free to open an issue and link them to it. Regardless of whether or not you agree with the point, you should be inviting the community to participate in GitLab’s direction. Be sure to link to the relevant post in the issue for easier tracking. This won’t work for all cases, so use your best judgement.
+- **Open issues!** If someone has a point they’d like to discuss, feel free to open an issue and link them to it. Regardless of whether or not you agree with the point, you should be inviting the community to participate in GitLab’s direction. Be sure to link to the relevant post in the issue for easier tracking. This won’t work for all cases, so use your best judgment.
 - **Provide details.** If the request or the question is opened to more than just a straight answer, don't be afraid to detail it as much as possible.
 If there is already an opened issue or merge request for that case, link it to your answer. Do the same if there are other
 sources of information to support your statement, such as [blog posts](https://about.gitlab.com/blog) and [webpages](https://about.gitlab.com).
@@ -44,7 +44,7 @@ You may come across angry users from time to time. When dealing with people who 
 
 - Assume good faith. People have opinions and sometimes they’re strong ones. It’s usually not personal.
 - If it’s getting personal, step away from the conversation and delegate to someone else.
-- Sometimes all people need is acknowledgement. Saying “Sorry things aren’t working for you” can go a long way.
+- Sometimes all people need is acknowledgment. Saying “Sorry things aren’t working for you” can go a long way.
 
 This document is a guide for GitLab team members who manage social media accounts. 
 

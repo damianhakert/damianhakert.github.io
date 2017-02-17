@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Product Manager, CI/CD Pipelines"
+title: "Senior Product Manager, CI/CD Pipelines"
 ---
 
 We're looking for product managers that can help us work on the future of
@@ -57,7 +57,7 @@ determine how much can be scheduled.
 - Passion for design and usability
 - Highly independent and pragmatic
 - You are living wherever you want
-- You share our [values](/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects
 

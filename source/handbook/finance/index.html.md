@@ -7,7 +7,9 @@ title: "Finance"
 <a name="reach-finance"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/finance/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
-- [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+- [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel in Slack for questions that don't seem appropriate for the issue tracker or internal email correspondence.
+- Accounts Payable; inquiries which relate to vendor, merchant, and contractor invoices should be sent to our Accounts Payable mailbox - ap@gitlab.com. Of course, electronic copies of all invoices should be sent to this address upon receipt.
+- Accounts Receivable; customer billing inquiries should be sent to our Accounts Receivable mailbox – ar@gitlab.com. 
 
 ## Other pages
 
@@ -42,7 +44,17 @@ on 1Password:
 - Amazon
 - IND (Immigratie en Naturalisatie Dienst, in the Netherlands) company number
 
-If you need this information but cannot find it in your shared vaults you can check with PeopleOps to get access.
+If you need this information but cannot find it in your shared vaults, check with PeopleOps to get access.
+
+### Finance Technology Stack
+
+The finance and accounting tech stack includes the following applications:
+
+- NetSuite; The company Enterprise Resource Planning (ERP) system. The application is cloud based and allows enhanced dimensional reporting as well as multi-currency/multi-entity reporting. This is where the General Ledger resides and all financial activity is ultimately recorded, which is critical to reporting the financial health of the company.
+- Zuora; Customer billing is processed using Zuora, a cloud based subscription management platform. All invoicing, both recurring and non-recurring, is managed in Zuora. 
+- Stripe; Stripe is a software application that enables GitLab customers to make online payments. Finance uses this system to collect information pertaining to payments made online.
+- Expensify; The company travel and expense management application. The platform provides employees a simple tool to create expense reports, which can then be managed from approval workflow through the final stage of reimbursement. Expensify is integrated with NetSuite, which further automates the processing of employee expenses by the Finance team.
+- eShares; Stock option administration, capitalization table and equity management are all managed using the eShares software platform. 
 
 ## Processing Payroll
 <a name="payroll"></a>
@@ -120,25 +132,30 @@ VAT-number of GitLab BV (NL853740343B01).
 
 Invoices will arrive by email to ap@gitlab.com.
 
-1. Forward email to Sytse for approval.
-1. Create a .pdf copy of Sytse's approval response.
-1. File the invoice and approval in dropbox\GitLab Inc\inbox.
-1. Enter invoice in Netsuite
+1. Forward email to Sytse, or the appropriate GitLab team member, for approval.
+1. Create a PDF copy of the email containing the approval response.
+1. File the invoice and approval in the "Invoices" folder in Google Drive.
+1. Enter invoice in NetSuite. Step by step instructions for this process are below.
 
-#### Entering a Bill (invoice) in Netsuite
+#### Entering a Bill (invoice) in NetSuite
 
-1. Click on "+" on the Home screen
-1. Click on "Bill" under  Vendors
-1. Enter the vendor name.  If new, enter Company name, address, terms, and Tax Id (from w9).  Enter bank info in the "Notes" field.
-1. Enter terms if not auto filled based on customer setup.
-1. Enter Bill date.  The due date will auto fill.
-1. Enter Bill no.
-1. Enter Account
-1. Enter description
-1. Enter amount
-1. Enter Class (Department) -  Must be entered if the account you  entered in step 7 is an expense account.
-1. Add attachments: Copy of invoice and email approval
-1. Save and close
+1. On the home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
+1. Select the appropriate vendor record. If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3.
+    * Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)    
+    * Enter the banking information in the "Comments" field then click “Save.”
+    * Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
+1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved. 
+1. Enter Bill number.
+1. Go to the "Expense and Items" tab below to enter the expense details. 
+1. Select appropriate GL-account under the "Account" dropdown box. (Be sure to check whether the invoice represents a prepaid expense, fixed asset, etc.)
+1. Enter Bill amount.
+1. Select tax code, if applicable. 
+1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
+1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
+1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.  
+1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice) 
+1. Click "Save.”
+1. In Google Drive, file invoice in the “Unpaid” folder.
 
 ## Commission Payment Process
 <a name="commission"></a>
@@ -166,12 +183,12 @@ Invoices will arrive by email to ap@gitlab.com.
 ### Invoicing
 
 1. In Recurly, export the "Invoices All" Report. For time period, set the end date to the day prior to the current date. Download the .CSV File.
-1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in Netsuite to date. In the workbook go to worksheet named “Amortization”
+1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in NetSuite to date. In the workbook go to worksheet named “Amortization”
 1. Go back to the "Invoices All" report you just downloaded from Recurly. This is a month to date report so it will contain orders which have already been invoiced in Netsuite. Column "L" indicates the date the Recurly invoice was created. We want to select the orders which have not been invoiced in Netsuite, which would be any orders after the last Netsuite invoice batch. Copy the rows for the uninvoiced orders and "insert copied cells" to the next row after the last transaction of the "Revenue -Inc" report.
-1. Open Netsuite. Click on the "+" sign at the top middle of the screen. Under "Customers" click on "Invoice"
+1. Open NetSuite. Click on the "+" sign at the top middle of the screen. Under "Customers" click on "Invoice"
 1. In the "Revenue-Inc" workbook, locate the first invoice # to be invoiced (Column D).
 1. Open the invoice in Recurly.
-1.  Netsuite
+1.  NetSuite
     * Refer to the Recurly invoice you opened in step 6.
       * Choose the customer. If new, add new customer.
       * Choose the Terms -- Credit Card = Due on Receipt.
@@ -190,7 +207,7 @@ Invoices will arrive by email to ap@gitlab.com.
       * Save and close the invoice. You may get a warning about a missing Class field.  Click yes to proceed.
       * Proceed to invoice the remainder of new orders.  Do not invoice transactions marked “Failed”
 
-1.  In Netsuite, export an invoice report for the batch you just invoiced.
+1.  In NetSuite, export an invoice report for the batch you just invoiced.
       * Under the transactions tab on the left,  select  Sales
       * Click on Filter
       * Type = Invoices
@@ -214,23 +231,23 @@ Follow this procedure if the customer paid by credit card.
 You may recall from the invoicing process that there was still a balance due when saving the invoice.  The following steps will record the payment and remove the balance due.
 
 1. Login to Stripe dashboard and click on Payments under Transactions (left hand side). You will see a listing of the latest Stripe transactions listed by amount, Recurly transaction, name, date, and time. There is also an option to filter the report by clicking on XXX at the top left. Click on XXX to export to excel. This will give you a workbook area and also a breakdown of the fees which we will work on later.
-1. In Netsuite, click on the "Transactions" tab on the left.
+1. In NetSuite, click on the "Transactions" tab on the left.
     * Click on the orange "OPEN INVOICES " tab. This will bring up all open invoices listed by date, invoice #, customer, etc.
-1. Match invoice #s  between the Stripe dashboard and Netsuite. If you click on a transaction in the Stripe dashboard, it will take you to a screen that shows more detail, including the invoice # being paid. You can work your way from the bottom up.
-1. In Netsuite, click "Receive Payment" on the matched payment and invoice.
+1. Match invoice #s  between the Stripe dashboard and NetSuite. If you click on a transaction in the Stripe dashboard, it will take you to a screen that shows more detail, including the invoice # being paid. You can work your way from the bottom up.
+1. In NetSuite, click "Receive Payment" on the matched payment and invoice.
 1.  Receiving the payment
     * Enter the payment date, which is the payment date from Stripe dashboard.
     * Payment method = Credit Card.
     * Reference no. = "Recurly Transaction ID:" found under Metadata in Stripe dashboard.
     * Deposit to = Stripe.
-    * Netsuite will auto-fill the payment amount with the entire balance due. No need to change this unless the payment amount from Stripe is different.
+    * NetSuite will auto-fill the payment amount with the entire balance due. No need to change this unless the payment amount from Stripe is different.
     * Click on "Save and Close".
     * Repeat the above for all the remaining invoices that were paid by credit card.
 
 1. Post a journal entry to record Stripe Fees.
-    * In QNetsuite, click on the "+" sign. Under "Other", select "Journal Entry".
+    * In NetSuite, click on the "+" sign. Under "Other", select "Journal Entry".
     * It is okay to leave the journal date as long as it is within the month the fees were incurred. If not, change it to the last day of the month.
-    * Netsuite will auto fill the journal number. Do not change.
+    * NetSuite will auto fill the journal number. Do not change.
     * Account #1 Entry
       * Fill the "Account #1" entry with "Credit Card Transaction fees".
       * Fill the "Debits" entry with the value from the Stripe report that was exported. The value will be the sum of "Column I" in the Stripe report, which is the fee amount. Be sure to only sum the rows which you just posted payments for.

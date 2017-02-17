@@ -28,7 +28,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit), and a dedicated [GitLab Design Kit](https://gitlab.com/gitlab-org/gitlab-design). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
-4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
+4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/values).
 
 ## Goals
 
@@ -40,7 +40,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 4. Offer a sense of progress [in a supportive environment with smart colleagues](http://pandodaily.com/2012/08/10/dear-startup-genius-choosing-co-founders-burning-out-employees-and-lean-vs-fat-startups/).
 
-5. Stay independent so we can preserve our values. Since we took external investment we need a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event). To stay independent we want that to be an IPO instead of being aquired. We want to triple ARR (Annual Recurring Revenue) in 2016&17, and double it in 2018&19&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)), in order to IPO in 2020.
+5. Stay independent so we can preserve our values. Since we took external investment we need a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event). To stay independent we want that to be an IPO instead of being acquired. We want to triple ARR (Annual Recurring Revenue) in 2016&17, and double it in 2018&19&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)), in order to IPO in 2020.
 
 ## Sequence <a name="sequence"></a>
 
@@ -48,17 +48,17 @@ We want to achieve our goals in the following order:
 
 1. In 2015 we became the most popular on-premises software development lifecycle solution, and we want to continue that.
 
-2. We want to become the most revenue generating on-premises software development lifecycle solution.
+2. We want to become the most revenue generating on-premises software development lifecycle solution before our IPO.
 
-3. After on-premises, we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones).
+3. Around our IPO we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones).
 
-4. After private repositories, we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories. Having people on our SaaS helps drive awareness and familiarity with GitLab.
+4. After our IPO we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories. Having people on our SaaS helps drive awareness and familiarity with GitLab.
 
 5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this, we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it.
 
 While we achieve our goals one by one, this doesn't mean we will focus on only one goal at a time. Simultaneously, we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [products](https://about.gitlab.com/pricing/#gitlab-ee), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
-During phase 2 there is a natural inclanation to focus only on on-premises since we make all our money there. Having GitHub focus on SaaS instead of on-premises gave us a great opportunity to achieve phase 1. But GitHub was not wrong, they were early. When everyone was focussed on video on demand Netflix focussed on shipping DVD's by mail. Not because it was the future but because it was the biggest market. The biggest mistake they could have made was to stick with DVDs. Instead they leveraged the revenue generated with the DVDs to build the best video on demand service.
+During phase 2 there is a natural inclination to focus only on on-premises since we make all our money there. Having GitHub focus on SaaS instead of on-premises gave us a great opportunity to achieve phase 1. But GitHub was not wrong, they were early. When everyone was focused on video on demand Netflix focused on shipping DVD's by mail. Not because it was the future but because it was the biggest market. The biggest mistake they could have made was to stick with DVDs. Instead they leveraged the revenue generated with the DVDs to build the best video on demand service.
 
 We realize our competitors have started earlier and have more capital. Because we started later we need a more compelling product that covers the complete [scope](https://about.gitlab.com/direction/#scope), that is integrated out of the box, and that is cloud native. Because we have less capital, we need to build that as a community. Therefore it is important to share and ship our [vision for the product](https://about.gitlab.com/direction/#vision). The people that have the most knowledge have to prioritize **breadth over depth** since only they can add new functionality. Making the functionality more comprehensive requires less coordination than making the initial minimal feature. Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However leading the way is needed to allow others to see our path and contribute. So when in doubt, the rule of thumb is breadth over depth, so everyone can contribute.
 
@@ -72,7 +72,7 @@ We realize our competitors have started earlier and have more capital. Because w
 
 4. First time right: last to market so we get it right the first time, a fast follower with taste.
 
-5. Values: make decisions based on [our values](https://about.gitlab.com/handbook/#values), even if it is inconvenient.
+5. Values: make decisions based on [our values](https://about.gitlab.com/handbook/values), even if it is inconvenient.
 
 6. Free SaaS: to make GitLab.com the most popular SaaS in 2020 it should be largely free.
 
@@ -107,4 +107,4 @@ Our quarterly Objectives and Key Results are [publicly visible in our Lattice go
 
 ## Why public
 
-Our strategy is completely public because transparency is one of our [values](/handbook#values). We're not afraid of sharing it because as Peter Drucker said: "Strategy is a commodity, execution is an art.".
+Our strategy is completely public because transparency is one of our [values](/handbook/values). We're not afraid of sharing it because as Peter Drucker said: "Strategy is a commodity, execution is an art.".

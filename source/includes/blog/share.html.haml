@@ -1,6 +1,26 @@
-.a2a_kit.a2a_kit_size_32.a2a_default_style
-  %a.a2a_dd{ href: "https://www.addtoany.com/share" }
-  %a.a2a_button_facebook
-  %a.a2a_button_twitter
-  %a.a2a_button_google_plus
-%script{ async: true, src: "https://static.addtoany.com/menu/page.js" }
+- url = full_url(current_page)
+.share-butons.clearfix
+  %a.share-btn.share-btn-facebook{ href: "http://www.facebook.com/sharer.php?u=#{url}",
+    target: "_blank",
+    onclick: "openSocialLink(this, 500, 400); return false;" }
+    %i.fa.fa-facebook
+    %span.sr-only
+      Share on Facebook
+  %a.share-btn.share-btn-twitter{ href: "http://twitter.com/share?url=#{url}&text=#{current_page.data.title}",
+    target: "_blank",
+    onclick: "openSocialLink(this, 500, 400); return false;" }
+    %i.fa.fa-twitter
+    %span.sr-only
+      Share on Twitter
+  %a.share-btn.share-btn-linkedin{ href: "https://www.linkedin.com/shareArticle?mini=true&url=#{url}&title=#{current_page.data.title}&summary=&source=",
+    target: "_blank",
+    onclick: "openSocialLink(this, 500, 400); return false;" }
+    %i.fa.fa-linkedin
+    %span.sr-only
+      Share on LinkedIn
+  %a.share-btn.share-btn-google{ href: "https://plusone.google.com/_/+1/confirm?hl=en&url=#{url}",
+    target: "_blank",
+    onclick: "openSocialLink(this, 500, 400); return false;" }
+    %i.fa.fa-google-plus
+    %span.sr-only
+      Share on Google+

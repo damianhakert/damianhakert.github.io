@@ -3,6 +3,20 @@ layout: markdown_page
 title: "Secret Santa"
 ---
 
+We will be organizing another Secret Santa in 2017!
+
+How does this work?:
+- You'll receive an email to enroll in secret santa, list your wishes, enter your address, and then find out who you will ship a present to.
+  * You will receive a confirmation email when you've enrolled.
+- Get a present, and ship it!
+  * The budget is € 20 for the gift (excluding shipping), paid out of pocket.
+- Wait for your present to arrive.
+- Finally! It arrived! Unpack it, take a picture, and thank santa in the #secret-santa channel on Slack to let them know that the gift has been received!
+- Perfectly content, you wait until next year to participate again... :)
+- If you have not received your gift by January 15th, or are unsure if your match received the gift you sent, please reach out to People Ops to act as one of Santa's Elves.
+
+Note: By participating in Secret Santa you grant your match access to your address via People Ops.
+
 ### Secret Santa 2016
 
 This year a Secret Santa will be organized. This is an event where participants exchange gifts with another participant. Participants only know to whom they have to send a gift. Because this event takes place around Christmas, and as each participant has no clue who will send them a gift this is called 'Secret Santa'.
@@ -30,9 +44,9 @@ That is perfectly fine. It is more important to give something awesome than to s
 
 You don't have to, there is an Amazon, or something like it in most countries. Let them do the heavy lifting! If you can't come up with a solution, please ask @zj on Slack.
 
-> Shipping my trebuchet will be expensive, can I take it with me to Mexico (summit) and give it there?
+> Shipping my trebuchet will be expensive, can I take it with me to the next summit and give it there?
 
-For a full size trebuchet I'll make an exception, other than that, please do not bring your gift to Mexico. This means a couple of things:
+For a full size trebuchet I'll make an exception, other than that, please do not bring your gift to the next summit. This means a couple of things:
 1. The other participant has to have some spare room in their suitcase
 1. Some people will already have a gift, I wouldn't be able to handle the suspense!
 1. No clue, just ship it!

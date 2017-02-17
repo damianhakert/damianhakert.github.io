@@ -38,7 +38,7 @@ subscription, your license key will expire at the end of your evaluation period.
 
 GitLab follows a True-Up model so you can grow now and pay later. You can add
 more users to the server than what you are licensed for at any time. For users
-that are added during the year you pay half price when you renew.
+that are added during the year you pay the full annual price when you renew.
 
 ### The True-Up model seems complicated, can you illustrate?
 

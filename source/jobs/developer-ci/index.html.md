@@ -32,7 +32,7 @@ Go programming language.
 * Experience with Kubernetes, Docker, Nginx, Ruby/Rails, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ## Relevant links
@@ -52,3 +52,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Successful candidates will subsequently be made an offer via email
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
+
+
+
+**NOTE** In the compensation calculator below, fill in "Senior" in the `Level` field for this role.

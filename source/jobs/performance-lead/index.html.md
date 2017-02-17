@@ -25,6 +25,10 @@ will report to the Backend Director.
 - Demonstratable experience optimizing performance in a production application used by millions of people
 - In-depth experience with Ruby on Rails, Go, and/or git
 - Excellent spoken and written English
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 - [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 - A customer scenario interview is part of the hiring process for this position.
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

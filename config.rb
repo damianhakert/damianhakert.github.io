@@ -61,8 +61,10 @@ helpers do
   def icon(icon, cssclass = "", attrs = {})
     width = attrs[:width] || 76
     height = attrs[:height] || 76
+    viewbox_width = attrs[:viewbox_width] || width
+    viewbox_height = attrs[:viewbox_height] || height
     label = attrs[:label] || ""
-    content_tag :svg, viewbox: "0 0 76 76", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
+    content_tag :svg, viewbox: "0 0 #{viewbox_width} #{viewbox_height}", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
       partial "includes/icons/#{icon}.svg"
     end
   end
@@ -89,7 +91,8 @@ helpers do
 
   def job_for_current_page
     open_jobs.detect do |job|
-      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+      job_desc = job.description.sub(%r{\A/}, '').split('/')
+      File.join(job_desc) == File.dirname(current_page.request_path)
     end
   end
 
@@ -120,6 +123,9 @@ helpers do
     link_to(link_text, url, options)
   end
 
+  def full_url(current_page)
+    "#{data.site.url}#{current_page.url}"
+  end
 end
 
 # Build-specific configuration
@@ -131,7 +137,7 @@ configure :build do
 
   # Populate the direction and release list pages only on master.
   # That will help shave off some time of the build times on branches.
-  if ENV['CI_BUILD_REF_NAME'] == 'master'
+  if ENV['CI_BUILD_REF_NAME'] == 'master' || !ENV.key('CI_BUILD_REF_NAME')
     ## Direction page
     if PRIVATE_TOKEN
       proxy "/direction/index.html", "/direction/template.html", locals: { direction: generate_direction, wishlist: generate_wishlist }, ignore: true

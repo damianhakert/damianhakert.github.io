@@ -14,7 +14,7 @@ Accurate planning and coordination of each release at GitLab is critical to ship
 
 ## The Proposal
 
-At GitLab, we believe that the speed of innovation for our organization and product is constrained by the total complexity we've added so far. Creating [boring solutions](/handbook/#boring-solutions) and simplifying our product to its absolute minimum allows us to ship faster and make iterations based on real user feedback. With this in mind, our team began determining basic principles that would help guide us during the creation process of the new Issue Board feature.
+At GitLab, we believe that the speed of innovation for our organization and product is constrained by the total complexity we've added so far. Creating [boring solutions](/handbook/values/#boring-solutions) and simplifying our product to its absolute minimum allows us to ship faster and make iterations based on real user feedback. With this in mind, our team began determining basic principles that would help guide us during the creation process of the new Issue Board feature.
 
 We knew we wanted the product to be able to:
 
