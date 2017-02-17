@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Signing legal documents"
 ---
 
-## Welcome to our Signing legal documents page
-
 Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
 When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
 If you need to sign, fill out, send, or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:

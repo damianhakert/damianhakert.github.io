@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Updating this website using Git"
 ---
 
-## Welcome to Updating this website using Git
-
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
 This is a guide on what you'll need to install and run on your machine to get

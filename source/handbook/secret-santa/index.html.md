@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Secret Santa"
 ---
 
-### Secret Santa 2017
-
 We will be organizing another Secret Santa in 2017!
 
 How does this work?:

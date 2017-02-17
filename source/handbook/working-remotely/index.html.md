@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Working remotely"
 ---
 
-## Welcome to our Working remotely page
-
 Working remotely has a lot of advantages, but also a couple of challenges.
 The goal of this section is to provide information and tips to maximize the
 advantages and make you aware of the challenges and provide tips on how to deal

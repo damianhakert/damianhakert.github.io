@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Paid time off at GitLab"
 ---
 
-## Welcome to our Paid Time Off page
-
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. {: #working-hours}Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and if you want you can post to the #working-on chat channel what is on your mind so others can offer suggestions.
 1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
