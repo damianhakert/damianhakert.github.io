@@ -7,7 +7,7 @@ image_title:
 description: "What we learned from our community vetting our proposal to leave the cloud."
 ---
 
-Towards the end of 2016 we [shared how challenging](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) it is to run CephFS in the cloud because of heavy IO strain on GitLab.com. We even made some bold statements like “How we knew it was time to leave the cloud and go bare metal”... but ee were wrong about leaving the cloud (not about CephFS in the cloud). Read on to find out why we are not leaving the cloud – as usual it starts with great support from our amazing community. There is even a bold comment pitching we ditch x86 and move to PowerPC.
+Towards the end of 2016 we [shared how challenging](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) it is to run CephFS in the cloud because of heavy IO strain on GitLab.com. We even made some bold statements like “How we knew it was time to leave the cloud and go bare metal”... but we were wrong about leaving the cloud (not about CephFS in the cloud). Read on to find out why we are not leaving the cloud – as usual it starts with great support from our amazing community. There is even a bold comment pitching we ditch x86 and move to PowerPC.
 
 <!-- more -->
 
@@ -78,15 +78,14 @@ It makes sense to keep GitLab.com as an eat-your-own-dog-food-at-scale environme
 > I didn't see it mentioned but what are your plans for the network strategy. Are you planning to run dual-stack IPv4/IPv6 ? IPv4 only? Internal IPv6 only with NAT64 to the public stuff? Hopefully IPv6 shows up somewhere in the stack. It's sad to see big players not using it yet. *[tomschlick - Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153922)*
 
 > Don't fall into the trap of extending VLANs everywhere. You should definitely be routing (not switching) between different routers.
-"Should we have a separate network for Ceph traffic?" Yes, if you want your Ceph cluster to remain usable during rebuilds. Ceph will peg the internal network during any sort of rebuild event. *[devicenull - Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153339)*
+>
+> "Should we have a separate network for Ceph traffic?" Yes, if you want your Ceph cluster to remain usable during rebuilds. Ceph will peg the internal network during any sort of rebuild event. *[devicenull - Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153339)*
 
 ## What did the Community Have to Say About Ceph?
 
 > I lead a technical operations team that moved our infrastructure from public cloud (~400 instances) to private cloud (~55 physical servers) and finally, to Kubernetes (6 physical servers). We actually run a mix of Kubernetes and OpenStack, putting apps and services in Kubernetes and all data storage in OpenStack. I've done extensive testing with Ceph and while it adds flexibility, you're not going to be able to touch the I/O performance of bare metal local disks for database use. For storage, I like to keep it simple. I rely on the Linux OS running on standard tried-and-true filesystems (ext4 and ZFS) and build redundancy at the software layer. *[Chris - GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047381500)*
 
 > We had disastrous experiences with Ceph and Gluster on bare metal. I think this says more about the immaturity (and difficulty) of distributed file systems than the cloud per se. *__[codinghorror - Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12940042)__*
-
-> *"We are attempting to build a fault-tolerant and performant CephFS cluster"* Ohhh boy. I hope this works, and look forward to hearing updates. *[dimino - Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153322)*
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
 I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this... " videos – mritun
@@ -144,6 +143,8 @@ Most of the scaling headaches have occurred because Git is read-heavy: looking a
 1. We spread all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropped CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack.
 2. We created [Gitaly](https://gitlab.com/gitlab-org/gitaly) so that we can stop relying on NFS for horizontal scaling and speed up Git access through caching.
 
-[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. With Gitaly the gitrpc travels over the network and the disk is accessed locally. Instead of all the disk access going over the network. It will also be used to improve our monitoring of Git resource usage to make better decisions; currently we are only sampling processes. We would love if the community would challenge our use of Gitaly with the same passion they challenged us before. What do you think of the software architecture? Can a caching layer like this scale? What alarm bells are set off? We can’t wait to hear your feedback!
+[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. With Gitaly the gitrpc travels over the network and the disk is accessed locally. Instead of all the disk access going over the network. It will also be used to improve our monitoring of Git resource usage to make better decisions; currently we are only sampling processes. 
+
+We would love if the community would challenge our use of Gitaly with the same passion they challenged us before. What do you think of the software architecture? Can a caching layer like this scale? What alarm bells are set off? We can’t wait to hear your feedback!
 
 We would like to thank our community, customers, team and board for all their great support – you all make GitLab an incredible product.
