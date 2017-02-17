@@ -46,7 +46,7 @@ Please read on for more details.
 [!8634]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8634
 [!9029]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9029
 [!9001]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9001
-[!9001]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8911
+[!8911]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8911
 [!1159]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1159
 [!1157]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1157
 [!1234]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1234
