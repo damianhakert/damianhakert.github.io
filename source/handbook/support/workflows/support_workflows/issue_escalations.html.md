@@ -12,41 +12,50 @@ category: Support Workflows
 
 ----
 
-# Issue Escalations
-
-Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues.
-
-+ [Issue Prioritization](#issue-prioritization)
-+ [Functional escalation points](#Functional-escalation-points)
-+ [Operational escalation points](#Operational-escalation-points)
-+ [Information Gathering](#Information-Gathering)
-
+Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the processes and escalation points described on this page when dealing with GitLab issues.
 
 ## Issue Prioritization
 
 In general, the product and development team will prioritize all issues
-(not just customer requests) as described elswhere in the handbook, specifically for
-[product](/handbook/product/product-areas/#Prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
+(not just customer requests) as described elsewhere in the handbook, specifically for
+[the product managers](/handbook/product/product-areas/#Prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
 
 1. Regressions
 1. Bugs
 1. Product Direction / Vision
 1. New Feature Proposal
 
-The Support Team plays a role in communicating the impact to customers of regressions, bugs, and feature requests. By using issue templates and then using the appropriate labels on those issues, the team can communicate _within the support team_ about which customer-affecting issues are high priority, and also show this to the team at large. By then participating in the scheduling effort for each release, the Support Team represents the voice of the customer in product development.
+The Support Team plays a role in communicating the **impact to customers** of regressions, bugs, and feature requests. By using issue templates and then using the appropriate labels on those issues, the team can communicate _within the support team_ about which customer-affecting issues are high priority, and also show this to the team at large. By then participating in the scheduling effort for each release, the Support Team represents the voice of the customer in product development.
 
-When reporting a bug/regression or feature proposal, use the appropriate project
-issue **template**. For example, `gitlab-ce` project has 'Bug' and 'Feature Proposal'
+### General notes on making issues
+
+#### Use templates
+
+When reporting a bug/regression or feature proposal. For example, `gitlab-ce` project has 'Bug' and 'Feature Proposal'
 templates.
 
-Always add **labels** to the issues. Use either `~bug` or `~feature proposal` and
+#### Use labels
+
+Always. Use either `~bug` or `~feature proposal` and
 also add `~customer`. For certain premium subscribers, you may need to use
 `~customer+`. If there are one or more component labels that are appropriate,
 such as `~ldap`, add those, too. Consider adding [Support Priority labels](#Support-Priority-labels) ( `~SP1`, `~SP2`, `~SP3`) when appropriate.
 
-See [Information Gathering](#Information-Gathering) for *Application and environment information* section.
+#### Maintain confidentiality
 
-### Regression
+If an image, log output, etc. is required for the issue, try to produce your own test image. If you are unable to reproduce the issue and you wish to use the image provided by the customer make sure you _obtain permission_ from the customer since the image may (inadvertently) include sensitive information like names, group names, user names, or code.
+
+#### Information gathering
+
+For the *Application and environment information* section of issue templates, use:
+
++ Omnibus: `sudo gitlab-rake gitlab:check`
++ Source: `sudo -u git -H bundle exec rake gitlab:check RAILS_ENV=production SANITIZE=true`
+________________________
++ Omnibus: `sudo gitlab-rake gitlab:env:info`
++ Source: `sudo -u git -H bundle exec rake gitlab:env:info RAILS_ENV=production`
+
+### Regressions
 
 We aim to fix [regressions](/handbook/what-is/#regression) in patch releases, when possible. However, not all regressions are created equal - we will work to patch the high-impact ones first.
 
@@ -91,23 +100,21 @@ given release.
 Use the following as a guideline to determine which Support Priority label to use (if any) for bugs and feature proposals.
 
 - **Urgency:** _For example: Does this break all GitLab functionally or just a small part?_
-    U3 - A large part, or a fundamental part
-    U2
-    U1 - Only a small part
+  - U3 - A large part, or a fundamental part
+  - U2
+  - U1 - Only a small part
 - **Impact:** _For example: How many users does this impact?_
-    I3 - Many users
-    I2
-    I1 - Limited number of users
+  - I3 - Many users
+  - I2
+  - I1 - Limited number of users
 
-| Urgency \ Impact | I1  | I2  | I3  |
-|------------------|-----|-----|-----|
-| U1               | SP1 | SP1 | SP2 |
-| U2               | SP1 | SP2 | SP3 |
-| U3               | SP2 | SP3 | SP3 |
+| **Urgency \ Impact**          | **I1 - Low**  | **I2 - Medium**  | **I3 - High**  |
+|-------------------------------|---------------|------------------|----------------|
+| **U1 - Low**                  | `SP1`         | `SP1`            | `SP2`          |
+| **U2 - Medium**               | `SP1`         | `SP2`            | `SP3`          |
+| **U3 - High**                 | `SP2`         | `SP3`            | `SP3`          |
 
-### Maintain confidentiality
 
-If an image, log output, etc. is required for the issue, try to produce your own test image. If you are unable to reproduce the issue and you wish to use the image provided by the customer make sure you _obtain permission_ from the customer since the image may (inadvertently) include sensitive information like names, group names, user names, or code.
 
 ## Functional escalation points
 
@@ -174,18 +181,3 @@ If an image, log output, etc. is required for the issue, try to produce your own
 + Information on GitLab Infrastructure
     + Slack: https://gitlab.slack.com/archives/infrastructure
     + https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/ (Probably outdated)
-
-## Information Gathering
-
-information to gather for "Application and environment information" section.
-
-
-+ Omnibus: `sudo gitlab-rake gitlab:check`
-
-+ Source: `sudo -u git -H bundle exec rake gitlab:check RAILS_ENV=production SANITIZE=true`
-
-________________________
-
-+ Omnibus: `sudo gitlab-rake gitlab:env:info`
-
-+ Source: `sudo -u git -H bundle exec rake gitlab:env:info RAILS_ENV=production`
