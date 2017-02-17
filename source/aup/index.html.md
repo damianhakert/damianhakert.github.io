@@ -8,13 +8,13 @@ Please also refer to [GitLab.com's Terms](/terms#gitlab-com)
 
 ## Acceptable Use Policy
 
-This Acceptable Use Policy (this “Policy”) describes prohibited uses of the GitLab.com service offered by GitLab B.V.. The examples described in this Policy are not exhaustive. We may modify this Policy at any time by posting a revised version on GitLab.com. By using GitLab.com, you agree to the latest version of this Policy. If you violate the Policy or authorize or help others to do so, we may suspend or terminate your use of GitLab.com.
+This Acceptable Use Policy (this “Policy”) describes prohibited uses of the GitLab.com service offered by GitLab Inc. The examples described in this Policy are not exhaustive. We may modify this Policy at any time by posting a revised version on GitLab.com. By using GitLab.com, you agree to the latest version of this Policy. If you violate the Policy or authorize or help others to do so, we may suspend or terminate your use of GitLab.com.
 
 ### No Illegal, Harmful, or Offensive Use or Content
 
 You may not use, or encourage, promote, facilitate or instruct others to use GitLab.com for any illegal, harmful, fraudulent, infringing or offensive use, or to transmit, store, display, distribute or otherwise make available content that is illegal, harmful, fraudulent, infringing or offensive. Prohibited activities or content include:
 
-- Illegal, Harmful or Fraudulent Activities. Any activities that are illegal, that violate the rights of others, or that may be harmful to others, our operations or reputation, including disseminating, promoting or facilitating child pornography, offering or disseminating fraudulent goods, services, schemes, or promotions, make-money-fast schemes, ponzi and pyramid schemes, phishing, or pharming.
+- Illegal, Harmful or Fraudulent Activities. Any activities that are illegal, that violate the rights of others, or that may be harmful to others, our operations or reputation, including disseminating, promoting or facilitating pornography, offering or disseminating fraudulent goods, services, schemes, or promotions, make-money-fast schemes, ponzi and pyramid schemes, phishing, or pharming.
 - Infringing Content. Content that infringes or misappropriates the intellectual property or proprietary rights of others.
 - Offensive Content. Content that is defamatory, obscene, abusive, invasive of privacy, or otherwise objectionable, including content that constitutes child pornography, relates to bestiality, or depicts non-consensual sex acts.
 - Harmful Content. Content or other computer technology that may damage, interfere with, surreptitiously intercept, or expropriate any system, program, or data, including viruses, Trojan horses, worms, time bombs, or cancelbots.
