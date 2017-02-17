@@ -3,6 +3,12 @@ layout: markdown_page
 title: "Incentives at GitLab"
 ---
 
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
 The following incentives are available for GitLabbers. Also see our separate page on [benefits](/handbook/benefits/) available to GitLabbers.
 
 ### Sales Target Dinner Evangelism Reward
