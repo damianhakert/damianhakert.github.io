@@ -5,7 +5,7 @@ title: "GitLab Values"
 
 ## Summary
 
-Our five values are results, efficiency, transparency, kindness, and diversity.
+Our five values are results, efficiency, diversity, kindness, and transparency (REDiKT).
 We want to get results because it enables us to do everything else.
 We get results by being efficient with each-others time and with company money.
 We communicate transparent both inside and outside the company.
