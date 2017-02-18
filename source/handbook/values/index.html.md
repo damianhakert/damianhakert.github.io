@@ -30,7 +30,6 @@ Value (absence of trust): Collaboration, Kindness:
 Who: Diversity, Quirkiness
 
 
-
 1. **Transparency**: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
