@@ -54,7 +54,7 @@ feedback in the smallest setting possible, one-on-one video calls are preferred.
 Clearly make negative feedback about the work itself, not the person. When giving
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
-giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
+giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
 1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. **Boring solutions**<a name="boring-solutions"></a>: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
@@ -63,7 +63,7 @@ so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
+is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most
 of our time talking about what we did in our private lives, from fire-throwing to
 knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
