@@ -51,12 +51,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
 
-[async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
-[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
-[kramdown]: http://kramdown.gettalong.org/
-[markdown guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
-
-
 <style>
 .md-page h2 i.icon-color {
   color: rgb(107,79,187)
