@@ -44,13 +44,13 @@
   open: false
 
 - title: "Sales Development Representative"
-  description: /jobs/business-development-representative-outbound/
+  description: /jobs/sales-development-representative/
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
 
 - title: "Senior Backend Developer"
   description: /jobs/senior-developer/
-  salary:
+  salary: 87337
   apply: https://gitlab.workable.com/jobs/416220
   open: true
 
@@ -95,8 +95,8 @@
 
 - title: "Director Federal Sales"
   description: /jobs/director-federal-sales/
-  apply: https://gitlab.workable.com/jobs/315093/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Global Account Management"
   description: /jobs/director-global-account-management/

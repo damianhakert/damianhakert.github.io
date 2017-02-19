@@ -195,6 +195,13 @@ p {
     font-size: 20px;
     padding-bottom: 5px;
 
+    &.affix {
+      top: 51px;
+      padding-top: 10px;
+      z-index: 9999;
+      background-color: $color-white;
+    }
+
     th {
       padding: 0 0 20px;
       font-weight: 400;

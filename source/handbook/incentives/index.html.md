@@ -3,7 +3,11 @@ layout: markdown_page
 title: "Incentives at GitLab"
 ---
 
-## Welcome to our Incentives page
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 The following incentives are available for GitLabbers. Also see our separate page on [benefits](/handbook/benefits/) available to GitLabbers.
 

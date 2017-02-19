@@ -104,7 +104,7 @@ total shares of outstanding and, as a result, you will own a smaller percent of 
 company -- this is called dilution.
 
 Dilution does not necessarily mean reduced value.  For example when a company raises
-money the value of stock will stay the because the company’s new valuation will be equal
+money the value of stock will stay the same because the company’s new valuation will be equal
 to the old value of the company + the new capital raised. For example, if company XYZ
 is worth $100m and it raises $25m, the company XYZ is now worth $125m. If you owned 5%
 of $100m before, you now own 4% of $125m (20% of the company was sold, or, said differently,

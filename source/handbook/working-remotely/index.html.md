@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Working remotely"
 ---
 
-## Welcome to our Working remotely page
-
 Working remotely has a lot of advantages, but also a couple of challenges.
 The goal of this section is to provide information and tips to maximize the
 advantages and make you aware of the challenges and provide tips on how to deal
@@ -16,7 +14,7 @@ personal life although it might be difficult to find the right **balance**.
 This can be mitigated by either explicitly planning your time off or plan when
 you do work. When you don't work it is recommended to make yourself unavailable
 by turning off Slack and closing down your email client. Coworkers should
-allow this to work by abiding by the [communication guidelines][async-communication].
+allow this to work by abiding by the [communication guidelines][https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus].
 
 If you worked at an office before, now you lack a default group to go out to
 lunch with. To look at it from a different perspective, now you can select who
