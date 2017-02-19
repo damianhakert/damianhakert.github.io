@@ -64,7 +64,7 @@ feedback in the smallest setting possible, one-on-one video calls are preferred.
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
-1. **Get to know each other**
+1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
 
 ## Transparency
 
@@ -85,9 +85,8 @@ and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com
 
 Our values help us to prevent the [five dysfunctions](https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team#Summary).
 
-1. Absence of trust (unwilling to be vulnerable within the group) => prevented by kindness
+1. Absence of trust (unwilling to be vulnerable within the group) => prevented by collaboration, specifically kindness
 1. Fear of conflict (seeking artificial harmony over constructive passionate debate) => prevented by transparency, specifically directness
 1. Lack of commitment (feigning buy-in for group decisions creates ambiguity throughout the organization) => prevented by transparency, specifically directness
 1. Avoidance of accountability (ducking the responsibility to call peers on counterproductive behavior which sets low standards) => prevented by results and transparency
 1. Inattention to results (focusing on personal success, status and ego before team success) => prevented by results
-
