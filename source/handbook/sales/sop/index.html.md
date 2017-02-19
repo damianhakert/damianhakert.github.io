@@ -337,6 +337,7 @@ Once the above has happened, please make sure that the following fields are popu
 1. On the Account record:
   * Industry
   * Billing and Shipping Address
+  * In the Special Terms field, add any non-standard terms related to the subscription (ramps, special pricing), support (non-standard SLAs), finance (special billing/payment terms), or legal.
 1. On the Opportunity record:
   * Attach any signed agreements, POs, and quotes as an attachment attachment to the opportunity record in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
   * Go to the Contact Roles related list and add a Primary Contact. Ideally, you'll add Contact Roles much earlier in the sales cycle.
