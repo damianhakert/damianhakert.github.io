@@ -23,10 +23,13 @@ people. We try to hire people who think work is a great way to express themselve
 
 ## Iteration
 
-We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
+We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people underestimate when they join GitLab, the impact both on your work process and on how much you achieve is greater than anticipated. In the beginning it hurts to make decisions fast and to see that things are changed with less consultation.
 
 1. **Reduce cycle time** Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/cycle-analytics/).
 1. **Work as part of the community** small iteration make it easier to work with the wider community. Their work looks more like our work and our work is quicker to give feedback too.
+1. **Minimum Viable Change (MVC)** always look to make the quickest change possible to improve the outcome. If you think it is better than what is there now do it, no need to wait for something polished.
+1. **Make a proposal** if you need to decide something as a team make a proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. The people that receive the proposal should not feel left out, the person making it should not feel bad if a completely different proposal is implemented. Don't let your ego to be involved early or to see your solution implemented stand in the way of getting to the best outcome.
+1. **Everything is in draft** at GitLab we rarely put draft on any content or proposals. Everything is always in draft an subject to change.
 
 ## Results
 
