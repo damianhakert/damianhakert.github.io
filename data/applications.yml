@@ -331,6 +331,15 @@
           title: GitPitch Repo on GitLab
         - url: https://github.com/gitpitch/gitpitch/wiki
           title: GitPitch Wiki
+    - title: Raygun
+      content: Raygun is a Software Intelligence Platform that provides crash reporting and real user monitoring to thousands of software teams. The integration with GitLab provides functions for creating issues and linking directly back to your source code.
+      links:
+        - url: https://raygun.com
+          title: Raygun Website
+        - url: https://raygun.com/docs/plugins/gitlab
+          title: Integration setup instructions
+        - url: https://raygun.com/blog/2016/06/raygun-and-gitlab/
+          title: Raygun and GitLab make deployment easier
 - title: Continuous Integration
   id: continuous-integration
   applications:
