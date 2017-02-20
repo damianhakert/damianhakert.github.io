@@ -402,6 +402,9 @@ as page margins are configured in pdf_template.tex.
 On OS X: run `brew install pandoc` and install [Basic
 TeX](https://tug.org/mactex/morepackages.html).
 
+For the comparison PDFs you will need to run the following on OS X:
+`brew cask install wkhtmltopdf`
+
 ### PDF development
 
 You can tweak the 'printable HTML' files in Middleman's development
@@ -442,6 +445,21 @@ website, you have to:
     title: "The title of the page"
     ---
     ```
+
+### Comparison PDFs
+
+The comparison PDFs are generated in a slightly different way and require a
+different command to be run. Before the PDFs can be generated the website
+needs to be built locally by running the following:
+
+`bundle exec middleman build`
+
+After running that you can now run the following to generate the PDFs:
+
+`bundle exec comparison_pdfs`
+
+Once you have done that you are free to commit and push these to GitLab.com
+to then be merged into master.
 
 ## Custom Generators
 

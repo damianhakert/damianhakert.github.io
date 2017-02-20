@@ -1,4 +1,5 @@
 title: "GitHub.com vs. GitLab Self-hosted"
+pdf: gitlab-self-hosted-vs-github.pdf
 competitor_one:
   name: 'GitLab Self-hosted'
   logo: '/images/comparison/gitlab-logo.svg'

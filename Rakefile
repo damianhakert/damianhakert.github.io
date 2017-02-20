@@ -183,3 +183,8 @@ task :rm_pdfs do
     end
   end
 end
+
+desc 'Comparison PDFS'
+task :comparison_pdfs do
+  abort("Error generating comparison PDFs 😔") unless system('./comparison_pdfs.sh')
+end
