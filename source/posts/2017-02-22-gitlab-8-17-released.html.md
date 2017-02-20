@@ -198,3 +198,13 @@ Some of the migrations could take some time and on larger instances, it may be a
 to take approximately 15 minutes downtime to ease the load of the database. 
 
 The slow migrations add columns with default values to `users` and `projects`.
+
+### Note
+
+We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
+If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
+file](http://doc.gitlab.com/omnibus/update/README.html).
