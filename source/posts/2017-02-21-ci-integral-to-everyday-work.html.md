@@ -20,7 +20,7 @@ Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016
 
 One of the key takeaways from the survey is that Continuous Integration now plays a big part in daily work, and is becoming more and more important to delivering great features frequently. CI frees up time that would otherwise be spent on finding and fixing errors, and it decreases the chance of shipping code that isn’t ready.
 
-## CI is Used by More Than Half of Developers 
+## CI Is Used by More Than Half of Developers 
 
 And those developers are using it more than 75 percent of the time. More than 20 percent use it nearly 100 percent of the time, with only 4 percent not using CI at all. The trend is clear: CI is becoming increasingly important.
 
@@ -28,7 +28,7 @@ And those developers are using it more than 75 percent of the time. More than 20
 
 Deploying untested code means time is wasted on backtracking to find and fix bugs. Nearly 54 percent of our respondents work on a developer team of fewer than 10, so any resources spent on tasks that could be automated has a huge impact. Adopting CI means new code is automatically tested for errors, so your developers spend less time on dull, manual testing and can focus on the work that inspires them – like building great new features.
 
-## 77 Percent of Developers think CI is Essential
+## 77 Percent of Developers Think CI Is Essential
 
 They rated it as very or extremely important to their everyday work. If this trend is to continue, CI will soon be an essential element of your software development lifecycle, and companies that are resistant to adopting it may find their development team growing restless: 36 percent of developers said they would turn down a job if the company did not use the latest tools.
 
