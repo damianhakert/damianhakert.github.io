@@ -64,6 +64,8 @@ could only add them one by one. Most of the time, you didn't even need to see
 the Backlog list at all, and it was just hanging around taking up valuable
 screen real estate.
 
+![Add issues modal in board in GitLab 8.17](/images/8_17/board_modal.png){: .shadow}
+
 With 8.17, you now add issues through a dedicated modal window.
 Click the `Add issues` button at the top-right, and you get an expansive modal
 to search and filter for issues you care about.
@@ -76,8 +78,6 @@ Take a look at the [Issue Board documentation][board-doc] to learn more.
 
 [board]: /solutions/issueboard/
 [board-doc]: https://docs.gitlab.com/ce/user/project/issue_board.html
-
-![Add issues modal in board in GitLab 8.17](/images/8_17/board_modal.png){: .shadow}
 
 ![Remove issue from board in GitLab 8.17](/images/8_17/board_remove.png){: .shadow}
 
