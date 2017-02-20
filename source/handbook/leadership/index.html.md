@@ -68,7 +68,7 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 
 ## No matrix organization
 
-1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard to get right.
+1. We believe everyone deserves to report to exactly one person that knows and understands what you do day to day. [The benefit of having a technically competent boss is easily the largest positive influence on a typical worker’s level of job satisfaction.](https://hbr.org/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work) We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard to get right.
 1. We don't want a matrix organization where you work with a lead day to day but formally report to someone else.
 1. The advantage of a functional structure is that you get better feedback and training since your boss understands your work better than a general manager.
 1. For the organization, forgoing a separate class of managers ensures a simple structure with clear responsibilities.
