@@ -191,3 +191,7 @@ summary of various featues used, external services integrated and GitLab
 components' version numbers.
 
 [license-mr]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/516
+
+## Additional Changes
+
+- Added support for multiple mount points for [repository storage](https://docs.gitlab.com/ee/administration/repository_storage_paths.html) (EE only). 
