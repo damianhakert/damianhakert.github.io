@@ -144,6 +144,21 @@ flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experien
 [cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
 [artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
 
+## Monitoring GitLab with Prometheus
+
+With 8.17 we are continuing to build upon our Prometheus integration initially
+[released in 8.16][prom-8-16]. Three new exporters have been added to the
+Omnibus package providing insight into Redis, Postgres, and GitLab service
+metrics. Administrators will now be able to track the performance of Git,
+Sidekiq jobs, and important database metrics. It is now easier than ever to
+ensure GitLab is feeling good and snappy!
+
+Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, 
+and will be enabled by default in 9.0.
+
+[prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
+[prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
+
 ## Audit Users (EE only)
 
 Many large or regulated organizations require oversight across the entire 
@@ -167,21 +182,6 @@ for more fine-grained synchronization windows.
 
 [Repository mirroring]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
 [sync]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html#adjusting-synchronization-times
-
-## Monitoring GitLab with Prometheus
-
-With 8.17 we are continuing to build upon our Prometheus integration initially
-[released in 8.16][prom-8-16]. Three new exporters have been added to the
-Omnibus package providing insight into Redis, Postgres, and GitLab service
-metrics. Administrators will now be able to track the performance of Git,
-Sidekiq jobs, and important database metrics. It is now easier than ever to
-ensure GitLab is feeling good and snappy!
-
-Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, 
-and will be enabled by default in 9.0.
-
-[prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
-[prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
 
 ## License Breakdown (EE only)
 
