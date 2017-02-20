@@ -25,6 +25,9 @@ people. We try to hire people who think work is a great way to express themselve
 
 We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Close the meta issue after you defined the first iteration. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
 
+1. **Reduce cycle time** Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/cycle-analytics/).
+1. **Work as part of the community** small iteration make it easier to work with the wider community. Their work looks more like our work and our work is quicker to give feedback too.
+
 ## Results
 
 1. **We do what we promised** We do what we promised to each-other, customers, users, and investors.
@@ -48,6 +51,7 @@ Don't pick an interesting technology just to make your work more fun, using code
 1. **ConvDev** we work according to the principles of [conversational development](http://conversationaldevelopment.com/).
 1. **Short verbal answers** Give short answers to verbal questions so the other party has to opportunity to ask more or move on.
 1. **Short broadcasts short** And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
+1. **Managers of one** we want team members to be [a manager of one](https://signalvnoise.com/posts/1430-hire-managers-of-one) who doesn't need daily check-ins to achieve their goals.
 
 ## Collaboration
 
@@ -75,8 +79,8 @@ that also contains this [company handbook](https://about.gitlab.com/handbook/). 
 and processes with the world in the spirit of open source, which we believe creates more value than it captures.
 There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines). On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 
-1. **Public by default**
-1. **Directness** (being transparent with each-other) We try to channel our inner Ben Horowitz by being [both straightforward
+1. **Public by default** everything at GitLab is public by default.
+1. **Directness** is about being transparent with each-other. We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Anyone and anything can be questioned** Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed.
 1. **Disagree and commit** we [disagree and commit](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
