@@ -1,0 +1,54 @@
+questions:
+  - question: What type of research do you do?
+    answer: |
+      <h3>Surveys</h3>
+      Most surveys take approximately 5-10 minutes to complete.
+
+      <h3>Unmoderated usability testing</h3>
+      We’re always looking for people to try out new and existing features and provide us with some feedback after using them. Unmoderated usability testing takes place remotely from the comfort of your own computer.
+
+      If you take part in unmoderated usability testing, you will be asked to complete several short tasks whilst talking about your experience outloud. Your voice will be recorded along with your screen in order to track your mouse movement and clicks. In total, the tasks shouldn’t take you more than 20 minutes to complete.
+
+      To take part in unmoderated usability testing, you must feel comfortable speaking out loud to yourself, as we’re relying on you to keep us posted on what you’re doing, thinking and feeling! It’s also important that we can hear you clearly, so the tasks must be completed in a quiet environment. 
+
+      <h3>User interviews and moderated usability testing</h3>
+      If you take part in a user interview or a moderated usability testing session, you’ll be speaking to one of our researchers remotely via web conferencing. 
+
+      Our researchers love talking to users, both user interviews and moderated usability testing sessions are completely informal. We might be learning a little more about you and how you think about a problem or task. Or, watching you interact with a feature and asking you questions about your experience.
+
+      The majority of user interviews and moderated usability testing sessions take between 20-30 minutes, but may be more or less dependant on the nature of the study. However, you will always be notified how long the study is likely to take and you’ll get to choose a convenient time and date to chat. 
+
+      <h3>Field studies</h3>
+      We visit you at your location and watch you work with GitLab. Field studies generally last from 1-2 hours.
+  - question: Do I need to be willing to do all types of research?
+    answer: |
+      No, when you sign up you’ll be able to select what kind of research opportunities you want to receive. You can always turn down a study too.
+  - question: Do I need to be a GitLab user to sign up?
+    answer: |
+      No, we often conduct research with people who don’t currently use GitLab.
+  - question: Do I have to be over 18 to participate?
+    answer: |
+      Yes, you will need to be 18 or over to participate.
+  - question: Do I have to live in a certain country to participate?
+    answer: |
+      No, we conduct research with users around the world. We ask that you speak in English for any usability testing or user interviews you take part in.
+  - question: What will you do with my personal information?
+    answer: |
+      The information you provide will only be used to pair you with suitable research studies and won't be shared or sold to external parties.
+  - question: Is there anything else I should know?
+    answer: |
+      At GitLab, we value <a href="https://about.gitlab.com/handbook/values/">transparency</a>. By making information public we can reduce the threshold to contribution and make collaboration easier. With your permission, we record all user interviews and usability testing sessions. We would also love to share the recording on GitLab.  This is completely voluntary and up to you. In any use of the recordings, no personally identifiable information will be disclosed. 
+
+      Your consent is required to (1) record the session and (2) post the recording on GitLab. You will be asked to express your consent when joining the research panel and always before you undertake any research study with GitLab.
+  - question: What’s in it for me?
+    answer: |
+      Besides being instrumental in shaping the future of GitLab, you’ll have the opportunity to earn gift cards and win awesome tech prizes. Each invitation will let you know what’s being offered before you sign up to participate.
+  - question: How do I join the research panel?
+    answer: |
+      You can sign up by completing the <a href="https://www.surveymonkey.co.uk/r/GitLabResearchPanel">following survey</a>. As soon as we have a suitable research study available for you, we will contact you.
+  - question: I’ve signed up but no longer wish to be part of the research panel. How do I unsubscribe?
+    answer: |
+      You can opt-out by clicking the unsubscribe link in any of the emails you receive from us, or email: sarah@gitlab.com who will remove you from the panel.
+  - question: I have a different question, who can I contact?
+    answer: |
+      Please email sarah@gitlab.com

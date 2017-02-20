@@ -1,0 +1,40 @@
+---
+layout: default
+title: Research panel
+suppress_header: true
+extra_css:
+  - pricing.css
+extra_js:
+  - pricing.js
+extra_font:
+  - "Roboto+Slab"
+
+---
+
+.page-container.pricing-container.text-center.animated
+  .container
+    %h1.page-headline
+      Do you want to shape the future of GitLab?
+.content-container
+  .container    
+    %h3.subheader
+      We want your feedback on how we can continue to improve GitLab and achieve our mission that everyone can contribute to digital products.
+
+    %p.subheader
+      By joining our research panel, you’ll be the first to see new features and your thoughts will drive product improvements for a better user experience. We offer incentives such as gift cards and awesome tech prizes as a thank you for your time and opinions.
+
+.content-container.text-center
+  .container
+    %h4.subheader.cta
+      To join GitLab’s research panel, please complete the following survey.
+    %a.btn.btn-lg.btn-red.btn-margin-top{ href: "https://www.surveymonkey.co.uk/r/GitLabResearchPanel" } Complete this survey
+
+
+.content-container.animated
+  .container
+    %h2.faq-title.light.text-center
+      Research Panel FAQ
+    .faq-holder.clearfix
+      - size = (data.research.questions.size / Float(2)).ceil
+      - data.research.questions.each_slice(size).to_a.each do |group|
+        = partial "question-group", locals: { group: group }
