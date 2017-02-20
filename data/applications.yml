@@ -184,6 +184,13 @@
       links:
         - url: https://github.com/timols/java-gitlab-api
           title: Repository on GitHub
+    - title: Java
+      content: GitLab4J-API is a full featured Java library for working with the GitLab API
+      links:
+        - url: https://github.com/gmessner/gitlab4j-api
+          title: Repository on GitHub
+        - url: http://www.messners.com/#gitlab4j-api/gitlab4j-api.html
+          title: GitLab4J-API Homepage
     - title: .NET
       content: GitLab.NET is a .NET library for GitLab's API.
       links:
