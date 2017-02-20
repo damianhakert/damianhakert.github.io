@@ -458,8 +458,6 @@ After running that you can now run the following to generate the PDFs:
 
 `bundle exec comparison_pdfs`
 
-After they have generated you will need to copy the pdfs from `public/comparison/pdfs`
-into the following folder [source/comparison/pdfs](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/comparison/pdfs).
 Once you have done that you are free to commit and push these to GitLab.com
 to then be merged into master.
 
