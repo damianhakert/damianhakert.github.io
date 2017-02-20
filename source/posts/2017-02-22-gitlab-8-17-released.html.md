@@ -183,17 +183,9 @@ for more fine-grained synchronization windows.
 [Repository mirroring]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
 [sync]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html#adjusting-synchronization-times
 
-## License Breakdown (EE only)
-
-We have added a [License Breakdown][license-mr] to the Admin Overview page, 
-which shows your license expiration date and usage. The page also gives a 
-summary of various featues used, external services integrated and GitLab 
-components' version numbers.
-
-[license-mr]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/516
-
 ## Additional Changes
 
 - Added support for multiple mount points for [repository storage](https://docs.gitlab.com/ee/administration/repository_storage_paths.html) (EE only). 
 - Added the ability configure a [repository's mirror sync interval](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) (EE only).
 - Added `repository_storage` and `approvals_before_merge` fields to [API V3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
+- Moved the [License Breakdown](https://docs.gitlab.com/ee/user/admin_area/license.html) to the Admin Overview page (EE only).
