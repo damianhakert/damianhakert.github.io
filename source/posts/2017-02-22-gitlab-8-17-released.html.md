@@ -28,20 +28,28 @@ _Job writes about the MVP here_
 
 ## GitLab Pages in Community Edition
 
-[GitLab Pages][pages] allows you to [host static websites][post-pages-setup] straight from GitLab, with [any Static Site Generator][pages-ssgs]. Previously this functionality was only available on GitLab.com and GitLab Enterprise Edition.
+[GitLab Pages][pages] allows you to [host static websites][post-pages-setup] 
+straight from GitLab, with [any Static Site Generator][pages-ssgs]. Previously 
+this functionality was only available on GitLab.com and GitLab Enterprise Edition.
 After receiving [over 100 votes](https://gitlab.com/gitlab-org/gitlab-ce/issues/14605)
-we decided to make GitLab Pages available in GitLab Community Edition.
+we decided to make GitLab Pages available in GitLab Community Edition. 
+The [GitLab Pages documentation][pages-docs] covers everything from getting 
+started with different Static Site Generators to advanced CI and SSL 
+configurations.
 
 [pages-ssgs]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 [pages]: https://pages.gitlab.io/
 [post-pages-setup]: /2016/04/07/gitlab-pages-setup/
+[pages-docs]: http://docs.gitlab.com/ce/user/project/pages/index.html
 
 ## Easily Search and Add Issues to Issue Boards
 
-Prior to 8.17, the Backlog list in the [Issue Board][board] contained issues that you had not yet added to your workflow (the "main" area of the board).
-Finding issues to add was somewhat difficult given that small area, and you could only add them one by one.
-Most of the time, you didn't even need to see the Backlog list at all, and it
-was just hanging around taking up valuable screen real estate.
+Prior to 8.17, the Backlog list in the [Issue Board][board] contained issues 
+that you had not yet added to your workflow (the "main" area of the board).
+Finding issues to add was somewhat difficult given that small area, and you 
+could only add them one by one. Most of the time, you didn't even need to see 
+the Backlog list at all, and it was just hanging around taking up valuable 
+screen real estate.
 
 With 8.17, you now add issues through a dedicated modal window.
 Click the `Add issues` button at the top-right, and you get an expansive modal
@@ -50,7 +58,7 @@ Select one or many issues, and even choose the list where you want to put them
 in before adding them to the board, saving just a few more clicks and drags.
 To remove an issue from your board, select it to bring up the sidebar, and hit
 `Remove from board`.
-[Learn more][board-doc].
+Take a look at the [Issue Board documentation][board-doc] to learn more.
 
 [board]: /solutions/issueboard/
 [board-doc]: https://docs.gitlab.com/ce/user/project/issue_board.html
@@ -76,9 +84,11 @@ Simply select the option in the merge request itself.
 
 ## Streamlining Project Settings and Navigation
 
-We are continuing to streamline project settings and navigation, which we first started in [8.16].
-We've combined the existing `Runners`, `Variables`, `Triggers`, and `CI/CD Pipelines` menu items into one simply called `CI/CD Pipelines`.
-Navigating to `CI/CD Pipelines` will show you one page with all the settings that were previously spread across the 4 original pages.
+We are continuing to streamline project settings and navigation, which we first 
+started in [8.16]. We've combined the existing `Runners`, `Variables`, 
+`Triggers`, and `CI/CD Pipelines` menu items into one simply called 
+`CI/CD Pipelines`. Navigating to `CI/CD Pipelines` will show you one page with 
+all the settings that were previously spread across the 4 original pages.
 
 [8.16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 
@@ -95,12 +105,15 @@ directly from the Merge Request page.
 
 ## Redesigned Slack and Mattermost Issue Messages
 
-The ChatOps message replies for [Slack][slack-chatops] and [Mattermost][mattermost-chatops] have been improved. GitLab's replies will now include additional details like assignee, current status, and more all presented in a cleaner interface. Searching GitLab or creating a new issue all within the context of the channel you are working in has never been easier or prettier!
+The ChatOps message replies for [Slack][slack-chatops] and 
+[Mattermost][mattermost-chatops] have been improved. GitLab's replies will now 
+include additional details like assignee, current status, and more all presented 
+in a cleaner interface. Searching GitLab or creating a new issue all within the 
+context of the channel you are working in has never been easier or prettier!
 
 ![Slack Issue Show](/images/8_17/slack_issue_show.png){: .shadow}
 
 [slack-chatops]: https://docs.gitlab.com/ce/user/project/integrations/slack_slash_commands.html
-
 [mattermost-chatops]: https://docs.gitlab.com/ce/user/project/integrations/mattermost_slash_commands.html
 
 ## Improving terminology within CI/CD
@@ -113,30 +126,44 @@ to the entire pipeline, and `Job` will be used for a specific action or build.
 
 ## Upcoming changes to defaults in gitlab-ci.yml
 
-As part of our 9.0 release, we will be changing the default behavior of two flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
+As part of our 9.0 release, we will be changing the default behavior of two 
+flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
 
-* The [cache:key][cache-key] directive will default to a constant string. This means that the cache will now be shared across branches and stages, reducing build time making more efficient use of Runners. Note a cache is never shared across projects.
-* The [artifacts:expire_in][artifacts-expire-in] default will be able to be controlled by the GitLab administrator. Previously unless a specific duration was set, artifacts would never expire. By enabling control over the default value, administrators can more easily manage artifacts that do not need to be stored indefinitely. Developers should set this value to their desired duration if an artifact should persist for a specific time.
+* The [cache:key][cache-key] directive will default to a constant string. This 
+  means that the cache will now be shared across branches and stages, reducing 
+  build time making more efficient use of Runners. Note a cache is never shared 
+  across projects.
+* The [artifacts:expire_in][artifacts-expire-in] default will be able to be 
+  controlled by the GitLab administrator. Previously unless a specific duration 
+  was set, artifacts would never expire. By enabling control over the default 
+  value, administrators can more easily manage artifacts that do not need to be 
+  stored indefinitely. Developers should set this value to their desired 
+  duration if an artifact should persist for a specific time.
 
 [gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
-
 [cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
-
 [artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
 
 ## Audit Users (EE only)
 
-Many large or regulated organizations require oversight across the entire development environment. GitLab Enterprise Edition now features a great new capability to assign an `Audit` role to a user. This role allows the user read-only access to all projects, groups, users and other resources.
+Many large or regulated organizations require oversight across the entire 
+development environment. GitLab Enterprise Edition now features a great new 
+capability to assign an `Audit` role to a user. This role allows the user 
+read-only access to all projects, groups, users and other resources.
 
-Unlike the `Administrator` role, Audit users don't have the ability to modify projects settings or access the Admin Area, making it the perfect solution to provide powerful, read-only access across the entire GitLab instance.
+Unlike the `Administrator` role, Audit users don't have the ability to modify 
+projects settings or access the Admin Area, making it the perfect solution to 
+provide powerful, read-only access across the entire GitLab instance.
 
 [Find out more](audit-docs) about how this role works and the capabilities it allows.
-
 [audit-docs]: https://docs.gitlab.com/ee/administration/auditor_users.html
 
 ## Configurable Mirror Synchronization Time (EE only)
 
-[Repository mirroring] is a great feature in GitLab Enterprise Edition that allows you to synchronize remote repositories with your repository on GitLab. Previously, synchronization happened every hour; you can now [adjust this][sync] for more fine-grained synchronization windows.
+[Repository mirroring] is a great feature in GitLab Enterprise Edition that 
+allows you to synchronize remote repositories with your repository on GitLab. 
+Previously, synchronization happened every hour; you can now [adjust this][sync] 
+for more fine-grained synchronization windows.
 
 [Repository mirroring]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
 [sync]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html#adjusting-synchronization-times
@@ -150,8 +177,8 @@ metrics. Administrators will now be able to track the performance of Git,
 Sidekiq jobs, and important database metrics. It is now easier than ever to
 ensure GitLab is feeling good and snappy!
 
-Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, and will be enabled by default in 9.0.
+Prometheus and its exporters [can be enabled][prom-doc] by editing `gitlab.rb`, 
+and will be enabled by default in 9.0.
 
 [prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
-
 [prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
