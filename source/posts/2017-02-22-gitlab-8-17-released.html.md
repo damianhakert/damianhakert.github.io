@@ -189,3 +189,12 @@ for more fine-grained synchronization windows.
 - Added the ability configure a [repository's mirror sync interval](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) (EE only).
 - Added `repository_storage` and `approvals_before_merge` fields to [API V3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
 - Moved the [License Breakdown](https://docs.gitlab.com/ee/user/admin_area/license.html) to the Admin Overview page (EE only).
+
+## Upgrade barometer
+
+This release does not require downtime.
+
+Some of the migrations could take some time and on larger instances, it may be advisable
+to take approximately 15 minutes downtime to ease the load of the database. 
+
+The slow migrations add columns with default values to `users` and `projects`.
