@@ -182,3 +182,12 @@ and will be enabled by default in 9.0.
 
 [prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 [prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
+
+## License Breakdown (EE only)
+
+We have added a [License Breakdown][license-mr] to the Admin Overview page, 
+which shows your license expiration date and usage. The page also gives a 
+summary of various featues used, external services integrated and GitLab 
+components' version numbers.
+
+[license-mr]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/516
