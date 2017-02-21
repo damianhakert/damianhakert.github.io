@@ -191,7 +191,7 @@ directly from the Merge Request page.
 
 The ChatOps message replies for [Slack][slack-chatops] and
 [Mattermost][mattermost-chatops] have been improved. GitLab's replies will now
-include additional details like assignee, current status, and more all presented
+include additional details like assignee, current status, and more; all presented
 in a cleaner interface. Searching GitLab or creating a new issue all within the
 context of the channel you are working in has never been easier or prettier!
 
