@@ -177,23 +177,23 @@ and will be enabled by default in 9.0.
 [prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 [prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
 
-## V4 API beta release
+## v4 API beta release
 
-As part of 9.0 release, we're already shipping our V4 API as Beta! Most changes for 8.17
-were focused on consistency improvements regarding our existing V3 API (which will remain unchaged for now),
-and we're looking forward to ship some great features for V4 on 9.0, such as:
+As part of 9.0 release, we're already shipping our v4 API as Beta! Most changes for 8.17
+were focused on consistency improvements regarding our existing v3 API (which will remain unchaged for now),
+and we're looking forward to ship some great features for v4 on 9.0, such as:
 
 * Present related resource URI's within each API response (facilitating API navigation)
 * Enable pagination for all endpoints
 * Allow queries on issues and merge requests endpoints with IIDs (same as web version URL ids)
 
 Keep track on [CE](https://docs.gitlab.com/ce/api/v3_to_v4.html) and
-[EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) V4 API changes docs for further information.
+[EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) v4 API changes docs for further information.
 
-### V3 Deprecation
+### API v3 Deprecation
 
-Given the current V4 shipping, we're planning to keep V3 API up until 9.3 GitLab release.
-Only bugs and security fixes will be done on V3 up until then.
+Given the current v4 shipping, we're planning to keep v3 API up until 9.3 GitLab release.
+Only bugs and security fixes will be done on v3 up until then.
 
 ## Audit Users (EE only)
 
