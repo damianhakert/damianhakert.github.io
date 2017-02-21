@@ -13,14 +13,12 @@ to manage simple websites. The advent of static sites allows organizations to
 no longer worry about having to secure, update and maintain an underlying CMS
 for their websites. Static websites are fast, yet powerful and [seen as the next big thing in publishing to internet][smashing-link].
 
+GitLab 8.17 allows anyone to easily create and collaborate on a static website
+through [GitLab Pages][pages], now available in GitLab Community Edition.
+
 <!-- more -->
 
 ----
-
-Unfortunately, hardcoded static websites take a long time to setup and are hard
-to update for everyone but the invested web developer.
-GitLab 8.17 allows anyone to easily create and collaborate on a static website
-through GitLab Pages, now available in GitLab Community Edition.
 
 Besides Pages in CE, GitLab 8.17 improves Issue Boards, allows you to easily
 squash your commits before merging them, adds the option to have a dedicated
@@ -34,7 +32,11 @@ Horacio added PlantUML support for Asciidoc; this release,
 [he added it](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8588) for
 Markdown, too!
 Thanks Horacio!
+
 ## GitLab Pages in Community Edition
+
+Hardcoded static websites take a long time to setup and are hard
+to update for everyone but the invested web developer. To [circumvent this problem][pages-ssgs-1], Static Site Generators are the best solution.
 
 [GitLab Pages][pages] allows you to [host static websites][post-pages-setup]
 straight from GitLab, with [any Static Site Generator][pages-ssgs]. Previously
@@ -51,10 +53,17 @@ The [GitLab Pages documentation][pages-docs] covers everything from getting
 started with different Static Site Generators to advanced CI and SSL
 configurations.
 
+To learn how to set up GitLab Pages to your own GitLab instance, read through the [admin documentation] or watch the [video tutorial].
+
+[admin documentation]: https://docs.gitlab.com/ce/administration/pages/
 [pages-ssgs]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
+[pages-ssgs-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [pages]: https://pages.gitlab.io/
 [post-pages-setup]: /2016/04/07/gitlab-pages-setup/
 [pages-docs]: http://docs.gitlab.com/ce/user/project/pages/index.html
+[video tutorial]: https://youtu.be/dD8c7WNcc6s
+
+<!-- NOTE FOR MARCIA, AXIL, OR SEAN P.: UPDATE LINK PAGES-DOCS TO https://docs.gitlab.com/ce/pages/ WHEN https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9395 GETS MERGED -->
 
 ## Easily Search and Add Issues to Issue Boards
 
@@ -251,7 +260,6 @@ flags in [`.gitlab-ci.yml`][gitlab-ci-yml] to provide an improved standard exper
 [gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
 [cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
 [artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
-
 
 ### Note
 
