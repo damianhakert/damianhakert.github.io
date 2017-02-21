@@ -123,7 +123,7 @@ features:
     competitor_one: true
     competitor_two: false
   - title: "Issue board"
-    description: "GitHub has Projects, which are not tight to labels in any way, making it hard to automatize flows. GitLab has Issue boards. Each list of an issue board is based on a label that exists in your issue tracker. The Issue Board will therefore match the state of your issue tracker in a user friendly way."
+    description: "GitHub has Projects, which are not tied to labels in any way, making it hard to automatize flows. GitLab has Issue boards. Each list of an issue board is based on a label that exists in your issue tracker. The Issue Board will therefore match the state of your issue tracker in a user friendly way."
     link_description: "Feature highlight: Issue Boards"
     link: https://about.gitlab.com/2016/08/22/announcing-the-gitlab-issue-board/
     competitor_one: true
