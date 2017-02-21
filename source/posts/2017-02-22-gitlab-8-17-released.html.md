@@ -13,6 +13,10 @@ to manage simple websites. The advent of static sites allows organizations to
 no longer worry about having to secure, update and maintain an underlying CMS
 for their websites. Static websites are fast, yet powerful and [seen as the next big thing in publishing to internet][smashing-link].
 
+<!-- more -->
+
+----
+
 Unfortunately, static websites are hard to setup and hard
 to update for everyone but the invested engineer.
 GitLab 8.17 allows anyone to easily create and collaborate on a static website
@@ -23,8 +27,6 @@ squash your commits before merging them, adds the option to have a dedicated
 audit user for your instance, and much more!
 
 [smashing-link]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
-
-<!-- more -->
 
 This month's [MVP](/mvp) is [Horacio Sanson](https://gitlab.com/Sanson).
 [Last release](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/),
