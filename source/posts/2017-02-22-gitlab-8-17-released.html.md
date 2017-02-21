@@ -5,7 +5,7 @@ author: Job van der Voort
 author_gitlab: JobV
 author_twitter: Jobvo
 image_title: '/images/unsplash/fireworks.png'
-description: "GitLab 8.17 released with Pages in CE and Squash"
+description: "GitLab 8.17 released with GitLab Pages in GitLab CE and Squash on Merge"
 ---
 
 For many years, content management systems (CMS) have been used
