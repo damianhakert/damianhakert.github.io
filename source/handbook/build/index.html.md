@@ -6,7 +6,8 @@ title: "Build"
 ## Team responsibility
 
 - Make Omnibus packages
-- Maintain the official installations on our [installation page](https://about.gitlab.com/installation/)- Keep the installation and download pages up to date and attractive
+- Maintain the official installations on our [installation page](https://about.gitlab.com/installation/)
+- Keep the installation and download pages up to date and attractive
 
 Our official installations cover:
 
@@ -17,7 +18,7 @@ Our official installations cover:
 
 TODO's
 
-1. List all official methods (for example add http://docs.pivotal.io/partners/gitlab/ to our installation page)
+1. List all official methods (for example add http://docs.pivotal.io/partners/gitlab/ to our installation page) -> https://gitlab.com/gitlab-org/omnibus-gitlab/issues/2007
 1. Add logo's for all official methods.
 
 ## Cloud Images
