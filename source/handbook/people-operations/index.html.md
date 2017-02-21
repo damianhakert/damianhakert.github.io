@@ -108,13 +108,13 @@ If you change your address, you should let GitLab know the new address within a 
 
 At GitLab, we encourage team members to take control of their own career ladders and career advancement. In all processes of title changes, the team member will speak with their manager about the change. Come prepared with an explanation of how you believe you meet the proposed level and can satisfy the business need.
 
-As a manager, please follow the following processes, and do not make promises to the team member before the approvals are completed.
+As a manager, please follow the following processes and discuss any proposed changes with either the People Ops Business Partner or Senior Director of People Ops, and do not make promises to the team member before the approvals are completed.
 
 #### Promotions
 
 To promote one of your direct reports, a manager should follow the following steps:
 
-- Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance, not based on potential). If the criteria for promotion are not adequately described on the relevant job description page, then work on that first.
+- Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance, not based on potential). If the criteria for promotion are not adequately described on the relevant job description page, then work on that first. If the job is being advertised via the [jobs page](https://about.gitlab.com/jobs/) in order to be compliant with global anti-discrimination laws the individual must apply for the role. Similarly, if there is no job posting, one must be created and shared on the team call so that everyone has the opportunity to apply and be considered.
 - Manager must obtain agreement from their own manager(s), all the way through the chain of command to the CEO.
 - Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator. Don't send the promotion-proposal to the CEO until this part is included.
 - Once written agreement is reached on the promotion and changes (if any) in compensation, the manager informs the individual.
@@ -148,9 +148,10 @@ If you are interested in a position, regardless of level, outside your departmen
 
 ##### Internal Department Transfers
 
-If you are interested in another position within your department and the hiring manager is also your manager, then the interview process is not necessary.
+If you are interested in another position within your department and the hiring manager is also your manager you must do the following;
 
 - Present your proposition to your manager.
+- If the position is advertised on the [jobs page](https://about.gitlab.com/jobs/)) to be considered you must apply for it. If there is no job posting, one must be created and shared on the team call so that everyone has the opportunity to apply and be considered.
 - The manager will asses the function requirements; each level should be defined in the job description.
 - If approved, your manager will need to obtain approval from their manager, through the chain of command to the CEO.
 - [Compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels) will be reevaluated to ensure it adheres to the compensation calculator. Don't send the proposal to the CEO until this part is included.
