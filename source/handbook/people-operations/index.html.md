@@ -256,6 +256,7 @@ If resignation is the only solution after you have discussed your concerns, then
 1. Team members are requested to provide an agreed upon notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads.
 1. The team member should provide a written resignation letter or notification to his or her manager.
 1. Upon receipt of the resignation, the manager will notify People Ops by sending a copy of the resignation letter.
+1. An announcement on a team call can by made by the team member if they wish or the manager can do this on their behalf
 1. People Ops will send an email with the following information to the team member:
   * [Process](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for returning all company property.
   * A review of the team member's post-termination benefits status, if applicable.
