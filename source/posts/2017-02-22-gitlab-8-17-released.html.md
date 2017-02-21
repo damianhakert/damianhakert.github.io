@@ -170,6 +170,8 @@ started in [8.16]. We've combined the existing `Runners`, `Variables`,
 `CI/CD Pipelines`. Navigating to `CI/CD Pipelines` will show you one page with
 all the settings that were previously spread across the 4 original pages.
 
+As we work on merging settings together, we are also working to improve the UX of these pages in order to make it easier to navigate. [Contribute to the issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/28451) and watch for updates in the upcoming releases!
+
 [8.16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
