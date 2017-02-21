@@ -21,7 +21,7 @@ security practices within the company.
 
 ## Lead
 
-As a lead of the security team you should organize the work:
+As a lead of the security team you should organize the work to keep the trust of our users:
 
 1. Make a risk assessment based on ISO 27001
 1. Define priorities, scope, and a time-line
