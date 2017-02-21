@@ -11,8 +11,8 @@ description: >
 
 For many years, content management systems (CMS) have been used
 to manage simple websites. The advent of static sites allows organizations to
-no longer worry about having to secure, update and maintain an underlying CMS. 
-Static websites are fast, yet powerful and 
+no longer worry about having to secure, update and maintain an underlying CMS.
+Static websites are fast, yet powerful and
 [seen as the next big thing in publishing to internet][smashing-link].
 
 GitLab 8.17 allows anyone to easily create and collaborate on a static website
@@ -22,8 +22,8 @@ through [GitLab Pages][pages], now available in GitLab Community Edition.
 
 ----
 
-In addition to Pages moving to CE, we've made improvements to Issue 
-Boards, added an audit user role, added the ability to squash commits on merge 
+In addition to Pages moving to CE, we've made improvements to Issue
+Boards, added an audit user role, added the ability to squash commits on merge
 and much more!
 
 [smashing-link]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
@@ -37,22 +37,24 @@ Thanks Horacio!
 
 ## GitLab Pages in Community Edition
 
-Hardcoded static websites take a long time to setup and maintain for everyone 
-but the invested web developer. Static Site Generators are the best solution to 
-[this problem][pages-ssgs-1]. [GitLab Pages][pages] allows you to 
-[host static websites][post-pages-setup] straight from GitLab, with 
-[any Static Site Generator][pages-ssgs]. Previously this functionality was only 
-available on GitLab.com and GitLab Enterprise Edition. After receiving 
+Hardcoded static websites take a long time to setup and maintain for everyone
+but the invested web developer. Static Site Generators are the best solution to
+[this problem][pages-ssgs-1]. [GitLab Pages][pages] allows you to
+[host static websites][post-pages-setup] straight from GitLab, with
+[any Static Site Generator][pages-ssgs]. Previously this functionality was only
+available on GitLab.com and GitLab Enterprise Edition. After receiving
 [over 100 votes](https://gitlab.com/gitlab-org/gitlab-ce/issues/14605)
 we decided to move GitLab Pages to GitLab Community Edition.
 
-Static websites are much faster than their dynamic counterparts, this makes them
-great for high volume public marketing and documentation sites or even as a way 
-to easiliy visualize data from your continuous integration.
+![GitLab Pages in GitLab Community Edition 8.17](/images/8_17/pages.png)
+
+Static websites are much faster than their dynamic counterparts (CMS), this
+makes them great for high volume public marketing and documentation sites or
+even as a way to easily visualize data from your continuous integration suite.
 
 The [GitLab Pages documentation][pages-docs] covers everything from getting
 started with different Static Site Generators to advanced CI and SSL
-configurations. To learn how to set up GitLab Pages to your own GitLab instance, 
+configurations. To learn how to set up GitLab Pages to your own GitLab instance,
 read through the [admin documentation] or watch the [video tutorial].
 
 [admin documentation]: https://docs.gitlab.com/ce/administration/pages/
@@ -63,8 +65,8 @@ read through the [admin documentation] or watch the [video tutorial].
 [pages-docs]: http://docs.gitlab.com/ce/user/project/pages/index.html
 [video tutorial]: https://youtu.be/dD8c7WNcc6s
 
-<!-- NOTE FOR MARCIA, AXIL, OR SEAN P.: UPDATE LINK PAGES-DOCS TO 
-https://docs.gitlab.com/ce/pages/ WHEN 
+<!-- NOTE FOR MARCIA, AXIL, OR SEAN P.: UPDATE LINK PAGES-DOCS TO
+https://docs.gitlab.com/ce/pages/ WHEN
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9395 GETS MERGED -->
 
 ## Easily Search and Add Issues to Issue Boards
@@ -111,16 +113,16 @@ Simply select the option in the merge request itself.
 
 ## Copy and Paste GitLab Markdown
 
-[GitLab Flavored Markdown (GFM)][gfm-doc] is a powerful system, but 
-transcribing formatted text to it may be a little bit difficult for newcomers to 
-Markdown. You may find yourself going to the edit mode of an issue description 
-or comment to just copy the plaintext GFM, paste it in another GitLab textarea, 
-make some changes, before submitting it. 
+[GitLab Flavored Markdown (GFM)][gfm-doc] is a powerful system, but
+transcribing formatted text to it may be a little bit difficult for newcomers to
+Markdown. You may find yourself going to the edit mode of an issue description
+or comment to just copy the plaintext GFM, paste it in another GitLab textarea,
+make some changes, before submitting it.
 
-With 8.17, you can simply copy any issue / merge request description / comment 
+With 8.17, you can simply copy any issue / merge request description / comment
 (i.e. GFM textarea) in regular view mode, and paste it in another GFM textarea.
-All the formatting is carried over automatically. This even includes links and 
-images. Pro tip: Now you can quickly learn from GFM experts by copying their 
+All the formatting is carried over automatically. This even includes links and
+images. Pro tip: Now you can quickly learn from GFM experts by copying their
 issues and merge requests.
 
 [gfm-doc]: https://docs.gitlab.com/ce/user/markdown.html#gitlab-flavored-markdown-gfm
@@ -132,10 +134,10 @@ issues and merge requests.
 With the new ability to [link files in a merge request to live previews of those files][environment-link-doc],
 GitLab's Review Apps just became a lot more powerful.
 
-Using the new `.gitlab/route-map.yml` file, you can map routes to their respective
-URLs to allow for easy preview of specific changes. This is more difficult for
-dynamic apps built with frameworks like Rails or Django, but for static sites this is
-perfect.
+Using the new `.gitlab/route-map.yml` file, you can map routes to their
+respective URLs to allow for easy preview of specific changes. This is more
+difficult for dynamic apps built with frameworks like Rails or Django, but for
+static sites this is perfect.
 
 For example, this is [the current `route-map.yml` for about.gitlab.com][www-gitlab-com-route-yml]:
 
@@ -221,26 +223,32 @@ and will be enabled by default in 9.0.
 [prom-8-16]: https://about.gitlab.com/2017/01/22/gitlab-8-16-released/
 [prom-doc]: https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
 
-## v4 API beta release
+## API v4 Beta
 
-As part of 9.0 release, we're already shipping our v4 API as Beta! Most changes 
-for 8.17 were focused on consistency improvements regarding our existing v3 API 
-(which will remain unchaged for now), and we're looking forward to ship some 
-great features for v4 on 9.0, such as:
+GitLab has a powerful API that allows you to do everything that you'd otherwise
+do through the interface. For the last several years, our API has been
+version 3 (v3). To be able to make changes to our existing API endpoints, while
+maintaining support for your integrations, we're rolling out a new API version
+next month (March 22nd, GitLab 9.0).
 
-* Present related resource URI's within each API response (facilitating API 
+With this release, we're giving you access to the Beta of API v4. This will
+allow you to upgrade your integrations so that they'll continue working
+after we deprecate API v3. We'll continue working on API v4 and will introduce
+other changes with GitLab 9.0, such as:
+
+* Present related resource URI's within each API response (facilitating API
   navigation)
 * Enable pagination for all endpoints
-* Allow queries on issues and merge requests endpoints with IIDs (same as web 
+* Allow queries on issues and merge requests endpoints with IIDs (same as web
   version URL ids)
 
 Keep track on [CE](https://docs.gitlab.com/ce/api/v3_to_v4.html) and
-[EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) v4 API changes docs for 
+[EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) v4 API changes docs for
 further information.
 
 ### API v3 Deprecation
 
-Given the current v4 shipping, we're planning to keep v3 API up until 9.3 GitLab 
+Given the current v4 shipping, we're planning to keep v3 API up until 9.3 GitLab
 release. Only bugs and security fixes will be done on v3 up until then.
 
 ## Audit Users (EE only)
@@ -254,7 +262,7 @@ Unlike the `Administrator` role, Audit users don't have the ability to modify
 projects settings or access the Admin Area, making it the perfect solution to
 provide powerful, read-only access across the entire GitLab instance.
 
-[Find out more](audit-docs) about how this role works and the capabilities it 
+[Find out more](audit-docs) about how this role works and the capabilities it
 allows.
 
 [audit-docs]: https://docs.gitlab.com/ee/administration/auditor_users.html
@@ -353,12 +361,12 @@ and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab
 
 ### Git-Annex Support
 
-We're [deprecating](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) support 
-for [Git-Annex](https://docs.gitlab.com/ee/workflow/git_annex.html) available in 
-GitLab Enterprise Edition, and it will be completely removed in the upcoming 
+We're [deprecating](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) support
+for [Git-Annex](https://docs.gitlab.com/ee/workflow/git_annex.html) available in
+GitLab Enterprise Edition, and it will be completely removed in the upcoming
 release, GitLab 9.0 (2017/03/22).
 
-Read through the 
+Read through the
 [Git-Annex to Git-LFS migration guide](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git_annex_to_git_lfs.html).
 
 ### Raspbian Wheezy package
@@ -417,9 +425,9 @@ flags in [`.gitlab-ci.yml`][gitlab-ci-yml] to provide an improved standard exper
 
 ### Note
 
-We assume you are upgrading from the latest version. If not, then also consult 
-the upgrade barometers of any intermediate versions you are skipping. If you are 
-upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have 
+We assume you are upgrading from the latest version. If not, then also consult
+the upgrade barometers of any intermediate versions you are skipping. If you are
+upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have
 to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
