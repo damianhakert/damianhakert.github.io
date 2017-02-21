@@ -109,7 +109,7 @@ Simply select the option in the merge request itself.
 
 ## Copy and Paste GitLab Markdown
 
-Transcribing formatted text to [GitLab Flavored Markdown (GFM)][gfm-doc] is often a pain.
+[GitLab Flavored Markdown (GFM)][gfm-doc] is a powerful system, but transcribing formatted text to it may be a little bit difficult for newcomers to Markdown.
 You may find yourself going to the edit mode of an issue description or comment to just copy the plaintext GFM, paste it in another GitLab textarea, make some changes, before submitting it.
 With 8.17, you can simply copy any issue / merge request description / comment (i.e. GFM textarea) in regular view mode, and paste it in another GFM textarea.
 All the formatting is carried over automatically.
