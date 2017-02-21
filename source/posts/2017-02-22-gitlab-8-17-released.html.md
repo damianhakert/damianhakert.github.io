@@ -17,8 +17,8 @@ for their websites. Static websites are fast, yet powerful and [seen as the next
 
 ----
 
-Unfortunately, static websites are hard to setup and hard
-to update for everyone but the invested engineer.
+Unfortunately, hardcoded static websites take a long time to setup and are hard
+to update for everyone but the invested web developer.
 GitLab 8.17 allows anyone to easily create and collaborate on a static website
 through GitLab Pages, now available in GitLab Community Edition.
 
@@ -33,8 +33,7 @@ This month's [MVP](/mvp) is [Horacio Sanson](https://gitlab.com/Sanson).
 Horacio added PlantUML support for Asciidoc; this release,
 [he added it](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8588) for
 Markdown, too!
-Thanks Horacio Sanson!
-
+Thanks Horacio!
 ## GitLab Pages in Community Edition
 
 [GitLab Pages][pages] allows you to [host static websites][post-pages-setup]
