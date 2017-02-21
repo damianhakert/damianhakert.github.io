@@ -267,26 +267,6 @@
           and helping businesses scale.  When not working, Chad enjoys spending time with his wife and coaching his three boys in many different sports. Living in Sacramento allows
           Chad the opportunity to visit Tahoe, Napa Valley and San Francisco often.
 
-- name: Jeroen Nijhof
-  locality: Hilversum
-  country: The Netherlands
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Production Lead
-  picture: jnijhof.jpg
-  twitter: jeroen_nijhof
-  gitlab: jnijhof
-  maintains:  |
-              <li>On-call hero!</li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
-              <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-cookbooks/cookbook-marketo-tools">cookbook-marketo-tools</a></li>
-              <li>CephFS <a href="/jobs/expert/">expert</a></li>
-  story:  |
-          Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
-          At GitLab he really enjoys the combination of operations and development.
-          In his spare time he really likes to work on his small electronics projects based on arduino and pi.
-
 - name: Bruce Armstrong
   locality: San Francisco, CA
   country: USA
@@ -2192,7 +2172,7 @@
   twitter: ScottGrudman
   gitlab: ScottGrudman
   story:  Scott has been helping companies be successful through new and exciting technologies for nearly 8 years. He enjoys playing guitar, bass, drums, and PS4 whenever possible and can sometimes be found squished in photo pits as a freelance photographer of concerts and music festivals.
-         
+
 
 - name: Tom Plumadore
   locality: Atlanta, Georgia
@@ -2203,8 +2183,8 @@
   twitter: TomPlumadore
   gitlab: TomPlumadore
   story:  Highly accomplished sales executive with 16 years comprehensive experience in Solutions Selling and telling stoires. Strong back round in selling enterprise software solutions to fortune 100 companies, Federal Systems Integrators, and Federal Government.  Talent for being able to manage a complex sales cycle and selling to top-level executives.  Experience in cross-functional areas such as developing sales relationships, prospecting, cold calling, identifying the solutions to fit clients needs. Articulate communicator, with proven success in attaining objectives and meeting quotas.  Committed to the highest level of professional excellence through meeting all sales objectives.
- 
- 
+
+
 - name: Adam Johnson
   locality: Golden, Colorado
   country: USA
