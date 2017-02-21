@@ -12,12 +12,12 @@ We value collaboration and are transparent both inside and outside the company.
 
 ## Diversity
 
-The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 
+1. **Don't bring religion or politics to work** We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most
-of our time talking about what we did in our private lives, from fire-throwing to
+is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most of our time talking about what we did in our private lives, from fire-throwing to
 knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
 
@@ -33,7 +33,8 @@ We do the [smallest thing possible and get it out as quickly as possible](https:
 
 ## Results
 
-1. **We do what we promised** We do what we promised to each-other, customers, users, and investors.
+We do what we promised to each-other, customers, users, and investors.
+
 1. **Measure results not hours** We care about what you achieve; the code you shipped, the user you made happy, and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead, celebrate the achievements of
 yourself and your teammates. You don't have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules.
