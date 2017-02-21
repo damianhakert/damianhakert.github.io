@@ -21,6 +21,7 @@ title: "People Operations"
 - [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
 - [Functional Group Updates](/handbook/people-operations/functional-group-updates)
 - [OKRs and LatticeHQ](/handbook/people-operations/okr/)
+- [Leadership](/handbook/leadership/)
 
 ## On this page
 {:.no_toc}

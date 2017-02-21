@@ -3,6 +3,12 @@ layout: markdown_page
 title: "Leadership"
 ---
 
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
 ## Leadership
 
 1. Leadership at GitLab applies to everyone, whether an individual contributor or a manager.
@@ -43,6 +49,17 @@ title: "Leadership"
 1. [Our summits](https://about.gitlab.com/culture/summits) are meant for informal communication and bonding across the company. There is a limited time for business activities during the summit so all our regular meetings should happen outside of the summit. We want informal, cross team, open-ended meetings, that includes individual contributors, for example inviting everyone including sales to suggest currently missing functionality in GitLab. Formal, team restricted, structured meetings, where not everyone is welcome shouldn't happen, for example an executive team meeting to set the yearly budget. Never delay a decision until the summit, if anything use the summit as a deadline to get things done earlier.
 1. At GitLab decision making is based on an informed and knowledgeable hierarchy. Not on consensus or democracy. Voting on material decisions shows a lack of informed leadership.
 1. We don't have explicit 20% time at GitLab. We measure results and not hours. If people are getting good results in the work that is assigned to them they are free to contribute to other parts of the company or work on a pet project. Don't say 'your work on the pet project is hurting your performance' but say 'we agreed to getting X done but it is delayed, what happened and how can I help?'.
+
+## 1:1 Information
+
+1. Purpose of 1:1 conversations with direct reports
+   * Self-assessment. A manager engages with the team member to explore his or her knowledge, skills and abilities, as well as past experiences, accomplishments, and interests.
+1. Create individualized career map.
+   * Creating an individualized career map involves identifying other positions within the organization that meet the team members’s interests. The position may be a lateral move into a different job family or a promotion. In either case, the position should capitalize on the team member’s past experiences, interests and motivation while at the same time requiring the team member to develop a certain degree of new knowledge, skills and abilities (KSAs) to give him or her something to work toward and stay engaged. Please ask People Ops for more information on [title changes](https://about.gitlab.com/handbook/people-operations/#title-changes).
+1. Exploring other opportunities.
+   * The final step in career mapping is to explore other job opportunities within the organization as they become available.
+1. In a traditional career ladder system, the person is hired and, through a combination of experience, education and opportunity, is promoted to levels that encompass additional responsibility and concomitant compensation.
+
 
 ## Grovo
 
