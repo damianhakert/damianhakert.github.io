@@ -217,6 +217,12 @@ for more fine-grained synchronization windows.
 - Added `repository_storage` and `approvals_before_merge` fields to [API V3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
 - Moved the [License Breakdown](https://docs.gitlab.com/ee/user/admin_area/license.html) to the Admin Overview page (EE only).
 
+## Deprecation of Git-Annex Support
+
+We're [deprecating](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) support to [Git-Annex](https://docs.gitlab.com/ee/workflow/git_annex.html), available on GitLab Enterprise Edition, and it will be completely removed in the upcoming release, GitLab 9.0 (2017/03/22).
+
+Read through the migration guide from [Git-Annex to Git-LFS](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git-annex_to_git-lfs.html).
+
 ## Upgrade barometer
 
 This release does not require downtime.
