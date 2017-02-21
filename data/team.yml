@@ -2194,17 +2194,17 @@
   story:  Scott has been helping companies be successful through new and exciting technologies for nearly 8 years. He enjoys playing guitar, bass, drums, and PS4 whenever possible and can sometimes be found squished in photo pits as a freelance photographer of concerts and music festivals.
          
 
-- name: T.P.
-  locality:
-  country:
+- name: Tom Plumadore
+  locality: Atlanta, Georgia
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
-
+  picture: TomPlumadore.png
+  twitter: TomPlumadore
+  gitlab: TomPlumadore
+  story:  Highly accomplished sales executive with 16 years comprehensive experience in Solutions Selling and telling stoires. Strong back round in selling enterprise software solutions to fortune 100 companies, Federal Systems Integrators, and Federal Government.  Talent for being able to manage a complex sales cycle and selling to top-level executives.  Experience in cross-functional areas such as developing sales relationships, prospecting, cold calling, identifying the solutions to fit clients needs. Articulate communicator, with proven success in attaining objectives and meeting quotas.  Committed to the highest level of professional excellence through meeting all sales objectives.
+ 
+ 
 - name: Adam Johnson
   locality: Golden, Colorado
   country: USA
