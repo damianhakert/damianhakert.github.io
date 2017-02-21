@@ -152,26 +152,6 @@ to the entire pipeline, and `Job` will be used for a specific action or build.
 
 [cicd]: http://docs.gitlab.com/ce/ci/README.html
 
-## Upcoming changes to defaults in gitlab-ci.yml
-
-As part of our 9.0 release, we will be changing the default behavior of two
-flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
-
-* The [cache:key][cache-key] directive will default to a constant string. This
-  means that the cache will now be shared across branches and stages, reducing
-  build time making more efficient use of Runners. Note a cache is never shared
-  across projects.
-* The [artifacts:expire_in][artifacts-expire-in] default will be able to be
-  controlled by the GitLab administrator. Previously unless a specific duration
-  was set, artifacts would never expire. By enabling control over the default
-  value, administrators can more easily manage artifacts that do not need to be
-  stored indefinitely. Developers should set this value to their desired
-  duration if an artifact should persist for a specific time.
-
-[gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
-[cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
-[artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
-
 ## Monitoring GitLab with Prometheus
 
 With 8.17 we are continuing to build upon our Prometheus integration initially
@@ -197,12 +177,12 @@ and we're looking forward to ship some great features for V4 on 9.0, such as:
 * Enable pagination for all endpoints
 * Allow queries on issues and merge requests endpoints with IIDs (same as web version URL ids)
 
-Keep track on [CE](https://docs.gitlab.com/ce/api/v3_to_v4.html) and 
+Keep track on [CE](https://docs.gitlab.com/ce/api/v3_to_v4.html) and
 [EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) V4 API changes docs for further information.
 
 ### V3 deprecation
 
-Given the current V4 shipping, we're planning to keep V3 API up until 9.3 GitLab release. 
+Given the current V4 shipping, we're planning to keep V3 API up until 9.3 GitLab release.
 Only bugs and security fixes will be done on V3 up until then.
 
 ## Audit Users (EE only)
@@ -244,6 +224,27 @@ Some of the migrations could take some time and on larger instances, it may be a
 to take approximately 15 minutes downtime to ease the load of the database.
 
 The slow migrations add columns with default values to `users` and `projects`.
+
+### Upcoming changes to defaults in gitlab-ci.yml
+
+As part of our 9.0 release, we will be changing the default behavior of two
+flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
+
+* The [cache:key][cache-key] directive will default to a constant string. This
+  means that the cache will now be shared across branches and stages, reducing
+  build time making more efficient use of Runners. Note a cache is never shared
+  across projects.
+* The [artifacts:expire_in][artifacts-expire-in] default will be able to be
+  controlled by the GitLab administrator. Previously unless a specific duration
+  was set, artifacts would never expire. By enabling control over the default
+  value, administrators can more easily manage artifacts that do not need to be
+  stored indefinitely. Developers should set this value to their desired
+  duration if an artifact should persist for a specific time.
+
+[gitlab-ci-yml]: http://docs.gitlab.com/ce/ci/yaml/README.html
+[cache-key]: http://docs.gitlab.com/ce/ci/yaml/README.html#cache-key
+[artifacts-expire-in]: http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in
+
 
 ### Note
 
