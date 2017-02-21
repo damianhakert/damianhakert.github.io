@@ -233,6 +233,60 @@ for more fine-grained synchronization windows.
 [Repository mirroring]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html
 [sync]: https://docs.gitlab.com/ee/workflow/repository_mirroring.html#adjusting-synchronization-times
 
+## Amazing community contributions
+
+For 8.17, we merged 62 merge requests from the community, including new
+features, bug fixes, and backstage improvements!
+
+The most noticeable contributed changes are as follows:
+
+### New features & improvements
+
+- Create a TODO for user who set auto-merge when a build fails or merge conflict occurs. ([!8056])
+- Add a `/target_branch` slash command functionality for merge requests. ([!7216])
+- Allow to search within project by commit hash. ([!8028])
+- Add PlantUML support for Markdown. ([!8588])
+- Allow to promote project labels to group labels. ([!7242])
+- Add sorting pipeline for a commit. ([!8319])
+- Add the ability to define a coverage regex in the `.gitlab-ci.yml`. ([!7447])
+- Add system hook for when a project is updated (other than rename/transfer). ([!5711])
+- Display project ID in project settings. ([!8572])
+- Mark merge request as WIP when pushing WIP commits. ([!8124])
+- Add hover style to copy icon on commit page header. ([!8619])
+- Support unauthenticated LFS object downloads for public projects ([!8824])
+- Force new password after password reset via API. ([!8933])
+
+### Bugfixes
+
+- Remove flash warning from login page. ([!8864])
+- Fix tab index order on branch commits list page. ([!8489])
+- Fix `Sort by Recent Sign-in` in Admin Area. ([!8637])
+- Fix notifications when set at group level. ([!6813])
+- Fix broken anchor links when special characters are used. ([!8961])
+- Fix incorrect Sidekiq concurrency count in admin background page. ([!9359])
+- Fix disable storing of sensitive information when importing a new repo. ([!8885])
+
+[!5711]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5711
+[!6813]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6813
+[!7216]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7216
+[!7242]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7242
+[!7447]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7447
+[!8028]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8028
+[!8056]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8056
+[!8124]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8124
+[!8319]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8319
+[!8489]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8489
+[!8572]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8572
+[!8588]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8588
+[!8619]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8619
+[!8637]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8637
+[!8824]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8824
+[!8864]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8864
+[!8885]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8885
+[!8933]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8933
+[!8961]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8961
+[!9359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9359
+
 ## Additional Changes
 
 - Added support for multiple mount points for [repository storage](https://docs.gitlab.com/ee/administration/repository_storage_paths.html) (EE only).
