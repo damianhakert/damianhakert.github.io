@@ -36,7 +36,7 @@ We do the [smallest thing possible and get it out as quickly as possible](https:
 1. **We do what we promised** We do what we promised to each-other, customers, users, and investors.
 1. **Measure results not hours** We care about what you achieve; the code you shipped, the user you made happy, and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead, celebrate the achievements of
-yourself and your teammates.
+yourself and your teammates. You don't have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules.
 
 ## Efficiency
 
@@ -50,6 +50,7 @@ so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Don't waste our time**
 1. **Spend company money like it's your own** every dollar we spend will have to be earned back, be as frugal with company money as you are with your own.
+1. **Freedom** You should have clear objectives and the freedom to work on them as you see fit.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
 1. **ConvDev** we work according to the principles of [conversational development](http://conversationaldevelopment.com/).
 1. **Short verbal answers** Give short answers to verbal questions so the other party has to opportunity to ask more or move on.
