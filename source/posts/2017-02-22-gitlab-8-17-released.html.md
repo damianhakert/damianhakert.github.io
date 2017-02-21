@@ -225,12 +225,60 @@ for more fine-grained synchronization windows.
 - Added the ability configure a [repository's mirror sync interval](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) (EE only).
 - Added `repository_storage` and `approvals_before_merge` fields to [API V3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
 - Moved the [License Breakdown](https://docs.gitlab.com/ee/user/admin_area/license.html) to the Admin Overview page (EE only).
+- Email confirmation link will no longer automatically log you into your GitLab instance. This was changed due to security concerns, see [gitlab-org/gitlab-ce!7472](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7472) for details.
 
-## Deprecation of Git-Annex Support
+## Omnibus GitLab package changes
+
+### PostgreSQL version upgrade
+
+As mentioned [in the 8.15 release post](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/#postgresql-version-upgrade),
+omnibus-gitlab packages are equipped with `gitlab-ctl pg-upgrade` tool.
+This tool will upgrade the bundled PostgreSQL database version.
+
+Please plan the upgrade ahead of GitLab 9.0 release (scheduled for Mar. 22, 2017).
+
+The omnibus-gitlab packages for GitLab 9.0 will attempt to automatically upgrade
+your database. Additionally, [default version of PostgreSQL](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1916)
+will change for GitLab 9.0.
+
+> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server)
+
+
+> Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
+and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
+
+## Deprecations
+
+### Git-Annex Support
 
 We're [deprecating](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) support to [Git-Annex](https://docs.gitlab.com/ee/workflow/git_annex.html), available on GitLab Enterprise Edition, and it will be completely removed in the upcoming release, GitLab 9.0 (2017/03/22).
 
 Read through the migration guide from [Git-Annex to Git-LFS](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git-annex_to_git-lfs.html).
+
+### Raspbian Wheezy package
+
+8.17 will be [the last release](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1947)
+with support for Raspbian Wheezy Raspberry Pi2 packages. GitLab 9.0 will continue
+to be available on Raspbian Jessie.
+
+### Change in package repository distribution for Raspberry PI
+
+Due to a migration to new build infrastructure, several months ago Raspberry PI
+packages [started being released](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303)
+under `debian` distribution of [raspberry pi2 repositiory](https://packages.gitlab.com/app/gitlab/raspberry-pi2/).
+This was not the original intention and in the following months users needed to do
+a [manual change in their package repository sources](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303#note_21058665)
+to fetch the latest package.
+With 9.0 we will deprecate the `debian` distribution and move back to `raspbian` which was the previous default.
+
+### Standalone GitLab CI configuration
+
+GitLab CI standalone was merged into GitLab application with version 8.0. We
+shipped configuration that helped users migrate their infrastructure to the new situation.
+With GitLab 9.0 omnibus-gitlab package, [we are removing](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/792) all
+support for standalone GitLab CI. If you still make use of configuration such as
+`ci_external_url` and [redirecting traffic to the old address](https://docs.gitlab.com/ce/migrate_ci_to_ce/README.html#iii-redirecting-traffic),
+please update your configuration in time.
 
 ## Upgrade barometer
 
