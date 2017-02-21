@@ -127,6 +127,41 @@ issues and merge requests.
 
 ![Copy and paste GitLab markdown in GitLab 8.17](/images/8_17/gitlab_markdown_copy_paste.gif){: .shadow}
 
+## Link from Merge Request interface to Environment
+
+With the new ability to [link files in a merge request to live previews of those files][environment-link-doc],
+GitLab's Review Apps just became a lot more powerful.
+
+Using the new `.gitlab/route-map.yml` file, you can map routes to their respective
+URLs to allow for easy preview of specific changes. This is more difficult for
+dynamic apps built with frameworks like Rails or Django, but for static sites this is
+perfect.
+
+For example, this is [the current `route-map.yml` for about.gitlab.com][www-gitlab-com-route-yml]:
+
+```yml
+# Team data
+- source: 'data/team.yml' # data/team.yml
+  public: 'team/' # team/
+# Blogposts
+- source: /source\/posts\/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.+?)\..*/ # source/posts/2017-01-30-around-the-world-in-6-releases.html.md.erb
+  public: '\1/\2/\3/\4/' # 2017/01/30/around-the-world-in-6-releases/
+# HTML files
+- source: /source\/(.+?\.html).*/ # source/index.html.haml
+  public: '\1' # index.html
+# Generators
+- source: /source\/(.*)\/template\..*/ # source/direction/template.html.md.erb
+  public: '\1/' # direction/
+# Other files
+- source: /source\/(.*)/ # source/images/blogimages/around-the-world-in-6-releases-cover.png
+  public: '\1' # images/blogimages/around-the-world-in-6-releases-cover.png
+```
+
+![Go directly from source files to public pages on the environment](/images/8_17/gitlab_environment_link.png){: .shadow}
+
+[environment-link-doc]: https://docs.gitlab.com/ce/ci/environments.html#go-directly-from-source-files-to-public-pages-on-the-environment
+[www-gitlab-com-route-yml]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/route-map.yml
+
 ## Streamlining Project Settings and Navigation
 
 We are continuing to streamline project settings and navigation, which we first
