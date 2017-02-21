@@ -65,6 +65,8 @@ Alternatively we can also make it a YouTube live event, people can ask us questi
 
 The EA should follow up to make sure the draft post is submitted.
 
+Reply to emails: Thanks for wanting to chat. I propose we meet in the format proposed on https://about.gitlab.com/handbook/people-operations/ceo-preferences/#pick-your-brain-meetings so that other people benefit from our conversation too. If you're up for that please work with Kirsten (cc:) to schedule a time and location.
+
 ## Email
 {: #emails}
 
