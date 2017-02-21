@@ -60,6 +60,21 @@ Once a change has been made, an alternative representative from People Ops will 
 
 Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
 
+### Process Tinggly
+
+1. A peer or manager will send an email to People Ops to nominate an individual for a Tinggly values based gift.
+1. Ensure that the email is sent and approved by the correct managers.
+  * For a peer nominating a peer, the hiring manager can approve the gift.
+  * For a manager nominating a direct report, the next highest manager can approve the award. If the manager reports to the CEO, approval is not necessary.
+  * For a Bucket List gift, arrangements must be made by People Ops and Tinggly once an experience and dates are selected.
+1. Place the order for the box on Tinggly's website.
+  * You will need their address and phone number for shipping.
+  * TODO Add platform instructions
+1. For most valuable team member post on the culture page who was awarded, the month, and a summary of why they were selected.
+1. Tinggly will bill GitLab on a monthly basis based on the amount of boxes sent. Each month People Ops should audit this report and ensure that the program is being used responsibly.
+
+Note: This is a temporary process until People Ops and Tinggly can build an API to automate and take People Ops out of the ordering process.
+
 ### Using BambooHR
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
