@@ -40,6 +40,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-demos](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
+>   * TODO: [Document how to clean up a GKE cluster after demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/28502)
 > * This script assumes the `make-sid-dance.com` domain, but you should buy a new domain for your demo and substitute throughout the script.
 >   * [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection. You may still have to manually configure custom name servers, even though Google Domain name servers is the default. They seem to be different servers than GCP expects.
 >   * [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
