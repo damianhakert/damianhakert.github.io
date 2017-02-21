@@ -43,6 +43,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 >   * TODO: [Document how to clean up a GKE cluster after demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/28502)
 > * This script assumes the `make-sid-dance.com` domain, but you should buy a new domain for your demo and substitute throughout the script.
 >   * [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection. You may still have to manually configure custom name servers, even though Google Domain name servers is the default. They seem to be different servers than GCP expects.
+>   * TODO: [Create 5 domains (1 for each day of the week) for use in demos](https://gitlab.com/gitlab-org/gitlab-ee/issues/1777).
 >   * [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
 >   * Click `Registrar Setup` to see what name servers to use.
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain (e.g. make-sid-dance), and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
