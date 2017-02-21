@@ -23,7 +23,7 @@ security practices within the company.
 
 As a lead of the security team you should organize the work to keep the trust of our users:
 
-1. Make a risk assessment based on ISO 27001
+1. Make a risk assessment (based on ISO 27001 but we don't seek certification)
 1. Define priorities, scope, and a time-line
 1. Define a hiring plan, budget, and internal cooperation you need.
 1. Make sure the plan is always up to date and links to the relevant issues
@@ -31,7 +31,8 @@ As a lead of the security team you should organize the work to keep the trust of
 
 The actions can be on the following fronts:
 
-- Hiring an training an application security engineer that gets others excited.
+- Application security engineer that gets others excited about security and runs the bud bounty program (1 person)
+- Secure Development Life-cycle (SDL) process guidance
 - Style guides and design best practices for engineering
 - Courses for engineering (including guest speakers)
 - Reduce surface area in application (Git Annex, old API)
@@ -40,20 +41,22 @@ The actions can be on the following fronts:
 - Automated testing/linting
 - Compliance (HIPAA)
 - Offensive (pen testing)
-- Defensive (Monitoring, Detection, IDS, OSSEC, updates, response), 1 person
+- Detection and response (monitoring, Detection, IDS, OSSEC, updates, response), 1 person that can also be the lead
+- Network security (teleport, VPC's, firewalls, access control, also IDS), 1 person in the production team
+- Patch management / Vulnerability management and coordination (modeled after relevant ISO standard)
 - Defense in depth recommendations
 - Penetration testing by externals
 - Source code analysis by externals
 - Bug bounty program
-- Endpoint security (phishing, yubikey, reducing access), 1 person
-- Network security (teleport, VPC's), 1 person
+- Endpoint security (fleetsmith, encryption, phishing reporting, yubikey, reducing access), 1 person in production team
 - Runbooks for incidents, recovery plans
-- Abusive (spam, bitcoin mining)
+- Abuse (spam, bitcoin mining)
 - Package infrastructure/update/release process/patches
-- Communication (blog post, postmortems, crisis communication)
+- Communication (blog post, postmortems, incident response/crisis communication)
 - Dependencies and contribution security risks
+- Credential management (Vault)
 
-We agree that [Good Security Is Holistic](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e). We think that simulating a security culture in engineering is one of the most important things.
+We agree that [Good Security Is Holistic](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e). We think that simulating a security culture in engineering is one of the most important things. We don't do checklist security, the goal is to keep the trust of our users by being secure, compliance is not a goal in itself. We don't think that third party products are important but they are no silver bullet to make everything secure.
 
 ## Requirements for Applicants
 
