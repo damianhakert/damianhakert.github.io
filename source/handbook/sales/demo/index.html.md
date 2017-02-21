@@ -77,8 +77,6 @@ Now we need to get an external IP address for the demo so that we can use a doma
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
 > * Click the `Reserve` button at the bottom of the page.
 
-This may take just a moment while the system allocates the address.
-
 We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
 
 > * Copy the External Address from the list, from the line containing the name you used.
