@@ -340,6 +340,8 @@ And now it gives me an option to create a Merge Request, how nice of it. Let's g
 
 ## Test (CI)
 
+TODO: [Leverage Heroku CI in buildpacks for zero-configuration CI](https://gitlab.com/gitlab-org/gitlab-ce/issues/26941)
+
 As soon as the Merge Request is created, we see it kicked off the CI/CD Pipeline that will test our contributed code.
 
 > * Click on Pipelines
