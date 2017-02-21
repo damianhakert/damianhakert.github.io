@@ -108,7 +108,7 @@ Pro tip: Now you can quickly learn from GFM experts by copying their issues and 
 
 [gfm-doc]: https://docs.gitlab.com/ce/user/markdown.html#gitlab-flavored-markdown-gfm
 
-![Copy and paste GitLab markdown in GitLab 8.17](/images/8_17/gitlab_markdown_copy_paste.gif.png){: .shadow}
+![Copy and paste GitLab markdown in GitLab 8.17](/images/8_17/gitlab_markdown_copy_paste.gif){: .shadow}
 
 ## Streamlining Project Settings and Navigation
 
