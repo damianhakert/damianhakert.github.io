@@ -19,6 +19,42 @@ security practices within the company.
 * Analyze and advise on new security technologies and program conformance
 * Write documentation around how to maintain a high-level of security.
 
+## Lead
+
+As a lead of the security team you should organize the work:
+
+1. Make a risk assessment based on ISO 27001
+1. Define priorities, scope, and a time-line
+1. Define a hiring plan, budget, and internal cooperation you need.
+1. Make sure the plan is always up to date and links to the relevant issues
+1. Guard the time-line and escalate when needed
+
+The actions can be on the following fronts:
+
+- Hiring an training an application security engineer that gets others excited.
+- Style guides and design best practices for engineering
+- Courses for engineering (including guest speakers)
+- Reduce surface area in application (Git Annex, old API)
+- Post-postmortems on found security bugs (helps people think about it, high leverage)
+- Document security trade-offs
+- Automated testing/linting
+- Compliance (HIPAA)
+- Offensive (pen testing)
+- Defensive (Monitoring, Detection, IDS, OSSEC, updates, response), 1 person
+- Defense in depth recommendations
+- Penetration testing by externals
+- Source code analysis by externals
+- Bug bounty program
+- Endpoint security (phishing, yubikey, reducing access), 1 person
+- Network security (teleport, VPC's), 1 person
+- Runbooks for incidents, recovery plans
+- Abusive (spam, bitcoin mining)
+- Package infrastructure/update/release process/patches
+- Communication (blog post, postmortems, crisis communication)
+- Dependencies and contribution security risks
+
+We agree that [Good Security Is Holistic](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e). We think that simulating a security culture in engineering is one of the most important things.
+
 ## Requirements for Applicants
 
 * Significant computer security experience in production-level settings
