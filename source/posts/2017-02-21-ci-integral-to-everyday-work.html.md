@@ -1,11 +1,11 @@
 ---
-title: Continuous Integration – no longer just a “nice to have”
+title: Continuous Integration – the most important tool in your kit
 author: Rebecca Dodd
 author_twitter:
 author_gitlab: rebecca
 categories: concepts
 image_title: '/images/blogimages/ci-nice-to-have-post.png'
-description: 77% of developers say Continuous Integration is integral to everyday work – we break down what that means.
+description: 77% of developers say Continuous Integration is integral to their everyday work – we break down what that means.
 cta_button_text: 'Join our <strong>Continuous Everything</strong> webcast live!'
 cta_button_link: 'https://page.gitlab.com/20170301_continuouseverything.html'
 ---
@@ -18,7 +18,7 @@ Continuous Integration (CI) automates testing of new code, sparing developers th
 
 Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) was launched last year to explore the ways in which developers work is changing, and how you as a business can adapt to get the best out of your development team. With a developer-heavy sample (more than half of respondents identify as developer or engineer), the survey revealed some truths about what matters to developers, how they choose to work and what tools they choose to do it with. To see what our research revealed, you can [download the full report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to learn more about what today’s developers want.
 
-One of the key takeaways from the survey is that Continuous Integration now plays a big part in daily work, and is becoming more and more important to delivering great features frequently. CI frees up time that would otherwise be spent on finding and fixing errors, and it decreases the chance of shipping code that isn’t ready.
+One of the key takeaways from the survey is that Continuous Integration now plays a crucial part in daily work, and is becoming more and more important to delivering great features frequently. CI frees up time that would otherwise be spent on finding and fixing errors, and it decreases the chance of shipping code that isn’t ready.
 
 ## CI Is Used by More Than Half of Developers 
 
