@@ -46,7 +46,7 @@ so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/hanbook/communication/#team-call) where we spend most
+is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most
 of our time talking about what we did in our private lives, from fire-throwing to
 knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.

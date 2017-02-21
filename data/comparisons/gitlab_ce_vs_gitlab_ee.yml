@@ -1,4 +1,5 @@
-title: "GitLab CE vs. GitLab EE"
+title: "GitLab EE vs. GitLab CE"
+pdf: gitlab-ce-vs-gitlab-ee.pdf
 description: "GitLab Community Edition is great for personal projects or small teams with minimal user management and workflow control needs. GitLab Enterprise Edition offers ALL the benefits of Community Edition, with added support for large companies which often have distributed teams who need advanced workflow controls and security for their professional projects, High Availability, and Premium Support."
 competitor_one:
   name: 'GitLab CE'

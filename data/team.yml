@@ -31,27 +31,6 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
-- name: Bruce Armstrong
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: Khosla Ventures
-  twitter: khoslaventures
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
-
-- name: Villi Iltchev
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: August Capital
-  twitter: VilliSpeaks
-  gitlab: Villi
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
-
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
@@ -308,6 +287,16 @@
           At GitLab he really enjoys the combination of operations and development.
           In his spare time he really likes to work on his small electronics projects based on arduino and pi.
 
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: Khosla Ventures
+  twitter: khoslaventures
+  picture: bruce.jpg
+  story:  |
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
+
 - name: Drew Blessing
   locality: Kearney, NE
   country: USA
@@ -319,8 +308,7 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitLab Hosted (GitHost)</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -571,8 +559,8 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li>GitHost maintainer</li>
              <li>Backend merge request reviewer</li>
+             <li>GitLab Hosted (GitHost) reviewer</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
@@ -1425,6 +1413,17 @@
   story:  |
           Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
 
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: August Capital
+  twitter: VilliSpeaks
+  gitlab: Villi
+  picture: villi.jpg
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
+
 - name: Pedro Moreira da Silva
   locality: Lisbon
   country: Portugal
@@ -1637,7 +1636,7 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
@@ -1760,7 +1759,7 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
@@ -2184,16 +2183,16 @@
   story:  |
           Joining February 6th
 
-- name: S.G.
-  locality:
-  country:
+- name: Scott Grudman
+  locality: Tallahassee, Florida
+  country: USA
   role: <a https://about.gitlab.com/jobs/business-development-representative-outbound/">Sales Development Rep</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: scottgrudman.png
+  twitter: ScottGrudman
+  gitlab: ScottGrudman
+  story:  Scott has been helping companies be successful through new and exciting technologies for nearly 8 years. He enjoys playing guitar, bass, drums, and PS4 whenever possible and can sometimes be found squished in photo pits as a freelance photographer of concerts and music festivals.
+         
 
 - name: T.P.
   locality:
@@ -2206,16 +2205,16 @@
   story:  |
           Joining February 6th
 
-- name: A.J.
-  locality:
-  country:
+- name: Adam Johnson
+  locality: Golden, Colorado
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: adamjohnson.jpg
+  twitter: adam31johnson
+  gitlab: adamjohnson
+  story:  A passionate agilist after years of living in a waterfall world, Adam's professional passion is selling in to and collaborating with Senior Leadership at Enterprise organizations. His goal is simple - focus on making their teams and company more effective, while empowering them to make and meet their commitments to the business. Outside of work Adam is a family man. He enjoys all things outdoors including big mountain skiing, hiking, camping, and anything else that the 300+ days of sunshine brings to Colorado.
+
 
 - name: M.B.
   locality:
@@ -2239,6 +2238,17 @@
   story:  |
           Joining February 15th
 
+- name: A.O.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 1st
+
 - name: B.V.
   locality:
   country:
@@ -2250,16 +2260,16 @@
   story:  |
           Joining March 6th
 
-- name: A.O.
+- name: P.A.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: Regional Sales Director - US
+  role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
+  reports_to: CRO
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining March 13th
+          Joining March 15th
 
 - name: "Sid (Interim)"
   placeholder: true

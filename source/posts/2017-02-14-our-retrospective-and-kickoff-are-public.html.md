@@ -17,18 +17,19 @@ calls public.
 ## The Retrospective Meeting
 
 After each release we have a retrospective
-call  (usually on the 23rd of each month) in which we discuss what went well, what went wrong, and what we can improve
+call in which we discuss what went well, what went wrong, and what we can improve
 for the next release. The [retrospective notes] are public and you are invited
 to comment on them. If you're interested, you can even join the
-[retrospective call][retro-kickoff-call], on the 8th of every month at 6pm CET / 9am PST (unless it's on a weekend, then it's the first working day of the week after).
+[retrospective call][retro-kickoff-call], on the first working day after the 22nd
+at 6pm CET / 9am PST.
 
 ## The Kickoff Meeting
 
 Before working on the next release we have a
-kickoff call (on the first working day after the 7th) to explain what we expect to ship in the next release. The
+kickoff call to explain what we expect to ship in the next release. The
 [kickoff notes] are public and you are invited to comment on them.
 If you're interested, you can even join the [kickoff call][retro-kickoff-call],
-on the 23rd of every month at 6pm CET / 9am PST (unless it's on a weekend, then it's the first working day of the week after).
+on the first working day after the 7th at 6pm CET / 9am PST.
 
 ## The 8.16 Retrospective and 8.17 Kickoff call
 

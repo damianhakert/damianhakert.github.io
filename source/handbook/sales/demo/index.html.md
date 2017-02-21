@@ -103,8 +103,8 @@ Good, our cluster is ready for us to use. Let's connect to it. We'll use the the
 Now that we have our access to the cluster configured, we're ready to generate our configuration. To do this, we'll need the External IP Address we just configured, a domain name, and an email address to use with Let's Encrypt. Then we can use this bash script to generate a YML file that describes everything we need. And then we use `kubectl` to create all the resources from the YML file.
 
 > * Stay in the Terminal window
-> * Compose the following, filling in your values from the previous steps:
->   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@make-sid-dance.com bash generate.bash`
+> * Compose the following, filling in your values from the previous steps: (use your email address)
+>   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@gitlab.com bash generate.bash`
 > * You will see the output similar to
 >   * `Using gitlab-make-sid-dance-com.yml`
 > * From the Terminal window, run the following, changing the yml file name to match the name of the one that was just created for you

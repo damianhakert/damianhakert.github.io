@@ -8,21 +8,21 @@
           %i.fa.fa-chevron-down
         %ul.dropdown-menu
           %li
-            = highlight_active_nav_link("GitLab Self-hosted vs. GitHub.com", "/comparison/gitlab-self-hosted-vs-github.html#dropdown")
+            = highlight_active_nav_link("GitHub.com vs. GitLab Self-hosted", "/comparison/gitlab-self-hosted-vs-github.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab EE vs GitHub Enterprise", "/comparison/gitlab-ee-vs-github-enterprise.html#dropdown")
+            = highlight_active_nav_link("GitHub Enterprise vs. GitLab EE", "/comparison/gitlab-ee-vs-github-enterprise.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab.com vs. GitHub.com", "/comparison/gitlab-vs-github.html#dropdown")
+            = highlight_active_nav_link("GitHub.com vs. GitLab.com", "/comparison/gitlab-vs-github.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab.com vs. Bitbucket.org", "/comparison/gitlab-com-vs-bitbucket-org.html#dropdown")
+            = highlight_active_nav_link("Bitbucket.org vs. GitLab.com", "/comparison/gitlab-com-vs-bitbucket-org.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab vs Bitbucket Server", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html#dropdown")
+            = highlight_active_nav_link("Bitbucket Server vs. GitLab", "/comparison/gitlab-ce-ee-vs-bitbucket-server.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab CE vs. GitLab EE", "/comparison/gitlab-ce-vs-gitlab-ee.html#dropdown")
+            = highlight_active_nav_link("GitLab EE vs. GitLab CE", "/comparison/gitlab-ce-vs-gitlab-ee.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab vs. SaaS", "/comparison/gitlab-ce-ee-vs-saas.html#dropdown")
+            = highlight_active_nav_link("SaaS vs. GitLab", "/comparison/gitlab-ce-ee-vs-saas.html#dropdown")
           %li
-            = highlight_active_nav_link("GitLab vs. SVN", "/comparison/gitlab-vs-svn.html#dropdown")
+            = highlight_active_nav_link("SVN vs. GitLab", "/comparison/gitlab-vs-svn.html#dropdown")
 %h1.titles-comparison-companies.text-center
   = comparison_block.title
 - if (comparison_block.feature_page != "null")
@@ -75,9 +75,10 @@
             = partial "includes/icons/comparison/no-icon.svg"
 
 .last-updated-section
-  %p
+  %p.clearfix
     Last updated:
     = comparison_block.last_updated
+    = link_to "Download as PDF", "/comparison/pdfs/#{comparison_block.pdf}", class: "featured-item-button pull-right", download: "Comparison PDF", target: "_blank"
   %p
     Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the
     comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab.

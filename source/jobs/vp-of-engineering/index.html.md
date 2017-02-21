@@ -31,4 +31,4 @@ title: "Vice President of Engineering"
 * Lead multiple engineering teams before
 * Familiar with open source work methods
 * Engineering experience
-* Potential to lead a 250 person enginering organization
+* Potential to lead a 250 person engineering organization

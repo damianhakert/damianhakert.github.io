@@ -1,4 +1,5 @@
-title: "GitLab.com vs. Bitbucket.org"
+title: "Bitbucket.org vs. GitLab.com"
+pdf: gitlab-com-vs-bitbucket-org.pdf
 competitor_one:
   name: 'GitLab.com'
   logo: '/images/comparison/gitlab-logo.svg'

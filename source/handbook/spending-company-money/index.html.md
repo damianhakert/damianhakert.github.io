@@ -3,14 +3,12 @@ layout: markdown_page
 title: "Spending Company Money"
 ---
 
-## Welcome to our Spending Company Money page
-
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect GitLabbers to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.
 1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
-1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
+1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in [acquiring some items](https://about.gitlab.com/handbook/people-operations/sop/#ordering-supplies). Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper [asset tracking](/handbook/people-operations/sop/#asset-tracking). Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to PeopleOps as soon as it occurs. Links in the list below are to sample items, other options can be considered:
@@ -23,7 +21,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  [Headset](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=ac5827eb0f710d43c99d3715a05c0470fc91de286c1b5b57d4ff3412191a59385cab6f561626d062ee8e07a4b043fc12ab31a822639ade516ee00e2f5c61576a5ddb7e97cbb90a6ea5af3add73c1d412017bb8691535185d1776390844ca2825)
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
-    *  Ergonomic [chair](https://www.amazon.com/gp/product/B0166J96XA/ref=pd_sbs_229_2?ie=UTF8&pd_rd_i=B0166J96XA&pd_rd_r=YR3Q8ZEWPP09EFR3AQ4Y&pd_rd_w=0KI3x&pd_rd_wg=MSYIX&psc=1&refRID=YR3Q8ZEWPP09EFR3AQ4Y)
+    *  Ergonomic [chair](https://www.amazon.com/Merax-Ergonomic-Adjustable-Office-Reclining/dp/B01MXEP6BU/ref=sr_1_5_m?s=home-garden&ie=UTF8&qid=1487280101&sr=1-5&keywords=Merax%2Bergonomic%2Bchair&th=1)
     *  [Notebook stand](https://www.amazon.com/Roost-Laptop-Stand-Productivity-Lightweight/dp/B01C9KG8IG)
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
