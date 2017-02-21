@@ -123,7 +123,7 @@ all the settings that were previously spread across the 4 original pages.
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
 
-## Additional details included in Merge Request workflow
+## Additional Details Included in Merge Request Workflow
 
 We have made improvements to the look and feel of the Merge Request workflow,
 as well as included additional details on the CI/CD Pipeline status. You are
@@ -145,7 +145,7 @@ context of the channel you are working in has never been easier or prettier!
 [slack-chatops]: https://docs.gitlab.com/ce/user/project/integrations/slack_slash_commands.html
 [mattermost-chatops]: https://docs.gitlab.com/ce/user/project/integrations/mattermost_slash_commands.html
 
-## Improving terminology within CI/CD
+## Improving Terminology within CI/CD
 
 We have clarified the terminology used to discuss parts of [CI/CD][cicd],
 replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring
@@ -181,7 +181,7 @@ and we're looking forward to ship some great features for V4 on 9.0, such as:
 Keep track on [CE](https://docs.gitlab.com/ce/api/v3_to_v4.html) and
 [EE](https://docs.gitlab.com/ee/api/v3_to_v4.html) V4 API changes docs for further information.
 
-### V3 deprecation
+### V3 Deprecation
 
 Given the current V4 shipping, we're planning to keep V3 API up until 9.3 GitLab release.
 Only bugs and security fixes will be done on V3 up until then.
@@ -226,16 +226,16 @@ to take approximately 15 minutes downtime to ease the load of the database.
 
 The slow migrations add columns with default values to `users` and `projects`.
 
-### Upcoming changes to defaults in gitlab-ci.yml
+### Upcoming changes to defaults in `.gitlab-ci.yml`
 
 As part of our 9.0 release, we will be changing the default behavior of two
-flags in [gitlab-ci.yml][gitlab-ci-yml] to provide an improved standard experience.
+flags in [`.gitlab-ci.yml`][gitlab-ci-yml] to provide an improved standard experience.
 
-* The [cache:key][cache-key] directive will default to a constant string. This
+* The [`cache:key`][cache-key] directive will default to a constant string. This
   means that the cache will now be shared across branches and stages, reducing
   build time making more efficient use of Runners. Note a cache is never shared
   across projects.
-* The [artifacts:expire_in][artifacts-expire-in] default will be able to be
+* The [`artifacts:expire_in`][artifacts-expire-in] default will be able to be
   controlled by the GitLab administrator. Previously unless a specific duration
   was set, artifacts would never expire. By enabling control over the default
   value, administrators can more easily manage artifacts that do not need to be
