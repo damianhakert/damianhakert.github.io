@@ -55,9 +55,9 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` directory you have just cloned.
 > * Before the demo, run `sudo gcloud components update; gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
 
-## Install GitLab itself
+## Set up a container scheduler cluster
 
-The first step is to install GitLab itself. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google. We’re going to install everything from scratch and we’ll start by creating a new cluster.
+We’re going to install everything from scratch and we’ll start by creating a new container cluster. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google.
 
 > * [Create cluster](https://console.cloud.google.com/kubernetes/add?project=gitlab-demos) (or open [GCP](https://console.cloud.google.com/kubernetes), pick [`gitlab-demos` project](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos) and click Create cluster).
 
@@ -99,6 +99,8 @@ Good, our cluster is ready for us to use. Let's connect to it. We'll use the the
 >   * `gcloud container clusters get-credentials makesiddance-com \
     --zone us-central1-a --project gitlab-demos`
 > * Switch to the Terminal window, paste this command in, run it.
+
+## Set up GitLab itself
 
 Now that we have our access to the cluster configured, we're ready to generate our configuration. To do this, we'll need the External IP Address we just configured, a domain name, and an email address to use with Let's Encrypt. Then we can use this bash script to generate a YML file that describes everything we need. And then we use `kubectl` to create all the resources from the YML file.
 
