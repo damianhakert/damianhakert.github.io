@@ -1,5 +1,5 @@
 ---
-title: Continuous Integration – the most important tool in your kit
+title: Continuous Integration – a tool developers expect
 author: Rebecca Dodd
 author_twitter:
 author_gitlab: rebecca
