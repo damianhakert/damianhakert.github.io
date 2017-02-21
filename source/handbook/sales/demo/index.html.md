@@ -96,6 +96,8 @@ Good, our cluster is ready for us to use. Let's connect to it. We'll use the the
 
 > * Click on the `Connect` button for your cluster.
 > * Click the `copy` icon to the right of the `gcloud container ...` entry. It looks like two overlapping white boxes.
+>   * `gcloud container clusters get-credentials makesiddance-com \
+    --zone us-central1-a --project gitlab-demos`
 > * Switch to the Terminal window, paste this command in, run it.
 
 Now that we have our access to the cluster configured, we're ready to generate our configuration. To do this, we'll need the External IP Address we just configured, a domain name, and an email address to use with Let's Encrypt. Then we can use this bash script to generate a YML file that describes everything we need. And then we use `kubectl` to create all the resources from the YML file.
