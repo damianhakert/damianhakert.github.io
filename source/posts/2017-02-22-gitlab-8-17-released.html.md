@@ -252,7 +252,7 @@ and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab
 
 We're [deprecating](https://gitlab.com/gitlab-org/gitlab-ee/issues/1648) support to [Git-Annex](https://docs.gitlab.com/ee/workflow/git_annex.html), available on GitLab Enterprise Edition, and it will be completely removed in the upcoming release, GitLab 9.0 (2017/03/22).
 
-Read through the migration guide from [Git-Annex to Git-LFS](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git-annex_to_git-lfs.html).
+Read through the migration guide from [Git-Annex to Git-LFS](https://docs.gitlab.com/ee/workflow/lfs/migrate_from_git_annex_to_git_lfs.html).
 
 ### Raspbian Wheezy package
 
