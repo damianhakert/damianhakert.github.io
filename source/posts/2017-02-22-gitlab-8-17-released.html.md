@@ -97,6 +97,19 @@ Simply select the option in the merge request itself.
 
 ![Squash and merge in GitLab 8.17](/images/8_17/squash_edit_form.png){: .shadow}
 
+## Copy and Paste GitLab Markdown
+
+Transcribing formatted text to [GitLab Flavored Markdown (GFM)][gfm-doc] is often a pain.
+You may find yourself going to the edit mode of an issue description or comment to just copy the plaintext GFM, paste it in another GitLab textarea, make some changes, before submitting it.
+With 8.17, you can simply copy any issue / merge request description / comment (i.e. GFM textarea) in regular view mode, and paste it in another GFM textarea.
+All the formatting is carried over automatically.
+This even includes links and images.
+Pro tip: Now you can quickly learn from GFM experts by copying their issues and merge requests.
+
+[gfm-doc]: https://docs.gitlab.com/ce/user/markdown.html#gitlab-flavored-markdown-gfm
+
+![Copy and paste GitLab markdown in GitLab 8.17](/images/8_17/gitlab_markdown_copy_paste.gif.png){: .shadow}
+
 ## Streamlining Project Settings and Navigation
 
 We are continuing to streamline project settings and navigation, which we first
