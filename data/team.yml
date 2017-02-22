@@ -2210,16 +2210,16 @@
   story:  |
           Joining February 13th
 
-- name: J.M.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+- name: John May
+  locality: Centennial Colorado
+  country: USA
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
+  picture: johnmay.jpg
   twitter:
-  gitlab:
-  story:  |
-          Joining February 15th
+  gitlab:jmay
+  story:  | John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps and has a passion for helping companies to innovate. In his sparetime, he can often be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.  
+          
 
 - name: A.O.
   locality:
