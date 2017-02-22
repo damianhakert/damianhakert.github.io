@@ -60,7 +60,7 @@ read through the [admin documentation] or watch the [video tutorial].
 [pages-ssgs-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [pages]: https://pages.gitlab.io/
 [post-pages-setup]: /2016/04/07/gitlab-pages-setup/
-[pages-docs]: http://docs.gitlab.com/ce/user/project/pages/index.html
+[pages-docs]: https://docs.gitlab.com/ce/pages/
 [video tutorial]: https://youtu.be/dD8c7WNcc6s
 
 <!-- NOTE FOR MARCIA, AXIL, OR SEAN P.: UPDATE LINK PAGES-DOCS TO
