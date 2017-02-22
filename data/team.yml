@@ -2212,16 +2212,16 @@
           Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
           I joined GitLab to help others improve the way they make software. What a great way to make a living.
 
-- name: J.M.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+- name: John May
+  locality: Centennial Colorado
+  country: USA
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
+  picture: johnmay.jpg
   twitter:
-  gitlab:
-  story:  |
-          Joining February 15th
+  gitlab: jmay
+  story:  | 
+          John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.  
 
 - name: A.O.
   locality:
