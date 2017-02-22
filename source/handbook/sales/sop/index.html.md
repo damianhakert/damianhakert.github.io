@@ -171,6 +171,26 @@ The following quote metrics are available:
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
+#### How to Handle Duplicate Accounts and Opportunities from Web Direct Purchases
+
+In some cases, a prospect or customer that is currently engaged with an AE or AM on an opportunity might be proactive and sign up online via the web portal. If this occurs, then a duplicate Account, Opportunity, and Contact may be created. In the event that a duplicate opportunity is created, please do the following to resolve. Unfortunately there is no current method of merging opportunities so the work is manual at this time:
+
+1. In the Opportunity Detail section, copy the values from the following fields from the original opp to the new opps: Lead Source, Sales Qualified is TRUE, Sales Qualified Date, SQL Amount, and the Business Development Rep or SDR field.
+1. In the Qualification Questions section, copy over all of the answers to the qualifying questions. Also, add the Competitor (if applicable) and the Qualification Notes.
+1. In the Contact Roles section, add any contacts associated to the Opportunity from the original to the new opp.
+1. In the Activities History related list, reassociate tasks from the original opp to the new opp. If there are a lot of activities, move over the most important tasks. To do this, go to the activity you'd like to move and click Edit. In the Related To section on the right side, replace the original opportunity name with the new one.
+1. If you have anything in the Notes and Attachments section, you'll have to recreate these in the new opportunity as Salesforce does not have a method of reassociating these to the new opportunity.
+1. Once you've done this, go back to the original opportunity and change the Stage to "Duplicate".
+1. Send an email or Slack Sales Ops to merge the duplicate accounts and the duplicate contacts. Please provide the URLs for both the original and new accounts. Once the merge is complete, you will be notified.
+
+If the prospect is still a Lead record that has not converted into an Account, please complete the following steps:
+
+1. Go to the Lead record and copy the following information from the Lead Information section to the Opportunity Detail section: Lead Source, Business Development Rep. 
+1. In the Opportunity Detail section, change the Sales Qualified to TRUE, Sales Qualified Date should be the Close Date, and the SQL Amount should be the Amount.
+1. In the Qualified Questions section, copy over the answers from the Lead to the Opportunity.
+1. In the Activities History related list, reassociate tasks from the original opp to the new opp. If there are a lot of activities, move over the most important tasks. To do this, go to the activity you'd like to move and click Edit. In the Related To section on the right side, replace the original opportunity name with the new one.
+1. Change the Lead Status to Web Portal Purchase and save the record.
+
 #### Closing Deals for GitHost
 
  * Confirm with client the best contact for installation, the type of plan, and how many EE users will be needed, then create quote.
