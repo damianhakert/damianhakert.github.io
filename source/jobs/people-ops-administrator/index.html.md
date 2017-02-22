@@ -3,6 +3,8 @@ layout: job_page
 title: "People Operations Administrator"
 ---
 
+This role reports to the Senior Director of People Operations and works daily to support the recruiting team.
+
 ## Responsibilities
 
 * Responsible for the day to day administration of tasks leading up to and resulting from employment decisions and providing support to Global Recruiters
