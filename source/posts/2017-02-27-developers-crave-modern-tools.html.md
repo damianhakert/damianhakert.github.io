@@ -18,7 +18,7 @@ Last year, we launched our [Global Developer Survey](https://page.gitlab.com/201
 
 Our sample is developer-heavy, with 53 percent of respondents identifying themselves as an engineer or developer, ensuring that their views are well-represented here. 
 
-![How much Continuous Integration is used](/images/blogimages/ci-tool-developers-expect.png){: .shadow}<br>
+![What are respondents' roles](/images/blogimages/role-within-org-graph.png){: .shadow}<br>
 
 ## Devs drive adoption
 
@@ -26,7 +26,7 @@ Respondents to our survey told us emphatically that developers reign supreme whe
 
 The next most common response reinforces developers’ primacy in this area; 17 percent of respondents reported that their lead developer drives tool selection. It’s remarkable, and a clear sign of developers’ rising agency and power within their organizations, that less than 20 percent said that decision is made by their CTO/CIO, IT Director, or Head of Engineering. Tellingly, 11 percent insisted that they use whichever tools they want, even though they’re not officially in charge of the decision.  
 
-![How much Continuous Integration is used](/images/blogimages/ci-tool-developers-expect.png){: .shadow}<br>
+![Who decides which tools are used](/images/blogimages/who-in-org-decides-tools-graph.png){: .shadow}<br>
 
 ## They want the newest & best
 
