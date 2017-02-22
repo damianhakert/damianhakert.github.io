@@ -66,6 +66,7 @@ We'll name this cluster `make-sid-dance` and have it created in the us-central z
 > * Name the cluster after your domain name (e.g. `make-sid-dance`).
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
 > * Change the number of vCPU in Machine type to `2 vCPU`.
+> * *Note: The demo will run fine on a single node, if desired*
 > * Click the `Create` button at the bottom of the page.
 
 Now we need to get an external IP address for the demo so that we can use a domain name and Let's Encrypt for SSL.
