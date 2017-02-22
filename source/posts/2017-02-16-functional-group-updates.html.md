@@ -18,14 +18,19 @@ All of the updates are recorded using [Zoom](https://zoom.us) at the time of the
 
 Below are the recordings of the updates of the last 3 weeks. We aim to post a blog every week with the latest updates but might combine them.
 
-Discussion team
+---
+
+**Discussion team**
+
 [Presentation slides](http://smcgivern.gitlab.io/discussion-updates/)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/8tjVmEe5urI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Product team
+---
+
+**Product team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/BysM79IjVzY" frameborder="0" allowfullscreen="true"> </iframe>
@@ -38,40 +43,56 @@ PeopleOps team
   <iframe src="https://www.youtube.com/embed/kwWLUx0n3MQ" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Infrastructure team
+---
+
+**Infrastructure team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/I3E24RT1Ajc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-UX team
+---
+
+**UX team**
+
 [Presentation slides](http://awhildy.gitlab.io/ux-group-update/20170206.html)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/cn3Ho8ez110" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Marketing team
+---
+
+**Marketing team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/csoEkFRmQXY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-CI team
+---
+
+**CI team**
+
 [Presentation slides](https://drive.google.com/open?id=0ByS7sH-cFUkiRFlVckRMZGNkMW8)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/9K5foaojQAU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Build team
+---
+
+**Build team**
+
 [Presentation slides](https://docs.google.com/presentation/d/1LoMiATaCUkq7n0Dc00EvLIFXc59WqjBTDgLs_iZxugs/edit?usp=sharing)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/8LhyVRshaV4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Support team
+---
+
+**Support team**
+
 [Presentation slides](https://docs.google.com/presentation/d/1EizMPiTJFYm7R7Av6J7DguR_Crgo_t8pufLYKoGC5sU/edit?usp=sharing)
 
 <figure class="video_container">
