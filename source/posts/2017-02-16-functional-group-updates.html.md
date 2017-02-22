@@ -20,8 +20,7 @@ Below are the recordings of the updates of the last 3 weeks. We aim to post a bl
 
 ---
 
-**Discussion team**
-
+**Discussion team**<br>
 [Presentation slides](http://smcgivern.gitlab.io/discussion-updates/)
 
 <figure class="video_container">
@@ -36,7 +35,9 @@ Below are the recordings of the updates of the last 3 weeks. We aim to post a bl
   <iframe src="https://www.youtube.com/embed/BysM79IjVzY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-PeopleOps team
+---
+
+**PeopleOps team**<br>
 [Presentation slides](https://drive.google.com/open?id=1rr2xRpgOY-tYii8ziqymOMmnylc4R87FPHb45V_Z9u0)
 
 <figure class="video_container">
@@ -53,8 +54,7 @@ PeopleOps team
 
 ---
 
-**UX team**
-
+**UX team**<br>
 [Presentation slides](http://awhildy.gitlab.io/ux-group-update/20170206.html)
 
 <figure class="video_container">
@@ -71,8 +71,7 @@ PeopleOps team
 
 ---
 
-**CI team**
-
+**CI team**<br>
 [Presentation slides](https://drive.google.com/open?id=0ByS7sH-cFUkiRFlVckRMZGNkMW8)
 
 <figure class="video_container">
@@ -81,8 +80,7 @@ PeopleOps team
 
 ---
 
-**Build team**
-
+**Build team**<br>
 [Presentation slides](https://docs.google.com/presentation/d/1LoMiATaCUkq7n0Dc00EvLIFXc59WqjBTDgLs_iZxugs/edit?usp=sharing)
 
 <figure class="video_container">
@@ -91,8 +89,7 @@ PeopleOps team
 
 ---
 
-**Support team**
-
+**Support team**<br>
 [Presentation slides](https://docs.google.com/presentation/d/1EizMPiTJFYm7R7Av6J7DguR_Crgo_t8pufLYKoGC5sU/edit?usp=sharing)
 
 <figure class="video_container">
