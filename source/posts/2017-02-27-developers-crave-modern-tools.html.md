@@ -2,6 +2,7 @@
 title: "Developers Crave Modern Tools"
 author: Emily von Hoffmann
 author_twitter: emvonhoffmann
+image_title: '/images/blogimages/code-gitlab-tanuki.png'
 categories: inside GitLab
 description: "The way developers work is changing, and they’re opting to leave behind outdated tools."
 ---
@@ -20,7 +21,7 @@ Our sample is developer-heavy, with 53 percent of respondents identifying themse
 
 ## Devs Drive Adoption
 
-Our respondents told us that developers have the upper hand when selecting the tools they work with - when asked who in their organization decides which tools they use, a plurality of 44 percent said they choose their own. 
+Our respondents told us that developers have the upper hand when selecting the tools they work with—--when asked who in their organization decides which tools they use, a plurality of 44 percent said they choose their own. 
 
 The next most common response reinforces developer primacy in this area: 17 percent of respondents reported that their lead developer drives tool selection. It’s remarkable, and a clear sign of developers’ rising agency and power within their organizations, that less than 20 percent said that decision is made by their CTO/CIO, IT Director, or Head of Engineering. Tellingly, 11 percent insisted that they use whichever tools they want, even though they’re not officially in charge of the decision.  
 
