@@ -227,8 +227,8 @@ and will be enabled by default in 9.0.
 
 ## API v4 Beta
 
-GitLab has a powerful API that allows you to do everything that you'd otherwise
-do through the interface. For the last several years, our API has been
+GitLab has a powerful API that allows you to do almost everything that you'd
+otherwise do through the interface. For the last several years, our API has been
 version 3 (v3). To be able to make changes to our existing API endpoints, while
 maintaining support for your integrations, we're rolling out a new API version
 next month (March 22nd, GitLab 9.0).
@@ -406,10 +406,14 @@ please update your configuration in time.
 
 This release does not require downtime.
 
-Some of the migrations could take some time and on larger instances, it may be advisable
-to take approximately 15 minutes downtime to ease the load of the database.
+Some of the migrations could take some time and on larger instances, it may be
+advisable to take approximately 15 minutes downtime to ease the load of the
+database.
 
 The slow migrations add columns with default values to `users` and `projects`.
+
+_By default, GitLab will stop, run migrations and start again. See the note 
+below on changing this behavior._
 
 ### Upcoming changes to defaults in `.gitlab-ci.yml`
 
@@ -438,9 +442,9 @@ the upgrade barometers of any intermediate versions you are skipping. If you are
 upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have
 to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
-New configuration options got introduced in the omnibus-gitlab packages. To check
-what changed when compared to your `/etc/gitlab/gitlab.rb` configuration file,
-run `sudo gitlab-ctl diff-config`.
+New configuration options got introduced in the omnibus-gitlab packages. To
+check what changed when compared to your `/etc/gitlab/gitlab.rb` configuration
+file, run `sudo gitlab-ctl diff-config`.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
