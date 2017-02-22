@@ -184,7 +184,7 @@ As we work on merging settings together, we are also working to improve the UX o
 
 We have made improvements to the look and feel of the Merge Request workflow,
 as well as included additional details on the CI/CD Pipeline status. You are
-now able to easily review the progress of the entire Pipeline, and take action directly from the Merge Request summary. For example, you could review a pipeline that needs attention, navigate to a failed job, and trigger a quick retry or manual action.
+now able to easily review the progress of the entire Pipeline, and take action directly from the Merge Request summary. For example you could review a pipeline that needs attention, navigate to a failed job, and trigger a quick retry or manual action.
 
 ![Merge Request Pipeline Minigraph](/images/8_17/merge_request_minigraph.png){: .shadow}
 
@@ -206,6 +206,7 @@ context of the channel you are working in has never been easier or prettier!
 We have clarified the terminology used to discuss parts of [CI/CD][cicd],
 replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring
 to the entire pipeline, and `Job` will be used for a specific action.
+
 With the upcoming 9.0 release API v4 will utilize the new naming convention, with v3 remaining unchanged.
 
 [cicd]: http://docs.gitlab.com/ce/ci/README.html
