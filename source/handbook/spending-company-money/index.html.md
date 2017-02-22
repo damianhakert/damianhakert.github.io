@@ -35,7 +35,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
     *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, Appear.in, Zoom, and WebEx)
     *  Google Hangouts calling credit
-    *  Office space (if working from home is not practical)
+    *  Office space
+        * If working from home is not practical for a day, a month, a year, etc., please feel free to rent out a co-working space at the expense of the company. 
     *  Work-related online courses
     *  The company will pay for all courses related to learning how to code, and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
     *  Work-related conferences, including travel, lodging, and meals. If total costs exceed $500, reimbursement requires prior approval from your manager.
