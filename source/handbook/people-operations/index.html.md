@@ -104,7 +104,7 @@ This policy applies to all current employees and candidates for employment.
 
 If your permanent address is changing, notify People Operations of the new address within the pay cycle of the move.  The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
-If you are going to be traveling and spending longer than three months in one location this will be considered as a relocation and change of permanent address.
+If you are going to spend six months or more in one location this will be considered as a relocation and your compensation will be evaluated based on the new metro region.
 
 - PeopleOps will check that any necessary changes to payroll and benefits administration are processed in time.
 - If your relocation is to a different metro area, then to stay aligned with our [compensation principles](/handbook/people-operations/global-compensation-calculator/#compensation-principles) and per the [standard contract agreements](/handbook/contracts), you should obtain written agreement first (from your hiring manager). It is the company's discretion to offer you a contract in your new location. In almost all situations the compensation will change, for an idea about the impact please see our [move calculator](https://about.gitlab.com/jobs/move). People Ops will process any changes that are agreed on, and file the email in BambooHR.
