@@ -342,7 +342,6 @@ The most noticeable contributed changes are as follows:
 
 ## Additional Changes
 
-- Added support for multiple mount points for [repository storage](https://docs.gitlab.com/ee/administration/repository_storage_paths.html) (EE only).
 - Added `repository_storage` and `approvals_before_merge` fields to [API v3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
 - Moved the [License Breakdown](https://docs.gitlab.com/ee/user/admin_area/license.html) to the Admin Overview page (EE only).
 - Email confirmation link will no longer automatically log you into your GitLab instance. This was changed due to security concerns, see [gitlab-org/gitlab-ce!7472](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7472) for details.
