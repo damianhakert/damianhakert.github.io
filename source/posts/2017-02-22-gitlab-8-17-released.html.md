@@ -252,7 +252,7 @@ API v3 will be deprecated with GitLab 9.0. That means API v3 will only receive
 bug and security fixes from that version on, but no further updates and will
 not support new features.
 
-We recommend that you update your integrations with GitLabs API to v4.
+We recommend that you update your integrations with GitLab's API to v4.
 
 We plan to remove API v3 from GitLab in a future release, but not
 before GitLab 9.3. For detailed information on the deprecation and removal of
