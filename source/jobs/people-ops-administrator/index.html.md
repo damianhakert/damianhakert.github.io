@@ -5,29 +5,32 @@ title: "People Operations Administrator"
 
 ## Responsibilities
 
-* Pro-actively improve People Operations activities and processes,
-and take on a very hands-on role in the day to day administration.
-* Prepare contracts and help ensure smooth onboarding of new team members.
-* Help ensure smooth offboarding of team members.
-* Handle administrative interactions for US-based team members with our payroll and benefits provider, TriNet.
-* Process changes to team members compensation, position, etc.
-* Assist managers in delicate People Operations issues (special circumstances, conflicts, sickness, layoffs, etc.)
-* Document and improve People Operations processes following the [GitLab workflow](https://about.gitlab.com/handbook/communication/#gitlab-workflow),
-with the goal always being to make things easier from the perspective of the team members
-* Keep it efficient and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
-* Provide assistance to the team with miscellaneous support tasks.
-* Watch the hiring pipeline and ensure proper follow-up.
-* Suggest improvements to the hiring pipeline, for example a better referral program.
-* Initiate, design, and implement training programs.
-* Write job descriptions and promotion criteria.
-* Help the CEO answer team member [Feedback Form](https://about.gitlab.com/culture/) questions.
+* Responsible for the day to day administration of tasks leading up to and resulting from employment decisions and providing support to Global Recruiters
+* Create and maintain position and applicant information in the applicant tracking system (ATS), experience using Workable is a plus
+* Assist new and prospective team members with pre and post employment inquiries
+* Maintain and update all job postings on our jobs page and external service providers sites
+* Coordinate interview schedules for the recruiting team and hiring managers 
+* Create and stage offer letters and employment contracts for signature
+* Onboard new hires and guide them through the onboarding process
+* Order equipment and supplies for team members
+* Assist recruiters and hiring managers with writing accurate and effective job descriptions
+* Suggest and implement improvements to People Operations policies, processes and procedures
+* Provide assistance to the People Operations team with miscellaneous support tasks
+
 
 ## Requirements
 
-* Experience with US employment law and best practices
-* Excellent written and verbal communication skills
-* Enthusiasm for and broad experience with software tools
-* Proven experience in quickly learning new software tools
-* Willing to work with git and GitLab whenever possible
-* Willing to make People Operations as open and transparent as possible
+* Minimum of one year experience providing administrative support for a Human Resources or People Operations team, preferably in a startup software or technology company 
+* Proven ability to multitask and prioritize workload under the pressure of deadlines and in a fast pace environment
+* Excellent communication and interpersonal skills
+* Innovative and creative, always looking to optimize processes and workflow
+* Exceptional attention to detail and accuracy 
+* Excellent computer skills with an ability to adapt to new and complex systems
+* Prior experience using an applicant tracking system, Workable experience is a plus
+* Willingness to learn and use software tools including Git and GitLab
+* Organized, efficient, and proactive with a keen sense of urgency 
+* Ability to recognize and appropriately handle highly sensitive and confidential information
+* Ability to work in alignment with Mountain and Pacific Standard Time
+* Experience working remotely is a plus
+
 * You share our [values](/handbook/values), and work in accordance with those values.
