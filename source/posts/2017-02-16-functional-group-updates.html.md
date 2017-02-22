@@ -18,55 +18,79 @@ All of the updates are recorded using [Zoom](https://zoom.us) at the time of the
 
 Below are the recordings of the updates of the last 3 weeks. We aim to post a blog every week with the latest updates but might combine them.
 
-Discussion team
+---
+
+**Discussion team**<br>
+[Presentation slides](http://smcgivern.gitlab.io/discussion-updates/)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/8tjVmEe5urI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Product team
+---
+
+**Product team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/BysM79IjVzY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-PeopleOps team
+---
+
+**PeopleOps team**<br>
+[Presentation slides](https://drive.google.com/open?id=1rr2xRpgOY-tYii8ziqymOMmnylc4R87FPHb45V_Z9u0)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/kwWLUx0n3MQ" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Infrastructure team
+---
+
+**Infrastructure team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/I3E24RT1Ajc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-UX team
+---
+
+**UX team**<br>
+[Presentation slides](http://awhildy.gitlab.io/ux-group-update/20170206.html)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/cn3Ho8ez110" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Marketing team
+---
+
+**Marketing team**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/csoEkFRmQXY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-CI team
+---
+
+**CI team**<br>
+[Presentation slides](https://drive.google.com/open?id=0ByS7sH-cFUkiRFlVckRMZGNkMW8)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/9K5foaojQAU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Build team
+---
+
+**Build team**<br>
+[Presentation slides](https://docs.google.com/presentation/d/1LoMiATaCUkq7n0Dc00EvLIFXc59WqjBTDgLs_iZxugs/edit?usp=sharing)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/8LhyVRshaV4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Support team
+---
+
+**Support team**<br>
+[Presentation slides](https://docs.google.com/presentation/d/1EizMPiTJFYm7R7Av6J7DguR_Crgo_t8pufLYKoGC5sU/edit?usp=sharing)
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/OsEFTeWDBxA" frameborder="0" allowfullscreen="true"> </iframe>
