@@ -33,17 +33,19 @@ We're still working to improve this demo further, please see [all open idea-to-p
 ## Preparation
 
 > * You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
-> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed. TODO: [Make demo use raw Kubernetes instead of Google Cloud SDK](https://gitlab.com/gitlab-org/gitlab-ce/issues/27330)
+> * You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed. *TODO: [Make demo use raw Kubernetes instead of Google Cloud SDK](https://gitlab.com/gitlab-org/gitlab-ce/issues/27330)*
 >   * Run `gcloud components install kubectl`
 > * Login to [Google Cloud Platform](https://console.cloud.google.com/kubernetes).
 > * GitLab employees should use the `gitlab-demos` project. Others should select or create a project to work in.
 >   * URL: [https://console.cloud.google.com/kubernetes/list?project=gitlab-demos](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos)
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
-> * Delete any previous [Container clusters](https://console.cloud.google.com/kubernetes/list) that you may have created.
-> * This script assumes the `make-sid-dance.com` domain, but you should buy a new domain for your demo and substitute throughout the script.
->   * [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection. You may still have to manually configure custom name servers, even though Google Domain name servers is the default. They seem to be different servers than GCP expects.
->   * [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
->   * Click `Registrar Setup` to see what name servers to use.
+> * If you've run through the demo before but didn't clean up your [demo cluster(s)](https://console.cloud.google.com/kubernetes/list), [do so now](#cleanup).
+> * This script assumes the `make-sid-dance.com` domain, but you should either:
+>   * Use one of the "day of the week" domains [already configured](https://console.cloud.google.com/networking/dns/zones?project=gitlab-demos&organizationId=769164969568) (Let's Encrypt limits SSL cert creation on a weekly basis, so there's a different one for each day to avoid hitting those limits), or
+>   * Buy a new domain for your demo and substitute throughout the script.
+>     * [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection. You still have to configure DNS to use custom name servers, even though Google Domain name servers is the default since GCP cycles through many different name servers.
+>     * [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
+>     * Click `Registrar Setup` to see what name servers to use.
 > * [Reset cookie](chrome://settings/cookies) that [blocks issue board default list prompt](https://www.dropbox.com/s/knwdvnkuholo2xd/Screenshot%202016-10-14%2011.11.39.png?dl=0) by copy pasting the first url in the browser, searching for the domain you will be using for the domain (e.g. make-sid-dance), and deleting all those cookies. You can also go there via settings, clicking on Content settings, then All cookies and side data.
 > * Disable desktop notifications (on a Mac, top-right corner, option click).
 > * Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -53,9 +55,9 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * Have a Terminal window ready, open to the `kubernetes-gitlab-demo` directory you have just cloned.
 > * Before the demo, run `sudo gcloud components update; gcloud auth application-default login`, saving you time from doing this in the middle of the demo.
 
-## Install GitLab itself
+## Set up a container scheduler cluster
 
-The first step is to install GitLab itself. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google. We’re going to install everything from scratch and we’ll start by creating a new cluster.
+We’re going to install everything from scratch and we’ll start by creating a new container cluster. Today I'm going to use Google Cloud Platform, which includes Container Engine, a Kubernetes platform hosted by Google.
 
 > * [Create cluster](https://console.cloud.google.com/kubernetes/add?project=gitlab-demos) (or open [GCP](https://console.cloud.google.com/kubernetes), pick [`gitlab-demos` project](https://console.cloud.google.com/kubernetes/list?project=gitlab-demos) and click Create cluster).
 
@@ -64,6 +66,7 @@ We'll name this cluster `make-sid-dance` and have it created in the us-central z
 > * Name the cluster after your domain name (e.g. `make-sid-dance`).
 > * Make note of the `Zone` field should read `us-central1-*`, and will have a letter on the end. This letter does not matter.
 > * Change the number of vCPU in Machine type to `2 vCPU`.
+> * *Note: The demo will run fine on a single node, if desired*
 > * Click the `Create` button at the bottom of the page.
 
 Now we need to get an external IP address for the demo so that we can use a domain name and Let's Encrypt for SSL.
@@ -74,8 +77,6 @@ Now we need to get an external IP address for the demo so that we can use a doma
 > * Set the name to match the name used for the cluster (e.g. `make-sid-dance`).
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
 > * Click the `Reserve` button at the bottom of the page.
-
-This may take just a moment while the system allocates the address.
 
 We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
 
@@ -96,13 +97,17 @@ Good, our cluster is ready for us to use. Let's connect to it. We'll use the the
 
 > * Click on the `Connect` button for your cluster.
 > * Click the `copy` icon to the right of the `gcloud container ...` entry. It looks like two overlapping white boxes.
+>   * `gcloud container clusters get-credentials makesiddance-com \
+    --zone us-central1-a --project gitlab-demos`
 > * Switch to the Terminal window, paste this command in, run it.
+
+## Set up GitLab itself
 
 Now that we have our access to the cluster configured, we're ready to generate our configuration. To do this, we'll need the External IP Address we just configured, a domain name, and an email address to use with Let's Encrypt. Then we can use this bash script to generate a YML file that describes everything we need. And then we use `kubectl` to create all the resources from the YML file.
 
 > * Stay in the Terminal window
-> * Compose the following, filling in your values from the previous steps:
->   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@make-sid-dance.com bash generate.bash`
+> * Compose the following, filling in your values from the previous steps: (use your email address)
+>   * `GITLAB_GKE_IP=104.198.192.151 GITLAB_GKE_DOMAIN=make-sid-dance.com GITLAB_LEGO_EMAIL=user@gitlab.com bash generate.bash`
 > * You will see the output similar to
 >   * `Using gitlab-make-sid-dance-com.yml`
 > * From the Terminal window, run the following, changing the yml file name to match the name of the one that was just created for you
@@ -157,7 +162,7 @@ We now create a group for our company; let’s name it `tanuki`.
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
 > * Create a project under the `tanuki` group
-> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)
+> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
 > * Make it public
 
 ### Add Kubernetes credentials to CI
@@ -186,12 +191,12 @@ Now let's save the settings. And then let's test the settings just to make sure.
 
 > * Click Save Settings
 > * Click Test Settings
-> * *Click Cancel to return to integrations list TODO: https://gitlab.com/gitlab-org/gitlab-ce/issues/27301*
+> * *Click Cancel to return to integrations list* *TODO: https://gitlab.com/gitlab-org/gitlab-ce/issues/27301*
 
 ### Setup Mattermost Command
 
-TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
-Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)
+*TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
+Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)*
 
 While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
 
@@ -225,7 +230,9 @@ Great. The defaults looks pretty good, so let's go with them.
 
 Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
-TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)
+*TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)*  
+*TODO: [Auto deploy apps with databases](https://gitlab.com/gitlab-org/gitlab-ce/issues/28496)*  
+*TODO: [Auto deploy private projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/28497)*
 
 > * Go to Project, Click `Set up auto deploy`
 > * Choose Kubernetes template
@@ -286,11 +293,11 @@ There. Now we can just drag the new issue from the backlog into the Doing column
 
 ## Code (Terminal)
 
-TODO: [Split containers: separate dev / prod containers](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)
+*TODO: [Split containers: separate dev / prod containers](https://gitlab.com/gitlab-org/gitlab-ce/issues/23966)*
 
 Now let’s get coding! We could of course code on our local laptops, but then we’d have to waste a bunch of time setting it up properly before we could even start. Since we’ve set up this project to deploy automatically to a staging environment, GitLab provides web terminal access to that environment. This is especially useful for debugging, but we can use it here for testing out small tweaks. By clicking the terminal button we get a command prompt in the same container as our application.
 
-TODO: [Create terminal button in new branch view](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)
+*TODO: [Create terminal button in new branch view](https://gitlab.com/gitlab-org/gitlab-ce/issues/23968)*
 
 > * Go to Pipelines
 > * Go to Environments
@@ -312,7 +319,7 @@ Now we’ve saved the changes, let's restart the server.
 
 And now we can view the web page live to see how we like the changes.
 
-> * Go back TODO: [Add environment URL link to terminal page](https://gitlab.com/gitlab-org/gitlab-ce/issues/27336)
+> * Go back *TODO: [Add environment URL link to terminal page](https://gitlab.com/gitlab-org/gitlab-ce/issues/27336)*
 > * Click external URL link on top right (2nd from right)
 
 ## Commit (Repo)
@@ -337,6 +344,8 @@ And now it gives me an option to create a Merge Request, how nice of it. Let's g
 > * If popup asks to show notifications, click Allow.
 
 ## Test (CI)
+
+*TODO: [Leverage Heroku CI in buildpacks for zero-configuration CI](https://gitlab.com/gitlab-org/gitlab-ce/issues/26941)*
 
 As soon as the Merge Request is created, we see it kicked off the CI/CD Pipeline that will test our contributed code.
 
@@ -446,3 +455,12 @@ And then memory usage:
 ## Conclusion
 
 So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to Gitlab.
+
+## Cleanup
+
+> * *TODO: [Document how to clean up a GKE cluster after demo](https://gitlab.com/gitlab-org/gitlab-ce/issues/28502)*
+> * Before you delete the cluster, delete all of the underlying services/pods/etc. using the CLI.
+> * If you accidentally delete the cluster using the web UI, make sure you:
+>   * Look for [persistent disks](https://console.cloud.google.com/compute/disks?project=gitlab-demos&organizationId=769164969568) that need to be deleted manually.
+>   * Look up the [external IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568) you used, find the ID of the load balancer it is forwarding to, then find that ID in the list of [load balancers](https://console.cloud.google.com/networking/loadbalancing/list?project=gitlab-demos&organizationId=769164969568). Delete the load balancer.
+> * Release the [static IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568).

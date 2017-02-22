@@ -17,7 +17,7 @@ title: "Travel"
 
 1. The company will cover all work-related travel expenses. This includes lodging and meals during the part of the trip that is work-related. Depending on the distance of your travel, it can also include one day before and one day after the work related business. For example, if you are attending a 3 day conference in a jetlag-inducing location, the company will cover your lodging and meals those 3 days as well as one day before and one day after.
 1. The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
-1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money), especially the part about spending it like it is your own money, still apply for all expenses.
+1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money), especially the part about spending it like it is your own money, still apply for all expenses.
 1. Always bring a credit card with you when traveling for company business if you have one.
 1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
 1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.

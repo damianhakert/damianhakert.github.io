@@ -1,9 +1,17 @@
 ---
 layout: markdown_page
 title: "GitLab Communication"
+extra_js:
+  - libs/moment.min.js
+  - libs/moment-timezone-with-data.min.js
+  - team-call.js
 ---
 
-## Welcome to our Communication Page
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 We're a **distributed**, **remote-only** company where people work remotely without missing out.
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
@@ -143,7 +151,7 @@ step, **re-assign** the issue to that person.
 1. Everyone at GitLab is invited to the team call.
 1. We also have a team call for GitLabbers in the APAC region to share their weekend update. This call will also be recorded so the rest of the team can see what their colleagues have been up to! Everyone is encouraged to join this call as well, but it is not mandatory.
 1. Every last Friday of the month we have an AMA to talk about anything our team is thinking about.
-1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people. The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
+1. We use [Zoom](https://zoom.us) for the call since Google Hangouts is capped at 15 people (please be sure to mute your microphone). The link is in the calendar invite and also listed at the top of the team agenda Google Doc called _Team Agenda_.
 1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos". There is a subfolder called "GitLab Team Call", which is accessible to all users with a GitLab.com e-mail account.
 1. We start on time and will not wait for people.
 1. The person who has the first item on the agenda starts the call.
@@ -239,6 +247,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you have multiple points in a comment or email, please number them to make replies easier.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In URLs, always prefer hyphens to underscores.
+1. In URLs, always use lowercase.
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. When we refer to the GitLab community excluding GitLabbers please say 'wider community' instead of 'community'.
 1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that consists of volunteers.

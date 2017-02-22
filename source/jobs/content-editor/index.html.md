@@ -29,5 +29,5 @@ title: "Content Editor"
 - Extremely detail-oriented and organized, able to meet deadlines.
 - Obsessive about content quality not quantity.
 - Regular reporting on how content and channel performance to help optimize our content marketing efforts.
-- You share our [values](/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/values), and work in accordance with those values.
 - BONUS: A passion and strong understanding of the industry and our mission.

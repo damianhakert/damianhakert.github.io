@@ -3,7 +3,11 @@ layout: markdown_page
 title: "Tools and Tips"
 ---
 
-## Welcome to our Tools and Tips page
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 A lot of tools we use are described in the rest of the handbook (GitLab, Google
 Docs, Google Hangouts, 1Password, etc.). This section is for tools that don't

@@ -40,7 +40,7 @@ where GitLab CEO Sid gave a keynote on the past, current and future of GitLab:
   <iframe src="https://www.youtube.com/embed/xGxLi3PtxHM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-This was an internal presentation meant for our team members. We share it because transparency is [one of our values](https://about.gitlab.com/handbook/#values). It is not a formal announcement, for example we're still evaluating the subscription plans for GitLab.com.
+This was an internal presentation meant for our team members. We share it because transparency is [one of our values](https://about.gitlab.com/handbook/values). It is not a formal announcement, for example we're still evaluating the subscription plans for GitLab.com.
 
 If you don't have the time to watch the full video, have a look at
 [44:48][sid-challenge], where Sid gives a challenge to the present team:

@@ -31,27 +31,6 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
-- name: Bruce Armstrong
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: Khosla Ventures
-  twitter: khoslaventures
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
-
-- name: Villi Iltchev
-  locality: San Francisco, CA
-  country: USA
-  role: Board of Directors
-  reports_to: August Capital
-  twitter: VilliSpeaks
-  gitlab: Villi
-  picture: logo-extra-whitespace.png
-  story:  |
-          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
-
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
@@ -288,25 +267,15 @@
           and helping businesses scale.  When not working, Chad enjoys spending time with his wife and coaching his three boys in many different sports. Living in Sacramento allows
           Chad the opportunity to visit Tahoe, Napa Valley and San Francisco often.
 
-- name: Jeroen Nijhof
-  locality: Hilversum
-  country: The Netherlands
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Production Lead
-  picture: jnijhof.jpg
-  twitter: jeroen_nijhof
-  gitlab: jnijhof
-  maintains:  |
-              <li>On-call hero!</li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
-              <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-cookbooks/cookbook-marketo-tools">cookbook-marketo-tools</a></li>
-              <li>CephFS <a href="/jobs/expert/">expert</a></li>
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: Khosla Ventures
+  twitter: khoslaventures
+  picture: bruce.jpg
   story:  |
-          Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
-          At GitLab he really enjoys the combination of operations and development.
-          In his spare time he really likes to work on his small electronics projects based on arduino and pi.
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
 
 - name: Drew Blessing
   locality: Kearney, NE
@@ -319,8 +288,7 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
-             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitLab Hosted (GitHost)</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -571,8 +539,8 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
-             <li>GitHost maintainer</li>
              <li>Backend merge request reviewer</li>
+             <li>GitLab Hosted (GitHost) reviewer</li>
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
@@ -776,7 +744,7 @@
 - name: Amara Nwaigwe
   locality: New York City, NY
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/director-product-marketing/">Director of Product Marketing</a>
+  role: <a href="https://about.gitlab.com/jobs/senior-product-marketing-manager/">Senior Product Marketing Manager</a>
   reports_to: Interim VP of Marketing
   picture: amara.png
   twitter: its_amaracle
@@ -1086,7 +1054,7 @@
 - name: Chris Peressini
   locality: Madrid
   country: Spain
-  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
   reports_to: UX Lead
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
@@ -1137,6 +1105,7 @@
   gitlab: ahanselka
   maintains: |
               <li>On-call hero!</li>
+              <li>Data Durability Enforcer</li>
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1374,6 +1343,7 @@
   gitlab: dewetblomerus
   maintains:  |
               <li>On-call hero!</li>
+              <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           De Wet is a software developer and mentor. He is passionate about problem-solving with code
           and helping someone without making them feel stupid. Prior to joining the GitLab team, he founded
@@ -1422,6 +1392,17 @@
               <li>On-call hero!</li>
   story:  |
           Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
+
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: August Capital
+  twitter: VilliSpeaks
+  gitlab: Villi
+  picture: villi.jpg
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
 
 - name: Pedro Moreira da Silva
   locality: Lisbon
@@ -1635,7 +1616,7 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
@@ -1758,7 +1739,7 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
-  role: Sales Development Representative
+  role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
   reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
@@ -2160,71 +2141,98 @@
           including bringing video calling to Skype (where he also has a secret emoji) and changing the way developers communicate with Gitter.
           He loves snowboarding, wine, the mighty Tottenham Hotspur and writing in the third person.
 
-- name: P.C.
-  locality:
-  country:
+- name: Peter McCracken
+  locality: Boston
+  country: United States
   role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: pete_mccracken.jpg
   twitter:
-  gitlab:
+  gitlab: PTMJR
   story:  |
-          Joining February 1st
+          Peter has been working in the DevOps space for the past three years. His mission is to capture the customer's vison then bring that vison to reality and help them achieve ultimate success.
+          In his spare time, he enjoys working on his golf game, playing hockey, and hiking with friends. He also loves traveling to new places and taking in the local culture.
 
-- name: S.K.
-  locality:
-  country:
+- name: Simon Knox
+  locality: Melbourne
+  country: Australia
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: simon.jpg
+  twitter: psimyn
+  gitlab: psimyn
   story:  |
-          Joining February 6th
+          Simon is a self-described web worker based in the coffee capital of the world.
+          He enjoys learning languages, and exploring what browsers are capable of.
+          Outside of devtools, he mostly alternates between reading, listening to music, walking his dog, and some light typing.
 
-- name: S.G.
-  locality:
-  country:
+- name: Scott Grudman
+  locality: Tallahassee, Florida
+  country: USA
   role: <a https://about.gitlab.com/jobs/business-development-representative-outbound/">Sales Development Rep</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: scottgrudman.png
+  twitter: ScottGrudman
+  gitlab: ScottGrudman
+  story:  Scott has been helping companies be successful through new and exciting technologies for nearly 8 years. He enjoys playing guitar, bass, drums, and PS4 whenever possible and can sometimes be found squished in photo pits as a freelance photographer of concerts and music festivals.
 
-- name: T.P.
-  locality:
-  country:
+
+- name: Tom Plumadore
+  locality: Atlanta, Georgia
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: thomasplumadore.png
+  twitter: TomPlumadore
+  gitlab: TomPlumadore
+  story:  Highly accomplished sales executive with 16 years comprehensive experience in Solutions Selling and telling stoires. Strong back round in selling enterprise software solutions to fortune 100 companies, Federal Systems Integrators, and Federal Government.  Talent for being able to manage a complex sales cycle and selling to top-level executives.  Experience in cross-functional areas such as developing sales relationships, prospecting, cold calling, identifying the solutions to fit clients needs. Articulate communicator, with proven success in attaining objectives and meeting quotas.  Committed to the highest level of professional excellence through meeting all sales objectives.
 
-- name: A.J.
-  locality:
-  country:
+
+- name: Adam Johnson
+  locality: Golden, Colorado
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining February 6th
+  picture: adamjohnson.jpg
+  twitter: adam31johnson
+  gitlab: adamjohnson
+  story:  A passionate agilist after years of living in a waterfall world, Adam's professional passion is selling in to and collaborating with Senior Leadership at Enterprise organizations. His goal is simple - focus on making their teams and company more effective, while empowering them to make and meet their commitments to the business. Outside of work Adam is a family man. He enjoys all things outdoors including big mountain skiing, hiking, camping, and anything else that the 300+ days of sunshine brings to Colorado.
 
-- name: M.B.
-  locality:
-  country:
+
+- name: Mark Bell
+  locality: Lafayette, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
+  picture: markbell.jpg   
+  twitter:
+  gitlab:
+  story:  |
+          Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
+          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
+          I joined GitLab to help others improve the way they make software. What a great way to make a living.
+
+- name: John May
+  locality: Centennial Colorado
+  country: USA
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+  picture: johnmay.jpg
+  twitter:
+  gitlab: jmay
+  story:  | 
+          John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.  
+
+- name: A.O.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining February 13th
+          Joining March 1st
 
 - name: B.V.
   locality:
@@ -2236,6 +2244,17 @@
   gitlab:
   story:  |
           Joining March 6th
+
+- name: P.A.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 15th
 
 - name: "Sid (Interim)"
   placeholder: true

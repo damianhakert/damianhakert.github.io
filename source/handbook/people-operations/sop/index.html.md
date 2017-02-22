@@ -20,7 +20,7 @@ New team hire contracts are found on the [Contracts](https://about.gitlab.com/ha
 
 #### Using HelloSign
 
-When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
+When we need [contracts to be signed](https://about.gitlab.com/handbook/signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
 
 1. Choose who needs to sign. (just me, me & others, or just others)
@@ -52,9 +52,9 @@ People Ops is responsible for seeing the change through to completion. Once comp
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
 
-### Auditing Changes 
+### Auditing Changes
 
-Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet. 
+Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet.
 
 ### Process for Monthly Payroll Approval (UK, Belgium & India)
 
@@ -132,16 +132,16 @@ Jobs Tab
    * Location - Which entity the new team member is contracted through.
    * Division - Enter the appropriate division from the dropdown.
    * Department - Leave blank for now. This will become relevant as we scale.
-   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table. 
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table.
 1. Employment Status
    * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
 
-To Terminate a Team Member from BambooHR: 
-1. Click on the gear icon in BambooHR at the top right of the screen. 
-1. Select Terminate Employee. 
+To Terminate a Team Member from BambooHR:
+1. Click on the gear icon in BambooHR at the top right of the screen.
+1. Select Terminate Employee.
 1. Enter the Effective Date of the termination.
-1. Select Voluntary or Involuntary. 
-1. Enter the termination reason and if eligible for rehire. 
+1. Select Voluntary or Involuntary.
+1. Enter the termination reason and if eligible for rehire.
 
 ### Settings in BambooHR
 
@@ -168,7 +168,7 @@ Add a New Division
 
 ### Process Referral Bonus
 
-If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
+If applicable, People Ops will process a [referral bonus](/handbook/incentives/#referral-bonuses).
 
 #### Document a future bonus in BambooHR
 
@@ -209,7 +209,9 @@ The information is then entered into BambooHR (to track who has which piece of e
 
 BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member an email (template below) and post on the #general channel on Slack so all team members can help them celebrate.
 
-Birthday Email Template: "Happy Birthday! We've got a great [swag store](https://gitlab.mybrightsites.com/) set up. Please login or create an account with the swag store to receive your free birthday shirt! The username will be your GitLab email. Once you are are in the store you should see your options to order a GitLab birthday shirt. In order to receive free shipping please use the code: [Enter free shipping code]. Please let people ops know if you have any questions."
+Birthday Email Template: "Happy Birthday! Please use this link [insert link] to redeem your birthday swag! You will need to login or create an account with the swag store to receive your free birthday shirt! The username will be your GitLab email. Once you are are in the store you should see your options to order a GitLab birthday shirt. Please let people ops know if you have any questions."
+
+The link for the swag store birthday campaign is located in the People Ops vault in 1Password.
 
 ### Managing the PeopleOps onboarding and offboarding tasks
 
@@ -277,6 +279,16 @@ Lastly assign the department in which the new team member is working.
 - **Upgrade team member's Zoom account to Pro**<a name="make-zoom-pro"></a>
 Log in to [Zoom](https://gitlab.zoom.us) with the generic admin credentials stored in 1Password. Find the user in the "User Management" tab, and click "edit", then select "Pro" (the default is Basic). If the user does not yet appear in Zoom, add them through the "Add Users" button at the top of the User Management tab. A Pro account allows the individual to have calls longer than 30 minutes. If we've run out of Pro licenses, send an email to our account manager at Zoom, as listed in a shared note on 1Password.
 
+#### Ordering Supplies
+
+If a GitLabber is in need of supplies, People Ops can place the order, per [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money/).
+
+Use the Amazon business account for all Amazon links. In order to see what is available to ship in each country use that country's Amazon website to sign in, place the order, and ship.
+
+For Apple products we have a relationship with Bay Street Business to place all orders and act as our liaison.
+* For orders in the US, login to the [custom store](https://idmsa.apple.com/IDMSWebAuth/login.html?appIdKey=a747eeda10429061323c0b5d14a4937fe24fde503ea79cf9cf72a09b0d8f2434&path=/asb2b/init.do%3Fsegment%3DDFL-SEG&language=US-EN&segment=DFL-SEG) to place the order and ship.
+* For orders outside the US, but in a country with an Apple Store, please contact Bay Street Business (baystreetbusiness@apple.com) to coordinate with the local store and generate the invoice. Once the invoice is made, it will be sent to People Ops via email. If all information looks correct, contact Bay Street Business with the payment information.
+
 ### Using TriNet
 
 #### Entering New Hires into TriNet
@@ -314,12 +326,12 @@ At the bottom of the screen, select next
     * Job Code - no need to enter anything here
     * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
     * Supervisor - drop down menu of names
-    * Compensation Basis
+    * Compensation Basis (Make sure to verify that hourly employees are non-exempt and annual employees are exempt)
     * Compensation Rate
     * Departments
     * Work Location - drop down menu
     * Pay Group - only one option
-    * Employee ID - not necessary
+    * Alternate Employee ID - found in BambooHR
     * Work email
     * Grouping A/level - not necessary
     * Grouping B/sponsor- not necessary

@@ -329,12 +329,15 @@ In order to close a deal in Salesforce.com, one of the following must happen:
   * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
 1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
   * If a PO is received, we need to receive a signed quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+  * For Non-Authorized Resellers check the form PO with legal. The reseller PO should reference the GitLab quote document.  Use the Non-Authorized Reseller quote document.
+
 
 Once the above has happened, please make sure that the following fields are populated, otherwise you will receive an error message when submitting the opportunity for approval:
 
 1. On the Account record:
   * Industry
   * Billing and Shipping Address
+  * In the Special Terms field, add any non-standard terms related to the subscription (ramps, special pricing), support (non-standard SLAs), finance (special billing/payment terms), or legal.
 1. On the Opportunity record:
   * Attach any signed agreements, POs, and quotes as an attachment attachment to the opportunity record in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
   * Go to the Contact Roles related list and add a Primary Contact. Ideally, you'll add Contact Roles much earlier in the sales cycle.

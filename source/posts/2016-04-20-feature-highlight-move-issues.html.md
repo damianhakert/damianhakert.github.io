@@ -120,6 +120,6 @@ information.
 
 [Kamil]: https://twitter.com/ayufanpl
 [Merge request !2831]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2831
-[values]: https://about.gitlab.com/handbook/#values
+[values]: https://about.gitlab.com/handbook/values
 [releasepost]: https://about.gitlab.com/2016/03/22/gitlab-8-6-released/
 [Merge request !2996]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2966

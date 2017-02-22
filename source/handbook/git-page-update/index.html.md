@@ -3,7 +3,11 @@ layout: markdown_page
 title: "Updating this website using Git"
 ---
 
-## Welcome to Updating this website using Git
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
@@ -55,8 +59,8 @@ command to 'tame' git is `git config --global core.autocrlf input` - execute it.
 Instructions on how to update the website are in the
 [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
-Most pages that you might want to edit are written in markdown [Kramdown].
-Read through our [Markdown Guide] to understand its syntax and create new content.
+Most pages that you might want to edit are written in markdown [Kramdown](http://kramdown.gettalong.org/).
+Read through our [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/) to understand its syntax and create new content.
 
 ### Local Checks of Your Changes
 
@@ -72,7 +76,7 @@ Read through our [Markdown Guide] to understand its syntax and create new conten
 Until this is automated in CI, a quick way to see if there are any invalid
 links inside a page is the following.
 
-1. Install the [check-my-links][] extension in Chrome (no other browsers
+1. Install the [check-my-links][https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/] extension in Chrome (no other browsers
    support unfortunately).
 1. Open the page you wish to preview (see previous step).
 1. Click the newly installed extension in the upper right corner of Chrome.
