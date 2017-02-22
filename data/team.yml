@@ -2198,16 +2198,18 @@
   story:  A passionate agilist after years of living in a waterfall world, Adam's professional passion is selling in to and collaborating with Senior Leadership at Enterprise organizations. His goal is simple - focus on making their teams and company more effective, while empowering them to make and meet their commitments to the business. Outside of work Adam is a family man. He enjoys all things outdoors including big mountain skiing, hiking, camping, and anything else that the 300+ days of sunshine brings to Colorado.
 
 
-- name: M.B.
-  locality:
-  country:
+- name: Mark Bell
+  locality: Lafayette, CO
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: logo-extra-whitespace.png
+  picture: markbell.jpg
   twitter:
   gitlab:
   story:  |
-          Joining February 13th
+          Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
+          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
+          I joined GitLab to help others improve the way they make software. What a great way to make a living.
 
 - name: J.M.
   locality:
@@ -2265,13 +2267,3 @@
   story:  |
           Open Position
 
-- name: "Mark Bell"
-  locality: Lafayette, Colorado   
-  country: USA   
-  role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">Sales</a>   
-  reports_to: Sales Leader
-  picture: markbell.jpg   
-  story:  |           
-        Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
-          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
-          I joined GitLab to help others improve the way they make software. What a great way to make a living.
