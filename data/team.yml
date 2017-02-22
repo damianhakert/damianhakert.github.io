@@ -1,4 +1,7 @@
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
 <<<<<<< ecb1d9b5182ee555c84ab76a19b477c943be60c9
+=======
+>>>>>>> Update team.yml
 - name: Dmitriy Zaporozhets
   locality: Kharkiv
   country: Ukraine
@@ -32,6 +35,30 @@
           He was never good at sports but tries to make it up in quantity by hiking, sailing, skiing, snowboarding, speed skating, dancing Zouk, squashing, and running.
           In love participating in conversations on Hacker News, and reading Marc Andreessen's tweets (now that Marc stopped this greatly increased his productivity).
 
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
+=======
+- name: Bruce Armstrong
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: Khosla Ventures
+  twitter: khoslaventures
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
+
+- name: Villi Iltchev
+  locality: San Francisco, CA
+  country: USA
+  role: Board of Directors
+  reports_to: August Capital
+  twitter: VilliSpeaks
+  gitlab: Villi
+  picture: logo-extra-whitespace.png
+  story:  |
+          To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
+
+>>>>>>> Update team.yml
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
@@ -268,6 +295,7 @@
           and helping businesses scale.  When not working, Chad enjoys spending time with his wife and coaching his three boys in many different sports. Living in Sacramento allows
           Chad the opportunity to visit Tahoe, Napa Valley and San Francisco often.
 
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
 - name: Bruce Armstrong
   locality: San Francisco, CA
   country: USA
@@ -277,6 +305,27 @@
   picture: bruce.jpg
   story:  |
           To learn more about Bruce Armstrong, check out <a href="http://www.khoslaventures.com/team/bruce-armstrong">Khosla Ventures</a>.
+=======
+- name: Jeroen Nijhof
+  locality: Hilversum
+  country: The Netherlands
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  reports_to: Production Lead
+  picture: jnijhof.jpg
+  twitter: jeroen_nijhof
+  gitlab: jnijhof
+  maintains:  |
+              <li>On-call hero!</li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
+              <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-cookbooks/cookbook-marketo-tools">cookbook-marketo-tools</a></li>
+              <li>CephFS <a href="/jobs/expert/">expert</a></li>
+  story:  |
+          Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
+          At GitLab he really enjoys the combination of operations and development.
+          In his spare time he really likes to work on his small electronics projects based on arduino and pi.
+>>>>>>> Update team.yml
 
 - name: Drew Blessing
   locality: Kearney, NE
@@ -289,7 +338,12 @@
   maintains: |
              <li>On-call hero!</li>
              <li><a href="https://about.gitlab.com/handbook/support/#breach-hawks">Breach hawk</a></li>
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitLab Hosted (GitHost)</a></li>
+=======
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
+>>>>>>> Update team.yml
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
@@ -540,8 +594,13 @@
   twitter: jlopezofficial
   gitlab: jameslopez
   maintains: |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
              <li>Backend merge request reviewer</li>
              <li>GitLab Hosted (GitHost) reviewer</li>
+=======
+             <li>GitHost maintainer</li>
+             <li>Backend merge request reviewer</li>
+>>>>>>> Update team.yml
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://gitlab.com/help/user/project/cycle_analytics">Cycle Analytics</a> <a href="/jobs/expert/">expert</a></li>
@@ -1055,7 +1114,11 @@
 - name: Chris Peressini
   locality: Madrid
   country: Spain
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
+=======
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+>>>>>>> Update team.yml
   reports_to: UX Lead
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
@@ -1106,7 +1169,10 @@
   gitlab: ahanselka
   maintains: |
               <li>On-call hero!</li>
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
               <li>Data Durability Enforcer</li>
+=======
+>>>>>>> Update team.yml
   story:  |
           Alex first became interested in Open Source when he discovered Linux
           in 2003. After trying most distros, he realized the true way of Gentoo
@@ -1344,7 +1410,10 @@
   gitlab: dewetblomerus
   maintains:  |
               <li>On-call hero!</li>
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
               <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
+=======
+>>>>>>> Update team.yml
   story:  |
           De Wet is a software developer and mentor. He is passionate about problem-solving with code
           and helping someone without making them feel stupid. Prior to joining the GitLab team, he founded
@@ -1394,6 +1463,7 @@
   story:  |
           Athar likes programming in Python and Go. In his spare time, he enjoys checking out random courses on Coursera and hanging out with friends.
 
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
 - name: Villi Iltchev
   locality: San Francisco, CA
   country: USA
@@ -1405,6 +1475,8 @@
   story:  |
           To learn more about Villi Iltchev, check out <a href="http://www.augustcap.com/team/villi-iltchev/">August Capital</a>.
 
+=======
+>>>>>>> Update team.yml
 - name: Pedro Moreira da Silva
   locality: Lisbon
   country: Portugal
@@ -1617,7 +1689,11 @@
 - name: Darin Ellsworth
   locality: Lewisville, ID
   country: USA
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
   role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
+=======
+  role: Sales Development Representative
+>>>>>>> Update team.yml
   reports_to: Sales Development Team Lead
   picture: Darin.JPG
   twitter:
@@ -1740,7 +1816,11 @@
 - name: Nick Flynn
   locality: Orem, UT
   country: USA
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
   role: <a href="https://about.gitlab.com/jobs/sales-development-representative/">Sales Development Representative</a>
+=======
+  role: Sales Development Representative
+>>>>>>> Update team.yml
   reports_to: Sales Development Team Lead
   picture: NicholasF.jpg
   twitter: NRF460
@@ -2154,6 +2234,7 @@
           Peter has been working in the DevOps space for the past three years. His mission is to capture the customer's vison then bring that vison to reality and help them achieve ultimate success.
           In his spare time, he enjoys working on his golf game, playing hockey, and hiking with friends. He also loves traveling to new places and taking in the local culture.
 
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
 - name: Simon Knox
   locality: Melbourne
   country: Australia
@@ -2205,21 +2286,38 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
+=======
+- name: S.K.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+>>>>>>> Update team.yml
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
           Joining February 13th
 
 - name: J.M.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+=======
+          Joining February 6th
+
+- name: S.G.
+  locality:
+  country:
+  role: <a https://about.gitlab.com/jobs/business-development-representative-outbound/">Sales Development Rep</a>
+>>>>>>> Update team.yml
   reports_to: Regional Director of Sales
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
           Joining February 15th
 
 - name: A.O.
@@ -2227,10 +2325,20 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
   reports_to: Regional Sales Director - US
+=======
+          Joining February 6th
+
+- name: T.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+>>>>>>> Update team.yml
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
           Joining March 1st
 
 - name: B.V.
@@ -2238,10 +2346,20 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
+=======
+          Joining February 6th
+
+- name: A.J.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+>>>>>>> Update team.yml
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
           Joining March 6th
 
 - name: P.A.
@@ -2249,11 +2367,24 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
   reports_to: CRO
+=======
+          Joining February 6th
+
+- name: M.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
+  reports_to: Regional Director of Sales
+>>>>>>> Update team.yml
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
           Joining March 15th
+=======
+          Joining February 13th
+>>>>>>> Update team.yml
 
 - name: "Sid (Interim)"
   placeholder: true
@@ -2266,6 +2397,7 @@
   gitlab:
   story:  |
           Open Position
+<<<<<<< ad79c93f9efe0f6ca46cd02a9aa8442bc34ba4f7
 =======
 - name: Dmitriy Zaporozhets
   locality: Kharkiv
@@ -4506,4 +4638,6 @@
   gitlab:
   story:  |
           Open Position
+>>>>>>> Update team.yml
+=======
 >>>>>>> Update team.yml
