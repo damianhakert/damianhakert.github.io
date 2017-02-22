@@ -6,39 +6,56 @@ extra_css:
   - installation.css
 ---
 .wrapper
-  .installation-container
-    .installation-overlay
+  .installation-header
+    .container
       .installation-content
         %h1 GitLab Installation
-        %p Below are all the options to create a GitLab installation. If you're not sure which method to choose, please use the Omnibus package installation method.
+        %h2
+          Below are all the options to create a GitLab installation. If you're not sure which method to choose, please use the Omnibus package installation method.
   #content
     .wrapper.container
       .col-md-12.col-sm-12{role: "main"}
-        .method
-          %h2{id: "#omnibus"} Omnibus package installation (recommended)
+        .method.omnibus
+          %h2.block-title{id: "#omnibus"} Omnibus package installation (recommended)
+          .row
+            .col-md-10.col-md-offset-1
+              %p
+                We recommend installing the Omnibus package instead of installing GitLab from source.
+                %a{href: "https://twitter.com/awc737/status/517902687052898305"} Omnibus GitLab takes just 2 minutes to install
+                and is packaged in the popular deb and rpm formats.
+                Compared to an installation from source, the Omnibus package is faster to install and upgrade, more reliable to upgrade and maintain, and it shortens the response time for our subscribers' issues.
+                A package contains GitLab and all its dependencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn, etc.), it can be installed without an internet connection.
+                For troubleshooting and configuration options please see the
+                = succeed "." do
+                  %a{href: "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md"} Omnibus GitLab readme
+          %ul.gl-editions
+            %li.btn-wrap
+              %a.btn{ href: "/downloads" }
+                = partial "includes/logos/logo_sq.svg"
+                %span.package-name
+                  %span
+                    GitLab
+                    %strong
+                      CE
+                  %small
+                    packages
+            %li.btn-wrap
+              %a.btn{ href: "/downloads-ee" }
+                = partial "includes/logos/logo_sq.svg"
+                %span.package-name
+                  %span
+                    GitLab
+                    %strong
+                      EE
+                  %small
+                    packages
+        .method.upgrade
+          %h2.block-title Update your GitLab instance
           %p
-            We recommend installing the Omnibus package instead of installing GitLab from source.
-            %a{href: "https://twitter.com/awc737/status/517902687052898305"} Omnibus GitLab takes just 2 minutes to install
-            and is packaged in the popular deb and rpm formats.
-            Compared to an installation from source, the Omnibus package is faster to install and upgrade, more reliable to upgrade and maintain, and it shortens the response time for our subscribers' issues.
-            A package contains GitLab and all its dependencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn, etc.), it can be installed without an internet connection.
-            For troubleshooting and configuration options please see the
-            = succeed "." do
-              %a{href: "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md"} Omnibus GitLab readme
-          %ul
-            %li
-              %p
-                %a{href: "/downloads"} GitLab Community Edition packages
-            %li
-              %p
-                %a{href: "/downloads-ee"} GitLab Enterprise Edition packages
-        .method
-          %h2 Update your GitLab instance
-          %ul
-            %li
-              %p
-                %a{href: "/update"} Update options
-                for GitLab Community Edition and Enterprise Edition.
+            Latest Release: v8.16
+          %p
+            %a.btn.cta-btn.red{href: "/update"}
+              View update options for CE & EE
         #other-methods.method
           %h2 Other official installation methods
           %ul
