@@ -342,17 +342,17 @@ The most noticeable contributed changes are as follows:
 
 We are also releasing GitLab Runner 1.11 today. Most interesting changes:
 
-- Add post_build_script to call scripts after user-defined build scripts [!460](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/460)
+- Add `post_build_script` to call scripts after user-defined build scripts [!460](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/460)
 - Add the runner name to the first line of log output, after the version [!473](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/473)
 - Add timezone support for OffPeak intervals [!479](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/479)
 - Add ubuntu/yakkety to packages generation list [!458](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/458)
 - Update targets on packages generation list (for Linux Mint, Ubuntu and Fedora) [!485](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/485)
-- Reduce size of gitlab-runner-helper images [!456](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/456)
-- Rename 'Build (succeeded|failed)' to 'Job (succeeded|failed)' [!459](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/459)
-- Set GIT_SUBMODULE_STRATEGY=SubmoduleNone when GIT_STRATEGY=GitNone [!480](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/480)
+- Reduce size of `gitlab-runner-helper` images [!456](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/456)
+- Rename `Build (succeeded|failed)` to `Job (succeeded|failed)` [!459](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/459)
+- Set `GIT_SUBMODULE_STRATEGY=SubmoduleNone` when `GIT_STRATEGY=GitNone` [!480](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/480)
 - Fix crash on machine creation [!461](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/461)
-- Fix race in helpers/prometheus/log_hook.go: Fire() method [!463](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/463)
-- Fix missing VERSION on Mac build [!465](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/465)
+- Fix race in `helpers/prometheus/log_hook.go: Fire()` method [!463](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/463)
+- Fix missing `VERSION` on Mac build [!465](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/465)
 
 To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/v1.11.0/CHANGELOG.md).
 
