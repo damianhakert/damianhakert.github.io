@@ -16,7 +16,7 @@ category: GitHost
 
 ### Overview
 
-You can move your existing projects from GitLab.com to your new GitHost.io instance. First you must open your GitLab account to a connection from your GitHost instance before giving that GitHost instance the keys to that connection. Once they are properly connected you can import one or all of your projects.
+You can move your existing projects from GitLab.com to your new GitHost.io instance. Follow the steps below to prepare your GitLab.com profile and GitHost.io instance before the import.
 
 ### Enable your GitHost application in GitLab.com
 
@@ -56,7 +56,7 @@ You can move your existing projects from GitLab.com to your new GitHost.io insta
 
 ### Import
 
-- Go to your GitLab instance and try to create a new project
+- Go to your GitLab instance and create a new project
 - Under 'Import project from' click 'GitLab.com'
 - You will be taken to a page asking for permission to authorize GitLab.com.
   Click on 'Authorize'
