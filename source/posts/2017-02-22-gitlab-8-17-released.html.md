@@ -46,8 +46,6 @@ available on GitLab.com and GitLab Enterprise Edition. After receiving
 [over 100 votes](https://gitlab.com/gitlab-org/gitlab-ce/issues/14605)
 we decided to move GitLab Pages to GitLab Community Edition.
 
-![GitLab Pages in GitLab Community Edition 8.17](/images/8_17/pages.png)
-
 Static websites are much faster than their dynamic counterparts (CMS), this
 makes them great for high volume public marketing and documentation sites or
 even as a way to easily visualize data from your continuous integration suite.
@@ -412,7 +410,7 @@ database.
 
 The slow migrations add columns with default values to `users` and `projects`.
 
-_By default, GitLab will stop, run migrations and start again. See the note 
+_By default, GitLab will stop, run migrations and start again. See the note
 below on changing this behavior._
 
 ### Upcoming changes to defaults in `.gitlab-ci.yml`
