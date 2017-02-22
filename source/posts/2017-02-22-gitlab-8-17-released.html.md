@@ -269,7 +269,7 @@ Unlike the `Administrator` role, Audit users don't have the ability to modify
 projects settings or access the Admin Area, making it the perfect solution to
 provide powerful, read-only access across the entire GitLab instance.
 
-[Find out more](audit-docs) about how this role works and the capabilities it
+[Find out more][audit-docs] about how this role works and the capabilities it
 allows.
 
 [audit-docs]: https://docs.gitlab.com/ee/administration/auditor_users.html
@@ -403,7 +403,7 @@ to be available on Raspbian Jessie.
 
 Due to a migration to new build infrastructure, several months ago Raspberry PI
 packages [started being released](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303)
-under `debian` distribution of [raspberry pi2 repositiory](https://packages.gitlab.com/app/gitlab/raspberry-pi2/).
+under `debian` distribution of [raspberry pi2 repositiory](https://packages.gitlab.com/gitlab/raspberry-pi2/).
 This was not the original intention and in the following months users needed to do
 a [manual change in their package repository sources](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303#note_21058665)
 to fetch the latest package.
