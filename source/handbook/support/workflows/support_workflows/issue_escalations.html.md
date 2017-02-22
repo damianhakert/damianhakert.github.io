@@ -12,75 +12,140 @@ category: Support Workflows
 
 ----
 
-## Issue Escalations
+Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the processes and escalation points described on this page when dealing with GitLab issues.
 
-Escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the below templates and escalation points when dealing with GitLab issues.
+## Issue Prioritization
 
-+ [Templates](#Templates)
-  + [Bug Report](#Bug-Report)
-  + [Feature Request](#Feature-Request)
-+ [Functional escalation points](#Functional-escalation-points)
-+ [Operational escalation points](#Operational-escalation-points)
-   + [Notes](#Notes)
-+ [Information Gathering](#Information-Gathering)
+In general, the product and development team will prioritize all issues
+(not just customer requests) as described elsewhere in the handbook, specifically for
+[the product managers](/handbook/product/product-areas/#prioritization), and for [engineering](/handbook/engineering/workflow). From those pages, generally, it goes in order of:
 
-## Templates
+1. Regressions
+1. Bugs
+1. Product Direction / Vision
+1. New Feature Proposal
+
+The Support Team plays a role in communicating the **impact to customers** of regressions, bugs, and feature
+requests. By using issue templates and then using the appropriate labels on those issues, the team can
+communicate _within the support team_ about which customer-affecting issues are high priority, and also show
+this to the team at large. By then participating in the scheduling effort for each release, the Support Team
+represents the voice of the customer in product development.
+
+### General notes on making issues
+
+#### Use templates
+
+When reporting a bug/regression or feature proposal. For example, `gitlab-ce` project has 'Bug' and 'Feature Proposal'
+templates.
+
+#### Use labels
+
+Always. Use either `~bug` or `~feature proposal` and
+also add `~customer`. For certain premium subscribers, you may need to use
+`~customer+`. If there are one or more component labels that are appropriate,
+such as `~ldap`, add those, too. Add [Support Priority labels](#support-priority-labels) ( `~SP1`, `~SP2`, `~SP3`) to indicate perceived priority inside the Support Team.
+
+#### Maintain confidentiality
+
+If an image, log output, etc. is required for the issue, try to produce your own test image. If you are unable
+to reproduce the issue and you wish to use the image provided by the customer make sure you _obtain
+permission_ from the customer since the image may (inadvertently) include sensitive information like names,
+group names, user names, or code.
+
+#### Information gathering
+
+For the *Application and environment information* section of issue templates, use:
+
++ Omnibus: `sudo gitlab-rake gitlab:check`
++ Source: `sudo -u git -H bundle exec rake gitlab:check RAILS_ENV=production SANITIZE=true`
+________________________
++ Omnibus: `sudo gitlab-rake gitlab:env:info`
++ Source: `sudo -u git -H bundle exec rake gitlab:env:info RAILS_ENV=production`
+
+### Regressions
+
+We aim to fix [regressions](/handbook/glossary/#regression) in patch releases, when possible. However, not all regressions are created equal - we will work to patch the high-impact ones first.
+
+For all regressions, add the `~regression` label. For high-impact regressions,
+also add `~"Next Patch Release"` and add the **current** _development month_ milestone.
+Development months run from the 7th to the 6th and the **current** _development month_ milestone is typically
+one milestone _ahead_ of the _release month_ milestone for the current
+month's release. This can be confusing because the regression may be for 8.16, and should
+be fixed in an 8.16 patch release. However, the developers are working on the release of the feature-frozen
+8.17 milestone, and on the newest release in milestone 9.0, so the regression should be assigned there (9.0)
+for attention. See the [development process](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#feature-freeze) for more details on
+this. In this case, the _issue_ gets the 9.0 milestone. The _merge request_ will get the 8.16 milestone, and
+will be picked into the stable branches of both 8.16 and 8.17. Confused? Check in the `#development` chat
+channel.
 
 
-### Bug Report
+### Bugs and Feature Proposals
 
-```
-ZD:
+By default, add an appropriate [support priority label](#support-priority-labels) to bugs and feature proposals. The labels are `~SP1`, `~SP2`, and `~SP3`, where `SP1` is the highest priority.
+These labels are applied in addition to the `~bug`, `~feature proposal` and `~customer` labels. Use
+priority labels in accordance with the urgency / impact matrix below.
 
-## Summary
+The reasoning behind adding an `~SP` label to _every_ of these issues is that each issue _should_ have had
+someone consider the urgency and impact, and this is best done at time of creating the issue since that is
+when the information and context is "fresh" in your memory. It is OK to change the assessment and label at a
+later date upon reflection (for example, during the support-internal scheduling meeting). When an issues are
+allowed to be filed _without_  an `~SP` label it will be unclear whether an issue lacks the label due to lack
+of urgency / impact, or due to missing a step in the process.
 
-## Reproduce
+> **Note about feature proposals:** GitLab has limited development resources.
+  Additionally, we must think about how widely applicable a feature may be to
+  other users. Requests that are very specific to one company's workflow are
+  likely to be rejected. Even if a feature seems widely applicable, we may
+  leave the feature proposal dormant for some time and see if other users
+  and customers chime in that they are also interested. Features that garner
+  interest from multiple organizations will be considered more rapidly. Of
+  course, there are always exceptions to these 'rules'. This note is meant to
+  set the expectation that feature proposals may not be implemented quickly.
 
-## Expected
+### Support Priority labels
 
-## Actual
+Use the following as a guideline to determine which Support Priority label to use (if any) for bugs and feature proposals.
 
-## Application and environment information
+- **Urgency:** _For example: Does this break all GitLab functionally or just a small part?_
+  - U1 - A large part, or a fundamental part
+  - U2
+  - U3 - Only a small part
+- **Impact:** _For example: How many users does this impact?_
+  - I1 - Many users
+  - I2
+  - I3 - Limited number of users
 
-____________
+| **Urgency \ Impact**          | **I1 - High** | **I2 - Medium**  | **I3 - Low**   |
+|-------------------------------|---------------|------------------|----------------|
+| **U1 - High**                 | `SP1`         | `SP1`            | `SP2`          |
+| **U2 - Medium**               | `SP1`         | `SP2`            | `SP3`          |
+| **U3 - Low**                  | `SP2`         | `SP3`            | `SP3`          |
 
-Related links:  
+### Escalating from the Support Team to the Development Team
 
-```
+On the last Tuesday of each month, the Support Team reviews the `SP` labeled issues (especially `SP1` and
+`SP2`), discusses priorities, and chooses the top few to present to the product and development team
+for potential deliverables in the next release.
 
-Required Tags: `bug`, `customer`, `customer+` for Premium subscribers.
+After the support team prioritizes it, we ping the relevant development lead and product manager for the express purpose of
+scheduling. Having the team leads comment in the issues will help customers understand the
+context around why / when their issues are being resolved, and it provides direct feedback from
+customers to the Development and Product teams.
 
+Working this way, it is possible that a customer reported issue is not picked up for a while (scheduling
+first, then time to work on a fix, then schedule for release, etc.). However, the idea is that this is OK
+because most truly urgent issues will in fact be regressions that don’t have this
+scheduling problem. If a bug isn't a regression, that means it has existed for more than a month when the customer notes it, and thus we've gone at least a full month without someone reporting the issue as urgent.
 
-**Add any additional tags related to the issue reported**
-
-See [Information Gathering](#Information-Gathering) for *Application and environment information* section
-
-### Feature Request
-
-
-```
-ZD:
-
-## Description
-Include problem, use cases, benefits, and/or goals
-
-## Proposal
-
-____________
-
-Related links:
-```
-
-Required Tags: `feature proposal`, `customer`, `customer+` for Premium subscribers.
-
-See [Information Gathering](#Information-Gathering) for *Application and environment information* section
-
-
-**Important Note** : If an image is required for the issue, try to produce your own test image for that. If you are unable to reproduce the issue and you wish to use the image provided by the customer make sure you _obtain permission_ from the customer since the image may (inadvertently) include sensitive information like names, group names, user names, or code.
+**Note**
+- Issues are not scheduled for a particular release unless the team leads add them to a release milestone
+*and* they are assigned to a developer. We aim to be realistic about scheduled deliverables and will
+avoid scheduling issues that cannot be delivered in a given release.
+- Safety valve: If something is "truly urgent", pinging leads in the issues when they are created is the best
+way to go, so it can be made Next Patch Release. This will often be preceded by loud debate and concurrence on
+chat.
 
 ## Functional escalation points
-
-
 
 | Service/Product  | Escalation Types                 | Escalation Point                                        | Assignment      |
 |------------------|--------------------------------|-----------------------------------------------------------|------------------
@@ -107,56 +172,27 @@ See [Information Gathering](#Information-Gathering) for *Application and environ
 
 ### Notes
 
-#### GitLab EE
-
-+ **Used for EE Only features.** Check https://about.gitlab.com/features/#compare
-
-
 #### GitHost.io
 
-+ GitHost project: https://dev.gitlab.org/gitlab/GitHost
-+ GitHost service: <http://githost.io>
-
++ GitHost [project](https://dev.gitlab.org/gitlab/GitHost)
++ GitHost [service](http://githost.io)
 
 #### Omnibus GitLab
 
 + Related to Omnibus GitLab packaging only.
-+ GitLab omnibus release packages: https://packages.gitlab.com/gitlab
-
-
++ GitLab [omnibus release packages](https://packages.gitlab.com/gitlab)
 
 #### GitLab Runner
 
-
-+ Information on GitLab Runner
-    + https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features
-    +  http://docs.gitlab.com/ce/ci/runners/README.html
-
+- Information on [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features)
+- [Runner documentation](http://docs.gitlab.com/ce/ci/runners/README.html)
 
 #### GitLab Workhorse
 
-+ Information on GitLab Workhorse
-    + https://about.gitlab.com/2016/04/12/a-brief-history-of-gitlab-workhorse/
-    +  **Description** *"Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP requests such as file downloads, file uploads, Git push/pull and Git archive downloads."*
-
+- Information on [GitLab Workhorse](https://about.gitlab.com/2016/04/12/a-brief-history-of-gitlab-workhorse/)
+- **Description** *"Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP requests such as file downloads, file uploads, Git push/pull and Git archive downloads."*
 
 #### GitLab Infrastructure
 
-+ Information on GitLab Infrastructure
-    + Slack: https://gitlab.slack.com/archives/infrastructure
-    + https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/ (Probably outdated)
-
-## Information Gathering
-
-information to gather for "Application and environment information" section.
-
-
-+ Omnibus: `sudo gitlab-rake gitlab:check`
-
-+ Source: `sudo -u git -H bundle exec rake gitlab:check RAILS_ENV=production SANITIZE=true`
-
-________________________
-
-+ Omnibus: `sudo gitlab-rake gitlab:env:info`
-
-+ Source: `sudo -u git -H bundle exec rake gitlab:env:info RAILS_ENV=production`
+- Reach the infra team on [Slack](https://gitlab.slack.com/archives/infrastructure)
+- Old blog post on [infrastructure](https://about.gitlab.com/2016/04/29/look-into-gitlab-infrastructure/)
