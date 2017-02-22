@@ -4,7 +4,7 @@ author:
 author_twitter:
 categories: concepts
 image_title: '/images/code.png'
-description: Our Discussion Lead walks through a GitLab code review. 
+description: Code review shouldn't be a burden; it should make your team better and faster so you can keep delivering new features on time.  
 cta_button_text: 'Join our <strong>Code Review</strong> webcast live!'
 cta_button_link: ''
 ---
