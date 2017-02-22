@@ -2264,3 +2264,14 @@
   gitlab:
   story:  |
           Open Position
+
+- name: "Mark Bell"
+  locality: Lafayette, Colorado   
+  country: USA   
+  role: <a href="https://about.gitlab.com/jobs/vice-president-of-product/">Sales</a>   
+  reports_to: Sales Leader
+  picture: markbell.jpg   
+  story:  |           
+        Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
+          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
+          I joined GitLab to help others improve the way they make software. What a great way to make a living.
