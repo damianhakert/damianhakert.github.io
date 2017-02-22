@@ -2152,16 +2152,18 @@
   story:  |
           Joining February 1st
 
-- name: S.K.
-  locality:
-  country:
+- name: Simon Knox
+  locality: Melbourne
+  country: Australia
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: simon.jpg
+  twitter: psimyn
+  gitlab: psimyn
   story:  |
-          Joining February 6th
+          Simon is a self-described web worker based in the coffee capital of the world.
+          He enjoys learning languages, and exploring what browsers are capable of.
+          Outside of devtools, he mostly alternates between reading, listening to music, walking his dog, and some light typing.
 
 - name: Scott Grudman
   locality: Tallahassee, Florida
