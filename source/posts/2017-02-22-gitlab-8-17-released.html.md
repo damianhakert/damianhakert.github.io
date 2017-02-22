@@ -131,8 +131,10 @@ issues and merge requests.
 
 ## Link from Merge Request interface to Environment
 
-With the new ability to [link files in a merge request to live previews of those files][environment-link-doc],
-GitLab's Review Apps just became a lot more powerful.
+GitLab Review Apps are great for previewing changes in a merge request by providing a link to a temporary environment running the changes. But when a change is buried in your application's interface, you still have to navigate to a specific place to see an actual change.
+
+With the new ability to [deep link files in a merge request to live previews of those files][environment-link-doc],
+you can now jump directly to the URL that shows off the changes in a given file.
 
 Using the new `.gitlab/route-map.yml` file, you can map routes to their
 respective URLs to allow for easy preview of specific changes. This is more
@@ -168,7 +170,7 @@ For example, this is [the current `route-map.yml` for about.gitlab.com][www-gitl
 
 We are continuing to streamline project settings and navigation, which we first
 started in [8.16]. We've combined the existing `Runners`, `Variables`,
-`Triggers`, and `CI/CD Pipelines` menu items into one simply called
+`Triggers`, and `CI/CD Pipelines` menu items into one item simply called
 `CI/CD Pipelines`. Navigating to `CI/CD Pipelines` will show you one page with
 all the settings that were previously spread across the 4 original pages.
 
@@ -178,12 +180,11 @@ As we work on merging settings together, we are also working to improve the UX o
 
 ![Improved settings navigation in GitLab 8.17](/images/8_17/settings_new.png){: .shadow}
 
-## Additional Details Included in Merge Request Workflow
+## Additional Pipeline Details Included in Merge Request Workflow
 
 We have made improvements to the look and feel of the Merge Request workflow,
 as well as included additional details on the CI/CD Pipeline status. You are
-now able to easily and quickly review the progress of the entire Pipeline,
-directly from the Merge Request page.
+now able to easily review the progress of the entire Pipeline, and take action directly from the Merge Request summary. For example, you could review a pipeline that needs attention, navigate to a failed job, and trigger a quick retry or manual action.
 
 ![Merge Request Pipeline Minigraph](/images/8_17/merge_request_minigraph.png){: .shadow}
 
@@ -204,8 +205,8 @@ context of the channel you are working in has never been easier or prettier!
 
 We have clarified the terminology used to discuss parts of [CI/CD][cicd],
 replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring
-to the entire pipeline, and `Job` will be used for a specific action or build.
-**Note:** The API will only be renamed in 9.0.
+to the entire pipeline, and `Job` will be used for a specific action.
+With the upcoming 9.0 release API v4 will utilize the new names, with v3 remaining unchanged.
 
 [cicd]: http://docs.gitlab.com/ce/ci/README.html
 
