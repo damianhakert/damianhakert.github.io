@@ -48,6 +48,8 @@ for creating your own project.
 
 **Note:** [GitLab Pages was introduced in GitLab EE 8.3][pages-introduced].
 It is available for [GitLab.com][sign-up] and [GitLab Enterprise Edition][gitlab-ee] users.
+Update: [GitLab 8.17](https://about.gitlab.com/2017/02/22/gitlab-8-17-released/#gitlab-pages-in-community-edition)
+brought GitLab Pages to GitLab Community Edition! Enjoy!
 {: .note}
 
 ## Website Types
@@ -121,7 +123,8 @@ Here is an overview of the steps we'll take, assuming you already have your GitL
 
 ## Step-by-step
 
-Now we will go through this process step-by-step.
+Now we will go through this process step-by-step. Update: watch the video tutorial on 
+[How to Publish a Website with GitLab Pages on GitLab.com from a forked project](https://youtu.be/TWqh9MtT4Bg)!
 
 ### Step 1: Create a new project
 {: #creating-new-project}
