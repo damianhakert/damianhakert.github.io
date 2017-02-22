@@ -24,6 +24,7 @@ title: "Vice President of Engineering"
 * Ensure engineers can have career progress without being a manager.
 * Push for individual accountability instead of project managers/coordinators.
 * Promote GitLab as a great product and place to work by engaging on social media and writing blog posts.
+* Reports will include the directors of backend, frontend, infrastructure, and maybe UX and Security
 
 ## Requirements
 
