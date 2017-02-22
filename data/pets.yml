@@ -161,7 +161,10 @@
   picture: franklin.jpg
   human: sam
   story: Franklin loves doing puppy things such as nibbling on your feet and sleeping the day away. Despit his small stature, he has big dreams of becoming an Olympic dogalete in long jump.
-
+- name: Ripley
+  picture: ripley.png
+  human: Scott G
+  story: Ripley is an avid squirrel stalker and tuna fish officianado.  When not sleeping for 18 hours a day, you can find her intently staring at you until you pat her on the head.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
