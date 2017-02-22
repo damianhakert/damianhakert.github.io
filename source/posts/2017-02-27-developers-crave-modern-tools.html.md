@@ -10,9 +10,7 @@ Developers are opinionated and rigorous when it comes to selecting tools, and th
 
 <!-- more -->
 
-Developers are opinionated and rigorous when it comes to selecting tools, and they’re increasingly driving decisions in organizations that depend on them to beat their competition to market. 
-
-Last year, we launched our [Global Developer Survey](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to explore how software development is adapting from pressures within and without, and how these changes affect the way teams work. In the survey’s first iteration, GitLab surveyed 362 startup and enterprise CTOs, developers and DevOps professionals globally who use our platform. In this post, I’ll share a few key findings, but you can get the full insights by downloading the [report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html).
+Last year, we launched our [Global Developer Survey](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html), polling 362 startup and enterprise CTOs, developers and DevOps professionals globally who use our platform. In this post, I’ll share a few key findings, but you can get the full insights by downloading the [report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html).
 
 ## Our Respondents are In-the-Know
 
@@ -22,9 +20,9 @@ Our sample is developer-heavy, with 53 percent of respondents identifying themse
 
 ## Devs Drive Adoption
 
-Respondents to our survey told us emphatically that developers reign supreme when it comes to choosing tools. When asked who in their organization decides which tools they use, a plurality of 44 percent said they choose their own. 
+Our respondents told us that developers have the upper hand when selecting the tools they work with - when asked who in their organization decides which tools they use, a plurality of 44 percent said they choose their own. 
 
-The next most common response reinforces developers’ primacy in this area; 17 percent of respondents reported that their lead developer drives tool selection. It’s remarkable, and a clear sign of developers’ rising agency and power within their organizations, that less than 20 percent said that decision is made by their CTO/CIO, IT Director, or Head of Engineering. Tellingly, 11 percent insisted that they use whichever tools they want, even though they’re not officially in charge of the decision.  
+The next most common response reinforces developer primacy in this area: 17 percent of respondents reported that their lead developer drives tool selection. It’s remarkable, and a clear sign of developers’ rising agency and power within their organizations, that less than 20 percent said that decision is made by their CTO/CIO, IT Director, or Head of Engineering. Tellingly, 11 percent insisted that they use whichever tools they want, even though they’re not officially in charge of the decision.  
 
 ![Who decides which tools are used](/images/blogimages/who-in-org-decides-tools-graph.png){: .shadow}<br>
 
