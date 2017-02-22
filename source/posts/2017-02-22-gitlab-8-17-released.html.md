@@ -438,6 +438,10 @@ the upgrade barometers of any intermediate versions you are skipping. If you are
 upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have
 to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
+New configuration options got introduced in the omnibus-gitlab packages. To check
+what changed when compared to your `/etc/gitlab/gitlab.rb` configuration file,
+run `sudo gitlab-ctl diff-config`.
+
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
