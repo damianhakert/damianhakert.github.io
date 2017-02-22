@@ -5,8 +5,8 @@ GitLab is looking for an experienced Recruiter in the San Francisco Bay Area to 
 to echo our values and culture across a broad and highly competitive tech startup landscape and to 
 attract highly qualified industry leaders globally. 
 
-This role reports to the Senior Director of People Operations and will collaborate with another recruiter 
-and the People Operations Team.
+This role reports to the Senior Director of People Operations and partners with a second global recruiter
+and a People Ops Administrator on a daily basis.
 
 ## Responsibilities
 
@@ -37,6 +37,5 @@ and the People Operations Team.
 * Ability to build relationships with hiring managers and colleagues across multiple disciplines and timezones
 * Advanced working knowledge using an applicant tracking systems 
 * Outstanding written and verbal communication skills across all levels
-* Willingness to learn and use software tools including Git and GitLab 
-* Must be physically located in the Bay Area
+* Willingness to learn and use software tools including Git and GitLab
 * College / University degree in Marketing, Human Resources or related field from an accredited institution preferred
