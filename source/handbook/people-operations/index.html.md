@@ -102,7 +102,7 @@ This policy applies to all current employees and candidates for employment.
 
 ### Relocation
 
-If your permanent address is changing, you should let GitLab know the new address within a month.  The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
+If your permanent address is changing, notify People Operations of the new address within the pay cycle of the move.  The best way to do this is by logging in to BambooHR and changing your address under the **Personal** tab. This triggers a message to the BambooHR admin to review the change and "accept" it.
 
 If you are going to be traveling and spending longer than three months in one location this will be considered as a relocation and change of permanent address.
 
