@@ -78,6 +78,7 @@ and removing them from everywhere except blog posts. If you do not have a tool o
 1. [x] _not relevant_ People Ops: complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
+1. [x] _not relevant_ People Ops: If new team member is an hourly employee, create a timesheet, share with Finance and the new team member. Also, send an email to Finance to let them know that an hourly employee has started. 
 1. [x] _not relevant_ New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 1. [x] _not relevant_ People Ops: complete the employer portion of the I9 in TriNet within three days of hire
 1. [x] _not relevant_ New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
@@ -123,12 +124,14 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
+1, [x] _not relevant_ New team member: [Download Git](https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html).
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [x] _not relevant_ New team member: Make an improvement to the handbook (something that you wished was there).
 1. [x] _not relevant_ Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [x] _not relevant_ New team member: Reach out to your onboarding buddy, or any other GitLabber to show you how to do some advanced git tasks locally. For example, configure and/or solve a merge conflict.
 1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [x] _not relevant_ New team member: Take a look at the "Reference Customers" google doc to familiarize yourself with which customer information should be kept confidential within the company.
 1. [ ] Hiring Manager: Check former GitLabbers' project-level permissions and remove them as-needed.

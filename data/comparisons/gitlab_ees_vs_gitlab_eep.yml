@@ -1,4 +1,5 @@
 title: "GitLab EEP vs. GitLab EES"
+pdf: gitlab-ees-vs-gitlab-eep.pdf
 competitor_one:
   name: 'GitLab CE'
   logo: '/images/comparison/ce-gitlab-logo.svg'
