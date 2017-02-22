@@ -206,7 +206,7 @@ context of the channel you are working in has never been easier or prettier!
 We have clarified the terminology used to discuss parts of [CI/CD][cicd],
 replacing the usage of `Build`. In 8.17, `Pipeline` will be used when referring
 to the entire pipeline, and `Job` will be used for a specific action.
-With the upcoming 9.0 release API v4 will utilize the new names, with v3 remaining unchanged.
+With the upcoming 9.0 release API v4 will utilize the new naming convention, with v3 remaining unchanged.
 
 [cicd]: http://docs.gitlab.com/ce/ci/README.html
 
