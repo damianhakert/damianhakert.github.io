@@ -102,7 +102,7 @@ With 8.17, you can now squash your commits together into a single commit, as
 part of merging, giving you a much cleaner Git history.
 Simply select the option in the merge request itself.
 
-[See our documentation to learn more about squash and merge.][squash-doc].
+[See our documentation to learn more about squash and merge.][squash-doc]
 
 [wip]: https://docs.gitlab.com/ce/user/project/merge_requests/work_in_progress_merge_requests.html
 [squash-doc]: https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html
@@ -338,6 +338,24 @@ The most noticeable contributed changes are as follows:
 [!8961]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8961
 [!9359]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9359
 
+## GitLab Runner
+
+We are also releasing GitLab Runner 1.11 today. Most interesting changes:
+
+- Add post_build_script to call scripts after user-defined build scripts [!460](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/460)
+- Add the runner name to the first line of log output, after the version [!473](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/473)
+- Add timezone support for OffPeak intervals [!479](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/479)
+- Add ubuntu/yakkety to packages generation list [!458](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/458)
+- Update targets on packages generation list (for Linux Mint, Ubuntu and Fedora) [!485](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/485)
+- Reduce size of gitlab-runner-helper images [!456](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/456)
+- Rename 'Build (succeeded|failed)' to 'Job (succeeded|failed)' [!459](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/459)
+- Set GIT_SUBMODULE_STRATEGY=SubmoduleNone when GIT_STRATEGY=GitNone [!480](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/480)
+- Fix crash on machine creation [!461](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/461)
+- Fix race in helpers/prometheus/log_hook.go: Fire() method [!463](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/463)
+- Fix missing VERSION on Mac build [!465](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/465)
+
+To see the full list of all changes please read [the Runner's CHANGELOG file](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/v1.11.0/CHANGELOG.md).
+
 ## Additional Changes
 
 - Added `repository_storage` and `approvals_before_merge` fields to [API v3 Projects](https://docs.gitlab.com/ee/api/projects.html) (EE only).
@@ -440,8 +458,8 @@ the upgrade barometers of any intermediate versions you are skipping. If you are
 upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have
 to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
-New configuration options have been introduced in the omnibus-gitlab packages. To
-check what changed compared to your `/etc/gitlab/gitlab.rb` configuration
+New configuration options got introduced in the omnibus-gitlab packages. To
+check what changed when compared to your `/etc/gitlab/gitlab.rb` configuration
 file, run `sudo gitlab-ctl diff-config`.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
