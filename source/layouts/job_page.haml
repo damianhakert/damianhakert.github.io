@@ -15,7 +15,7 @@
       our culture, our way of life, our story, and what makes us truly unique.
 
       [vision]: https://about.gitlab.com/strategy
-      [value]: https://about.gitlab.com/handbook/#values
+      [value]: https://about.gitlab.com/handbook/values
       [primer]: https://about.gitlab.com/primer
 
     = partial "includes/reasons_to_work_for_gitlab"
@@ -25,9 +25,10 @@
 
   = yield
 
-  - if job = job_for_current_page
+  - if job = salary_for_current_job
     = partial "includes/salary_calculator", locals: {title: job.title}
 
+  - if job = job_for_current_page
     :markdown
       ## Apply
 

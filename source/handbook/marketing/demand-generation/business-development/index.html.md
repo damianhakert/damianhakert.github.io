@@ -41,18 +41,20 @@ Business Development Handbook
 
 Welcome to GitLab and congratulations on landing a job with the best open source tech company, GitLab. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson.
 
-On the BDR team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
+As a BDR your focus will be on qualifying inbound leads and SDR focuses on generating demand via outbound efforts.  
 
-Being a BDR can come with what seems as long days, hard work, frustration and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
+On this team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
+
+Being a BDR can come with what seems as long days, hard work, frustration, and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role<a name="Role"></a>
 
-As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries and different roles.
+As a BDR, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
 
 As you gain knowledge, you will be able to aid these key players in solving problems within the developer lifecycle. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
 1. [BDR Handbook](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/) - This will help you with your day to day workflow. You can find information on how to prospect, best practices, customer FAQs, buyer types, cadence samples and more. Use the BDR handbook in conjunction with the [marketing](https://about.gitlab.com/handbook/marketing/) and [sales](https://about.gitlab.com/handbook/sales/) handbooks. This will help you bridge the gap between the two and learn the product and process faster.
-1. [GLU GitLab University](https://university.gitlab.com/) - These trainings will teach the fundamentals of Version Control with Git and GitLab through courses that cover topics which can be mastered in about 2 hours. These trainings include an intro to Git, GitLab basics, a demo of Gitlab.com, terminology and more. You can also find information about GitLab compared to other tools in the market.
+1. [GLU GitLab University](https://university.gitlab.com/) - These trainings will teach the fundamentals of Version Control with Git and GitLab through courses that cover topics which can be mastered in about 2 hours. These trainings include an intro to Git, GitLab basics, a demo of Gitlab.com, terminology, and more. You can also find information about GitLab compared to other tools in the market.
 
 #### Onboarding<a name="onboard"></a>
 
@@ -64,7 +66,7 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 #### Inbound Process<a name="Inbound"></a>
 
-Each rep will be placed into the Marketo Queue and will receive a high volume of leads to work on a monthly and quarterly basis. Criteria for those leads are set by Marketo and the Director of Demand Generation
+Each Business Development Rep (BDR) will be placed into the Marketo Queue and will receive a high volume of leads to work on a monthly and quarterly basis. Criteria for those leads are set by Marketo and the Director of Demand Generation
 
 - Primary Responsibilities:
    - Manage and help inbound requests to community@gitlab.com and sales@gitlab.com
@@ -74,21 +76,9 @@ Each rep will be placed into the Marketo Queue and will receive a high volume of
 - Rules of engagement
   - Inbound to work off of leads within SFDC
   - Inbound does not touch any lead that has activity on it within the last 45 days by a different BDR.
-
-#### Outbound Process<a name="Outbound"></a>
-
-Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly or quarterly basis.
-
-Criteria for those accounts (still TBD):
-
-- Tier
-- Industry
-- Number of Employees
-- Revenue
-- Populated with contacts and activity
-- Last activity date
-- Lost opportunities
-- Former or current customers
+  - Inbound lead from Large/Strategic account list should be converted as a contact, with no opportunity, and the contact owner will be the SDR on the account.
+    - If no SDR is assigned, assign to Account Executive (AE) on the account
+    - If no AE, BDR should ask Regional Director for guidance, using the chatter function in salesforce.com
 
 Help Marketing create campaigns focusing on:
 
@@ -229,7 +219,7 @@ Your messaging for each one will be different. An end user or lower level develo
 
     Schedule meeting
     "Do you have 15 minutes on (specific day and time) to discuss your (example - developer life cycle)?"
-      
+
 
 #### Qualifying<a name="inboundQualify"></a>
 
@@ -271,10 +261,10 @@ The following [doc](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZh
 
 Sending leads to the right person
 
-- [APAC](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
-- [EMEA](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [North America](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [South America](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
+- [APAC](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [EMEA](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [North America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [South America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
    - Note: BDRs do not set up meetings for resellers.
 
 #### How to Videos/Tutorials<a name="HowTos"></a>
@@ -294,9 +284,9 @@ Helpful [Tutorials](https://drive.google.com/open?id=0B1W9hTDXggO1NGJwMS12R09lak
 
 #### Coined Terms
 
- - #BDRing - Doing your job...Kris Touzel
+ - #BDRing - Doing your job 
  - #SQLing - Winning at your job...Ryan Caplin
- - #BDR - Boss Destroying Revenue...Joe Lucas
+ - #BDR - Boss Destroying Revenue
 
 #### Frequently Asked Questions<a name="questions"></a>
 
@@ -320,12 +310,6 @@ Who should I connect with for my 10 1:1 onboarding calls?
 
 [Additional FAQ's](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
 
-#### Improvements/Contributing<a name="contribute"></a>
-
-- If you get an answer to a question someone else may benefit from, incorporate it into this handbook or add it to the [FAQ document](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
-- After meetings or process changes, feel free to update this handbook, and submit a merge request
-- Create issues for any idea (small or large that), that you want feedback on
-
 #### Variable Compensation Guidelines<a name="compensation"></a>
 
 Full-time BDRs have a significant portion of their pay based on performance and objective attainment. Performance based "bonuses" are based on results. Actions for obtaining results will be prescribed and measured, but are intentionally left out of bonus attainment calculations to encourage experimentation. BDRs will naturally be drawn to activities that have the highest yield, but freedom to choose their own daily activities will allow new, higher yield activities to be discovered.
@@ -338,25 +322,11 @@ Guidelines for bonuses:
    - E.g. a new BDR's first month's bonus is typically based on completing [onboarding](https://about.gitlab.com/handbook/general-onboarding/)
    - Bonuses may be tied to sales target attainment, [OKRs](https://about.gitlab.com/handbook/marketing/#okrs), or other objectives.
 
-#### BDR Vacation Incentives<a name="vacation"></a>
+#### Improvements/Contributing<a name="contribute"></a>
 
-Note: this is a new, experimental policy started in June 2016: changes and adjustments are expected
-
-At GitLab, we have an [unlimited time off policy](https://about.gitlab.com/handbook/#paid-time-off). The business development team has additional incentives for taking time off:
-
-- The first 5 business days taken off by a BDR in a calendar year prorates their target by 100%, rounded up (i.e. reduces the BDR's target by the period's target divided by the number of business days in the period, times the number of days taken off).
-- The second 5 business days are prorated by 50%, rounded up if applicable
-- The third 5 business days are prorated by 25%, rounded up if applicable
-- Example: A BDR with a target of 200 opportunities in a January with 20 business days can reduce that month's target to 190 by taking 1 day off, 150 by taking 5 days off, 125 by taking 10 days off, or 113 by taking 15 days off.
-
-Rules and qualifications for BDR Vacation Incentives:
-
-- BDRs must give notice 30 days ahead of intended time off to by the Team Lead and Senior Demand Generation Manager (and ensure they acknowledge receipt within 48 hours)
-- BDRs must add intended time off to the availability calendar
-- Prorated days can be deferred (i.e. take PTO without prorating the target), but are lost at the end of the year. Incidentally, the math usually works out in favor of not deferring.
-- BDRs can take additional vacation days (see [GitLab PTO policy](https://about.gitlab.com/handbook/#paid-time-off), but time off beyond 15 days will not adjust targets.
-
-With [GitLab's PTO policy](https://about.gitlab.com/handbook/#paid-time-off), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
+- If you get an answer to a question someone else may benefit from, incorporate it into this handbook or add it to the [FAQ document](https://docs.google.com/a/gitlab.com/document/d/1O_DTqnsQaHpqFeA7h24R-ozu0ZeyHey0yNI0GIAA7_w/edit?usp=sharing)
+- After meetings or process changes, feel free to update this handbook, and submit a merge request
+- Create issues for any idea (small or large that), that you want feedback on
 
 #### Additional Resources
 

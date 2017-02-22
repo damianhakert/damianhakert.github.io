@@ -1,6 +1,7 @@
 @import "variables";
 
-.salary-container {
+.salary-container,
+.move-container {
   padding: 0 0 45px;
 
   .col-sm-4,
@@ -10,10 +11,18 @@
   }
 
   .col-sm-6 {
-    padding: 0 10px 0 0;
+    padding: 0 10px 10px 0;
 
-    @media (max-width: 767px) {
+    @media (max-width: $screen-sm-min) {
       padding-right: 0;
+    }
+  }
+
+  .col-sm-12 {
+    h5 {
+      display: inline-block;
+      color: $color-gray-light;
+      font-weight: normal;
     }
   }
 
@@ -43,16 +52,11 @@
     }
   }
 
-  .dropdown {
-    margin-bottom: 10px;
-  }
-
   .compensation {
     border: 1px solid $dropdown-border-color;
     border-radius: 3px;
     height: 100%;
     padding: 10px;
-    margin-bottom: 10px;
 
     .title {
       border-bottom: 1px solid $dropdown-border-color;
@@ -116,6 +120,59 @@
     display: inline-block;
     white-space: no-wrap;
   }
+
+  @media (max-width: $screen-sm-min) {
+    .dropdown,
+    .compensation {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.move-container {
+  .title {
+    margin-top: 15px;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .col-sm-4,
+    .updated-compensation {
+      padding: 0 5px;
+    }
+  }
+
+  .col-sm-12 .col-sm-4 {
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+
+  .compensation {
+    position: relative;
+    min-height: 45px;
+
+    .title,
+    .amount {
+      position: absolute;
+    }
+
+    .title {
+      top: 4px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 13px;
+      border: 0;
+    }
+
+    .amount {
+      bottom: 4px;
+      font-size: 15px;
+    }
+  }
 }
 
 .filter-container {
@@ -144,5 +201,76 @@
     top: 22px;
     right: 25px;
     color: $dropdown-fa-color;
+  }
+}
+
+.input-container {
+  position: relative;
+  min-height: 45px;
+  margin: 0;
+  padding: 6px 20px 6px 10px;
+  border: 1px solid $dropdown-border-color;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $dropdown-focus-color;
+  }
+
+  .input-label,
+  .input-prefix,
+  .input-field,
+  .input-suffix {
+    position: absolute;
+  }
+
+  .input-prefix,
+  .input-suffix {
+    bottom: 3px;
+    color: $color-gray-light;
+  }
+
+  .input-label {
+    top: 4px;
+    font-size: 13px;
+    color: $color-gray-light;
+    font-weight: normal;
+  }
+
+  .input-prefix {
+    left: 10px;
+  }
+
+  .input-field {
+    bottom: 4px;
+    left: 20px;
+    padding: 0;
+    width: 75%;
+    height: 18px;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: $dropdown-focus-color;
+    }
+  }
+
+  .input-suffix {
+    right: 10px;
+  }
+
+  &.has-value {
+    .input-prefix,
+    .input-suffix {
+      color: $dropdown-fa-focus-color;
+    }
+  }
+
+  @media (max-width: $screen-sm-min) {
+    margin-bottom: 10px;
   }
 }

@@ -44,7 +44,7 @@ The full command looks like this:
 aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
 ```
 
-![Manual deployment](/images/blogimages/ci-deployment-and-environments/13.jpg){: .illustration}*<small>Pushing code to repository & deploing are separate processes</small>*
+![Manual deployment](/images/blogimages/ci-deployment-and-environments/13.jpg){: .illustration}*<small>Pushing code to repository & deploying are separate processes</small>*
 
 **Important detail**: the command
 [expects you](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence)

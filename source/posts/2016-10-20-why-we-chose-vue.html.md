@@ -99,3 +99,7 @@ writing great code. You need excellent documentation, a strong community helping
 learn, a supporting cast of libraries and plugins to help users solve the hard problems,
 and short feedback loops based on user feedback to keep the framework relevant. Vue.js is all
 of that, *plus* great code. That's why we're using it. What about you?
+
+## Watch the Why We Chose Vue.js webcast 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ioogrvs2Ejc" frameborder="0" allowfullscreen></iframe>

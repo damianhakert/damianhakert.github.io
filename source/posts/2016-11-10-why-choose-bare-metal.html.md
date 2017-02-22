@@ -8,6 +8,8 @@ description: "How we're solving storage and performance issues as we scale."
 twitter_image: '/images/tweets/why-bare-metal.png'
 ---
 
+{::options parse_block_html="true" /}
+
 In my last [infrastructure update][infra-post], I documented our challenges with
 storage as GitLab scales. We built a CephFS cluster to tackle both the capacity
 and performance issues of NFS and decided to replace PostgreSQL standard Vacuum

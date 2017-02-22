@@ -11,7 +11,7 @@ Download the keypair file from the Support vault. It's attached to the
 Open the GPG Keychain application and import the keypair file. It will ask for
 a password. Use the password saved on the vault item.
 
-Now you will be able to encrypt, decrypt and share the public key with others.
+Now you will be able to encrypt, decrypt, and share the public key with others.
 
 # Share the public key
 

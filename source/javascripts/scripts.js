@@ -1,3 +1,10 @@
+function openSocialLink(link, width, height) {
+  var left = (window.innerWidth / 2) - (width / 2);
+  var top = (window.innerHeight / 2) - (height / 2);
+
+  window.open(link.href, 'targetWindow', 'menubar=no,status=no,resizable=no,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left);
+}
+
 function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1);
   var sURLVariables = sPageURL.split('&');
@@ -31,9 +38,19 @@ $(function() {
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
       $tables = $('table'),
+      $testimonialsSlider = $('#js-testimonials-slider'),
       internalNavigationEvent = 'onpopstate' in window ? 'popstate' : 'hashchange';
 
   $("input").not("[type=submit]").jqBootstrapValidation();
+
+  if ($testimonialsSlider.length) {
+    $testimonialsSlider.slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true
+    });
+  }
 
   if (getUrlParameter('s') == 'ph' && $ci.length) {
     $ci.append('<br><br>Hello, Product Hunters!<br><br> Get 75% off a GitLab.com bronze subscription forever! <br> Use the code: producthunt75');
@@ -107,11 +124,10 @@ $(function() {
   });
 
   // Search
-  var $search = $('.js-search'),
-      $searchIcon = $('.js-search-icon');
+  var $search = $('.js-search');
 
-  $('.js-search-icon').on('click', function () {
-    $searchIcon.parent().addClass('is-open is-focused');
+  $('.js-search-toggle').on('click', function () {
+    $search.parent().toggleClass('is-visible');
 
     setTimeout(function () {
       $search.focus();
@@ -123,10 +139,6 @@ $(function() {
       // Trigger a search by changing hash
       window.location.hash = '#stq=' + $(this).val()
     }
-  }).on('focus', function () {
-    $(this).parent().addClass('is-focused');
-  }).on('blur', function () {
-    $(this).parent().removeClass('is-focused');
   });
 
   var $stickyBanner = $('.js-sticky-banner'),

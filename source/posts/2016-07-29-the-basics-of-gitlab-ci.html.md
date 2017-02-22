@@ -308,7 +308,12 @@ Below is the last section containing a more formal description of terms and keyw
 | [artifacts:expire_in](http://docs.gitlab.com/ce/ci/yaml/README.html#artifactsexpire_in) | Used to delete uploaded artifacts after the specified time |
 | [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
 
-Don't miss these GitLab CI stories as well:
 
-- [Migrating from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
-- [Decreasing build time from 8 minutes 33 seconds to just 10 seconds](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
+
+See also:
+- [Learn how to set up deployment pipeline to multiple environments](https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/)
+- [Migrate from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
+- [Decrease build time with custom docker image](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
+
+
+

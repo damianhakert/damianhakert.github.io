@@ -129,11 +129,14 @@ author? There's now a quick link to do this:
 
 ![Quickly assign](/images/8_13/assign_yourself.png)
 
-### Restrict the visibility of a project's repository
+## Restrict the visibility of a project's repository
 
-You can now restrict access to the project's repository, like you can do for the
-Issues or Snippets in a given project. You can either disable the access entirely
-for anyone, or restrict it to only team members.
+GitLab now does so much more, the repository doesn't have to be the
+point of focus anymore. In fact, you might not use it at all! For that reason,
+you can now disable or restrict access to the repository of any project.
+
+If you restrict access, only project members can access the repository.
+This allows you to run a public issue tracker on an otherwise private project.
 
 ![Project repository visibility](/images/8_13/restrict_access.png)
 

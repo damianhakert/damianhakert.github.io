@@ -27,7 +27,7 @@ For details on where to get Technical Support, and with what level of service, p
 
 ## Discussion
 
-If you'd like to discuss a feature proposal or a bug found within the product. Please raise an issue to the official GitLab issue trackers.
+If you'd like to discuss a feature proposal or a bug found within the product. Please raise an issue to the [official GitLab issue trackers](https://gitlab.com/gitlab-org/gitlab-ce/issues/).
 
 ### Feature Proposals
 

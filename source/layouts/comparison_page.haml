@@ -1,5 +1,5 @@
 !!! 5
-%html
+%html{lang: "en"}
   %head
     = partial "includes/layout/head"
   %body{class: "#{page_classes} #{'purple-bg' if current_page.data.purple_bg}", data: {spy: "scroll", target: ".qnav", offset: "90"}}
@@ -7,12 +7,59 @@
       = partial "includes/google/gtm"
       = partial "includes/layout/header"
       = partial "includes/layout/headline"
-      = partial "includes/blog/image-single", locals: {post: current_page}
+
+      .page-container.comparison-header.text-center.animated
+        .container
+          %h1.page-headline
+            GitLab compared to other tools
+
       .comparison-container.full-post
-        .blog-entry.clearfix
-          = partial "includes/comparison_tree_nav"
-          .comparison-page-content.col-sm-8
+        .container.comparison-table
+          .comparison-page-content.col-sm-12
             = yield
+
+      .container
+        .open-core
+          %h2.text-center
+            GitLab is open-core
+          %h4.text-center
+            GitLab is an open-core product whereas our competitors are closed-source products. The GitLab Community Edition is fully open-source, and the Enterprise Edition is closed-source.
+          .row
+            .col-md-6
+              %h3
+                Access to the source code
+              %p
+                You can see the GitLab Community Edition and Enterprise source code at any time, even on your own server.
+            .col-md-6
+              %h3
+                Fully modifiable
+              %p
+                Unlike closed-source software, you can modify GitLab's source code. Be it right on the server or by forking our repositories, you can add features and make customizations. We do recommend that you try to merge your changes back into the main source code, so that others can benefit and your instance stays easy to maintain and update.
+          .row
+            .col-md-6
+              %h3
+                Viable long term
+              %p
+                GitLab has a solid community with hundreds of thousands of organizations using and often contributing to the software. This means that GitLab is much more viable for long term usage, as it's not reliable on a single company supporting it.
+            .col-md-6
+              %h3
+                New stable version every month
+              %p
+                GitLab releases a new stable version every single month, full of improvements, new features, and fixes. This allows GitLab to move fast and respond to customer requests extremely quickly.
+          .row
+            .col-md-6
+              %h3
+                Build with a community
+              %p
+                GitLab is built by hundreds of people every month. Customers, users and GitLab, Inc. all contribute to every release. this leads to features that organizations actually need, such as easy, yet powerful user management.
+            .col-md-6
+
+      .content-container.explore-gitlab-products.text-center
+        .container
+          %h1.page-headline.cta
+            Choose the GitLab edition that is best for your team
+          %a.btn.btn-lg.btn-red.btn-margin-top{ href: "/products/" }
+            Explore our products
       - if current_page.data.trial_bar
         = partial "includes/features/gitlab-ee-trial"
       .footer-container

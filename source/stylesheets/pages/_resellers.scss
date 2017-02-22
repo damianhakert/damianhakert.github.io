@@ -254,3 +254,85 @@
   color: $color-primary;
   font-size: (26px / 14px) * 1em;
 }
+
+.reseller-category-section {
+  padding: 25px 0 0;
+
+  h4 {
+    color: $color-primary-alt;
+    font-weight: 300;
+  }
+}
+
+.reseller-regions {
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  @media (min-width: $screen-md-min) {
+    justify-content: space-between;
+  }
+
+  .reseller-region {
+    align-items: center;
+    border: 1px solid $reseller-divider-color;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    width: 263px;
+
+    svg {
+      fill: $color-secondary;
+      height: 100px;
+      position: relative;
+      width: 100px;
+    }
+
+    .region-name {
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+      font-size: $font-size-large;
+      color: $legend-color;
+
+      @media (min-width: $screen-lg-min) {
+        text-align: left;
+        margin-top: 0;
+        width: 35%;
+
+        &:last-child {
+          margin-left: 15px;
+          width: 40%;
+        }
+      }
+    }
+
+    &.active,
+    &:hover {
+      background-color: $reseller-category-active-background-color;
+      border-color: $color-primary-alt;
+
+      svg {
+        fill: $color-primary-alt;
+      }
+
+      .region-name {
+        color: $color-primary-alt;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      flex-basis: 20%;
+      margin: 20px auto;
+    }
+  }
+
+}

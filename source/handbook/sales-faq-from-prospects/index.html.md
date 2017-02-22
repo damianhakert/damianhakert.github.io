@@ -42,7 +42,7 @@ title: "FAQ from prospects"
 
 - Q: Does GitLab provide visibility levels for projects?
 
-  A: GitLab has three different visibility levels for each project: Public, internal and private.
+  A: GitLab has three different visibility levels for each project: Public, internal, and private.
 
   Documentation: http://doc.gitlab.com/ee/public_access/public_access.html
 
@@ -116,4 +116,4 @@ title: "FAQ from prospects"
 
 - Q: Can I install and upgrade GitLab without an internet connection?
 
-  A: Yes. Our Omnibus packages are self-contained and require no internet access during installation, configuration or afterwards.
+  A: Yes. Our Omnibus packages are self-contained and require no internet access during installation, configuration, or afterwards.

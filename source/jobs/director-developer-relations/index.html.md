@@ -25,7 +25,8 @@ As the Director of Developer Relations, you will be responsible for managing and
 * You give a great keynote and have videos to prove it.  
 * You’ve led and built a team before.  
 * Excellent spoken and written English.  
-* Familiar with Git, Ruby, and GitLab.  
+* Familiar with Git, Ruby, and GitLab. 
+* Analytical and data driven approach
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.  
 * You are obsessed with making developers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.  
 * You share our values, and work in accordance with those values.   

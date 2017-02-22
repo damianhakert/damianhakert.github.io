@@ -9,9 +9,9 @@ image_title: '/images/unsplash/stairwaycompressed.jpg'
 This is the start of a series of posts to get you started with GitLab and
 GitLab CI.
 
-In this first post we will explain what CI is, why use it and we will briefly
-explore a higher overview of the components that make GitLab and GitLab CI work
-together.
+In this first post, we will explain what CI is, why you would use it, and we will
+briefly explore a higher overview of the components that make GitLab and GitLab
+CI work together.
 
 Let's dive in!
 
@@ -37,8 +37,7 @@ integral part of your workflow.
 They are many applications in the field which try to tackle this practice. The
 majority of them are either closed source, making you rely on external sources
 (meaning a single point of failure), or need a lot of configuration just to set
-up, let alone the millions of plugins you have to install in order to bring it
-to your needs.
+up, let alone the millions of plugins you have to install to meet your needs.
 
 Would you rather have a CI service tightly integrated with your favorite code
 management tool with next to zero configuration? If so, you will love GitLab
@@ -63,7 +62,7 @@ Each project comes with a Builds page where you can follow the output of each
 build, see the commit that introduced it and other useful information such as
 the time the build started, how long it lasted and the commiter's name.
 
-The statuses for each build are exposed in the GitLab UI and you can see
+The statuses for each build are exposed in the GitLab UI, and you can see
 whether a build succeeded, failed, got canceled or skipped within a single
 Merge Request or commit, or at the Merge Requests and commits pages.
 
@@ -87,7 +86,7 @@ Some of the key features of GitLab Runner are:
 * [Is open source][runner-repo]
 * Is written in Go and distributed as a single binary without any other
 	requirements
-* Works on Linux, OS X, *BSD and Windows (and anywhere you can run Docker)
+* Works on Linux, OSX, *BSD and Windows (and anywhere you can run Docker)
 * Easy installation as a service for Linux, OSX and Windows
 * [Linux users can install it using deb or rpm packages][runner-linux-repo]
 * Easy to use setup with support for Docker, Docker with SSH, Parallels or
@@ -108,7 +107,7 @@ Some of the key features of GitLab Runner are:
 * List of files and directories can be attached to build after success
   (the so-called `artifacts` feature)
 
-As you can see, there is much flexibility on installing and configuring
+As you can see, there is much flexibility in installing and configuring
 a GitLab Runner.
 
 ## What the future holds
@@ -132,9 +131,9 @@ the forthcoming features.
 By now you should have an overview of what GitLab CI is and why you should
 start using it.
 
-If you are eager to give it a go be sure to visit our [quick start guide][].
+If you are eager to give it a go, be sure to visit our [quick start guide][].
 
-In the following posts we will explore how to use GitLab CI to test your
+In the following posts, we will explore how to use GitLab CI to test your
 projects in specific languages such as PHP.
 
 Subscribe to our newsletter which includes links to our latest blog posts.

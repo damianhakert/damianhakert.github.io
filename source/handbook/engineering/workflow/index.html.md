@@ -11,21 +11,28 @@ For the workflow that applies to everyone please see [PROCESS.md](https://gitlab
 - TOC
 {:toc}
 
+## GitLab Flow
+
+Products at GitLab are built using the [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html).
+
 ## Basics
 
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues], and filter by the label for your team.
 1. If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
 1. You are responsible for the issue that you're assigned to. This means it has
-to ship with the milestone that is has. If you are not able to do this,
-you have to communicate this early.
-In teams, the team is responsible for this (see below).
-1. You (and your team, if applicable) are responsible for the testing of a new
-feature or fix, especially right after it has been merged and packaged. Once a
-release candidate has been deploy in the staging environment, please verify
-that your changes work as intended. We have seen issues where bugs did not
-appear in development but showed in production (e.g. due to CE-EE merge
-issues).
+  to ship with the milestone it's associated with. If you are not able to do
+  this, you have to communicate it early to your manager. In teams, the team is
+  responsible for this (see below).
+1. You (and your team, if applicable) are responsible for:
+  - ensuring that your changes [apply cleanly to GitLab Enterprise Edition][ce-ee-docs].
+  - the testing of a new feature or fix, especially right after it has been
+    merged and packaged.
+1. Once a release candidate has been deploy in the staging environment, please
+  verify that your changes work as intended. We have seen issues where bugs did
+  not appear in development but showed in production (e.g. due to CE-EE merge
+  issues).
 
+[ce-ee-docs]: https://docs.gitlab.com/ee/development/limit_ee_conflicts.html
 [priority-issues]: https://gitlab.com/groups/gitlab-org/issues?scope=all&sort=priority&state=opened&milestone_title=%23upcoming&assignee_id=0
 
 ## Working in Teams
@@ -80,7 +87,7 @@ Most issues will have labels for at least one of the following:
 - Team (`CI`, `Discussion`, `Edge`, `Frontend`, `Platform`, etc.)
 - Subject (`wiki`, `container registry`, etc.)
 - Type (`feature proposal`, `bug`, `customer`, etc.)
-- Priority (`P1`, `P2`, `P3`)
+- Priority (`Deliverable`, `Stretch`)
 
 If you come across an issue that has none of these, you can _always_ add the team and type, and often also the subject.
 
@@ -94,7 +101,7 @@ All labels, their meaning and priority are defined on the
 Team labels specify what team is responsible for this issue.
 Assigning a team label makes sure issues get the attention of the appropriate people.
 
-The current team labels are `CI`, `Discussion`, `Documentation`, `Edge`, `Frontend`, `Packaging`, `Performance`, `Platform`, `Release`, and `UX`.
+The current team labels are `CI`, `Discussion`, `Documentation`, `Edge`, `Frontend`, `Packaging`, `Platform`, `Prometheus`, `Release`, and `UX`.
 The descriptions on the [labels page][labels-page] explain what falls under the responsibility of each team.
 
 Team labels are always colored aqua, and are capitalized so that they show up as the first label for any issue.
@@ -124,10 +131,48 @@ The descriptions on the [labels page][labels-page] explain what falls under each
 
 Priority labels help us clearly communicate expectations of the work for the release. There are two levels of priority labels:
 
-- `Deliverable`: Issues that are expected to be delivered in this milestone. 
-- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release. 
+- `Deliverable`: Issues that are expected to be delivered in this milestone.
+- `Stretch`: Issues that are a stretch goal for delivering in this milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
 
 Work with your lead if you feel that there are too many `Deliverable` issues scheduled for the current release.
+
+### Label for community contributors (`Accepting Merge Requests`)
+
+Issues that are beneficial to our users, 'nice to haves', that we currently
+do not have the capacity for or want to give the priority to, are labeled as
+`Accepting Merge Requests`, so the community can make a contribution.
+
+Community contributors can submit merge requests for any issue they want,
+but `Accepting Merge Requests` label has a special meaning. It points to
+changes that we already agreed on, are well-defined, and are likely to get
+accepted by a merge request endboss. We want to avoid a situation when a
+contributor picks an `Accepting Merge Requests` issue and then their merge
+request gets closed, because we realize that it does not fit our vision
+and or we want to solve it in a different way.
+
+We add the `Accepting Merge Requests` label to:
+
+- low priority bugs (i.e. we do not add it to the bugs that we want to
+solve in the next patch release)
+- small features if they do not need UX / product work or UX / product work
+is already done
+- small technical debt issues
+
+After adding `Accepting Merge Requests` label, we try to estimate the weight of
+the issue. We use issue weight to let contributors know how difficult the
+issue is. Additionally:
+
+- we advertise `Accepting Merge Requests` issues with weight < 5 as suitable
+for people that have never contributed to GitLab before on the
+[Up For Grabs campaign](http://up-for-grabs.net)
+- we encourage people that have never contributed to any open source project
+to look for `Accepting Merge Requests` issues with weight 1
+
+Of course, the weight is only an estimate, but you (as a person familiar with
+GitLab codebase) are more likely to estimate correctly than a potential
+contributor who is new to GitLab. However, if you are unable to provide
+an estimate, it is better to leave the issue without weight, so we do not
+make a false promise that the issue is suitable for new contributors.
 
 ## Scheduling issues
 
@@ -155,10 +200,8 @@ capacity to work on other important issues, bug fixes, etc.
 Issues that are not scheduled for a future milestone,
 but we are committed to doing, are put in the Backlog milestone.
 
-Issues that are beneficial to our users, 'nice to haves', that we currently
-don't have the capacity for or want to give the priority to, are not
-scheduled. These issues are labeled as accepting merge requests, so
-the community can make a contribution.
+If you want to schedule an `Accepting Merge Requests` issue, please remove
+the label first.
 
 Any scheduled issue should have a team label assigned, and at least one type label.
 
@@ -174,14 +217,22 @@ We have much more requests for great features than we have capacity to work on.
 There is a good chance we’ll not be able to work on something.
 Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
 
-### Scheduling Committee
+### Scheduling issues into a milestone
 
-There is an informal scheduling committee that has a weekly meeting that
-discusses issues _around_ scheduling and how the process of scheduling issues
-can be improved. Actual scheduling, prioritization and others has to happen
-on GitLab.com and nowhere else.
+Engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
+* Engineering leads are responsible for resource planning and allocation.
+* Engineering leads are responsible for prioritizing bugs and tech debt.
+* Product managers are responsible for prioritizing features, with feedback from all relevant stakeholders.
+* Based on the above, engineering leads and product managers collaborate and establish scope by the **4th** of a month, for the release in the subsequent month,
+according to the [scheduling timeline](https://about.gitlab.com/handbook/product/#scheduling-timeline-throughout-a-milestone).
+* The entire process happens asynchronously, and is mediated through individual issues themselves.
 
+
+### Process improvement
+
+There is an informal scheduling process improvement meeting that discusses the process outlined above.
+The purpose of the meeting is to improve the process itself, and not to do any actual prioritizing or scheduling.
 The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
 
-- [Scheduling committee agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
+- [Scheduling process improvement agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
 - Slack channel: `#scheduling`

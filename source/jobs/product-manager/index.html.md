@@ -50,7 +50,7 @@ determine how much can be scheduled.
 - Passion for design and usability
 - Highly independent and pragmatic
 - You are living wherever you want
-- You share our [values](/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects
 
@@ -70,3 +70,18 @@ A senior product manager is an experienced product manager that:
 
 - [Product Handbook](/handbook/product)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+## Hiring Process
+
+Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
+
+
+* Qualified applicants receive a short questionnaire from our Global Recruiters
+* Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+* Next, candidates will be invited to schedule a first interview with a VP of Product
+* Candidates will then be invited to schedule a second interview with the Head of Product
+* Finally, candidates will interview with our CEO
+* Successful candidates will subsequently be made an offer via email
+
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

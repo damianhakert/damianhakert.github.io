@@ -1,56 +1,22 @@
 ---
 layout: markdown_page
-title: "Content Team"
+title: Content Marketing
 ---
 
-The Content Team is part of the Marketing Team.
+Content Marketing is part of the Marketing Team and specializes in creating cross-functional content marketing lead generation campaigns and strategies across the GitLab website, blog, social channels and newsletters. 
 
-## Expertise
+Content Marketing focuses exclusively on create content campaigns and strategies for the purpose of lead generation either directly through a gated asses or indirectly by promoting a gated asset.
 
-* Content Strategy
-* [Blog](/blog/) content, design and UX
-* Social promotion of blog content
-* Newsletters
-* [Documentation](https://docs.gitlab.com) and training
-* White paper sourcing
-* Ebooks
-* Enterprise surveys
-* Social Media Management
-* Sub-editing
-* Webinars
-    * GitLab vision webinar
-    * CE to EE webinar
-    * SVN to Git webinar
-    * 1 thought leadership or partner webinar a quarter
-* conversationaldevelopment.com (prioritized for Q1 2017)
-* remoteonly.org (prioritized for Q1 2017)
+## What content assets does Content Marketing create for the purpose of lead generation?
 
-## Documentation Goals
+- Webinars
+- Blog posts
+- Newsletters
+- Social updates
+- Surveys and reports
+- White papers
+- eBooks
 
-* Create **well written** and **up-to-date** documentation.
-* Enhance documentation articles with illustrations, animations and videos.
-* Allow users to comment directly on documentation articles.
-* Create a curriculum taking users from beginner to expert in Git and GitLab.
-* Create a high quality responsive design.
-* Allow users to easily browse and search the documentation.
-* Generate MQLs
+## Can anyone contribute to the blog and social channels?
 
-## Blog Goals
-
-Detailed blog [handbook](/handbook/marketing/blog).
-
-* Create **well written** and **engaging** content that shares GitLab's culture and user success stories.
-* Monitor and promote existing popular content.
-* Share the best posts in our newsletter with additional insights from the community discussions.
-* Provide article formulas (recipes) for the team and community to use.
-* Enhance blog posts with illustrations, animations and videos.
-* Generate MQLs.
-
-## Handbook Goals
-
-* Improve the **writing quality** and organization of the GitLab handbook.
-* The answer to any organizational questions should be "It's in the handbook".
-* Share GitLab's culture.
-* Generate MQLs.
-
-todo: Webinar and Social Media goals.
+Absolutely yes! Content Marketing is not the only source of content for these channels, all GitLab team members and the extended community are encouraged to contribute. If you have a great idea for a blog post, or think that documentation article could benefit from a video guide, create it! These channels are for anyone involved with GitLab to help the GitLab community.

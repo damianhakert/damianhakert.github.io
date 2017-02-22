@@ -12,13 +12,16 @@ _Watch our CEO [Sytse Sijbrandij](https://twitter.com/sytses) give a talk at Web
 
 ## When Software Eats Software
 
+<figure class="video_container">
 <iframe width="640" height="360" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FWebSummitHQ%2Fvideos%2F1202553769810665%2F&show_text=0&width=560" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 <br />
 
 ## Team Recap
 
+<figure class="video_container">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/HUsOHIgzzfY" frameborder="0" allowfullscreen></iframe>
-<br />
+</figure>
 
 _Thoughts? Comments? Tweet at us [@GitLab](https://twitter.com/gitlab?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)_

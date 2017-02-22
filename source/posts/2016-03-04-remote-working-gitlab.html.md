@@ -154,12 +154,12 @@ identify if they'd be a fit for our team.
 
 If you'd like to work with us at GitLab, please check out the [Jobs][jobs] available.
 
-[grant]: https://about.gitlab.com/handbook/#travel-grant
+[grant]: https://about.gitlab.com/handbook/incentives/#travel-grant
 [wip]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [jobs]: https://about.gitlab.com/jobs
 [handbook]: https://about.gitlab.com/handbook
-[communication handbook]: https://about.gitlab.com/handbook/#communication
-[team call]: https://about.gitlab.com/handbook/#team-call
+[communication handbook]: https://about.gitlab.com/handbook/communication
+[team call]: https://about.gitlab.com/hanbook/communication/#team-call
 [manifesto]: https://about.gitlab.com/2015/04/08/the-remote-manifesto/
 [team]: https://about.gitlab.com/team/
 [remotely]: https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/

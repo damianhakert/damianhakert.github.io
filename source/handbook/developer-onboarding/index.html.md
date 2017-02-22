@@ -26,9 +26,10 @@ To start development, follow the instructions for the
 
 ## GitLab Repositories
 
-Almost all repositories are available on both gitlab.com and dev.gitlab.org. We
-also mirror our biggest projects to [GitHub](https://github.com/gitlabhq),
-making them more widely available for people to contribute.
+Almost all repositories are available on both GitLab.com and dev.gitlab.org. We
+also mirror to dev.gitlab.org for availability reasons and [GitHub](https://github.com/gitlabhq) for historical reasons.
+
+All issues should be filed on GitLab.com.
 
 ### GitLab Community Edition (CE)
 
@@ -43,14 +44,24 @@ specific to GitLab EE, add it to CE.
 ### GitLab Enterprise Edition (EE)
 
 This is _not_ an open source project, but we made the source code available for
-viewing and contributions. As of version 7.11, it requires a license key to be
-used. To be able to run your own instances for development you can use one of
-the shared licenses (like <https://license.gitlab.com/licenses/1449>) or you
+viewing and contributions.
+
+GitLab Community Edition is merged daily to GitLab Enterprise Edition (look for
+the [`CE Upstream` merge requests]) and as a developer it's your responsibility
+to ensure that your merge requests [apply cleanly to GitLab EE][ce-ee-docs].
+Please consult [Limit conflicts with EE when developing on CE][ce-ee-docs] for
+more details.
+
+GitLab EE requires a license key to be used. To be able to run your
+own instances for development you can use one of the shared licenses (like <https://license.gitlab.com/licenses/1449>) or you
 can clone <https://dev.gitlab.org/gitlab/license-app> and generate your own
 licenses.
 
 - [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee)
 - [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee)
+
+[`CE Upstream` merge requests]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests?label_name%5B%5D=CE+upstream
+[ce-ee-docs]: https://docs.gitlab.com/ee/development/limit_ee_conflicts.html
 
 ### GitLab Shell
 
@@ -130,9 +141,16 @@ Smaller merge requests are more likely to receive good feedback and will get
 merged sooner.
 
 Unless the change is very minor, or is fixing a bug that was introduced in the
-same version, add an entry to `CHANGELOG` (or `CHANGELOG-EE` when applicable).
+same version, create a changelog entry using the
+[`bin/changelog` script][changelog-script].
 Do not include your name in the entry as we only do that to give recognition to
 volunteer contributors.
+
+[changelog-script]: https://docs.gitlab.com/ce/development/changelog.html
+
+### Ensure that your changes apply cleanly to GitLab EE
+
+Please see [GitLab Enterprise Edition (EE)](#gitlab-enterprise-edition-ee).
 
 ### Ruby Gems
 

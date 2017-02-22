@@ -28,7 +28,7 @@ Follow one of these links:
 Pick an issue, with preference given to the oldest in the list, and evaluate it with a critical eye, bearing the [policies](#policies) below in mind. Some questions to ask yourself:
 
 * Do you understand what the issue is describing?
-* What labels apply? Particularly consider [team, subject and type](/handbook/engineering/workflow/#labelling-issues) labels
+* What labels apply? Particularly consider [team, subject, and type](/handbook/engineering/workflow/#labelling-issues) labels
 * How critical does it seem? Does it need to be escalated to a lead or the VP of engineering?
 * Would the `security` label be appropriate?
 * Should it be made confidential? It's usually the case for `security` issues or

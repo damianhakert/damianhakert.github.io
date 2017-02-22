@@ -26,4 +26,4 @@ security practices within the company.
 * Linux experience (e.g. Ubuntu)
 * Programming experience (Ruby and Ruby on Rails preferred; for GitLab debugging)
 * Collaborative team spirit with great communication skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
