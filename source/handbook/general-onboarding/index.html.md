@@ -68,7 +68,7 @@ The information from BambooHR is used to feed other systems, so it is important 
 
 ##### GitLab.com vs Dev.GitLab.org
 
-Your onboarding issue was created on the dev server, which is only viewable to team members. Per the [gitlab workflow](https://about.gitlab.com/handbook/communication/#gitlab-workflow) point 9, everything that can be public should be out in the open. GitLab.com is viewable to anyone with an account. We ask you to set up your GitLab.com account with your GitLab email for additional security.
+The dev server is only viewable to team members, and is used by the Development team (amongst others). Per the [GitLab workflow](https://about.gitlab.com/handbook/communication/#gitlab-workflow) point 9, everything that can be public should be out in the open. GitLab.com is viewable to anyone with an account. We ask you to set up your GitLab.com account with your GitLab email for additional security.
 
 ##### Calendly
 
@@ -194,7 +194,7 @@ We use GitLab Issues to raise awareness, discuss, and propose solutions for vari
 The most common Issues are created in the following projects:
   1. [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee/issues) - Issues related to GitLab Enterprise Edition
   1. [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce/issues) - customer requests
-  1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
+  1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) - Issues related to our website
 * Add issues in the correct Issue Tracker:
   1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
   1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
@@ -234,7 +234,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 1. [ ] Hiring manager: in the "GitLab Email Forwarding" doc, suggest which email aliases the new team member should be added to, then ping one of the admins mentioned in the doc to help get it done.
 1. [ ] People Ops (Recruiter): Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-1. [ ] People Ops (Recruiter): @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+1. [ ] People Ops (Recruiter): let the new team member know their handle for dev.gitlab.org by mentioning it here.
 1. [ ] Slack
    1. [ ] People Ops (Recruiter): Add to [Slack](https://gitlab.slack.com/admin).
    1. [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
@@ -336,10 +336,10 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 ### WITHIN FIRST WEEK OF STARTING
 
 1. [ ] People Ops (Recruiter): Send brief welcome email to their GitLab email address with the following message regardin Swag credit:
-  
-    > Happy first day at GitLab! We're excited that have you on the team! 
+
+    > Happy first day at GitLab! We're excited that have you on the team!
     > Here is a swag code [Enter Code] you can use in our swag store [enter store link] to celebrate your arrival!
-    
+
 1. [ ] People Ops (Recruiter): remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
 1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/sop/#add-beamy) on [Beamy](https://app.suitabletech.com/).
 1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/people-operations/sop/#b-cards) for new team member.

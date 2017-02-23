@@ -25,7 +25,7 @@ set the on-call schedules, and to route notifications to the correct on-call her
 
 To swap on-call duty with a fellow on-call hero:
 
-- create an issue on our [internal issue tracker](https://dev.gitlab.org/organization/issues/new)
+- create an issue on the [organization issue tracker](https://gitlab.com/gitlab-com/organization/issues/new)
 to announce for what block of duty you need to make a swap. Do this as far as possible in advance,
 but certainly no later than 2 weeks before the swap needs to be made. @mention your colleagues.
 - once a replacement has been found, input this as an override on the main schedule in PagerDuty.
@@ -41,7 +41,7 @@ you can also do a direct swap with a team member, and there is no need to mark t
 ## Customer Emergency On-Call Rotation
 
 - We do 7 days of 8 hour shifts in a follow-the-sun style, based on your location.
-- After 10 minutes, if the alert has not been acknowledged, _everyone_ on the customer on-call rotation is alerted. After a further 5 minutes, management is alerted. 
+- After 10 minutes, if the alert has not been acknowledged, _everyone_ on the customer on-call rotation is alerted. After a further 5 minutes, management is alerted.
 - You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty.
 - After each shift, _if_ there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 
