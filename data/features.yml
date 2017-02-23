@@ -102,6 +102,9 @@
   - description: Rebase merge requests before merge
     link: https://docs.gitlab.com/ee/workflow/rebase_before_merge.html
     in_ee: true
+  - description: Squash and merge
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html
+    in_ee: true
   - description: Use fast-forward merges when possible
     link: https://docs.gitlab.com/ee/workflow/ff_merge.html
     in_ee: true
