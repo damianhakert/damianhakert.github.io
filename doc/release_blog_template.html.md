@@ -75,3 +75,6 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 ----
+
+[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+{:.note}
