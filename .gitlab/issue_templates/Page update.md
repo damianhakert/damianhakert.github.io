@@ -9,7 +9,7 @@ Checklist when modifying an existing page:
 - [ ] How will we decide if the change was successful or not?
 - [ ] Would we revert the changes if we decided that it was not a success?
 - [ ] Make sure events are reflected in Google Analytics/Marketo if the page is changed (@mitchell)
-- [ ] Make sure redirection is done if we change the page so email newsletters do not contain dead link (@colton)
+- [ ] Make sure redirection is done if we change the page so email newsletters do not contain dead link 
 
 ### Proposal
 

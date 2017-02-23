@@ -31,7 +31,7 @@ title: "Sales Handbook"
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
 * [Demo: Idea to Production](/handbook/sales/idea-to-production-demo)
-* [SDR Handbook](/handbook/sales/SDR)
+* [SDR Handbook](/handbook/sales/sdr)
 
 ### Sales Resources outside of the Sales Handbook
 
@@ -189,6 +189,7 @@ Gitorious Opportunities:
 
 1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
+1. Uplift Business- This type of opportunity is used for future "true-up" opportunities where the customer has exceeded or plans to exceed their allotted licenses count. Note that the values in this opportunity type will either be included in the Renewal opportunity as Incremental ACV, or will convert to an Add-on Business opportunity type if the upsell occurs before renewal.
 1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new purchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased, or stay the same.  We capture growth/loss as a field in Salesforce.com
 

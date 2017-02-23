@@ -30,7 +30,7 @@ title: "Issue Triage Specialist"
 * Affinity for providing Community Support
 * Excellent spoken and written English
 * A willingness to carry out all work out in the open
-* You share our [values](/handbook/#values), and work in accordance with those values
+* You share our [values](/handbook/values), and work in accordance with those values
 * A technical interview is part of the hiring process for this position
 
 ## Further information

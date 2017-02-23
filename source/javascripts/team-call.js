@@ -9,7 +9,7 @@ $(function () {
           "originTz": "America/Los_Angeles"
       },
       apac: {
-          "hour": 18,
+          "hour": 20,
           "minute": 30,
           "duration": 30,
           "dayS": "Monday",

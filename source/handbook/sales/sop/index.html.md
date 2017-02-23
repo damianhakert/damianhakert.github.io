@@ -329,12 +329,15 @@ In order to close a deal in Salesforce.com, one of the following must happen:
   * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
 1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
   * If a PO is received, we need to receive a signed quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+  * For Non-Authorized Resellers check the form PO with legal. The reseller PO should reference the GitLab quote document.  Use the Non-Authorized Reseller quote document.
+
 
 Once the above has happened, please make sure that the following fields are populated, otherwise you will receive an error message when submitting the opportunity for approval:
 
 1. On the Account record:
   * Industry
   * Billing and Shipping Address
+  * In the Special Terms field, add any non-standard terms related to the subscription (ramps, special pricing), support (non-standard SLAs), finance (special billing/payment terms), or legal.
 1. On the Opportunity record:
   * Attach any signed agreements, POs, and quotes as an attachment attachment to the opportunity record in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
   * Go to the Contact Roles related list and add a Primary Contact. Ideally, you'll add Contact Roles much earlier in the sales cycle.
@@ -348,11 +351,13 @@ Once the above has happened, please make sure that the following fields are popu
        1. Check the Close Date. The Close Date should be equal or greater than 2016-12-12, the day the approval process was implemented.
        1. Make sure the Approval Status is not equal to "Approved". If the opportunity was already approved, there is no need to resubmit for approval.
   * Once you submit the opportunity for approval, it will be locked, meaning that you will not be able to make any updates. If you'd like to unlock the opportunity to make any changes, you'll have to recall the approval submission. Scroll down to the Approval History secion and click on the Recall Approval Request button. Once you've made your changes, you can resubmit your opportunity for approval.
+  * The opportunity Stage will update to Awaiting Approval.
   * An email will be sent to you confirming that the opportunity has been submitted for approval.
   * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
-  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval.
+  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval. 
+  * The Stage will be reverted back to Verbal Commmitment, regardless of the previous Stage when initially submitted.
   * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
-  * The opportunity will automtically change to Closed Won and the Close Date will update to the date of submission.
+  * The opportunity will automatically change to Closed Won and the Close Date will update to the date of submission.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
 1. If the customer agrees to be a reference, please complete the following steps:
   * In the Referenceable Customer field on the account page, change the picklist value to "Yes".

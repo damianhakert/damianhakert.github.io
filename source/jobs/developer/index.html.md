@@ -31,7 +31,7 @@ Developers can specialize immediately after joining, or after some time, when th
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ### Ruby experience
@@ -57,9 +57,9 @@ We frequently hire people from the community who have shown through contribution
 they have the skills that we are looking for, even if they didn’t have much previous experience
 with those technologies, and we would gladly review those contributions.
 
-### Junior Developers
+## Junior Developers
 
-Junior Developers share the same responsibilities outlined above, but typically
+Junior Developers share the same requirements outlined above, but typically
 join with less or alternate experience in one of the key areas of Developer
 expertise (Ruby on Rails, Git, reviewing code). For example,
 a person with extensive experience in a web framework other than RoR, but with experience
@@ -67,7 +67,7 @@ on the other areas would typically join as a Junior.
 
 ## Senior Developers
 
-Senior Developers are experienced developers who meet the following criteria:
+Senior Developers are experienced developers who meet the following requirements:
 
 1. Technical Skills
     * Are able to write modular, well-tested, and maintainable code
@@ -128,7 +128,7 @@ example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 

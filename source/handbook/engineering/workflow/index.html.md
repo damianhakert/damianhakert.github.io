@@ -20,16 +20,19 @@ Products at GitLab are built using the [GitLab Flow](http://doc.gitlab.com/ee/wo
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues], and filter by the label for your team.
 1. If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
 1. You are responsible for the issue that you're assigned to. This means it has
-to ship with the milestone that is has. If you are not able to do this,
-you have to communicate this early.
-In teams, the team is responsible for this (see below).
-1. You (and your team, if applicable) are responsible for the testing of a new
-feature or fix, especially right after it has been merged and packaged. Once a
-release candidate has been deploy in the staging environment, please verify
-that your changes work as intended. We have seen issues where bugs did not
-appear in development but showed in production (e.g. due to CE-EE merge
-issues).
+  to ship with the milestone it's associated with. If you are not able to do
+  this, you have to communicate it early to your manager. In teams, the team is
+  responsible for this (see below).
+1. You (and your team, if applicable) are responsible for:
+  - ensuring that your changes [apply cleanly to GitLab Enterprise Edition][ce-ee-docs].
+  - the testing of a new feature or fix, especially right after it has been
+    merged and packaged.
+1. Once a release candidate has been deploy in the staging environment, please
+  verify that your changes work as intended. We have seen issues where bugs did
+  not appear in development but showed in production (e.g. due to CE-EE merge
+  issues).
 
+[ce-ee-docs]: https://docs.gitlab.com/ee/development/limit_ee_conflicts.html
 [priority-issues]: https://gitlab.com/groups/gitlab-org/issues?scope=all&sort=priority&state=opened&milestone_title=%23upcoming&assignee_id=0
 
 ## Working in Teams
@@ -217,9 +220,9 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 ### Scheduling issues into a milestone
 
 Engineering and product schedule (establish scope of) which issues are to be worked on in the following milestone. In particular:
-* Engineering leads are responsbile for resource planning and allocation.
+* Engineering leads are responsible for resource planning and allocation.
 * Engineering leads are responsible for prioritizing bugs and tech debt.
-* Product managers are responsbile for prioritizing features, with feedback from all relevant stakeholders.
+* Product managers are responsible for prioritizing features, with feedback from all relevant stakeholders.
 * Based on the above, engineering leads and product managers collaborate and establish scope by the **4th** of a month, for the release in the subsequent month,
 according to the [scheduling timeline](https://about.gitlab.com/handbook/product/#scheduling-timeline-throughout-a-milestone).
 * The entire process happens asynchronously, and is mediated through individual issues themselves.

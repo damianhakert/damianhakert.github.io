@@ -11,7 +11,8 @@ We want to make it super easy for anyone to contribute to GitLab.
 That's why we've changed two things:
 
 1. Feature proposals are now handled in the GitLab projects on GitLab.com.
-1. We've added the `up-for-grabs` label to relatively simple issues, for anyone to work on.
+1. We've assigned weights to relatively simple `Accepting Merge Requests`
+issues, to make it clear where new contributors can start.
 
 <!-- more -->
 
@@ -38,19 +39,26 @@ reveal areas where we might want to improve GitLab's issue tracker.
 - [GitLab CE issues](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [GitLab EE issues](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 
-## Up For Grabs
+## Accepting Merge Requests with weight
 
-The `up-for-grabs` label was created so that anyone can help make GitLab better
-for everyone.
+> **Updated Feb 6, 2017:** `up-for-grabs` was changed to
+`Accepting Merge Requests` with weight
 
-We will label issues that are not too hard or too big to work on.
+We started using
+[issue weight](https://docs.gitlab.com/ee/workflow/issue_weight.html)
+for issues with `Accepting Merge Requests` label to make finding
+low-hanging fruits much easier. Now anyone can help make GitLab better for
+everyone.
+
+We will assign weight smaller than five to issues that are not too hard or too
+big to work on.
 Whether you're a first-time contributor, someone that wants to improve their
 Ruby / Javascript / Go or someone that wants to contribute, but doesn't have time
 for a big bug fix or feature, these are issues that you should be able to work on.
 If you're already good at the languages GitLab uses, but you are new
 to the project, these issues are perfect for you as well.
 
-Have a look at the [up-for-grabs issues for GitLab CE on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=up-for-grabs)
+Have a look at the [Accepting Merge Requests issues for GitLab CE on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues?assignee_id=0&label_name[]=Accepting%20Merge%20Requests&sort=weight_asc)
 right now. We will add more over time.
 
 Please follow our [the contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) to help you get started.

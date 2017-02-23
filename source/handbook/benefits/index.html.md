@@ -19,29 +19,29 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 
 ## General Benefits
 
-1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
-1. [Stock options](/handbook/stock-options/) are offered to most team members.
+1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/spending-company-money).
+1. [Stock options](/handbook/stock-options/) are offered to most GitLabbers.
 1.  Deceased team member:
     In the unfortunate event that a GitLab team member passes away, GitLab will
     provide a $20,000 lump sum to anyone of their choosing. This can be a spouse,
     partner, family member, friend, or charity.
       * For US based employees of GitLab Inc., this benefit is replaced by the
         [Basic Life Insurance](#basic-life-ins) that is offered through TriNet.
-      * For all other team members, the following conditions apply:
+      * For all other GitLabbers, the following conditions apply:
          * The team member must be either an employee or direct contractor,
          * The team member must have indicated in writing to whom the money
            should be transferred.
-         * For part-time team members, the lump sum is calculated pro-rata, so
+         * For part-time GitLabbers, the lump sum is calculated pro-rata, so
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $10,000.
-1. [Paid time off policy](https://about.gitlab.com/handbook/#paid-time-off).
-1. GitLab Summit
-   * Every six to nine months team members gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information about the past summits check out our [culture page](https://about.gitlab.com/culture/). 
-1. [Further incentives](https://about.gitlab.com/handbook/#incentives), such as
-   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
-   - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)
-   - [Referral Bonuses](https://about.gitlab.com/handbook/#referral-bonuses)
-   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/#work-remotely-travel-grant)
+1. [Paid time off policy](https://about.gitlab.com/handbook/paid-time-off).
+1. [GitLab Summit](https://about.gitlab.com/culture/summits)
+   * Every nine months orso GitLabbers gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information and compilations of our past summits check out our [summits page](https://about.gitlab.com/culture/summits).
+1. [Further incentives](https://about.gitlab.com/handbook/incentives), such as
+   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/incentives/#sales-target-dinner)
+   - [Discretionary Bonuses](https://about.gitlab.com/handbook/incentives/#discretionary-bonuses)
+   - [Referral Bonuses](https://about.gitlab.com/handbook/incentives/#referral-bonuses)
+   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/incentives/#travel-grant)
 
 
 ## Specific to employees based in the Netherlands
@@ -56,7 +56,7 @@ US based employees' payroll and benefits are arranged through TriNet. The most u
 to date and correct information is always available to employees through the
 [TriNet HRPassport portal](https://www.hrpassport.com) and the various contact forms
 and numbers listed there. This brief overview is not intended to replace the
-documentation in TriNet, but rather to give our team members and applicants a
+documentation in TriNet, but rather to give our GitLabbers and applicants a
 quick reference guide.
 
 If you have any questions in regards to your TriNet paycheck log in to TriNet, then go to [How To Read Your Paycheck](https://www.hrpassport.com/Help/Docs/pdf/Readpaycheck_US.pdf).
@@ -75,6 +75,16 @@ TriNet partners with leading carriers, like Aetna, Florida Blue, Blue Shield of
 California and Kaiser, to offer a broad range of medical plans, including high
 deductible health plans, PPOs, and HMOs. Medical plan options vary by state, and
 may also include regional carriers.
+
+##### Transgender Medical Services
+
+Recently, the [United States Department of Health and Human Services](https://www.hhs.gov/) released a [mandate on transgender non-discrimination](http://www.transgendermandate.org/). As part of this mandate, medical carriers were given time to review their current policies and update to reflect the mandate. Expanded language for coverage should be visible in the 2017-10-01 renewal for TriNet’s plans.
+
+Because there is a wide range of services, treatment, and goals for transgender patients, employees are encouraged to contact their carrier directly to have these discussions.
+
+##### Pregnancy & Maternity Care
+
+With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected through TriNet, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. Please contact TriNet at +1 800 638 0461 with any questions about your plan.
 
 #### Dental
 
@@ -112,8 +122,6 @@ amounts are capped at:
 ---
 
 You are responsible for the remainder of the premium cost, if any.
-
-
 
 ### Basic Life Insurance and AD&D
 {: #basic-life-ins}

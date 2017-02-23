@@ -48,7 +48,6 @@ Remember to contribute to any documentation that needs updating
 1. [ ] Ask an admin to give you SSH access to the GitHost production server
 1. [ ] Upgrade your CE GitHost instance to EE (someone can upgrade an instance from CE to EE on the instance itself, but GitHost 'metadata' would not be properly updated without SSH access)
 1. [ ] Migrate to a test instance from your local or DO testing environment
-1. [ ] Migrate to a test instance from a source installation
 1. [ ] Change the region for your test instance
 
 
@@ -94,6 +93,6 @@ it to the customer.
 
 
 ### Final Stage
-- [ ] Ask Ernst to look over this list.
+- [ ] Ask Lee and Drew to look over this list.
 - [ ] Send a MR to declare yourself a **GitHost Expert** on the team page
 ```

@@ -34,7 +34,7 @@ issues from the community.
 
 * You can reason about software, algorithms, and performance from a high level.
 * You are passionate about open source.
-* You have strong programing skills - Ruby and Rails.
+* You have strong programming skills - Ruby and Rails.
 * You know how to write your own Ruby gem using TDD techniques.
 * You have worked on a production-level Ruby application, preferably using Rails.
   This is a [strict requirement](#ruby-experience).
@@ -50,7 +50,7 @@ issues from the community.
 * You have an urge for delivering quickly and iterating fast.
 * Experience with Docker, Nginx, Go, and Linux system administration a plus.
 * Experience with online community development a plus.
-* You share our [values](/handbook/#values), and work in accordance with those
+* You share our [values](/handbook/values), and work in accordance with those
   values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring
   process for this position.
@@ -89,7 +89,7 @@ contributions.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 
@@ -108,14 +108,18 @@ Applicants for this position can expect the hiring process to follow the order b
   candidates want to share code privately, so if they do, we send them an email
   with our GitLab.com / GitHub / Bitbucket usernames and also invite them to
   email code to us.
-* If the code looks good, we ask the candidate to answer two questions about web
-  applications and object-oriented programming concepts.
+* If the code looks good, we ask the candidate to answer two questions:
+  - One about the GitLab codebase architecture.
+  - One about proposing a boring solution about a specific topic the Edge team
+  is focusing on.
+* We also ask the candidate to triage / troubleshoot a GitLab issue and to
+  review / coach a GitLab merge request (both in a fork of GitLab CE).
 * Selected candidates will be invited to schedule a 30-minute
   [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
-* Next, candidates will be invited to schedule a 30-minute soft-skills
-  interview with the Edge Lead.
-* Candidates will then be invited to schedule a 45-minute technical interview
-  with a Senior Developer.
+* Next, candidates will be invited to schedule a 45-minute behavioral interview
+  with the Edge Lead.
+* Candidates will then be invited to schedule a
+  [technical interview](/jobs/#technical-interview) with a Senior Developer.
 * Candidates will be invited to schedule an interview with our VP of Engineering.
 * Finally, candidates will have an interview with our CEO.
 * Successful candidates will subsequently be made an offer via email.

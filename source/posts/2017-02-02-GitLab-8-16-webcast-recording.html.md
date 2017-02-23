@@ -1,6 +1,7 @@
 ---
 title: "GitLab 8.16 release webcast recording and highlights"
 author: Rebecca Dodd
+author_gitlab: rebecca
 author_twitter: Reberoodle
 categories: release
 image_title: '/images/blogimages/8-16-webcast-recap.png'

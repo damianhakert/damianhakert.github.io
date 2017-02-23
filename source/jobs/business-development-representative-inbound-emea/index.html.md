@@ -31,4 +31,4 @@ You love talking about GitLab to people and no question or challenge is too big 
 * Passionate about technology and learning more about GitLab
 * Be ready to learn how to use GitLab and Git
 * Start part-time or full-time depending on situation
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
