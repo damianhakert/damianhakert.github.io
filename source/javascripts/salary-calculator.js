@@ -403,16 +403,28 @@
         + '&experience=' + experienceIndex + '&level=' + levelNumber
         + '&low=' + salary.min + '&high=' + salary.max
 
-      $('.generate-url').html(
-        '<div>' + '<h4>' + 'Copy Compensation URL  '
-        + '<button class="btn btn-default copy-me" data-clipboard-text="'
-        + link + '"><i class="fa fa-clipboard copy-salary"></i></button>'
-        + '</h4>' + '<input class="comp-url form-control" value="'
-        + link + '" + disabled="true">'
-        + '</input>' + '</div>' + '<br>'
-      );
+      var copySection = function() {
+        $('.generate-url').html(
+          '<div> <h4> Share compensation url  '
+          + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link + '"'
+          + 'data-placement="top">Copy Link</a>'
+          + '</h4><input class="comp-url form-control" value="'
+          + link + '" disabled="true">'
+          + '</input></div><br>'
+        );
+      };
 
+      copySection();
       new Clipboard('.copy-me');
+
+      $(document).on('click', '.copy-me', function(e) {
+        setTimeout(function() {
+          e.target.parentElement.innerHTML = 'Share compensation url - Copied!'
+          setTimeout(function() {
+            copySection();
+          }, 1000);
+        }, 100);
+      })
     }
 
     SalaryCalculator.prototype.renderContractType = function() {
