@@ -105,3 +105,14 @@ questions:
       subscription you have. In most instances they will be fixed in the next release
       or the release after that, which means the turnaround is one month or two.
       Severe bugs will be fixed earlier in a patch release.
+  - question: How does GitLab deal with bug fixes?
+    answer: |
+      No, GitLab is not certified to be compliant with HIPAA. Given GitLab's role 
+      in the development process, HIPAA requirements typically are not relevant as GitLab 
+      does not store, process or transmit patient data. That said, GitLab can be used as a 
+      way to ensure HIPAA compliance. For example, GitLab Enterprise Edition (EE) is run on 
+      the customer's servers, behind their firewall. Customers have complete control over the 
+      information that is handled by GitLab's product and GitLab has no way to access this data. 
+      The fact that GitLab EE runs behind the customer's firewall provides further assurance that 
+      their development process can be HIPAA compliant. 
+
