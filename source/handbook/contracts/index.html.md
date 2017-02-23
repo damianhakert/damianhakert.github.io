@@ -25,7 +25,7 @@ Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) we
 The following set of steps should suffice:
 
 1. The currency should normally be the local currency of the new team member unless they explicitly request USD/EUR because their local currency has a lot of inflation.
-1. Employee entity: employ through the GitLab entity where they are located (US => Inc., NL => B.V., UK => Ltd, India => Lyra, Belgium => B.V.(Belgian contract) depending on the location in Belgium the contract will need to be in either French or Dutch with the English translation alongside)
+1. Employee entity: employ through the GitLab entity where they are located (US => Inc., NL => B.V., UK => Ltd, India => Lyra, Belgium => B.V.(Belgian contract) depending on the location in Belgium the contract will need to be in either French or Dutch with the English translation alongside
 1. Contractor entity: if the team member is in the US, or if the person is part of the Sales organization, GitLab Inc. is the contracting entity. In all other regions and functional groups, GitLab BV is the contracting entity.
 1. Make a copy of the relevant Template Contract (linked below) in Drive, and include the name of the new hire in the title of the copy.
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient to do a find + replace on fields that appear multiple times such as names, email
@@ -48,8 +48,19 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
 - [GitLab Ltd, employee contract with PIAA and Joint NIC agreements](https://docs.google.com/document/d/1H8BhvyrBTPuQ4_QGo08wIio38XISndqlONi9eqjdj2Y/edit#heading=h.bfk8qrda3d2r)
+- [Lyra, employee contract with NDA agreements](https://docs.google.com/document/d/1Ua4Q9gA2C5QM_L3HlJy8Zb77cJtxSJ6EOA6gynvBRTQ/edit) Please note: these are not GitLab documents and are only  visible to authorized persons at GitLab.
 
-GitLab is working in partnership with [Lyra Infosystems](http://lyrainfo.com/) for employing team members located in India. For further information about the employment agreements please contact People Operations at GitLab or HR at Lyra.
+## Preparing Employment Agreements for GitLabbers in India
+
+GitLab is working in partnership with [Lyra Infosystems](http://lyrainfo.com/) for employing GitLabbers located in India. These agreements are mailed rather than emailed so there is a lead time of approximately one week for completion before the new hire can start their employment at GitLab. The process for creating and sending an agreement is as follows:
+
+1. Once the email offer from the hiring manager has been sent as per the [hiring process](https://about.gitlab.com/handbook/hiring/) People Ops will email Lyra HR with salary information for the new hire so that Lyra can prepare the Cost to Company (CTC) breakdown to include in the contract
+1. People Ops will reach out to the new hire and ask for full names of both parents
+1. When all of the information asked for in the above two steps has been received complete the contract as per the steps in the [how to use this page to prepare a contract](<a name="how-to-use"></a>) section, apart from staging the contract in Hello Sign.
+1. Once the contract is ready to be sent, save it as a PDF, email it to the new hire and cc peopleops and HR at Lyra
+1. Once the contract has been emailed, HR at Lyra will send the hardcopy for signature directly to the new hire's home address
+1. When the contract has been signed HR at Lyra will send Peopleops a PDF copy of the document which can then be filed in BambooHR
+1. Complete the last step in the [how to use this page to prepare a contract](<a name="how-to-use"></a>) section
 
 
 ## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
