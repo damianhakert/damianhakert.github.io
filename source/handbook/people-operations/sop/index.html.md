@@ -45,10 +45,9 @@ When a team member receives any change in compensation we need to create a [Lett
 
 #### Compensation and Title Changes
 
-<<<<<<< HEAD
 Any change to compensation or title requested by a manager must be approved by processing it in BambooHR. The Manager (Reports To) should initiate the change by logging into BambooHR to complete the approval workflow.  Once initiated, the workflow will push the transaction to the Manager's Manager, the People Ops Business Partner, the CEO, and the People Operations Administrator for processing.
 
-If you have any questions throughout this process, please feel free to contact People Ops. People Ops will confirm the change as the last step in the approval process. This ensures that further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
+If you have any questions throughout this process, please feel free to contact People Ops. People Ops will confirm the change as the last step in the approval process. This ensures that further changes may need to be [processed in TriNet](#changes-trinet) or HRSavvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
@@ -76,11 +75,6 @@ Manager (Reports To):
 1. Select Bonus.
 1. Enter in all applicable fields in the form, and then submit.
 1. Please ensure to announce the bonus on the Team Call.
-=======
-Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. If the team member is located in the UK, Belgium or India an email with the change will need to be sent to the payroll provider/co-employer.  
-People Ops is responsible for seeing the change through to completion. Once completed, People Ops
-sends an email to the person reporting / requesting the change (member's manager or CEO)
-to confirm this.
 
 ### Auditing Changes
 
@@ -89,7 +83,6 @@ Once a change has been made, an alternative representative from People Ops will 
 ### Process for Monthly Payroll Approval (UK, Belgium & India)
 
 Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
->>>>>>> master
 
 ### Using BambooHR
 
