@@ -1661,17 +1661,6 @@
           Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
           He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
-- name: Brian Brazil
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Prometheus Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining October 10th
-
 - name: Kevin Lyda
   locality: Caherlistrane, Co. Galway
   country: Ireland
@@ -2204,12 +2193,12 @@
   country: USA
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
-  picture: markbell.jpg   
+  picture: markbell.jpg
   twitter:
   gitlab:
   story:  |
           Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
-          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.  
+          Later he would bring home one of the original IBM PCs. That was a major upgrade. All these years later I'm still interested in software.
           I joined GitLab to help others improve the way they make software. What a great way to make a living.
 
 - name: John May
@@ -2220,8 +2209,8 @@
   picture: johnmay.jpg
   twitter:
   gitlab: jmay
-  story:  | 
-          John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.  
+  story:  |
+          John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.
 
 - name: A.O.
   locality:
