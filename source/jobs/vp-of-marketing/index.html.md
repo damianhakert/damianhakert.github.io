@@ -39,4 +39,19 @@ See the [marketing handbook](https://about.gitlab.com/handbook/marketing/) for d
 * Outstanding written communication skills
 * Desire to develop a team
 
-## To Apply - reach out to: nick@carbonpartners.io
+## To Apply
+
+Please reach out to: nick@carbonpartners.io
+
+## Challenges
+
+* Focus of developer marketing (meetups, partnerships, ambassadors, demos, tutorials, events)
+* Measure event effectiveness
+* Dashboards and funnel measurement
+* Email marketing rules of engagement
+* Swag store, paid or free?
+* Director of lead gen hiring
+* Gated content production
+* Positioning as cloud native product
+* Analyst relations
+* Managing an external agency

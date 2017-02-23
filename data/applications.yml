@@ -393,6 +393,11 @@
       links:
         - url: https://www.jetbrains.com/teamcity/features/
           title: TeamCity
+    - title: buddybuild
+      content: Integrating buddybuild to any GitLab account automates the process of setting up and configuring a continuous integration and deployment system for your mobile projects. Connecting buddybuild also unlocks features like merge requests, updated commit status, automatic team member provisioning and more.
+      links:
+        - url: https://www.buddybuild.com/blog/buddybuild-gitlab-integration
+          title: buddybuild
 - title: CMS Plugins
   id: cms-plugins
   applications:

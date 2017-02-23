@@ -78,7 +78,7 @@ and removing them from everywhere except blog posts. If you do not have a tool o
 1. [x] _not relevant_ People Ops: complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
-1. [x] _not relevant_ People Ops: If new team member is an hourly employee, create a timesheet, share with Finance and the new team member. Also, send an email to Finance to let them know that an hourly employee has started. 
+1. [x] _not relevant_ People Ops: If new team member is an hourly employee, create a timesheet, share with Finance and the new team member. Also, send an email to Finance to let them know that an hourly employee has started.
 1. [x] _not relevant_ New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 1. [x] _not relevant_ People Ops: complete the employer portion of the I9 in TriNet within three days of hire
 1. [x] _not relevant_ New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
@@ -103,7 +103,8 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
+1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) and block from GitLab.com
+   1. [ ] Manager: If the team member reaches out to regain access for personal project, review permissions, and unblock. Also make sure that a secondary email is associated with the account. 
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 1. [ ] Twitter/TweetDeck

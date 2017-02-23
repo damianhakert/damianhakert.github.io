@@ -294,7 +294,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 ### ON YOUR FIRST DAY
 
-#### For GitLab Inc employees only (USA)
+#### For employees in the USA only (GitLab Inc)
 
 1. [ ] People Ops (Specialist): gather relevant information from new team member to enter them into the TriNet system.
 1. [ ] People Ops (Specialist): complete and submit an online Add New Hire Form
@@ -305,16 +305,26 @@ welcome email to the employee at their work email on their first date of hire.
 1. [ ] People Ops (Specialist): complete the employer portion of the I9 in TriNet within three days of hire
 1. [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 
-#### For GitLab BV employees only (Netherlands)
+#### For employees in the Netherlands only (GitLab BV)
 
 1. [ ] People Ops: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLSekAouLh-DQsDXVho4TYL62CsBK8Pj0NhfI--npa3L1nF8IqA/viewform) using the data the team member entered into BambooHR and send the HR Savvy.
 This info is needed to get the team member's profile ready with Savvy HR in order to get pay slips and other information. People Ops will file in BambooHR.
 
-#### GitLab Ltd employees only (UK)
+#### For employees in the UK only (GitLab Ltd)
 
 1. [ ] People Ops (Specialist): using the template, send new team member the UK payroll form and New Starter Checklist (only if the new team member does not have a P45) to complete (this can be found in the Google Drive/UK Documents folder). Fill in as much information as possible from BambooHR and stage in HelloSign for signature. Cc People Ops and Vistra (email address is located on the Payroll form)
 1.[ ] New Team Member: once you have received the payroll form please fill in the missing details and sign. This form will then be sent electronically to GitLab's payroll provider Vistra. If you have a P45 from your previous company please post this to Vistra at the address at the bottom of the payroll form. If you don't have a P45 then you must complete the New Starter Checklist and post this to Vistra.
-1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents.
+1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Payroll Forms.
+
+#### For employees in Belgium only (GitLab BV)
+
+1. [ ] New Team Member: to ensure that we have all of your details ready for payroll processing please complete the following information on BambooHR;
+     1. [ ] Full name
+     1. [ ] Address
+     1  [ ] National Number
+     1. [ ] Bank details
+1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
+1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a copy of the team member's employment contract and ID card
 
 #### All GitLabbers
 
