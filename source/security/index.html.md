@@ -112,6 +112,9 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
    - YES
 
+1. Is GitLab HIPAA compliant?
+   - NO. GitLab is not certified to be compliant with HIPAA. Given GitLab's role in the development process, HIPAA requirements typically are not relevant as GitLab does not store, process or transmit patient data. That said, GitLab can be used as a way to ensure HIPAA compliance. For example, GitLab Enterprise Edition (EE) is run on the customer's servers, behind their firewall. Customers have complete control over the information that is handled by GitLab's product and GitLab has no way to access this data. The fact that GitLab EE runs behind the customer's firewall provides further assurance that their development process can be HIPAA compliant. 
+
 ### Software Development Life Cycle (SDLC)<a name="sdlc"></a>
 
 1. Are there documented processes, procedures, standards and templates used in your SDLC process?
