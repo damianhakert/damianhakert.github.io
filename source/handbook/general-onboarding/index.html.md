@@ -234,7 +234,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 1. [ ] Hiring manager: in the "GitLab Email Forwarding" doc, suggest which email aliases the new team member should be added to, then ping one of the admins mentioned in the doc to help get it done.
 1. [ ] People Ops (Recruiter): Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-1. [ ] People Ops (Recruiter): let the new team member know their handle for dev.gitlab.org by mentioning it here.
+1. [ ] People Ops (Recruiter): let the new team member know their handle for dev.gitlab.org by mentioning it here. 
 1. [ ] Slack
    1. [ ] People Ops (Recruiter): Add to [Slack](https://gitlab.slack.com/admin).
    1. [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
