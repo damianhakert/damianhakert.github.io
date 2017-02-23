@@ -53,6 +53,11 @@
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
 
+- title: "Sales Development Representative (EMEA)"
+  description: /jobs/sales-development-representative/
+  apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+
 - title: "Senior Backend Developer"
   description: /jobs/senior-developer/
   salary: 87337
