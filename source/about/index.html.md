@@ -111,8 +111,8 @@ We promise that:
 
 When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
 If the answer is yes the feature is likely to be exclusive to EE.
-There are no features that are only useful to larger organizations, so for every EE features there will be smaller organizations that also need it, we're not saying that there are no small organizations need an EE feature.
-It hard to get CE vs. EE right, and if we put something in EE that shouldn't be there we won't hesitate to [open-source](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347).
+There are no features that are only useful to larger organizations, so for every EE features there will be smaller organizations that also need it, we're not saying that there are no small organizations that need an EE feature.
+It hard to get CE vs. EE right, and if we put something in EE that should be in CE we won't hesitate to [open-source](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347).
 
 We always make sure that CE can do all major features in [our scope](https://about.gitlab.com/direction/#scope) and there are companies using CE with more than 10,000 users.
 
