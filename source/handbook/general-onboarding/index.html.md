@@ -329,7 +329,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
-1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly.
+1. [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue). Make sure that you fill out the GitLab.com profile with your first and last name to ensure that e-mail notifications arrive correctly. Also, add a secondary email (personal email) to your account. 
 1. [ ] People Ops (Specialist): Invite GitLabbers' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 
