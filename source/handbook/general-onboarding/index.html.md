@@ -132,7 +132,19 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] People Ops (Specialist): using the template, send new team member the UK payroll form and New Starter Checklist (only if the new team member does not have a P45) to complete (this can be found in the Google Drive/UK Documents folder). Fill in as much information as possible and stage in HelloSign for signature. Cc peopleops and Vistra (email address is located on the Payroll form)
 1.[ ] New Team Member: once you have received the payroll form please fill in the missing details and sign. This form will then be sent electronically to GitLab's payroll provider Vistra. If you have a P45 from your previous company please post this to Vistra at the address at the bottom of the payroll form. If you don't have a P45 then you must complete the New Starter Checklist and post this to Vistra.
-1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Documents/Signed Documents
+1. [ ] People Ops (Specialist) once the payroll form has been completed and signed by the new team member file the document in BambooHR under Payroll Forms
+
+
+#### GitLab BV Belgium employees only
+
+1. [ ] New Team Member: to ensure that we have all of your details ready for payroll processing please can you complete the following information on BambooHR;
+     1. [ ] Full name
+     1. [ ] Address
+     1  [ ] National Number
+     1. [ ] Bank details
+1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
+1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a copy of the team member's employment contract and ID card
+
 
 #### All team members
 
