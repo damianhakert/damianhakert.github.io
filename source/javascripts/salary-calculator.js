@@ -369,25 +369,31 @@
         return url;
       }
 
-      var experienceIndex;
-      // keys on experienceKey to match
-      [0, 1, 2, 3, 4]
-        .forEach(function(idx) {
-          var min = (parseFloat(input.experience.min) === experienceKey[idx].min);
-          var max = (parseFloat(input.experience.max) === experienceKey[idx].max);
-          if (min && max) experienceIndex = idx;
-        });
+      var experience = function() {
+        var experienceIndex;
+        // keys on experienceKey to match
+        [0, 1, 2, 3, 4]
+          .forEach(function(idx) {
+            var min = (parseFloat(input.experience.min) === experienceKey[idx].min);
+            var max = (parseFloat(input.experience.max) === experienceKey[idx].max);
+            if (min && max) experienceIndex = idx;
+          });
+
+        return experienceIndex;
+      };
 
       // keys on levelKey to match
-      var levelNumber = [0.8, 1.0, 1.2, 1.4]
-        .map(function(key) {
-          var valid = (parseFloat(input.level) === parseFloat(key));
-          if (valid) return levelKey[parseFloat(key)];
-          return null;
-        })
-        .find(function(level) {
-          return level !== null;
-        });
+      var levelNumber = function() {
+        return [0.8, 1.0, 1.2, 1.4]
+          .map(function(key) {
+            var valid = (parseFloat(input.level) === parseFloat(key));
+            if (valid) return levelKey[parseFloat(key)];
+            return null;
+          })
+          .find(function(level) {
+            return level !== null;
+          });
+      };
 
       var city = function() {
         var parseCity = input.city.split(", ").join("_");
@@ -399,17 +405,19 @@
         return parseCountry.split(" ").join("-");
       }
 
-      var link = rootUrl() + '?city=' + city() + '&country=' + country()
-        + '&experience=' + experienceIndex + '&level=' + levelNumber
-        + '&low=' + salary.min + '&high=' + salary.max
+      var link = function() {
+        return rootUrl() + '?city=' + city() + '&country=' + country()
+          + '&experience=' + experience() + '&level=' + levelNumber()
+          + '&low=' + salary.min + '&high=' + salary.max;
+      }
 
       var copySection = function() {
         $('.generate-url').html(
           '<div> <h4> Share compensation url  '
-          + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link + '"'
+          + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link() + '"'
           + 'data-placement="top">Copy Link</a>'
           + '</h4><input class="comp-url form-control" value="'
-          + link + '" disabled="true">'
+          + link() + '" disabled="true">'
           + '</input></div><br>'
         );
       };
