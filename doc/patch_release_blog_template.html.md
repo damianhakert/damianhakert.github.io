@@ -7,7 +7,7 @@ author_twitter: TWITTER_USERNAME
 description: "Short description of the blog post"
 ---
 
-Today we are releasing versions x.x.x (CE, EE), x.x.x (CE), and x.x.x (EE).
+Today we are releasing version X.Y.Z for GitLab Community Edition (CE) and Enterprise Edition (EE).
 
 It includes the following fixes:
 

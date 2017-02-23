@@ -7,10 +7,10 @@ author_twitter: TWITTER_USERNAME
 description: "GitLab Security Release: highly recommendable update for x.x and x.x GitLab versions"
 ---
 
-Today we are releasing versions x.x.x (CE, EE), x.x.x (CE), and x.x.x (EE).
+Today we are releasing version X.Y.Z for GitLab Community Edition (CE) and Enterprise Edition (EE).
 
-*** Intro here ***
+** Intro here **
 
 <!-- more -->
 
-*** Text here ***
+** Text here **
