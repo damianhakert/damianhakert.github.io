@@ -4,7 +4,7 @@ categories: release
 author: ADD_YOUR_FULL_NAME
 author_gitlab: GITLAB-COM_USERNAME
 author_twitter: TWITTER_USERNAME
-image_title: /images/7_X/PICTURE.PNG
+image_title: '/images/7_X/PICTURE.PNG'
 description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 ---
 
