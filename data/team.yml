@@ -1661,17 +1661,6 @@
           Julius co-created the Prometheus monitoring system. In a previous life, he worked at SoundCloud and Google.
           He loves coding in Go and otherwise enjoys traveling, running, mentoring programming beginners, podcasts, and spending too much time on the internet.
 
-- name: Brian Brazil
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/prometheus-engineer/">Prometheus Engineer</a>
-  reports_to: Prometheus Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining October 10th
-
 - name: Kevin Lyda
   locality: Caherlistrane, Co. Galway
   country: Ireland
