@@ -8,7 +8,14 @@ image_title: '/images/7_X/PICTURE.PNG'
 description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 ---
 
-*** Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts ***
+** Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts **
+
+** Include in the same MR an update to data/promo.yml: **
+
+```yaml
+text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+link: '/AAAA/MM/DD/gitlab-x-x-released/'
+```
 
 Intro and introduce main features here.
 
