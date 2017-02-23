@@ -404,9 +404,15 @@
         + '&low=' + salary.min + '&high=' + salary.max
 
       $('.generate-url').html(
-        '<div>' + '<h4>' + 'Compensation URL:' + '</h4>' + '<a href="'
-        + link + '">' + link + '</a>' + '</div>' + '<br>'
+        '<div>' + '<h4>' + 'Copy Compensation URL  '
+        + '<button class="btn btn-default copy-me" data-clipboard-text="'
+        + link + '"><i class="fa fa-clipboard copy-salary"></i></button>'
+        + '</h4>' + '<input class="comp-url form-control" value="'
+        + link + '" + disabled="true">'
+        + '</input>' + '</div>' + '<br>'
       );
+
+      new Clipboard('.copy-me');
     }
 
     SalaryCalculator.prototype.renderContractType = function() {
