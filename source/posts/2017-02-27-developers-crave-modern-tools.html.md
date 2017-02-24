@@ -13,7 +13,7 @@ Great software is built by great people—not “magic bullet” tools or techno
 
 Developers are opinionated and rigorous when it comes building their work environment,  because tools can have a massive impact on their ability to get their work done. Whether they’re losing time waiting for complicated systems to update or struggling to effectively collaborate with their team, developers are becoming more and more frustrated with tools that can’t keep up the pace their job demands. 
 
-As software development continues to trend toward distributed and open systems, process-driven methodologies are dying out in exchange for more asynchronous, collaborative workflows. Last year, we launched our [Global Developer Survey](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to examine more closely how software development is adapting from pressures within and without, and how these changes affect the way teams work. Below you will find some of our key findings, and you can get the full results by downloading the [report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html). 
+As software development continues to trend toward distributed and open systems, process-driven methodologies are dying out in exchange for more asynchronous, collaborative workflows. Last year, we launched our [Global Developer Survey](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to examine more closely how software development is adapting from pressures within and without, and how these changes affect the way teams work. Chief among these trends is developers' insistence on using tools that make them the most effective in their jobs; below you will find some of our key findings on how developers are bringing modern tools into the workplace. 
 
 ## Our Respondents are In-the-Know
 
@@ -35,7 +35,7 @@ Developers’ increasing power to choose tooling is matched by the strength of t
 
 For more on how devs work now, download the [full report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html), and look out for the next in this series, where we’ll discuss the popularity of open source tooling.
 
-*Tweet us [@GitLab](https://twitter.com/gitlab), check out our [job openings](https://about.gitlab.com/jobs/), or add your questions and suggestions to our [issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)* 
+*[Learn more](https://about.gitlab.com/free-trial/) about how GitLab Enterprise Edition can help your team achieve software excellence, and try for yourself!*
 
 
 
