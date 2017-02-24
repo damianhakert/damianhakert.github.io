@@ -2196,6 +2196,17 @@
   story:  |
           John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.
 
+- name: A.M
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining Ferbruary 27th
+
 - name: A.O.
   locality:
   country:
