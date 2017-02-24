@@ -27,6 +27,7 @@ title: "Content Editor"
 - A dual-minded approach: Highly creative and an excellent writer/editor but can also be process-driven, think scale, and rely on data to make decisions.
 - Strong communication skills without a fear of over communication. This role will require effective collaboration and coordination across internal and external contributors.
 - Extremely detail-oriented and organized, able to meet deadlines.
+- Deep understanding of the software development process including git, CI and CD
 - Obsessive about content quality not quantity.
 - Regular reporting on how content and channel performance to help optimize our content marketing efforts.
 - You share our [values](/handbook/values), and work in accordance with those values.
