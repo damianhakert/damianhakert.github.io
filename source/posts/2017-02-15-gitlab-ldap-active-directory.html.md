@@ -1,5 +1,5 @@
 ---
-title: "How-to: Integrate GitLab with Active Directory via LDAP"
+title: "How to Integrate GitLab with Active Directory via LDAP"
 author: Chris Wilson
 author_twitter: IsChrisW
 author_gitlab: MrChrisW
@@ -12,13 +12,13 @@ extra_js:
   - https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.2.0/readmore.min.js
 ---
 
-GitLab integrates with your Active Directory or LDAP (Lightweight Directory Access Protocol) servers. Users in your organization can use their existing LDAP credentials to access GitLab.
+GitLab integrates with your Active Directory or [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) (Lightweight Directory Access Protocol) servers. Users in your organization can use their existing LDAP credentials to access GitLab.
 
 <!-- more -->
 
 ----
 
-### What's in this tutorial?
+## What's in this tutorial?
 {: .no_toc}
 
 - TOC
@@ -28,34 +28,27 @@ GitLab integrates with your Active Directory or LDAP (Lightweight Directory Acce
 
 ## Introduction
 
-Managing a large number of users in GitLab can become a burden for system administrators. As an organisation grows so do user accounts. Keeping these user accounts in sync across multiple enterprise applications becomes a manual and often time consuming task.
+Managing a large number of users in GitLab can become a burden for system administrators. As an organization grows so do user accounts. Keeping these user accounts in sync across multiple enterprise applications often becomes a time consuming task.
 
-In this blog post we will focus on configuring GitLab with Active Directory. [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) is a popular directory service provided by Microsoft, it is included in all modern Windows Server operating systems.
+In this blog post we will focus on configuring GitLab with Active Directory. [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) is a popular LDAP compatible directory service provided by Microsoft, included in all modern Windows Server operating systems.
 
-GitLab has supported LDAP integration since version 2.2. With GitLab LDAP [group syncing](#group-syncing-ee) being added to GitLab Enterprise Edition in version 6.0. LDAP integration has become one of the most popular features in GitLab.
-
-
+GitLab has supported LDAP integration since [version 2.2](https://about.gitlab.com/2012/02/22/gitlab-version-2-2/). With GitLab LDAP [group syncing](#group-syncing-ee) being added to GitLab Enterprise Edition in [version 6.0](https://about.gitlab.com/2013/08/20/gitlab-6-dot-0-released/). LDAP integration has become one of the most popular features in GitLab.
 
 ## Getting Started
 
 ### Choosing an LDAP Server
 
-The main reason organizations choose to utilise a Lightweight Directory Access Protocol (LDAP) server is to keep the entire organizations user base consolidated into a central repository. Users can access multiple applications and systems across the environment using a single login. Because LDAP is an open, vendor-neutral, industry standard application protocol the number of applications using LDAP authentication continues to increase.
+The main reason organizations choose to utilize a LDAP server is to keep the entire organization's user base consolidated into a central repository. Users can access multiple applications and systems across the  IT environment using a single login. Because LDAP is an open, vendor-neutral, industry standard application protocol, the number of applications using LDAP authentication continues to increase.
 
-There are many commercial and open source directory servers that support the LDAP protocol. Deciding on the right directory server highly depends on the existing environment in which the server will be integrated.
+There are many commercial and open source [directory servers](https://en.wikipedia.org/wiki/Directory_service#LDAP_implementations) that support the LDAP protocol. Deciding on the right directory server highly depends on the existing IT environment in which the server will be integrated with.
 
-For example; [Active Directory](https://technet.microsoft.com/en-us/library/hh831484(v=ws.11).aspx) is generally favored in a primarily Windows environment as this allows quick integration with a existing services. Other popular directory services include:
+For example, [Active Directory](https://technet.microsoft.com/en-us/library/hh831484(v=ws.11).aspx) is generally favored in a primarily Windows environment, as this allows quick integration with existing services. Other popular directory services include:
 
-+ [Oracle Internet Directory](http://www.oracle.com/technetwork/middleware/id-mgmt/overview/index-082035.html)
-
-+ [OpenLDAP](http://www.openldap.org/)
-
-+ [389 Directory](http://directory.fedoraproject.org/)
-
-+ [OpenDJ](https://forgerock.org/opendj/)
-
-+ [ApacheDS](https://directory.apache.org/)
-
+- [Oracle Internet Directory](http://www.oracle.com/technetwork/middleware/id-mgmt/overview/index-082035.html)
+- [OpenLDAP](http://www.openldap.org/)
+- [389 Directory](http://directory.fedoraproject.org/)
+- [OpenDJ](https://forgerock.org/opendj/)
+- [ApacheDS](https://directory.apache.org/)
 
 GitLab uses the [Net::LDAP](https://rubygems.org/gems/net-ldap) library under the hood. This means it supports all [IETF](https://tools.ietf.org/html/rfc2251) compliant LDAPv3 servers.
 {: .alert .alert-info }
@@ -64,9 +57,9 @@ GitLab uses the [Net::LDAP](https://rubygems.org/gems/net-ldap) library under th
 
 We won't cover the installation and configuration of Windows Server or Active Directory Domain Services in this tutorial. There are a number of resources online to guide you through this process:
 
-<i class="fa fa-windows" aria-hidden="true"></i> Install Windows Server 2012  - (_technet.microsoft.com_) - [Installing Windows Server 2012 ](https://technet.microsoft.com/en-us/library/jj134246(v=ws.11).aspx)
+- <i class="fa fa-windows fa-fw" aria-hidden="true"></i> Install Windows Server 2012  - (_technet.microsoft.com_) - [Installing Windows Server 2012 ](https://technet.microsoft.com/en-us/library/jj134246(v=ws.11).aspx)
 
-<i class="fa fa-server" aria-hidden="true"></i> Install Active Directory Domain Services (AD DS) (_technet.microsoft.com_)- [Install Active Directory Domain Services](https://technet.microsoft.com/windows-server-docs/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-#BKMK_PS)
+- <i class="fa fa-server fa-fw" aria-hidden="true"></i> Install Active Directory Domain Services (AD DS) (_technet.microsoft.com_)- [Install Active Directory Domain Services](https://technet.microsoft.com/windows-server-docs/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-#BKMK_PS)
 
 **Shortcut:** You can quickly install AD DS via PowerShell using
 `Install-WindowsFeature AD-Domain-Services -IncludeManagementTools`
@@ -85,12 +78,9 @@ By default a LDAP service listens for connections on TCP and UDP port 389. LDAPS
 
 Configuring organizational units (OUs) is an important part of setting up Active Directory. OUs form the base for an entire organizational structure. Using GitLab as an example we have designed the OU structure below using the geographic OU model. In the Geographic Model we separate OUs for different geographic regions.
 
-{: .text-center}
-
 GitLab OU Design            |  GitLab AD Structure
 :-------------------------:|:-------------------------:
-![](/images/blogimages/gitlab-ldap/gitlab_ou.svg)  |  ![](/images/blogimages/gitlab-ldap/ldap_ou.gif)
-
+![GitLab OU Design][gitlab_ou]  |  ![GitLab AD Structure][ldap_ou]
 
 Using PowerShell you can output the OU structure as a table (_all names are examples only_):
 
@@ -194,7 +184,7 @@ ldapsearch -D "CN=GitLabSRV,CN=Users,DC=GitLab,DC=org" \
 ldapsearch -D "CN=GitLabSRV,CN=Users,DC=GitLab,DC=org" -w Password1 -p 389 -h ad.example.org -b "OU=GitLab INT,DC=GitLab,DC=org" -s sub "CN=Leroy Fox"
 ```
 
-**Full output of `ldapsearch` command:** - _CN=Leroy Fox_
+**Full output of `ldapsearch` command:** - `_CN=Leroy Fox_`
 
 <pre id="leroy_output" class="highlight plaintext">
 # LDAPv3
@@ -324,13 +314,16 @@ Since GitLab [v8.15](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/822)
 ## Conclusion
 
 Integration of GitLab with Active Directory (LDAP) reduces the complexity of user management.
-It has the advantage of improving user permission controls, whilst easing the deployment of GitLab into an existing environment.
+It has the advantage of improving user permission controls, whilst easing the deployment of GitLab into an existing IT environment.
 
 With the assistance of the [GitLab Support](https://about.gitlab.com/support) team, setting up GitLab with an existing AD/LDAP solution will be a smooth and painless process.
 
 ____
 
 _Image: "[Office](https://commons.wikimedia.org/wiki/File:New_office.jpg)" by [Phil Whitehouse](https://www.flickr.com/people/19451080@N00) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_
+
+[gitlab_ou]: /images/blogimages/gitlab-ldap/gitlab_ou.png
+[ldap_ou]: /images/blogimages/gitlab-ldap/ldap_ou.gif
 
 <script type="text/javascript">
 // Custom JS to load readmore when JQuery is loaded
