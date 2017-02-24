@@ -1,26 +1,21 @@
 @import "variables";
 
 .heading-container {
-  position: relative;
   padding-top: 40px;
+  padding-bottom: 40px;
 
   @media (min-width: $screen-sm-min) {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
-  &::after {
-    background-image: linear-gradient(to right, $color-primary, $color-primary-alt 50%);
+  > svg {
     position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-
-  .container {
-    position: relative;
+    left: -100px;
+    right: -100px;
+    top: -25%;
+    height: 150%;
+    opacity: .08;
     z-index: 9;
   }
 
@@ -36,6 +31,31 @@
     font-weight: 200;
     font-size: 26px;
   }
+}
+
+.gitlab-com-purple-section {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    background-image: linear-gradient(to left, $color-primary, $color-primary-alt 100%);
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 99;
+  }
+}
+
+.gitlab-com-white-section {
+  background-color: $color-white;
+  border-top: 1px solid $landing-organization-color;
 }
 
 .credit-card-disclaimer {
@@ -99,14 +119,12 @@
 
 .pricing-panel-price-side {
   display: inline-block;
-  width: 0;
+  width: 55px;
   font-size: 16px;
+  text-align: left;
 }
 
 .gitlab-com-questions {
-  background-color: $color-white;
-  border-top: 1px solid $landing-organization-color;
-
   h2 {
     margin-top: 0;
     margin-bottom: 60px;
@@ -171,8 +189,6 @@
 
 .gitlab-used-by {
   margin-bottom: -45px;
-  background-color: $color-white;
-  border-top: 1px solid $landing-organization-color;
 
   h4 {
     margin-top: 0;

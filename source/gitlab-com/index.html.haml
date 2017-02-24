@@ -6,7 +6,8 @@ extra_css:
   - gitlab-com.css
 ---
 
-.heading-container
+%section.heading-container.gitlab-com-purple-section
+  = partial "includes/icons/gitlab-icon-pattern-header.svg"
   .container.text-center
     %h1.page-headline
       Host your projects on GitLab.com
@@ -15,7 +16,7 @@ extra_css:
     = link_to "Sign up for a free forever account", "https://gitlab.com/users/sign_in", class: "btn cta-btn red"
     %span.credit-card-disclaimer
       No credit card required
-.page-container.container.gitlab-com-features
+%section.page-container.container.gitlab-com-features
   %h2.text-center
     GitLab.com runs on our Enterprise Edition Starter
   %h3.text-center
@@ -32,14 +33,14 @@ extra_css:
         10GB disk space per project
       %span.features-list-sub-title
         (with LFS support)
-    %li.col-md-4.col-md-offset-2
+    %li.col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-2
       %strong.features-list-title
         No installation required
-    %li.col-md-4
+    %li.col-md-5.col-lg-4
       %strong.features-list-title
         Easy import from your current provider
   .row
-    .col-md-4.col-md-offset-2
+    .col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-2
       .panel.panel-gitlab
         %header.panel-heading.text-center
           Free Forever
@@ -49,7 +50,7 @@ extra_css:
           %p
             1000 build minutes per month
           = link_to "Sign Up", "/", class: "btn cta-btn red"
-    .col-md-4
+    .col-md-5.col-lg-4
       .panel.panel-gitlab
         %header.panel-heading.text-center
           Bronze Plan
@@ -60,8 +61,8 @@ extra_css:
               per month
           %p
             Unlimted build minutes per month
-          = link_to "Sign Up", "/", class: "btn cta-btn red"
-.page-container.gitlab-com-questions
+          = link_to "Buy Now", "/", class: "btn cta-btn red"
+%section.gitlab-com-white-section.page-container.gitlab-com-questions
   .container
     %h2.text-center.light
       Frequently Asked Questions
@@ -69,7 +70,7 @@ extra_css:
       - size = (data.gitlab_com.questions.size / Float(2)).ceil
       - data.gitlab_com.questions.each_slice(size).to_a.each do |group|
         = partial "includes/question-group", locals: { group: group }
-.page-container.gitlab-com-stratergy
+%section.page-container.gitlab-com-stratergy.gitlab-com-purple-section
   .container
     %h3.text-center.gitlab-com-stratergy-title.light
       Our stratergy moving forward
@@ -113,13 +114,13 @@ extra_css:
       .col-md-4
         %p.gitlab-com-stratergy-plan-text.light
           Build storage
-.gitlab-right-fit.container.text-center
+%section.gitlab-right-fit.container.text-center
   %h2.light
     Is GitLab the right fit for you?
   %h3.light
     Unlimited free private repositories and collaborators
   = link_to "Compare us to our competitors", "/comparison", class: "btn cta-btn red"
-.page-container.gitlab-used-by.text-center
+%section.gitlab-com-white-section.page-container.gitlab-used-by.text-center
   .container
     %h4
       GitLab.com is used by more than 100,000 people, including these organizations:
