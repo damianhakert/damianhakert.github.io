@@ -154,6 +154,6 @@ Field marketing includes event marketing and swag production.
 
 * We aim to have our swag delight and/ or be useful.
 * We aim to make limited edition and themed swag for the community to collect. Bigger events will have custom tanuki stickers in small runs, only available at specific event.
-* We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
+* We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.myshopify.com/)
 * With a web shop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
