@@ -50,7 +50,7 @@ can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we have added
 so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
-1. **Don't waste our time**
+1. **Be respectful of other's time** Consider the time investment you are asking others to make with meetings and other activities.
 1. **Spend company money like it's your own** every dollar we spend will have to be earned back, be as frugal with company money as you are with your own.
 1. **Freedom** You should have clear objectives and the freedom to work on them as you see fit.
 1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
