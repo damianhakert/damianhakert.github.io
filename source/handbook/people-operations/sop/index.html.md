@@ -284,7 +284,7 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
-To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.myshopify.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Ordering Equipment**
 PeopleOps will order required equipment. New employee should send links to items they would like to have and PeopleOps will order it and have it shipped to their address. To order notebooks, PeopleOps has a contact at Apple, so if a new employee is considering buying and expensing a macbook, first reach out to PeopleOps for the Apple contact info.
 - **Order business cards**
