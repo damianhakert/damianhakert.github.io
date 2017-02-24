@@ -250,7 +250,7 @@ After enabling and configuring LDAP, basic authentication will be available. Use
 
 Users that are removed from the LDAP base group (e.g `OU=GitLab INT,DC=GitLab,DC=org`) will be **Blocked** in GitLab. [More information](https://docs.gitlab.com/ee/administration/auth/ldap.html#security) on LDAP security.
 
-If `allow_username_or_email_login` is enabled in the LDAP configuration, GitLab will ignore everything after the first '@' in the LDAP username submitted by the user on login. Disable this setting if you use `userPrincipalName` as the `uid`
+If `allow_username_or_email_login` is enabled in the LDAP configuration, GitLab will ignore everything after the first '@' in the LDAP username used on login. Example: The username `jon.doe@example.com` is converted to `jane.doe` when authenticating with the LDAP server. Disable this setting if you use `userPrincipalName` as the `uid`
 {: .alert .alert-info }
 
 ### Administrator Sync (EE)
@@ -264,17 +264,17 @@ All members of the group `Global Admins` will be given **administrator** access 
 
 ### Group Syncing (EE)
 
-Group syncing is configured using the `group_base` DN (`'OU=Global Groups,OU=GitLab INT,DC=GitLab,DC=org'`). This OU contains all groups that will be associated with [GitLab groups](https://docs.gitlab.com/ce/workflow/groups.html).
+Group syncing is configured using the `group_base` **DN** (`'OU=Global Groups,OU=GitLab INT,DC=GitLab,DC=org'`). This **OU** contains all groups that will be associated with [GitLab groups](https://docs.gitlab.com/ce/workflow/groups.html).
 
-In the example below we have the "UKGov" GitLab group. As this group deals with confidential information it is important users of this groups are given the correct [permissions](http://docs.gitlab.com/ce/user/permissions.html) to projects. Granular group permissions can be applied based on the AD group.
+In the example below we have the "UKGov" GitLab group. As this group deals with confidential information it is important users of this groups are given the correct [permissions](http://docs.gitlab.com/ce/user/permissions.html) to projects. Granular group permissions can be applied based on the **AD** group.
 
 **UK Developers** are given the **"developer"** permission.
 
-*The developer permission allows the development staff to effectively manage all project code, issues & merge requests.*
+*The developer permission allows the development staff to effectively manage all project code, issues, and merge requests.*
 
 **UK Support** staff are given the **"reporter"** permission.
 
-*The reporter permission allows support staff to manage issues, labels and review project code.*
+*The reporter permission allows support staff to manage issues, labels, and review project code.*
 
 **US People Ops** staff are given the **"guest"** permission.
 
@@ -286,12 +286,14 @@ Using this permission structure allows only UK staff access to potentially sensi
 
 #### Creating Group Links - Example
 
+<figure class="video_container">
 <video style="display:block; margin: 0 auto;" controls autoplay loop muted poster="/images/blogimages/gitlab-ldap/linking.png">
    <source src="/images/blogimages/gitlab-ldap/group_linking.mp4" type="video/mp4">
    <source src="/images/blogimages/gitlab-ldap/group_linking.webm" type="video/webm">
    <source src="/images/blogimages/gitlab-ldap/group_linking.ogv" type="video/ogg">
    Sorry your browser does not support the HTML5 video tag.
 </video>
+</figure>
 
 #### Group Permissions
 
@@ -304,23 +306,28 @@ Using this permission structure allows only UK staff access to potentially sensi
 
 Since GitLab [v8.15](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/822) LDAP user permissions can now be manually overridden by an admin user. To override a user's permissions visit the groups **Members** page and select **Edit permissions**.
 
+<figure class="video_container">
 <video style="display:block; margin: 0 auto;" controls autoplay loop muted poster="/images/blogimages/gitlab-ldap/manual_permissions.png">
    <source src="/images/blogimages/gitlab-ldap/manual_permissions.mp4" type="video/mp4">
    <source src="/images/blogimages/gitlab-ldap/manual_permissions.webm" type="video/webm">
    <source src="/images/blogimages/gitlab-ldap/manual_permissions.ogv" type="video/ogg">
    Sorry your browser does not support the HTML5 video tag.
 </video>
+</figure>
 
 ## Conclusion
 
 Integration of GitLab with Active Directory (LDAP) reduces the complexity of user management.
-It has the advantage of improving user permission controls, whilst easing the deployment of GitLab into an existing IT environment.
+It has the advantage of improving user permission controls, whilst easing the deployment of GitLab into an existing [IT environment](https://www.techopedia.com/definition/29199/it-infrastructure).
 
 With the assistance of the [GitLab Support](https://about.gitlab.com/support) team, setting up GitLab with an existing AD/LDAP solution will be a smooth and painless process.
 
 ____
 
-_Image: "[Office](https://commons.wikimedia.org/wiki/File:New_office.jpg)" by [Phil Whitehouse](https://www.flickr.com/people/19451080@N00) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)_
+Cover image: "[Office](https://commons.wikimedia.org/wiki/File:New_office.jpg)",
+by [Phil Whitehouse](https://www.flickr.com/people/19451080@N00),
+licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+{:.note}
 
 [gitlab_ou]: /images/blogimages/gitlab-ldap/gitlab_ou.png
 [ldap_ou]: /images/blogimages/gitlab-ldap/ldap_ou.gif
