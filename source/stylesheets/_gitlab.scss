@@ -49,3 +49,12 @@
 }
 
 // scss-lint:enable ImportantRule
+
+.panel-gitlab {
+  @include panel-variant($color-gray-light, $color-white, $color-primary-alt, $color-primary-alt);
+
+  .panel-heading {
+    font-size: 24px;
+    font-weight: 300;
+  }
+}

@@ -107,7 +107,7 @@ helpers do
   end
 
   def font_url(current_page)
-    fonts = ["Source+Sans+Pro:300,400,600"]
+    fonts = ["Source+Sans+Pro:200,300,400,600"]
 
     if current_page.data.extra_font
       fonts = fonts.concat current_page.data.extra_font

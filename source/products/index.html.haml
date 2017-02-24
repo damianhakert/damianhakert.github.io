@@ -238,7 +238,7 @@ extra_font:
     .faq-holder.clearfix
       - size = (data.pricing.questions.size / Float(2)).ceil
       - data.pricing.questions.each_slice(size).to_a.each do |group|
-        = partial "question-group", locals: { group: group }
+        = partial "includes/question-group", locals: { group: group }
 
 .content-container.animated
   .container

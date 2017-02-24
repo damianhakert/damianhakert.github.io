@@ -13,14 +13,4 @@ $(function () {
 
     e.preventDefault();
   });
-
-  $('.js-faq-question').on('click', function (e) {
-    e.preventDefault();
-    isOpen = $(this).closest('.faq-item').is('.is-open');
-    $('.faq-item.is-open').removeClass('is-open');
-
-    if (!isOpen) {
-      $(this).closest('.faq-item').toggleClass('is-open');
-    }
-  });
 });

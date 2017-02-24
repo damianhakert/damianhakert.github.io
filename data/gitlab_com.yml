@@ -1,0 +1,25 @@
+questions:
+  - question: Is there a catch with the free forever plan?
+    answer:
+      Lorem ipsum
+  - question: What happens if I reach my build minutes limit?
+    answer:
+      Lorem ipsum
+  - question: How do I subscribe to Bronze?
+    answer:
+      Lorem ipsum
+  - question: I already have an account, how do I upgrade?
+    answer:
+      Lorem ipsum
+  - question: Can I import my projects?
+    answer:
+      Lorem ipsum
+  - question: Can I export my data?
+    answer:
+      Lorem ipsum
+  - question: What about your availability?
+    answer:
+      Lorem ipsum
+  - question: Is GitLab.com secure?
+    answer:
+      Lorem ipsum
