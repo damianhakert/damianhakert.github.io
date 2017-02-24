@@ -169,7 +169,9 @@ Remember to run a `gitlab-ctl reconfigure` after modifying the `gitlab.rb` file
 
 You can use the `ldapsearch` utility (on Unix based systems) to test that your LDAP server is accessible and authentication is working correctly. This utility is included in the [`ldap-utils`](https://wiki.debian.org/LDAP/LDAPUtils) package.
 
-**Return all objects** - `objectclass=*`
+**Return all objects** - 
+
+You can use the filter `objectclass=*` to return all directory objects.
 
 ```sh
 ldapsearch -D "CN=GitLabSRV,CN=Users,DC=GitLab,DC=org" \
@@ -178,7 +180,9 @@ ldapsearch -D "CN=GitLabSRV,CN=Users,DC=GitLab,DC=org" \
 -s sub "(objectclass=*)"
 ```
 
-**Return single object using filter** - `CN=Leroy Fox`
+**Return single object using filter** - 
+
+You can also retrieve a single object by **specifying** the object name or full **DN**. In this example we specify the object name only `CN=Leroy Fox`.
 
 ```sh
 ldapsearch -D "CN=GitLabSRV,CN=Users,DC=GitLab,DC=org" -w Password1 -p 389 -h ad.example.org -b "OU=GitLab INT,DC=GitLab,DC=org" -s sub "CN=Leroy Fox"
@@ -243,7 +247,7 @@ result: 0 Success
 
 ### Basic User Authentication
 
-After enabling and configuring LDAP, basic authentication will be available. Users can then login using their directory credentials. An extra tab is added to the GitLab login screen for the configured LDAP server (e.g "**GitLab AD**").
+After configuring LDAP, basic authentication will be available. Users can then login using their directory credentials. An extra tab is added to the GitLab login screen for the configured LDAP server (e.g "**GitLab AD**").
 
 {: .text-center}
 ![GitLab OU Structure](/images/blogimages/gitlab-ldap/user_auth.gif)
@@ -266,7 +270,7 @@ All members of the group `Global Admins` will be given **administrator** access 
 
 Group syncing is configured using the `group_base` **DN** (`'OU=Global Groups,OU=GitLab INT,DC=GitLab,DC=org'`). This **OU** contains all groups that will be associated with [GitLab groups](https://docs.gitlab.com/ce/workflow/groups.html).
 
-In the example below we have the "UKGov" GitLab group. As this group deals with confidential information it is important users of this groups are given the correct [permissions](http://docs.gitlab.com/ce/user/permissions.html) to projects. Granular group permissions can be applied based on the **AD** group.
+In the example below we have the "UKGov" GitLab group. As this group deals with confidential government information it is important users of this groups are given the correct [permissions](http://docs.gitlab.com/ce/user/permissions.html) to projects contained within the group. Granular group permissions can be applied based on the **AD** group.
 
 **UK Developers** are given the **"developer"** permission.
 
@@ -278,11 +282,11 @@ In the example below we have the "UKGov" GitLab group. As this group deals with 
 
 **US People Ops** staff are given the **"guest"** permission.
 
-*The guest permission allows people ops staff to review and lodge new issues while allowing no access to project code.*
+*The guest permission allows people ops staff to review and lodge new issues while allowing no read or write access to project code or *[confidential issues](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#permissions-and-access-to-confidential-issues) created by other users.
 
 See the [permission list](http://docs.gitlab.com/ce/user/permissions.html).
 
-Using this permission structure allows only UK staff access to potentially sensitive information stored in the projects code, while still allowing other teams to work effectively.
+Using this permission structure allows only UK staff access to sensitive information stored in the projects code, while still allowing other teams to work effectively.
 
 #### Creating Group Links - Example
 
