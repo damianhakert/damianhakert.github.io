@@ -9,6 +9,11 @@
   description: /jobs/people-ops-administrator/
   apply: https://gitlab.workable.com/jobs/436145/candidates/new
   open: true
+  
+- title: "Recruiter"
+  description: /jobs/recruiter/
+  apply: https://gitlab.workable.com/jobs/436821/candidates/new
+  open: true
 
 - title: "Account Executive - Sales"
   description: /jobs/account-executive/
