@@ -5,11 +5,11 @@ title: "GitLab Offboarding"
 
 Before starting an offboarding issue, make sure that the team member's resignation or termination has been discussed and cleared with _at least_ the member of the executive team to whom the team member (in)directly reports. For [involuntary terminations](/handbook/people-operations/#involuntary-terminations), make yourself familiar with the guidelines in the People Operations handbook.
 
-When it is time for offboarding, create issue for former team member on the dev server in the [organization issue tracker](https://gitlab.com/gitlab-com/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
+When it is time for offboarding, create a **confidential** issue for former team member on the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in in the [organization issue tracker](https://gitlab.com/gitlab-com/organization/issues/) with relevant lines of the master offboarding checklist and /cc @abby, @brittany, @joan.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in in the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @amatthews, @brittanyr, @jparrow.
 
 #### For GitLab BV Belgium only
 
