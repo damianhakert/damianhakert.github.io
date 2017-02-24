@@ -32,27 +32,36 @@
     1.4: 'Lead'
   };
 
+  var cityStateParser = function(validParams, params, param) {
+    var cityState = params[param];
+    if (cityState.indexOf("_") >= 0) {
+      var state = ", " + cityState.split("_")[1];
+      var city = cityState.split("_")[0];
+      validParams[param] = city.split("-").join(" ") + state;
+    } else {
+      validParams[param] = cityState.split("-").join(" ");
+    }
+  };
+
   var paramsParser = function(params) {
     if (!params) return null;
     var validParams = {};
 
     Object.keys(params).forEach(function(param) {
-      if (param === "city") {
-        var cityState = params[param];
-        if (cityState.indexOf("_") >= 0) {
-          var state = ", " + cityState.split("_")[1];
-          var city = cityState.split("_")[0];
-          validParams[param] = city.split("-").join(" ") + state;
-        } else {
-          validParams[param] = cityState.split("-").join(" ");
-        }
-      } else if (param === "country") {
-        var state = params[param];
-        validParams[param] = state.split("-").join(" ");
-      } else if (param === "experience") {
-        validParams["experience"] = experienceKey[parseFloat(params[param])];
-      } else if (param === "level") {
-        validParams['level'] = levelKey[params[param]];
+      switch (param) {
+        case "city":
+          return cityStateParser(validParams, params, param);
+        case "country":
+          var state = params[param];
+          return validParams[param] = state.split("-").join(" ");
+        case "experience":
+          return validParams["experience"] = experienceKey[
+            parseFloat(params[param])
+          ];
+        case "level":
+          return validParams['level'] = levelKey[params[param]];
+        default:
+          return null;
       }
     });
 
@@ -413,11 +422,11 @@
 
       var copySection = function() {
         $('.generate-url').html(
-          '<div> <h4> Share compensation url  '
+          '<div><h4>Share compensation url - '
           + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link() + '"'
           + 'data-placement="top">Copy Link</a>'
-          + '</h4><input class="comp-url form-control" value="'
-          + link() + '" disabled="true">'
+          + '</h4><input style="cursor: default;" class="comp-url form-control" value="'
+          + link() + '"disabled="true">'
           + '</input></div><br>'
         );
       };
@@ -430,7 +439,7 @@
           e.target.parentElement.innerHTML = 'Share compensation url - Copied!'
           setTimeout(function() {
             copySection();
-          }, 1000);
+          }, 3000);
         }, 100);
       })
     }
