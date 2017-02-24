@@ -7,7 +7,7 @@ categories: inside GitLab
 description: "The way developers work has changed, and they’re opting to leave behind outdated tools."
 ---
 
-Great software is built by great people—not “magic bullet” tools or technologies. However, [research reveals][https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html] that the tools you choose for your team may have a greater impact on developer happiness and retention that you thought. In fact, a whopping 81% of developers say that it’s critical organizations use the latest development tools and 36% go as far as to say they would reject a job if the employer didn’t use the latest tools. Why are new tools becoming non-negotiable for developers?
+Great software is built by great people—not “magic bullet” tools or technologies. However, [research reveals](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) that the tools you choose for your team may have a greater impact on developer happiness and retention that you thought. In fact, a whopping 81% of developers say that it’s critical organizations use the latest development tools and 36% go as far as to say they would reject a job if the employer didn’t use the latest tools. Why are new tools becoming non-negotiable for developers?
 
 <!-- more -->
 
