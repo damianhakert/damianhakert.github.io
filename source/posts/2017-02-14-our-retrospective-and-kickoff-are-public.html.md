@@ -57,4 +57,5 @@ _[Cover image](https://unsplash.com/photos/jdD8gXaTZsc) by
 [gitlab-master-plan]: https://about.gitlab.com/2016/09/13/gitlab-master-plan/#we--our-community
 [retrospective notes]: https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing
 [kickoff notes]: https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing
-[retro-kickoff-call]: https://gitlab.zoom.us/j/918821206
+[retro-kickoff-call]: https://gitlab.zoom.us/j/330258108
+
