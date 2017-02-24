@@ -456,7 +456,7 @@ needs to be built locally by running the following:
 
 After running that you can now run the following to generate the PDFs:
 
-`bundle exec comparison_pdfs`
+`bundle exec rake comparison_pdfs`
 
 Once you have done that you are free to commit and push these to GitLab.com
 to then be merged into master.
