@@ -1,12 +1,13 @@
 ---
-title: "GitLab X.Y.Z Released"
-comments: true
-author: GitLab
-author_twitter: gitlab
+title: "GitLab Patch Release: x.x.x and x.x.x"
+categories: release
+author: ADD_YOUR_FULL_NAME
+author_gitlab: GITLAB-COM_USERNAME
+author_twitter: TWITTER_USERNAME
+description: "Short description of the blog post"
 ---
 
-Today we are releasing version X.Y.Z for GitLab Community Edition (CE) and
-Enterprise Edition (EE).
+Today we are releasing version X.Y.Z for GitLab Community Edition (CE) and Enterprise Edition (EE).
 
 It includes the following fixes:
 
@@ -32,7 +33,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
-EE](https://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation

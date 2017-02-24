@@ -1,15 +1,29 @@
 ---
-title: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-categories:
+title: "GitLab X.X Released"
+categories: release
 author: ADD_YOUR_FULL_NAME
+author_gitlab: GITLAB-COM_USERNAME
 author_twitter: TWITTER_USERNAME
-image_title: /images/7_X/PICTURE.PNG
+image_title: '/images/7_X/PICTURE.PNG'
+description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 ---
+
+** Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts **
+
+** Include in the same MR an update to data/promo.yml: **
+
+```yaml
+text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+link: '/AAAA/MM/DD/gitlab-x-x-released/'
+```
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***[MVP_USER]*** ***[CONTRIBUTION_OF_MVP_USER]***.
 Thanks ***MVP_USER_FIRST_NAME***!
+
+[MVP_USER]: https://gitlab.com/username
+[CONTRIBUTION_OF_MVP_USER]: merge-request-link
 
 <!--more-->
 
@@ -60,11 +74,14 @@ Check out our [update page](https://about.gitlab.com/update/).
 ## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
+For a complete overview please have a look at the [feature list of GitLab EE](https://about.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription](https://about.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 ----
+
+[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+{:.note}
