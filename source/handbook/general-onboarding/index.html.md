@@ -8,7 +8,6 @@ title: "GitLab Onboarding"
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding/)
-* [Developer Advocate onboarding](/handbook/devadvocate-onboarding)
 * [Offboarding](/handbook/offboarding/)
 
 ## This page
