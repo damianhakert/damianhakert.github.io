@@ -80,7 +80,7 @@ giving positive feedback is our [thanks chat channel](https://about.gitlab.com/h
 1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
 1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchal decision making. Explain why you're making the decision and respect everyone irrespective of their function.
 1. **Say sorry** if you made a mistake apologize. Saying sorry is not a show of weakness but one of strength. The people that do the most will likely make the most mistakes.
-1. **No ego** don't
+1. **No ego** don't defend a point to win an argument or double-down on a mistake. You are not your work, you don't have to defend your point, you have to search for the right answer together.
 
 ## Transparency
 
