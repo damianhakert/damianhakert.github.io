@@ -23,13 +23,14 @@ people. We try to hire people who think work is a great way to express themselve
 
 ## Iteration
 
-We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people underestimate when they join GitLab, the impact both on your work process and on how much you achieve is greater than anticipated. In the beginning it hurts to make decisions fast and to see that things are changed with less consultation.
+We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people underestimate when they join GitLab, the impact both on your work process and on how much you achieve is greater than anticipated. In the beginning it hurts to make decisions fast and to see that things are changed with less consultation. But frequently the simplest version turns out to be the best one.
 
 1. **Reduce cycle time** Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/cycle-analytics/).
 1. **Work as part of the community** small iteration make it easier to work with the wider community. Their work looks more like our work and our work is quicker to give feedback too.
 1. **Minimum Viable Change (MVC)** always look to make the quickest change possible to improve the outcome. If you think it is better than what is there now do it, no need to wait for something polished.
 1. **Make a proposal** if you need to decide something as a team make a proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. The people that receive the proposal should not feel left out, the person making it should not feel bad if a completely different proposal is implemented. Don't let your ego to be involved early or to see your solution implemented stand in the way of getting to the best outcome.
 1. **Everything is in draft** at GitLab we rarely put draft on any content or proposals. Everything is always in draft an subject to change.
+1. **Under construction** as we get more users they will ask for stability, especially in our UX. We should always optimize for the long term. This means that users will be inconvenienced in the short term, but current and future users will enjoy a better product in the end.
 
 ## Results
 
@@ -57,6 +58,8 @@ Don't pick an interesting technology just to make your work more fun, using code
 1. **Short verbal answers** Give short answers to verbal questions so the other party has to opportunity to ask more or move on.
 1. **Short broadcasts short** And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
 1. **Managers of one** we want team members to be [a manager of one](https://signalvnoise.com/posts/1430-hire-managers-of-one) who doesn't need daily check-ins to achieve their goals.
+1. **Responsibility over rigidity** when possible we give people the responsibility to make a decision and hold them accountable for that instead of imposing rules and approval processes.
+1. **Accept mistakes** not every problem should lead to a new process to prevent them. Additional process make all actions more inefficient, a mistake only affects one.
 
 ## Collaboration
 
@@ -69,11 +72,15 @@ We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way.
 1. **Negative is 1-1** Give negative
 feedback in the smallest setting possible, one-on-one video calls are preferred.
+1. **Say thanks** recognize the people that helped you publicly, for example in our #thanks chat channel.
 1. **Feedback is always about the work** Clearly make negative feedback about the work itself, not the person. When giving
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
 1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
+1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchal decision making. Explain why you're making the decision and respect everyone irrespective of their function.
+1. **Say sorry** if you made a mistake apologize. Saying sorry is not a show of weakness but one of strength. The people that do the most will likely make the most mistakes.
+1. **No ego** don't
 
 ## Transparency
 
@@ -99,3 +106,29 @@ Our values help us to prevent the [five dysfunctions](https://en.wikipedia.org/w
 1. Lack of commitment (feigning buy-in for group decisions creates ambiguity throughout the organization) => prevented by transparency, specifically directness
 1. Avoidance of accountability (ducking the responsibility to call peers on counterproductive behavior which sets low standards) => prevented by results and transparency
 1. Inattention to results (focusing on personal success, status and ego before team success) => prevented by results
+
+## Why have values
+
+Our values should give guidelines on how to behave and must be actionable.
+They help us describe the type of behavior that we expect from people we hire.
+They help us to know how to behave in the organization and what to expect from others.
+Values are a framework for distributed decision making, they allow you to determine what to do without asking your manager.
+
+## How do we reinforce our values
+
+1. By what we do, especially what the leadership does.
+1. By what we select for during hiring.
+1. By what we emphasize during on-boarding.
+1. By what criteria we use for promotions and bonuses.
+1. By what criteria we use to fire people.
+
+## Permission to play
+
+From our values we excluded some behaviors that are obvious, we call them our permission to play behavior:
+
+- Be truthful and honest.
+- Be dependable, reliable, fair, and respectful.
+- Be committed, creative, inspiring, and passionate.
+- The deserving of the trust of our users and customers.
+- Act in the best interest of the company, our team members, our customers, users, and investors.
+- Act in accordance with the law.
