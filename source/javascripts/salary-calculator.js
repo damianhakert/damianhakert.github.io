@@ -70,7 +70,9 @@
       }
     });
 
-    validParams['salary'] = parseFloat($('.salary-container').data('salary'));
+    var defaultSalary = $('.salary-container').data('salary');
+
+    validParams['salary'] = parseFloat(defaultSalary);
 
     return Object.keys(validParams).length > 4 ? validParams : null;
   };
@@ -128,8 +130,6 @@
     function SalaryCalculator(params) {
       this.bindEvents();
 
-      // will check later is params are null to go to default behavior
-      // otherwise use inbound parsed params
       this.params = params;
 
       if (this.params) {
