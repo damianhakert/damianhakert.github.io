@@ -34,13 +34,18 @@
 
   var cityStateParser = function(validParams, params, param) {
     var cityState = params[param];
-    if (cityState.indexOf("_") >= 0) {
+
+    var complexCityState = function() {
       var state = ", " + cityState.split("_")[1];
       var city = cityState.split("_")[0];
       validParams[param] = city.split("-").join(" ") + state;
-    } else {
+    };
+
+    var simpleCityState = function() {
       validParams[param] = cityState.split("-").join(" ");
-    }
+    };
+
+    (cityState.indexOf("_") >= 0) ? complexCityState() : simpleCityState();
   };
 
   var paramsParser = function(params) {
