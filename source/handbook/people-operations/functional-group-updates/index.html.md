@@ -40,7 +40,7 @@ Week 1:
 
 Week 2:
 
-- Monday  Backend Douwe
+- Monday  Platform Douwe
 - Tuesday Infrastructure  Pablo
 - Wednesday   General Sid
 - Thursday    Finance Paul
