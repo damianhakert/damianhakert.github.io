@@ -2229,6 +2229,17 @@
   story:  |
           Joining March 6th
 
+- name: B.P.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
+  reports_to: Regional Sales Director - US
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 13th
+
 - name: P.A.
   locality:
   country:
