@@ -9,7 +9,7 @@ categories: release
 Today we're releasing version 8.16.7 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
-This version resolves a number of regressions and bugs in the [recent 8.16
+This version resolves a number of regressions and bugs in the [last month's 8.16
 release](/2017/01/22/gitlab-8-16-released).
 
 Please read on for more details.
@@ -29,7 +29,7 @@ Please read on for more details.
 
 ## Upgrade barometer
 
-This version does not include any migration.
+This version does not include any migrations and does not require downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
