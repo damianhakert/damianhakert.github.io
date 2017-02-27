@@ -7,11 +7,9 @@ image_title:
 description: "What we learned from our community vetting our proposal to leave the cloud."
 ---
 
-Towards the end of 2016 we [shared how challenging](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) it is to run CephFS in the cloud because of heavy IO strain on GitLab.com. We even made some bold statements like “How we knew it was time to leave the cloud and go bare metal”... but we were wrong about leaving the cloud (not about CephFS in the cloud). Read on to find out why we are not leaving the cloud – as usual it starts with great support from our amazing community. There is even a bold comment pitching we ditch x86 and move to PowerPC.
+Towards the end of 2016 we said we were [leaving the cloud for bare metal](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and shared our [hardware proposal](https://news.ycombinator.com/item?id=13153031). In December 2016, after receiving hundreds of comments and emails filled with advice and warnings, [Sid and the team decided](https://gitlab.com/gitlab-com/infrastructure/issues/727#note_20044060) to keep GitLab.com in the cloud. The rest of the post summarizes some of the great community support and feedback we received and ends with how we are commited to making GitLab.com fast and stable in the cloud. 
 
 <!-- more -->
-
-In October 2016 we were at OSCON London when the IOPS for GitLab.com went through the roof, as did the bill. When it rains, it pours, and the throttling brakes were slammed hard, bringing GitLab.com down. I remember the frustration of the team, and we [shared our desire to leave the cloud](https://news.ycombinator.com/item?id=12939856) and [our hardware proposal](https://news.ycombinator.com/item?id=13153031) with the community and got great feedback on all the messy details of managing your own infrastructure. In addition to the public feedback, we received hundreds of private tweets, emails and calls and would like to thank everyone who reached out to us and shared your thoughts and advice.
 
 ## Let's Begin on the Topic of Cost
 
