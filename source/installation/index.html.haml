@@ -52,7 +52,8 @@ extra_css:
         .method.upgrade
           %h2.block-title Update your GitLab instance
           %p
-            Latest Release: v8.16
+            Latest Release:
+            %span= "v#{current_version}"
           %p
             %a.btn.cta-btn.red{href: "/update"}
               View update options for CE & EE
