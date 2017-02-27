@@ -77,6 +77,35 @@ still need to filter by the label for your own team.
 
 If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
 
+## Getting data about GitLab.com
+
+GitLab.com is a very large instance of GitLab Enterprise Edition.
+It runs release candidates for new releases, and sees a lot of issues because of the amount of traffic it gets.
+There are several internal tools available for developers at GitLab to get data about what's happening in the production system:
+
+### Performance data
+
+- [performance.gitlab.net](https://performance.gitlab.net/) has detailed
+  performance data GitLab.com, including
+  [GitLab performance monitoring](https://docs.gitlab.com/ce/administration/monitoring/performance/introduction.html)
+  data
+  - [monitor.gitlab.net](http://monitor.gitlab.net/) has some of the same
+    dashboards available to the public
+- [GitLab profiler data](http://redash.gitlab.com/dashboard/gitlab-profiler-statistics)
+  is a dashboard with links to
+  [request profiles](https://docs.gitlab.com/ee/administration/monitoring/performance/request_profiling.html)
+  and SQL queries run when loading pages on GitLab.com
+  - To add a page to this dashboard, create a merge request to the
+    [gitlab-com/gitlab-profiler](https://gitlab.com/gitlab-com/gitlab-profiler)
+    project
+
+### Error reporting
+
+- [Sentry](https://sentry.gitlap.com/) is our error reporting tool
+- [log.gitlap.com](https://log.gitlap.com/) has production logs
+- [prometheus.gitlab.com](https://prometheus.gitlab.com/alerts) has alerts for
+  the [production team](/handbook/infrastructure/#production-team)
+
 ## Labelling issues
 
 To allow for asynchronous issue handling, we use milestones and labels.
