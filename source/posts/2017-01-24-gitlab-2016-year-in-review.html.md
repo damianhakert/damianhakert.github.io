@@ -174,7 +174,7 @@ GitLab 8.11 was probably the most exciting release of the year, bringing with it
 
 ### Issue Boards
 
-[Issue Boards](https://about.gitlab.com/solutions/issueboard/) are another way of tracking project issues. Similar to existing kanban board software, [issue boards integrate](https://docs.gitlab.com/ce/user/project/issue_board.html) with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
+[Issue Boards](https://about.gitlab.com/features/issueboard/) are another way of tracking project issues. Similar to existing kanban board software, [issue boards integrate](https://docs.gitlab.com/ce/user/project/issue_board.html) with the issues you already have in GitLab and organize themselves based on project labels. If you're already using labels to track progress on issues, issue boards shouldn't take more than a minute to set up.
 
 ![Issue Boards](/images/8_11/issue_boards.gif){:.shadow}
 
@@ -212,7 +212,7 @@ With the addition of [Slash Commands](https://docs.gitlab.com/ce/user/project/sl
 
 ### Cycle Analytics
 
-The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. Cycle Analytics is the last step of the [GitLab Workflow](/2016/10/25/gitlab-workflow-an-overview/).
+The headline feature of 8.12 was [Cycle Analytics](https://about.gitlab.com/features/cycle-analytics/), a new way of [tracking software development](https://docs.gitlab.com/ce/user/project/cycle_analytics.html) using the data GitLab gathers as you use it. Cycle Analytics is the last step of the [GitLab Workflow](/2016/10/25/gitlab-workflow-an-overview/).
 
 See [our feature highlight blog post](https://about.gitlab.com/2016/09/21/cycle-analytics-feature-highlight/) for more information.
 
@@ -296,5 +296,5 @@ What improvements do you want to see this year?
 
 <!-- Links -->
 
-[issue boards]: /solutions/issueboard/
-[cycle analytics]: /solutions/cycle-analytics/
+[issue boards]: /features/issueboard/
+[cycle analytics]: /features/cycle-analytics/

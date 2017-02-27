@@ -385,10 +385,10 @@ Questions? Feedback? Please leave a comment or tweet at us [@GitLab]! 🙌
 
 [@GitLab]: https://twitter.com/gitlab
 [add-todo]: /2016/06/22/gitlab-8-9-released/#manually-add-todos
-[board]: /solutions/issueboard
+[board]: /features/issueboard
 [bulk subscriptions]: https://about.gitlab.com/2016/07/22/gitlab-8-10-released/#bulk-subscribe-to-issues
 [ca-post]: /2016/09/21/cycle-analytics-feature-highlight/
-[ca]: /solutions/cycle-analytics/
+[ca]: /features/cycle-analytics/
 [ci-cd-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ci]: /gitlab-ci/
 [confid-issue]: /2016/03/31/feature-highlihght-confidential-issues/

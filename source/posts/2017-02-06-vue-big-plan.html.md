@@ -45,7 +45,7 @@ Examples of this are:
 
 1. The issue page (which shows an individual issue), has a lot of jQuery on it. We won't rewrite now, because it works well. We will rewrite small parts in Vue once we make certain features more real-time. We are currently making the title and description real time. 
 
-1. The [Issue Boards](https://about.gitlab.com/solutions/issueboard/), which [Phil](https://twitter.com/iamphill) wrote, was a perfect candidate for Vue. It was a brand new feature and had lots of reactive parts.
+1. The [Issue Boards](https://about.gitlab.com/features/issueboard/), which [Phil](https://twitter.com/iamphill) wrote, was a perfect candidate for Vue. It was a brand new feature and had lots of reactive parts.
 
 1. The current issue page loads all comments at once and adds lots of event listeners to the page. This page could benefit from Vue for performance reasons. We could make the comment section a Vue app and make the comments a component with the emoji picker as components as well, etc. While we're in there, we'll amp up the UX by allowing you to see the comment you linked to immediately without waiting. There are better ways to show massive amounts of comments so we have to potentially rethink that.
 

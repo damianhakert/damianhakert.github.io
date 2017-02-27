@@ -177,7 +177,7 @@ Cover image: screenshot of [About CodePen][about].
 <!-- identifiers -->
 
 [about]: http://codepen.io/about/
-[boards]: /solutions/issueboard/#step-6
+[boards]: /features/issueboard/#step-6
 [burndown]: https://gitlab.com/gitlab-org/gitlab-ee/issues/91
 [ce]: /products/ "GitLab Community Edition"
 [ci-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
@@ -187,7 +187,7 @@ Cover image: screenshot of [About CodePen][about].
 [ee]: /gitlab-ee/ "GitLab Enterprise Edition"
 [ff]: https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html
 [importer]: https://docs.gitlab.com/ce/workflow/importing/import_projects_from_github.html
-[Issue Boards]: /solutions/issueboard/
+[Issue Boards]: /features/issueboard/
 [jase smith]: http://codepen.io/jasesmith/
 [pen]: http://codepen.io/jasesmith/pen/GqaVrx
 [pipes]: https://docs.gitlab.com/ce/ci/pipelines.html

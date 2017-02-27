@@ -193,7 +193,7 @@ great features in GitLab 8.11. [Register here][webcast].
 [cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975
 [direction]: https://about.gitlab.com/direction/
 [doc]: http://docs.gitlab.com/ce/user/project/issue_board.html
-[GitLab Issue Board]: /solutions/issueboard/
+[GitLab Issue Board]: /features/issueboard/
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
 [mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/

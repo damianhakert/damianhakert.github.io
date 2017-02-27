@@ -116,7 +116,7 @@ Register for an event near you:
 [condev]: /2016/09/14/gitlab-live-event-recap/#convdev
 [container]: /2016/05/23/gitlab-container-registry/
 [cycle]: /2016/09/21/cycle-analytics-feature-highlight/
-[GitLab Issue Board]: /solutions/issueboard/
+[GitLab Issue Board]: /features/issueboard/
 [gitlab-vision]: /direction/#vision
 [issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
 [issue]: /2016/03/03/start-with-an-issue/

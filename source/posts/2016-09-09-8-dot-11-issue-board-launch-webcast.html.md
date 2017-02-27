@@ -116,7 +116,7 @@ VP of Product, [Ashley Smith][ashley], Chief Marketing Officer, and guest MC Com
 [container]: /2016/05/23/gitlab-container-registry/
 [cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975
 [event-page]: https://Page.gitlab.com/20160913_UnveilingMasterPlan_landingpage.html
-[GitLab Issue Board]: /solutions/issueboard/
+[GitLab Issue Board]: /features/issueboard/
 [gitlab-vision]: /direction/#vision
 [issue-board-launch]: /2016/08/22/announcing-the-gitlab-issue-board/
 [issue]: /2016/03/03/start-with-an-issue/

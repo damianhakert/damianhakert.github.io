@@ -9,7 +9,7 @@ description: "See how GitLab's Cycle Analytics can help measure your team's velo
 date: 2016-09-21 10:00
 ---
 
-On September 22nd, we will release [GitLab 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/) with [Cycle Analytics](/solutions/cycle-analytics/). Cycle Analytics tells you how long
+On September 22nd, we will release [GitLab 8.12](https://about.gitlab.com/2016/09/22/gitlab-8-12-released/) with [Cycle Analytics](/features/cycle-analytics/). Cycle Analytics tells you how long
 it takes your team to go [from idea to production][idea-production] on each of their projects.
 
 Few teams can answer how long
@@ -90,7 +90,7 @@ We recognize that every team does not follow the same flow. And while GitLab is 
 
 ## Getting Started
 
-On September 22nd, [Cycle Analytics](/solutions/cycle-analytics/) will be available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products. All you have to do is navigate to your Project’s **Pipelines** tab and then select **Cycle Analytics** to see your project's dashboard.
+On September 22nd, [Cycle Analytics](/features/cycle-analytics/) will be available in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Getting started is the same in all three products. All you have to do is navigate to your Project’s **Pipelines** tab and then select **Cycle Analytics** to see your project's dashboard.
 
 Keep in mind that if you're working in a new project and you haven't deployed anything to production then you won't see any data on your Cycle Analytics dashboard.
 

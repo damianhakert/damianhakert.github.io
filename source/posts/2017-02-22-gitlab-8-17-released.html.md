@@ -88,7 +88,7 @@ To remove an issue from your board, select it to bring up the sidebar, and hit
 
 Take a look at the [Issue Board documentation][board-doc] to learn more.
 
-[board]: /solutions/issueboard/
+[board]: /features/issueboard/
 [board-doc]: https://docs.gitlab.com/ce/user/project/issue_board.html
 
 ![Remove issue from board in GitLab 8.17](/images/8_17/board_remove.png){: .shadow}

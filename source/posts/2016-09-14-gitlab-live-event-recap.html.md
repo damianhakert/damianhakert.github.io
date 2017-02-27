@@ -236,7 +236,7 @@ As always, if you have any questions feel free to comment on this post or [tweet
 [GitLab Pages]: https://pages.gitlab.io/
 [gitlab-scope]: /direction/#scope
 [gitlab-twitter]: https://twitter.com/gitlab
-[Issue Board]: https://about.gitlab.com/solutions/issueboard/
+[Issue Board]: https://about.gitlab.com/features/issueboard/
 [job-twitter]: https://twitter.com/Jobvo
 [jono-twitter]: https://twitter.com/jonobacon
 [releases]: /blog/categories/release/

@@ -89,7 +89,7 @@ GitLab has always shipped a new version on the
   [MrTrustor's Shiny Blog: Gitlab's Master Plan](http://blog.mrtrustor.net/post/gitlab-grand-master-plan/)
 
 Iterations is so important to us that we built
-[Cycle Analytics](https://about.gitlab.com/solutions/cycle-analytics/) to
+[Cycle Analytics](https://about.gitlab.com/features/cycle-analytics/) to
 allow anyone to measure how long it takes them to get from [Idea to Production](https://www.youtube.com/watch?v=t_rB1oQdG98),
 with GitLab its a matter of minutes!
 
