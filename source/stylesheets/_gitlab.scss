@@ -52,9 +52,15 @@
 
 .panel-gitlab {
   @include panel-variant($color-gray-light, $color-white, $color-primary-alt, $color-primary-alt);
+  border: 0;
 
   .panel-heading {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 300;
+  }
+
+  .panel-body {
+    border: 1px solid $landing-organization-color;
+    border-top: 0;
   }
 }

@@ -23,20 +23,25 @@ extra_css:
     Issue tracking, wikis, continues integration (CI/CD) and much, much more.
   %ul.list-unstyled.row.gitlab-com-features-list
     %li.col-md-4
+      = icon("unlimited-icon", "", width: 32, height: 32)
       %strong.features-list-title
         Unlimited repositories
     %li.col-md-4
+      = icon("unlimited-icon", "", width: 32, height: 32)
       %strong.features-list-title
         Unlimited collaborators
     %li.col-md-4
+      = icon("disk-space-icon", "", width: 32, height: 32)
       %strong.features-list-title
         10GB disk space per project
       %span.features-list-sub-title
         (with LFS support)
     %li.col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-2
+      = icon("no-install-icon", "", width: 32, height: 32)
       %strong.features-list-title
         No installation required
     %li.col-md-5.col-lg-4
+      = icon("import-icon", "", width: 32, height: 32)
       %strong.features-list-title
         Easy import from your current provider
   .row
@@ -72,9 +77,9 @@ extra_css:
         = partial "includes/question-group", locals: { group: group }
 %section.page-container.gitlab-com-stratergy.gitlab-com-purple-section
   .container
-    %h3.text-center.gitlab-com-stratergy-title.light
+    %h3.text-center.gitlab-com-stratergy-title
       Our stratergy moving forward
-    %p.gitlab-com-stratergy-opening-text.light
+    %p.gitlab-com-stratergy-opening-text
       Our stratergy is to make GitLab.com the most popular SaaS solution for private and public
       repositories. To achieve this goal you get unlimited public and private projects, and there
       is no limit to the number of collaborators on a project. And we plan to keep unlimited repositories

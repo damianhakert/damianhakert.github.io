@@ -66,15 +66,14 @@
 
 .gitlab-com-features {
   h2 {
-    margin-top: 0;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     color: $color-primary;
   }
 
   h3 {
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     font-size: 18px;
     font-weight: 300;
     color: $color-gray-light;
@@ -83,51 +82,64 @@
 
 .gitlab-com-features-list {
   li {
-    margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: $color-secondary-alt;
   }
 }
 
 .features-list-title {
-  font-size: 18px;
+  margin-left: 30px;
+  font-size: 20px;
   color: $color-primary;
 }
 
 .features-list-sub-title {
   display: block;
+  margin-left: 30px;
   font-size: 16px;
   font-weight: 300;
   color: $color-primary;
 }
 
 .pricing-panel-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: $color-primary-alt;
 
   p {
+    margin-bottom: 30px;
     font-size: 18px;
   }
 }
 
 .pricing-panel-price {
   margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 45px;
+  margin-bottom: 20px;
+  font-size: 46px;
   font-weight: 600;
+  line-height: 40px;
   text-transform: uppercase;
 }
 
 .pricing-panel-price-side {
   display: inline-block;
   width: 55px;
-  font-size: 16px;
+  font-size: 22px;
   text-align: left;
+  line-height: 18px;
+  text-transform: lowercase;
 }
 
 .gitlab-com-questions {
   h2 {
-    margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     font-size: 40px;
     color: $color-primary;
   }
@@ -137,14 +149,15 @@
   background-color: $color-primary;
 
   h3 {
-    margin-top: 0;
     margin-bottom: 20px;
+    font-size: 28px;
   }
 
   p {
     color: $color-white;
 
     &.gitlab-com-stratergy-plan-text {
+      margin-bottom: 60px;
       font-size: 16px;
       color: rgba($color-white, .8);
     }
@@ -156,16 +169,16 @@
 }
 
 .gitlab-com-stratergy-title-future {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .gitlab-com-stratergy-opening-text {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   font-size: 18px;
 }
 
 .gitlab-com-stratergy-plans {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .gitlab-right-fit {
@@ -175,13 +188,14 @@
   h2 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 46px;
     color: $color-primary;
   }
 
   h3 {
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
     font-weight: 200;
     color: $color-gray-light;
   }
@@ -191,8 +205,7 @@
   margin-bottom: -45px;
 
   h4 {
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     font-size: 22px;
     color: $color-primary;
   }
