@@ -180,7 +180,7 @@ Questions are:
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
 An example message would be "We are still reviewing applications, but our goal is to let you know in 3 business days from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
 
-## Interviewing
+## Conducting a GitLab interview
 
 Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
 both will have to make the decision if you want to work with this person.
@@ -205,7 +205,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
 1. Always let the interviewee ask questions at the end, and be frank in your answers.
 
-#### Technical interviews
+#### Technical considerations
 
 1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
 1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pick up Ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack. Note that individual positions may have stricter requirements; the Backend Developer position [requires Ruby experience](/jobs/developer/#ruby-experience), for example.
@@ -213,11 +213,11 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 ### Behavioral questions (STAR)
 
-The goal of these questions is to get the candidate to share something they did in the past. Previous behavior is considered the best way to predict how a person is going to act in the future.
+The goal of these questions is to get the candidate to share data on past experiences. Previous behavior is considered the best way to predict how a person is going to act in the future.
 
 They usually start with the form "Can you tell me about a time when...". The kind of answer that we are looking for is to get a story that is structured following the Situation, Task, Action, Result.
 
-There is no right answer, what matters here is to hear the candidate and gather data on how is it telling the story.
+There is no right answer, what matters here is to hear the candidate and gather data on how it is telling the story.
 
 Some things to pay attention to:
 
@@ -225,7 +225,7 @@ Some things to pay attention to:
 * What is it highlighting as important? Did it matter?
 * Is it clearly explained? Is the story well told? If it is a technical story and the interviewer is a non-technical person, are things being explained in a way that make sense?
 * If you ask "why?" will you get an actual explanation?
-* Is the Task and the Action clear? Is it well reasoned?
+* Are the "Task" and the "Action" clear? Are they well reasoned?
 * Is there a result or was the story left unfinished? Is it still going on?
 * Was the result measured in any way? How does the candidate know that the result matches the expectation? Was there an expectation?
 
