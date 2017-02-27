@@ -31,8 +31,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 1. Every now and then, individual GitLabbers really shine as they go above and beyond their regular responsibilities and tasks.
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
-   * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
-   should be tied to your performance.
+   * On team call, the manager announces the “who” and “why” of the bonus with the "why" directly tied to exceptional performance results.
    * The manager should send a brief email that explains the bonus (same as the team call blurb) and states the amount to People Ops and our Controller who will [process](/handbook/people-ops/#using-trinet) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
    * * For values based bonuses please see [Tinggly](https://about.gitlab.com/handbook/incentives/#tinggly)
 1. If you think you are meeting the requirements for another title, want to change
