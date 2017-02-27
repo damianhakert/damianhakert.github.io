@@ -230,9 +230,5 @@ according to the [scheduling timeline](https://about.gitlab.com/handbook/product
 
 ### Process improvement
 
-There is an informal scheduling process improvement meeting that discusses the process outlined above.
-The purpose of the meeting is to improve the process itself, and not to do any actual prioritizing or scheduling.
-The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
-
-- [Scheduling process improvement agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
-- Slack channel: `#scheduling`
+There is an informal scheduling process discussion in the #scheduling Slack channel.
+Anyone can join and suggest improvements to our scheduling process.
