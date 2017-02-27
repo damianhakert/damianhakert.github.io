@@ -80,5 +80,5 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [docs-adminpages]: http://doc.gitlab.com/ee/pages/administration.html
 [quickstart]: https://pages.gitlab.io
 [group]: https://gitlab.com/groups/pages
-[ci]: https://about.gitlab.com/gitlab-ci/
+[ci]: https://about.gitlab.com/features/gitlab-ci/
 [staticgen]: https://www.staticgen.com/

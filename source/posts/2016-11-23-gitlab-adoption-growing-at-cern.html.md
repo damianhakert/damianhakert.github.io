@@ -15,7 +15,7 @@ CERN, the European Organization for Nuclear Research, is the world's largest par
 
 Key projects include the software frameworks and libraries for the experiments conducted at CERN. Some of them are hosted on CERN's GitLab instance.
 Public projects in this category include for instance [Gaudi](https://gitlab.cern.ch/gaudi/Gaudi) an open project for providing the necessary interfaces and services for building HEP experiment frameworks.
-They are also using GitLab more and more for [Continuous Integration](https://about.gitlab.com/gitlab-ci/) tasks.
+They are also using GitLab more and more for [Continuous Integration](https://about.gitlab.com/features/gitlab-ci/) tasks.
 
 ### Why Did CERN Choose GitLab?
 

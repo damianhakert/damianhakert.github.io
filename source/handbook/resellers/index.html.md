@@ -275,7 +275,7 @@ Here is also a list of resources that you may find useful to include on your lan
 - [What is GitLab](https://about.gitlab.com)
 - [What is GitLab EE](https://about.gitlab.com/features/#enterprise)
 - [CE vs EE comparison](https://about.gitlab.com/products/#compare-options)
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- [GitLab CI](https://about.gitlab.com/features/gitlab-ci/)
 - [GitLab Geo](https://about.gitlab.com/features/gitlab-geo/)
 - [Pricing](https://about.gitlab.com/products/)
 - [GitLab Blog](https://about.gitlab.com/blog/)

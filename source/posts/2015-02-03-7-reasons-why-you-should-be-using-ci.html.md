@@ -65,7 +65,7 @@ it takes to review a merge request.
 
 # GitLab CI
 
-Of course if you are in the market for a CI server, we kindly encourage you to use [GitLab CI](https://about.gitlab.com/gitlab-ci/),
+Of course if you are in the market for a CI server, we kindly encourage you to use [GitLab CI](https://about.gitlab.com/features/gitlab-ci/),
 especially because it includes all features we mentioned here and more!
 
 Want to give it a try right now? Grab a [runner package](https://gitlab.com/gitlab-org/omnibus-gitlab-runner/blob/master/doc/install/README.md)

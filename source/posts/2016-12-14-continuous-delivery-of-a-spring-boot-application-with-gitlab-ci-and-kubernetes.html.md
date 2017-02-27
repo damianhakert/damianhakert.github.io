@@ -14,7 +14,7 @@ Recently, I literally fell in love with [GitLab](https://gitlab.com/)! It offers
 
 <!-- more -->
 
-In this tutorial, we will create a [Spring Boot](https://projects.spring.io/spring-boot/) application built, tested, and deployed with [GitLab CI](https://about.gitlab.com/gitlab-ci/) on a [Kubernetes](http://kubernetes.io/) cluster. Spring Boot is the leading [microservice chassis](http://microservices.io/patterns/microservice-chassis.html) for Java. It allows a developer to build a production-grade stand-alone application, like a typical [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) application exposing a [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer), with minimal configuration, reducing the learning curve required for using the [Spring Framework](https://spring.io/) drastically. Kubernetes is an open-source container orchestrator inspired by [Google Borg](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf) that schedules, scales and manages containerized applications.
+In this tutorial, we will create a [Spring Boot](https://projects.spring.io/spring-boot/) application built, tested, and deployed with [GitLab CI](https://about.gitlab.com/features/gitlab-ci/) on a [Kubernetes](http://kubernetes.io/) cluster. Spring Boot is the leading [microservice chassis](http://microservices.io/patterns/microservice-chassis.html) for Java. It allows a developer to build a production-grade stand-alone application, like a typical [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) application exposing a [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer), with minimal configuration, reducing the learning curve required for using the [Spring Framework](https://spring.io/) drastically. Kubernetes is an open-source container orchestrator inspired by [Google Borg](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf) that schedules, scales and manages containerized applications.
 
 
 ## Create a GitLab project
@@ -158,7 +158,7 @@ git push origin master
 
 ### Creating the GitLab CI pipeline
 
-In order to make use of [GitLab CI](https://about.gitlab.com/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) configuration file to the root directory of our repository. This file is used by [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
+In order to make use of [GitLab CI](https://about.gitlab.com/features/gitlab-ci/) we need to add the [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) configuration file to the root directory of our repository. This file is used by [GitLab Runners](https://docs.gitlab.com/ee/ci/runners/README.html) to manage our project's builds and deployments. Therein we can define an unlimited number of [Jobs](https://docs.gitlab.com/ce/ci/yaml/#jobs) and their role in the whole build lifecycle.
 
 ```yml
 image: docker:latest
@@ -418,7 +418,7 @@ Environments are listed on a separate page, from which it is possible to redeplo
 
 ## Conclusion
 
-In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production-grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. [GitLab CI](https://about.gitlab.com/gitlab-ci/) was the core engine of our pipeline. Its declarative [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file allowed us to define, version and manage our pipelines while the GUI gave us full visibility and control.
+In this tutorial, we were able to create a [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) pipeline with ease thanks to the suite of [GitLab](https://about.gitlab.com/) products that supported us at every stage. [Spring Boot](https://projects.spring.io/spring-boot/) gave us agility by auto-configuring the application context and offering production-grade services out of the box. [Kubernetes](http://kubernetes.io/) abstracted us from the compute resources and orchestration duties allowing us to define only the desired deployment state. [GitLab CI](https://about.gitlab.com/features/gitlab-ci/) was the core engine of our pipeline. Its declarative [`.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/) file allowed us to define, version and manage our pipelines while the GUI gave us full visibility and control.
 
 While this is a basic example, it clearly shows the immense benefits any team or company can gain by using the unified GUI of GitLab for issues, code review, CI and CD.
 

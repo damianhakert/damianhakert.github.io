@@ -67,7 +67,7 @@ engage with their students.
 <!-- identifiers -->
 
 [ci-cd]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
-[gitlab-ci]: https://about.gitlab.com/gitlab-ci/
+[gitlab-ci]: https://about.gitlab.com/features/gitlab-ci/
 [gitlab-com]: https://gitlab.com/
 [oohlala]: https://oohlalamobile.com/
 [oohlala-jobs]: https://oohlalamobile.com/jobs/

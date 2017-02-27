@@ -213,7 +213,7 @@ best path towards building great things _and_ great teams.
 [8]: http://workingcopyapp.com/manual.html#cloning-repos
 [9]: https://textexpander.com/
 [Git]: https://git-scm.com/
-[ci]: https://about.gitlab.com/gitlab-ci/
+[ci]: https://about.gitlab.com/features/gitlab-ci/
 [cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [templates]: https://gitlab.com/groups/pages
 [gitlabrunner]: http://doc.gitlab.com/ee/ci/quick_start/README.html#shared-runners

@@ -21,7 +21,7 @@ Community Edition and Enterprise Edition users.
 ## Eliminating Scaling Challenges with DigitalOcean
 
 At GitLab, we have a new release every month on the 22nd, so we respect the importance of
-agile development and timely testing. That is why we [built Continuous Integration](https://about.gitlab.com/gitlab-ci/) directly into
+agile development and timely testing. That is why we [built Continuous Integration](https://about.gitlab.com/features/gitlab-ci/) directly into
 our platform. Our continuous integration allows you to run a number of tests as you prepare to
 deploy your software. Naturally, we are heavy users of our own software. We run about 16 tests
 in parallel. While the benefits of testing are undeniable, we realized that running several

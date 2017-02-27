@@ -180,7 +180,7 @@ The final icing on the cake is that your whole team is notified about the new re
 
 I'm sure you noticed that we went directly from a code push to production. This demonstrates all the heavy lifting, and may be suitable for QA or staging workflows, but for anything going out to production we almost certainly want to run some tests too.
 
-This is possible to set up with a few changes. [GitLab CI](https://about.gitlab.com/gitlab-ci/) is an excellent tool and service for automating tests. 
+This is possible to set up with a few changes. [GitLab CI](https://about.gitlab.com/features/gitlab-ci/) is an excellent tool and service for automating tests. 
 
 You can tell GitLab to deploy to Convox by setting `CONVOX_PASSWORD` as a User-defined variable, then adding a `.gitlab-ci.yml` file similar to:
 

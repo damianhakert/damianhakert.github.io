@@ -89,7 +89,7 @@ _[Captain Train][cap], the European train ticketing company, makes buying train 
 [cap-post]: https://blog.captaintrain.com/12703-building-on-gitlab-ci
 [Jenkins]: https://jenkins.io/
 [GitLab]: https://about.gitlab.com
-[GitLab CI]: https://about.gitlab.com/gitlab-ci/
+[GitLab CI]: https://about.gitlab.com/features/gitlab-ci/
 [CI examples]: http://docs.gitlab.com/ce/ci/quick_start/README.html
 [merge]: /images/blogimages/cross-post-gitlab-ci/merge-when-build-succeeds.png
 [pipelines]:/images/blogimages/cross-post-gitlab-ci/pipelines.png

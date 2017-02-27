@@ -116,7 +116,7 @@ they discuss their process, the big challenges they face and how they look to so
 <!-- identifiers -->
 
 [bare-metal-post]: https://about.gitlab.com/2016/11/10/why-choose-bare-metal/
-[ci-post]: https://about.gitlab.com/gitlab-ci/
+[ci-post]: https://about.gitlab.com/features/gitlab-ci/
 [gitlab-8-14]: /2016/11/22/gitlab-8-14-released/
 [gitlab-flow]: https://docs.gitlab.com/ce/university/training/topics/gitlab_flow.html
 [8-14-webcast]: https://page.gitlab.com/20161124_ReviewAppsWebcast_LandingPage.html

@@ -24,7 +24,7 @@ cat file1.txt file2.txt | grep -q "Hello world"
 
 The problem is that there are ten developers in the team, and, you know, human factors can hit hard.
 
-A week ago, a new guy forgot to run the script and three clients got broken builds. So you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
+A week ago, a new guy forgot to run the script and three clients got broken builds. So you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/features/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
 
 ## Run our first test inside CI
 

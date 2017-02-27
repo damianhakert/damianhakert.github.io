@@ -187,7 +187,7 @@ great features in GitLab 8.11. [Register here][webcast].
 [about-gitlab-com]: htpps://about.gitlab.com/
 [cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues
-[ci]: https://about.gitlab.com/gitlab-ci/
+[ci]: https://about.gitlab.com/features/gitlab-ci/
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
 [container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
 [cycle]: https://gitlab.com/gitlab-org/gitlab-ce/issues/20975

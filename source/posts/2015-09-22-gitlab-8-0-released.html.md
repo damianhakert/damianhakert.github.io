@@ -20,7 +20,7 @@ and [more](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-op
 Today, GitLab's next major version is here. We're very excited that GitLab 8.0 allows for a faster,
 more beautiful way for people to create, review and deploy code together.
 
-GitLab now comes with continuous integration ([GitLab CI](https://about.gitlab.com/gitlab-ci/))
+GitLab now comes with continuous integration ([GitLab CI](https://about.gitlab.com/features/gitlab-ci/))
 fully integrated.
 But that's not all! Almost every element in the interface has been reworked
 and GitLab will take up to 50% less disk space.

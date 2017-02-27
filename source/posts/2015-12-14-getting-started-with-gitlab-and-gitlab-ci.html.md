@@ -143,7 +143,7 @@ Subscribe to our newsletter which includes links to our latest blog posts.
 [ci-fowler]: http://www.martinfowler.com/articles/continuousIntegration.html
 [ci-first-post]: https://about.gitlab.com/2012/11/13/continuous-integration-server-from-gitlab/
 [8-post]: https://about.gitlab.com/2015/09/22/gitlab-8-0-released/
-[ci-page]: https://about.gitlab.com/gitlab-ci
+[ci-page]: https://about.gitlab.com/features/gitlab-ci
 [issue-3423]: https://gitlab.com/gitlab-org/gitlab-ce/issues/3423
 [issue-3299]: https://gitlab.com/gitlab-org/gitlab-ce/issues/3299
 [issue-3743]: https://gitlab.com/gitlab-org/gitlab-ce/issues/3743

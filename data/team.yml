@@ -155,7 +155,7 @@
   gitlab: ayufan
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> backend</li>
-              <li>Maintainer of <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a></li>
+              <li>Maintainer of <a href="https://about.gitlab.com/features/gitlab-ci/">GitLab CI</a></li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
               <li><a href="/jobs/expert/">Expert</a> on: Docker, LFS, Gitlab Runner, Jenkins</li>
   story:  |
@@ -386,7 +386,7 @@
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
-  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
+  specialty: <a href="https://about.gitlab.com/features/gitlab-ci/">GitLab CI</a>
   maintains:  |
                 <li>Backend merge request reviewer</li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-qa/">GitLab QA</a></li>
@@ -474,7 +474,7 @@
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
-  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
+  specialty: <a href="https://about.gitlab.com/features/gitlab-ci/">GitLab CI</a>
   maintains:  |
               <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a></li>
@@ -969,7 +969,7 @@
   picture: jen-shin.jpg
   twitter: godfat
   gitlab: godfat
-  specialty: <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
+  specialty: <a href="https://about.gitlab.com/features/gitlab-ci/">GitLab CI</a>
   maintains:  |
               <li>Merge request <a href="/jobs/merge-request-coach/">coach</a></li>
               <li>Backend merge request reviewer</li>

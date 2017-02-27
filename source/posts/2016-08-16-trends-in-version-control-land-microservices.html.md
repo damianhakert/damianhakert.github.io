@@ -54,7 +54,7 @@ deploy independently of the others. Teams can operate independently. Since large
 ## GitLab and microservices
 
 A major goal for us at GitLab is to make sure you can do everything you need to do within GitLab, with as few external integrations to deal
-with as possible. This way, you don’t have to set up [CI/CD](https://about.gitlab.com/gitlab-ci/), and an issue tracker for each project and spend the time integrating them, they're all already pre-configured to use from one single UI.
+with as possible. This way, you don’t have to set up [CI/CD](https://about.gitlab.com/features/gitlab-ci/), and an issue tracker for each project and spend the time integrating them, they're all already pre-configured to use from one single UI.
 You can [move issues](https://about.gitlab.com/2016/04/20/feature-highlight-move-issues/) between the projects of the different services and aggregate them with [group level milestones](http://docs.gitlab.com/ee/workflow/milestones.html).
 To ensure the the right people have access to each project you can use [LDAP group sync](https://about.gitlab.com/2014/07/10/feature-highlight-ldap-sync/) and the ability to invite teams from other projects.
 

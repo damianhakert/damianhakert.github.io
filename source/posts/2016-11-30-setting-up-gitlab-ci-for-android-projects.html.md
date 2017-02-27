@@ -13,7 +13,7 @@ Have you ever accidentally checked in a typo that broke your Android build or un
 
 <!-- more -->
 
-[GitLab CI](https://about.gitlab.com/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to set up a basic config file (`.gitlab-ci.yml`) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
+[GitLab CI](https://about.gitlab.com/features/gitlab-ci/) is a wonderful [Continuous Integration](https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/) built-in solution, and in this post we'll walk through how to set up a basic config file (`.gitlab-ci.yml`) to ensure your Android app compiles and passes unit and functional tests. We assume that you know the process of creating an Android app, can write and run tests locally, and are familiar with the basics of the GitLab UI.
 
 ## Our sample project
 

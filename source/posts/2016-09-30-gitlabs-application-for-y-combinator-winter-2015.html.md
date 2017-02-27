@@ -74,7 +74,7 @@ The Netherlands, Ukraine (with employees in San Francisco), we don't know yet wh
 **Please tell us about an interesting project, preferably outside of class or work, that two or more of you created together. Include urls if possible.** 
 {: .panel-heading}
 <div class="panel-body">
-We created GitLab together (<https://about.gitlab.com/gitlab-ce/>) and now over 100.000 organizations are using it. We also created GitLab CI and GitLab CI Runner together <https://about.gitlab.com/gitlab-ci/>. This pair of programs allow organizations to distribute their code testing over a number of workers.
+We created GitLab together (<https://about.gitlab.com/gitlab-ce/>) and now over 100.000 organizations are using it. We also created GitLab CI and GitLab CI Runner together <https://about.gitlab.com/features/gitlab-ci/>. This pair of programs allow organizations to distribute their code testing over a number of workers.
 </div>
 </div>
 

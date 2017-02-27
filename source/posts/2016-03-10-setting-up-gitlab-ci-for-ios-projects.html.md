@@ -22,7 +22,7 @@ quality code. By automatically running a suite of tests every time a commit is
 pushed, everyone can see the results of changes to the codebase, and take action 
 to make integration faster and easier.
 
-GitLab [comes with CI built-in](https://about.gitlab.com/gitlab-ci/) for all 
+GitLab [comes with CI built-in](https://about.gitlab.com/features/gitlab-ci/) for all 
 projects, for free.
 
 It's beyond the scope of this tutorial to go into details on best practices, 

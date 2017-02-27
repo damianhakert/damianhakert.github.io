@@ -65,7 +65,7 @@ We can cover them in our live webcast.
 
 See you there!
 
-[benefits]: https://about.gitlab.com/gitlab-ci/
+[benefits]: https://about.gitlab.com/features/gitlab-ci/
 [blog-ios]: https://about.gitlab.com/2016/03/10/setting-up-gitlab-ci-for-ios-projects/
 [blog-runner]: https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/
 [ci-docs]: http://doc.gitlab.com/ce/ci/
