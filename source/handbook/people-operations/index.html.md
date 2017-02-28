@@ -18,10 +18,11 @@ title: "People Operations"
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
-- [People Operations Standard Operating Procedures (SOPs)](/handbook/people-operations/sop/)
+- [People Operations System Processes](/handbook/people-operations/system-processes/)
 - [Functional Group Updates](/handbook/people-operations/functional-group-updates)
 - [OKRs and LatticeHQ](/handbook/people-operations/okr/)
 - [Leadership](/handbook/leadership/)
+- [Visas](/handbook/people-operations/visas)
 
 ## On this page
 {:.no_toc}
@@ -72,7 +73,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
    - All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations. In principal, payments go out once per week on Fridays.
    - An invoice template can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
-1. To process any changes, see the directions on the [people-operations page](/handbook/people-operations/sop/#processing-changes).
+1. To process any changes, see the directions on the [system processes page](/handbook/people-operations/system-processes/#processing-changes).
 
 ## Policies
 
@@ -124,7 +125,7 @@ To promote one of your direct reports, a manager should follow the following ste
 - Manager must obtain agreement from their own manager(s), all the way through the chain of command to the CEO.
 - Promotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator. Don't send the promotion-proposal to the CEO until this part is included.
 - Once written agreement is reached on the promotion and changes (if any) in compensation, the manager informs the individual.
-- Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/sop/#processing-changes) in relevant administrative systems.
+- Once the individual has been informed, the manager informs People Operations with the promotion notice (i.e. reasons and related title and comp changes). People Operations [processes the changes](/handbook/people-operations/system-processes/#processing-changes) in relevant administrative systems.
 - Promotions are then announced by the manager on the team call; where the manager describes how the individual met the promotion criteria and includes a link to the merge request where the individuals title is updated on the team page.
 - If some amount of onboarding in the new role, or offboarding from the old role is required (for example a change in access levels to infrastructure systems; switch in groups and email aliases, etc.) make an associated issue on the [GitLab Organization issue tracker](https://gitlab.com/gitlab-com/organization/) to list and track progress on those topics.
 
@@ -137,7 +138,7 @@ To demote one of your direct reports, a manager should follow the following step
 - Proposed changes to a current job description or a new job description should be delivered with request for approval by the second level manager and the People Ops Business Partner.
 - Demotions should also include a review of [compensation](handbook/people-operations/global-compensation-calculator) and [stock options](handbook/stock-options/#stock-option-grant-levels). Managers should feel free to consult with People Operations on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once written agreement is reached on the demotion and changes (if any) in compensation, send the agreement to the CEO for final approval.
-- Once approved, the manager informs the individual. Please cc People Ops once the individual has been informed, to [processes the changes](/handbook/people-operations/sop/#processing-changes) in the relevant administrative systems.
+- Once approved, the manager informs the individual. Please cc People Ops once the individual has been informed, to [processes the changes](/handbook/people-operations/system-processes/#processing-changes) in the relevant administrative systems.
 - Changes in title are announced on the team call.
 - The manager will initiate any necessary onboarding or offboarding.
 
@@ -265,7 +266,7 @@ If resignation is the only solution after you have discussed your concerns, then
 1. Upon receipt of the resignation, the manager will notify People Ops by sending a copy of the resignation letter.
 1. After People Operations is made aware of the upcoming resignation and has an opportunity to discuss the circumstances with the manager and team member, an announcement can be made on a team call by the team member or their manager.
 1. People Ops will send an email with the following information to the team member:
-  * [Process](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for returning all company property.
+  * [Process](https://about.gitlab.com/handbook/offboarding/offboarding-processes/#returning-property) for returning all company property.
   * A review of the team member's post-termination benefits status, if applicable.
   * An exit interview. The exit interview provides team members with the opportunity to freely express views about working at GitLab. All comments from the exit interview will be kept confidential. People Ops will compile data from exit interviews to determine if feedback to the head of the employee’s department or other members of management is necessary.
 
@@ -273,7 +274,7 @@ If resignation is the only solution after you have discussed your concerns, then
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
-When an employee is absent from work for six consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact his or her supervisor, they can be terminated for job abandonment. 
+When an employee is absent from work for six consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact his or her supervisor, they can be terminated for job abandonment.
 
 #### Overall process
 
