@@ -295,10 +295,10 @@ See the entry on asset tracking on the [People Ops page](https://about.gitlab.co
 
 ## Spend reduction
 
-When reducing spend we'll not take the easy route of (temporarily) reducing discretionary spending.
-Discretionary spending is the cost for travel, conferences, gifts, bonuses, merit pay increases, and summits.
-By doing this we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
-Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals
-But we should not cut it as a reaction to the need to reduce spend, that would create a mediocre company with mediocre team members.
-Instead of should do the hard work of identifying positions and costs that are not contributing to our goals.
-Even if that means more disruption in the short term it will ensure we stay a great place to work for the people that are here.
+When reducing spend, we'll not take the easy route of (temporarily) reducing discretionary spending.
+Discretionary spending includes expenses like travel, conferences, gifts, bonuses, merit pay increases and summits.
+By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
+Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals.
+But we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
+Instead, we should do the hard work of identifying positions and costs that are not contributing to our goals.
+Even if this causes a bit more disruption in the short term, it will help us ensure we stay a great place to work for the people who are here.
