@@ -101,7 +101,7 @@ Please read our primer as preparation for this meeting: https://about.gitlab.com
 (Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
-By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically.
+By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically. Make sure to remove the Hangout link first and then use the Zoom extention.
 
 <br>
 * Meetings at the office:
@@ -136,6 +136,8 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 {: #travel}
 
 EA does research for the best option for a flight and propose this to the CEO before booking.
+Make sure to add a calendar item for 2 hours before take off for check in and add a separate one for travel time before that in the CEO's calendar
+If a flight was changed or not taken due to delays or other circumstances, make sure to check with the airline for the persons flight status
 Current preferences for flights are:
 * Aisle seat
 * Check a bag for all trips longer than one night
