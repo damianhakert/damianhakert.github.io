@@ -9,7 +9,7 @@ title: "Finance"
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/finance/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel in Slack for questions that don't seem appropriate for the issue tracker or internal email correspondence.
 - Accounts Payable; inquiries which relate to vendor, merchant, and contractor invoices should be sent to our Accounts Payable mailbox - ap@gitlab.com. Of course, electronic copies of all invoices should be sent to this address upon receipt.
-- Accounts Receivable; customer billing inquiries should be sent to our Accounts Receivable mailbox – ar@gitlab.com. 
+- Accounts Receivable; customer billing inquiries should be sent to our Accounts Receivable mailbox – ar@gitlab.com.
 
 ## Other pages
 
@@ -51,10 +51,10 @@ If you need this information but cannot find it in your shared vaults, check wit
 The finance and accounting tech stack includes the following applications:
 
 - NetSuite; The company Enterprise Resource Planning (ERP) system. The application is cloud based and allows enhanced dimensional reporting as well as multi-currency/multi-entity reporting. This is where the General Ledger resides and all financial activity is ultimately recorded, which is critical to reporting the financial health of the company.
-- Zuora; Customer billing is processed using Zuora, a cloud based subscription management platform. All invoicing, both recurring and non-recurring, is managed in Zuora. 
+- Zuora; Customer billing is processed using Zuora, a cloud based subscription management platform. All invoicing, both recurring and non-recurring, is managed in Zuora.
 - Stripe; Stripe is a software application that enables GitLab customers to make online payments. Finance uses this system to collect information pertaining to payments made online.
 - Expensify; The company travel and expense management application. The platform provides employees a simple tool to create expense reports, which can then be managed from approval workflow through the final stage of reimbursement. Expensify is integrated with NetSuite, which further automates the processing of employee expenses by the Finance team.
-- eShares; Stock option administration, capitalization table and equity management are all managed using the eShares software platform. 
+- eShares; Stock option administration, capitalization table and equity management are all managed using the eShares software platform.
 
 ## Processing Payroll
 <a name="payroll"></a>
@@ -141,19 +141,19 @@ Invoices will arrive by email to ap@gitlab.com.
 
 1. On the home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
 1. Select the appropriate vendor record. If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3.
-    * Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)    
+    * Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
     * Enter the banking information in the "Comments" field then click “Save.”
     * Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
-1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved. 
+1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
 1. Enter Bill number.
-1. Go to the "Expense and Items" tab below to enter the expense details. 
+1. Go to the "Expense and Items" tab below to enter the expense details.
 1. Select appropriate GL-account under the "Account" dropdown box. (Be sure to check whether the invoice represents a prepaid expense, fixed asset, etc.)
 1. Enter Bill amount.
-1. Select tax code, if applicable. 
+1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.  
-1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice) 
+1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
+1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
 1. Click "Save.”
 1. In Google Drive, file invoice in the “Unpaid” folder.
 
@@ -292,3 +292,13 @@ In Netsuite:
 ### Asset Tracking
 
 See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)
+
+## Spend reduction
+
+When reducing spend we'll not take the easy route of (temporarily) reducing discretionary spending.
+Discretionary spending is the cost for travel, conferences, gifts, bonuses, merit pay increases, and summits.
+By doing this we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
+Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals
+But we should not cut it as a reaction to the need to reduce spend, that would create a mediocre company with mediocre team members.
+Instead of should do the hard work of identifying positions and costs that are not contributing to our goals.
+Even if that means more disruption in the short term it will ensure we stay a great place to work for the people that are here.
