@@ -3,34 +3,38 @@ layout: markdown_page
 title: "GitLab Values"
 ---
 
-## DIRECT
+## CREDIT
 
-Our six values are Diversity, Iteration, Results, Efficiency, Collaboration, and Transparency (DIRECT).
-We are a diverse group of people that use iteration to get results.
-Results enables us to do everything else and we use our resources efficiently to achieve them.
-We value collaboration and are transparent both inside and outside the company.
+Our six values are Collaboration, Results, Efficiency, Diversity, Iteration, and Transparency (CREDIT).
+We are kind and collaborate to get results.
+Results enable us to do everything else.
+We get results efficiently, without wasting anyones time.
+We celebrate the diversity in our group.
+We are transparent and direct both inside and outside the company.
+Together these values spell the credit we give each other.
+Below each of the values is made actionable.
 
-## Diversity
+## Collaboration
 
-The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
+help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
 
-1. **Don't bring religion or politics to work** We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party.
-1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
-Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most of our time talking about what we did in our private lives, from fire-throwing to
-knitting. Open source is a great way to interact with interesting
-people. We try to hire people who think work is a great way to express themselves.
-
-## Iteration
-
-We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people underestimate when they join GitLab, the impact both on your work process and on how much you achieve is greater than anticipated. In the beginning it hurts to make decisions fast and to see that things are changed with less consultation. But frequently the simplest version turns out to be the best one.
-
-1. **Reduce cycle time** Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/cycle-analytics/).
-1. **Work as part of the community** small iteration make it easier to work with the wider community. Their work looks more like our work and our work is quicker to give feedback too.
-1. **Minimum Viable Change (MVC)** always look to make the quickest change possible to improve the outcome. If you think it is better than what is there now do it, no need to wait for something polished.
-1. **Make a proposal** if you need to decide something as a team make a proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. The people that receive the proposal should not feel left out, the person making it should not feel bad if a completely different proposal is implemented. Don't let your ego to be involved early or to see your solution implemented stand in the way of getting to the best outcome.
-1. **Everything is in draft** at GitLab we rarely put draft on any content or proposals. Everything is always in draft an subject to change.
-1. **Under construction** as we get more users they will ask for stability, especially in our UX. We should always optimize for the long term. This means that users will be inconvenienced in the short term, but current and future users will enjoy a better product in the end.
+1. **Kindness** We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
+Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/#Principle-100).
+We're all for accurate assessment but we think it must be done in a kind way.
+Give as much positive feedback as you can and do it in a public way.
+1. **Negative is 1-1** Give negative
+feedback in the smallest setting possible, one-on-one video calls are preferred.
+1. **Say thanks** recognize the people that helped you publicly, for example in our #thanks chat channel.
+1. **Feedback is always about the work** Clearly make negative feedback about the work itself, not the person. When giving
+feedback always provide at least one clear and recent example. If a person is
+going through a hard time in their personal life, then take that into account. An example of
+giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
+1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
+1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchical decision making process. Explain why you're making the decision and respect everyone irrespective of their function.
+1. **Say sorry** if you made a mistake apologize. Saying sorry is not a sign of weakness but one of strength. The people that do the most will likely make the most mistakes.
+1. **No ego** don't defend a point to win an argument or double-down on a mistake. You are not your work, you don't have to defend your point, you have to search for the right answer together.
+1. **See others succeed** an applicant that talked to a lot of people inside GitLab mentioned that compared to other companies one thing stood out the most. Everyone at GitLab mentioned wanting to see each other succeed.
 
 ## Results
 
@@ -62,27 +66,27 @@ Don't pick an interesting technology just to make your work more fun, using code
 1. **Responsibility over rigidity** when possible we give people the responsibility to make a decision and hold them accountable for that instead of imposing rules and approval processes.
 1. **Accept mistakes** not every problem should lead to a new process to prevent them. Additional process make all actions more inefficient, a mistake only affects one.
 
-## Collaboration
+## Diversity
 
-Helping others is a priority, even when it is not related to the goals that you are trying to achieve. You are expected to ask others for
-help and advice. Anyone can chime in on any subject, including people who don't work at GitLab. The person who has to do the work decides how to do it but you should always take the suggestions seriously and try to respond and explain.
+The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 
-1. **Kindness** We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
-Some companies say [Evaluate People Accurately, Not "Kindly"](https://www.principles.com/#Principle-100).
-We're all for accurate assessment but we think it must be done in a kind way.
-Give as much positive feedback as you can and do it in a public way.
-1. **Negative is 1-1** Give negative
-feedback in the smallest setting possible, one-on-one video calls are preferred.
-1. **Say thanks** recognize the people that helped you publicly, for example in our #thanks chat channel.
-1. **Feedback is always about the work** Clearly make negative feedback about the work itself, not the person. When giving
-feedback always provide at least one clear and recent example. If a person is
-going through a hard time in their personal life, then take that into account. An example of
-giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
-1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
-1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchical decision making process. Explain why you're making the decision and respect everyone irrespective of their function.
-1. **Say sorry** if you made a mistake apologize. Saying sorry is not a sign of weakness but one of strength. The people that do the most will likely make the most mistakes.
-1. **No ego** don't defend a point to win an argument or double-down on a mistake. You are not your work, you don't have to defend your point, you have to search for the right answer together.
-1. **See others succeed** an applicant that talked to a lot of people inside GitLab mentioned that compared to other companies one thing stood out the most. Everyone at GitLab mentioned wanting to see each other succeed.
+1. **Don't bring religion or politics to work** We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party.
+1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
+Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
+is our [team call](https://about.gitlab.com/handbook/communication/#team-call) where we spend most of our time talking about what we did in our private lives, from fire-throwing to
+knitting. Open source is a great way to interact with interesting
+people. We try to hire people who think work is a great way to express themselves.
+
+## Iteration
+
+We do the [smallest thing possible and get it out as quickly as possible](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/). If you make suggestions that can be excluded from the first iteration turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people underestimate when they join GitLab, the impact both on your work process and on how much you achieve is greater than anticipated. In the beginning it hurts to make decisions fast and to see that things are changed with less consultation. But frequently the simplest version turns out to be the best one.
+
+1. **Reduce cycle time** Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/cycle-analytics/).
+1. **Work as part of the community** small iteration make it easier to work with the wider community. Their work looks more like our work and our work is quicker to give feedback too.
+1. **Minimum Viable Change (MVC)** always look to make the quickest change possible to improve the outcome. If you think it is better than what is there now do it, no need to wait for something polished.
+1. **Make a proposal** if you need to decide something as a team make a proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. The people that receive the proposal should not feel left out, the person making it should not feel bad if a completely different proposal is implemented. Don't let your ego to be involved early or to see your solution implemented stand in the way of getting to the best outcome.
+1. **Everything is in draft** at GitLab we rarely put draft on any content or proposals. Everything is always in draft an subject to change.
+1. **Under construction** as we get more users they will ask for stability, especially in our UX. We should always optimize for the long term. This means that users will be inconvenienced in the short term, but current and future users will enjoy a better product in the end.
 
 ## Transparency
 
