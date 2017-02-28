@@ -9,6 +9,21 @@ title: "Customer success"
 - [How to engage a Customer Success Engineer](engaging/)
 - [Account Expansion Template](account-expansion/)
 
+## Customer Segmentation
+Customer Success segments the market based on IT or TEDD employees
+
+Strategic: 5000+ employees
+Large: 750 - 4999 employees
+Mid Market: 100 - 749 employees
+SMB: less than 100 employees
+
+Customer Success has two roles assigned to account coverage - Success Engineer (SE) and Account Manager
+
+Strategic: Sr. Account Eexecutive closed deal and stays on accout for growth and renewal.  Success Engineer is assigned pre sales and stays on the account to help with adoption and growth.
+Large: Sr. Account Eexecutive closed deal and stays on accout for growth and renewal.  Success Engineer is assigned pre sales and stays on the account to help with adoption and growth
+Mid-market: Account Executive closes deal and transfers to Account Manager to handle renewals and growth.
+SMB: Web Portal with Sales Admin oversight
+
 ## Customer On-boarding Checklist
 
 1.	**Welcome!** — Welcome the customer aboard GitLab, introduce yourself and your purpose within the company and how you will support them throughout the relationship with the business and what they can expect from you. Provide the introduction to support and how to obtain support "For enterprise, Enterprise Edition receives next business day support via e-mail. Please submit your support request through the [support web form](https://gitlab.zendesk.com/hc/en-us/requests/new).
