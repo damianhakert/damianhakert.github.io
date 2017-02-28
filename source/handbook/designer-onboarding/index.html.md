@@ -29,6 +29,10 @@ You're welcome to join as many Slack channels as you'd like, but these will help
 - Working-On - See what others are doing, and share what you plan to accomplish today.
 - Git-Help - A little rusty or a complete newbie when it comes to git? Ask here and it's likely more than one of our amazing colleagues will help you out.
 
+## Slack Do Not Disturb Hours
+
+Slack now supports "Do Not Disturb Hours" so you won't be pinged in the middle of the night or while you are dealing with family matters. You can set your Do Not Disturb Hours by clicking on the bell at the top of the left pane in the Slack app. You also have the option of snoozing for 20 minutes or up to 24 hours. Note: Do Not Disturb can be overridden in the event of an emergency. See Slack documentation for more information. 
+
 ## Handbooks
 
 As you may already know, at GitLab we work in the open, and a large part of that is documenting our process and company culture. Read the **entire** handbook as time allows, it's a really great resource. However, in the meantime, you might find these sections of the handbook particularly useful in getting started:
