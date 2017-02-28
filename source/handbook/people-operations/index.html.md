@@ -47,7 +47,11 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. We will provide most recent title, dates of employment, and salary information. We will also verify, but not provide National Identification Numbers. People Ops will send you the letter once it is completed. In addition, if the request comes from a third party, People Ops will always verify that the information is appropriate to share. If you are a US Employee you can follow these [instructions](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPYlZ4RWNpaFZHRU1UYjJJdmxXaUlFLTJ0OXhB/view?usp=sharing) for an automated verification through TriNet.
 
-GitLabbers are not authorized by the company to speak on its behalf to complete reference requests for GitLabbers no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. To reinforce this fact, personal references should never be on company letterhead and telephone references should never be on company time.
+GitLabbers are not authorized by the company to speak on its behalf to complete reference requests for team members no longer working for GitLab. If a team member would like to give a personal reference based on their experience with the former team member, it must be preceded by a statement that the reference is not speaking on behalf of the company. For example, the reference should not be on company letterhead.
+
+You do not need to ask permission to give a personal reference, but please ensure that you are always truthful. If the majority of the reference is negative, instead refuse to provide one. Negative references can result in legal action in some jurisdictions.
+
+If an ex team member acted in a malicious way against GitLab we'll do a company wide announcement on the team call not to provide a reference.
 
 ## Office addresses
 {: #addresses}
@@ -273,7 +277,7 @@ If resignation is the only solution after you have discussed your concerns, then
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
-When an employee is absent from work for six consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact his or her supervisor, they can be terminated for job abandonment. 
+When an employee is absent from work for six consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact his or her supervisor, they can be terminated for job abandonment.
 
 #### Overall process
 
