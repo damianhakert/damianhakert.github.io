@@ -1,4 +1,6 @@
 @import "variables";
+$purple-section-gradient-from: #654CA7;
+$purple-section-gradient-to: #3C257B;
 
 .heading-container {
   padding-top: 40px;
@@ -38,7 +40,7 @@
   overflow: hidden;
 
   &::after {
-    background-image: linear-gradient(to left, $color-primary, $color-primary-alt 100%);
+    background-image: linear-gradient(to right, $purple-section-gradient-from, $purple-section-gradient-to 100%);
     position: absolute;
     content: "";
     top: 0;
@@ -90,7 +92,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    fill: $color-secondary-alt;
+    fill: $color-secondary;
   }
 }
 
