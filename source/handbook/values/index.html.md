@@ -81,6 +81,7 @@ giving positive feedback is our [thanks chat channel](https://about.gitlab.com/h
 1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchal decision making. Explain why you're making the decision and respect everyone irrespective of their function.
 1. **Say sorry** if you made a mistake apologize. Saying sorry is not a show of weakness but one of strength. The people that do the most will likely make the most mistakes.
 1. **No ego** don't defend a point to win an argument or double-down on a mistake. You are not your work, you don't have to defend your point, you have to search for the right answer together.
+1. **See others succeed** an applicant that talked to a lot of people inside GitLab mentioned that compared to other companies one thing stood out the most. Everyone at GitLab mentioned wanting to see each other succeed.
 
 ## Transparency
 
