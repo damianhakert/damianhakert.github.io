@@ -2208,16 +2208,21 @@
   story:  |
           Joining March 1st
 
-- name: B.V.
-  locality:
-  country:
+- name: Bob Van Landuyt
+  locality: Mechelen, Antwerp
+  country: Belgium
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: bob.png
+  twitter: bobvlanduyt
+  gitlab: reprazent
   story:  |
-          Joining March 6th
+          Bob has a keen eye for the good stuff. He's always on the lookout for software that looks nice and gets out of the way.
+          He started tinkering on his SE/30 and never stopped.
+          Since 2009 he has been developing web apps and backends in Ruby on Rails that match his own expectations.
+          Preferably on a mech keyboard that sounds as beautiful as it looks.
+          He listens only to the best of books and reads the greatest music (or vice versa) while roaming between Belgium and Poland.
+          Firm believer in the standing desk, having a beard and learning by living.
 
 - name: P.A.
   locality:
