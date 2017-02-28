@@ -66,6 +66,13 @@ We have two sales positions focused on selling into these markets.
 2. Account Executive for Mid Market Accounts
 3. SMB is our transactional business, managed by the Business Development Team and processed through our web portal.
 
+Expected quota for each sales segment is:
+1. Sr. Account Executive - Strategic Accounts is $1.5M incremental annual contract value (ACV)
+2. Sr. Account Executive - Large Accounts is $1M incremental ACV
+3. Account Executive - Mid Market Accounts is $700,000 incremental ACV
+
+Quotas may be adjusted based on geographic region.
+
 ### GitLab Version Check
 
 Before prospecting and engaging with a prospect, check to see if they are using CE. To do this, use GitLab Version Check. Everything about [GitLab Version Check](/handbook/sales-process/version_check).
