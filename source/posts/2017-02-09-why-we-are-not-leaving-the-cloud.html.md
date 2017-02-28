@@ -85,13 +85,6 @@ It makes sense to keep GitLab.com as an eat-your-own-dog-food-at-scale environme
 
 > We had disastrous experiences with Ceph and Gluster on bare metal. I think this says more about the immaturity (and difficulty) of distributed file systems than the cloud per se. *__[codinghorror - Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12940042)__*
 
-<div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this... " videos – mritun
-</div>
-
-> From CephFS website: *"Important: CephFS currently lacks a robust ‘fsck’ check and repair function. Please use caution when storing important data as the disaster recovery tools are still under development. For more information about using CephFS today, see CephFS for early adopters."*
-I'm getting the same feeling I get when I'm watching those "Hold my beer and watch this... " videos. *[mritun - Hacker News: Proposed server purchase](https://news.ycombinator.com/item?id=13153658)*
-
 > You need to make sure that there is not an architecture that you can build that absolves you of having to run a CephFS cluster. CephFS is cool, but it is a single point of failure right now, and comes with a ton of caveats. Performance and stability will be much improved if you remove the layer of abstraction it creates and write your app to handle some sort of distributed storage system. *[Nicholas - GitLab blog: Proposed server purchase](https://about.gitlab.com/2016/12/11/proposed-server-purchase-for-gitlab-com/#comment-3047478761)*
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
