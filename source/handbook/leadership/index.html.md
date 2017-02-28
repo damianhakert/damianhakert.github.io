@@ -49,6 +49,7 @@ title: "Leadership"
 1. [Our summits](https://about.gitlab.com/culture/summits) are meant for informal communication and bonding across the company. There is a limited time for business activities during the summit so all our regular meetings should happen outside of the summit. We want informal, cross team, open-ended meetings, that includes individual contributors. For example, inviting everyone including sales to suggest currently missing functionality in GitLab. Formal, team restricted, structured meetings, where not everyone is welcome shouldn't happen. For example, an executive team meeting to set the yearly budget. Never delay a decision until the summit, if anything use the summit as a deadline to get things done earlier.
 1. At GitLab, decision making is based on an informed and knowledgeable hierarchy. Not on consensus or democracy. Voting on material decisions shows a lack of informed leadership.
 1. We don't have explicit 20% time at GitLab. We measure results and not hours. If people are getting good results in the work that is assigned to them they are free to contribute to other parts of the company or work on a pet project. Don't say 'your work on the pet project is hurting your performance' but say 'we agreed to getting X done but it is delayed, what happened and how can I help?'.
+1. Do not discuss raises in advance because the salary calculator may change before the amount of the raise is decided.
 
 ## 1:1 Information
 
