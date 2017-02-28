@@ -39,6 +39,7 @@ We do what we promised to each other, customers, users, and investors.
 1. **Measure results not hours** We care about what you achieve; the code you shipped, the user you made happy, and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead, celebrate the achievements of
 yourself and your teammates. You don't have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules.
+1. **Write promises down** agree in writing on measurable goals. Within the company we use [OKRs](https://about.gitlab.com/handbook/people-operations/okr/) for that, you can see our [public OKR goal tree](https://gitlab.latticehq.com/public/goals).
 
 ## Efficiency
 
@@ -96,7 +97,7 @@ There are exceptions, material that is not public by default is documented in th
 1. **Directness** is about being transparent with each other. We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Anyone and anything can be questioned** Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed.
-1. **Disagree and commit** we [disagree and commit](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+1. **Disagree and commit** everything can the questioned but as long as a decision is in place we expect people to commit to executing it, which is [a common principle](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
 
 ## Five dysfunctions
 
@@ -130,6 +131,6 @@ From our values we excluded some behaviors that are obvious, we call them our pe
 - Be truthful and honest.
 - Be dependable, reliable, fair, and respectful.
 - Be committed, creative, inspiring, and passionate.
-- The deserving of the trust of our users and customers.
+- Be deserving of the trust of our users and customers.
 - Act in the best interest of the company, our team members, our customers, users, and investors.
 - Act in accordance with the law.
