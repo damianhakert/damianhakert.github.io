@@ -22,7 +22,7 @@ DevOps means working together and keeping each other in the loop throughout the 
 
 ### 1. Decentralize Your Structure
 
-With microservices and APIs, developers were able to decentralize the code base and work on different elements within a project separately, without needing to rebuild and deploy the entire app each time they wanted to integrate new code. Continuous Integration takes the next step by giving developers immediate feedback that code for a bug fix or new feature has broken the build, but that benefit is negated if they have to wait around for permission to make changes addressing any issues they run into.
+Continuous Integration gives developers immediate feedback that code for a bug fix or new feature has broken the build, and using Git they can discuss and collaborate on solutions. These benefits are negated if they have to wait around for permission to make changes addressing any issues they run into.
 
 Releases are delayed by teams waiting for approval from up top to implement solutions. If they hit a roadblock, teams that are empowered to make their own decisions about how to address it can implement fixes more quickly, reducing the impact on your delivery rates. This is not just true for your developers: teams in other areas of the business can work more efficiently if they’re entrusted with their own troubleshooting.
 
