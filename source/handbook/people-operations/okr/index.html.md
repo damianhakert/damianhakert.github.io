@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "OKRs and LatticeHQ"
+title: "OKRs"
 ---
 
 
