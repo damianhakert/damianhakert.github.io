@@ -34,7 +34,7 @@ We do the [smallest thing possible and get it out as quickly as possible](https:
 
 ## Results
 
-We do what we promised to each-other, customers, users, and investors.
+We do what we promised to each other, customers, users, and investors.
 
 1. **Measure results not hours** We care about what you achieve; the code you shipped, the user you made happy, and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead, celebrate the achievements of
@@ -53,10 +53,10 @@ Don't pick an interesting technology just to make your work more fun, using code
 1. **Be respectful of other's time** Consider the time investment you are asking others to make with meetings and a permission process. Try to avoid meetings and if one is needed make attendance optional by making the invite optional, by having a clear agenda linked from the invite, and by documenting the outcome. Instead of having people ask permission trust their judgment and offer a consultation process if they have questions.
 1. **Spend company money like it's your own** every dollar we spend will have to be earned back, be as frugal with company money as you are with your own.
 1. **Freedom** You should have clear objectives and the freedom to work on them as you see fit.
-1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
+1. **Frugality** [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
 1. **ConvDev** we work according to the principles of [conversational development](http://conversationaldevelopment.com/).
-1. **Short verbal answers** Give short answers to verbal questions so the other party has to opportunity to ask more or move on.
-1. **Short broadcasts short** And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
+1. **Short verbal answers** Give short answers to verbal questions so the other party has the opportunity to ask more or move on.
+1. **Keep broadcasts short** And keep 1 to many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise.".
 1. **Managers of one** we want team members to be [a manager of one](https://signalvnoise.com/posts/1430-hire-managers-of-one) who doesn't need daily check-ins to achieve their goals.
 1. **Responsibility over rigidity** when possible we give people the responsibility to make a decision and hold them accountable for that instead of imposing rules and approval processes.
 1. **Accept mistakes** not every problem should lead to a new process to prevent them. Additional process make all actions more inefficient, a mistake only affects one.
@@ -78,8 +78,8 @@ feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/communication/#internal-communication).
 1. **Get to know each other** we use a lot of text based communication and if you know the person behind the text it will be easier to prevent conflicts. So encourage people to get to know each other on a personal level through our [team calls](https://about.gitlab.com/handbook/communication/#team-call), [virtual coffee breaks](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls), and during our [summit](https://about.gitlab.com/culture/summits/).
-1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchal decision making. Explain why you're making the decision and respect everyone irrespective of their function.
-1. **Say sorry** if you made a mistake apologize. Saying sorry is not a show of weakness but one of strength. The people that do the most will likely make the most mistakes.
+1. **Don't pull rank** if you have to remind someone of the position you have in the company you're doing something wrong, people already know we have a hierarchical decision making process. Explain why you're making the decision and respect everyone irrespective of their function.
+1. **Say sorry** if you made a mistake apologize. Saying sorry is not a sign of weakness but one of strength. The people that do the most will likely make the most mistakes.
 1. **No ego** don't defend a point to win an argument or double-down on a mistake. You are not your work, you don't have to defend your point, you have to search for the right answer together.
 1. **See others succeed** an applicant that talked to a lot of people inside GitLab mentioned that compared to other companies one thing stood out the most. Everyone at GitLab mentioned wanting to see each other succeed.
 
@@ -93,7 +93,7 @@ and processes with the world in the spirit of open source, which we believe crea
 There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines). On a personal level, you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say "What’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 
 1. **Public by default** everything at GitLab is public by default.
-1. **Directness** is about being transparent with each-other. We try to channel our inner Ben Horowitz by being [both straightforward
+1. **Directness** is about being transparent with each other. We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Anyone and anything can be questioned** Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed.
 1. **Disagree and commit** we [disagree and commit](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
