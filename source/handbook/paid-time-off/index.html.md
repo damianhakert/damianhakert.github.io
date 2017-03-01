@@ -51,5 +51,5 @@ Encourage your co-workers to take time out when you become aware that they are w
     * Employees must take 20 holiday days. Any used days will be carried into the next calendar year, but expire after six months. All days will be posted upon start.
 1. GitLab BV (Belgium Employees) TODO
 1. GitLab INC (US Employees)
-    * There is no minimum vacation allowance for employees in the US.
+    * The U.S. [Fair Labor Standards Act (FLSA)](https://www.dol.gov/general/topic/workhours/vacation_leave) does not require payment for time not worked, such as vacations, sick leave or federal or other holidays.
 1. GitLab Inc. (China) TODO
