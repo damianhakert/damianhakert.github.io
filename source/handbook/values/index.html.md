@@ -126,7 +126,7 @@ Values are a framework for distributed decision making, they allow you to determ
 1. By what we select for during hiring.
 1. By what we emphasize during on-boarding.
 1. By what criteria we use for promotions and bonuses.
-1. By what criteria we use to fire people.
+1. By what criteria we use to let people go.
 
 ## Permission to play
 
