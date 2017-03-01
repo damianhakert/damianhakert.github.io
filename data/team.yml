@@ -1789,7 +1789,7 @@
 - name: Sasha Bannister
   locality: Indianapolis, IN
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/global-recruiter/">Global Recruiter</a>
+  role: <a href="https://about.gitlab.com/jobs/recruiter/">Recruiter</a>
   reports_to: Senior Director of People Operations
   picture: SashaPic.jpg
   twitter: SashaFrisbee
@@ -2197,7 +2197,7 @@
           John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.
 
 - name: Adam Mulvany
-  locality: Melbourne 
+  locality: Melbourne
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
