@@ -189,6 +189,12 @@
   apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
+- title: "Senior Product Marketing Manager"
+  description: /jobs/senior-product-marketing-manager/
+  salary:
+  apply: https://gitlab.workable.com/jobs/440284/candidates/new
+  open: true
+
 - title: "Production Engineer"
   description: /jobs/production-engineer/
   salary: 110295
