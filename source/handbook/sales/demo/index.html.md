@@ -315,11 +315,10 @@ Let's edit the server.rb file.
 
 Now we’ve saved the changes, let's restart the server.
 
-> * killall ruby
+> * `killall ruby`
 
 And now we can view the web page live to see how we like the changes.
 
-> * Go back *TODO: [Add environment URL link to terminal page](https://gitlab.com/gitlab-org/gitlab-ce/issues/27336)*
 > * Click external URL link on top right (2nd from right)
 
 ## Commit (Repo)
