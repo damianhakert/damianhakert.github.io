@@ -1,0 +1,71 @@
+---
+layout: false
+---
+%html
+  %head
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" }
+    %link{ rel: "stylesheet", href: "../../stylesheets/styles.css" }
+    %link{ rel: "stylesheet", href: "../../stylesheets/compared.css" }
+    %link{ rel: "stylesheet", href: "../../stylesheets/compare-pdf.css" }
+  %body
+    %header
+      .inner-header-content.clearfix
+        .pull-left
+          %h1= comparison_block.title
+          %h2
+            GitLab compared to other tools
+        .pull-right
+          = partial "includes/logos/wm_web.svg"
+    .comparison-container.full-post
+      .top-content
+        :markdown
+          ## GitLab is the next-generation development toolset that covers 100% of your software development lifecycle.
+
+          GitLab unifies chat, issues, code review, CI, CD, and cycle analytics into a single UI.
+          Unlike other source code management tools that only support a portion of your development lifecycle,
+          GitLab delivers a unified experience for every step of the development lifecycle providing the most efficient approach to software delivery.
+          So no matter what line of business you're in, GitLab gives you the edge to compete, innovate, and win.
+      .blog-entry.clearfix
+        .comparison-page-content.comparison-table.clearfix
+          %table.compare-table.comparing-gitlab
+            %colgroup
+              %col{:width => "80%"}
+              %col{:width => "10%"}
+              %col{:width => "10%"}
+            %tbody.header.first
+              %tr
+                %td.text-left.table-title
+                  FEATURES
+                %td.text-center
+                  - if (comparison_block.competitor_one.logo != "null")
+                    = partial "../..#{comparison_block.competitor_one.logo}"
+                  - else
+                    = comparison_block.competitor_one.name
+                %td.text-center.table-title-logo
+                  - if (comparison_block.competitor_two.logo != "null")
+                    = partial "../..#{comparison_block.competitor_two.logo}"
+                  - else
+                    = comparison_block.competitor_two.name
+              - comparison_block.features.each do |feature|
+                %tr
+                  %td.feature-in-list
+                    %p.feature-in-list-title
+                      %strong= feature.title
+                    %p
+                      = feature.description
+                    %p
+                      = link_to feature.link_description, feature.link
+                  %td.check-container.text-center
+                    - if (feature.competitor_one == "sortof")
+                      = partial "includes/icons/comparison/maybe-icon.svg"
+                    - if (feature.competitor_one == true)
+                      = partial "includes/icons/comparison/yes-icon.svg"
+                    - if (feature.competitor_one == false)
+                      = partial "includes/icons/comparison/no-icon.svg"
+                  %td.check-container.text-center
+                    - if (feature.competitor_two == "sortof")
+                      = partial "includes/icons/comparison/maybe-icon.svg"
+                    - if (feature.competitor_two == true)
+                      = partial "includes/icons/comparison/yes-icon.svg"
+                    - if (feature.competitor_two == false)
+                      = partial "includes/icons/comparison/no-icon.svg"

@@ -31,7 +31,7 @@ Developers can specialize immediately after joining, or after some time, when th
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ### Ruby experience
@@ -57,9 +57,9 @@ We frequently hire people from the community who have shown through contribution
 they have the skills that we are looking for, even if they didn’t have much previous experience
 with those technologies, and we would gladly review those contributions.
 
-### Junior Developers
+## Junior Developers
 
-Junior Developers share the same responsibilities outlined above, but typically
+Junior Developers share the same requirements outlined above, but typically
 join with less or alternate experience in one of the key areas of Developer
 expertise (Ruby on Rails, Git, reviewing code). For example,
 a person with extensive experience in a web framework other than RoR, but with experience
@@ -67,7 +67,7 @@ on the other areas would typically join as a Junior.
 
 ## Senior Developers
 
-Senior Developers are experienced developers who meet the following criteria:
+Senior Developers are experienced developers who meet the following requirements:
 
 1. Technical Skills
     * Are able to write modular, well-tested, and maintainable code
@@ -128,26 +128,9 @@ example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
-
-## Hiring Process
-
-Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
-
-
-* Part of the application process is to provide links to some code. Some candidates want to share code privately, so if they do, we send them an email with our GitLab.com / GitHub / Bitbucket usernames and also invite them to email code to us.
-* If the code looks good, we ask the candidate to answer two questions about web applications. One is fairly Rails-specific, to do with the MVC pattern, concerns, and services; the other is about the stages a web request goes through when someone gets the GitLab CE repo on GitLab.com.
-* Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
-* Next, candidates will be invited to schedule a first 15 minute soft-skills interview with a Discussion/ Platform Lead
-* Candidates will then be invited to schedule a technical interview with the Platform/ Discussion Lead
-* Candidates will be invited to schedule a third one hour interview with our VP of Engineering
-* Finally, candidates will have a 50 minute interview with our CEO
-* Successful candidates will subsequently be made an offer via email
-
-
-Additional details about our process can be found on our [hiring page](/handbook/hiring).

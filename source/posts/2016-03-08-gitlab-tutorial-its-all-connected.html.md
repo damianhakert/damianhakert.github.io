@@ -154,7 +154,7 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [group-milestones]: https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.6
 [our monthly release issue]: http://doc.gitlab.com/ee/release/monthly.html#create-an-overall-issue-and-follow-it
 [create-project]: http://doc.gitlab.com/ce/gitlab-basics/create-project.html#how-to-create-a-project-in-gitlab
-[ssot]: https://about.gitlab.com/handbook/#gitlab-workflow
+[ssot]: https://about.gitlab.com/handbook/communication/#gitlab-workflow
 [start-issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [webcast]: http://page.gitlab.com/mar-2016-gitlab-introduction.html
 [glf-commit]: http://doc.gitlab.com/ee/workflow/gitlab_flow.html#committing-often-and-with-the-right-message

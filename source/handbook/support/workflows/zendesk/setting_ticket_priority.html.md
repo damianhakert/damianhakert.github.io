@@ -14,7 +14,7 @@ category: Zendesk
 
 ## Setting Ticket Priority
 
-Manually setting a ticket's priority in Zendesk will change the overall ticket [SLA](https://about.gitlab.com/handbook/support/#sla), for first and next time reply. This allows support to more effectively prioritise the active ticket queue.
+Manually setting a ticket's priority in Zendesk will change the overall ticket [SLA](https://about.gitlab.com/handbook/support/#sla), for first and next time reply. This allows support to more effectively prioritize the active ticket queue.
 
 ### Prioritisation to SLA (non-premium customers)
 
@@ -25,9 +25,9 @@ Manually setting a ticket's priority in Zendesk will change the overall ticket [
 | High     |  8 hours                                |
 | Urgent   |  4 hours                                |
 
-### Prioritisation Guidelines
+### Prioritization Guidelines
 
-Tickets should be prioritised based on the guidelines below. The priority can change at any stage in the tickets lifecycle.
+Tickets should be prioritized based on the guidelines below. The priority can change at any stage in the tickets lifecycle.
 
 #### Low
 

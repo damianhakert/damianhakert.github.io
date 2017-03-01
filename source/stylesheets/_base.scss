@@ -107,6 +107,30 @@ iframe[name='google_conversion_frame'] {
   }
 }
 
+.dark-background-link {
+  color: $color-white;
+  text-decoration: underline;
+  font-size: 18px;
+  transition-duration: .2s;
+
+  &:hover,
+  &:visited {
+    color: $color-secondary-alt;
+  }
+}
+
+.white-background-link {
+  color: $color-primary-alt;
+  text-decoration: underline;
+  font-size: 18px;
+  transition-duration: .2s;
+
+  &:hover,
+  &:visited {
+    color: $color-secondary;
+  }
+}
+
 .panel-purple {
   border-color: $color-primary;
 
@@ -476,6 +500,16 @@ iframe {
       color: $color-gray;
       text-decoration: underline;
     }
+  }
+}
+
+.explore-gitlab-products {
+  border-top: 1px solid $navbar-default-border;
+  background-color: $body-bg;
+  padding-bottom: 100px;
+
+  .page-headline {
+    color: $color-primary;
   }
 }
 

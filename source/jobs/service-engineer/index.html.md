@@ -39,7 +39,7 @@ More information can be found on the [support page in the handbook](https://abou
   - Take ownership and work to manage the entire issue lifecycle, from customer, to development team, to resolution
   - Makes customers happy
 - Excellent spoken and written English
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 
 
 ### Junior Service Engineer

@@ -121,6 +121,6 @@ Want to leave a comment or ask us something? Feel free! Catch us here or
 
 [remote-first]: https://zachholman.com/posts/remote-first/
 [productivity]: http://www.inc.com/christina-desmarais/want-productive-employees-let-some-of-them-work-from-home.html
-[handbook]: https://about.GitLab.com/handbook/#communication
+[handbook]: https://about.GitLab.com/handbook/communication
 [focus]: http://thewritelife.com/10-concentration-apps-that-will-help-you-get-down-to-business/
 [twitter]: http://twitter.com/GitLab

@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Creating a DSE trigger
+title: Creating a DSE trigger (for Resellers)
 category: Zendesk
 ---
 
@@ -26,7 +26,7 @@ ______________
 
 
 
-1. Ensure the organization exists in ZenDesk
+1. Ensure the reseller organization exists in ZenDesk
    - Search for the organization email domain in https://gitlab.zendesk.com/agent/admin/people
    - If the organization does not exist, create a new organization
 https://gitlab.zendesk.com/agent/organizations/new
@@ -36,7 +36,7 @@ https://gitlab.zendesk.com/agent/organizations/new
 
 1. Click “add trigger”
 
-1. **Trigger title:** DSE: Assign {COMPANY} to {AGENT}
+1. **Trigger title:** DSE: Assign {RESELLER} to {AGENT}
 
 *Configure the trigger with the following conditions:*
 
@@ -49,4 +49,4 @@ Ticket: Assignee {AGENT}
 Ticket: Priority High
 
 ```
-*Replace {COMPANY} with the organization name (see first step). Replace {AGENT} with the Service Engineers first name.*
+*Replace {RESELLER} with the organization name (see first step). Replace {AGENT} with the Service Engineers first name.*

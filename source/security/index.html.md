@@ -190,7 +190,7 @@ Does your quality management system (QMS) include coverage for software applicat
    - YES.
 
 1. Do you provide dedicated security patches for software versions that are released and supported in the field? How?
-   - YES, for the latest release and the three prior monthly releases, when applicable.
+   - YES, for the latest release and the two prior monthly releases, when applicable.
 
 1. Is there proactive notification provided to customers and software partners (PTC)?  How?
    - YES. Notifications in the "version check" image, blog posts, tweets, and a mailing list just for security fixes.

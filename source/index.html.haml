@@ -5,19 +5,18 @@ extra_css:
   - landing.css
 extra_js:
   - libs/slick.min.js
-  - home.js
 ---
 - if data.promo.link && data.promo.text
   .gitlab-promo-banner.animated
     %a{href: data.promo.link}= data.promo.text
 
 .page-container.landing-container.text-center
-  #js-landing-community.landing-community
+  .landing-community
   .container.splash-container
     .landing-hero.hidden-xs
       = partial "images/home/gitlab-illustration.svg"
     %h1.page-headline
-      Tools for modern developers
+      The platform for modern developers
     %h2.page-subtitle
       GitLab unifies issues, code review, CI and CD into a single UI
 

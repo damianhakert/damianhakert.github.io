@@ -1,15 +1,29 @@
 ---
-title: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-categories:
+title: "GitLab X.X Released"
+categories: release
 author: ADD_YOUR_FULL_NAME
+author_gitlab: GITLAB-COM_USERNAME
 author_twitter: TWITTER_USERNAME
-image_title: /images/7_X/PICTURE.PNG
+image_title: '/images/7_X/PICTURE.PNG'
+description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 ---
+
+** Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts **
+
+** Include in the same MR an update to data/promo.yml: **
+
+```yaml
+text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+link: '/AAAA/MM/DD/gitlab-x-x-released/'
+```
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***[MVP_USER]*** ***[CONTRIBUTION_OF_MVP_USER]***.
 Thanks ***MVP_USER_FIRST_NAME***!
+
+[MVP_USER]: https://gitlab.com/username
+[CONTRIBUTION_OF_MVP_USER]: merge-request-link
 
 <!--more-->
 
@@ -41,6 +55,10 @@ This release has more improvements, including security fixes. Please check out
 We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
+New configuration options have been introduced in the omnibus-gitlab packages. To
+check what changed compared to your `/etc/gitlab/gitlab.rb` configuration
+file, run `sudo gitlab-ctl diff-config`.
+
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
@@ -60,11 +78,14 @@ Check out our [update page](https://about.gitlab.com/update/).
 ## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
+For a complete overview please have a look at the [feature list of GitLab EE](https://about.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription](https://about.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 ----
+
+[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+{:.note}

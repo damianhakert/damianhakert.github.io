@@ -1,6 +1,6 @@
 # www-gitlab-com
 
-This is the source for the https://about.gitlab.com/ site.
+This is the source for the https://about.gitlab.com/ site. For a guide on how to start editing the website using git, see the [handbook page on that topic](https://about.gitlab.com/handbook/git-page-update).
 
 ## Local development
 
@@ -10,10 +10,10 @@ bundle install
 bundle exec middleman
 ```
 
-Once the Middleman server is running, you can visit `http://localhost:4567/` in
-your browser to see a live, local preview of the site. Any changes to files in
-the `source` directory will be detected automatically, and your browser will
-even reload the page if necessary.
+Once the Middleman server is running, you can visit
+[http://localhost:4567](http://localhost:4567) in your browser to see a live,
+local preview of the site. Any changes to files in the `source` directory will
+be detected automatically, and your browser will even reload the page if necessary.
 
 PDF files are not available in development mode. See below for more information.
 
@@ -126,13 +126,63 @@ instructions.
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
 update the placeholder with your initials).
 
-Images should be uploaded to [`source/images/team`](./source/images/team).
+Images should be square, and should be uploaded to [`source/images/team`](./source/images/team).
 
 ### Adding a pet to the team pets page
 
 Edit [`data/pets.yml`](./data/pets.yml) and add a new entry.
 
 Images should be uploaded to [`source/images/team/pets`](./source/images/team/pets).
+
+### Adding an application to the applications page
+
+#### Adding a new application
+
+Edit [`data/applications.yml`](./data/applications.yml) and add a new entry within
+the correct categories `applications` list.
+
+Please  add a `.png` image to [`source/images/applications/apps`](./source/images/applications/apps),
+the name of the image should be the same as the title, but with underscores instead of spaces.
+
+Example:
+
+```yaml
+...
+  - title: My new application
+    content: My new application description.
+    links:
+      - url: https://my-new-application.io
+        title: my-new-application.io
+      - ...
+...
+```
+
+The image should be located in `source/images/applications/apps/my_new_application.png`.
+
+The application `content` string will be truncated to 100 characters. Please do not include any HTML tags.
+
+The application `links` list will be truncated to 3 links.
+
+#### Adding a new category
+
+If you **need** to create a new category, you can do so.
+
+Please  add an `.svg` image to [`source/images/applications/categories`](./source/images/applications/categories),
+the name of the image should be the same as the category id, but with underscores instead of hyphens.
+
+Example:
+
+```yaml
+...
+- title: My new category
+  id: my-new-category
+  applications:
+    - ...
+    - ...
+...
+```
+
+The image should be located in `source/images/applications/categories/my_new_category.svg`.
 
 ### Updating the promotion link
 
@@ -258,11 +308,38 @@ follow the steps below:
    review.
 
 [frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
-[Writing Style Guidelines]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[Writing Style Guidelines]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 [press releases]: https://about.gitlab.com/press/releases/
 [press category]: https://about.gitlab.com/blog/categories/press
 [blog archives]: https://about.gitlab.com/blog/archives.html
 [md]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide
+
+### Update the features page (under `/features`)
+
+The feature page grabs its content automatically from the file
+`/data/features.yml`.
+
+### Update the comparison page (under `/comparison`)
+
+The comparison page grabs its content automatically from the file
+`/data/comparisons.yml`.
+
+When adding a new comparison, make sure that you follow the structure below:
+
+```
+- title: ""
+  description: ""
+  link_description: ""
+  link:
+  competitor_one: true
+  competitor_two: false
+```
+
+Title and description fields are mandatory.
+
+`competitor_one` is always GitLab,
+`competitor_two` is the competitor we are compared against. Values for these two
+fields are `true|false|sortof`.
 
 ### Update the release list page (under `/release-list`)
 
@@ -325,6 +402,9 @@ as page margins are configured in pdf_template.tex.
 On OS X: run `brew install pandoc` and install [Basic
 TeX](https://tug.org/mactex/morepackages.html).
 
+For the comparison PDFs you will need to run the following on OS X:
+`brew cask install wkhtmltopdf`
+
 ### PDF development
 
 You can tweak the 'printable HTML' files in Middleman's development
@@ -366,6 +446,21 @@ website, you have to:
     ---
     ```
 
+### Comparison PDFs
+
+The comparison PDFs are generated in a slightly different way and require a
+different command to be run. Before the PDFs can be generated the website
+needs to be built locally by running the following:
+
+`bundle exec middleman build`
+
+After running that you can now run the following to generate the PDFs:
+
+`bundle exec rake comparison_pdfs`
+
+Once you have done that you are free to commit and push these to GitLab.com
+to then be merged into master.
+
 ## Custom Generators
 
 There are a few custom, static generators specified in `config.rb`. For
@@ -397,8 +492,7 @@ To test out the site, you must run another Web server from the
 `public` directory:
 
 ```
-cd public
-python -m SimpleHTTPServer 8000
+(cd public; python -m SimpleHTTPServer 8000)
 ```
 
 This will start a Web server on port 8000 (you may omit the port number). You can preview the site
