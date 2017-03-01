@@ -14,8 +14,6 @@ Every business today is a digital business—every business today needs software
 
 <!-- more -->
 
-Continuous Integration (CI) automates testing of new code, sparing developers the time-consuming task of checking it manually, and with increasing numbers of companies using this approach every day, CI is essential to staying competitive and to retaining your talent.
-
 When discussing code quality for now, let’s use a simple working definition that the more a software engineer cringes when looking at your codebase, the worse it is. It’s a banality to say that engineers should strive to produce high quality code, but they should also understand how their work affects larger business outcomes. Good code is not an end in itself, and understanding this simple point will help your engineering organization resolve conflicts and ship quality products. 
 
 ## What are the tradeoffs?
