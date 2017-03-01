@@ -31,14 +31,6 @@ Excellent code depends on rigorous review. At GitLab, every change is reviewed u
 * The final reviewer follows the same process again. The author again addresses any comments, either by changing the code or by responding with their own comments.
 * Once the final reviewer is happy and the build is green, they will merge.
 
-## The GitLab Advantage
-
-Our intuitive discussion tools allow everyone to contribute, and make it easy to follow along with macro- or micro-level conversations, even down to individual lines of code. 
-
-* Resolve conflicts within the UI, rather than going into the command line. This saves you time and distraction by avoiding context-switching. 
-* [Watch](https://about.gitlab.com/gitlab-ci/) the build progress through each stage before deployment. This ensures you will never ship broken code, and lets you merge with confidence. 
-* [View](https://about.gitlab.com/features/review-apps/) a review app, which allows the reviewer to see the code as it would look if merged. This is the key advantage for less technical team members, because they don’t need to check out the code locally or run the repositories themselves; they can just view the outcome of the change. 
-
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Catch our webcast </strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 14th. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170301_continuouseverything.html">Register here</a>!</p>
 
