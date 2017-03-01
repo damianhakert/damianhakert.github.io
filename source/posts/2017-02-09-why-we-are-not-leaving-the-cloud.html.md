@@ -4,7 +4,7 @@ author: Sean Packham
 author_twitter: SeanPackham
 categories: GitLab
 image_title:
-description: "What we learned from our community vetting our proposal to leave the cloud."
+description: What we learned from our community vetting our proposal to leave the cloud.
 ---
 
 Towards the end of 2016 we said we were [leaving the cloud for bare metal](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and shared our [hardware proposal](https://news.ycombinator.com/item?id=13153031). In December 2016, after receiving hundreds of comments and emails filled with advice and warnings, [Sid and the team decided](https://gitlab.com/gitlab-com/infrastructure/issues/727#note_20044060) to keep GitLab.com in the cloud. The rest of the post summarizes some of the great community support and feedback we received and ends with how we are commited to making GitLab.com fast and stable in the cloud. 
