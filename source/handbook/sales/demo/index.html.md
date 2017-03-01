@@ -167,6 +167,8 @@ Now let’s create a new project, starting from a really simple example app just
 
 ### Add Kubernetes credentials to CI
 
+*TODO: [Automatically configure Kubernetes for project when GitLab is installed in cluster](https://gitlab.com/gitlab-org/gitlab-ce/issues/28888)*
+
 Now I’ve got to tell the project about the Kubernetes service.
 
 > * Go to Project Settings > Integrations
