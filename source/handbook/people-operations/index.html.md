@@ -264,7 +264,7 @@ If resignation is the only solution after you have discussed your concerns, then
 1. The team member should provide a written resignation letter or notification to his or her manager.
 1. Upon receipt of the resignation, the manager will notify People Ops by sending a copy of the resignation letter.
 1. After People Operations is made aware of the upcoming resignation and has an opportunity to discuss the circumstances with the manager and team member, an announcement can be made on a team call by the team member or their manager.
-1. People Ops will send an email with the following information to the team member:
+1. People Ops will send an email with the following information to the team member's personal email address two days before the effective termination date:
   * [Process](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for returning all company property.
   * A review of the team member's post-termination benefits status, if applicable.
   * An exit interview. The exit interview provides team members with the opportunity to freely express views about working at GitLab. All comments from the exit interview will be kept confidential. People Ops will compile data from exit interviews to determine if feedback to the head of the employee’s department or other members of management is necessary.
