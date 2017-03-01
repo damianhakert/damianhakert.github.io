@@ -1,19 +1,19 @@
 ---
 layout: job_page
-title: "Business Development Representative, EMEA"
+title: "Business Development Representative Inbound, EMEA"
 ---
 
 You love talking about GitLab to people and no question or challenge is too big or small. You have experience working directly with customers in order to answer questions on getting started with a technical product. Your job is to make sure our customers are successful, from the single-shop development firm all the way up to our Fortune 500 customers, and that everyone gets the appropriate level of support.
 
 ## Responsibilities
 
-* Strategize our senior demand generation manager to develop the proper qualifying questions for all types of customers. Be able to identify where a customer is in the sales and marketing funnel and take the appropriate action.
+* Strategize with our business development manager to develop the proper qualifying questions for all types of customers. Be able to identify where a customer is in the sales and marketing funnel and take the appropriate action.
 * Discretion to qualify and disqualify leads when appropriate.
-* Develop and work with our senior demand generation manager to follow and improve the [processes](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/) for passing leads to sales, support, etc.
-* Participate in documenting all processes in the handbook and update as needed with our demand generation manager.
+* Develop and work with our business development manager to follow and improve the [processes](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/) for passing leads to sales, support, etc.
+* Participate in documenting all processes in the handbook and update as needed with our business development manager.
 * Work closely with support to build a process where we can identify customers that would be interested in GitLab Enterprise Edition (EE) and pass those onto sales.
 * Manage and help qualify and/or route inbound requests and inquiries.
-* Collaborate with our senior director of demand generation and senior demand generation manager on messaging for demand generation campaigns.
+* Collaborate with our marketing team on messaging for demand generation campaigns.
 * Work to introduce more GitLab CE and GitLab.com users to our on-premises offerings.
 * Work closely with sales to identify new competitive technologies and systems and understanding the drawbacks and benefits of EE.
 * Work closely with our marketing team to identify customer stories from all of the conversations you have with our customers.
