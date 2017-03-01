@@ -67,7 +67,7 @@
   description: /jobs/senior-developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/416220
-  open: true
+  open: false
 
 - title: "CI Lead"
   description: /jobs/ci-lead/
@@ -95,7 +95,7 @@
   description: /jobs/developer-edge/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/421106/candidates/new
-  open: true
+  open: false
 
 - title: "Senior Backend Developer, CI/CD Pipelines"
   description: /jobs/developer-ci/
@@ -255,7 +255,7 @@
 - title: "Senior Backend Developer, Distributed Systems Specialist"
   description: /jobs/specialist/distributed-systems/
   apply: https://gitlab.workable.com/jobs/413524/candidates/new
-  open: true
+  open: false
 
 - title: "Issue Triage Specialist"
   description: /jobs/specialist/issue-triage/
