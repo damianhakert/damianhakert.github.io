@@ -105,8 +105,8 @@
 
 - title: "Director of Customer Success"
   description: /jobs/director-customer-success/
-  apply: https://gitlab.workable.com/jobs/339588/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
@@ -120,8 +120,8 @@
 
 - title: "Director of Global Account Management"
   description: /jobs/director-global-account-management/
-  apply: https://gitlab.workable.com/jobs/267597/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Legal Affairs"
   description: /jobs/director-legal-affairs/
