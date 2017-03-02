@@ -11,7 +11,7 @@
   type: Release
   date: March 22, 2017
   description: |
-               Learn more about all the amazing new features we released in 9.0.
+               Learn more about all the amazing new features we'll have released in 9.0.
   location: San Francisco, USA
   social_tags: GitLab9.0
   event_url: https://about.gitlab.com/
@@ -38,7 +38,7 @@
 
 - topic: Open Source Summit North America
   type: Open Source, Dev
-  date: Sep 11-13 2017
+  date: September 11-13 2017
   description: |
                LinuxCon, ContainerCon, and CouldOpen all under one roof this year. Meet us at the Open Source Summit and share your collaboration stories.
   location: Los Angeles, CA USA
@@ -47,7 +47,7 @@
 
 - topic: WebSummit Lisbon
   type: Enterprise
-  date: Nov 6-9 2017
+  date: November 6-9 2017
   description: |
                Over 50,000 tech leaders converge in Lisbon to meet and discuss the technologies that connect us all.
 
