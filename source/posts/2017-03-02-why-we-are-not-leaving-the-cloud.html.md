@@ -50,7 +50,7 @@ A company rolling their own system doesn't have to share, and they can optimise 
 > It sounds like they didn't design for the cloud and are now experiencing the consequences. The cloud has different tradeoffs and performance characteristics from a datacenter. If you plan for that, it's great. Your software will be robust as a result. If you assume the characteristics of a data center, you're likely to run into problems. *[wandernotlost - Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12940082)*
 
 <div style="font-size: 38px; line-height: 1.2; margin: 45px 0 55px; font-style: italic;">
-It makes sense to keep GitLab.com as an eat-your-own-dog-food-at-scale environment – twaleson
+It makes sense to keep GitLab.com as an eat-your-own-dog-food-at-scale environment – jtwaleson
 </div>
 
 > It makes sense to keep GitLab.com as an eat-your-own-dog-food-at-scale environment.  If one of their customers that run on-premise has performance issues they can't just say: GitLab.com uses a totally different architecture so you're on your own. They need GitLab.com to be as close as possible to the standard product. *[twaleson on Hacker News: Going bare metal](https://news.ycombinator.com/item?id=12940462)*
