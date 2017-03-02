@@ -4,7 +4,7 @@ title: Checklist for becoming a GitLab Geo Expert
 ---
 
 Create an issue with this checklist on the [support team issue tracker](https://gitlab.com/gitlab-com/support/issues/)
-with the **Title:** *"Geo Boot Camp - your_name"*
+with the **Title:** *"Geo Bootcamp - your_name"*
 
 Tackle stage 1 first and the last stage last, but the others can be completed in
 any order you prefer.
