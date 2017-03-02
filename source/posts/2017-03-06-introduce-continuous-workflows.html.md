@@ -37,7 +37,7 @@ This isn’t a race, and becoming more continuous can be a gradual process. Find
 
 
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>From Continuous Integration to Continuous Everything</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Watch our &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>From Continuous Integration to Continuous Everything</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 &nbsp;&nbsp;webcast. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170301_continuouseverything.html">Register here</a>!</p>
 
 Image: “[Blue Loops](https://www.flickr.com/photos/drainrat/14017306767)” by [darkday](https://www.flickr.com/photos/drainrat/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
