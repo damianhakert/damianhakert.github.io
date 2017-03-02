@@ -1,10 +1,10 @@
 ---
 layout: markdown_page
-title: "CI Lead"
+title: "CI/CD Lead"
 ---
 
-The CI Lead reports to the VP of Engineering, and CI specialists report to the
-CI Lead.
+The CI/CD Lead reports to the VP of Engineering, and CI/CD specialists report to the
+CI/CD Lead.
 
 ## Responsibilities
 
@@ -17,7 +17,7 @@ CI Lead.
 * Is available for 1:1's on demand of the report
 * Ensures all tentpole features, promised and bugs are assigned early in the release
 * Does weekly stand-up with a team and product managers to talk about plan for the work in the upcoming week
-* Coordinates a deployment of CI related services with infrastructure team
+* Coordinates a deployment of CI/CD related services with infrastructure team
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
 
 

@@ -148,7 +148,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI/CD Lead</a>
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -382,7 +382,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
@@ -470,7 +470,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
@@ -634,7 +634,7 @@
   locality: Zeist
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
@@ -965,7 +965,7 @@
   locality: Taipei
   country: Taiwan
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: jen-shin.jpg
   twitter: godfat
   gitlab: godfat
