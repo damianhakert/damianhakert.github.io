@@ -7,10 +7,10 @@ As the Director of Developer Relations, you will be responsible for managing and
 
 ## Reports
 
-- Community advocates
-- Developer advocates
-- Technical writers
-- Developers that are devrel specialists
+- [Community advocates](https://about.gitlab.com/jobs/community-advocate/)
+- [Developer advocates](https://about.gitlab.com/jobs/developer-advocate/)
+- [Technical writers](https://about.gitlab.com/jobs/technical-writer/)
+- [Developers](https://about.gitlab.com/jobs/developer/) that are DevRel specialists
 
 ## Responsibilities
 
