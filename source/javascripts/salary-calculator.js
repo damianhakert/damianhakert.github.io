@@ -384,8 +384,6 @@
         var paramsExpTotal = this.params.low + this.params.high;
         var calculatedExpTotal = min + max;
 
-        debugger;
-
         if (paramsExpTotal === calculatedExpTotal) {
           valid = true;
         } else {
