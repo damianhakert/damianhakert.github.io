@@ -4,7 +4,7 @@ author: Victor Wu
 author_twitter: victorwu416
 author_gitlab: victorwu
 categories: concepts
-image_title: 
+image_title: '/images/blogimages/invite-your-engineers-to-talk-business-heres-why.jpg'
 description: Traditionally, engineers may have been shielded from the "business parts" of the organization. In today's technology landscape, that's no longer a viable option.
 cta_button_text: 'Join our <strong>Code Review: A Business Imperative</strong> webcast live!'
 cta_button_link: ''
@@ -55,4 +55,8 @@ In the past, engineers were often removed from business discussions. Business ma
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/gitlab-ee/).
 
+----
+
+Cover image: [AtTheUnderground](https://www.flickr.com/photos/draganbrankovic/14469494828/), by [d26b73](https://www.flickr.com/photos/draganbrankovic/). Licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode).
+{:.note}
 
