@@ -80,12 +80,12 @@
 
     var paramsLength = Object.keys(validParams).length
 
-    if (paramsLength > 0 && paramsLength < 5) {
+    if (paramsLength > 0 && paramsLength < 7) {
       $('.generate-url').html('<h4 class="alert alert-warning">Not enough parameters were provided</h4>')
       return null
     }
 
-    return paramsLength > 4 ? validParams : null;
+    return paramsLength > 6 ? validParams : null;
   };
 
   var salaryContainer = '.salary-container';
