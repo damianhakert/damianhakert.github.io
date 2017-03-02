@@ -102,6 +102,7 @@ There are exceptions, material that is not public by default is documented in th
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Anyone and anything can be questioned** Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed.
 1. **Disagree and commit** everything can the questioned but as long as a decision is in place we expect people to commit to executing it, which is [a common principle](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+1. **It's only a value if you do it when it hurts**. For example many companies in California do not give you the real reason you why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by learning that reason. Therefore we'll accept the increased risk, hold ourself to a high standard of making decisions, and do the right thing by telling them what we thought.
 
 ## Five dysfunctions
 
