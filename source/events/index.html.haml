@@ -1,0 +1,126 @@
+---
+layout: default
+title: Events
+suppress_header: true
+description: Where you'll find information on the GitLab happenings circuit
+extra_css:
+  - events.css
+extra_js:
+  - events.js
+extra_font:
+  - Roboto+Slab
+---
+
+.page-container.event-headline-container.text-center.animated
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+        %h1.page-headline
+          GitLab Events
+        %h3.subheader
+          Learn more about software excellence with GitLab. 
+          We will be attending, hosting, and running numerous events in 2017, and cannot wait to see you there
+.page-container.upcoming-events.text-center.animated
+  .row
+    .container.filters-container
+      .dropdown#event-types
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+      .dropdown.level#event-topics
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+      .dropdown.level#event-location
+        %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
+          .dropdown-title
+          %i.fa.fa-chevron-down
+        %ul.dropdown-menu.dropdown-scroll
+  .row
+    %ul.event-list{role: "navigation"}
+      - data.events.each do |event|
+        %li
+          .event-headers
+            %h2.event-topic
+              %span.fa.fa-chevron-up
+              = event.topic
+            %h4.event-type.visible-xs-block
+              = event.type
+            %h2.event-date
+              = event.date
+            %h4.event-location.visible-xs-block
+              = event.location
+            .clearfix
+          .event-subheaders.hidden-xs
+            %h4.event-type
+              = event.type
+            %h4.event-location
+              = event.location
+            .clearfix
+          %div
+            %p.event-description
+              = event.description
+          .social-tags.visible-xs-block
+            - event.social_tags.split(',').each do |tag|
+              %span.social-tag= "##{tag}"
+          .event-buttons
+            -# Social buttons
+            .buttons
+              %a.btn.cta-btn.white-with-border{href:event.event_url}
+                Join Us!
+            .social-tags.hidden-xs
+              - event.social_tags.split(',').each do |tag|
+                %span.social-tag= "##{tag}"
+            .clearfix
+    .center-horizontal
+      %nav
+        %ul.pagination
+          %li
+            %a{href:"#"}
+              <<
+          %li
+            %a{href:"#"}
+              1
+          %li
+            %a{href:"#"}
+              >>
+    .rad-event-container
+      .rad-event
+        %h1
+          Know about an amazing event we should be at?
+        %h2
+          Again, Drop us a line - we'd love to be there with you!
+        %a.btn.btn-lg.btn-red{type:"button", href:"https://twitter.com/gitlab"}
+          Drop It Like It's Hot
+.page-container.missed-events.text-center.animated
+  %h1
+    Sorry we missed you
+  %h2
+    Check out some other stuff GitLab has been up to
+  .row.event-recap
+    .col-md-4.image-card-container
+      .image-card
+        = image_tag "/images/events/idea-to-production.png", alt: "event 1"
+        .image-card-text
+          %a{href: "https://www.youtube.com/watch?v=ZRcWCWatdas"}
+            Idea to Production
+    .col-md-4.image-card-container
+      .image-card
+        = image_tag "/images/events/mexico-summit-cover.png", alt: "event 2"
+        .image-card-text
+          %a{href: "https://www.youtube.com/watch?v=XDfTj8iv9qw"}
+            Mexico Summit 2017
+    .col-md-4.image-card-container
+      .image-card
+        = image_tag "/images/events/8-16-recap-cover.png", alt: "event 3"
+        .image-card-text
+          %a{href: "https://www.youtube.com/watch?v=iYPhXm8RlxI"}
+            8.16 Webcast
+  .row.rad-event-container
+    .rad-event.rad-event-alt
+      %h1
+        GitLab Diversity Sponsorship
+      %a.btn.btn-lg.btn-red{type:"button", href: " https://about.gitlab.com/2016/03/24/sponsorship-update/"}
+        Learn More

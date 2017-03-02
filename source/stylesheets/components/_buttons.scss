@@ -58,9 +58,9 @@
 
 .featured-item-button {
   display: inline-block;
-  padding-left: 30px;
-  padding-right: 30px;
-  min-width: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 120px;
   color: $color-secondary;
   border: 1px solid $color-secondary;
   background-color: $color-white;
@@ -121,6 +121,19 @@
 
     &:hover {
       background-color: darken($color-white, 5%);
+    }
+  }
+
+  &.white-with-border {
+    background-color: $color-white;
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-secondary;
+      text-decoration: none;
+      outline: 0;
     }
   }
 
