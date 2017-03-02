@@ -30,8 +30,9 @@ title: "Sales Handbook"
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
-* [Demo: Idea to Production](/handbook/sales/idea-to-production-demo)
+* [Demo: Idea to Production](/handbook/sales/demo/)
 * [SDR Handbook](/handbook/sales/sdr)
+* [GitLab vs. Atlassian Cost Comparison](https://docs.google.com/spreadsheets/d/1uX4uo87rDaTQmsNx98nWeMH7cjtAYSM31J51kClBQ2g/edit#gid=0)
 
 ### Sales Resources outside of the Sales Handbook
 
