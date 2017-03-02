@@ -1,5 +1,7 @@
 @import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
+$purple-section-gradient-from: #654ca7;
+$purple-section-gradient-to: #3c257b;
 
 body {
   font-size: 16px;
@@ -11,9 +13,18 @@ body {
 }
 
 .installation-header {
-  background: url("/images/comparison/gitlab-icon-illustration.svg") no-repeat, linear-gradient(to right, $color-primary-alt, $color-primary-medium 40%, $color-primary);
-  background-position: center;
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    background-image: linear-gradient(to right, $purple-section-gradient-from, $purple-section-gradient-to 100%);
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 
   h1 {
     font-weight: 300;
@@ -29,6 +40,23 @@ body {
     line-height: 1.4;
     margin-bottom: 0;
     margin-top: 10px;
+  }
+
+  .container {
+    position: relative;
+    z-index: 99;
+  }
+
+  > svg {
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    top: -25%;
+    min-height: 150%;
+    min-width: 120%;
+    z-index: 9;
+    fill: $color-primary;
+    opacity: .5;
   }
 
   @media (min-width: $screen-md-min) {
