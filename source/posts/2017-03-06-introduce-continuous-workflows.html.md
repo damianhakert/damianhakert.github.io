@@ -5,7 +5,7 @@ author_twitter:
 author_gitlab: rebecca
 categories: concepts
 image_title: '/images/blogimages/introducing-continuous-workflows.jpg'
-description: Continuous doesn’t stop at integration – how to use it to your advantage throughout your development process.
+description: Continuous doesn’t stop at integration – here's how to use it to your advantage throughout your development process.
 cta_button_text: 'Check out our webcast: <strong>From Continuous Integration to Continuous Everything</strong>!'
 cta_button_link: 'https://page.gitlab.com/20170301_continuouseverything.html'
 ---
