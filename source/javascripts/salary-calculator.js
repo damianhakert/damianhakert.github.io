@@ -65,6 +65,10 @@
           ];
         case "level":
           return validParams['level'] = levelKey[params[param]];
+        case "low":
+          return validParams['low'] = parseInt(params[param])
+        case "high":
+          return validParams['high'] = parseInt(params[param])
         default:
           return null;
       }
@@ -74,7 +78,14 @@
 
     validParams['salary'] = parseFloat(defaultSalary);
 
-    return Object.keys(validParams).length > 4 ? validParams : null;
+    var paramsLength = Object.keys(validParams).length
+
+    if (paramsLength > 0 && paramsLength < 5) {
+      $('.generate-url').html('<h4 class="alert alert-warning">Not enough parameters were provided</h4>')
+      return null
+    }
+
+    return paramsLength > 4 ? validParams : null;
   };
 
   var salaryContainer = '.salary-container';
@@ -366,15 +377,38 @@
       var min = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.max);
 
-      var calculatedTrue = min && max;
+      var calculatedTrue = (min && max);
+
+      var valid;
+      if (this.params) {
+        var paramsExpTotal = this.params.low + this.params.high;
+        var calculatedExpTotal = min + max;
+
+        debugger;
+
+        if (paramsExpTotal === calculatedExpTotal) {
+          valid = true;
+        } else {
+          valid = false;
+        }
+      } else {
+        // error message won't render if starting from scratch
+        valid = true;
+      }
 
       if (calculatedTrue) {
         $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
-        this.renderCompensationUrl(input, { min: min, max: max });
+        this.renderCompensationUrl(input, { min: min, max: max }, valid);
       }
     }
 
-    SalaryCalculator.prototype.renderCompensationUrl = function(input, salary) {
+    SalaryCalculator.prototype.renderCompensationUrl = function(input, salary, valid) {
+      var nonMatchError = function(valid) {
+        return !valid
+          ? '<h4 class="alert alert-warning">The salary provided does not match the salary calculated</h4>'
+          : '';
+      }
+
       var rootUrl = function() {
         var url = window.location.href;
         if (url.indexOf('?') >= 0) {
@@ -425,25 +459,26 @@
           + '&low=' + salary.min + '&high=' + salary.max;
       }
 
-      var copySection = function() {
+      var copySection = function(valid) {
         $('.generate-url').html(
           '<div><h4>Share compensation url - '
           + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link() + '"'
           + 'data-placement="top">Copy Link</a>'
+          + nonMatchError(valid)
           + '</h4><input style="cursor: default;" class="comp-url form-control" value="'
           + link() + '"disabled="true">'
           + '</input></div><br>'
         );
       };
 
-      copySection();
+      copySection(valid);
       new Clipboard('.copy-me');
 
       $(document).on('click', '.copy-me', function(e) {
         setTimeout(function() {
           e.target.parentElement.innerHTML = 'Share compensation url - Copied!'
           setTimeout(function() {
-            copySection();
+            copySection(valid);
           }, 3000);
         }, 100);
       })
