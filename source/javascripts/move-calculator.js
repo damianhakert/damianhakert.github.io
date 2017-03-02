@@ -6,6 +6,8 @@
 
   var CONTRACT_TYPE_EMPLOYEE = 'employee_factor';
   var CONTRACT_TYPE_CONTRACTOR = 'contractor_factor';
+  var CURRENT_COUNTRY = 'current';
+  var NEW_COUNTRY = 'new';
 
   // Dropdown Core functionality
 
@@ -184,10 +186,7 @@
         } else if (e.keyCode === 9) { // Tab keyCode
           $this.removeClass('open');
         } else if (e.keyCode === 13) { // Enter / Return
-          // As user is highlighting list items using up/down arrow keys
-          // we have to wait until effects of `addClass()` are completed
-          // otherwise we won't get any results on `list.filter()` call
-          setTimeout(function() { list.filter('li.is-focused').trigger('click'); });
+          list.filter('li.is-focused').trigger('click');
         }
 
         focusedLi = list.filter('li.is-focused');
@@ -203,7 +202,8 @@
     }
 
     MoveCalculator.prototype.preventLetters = function(e) {
-      if (e.which < 48 || e.which > 57) { // Note: `e.which` is part of jQuery
+      // Check if input value is number between 0 to 9 and Backspace key (firefox)
+      if ((e.which < 48 || e.which > 57) && e.which !== 8) { // Note: `e.which` is part of jQuery
         e.preventDefault();
       }
     }
@@ -274,12 +274,11 @@
       var input = this.getElementValues();
 
       function renderData() {
-        if (input.currentCountry && input.newCountry) {
-          if (input.currentCity && input.newCity && input.salary) {
-            this.renderCompensation(input);
-          }
+        this.renderContractType(input.currentCountry, CURRENT_COUNTRY);
+        this.renderContractType(input.newCountry, NEW_COUNTRY);
 
-          this.renderContractType();
+        if (input.currentCity && input.newCity && input.salary) {
+          this.renderCompensation(input);
         } else {
           this.renderInvalidCompensation();
         }
@@ -301,9 +300,18 @@
 
     MoveCalculator.prototype.renderContainerUpdates = function(e) {
       var $currentEl = $(e.currentTarget);
+      var inputSalary;
 
       if ($currentEl.attr('id') === 'current-salary') {
-        $currentEl.parent().toggleClass('has-value', $(e.currentTarget).val().length > 0);
+        inputSalary = parseInt($currentEl.val().split(',').join(''));
+
+        if (inputSalary) {
+          inputSalary = inputSalary.toLocaleString();
+          $currentEl.val(inputSalary);
+          $currentEl.parent().toggleClass('has-value', inputSalary.length > 0);
+        } else {
+          $currentEl.parent().removeClass('has-value');
+        }
       }
     }
 
@@ -328,23 +336,23 @@
       $(compensationAmount).text(this.formatAmount(newSalary) + ' USD');
     }
 
-    MoveCalculator.prototype.renderContractType = function() {
-      var values = this.getElementValues();
-      var newCountry = values.newCountry;
-      var newContract = this.calculateContractFactor(newCountry);
-      var $container = $('.contract-type-container');
+    MoveCalculator.prototype.renderContractType = function(selectedCountry, type) {
+      var countryContract = this.calculateContractFactor(selectedCountry);
+      var $containerContract = type === CURRENT_COUNTRY ? $('.current-contract') : $('.new-contract');
 
-      if (newContract.type === CONTRACT_TYPE_EMPLOYEE) {
-        $container.find('.grammer').text('an');
-        $container.find('.company-type').text('Inc.');
-        $container.find('.contract-type').text('employee');
+      if (selectedCountry) {
+        if (countryContract.type === CONTRACT_TYPE_EMPLOYEE) {
+          $containerContract.find('.company-type').text('Inc.');
+          $containerContract.find('.contract-type').text('Employee');
+        } else {
+          $containerContract.find('.company-type').text('BV.');
+          $containerContract.find('.contract-type').text('Contractor');
+        }
+
+        $containerContract.removeClass('hidden');
       } else {
-        $container.find('.grammer').text('a');
-        $container.find('.company-type').text('BV.');
-        $container.find('.contract-type').text('contractor');
+        $containerContract.addClass('hidden');
       }
-
-      $container.removeClass('hidden');
     }
 
     MoveCalculator.prototype.renderFormula = function() {
@@ -362,7 +370,7 @@
         newContract = this.calculateContractFactor(values.newCountry);
       }
 
-      $('.formula .currentSalary .value').text(this.formatAmount(salary));
+      $('.formula .currentSalary .value').text(salary.length ? this.formatAmount(salary) : '$ ' + defaultValue);
       $('.formula .currentRentIndex .value').text(currentRentIndex ? currentRentIndex : defaultValue);
       $('.formula .newRentIndex .value').text(newRentIndex ? newRentIndex : defaultValue);
       $('.formula .currentContractTypeFactor .value').text(currentContract && currentContract.hasOwnProperty('factor') ? currentContract.factor.toFixed(2) : defaultValue);
@@ -377,7 +385,7 @@
 
     MoveCalculator.prototype.getElementValues = function() {
       return {
-        salary: $(moveContainer + ' .current-salary input').val() || '',
+        salary: $(moveContainer + ' .current-salary input').val().split(',').join('') || '',
         currentCountry: $(moveContainer + ' .current-country .title').data('selected') || '',
         currentCity: $(moveContainer + ' .current-city .title').data('selected') || '',
         newCountry: $(moveContainer + ' .new-country .title').data('selected') || '',

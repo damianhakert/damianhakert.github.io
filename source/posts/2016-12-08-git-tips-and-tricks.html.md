@@ -524,9 +524,14 @@ of other stuff we're not familiar with.
 
 ![Uncle Sam wants you to tell your trick](/images/blogimages/git-tricks/uncle-sam-wants-git.jpg){: .shadow}
 
+---
+
+_Image: "[Branching illustration][img-url]" by [Jason Long](https://twitter.com/jasonlong) is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)_
+
 <!-- Links -->
 
 [git-open-examples]: https://github.com/paulirish/git-open#examples
+[img-url]: https://github.com/git/git-scm.com/blob/master/public/images/branching-illustration%402x.png
 [install-open]: https://github.com/paulirish/git-open#installation
 [commands]: https://github.com/tj/git-extras/blob/master/Commands.md
 [gitextras]: https://github.com/tj/git-extras

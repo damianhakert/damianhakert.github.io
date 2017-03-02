@@ -128,24 +128,24 @@
       background-size: cover;
       position: relative;
       margin-bottom: 12px;
+
+      h2 {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: $blog-color-heading;
+        vertical-align: middle;
+        font-weight: 600;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
 
     .overlay {
       background: linear-gradient(123deg, $blog-color-image-from, $blog-color-image-to);
       display: block;
       height: 100%;
-    }
-
-    h2 {
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-      color: $blog-color-heading;
-      vertical-align: middle;
-      font-weight: 600;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
     }
 
     .author {

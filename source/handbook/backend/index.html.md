@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Backend Team"
+title: "Backend Group"
 ---
 
 ## Teams
@@ -16,7 +16,10 @@ issues to work on for each release. The following information is not meant to
 be a set of hard-and-fast rules, but as a guideline as to what team decides can
 best improve certain areas of GitLab.
 
-There is a backend team call every Thursday, before the team call. You should
+APIs should be shared responsibility between all teams within the
+Backend group.
+
+There is a backend group call every Tuesday, before the team call. You should
 have been invited when you joined; if not, ask your team lead!
 
 ### CI Team
@@ -66,7 +69,6 @@ the CI and Discussion Teams do not cover. For example:
     * Authorization
     * LDAP/SAML/SSO integration
   * Group management
-  * API
   * git repository management
     * Hooks
     * Git Annex
@@ -90,7 +92,7 @@ the CI and Discussion Teams do not cover. For example:
 ### Mapping to Direction Issues
 {: #mapping-to-direction-issues}
 
-There is a rough mapping of [Direction Issues](https://about.gitlab.com/direction/) to different backend teams. Note
+There is a rough mapping of [Direction Issues](https://about.gitlab.com/direction/) to different backend groups. Note
 that the following is meant as a guideline, not as a hard-and-fast rule, as there
 were invariably be instances where it may be ambiguous or
 multiple teams may be involved in each area:

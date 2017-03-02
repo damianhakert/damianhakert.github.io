@@ -39,4 +39,4 @@ See the [marketing handbook](https://about.gitlab.com/handbook/marketing/) for d
 * Outstanding written communication skills
 * Desire to develop a team
 
-## To Apply - reach out to: kevin@carbonpartners.io 
+## To Apply - reach out to: nick@carbonpartners.io

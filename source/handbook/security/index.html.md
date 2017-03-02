@@ -274,6 +274,8 @@ Please refer to the [1Password blog] for more information on how TOTP works.
 
 [1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
 
+If scanning of QR code using the tranparent window with 1Password Mac app fails on a recent Mac OS, please consider to use 1Password iOS app which could do the same and support Touch ID to login.
+
 ### Example Usage<a name="1password-example-usage"></a>
 
 This is an example of how <a href="https://gitlab.com/u/rspeicher">Robert</a>,

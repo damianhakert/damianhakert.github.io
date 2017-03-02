@@ -339,6 +339,14 @@ The following quote metrics are available:
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
+#### Closing Deals for GitHost
+
+ * Confirm with client the best contact for installation, the type of plan, and how many EE users will be needed, then create quote. 
+ * When the quote is created, the system will automatically add the GitHost Subscription Terms to the quote in addition to the GitLab EE Subcription Terms. 
+ * Once quote is singed, send to zbilling 
+ * Once sent to zbilling there will be an automated email that goes out to support@gitlab.com alerting the support team to contact the client to connect their GitLab EE license key with the GitHost instance
+ * A second email will be sent to the client with the GitLab EE license key and the process will be complete
+ 
 #### Closing Deals for Educational Institutions receiving educational pricing
 
  * The customer should purchase a license as normal through Zuora, except that the number of users purchased should only include non-student users (as described in [Educational Pricing](https://about.gitlab.com/license-faq/)).

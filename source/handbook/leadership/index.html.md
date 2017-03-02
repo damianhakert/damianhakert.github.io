@@ -33,6 +33,8 @@ title: Leadership
 1. Praise and credit the work of your reports to the rest of the company, never present it as your own. This and many other great lessons in [an ask metafilter thread worth reading](http://ask.metafilter.com/300002/My-best-manager-did-this).
 1. Try to be aware of your [cognitive biases](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18).
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
+1. Do everything to unblock people. For example, if someone has a question that is keeping them from being productive, try to answer the question or find someone who can.
+1. Communicate in a professional manner as though your words will be shared widely (e.g. published in a newspaper).
 1. You are expected to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines/).
 1. Make sure your reports experience a [sense of progress](http://tomtunguz.com/progress-principle/) in their work.
 1. A tweet by [Sam Altman](https://twitter.com/sama/status/804138512878473220) combined the reply by [Paul Graham](https://twitter.com/paulg/status/804209365305659392) says it best: "People either get shit done or they don't. And it's easy to be tricked because they can be smart but never actually do anything.". Watch for results instead of articulate answers to questions, otherwise you'll take too much time to indentify underperformers.
