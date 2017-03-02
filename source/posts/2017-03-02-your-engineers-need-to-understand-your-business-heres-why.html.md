@@ -5,7 +5,7 @@ author_twitter: victorwu416
 author_gitlab: victorwu
 categories: concepts
 image_title: 
-description: Good code is not an end in itself, but a means to achieving positive business outcomes that vary depending on company size. 
+description: Traditionally, engineers may have been shielded from the "business parts" of the organization. In today's technology landscape, that's no longer a viable option.
 cta_button_text: 'Join our <strong>Code Review: A Business Imperative</strong> webcast live!'
 cta_button_link: ''
 ---
@@ -28,19 +28,19 @@ In some organizations, business managers just want functionality in a product an
 
 ## Code quality as a means to further your business
 
-A better approach that more and more organizations (including GitLab) have embraced is lending a greater business voice to your engineering organization, and of course demanding greater responsbility. Have your engineering team communicate the benefits of maintain quality code, and why the costs of increased engineering resources (people and time, typically) are justified in tangible business outcomes (and if they can be quantified, even better). In particular, with higher code quality you are likely able to (along with good technology and business practices):
+A better approach that more and more organizations—including GitLab—have embraced is lending a greater business voice to your engineering organization, and of course demanding greater responsbility. Have your engineering team communicate the benefits of maintaining quality code, and why the costs of increased engineering resources (people and time, typically) are justified by tangible business outcomes. Along with a clean and adaptable codebase, quality code allows you to:
 
-* Add new features quickly since the codebase is already clean and adaptable to change
+* Add new features quickly
 * Remove existing features since it's relatively easy to identify which code contributes to those features, and which does not
-* Change existing features, similar to above
+* Change existing features, for reasons similar to above
 * Have a more stable platform with fewer defects and security problems, again due to predictability of your code
-* Deploy code quickly, reducing the time from decision to go live, since a clean codebase means there are less manual configuration steps required
+* Deploy code quickly, with fewer manual configuration steps, reducing the time from decision to when you go live
 
-Note that all the benefits above are _business benefits_! Your software engineers already know these are possible and goals that they themselves already aspire to achieve. For example, as a business manager or a product manager, you want to add new features quickly. So you should be asking how it's possible to achieve that. As a engineer manager, you may respond by saying that you need an extra week to update an existing framework that improves the _code quality_. And that the direct business benefit is that it will allow 50% reduction in feature development time for approximately the next 6 months. That tradeoff is a no-brainer in most consequences, and it's exactly that understanding and conversation that needs to happen for your business to succeed.
+Note that all the benefits above are _business benefits_! Your software engineers already know these are possible and goals that they themselves already aspire to achieve. For example, as a business or product manager, you want to add new features quickly, so you should be asking how it's possible to achieve that. As a engineering manager, you may respond by saying that you need an extra week to update an existing framework that improves the _code quality_, and the direct business benefit is that it will allow 50% reduction in feature development time for approximately the next 6 months. That tradeoff is a no-brainer in most cases, and it's exactly that understanding and conversation that needs to happen for your business to succeed.
 
 ## Can you ever skimp on code quality?
 
-In some organizations, you are shipping well-established and mature products. Likely the market cannot absorb shocks or big changes in the product. Performance, security, and privacy are very important, especially for highly regulated industries. In these scenarios, code quality is extremely crucial, if not just for the stability benefit outlined in the list above. Fortunately, these organizations typically may have more resources, and can more easily handle the increased cost of maintaining that code quality. Code quality should always be the rule, with very little exceptions. And engineering and business should communicate along those lines.
+The short answer is: it depends on the company. In mature organizations, you are likely shipping well-established products. In these cases, often the market cannot absorb shocks or big changes in the product. Performance, security, and privacy are very important, especially for highly regulated industries. In these scenarios, code quality is crucial, if not just for the stability benefit outlined in the list above. Fortunately, these organizations typically have more resources, and can more easily handle the increased cost of maintaining that code quality. Code quality should always be the rule, with very little exceptions, and engineering and business should communicate along those lines.
 
 In either a small startup or a large organization shipping a product quickly to compete, I'd argue that you can _and should_ skimp on code quality. Engineers may not be a fan when reading this, but this draws on the concept of _technical debt_ or _tech debt_. A bank loan is an apt analogy: You take out a business loan so that you can take advantage of the crucial marketing timing right now to start a business. If you wait until you have the funds later instead, your competitor has already won. In the same way, sometimes a startup has to strategically incur tech debt to push out a product or feature update more quickly, to get the timing just right. If you instead choose to maintain that 100% quality code, you lose out on the opportunity, and don't even have a business in 2 months, totally defeating the purpose of you software development in the first place. 
 
@@ -48,9 +48,9 @@ In this scenario, you'd be left with a beautiful codebase, but you will have los
 
 ## Engineering goals are business goals
 
-Adding new features would become extremely slow, with your platform increasing in defects if you don't pay it back. Just as any normal business always has some ongoing debt and knows how to balance it, an organization will always have some tech debt, and a strategy to manage the amount of it, paying some of it back, and incurring new debt later as the business needs arise. The key is knowledge and understanding between the engineering and business teams.
+Adding new features would become extremely slow, with your platform increasing in defects if you don't pay it back. Just as any normal business always has some ongoing debt and knows how to balance it, an organization will always have some tech debt, and a strategy to manage the amount of it, paying some of it back and incurring new debt later as the business needs arise. The key is knowledge and understanding between the engineering and business teams.
 
-Traditionally, engineers may have been shielded from the "business parts" of the organization. In today's technology landscape, that's no longer a viable option. Fortunately however, maintaining _softwware code quality_ is a goal that good engineering teams have always strived for, and the good news is that that aligns closely with business goals-with some caveats. In other words, software goals are business goals. If your engineering team can articulate how they perform against business goals in the context of your organization, and can help translate it into actionable business decisions, you will thrive, whether you are a small feisty startup, or an established incumbent looking to continue your dominance.
+Traditionally, engineers may have been shielded from the "business parts" of the organization. In today's technology landscape, that's no longer a viable option. Fortunately however, maintaining _softwware code quality_ is a goal that good engineering teams have always strived for, and the good news is that that aligns closely with business goals—with some caveats. In other words, software goals are business goals. If your engineering team can articulate how they perform against business goals in the context of your organization, and can help translate it into actionable business decisions, you will thrive, whether you are a small feisty startup, or an established incumbent looking to continue your dominance.
 
 <p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Code Review: A Business Imperative</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 1st. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170301_continuouseverything.html">Register here</a>!</p>
 
