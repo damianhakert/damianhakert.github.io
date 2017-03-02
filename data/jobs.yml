@@ -9,7 +9,7 @@
   description: /jobs/people-ops-administrator/
   apply: https://gitlab.workable.com/jobs/436145/candidates/new
   open: true
-  
+
 - title: "Recruiter"
   description: /jobs/recruiter/
   apply: https://gitlab.workable.com/jobs/436821/candidates/new
@@ -67,7 +67,7 @@
   description: /jobs/senior-developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/416220
-  open: true
+  open: false
 
 - title: "CI Lead"
   description: /jobs/ci-lead/
@@ -80,6 +80,11 @@
   apply:
   open: false
 
+- title: "Content Editor"
+  description: /jobs/content-editor/
+  apply: https://gitlab.workable.com/jobs/369649/candidates/new
+  open: true
+
 - title: "Developer"
   description: /jobs/developer/
   salary: 87337
@@ -90,7 +95,7 @@
   description: /jobs/developer-edge/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/421106/candidates/new
-  open: true
+  open: false
 
 - title: "Senior Backend Developer, CI/CD Pipelines"
   description: /jobs/developer-ci/
@@ -100,8 +105,8 @@
 
 - title: "Director of Customer Success"
   description: /jobs/director-customer-success/
-  apply: https://gitlab.workable.com/jobs/339588/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
@@ -115,8 +120,8 @@
 
 - title: "Director of Global Account Management"
   description: /jobs/director-global-account-management/
-  apply: https://gitlab.workable.com/jobs/267597/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director of Legal Affairs"
   description: /jobs/director-legal-affairs/
@@ -250,7 +255,7 @@
 - title: "Senior Backend Developer, Distributed Systems Specialist"
   description: /jobs/specialist/distributed-systems/
   apply: https://gitlab.workable.com/jobs/413524/candidates/new
-  open: true
+  open: false
 
 - title: "Issue Triage Specialist"
   description: /jobs/specialist/issue-triage/

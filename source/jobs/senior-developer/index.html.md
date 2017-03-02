@@ -101,7 +101,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Part of the application process is to provide links to some code. Some candidates want to share code privately, so if they do, we send them an email with our GitLab.com / GitHub / Bitbucket usernames and also invite them to email code to us.
 * If the code looks good, we ask the candidate to answer two questions about web applications. One is fairly Rails-specific, to do with the MVC pattern, concerns, and services; the other is about the stages a web request goes through when someone gets the GitLab CE repo on GitLab.com.
 * Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
-* Next, candidates will be invited to schedule a 45 minute behavioral interview with a Backend Lead
+* Next, candidates will be invited to schedule a 45 minute [behavioral interview](/handbook/hiring/#behavioral-questions-star) with a Backend Lead
 * Candidates will then be invited to schedule a [technical interview](/jobs/#technical-interview) with a Backend Lead
 * Candidates will be invited to schedule a third one hour interview with our VP of Engineering
 * Finally, candidates will have a 50 minute interview with our CEO

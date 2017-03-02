@@ -19,7 +19,7 @@ through GitLab Pages on GitLab.com using my favorite static site generator
 also fully built on GitLab Pages. Until today, GitLab Pages was exclusive to
 the [Enterprise Edition][ee] of GitLab.
 
-[gl-pages]: http://pages.gitlab.io/
+[gl-pages]: https://pages.gitlab.io/
 [host]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [static]: https://about.gitlab.com/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 [middleman]: https://middlemanapp.com/

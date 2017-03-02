@@ -3,10 +3,16 @@ layout: markdown_page
 title: "Infrastructure"
 ---
 
-## Communication<a name="reach-infra"></a>
+## Common Links
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
-- [**Chat channel**](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+- [Public Infrastructure Issue Tracker](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
+- [Chat channel](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
 
 ## Infrastructure teams
 
@@ -18,11 +24,10 @@ These teams are:
 * Security: keeping GitLab.com safe, both the infrastructure and the application.
 * Database: keeping GitLab.com's database fast and scalable.
 * Gitaly: making Git access scalable and fast.
-* Prometheus: removing the roadblocks that prevent production and development from using prometheus
 
 ### Production Team
 
-Composed by production engineers.
+Composed of production engineers.
 
 Production engineers work on keeping the infrastructure that runs our services
 running fast and reliably.  This infrastructure includes staging, GitLab.com and
@@ -30,25 +35,25 @@ dev.GitLab.org.
 
 Production engineers also have a strong focus on building the right toolsets
 and automations to enable development to ship features as fast and bug free as
-possible leveraging the tools provided by GitLab.com itself - we must dogfood.
+possible, leveraging the tools provided by GitLab.com itself - we must dogfood.
 
 Another part of the job is building monitoring tools that allow quick
-troubleshooting as a first step, then turning this into alerts to notify on
-symptoms to then fix the problem or automate the remediation. We can only scale
+troubleshooting as a first step, then turning this into alerts to notify based on
+symptoms, to then fixing the problem or automating the remediation. We can only scale
 GitLab.com by being smart and using resources effectively, starting with our
 own time as the main scarce resource.
 
-[Job Description](jobs/production-engineer/index.html)
+[Production Engineer](jobs/production-engineer/index.html) job description.
 
 #### Tenets
 
-1. Security: risk reduction to it's minimum, then make the minimum explicit.
+1. Security: reduce risk to its minimum, and make the minimum explicit.
 1. Transparency, clarity and directness: public and explicit by default, we work in the open, we strive to get signal over noise.
-1. Efficiency: smart resource usage, we should not fix scalability problems by throwing more resources but by understanding where the waste is happening to then make it disappear. We should work hard to reduce toil to a minimum by automating all the boring work out of our way.
+1. Efficiency: smart resource usage, we should not fix scalability problems by throwing more resources at it but by understanding where the waste is happening and then working to make it disappear. We should work hard to reduce toil to a minimum by automating all the boring work out of our way.
 
 #### Production and Staging Access
 
-Production access is granted to production engineers, security engineers and on-call heroes.
+Production access is granted to production engineers, security engineers, and (production) on-call heroes.
 
 Staging access is treated at the same level as production access because it contains production data.
 
@@ -58,7 +63,7 @@ There is one temporary exception: release managers require production access to 
 
 #### Production Engineering Resources
 
-- Documentation: refer to runbooks and internal documentation in this very page.
+- Documentation: refer to runbooks and internal documentation on this very page.
 - Chat channels in Slack:
   - Prometheus-alerts: monitoring tools post into this channel, production engineers should monitor this channel to act on alerts. Acting may be remediating or just fixing noisy alerts.
   - Infrastructure: general conversation about infrastructure goes on in this channel. Remember to let the people know when you are about to do some change in the infrastructure.

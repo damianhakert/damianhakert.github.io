@@ -6,7 +6,7 @@ author_gitlab: rebecca
 categories: concepts
 image_title: '/images/blogimages/ci-nice-to-have-post.png'
 description: 77% of developers say Continuous Integration is integral to their everyday work – we break down what that means.
-cta_button_text: 'Join our <strong>Continuous Everything</strong> webcast live!'
+cta_button_text: 'Watch our <strong>Continuous Everything</strong> webcast!'
 cta_button_link: 'https://page.gitlab.com/20170301_continuouseverything.html'
 ---
 
@@ -37,6 +37,6 @@ They rated it as very or extremely important to their everyday work. If this tre
 ## Continuous Methods Aren’t Just for Developers
 We’ve come a long way since a release consisted of distributing CDs to retailers, and it’s not just developers who are changing their methods. The practice of working continuously – releasing in small, manageable iterations often and integrating feedback and changes frequently – is something everyone in a company can adopt, to work more efficiently and collaboratively. In our upcoming webcast, we’ll explore in more detail how the continuous approach can help you deliver customer value at the pace it takes to complete.
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>From Continuous Integration to Continuous Everything</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 1st. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170301_continuouseverything.html">Register here</a>!</p>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Watch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>From Continuous Integration to Continuous Everything</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 1st. <a style="color: rgb(107,79,187);" href="https://page.gitlab.com/20170301_continuouseverything.html">Register here</a>!</p>
 
 _Tweet us [@GitLab](https://twitter.com/gitlab), check out our [job openings](https://about.gitlab.com/jobs/), or add your questions and suggestions to our [issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)!_

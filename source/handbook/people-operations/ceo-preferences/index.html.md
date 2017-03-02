@@ -83,7 +83,8 @@ Reply to emails: Thanks for wanting to chat. I propose we meet in the format pro
 * The [agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
-* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time.
+* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time
+* After each meeting with a potential investor, make sure to update the sheet with the information on these meetings (to be found in the agenda doc for EAs)
 
 ### Formats for invites
 * MTG for meetings in person, either at the "office" or another location.
@@ -101,7 +102,7 @@ Please read our primer as preparation for this meeting: https://about.gitlab.com
 (Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
-By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically.
+By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically. Make sure to remove the Hangout link first and then use the Zoom extention.
 
 <br>
 * Meetings at the office:
@@ -136,6 +137,8 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 {: #travel}
 
 EA does research for the best option for a flight and propose this to the CEO before booking.
+Make sure to add a calendar item for 2 hours before take off for check in and add a separate one for travel time before that in the CEO's calendar
+If a flight was changed or not taken due to delays or other circumstances, make sure to check with the airline for the persons flight status
 Current preferences for flights are:
 * Aisle seat
 * Check a bag for all trips longer than one night

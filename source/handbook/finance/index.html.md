@@ -144,7 +144,7 @@ Invoices will arrive by email to ap@gitlab.com.
 
 1. On the home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
 1. Select the appropriate vendor record. If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3.
-    * Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)    
+    * Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
     * Enter the banking information in the "Comments" field then click “Save.”
     * Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
 1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
@@ -155,7 +155,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.  
+1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
 1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
 1. Click "Save.”
 1. In Google Drive, file invoice in the “Unpaid” folder.
@@ -294,4 +294,18 @@ In Netsuite:
 
 ### Asset Tracking
 
+<<<<<<< HEAD
 See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/system-processes/#asset-tracking)
+=======
+See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)
+
+## Spend reduction
+
+When reducing spend, we'll not take the easy route of (temporarily) reducing discretionary spending.
+Discretionary spending includes expenses like travel, conferences, gifts, bonuses, merit pay increases and summits.
+By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
+Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals.
+But we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
+Instead, we should do the hard work of identifying positions and costs that are not contributing to our goals.
+Even if this causes a bit more disruption in the short term, it will help us ensure we stay a great place to work for the people who are here.
+>>>>>>> master
