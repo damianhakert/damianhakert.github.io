@@ -1,12 +1,3 @@
-- topic: Dublin Tech Summit
-  type: Enterprise
-  date: Feb. 15-16, 2017
-  description: |
-               Global leaders in technology and innovation will convene in Dublin to discuss global trends and trends shaping the future of technology.
-  location: Dublin, Ireland
-  social_tags: DublinTechSummit2017, GitLabDoesDublin
-  event_url: http://dublintechsummit.com/
-
 - topic: Cloud Expo Europe
   type: DevOps, Containers
   date: March 15-16, 2017
@@ -29,7 +20,7 @@
 
 - topic: Open Source Summit North America
   type: Open Source, Dev
-  date: Sept. 11-13 2017
+  date: Sep 11-13 2017
   description: |
                LinuxCon, ContainerCon, and CouldOpen all under one roof this year. Meet us at the Open Source Summit and share your collaboration stories.
   location: Los Angeles, CA USA
