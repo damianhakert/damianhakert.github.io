@@ -11,7 +11,7 @@ description: What we learned from our community vetting our proposal to leave th
   var disqus_identifier = 'https://about.gitlab.com/2017/02/09/why-we-are-not-leaving-the-cloud/';
 </script>
 
-Towards the end of 2016 we said we were [leaving the cloud for bare metal](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and shared our [hardware proposal](https://news.ycombinator.com/item?id=13153031). In December 2016, after receiving hundreds of comments and emails filled with advice and warnings, [Sid and the team decided](https://gitlab.com/gitlab-com/infrastructure/issues/727#note_20044060) to keep GitLab.com in the cloud. The rest of the post summarizes some of the great community support and feedback we received and ends with how we are commited to making GitLab.com fast and stable in the cloud. 
+Towards the end of 2016 we said we were [leaving the cloud for bare metal](https://about.gitlab.com/2016/11/10/why-choose-bare-metal/) and shared our [hardware proposal](https://news.ycombinator.com/item?id=13153031). In December 2016, after receiving hundreds of comments and emails filled with advice and warnings, [Sid and the team decided](https://gitlab.com/gitlab-com/infrastructure/issues/727#note_20044060) to keep GitLab.com in the cloud. The rest of the post summarizes some of the great community support and feedback we received and ends with how we are committed to making GitLab.com fast and stable in the cloud. Our decision was based on  more than what is below but we wanted to give you a good summary of all the interesting things that were shared publicly.
 
 <!-- more -->
 
@@ -138,7 +138,7 @@ Most of the scaling headaches have occurred because Git is read-heavy: looking a
 1. We spread all our storage into [multiple NFS shards](https://gitlab.com/gitlab-com/infrastructure/issues/711) and [dropped CephFS](https://gitlab.com/gitlab-com/infrastructure/issues/817) from our stack.
 2. We created [Gitaly](https://gitlab.com/gitlab-org/gitaly) so that we can stop relying on NFS for horizontal scaling and speed up Git access through caching.
 
-[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. With Gitaly the gitrpc travels over the network and the disk is accessed locally. Instead of all the disk access going over the network. It will also be used to improve our monitoring of Git resource usage to make better decisions; currently we are only sampling processes. 
+[Gitaly](https://gitlab.com/gitlab-org/gitaly) will serve as the single interface for all our Git access throughout our stack. With Gitaly the gitrpc travels over the network and the disk is accessed locally. Instead of all the disk access going over the network. It will also be used to improve our monitoring of Git resource usage to make better decisions; currently we are only sampling processes.
 
 We would love if the community would challenge our use of Gitaly with the same passion they challenged us before. What do you think of the software architecture? Can a caching layer like this scale? What alarm bells are set off? We can’t wait to hear your feedback!
 
