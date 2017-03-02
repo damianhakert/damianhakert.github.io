@@ -16,6 +16,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  [USB-C Adapter for New Macbooks](https://www.amazon.com/gp/product/B00VU2K10G/ref=s9_simh_gw_g147_i1_r?ie=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=0Q5B62MGPPH9AFDBSHA6&pf_rd_t=36701&pf_rd_p=b13ec477-194d-4f63-971b-ca6229de96a2&pf_rd_i=desktop)
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
+    *  [Portable 15" external monitor](https://www.amazon.com/ASUS-MB169B-1920x1080-Portable-Monitor/dp/B013XFJKGI) ([USB-C version](https://www.amazon.com/MB169C-1920x1080-Powered-Portable-Monitor/dp/B01C83BE06) for new MacBooks)
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
     *  [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
     *  [Headset](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=ac5827eb0f710d43c99d3715a05c0470fc91de286c1b5b57d4ff3412191a59385cab6f561626d062ee8e07a4b043fc12ab31a822639ade516ee00e2f5c61576a5ddb7e97cbb90a6ea5af3add73c1d412017bb8691535185d1776390844ca2825)
