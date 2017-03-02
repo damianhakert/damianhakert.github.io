@@ -16,7 +16,8 @@ $purple-section-gradient-to: #3c257b;
     left: -100px;
     right: -100px;
     top: -25%;
-    height: 150%;
+    min-height: 150%;
+    min-width: 120%;
     z-index: 9;
     fill: $color-primary;
   }
