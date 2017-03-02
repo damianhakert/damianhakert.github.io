@@ -3,10 +3,12 @@ title: "Hosting on GitLab.com with GitLab Pages"
 date: 2016-04-07 10:00:00
 categories: tutorial
 author: Marcia Ramos
-author_twitter: virtuacreative
+author_gitlab: marcia
+author_twitter: XMDRamos
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
 twitter_image: '/images/tweets/gitlab-pages-setup.png'
 description: "Learn how to host your website on GitLab.com with GitLab Pages"
+guest: true
 ---
 
 In this article we provide you with detailed information about using [GitLab Pages][pages] to
@@ -46,6 +48,8 @@ for creating your own project.
 
 **Note:** [GitLab Pages was introduced in GitLab EE 8.3][pages-introduced].
 It is available for [GitLab.com][sign-up] and [GitLab Enterprise Edition][gitlab-ee] users.
+Update: [GitLab 8.17](https://about.gitlab.com/2017/02/22/gitlab-8-17-released/#gitlab-pages-in-community-edition)
+brought GitLab Pages to GitLab Community Edition! Enjoy!
 {: .note}
 
 ## Website Types
@@ -119,7 +123,8 @@ Here is an overview of the steps we'll take, assuming you already have your GitL
 
 ## Step-by-step
 
-Now we will go through this process step-by-step.
+Now we will go through this process step-by-step. Update: watch the video tutorial on 
+[How to Publish a Website with GitLab Pages on GitLab.com from a forked project](https://youtu.be/TWqh9MtT4Bg)!
 
 ### Step 1: Create a new project
 {: #creating-new-project}
@@ -369,7 +374,7 @@ Yes, you can use any [Static Site Generator][SSGs] available.
 ### Can I use free SSL/TLS digital certificates?
 {: .no_toc}
 
-Yes, absolutely! Need a suggestion? Try [StartSSL] or [Let's Encrypt][lets-encrypt].
+Yes, absolutely! Need a suggestion? Try [Let's Encrypt][lets-encrypt] or [CloudFlare].
 
 ### Can I contribute to the themes?
 {: .no_toc}
@@ -406,10 +411,11 @@ We're looking forward to seeing your sites!
 ## About guest author Marcia Ramos
 {: .no_toc}
 
-[Marcia] is a back-end developer specialized in WordPress and Jekyll sites at [Virtua Creative],
-though she does some front-end too. Her daily work is based on version-controlled systems for almost 15 years.
+[Marcia] is a backend web developer specialized in WordPress and Jekyll sites at [Virtua Creative],
+though she does some frontend too. Her daily work is based on version-controlled systems for almost 15 years.
 She is driven by her thirst for knowledge and her eagerness to continuously expand her horizons.
 When she is not coding, she is writing articles, studying, teaching or contributing to open source projects here and there.
+Update: she's joined the [GitLab Team] in May, 2016. 
 
 [doc-artifacts]: http://doc.gitlab.com/ee/ci/yaml/README.html#artifacts
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
@@ -446,11 +452,13 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [gitlab83]: https://about.gitlab.com/2015/12/22/gitlab-8-3-released
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [gitlab-ee]: https://about.gitlab.com/features/#enterprise
+[GitLab Team]: /team/#XMDRamos
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up, it's free!"
 [twitter]: https://twitter.com/gitlab
 
 [Brunch]: http://brunch.io/
 [Bundler]: http://bundler.io/
+[CloudFlare]: /2017/02/07/setting-up-gitlab-pages-with-cloudflare-certificates/
 [Coffee Script]: http://coffeescript.org/
 [dns-A]: https://support.dnsimple.com/articles/a-record/
 [dns-cname]: https://en.wikipedia.org/wiki/CNAME_record
@@ -467,7 +475,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [Jekyll Documentation]: http://jekyllrb.com/docs/home/
 [Jekyll Plugin]: https://jekyllrb.com/docs/plugins/
 [Lektor]: https://www.getlektor.com/
-[lets-encrypt]: https://letsencrypt.org/
+[lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Metalsmith]: http://www.metalsmith.io/
@@ -483,7 +491,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [StartSSL]: https://startssl.com/
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
-[Marcia]: https://gitlab.com/u/virtuacreative
+[Marcia]: https://gitlab.com/u/marcia
 [Virtua Creative]: https://virtuacreative.com.br/en/
 
 [ci-examples]: https://gitlab.com/groups/pages

@@ -13,11 +13,11 @@ GitLab is a remote-only company, which means we have the freedom to live where w
 
 ## Team calls
 
-Almost every day we have a [team call](https://about.gitlab.com/handbook/#team-call), not just for company updates but to take it in turns filling in the rest of the team about what we’ve been up to that weekend. I’ve been given a tour of team members’ new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I’ve never had in any office job. I’ve worked at companies where I didn’t know the names of anyone who worked on a different floor. "There are no floors at GitLab," Douwe said to me on a call, and it's true both literally and metaphorically. Because you’ve chatted with everyone on team calls, everyone feels approachable.
+Almost every day we have a [team call](https://about.gitlab.com/hanbook/communication/#team-call), not just for company updates but to take it in turns filling in the rest of the team about what we’ve been up to that weekend. I’ve been given a tour of team members’ new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I’ve never had in any office job. I’ve worked at companies where I didn’t know the names of anyone who worked on a different floor. "There are no floors at GitLab," Douwe said to me on a call, and it's true both literally and metaphorically. Because you’ve chatted with everyone on team calls, everyone feels approachable.
 
 ## Coffee break calls
 
-We also have regular one-on-one chats that can be about anything (as long as it’s not work!). Acknowledging that we don’t have a water cooler around which to gather, we make time for shooting the breeze online instead. And it’s kind of cool to have my [coffee break](https://about.gitlab.com/handbook/#coffee-break-calls) with someone on the other side of the world, in an entirely different time zone or season.
+We also have regular one-on-one chats that can be about anything (as long as it’s not work!). Acknowledging that we don’t have a water cooler around which to gather, we make time for shooting the breeze online instead. And it’s kind of cool to have my [coffee break](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls) with someone on the other side of the world, in an entirely different time zone or season.
 
 ## Summits
 
@@ -27,7 +27,7 @@ Of course, nothing beats getting to know your team in person, which is why we ge
 
 ## Secret Santa
 
-Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/miscellaneous/). Because it’s a bit much to expect Santa to deliver to 33 different countries before he even starts his Christmas rounds, we’ll be shipping to our recipients directly or exchanging gifts at the Cancun Summit. Watch this space for the highlights!
+Because holiday cheer knows no borders, this year for the first time we’re doing a company-wide [Secret Santa](https://about.gitlab.com/handbook/secret-santa/). Because it’s a bit much to expect Santa to deliver to 33 different countries before he even starts his Christmas rounds, we’ll be shipping to our recipients directly or exchanging gifts at the Cancun Summit. Watch this space for the highlights!
 
 ## Meet-ups
 

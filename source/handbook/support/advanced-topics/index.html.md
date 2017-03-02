@@ -53,3 +53,9 @@ manager, and we need everyone to know LDAP so please do that first.
 ### Git Annex
 
 [Git Annex Docs](https://docs.gitlab.com/ee/workflow/git_annex.html)
+
+### GitHost Administration
+
+[GitHost Administration](/handbook/support/advanced-topics/githost)
+
+

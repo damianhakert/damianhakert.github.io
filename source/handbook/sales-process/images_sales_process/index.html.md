@@ -132,18 +132,14 @@ Once the above has happened, please make sure the following actions are done:
 
 ### Process after you sell a Premium Support Subscription <a name=#premium-support></a>
 
-Once you close a deal that includes Premium Support, you need to:
-
-1. [Request a Dedicated Service Engineer](/handbook/support/#dedicated-service-engineers) as described in the Support Handbook.
-1. Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
-1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+Once you close a deal that includes Premium Support, you need to follow the steps outlined in [Premium Support Customer Onboarding](/handbook/customer-success/premium_support_on-boarding/).
 
 
 ### Processing Orders in Recurly <a name="processing"></a>
 
 #### Credit Card orders via Recurly
-1. Order comes in via email from recurly and will always have an invoice # on it.
+
+1. Order comes in via email from Recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact, and opportunity for the name on the invoice.
 1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)

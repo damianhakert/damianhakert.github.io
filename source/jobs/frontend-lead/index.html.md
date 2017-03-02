@@ -23,18 +23,23 @@ title: "Frontend Lead"
 
 ## Requirements for Applicants
 
-* Experience leading, mentoring, and training teams of frontend engineers
+* At least 1 year of experience leading, mentoring, and training teams of frontend engineers
 * Experience working on a production-level JavaScript applications
 * Self-motivated and strong organizational skills
 * Strong understanding of CSS
 * Expert knowledge of JavaScript
+* Passionate about testing and design principles
 * Basic knowledge of Vue.js is a plus but not a requirement
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Knowledge of Ruby on Rails is a plus
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 ## Relevant links
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
+
+
+
+**NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.

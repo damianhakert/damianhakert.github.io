@@ -30,8 +30,6 @@
   logo: /images/organizations/logo_ericsson.svg
 - name: Expedia
   logo: /images/organizations/logo_expedia.svg
-- name: Intel
-  logo: /images/organizations/logo_intel.svg
 - name: VMWare
   logo: /images/organizations/logo_vmware.svg
 - name: Uber
@@ -46,3 +44,5 @@
   logo: /images/organizations/logo_nomura.svg
 - name: Citrix
   logo: /images/organizations/logo_citrix.svg
+- name: Siemens
+  logo: /images/organizations/logo_siemens.svg

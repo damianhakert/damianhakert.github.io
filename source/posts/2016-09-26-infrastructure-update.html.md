@@ -51,6 +51,6 @@ Watch the recording or download the slides to see how we're working through our 
 
 <!-- identifiers --> 
 [gitlab]: https://gitlab.com/
-[team-call]: https://about.gitlab.com/handbook/#team-call
-[values]: https://about.gitlab.com/handbook/#values
+[team-call]: https://about.gitlab.com/hanbook/communication/#team-call
+[values]: https://about.gitlab.com/handbook/values
 

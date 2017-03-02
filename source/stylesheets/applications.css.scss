@@ -1,74 +1,60 @@
 @import "variables";
 
-p {
-  font-size: 17px;
-  font-weight: 200;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 16px;
-  padding: 14px;
-  color: $applications-title-color;
-  border-bottom: solid 4px $color-secondary-alt;
-}
-
-hr {
-  margin: 20px 0;
-}
-
 .application-container {
-  position: relative;
   width: 100%;
-  height: 125px;
-  overflow: hidden;
-  background: $color-primary;
-  background-size: cover;
-}
-
-.application-overlay {
-  background: rgba($color-primary, .62);
-  height: 500px;
-}
-
-.application-content {
-  padding-top: 25px;
+  padding: 67px;
+  background: linear-gradient(to right,
+    $features-gallery-background-gradient-end 0%,
+    $features-gallery-background-gradient-middle 40%,
+    $features-gallery-background-gradient-begin 100%);
   text-align: center;
-  color: $color-white;
-  width: 50%;
-  margin-left: 25%;
-}
 
-.container-text {
-  padding: 2%;
-}
+  h1 {
+    color: $color-white;
+    font-weight: 100;
+    padding-bottom: 30px;
+  }
 
-.row {
-  padding-top: 15px;
-}
-
-.app {
-  margin-bottom: 15px;
-  box-shadow: 0 3px 4px $applications-app-shadow-color;
-  padding: 10px;
-  min-height: 175px;
-  background-color: $color-white;
+  p {
+    color: $color-gray-light;
+    font-size: 22px;
+    font-weight: lighter;
+  }
 }
 
 .search-container {
   width: 100%;
   position: relative;
-  z-index: 1;
+  background-color: $color-gray-extra-light;
+  border-top: 1px solid $color-gray-light;
+  border-bottom: 1px solid $color-gray-light;
+
+  .container {
+    position: relative;
+    display: flex;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    background-color: transparent;
+    border: 0;
+    font-weight: 100;
+    font-size: 22px;
+    flex-grow: 1;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .search-apps-container-icon {
+    color: $search-border-color;
+    cursor: pointer;
+    align-self: center;
+  }
 }
 
-.search-apps {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid $border-color;
-  border-radius: 4px;
-  position: relative;
-  z-index: 2;
-}
 // scss-lint:disable all
 .selected-suggestion {
   background: $dropdown-hover-color !important;
@@ -80,10 +66,13 @@ hr {
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 1;
+  box-shadow: $applications-search-box-shadow-color 0 2px 4px;
+  background: $color-white;
 
   li {
-    background: $color-white;
+    color: $color-gray;
+    font-size: 18px;
     list-style: none;
     margin: 0;
     padding: 12px;
@@ -95,17 +84,146 @@ hr {
       cursor: pointer;
     }
   }
+
+  .container {
+    display: block;
+  }
 }
 
 .hl {
-  background: $applications-highlight-color;
+  background: $color-secondary-alt;
 }
 
-.search-apps-container-icon {
-  position: absolute;
-  z-index: 2;
-  right: 12px;
-  bottom: 15px;
-  color: $search-border-color;
-  cursor: default;
+.categories-header,
+.category-title {
+  color: $color-primary;
+  text-align: center;
+}
+
+.categories-header {
+  padding: 50px 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.category-title {
+  font-size: 30px;
+  padding: 50px;
+}
+
+.app-categories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.app-category {
+  padding: 35px;
+  margin-left: 38px;
+
+  svg,
+  .category-name {
+    display: inline-block;
+  }
+
+  svg {
+    fill: $color-red;
+  }
+
+  .category-name {
+    width: 61px;
+    padding-left: 15px;
+    height: auto;
+    vertical-align: middle;
+    color: $blog-color-text;
+  }
+
+  > a {
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin-left: 0;
+
+    svg,
+    .category-name {
+      display: block;
+    }
+
+    svg {
+      margin-left: 6px;
+    }
+
+    .category-name {
+      padding: 0;
+      width: 88px;
+      text-align: center;
+    }
+  }
+}
+
+hr {
+  border-color: $color-gray-extra-light;
+}
+
+.category-applications {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &::after {
+    content: "";
+    width: 300px;
+  }
+}
+
+.application {
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+
+  .app-title {
+    font-size: 22px;
+  }
+
+  .app-content {
+    font-size: 16px;
+    font-weight: 300;
+    color: $color-gray;
+
+    a {
+      color: $color-primary-alt;
+      text-decoration: underline;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .link {
+    font-size: 20px;
+    color: $color-secondary;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+  }
 }

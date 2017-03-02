@@ -1,0 +1,28 @@
+title: "GitSwarm vs. GitLab"
+pdf: gitlab-vs-gitswarm.pdf
+competitor_one:
+  name: 'GitLab'
+  logo: '/images/comparison/gitlab-logo.svg'
+competitor_two:
+  name: 'GitSwarm'
+  logo: 'null'
+last_updated: 'January 31, 2017'
+features:
+  - title: ""
+    description: ""
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: ""
+    description: ""
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false
+  - title: ""
+    description: ""
+    link_description: ""
+    link:
+    competitor_one: true
+    competitor_two: false

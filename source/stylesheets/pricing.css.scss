@@ -143,7 +143,7 @@
 
   // Tablet & Mobile
   @media (min-width: $screen-md-min) {
-    min-height: 695px;
+    min-height: 735px;
   }
 
   .edition-name {
@@ -240,6 +240,7 @@
     }
   }
 
+
   .edition-pricing {
     position: relative;
     overflow: auto;
@@ -256,41 +257,42 @@
     .featured-item-headline,
     .featured-item-headline-small {
       display: inline-block;
-      width: 50%;
       margin-bottom: 0;
+      padding-bottom: 8px;
       color: $color-primary-alt;
     }
 
     .featured-item-headline {
-      float: left;
       font-family: $font-family-sans-serif;
       font-size: 28px;
       font-weight: bold;
+      text-align: right;
 
       // Tablet & Mobile
       @media (max-width: $screen-md-min) {
         margin-top: 20px;
-        font-size: 38px;
-        text-align: right;
-        padding-right: 5px;
+        font-size: 40px;
+        padding-right: 3px;
       }
 
       // Regular Desktop
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 38px;
+        padding-left: 0;
+        padding-right: 8px;
       }
 
       // Large Desktop
       @media (min-width: $screen-lg-min) {
         margin-top: 8%;
-        font-size: 48px;
-        padding-left: 8px;
+        font-size: 40px;
+        padding-left: 0;
+        padding-right: 0;
       }
     }
 
     .featured-item-headline-small {
-      float: right;
       font-weight: 700;
       text-align: left;
 
@@ -298,21 +300,35 @@
       @media (max-width: $screen-md-min) {
         margin-top: 20px;
         text-align: left;
-        padding-left: 5px;
+        padding-left: 3px;
       }
 
       // Regular Desktop
       @media (min-width: $screen-md-min) {
         margin-top: 15%;
         min-height: 40px;
-        font-size: 16px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
       }
 
       // Large Desktop
       @media (min-width: $screen-lg-min) {
         font-size: 15px;
         margin-top: 12%;
-        padding-left: 12px;
+        padding-left: 5px;
+      }
+    }
+
+    .featured-item-headline-smaller {
+      font-size: 14px;
+      text-decoration: none;
+      color: $color-primary-alt;
+      margin-bottom: -13.5px;
+      margin-top: -5px;
+
+      @media (max-width: $screen-md-min) {
+        margin-bottom: 10px;
       }
     }
   }

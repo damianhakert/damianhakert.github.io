@@ -3,6 +3,7 @@ title: GitLab Resellers
 suppress_header: true
 extra_js:
   - libs/salvattore.min.js
+  - resellers.js
 ---
 
 .reseller-hero.text-center
@@ -11,11 +12,28 @@ extra_js:
       Meet our Authorised Resellers
     %p
       At GitLab, we value your success, and we know sometimes that means getting local help or help with special expertise. We have chosen these organizations carefully, enabled them to help you, and have authorised them to resell our products and services in your market.
+.container.clearfix.text-center
+  .reseller-category-section
+    %h4.text-uppercase Select Region
+    .reseller-regions
+      .reseller-region#na
+        = partial '/images/resellers/north-america-icon.svg'
+        %span.region-name North America
+      .reseller-region#la
+        = partial '/images/resellers/latin-america-icon.svg'
+        %span.region-name Latin America
+      .reseller-region#apac
+        = partial '/images/resellers/apac-icon.svg'
+        %span.region-name Asia / Pacific
+      .reseller-region#emea
+        = partial '/images/resellers/emea-icon.svg'
+        %span.region-name Europe, Middle East &amp; Africa
+
 .container
-  %ul.list-unstyled.resellers-list.clearfix{ data: { columns: true } }
+  .list-unstyled.resellers-list.clearfix{ data: { columns: true } }
     - data.resellers.each do |reseller|
       = partial "reseller", locals: { reseller: reseller }
-    %li.animated.reseller-item.reseller-you
+    .animated.reseller-item.reseller-you.region-apac.region-emea.region-la.region-na
       %h3.reseller-you-title.text-center
         Your Company?
       = image_tag "/images/resellers/logo.svg", class: "img-responsive center-block reseller-image reseller-image-gitlab"

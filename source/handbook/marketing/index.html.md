@@ -217,7 +217,7 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Joe][joe]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Vacant][Vacant]{:.btn .btn-orange}
 
 ### Business Development
 {: .no_toc}
@@ -227,11 +227,7 @@ What is BD (to be included).
 [Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv .extra-space}
 [Handbook][Business Development]{:.btn .btn-purple .extra-space}
 <br>
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Dan][dan]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Kris][kris]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
 ### Field Marketing
@@ -328,7 +324,6 @@ What is Dev. Adv. (to be included).
 [Job Description](/jobs/developer-advocate){:.btn .btn-purple-inv}
 [Handbook][Developer Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Amanda][amanda]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Ivan][ivan]{:.btn .btn-orange}
 
 ### Community Advocacy
 {: .no_toc}
@@ -339,7 +334,6 @@ What is Comm. Adv. (to be included).
 [Handbook][Community Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Matija][cmattrex]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Connor][connorshea]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Felipe][cabargas]{:.btn .btn-orange}
 
 ### Technical Writing
 {: .no_toc}
@@ -420,7 +414,7 @@ What is Partner Marketing (to be included)
       </div>
     </div>
   </a>
-  <a href="https://gitlab.mybrightsites.com/">
+  <a href="https://gitlab.myshopify.com/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/swag_shop.png" alt="GitLab Marketing - Design - Icon">
@@ -786,19 +780,12 @@ We use our chat internally as a communication tool. The marketing channels are a
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
 [axil]: https://gitlab.com/u/axil
-[braden]: https://gitlab.com/u/BradenC
-[cabargas]: https://gitlab.com/u/cabargas
 [chet]: https://gitlab.com/u/chetbackman
 [cmattrex]: https://gitlab.com/u/cmattrex
-[colton]: https://gitlab.com/u/coltontaylor
 [connorshea]: https://gitlab.com/u/connorshea
-[dan]: https://gitlab.com/u/dparris
 [emily]: https://gitlab.com/u/emilykyle
 [erica]: https://gitlab.com/u/lindberg
-[ivan]: https://gitlab.com/u/inem
-[joe]: https://gitlab.com/u/joelucas
 [jennifer]: https://gitlab.com/u/jjcordz
-[kris]: https://gitlab.com/u/Touzel2
 [luke]: https://gitlab.com/u/lukebabb
 [marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright

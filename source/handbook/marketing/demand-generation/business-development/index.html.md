@@ -41,13 +41,15 @@ Business Development Handbook
 
 Welcome to GitLab and congratulations on landing a job with the best open source tech company, GitLab. We are excited to have you join the team! We look forward to working closely with you and seeing you grow and develop into a top performing salesperson.
 
-On the BDR team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
+As a BDR your focus will be on qualifying inbound leads and SDR focuses on generating demand via outbound efforts.  
+
+On this team we work hard, but have fun too. We will work hard to guarantee your success if you do the same. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, solutions, and quirkiness.
 
 Being a BDR can come with what seems as long days, hard work, frustration, and even at times, failure. If you have the right mindset and come to work with a tenacious, hungry attitude you will see growth personally and in your career. security. GitLab is a place with endless opportunity. Let’s make it happen!
 
 #### Your Role<a name="Role"></a>
 
-As a Business Development Representative, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
+As a BDR, you will be dealing with the front end of the sales process. You play a crucial role that helps bridge the gap between sales and marketing. You will be tasked with generating qualified opportunities for GitLab as you look for leads, research companies, industries, and different roles.
 
 As you gain knowledge, you will be able to aid these key players in solving problems within the developer lifecycle. There are numerous resources at your fingertips that we have created to help you in this process. You have:
 
@@ -56,7 +58,7 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 #### Onboarding<a name="onboard"></a>
 
-1. The GitLab [Genral Onboarding Issue](https://dev.gitlab.org) will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals.
+1. The GitLab [Genral Onboarding Issue](https://gitlab.com/gitlab-com/peopleops/issues/) will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals.
 
 1. The [BDR Onboarding Issue](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/bdr-onboarding-checklist.html) will more specifically bring you up to speed with your role as a BDR. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
 
@@ -64,7 +66,7 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 #### Inbound Process<a name="Inbound"></a>
 
-Each rep will be placed into the Marketo Queue and will receive a high volume of leads to work on a monthly and quarterly basis. Criteria for those leads are set by Marketo and the Director of Demand Generation
+Each Business Development Rep (BDR) will be placed into the Marketo Queue and will receive a high volume of leads to work on a monthly and quarterly basis. Criteria for those leads are set by Marketo and the Director of Demand Generation
 
 - Primary Responsibilities:
    - Manage and help inbound requests to community@gitlab.com and sales@gitlab.com
@@ -74,21 +76,9 @@ Each rep will be placed into the Marketo Queue and will receive a high volume of
 - Rules of engagement
   - Inbound to work off of leads within SFDC
   - Inbound does not touch any lead that has activity on it within the last 45 days by a different BDR.
-
-#### Outbound Process<a name="Outbound"></a>
-
-Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly or quarterly basis.
-
-Criteria for those accounts (still TBD):
-
-- Tier
-- Industry
-- Number of Employees
-- Revenue
-- Populated with contacts and activity
-- Last activity date
-- Lost opportunities
-- Former or current customers
+  - Inbound lead from Large/Strategic account list should be converted as a contact, with no opportunity, and the contact owner will be the SDR on the account.
+    - If no SDR is assigned, assign to Account Executive (AE) on the account
+    - If no AE, BDR should ask Regional Director for guidance, using the chatter function in salesforce.com
 
 Help Marketing create campaigns focusing on:
 
@@ -229,7 +219,7 @@ Your messaging for each one will be different. An end user or lower level develo
 
     Schedule meeting
     "Do you have 15 minutes on (specific day and time) to discuss your (example - developer life cycle)?"
-      
+
 
 #### Qualifying<a name="inboundQualify"></a>
 
@@ -271,10 +261,10 @@ The following [doc](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZh
 
 Sending leads to the right person
 
-- [APAC](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
-- [EMEA](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [North America](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [South America](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
+- [APAC](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [EMEA](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [North America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [South America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
    - Note: BDRs do not set up meetings for resellers.
 
 #### How to Videos/Tutorials<a name="HowTos"></a>
@@ -294,9 +284,9 @@ Helpful [Tutorials](https://drive.google.com/open?id=0B1W9hTDXggO1NGJwMS12R09lak
 
 #### Coined Terms
 
- - #BDRing - Doing your job...Kris Touzel
+ - #BDRing - Doing your job
  - #SQLing - Winning at your job...Ryan Caplin
- - #BDR - Boss Destroying Revenue...Joe Lucas
+ - #BDR - Boss Destroying Revenue
 
 #### Frequently Asked Questions<a name="questions"></a>
 

@@ -19,7 +19,7 @@ title: "Blog Handbook"
 ## GitLab Blog
 {: #blog}
 
-Our [Blog] is managed by the Content Team.
+Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
@@ -441,7 +441,7 @@ Just **make sure** to [validate the Twitter Card][twitter card validator] before
 
 - The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads
 - You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook]
-- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
+- For the Hacker News guidelines please see the [Hacker News section of the social media guidelines](/handbook/marketing/social-media-guidelines/#hacker-news).
 - What worked for Apigee was the 'collaboration in the 21st century' theme
 - Explore a reading club such as [a NoSQL summer]
 - Milk [GitLab Flow] for more blog posts and videos
@@ -496,27 +496,34 @@ sure to provide the correct information, and do not add nor remove anything from
 ---
 title: "This is the post title"
 author: Firstname Lastname
-author_twitter: userID
+author_gitlab: GitLab.com username # included in February, 2017
+author_twitter: Twitter username
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post" # included in August, 2016
 ---
 ```
 
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image` and `description`!
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter! Social Media information: `twitter_image`, `description`, CTA buttons, `author_gitlab`, and `guest`!
 {: .alert .alert-warning .ambar}
 
 ```yaml
 ---
 title: "This is the post title"
 author: Firstname Lastname
-author_twitter: userID
+author_gitlab: GitLab.com username
+author_twitter: Twitter username
 categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 description: "Short description for the blog post"
-twitter_image: '/images/tweets/post-screenshot-image.png'
+twitter_image: '/images/tweets/post-screenshot-image.png' # optional
+cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
+cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
+guest: true # required when the author is not a GitLab Team Member
 ---
 ```
+
+The following sections describe each entry of the frontmatter.
 
 #### Title
 
@@ -528,14 +535,29 @@ Do the same for headings.
 Use the author's full name. If the name has special chars, type it within
 double quotes `"Full Name"`.
 
+#### GitLab.com Handle
+
+Add the author's GitLab.com handle (username only, without "@"). If your username is `johndoe`,
+accessible under `https://gitlab.com/johndoe`, this field should be filled as follows:
+
+```yaml
+author_gitlab: johndoe
+``` 
+
+This field is required.
+
+Introduced in January, 2017.
+{:.note}
+
+
 #### Twitter Handle
 
-Add the author's Twitter handle (username ony). If your username is `johndoe`,
+Add the author's Twitter handle (username only, without "@"). If your username is `johndoe`,
 accessible under `https://twitter.com/johndoe`, this field should be filled as follows:
 
 ```yaml
 author_twitter: johndoe
-``` 
+```
 
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
@@ -628,6 +650,49 @@ The standard procedure for this image is:
 
 For further information, read the Social Media Sharing section at the [Social Marketing Handbook].
 
+#### Call To Action (CTA)
+{: #cta}
+
+There are two new possible entries in the frontmatter:
+
+```yaml
+cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!'
+cta_button_link: 'https://page.gitlab.com/xxx.html'
+```
+
+The first entry is text, referring to the link added to the second one. Therefore,
+always use them together.
+
+The examples above link to a release webcast, but you can add any pair of text
+and link to this CTA. Use it wisely.
+
+**Do not** include any [UTM parameters] to the link. Always wrap their values with quotes.
+{:.alert .alert-warning}
+
+The final result is a red button over the cover image of the post.
+
+![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
+
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+
+This option was introduced in January/2017.
+{:.note}
+
+#### Guest
+
+The variable `guest` indicates whether the author is a guest (anyone who's not a GitLab Team member). It should be only included in the frontmatter when that's the case. Technically, it's a conditional variable (`true` or `false`) to link the author's name their profile in the [Team](/team/) page.
+
+For Community Posts, Guest Posts, Partner Posts, and Crossposts, it must be present:
+
+```yaml
+guest: true
+```
+
+For Team Posts, please do not add it at all (instead of setting it to `false`).
+
+Introduced in February, 2017.
+{:.note}
+
 #### Comments
 
 Comments are present in all posts by default. Set it to false only if you have a strong reason to
@@ -657,7 +722,7 @@ good to start writing.
 
 ### Writing Style
 
-At GitLab, we use [American English](/handbook/#american-english) as the standard written language.
+At GitLab, we use [American English](/handbook/communication/#american-english) as the standard written language.
 
 GitLab content primarily follows [AP Style],
 which is searchable online. Any questions that cannot be answered
@@ -936,6 +1001,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [twitter card validator]: https://cards-dev.twitter.com/validator
 [twitter cards]: https://dev.twitter.com/cards/overview
 [unsplash]: https://unsplash.com/
+[UTM parameters]: http://www.annielytics.com/blog/analytics/how-to-trash-your-google-analytics-account-with-campaign-tagging/
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/

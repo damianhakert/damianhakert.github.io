@@ -26,4 +26,4 @@ Designers report to the UX/Design Lead.
 * Experience defining the high-level strategy (the why) and creating design deliverables (the how) based on research.
 * Passion for creating visually pleasing and intuitive user experiences.
 * Collaborative team spirit with great communication skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.

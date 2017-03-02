@@ -42,13 +42,16 @@
               %span.value{'data': {'min': '0.8', 'max': '1.2'}} 0.8 to 1.2
             %li
               %span.key Little experience
-              %span.value{'data': {'min': '0.8', 'max': '1.0'}} 0.8 to 1.0
+              %span.value{'data': {'min': '0.8', 'max': '0.9'}} 0.8 to 0.9
             %li
-              %span.key Average experience
-              %span.value{'data': {'min': '0.9', 'max': '1.1'}} 0.9 to 1.1
+              %span.key Below average experience
+              %span.value{'data': {'min': '0.9', 'max': '1.0'}} 0.9 to 1.0
+            %li
+              %span.key Above average experience
+              %span.value{'data': {'min': '1.0', 'max': '1.1'}} 1.0 to 1.1
             %li
               %span.key A lot of experience
-              %span.value{'data': {'min': '1.0', 'max': '1.2'}} 1.0 to 1.2
+              %span.value{'data': {'min': '1.1', 'max': '1.2'}} 1.1 to 1.2
       .col-sm-6
         .dropdown.country
           %button.dropdown-menu-toggle.btn{type: 'button', 'data-toggle' => 'dropdown'}
@@ -119,7 +122,7 @@
       .explanation
       Find out
       = succeed '.' do
-        %a{href: '/handbook/people-operations/global-compensation-framework#compensation-calculator'} how our calculator works
+        %a{href: '/handbook/people-operations/global-compensation-calculator#compensation-calculator'} how our calculator works
       You are also eligible for
       %a{href: '/handbook/stock-options/'} stock options
       and

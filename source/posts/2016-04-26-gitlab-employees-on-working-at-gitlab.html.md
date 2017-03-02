@@ -22,7 +22,7 @@ survey to all GitLab team members on a regular basis. The goal of the survey
 is to facilitate an open environment for people to share their thoughts, 
 ask questions, or raise potential concerns. Feedback, even if it is only
 mentioned by one employee, is acknowledged and addressed. Most often, the 
-feedback captured in the survey is addressed in our [Team Call](https://about.gitlab.com/handbook/#team-call). 
+feedback captured in the survey is addressed in our [Team Call](https://about.gitlab.com/hanbook/communication/#team-call).
 
 ## Five key themes 
 

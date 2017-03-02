@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "GitLab adds Shanghai Information Technology Co. to Global Partnership Program"
+title: "GitLab adds Shanghai Information Technology Co. to Global Reseller Program"
 ---
 
 San Francisco (August 4th, 2016) – GitLab today announced a partnership with Shanghai Creative and Sincere
@@ -31,4 +31,4 @@ our customer's success. I have worked with the principal's at C&S for many years
 skilled, and hardworking. I am proud to be represented by them in China, “ says Michael Alessio, GitLab’s 
 Director of Global Alliances.  
  
-Shanghai Information Technology Co. joins a growing community of GitLab partners around the world. 
+Shanghai Information Technology Co. joins a growing community of GitLab resellers around the world. 

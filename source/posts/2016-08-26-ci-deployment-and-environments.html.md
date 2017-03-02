@@ -44,7 +44,7 @@ The full command looks like this:
 aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
 ```
 
-![Manual deployment](/images/blogimages/ci-deployment-and-environments/13.jpg){: .illustration}*<small>Pushing code to repository & deploing are separate processes</small>*
+![Manual deployment](/images/blogimages/ci-deployment-and-environments/13.jpg){: .illustration}*<small>Pushing code to repository & deploying are separate processes</small>*
 
 **Important detail**: the command
 [expects you](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence)
@@ -171,7 +171,7 @@ But it would also be nice to preview your changes from feature-branches somehow.
 ### Setting Up a Separate Place for Testing
 
 Patrick (the guy you recently hired) reminds you that there is such a thing called
-[GitLab Pages](http://pages.gitlab.io). It looks like a perfect candidate for
+[GitLab Pages](https://pages.gitlab.io). It looks like a perfect candidate for
 a place to preview your work in progress.
 
 To [host websites on GitLab Pages](https://about.gitlab.com/2016/04/07/gitlab-pages-setup/) your CI configuration should satisfy these simple rules:

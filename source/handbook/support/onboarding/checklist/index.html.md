@@ -25,7 +25,7 @@ that you can think of. If an item does not start with a role or name of someone 
 _Typically completed within first week_
 
 1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1, 2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2-3 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2-3 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
-1. [ ] General Onboarding Checklist: this should have been created for you on dev.gitlab.org as an issue by PeopleOps when you were hired.
+1. [ ] General Onboarding Checklist: this should have been created for you on [the People Ops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues/) when you were hired.
    1. [ ] Finish every item on that list starting with `New team member:` until you are waiting for someone to answer a question or do something before you can continue that list.
    1. [ ] Start with Stage 1 here, but also with the first steps in Stage 2 and Stage 3.
    1. [ ] Check back daily on what was blocking you on your General Onboarding Checklist until that list is completely done, then focus on this one.
@@ -46,7 +46,7 @@ it out for yourself before continuing.
 1. [ ] Add a [profile picture](https://support.zendesk.com/hc/en-us/articles/203690996-Updating-your-user-profile-and-password#topic_rgk_2z2_kh) to your Zendesk account
 1. [ ] Let your manager know if for some reason you were not able to create an account on Zendesk.
 1. [ ] Under your profile on Zendesk, it should read `Agent`. If it reads `Light Agent`, inform your manager.
-1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/knowledge-base/gitlab_com/500_errors.html)
+1. [ ] Sentry [(used for `500` errors)](https://about.gitlab.com/handbook/support/workflows/gitlab_com/500_errors.html)
    1. [ ] Log into [Sentry](https://sentry.gitlap.com/gitlab/gitlabcom/) and
    choose **"Sign in with GitLab"**.
    1. [ ] View the [teams](https://sentry.gitlap.com/organizations/gitlab/teams/)
@@ -102,7 +102,7 @@ _Typically started in first week, completed by end of third week_
 You will keep one installation continually updated on Digital Ocean, just like many of our clients. But you need to choose where you would like to test other installations. TODO: We need to list some benefits of each choice here.
 
 1. [ ] Submit an issue on the [GitLab infrastructure issue tracker](https://gitlab.com/gitlab-com/infrastructure/issues/) titled 'Add <name> as a developer in Digital Ocean'.
-1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/knowledge-base/general/local_test_env.html)
+1. [ ] Set up your [local test environment](https://about.gitlab.com/handbook/support/workflows/general/local_test_env.html)
 1. [ ] Choose your preferred test environment between Local VM's or Digital Ocean and put it in a comment below.
 
 Installation from source is not common but will give you a greater understanding of the components that we employ and how everything fits together.

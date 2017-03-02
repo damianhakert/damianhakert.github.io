@@ -44,10 +44,7 @@ questions:
       that are added during the year you pay half price when you renew.
   - question: The True-Up model seems complicated, can you illustrate?
     answer: |
-      If you have 100 active users today, you should purchase a 100 user subscription.
-      Suppose that when you renew next year you have 300 active users (200 extra
-      users). When you renew you pay for a 300 user subscription and you also pay half
-      a year for the 200 users that you added during the year.
+      If you have 100 active users today, you should purchase a 100 user subscription. Suppose that when you renew next year you have 300 active users (200 extra users). When you renew you pay for a 300 user subscription and you also pay the full annual fee for the 200 users that you added during the year.
   - question: Do students have to pay or do they receive a discount?
     answer: |
       GitLab's Educational pricing is that for educational institutions, students do

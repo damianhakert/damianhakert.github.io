@@ -40,6 +40,7 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "author: "
+    post.puts "author_gitlab: "
     post.puts "author_twitter: "
     post.puts "categories: "
     post.puts "image_title: "
@@ -181,4 +182,9 @@ task :rm_pdfs do
       puts "Deleting #{pdf}"
     end
   end
+end
+
+desc 'Comparison PDFS'
+task :comparison_pdfs do
+  abort("Error generating comparison PDFs 😔") unless system('./comparison_pdfs.sh')
 end

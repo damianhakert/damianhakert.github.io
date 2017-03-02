@@ -21,7 +21,7 @@ title: "Marketing Frontend Engineer"
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Needs to have extensive knowledge of Rails
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 ## Relevant links
 

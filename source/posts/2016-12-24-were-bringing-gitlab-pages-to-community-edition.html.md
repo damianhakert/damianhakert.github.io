@@ -7,7 +7,7 @@ image_title: '/images/pages_gift.jpg'
 description: "We're bringing GitLab Pages from GitLab Enterprise Edition to the open source Community Edition. GitLab Pages allows you to host static sites straight from GitLab, using any static site generator."
 ---
 
-The wider community asked us open source GitLab pages.
+The wider community asked us to open-source GitLab pages.
 Inspired by the holiday-spirit we're happy to bring GitLab Pages to the Community Edition (CE) of GitLab.
 
 <!-- more -->
@@ -19,7 +19,7 @@ through GitLab Pages on GitLab.com using my favorite static site generator
 also fully built on GitLab Pages. Until today, GitLab Pages was exclusive to
 the [Enterprise Edition][ee] of GitLab.
 
-[gl-pages]: http://pages.gitlab.io/
+[gl-pages]: https://pages.gitlab.io/
 [host]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [static]: https://about.gitlab.com/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 [middleman]: https://middlemanapp.com/

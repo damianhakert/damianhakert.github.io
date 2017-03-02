@@ -21,7 +21,7 @@ title: "Vice President of Product"
 - Regularly join customer and partner visits that can lead to new features
 - Ensure that we translate user demands in features that make them happy but keep the product UI clean and the codebase maintainable
 - Make sure the release announcements are attractive and cover everything
-- Be present on social media (hacker newstwitter, stack overflow, mailinglist), espacially around releases
+- Be present on social media (hacker news, twitter, stack overflow, mailinglist), espacially around releases
 
 ## Links
 

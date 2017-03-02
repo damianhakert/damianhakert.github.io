@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "GitLab adds ALMtoolbox to Global Partnership Program"
+title: "GitLab adds ALMtoolbox to Global Reseller Program"
 ---
 
 ### Helping customers in Israel adopt DevOps best practices in order to bring their products to market faster.
@@ -11,7 +11,7 @@ San Francisco (November 9th, 2016) – GitLab today announced a partnership with
 
 “Tamir and his team are the ALM experts in Israel. GitLab customers there can now leverage the years of application development pipeline experience of the ALMToolbox team as they look at moving to, or expanding their GitLab usage.” - Director Sales, Global Alliances & APAC
 
-ALMtoolbox joins a growing community of GitLab partners, around the world. For a complete list of GitLab resellers, please [visit our resellers page](https://about.gitlab.com/resellers/).
+ALMtoolbox joins a growing community of GitLab resls, around the world. For a complete list of GitLab resellers, please [visit our resellers page](https://about.gitlab.com/resellers/).
 
 About ALMtoolbox
 ALM Toolbox provides productivity plugins for for IBM Rational ClearCase and ALM professional consulting services. Their reputation is built upon many years of experience in all aspects of software development, automating configuration management (CM) and application lifecycle management (ALM) processes and system administration on variety of platforms. 
@@ -24,8 +24,8 @@ For more information about ALMtoolbox, please visit:
 * [https://www.youtube.com/almtoolbox](https://www.youtube.com/almtoolbox) 
 * [https://twitter.com/almtoolbox](https://twitter.com/almtoolbox)  
 
-About GitLab’s Global Partner Program
+About GitLab’s Global Reseller Program
  
-At GitLab we pride ourselves on our global diversity, and GitLab's reseller program aims to expand upon that by helping to provide a local community for GitLab in regions around the world. The advantages to our users to having local representation is huge; with culturally contexted sales, support and services provided by our partners' local teams.  The teams at our partners are trained and supported by us, so our users around the globe will be able to get the best service possible.  
- 
-For information on joining the partner team at GitLab, please [contact our sales team](https://about.gitlab.com/sales/).
+At GitLab we pride ourselves on our global diversity, and GitLab's reseller program aims to expand upon that by helping to provide a local community for GitLab in regions around the world. The advantages to our users to having local representation is huge; with culturally contexted sales, support and services provided by our resellerers' local teams.  The teams at our resellers are trained and supported by us, so our users around the globe will be able to get the best service possible.  
+
+For information on joining the partner team at GitLab, please [contact our sales team](Sales@GitLab.com).
