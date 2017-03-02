@@ -7,6 +7,8 @@ Before starting an offboarding issue, make sure that the team member's resignati
 
 When it is time for offboarding, create a **confidential** issue for former team member on the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
 
+Use the [Offboarding Processes](/handbook/offboarding/offboarding-processes) to assist in completing all of the tasks.
+
 
 ```
 1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in in the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @amatthews, @brittanyr, @jparrow.
@@ -59,7 +61,7 @@ When it is time for offboarding, create a **confidential** issue for former team
 and removing them from everywhere except blog posts. If you do not have a tool of choice, try "Find in Project" using Atom.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
-1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
+1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/offboarding/offboarding-processes/#returning-property) for further details on that process.
    1. [ ] People Ops: Inform Controller / Accounting if any items in former GitLabbers possession will not be returning, so that they can be removed from asset tracking.
 1. [x] _not relevant_ Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
 1. [x] _not relevant_ People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue.
@@ -104,7 +106,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) and block from GitLab.com
-   1. [ ] Manager: If the team member reaches out to regain access for personal project, review permissions, and unblock. Also make sure that a secondary email is associated with the account. 
+   1. [ ] Manager: If the team member reaches out to regain access for personal project, review permissions, and unblock. Also make sure that a secondary email is associated with the account.
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 1. [ ] Twitter/TweetDeck

@@ -94,6 +94,9 @@ Please see People Ops for more information on [making changes in TriNet](https:/
 All GitLab BV employees receive their payslips within their personal portal of Savvy.
 They can login and download their payslip to their computer if needed.
 
+### UK, Belgium, & India Monthly Payroll Process  
+
+Payroll cut off for sending changes is usually the middle of the month (15th-17th). The payroll provider will send a report for approval to the People Operations email address and copy in the Financial Controller. The Financial Controller will approve the payroll by sending a confirmation email back to the payroll provider. Once processed the payslips are sent electronically directly to the team members for them to access via a password protected system.
 
 ## Invoice template and where to send
 <a name="invoices"></a>
@@ -291,6 +294,9 @@ In Netsuite:
 
 ### Asset Tracking
 
+<<<<<<< HEAD
+See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/system-processes/#asset-tracking)
+=======
 See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)
 
 ## Spend reduction
@@ -302,3 +308,4 @@ Discretionary spending is always subject to questioning, we are frugal and all s
 But we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
 Instead, we should do the hard work of identifying positions and costs that are not contributing to our goals.
 Even if this causes a bit more disruption in the short term, it will help us ensure we stay a great place to work for the people who are here.
+>>>>>>> master
