@@ -11,14 +11,14 @@ title: "Hiring"
 
 ## Hiring Introduction
 
-GitLab is committed to hiring the best talent through a open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
+GitLab is committed to hiring the best talent through an open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/recruiter/) as part of People Operations. The following information on our process has two main objectives:
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
 1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#ceo-interview-questions).
 
 
 ## Equal Employment Opportunity
 
- Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/#values) and
+ Diversity is one of GitLab's core [values](https://about.gitlab.com/handbook/values) and
  GitLab is dedicated to providing equal employment opportunities (EEO) to all team members
  and applicants for employment without regard to race, color, religion, sex,
  national origin, age, disability, or genetics. One example of how put this into practice
@@ -31,20 +31,22 @@ GitLab is committed to hiring the best talent through a open and fair hiring pro
  or suggestions to do better please [contact People Ops](/handbook/people-operations/#reach-peopleops).
 
 ## Vacancy Creation Process
+
 If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us.
 
 The CEO must authorize any new job positions/searches.
 
 1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
-1. If a job description does not already exist, the hiring manager will work with the PeopleOps Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
+1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
 
-            ```yaml
+            ```
             - title: "Chief Happiness Officer"
               description: /jobs/chief-happiness-officer/
+              salary:
               apply: https://gitlab.workable.com/jobs/12345/candidates/new
               open: true
             ```
@@ -52,30 +54,32 @@ The CEO must authorize any new job positions/searches.
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
           - Note: You can leave the apply workable link blank until you have created it (see instructions below).
-1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role and hiring team details.
-1. People Ops Generalist pings the People Ops Specialist to determine a compensation range and submit a proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
-2. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
+1. People Ops Generalist pings the  VP of Scaling (for now) and People Ops Specialist to propose an appropriate NYC benchmark compensation for the role, and they submit the proposal to the [compensation committee](/handbook/people-operations/global-compensation-calculator/#compensation-committee) for approval.
+   - For any position, filling in the NYC benchmark salary in the `jobs.yml` file will automatically cause the [Compensation Calculator](/handbook/people-operations/global-compensation-calculator) to show at the bottom of the job description page.
+   - For some positions, it may be possible or desirable to exclusively seek candidates outside of higher cost regions. This is a role by role decision between the Hiring Manager and People Operations. _If_ it is decided to seek candidates outside of higher cost regions, then that needs to be explicitly communicated on the job description page in order to set fair expectations for candidates and recruiters alike. Sample text to consider placing on the job description page: "Globally, xx % of people live in metro areas with a rent index greater than yy, while at GitLab, this is zz % of people in this role currently. Therefore, in line with our value of staying [frugal](/handbook/values), we are now focusing on only hiring in metro areas with a **rent index lower than yy**. Please bear this in mind when using the compensation calculator below." (obviously, fill in the missing numbers).
+1. People Ops Generalist pushes a merge request to the CEO to approve the job requisition; which at this point includes the title, requirements for the role, and details on compensation as applicable.
+1. Once the job description and posting have been approved, one of the Global Recruiters will create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If this step is completed out of order, people are able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the #general chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
- 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and promotions.
+ 1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the `#general` chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
+ 1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and [promotions](/handbook/people-operations/#promotions).
 
 
 ## Publicize the job
 
-The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/#referral-bonuses)
+The hiring manager should always ask the team for passive referrals for open positions. GitLab team members can refer candidates through our [referral program](/handbook/incentives/#referral-bonuses)
 
 The recruiting team will **always** publicize the job through the following means:
 
 1. Announce it on team call and on the #general chat channel.
-1. Tweet the new job posting.
+1. Tweet the new job post with the help of the content marketing manager and team.
 1. Request "soft” referrals by encouraging all GitLab team members to post links to the jobs site on their LinkedIn profiles.
 1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to source candidates directly from LinkedIn.
 
-**Note** recruiting team will advertise the job through the following sites:
+**Note**: The recruiting team will advertise the job through the following sites:
 
 1. [PowerToFly](https://www.powertofly.com) Helping us connect with 100k+ women in tech
 1. [Hacker News Who's Hiring](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text:
@@ -88,7 +92,8 @@ The recruiting team will **always** publicize the job through the following mean
 1. [Indeed Prime](http://www.indeed.com/) (Primarily used for non-engineering roles)
 
 ### Sourcing for Open Positions
-*On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
+
+On difficult or hard-to-fill positions, the recruiting team will use available tools to source for additional candidates. Please communicate with the recruiting team if sourcing is needed for a strategic, specialized, or difficult to fill position.
 
 
 ## Hiring Process
@@ -111,6 +116,8 @@ If you have completed your portion of the hiring process and would like to stop 
 
 
 ### Typical process
+
+An applicant should expect to wait 2-3 business days between each step of the process. An applicant, at any time, is welcome to contact the recruiter they are working with for an update on their candidacy.
 
 1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel they must be added to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
 1. Recruiting team does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting-applicants). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
@@ -138,19 +145,18 @@ Before the CEO has the final call with the applicant the hiring manager will wri
 
 1. At any time during the hiring process the applicant can be rejected.
 1. The applicant should always be notified of this. The recruiting team is primarily
-responsible for this.
+responsible for declining candidates.
 1. If the applicant asks for further feedback only offer frank feedback. This
-is hard, but it is part of our [company values](/handbook/#values).
+is hard, but it is part of our [company values](/handbook/values).
     * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
-    * Feedback and rejection should not be based on soft skills.
+    * Feedback and rejection should always be based on the job requirements.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
 1. If people argue with the feedback that we provided:
     * Do not argue with or acknowledge the validity of the contents of the feedback.
     * Share their feedback with the people involved in the interviews and the decision.
     * Template text: "I've shared your feedback with the people involved in the interviews and the decision. We do not expect to revert the decision based on your feedback. In our hiring process we tend to error on being too cautious. We rather reject someone by mistake than hire someone by mistake, since a wrong hire is much more disruptive. Organizations can reject people with great potential http://thehustle.co/whatsapp-founder-got-rejected-by-both-twitter-and-facebook-before-19-billion-buyout so please don't be discouraged from seeking a great job."
-1. TODO: The recruiting team will send out an inquiry to all candidates to gather feedback after they have exited the hiring process. The feedback survey should be sent out within 2 days after the applicant has been
-notified of the rejection or hire.
+1. The recruiting team will send out an inquiry to all candidates to gather feedback after they have exited the hiring process. The feedback survey should be sent out within 2 days after the applicant has been notified of the rejection or hire.
    * People Ops will review all feedback and use it to improve the hiring process.
 
 ## Screening Call
@@ -238,14 +244,25 @@ Always leave feedback, this will help everyone to understand what happened and h
 One way of writing the feedback is as follows:
 
 > Vote: Inclined, Semi-Inclined or Not Inclined to Hire
-> Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
-> Pros: What is good and where did you hear it during the interview?
-> Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
-> Interview notes: What questions were asked and what story did you got back? Ex.
+
+> Score: Rate a candidate as 1-5 out of 5
+
+>  Summary: Include your general impressions, a brief description on what have experienced during interviews, where you stand and why you have this prospective. Bullet points are fine.
+Pros: What is good and where did you hear it during the interview?
+Cons: Where are the candidate's weaknesses specific to the requirements of the job? Identify how the candidate fell short of your expectations and why. Consider that some things can be taught or learned.
+Interview notes: What questions were asked and what story did you got back? Ex.
 >   Tell me about a time when you did X
 >   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
-The vote is critical as it is telling the rest of the hiring team your opinion on this hire.
+The vote and score are critical as they tell the rest of the hiring team your opinion on this hire.
+
+Scoring can be defined as follows:
+
+5 - Certainly would hire (meets all requirements, aligns with values, no flags)
+4 - Likely to hire (meets most requirements, aligns with values)
+3 - Neutral (may meet some requirements, has some yellow flags)
+2 - Not likely to hire (meets few requirements, has many yellow flags, may not align with values well)
+1 - Would not hire (does not meet requirements, red flags, not aligned with values)
 
 ## CEO Interview Questions
 

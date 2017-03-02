@@ -2,6 +2,7 @@
 title: "GitLab 2016 Year In Review"
 author: Connor Shea
 author_twitter: connorjshea
+author_gitlab: connorshea
 categories: GitLab
 image_title: '/images/blogimages/2016-year-in-review/gitlab-2016-in-review-cover.png'
 description: 'We’re proud to announce that we closed 2016 with the entire idea-to-production workflow, as promised! These are the highlights!'

@@ -32,7 +32,7 @@ The following set of steps should suffice:
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier). The one exception to the curly bracket find and replace process is the Belgian contract, the fields that need to be edited are highlighted.
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/#prep-contracts).
-1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/signing-legal-documents) ).
 1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign.
 1. Once the contract is signed, place the signed pdf in the team member's folder in BambooHR.
 1. Delete the google doc that was used for the preparation of the contract; it is superseded by the signed version in BambooHR.
@@ -47,6 +47,7 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab Inc., contractor agreement with PIAA](https://docs.google.com/document/d/1TJXiS8LLwyFZSUH2eKj3Y24TYoqDEnLV7b9WFXfnPs8/edit)
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
+- [GitLab BV Belgium, employee contract](https://docs.google.com/document/d/1eLTL6vgVluDUNpOnYtsjfB7wZcGm6TliGZrGByjon0M/edit)
 - [GitLab Ltd, employee contract with PIAA and Joint NIC agreements](https://docs.google.com/document/d/1H8BhvyrBTPuQ4_QGo08wIio38XISndqlONi9eqjdj2Y/edit#heading=h.bfk8qrda3d2r)
 - [Lyra, employee contract with NDA agreements](https://docs.google.com/document/d/1Ua4Q9gA2C5QM_L3HlJy8Zb77cJtxSJ6EOA6gynvBRTQ/edit) Please note: these are not GitLab documents and are only  visible to authorized persons at GitLab.
 

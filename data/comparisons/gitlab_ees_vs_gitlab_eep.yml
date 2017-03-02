@@ -1,0 +1,17 @@
+title: "GitLab EEP vs. GitLab EES"
+pdf: gitlab-ees-vs-gitlab-eep.pdf
+competitor_one:
+  name: 'GitLab CE'
+  logo: '/images/comparison/ce-gitlab-logo.svg'
+competitor_two:
+  name: 'GitLab EE'
+  logo: '/images/comparison/ee-gitlab-logo.svg'
+features:
+  - title: "Feature 1"
+    description: "Lorem ipsum dolor sit amet."
+    competitor_one: true
+    competitor_two: true
+  - title: "Feature 2"
+    description: "Lorem ipsum dolor sit amet."
+    competitor_one: true
+    competitor_two: false

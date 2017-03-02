@@ -16,7 +16,7 @@ title: "Build Engineer"
 ## Workflow
 
 * In cooperation with the Packaging team, issues to work on will be sorted per release cycle.
-* Deciding priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+* Deciding priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/communication/#prioritize).
 
 ## Requirements for Applicants
 
@@ -26,7 +26,7 @@ title: "Build Engineer"
 * Packaging experience is an advantage, not a requirement. However, you are
   expected to have basic knowledge of at least .deb and .rpm package archives.
 * Collaborative team spirit with good communication skills
-* You share our [values](/handbook/#values), and work in accordance with those values
+* You share our [values](/handbook/values), and work in accordance with those values
 
 [omnibus-gitlab]: https://gitlab.com/gitlab-org/omnibus-gitlab
 [direction scope]: https://about.gitlab.com/direction/#scope-a-namescopea

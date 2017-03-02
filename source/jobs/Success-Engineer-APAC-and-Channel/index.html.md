@@ -37,4 +37,4 @@ effective Indirect Sales model.
 - Above average knowledge of Unix and Unix based Operating Systems
 - Experience with Ruby on Rails Applications and git
 - Great people skills and presentation skills
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values

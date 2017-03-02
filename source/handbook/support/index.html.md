@@ -72,7 +72,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
-The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/knowledge-base/zendesk/setting_ticket_priority.html)
+The above SLAs are based on ticket priority which can be set manually by support agents. See [setting ticket priority](https://about.gitlab.com/handbook/support/workflows/zendesk/setting_ticket_priority.html)
 
 ## Tiered Support
 
@@ -88,7 +88,36 @@ Service Engineers should work on tickets within their assigned support tier as a
 1. New tickets (not close to breaching)
 1. Other open tickets
 
-When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Premium Customers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+When a ticket is breaching or has breached its first reply (or next reply) SLA this ticket must be picked up by any Service Engineer independently of who is assigned to it (although see the note re: courtesy in the list above). This also applies to tickets for Resellers (i.e. anyone picks up if close to breaching, regardless of who the Dedicated Service Engineer is).
+
+### Hot Queue: How GitLab manages ticket assignments
+
+Support teams often use an "assignment" model, where an agent is assigned a ticket and sees the ticket through to completion. If they are stuck, they can re-assign this ticket to another agent to pick up and try and complete. At GitLab however, we're taking advantage of our global support team and using a system dubbed "Hot Queuing". This system means that we all work from one global queue and it's expected that multiple agents will be working together on most issues. This allows us to do the following:
+
++ Keep tickets moving forward 24/7.
++ Exposes the team to more issues so more learning is happening.
++ Provide faster response to customers since tickets are not hidden away in an agent's personal queue and "bound" to an agent's workday.
++ Everyone has an accurate global representation of the support load.
+
+#### When should tickets be assigned?
+
+There are times in the support process that an agent will want to assign the ticket to themselves:
+
++ If they are going to take the ticket to a call/screenshare, take it out of the queue by assigning the ticket to yourself. After the call, if the ticket is still on-going, feel free to unassign yourself so that everyone can continue to move it forward.
++ If you are commited to solving the problem strategically. There are times where we want this, and agents have full discretion to choose that, but it should be few and far between.
+
+#### What if I can't answer a ticket?
+
+If you see a ticket in the queue that you are not able to answer, you should:
+
++ Make an internal note with your gut feelings as to where the issue might be.
++ CC yourself so you can follow along as the ticket progresses.
++ If you know that agents will need logs or version information, feel free to start with a simple response asking for such.
++ Consider escalating the ticket to Tier 2 (see below)
+
+With the hot queue, we all work together and no one should be scared to start a ticket.
+
+
 
 ### Tier 1 Support
 
@@ -216,7 +245,7 @@ We offer "implementation support" for new EE customers. This is similar to live 
 
 - Pre-installation preparation over email or short call to check that everything is in place for a high probability of success with the installation. If backups need to be made for instance, this should be done before the call / installation since it can take a long time.
 - Up to 4 hrs of "live" assistance for the installation, on video call with screen sharing, during regular business hours.
-- Following the initial install, the customer will have access to Premium Support for a full week (1 calendar week), including 24x7 emergency support, but _not_ including a Dedicated Service Engineer.
+- Following the initial install, the customer will have access to Premium Support for a full week (1 calendar week), including 24x7 emergency support.
 
 ##### What Implementation Support does not cover
 
@@ -236,9 +265,9 @@ We offer "implementation support" for new EE customers. This is similar to live 
 
 ## Dedicated Service Engineers
 
-We no longer offer Dedicated Service Engineers for Premium support, but we _do_ offer them for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk.
+We offer Dedicated Service Engineers (DSE) for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk. (Note, until February 2017 we offered this service to Premium Support Customers, but deprecated it in favor of a faster SLA).
 
-- Related section of the [Sales handbook regarding premium support](/handbook/sales/#premium-support).
+- See how to [set a DSE trigger](/handbook/support/workflows/zendesk/create_dse_trigger.html)
 - To make sure that the resellers are served well, even when their dedicated SE is not directly
 available, there is a view in Zendesk to display all "dedicated" tickets so
 that other Service Engineers can see them and jump in to avoid an SLA breach.

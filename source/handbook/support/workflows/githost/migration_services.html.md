@@ -35,7 +35,7 @@ The customer will need to run a backup of their existing instance by using the [
    1. The new backup will be located at `/var/opt/gitlab/backups/{{TIMESTAMP}}_gitlab_backup.tar`
    1. Backup `/etc/gitlab/gitlab-secrets.json`
    1. Compress both the `gitlab_backup.tar` file and `gitlab-secrets.json` file.
-   1. Upload backup file to Google drive or any other secure location (e.g S3) and provide the link to support. See [google-drive](#google-drive) for information on downloading the backup via Google Drive.
+   1. Upload backup file to Google drive or any other secure location (e.g S3) and provide the link to support.
 
 ### Restore to a new GitHost Instance
 
@@ -51,8 +51,6 @@ The customer will need to run a backup of their existing instance by using the [
    1. Start GitLab - `sudo gitlab-ctl start`
 1. Check the instance is online by visiting it directly in your web browser. 
 1. Email the customer requesting they check that all data is present. 
-
-_________________________
 
 #### Google Drive
 
