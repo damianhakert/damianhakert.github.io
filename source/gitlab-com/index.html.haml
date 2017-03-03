@@ -45,28 +45,21 @@ extra_css:
       %strong.features-list-title
         Easy import from your current provider
   .row
-    .col-md-5.col-md-offset-1.col-lg-4.col-lg-offset-2
-      .panel.panel-gitlab
-        %header.panel-heading.text-center
-          Free Forever
-        .panel-body.text-center.pricing-panel-body
-          %h4.pricing-panel-price
-            Free
-          %p
-            1000 build minutes per month
-          = link_to "Sign Up", "/", class: "btn cta-btn red"
-    .col-md-5.col-lg-4
-      .panel.panel-gitlab
-        %header.panel-heading.text-center
-          Bronze Plan
-        .panel-body.text-center.pricing-panel-body
-          %h4.pricing-panel-price
-            $5
-            %span.pricing-panel-price-side
-              per month
-          %p
-            Unlimted build minutes per month
-          = link_to "Buy Now", "/", class: "btn cta-btn red"
+    - data.gitlab_com.prices.each_with_index do |price, i|
+      .col-md-4.col-lg-3.col-lg-offset-0{ class: ("col-md-offset-2" if i == 0 || i == 2) }
+        .panel.panel-gitlab
+          %header.panel-heading.text-center= price.title
+          .panel-body.text-center.pricing-panel-body
+            %h4.pricing-panel-price
+              = price.price
+              - if price.monthly
+                %span.pricing-panel-price-side
+                  per user
+                  per month
+            %p= price.description
+            %p.pricing-panel-support{ class: ("is-hidden" unless price.support) }
+              = "#{price.support} support"
+            = link_to price.link_text, price.link, class: "btn cta-btn red"
 %section.gitlab-com-white-section.page-container.gitlab-com-questions
   .container
     %h2.text-center.light

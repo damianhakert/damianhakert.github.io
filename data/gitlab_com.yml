@@ -1,3 +1,35 @@
+prices:
+  - title: Free Forever
+    price: Free
+    monthly: false
+    description:
+      2,000 build minutes per month
+    link: /
+    link_text: Sign Up
+  - title: Bronze Plan
+    support: Email
+    price: $4
+    monthly: true
+    description:
+      2,000 build minutes per month
+    link: /
+    link_text: Buy now
+  - title: Silver Plan
+    support: Premium
+    price: $19
+    monthly: true
+    description:
+      10,000 buiild minutes per month
+    link: /
+    link_text: Buy Now
+  - title: Gold Plan
+    support: Premium
+    price: $99
+    monthly: true
+    description:
+      50,000 build minutes per month
+    link: /
+    link_text: Buy Now
 questions:
   - question: Is there a catch with the free forever plan?
     answer:
