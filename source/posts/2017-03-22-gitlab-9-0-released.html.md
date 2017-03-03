@@ -197,5 +197,3 @@ A subscription also entitles you to our upgrade and installation services.
 {:.note}
 
 {::options parse_block_html="false" /}
-
-----
