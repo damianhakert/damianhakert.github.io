@@ -33,25 +33,22 @@ prices:
 questions:
   - question: Is there a catch with the free forever plan?
     answer:
-      Lorem ipsum
+      There is no catch. GitLab.com allows you to have unlimited free private repositories and collaborators.
   - question: What happens if I reach my build minutes limit?
     answer:
-      Lorem ipsum
-  - question: How do I subscribe to Bronze?
+      If you reach your build limits, you simply won't be able to run any more builds until the end of your current billing cycle, or until you upgrade your account.
+  - question: How do I subscribe?
     answer:
-      Lorem ipsum
+      Head over to <a href="https://customers.gitlab.com">https://customers.gitlab.com</a>, choose the plan that is right for you. After purchase, we’ll take care of upgrading your account to the plan you’ve chosen.
+  - question: Can I import my projects from another provider?
+    answer:
+      Yes. You can import your projects from most of the existing providers, including GitHub and Bitbucket. <a href="https://docs.gitlab.com/ce/workflow/importing/README.html">See our documentation</a> for all your import options.
   - question: I already have an account, how do I upgrade?
     answer:
-      Lorem ipsum
-  - question: Can I import my projects?
+      Head over to <a href="https://customers.gitlab.com">https://customers.gitlab.com</a>, choose the plan that is right for you.
+  - question: What about your availability and security?
     answer:
-      Lorem ipsum
+      GitLab.com is monitored 24/7. Our servers are hosted on Amazon Web Services (AWS), Digital Ocean, and Azure, we use configuration management, and we patch our servers at least once a week. Our <a href="https://gitlab.com/gitlab-com/runbooks">runbooks are public</a> as is <a href="https://gitlab.com/gitlab-com/infrastructure/issues">our operational issue tracker</a>. GitLab offers Two-Factor Authentication (2FA) via a mobile application or a U2F device, rate limiting, audit logs, and passwords are one-way encrypted. Answers to other common security questions are available on our security page.
   - question: Can I export my data?
     answer:
-      Lorem ipsum
-  - question: What about your availability?
-    answer:
-      Lorem ipsum
-  - question: Is GitLab.com secure?
-    answer:
-      Lorem ipsum
+      You can <a href="https://gitlab.com/help/user/project/settings/import_export.md">export most of your data</a> at any time. Your data belongs to you. You are never stuck on GitLab.com, you can always export and import your project to a self hosted version of GitLab.
