@@ -4,7 +4,7 @@ title: "Released with Auto Deploy and Web Terminal"
 author: Firstname Lastname
 author_gitlab: GitLab.com username
 author_twitter: Twitter username
-categories:
+categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "With this last release of the year, we're not only completing our Master Plan, but we want to show you something cool we've been working on!"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional

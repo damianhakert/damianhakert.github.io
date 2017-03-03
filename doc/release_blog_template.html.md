@@ -4,7 +4,7 @@ title: "Released with XXX" # Don't mention "GitLab" here.
 author: Firstname Lastname
 author_gitlab: GitLab.com username
 author_twitter: Twitter username
-categories:
+categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "With this release XXX"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional
