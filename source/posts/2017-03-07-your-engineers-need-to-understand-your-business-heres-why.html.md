@@ -14,7 +14,7 @@ Every business today is a technology business. Whether it supports your business
 
 <!-- more -->
 
-The idea of [software craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) dictates that the profession of software engineer should be analogous to that of civil engineer. Increased professionalism (in the style of [Uncle Bob](https://en.wikipedia.org/wiki/Robert_Cecil_Martin) suggests that software engineers' work should carry the same weight, and their failures the same consequences, as physicians and civil engineers. 
+The idea of [software craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) dictates that the profession of software engineer should be analogous to that of civil engineer. Increased professionalism (in the style of [Uncle Bob](https://en.wikipedia.org/wiki/Robert_Cecil_Martin)) suggests that software engineers' work should carry the same weight, and their failures the same consequences, as physicians and civil engineers. 
 
 These are noble goals for software engineers, especially if you are building software to operate a [bascule (draw) bridge](https://en.wikipedia.org/wiki/Bascule_bridge)! Unfortunately, they are challenged daily by business managers who just want functionality, but may not care about the underlying mess supporting it; they think that engineers who constantly try to clean up that mess are wasting time chasing after esoteric technical standards. Engineers, on the other hand, want to always deliver and maintain quality work, and they are less concerned about the business and the end users. This lack of communication and alignment creates distrust and inefficiencies — it just doesn't work. 
 
