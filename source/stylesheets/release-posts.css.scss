@@ -37,6 +37,11 @@
         .author-twitter i {
           color: #5a82ae;
           color: #333;
+
+          &:hover,
+          &:focus {
+            color: white;
+          }
         }
 
         @media (max-width: 768px) {
@@ -109,6 +114,7 @@
           margin-left: auto;
           margin-right: auto;
           width: 60%;
+          max-width: 700px;
 
           @media (max-width: 1200px) {
             top: 81%;
@@ -135,6 +141,17 @@
     .content {
       max-width: 1680px;
       margin: auto;
+
+      h3 {
+        margin-top: 30px;
+        font-weight: normal;
+        font-size: 33px;
+      }
+
+      h4 {
+        font-size: 24px;
+        font-weight: normal;
+      }
     }
 
     .social {
@@ -226,6 +243,7 @@ h2 {
     padding: 0 !important;
     width: 80%;
     max-width: 900px;
+    margin-bottom: 100px;
 
     h2{
       justify-content: center !important;
@@ -235,18 +253,18 @@ h2 {
     img {
       width: 125%;
       max-width: none;
-      margin: 50px 0;
+      margin: 0;
       margin-left: -12.5%;
-
-      @media (max-width: 768px) {
-        width: 100%;
-        margin: 0;
-      }
     }
   }
 
   @media (max-width: 768px) {
     width: 100%;
+
+    img {
+      width: 100%;
+      margin: auto;
+    }
   }
 
   h2 {
@@ -298,14 +316,34 @@ h2 {
 
 .mvp {
   text-align: center;
-  // color: white;
-  padding: 50px 15px;
+  padding: 25px 15px 50px;
   background: #f9f9f9;
-  margin: 0 auto 150px !important;
-  max-width: 1680px;
-  // border-left: 5px solid #00bcf2;
-  // background-color: #eff6fb;
+  min-width: 100vw;
   font-size: 26px;
+  margin: 0 0 100px -5vw;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.1), inset 0 -1px 2px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  > * {
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto !important;
+  }
+
+  img{
+    height: 200px;
+
+    @media (max-width: 768px) {
+      height: 150px;
+    }
+
+    @media (max-width: 510px) {
+      height: 100px;
+    }
+  }
 }
 
 .vertical-align-top {

@@ -6,7 +6,7 @@ author_gitlab: GitLab.com username
 author_twitter: Twitter username
 categories:
 image_title: '/images/9_0/9_0-cover-image.jpeg'
-description: "With this last release of the year, we're not only completing our Master Plan, but we want to show you something cool we've been working on:"
+description: "With this last release of the year, we're not only completing our Master Plan, but we want to show you something cool we've been working on!"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 #cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 #cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
@@ -25,6 +25,8 @@ Maybe you have some feedback on what you saw and start talking with your colleag
 
 You can do all of the above and much more with GitLab 8.14, today. Time tracking, Review Apps, Chat commands, Cycle Analytics improvements and much more.
 
+<!-- more -->
+
 </section>
 
 <section class="right vertical-align-top">
@@ -40,7 +42,9 @@ Tune in on Nov. 30 for our 8.14 release webcast with a live demo of Review Apps 
 
 <section class="mvp">
 
-This month’s Most Valuable Person (MVP) is Toon Claes.
+![mvp-badge](/images/mvp_badge.png)
+
+### This month’s Most Valuable Person (MVP) is Toon Claes.
 
 Toon contributed the button to delete all merged branches, a great addition to GitLab. Thanks Toon Claes!
 
@@ -142,15 +146,13 @@ This release has more improvements, including security fixes. Please check out
 
 <section class="left vertical-align-top">
 
-## Upgrade barometer
-
+### Upgrade barometer
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
-
-### Note
+#### Note
 
 We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
@@ -164,16 +166,20 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 
 <section class="right vertical-align-top">
 
-## Installation
+### Installation
 
 If you are setting up a new GitLab installation please see the
 [download GitLab page](https://about.gitlab.com/installation/).
 
-## Updating
+<br>
+
+### Updating
 
 Check out our [update page](https://about.gitlab.com/update/).
 
-## Enterprise Edition
+<br>
+
+### Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
@@ -184,6 +190,11 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 </section>
+
+----
+
+[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+{:.note}
 
 {::options parse_block_html="false" /}
 
