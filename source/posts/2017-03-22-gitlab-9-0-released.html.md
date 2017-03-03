@@ -1,17 +1,23 @@
 ---
-release_number: "8.16"
-title: "Released with Time Tracking Beta and Chat Commands"
+release_number: "9.0"
+title: "Released with Auto Deploy and Web Terminal"
+author: Firstname Lastname
+author_gitlab: GitLab.com username
+author_twitter: Twitter username
 categories:
-author: Emily von Hoffmann
-author_twitter: TWITTER_USERNAME
-image_title: /images/8_15/new-zealand-lake-mountain-landscape-37650.jpeg
+image_title: '/images/9_0/9_0-cover-image.jpeg'
+description: "With this last release of the year, we're not only completing our Master Plan, but we want to show you something cool we've been working on:"
+twitter_image: '/images/tweets/post-screenshot-image.png' # optional
+#cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
+#cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
+guest: true # required when the author is not a GitLab Team Member
 extra_css:
-  - release-posts-v1.css
+  - release-posts.css
 ---
 
 {::options parse_block_html="true" /}
 
-<div class="left">
+<section class="left">
 
 You’re doing code review of a new feature and wonder how it’ll actually feel, look and work when it’s live. Yesterday, you had to sacrifice your local development environment’s state, checkout the remote branch, run migrations, and then spin up the entire development environment. Today, you can just go to GitLab and click the link in the merge request to play with a fully functional, live environment.
 
@@ -19,9 +25,9 @@ Maybe you have some feedback on what you saw and start talking with your colleag
 
 You can do all of the above and much more with GitLab 8.14, today. Time tracking, Review Apps, Chat commands, Cycle Analytics improvements and much more.
 
-</div>
+</section>
 
-<div class="right vertical-align-top">
+<section class="right vertical-align-top">
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
@@ -30,19 +36,19 @@ You can do all of the above and much more with GitLab 8.14, today. Time tracking
 Tune in on Nov. 30 for our 8.14 release webcast with a live demo of Review Apps and Time Tracking for EE!
 {: .figcaption}
 
-</div>
+</section>
 
-<div class="mvp">
+<section class="mvp">
 
 This month’s Most Valuable Person (MVP) is Toon Claes.
 
 Toon contributed the button to delete all merged branches, a great addition to GitLab. Thanks Toon Claes!
 
-</div>
+</section>
 
 <!--more-->
 
-<div class="middle">
+<section class="middle">
 
 ## Time Tracking Beta
 {: .ee}
@@ -57,9 +63,9 @@ With Time Tracking, you’re able to set estimates for how much time is necessar
 
 [Read the docs on how to use Time Tracking in GitLab](https://docs.gitlab.com/ee/workflow/time_tracking.html)
 
-</div>
+</section>
 
-<div class="left">
+<section class="left">
 
 ## Chat Commands Alpha
 {: .ce-ee}
@@ -95,20 +101,20 @@ your feedback.
 
 [Read the documentation on Mattermost Slash Commands](https://docs.gitlab.com/ce/project_services/mattermost_slash_commands.html)
 
-</div>
-<div class="right">
+</section>
+<section class="right">
 
 ![Chat Commands in GitLab 8.14 with Mattermost](/images/8_14/chat1.gif)
 
-</div>
+</section>
 
-<div class="left">
+<section class="left">
 
 ![Improved Cycle Analytics in GitLab 8.14](/images/8_14/cycle_events.png)
 
-</div>
+</section>
 
-<div class="right">
+<section class="right">
 
 ## Cycle Analytics Events
 {: .ee}
@@ -121,8 +127,8 @@ faster.
 
 [Read the documentation on Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html)
 
-</div>
-<div class="middle">
+</section>
+<section class="middle">
 
 ## See all other improvements to GitLab 8.14
 {: .ce-ee}
@@ -132,9 +138,9 @@ This release has more improvements, including security fixes. Please check out
 
 [the changelog]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md
 
-</div>
+</section>
 
-<div class="left vertical-align-top">
+<section class="left vertical-align-top">
 
 ## Upgrade barometer
 
@@ -154,9 +160,9 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
-</div>
+</section>
 
-<div class="right vertical-align-top">
+<section class="right vertical-align-top">
 
 ## Installation
 
@@ -177,7 +183,7 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
-</div>
+</section>
 
 {::options parse_block_html="false" /}
 
