@@ -126,6 +126,10 @@ helpers do
   def full_url(current_page)
     "#{data.site.url}#{current_page.url}"
   end
+
+  def current_version
+    ReleaseList.new.release_posts.first.version
+  end
 end
 
 # Build-specific configuration
