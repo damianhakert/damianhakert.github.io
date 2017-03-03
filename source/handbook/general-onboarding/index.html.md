@@ -326,6 +326,10 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
 1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a copy of the team member's employment contract and ID card
 
+#### For employees in India only (Lyra GitLab BV)
+
+1. [ ] New team member: read through the [benefit section of the handbook](https://about.gitlab.com/handbook/benefits/#india-specific-benefits) this will explain what is available. If you have any questions please contact Lyra HR at +91 80 40408181 or email them at hr@lyrainfo.com. Lyra HR will also reach out to you in the first week of starting at GitLab to complete their onboarding documents for payroll (if this has not already been done during the contract signing stage)
+
 #### All GitLabbers
 
 1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.

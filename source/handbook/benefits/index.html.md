@@ -49,6 +49,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 Dutch employees get the customary month of vacation money in the month of May.
 
 ## Specific to India based employees
+{: #india-specific-benefits}
 
 All of the benefits listed below are administered and managed by [Lyra Infosystems](http://lyrainfo.com/). As part of the onboarding process Lyra will reach out to team members in their first week to arrange setup and enrollment.  Should you have any questions about these benefits please contact hr@lyrainfo.com or the People Operations Team at GitLab who are also very happy to assist.
 
