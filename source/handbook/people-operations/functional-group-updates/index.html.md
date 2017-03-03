@@ -24,8 +24,17 @@ Functional Group Updates are regular updates from a group at GitLab.
 
 ### Template for the blogpost
 
-Here are the recordings of this weeks' Functional Group Updates and the matching presentation slides where applicable
-* Use a previous post to take the format for embedding the video from YouTube into the blogpost
+ ## Functional Group updates
+
+Every day from Monday to Thursday, right before our [GitLab team call](https://about.gitlab.com/handbook/#team-call), a different Functional Group gives an [update](https://about.gitlab.com/handbook/people-operations/functional-group-updates/) to our team.
+The format of these calls is simple and short where they can either give a presentation or quickly walk the team through their agenda.
+
+ ## Recordings
+
+All of the updates are recorded using [Zoom](https://zoom.us) at the time of the call. All the recordings will be uploaded to our Youtube account and made public, with the exception of the Sales and Finance updates.
+
+
+* Make sure to use a previous post to take the format of the post and for embedding the video from YouTube into the blogpost
 
 ## Schedule
 
