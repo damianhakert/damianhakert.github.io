@@ -600,7 +600,7 @@ Read more about it [below](#cover-image).
 
 #### Description
 
-The `description` meta tag [is important][description-tag]
+The [`description`](https://moz.com/learn/seo/meta-description) meta tag [is important][description-tag]
 for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
 [post frontmatter](#frontmatter), as a small summary of what the post is about.
 
@@ -890,7 +890,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 - Always add the label `release` to the MR
 - When mentioning contributors or MVPs, link their name to their respective user account on GitLab.com
 - Add the [frontmatter](#frontmatter) information:
-  - `description`: a short description of the blog post
+  - [`description`](https://moz.com/learn/seo/meta-description): a short description of the blog post
   - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.
   - [`categories`](#categories): use either `release` or  `security release` for these posts.
 
