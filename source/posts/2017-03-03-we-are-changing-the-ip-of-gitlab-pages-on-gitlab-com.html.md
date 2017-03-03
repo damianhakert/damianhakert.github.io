@@ -9,11 +9,7 @@ twitter_image: '/images/tweets/pages-alert.png'
 description: "Websites hosted on GitLab.com with GitLab Pages with custom root domains require DNS A record update"
 ---
 
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-&nbsp;&nbsp;
 **GitLab Pages' IP** on **GitLab.com** is changing from `104.208.235.32` to `52.167.214.135`!
-&nbsp;&nbsp;
-<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
 {:.alert .alert-webcast}
 
 Learn which websites are affected by this change, which settings you'll have to update, and how much time you have to do it.
