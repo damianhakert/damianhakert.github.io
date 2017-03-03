@@ -48,10 +48,10 @@
   apply:
   open: false
 
-- title: "Business Development Representative - Inbound"
+- title: "Business Development Representative (US & EMEA)"
   description: /jobs/business-development-representative/
-  apply:
-  open: false
+  apply: https://gitlab.workable.com/jobs/198792/candidates/new
+  open: true
 
 - title: "Sales Development Representative (East & West Coast, US)"
   description: /jobs/sales-development-representative/
