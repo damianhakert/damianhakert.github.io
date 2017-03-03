@@ -12,6 +12,7 @@ title: "Paid time off at GitLab"
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
+    * Please mark your leave on the GitLab availability calendar so team members are aware of your leave in advance.  This is located under "Other Calendars -> GitLab availability".
 1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
 1. Please see the [On-Call](https://about.gitlab.com/handbook/on-call/)
 page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
