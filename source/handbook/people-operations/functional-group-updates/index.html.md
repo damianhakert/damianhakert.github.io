@@ -56,7 +56,7 @@ Week 2:
 
 Week 3:
 
-- Monday  UX   
+- Monday  UX  Taurie 
 - Tuesday CI  Kamil
 - Wednesday   Build   Marin
 - Thursday Support Lee
