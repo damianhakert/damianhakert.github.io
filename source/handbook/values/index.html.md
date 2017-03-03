@@ -122,10 +122,14 @@ Values are a framework for distributed decision making, they allow you to determ
 
 ## How do we reinforce our values
 
+Whatever behavior you reward will become your values. We reinforce our values through the following actions:
+
 1. By what we do, especially what the leadership does.
 1. By what we select for during hiring.
 1. By what we emphasize during on-boarding.
-1. By what criteria we use for promotions and bonuses.
+1. By what criteria we use for promotions
+1. By what criteria we use for bonuses.
+1. By what behavior we compliment.
 1. By what criteria we use to let people go.
 
 ## Permission to play
