@@ -193,5 +193,3 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 
 [Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
 {:.note}
-
-{::options parse_block_html="false" /}
