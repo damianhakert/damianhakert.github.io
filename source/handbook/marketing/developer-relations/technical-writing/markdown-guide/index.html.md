@@ -603,7 +603,7 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's not required
+The heading "On this page" can be adapted to your case, e.g., "In this tutorial", or "In this guide", etc. It's not required
 either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
@@ -636,7 +636,7 @@ so there are situations we can't run from using HTML. With complex tables, that'
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
 then the table body. You can go forward and add a separator to create subsequent table bodies.
 
-However you prepare your table, its design will depend upon on the CSS styles defined for them.
+However you prepare your table, its design will depend upon the CSS styles defined for them.
 
 The last markup `{: .custom-class #custom-id}` **can** be used in case you want to attribute to
 the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attributes).
