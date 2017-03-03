@@ -1,5 +1,5 @@
 ---
-title: Why More Companies are Adopting Open Source Technology
+title: Why More Companies Are Adopting Open Source Technology
 author: Rebecca Dodd
 author_twitter:
 author_gitlab: rebecca
@@ -16,7 +16,7 @@ cta_button_link: https://page.gitlab.com/2016-developer-survey_2016-developer-su
 
 Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) explores how developers’ methods are changing, and how businesses can adapt to get the best out of their development teams. More than half of our respondents identified as developer or engineer, giving us insight into what matters to developers, how they choose to work and what tools they choose to do it with. To see what our research revealed, you can [download the full report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to learn more about what today’s developers want.
 
-## Why Open Source is Preferred
+## Why Open Source Is Preferred
 
 Nearly three-quarters of our survey respondents said that they chose to work with GitLab because it’s open source. So why is open source so popular?
 
@@ -30,7 +30,7 @@ With roots in the open source community, software is able to evolve quickly, wit
 
 Open source software is also considered more trustworthy: with source code open and available to inspect, developers can see for themselves exactly what it does. They can verify whether or not it's secure and introduce fixes and improvements if necessary. 
 
-### You Can Adapt it Yourself
+### You Can Adapt It Yourself
 
 If developers want to adapt a feature or add something that will make their jobs easier, they have the freedom to do so without relying on the software vendor to make the change. Open source also makes it easier to integrate different software products to suit the needs of the business.
 
