@@ -35,7 +35,8 @@ $blog-color-overlay-border: #eee;
     color: $blog-color-text;
 
     .date,
-    .author {
+    .author a{
+      color: $blog-color-text;
       font-weight: normal;
     }
 
@@ -117,6 +118,11 @@ $blog-color-overlay-border: #eee;
     max-width: none;
     padding: 0 5% 5%;
 
+    .left p:first-child,
+    .right p:first-child {
+      margin-top: 0;
+    }
+
     .content {
       max-width: 1680px;
       margin: auto;
@@ -143,11 +149,6 @@ $blog-color-overlay-border: #eee;
       h4 {
         font-size: 24px;
         font-weight: normal;
-      }
-
-      .left p:first-child,
-      .right p:first-child {
-        margin-top: 0;
       }
     }
 
