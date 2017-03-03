@@ -10,7 +10,6 @@ description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 #cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 #cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
-guest: false # required when the author is not a GitLab Team Member
 extra_css:
   - release-posts.css
 ---
