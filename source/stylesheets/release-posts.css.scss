@@ -26,119 +26,119 @@ $blog-color-overlay-border: #eee;
 .blog.article {
   .cover {
     height: 100vh;
+  }
 
-    .overlay {
-      background: linear-gradient(0deg, $color-white 35%, $color-transparent-white 55%);
-      border-bottom: 0;
-      height: 100vh;
+  .overlay {
+    background: linear-gradient(0deg, $color-white 35%, $color-transparent-white 55%);
+    border-bottom: 0;
+    height: 100vh;
+  }
 
-      .wrapper.header {
-        max-width: none;
-        padding: 10vh 20% 0;
-        text-align: center;
-        color: $blog-color-text;
+  .wrapper.header {
+    max-width: none;
+    padding: 10vh 20% 0;
+    text-align: center;
+    color: $blog-color-text;
 
-        .date,
-        .author {
-          font-weight: normal;
-        }
+    .date,
+    .author {
+      font-weight: normal;
+    }
 
-        .author-gitlab i,
-        .author-twitter i {
-          color: $blog-color-text;
+    .author-gitlab i,
+    .author-twitter i {
+      color: $blog-color-text;
 
-          &:hover,
-          &:focus {
-            color: $color-white;
-          }
-        }
+      &:hover,
+      &:focus {
+        color: $color-white;
+      }
+    }
 
-        @media (max-width: 768px) {
-          padding: 10vh 10% 0;
-        }
+    @media (max-width: 768px) {
+      padding: 10vh 10% 0;
+    }
 
-        @media (min-width: 1200px) {
-          span:nth-child(-n+3) {
-            font-size: 26px;
-          }
-        }
+    @media (min-width: 1200px) {
+      span:nth-child(-n+3) {
+        font-size: 26px;
+      }
+    }
 
-        .release-number {
-          font-size: 35vh;
-          color: $color-white;
-          display: block;
-          text-align: center;
-          line-height: 1.2;
+    .release-number {
+      font-size: 35vh;
+      color: $color-white;
+      display: block;
+      text-align: center;
+      line-height: 1.2;
 
-          @media (max-width: 1200px) {
-            font-size: 30vh;
-          }
+      @media (max-width: 1200px) {
+        font-size: 30vh;
+      }
 
-          @media (max-width: 768px) {
-            font-size: 30vw;
-          }
+      @media (max-width: 768px) {
+        font-size: 30vw;
+      }
 
-          @media (max-width: 510px) {
-            font-size: 150px;
-          }
-        }
+      @media (max-width: 510px) {
+        font-size: 150px;
+      }
+    }
 
-        h1 {
-          text-align: center;
-          font-weight: 300;
-          font-size: 8vh;
-          line-height: 1.25;
-          position: absolute;
-          margin: auto;
-          left: 0;
-          right: 0;
-          margin-left: auto;
-          margin-right: auto;
-          width: 80%;
-          top: 60%;
-          color: $blog-color-text;
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      font-size: 8vh;
+      line-height: 1.25;
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      top: 60%;
+      color: $blog-color-text;
 
-          @media (max-width: 1200px) {
-            font-size: 6vh;
-          }
+      @media (max-width: 1200px) {
+        font-size: 6vh;
+      }
 
-          @media (max-width: 768px) {
-            font-size: 7vw;
-          }
+      @media (max-width: 768px) {
+        font-size: 7vw;
+      }
 
-          @media (max-width: 510px) {
-            font-size: 32px;
-            width: 90%;
-          }
-        }
+      @media (max-width: 510px) {
+        font-size: 32px;
+        width: 90%;
+      }
+    }
 
-        .description {
-          top: 88%;
-          color: $blog-color-text;
-          position: absolute;
-          margin: auto;
-          left: 0;
-          right: 0;
-          margin-left: auto;
-          margin-right: auto;
-          width: 60%;
-          max-width: 700px;
+    .description {
+      top: 88%;
+      color: $blog-color-text;
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      max-width: 700px;
 
-          @media (max-width: 1200px) {
-            top: 81%;
-          }
+      @media (max-width: 1200px) {
+        top: 81%;
+      }
 
-          @media (max-width: 768px) {
-            width: 80%;
-          }
+      @media (max-width: 768px) {
+        width: 80%;
+      }
 
-          @media (max-width: 510px) {
-            font-size: 18px;
-            text-align: left;
-            width: 90%;
-            display: none;
-          }
-        }
+      @media (max-width: 510px) {
+        font-size: 18px;
+        text-align: left;
+        width: 90%;
+        display: none;
       }
     }
   }
