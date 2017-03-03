@@ -1961,7 +1961,8 @@ or out of resources. It works from every major browser and saves automatically y
 
 ----
 
-## Tips &amp; Tricks
+## Complementary Notes
+{: #tips--tricks}
 
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
