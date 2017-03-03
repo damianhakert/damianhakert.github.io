@@ -218,16 +218,14 @@ to keep some standards, let's try to use the following options only.
 
 ### Inline Links
 
-We'd rather use inline links, such as `[Text to display](link)`. Use relative links whenever possible.
+We'd rather use inline links, such as `[Text to display](link)`, as they are easier to maintain.
+Use relative URLs whenever possible.
 
 ### Identifiers
 
-When there's a long page with repeated links across this page, you can opt for using identifiers.
+When there are **repeated** links across a single page, you can opt for using identifiers.
 
-Place the identifiers at the end of the paragraph, arranging them in alphabetical order.
-You can also group them in different categories at the end of the file, if that's the case. Check
-[this post][ssgs-post-raw] for reference. It's important to organize the links in certain
-order to be easy and quick to find them for both the author and the reviewers.
+Place the identifiers at the end of the paragraph (or the section), arranging them in alphabetical order.
 
 ```md
 [Text to display][identifier] will display a link.
@@ -239,8 +237,6 @@ order to be easy and quick to find them for both the author and the reviewers.
 [This link][] (same as above), has a second pair of empty brakets to indicate that the following parenthesis does not contain a link.
 
 <https://example.com> works too. Must be used for explicit links.
-
-... (page content) ...
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -267,8 +263,6 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 <https://example.com> works too. Must be used for explicit links.
 
-... (page content) ...
-
 <!-- Identifiers, in alphabetical order -->
 
 [another-identifier]: https://example.com "This example has a title"
@@ -282,7 +276,6 @@ Important notes:
 {: #links-important-notes}
 
 - {: #note-identifiers} Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
-- {: #note-links-markup} Avoid using other markup syntax for links. Also, prefer using inline links, as they're easier to maintain.
 - {: #note-meaningful-links} Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
