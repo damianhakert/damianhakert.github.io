@@ -2241,6 +2241,28 @@
   story:  |
           Joining March 6th
 
+- name: S.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive-emea/">Junior Account Executive EMEA</a>
+  reports_to: Regional Sales Director - EMEA
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 27th
+
+- name: K.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/director-customer-success/">Director of Customer Success</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 3rd
+
 - name: "Ernst (Interim)"
   placeholder: true
   locality:
