@@ -13,14 +13,8 @@ $blog-color-overlay-border: #eee;
 .container {
   max-width: 1680px;
   margin: auto;
-
-  @media (min-width: 1333px) {
-    width: 90vw;
-  }
-
-  @media (min-width: 769px) and (max-width: 992px) {
-    width: 90vw;
-  }
+  padding: 0;
+  width: 90vw;
 }
 
 .blog.article {
@@ -179,7 +173,7 @@ $blog-color-overlay-border: #eee;
       box-shadow: inset 0 45px 0 0 $heading-bg-color, inset 0 46px 0 0 $color-gray-medium;
 
       @media (max-width: 768px) {
-        padding: 0 15px !important;
+        padding: 0 15px;
       }
 
       .panel-body,
