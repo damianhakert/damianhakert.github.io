@@ -1,3 +1,14 @@
+$color-white: #fff;
+$color-transparent-white: rgba(255, 255, 255, 0);
+$blog-color-text: #333;
+$color-gray-medium: #dddddd;
+$heading-bg-color: #f5f5f5;
+$badge-color-ce: #5aab6e;
+$badge-color-ee: #51a7e0;
+$blog-color-border-shadow: rgba(0, 0, 0, .1);
+$body-bg: #f9f9f9;
+$blog-color-overlay-border: #eee;
+
 
 .container {
   max-width: 1680px;
@@ -17,7 +28,7 @@
     height: 100vh;
 
     .overlay {
-      background: linear-gradient(0deg, white 35%, rgba(255, 255, 255, 0) 55%);
+      background: linear-gradient(0deg, $color-white 35%, $color-transparent-white 55%);
       border-bottom: none;
       height: 100vh;
 
@@ -25,8 +36,7 @@
         max-width: none;
         padding: 10vh 20% 0;
         text-align: center;
-        color: #5a82ae;
-        color: #333;
+        color: $blog-color-text;
 
         .date,
         .author {
@@ -35,12 +45,11 @@
 
         .author-gitlab i,
         .author-twitter i {
-          color: #5a82ae;
-          color: #333;
+          color: $blog-color-text;
 
           &:hover,
           &:focus {
-            color: white;
+            color: $color-white;
           }
         }
 
@@ -56,7 +65,7 @@
 
         .release-number {
           font-size: 35vh; // 284px
-          color: white;
+          color: $color-white;
           display: block;
           text-align: center;
           text-align: center;
@@ -88,7 +97,7 @@
           margin-right: auto;
           width: 80%;
           top: 60%;
-          color: #333;
+          color: $blog-color-text;
 
           @media (max-width: 1200px) {
             font-size: 6vh;
@@ -106,7 +115,7 @@
 
         .description {
           top: 88%;
-          color: #333;
+          color: $blog-color-text;
           position: absolute;
           margin: auto;
           left: 0;
@@ -167,7 +176,7 @@
 
     .panel {
       padding: 0 5% 0;
-      box-shadow: inset 0 45px 0 0 whitesmoke, inset 0 46px 0 0 #dddddd;
+      box-shadow: inset 0 45px 0 0 $heading-bg-color, inset 0 46px 0 0 $color-gray-medium;
 
       @media (max-width: 768px) {
         padding: 0 15px 0 !important;
@@ -192,16 +201,12 @@ h2 {
   flex-wrap: wrap;
   margin-bottom: 1.36em !important;
   align-items: center;
-  //
-  // @media (max-width: 1024px) {
-  //   align-items: center;
-  // }
 }
 
-.ce:before {
-  content: 'CE';
-  color: #FFFFFF;
-  background: #5aab6e;
+.ce::before {
+  content: "CE";
+  color: $color-white;
+  background: $badge-color-ce;
   order: 1;
   font-size: .68em;
   padding: .3em .4em;
@@ -213,18 +218,18 @@ h2 {
   align-self: center;
 }
 
-.ee:before {
-  @extend .ce:before;
-  content: 'EE';
-  background: #51a7e0;
+.ee::before {
+  @extend .ce::before;
+  content: "EE";
+  background: $badge-color-ee;
 }
 
-.ce-ee:before {
-  @extend .ce:before;
+.ce-ee::before {
+  @extend .ce::before;
 }
 
-.ce-ee:after {
-  @extend .ee:before;
+.ce-ee::after {
+  @extend .ee::before;
 }
 
 .figcaption {
@@ -234,7 +239,7 @@ h2 {
 .note {
   order: 1;
   width: 100%;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid $blog-color-overlay-border;
   padding-top: 20px;
 }
 
@@ -261,7 +266,7 @@ h2 {
     max-width: 900px;
     margin-bottom: 100px;
 
-    h2{
+    h2 {
       justify-content: center !important;
       text-align: center;
     }
@@ -325,7 +330,7 @@ h2 {
     width: 100%;
   }
 
-  h2{
+  h2 {
     justify-content: center;
     text-align: center;
   }
@@ -347,11 +352,11 @@ h2 {
   order: 1;
   text-align: center;
   padding: 25px 15px 50px;
-  background: #f9f9f9;
+  background: $body-bg;
   min-width: 100vw;
   font-size: 26px;
   margin: 0 0 100px -5vw;
-  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.1), inset 0 -1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
 
   @media (max-width: 768px) {
     font-size: 18px;
@@ -363,7 +368,7 @@ h2 {
     margin: 20px auto !important;
   }
 
-  img{
+  img {
     height: 200px;
 
     @media (max-width: 768px) {
