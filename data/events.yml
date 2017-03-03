@@ -3,7 +3,7 @@
   date: March 8-10, 2017
   description: |
                Stop by our booth to get a demo on going from idea to production on Google Container Engine.
-  location: San Francisco, USA
+  location: San Francisco, CA USA
   social_tags: GoogleNext, GitLabonGKE
   event_url: https://cloudnext.withgoogle.com/
 
@@ -11,8 +11,17 @@
   type: Release
   date: March 22, 2017
   description: |
-               Learn more about all the amazing new features we'll have released in 9.0.
+               Learn more about best development practices. 
   location: San Francisco, USA
+  social_tags: GitLab9.0
+  event_url: https://about.gitlab.com/
+  
+- topic: GitLab Does Denver
+  type: Release
+  date: March 23, 2017
+  description: |
+               Learn more about all the amazing new features we'll have released in 9.0.
+  location: Denver, CO USA
   social_tags: GitLab9.0
   event_url: https://about.gitlab.com/
 
