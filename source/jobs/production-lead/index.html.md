@@ -18,7 +18,7 @@ report to the Production Lead.
 * Provides necessary infrastructure (e.g. servers, databases, etc.) for company
 * Coordinates with the team and product managers about plan for the work in the upcoming week
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
-* Is the guardian of configuration parity between GitLab.com and on premises installations.
+* Is the guardian of configuration parity between GitLab.com and on premises installations
 
 ## Why Parity?
 
@@ -33,5 +33,6 @@ and found multiple blockers in the way, including one that simply should not be
 there: limitation of 10 projects per user.
 
 This frustrated this customer, and he/she is right, we can do much better.
+All exceptions should be documented on the [GitLab.com settings page](https://about.gitlab.com/gitlab-com/settings/) no later than they are deployed.
 
 **NOTE** In the compensation calculator below, fill in "Lead" in the `Level` field for this role.
