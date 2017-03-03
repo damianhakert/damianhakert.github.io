@@ -45,6 +45,7 @@ We do what we promised to each other, customers, users, and investors.
 off to feel like they did something wrong. Instead, celebrate the achievements of
 yourself and your teammates. You don't have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. **Write promises down** agree in writing on measurable goals. Within the company we use [OKRs](https://about.gitlab.com/handbook/people-operations/okr/) for that, you can see our [public OKR goal tree](https://gitlab.latticehq.com/public/goals).
+1. **Growth mindset** You don't always get results and this will result in criticism from yourself and/or others. We believe our talents can be developed through hard work, good strategies, and input from others. We try for hire based on [people their trajectory, not their pedigree](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means).
 
 ## Efficiency
 
