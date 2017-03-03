@@ -44,7 +44,7 @@ Tune in on Nov. 30 for our 8.14 release webcast with a live demo of Review Apps 
 
 ![mvp-badge](/images/mvp_badge.png)
 
-### This month’s Most Valuable Person (MVP) is Toon Claes.
+### This month’s Most Valuable Person (MVP) is [Toon Claes](https://gitlab.com/to1ne)
 
 Toon contributed the button to delete all merged branches, a great addition to GitLab. Thanks Toon Claes!
 
