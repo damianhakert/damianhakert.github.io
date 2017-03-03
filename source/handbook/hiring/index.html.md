@@ -237,6 +237,8 @@ These questions should be aligned with our company values. What we are looking f
 
 Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
 
+For a brief explanation about how behavioral interviews work refer to [this video](https://drive.google.com/a/gitlab.com/file/d/0B0peM56mhGBEcXk2N2U3b05NNWc/view?usp=sharing) (GitLab's internal use only)
+
 ### Interview feedback
 
 Always leave feedback, this will help everyone to understand what happened and how you came to your decision.
