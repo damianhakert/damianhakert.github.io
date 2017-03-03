@@ -79,7 +79,7 @@ There is one temporary exception: release managers require production access to 
     - Highly Available setup
     - Alerting feeds from this setup
     - Private GitLab account is required to access
-    - Separated from the public for security and availability reasons
+    - Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB
 
 ## Documentation
 
