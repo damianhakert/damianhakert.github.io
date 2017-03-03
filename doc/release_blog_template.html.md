@@ -6,7 +6,7 @@ author_gitlab: GitLab.com username
 author_twitter: Twitter username
 categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
-description: "With this release XXX"
+description: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 #cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 #cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
