@@ -148,6 +148,16 @@ $blog-color-overlay-border: #eee;
       flex-direction: row;
       flex-wrap: wrap;
 
+      h2 {
+        font-size: 44px;
+        font-weight: normal;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 1.36em;
+        align-items: center;
+      }
+
       h3 {
         margin-top: 30px;
         font-weight: normal;
@@ -157,6 +167,46 @@ $blog-color-overlay-border: #eee;
       h4 {
         font-size: 24px;
         font-weight: normal;
+      }
+
+      .left,
+      .right {
+        p:first-child {
+            margin-top: 0;
+        }
+      }
+
+      .mvp {
+        order: 1;
+        text-align: center;
+        padding: 25px 15px 50px;
+        background: $body-bg;
+        min-width: 100vw;
+        font-size: 26px;
+        margin: 0 0 100px -5vw;
+        box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
+
+        @media (max-width: 768px) {
+          font-size: 18px;
+        }
+
+        > * {
+          max-width: 900px;
+          text-align: center;
+          margin: 20px auto;
+        }
+
+        img {
+          height: 200px;
+
+          @media (max-width: 768px) {
+            height: 150px;
+          }
+
+          @media (max-width: 510px) {
+            height: 100px;
+          }
+        }
       }
     }
 
@@ -187,18 +237,7 @@ $blog-color-overlay-border: #eee;
   }
 }
 
-h2 {
-  font-size: 44px;
-  font-weight: normal !important;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 1.36em !important;
-  align-items: center;
-}
-
-.ce::before,
-.ce-placeholder {
+%ce-placeholder {
   content: "CE";
   color: $color-white;
   background: $badge-color-ce;
@@ -214,17 +253,19 @@ h2 {
 }
 
 .ee::before {
-  @extend .ce-placeholder;
+  @extend %ce-placeholder;
   content: "EE";
   background: $badge-color-ee;
 }
 
 .ce-ee::before {
-  @extend .ce-placeholder;
+  @extend %ce-placeholder;
 }
 
 .ce-ee::after {
-  @extend .ce-placeholder;
+  @extend %ce-placeholder;
+  content: "EE";
+  background: $badge-color-ee;
 }
 
 .figcaption {
@@ -236,6 +277,14 @@ h2 {
   width: 100%;
   border-top: 1px solid $blog-color-overlay-border;
   padding-top: 20px;
+}
+
+.left {
+  padding: 0 5% 0 0;
+}
+
+.right {
+  padding: 0;
 }
 
 .left,
@@ -253,16 +302,20 @@ h2 {
     width: 100%;
   }
 
+  h2 {
+    justify-content: flex-start;
+  }
+
   @media (max-width: 1024px) {
     display: block;
     margin: auto;
-    padding: 0 !important;
+    padding: 0;
     width: 80%;
     max-width: 900px;
     margin-bottom: 100px;
 
     h2 {
-      justify-content: center !important;
+      justify-content: center;
       text-align: center;
     }
 
@@ -282,22 +335,6 @@ h2 {
       margin: auto;
     }
   }
-
-  h2 {
-    justify-content: flex-start;
-  }
-}
-
-.left {
-  padding: 0 5% 0 0;
-
-  p:first-child {
-    margin-top: 0 !important;
-  }
-}
-
-.right {
-  padding: 0;
 }
 
 .small-reverse {
@@ -339,39 +376,6 @@ h2 {
     @media (max-width: 768px) {
       width: 100%;
       margin: 0;
-    }
-  }
-}
-
-.mvp {
-  order: 1;
-  text-align: center;
-  padding: 25px 15px 50px;
-  background: $body-bg;
-  min-width: 100vw;
-  font-size: 26px;
-  margin: 0 0 100px -5vw;
-  box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
-
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
-
-  > * {
-    max-width: 900px;
-    text-align: center;
-    margin: 20px auto !important;
-  }
-
-  img {
-    height: 200px;
-
-    @media (max-width: 768px) {
-      height: 150px;
-    }
-
-    @media (max-width: 510px) {
-      height: 100px;
     }
   }
 }
