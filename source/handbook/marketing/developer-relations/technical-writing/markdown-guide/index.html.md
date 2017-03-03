@@ -216,11 +216,18 @@ This is **bold** and this is _italic_.
 There are a few different ways to display links with markdown markup, but
 to keep some standards, let's try to use the following options only.
 
-Place the identifiers at the end of the file, arrange them in alphabetical order.
-You can group them in different categories, if that's the case. Check
+### Inline Links
+
+We'd rather use inline links, such as `[Text to display](link)`. Use relative links whenever possible.
+
+### Identifiers
+
+When there's a long page with repeated links across this page, you can opt for using identifiers.
+
+Place the identifiers at the end of the paragraph, arranging them in alphabetical order.
+You can also group them in different categories at the end of the file, if that's the case. Check
 [this post][ssgs-post-raw] for reference. It's important to organize the links in certain
 order to be easy and quick to find them for both the author and the reviewers.
-
 
 ```md
 [Text to display][identifier] will display a link.
@@ -228,6 +235,8 @@ order to be easy and quick to find them for both the author and the reviewers.
 [Another text][another-identifier] will do the same. Hover the mouse over it to see the title.
 
 [This link] will do the same as well. It works as the identifier itself.
+
+[This link][] (same as above), has a second pair of empty brakets to indicate that the following parenthesis does not contain a link.
 
 <https://example.com> works too. Must be used for explicit links.
 
@@ -254,6 +263,8 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [This link] will do the same as well. It works as the identifier itself.
 
+[This link][] (same as above), has a second pair of empty brackets to indicate that the following parenthesis does not contain a link.
+
 <https://example.com> works too. Must be used for explicit links.
 
 ... (page content) ...
@@ -268,16 +279,14 @@ order to be easy and quick to find them for both the author and the reviewers.
 </div>
 
 Important notes:
+{: #links-important-notes}
 
-- Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
-- Avoid using other markup syntax for links. Definitely avoid adding the URL in-line, as
-in `[link](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2373#note_12594349)`.
-This syntax works perfectly, but breaks the reading flow, deviating the attention of the reviewer.
-Also, it may cause repetition of the same link through the document.
-- Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
+- {: #note-identifiers} Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
+- {: #note-links-markup} Avoid using other markup syntax for links. Also, prefer using inline links, as they're easier to maintain.
+- {: #note-meaningful-links} Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
-- Check for broken links: <http://www.deadlinkchecker.com/>
+- {: #note-deadlinks-checker} Check for broken links: <http://www.deadlinkchecker.com/>
 
 ----
 
