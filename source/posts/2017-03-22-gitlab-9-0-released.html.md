@@ -19,3 +19,9 @@ If your [project is already configured with a deployment service][project-servic
 [auto-deploy-doc]: https://docs.gitlab.com/ce/ci/autodeploy/index.html
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
+
+## More control over HTTP Strict Transport Security settings
+Now you fine tune your Strict Transport Security enforcement just by changing settings in your Omnibus GitLab config. 
+[Learn more][hsts-settings-doc] how you can use HTTP Strict Transport Security to provide your installation with even better protection against MITM attacks.
+
+[hsts-settings-doc]: https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security
