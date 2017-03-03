@@ -216,6 +216,12 @@
   apply:
   open: false
 
+- title: "Sales Administrator (EMEA)"
+  description: /jobs/sales-administrator-emea/
+  salary:
+  apply:
+  open: true
+
 - title: "Security Engineer"
   description: /jobs/security-engineer/
   salary: 87337
