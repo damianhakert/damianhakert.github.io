@@ -188,11 +188,11 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 1.36em !important;
-
-  @media (max-width: 1024px) {
-    // flex-direction: column;
-    align-items: center;
-  }
+  align-items: center;
+  // 
+  // @media (max-width: 1024px) {
+  //   align-items: center;
+  // }
 }
 
 .ce:before {
@@ -200,16 +200,14 @@ h2 {
   color: #FFFFFF;
   background: #5aab6e;
   order: 1;
-
-  // float: left;
   font-size: .68em;
   padding: .3em .4em;
   border-radius: 3px;
-  margin-top: 10px;
-  margin-left: 10px;
   font-weight: 600;
   height: 50px;
   width: 56px;
+  margin: 10px 0 10px 10px;
+  align-self: center;
 }
 
 .ee:before {
