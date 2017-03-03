@@ -6,7 +6,7 @@ author_gitlab: victorwu
 categories: concepts
 image_title: '/images/blogimages/invite-your-engineers-to-talk-business-heres-why.jpg'
 description: Traditionally, engineers may have been shielded from the "business parts" of the organization. In today's technology landscape, that's no longer a viable option.
-cta_button_text: 'Join our <strong>Code Review: A Business Imperative</strong> webcast live!'
+cta_button_text: 'Join our <strong>Code Review</strong> webcast live!'
 cta_button_link: 'http://get.gitlab.com/code-review-webinar/'
 ---
 
@@ -44,7 +44,7 @@ In the past, engineers were often removed from business discussions. Business ma
 
 Maintaining code quality is a great bridge in this effort, since engineers can easily articulate its practical benefits that are readily translated into positive business outcomes. You should continually analyze your business and take advantage of new tech debt as the need arises. There is a lot of technical nuance to this delicate balance, and so your engineering team should be presenting the options and offering a strong recommendation. Your engineers need to be strong _business leaders_.
 
-<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Code Review: A Business Imperative</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 1st. <a style="color: rgb(107,79,187);" href="http://get.gitlab.com/code-review-webinar/">Register here</a>!</p>
+<p class="alert alert-orange" style="background-color: rgba(252,163,38,.3); border-color: rgba(252,163,38,.3); color: rgb(226,67,41) !important; text-align: center;">Catch our webcast &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>Code Review: A Business Imperative</strong> &nbsp;&nbsp;<i class="fa fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;on March 15th. <a style="color: rgb(107,79,187);" href="http://get.gitlab.com/code-review-webinar/">Register here</a>!</p>
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/gitlab-ee/).
