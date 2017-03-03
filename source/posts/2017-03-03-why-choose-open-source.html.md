@@ -14,7 +14,7 @@ cta_button_link: https://page.gitlab.com/2016-developer-survey_2016-developer-su
 
 <!-- more -->
 
-Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) explores how developers’ methods are changing, and how businesses can adapt to get the best out of their development teams. More than half of our respondents identified as developer or engineer, giving us insight into what matters to developers, how they choose to work and what tools they choose to do it with. To see what our research revealed, you can [download the full report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to learn more about what today’s developers want.
+Our [Global Developer Report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) explores how developers’ methods are changing, and how businesses can adapt to get the best out of their development teams. More than half of our respondents identified as developer or engineer, giving us insight into what matters to developers, how they work and what tools they choose. To see what our research revealed, you can [download the full report](https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html) to learn more about what today’s developers want.
 
 ## Why Open Source Is Preferred
 
@@ -22,7 +22,7 @@ Nearly three-quarters of our survey respondents said that they chose to work wit
 
 ### Software Evolves Faster
 
-With roots in the open source community, software is able to evolve quickly, with bugs detected and fixed rapidly by members of that community. This reduces the time spent waiting for fixes to be rolled out – a good case for why more than half of our survey respondents say that more than half of the tools they use are open source.
+With roots in the open source community, software is able to evolve quickly, with bugs detected and fixed rapidly by members of that community. This reduces the time spent waiting for fixes to be rolled out – a good case for why the majority of our survey respondents say that more than half of the tools they use are open source.
 
 ![How much open source is used](/images/blogimages/open-source-tools-graph.png){: .shadow}<br>
 
@@ -36,7 +36,7 @@ If developers want to adapt a feature or add something that will make their jobs
 
 ## Developers Overwhelmingly Choose Open Source
 
-Senior leadership is selecting tools for their teams less than 20 percent of the time, and some developers (11 percent) even admit to using their own tools, despite what their managers say. This poses a risk to companies insisting on closed source solutions for their developer teams: there is a strong possibility that teams will use other software anyway without senior leadership being aware of it, compromising your ‘single source of truth’ and potentially wasting money spent on paid tools.
+Senior leadership only selects tools for their teams less than 20 percent of the time, and 11 percent of developers still choose to use their own open source tools, despite what their managers say. This poses a risk to companies insisting on closed source solutions for their developer teams: it compromises your ‘single source of truth’, risks team happiness and cohesion, and wastes resources spent on unused tools.
 
 ![Who chooses development tools](/images/blogimages/who-in-org-decides-tools-graph.png){: .shadow}<br>
 
