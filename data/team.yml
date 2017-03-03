@@ -1429,17 +1429,6 @@
   story:  |
           Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
 
-- name: Allison Whilden
-  locality: Seattle, WA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/ux-lead/">UX Lead</a>
-  reports_to: VP of Engineering
-  picture: allisonwhilden.png
-  twitter: awhildy
-  gitlab: awhildy
-  story:  |
-          Allison is exhilarated by learning about and improving how people interact with technology. She is obsessed with finding the right problems to solve, and determined to solve them. In her free time, you can find her eagerly learning new skills, crafting something in her workshop, or curling up with a good book.
-
 - name: Elsje Smart
   locality: Marazion
   country: United Kingdom
@@ -2198,7 +2187,7 @@
           John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.
 
 - name: Adam Mulvany
-  locality: Melbourne 
+  locality: Melbourne
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
