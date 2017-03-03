@@ -17,7 +17,7 @@ extra_css:
 
 {::options parse_block_html="true" /}
 
-<section class="left">
+<section class="left vertical-align-top">
 
 You’re doing code review of a new feature and wonder how it’ll actually feel, look and work when it’s live. Yesterday, you had to sacrifice your local development environment’s state, checkout the remote branch, run migrations, and then spin up the entire development environment. Today, you can just go to GitLab and click the link in the merge request to play with a fully functional, live environment.
 

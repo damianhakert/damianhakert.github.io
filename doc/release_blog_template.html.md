@@ -34,7 +34,7 @@ link: '/AAAA/MM/DD/gitlab-x-x-released/'
 
 
 
-<section class="left">
+<section class="left vertical-align-top">
 
 Intro and introduce main features here.
 
