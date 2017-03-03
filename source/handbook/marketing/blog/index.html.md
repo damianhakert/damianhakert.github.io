@@ -847,6 +847,17 @@ reflects somehow your post's subject. In the absence of an image, use one of the
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
 
+Please add a reference to the cover image source, owner, and licence at the end of
+the blog post, even if it doesn't require attribution:
+
+```md
+----
+
+[Cover image](link-to-original-image) by [owner name and surname](link), licensed
+under [CC X](link-to-licence).
+{: .note}
+```
+
 The cover image has the following proportions:
 
 - On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
