@@ -112,6 +112,7 @@ your feedback.
 
 </section>
 
+<div class="small-reverse">
 <section class="left">
 
 ![Improved Cycle Analytics in GitLab 8.14](/images/8_14/cycle_events.png)
@@ -132,6 +133,8 @@ faster.
 [Read the documentation on Cycle Analytics](https://docs.gitlab.com/ce/user/project/cycle_analytics.html)
 
 </section>
+</div>
+
 <section class="middle">
 
 ## See all other improvements to GitLab 8.14
@@ -190,8 +193,6 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 </section>
-
-----
 
 [Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
 {:.note}

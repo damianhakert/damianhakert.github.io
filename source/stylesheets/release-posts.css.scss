@@ -141,6 +141,9 @@
     .content {
       max-width: 1680px;
       margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
 
       h3 {
         margin-top: 30px;
@@ -228,8 +231,17 @@ h2 {
   font-style: italic;
 }
 
+.note {
+  order: 1;
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+}
+
 .left,
 .right {
+  order: 1;
+  align-self: center;
   display: inline-block;
   width: 50%;
   vertical-align: middle;
@@ -288,7 +300,21 @@ h2 {
   padding: 0;
 }
 
+.small-reverse {
+  order: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media (max-width: 1024px) {
+    .right {
+      order: 0;
+    }
+  }
+}
+
 .middle {
+  order: 1;
   text-align: justify;
   width: 80%;
   max-width: 900px;
@@ -318,6 +344,7 @@ h2 {
 }
 
 .mvp {
+  order: 1;
   text-align: center;
   padding: 25px 15px 50px;
   background: #f9f9f9;
