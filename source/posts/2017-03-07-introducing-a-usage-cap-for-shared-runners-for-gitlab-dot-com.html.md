@@ -39,22 +39,23 @@ Note that this will only restrict your minutes for our shared runners. If you
 have a private runner setup for your projects, there is no limit to your build
 time on GitLab.com.
 
-## Unlimited Build Minutes Plan
+## Introducing our paid plans
 
-If you want more than 2000 build minutes per month, you will need to subscribe to our [Unlimited CI plan][unlimited-plan].
+If you want more than 2000 build minutes per month, you will need to subscribe to one of our new paid plans.
 
-At $99 per month, this plan is still fair less expensive than any competing plan we are aware of and has no restrictions on the number of parallel builds or total builds. You can apply this plan to any group on GitLab.com.
+[![paid-plans](/images/blogimages/ci-limits/paid-plans.png){: .shadow}](/images/blogimages/ci-limits/paid-plans.png)
 
-We're currently working on creating more plans for the future, depending on the amount of CI you use.
-
-[unlimited-plan]: https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
+Right now, the plans offer additional minutes and levels of support. Over time
+we are going to be introducing new features into these plans, so keep an eye on
+this space!
 
 ## Alternatives
 
-As said, you still have and will always have the option to bring your own Runner. Runners are very easy to set up, require little to no maintenance and run on almost any platform.
+As said, you still have and will always have the option to bring your own Runner.
+Runners are very easy to set up, require little to no maintenance and run on almost any platform.
 
 [Read how to set up your own Runner in the documentation](https://docs.gitlab.com/runner/)
 
 ## Timeline
 
-The plans are available to purchase now and the CI limits will be activated at the end of February.
+The plans are available to purchase now and the CI limits will be activated at the end of March.
