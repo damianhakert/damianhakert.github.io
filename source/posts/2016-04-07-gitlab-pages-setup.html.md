@@ -310,8 +310,11 @@ If you don't, just leave the fields blank.
 to the [IP of GitLab Pages server][pages-settings]:
 
 ```
-mydomain.com A 104.208.235.32
+mydomain.com A 52.167.214.135
 ```
+
+**Update:** GitLab Pages IP address on GitLab.com [has changed](https://about.gitlab.com/2017/03/06/we-are-changing-the-ip-of-gitlab-pages-on-gitlab-com/) from `104.208.235.32` to `52.167.214.135`. Updated by Marcia Ramos on 2017/03/06.
+{:.note}
 
 Alternatively, a similar procedure can be applied for **custom subdomains**:
 
