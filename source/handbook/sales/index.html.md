@@ -34,6 +34,7 @@ title: "Sales Handbook"
 * [Demo: Idea to Production](/handbook/sales/demo/)
 * [SDR Handbook](/handbook/sales/sdr)
 * [GitLab vs. Atlassian Cost Comparison](https://docs.google.com/spreadsheets/d/1uX4uo87rDaTQmsNx98nWeMH7cjtAYSM31J51kClBQ2g/edit#gid=0)
+* [Competitive Battlecards](https://docs.google.com/document/d/1zRIvk4CaF3FtfLfSK2iNWsG-znlh64GNeeMwrTmia_g/edit)
 
 
 ### Sales Resources outside of the Sales Handbook
