@@ -19,6 +19,15 @@ You are now able to create sub-groups inside a group. Imagine you have internal 
 
 Over the coming releases, we will continue to improve nested groups and would love to hear what new features and functionality you want to see. For some up-coming UI improvements, feel free to [browse or create](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups) issues on GitLab with the `Nested Group` tag.
 
+## API V4 is here
+
+Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
+
+This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
+
+We will continue to support v3 of the API until XXXX DATE.
+
+
 ## New Branch for Repo-less Projects
 When you click the `New branch` button in an issue, you probably want to start code development.
 Currently for a project with an empty **Repository**, when this happens, GitLab stubbornly sends you back to the **Project** view.
