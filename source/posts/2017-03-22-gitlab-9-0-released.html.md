@@ -29,7 +29,7 @@ We will continue to support v3 of the API until XXXX DATE.
 
 ## Impersonation Tokens
 
-Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled.
+Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled. This process will also alleviate any issues caused by users inadvertently invalidating tokens in use for other applications.
 
 
 ## New Branch for Repo-less Projects
@@ -48,3 +48,11 @@ Now you fine tune your Strict Transport Security enforcement just by changing se
 [Learn more][hsts-settings-doc] how you can use HTTP Strict Transport Security to provide your installation with even better protection against MITM attacks.
 
 [hsts-settings-doc]: https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security
+
+## Performance improvements
+
+As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with ElasticSearch as well as dealing with issue labels.
+
+[Take a look](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=performance&milestone_title=9.0&scope=all&state=closed) at the full list of performance improvements in 9.0 and keep an eye out for further improvements in up-coming releases as GitLab continues to get faster, especially for large installations.
+
+Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these peformance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
