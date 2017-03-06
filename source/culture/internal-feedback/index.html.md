@@ -17,11 +17,12 @@ title: "Internal Feedback"
 
 Companies often wait until someone resigns to gather feedback during an Exit Interview or they organize a survey to take an occasional pulse of the company’s engagement.  We feel that a quick quarterly check-in is more aligned to our [values](https://about.gitlab.com/handbook/values/), Collaboration and Iteration.  We use Google forms to gather feedback anonymously and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of feedback received but, reserve the right to paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately out of respect for the recipient(s).   
 
-For 2017, we rebranded our survey - [Stay Interview](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScM9OCtyuuRRTNkYeo9e27Fb2IU0beFRz8KetG2SSTe70q5BA/viewform?c=0&w=1) because we are most interested in three things, why people join, what makes them stay, and what would make them consider leaving GitLab.  
+For 2017, we rebranded our survey - [Stay Interview](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScM9OCtyuuRRTNkYeo9e27Fb2IU0beFRz8KetG2SSTe70q5BA/viewform?c=0&w=1). For Q1 we focused our survey questions on three perspectives, why people joined, what makes them stay, and what would make them consider leaving GitLab.  
+We also asked for feedback on our January Summit in Cancun, but we're planning to share that feedback with the Summit planning committee before posting it.
 
 ### Feedback from the GitLab team - February 2017
 
-Here is a summary of the responses from 91 team members (57%) who participated in our February 2017 survey.   
+Here is a summary of responses from the 91 team members (57%) who participated.   
 
 #### Why did you join? (responses in no particular order)
 
@@ -86,12 +87,12 @@ Here is a summary of the responses from 91 team members (57%) who participated i
 1. Peer mentality, even at the highest level of management
 1. The company is flat enough to encourage true collaboration which is vital to growth
 
-#### What would make you leave (what should we avoid in the future)? If the following were to happen, I would consider leaving GitLab:
+#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab:
 
 1. Stagnation of career path, no opportunities to advance
 1. Pay decrease, not paid appropriately, below market pay
 1. Lack of respect
-1. Leaders not leading, big leadership changes, no clear direction
+1. Leaders not leading, no clear direction
 1. Too many restrictions on side projects
 1. Changing the values or culture
 1. The “spirit” leaves the team
@@ -122,33 +123,49 @@ Here is a summary of the responses from 91 team members (57%) who participated i
 
 * Compensation Calculator -
   1. Concern that pay will decrease based on the compensation calculator by location
+   * Our policy on [Relocation] (https://about.gitlab.com/handbook/people-operations/#relocation/) describes our current process, however, we review each case on an individual basis.
   1. Why is the pay gap between Service Engineers and Developers significant?
+   * The role and responsibility is different for these two roles, therefore, the market data indicates a difference in pay scales.  We will review our market data again soon, as part of the upcoming merit adminstration process, to confirm we have good benchmarks in place. 
   1. Concern about relocating causing drop in pay
+   * Note the answer above.  This is a relatively new policy in an organization that is helping to form the playbook for remote only companies. We strive to find the balance between financially responsible decisions and what's fair to team members. 
   1. Concern for lower pay scale outside the US/Europe based on a lower cost of living
+   * The [Compensation Calculator] (https://about.gitlab.com/handbook/people-operations/global-compensation-calculator) applies a consistent approach to a global workforce. It is not a perfect solution and we are working the areas identified where the rent index is not up to part with the job market for a specific position. We aim to make the model better as we learn more.
   1. Will we use the compensation calculator for non engineering roles?
+   * Yes, this work is being completed now. Look for an update soon.
 
 * Other Compensation Topics -
-  1. Clarification of pay schedules; payroll, invoice processing and bonus payments times
+  1. Clarification of pay schedules for payroll, invoice processing and bonus payments
+   * We will consider posting these details in the handbook.
   1. When and how will the salary review process be completed?
+   * We are working with Senior management over the next few weeks (early March 2017) to sketch out a plan for our first annual merit administration cycle. More details coming soon.
 
 ##### Benefits
 
-1. Parental leave policy
+1. Looking forward to GitLab's Parental leave policy
+ * We are in the process of comparing country requirements to create a fair policy for our team members looking to add to their family. This is Issue #88 on the People Ops issue tracker.
 1. Feeling guilty taking time off
+ * We encourage anyone who is concerned about taking time away from work to recharge to speak to their manager or reach out to our People Ops Generalist or People Ops Director to better understand the concern.  We take our unlimited paid time off policy seriously.
 
 ##### Grovo
 
 1. Why are quizzes necessary?
+ * Quizzes reinforce that learning has occurred. When the courses were pulled from Grovo's content library, we were conscious to minimize or even eliminate this exercise for shorter courses.  Confirming you understand and can apply the concepts covered is an important step in the learning process. We will continue to look at ways to deliver effective learning opportunities.
 1. Will we have technical training for non-engineering GitLabbers?
+ * This is on the radar for 2017. 
 
 ##### Lattice
 
 1. Need more explanation about the purpose and OKRs
+ * We admit to rolling out OKRs quickly and asking people to jump on board for Q1 2017. We will spend more time exiting the quarter properly, learning from what went well and what can be improved and make every effort to improve the process for Q2. 
 1. Fear of "Not my OKR, not my problem" moving toward thought process of not my job instead of helping team members out when they need it.
+ * During the debrief from Q1, we will explore this concern further to see if it has any merit. We have committed to setting OKRs to help us achieve bigger results by focusing on a few key deliverables each quarter, however, we can't lose sight of the fact that we are in this to win as a team.
 
 ### Technical Direction
 
 1. Need to Improve cloud and hosted solutions
+ * We encourage the contributor of this feedback to open an issue to kick start a discussion. Thank you!
+
+
 
 ### Feedback from the GitLab team - November 2016
 
