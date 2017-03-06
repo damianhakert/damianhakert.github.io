@@ -15,7 +15,7 @@ We're really excited about this new feature in 9.0 that unlocks new ways to stru
 
 You are now able to create sub-groups inside a group. Imagine you have internal teams, or want to structure your GitLab projects in a more folder-like way - you can now create up to 20 levels of groups with sub-groups and create or move projects into that new structure. Take a look at the example screenshot below that shows a list of your groups, and you can see we've added categorisation using sub-groups for Design, Backend and Frontend.
 
-![Nested Groups](/images/blogimages/release-9-0/gitlab-nested.png){: .shadow}
+![Nested Groups](/images/9_0/gitlab-nested.png){: .shadow}
 
 Over the coming releases, we will continue to improve nested groups and would love to hear what new features and functionality you want to see. For some up-coming UI improvements, feel free to [browse or create](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups) issues on GitLab with the `Nested Group` tag.
 
