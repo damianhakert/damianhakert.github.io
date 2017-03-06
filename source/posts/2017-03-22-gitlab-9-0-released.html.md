@@ -27,6 +27,10 @@ This constant iteration has resulted in a few inconsistencies in our existing AP
 
 We will continue to support v3 of the API until XXXX DATE.
 
+## Impersonation Tokens
+
+Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled.
+
 
 ## New Branch for Repo-less Projects
 When you click the `New branch` button in an issue, you probably want to start code development.
