@@ -76,3 +76,196 @@ Use the Amazon business account for all Amazon links. In order to see what is av
 For Apple products we have a relationship with Bay Street Business to place all orders and act as our liaison.
 * For orders in the US, login to the [custom store](https://idmsa.apple.com/IDMSWebAuth/login.html?appIdKey=a747eeda10429061323c0b5d14a4937fe24fde503ea79cf9cf72a09b0d8f2434&path=/asb2b/init.do%3Fsegment%3DDFL-SEG&language=US-EN&segment=DFL-SEG) to place the order and ship.
 * For orders outside the US, but in a country with an Apple Store, please contact Bay Street Business (baystreetbusiness@apple.com) to coordinate with the local store and generate the invoice. Once the invoice is made, it will be sent to People Ops via email. If all information looks correct, contact Bay Street Business with the payment information.
+
+## Adding a New Team Member to BambooHR
+
+As part of [onboarding](https://about.gitlab.com/handbook/general-onboarding/), the People Ops Specialist will process new hires in BambooHR. Aside from the steps listed in the onboarding issue, this is a description of how to add the proper information into BambooHR.
+
+Personal Tab
+
+1. Verify the team member was given an Employee ID number.
+1. Enter the appropriate Country.
+1. Region: Should either be Americas, EMEA, or JAPAC.
+1. Enter the team member's time zone.
+1. Verify the work email is entered.
+
+Jobs Tab
+
+1. Hire Date - This will automatically populate with the day that the profile was transferred from Workable. Make sure to enter in the correct date.
+1. Role
+   * Leader - if director or above
+   * Manager - if has any direct reports
+   * Individual Contributor - all others
+1. FLSA Code - This will either be exempt or non-exempt depending on how the role is classified. If there are questions on the classification, please ask the People Ops Specialist.
+1. Reports to EID - Direct Manager's employee ID number.
+1. Cost Center - Leave blank for now. This will become relevant as we scale.
+1. Exec Name - Executive in the team member's reporting chain who reports to the CEO.
+1. Payroll Type
+   * Employee - paid through Payroll
+   * Contractor - IND - Independent Contractor agreement
+   * Contractor - C2C - Contractor Company agreement
+1. Exception to IP Agreement - If they answered Yes, on the IP agreement in the contract.
+1. Compensation Table
+   * Effective Date - Hire Date
+   * Pay Rate - Entered as if it were a payroll amount. For example, a US employee would be entered as their yearly amount divided by 24 payrolls in a year. A contractor would have their monthly contract amount listed.
+   * Pay Per - Leave blank unless for an hourly employee
+   * Pay Type - Use either Salary, Hourly, or Contract.
+   * Pay Period - Select the pay period. Currently we have twice a month for the US, and monthly for all others.
+   * Change Reason - New Hire
+   * Comment - Please add any comments that are relevant from the contract terms.
+1. Pay Frequency (Note: Pay Frequency times pay rate should equal annual compensation)
+   * 12 for contractors, GitLab LTD, and LYRA
+   * 12.96 for GitLab B.V. employees in the Netherlands
+   * 13.92 for GitLab B.V. employees in Belgium
+   * 24 for GitLab Inc. employees
+1. On Target Earnings
+   * If the new team member is on a commission or quarterly bonus plan according to their contract, please add the details into this table.
+1. Currency Conversion
+   * Every January and July the People Ops specialist will conduct a currency conversion for all team members.
+   * Using either January 1 or July 1 as the currency conversion effective date, use Oanda for the currency conversion factor.
+   * Enter the Local Annual Salary, and the converted salary in USD.
+1. Job information
+   * Effective Date - Hire Date
+   * Location - Which entity the new team member is contracted through.
+   * Division - Enter the appropriate division from the dropdown.
+   * Department - Leave blank for now. This will become relevant as we scale.
+   * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table.
+1. Employment Status
+   * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.
+   * For new team members from GitLab LTD and Lyra who have a three month probation period set the status to probation period. This sets up an alert for the manager and peopleops automatically, 2 weeks, 1 week and a day before the probation period expires   
+
+To Terminate a Team Member from BambooHR:
+1. Click on the gear icon in BambooHR at the top right of the screen.
+1. Select Terminate Employee.
+1. Enter the Effective Date of the termination.
+1. Select Voluntary or Involuntary.
+1. Enter the termination reason and if eligible for rehire.
+
+### Settings in BambooHR
+
+Changing a Format (Example: Date)
+
+1. Click on Settings
+1. Choose Account
+1. Select General Settings
+1. Change the date format to match desired output
+
+Adding a New Job Title
+
+1. Click on Settings
+1. Select Employee Field
+1. Select Job Title
+1. Add new job title to the drop down list
+
+Add a New Division
+
+1. Click on Settings
+1. Select Employee Field
+1. Select Division
+1. Add new division
+
+### Add a note to the new team member in BambooHR
+
+We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus.
+
+1. Go to the notes page under the new employee
+1. Add a note of who referred this team member
+
+### Entering New Hires into TriNet
+
+Employer enters the employee data in the HR Passport with the information below
+
+1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
+1. Enter all of the necessary information:
+    * Company name auto-populates
+    * SS
+    * Form of address for hire (Mr. Ms, etc.)
+    * First name
+    * Last name
+    * Middle name or initial
+    * Country
+    * Address
+    * Home phone
+    * Home email
+    * Gender
+    * Ethnicity (you must select something - guess if employee declines to state)
+    * Military status
+
+At the bottom of the screen, select next
+
+    * TriNet’s start date
+    * Reason - drop down menu with options
+    * Employment type - Full time or PT options
+    * Select reg/temp bubble
+    * Employee Class - drop down between regular and commission
+    * Estimated annual wages (does not include anything besides base salary)
+    * Benefit class
+    * Future benefits class -
+    * Standard Hours/week - Part time or Full time
+    * Business Title - see org chart
+    * Job Code - no need to enter anything here
+    * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
+    * Supervisor - drop down menu of names
+    * Compensation Basis (Make sure to verify that hourly employees are non-exempt and annual employees are exempt)
+    * Compensation Rate
+    * Departments
+    * Work Location - drop down menu
+    * Pay Group - only one option
+    * Alternate Employee ID - found in BambooHR
+    * Work email
+    * Grouping A/level - not necessary
+    * Grouping B/sponsor- not necessary
+
+Select next or save (if you select save, it will hold your information)
+
+    * Vacation/PTO - drop down menu only provides one option- select this
+    * Sick- drop down menu only provides one option- select this
+    * Personal Time - leave blank
+    * Floating Holidays - leave blank
+    * Birthdate - mm/dd/yyyy
+    * Workers compensation- select unknown and it will default to our principle class code for our industry
+Window: Describe employees job duties - simple description
+
+After submission -  you will receive a prompt for final submission, select, and submit.
+
+Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue.
+
+1. The employee receives a welcome email the night before their start date.
+1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
+1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
+
+### Adding a Trusted Advisor to TriNet
+
+A trusted advisor is a team member in People Ops who is granted access to TriNet, but is not an employee of GitLab Inc. Since they are not added to the system as a part of onboarding, we need to add them as a trusted advisor to make any changes within the system.
+
+1. Add to the TriNet Platform
+    1. From TriNet Passport homepage, click on the tab My Company
+    1. Select My Workplace, Trusted Advisor Setup
+    1. Complete the information in the online form
+    1. Click Submit
+1. Assign the Role of Trusted Advisor
+    1. From TriNet Passport homepage, click Find
+    1. Select Find Person by Name
+    1. Type in the person’s name
+    1. Click search
+    1. Once the name appears, click on it
+    1. From the options to the left, select Assign Roles
+    1. Click on Add
+    1. From the drop down select the access role desired
+    1. Click Add
+
+You can also follow the same process for assigning a role to a GitLab Inc. employee who is already in the TriNet system.
+
+#### Add a New Location in TriNet
+
+1. Go to HR Passport homepage
+1. Click Find
+1. Click Find Location.
+1. When search field appears, leave blank and click Search.
+1. Click on Add location.
+1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state, and zip.
+1. Click Add.
+
+### Auditing System Changes
+
+Once a change has been made, an alternative representative from People Ops will audit that change. The audit trail is located in the Google Sheet titled "System Data Entry Verification." Enter the team member's name, where the change was made, date, and entered by. This should be done for all changes related to new hires, terminations, salary changes, special pay, and title changes. The should be completed within a 72 hour period. Ping who should perform the audit within the sheet.

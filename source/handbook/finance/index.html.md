@@ -294,10 +294,17 @@ In Netsuite:
 
 ### Asset Tracking
 
-<<<<<<< HEAD
-See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/system-processes/#asset-tracking)
-=======
-See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)
+Items paid for by the company are property of the company.
+
+Assets with purchasing value in excess of $1000 USD are tracked in BambooHR, for assets of lower value we rely on the honor system. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
+
+The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation).
+
+1. Go to the team member in BambooHR
+1. Click on the Assets Tab
+1. Click Update Assets
+1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
+1. This process is repeated for each asset purchased
 
 ## Spend reduction
 
@@ -308,4 +315,3 @@ Discretionary spending is always subject to questioning, we are frugal and all s
 But we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
 Instead, we should do the hard work of identifying positions and costs that are not contributing to our goals.
 Even if this causes a bit more disruption in the short term, it will help us ensure we stay a great place to work for the people who are here.
->>>>>>> master
