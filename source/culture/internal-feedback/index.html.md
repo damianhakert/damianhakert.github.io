@@ -13,7 +13,7 @@ title: "Internal Feedback"
 
 ----
 
-## Internal Feedback
+## Internal Feedback 
 
 Companies often wait until someone resigns to gather feedback during an Exit Interview or they organize a survey to take an occasional pulse of the company’s engagement.  We feel that a quick quarterly check-in is more aligned to our [values](https://about.gitlab.com/handbook/values/), Collaboration and Iteration.  We use Google forms to gather feedback anonymously and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of feedback received but, reserve the right to paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately out of respect for the recipient(s).   
 
