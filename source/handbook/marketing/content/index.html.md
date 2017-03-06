@@ -3,9 +3,9 @@ layout: markdown_page
 title: Content Marketing
 ---
 
-Content Marketing is part of the Marketing Team and specializes in creating cross-functional content marketing lead generation campaigns and strategies across the GitLab website, blog, social channels and newsletters. 
+Content Marketing is part of the Marketing Team and specializes in creating cross-functional content marketing lead generation campaigns and strategies across the GitLab website, blog, social channels and newsletters.
 
-Content Marketing focuses exclusively on create content campaigns and strategies for the purpose of lead generation either directly through a gated asses or indirectly by promoting a gated asset.
+Content Marketing focuses exclusively on create content campaigns and strategies for the purpose of lead generation either directly through gated assets or indirectly by promoting a gated assets.
 
 ## What content assets does Content Marketing create for the purpose of lead generation?
 
