@@ -495,7 +495,7 @@ Update: she's joined the [GitLab Team] in May, 2016.
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
 [Marcia]: https://gitlab.com/u/marcia
-[Virtua Creative]: https://virtuacreative.com.br/en/
+[Virtua Creative]: http://virtuacreative.com.br/en/
 
 [ci-examples]: https://gitlab.com/groups/pages
 [html-examples]: https://gitlab.com/groups/html-themes
