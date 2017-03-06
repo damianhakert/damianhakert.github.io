@@ -93,6 +93,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 - Product Pitches -> TBD
 - Investment request/interest -> TBD
 - Spam -> Mark as spam
+- GitLab package reported as compromised -> [immediately stop packagecloud via Slack](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/stop-or-start-packagecloud.md)
 
 ### Notes / Remarks
 
