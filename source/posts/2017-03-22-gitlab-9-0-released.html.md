@@ -55,4 +55,4 @@ As with every release, we've worked hard to make GitLab faster. With 9.0 in part
 
 [Take a look](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=performance&milestone_title=9.0&scope=all&state=closed) at the full list of performance improvements in 9.0 and keep an eye out for further improvements in up-coming releases as GitLab continues to get faster, especially for large installations.
 
-Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these peformance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
+Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
