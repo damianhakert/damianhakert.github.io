@@ -2,8 +2,8 @@
 
 - title: "Executive Assistant"
   description: /jobs/executive-assistant/
-  apply: https://gitlab.workable.com/jobs/421022/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "People Operations Administrator"
   description: /jobs/people-ops-administrator/
