@@ -34,10 +34,10 @@ GitLab is committed to hiring the best talent through an open and fair hiring pr
 
 If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates accurately. Opening it up helps people find us.
 
-The CEO must authorize any new job positions/searches.
-
-1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan.
-1. If a job description does not already exist, the hiring manager will work with the People Ops Generalist and Global Recruiters to create an accurate job description for the website including location or timezone specification if required, requirements, preferences, and hiring process.
+1. Hiring manager identifies the need for a new or replacement team member and contacts the People Ops Generalist to review their strategic hiring plan. All open positions must be in the Hiring Forecast for the current year.
+1. To request opening a position the hiring manager must fill out the [Position Requisition](https://docs.google.com/a/gitlab.com/forms/d/1GvJQVdH9IoNsV0Tt_AbjC-Koke3KFUIQpe8zBNMsTiw/prefill) google form. This form is tied to the Hiring Forecast. Once the form is completed, a PDF will be generated and sent to People Ops. The People Operations Generalist should have all information needed to create a job description from the form.
+1. The People Operations Generalist will review the request, and stage for the proper signatures in HelloSign, if needed.
+1. If a job description does not already exist, the People Ops Generalist and Global Recruiters will create an accurate job description based on the Position Requisition for the website including location or timezone specification if required, requirements, preferences, and hiring process.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`, being sure to use only lower case in naming your directory
        if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
