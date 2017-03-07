@@ -129,7 +129,7 @@ There are many regulations and policies around different types of leave in China
 * Statutory Parental leave
   - Employees who have children under the age of eight are entitled to take unpaid parental leave. In the case of a family with more than one child under the age of eight, that right is applicable for each child. The number of hours' leave is thirteen times the weekly working hours (65 days for full-time employment). However, no more than half of the number of weekly working hours can be taken each week.
 
-For questions about an individual situation, reach out to HRSavvy.
+People Ops will consult with HRSavvy to ensure that the statute is met.
 
 ##### Applying for Leave in the Netherlands
 
@@ -137,25 +137,35 @@ HRSavvy can assist in applying for maternity leave covered by social security. I
 
 #### GitLab B.V. Belgium Leave Policy:
 
-* Statutory Paternal Leave
+* [Statutory Paternal Leave](http://www.expatica.com/be/healthcare/Having-a-baby-in-Belgium_100241.html)
   - Mothers in Belgium can take up to 15 weeks of maternity leave. For the first 30 days after the child is born, they get paid 80% of their salary, and they get 75% for the rest of the time.
   - Dads are given 10 days, three of which are 100% pay. The remaining seven are paid at 82% their salary if they use them during the baby's first four months. If they want, moms can take eight months of part-time leave instead of the 15 full weeks.
 
-For questions about an individual situation, reach out to LYRA.
+People Ops will consult with Vistra to ensure that the statute is met.
+
+#### GitLab B.V. India Leave Policy:
+
+* Statutory Maternity Leave
+  - Women employees are eligible to claim 26 weeks paid maternity leave as per Maternity Benefit Act 1961. This can be availed maximum on two occasions only. A fitness certificate should be submitted at the time of resumption of duties.
+  - Every women employee availing maternity leave is eligible for an insurance coverage of INR 50,000 for normal/C-section.
+  - If employee wishes to extend her maternity leave, she shall make a written request to her Reporting Manager and People Operations with a valid justification. In such situation Reporting Manager and People Operations will review the case and inform employee to utilize her SL, CL and PLs for payable days OR / up to a maximum of 4 weeks from 90th day with loss of pay.
+
+* Statutory Paternity Leave:  
+  - All confirmed male employees are eligible for availing Paternity Leave not exceeding 3 consecutive working days (excluding holidays) up to 2 children. These leaves are paid leaves.
+
+People Ops will consult with Lyra to ensure that the statute is met.
 
 #### GitLab LTD United Kingdom Leave Policy:
 
 * Statutory Maternity Leave
-  - Women employees are eligible to claim 26 weeks paid maternity leave as per Maternity Benefit Act 1961. This can be availed maximum on two occasions only. A fitness certificate should be submitted at the time of resumption of duties.
-  - Six weeks is paid at the average income over the proceeding 18 weeks (includes commissions, variable pay, etc). The employee is paid at the statutory requirement over the next 33 weeks, and the remaining 13 weeks of the year is unpaid.
-  - If employee wishes to extend her maternity leave, she shall make a written request to her Reporting Manager and copy People Operations with a valid justification. In such situation Reporting Manager and People Operations will review the case and inform employee to utilize her SL, CL, and PLs for payable days OR / up to a maximum of 4 weeks from 90th day with loss of pay.
+  - Mother can take up to a year. Six weeks is paid at the average income over the proceeding 18 weeks (includes commissions, variable pay, etc). The employee is paid at the statutory requirement over the next 33 weeks, and the remaining 13 weeks of the year is unpaid.
 
 * Statutory Paternity Leave:  
-  - Paternity - Father is paid for two weeks at the standard rate, but can now share some of mother’s 52 week period.
+  - Paternity - Father is paid for two weeks at the standard rate, but can now share some of the mother’s 52 week period.
 
 Employees accrue all benefits during leave and must have documentation for risk assessment when notifying the company of pregnancy.
 
-For questions about an individual situation, reach out to LYRA.
+People Ops will consult with Vistra to ensure that the statute is met.
 
 ### Hiring Significant Other or Family Members
 
