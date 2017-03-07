@@ -137,9 +137,10 @@ HRSavvy can assist in applying for maternity leave covered by social security. I
 
 #### GitLab B.V. Belgium Leave Policy:
 
-* [Statutory Paternal Leave](http://www.expatica.com/be/healthcare/Having-a-baby-in-Belgium_100241.html)
-  - Mothers in Belgium can take up to 15 weeks of maternity leave. For the first 30 days after the child is born, they get paid 80% of their salary, and they get 75% for the rest of the time.
-  - Dads are given 10 days, three of which are 100% pay. The remaining seven are paid at 82% their salary if they use them during the baby's first four months. If they want, moms can take eight months of part-time leave instead of the 15 full weeks.
+* Statutory Parental Leave
+  - Maternity leave is 15 weeks, which can be split in prenatal leave, one week before the delivery date. Postnatally leave is at least nine weeks, allowing the mother to choose five weeks, either as prenatal as postnatally.
+  - Dads are given 10 days, three of which are 100% paid. The remaining seven can be used during the baby's first four months.
+  - Parental leave should be requested by the employee and registered by three months before the start of leave. 
 
 People Ops will consult with Vistra to ensure that the statute is met.
 
