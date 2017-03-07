@@ -6,16 +6,8 @@
   location: San Francisco, USA
   social_tags: GoogleNext, GitLabonGKE
   event_url: https://cloudnext.withgoogle.com/
-
-- topic: GitLab 9.0 Release SF
-  type: Release
-  date: March 22, 2017
-  description: |
-               Learn more about all the amazing new features we'll have released in 9.0.
-  location: San Francisco, USA
-  social_tags: GitLab9.0
-  event_url: https://about.gitlab.com/
-
+  
+  
 - topic: Cloud Expo Europe
   type: DevOps, Containers
   date: March 15-16, 2017
@@ -25,6 +17,50 @@
   social_tags: GitLabforDevOps
   event_url: http://www.cloudexpoeurope.com/why-exhibit/devops-live-jxco
 
+- topic: GitLab 9.0 Release SF
+  type: Release
+  date: March 22, 2017
+  description: |
+               Learn more about all the amazing new features we'll have released in 9.0.
+  location: San Francisco, USA
+  social_tags: GitLab9.0
+  event_url: http://get.gitlab.com/meetup-sf/
+  
+- topic: GitLab Gathers- Denver
+  type: Meetup
+  date: March 23, 2017
+  description: |
+               Learn more about best practices for software development through the projects of other successful teams in the Denver area. 
+  location: Denver, CO USA
+  social_tags: GitLab9.0, GitLabGathersDenver
+  event_url: http://get.gitlab.com/meetup-den/
+
+- topic: GitLab Gathers- Boston
+  type: Meetup
+  date: March 29, 2017
+  description: |
+               Learn more about best practices for software development through the projects of other successful teams in the Boston area. 
+  location: Boston, MA USA
+  social_tags: GitLab9.0, GitLabGathersBoston
+  event_url: http://get.gitlab.com/meetup-bos/  
+
+- topic: GitLab Gathers- Amsterdam
+  type: Release
+  date: March 30, 2017
+  description: |
+               Come meet the local team and learn more about GitLab 9.0 and the features that enable team to achive more, faster with speaker Job van der Voort. 
+  location: Amsterdam, NL
+  social_tags: GitLab9.0, GitLabGathersAms
+  event_url: http://get.gitlab.com/meetup-ams/
+  
+- topic: Git Best Practices Training
+  type: Training
+  date: April 17, 2017
+  description: |
+               Learn more about best practices for software development with Git. Training Led by Amanda Folson. More details on registration to come shortly.  
+  location: Austin, TX USA
+  social_tags: BestofGit
+  event_url: https://about.gitlab.com/
 
 - topic: OSCON Austin 2017
   type: Open Source, Dev
@@ -35,6 +71,23 @@
   social_tags: OSCONAustin2017, DevLifeCycle
   event_url: http://conferences.oreilly.com/oscon/oscon-tx
 
+- topic: GitLab Gathers- London
+  type: Meetup
+  date: May 18, 2017
+  description: |
+               Learn more about CI/ CD and how we decide on product direction with VP of Product, Job van der Voort. 
+  location: London, UK
+  social_tags: GitLabGathersLondon
+  event_url: https://about.gitlab.com/
+  
+- topic: GitLab Gathers- New Orleans
+  type: Meetup
+  date: June 30, 2017
+  description: |
+               Learn more about best practices for software development through the projects of other successful teams in NOLA. 
+  location: New Orleans, LA USA
+  social_tags: GitLabGathersNOLA
+  event_url: https://about.gitlab.com/
 
 - topic: Open Source Summit North America
   type: Open Source, Dev

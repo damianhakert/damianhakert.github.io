@@ -494,12 +494,6 @@ to tell more about our products.
 
 After the meeting, make sure all your notes and feedback lands in issues.
 
-
-# Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
-
-For more insights into our vision on Continuous Integration and Continuous
-Deployment & Delivery, see the [CI/CD page](/direction/cicd).
-
 # Enterprise Edition Tiers
 
 There are two EE tiers: Starter and Premium.

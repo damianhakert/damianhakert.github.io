@@ -239,7 +239,7 @@ doesn't unnecessarily appear on other people's calendars.
 ### Writing Style Guidelines
 
 1. {: #american-english} At GitLab, we use American English as the standard written language.
-1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/user/markdown.html) instead.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/user/markdown.html) for things stored in git. In Google Docs use 'Normal text' using the style/heading/formatting dropdown and paste without formatting.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
 1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, `yyyy-mm-dd`, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015

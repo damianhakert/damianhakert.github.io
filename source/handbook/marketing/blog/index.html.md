@@ -23,6 +23,16 @@ Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
+### Blog endboss
+
+[Marcia Ramos](https://about.gitlab.com/team/#XMDRamos) is the blog endboss.
+
+If the post author does not know who can do a final review or merge their post
+they can assign it to Marcia.
+
+But a post author must get at least one review from someone in their immediate
+team and use a spelling and grammar checker.
+
 ### Objectives &amp; Purposes
 
 - Use the [blog](/blog) to encourage potential users to try GitLab
@@ -31,6 +41,22 @@ Our [Blog] is managed by the Marketing Team.
 - Communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
 - Bring in voices from all throughout the company, as well as
 from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
+
+### What content should go on the blog?
+
+The blog is:
+
+- Another marketing channel like Twitter/Facebook/YouTube.
+- For longer form news on what we have done or are doing.
+- For ephemeral content, think of it as a longer tweet.
+- Not the permanent place for tutorials, they should live in the the docs and be
+  shared on the blog in the form of a "longer tweet"
+
+The documentation is different to the blog in that it is:
+
+- A reference on everything about our product.
+- For feature coverage, API, University (written and video tutorials).
+- For persistent content.
 
 ### Anatomy of a Blog Post
 
@@ -542,7 +568,7 @@ accessible under `https://gitlab.com/johndoe`, this field should be filled as fo
 
 ```yaml
 author_gitlab: johndoe
-``` 
+```
 
 This field is required.
 
@@ -674,7 +700,7 @@ The final result is a red button over the cover image of the post.
 
 ![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
 
-The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them.
 
 This option was introduced in January/2017.
 {:.note}
