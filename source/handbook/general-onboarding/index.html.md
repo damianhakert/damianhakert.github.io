@@ -330,11 +330,16 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 1. [ ] New Team Member: to ensure that we have all of your details ready for payroll processing please complete the following information on BambooHR;
      1. [ ] Full name
+     1. [ ] Date of birth
      1. [ ] Address
      1  [ ] National Number
      1. [ ] Bank details
 1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
-1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a copy of the team member's employment contract and ID card
+1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with:
+     1. [ ] scanned copy of the employment contract  
+     1. [ ] scanned ID card
+     1. [ ] salary information
+     1. [ ] GitLab email address
 
 #### All GitLabbers
 
