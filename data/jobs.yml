@@ -91,6 +91,11 @@
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: false
 
+- title: "Application Security Developer"
+  description: /jobs/developer/
+  apply: 
+  open: true
+
 - title: "Backend Developer, Edge"
   description: /jobs/developer-edge/
   salary: 87337
