@@ -46,12 +46,14 @@ Encourage your co-workers to take time out when you become aware that they are w
 
 ### Statutory Vacation Requirements
 1. GitLab LTD (UK Employees)
-    * Employees must take 28 holiday days. The days will accrue from the start date. There is no carryover for unused vacation days.
+    * Employees must take 28 vacation days. The days will accrue from the start date. There is no carryover for unused vacation days.
 1. GitLab BV (Netherlands Employees)
-    * Employees must take 20 holiday days. Any used days will be carried into the next calendar year, but expire after six months. All days will be posted upon start.
-1. GitLab BV (Belgium Employees) TODO
+    * Employees must take 20 vacation days. Any used days will be carried into the next calendar year, but expire after six months. All days will be posted upon start.
+1. GitLab BV (Belgium Employees)
+    * Employees must take 20 vacation days. These days do not carry over into the next calendar year. 
 1. GitLab BV (Contractors) 
     * Contractors do not have statutory vacation requirements, but are eligible for our Unlimted Time off Policy. 
 1. GitLab INC (US Employees)
     * The U.S. [Fair Labor Standards Act (FLSA)](https://www.dol.gov/general/topic/workhours/vacation_leave) does not require payment for time not worked, such as vacations, sick leave or federal or other holidays.
-1. GitLab Inc. (China) TODO
+1. GitLab Inc. (China) 
+    * Employees worked for one-year but less than 10 years, the annual leave is 5 days; worked for more than 10 years but less than 20 years, the annual leave is 10 days;  worked for more than 20 years, the annual leave is 15 days.
