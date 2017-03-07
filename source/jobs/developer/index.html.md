@@ -113,9 +113,9 @@ for example:
     * Leads development of projects that lead to a significant improvement of the overall
       performance and scalability of GitLab
 
-## Application Security Specialist
+## Security Specialist
 
-An Application Security Specialist is a developer who focuses on ensuring that
+An Security Specialist is a developer who focuses on ensuring that
 GitLab and associated applications are as secure as possible.
 
 Requirements:
@@ -129,20 +129,19 @@ Requirements:
     * Knowledge of browser-based security controls such as CSP, HSTS, XFO.
     * Experience with standard web application security tools such as Arachni,
       Brakeman, and BurpSuite.
-2. Leadership
+2. Code quality
+    * Proactively identifying and reducing security risks.
+    * Finding and removing outdated and vulnerable code and code libraries.
+3. Communication
     * Consult with other developers and product managers to analyze and propose
       application security standards, methods, and architectures.
     * Handle communications with independent vulnerability researchers and design
       appropriate mitigation strategies for reported vulnerabilities.
     * Educate other developers on secure coding best practices.
-3. Code quality
-    * Proactively identifying and reducing security risks.
-    * Finding and removing outdated and vulnerable code and code libraries.
-4. Communication
     * Ability to professionally handle communications with outside researchers,
       users, and customers.
     * Ability to communicate clearly on technical issues.
-5. Performance & Scalability
+4. Performance & Scalability
     * An understanding of how to write code that is not only secure but scales
       to a large number of users and systems.
 
