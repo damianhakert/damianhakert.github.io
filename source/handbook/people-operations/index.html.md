@@ -91,7 +91,9 @@ In keeping with our [values](/handbook/values) of freedom, efficiency, transpare
 
 ### Leave Policy
 
-#### United States Leave Policy:
+GitLab will adhere to the local leave policy for each country where we have an entity.
+
+#### GitLab Inc. United States Leave Policy:
 
 Extended Leave Regulations:  
 
@@ -100,7 +102,60 @@ Extended Leave Regulations:
 
 To Apply For Extended Leave:
 
-* Fill out the [Extended Leave Request Form](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPdzhITFI2VDR2TVAxS2N6ZUlkVzZveTBWSkVR/view?usp=sharing) and send to People Ops. Once submitted, People Ops will review and submit to [TriNet](https://about.gitlab.com/handbook/people-operations/sop/#entering-an-extended-leave-in-triNet). 
+* Fill out the [Extended Leave Request Form](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPdzhITFI2VDR2TVAxS2N6ZUlkVzZveTBWSkVR/view?usp=sharing) and send to People Ops. Once submitted, People Ops will review and submit to TriNet.
+
+##### Entering an Extended Leave in TriNet
+
+1. Once the Extended Leave Request form has been submitted and approved by People Ops, it will then be entered into TriNet.
+1. Go to Passport under Find > Find Person by Name > Pull the employee up > Extended Leave Request.
+1. Enter all applicable information.
+1. Once the leave is in TriNet it takes the LOA department about 5 business days to process the request. They will send out information to the employee directly on what their leave means to them and how to file for any short term and/or state disability that may apply.
+  * Short Term Disability is processed through Aetna. The employee would call Aetna to file a claim. Phone number and plan number can be found in the People Ops 1Password vault to be shared with the employee.
+
+#### GitLab Inc. China Leave Policy:
+
+There are many regulations and policies around different types of leave in China. Different regions have separate statutes, and it is also influenced by many factors, such as the employee’s work period and actual situation from the hospital. CIIC will provide the support when the featured employee is in need.
+
+#### GitLab B.V. Netherlands Leave Policy:
+
+* Statutory Maternity leave
+  - The employee is entitled to a maximum six weeks' leave prior to the estimated date of childbirth and for ten weeks after that date; therefore totaling sixteen weeks.
+  - The employee can reduce the leave period prior to the estimated date of childbirth to at least four weeks. In that case, the number of days not taken prior to the estimated date of childbirth is added to the leave period following the estimated date of childbirth.
+  - In the event of incapacity for work from six weeks prior to the estimated date of childbirth, the sixteen-week period for pregnancy and childbirth leave commences at that time, regardless of which agreements have been made.
+
+* Statutory Paternity Leave
+  - After your partner has given birth you are entitled to up to two days of paid paternity leave.
+
+* Statutory Parental leave
+  - Employees who have children under the age of eight are entitled to take unpaid parental leave. In the case of a family with more than one child under the age of eight, that right is applicable for each child. The number of hours' leave is thirteen times the weekly working hours (65 days for full-time employment). However, no more than half of the number of weekly working hours can be taken each week.
+
+For questions about an individual situation, reach out to HRSavvy.
+
+##### Applying for Leave in the Netherlands
+
+HRSavvy can assist in applying for maternity leave covered by social security. In this application the company can decide whether the benefit is paid to the employee directly, or the employer continues paying the salary and receives the benefit. The last option is done in most of the cases.
+
+#### GitLab B.V. Belgium Leave Policy:
+
+* Statutory Paternal Leave
+  - Mothers in Belgium can take up to 15 weeks of maternity leave. For the first 30 days after the child is born, they get paid 80% of their salary, and they get 75% for the rest of the time.
+  - Dads are given 10 days, three of which are 100% pay. The remaining seven are paid at 82% their salary if they use them during the baby's first four months. If they want, moms can take eight months of part-time leave instead of the 15 full weeks.
+
+For questions about an individual situation, reach out to LYRA.
+
+#### GitLab LTD United Kingdom Leave Policy:
+
+* Statutory Maternity Leave
+  - Women employees are eligible to claim 26 weeks paid maternity leave as per Maternity Benefit Act 1961. This can be availed maximum on two occasions only. A fitness certificate should be submitted at the time of resumption of duties.
+  - Six weeks is paid at the average income over the proceeding 18 weeks (includes commissions, variable pay, etc). The employee is paid at the statutory requirement over the next 33 weeks, and the remaining 13 weeks of the year is unpaid.
+  - If employee wishes to extend her maternity leave, she shall make a written request to her Reporting Manager and copy People Operations with a valid justification. In such situation Reporting Manager and People Operations will review the case and inform employee to utilize her SL, CL, and PLs for payable days OR / up to a maximum of 4 weeks from 90th day with loss of pay.
+
+* Statutory Paternity Leave:  
+  - Paternity - Father is paid for two weeks at the standard rate, but can now share some of mother’s 52 week period.
+
+Employees accrue all benefits during leave and must have documentation for risk assessment when notifying the company of pregnancy.
+
+For questions about an individual situation, reach out to LYRA.
 
 ### Hiring Significant Other or Family Members
 
