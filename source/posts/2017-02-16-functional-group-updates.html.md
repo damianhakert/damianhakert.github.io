@@ -2,7 +2,7 @@
 title: "GitLab's Functional Group Updates"
 author: GitLab
 author_twitter:
-categories:
+categories: Functional Group Updates
 image_title:
 description: "The Functional Groups at GitLab give an update on what they've been working on"
 ---
