@@ -70,7 +70,7 @@ Don't pick an interesting technology just to make your work more fun, using code
 
 The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. For example our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/) and a [double referral bonus](https://about.gitlab.com/handbook/incentives/#referral-bonuses).
 
-1. **Culture fit is bullshit** we don't select new hires based on if they have the same culture as us or if we would like to have a drink with them. New hires should share our values but we want cultural diversity instead of cultural conformity and for example a [brogrammer](https://en.wikipedia.org/wiki/Brogrammer) atmosphere.
+1. **Culture fit is bullshit** We don't hire based on culture or select candidates because we'd like to have a drink with them. We hire and reward employees based on our shared values, but we want cultural diversity instead of cultural conformity, for example, a [brogrammer](https://en.wikipedia.org/wiki/Brogrammer) atmosphere.
 1. **Don't bring religion or politics to work** We don't discuss religion or politics because it is easy to alienate people that have a minority opinion. Feel free to mention you attended a ceremony or rally, but don't mention the religion or party.
 1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
