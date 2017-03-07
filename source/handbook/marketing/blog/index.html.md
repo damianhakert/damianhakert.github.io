@@ -596,6 +596,7 @@ otherwise you'll create another category, which is somenthing we don't want to d
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
 - customer stories
 - events
+- Functional Group Updates _(for [FGU posts](handbook/people-operations/functional-group-updates/) only)_
 - git
 - GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
 - GitLab CI

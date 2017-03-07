@@ -3,7 +3,7 @@ title: "GitLab's Functional Group Updates - Feb 21-28"
 author: Kirsten Abma
 author_twitter: kirsten_abma
 author_gitlab: kirstenabma
-categories: inside GitLab
+categories: Functional Group Updates
 description: "The Functional Groups at GitLab give an update on what they've been working on"
 ---
 
