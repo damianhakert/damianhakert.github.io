@@ -1,6 +1,6 @@
 # www-gitlab-com
 
-This is the source for the https://about.gitlab.com/ site.
+This is the source for the https://about.gitlab.com/ site. For a guide on how to start editing the website using git, see the [handbook page on that topic](https://about.gitlab.com/handbook/git-page-update).
 
 ## Local development
 
@@ -126,7 +126,7 @@ instructions.
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
 update the placeholder with your initials).
 
-Images should be uploaded to [`source/images/team`](./source/images/team).
+Images should be square, and should be uploaded to [`source/images/team`](./source/images/team).
 
 ### Adding a pet to the team pets page
 
@@ -308,7 +308,7 @@ follow the steps below:
    review.
 
 [frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
-[Writing Style Guidelines]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[Writing Style Guidelines]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 [press releases]: https://about.gitlab.com/press/releases/
 [press category]: https://about.gitlab.com/blog/categories/press
 [blog archives]: https://about.gitlab.com/blog/archives.html
@@ -402,6 +402,9 @@ as page margins are configured in pdf_template.tex.
 On OS X: run `brew install pandoc` and install [Basic
 TeX](https://tug.org/mactex/morepackages.html).
 
+For the comparison PDFs you will need to run the following on OS X:
+`brew cask install wkhtmltopdf`
+
 ### PDF development
 
 You can tweak the 'printable HTML' files in Middleman's development
@@ -442,6 +445,21 @@ website, you have to:
     title: "The title of the page"
     ---
     ```
+
+### Comparison PDFs
+
+The comparison PDFs are generated in a slightly different way and require a
+different command to be run. Before the PDFs can be generated the website
+needs to be built locally by running the following:
+
+`bundle exec middleman build`
+
+After running that you can now run the following to generate the PDFs:
+
+`bundle exec rake comparison_pdfs`
+
+Once you have done that you are free to commit and push these to GitLab.com
+to then be merged into master.
 
 ## Custom Generators
 

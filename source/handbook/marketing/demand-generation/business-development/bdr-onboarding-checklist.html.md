@@ -19,7 +19,7 @@ Create issue for new hire in marketing with following checklist.
 1. [ ] Open Salesforce welcome email and activate account
 1. [ ] Open Collabspot welcome email and activate account
 1. [ ] Schedule time with your assigned mentor
-1. [ ] Complete [General Onboarding Issue](https://dev.gitlab.org)
+1. [ ] Complete [General Onboarding Issue](https://gitlab.com/gitlab-com/peopleops/issues/)
 
 #### By the end of your first week you should (know) and be able to do the following:
 

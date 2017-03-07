@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Sales Development Representative"
+title: "Business Development Representative Outbound"
 ---
 
 You love talking about GitLab to people and no question or challenge is too big or small. You have experience working directly with customers in order to answer questions on getting started with a technical product. Your job is to make sure our customers are successful, from the single-shop development firm all the way up to our Fortune 500 customers, and that everyone gets the appropriate level of support.
@@ -23,7 +23,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 * An understanding of B2B software, Open Source software, and the developer product space
 * Articulate, confident, and reliable
 * Affinity with software and the software development process.
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * You are obsessed with making customers happy.
 * Passionate about technology and learning more about GitLab
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.

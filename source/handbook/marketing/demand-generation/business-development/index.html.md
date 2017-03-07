@@ -58,7 +58,7 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 #### Onboarding<a name="onboard"></a>
 
-1. The GitLab [Genral Onboarding Issue](https://dev.gitlab.org) will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals.
+1. The GitLab [Genral Onboarding Issue](https://gitlab.com/gitlab-com/peopleops/issues/) will typically fill up the majority of your first week. This is a step by step guide and checklist to getting everything in your arsenal set up like equipment, gmail, calendly, slack, security, and your Gitlab.com account. These todo’s provide you with the fundamentals.
 
 1. The [BDR Onboarding Issue](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/bdr-onboarding-checklist.html) will more specifically bring you up to speed with your role as a BDR. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
 
@@ -261,10 +261,10 @@ The following [doc](https://docs.google.com/document/d/1Txt9_ErefZpoPMSm6tCp5tZh
 
 Sending leads to the right person
 
-- [APAC](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
-- [EMEA](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [North America](https://docs.google.com/document/d/1Zh63p4PL5LCyneW_Jpewv-gGXTkAleaklSJ7z3spGLw/edit?ts=57e98e6b)
-- [South America](https://docs.google.com/document/d/1Ar0Y49XF0pnvWjhr5-jr0MNKdxfRY2FkS4x9y7KCZw8/edit)
+- [APAC](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [EMEA](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [North America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
+- [South America](https://docs.google.com/document/d/1vqMowmhm9MWY1zUCL2G574m-p3X1b8QoQafyptiRDBE/edit)
    - Note: BDRs do not set up meetings for resellers.
 
 #### How to Videos/Tutorials<a name="HowTos"></a>
@@ -284,7 +284,7 @@ Helpful [Tutorials](https://drive.google.com/open?id=0B1W9hTDXggO1NGJwMS12R09lak
 
 #### Coined Terms
 
- - #BDRing - Doing your job 
+ - #BDRing - Doing your job
  - #SQLing - Winning at your job...Ryan Caplin
  - #BDR - Boss Destroying Revenue
 

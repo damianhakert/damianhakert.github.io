@@ -26,7 +26,7 @@ If you've completed an integration you can have your integration listed on our [
   2. A short description of the integration (up to 314 characters)
   3. Listed name for the integration on the applications page
 
-Once you have those ready, go ahead and create a MR [here](https://gitlab.com/gitlab-com/www-gitlab-com) and assign it to @scornille or @eliran.mesika.
+Once you have those ready, go ahead and create a MR [here](https://gitlab.com/gitlab-com/www-gitlab-com) and assign it to @eliran.mesika.
 
 ### Assistance from GitLab
 We're always here to help you through your efforts of integration. If there's a missing API call from our current API, or you ran into other difficulties in your development please feel free to create a new issue on the Community Edition [issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) and assign it to @eliran.mesika.

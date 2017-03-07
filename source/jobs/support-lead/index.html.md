@@ -28,7 +28,7 @@ The majority of our current customer base is in the Americas, and the Support Le
 - Vast experience with Ruby on Rails Applications and git
 - Affinity for (and experience with) providing customer support
 - Excellent spoken and written English
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 - [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 - A customer scenario interview is part of the hiring process for this position.
 

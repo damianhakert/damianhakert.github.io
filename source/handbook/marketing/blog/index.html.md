@@ -23,6 +23,16 @@ Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
+### Blog endboss
+
+[Marcia Ramos](https://about.gitlab.com/team/#XMDRamos) is the blog endboss.
+
+If the post author does not know who can do a final review or merge their post
+they can assign it to Marcia.
+
+But a post author must get at least one review from someone in their immediate
+team and use a spelling and grammar checker.
+
 ### Objectives &amp; Purposes
 
 - Use the [blog](/blog) to encourage potential users to try GitLab
@@ -31,6 +41,22 @@ Our [Blog] is managed by the Marketing Team.
 - Communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
 - Bring in voices from all throughout the company, as well as
 from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
+
+### What content should go on the blog?
+
+The blog is:
+
+- Another marketing channel like Twitter/Facebook/YouTube.
+- For longer form news on what we have done or are doing.
+- For ephemeral content, think of it as a longer tweet.
+- Not the permanent place for tutorials, they should live in the the docs and be
+  shared on the blog in the form of a "longer tweet"
+
+The documentation is different to the blog in that it is:
+
+- A reference on everything about our product.
+- For feature coverage, API, University (written and video tutorials).
+- For persistent content.
 
 ### Anatomy of a Blog Post
 
@@ -441,7 +467,7 @@ Just **make sure** to [validate the Twitter Card][twitter card validator] before
 
 - The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads
 - You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook]
-- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector. Trying to work around the voting ring detector by upvoting from the new page is not reliable, just don't announce nor ask for votes.
+- For the Hacker News guidelines please see the [Hacker News section of the social media guidelines](/handbook/marketing/social-media-guidelines/#hacker-news).
 - What worked for Apigee was the 'collaboration in the 21st century' theme
 - Explore a reading club such as [a NoSQL summer]
 - Milk [GitLab Flow] for more blog posts and videos
@@ -542,7 +568,7 @@ accessible under `https://gitlab.com/johndoe`, this field should be filled as fo
 
 ```yaml
 author_gitlab: johndoe
-``` 
+```
 
 This field is required.
 
@@ -557,7 +583,7 @@ accessible under `https://twitter.com/johndoe`, this field should be filled as f
 
 ```yaml
 author_twitter: johndoe
-``` 
+```
 
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
@@ -600,7 +626,7 @@ Read more about it [below](#cover-image).
 
 #### Description
 
-The `description` meta tag [is important][description-tag]
+The [`description`](https://moz.com/learn/seo/meta-description) meta tag [is important][description-tag]
 for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
 [post frontmatter](#frontmatter), as a small summary of what the post is about.
 
@@ -673,7 +699,7 @@ The final result is a red button over the cover image of the post.
 
 ![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
 
-The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them.
 
 This option was introduced in January/2017.
 {:.note}
@@ -722,7 +748,7 @@ good to start writing.
 
 ### Writing Style
 
-At GitLab, we use [American English](/handbook/#american-english) as the standard written language.
+At GitLab, we use [American English](/handbook/communication/#american-english) as the standard written language.
 
 GitLab content primarily follows [AP Style],
 which is searchable online. Any questions that cannot be answered
@@ -847,6 +873,17 @@ reflects somehow your post's subject. In the absence of an image, use one of the
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
 
+Please add a reference to the cover image source, owner, and licence at the end of
+the blog post, even if it doesn't require attribution:
+
+```md
+----
+
+[Cover image](link-to-original-image) by [owner name and surname](link), licensed
+under [CC X](link-to-licence).
+{: .note}
+```
+
 The cover image has the following proportions:
 
 - On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
@@ -890,7 +927,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 - Always add the label `release` to the MR
 - When mentioning contributors or MVPs, link their name to their respective user account on GitLab.com
 - Add the [frontmatter](#frontmatter) information:
-  - `description`: a short description of the blog post
+  - [`description`](https://moz.com/learn/seo/meta-description): a short description of the blog post
   - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.
   - [`categories`](#categories): use either `release` or  `security release` for these posts.
 

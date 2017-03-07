@@ -5,11 +5,13 @@ title: "GitLab Offboarding"
 
 Before starting an offboarding issue, make sure that the team member's resignation or termination has been discussed and cleared with _at least_ the member of the executive team to whom the team member (in)directly reports. For [involuntary terminations](/handbook/people-operations/#involuntary-terminations), make yourself familiar with the guidelines in the People Operations handbook.
 
-When it is time for offboarding, create issue for former team member on the dev server in the [organization issue tracker](https://gitlab.com/gitlab-com/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
+When it is time for offboarding, create a **confidential** issue for former team member on the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
+
+Use the [Offboarding Processes](/handbook/offboarding/offboarding-processes) to assist in completing all of the tasks.
 
 
 ```
-1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in [the peopleops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @amatthews, @brittanyr, @jparrow.
+1. [ ] People Ops: Once the termination has taken place (whether voluntary or involuntary), as soon as possible, create a confidential issue called 'Offboarding (NAME), per (DATE)' in in the [People Ops Issue Tracker](https://gitlab.com/gitlab-com/peopleops/issues) with relevant lines of the master offboarding checklist and /cc @amatthews, @brittanyr, @jparrow.
 
 #### For GitLab BV Belgium only
 
@@ -59,7 +61,7 @@ When it is time for offboarding, create issue for former team member on the dev 
 and removing them from everywhere except blog posts. If you do not have a tool of choice, try "Find in Project" using Atom.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
-1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/sop/#returning-property) for further details on that process.
+1. [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/offboarding/offboarding-processes/#returning-property) for further details on that process.
    1. [ ] People Ops: Inform Controller / Accounting if any items in former GitLabbers possession will not be returning, so that they can be removed from asset tracking.
 1. [x] _not relevant_ Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
 1. [x] _not relevant_ People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue.
@@ -78,6 +80,7 @@ and removing them from everywhere except blog posts. If you do not have a tool o
 1. [x] _not relevant_ People Ops: complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
+1. [x] _not relevant_ People Ops: If new team member is an hourly employee, create a timesheet, share with Finance and the new team member. Also, send an email to Finance to let them know that an hourly employee has started.
 1. [x] _not relevant_ New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed within the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 1. [x] _not relevant_ People Ops: complete the employer portion of the I9 in TriNet within three days of hire
 1. [x] _not relevant_ New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision, and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
@@ -102,9 +105,10 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
       1. [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
       1. [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 1. [x] _not relevant_ New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
+1. [ ] People Ops: Remove former GitLabbers' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) and block from GitLab.com
+   1. [ ] Manager: If the team member reaches out to regain access for personal project, review permissions, and unblock. Also make sure that a secondary email is associated with the account.
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
-1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
+1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/tools-and-tips/#calendly) and add your Calendly link to your Slack profile.
 1. [ ] Twitter/TweetDeck
    1. [ ] People Ops: Remove team member from the GitLab twitter group (check with marketing).
    1. [ ] People Ops: Remove access from Tweetdeck for [at]GitHostIO (if applicable).
@@ -120,15 +124,17 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] People Ops: Remove team member from the info sheets of the next Summit if applicable.
 1. [x] _not relevant_ New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: Remove GitLabbers profile from [Egencia](https://about.gitlab.com/handbook/people-operations/#add-egencia).
-1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
+1. [x] _not relevant_ New team member: schedule 10 [Virtual Coffee break calls](https://about.gitlab.com/handbook/working-remotely/#coffee-break-calls) of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
+1, [x] _not relevant_ New team member: [Download Git](https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html).
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [x] _not relevant_ New team member: Make an improvement to the handbook (something that you wished was there).
 1. [x] _not relevant_ Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 1. [x] _not relevant_ Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [x] _not relevant_ New team member: Reach out to your onboarding buddy, or any other GitLabber to show you how to do some advanced git tasks locally. For example, configure and/or solve a merge conflict.
 1. [x] _not relevant_ Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 1. [x] _not relevant_ New team member: Take a look at the "Reference Customers" google doc to familiarize yourself with which customer information should be kept confidential within the company.
 1. [ ] Hiring Manager: Check former GitLabbers' project-level permissions and remove them as-needed.

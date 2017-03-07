@@ -13,51 +13,25 @@ title: "Travel"
 
 ----
 
+
+
 ## Expenses While Traveling <a name="expenses-while-traveling"></a>
 
 1. The company will cover all work-related travel expenses. This includes lodging and meals during the part of the trip that is work-related. Depending on the distance of your travel, it can also include one day before and one day after the work related business. For example, if you are attending a 3 day conference in a jetlag-inducing location, the company will cover your lodging and meals those 3 days as well as one day before and one day after.
 1. The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
-1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money), especially the part about spending it like it is your own money, still apply for all expenses.
+1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money), especially the part about spending it like it is your own money, still apply for all expenses.
 1. Always bring a credit card with you when traveling for company business if you have one.
 1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
 1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.
 1. When your trip is complete, please file an expense report via Expensify or include the receipts on your next monthly invoice.
-
-## Arranging a visa for travel <a name="arrange-visa"></a>
-
-In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
-
-Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and ask People Ops if you need any help with acquiring the needed documents for your application.
-
-We gladly organize and pay for local legal assistance, especially if you are at high risk of having a long process.
-
-If you need a visa to travel to the United States, please fill out this [form](https://docs.google.com/a/gitlab.com/forms/d/1hqwakBUfV5uybwtYHnRvkT_ZTm1CEUKqdNmU6e-BPdQ/edit). Here is an [example](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPd0VpNTZWOWxEVzg/view?usp=sharing) of the how the form will looked when completed. People Ops will verify accuracy and send you an email with the signed letter. 
-
-
-### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
-
-- **Make sure to start on time with your arrangements for a visa**. It can take up to 3-4 **months** to acquire a US visa, as an example. Consider this recent example that several team members faced when they were arranging their visa to come to the summit in Austin in May of 2016. First, there was a delay of weeks to a month between the time they called to make an appointment at a US embassy and the date of the actual appointment. In some cases, the application then moved through the process with no issues and the visa was ready within two weeks. In other cases, the visa application was marked for "administrative processing" which can take up to 60 days, and is pretty much a [black hole in terms of information and process](https://www.quora.com/How-do-I-expedite-the-administrative-process-for-the-U-S-visa).
-- Check if your passport is still valid long enough
-- Give priority to arranging your visa, it can take time to get an appointment to apply at the Embassy.
-- Double check if you have all needed document and information. Ask People Ops to help you check this if you like.
-- Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
-- Once the dates for a conference or summit are set start asap with your application if you have needed a
-special visa in previous situations, just to give yourself enough time and room for errors if they arise.
-
-#### Timeline guide for visa applications
-
-- **6 months beforehand**: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc.
-   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
-   - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.       
-- **4 months beforehand** (or earlier): go to embassy for interview.
-- **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again, and/or People Ops, to see if anything can be done to expedite the process.
-
 
 ## Self Stay Reimbursement Policy <a name="self-stay"></a>
 
 If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accommodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice.
 
 ## Booking travel and lodging with Egencia<a name="egencia"></a>
+
+Before booking any flights please ensure that you have the proper [visas](/handbook/people-operations/visas/#arranging-a-visa-for-travel-) in place. 
 
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 
@@ -90,7 +64,7 @@ you have the possibility to "continue to checkout" or "add more items to this tr
 such as another flight, a hotel reservation or booking a car.
 1. Select "continue to checkout" if you just want to book the flight.
 
-Note: Once a flight is booked, re-routing is at person’s own cost unless requested by the company or force majeure (in the latter case often the airline will cover the difference). 
+Note: Once a flight is booked, re-routing is at person’s own cost unless requested by the company or force majeure (in the latter case often the airline will cover the difference).
 
 #### Checkout flight only
 

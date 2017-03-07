@@ -30,8 +30,12 @@ title: "Sales Handbook"
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
-* [Demo: Idea to Production](/handbook/sales/idea-to-production-demo)
+* [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24)
+* [Demo: Idea to Production](/handbook/sales/demo/)
 * [SDR Handbook](/handbook/sales/sdr)
+* [GitLab vs. Atlassian Cost Comparison](https://docs.google.com/spreadsheets/d/1uX4uo87rDaTQmsNx98nWeMH7cjtAYSM31J51kClBQ2g/edit#gid=0)
+* [Competitive Battlecards](https://docs.google.com/document/d/1zRIvk4CaF3FtfLfSK2iNWsG-znlh64GNeeMwrTmia_g/edit)
+
 
 ### Sales Resources outside of the Sales Handbook
 
@@ -65,6 +69,13 @@ We have two sales positions focused on selling into these markets.
 1. Sr. Account Executive for Strategic and Large Accounts
 2. Account Executive for Mid Market Accounts
 3. SMB is our transactional business, managed by the Business Development Team and processed through our web portal.
+
+Expected quota for each sales segment is:
+1. Sr. Account Executive - Strategic Accounts is $1.5M incremental annual contract value (ACV)
+2. Sr. Account Executive - Large Accounts is $1M incremental ACV
+3. Account Executive - Mid Market Accounts is $700,000 incremental ACV
+
+Quotas may be adjusted based on geographic region.
 
 ### GitLab Version Check
 
@@ -189,6 +200,7 @@ Gitorious Opportunities:
 
 1. New Business - This type should be used for any new account (business) who signs up either through the sales team or via the web portal. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Add-on Business- This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
+1. Uplift Business- This type of opportunity is used for future "true-up" opportunities where the customer has exceeded or plans to exceed their allotted licenses count. Note that the values in this opportunity type will either be included in the Renewal opportunity as Incremental ACV, or will convert to an Add-on Business opportunity type if the upsell occurs before renewal.
 1. Existing Account - Cross-Sell- This type should be used for new business sold into an existing account but a new division, a new purchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased, or stay the same.  We capture growth/loss as a field in Salesforce.com
 

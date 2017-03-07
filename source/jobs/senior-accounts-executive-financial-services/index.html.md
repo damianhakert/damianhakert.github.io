@@ -37,7 +37,7 @@ Up-selling and leveraging business from new and established customer relationshi
 * Motivated, driven and results oriented
 * Excellent negotiation, presentation and closing skills
 * Preferred experience with Git, Software Development Tools, Application Lifecycle Management
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 ## Hiring Process
 

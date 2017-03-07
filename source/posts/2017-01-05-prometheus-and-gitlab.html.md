@@ -7,7 +7,7 @@ image_title: '/images/unsplash/data.png'
 description: "Completing the application lifecycle with monitoring"
 ---
 
-A little while ago, we presented a first draft of our vision for monitoring within GitLab. We [value transparency](https://about.gitlab.com/handbook/#values), so see below for the recorded video and transcript of the presentation, or view the [slides](https://docs.google.com/presentation/d/12SDArWFfr8fGOZEOqUOwn7NMwfuGKBeS1KLJxtBVyMM/edit?usp=sharing) directly. Please do give us your feedback on any of the linked issues!
+A little while ago, we presented a first draft of our vision for monitoring within GitLab. We [value transparency](https://about.gitlab.com/handbook/values), so see below for the recorded video and transcript of the presentation, or view the [slides](https://docs.google.com/presentation/d/12SDArWFfr8fGOZEOqUOwn7NMwfuGKBeS1KLJxtBVyMM/edit?usp=sharing) directly. Please do give us your feedback on any of the linked issues!
 
 <!-- more -->
 

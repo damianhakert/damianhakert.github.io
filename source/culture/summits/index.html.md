@@ -9,7 +9,7 @@ We try to get together every 9 months or so to all get some face time together, 
 
 ## Who
 
-All [GitLab Team](/team/), and the [Core Team](/core-team/).
+All [GitLab Team](/team/), their significant others, and the [Core Team](/core-team/).
 
 ## Previous Summits
 
@@ -44,7 +44,7 @@ In January 2017 we all got together in Cancun, Mexico. By then we had rougly 150
 * SOs are welcome at all presentations, events, and meetings that are open to all team members
 * If you're having a meal with your SO, pick a table with more than two seats so you can invite others to join you
 
-The goal of our summits is to get to know each other outside of work. 
+The goal of our summits is to get to know each other outside of work.
 To help get this kickstarted, always wear you name tag, to all events, and all days. Try to join different people every time we sit down for a meal.
 {:.alert .alert-info}
 

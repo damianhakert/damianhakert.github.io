@@ -184,6 +184,13 @@
       links:
         - url: https://github.com/timols/java-gitlab-api
           title: Repository on GitHub
+    - title: Java
+      content: GitLab4J-API is a full featured Java library for working with the GitLab API
+      links:
+        - url: https://github.com/gmessner/gitlab4j-api
+          title: Repository on GitHub
+        - url: http://www.messners.com/#gitlab4j-api/gitlab4j-api.html
+          title: GitLab4J-API Homepage
     - title: .NET
       content: GitLab.NET is a .NET library for GitLab's API.
       links:
@@ -331,6 +338,15 @@
           title: GitPitch Repo on GitLab
         - url: https://github.com/gitpitch/gitpitch/wiki
           title: GitPitch Wiki
+    - title: Raygun
+      content: Raygun is a Software Intelligence Platform that provides crash reporting and real user monitoring to thousands of software teams. The integration with GitLab provides functions for creating issues and linking directly back to your source code.
+      links:
+        - url: https://raygun.com
+          title: Raygun Website
+        - url: https://raygun.com/docs/plugins/gitlab
+          title: Integration setup instructions
+        - url: https://raygun.com/blog/2016/06/raygun-and-gitlab/
+          title: Raygun and GitLab make deployment easier
 - title: Continuous Integration
   id: continuous-integration
   applications:
@@ -377,6 +393,11 @@
       links:
         - url: https://www.jetbrains.com/teamcity/features/
           title: TeamCity
+    - title: buddybuild
+      content: Integrating buddybuild to any GitLab account automates the process of setting up and configuring a continuous integration and deployment system for your mobile projects. Connecting buddybuild also unlocks features like merge requests, updated commit status, automatic team member provisioning and more.
+      links:
+        - url: https://www.buddybuild.com/blog/buddybuild-gitlab-integration
+          title: buddybuild
 - title: CMS Plugins
   id: cms-plugins
   applications:

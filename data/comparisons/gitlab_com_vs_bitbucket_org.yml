@@ -1,18 +1,19 @@
-title: "GitLab.com vs. Bitbucket.org"
+title: "Bitbucket.org vs. GitLab.com"
+pdf: gitlab-com-vs-bitbucket-org.pdf
 competitor_one:
   name: 'GitLab.com'
   logo: '/images/comparison/gitlab-logo.svg'
 competitor_two:
   name: 'Bitbucket.org'
   logo: '/images/comparison/bitbucket-logo.svg'
-last_updated: 'February 08, 2017'
+last_updated: 'February 14, 2017'
 features:
-  - title: "Unlimited collaborators"
+  - title: "Free unlimited collaborators"
     description: "With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories."
     link_description: ""
     link:
     competitor_one: true
-    competitor_two: true
+    competitor_two: false
   - title: "Free CI with Shared or Own Runner"
     description: "GitLab.com has shared runners that allow you to use GitLab CI completely free. Alternatively, you can set up your own Runner for faster build processing or special requirements."
     link_description: ""
@@ -125,12 +126,6 @@ features:
     description: "GitLab Container Registry is a secure and private registry for Docker images. It allows for easy upload and download of images from GitLab CI. It is fully integrated with Git repository management."
     link_description: "Documentation on Container Registry"
     link: https://docs.gitlab.com/ce/user/project/container_registry.html
-    competitor_one: true
-    competitor_two: false
-  - title: "Monitoring built-in"
-    description: "GitLab ships with an open source monitoring solution, Prometheus, which offers world-class monitoring of the GitLab server's resources."
-    link_description: "Documentation about Monitoring"
-    link: http://docs.gitlab.com/runner/monitoring/
     competitor_one: true
     competitor_two: false
   - title: "New features every month"

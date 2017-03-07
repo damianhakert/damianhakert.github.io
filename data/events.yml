@@ -1,0 +1,56 @@
+- topic: Google Next
+  type: Cloud
+  date: March 8-10, 2017
+  description: |
+               Stop by our booth to get a demo on going from idea to production on Google Container Engine.
+  location: San Francisco, USA
+  social_tags: GoogleNext, GitLabonGKE
+  event_url: https://cloudnext.withgoogle.com/
+
+- topic: GitLab 9.0 Release SF
+  type: Release
+  date: March 22, 2017
+  description: |
+               Learn more about all the amazing new features we'll have released in 9.0.
+  location: San Francisco, USA
+  social_tags: GitLab9.0
+  event_url: https://about.gitlab.com/
+
+- topic: Cloud Expo Europe
+  type: DevOps, Containers
+  date: March 15-16, 2017
+  description: |
+               Come to see Richard Pidgeon and Sean Packhan speak on the DevOps stage at the leading cloud event in the world.
+  location: London, England
+  social_tags: GitLabforDevOps
+  event_url: http://www.cloudexpoeurope.com/why-exhibit/devops-live-jxco
+
+
+- topic: OSCON Austin 2017
+  type: Open Source, Dev
+  date: May 8-11, 2017
+  description: |
+               Get completely immersed in the world of Open Source. Join us and the rest of the Open Source community to discuss best practices, innovation, and connecting people with being open. Learn how we at GitLab fully embrace an open source culture and our tips for a complete open source dev lifecycle.
+  location: Austin, TX USA
+  social_tags: OSCONAustin2017, DevLifeCycle
+  event_url: http://conferences.oreilly.com/oscon/oscon-tx
+
+
+- topic: Open Source Summit North America
+  type: Open Source, Dev
+  date: September 11-13 2017
+  description: |
+               LinuxCon, ContainerCon, and CouldOpen all under one roof this year. Meet us at the Open Source Summit and share your collaboration stories.
+  location: Los Angeles, CA USA
+  social_tags: OpenSourceSummit2017
+  event_url: http://events.linuxfoundation.org/events/open-source-summit-north-america
+
+- topic: WebSummit Lisbon
+  type: Enterprise
+  date: November 6-9 2017
+  description: |
+               Over 50,000 tech leaders converge in Lisbon to meet and discuss the technologies that connect us all.
+
+  location: Lisbon, Portugal
+  social_tags: WebSummit2017
+  event_url: https://websummit.com/

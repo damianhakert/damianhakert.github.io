@@ -31,4 +31,4 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Deadline driven
 * SaaS and B2B experience preferred
 * Interest in GitLab, and open source software
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.

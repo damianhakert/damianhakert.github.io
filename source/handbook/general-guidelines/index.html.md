@@ -3,7 +3,13 @@ layout: markdown_page
 title: "GitLab General Guidelines"
 ---
 
-## Welcome to our General Guidelines page
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+## General Guidelines
 
 1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, and creating software that is helping the most people you've ever reached.
 1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
@@ -37,6 +43,7 @@ title: "GitLab General Guidelines"
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. Before **replying** to a request, complete the requested task first. Otherwise, indicate when you plan to complete it in your response. In the latter case, always send a message after the task is subsequently completed.
 1. Respect the **privacy** of our users and your fellow GitLabbers. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example, [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of GitLabbers) is a fireable offense.
+1. If you don't have time to do something let people know when they give you the tasks instead of having it linger so they can find an alternative. You can use the text: "I have other priorities and can't help with this" or "I can complete this on May 25, please let me know if that is OK".
 1. Most guidelines in this handbook are meant to help, and unless stated otherwise, are meant to help more than being absolute rules. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, saying for example, "It is not a problem, but next time please consider the following guideline from the handbook.".
 1. Also see our [leadership guidelines](https://about.gitlab.com/handbook/leadership/#guidelines).
 
