@@ -32,6 +32,22 @@ Our [Blog] is managed by the Marketing Team.
 - Bring in voices from all throughout the company, as well as
 from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
 
+### What content should go on the blog?
+
+The blog is:
+
+- Another marketing channel like Twitter/Facebook/YouTube.
+- For longer form news on what we have done or are doing.
+- For ephemeral content, think of it as a longer tweet.
+- Not the permanent place for tutorials, they should live in the the docs and be
+  shared on the blog in the form of a "longer tweet"
+
+The documentation is different to the blog in that it is:
+
+- A reference on everything about our product.
+- For feature coverage, API, University (written and video tutorials).
+- For persistent content.
+
 ### Anatomy of a Blog Post
 
 Later sections of this handbook contain granular examples of different types of posts and how to write them, but a few broad things should be true of all posts, no matter the writer or the topic.
@@ -542,7 +558,7 @@ accessible under `https://gitlab.com/johndoe`, this field should be filled as fo
 
 ```yaml
 author_gitlab: johndoe
-``` 
+```
 
 This field is required.
 
@@ -673,7 +689,7 @@ The final result is a red button over the cover image of the post.
 
 ![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
 
-The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them.
 
 This option was introduced in January/2017.
 {:.note}
