@@ -65,7 +65,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 |-----|----------------------------|----------------------------------------|
 | 1   | [Emergencies (Premium Customers only)](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
 | 2   | [Premium Customer - Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets)                | 4 hrs (business)                             |
-| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
+| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/channels/#security-disclosures) | 1 business day                         |
 
 **Response time indicates the first reply time.**
 

@@ -35,11 +35,11 @@ Pick an issue, with preference given to the oldest in the list, and evaluate it 
   issues that contain private information
 
 Apply each label that seems appropriate. Issues with a security impact should be
-treated specially - see the [security disclosure process](/handbook/support/#security-disclosures-a-namesecuritya).
+treated specially - see the [security disclosure process](/handbook/support/channels/#security-disclosures).
 
 If the issue seems unclear - you aren't sure which labels to apply - ask the
 requestor to clarify matters for you. Keep our
-[user communication guidelines](handbook/#user-communication-guidelines) in mind
+[user communication guidelines](/handbook/communication/#user-communication-guidelines) in mind
 at all times, and commit to keeping up the conversation until you have enough
 information to complete triage.
 
