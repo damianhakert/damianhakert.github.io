@@ -23,6 +23,16 @@ Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
+### Blog endboss
+
+[Marcia Ramos](https://about.gitlab.com/team/#XMDRamos) is the blog endboss.
+
+If the post author does not know who can do a final review or merge their post
+they can assign it to Marcia.
+
+But a post author must get at least one review from someone in their immediate
+team and use a spelling and grammar checker.
+
 ### Objectives &amp; Purposes
 
 - Use the [blog](/blog) to encourage potential users to try GitLab
