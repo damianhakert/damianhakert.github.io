@@ -84,11 +84,11 @@ Questions? Leave a comment below or tweet [@GitLab](https://twitter.com/gitlab)!
 
 ```
 
-### Important Notes
+#### Important Notes
 
 - Make sure to use a previous post to take the format of the post and for [embedding the video from YouTube](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#display-videos-from-youtube) into the blogpost. Replace the video URL only
 - Edit the video to start when the meeting actually starts
-- Take a screenshot of the second slide of the presentation to make it as custom thumbnail on YouTube
+- Take a screenshot of the second slide of the presentation to make it as custom thumbnail for your video on YouTube
 - Use this [slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1JYHRhLaO9fMy1Sfr1WDnCPGv6DrlohlpOzs48VvmlQw/edit?usp=sharing) as template to your presentation
 
 ## Schedule
