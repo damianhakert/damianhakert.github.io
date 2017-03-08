@@ -128,7 +128,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
   1. Concern about relocating causing drop in pay
     * Note the answer above.  This is a relatively new policy in an organization that is helping to form the playbook for remote only companies. We strive to find the balance between financially responsible decisions and what's fair to team members.
   1. Concern for lower pay scale outside the US/Europe based on a lower cost of living
-    * The [Compensation Calculator] (https://about.gitlab.com/handbook/people-operations/global-compensation-calculator) applies a consistent approach to a global workforce. It is not a perfect solution and we are working the areas identified where the rent index is not up to part with the job market for a specific position. We aim to make the model better as we learn more.
+    * The [Compensation Calculator](https://about.gitlab.com/handbook/people-operations/global-compensation-calculator) applies a consistent approach to a global workforce. It is not a perfect solution and we aim to make the model better as we learn more.
   1. Will we use the compensation calculator for non engineering roles?
     * Yes, this work is being completed now. Look for an update soon.
 
