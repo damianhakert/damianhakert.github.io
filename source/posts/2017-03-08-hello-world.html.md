@@ -21,7 +21,7 @@ extra_css:
 <!-- blog post intro -->
 <section class="intro vertical-align-top">
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
 Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
 eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
 
@@ -44,7 +44,7 @@ tempore quasi fuga accusantium in odit facilis.
 
 ## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Name Surname](https://gitlab.com/handle)
 
-Name contributed to [whatever](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
+Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 
 </section>
 <!-- end of MVP section -->
@@ -54,6 +54,8 @@ Name contributed to [whatever](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 
 ## Feature 1
 {: .ce-ee}
+
+Major feature's description
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit sunt quae doloribus, quia enim aspernatur vitae nesciunt. Veniam praesentium aliquam deserunt quibusdam corporis odit aut quod, nihil omnis aperiam necessitatibus, quia esse eius molestias, doloremque illo? Velit asperiores error explicabo vel ea sint nisi sapiente, labore delectus voluptatum! Deserunt saepe esse, laborum, numquam fugiat, fuga nisi nihil enim excepturi voluptates cupiditate quis aliquid obcaecati est. Quo vero numquam officiis, inventore ut fugit enim dolorem cumque eveniet voluptatum dolorum minus, nisi dolore explicabo. Consequatur nihil, ducimus, sequi quaerat dolorum asperiores qui et repudiandae mollitia quos veritatis excepturi, laborum omnis sunt.
 
@@ -70,6 +72,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit sunt qu
 
 ## Feature 2
 {: .ee}
+
+Feature description
 
 Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
@@ -101,6 +105,8 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ## Feature 3
 {: .ce-ee}
 
+Feature description
+
 Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
 [Documentation link](link)
@@ -119,6 +125,8 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 {: .ce-ee}
 
 This release has more improvements, including security fixes.
+
+Description
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem perferendis placeat esse consequatur quisquam. Natus ducimus nihil officiis quasi provident, libero pariatur numquam incidunt inventore sit esse architecto quam. Et, deleniti. Esse nesciunt provident magnam quod officiis, ipsum repellendus exercitationem cupiditate harum maxime? Alias, in eum itaque nihil distinctio harum maiores! Dolorum ea sed autem aspernatur voluptas, vitae. At dignissimos, in omnis, deserunt enim consectetur incidunt facere sunt officia illo voluptate totam sit quaerat quas repudiandae tempora asperiores. Est, provident.
 
