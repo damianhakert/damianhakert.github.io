@@ -336,7 +336,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
      1. [ ] Bank details
 1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
 1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a
-     1. [ ] Scanned copy of  employment contract  
+     1. [ ] Scanned copy of employment contract
      1. [ ] ID card
      1. [ ] Email address
      1. [ ] Salary
@@ -367,6 +367,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 1. [ ] People Ops (Recruiter): remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
 1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#add-beamy) on [Beamy](https://app.suitabletech.com/).
+1. [ ] New team member: Log in on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines) and explore the office.
 1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#b-cards) for new team member.
 1. [ ] People Ops (Recruiter): Add team member to [Expensify](https://www.expensify.com/signin) (if employee). See SOP for more [instructions](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#add-expensify).
 1. [ ] People Ops (Recruiter): Add new team member to the info sheets of the next Summit if applies.
