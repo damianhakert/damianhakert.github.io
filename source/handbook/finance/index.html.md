@@ -294,10 +294,7 @@ In Netsuite:
 
 ### Asset Tracking
 
-<<<<<<< HEAD
 See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/system-processes/#asset-tracking)
-=======
-See the entry on asset tracking on the [People Ops page](https://about.gitlab.com/handbook/people-operations/sop/#asset-tracking)
 
 ## Spend reduction
 
@@ -308,4 +305,3 @@ Discretionary spending is always subject to questioning, we are frugal and all s
 But we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
 Instead, we should do the hard work of identifying positions and costs that are not contributing to our goals.
 Even if this causes a bit more disruption in the short term, it will help us ensure we stay a great place to work for the people who are here.
->>>>>>> master
