@@ -99,38 +99,38 @@ There is a rotating schedule:
 
 Week 1:
 
-- Monday Discussion Sean
-- Tuesday Product Job
-- Wednesday   PeopleOps Joan
-- Thursday    Sales   Chad
+- Monday:       Discussion      - Sean
+- Tuesday:      Product         - Job
+- Wednesday:    PeopleOps       - Joan
+- Thursday:     Sales           - Chad
 
 Week 2:
 
-- Monday  Backend Douwe
-- Tuesday Infrastructure  Pablo
-- Wednesday   General Sid
-- Thursday    Finance Paul
+- Monday:       Backend         - Douwe
+- Tuesday:      Infrastructure  - Pablo
+- Wednesday:    General         - Sid
+- Thursday:     Finance         - Paul
 
 Week 3:
 
-- Monday  UX  Taurie 
-- Tuesday CI  Kamil
-- Wednesday   Build   Marin
-- Thursday Support Lee
+- Monday:       UX              - Taurie 
+- Tuesday:      CI              - Kamil
+- Wednesday:    Build           - Marin
+- Thursday:     Support         - Lee
 
 Week 4:
 
-- Monday  Frontend    Jacob Schatz
-- Tuesday Alliances Michael
-- Wednesday Prometheus Ben
-- Thursday Engineering Stan
+- Monday:       Frontend        - Jacob Schatz
+- Tuesday:      Alliances       - Michael
+- Wednesday:    Prometheus      - Ben
+- Thursday:     Engineering     - Stan
 
 Week 5:
 
-- Monday  Marketing   Tim
-- Tuesday Edge Remy
-- Wednesday Partnerships Eliran
-- More marketing groups
+- Monday:       Marketing       - Tim
+- Tuesday:      Edge            - Remy
+- Wednesday:    Partnerships    - Eliran
+- Thursday:     UX Research     - Sarah
 
 ## Agenda
 
