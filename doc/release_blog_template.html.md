@@ -2,8 +2,8 @@
 release_number: "X.X"
 title: "Released with XXX and XXX" # Don't mention "GitLab" here.
 author: Firstname Lastname
-author_gitlab: GitLab.com username
-author_twitter: Twitter username
+author_gitlab: GitLab.com-username
+author_twitter: Twitter-username
 categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "GitLab X.X Released with MAIN_CE_FEATURE, MAIN_EE_FEATURE, and much more!"
@@ -11,6 +11,7 @@ twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 extra_css:
   - release-posts.css
 ---
+
 <!-- READ THE INSTRUCTIONS AT THE END OF THIS FILE -->
 
 <!-- beginning of the blog post -->
@@ -18,9 +19,9 @@ extra_css:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="intro">
+<section class="intro vertical-align-top">
 
-Intro (blog landing page): Lorem ipsum dolor sit amet.
+Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
 Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
 eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
 
@@ -41,9 +42,9 @@ tempore quasi fuga accusantium in odit facilis.
 
 ![mvp-badge](/images/mvp_badge.png)
 
-## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [MVP_USER_FIRST_NAME](MVP_PROFILE_URL)
+## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Name Surname](https://gitlab.com/handle)
 
-Toon contributed [CONTRIBUTION_OF_MVP_USER](CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks MVP_USER_FIRST_NAME!
+Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 
 </section>
 <!-- end of MVP section -->
@@ -52,9 +53,11 @@ Toon contributed [CONTRIBUTION_OF_MVP_USER](CONTRIBUTION_OF_MVP_USER_MR_URL). Th
 <section class="middle">
 
 ## Feature 1
-{: .ee} or {: .ce-ee}
+{: .ce-ee}
 
-Major feature description
+Major feature's description
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit sunt quae doloribus, quia enim aspernatur vitae nesciunt. Veniam praesentium aliquam deserunt quibusdam corporis odit aut quod, nihil omnis aperiam necessitatibus, quia esse eius molestias, doloremque illo? Velit asperiores error explicabo vel ea sint nisi sapiente, labore delectus voluptatum! Deserunt saepe esse, laborum, numquam fugiat, fuga nisi nihil enim excepturi voluptates cupiditate quis aliquid obcaecati est. Quo vero numquam officiis, inventore ut fugit enim dolorem cumque eveniet voluptatum dolorum minus, nisi dolore explicabo. Consequatur nihil, ducimus, sequi quaerat dolorum asperiores qui et repudiandae mollitia quos veritatis excepturi, laborum omnis sunt.
 
 ![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
 
@@ -68,9 +71,11 @@ Major feature description
 <section class="left">
 
 ## Feature 2
-{: .ee} or {: .ce-ee}
+{: .ee}
 
 Feature description
+
+Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
 [Documentation link](link)
 
@@ -97,10 +102,12 @@ Feature description
 <!-- feature 3 text -->
 <section class="right">
 
-## Feature 2
-{: .ee} or {: .ce-ee}
+## Feature 3
+{: .ce-ee}
 
-Explanation
+Feature description
+
+Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
 [Documentation link](link)
 
@@ -117,8 +124,13 @@ Explanation
 ## See all other improvements to GitLab 8.14
 {: .ce-ee}
 
-This release has more improvements, including security fixes. Please check out
-[the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
+This release has more improvements, including security fixes.
+
+Description
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem perferendis placeat esse consequatur quisquam. Natus ducimus nihil officiis quasi provident, libero pariatur numquam incidunt inventore sit esse architecto quam. Et, deleniti. Esse nesciunt provident magnam quod officiis, ipsum repellendus exercitationem cupiditate harum maxime? Alias, in eum itaque nihil distinctio harum maiores! Dolorum ea sed autem aspernatur voluptas, vitae. At dignissimos, in omnis, deserunt enim consectetur incidunt facere sunt officia illo voluptate totam sit quaerat quas repudiandae tempora asperiores. Est, provident.
+
+Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 
 </section>
 <!-- end of OTHER FEATURES BLOCK -->
@@ -189,6 +201,7 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 
 
 
+
 <!-- Instructions (delete them when accomplished) -->
 
 1. Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts
@@ -219,6 +232,7 @@ Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-w
 5. Features:
   - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
   - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
+  - Apply the classes `{: .ce-ee}` or `{: .ee}` to features' headings accordingly.
 
 6. Align content to the top:
 
