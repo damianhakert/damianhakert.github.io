@@ -17,7 +17,7 @@ title: "Internal Feedback"
 
 Companies often wait until someone resigns to gather feedback during an Exit Interview or they organize a survey to take an occasional pulse of the company’s engagement.  We feel that a quick quarterly check-in is more aligned to our [values](https://about.gitlab.com/handbook/values/), Collaboration and Iteration.  We use Google forms to gather feedback anonymously and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of feedback received but, reserve the right to paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately out of respect for the recipient(s).   
 
-For 2017, we rebranded our survey - [Stay Interview](https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScM9OCtyuuRRTNkYeo9e27Fb2IU0beFRz8KetG2SSTe70q5BA/viewform?c=0&w=1) because we are most interested in three things, why people join, what makes them stay, and what would make them consider leaving GitLab.  
+For 2017, we rebranded our survey - [Stay Interview](https://drive.google.com/file/d/0B4eFM43gu7VPX0RiRkV5NUtQREU/view?usp=sharing) because we are most interested in three things, why people join, what makes them stay, and what would make them consider leaving GitLab.  
 
 ### Feedback from the GitLab team - February 2017
 
