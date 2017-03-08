@@ -24,8 +24,74 @@ Functional Group Updates are regular updates from a group at GitLab.
 
 ### Template for the blogpost
 
-Here are the recordings of this weeks' Functional Group Updates and the matching presentation slides where applicable
-* Use a previous post to take the format for embedding the video from YouTube into the blogpost
+Please copy the code block below and paste it into a blog post with the file name `aaaa-mm-dd-functional-group-updates.html.md`.
+
+```md
+---
+title: "GitLab's Functional Group Updates - MMM DD-DD" # replace "MMM" with the current month, and "DD-DD" with the date range
+author: Name Surname
+author_twitter: twitter-username
+author_gitlab: gitlab.com-username
+categories: Functional Group Updates
+description: "The Functional Groups at GitLab give an update on what they've been working on"
+---
+
+<!-- beginning of the intro - leave it as is -->
+
+Every day from Monday to Thursday, right before our [GitLab Team call](https://about.gitlab.com/handbook/#team-call), a different Functional Group gives an [update](https://about.gitlab.com/handbook/people-operations/functional-group-updates/) to our team.
+
+The format of these calls is simple and short where they can either give a presentation or quickly walk the team through their agenda.
+
+<!-- more -->
+
+## Recordings
+
+All of the updates are recorded using [Zoom](https://zoom.us) at the time of the call. All the recordings will be uploaded to our YouTube account and made public, with the exception of the Sales and Finance updates.
+
+<!-- end of the intro -->
+
+<!-- beginning of the FG block - repeat as many times as necessary (copy and paste the entire block) -->
+
+----
+
+### XXX Team
+
+[Presentation slides](link-to-slides-deck)
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/8vJBc8MJihE" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<!-- end of the FG block -->
+
+<!-- beginning of the FG block - repeat as many times as necessary (copy and paste the entire block) -->
+
+----
+
+### XXX Team
+
+[Presentation slides](link-to-slides-deck)
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/8vJBc8MJihE" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<!-- end of the FG block -->
+
+----
+
+Questions? Leave a comment below or tweet [@GitLab](https://twitter.com/gitlab)! Would you like to join us? Check out our [job openings](https://about.gitlab.com/jobs/)!
+
+```
+
+#### Important Notes
+
+- Make sure to use correct format for [embedding videos from YouTube](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#display-videos-from-youtube) into the blogpost. Replace the video URL only
+- Edit the video to start when the meeting actually starts:
+  - On YouTube, click **Edit** > **Enhancements**
+  - Click **trim**, then play until the part you want to split, and click **split**
+- Take a screenshot of the second slide of the presentation to make it as custom thumbnail for your video on YouTube
+- Use this [slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1JYHRhLaO9fMy1Sfr1WDnCPGv6DrlohlpOzs48VvmlQw/edit?usp=sharing) as template to your presentation
 
 ## Schedule
 
@@ -47,7 +113,7 @@ Week 2:
 
 Week 3:
 
-- Monday  UX   Allison
+- Monday  UX  Taurie 
 - Tuesday CI  Kamil
 - Wednesday   Build   Marin
 - Thursday Support Lee

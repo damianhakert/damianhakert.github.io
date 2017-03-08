@@ -112,6 +112,9 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
    - YES
 
+1. How does GitLab help companies ensure HIPAA compliance?
+   - GitLab Enterprise Edition (EE) and GitLab Community Edition (CE) work seamlessly in HIPAA-controlled environments. These products do not store, process or transmit any patient related healthcare information. As a result, GitLab EE and GitLab CE have been implemented by hundreds of healthcare-related companies. If your company needs to ensure HIPAA compliance, GitLab will work with your security team to ensure that basic compliance criteria are met. If more extensive security procedures are required, GitLab has a number of partners that specialize in helping companies comply with industry accepted data security standards. 
+
 ### Software Development Life Cycle (SDLC)<a name="sdlc"></a>
 
 1. Are there documented processes, procedures, standards and templates used in your SDLC process?

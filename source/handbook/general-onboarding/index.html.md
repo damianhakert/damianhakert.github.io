@@ -233,7 +233,6 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] People Ops (Recruiter): Add new Google user to ['New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group) to disable 2FA for them
    1. [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal.
    1. [ ] People Ops (Recruiter): inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
-1. [ ] People Ops (Recruiter): Send an email to the new team member, asking them for their GitLab.com handle, or asking them to create a GitLab.com account. If they already have an account and want to separate work / personal handles on GitLab.com, they can make a new account with their GitLab email address as the primary. Make sure that they fill out the GitLab.com profile with their first and last name to ensure that e-mail notifications arrive correctly.
 1. [ ] People Ops (Specialist): Invite GitLabber's GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 1. [ ] Hiring manager: in the "GitLab Email Forwarding" doc, suggest which email aliases the new team member should be added to, then ping one of the admins mentioned in the doc to help get it done.
 1. [ ] Hiring manager: determine if new team member will need access to the `dev` server. If so, make [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
@@ -275,7 +274,17 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > please let me know if that is not the case.
     >
     > Everything you need to get started is listed in your onboarding issue:
-    > [Insert link]. Check out Onboarding (https://about.gitlab.com/handbook/general-onboarding/) for everything you need to know throughout the onboarding process. You might have received invitations to create accounts for Slack, BambooHR, and other tools. Before you do this, make sure you've set up a 1Password account as instructed in your onboarding issue first. This will save you a lot of time later!
+    > [Insert link]. To access this issue, please let People Ops know
+    > your GitLab.com account. If you already have an account and want to separate work /
+    > personal handles on GitLab.com, you can make a new account with your GitLab email
+    > address as the primary. Make sure that your GitLab.com profile includes first and
+    > last name so e-mail notifications arrive correctly.
+
+    > Check out Onboarding (https://about.gitlab.com/handbook/general-onboarding/) for
+    > everything you need to know > throughout the onboarding process. You might have
+    > received invitations to create accounts for Slack, BambooHR, and other > tools.
+    > Before you do this, make sure you've set up a 1Password account as instructed in
+    > your onboarding issue first. This will save you a lot of time later!
     >
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
@@ -321,11 +330,16 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 1. [ ] New Team Member: to ensure that we have all of your details ready for payroll processing please complete the following information on BambooHR;
      1. [ ] Full name
+     1. [ ] Date of birth
      1. [ ] Address
      1  [ ] National Number
      1. [ ] Bank details
 1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
-1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a copy of the team member's employment contract and ID card
+1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a
+     1. [ ] Scanned copy of  employment contract  
+     1. [ ] ID card
+     1. [ ] Email address
+     1. [ ] Salary
 
 #### All GitLabbers
 
