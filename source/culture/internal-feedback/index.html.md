@@ -122,7 +122,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 
 * Compensation Calculator -
   1. Concern that pay will decrease based on the compensation calculator by location
-    * Our policy on [Relocation] (https://about.gitlab.com/handbook/people-operations/#relocation/) describes our current process, however, we review each case on an individual basis.
+    * Our policy on [Relocation](https://about.gitlab.com/handbook/people-operations/#relocation/) describes our current process, however, we review each case on an individual basis.
   1. Why is the pay gap between Service Engineers and Developers significant?
     * The role and responsibility is different for these two roles, therefore, the market data indicates a difference in pay scales.  We will review our market data again soon, as part of the upcoming merit administration process, to confirm we have good benchmarks in place.
   1. Concern about relocating causing drop in pay
