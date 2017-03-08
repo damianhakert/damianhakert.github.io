@@ -66,6 +66,7 @@ The CEO must authorize any new job positions/searches.
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the posting is live on our website, a Global Recruiter will announce it on the next team call, post it in the `#general` chat channel and on Twitter. Also consider the additional [advertising methods](#publicize-the-job) below as a means to communicate the open position to a desired audience.
  1. All job openings must be posted on our careers page for at least 5 business days before we can make an offer; this includes all new positions and [promotions](/handbook/people-operations/#promotions).
+ 1. Jobs will be closed after 15 business days to evaluate candidates in the pipeline, and will reopen if a candidate is not selected from the initial pool.
 
 
 ## Publicize the job
