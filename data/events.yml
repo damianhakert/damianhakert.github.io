@@ -3,10 +3,9 @@
   date: March 8-10, 2017
   description: |
                Stop by our booth to get a demo on going from idea to production on Google Container Engine.
-  location: San Francisco, USA
+  location: San Francisco, CA USA
   social_tags: GoogleNext, GitLabonGKE
   event_url: https://cloudnext.withgoogle.com/
-  
   
 - topic: Cloud Expo Europe
   type: DevOps, Containers
@@ -18,15 +17,15 @@
   event_url: http://www.cloudexpoeurope.com/why-exhibit/devops-live-jxco
 
 - topic: GitLab 9.0 Release SF
-  type: Release
+  type: Meetup
   date: March 22, 2017
   description: |
-               Learn more about all the amazing new features we'll have released in 9.0.
-  location: San Francisco, USA
+               Learn more about best development practices. 
+  location: San Francisco, CA USA
   social_tags: GitLab9.0
   event_url: http://get.gitlab.com/meetup-sf/
   
-- topic: GitLab Gathers- Denver
+- topic: GitLab Gathers - Denver
   type: Meetup
   date: March 23, 2017
   description: |
@@ -35,7 +34,7 @@
   social_tags: GitLab9.0, GitLabGathersDenver
   event_url: http://get.gitlab.com/meetup-den/
 
-- topic: GitLab Gathers- Boston
+- topic: GitLab Gathers - Boston
   type: Meetup
   date: March 29, 2017
   description: |
@@ -44,8 +43,8 @@
   social_tags: GitLab9.0, GitLabGathersBoston
   event_url: http://get.gitlab.com/meetup-bos/  
 
-- topic: GitLab Gathers- Amsterdam
-  type: Release
+- topic: GitLab Gathers - Amsterdam
+  type: Meetup
   date: March 30, 2017
   description: |
                Come meet the local team and learn more about GitLab 9.0 and the features that enable team to achive more, faster with speaker Job van der Voort. 
@@ -71,7 +70,7 @@
   social_tags: OSCONAustin2017, DevLifeCycle
   event_url: http://conferences.oreilly.com/oscon/oscon-tx
 
-- topic: GitLab Gathers- London
+- topic: GitLab Gathers - London
   type: Meetup
   date: May 18, 2017
   description: |
@@ -80,7 +79,7 @@
   social_tags: GitLabGathersLondon
   event_url: https://about.gitlab.com/
   
-- topic: GitLab Gathers- New Orleans
+- topic: GitLab Gathers - New Orleans
   type: Meetup
   date: June 30, 2017
   description: |
@@ -103,7 +102,6 @@
   date: November 6-9 2017
   description: |
                Over 50,000 tech leaders converge in Lisbon to meet and discuss the technologies that connect us all.
-
   location: Lisbon, Portugal
   social_tags: WebSummit2017
   event_url: https://websummit.com/
