@@ -1,14 +1,9 @@
-$color-white: #fff;
-$color-transparent-white: rgba(255, 255, 255, 0);
-$blog-color-text: #333;
-$color-gray-medium: #ddd;
-$heading-bg-color: #f5f5f5;
+@import "variables";
+
+// Release post specific variables
+$heading-bg-color: #f5f5f5; // same as $panel-default-heading-bg
 $badge-color-ce: #5aab6e;
 $badge-color-ee: #51a7e0;
-$blog-color-border-shadow: rgba(0, 0, 0, .1);
-$body-bg: #f9f9f9;
-$blog-color-overlay-border: #eee;
-
 
 .container {
   max-width: 1680px;
