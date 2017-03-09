@@ -225,8 +225,8 @@
 
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
-  apply: https://gitlab.workable.com/jobs/346406/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Regional Sales Director"
   description: /jobs/regional-sales-director/
@@ -279,6 +279,12 @@
   salary: 87337
   apply:
   open: false
+
+- title: "UX Lead"
+  description: /jobs/ux-lead/
+  salary:
+  apply: https://gitlab.workable.com/jobs/279434
+  open: true
 
 - title: "UX Designer"
   description: /jobs/ux-designer/
