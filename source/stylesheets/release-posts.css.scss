@@ -156,15 +156,27 @@ $badge-color-eep: #0976bc;
       }
     }
 
-    .mvp {
+    %darkbg {
       order: 1;
-      text-align: center;
-      padding: 25px 15px 50px;
       background: $body-bg;
       min-width: calc(100vw - 16px);
-      font-size: 26px;
-      margin: 0 0 100px -5vw;
+      margin: 0 0 0 -5vw;
+      padding: 0 5vw;
       box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
+    }
+
+    .upgrade-install {
+      @extend %darkbg;
+      padding-top: 50px;
+    }
+
+    .mvp {
+      @extend %darkbg;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 50px;
+      font-size: 26px;
+      margin-bottom: 100px;
 
       h2 {
         font-size: 33px;
@@ -268,8 +280,7 @@ $badge-color-eep: #0976bc;
 .note {
   order: 1;
   width: 100%;
-  border-top: 1px solid $blog-color-overlay-border;
-  padding-top: 20px;
+  margin-top: 0;
 }
 
 .left {
@@ -375,6 +386,7 @@ $badge-color-eep: #0976bc;
 
 hr {
   order: 1;
+  width: 100%;
 }
 
 .vertical-align-top {

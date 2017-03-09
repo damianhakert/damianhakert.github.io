@@ -155,7 +155,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ordered automatically based on priority labels.
 - With GitLab Enterprise Edition Starter you can also associate Issue Boards with a milestone.
 
-<!-- 
+<!--
 
 TODO:
 
@@ -233,6 +233,7 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 <!-- end of OTHER FEATURES BLOCK -->
 
 <!-- UPGRADE BAROMETER BLOCK -->
+<div class="upgrade-install">
 <section class="left vertical-align-top">
 
 
@@ -283,8 +284,8 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/products/). No time to upgrade GitLab yourself? A subscription also entitles you to our upgrade and installation services.
 
 </section>
+</div>
 
-----
 
 [Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
 {:.note .text-right}
