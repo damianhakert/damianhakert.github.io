@@ -129,7 +129,7 @@ Why bind yourself to Intel servers? – MBH
 
 We want to scale intelligently and build great software; we don’t want to be an infrastructure company. We are embracing and are excited about solving the challenge of scaling GitLab.com on the cloud, because solving it for us also solved it for the largest enterprises in the world using GitLab on premise.
 
-Most of the scaling headaches have occurred because Git is read-heavy: looking at our Git Read/Write performance chart below, you can see that for about every 300 reads we get 10 writes. We tried to solve this by running CephFS in the cloud but and it goes against our value of using the simplest, most  [boring solution](https://about.gitlab.com/handbook/#values) for a problem.
+Most of the scaling headaches have occurred because Git is read-heavy: looking at our Git Read/Write performance chart below, you can see that for about every 300 reads we get 10 writes. We tried to solve this by running CephFS in the cloud but it goes against our value of using the simplest, most  [boring solution](https://about.gitlab.com/handbook/#values) for a problem.
 
 ![An average of 300 Reads to 10 writes](/images/blogimages/why-we-are-not-leaving-the-cloud-chart.png)
 
