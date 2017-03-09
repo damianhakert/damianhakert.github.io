@@ -49,8 +49,6 @@ Toon contributed the button to delete all merged branches, a great addition to G
 
 </section>
 
-<!--more-->
-
 <section class="middle">
 
 ## Time Tracking Beta

@@ -19,7 +19,7 @@ extra_css:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="intro vertical-align-top">
+<section class="middle vertical-align-top">
 
 Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
 Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
@@ -142,11 +142,11 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 
 ### Upgrade barometer
 
-<!-- 
+<!--
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME **** 
+*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
 -->
 
