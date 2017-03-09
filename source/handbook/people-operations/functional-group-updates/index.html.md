@@ -20,6 +20,7 @@ Functional Group Updates are regular updates from a group at GitLab.
 1. Calls do not go over time, if there are more questions invite them via chat, if there are no more questions feel free to end the call after 5 minutes.
 1. Calls are scheduled by an [EA](https://about.gitlab.com/jobs/executive-assistant/) who can also switch team based on availability of the presenter.
 1. Every group with 5 people or more presents.
+1. The call is recorded automatically, and all calls are transferred every hour to a Google Drive folder called "GitLab Videos", which is accessible to all users with a GitLab.com e-mail account.
 1. Video recordings will be published on our blog so contributors, users, and customers can see it. We're aiming to publish a blogpost once a week of that weeks' recordings with the matching slides in one go.
 
 ### Template for the blogpost
