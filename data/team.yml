@@ -621,6 +621,7 @@
   twitter: asumaran
   gitlab: alfredo1
   maintains:  |
+                <li>FE Architectural <a href="/jobs/expert/">Expert</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
                 <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
