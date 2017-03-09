@@ -77,6 +77,12 @@ still need to filter by the label for your own team.
 
 If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
 
+## Getting your merge request reviewed, approved, and merged
+
+See the guidelines in our [Contribution guide][contrib-mr-guide].
+
+[contrib-mr-guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#getting-your-merge-request-reviewed-approved-and-merged
+
 ## Getting data about GitLab.com
 
 GitLab.com is a very large instance of GitLab Enterprise Edition.
