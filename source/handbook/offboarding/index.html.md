@@ -93,7 +93,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 #### All GitLabbers
 
-1. [x] _not relevant_ New team member: Read the [security handbook](/handbook/security), and please ask questions to make sure it is all clear to you.
+1. [x] _not relevant_ New team member: Read the [security best practices](/handbook/security), and please ask questions to make sure it is all clear to you.
 1. [x] _not relevant_ New team member: Enable 2FA on your GitLab email account (this should have been an option to do when you first received the invitation to the account).
 1. [x] _not relevant_ New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 1. [x] _not relevant_ New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
@@ -129,7 +129,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1, [x] _not relevant_ New team member: [Download Git](https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html).
 1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
-1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
+1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security best practices](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [x] _not relevant_ New team member: Make an improvement to the handbook (something that you wished was there).
 1. [x] _not relevant_ Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
