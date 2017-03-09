@@ -111,7 +111,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit sunt qu
 <section class="left">
 
 ## Feature 2
-{: .ee}
+{: .ees}
 
 Feature description
 
@@ -143,7 +143,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 <section class="right">
 
 ## Feature 3
-{: .ce-ee}
+{: .eep}
 
 Feature description
 

@@ -3,7 +3,8 @@
 
 // Release post specific variables
 $badge-color-ce: #5aab6e;
-$badge-color-ee: #51a7e0;
+$badge-color-ees: #51a7e0;
+$badge-color-eep: #0082d8;
 
 .container {
   max-width: 1680px;
@@ -236,10 +237,18 @@ $badge-color-ee: #51a7e0;
   align-self: center;
 }
 
-.ee::before {
+.ees::before {
   @extend %ce-placeholder;
-  content: "EE";
-  background: $badge-color-ee;
+  content: "EES";
+  background: $badge-color-ees;
+  width: 73px;
+}
+
+.eep::before {
+  @extend %ce-placeholder;
+  content: "EEP";
+  background: $badge-color-eep;
+  width: 73px;
 }
 
 .ce-ee::before {
@@ -249,7 +258,7 @@ $badge-color-ee: #51a7e0;
 .ce-ee::after {
   @extend %ce-placeholder;
   content: "EE";
-  background: $badge-color-ee;
+  background: $badge-color-ees;
 }
 
 .figcaption {
