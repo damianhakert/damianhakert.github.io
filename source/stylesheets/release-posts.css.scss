@@ -154,6 +154,10 @@ $blog-color-overlay-border: #eee;
         font-size: 24px;
         font-weight: normal;
       }
+
+      .webcast-button {
+        color: white;
+      }
     }
 
     .mvp {
@@ -366,10 +370,6 @@ $blog-color-overlay-border: #eee;
 
 hr {
   order: 1;
-}
-
-.webcast-button {
-  color: white !important;
 }
 
 .vertical-align-top {
