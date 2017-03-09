@@ -164,8 +164,14 @@
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
-
-
+  name: Bella
+  picture: 
+  human: John M
+  story:
+  name: Tele
+  picture: 
+  human: John M
+  story:
           Want to see your name and picture here? Ask your owner/servant to
           check out our latest
           <a href="https://about.gitlab.com/jobs/">job openings</a>!
