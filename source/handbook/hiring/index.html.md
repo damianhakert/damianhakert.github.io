@@ -123,7 +123,7 @@ An applicant should expect to wait 2-3 business days between each step of the pr
 1. Recruiting team does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting-applicants). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
 1. **Pre-screening Questionnaire** Applicants will be sent a pre-screening questionnaire relating to the position by either the recruiting team or the hiring manager to complete and return to the sender. Responses will be added to the candidate's Workable profile.
 1. [**Screening call**](#screening-call): in Workable,
-   1. Our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) will do a screening call;
+   1. Our [Global Recruiters](https://about.gitlab.com/jobs/recruiter/) will do a screening call;
    1. move the applicant to the "screening call" stage in Workable.
    1. send the applicant the Calendly link for the Recruiters, there is a template in Workable.
 Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting-applicants), or move the applicant to the interview stage in Workable.
@@ -161,7 +161,7 @@ is hard, but it is part of our [company values](/handbook/values).
 
 ## Screening Call
 
-We conduct screening calls for all positions. This call will be completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/).
+We conduct screening calls for all positions. This call will be completed by our [Global Recruiters](https://about.gitlab.com/jobs/recruiter/).
 
 Questions are:
 
@@ -274,7 +274,7 @@ All candidates are asked to fill out the form when they are scheduled for an int
 ## Reference calls
 
 As part of our hiring process we will ask applicants to provide us with two or more
-references to contact. These reference calls are completed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+references to contact. These reference calls are completed by our [Global Recruiters](https://about.gitlab.com/jobs/recruiter/) following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Offers and Contracts Ready, Reviewed, and Signed
 {: #prep-contracts}

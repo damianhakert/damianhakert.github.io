@@ -49,7 +49,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 once the new team member has been with the company for 3 months.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
-1. You can also submit passive referrals for our [global recruiters](https://about.gitlab.com/jobs/global-recruiter) to actively connect with via the passive [referral form](https://goo.gl/forms/1rNIYpdgDB3qXBAi2)
+1. You can also submit passive referrals for our [Global Recruiters](https://about.gitlab.com/jobs/recruiter) to actively connect with via the passive [referral form](https://goo.gl/forms/1rNIYpdgDB3qXBAi2)
 
 People Ops will [process](/handbook/people-operations/system-processes/#enter-a-bonus-into-trinet) the bonus.
 
