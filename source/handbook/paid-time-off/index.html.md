@@ -57,3 +57,4 @@ Encourage your co-workers to take time out when you become aware that they are w
     * The U.S. [Fair Labor Standards Act (FLSA)](https://www.dol.gov/general/topic/workhours/vacation_leave) does not require payment for time not worked, such as vacations, sick leave or federal or other holidays.
 1. GitLab Inc. (China) 
     * Employees worked for one-year but less than 10 years, the annual leave is 5 days; worked for more than 10 years but less than 20 years, the annual leave is 10 days;  worked for more than 20 years, the annual leave is 15 days.
+1. LYRA (India) TODO
