@@ -708,6 +708,8 @@ This option was introduced in January/2017.
 
 #### EE-Trial Banner
 
+![ee-trial banner](/images/ee-trial-banner.png)
+
 To not display the EE-trial banner on the blog post, set `ee_cta` to `false` in the frontmatter:
 
 ```yaml
