@@ -245,8 +245,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, `yyyy-mm-dd`, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
 1. If you have multiple points in a comment or email, please number them to make replies easier.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
-1. In URLs, always prefer hyphens to underscores.
-1. In URLs, always use lowercase.
+1. In making URLs, always prefer hyphens to underscores, and always use lowercase. 
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. When we refer to the GitLab community excluding GitLabbers please say 'wider community' instead of 'community'.
 1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that consists of volunteers.
