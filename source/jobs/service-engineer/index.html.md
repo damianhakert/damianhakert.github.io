@@ -66,7 +66,7 @@ criteria:
   - Become a go-to person for the other Service Engineers when they face tough challenges
 - Communication
   - Take ownership of improving documentation
-  - Lead by example in terms of solving a customer issue, updating documentation as a result, and then radiating this knowledge through a blog post
+  - Lead by example in terms of solving a customer issue, updating documentation as a result, and then radiating this knowledge through documentation. As a guide, tech overview, or tutorial.
   - Drive feature requests based on customer interactions
 - Suggest and implement improvements to the support workflow
 - Contribute to one or more complementary projects
