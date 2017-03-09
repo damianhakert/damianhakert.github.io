@@ -37,46 +37,6 @@ tempore quasi fuga accusantium in odit facilis.
 </section>
 <!-- end of blog post intro -->
 
-
-
-<!-- Replace the blog post intro with the following structure if you want to add the webcast video itself! -->
-
-<!-- uncomment in order to use! -->
-
-<!--
-<section class="left vertical-align-top">
-
-Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
-Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
-eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
--->
-
-<!-- more -->
-
-<!--
-Nisi obcaecati numquam incidunt impedit necessitatibus ipsam qui illum,
-praesentium a esse. Cum porro ut id impedit expedita nostrum aut quibusdam,
-accusamus laboriosam maiores nesciunt voluptas deleniti harum doloribus
-tempore quasi fuga accusantium in odit facilis.
-
-</section>
-
-<section class="right vertical-align-top">
-
-<figure class="video_container">
-  <iframe src="YOUTUBE_URL" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-The release webcast recording
-{: .figcaption}
-
-</section>
--->
-
-<!-- end of replace blog post intro because of video url -->
-
-
-
 <!-- MVP section -->
 <section class="mvp">
 
@@ -175,7 +135,6 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 </section>
 <!-- end of OTHER FEATURES BLOCK -->
 
-
 <!-- UPGRADE BAROMETER BLOCK -->
 <section class="left vertical-align-top">
 
@@ -236,3 +195,100 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 <!-- end of LAST BLOCK -->
 
 <!-- end of the blog post -->
+
+
+
+
+
+
+<!-- Instructions (delete them when accomplished) -->
+
+## Instructions
+
+1. Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts
+2. Include in the same MR an update to data/promo.yml:
+
+```yaml
+text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+link: '/AAAA/MM/DD/gitlab-x-x-released/'
+```
+
+3. Embedding Videos
+
+To embed videos, use the figure tag with the video_container class. It will guarantee
+that the video is responsive. Replace only the video URL:
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Video caption
+{: .figcaption}
+
+Caption is optional.
+
+Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
+
+4. Screenshots: try to keep the screenshots with the same width for a nicer layout. Add shadow to them whenever they have a white background that can be confused with the post background:
+
+![IMAGE ALT TEXT](IMAGE_URL){: .shadow}
+
+5. Features:
+  - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
+  - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
+  - Apply the classes `{: .ce-ee}` or `{: .ee}` to features' headings accordingly.
+
+6. Aligning content to the top:
+
+Whenever you need to align content to the top of each column, apply
+the class `vertical-align-top` to both `left` and `right` sections:
+
+<!-- left aligned section block -->
+<section class="left vertical-align-top">
+
+Enter description
+
+</section>
+<!-- end of left aligned section block -->
+<!-- right aligned section block -->
+<section class="right vertical-align-top">
+
+Enter description
+
+</section>
+<!-- end of right aligned section block -->
+<!-- end of instructions  -->
+
+7. Release webcasts
+
+Once the release webcast is published on YouTube, if you want to include the recording
+into the blog post, replace the section "blog post intro" with the following block.
+Don't forget to replace the Lorem Ipsum text with the actual intro. For the video tag,
+replace only the video URL.
+
+<!-- intro section (with video) -->
+<section class="left vertical-align-top">
+
+Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
+Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
+eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
+
+<!-- more -->
+
+Nisi obcaecati numquam incidunt impedit necessitatibus ipsam qui illum,
+praesentium a esse. Cum porro ut id impedit expedita nostrum aut quibusdam,
+accusamus laboriosam maiores nesciunt voluptas deleniti harum doloribus
+tempore quasi fuga accusantium in odit facilis.
+
+</section>
+<section class="right vertical-align-top">
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/Ho-9sPthILc" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+The release webcast recording
+{: .figcaption}
+
+</section>
+<!-- end of intro section (with video) -->
