@@ -7,7 +7,7 @@ author_twitter: Jobvo
 categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "GitLab 9.0 Released with Hierarchical Groups, Deploy Boards, and much more!"
-twitter_image: '/images/tweets/post-screenshot-image.png' # optional
+twitter_image: '/images/tweets/gitlab-9-0-released.jpg'
 extra_css:
   - release-posts.css
 ---
