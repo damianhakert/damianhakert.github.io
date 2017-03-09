@@ -37,6 +37,46 @@ tempore quasi fuga accusantium in odit facilis.
 </section>
 <!-- end of blog post intro -->
 
+
+
+<!-- Replace the blog post intro with the following structure if you want to add the webcast video itself! -->
+
+<!-- uncomment in order to use! -->
+
+<!--
+<section class="left vertical-align-top">
+
+Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
+Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
+eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
+-->
+
+<!-- more -->
+
+<!--
+Nisi obcaecati numquam incidunt impedit necessitatibus ipsam qui illum,
+praesentium a esse. Cum porro ut id impedit expedita nostrum aut quibusdam,
+accusamus laboriosam maiores nesciunt voluptas deleniti harum doloribus
+tempore quasi fuga accusantium in odit facilis.
+
+</section>
+
+<section class="right vertical-align-top">
+
+<figure class="video_container">
+  <iframe src="YOUTUBE_URL" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+The release webcast recording
+{: .figcaption}
+
+</section>
+-->
+
+<!-- end of replace blog post intro because of video url -->
+
+
+
 <!-- MVP section -->
 <section class="mvp">
 
