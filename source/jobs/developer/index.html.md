@@ -116,9 +116,7 @@ for example:
 ## Security Specialist
 
 An Security Specialist is a developer who focuses on ensuring that
-GitLab and associated applications are as secure as possible.
-
-Requirements:
+GitLab and associated applications are as secure as possible. The Security Specialist works in close collaboration with the [Security Lead](https://about.gitlab.com/jobs/security-engineer) and has the following set of skills, experience, and responsibilities:
 
 1. Technical Skills
     * Ability to discover and patch SQLi, XSS, CSRF, SSRF, authentication and
