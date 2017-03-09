@@ -205,6 +205,8 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 
 ## Instructions
 
+This is how the post will look like: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/images/new-release-post-example.jpg
+
 1. Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts
 2. Include in the same MR an update to data/promo.yml:
 
@@ -236,7 +238,7 @@ Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-w
 5. Features:
   - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
   - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
-  - Apply the classes `{: .ce-ee}` or `{: .ee}` to features' headings accordingly.
+  - Apply the classes `{: .ce-ee}` (CE features), `{: .ees}` (EE Starter features), or `{: .eep}` (EE Premium features) to features' headings accordingly.
 
 6. Aligning content to the top:
 
@@ -263,8 +265,9 @@ Enter description
 
 Once the release webcast is published on YouTube, if you want to include the recording
 into the blog post, replace the section "blog post intro" with the following block.
+
 Don't forget to replace the Lorem Ipsum text with the actual intro. For the video tag,
-replace only the video URL.
+replace **only** the video URL.
 
 <!-- intro section (with video) -->
 <section class="left vertical-align-top">
