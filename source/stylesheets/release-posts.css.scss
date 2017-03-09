@@ -54,7 +54,7 @@ $badge-color-ee: #51a7e0;
     }
 
     @media (min-width: $screen-lg-min) {
-      span:nth-child(-n+3) {
+      span {
         font-size: 26px;
       }
     }
