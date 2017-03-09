@@ -35,6 +35,7 @@ title: "Sales Handbook"
 * [SDR Handbook](/handbook/sales/sdr)
 * [GitLab vs. Atlassian Cost Comparison](https://docs.google.com/spreadsheets/d/1uX4uo87rDaTQmsNx98nWeMH7cjtAYSM31J51kClBQ2g/edit#gid=0)
 * [Competitive Battlecards](https://docs.google.com/document/d/1zRIvk4CaF3FtfLfSK2iNWsG-znlh64GNeeMwrTmia_g/edit)
+* [Who to go to to ask Questions or Give Feedback on a GitLab feature](https://about.gitlab.com/handbook/product/#who-to-talk-to-for-what)
 
 
 ### Sales Resources outside of the Sales Handbook
