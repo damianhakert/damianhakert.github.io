@@ -45,18 +45,6 @@
   }
 }
 
-.gitlab-version-section {
-  h1 {
-    color: $color-primary-alt;
-    font-weight: 300;
-  }
-
-  h4 {
-    color: $color-gray;
-    font-weight: 300;
-  }
-}
-
 .cta-btn {
   padding: 0 15px;
   font-size: 18px;
@@ -364,21 +352,6 @@
   .feature-gallery {
     .slider-dots {
       margin-top: -25px;
-    }
-  }
-
-  .gitlab-version-section {
-    h1 {
-      font-size: 36px;
-    }
-
-    h4 {
-      margin-top: 30px;
-    }
-
-    a {
-      margin-top: 30px;
-      text-decoration: underline;
     }
   }
 

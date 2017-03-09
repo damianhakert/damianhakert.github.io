@@ -30,6 +30,12 @@
   .landing-hero {
     margin: 10px 0 50px;
 
+    &.research {
+      svg {
+        max-width: 60%;
+      }
+    }
+
     path {
       fill: $color-secondary;
     }
@@ -56,12 +62,8 @@
 
 .splash-container {
   position: relative;
+  padding-top: 30px;
   padding-bottom: 30px;
-
-  @media (max-width: $screen-sm-max) {
-    padding-bottom: 0;
-  }
-
 }
 
 .dev-cycle {
@@ -264,7 +266,7 @@
   border-bottom: 1px solid $landing-organization-color;
 }
 
-.idea-to-production {
+.section-purple {
   background-color: $color-primary-alt;
   padding: 100px 0 60px;
   position: relative;
@@ -289,7 +291,7 @@
     }
   }
 
-  .tools-row {
+  .flex-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -308,7 +310,7 @@
 
   @media (max-width: $screen-sm-max) {
 
-    .tools-row {
+    .flex-row {
       display: block;
     }
 
