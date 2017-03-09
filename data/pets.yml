@@ -161,7 +161,13 @@
   picture: ripley.png
   human: Scott G
   story: Ripley is an avid squirrel stalker and tuna fish officianado.  When not sleeping for 18 hours a day, you can find her intently staring at you until you pat her on the head.
-- name: You?
+- name: Bella       
+  picture: Bella.jpg
+  human: John M
+  story: Bella is a Bernese Mountain Dog and is the sweetest and most loving dog out there. She loves to play in the leaves in the fall.
+
+
+name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
 
