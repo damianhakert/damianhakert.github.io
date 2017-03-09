@@ -51,3 +51,41 @@ The customer will need to run a backup of their existing instance by using the [
    1. Start GitLab - `sudo gitlab-ctl start`
 1. Check the instance is online by visiting it directly in your web browser. 
 1. Email the customer requesting they check that all data is present. 
+
+#### Google Drive
+
+1. Request the customer shares the link with `@gitlab.com` email account
+1. SSH into GitHost instance
+1. [Download](https://github.com/prasmussen/gdrive#downloads) the gdrive binary. Use `gdrive-linux-x64` as GitHost instances are x64. Set the correct permissions.
+
+   ```
+    curl -L -o "gdrive-linux-x64" 'https://docs.google.com/uc?export=download&id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA'
+    chmod 777 gdrive-linux-x64
+   ```
+
+1. Authenticate with Google drive (follow the instructions)
+
+   ```
+   ./gdrive-linux-x64 about
+   ```
+
+1. Determine the Google Drive file ID. As an example the fileID for the link `https://drive.google.com/open?id=0B7_OwkDsUIgFWXA1B2FPQfV5S8H`, is `0B7_OwkDsUIgFWXA1B2FPQfV5S8H` (the string after `?id=`)
+
+1. Download the file using gdrive
+
+   ```
+   ./gdrive-linux-x64 download <FILEID>
+   ```
+
+1. Clean up
+
+   **Remove gdrive**
+
+   ```
+   rm gdrive-linux-x64
+   rm -R ~/.gdrive # this is important as it contains the authentication token
+   ```
+
+   **Revoke permissions**
+
+   Visit: https://security.google.com/settings/security/permissions and revoke permissions for the "GDrive App"

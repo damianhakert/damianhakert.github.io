@@ -1,0 +1,17 @@
+- if current_article
+  - prev_article = current_article.previous_article
+  - next_article = current_article.next_article
+
+  - if prev_article || next_article
+    %nav{ "aria-label" => "Blog post pager" }
+      %ul.pager
+        - if prev_article
+          %li.pull-left
+            = link_to prev_article.url, title: prev_article.title do
+              %i.fa.fa-chevron-left
+              Previous
+        - if next_article
+          %li.pull-right
+            = link_to next_article.url, title: next_article.title do
+              Next
+              %i.fa.fa-chevron-right

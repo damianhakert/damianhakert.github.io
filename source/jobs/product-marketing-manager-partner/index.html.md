@@ -29,7 +29,7 @@ and channel partners.
 * A proven track record for creating compelling joint positioning and messaging
 * Strong communication skills without a fear of over communication. This role will require effective collaboration and coordination across internal and external contributors
 * Extremely detail-oriented and organized, able to manage multiple projects to meet deadlines
-* You share our [values](/handbook/#values), and work in accordance with those values
+* You share our [values](/handbook/values), and work in accordance with those values
 * BONUS: A passion and strong understanding of the industry and our mission
 
 Avoid the [confidence gap](http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/); you do not have to match all the listed requirements exactly to apply.

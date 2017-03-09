@@ -21,4 +21,4 @@ The User Experience Researcher reports to the UX Lead.
 * A minimum of 2+ years experience as a user researcher
 * Degree in cognitive psychology, human factors, human-computer interaction, or related field.
 * Collaborative team spirit with great communication skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.

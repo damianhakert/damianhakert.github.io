@@ -91,7 +91,8 @@ helpers do
 
   def job_for_current_page
     open_jobs.detect do |job|
-      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+      job_desc = job.description.sub(%r{\A/}, '').split('/')
+      File.join(job_desc) == File.dirname(current_page.request_path)
     end
   end
 
@@ -122,6 +123,13 @@ helpers do
     link_to(link_text, url, options)
   end
 
+  def full_url(current_page)
+    "#{data.site.url}#{current_page.url}"
+  end
+
+  def current_version
+    ReleaseList.new.release_posts.first.version
+  end
 end
 
 # Build-specific configuration
@@ -148,6 +156,12 @@ end
 
 org_chart = OrgChart.new
 proxy "/team/structure/index.html", "/team/structure/template.html", locals: { team_data_tree: org_chart.team_data_tree }, ignore: true
+
+# Proxy comparison PDF pages
+data.comparisons.each do |key, comparison|
+  file_name = key.dup.gsub(/_/, '-')
+  proxy "/comparison/pdfs/#{file_name}.html", "/comparison/pdfs/template.html", locals: { comparison_block: comparison }, ignore: true
+end
 
 page '/404.html', directory_index: false
 

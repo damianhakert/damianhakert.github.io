@@ -1,0 +1,72 @@
+@import "variables";
+
+body {
+  padding-top: 0;
+  background-color: $color-white;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-size: contain;
+  background-color: $color-primary;
+
+  .inner-header-content {
+    padding: 0 60px;
+
+    h1 {
+      margin: 0;
+      color: $color-white;
+      font-size: 36px;
+      font-weight: 300;
+    }
+
+    h2 {
+      margin: 0;
+      color: $color-secondary;
+      font-size: 18px;
+    }
+
+    svg {
+      margin-top: 12px;
+    }
+
+    .wordmark {
+      fill: $color-white;
+    }
+  }
+}
+
+.top-content {
+  padding: 30px 60px;
+
+  h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
+.blog-entry {
+  max-width: 100%;
+  padding: 0 60px;
+}
+
+.comparison-table {
+  padding-top: 0;
+
+  tr:first-child td {
+    border-top: 0;
+
+    svg {
+      height: 50px;
+      width: 100px;
+    }
+  }
+}

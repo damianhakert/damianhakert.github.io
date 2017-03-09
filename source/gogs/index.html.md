@@ -17,10 +17,6 @@ suppress_header: true
 
 [Gogs](https://gogs.io/) is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly.
 
-## GitLab's Support of Gogs
-
-GitLab is a strong believer in Gogs and thinks it fills an important role. We're proud to have the only full-time contributor to the project, [Kim Carlbäcker](https://twitter.com/bkcsoft), on our team.
-
 ## Shared Features
 
 Both Gogs & GitLab share the following features and capabilities:

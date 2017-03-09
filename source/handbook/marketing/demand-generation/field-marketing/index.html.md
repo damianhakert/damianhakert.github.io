@@ -181,7 +181,7 @@ If you have any questions please email events@gitlab.com.
 
 * We aim to have our swag delight and/ or be useful.
 * We aim to make limited edition and themed swag for the community to collect. Bigger events will have custom tanuki stickers in small runs, only available at their specific event.
-* We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
+* We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](http://get.printfection.com/yhyyy/0374721511)
 * With a web shop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
 * We get a lot of requests to send swag, and we try to respond to them all. 

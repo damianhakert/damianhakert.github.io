@@ -32,11 +32,29 @@ The following set of steps should suffice:
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier). The one exception to the curly bracket find and replace process is the Belgian contract, the fields that need to be edited are highlighted.
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/#prep-contracts).
-1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/sop/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/signing-legal-documents) ).
 1. If you are processing a GitLab Inc. contractor agreement, also send a W9. The template can be found in HelloSign.
 1. Once the contract is signed, place the signed pdf in the team member's folder in BambooHR.
 1. Delete the google doc that was used for the preparation of the contract; it is superseded by the signed version in BambooHR.
 
+### Using HelloSign
+
+When we need [contracts to be signed](https://about.gitlab.com/handbook/signing-legal-documents) we use [HelloSign](https://hellosign.com).
+Follow these steps to send out a signature request.
+
+1. Choose who needs to sign. (just me, me & others, or just others)
+1. Upload your document that needs signing
+1. Enter the names of the people that need to sign
+1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
+1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory.
+1. Click on "Prepare Docs for signing"
+1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
+1. For GitLab Inc. agreements, add a required text box to Exhibit A, and a supplemental larger text box below for a comment that is not required.
+1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
+1. Request Signature.
+
+Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
 ## Employment and Contractor Agreements<a name="employee-contractor-agreements"></a>
 
@@ -48,6 +66,7 @@ The following contracts are in Google docs that are viewable by anyone with the 
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
 - [GitLab Ltd, employee contract with PIAA and Joint NIC agreements](https://docs.google.com/document/d/1H8BhvyrBTPuQ4_QGo08wIio38XISndqlONi9eqjdj2Y/edit#heading=h.bfk8qrda3d2r)
+ - [GitLab BV Belgium, employee contract](https://docs.google.com/document/d/1eLTL6vgVluDUNpOnYtsjfB7wZcGm6TliGZrGByjon0M/edit)
 
 ## Core Team Member Non-Disclosure Agreements <a name="core-team-nda"></a>
 
@@ -55,7 +74,7 @@ Core team members are an important part of the GitLab community. In order for th
 
 ## Letter of Adjustment <a name="letter-of-adjustment"></a>
 
-When a team member receives a change in compensation, People Ops will send a [Letter of Adjustment](https://docs.google.com/document/d/1lxx92gGXL6hltRxKn0I6D8a8dHtvFBnElDf7dAlxkkQ/edit) signed by the Sr. Director of People Operations and the Team Member.
+When a team member receives any change in compensation we need to create a [Letter of Adjustment](https://about.gitlab.com/handbook/contracts/#letter-of-adjustment) instead of staging an entirely new contract. This document is signed by the Sr. Director of People Operations and the team member through HelloSign. Once the document has been signed, it is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab. Also, file any other supporting documentation, for example, an email with the approval to change the compensation. Information in BambooHR, TriNet, and HRSavvy should also be updated, if applicable.
 
 ## Usability Testing Consent<a name="usability-consent"></a>
 

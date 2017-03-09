@@ -8,7 +8,12 @@
           %a.cover{ href: article.url, style: "background-image: url(#{image_title});" }
             .overlay
               %h2
-                = article.title
+                - if article.data.release_number
+                  GitLab
+                  = article.data.release_number
+                  released
+                - else
+                  = article.title
           .author
             %strong
               - guest = article.data.guest

@@ -129,6 +129,6 @@ be asking questions about it.
 
 ### Final Stage
 
-- [ ] Ask Ernst and Kamil to look over this list, send a MR to delete this line after they both satisfied with the list
+- [ ] Ask Lee and Kamil to look over this list, send a MR to delete this line after they both satisfied with the list
 - [ ] Send a MR to declare yourself a **CI Expert** on the team page
 ```

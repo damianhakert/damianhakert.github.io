@@ -1,3 +1,10 @@
+function openSocialLink(link, width, height) {
+  var left = (window.innerWidth / 2) - (width / 2);
+  var top = (window.innerHeight / 2) - (height / 2);
+
+  window.open(link.href, 'targetWindow', 'menubar=no,status=no,resizable=no,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left);
+}
+
 function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1);
   var sURLVariables = sPageURL.split('&');
@@ -31,9 +38,19 @@ $(function() {
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
       $tables = $('table'),
+      $testimonialsSlider = $('#js-testimonials-slider'),
       internalNavigationEvent = 'onpopstate' in window ? 'popstate' : 'hashchange';
 
   $("input").not("[type=submit]").jqBootstrapValidation();
+
+  if ($testimonialsSlider.length) {
+    $testimonialsSlider.slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true
+    });
+  }
 
   if (getUrlParameter('s') == 'ph' && $ci.length) {
     $ci.append('<br><br>Hello, Product Hunters!<br><br> Get 75% off a GitLab.com bronze subscription forever! <br> Use the code: producthunt75');

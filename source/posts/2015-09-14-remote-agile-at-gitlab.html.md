@@ -81,7 +81,7 @@ work as a hard rule and also depends on your skills and responsibilities:
 1. Growth efforts
 1. Other work
 
-Find this [in our handbook](https://about.gitlab.com/handbook/#gitlab-workflow).
+Find this [in our handbook](https://about.gitlab.com/handbook/communication/#gitlab-workflow).
 
 ### Known issues
 

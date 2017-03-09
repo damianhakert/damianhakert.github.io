@@ -1,4 +1,93 @@
 (function () {
+  $('.formula').after('<div class="generate-url"></div>')
+
+  var paramsFetcher = function() {
+    var regex = /[?&]([^=#]+)=([^&#]*)/g;
+    var params = {};
+    var match = '';
+
+    while(match = regex.exec(window.location.href)) {
+      params[match[1]] = match[2];
+    }
+
+    return (Object.keys(params).length > 0) ? params : null;
+  };
+
+  var experienceKey = {
+    0: { min: 0.8, max: 1.2, text: 'Experience range' },
+    1: { min: 0.8, max: 0.9, text: 'Little experience' },
+    2: { min: 0.9, max: 1.0, text: 'Below average experience' },
+    3: { min: 1.0, max: 1.1, text: 'Above average experience' },
+    4: { min: 1.1, max: 1.2, text: 'A lot of experience' }
+  };
+
+  var levelKey = {
+    Junior: 0.8,
+    Intermediate: 1.0,
+    Senior: 1.2,
+    Lead: 1.4,
+    0.8: 'Junior',
+    1: 'Intermediate',
+    1.2: 'Senior',
+    1.4: 'Lead'
+  };
+
+  var cityStateParser = function(validParams, params, param) {
+    var cityState = params[param];
+
+    var complexCityState = function() {
+      var state = ", " + cityState.split("_")[1];
+      var city = cityState.split("_")[0];
+      validParams[param] = city.split("-").join(" ") + state;
+    };
+
+    var simpleCityState = function() {
+      validParams[param] = cityState.split("-").join(" ");
+    };
+
+    (cityState.indexOf("_") >= 0) ? complexCityState() : simpleCityState();
+  };
+
+  var paramsParser = function(params) {
+    if (!params) return null;
+    var validParams = {};
+
+    Object.keys(params).forEach(function(param) {
+      switch (param) {
+        case "city":
+          return cityStateParser(validParams, params, param);
+        case "country":
+          var state = params[param];
+          return validParams[param] = state.split("-").join(" ");
+        case "experience":
+          return validParams["experience"] = experienceKey[
+            parseFloat(params[param])
+          ];
+        case "level":
+          return validParams['level'] = levelKey[params[param]];
+        case "low":
+          return validParams['low'] = parseInt(params[param])
+        case "high":
+          return validParams['high'] = parseInt(params[param])
+        default:
+          return null;
+      }
+    });
+
+    var defaultSalary = $('.salary-container').data('salary');
+
+    validParams['salary'] = parseFloat(defaultSalary);
+
+    var paramsLength = Object.keys(validParams).length
+
+    if (paramsLength > 0 && paramsLength < 7) {
+      $('.generate-url').html('<h4 class="alert alert-warning">Not enough parameters were provided</h4>')
+      return null
+    }
+
+    return paramsLength > 6 ? validParams : null;
+  };
+
   var salaryContainer = '.salary-container';
   var compensationAmount = salaryContainer + ' .compensation .amount';
   var defaultValue = '--';
@@ -49,8 +138,14 @@
   }
 
   this.SalaryCalculator = (function() {
-    function SalaryCalculator() {
+    function SalaryCalculator(params) {
       this.bindEvents();
+
+      this.params = params;
+
+      if (this.params) {
+        this.render(this.params);
+      }
     }
 
     SalaryCalculator.prototype.bindEvents = function() {
@@ -237,8 +332,10 @@
       return deferred.promise();
     }
 
-    SalaryCalculator.prototype.render = function() {
-      var input = this.getElementValues();
+    SalaryCalculator.prototype.render = function(params) {
+      // if params is an event then make params false so that values equals what it should
+      if (params && params.type) params = false;
+      var input = params || this.getElementValues();
 
       function renderData() {
         if (input.country && input.city && input.level && input.experience.min && input.experience.max) {
@@ -246,8 +343,8 @@
         } else {
           this.renderInvalidCompensation();
         }
-        this.renderFormula();
-        this.renderContractType();
+        this.renderFormula(input);
+        this.renderContractType(input);
       }
 
       if (this.data) {
@@ -255,6 +352,7 @@
       } else {
         $.when(this.getData()).then(function() {
             renderData.call(this);
+            if (this.params) this.setElementValues();
           }.bind(this),
           this.renderInvalidCompensation.bind(this));
       }
@@ -278,7 +376,110 @@
 
       var min = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.min);
       var max = this.calculateCompensation(benchmark, rentIndex, marketAdjustment, levelIndex, contract.factor, input.experience.max);
-      $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
+
+      var calculatedTrue = (min && max);
+
+      var valid;
+      if (this.params) {
+        var paramsExpTotal = this.params.low + this.params.high;
+        var calculatedExpTotal = min + max;
+
+        if (paramsExpTotal === calculatedExpTotal) {
+          valid = true;
+        } else {
+          valid = false;
+        }
+      } else {
+        // error message won't render if starting from scratch
+        valid = true;
+      }
+
+      if (calculatedTrue) {
+        $(compensationAmount).text(this.formatAmount(min) + ' - ' + this.formatAmount(max) + ' USD');
+        this.renderCompensationUrl(input, { min: min, max: max }, valid);
+      }
+    }
+
+    SalaryCalculator.prototype.renderCompensationUrl = function(input, salary, valid) {
+      var nonMatchError = function(valid) {
+        return !valid
+          ? '<h4 class="alert alert-warning">The salary provided does not match the salary calculated</h4>'
+          : '';
+      }
+
+      var rootUrl = function() {
+        var url = window.location.href;
+        if (url.indexOf('?') >= 0) {
+          url = url.split("?")[0];
+        }
+        return url;
+      }
+
+      var experience = function() {
+        var experienceIndex;
+        // keys on experienceKey to match
+        [0, 1, 2, 3, 4]
+          .forEach(function(idx) {
+            var min = (parseFloat(input.experience.min) === experienceKey[idx].min);
+            var max = (parseFloat(input.experience.max) === experienceKey[idx].max);
+            if (min && max) experienceIndex = idx;
+          });
+
+        return experienceIndex;
+      };
+
+      // keys on levelKey to match
+      var levelNumber = function() {
+        return [0.8, 1.0, 1.2, 1.4]
+          .map(function(key) {
+            var valid = (parseFloat(input.level) === parseFloat(key));
+            if (valid) return levelKey[parseFloat(key)];
+            return null;
+          })
+          .find(function(level) {
+            return level !== null;
+          });
+      };
+
+      var city = function() {
+        var parseCity = input.city.split(", ").join("_");
+        return parseCity.split(" ").join("-");
+      }
+
+      var country = function() {
+        var parseCountry = input.country.split(", ").join("_");
+        return parseCountry.split(" ").join("-");
+      }
+
+      var link = function() {
+        return rootUrl() + '?city=' + city() + '&country=' + country()
+          + '&experience=' + experience() + '&level=' + levelNumber()
+          + '&low=' + salary.min + '&high=' + salary.max;
+      }
+
+      var copySection = function(valid) {
+        $('.generate-url').html(
+          '<div><h4>Share compensation url - '
+          + '<a style="cursor: pointer;" class="copy-me" data-clipboard-text="' + link() + '"'
+          + 'data-placement="top">Copy Link</a>'
+          + nonMatchError(valid)
+          + '</h4><input style="cursor: default;" class="comp-url form-control" value="'
+          + link() + '"disabled="true">'
+          + '</input></div><br>'
+        );
+      };
+
+      copySection(valid);
+      new Clipboard('.copy-me');
+
+      $(document).on('click', '.copy-me', function(e) {
+        setTimeout(function() {
+          e.target.parentElement.innerHTML = 'Share compensation url - Copied!'
+          setTimeout(function() {
+            copySection(valid);
+          }, 3000);
+        }, 100);
+      })
     }
 
     SalaryCalculator.prototype.renderContractType = function() {
@@ -299,8 +500,10 @@
       $container.removeClass('hidden');
     }
 
-    SalaryCalculator.prototype.renderFormula = function() {
-      var values = this.getElementValues();
+    SalaryCalculator.prototype.renderFormula = function(params) {
+      // if params is an event then make params false so that values equals what it should
+      if (params && params.type) params = false;
+      var values = params || this.getElementValues();
       var rentIndex = this.calculateRentIndex(values.city, values.country);
       var marketAdjustment = this.calculateMarketAdjustment(values.city, values.country);
       var contract = this.calculateContractFactor(values.country);
@@ -331,6 +534,35 @@
           max: $(salaryContainer + ' .experience .title').data('max') || ''
         }
       };
+    }
+
+    SalaryCalculator.prototype.setElementValues = function() {
+      var params = this.params;
+
+      $(salaryContainer + ' .country .title').text(params.country || '--');
+      $(salaryContainer + ' .country .title').data().selected = params.country;
+      $(salaryContainer + ' .city .title').text(params.city || '--');
+      $(salaryContainer + ' .city .title').data().selected = params.city;
+
+      var city = this.data.numbeo.find(function(data) {
+        return data.city === params.city
+      });
+
+      $(salaryContainer + ' .city .subtitle').text(parseFloat((city.rentIndex * 0.01).toFixed(2)));
+      $(salaryContainer + ' .city .dropdown-menu-toggle').removeClass('disabled');
+
+      var dataSelected = (params.experience.min === 1.0 ? "1.0" : params.experience.min) + " to " + params.experience.max;
+      $(salaryContainer + ' .experience .title').text(params.experience.text);
+      $(salaryContainer + ' .experience .subtitle').text(dataSelected);
+      $(salaryContainer + ' .experience .title').data('min', params.experience.min);
+      $(salaryContainer + ' .experience .title').data('max', params.experience.max);
+      $(salaryContainer + ' .experience .title').data('selected', dataSelected);
+
+      $(salaryContainer).data('salary', params.salary)
+
+      $(salaryContainer + ' .level .title').data('selected', params.level);
+      $(salaryContainer + ' .level .subtitle').text(params.level);
+      $(salaryContainer + ' .level .title').text(levelKey[params.level]);
     }
 
     SalaryCalculator.prototype.calculateRentIndex = function(city, country) {
@@ -395,5 +627,12 @@
     return SalaryCalculator;
   })();
 
-  new SalaryCalculator();
+  var urlParams = paramsFetcher();
+  var parsedParams = paramsParser(urlParams);
+
+  if (parsedParams) {
+    new SalaryCalculator(parsedParams);
+  } else {
+    new SalaryCalculator(null);
+  }
 })();

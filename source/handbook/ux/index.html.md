@@ -7,13 +7,22 @@ title: "UX Team"
 
 The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our principles, approach, and perspective to the experience of GitLab. Help keep this document up to date and correct by making [merge requests](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/).
 
+## UX Strategy
+
+Please see the [2017 UX Strategy](/handbook/ux/strategy) to view the evolving UX vision for GitLab.
+
 ## UX Workflow 
 
 ### Designer
 
 Issues should be tagged with 'UX' if UX work is required.
 
-1. Work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux). Prioritize issues scheduled for the current milestone. If all the issues for the current milestone have been addressed, seek out issues tagged 'coming soon'.
+1. Work on issues tagged with 'UX', in the following order:
+    1. **Scheduled for current release**
+    2. **Scheduled for next release** 
+    3. Tagged with **Coming soon**, **To schedule**, or **Shortlist**
+    4. Issues with high **community involvement** (number of comments or thumbsup)
+    5. Everything else
 1. UX issues have a tendency to expand in scope. Aggressively split off new issues, ideas, and concepts into their own issues. Large issue become really challenging to drive decisions in and make progress on. If you are ever unsure how to split apart large issues, work with the UX Lead.
 	* Developers should be able to ship a product within one life cycle. If a feature is too large to ship within one release, work together to determine the best way of splitting the feature into smaller segments.
 	* Bring developers into the conversation early. Ask for feedback on how to split up features while still maintaining the integrity of the UX.

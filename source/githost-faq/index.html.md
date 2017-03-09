@@ -90,6 +90,10 @@ Yes, we do. And you can also hook up runners from anywhere.
 Yes, you can use backup and restore but this requires the intervention of a
 Service Engineer. However, we are working to make this easier.
 
+### Can I migrate my projects from gitlab.com to GitHost?
+
+Yes.  Please see the [documentation on migrating from GitLab.com](https://about.gitlab.com/githost-faq/migrate_from_gitlab_com.html).
+
 ### Can I apply my GitLab Enterprise Edition subscription for use with GitHost if I decide to move from on-premises hosting?
 
 Yes.

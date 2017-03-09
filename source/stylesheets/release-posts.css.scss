@@ -1,0 +1,383 @@
+@import "variables";
+@import "vendor/bootstrap/bootstrap/variables";
+
+// Release post specific variables
+$badge-color-ce: #5aab6e;
+$badge-color-ees: #51a7e0;
+$badge-color-eep: #0976bc;
+
+.container {
+  max-width: 1680px;
+  margin: auto;
+  padding: 0;
+  width: 90vw;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.blog.article {
+  .cover {
+    height: 100vh;
+  }
+
+  .overlay {
+    background: linear-gradient(0deg, $color-white 35%, $color-transparent-white 55%);
+    border-bottom: 0;
+    height: 100vh;
+  }
+
+  .wrapper.header {
+    max-width: none;
+    padding: 10vh 20% 0;
+    text-align: center;
+    color: $blog-color-text;
+
+    .date,
+    .author a {
+      color: $blog-color-text;
+      font-weight: normal;
+    }
+
+    .author-gitlab i,
+    .author-twitter i {
+      color: $blog-color-text;
+
+      &:hover,
+      &:focus {
+        color: $color-white;
+      }
+    }
+
+    @media (max-width: $screen-sm-min) {
+      padding: 10vh 10% 0;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      span {
+        font-size: 26px;
+      }
+    }
+
+    .release-number {
+      font-size: 35vh;
+      color: $color-white;
+      display: block;
+      text-align: center;
+      line-height: 1.2;
+
+      @media (max-width: $screen-lg-min) {
+        font-size: 30vh;
+      }
+
+      @media (max-width: $screen-sm-min) {
+        font-size: 30vw;
+      }
+
+      @media (max-width: $screen-xs-min) {
+        font-size: 150px;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      font-size: 8vh;
+      line-height: 1.25;
+      position: absolute;
+      // margin: auto;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      top: 60%;
+      color: $blog-color-text;
+
+      @media (max-width: $screen-lg-min) {
+        font-size: 6vh;
+      }
+
+      @media (max-width: $screen-sm-min) {
+        font-size: 7vw;
+      }
+
+      @media (max-width: $screen-xs-min) {
+        font-size: 32px;
+        width: 90%;
+      }
+    }
+
+    .description {
+      display: none;
+    }
+  }
+
+  .wrapper.body {
+    max-width: none;
+    padding: 0 5% 5%;
+
+    .left p:first-child,
+    .right p:first-child {
+      margin-top: 0;
+    }
+
+    .content {
+      max-width: 1680px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      h2 {
+        font-size: 44px;
+        font-weight: normal;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 1.36em;
+        align-items: center;
+      }
+
+      h3 {
+        margin-top: 30px;
+        font-weight: normal;
+        font-size: 33px;
+      }
+
+      h4 {
+        font-size: 24px;
+        font-weight: normal;
+      }
+
+      .webcast-button {
+        color: $color-white;
+      }
+    }
+
+    .mvp {
+      order: 1;
+      text-align: center;
+      padding: 25px 15px 50px;
+      background: $body-bg;
+      min-width: calc(100vw - 16px);
+      font-size: 26px;
+      margin: 0 0 100px -5vw;
+      box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
+
+      h2 {
+        font-size: 33px;
+        display: block;
+      }
+
+      @media (max-width: $screen-sm-min) {
+        font-size: 18px;
+      }
+
+      h2,
+      p {
+        max-width: 900px;
+        text-align: center;
+        margin: 20px auto;
+      }
+
+      img {
+        height: 200px;
+
+        @media (max-width: $screen-sm-min) {
+          height: 150px;
+        }
+
+        @media (max-width: $screen-xs-min) {
+          height: 100px;
+        }
+      }
+    }
+
+    .social {
+      padding: 15px 0 50px;
+    }
+  }
+
+  .signup {
+    max-width: none;
+
+    .panel {
+      padding: 0 5%;
+      box-shadow: inset 0 45px 0 0 $panel-default-heading-bg, inset 0 46px 0 0 $color-gray-medium;
+
+      @media (max-width: $screen-sm-min) {
+        padding: 0 15px;
+      }
+
+      .panel-body,
+      .panel-heading {
+        max-width: 1680px;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+%ce-placeholder {
+  content: "CE";
+  color: $color-white;
+  background: $badge-color-ce;
+  order: 1;
+  font-size: .68em;
+  padding: .3em .4em;
+  border-radius: 3px;
+  font-weight: 600;
+  height: 50px;
+  width: 56px;
+  margin: 10px 0 10px 10px;
+  align-self: center;
+}
+
+.ees::before {
+  @extend %ce-placeholder;
+  content: "EES";
+  background: $badge-color-ees;
+  width: 73px;
+}
+
+.eep::before {
+  @extend %ce-placeholder;
+  content: "EEP";
+  background: $badge-color-eep;
+  width: 73px;
+}
+
+.ce-ee::before {
+  @extend %ce-placeholder;
+}
+
+.ce-ee::after {
+  @extend %ce-placeholder;
+  content: "EE";
+  background: $badge-color-ees;
+}
+
+.figcaption {
+  font-style: italic;
+}
+
+.note {
+  order: 1;
+  width: 100%;
+  border-top: 1px solid $blog-color-overlay-border;
+  padding-top: 20px;
+}
+
+.left {
+  padding: 0 5% 0 0;
+}
+
+.right {
+  padding: 0;
+}
+
+.left,
+.right {
+  order: 1;
+  align-self: center;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  text-align: justify;
+  margin-right: -4px;
+  margin-bottom: 100px;
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    justify-content: flex-start;
+  }
+
+  @media (max-width: $screen-md-min) {
+    display: block;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 100px;
+
+    h2 {
+      justify-content: center;
+      text-align: center;
+    }
+
+    img {
+      width: 125%;
+      max-width: none;
+      margin: 0;
+      margin-left: -12.5%;
+    }
+  }
+
+  @media (max-width: $screen-sm-min) {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+
+.small-reverse {
+  order: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media (max-width: $screen-md-min) {
+    .right {
+      order: 0;
+    }
+  }
+}
+
+.middle {
+  order: 1;
+  text-align: justify;
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 100px;
+
+  @media (max-width: $screen-sm-min) {
+    width: 100%;
+  }
+
+  h2 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  img {
+    width: 125%;
+    max-width: none;
+    margin: 50px 0;
+    margin-left: -12.5%;
+
+    @media (max-width: $screen-sm-min) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+
+hr {
+  order: 1;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+  align-self: flex-start;
+}

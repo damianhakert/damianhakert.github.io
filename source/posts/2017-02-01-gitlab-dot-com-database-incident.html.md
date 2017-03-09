@@ -7,7 +7,7 @@ image_title:
 description: Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com.
 ---
 
-Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com. Git/wiki repositories and self hosted installations were not affected. Losing production data is unacceptable and in a few days we'll post the 5 why's of why this happened and a list of measures we will implement.
+Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com. Git/wiki repositories and self-hosted installations were not affected. Losing production data is unacceptable and in a few days we'll publish a post on why this happened and a list of measures we will implement to prevent it happening again.
 
 _**Update 6:14pm UTC: GitLab.com is back online**_
 
@@ -22,13 +22,13 @@ Read below for a brief summary of the events. You’re also welcome to view [our
 ## First Incident
 
 
-At 2017/01/31 6pm UTC, we detected that spammers where hammering the database by creating snippets, making it unstable. We then started troubleshooting to understand what the problem was and how to fight it.
+At 2017/01/31 6pm UTC, we detected that spammers were hammering the database by creating snippets, making it unstable. We then started troubleshooting to understand what the problem was and how to fight it.
 
 
 
 ![](db_incident/snippets.png)
 
-At 2017/01/31 9pm UTC, this escalated, causing a lockup on writes on the database, this caused some downtime.
+At 2017/01/31 9pm UTC, this escalated, causing a lockup on writes on the database, which caused some downtime.
 
 ![](db_incident/locks.png)
 
@@ -42,7 +42,7 @@ At 2017/01/31 9pm UTC, this escalated, causing a lockup on writes on the databas
 
 ## Second Incident
 
-At 2017/01/31 10pm UTC, we got paged because DB Replication lagged too far behind, effectively stopping. This happened because there was a spike in writes that were not processed on time by the secondary database.
+At 2017/01/31 10pm UTC, we got paged because DB Replication lagged too far behind, effectively stopping. This happened because there was a spike in writes that were not processed ontime by the secondary database.
 
 ![](db_incident/used.png)
 
@@ -51,7 +51,7 @@ At 2017/01/31 10pm UTC, we got paged because DB Replication lagged too far behin
 
 ### Actions taken
 
-- Attempts to fix `db2`, it’s lagging behind by about 4 GB at this point
+- Attempt to fix `db2`, it’s lagging behind by about 4 GB at this point
 - `db2.cluster` refuses to replicate, `/var/opt/gitlab/postgresql/data` is wiped to ensure a clean replication
 - `db2.cluster` refuses to connect to `db1`, complaining about `max_wal_senders` being too low. This setting is used to limit the number of `WAL (= replication)` clients
 - _Team-member-1_ adjusts `max_wal_senders` to `32` on `db1`, restarts PostgreSQL
@@ -110,4 +110,4 @@ Below a graph showing the time of deletion and subsequent copying in of data.
 
 ![](db_incident/delete.png)
 
-[Also, we'd like to thank the amazing support we've received on Twitter and elsewhere through #hugops](https://twitter.com/i/moments/826818668948549632)
+[Also, we'd like to thank everyone for the amazing support we've received on Twitter and elsewhere through #hugops](https://twitter.com/i/moments/826818668948549632)

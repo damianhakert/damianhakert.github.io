@@ -83,7 +83,7 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 
 Notes:
 
-- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page. 
+- We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page.
   > _When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>._ [SEO Guide]
 - Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
   > _The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic._ [W3C]
@@ -216,11 +216,16 @@ This is **bold** and this is _italic_.
 There are a few different ways to display links with markdown markup, but
 to keep some standards, let's try to use the following options only.
 
-Place the identifiers at the end of the file, arrange them in alphabetical order.
-You can group them in different categories, if that's the case. Check
-[this post][ssgs-post-raw] for reference. It's important to organize the links in certain
-order to be easy and quick to find them for both the author and the reviewers.
+### Inline Links
 
+We'd rather use inline links, such as `[Text to display](link)`, as they are easier to maintain.
+Use relative URLs whenever possible.
+
+### Identifiers
+
+When there are **repeated** links across a single page, you can opt for using identifiers.
+
+Place the identifiers at the end of the paragraph (or the section), arranging them in alphabetical order.
 
 ```md
 [Text to display][identifier] will display a link.
@@ -229,9 +234,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too. Must be used for explicit links.
+[This link][] (same as above), has a second pair of empty brakets to indicate that the following parenthesis does not contain a link.
 
-... (page content) ...
+<https://example.com> works too. Must be used for explicit links.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -254,9 +259,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too. Must be used for explicit links.
+[This link][] (same as above), has a second pair of empty brackets to indicate that the following parenthesis does not contain a link.
 
-... (page content) ...
+<https://example.com> works too. Must be used for explicit links.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -268,16 +273,13 @@ order to be easy and quick to find them for both the author and the reviewers.
 </div>
 
 Important notes:
+{: #links-important-notes}
 
-- Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
-- Avoid using other markup syntax for links. Definitely avoid adding the URL in-line, as
-in `[link](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2373#note_12594349)`.
-This syntax works perfectly, but breaks the reading flow, deviating the attention of the reviewer.
-Also, it may cause repetition of the same link through the document.
-- Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
+- {: #note-identifiers} Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
+- {: #note-meaningful-links} Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
-- Check for broken links: <http://www.deadlinkchecker.com/>
+- {: #note-deadlinks-checker} Check for broken links: <http://www.deadlinkchecker.com/>
 
 ----
 
@@ -594,7 +596,7 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's not required
+The heading "On this page" can be adapted to your case, e.g., "In this tutorial", or "In this guide", etc. It's not required
 either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
@@ -627,7 +629,7 @@ so there are situations we can't run from using HTML. With complex tables, that'
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
 then the table body. You can go forward and add a separator to create subsequent table bodies.
 
-However you prepare your table, its design will depend upon on the CSS styles defined for them.
+However you prepare your table, its design will depend upon the CSS styles defined for them.
 
 The last markup `{: .custom-class #custom-id}` **can** be used in case you want to attribute to
 the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attributes).
@@ -765,7 +767,7 @@ end
 </div>
 </div>
 
-### Indented 
+### Indented
 
 Add 4 white spaces before every line:
 
@@ -1670,7 +1672,7 @@ My text in an purple box.
 {: .alert .alert-gitlab-purple}
 ```
 
-### GitLab Webcast Alert Box 
+### GitLab Webcast Alert Box
 
 To be used in a CTA for webcast announcement in blog posts.
 You can use it for other purposes as well. Use it together with the [HMTL parser](#html-parser):
@@ -1794,7 +1796,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 #### Google Slides
 
-Let's exemplify with this [simple presentation]. Follow the steps [above](#embed-documents) to find the iframe:
+Let's exemplify with this [GitLab deck template]. Follow the steps [above](#embed-documents) to find the iframe:
 
 ![Google Slides - Embed iframe](/images/markdown-guide/embed-google-slides.png)
 
@@ -1802,7 +1804,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 ```html
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 ```
 
@@ -1810,7 +1812,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 {: .no_toc}
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 <br>
@@ -1840,7 +1842,7 @@ will have to remove, otherwise the markdown page will be broken.
 {: .alert .alert-warning}
 
 For example, let's say we wanted to include the slides from [Ivan's talk on
-GitLab Pages][slideshare-ivan]. Copying the embed code and stripping everything
+GitLab Pages][slideshare-ivan].  Copying the embed code and stripping everything
 else except from the iframe, would result in this:
 
 ```html
@@ -1937,7 +1939,7 @@ _Regular Code Editors_
 
 _Markdown editors (type and preview simultaneously)_
 
-- Markdown editor for Mac: [Mou]
+- Markdown editors for Mac: [Mou], [iA Writer]
 - In-browser markdown editor: [StackEdit]
 
 If you're not used to writing markdown, those editors can be helpful. Check a screenshot below of a
@@ -1952,7 +1954,8 @@ or out of resources. It works from every major browser and saves automatically y
 
 ----
 
-## Tips &amp; Tricks
+## Complementary Notes
+{: #tips--tricks}
 
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
@@ -1995,8 +1998,10 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [bootstrap]: http://getbootstrap.com/components/#alerts
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
+[GitLab deck template]: https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
-[handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[handbook-writing]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
+[iA Writer]: https://ia.net/writer/
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
 [kramdown]: http://kramdown.gettalong.org/
@@ -2010,7 +2015,6 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
 [SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
-[simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
