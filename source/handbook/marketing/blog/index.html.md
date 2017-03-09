@@ -546,6 +546,7 @@ twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
 guest: true # required when the author is not a GitLab Team Member
+ee_cta: false # required only when we want to not display the EE-trial banner
 ---
 ```
 
@@ -704,6 +705,18 @@ The CTA entry is optional; if you don't need to add any CTA to the hero, just om
 
 This option was introduced in January/2017.
 {:.note}
+
+#### EE-Trial Banner
+
+To not display the EE-trial banner at the blog post, set `ee_cta` to `false` in the frontmatter:
+
+```yaml
+ee_cta: false
+```
+
+It is set to true by default, so there's no need to add `ee_cta: true` to the frontmatter.
+
+Use it wisely; the EE-trial banner is important for Lead Gen.
 
 #### Guest
 
