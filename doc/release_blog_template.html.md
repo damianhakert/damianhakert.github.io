@@ -19,7 +19,7 @@ extra_css:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="intro vertical-align-top">
+<section class="middle vertical-align-top">
 
 Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
 Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
@@ -142,11 +142,11 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 
 ### Upgrade barometer
 
-<!-- 
+<!--
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME **** 
+*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
 -->
 
@@ -196,64 +196,3 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 <!-- end of LAST BLOCK -->
 
 <!-- end of the blog post -->
-
-
-
-
-
-
-<!-- Instructions (delete them when accomplished) -->
-
-1. Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts
-2. Include in the same MR an update to data/promo.yml:
-
-```yaml
-text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-link: '/AAAA/MM/DD/gitlab-x-x-released/'
-```
-
-3. Embedding Videos - replace only the video URL:
-
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-Video caption
-{: .figcaption}
-
-Caption is optional.
-
-Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
-
-4. Screenshots: try to keep the screenshots with the same width for a nicer layout. Add shadow to them whenever they have a white background that can be confused with the post background:
-
-![IMAGE ALT TEXT](IMAGE_URL){: .shadow}
-
-5. Features:
-  - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
-  - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
-  - Apply the classes `{: .ce-ee}` or `{: .ee}` to features' headings accordingly.
-
-6. Align content to the top:
-
-<!-- left aligned section block -->
-
-<section class="left vertical-align-top">
-
-Enter description
-
-</section>
-
-<!-- end of left aligned section block -->
-
-<!-- right aligned section block -->
-
-<section class="right vertical-align-top">
-
-Enter description
-
-</section>
-
-<!-- end of right aligned section block -->
-
-<!-- end of instructions  -->
