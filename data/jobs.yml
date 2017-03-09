@@ -7,7 +7,7 @@
 
 - title: "People Operations Administrator"
   description: /jobs/people-ops-administrator/
-  apply: 
+  apply:
   open: false
 
 - title: "Recruiter"
@@ -82,8 +82,8 @@
 
 - title: "Content Editor"
   description: /jobs/content-editor/
-  apply: https://gitlab.workable.com/jobs/369649/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Developer"
   description: /jobs/developer/
@@ -94,7 +94,7 @@
 - title: "Security Specialist"
   description: /jobs/developer/#security-specialist
   salary: 87337
-  apply: 
+  apply:
   open: false
 
 - title: "Backend Developer, Edge"
