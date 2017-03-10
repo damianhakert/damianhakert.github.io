@@ -19,7 +19,7 @@ extra_css:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="middle vertical-align-top">
+<section class="intro middle vertical-align-top">
 
 Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
 Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
@@ -70,6 +70,7 @@ Over the coming releases, we will continue to improve nested groups and would lo
 
 <!-- FEATURE 2 block -->
 <!-- feature 2 text -->
+<div class="feature clearfix">
 <section class="left">
 
 ## Deploy Boards
@@ -89,17 +90,12 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
 
 </section>
+</div>
 <!-- end of FEATURE 2 BLOCK -->
 
 <!-- FEATURE 3 BLOCK -->
 <!-- feature 3 image -->
-<div class="small-reverse">
-
-<section class="left">
-
-![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
-
-</section>
+<div class="feature clearfix">
 
 <!-- feature 3 text -->
 <section class="right">
@@ -115,6 +111,13 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 </section>
 
+<section class="left">
+
+![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
+
+</section>
+
+
 </div>
 <!-- end of FEATURE 3 BLOCK -->
 
@@ -122,6 +125,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 <!-- FEATURE 4 block -->
 <!-- feature 4 text -->
+<div class="feature clearfix">
 <section class="left">
 
 ## Performance Monitoring
@@ -141,6 +145,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
 
 </section>
+</div>
 <!-- end of FEATURE 4 BLOCK -->
 
 <!-- OTHER FEATURES BLOCK -->
@@ -233,7 +238,7 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 <!-- end of OTHER FEATURES BLOCK -->
 
 <!-- UPGRADE BAROMETER BLOCK -->
-<div class="upgrade-install">
+<div class="upgrade-install clearfix">
 <section class="left vertical-align-top">
 
 
@@ -288,7 +293,7 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 
 
 [Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
-{:.note .text-right}
+{:.note .text-right .image-attribution}
 
 <!-- end of LAST BLOCK -->
 

@@ -86,7 +86,6 @@ $badge-color-eep: #0976bc;
       font-size: 7vh;
       line-height: 1.25;
       position: absolute;
-      // margin: auto;
       left: 0;
       right: 0;
       margin-left: auto;
@@ -116,7 +115,7 @@ $badge-color-eep: #0976bc;
 
   .wrapper.body {
     max-width: none;
-    padding: 0 5% 5%;
+    padding: 0 0 5%;
 
     .left p:first-child,
     .right p:first-child {
@@ -124,12 +123,6 @@ $badge-color-eep: #0976bc;
     }
 
     .content {
-      max-width: 1680px;
-      margin: auto;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
       h2 {
         font-size: 44px;
         font-weight: normal;
@@ -168,6 +161,21 @@ $badge-color-eep: #0976bc;
     .upgrade-install {
       @extend %darkbg;
       padding-top: 50px;
+      min-width: auto;
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: right;
+      }
+    }
+
+    .intro {
+      p:first-child {
+        margin-top: 0;
+      }
     }
 
     .mvp {
@@ -176,7 +184,9 @@ $badge-color-eep: #0976bc;
       padding-top: 25px;
       padding-bottom: 50px;
       font-size: 26px;
-      margin-bottom: 100px;
+      min-width: auto;
+      width: 100%;
+      margin: 0 auto 100px;
 
       h2 {
         font-size: 33px;
@@ -209,6 +219,14 @@ $badge-color-eep: #0976bc;
 
     .social {
       padding: 15px 0 50px;
+    }
+
+    .image-attribution {
+      margin: 20px;
+    }
+
+    .pager {
+      padding: 0 5%;
     }
   }
 
@@ -277,12 +295,6 @@ $badge-color-eep: #0976bc;
   font-style: italic;
 }
 
-.note {
-  order: 1;
-  width: 100%;
-  margin-top: 0;
-}
-
 .left {
   padding: 0 5% 0 0;
 }
@@ -291,16 +303,29 @@ $badge-color-eep: #0976bc;
   padding: 0;
 }
 
+
+.feature {
+  max-width: 1680px;
+  margin: 0 auto;
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
 .left,
 .right {
-  order: 1;
   align-self: center;
   display: inline-block;
   width: 50%;
   vertical-align: middle;
   text-align: justify;
-  margin-right: -4px;
   margin-bottom: 100px;
+  padding: 0 5%;
 
   img {
     width: 100%;
@@ -313,7 +338,6 @@ $badge-color-eep: #0976bc;
   @media (max-width: $screen-md-min) {
     display: block;
     margin: auto;
-    padding: 0;
     width: 80%;
     max-width: 900px;
     margin-bottom: 100px;
@@ -341,19 +365,6 @@ $badge-color-eep: #0976bc;
   }
 }
 
-.small-reverse {
-  order: 1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  @media (max-width: $screen-md-min) {
-    .right {
-      order: 0;
-    }
-  }
-}
-
 .middle {
   order: 1;
   text-align: justify;
@@ -364,6 +375,7 @@ $badge-color-eep: #0976bc;
 
   @media (max-width: $screen-sm-min) {
     width: 100%;
+    padding: 0 5% 5%;
   }
 
   h2 {
