@@ -895,6 +895,16 @@ the blog post, even if it doesn't require attribution:
 ```md
 ----
 
+Cover image: ["Image title"](link-to-original-image) by [owner name and surname](link), licensed
+under [CC X](link-to-licence).
+{: .note}
+```
+
+If the image does not have a title, default to the following format:
+
+```md
+----
+
 [Cover image](link-to-original-image) by [owner name and surname](link), licensed
 under [CC X](link-to-licence).
 {: .note}
