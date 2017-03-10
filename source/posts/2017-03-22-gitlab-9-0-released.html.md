@@ -170,7 +170,7 @@ Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, con
 
 This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
 
-We will continue to support v3 of the API until XXXX DATE.
+We will continue to support v3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
 ### GitLab CI
 
