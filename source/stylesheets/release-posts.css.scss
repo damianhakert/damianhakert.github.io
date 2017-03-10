@@ -21,6 +21,7 @@ $article-width: 1680px;
 .blog.article {
   .cover {
     height: 100vh;
+    z-index: -1;
   }
 
   .overlay {
@@ -118,6 +119,7 @@ $article-width: 1680px;
   .wrapper.body {
     max-width: none;
     padding: 0 5% 5%;
+    margin-top: -7vw;
 
     .left p:first-child,
     .right p:first-child {
@@ -174,6 +176,7 @@ $article-width: 1680px;
       @extend %darkbg;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       padding-top: 50px;
     }
 
