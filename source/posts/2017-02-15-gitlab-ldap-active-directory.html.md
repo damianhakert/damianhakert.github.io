@@ -32,7 +32,7 @@ GitLab integrates with your Active Directory or [LDAP](https://en.wikipedia.org/
 
 Managing a large number of users in GitLab can become a burden for system administrators. As an organization grows so do user accounts. Keeping these user accounts in sync across multiple enterprise applications often becomes a time consuming task.
 
-In this blog post we will focus on configuring GitLab with Active Directory. [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) is a popular LDAP compatible directory service provided by Microsoft, included in all modern Windows Server operating systems.
+In this guide we will focus on configuring GitLab with Active Directory. [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) is a popular LDAP compatible directory service provided by Microsoft, included in all modern Windows Server operating systems.
 
 GitLab has supported LDAP integration since [version 2.2](https://about.gitlab.com/2012/02/22/gitlab-version-2-2/). With GitLab LDAP [group syncing](#group-syncing-ee) being added to GitLab Enterprise Edition in [version 6.0](https://about.gitlab.com/2013/08/20/gitlab-6-dot-0-released/). LDAP integration has become one of the most popular features in GitLab.
 
@@ -55,7 +55,11 @@ For example, [Active Directory](https://technet.microsoft.com/en-us/library/hh83
 GitLab uses the [Net::LDAP](https://rubygems.org/gems/net-ldap) library under the hood. This means it supports all [IETF](https://tools.ietf.org/html/rfc2251) compliant LDAPv3 servers.
 {: .alert .alert-info }
 
+<<<<<<< Updated upstream
 ### Step 1: Getting Started with Active Directory (AD)
+=======
+### Getting Started with Active Directory (AD)
+>>>>>>> Stashed changes
 
 We won't cover the installation and configuration of Windows Server or Active Directory Domain Services in this tutorial. There are a number of resources online to guide you through this process:
 
@@ -67,15 +71,15 @@ We won't cover the installation and configuration of Windows Server or Active Di
 `Install-WindowsFeature AD-Domain-Services -IncludeManagementTools`
 {: .alert .alert-info }
 
-#### Creating an AD OU structure
+#### Creating an AD **OU** structure
 
-Configuring organizational units (OUs) is an important part of setting up Active Directory. OUs form the base for an entire organizational structure. Using GitLab as an example we have designed the OU structure below using the geographic OU model. In the Geographic Model we separate OUs for different geographic regions.
+Configuring organizational units (**OU**s) is an important part of setting up Active Directory. **OU**s form the base for an entire organizational structure. Using GitLab as an example we have designed the **OU** structure below using the geographic **OU** model. In the Geographic Model we separate **OU**s for different geographic regions.
 
-GitLab OU Design            |  GitLab AD Structure
+GitLab **OU** Design            |  GitLab AD Structure
 :-------------------------:|:-------------------------:
 ![GitLab OU Design][gitlab_ou]  |  ![GitLab AD Structure][ldap_ou]
 
-Using PowerShell you can output the OU structure as a table (_all names are examples only_):
+Using PowerShell you can output the **OU** structure as a table (_all names are examples only_):
 
 ```ps
 Get-ADObject -LDAPFilter "(objectClass=*)" -SearchBase 'OU=GitLab INT,DC=GitLab,DC=org' -Properties CanonicalName | Format-Table Name,CanonicalName -A
@@ -125,13 +129,13 @@ Global Admins     GitLab.org/GitLab INT/Global Groups/Global Admins
 See [more information](https://technet.microsoft.com/en-us/library/ff730967.aspx) on searching Active Directory with Windows PowerShell from [The Scripting Guys](https://technet.microsoft.com/en-us/scriptcenter/dd901334.aspx)
 {: .alert .alert-info }
 
-### Step 2: GitLab LDAP Configuration
+### GitLab LDAP Configuration
 
-The initial configuration of LDAP in GitLab requires changes to the `gitlab.rb` configuration file. Below is an example of a completed configuration. Using an using Active Directory.
+The initial configuration of LDAP in GitLab requires changes to the `gitlab.rb` configuration file. Below is an example of a complete configuration using an Active Directory.
 
-The two Active Directory specific values are `active_directory: true` and `uid: 'sAMAccountName'`. The `sAMAccountName` is an attribute returned by Active Directory used for the GitLab username. See the example output from `ldapsearch` for a full list of attributes a "person" object has in **AD** - [ldapsearch example](#using-ldapsearch-unix)
+The two Active Directory specific values are `active_directory: true` and `uid: 'sAMAccountName'`. `sAMAccountName` is an attribute returned by Active Directory used for GitLab usernames. See the example output from `ldapsearch` for a full list of attributes a "person" object (user) has in **AD** - [ldapsearch example](#using-ldapsearch-unix)
 
-The `group_base` and `admin_group` configuration options are only available in GitLab Enterprise Edition. See [GitLab EE - LDAP Features](#gitlab-enterprise-edition---ldap-features)
+Both group_base and admin_group configuration options are only available in GitLab Enterprise Edition. See [GitLab EE - LDAP Features](#gitlab-enterprise-edition---ldap-features)
 
 **Hover ![Hover mouse](/images/blogimages/gitlab-ldap/hover.png) over the configuration for more details**
 
@@ -155,19 +159,17 @@ The `group_base` and `admin_group` configuration options are only available in G
 <span class="p">}</span>
 </code></pre>
 
-Remember to run a **`gitlab-ctl reconfigure`** after modifying the `gitlab.rb` file
-{: .alert .alert-warning }
+> **Note:** Remember to run  `gitlab-ctl reconfigure` after modifying `gitlab.rb`
 
-### Step 3: Security Improvements (LDAPS)
+### Security Improvements (LDAPS)
 
 Security is an important aspect when deploying an LDAP server. By default, LDAP traffic is transmitted unsecured. LDAP can be secured using SSL/TLS called LDAPS, or commonly "LDAP over SSL".
 
 Securing LDAP (enabling LDAPS) on Windows Server 2012 involves installing a valid SSL certificate. For full details see Microsoft's guide [How to enable LDAP over SSL with a third-party certification authority](https://support.microsoft.com/en-us/help/321051/how-to-enable-ldap-over-ssl-with-a-third-party-certification-authority)
 
-By default a LDAP service listens for connections on TCP and UDP port 389. LDAPS (LDAP over SSL) listens on port 636
-{: .alert .alert-info }
+>By default a LDAP service listens for connections on TCP and UDP port 389. LDAPS (LDAP over SSL) listens on port 636
 
-### Step 4: Testing you AD Server
+### Testing you AD Server
 
 #### Using **AdFind** (Windows)
 
@@ -269,41 +271,28 @@ result: 0 Success
 # numEntries: 1
 </pre>
 
-### Step 5: Basic User Authentication
+### Basic User Authentication
 
 After configuring LDAP, basic authentication will be available. Users can then login using their directory credentials. An extra tab is added to the GitLab login screen for the configured LDAP server (e.g "**GitLab AD**").
 
 {: .text-center}
 ![GitLab OU Structure](/images/blogimages/gitlab-ldap/user_auth.gif)
 
-Users that are removed from the LDAP base group (e.g `OU=GitLab INT,DC=GitLab,DC=org`) will be **Blocked** in GitLab. [More information](https://docs.gitlab.com/ee/administration/auth/ldap.html#security) on LDAP security.
+Users that are removed from the LDAP base group (e.g `OU=GitLab INT,DC=GitLab,DC=org`) will be **blocked** in GitLab. [More information](https://docs.gitlab.com/ee/administration/auth/ldap.html#security) on LDAP security.
 
-If `allow_username_or_email_login` is enabled in the LDAP configuration, GitLab will ignore everything after the first '@' in the LDAP username used on login. Example: The username `jon.doe@example.com` is converted to `jane.doe` when authenticating with the LDAP server. Disable this setting if you use `userPrincipalName` as the `uid`
+If `allow_username_or_email_login` is enabled in the LDAP configuration, GitLab will ignore everything after the first '@' in the LDAP username used on login. Example: The username `jon.doe@example.com` is converted to `jon.doe` when authenticating with the LDAP server. Disable this setting if you use `userPrincipalName` as the `uid`
 {: .alert .alert-info }
 
 ### GitLab Enterprise Edition - LDAP Features
 
-GitLab Enterprise Edition (EE) has a number of advantages when it comes to integrating with Active Directory (LDAP). More information on GitLab EE specific features can be found in our documentation.[ LDAP GitLab EE docs(https://docs.gitlab.com/ee/administration/auth/ldap-ee.html)
+GitLab Enterprise Edition (EE) has a number of advantages when it comes to integrating with Active Directory (LDAP):
 
-+ [Administrator Sync](#administrator-sync)
+- [Administrator Sync](#administrator-sync): As an extension of group sync, you can automatically manage your global GitLab administrators. Specify a group CN for `admin_group` and all members of the LDAP group will be given administrator privileges.
+- [Group Sync](#group-sync): This allows GitLab group membership to be automatically updated based on LDAP group members.
+- [Multiple LDAP servers](#multiple-ldap-servers): The ability to configure multiple LDAP servers. This is useful if an organization has different LDAP servers within departments. This is not designed for failover. We're working on supporting this in GitLab 9.0. See [gitlab-ee#139](https://gitlab.com/gitlab-org/gitlab-ee/issues/139)
+- Daily user synchronization: Once ~~per~~ {+a+} day, GitLab will run a synchronization to check and update GitLab users against LDAP. This process updates all user details automatically.
 
-As an extension of group sync, you can automatically manage your global GitLab administrators. Specify a group CN for `admin_group` and all members of the LDAP group will be given administrator privileges.
-
-+ [Group Sync](#group-sync)
-
-This allows GitLab group membership to be automatically updated based on LDAP group members.
-
-+ [Multiple LDAP servers](#multiple-ldap-servers)
-
-The ability to configure multiple LDAP servers. This is useful if an organization has different LDAP servers within departments. This is not designed for failover. We're working on supporting this in GitLab 9.0. See [gitlab-ee#139](https://gitlab.com/gitlab-org/gitlab-ee/issues/139)
-
-+ **Daily user synchronization**
-
-Once per day, GitLab will run a synchronization to check and update GitLab users against LDAP. This process updates all user details automatically.
-
-#### Administrator Sync
-
-GitLab administrators can be configured using the `admin_group` setting, this attribute takes the name of a group found in the `group_base` (e.g `OU=Global Groups,OU=GitLab INT,DC=GitLab,DC=org`). In the [example above](#example--ldap) we're using the group `Global Admins`.
+On the following section, you'll find a description for each of these features. Read through [LDAP GitLab EE docs](https://docs.gitlab.com/ee/administration/auth/ldap-ee.html) for complementary information.
 
 {: .text-center}
 ![GitLab OU Structure](/images/blogimages/gitlab-ldap/admin_group.png)
@@ -314,23 +303,23 @@ All members of the group `Global Admins` will be given **administrator** access 
 
 Group syncing allows AD (LDAP) groups to be mapped to GitLab groups. This provides more control over per-group user management. To configure group syncing edit the `group_base` **DN** (`'OU=Global Groups,OU=GitLab INT,DC=GitLab,DC=org'`). This **OU** contains all groups that will be associated with [GitLab groups](https://docs.gitlab.com/ce/workflow/groups.html).
 
-In the example below we have the "UKGov" GitLab group. As this group deals with confidential government information it is important users of this groups are given the correct [permissions](http://docs.gitlab.com/ce/user/permissions.html) to projects contained within the group. Granular group permissions can be applied based on the **AD** group.
+As an example, let's suppose we have a "UKGov" GitLab group, which deals with confidential government information. Therefore, it is important that users of this group are given the correct permissions to projects contained within the group. Granular group permissions can be applied based on the AD group.
 
-**UK Developers** are given the **"developer"** permission.
+**UK Developers** of our "UKGov" group are given **"developer"** permissions.
 
 *The developer permission allows the development staff to effectively manage all project code, issues, and merge requests.*
 
-**UK Support** staff are given the **"reporter"** permission.
+**UK Support** staff of our "UKGov" group are given **"reporter"** permissions.
 
 *The reporter permission allows support staff to manage issues, labels, and review project code.*
 
-**US People Ops** staff are given the **"guest"** permission.
+**US People Ops** of our "UKGov" group are given **"guest"** permissions.
 
 *The guest permission allows people ops staff to review and lodge new issues while allowing no read or write access to project code or *[confidential issues](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#permissions-and-access-to-confidential-issues) created by other users.
 
-See the [permission list](http://docs.gitlab.com/ce/user/permissions.html).
+See the [permission list](http://docs.gitlab.com/ce/user/permissions.html) for complementary info.
 
-Using this permission structure allows only UK staff access to sensitive information stored in the projects code, while still allowing other teams to work effectively.
+Using this permission structure in our example allows only UK staff access to sensitive information stored in the projects code, while still allowing other teams to work effectively. As all permissions are controlled via AD groups new users can be quickly added to existing groups. New users will then automatically inherit the required permissions.
 
 #### Creating Group Links - Example
 
@@ -365,7 +354,7 @@ Since GitLab [v8.15](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/822)
 
 #### Multiple LDAP servers
 
-GitLab EE can support multiple LDAP servers. Simply configure another server in the `gitlab.rb` file within the `ldap_servers` block. In the example below we configure a new secondary server with the label **GitLab Secondary AD**. This is now shown on the GitLab login screen.
+GitLab EE can support multiple LDAP servers. Simply configure another server in the `gitlab.rb` file within the `ldap_servers` block. In the example below we configure a new secondary server with the label **GitLab Secondary AD**. This is shown on the GitLab login screen. Large enterprises often utilize multiple LDAP servers for segregating organizational departments.
 
 {: .text-center}
 ![Multiple LDAP Servers Login](/images/blogimages/gitlab-ldap/multi_login.gif)
@@ -392,7 +381,7 @@ gitlab_rails['ldap_servers'] = {
 
 'secondary' => {
   'label' => 'GitLab Secondary AD',
-  'host' =>  'ad-secondary.example.org',
+  'host' =>  'ad-secondary.example.net',
   'port' => 636,
   'uid' => 'sAMAccountName',
   'method' => 'ssl',
