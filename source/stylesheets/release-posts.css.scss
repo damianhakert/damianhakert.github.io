@@ -5,9 +5,10 @@
 $badge-color-ce: #5aab6e;
 $badge-color-ees: #51a7e0;
 $badge-color-eep: #0976bc;
+$article-width: 1680px;
 
 .container {
-  max-width: 1680px;
+  max-width: $article-width;
   margin: auto;
   padding: 0;
   width: 90vw;
@@ -124,7 +125,7 @@ $badge-color-eep: #0976bc;
     }
 
     .content {
-      max-width: 1680px;
+      max-width: $article-width;
       margin: auto;
       display: flex;
       flex-direction: row;
@@ -163,10 +164,17 @@ $badge-color-eep: #0976bc;
       margin: 0 0 0 -5vw;
       padding: 0 5vw;
       box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
+
+      @media (min-width: $article-width) {
+        min-width: calc(100vw);
+        margin-left: calc(-16vw - 16px);
+      }
     }
 
     .upgrade-install {
       @extend %darkbg;
+      display: flex;
+      justify-content: center;
       padding-top: 50px;
     }
 
@@ -225,7 +233,7 @@ $badge-color-eep: #0976bc;
 
       .panel-body,
       .panel-heading {
-        max-width: 1680px;
+        max-width: $article-width;
         margin: auto;
         padding-left: 0;
         padding-right: 0;
@@ -301,6 +309,7 @@ $badge-color-eep: #0976bc;
   text-align: justify;
   margin-right: -4px;
   margin-bottom: 100px;
+  max-width: $article-width / 2;
 
   img {
     width: 100%;
@@ -346,6 +355,7 @@ $badge-color-eep: #0976bc;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 
   @media (max-width: $screen-md-min) {
     .right {
