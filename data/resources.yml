@@ -1,0 +1,9 @@
+- title: Webinars
+  data: 
+    - title: From continous integration to continuous everything
+      url: https://page.gitlab.com/20170301_continuouseverything.html
+
+- title: Reports
+  data: 
+    - title: 2016 Global Developer Report
+      url: https://page.gitlab.com/2016-developer-survey_2016-developer-survey.html
