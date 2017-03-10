@@ -222,7 +222,10 @@ $badge-color-eep: #0976bc;
     }
 
     .image-attribution {
-      margin: 20px;
+      max-width: 1680px;
+      margin: auto;
+      width: 90vw;
+      margin-top: 20px;
     }
 
     .pager {
