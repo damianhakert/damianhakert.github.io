@@ -83,6 +83,11 @@ $purple-section-gradient-to: #3c257b;
     line-height: 30px;
     color: $color-gray-light;
   }
+
+  p {
+    color: $color-gray;
+    margin-top: 20px;
+  }
 }
 
 .gitlab-com-features-list {
