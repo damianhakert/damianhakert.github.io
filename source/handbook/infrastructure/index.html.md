@@ -21,7 +21,7 @@ The infrastructure team is populated by engineers who share the responsibility o
 These teams are:
 
 * Production: keeping GitLab.com available and scalable.
-* Security: keeping GitLab.com safe, both the infrastructure and the application.
+* [Security](/handbook/infrastructure/security/): keeping GitLab.com safe, from the perspective of the application, the infrastructure and the organization.
 * Database: keeping GitLab.com's database fast and scalable.
 * Gitaly: making Git access scalable and fast.
 

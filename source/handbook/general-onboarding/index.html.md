@@ -343,7 +343,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 #### All GitLabbers
 
-1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.
+1. [ ] New team member: Read the [security best practices](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.
 1. [ ] New team member: Enable 2FA on your GitLab email account (this should have been an option to do when you first received the invitation to the account).
 1. [ ] New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 1. [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
@@ -352,7 +352,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
    1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @brittany to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
    1. [ ] New team member: Once you are registered on 1Password, post a comment below to ask the hiring manager to add you to the 1Password groups required for your role.
    1. [ ] Hiring manager: Add the new team member to the required groups in [1Password](https://gitlab.1password.com) if you have access to the Admin Console in 1Password. If you do not have access please ping @brittany with which vaults the new team member should be added to
-   1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
+   1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security best practices page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
    1. [ ] New team member: If you created any accounts while onboarding before being added to 1Password, reset your passwords for them to use 1Password.
    1. [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
@@ -389,7 +389,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 1. [ ] New team member: Add yourself to the "New Hire Tweets" Google [doc](https://docs.google.com/document/d/1NmrgUXnigXXptEnxjBTI9sBWKyWyynBP_8K-S0fYC1w/edit). Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] has joined #TeamGitLab! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Emily v.H. will schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
-1. [ ] New team member: Encrypt the home folder of your hard drive (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
+1. [ ] New team member: Encrypt the home folder of your hard drive (see the [security best practices](https://about.gitlab.com/handbook/security) for help).
 1. [ ] New team member: Leave a comment in this issue with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 1. [ ] New team member: Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
