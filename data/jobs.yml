@@ -7,7 +7,7 @@
 
 - title: "People Operations Administrator"
   description: /jobs/people-ops-administrator/
-  apply: 
+  apply:
   open: false
 
 - title: "Recruiter"
@@ -82,13 +82,19 @@
 
 - title: "Content Editor"
   description: /jobs/content-editor/
-  apply: https://gitlab.workable.com/jobs/369649/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Developer"
   description: /jobs/developer/
   salary: 87337
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
+  open: false
+
+- title: "Security Specialist"
+  description: /jobs/developer/#security-specialist
+  salary: 87337
+  apply:
   open: false
 
 - title: "Backend Developer, Edge"
@@ -154,6 +160,7 @@
 
 - title: "Frontend Lead"
   description: /jobs/frontend-lead/
+  salary: 83132
   apply: https://gitlab.workable.com/jobs/409394/candidates/new
   open: true
 
@@ -218,8 +225,8 @@
 
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
-  apply: https://gitlab.workable.com/jobs/346406/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Regional Sales Director"
   description: /jobs/regional-sales-director/
@@ -232,7 +239,7 @@
   apply:
   open: false
 
-- title: "Service Engineer"
+- title: "Service Engineer - EMEA "
   description: /jobs/service-engineer/
   salary: 75500
   apply: https://gitlab.workable.com/jobs/87722/candidates/new
@@ -272,6 +279,12 @@
   salary: 87337
   apply:
   open: false
+
+- title: "UX Lead"
+  description: /jobs/ux-lead/
+  salary:
+  apply: https://gitlab.workable.com/jobs/279434
+  open: true
 
 - title: "UX Designer"
   description: /jobs/ux-designer/

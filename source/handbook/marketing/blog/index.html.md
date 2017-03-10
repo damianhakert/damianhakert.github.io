@@ -546,6 +546,7 @@ twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
 guest: true # required when the author is not a GitLab Team Member
+ee_cta: false # required only if you do not want to display the EE-trial banner
 ---
 ```
 
@@ -596,6 +597,7 @@ otherwise you'll create another category, which is somenthing we don't want to d
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
 - customer stories
 - events
+- Functional Group Updates _(for [FGU posts](handbook/people-operations/functional-group-updates/) only)_
 - git
 - GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
 - GitLab CI
@@ -703,6 +705,20 @@ The CTA entry is optional; if you don't need to add any CTA to the hero, just om
 
 This option was introduced in January/2017.
 {:.note}
+
+#### EE-Trial Banner
+
+![ee-trial banner](/images/ee-trial-banner.png)
+
+To not display the EE-trial banner on the blog post, set `ee_cta` to `false` in the frontmatter:
+
+```yaml
+ee_cta: false
+```
+
+It is set to true by default, so there's no need to add `ee_cta: true` to the frontmatter.
+
+Use it wisely; the EE-trial banner is important for Lead Gen.
 
 #### Guest
 
@@ -875,6 +891,16 @@ reflects somehow your post's subject. In the absence of an image, use one of the
 
 Please add a reference to the cover image source, owner, and licence at the end of
 the blog post, even if it doesn't require attribution:
+
+```md
+----
+
+Cover image: ["Image title"](link-to-original-image) by [owner name and surname](link), licensed
+under [CC X](link-to-licence).
+{: .note}
+```
+
+If the image does not have a title, default to the following format:
 
 ```md
 ----

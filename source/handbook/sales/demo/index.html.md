@@ -200,8 +200,8 @@ Then I grab an Access Token and Cert from the Kubernetes Dashboard.
 > * Go to [Kubernetes Dashboard](http://localhost:8001/ui) that is proxied on your localhost.
 > * Navigate to Secrets > Config on the left.
 > * Click on `default-token-xxx` for the `default` namespace
-> * Copy token (last item) to `Service token` in GitLab
-> * Copy ca.crt (first item, including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
+> * Click the eyeball next to `token` (last item) and copy to `Service token` in GitLab
+> * Click the eyeball next to `ca.crt` (first item) and copy (including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
 
 Now let's save the settings. And then let's test the settings just to make sure.
 

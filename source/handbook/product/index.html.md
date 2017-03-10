@@ -13,6 +13,205 @@ For the _what_, see [Product Strategy](/direction/strategy).
 - TOC
 {:toc}
 
+# Who to talk to for what
+
+If you have any product-related questions, comments, input or otherwise,
+the product manager is the primary person you should talk to.
+
+This includes, but is not limited to features, bugs and other
+changes that need more attention, be prioritized, changed, or discussed.
+
+Product managers will reach out to stakeholders in making or communicating any
+decision. The weight of balancing priorities and ensuring we build excellent
+software is on the product manager and they will need all the input they can to
+achieve this.
+
+See below who to contact for what in detail. In short it is:
+
+- Mike - Platform
+- Victor - Discussion
+- Mark - CI / CD
+- Joshua - Prometheus
+- Regis - Build and Edge
+- Job - high level strategy and process
+
+Enterprise edition features fall under their respective PM,
+not under one PM in particular. For instance, Service Desk falls under Victor,
+because it's part of our Issues.
+
+## Mike Bartlett - Platform and GitLab.com
+
+- Slack: `@mikeb`
+- GitLab: `@mydigitalself`
+
+Reach out for anything that falls under the following things.
+
+* User management
+  * Authentication
+  * Authorization
+  * LDAP/SAML/SSO integration
+* Group management
+* git repository management
+  * Hooks
+  * Git Annex
+  * LFS
+  * Housekeeping (e.g. git gc)
+  * Mirroring
+  * Import/export
+  * Protected Branches
+  * File locking
+  * Commit history
+* Service Integrations
+  * JIRA
+  * Elasticsearch
+  * Mattermost, Slack
+  * etc.
+* Analytics
+  * Commit history graphs
+  * Cycle analytics
+* Wiki
+
+For example, if a customer would like us to support a particular extension to
+LDAP or wants to have a particular importer, contact Mike.
+
+For anything related to GitLab.com, Mike is also the first responder. If you want to know more about the rollout of particular features on GitLab.com or how
+our plans work, talk to Mike.
+
+## Victor Wu - Discussion
+
+- Slack: `@victor`
+- GitLab: `@victorwu`
+
+For anything that falls under:
+
+* Markdown
+* Issues
+* Merge Requests
+  * Diffs
+  * Code Review
+  * Conflict Resolver
+* Snippets
+* Search
+* Notifications
+  * Todos
+  * E-mail
+* Planning
+  * Milestones
+  * Labels
+  * Due Dates
+  * etc.
+* Service Desk
+
+This means that if a customer would like to see burndown charts, which
+relates to issues, you should speak to Victor.
+
+## Mark Pundsack - CI/CD
+
+- Slack: `@markpundsack`
+- GitLab: `@markpundsack`
+
+* CI
+* Builds
+* Runner
+* Container Registry
+* Pipelines
+* Deployments
+* Environments
+
+Mark handles anything related to CI and CD within GitLab. If a customer would
+like to see build artifacts improved, speak to Mark.
+
+## Joshua Lambert - Prometheus
+
+- Slack: `@joshua`
+- GitLab: `@joshlambert`
+
+Anything related to monitoring inside of GitLab, falls under Josh's
+responsibility. If a customer wants to monitor particular data or see this
+improved, speak to Joshua.
+
+## Regis Freyd - Build and Edge
+
+- Slack: `@regis`
+- GitLab: `@regisF`
+
+Edge relates to any of the supporting applications and tools that are not
+directly part of GitLab. This includes:
+
+* about.gitlab.com
+* customers.gitlab.com
+* license.gitlab.com
+* version.gitlab.com
+
+This also includes anything related to how GitLab handles licenses and how we
+handle data that we get from customers through the usage ping.
+
+Build is all about how we ship GitLab and make sure everyone can easily install, update and maintain GitLab. This includes:
+
+* installing GitLab on various platforms
+* VMs, Docker images of GitLab
+* Supported operating systems
+* Pivotal Cloud Foundry tile
+* Cloud images (AWS, Azure, GCE)
+* Kubernetes Helm Charts, Redhat Openshift, Mesosphere DC/OS
+* This also includes introducing/changing any dependency inside of the whole
+GitLab stack. This includes (but is not limited to): gems with native
+extensions, external software and changes to the filesystem from within the
+application.
+
+
+## Job van der Voort - High level and process
+
+- Slack: `@job`
+- GitLab: `@JobV`
+
+Contact Job for any questions about the strategy of product or process within
+product.
+
+# How to work as/with product
+
+At GitLab, the PM leads their specialization. That is, the Platform PM decides
+what is being worked on by the platform team in which release and makes sure
+this furthers our goals. This includes bugs, features, architectural changes.
+
+The PM can't be expected to parse every single bug, issue that comes by, so
+they will have to rely heavily on the input of the various stakeholders. To be
+able to achieve this, both the PM and the stakeholders have to actively work
+together. It's a two-way street.
+
+In general terms, if you require something to happen with the product or if you
+need engineering resources for a particular change, you approach a PM.
+Preferably through creating an issue, the GitLab way and mentioning them there.
+
+In the same vein, PMs are required to ask for feedback from the stakeholder of
+particular changes. If a change will affect GitLab.com and its maintenance, a
+PM should proactively reach out to infrastructure engineers to help with the
+scoping, design and decisions on this change.
+
+It is then up to the PM to weigh all these inputs and decide on a
+prioritization. It is to be expected that they are best equipped to make this
+prioritization, keeping in mind all goals of GitLab.
+
+## Example: A customer has a feature request
+
+If you hear a feature request from a customer, you should follow the normal
+procedure: you create an issue, label it correctly. Let's say the customer requests an enhancement to Issues. You know by reading above that you'll have label this with `Discussion` and you can mention or reach out to Victor to expedite this if warranted.
+
+## Example: Many support requests come in about a bug with CI
+
+Same as before, make sure an issue is made and make your case with Mark on that
+this is becoming a problem and needs to be fixed. Mark will make sure that this
+is fixed or resolved in some other way.
+
+## Example: I think create new files is slow
+
+Everything in GitLab should be fast and creating files falls under the
+repository, so you create an issue and make Mike aware of it by mentioning it.
+
+Mike in turn will investigate whether this is a general problem or one specific
+to GitLab.com, in collaboration with infrastructure and others and schedule any
+necessary changes for an upcoming release.
+
 ## Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab Community Edition)**](https://gitlab.com/gitlab-org/gitlab-ce)
@@ -49,10 +248,10 @@ projects:
 - version.gitlab.com
 - license.gitlab.com
 
-This includes new features, major changes, performance and stability.
-
-Bugs and regressions are typically handled without any product involvement,
-but if uncaught by engineering should be treated like any of the above.
+This includes the entire stack and all its facets. The product team needs to
+prioritize and weigh bugs, features, regressions, performance, but also
+architectural changes and other changes required for ensuring GitLab is
+excellent.
 
 ## Product at GitLab
 
@@ -194,7 +393,11 @@ make it work in unpredictable ways.
 
 ## Alignment
 
-Balancing our great ambition with our dedication to customer success is tough. Add in a growing number of dedicated teams focusing on areas of the product, and it becomes challenging to make sure everything we work on is truly the right thing to work on, right now. To help with that, it's good to keep a few things in mind. To ask a few questions to keep us all aligned.
+Balancing our great ambition with our dedication to customer success is tough.
+Add in a growing number of dedicated teams focusing on areas of the product,
+and it becomes challenging to make sure everything we work on is truly the
+right thing to work on, right now. To help with that, it's good to keep a few
+things in mind. To ask a few questions to keep us all aligned.
 
 At a high level, you can think of aligning along these dimensions (not necessarily in priority order):
 
@@ -243,7 +446,7 @@ team members and the community the space to suggest and create without your
 direct intervention. It's your job to make sure something is decided and
 planned, not to come up with every idea or change.
 
-### Workflow
+### New Feature Workflow
 
 Almost everything that we do is documented in an issue.
 
@@ -493,12 +696,6 @@ It's not your job to sell GitLab, but it should be obvious when it's the time
 to tell more about our products.
 
 After the meeting, make sure all your notes and feedback lands in issues.
-
-
-# Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
-
-For more insights into our vision on Continuous Integration and Continuous
-Deployment & Delivery, see the [CI/CD page](/direction/cicd).
 
 # Enterprise Edition Tiers
 

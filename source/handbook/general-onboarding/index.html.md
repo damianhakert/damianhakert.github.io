@@ -336,7 +336,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
      1. [ ] Bank details
 1. [ ] People Ops (Specialist): reach out to new team member and ask them to confirm their marital status and number of children. This is required for tax purposes.
 1. [ ] People Ops (Specialist): once all the information has been entered by the new team member, send this to B&F Consult CVBA by email along with a
-     1. [ ] Scanned copy of  employment contract  
+     1. [ ] Scanned copy of employment contract
      1. [ ] ID card
      1. [ ] Email address
      1. [ ] Salary
@@ -367,6 +367,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 1. [ ] People Ops (Recruiter): remove user from the [Google 'New Users' group](https://admin.google.com/gitlab.com/AdminHome?groupId=new-users@gitlab.com&chromeless=1#OGX:Group). This causes 2FA enforcement for the user.
 1. [ ] People Ops (Recruiter): [Invite to autoconnect](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#add-beamy) on [Beamy](https://app.suitabletech.com/).
+1. [ ] New team member: Log in on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines) and explore the office.
 1. [ ] People Ops (Specialist): Order [business cards](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#b-cards) for new team member.
 1. [ ] People Ops (Recruiter): Add team member to [Expensify](https://www.expensify.com/signin) (if employee). See SOP for more [instructions](https://about.gitlab.com/handbook/general-onboarding/onboarding-processes/#add-expensify).
 1. [ ] People Ops (Recruiter): Add new team member to the info sheets of the next Summit if applies.
@@ -386,7 +387,7 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 1. [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [Gravatar](https://en.gravatar.com/) (don't use an avatar, a stock photo or something with sunglasses, we have a lot of GitLabbers and our brains are comfortable with recognizing people, let's use them).
 1, [ ] New team member: Download Git https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
 1. [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
-1. [ ] New team member: Add yourself to the "New Hire Tweets" Google doc. Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Erica will send out or schedule a tweet about the new hire when the addition to the team page has been merged.
+1. [ ] New team member: Add yourself to the "New Hire Tweets" Google [doc](https://docs.google.com/document/d/1NmrgUXnigXXptEnxjBTI9sBWKyWyynBP_8K-S0fYC1w/edit). Add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] has joined #TeamGitLab! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Emily v.H. will schedule a tweet about the new hire when the addition to the team page has been merged.
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 1. [ ] New team member: Encrypt the home folder of your hard drive (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [ ] New team member: Leave a comment in this issue with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
