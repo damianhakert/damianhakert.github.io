@@ -167,7 +167,7 @@ $article-width: 1680px;
 
       @media (min-width: $article-width) {
         min-width: calc(100vw);
-        margin-left: calc(-16vw - 16px);
+        margin-left: calc(-50vw + #{$article-width / 2});
       }
     }
 
