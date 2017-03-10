@@ -237,6 +237,25 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 <section class="left vertical-align-top">
 
 
+## Omnibus GitLab package changes
+
+## Raspberry Pi 2 changes
+
+Due to a fault in release process that was caused by changes in build infrastructure,
+packages for Raspberry Pi 2[were tagged under Debian distribution instead of Raspbian](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303).
+
+We've resolved this issue and also synced all latest versions of packages
+to `Raspbian` distribution.
+
+Going forward, we will only release Raspberry Pi 2 packages under `Raspbian` distribution.
+Further more, as [announced in 8.17 release post](https://about.gitlab.com/2017/02/22/gitlab-8-17-released/#raspbian-wheezy-package),
+we will provide only Jessie packages for Rasperry Pi 2.
+
+If you did any manual changes to the apt repository as a workaround, you will need to change the distribution.
+You can do this by running:
+
+`sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list`
+
 ### Upgrade barometer
 
 <!--
