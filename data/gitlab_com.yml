@@ -19,7 +19,7 @@ prices:
     price: $19
     monthly: true
     description:
-      10,000 buiild minutes per month
+      10,000 build minutes per month
     link: /
     link_text: Buy Now
   - title: Gold Plan
@@ -31,12 +31,15 @@ prices:
     link: /
     link_text: Buy Now
 questions:
-  - question: Is there a catch with the free forever plan?
+  - question: What are build minutes?
     answer:
-      There is no catch. GitLab.com allows you to have unlimited free private repositories and collaborators.
+      Build minutes are the execution time for your pipelines on our shared runners.
   - question: What happens if I reach my build minutes limit?
     answer:
       If you reach your build limits, you simply won't be able to run any more builds until the end of your current billing cycle, or until you upgrade your account.
+  - question: Is there a catch with the free forever plan?
+    answer:
+      There is no catch. GitLab.com allows you to have unlimited free private repositories and collaborators.
   - question: How do I subscribe?
     answer:
       Head over to <a href="https://customers.gitlab.com">https://customers.gitlab.com</a>, choose the plan that is right for you. After purchase, we’ll take care of upgrading your account to the plan you’ve chosen.
