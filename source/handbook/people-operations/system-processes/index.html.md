@@ -118,7 +118,8 @@ Jobs Tab
    * Department - Leave blank for now. This will become relevant as we scale.
    * Enter whether the team member is part-time or full-time. Any comments? Add them to the compensation table.
 1. Employment Status
-   * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.    
+   * Enter the hire date and set the status to active. Also leave a comment if there is anything of note in the contract.
+   * For new team members from GitLab LTD and Lyra who have a three month probation period set the status to probation period. This sets up an alert for the manager and peopleops automatically, 2 weeks, 1 week and a day before the probation period expires   
 
 To Terminate a Team Member from BambooHR:
 1. Click on the gear icon in BambooHR at the top right of the screen.

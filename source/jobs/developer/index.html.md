@@ -113,6 +113,36 @@ for example:
     * Leads development of projects that lead to a significant improvement of the overall
       performance and scalability of GitLab
 
+## Security Specialist
+
+An Security Specialist is a developer who focuses on ensuring that
+GitLab and associated applications are as secure as possible. The Security Specialist works in close collaboration with the [Security Lead](https://about.gitlab.com/jobs/security-engineer) and has the following set of skills, experience, and responsibilities:
+
+1. Technical Skills
+    * Ability to discover and patch SQLi, XSS, CSRF, SSRF, authentication and
+      authorization flaws, and other web-based security vulnerabilities (OWASP
+      Top 10 and beyond).
+    * Knowledge of common authentication technologies including OAuth, SAML, CAs,
+      OTP/TOTP.
+    * Knowledge of browser-based security controls such as CSP, HSTS, XFO.
+    * Experience with standard web application security tools such as Arachni,
+      Brakeman, and BurpSuite.
+2. Code quality
+    * Proactively identifying and reducing security risks.
+    * Finding and removing outdated and vulnerable code and code libraries.
+3. Communication
+    * Consult with other developers and product managers to analyze and propose
+      application security standards, methods, and architectures.
+    * Handle communications with independent vulnerability researchers and design
+      appropriate mitigation strategies for reported vulnerabilities.
+    * Educate other developers on secure coding best practices.
+    * Ability to professionally handle communications with outside researchers,
+      users, and customers.
+    * Ability to communicate clearly on technical issues.
+4. Performance & Scalability
+    * An understanding of how to write code that is not only secure but scales
+      to a large number of users and systems.
+
 ## Internships
 
 We normally don't offer any internships, but if you get a couple of merge requests

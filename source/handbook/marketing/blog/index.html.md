@@ -23,6 +23,16 @@ Our [Blog] is managed by the Marketing Team.
 
 <div class="alert alert-purple center"><h3 class="purple"><i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> &nbsp;&nbsp;<strong>EVERYONE CAN CONTRIBUTE</strong>&nbsp;&nbsp; <i class="fa fa-gitlab" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i></h3></div>
 
+### Blog endboss
+
+[Marcia Ramos](https://about.gitlab.com/team/#XMDRamos) is the blog endboss.
+
+If the post author does not know who can do a final review or merge their post
+they can assign it to Marcia.
+
+But a post author must get at least one review from someone in their immediate
+team and use a spelling and grammar checker.
+
 ### Objectives &amp; Purposes
 
 - Use the [blog](/blog) to encourage potential users to try GitLab
@@ -31,6 +41,22 @@ Our [Blog] is managed by the Marketing Team.
 - Communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
 - Bring in voices from all throughout the company, as well as
 from GitLab users and our customers. As always, **everyone can contribute** - GitLab Team members and [Community Writers]
+
+### What content should go on the blog?
+
+The blog is:
+
+- Another marketing channel like Twitter/Facebook/YouTube.
+- For longer form news on what we have done or are doing.
+- For ephemeral content, think of it as a longer tweet.
+- Not the permanent place for tutorials, they should live in the the docs and be
+  shared on the blog in the form of a "longer tweet"
+
+The documentation is different to the blog in that it is:
+
+- A reference on everything about our product.
+- For feature coverage, API, University (written and video tutorials).
+- For persistent content.
 
 ### Anatomy of a Blog Post
 
@@ -520,6 +546,7 @@ twitter_image: '/images/tweets/post-screenshot-image.png' # optional
 cta_button_text: 'Watch the <strong>XXX release webcast</strong> live!' # optional
 cta_button_link: 'https://page.gitlab.com/xxx.html' # optional
 guest: true # required when the author is not a GitLab Team Member
+ee_cta: false # required only if you do not want to display the EE-trial banner
 ---
 ```
 
@@ -542,7 +569,7 @@ accessible under `https://gitlab.com/johndoe`, this field should be filled as fo
 
 ```yaml
 author_gitlab: johndoe
-``` 
+```
 
 This field is required.
 
@@ -570,6 +597,7 @@ otherwise you'll create another category, which is somenthing we don't want to d
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
 - customer stories
 - events
+- Functional Group Updates _(for [FGU posts](handbook/people-operations/functional-group-updates/) only)_
 - git
 - GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
 - GitLab CI
@@ -600,7 +628,7 @@ Read more about it [below](#cover-image).
 
 #### Description
 
-The `description` meta tag [is important][description-tag]
+The [`description`](https://moz.com/learn/seo/meta-description) meta tag [is important][description-tag]
 for SEO, also is part of [Facebook Sharing][og] and [Twitter Cards]. We set it up in the
 [post frontmatter](#frontmatter), as a small summary of what the post is about.
 
@@ -673,10 +701,24 @@ The final result is a red button over the cover image of the post.
 
 ![Hero CTA preview](/images/handbook/marketing/hero-cta.png){:.shadow}
 
-The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them. 
+The CTA entry is optional; if you don't need to add any CTA to the hero, just omit both entries, leaving the frontmatter without them.
 
 This option was introduced in January/2017.
 {:.note}
+
+#### EE-Trial Banner
+
+![ee-trial banner](/images/ee-trial-banner.png)
+
+To not display the EE-trial banner on the blog post, set `ee_cta` to `false` in the frontmatter:
+
+```yaml
+ee_cta: false
+```
+
+It is set to true by default, so there's no need to add `ee_cta: true` to the frontmatter.
+
+Use it wisely; the EE-trial banner is important for Lead Gen.
 
 #### Guest
 
@@ -847,6 +889,17 @@ reflects somehow your post's subject. In the absence of an image, use one of the
 - GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
 - Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
 
+Please add a reference to the cover image source, owner, and licence at the end of
+the blog post, even if it doesn't require attribution:
+
+```md
+----
+
+[Cover image](link-to-original-image) by [owner name and surname](link), licensed
+under [CC X](link-to-licence).
+{: .note}
+```
+
 The cover image has the following proportions:
 
 - On the [blog landing page][blog]: 1275px x 750px w/h = 1.7
@@ -890,7 +943,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 - Always add the label `release` to the MR
 - When mentioning contributors or MVPs, link their name to their respective user account on GitLab.com
 - Add the [frontmatter](#frontmatter) information:
-  - `description`: a short description of the blog post
+  - [`description`](https://moz.com/learn/seo/meta-description): a short description of the blog post
   - `twitter_image`: not required, but recommended - an image to display on [social media](#social-media-info) feeds. The fallback is the cover image.
   - [`categories`](#categories): use either `release` or  `security release` for these posts.
 

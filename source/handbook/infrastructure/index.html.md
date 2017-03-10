@@ -72,17 +72,14 @@ There is one temporary exception: release managers require production access to 
 -  Automated tasks and schedules
   - Weekly automatic OS updates are performed on Monday at 10:10 UTC.
 - Monitoring: we do monitoring with prometheus leveraging available exporters like the node or the postgresql exporters, and we build whatever else is necessary within production engineering itself. We maintain 2 monitoring infrastructures:
-  - Public monitoring infrastructure:
+  - [Public monitoring infrastructure](http://monitor.gitlab.net/):
     - No auth is required
-    - Can be found at http://monitor.gitlab.net/
     - Is automatically sync from the private monitoring infrastructure on every chef client execution. Don't change dashboards here, they will be overwritten.
-  - Private monitoring infrastructure:
+  - [Private monitoring infrastructure](https://performance.gitlab.net):
     - Highly Available setup
     - Alerting feeds from this setup
     - Private GitLab account is required to access
-    - Separated from the public for security reasons
-    - Every dashboards that is labeled as _public_ will be copied over to the public monitoring infrastructure.
-    - Can be found at https://performance.gitlab.net
+    - Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB
 
 ## Documentation
 

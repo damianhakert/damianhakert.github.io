@@ -62,7 +62,17 @@ As you gain knowledge, you will be able to aid these key players in solving prob
 
 1. The [BDR Onboarding Issue](https://about.gitlab.com/handbook/marketing/demand-generation/business-development/bdr-onboarding-checklist.html) will more specifically bring you up to speed with your role as a BDR. Do not take this to be concrete. We hire very talented individuals who take initiative and advantage of the opportunities and situations presented to them. Be creative, learn and try different ways of doing things. We are excited to have you and cannot wait to see what you bring to the team!
 
-### Process/workflow<a name="bdring"></a>
+### Workflow/Lead Routing <a name="bdring"></a>
+
+#### MQL Definition
+A Marketing Qualified Lead (MQL) is a lead that reaches a certain point threshold based on a demographic information, engagement, and/or behavior. We have two MQL buckets: (1) hand raisers and (2) passive leads. 
+
+###### Hand Raisers (A Leads)
+Hand raisers are leads who have filled out a sales contact us form or signed up for a free EE trial. These leads are automatic MQLs regardless of demographic information because they have exhibited clear interest in GitLab’s ability to fulfill a software need. [These leads](https://docs.google.com/a/gitlab.com/document/d/1BLov9UTA08g3-HIsutyWx8-FJ83abUeXZcU4H0NzR5g/edit?usp=sharing) are auto-routed to the sales team. 
+###### Passive Leads
+Passive leads are leads who have not filled out a contact us form or signed up for a free EE trial. For a passive lead to become an MQL, they must meet our maximum lead score of 100. A passive lead becomes a MQL via a combination of demographic score and behavior/engagement score. See the lead scoring model below. 
+
+Because these leads can MQL without showing clear interest in GitLab paid products, they are routed to Business Development Representatives (BDRs) to qualify and assess sales-readiness.
 
 #### Inbound Process<a name="Inbound"></a>
 

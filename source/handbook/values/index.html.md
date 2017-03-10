@@ -101,7 +101,7 @@ There are exceptions, material that is not public by default is documented in th
 1. **Directness** is about being transparent with each other. We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Anyone and anything can be questioned** Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed.
-1. **Disagree and commit** everything can the questioned but as long as a decision is in place we expect people to commit to executing it, which is [a common principle](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+1. **Disagree and commit** everything can be questioned but as long as a decision is in place we expect people to commit to executing it, which is [a common principle](http://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
 
 ## Five dysfunctions
 

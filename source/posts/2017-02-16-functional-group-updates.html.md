@@ -2,7 +2,7 @@
 title: "GitLab's Functional Group Updates"
 author: GitLab
 author_twitter:
-categories:
+categories: Functional Group Updates
 image_title:
 description: "The Functional Groups at GitLab give an update on what they've been working on"
 ---
@@ -14,7 +14,8 @@ The format of these calls is simple and short where they can either give a prese
 
 ## Recordings
 
-All of the updates are recorded using [Zoom](https://zoom.us) at the time of the call. All the recordings will be uploaded to our Youtube account and made public, with the exception of the Sales and Finance updates.
+1. The call is recorded automatically using [Zoom](https://zoom.us) at the time of the call and all calls are transferred every hour to a Google Drive folder called "GitLab Videos", which is accessible to all users with a GitLab.com e-mail account.
+1. All the recordings will be uploaded to our Youtube account and made public, with the exception of the Sales and Finance updates.
 
 Below are the recordings of the updates of the last 3 weeks. We aim to post a blog every week with the latest updates but might combine them.
 
