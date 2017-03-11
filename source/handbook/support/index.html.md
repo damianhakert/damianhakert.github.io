@@ -263,6 +263,23 @@ We offer "implementation support" for new EE customers. This is similar to live 
   LDAP, SAML). However,  it **does include** integration of supported
   authentication frameworks into GitLab
 
+### Customer Trainings
+
+#### Sharing Recordings
+
+After each training session Zoom will notifiy when the recording is available. 
+All Zoom recordings are migrated over to Google drive and sent to trash on the 
+account which recorded the training.
+
+To share these videos with the customer login to Google Drive with the 
+`techsupport` Google account. The credentials for this account can be found in 
+1Password under the Support vault. 
+
+Now search for the recordings and move them to the `Customer Trainings` 
+directory. From there you can right click and choose to share by adding the 
+customer's email to the list and adding a quick note to remind them about why 
+they are receiving the invite. 
+
 ## Dedicated Service Engineers
 
 We offer Dedicated Service Engineers (DSE) for Resellers where the relationship is deemed to be more important than the quick turnaround. This means that tickets that arrive in Zendesk from people within the reseller's organization are routed to a dedicated SE by way of a trigger in Zendesk. (Note, until February 2017 we offered this service to Premium Support Customers, but deprecated it in favor of a faster SLA).
