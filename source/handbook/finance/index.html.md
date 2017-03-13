@@ -34,6 +34,36 @@ title: "Finance"
 
 For details on regular compensation, view the [People Ops page](/handbook/people-operations/#regular-compensation).
 
+### Corporate Metric Definitions
+We track a wide range of metrics on our corporate dashboard.  Many definitions are self evident but some arent.  
+
+Annual Recurring Revenue (ARR) - Recurring revenue recognized in current month multiplied by 12.  (Source data from Zuora)
+
+Bookings Total Contract Value (TCV) - All bookings in period (including multiyear); bookings is equal to billings with standard payment terms. (Source data from Salesforce reconciled to Zuora)
+
+Bookings Annual Contract Value (ACV) - Current Period subscription bookings which will result in revenue over next 12 months. (Source data from Salesforce reconciled to Zuora)
+
+Bookings Incremental Annual Contract Value (IACV) - Value of new bookings from new and existing customers that will result in revenue of next 12 months. Also equals ACV less renewals. (Source data from Salesforce reconciled to Zuora)
+
+Churn, Net - Current period revenue from customers present 12 months prior divided by revenue from 12 months prior. (Source data from excel; Zuora expected 2017-07-01)
+
+Churn, Gross (Dollar weighted) - Remaining cohorts from Actual Subscription customers active as of 12 months ago multiplied by revenue from 12 months ago divided by actual Subscription customers as of date 12 months prior multiplied by revenue from 12 months ago. (Source data from excel; Zuora expected 2017-07-01)
+
+Customer Acquisition Cost (CAC) - Total Sales & Marketing Expense/Number of New Customers Acquired (Source Zuora and Salesforce)
+
+Rep Productivity - Current Month [Metric] /# of Reps on board for at least 90 days prior to start of period. (Source data bamboo HR)
+
+Magic Number - IACV for trailing three months/Sales & Marketing Spend over trailing six months. (Source data Salesforce/Zuora and Netsuite)
+
+MQL - Marketing Qualified Lead (Source data Salesforce)
+
+SQL - Sales Qualified Lead (Source data Salesforce)
+
+Cost per MQL - Marketing expense divided by # MQLs (Source data Salesforce and Netsuite)
+
+
+
+
 ### Company accounts
 <a name="company-accounts"></a>
 
