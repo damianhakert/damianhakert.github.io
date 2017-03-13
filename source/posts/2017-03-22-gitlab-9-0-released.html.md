@@ -161,7 +161,7 @@ A GitLab issue board enables you manage a group of issues within a single milest
 
 ### New Merge Requests Search and Filter Interface
 
-We first introduced the new interface for searching and filtering issues in [8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/). With 9.0, we are bringing the same concept to merge requests and will steadily roll it out to other parts of GitLab too.
+We first introduced the new interface for searching and filtering issues in [8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/). With 9.0, we are bringing the same concept to merge requests and will steadily roll it out to other parts of GitLab too. We're also continuing to improve on the new design as well. As you see, we've "token-ized" the attributes in the search, to make it even more obvious what you are searching for.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
