@@ -79,6 +79,7 @@ Now we need to get an external IP address for the demo so that we can use a doma
 > * Click [`Reserve static address`](https://console.cloud.google.com/networking/addresses/add?project=gitlab-demos) at the top of the page.
 > * Set the name to match the name used for the cluster (e.g. `make-sid-dance`).
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
+> * **Warning:** The external IP **must not** be assigned to a cluster. It will be automatically assigned when creating the Application in a later step.
 > * Click the `Reserve` button at the bottom of the page.
 
 We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
