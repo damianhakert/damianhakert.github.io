@@ -19,21 +19,21 @@ Refer to the following Q&A to see who should participate in the 2016 performance
 
 Individual Contributor (IC) Self Reviews include these five questions:
 1. To what degree did you demonstrate GitLab’s core values?
-1. To what degree did you demonstrate the requirements in your job description?
-1. Considering your role and the 2016 strategic plan, to what degree did you contribute to your department’s goal?
-1. In what areas did you demonstrate the most growth in 2016?
-1. Looking forward, in what areas would you most like to develop your knowledge, skills and abilities?
+2. To what degree did you demonstrate the requirements in your job description?
+3. Considering your role and the 2016 strategic plan, to what degree did you contribute to your department’s goal?
+4. In what areas did you demonstrate the most growth in 2016?
+5. Looking forward, in what areas would you most like to develop your knowledge, skills and abilities?
 
 Manager Reviews for ICs include the same five questions and an overall performance summary.
 
 Manager Self Reviews include these six questions:
 1. To what degree did you demonstrate GitLab’s core values?
-1. To what degree did you demonstrate the requirements in your job description?
-1. Considering your role and the 2016 strategic plan, to what degree did you contribute to your department’s goal?
-1. Considering the actions below, how effective were you in developing a high performing team? Did you have regularly scheduled feedback meetings with each team member?
+2. To what degree did you demonstrate the requirements in your job description?
+3. Considering your role and the 2016 strategic plan, to what degree did you contribute to your department’s goal?
+4. Considering the actions below, how effective were you in developing a high performing team? Did you have regularly scheduled feedback meetings with each team member?
 Did you facilitate development opportunities, manage performance issues in a timely manner, identify strengths and weaknesses in the team and provide constructive guidance and coaching to team members?
-1. In what areas did you demonstrate the most growth in 2016?
-1. Looking forward, in what areas would you most like to develop your knowledge, skills and abilities?
+5. In what areas did you demonstrate the most growth in 2016?
+6. Looking forward, in what areas would you most like to develop your knowledge, skills and abilities?
 
 Manager reviews for Managers included the same six questions and an overall performance summary.
 
@@ -43,10 +43,10 @@ Manager reviews for Managers included the same six questions and an overall perf
 **Q: What are the rating responses?**
 **A:** Ratings options include:
 1. Below Expectations
-1. Met Expectations
-1. Exceeded Expectations
-1. Greatly Exceeded Expectations
-1. Truly Outstanding
+2. Met Expectations
+3. Exceeded Expectations
+4. Greatly Exceeded Expectations
+5. Truly Outstanding
 
 **Q: Do individuals rate their own performance?**
 **A:** Yes, both the self review and manager’s review require a rating for performance questions.  The manager’s review also includes an overall performance rating which will factor into the 2017 increase guidelines.
