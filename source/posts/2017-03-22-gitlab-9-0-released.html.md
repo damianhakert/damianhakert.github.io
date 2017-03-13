@@ -151,9 +151,13 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 ### Issue Boards Improvements
 
-- Yes! Now we can reorder cards within a list at our will. Previously, they were
-ordered automatically based on priority labels.
-- With GitLab Enterprise Edition Starter you can also associate Issue Boards with a milestone.
+Issue Boards are a great way to manage issues moving through the different stages (which we call lists) of getting an idea to production code. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+
+![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+
+A GitLab issue board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an issue board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too.
+
+![Boards Reorder](/images/9_0/boards_milestone.gif){: .shadow}
 
 <!--
 
