@@ -1,5 +1,5 @@
 - title: Webinars
-  data: 
+  data:
     - title: From continous integration to continuous everything
       url: https://page.gitlab.com/20170301_continuouseverything.html
     - title: Simplifying the Software Development Lifecycle
@@ -8,6 +8,6 @@
       url: http://get.gitlab.com/coe-review-webinar/
 
 - title: Reports
-  data: 
+  data:
     - title: 2016 Global Developer Report
       url: http://get.gitlab.com/global-developer-survey/
