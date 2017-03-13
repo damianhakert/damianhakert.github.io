@@ -5,7 +5,7 @@ author_twitter: emvonhoffmann
 author_gitlab: evhoffmann
 categories: concepts
 image_title: '/images/stock/ee-products-hero-image.jpg'
-description: What happens when you get two transparency champions in a (virtual) room together?
+description: The two transparency advocates recently met to chat about openness in business, what they keep confidential, and some things they've learned as their companies grow. 
 ---
 
 “I feel like I know you already,” seemed like a sentiment shared by both men, since each has a vast public footprint online. This isn’t an accident, but a result of their shared philosophy that the traditional business’ tendency towards secrecy is not only unnecessary, but at times wrongheaded and even harmful. 
