@@ -165,6 +165,11 @@ We first introduced the new interface for searching and filtering issues in [8.1
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
+### Create Mattermost Team when Creating GitLab Group
+
+When collaborating with a GitLab group, it is helpful to chat in an associated Mattermost team. With 9.0, you can now automatically create a Mattermost Team when you create a GitLab group. Simply check the checkbox, and GitLab will tell Mattermost to create a team with the same name.
+
+![Create GitLab Group Create Mattermost Team](/images/9_0/group-creation-mm.png){: .shadow}
 
 <!--
 
