@@ -139,7 +139,8 @@ Yes.
 
 ### What level of support does the service provide?
 
-For assistance with issues that are specific to GitHost, we offer next-business day response times. You should receive a dedicated email address to reach the support team when you sign up for the service.
+For assistance with issues that are specific to GitHost, we offer next-business day response times. 
+Please submit your support request through the [support portal](https://support.gitlab.com/).
 
 ### If I subscribe to GitLab Enterprise and use GitHost how do I get support?
 
