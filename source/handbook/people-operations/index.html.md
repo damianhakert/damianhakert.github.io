@@ -21,6 +21,7 @@ title: "People Operations"
 - [People Operations System Processes](/handbook/people-operations/system-processes/)
 - [Functional Group Updates](/handbook/people-operations/functional-group-updates)
 - [OKRs and LatticeHQ](/handbook/people-operations/okr/)
+- [Performance Reviews](/handbook/people-operations/performance-reviews/)
 - [Leadership](/handbook/leadership/)
 - [Visas](/handbook/people-operations/visas)
 
