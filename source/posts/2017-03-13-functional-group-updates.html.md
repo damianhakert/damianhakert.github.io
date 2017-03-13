@@ -49,6 +49,7 @@ All of the updates are recorded using [Zoom](https://zoom.us) at the time of the
 <!-- end of the FG block -->
 
 ----
+
 ### PeopleOps Team
 
 [Presentation slides](https://docs.google.com/presentation/d/1KWMtlGoCpPqD_JT1NdyjjXvvcHHotq22aX3EaJokCFw/edit#slide=id.g153a2ed090_0_63)
