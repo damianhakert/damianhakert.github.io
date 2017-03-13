@@ -590,7 +590,12 @@ Here is the ideal rollout schedule. For each step, there is the indication about
 who is responsible for it.
 
 1. Feature is drafted in an issue (PM)
+    * Business Problem this feature solves for documented. 
+    * The impact of this business problem on organziations documented
+    * Competitive analysis done.  Who else can solve this problem?  What are our advantages and disadvantages?  How do we sell against the competition? How does the competition charge for their solution?
+    * Who is the ideal audience for this new feature?
 2. Feature is planned in an upcoming release (PM)
+    * Go To Market strategy developed with marketing and customer success.  How do we drive awareness and interest in our customer base and attract new customers?
 3. A feature proposal blog post is made (PM or Dev), where we'll describe
 	* What we are planning on doing,
 	* How you'll be able to buy it: CE or any EE Editions,
