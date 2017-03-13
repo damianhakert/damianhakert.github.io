@@ -18,12 +18,6 @@ Buffer has made their financial model predicting the company’s health availabl
 
 Here are some highlights from their conversation, which, naturally, they wanted to share. 
 
-## How Do You Share Salary and Career Progression Info?
-
-**Sid:** We’re early to the salary calculator; we created bands so that engineers can make progress while not becoming a manager. GitLab does not make actual salaries public because raises are based on performance, which is one of the rare things that we tightly guard. This is becoming a challenge because there seems to be uneven progression available on the business and engineering sides; we’re still working on how to create a clear growth path on the business side. 
-
-**Joel:** We use a salary formula to calculate each team member's salary. Within the formula we have four levels: Entry Level, Intermediate, Advanced, and Master. In practice, we realized that these various levels left room for bias, and it wasn’t clear how one person might go from “Intermediate” to “Advanced”, for example, so we started thinking about putting together a clear career progression framework throughout Buffer. We're including more explicit definitions and suggesting timeframes to move from one level to another. Our goal is to apply this framework across all teams at Buffer. We have evolved the framework to include levels on the engineering side by designating people as “engineer 1, 2 3,” etc., and we’re also aiming to provide the same clarity amongst other teams. Our happiness (customer support) and marketing teams are currently working on their career paths as well.
-
 ## Which Things Do You Keep Categorically Confidential? 
 
 **Sid:** We never talk about conditions under which people leave the company, and performance feedback is never public. We’re worried about information being damaging to the person when they apply for new jobs and give reference calls. We think it’s unfair because the person cannot share their perspective. It’s hard when a colleague leaves the company and the team is accustomed to total openness, but we think that this is a case where transparency could harm the person who left. They shouldn’t be punished in seeking new opportunities simply because we’re likely more transparent than their new employer. We used to say that the person was on a performance improvement plan (PIP) and it didn’t work, but stopped because PIPs gained a negative connotation. We’re working to replace it with a [proactive, positive way](https://about.gitlab.com/handbook/underperformance/) to help people grow in their roles.  
@@ -37,6 +31,12 @@ Here are some highlights from their conversation, which, naturally, they wanted 
 **Joel:** Buffer uses the phrase “cultural contribution,” for similar reasons; we want to focus more on what people bring to their jobs. Do you have a scorecard for assessing different factors?
 
 **Sid:** Not yet. That could be beneficial going forward to see how top performers scored in different areas. During the interview I use 12 questions [on the website](https://docs.google.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform) that applicants answer ahead of time. It’s not all qualitative, though. Our technical standards are very high and developers have to actually develop something on GitLab.
+ 
+## How Do You Share Salary and Career Progression Info?
+
+**Sid:** We’re early to the salary calculator; we created bands so that engineers can make progress while not becoming a manager. GitLab does not make actual salaries public because raises are based on performance, which is one of the rare things that we tightly guard. This is becoming a challenge because there seems to be uneven progression available on the business and engineering sides; we’re still working on how to create a clear growth path on the business side. 
+
+**Joel:** We use a salary formula to calculate each team member's salary. Within the formula we have four levels: Entry Level, Intermediate, Advanced, and Master. In practice, we realized that these various levels left room for bias, and it wasn’t clear how one person might go from “Intermediate” to “Advanced”, for example, so we started thinking about putting together a clear career progression framework throughout Buffer. We're including more explicit definitions and suggesting timeframes to move from one level to another. Our goal is to apply this framework across all teams at Buffer. We have evolved the framework to include levels on the engineering side by designating people as “engineer 1, 2 3,” etc., and we’re also aiming to provide the same clarity amongst other teams. Our happiness (customer support) and marketing teams are currently working on their career paths as well.
  
 ## How Has Your Approach Been Challenged as You Grow? 
 
