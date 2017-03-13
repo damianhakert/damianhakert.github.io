@@ -22,12 +22,13 @@ We were all really touched by the love our community sent us via [#HugOps](https
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Offering a heartfelt <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a> to my friends at <a href="https://twitter.com/gitlab">@gitlab</a>. Good people taking care of a tough situation. We are all here with you!</p>&mdash; Jono Bacon (@jonobacon) <a href="https://twitter.com/jonobacon/status/826828642151862272">February 1, 2017</a></blockquote>
   </div>
   <div class="col-md-6 col-sm-12 center">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/gitlab">@gitlab</a> I wish I could hug Team-member-1.</p>&mdash; Julita P. (@JulitaPyta) <a href="https://twitter.com/JulitaPyta/status/828001828193312769">February 4, 2017</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">All the <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a> in the world to the GitLab team for fixing their services. And *massive* respect for their communication about the issue.</p>&mdash; ma//:as (@mattiasgeniar) <a href="https://twitter.com/mattiasgeniar/status/826997025963122688">February 2, 2017</a></blockquote>
   </div>
 </div>
 
-At the end of the day, we are all _team-member-1_:
+### At the end of the day, we are all _team-member-1_
 
+<br>
 <div class="row">
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Who is not the &quot;team-member-1&quot;? <a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a></p>&mdash; Erkan Erol (@erkan_erol_) <a href="https://twitter.com/erkan_erol_/status/827040981677649921">February 2, 2017</a></blockquote>
@@ -45,6 +46,7 @@ The support our engineers received from our community was fantastic, people were
 
 <div class="center">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Much love to YP &amp; <a href="https://twitter.com/gitlab">@gitlab</a> staff recovering from a cascade of IT disasters. Deep breaths. Don&#39;t panic. Just do the next right step. <a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a></p>&mdash; Indie Game Alliance (@IndieGameAllies) <a href="https://twitter.com/IndieGameAllies/status/826888908390662144">February 1, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Man….big ups to <a href="https://twitter.com/gitlab">@gitlab</a> today. Wishing you best of luck. The transparency is amazing. <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a></p>&mdash; Jeff Smith (@DarkAndNerdy) <a href="https://twitter.com/DarkAndNerdy/status/826824143307997188">February 1, 2017</a></blockquote>
 </div>
 
 ### Gifts
@@ -97,6 +99,21 @@ How could we value transparency if our team members were afraid of assuming thei
 
 > _It is not our intent to have one of our team members implicated by the transparency. (...) We are very aware of the stress that such a mistake might cause and the rest of the team has been very supportive. (...) We recognize the risk to the company of being transparent, but your values are defined by what you do when it is hard._ [Sytse, CEO](https://news.ycombinator.com/item?id=13622645).
 
+### Transparency
+
+People expressed a lot of appreciation for our transparency:
+
+<div class="row">
+<div class="col-md-6 col-sm-12 center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kudos got <a href="https://twitter.com/gitlab">@gitlab</a> on their level of transparency.  I have a lot of respect for you...</p>&mdash; Ben Kuhl (@bkuhlorelse) <a href="https://twitter.com/bkuhlorelse/status/826797385410080768">February 1, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Whoah! Really big kudos for <a href="https://twitter.com/gitlab">@gitlab</a> and the updates at <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a> ! Being honest about mistakes, transparency and the whole story!</p>&mdash; Rob Haverkamp (@rjrhaverkamp) <a href="https://twitter.com/rjrhaverkamp/status/826761189057236992">February 1, 2017</a></blockquote>
+</div>
+<div class="col-md-6 col-sm-12 center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is next level corporate transparency. Kudos to <a href="https://twitter.com/gitlab">@gitlab</a>! <a href="https://t.co/ZvHicD7TK3">https://t.co/ZvHicD7TK3</a></p>&mdash; Thomas Chappelow (@tomchappelow) <a href="https://twitter.com/tomchappelow/status/826715341044772865">February 1, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Serious props and respect to the <a href="https://twitter.com/gitlab">@gitlab</a> team during the recent incident. transparency++; you&#39;ve all set a new standard <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a></p>&mdash; Laura Frank (@rhein_wein) <a href="https://twitter.com/rhein_wein/status/826875055703543808">February 1, 2017</a></blockquote>
+</div>
+</div>
+
 ## Team-member-1
 
 After the DB incident, we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
@@ -142,7 +159,7 @@ For those developers involved in the outage, we made a special T-shirt:
 
 {::options parse_block_html="false" /}
 
-We've received a lot of requests from our team members to join the club and be _team-member-1_, but this T-shirt is exclusive for the real team-member-ones, who took care of GitLab.com during its worst hours.
+We've received a lot of requests from our team members to join the club and be _team-member-1_, but this T-shirt is exclusive for the real team-member-ones, who transparently and efficiently took care of GitLab.com during its worst hours.
 
 ## Wrapping Up
 
