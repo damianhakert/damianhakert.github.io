@@ -6,6 +6,7 @@ author_twitter:
 categories: inside GitLab
 image_title: '/images/blogimages/how-is-team-member-1-doing/team-member-1.jpg'
 description: "People asked how team-member-1 is doing after we overcame the DB incident. We're here to tell you that!"
+ee_cta: false
 ---
 
 The person that gave the unfortunate command to [delete our primary database](/2017/02/01/gitlab-dot-com-database-incident/) was not only on our minds but also of other people.
@@ -150,6 +151,8 @@ At GitLab, we value most positive achievements and performance improvements of o
 Of course, we take situations like this very seriously, but we'd rather learn from them, and put all our efforts to avoid that they happen again, than punishing honest and talented people for mistakes that can happen to anyone.
 
 > _What doesn't kill you makes you stronger._ ([Ref](https://news.ycombinator.com/item?id=13621356))
+
+----
 
 Do you agree with our approach? [Join us](/jobs/)! If you don't agree, please explain us why by leaving a comment below.
 
