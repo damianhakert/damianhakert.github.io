@@ -3,9 +3,9 @@ title: "How is team-member-1 doing?"
 author: 
 author_gitlab: 
 author_twitter: 
-categories: 
-image_title: '/images/blogimages/how-is-team-member-1-doing/team-member-1.png' # or other image
-description: 
+categories: inside GitLab
+image_title: '/images/blogimages/how-is-team-member-1-doing/team-member-1.jpg'
+description: "People asked how team-member-1 is doing after we overcame the DB incident. We're here to tell you that!"
 ---
 
 The person that gave the unfortunate command to [delete our primary database](/2017/02/01/gitlab-dot-com-database-incident/) was not only on our minds but also of other people.
@@ -32,7 +32,6 @@ At the end of the day, we are all _team-member-1_:
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Who is not the &quot;team-member-1&quot;? <a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a></p>&mdash; Erkan Erol (@erkan_erol_) <a href="https://twitter.com/erkan_erol_/status/827040981677649921">February 2, 2017</a></blockquote>
     <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a> to <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a> <a href="https://twitter.com/gitlab">@gitlab</a> - we&#39;ve all been there. You&#39;ve got this! 💙🤖</p>&mdash; CircleCI (@circleci) <a href="https://twitter.com/circleci/status/826829739545415680">February 1, 2017</a></blockquote>
     <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/gitlab">@gitlab</a> welcome to the club:) You will be stronger than ever. Just keep on improving and never give up. 🤗 <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a></p>&mdash; Lemi Orhan Ergin (@lemiorhan) <a href="https://twitter.com/lemiorhan/status/826858037994483712">February 1, 2017</a></blockquote>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/JeSuisTeamMember1?src=hash">#JeSuisTeamMember1</a> <a href="https://twitter.com/hashtag/GitLab?src=hash">#GitLab</a> <a href="https://t.co/bxvag3XdXV">pic.twitter.com/bxvag3XdXV</a></p>&mdash; kiru (@karmukis) <a href="https://twitter.com/karmukis/status/826875580465414145">February 1, 2017</a></blockquote>
@@ -71,10 +70,11 @@ A group from Google came to our HQ and got our engineers $300 to spend on someth
 {::options parse_block_html="false" /}
 
 
-❤️ &nbsp;**Thank you Cole Fresh Group and Google Team!**&nbsp; ❤️
+❤️ &nbsp;**Thank you Cole Fresh and Google!**&nbsp; ❤️
 {: .alert .alert-gitlab-purple .text-center}
 
-The engineers involved have agreed that this extremely generous gift will be spent on sponsoring Rails Girls events.
+The engineers involved have agreed that this extremely generous gift from Google will be spent on sponsoring Rails Girls events. But the cookies were obviously eaten by the one who grabbed the pack! 😛
+
 At GitLab we're very proud of this initiative and will get the engineers involved matching swag for their next livestream event and will enjoy some team bonding fun soon.
 
 Needless to say, some special thank you swag is on it's way to these amazing people that took the time to come to our office and try to help us feel a bit better.
@@ -120,20 +120,38 @@ Yes, _team-member-1_ is doing very well!
 
 Coincidentally, just before the DB incident, _team-member-1_ had qualified for a promotion to senior developer. The outage did not change that decision.
 
-> Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance) - [GitLab PeopleOps Handbook](https://about.gitlab.com/handbook/people-operations/#promotions)
+> _Promotions are to be based on meeting the criteria of the role the individual is to be promoted in to (i.e. promote based on performance)_ - [GitLab PeopleOps Handbook](https://about.gitlab.com/handbook/people-operations/#promotions)
 
-When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.com/handbook/incentives/#discretionary-bonuses), we share the reasons for that with the whole company. With the permission of _team-member-1_ this blog post is both the internal and external announcement of that promotion.
+When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.com/handbook/incentives/#discretionary-bonuses), we share the reasons for that with the whole company. With the permission of _team-member-1_, this blog post is both the internal and external announcement of that promotion.
+
+### We support each other
+
+For those developers involved in the outage, we made a special T-shirt:
+
+{::options parse_block_html="true" /}
+
+<div class="row">
+<div class="col-md-6 col-sm-12 center-block">
+![T-shirt front](/images/blogimages/how-is-team-member-1-doing/tshirt-front.png){: .center-block}
+</div>
+<div class="col-md-6 col-sm-12 center-block">
+![T-shirt back](/images/blogimages/how-is-team-member-1-doing/tshirt-back.jpg){: .center-block}
+</div>
+</div>
+
+{::options parse_block_html="false" /}
+
+We've received a lot of requests from our team members to join the club and be _team-member-1_, but this T-shirt is exclusive for the real team-member-ones, who took care of GitLab.com during its worst hours.
 
 ## Wrapping Up
 
-At GitLab, we value mostly the positive achievements and the performance of our team members, instead of focusing on negative random situations.
+At GitLab, we value most positive achievements and performance improvements of our team members, instead of focusing our attention on negative random situations.
 
-Of course, we take situations like this very seriously, but we'd rather learn from our them, and put all our efforts to avoid that they happen again, than punishing honest and talented people for them.
+Of course, we take situations like this very seriously, but we'd rather learn from them, and put all our efforts to avoid that they happen again, than punishing honest and talented people for mistakes that can happen to anyone.
 
-> What doesn't kill you makes you stronger. ([Ref](https://news.ycombinator.com/item?id=13621356))
+> _What doesn't kill you makes you stronger._ ([Ref](https://news.ycombinator.com/item?id=13621356))
 
 Do you agree with our approach? [Join us](/jobs/)! If you don't agree, please explain us why by leaving a comment below.
-
 
 <style>
 	.center-block {
@@ -151,7 +169,6 @@ Do you agree with our approach? [Join us](/jobs/)! If you don't agree, please ex
     padding-top: 12.175%;
   }
 }
-
 </style>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
