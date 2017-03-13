@@ -16,7 +16,9 @@ For the _what_, see [Product Strategy](/direction/strategy).
 # Who to talk to for what
 
 If you have any product-related questions, comments, input or otherwise,
-the product manager is the primary person you should talk to.
+the product manager is the primary person you should talk to,
+_if creating an issue does not suffice_. Otherwise, [read this section on how
+to create an issue](/handbook/product/#how-to-submit-a-new-issue).
 
 This includes, but is not limited to features, bugs and other
 changes that need more attention, be prioritized, changed, or discussed.
