@@ -4,6 +4,8 @@ title: "2016 Performance Reviews"
 ---
 
 
+### Performance Review Process
+
 The following Q & A and process steps explains who should participate in the 2016 performance review process, when reviews must be completed and how the information collected will be used. If you did not receive an invitation from Lattice, and you believe you should have after reading the information below, please email People Ops so we can resolve any issues quickly.
 
 **Q: Why are we doing 2016 performance reviews?**
@@ -85,20 +87,21 @@ Once People Ops launches a review cycle you should receive an email invitation f
 * Login to Lattice
 * If not immediately directed to the Reviews tab:
 
-      * Click ***Reviews*** (at the top of the Home screen) ***> Review Cycles > Active***
-* Click ***Perform Reviews >*** begin Self Review
+* Click ***Reviews*** (at the top of the Home screen) ***> Review Cycles >*** ***Active***
 
-      * All questions require an answer
+* Click ***< Perform Reviews >*** begin Self Review
 
-      * Answers will auto save as you complete the review form
+* All questions require an answer
+
+* Answers will auto save as you complete the review form
 
 * Click ***Save and Exit*** (at the top right corner) to save your work and come back later to finish your review.
 
 * Click ***Submit Review*** when finished
 
-      * Reviews are editable until the review cycle is closed
+* Reviews are editable until the review cycle is closed
 
-      * People Ops will publish a notice before closing a review cycle
+* People Ops will publish a notice before closing a review cycle
 
 * Managers can view self reviews as they are submitted by their direct reports
 
@@ -106,7 +109,7 @@ Once People Ops closes a review cycle:
 * Managers will see a review packet for their direct reports
 * Click ***Share with***  ____ to share the review packet with your direct reports (the review will not be shared until you take action)
 
-       * You can also download a PDF version of your direct report’s review packet
+* You can also download a PDF version of your direct report’s review packet
 
 * Direct reports will receive an email from Lattice when a review packet has been sent to you.
 
