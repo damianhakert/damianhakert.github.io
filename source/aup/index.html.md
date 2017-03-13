@@ -14,9 +14,8 @@ This Acceptable Use Policy (this “Policy”) describes prohibited uses of the 
 
 You may not use, or encourage, promote, facilitate or instruct others to use GitLab.com for any illegal, harmful, fraudulent, infringing or offensive use, or to transmit, store, display, distribute or otherwise make available content that is illegal, harmful, fraudulent, infringing or offensive. Prohibited activities or content include:
 
-- Illegal, Harmful or Fraudulent Activities. Any activities that are illegal, that violate the rights of others, or that may be harmful to others, our operations or reputation, including disseminating, promoting or facilitating pornography, offering or disseminating fraudulent goods, services, schemes, or promotions, make-money-fast schemes, ponzi and pyramid schemes, phishing, or pharming.
-- Infringing Content. Content that infringes or misappropriates the intellectual property or proprietary rights of others.
-- Offensive Content. Content that is defamatory, obscene, abusive, invasive of privacy, or otherwise objectionable, including content that constitutes child pornography, relates to bestiality, or depicts non-consensual sex acts.
+- Illegal, Harmful or Fraudulent Activities. Any activities that are illegal, that violate the rights of others, or that may be harmful to others, our operations or reputation.
+- Infringing or Offensive Content. Content that infringes or misappropriates the intellectual property or proprietary rights of others as well as content that is defamatory, obscene, abusive.
 - Harmful Content. Content or other computer technology that may damage, interfere with, surreptitiously intercept, or expropriate any system, program, or data, including viruses, Trojan horses, worms, time bombs, or cancelbots.
 
 ### No Security Violations
@@ -34,8 +33,8 @@ You may not make network connections to any users, hosts, or networks unless you
 - Monitoring or Crawling. Monitoring or crawling of a System that impairs or disrupts the System being monitored or crawled.
 - Denial of Service (DoS). Inundating a target with communications requests so the target either cannot respond to legitimate traffic or responds so slowly that it becomes ineffective.
 - Intentional Interference. Interfering with the proper functioning of any System, including any deliberate attempt to overload a system by mail bombing, news bombing, broadcast attacks, or flooding techniques.
-- Operation of Certain Network Services. Operating network services like open proxies, open mail relays, or open recursive domain name servers.
-- Avoiding System Restrictions. Using manual or electronic means to avoid any use limitations placed on a System, such as access and storage restrictions.
+- Abuse of Certain Network Services. Operating network services like open proxies, open mail relays, or open recursive domain name servers. Using Services for bitcoin mining.
+- Avoiding System Restrictions. Using manual or electronic means to avoid any use limitations placed on a System, such as access restrictions, storage restrictions, and blocking internal monitoring.
 
 ### No E-Mail or Other Message Abuse
 
