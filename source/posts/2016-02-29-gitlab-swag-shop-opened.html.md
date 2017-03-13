@@ -7,7 +7,7 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/tshirts.jpg'
 ---
 
-We're delighted to announce [GitLab Swag Shop](https://get.printfection.com/sjzyy/8688085589) is now opened!
+We're delighted to announce [GitLab Swag Shop](https://gitlab.myshopify.com/) is now opened!
 We're starting with essentials: Some nifty t-shirts and stickers.
 
 Up-to-date information about GitLab Swag

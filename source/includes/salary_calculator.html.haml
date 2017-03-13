@@ -2,6 +2,7 @@
 - current_page.data.extra_css |= ['salary-calculator.css']
 
 - current_page.data.extra_js ||= []
+- current_page.data.extra_js |= ['libs/clipboard.min.js']
 - current_page.data.extra_js |= ['salary-calculator.js']
 
 - job= data.jobs.select{|p| p.title.downcase == title.downcase }

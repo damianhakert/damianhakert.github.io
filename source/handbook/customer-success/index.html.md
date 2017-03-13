@@ -8,6 +8,7 @@ title: "Customer success"
 - [On-boarding of premium support clients](premium_support_on-boarding/)
 - [How to engage a Customer Success Engineer](engaging/)
 - [Account Expansion Template](account-expansion/)
+- [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24)
 
 ## Customer Segmentation
 Customer Success segments the market based on IT or TEDD employees

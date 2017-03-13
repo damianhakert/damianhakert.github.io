@@ -62,4 +62,5 @@
         = partial "includes/blog/comments"
 
       = partial "includes/layout/footer"
-      = partial "includes/features/gitlab-ee-trial"
+      - unless current_page.data.ee_cta == false
+        = partial "includes/features/gitlab-ee-trial"

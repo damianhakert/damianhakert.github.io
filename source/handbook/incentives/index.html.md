@@ -33,7 +33,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
-   * The manager should send a brief email that explains the bonus (same as the team call blurb) and states the amount to People Ops and our Controller who will [process](/handbook/people-ops/#using-trinet) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
+   * The manager should send a brief email that explains the bonus (same as the team call blurb) and states the amount to People Ops and our Controller who will [process](/handbook/people-operations/system-processes/#using-trinet) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
 1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
@@ -51,7 +51,7 @@ once the new team member has been with the company for 3 months.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 1. You can also submit passive referrals for our [global recruiters](https://about.gitlab.com/jobs/global-recruiter) to actively connect with via the passive [referral form](https://goo.gl/forms/1rNIYpdgDB3qXBAi2)
 
-People Ops will [process](/handbook/people-operations/sop/#enter-a-bonus-into-trinet) the bonus.
+People Ops will [process](/handbook/people-operations/system-processes/#enter-a-bonus-into-trinet) the bonus.
 
 ### Work Remotely Travel Grant
 

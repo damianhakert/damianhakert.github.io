@@ -65,7 +65,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 |-----|----------------------------|----------------------------------------|
 | 1   | [Emergencies (Premium Customers only)](/handbook/support/channels/#emergency-tickets)                | 30 minutes                             |
 | 2   | [Premium Customer - Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets)                | 4 hrs (business)                             |
-| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/#security-disclosures) | 1 business day                         |
+| 3   | [Regular Tickets](/handbook/support/channels/#regular-zendesk-tickets) and [Security](/handbook/support/channels/#security-disclosures) | 1 business day                         |
 
 **Response time indicates the first reply time.**
 
@@ -262,6 +262,23 @@ We offer "implementation support" for new EE customers. This is similar to live 
 - Establishing a third party authentication & authorization solution (such as
   LDAP, SAML). However,  it **does include** integration of supported
   authentication frameworks into GitLab
+
+### Customer Trainings
+
+#### Sharing Recordings
+
+After each training session Zoom will notifiy when the recording is available. 
+All Zoom recordings are migrated over to Google drive and sent to trash on the 
+account which recorded the training.
+
+To share these videos with the customer login to Google Drive with the 
+`techsupport` Google account. The credentials for this account can be found in 
+1Password under the Support vault. 
+
+Now search for the recordings and move them to the `Customer Trainings` 
+directory. From there you can right click and choose to share by adding the 
+customer's email to the list and adding a quick note to remind them about why 
+they are receiving the invite. 
 
 ## Dedicated Service Engineers
 

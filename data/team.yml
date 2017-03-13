@@ -148,7 +148,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI/CD Lead</a>
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -382,7 +382,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
@@ -470,7 +470,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
@@ -621,6 +621,7 @@
   twitter: asumaran
   gitlab: alfredo1
   maintains:  |
+                <li>FE Architectural <a href="/jobs/expert/">Expert</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
                 <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
@@ -634,7 +635,7 @@
   locality: Zeist
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
@@ -656,6 +657,7 @@
   gitlab: iamphill
   maintains:  |
                 <li>Frontend merge request reviewer</li>
+                <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
                 <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
@@ -901,7 +903,7 @@
 - name: Marcia Ramos
   locality: Quatro Barras
   country: Brazil
-  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
+  role: <a href="https://about.gitlab.com/jobs/junior-technical-writer/">Junior Technical Writer</a>
   reports_to: Technical Writing Lead
   picture: marcia.jpg
   twitter: XMDRamos
@@ -926,6 +928,7 @@
   gitlab: fatihacet
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
+              <li>FE Architectural <a href="/jobs/expert/">Expert</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
@@ -965,7 +968,7 @@
   locality: Taipei
   country: Taiwan
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: CI Lead
+  reports_to: CI/CD Lead
   picture: jen-shin.jpg
   twitter: godfat
   gitlab: godfat
@@ -1055,7 +1058,7 @@
   locality: Madrid
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
-  reports_to: UX Lead
+  reports_to: Interim UX Lead
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
   gitlab: cperessini
@@ -1070,7 +1073,7 @@
   locality: Taipei
   country: Taiwan
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: UX Lead
+  reports_to: Interim UX Lead
   picture: hazel.jpg
   twitter: hazelyuyang
   gitlab: hazelyang
@@ -1115,8 +1118,8 @@
 - name: Taurie Davis
   locality: Portland, OR
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/ux-designer/">Senior UX Designer</a>
-  reports_to: UX Lead
+  role: <a href="https://about.gitlab.com/jobs/ux-lead/">Interim UX Lead</a>
+  reports_to: VP of Engineering
   picture: taurie.jpg
   twitter: tauried
   gitlab: tauriedavis
@@ -1267,7 +1270,7 @@
   locality: Breda
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: UX Lead
+  reports_to: Interim UX Lead
   picture: dimitrie.jpg
   twitter: dimitrieh
   gitlab: dimitrieh
@@ -1408,7 +1411,7 @@
   locality: Lisbon
   country: Portugal
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: UX Lead
+  reports_to: Interim UX Lead
   picture: pedro.jpg
   twitter: pedromscom
   gitlab: pedroms
@@ -1425,19 +1428,10 @@
   gitlab: filipa
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
+              <li>Frontend CI <a href="/jobs/expert/">expert</a></li>
+              <li>Frontend Architect <a href="/jobs/expert/">expert</a></li>
   story:  |
           Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
-
-- name: Allison Whilden
-  locality: Seattle, WA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/ux-lead/">UX Lead</a>
-  reports_to: VP of Engineering
-  picture: allisonwhilden.png
-  twitter: awhildy
-  gitlab: awhildy
-  story:  |
-          Allison is exhilarated by learning about and improving how people interact with technology. She is obsessed with finding the right problems to solve, and determined to solve them. In her free time, you can find her eagerly learning new skills, crafting something in her workshop, or curling up with a good book.
 
 - name: Elsje Smart
   locality: Marazion
@@ -1505,7 +1499,7 @@
   locality: Durham, N.C.
   country: USA
   role: <a href="/jobs/marketing-intern/">Marketing Intern</a>
-  reports_to: Interim VP of Marketing
+  reports_to: Content Marketing Manager
   picture: emilyvonhoffmann.JPG
   twitter: emvonhoffmann
   gitlab: evhoffmann
@@ -1777,7 +1771,7 @@
   locality: London
   country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/content-editor/">Content Editor</a>
-  reports_to: Interim VP of Marketing
+  reports_to: Content Marketing Manager
   picture: rebecca-dodd.jpg
   twitter: Reberoodle
   gitlab: rebeccad
@@ -1833,7 +1827,7 @@
   locality: Manchester
   country: United Kingdom
   role: <a href="https://about.gitlab.com/jobs/ux-researcher/">UX Researcher</a>
-  reports_to: UX Lead
+  reports_to: Interim UX Lead
   picture: sarah_odonnell.jpeg
   twitter: saraheod
   gitlab: sarahod
@@ -2197,7 +2191,7 @@
           John lives in Colorado "Where the mountains touch the sky and rivers bend" as sung by the a Colorado band called The Samples. John has worked with top-tier companies for agile transformation and DevOps. In his sparetime, John can be found on an ice rink either playing or coaching his son and daughter who play competitive hockey.
 
 - name: Adam Mulvany
-  locality: Melbourne 
+  locality: Melbourne
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
@@ -2218,27 +2212,21 @@
   story:  |
           Joining March 1st
 
-- name: B.V.
-  locality:
-  country:
+- name: Bob Van Landuyt
+  locality: Mechelen, Antwerp
+  country: Belgium
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Platform Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: bob.png
+  twitter: bobvlanduyt
+  gitlab: reprazent
   story:  |
-          Joining March 6th
-
-- name: B.P.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
-  reports_to: Regional Sales Director - US
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining March 13th
+          Bob has a keen eye for the good stuff. He's always on the lookout for software that looks nice and gets out of the way.
+          He started tinkering on his SE/30 and never stopped.
+          Since 2009 he has been developing web apps and backends in Ruby on Rails that match his own expectations.
+          Preferably on a mech keyboard that sounds as beautiful as it looks.
+          He listens only to the best of books and reads the greatest music (or vice versa) while roaming between Belgium and Poland.
+          Firm believer in the standing desk, having a beard and learning by living.
 
 - name: P.A.
   locality:
@@ -2249,7 +2237,29 @@
   twitter:
   gitlab:
   story:  |
-          Joining March 15th
+          Joining March 6th
+
+- name: S.W.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive-emea/">Junior Account Executive EMEA</a>
+  reports_to: Regional Sales Director - EMEA
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 27th
+
+- name: K.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/director-customer-success/">Director of Customer Success</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 3rd
 
 - name: "Ernst (Interim)"
   placeholder: true

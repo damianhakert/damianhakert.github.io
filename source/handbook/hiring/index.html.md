@@ -11,7 +11,7 @@ title: "Hiring"
 
 ## Hiring Introduction
 
-GitLab is committed to hiring the best talent through an open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/global-recruiter) as part of People Operations. The following information on our process has two main objectives:
+GitLab is committed to hiring the best talent through an open and fair hiring process. Our hiring is managed by our [Global Recruiters](https://about.gitlab.com/jobs/recruiter/) as part of People Operations. The following information on our process has two main objectives:
 1. It is meant to be instructive for GitLab employees on how to conduct interviews and best hiring practices.
 1. It acts as an informative tool for applicants during the process to better anticipate and prepare for interviews and next steps. For job-specific hiring information, applicants can now reference the *hiring process* section of each job description. For general information review the [typical process](#typical-process) and for details on our interviews refer to [screening](#screening-call), [interviewing](#interviewing), and [interview questions](#ceo-interview-questions).
 
@@ -237,6 +237,8 @@ These questions should be aligned with our company values. What we are looking f
 
 Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
 
+For a brief explanation about how behavioral interviews work refer to [this video](https://drive.google.com/a/gitlab.com/file/d/0B0peM56mhGBEcXk2N2U3b05NNWc/view?usp=sharing) (GitLab's internal use only)
+
 ### Interview feedback
 
 Always leave feedback, this will help everyone to understand what happened and how you came to your decision.
@@ -317,6 +319,6 @@ If the position was posted on any job site (i.e. Stack Overflow, PowerToFly) the
 ## Visas & Work Permits
 
 GitLab does not offer full sponsorship for obtaining a H1B visa at this time.
-If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/sop/#visa-processing).
+If you already have an H1B visa and were hired, based on proven performance in the role, we would review and consider providing support for transferring your existing H1B. For questions on how to go about transferring an H1B Visa please see [People Operations](https://about.gitlab.com/handbook/people-operations/visas/#h1b-visa-processing).
 
 For work permits and visas in The Netherlands please refer to [Dutch Work Permits](https://about.gitlab.com/handbook/people-operations/#dutch-work-permits) in our handbook.

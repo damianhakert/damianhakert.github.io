@@ -29,11 +29,11 @@ This grandfather and discount period expires on December 30, 2017.
 
 Instances on the following plans are eligible for the discount:
 
-- "Developer (Discontinued)" (ID: 1)
-- "Startup (Discontinued)" (ID: 2)
-- "Business (Discontinued)" (ID: 3)
-- "Base (Discontinued)" (ID: 4)
-- "Developer Plus (Discontinued)" (ID: 7)
+- ["Developer (Discontinued)" (ID: 1)](https://githost.io/admin/plans/1)
+- ["Startup (Discontinued)" (ID: 2)](https://githost.io/admin/plans/2)
+- ["Business (Discontinued)" (ID: 3)](https://githost.io/admin/plans/3)
+- ["Base (Discontinued)" (ID: 4)](https://githost.io/admin/plans/4)
+- ["Developer Plus (Discontinued)" (ID: 7)](https://githost.io/admin/plans/7)
 
 Please note that the plan names may overlap with some other plans that currently
 exist, or were more recently discontinued. That is why the plan ID is also
