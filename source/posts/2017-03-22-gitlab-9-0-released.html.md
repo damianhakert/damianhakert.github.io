@@ -157,7 +157,7 @@ Issue Boards are a great way to manage issues moving through the different stage
 
 A GitLab issue board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an issue board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too.
 
-![Boards Reorder](/images/9_0/boards_milestone.gif){: .shadow}
+![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
 <!--
 
