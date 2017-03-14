@@ -174,12 +174,12 @@ Of course, we take situations like this very seriously, but we'd rather learn fr
 Do you like our values? Love GitLab as much as we do? [Join us](/jobs/)!
 
 <style>
-	.center-block {
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-    text-align: center;
-	}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
 
 @media screen and (min-width 792px) {
   .div-center {
