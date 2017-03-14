@@ -1,9 +1,9 @@
 ---
 layout: job_page
-title: "Infrastructure Director"
+title: "Director of Infrastructure"
 ---
 
-The Infrastructure Director reports to the VP of Engineering.
+The Director of Infrastructure reports to the VP of Engineering.
 
 ## Responsibilities
 
