@@ -566,6 +566,10 @@ Follow this timeline for the release that will be shipped in Month `M`.
 With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd,
 the scope for the following release has already been established earlier in that same month.
 
+#### Planning for issues in future releases
+
+We schedule issues month to month. But PMs plan a few releases in advance and have a high-level idea of which issues will likely be scheduled. PMs will label these issues with the `coming soon` label. This is a signal for all stakeholders that these are candidates, but not guaranteeing scheduling in a particular release, or even at all. The `coming soon` label will be removed from an issue by a PM when it is scheduled for a release, or if it is no longer a candidate for an upcoming release. In addition, PMs will also label any of these issues with the `UX` label if they require attention from the UX team. The combination of these two labels in an issue helps the UX team prioritize design work on a given issue, before it is scheduled for a release (wherein the engineering team works on it). Refer to the [UX Workflow](https://about.gitlab.com/handbook/ux/) for further details.
+
 ### Where should you look when you need help?
 
 * The first things you should read are this handbook as well as the [general
