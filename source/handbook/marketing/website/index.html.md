@@ -26,8 +26,11 @@ The [Website](https://about.gitlab.com) is product owned by
 [Product Marketing](/handbook/marketing/product-marketing/) team who are 
 responsible for updating the design and content.
 
-The Technical Writing team are repsonsible for the following assets: 
+The Technical Writing team are responsible for: 
 - `/installation` page
+
+The Prodcut Owners are responsible for:
+- Comparison pages for their features
 
 ### Objectives
 
