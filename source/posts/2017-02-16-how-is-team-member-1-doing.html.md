@@ -4,7 +4,7 @@ author:
 author_gitlab: 
 author_twitter: 
 categories: inside GitLab
-image_title: '/images/blogimages/how-is-team-member-1-doing/team-member-1.jpg'
+image_title: '/images/unsplash/man-standing.jpg'
 description: "People asked how team-member-1 is doing after we overcame the DB incident. We're here to tell you that!"
 ee_cta: false
 ---
@@ -162,12 +162,19 @@ Of course, we take situations like this very seriously, but we'd rather learn fr
 
 Do you like our values? Love GitLab as much as we do? [Join us](/jobs/)!
 
+----
+
+[Cover image](https://unsplash.com/?photo=mGYxAWITqMg) by [Jason Blackeye](https://unsplash.com/@jeisblack), licensed under [CC0 1.0](https://unsplash.com/license).
+
 <style>
 .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+.blog.article .cover {
+  background-position: bottom;
 }
 </style>
 
