@@ -9,16 +9,16 @@ or even a specific interest in scaling, algorithms, or distributed systems.
 
 It could also be seen as a systems engineer who aims to code themselves out of
 a job by automating all the things, learning to leverage great development
-practices like TDD or continous integration (to start with).
+practices like TDD or continuous integration (to start with).
 
 ## As a production engineer you will:
 
 * Be on a PagerDuty rotation to respond to GitLab.com availability incidents and
   Provide support for service engineers with customer incidents.
-* Use your oncall rotation to prevent pages from ever happening.
+* Use your on-call rotation to prevent pages from ever happening.
 * Manage our infrastructure with Chef, Terraform and Kubernetes.
 * Make monitoring and alerting alert on symptoms and not on outages.
-* [Document every action](https://gitlab.com/gitlab-com/runbooks) so your learnings turn in repeatable actions and then on automation.
+* [Document every action](https://gitlab.com/gitlab-com/runbooks) so your learnings turn into repeatable actions and then into automation.
 * Improve the deployment process to make it as boring as possible.
 * Design, build and maintain core infrastructure pieces that allow GitLab scaling to support hundred of thousands of concurrent users.
 * Debug production issues across services and levels of the stack.
@@ -83,7 +83,7 @@ Are experienced production engineers who meet the following criteria
 * Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
 * Perform blameless post-mortems on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
 * Show ownership of a major part of the infrastructure.
-* Identify parts of the system that do not scale, provides immediate paliative measures and drives long term resolution of these incidents.
+* Identify parts of the system that do not scale, provides immediate palliative measures and drives long term resolution of these incidents.
 * Identify the SLI (Service Level Indicators) that will align the team to meet the availability and latency objectives.
 
 ### Staff Production Engineer
