@@ -28,9 +28,8 @@ We were all really touched by the love our community sent us via [#HugOps](https
   </div>
 </div>
 
-### At the end of the day, we are all _team-member-1_
+**At the end of the day, we are all _team-member-1_**:
 
-<br>
 <div class="row">
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Who is not the &quot;team-member-1&quot;? <a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a></p>&mdash; Erkan Erol (@erkan_erol_) <a href="https://twitter.com/erkan_erol_/status/827040981677649921">February 2, 2017</a></blockquote>
@@ -124,7 +123,7 @@ People expressed a lot of appreciation for our transparency:
 
 While we were putting the fire out, we received this comment:
 
-> _The GitLab engineer (team-member-1) is one of the smartest people he's ever known - in fact, he's actually brilliant. So you can rest assured that the data loss wasn't caused by a an inexperienced kid._ ([Ref](https://news.ycombinator.com/item?id=13621016))
+> _The GitLab engineer (team-member-1) is one of the smartest people he's ever known - in fact, he's actually brilliant. So you can rest assured that the data loss wasn't caused by a an inexperienced kid._ ([HN](https://news.ycombinator.com/item?id=13621016))
 
 And this thoughtful tweet:
 
@@ -171,7 +170,7 @@ At GitLab, we value most positive achievements and performance improvements of o
 
 Of course, we take situations like this very seriously, but we'd rather learn from them, and put all our efforts to avoid that they happen again, than punishing honest and talented people for mistakes that can happen to anyone.
 
-> _What doesn't kill you makes you stronger._ ([Ref](https://news.ycombinator.com/item?id=13621356))
+> _What doesn't kill you makes you stronger._ ([HN](https://news.ycombinator.com/item?id=13621356))
 
 ----
 
