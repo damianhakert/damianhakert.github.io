@@ -64,6 +64,7 @@ There is one temporary exception: release managers require production access to 
 #### Production Engineering Resources
 
 - Documentation: refer to runbooks and internal documentation on this very page.
+- On-call Log: [document](https://docs.google.com/document/d/1nWDqjzBwzYecn9Dcl4hy1s4MLng_uMq-8yGRMxtgK6M/edit#heading=h.nmt24c52ggf5) where we write events that happen in production - internal use only - editable by the whole company
 - Chat channels in Slack:
   - Prometheus-alerts: monitoring tools post into this channel, production engineers should monitor this channel to act on alerts. Acting may be remediating or just fixing noisy alerts.
   - Infrastructure: general conversation about infrastructure goes on in this channel. Remember to let the people know when you are about to do some change in the infrastructure.
