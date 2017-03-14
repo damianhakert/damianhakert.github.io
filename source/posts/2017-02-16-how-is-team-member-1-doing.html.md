@@ -146,18 +146,7 @@ When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.
 
 For those developers involved in the outage, we made a special T-shirt:
 
-{::options parse_block_html="true" /}
-
-<div class="row">
-<div class="col-md-6 col-sm-12 center-block">
-![T-shirt front](/images/blogimages/how-is-team-member-1-doing/tshirt-front.png){: .center-block}
-</div>
-<div class="col-md-6 col-sm-12 center-block">
-![T-shirt back](/images/blogimages/how-is-team-member-1-doing/tshirt-back.jpg){: .center-block}
-</div>
-</div>
-
-{::options parse_block_html="false" /}
+![T-shirt back](/images/blogimages/how-is-team-member-1-doing/team-member-1-tshirt.jpg){: .center-block}
 
 We've received a lot of requests from our team members to join the _team-member-1_ club, but this T-shirt is exclusive for the real team-member-1 ones, who transparently and efficiently took care of GitLab.com during its worst hours.
 
