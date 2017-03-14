@@ -21,16 +21,17 @@ extra_css:
 <!-- blog post intro -->
 <section class="middle vertical-align-top">
 
-Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
-Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
-eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
+Remarks about now releasing 9.0, the next major version of GitLab. Remarks about 8.0, and how long ago it was. 
 
-<!-- more -->
+Remarks about how GitLab, the team has grown.
 
-Nisi obcaecati numquam incidunt impedit necessitatibus ipsam qui illum,
-praesentium a esse. Cum porro ut id impedit expedita nostrum aut quibusdam,
-accusamus laboriosam maiores nesciunt voluptas deleniti harum doloribus
-tempore quasi fuga accusantium in odit facilis.
+Number of commits from the community. Remarks about community growth and engagement (code and issues).
+
+Everyone can contribute is GitLab. This is collaboration. Remarks about how subgroups is a big leap in this direction.
+
+Idea to production. CI/CD is a huge here, and in 8.0, it was a conscious decision in that integration. With 9.0, this is a huge step in that CI/CD story.
+
+Remarks about performance improvements recently and since 8.0.
 
 [Register for the release webcast!](link-to-webcast){:.btn .btn-lg .btn-red .webcast-button}
 
