@@ -57,6 +57,7 @@ extra_css:
                   per user
                   per month
             %p= price.description
+            %p= price.features
             %p.pricing-panel-support{ class: ("is-hidden" unless price.support) }
               = "#{price.support} support"
             = link_to price.link_text, price.link, class: "btn cta-btn red"
