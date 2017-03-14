@@ -35,6 +35,7 @@ See below who to contact for what in detail. In short it is:
 - Mark - CI / CD
 - Joshua - Prometheus
 - Regis - Build and Edge
+- Sean P. - Technical Writing
 - Job - high level strategy and process
 
 Enterprise edition features fall under their respective PM,
@@ -161,6 +162,31 @@ GitLab stack. This includes (but is not limited to): gems with native
 extensions, external software and changes to the filesystem from within the
 application.
 
+## Sean Packham - Technical Writing
+
+- Slack: `@seanpackham`
+- GitLab: `@seanpackham`
+
+We, the Technical Writing team, are responsible for the following assets:
+
+* [docs.gitlab.com](https://gitlab.com/gitlab-com/gitlab-docs)
+* CE docs
+* EE docs
+* Technical tutorials
+* Technical comparison pages on the [website](https://about.gitlab.com).
+
+We are their to assist developers in their documentation writing process by
+providing copy editing and reviewing services and are not responsible for
+writing the first draft of documentation for new or updated features.
+
+We will mantain and improve the overall health of documentation e.g.
+by creating topic index pages, improving orgnization and creating tutorials.
+
+We manage our documentation tasks for CE and EE on the following issues boards
+which track labels beginning with `docs-`:
+
+* [CE Documentation Issue Board](https://gitlab.com/gitlab-org/gitlab-ce/boards/106589)
+* [EE Documentation Issue Board](https://gitlab.com/gitlab-org/gitlab-ee/boards/266349)
 
 ## Job van der Voort - High level and process
 
