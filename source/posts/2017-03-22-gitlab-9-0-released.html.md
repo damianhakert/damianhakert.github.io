@@ -1,9 +1,9 @@
 ---
 release_number: "9.0"
-title: "Released with Subroups and Deploy Boards" # Don't mention "GitLab" here.
-author: Job van der Voort
-author_gitlab: JobV
-author_twitter: Jobvo
+title: "Released with Subgroups and Deploy Boards"
+author: Victor Wu
+author_gitlab: victorwu
+author_twitter: victorwu416
 categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "GitLab 9.0 Released with Subgroups, Deploy Boards, and much more!"
@@ -55,13 +55,14 @@ Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 ## GitLab Subgroups
 {: .ce-ee}
 
-We're really excited about this new feature in 9.0 that unlocks new ways to structure and organize your GitLab groups.
+GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups". In fact, you can now create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
 
-You are now able to create subgroups inside a group. Imagine you have internal teams, or want to structure your GitLab projects in a more folder-like way - you can now create up to 20 levels of groups with subgroups and create or move projects into that new structure. Take a look at the example screenshot below that shows a list of your groups, and you can see we've added categorisation using subgroups for Design, Backend and Frontend.
+In this example, the organization represented by the `gitlab-nested` group has a design team, a backend team, and a frontend team, each represented by a group within the `gitlab-nested` group. The `design` and `backend` groups have further groups within them.
 
 ![Subgroups](/images/9_0/gitlab-nested.png){: .shadow}
 
-Over the coming releases, we will continue to improve nested groups and would love to hear what new features and functionality you want to see. For some up-coming UI improvements, feel free to [browse or create](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups) issues on GitLab with the `Nested Group` tag.
+Feel free to look at and provide feedback on what we are working on for [groups in future releases of GitLab]((https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups)).
+
 
 [Documentation link](link)
 
