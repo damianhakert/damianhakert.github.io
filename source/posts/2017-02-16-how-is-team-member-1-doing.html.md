@@ -180,15 +180,6 @@ Do you like our values? Love GitLab as much as we do? [Join us](/jobs/)!
   margin-left: auto;
   text-align: center;
 }
-
-@media screen and (min-width 792px) {
-  .div-center {
-    padding-top: 29.175%;
-  }
-  .div-center-small {
-    padding-top: 12.175%;
-  }
-}
 </style>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
