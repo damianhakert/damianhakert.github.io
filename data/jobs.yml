@@ -18,7 +18,7 @@
 - title: "Account Executive - Sales"
   description: /jobs/account-executive/
   apply:
-  open: false
+  open: true
 
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
