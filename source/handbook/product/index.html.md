@@ -448,6 +448,30 @@ team members and the community the space to suggest and create without your
 direct intervention. It's your job to make sure something is decided and
 planned, not to come up with every idea or change.
 
+### Dogfood everything
+
+The best way to understand the pain of the users is to go through what we ask
+them to do while setting up or using GitLab. As a PM, you should go through
+every feature, at the minimum the ones you are responsible for. All of them. That
+includes features that are not in GitLab's UI directly but require server
+configuration. If you, as a PM, can't understand the documentation or struggle
+to install something, who else would even bother to do it? Going through this is
+not only beneficial to understand what the pain points are, it will also tell
+you what you can enhance, from a better flow to a better documentation.
+
+#### Example: configuring GitLab
+
+Most of GitLab is configured through the file `gitlab.rb`. It's tempting to
+add a new parameter in this file - it's easy, fast to do, and won't require to
+add a new UI to allow the configuration of this new setting. However, changing
+this file requires you to reconfigure GitLab. To do that, you have to login to
+your server and type in commands to reconfigure your instance. Possibly,
+multiple times if you have more than one server.
+
+This is not something that we can ask our customers to do. Only by using your
+own product and features, will you realize that some practices should be avoided
+if you can.
+
 ### New Feature Workflow
 
 Almost everything that we do is documented in an issue.
