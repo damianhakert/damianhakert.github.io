@@ -172,8 +172,8 @@ We, the Technical Writing team, are responsible for the following assets:
 * [docs.gitlab.com](https://gitlab.com/gitlab-com/gitlab-docs)
 * CE docs
 * EE docs
-* Technical tutorials
-* Technical comparison pages on the [website](https://about.gitlab.com).
+* Technical written tutorials which live in CE or EE docs 
+  (video tutorials will come later).
 
 We are their to assist developers in their documentation writing process by
 providing copy editing and reviewing services and are not responsible for
