@@ -1265,8 +1265,6 @@
   picture: jennifer.jpg
   twitter: JJCordz
   gitlab: jjcordz
-  maintains: |
-              <li>UX CI/CD <a href="/jobs/liaison/">liaison</a></li>
   story:  |
           Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports.
 
@@ -1278,6 +1276,8 @@
   picture: dimitrie.jpg
   twitter: dimitrieh
   gitlab: dimitrieh
+  maintains: |
+              <li>UX CI/CD <a href="/jobs/liaison/">liaison</a></li>
   story:  |
           With a deep passion for design, a love for beautiful typography, and an incredible enthusiasm for the open source community, Dimitrie strives to create elegant interfaces that delight the user. He has a background in 3D and an endless technical curiosity for new tools and software. When he's not working or online, he enjoys being with his friends and family, swimming, reading fantasy novels, and playing board games or guitar.
 
@@ -1433,6 +1433,7 @@
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
               <li>Frontend CI/CD <a href="/jobs/liaison/">liaison</a></li>
+              <li>Frontend CI/CD <a href="/jobs/expert/">expert</a></li>
               <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
   story:  |
           Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
