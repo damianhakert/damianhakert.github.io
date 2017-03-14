@@ -1,12 +1,12 @@
 ---
 release_number: "9.0"
-title: "Released with Hierarchical Groups and Deploy Boards" # Don't mention "GitLab" here.
+title: "Released with Subroups and Deploy Boards" # Don't mention "GitLab" here.
 author: Job van der Voort
 author_gitlab: JobV
 author_twitter: Jobvo
 categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
-description: "GitLab 9.0 Released with Hierarchical Groups, Deploy Boards, and much more!"
+description: "GitLab 9.0 Released with Subgroups, Deploy Boards, and much more!"
 twitter_image: '/images/tweets/gitlab-9-0-released.jpg'
 extra_css:
   - release-posts.css
@@ -52,14 +52,14 @@ Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 <!-- FEATURE 1 block (major) -->
 <section class="middle">
 
-## GitLab Hierarchical Groups
+## GitLab Subgroups
 {: .ce-ee}
 
 We're really excited about this new feature in 9.0 that unlocks new ways to structure and organize your GitLab groups.
 
-You are now able to create sub-groups inside a group. Imagine you have internal teams, or want to structure your GitLab projects in a more folder-like way - you can now create up to 20 levels of groups with sub-groups and create or move projects into that new structure. Take a look at the example screenshot below that shows a list of your groups, and you can see we've added categorisation using sub-groups for Design, Backend and Frontend.
+You are now able to create subgroups inside a group. Imagine you have internal teams, or want to structure your GitLab projects in a more folder-like way - you can now create up to 20 levels of groups with subgroups and create or move projects into that new structure. Take a look at the example screenshot below that shows a list of your groups, and you can see we've added categorisation using subgroups for Design, Backend and Frontend.
 
-![Nested Groups](/images/9_0/gitlab-nested.png){: .shadow}
+![Subgroups](/images/9_0/gitlab-nested.png){: .shadow}
 
 Over the coming releases, we will continue to improve nested groups and would love to hear what new features and functionality you want to see. For some up-coming UI improvements, feel free to [browse or create](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups) issues on GitLab with the `Nested Group` tag.
 
