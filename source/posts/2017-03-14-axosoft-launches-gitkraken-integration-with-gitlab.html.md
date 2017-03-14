@@ -36,7 +36,7 @@ You can now generate an SSH key and connect it directly to GitLab from within Gi
 
 ### 2. Initialize a Repo
 
-Open GitKraken’s Repository Management modal, and select **Init**. From there, you can set up a repo, GitKraken will create it for you on your GitLab.com remote, and then clone it down locally.
+Open GitKraken’s Repository Management modal, and select **Init**. From there, you can choose whether to initialize Git in a current directory on your local machine, or GitKraken can create a new bare project for you directly on GitLab.com, and then clone it down locally.
 
 ![init](/images/blogimages/gitkraken-partnership-three.png){: .shadow}
 
