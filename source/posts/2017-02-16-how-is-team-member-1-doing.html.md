@@ -142,7 +142,7 @@ When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.
 
 ### Reasons for promoting _team-member-1_
 
-His manager provided GitLab with the following reasons to promote _team-member-1_:
+His manager, [Pablo Carranza](https://about.gitlab.com/team/#psczg) (Production Lead), provided GitLab with the following reasons to promote _team-member-1_:
 
 {::options parse_block_html="true" /}
 
