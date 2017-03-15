@@ -204,6 +204,12 @@ If your [project is already configured with a deployment service][project-servic
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
 
+### Native Unicode Emojis 🔥
+
+Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
+
+![](/images/9_0/native_unicode_emojis.gif){: .shadow}
+
 ### GitLab CI
 
 To follow conventions of naming across GitLab, and to further move away from the
