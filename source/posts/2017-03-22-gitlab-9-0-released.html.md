@@ -100,7 +100,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 <section class="left">
 
-![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
+![Export Issues](/images/9_0/export_issues.png){: .shadow}
 
 </section>
 
@@ -110,11 +110,9 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ## Export Issues
 {: .ees}
 
-Feature description
+GitLab already enables you to filter, search, and navigate through the many issues you use daily. But users say they want a snapshot of issues for offline analysis or to communicate with other teams who may not be in GitLab just yet. With 9.0 EES, GitLab will email a CSV export of issues to the system administrator if you click the download button at the top right in the issue list view.
 
-XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
-
-Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
+We designed and integrated the feature directly into the project issue list view. This allows you to leverage the existing powerful filter and search capability so that you can export exactly just the issues you care about. The actual processing and email sending happens asynchronously in the background once you confirm the action, so that it gets out of your way and you can continue to use GitLab as normal.
 
 [Documentation link](link)
 
