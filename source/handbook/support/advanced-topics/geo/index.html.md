@@ -17,6 +17,7 @@ any order you prefer.
 - [ ] **Done with Stage 1**
 
 1. [ ] Ping your manager on the issue to notify them you have started
+1. [ ] In your Slack Notification Settings, set **Geo** as a **Hilight Word**
 1. [ ] Commit to this by notifying the current experts that they can start
 routing non-technical Geo questions to you
 1. [ ] GitLab University

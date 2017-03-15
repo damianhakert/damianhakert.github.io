@@ -1,3 +1,24 @@
+- title: Support SLA
+  features:
+  - description: Community and support forums only
+    only_in_ce: true
+    link: https://about.gitlab.com/support/
+  - description: Next business day support
+    only_in_ee: true
+    link: https://about.gitlab.com/support/
+  - description: (Premium Support) 4-hour non-emergency response time
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: (Premium Support) 24/7 emergency support with 30-minute response time
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: (Premium Support) Live upgrade assistance
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+  - description: (Premium Support) End user & admin training
+    only_in_eep: true
+    link: https://about.gitlab.com/features/premium-support
+
 - title: Reporting and Publishing
   features:
   - description: Edit files, directories and create merge requests straight from the web interface
@@ -101,6 +122,9 @@
     in_ee: true
   - description: Rebase merge requests before merge
     link: https://docs.gitlab.com/ee/workflow/rebase_before_merge.html
+    in_ee: true
+  - description: Squash and merge
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html
     in_ee: true
   - description: Use fast-forward merges when possible
     link: https://docs.gitlab.com/ee/workflow/ff_merge.html
@@ -227,21 +251,3 @@
   - description: Review Apps
     in_ce: true
     link: https://about.gitlab.com/features/review-apps/
-
-- title: Support SLA
-  features:
-  - description: Community and support forums only
-    only_in_ce: true
-    link: https://about.gitlab.com/support/
-  - description: Next business day support
-    only_in_ee: true
-    link: https://about.gitlab.com/support/
-  - description: 4-hour non-emergency response time
-    only_in_eep: true
-    link: https://about.gitlab.com/features/premium-support
-  - description: 24/7 emergency support with 30-minute response time
-    only_in_eep: true
-    link: https://about.gitlab.com/features/premium-support
-  - description: Live upgrade assistance
-    only_in_eep: true
-    link: https://about.gitlab.com/features/premium-support

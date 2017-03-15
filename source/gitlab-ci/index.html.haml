@@ -98,11 +98,12 @@ extra_css:
                 %a{href: "https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/312"} reproduce tests locally
             %li
               %b Docker support:
-              you can easily spin up other Docker containers as a
-              %a{href: "https://docs.gitlab.com/ce/ci/services/"} service
-              as part of the test and
-              = succeed "." do
-                %a{href: "https://docs.gitlab.com/ce/ci/docker/using_docker_build.html"} build docker images
+              you can use custom Docker images, spin up
+              %a{href: "https://docs.gitlab.com/ce/ci/services/"} services
+              as part of testing,
+              = succeed "," do
+                %a{href: "https://docs.gitlab.com/ce/ci/docker/using_docker_build.html"} build new Docker images
+              even run on Kubernetes.
         .col-xs-1.col-md-1
       %hr.divider/
       .row.integration
@@ -196,4 +197,19 @@ extra_css:
               %a{href: "https://docs.google.com/presentation/d/1OGgk2Tcxbpl7DJaIOzCX4Vqg3dlwfELC3u2jEeCBbDk"} Why CI/CD?
         .col-xs-6.col-md-4
           %i.fa.fa-code.5x.hidden-xs.hidden-sm
+
+.gitlab-cta-container.text-center.animated
+  .container
+    %h1
+      Choose the version of GitLab that is best for you
+    %h4
+      Host GitLab on your servers or let us host it for you
+    %a.btn.cta-btn.red.hidden-sm.hidden-xs{href: "/products"}
+      Explore our products
+    %p.compare-other-tools
+      %a.hidden-sm.hidden-xs{href: "/comparison"}
+        Compare GitLab to other tools
+    %a.btn.cta-btn.red.visible-sm.visible-xs{href: "/products"}
+      Explore
+
 = partial "includes/features/gitlab-ee-trial"

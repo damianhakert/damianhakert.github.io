@@ -69,7 +69,7 @@ to copy over the database from the primary to the secondary.
 
 One of the engineers went to the secondary and wiped the data directory, then
 ran `pg_basebackup`. Unfortunately `pg_basebackup` would hang, producing no
-meaningful output; despite the `--verbose` option being set. After a few tries
+meaningful output, despite the `--verbose` option being set. After a few tries
 `pg_basebackup` mentioned that it could not connect due to the master not having
 enough available replication connections (as controlled by the `max_wal_senders`
 option).
@@ -86,7 +86,7 @@ without issues.
 Unfortunately this did not resolve the problem of `pg_basebackup` not starting
 replication immediately. One of the engineers decided to run it with `strace` to
 see what it was blocking on. `strace` showed that `pg_basebackup` was hanging in
-a `poll` call, but did not provide any other meaningful information that might
+a `poll` call, but that did not provide any other meaningful information that might
 have explained why.
 
 **± 23:30 UTC:** one of the engineers thinks that perhaps `pg_basebackup`
@@ -138,9 +138,9 @@ host.
 When we went to look for the `pg_dump` backups we found out they were not there.
 The S3 bucket was empty, and there was no recent backup to be found anywhere.
 Upon closer inspection we found out that the backup procedure was using
-`pg_dump` 9.2, while our database is running PostgreSQL 9.6. A difference in
-major versions results in `pg_dump` producing an error, terminating the backup
-procedure.
+`pg_dump` 9.2, while our database is running PostgreSQL 9.6 (for Postgres, 9.x
+releases are considered major). A difference in major versions results in
+`pg_dump` producing an error, terminating the backup procedure.
 
 The difference is the result of how our Omnibus package works. We currently
 support both PostgreSQL 9.2 and 9.6, allowing users to upgrade (either manually
@@ -214,11 +214,11 @@ involve the following steps:
 1. Set up a production database using the snapshot from step 1.
 1. Set up a separate database using the snapshot from step 2.
 1. Restore webhooks using the database set up in the previous step.
-1. Increment all database sequences by 100 000 so one can't re-use IDs that
+1. Increment all database sequences by 100,000 so one can't re-use IDs that
    might have been used before the outage.
 1. Gradually re-enable GitLab.com.
 
-For our staging environment we're using Azure classic, without premium storage.
+For our staging environment we were using Azure classic, without Premium Storage.
 This is primarily done to save costs as premium storage is quite expensive. As a
 result the disks are very slow, resulting in them being the main bottleneck in
 the restoration process. Because LVM snapshots are stored on the hosts they are
@@ -231,7 +231,7 @@ In both cases the amount of data to copy would be roughly the same. Since
 copying over and restoring the data directory would be easier we decided to go
 with this solution.
 
-Copying the data from the staging to the production host took around 18 hours. These disks are network disks and are throttled to a really low number (around 6Mbps), there is no way to move from cheap storage to premium, so this was the performance we would get out of it. There was no network or processor bottleneck, the bottleneck was in the drives.
+Copying the data from the staging to the production host took around 18 hours. These disks are network disks and are throttled to a really low number (around 60Mbps), there is no way to move from cheap storage to premium, so this was the performance we would get out of it. There was no network or processor bottleneck, the bottleneck was in the drives.
 Once copied we were able to restore the database (including webhooks) to the
 state it was at January 31st, 17:20 UTC.
 

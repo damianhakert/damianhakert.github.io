@@ -16,7 +16,7 @@ title: "Build Engineer"
 ## Workflow
 
 * In cooperation with the Packaging team, issues to work on will be sorted per release cycle.
-* Deciding priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+* Deciding priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/communication/#prioritize).
 
 ## Requirements for Applicants
 
@@ -26,10 +26,56 @@ title: "Build Engineer"
 * Packaging experience is an advantage, not a requirement. However, you are
   expected to have basic knowledge of at least .deb and .rpm package archives.
 * Collaborative team spirit with good communication skills
-* You share our [values](/handbook/#values), and work in accordance with those values
+* You share our [values](/handbook/values), and work in accordance with those values
 
 [omnibus-gitlab]: https://gitlab.com/gitlab-org/omnibus-gitlab
 [direction scope]: https://about.gitlab.com/direction/#scope-a-namescopea
+
+## Junior Build Engineer
+
+Junior Build Engineers are developers who meet the following criteria:
+
+1. Technical skills
+  * Is able to write code in required languages but needs guidance in writing modular and maintainable code
+  * Has less experience to no experience with containers
+  * Proposes default configuration to reduce the need for configuration by customers
+1. Code quality
+  * Leaves code in substantially better shape than before
+  * Is able to write clear documentation
+1. Communication
+  * Needs help with time management
+  * Is able to follow technical conversations within the team
+1. Performance & Scalability
+  * Needs help writing production-ready code
+  * Has little to no experience writing large scale apps
+
+## Senior Build Engineer
+
+Senior Build Engineers are experienced developers who meet the following criteria:
+
+1. Technical Skills
+  * Are able to write modular, well-tested, and maintainable code
+  * Know the domain really well and radiate that knowledge
+  * Contribute to one or more complementary projects
+1. Leadership
+  * Begins to show architectural perspective
+  * Proposing new ideas, performing feasibility analyses and scoping the work
+1. Code quality
+  * Leaves code in substantially better shape than before
+  * Fixes bugs/regressions quickly
+  * Monitors overall code quality
+  * Reacts efficiently to build failures
+  * Creates test plans
+1. Communication
+  * Provides thorough and timely code feedback for peers
+  * Able to communicate clearly on technical topics
+  * Keeps issues up-to-date with progress
+  * Helps guide other merge requests to completion
+  * Is able to help with recruiting
+1. Performance & Scalability
+  * Excellent at understanding the cost of a change
+  * Excellent at writing production-ready code with little assistance
+  * Able to write complex code that can scale with a significant number of users
 
 ## Hiring Process
 

@@ -274,7 +274,7 @@ Ignore tweets that are negative about competitors
 
 Use English
 
-- [GitLab communicates in English](https://about.gitlab.com/handbook/#internal-communication) so please tweet in English.
+- [GitLab communicates in English](https://about.gitlab.com/handbook/communication/#internal-communication) so please tweet in English.
 
 - If a foreign language tweet comes in, replies in that language are okay but discouraged as we can't guarantee making our support SLA.
 

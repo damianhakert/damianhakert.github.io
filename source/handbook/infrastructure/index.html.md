@@ -3,78 +3,98 @@ layout: markdown_page
 title: "Infrastructure"
 ---
 
-## Communication<a name="reach-infra"></a>
+## Common Links
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
-- [**Chat channel**](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+- [Public Infrastructure Issue Tracker](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
+- [Chat channel](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-## Infrastructure roles
+## On this page
+{:.no_toc}
 
-The infrastructure team is split between production engineers and performance specialists.
+- TOC
+{:toc}
 
-Both roles are closely related as they touch on some of the same spots, for example, both care about the
-[availability](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=availability&label-name=)
-and [performance](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=performance&label-name=)
-of GitLab.com, from different perspectives.
+## Infrastructure teams
 
-Both roles also care about building an infrastructure and monitoring that can be shipped to our customers.
+The infrastructure team is populated by engineers who share the responsibility of making GitLab.com scale, keep it safe, available and scalable with specific focuses.
 
-### Production Engineers
+These teams are:
 
-Production engineers work on keeping the infrastructure that runs our services running fast and reliably.
-This infrastructure includes GitLab.com, dev.GitLab.org and GitHost.io.
+* Production: keeping GitLab.com available and scalable.
+* [Security](/handbook/infrastructure/security/): keeping GitLab.com safe, from the perspective of the application, the infrastructure and the organization.
+* Database: keeping GitLab.com's database fast and scalable.
+* Gitaly: making Git access scalable and fast.
 
-Production engineers also have a strong focus on enabling development to ship features as fast and bug
-free as possible. Providing the monitoring tools that prevent shipping regressions that would affect
-our customers. And building automation tools that lower the barrier of access to production and allow us
-to scale with automation.
+### Production Team
 
-Responsibilities can be found in the [job description](jobs/production-engineer/index.html)
+Composed of production engineers.
 
-### Production Engineering Resources
+Production engineers work on keeping the infrastructure that runs our services
+running fast and reliably.  This infrastructure includes staging, GitLab.com and
+dev.GitLab.org.
 
-- Documentation: refer to runbooks and internal documentation in this very page.
+Production engineers also have a strong focus on building the right toolsets
+and automations to enable development to ship features as fast and bug free as
+possible, leveraging the tools provided by GitLab.com itself - we must dogfood.
+
+Another part of the job is building monitoring tools that allow quick
+troubleshooting as a first step, then turning this into alerts to notify based on
+symptoms, to then fixing the problem or automating the remediation. We can only scale
+GitLab.com by being smart and using resources effectively, starting with our
+own time as the main scarce resource.
+
+[Production Engineer](jobs/production-engineer/index.html) job description.
+
+#### Tenets
+
+1. Security: reduce risk to its minimum, and make the minimum explicit.
+1. Transparency, clarity and directness: public and explicit by default, we work in the open, we strive to get signal over noise.
+1. Efficiency: smart resource usage, we should not fix scalability problems by throwing more resources at it but by understanding where the waste is happening and then working to make it disappear. We should work hard to reduce toil to a minimum by automating all the boring work out of our way.
+
+#### Production and Staging Access
+
+Production access is granted to production engineers, security engineers, and (production) on-call heroes.
+
+Staging access is treated at the same level as production access because it contains production data.
+
+Any other engineer, or lead, or manager at any level will not have access to production, and, in case some information is needed from production it must be obtained by a production engineer through an issue in the infrastructure issue tracker.
+
+There is one temporary exception: release managers require production access to perform deploys, they will have production access until production engineering can offer a deployment automation that does not require chef nor ssh access. This is an ongoing effort.
+
+#### Production Engineering Resources
+
+- Documentation: refer to runbooks and internal documentation on this very page.
+- On-call Log: [document](https://docs.google.com/document/d/1nWDqjzBwzYecn9Dcl4hy1s4MLng_uMq-8yGRMxtgK6M/edit#heading=h.nmt24c52ggf5) where we write events that happen in production - internal use only - editable by the whole company
 - Chat channels in Slack:
-  - Alerts: monitoring tools post into this channel, production engineers should monitor this channel to act on alerts. Remember to let the people know when you are dealing with an alert, or if you have triggered it.
+  - Prometheus-alerts: monitoring tools post into this channel, production engineers should monitor this channel to act on alerts. Acting may be remediating or just fixing noisy alerts.
   - Infrastructure: general conversation about infrastructure goes on in this channel. Remember to let the people know when you are about to do some change in the infrastructure.
-  - Releases: deployments and general releases conversation goes on here, lurk it to support deployments and help out when things go wrong.
 - Operations channel archive:
   - You can find the infrastructure archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
 -  Automated tasks and schedules
   - Weekly automatic OS updates are performed on Monday at 10:10 UTC.
-
-
-### Performance Specialists
-
-Performance specialists are developers that have a focus on improving GitLab.com performance.
-They work on issues from the
-[GitLab-CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=performance&label-name=)
-project.
-
-For practical reasons we track the work that is on flight in the
-[performance issue tracker](https://gitlab.com/gitlab-com/performance/issues) by cross linking,
-but we keep the discussion in the source issue.
-
-This is so we can have really quick 1 week sprints that allow us to iterate faster.
-
-Performance specialists can also focus on critical infrastructure tasks that will enable GitLab.com to go faster, to
-increase availability, or to just generally make it scale to handle more users with less resources.
-
-We have a [public monitoring server](http://monitor.gitlab.net/dashboard/db/gitlab-status) that shows our most important metrics.
+- Monitoring: we do monitoring with prometheus leveraging available exporters like the node or the postgresql exporters, and we build whatever else is necessary within production engineering itself. We maintain 2 monitoring infrastructures:
+  - [Public monitoring infrastructure](http://monitor.gitlab.net/):
+    - No auth is required
+    - Is automatically sync from the private monitoring infrastructure on every chef client execution. Don't change dashboards here, they will be overwritten.
+  - [Private monitoring infrastructure](https://performance.gitlab.net):
+    - Highly Available setup
+    - Alerting feeds from this setup
+    - Private GitLab account is required to access
+    - Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB
 
 ## Documentation
 
-The main infrastructure documentation can be found in 2 places:
-
 ### Runbooks
 
-[Runbooks are public](https://gitlab.com/gitlab-com/runbooks), but they are automatically mirrored in our
-[development environment](https://dev.gitlab.org/cookbooks/runbooks/), this is so because if GitLab.com is down,
-those runbooks would not be available to take it up again.
+[Runbooks are public](https://gitlab.com/gitlab-com/runbooks), but they are
+automatically mirrored in our [development environment](https://dev.gitlab.org/cookbooks/runbooks/),
+this is so because if GitLab.com is down, those runbooks would not be available
+to take it up again.
 
-These runbooks aim to provide simple solutions for common problems, they should be pointed from our alerting
-system and should also be kept up to date with whatever new finding we get as we learn how to scale GitLab.com
-so these runbooks can also be adopted by our customers.
+These runbooks aim to provide simple solutions for common problems, they are
+linked pointed from our alerting system and should also be kept up to date with
+whatever new finding we get as we learn how to scale GitLab.com so these
+runbooks can also be adopted by our customers.
 
 Runbooks are divided into 2 main sections:
 
@@ -85,7 +105,6 @@ When writing a new runbook, be mindful what the goal of it is:
 
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 - If it is for general management, it can be freely formatted.
-
 
 ### Chef cookbooks
 

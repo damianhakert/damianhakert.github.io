@@ -82,7 +82,7 @@ Please see our [press page](https://about.gitlab.com/press/) to download the log
 
 ## Values
 
-Please see the [values section in our handbook](https://about.gitlab.com/handbook/#values).
+Please see the [values section in our handbook](https://about.gitlab.com/handbook/values).
 
 ## Our stewardship of GitLab CE<a name="stewardship"></a><a name="our-stewardship-of-gitlab-ce"></a>
 
@@ -111,7 +111,12 @@ We promise that:
 
 When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 potential users**?
 If the answer is yes the feature is likely to be exclusive to EE.
-We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 users.
+There are no features that are only useful to larger organizations, so for every EE features there will be smaller organizations that also need it, we're not saying that there are no small organizations that need an EE feature.
+It hard to get CE vs. EE right, and if we put something in EE that should be in CE we won't hesitate to [open-source](https://about.gitlab.com/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347).
+
+We always make sure that CE can do all major features in [our scope](https://about.gitlab.com/direction/#scope) and there are companies using CE with more than 10,000 users.
+
+If people ask us why a certain feature is EE only we might reply with a [link to this section of the handbook](https://about.gitlab.com/about/#what-features-are-ee-only). That implies that we think the feature will be more popular the larger your organization is. Feel free to make the argument for the opposite, we're listening.
 
 ### What features are EE Premium
 

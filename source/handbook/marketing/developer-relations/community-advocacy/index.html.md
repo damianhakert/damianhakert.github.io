@@ -93,6 +93,7 @@ _TODO: Create `Mention` macros for all channels handled in ZenDesk_
 - Product Pitches -> TBD
 - Investment request/interest -> TBD
 - Spam -> Mark as spam
+- GitLab package reported as compromised -> [immediately stop packagecloud via Slack](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/stop-or-start-packagecloud.md)
 
 ### Notes / Remarks
 
@@ -178,6 +179,7 @@ When resolving Twitter tickets you should:
 - The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable.
 - Tweets directed at [@GitLabStatus](https://twitter.com/GitLabStatus) can be answered from the [@GitLab](https://twitter.com/GitLab) account.
 - When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
+- If a wrong handle is used in a response, take note and respond from the correct one in the follow-up (if there is one).
 - [@GitLabSupport](https://twitter.com/GitLabSupport) is [a deprecated handle](https://gitlab.com/gitlab-com/support/issues/253) and should not be used.
 
 #### ZenDesk Macro Usage

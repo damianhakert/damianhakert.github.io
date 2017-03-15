@@ -83,4 +83,4 @@ It just makes things nicer.
 Have an idea for something we missed? Mention it in comments. Also feel free to
 steal our entire [communications handbook][handbook]. That’s why we put it online!
 
-[handbook]: https://about.gitlab.com/handbook/#communication
+[handbook]: https://about.gitlab.com/handbook/communication

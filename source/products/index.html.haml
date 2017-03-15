@@ -4,8 +4,9 @@ title: Products
 suppress_header: true
 extra_css:
   - pricing.css
+  - faq.css
 extra_js:
-  - pricing.js
+  - faq.js
 extra_font:
   - "Roboto+Slab"
 ---
@@ -132,16 +133,16 @@ extra_font:
                 = link_to "GitLab Geo", "https://about.gitlab.com/features/gitlab-geo/"
               %li.line-separator
               %li.item-description
-                = link_to "File Locking", "https://about.gitlab.com/features/file-locking/"
-              %li.line-separator
-              %li.item-description
-                = link_to "Pivotal Tile", "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/"
+                = link_to "Support for High Availability", "https://about.gitlab.com/high-availability/"
               %li.line-separator
               %li.item-description
                 = link_to "4-hr support response time", "https://about.gitlab.com/features/premium-support/"
               %li.line-separator
               %li.item-description
                 = link_to "24/7 emergency support", "https://about.gitlab.com/features/premium-support/"
+              %li.line-separator
+              %li.item-description
+                = link_to "End user & admin training", "https://about.gitlab.com/features/premium-support/"
               %li.line-separator
               %li.item-description
                 = link_to "Learn more...", "/gitlab-ee"
@@ -196,7 +197,7 @@ extra_font:
               Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades.
             .edition-pricing
               %h2.col-md-6.featured-item-headline
-                $80
+                $149
               %h3.col-md-6.featured-item-headline-small
                 per
                 %br
@@ -215,7 +216,10 @@ extra_font:
                 Automatic updates &amp; backups
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "https://githost.io/"
+                = link_to "Learn more ...", "https://about.gitlab.com/gitlab-hosted/"
+              %li.line-separator
+              %li.item-description
+                = link_to "Hosting Options...", "https://githost.io/"
             .edition-actions.align-button
               = link_to "Hosting Options", "https://githost.io/", class: "featured-item-button"
 
@@ -238,7 +242,7 @@ extra_font:
     .faq-holder.clearfix
       - size = (data.pricing.questions.size / Float(2)).ceil
       - data.pricing.questions.each_slice(size).to_a.each do |group|
-        = partial "question-group", locals: { group: group }
+        = partial "includes/layout/question_group", locals: { group: group }
 
 .content-container.animated
   .container

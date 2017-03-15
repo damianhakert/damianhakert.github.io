@@ -22,6 +22,7 @@
       .col-sm-6.col-md-3.col-lg-2.col-lg-offset-2.footer-link-holder
         %h3.footer-link-title Products
         %ul.animated.footer-links
+          %li= link_to('Download',           '/downloads')
           %li= link_to('Community Edition',  '/products')
           %li= link_to('Enterprise Edition', '/gitlab-ee')
           %li= link_to('GitLab.com',         '/gitlab-com/')
@@ -29,15 +30,16 @@
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Services
         %ul.animated.footer-links
-          %li= link_to('Products',     '/products/')
-          %li= link_to('Resellers', '/resellers/')
+          %li= link_to('Products',    '/products/')
+          %li= link_to('Resellers',   '/resellers/')
           %li= link_to('Consultancy', '/consultancy/')
           %li= link_to('Development', '/development/')
           %li= link_to('Training',    '/training/')
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Community
         %ul.animated.footer-links
-          %li= link_to('Source Code',   'https://gitlab.com/groups/gitlab-org')
+          %li= link_to('Events',        '/events/')
+          %li= link_to('Swag Shop',     'https://gitlab.myshopify.com/')
           %li= link_to('Core Team',     '/core-team/')
           %li= link_to('Contributors',  'http://contributors.gitlab.com/')
           %li= link_to('Documentation', 'https://docs.gitlab.com/')
@@ -48,6 +50,7 @@
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Company
         %ul.animated.footer-links
+          %li= link_to('Source Code',     'https://gitlab.com/groups/gitlab-org')
           %li= link_to('Blog',            '/blog/')
           %li= link_to('Press and Logos', '/press/')
           %li= link_to('About Us',        '/about/')
@@ -72,27 +75,6 @@
   = partial "includes/cc-license"
 = partial "includes/layout/scripts"
 = partial "includes/google/remarketing"
-
-%script{src: "//platform.twitter.com/oct.js", type: "text/javascript"}
-
-:javascript
-  twttr.conversion.trackPid('nufbg', { tw_sale_amount: 0, tw_order_quantity: 0 });
-%noscript
-  %img{alt: "", height: "1", src: "https://analytics.twitter.com/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
-  %img{alt: "", height: "1", src: "//t.co/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
-
-:javascript
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','//connect.facebook.net/en_US/fbevents.js');
-
-  fbq('init', '1689559637958103');
-  fbq('track', "PageView");
-
-%noscript
-  %img{height: "1", src: "https://www.facebook.com/tr?id=1689559637958103&ev=PageView&noscript=1", style: "display:none", width: "1"}/
 
 :javascript
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){

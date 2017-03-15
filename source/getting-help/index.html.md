@@ -27,7 +27,7 @@ For details on where to get Technical Support, and with what level of service, p
 
 ## Discussion
 
-If you'd like to discuss a feature proposal or a bug found within the product. Please raise an issue to the official GitLab issue trackers.
+If you'd like to discuss a feature proposal or a bug found within the product. Please raise an issue to the [official GitLab issue trackers](https://gitlab.com/gitlab-org/gitlab-ce/issues/).
 
 ### Feature Proposals
 
@@ -61,7 +61,7 @@ Other resources for discussion:
 
 ## Contributing
 
-* [Contributing guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md): describes how to submit Merge Requests and issues. Pull Requests and Issues not in line with the guidelines in this document will be closed.
+* [Contributing guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md): describes how to submit Merge Requests and issues. Merge Requests and Issues not in line with the guidelines in this document will be closed.
 
 ## Reference
 

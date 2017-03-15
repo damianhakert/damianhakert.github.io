@@ -16,7 +16,7 @@ Many items further down this page are a guideline for our [Executive Assistants]
 ## Flaws
 {: #flaws}
 
-Transparency and directness are part of our [values](https://about.gitlab.com/handbook/#values) and I want to live them by sharing the flaws I know I have.
+Transparency and directness are part of our [values](https://about.gitlab.com/handbook/values) and I want to live them by sharing the flaws I know I have.
 I'm fully responsible for improving the things below, listing them is no excuse.
 They are listed here for two reasons.
 The fist one is so that people know it is not them but my fault.
@@ -55,7 +55,7 @@ If people want advice on open source, remote work, or other things related to Gi
 
 We would love to help but we want to make sure the content is radiated as wide as possible. Can we do the following?
 
-1. We schedule a 50 minute Zoom video call that is recorded by us, uploaded to Youtube as a private video, and shared with you.
+1. We schedule a 50 minute Zoom video call or [visit to our office](https://about.gitlab.com/visiting/) that is recorded by us, uploaded to Youtube as a private video, and shared with you.
 1. You write up a draft post within 48 hours after the interview in a Google Doc and share that with us with suggestion or edit rights for us.
 1. You can redact anything you don't want to publish.
 1. Our marketing department will work to publish the post.
@@ -64,6 +64,8 @@ We would love to help but we want to make sure the content is radiated as wide a
 Alternatively we can also make it a YouTube live event, people can ask us questions in the chat during the event, and we can share the recording later.
 
 The EA should follow up to make sure the draft post is submitted.
+
+Reply to emails: Thanks for wanting to chat. I propose we meet in the format proposed on https://about.gitlab.com/handbook/people-operations/ceo-preferences/#pick-your-brain-meetings so that other people benefit from our conversation too. If you're up for that please work with Kirsten (cc:) to schedule a time and location.
 
 ## Email
 {: #emails}
@@ -81,7 +83,8 @@ The EA should follow up to make sure the draft post is submitted.
 * The [agenda](https://docs.google.com/document/d/187Q355Q4IvrJ-uayVamoQmh0aXZ6eixAOE90jZspAY4/edit?ts=574610db&pli=1) of items to be handled by the EA for the CEO
 * Use for example a tool like [Hipmunk](www.hipmunk.com) to find different flight options with most airlines when needing to book travel
 * Keep 1 hour open in calendar per day for email
-* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time.
+* Schedule calls in European timezones in the morning (am) Pacific (Daylight) Time and US time zones in the afternoon (pm) Pacific (Daylight) Time
+* After each meeting with a potential investor, make sure to update the sheet with the information on these meetings (to be found in the agenda doc for EAs)
 
 ### Formats for invites
 * MTG for meetings in person, either at the "office" or another location.
@@ -89,17 +92,17 @@ The EA should follow up to make sure the draft post is submitted.
 * INTERVIEW for interviews (looping in our PR partner)
     Example: “INTERVIEW | Kirsten Abma (TechCrunch)” Make sure to block 10 min before for preparations and 10 min after for notes for Sid
 * CALL for phone calls
-* VIDEOCALL for video conference calls using Zoom. Using the [Zoom plugin for Google Calendar](https://about.gitlab.com/handbook/#video-calls) you can easily get the info you need in the invite.
+* VIDEOCALL for video conference calls using Zoom. Using the [Zoom plugin for Google Calendar](https://about.gitlab.com/handbook/communication/#video-calls) you can easily get the info you need in the invite.
     Example: “(VIDEO)CALL | Kirsten Abma for Executive Assistant”
 
 Make sure to include in the description
 * (Video)calls
 <br>
-Please read our primer as preparation for this meeting: https://about.gitlab.com/primer 
+Please read our primer as preparation for this meeting: https://about.gitlab.com/primer
 (Calls in the hiring process also have: and please fill out this form a day in advance, to discuss during the call: https://docs.google.com/a/gitlab.com/forms/d/e/1FAIpQLScXUW07w36Ob2Y2XQuESBaYqU5_c1SoweGS1BzGHnbesISGXw/viewform to discuss during the call”)
 Phone number participant:
 <br>
-By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/#video-calls) it will add the details how to join the Zoom call automatically.
+By using the Zoom extention [mentioned in our handbook](https://about.gitlab.com/handbook/communication/#video-calls) it will add the details how to join the Zoom call automatically. Make sure to remove the Hangout link first and then use the Zoom extention.
 
 <br>
 * Meetings at the office:
@@ -119,6 +122,7 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 * For meetings or lunch/dinner appointments, always make sure to add the address in the invite of the location where it’s scheduled and make sure to plan travel time (in a separate calendar item, just for Sid) before and after the meeting in case another meeting or call should follow.
 * Favorite restaurants of Sids are: [Basil Thai in SoMa](http://www.basilthai.com/home.html) for lunch, [Heirloom Cafe](https://heirloom-sf.com/) for dinner and [Odd Job](http://oddjobsf.com/) for drinks.
 * Sales meetings are important, in case the CEO can help the process, feel free to include him in the meeting
+* Make sure to include background info what the call will be about to the invite. For example adding the relevant email thread in the notes of the invite
 * Due to a busy schedule the CEO has a preference of meeting setup: First try for a video call or  a meeting at the GitLab office. If the other party presses to meet at their location, confirm if that is OK before accepting.
 
 ## Hiring process
@@ -133,6 +137,8 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 {: #travel}
 
 EA does research for the best option for a flight and propose this to the CEO before booking.
+Make sure to add a calendar item for 2 hours before take off for check in and add a separate one for travel time before that in the CEO's calendar
+If a flight was changed or not taken due to delays or other circumstances, make sure to check with the airline for the persons flight status
 Current preferences for flights are:
 * Aisle seat
 * Check a bag for all trips longer than one night

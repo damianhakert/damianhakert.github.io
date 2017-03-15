@@ -31,7 +31,7 @@ Developers can specialize immediately after joining, or after some time, when th
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ### Ruby experience
@@ -113,6 +113,36 @@ for example:
     * Leads development of projects that lead to a significant improvement of the overall
       performance and scalability of GitLab
 
+## Security Specialist
+
+An Security Specialist is a developer who focuses on ensuring that
+GitLab and associated applications are as secure as possible. The Security Specialist works in close collaboration with the [Security Lead](https://about.gitlab.com/jobs/security-engineer) and has the following set of skills, experience, and responsibilities:
+
+1. Technical Skills
+    * Ability to discover and patch SQLi, XSS, CSRF, SSRF, authentication and
+      authorization flaws, and other web-based security vulnerabilities (OWASP
+      Top 10 and beyond).
+    * Knowledge of common authentication technologies including OAuth, SAML, CAs,
+      OTP/TOTP.
+    * Knowledge of browser-based security controls such as CSP, HSTS, XFO.
+    * Experience with standard web application security tools such as Arachni,
+      Brakeman, and BurpSuite.
+2. Code quality
+    * Proactively identifying and reducing security risks.
+    * Finding and removing outdated and vulnerable code and code libraries.
+3. Communication
+    * Consult with other developers and product managers to analyze and propose
+      application security standards, methods, and architectures.
+    * Handle communications with independent vulnerability researchers and design
+      appropriate mitigation strategies for reported vulnerabilities.
+    * Educate other developers on secure coding best practices.
+    * Ability to professionally handle communications with outside researchers,
+      users, and customers.
+    * Ability to communicate clearly on technical issues.
+4. Performance & Scalability
+    * An understanding of how to write code that is not only secure but scales
+      to a large number of users and systems.
+
 ## Internships
 
 We normally don't offer any internships, but if you get a couple of merge requests
@@ -128,26 +158,9 @@ example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 
 - [Engineering Handbook](/handbook/engineering)
 - [Engineering Workflow](/handbook/engineering/workflow)
-
-## Hiring Process
-
-Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find her/his job title on our [team page](/team).
-
-
-* Part of the application process is to provide links to some code. Some candidates want to share code privately, so if they do, we send them an email with our GitLab.com / GitHub / Bitbucket usernames and also invite them to email code to us.
-* If the code looks good, we ask the candidate to answer two questions about web applications. One is fairly Rails-specific, to do with the MVC pattern, concerns, and services; the other is about the stages a web request goes through when someone gets the GitLab CE repo on GitLab.com.
-* Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
-* Next, candidates will be invited to schedule a first 15 minute soft-skills interview with a Discussion/ Platform Lead
-* Candidates will then be invited to schedule a technical interview with the Platform/ Discussion Lead
-* Candidates will be invited to schedule a third one hour interview with our VP of Engineering
-* Finally, candidates will have a 50 minute interview with our CEO
-* Successful candidates will subsequently be made an offer via email
-
-
-Additional details about our process can be found on our [hiring page](/handbook/hiring).

@@ -414,7 +414,7 @@ What is Partner Marketing (to be included)
       </div>
     </div>
   </a>
-  <a href="https://gitlab.mybrightsites.com/">
+  <a href="https://gitlab.myshopify.com/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/swag_shop.png" alt="GitLab Marketing - Design - Icon">

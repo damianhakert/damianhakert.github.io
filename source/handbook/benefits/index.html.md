@@ -19,7 +19,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 
 ## General Benefits
 
-1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
+1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/spending-company-money).
 1. [Stock options](/handbook/stock-options/) are offered to most GitLabbers.
 1.  Deceased team member:
     In the unfortunate event that a GitLab team member passes away, GitLab will
@@ -34,14 +34,14 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
          * For part-time GitLabbers, the lump sum is calculated pro-rata, so
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $10,000.
-1. [Paid time off policy](https://about.gitlab.com/handbook/#paid-time-off).
+1. [Paid time off policy](https://about.gitlab.com/handbook/paid-time-off).
 1. [GitLab Summit](https://about.gitlab.com/culture/summits)
-   * Every nine months orso GitLabbers gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information and compilations of our past summits check out our [summits page](https://about.gitlab.com/culture/summits).
-1. [Further incentives](https://about.gitlab.com/handbook/#incentives), such as
-   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/#sales-target-dinner)
-   - [Discretionary Bonuses](https://about.gitlab.com/handbook/#discretionary-bonuses)
-   - [Referral Bonuses](https://about.gitlab.com/handbook/#referral-bonuses)
-   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/#travel-grant)
+   * Every nine months or so GitLabbers gather at an exciting new location to [stay connected](https://about.gitlab.com/2016/12/05/how-we-stay-connected-as-a-remote-company/), at what we like to call a GitLab Summit. It is important to spend time face to face to get to know your team and, if possible, meet everyone who has also [bought into the company vision](http://www.excitingrole.com/how-to-do-startup-due-diligence/#.h/). There are fun activities planned by our GitLab Summit Experts, work time, and presentations from different functional groups to make this an experience that you are unlikely to forget! Attendance is optional, but encouraged. For more information and compilations of our past summits check out our [summits page](https://about.gitlab.com/culture/summits).
+1. [Further incentives](https://about.gitlab.com/handbook/incentives), such as
+   - [Sales Target Dinner Evangelism Reward](https://about.gitlab.com/handbook/incentives/#sales-target-dinner)
+   - [Discretionary Bonuses](https://about.gitlab.com/handbook/incentives/#discretionary-bonuses)
+   - [Referral Bonuses](https://about.gitlab.com/handbook/incentives/#referral-bonuses)
+   - [Work Remotely Travel Grant](https://about.gitlab.com/handbook/incentives/#travel-grant)
 
 
 ## Specific to employees based in the Netherlands

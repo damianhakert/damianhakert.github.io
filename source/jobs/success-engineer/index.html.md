@@ -34,7 +34,7 @@ effective Indirect Sales model. 
 - Vast experience with Ruby on Rails Applications and git
 - Vast experience in Software Development and Developer Tool Pipeline
 - Great people skills and presentation skills
-- You share our [values](/handbook/#values), and work in accordance with those values
+- You share our [values](/handbook/values), and work in accordance with those values
 
 ## Hiring Process
 

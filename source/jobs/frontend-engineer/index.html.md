@@ -15,7 +15,7 @@ title: "Frontend Engineer"
 ## Workflow
 
 - You work on issues tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
-- The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+- The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/communication/#prioritize).
 - When done with a frontend issue remove the 'Frontend' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Developer' label.
 
 ## Requirements for Applicants
@@ -26,13 +26,22 @@ title: "Frontend Engineer"
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Knowledge of Ruby on Rails is a plus
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 
 ## Junior Developers
-Junior Developers share the same responsibilities outlined above, but typically
-join with less or alternate experience in one of the key areas of Frontend Developer
-expertise (Javascript, HTML/CSS, Git, reviewing code). For example,
-a person with extensive experience with HTML/CSS, Javascript but hasn't build large scale apps with frameworks might be a junior.
+Junior Frontend Developers are developers who meeting the following criteria:
+1. Technical skills
+  * Needs guidance writing modular and maintainable code
+  * Has less experience with HTML, CSS & JavaScript
+1. Code quality
+  * Leaves code in substantially better shape than before
+  * Needs prompting to fix bugs/regressions
+1. Communication
+  * Needs help to manage time effectively
+  * Participates in frontend technical conversations
+1. Performance & Scalability
+  * Needs help writing production-ready code
+  * Has little to no experience writing large scale apps
 
 ## Senior Developers
 Senior Developers are experienced developers who meet the following criteria:

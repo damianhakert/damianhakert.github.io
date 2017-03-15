@@ -104,7 +104,7 @@ total shares of outstanding and, as a result, you will own a smaller percent of 
 company -- this is called dilution.
 
 Dilution does not necessarily mean reduced value.  For example when a company raises
-money the value of stock will stay the because the company’s new valuation will be equal
+money the value of stock will stay the same because the company’s new valuation will be equal
 to the old value of the company + the new capital raised. For example, if company XYZ
 is worth $100m and it raises $25m, the company XYZ is now worth $125m. If you owned 5%
 of $100m before, you now own 4% of $125m (20% of the company was sold, or, said differently,
@@ -125,7 +125,7 @@ is our public ambition](https://about.gitlab.com/strategy/) but neither timing o
 
 ## Administration
 
-We use eShares to administer our stock option program.  You will receive a grant notice to your GitLab email address.  Clicking through that email will enable you to set up a user account at eShares.  You can find all of the terms and conditions of the stock program as well as your specific grant within the eShares system.  As a helpful hint we suggest that you add a second, permanent email address to your profile.  This can be added by clicking on your name in the upper right hand corner and selecting "update profile".
+We use eShares to administer our stock option program.  You will receive a grant notice to your GitLab email address.  Clicking through that email will enable you to set up a user account at eShares.  You can find all of the terms and conditions of the stock program as well as your specific grant within the eShares system.  As a helpful hint we suggest that you add a second, private email address to your profile.  This can be added by clicking on your name in the upper right hand corner and selecting "update profile".
 
 ## Exercising Your Options
 

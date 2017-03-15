@@ -1,9 +1,20 @@
 ---
 layout: markdown_page
-title: Security Handbook
+title: Security Best Practices
 ---
 
-## Best Practices<a name="best-practices"></a>
+## Other Security Topics
+
+- [Security Team handbook](/handbook/infrastructure/security/)
+- [Security questions from customers, and their answers](/security)
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+## Best Practices
 
 1. **Never reuse** a password you use on a company account, not for another
    GitLab service nor for a personal account.
@@ -17,6 +28,8 @@ title: Security Handbook
    1. **Single services** (services that don't allow individual accounts or where it is too expensive): store the credentials in an appropriate company 1Password vault ('Shared' or otherwise) so that your colleagues can sign in using the same credentials.
 1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and use [1Password TOTP].
 1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'Shared' vault that the whole company can access or make a suggestion to create a new vault in the "1Password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1Password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
+1. Do not copy passwords from inside a 1Password vault to a personal password vault or other password store. 1Password should be the only password
+vault used for teams. Team passwords should not be duplicated and potentially exposed to compromise in personal password vaults.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1Password.
 1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
@@ -71,7 +84,7 @@ title: Security Handbook
 1. During offboarding, your 1Password account is deleted, which includes the **Personal** vault in the GitLab team account. If you want to
    keep your personal passwords, please copy/move them to [your personal local vault or your separate individual account](#1password-private-use).
 1. We will configure applications of which we store the passwords in 1Password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
-1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
+1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/tools-and-tips/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
 
 [1Password]: https://1password.com
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
@@ -82,13 +95,13 @@ title: Security Handbook
 [0-day attack]: https://en.wikipedia.org/wiki/Zero-day_(computing)
 [email to wire cash]: http://blog.centrify.com/ceo-fraud-business-email-compromise/
 
-## 1Password Guide<a name="1password-guide"></a>
+## 1Password Guide
 
 1Password is a password manager. Ideally you memorize one strong password -
 hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-### Terminology<a name="1password-terms"></a>
+### Terminology
 
 Following this guide, it will be helpful to understand a few terms we'll be
 using throughout.
@@ -100,7 +113,7 @@ using throughout.
 - **Vault:** What 1Password calls any grouping of secure data, such as logins or
   secure notes. Sometimes called a "keychain".
 
-### 1Password<a name="1password"></a>
+### 1Password
 
 1Password can be used in two different ways - as a standalone application
 (by purchasing a standalone license) or as a hosted service (by subscribing).
@@ -108,7 +121,7 @@ GitLab uses 1Passwords for Teams which is a hosted service.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few of options](#1password-private-use).
 
-### 1Password for Teams<a name="1password-for-teams"></a>
+### 1Password for Teams
 
 1Password for Teams stores all **Vaults** on the 1Password servers and allows
 for sharing between multiple people on the same team.
@@ -125,7 +138,7 @@ team's account.
 To really get the full benefit of 1Password, you'll need to hook our Teams
 account up to one of the native apps.
 
-### Adding the GitLab Team to a 1Password app<a name="1password-add-team"></a>
+### Adding the GitLab Team to a 1Password app
 
 This guide will cover setting up the [OSX app]. It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
@@ -182,7 +195,7 @@ we need to update the app to the latest version:
 1. Go to **Teams**
 1. Click the **+** icon
 
-### Vaults<a name="1password-vaults"></a>
+### Vaults
 
 Click the **Vault Selector** in the upper-left corner of the window:
 
@@ -195,7 +208,7 @@ including admins.
 **Shared** is a vault that everyone on the GitLab Teams account has access to
 both read and write.
 
-### Browser Extension<a name="1password-browser-extensions"></a>
+### Browser Extension
 
 Go to [Browser extensions](https://agilebits.com/onepassword/extensions) and
 install the extension for whatever browser you're using. You *should not* need a
@@ -213,7 +226,7 @@ the correct vault:
 
 ![Vault switching](/handbook/security/1password-vault-change.gif)
 
-### Saving Logins<a name="1password-saving-logins"></a>
+### Saving Logins
 
 When 1Password detects a login form submission, it may ask if you want to save
 the login with a dialog like this:
@@ -223,7 +236,7 @@ the login with a dialog like this:
 If you do want to save it, make sure the appropriate **Vault** is selected
 first.
 
-### Several accounts and unlocking the app<a name="1password-several-accounts"></a>
+### Several accounts and unlocking the app
 
 Please refer to [1Password FAQ](https://support.1password.com/faq/#i-have-several-accounts-and-vaults-which-password-do-i-use-to-unlock-1password).
 
@@ -347,6 +360,56 @@ or entered any data, nor should you feel like you need to _cop_ to the security
 team and let them know you made a mistake. Making a mistake online is
 practically the reason the Internet was invented.
 
+### How to identify a basic phishing attack
+
+When you receive an email with a link, hover your mouse over the link or view
+the source of the email to determine the link's true destination.
+
+If you hover your mouse cursor over a link in Google Chrome it will show you
+the link destination in the status bar at the bottom left corner of your browser
+window.
+
+![Hover Example](/images/phishing/hover-status-bar-example-chrome.png)
+
+In Safari the status bar must be enabled to view the true link destination
+(View -> Show Status Bar).
+
+Some examples or methods used to trick users into entering sensitive data into
+phishing forms include:
+
+* Using HTTP(S) with a hostname that begins with the name of a trusted
+site but ends with a malicious site.
+
+![Malicious Domain](/images/phishing/malicious-domain.png)
+
+* Using a username or password inside the request that corresponds to the name
+of a trusted domain and assuming the viewer won't view the whole URL.
+
+![Trick Username](/images/phishing/username-password.png)
+
+* Using a data URI scheme instead of HTTP(S) is a particularly devious means of
+tricking users. Data schemes allow the embedding of an entire web page inside
+the URI itself. Data schemes will not show the typical green lock in the address
+bar of a browser that is customarily associated with a verified SSL connection.
+
+![Data Scheme](/images/phishing/data-scheme.png)
+
+When viewing the source of an HTML email it is important to remember that the
+text inside the "HREF" field is the actual link destination/target and the text
+before the `</A>` tag is the text that will be displayed to the user.
+
+`<a href="http://evilsite.example.org">Google Login!</a>`
+
+In this case, "Google Login!" will be displayed to the user but the
+actual target of the link is "evilsite.example.org".
+
+After clicking on a link always look for the green lock icon and "secure" label
+that signify a validated SSL service. This icon alone is not enough to verify the
+authenticity of a website, however the lack of the green icon does mean you
+should never enter sensitive data into that website.
+
+![Green Lock Example](/images/phishing/green-lock-example.png)
+
 ### What to do if you suspect an email is a phishing attack
 
 Whether you believe that you have received an email from our testing platform or
@@ -367,5 +430,5 @@ attachment from inside GMail:
 If you receive an email that appears to come from a service that you utilize,
 but other details of the email are suspicious -- a private message from a
 sender you don't recognize, for example -- do not click on any links in the
-email. Instead, use your own bookmark for the site or manually type the address
+email. Instead use your own bookmark for the site or manually type the address
 of the website into your browser.

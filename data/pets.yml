@@ -6,12 +6,12 @@
   picture: suzy.jpg
   human: sytse
   story: Curious kitty.
-- name: Maçã
+- name: Maçã and Limão
   picture: maca.jpg
   human: job
   story: |
-          Maca loves to play with plastic bottles and sleep on any surface
-          near her owners.
+          Maçã loves to play with plastic bottles and sleep on any surface
+          near her owners. Limão is in love with the mirror and races through any door he sees.
 - name: Sadie
   picture: sadie.jpg
   human: haydn
@@ -98,10 +98,6 @@
   picture: bluebelle.jpg
   human: lindberg
   story: Persistent blue heeler. Named after the ice cream.
-- name: TJ "Kitty"
-  picture: tjkitty.png
-  human: allison
-  story: Kitty is happiest curling up to some belly rubs, or chasing the elusive tattered shoe string. When not keeping a lookout for the other neighborhood cats, she prefers to help her humans by sitting between them and their computer screens.
 - name: Mini
   picture: mini.jpg
   human: jplum
@@ -157,7 +153,14 @@
   picture: thingie-ribon.jpg
   human: bjk
   story: Thingie is an old Minnesota barn cat. He loves to be on camera.
-
+- name: Franklin
+  picture: franklin.jpg
+  human: sam
+  story: Franklin loves doing puppy things such as nibbling on your feet and sleeping the day away. Despit his small stature, he has big dreams of becoming an Olympic dogalete in long jump.
+- name: Ripley
+  picture: ripley.png
+  human: Scott G
+  story: Ripley is an avid squirrel stalker and tuna fish officianado.  When not sleeping for 18 hours a day, you can find her intently staring at you until you pat her on the head.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |

@@ -17,7 +17,12 @@ Please see the [2017 UX Strategy](/handbook/ux/strategy) to view the evolving UX
 
 Issues should be tagged with 'UX' if UX work is required.
 
-1. Work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux). Prioritize issues scheduled for the current milestone. If all the issues for the current milestone have been addressed, seek out issues tagged 'coming soon'.
+1. Work on issues tagged with 'UX', in the following order:
+    1. **Scheduled for current release**
+    2. **Scheduled for next release** 
+    3. Tagged with **Coming soon**, **To schedule**, or **Shortlist**
+    4. Issues with high **community involvement** (number of comments or thumbsup)
+    5. Everything else
 1. UX issues have a tendency to expand in scope. Aggressively split off new issues, ideas, and concepts into their own issues. Large issue become really challenging to drive decisions in and make progress on. If you are ever unsure how to split apart large issues, work with the UX Lead.
 	* Developers should be able to ship a product within one life cycle. If a feature is too large to ship within one release, work together to determine the best way of splitting the feature into smaller segments.
 	* Bring developers into the conversation early. Ask for feedback on how to split up features while still maintaining the integrity of the UX.
@@ -45,5 +50,26 @@ Issues should be tagged with 'UX Research' if there may be an opportunity for re
 10. Remove the ‘UX Research’ label from the issues your research addresses. For the meta issue, if further UX research work is required, then the ‘UX Research’ label should remain. If no further research is needed, the meta issue can be closed.
 11. For any new pain points which are uncovered during the research phase, create a new issue per pain point which describes the problem and link it to the meta issue.
 12. Tag any new issues with the ‘UX’ label.
+
+## UX on Social Media
+
+It is encouraged to share UX designs and insight on social media platforms such as Twitter and Dribbble.
+
+### Twitter
+
+You can contribute design-related posts to our `@gitlab` Twitter handle by adding your tweet to our [UX Design Twitter spreadsheet](https://docs.google.com/spreadsheets/d/1GDAUNujD1-eRYxAj4FIYbCyy8ltCwwIWqVTd9-gf4wA/edit).
+
+1. Add a new row with your tweet message, a relevant link, and an optional photo.
+1. Ensure that your tweet is no more than 140 characters. If you are including a link, ensure you have enough characters and consider using a [link shortening service](https://bitly.com/).
+1. The UX Lead will check the spreadsheet at the beginning of each week and schedule any tweets on Tweetdeck.
+1. Once a tweet is scheduled, the tweet will be moved to the "Scheduled" tab of the spreadsheet.
+
+### Dribbble
+
+GitLab has a [team dribbble account](https://dribbble.com/GitLab) where you can add work in progress, coming soon, and recently released works.
+
+* If a dribbble post has a corresponding open issue, link to the issue so designers can contribute on GitLab.
+* Share the dribbble post on twitter, along with a link to the corresponding open issue if applicable.
+* If you are not a member of the GitLab dribbble team and would like to be, contact the UX Lead to grant you membership.
 
 *Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).*

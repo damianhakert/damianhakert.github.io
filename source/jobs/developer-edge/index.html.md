@@ -50,7 +50,7 @@ issues from the community.
 * You have an urge for delivering quickly and iterating fast.
 * Experience with Docker, Nginx, Go, and Linux system administration a plus.
 * Experience with online community development a plus.
-* You share our [values](/handbook/#values), and work in accordance with those
+* You share our [values](/handbook/values), and work in accordance with those
   values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring
   process for this position.
@@ -89,7 +89,7 @@ contributions.
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 
@@ -116,8 +116,9 @@ Applicants for this position can expect the hiring process to follow the order b
   review / coach a GitLab merge request (both in a fork of GitLab CE).
 * Selected candidates will be invited to schedule a 30-minute
   [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
-* Next, candidates will be invited to schedule a 45-minute behavioral interview
-  with the Edge Lead.
+* Next, candidates will be invited to schedule a 45-minute
+  [behavioral interview](/handbook/hiring/#behavioral-questions-star) with the
+  Edge Lead.
 * Candidates will then be invited to schedule a
   [technical interview](/jobs/#technical-interview) with a Senior Developer.
 * Candidates will be invited to schedule an interview with our VP of Engineering.

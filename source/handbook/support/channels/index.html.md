@@ -62,7 +62,7 @@ even if there was no actual vulnerability.
 If you say that we'll get back to them **always** mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
 
-If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
+If you need help from developers to diagnose the issue please open a confidential issue so we can work in private. Only if the security report is _about_ confidential issues, then use dev.gitlab.org instead.
 If someone opens a public issue please leave a message:
 "Thank you for helping to
 make GitLab more secure! We removed the contents of your vulnerability disclosure
@@ -109,7 +109,7 @@ the relevant GitLab issue tracker.
 ## Follow up on issues posted on GitLab issue tracker
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
-Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
+Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/communication/#gitlab-workflow).
 
 ## GitLab.com Support Tracker
 

@@ -1,4 +1,7 @@
+@import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
+$purple-section-gradient-from: #654ca7;
+$purple-section-gradient-to: #3c257b;
 
 body {
   font-size: 16px;
@@ -9,44 +12,214 @@ body {
   margin: 0 auto;
 }
 
-.installation-container {
+.installation-header {
   position: relative;
-  width: 100%;
-  height: 200px;
   overflow: hidden;
-  background-size: cover;
-  background: $color-primary;
-}
 
-.installation-overlay {
-  height: 500px;
+  &::after {
+    background-image: linear-gradient(to right, $purple-section-gradient-from, $purple-section-gradient-to 100%);
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    color: $color-white;
+  }
+
+  h2 {
+    color: $color-gray-light;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .container {
+    position: relative;
+    z-index: 99;
+  }
+
+  > svg {
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    top: -25%;
+    min-height: 150%;
+    min-width: 120%;
+    z-index: 9;
+    fill: $color-primary;
+    opacity: .5;
+  }
+
+  @media (min-width: $screen-md-min) {
+    h1 {
+      font-size: 46px;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 1.6;
+      margin: 10px auto 0;
+      max-width: 900px;
+    }
+  }
 }
 
 .installation-content {
-  padding-top: 27px;
+  padding: 20px 0;
   text-align: center;
   color: $color-white;
-  width: 50%;
-  margin-left: 25%;
 
-  @media (max-width: 1066px) {
-    margin: 0;
-    width: 100%;
-  }
-
-  p {
-    color: $color-white;
+  @media (min-width: $screen-md-min) {
+    padding: 40px 0;
   }
 }
 
 .method {
   margin-bottom: 50px;
 
-  &:first-child {
-    margin-top: 55px;
-  }
-
   &:last-child {
     margin-bottom: 0;
+  }
+
+  .block-title {
+    text-align: center;
+    margin: 0 0 40px;
+    color: $color-primary-alt;
+  }
+
+  &.omnibus {
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: solid 1px $color-gray-medium;
+
+    p {
+      color: $features-gallery-alt-description-black;
+      font-size: 16px;
+      line-height: 1.4;
+
+      a {
+        color: $features-gallery-alt-description-black;
+        text-decoration: underline;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      padding: 80px 0;
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  &.upgrade {
+    padding: 30px 0;
+    border-bottom: solid 1px $color-gray-medium;
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+      padding: 70px 0;
+    }
+
+    .block-title {
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 22px;
+      margin-bottom: 30px;
+
+      &:last-child,
+      .cta-btn {
+        margin: 0;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      p {
+        &:last-child,
+        .cta-btn {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.gl-editions {
+  text-align: center;
+  margin: 30px 0 0;
+  padding: 0;
+
+  @media (min-width: $screen-md-min) {
+    margin: 70px 0 0;
+  }
+
+  .btn-wrap {
+    display: block;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: $screen-md-min) {
+      display: inline-block;
+      margin-right: 40px;
+    }
+  }
+
+  .btn {
+    color: $features-gallery-alt-description-black;
+    border: solid 1px $color-gray-medium;
+    padding: 25px 30px;
+    box-shadow: 0 2px 4px $color-gray-extra-light;
+    background: $color-white;
+    font-size: 34px;
+    transition: border .2s, box-shadow .2s;
+
+    &:hover {
+      border: solid 1px darken($color-gray-medium, 10%);
+      box-shadow: 0 2px 4px darken($color-gray-extra-light, 5%);
+    }
+
+    &:active {
+      border: solid 1px $color-gray-medium;
+      box-shadow: none;
+    }
+
+    .gitlab-logo {
+      width: 80px;
+      height: 80px;
+      float: left;
+      margin-right: 15px;
+    }
+  }
+
+  .package-name {
+    display: inline-block;
+    text-align: left;
+    font-size: 50px;
+    line-height: .9;
+    padding-top: 10px;
+    color: $navbar-default-link-color;
+
+    small {
+      font-size: 16px;
+      display: block;
+      padding-left: 6px;
+      font-weight: bold;
+    }
   }
 }

@@ -216,11 +216,16 @@ This is **bold** and this is _italic_.
 There are a few different ways to display links with markdown markup, but
 to keep some standards, let's try to use the following options only.
 
-Place the identifiers at the end of the file, arrange them in alphabetical order.
-You can group them in different categories, if that's the case. Check
-[this post][ssgs-post-raw] for reference. It's important to organize the links in certain
-order to be easy and quick to find them for both the author and the reviewers.
+### Inline Links
 
+We'd rather use inline links, such as `[Text to display](link)`, as they are easier to maintain.
+Use relative URLs whenever possible.
+
+### Identifiers
+
+When there are **repeated** links across a single page, you can opt for using identifiers.
+
+Place the identifiers at the end of the paragraph (or the section), arranging them in alphabetical order.
 
 ```md
 [Text to display][identifier] will display a link.
@@ -229,9 +234,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too. Must be used for explicit links.
+[This link][] (same as above), has a second pair of empty brakets to indicate that the following parenthesis does not contain a link.
 
-... (page content) ...
+<https://example.com> works too. Must be used for explicit links.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -254,9 +259,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too. Must be used for explicit links.
+[This link][] (same as above), has a second pair of empty brackets to indicate that the following parenthesis does not contain a link.
 
-... (page content) ...
+<https://example.com> works too. Must be used for explicit links.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -268,16 +273,13 @@ order to be easy and quick to find them for both the author and the reviewers.
 </div>
 
 Important notes:
+{: #links-important-notes}
 
-- Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
-- Avoid using other markup syntax for links. Definitely avoid adding the URL in-line, as
-in `[link](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2373#note_12594349)`.
-This syntax works perfectly, but breaks the reading flow, deviating the attention of the reviewer.
-Also, it may cause repetition of the same link through the document.
-- Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
+- {: #note-identifiers} Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
+- {: #note-meaningful-links} Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
-- Check for broken links: <http://www.deadlinkchecker.com/>
+- {: #note-deadlinks-checker} Check for broken links: <http://www.deadlinkchecker.com/>
 
 ----
 
@@ -594,7 +596,7 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's not required
+The heading "On this page" can be adapted to your case, e.g., "In this tutorial", or "In this guide", etc. It's not required
 either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
@@ -627,7 +629,7 @@ so there are situations we can't run from using HTML. With complex tables, that'
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
 then the table body. You can go forward and add a separator to create subsequent table bodies.
 
-However you prepare your table, its design will depend upon on the CSS styles defined for them.
+However you prepare your table, its design will depend upon the CSS styles defined for them.
 
 The last markup `{: .custom-class #custom-id}` **can** be used in case you want to attribute to
 the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attributes).
@@ -1952,7 +1954,8 @@ or out of resources. It works from every major browser and saves automatically y
 
 ----
 
-## Tips &amp; Tricks
+## Complementary Notes
+{: #tips--tricks}
 
 - Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
 they can render differently than the expected and can cause other issues.
@@ -1997,7 +2000,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [font awesome]: http://fontawesome.io/icons/
 [GitLab deck template]: https://docs.google.com/a/gitlab.com/presentation/d/1ux0yeJpJooWgq1_UROeAbbM3nNYFiF_iU26P3msPdzU/edit?usp=sharing
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
-[handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[handbook-writing]: https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 [iA Writer]: https://ia.net/writer/
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables

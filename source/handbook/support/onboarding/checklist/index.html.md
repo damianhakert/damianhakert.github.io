@@ -25,7 +25,7 @@ that you can think of. If an item does not start with a role or name of someone 
 _Typically completed within first week_
 
 1. [ ] General expectations: it is expected that you will _start_ to tackle Stages 0, 1, 2, and 3 as early as your first week, but you are not expected to complete all items for some number of weeks. We believe that you often learn best and fastest by diving into (relatively easy) tickets, and learning by doing. However, this has to be balanced with making time to learn some of the tougher topics. The expectation is therefore that you are sufficiently advanced in your onboarding by the end of your first week, that you can answer 2-5 "simple" tickets. Over the following weeks, your manager will set higher targets for the number and difficulty of tickets to be tackled, but you should always have about 2-3 hrs per day to spend on working through this bootcamp. Some days it will be less, some days it will be more, depending on ticket load and how deep "in the zone" you are in either the bootcamp or the tickets you are responding to; but an average of 2-3 hrs per day should allow you to complete everything through to the end of Stage 6 within about four weeks.
-1. [ ] General Onboarding Checklist: this should have been created for you on dev.gitlab.org as an issue by PeopleOps when you were hired.
+1. [ ] General Onboarding Checklist: this should have been created for you on [the People Ops issue tracker](https://gitlab.com/gitlab-com/peopleops/issues/) when you were hired.
    1. [ ] Finish every item on that list starting with `New team member:` until you are waiting for someone to answer a question or do something before you can continue that list.
    1. [ ] Start with Stage 1 here, but also with the first steps in Stage 2 and Stage 3.
    1. [ ] Check back daily on what was blocking you on your General Onboarding Checklist until that list is completely done, then focus on this one.
@@ -70,7 +70,7 @@ Cover these topics on the [GitLab University](https://university.gitlab.com/):
   1. [ ] For the rest of the topics in `user training`, just do a quick read over the file names so you start remembering where to find them.
 1. [ ] Get familiar with the services GitLab offers
   1. [ ] The differences between [CE and EE](https://about.gitlab.com/pricing/)
-  1. [ ] [GitHost](https://about.gitlab.com/githost-faq/)
+  1. [ ] [GitHost](https://about.gitlab.com/gitlab-hosted/)
     1. [ ] Read through the [GitHost documentation](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/README.md)
 
 

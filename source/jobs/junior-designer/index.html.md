@@ -26,4 +26,4 @@ GitLab is looking for a motivated and creative designer to join our marketing te
 - Comfortable working very collaboratively on projects, as well as independently.
 - Illustration experience is a plus.
 - Experience with HTML / CSS is also a plus.
-- You share our [values](/handbook/#values), and work in accordance with those values.
+- You share our [values](/handbook/values), and work in accordance with those values.

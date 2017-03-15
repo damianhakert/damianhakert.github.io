@@ -74,10 +74,13 @@ The image below shows both `CNAME` and `A` records
 (for the purposes of this demo), but of course, you will only
 need one of them. For this example, I used the `CNAME` record pointing `gitlab-tests.gitlab.io` to my subdomain `cloudflare.marcia.ml`: 
 
-![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.png){:.shadow}
+![setup CloudFlare DNS](/images/blogimages/setting-up-gitlab-pages-with-cloudflare-certificates/cloudflare-dns-settings.jpg){:.shadow}
 
 For projects on GitLab.com, the DNS `A` record should point your custom
-domain to [GitLab Pages][pages-ip]' server IP address `104.208.235.32`.
+domain to [GitLab Pages][pages-ip]' server IP address `52.167.214.135`.
+
+**Update:** GitLab Pages IP address on GitLab.com [has changed](https://about.gitlab.com/2017/03/06/we-are-changing-the-ip-of-gitlab-pages-on-gitlab-com/) from `104.208.235.32` to `52.167.214.135`. Updated by Marcia Ramos on 2017/03/06.
+{:.note}
 
 If you'd already set this up, just jump to the second step.
 

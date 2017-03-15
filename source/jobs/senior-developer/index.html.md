@@ -33,7 +33,7 @@ Developers can specialize immediately after joining, or after some time, when th
 * Experience with Docker, Nginx, Go, and Linux system administration a plus
 * Experience with online community development a plus
 * Self-motivated and have strong organizational skills
-* You share our [values](/handbook/#values), and work in accordance with those values.
+* You share our [values](/handbook/values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 ### Ruby experience
@@ -86,7 +86,7 @@ Senior Developers are experienced developers who meet the following criteria:
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/communication/#gitlab-workflow).
 
 ## Relevant links
 
@@ -101,7 +101,7 @@ Applicants for this position can expect the hiring process to follow the order b
 * Part of the application process is to provide links to some code. Some candidates want to share code privately, so if they do, we send them an email with our GitLab.com / GitHub / Bitbucket usernames and also invite them to email code to us.
 * If the code looks good, we ask the candidate to answer two questions about web applications. One is fairly Rails-specific, to do with the MVC pattern, concerns, and services; the other is about the stages a web request goes through when someone gets the GitLab CE repo on GitLab.com.
 * Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
-* Next, candidates will be invited to schedule a 45 minute behavioral interview with a Backend Lead
+* Next, candidates will be invited to schedule a 45 minute [behavioral interview](/handbook/hiring/#behavioral-questions-star) with a Backend Lead
 * Candidates will then be invited to schedule a [technical interview](/jobs/#technical-interview) with a Backend Lead
 * Candidates will be invited to schedule a third one hour interview with our VP of Engineering
 * Finally, candidates will have a 50 minute interview with our CEO
