@@ -164,6 +164,7 @@ People Ops will consult with Lyra to ensure that the statute is met.
 * Statutory Paternity Leave:  
   - Paternity - Father is paid for two weeks at the standard rate, but can now share some of the mother’s 52 week period.
 
+The mother may opt to share some of her 52 week maternity leave with her spouse/partner (so long as it is not the first 2 weeks following birth).  The leave period will be paid in accordance with the above regulations for Maternity (ie maximum combined leave of 52 weeks, payments for up to 39 weeks at Statutory Pay rate). 
 Employees accrue all benefits during leave and must have documentation for risk assessment when notifying the company of pregnancy.
 
 People Ops will consult with Vistra to ensure that the statute is met.
