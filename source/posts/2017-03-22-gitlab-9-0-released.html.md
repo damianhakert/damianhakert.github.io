@@ -151,9 +151,15 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 <!-- end of FEATURE 4 BLOCK -->
 
 <!-- OTHER FEATURES BLOCK -->
-<section class="middle">
-
 ## Other Improvements in GitLab 9.0
+
+
+
+
+
+
+<!-- OTHER FEATURES LEFT BLOCK -->
+<section class="left vertical-align-top">
 
 ### Performance Improvements
 {: .ce-ee}
@@ -164,7 +170,101 @@ As with every release, we've worked hard to make GitLab faster. With 9.0 in part
 
 Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
-### Disaster Recovery Alpha (Premium)
+### Updated Navigation
+{: .ce-ee}
+
+Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
+
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
+
+The menu items in the tabbed navigation interface have been re-arranged (and in some cases, merged and renamed) for both the main and subtabs. The activity tab is now a subtab of the project tab. The main tabs of repository, issues, merge requests, and pipelines and now positioned from left to right in that order, reflecting the idea to production flow. The subtabs in the main graph tab have been re-arranged and placed in other locations. Again, we carefully considered where each menu should be located drawing from feedback and analysis. [Read more about the details of the change.](https://gitlab.com/gitlab-org/gitlab-ce/issues/26348)
+
+Another notable change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience.
+
+We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
+
+![Navigation](/images/9_0/navigation.png){: .shadow}
+
+### Reorder Issues in Board List
+{: .ce-ee}
+
+[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+
+![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+
+### Boards with Milestones
+{: .ees}
+
+A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
+
+As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+
+![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
+
+### Native Unicode Emojis 🔥
+
+Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
+
+![](/images/9_0/native_unicode_emojis.gif){: .shadow}
+
+### GitLab CI
+
+To follow conventions of naming across GitLab, and to further move away from the
+`build` term and toward `job`, CI variables [have been renamed](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9756) for the 9.0
+release.
+
+| 8.X name | 9.0 name |
+|----------|----------|
+| `CI_BUILD_ID` | `CI_JOB_ID` |
+| `CI_BUILD_REF` | `CI_COMMIT_SHA` |
+| `CI_BUILD_TAG` | `CI_COMMIT_TAG` |
+| `CI_BUILD_REF_NAME` | `CI_COMMIT_REF_NAME` |
+| `CI_BUILD_REF_SLUG` | `CI_COMMIT_REF_SLUG` |
+| `CI_BUILD_NAME` | `CI_JOB_NAME` |
+| `CI_BUILD_STAGE` | `CI_JOB_STAGE` |
+| `CI_BUILD_REPO` | `CI_REPOSITORY` |
+| `CI_BUILD_TRIGGERED` | `CI_PIPELINE_TRIGGERED` |
+| `CI_BUILD_MANUAL` | `CI_JOB_MANUAL` |
+| `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
+
+The old variables will still work, but will be deprecated soon.
+
+### API V4
+
+Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
+
+This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
+
+We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
+
+### Omnibus GitLab Package Improvements
+
+#### Raspberry Pi 2 changes
+
+Due to a fault in release process that was caused by changes in build infrastructure,
+packages for Raspberry Pi 2 [were tagged under Debian distribution instead of Raspbian](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303).
+
+We've resolved this issue and also synced all latest versions of packages
+to `Raspbian` distribution.
+
+Going forward, we will only release Raspberry Pi 2 packages under `Raspbian` distribution.
+Further more, as [announced in 8.17 release post](/2017/02/22/gitlab-8-17-released/#raspbian-wheezy-package),
+we will provide only Jessie packages for Rasperry Pi 2.
+
+If you did any manual changes to the apt repository as a workaround, you will need to change the distribution.
+You can do this by running:
+
+`sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list`
+
+</section>
+<!-- END OF OTHER FEATURES LEFT BLOCK -->
+
+
+<!-- OTHER FEATURES RIGHT BLOCK -->
+<section class="right vertical-align-top">
+
+### Disaster Recovery Alpha
+{: .eep}
 
 Regardless the size of your company, you need to make sure that your
 infrastructure is resilient to any kind of natural or human-induced disasters
@@ -211,42 +311,12 @@ to install Geo.
 Disaster Recovery in Alpha is available to all Enterprise Edition Premium
 customers as part of GitLab Geo.
 
-### Updated Navigation
+### Group search and filtering
 {: .ce-ee}
-
-Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
-
-Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
-
-The menu items in the tabbed navigation interface have been re-arranged (and in some cases, merged and renamed) for both the main and subtabs. The activity tab is now a subtab of the project tab. The main tabs of repository, issues, merge requests, and pipelines and now positioned from left to right in that order, reflecting the idea to production flow. The subtabs in the main graph tab have been re-arranged and placed in other locations. Again, we carefully considered where each menu should be located drawing from feedback and analysis. [Read more about the details of the change.](https://gitlab.com/gitlab-org/gitlab-ce/issues/26348)
-
-Another notable change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience.
-
-We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
-
-![Navigation](/images/9_0/navigation.png){: .shadow}
-
-### Updated Navigation
 
 With our new version of groups in 9.0, we anticipate you'll create much more of them. So we've made it possible to filter and search groups in the list view, and also allow you to sort by when they were created or updated.
 
 ![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
-
-### Reorder Issues in Board List
-{: .ce-ee}
-
-[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
-
-![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
-
-### Boards with Milestones
-{: .ees}
-
-A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
-
-As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
-
-![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
 ### Tokenized Filter and Search in Issues and Merge Requests
 {: .ees}
@@ -274,34 +344,6 @@ The merge request plays a crucial role in code collaboration and deployment. In 
 
 ![Merge Request Widget](/images/9_0/merge_request_widget.png){: .shadow}
 
-### Native Unicode Emojis 🔥
-
-Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
-
-![](/images/9_0/native_unicode_emojis.gif){: .shadow}
-
-### GitLab CI
-
-To follow conventions of naming across GitLab, and to further move away from the
-`build` term and toward `job`, CI variables [have been renamed](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9756) for the 9.0
-release.
-
-| 8.X name | 9.0 name |
-|----------|----------|
-| `CI_BUILD_ID` | `CI_JOB_ID` |
-| `CI_BUILD_REF` | `CI_COMMIT_SHA` |
-| `CI_BUILD_TAG` | `CI_COMMIT_TAG` |
-| `CI_BUILD_REF_NAME` | `CI_COMMIT_REF_NAME` |
-| `CI_BUILD_REF_SLUG` | `CI_COMMIT_REF_SLUG` |
-| `CI_BUILD_NAME` | `CI_JOB_NAME` |
-| `CI_BUILD_STAGE` | `CI_JOB_STAGE` |
-| `CI_BUILD_REPO` | `CI_REPOSITORY` |
-| `CI_BUILD_TRIGGERED` | `CI_PIPELINE_TRIGGERED` |
-| `CI_BUILD_MANUAL` | `CI_JOB_MANUAL` |
-| `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
-
-The old variables will still work, but will be deprecated soon.
-
 ### Impersonation Tokens
 
 Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled. This process will also alleviate any issues caused by users inadvertently invalidating tokens in use for other applications.
@@ -320,39 +362,24 @@ Now you fine tune your Strict Transport Security enforcement just by changing se
 
 [hsts-settings-doc]: https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security
 
-### API V4
+</section>
+<!-- END OF OTHER FEATURES RIGHT BLOCK -->
 
-Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
 
-This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
 
-We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
-### Omnibus GitLab Package Improvements
-
-#### Raspberry Pi 2 changes
-
-Due to a fault in release process that was caused by changes in build infrastructure,
-packages for Raspberry Pi 2 [were tagged under Debian distribution instead of Raspbian](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1303).
-
-We've resolved this issue and also synced all latest versions of packages
-to `Raspbian` distribution.
-
-Going forward, we will only release Raspberry Pi 2 packages under `Raspbian` distribution.
-Further more, as [announced in 8.17 release post](/2017/02/22/gitlab-8-17-released/#raspbian-wheezy-package),
-we will provide only Jessie packages for Rasperry Pi 2.
-
-If you did any manual changes to the apt repository as a workaround, you will need to change the distribution.
-You can do this by running:
-
-`sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list`
-
-<!-- changelog -->
+<!-- OTHER FEATURES CHANGELOG BLOCK -->
+<section class="right vertical-align-top">
 
 Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 
 </section>
-<!-- end of OTHER FEATURES BLOCK -->
+<!-- END OF OTHER FEATURES CHANGELOG BLOCK -->
+
+
+
+
+
 
 <!-- UPGRADE BAROMETER BLOCK -->
 <div class="upgrade-install">
