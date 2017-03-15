@@ -221,6 +221,13 @@ Another notable change is the pop-in sidebar. That has been now replaced by a le
 We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
 ![Navigation](/images/9_0/navigation.png){: .shadow}
+
+### Updated Navigation
+
+With our new version of groups in 9.0, we anticipate you'll create much more of them. So we've made it possible to filter and search groups in the list view, and also allow you to sort by when they were created or updated.
+
+![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
+
 ### Reorder Issues in Board List
 {: .ce-ee}
 
