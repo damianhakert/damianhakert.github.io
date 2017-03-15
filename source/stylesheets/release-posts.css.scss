@@ -131,39 +131,39 @@ $article-width: 1680px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+    }
 
-      h2 {
-        font-size: 44px;
-        font-weight: normal;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 1.36em;
-        align-items: center;
+    h2 {
+      font-size: 44px;
+      font-weight: normal;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 1.36em;
+      align-items: center;
+    }
+
+    h3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 30px;
+      font-weight: normal;
+      font-size: 33px;
+
+      &.ce::before,
+      &.ee::after,
+      &.ce-ee::before,
+      &.ce-ee::after {
+        height: 39px;
+        width: 45px;
       }
 
-      h3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 30px;
-        font-weight: normal;
-        font-size: 33px;
-
-        &.ce::before,
-        &.ee::after,
-        &.ce-ee::before,
-        &.ce-ee::after {
-          height: 39px;
-          width: 45px;
-        }
-
-        &.ees::after,
-        &.eep::after {
-          height: 39px;
-          width: 55px;
-        }
+      &.ees::after,
+      &.eep::after {
+        height: 39px;
+        width: 55px;
       }
 
       h4 {
