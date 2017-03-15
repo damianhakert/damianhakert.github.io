@@ -473,7 +473,11 @@
           title: Blackfire.io
         - url: https://blackfire.io/docs/integrations/gitlab
           title: Gitlab integration documentation
-
+    - title: Rollbar
+      content: Rollbar's real-time error monitoring <a href="https://rollbar.com/blog/rollbar-integration-for-gitlab/">integrates with GitLab</a> providing a fast and frictionless debugging experience with deep links to source code and issue tracking.
+      links:
+        - url: https://rollbar.com/
+          title: Rollbar
 - title: Login
   id: login
   applications:
