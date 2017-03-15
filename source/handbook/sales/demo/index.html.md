@@ -12,7 +12,7 @@ The video below has three parts: creating a Kubernetes cluster, installing GitLa
   <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-## Overview: Continuous Delivery with GitLab and Kubernetes
+## Overview: Continuous Delivery with GitLab and Kubernetes (1 min)
 {:.no_toc}
 
 GitLab is the leading single tenant development platform that covers 100% of your software development lifecycle. It connects every step of your worklfow, helping you bring modern applications from idea to production, quickly and reliably. 
