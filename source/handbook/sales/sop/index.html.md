@@ -38,17 +38,8 @@ Processes for Sales.
 1. Standard Record Type should be used for all non-reseller partner accounts.
 1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
-1. A specific custom field has been created to capture the Entity information. This Entity information is important when drafting quotes as the entity's contact, banking, and beneficiary information will populate on the order form. This field is calculed from the Shipping Country.
- * NL
- * US
- * UK
-1. The entity field will be populated via the following rules:
- * Non-reseller accounts in the UK will be billed from the UK entity.
- * Non-reseller accounts in the Netherlands will be billed from the BV (NL) entity.
- * All non-reseller accounts outside of the UK and the Netherlands will be billed from the US entity.
- * Reseller accounts outside of the US will be billed from the BV (NL) entity.
- * Reseller accounts in the US will be billed from the US entity.
 
+ 
 #### Step 2 - Contacts
 
 1. Create Contacts, by clicking on the new contact button
@@ -73,7 +64,15 @@ Processes for Sales.
 1. Sold To Contact - Click on the vlookup button to enter the Sold To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Sold To person would be the contact to whom the product was sold
 1, Invoice Owner -
 * This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see [Creating a Quote for Partner Section](#resellerQuote)
-1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
+1. Invoice Owner Contact - is the person at the Invoice Owner who will receive the invoice.
+1. Note that the GitLab entity information will be populated via the following rules:
+ * If a Direct Customer or Invoice Owner is an Unauthorized Reseller and the Ship To Country is the United Kingdom, the entity is GitLab Ltd (UK).
+ * If a Direct Customer or Invoice Owner is an Unauthorized Reseller and the Ship To Country is the Netherlands, the entity is GitLab BV (NL).
+ * If a Direct Customer or Invoice Owner is an Unauthorized Reseller and the Ship To Country is not the United Kingdom or the Netherlands, the entity is GitLab Inc. (US).
+ * If the Invoice Owner is an Authorized Reseller and the Ship To Country is the United Kingdom, the entity is GitLab Ltd (UK).
+ * If the Invoice Owner is an Authorized Reseller and the Ship To Country is the United States, the entity is GitLab Inc. (US).
+ * If the Invoice Owner is an Authorized Reseller and the Ship To Country is not the United Kingdom or the United States, the entity is GitLab BV (NL).
+1. Payment Method -  refers to the type of payment the customer is using for paying this Quote/Subscription
 1. Payment Methods currently defined are as follows –
  * Credit Card
  * ACH
@@ -82,7 +81,7 @@ Processes for Sales.
 1. Currency - by default below are the fields available, the currencies can be removed/Added or hidden based on your business needs
  * USD
  * EUR
-1. Click Thru EULA - is used when an agreement has not been signed; A use case being a product(EE ) is sold through a partner
+1. Click Thru EULA - is used when an agreement has not been signed; A use case being a product (EE) is sold through a partner
 1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora. Note: Customers can purchase in advance of the subscription Start Date. In this case, when the Quote is pushed to Z-billing the license generated will be encrypted with the furure Start Date and will not function until then.
 1. Subscription Term Type:
  * By default set as Termed
@@ -143,7 +142,7 @@ The following quote metrics are available:
 
  * To Edit a Quote, click Edit Quote Details.
  * On Edit Quote Details page, make the desired changes.
- * Click Save
+ * Click Save.
 
 ##### Select products Button
 
@@ -166,10 +165,78 @@ The following quote metrics are available:
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
  * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
-#### Step 8 – Close Won an Opportunity
+#### Step 8 – Before You Submit an Opportunity for Approval
 
-1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
-1. A renewal opportunity will be automatically created for the account
+The following is a list of required documents/processes needed before you submit an opportunity for approval:
+
+#####  Direct Deals that do not involve resellers
+1. Prospect/Client paid via Credit Card through the web portal (terms are agreed upon sign up).
+2. Prospect/Client has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
+3. A PO can be accepted in lieu of a signed agreement as long as the PO references our Quote ID and includes language that does not supercede our terms and conditions.
+
+#####  Authorized Reseller Deals that involve an official reseller purchasing on behalf of an End User
+1. Reseller has returned a signed authorized reseller quote (attach to opportunity). Quote required for all purchases in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
+2. Clickthrough EULA must be delivered and accepted by the End User. Please attach a Note to the Notes and Attachments section with a confirmation link or email.
+
+#####  Unauthorized Reseller Deals that involve an unofficial reseller purchasing on behalf of an End User
+1. If a PO is received, it must reference our quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+1. If the PO is **approved** by legal, the reseller must return an unauthorized reseller quote (no signature) and is attached to the opportunity. Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions. Also, a Click through EULA must be delivered and accepted by the End User. Please attach a Note to the Notes and Attachments section with a confirmation link or email.
+1. If the PO is **not approved** by legal, the end user must sign a standard quote between GitLab and the end user company. Please follow the steps in the Direct Deals section above.
+
+#####  Required fields in Salesforce before submitting for approval
+Once you've gathered all required documents and have uploaded them into the Notes and Attachments section of the Opportunity, you'll need to make sure certain fields are populated in the Account and Opportunity records in Salesforce.
+
+1. On the Account record:
+  * Industry
+  * Billing and Shipping Address
+  * In the Special Terms field, add any non-standard terms related to the subscription (ramps, special pricing), support (non-standard SLAs), finance (special billing/payment terms), or legal.
+1. On the Opportunity record:
+  * Attach any signed agreements, POs, and quotes as an attachment attachment to the opportunity record in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
+  * Go to the Contact Roles related list and add a Primary Contact. Ideally, you'll add Contact Roles much earlier in the sales cycle.
+  * Add the Competitors. Note that this is only required for New Business and Existing Customer - Cross Sell Business; it is not required for Renewals or Add On Business.
+  * Make sure your Close Date is for the date you are submitting the opportunity for approval.
+  * Provide a Reason We Won the deal. A few sentences on highlighting whether it was our pricing, packages, feature set, etc should do.
+  * Once these steps are completed, save the record and submit the opportunity for approval.
+
+#### Step 9 – Submitting an Opportunity for Approval
+
+1. Submit the Opportunity for Approval:
+  * Click on the Submit for Approval button on the opportunity. The button is along the top of the page before the Opportunity Details section.
+  * If you run into an error submitting the opportunity for approval:
+       1. Check the Close Date. The Close Date should be equal or greater than 2016-12-12, the day the approval process was implemented.
+       1. Make sure the Approval Status is not equal to "Approved". If the opportunity was already approved, there is no need to resubmit for approval.
+  * Once you submit the opportunity for approval, it will be locked, meaning that you will not be able to make any updates. If you'd like to unlock the opportunity to make any changes, you'll have to recall the approval submission. Scroll down to the Approval History secion and click on the Recall Approval Request button. Once you've made your changes, you can resubmit your opportunity for approval.
+  * The opportunity Stage will update to Awaiting Approval.
+  * An email will be sent to you confirming that the opportunity has been submitted for approval.
+  * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
+  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval. 
+  * The Stage will be reverted back to Verbal Commmitment, regardless of the previous Stage when initially submitted.
+  * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
+  * The opportunity will automatically change to Closed Won and the Close Date will update to the date of submission.
+
+### After the Deal is Closed Won
+
+Once an opportunity is approved and marked as Closed Won, the following occurs:
+
+1. A renewal opportunity will be automatically created for the account.
+1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
+1. If the customer agrees to be a reference, please complete the following steps:
+  * In the Referenceable Customer field on the account page, change the picklist value to "Yes".
+  * Select all the Reference Types they are willing to offer (please see the next section for an explanation of the Reference Types).
+  * Enter any Reference Comments related to the customer's willingness to be a reference.
+  * Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects".
+  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager.
+1. If the customer declines to be a reference in any way, please note that we cannot mention them in any external conversations with prospects or investors. Please make sure to add notes in the Reference Notes field on why the customer declined.
+1. Once the opportunity is closed won, the field "type" on the account object will change to "Customer".
+1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
+
+**Reference Types:**
+
+* Homepage: The customer allows GitLab to use their logo on the GitLab homepage. Please obtain an image file with their logo, or gain customer acceptance of a logo to be used on the GitLab website.
+* Customer Story: The customer allows GitLab to share their story and use case with prospects and investors.
+* Case Study: The customer allows GitLab's marketing team to draft content highlighting their business challenges and how GitLab solved those challenges.
+* Verbal Reference: The customer agrees to speak with either investors or prospective customers on their experience with GitLab.
 
 #### How to Handle Duplicate Accounts and Opportunities from Web Direct Purchases
 
@@ -310,7 +377,7 @@ A reseller quote has a few different things than a regular quote:
 * Quote Template:  Needs to be a reseller template, such as "Reseller New Quote" or "Reseller Amendment Quote".  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
 * Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.
-* Reseller Bill To: This is the Bill To Contact for the reseller. This is important as the Bill To Contact's account record will populate the GitLab entity, and all information related to that GitLab entity (Entity Name, Entity Contact Info, Entity Banking Information, and Entity Beneficiary Information).
+* Invoice Owner Contact: This is the Bill To Contact for the reseller. This is important as the Bill To Contact's account record will populate the GitLab entity, and all information related to that GitLab entity (Entity Name, Entity Contact Info, Entity Banking Information, and Entity Beneficiary Information).
 * Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
 * Discount: Authorized resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fulfillment houses like SHI, Insights, or other resellers that are not authorized resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
 When in doubt please consult the reseller team.
@@ -331,62 +398,6 @@ Despite the overwhelming arguments in favor of using the GitLab form some prospe
 1. The deal must be in excess of $15,000.
 1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
 Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
-
-### Closing a Won Deal
-
-In order to close a deal in Salesforce.com, one of the following must happen:
-
-1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
-  * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
-1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term, and pricing.  Quote is also needed to confirm they agree to terms and conditions.
-  * If a PO is received, we need to receive a signed quote showing the products, # of users, term, and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
-  * For Non-Authorized Resellers check the form PO with legal. The reseller PO should reference the GitLab quote document.  Use the Non-Authorized Reseller quote document.
-
-
-Once the above has happened, please make sure that the following fields are populated, otherwise you will receive an error message when submitting the opportunity for approval:
-
-1. On the Account record:
-  * Industry
-  * Billing and Shipping Address
-  * In the Special Terms field, add any non-standard terms related to the subscription (ramps, special pricing), support (non-standard SLAs), finance (special billing/payment terms), or legal.
-1. On the Opportunity record:
-  * Attach any signed agreements, POs, and quotes as an attachment attachment to the opportunity record in Salesforce.com.  If sent/signed via Sertifi, this will happen automatically.
-  * Go to the Contact Roles related list and add a Primary Contact. Ideally, you'll add Contact Roles much earlier in the sales cycle.
-  * Add the Competitors. Note that this is only required for New Business and Existing Customer - Cross Sell Business; it is not required for Renewals or Add On Business.
-  * Make sure your Close Date is for the date you are submitting the opportunity for approval.
-  * Provide a Reason We Won the deal. A few sentences on highlighting whether it was our pricing, packages, feature set, etc should do.
-  * Once these steps are completed, save the record and submit the opportunity for approval.
-1. Submit the Opportunity for Approval:
-  * Click on the Submit for Approval button on the opportunity. The button is along the top of the page before the Opportunity Details section.
-  * If you run into an error submitting the opportunity for approval:
-       1. Check the Close Date. The Close Date should be equal or greater than 2016-12-12, the day the approval process was implemented.
-       1. Make sure the Approval Status is not equal to "Approved". If the opportunity was already approved, there is no need to resubmit for approval.
-  * Once you submit the opportunity for approval, it will be locked, meaning that you will not be able to make any updates. If you'd like to unlock the opportunity to make any changes, you'll have to recall the approval submission. Scroll down to the Approval History secion and click on the Recall Approval Request button. Once you've made your changes, you can resubmit your opportunity for approval.
-  * The opportunity Stage will update to Awaiting Approval.
-  * An email will be sent to you confirming that the opportunity has been submitted for approval.
-  * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
-  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval. 
-  * The Stage will be reverted back to Verbal Commmitment, regardless of the previous Stage when initially submitted.
-  * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
-  * The opportunity will automatically change to Closed Won and the Close Date will update to the date of submission.
-1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
-1. If the customer agrees to be a reference, please complete the following steps:
-  * In the Referenceable Customer field on the account page, change the picklist value to "Yes".
-  * Select all the Reference Types they are willing to offer (please see the next section for an explanation of the Reference Types).
-  * Enter any Reference Comments related to the customer's willingness to be a reference.
-  * Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects".
-  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager.
-1. If the customer declines to be a reference in any way, please note that we cannot mention them in any external conversations with prospects or investors. Please make sure to add notes in the Reference Notes field on why the customer declined.
-1. Once the opportunity is closed won, the field "type" on the account object will change to "Customer".
-1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
-1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
-
-**Reference Types:**
-
-* Homepage: The customer allows GitLab to use their logo on the GitLab homepage. Please obtain an image file with their logo, or gain customer acceptance of a logo to be used on the GitLab website.
-* Customer Story: The customer allows GitLab to share their story and use case with prospects and investors.
-* Case Study: The customer allows GitLab's marketing team to draft content highlighting their business challenges and how GitLab solved those challenges.
-* Verbal Reference: The customer agrees to speak with either investors or prospective customers on their experience with GitLab.
 
 #### View and download invoices in Salesforce
 
