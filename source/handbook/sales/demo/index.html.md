@@ -170,13 +170,13 @@ First things first, we need to secure the root account with a new password. Then
 > * Set password for root user
 > * Create a user with your name and email address (no verification sent)
 
-Since we'll want to work with the team on this project, we'll create a group. Groups allow you to organize projects into directories and quickly gives users access to several projects at once. Let’s name our group `tanuki`. 
+Since we'll want to work with the team on this project, we'll create a group. Groups allow you to organize projects into directories and quickly gives users access to several projects at once. Let’s name our group `tanuki`.
 
 > * Create a group called `tanuki` and make it public
 
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
-> * Create a project under the `tanuki` group. 
+> * Create a project under the `tanuki` group.
 > * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
 > * Make it public
 
@@ -262,19 +262,19 @@ Great, that completes our setup.
 
 ### [OPTIONAL] Update project permissions
 
-Okay so everything we need to bring an application from idea to production is setup. But let's assume you want to safeguard your source code before handing this over to your developers. I'll take you through a few key ways you can outline project permissions and manage your team's workflows. 
+Okay, so everything we need to bring an application from idea to production is set up. But let's assume you want to safeguard your source code before handing this over to your developers. I'll take you through a few key ways you can outline project permissions and manage your team's workflows.
 
-**User roles and permissions**: Since this is a public project, we’ll want to ensure that we have a way to manage what actions each team member can take. For example, we may want only certain people to be able to merge to `master` or to be able to adjust the CI project configuration. 
+**User roles and permissions**: Since this is a public project, we’ll want to ensure that we have a way to manage what actions each team member can take. For example, we may want only certain people to be able to merge to `master` or to be able to adjust the CI project configuration.
 
-**Change a user’s permission level**: In GitLab permissions are managed at a user and group level and they apply to projects and GitLab CI. We have five different role types, so you can set granular permissions and keep your code and configurations management secure. To save your admins time and the headache of managing multiple logins, GitLab integrates with your Active Directory and LDAP. You can just connect GitLab to your LDAP server and it will automatically sync users, groups, and admins.
+**Change a user’s permission level**: In GitLab, permissions are managed at a user and group level and they apply to projects and GitLab CI. We have five different role types, so you can set granular permissions and keep your code and configurations management secure. To save your admins time and the headache of managing multiple logins, GitLab integrates with your Active Directory and LDAP. You can just connect GitLab to your LDAP server and it will automatically sync users, groups, and admins.
 
-**Project settings**: In addition to permissions, we also have features to help you manage the team’s workflow and bake quality control into your development process. 
+**Project settings**: In addition to permissions, we also have features to help you manage the team’s workflow and bake quality control into your development process.
 
-**Navigate to project settings for protected branches**: It’s no secret that code review is essential to keeping code quality high. But when the team is on a deadline, there could be an incentive to skip code review and force push changes. Therefore, in addition to permissions, we also allow you to create protected branches feature to prevent people from pushing code without review. The `master` branch is protected by default but you can easily protect other branches, like your QA branch, and restrict push and merge access to certain users or groups.
+**Navigate to project settings for protected branches**: It’s no secret that code review is essential to keeping code quality high. But when the team is on a deadline, there could be an incentive to skip code review and force-push changes. Therefore, in addition to permissions, we also allow you to identify protected branches to prevent people from pushing code without review. The `master` branch is protected by default but you can easily protect other branches, like your QA branch, and restrict push and merge access to certain users or groups.
 
-**Navigate to project settings for merge request approvals**: If you want to take code review a step further and ensure your code is always reviewed and signed off on by specific team members, you can enable merge request approvals. GitLab lets you set the number of necessary approvals and predefine a list of approvers or approval groups that will need to approve every merge request in the project.
- 
-Permissions, merge request approvals, and protected branches help you build quality control into your development process so you can confidently hand GitLab over to your developers to get started on turning their ideas into a reality. 
+**Navigate to project settings for merge request approvals**: If you want to take code review a step further and ensure your code is always reviewed and signed off by specific team members, you can enable merge request approvals. GitLab lets you set the number of necessary approvals and predefine a list of approvers or approval groups that will need to approve every merge request in the project.
+
+Permissions, merge request approvals, and protected branches help you build quality control into your development process so you can confidently hand GitLab over to your developers to get started on turning their ideas into a reality.
 
 ## Idea (Chat)
 
@@ -490,7 +490,7 @@ And then memory usage:
 
 ## Conclusion
 
-So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to GitLab, the only platform that connects every step of your software development lifecycle, helping you bring modern applications from idea to production, quickly and reliably. 
+So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to GitLab, the only platform that connects every step of your software development lifecycle, helping you bring modern applications from idea to production, quickly and reliably.
 
 ## Cleanup
 
