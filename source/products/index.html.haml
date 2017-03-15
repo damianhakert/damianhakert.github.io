@@ -4,8 +4,9 @@ title: Products
 suppress_header: true
 extra_css:
   - pricing.css
+  - faq.css
 extra_js:
-  - pricing.js
+  - faq.js
 extra_font:
   - "Roboto+Slab"
 ---
@@ -241,7 +242,7 @@ extra_font:
     .faq-holder.clearfix
       - size = (data.pricing.questions.size / Float(2)).ceil
       - data.pricing.questions.each_slice(size).to_a.each do |group|
-        = partial "question-group", locals: { group: group }
+        = partial "includes/layout/question_group", locals: { group: group }
 
 .content-container.animated
   .container
