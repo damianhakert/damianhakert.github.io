@@ -93,11 +93,9 @@ A group from Google came to our HQ and got our engineers $300 to spend on someth
 ❤️ &nbsp;**Thank you Cole Fresh and Google!**&nbsp; ❤️
 {: .alert .alert-gitlab-purple .text-center}
 
-The engineers involved have agreed that this extremely generous gift from Google will be spent on sponsoring Rails Girls events. But the cookies were obviously eaten by the one who grabbed the pack! 😛
+The engineers involved have agreed that this extremely generous gift from Google will be spent on [sponsoring Rails Girls events](https://railsgirlssummerofcode.org/campaign/). But the cookies were obviously eaten by the one who grabbed the pack! 😛
 
-At GitLab we're very proud of this initiative and will get the engineers involved matching swag for their next livestream event and will enjoy some team bonding fun soon.
-
-Needless to say, some special thank you swag is on it's way to these amazing people that took the time to come to our office and try to help us feel a bit better.
+Needless to say, some special **thank you** swag is on it's way to these amazing people that took the time to come to our office and try to help us feel a bit better.
 
 ## GitLab Values
 
@@ -114,7 +112,7 @@ We make mistakes. What's different from person to person, organization to organi
 
 How could we value transparency if our team members were afraid of assuming their mistakes?
 
-> _It is not our intent to have one of our team members implicated by the transparency. (...) We are very aware of the stress that such a mistake might cause and the rest of the team has been very supportive. (...) We recognize the risk to the company of being transparent, but your values are defined by what you do when it is hard._ [Sytse, CEO](https://news.ycombinator.com/item?id=13622645).
+> _It is not our intent to have one of our team members implicated by the transparency. (...) We are very aware of the stress that such a mistake might cause and the rest of the team has been very supportive. (...) We recognize the risk to the company of being transparent, but your values are defined by what you do when it is hard._ [Sid Sijbrandij, CEO](https://news.ycombinator.com/item?id=13622645).
 
 ## Team-member-1
 
@@ -142,13 +140,61 @@ Coincidentally, just before the DB incident, _team-member-1_ had qualified for a
 
 When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.com/handbook/incentives/#discretionary-bonuses), we share the reasons for that with the whole company. With the permission of _team-member-1_, this blog post is both the internal and external announcement of that promotion.
 
+### Reasons for promoting _team-member-1_
+
+His manager provided GitLab with the following reasons to promote _team-member-1_:
+
+{::options parse_block_html="true" /}
+
+<div class="panel panel-gitlab-purple">
+Reasons
+{: .panel-heading}
+<div class="panel-body">
+
+_Following what is expected out of a Senior Developer in the [job description](/jobs/developer/):_
+
+Senior Developers are experienced developers who meet the following criteria:
+
+1.  **Technical Skills**
+    *   Are able to write modular, well-tested, and maintainable code _- I think this is out of the question here and we have enough samples_
+    *   Know a domain really well and radiate that knowledge _- He already got a bonus for how he shares his knowledge, he is always raising the bar here._
+    *   Contribute to one or more complementary projects _- His contributions are numerous to all the GitLab ecosystem, including building the whole [performance monitoring metrics](http://performance.gitlab.net) system that we use to understand why GitLab is slow. Including projects like [allocations](https://gitlab.com/gitlab-org/allocations) that is used to track low level Ruby metrics_
+2.  **Leadership**
+    *   Begins to show architectural perspective _- He is involved in [Gitaly](https://gitlab.com/gitlab-org/gitaly) since before it had this name, and architectural paradigm change that will affect GitLab profoundly. He is also heavily involved in [whatever goes near the database](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/6292)._
+    *   Proposing new ideas, performing feasibility analyses and scoping the work _- This is what he is doing all the time, all of GitLab development community values his input and his opinion is highly valued._
+3.  **Code quality**
+    *   Leaves code in substantially better shape than before _- Agreed, he does this. Refer to the links provided at the bottom_
+    *   Fixes bugs/regressions quickly _- He has even performed there operations in production itself providing hotfixes._
+    *   Monitors overall code quality/build failures - _[MR](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7310)_
+    *   Creates test plans - _[MR](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8191#note_20300210)_
+4.  **Communication**
+    *   Provides thorough and timely code feedback for peers - _Refer to code quality section._
+    *   Able to communicate clearly on technical topics - _He created our [performance](http://docs.gitlab.com/ce/development/performance.html) and [sidekiq](http://docs.gitlab.com/ce/development/sidekiq_style_guide.html) style guidelines - Both these samples are pushing for improving the quality of GitLab as a whole, way beyond the scope of a single MR._
+    *   Keeps issues up-to-date with progress _- He is a bar raiser here, check any of his issues, they are up to date all the time._
+    *   Helps guide other merge requests to completion - _He does this leading to a [successful](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7121) merge and has the capacity to [reject MRs](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8044) depending on how they will impact GitLab (another sample on pushing back can be found [here](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7067))._
+    *   Helps with recruiting _- He is currently helping me to find a database specialist by reviewing job applications performing the initial filter._
+5.  **Performance & Scalability**
+    *   Excellent at writing production-ready code with little assistance _- He has been leading the performance effort for the last year, I think this is out of the question - He owned moving to postgres 9.6 on his own, a massive undertaking that was performed without a single glitch._
+    *   Able to write complex code that can scale with a significant number of users _- Same thing as before, he is the one paving the path for the rest of GitLab in this area. Definitely a bar riser._
+
+_A final sample can be found [here](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8191/diffs#note_20288482) where one of our backend leads asks him for support on how to perform a large migration without causing downtime._ 
+
+_These samples are just the tipping point the work that he has been performing for quite a while already. This work got us to the situation where we can deploy the application with minimum downtime, even adding [automation to detect when a migration will force us to cause downtime](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4911), removing human judgment from the equation._
+
+_His work is constantly impacting all the company in both depth and breath, I can find lots of samples on any of the items that are included in the job description, I can even find samples that match to the staff developer. Therefore I think that he has been behaving as a Senior Developer, and I ask that this behavior gets recognized and formalized by GitLab._
+
+</div>
+</div>
+
+{::options parse_block_html="false" /}
+
 ### We support each other
 
 For those developers involved in the outage, we made a special T-shirt:
 
 ![T-shirt back](/images/blogimages/how-is-team-member-1-doing/team-member-1-tshirt.jpg){: .center-block}
 
-We've received a lot of requests from our team members to join the _team-member-1_ club, but this T-shirt is exclusive for the real team-member-1 ones, who transparently and efficiently took care of GitLab.com during its worst hours.
+We've received a lot of requests from our team members to join the _team-member-1_ club, but this T-shirt is exclusive for the real _team-member-1_ ones, who transparently and efficiently took care of GitLab.com during its worst hours.
 
 ## Wrapping Up
 
@@ -165,6 +211,7 @@ Do you like our values? Love GitLab as much as we do? [Join us](/jobs/)!
 ----
 
 [Cover image](https://unsplash.com/?photo=mGYxAWITqMg) by [Jason Blackeye](https://unsplash.com/@jeisblack), licensed under [CC0 1.0](https://unsplash.com/license).
+{:.note}
 
 <style>
 .center-block {
@@ -175,6 +222,9 @@ Do you like our values? Love GitLab as much as we do? [Join us](/jobs/)!
 }
 .blog.article .cover {
   background-position: bottom;
+}
+.panel-heading {
+  display: none;
 }
 </style>
 
