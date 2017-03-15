@@ -321,8 +321,9 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 </section>
 </div>
 
+----
 
-[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+[Cover image](https://www.pexels.com/photo/landscape-nature-mountain-lake-37650/) licensed under [CC0](https://www.pexels.com/photo-license/).
 {:.note .text-right}
 
 <!-- end of LAST BLOCK -->
