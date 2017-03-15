@@ -187,7 +187,7 @@ A GitLab Issue Board enables you manage a group of issues within a single milest
 ### Tokenized Filter and Search in Issues and Merge Requests
 {: .ees}
 
-We first introduced the new streamlined filter annd search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
+We first introduced the new streamlined filter and search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
