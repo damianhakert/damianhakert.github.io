@@ -214,11 +214,21 @@ customers as part of GitLab Geo.
 
 Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
 
-Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
 
-One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
+The menu items in the tabbed navigation interface have been re-arranged (and in some cases, merged and renamed) for both the main and subtabs. The activity tab is now a subtab of the project tab. The main tabs of repository, issues, merge requests, and pipelines and now positioned from left to right in that order, reflecting the idea to production flow. The subtabs in the main graph tab have been re-arranged and placed in other locations. Again, we carefully considered where each menu should be located drawing from feedback and analysis. [Read more about the details of the change.](https://gitlab.com/gitlab-org/gitlab-ce/issues/26348)
+
+Another notable change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. 
+
+We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
 ![Navigation](/images/9_0/navigation.png){: .shadow}
+
+### Updated Navigation
+
+With our new version of groups in 9.0, we anticipate you'll create much more of them. So we've made it possible to filter and search groups in the list view, and also allow you to sort by when they were created or updated.
+
+![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
 
 ### Reorder Issues in Board List
 {: .ce-ee}
@@ -255,6 +265,12 @@ If your [project is already configured with a deployment service][project-servic
 [auto-deploy-doc]: https://docs.gitlab.com/ce/ci/autodeploy/index.html
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
+
+### Merge Request Widget Usability
+
+The merge request plays a crucial role in code collaboration and deployment. In particular, a lot of important information and call-to-actions are located in the merge request widget. With 9.0, we are starting to improve the usability of that widget. We want to present the most relevant information and allow you to see, at a glance, the status of the code, whether it's in review, or if it's already deployed in an environment. We will continue to iterate on this new cleaner design, and continue to make the entire merge request more powerful.
+
+![Merge Request Widget](/images/9_0/merge_request_widget.png){: .shadow}
 
 ### Native Unicode Emojis 🔥
 
