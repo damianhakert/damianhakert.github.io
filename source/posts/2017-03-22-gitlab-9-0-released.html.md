@@ -21,9 +21,9 @@ extra_css:
 <!-- blog post intro -->
 <section class="middle vertical-align-top">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month. 
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month.
 
-We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/). 
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/).
 
 We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
 
@@ -54,7 +54,7 @@ Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 ## Subgroups
 {: .ce-ee}
 
-GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups". 
+GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups".
 
 You can create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
 
@@ -186,7 +186,7 @@ One major change is the pop-in sidebar. That has been now replaced by a less int
 ### Boards with Milestones
 {: .ees}
 
-A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. 
+A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
 
 As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
@@ -343,11 +343,13 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 
 ### Upgrade barometer
 
-XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
+To upgrade to GitLab 9.0, downtime is required. Larger instances (>1000 users)
+should expect about 15 minutes of downtime.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+The specific migrations requiring downtime are described below.
+
+- ** DO WE HAVE COLUMNS WITH DEFAULT VALUES THAT ARE ADDED? **
+- ** DO WE HAVE INDEXES THAT ARE ADDED? ** 
 
 #### Note
 
