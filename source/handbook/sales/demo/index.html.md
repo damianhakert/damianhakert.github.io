@@ -500,3 +500,26 @@ So that's it. In less than 20 minutes, we installed GitLab from scratch, taken a
 >   * Look for [persistent disks](https://console.cloud.google.com/compute/disks?project=gitlab-demos&organizationId=769164969568) that need to be deleted manually.
 >   * Look up the [external IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568) you used, find the ID of the load balancer it is forwarding to, then find that ID in the list of [load balancers](https://console.cloud.google.com/networking/loadbalancing/list?project=gitlab-demos&organizationId=769164969568). Delete the load balancer.
 > * Release the [static IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568).
+
+## Troubleshooting
+
+### Various failures block Let's Encrypt, and thus GitLab
+There are several scenarios which can cause deployment failures due to issues surrounding the `kube-lego-nginx` and the Let's Encrypt (LE) ACME process. The easiest way to find these errors is checking the logs of the `kube-lego-nginx` service in the `kube-lego` namespace of the dashboard for your Kubernetes cluster.
+
+1.  **Let's Encrypt top-level domain request rate limit exceeded**
+
+     The failure mode here is the most vague from the logs, however it occurs when you have exceeded the number of certificate or renewal requests allowed for a single TLD. [Please see their documentation regarding this](https://letsencrypt.org/docs/rate-limits/).
+
+1.  **Unresolvable DNS**
+
+     If your DNS records are not correctly configured, the Let's Encrypt servers may not be able to resolve your domain when the ACME requests are filed against it. Let's Encrypt performs a reachability test that depends on valid, resolvable Fully-Qualified Domain Names. You must confirm that your entry DNS is functional, and has propagated. You can do this by using an external host (anywhere not directly querying your primary DNS where this record is present) to ping `test.my.tld` where `my.tld` is the domain name you are using. Because you should have configured a wildcard record (`*.my.tld`), `test.my.tld` should resolve to that address.
+
+1.  **Host not responding (reachability)**
+
+    This has been observed as a failure of the LoadBalancer to be properly connected to the reserved statis external IP address. There are a few methods of failure here, but the primary cases are:
+    *  Unable to assign due to prior assignment.
+
+        Either an existing use, or a failure to fully remove the prior deployment. This has been seen in both scenarios by GitLab personnel.  If you are re-creating a previous deployment, you need to wait a short period and/or confirm that the previously used GCP Networking LoadBalancer has been removed. You can manually remove these if you do not wish to wait for GCP to catch up with the de-provisioning.
+    *  Unable to assign due to incorrect region.
+
+        If you inadvertently create a GKE Kubernetes cluster in a region that is not the same as the static IP address you are attempting to use, your deployment will fail to attach to that IP address, and result in the inability to listen and respond to requests.
