@@ -304,9 +304,12 @@ I'll just add the default "To Do" and "Doing" columns.
 
 > * Add default lists
 
-There. Now we can just drag the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
+There. Now we can just add the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
 
-> * Drag issue from Backlog to Doing
+> * Click `Add issue`
+> * Select the issue (click on the whitespace in the box; not the issue title)
+> * Select `Doing` from the drop-down
+> * Click on `Add 1 issue`
 
 ## Code (Terminal)
 
