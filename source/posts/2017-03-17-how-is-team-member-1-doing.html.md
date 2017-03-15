@@ -200,7 +200,7 @@ We've received a lot of requests from our team members to join the _team-member-
 
 At GitLab, we value most positive achievements and performance improvements of our team members, instead of focusing our attention on negative random situations.
 
-Of course, we take situations like this very seriously, but we'd rather learn from them, and put all our efforts to avoid that they happen again, than punishing honest and talented people for mistakes that can happen to anyone.
+Of course, we take situations like this very seriously, but we'd rather learn from them, and put all our efforts to avoid that they happen again, than punish honest and talented people for mistakes that can happen to anyone.
 
 > _What doesn't kill you makes you stronger._ ([HN](https://news.ycombinator.com/item?id=13621356))
 
