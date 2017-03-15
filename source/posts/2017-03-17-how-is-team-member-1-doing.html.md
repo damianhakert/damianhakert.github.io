@@ -1,8 +1,8 @@
 ---
 title: "How is team-member-1 doing?"
-author: 
-author_gitlab: 
-author_twitter: 
+author: Marcia Ramos
+author_gitlab: marcia
+author_twitter: XMDRamos
 categories: inside GitLab
 image_title: '/images/unsplash/man-standing.jpg'
 description: "People asked how team-member-1 is doing after we overcame the DB incident. We're here to tell you that!"
