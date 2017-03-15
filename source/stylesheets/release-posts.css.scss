@@ -143,9 +143,27 @@ $article-width: 1680px;
       }
 
       h3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
         margin-top: 30px;
         font-weight: normal;
         font-size: 33px;
+
+        &.ce::before,
+        &.ee::after,
+        &.ce-ee::before,
+        &.ce-ee::after {
+          height: 39px;
+          width: 45px;
+        }
+
+        &.ees::after,
+        &.eep::after {
+          height: 39px;
+          width: 55px;
+        }
       }
 
       h4 {
@@ -258,18 +276,28 @@ $article-width: 1680px;
   align-self: center;
 }
 
-.ees::before {
+.ee::after {
+  @extend %ce-placeholder;
+  content: "EE";
+  background: $badge-color-ees;
+}
+
+.ees::after {
   @extend %ce-placeholder;
   content: "EES";
   background: $badge-color-ees;
   width: 73px;
 }
 
-.eep::before {
+.eep::after {
   @extend %ce-placeholder;
   content: "EEP";
   background: $badge-color-eep;
   width: 73px;
+}
+
+.ce::before {
+  @extend %ce-placeholder;
 }
 
 .ce-ee::before {
