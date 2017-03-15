@@ -36,19 +36,21 @@ Issues should be tagged with 'UX' if UX work is required.
 
 ### Researcher
 
-Issues should be tagged with 'UX Research' if there may be an opportunity for research.
+Research requests can be raised in one of two ways:
 
-1. Work with the UX team to determine the question to research.
-2. Create a meta issue which provides a high level summary of the research to be undertaken. Ensure that it is generic enough in scope, so it doesn’t influence user behaviour. 
-3. Detail research plan in Google Docs. The doc should include the question to be researched, the hypothesis, what the impact will be based on how the question is answered, and what research method(s) will be used. List related issues.
-4. Add the link to the research plan in the meta issue.
-5. Tag the meta issue with 'UX Research' and assign it to yourself. If the research is for a release, ensure that the release label is also added.
-6. Conduct the research.
-7. Document the findings and recommendations in a Google Doc. 
-8. Add the link to the findings and recommendations document in the meta issue.
-9. Ensure you update any issues which the research relates to, so the UX Designer is aware that the research has been completed. 
-10. Remove the ‘UX Research’ label from the issues your research addresses. For the meta issue, if further UX research work is required, then the ‘UX Research’ label should remain. If no further research is needed, the meta issue can be closed.
-11. For any new pain points which are uncovered during the research phase, create a new issue per pain point which describes the problem and link it to the meta issue.
-12. Tag any new issues with the ‘UX’ label.
+**Within the CE or EE GitLab project:** tag an issue with 'UX Research - Backlog'
+
+**Within the UX Research project:** raise a new issue using the research template. Add the label 'Backlog' to the issue.
+
+1. Work with the UX team to determine what should be researched.
+2. Create a meta issue within the UX Research project which provides a high level summary of the research to be undertaken. The issue should be marked as 'confidential' until the research is completed so it doesn't influence user behaviour.
+3. Label the meta issue with the area of GitLab you are testing (for example, Navigation) and the status of the issue (In progress). If the research relates to an issue within the GitLab CE or EE project, ensure it is updated with the label of 'UX Research - In progress'.
+4. Conduct the research.
+5. Document the findings and recommendations with the meta issue.
+6. Unmark the meta issue as 'confidential' and update the status of the issue to 'Done'. If the research relates to an issue within the GitLab CE or EE project, ensure the 'UX Research - In progress' label is removed and add the label of 'UX Research - Done'.
+7. Within the meta issue, discuss with UX designers and product owners which findings should be turned into issues within the GitLab CE or EE project.
+8. Create the agreed, new issues within the GitLab CE or EE project. Link the issues back to the meta issue within the UX Research project. Tag the new issues with 'UX'.
+9. Close the meta issue within the UX Research project.
+
 
 *Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).*
