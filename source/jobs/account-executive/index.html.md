@@ -1,7 +1,11 @@
 ---
 layout: job_page
-title: "Account Executive"
+title: "Account Executive (EMEA & US)"
 ---
+
+## Time zone
+
+* We are looking for candidates to be located in the US and also northern Europe or able to support that time zone.
 
 ## Responsibilities
 
