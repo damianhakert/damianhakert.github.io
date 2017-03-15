@@ -155,17 +155,21 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 ### Modern Navigation
 
-Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day. Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas. One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
+Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
+
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
+
+One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
 ![Navigation](/images/9_0/navigation.png){: .shadow}
 
 ### Issue Boards Improvements
 
-Issue Boards are a great way to manage issues moving through the different stages (which we call lists) of getting an idea to production code. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages (which we call lists) of getting an idea to production code. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intuitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
 
-A GitLab issue board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an issue board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too.
+A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too.
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
