@@ -10,8 +10,6 @@ twitter_image: '/images/tweets/gitter-gitlab-announcement-twitter.png'
 
 Today we have some exciting news to announce: [Gitter](https://gitter.im) has been acquired by [GitLab](https://gitlab.com/)! 
 
-<!-- more ->
-
 Since its launch in 2014, Gitter has fast become the place to connect the open source and software development community. Over 800,000 developers have signed up to Gitter, where they can join any of the thousands of chat communities and connect with one another to discuss software and technology.
 
 Community is core to GitLab’s principles. Our [mission is to ensure that everyone can contribute](https://about.gitlab.com/strategy/#mission), and over a thousand developers have contributed to GitLab CE. This acquisition is part of the [our strategic plan](https://about.gitlab.com/strategy/#sequence) to become the most popular SaaS solution for public repositories. While we are still years away from reaching this goal, we recognize great project chat is an essential element of most open source projects. Gitter is the leading solution and we expect it to grow even larger in the coming years. When the opportunity came to combine forces, we decided to do it.
