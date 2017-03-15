@@ -1,11 +1,8 @@
 @import "variables";
 
-body {
-  background-color: rgba($color-primary, .23);
-}
-
 .wrapper {
   min-height: 0;
+  background-color: rgba($color-primary, .23);
 }
 
 .sales-picture-container {

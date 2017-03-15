@@ -1,0 +1,55 @@
+questions:
+  - question: How do I purchase additional users for a license I already bought?
+    answer: |
+      GitLab follows a true-up model that allows you to have more users than you paid for, and
+      then pay for them when you renew your license. You can read more about it on our
+      <a href="https://about.gitlab.com/license-faq/#can-i-add-more-users-to-my-subscription">license FAQ</a>.
+  - question: How much does a license for GitLab Enterprise Edition cost?
+    answer: |
+      Pricing information is listed on our <a href="https://about.gitlab.com/products/">products page</a>.
+  - question: What is the difference between GitLab CE, GitLab EE, GitHost, and GitLab.com?
+    answer: |
+      All of the features and benefits of the different GitLab offerings can be found on the
+      <a href="https://about.gitlab.com/products/">products page</a>.
+  - question: What are the advantages of GitLab Enterprise Edition over GitLab Community Edition?
+    answer: |
+      The main benefits of GitLab EE over GitLab CE can be found on our
+      <a href="https://about.gitlab.com/comparison/gitlab-ce-vs-gitlab-ee.html">comparison page</a>.
+  - question: What tools does GitLab integrate with?
+    answer: |
+      GitLab offers a number of third-party integrations. Documentation on which ones and how to
+      integrate them can be found in
+      <a href="https://docs.gitlab.com/ee/integration/README.html">our documentation on integrations</a>.
+  - question: How do I install GitLab using a container?
+    answer: |
+      You can find out about installing GitLab using Docker in
+      <a href="https://docs.gitlab.com/omnibus/docker/README.html">our documentation</a>.
+  - question: What is the difference between GitLab and (other Git solution)?
+    answer: |
+      You can see all the differences between GitLab and other popular Git solutions on
+      <a href="https://about.gitlab.com/comparison/">our comparison page</a>.
+  - question: Do you offer any discounts for GitLab?
+    answer: |
+      GitLab CE is open source and completely free for anyone to use. We don’t
+      currently offer any discounts for GitLab EE.
+  - question: How do I migrate to GitLab from (other Git tool)?
+    answer: |
+      You can see all the migration instructions to move to GitLab from other
+      popular version control systems in
+      <a href="https://docs.gitlab.com/ee/workflow/importing/README.html">our documentation</a>.
+  - question: How do I upgrade from GitLab CE to GitLab EE?
+    answer: |
+      If you want to upgrade from GitLab CE to GitLab EE, you can follow the
+      <a href="https://docs.gitlab.com/ee/update/README.html#community-to-enterprise-edition">guides in our documentation</a>.
+  - question: Can I choose where my GitLab Hosted (Githost) server is located?
+    answer: |
+      Yes. We currently offer GitLab Hosted servers in US West,
+      US East, Amsterdam, Singapore, London, Frankfurt, and Toronto.
+  - question: What is the speed of GitLab Hosted (Githost)?
+    answer: |
+      The server specs for GitLab Hosted can be found
+      on the <a href="https://githost.io/#pricing">GitLab Hosted website</a>.
+  - question: How can I buy GitLab Hosted (Githost)?
+    answer: |
+      GitLab Hosted can be purchased on the
+      <a href="https://githost.io/">GitLab Hosted website</a>.
