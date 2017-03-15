@@ -162,7 +162,7 @@ As with every release, we've worked hard to make GitLab faster. With 9.0 in part
 
 Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
-### Geo Disaster Recovery Alpha (Premium)
+### Disaster Recovery Alpha (Premium)
 
 Regardless the size of your company, you need to make sure that your
 infrastructure is resilient to any kind of natural or human-induced disasters
@@ -185,9 +185,8 @@ replicated.
 
 This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
 and with GitLab 9.0, we are releasing a first step towards providing support for
-Disaster Recovery scenarios. Geo has been upgraded to Geo Disaster Recovery
-in Alpha. A bunch of important changes to Geo have been introduced with this
-release:
+Disaster Recovery scenarios. We call it Disaster Recovery in Alpha. A bunch of
+important changes to Geo have been introduced with this release:
 
 * If you use LFS, LFS objects will automatically be replicated to the secondary
 nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
@@ -197,15 +196,18 @@ This will allow us to replicate those files in a future iteration.
 * There is a new process to automatically backfill repositories
 ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
 * You can now disable a secondary node through the UI.
+* All other Geo features work the same way as before.
 
 If you upgrade your installations to GitLab 9.0, these changes will be
 automatically applied to your Geo installation and require no manual setup. If
-you are a Geo user, you have nothing to do to upgrade to Geo Disaster Recovery.
+you are an existing Geo user, you have nothing to do to access these new
+features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
+to install Geo.
 
 [Documentation link](link)
 
-GitLab Geo Disaster Recovery as Alpha is available to all Enterprise Edition
-Premium customers.
+Disaster Recovery in Alpha is available to all Enterprise Edition Premium
+customers as part of GitLab Geo.
 
 ### Updated Navigation
 {: .ce-ee}
