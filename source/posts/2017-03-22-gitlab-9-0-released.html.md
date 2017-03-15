@@ -162,9 +162,9 @@ Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale imple
 ### Updated Navigation
 {: .ce}
 
-Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day. 
+Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
 
-Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas. 
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas.
 
 One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
@@ -203,6 +203,12 @@ If your [project is already configured with a deployment service][project-servic
 [auto-deploy-doc]: https://docs.gitlab.com/ce/ci/autodeploy/index.html
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
+
+### Native Unicode Emojis 🔥
+
+Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
+
+![](/images/9_0/native_unicode_emojis.gif){: .shadow}
 
 ### GitLab CI
 
