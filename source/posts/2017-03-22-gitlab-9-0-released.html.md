@@ -369,9 +369,12 @@ Now you fine tune your Strict Transport Security enforcement just by changing se
 
 
 <!-- OTHER FEATURES CHANGELOG BLOCK -->
-<section class="right vertical-align-top">
+<section class="middle">
+
+## Changelog
 
 Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
+{: .text-align-center}
 
 </section>
 <!-- END OF OTHER FEATURES CHANGELOG BLOCK -->

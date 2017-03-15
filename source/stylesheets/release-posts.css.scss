@@ -161,6 +161,7 @@ $article-width: 1280px;
       margin-top: 50px;
       font-weight: normal;
       font-size: 33px;
+      text-align: left;
 
       &.ce::before,
       &.ee::after,
@@ -443,4 +444,8 @@ hr {
 .vertical-align-top {
   vertical-align: top;
   align-self: flex-start;
+}
+
+.text-align-center {
+  text-align: center;
 }
