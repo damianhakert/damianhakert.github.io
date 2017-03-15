@@ -21,13 +21,11 @@ extra_css:
 <!-- blog post intro -->
 <section class="middle vertical-align-top">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](https://about.gitlab.com/release-list/) during this period, shipping a minor version every single month. We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](https://about.gitlab.com/2015/10/22/gitlab-8-1-released/). We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](https://about.gitlab.com/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](https://about.gitlab.com/products/).
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month. We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/). We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
 
-We're on a [mission](https://about.gitlab.com/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a signficant step in this direction, with the arrival of Subgroups (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](Link to anchor tag below)
+We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a significant step in this direction, with the arrival of **Subgroups** (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](#subgroups)
 
-[GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](https://about.gitlab.com/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](Link to anchor tag below)
-
-
+[GitLab 8.0](/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](#deploy-boards)
 
 [Register for the release webcast!](link-to-webcast){:.btn .btn-lg .btn-red .webcast-button}
 
@@ -49,7 +47,7 @@ Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 <!-- FEATURE 1 block (major) -->
 <section class="middle">
 
-## GitLab Subgroups
+## Subgroups
 {: .ce}
 
 GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups". In fact, you can now create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
@@ -60,8 +58,7 @@ In this example, the organization represented by the `gitlab-nested` group has a
 
 Feel free to look at and provide feedback on what we are working on for [groups in future releases of GitLab]((https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups)).
 
-
-[Documentation link](link)
+[Documentation link](https://docs.gitlab.com/ce/user/group/subgroups/)
 
 </section>
 <!-- end of FEATURE 1 block (major) -->
@@ -165,28 +162,32 @@ Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale imple
 ### Updated Navigation
 {: .ce}
 
-Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day. Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas. One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
+Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day. 
+
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas. 
+
+One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
 ![Navigation](/images/9_0/navigation.png){: .shadow}
 
 ### Reorder Issues in Board List
 {: .ce}
 
-Issue Boards are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intutitive and existing drag and drop mechanism. [Learn more](https://docs.gitlab.com/ce/user/project/issue_board.html).
+[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
 
 ### Boards with Milestones
 {: .ees}
 
-A GitLab issue board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an issue board that is associated with a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. [Learn more](https://docs.gitlab.com/ee/user/project/issue_board.html).
+A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
 ### Tokenized Filter and Search in Issues and Merge Requests
 {: .ees}
 
-We first introduced the new streamlined filter annd search interface for issues in [8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
+We first introduced the new streamlined filter annd search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
@@ -202,15 +203,6 @@ If your [project is already configured with a deployment service][project-servic
 [auto-deploy-doc]: https://docs.gitlab.com/ce/ci/autodeploy/index.html
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
-
-<!--
-
-TODO:
-
-- link to issues or MRs
-- link to docs
-
--->
 
 ### GitLab CI
 
@@ -241,7 +233,7 @@ Alongside the new API, we've also added [Impersonation tokens](https://gitlab.co
 ### Create Mattermost Team when Creating GitLab Group
 {: .ce}
 
-When collaborating with a GitLab group, it is helpful to chat in an associated Mattermost team. With 9.0, you can now automatically create a Mattermost Team when you create a GitLab group. Simply check the checkbox, and GitLab will tell Mattermost to create a team with the same name.
+Sometimes chatting with your workgroup is the best way to get an idea rolling. To help you with that, GitLab integrates with [Mattermost](https://about.mattermost.com/). With GitLab 9.0, setting up a [Mattermost team](https://docs.gitlab.com/omnibus/gitlab-mattermost/README.html#gitlab-mattermost) for your GitLab group to chat and collaborate is effortless. When creating a GitLab group, select the appropriate checkbox, and GitLab will tell your Mattermost instance to create a team with the same name.
 
 ![Create GitLab Group Create Mattermost Team](/images/9_0/group-creation-mm.png){: .shadow}
 
@@ -338,7 +330,7 @@ Access to GitLab Enterprise Edition is included with a [subscription](https://ab
 </div>
 
 
-[Cover image](LINK-TO-ORIG-IMG) by [Name Surname](LINK-TO-AUTHOR'S-BIO), licensed under [CC X](LINK-TO-LICENCE).
+[Cover image](https://www.pexels.com/photo/landscape-nature-mountain-lake-37650/) licensed under [CC0](https://www.pexels.com/photo-license/).
 {:.note .text-right}
 
 <!-- end of LAST BLOCK -->
