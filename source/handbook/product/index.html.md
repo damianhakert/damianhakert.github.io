@@ -751,7 +751,19 @@ directly and link to it.
 
 [stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
-## Private tools and dashboards for monitoring and KPI tracking
+## EES and EEP requirements
+
+All EES and EEP features should:
+
+- Work easily for our customers that host GitLab on-premise. That is their
+licenses need not to be updated and the new feature is default-on for the
+instance
+- Work with GitLab.com Silver / Gold subscriptions. This means there has to be
+some way of toggling or using the feature at a namespace level.
+- Have documentation, be featured on [products](/products) and
+[comparison](/comparison) at launch
+
+# Private tools and dashboards for monitoring and KPI tracking
 
 [EE usage](https://version.gitlab.com/): dev.gitlab.org account
 
