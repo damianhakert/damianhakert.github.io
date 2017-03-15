@@ -2,13 +2,15 @@
 title: "Gitter is joining the GitLab team"
 author: Sid Sijbrandij
 author_twitter: sytses
-categories: GitLab
+categories: inside GitLab
 image_title: '/images/blogimages/gitter-gitlab-blog-cover.png'
 description: We're excited to announce that Gitter has been acquired by GitLab! 
 twitter_image: '/images/tweets/gitter-gitlab-announcement-twitter.png'
 ---
 
 Today we have some exciting news to announce: [Gitter](https://gitter.im) has been acquired by [GitLab](https://gitlab.com/)! 
+
+<!-- more ->
 
 Since its launch in 2014, Gitter has fast become the place to connect the open source and software development community. Over 800,000 developers have signed up to Gitter, where they can join any of the thousands of chat communities and connect with one another to discuss software and technology.
 
