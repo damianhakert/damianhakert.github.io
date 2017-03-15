@@ -22,7 +22,7 @@ Gitter has always provided unlimited free chat for public communities, as part o
 
 The coming years we want to work with the wider community to make Gitter a great help to run open source communities. After open sourcing, we'll focus our attention in adding login with GitLab, GitLab backed Gitter communities, and finishing the Topics feature that is [already released in beta on Gitter](https://gitter.im/gitterHQ/topics). We'll discuss with the wider community what is next after that, for example it could be a feature that helps with maintaining a core team.
 
-To see what this means for you please take a look at the Q&A below and the [blog post from Gitter about this acquisition](http://blog.gitter.im/gitter-gitlab-acquisition).
+To see what this means for you please take a look at the Q&A below and the [blog post from Gitter about this acquisition](http://blog.gitter.im/2017/03/15/gitter-gitlab-acquisition/).
 
 Want to know more about Gitter and GitLab in the future? Sign up for our newsletter to get product updates and announcements, helpful tips and guides, and more delivered to your inbox. 
 
