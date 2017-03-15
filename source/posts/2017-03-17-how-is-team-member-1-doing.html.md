@@ -5,13 +5,15 @@ author_gitlab: marcia
 author_twitter: XMDRamos
 categories: inside GitLab
 image_title: '/images/unsplash/man-standing.jpg'
-description: "People asked how team-member-1 is doing after we overcame the DB incident. We're here to tell you that!"
+description: "People asked how team-member-1 is doing after the DB incident of Jan 31st - Feb 1st. We're here to tell you that."
 ee_cta: false
 ---
 
-The engineer that gave the unfortunate command to [delete our primary database](/2017/02/01/gitlab-dot-com-database-incident/) was not only on our minds but also of other people.
+The engineer that gave the unfortunate command to [delete our primary database](/2017/02/01/gitlab-dot-com-database-incident/) was not only on our minds but also of other people. He's known by the community as "team-member-1", as we refered to him by this expression in our public communications during the incident.
 
-During and after the DB incident, we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
+During and after the [DB incident](/2017/02/10/postmortem-of-database-outage-of-january-31/) with GitLab.com, we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
+
+We are still putting all our efforts to improve GitLab.com's infrastrure as a whole, to prevent that incidents like this happen in the future.
 
 <!-- more -->
 
@@ -128,10 +130,6 @@ And this thoughtful tweet:
 
 We heard you Rubén! :)
 
-_Team-member-1_ [said](https://news.ycombinator.com/item?id=13620178):
-
-> _Still here, and doing just fine._
-
 Yes, _team-member-1_ is doing very well! 
 
 Coincidentally, just before the DB incident, _team-member-1_ had qualified for a promotion to senior developer. The outage did not change that decision.
@@ -193,6 +191,8 @@ _His work is constantly impacting all the company in both depth and breath, I c
 For those developers involved in the outage, we made a special T-shirt:
 
 ![T-shirt back](/images/blogimages/how-is-team-member-1-doing/team-member-1-tshirt.jpg){: .center-block}
+
+The T-shirt reminds us what happend and motivates us not to let this happen again. It was also meant to thank the team that handled the incident.
 
 We've received a lot of requests from our team members to join the _team-member-1_ club, but this T-shirt is exclusive for the real _team-member-1_ ones, who transparently and efficiently took care of GitLab.com during its worst hours.
 
