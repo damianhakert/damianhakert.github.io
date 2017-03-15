@@ -293,7 +293,7 @@ XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
 #### Note
 
 We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
-If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
@@ -309,13 +309,13 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 ### Installing and Updating
 
 If you are setting up a new GitLab installation please see the
-[download GitLab page](https://about.gitlab.com/installation/).
+[download GitLab page](/installation/).
 
-Check out our [update page](https://about.gitlab.com/update/).
+Check out our [update page](/update/).
 
 ### GitLab Products
 
-We offer four different [products](https://about.gitlab.com/products/) for you and your company:
+We offer four different [products](/products/) for you and your company:
 
 - {: #CE} **GitLab Community Edition (CE)**: [Open source](https://gitlab.com/gitlab-org/gitlab-ce), self-hosted solution of GitLab. Ideal for personal projects or small teams with minimal user management and workflow control needs. Every feature available in GitLab CE, is also available on GitLab Enterprise Edition (Starter and Premium), and GitLab.com.
 - {: #EE} **[GitLab Enterprise Edition](/gitlab-ee/) (EE)**: [Open core](https://gitlab.com/gitlab-org/gitlab-ee/), self-hosted, fully featured solution of GitLab. Available in two different subscriptions:
