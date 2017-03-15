@@ -21,7 +21,11 @@ extra_css:
 <!-- blog post intro -->
 <section class="middle vertical-align-top">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month. We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/). We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month. 
+
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/). 
+
+We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
 
 We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a significant step in this direction, with the arrival of **Subgroups** (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](#subgroups)
 
@@ -50,7 +54,9 @@ Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 ## Subgroups
 {: .ce-ee}
 
-GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups". In fact, you can now create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
+GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups". 
+
+You can create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
 
 In this example, the organization represented by the `gitlab-nested` group has a design team, a backend team, and a frontend team, each represented by a group within the `gitlab-nested` group. The `design` and `backend` groups have further groups within them.
 
@@ -152,7 +158,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 ### Performance Improvements
 {: .ce-ee}
 
-As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with ElasticSearch as well as dealing with issue labels.
+As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with issue labels.
 
 [Take a look](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=performance&milestone_title=9.0&scope=all&state=closed) at the full list of performance improvements in 9.0 and keep an eye out for further improvements in upcoming releases as GitLab continues to get faster, especially for large installations.
 
@@ -162,9 +168,9 @@ Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale imple
 ### Updated Navigation
 {: .ce-ee}
 
-Here at GitLab, most of our business functions (not just product development) occur in GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
+Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
 
-Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticuolously anlayzed what was already working well, and changed only the problem areas.
+Navigation design is a crucial component in achieving that, and with 9.0, we have modernized the interface, leveraging best practices from our design team, as well as incorporating feedback from our user research. At first glance, it doesn't like a lot has changed. But that was intentional. We meticulously analyzed what was already working well, and changed only the problem areas.
 
 One major change is the pop-in sidebar. That has been now replaced by a less intrusive dropdown menu in the top left, that doesn't unnecessarily cover too much screen content. Previously there was a dropdown menu for settings, accessed from a cog icon at the top right for the project and group pages. These have been now pulled into the existing tabbed menu interface, harmonizing and simplifying the entire experience. We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
@@ -173,14 +179,16 @@ One major change is the pop-in sidebar. That has been now replaced by a less int
 ### Reorder Issues in Board List
 {: .ce-ee}
 
-[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within lists, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
 
 ### Boards with Milestones
 {: .ees}
 
-A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones. 
+
+As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
@@ -256,7 +264,7 @@ Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, con
 
 This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
 
-We will continue to support v3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
+We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
 ### Omnibus GitLab Package Improvements
 
