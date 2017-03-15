@@ -192,9 +192,7 @@ For those developers involved in the outage, we made a special T-shirt:
 
 ![T-shirt back](/images/blogimages/how-is-team-member-1-doing/team-member-1-tshirt.jpg){: .center-block}
 
-The T-shirt reminds us what happend and motivates us not to let this happen again. It was also meant to thank the team that handled the incident.
-
-We've received a lot of requests from our team members to join the _team-member-1_ club, but this T-shirt is exclusive for the real _team-member-1_ ones, who transparently and efficiently took care of GitLab.com during its worst hours.
+This T-shirt has two purposes. It reminds us what happened and motivates us not to let this happen again. It was also meant to thank the team that handled the incident, for that reason only they have gotten one.
 
 ## Wrapping Up
 
