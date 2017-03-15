@@ -215,7 +215,7 @@ Now let's save the settings. And then let's test the settings just to make sure.
 *TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
 Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)*
 
-While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
+While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab. We also integrate with Slack so you could use that as your chat client as well.  
 
 > * Go to Project Settings > Integrations
 > * Scroll to Project Services
@@ -245,7 +245,7 @@ Great. The defaults looks pretty good, so let's go with them.
 
 ### Setup GitLab Auto-Deploy
 
-Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
+Now we’re ready to configure GitLab Auto Deploy. Auto Deploy is an easy way to configure GitLab CI. We've created various CI YAML templates that automate the setup of your deploys and review apps. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
 *TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)*  
 *TODO: [Auto deploy apps with databases](https://gitlab.com/gitlab-org/gitlab-ce/issues/28496)*  
@@ -262,13 +262,13 @@ Great, that completes our setup.
 
 ## Idea (Chat)
 
-Let's go back to our Mattermost client. Chat is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
+Let's go back to our Mattermost client. Today, more and more of your team's conversations are happening in chat, not in issues. So when a great idea comes along, it's such a waste to let it die in a chat room. Wouldn't it be great if we could create an issue for the project, right from chat? With the GitLab chat command integration, you can do exactly that. 
 
 > * Go to Mattermost [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
 > * Skip tutorial
 > * Type: Let's improve the homepage!
 
-When a great idea comes along, it's such a waste to let it die in a chat room so wouldn't it be great if we could create an issue for the project, right from chat? Well, with the GitLab chat command integration, we can do exactly that. Let's see how it works.
+So the team just came up with the idea to improve the homepage. Let's turn this idea into an issue.
 
 > * Type: `/minimal-ruby-app help`
 
@@ -299,8 +299,7 @@ Inspiration is perishable, so let's pick this one up right away. As a team lead 
 
 > Go to Issues > Board
 
-Since this is our first time, we have to add a couple columns here to match our workflow.
-I'll just add the default "To Do" and "Doing" columns.
+Since this is our first time, we have to add a couple columns here to match our workflow. These columns are fully-customizable and you can have multiple Issue Boards per project to help your team organize their releases. I'll just add the default "To Do" and "Doing" columns.
 
 > * Add default lists
 
@@ -367,7 +366,7 @@ And now it gives me an option to create a Merge Request, how nice of it. Let's g
 
 *TODO: [Leverage Heroku CI in buildpacks for zero-configuration CI](https://gitlab.com/gitlab-org/gitlab-ce/issues/26941)*
 
-As soon as the Merge Request is created, we see it kicked off the CI/CD Pipeline that will test our contributed code.
+As soon as the Merge Request is created, we see it automatically kicked off the CI/CD Pipeline that will test our contributed code.
 
 > * Click on Pipelines
 > * Click on first (top) pipeline's status.
@@ -403,13 +402,13 @@ We'll ask for another developer on the team to review our merge request. They ca
 
 ### Review apps
 
-But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our Kubernetes cluster in a special app called a Review App, created just for this branch. Right from the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
+But I don’t just want to trust reading the code, I want to see it live in a production-like environment. When a new change is pushed to our branch this change will automatically be deployed to our Kubernetes cluster in a special one-time app called a Review App, created just for this branch. Right from the merge request, we see a new status telling us that it’s been deployed, and a convenient link to the actual app. Let’s take a look.
 
 > * Click on external link to review app (if it is not updated, go to the review app deployment history, find the second-last item and re-deploy.
 
 ### Merge to `master`
 
-This is what we just created, automatically deployed to Kubernetes to make our review easier. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
+This is what we just created, automatically deployed to Kubernetes to give high fidelity reviews much earlier in your development process. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
 
 > * Click Accept Merge Request (no need to click remove source branch)
 
@@ -449,7 +448,7 @@ There we go! We've got our new text in it; all the way from idea to production!
 
 ## Feedback (Cycle Analytics)
 
-One final thing. The cycle time of getting from idea to production is very important, so GitLab has built a dashboard that helps you track that.
+But remember the goal of continuous delivery is not just about automating your deployments, it’s also about identifying bottlenecks in your deployment process and streamlining those over time. To help you spot bottlenecks in your development process, GitLab has a built-in dashboard that tracks your cycle time. We not only measure how long it takes your team to move from idea to production but we also report how much time your team spends in each step of the development process. Understanding how long it takes the team to move through the development process is the first step toward improving it. 
 
 > * Click Cycle Analytics
 
@@ -463,7 +462,9 @@ Now, let’s try out Prometheus, which is monitoring the GitLab instance itself.
 
 > * Visit [https://prometheus.make-sid-dance.com](https://prometheus.make-sid-dance.com)
 
-Now let’s look at a couple simple queries. Here’s our CPU usage:
+And finally, monitoring. Software is a labor of love. The second code is deployed, is the same time the team has commits to maintaining that code. Monitoring application performance can help your team be more strategic, preventing errors vs. simply reacting to them. Imagine if your application monitoring tool could help you avoid pushing poor-performing code in the first place, saving your business future downstream costs? That's exactly where we are heading. 
+
+GitLab has built-in Prometheus monitoring, the leading open-source monitoring solution. Today, Prometheus is monitoring the GitLab instance itself. But in upcoming releases, we will start monitoring your environments. Let’s look at a couple simple queries that show how your GitLab instance is performing. Here’s our CPU usage:
 
 > * Copy `1 - rate(node_cpu{mode="idle"}[5m])` into the Expression bar; hit enter.
 > * Click Graph
