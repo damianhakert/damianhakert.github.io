@@ -10,7 +10,7 @@ cta_button_text: 'Join our <strong>Code Review</strong> webcast live!'
 cta_button_link: 'http://get.gitlab.com/code-review-webinar/'
 ---
 
-Every business today is a technology business. Whether it supports your business model or itself _is_ the business model, your technology stack plays a key role. What your engineering team ships, and how they ship, has direct and measureable consequences for your business, even if they traditionally prefer to think otherwise. Engineering goals are now closer than ever to business goals, and understanding that will help companies thrive in the business technology world today. 
+Every business today is a technology business. Whether it supports your business model or itself _is_ the business model, your technology stack plays a key role. What your engineering team ships, and how they ship, has direct and measurable consequences for your business, even if they traditionally prefer to think otherwise. Engineering goals are now closer than ever to business goals, and understanding that will help companies thrive in the business technology world today. 
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ These are noble goals for software engineers, especially if you are building sof
 
 ## Code Quality As a Means to Further Your Business
 
-A better approach that more and more organizations — including GitLab — have embraced is lending a greater business voice to your engineering organization, and of course demanding greater responsbility. Have your engineering team communicate the benefits of maintaining quality code, and why the costs of increased engineering resources (people and time, typically) are justified by tangible business outcomes. Along with a clean and adaptable codebase, quality code allows you to:
+A better approach that more and more organizations — including GitLab — have embraced is lending a greater business voice to your engineering organization, and of course demanding greater responsibility. Have your engineering team communicate the benefits of maintaining quality code, and why the costs of increased engineering resources (people and time, typically) are justified by tangible business outcomes. Along with a clean and adaptable codebase, quality code allows you to:
 
 * Add new features quickly
 * Remove existing features since it's relatively easy to identify which code contributes to those features, and which does not
