@@ -548,7 +548,7 @@
         return data.city === params.city
       });
 
-      $(salaryContainer + ' .city .subtitle').text(parseFloat((city.rentIndex * 0.01).toFixed(2)));
+      $(salaryContainer + ' .city .subtitle').text(parseFloat((city.rentIndex * 0.01).toFixed(3)));
       $(salaryContainer + ' .city .dropdown-menu-toggle').removeClass('disabled');
 
       var dataSelected = (params.experience.min === 1.0 ? "1.0" : params.experience.min) + " to " + params.experience.max;
@@ -570,7 +570,7 @@
         var locationData = this.data.numbeo.find(function(o) {
           return o.country === country && o.city === city;
         });
-        return locationData ? parseFloat((locationData.rentIndex * 0.01).toFixed(2)) : 0;
+        return locationData ? parseFloat((locationData.rentIndex * 0.01).toFixed(3)) : 0;
       }
 
       // Rent Index will never be zero, safe to return as error value

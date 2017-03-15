@@ -80,7 +80,7 @@
             - data.numbeo.sort_by(&:city).each do |p|
               %li.hidden{'data-country' => p.country}
                 %span.key= p.city
-                %span.display-value= sprintf('%0.2f', (p.rentIndex*0.01).round(2))
+                %span.display-value= sprintf('%0.3f', (p.rentIndex*0.01).round(3))
     .col-sm-4
       .compensation
         .title Annual Compensation
