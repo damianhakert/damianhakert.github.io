@@ -484,11 +484,12 @@ This info is needed to get the team member's profile ready with Savvy HR in orde
 
 ### FOR CORE TEAM MEMBERS ONLY
 
-1.  [ ] People Ops (Recruiter): Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
-1.  [ ] People Ops (Recruiter): Have member sign NDA.
-1.  [ ] People Ops (Recruiter): Add member to #core in Slack.  
-1.  [ ] People Ops (Recruiter): Give member developer access to gitlab-org.
-1.  [ ] People Ops (Specialist): Change to core team member in BambooHR.
+1. [ ] People Ops (Specialist): Add e-mail address to the mailing list: https://groups.google.com/forum/#!forum/gitlab-core
+1. [ ] People Ops (Specialist): Have member sign NDA.
+1. [ ] People Ops (Specialist): Add member to #core in Slack.  
+1. [ ] People Ops (Specialist): Give member developer access to gitlab-org.
+1. [ ] People Ops (Specialist): Change to core team member in BambooHR.
+1. [ ] Core Team Member: Add yourself to the [Core Team](https://about.gitlab.com/core-team/) page. 
 
 ```
 
