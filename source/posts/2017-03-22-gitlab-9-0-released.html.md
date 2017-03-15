@@ -81,6 +81,8 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 
 We're introducing Deploy Boards for GitLab Enterprise Edition Premium (EEP).
 
+XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
+
 Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
 [Documentation link](link)
@@ -113,6 +115,8 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 
 Feature description
 
+XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
+
 Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
 [Documentation link](link)
@@ -132,6 +136,8 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 {: .ce-ee}
 
 (Improvements to Prometheus)
+
+XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
 
 Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
 
@@ -277,6 +283,8 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 <section class="left vertical-align-top">
 
 ### Upgrade barometer
+
+XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
