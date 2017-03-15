@@ -214,7 +214,7 @@ Mike in turn will investigate whether this is a general problem or one specific
 to GitLab.com, in collaboration with infrastructure and others and schedule any
 necessary changes for an upcoming release.
 
-## Communication<a name="reach-productteam"></a>
+# Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab Community Edition)**](https://gitlab.com/gitlab-org/gitlab-ce)
 and [**for GitLab Enterprise Edition**](https://gitlab.com/gitlab-org/gitlab-ee) - please use
@@ -224,7 +224,7 @@ confidential issues for topics that should only be visible to team members
 `#product` chat channels for questions that don't seem appropriate to use the
 issue tracker or more generic chat channels for.
 
-## Goals of Product
+# Goals of Product
 
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
@@ -238,7 +238,7 @@ complete toolset.
 1. Make our product more interesting for our customers through Products and
 EE exclusive features.
 
-## Scope of responsibilities
+# Scope of responsibilities
 
 The product team is responsible for iteration on most of GitLab's products and
 projects:
@@ -255,7 +255,7 @@ prioritize and weigh bugs, features, regressions, performance, but also
 architectural changes and other changes required for ensuring GitLab is
 excellent.
 
-## Product at GitLab
+# Product at GitLab
 
 GitLab is designed and developed in a unique way.
 
@@ -264,7 +264,7 @@ The direction for the GitLab product is spelled out on the
 how to design changes and new features. Our iterative process is demonstrated in
 a [blog post](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/).
 
-### TL;DR
+## TL;DR
 
 1. [Minimally Viable Change](#the-minimally-viable-change): Work in iterations
 by implementing only the minimally viable change.
@@ -274,9 +274,9 @@ configuration and make it work out of the box.
 1. [Do not mess with Flow](#do-not-mess-with-flow): _frictionless_ from idea to
 production. Avoid adding clicks.
 
-### Product Core Values
+## Product Core Values
 
-#### The Minimally Viable Change
+### The Minimally Viable Change
 
 Reduce every change proposal to its very minimally viable form.
 This allows us to ship almost anything within a single release,
@@ -303,7 +303,7 @@ impact.
 
 ![](/handbook/product/p1.png)
 
-#### Convention over Configuration
+### Convention over Configuration
 
 Prefer choices that are well thought out, based on current best practices.
 Avoid unnecessary configuration.
@@ -335,7 +335,7 @@ work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
 
-##### Encouraging behavior
+#### Encouraging behavior
 
 Convention also implies that we're encouraging our customers to do things
 in a certain way. A very concrete example of this is the ability to disable
@@ -346,13 +346,13 @@ instance-wide), is something that should be avoided.
 
 Encourage favorable behaviors by limiting configuration.
 
-##### Default to ON
+#### Default to ON
 
 In addition to encouraging behavior by limiting the ability to toggle features,
 when introducing new features default to turning things ON if they are
 configurable at all.
 
-#### Be Ambitious
+### Be Ambitious
 
 Many crazy, over-ambitious ideas just sound like they are impossible
 because no one else is doing them.
@@ -367,7 +367,7 @@ we're able to compete.
 
 ![](/handbook/product/p3.png)
 
-#### Do not mess with Flow
+### Do not mess with Flow
 
 Doing something simple in GitLab should be simple and require no
 human cpu-cycles to do so. Things that are simple now, should
