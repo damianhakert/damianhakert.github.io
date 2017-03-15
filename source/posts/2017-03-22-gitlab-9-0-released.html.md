@@ -41,9 +41,9 @@ We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. Git
 
 ![mvp-badge](/images/mvp_badge.png)
 
-## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Jacopo Beschi](https://gitlab.com/jacopo-beschi)
+## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Name Surname](https://gitlab.com/handle)
 
-Jacopo made it possible to [undo marking a todo item as done in the todos list](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8691). This is a huge productivity enhancement that helps you recover from mistakes in managing todos. Thanks Jacopo!
+Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
 
 </section>
 <!-- end of MVP section -->
@@ -264,7 +264,7 @@ This constant iteration has resulted in a few inconsistencies in our existing AP
 
 We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
-### Geo Disaster Recovery Alpha (EEP)
+### Geo Disaster Recovery Alpha (Premium)
 
 Regardless the size of your company, you need to make sure that your
 infrastructure is resilient to any kind of natural or human-induced disasters
