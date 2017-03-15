@@ -24,10 +24,7 @@ extra_css:
           %a{href: "/sales"} Contact Sales
         %p
           Contact our sales team for any questions about GitLab Enterprise
-          Edition. If you have any marketing or PR inquiries, please email
-          = succeed "." do
-            %a{href: "mailto:community@gitlab.com"} community@gitlab.com
-
+          Edition.
       .col-sm-4.col-md-4
         %a{href: "https://twitter.com/gitlab"}
           = image_tag "/images/icons/twitter.png", alt: "Twitter"
@@ -88,7 +85,7 @@ extra_css:
           If you want to test the security of GitLab or if you think you have
           found a problem please see our
           %a{href: "/disclosure"}
-            Responsible Disclosure Policy
+            Responsible Disclosure Policy.
 
     .row
       .col-sm-4.col-md-4
@@ -131,4 +128,16 @@ extra_css:
         %p
           This website is created from a public repository. If you see a
           potential improvement please
-          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} contribute to this website
+          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} contribute to this website.
+
+
+      .col-sm-4.col-md-4
+        %a{href: "/press"}
+          = image_tag "/images/icons/contact_us.png", alt: "Contact Us"
+        %h2
+          %a{href: "/press"} Press Inquiries
+        %p
+          For press inquiries, please email
+          %a{href: "mailto:press@gitlab.com"} press@gitlab.com.
+          If you have any marketing or PR inquiries, please email
+          %a{href: "mailto:community@gitlab.com"} community@gitlab.com.
