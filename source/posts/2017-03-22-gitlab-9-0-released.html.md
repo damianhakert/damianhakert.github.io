@@ -252,6 +252,51 @@ This constant iteration has resulted in a few inconsistencies in our existing AP
 
 We will continue to support v3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
+### Geo Disaster Recovery Alpha (EEP)
+
+Regardless the size of your company, you need to make sure that your
+infrastructure is resilient to any kind of natural or human-induced disasters
+that can happen. One of the best practices in this case is to have a least two
+servers (one primary, one secondary) in two different locations to make sure
+that if the primary server goes down, the other one can take over. Having this
+in place is critical for any teams to make sure you reduce the downtime as much
+as possible, and reduce the risk of data loss. We have received many requests to
+offer a disaster recovery solution built in GitLab and today we are introducing
+a first step towards supporting this.
+
+Since [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/),
+GitLab ships with [Geo](https://about.gitlab.com/features/gitlab-geo/), a
+feature that lets you have one or more secondary instances that mirror your main
+GitLab instance. Geo primary goal was to drastically speed up cloning and
+fetching projects over large distances. While Geo works really well for this
+use case, it has one point that prevents us to use this technology to support a
+full disaster recovery scenario: files that are saved on disk were not
+replicated.
+
+This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
+and with GitLab 9.0, we are releasing a first step towards providing support for
+Disaster Recovery scenarios. Geo has been upgraded to Geo Disaster Recovery
+in Alpha. A bunch of important changes to Geo have been introduced with this
+release:
+
+* If you use LFS, LFS objects will automatically be replicated to the secondary
+nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
+* All file uploads are now recorded in the database
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8893)).
+This will allow us to replicate those files in a future iteration.
+* There is a new process to automatically backfill repositories
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
+* You can now disable a secondary node through the UI.
+
+If you upgrade your installations to GitLab 9.0, these changes will be
+automatically applied to your Geo installation and require no manual setup. If
+you are a Geo user, you have nothing to do to upgrade to Geo Disaster Recovery.
+
+[Documentation link](link)
+
+GitLab Geo Disaster Recovery as Alpha is available to all Enterprise Edition
+Premium customers.
+
 ### Omnibus GitLab Package Improvements
 
 #### Raspberry Pi 2 changes
