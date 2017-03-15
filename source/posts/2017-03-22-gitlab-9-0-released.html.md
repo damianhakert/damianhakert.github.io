@@ -67,7 +67,7 @@ In this example, the organization represented by the `gitlab-nested` group has a
 Feel free to look at and provide feedback on what we are working on for [groups in future releases of GitLab]((https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups)).
 
 
-[Documentation link](link)
+[Documentation link](https://docs.gitlab.com/ce/user/group/subgroups/)
 
 </section>
 <!-- end of FEATURE 1 block (major) -->
@@ -175,24 +175,15 @@ A GitLab Issue Board enables you manage a group of issues within a single milest
 
 ### New Merge Requests Search and Filter Interface
 
-We first introduced the new interface for searching and filtering issues in [8.16](https://about.gitlab.com/2017/01/22/gitlab-8-16-released/). With 9.0, we are bringing the same concept to merge requests and will steadily roll it out to other parts of GitLab too. We're also continuing to improve on the new design as well. As you see, we've "token-ized" the attributes in the search, to make it even more obvious what you are searching for.
+We first introduced the new interface for searching and filtering issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are bringing the same concept to merge requests and will steadily roll it out to other parts of GitLab too. We're also continuing to improve on the new design as well. As you see, we've "token-ized" the attributes in the search, to make it even more obvious what you are searching for.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
 ### Create Mattermost Team when Creating GitLab Group
 
-When collaborating with a GitLab group, it is helpful to chat in an associated Mattermost team. With 9.0, you can now automatically create a Mattermost Team when you create a GitLab group. Simply check the checkbox, and GitLab will tell Mattermost to create a team with the same name.
+Sometimes chatting with your workgroup is the best way to get an idea rolling. To help you with that, GitLab integrates with [Mattermost](https://about.mattermost.com/). With GitLab 9.0, setting up a [Mattermost team](https://docs.gitlab.com/omnibus/gitlab-mattermost/README.html#gitlab-mattermost) for your GitLab group to chat and collaborate is effortless. When creating a GitLab group, select the appropriate checkbox, and GitLab will tell your Mattermost instance to create a team with the same name.
 
 ![Create GitLab Group Create Mattermost Team](/images/9_0/group-creation-mm.png){: .shadow}
-
-<!--
-
-TODO:
-
-- link to issues or MRs
-- link to docs
-
--->
 
 ### API V4
 
