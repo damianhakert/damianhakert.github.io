@@ -167,6 +167,10 @@ People Ops will consult with Lyra to ensure that the statute is met.
 The mother may opt to share some of her 52 week maternity leave with her spouse/partner (so long as it is not the first 2 weeks following birth).  The leave period will be paid in accordance with the above regulations for Maternity (ie maximum combined leave of 52 weeks, payments for up to 39 weeks at Statutory Pay rate). 
 Employees accrue all benefits during leave and must have documentation for risk assessment when notifying the company of pregnancy.
 
+Once an employee notifies GitLab of the pregnancy, People Ops will conduct:
+1. Risk Assessment – carry out a risk assessment of her work environment within 1-3 days of notification. This still applies if the employee works from home. The purpose of the assessment is to make the employee aware of any hazards or “risks” to her in the work place/home office to reduce potential injury to her or her baby.
+1. Notify the employee of the statutory rules/company practice regarding leave, pay, notifications etc with a link to this section of the handbook.
+
 People Ops will consult with Vistra to ensure that the statute is met.
 
 ### Hiring Significant Other or Family Members
