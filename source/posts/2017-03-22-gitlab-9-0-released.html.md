@@ -306,25 +306,24 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 <!-- LAST BLOCK -->
 <section class="right vertical-align-top">
 
-### Installation
+### Installing and Updating
 
 If you are setting up a new GitLab installation please see the
 [download GitLab page](https://about.gitlab.com/installation/).
 
-<br>
-
-### Updating
-
 Check out our [update page](https://about.gitlab.com/update/).
 
-<br>
+### GitLab Products
 
-### Enterprise Edition
+We offer four different [products](https://about.gitlab.com/products/) for you and your company:
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE](https://about.gitlab.com/gitlab-ee/).
+- {: #CE} **GitLab Community Edition (CE)**: [Open source](https://gitlab.com/gitlab-org/gitlab-ce), self-hosted solution of GitLab. Ideal for personal projects or small teams with minimal user management and workflow control needs. Every feature available in GitLab CE, is also available on GitLab Enterprise Edition (Starter and Premium), and GitLab.com.
+- {: #EE} **[GitLab Enterprise Edition](/gitlab-ee/) (EE)**: [Open core](https://gitlab.com/gitlab-org/gitlab-ee/), self-hosted, fully featured solution of GitLab. Available in two different subscriptions:
+  - {: #EES} **GitLab Enterprise Edition Starter (EES)**: Ideal for co-located teams who need additional security and workflow controls for their professional projects.
+  - {: #EEP} **GitLab Enterprise Edition Premium (EEP)**: Ideal for distributed teams who need advanced workflow controls, premium features, High Availability, and Premium Support.
+- {: #gitlab-dot-com} **[GitLab.com](/gitlab-com/)**: Free GitLab solution, which runs on top of GitLab EES, hosted by GitLab, Inc. Ideal for individuals who want to get their projects up and running quickly. Administrated by GitLab (users don't have access to admin settings).
 
-Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/products/). No time to upgrade GitLab yourself? A subscription also entitles you to our upgrade and installation services.
+<!-- - {: #gitlab-hosted} **[GitLab Hosted](/gitlab-hosted/)**: Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades. -->
 
 </section>
 </div>
