@@ -21,11 +21,17 @@ extra_css:
 <!-- blog post intro -->
 <section class="middle vertical-align-top">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](https://about.gitlab.com/release-list/) during this period, shipping a minor version every single month. We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](https://about.gitlab.com/2015/10/22/gitlab-8-1-released/). We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](https://about.gitlab.com/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](https://about.gitlab.com/products/).
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month.
 
-We're on a [mission](https://about.gitlab.com/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a signficant step in this direction, with the arrival of Subgroups (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](Link to anchor tag below)
+<!-- more -->
 
-[GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](https://about.gitlab.com/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](Link to anchor tag below)
+----
+
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/). We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
+
+We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a signficant step in this direction, with the arrival of Subgroups (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](Link to anchor tag below)
+
+[GitLab 8.0](/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](Link to anchor tag below)
 
 _Remarks about performance improvements recently and since 8.0._
 
