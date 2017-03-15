@@ -141,9 +141,9 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 ##### Benefits
 
 1. Looking forward to GitLab's Parental leave policy
- * We are in the process of comparing country requirements to create a fair policy for our team members looking to add to their family. This is Issue #88 on the People Ops issue tracker.
+ * We are in the process of comparing country requirements to create a fair [policy](https://gitlab.com/gitlab-com/peopleops/issues/88) for our team members looking to add to their family.
 1. Feeling guilty taking time off
- * We encourage anyone who is concerned about taking time away from work to recharge to speak to their manager or reach out to our People Ops Generalist or People Ops Director to better understand the concern.  We take our unlimited paid time off policy seriously.
+ * We encourage anyone who is concerned about [taking time away](https://gitlab.com/gitlab-com/www-gitlab-com/issues/952) from work to recharge to speak to their manager or reach out to our People Ops Generalist or People Ops Director to better understand the concern.  We take our unlimited paid time off policy seriously.
 
 ##### Grovo
 
