@@ -266,7 +266,7 @@ Okay so everything we need to bring an application from idea to production is se
 
 **User roles and permissions**: Since this is a public project, we’ll want to ensure that we have a way to manage what actions each team member can take. For example, we may want only certain people to be able to merge to `master` or to be able to adjust the CI project configuration. 
 
-**Change a user’s permission level**: In GitLab permissions are managed at a user and group level and they apply to projects and GitLab CI. We have five different role types, so you can set granular permissions and keep your code and configurations management secure. 
+**Change a user’s permission level**: In GitLab permissions are managed at a user and group level and they apply to projects and GitLab CI. We have five different role types, so you can set granular permissions and keep your code and configurations management secure. To save your admins time and the headache of managing multiple logins, GitLab integrates with your Active Directory and LDAP. You can just connect GitLab to your LDAP server and it will automatically sync users, groups, and admins.
 
 **Project settings**: In addition to permissions, we also have features to help you manage the team’s workflow and bake quality control into your development process. 
 
