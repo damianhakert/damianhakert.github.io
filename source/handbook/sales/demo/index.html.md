@@ -245,7 +245,7 @@ Great. The defaults looks pretty good, so let's go with them.
 
 ### Setup GitLab Auto-Deploy
 
-Now we’re ready to configure GitLab Auto Deploy. Auto Deploy is an easy way to configure GitLab CI. We've created various CI YAML templates that automate the setup of your deploys and review apps. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
+Now we’re ready to configure GitLab Auto Deploy. Auto Deploy is an easy way to configure GitLab CI from a template. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
 *TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)*  
 *TODO: [Auto deploy apps with databases](https://gitlab.com/gitlab-org/gitlab-ce/issues/28496)*  
@@ -262,14 +262,11 @@ Great, that completes our setup.
 
 ## Idea (Chat)
 
-Let's go back to our Mattermost client. Today, more and more of your team's conversations are happening in chat, not in issues. So when a great idea comes along, it's such a waste to let it die in a chat room. Wouldn't it be great if we could create an issue for the project, right from chat? With the GitLab chat command integration, you can do exactly that. 
+Let's go back to our Mattermost client. Today, more of your team's conversations are happening in chat, not in issues. With GitLab's chat command integration, you can turn ideas into issues with one command. 
 
 > * Go to Mattermost [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
 > * Skip tutorial
 > * Type: Let's improve the homepage!
-
-So the team just came up with the idea to improve the homepage. Let's turn this idea into an issue.
-
 > * Type: `/minimal-ruby-app help`
 
 On first use, the command will ask you to connect your GitLab account, which is as simple as clicking the provided link in the response.
@@ -448,7 +445,7 @@ There we go! We've got our new text in it; all the way from idea to production!
 
 ## Feedback (Cycle Analytics)
 
-But remember the goal of continuous delivery is not just about automating your deployments, it’s also about identifying bottlenecks in your deployment process and streamlining those over time. To help you spot bottlenecks in your development process, GitLab has a built-in dashboard that tracks your cycle time. We not only measure how long it takes your team to move from idea to production but we also report how much time your team spends in each step of the development process. Understanding how long it takes the team to move through the development process is the first step toward improving it. 
+But remember the goal of continuous delivery is not just about automating your deployments, it’s also about identifying bottlenecks in your deployment process and streamlining those over time. To help you spot bottlenecks in your development process, GitLab has a built-in dashboard that tracks your cycle time. 
 
 > * Click Cycle Analytics
 
@@ -462,7 +459,7 @@ Now, let’s try out Prometheus, which is monitoring the GitLab instance itself.
 
 > * Visit [https://prometheus.make-sid-dance.com](https://prometheus.make-sid-dance.com)
 
-And finally, monitoring. Software is a labor of love. The second code is deployed, is the same time the team has commits to maintaining that code. Monitoring application performance can help your team be more strategic, preventing errors vs. simply reacting to them. Imagine if your application monitoring tool could help you avoid pushing poor-performing code in the first place, saving your business future downstream costs? That's exactly where we are heading. 
+And finally, monitoring. Application performance monitoring can help your team be more strategic, preventing errors vs. simply reacting to them. Imagine if your application monitoring tool could help you avoid pushing poor-performing code in the first place, saving your business future downstream costs? That's exactly where we are heading. 
 
 GitLab has built-in Prometheus monitoring, the leading open-source monitoring solution. Today, Prometheus is monitoring the GitLab instance itself. But in upcoming releases, we will start monitoring your environments. Let’s look at a couple simple queries that show how your GitLab instance is performing. Here’s our CPU usage:
 
