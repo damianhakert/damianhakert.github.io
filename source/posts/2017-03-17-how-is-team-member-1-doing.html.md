@@ -23,7 +23,7 @@ We were all really touched by the love our community sent us via [#HugOps](https
 
 <div class="row">
   <div class="col-md-6 col-sm-12 center">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Offering a heartfelt <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a> to my friends at <a href="https://twitter.com/gitlab">@gitlab</a>. Good people taking care of a tough situation. We are all here with you!</p>&mdash; Jono Bacon (@jonobacon) <a href="https://twitter.com/jonobacon/status/826828642151862272">February 1, 2017</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a> to the <a href="https://twitter.com/gitlab">@gitlab</a> team! Love your transparency. The only person who never breaks anything is the one who never does anything.</p>&mdash; Mindy Whitsitt (@MindyWhitsitt) <a href="https://twitter.com/MindyWhitsitt/status/827197361864720384">February 2, 2017</a></blockquote>
   </div>
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">All the <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a> in the world to the GitLab team for fixing their services. And *massive* respect for their communication about the issue.</p>&mdash; ma//:as (@mattiasgeniar) <a href="https://twitter.com/mattiasgeniar/status/826997025963122688">February 2, 2017</a></blockquote>
@@ -49,13 +49,12 @@ The support our engineers received from our community was fantastic, people were
 
 <div class="row">
   <div class="col-md-6 col-sm-12 center">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Much love to YP &amp; <a href="https://twitter.com/gitlab">@gitlab</a> staff recovering from a cascade of IT disasters. Deep breaths. Don&#39;t panic. Just do the next right step. <a href="https://twitter.com/hashtag/HugOps?src=hash">#HugOps</a></p>&mdash; Indie Game Alliance (@IndieGameAllies) <a href="https://twitter.com/IndieGameAllies/status/826888908390662144">February 1, 2017</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Offering a heartfelt <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a> to my friends at <a href="https://twitter.com/gitlab">@gitlab</a>. Good people taking care of a tough situation. We are all here with you!</p>&mdash; Jono Bacon (@jonobacon) <a href="https://twitter.com/jonobacon/status/826828642151862272">February 1, 2017</a></blockquote>
   </div>
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The <a href="https://twitter.com/gitlab">@gitlab</a> handling of today&#39;s incident was exemplary. They were very transparent and up-front. We are all with team_member_1 <a href="https://twitter.com/hashtag/hugops?src=hash">#hugops</a></p>&mdash; Markos Fragkakis (@fragkakis) <a href="https://twitter.com/fragkakis/status/826914947028418561">February 1, 2017</a></blockquote>
   </div>
 </div>
-
 <div class="row">
   <div class="col-md-6 col-sm-12 center">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kudos got <a href="https://twitter.com/gitlab">@gitlab</a> on their level of transparency.  I have a lot of respect for you...</p>&mdash; Ben Kuhl (@bkuhlorelse) <a href="https://twitter.com/bkuhlorelse/status/826797385410080768">February 1, 2017</a></blockquote>
