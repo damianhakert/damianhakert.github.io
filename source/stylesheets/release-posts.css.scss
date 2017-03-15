@@ -21,13 +21,13 @@ $article-width: 1680px;
 .blog.article {
   .cover {
     overflow: hidden;
-    height: calc(100vh - 7vw);
+    height: calc(90vh - 9vw);
   }
 
   .overlay {
-    background: linear-gradient(0deg, $color-white 35%, $color-transparent-white 55%);
+    background: linear-gradient(0deg, $color-white 32%, $color-transparent-white 55%);
     border-bottom: 0;
-    height: 100vh;
+    height: 90vh;
   }
 
   .wrapper.header {
@@ -63,7 +63,7 @@ $article-width: 1680px;
     }
 
     .release-number {
-      font-size: 35vh;
+      font-size: 32vh;
       color: $color-white;
       display: block;
       text-align: center;
