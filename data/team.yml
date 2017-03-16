@@ -300,7 +300,7 @@
   locality: Hilversum
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Infrastructure Director
+  reports_to: Director of Infrastructure
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
@@ -599,7 +599,7 @@
   locality: Zamora
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/production-lead/">Production Lead</a>
-  reports_to: Infrastructure Director
+  reports_to: Director of Infrastructure
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
@@ -1555,7 +1555,7 @@
   locality: Washington, DC
   country: USA
   role: <a href="https://about.gitlab.com/jobs/security-engineer/">Security Lead</a>
-  reports_to: Infrastructure Director
+  reports_to: Director of Infrastructure
   picture: brianneel.jpg
   twitter: b0bby_tables
   gitlab: briann
@@ -2088,7 +2088,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/gitaly-lead/">Gitaly Lead</a>
-  reports_to: Infrastructure Director
+  reports_to: Director of Infrastructure
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -2266,7 +2266,7 @@
   placeholder: true
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/director-infrastructure/">Infrastructure Director</a>
+  role: <a href="https://about.gitlab.com/jobs/director-of-infrastructure/">Director of Infrastructure</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   twitter:
