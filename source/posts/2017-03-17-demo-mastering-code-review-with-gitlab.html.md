@@ -28,7 +28,7 @@ Excellent code depends on rigorous review. At GitLab, every change is reviewed u
 * The final reviewer follows the same process again. The author again addresses any comments, either by changing the code or by responding with their own comments.
 * Once the final reviewer is happy and the build is green, they will merge.
 
-To find out more about the importance of code quality, considerations for teams of different sizes and stages, and details on how we develop at GitLab while using GitLab, [register](http://get.gitlab.com/code-review-webinar/) to watch our webcast, "Code Review: A Business Imperative" on demand. 
+To find out more about the importance of code quality, considerations for teams of different sizes and stages, and details on how we develop at GitLab while using GitLab, [watch](http://get.gitlab.com/code-review-webinar/) our webcast, "Code Review: A Business Imperative" on demand. 
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/gitlab-ee/).
