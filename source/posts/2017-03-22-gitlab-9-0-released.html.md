@@ -82,7 +82,7 @@ GitLab has an incredibly powerful CI/CD system, with over a thousand runners exe
 
 Today with 9.0, we are excited to release Deploy Boards for environments running on Kubernetes. The Environments page of Pipelines now offers a single place to view the current health and deployment status of each environment, displaying the specific status of each pod in the deployment. Developers and other teammates can view the progress and status of a rollout, pod by pod, in the workflow they already use without any need for access to Kubernetes.
 
-To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers. 
+To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers.
 
 [Documentation link](link)
 
@@ -151,6 +151,58 @@ Participate in the discussion and future of performance monitoring with GitLab [
 
 </section>
 <!-- end of FEATURE 4 BLOCK -->
+
+<section class="middle">
+
+### Disaster Recovery Alpha
+{: .eep}
+
+Regardless of the size of your company, you need to make sure that your
+infrastructure is resilient to any kind of natural or human-induced disasters
+that can happen. One of the best practices in this case is to have a least two
+servers (one primary, one secondary) in two different locations to make sure
+that if the primary server goes down, the other one can take over. Having this
+in place is critical for any teams to make sure you reduce the downtime as much
+as possible, and reduce the risk of data loss. We have received many requests to
+offer a disaster recovery solution built in GitLab and today we are introducing
+a first step towards supporting this.
+
+Since [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/),
+GitLab ships with [Geo](https://about.gitlab.com/features/gitlab-geo/), a
+feature that lets you have one or more secondary instances that mirror your main
+GitLab instance. Geo primary goal was to drastically speed up cloning and
+fetching projects over large distances. While Geo works really well for this
+use case, it has one point that prevents us to use this technology to support a
+full disaster recovery scenario: files that are saved on disk were not
+replicated.
+
+This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
+and with GitLab 9.0, we are releasing a first step towards providing support for
+Disaster Recovery scenarios. We call it Disaster Recovery in Alpha. A bunch of
+important changes to Geo have been introduced with this release:
+
+* If you use LFS, LFS objects will automatically be replicated to the secondary
+nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
+* All file uploads are now recorded in the database
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8893)).
+This will allow us to replicate those files in a future iteration.
+* There is a new process to automatically backfill repositories
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
+* You can now disable a secondary node through the UI.
+* All other Geo features work the same way as before.
+
+If you upgrade your installations to GitLab 9.0, these changes will be
+automatically applied to your Geo installation and require no manual setup. If
+you are an existing Geo user, you have nothing to do to access these new
+features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
+to install Geo.
+
+[Documentation link](link)
+
+Disaster Recovery in Alpha is available to all Enterprise Edition Premium
+customers as part of GitLab Geo.
+
+</section>
 
 <!-- OTHER FEATURES BLOCK -->
 ## Other Improvements in GitLab 9.0
@@ -264,54 +316,6 @@ You can do this by running:
 
 <!-- OTHER FEATURES RIGHT BLOCK -->
 <section class="right vertical-align-top">
-
-### Disaster Recovery Alpha
-{: .eep}
-
-Regardless the size of your company, you need to make sure that your
-infrastructure is resilient to any kind of natural or human-induced disasters
-that can happen. One of the best practices in this case is to have a least two
-servers (one primary, one secondary) in two different locations to make sure
-that if the primary server goes down, the other one can take over. Having this
-in place is critical for any teams to make sure you reduce the downtime as much
-as possible, and reduce the risk of data loss. We have received many requests to
-offer a disaster recovery solution built in GitLab and today we are introducing
-a first step towards supporting this.
-
-Since [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/),
-GitLab ships with [Geo](https://about.gitlab.com/features/gitlab-geo/), a
-feature that lets you have one or more secondary instances that mirror your main
-GitLab instance. Geo primary goal was to drastically speed up cloning and
-fetching projects over large distances. While Geo works really well for this
-use case, it has one point that prevents us to use this technology to support a
-full disaster recovery scenario: files that are saved on disk were not
-replicated.
-
-This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
-and with GitLab 9.0, we are releasing a first step towards providing support for
-Disaster Recovery scenarios. We call it Disaster Recovery in Alpha. A bunch of
-important changes to Geo have been introduced with this release:
-
-* If you use LFS, LFS objects will automatically be replicated to the secondary
-nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
-* All file uploads are now recorded in the database
-([Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8893)).
-This will allow us to replicate those files in a future iteration.
-* There is a new process to automatically backfill repositories
-([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
-* You can now disable a secondary node through the UI.
-* All other Geo features work the same way as before.
-
-If you upgrade your installations to GitLab 9.0, these changes will be
-automatically applied to your Geo installation and require no manual setup. If
-you are an existing Geo user, you have nothing to do to access these new
-features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
-to install Geo.
-
-[Documentation link](link)
-
-Disaster Recovery in Alpha is available to all Enterprise Edition Premium
-customers as part of GitLab Geo.
 
 ### Group search and filtering
 {: .ce-ee}
