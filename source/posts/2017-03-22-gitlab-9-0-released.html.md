@@ -43,8 +43,6 @@ We've also grown quickly during this time. We had just under 25 team members in 
 
 <section class="right vertical-align-top">
 
-We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a significant step in this direction, with the arrival of **Subgroups** (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](#subgroups)
-
 [GitLab 8.0](/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](#deploy-boards)
 
 </section>
