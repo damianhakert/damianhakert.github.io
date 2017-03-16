@@ -54,9 +54,9 @@ We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. Git
 
 ![mvp-badge](/images/mvp_badge.png)
 
-## This month’s Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Name Surname](https://gitlab.com/handle)
+## This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is [Jacopo Beschi](https://gitlab.com/jacopo-beschi)
 
-Name contributed to [feature](#CONTRIBUTION_OF_MVP_USER_MR_URL). Thanks Name!
+Jacopo made it possible to [undo marking a todo item as done in the todos list](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8691). This is a huge productivity enhancement that helps you recover from mistakes in managing todos. Thanks Jacopo!
 
 </section>
 <!-- end of MVP section -->
