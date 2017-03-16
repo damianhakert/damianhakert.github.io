@@ -165,7 +165,7 @@ Participate in the discussion and future of performance monitoring with GitLab [
 
 <section class="middle">
 
-### Disaster Recovery Alpha
+## Disaster Recovery Alpha
 {: .eep}
 
 Regardless of the size of your company, you need to make sure that your
@@ -215,7 +215,9 @@ customers as part of GitLab Geo.
 
 </section>
 
-### Performance Improvements
+<section class="middle">
+
+## Performance Improvements
 {: .ce-ee}
 
 As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with issue labels.
@@ -224,7 +226,11 @@ As with every release, we've worked hard to make GitLab faster. With 9.0 in part
 
 Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
-### Updated Navigation
+</section>
+
+<section class="left">
+
+## Updated Navigation
 {: .ce-ee}
 
 Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
@@ -237,16 +243,30 @@ Another notable change is the pop-in sidebar. That has been now replaced by a le
 
 We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
+</section>
+<section class="right">
+
 ![Navigation](/images/9_0/navigation.png){: .shadow}
 
-### Reorder Issues in Board List
+</section>
+
+<div class="small-reverse">
+<section class="left">
+![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+</section>
+<section class="right">
+
+## Reorder Issues in Board List
 {: .ce-ee}
 
 [Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
-![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+</section>
+</div>
 
-### Boards with Milestones
+<section class="middle">
+
+## Boards with Milestones
 {: .ees}
 
 A GitLab Issue Board enables you manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
@@ -254,6 +274,8 @@ A GitLab Issue Board enables you manage a group of issues within a single milest
 As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
+
+</section>
 
 <!-- OTHER FEATURES BLOCK -->
 ## Other Improvements in GitLab 9.0
