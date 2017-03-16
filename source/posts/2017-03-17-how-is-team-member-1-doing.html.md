@@ -11,7 +11,7 @@ ee_cta: false
 
 The engineer that gave the unfortunate command to [delete our primary database](/2017/02/01/gitlab-dot-com-database-incident/) was not only on our minds but also of other people. He's known by the community as "team-member-1", as we refered to him by this expression in our public communications during the incident.
 
-During and after we posted [the postmortem of the incident with GitLab.com](/2017/02/10/postmortem-of-database-outage-of-january-31/), we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
+After we posted [the postmortem of the incident with GitLab.com](/2017/02/10/postmortem-of-database-outage-of-january-31/), we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
 
 We are still putting all our efforts into improving GitLab.com's infrastructure as a whole, to prevent that incidents like this happen in the future.
 
