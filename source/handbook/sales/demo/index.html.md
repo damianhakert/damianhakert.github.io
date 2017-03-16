@@ -177,7 +177,7 @@ Since we'll want to work with the team on this project, we'll create a group. Gr
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
 > * Create a project under the `tanuki` group.
-> * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
+> * Import `minimal-ruby-app` from `https://gitlab.com/gitlab-examples/minimal-ruby-app.git` *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
 > * Make it public
 
 ### Add Kubernetes credentials to CI
@@ -186,9 +186,10 @@ Now let’s create a new project, starting from a really simple example app just
 
 Now I’ve got to tell the project about the Kubernetes service.
 
-> * Go to Project Settings > Integrations
+> * Go to Settings > Integrations
 > * Scroll to Project Services
 > * Select Kubernetes
+> * Select `Active`
 
 First I need to activate it, and get IP address for the cluster from GKE.
 
@@ -210,15 +211,23 @@ Now let's save the settings. And then let's test the settings just to make sure.
 > * Click Test Settings
 > * Click Cancel to return to integrations list
 
-### Setup Mattermost Command
+### Set up Prometheus monitoring
+
+*TODO: Automatically add Prometheus service*
+
+And then configure Prometheus for monitoring of our projects.
+
+> * Select Prometheus
+> * Select `Active`
+> * In API URL, type `prometheus.make-sid-dance.com`
+
+### Set up Mattermost Command
 
 *TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
 Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)*
 
 While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
 
-> * *Go to Project Settings > Integrations*
-> * *Scroll to Project Services*
 > * Select Mattermost Command
 > * Click Add to Mattermost
 
@@ -459,15 +468,22 @@ Now that it is done let’s go back to Environments.
 
 Ok great, we now see the production environment shows up, and we see the deploy happened less than a minute ago.
 
-> * Click production link (1st on right, beside `production`)
+> * Click external URL link (left-most button)
 
 There we go! We've got our new text in it; all the way from idea to production!
+
+## Monitoring
+
+Now that it's in production, let's see how the app is performing.
+
+> * Go to Environments > `production`
+> * Click on graph icon
 
 ## Feedback (Cycle Analytics)
 
 One final thing. The cycle time of getting from idea to production is very important, so GitLab has built a dashboard that helps you track that.
 
-> * Click Cycle Analytics
+> * Click Project > Cycle Analytics
 
 Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. So far, we're doing amazingly well, by completing a release cycle in minutes.
 
