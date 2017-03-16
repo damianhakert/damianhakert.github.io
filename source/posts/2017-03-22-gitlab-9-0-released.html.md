@@ -10,6 +10,8 @@ description: "GitLab 9.0 Released with Subgroups, Deploy Boards, and much more!"
 twitter_image: '/images/tweets/gitlab-9-0-released.jpg'
 extra_css:
   - release-posts.css
+extra_js:
+  - release-posts.js
 ---
 
 <!-- READ THE INSTRUCTIONS AT THE END OF THIS FILE -->

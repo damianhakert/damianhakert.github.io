@@ -151,6 +151,26 @@ $article-width: 1680px;
       }
     }
 
+    .header-link {
+      position: absolute;
+      margin-left: -1.2em;
+      font-size: .8em;
+      padding-right: .4em;
+      padding-top: .2em;
+      opacity: 0;
+      color: $blog-color-text;
+    }
+
+    h2:hover .header-link,
+    h3:hover .header-link,
+    {
+      opacity: 1;
+    }
+
+    .header-link:hover {
+      color: $color-primary-alt;
+    }
+
     h2 {
       font-size: 44px;
       font-weight: normal;
