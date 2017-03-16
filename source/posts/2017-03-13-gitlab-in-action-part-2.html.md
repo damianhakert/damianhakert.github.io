@@ -9,6 +9,11 @@ description: 'The conclusion to our six-month trip around the world!'
 twitter_image: 'TODO'
 ---
 
+_Between June and December of 2016, two GitLab developers traveled around the
+world visiting other team members and working remotely. Be sure to read ["Around
+the World in 6 Releases"](/2017/01/31/around-the-world-in-6-releases/) for more
+background on the trip._
+
 For the first part of our trip we were lucky enough to have [Emily] join us for
 three of the six cities in the US, and because she knew we were too ~~lazy~~
 busy working, she [wrote a blog post for us](/2016/08/24/gitlab-in-action/)
@@ -47,8 +52,9 @@ has been your favorite so far?" and "Which city has had the best food?", and
 people were usually surprised when, without hesitation, we'd say "Mexico City!"
 It's probably not surprising to hear that the city has fantastic Mexican food
 (and it does -- we ate tacos al pastor at [El Faraón][tacos] seven times in ten
-days), but we had the best steak of our lives at [MIT] and the best mac & cheese
-of the trip at [Balmori Roofbar][mac].
+days), but we had the best steak of our lives at [MIT], the best mac & cheese
+of the trip at [Balmori Roofbar][mac], and were introduced to the amazing
+deliciousness of the Mexican [carajillo].
 
 We spent one Saturday climbing the Pyramids of the Sun and Moon at
 [Teotihuacan](https://en.wikipedia.org/wiki/Teotihuacan), and another lazily
@@ -62,6 +68,7 @@ _The Pyramid of the Moon, from the top of the Pyramid of the Sun_
 [tacos]: https://goo.gl/maps/d7Us14TE4i52
 [MIT]: https://goo.gl/maps/toZrvDEttrS2
 [mac]: https://goo.gl/maps/PetKNY5VkZk
+[carajillo]: https://en.wikipedia.org/wiki/Carajillo
 
 ## Rio de Janeiro, Brazil (2016-08-29)
 
@@ -97,11 +104,11 @@ packing strategies, we flew out to Sofia to begin the second half of our
 six-month trip around the world.
 
 We don't have any team members in Sofia, but it was the chosen location for the
-[EuRuKo 2016](http://euruko2016.org/) conference, where we were joined by
-[Adam], [Axil], [Dmitriy], and [Zeger-Jan]. It was the first conference I'd ever
-been to, and being approached by random people recognizing our GitLab shirts and
-wanting to talk about the company was a new phenomenon for me that never got
-old.
+[EuRuKo 2016](http://euruko2016.org/) conference. [Zeger-Jan] joined us for the
+entire week leading up to the conference, where we were later joined by [Adam],
+[Axil], and [Dmitriy]. It was the first conference I'd ever been to, and being
+approached by random people recognizing our GitLab shirts and wanting to talk
+about the company was a new phenomenon for me that never got old.
 
 {: .text-center}
 [![Our EuRuKo crew][sof-group]{: .shadow}][sof-group]<br>
@@ -134,10 +141,10 @@ trip][waw-wifi].
 
 While the original trip itinerary had us staying in Warsaw for two weeks and
 then going to Madrid, not booking everything in advanced allowed us to make
-changes on-the-fly, and we cut a week off of Warsaw in order to have a week in
-France with [Rémy]. We loved walking around Nice, and having a local willing to
-play chauffeur for a bit allowed us to see Antibes and Cannes as well. It turns
-out the French Riviera is stunningly beautiful -- who knew?!
+changes on-the-fly, and we cut a week off of Warsaw in order to make a detour to
+France to rendezvous with [Rémy]. We loved walking around Nice, and having a
+local willing to play chauffeur for a bit allowed us to see Antibes and Cannes
+as well. It turns out the French Riviera is stunningly beautiful -- who knew?!
 
 {: .text-center}
 [![Sunset in Antibes][nce-sunset]{: .shadow width="600px"}][nce-sunset]
@@ -148,6 +155,12 @@ week. Oh well, lessons for next time!
 
 {: .text-center}
 [![We didn't work here, but we could have!][nce-beach]{: .shadow width="600px"}][nce-beach]
+
+It was in Nice that we decided it would be fun to have souvenirs from this trip,
+so we started buying a refrigerator magnet at each stop. We're still in the
+process of getting magnets from the cities we visited before Nice, but thanks to
+our syndicate of team members all over the world, we're en route to having the
+whole set.
 
 ## Madrid, Spain (2016-10-09)
 
@@ -199,7 +212,7 @@ _[James L.], [Robert], [Douwe], [Pablo], and [Kamil] at Rubyconf Portugal_
 Finally, after hearing about this dish all week, we went to [Taberna
 Belga](https://goo.gl/maps/R1tmPnNiZnp) to try
 [francesinha](https://en.wikipedia.org/wiki/Francesinha), which is a sandwich
-with multiple kinds of meat, smothered in liquid cheese, and served with a
+with multiple kinds of meat, smothered in melted cheese, and served with a
 mountain of french fries, and it's delicious. With a description like that, I
 can't believe the US hasn't adopted it yet.
 
@@ -222,8 +235,7 @@ newfound [pastel de nata](https://en.wikipedia.org/wiki/Pastel_de_nata)
 obsession.
 
 {: .text-center}
-[![Pedro showing us the sights][lis-group]{: .shadow
-width="600px"}][lis-group]<br>
+[![Pedro showing us the sights][lis-group]{: .shadow width="600px"}][lis-group]<br>
 _[Robert], [Pedro], and [Douwe]_
 
 [team call]: https://about.gitlab.com/handbook/communication/#team-call
@@ -231,10 +243,10 @@ _[Robert], [Pedro], and [Douwe]_
 ## Edinburgh, Scotland (2016-11-06)
 
 From the lovely climate of Lisbon, where I was comfortably walking around in
-shorts and a t-shirt, we arrived in Edinburgh with temperatures around 7C. This
-was the only stop in our entire trip that was going to be cold, and we weren't
-packed for it: the warmest piece of clothing I had with me was the GitLab
-hoodie. Layering would prove to be key!
+shorts and a t-shirt, we arrived in Edinburgh with temperatures around 7 ℃
+(44 ℉). This was the only stop in our entire trip that was going to be cold, and
+we weren't packed for it: the warmest piece of clothing I had with me was the
+GitLab hoodie. Layering would prove to be key!
 
 We bundled up each morning for the walk to [Sean M.]'s coworking space,
 stopping for coffee along the way mostly just to have something to keep our
@@ -290,11 +302,11 @@ apartment, went to grab lunch around the corner, then slept for about fifteen
 hours. Our gambit worked, and we woke up early the next morning fully
 adjusted to the time change and ready to work.
 
-We met up with our local [Jen-shin] and spent the week working from the offices
-of [Cardinal Blue](http://cardinalblue.com/). The employees there were great
-hosts, and were nice enough to include us in a fantastic Thanksgiving lunch, and
-in their "demo day" at the end of the week, giving us a chance to talk about
-GitLab and our trip.
+We met up with our local [Jen-Shin] and spent the week working from the offices
+of [Cardinal Blue](http://cardinalblue.com/). The employees there were fantastic
+hosts, and graciously included us in a delicious Thanksgiving lunch, and in
+their "demo day" at the end of the week, giving us a chance to talk about GitLab
+and our trip.
 
 We got to meet some local developers at a dinner, and one of them was nice
 enough to spend his Saturday as our tour guide, taking us to an amazing hiking
@@ -302,7 +314,8 @@ trail along three waterfalls, and to the [Houtong Cat
 Village](https://en.wikipedia.org/wiki/Houtong_Cat_Village).
 
 {: .text-center}
-[![Waterfall group photo][tpe-waterfall]{: .shadow}][tpe-waterfall]
+[![Waterfall group photo][tpe-waterfall]{: .shadow}][tpe-waterfall]<br>
+_[Robert], [Douwe], [Jen-Shin], and his girlfriend Wen_
 
 ## Bali, Indonesia (2016-11-27)
 
@@ -376,9 +389,9 @@ success.
 
 While our trip is over, other team members have grabbed the baton and are taking
 full advantage of being able to work from anywhere in the world. [Chris W.] has
-already been in Indonesia, Taiwan, Hawaii, and Guatemala, and will soon be going
-to Mexico City, while [Mitchell] has been travelling all over the US, living and
-working in different cities for a month at a time.
+already been in Indonesia, Taiwan, Hawaii, Guatemala, and Mexico City, and will
+soon be going to Dallas, while [Mitchell] has been travelling all over the US,
+living and working in different cities for a month at a time.
 
 If working while traveling all over the world appeals to you, or if you have no
 interest in leaving your home but just like the idea of being able to work when
@@ -424,7 +437,7 @@ and where you want, [check out our open positions](/jobs)!
 [Kamil]:      /team/#ayufanpl
 [James E.J.]: /team/#jamedjo
 [James L.]:   /team/#jlopezofficial
-[Jen-shin]:   /team/#godfat
+[Jen-Shin]:   /team/#godfat
 [Job]:        /team/#Jobvo
 [John]:       /team/#northrup
 [Julie]:      /team/#_julie_manalo
