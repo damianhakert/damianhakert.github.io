@@ -15,7 +15,7 @@ Every person with a GitLab account that is not blocked by the administrator
 is a user and should be counted in the subscription.
 
 ### What is a user
-A user is defined as a single person or machine authorized by the customer to use their GitLab server.
+User means each individual end-user (person or machine) of Customer and/or its Affiliates (including, without limitation, employees, agents, and consultants thereof) with access to the Licensed Materials hereunder
 
 ### Can I get an evaluation license of EE?
 

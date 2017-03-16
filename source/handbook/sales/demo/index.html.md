@@ -79,6 +79,7 @@ Now we need to get an external IP address for the demo so that we can use a doma
 > * Click [`Reserve static address`](https://console.cloud.google.com/networking/addresses/add?project=gitlab-demos) at the top of the page.
 > * Set the name to match the name used for the cluster (e.g. `make-sid-dance`).
 > * Set the Region to `us-central1` to match the Zone where you made the cluster.
+> * **Warning:** The external IP **must not** be assigned to a cluster. It will be automatically assigned when creating the Application in a later step.
 > * Click the `Reserve` button at the bottom of the page.
 
 We'll now create a wildcard DNS entry for our demonstration domain, pointing to the IP we just created.
@@ -164,18 +165,18 @@ Boom, we’ve got a shiny new GitLab installation!
 
 ### Create a user and a project
 
-First things first, we need to secure the root account with a new password. Then create a new user for myself.
+First things first, we need to secure the root account with a new password. Then create a new user.
 
 > * Set password for root user
 > * Create a user with your name and email address (no verification sent)
 
-We now create a group for our company; let’s name it `tanuki`.
+Since we'll want to work with the team on this project, we'll create a group. Groups allow you to organize projects into directories and quickly gives users access to several projects at once. Let’s name our group `tanuki`.
 
 > * Create a group called `tanuki` and make it public
 
 Now let’s create a new project, starting from a really simple example app just to save myself some typing.
 
-> * Create a project under the `tanuki` group
+> * Create a project under the `tanuki` group.
 > * Import `minimal-ruby-app` from [https://gitlab.com/gitlab-examples/minimal-ruby-app.git](https://gitlab.com/gitlab-examples/minimal-ruby-app.git) *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
 > * Make it public
 
@@ -259,6 +260,22 @@ Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s 
 
 Great, that completes our setup.
 
+### [OPTIONAL] Update project permissions
+
+Okay, so everything we need to bring an application from idea to production is set up. But let's assume you want to safeguard your source code before handing this over to your developers. I'll take you through a few key ways you can outline project permissions and manage your team's workflows.
+
+**User roles and permissions**: Since this is a public project, we’ll want to ensure that we have a way to manage what actions each team member can take. For example, we may want only certain people to be able to merge to `master` or to be able to adjust the CI project configuration.
+
+**Change a user’s permission level**: In GitLab, permissions are managed at a user and group level and they apply to projects and GitLab CI. We have five different role types, so you can set granular permissions and keep your code and configurations management secure. To save your admins time and the headache of managing multiple logins, GitLab integrates with your Active Directory and LDAP. You can just connect GitLab to your LDAP server and it will automatically sync users, groups, and admins.
+
+**Project settings**: In addition to permissions, we also have features to help you manage the team’s workflow and bake quality control into your development process.
+
+**Navigate to project settings for protected branches**: It’s no secret that code review is essential to keeping code quality high. But when the team is on a deadline, there could be an incentive to skip code review and force-push changes. Therefore, in addition to permissions, we also allow you to identify protected branches to prevent people from pushing code without review. The `master` branch is protected by default but you can easily protect other branches, like your QA branch, and restrict push and merge access to certain users or groups.
+
+**Navigate to project settings for merge request approvals**: If you want to take code review a step further and ensure your code is always reviewed and signed off by specific team members, you can enable merge request approvals. GitLab lets you set the number of necessary approvals and predefine a list of approvers or approval groups that will need to approve every merge request in the project.
+
+Permissions, merge request approvals, and protected branches help you build quality control into your development process so you can confidently hand GitLab over to your developers to get started on turning their ideas into a reality.
+
 ## Idea (Chat)
 
 Let's go back to our Mattermost client. Chat is where the team would discuss the project and come up with great ideas such as “Let’s improve the homepage!”.
@@ -303,9 +320,12 @@ I'll just add the default "To Do" and "Doing" columns.
 
 > * Add default lists
 
-There. Now we can just drag the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
+There. Now we can just add the new issue from the backlog into the Doing column, because we want to resolve this issue right now.
 
-> * Drag issue from Backlog to Doing
+> * Click `Add issue`
+> * Select the issue (click on the whitespace in the box; not the issue title)
+> * Select `Doing` from the drop-down
+> * Click on `Add 1 issue`
 
 ## Code (Terminal)
 
@@ -470,7 +490,7 @@ And then memory usage:
 
 ## Conclusion
 
-So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to Gitlab.
+So that's it. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in the terminal, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback loop with cycle analytics dashboard. This all on top of a container scheduler that allows GitLab, the GitLab Runners for CI, and the applications we deploy to scale. Welcome to GitLab, the only platform that connects every step of your software development lifecycle, helping you bring modern applications from idea to production, quickly and reliably.
 
 ## Cleanup
 
@@ -480,3 +500,26 @@ So that's it. In less than 20 minutes, we installed GitLab from scratch, taken a
 >   * Look for [persistent disks](https://console.cloud.google.com/compute/disks?project=gitlab-demos&organizationId=769164969568) that need to be deleted manually.
 >   * Look up the [external IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568) you used, find the ID of the load balancer it is forwarding to, then find that ID in the list of [load balancers](https://console.cloud.google.com/networking/loadbalancing/list?project=gitlab-demos&organizationId=769164969568). Delete the load balancer.
 > * Release the [static IP](https://console.cloud.google.com/networking/addresses/list?project=gitlab-demos&organizationId=769164969568).
+
+## Troubleshooting
+
+### Various failures block Let's Encrypt, and thus GitLab
+There are several scenarios which can cause deployment failures due to issues surrounding the `kube-lego-nginx` and the Let's Encrypt (LE) ACME process. The easiest way to find these errors is checking the logs of the `kube-lego-nginx` service in the `kube-lego` namespace of the dashboard for your Kubernetes cluster.
+
+1.  **Let's Encrypt top-level domain request rate limit exceeded**
+
+     The failure mode here is the most vague from the logs, however it occurs when you have exceeded the number of certificate or renewal requests allowed for a single TLD. [Please see their documentation regarding this](https://letsencrypt.org/docs/rate-limits/).
+
+1.  **Unresolvable DNS**
+
+     If your DNS records are not correctly configured, the Let's Encrypt servers may not be able to resolve your domain when the ACME requests are filed against it. Let's Encrypt performs a reachability test that depends on valid, resolvable Fully-Qualified Domain Names. You must confirm that your entry DNS is functional, and has propagated. You can do this by using an external host (anywhere not directly querying your primary DNS where this record is present) to ping `test.my.tld` where `my.tld` is the domain name you are using. Because you should have configured a wildcard record (`*.my.tld`), `test.my.tld` should resolve to that address.
+
+1.  **Host not responding (reachability)**
+
+    This has been observed as a failure of the LoadBalancer to be properly connected to the reserved statis external IP address. There are a few methods of failure here, but the primary cases are:
+    *  Unable to assign due to prior assignment.
+
+        Either an existing use, or a failure to fully remove the prior deployment. This has been seen in both scenarios by GitLab personnel.  If you are re-creating a previous deployment, you need to wait a short period and/or confirm that the previously used GCP Networking LoadBalancer has been removed. You can manually remove these if you do not wish to wait for GCP to catch up with the de-provisioning.
+    *  Unable to assign due to incorrect region.
+
+        If you inadvertently create a GKE Kubernetes cluster in a region that is not the same as the static IP address you are attempting to use, your deployment will fail to attach to that IP address, and result in the inability to listen and respond to requests.

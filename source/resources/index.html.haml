@@ -1,0 +1,23 @@
+---
+layout: default
+title: Resources
+suppress_header: true
+description: The List of available resources such as whitepapers, webinars, etc.
+extra_font:
+  - Roboto+Slab
+---
+.page-container
+  .container
+    .row
+      .col-md-12
+        %h1.text-center
+          GitLab Resources
+        
+        - data.resources.each do |resource|
+          %h2
+            = resource.title
+          %ul
+            - resource.data.each do |entry|
+              %li
+                %a{ href:"#{entry.url}", target:"_blank" }
+                  = entry.title

@@ -299,7 +299,7 @@
 - name: Yorick Peterse
   locality: Hilversum
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Infrastructure Director
   picture: picture_yorick.jpg
   twitter: yorickpeterse
@@ -313,7 +313,7 @@
          2010. Since then he has worked on a wide variety of projects, ranging
          from domain name management software to website scrapers, and from
          Sinatra APIs to Natural Language Processing software. These days he
-         works on <a href="https://github.com/YorickPeterse/aeon">Aeon</a>,
+         works on <a href="https://github.com/YorickPeterse/inko">Inko</a>,
          <a href="https://github.com/YorickPeterse/oga">Oga</a>, and various
          other FOSS projects. Yorick will focus primarily on improving the
          performance of GitLab. He's also an avid practitioner of Krav Maga, a
@@ -323,7 +323,7 @@
   locality: Utrecht
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Build Lead
+  reports_to: Platform Lead
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
@@ -621,7 +621,7 @@
   twitter: asumaran
   gitlab: alfredo1
   maintains:  |
-                <li>FE Architectural <a href="/jobs/expert/">Expert</a></li>
+                <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
                 <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels, Branch Permissions</li>
   story:  |
@@ -657,6 +657,7 @@
   gitlab: iamphill
   maintains:  |
                 <li>Frontend merge request reviewer</li>
+                <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
                 <li>Issue Boards <a href="/jobs/expert/">expert</a></li>
@@ -927,7 +928,7 @@
   gitlab: fatihacet
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
-              <li>FE Architectural <a href="/jobs/expert/">Expert</a></li>
+              <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
               <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
               <li>Merge conflict <a href="/jobs/expert/">expert</a></li>
@@ -1133,7 +1134,7 @@
 - name: Melissa Yue
   locality: San Francisco, CA
   country: USA
-  role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
+  role: <a href="https://about.gitlab.com/jobs/accounts-payable-administrator/">Senior Accounts Payable Administrator</a>
   reports_to: Controller
   picture: melissa_yue.jpg
   twitter: Melissa52201593
@@ -1211,6 +1212,7 @@
               <li>Backend merge request reviewer</li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://gitlab.com/gitlab-org/gitlab-workhorse">GitLab Workhorse</a> <a href="/jobs/expert/">expert</a></li>
+              <li><a href="http://doc.gitlab.com/ee/integration/elasticsearch.html">Elasticsearch</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           After eight years spent building The Cloud (or at least, A Cloud),
@@ -1428,7 +1430,7 @@
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab CE</a> and <a href="https://gitlab.com/gitlab-org/gitlab-ee/">EE</a> frontend</li>
               <li>Frontend CI <a href="/jobs/expert/">expert</a></li>
-              <li>Frontend Architect <a href="/jobs/expert/">expert</a></li>
+              <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
   story:  |
           Filipa is passionate about web development, well written code and helping people. In her free time she loves spending time with her husband and their two cats, and wandering through the city to discover new corners. She also loves the ocean and rainy days with a good book.
 

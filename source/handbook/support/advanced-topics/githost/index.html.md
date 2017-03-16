@@ -18,7 +18,7 @@ any order you prefer.
 
 1. [ ] Ping your manager on the issue to notify them you have started
 1. [ ] Commit to this by notifying the current experts that they can start routing non-technical GitHost related questions to you
-1. [ ] Read the [GitHost FAQs](https://about.gitlab.com/githost-faq/)
+1. [ ] Read the [GitHost FAQs](https://about.gitlab.com/gitlab-hosted/)
 1. [ ] Read the [introduction to GitHost](https://dev.gitlab.org/gitlab/GitHost/blob/master/doc/introduction.md)
 1. [ ] Watch the [introduction to GitHost video](https://drive.google.com/a/gitlab.com/file/d/0B0zUJJYhL0-ycXlsT3VtdjJ3cW8/view?usp=drive_web)
 

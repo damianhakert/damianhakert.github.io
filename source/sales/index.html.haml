@@ -4,6 +4,10 @@ title: Contact Sales
 suppress_header: true
 extra_css:
   - sales.css
+  - faq.css
+extra_js:
+  - faq.js
+
 ---
 .wrapper
   .sales-picture-container
@@ -15,9 +19,9 @@ extra_css:
       Please contact our sales team with any questions
       about
       %a{href: "/features/#enterprise"} GitLab Enterprise Edition
-      and someone will get back to you within one business day. If you need technical help, visit 
+      and someone will get back to you within one business day. If you need technical help, visit
       %a{href: "/getting-help/"} Getting Help
-      
+
     %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
     %form#mktoForm_1036
     :javascript
@@ -49,3 +53,13 @@ extra_css:
     %p{style: "text-align: center;"} If you're not able to see the form above, please email us at: sales [at] gitlab.com
     %br/
     %br/
+
+.content-container.animated
+  .container
+    %h2.faq-title.light.text-center
+      Frequently Asked Questions
+    .faq-holder.clearfix
+      - questions = data.sales_faq.questions
+      - size = (questions.size / Float(2)).ceil
+      - questions.each_slice(size).to_a.each do |group|
+        = partial "includes/layout/question_group", locals: { group: group }

@@ -114,11 +114,11 @@ The initial phase of rolling out Grovo will take place in December 2016 and as p
 ## Books
 
 Note: Books in this section [can be expensed](https://about.gitlab.com/handbook/spending-company-money).
-1. High Output Management 1. Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
-1. The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers 1. Ben Horowitz
-1. [The score takes care of itself 1. Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
-1. Crucial Conversations: Tools for Talking When Stakes Are High 1. Kerry Patterson
 
+1. High Output Management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
+1. The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers - Ben Horowitz
+1. [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
+1. Crucial Conversations: Tools for Talking When Stakes Are High - Kerry Patterson
 
 ## People Operations
 

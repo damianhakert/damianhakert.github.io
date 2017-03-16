@@ -18,7 +18,7 @@
 - title: "Account Executive - Sales"
   description: /jobs/account-executive/
   apply:
-  open: false
+  open: true
 
 - title: "Account Manager - Customer Success"
   description: /jobs/account-manager/
@@ -94,7 +94,7 @@
 - title: "Security Specialist"
   description: /jobs/developer/#security-specialist
   salary: 87337
-  apply:
+  apply:  https://gitlab.workable.com/jobs/446177
   open: false
 
 - title: "Backend Developer, Edge"
@@ -206,7 +206,7 @@
   apply: https://gitlab.workable.com/jobs/339744/candidates/new
   open: true
 
-- title: "Production Engineer"
+- title: "Production Engineer (Americas)"
   description: /jobs/production-engineer/
   salary: 110295
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
@@ -225,7 +225,7 @@
 
 - title: "Prometheus Engineer"
   description: /jobs/prometheus-engineer/
-  apply: 
+  apply:
   open: false
 
 - title: "Regional Sales Director"

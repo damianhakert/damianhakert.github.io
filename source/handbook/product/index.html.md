@@ -16,7 +16,9 @@ For the _what_, see [Product Strategy](/direction/strategy).
 # Who to talk to for what
 
 If you have any product-related questions, comments, input or otherwise,
-the product manager is the primary person you should talk to.
+the product manager is the primary person you should talk to,
+_if creating an issue does not suffice_. Otherwise, [read this section on how
+to create an issue](/handbook/product/#how-to-submit-a-new-issue).
 
 This includes, but is not limited to features, bugs and other
 changes that need more attention, be prioritized, changed, or discussed.
@@ -212,7 +214,7 @@ Mike in turn will investigate whether this is a general problem or one specific
 to GitLab.com, in collaboration with infrastructure and others and schedule any
 necessary changes for an upcoming release.
 
-## Communication<a name="reach-productteam"></a>
+# Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab Community Edition)**](https://gitlab.com/gitlab-org/gitlab-ce)
 and [**for GitLab Enterprise Edition**](https://gitlab.com/gitlab-org/gitlab-ee) - please use
@@ -222,7 +224,7 @@ confidential issues for topics that should only be visible to team members
 `#product` chat channels for questions that don't seem appropriate to use the
 issue tracker or more generic chat channels for.
 
-## Goals of Product
+# Goals of Product
 
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
@@ -236,7 +238,7 @@ complete toolset.
 1. Make our product more interesting for our customers through Products and
 EE exclusive features.
 
-## Scope of responsibilities
+# Scope of responsibilities
 
 The product team is responsible for iteration on most of GitLab's products and
 projects:
@@ -253,7 +255,7 @@ prioritize and weigh bugs, features, regressions, performance, but also
 architectural changes and other changes required for ensuring GitLab is
 excellent.
 
-## Product at GitLab
+# Product at GitLab
 
 GitLab is designed and developed in a unique way.
 
@@ -262,7 +264,7 @@ The direction for the GitLab product is spelled out on the
 how to design changes and new features. Our iterative process is demonstrated in
 a [blog post](https://about.gitlab.com/2017/01/04/behind-the-scenes-how-we-built-review-apps/).
 
-### TL;DR
+## TL;DR
 
 1. [Minimally Viable Change](#the-minimally-viable-change): Work in iterations
 by implementing only the minimally viable change.
@@ -272,9 +274,9 @@ configuration and make it work out of the box.
 1. [Do not mess with Flow](#do-not-mess-with-flow): _frictionless_ from idea to
 production. Avoid adding clicks.
 
-### Product Core Values
+## Product Core Values
 
-#### The Minimally Viable Change
+### The Minimally Viable Change
 
 Reduce every change proposal to its very minimally viable form.
 This allows us to ship almost anything within a single release,
@@ -301,7 +303,7 @@ impact.
 
 ![](/handbook/product/p1.png)
 
-#### Convention over Configuration
+### Convention over Configuration
 
 Prefer choices that are well thought out, based on current best practices.
 Avoid unnecessary configuration.
@@ -333,7 +335,7 @@ work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
 way of the user_.
 
-##### Encouraging behavior
+#### Encouraging behavior
 
 Convention also implies that we're encouraging our customers to do things
 in a certain way. A very concrete example of this is the ability to disable
@@ -344,13 +346,13 @@ instance-wide), is something that should be avoided.
 
 Encourage favorable behaviors by limiting configuration.
 
-##### Default to ON
+#### Default to ON
 
 In addition to encouraging behavior by limiting the ability to toggle features,
 when introducing new features default to turning things ON if they are
 configurable at all.
 
-#### Be Ambitious
+### Be Ambitious
 
 Many crazy, over-ambitious ideas just sound like they are impossible
 because no one else is doing them.
@@ -365,7 +367,7 @@ we're able to compete.
 
 ![](/handbook/product/p3.png)
 
-#### Do not mess with Flow
+### Do not mess with Flow
 
 Doing something simple in GitLab should be simple and require no
 human cpu-cycles to do so. Things that are simple now, should
@@ -445,6 +447,30 @@ As a PM you don't own the product: ask other people for feedback and give
 team members and the community the space to suggest and create without your
 direct intervention. It's your job to make sure something is decided and
 planned, not to come up with every idea or change.
+
+### Dogfood everything
+
+The best way to understand the pain of the users is to go through what we ask
+them to do while setting up or using GitLab. As a PM, you should go through
+every feature, at the minimum the ones you are responsible for. All of them. That
+includes features that are not in GitLab's UI directly but require server
+configuration. If you, as a PM, can't understand the documentation or struggle
+to install something, who else would even bother to do it? Going through this is
+not only beneficial to understand what the pain points are, it will also tell
+you what you can enhance, from a better flow to a better documentation.
+
+#### Example: configuring GitLab
+
+Most of GitLab is configured through the file `gitlab.rb`. It's tempting to
+add a new parameter in this file - it's easy, fast to do, and won't require to
+add a new UI to allow the configuration of this new setting. However, changing
+this file requires you to reconfigure GitLab. To do that, you have to login to
+your server and type in commands to reconfigure your instance. Possibly,
+multiple times if you have more than one server.
+
+This is not something that we can ask our customers to do. Only by using your
+own product and features, will you realize that some practices should be avoided
+if you can.
 
 ### New Feature Workflow
 
@@ -539,6 +565,10 @@ Follow this timeline for the release that will be shipped in Month `M`.
 
 With this schedule, release timelines are overlapping. For example, when a release is shipped to production on the 22nd,
 the scope for the following release has already been established earlier in that same month.
+
+#### Planning for issues in future releases
+
+We schedule issues month to month. But PMs plan a few releases in advance and have a high-level idea of which issues will likely be scheduled. PMs will label these issues with the `coming soon` label. This is a signal for all stakeholders that these are candidates, but not guaranteeing scheduling in a particular release, or even at all. The `coming soon` label will be removed from an issue by a PM when it is scheduled for a release, or if it is no longer a candidate for an upcoming release. In addition, PMs will also label any of these issues with the `UX` label if they require attention from the UX team. The combination of these two labels in an issue helps the UX team prioritize design work on a given issue, before it is scheduled for a release (wherein the engineering team works on it). Refer to the [UX Workflow](https://about.gitlab.com/handbook/ux/) for further details.
 
 ### Where should you look when you need help?
 
@@ -721,7 +751,19 @@ directly and link to it.
 
 [stewardship]: https://about.gitlab.com/about/#what-features-are-ee-only
 
-## Private tools and dashboards for monitoring and KPI tracking
+## EES and EEP requirements
+
+All EES and EEP features should:
+
+- Work easily for our customers that host GitLab on-premise. That is their
+licenses need not to be updated and the new feature is default-on for the
+instance
+- Work with GitLab.com Silver / Gold subscriptions. This means there has to be
+some way of toggling or using the feature at a namespace level.
+- Have documentation, be featured on [products](/products) and
+[comparison](/comparison) at launch
+
+# Private tools and dashboards for monitoring and KPI tracking
 
 [EE usage](https://version.gitlab.com/): dev.gitlab.org account
 
