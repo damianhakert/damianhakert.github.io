@@ -404,6 +404,10 @@ The specific migrations requiring downtime are described below.
 - ** DO WE HAVE COLUMNS WITH DEFAULT VALUES THAT ARE ADDED? **
 - ** DO WE HAVE INDEXES THAT ARE ADDED? **
 
+GitLab 9.0 introduces a [new version of our API](#api-v4). While existing calls
+to API v3 will continue to work until August 2017, we advise you to make any
+necessary changes to applications that use the V3 API.
+
 #### Note
 
 We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
