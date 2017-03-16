@@ -304,6 +304,23 @@ We will continue to support V3 of the API until August 2017 and so we encourage 
 
 ### Omnibus GitLab Package Improvements
 
+#### PostgreSQL version upgrade
+
+Previous GitLab releases were shipped with PostgreSQL 9.2 by default. PostgreSQL
+9.2's end of life (EOL) is [set to September 2017](https://www.postgresql.org/support/versioning/).
+For this reason, as well as to have the latest features and performance
+improvements, we need to update the PostgreSQL version that GitLab uses.
+
+GitLab 9.0 now ships with PostgreSQL 9.6 by default. For existing installations,
+the omnibus-gitlab packages for GitLab 9.0 will attempt to automatically upgrade
+your database, using the `gitlab-ctl pg-upgrade` tool that is included
+[since 8.15](https://about.gitlab.com/2016/12/22/gitlab-8-15-released/#postgresql-version-upgrade).
+
+> [Read more about database upgrade in our docs](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server)
+
+> Ran into issues? Create an issue at the [omnibus-gitlab issue tracker](https://gitlab.com/gitlab-org/omnibus-gitlab/issues),
+and reference it in the [upgrade problems meta issue.](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1783)
+
 #### Raspberry Pi 2 changes
 
 Due to a fault in release process that was caused by changes in build infrastructure,
