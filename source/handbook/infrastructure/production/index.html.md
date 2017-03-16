@@ -1,12 +1,12 @@
 ---
 layout: markdown_page
-title: "Infrastructure"
+title: "Production"
 ---
 
 ## Common Links
 
-- [Public Infrastructure Issue Tracker](https://gitlab.com/gitlab-com/production/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
-- [Chat channel](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+- [Public Infrastructure Issue Tracker](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. No longer active, but kept for reference, is the legacy public [Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) as well.
+- [Chat channel](https://gitlab.slack.com/archives/production); please use the `#production` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## On this page
 {:.no_toc}
@@ -14,18 +14,7 @@ title: "Infrastructure"
 - TOC
 {:toc}
 
-## Infrastructure teams
-
-The infrastructure team is populated by engineers who share the responsibility of making GitLab.com scale, keep it safe, available and scalable with specific focuses.
-
-These teams are:
-
-* [Production](/handbook/infrastructure/production/): keeping GitLab.com available and scalable.
-* [Security](/handbook/infrastructure/security/): keeping GitLab.com safe, from the perspective of the application, the infrastructure and the organization.
-* [Database](/handbook/infrastructure/database/): keeping GitLab.com's database fast and scalable.
-* [Gitaly](/handbook/infrastructure/gitaly/): making Git access scalable and fast.
-
-### Production Team
+## Production Team
 
 Composed of production engineers.
 
@@ -45,13 +34,13 @@ own time as the main scarce resource.
 
 [Production Engineer](jobs/production-engineer/index.html) job description.
 
-#### Tenets
+### Tenets
 
 1. Security: reduce risk to its minimum, and make the minimum explicit.
 1. Transparency, clarity and directness: public and explicit by default, we work in the open, we strive to get signal over noise.
 1. Efficiency: smart resource usage, we should not fix scalability problems by throwing more resources at it but by understanding where the waste is happening and then working to make it disappear. We should work hard to reduce toil to a minimum by automating all the boring work out of our way.
 
-#### Production and Staging Access
+### Production and Staging Access
 
 Production access is granted to production engineers, security engineers, and (production) on-call heroes.
 
@@ -61,7 +50,7 @@ Any other engineer, or lead, or manager at any level will not have access to pro
 
 There is one temporary exception: release managers require production access to perform deploys, they will have production access until production engineering can offer a deployment automation that does not require chef nor ssh access. This is an ongoing effort.
 
-#### Production Engineering Resources
+### Production Engineering Resources
 
 - Documentation: refer to runbooks and internal documentation on this very page.
 - On-call Log: [document](https://docs.google.com/document/d/1nWDqjzBwzYecn9Dcl4hy1s4MLng_uMq-8yGRMxtgK6M/edit#heading=h.nmt24c52ggf5) where we write events that happen in production - internal use only - editable by the whole company
@@ -134,6 +123,7 @@ Still, this documentation is [in the Chef Repo](https://dev.gitlab.org/cookbooks
 start pulling things out of there into the runbooks, until this documentation is thin and GitLab.com only.
 
 ### GitLab Cloud Images
+
 A detailed process on creating and maintaining GitLab cloud images can be found [here](https://about.gitlab.com/cloud-images/).
 
 ## Production events logging

@@ -110,7 +110,7 @@ There are several internal tools available for developers at GitLab to get data 
 - [Sentry](https://sentry.gitlap.com/) is our error reporting tool
 - [log.gitlap.com](https://log.gitlap.com/) has production logs
 - [prometheus.gitlab.com](https://prometheus.gitlab.com/alerts) has alerts for
-  the [production team](/handbook/infrastructure/#production-team)
+  the [production team](/handbook/infrastructure/production/#production-team)
 
 ## Labelling issues
 
