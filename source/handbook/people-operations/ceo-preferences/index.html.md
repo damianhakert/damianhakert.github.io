@@ -128,6 +128,7 @@ More details are on our visiting page: https://about.gitlab.com/visiting/<br>
 ## Hiring process
 {: #hiring-process}
 
+* Make sure that every candidate that the CEO talks with has a profile in our ATS with background info e.g. a resume or LinkedIn profile link
 * Hiring managers will tag EA to schedule a call for the applicant with Sid
 * Template email with wording to schedule “Kirsten schedule Sid”
 * Add date/time and make sure to include timezones
