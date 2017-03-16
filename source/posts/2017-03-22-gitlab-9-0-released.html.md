@@ -161,6 +161,58 @@ Participate in the discussion and future of performance monitoring with GitLab [
 </section>
 <!-- end of FEATURE 4 BLOCK -->
 
+<section class="middle">
+
+### Disaster Recovery Alpha
+{: .eep}
+
+Regardless of the size of your company, you need to make sure that your
+infrastructure is resilient to any kind of natural or human-induced disasters
+that can happen. One of the best practices in this case is to have a least two
+servers (one primary, one secondary) in two different locations to make sure
+that if the primary server goes down, the other one can take over. Having this
+in place is critical for any teams to make sure you reduce the downtime as much
+as possible, and reduce the risk of data loss. We have received many requests to
+offer a disaster recovery solution built in GitLab and today we are introducing
+a first step towards supporting this.
+
+Since [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/),
+GitLab ships with [Geo](https://about.gitlab.com/features/gitlab-geo/), a
+feature that lets you have one or more secondary instances that mirror your main
+GitLab instance. Geo primary goal was to drastically speed up cloning and
+fetching projects over large distances. While Geo works really well for this
+use case, it has one point that prevents us to use this technology to support a
+full disaster recovery scenario: files that are saved on disk were not
+replicated.
+
+This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
+and with GitLab 9.0, we are releasing a first step towards providing support for
+Disaster Recovery scenarios. We call it Disaster Recovery in Alpha. A bunch of
+important changes to Geo have been introduced with this release:
+
+* If you use LFS, LFS objects will automatically be replicated to the secondary
+nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
+* All file uploads are now recorded in the database
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8893)).
+This will allow us to replicate those files in a future iteration.
+* There is a new process to automatically backfill repositories
+([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
+* You can now disable a secondary node through the UI.
+* All other Geo features work the same way as before.
+
+If you upgrade your installations to GitLab 9.0, these changes will be
+automatically applied to your Geo installation and require no manual setup. If
+you are an existing Geo user, you have nothing to do to access these new
+features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
+to install Geo.
+
+[Documentation link](link)
+
+Disaster Recovery in Alpha is available to all Enterprise Edition Premium
+customers as part of GitLab Geo.
+
+</section>
+
 <!-- OTHER FEATURES BLOCK -->
 ## Other Improvements in GitLab 9.0
 
@@ -274,54 +326,6 @@ You can do this by running:
 <!-- OTHER FEATURES RIGHT BLOCK -->
 <section class="right vertical-align-top">
 
-### Disaster Recovery Alpha
-{: .eep}
-
-Regardless the size of your company, you need to make sure that your
-infrastructure is resilient to any kind of natural or human-induced disasters
-that can happen. One of the best practices in this case is to have a least two
-servers (one primary, one secondary) in two different locations to make sure
-that if the primary server goes down, the other one can take over. Having this
-in place is critical for any teams to make sure you reduce the downtime as much
-as possible, and reduce the risk of data loss. We have received many requests to
-offer a disaster recovery solution built in GitLab and today we are introducing
-a first step towards supporting this.
-
-Since [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/),
-GitLab ships with [Geo](https://about.gitlab.com/features/gitlab-geo/), a
-feature that lets you have one or more secondary instances that mirror your main
-GitLab instance. Geo primary goal was to drastically speed up cloning and
-fetching projects over large distances. While Geo works really well for this
-use case, it has one point that prevents us to use this technology to support a
-full disaster recovery scenario: files that are saved on disk were not
-replicated.
-
-This is [what we are actively working on](https://gitlab.com/gitlab-org/gitlab-ee/issues/846)
-and with GitLab 9.0, we are releasing a first step towards providing support for
-Disaster Recovery scenarios. We call it Disaster Recovery in Alpha. A bunch of
-important changes to Geo have been introduced with this release:
-
-* If you use LFS, LFS objects will automatically be replicated to the secondary
-nodes ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1237)).
-* All file uploads are now recorded in the database
-([Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8893)).
-This will allow us to replicate those files in a future iteration.
-* There is a new process to automatically backfill repositories
-([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
-* You can now disable a secondary node through the UI.
-* All other Geo features work the same way as before.
-
-If you upgrade your installations to GitLab 9.0, these changes will be
-automatically applied to your Geo installation and require no manual setup. If
-you are an existing Geo user, you have nothing to do to access these new
-features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
-to install Geo.
-
-[Documentation link](link)
-
-Disaster Recovery in Alpha is available to all Enterprise Edition Premium
-customers as part of GitLab Geo.
-
 ### Group search and filtering
 {: .ce-ee}
 
@@ -409,6 +413,11 @@ The specific migrations requiring downtime are described below.
 - ** DO WE HAVE COLUMNS WITH DEFAULT VALUES THAT ARE ADDED? **
 - ** DO WE HAVE INDEXES THAT ARE ADDED? **
 
+GitLab 9.0 introduces a [new version of our API](#api-v4). While existing calls
+to API v3 will continue to work until August 2017, we advise you to make any
+necessary changes to applications that use the V3 API. [Read the documentation](https://docs.gitlab.com/ee/api/v3_to_v4.html)
+to learn more.
+
 #### Note
 
 We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
@@ -422,6 +431,10 @@ Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
+
+If you're GitLab EE user, please be aware that in 9.0 release we bumped the required version of Elasticsearch from 2.4.x to 5.1.x.
+Please update it following the official [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.1/setup-upgrade.html).
+Indexes created by Elasticsearch 2.4.x can be read by Elasticsearch 5.1.x.
 
 </section>
 <!-- end of UPGRADE BAROMETER BLOCK -->
