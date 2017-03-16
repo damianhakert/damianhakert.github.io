@@ -27,7 +27,7 @@ Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/g
 
 <!-- more -->
 
-We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/).
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. [In 9.0, there were over 130 merge requests from the community.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name%5B%5D=Community+Contribution&milestone_title=9.0&scope=all&state=merged) GitLab CE now has over 47,000 commits, more than doubling the [20,000 count back in 8.1](/2015/10/22/gitlab-8-1-released/).
 
 We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
 
