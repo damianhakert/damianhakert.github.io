@@ -19,7 +19,7 @@ extra_css:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="middle vertical-align-top">
+<section class="left vertical-align-top">
 
 Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month.
 
@@ -29,11 +29,20 @@ We're humbled by our community continuing to actively create and comment in nume
 
 We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
 
+</section>
+
+<section class="right vertical-align-top">
+
 We're on a [mission](/strategy/#mission) to enable *everyone to contribute*. GitLab 9.0 makes a significant step in this direction, with the arrival of **Subgroups** (groups within groups). This powerful new paradigm allows for truly team-based and team-first collaboration in even very large organizations with many different departments. GitLab helps break down silos in your organization so that indeed everyone can contribute. [More](#subgroups)
 
 [GitLab 8.0](/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated [Continuous Integration Continuous Deployment (CI/CD)](/gitlab-ci/) into the platform, giving users a complete solution to create, integrate, and deploy code changes in a single coherent product. 1.5 years later now with GitLab 9.0 EEP, we're shipping Deploy Boards, another signficant advancment in CI/CD, that helps users reliably deploy their applications to enterprise environments. [More](#deploy-boards)
 
+</section>
+
+<section class="middle">
+
 [Register for the release webcast!](link-to-webcast){:.btn .btn-lg .btn-red .webcast-button}
+{: .text-align-center}
 
 </section>
 <!-- end of blog post intro -->
@@ -82,7 +91,7 @@ GitLab has an incredibly powerful CI/CD system, with over a thousand runners exe
 
 Today with 9.0, we are excited to release Deploy Boards for environments running on Kubernetes. The Environments page of Pipelines now offers a single place to view the current health and deployment status of each environment, displaying the specific status of each pod in the deployment. Developers and other teammates can view the progress and status of a rollout, pod by pod, in the workflow they already use without any need for access to Kubernetes.
 
-To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers. 
+To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers.
 
 [Documentation link](link)
 
