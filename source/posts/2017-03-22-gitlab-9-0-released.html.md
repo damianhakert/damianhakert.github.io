@@ -31,6 +31,7 @@ GitLab helps you **collaborate on digital work** with others. We made many enhan
 
 We are excited to ship [**Subgroups** in GitLab 9.0](#subgroups), another huge step in furthering collaboration. This powerful new paradigm of groups within groups allows for truly team-based and team-first collaboration in even very large organizations with many different departments. We're on a [mission](/strategy/#mission) to enable **everyone to contribute**. GitLab 9.0 continues to help break down silos in your organization so that indeed everyone there can contribute.
 
+We've continued improve **code review and code collaboration** in GitLab since 8.0, including features such as merge when pipeline succeeds (8.3), code diffs (8.4, 8.5, 8.7, 8.10, 8.15 ), a conflict editor (8.11, 8.13), merge request versions (8.12), blocking merge until discussions resolved (8.14), toggling approvals (8.16), as well as squash and merge (8.17). Many of these and other features involve the merge request widget. So in 9.0, we are [revamping the design of that widget](#merge-request-widget-usability) to accomodate the many existing and upcoming features that integrate with it.
 
 <!-- more -->
 
