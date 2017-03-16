@@ -1,7 +1,7 @@
 ---
-title: Demo: Mastering Code Review With GitLab
-author:
-author_twitter:
+title: Demo - Mastering Code Review With GitLab
+author: Emily von Hoffmann 
+author_twitter: emvonhoffmann
 categories: concepts
 image_title: '/images/code.png'
 description: Code review shouldn't be a burden, it should make your team better and faster so you can keep delivering new features on time.  
