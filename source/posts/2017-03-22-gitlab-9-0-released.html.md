@@ -414,6 +414,10 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+If you're GitLab EE user, please be aware that in 9.0 release we bumped the required version of Elasticsearch from 2.4.x to 5.1.x.
+Please update it following the official [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.1/setup-upgrade.html).
+Indexes created by Elasticsearch 2.4.x can be read by Elasticsearch 5.1.x.
+
 </section>
 <!-- end of UPGRADE BAROMETER BLOCK -->
 
