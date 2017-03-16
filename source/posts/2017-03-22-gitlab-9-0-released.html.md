@@ -127,7 +127,7 @@ GitLab already enables you to filter, search, and navigate through the many issu
 
 We designed and integrated the feature directly into the project issue list view. This allows you to leverage the existing powerful filter and search capability so that you can export exactly just the issues you care about. The actual processing and email sending happens asynchronously in the background once you confirm the action, so that it gets out of your way and you can continue to use GitLab as normal.
 
-[Documentation link](link)
+[Documentation link](https://docs.gitlab.com/ee/user/project/issues/csv_export.html)
 
 </section>
 
