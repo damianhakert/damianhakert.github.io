@@ -215,17 +215,6 @@ customers as part of GitLab Geo.
 
 </section>
 
-<!-- OTHER FEATURES BLOCK -->
-## Other Improvements in GitLab 9.0
-
-
-
-
-
-
-<!-- OTHER FEATURES LEFT BLOCK -->
-<section class="left vertical-align-top">
-
 ### Performance Improvements
 {: .ce-ee}
 
@@ -265,6 +254,12 @@ A GitLab Issue Board enables you manage a group of issues within a single milest
 As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently work in multiple boards if you are straddling between milestones, and it also allows you to save and look back at previous completed milestones too. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
+
+<!-- OTHER FEATURES BLOCK -->
+## Other Improvements in GitLab 9.0
+
+<!-- OTHER FEATURES LEFT BLOCK -->
+<section class="left vertical-align-top">
 
 ### Native Unicode Emojis 🔥
 
