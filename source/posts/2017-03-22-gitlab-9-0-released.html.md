@@ -355,6 +355,10 @@ You can do this by running:
 
 `sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list`
 
+#### Monitoring GitLab with Prometheus
+
+With the release of GitLab 9.0, Prometheus and its associated exporters are now on by default. It is now easier than ever to ensure your GitLab service is healthy and responsive, with over 100 metrics available for monitoring. If you would like to disable Prometheus and all of it's related services, simply set `prometheus['disable_all']=true`. More information is available in our [Monitoring documentation](https://docs.gitlab.com/ce/doc/administration/monitoring/prometheus/index.html).
+
 </section>
 <!-- END OF OTHER FEATURES LEFT BLOCK -->
 
