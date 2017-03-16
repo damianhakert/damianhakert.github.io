@@ -2084,16 +2084,20 @@
           Originaly from Minnesota, Ben has been a Systems Engineer/SRE since running a tiny ISP in the late 1990s.
           Now living in Berlin, Germany, he's a contributor to the Prometheus monitoring system.
 
-- name: A.N.
-  locality:
-  country:
+- name: Andrew Newdigate
+  locality: London
+  country: U.K.
   role: <a href="https://about.gitlab.com/jobs/gitaly-lead/">Gitaly Lead</a>
   reports_to: Infrastructure Director
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: picture_andrew.jpg
+  twitter: suprememoocow
+  gitlab: andrewn
   story:  |
-          Joining January 9th
+          From Cape Town, South Africa, Andrew now lives in London and is married
+          with two young kids. Before joining GitLab, he cofounded
+          <a href="https://gitter.im">Gitter</a> where he was the CTO. He has
+          travelled to more than 50 countries, loves photography, motorcycling
+          and spending time outdoors with his family.
 
 - name: Mike Bartlett
   locality: London
