@@ -299,7 +299,7 @@
 - name: Yorick Peterse
   locality: Hilversum
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Infrastructure Director
   picture: picture_yorick.jpg
   twitter: yorickpeterse
@@ -313,7 +313,7 @@
          2010. Since then he has worked on a wide variety of projects, ranging
          from domain name management software to website scrapers, and from
          Sinatra APIs to Natural Language Processing software. These days he
-         works on <a href="https://github.com/YorickPeterse/aeon">Aeon</a>,
+         works on <a href="https://github.com/YorickPeterse/inko">Inko</a>,
          <a href="https://github.com/YorickPeterse/oga">Oga</a>, and various
          other FOSS projects. Yorick will focus primarily on improving the
          performance of GitLab. He's also an avid practitioner of Krav Maga, a
