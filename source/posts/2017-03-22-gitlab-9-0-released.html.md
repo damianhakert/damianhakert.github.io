@@ -406,7 +406,8 @@ The specific migrations requiring downtime are described below.
 
 GitLab 9.0 introduces a [new version of our API](#api-v4). While existing calls
 to API v3 will continue to work until August 2017, we advise you to make any
-necessary changes to applications that use the V3 API.
+necessary changes to applications that use the V3 API. [Read the documentation](https://docs.gitlab.com/ee/api/v3_to_v4.html)
+to learn more.
 
 #### Note
 
