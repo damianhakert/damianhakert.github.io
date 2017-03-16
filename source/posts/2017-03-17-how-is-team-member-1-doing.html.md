@@ -13,7 +13,7 @@ The engineer that gave the unfortunate command to [delete our primary database](
 
 During and after the [DB incident](/2017/02/10/postmortem-of-database-outage-of-january-31/) with GitLab.com, we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
 
-We are still putting all our efforts to improve GitLab.com's infrastrure as a whole, to prevent that incidents like this happen in the future.
+We are still putting all our efforts into improving GitLab.com's infrastructure as a whole, to prevent that incidents like this happen in the future.
 
 <!-- more -->
 
@@ -139,7 +139,7 @@ When we promote people at GitLab, or give a them a [bonus](https://about.gitlab.
 
 ### Reasons for promoting _team-member-1_
 
-His manager, [Pablo Carranza](https://about.gitlab.com/team/#psczg) (Production Lead), provided GitLab with the following reasons to promote _team-member-1_:
+[Pablo Carranza](https://about.gitlab.com/team/#psczg) (Production Lead), provided GitLab with the following reasons to promote _team-member-1_:
 
 {::options parse_block_html="true" /}
 
