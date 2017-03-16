@@ -41,7 +41,8 @@ extra_js:
         .category-applications{ id: category.id }
           - category.applications.each do |application|
             .application
-              = image_tag "/images/applications/apps/#{application.title.parameterize.underscore}.png", width: 100, height: 100
+              .app-image-container
+                = image_tag "/images/applications/apps/#{application.title.parameterize.underscore}.png", class: 'app-image'
               %h3.app-title.js-application-title= application.title
               %p.app-content= application.content
               - if application.links

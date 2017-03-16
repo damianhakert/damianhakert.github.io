@@ -131,7 +131,7 @@
   }
 
   svg {
-    fill: $color-red;
+    fill: $color-secondary;
   }
 
   .category-name {
@@ -191,6 +191,23 @@ hr {
   width: 300px;
   text-align: center;
   padding: 30px;
+
+
+  .app-image-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .app-image {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+  }
 
   .app-title {
     font-size: 22px;
