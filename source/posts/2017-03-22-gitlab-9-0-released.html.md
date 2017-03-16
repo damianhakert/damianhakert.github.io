@@ -23,7 +23,14 @@ extra_js:
 <!-- blog post intro -->
 <section class="left vertical-align-top">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). 1.5 years is a lifetime in the software world, and we've made [signficant advances to GitLab](/release-list/) during this period, shipping a minor version every single month.
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [signficant advances to GitLab](/release-list/) during this period, shipping a version every single month.
+
+In [8.0](/2015/09/22/gitlab-8-0-released/), we refreshed GitLab's look and feel, modernizing almost every UI element and significantly improving usability. (We had even updated our logo a few months prior.) Since then, we have continued to invest in **design**, ramping up our [UX design and research team](https://about.gitlab.com/team/), who are dedicated to improving usability and solving major pain points, everything from small CSS tweaks, to major UX flows. In each 8.x release we have iteratively evolved the design. And with 9.0, we made huge strides in simplifying our global, group, and project navigation, a crucial enhancement as GitLab's feature set becomes increasingly powerful. [More](#updated-navigation)
+
+GitLab helps you **collaborate on digital work** with others. We made many enhancements to issues, a core feature set in this area, including weights ([8.3](/2015/12/22/gitlab-8-3-released)), linking to merge requests ([8.3](/2015/12/22/gitlab-8-3-released)), moving an issue to another project, and a powerful filter/search interface ([8.16](/2017/01/22/gitlab-8-16-released)). We also released issue boards in ([8.11](/2016/08/22/gitlab-8-11-released)), providing a simple paradigm to do issue workflow management using stages ("lists", in GitLab parlance). 9.0 continues to enhance boards, further [improving their integration with milestones](#boards-with-milestones).
+
+We are excited to ship [**Subgroups** in GitLab 9.0](#subgroups), another huge step in furthering collaboration. This powerful new paradigm of groups within groups allows for truly team-based and team-first collaboration in even very large organizations with many different departments. We're on a [mission](/strategy/#mission) to enable **everyone to contribute**. GitLab 9.0 continues to help break down silos in your organization so that indeed everyone there can contribute.
+
 
 <!-- more -->
 
