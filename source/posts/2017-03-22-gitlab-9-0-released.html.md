@@ -78,11 +78,9 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 ## Deploy Boards
 {: .eep}
 
-We're introducing Deploy Boards for GitLab Enterprise Edition Premium (EEP).
+GitLab has an incredibly powerful CI/CD system, with over a thousand runners executing pipelines for GitLab.com projects alone. These pipelines perform builds to compile and package software, run automated tests, spawn review apps, and can even deploy software to staging and production. To date, these deployments would report back whether the environment was successfully updated, but what if you wanted more fidelity? Or a single pane to view all deployments across all environments? For larger organizations, the answers to these questions become particularly important.
 
-XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
-
-Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
+Today with 9.0, we are excited to release Deploy Boards for environments running on Kubernetes. The Environments page of Pipelines now offers a single place to view the current health and deployment status of each environment, displaying the specific status of each pod in the deployment. Developers and other teammates can view the progress and status of a rollout, pod by pod, in the workflow they already use without any need for access to Kubernetes. 
 
 [Documentation link](link)
 
@@ -91,7 +89,7 @@ Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Su
 <!-- feature 2 image -->
 <section class="right">
 
-![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
+![FEATURE_IMAGE](/images/9_0/deploy_boards.png){: .shadow}
 
 </section>
 <!-- end of FEATURE 2 BLOCK -->
@@ -129,23 +127,25 @@ We designed and integrated the feature directly into the project issue list view
 <!-- feature 4 text -->
 <section class="left">
 
-## Performance Monitoring
-{: .ees}
+## Environment Monitoring
+{: .ce-ee}
 
-(Improvements to Prometheus)
+A robust monitoring infrastructure is crucial to operating a successful application.  It ensures your app is responsive, provides valuable insight into the impact of changes, and enables quick debugging when problems occur. However setting this infrastructure up is often a lower priority, in particular for non-production environments, and it is often not integrated with the rest of your toolchain.
 
-XXXXXXXXX MISSING!!!!!!!!! XXXXXXXXX
+With GitLab 9.0, we are proud to introduce the first monitoring system that is fully integrated with your CI/CD pipelines and source code repository. Leveraging [Prometheus](https://prometheus.io), GitLab will now bring the same technology used for production systems to development environments like staging and even review apps.
 
-Accusantium quos distinctio assumenda, officiis ullam alias quia placeat est! Suscipit consequuntur vitae obcaecati assumenda provident, ut doloremque accusantium laudantium quos accusamus nulla aliquid voluptatibus corrupti dolor officiis repudiandae possimus, vero incidunt eligendi dolores illo aperiam! Ullam beatae expedita cumque provident suscipit veniam ipsa, eius consequatur! Ab, ducimus. Quam ducimus modi ullam, ad natus recusandae et eveniet ea veniam cumque vel facere cupiditate tempore facilis repellendus quod dolorem nemo magni ab corrupti voluptatum! Cum ab, facilis, fugiat qui ea, hic, minus mollitia itaque illum perspiciatis vel fugit facere magni nisi inventore autem! Accusamus dolorum, iure earum quae eligendi deserunt atque.
+In this initial release we are tracking CPU and Memory utilization of your CI/CD environments on Kubernetes, but this is only the beginning. In the near feature we will gauge the performance impact of a merge, support a much broader range of metrics, and fuse monitoring data with Deploy Boards.
 
-[Documentation link](link)
+Participate in the discussion and future of performance monitoring with GitLab [here](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&utf8=✓&state=opened&label_name[]=Prometheus&label_name[]=feature%20proposal).
+
+[Documentation link](https://docs.gitlab.com/ce/user/project/integrations/prometheus.html)
 
 </section>
 
 <!-- feature 4 image -->
 <section class="right">
 
-![FEATURE_IMAGE](FEATURE_IMAGE_URL){: .shadow}
+![FEATURE_IMAGE](/images/9_0/prometheus.png){: .shadow}
 
 </section>
 <!-- end of FEATURE 4 BLOCK -->
