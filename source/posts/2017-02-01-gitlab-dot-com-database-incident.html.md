@@ -7,6 +7,8 @@ image_title:
 description: Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com.
 ---
 
+Update: please see [our postmortem for this incident](https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/)
+
 Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com. Git/wiki repositories and self-hosted installations were not affected. Losing production data is unacceptable and in a few days we'll publish a post on why this happened and a list of measures we will implement to prevent it happening again.
 
 _**Update 6:14pm UTC: GitLab.com is back online**_
