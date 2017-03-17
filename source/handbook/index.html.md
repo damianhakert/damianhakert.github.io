@@ -49,6 +49,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
   * [Data analysis](/handbook/product/data-analysis)
+  * [Technical Writing](/handbook/product/technical-writing/)
 
 <style>
 .md-page h2 i.icon-color {

@@ -25,6 +25,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 {: #marketing-handbooks}
 
 - [Blog]
+- [Markdown Guide]
 - [Demand Generation]
    - [Business Development]
    - [Field Marketing]
@@ -35,8 +36,6 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 - [Developer Relations]
    - [Developer Advocacy]
    - [Community Advocacy]
-   - [Technical Writing]
-       - [Markdown Guide]
 - [Product Marketing]
    - [Partner Marketing]
 - [Social Marketing]
@@ -301,7 +300,7 @@ Design focuses on creating the visual brand for GitLab. Design supports product 
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Developer Relations includes the technical writing, developer advocacy, and community advocacy functions. The team is focused on answering the following questions:
+Developer Relations includes developer advocacy, and community advocacy functions. The team is focused on answering the following questions:
 
 - What are scalable developer education tools?
 - How do we turn in person feedback at events into actionable product requests?
@@ -334,19 +333,6 @@ What is Comm. Adv. (to be included).
 [Handbook][Community Advocacy]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Matija][cmattrex]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Connor][connorshea]{:.btn .btn-orange}
-
-### Technical Writing
-{: .no_toc}
-
-> _Technical writing is sometimes defined as simplifying the complex. In a concise and deceptively simple definition, it is a whole range of skills and characteristics that address nearly every field of human endeavor at some level._ ([techwhirl.com])
-
-At GitLab, tech writers are the folks who take care of writing and maintaining technical content clear, concise, consistent, professional, and up-to-date.
-
-[Job Description](/jobs/technical-writer/){:.btn .btn-purple-inv}
-[Handbook][Technical Writing]{:.btn .btn-purple}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Axil][axil]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Marcia][marcia]{:.btn .btn-orange}
-[<i class="fa fa-gitlab" aria-hidden="true"></i> Sean][sean]{:.btn .btn-orange}
 
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
 </div>
@@ -753,7 +739,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 [cmo]: https://about.gitlab.com/jobs/chief-marketing-officer/
 [create a ToC]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#table-of-contents-toc
 [Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
-[techwhirl.com]: http://techwhirl.com/what-is-technical-writing/
 
 <!-- HANDBOOKS -->
 
@@ -773,13 +758,11 @@ We use our chat internally as a communication tool. The marketing channels are a
 [Product Marketing]: /handbook/marketing/product-marketing
 [Social Marketing]: social-marketing/
 [Social Media Guidelines]: /handbook/marketing/social-media-guidelines/
-[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/
 
 <!-- Marketing Team: GitLab.com Handle -->
 
 [amanda]: https://gitlab.com/u/afolson
 [amara]: https://gitlab.com/u/amara
-[axil]: https://gitlab.com/u/axil
 [chet]: https://gitlab.com/u/chetbackman
 [cmattrex]: https://gitlab.com/u/cmattrex
 [connorshea]: https://gitlab.com/u/connorshea
@@ -787,10 +770,8 @@ We use our chat internally as a communication tool. The marketing channels are a
 [erica]: https://gitlab.com/u/lindberg
 [jennifer]: https://gitlab.com/u/jjcordz
 [luke]: https://gitlab.com/u/lukebabb
-[marcia]: https://gitlab.com/u/marcia
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
-[sean]: https://gitlab.com/u/SeanPackham
 
 <!-- EXTRA STYLES APPLIED FOR THIS PAGE ONLY -->
 
