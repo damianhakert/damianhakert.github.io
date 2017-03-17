@@ -2235,13 +2235,14 @@
 
 - name: Paul Almeida
   locality: Washington D.C.
-  country:USA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
   reports_to: CRO
   picture: paulalmeida.jpg
   twitter: pauldalmeida
   gitlab: pauldalmeida
-  story:  Paul joins GitLab from Puppet, where he developed and grew the Public Sector business. At Puppet, he brought in new customers and built a sales team for the Public Sector organization. Paul                	  enjoys assisting government customers solve problems with innovative software. Prior to working with Puppet, He served in a number of sales roles for VMware. He enjoys playing football and 		  basketball, coaching his children’s football and basketball teams, and spending his weekends with his family.
+  story: 
+	Paul joins GitLab from Puppet, where he developed and grew the Public Sector  business. At Puppet, he brought in new customers and built a sales team for the Public Sector organization. Paul enjoys assisting government customers solve problems with innovative software. Prior to working with Puppet, He served in a number of sales roles for VMware. He enjoys playing football and basketball, coaching his children’s football and basketball teams, and spending his weekends with his family.
           
 
 - name: S.W.
