@@ -288,7 +288,7 @@ As you plan and execute work in each new milestone, we suggest you keep creating
 
 ### Native Unicode Emojis 🔥 ce
 
-Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
+Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being able to add emojis faster 🚀. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
 
 ![](/images/9_0/native_unicode_emojis.gif){: .shadow}
 
