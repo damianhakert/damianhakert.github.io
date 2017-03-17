@@ -958,11 +958,11 @@ To keep our blog posts consistent with one another, let's follow these simple gu
   - [`categories`](#categories): use either `release` or  `security release` for these posts.
 
 - There are some important things to note when adding:
-  - [Videos](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos) => they must be wrapped by a `<figure>` tag with the class `video_container`, otherwise they will not look well on mobile phones. The `<figure>` tag is [very important for SEO](https://www.searchenginejournal.com/html5-an-essential-weapon-for-seos/62512/).
-  - [Images](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#images) => always add an `ALT` text, try to make the image filename meaningful => they will show up on Google searches more often and more accurately => again, important for SEO.
-  - Use [colorful sections](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#colorful-sections) to highlight the main points (use it wisely :)
-  - [Add `{:.shadow}` to images](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#shadow), specially GitLab UI screenshots
-  - Add the [class `{:.note}` for notes](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#note), instead of making them look like blockquotes, which are technically meant for quoting someone else's sayings.
+  - [Videos](/handbook/product/technical-writing/markdown-guide/#videos) => they must be wrapped by a `<figure>` tag with the class `video_container`, otherwise they will not look well on mobile phones. The `<figure>` tag is [very important for SEO](https://www.searchenginejournal.com/html5-an-essential-weapon-for-seos/62512/).
+  - [Images](/handbook/product/technical-writing/markdown-guide/#images) => always add an `ALT` text, try to make the image filename meaningful => they will show up on Google searches more often and more accurately => again, important for SEO.
+  - Use [colorful sections](/handbook/product/technical-writing/markdown-guide/#colorful-sections) to highlight the main points (use it wisely :)
+  - [Add `{:.shadow}` to images](/handbook/product/technical-writing/markdown-guide/#shadow), specially GitLab UI screenshots
+  - Add the [class `{:.note}` for notes](/handbook/product/technical-writing/markdown-guide/#note), instead of making them look like blockquotes, which are technically meant for quoting someone else's sayings.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -979,7 +979,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [Blog post style guide]: https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
 [Community Writers]: community-writers/
-[example]: /handbook/marketing/developer-relations/technical-writing/#st-subject-audience-requirements
+[example]: /handbook/product/technical-writing/#st-subject-audience-requirements
 [GitLab Flow]: //doc.gitlab.com/ee/workflow/gitlab_flow.html
 [GitLab Workflow]: https://www.youtube.com/watch?v=enMumwvLAug "Introduction to GitLab Workflow"
 [GitLab]: /
@@ -991,10 +991,10 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [public domain]: https://en.wikipedia.org/wiki/Public_domain
 [Realm.io]: //realm.io
 [styles guidelines]: #styles-guidelines
-[tech-writing-audience]: /handbook/marketing/developer-relations/technical-writing/#st-subject-audience-requirements
+[tech-writing-audience]: /handbook/product/technical-writing/#st-subject-audience-requirements
 [tinypng]: //tinypng.com
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
-[writing-tech]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
+[writing-tech]: /handbook/product/technical-writing/#professional-writing-techniques
 [`www-gitlab-com`]: https://gitlab.com/gitlab-com/www-gitlab-com/
 
 <!-- BLOG STYLE GUIDELINES -->
@@ -1014,12 +1014,12 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [blog]: /blog/
 [bundler]: http://bundler.io/
 [Chicago Manual of Style]: http://www.chicagomanualofstyle.org/home.html
-[code-editors]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#markdown-editors
+[code-editors]: /handbook/product/technical-writing/markdown-guide/#markdown-editors
 [convox-post]: /2016/06/09/continuous-delivery-with-gitlab-and-convox/
 [cross-1]: /2016/08/04/moving-to-gitlab-yes-its-worth-it/
 [cross-2]: /2016/08/11/building-an-elixir-release-into-docker-image-using-gitlab-ci-part-1/
 [cross-3]: /2016/08/19/applying-gitlab-labels-automatically/
-[css-shadow]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#special-classes
+[css-shadow]: /handbook/product/technical-writing/markdown-guide/#special-classes
 [description-tag]: http://www.wordstream.com/meta-tags
 [Digital Ocean]: /2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/
 [documentation]: http://docs.gitlab.com/
@@ -1036,15 +1036,15 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [Koding]: /2016/07/26/koding-and-gitlab-integrated/
 [Mac screenshot]: https://support.apple.com/en-us/HT201361
 [Making Gifs]: /handbook/product/making-gifs
-[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
-[Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[Markdown Guide]: /handbook/product/technical-writing/markdown-guide/
+[Markdown Style Guide]: /handbook/product/technical-writing/markdown-guide/
 [marketing-blog]: #blog
 [Mattermost]: /2015/08/18/gitlab-loves-mattermost/
 [middleman]: https://middlemanapp.com/basics/install/
 [MR-description]: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2740/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
 [OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
-[outlines]: /handbook/marketing/developer-relations/technical-writing/#3rd-plan
+[outlines]: /handbook/product/technical-writing/#3rd-plan
 [Pivotal Cloud Foundry]: /2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/
 [post-iOS-CI]: /2016/03/10/setting-up-gitlab-ci-for-ios-projects/
 [post-lets-encrypt]: /2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
@@ -1068,7 +1068,7 @@ To keep our blog posts consistent with one another, let's follow these simple gu
 [width-post]: /2016/08/05/feature-highlight-set-dates-for-issues/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
-[wrap text]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#wrapping-text
+[wrap text]: /handbook/product/technical-writing/markdown-guide/#wrapping-text
 [Yubico]: /2016/08/31/gitlab-and-yubico-security-webcast/
 
 <!-- Labels -->
