@@ -41,7 +41,7 @@ We're still working to improve this demo further, please see [all open idea-to-p
 > * Clone the [kubernetes-gitlab-demo](https://gitlab.com/gitlab-org/kubernetes-gitlab-demo) for use.
 > * If you've run through the demo before but didn't clean up your [demo cluster(s)](https://console.cloud.google.com/kubernetes/list), [do so now](#cleanup).
 > * This script assumes the `make-sid-dance.com` domain, but you should either:
->   * Use one of the "day of the week" domains [already configured](https://console.cloud.google.com/networking/dns/zones?project=gitlab-demos&organizationId=769164969568) (Let's Encrypt limits SSL cert creation on a weekly basis, so there's a different one for each day to avoid hitting those limits), or
+>   * Pick the least-recently used domain from the [Google Doc](https://docs.google.com/spreadsheets/d/1HZ-7XhDNzdCBxfjzDFIQi7EjliptkpY4CB3LbiLa9MY/edit#gid=0). (Let's Encrypt limits SSL cert creation on a weekly basis, so rotating usage helps reduce hitting the limits), or
 >   * Buy a new domain for your demo and substitute throughout the script.
 >     * [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection. You still have to configure DNS to use custom name servers, even though Google Domain name servers is the default since GCP cycles through many different name servers.
 >     * [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
