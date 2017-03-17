@@ -342,6 +342,16 @@ release.
 
 The old variables will still work, but will be deprecated soon.
 
+### Gitaly
+
+In every release, GitLab becomes faster with huge performance boosts. Today's
+release is no different. Along with [other performance improvements](#performance-improvements-ce),
+GitLab now ships with [Gitaly](https://gitlab.com/gitlab-org/gitaly), our own
+open-source solution to handle git calls made by GitLab. While completely
+transparent, this change in how GitLab operates internally is important and
+will make GitLab faster. We are actively working on Gitaly, so you can expect
+more news about it in future releases.
+
 ### Omnibus GitLab Package Improvements
 
 #### PostgreSQL version upgrade
