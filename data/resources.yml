@@ -11,3 +11,22 @@
   data:
     - title: 2016 Global Developer Report
       url: http://get.gitlab.com/global-developer-survey/
+
+- title: Customer Stories
+  data:
+    - title: Why Vaadin Chose GitLab
+      url: https://about.gitlab.com/2016/12/05/why-vaadin-chose-gitlab/
+    - title: Customer Story: Stack Overflow
+      url: https://about.gitlab.com/2016/04/07/stack-overflow-support-network/
+    - title: Moving to GitLab! Yes, it's worth it!
+      url: https://about.gitlab.com/2016/08/04/moving-to-gitlab-yes-its-worth-it/
+   - title: Why we Chose GitLab CI for our CI/CD Solution
+      url https://about.gitlab.com/2016/10/17/gitlab-ci-oohlala/
+   - title: Customer Story: Charge
+      url: https://about.gitlab.com/2016/05/31/customer-story-charge-communications/
+   - title: Data Startup Cognitive Logic Talks Migrating to GitLab
+      url: https://about.gitlab.com/2016/11/22/cognitive-logic-talks-migrating-to-gitlab/
+   - title: GitLab adoption growing at CERN
+      url: https://about.gitlab.com/2016/11/23/gitlab-adoption-growing-at-cern/
+   - title: A creative agency's GitLab wishlist
+      url: https://about.gitlab.com/2016/12/15/a-creative-agencys-gitlab-wishlist/
