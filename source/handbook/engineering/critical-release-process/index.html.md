@@ -10,6 +10,9 @@ deployments and announcements. This assumes that a critical patch will take
 roughly one week to deploy, however this will vary depending on the
 vulnerability and number of releases to be patched.
 
+Also see the [developer release process](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md)
+for more details on what needs to be done to create a security release.
+
 ```
 
 ### First steps:
@@ -24,7 +27,7 @@ vulnerability and number of releases to be patched.
 ### Day one:
 
 - [ ] Merge all patches to dev.gitlab.org security branch (owner: dev team)
-- [ ] Write pre-announcement security update (owner: security lead)
+- [ ] Write pre-announcement security update (owner: security lead) - Do NOT pre-announce affected versions
 - [ ] Contact package maintainers about security announcement (e.g. GitSwarm, Debian, FreeBSD) (owner: security lead)
 - [ ] Request pre-assigned CVE (owner: security lead)
 
