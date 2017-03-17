@@ -2266,6 +2266,17 @@
   story:  |
           Joining April 3rd
 
+- name: J.T.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  reports_to: Production Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 17th
+
 - name: "Ernst (Interim)"
   placeholder: true
   locality:
