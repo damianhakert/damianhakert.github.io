@@ -284,7 +284,7 @@
   description: /jobs/ux-lead/
   salary:
   apply: https://gitlab.workable.com/jobs/279434
-  open: true
+  open: false
 
 - title: "UX Designer"
   description: /jobs/ux-designer/

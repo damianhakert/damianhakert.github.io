@@ -34,3 +34,6 @@ GitLab seeks to add a Senior Product Marketing Manager, with deep experience in 
 * Experience at multiple SaaS companies
 * Direct experience in the Developer Tools or Collaboration spaces e.g. Atlassian, GitHub, JetBrains, Slack, Xamarin, New Relic, etc.
 * Marketing experience beyond Product Marketing
+
+
+**NOTE** In the compensation calculator below, fill in "Senior" in the `Level` field for this role.

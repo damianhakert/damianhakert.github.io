@@ -44,6 +44,7 @@ title: "Sales Handbook"
 * [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing)
 * [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
+* [GitLab Hosted](https://about.gitlab.com/gitlab-hosted/)
 
 ### Sales Team Call
 

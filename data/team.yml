@@ -1329,6 +1329,7 @@
   twitter: mikegreiling
   gitlab: mikegreiling
   maintains:  |
+              <li>Frontend Architectural <a href="/jobs/expert/">expert</a></li>
               <li>Frontend merge request reviewer</li>
   story:  |
           Mike hails from the land of 10,000 lakes where the winters are cold and the sports teams never win.
@@ -1910,19 +1911,6 @@
   story:  |
           Helping Marketing for a little bit. EIR at Scale Venture Partners, Senior Technical Advisor on the TV show Silicon Valley. Formerly: VP Product at Realm, Head of Developer Programs at Apigee, Lecturer in Computer Science & Management at the Université of Paris Est.
 
-- name: Courtney Davis
-  locality: Honolulu, HI
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: BDR Manager
-  picture: courtdavis.jpg
-  twitter: courtneydavis19
-  gitlab: courtdavis19
-  story:  |
-          A Mid-Missouri native currently residing in the great Aloha State.
-          Prior to joining GitLab, Courtney worked in Business Development and Project Management for a mortgage company.
-          When she’s not at work she can be found free diving on the North Shore, dabbling in photography, ridge hiking, and traveling as much as possible.
-
 - name: Jim Ash
   locality: San Francisco, CA
   country: USA
@@ -2233,16 +2221,16 @@
           He listens only to the best of books and reads the greatest music (or vice versa) while roaming between Belgium and Poland.
           Firm believer in the standing desk, having a beard and learning by living.
 
-- name: P.A.
-  locality:
-  country:
+- name: Paul Almeida
+  locality: Washington D.C.
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: paulalmeida.jpg
   twitter:
   gitlab:
-  story:  |
-          Joining March 6th
+  story: Paul joins GitLab from Puppet, where he developed and grew the Public Sector  business. At Puppet, he brought in new customers and built a sales team for the Public Sector organization. Paul enjoys assisting government customers solve problems with innovative software. Prior to working with Puppet, He served in a number of sales roles for VMware. He enjoys playing football and basketball, coaching his children's football and basketball teams, and spending his weekends with his family.
+
 
 - name: S.W.
   locality:
@@ -2265,6 +2253,17 @@
   gitlab:
   story:  |
           Joining April 3rd
+
+- name: J.T.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  reports_to: Production Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 17th
 
 - name: "Ernst (Interim)"
   placeholder: true

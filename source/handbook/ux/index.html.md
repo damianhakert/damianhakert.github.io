@@ -9,6 +9,8 @@ The [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) documents our p
 
 ## UX Strategy
 
+The vision of GitLab is far from finished and there are a lot of emergent properties that will allow us to simplify. We believe in iterative improvements and value aggressive change. We will get some things wrong and quickly strive to make them right. We have a long way to go, that is why we are taking big steps.
+
 Please see the [2017 UX Strategy](/handbook/ux/strategy) to view the evolving UX vision for GitLab.
 
 ## UX Workflow 

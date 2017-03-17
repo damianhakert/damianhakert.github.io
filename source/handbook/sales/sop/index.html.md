@@ -14,7 +14,7 @@ title: "Sales Handbook Standard Operating Procedures"
 
 ## Sales Standard Operating Procedures Purpose
 
-Processes for Sales. 
+Processes for Sales.
 
 ### Adding Leads via Discover.org
 
@@ -39,7 +39,7 @@ Processes for Sales.
 1. Channel Record Type should be used for all reseller partner accounts.
 1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
 
- 
+
 #### Step 2 - Contacts
 
 1. Create Contacts, by clicking on the new contact button
@@ -209,7 +209,7 @@ Once you've gathered all required documents and have uploaded them into the Note
   * The opportunity Stage will update to Awaiting Approval.
   * An email will be sent to you confirming that the opportunity has been submitted for approval.
   * An email will also be sent to the approval queue, which consists of members of Finance and Sales Operations.
-  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval. 
+  * If the opportunity has been rejected, the approver will add notes in the Approval Notes field. You will then receive an email explaining why the opportunity was rejected. Please resolve the issues, then resubmit the opportunity for approval.
   * The Stage will be reverted back to Verbal Commmitment, regardless of the previous Stage when initially submitted.
   * If the opportunity has been approved, you will receive an email that the opportunity has been approved.
   * The opportunity will automatically change to Closed Won and the Close Date will update to the date of submission.
@@ -252,7 +252,7 @@ In some cases, a prospect or customer that is currently engaged with an AE or AM
 
 If the prospect is still a Lead record that has not converted into an Account, please complete the following steps:
 
-1. Go to the Lead record and copy the following information from the Lead Information section to the Opportunity Detail section: Lead Source, Business Development Rep. 
+1. Go to the Lead record and copy the following information from the Lead Information section to the Opportunity Detail section: Lead Source, Business Development Rep.
 1. In the Opportunity Detail section, change the Sales Qualified to TRUE, Sales Qualified Date should be the Close Date, and the SQL Amount should be the Amount.
 1. In the Qualified Questions section, copy over the answers from the Lead to the Opportunity.
 1. In the Activities History related list, reassociate tasks from the original opp to the new opp. If there are a lot of activities, move over the most important tasks. To do this, go to the activity you'd like to move and click Edit. In the Related To section on the right side, replace the original opportunity name with the new one.
@@ -270,6 +270,12 @@ If the prospect is still a Lead record that has not converted into an Account, p
 
  * The customer should purchase a license as normal through Zuora, except that the number of users purchased should only include non-student users (as described in [Educational Pricing](https://about.gitlab.com/license-faq/)).
  * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
+
+#### View and download invoices in Salesforce
+
+ As soon as an invoice is generated, the sales rep can view and download it as a PDF in Salesforce. Scroll to the bottom within the Salesforce-Account and click on the invoice number under "Invoices". Then on the bottom of the invoice view, click "Invoice PDF".
+
+ A paid invoice will have a zeroed Balance and positive Payment Amount.
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
 
@@ -398,10 +404,6 @@ Despite the overwhelming arguments in favor of using the GitLab form some prospe
 1. The deal must be in excess of $15,000.
 1. The primary decision maker must indicate their willingness to facilitate the internal process in a manner that brings issues to closure within 30 days of negotiations.  The decision maker must also acknowledge that they understand that the form agreement may require significant revisions based on what is described in the above section.
 Items 1 and 3 above must be acknowledged in writing prior to proceeding with the contract markup.
-
-#### View and download invoices in Salesforce
-
-As soon as an invoice was generated, the sales rep can view and download it as a PDF in Salesforce. Scroll to the bottom within the Salesforce-Account and click on the invoice number under "Invoices". Then on the bottom of the invoice view, click "Invoice PDF".
 
 ### Using Cases in Salesforce
 

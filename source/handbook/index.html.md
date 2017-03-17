@@ -48,7 +48,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Board meetings](/handbook/board-meetings)
 * [Product](/handbook/product)
   * [Making Gifs](/handbook/product/making-gifs)
-  * [Product areas](/handbook/product/product-areas)
   * [Data analysis](/handbook/product/data-analysis)
 
 <style>
