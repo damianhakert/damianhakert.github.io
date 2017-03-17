@@ -1992,7 +1992,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 
 <!-- Identifiers, in alphabetical order -->
 
-[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
+[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/product/technical-writing/markdown-guide/index.html.md
 [about.gitlab.com]: https://about.gitlab.com/
 [alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
@@ -2015,7 +2015,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
 [mou]: http://25.io/mou/
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
-[Professional Writing Techniques]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
+[Professional Writing Techniques]: /handbook/product/technical-writing/#professional-writing-techniques
 [Redcarpet]: http://git.io/ld_NVQ
 [SEO Guide]: http://www.seobythesea.com/2012/01/heading-elements-and-the-folly-of-seo-expert-ranking-lists/
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing

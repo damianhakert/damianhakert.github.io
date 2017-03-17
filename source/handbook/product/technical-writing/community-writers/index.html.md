@@ -85,11 +85,11 @@ We have some standards and guidelines that need to be respected. Please make sur
 [blog-style]: /handbook/marketing/blog/#styles-guidelines
 [CI/CD/CD]: /2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
 [ConvDev]: /2016/09/13/gitlab-master-plan/#convdev
-[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[Markdown Guide]: /handbook/product/technical-writing/markdown-guide/
 [publishing-process]: /handbook/marketing/blog/#publishing-process-for-community-writers
 [gitlab blog]: /blog/
 [Pages group]: https://gitlab.com/groups/pages
-[Writing Method]: /handbook/marketing/developer-relations/technical-writing/#writing-method
+[Writing Method]: /handbook/product/technical-writing/#writing-method
 [topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues/
 
 <!-- labels -->
