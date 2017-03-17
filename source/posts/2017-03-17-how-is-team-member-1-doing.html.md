@@ -13,7 +13,7 @@ The engineer that gave the unfortunate command to [delete our primary database](
 
 After we posted [the postmortem of the incident with GitLab.com](/2017/02/10/postmortem-of-database-outage-of-january-31/), we received notes from our community asking how was _team-member-1_ doing. We're here to tell you that.
 
-We are still putting all our efforts into improving GitLab.com's infrastructure as a whole, to prevent that incidents like this happen in the future.
+We are still putting all our efforts into improving GitLab.com's infrastructure as a whole, to ensure this type of incident never happens again.
 
 <!-- more -->
 
@@ -96,7 +96,7 @@ A group from Google came to our HQ and got our engineers $300 to spend on someth
 
 The engineers involved have agreed that this extremely generous gift from Google will be spent on [sponsoring Rails Girls events](https://railsgirlssummerofcode.org/campaign/). But the cookies were obviously eaten by the one who grabbed the pack! 😛
 
-Needless to say, some special **thank you** swag is on it's way to these amazing people that took the time to come to our office and try to help us feel a bit better.
+Needless to say, some special **thank you** swag is on its way to these amazing people that took the time to come to our office and try to help us feel a bit better.
 
 ## GitLab Values
 
@@ -178,7 +178,7 @@ _A final sample can be found [here](https://gitlab.com/gitlab-org/gitlab-ce/merg
 
 _These samples are just the tipping point the work that he has been performing for quite a while already. This work got us to the situation where we can deploy the application with minimum downtime, even adding [automation to detect when a migration will force us to cause downtime](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4911), removing human judgment from the equation._
 
-_His work is constantly impacting all the company in both depth and breath, I can find lots of samples on any of the items that are included in the job description, I can even find samples that match to the staff developer. Therefore I think that he has been behaving as a Senior Developer, and I ask that this behavior gets recognized and formalized by GitLab._
+_His work is constantly impacting all the company in both depth and breath, I can find lots of samples on any of the items that are included in the job description, I can even find samples that match to the staff developer. Therefore I think that he has been behaving as a Senior Developer, and I ask that this behavior gets recognized and formalized by GitLab._
 
 </div>
 </div>
