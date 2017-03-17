@@ -6,7 +6,7 @@ author_twitter: nearlythere
 image_title: '/images/blogimages/write-gitlab.jpg'
 ---
 
-Update: Please see our updated [Community Writers Program](https://about.gitlab.com/handbook/marketing/blog/community-writers/)
+Update: Please see our updated [Community Writers Program](https://about.gitlab.com/handbook/product/technical-writing/community-writers/)
 
 We’re opening our blog up to contributions from the community.
 When you get published on our blog at [GitLab](https://about.gitlab.com/blog) you can earn $50 to $200 for technical articles.
@@ -37,7 +37,7 @@ What we're looking for...
 - In-depth tutorials or opinion pieces of 1,500+ words.
 
 
-Review [our call for writers](/community/writers) for the kinds of topics we're looking for.
+Review [our call for writers](/handbook/product/technical-writing/community-writers/) for the kinds of topics we're looking for.
 
 ## New to GitLab? That's OK!
 
@@ -71,4 +71,4 @@ These are some ideas our team have in their wishlist. Do you see something you c
 1. Publish.
 1. Get paid.
 
-Visit [our call for writers](/community/writers) for more information on how to get started.
+Visit [our call for writers](/handbook/product/technical-writing/community-writers/) for more information on how to get started.

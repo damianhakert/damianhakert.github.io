@@ -337,7 +337,7 @@ Read the section [Performing Reviews](#performing-reviews) for further details.
 
 For our [community writers], we will follow the Scalable Writing System described below, coordinated by the [Blog Editorial Team].
 
-1. Community Writer: detailed in [community writers program](https://about.gitlab.com/handbook/marketing/blog/community-writers/)
+1. Community Writer: detailed in [community writers program](/handbook/product/technical-writing/community-writers/)
 1. Content Marketing - analyses the proposal:
   - Marcia will evaluate the writer's sample and discuss anything necessary before the author start writing
   - If the issue isn't already labeled with the [compensation labels](#compensation-labels) (`$100`, `$200`, `TOP PRIORITY`), Marcia will define the compensation the post is worth and attribute the correct label.

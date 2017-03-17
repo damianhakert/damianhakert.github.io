@@ -8,4 +8,4 @@ suppress_header: true
 
 
 The content of this page was transferred to the 
-[Blog Handbook - Community Writers Program](/handbook/marketing/blog/community-writers/).
+[Blog Handbook - Community Writers Program](/handbook/product/technical-writing/community-writers/).
