@@ -7,9 +7,9 @@ categories: Security
 tags: security, gitlab
 ---
 
-On Monday, March 20th, 2017 at 23:59 UTC, we will publish a major
-GitLab security update. More details will be forthcoming on [our blog], 
-including which versions of GitLab are affected.
+On Monday, March 20th, 2017 at 23:59 UTC, we will publish a critical GitLab
+security update. More details will be forthcoming on [our blog], including
+which versions of GitLab are affected.
 
 We recommend installations running affected versions to upgrade
 immediately. Please forward this alert to the appropriate people at your
