@@ -421,6 +421,14 @@ To make it concrete with an example, the CI/CD team might ask:
 * What can we do to make customers happy? ([list](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&state=opened&utf8=✓&label_name%5B%5D=CI&label_name%5B%5D=customer))
 * What can we do to ship EE features for CI? (e.g. [gitlab-org/gitlab-ee#933](https://gitlab.com/gitlab-org/gitlab-ee/issues/933))
 
+## Naming new features
+
+Naming new features is notoriously hard and sensitive to many opinions.
+It's highly recommend to start with discussing this as early as possible.
+
+When naming something, the name should clearly express what the feature is.
+Follow [usability heuristics](http://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
+
 # How to work as a PM
 
 If you follow the guidelines above, you won't be writing long, detailed
