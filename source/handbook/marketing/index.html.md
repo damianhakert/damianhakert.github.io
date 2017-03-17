@@ -25,7 +25,6 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 {: #marketing-handbooks}
 
 - [Blog]
-- [Markdown Guide]
 - [Demand Generation]
    - [Business Development]
    - [Field Marketing]
@@ -737,8 +736,8 @@ We use our chat internally as a communication tool. The marketing channels are a
 <!-- IDENTIFIERS -->
 
 [cmo]: https://about.gitlab.com/jobs/chief-marketing-officer/
-[create a ToC]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#table-of-contents-toc
-[Markdown Style Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[create a ToC]: /handbook/product/technical-writing/markdown-guide/#table-of-contents-toc
+[Markdown Style Guide]: /handbook/product/technical-writing/markdown-guide/
 
 <!-- HANDBOOKS -->
 
@@ -751,7 +750,6 @@ We use our chat internally as a communication tool. The marketing channels are a
 [Developer Relations]: /handbook/marketing/developer-relations
 [Design]: /handbook/marketing/design/
 [Field Marketing]: /handbook/marketing/demand-generation/field-marketing/
-[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [Marketing Operations]: /handbook/marketing/demand-generation/marketing-operations/
 [Online Marketing]: /handbook/marketing/demand-generation/online-marketing/
 [Partner Marketing]: /handbook/marketing/product-marketing/partner-marketing/

@@ -4,7 +4,6 @@ title: Team Handbook
 twitter_image: '/images/tweets/handbook-gitlab.png'
 ---
 
-
 The GitLab team handbook is the central repository for how we run the company. Printed it consists of about 500 pages of text. As part of our value of being transparent the handbook is <a href="https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/handbook">open to the world</a>, and we welcome feedback<a name="feedback"></a>. Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
 
@@ -38,7 +37,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Marketing](/handbook/marketing)
   * [Content Marketing](/handbook/marketing/content/)
   * [Blog](/handbook/marketing/blog)
-  * [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/)
   * [Social Marketing](/handbook/marketing/social-marketing/)
   * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
 * [Sales](/handbook/sales)
@@ -50,6 +48,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Making Gifs](/handbook/product/making-gifs)
   * [Data analysis](/handbook/product/data-analysis)
   * [Technical Writing](/handbook/product/technical-writing/)
+  * [Markdown Guide](/handbook/product/technical-writing/markdown-guide/)
 
 <style>
 .md-page h2 i.icon-color {
