@@ -88,7 +88,6 @@ $article-width: 1680px;
       font-size: 7vh;
       line-height: 1.25;
       position: absolute;
-      // margin: auto;
       left: 0;
       right: 0;
       margin-left: auto;
@@ -143,7 +142,7 @@ $article-width: 1680px;
       > h2 {
         order: 1;
         width: 100%;
-        justify-content: center;
+        text-align: center;
       }
 
       .webcast-button {
@@ -172,35 +171,32 @@ $article-width: 1680px;
     h2 {
       font-size: 44px;
       font-weight: normal;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
       margin-bottom: 1.36em;
-      align-items: center;
+      line-height: 1.5;
     }
 
     h3 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
+      line-height: 1.5;
       margin-top: 50px;
       font-weight: normal;
       font-size: 33px;
-      text-align: left;
 
-      &.ce::before,
-      &.ee::after,
-      &.ce-ee::before,
-      &.ce-ee::after {
+      .ce,
+      .CE,
+      .ee,
+      .EE {
         height: 39px;
         width: 45px;
+        line-height: 1.2;
       }
 
-      &.ees::after,
-      &.eep::after {
+      .ees,
+      .EES,
+      .eep,
+      .EEP {
         height: 39px;
         width: 55px;
+        line-height: 1.2;
       }
 
       h4 {
@@ -216,10 +212,6 @@ $article-width: 1680px;
       margin-left: calc(-12vw + 3px);
       padding: 0 5vw;
       box-shadow: inset 0 3px 3px $blog-color-border-shadow, inset 0 -1px 2px $blog-color-border-shadow;
-
-      // @media (min-width: 1430px) {
-      //   margin-left: calc(-50vw + #{$article-width / 2});
-      // }
 
       @media (max-width: $screen-xs-min) {
         margin-left: -5vw;
@@ -307,52 +299,44 @@ $article-width: 1680px;
 }
 
 %ce-placeholder {
-  content: "CE";
+  text-transform: uppercase;
   color: $color-white;
   background: $badge-color-ce;
-  order: 1;
   font-size: .68em;
   padding: .3em .4em;
   border-radius: 3px;
   font-weight: 600;
   height: 50px;
   width: 56px;
-  margin: 10px 0 10px 10px;
-  align-self: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.1;
 }
 
-.ee::after {
+
+.ce,
+.CE {
   @extend %ce-placeholder;
-  content: "EE";
+}
+
+.ee,
+.EE {
+  @extend %ce-placeholder;
   background: $badge-color-ees;
 }
 
-.ees::after {
+.ees,
+.EES {
   @extend %ce-placeholder;
-  content: "EES";
   background: $badge-color-ees;
   width: 73px;
 }
 
-.eep::after {
+.eep,
+.EEP {
   @extend %ce-placeholder;
-  content: "EEP";
   background: $badge-color-eep;
   width: 73px;
-}
-
-.ce::before {
-  @extend %ce-placeholder;
-}
-
-.ce-ee::before {
-  @extend %ce-placeholder;
-}
-
-.ce-ee::after {
-  @extend %ce-placeholder;
-  content: "EE";
-  background: $badge-color-ees;
 }
 
 .figcaption {
@@ -389,8 +373,9 @@ $article-width: 1680px;
     width: 100%;
   }
 
-  h2 {
-    justify-content: flex-start;
+  h2,
+  h3 {
+    text-align: left;
   }
 
   @media (max-width: $screen-md-min) {
@@ -403,7 +388,6 @@ $article-width: 1680px;
 
     h2,
     h3 {
-      justify-content: center;
       text-align: center;
     }
 
@@ -453,7 +437,6 @@ $article-width: 1680px;
 
   h2,
   h3 {
-    justify-content: center;
     text-align: center;
   }
 
