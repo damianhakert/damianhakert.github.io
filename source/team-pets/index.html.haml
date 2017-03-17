@@ -12,6 +12,7 @@ team_members:
       %h1
         MEET OUR
         %b PETS
-    .row
+    .row.team-row
       - data.pets.each do |pet|
         = partial "includes/team/member", locals: {member: pet, is_pet: true}
+      = link_to '', '#close-modal', class: 'modal-overlay'

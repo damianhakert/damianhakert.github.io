@@ -115,7 +115,12 @@ $(function() {
     }
 
     if ($el.length) {
-      $(window).scrollTop($el.offset().top - extraHeight);
+      var elTop = $el.offset().top;
+      var elPosition = elTop - $(window).scrollTop();
+
+      if (elPosition < extraHeight) {
+        $(window).scrollTop(elTop - extraHeight);
+      }
     }
   }
 
@@ -155,5 +160,58 @@ $(function() {
         $stickyBanner.addClass('active');
       }
     }
+  });
+
+  // Team page card popups
+  function handleEscape(e) {
+    var ESCAPE = 27;
+    if (e.keyCode === ESCAPE) {
+      closeModal(e);
+    }
+  }
+
+  function handleClick(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    closeModal(e);
+  }
+
+  function setActiveMember(hash) {
+    $(document).on('keyup', handleEscape);
+    $('.close-modal').on('click', handleClick);
+    updateHash(hash);
+  }
+
+  function closeModal(e) {
+    var hash = window.location.pathname + window.location.search;
+    updateHash(hash);
+    $(document).off('keyup', handleEscape);
+    $('.close-modal').off('click', handleClick);
+  }
+
+  function updateHash(hash) {
+    // manually trigger :target update
+    // described here: http://www.softwire.com/blog/2016/11/02/better-css-tabs-target/#a588
+    history.pushState(null, null, hash);
+    history.pushState(null, null, hash);
+    history.back();
+  }
+
+  $('.modal-overlay').click(closeModal);
+
+  $('.front').click((e) => {
+    var clickedLink = $(e.target).closest('a').length;
+    if (clickedLink) {
+      return;
+    }
+
+    var hash = $(e.currentTarget).find('.member-id').attr('href');
+    setActiveMember(hash);
+  });
+
+  $('.member-id').click((e) => {
+    e.preventDefault();
+    var hash = new URL(e.currentTarget.href).hash;
+    setActiveMember(hash);
   });
 });

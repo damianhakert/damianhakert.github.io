@@ -25,14 +25,14 @@ image_title: /images/team/team.jpg
         detail the #{link_to('team structure', '/team/structure')}.
         You can get a sense of the team culture by visiting our
         #{link_to('culture page', '/culture')}.
-    .row
+    .row.team-row
       - data.team.each do |member|
         = partial "includes/team/member", locals: {member: member, is_pet: false}
-      .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12
+      .col-xl-2.col-lg-2.col-md-3.col-sm-4.col-xs-12.member
         .member
           .card
             .front
-              = image_tag "/images/team/logo-extra-whitespace.png", alt: "GitLab.com", width: 200, height: 200
+              = image_tag "/images/team/logo-extra-whitespace.png", alt: "GitLab.com", width: 120, height: 120
               %h3 You?
               %br/
               %p{style: "text-align: center; padding: 0 25px;"}
@@ -43,3 +43,4 @@ image_title: /images/team/team.jpg
                   %i.fa.fa-twitter
                 %a{href: "https://gitlab.com"}
                   = partial "includes/logos/logo_sq.svg"
+      = link_to '', '#close-modal', class: 'modal-overlay'
