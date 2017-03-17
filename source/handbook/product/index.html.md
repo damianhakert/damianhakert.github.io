@@ -747,8 +747,6 @@ EE Starter features are more relevant for organizations that have more than
 EE Premium features are more relevant for organizations that have more than **750**
 potential users.
 
-## Starter or Premium?
-
 Deciding on whether something should be a Premium feature or just a EE-only
 feature can be tough. In doubt, make it a Premium feature, that's a reversible
 option, whereas the alternative is not.
