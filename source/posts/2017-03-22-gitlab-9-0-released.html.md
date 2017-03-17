@@ -21,7 +21,7 @@ extra_js:
 {::options parse_block_html="true" /}
 
 <!-- blog post intro -->
-<section class="left vertical-align-top">
+<section class="middle">
 
 Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [signficant advances to GitLab](/release-list/) during this period, shipping a version every single month.
 
@@ -32,10 +32,6 @@ GitLab helps you **collaborate on digital work** with others. We made many enhan
 We are excited to ship [**subgroups** in GitLab 9.0](#subgroups), another huge step in furthering GitLab collaboration. This powerful new paradigm of groups within groups allows for truly team-based and team-first collaboration in even very large organizations with many different departments. We're on a [mission](/strategy/#mission) to enable **everyone to contribute**. GitLab 9.0 continues to help break down silos wherever you work so that indeed everyone in your organization can contribute.
 
 We've continued improve **code review and code collaboration** in GitLab since 8.0, including features such as merge when pipeline succeeds ([8.3](/2015/12/22/gitlab-8-3-released)), code diffs ([8.4](/2016/01/22/gitlab-8-4-released), [8.5](/2016/02/22/gitlab-8-5-released), [8.7](/2016/04/22/gitlab-8-7-released), [8.10](/2016/07/22/gitlab-8-10-released), [8.15](/2016/12/22/gitlab-8-15-released)), a conflict editor ([8.11](/2016/08/22/gitlab-8-11-released), [8.13](/2016/10/22/gitlab-8-13-released)), merge request versions ([8.12](/2016/09/22/gitlab-8-12-released)), blocking merge until discussions resolved ([8.14](/2016/11/22/gitlab-8-14-released)), toggling approvals ([8.16](/2017/01/22/gitlab-8-16-released)), as well as squash and merge ([8.17](/2017/02/22/gitlab-8-17-released)). Many of these and other features involve the merge request widget. So in 9.0, we are [revamping its design](#merge-request-widget-usability) to accommodate the many existing and upcoming features that integrate with it.
-
-</section>
-
-<section class="right vertical-align-top">
 
 [GitLab 8.0](/2015/09/22/gitlab-8-0-released/) was a pivotal release as it fully integrated **continuous integration (CI)** into GitLab itself. Subsequently, new CI features were implemented into the API ([8.4](/2016/01/22/gitlab-8-4-released/)) and pipeline events were exposed through webhooks ([8.11](/2016/08/22/gitlab-8-11-released/)). Pipelines were also integrated into merge requests ([8.11](/2016/08/22/gitlab-8-11-released/), [8.17](/2017/02/22/gitlab-8-17-released/)) and commits ([8.13](/2016/10/22/gitlab-8-13-released/)), as well as its own visual graph ([8.11](/2016/08/22/gitlab-8-11-released/)). GitLab runner was improved in every release from [8.10 to 8.17](/release-list/). We released review apps ([8.12](/2016/09/22/gitlab-8-12-released/), [8.13](/2016/10/22/gitlab-8-13-released/), [8.14](/2016/11/22/gitlab-8-14-released/)) and auto deploy ([8.15](/2016/12/22/gitlab-8-15-released/)) to automatically deploy code into automatically created environments. And now with 9.0, we are shipping [deploy boards](#deploy-boards), allowing you track how your app is being deployed to multiple servers.
 
