@@ -218,7 +218,15 @@ customers as part of GitLab Geo.
 
 ## Performance Improvements ce
 
-As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with issue labels.
+As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with the issues and merge request dashboards.
+
+The improvements to the dashboards were focused on [more efficient searching by author or assignee](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9030), and [removing unnecessary queries](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9006). As the most common use for the dashboard is to view issues or merge requests assigned to you, this should be noticeable for most users. On GitLab.com, we saw transaction timings drop significantly for issues:
+
+![Issues dashboard](/images/9_0/issues_dashboard.png){: .shadow}
+
+And merge requests:
+
+![Merge requests dashboard](/images/9_0/merge_requests_dashboard.png){: .shadow}
 
 [Take a look](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=performance&milestone_title=9.0&scope=all&state=closed) at the full list of performance improvements in 9.0 and keep an eye out for further improvements in upcoming releases as GitLab continues to get faster, especially for large installations.
 
