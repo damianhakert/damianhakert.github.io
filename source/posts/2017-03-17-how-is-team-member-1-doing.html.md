@@ -71,9 +71,9 @@ The support our engineers received from our community was fantastic, people were
 
 {::options parse_block_html="true" /}
 
-The Cole Fresh team brought cookies to our HQ in San Francisco with a card saying:
+The Codefresh team brought cookies to our HQ in San Francisco with a card saying:
 
-> _Hey GitLab, We thought you could use a chance to destress a little. Don't sweat it we're rooting for you. We've all been there before and we have a lot of faith in you to work it out. You got THIS! From Dan, and the Cole Fresh Team_
+> _Hey GitLab, We thought you could use a chance to destress a little. Don't sweat it we're rooting for you. We've all been there before and we have a lot of faith in you to work it out. You got THIS! From Dan, and the Codefresh Team_
 
 A group from Google came to our HQ and got our engineers $300 to spend on something to make them feel better after all of this was over:
 
@@ -84,14 +84,14 @@ A group from Google came to our HQ and got our engineers $300 to spend on someth
 ![Google gift card](/images/blogimages/how-is-team-member-1-doing/google-gift.png){: .center-block}<small><em>*Gift from Google*</em></small>
 </div>
 <div class="col-md-6 col-sm-12 center-block">
-![Colefresh cookies](/images/blogimages/how-is-team-member-1-doing/colefresh-cookies.jpg){: .center-block}<small><em>*Gift from Cole Fresh*</em></small>
+![Codefresh cookies](/images/blogimages/how-is-team-member-1-doing/colefresh-cookies.jpg){: .center-block}<small><em>*Gift from Codefresh*</em></small>
 </div>
 </div>
 
 {::options parse_block_html="false" /}
 
 
-❤️ &nbsp;**Thank you Cole Fresh and Google!**&nbsp; ❤️
+❤️ &nbsp;**Thank you Codefresh and Google!**&nbsp; ❤️
 {: .alert .alert-gitlab-purple .text-center}
 
 The engineers involved have agreed that this extremely generous gift from Google will be spent on [sponsoring Rails Girls events](https://railsgirlssummerofcode.org/campaign/). But the cookies were obviously eaten by the one who grabbed the pack! 😛
