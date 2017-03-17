@@ -406,7 +406,7 @@ With our new version of groups in 9.0, we anticipate you'll create much more of 
 
 ![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
 
-### Tokenized Filter and Search in Issues and Merge Requests ees
+### Tokenized Filter and Search in Issues and Merge Requests ce ee
 
 We first introduced the new streamlined filter and search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
 
