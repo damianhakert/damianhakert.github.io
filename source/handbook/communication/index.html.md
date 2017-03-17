@@ -55,11 +55,14 @@ information) or FYA (for your action). If you forward an external request with F
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
 1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for pings that are both urgent as well as important. By overusing channel mentions you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
+   * Use `@here` to notify all currently _active_ members in the room.
+   * Use `@channel` to notify _ALL_ members in the room, irrespective of away status.
 1. If you agree in a chat to start a video call (typically by asking "Call?")
 the person that didn't leave the last comment starts the call. So either respond
 to the "Call?" request with a video link or say "Yes" and let the other person
 start it. Don't say "Yes" and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
+1. The usage of ChatBots for integrations can sometimes depend upon the name of the chat room, you should consult the room about such integrations before changing the name of commonly used / popular rooms in order to avoid inadvertently breaking integrations.
 
 **Google Docs**
 
