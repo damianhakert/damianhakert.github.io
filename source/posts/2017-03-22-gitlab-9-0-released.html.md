@@ -280,6 +280,17 @@ As you plan and execute work in each new milestone, we suggest you keep creating
 
 </section>
 
+<section class="middle">
+
+## API V4
+
+Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
+
+This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
+
+We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
+</section>
+
 <!-- OTHER FEATURES BLOCK -->
 ## Other Improvements in GitLab 9.0
 
@@ -313,14 +324,6 @@ release.
 | `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
 
 The old variables will still work, but will be deprecated soon.
-
-### API V4
-
-Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
-
-This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
-
-We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 
 ### Omnibus GitLab Package Improvements
 
