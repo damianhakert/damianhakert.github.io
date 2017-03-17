@@ -236,7 +236,7 @@ customers as part of GitLab Geo.
 
 ## Performance Improvements ce ee
 
-As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with the issues and merge request dashboards.
+As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Elasticsearch (ES) gets an upgrade in GitLab EE 9.0, with support for ES 5.1 and a host of smaller fixes. In accordance with our "cloud native" philosophy, we've added support for [AWS-hosted](https://aws.amazon.com/elasticsearch-service/) and HTTPS Elasticsearch clusters. Larger GitLab EE installations will benefit from improvements in the initial indexing process, and minor performance improvements have been made to repository indexing.
 
 The improvements to the dashboards were focused on [more efficient searching by author or assignee](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9030), and [removing unnecessary queries](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9006). As the most common use for the dashboard is to view issues or merge requests assigned to you, this should be noticeable for most users. On GitLab.com, we saw transaction timings drop significantly for issues:
 
