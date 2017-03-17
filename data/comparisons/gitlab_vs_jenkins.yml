@@ -20,8 +20,8 @@ features:
     link:
     competitor_one: true
     competitor_two: false
-  - title: "Plugins"
-    description: "Both GitLab CI and Jenkins ship with a plugin system to extend the core capabilities but GitLab's core CI feature set is more comprehensive than Jenkins."
+  - title: "Extensible"
+    description: "Both GitLab CI and Jenkins are extensible through an API or plugin system but GitLab's core CI feature set is more comprehensive than Jenkins."
     link_description: ""
     link:
     competitor_one: true
