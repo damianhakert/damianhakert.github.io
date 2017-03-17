@@ -30,6 +30,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
    - [Field Marketing]
    - [Marketing Operations]
    - [Online Marketing]
+   - [Content Marketing]
 - [Design]
 - [Developer Relations]
    - [Developer Advocacy]
@@ -37,7 +38,6 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
    - [Technical Writing]
        - [Markdown Guide]
 - [Product Marketing]
-   - [Content Team]
    - [Partner Marketing]
 - [Social Marketing]
 - [Social Media Guidelines]
@@ -759,7 +759,7 @@ We use our chat internally as a communication tool. The marketing channels are a
 
 [Blog]: /handbook/marketing/blog/
 [Business Development]: /handbook/marketing/demand-generation/business-development/
-[Content Team]: /handbook/marketing/content/
+[Content Marketing]: /handbook/marketing/content/
 [Demand Generation]: /handbook/marketing/demand-generation
 [Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
 [Community Advocacy]: /handbook/marketing/developer-relations/community-advocacy/
