@@ -23,6 +23,8 @@ Backend group.
 There is a backend group call every Tuesday, before the team call. You should
 have been invited when you joined; if not, ask your team lead!
 
+[Find the product manager mapping to engineering teams in the product handbook](/handbook/product)
+
 ### CI/CD Team
 {: #cicd}
 

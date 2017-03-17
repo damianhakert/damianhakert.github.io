@@ -41,6 +41,8 @@ Enterprise edition features fall under their respective PM,
 not under one PM in particular. For instance, Service Desk falls under Victor,
 because it's part of our Issues.
 
+[Find the strict engineering definition of product areas here](https://about.gitlab.com/handbook/backend/)
+
 ## Mike Bartlett - Platform and GitLab.com
 
 - Slack: `@mikeb`
