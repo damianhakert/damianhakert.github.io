@@ -5,7 +5,7 @@ competitor_one:
   logo: '/images/comparison/gitlab-logo.svg'
 competitor_two:
   name: 'Jenkins'
-  logo: 'null'
+  logo: '/images/comparison/jenkins-logo.svg'
 last_updated: 'March 17, 2017'
 features:
   - title: "Fast installation"
