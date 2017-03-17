@@ -1,6 +1,6 @@
 ---
 release_number: "9.0"
-title: "Released with Subgroups and Deploy Boards"
+title: "GitLab 9.0 released with Subgroups and Deploy Boards"
 author: Victor Wu
 author_gitlab: victorwu
 author_twitter: victorwu416
@@ -49,7 +49,7 @@ GitLab also provides you feedback and insight into your code and development pro
 
 ### Thank You
 
-We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. [In 9.0, there are over 130 merge requests from the community.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name%5B%5D=Community+Contribution&milestone_title=9.0&scope=all&state=merged) As an open source project, GitLab CE now has over [47,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master) (more than doubling the [20,000 count set back in 8.1](/2015/10/22/gitlab-8-1-released/)). Today, GitLab has over [over 1,500 contributors](http://contributors.gitlab.com). Thank you! 👏🙏 
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. [In 9.0, there are over 130 merge requests from the community.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name%5B%5D=Community+Contribution&milestone_title=9.0&scope=all&state=merged) As an open source project, GitLab CE now has over [47,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master) (more than doubling the [20,000 count set back in 8.1](/2015/10/22/gitlab-8-1-released/)). Today, GitLab has over [over 1,500 contributors](http://contributors.gitlab.com). Thank you! 👏🙏
 ### Growth
 
 We've also grown quickly during this time. We had just under 25 team members in 7 countries when we shipped 8.0. Today, we have [over 150 folks spread across 37 countries](/team/). That has helped us now to ship self-hosted GitLab in three versions, [Community Edition (CE), Enterprise Edition Starter (EES), and Enterprise Edition Premium (EEP)](/products/).
