@@ -1,0 +1,12 @@
+---
+layout: comparison_page
+trial_bar: true
+suppress_header: true
+title: GitLab compared to other tools
+image_title: '/images/comparison/title_image.png'
+extra_css:
+  - compared.css
+---
+
+- data.comparisons.gitlab_vs_jenkins do |comparison_block|
+  = partial "includes/comparison_table", locals: { comparison_block: comparison_block }
