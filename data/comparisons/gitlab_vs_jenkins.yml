@@ -14,8 +14,8 @@ features:
     link:
     competitor_one: true
     competitor_two: false
-  - title: "Minimal configuration"
-    description: "GitLab CI requires less configuration than a similar Jenkins setup."
+  - title: "Minimal build configuration"
+    description: "GitLab CI requires less configuration for your builds than a similar Jenkins setup."
     link_description: ""
     link:
     competitor_one: true
@@ -39,18 +39,18 @@ features:
     competitor_one: true
     competitor_two: false
   - title: "Container debugging on any environment"
-    description: "Easily debug your containers in any of your environments using the built in GitLab Web Terminal."
+    description: "Easily debug your containers in any of your environments using the built-in GitLab Web Terminal."
     link_description: ""
     link:
     competitor_one: true
     competitor_two: false
-  - title: "Prometheous performance monitoring"
+  - title: "Environment monitoring"
     description: "GitLab ships with Prometheous allowing you to monitor the performance of your deployed environments without any addtional setup."
     link_description: ""
     link: https://prometheus.io/
     competitor_one: true
     competitor_two: false
-  - title: "Integrates with GitLab Cycle Analytics"
+  - title: "Integrates with Cycle Analytics"
     description: "GitLab CI integrates with GitLab Cycle Analytics allowing you see how much of your cycle time from idea to production is spent on development, testing and review."
     link_description: ""
     link:
