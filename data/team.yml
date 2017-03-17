@@ -2003,9 +2003,10 @@
   role: <a href="https://about.gitlab.com/jobs/regional-sales-director">Regional Director of Sales</a>
   reports_to: CRO
   picture: markorogge.jpg
-  twitter:
+  twitter: gitlab
   gitlab:
-  story:    A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.
+  story:  |
+          A proven Senior Executive leading Sales teams with an impressive track record of driving net new revenue and market share growth for Fortune 500 and private venture backed technology companies.  Mark is a graduate of Pepperdine's Graziadio School of Business and Management (MBA), and of Augsburg College (BS in Economics).  Mark enjoys traveling the world with his wife and enjoying the almost perfect outdoor weather in Southern California.  He is also an avid football fan of USC and the Minnesota Vikings.
 
 
 - name: Oswaldo Ferreira
@@ -2165,7 +2166,7 @@
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Strategic Account Executive</a>
   reports_to: Regional Director of Sales
   picture: markbell.jpg
-  twitter:
+  twitter: gitlab
   gitlab:
   story:  |
           Throughout my life I've been passionate about technology and software. This started when I was 12 years old and my father brought home a Timex computer.
@@ -2227,9 +2228,10 @@
   role: <a href="https://about.gitlab.com/jobs/director-federal-sales/">Director of Federal Sales</a>
   reports_to: CRO
   picture: paulalmeida.jpg
-  twitter:
+  twitter: gitlab
   gitlab:
-  story: Paul joins GitLab from Puppet, where he developed and grew the Public Sector  business. At Puppet, he brought in new customers and built a sales team for the Public Sector organization. Paul enjoys assisting government customers solve problems with innovative software. Prior to working with Puppet, He served in a number of sales roles for VMware. He enjoys playing football and basketball, coaching his children's football and basketball teams, and spending his weekends with his family.
+  story: |
+         Paul joins GitLab from Puppet, where he developed and grew the Public Sector  business. At Puppet, he brought in new customers and built a sales team for the Public Sector organization. Paul enjoys assisting government customers solve problems with innovative software. Prior to working with Puppet, He served in a number of sales roles for VMware. He enjoys playing football and basketball, coaching his children's football and basketball teams, and spending his weekends with his family.
 
 
 - name: S.W.
