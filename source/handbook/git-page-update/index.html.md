@@ -60,7 +60,7 @@ Instructions on how to update the website are in the
 [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
 Most pages that you might want to edit are written in markdown [Kramdown](http://kramdown.gettalong.org/).
-Read through our [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/) to understand its syntax and create new content.
+Read through our [Markdown Guide](/handbook/product/technical-writing/markdown-guide/) to understand its syntax and create new content.
 
 ### Local Checks of Your Changes
 

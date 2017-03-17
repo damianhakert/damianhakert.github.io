@@ -87,7 +87,7 @@ Questions? Leave a comment below or tweet [@GitLab](https://twitter.com/gitlab)!
 
 #### Important Notes
 
-- Make sure to use correct format for [embedding videos from YouTube](/handbook/marketing/developer-relations/technical-writing/markdown-guide/#display-videos-from-youtube) into the blogpost. Replace the video URL only
+- Make sure to use correct format for [embedding videos from YouTube](/handbook/product/technical-writing/markdown-guide/#display-videos-from-youtube) into the blogpost. Replace the video URL only
 - Edit the video to start when the meeting actually starts:
   - On YouTube, click **Edit** > **Enhancements**
   - Click **trim**, then play until the part you want to split, and click **split**

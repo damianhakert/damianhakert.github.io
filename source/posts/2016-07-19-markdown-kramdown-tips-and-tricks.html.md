@@ -414,13 +414,13 @@ Follow [@GitLab] and stay tunned for the next post!
 
 [about.GitLab.com]: /
 [@GitLab]: https://twitter.com/GitLab
-[boxes]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#colorful-sections
-[classes]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#classes-ids-and-attributes
+[boxes]: /handbook/product/technical-writing/markdown-guide/#colorful-sections
+[classes]: /handbook/product/technical-writing/markdown-guide/#classes-ids-and-attributes
 [CodePens]: https://codepen.io
 [contribute]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md
-[docs]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#embed-documents
+[docs]: /handbook/product/technical-writing/markdown-guide/#embed-documents
 [font awesome]: http://fontawesome.io/
-[guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[guide]: /handbook/product/technical-writing/markdown-guide/
 [Handbook]: /handbook/
 [handbook-post]: /2016/07/12/our-handbook-is-open-source-heres-why/
 [identifier]: #
@@ -431,9 +431,9 @@ Follow [@GitLab] and stay tunned for the next post!
 [news]: https://news.ycombinator.com/item?id=12091638
 [responsive]: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 [SSGs]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
-[videos]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
+[videos]: /handbook/product/technical-writing/markdown-guide/#videos
 [www-GitLab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
-[source file]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
+[source file]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/product/technical-writing/markdown-guide/index.html.md
 
 <style>
 .blue {

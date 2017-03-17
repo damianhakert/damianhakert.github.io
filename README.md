@@ -119,7 +119,7 @@ before publishing, see [**Local development**](#local-development) for
 instructions.
 
 [Blog Handbook]: https://about.gitlab.com/handbook/marketing/blog/
-[mkd-guide]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[mkd-guide]: https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/
 
 ### Adding yourself to the team page
 
@@ -312,7 +312,7 @@ follow the steps below:
 [press releases]: https://about.gitlab.com/press/releases/
 [press category]: https://about.gitlab.com/blog/categories/press
 [blog archives]: https://about.gitlab.com/blog/archives.html
-[md]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide
+[md]: https://about.gitlab.com/handbook/product/technical-writing/markdown-guide
 
 ### Update the features page (under `/features`)
 
