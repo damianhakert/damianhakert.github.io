@@ -112,6 +112,18 @@ extra_css:
                 universe has GitLab CE and EE packages available for one-click installation. Check out
                 = succeed "." do
                   %a{href: "https://mesosphere.com/blog/2016/09/16/gitlab-dcos/"} this article for instructions and more resources.
+            %li
+              %p
+                %a{href: "https://kubernetes.io/"} Kubernetes
+                users can install GitLab using the official Helm chart with the package manager. Check out
+                = succeed "." do
+                  %a{href: "https://github.com/kubernetes/charts/tree/master/stable/gitlab-ce"} official helm repo for the chart and instructions
+            %li
+              %p
+                %a{href: "https://www.openshift.com/"} RedHat OpenShift
+                template for installing GitLab CE. Check out
+                = succeed "." do
+                  %a{href: "https://about.gitlab.com/2016/06/28/get-started-with-openshift-origin-3-and-gitlab"} this article for instructions.
         .method
           %h2#one-click-install-providers One-click install providers
           %p
@@ -195,13 +207,6 @@ extra_css:
               %p
                 %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues/14043"} No Fedora package
                 exists yet but we would love to see it, if you can help please comment in the issue
-            %li
-              %p
-                %a{href: "https://github.com/kubernetes/charts/tree/master/stable/gitlab-ce"} Kubernetes Helm Chart
-                by Greg Taylor
-            %li
-              %p
-                %a{href: "https://gitlab.com/gitlab-org/omnibus-gitlab/raw/openshift-idea-to-production/docker/openshift/idea-2-prod-template.json"} RedHat OpenShift template
             %li
               %p
                 %a{href: "https://gitlab.com/gitlab-org/gitlab-recipes/"} GitLab recipes
