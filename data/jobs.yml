@@ -129,6 +129,11 @@
   apply:
   open: false
 
+- title: "Director of Infrastructure"
+  description: /jobs/director-of-infrastructure/
+  apply:
+  open: true
+
 - title: "Director of Lead Generation"
   description: /jobs/director-of-leadgen/
   apply: https://gitlab.workable.com/jobs/128439/candidates/new
