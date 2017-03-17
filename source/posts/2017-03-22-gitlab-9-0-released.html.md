@@ -199,7 +199,9 @@ This will allow us to replicate those files in a future iteration.
 * There is a new process to automatically backfill repositories
 ([Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1197)).
 * You can now disable a secondary node through the UI.
-* All other Geo features work the same way as before.
+* While the new features above are in alpha, the [core Geo feature](https://about.gitlab.com/features/gitlab-geo/),
+which is to clone and fetch projects over large distances, is still
+production-ready like before.
 
 If you upgrade your installations to GitLab 9.0, these changes will be
 automatically applied to your Geo installation and require no manual setup. If
