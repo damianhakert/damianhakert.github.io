@@ -182,17 +182,13 @@ $article-width: 1680px;
       font-size: 33px;
 
       .ce,
-      .CE,
-      .ee,
-      .EE {
+      .ee {
         height: 39px;
         width: 45px;
       }
 
       .ees,
-      .EES,
-      .eep,
-      .EEP {
+      .eep {
         height: 39px;
         width: 55px;
       }
@@ -312,26 +308,22 @@ $article-width: 1680px;
 }
 
 
-.ce,
-.CE {
+.ce {
   @extend %ce-placeholder;
 }
 
-.ee,
-.EE {
+.ee {
   @extend %ce-placeholder;
   background: $badge-color-ees;
 }
 
-.ees,
-.EES {
+.ees {
   @extend %ce-placeholder;
   background: $badge-color-ees;
   width: 73px;
 }
 
-.eep,
-.EEP {
+.eep {
   @extend %ce-placeholder;
   background: $badge-color-eep;
   width: 73px;

@@ -68,7 +68,7 @@ Jacopo made it possible to [undo marking a todo item as done in the todos list](
 <!-- FEATURE 1 block (major) -->
 <section class="middle">
 
-## Subgroups CE EE
+## Subgroups ce
 
 GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups".
 
@@ -89,7 +89,7 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 <!-- feature 2 text -->
 <section class="left">
 
-## Deploy Boards EEP
+## Deploy Boards eep
 
 GitLab has an incredibly powerful CI/CD system, with over a thousand runners executing pipelines for GitLab.com projects alone. These pipelines perform builds to compile and package software, run automated tests, spawn review apps, and can even deploy software to staging and production. To date, these deployments would report back whether the environment was successfully updated, but what if you wanted more fidelity? Or a single pane to view all deployments across all environments? For larger organizations, the answers to these questions become particularly important.
 
@@ -122,7 +122,7 @@ To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial 
 <!-- feature 3 text -->
 <section class="right">
 
-## Export Issues EES
+## Export Issues ees
 
 GitLab already enables you to filter, search, and navigate through the many issues you use daily. But users say they want a snapshot of issues for offline analysis or to communicate with other teams who may not be in GitLab just yet. With 9.0 EES, GitLab will email a CSV export of issues to the system administrator if you click the download button at the top right in the issue list view.
 
@@ -141,7 +141,7 @@ We designed and integrated the feature directly into the project issue list view
 <!-- feature 4 text -->
 <section class="left">
 
-## Environment Monitoring CE EE
+## Environment Monitoring ce
 
 A robust monitoring infrastructure is crucial to operating a successful application.  It ensures your app is responsive, provides valuable insight into the impact of changes, and enables quick debugging when problems occur. However setting this infrastructure up is often a lower priority, in particular for non-production environments, and it is often not integrated with the rest of your toolchain.
 
@@ -165,7 +165,7 @@ Participate in the discussion and future of performance monitoring with GitLab [
 
 <section class="middle">
 
-## Disaster Recovery Alpha EEP
+## Disaster Recovery Alpha eep
 
 Regardless of the size of your company, you need to make sure that your
 infrastructure is resilient to any kind of natural or human-induced disasters
@@ -216,7 +216,7 @@ customers as part of GitLab Geo.
 
 <section class="middle">
 
-## Performance Improvements CE EE
+## Performance Improvements ce
 
 As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with issue labels.
 
@@ -228,7 +228,7 @@ Did you know, [Gitlab.com](https://gitlab.com) is "merely" a massive-scale imple
 
 <section class="left">
 
-## Updated Navigation CE EE
+## Updated Navigation ce
 
 Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
 
@@ -253,7 +253,7 @@ We also brought back the ability the create a new project quickly, by simply cli
 </section>
 <section class="right">
 
-## Reorder Issues in Board List CE EE
+## Reorder Issues in Board List ce
 
 [Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
@@ -262,7 +262,7 @@ We also brought back the ability the create a new project quickly, by simply cli
 
 <section class="middle">
 
-## Boards with Milestones EES
+## Boards with Milestones ees
 
 A GitLab Issue Board enables you to manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
 
@@ -278,7 +278,7 @@ As you plan and execute work in each new milestone, we suggest you keep creating
 <!-- OTHER FEATURES LEFT BLOCK -->
 <section class="left vertical-align-top">
 
-### Native Unicode Emojis 🔥 CE EE
+### Native Unicode Emojis 🔥 ce
 
 Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being add add emojis faster 😉. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
 
@@ -361,19 +361,19 @@ With the release of GitLab 9.0, Prometheus and its associated exporters are now 
 <!-- OTHER FEATURES RIGHT BLOCK -->
 <section class="right vertical-align-top">
 
-### Group search and filtering CE EE
+### Group search and filtering ce
 
 With our new version of groups in 9.0, we anticipate you'll create much more of them. So we've made it possible to filter and search groups in the list view, and also allow you to sort by when they were created or updated.
 
 ![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
 
-### Tokenized Filter and Search in Issues and Merge Requests EES
+### Tokenized Filter and Search in Issues and Merge Requests ees
 
 We first introduced the new streamlined filter and search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
 
-### New Branch for Bare Projects CE EE
+### New Branch for Bare Projects ce
 
 When you click the `New branch` button in an issue, you may want to start creating code right away.
 But for a project with an empty repository, GitLab, prior to 9.0, stubbornly sends you back to the main project view when you click the button.
@@ -385,7 +385,7 @@ If your [project is already configured with a deployment service][project-servic
 
 ![New Branch for Repo-less Projects in GitLab 9.0](/images/9_0/no_repo_new_branch.png){: .shadow}
 
-### Merge Request Widget Usability CE EE
+### Merge Request Widget Usability ce
 
 The merge request plays a crucial role in code collaboration and deployment. In particular, a lot of important information and call-to-actions are located in the merge request widget. With 9.0, we are starting to improve the usability of that widget. We want to present the most relevant information and allow you to see, at a glance, the status of the code, whether it's in review, or if it's already deployed in an environment. We will continue to iterate on this new cleaner design, and continue to make the entire merge request more powerful.
 
@@ -395,7 +395,7 @@ The merge request plays a crucial role in code collaboration and deployment. In 
 
 Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled. This process will also alleviate any issues caused by users inadvertently invalidating tokens in use for other applications.
 
-### Create Mattermost Team when Creating GitLab Group CE EE
+### Create Mattermost Team when Creating GitLab Group ce
 
 Sometimes chatting with your workgroup is the best way to get an idea rolling. To help you with that, GitLab integrates with [Mattermost](https://about.mattermost.com/). With GitLab 9.0, setting up a [Mattermost team](https://docs.gitlab.com/omnibus/gitlab-mattermost/README.html#gitlab-mattermost) for your GitLab group to chat and collaborate is effortless. When creating a GitLab group, select the appropriate checkbox, and GitLab will tell your Mattermost instance to create a team with the same name.
 
@@ -547,7 +547,7 @@ Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-w
 5. Features:
   - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
   - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
-  - Add the words `CE` (CE features), `EES` (EE Starter features), or `EEP` (EE Premium features) to features' headings at then end.
+  - Add the words `ce` (CE features), `ees` (EE Starter features), or `eep` (EE Premium features) to features' headings at then end.
 
 6. Aligning content to the top:
 
