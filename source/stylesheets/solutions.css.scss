@@ -272,10 +272,6 @@
 
 // ----------- general ---------- //
 
-a {
-  cursor: pointer;
-}
-
 .line-separator {
   background: $landing-organization-color;
   margin: 12px auto;
@@ -603,7 +599,7 @@ a {
   }
 
   blockquote {
-    color: #e14329;
+    color: $color-secondary;
     font-style: italic;
   }
 }
