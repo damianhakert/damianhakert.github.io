@@ -1,6 +1,80 @@
 @import "variables";
 @import "vendor/bootstrap/bootstrap/variables";
 
+// community writers
+
+.community-writers-container {
+  background-image: url("/images/community-writers/header-background-img.jpg");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  max-height: 620px;
+  padding-top: 20px;
+
+  &::after {
+    background-image: linear-gradient(to bottom, rgba($landing-community-bg, .75), $landing-community-bg 65%);
+    opacity: .95;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 9;
+  }
+
+  .page-headline {
+    margin-bottom: 0;
+
+    &.cta {
+      @media (min-width: $screen-sm-min) {
+        padding-top: 75px;
+      }
+    }
+  }
+
+  .subheader {
+    margin-bottom: 25px;
+    color: $color-gray-light;
+    font-weight: 300;
+    font-size: 20px;
+
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 20px;
+    }
+
+    &.cta {
+      margin-bottom: 18px;
+    }
+
+    .contact-us {
+      border-bottom: 1px solid $color-gray-light;
+      color: $color-gray-light;
+      font-weight: 300;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+.comm-writers-gray {
+  margin-bottom: -50px;
+
+  .container {
+    padding-bottom: 20px;
+  }
+}
+
 // cycle-analytics
 
 .cycle-analytics-container {
@@ -197,6 +271,10 @@
 }
 
 // ----------- general ---------- //
+
+a {
+  cursor: pointer;
+}
 
 .line-separator {
   background: $landing-organization-color;
@@ -421,6 +499,7 @@
 
   a {
     color: $color-primary-alt;
+    cursor: pointer;
   }
 }
 
@@ -522,6 +601,11 @@
     margin-bottom: 12px;
     text-align: justify;
   }
+
+  blockquote {
+    color: #e14329;
+    font-style: italic;
+  }
 }
 
 .step-image-container {
@@ -558,6 +642,7 @@
 a {
   &.purple {
     color: $color-primary-alt;
+    cursor: pointer;
 
     &:hover {
       color: $color-secondary;
