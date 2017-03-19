@@ -1,10 +1,28 @@
+- version: "9.3"
+  date: June 22nd, 2017
+  manager_americas:
+    - Clement Ho
+  manager_apac_emea:
+    - James Edward Jones
+  trainees:
+    - TBD
+- version: "9.2"
+  date: May 22nd, 2017
+  manager_americas:
+    - Jeanine Adkisson
+  manager_apac_emea:
+    - Jen-Shin Lin
+  trainees:
+    - Clement Ho
+    - James Edwards Jones
 - version: "9.1"
   date: April 22nd, 2017
   manager_americas:
     - Felipe Artur
   manager_apac_emea:
-    - Timothy Andrew
+    - Jen-Shin Lin
   trainees:
+    - Jeanine Adkisson
     - Nur Rony
 - version: "9.0"
   date: March 22nd, 2017
