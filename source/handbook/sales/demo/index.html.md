@@ -245,7 +245,7 @@ Great. The defaults looks pretty good, so let's go with them.
 
 ### Setup GitLab Auto-Deploy
 
-Now we’re ready to configure GitLab Auto Deploy. Auto Deploy is an easy way to configure GitLab CI from a template. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
+Now we’re ready to configure GitLab Auto Deploy. Auto Deploy is the easiest way to configure GitLab CI from a template. Back to the project, let’s click `Set up auto deploy` and choose the Kubernetes template. This is a great template to get us started and we just need to edit the `KUBE_DOMAIN` to use our own domain.
 
 *TODO: [Auto deploy as just another .gitlab-ci.yml template](https://gitlab.com/gitlab-org/gitlab-ce/issues/26453)*  
 *TODO: [Auto deploy apps with databases](https://gitlab.com/gitlab-org/gitlab-ce/issues/28496)*  
