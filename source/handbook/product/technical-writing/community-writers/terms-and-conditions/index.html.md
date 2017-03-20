@@ -166,16 +166,11 @@ The content will be evaluated based on:
 
 - Once in a merge request, the ownership of that content is GitLab's, therefore,
 the author **cannot** publish that content somewhere else.
-- Once the article gets published by GitLab, the author is welcome to
-reproduce the content in their own blog, or somewhere else, as long as
-they provide attribution to GitLab:
+- Once the article gets published, it's licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), which means, the author is welcome to reproduce the content totally or partially, on their own blog or somewhere else, as long as they provide attribution to GitLab:
 
     ```
     This article was [originally published](link-to-article) by [GitLab](https://about.gitlab.com).
     ```
-
-- The content can be also partially reproduced, as long as given
-attribution to GitLab and linked directly to the original article.
 
 **Note:** Once the content is published, GitLab reserves the right to change,
 rewrite, update, and remove the content totally, at GitLab's will.
