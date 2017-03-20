@@ -534,6 +534,20 @@ The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-k
 
 In order more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
 
+### Paginated environments
+Pagination was added to environments list in order to improve performance and user experience.
+Environments that belong to a folder are now shown in a new view.
+
+![Root Level Environments](/images/9_0/environments_pagination.png){: .shadow}
+![Environments inside a folder](/images/9_0/environments_folder_view.png){: .shadow}
+
+### Comments in diffs
+Commenting in diffs is now much easier with a purple background indicating which line we are selecting.
+Going through discussion in comments is also much easier now that we can collapse discussions and
+see note authors avatars in the sidebar of the diff.
+
+![Comments in diffs](/images/9_0/environments_folder_view.png){: .shadow}
+
 </section>
 <!-- END OF OTHER FEATURES RIGHT BLOCK -->
 
