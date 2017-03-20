@@ -199,7 +199,7 @@ $(function() {
 
   $('.modal-overlay').click(closeModal);
 
-  $('.front').click((e) => {
+  $('.front').click(function(e) {
     var clickedLink = $(e.target).closest('a').length;
     if (clickedLink) {
       return;
@@ -209,7 +209,7 @@ $(function() {
     setActiveMember(hash);
   });
 
-  $('.member-id').click((e) => {
+  $('.member-id').click(function(e) {
     e.preventDefault();
     var hash = new URL(e.currentTarget.href).hash;
     setActiveMember(hash);

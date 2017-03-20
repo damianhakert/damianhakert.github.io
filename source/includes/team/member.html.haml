@@ -1,4 +1,4 @@
-- anchor = is_pet ? member.picture : member.twitter || member.gitlab
+- anchor = member.picture
 .col-xl-2.col-lg-2.col-md-3.col-sm-4.col-xs-12.member{class: ("pet" if is_pet), id: anchor}
   .card
     .front
@@ -36,4 +36,4 @@
               GitLab
             = partial "includes/logos/logo_sq.svg"
     .extra
-      = partial "includes/team/member_detail", locals: {member: member, anchor: anchor, is_pet: is_pet || false}
+      = partial "includes/team/member_detail", locals: {member: member, is_pet: is_pet || false}

@@ -2,11 +2,7 @@
   - if is_pet
     = image_tag "/images/team/pets/#{member.picture}", alt: member.name, width: 200, height: 200, class: 'member-id'
   - else
-    - photo = image_tag "/images/team/#{member.picture}", alt: member.name, width: 120, height: 120
-    - if anchor
-      = link_to photo, "##{anchor}", class: 'member-id'
-    - else
-      = photo
+    = image_tag "/images/team/#{member.picture}", alt: member.name, width: 120, height: 120, class: 'member-id'
   .info
     %h3
       = member.name
