@@ -262,11 +262,10 @@ Great, that completes our setup.
 
 ## Idea (Chat)
 
-Let's go back to our Mattermost client. Today, more of your team's conversations are happening in chat, not in issues. With GitLab's chat command integration, you can turn ideas into issues with one command. 
+Let's go back to our Mattermost client. Today, more of your team's conversations are happening in chat, not in issues. With GitLab's chat command integration, you can easily turn ideas into issues.  
 
 > * Go to Mattermost [https://mattermost.make-sid-dance.com](https://mattermost.make-sid-dance.com)
 > * Skip tutorial
-> * Type: Let's improve the homepage!
 > * Type: `/minimal-ruby-app help`
 
 On first use, the command will ask you to connect your GitLab account, which is as simple as clicking the provided link in the response.
@@ -276,7 +275,7 @@ On first use, the command will ask you to connect your GitLab account, which is 
 > * Go to Mattermost
 > * Type: `/minimal-ruby-app help`
 
-Great. Now we can see what commands are available. Let's go ahead and create that issue.
+Great. Now we can see what commands are available. Let's go ahead and create that issue. 
 
 > ```
 > /minimal-ruby-app issue new Make homepage more descriptive
@@ -405,7 +404,7 @@ But I don’t just want to trust reading the code, I want to see it live in a pr
 
 ### Merge to `master`
 
-This is what we just created, automatically deployed to Kubernetes to give high fidelity reviews much earlier in your development process. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
+This is what we just created, automatically deployed to Kubernetes to allow high fidelity reviews much earlier in your development process. It looks great so let’s click the Accept Merge Request button to merge the changes into the `master` branch.
 
 > * Click Accept Merge Request (no need to click remove source branch)
 
