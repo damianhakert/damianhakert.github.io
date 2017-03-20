@@ -208,7 +208,7 @@ Now let's save the settings. And then let's test the settings just to make sure.
 
 > * Click Save Settings
 > * Click Test Settings
-> * *Click Cancel to return to integrations list* *TODO: https://gitlab.com/gitlab-org/gitlab-ce/issues/27301*
+> * Click Cancel to return to integrations list
 
 ### Setup Mattermost Command
 
@@ -217,8 +217,8 @@ Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.
 
 While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
 
-> * Go to Project Settings > Integrations
-> * Scroll to Project Services
+> * *Go to Project Settings > Integrations*
+> * *Scroll to Project Services*
 > * Select Mattermost Command
 > * Click Add to Mattermost
 
