@@ -28,6 +28,11 @@ Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/g
 
 In [8.0](/2015/09/22/gitlab-8-0-released/), we refreshed GitLab's look and feel, modernizing almost every UI element and significantly improving usability. (We had even updated our logo a few months prior.) Since then, we have continued to invest in design, ramping up our [UX design and research team](https://about.gitlab.com/team/), who are dedicated to improving usability and solving major pain points, everything from small CSS tweaks, to major UX flows. In each 8.x release we have iteratively evolved the design. And with GitLab 9.0, we made huge strides in [simplifying our global, group, and project navigation](#updated-navigation), a crucial enhancement as GitLab's feature set becomes increasingly powerful.
 
+In an effort to continue improving our UX, we now have a [research panel](/researchpanel) where you can help shape the future of GitLab! By joining our panel, you'll be the first to see new features and your thoughts will drive product improvements!
+
+[Join our research panel](/researchpanel){:.btn .btn-lg .btn-red .webcast-button}
+{: .text-align-center}
+
 ### Collaboration on Digital Work
 
 GitLab helps you collaborate on digital work. We made many enhancements to issues, a core part of collaboration in GitLab. This includes weights ([8.3](/2015/12/22/gitlab-8-3-released/#issue-weight-ee-only)), linking to merge requests ([8.3](/2015/12/22/gitlab-8-3-released/#merge-request-references-in-issues)), moving an issue to another project ([8.6](/2016/03/22/gitlab-8-6-released/#move-issues-to-other-projects)), and a powerful filter/search interface ([8.16](/2017/01/22/gitlab-8-16-released/#new-issues-search-and-filter-interface)). We also released issue boards ([8.11](/2016/08/22/gitlab-8-11-released/#issue-board)), providing a simple mechanism for issue workflow management using stages ("lists", in GitLab parlance). GitLab 9.0 continues to enhance boards further, [by improving its integration with milestones](#boards-with-milestones).
@@ -81,9 +86,9 @@ Jacopo made it possible to [undo marking a todo item as done in the todos list](
 
 GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchical team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups".
 
-You can create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
+Each group, at each level, is itself a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories. You can create up to 20 levels of subgroups, giving you an incredible level of flexibility.
 
-In this example, the organization represented by the `gitlab-nested` group has a design team, a backend team, and a frontend team, each represented by a group within the `gitlab-nested` group. The `design` and `backend` groups have further groups within them.
+In this example, the organization represented by the `gitlab-nested` group has a design team, a backend team, and a frontend team, each represented by a group within the `gitlab-nested` group. The `design` and `backend` groups have further subgroups within them.
 
 ![Subgroups](/images/9_0/gitlab-nested.png){: .shadow}
 
@@ -489,6 +494,20 @@ The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-k
 
 In order more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
 </div>
+
+### Paginated environments
+Pagination was added to environments list in order to improve performance and user experience.
+Environments that belong to a folder are now shown in a new view.
+
+![Root Level Environments](/images/9_0/environments_pagination.png){: .shadow}
+![Environments inside a folder](/images/9_0/environments_folder_view.png){: .shadow}
+
+### Comments in diffs
+Commenting in diffs is now much easier with a purple background indicating which line we are selecting.
+Going through discussion in comments is also much easier now that we can collapse discussions and
+see note authors avatars in the sidebar of the diff.
+
+![Comments in diffs](/images/9_0/environments_folder_view.png){: .shadow}
 
 </section>
 <!-- END OF OTHER FEATURES RIGHT BLOCK -->
