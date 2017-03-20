@@ -17,4 +17,4 @@ The process that "legal" (currently a combination of People Ops and Finance) wil
 1. Prepare the document as requested.
 1. Have the requestor check the prepared document, AND obtain approval from the CFO or CEO (such approval may be explicit in the email thread that was sent to `legal@`, in which case a second approval is not needed unless there have been significant edits to the document).
 1. Stage the document for signing in HelloSign and cc (at minimum) the requestor and `legal@`.
-1. Once signed, the person who staged it in HelloSign places the document in the contracts folder on Google Drive.
+1. Once signed, the person who staged it in HelloSign places the document in the contracts folder on Google Drive. If a sales related document (i.e. customer agreement or NDA) the document should be placed under the account in SFDC.
