@@ -8,22 +8,21 @@ categories: release
 image_title: '/images/9_0/9_0-cover-image.jpeg'
 description: "GitLab 9.0 Released with Subgroups, Deploy Boards, and much more!"
 twitter_image: '/images/tweets/gitlab-9-0-released.jpg'
+ee_cta: false
 extra_css:
   - release-posts.css
 extra_js:
   - release-posts.js
 ---
 
-<!-- READ THE INSTRUCTIONS AT THE END OF THIS FILE -->
-
-<!-- beginning of the blog post -->
-
 {::options parse_block_html="true" /}
-
-<!-- blog post intro -->
-<section class="middle">
+<section class="release-post-section">
 
 Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [signficant advances to GitLab during this period](/release-list/), shipping a version every single month on the 22nd. Let's quickly recap how far we've come since 8.0, and see those features dovetailing into today's 9.0 release. Or [jump ahead](#subgroups) to 9.0 features.
+
+<!-- more -->
+
+----
 
 ### Usability and Design
 
@@ -59,18 +58,12 @@ We've also grown quickly during this time. We had just under 25 team members in 
 
 GitLab is now the only platform that connects every step of your software development lifecycle, helping you bring modern applications from idea to production, quickly and reliably. Enjoy 9.0 and read on for details!
 
-</section>
 
-<section class="middle">
-
-[Register for the release webcast!](link-to-webcast){:.btn .btn-lg .btn-red .webcast-button}
-{: .text-align-center}
+[Register for the release webcast!](link-to-webcast){:.btn .btn-lg .btn-red}
 
 </section>
-<!-- end of blog post intro -->
 
-<!-- MVP section -->
-<section class="mvp">
+<section class="release-post-section mvp">
 
 ![mvp-badge](/images/mvp_badge.png)
 
@@ -79,10 +72,6 @@ GitLab is now the only platform that connects every step of your software develo
 Jacopo made it possible to [undo marking a todo item as done in the todos list](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8691). This is a huge productivity enhancement that helps you recover from mistakes in managing todos. Thanks Jacopo!
 
 </section>
-<!-- end of MVP section -->
-
-<!-- FEATURE 1 block (major) -->
-<section class="middle">
 
 ## Subgroups ce ee
 
@@ -98,12 +87,6 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 
 [Documentation link](https://docs.gitlab.com/ce/user/group/subgroups/)
 
-</section>
-<!-- end of FEATURE 1 block (major) -->
-
-<!-- FEATURE 2 block -->
-<!-- feature 2 text -->
-<section class="left">
 
 ## Deploy Boards eep
 
@@ -115,28 +98,12 @@ To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial 
 
 [Documentation link](link)
 
-</section>
-
-<!-- feature 2 image -->
-<section class="right">
 
 ![FEATURE_IMAGE](/images/9_0/deploy_boards.png){: .shadow}
 
-</section>
-<!-- end of FEATURE 2 BLOCK -->
-
-<!-- FEATURE 3 BLOCK -->
-<!-- feature 3 image -->
-<div class="small-reverse">
-
-<section class="left">
 
 ![Export Issues](/images/9_0/export_issues.png){: .shadow}
 
-</section>
-
-<!-- feature 3 text -->
-<section class="right">
 
 ## Export Issues ees
 
@@ -146,16 +113,6 @@ We designed and integrated the feature directly into the project issue list view
 
 [Documentation link](https://docs.gitlab.com/ee/user/project/issues/csv_export.html)
 
-</section>
-
-</div>
-<!-- end of FEATURE 3 BLOCK -->
-
-<!-- REPEAT FEATURE 2/3 BLOCKS FOR FEATURES 4,5,... -->
-
-<!-- FEATURE 4 block -->
-<!-- feature 4 text -->
-<section class="left">
 
 ## Environment Monitoring ce ee
 
@@ -169,17 +126,7 @@ Participate in the discussion and future of performance monitoring with GitLab [
 
 [Documentation link](https://docs.gitlab.com/ce/user/project/integrations/prometheus.html)
 
-</section>
-
-<!-- feature 4 image -->
-<section class="right">
-
 ![FEATURE_IMAGE](/images/9_0/prometheus.png){: .shadow}
-
-</section>
-<!-- end of FEATURE 4 BLOCK -->
-
-<section class="middle">
 
 ## Disaster Recovery Alpha eep
 
@@ -230,9 +177,6 @@ to install Geo.
 Disaster Recovery in Alpha is available to all Enterprise Edition Premium
 customers as part of GitLab Geo.
 
-</section>
-
-<section class="middle">
 
 ## Performance Improvements ce ee
 
@@ -250,9 +194,6 @@ And merge requests:
 
 Did you know, [GitLab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
-</section>
-
-<section class="left">
 
 ## Updated Navigation ce ee
 
@@ -266,27 +207,13 @@ Another notable change is the pop-in sidebar. That has been now replaced by a le
 
 We also brought back the ability the create a new project quickly, by simply clicking the `+` button at the top right.
 
-</section>
-<section class="right">
-
 ![Navigation](/images/9_0/navigation.png){: .shadow}
 
-</section>
-
-<div class="small-reverse">
-<section class="left">
 ![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
-</section>
-<section class="right">
 
 ## Reorder Issues in Board List ce ee
 
 [Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
-
-</section>
-</div>
-
-<section class="middle">
 
 ## Boards with Milestones ees
 
@@ -296,9 +223,6 @@ As you plan and execute work in each new milestone, we suggest you keep creating
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
-</section>
-
-<section class="middle">
 
 ## API V4
 
@@ -309,11 +233,8 @@ This constant iteration has resulted in a few inconsistencies in our existing AP
 We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
 </section>
 
-<!-- OTHER FEATURES BLOCK -->
 ## Other Improvements in GitLab 9.0
 
-<!-- OTHER FEATURES LEFT BLOCK -->
-<section class="left vertical-align-top">
 
 ### Native Unicode Emoji 🔥 ce ee
 
@@ -393,12 +314,6 @@ You can do this by running:
 
 With the release of GitLab 9.0, Prometheus and its associated exporters are now on by default. It is now easier than ever to ensure your GitLab service is healthy and responsive, with over 100 metrics available for monitoring. If you would like to disable Prometheus and all of it's related services, simply set `prometheus_monitoring['enable'] = false`. More information is available in our [Monitoring documentation](https://docs.gitlab.com/ce/doc/administration/monitoring/prometheus/index.html).
 
-</section>
-<!-- END OF OTHER FEATURES LEFT BLOCK -->
-
-
-<!-- OTHER FEATURES RIGHT BLOCK -->
-<section class="right vertical-align-top">
 
 ### Group search and filtering ce ee
 
@@ -447,31 +362,12 @@ Now you fine tune your Strict Transport Security enforcement just by changing se
 
 [hsts-settings-doc]: https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security
 
-</section>
-<!-- END OF OTHER FEATURES RIGHT BLOCK -->
-
-
-
-
-<!-- OTHER FEATURES CHANGELOG BLOCK -->
-<section class="middle">
 
 ## Changelog
 
 Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 {: .text-align-center}
 
-</section>
-<!-- END OF OTHER FEATURES CHANGELOG BLOCK -->
-
-
-
-
-
-
-<!-- UPGRADE BAROMETER BLOCK -->
-<div class="upgrade-install">
-<section class="left vertical-align-top">
 
 ### Upgrade barometer
 
@@ -506,11 +402,6 @@ If you're GitLab EE user, please be aware that in 9.0 release we bumped the requ
 Please update it following the official [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.1/setup-upgrade.html).
 Indexes created by Elasticsearch 2.4.x can be read by Elasticsearch 5.1.x.
 
-</section>
-<!-- end of UPGRADE BAROMETER BLOCK -->
-
-<!-- LAST BLOCK -->
-<section class="right vertical-align-top">
 
 ### Installing and Updating
 
@@ -531,118 +422,6 @@ We offer four different [products](/products/) for you and your company:
 
 <!-- - {: #gitlab-hosted} **[GitLab Hosted](/gitlab-hosted/)**: Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades. -->
 
-</section>
-</div>
-
 
 [Cover image](https://www.pexels.com/photo/landscape-nature-mountain-lake-37650/) licensed under [CC0](https://www.pexels.com/photo-license/).
 {:.note .text-right}
-
-<!-- end of LAST BLOCK -->
-
-<!-- end of the blog post -->
-
-
-
-
-
-
-<!-- Instructions (delete them when accomplished) -->
-
-<section style="display: none;">
-
-## Instructions
-
-This is how the post will look like: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/images/new-release-post-example.jpg
-
-1. Read through https://about.gitlab.com/handbook/marketing/blog/#quick-guide-for-release-posts
-2. Include in the same MR an update to data/promo.yml:
-
-```yaml
-text: "GitLab X.X Released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-link: '/AAAA/MM/DD/gitlab-x-x-released/'
-```
-
-3. Embedding Videos
-
-To embed videos, use the figure tag with the video_container class. It will guarantee
-that the video is responsive. Replace only the video URL:
-
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-Video caption
-{: .figcaption}
-
-Caption is optional.
-
-Ref: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
-
-4. Screenshots: try to keep the screenshots with the same width for a nicer layout. Add shadow to them whenever they have a white background that can be confused with the post background:
-
-![IMAGE ALT TEXT](IMAGE_URL){: .shadow}
-
-5. Features:
-  - First feature is always middle placed, after that you can alternate between features with image on the right or left and again a centered feature.
-  - When you place an image in the left section it needs to be reversed on smaller viewports. The class "small-reverse" does that.
-  - Add the words `ce ee` (CE features), `ees` (EE Starter features), or `eep` (EE Premium features) to features' headings at then end.
-
-6. Aligning content to the top:
-
-Whenever you need to align content to the top of each column, apply
-the class `vertical-align-top` to both `left` and `right` sections:
-
-<!-- left aligned section block -->
-<section class="left vertical-align-top">
-
-Enter description
-
-</section>
-<!-- end of left aligned section block -->
-<!-- right aligned section block -->
-<section class="right vertical-align-top">
-
-Enter description
-
-</section>
-<!-- end of right aligned section block -->
-<!-- end of instructions  -->
-
-7. Release webcasts
-
-Once the release webcast is published on YouTube, if you want to include the recording
-into the blog post, replace the section "blog post intro" with the following block.
-
-Don't forget to replace the Lorem Ipsum text with the actual intro. For the video tag,
-replace **only** the video URL.
-
-<!-- intro section (with video) -->
-<section class="left vertical-align-top">
-
-Intro (visible on blog landing page) Lorem ipsum dolor sit amet.
-Inventore incidunt consequatur blanditiis iusto laborum repudiandae,
-eligendi in impedit temporibus numquam reiciendis dolor culpa repellendus.
-
-<!-- more -->
-
-Nisi obcaecati numquam incidunt impedit necessitatibus ipsam qui illum,
-praesentium a esse. Cum porro ut id impedit expedita nostrum aut quibusdam,
-accusamus laboriosam maiores nesciunt voluptas deleniti harum doloribus
-tempore quasi fuga accusantium in odit facilis.
-
-</section>
-<section class="right vertical-align-top">
-
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/Ho-9sPthILc" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-The release webcast recording
-{: .figcaption}
-
-</section>
-<!-- end of intro section (with video) -->
-
-</section>
-<!-- end of instructions -->

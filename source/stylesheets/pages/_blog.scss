@@ -300,7 +300,7 @@
       margin-top: 0;
     }
 
-    .body a,
+    .body a:not(.btn),
     .newsletter a {
       color: $blog-color-purple;
       font-weight: 600;
@@ -318,7 +318,7 @@
       background: linear-gradient(to bottom, $blog-color-image-from, $blog-color-image-to);
       position: absolute;
       width: 100%;
-      top: 0;
+      bottom: 0;
     }
 
     h1 {
