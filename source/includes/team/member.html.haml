@@ -21,6 +21,9 @@
           %h5
             = member.specialty
             Specialist
+      - if member.maintains
+        %ul
+          = member.maintains
       .social
         - if member.twitter
           %a{href: "https://twitter.com/#{member.twitter}"}
