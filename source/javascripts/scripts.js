@@ -165,7 +165,13 @@ $(function() {
   // Team page card popups
   function handleEscape(e) {
     var ESCAPE = 27;
-    if (e.keyCode === ESCAPE) {
+
+    var members = [].slice.call(document.querySelectorAll('.member-id'));
+    var memberActive = members.find(function(link) {
+      return document.location.hash === link.getAttribute('href');
+    })
+
+    if (e.keyCode === ESCAPE && memberActive) {
       closeModal(e);
     }
   }
@@ -177,16 +183,12 @@ $(function() {
   }
 
   function setActiveMember(hash) {
-    $(document).on('keyup', handleEscape);
-    $('.close-modal').on('click', handleClick);
     updateHash(hash);
   }
 
   function closeModal(e) {
     var hash = window.location.pathname + window.location.search;
     updateHash(hash);
-    $(document).off('keyup', handleEscape);
-    $('.close-modal').off('click', handleClick);
   }
 
   function updateHash(hash) {
@@ -198,6 +200,8 @@ $(function() {
   }
 
   $('.modal-overlay').click(closeModal);
+  $('.close-modal').on('click', handleClick);
+  $(document).on('keyup', handleEscape);
 
   $('.front').click(function(e) {
     var clickedLink = $(e.target).closest('a').length;
