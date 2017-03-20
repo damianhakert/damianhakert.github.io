@@ -128,6 +128,10 @@ Now that we have our cluster configured, we're ready to generate our configurati
 > * Select `gitlab-make-sid-dance-com.yml` (or your newly generated configuration).
 > * Click on `Upload`. (It can take a while to upload, and then it just displays "There is nothing to display here".)
 >
+> **Alternative GitLab EE instructions:**
+> * Edit `gitlab-make-sid-dance-com.yml`
+> * Find `gitlab/gitlab-ce:9.0.0-rc5.ce.0` and replace with `gitlab/gitlab-ee:9.0.0-rc5.ee.0` (note `ce` appears twice)
+>
 > **Alternative CLI instructions:**
 > * From the Terminal window, run the following, changing the yml file name to match the name of the one that was just created for you
 >   * `kubectl create -f gitlab-make-sid-dance-com.yml`
@@ -155,44 +159,49 @@ What takes 10 minutes in this demo will take days if you're not using GitLab and
 
 *If there is more time talk about what a review app is and what cycle analytics are.*
 
-> * Wait for gitlab pod to go to green, then switch to your tab with the GitLab deployment open
+> * Wait for gitlab pod to go to green
 
 Looks like our deployment and all pods are green. Let's check our GitLab deployment...
 
+> * Go to `gitlab.make-sid-dance.com`, adjusting the URL to the domain you used for this demo.
+
 Boom, we’ve got a shiny new GitLab installation!
 
-## Setup a project in GitLab
+### Log in as root, add a license, and create group
 
-### Create a user and a project
-
-First things first, we need to secure the root account with a new password. Then create a new user.
+First things first, we need to secure the root account with a new password.
 
 > * Set password for root user
-> * Create a user with your name and email address (no verification sent)
+> * Log in as `root` with password you just created
 
-Since we'll want to work with the team on this project, we'll create a group. Groups allow you to organize projects into directories and quickly gives users access to several projects at once. Let’s name our group `tanuki`.
+Since we'll want to work as a team, we'll create a GitLab group. Groups allow you to organize projects into directories and quickly gives users access to several projects at once. Let’s name our group `tanuki`.
 
 > * Create a group called `tanuki` and make it public
+> * Leave `Create a Mattermost team for this group` checked
+> * Click `Great group`
 
-Now let’s create a new project, starting from a really simple example app just to save myself some typing.
+*TODO: Consider enabling `Allow any user with an account on this server to join this team`*
 
-> * Create a project under the `tanuki` group.
-> * Import `minimal-ruby-app` from `https://gitlab.com/gitlab-examples/minimal-ruby-app.git` *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
-> * Make it public
+> * Settings
+> * Enable `Allow users to request access`
+> * `Save group`
+
+> **Optional GitLab EE License**
+> * Go to [https://about.gitlab.com/free-trial/](https://about.gitlab.com/free-trial/) and enter in your info to request a trial license for GitLab EE
+> * Click on Update License, and enter in the license emailed to you.
 
 ### Add Kubernetes credentials to CI
 
 *TODO: [Automatically configure Kubernetes for project when GitLab is installed in cluster](https://gitlab.com/gitlab-org/gitlab-ce/issues/28888)*
 
-Now I’ve got to tell the project about the Kubernetes service.
+Now let's set up the Kubernetes integration for all of our projects.
 
-> * Go to Settings > Integrations
-> * Scroll to Project Services
+> * Go to Admin wrench, Settings > Service templates
 > * Select Kubernetes
-> * Select `Active`
 
 First I need to activate it, and get IP address for the cluster from GKE.
 
+> * Select `Active`
 > * Go to GCP, [Container Engine tab](https://console.cloud.google.com/kubernetes/list)
 > * Click on cluster
 > * Copy Endpoint to  `API URL` in GitLab, making it an HTTPS URL (such as `https://104.154.177.137`)
@@ -204,6 +213,47 @@ Then I grab an Access Token and Cert from the Kubernetes Dashboard.
 > * Click on `default-token-xxx` for the `default` namespace
 > * Click the eyeball next to `token` (last item) and copy to `Service token` in GitLab
 > * Click the eyeball next to `ca.crt` (first item) and copy (including `BEGIN` and `END` lines) to `Custom CA bundle` in GitLab
+> * Click Save Settings
+
+### Create a user
+
+Now let's log out and create a regular user.
+
+> * Click Gravatar > Sign out
+
+Then create a new user.
+
+> * Click `Register`
+> * Create a user with your name and email address (no verification sent)
+> * Click top-left hamburger, `Groups`
+> * Click `Explore Groups`, `tanuki`
+> * Click `Request access`
+> * Click Gravatar > Sign out
+> * Log in as `root`
+> * Groups, `tanuki`, Members
+> * Find requests, change permissions to `Master`, click on checkmark to grant access
+> * Log out and log back in as yourself
+
+## Setup a project in GitLab
+
+### Create a project
+
+Now let’s create a new project, starting from a really simple example app just to save myself some typing.
+
+> * Create a project under the `tanuki` group.
+> * Import `minimal-ruby-app` from `https://gitlab.com/gitlab-examples/minimal-ruby-app.git` *TODO: [Derive project name from URL if importing project from URL](https://gitlab.com/gitlab-org/gitlab-ce/issues/27341)*
+> * Make it public
+
+### Configure Kubernetes for CI
+
+*TODO: [Automatically configure Kubernetes for project when GitLab is installed in cluster](https://gitlab.com/gitlab-org/gitlab-ce/issues/28888)*
+
+Now I’ve got to tweak the Kubernetes service for this project
+
+> * Go to Settings > Integrations
+> * Scroll to Project Services
+> * Select Kubernetes
+> * Edit Namespace to `minimal-ruby-app-<username>`
 
 Now let's save the settings. And then let's test the settings just to make sure.
 
@@ -213,33 +263,13 @@ Now let's save the settings. And then let's test the settings just to make sure.
 
 ### Set up Mattermost Command
 
-*TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
+*TODO: [
 Allow Mattermost team creation when enabling Mattermost Command](https://gitlab.com/gitlab-org/gitlab-ce/issues/25269)*
 
 While we're here, let's get our project connected to the built-in Mattermost. Mattermost is an open source Slack alternative that comes bundled with GitLab.
 
 > * Select Mattermost Command
 > * Click Add to Mattermost
-
-Immediately, GitLab reaches out to Mattermost and asks me to create a team.
-
-> * Click the `join a team` link
-> * Click GitLab
-
-Let's call the team `tanuki`.
-
-> * Click `create a new team`
-> * Fill in `tanuki`
-> * Press Next
-> * Press Finish
-
-And let's go back to GitLab, and try connecting again.
-
-> * Go back to GitLab
-> * Refresh (or Click Go Back)
-
-Great. The defaults looks pretty good, so let's go with them.
-
 > * Click Install
 
 ### Setup GitLab Auto-Deploy
@@ -257,7 +287,7 @@ Now we’re ready to configure GitLab Auto Deploy. Back to the project, let’s 
 > * Change Target Branch to `master`
 > * Commit
 
-Great, that completes our setup.
+Great, that completes our project setup.
 
 ### [OPTIONAL] Update project permissions
 
@@ -323,8 +353,8 @@ There. Now we can just add the new issue from the backlog into the Doing column,
 
 > * Click `Add issue`
 > * Select the issue (click on the whitespace in the box; not the issue title)
-> * Select `Doing` from the drop-down
 > * Click on `Add 1 issue`
+> * Drag issue from `To Do` to `Doing`
 
 ## Code (Terminal)
 
