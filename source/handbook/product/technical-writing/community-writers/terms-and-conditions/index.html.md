@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
 title: "Community Writers Program - Terms and Conditions"
-twitter_image: '/images/tweets/community-writers-terms-and-conditions.png/'
+twitter_image: '/images/tweets/community-writers-terms-and-conditions.png'
 description: "Terms and Conditions applied to the GitLab Community Writers Program"
 ---
 
