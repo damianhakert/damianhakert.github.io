@@ -89,6 +89,7 @@ Processes for Sales.
 1. Auto Renew -  it is checked by Default; Subscription automatically renew when the initial term for a subscription is over.
 1. Tax Exempt - Need to check with client to make sure they are tax exempt and load tax exempt certificate into their account in SFDC.
 1. Tax Exempt - If tax exempt click yes on drop down menu and add additional notes if needed.
+1. If the Invoice will come from GitLab Ltd or GitLab BV, you are required to enter the VAT/Tax ID field. A validation error will not allow you to save the quote, so if you do not have this information available, just enter "0000" until you recieve it. You will not be able to send a quote to Z-billing if the VAT/Tax ID is "0000".
 1. Special Terms and Notes - Enter any additional notes that is not specified by the above settings.
 1. Click on Next to make the product selection
 1. Product Selector Page
