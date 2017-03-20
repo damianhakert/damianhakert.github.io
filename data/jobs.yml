@@ -141,8 +141,8 @@
 
 - title: "Director of Legal Affairs"
   description: /jobs/director-legal-affairs/
-  apply: https://gitlab.workable.com/jobs/424049/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Director of Sales Operations"
   description: /jobs/director-sales-operations/
