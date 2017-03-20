@@ -3,19 +3,19 @@
   manager_americas:
     - Clement Ho
   manager_apac_emea:
-    - James Edward Jones
+    - Timothy Andrew
   trainees:
     - Mike Greiling
-    - Timothy Andrew
+    - James Edwards-Jones
 - version: "9.2"
   date: May 22nd, 2017
   manager_americas:
-    - Jeanine Adkisson
+    - Regis Boudinot
   manager_apac_emea:
     - Nur Rony
   trainees:
     - Clement Ho
-    - James Edwards Jones
+    - Timothy Andrew
 - version: "9.1"
   date: April 22nd, 2017
   manager_americas:
@@ -32,7 +32,6 @@
   manager_apac_emea:
     - Regis Boudinot
   trainees:
-    - Jeanine Adkisson
     - Timothy Andrew
     - Jen-Shin Lin
 - version: "8.17"
