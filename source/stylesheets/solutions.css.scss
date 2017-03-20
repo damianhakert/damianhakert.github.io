@@ -75,6 +75,21 @@
   }
 }
 
+.mix-color {
+  h3 {
+    span {
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+.icon-purple {
+  .feature-icon {
+    fill: $color-primary;
+  }
+}
+
 // cycle-analytics
 
 .cycle-analytics-container {

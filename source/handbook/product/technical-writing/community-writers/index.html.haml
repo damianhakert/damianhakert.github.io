@@ -25,20 +25,20 @@ extra_js:
   .container
     %h2.page-headline.orange-title
       What are we looking for?
-    .feature-item.col-md-10.col-md-push-1
+    .feature-item.col-md-10.col-md-push-1.icon-purple
       = icon("cycle-analytics/icon-benefit-2-1", "feature-icon", { label: "Creative Writers" })
       %h3
         Creative Writers
       %p
         Did you search GitLab resources for a guide or a tutorial and didn't find it? Would you love to see us expanding our range of guides and tutorials and advice about creating, collaborating, and deploying with
         Git and GitLab? We need your help.
-    .feature-item.col-md-10.col-md-push-1
+    .feature-item.col-md-10.col-md-push-1.icon-purple
       = icon("issue-boards/icon-benefit-2", "feature-icon", { label: "Comprehensive Approach" })
       %h3
         Comprehensive Approach
       %p
         Are you keen to make your content comprehensive to everyone else? Do you love teaching others? Do you have experience writing technical content? Are you an experienced blogger? We are looking for you.
-    .feature-item.col-md-10.col-md-push-1
+    .feature-item.col-md-10.col-md-push-1.icon-purple
       = icon("issue-boards/icon-benefit-1", "feature-icon", { label: "Rock Solid Content" })
       %h3
         Rock Solid Content
@@ -68,9 +68,11 @@ extra_js:
             %span.step-number.text-center
               [ step 01 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                You Choose a Subject
+                %span
+                  You
+                Choose a Subject
               .lead.text-center.step-lead-text
                 :markdown
                   Pick up an [existing issue](https://gitlab.com/gl-docsteam/technical-articles/issues) or create a new one
@@ -89,9 +91,11 @@ extra_js:
             %span.step-number.text-center
               [ step 02 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                We Pre-Assess
+                %span
+                  We
+                Pre-Assess
               .lead.text-center.step-lead-text
                 :markdown
                   Pre-evaluation of your writing style
@@ -117,9 +121,11 @@ extra_js:
             %span.step-number.text-center
               [ step 03 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                You Draft
+                %span
+                  You
+                Draft
               .lead.text-center.step-lead-text
                 :markdown
                   It's time to write your article and send us your first draft
@@ -141,9 +147,11 @@ extra_js:
             %span.step-number.text-center
               [ step 04 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                We Evaluate
+                %span
+                  We
+                Evaluate
               .lead.text-center.step-lead-text
                 :markdown
                   Your first draft will be evaluated
@@ -153,7 +161,7 @@ extra_js:
                   :markdown
                     Your content will be evaluated by our technical writers. We will communicate if you content was approved to proceed or not. If approved, you'll receive feedback on your content.
 
-                    The evaluation is based on particular [criteria](#LINK), defined by the [terms and conditions](terms-and-conditions/).
+                    The evaluation is based on particular [criteria](terms-and-conditions/#evaluation-criteria), defined by the [terms and conditions](terms-and-conditions/).
       %hr
       #step-5.step.js-step
         .container
@@ -162,9 +170,11 @@ extra_js:
             %span.step-number.text-center
               [ step 05 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                We Review
+                %span
+                  We
+                Review
               .lead.text-center.step-lead-text.step-lead-text-last
                 :markdown
                   We will review your content in order to improve it
@@ -172,9 +182,9 @@ extra_js:
                 .col-md-2
                 .col-md-8.step-content
                   :markdown
-                    As your content will be published by GitLab, it **represents GitLab**. Therefore, we will ask you to adjust it according to our **quality assurance** standards. The review process is required.
+                    As your content will be published by GitLab, it **represents GitLab**. Therefore, we will ask you to adjust it according to our **quality assurance** standards. We may ask you to do a grammar check, content flow and structure adjustments, and improvements specific to your article.
 
-                    We hope that your content is so awesome that the review will be simple and quick!
+                    Hopefully, your content will be so awesome that the review will be simple and quick!
       %hr
       #step-6.step.js-step
         .container
@@ -183,9 +193,11 @@ extra_js:
             %span.step-number.text-center
               [ step 06 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                You Submit a Merge Request
+                %span
+                  You
+                Submit a Merge Request
               .lead.text-center.step-lead-text
                 :markdown
                   Submit a Merge Request
@@ -195,7 +207,7 @@ extra_js:
                   :markdown
                     Once the review is mostly done, we will ask you to submit a merge request to [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) with your document in place and ready to be merged. 
 
-                    The technical writing team might ask you for adjustments, and, once accomplished, it will be merged.
+                    The technical writing team might ask you for further adjustments, and, once accomplished, it will be merged.
 
                     It will be published in the [GitLab Documentation](https://docs.gitlab.com), as a [Technical Article](https://docs.gitlab.com/ce/development/writing_documentation.html#technical-articles).
 
@@ -205,11 +217,16 @@ extra_js:
           .step-icon-container
             = icon("home/icon-step-9", "step-icon step-icon-3", { label: "Publish" })
             %span.step-number.text-center
-              [ step 06 ]
+              [ step 07 ]
           .row
-            .col-md-10.col-md-push-1.step-content-holder
+            .col-md-10.col-md-push-1.step-content-holder.mix-color
               %h3.step-title.text-center
-                We Publish
+                %span
+                  We
+                Publish,
+                %span
+                  You
+                Get Paid
               .lead.text-center.step-lead-text
                 :markdown
                   Get published, get compensated!
