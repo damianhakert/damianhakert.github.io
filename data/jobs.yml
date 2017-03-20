@@ -166,8 +166,8 @@
 - title: "Frontend Lead"
   description: /jobs/frontend-lead/
   salary: 83132
-  apply: https://gitlab.workable.com/jobs/409394/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Growth Product Manager"
   description: /jobs/growth-product-manager/
