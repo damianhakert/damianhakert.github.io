@@ -211,16 +211,6 @@ Now let's save the settings. And then let's test the settings just to make sure.
 > * Click Test Settings
 > * Click Cancel to return to integrations list
 
-### Set up Prometheus monitoring
-
-*TODO: Automatically add Prometheus service*
-
-And then configure Prometheus for monitoring of our projects.
-
-> * Select Prometheus
-> * Select `Active`
-> * In API URL, type `prometheus.make-sid-dance.com`
-
 ### Set up Mattermost Command
 
 *TODOS: [Improve Omnibus-Mattermost Command installation flow](https://gitlab.com/gitlab-org/gitlab-ce/issues/23964), [
