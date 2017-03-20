@@ -349,7 +349,7 @@ release.
 | `CI_BUILD_MANUAL` | `CI_JOB_MANUAL` |
 | `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
 
-The old variables will still work, but will be deprecated soon.
+The old variables continue to work, however are deprecated and will be removed soon.
 
 > [Read more about the CI variables in our documentation](https://docs.gitlab.com/ce/ci/variables/)
 
