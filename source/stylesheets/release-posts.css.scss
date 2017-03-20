@@ -40,7 +40,7 @@ $badge-color-eep: #0976bc;
     }
 
     .overlay {
-      background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 1));
+      background: linear-gradient(to bottom, transparent, rgba($color-white, 1));
     }
 
     .header {
