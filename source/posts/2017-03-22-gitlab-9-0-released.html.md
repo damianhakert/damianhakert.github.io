@@ -18,7 +18,7 @@ extra_js:
 {::options parse_block_html="true" /}
 <section class="release-post-section">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [signficant advances to GitLab during this period](/release-list/), shipping a version every single month on the 22nd. Let's quickly recap how far we've come since 8.0, and see those features dovetailing into today's 9.0 release. Or [jump ahead](#subgroups) to 9.0 features.
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [significant advances to GitLab during this period](/release-list/), shipping a version every single month on the 22nd. Let's quickly recap how far we've come since 8.0, and see those features dovetailing into today's 9.0 release. Or [jump ahead](#subgroups) to 9.0 features.
 
 <!-- more -->
 
@@ -75,7 +75,7 @@ Jacopo made it possible to [undo marking a todo item as done in the todos list](
 
 ## Subgroups ce ee
 
-GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchal team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups".
+GitLab has always been the simplest way for people to collaborate on code in a project. Just create a project, and you're on your way from idea to production. Users have _also_ told us that they want GitLab to be a team-based collaboration tool that supports hierarchical team structures sharing different code repositories. With 9.0, we are excited to ship our brand new version of GitLab groups that allows for groups within groups, i.e. "subgroups".
 
 You can create 20 levels down of groups. Each group at each level is itself as a first-class citizen GitLab group, with the ability to have multiple projects. The new version of groups thus enables you to have a hierarchy of code repositories.
 
@@ -83,9 +83,9 @@ In this example, the organization represented by the `gitlab-nested` group has a
 
 ![Subgroups](/images/9_0/gitlab-nested.png){: .shadow}
 
-Feel free to look at and provide feedback on what we are working on for [groups in future releases of GitLab]((https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=nested+groups)).
+Feel free to look at and provide feedback on what we are working on for [groups in future releases of GitLab]((https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=subgroups)).
 
-[Documentation link](https://docs.gitlab.com/ce/user/group/subgroups/)
+> [Learn more about subgroups in our docs](https://docs.gitlab.com/ce/user/group/subgroups/)
 
 
 ## Deploy Boards eep
@@ -111,7 +111,7 @@ GitLab already enables you to filter, search, and navigate through the many issu
 
 We designed and integrated the feature directly into the project issue list view. This allows you to leverage the existing powerful filter and search capability so that you can export exactly just the issues you care about. The actual processing and email sending happens asynchronously in the background once you confirm the action, so that it gets out of your way and you can continue to use GitLab as normal.
 
-[Documentation link](https://docs.gitlab.com/ee/user/project/issues/csv_export.html)
+> [Learn more about exporting issues in CSV in our docs](https://docs.gitlab.com/ee/user/project/issues/csv_export.html)
 
 
 ## Environment Monitoring ce ee
@@ -124,7 +124,7 @@ In this initial release we are tracking CPU and Memory utilization of your CI/CD
 
 Participate in the discussion and future of performance monitoring with GitLab [here](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&utf8=✓&state=opened&label_name[]=Prometheus&label_name[]=feature%20proposal).
 
-[Documentation link](https://docs.gitlab.com/ce/user/project/integrations/prometheus.html)
+> [Learn more about the Prometheus project integration in our docs](https://docs.gitlab.com/ce/user/project/integrations/prometheus.html)
 
 ![FEATURE_IMAGE](/images/9_0/prometheus.png){: .shadow}
 
@@ -169,8 +169,7 @@ production-ready like before.
 If you upgrade your installations to GitLab 9.0, these changes will be
 automatically applied to your Geo installation and require no manual setup. If
 you are an existing Geo user, you have nothing to do to access these new
-features. If you are new to Geo, follow [the documentation](https://docs.gitlab.com/ee/gitlab-geo/README.html#gitlab-geo)
-to install Geo.
+features. If you are new to Geo, follow [the documentation to install Geo](https://docs.gitlab.com/ee/gitlab-geo/).
 
 [Documentation link](link)
 
@@ -180,7 +179,7 @@ customers as part of GitLab Geo.
 
 ## Performance Improvements ce ee
 
-As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Most notably searching with Elasticsearch as well as dealing with the issues and merge request dashboards.
+As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Elasticsearch (ES) gets an upgrade in GitLab EE 9.0, with support for ES 5.1 and a host of smaller fixes. In accordance with our "cloud native" philosophy, we've added support for [AWS-hosted](https://aws.amazon.com/elasticsearch-service/) and HTTPS Elasticsearch clusters. Larger GitLab EE installations will benefit from improvements in the initial indexing process, and minor performance improvements have been made to repository indexing.
 
 The improvements to the dashboards were focused on [more efficient searching by author or assignee](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9030), and [removing unnecessary queries](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9006). As the most common use for the dashboard is to view issues or merge requests assigned to you, this should be noticeable for most users. On GitLab.com, we saw transaction timings drop significantly for issues:
 
@@ -194,6 +193,55 @@ And merge requests:
 
 Did you know, [GitLab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
+
+## Database Load Balancing ee
+
+Load balancing of database queries allows one to spread the load and impact of
+queries across multiple database servers. Traditionally this involves additional
+software such as [pgpool](http://www.pgpool.net/). Starting with 9.0, GitLab
+Enterprise Edition supports load balancing of queries when using PostgreSQL.
+
+Load balancing queries can bring many benefits, such as reducing the load and
+memory usage of the primary, and reducing response timings. Spreading the load
+also means that badly behaving database queries will not impact queries
+executing on a different database server, reducing the likelihood of such
+queries negatively affecting a GitLab installation.
+
+GitLab's load balancer also responds to database failovers. When a primary is
+unresponsive or was changed to a secondary, the load balancer will wait a brief
+moment before retrying an operation. When secondaries become unavailable, they
+are ignored until they become available again. For this to work in the most
+transparent way you will need to use a load balancer (e.g. HAProxy) for every
+database host.
+
+One problem of load balancing is dealing with replication lag. For example, if a
+write happens and you then read from a secondary it's possible for said
+secondary to not yet have the data. One way of dealing with this is to use
+synchronous replication. However, synchronous replication is not ideal as
+replication lag could cause queries to take a very long time. Furthermore, if a
+replica were to become unavailable the whole system can grind to a halt.
+
+To work around this the database load balancer uses "sticky sessions". When a
+user triggers a write to the primary the user's session will keep using the
+primary. Session sticking is disabled again once a timeout expires (30 seconds),
+or when the written data is available on all secondaries.
+
+For more information on how to set up database load balancing you can refer to
+the documentation section ["Database Load Balancing"](http://docs.gitlab.com/ee/administration/database_load_balancing.html).
+
+</section>
+
+<section class="right">
+
+![Load Balancing Load](/images/9_0/load_balancing_load.png){: .shadow}
+
+![Load Balancing Memory Usage](/images/9_0/load_balancing_memory_usage.png){: .shadow}
+
+![Load Balancing Timing Improvements](/images/9_0/load_balancing_timing_improvements.png){: .shadow}
+
+</section>
+
+<section class="left">
 
 ## Updated Navigation ce ee
 
@@ -213,24 +261,31 @@ We also brought back the ability the create a new project quickly, by simply cli
 
 ## Reorder Issues in Board List ce ee
 
-[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intutitive and existing drag and drop mechanism. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+[Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intuitive and existing drag and drop mechanism.
+
+> [Learn more about Issue Boards in our docs](https://docs.gitlab.com/ce/user/project/issue_board.html).
 
 ## Boards with Milestones ees
 
 A GitLab Issue Board enables you to manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
 
-As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently straddle between milestones, while also allowing you to save and look back at previous completed milestones. Learn more in the [documentation](https://docs.gitlab.com/ce/user/project/issue_board.html).
+As you plan and execute work in each new milestone, we suggest you keep creating new boards. This allows you to conveniently straddle between milestones, while also allowing you to save and look back at previous completed milestones.
+
+> [Learn more about Issue Boards in our docs](https://docs.gitlab.com/ee/user/project/issue_board.html).
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
 
-## API V4
+## API v4
 
 Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
 
-This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing V4 of our API, which aims to make the API more consistent and more RESTful. [Take a look](https://docs.gitlab.com/ee/api/v3_to_v4.html) at the changes in V4 to see what's different.
+This constant iteration has resulted in a few inconsistencies in our existing API. Today we are announcing v4 of our API, which aims to make the API more consistent and more RESTful.
 
-We will continue to support V3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the V3 API.
+We will continue to support v3 of the API until August 2017 and so we encourage you to make any necessary changes to applications that use the v3 API.
+
+> [Take a look at the changes in v4 to see what's different.](https://docs.gitlab.com/ee/api/v3_to_v4.html)
+
 </section>
 
 ## Other Improvements in GitLab 9.0
@@ -240,7 +295,9 @@ We will continue to support V3 of the API until August 2017 and so we encourage 
 
 Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being able to add emojis faster 🚀. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
 
-![](/images/9_0/native_unicode_emojis.gif){: .shadow}
+> [Learn more about award emojis in our docs](https://docs.gitlab.com/ce/user/award_emojis.html)
+
+![Native unicode emojis](/images/9_0/native_unicode_emojis.gif){: .shadow}
 
 ### GitLab CI
 
@@ -262,7 +319,9 @@ release.
 | `CI_BUILD_MANUAL` | `CI_JOB_MANUAL` |
 | `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
 
-The old variables will still work, but will be deprecated soon.
+The old variables continue to work, however are deprecated and will be removed soon.
+
+> [Read more about the CI variables in our documentation](https://docs.gitlab.com/ce/ci/variables/)
 
 ### Gitaly
 
@@ -303,16 +362,31 @@ to `Raspbian` distribution.
 
 Going forward, we will only release Raspberry Pi 2 packages under `Raspbian` distribution.
 Further more, as [announced in 8.17 release post](/2017/02/22/gitlab-8-17-released/#raspbian-wheezy-package),
-we will provide only Jessie packages for Rasperry Pi 2.
+we will provide only Jessie packages for Raspberry Pi 2.
 
 If you did any manual changes to the apt repository as a workaround, you will need to change the distribution.
 You can do this by running:
 
-`sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list`
+```
+sed -i 's/debian/raspbian/g' /etc/apt/sources.list.d/gitlab_raspberry-pi2.list
+```
 
 #### Monitoring GitLab with Prometheus
 
-With the release of GitLab 9.0, Prometheus and its associated exporters are now on by default. It is now easier than ever to ensure your GitLab service is healthy and responsive, with over 100 metrics available for monitoring. If you would like to disable Prometheus and all of it's related services, simply set `prometheus_monitoring['enable'] = false`. More information is available in our [Monitoring documentation](https://docs.gitlab.com/ce/doc/administration/monitoring/prometheus/index.html).
+With the release of GitLab 9.0, Prometheus and its associated exporters are now on by default. It is now easier than ever to ensure your GitLab service is healthy and responsive, with over 100 metrics available for monitoring. If you would like to disable Prometheus and all of it's related services, simply set:
+
+```
+prometheus_monitoring['enable'] = false`
+```
+
+> [Read more on monitoring with Prometheus docs](https://docs.gitlab.com/ce/doc/administration/monitoring/prometheus/)
+
+### More control over HTTP Strict Transport Security
+
+Now you fine tune your Strict Transport Security enforcement just by changing settings in your Omnibus GitLab config.
+Use HTTP Strict Transport Security to provide your installation with even better protection against MITM attacks.
+
+> [Learn more about HSTS in Omnibus in our docs](https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security)
 
 
 ### Group search and filtering ce ee
@@ -334,6 +408,8 @@ But for a project with an empty repository, GitLab, prior to 9.0, stubbornly sen
 With 9.0, when you do click the `New branch` in an empty repository project, GitLab automatically creates the master branch, commits a blank `README.md` file to it, and creates and redirects you to a new branch based on the issue title.
 If your [project is already configured with a deployment service][project-services-doc] (e.g. Kubernetes), GitLab takes one step further and prompts you to set up [auto deploy][auto-deploy-doc] by helping you create a `.gitlab-ci.yml` file.
 
+> [Read more about creating new branches from issues in our docs](https://docs.gitlab.com/ce/user/project/repository/web_editor.html#create-a-new-branch-from-an-issue)
+
 [project-services-doc]: https://docs.gitlab.com/ce/user/project/integrations/project_services.html
 [auto-deploy-doc]: https://docs.gitlab.com/ce/ci/autodeploy/index.html
 
@@ -347,7 +423,9 @@ The merge request plays a crucial role in code collaboration and deployment. In 
 
 ### Impersonation Tokens
 
-Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via oAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled. This process will also alleviate any issues caused by users inadvertently invalidating tokens in use for other applications.
+Alongside the new API, we've also added [Impersonation tokens](https://gitlab.com/gitlab-org/gitlab-ce/issues/25367). If you've ever built a bot or a piece of functionality with our API, you'll often have to retrieve a token via OAuth. This can sometimes be undesirable and cumbersome to have to go through a UI flow in order to retrieve this token. Administrators of a GitLab instance can now retrieve an impersonation token on behalf of a user to make this process a lot easier and centrally controlled. This process will also alleviate any issues caused by users inadvertently invalidating tokens in use for other applications.
+
+> [Read more about impersonation tokens in our API docs](https://docs.gitlab.com/ce/api/index.html#impersonation-tokens)
 
 ### Create Mattermost Team when Creating GitLab Group ce ee
 
@@ -355,19 +433,43 @@ Sometimes chatting with your workgroup is the best way to get an idea rolling. T
 
 ![Create GitLab Group Create Mattermost Team](/images/9_0/group-creation-mm.png){: .shadow}
 
-### More control over HTTP Strict Transport Security settings
+### Blocking manual actions in pipelines
 
-Now you fine tune your Strict Transport Security enforcement just by changing settings in your Omnibus GitLab config.
-[Learn more][hsts-settings-doc] how you can use HTTP Strict Transport Security to provide your installation with even better protection against MITM attacks.
+[Manual actions](https://docs.gitlab.com/ce/ci/yaml/README.html#manual-actions) can now be configured to block pipelines until they are completed. Pipelines blocked by manual actions have a status of `manual`, and can be enabled by setting `allow_failure` to `true`.
 
-[hsts-settings-doc]: https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security
+### Pipeline triggers with User permissions
 
+<<<<<<< HEAD
+=======
+A new [Pipeline Trigger API](https://docs.gitlab.com/ce/api/pipeline_triggers.html) and UI is now available, which utilize the user level permissions of their creator. This enables the token to be used not just for the current project, but also all dependent projects as well. The Build Trigger API remains functional however is deprecated and will be removed soon.
+
+### CI default `cache` key is now `default`
+
+The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-key) value is now `default`, allowing the cache to be shared between all pipelines and jobs within the project, increasing CI/CD efficiency and speed.
+
+### GitLab Pages artifacts cleaned after deployment
+
+In order more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
+
+</section>
+<!-- END OF OTHER FEATURES RIGHT BLOCK -->
+
+
+<!-- OTHER FEATURES CHANGELOG BLOCK -->
+<section class="middle">
 
 ## Changelog
 
 Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) to see all the named changes.
 {: .text-align-center}
 
+</section>
+<!-- END OF OTHER FEATURES CHANGELOG BLOCK -->
+
+
+<!-- UPGRADE BAROMETER BLOCK -->
+<div class="upgrade-install">
+<section class="left vertical-align-top">
 
 ### Upgrade barometer
 
@@ -381,8 +483,12 @@ The specific migrations requiring downtime are described below.
 
 GitLab 9.0 introduces a [new version of our API](#api-v4). While existing calls
 to API v3 will continue to work until August 2017, we advise you to make any
-necessary changes to applications that use the V3 API. [Read the documentation](https://docs.gitlab.com/ee/api/v3_to_v4.html)
+necessary changes to applications that use the v3 API. [Read the documentation](https://docs.gitlab.com/ee/api/v3_to_v4.html)
 to learn more.
+
+#### GitLab Runner Deprecation
+
+Please note that GitLab Runners prior to 9.0 rely on API v3, and therefore deprecated along with the v3 API. Runners 9.0 and above utilize the new v4 API.
 
 #### Note
 
