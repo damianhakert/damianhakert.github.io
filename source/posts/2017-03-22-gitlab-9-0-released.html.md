@@ -18,7 +18,7 @@ extra_js:
 {::options parse_block_html="true" /}
 <section class="release-post-section">
 
-Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [significant advances to GitLab during this period](/release-list/), shipping a version every single month on the 22nd. Let's quickly recap how far we've come since 8.0, and see those features dovetailing into today's 9.0 release. Or [jump ahead](#subgroups) to 9.0 features.
+Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/gitlab-8-0-released/). We've made [significant advances to GitLab during this period](/release-list/), shipping a version every single month on the 22nd. Let's quickly recap how far we've come since 8.0, and see those features dovetailing into today's 9.0 release. Or [jump ahead](#subgroups-ce-ee) to 9.0 features.
 
 <!-- more -->
 
@@ -63,7 +63,8 @@ GitLab is now the only platform that connects every step of your software develo
 
 </section>
 
-<section class="release-post-section mvp">
+<section class="mvp gray-section">
+<div class="release-post-section">
 
 ![mvp-badge](/images/mvp_badge.png)
 
@@ -71,7 +72,10 @@ GitLab is now the only platform that connects every step of your software develo
 
 Jacopo made it possible to [undo marking a todo item as done in the todos list](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/8691). This is a huge productivity enhancement that helps you recover from mistakes in managing todos. Thanks Jacopo!
 
+</div>
 </section>
+
+<section class="release-post-section">
 
 ## Subgroups ce ee
 
@@ -87,7 +91,10 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 
 > [Learn more about subgroups in our docs](https://docs.gitlab.com/ce/user/group/subgroups/)
 
+</section>
 
+<section class="release-row">
+<div class="column">
 ## Deploy Boards eep
 
 GitLab has an incredibly powerful CI/CD system, with over a thousand runners executing pipelines for GitLab.com projects alone. These pipelines perform builds to compile and package software, run automated tests, spawn review apps, and can even deploy software to staging and production. To date, these deployments would report back whether the environment was successfully updated, but what if you wanted more fidelity? Or a single pane to view all deployments across all environments? For larger organizations, the answers to these questions become particularly important.
@@ -97,14 +104,16 @@ Today with 9.0, we are excited to release Deploy Boards for environments running
 To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers.
 
 [Documentation link](link)
+</div>
 
-
+<div class="column">
 ![FEATURE_IMAGE](/images/9_0/deploy_boards.png){: .shadow}
+</div>
 
+</section>
 
-![Export Issues](/images/9_0/export_issues.png){: .shadow}
-
-
+<section class="release-row image-left">
+<div class="column text-column">
 ## Export Issues ees
 
 GitLab already enables you to filter, search, and navigate through the many issues you use daily. But users say they want a snapshot of issues for offline analysis or to communicate with other teams who may not be in GitLab just yet. With 9.0 EES, GitLab will email a CSV export of issues to the system administrator if you click the download button at the top right in the issue list view.
@@ -112,8 +121,16 @@ GitLab already enables you to filter, search, and navigate through the many issu
 We designed and integrated the feature directly into the project issue list view. This allows you to leverage the existing powerful filter and search capability so that you can export exactly just the issues you care about. The actual processing and email sending happens asynchronously in the background once you confirm the action, so that it gets out of your way and you can continue to use GitLab as normal.
 
 > [Learn more about exporting issues in CSV in our docs](https://docs.gitlab.com/ee/user/project/issues/csv_export.html)
+</div>
 
+<div class="column image-column">
+![Export Issues](/images/9_0/export_issues.png){: .shadow}
+</div>
 
+</section>
+
+<section class="release-row">
+<div class="column">
 ## Environment Monitoring ce ee
 
 A robust monitoring infrastructure is crucial to operating a successful application.  It ensures your app is responsive, provides valuable insight into the impact of changes, and enables quick debugging when problems occur. However setting this infrastructure up is often a lower priority, in particular for non-production environments, and it is often not integrated with the rest of your toolchain.
@@ -125,9 +142,14 @@ In this initial release we are tracking CPU and Memory utilization of your CI/CD
 Participate in the discussion and future of performance monitoring with GitLab [here](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&utf8=✓&state=opened&label_name[]=Prometheus&label_name[]=feature%20proposal).
 
 > [Learn more about the Prometheus project integration in our docs](https://docs.gitlab.com/ce/user/project/integrations/prometheus.html)
+</div>
 
+<div class="column">
 ![FEATURE_IMAGE](/images/9_0/prometheus.png){: .shadow}
+</div>
+</section>
 
+<section class="release-post-section">
 ## Disaster Recovery Alpha eep
 
 Regardless of the size of your company, you need to make sure that your
@@ -176,7 +198,9 @@ features. If you are new to Geo, follow [the documentation to install Geo](https
 Disaster Recovery in Alpha is available to all Enterprise Edition Premium
 customers as part of GitLab Geo.
 
+</section>
 
+<section class="release-post-section">
 ## Performance Improvements ce ee
 
 As with every release, we've worked hard to make GitLab faster. With 9.0 in particular, we've put a particular focus on noticeable performance improvements across the board. Elasticsearch (ES) gets an upgrade in GitLab EE 9.0, with support for ES 5.1 and a host of smaller fixes. In accordance with our "cloud native" philosophy, we've added support for [AWS-hosted](https://aws.amazon.com/elasticsearch-service/) and HTTPS Elasticsearch clusters. Larger GitLab EE installations will benefit from improvements in the initial indexing process, and minor performance improvements have been made to repository indexing.
@@ -193,7 +217,10 @@ And merge requests:
 
 Did you know, [GitLab.com](https://gitlab.com) is "merely" a massive-scale implementation of GitLab EE with hundreds of thousands of users? This just shows the level of scale that you can run GitLab EE and these performance improvements should start making a noticeable difference to the speed and reliability of GitLab.com.
 
+</section>
 
+<section class="release-row">
+<div class="column">
 ## Database Load Balancing ee
 
 Load balancing of database queries allows one to spread the load and impact of
@@ -228,20 +255,18 @@ or when the written data is available on all secondaries.
 
 For more information on how to set up database load balancing you can refer to
 the documentation section ["Database Load Balancing"](http://docs.gitlab.com/ee/administration/database_load_balancing.html).
+</div>
 
-</section>
-
-<section class="right">
-
+<div class="column">
 ![Load Balancing Load](/images/9_0/load_balancing_load.png){: .shadow}
 
 ![Load Balancing Memory Usage](/images/9_0/load_balancing_memory_usage.png){: .shadow}
 
 ![Load Balancing Timing Improvements](/images/9_0/load_balancing_timing_improvements.png){: .shadow}
-
+</div>
 </section>
 
-<section class="left">
+<section class="release-post-section">
 
 ## Updated Navigation ce ee
 
@@ -257,14 +282,24 @@ We also brought back the ability the create a new project quickly, by simply cli
 
 ![Navigation](/images/9_0/navigation.png){: .shadow}
 
-![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+</section>
+
+<section class="release-row">
+<div class="column">
 
 ## Reorder Issues in Board List ce ee
 
 [Issue Boards](/solutions/issueboard/) are a great way to manage issues moving through the different stages ("lists" in GitLab), in order to quickly get an idea to production. But users often want to further represent order or priority of issues within a single list. With 9.0, you can now reorder issues within an issue board list, using the intuitive and existing drag and drop mechanism.
 
 > [Learn more about Issue Boards in our docs](https://docs.gitlab.com/ce/user/project/issue_board.html).
+</div>
 
+<div class="column">
+![Boards Reorder](/images/9_0/boards_reorder.gif){: .shadow}
+</div>
+</section>
+
+<section class="release-post-section">
 ## Boards with Milestones ees
 
 A GitLab Issue Board enables you to manage a group of issues within a single milestone, but requires you to select the associated milestone filter each time you navigate to it. With GitLab 9.0 EES, you can now create an Issue Board that is associated to a specific milestone. This allows you to create unique boards for individual milestones.
@@ -275,7 +310,9 @@ As you plan and execute work in each new milestone, we suggest you keep creating
 
 ![Boards Milestone](/images/9_0/boards_milestone.gif){: .shadow}
 
+</section>
 
+<section class="release-post-section">
 ## API v4
 
 Our [API](https://docs.gitlab.com/ee/api/) is a great way to automate tasks, control and automate GitLab in new and powerful ways. Over time, we have continued to improve our API to make it more complete and support the new features we add every month to make GitLab the best end-to-end development environment.
@@ -288,9 +325,9 @@ We will continue to support v3 of the API until August 2017 and so we encourage 
 
 </section>
 
+<section class="release-row other-improvements">
 ## Other Improvements in GitLab 9.0
-
-
+<div class="column">
 ### Native Unicode Emoji 🔥 ce ee
 
 Unicode emojis allow for a more consistent feel with the rest of your OS and equates to you being able to add emojis faster 🚀. We were able to get rid some of the hefty images and JSON payloads and generate the awards emoji menu immediately instead of having a loading spinner to wait for an async response. 👯 ✨ 🏋 👌
@@ -388,12 +425,15 @@ Use HTTP Strict Transport Security to provide your installation with even better
 
 > [Learn more about HSTS in Omnibus in our docs](https://docs.gitlab.com/omnibus/settings/nginx.html#setting-http-strict-transport-security)
 
-
 ### Group search and filtering ce ee
 
 With our new version of groups in 9.0, we anticipate you'll create much more of them. So we've made it possible to filter and search groups in the list view, and also allow you to sort by when they were created or updated.
 
 ![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
+
+</div>
+
+<div class="column">
 
 ### Tokenized Filter and Search in Issues and Merge Requests ce ee
 
@@ -439,8 +479,6 @@ Sometimes chatting with your workgroup is the best way to get an idea rolling. T
 
 ### Pipeline triggers with User permissions
 
-<<<<<<< HEAD
-=======
 A new [Pipeline Trigger API](https://docs.gitlab.com/ce/api/pipeline_triggers.html) and UI is now available, which utilize the user level permissions of their creator. This enables the token to be used not just for the current project, but also all dependent projects as well. The Build Trigger API remains functional however is deprecated and will be removed soon.
 
 ### CI default `cache` key is now `default`
@@ -450,13 +488,14 @@ The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-k
 ### GitLab Pages artifacts cleaned after deployment
 
 In order more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
+</div>
 
 </section>
 <!-- END OF OTHER FEATURES RIGHT BLOCK -->
 
 
 <!-- OTHER FEATURES CHANGELOG BLOCK -->
-<section class="middle">
+<section class="text-center changelog">
 
 ## Changelog
 
@@ -468,8 +507,9 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 
 
 <!-- UPGRADE BAROMETER BLOCK -->
-<div class="upgrade-install">
-<section class="left vertical-align-top">
+<section class="gray-section">
+<div class="release-row">
+<div class="column">
 
 ### Upgrade barometer
 
@@ -507,8 +547,9 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 If you're GitLab EE user, please be aware that in 9.0 release we bumped the required version of Elasticsearch from 2.4.x to 5.1.x.
 Please update it following the official [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.1/setup-upgrade.html).
 Indexes created by Elasticsearch 2.4.x can be read by Elasticsearch 5.1.x.
+</div>
 
-
+<div class="column">
 ### Installing and Updating
 
 If you are setting up a new GitLab installation please see the
@@ -528,6 +569,11 @@ We offer four different [products](/products/) for you and your company:
 
 <!-- - {: #gitlab-hosted} **[GitLab Hosted](/gitlab-hosted/)**: Ideal for teams who want their own private and secure GitLab instance without having to worry about installation, hosting, or upgrades. -->
 
+</div>
+</div>
+</section>
 
+<section class="release-row">
 [Cover image](https://www.pexels.com/photo/landscape-nature-mountain-lake-37650/) licensed under [CC0](https://www.pexels.com/photo-license/).
 {:.note .text-right}
+</section>

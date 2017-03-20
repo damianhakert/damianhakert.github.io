@@ -17,8 +17,6 @@ $(function() {
       words: ['ce', 'ee', 'ees' , 'eep']
     });
 
-    $(el).children().wrapAll( "<div class='badge-container' />").first().after( " ");
-
     // Anchors
     var $el, icon, id;
     $el = $(el);
