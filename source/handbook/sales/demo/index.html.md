@@ -445,7 +445,7 @@ There we go! We've got our new text in it; all the way from idea to production!
 
 ## Feedback (Cycle Analytics)
 
-But remember the goal of continuous delivery is not just about automating your deployments, it’s also about identifying bottlenecks in your deployment process and streamlining those over time. To help you spot bottlenecks in your development process, GitLab has a built-in dashboard that tracks your cycle time. 
+To help you spot bottlenecks in your development process, GitLab has a built-in dashboard that tracks how long it takes the team to move from idea to production. 
 
 > * Click Cycle Analytics
 
