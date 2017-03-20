@@ -29,6 +29,11 @@ Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/g
 
 In [8.0](/2015/09/22/gitlab-8-0-released/), we refreshed GitLab's look and feel, modernizing almost every UI element and significantly improving usability. (We had even updated our logo a few months prior.) Since then, we have continued to invest in design, ramping up our [UX design and research team](https://about.gitlab.com/team/), who are dedicated to improving usability and solving major pain points, everything from small CSS tweaks, to major UX flows. In each 8.x release we have iteratively evolved the design. And with GitLab 9.0, we made huge strides in [simplifying our global, group, and project navigation](#updated-navigation), a crucial enhancement as GitLab's feature set becomes increasingly powerful.
 
+In an effort to continue improving our UX, we now have a [research panel](/researchpanel) where you can help shape the future of GitLab! By joining our panel, you'll be the first to see new features and your thoughts will drive product improvements!
+
+[Join our research panel](/researchpanel){:.btn .btn-lg .btn-red .webcast-button}
+{: .text-align-center}
+
 ### Collaboration on Digital Work
 
 GitLab helps you collaborate on digital work. We made many enhancements to issues, a core part of collaboration in GitLab. This includes weights ([8.3](/2015/12/22/gitlab-8-3-released/#issue-weight-ee-only)), linking to merge requests ([8.3](/2015/12/22/gitlab-8-3-released/#merge-request-references-in-issues)), moving an issue to another project ([8.6](/2016/03/22/gitlab-8-6-released/#move-issues-to-other-projects)), and a powerful filter/search interface ([8.16](/2017/01/22/gitlab-8-16-released/#new-issues-search-and-filter-interface)). We also released issue boards ([8.11](/2016/08/22/gitlab-8-11-released/#issue-board)), providing a simple mechanism for issue workflow management using stages ("lists", in GitLab parlance). GitLab 9.0 continues to enhance boards further, [by improving its integration with milestones](#boards-with-milestones).
