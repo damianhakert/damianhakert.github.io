@@ -253,6 +253,55 @@ Did you know, [GitLab.com](https://gitlab.com) is "merely" a massive-scale imple
 
 <section class="left">
 
+## Database Load Balancing ee
+
+Load balancing of database queries allows one to spread the load and impact of
+queries across multiple database servers. Traditionally this involves additional
+software such as [pgpool](http://www.pgpool.net/). Starting with 9.0, GitLab
+Enterprise Edition supports load balancing of queries when using PostgreSQL.
+
+Load balancing queries can bring many benefits, such as reducing the load and
+memory usage of the primary, and reducing response timings. Spreading the load
+also means that badly behaving database queries will not impact queries
+executing on a different database server, reducing the likelihood of such
+queries negatively affecting a GitLab installation.
+
+GitLab's load balancer also responds to database failovers. When a primary is
+unresponsive or was changed to a secondary, the load balancer will wait a brief
+moment before retrying an operation. When secondaries become unavailable, they
+are ignored until they become available again. For this to work in the most
+transparent way you will need to use a load balancer (e.g. HAProxy) for every
+database host.
+
+One problem of load balancing is dealing with replication lag. For example, if a
+write happens and you then read from a secondary it's possible for said
+secondary to not yet have the data. One way of dealing with this is to use
+synchronous replication. However, synchronous replication is not ideal as
+replication lag could cause queries to take a very long time. Furthermore, if a
+replica were to become unavailable the whole system can grind to a halt.
+
+To work around this the database load balancer uses "sticky sessions". When a
+user triggers a write to the primary the user's session will keep using the
+primary. Session sticking is disabled again once a timeout expires (30 seconds),
+or when the written data is available on all secondaries.
+
+For more information on how to set up database load balancing you can refer to
+the documentation section ["Database Load Balancing"](http://docs.gitlab.com/ee/administration/database_load_balancing.html).
+
+</section>
+
+<section class="right">
+
+![Load Balancing Load](/images/9_0/load_balancing_load.png){: .shadow}
+
+![Load Balancing Memory Usage](/images/9_0/load_balancing_memory_usage.png){: .shadow}
+
+![Load Balancing Timing Improvements](/images/9_0/load_balancing_timing_improvements.png){: .shadow}
+
+</section>
+
+<section class="left">
+
 ## Updated Navigation ce ee
 
 Here at GitLab, most of our business functions (not just product development) occur on GitLab.com itself. So we definitely understand the importance of navigation. We want to make it frictionless, intuitive, and efficient for you to perform your daily tasks, especially if you are using GitLab for several hours each day.
