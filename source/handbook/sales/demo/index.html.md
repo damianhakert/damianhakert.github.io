@@ -12,14 +12,12 @@ The video below has three parts: creating a Kubernetes cluster, installing GitLa
   <iframe src="https://www.youtube.com/embed/3A8mdJl_icM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-## Overview: Continuous Delivery with GitLab and Kubernetes (1 min)
+## Overview
 {:.no_toc}
 
-GitLab is the leading single tenant development platform that covers 100% of your software development lifecycle. It connects every step of your worklfow, helping you bring modern applications from idea to production, quickly and reliably. 
+Today, modern software development teams need version control for everything, automated testing, support for complex build and deploy configurations, and end-to-end visibility and traceability so they can work to improve their software development process over time. But for most teams, getting this tooling right is incredibly difficult. 
 
-Today, modern software development teams are working to achieve a state of continuous delivery so that they can deliver value to their customers in any competitive climate. It’s important to remember that the goal of continuous delivery is not just about automating your deployments, it’s also about identifying bottlenecks in your deployment process and streamlining those over time. Architecting for Continuous Delivery requires smaller codebases, version control for everything, automated testing, support for complex build and deploy configurations, and finally end-to-end visibility and traceability so you can work to improve your software development process over time. 
-
-Getting this right will allow your team to quickly get an idea into production, get fast feedback, and rapidly iterate towards a better product. But for most teams, setting up continuous delivery systems is incredibly difficult. We built GitLab to make continuous delivery more accessible to all teams. In the next 20 minutes, I’ll show you how teams use our platform to streamline their software supply chain, reduce cycle time, and continuously deliver great software. 
+GitLab provides the most efficient platform for software development and delivery, covering the entire lifecycle from idea to production. 
 
 This demonstration will highlight [GitLab’s single platform for the full software development lifecycle](https://about.gitlab.com/direction/#scope), from idea to production, through chat, issues, planning, merge request, CI, CD, measurement, and monitoring.
 
