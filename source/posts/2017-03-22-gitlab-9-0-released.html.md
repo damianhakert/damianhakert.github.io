@@ -487,15 +487,15 @@ Sometimes chatting with your workgroup is the best way to get an idea rolling. T
 
 ### Blocking manual actions in pipelines
 
-[Manual actions](https://docs.gitlab.com/ce/ci/yaml/README.html#manual-actions) can now be configured to block pipelines until they are completed. Pipelines blocked by manual actions have a status of `manual`, and can be enabled by setting `allow_failure` to `true`.
+[Manual actions](https://docs.gitlab.com/ce/ci/yaml/README.html#manual-actions) can now be configured to block pipelines until they are completed. Pipelines blocked by manual actions have a status of `manual`, and can be enabled by setting `allow_failure` to `false`.
 
 ### Pipeline triggers with User permissions
 
 A new [Pipeline Trigger API](https://docs.gitlab.com/ce/api/pipeline_triggers.html) and UI is now available, which utilize the user level permissions of their creator. This enables the token to be used not just for the current project, but also all dependent projects as well. The Build Trigger API remains functional, however it is deprecated and will be removed soon.
 
-### CI default `cache` key is now `default`
+### New default value for CI variable cache:key
 
-The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-key) value is now `default`, allowing the cache to be shared between all pipelines and jobs within the project, increasing CI/CD efficiency and speed.
+Unless specifically configured, the value of [`cache:key`](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-key) is now `default`. This allows the cache to be shared between all pipelines and jobs within the project, increasing CI/CD efficiency and speed.
 
 ### GitLab Pages artifacts cleaned after deployment
 
@@ -554,7 +554,7 @@ to learn more.
 
 #### GitLab Runner Deprecation
 
-Please note that GitLab Runners prior to 9.0 rely on API v3, and therefore deprecated along with the v3 API. Runners 9.0 and above utilize the new v4 API.
+Please note that GitLab Runners prior to 9.0 utilize API v3, and therefore are deprecated along with the v3 API. Runners version 9.0 and above utilize the new v4 API, requiring a minimum of GitLab 9.0.
 
 #### Note
 
