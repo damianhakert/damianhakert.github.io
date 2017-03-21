@@ -507,7 +507,7 @@ Commenting in diffs is now much easier with a purple background indicating which
 Going through discussion in comments is also much easier now that we can collapse discussions and
 see note authors avatars in the sidebar of the diff.
 
-![Comments in diffs](/images/9_0/environments_folder_view.png){: .shadow}
+![Comments in diffs](/images/9_0/diff_comments.gif){: .shadow}
 
 </section>
 <!-- END OF OTHER FEATURES RIGHT BLOCK -->
