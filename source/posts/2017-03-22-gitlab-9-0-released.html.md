@@ -60,7 +60,7 @@ GitLab also provides you feedback and insight into your code and development pro
 
 ### Thank You
 
-We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. [In 9.0, there are over 130 merge requests from the community.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name%5B%5D=Community+Contribution&milestone_title=9.0&scope=all&state=merged) As an open source project, GitLab CE now has over [47,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master) (more than doubling the [20,000 count set back in 8.1](/2015/10/22/gitlab-8-1-released/)). Today, GitLab has over [over 1,500 contributors](http://contributors.gitlab.com). Thank you! 👏🙏
+We're humbled by our community continuing to actively create and comment in numerous issues, as well as directly contributing source code. [In 9.0, there are over 130 merge requests from the community.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name%5B%5D=Community+Contribution&milestone_title=9.0&scope=all&state=merged) As an open source project, GitLab CE now has over [47,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master) (more than doubling the [20,000 count set back in 8.1](/2015/10/22/gitlab-8-1-released/)). Today, GitLab has [over 1,500 contributors](http://contributors.gitlab.com). Thank you! 👏🙏
 
 ### Growth
 
@@ -111,7 +111,7 @@ Feel free to look at and provide feedback on what we are working on for [groups 
 
 GitLab has an incredibly powerful CI/CD system, with over a thousand runners executing pipelines for GitLab.com projects alone. These pipelines perform builds to compile and package software, run automated tests, spawn review apps, and can even deploy software to staging and production. To date, these deployments would report back whether the environment was successfully updated, but what if you wanted more fidelity? Or a single pane to view all deployments across all environments? For larger organizations, the answers to these questions become particularly important.
 
-Today with 9.0, we are excited to release Deploy Boards for environments running on Kubernetes. The Environments page of Pipelines now offers a single place to view the current health and deployment status of each environment, displaying the specific status of each pod in the deployment. Developers and other teammates can view the progress and status of a rollout, pod by pod, in the workflow they already use without any need for access to Kubernetes.
+Today with 9.0, we are excited to release Deploy Boards for environments running on Kubernetes. The Environments page of Pipelines now offers a single place to view the current health and deployment status of each environment, displaying the specific status of each pod in the deployment. Developers and other teammates can view the progress and status of a rollout, pod by pod, in the workflow they already use without any need to access Kubernetes.
 
 To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers.
 
@@ -368,7 +368,7 @@ release.
 | `CI_BUILD_MANUAL` | `CI_JOB_MANUAL` |
 | `CI_BUILD_TOKEN` | `CI_JOB_TOKEN` |
 
-The old variables continue to work, however are deprecated and will be removed soon.
+The old variables continue to work, however they are deprecated and will be removed soon.
 
 > [Read more about the CI variables in our documentation](https://docs.gitlab.com/ce/ci/variables/)
 
@@ -443,15 +443,15 @@ With our new version of groups in 9.0, we anticipate you'll create much more of 
 
 ![Filter Groups](/images/9_0/filter_groups.png){: .shadow}
 
-</div>
-
-<div class="column">
-
 ### Tokenized Filter and Search in Issues and Merge Requests ce ee
 
 We first introduced the new streamlined filter and search interface for issues in [8.16](/2017/01/22/gitlab-8-16-released/). With 9.0, we are tokenizing the filter attributes for even more visual clarity. Many other places in GitLab deserve this new interface. We're bringing it to merge requests in 9.0, and will roll it out to other parts of GitLab in future releases.
 
 ![Merge Requests New Search Interface](/images/9_0/mr_new_search_interface.png){: .shadow}
+
+</div>
+
+<div class="column">
 
 ### New Branch for Bare Projects ce ee
 
@@ -491,7 +491,7 @@ Sometimes chatting with your workgroup is the best way to get an idea rolling. T
 
 ### Pipeline triggers with User permissions
 
-A new [Pipeline Trigger API](https://docs.gitlab.com/ce/api/pipeline_triggers.html) and UI is now available, which utilize the user level permissions of their creator. This enables the token to be used not just for the current project, but also all dependent projects as well. The Build Trigger API remains functional however is deprecated and will be removed soon.
+A new [Pipeline Trigger API](https://docs.gitlab.com/ce/api/pipeline_triggers.html) and UI is now available, which utilize the user level permissions of their creator. This enables the token to be used not just for the current project, but also all dependent projects as well. The Build Trigger API remains functional, however it is deprecated and will be removed soon.
 
 ### CI default `cache` key is now `default`
 
@@ -499,8 +499,7 @@ The default [`cache` key](https://docs.gitlab.com/ce/ci/yaml/README.html#cache-k
 
 ### GitLab Pages artifacts cleaned after deployment
 
-In order more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
-</div>
+In order to more efficiently utilize artifact storage space, [GitLab Pages](https://pages.gitlab.io/) artifacts are now automatically deleted after they have been deployed. If you would like to retain artifacts, an [expiry duration](https://docs.gitlab.com/ce/ci/yaml/README.html#artifacts-expire_in) can be set.
 
 ### Paginated environments
 Pagination was added to environments list in order to improve performance and user experience.
@@ -516,6 +515,7 @@ see note authors avatars in the sidebar of the diff.
 
 ![Comments in diffs](/images/9_0/diff_comments.gif){: .shadow}
 
+</div>
 </section>
 <!-- END OF OTHER FEATURES RIGHT BLOCK -->
 
