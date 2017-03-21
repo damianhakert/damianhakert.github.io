@@ -542,10 +542,10 @@ Please check out [the changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/ma
 To upgrade to GitLab 9.0, downtime is required. Larger instances (>1000 users)
 should expect about 15 minutes of downtime.
 
-The specific migrations requiring downtime are described below.
-
-- ** DO WE HAVE COLUMNS WITH DEFAULT VALUES THAT ARE ADDED? **
-- ** DO WE HAVE INDEXES THAT ARE ADDED? **
+The specific migrations requiring downtime or taking significant time are described below.
+* Some columns are renamed. This operation requires downtime.
+* A new column is added to users table, which does not require downtime but may take some time to complete.
+* The builds table is updated, which does not require downtime but may take some time depending on your CI usage.
 
 GitLab 9.0 introduces a [new version of our API](#api-v4). While existing calls
 to API v3 will continue to work until August 2017, we advise you to make any
