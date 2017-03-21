@@ -1965,6 +1965,8 @@
   picture: toon.png
   twitter: to1ne
   gitlab: to1ne
+  maintains: |
+             <li><a href="http://docs.gitlab.com/ee/api/">GitLab API</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Toon's interest in electronics and computers started when he was a young boy. He
           learned how to solder using broken circuit boards his father replaced while
@@ -2015,7 +2017,9 @@
   reports_to: Discussion Lead
   picture: oswaldo.png
   twitter: olsfer
-  gitlab: oswluizf
+  gitlab: oswaldo
+  maintains: |
+             <li><a href="http://docs.gitlab.com/ee/api/">GitLab API</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Oswaldo started his engineering journey back in 2012 at a research center
           playing with a metadata extraction library. Since then, passionate about the field,
