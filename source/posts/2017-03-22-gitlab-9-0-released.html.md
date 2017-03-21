@@ -115,7 +115,7 @@ Today with 9.0, we are excited to release Deploy Boards for environments running
 
 To celebrate the launch, Deploy Boards will be available in 9.0 as a free trial for Enterprise Edition Starter customers.
 
-[Documentation link](link)
+[Documentation link](http://docs.gitlab.com/ee/user/project/deploy_boards.html)
 </div>
 
 <div class="column">
