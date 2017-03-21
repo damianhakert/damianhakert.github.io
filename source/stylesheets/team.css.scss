@@ -94,7 +94,6 @@ h4 {
   li,
   a {
     color: $color-gray;
-    font-size: 14px;
   }
 
   p {
@@ -207,6 +206,11 @@ h4 {
   right: .5em;
   font-size: 1.5em;
   color: $color-gray;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 .bio {

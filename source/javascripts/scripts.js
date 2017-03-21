@@ -171,7 +171,6 @@ $(function() {
   }
 
   function handleClick(e) {
-    e.preventDefault();
     e.stopPropagation();
     closeModal(e);
   }
