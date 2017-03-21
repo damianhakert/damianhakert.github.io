@@ -112,10 +112,10 @@ Applicants for this position can expect the hiring process to follow the order b
   - One about the GitLab codebase architecture.
   - One about proposing a boring solution about a specific topic the Edge team
   is focusing on.
-* We also ask the candidate to triage / troubleshoot a GitLab issue and to
-  review / coach a GitLab merge request (both in a fork of GitLab CE).
 * Selected candidates will be invited to schedule a 30-minute
   [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
+* The candidate will then be asked to triage / troubleshoot a GitLab issue and
+  to review / coach a GitLab merge request (both in a private fork of GitLab CE).
 * Next, candidates will be invited to schedule a 45-minute
   [behavioral interview](/handbook/hiring/#behavioral-questions-star) with the
   Edge Lead.
