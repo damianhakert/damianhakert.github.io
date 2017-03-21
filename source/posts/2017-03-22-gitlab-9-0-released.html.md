@@ -23,6 +23,13 @@ Today we are releasing GitLab 9.0, 18 months after [releasing 8.0](/2015/09/22/g
 <!-- more -->
 
 ----
+### Idea to Production
+
+In the last several releases, GitLab has transformed how development teams get from idea to production. In just a few minutes, you can deploy GitLab to a container scheduler, add CI/CD with auto deployed review apps, utilize ChatOps, and analyze your cycle time. With 9.0 you can now watch your deploys with deploy boards and monitor application performance with Prometheus. Building on our [Master Plan](https://about.gitlab.com/2016/09/14/gitlab-live-event-recap/), GitLab 9.0 truly delivers the entire DevOps toolchain, so let's see how it all fits together:
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/PoBaY_rqeKA" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ### Usability and Design
 
