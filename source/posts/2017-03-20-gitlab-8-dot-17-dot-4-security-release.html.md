@@ -206,14 +206,14 @@ interfaces other than those assigned as GitLab web or SSH services (Typically
 ports 22 and 443). This update also blocks all import attempts from TCP ports 
 below 1024 with the exception of ports 22, 80 and 443. [17286]
 
-Thanks to [Strukt] at [HackerOne] for reporting this vulnerability.
+Thanks to [Strukt] via [HackerOne] for reporting this vulnerability.
 
 [17286]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17286
 [Strukt]: https://hackerone.com/strukt
 
 ### Links in Environments tab vulnerable to tabnabbing
 
-[edio] from [HackerOne] reported that user-configured Environment links include
+[edio] via [HackerOne] reported that user-configured Environment links include
 `target=_blank` but do not also include `rel: noopener noreferrer`. Anyone 
 clicking on these links may therefore be subjected to tabnabbing attacks where
 a link back to the requesting page is maintained and can be manipulated by the 
