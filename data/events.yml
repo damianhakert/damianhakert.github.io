@@ -1,21 +1,3 @@
-- topic: Google Next
-  type: Cloud
-  date: March 8-10, 2017
-  description: |
-               Stop by our booth to get a demo on going from idea to production on Google Container Engine.
-  location: San Francisco, CA USA
-  social_tags: GoogleNext, GitLabonGKE
-  event_url: https://cloudnext.withgoogle.com/
-  
-- topic: Cloud Expo Europe
-  type: DevOps, Containers
-  date: March 15-16, 2017
-  description: |
-               Come to see Richard Pidgeon and Sean Packhan speak on the DevOps stage at the leading cloud event in the world.
-  location: London, England
-  social_tags: GitLabforDevOps
-  event_url: http://www.cloudexpoeurope.com/why-exhibit/devops-live-jxco
-
 - topic: GitLab 9.0 Release SF
   type: Meetup
   date: March 22, 2017
